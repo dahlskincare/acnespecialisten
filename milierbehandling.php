@@ -46,25 +46,12 @@ $description_text = '<p class="p200">Våra milierbehandlingar är specifikt utve
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför milierbehandling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför milierbehandling',
         image_title: 'Förberedelser inför milierbehandling',
         content: '<p class="p200">För att förbereda din hud för behandlingen och optimera resultaten rekommenderar vi några enkla åtgärder. Undvik helst produkter med starka ingredienser eller exfolierande syror ett par dagar före din behandling för att minska risken för hudirritation och för att göra huden mer mottaglig för den behandling vi ska utföra.</p>
             <p class="p200 mt-m">Det är inte nödvändigt att du kommer osminkad; vi kan varsamt rengöra din hud på plats. Vår prioritet är att ge dig en personligt anpassad behandlingserfarenhet och en behandlingsplan som är skräddarsydd för just dina behov, oavsett om det gäller milier i ansiktet eller på andra delar av kroppen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -76,8 +63,8 @@ $big_types = array(
         duration: '60 min',
         price: null,
         content: '<p class="p200">Vi inleder med en grundlig rengöring för att förbereda huden. Istället för traditionell exfoliering som kan vara för hård för huden med milier, använder vi skonsamma metoder för att lösgöra de små cystorna. Därefter tillämpar vi specialtekniker för att försiktigt avlägsna milier utan att skada huden. Om det finns ett behov av porrengöring utförs detta med stor omsorg för att inte irritera huden ytterligare. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Milierbehandling',
         image_title: 'Milierbehandling',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
@@ -86,15 +73,14 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia',
         booking_url_label: 'Boka Milierbehandling',
         booking_url_title: 'Boka Milierbehandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
     ),
 );
 
 $bottom_articles = array(
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter milierbehandling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
         content: '<p class="p200">Efter en specialiserad milierbehandling hos AcneSpecialisten är korrekt eftervård essentiell för att bibehålla resultaten och underlätta hudens återhämtning. För att vårda din hud efter milierborttagningen rekommenderar vi att du fortsätter med en hudvårdsrutin som innefattar produkter specifikt utvalda för att nära och skydda huden. En effektiv hudvårdsregim bör vara personligt anpassad. Genom att använda lämpliga hudvårdsprodukter regelbundet kan du inte bara behålla de positiva resultaten av milierbehandlingen men också förstärka hudens motståndskraft mot framtida hudproblem.</p>',

@@ -51,47 +51,21 @@ $description_text = '<p class="p200">Permanent hårborttagning med laser represe
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför permanent hårborttagning',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför permanent hårborttagning',
         image_title: 'Förberedelser inför permanent hårborttagning',
         content: '<p class="p200">Förberedelserna inför permanent hårborttagning består av en konsultation som är en viktig del av processen för att uppnå bästa möjliga resultat. Denna behandling är skräddarsydd för att effektivt och säkert reducera oönskat hår på olika delar av kroppen. Innan din laserbehandling rekommenderar vi att du undviker att vaxa eller noppa hår i behandlingsområdet, eftersom laserenergin fokuserar på hårfolliklarna som måste vara intakta för effektiv behandling. Istället ska området rakas dagen innan behandlingen.</p>
         <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under de veckor som leder upp till din behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för att motta laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går behandlingen till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går behandlingen till?',
         image_title: 'Hur går behandlingen till?',
         content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket skadar folliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Behandlingen utförs med precision för att säkerställa optimal komfort och effektivitet.</p>
         <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser kan flera behandlingar behövas för att uppnå fullständigt och långvarigt resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -99,8 +73,8 @@ $combos_title = 'Populära behandlingskombinationer';
 $combos = array(
     new ServiceCombo(
         name: 'Bikinilinje + Hela ben',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Bikinilinje + Hela ben',
         image_title: 'Bikinilinje + Hela ben',
         duration: '80 min',
@@ -128,8 +102,8 @@ $treatment_areas_text = '<p class="p200">Permanent hårborttagning med laser är
 
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
@@ -193,8 +167,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
@@ -291,8 +265,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Intim (Kvinna)',
         image_title: 'Intim (Kvinna)',
         title: 'Intim (Kvinna)',
@@ -345,8 +319,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Intim (Man)',
         image_title: 'Intim (Man)',
         title: 'Intim (Man)',
@@ -399,8 +373,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ben',
         image_title: 'Ben',
         title: 'Ben',
@@ -445,14 +419,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Permanent Hårborttagning',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård för Permanent Hårborttagning',
     image_title: 'Eftervård för Permanent Hårborttagning',
     content: '<p class="p200">Efter en behandling med permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
     <p class="p200 mt-m">Undvik hård skrubbning och använd inte irriterande hudvårdsprodukter. Det är också viktigt att undvika andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Använd ett högt SPF-solskydd om du måste vara utomhus, för att skydda huden från ytterligare skador och stödja återhämtningsprocessen.</p>
     <p class="p200 mt-m">Om du upplever någon ovanlig irritation eller har frågor om din återhämtning, är det viktigt att du kontaktar oss. En korrekt skötsel efter din behandling för permanent hårborttagning är nyckeln till en snabb och problemfri återhämtning, och hjälper till att upprätthålla och optimera behandlingens resultat.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för Permanent Hårborttagning';

@@ -93,8 +93,8 @@ $treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" ti
 $top_articles = array(
     'areas' => new Article(
         title: 'Områden för födelsemärken',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Födelsemärken är vanligt förekommande hudförändringar som kan uppstå var som helst på kroppen. De varierar i storlek, form och färg och kan vara platta eller upphöjda. De flesta födelsemärken är ofarliga, men det är viktigt att hålla koll på eventuella förändringar som kan tyda på hudproblem.</p>
@@ -105,8 +105,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för mina födelsemärken?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för mina födelsemärken?',
             image_title: 'När ska jag söka hjälp för mina födelsemärken?',
             content: '<p class="p200">Födelsemärken är vanligtvis ofarliga, men det är viktigt att hålla koll på dem för eventuella förändringar. Om du märker några förändringar i storlek, form, färg eller om födelsemärken orsakar obehag, bör du söka professionell hjälp. En hudspecialist kan bedöma dina födelsemärken och rekommendera lämplig behandling om det behövs.</p>',
@@ -114,8 +114,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
             content: '<p class="p200">På AcneSpecialisten är vi specialiserade på att behandla födelsemärken och andra hudförändringar. Vi erbjuder säkra och effektiva behandlingsalternativ för att hjälpa dig att hantera dina födelsemärken.</p>',

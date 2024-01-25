@@ -61,15 +61,15 @@ $treat_content = '<p class="p200">När din finntyp har identifierats, inleder vi
 
 $services = array(
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Effektiv Ansiktsbehandling mot Finnar på AcneSpecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot finnar utförd på AcneSpecialisten',
 
         title: 'Ansiktsbehandling mot Finnar',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
+        icons: array(),
         content: '<p class="p200">Ansiktsbehandling mot finnar på AcneSpecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och finnar elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'boka-hudkonsultation-finnar',
@@ -89,14 +89,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Klient som genomgår laserbehandling mot finnar',
         image_alt: 'Bild av laserbehandling mot finnar hos AcneSpecialisten',
         title: 'Effektiv laserbehandling mot finnar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
+        icons: array(),
         content: '<p class="p200">Laserbehandling för finnar hos AcneSpecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar finnar. Laserstrålen tränger ner i huden och behandlar de djupa lager där finnar börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till finnarutbrott.</p>',
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
@@ -113,14 +113,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av kemisk peelingbehandling för finnar',
         image_alt: 'Bild på kemisk peelingbehandling mot finnar hos AcneSpecialisten',
         title: 'Kemisk peeling mot finnar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
+        icons: array(),
         content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla finnar. På AcneSpecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av ärr från finnar och att förbättra hudens textur och utseende.</p>',
         consultation_url: 'hudkonsultation-finnar',
         consultation_url_label: 'Boka konsultation',
@@ -135,14 +135,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av microneedlingbehandling för finnar',
         image_alt: 'Bild på microneedlingbehandling mot finnar hos AcneSpecialisten',
         title: 'Effektiv microneedling mot finnar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
+        icons: array(),
         content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot finnar som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med finnar genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
         consultation_url: 'microneedling-konsultation-finnar',
         consultation_url_label: 'Boka konsultation',
@@ -162,8 +162,8 @@ $headline03 = "03. Förebygg finnar";
 
 $products = array(
     new Product(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot finnar',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot finnar',
 

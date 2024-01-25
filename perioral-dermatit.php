@@ -431,8 +431,8 @@ $services = array(
             price: '995 kr',
             content: 'Denna ansiktsbehandling är specialanpassad för personer med perioral dermatit. Behandlingen syftar till att lindra symtom och förbättra hudens skick genom en skonsam och noggrann rengöring av de drabbade områdena.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-perioral-dermatit.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-perioral-dermatit.webp',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling mot perioral dermatit',
             image_title: 'Ansiktsbehandling mot perioral dermatit',
 
@@ -459,8 +459,8 @@ $products = array(
             price: 'Pris från 1495 kr',
             content: 'Daglig skötsel av huden är viktig för att hålla perioral dermatit i schack. Våra produkter är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
-            image_small: 'images/services/200x200/produkter-perioral-dermatit.webp',
-            image_large: 'images/services/200x200/produkter-perioral-dermatit.webp',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av perioral dermatit',
             image_title: 'Effektiva produkter för lindring och förebyggande av perioral dermatit',
 
@@ -481,8 +481,8 @@ $products = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för min perioral dermatit?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för min perioral dermatit?',
             image_title: 'När ska jag söka hjälp för min perioral dermatit?',
             content: '<p class="p200">Perioral dermatit är en hudsjukdom som oftast påverkar området runt munnen och ibland näsan eller ögonen. Detta tillstånd kan vara smärtsamt, obehagligt och estetiskt störande.</p>
@@ -493,8 +493,8 @@ $articles = array(
             title: 'När ska jag besöka AcneSpecialisten för Perioral Dermatit?',
             content: '<p class="p200">Om du märker att din perioral dermatit påverkar din livskvalitet, eller om du har provat olika behandlingsalternativ och produkter utan framgång, är det dags att söka professionell hjälp. Ju tidigare du agerar, desto större chans att effektivt behandla och hantera ditt tillstånd. Vi är specialister inom hudvård och kan erbjuda skräddarsydda behandlingsplaner som är anpassade till just ditt hudproblem.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla perioral dermatit och kan rekommendera de bästa produkterna och behandlingarna för din unika hudtyp. Tveka inte att boka en gratis konsultation för att ta första steget mot en friskare och mer komfortabel hud.</p>',
 
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag besöka Specialisten för Perioral Dermatit?',
             image_title: 'När ska jag besöka Specialisten för Perioral Dermatit?',
       ),

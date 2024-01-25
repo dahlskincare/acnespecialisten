@@ -56,19 +56,6 @@ $top_articles = array(
         image_title: null,
         content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
         <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, därför rekommenderar vi alltid att du börjar med en kostnadsfri konsultation.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Rengöring'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går kemisk peeling behandlingar till?',
@@ -78,20 +65,6 @@ $top_articles = array(
         image_title: null,
         content: '<p class="p200">På AcneSpecialisten erbjuder vi specialiserade kemiska peelingbehandlingar som är anpassade för att möta en mängd olika hudproblem. Vi förstår att varje persons hud är unik och skräddarsyr därför varje behandling för att passa just dina individuella behov och hudtillstånd. Våra erfarna hudterapeuter använder sin expertis och djupgående kunskap för att ge dig den bästa möjliga vård och resultat.</p>
         <p class="p200 mt-m">Varje kemisk peelingbehandling inleds med en grundlig rengöring för att förbereda huden. Detta följs av appliceringen av en specifikt utvald peelinglösning, som är anpassad efter din hudtyp och de hudproblem som ska behandlas. Denna lösning arbetar för att exfoliera de övre hudlagren och stimulerar hudens naturliga förnyelseprocess. Beroende på behandlingens intensitet, kan du uppleva en lätt stickande känsla under denna fas. Efter att peelingen har verkat tillräckligt länge neutraliseras den noggrant för att säkerställa din komfort och säkerhet. Avslutningsvis appliceras en lugnande och återfuktande mask för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en återfuktande kräm som hjälper din hud att känna sig återupplivad och förnyad.</p>',
-
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Rengöring'
-        ))
     ),
 );
 
@@ -112,7 +85,6 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic',
         booking_url_label: 'Boka Skin Tech Easy Phytic Peel',
         booking_url_title: 'Boka Skin Tech Easy Phytic Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -140,8 +112,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
         <p class="p200 mt-m">Easy Droxy Versicolor Peel är designad för att ge maximal komfort under behandlingen och kräver ingen neutralisering. Efter behandlingen återställs hudens fuktbalans och rodnad minskas, vilket gör att huden känns lugn och återfuktad. Denna peeling är idealisk för de som önskar synliga resultat utan en lång återhämtningsperiod. Användningen av Easy Droxy Versicolor Peel är ett effektivt steg mot en mer strålande och jämn hud, och den är ett utmärkt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
         image_title: 'Skin Tech Easy Droxy Versicolor Peel',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -150,7 +122,6 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor',
         booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
         booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -178,8 +149,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy TCA Pain Control är en avancerad kemisk peeling som erbjuder kraftfulla resultat i kampen mot åldrande, ojämn hudstruktur och hudton, samt missfärgningar. Denna peeling är särskilt utformad för att erbjuda en djupgående förnyelse av huden, vilket gör den perfekt för de som söker märkbara förbättringar i hudens utseende och kvalitet.</p>
         <p class="p200 mt-m">Under behandlingen appliceras Easy TCA Pain Control varsamt för att behandla hudens djupare lager, vilket stimulerar cellförnyelse och kollagenproduktion. Denna process bidrar till att dramatiskt reducera synliga tecken på åldrande som fina linjer och rynkor, och hjälper till att jämnar ut hudtonen och strukturen. En av de stora fördelarna med Easy TCA Pain Control är dess förmåga att kontrollera obehag under behandlingen, vilket säkerställer en bekvämare upplevelse för patienten. Efter peelingen får huden nödvändig vård för att återhämta sig och för att maximera behandlingseffekten. Skin Tech Easy TCA Pain Control är idealisk för de som önskar en djup och effektiv behandling för att återställa hudens ungdomliga glöd.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Skin Tech Easy TCA Pain Control',
         image_title: 'Skin Tech Easy TCA Pain Control',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -188,7 +159,6 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA',
         booking_url_label: 'Boka Skin Tech Easy TCA Pain Control',
         booking_url_title: 'Boka Skin Tech Easy TCA Pain Control',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -217,8 +187,8 @@ $big_types = array(
         content: '<p class="p200">PRX-T33 är en innovativ kemisk peeling som erbjuder exceptionella resultat för att bekämpa tecken på åldrande, som rynkor, fina linjer, pigmenteringar och bristningar. Denna avancerade behandling är utformad för att ge intensiv förnyelse och förbättring av hudens struktur och ton utan den avskalning som traditionella peelings kan medföra.</p>
         <p class="p200 mt-m">Under PRX-T33-behandlingen appliceras en speciell lösning som verkar djupt in i huden för att stimulera kollagenproduktionen och förnya hudcellerna. Detta bidrar till att effektivt minska tecken på åldrande och förbättra hudens övergripande utseende. Unikt för PRX-T33 är dess förmåga att ge dramatiska resultat utan längre återhämtningstid, vilket gör den idealisk för de som önskar snabba, märkbara förbättringar.</p>
         <p class="p200 mt-m">PRX-T33 är särskilt lämplig för de som vill återställa hudens lyster och ungdomliga utstrålning. Dess skonsamma men effektiva formula säkerställer en behaglig behandlingsupplevelse, vilket gör den till ett utmärkt val för de som söker en kraftfull men icke-invasiv lösning för att förbättra hudens kvalitet.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'PRX-T33',
         image_title: 'PRX-T33',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -227,7 +197,6 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_PRX',
         booking_url_label: 'Boka PRX-T33',
         booking_url_title: 'Boka PRX-T33',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -389,8 +358,8 @@ $treatment_areas_title = 'Behandlingsområden för Kemisk Peeling';
 $treatment_areas_text = '<p class="p200">Kemisk peeling är en mångsidig behandlingsmetod som är lämplig för att förbättra hudens tillstånd i ansiktet, på halsen, dekolletaget och ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte & kropp',
         image_title: 'Ansikte & kropp',
         title: 'Ansikte & kropp',
@@ -446,8 +415,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för kemisk peeling',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård för kemisk peeling',
     image_title: 'Eftervård för kemisk peeling',
     content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>

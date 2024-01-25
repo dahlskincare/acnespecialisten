@@ -51,49 +51,22 @@ $description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus,
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
         image_title: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
         content: '<p class="p200">Att förbereda sig inför en IPL-behandling för ytliga blodkärl innebär att följa vissa steg för att maximera behandlingens effektivitet och säkerhet. Det börjar med en detaljerad konsultation med en erfaren hudterapeut som utvärderar din hudtyp och de områden där ytliga blodkärl är framträdande. Under denna konsultation skapas en behandlingsplan anpassad efter dina unika behov.</p>
         <p class="p200 mt-m">Inför din IPL-behandling är det viktigt att undvika sol och självbrunande produkter minst två veckor i förväg. Detta för att minska risken för oönskad pigmentering eftersom behandlingen riktar sig mot pigment och blodkärl i huden. Du bör också undvika produkter som innehåller retinol, starka syror eller exfolierande ämnen dagarna före din behandling för att undvika överkänslighet eller irritation. Din hudterapeut kommer att ge dig noggranna instruktioner om hur du förbereder dig inför behandlingen och viktiga steg för eftervården för att främja en lyckad läkningsprocess.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går en IPL mot Ytliga Blodkärl till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går en IPL mot Ytliga Blodkärl till?',
         image_title: 'Hur går en IPL mot Ytliga Blodkärl till',
         content: '<p class="p200">IPL-behandling mot ytliga blodkärl är en avancerad procedur som använder Intensivt Pulserande Ljus för att effektivt minska synligheten av dessa blodkärl. När du anländer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna makeup och orenheter. Dina ögon kommer också att skyddas med speciella skyddsglasögon för att säkerställa att de inte exponeras för det intensiva ljuset.</p>
         <p class="p200 mt-m">Vi anpassar vår IPL-enhet för att justera ljuspulsens intensitet och våglängd till ditt hudtillstånd. Under behandlingen appliceras korta och intensiva ljuspulser direkt på de hudområden där ytliga blodkärl är synliga. Ljuset absorberas av blodkärlen, vilket minskar deras synlighet och förbättrar hudens utseende utan att skada omkringliggande vävnad.</p>
-        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, liknande en mild solbränna. Dessa symtom är vanligtvis temporära och avtar inom några timmar till dagar. Resultaten av IPL-behandlingen mot ytliga blodkärl blir ofta märkbara över tid, med en gradvis minskning av synligheten av blodkärlen och en förbättring av hudens allmänna skick. Din hudterapeut kommer att ge dig råd om eftervård och kan rekommendera uppföljningsbehandlingar för att bibehålla och förstärka effekterna av din IPL-behandling.</p>
-',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
+        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, liknande en mild solbränna. Dessa symtom är vanligtvis temporära och avtar inom några timmar till dagar. Resultaten av IPL-behandlingen mot ytliga blodkärl blir ofta märkbara över tid, med en gradvis minskning av synligheten av blodkärlen och en förbättring av hudens allmänna skick. Din hudterapeut kommer att ge dig råd om eftervård och kan rekommendera uppföljningsbehandlingar för att bibehålla och förstärka effekterna av din IPL-behandling.</p>',
     ),
 );
 
@@ -101,8 +74,8 @@ $treatment_areas_title = 'Behandlingsområden för IPL mot ytliga blodkärl';
 $treatment_areas_text = '<p class="p200">Med IPL behandlar vi ytliga blodkärl i ansiktet.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
@@ -158,8 +131,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för IPL mot ytliga blodkärl',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård för IPL-behandling mot ytliga blodkärl',
     image_title: 'Eftervård för IPL mot ytliga blodkärl',
     content: '<p class="p200">Eftervården är en central del av återhämtningsprocessen efter en IPL-behandling mot ytliga blodkärl. Efter behandlingen kan det förekomma en viss rodnad och ibland en mild svullnad i de behandlade områdena. Dessa reaktioner är vanliga och bör avta relativt snabbt. Det är viktigt för att undvika irritation och infektion att inte röra det behandlade området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>

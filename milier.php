@@ -305,8 +305,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under ett personligt möte med en av AcneSpecialistens hudexperter utförs en undersökning av dina milier. Vi tar före-bilder på det drabbade området och rekommenderar en skräddarsydd behandlingsplan utformad efter dina specifika behov.',
 
-      image_small: 'images/services/200x200/konsultation-milier.webp',
-      image_large: 'images/services/200x200/konsultation-milier.webp',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för milierbehandling',
       image_title: 'Konsultation för milierbehandling',
 
@@ -332,8 +332,8 @@ $services = array(
             price: '995 kr',
             content: 'Vår behandling mot milier syftar till att noggrant avlägsna dessa små cystor. Genom att använda säkra och effektiva extraktionsmetoder, hjälper vi dig att bli av med milier och därmed förbättra hudens övergripande utseende.',
 
-            image_small: 'images/services/200x200/behandling-milier.webp',
-            image_large: 'images/services/200x200/behandling-milier.webp',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en behandling mot milier',
             image_title: 'Behandling mot milier',
 
@@ -354,8 +354,8 @@ $services = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med mina milier?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med mina milier?',
             image_title: 'När ska jag söka hjälp med mina milier?',
             content: '<p class="p200">Milier är små, vita eller gulaktiga cystor som kan uppstå på huden hos personer i alla åldrar. Även om milier är ofarliga och mestadels estetiska bekymmer, kan de ändå påverka självkänslan eller ge upphov till obehag. Om du har provat olika hudvårdsprodukter och hemmabehandlingar utan framgång, eller om milier börjar påverka ditt välbefinnande, kan det vara dags att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för dina milier.</p>
@@ -364,8 +364,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             content: '<p class="p200">Om du letar efter en effektiv lösning för dina milier, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i att behandla olika hudåkommor, inklusive milier, kan vi erbjuda en individuellt skräddarsydd behandlingsplan som är perfekt anpassad för dig.</p>

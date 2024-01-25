@@ -118,8 +118,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår gravid finnar?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Gravid finnar uppstår ofta på grund av hormonella förändringar under graviditeten, vilket kan öka hudens talgproduktion och leda till tilltäppta porer. Dessa förändringar är vanligast i ansiktet, men kan även påverka andra delar av kroppen. Vår expertis på AcneSpecialisten innebär att vi noggrant analyserar din hud och dess förändringar under graviditeten, för att identifiera de mest effektiva behandlingsmetoderna.</p>
@@ -130,8 +130,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för gravid finnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för gravid finnar?',
             image_title: 'När ska jag söka hjälp för gravid finnar?',
             content: '<p class="p200">Gravid finnar kan vara både fysiskt och emotionellt påfrestande. Om du upplever en ökad frekvens eller svårighetsgrad av utbrott under graviditeten, och vanliga hudvårdsprodukter inte ger lindring, kan det vara läge att söka professionell hjälp.</p>
@@ -140,8 +140,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
             image_title: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
             content: '<p class="p200">När det gäller att hantera gravid finnar, är AcneSpecialisten experten du kan lita på. Med över 30 års erfarenhet inom hudvård och en djup förståelse för de unika utmaningarna som graviditet kan medföra för huden, erbjuder vi specialiserade lösningar för att hantera din hud på ett säkert och effektivt sätt under denna speciella tid.</p>

@@ -98,8 +98,8 @@ $treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" titl
 $top_articles = array(
     'areas' => new Article(
         title: 'Var uppstår melasma och varför?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Melasma uppstår ofta på hudområden som regelbundet utsätts för sol, såsom ansikte, händer och armar. Denna typ av hyperpigmentering uppstår på grund av en ökning i melaninproduktionen, det naturliga pigmentet som färgar huden. Ofta är detta en reaktion på långvarig exponering för solens UV-strålar. Dessutom spelar hudens åldringsprocess en roll i melasmas utveckling, eftersom hudens förmåga att återhämta sig från och reparera solskador minskar med åldern.</p>',
@@ -109,8 +109,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När bör du söka hjälp för Melasma?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När bör du söka hjälp för Melasma?',
             image_title: 'När bör du söka hjälp för Melasma?',
             content: '<p class="p200">Melasma kan vara en naturlig del av hudens åldrande och orsaka estetiska bekymmer. Om du känner att din melasma påverkar ditt självförtroende eller om du är bekymrad över dess utseende, kan det vara dags att söka professionell hjälp. Även om melasma i sig inte är farligt, är det viktigt att få en korrekt diagnos för att utesluta andra hudtillstånd. En hudterapeut kan ge dig råd om effektiva behandlingar och strategier för att förebygga melasma.</p>',
@@ -118,8 +118,8 @@ $articles = array(
 
       new Article(
             title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
             image_title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
             content: '<p class="p200">AcneSpecialisten är välrenommerad för sin expertis inom behandling av melasma. Med vår djupa förståelse och erfarenhet, samt tillgång till de senaste behandlingsteknikerna, erbjuder vi individuellt anpassade behandlingsstrategier för varje klient. Vårt mål är inte enbart att behandla de yttre tecknen på melasma, utan även att proaktivt arbeta mot att förebygga framtida hudproblem.</p>

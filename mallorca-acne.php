@@ -110,7 +110,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot Mallorca akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot Mallorca akne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot Mallorca akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot Mallorca akne</a>';
 
 $results = array(
       new ResultCustomer(

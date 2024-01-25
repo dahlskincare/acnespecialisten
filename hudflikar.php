@@ -93,8 +93,8 @@ $treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" ti
 $top_articles = array(
     'areas' => new Article(
         title: 'Områden för hudflikar',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Hudflikar, även kända som skintags, är små hudutväxter som ofta bildas i områden med mycket friktion eller hud-mot-hud kontakt, såsom hals, armhålor och under brösten. Dessa ofarliga utväxter varierar i storlek och färg och är vanligen mjuka och rörliga vid beröring.</p>
@@ -105,8 +105,8 @@ $top_articles = array(
 $articles = array(
     new Article(
         title: 'När är det dags att söka hjälp för hudflikar?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'När är det dags att söka hjälp för hudflikar?',
         image_title: 'När är det dags att söka hjälp för hudflikar?',
         content: '<p class="p200">Hudflikar är vanligtvis ofarliga men bör övervakas. Om du upplever irritation, obehag eller märker förändringar i storlek, form eller färg, är det lämpligt att konsultera en specialist.</p>',
@@ -114,8 +114,8 @@ $articles = array(
 
     new Article(
         title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
         image_title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
         content: '<p class="p200">AcneSpecialisten är experter på att behandla hudflikar, och erbjuder skräddarsydda lösningar. Våra behandlingar är både säkra och effektiva, och vi använder de senaste teknikerna för att uppnå bästa möjliga resultat. Vårt team av specialiserade hudterapeuter tillhandahåller professionell rådgivning och behandling, och hjälper dig att uppnå en slätare och jämnare hudton.</p>',

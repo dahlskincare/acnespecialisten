@@ -115,8 +115,8 @@ $treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effekti
 $top_articles = array(
     'areas' => new Article(
         title: 'Var uppstår inflammatorisk akne och varför?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Inflammatorisk akne uppstår när hårfolliklar och talgkörtlar i huden blir inflammerade. Denna typ av akne är ofta mer smärtsam och synlig än icke-inflammatorisk akne, och kännetecknas av röda, svullna utslag. Orsakerna till inflammatorisk akne är mångfacetterade och inkluderar hormonella förändringar som leder till ökad talgproduktion, vilket kan kombineras med bakterier och döda hudceller för att blockera porerna och orsaka inflammation.</p>

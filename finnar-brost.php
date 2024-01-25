@@ -115,8 +115,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behand
 $top_articles = array(
     'areas' => new Article(
         title: 'Varför uppstår finnar på bröstet?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>
@@ -127,16 +127,16 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'Viktiga tecken på att du bör söka hjälp för finnar på bröstet',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Tecken på att söka hjälp för bröstfinnar',
             image_title: 'Tecken på att söka hjälp för bröstfinnar',
             content: '<p class="p200">Finnar på bröstet kan vara mer än bara ett estetiskt problem – de kan även vara en källa till obehag och emotionell oro. Om du upptäcker att dina finnar är återkommande eller försämras, är det dags att överväga professionell hjälp. Tidig intervention är viktig för att förhindra ärrbildning och andra långsiktiga hudproblem. Genom att söka professionell rådgivning kan du få hjälp med att behandla befintliga utbrott och lära dig förebyggande strategier och skapa en effektiv hudvårdsrutin.</p>',
       ),
   new Article(
         title: 'Varför välja AcneSpecialisten för behandling av finnar på bröstet?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
         image_title: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
         content: '<p class="p200">Vår expertis möjliggör skräddarsydda behandlingsplaner anpassade till varje individs unika behov. På AcneSpecialisten fokuserar vi inte bara på att behandla dina nuvarande hudproblem, utan också på att utbilda dig i hur du kan bibehålla en hälsosam hud på lång sikt. Vårt engagemang och vår kunskap gör oss till det bästa valet för dem som söker en varaktig lösning på sina hudproblem, och vi strävar efter att du ska känna dig säker och nöjd med din hudvård.</p>',

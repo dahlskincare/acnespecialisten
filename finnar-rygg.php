@@ -116,8 +116,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behand
 $top_articles = array(
     'areas' => new Article(
         title: 'Varför uppstår finnar på ryggen?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Finnar på ryggen kan ofta uppstå genom en samverkan av flera faktorer, inklusive hormonella förändringar som ökar talgproduktionen och leder till tilltäppta porer. En annan betydande bidragande faktor är stress, som kan förvärra hudens tillstånd. Dessutom kan friktion från kläder och sportutrustning, som till exempel skydd vid hockey, skapa ett miljö som främjar utvecklingen av finnar genom ökad svettning och irritation av huden. Även om finnar främst uppträder på ryggen, är det inte ovanligt att de också dyker upp på andra kroppsområden som bröstet. På AcneSpecialisten betonar vi vikten av att förstå din specifika hudtyp och dess behov för att kunna erbjuda de mest effektiva behandlingsalternativen för finnar på ryggen.</p>
@@ -128,8 +128,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
             image_title: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
             content: '<p class="p200">Finnar på ryggen kan vara mer än ett estetiskt bekymmer - de kan också vara en källa till både fysiskt och emotionellt obehag. Om dina finnar är ihållande eller förvärras, kan det vara dags att söka professionell hjälp. Tidig behandling är central för att förebygga ärrbildning och andra bestående effekter på huden. Genom att söka professionell rådgivning får du inte bara hjälp med att behandla nuvarande utbrott, utan även värdefulla insikter i förebyggande metoder och anpassade hudvårdsrutiner.</p>',
@@ -137,8 +137,8 @@ $articles = array(
 
       new Article(
             title: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
             image_title: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
             content: '<p class="p200">Vi på AcneSpecialisten utformar individuellt anpassade behandlingsplaner för varje kund. Vår målsättning är inte bara att lindra dina aktuella hudproblem, utan även att ge dig kunskapen att upprätthålla en hälsosam hud över tid. Vårt engagemang och expertis gör oss till det självklara valet för dem som söker långsiktiga lösningar på finnar på ryggen, och vi strävar efter att du ska känna dig trygg och tillfreds med din hudvård.</p>',

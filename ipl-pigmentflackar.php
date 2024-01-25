@@ -51,48 +51,22 @@ $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Lj
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför behandling med IPL mot pigmentfläckar',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Inför behandling med IPL mot pigmentfläckar',
         image_title: 'Inför behandling med IPL mot pigmentfläckar',
         content: '<p class="p200">Att förbereda sig inför en IPL-behandling för att reducera pigmentfläckar innebär att följa viktiga steg för att säkerställa att din hud är optimalt förberedd för proceduren. En initial konsultation med en kvalificerad hudterapeut är avgörande. Under detta möte kommer din hud att noggrant analyseras för att skapa en skräddarsydd behandlingsplan som är inriktad på att minska dina pigmentfläckar med IPL-teknik.</p>
         <p class="p200 mt-m">För att förbereda din hud är det viktigt att undvika direkt sol exponering och inte använda självbrunande produkter minst två veckor före behandlingen. Detta är för att minska risken för ojämn pigmentering, eftersom IPL-behandlingen är mest effektiv när huden är i sin naturligaste ton. Dessutom bör du undvika hudvårdsprodukter som innehåller retinol eller andra starka exfolierande ingredienser under veckan före din behandling. Din hudterapeut kommer att ge dig fullständiga instruktioner om ytterligare förberedelser och råd om hur du kan ta hand om din hud både före och efter din IPL-behandling för att säkerställa optimala resultat och en säker läkningsprocess.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går IPL mot pigmentfläckar till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går IPL mot pigmentfläckar till?',
         image_title: 'Hur går IPL mot pigmentfläckar till?',
         content: '<p class="p200">IPL-behandling är en framstående metod för att effektivt minska pigmentfläckar och förbättra hudens övergripande utseende. Vid ditt besök på vår klinik börjar vi med att noggrant rengöra din hud för att ta bort alla makeuprester och orenheter. Ett speciellt ögonskydd appliceras för att skydda dina ögon från det intensiva ljuset under behandlingen.</p>
         <p class="p200 mt-m">Vår IPL-enhet justeras noggrant för att anpassa ljuspulsernas intensitet och våglängd specifikt till dina pigmentfläckar och hudtyp. Under behandlingen avges korta, intensiva pulser av ljus som tränger djupt in i huden. Dessa ljuspulser är riktade mot pigmentfläckarna och omvandlar ljuset till värme, vilket effektivt bryter ner det oönskade pigmentet utan att skada omkringliggande hudvävnad.</p>
         <p class="p200 mt-m">Efter behandlingen är det vanligt att känna en lätt rodnad och värme i huden, liknande känslan efter en mild solbränna, men dessa symtom är övergående och bör avta ganska snabbt. Resultaten utvecklas över tid, och du kan förvänta dig att gradvis se en minskning av pigmentfläckarna och en jämnare, klarare hudton. Din hudterapeut kommer att ge dig specifika råd om eftervård för att säkerställa de bästa möjliga resultaten och främja en effektiv läkningsprocess.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -100,8 +74,8 @@ $treatment_areas_title = 'Behandlingsområden för IPL mot pigmentfläckar';
 $treatment_areas_text = '<p class="p200">Med IPL kan vi effektivt behandla en rad olika områden på kroppen, inklusive ansikte, hals, händer och bröst.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
@@ -176,8 +150,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
@@ -219,8 +193,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
@@ -298,14 +272,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter IPL mot pigmentfläckar',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Efter IPL mot pigmentfläckar',
     image_title: 'Efter IPL mot pigmentfläckar',
     content: '<p class="p200">Eftervården är en kritisk del för att säkerställa framgångsrika resultat och en smidig läkningsprocess efter en IPL-behandling mot pigmentfläckar. Det är inte ovanligt att känna av viss rodnad och svullnad i det behandlade området direkt efter behandlingen. För att minska risken för irritation och infektioner, bör du undvika att röra området med smutsiga händer och avstå från att använda makeup eller parfymerade produkter under de första 24 timmarna.</p>
     <p class="p200 mt-m">Under de första dagarna post-behandling är det också viktigt att undvika intensiv fysisk aktivitet, bastubad och långa varma duschar, som kan förstärka svullnad och irritation. Användning av hög SPF-solskydd är avgörande för att skydda huden mot UV-strålning, särskilt i det behandlade området. Dessutom rekommenderas att använda milda, återfuktande hudvårdsprodukter utan starka ingredienser för att stödja läkningsprocessen och bevara hudens fuktbalans.</p>
     <p class="p200 mt-m">Följ noga de specifika eftervårdsinstruktionerna som ges av din behandlare. Vid frågor eller bekymmer, tveka inte att kontakta din klinik. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din IPL-behandling mot pigmentfläckar.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för IPL';

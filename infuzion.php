@@ -75,25 +75,12 @@ $description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Infuzion',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför Infuzion',
         image_title: 'Förberedelser inför Infuzion',
         content: '<p class="p200"><p class="p200">Inför din Infuzion-behandling hos AcneSpecialisten finns några enkla förberedelser som kan hjälpa till att maximera effekten av behandlingen. Vi rekommenderar att du undviker användning av starka hudvårdsprodukter och exfolierande syror några dagar före din session. Detta minskar risken för hudirritation och gör din hud mer mottaglig för behandlingen.</p>
         <p class="p200 mt-m">Medan det inte är ett krav att komma utan makeup, kan det vara fördelaktigt att ha ett rent ansikte vid din ankomst. Detta gör det möjligt för våra hudterapeuter att göra en mer exakt hudanalys och anpassa behandlingen effektivt efter dina behov. Oavsett om du väljer att komma osminkad eller inte, ser vi fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan som passar din hudtyp och dina specifika hudproblem.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -156,8 +143,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
@@ -203,60 +190,33 @@ $treatment_areas = array(
 $bottom_articles = array(
     'process' => new Article(
         title: 'Hur går behandlingen med Infuzion till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går behandlingen med Infuzion till?',
         image_title: 'Hur går behandlingen med Infuzion till?',
         content: '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men utan användning av nålar. Behandlingen börjar med en noggrann rengöring av det valda området - ansikte, hals, dekolletage eller händer - för att förbereda huden för serumets applicering.</p>
         <p class="p200 mt-m">Vi använder Cytocare 532, ett serum som innehåller hyaluronsyra och 52 olika vitaminer och mineraler, vilket ger intensiv återfuktning och stimulerar produktionen av kroppens naturliga proteiner, elastin och kollagen. Serumet appliceras med en specialroller och galvanisk ström, vilket gör att det kan nå upp till 3mm djup i huden, påverkande varje enskild cell och komma nära ögon och andra känsliga områden.</p>
         <p class="p200 mt-m">Behandlingen avslutas med en lugnande och återfuktande process för att maximera komfort och effekt. För att uppnå bästa resultat rekommenderas tre behandlingar med en veckas mellanrum. Därefter räcker det med en uppföljningsbehandling var sjätte månad för att bibehålla effekterna. Infuzion är en idealisk behandling för dem som önskar en fylligare, elastisk och strålande hud utan nålstick eller lång återhämtningsperiod.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'boost' => new Article(
         title: 'Multifuzion - Infuzion + Microneedling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Multizuion - Infuzion + Microneedling',
         image_title: 'Multizuion - Infuzion + Microneedling',
         content: '<p class="p200"><p class="p200">Multifuzion är en avancerad behandlingsmetod som kombinerar effekterna av microneedling och Infuzion skinbooster. Denna behandling börjar med microneedling, en teknik där små nålar skapar mikroskopiska kanaler i huden. Denna process stimulerar hudens naturliga läkningsprocess och ökar kollagenproduktionen, vilket bidrar till förbättrad hudstruktur och minskning av fina linjer och ärr.</p>
         <p class="p200 mt-m">Efter microneedling följer Infuzion-behandlingen. Tack vare de mikroskopiska kanalerna som skapats under microneedling, kan Infuzion serumet, som är rikt på hyaluronsyra och näringsämnen, tränga djupare ner i huden. Detta maximerar hydreringen och näringstillförseln till hudcellerna, vilket resulterar i en mer intensiv och långvarig effekt. </p>
         <p class="p200 mt-m">Multifuzion är en idealisk behandling för att effektivt hantera hudproblem som åldrande, torrhet, ojämn hudton och textur, samt för att ge huden en mer ungdomlig och strålande lyster. Denna kombinationsbehandling ger en synergistisk effekt som inte bara förbättrar hudens yttre utseende, men även dess övergripande hälsa och kvalitet.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'aftercare' => new Article(
         title: 'Eftervård för Infuzion & Multifuzion',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Eftervård för Infuzion & Multifuzion',
         image_title: 'Eftervård för Infuzion & Multifuzion',
         content: '<p class="p200">Eftervård är en väsentlig del av din Infuzion och Multifuzion behandling hos AcneSpecialisten. För att upprätthålla och maximera behandlingens fördelar, är det viktigt att du följer en anpassad hudvårdsrutin. Efter en Infuzion eller Multifuzion behandling kan huden vara extra mottaglig för näring och hydrering, därför är det avgörande att ge den rätt vård för att underlätta återhämtningen och förstärka resultaten.</p>
         <p class="p200 mt-m">Vi rekommenderar att du använder milda och återfuktande produkter som inte irriterar huden. Det är också viktigt att skydda huden mot solen, särskilt efter behandlingen, då huden kan vara mer känslig för UV-strålar. Använd en hög SPF och undvik direkt solljus för att förebygga eventuell hyperpigmentering och skada på den behandlade huden.</p>
         <p class="p200 mt-m">Vi på AcneSpecialisten erbjuder en uppföljning och skräddarsydda råd för att hjälpa dig att upprätthålla de positiva effekterna av din Infuzion eller Multifuzion behandling. Det är viktigt att du följer dessa råd noggrant och återvänder till oss för eventuella uppföljningsbehandlingar eller rådgivning. Vårt mål är att hjälpa dig att uppnå och bibehålla en strålande, hydrerad och välmående hud.</p>',
-        tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
 

@@ -540,8 +540,8 @@ $procedures = array(
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför AcneSpecialisten?!',
             image_title: 'Varför AcneSpecialisten?!',
             content: '<p class="p200">Har du kämpat med finnar och provat allt utan att få långvariga resultat? Då är det dags att vända dig till oss på AcneSpecialisten. Med över 30 års erfarenhet av att arbeta med finnar, är vi specialister som vet exakt vilken process som krävs för att bli av med problemet.Många av våra kunder har tidigare försökt med olika behandlingar utan framgång. Det är här vi kommer in. Vi skräddarsyr behandlingar baserade på dina specifika behov och tillämpar en beprövad metod som faktiskt fungerar. Vi använder bara de bästa produkterna och behandlingarna som är anpassade för att bekämpa finnar och hjälper dig att uppnå en klar och frisk hud.</p>
@@ -550,8 +550,8 @@ $articles = array(
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Om du kämpar med finnar som påverkar ditt självförtroende eller om du har testat olika produkter och behandlingar utan att se några bestående resultat, då är det dags att söka hjälp hos AcneSpecialisten. Vår expertis sträcker sig över många år och vi förstår de unika utmaningar som finnar kan orsaka. Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan som passar just dig. Vare sig du lider av lindriga, måttliga eller svåra finnar, har AcneSpecialisten de verktyg och den kunskap som behövs för att hjälpa dig att uppnå en klarare och friskare hud. Tveka inte att ta steget mot en bättre hudhälsa genom att boka en gratis konsultation hos oss idag!</p>',

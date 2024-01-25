@@ -407,8 +407,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en hudterapeut utförs en djupgående analys av din mogen hy. Vi tar före-bilder på din hud, identifierar tecken på åldrande, och rekommenderar en lämplig behandling. Vidare skräddarsyr vi en behandlingsplan anpassad efter dina individuella behov.',
 
-      image_small: 'images/services/200x200/konsultation-mogenhy.webp',
-      image_large: 'images/services/200x200/konsultation-mogenhy.webp',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för mogen hy',
       image_title: 'Konsultation för mogen hy',
 
@@ -434,8 +434,8 @@ $services = array(
             price: '1595 kr',
             content: 'Denna ansiktsbehandling är speciellt anpassad för mogen hy. Den syftar till att återfukta, boosta kollagenproduktionen och förbättra hudens elasticitet. Behandlingen hjälper till att minska uppkomsten av fina linjer och rynkor.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling-mogenhy.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling-mogenhy.webp',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för mogen hy',
             image_title: 'Ansiktsbehandling för mogen hy',
 
@@ -457,8 +457,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling för mogen hy är designad för att exfoliera döda hudceller, boosta cellförnyelse och förbättra hudens textur. Resultatet är en jämnare hudton, förnyad lyster och minskade tecken på åldrande.',
 
-            image_small: 'images/services/200x200/kemisk-peeling-mogenhy.webp',
-            image_large: 'images/services/200x200/kemisk-peeling-mogenhy.webp',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling för mogen hy',
             image_title: 'Kemisk peeling för mogen hy',
 
@@ -481,8 +481,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling för mogen hy stimulerar hudens naturliga kollagenproduktion, vilket hjälper till att minska fina linjer, rynkor och andra tecken på åldrande. Denna behandling kan effektivt förbättra hudens struktur och elasticitet, vilket ger ett yngre och mer vitalt utseende.',
 
-            image_small: 'images/services/200x200/microneedling-mogenhy.webp',
-            image_large: 'images/services/200x200/microneedling-mogenhy.webp',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling för mogen hy',
             image_title: 'Microneedling för mogen hy',
 
@@ -503,8 +503,8 @@ $services = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med tecken på mogen hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med tecken på mogen hy?',
             image_title: 'När ska jag söka hjälp med tecken på mogen hy?',
             content: '<p class="p200">Mogen hy med tecken på åldrande, som fina linjer, rynkor och förlust av elasticitet, är en naturlig del av åldrandeprocessen. Men för vissa kan dessa tecken på åldrande påverka självkänslan och orsaka obehag. Om du märker att din mogen hy börjar påverka ditt välbefinnande, eller om du har provat olika produkter och behandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att det inte finns någon "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
@@ -513,8 +513,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
             content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på utmaningarna med mogen hy, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla tecken på åldrande såsom fina linjer, rynkor och minskad elasticitet.</p>

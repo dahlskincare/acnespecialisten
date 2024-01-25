@@ -104,8 +104,8 @@ $treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska e
 $top_articles = array(
     'areas' => new Article(
         title: 'Områden med Oljig Hy',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Oljig hy kännetecknas ofta av en ökad talgproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
@@ -116,8 +116,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för oljig hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för oljig hy?',
             image_title: 'När ska jag söka hjälp för oljig hy?',
             content: '<p class="p200">Oljig hy är en vanlig hudåkomma som drabbar människor i alla åldrar. Kännetecknat av en ökad sebumproduktion, kan detta tillstånd leda till glansig hud och gör en mer benägen för acne. Om du märker att din oljiga hy leder till hudproblem eller om du inte har haft framgång med att hantera den med vanliga produkter, kan det vara läge att söka professionell hjälp. Det är viktigt att komma ihåg att det är lämpligt att söka hjälp oavsett om symtomen är milda eller svåra.</p>',
@@ -125,8 +125,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag välja AcneSpecialisten för oljig hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten?',
             image_title: 'Varför ska jag välja AcneSpecialisten?',
             content: '<p class="p200">Om du är ute efter en effektiv och långvarig lösning på problem med oljig hy, är AcneSpecialisten ditt bästa val. Med mer än 30 års erfarenhet inom hudvård och en specialisering på oljig hy, erbjuder vi den expertis som krävs för att skräddarsy en behandling som passar just dina behov.</p>

@@ -104,8 +104,8 @@ $treatment_steps = array(
 $top_articles = array(
     'areas' => new Article(
         title: 'Var uppstår mjälleksem?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">När det gäller mjälleksem, är det viktigt att förstå varför och var det vanligtvis uppstår för att kunna hantera det effektivt. Mjälleksem, även känt som seborroisk dermatit, drabbar ofta områden med hög densitet av talgkörtlar som skalpen, ansiktet (särskilt näsan och ögonbrynen), öronkanalerna och bröstet. Under din konsultation hos AcneSpecialisten, utförs en noggrann hudanalys för att identifiera dessa problemområden och förstå de underliggande orsakerna till ditt mjälleksem.</p>
@@ -116,8 +116,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för mitt mjälleksem?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för mitt mjälleksem?',
             image_title: 'När ska jag söka hjälp för mitt mjälleksem?',
             content: '<p class="p200">Mjälleksem är en hudåkomma som kan påverka både vuxna och barn, kännetecknat av röd, inflammerad och flagnande hud, ofta i hårbotten eller andra oljerika områden. Om du upplever att ditt mjälleksem orsakar obehag, påverkar din livskvalitet, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att förstå att hjälp finns tillgänglig, oavsett om ditt mjälleksem är mild eller svår.</p>
@@ -126,8 +126,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag välja AcneSpecialisten för mitt mjälleksem?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten?',
             image_title: 'Varför ska jag välja AcneSpecialisten?',
             content: '<p class="p200">För en effektiv och långsiktig lösning på mjälleksem, är AcneSpecialisten det självklara valet. Med vår gedigna erfarenhet inom hudvård och specialisering inom behandling av mjälleksem, är vi välutrustade för att hantera din specifika situation.</p>
@@ -152,7 +152,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: 'gratis-hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
       url_label: 'Läs mer om vår hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
