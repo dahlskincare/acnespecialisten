@@ -60,7 +60,7 @@ $green_banner_content = new GreenBannerContent(
 
 $treatments = array(
     new Treatment(
-        label: 'Ansiktsbehandlingar mot Problemhy',
+        label: 'Ansiktsbehandlingar Problemhy',
         url: 'behandlingar/ansiktsbehandlingar-problemhy',
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
@@ -90,7 +90,7 @@ $treatments = array(
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
     new Treatment(
-        label: 'Klassiska Ansiktsbehandlingar',
+        label: 'Ansiktsbehandlingar Klassiska',
         url: 'ansiktsbehandlingar.php',
         url_title: 'Läs mer om klassiska ansiktsbehandlingar'
     ),
