@@ -50,49 +50,22 @@ $description_text = '<p class="p200">Skin Tech representerar en innovativ kollek
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med Skin Tech',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför behandling med Skin Tech',
         image_title: 'Förberedelser inför behandling med Skin Tech',
         content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
         <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, tveka inte att kontakta oss före din behandling.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Rengöring'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går behandlingar med Skin Tech till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går behandlingar med Skin Tech till?',
         image_title: 'Hur går behandlingar med Skin Tech till?',
         content: '<p class="p200">Hos AcneSpecialisten erbjuder vi Skin Techs avancerade kemiska peelingbehandlingar, skräddarsydda för att möta en rad olika hudproblem. Vi förstår att varje klients hud är unik och anpassar därför varje behandling individuellt. Våra erfarna hudterapeuter kombinerar sin expertis med Skin Techs innovativa metoder för att leverera exceptionella resultat.</p>
         <p class="p200 mt-m">En Skin Tech-behandling börjar med en noggrann rengöring av huden för att skapa optimala förutsättningar för peelingen. Efter rengöringen appliceras den specifika Skin Tech-peelinglösningen, noggrant utvald för att matcha din hudtyp och adressera dina specifika hudproblem. Denna peeling arbetar för att varsamt men effektivt exfoliera hudens yttre lager och stimulerar cellförnyelsen, vilket resulterar i en friskare och mer vital hud.</p>
         <p class="p200 mt-m">Under behandlingen kan du känna en mild stickande känsla, vilket är ett tecken på att peelingen aktiverar hudens förnyelseprocess. Efter att peelingen har fått verka i lämplig tid, neutraliseras den försiktigt för att säkerställa maximal komfort och säkerhet. Behandlingen avslutas med en lugnande mask och återfuktande krämer för att ytterligare lugna och återställa huden. Resultatet är en betydligt förbättrad hudkvalitet med förnyad lyster och jämnhet, tack vare Skin Techs specialanpassade peelingbehandlingar.</p>',
-
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Rengöring'
-        ))
     ),
 );
 
@@ -103,8 +76,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy Phytic Peel är en idealisk behandling för dig som önskar att adressera hudproblem som orenheter, tilltäpptheter och pigmentfläckar, eftersom den är lämplig för alla hudtyper. Denna skonsamma peeling erbjuder en grundlig rengöring och hjälper till att förbättra hudens allmänna utseende, utan att orsaka lång återhämtningstid. Formulan i Easy Phytic Peel arbetar försiktigt med att avlägsna det yttersta hudlagret, vilket leder till en minskning av ojämnheter och en främjande av cellförnyelse.</p>
         <p class="p200 mt-m">Behandlingen fortsätter sedan med en lugnande process där huden återfuktas och eventuell rodnad lindras. En av de främsta fördelarna med Easy Phytic Peel är att den inte behöver neutraliseras eller sköljas bort, vilket gör processen praktisk och okomplicerad. Efter behandlingen kan du förvänta dig en hud som är märkbart klarare, jämnare och mer strålande. Skin Tech Easy Phytic Peel är det perfekta valet för den som vill ha en effektiv hudbehandling som är skonsam mot känslig hud.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Skin Tech Easy Phytic Peel',
         image_title: 'Skin Tech Easy Phytic Peel',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
@@ -113,7 +86,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic',
         booking_url_label: 'Boka Skin Tech Easy Phytic Peel',
         booking_url_title: 'Boka Skin Tech Easy Phytic Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -141,8 +114,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy Droxy Versicolor Peel är den perfekta lösningen för dig som vill revitalisera din hud och effektivt minska pigmenteringar. Denna peelingbehandling är skonsam nog för olika hudtyper och är särskilt bra på att förbättra hudens klarhet, fräschör och ungdomliga glans. Behandlingen fungerar genom att försiktigt ta bort det yttersta hudlagret, vilket bidrar till att minska ojämnheter och främja en enhetlig hudton.</p>
         <p class="p200 mt-m">Easy Droxy Versicolor Peel är utvecklad för att ge en bekväm behandlingsupplevelse och kräver inte neutralisering. Efter avslutad behandling återställs och återfuktas huden, vilket reducerar rodnad och skapar en känsla av lugn och fukt. Denna peeling är ett utmärkt alternativ för dem som söker märkbara förbättringar utan behov av lång återhämtningsperiod. Att välja Easy Droxy Versicolor Peel innebär att ta ett steg mot en ljusare och jämnare hudton, vilket gör den till ett idealiskt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
         image_title: 'Skin Tech Easy Droxy Versicolor Peel',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
@@ -151,7 +124,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor',
         booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
         booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -179,8 +152,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy TCA Pain Control är en framstående kemisk peeling som levererar betydande resultat mot åldrande, ojämn hudstruktur och ton, samt mot hudens missfärgningar. Denna peeling är särskilt framtagen för att ge en omfattande hudförnyelse, vilket gör den till ett utmärkt val för de som eftersträvar tydliga förbättringar i både hudens utseende och kvalitet.</p>
         <p class="p200 mt-m">Under behandlingen appliceras Easy TCA Pain Control metodiskt för att nå hudens djupare skikt. Detta stimulerar både cellförnyelsen och kollagenproduktionen. Processen är utformad för att kraftfullt minska de synliga ålderstecknen såsom fina linjer och rynkor, och arbetar för att jämna ut hudens ton och struktur. En unik fördel med Easy TCA Pain Control är dess förmåga att minimera obehag under behandlingen, vilket säkerställer en bekväm upplevelse för dig som klient. Efter peelingen behandlas huden med vårdande produkter för optimal återhämtning och för att maximera effekten av behandlingen. Skin Tech Easy TCA Pain Control är den idealiska lösningen för dig som söker en djupgående och kraftfull behandling för att återfå hudens ungdomliga lyster.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
         image_title: 'Skin Tech Easy Droxy Versicolor Peel',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
@@ -189,7 +162,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA',
         booking_url_label: 'Boka Skin Tech Easy Droxy Versicolor Peel',
         booking_url_title: 'Boka Skin Tech Easy Droxy Versicolor Peel',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -351,8 +324,8 @@ $treatment_areas_title = 'Områden som Behandlas med Skin Tech Peeling';
 $treatment_areas_text = '<p class="p200">Skin Techs kemiska peelingar erbjuder mångsidiga lösningar för hudförbättring i olika områden, inklusive ansiktet, halsen, dekolletaget och ryggen. Dessa behandlingar är anpassade för att effektivt hantera specifika hudproblem i varje område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte & kropp',
         image_title: 'Ansikte & kropp',
         title: 'Ansikte & kropp',
@@ -408,13 +381,12 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Skin Techs eftervård',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+        image_large: null,
     image_alt: 'Skin Techs eftervård',
     image_title: 'Skin Techs eftervård',
     content: '<p class="p200">Att följa rätt eftervårdsrutin är kritiskt efter en kemisk peeling med Skin Tech för att säkerställa de bästa och mest hållbara resultaten. En korrekt eftervårdsplan hjälper inte bara din hud att återhämta sig efter behandlingen, utan främjar även en fortsatt hudförbättring.</p>
     <p class="p200 mt-m">Vid AcneSpecialisten är vi dedikerade till att stödja dig genom din hudvårdsresa efter din peeling. Vi skapar en personlig eftervårdsplan som inkluderar allt från skonsam rengöring och intensiv återfuktning till produkter som effektivt lugnar och stödjer hudens återhämtningsprocess. Genom att följa våra rekommenderade eftervårdsinstruktioner kan du förlänga och förstärka de fördelar som kemisk peeling med Skin Tech ger, för en bestående och strålande hudhälsa.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för kemisk peeling';

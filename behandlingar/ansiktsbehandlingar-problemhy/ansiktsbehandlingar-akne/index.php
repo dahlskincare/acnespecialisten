@@ -7,7 +7,7 @@ $seo_title = 'Ansiktsbehandlingar mot Akne - Effektiv behandling | AcneSpecialis
 $seo_description = 'Upplev AcneSpecialistens expertanpassade ansiktsbehandlingar speciellt utformade för aknebenägen hud. Upptäck våra avancerade metoder för att effektivt hantera utbrott och uppnå en klarare hud. Professionell behandling och personlig rådgivning väntar för att hjälpa dig till en bättre hudhälsa.';
 $seo_keywords = 'aknebehandling, ansiktsbehandlingar för akne, bekämpa akne, effektiv aknevård, acne specialister, akne lösningar, finnar, blemmor, akneärr, inflammerad hud, hudvård för akne';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-akne.jpg';
+$seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 
 $model = new Service(
@@ -75,25 +75,12 @@ $description_text = '<p class="p200">Våra ansiktsbehandlingar är noggrant utfo
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför ansiktsbehandlingar mot akne',
         image_title: 'Förberedelser inför ansiktsbehandlingar mot akne',
         content: '<p class="p200">Du är välkommen alltid välkommen att boka en aknebehandling hos oss på AcneSpecialisten och komma precis som du är. Men för dig som vill kan du effektivisera behandlingen med hjälp av några enkla förberedelser kan göra stor skillnad för behandlingens effektivitet. Vi föreslår att du, om möjligt, undviker produkter med starka ingredienser som och exfolierande syror dagarna innan din behandling. Detta för att minimera risken för hudirritation och för att din hud ska vara i sitt mest mottagliga skick. </p>
                   <p class="p200 mt-m">Det finns ingen nödvändighet att komma osminkad – det är helt upp till dig. Men om du har möjlighet, kan det vara bra att komma med ett rent ansikte utan makeup för att tillåta en direkt och grundlig hudanalys. Oavsett ditt val, ser vi fram emot att välkomna dig och skapa en individuell behandlingsplan för din hud, vare sig det handlar om akne i ansiktet, på bröstet eller ryggen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -148,57 +135,30 @@ $treatment_areas = array(
 $bottom_articles = array(
     'process' => new Article(
         title: 'Hur går en ansiktsbehandling mot akne till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går en ansiktsbehandling mot akne till?',
         image_title: 'Hur går en ansiktsbehandling mot akne till?',
         content: '<p class="p200">Vår ansiktsbehandling för akne är noggrant utformad för att möta de specifika behoven hos hud som drabbats av akne och finnar. Behandlingen inleds med en grundlig rengöring för att ta bort talg, smuts och andra particlar från hudytan. Efter rengöringen använder vi en vapozon, en apparat som genererar varm ånga, vilket öppnar upp porerna och förbereder huden för de efterföljande stegen.</p>
             <p class="p200 mt-m">Efter ångbehandlingen kan vi göra en varsam men effektiv manuell utrensning av porerna för att avlägsna olika typer av inkapslingar såsom finnar, papler, pustler och komedoner (svarta och vita pormaskar). Behandlingen avslutas med en lugnande mask och återfuktande för att hjäpla huden att återhämta sig.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'boost' => new Article(
         title: 'Boosta din ansiktsbehandling mot akne med laser',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förbättra ansiktsbehandling mot akne med laser',
         image_title: 'Förbättra ansiktsbehandling mot akne med laser',
         content: '<p class="p200">På vår klinik tar vi din aknebehandling till nästa nivå genom att kombinera beprövade metoder med innovativ laserterapi. För att få ut det mesta av din behandling rekommenderar vi att komplettera din ansiktsbehandling med en lasersession. Laserterapin kan bidra till att minska akne och ärrbildning samt förbättra hudens övergripande textur och ton. </p>
         <p class="p200 mt-m">Innan din behandling är det fördelaktigt att undvika hudirriterande produkter, inklusive de med exfolierande syror och retinol, för att din hud ska vara så mottaglig som möjligt för både ansiktsbehandlingen och laserterapin. Det är inte nödvändigt att komma osminkad, men ett ansikte fritt från smink underlättar för oss att göra en noggrann hudanalys direkt vid ankomst. Vi är här för att ta hand om dig och erbjuda en skräddarsydd lösning som adresserar din unika hudtyp och akneproblem, oavsett om det är i ansiktet, på bröstet eller ryggen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter ansiktsbehandling för akne',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
         content: '<p class="p200">På Acnespecialisten vet vi att det inte finns någon enkel lösning för akne, därför är det viktigt att du tar hand om din hud efter en ansiktsbehandling för att säkerställa bästa möjliga resultat. Det är viktigt att låta huden läka ordentligt och bidra med återfuktning så att du hjäpler huden att återhämta sig. Det är också viktigt att komma igång med din dagliga hudvårdsrutin med produkter speciellt framtagna för aknebenägen hud. Vi rekommenderar DAHL Skincares linje av akneprodukter, som hjälper till att bibehålla hudens balans och förebygga framtida utbrott. Att engagera sig i en regelbunden hudvårdsrutin är essentiellt för att hantera din akne effektivt både hemma och med återkommande professionella behandlingar.</p>
         <p class="p200">Vi förstår att varje individ har unika behov, och är därför med dig under hela processen där vi berätta vilka produkter och rutiner som passar just dig för att förstärka och förlänga effekten av din behandling. Att använda DAHL Skincares produkter regelbundet kan inte bara stödja de förbättringar som görs under behandlingen utan även bidra till en problemhy och mer balanserad hud över tid. Låt oss på Acnespecialisten hjälpa dig att ta kontroll över din hudhälsa och leda dig mot en klar och strålande hud. Välkommen till en partner i din hudvårdsresa.</p>',
-        tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
 

@@ -63,8 +63,8 @@ $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi
 
 $services = array(
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
 
@@ -90,8 +90,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Klient som genomgår laserbehandling mot akne',
         image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
         title: 'Effektiv laserbehandling mot akne',
@@ -114,8 +114,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av kemisk peelingbehandling för akne',
         image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
         title: 'Kemisk peeling mot akne',
@@ -137,8 +137,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av microneedlingbehandling för akne',
         image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
         title: 'Effektiv microneedling mot akne',
@@ -164,8 +164,8 @@ $headline03 = "03. Förebygg akne";
 
 $products = array(
     new Product(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
 
@@ -182,8 +182,8 @@ $products = array(
 
 $headline04 = '04. Reparera post-akne (Acneärr)';
 
-$repair_image_small = 'https://via.placeholder.com/358x274.jpg';
-$repair_image_large = 'https://via.placeholder.com/872x456.jpg';
+$repair_image_small = null;
+$repair_image_large = null;
 
 $repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
 

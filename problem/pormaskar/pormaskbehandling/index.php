@@ -61,15 +61,15 @@ $treat_content = '<p class="p200">Här är målet framför allt att rensa och re
 
 $services = array(
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Effektiv Ansiktsbehandling mot Pormaskar på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot pormaskar utförd på Acnespecialisten',
 
         title: 'Ansiktsbehandling mot Pormaskar',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Djuprengörande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Anti-inflammatorisk'),
+        icons: array(),
         content: '<p class="p200">Ansiktsbehandling mot pormaskar på Acnespecialisten är speciellt framtagen för att djuprengöra huden, avlägsna döda hudceller och bekämpa tilltäppta porer. Processen börjar med en rengöring, följt av ångning för att mjuka upp och öppna porerna. Därefter görs en noggrann porrengöring där pormaskar och andra orenheter avlägsnas. Behandlingen avrundas med en lugnande mask och en fuktgivande kräm som är anpassad för din hudtyp.</p>',
 
         consultation_url: 'boka-hudkonsultation-pormaskar',
@@ -89,14 +89,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Klient som genomgår laserbehandling mot pormaskar',
         image_alt: 'Bild av laserbehandling mot pormaskar hos Acnespecialisten',
         title: 'Effektiv laserbehandling mot pormaskar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
+        icons: array(),
         content: '<p class="p200">Laserbehandling riktad mot pormaskar hos AcneSpecialisten använder ljusenergi för att specifikt behandla och minska pormaskarnas synlighet. Laserstrålens penetration i huden fokuserar på de områden där pormaskarna dominerar, balanserar hudens talgproduktion och minskar ansamlingen av döda hudceller, vilket ofta är orsaken till pormaskar.</p>',
         consultation_url: 'konsultation-laser-pormaskar',
         consultation_url_label: 'Boka konsultation',
@@ -113,14 +113,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av kemisk peelingbehandling för pormaskar',
         image_alt: 'Bild på kemisk peelingbehandling mot pormaskar hos Acnespecialisten',
         title: 'Kemisk peeling mot pormaskar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
+        icons: array(),
         content: '<p class="p200">För att effektivt behandla pormaskar starka syror under en kemisk peeling behandling. Vi applicerar en särskilt framtagen lösning på huden som avlägsnar det översta lagret av hudceller och luckra upp tilltäpta porer. Genom att ge plats för ny, frisk hud att framträda, minskas synligheten av pormaskar samtidigt som hudens textur och utseende förbättras betydligt.</p>',
         consultation_url: 'hudkonsultation-pormaskar',
         consultation_url_label: 'Boka konsultation',
@@ -135,14 +135,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av microneedlingbehandling för pormaskar',
         image_alt: 'Bild på microneedlingbehandling mot pormaskar hos Acnespecialisten',
         title: 'Effektiv microneedling mot pormaskar',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av porstorlek'),
+        icons: array(),
         content: '<p class="p200">Microneedling erbjuds som en kraftfull metod för att bekämpa pormaskar. Genom att använda mikronålar skapas små kanaler i huden, vilket uppmuntrar hudens naturliga läkning och ökar kollagen- och elastinproduktionen. Microneedling adresserar även de bakomliggande orsakerna till pormaskar genom att tillåta aktiva ingredienser att penetrera djupare in i huden, vilket aktivt bidrar till att minska både storlek och mängd av pormaskar.</p>',
         consultation_url: 'microneedling-konsultation-pormaskar',
         consultation_url_label: 'Boka konsultation',
@@ -162,8 +162,8 @@ $headline03 = "03. Förebygg pormaskar";
 
 $products = array(
     new Product(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'AcneSpecialistens effektiva hudvårdsprodukter mot pormaskar',
         image_alt: 'Bild på AcneSpecialistens hudvårdsprodukter mot pormaskar',
 

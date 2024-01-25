@@ -91,8 +91,8 @@ $treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva beha
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår atrofiska ärr?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Atrofiska ärr, som ofta uppstår efter akne, är resultatet av en skada som lämnar huden med otillräcklig mängd kollagen. När huden läker kan den inte alltid återskapa dess ursprungliga jämnhet och fasthet, vilket leder till att dessa indragna ärr bildas. Att förstå din huds unika historia och nuvarande tillstånd är avgörande för att effektivt behandla atrofiska ärr.</p>

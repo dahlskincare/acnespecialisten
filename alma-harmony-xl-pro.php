@@ -52,8 +52,8 @@ $description_text = '<p class="p200">Harmony XL Pro på AcneSpecialisten är en 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Harmony XL Pro',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför Alma Harmony XL Pro',
         image_title: 'Förberedelser inför Alma Harmony XL Pro',
         content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
@@ -75,8 +75,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandling med Harmony XL Pro till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går behandling med Harmony XL Pro till?',
         image_title: 'Hur går behandling med Harmony XL Pro till?',
         content: '<p class="p200">Harmony XL Pro-behandlingen på AcneSpecialisten är en sofistikerad metod för att effektivt adressera och behandla en rad hudåkommor. Din session börjar med en grundlig rengöring av huden för att optimera förberedelserna inför laserns applicering.</p>
@@ -243,8 +243,8 @@ $treatment_areas_title = 'Behandlingsområden för Harmony XL Pro';
 $treatment_areas_text = '<p class="p200">Den mångsidiga Harmony XL Pro-tekniken behandlar effektivt en rad olika hudområden.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte & Kropp',
         image_title: 'Ansikte & Kropp',
         title: 'Ansikte & Kropp',
@@ -309,8 +309,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
@@ -355,14 +355,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Harmony XL Pro',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård för Harmony XL Pro',
     image_title: 'Eftervård för Harmony XL Pro',
     content: '<p class="p200">Att följa rätt eftervård är avgörande för att maximera effekten av din Harmony XL Pro-laserbehandling hos AcneSpecialisten. Efter behandlingen är det normalt att uppleva en viss rodnad och svullnad i det behandlade området. Vi råder dig att inte röra området med orena händer och att undvika makeup under de första 24 timmarna för att minska risken för irritation och infektioner.</p>
     <p class="p200 mt-m">Under återhämtningen är det viktigt att undvika aktiviteter som kan öka svullnad och rodnad, såsom intensiv träning, heta duschar och bastu. Användning av solskydd med hög SPF är essentiellt för att skydda den känsliga huden från solens UV-strålar. Vi rekommenderar också att du använder milda och återfuktande hudvårdsprodukter utan starka dofter eller irriterande ingredienser för att främja en smidig läkningsprocess och upprätthålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Om du har några frågor eller bekymmer efter din behandling, är vi alltid här för att erbjuda råd och stöd. Regelbundna uppföljningar och eventuella ytterligare behandlingar kan diskuteras och planeras utifrån din individuella hudtyp och de specifika mål du har för din hudvård. Vårt mål på AcneSpecialisten är att du ska känna dig trygg och nöjd med dina behandlingsresultat.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Andra märken för laser';

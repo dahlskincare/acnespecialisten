@@ -66,8 +66,8 @@ $treat_url_title = 'klicka här för att se våra behandlingar för hudförändr
 $services = array(
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av Cryopen frysbehandling för hudförändringar',
         image_alt: 'Bild på Cryopen frysbehandling mot hudförändringar hos Acnespecialisten',
         title: 'Effektiv Cryopen behandling mot hudförändringar',

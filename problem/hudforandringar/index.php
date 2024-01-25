@@ -340,8 +340,8 @@ $services = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med mina hudförändringar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med mina hudförändringar?',
             image_title: 'När ska jag söka hjälp med mina hudförändringar?',
             content: '<p class="p200">Hudförändringar är vanliga och kan variera i form och storlek. Även om de flesta hudförändringar är godartade och inte utgör något direkt hot, kan de påverka självkänslan eller ge upphov till oro. Om du märker att en hudförändring förändras, kliar, blöder eller om du helt enkelt är osäker på dess natur, bör du söka professionell rådgivning.</p>
@@ -349,8 +349,8 @@ $articles = array(
       ),
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina hudförändringar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina hudförändringar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina hudförändringar?',
             content: '<p class="p200">När det kommer till behandling och bedömning av hudförändringar är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och hudförändringar, kan vi erbjuda lösningar som är både effektiva och skräddarsydda efter dina behov.</p>

@@ -105,8 +105,8 @@ $treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" ti
 $top_articles = array(
     'areas' => new Article(
         title: 'Områden för blodprickar',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Blodprickar, eller cherry angiomas, är små, röda hudförändringar som ofta uppstår på grund av ansamlingar av små blodkärl. De är vanliga och kan förekomma hos personer i alla åldersgrupper, men blir oftare mer frekventa och märkbara med åldrandet. Blodprickar kan dyka upp var som helst på kroppen, men är vanligast på överkroppen, inklusive bröstet, ryggen, armar och axlar.</p>
@@ -117,8 +117,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med mina blodprickar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med mina blodprickar?',
             image_title: 'När ska jag söka hjälp med mina blodprickar?',
             content: '<p class="p200">Blodprickar, även kända som cherry angiomas, är små röda hudförändringar som ofta är ofarliga. De kan dock orsaka estetisk obehag eller bekymmer. Om dina blodprickar börjar förändra sig i storlek, form eller färg, eller om du helt enkelt vill ta bort dem av kosmetiska skäl, kan det vara lämpligt att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för blodprickar.</p>',
@@ -126,8 +126,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
             content: '<p class="p200">På AcneSpecialisten är vi experter på att behandla blodprickar och andra hudförändringar. Med vår erfarenhet och tillgång till avancerad teknologi erbjuder vi säkra och effektiva behandlingar. Vi förstår att varje klients behov är unika, och vi anpassar därför våra behandlingar för att passa just dina önskemål och hudtillstånd.</p>',

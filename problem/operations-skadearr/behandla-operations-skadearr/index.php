@@ -67,14 +67,14 @@ $treat_url_title = 'klicka här för att se våra behandlingar för operations- 
 $services = array(
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Klient som genomgår laserbehandling mot operations- och skadeärr',
         image_alt: 'Bild av laserbehandling mot operations- och skadeärr hos Acnespecialisten',
         title: 'Effektiv laserbehandling mot operations- och skadeärr',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Effektiv'),
+        icons: array(),
         content: '<p class="p200">Laserbehandling för operations- och skadeärr hos Acnespecialisten är en avancerad teknik som utnyttjar ljusenergis kraft för att effektivt minska synligheten av ärr. Denna behandlingsmetod riktar sig specifikt mot de djupa hudlagren där ärrbildningen vanligtvis finns. Laserstrålen tränger djupt ner i huden, vilket säkerställer att varje ärr blir behandlat effektivt. Under behandlingsprocessen stimuleras också kollagenproduktionen, vilket är avgörande för hudens elasticitet och förnyelse. Som ett resultat upplever patienter inte bara en minskning av ärrsynlighet, utan också en förbättrad hudton och textur.</p>',
         consultation_url: 'konsultation-laser',
         consultation_url_label: 'Boka konsultation',
@@ -89,14 +89,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av kemisk peelingbehandling för operations- och skadeärr',
         image_alt: 'Bild på kemisk peelingbehandling mot operations- och skadeärr hos Acnespecialisten',
         title: 'Kemisk peeling mot operations- och skadeärr',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Ljusande'),
+        icons: array(),
         content: '<p class="p200">Kemisk peeling för operations- och skadeärr hos Acnespecialisten är en process där en speciellt formulerad lösning appliceras på huden för att noggrant avlägsna skadade yttre hudskikt. Genom att avlägsna dessa lager avslöjas en ny, friskare och jämnare hud underifrån. Behandlingen fokuserar inte bara på att ta bort det skadade ytskiktet, utan också på att stimulera hudens naturliga förnyelseprocess. Således hjälper det till att reducera ärrbildningens utseende och förbättrar signifikant hudens övergripande textur, lyster och ton.</p>',
         consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka konsultation',
@@ -111,14 +111,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av microneedlingbehandling för operations- och skadeärr',
         image_alt: 'Bild på microneedlingbehandling mot operations- och skadeärr hos Acnespecialisten',
         title: 'Effektiv microneedling mot operations- och skadeärr',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Minskning av ärr'),
+        icons: array(),
         content: '<p class="p200">Microneedling, som utförs hos Acnespecialisten, är en innovativ och effektiv behandlingsmetod för operations- och skadeärr. Behandlingen involverar användning av en enhet utrustad med små mikronålar som skapar tusentals mikroskopiska kanaler i huden. Dessa små kanaler fungerar som en trigger för hudens naturliga läkningsrespons, vilket leder till ökad kollagen- och elastinproduktion. Denna boost i kollagen fyller effektivt ut och jämnar ut de ärrade områdena, vilket resulterar i en jämnare och friskare hud. Förutom att behandla ärr, bidrar microneedling också till att förbättra hudens elasticitet, textur och övergripande utseende.</p>',
         consultation_url: 'microneedling-konsultation',
         consultation_url_label: 'Boka konsultation',

@@ -8,7 +8,7 @@ $seo_description = 'Utforska AcneSpecialistens skräddarsydda ansiktsbehandlinga
 $seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, förebygga problemhy, behandla problemhy, oren hud, hudrodnad, hudutslag, pormaskar, torr hud, oljig hud';
 
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-problemhy.jpg';
+$seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 
 $model = new Service(
@@ -50,35 +50,21 @@ $description_text = '<p class="p200">Denna behandling är skräddarsydd för dem
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         image_title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         content: '<p class="p200">Inför din ansiktsbehandling för problemhy hos oss behöver du inte tänka på något särskilt. Kom som du är, och vi tar hand om resten. Om du vill förbereda dig lite extra kan du tänka på följande: undvik att exfoliera huden dagen innan och undvik att sola några dagar innan behandlingen. Det kan också vara bra att komma med ett rent ansikte, utan smink. Informera gärna din hudterapeut i förväg om du tar några mediciner eller har några aktiva hudåkommor, så att behandlingen kan anpassas efter dina behov. Men det viktigaste är att du känner dig bekväm, så välj det som känns bäst för dig.</p>',
     ),
     'process' => new Article(
         title: 'Hur går en ansiktsbehandling för problemhy till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Processen för ansiktsbehandling mot problemhy',
         image_title: 'Processen för ansiktsbehandling mot problemhy',
         content: '<p class="p200">Hos oss hittar du ansiktsbehandlingar designade för alla typer av problemhy. Vi förstår att varje persons hud är unik, och därför skräddarsyr vi varje behandling baserat på dina personliga och individuella behov. Vår expertis och omfattande kunskap säkerställer att du får den bästa möjliga vården för din hud.</p>
 
         <p class="p200 mt-m">Varje behandling inleds med en noggrann rengöring för att avlägsna inkapslingar och tilltäpptheter. Därefter används en vapozone för att varsamt öppna upp huden och göra porerna mer mottagliga. Efter detta steg genomför vi en detaljerad extraktion där vi noggrant tömmer porerna på oönskade finnar, pormaskar och andra orenheter. För att lugna huden och minska eventuell rodnad eller irritation appliceras sedan en lugnande mask. Slutligen avslutas behandlingen med en intensiv återfuktning, vilket hjälper din hud att återhämta sig och känna sig förnyad.</p>',
-
-        tags: array(new ArticleTag(
-            icon: 'rengoring',
-            label: 'Rengöring'
-        ), new ArticleTag(
-            icon: 'anga',
-            label: 'Ånga'
-        ), new ArticleTag(
-            icon: 'extraktion',
-            label: 'Extraktion'
-        ), new ArticleTag(
-            icon: 'mask',
-            label: 'Mask'
-        ))
     ),
 );
 

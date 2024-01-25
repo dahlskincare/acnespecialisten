@@ -115,8 +115,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva abehan
 $top_articles = array(
     'areas' => new Article(
         title: 'Varför uppstår finnar i ansiktet?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Finnar i ansiktet kan ofta uppstå som ett resultat av flera samverkande faktorer. Hormonella förändringar kan orsaka en ökad produktion av talg, vilket i sin tur kan leda till tilltäppta porer. Stress är en annan bidragande faktor som kan förvärra tillståndet. Även om finnar främst uppträder i ansiktet, är det inte ovanligt att de även dyker upp på andra delar av kroppen som rygg och bröst. På AcneSpecialisten lägger vi stor vikt vid att förstå din unika hudtyp och dess behov, för att kunna erbjuda de mest effektiva behandlingsalternativen för finnar i ansiktet.</p>
@@ -127,8 +127,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp för finnar i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp för finnar i ansiktet?',
             image_title: 'När ska jag söka hjälp för finnar i ansiktet?',
             content: '<p class="p200">finnar i ansiktet kan vara mer än bara ett kosmetiskt problem – de kan också vara en källa till fysisk och emotionell stress. Om du märker att dina finnar är ihållande eller blir värre är det dags att överväga professionell hjälp. Att hantera finnarna tidigt är avgörande för att minska risken för ärrbildning och andra långsiktiga effekter på huden. Professionell rådgivning kan inte bara hjälpa till att behandla befintliga utbrott, utan också ge insikt i förebyggande åtgärder och skräddarsydda hudvårdsrutiner.</p>',
@@ -136,8 +136,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
             image_title: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
             content: '<p class="p200">Vi på AcneSpecialisten har behandlat finnar i ansiktet i över 30 års erfarenhet. Vår unika expertis i hudens komplexitet ger oss möjligheten att erbjuda skräddarsydda behandlingsmetoder.</p>

@@ -51,49 +51,23 @@ $description_text = '<p class="p200">Vår fraktionerade CO2-laserbehandling på 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför laser mot problemhy',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför laser mot problemhy',
         image_title: 'Förberedelser inför laser mot problemhy',
         content: '<p class="p200">Inför din laserbehandling mot problemhy på AcneSpecialisten, rekommenderar vi att du börjar med en kostnadsfri konsultation. Detta steg är essentiellt för att vi ska kunna förbereda din hud optimalt och förstå dina specifika behov. Under konsultationen diskuterar vi din hudtyp, eventuella hudproblem och dina mål med behandlingen. Vi tar även en titt på din nuvarande hudvårdsrutin och gör nödvändiga justeringar inför behandlingen.</p>
         <p class="p200 mt-m">För att förbereda din hud för laserbehandlingen är det viktigt att du undviker solbränna och stark sol under veckorna före behandlingen. Solbränd hud kan vara mer känslig, vilket kan påverka behandlingens effektivitet och säkerhet. Dessutom rekommenderas att du undviker hudvårdsprodukter med starka ingredienser, som exfolierande syror, minst en vecka före din behandling för att minimera risken för irritation.</p>
         <p class="p200 mt-m">Din säkerhet och komfort är vår högsta prioritet. Vi uppmuntrar dig att dela alla hudrelaterade tillstånd eller bekymmer under konsultationen. Detta säkerställer att vi kan skräddarsy behandlingen efter dina unika behov och ge dig den bästa möjliga upplevelsen och resultaten med vår laserbehandling.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går laser mot problemhy till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går laser mot problemhy till?',
         image_title: 'Hur går laser mot problemhy till?',
         content: '<p class="p200">När du kommer till AcneSpecialisten för en laserbehandling mot problemhy, startar vi med en noggrann rengöring av ditt behandlingsområde. Detta är en viktig del i processen för att säkerställa att huden är fri från smuts och oljor, vilket gör behandlingen mer effektiv.</p>
         <p class="p200 mt-m">Vår fraktionerade CO2-laserbehandling involverar användning av avancerad laser-teknologi för att rikta in sig på djupet av huden. Lasern skapar mikroskopiska "zoner" av skada i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar kollagen- och elastinproduktion. Denna process hjälper till att minska synligheten av ärr, inklusive acneärr, operationsärr, och bristningar. Den är även effektiv för att behandla rynkor och fina linjer, samt utföra huduppfräschning och hudresurfacing.</p>
         <p class="p200 mt-m">Under behandlingen kan du känna en värmande känsla, men vi använder kylsystem och bedövningsmedel för att göra upplevelsen så bekväm som möjligt. Efter behandlingen kan det uppstå rodnad och svullnad, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig noggranna instruktioner för eftervård för att säkerställa en snabb och smidig läkningsprocess. Resultaten från behandlingen utvecklas över tid, när huden gradvis förnyas och förbättras från insidan.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -292,8 +266,8 @@ $treatment_areas_title = 'Behandlingsområden för Laser';
 $treatment_areas_text = '<p class="p200">Vår laserbehandling är anpassningsbar för en rad olika områden, vilket gör den idealisk för att adressera specifika hudproblem på olika delar av kroppen. Vi använder fraktionerad CO2-laser för att behandla hudområden som ansikte, hals, dekolletage, rygg och händer, samt specifika ansiktsområden som panna, näsa, kinder, överläpp och haka. Denna teknik möjliggör precisionsbehandling för att förbättra hudens kvalitet och utseende, oavsett område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
@@ -369,8 +343,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
@@ -423,8 +397,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
@@ -469,14 +443,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för laserbehandling',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+        image_large: null,
     image_alt: 'Eftervård för laserbehandling',
     image_title: 'Eftervård för laserbehandling',
     content: '<p class="p200">Eftervård är en avgörande del av din laserbehandlingsprocess för att säkerställa bästa möjliga resultat och snabb återhämtning. Omedelbart efter din laserbehandling kan du uppleva rodnad och viss svullnad i det behandlade området, vilket är normalt. Det är viktigt att inte röra området med orena händer och att undvika att applicera makeup under de första 24 timmarna för att förhindra irritation och infektioner.</p>
     <p class="p200 mt-m">Under återhämtningsperioden, undvik intensiv fysisk aktivitet, heta duschar och bastu, då detta kan förvärra svullnad och rodnad. Användning av hög SPF-solskydd är avgörande för att skydda den känsliga huden från solskador. Välj milda, återfuktande hudvårdsprodukter utan parfym eller irriterande ämnen för att hjälpa till med läkningsprocessen och bevara hudens fuktighet.</p>
     <p class="p200 mt-m">Följ de specifika eftervårdsinstruktionerna som ges av din hudterapeut noggrant. Om du har några frågor eller funderingar efter din behandling, tveka inte att kontakta din klinik för råd. Regelbundna uppföljningar och ytterligare behandlingar kan rekommenderas baserat på din hudtyp och de mål du har för din hudvård.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för laser mot problemhy';

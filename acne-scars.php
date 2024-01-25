@@ -94,8 +94,8 @@ $treatment_link = '<a href="behandla-acnearr.php" title="Explore effective acne 
 $top_articles = array(
     'areas' => new Article(
         title: 'Why and where does acne scars appear?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Understanding the origins and typical locations of acne scars is essential for effective treatment. Acne scars often form as a result of severe acne, particularly when it causes deep inflammation in the skin. This can lead to the breakdown of skin tissue, which, upon healing, might result in uneven collagen production. Excessive collagen leads to raised scars, while insufficient collagen can create depressions or pits in the skin. Acne scars commonly appear in areas with higher concentrations of sebaceous glands, such as the face, back, chest, and shoulders. A comprehensive consultation with our skin specialists is crucial for identifying these scarring issues and tailoring a personalized treatment plan to your specific skin needs.</p>',

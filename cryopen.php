@@ -51,48 +51,22 @@ $description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför CryoPenbehandling',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Inför CryoPenbehandling',
         image_title: 'Inför CryoPenbehandling',
         content: '<p class="p200">Inför din CryoPen behandling erbjuder vi alltid en kostnadsfri konsultation där du möter en av våra erfarna hudterapeuter. Under konsultationen kommer din hudterapeut att noggrant undersöka de hudförändringar du önskar behandla. Detta steg är avgörande för att vi ska kunna utforma en behandlingsplan som är skräddarsydd för just dina hudproblem och för att besluta om CryoPen är den optimala metoden för dig.</p>
         <p class="p200 mt-m">För att förbereda huden inför behandlingen är det viktigt att du låter bli att manipulera eller irritera området som ska behandlas. Det är också fördelaktigt att inte utsätta huden för intensiv solning eller stark kyla före din session. Under konsultationen kommer vi att ge dig omfattande information om hur du bäst förbereder dig och vad du kan förvänta dig av behandlingen. Om förhållandena tillåter, och området är lämpligt, kan vi ofta påbörja din CryoPen behandling direkt vid konsultationstillfället.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går CryoPen till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går CryoPen till?',
         image_title: 'Hur går CryoPen till?',
         content: '<p class="p200">CryoPen behandling är en precisionsmetod för att frysa och avlägsna oönskade hudförändringar. Vid ankomst till vår klinik kommer vi att inleda med en grundlig rengöring av huden för att förbereda det aktuella området för behandling.</p>
         <p class="p200 mt-m">Med hjälp av CryoPen-apparaten applicerar vår kvalificerade hudterapeut en exakt dos av kylmedel direkt på den oönskade hudförändringen. Denna riktade kyla är mycket effektiv och behandlingen tar bara några sekunder. Känslan under behandlingen kan jämföras med en nypande eller stickande känsla, men är normalt sett kortvarig och hanterbar.</p>
         <p class="p200 mt-m">Omedelbart efter CryoPen-behandlingen kan det behandlade området uppvisa rodnad eller svullnad, och ibland kan en liten blåsa uppstå. Detta är en normal reaktion och en del av den naturliga läkningsprocessen. Efter behandlingen kommer du att få detaljerade instruktioner för att ta hand om huden hemma. Den frysta hudförändringen kommer att torka och så småningom falla av inom några veckor, vilket lämnar ett jämnare och renare hudområde.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -266,8 +240,8 @@ $treatment_areas_title = 'Användningsområden för CryoPen Behandling';
 $treatment_areas_text = '<p class="p200">CryoPen erbjuder en mångsidig lösning för att avlägsna hudförändringar i många olika delar av kroppen. Med dess precision kan behandlingen utföras på känsliga och svåråtkomliga områden som ansiktet, samt mer utbredda regioner som hals, axlar, och rygg. CryoPen är idealisk för att behandla enstaka eller flera hudförändringar, oavsett deras storlek och placering, och anpassas för att leverera optimala resultat för varje unikt fall.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Antal hudförändringar',
         image_title: 'Antal hudförändringar',
         title: 'Antal hudförändringar',
@@ -357,14 +331,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter CryoPen',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+        image_large: null,
     image_alt: 'Efter CryoPen',
     image_title: 'Efter CryoPeng',
     content: '<p class="p200">Efter en CryoPen-behandling är korrekt eftervård avgörande för att säkerställa en effektiv läkning och undvika komplikationer. Direkt efter behandlingen kan området vara rött och svullet, vilket är normalt. Det är viktigt att skydda det behandlade området från att smutsas ner; undvik därför att röra det med händerna och att applicera smink inom de första 24 timmarna efter ingreppet.</p>
     <p class="p200 mt-m">För att minska risken för irritation och svullnad, bör du avstå från att delta i ansträngande aktiviteter som intensiv träning, bastu och exponering för mycket varmt vatten under de initiala dagarna efter behandlingen. Även om det behandlade området inte utsätts för direkt solljus, är det kritiskt att applicera solskydd för att skydda huden mot UV-strålning och understödja läkningsprocessen.</p>
     <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som din hudterapeut ger dig. Om du upplever några osäkerheter eller bekymmer angående din läkning efter behandlingen, kontakta din klinik för råd. Baserat på din huds respons på behandlingen rekommenderas en eller flera uppföljningar eller behandlingar för optimala resultat.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Metoder för CryoPen';

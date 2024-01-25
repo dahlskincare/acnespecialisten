@@ -80,8 +80,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Vår djuprengöringsprocess inleds med en varsam rengöring som effektivt tar bort smuts och överflödig talg. Efter detta tillkommer en ångbehandling som mjukgör huden och förbereder den för pormaskborttagning. Genom denna metod kan våra terapeuter djuprengöra porerna mer effektivt.</p>
         <p class="p200 mt-m">Efter den grundliga rengöringen appliceras en lermask som verkar lugnande på huden och hjälper till att strama åt porerna. Behandlingen avrundas med en återfuktande kräm som återställer hudens balans och efterlämnar en jämn och ren yta.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'djuprengöring',
         image_title: 'djuprengöring',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',

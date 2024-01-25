@@ -98,8 +98,8 @@ $treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" titl
 $top_articles = array(
     'areas' => new Article(
         title: 'Var uppstår åldersfläckar och varför?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Åldersfläckar tenderar att bildas på de delar av kroppen som mest frekvent exponeras för solen, såsom ansiktet, händerna och armarna. Dessa fläckar är ett resultat av ökad melaninproduktion, det pigment som ger hud dess färg, vilket ofta orsakas av långvarig exponering för UV-strålar från solen. Hudens naturliga åldringsprocess bidrar också, då dess förmåga att återhämta sig från solskador minskar över tiden.</p>',
@@ -109,8 +109,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska du överväga att få hjälp med åldersfläckar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska du överväga att få hjälp med åldersfläckar?',
             image_title: 'När ska du överväga att få hjälp med åldersfläckar?',
             content: '<p class="p200">Åldersfläckar är en naturlig del av hudens åldrande och kan orsaka kosmetiska bekymmer. Om dina åldersfläckar börjar påverka ditt självförtroende eller om du har bekymmer över hur de ser ut, kan det vara läge att söka expertis. Medan åldersfläckar oftast är ofarliga, är det viktigt att få dem bedömda för att utesluta andra hudförhållanden. En specialist kan erbjuda vägledning om effektiva behandlingar och förebyggande strategier.</p>',
@@ -118,8 +118,8 @@ $articles = array(
 
       new Article(
             title: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
             image_title: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
             content: '<p class="p200">AcneSpecialisten har lång erfarenhet av åldersfläcksbehandling. Tack vare vår gedigna erfarenhet och tillgång till de senaste metoderna, erbjuder vi personligt anpassade behandlingar för varje klient. Vårt mål sträcker sig bortom att bara behandla åldrandets synliga effekter; vi siktar också på att förebygga framtida hudproblem.</p>

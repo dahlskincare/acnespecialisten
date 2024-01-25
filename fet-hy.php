@@ -103,8 +103,8 @@ $treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska e
 $top_articles = array(
     'areas' => new Article(
         title: 'Fet hy områden',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Fet hy kännetecknas ofta av en ökad oljeproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
@@ -115,8 +115,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med fet hy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med fet hy?',
             image_title: 'När ska jag söka hjälp med fet hy?',
             content: '<p class="p200">Fet hy är en vanlig hudåkomma som kan påverka individer i alla åldrar. Detta tillstånd, som kännetecknas av ökad oljeproduktion, kan leda till en glansig hud och ökad benägenhet för acneutbrott. Om du märker att din fet hy bidrar till hudproblem eller om du har försökt hantera det med olika produkter utan framgång, kan det vara dags att överväga professionell hjälp. Kom ihåg, det är lämpligt att söka hjälp oavsett om du upplever milda eller allvarliga symptom.</p>',
@@ -124,8 +124,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten?',
             image_title: 'Varför ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Om du söker en effektiv och hållbar lösning för din fet hy, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i behandling av fet hy, har vi den expertis som behövs för att anpassa behandlingen efter dina unika behov.</p>

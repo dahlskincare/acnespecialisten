@@ -98,14 +98,14 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'För att förebygga framtida utbrott av bröstakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa produkter är specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne, hållande din hud hälsosam och ren.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne_bröst',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne på bröstet'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'Efter att ha behandlat aktiv bröstakne fokuserar vi på att reparera och förbättra hudens textur. Våra behandlingar inkluderar metoder för att minska ärrbildning och främja en jämn och fräsch hudton, för långsiktiga och hållbara resultat.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr_bröst.php',
+            url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från akne på bröstet'
       ),
 );
@@ -115,8 +115,8 @@ $treatment_link = '<a href="acnebehandling_bröst.php" title="Utforska effektiva
 $top_articles = array(
     'areas' => new Article(
         title: 'Varför uppstår akne på bröstet?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Det finns flera orsaker till varför akne kan uppstå på bröstet, och dessa beror ofta på en samverkan av olika faktorer. En vanlig orsak är hormonella förändringar, som kan leda till ökad talgproduktion och därmed tilltäppta porer och akne. Stress är en annan faktor som kan förvärra situationen genom att påverka hormonbalansen och öka talgproduktionen i huden. Hos AcneSpecialisten tar vi en helhetsorienterad ansats för att noggrant hantera din bröstakne.</p>
@@ -127,8 +127,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När bör du söka professionell hjälp för akne på bröstet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När bör du söka professionell hjälp för akne på bröstet?',
             image_title: 'När bör du söka professionell hjälp för akne på bröstet?',
             content: '<p class="p200">Bröstakne är inte bara en fysisk utmaning, utan kan också påverka ditt välbefinnande emotionellt. Om du upptäcker att din bröstakne är bestående eller förvärras, kan det vara dags att överväga professionell hjälp. Tidig intervention är avgörande för att förhindra ärrbildning och andra långvariga effekter på huden. Genom att söka professionell hjälp får du tillgång till expertis inom behandling av nuvarande utbrott och rådgivning om förebyggande hudvård samt anpassade hudvårdsrutiner för att bevara en problemfri hy.</p>',
@@ -136,8 +136,8 @@ $articles = array(
 
       new Article(
             title: 'Fördelarna med att välja AcneSpecialisten för behandling av din akne på bröstet',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Fördelarna med att välja AcneSpecialisten för behandling av din akne på bröstet',
             image_title: 'Fördelarna med att välja AcneSpecialisten för behandling av din akne på bröstet',
             content: '<p class="p200">Med mer än 30 års erfarenhet av att behandla akne på bröstet, utmärker sig AcneSpecialisten med en djupgående förståelse för hudens komplexitet och olika behov. Vår förmåga att erbjuda unika, skräddarsydda behandlingar är anpassade för varje enskild persons specifika situation.</p>

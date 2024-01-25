@@ -52,49 +52,23 @@ $description_text = '<p class="p200">Injektionsbehandlingar på AcneSpecialisten
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför injektionsbehandlingar',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelse inför injektionsbehandlingar',
         image_title: 'Förberedelse inför injektionsbehandlingar',
         content: '<p class="p200">På AcneSpecialisten är en grundlig konsultation ett essentiellt första steg inför din injektionsbehandling. Denna process, som inkluderar en 48 timmars betänketid, är avgörande för att säkerställa att behandlingen är anpassad efter dina specifika behov och önskemål. Under konsultationen diskuterar vi dina mål, förväntningar och eventuella tidigare erfarenheter av liknande behandlingar.</p>
         <p class="p200 mt-m">För att förbereda dig för din behandling rekommenderar vi att du undviker vissa aktiviteter och produkter. Det är bra att inte exponera huden för starkt solljus och att undvika att använda hudirriterande produkter som retinol eller exfolierande syror några dagar före din behandling. Dessa åtgärder minimerar risken för eventuell hudirritation. Vi betonar vikten av att du kommer till din behandling med en god förståelse för processen och med realistiska förväntningar på resultatet.</p>
         <p class="p200 mt-m">Vårt team på AcneSpecialisten är här för att stödja dig genom hela processen. Vi värdesätter din komfort och strävar efter att erbjuda en säker, skonsam och effektiv behandling. Tveka inte att ställa frågor eller uttrycka dina funderingar under konsultationen. Vi ser fram emot att välkomna dig och bistå dig på din resa mot förbättrad hudhälsa och skönhet.</p>',
-                tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går injektionsbehandlingar till?',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Hur går injektionsbehandlingar till?',
     image_title: 'Hur går injektionsbehandlingar till?',
     content: '<p class="p200">På AcneSpecialisten är processen för injektionsbehandlingar noggrant utformad för att uppnå bästa möjliga resultat. Det första steget är alltid en personlig konsultation, där vi diskuterar dina mål och granskar din hud för att skapa en skräddarsydd behandlingsplan. Denna konsultation följs av en 48 timmars betänketid för att ge dig möjlighet att överväga behandlingen fullt ut.</p>
     <p class="p200 mt-m">När du bestämt dig för att fortsätta, börjar själva behandlingsdagen med en noggrann rengöring av det område som ska behandlas. Därefter markerar vår erfarna personal de specifika områdena som ska behandlas för att säkerställa precision och effektivitet. Behandlingen utförs med största noggrannhet, där vi använder injektionstekniker som syftar till att uppfylla dina estetiska önskemål samtidigt som vi minimerar obehag.</p>
     <p class="p200 mt-m">Efter behandlingen får du detaljerade instruktioner om eftervård för att säkerställa optimal läkning och resultat. Det är vanligt att uppleva mild rodnad eller svullnad i det behandlade området, men detta bör avta inom kort. Vi erbjuder också uppföljningssessioner för att bedöma resultaten och göra eventuella justeringar om det behövs. Vår prioritet är din tillfredsställelse och säkerhet genom hela processen.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -102,8 +76,8 @@ $treatment_areas_title = 'Behandlingsområden för Injektionsbehandlingar';
 $treatment_areas_text = '<p class="p200">Vi behandlar både specifika problem och områden effektivt.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Problem',
         image_title: 'Problem',
         title: 'Problem',
@@ -321,8 +295,8 @@ $treatment_areas = array(
         ),
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Områden',
         image_title: 'Områden',
         title: 'Områden',
@@ -386,8 +360,8 @@ $treatment_areas = array(
         ),
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Fillers',
         image_title: 'Fillers',
         title: 'Fillers',
@@ -484,8 +458,8 @@ $treatment_areas = array(
         ),
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
@@ -598,14 +572,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård och underhåll efter injektionsbehandlingar',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård och underhåll efter injektionsbehandlingar',
     image_title: 'Eftervård och underhåll efter injektionsbehandlingar',
     content: '<p class="p200">Efter din injektionsbehandling hos AcneSpecialisten är det viktigt att du följer några grundläggande eftervårdsanvisningar för att upprätthålla och maximera resultatet. Direkt efter behandlingen bör du undvika intensiv sol och använda solskydd med hög SPF för att skydda behandlingsområdet. Det är också rekommenderat att undvika tung makeup och produkter som kan irritera huden under de första 24 timmarna.</p>
     <p class="p200 mt-m">Efter en injektionsbehandling kan det uppstå mindre svullnad eller blåmärken, vilket är normalt. Det är viktigt att inte röra eller massera behandlingsområdet under de första dagarna. Om du upplever någon obehag, kan en kall kompress hjälpa till att minska svullnad. För att stödja läkningen, fortsätt att återfukta huden med lämpliga hudvårdsprodukter som rekommenderats av din hudterapeut.</p>
     <p class="p200 mt-m">Ett balanserat intag av vatten och näringsrik kost är också viktigt för att stödja din huds hälsa inifrån och ut. Undvik att dricka alkohol och begränsa användningen av blodförtunnande medel som kan öka risken för blåmärken. För att upprätthålla resultatet av din behandling, kan regelbundna uppföljningsbehandlingar rekommenderas av din hudterapeut. Om du har några frågor eller funderingar kring din eftervård, tveka inte att kontakta oss på AcneSpecialisten för personlig rådgivning och stöd.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $results = array(

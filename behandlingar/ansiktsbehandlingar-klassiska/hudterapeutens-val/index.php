@@ -7,7 +7,7 @@ $seo_title = 'Hudterapeutens Val - Personlig Ansiktsbehandling | AcneSpecialiste
 $seo_description = 'På AcneSpecialisten får du en ansiktsbehandling som är unikt anpassad av våra erfarna hudterapeuter baserat på din hudtyp och behov. Hudterapeutens Val innebär en skräddarsydd upplevelse som adresserar dina specifika hudutmaningar för att främja en frisk och balanserad hud. Upptäck den optimala vägen till en skönare hud med professionell vägledning och individanpassad omsorg.';
 $seo_keywords = 'personlig ansiktsbehandling, Hudterapeutens Val, skräddarsydd hudvård, individanpassad ansiktsbehandling, hudvårdsrådgivning, anpassad hudvård, expertis i hudvård, AcneSpecialisten, behandling efter hudtyp, frisk hud, balanserad hudvård';
 
-$seo_image = 'images/treatments/large/hudterapeutens-val.jpg';
+$seo_image = 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp';
 
 $model = new Service(
     title: 'Hudterapeutens val',
@@ -72,25 +72,12 @@ $description_text = '<p class="p200">Hudterapeutens val är en högst personlig 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför hudterapeutens val',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför hudterapeutens val',
         image_title: 'Förberedelser inför hudterapeutens val',
         content: '<p class="p200">Inför behandlingen "Hudterapeutens Val" behöver du inte vidta några speciella förberedelser. Vår expertis ligger i att anpassa behandlingen till din unika hudtyp och de behov som framkommer vid konsultationen. Vi utgår från hudens aktuella skick vid behandlingstillfället och anpassar våra metoder därefter.</p>
         <p class="p200 mt-m">Det är helt okej att du anländer med makeup om så önskas; vi börjar alltid med en grundlig och skonsam rengöring för att säkerställa att din hud är redo för behandling. Varje steg i processen är skräddarsytt för att ge dig de bästa möjliga resultaten, skonsamt och effektivt, utan förutbestämda förberedelser från din sida.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -103,8 +90,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Din ansiktsbehandling börjar med en rengöring samtidigt som hudterapeuten går igenom din huds unika behov och behandlngsmöjligheter. Beroende på din huds tillstånd och behov kan vi välja att integrera en mild exfoliering eller andra skräddarsydda metoder som syftar till att förbättra hudens struktur och lyster.</p>
         <p class="p200 mt-m">Vi fortsätter med att tillämpa specialiserade tekniker, som kan inkludera en Lumafuse-behandling med LED-mask för att främja hudens hälsa och läkning. Andra moment, såsom Peel2glow, brynstyling och applicering av noga utvalda masker och serum, väljs ut för att matcha exakt vad din hud kräver för den dagen. Genom hela sessionen är fokus på att skräddarsy varje steg för att passa dig, vilket resulterar i en personligt anpassad behandlingsupplevelse. Efter behandlingen avslutar vi med att applicera produkter som lugnar och återfuktar huden, för att säkerställa att du lämnar med en känsla av förnyelse och vitalitet.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hudterapeutens val',
         image_title: 'Hudterapeutens val',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
@@ -113,7 +100,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
         booking_url_label: 'Boka Hudterapeutens val',
         booking_url_title: 'Boka Hudterapeutens val',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -140,13 +127,12 @@ $big_types = array(
 $bottom_articles = array(
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter hudterapeutens val',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
         content: '<p class="p200">Efter din personligt anpassade ansiktsbehandling är ett individuellt anpassat eftervårdsprogram nyckeln till att förlänga de positiva effekterna och stödja din huds hälsa. Din hudterapeut kommer att ge dig skräddarsydda råd för hemvård baserat på de specifika behandlingar som har utförts, eftersom varje behandling är unik för just din hudtyp och dina behov.</p>
         <p class="p200 mt-m">Du kommer att få rekommendationer om lämpliga produkter som kompletterar den behandling du har fått och råd om hur du bäst implementerar dem i din dagliga hudvårdsrutin. Detta kan innefatta allt från hur du ska återfukta och skydda huden till vilka ingredienser som är viktiga för just din hudprofil. Eftervårdsprogrammet siktar inte bara på att underhålla de omedelbara resultaten från din behandling, utan också att ge dig verktygen och kunskapen för att hantera din hud och dess behov över tid. Att följa hudterapeutens eftervårdsråd säkerställer att du får ut det mesta av din skräddarsydda behandling långt efter att du har lämnat salongen.</p>',
-        tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
 

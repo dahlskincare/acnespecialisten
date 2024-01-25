@@ -98,26 +98,26 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'För att förhindra framtida utbrott av ryggakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa produkter är specialutformade för att balansera din hud och motverka de faktorer som bidrar till akne, vilket hjälper till att hålla din hud hälsosam och ren.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne_rygg',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga ryggakne'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'Efter behandling av aktiv ryggakne, inriktar vi oss på att reparera och förbättra hudens textur. Vi erbjuder behandlingsmetoder som minskar ärrbildning och förbättrar hudens tillstånd, vilket ger långsiktiga resultat för en jämn och fräsch hudton.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr_rygg.php',
+            url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från ryggakne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling_rygg.php" title="Utforska effektiva behandlingar mot akne på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ryggakne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ryggakne</a>';
 
 
 $top_articles = array(
     'areas' => new Article(
         title: 'Varför uppstår akne på ryggen?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Akne på ryggen kan uppstå genom en kombination av faktorer, där hormonella förändringar ofta spelar en stor roll. Dessa förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer, en primär orsak till akne. Stress är en annan betydande faktor som kan förvärra hudens tillstånd genom att påverka hormonbalansen. Ytterligare en orsak kan vara friktion från kläder och sportutrustning, som exempelvis skydd vid olika sportaktiviteter, vilket kan bidra till aknes uppkomst genom ökad svettning och irritation av huden. akne kan dyka upp inte bara på ryggen utan även på andra delar av kroppen, som bröstet.</p>
@@ -128,8 +128,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När är det dags att söka professionell hjälp för akne på ryggen?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När är det dags att söka professionell hjälp för akne på ryggen?',
             image_title: 'När är det dags att söka professionell hjälp för akne på ryggen?',
             content: '<p class="p200">Ryggakne kan uppstå av flera olika anledningar, där en kombination av faktorer som hormonella förändringar och stress spelar en stor roll. Dessa kan leda till ökad talgproduktion och tilltäppta porer. Att identifiera när det är dags att söka professionell hjälp är viktigt för att förhindra långsiktiga effekter på huden. På AcneSpecialisten erbjuder vi en helhetsorienterad metod för att effektivt hantera din ryggakne. En personligt anpassad hudvårdsrutin är central, där val av produkter som är både effektiva och skonsamma är avgörande för att förebygga ytterligare hudirritation och upprätthålla en hälsosam hudmiljö.</p>',
@@ -137,8 +137,8 @@ $articles = array(
 
       new Article(
             title: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
             image_title: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
             content: '<p class="p200">Med över 30 års erfarenhet inom behandling av akne på ryggen, har AcneSpecialisten utvecklat en djup förståelse för hudens komplexitet och behov. Vi erbjuder unika, skräddarsydda behandlingar anpassade för varje enskild klients unika situation.</p>

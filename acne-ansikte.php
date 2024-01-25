@@ -116,8 +116,8 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behand
 $top_articles = array(
     'areas' => new Article(
         title: 'Varför uppstår akne i ansiktet?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Orsakerna till akne i ansiktet är mångfacetterade och involverar ofta en kombination av faktorer. En primär orsak är hormonella förändringar som kan stimulera överproduktion av talg, vilket leder till tilltäppta porer och akneutbrott. Stress har också visat sig kunna förvärra akne genom att påverka hormonbalansen och öka hudens talgproduktion. På AcneSpecialisten fokuserar vi på en helhetssyn av dina hudproblem för att effektivt adressera akne i ansiktet.</p>
@@ -128,8 +128,8 @@ $top_articles = array(
 $articles = array(
       new Article(
             title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
             image_title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
             content: '<p class="p200">Akne i ansiktet kan vara mer än bara ett hudproblem – det kan även leda till emotionellt obehag. Om du upplever att din akne är ihållande eller förvärras, är det en signal om att det kan vara läge att söka professionell hjälp. Tidig behandling är nyckeln till att förebygga ärr och andra långsiktiga hudproblem. Genom professionell rådgivning kan du få hjälp med att behandla nuvarande utbrott samt råd om förebyggande åtgärder och anpassade hudvårdsrutiner för att bevara en frisk hud.</p>',
@@ -137,8 +137,8 @@ $articles = array(
 
       new Article(
             title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
             image_title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
             content: '<p class="p200">AcneSpecialisten står ut med över 30 års erfarenhet av att behandla akne i ansiktet. Vår djupa förståelse för hudens komplexitet och behov gör att vi kan erbjuda unika, skräddarsydda behandlingar anpassade efter varje individs situation.</p>

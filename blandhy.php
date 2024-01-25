@@ -428,8 +428,8 @@ $articles = array(
 
       new Article(
             title: 'När ska jag söka hjälp med min blandhy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med min blandhy?',
             image_title: 'När ska jag söka hjälp med min blandhy?',
             content: '<p class="p200">Blandhy är en vanlig hudtyp och kan drabba personer i alla åldrar. Även om det mestadels är en estetisk bekymmer, kan det påverka självkänslan och leda till andra hudproblem. Om du känner att din blandhy börjar påverka ditt välbefinnande, eller om du har testat olika produkter utan framgång, kan det vara dags att söka professionell hjälp. Det är aldrig för tidigt eller försent att få rätt hjälp.</p>
@@ -438,8 +438,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
             content: '<p class="p200">Om du strävar efter en effektiv och långsiktig lösning för din blandhy, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i att behandla olika hudproblem, inklusive blandhy, är vi experter på att erbjuda skräddarsydda lösningar för varje enskild individs behov.</p>

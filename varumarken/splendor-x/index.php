@@ -50,25 +50,12 @@ $description_text = '<p class="p200">Splendor X står i frontlinjen för innovat
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Splendor X',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför Splendor X',
         image_title: 'Förberedelser inför Splendor X',
         content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället bör du raka området noggrant dagen före din behandling.</p>
         <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika solning och användning av självbruningsprodukter under de veckor som leder upp till behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går behandling med Splendor X till?',
@@ -78,19 +65,6 @@ $top_articles = array(
         image_title: 'Hur går behandlingen med Splendor X till?',
         content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Detta ljus absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme skadar effektivt folliklarna utan att skada omgivande vävnad, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
         <p class="p200 mt-m">En av de största fördelarna med Splendor X är att den inte kräver användning av gel under behandlingen, vilket gör hela processen renare och bekvämare för dig som patient. Efter behandlingen kan det förekomma en viss rodnad och svullnad i de behandlade områdena, men dessa reaktioner är milda och försvinner vanligtvis snabbt. För att uppnå optimala och långvariga resultat kan det vara nödvändigt med flera behandlingssessioner, då hår växer i olika faser och varje strå måste behandlas vid rätt tidpunkt. Vår expertis och avancerade teknik med Splendor X säkerställer en effektiv, säker och bekväm upplevelse, vilket resulterar i slät och hårfri hud.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -98,8 +72,8 @@ $combos_title = 'Populära behandlingskombinationer';
 $combos = array(
     new ServiceCombo(
         name: 'Bikinilinje + Hela ben',
-        image_small: 'https://via.placeholder.com/200x200.webp',
-        image_large: 'https://via.placeholder.com/361x274.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Bikinilinje + Hela ben',
         image_title: 'Bikinilinje + Hela ben',
         duration: '80 min',
@@ -127,8 +101,8 @@ $treatment_areas_text = '<p class="p200">Splendor X behandlar effektivt hårväx
 
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
@@ -192,8 +166,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
@@ -290,8 +264,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Intim (Kvinna)',
         image_title: 'Intim (Kvinna)',
         title: 'Intim (Kvinna)',
@@ -344,8 +318,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Intim (Man)',
         image_title: 'Intim (Man)',
         title: 'Intim (Man)',
@@ -398,8 +372,8 @@ $treatment_areas = array(
         )
     ),
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ben',
         image_title: 'Ben',
         title: 'Ben',
@@ -444,14 +418,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Splendor X eftervård',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+        image_large: null,
     image_alt: 'Splendor X eftervård',
     image_title: 'Splendor X eftervård',
     content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>
     <p class="p200 mt-m">Efter behandlingen kan man uppleva mild rodnad och en lätt värmande känsla i de behandlade områdena. Dessa symtom är normala och bör avta relativt snabbt, vilket är ett tecken på den skonsamma naturen hos Splendor X. För att stödja och påskynda återhämtningsprocessen, rekommenderas det att man sköter det behandlade området varsamt, undviker direkt solljus och använder ett högt SPF-solskydd för att skydda huden.</p>
     <p class="p200 mt-m">Undvik att skrubba huden eller använda irriterande hudvårdsprodukter, och avstå från andra hårborttagningsmetoder som vaxning eller plockning. Genom att följa dessa steg säkerställer du att huden återhämtar sig effektivt och behåller de optimala resultaten från din Splendor X-behandling.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för Permanent Hårborttagning';

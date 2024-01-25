@@ -69,8 +69,8 @@ $treat_url_title = 'klicka här för att se våra behandlingar för ärr från f
 $services = array(
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Klient som genomgår laserbehandling mot ärr från finnar',
         image_alt: 'Bild av laserbehandling mot ärr från finnar hos Acnespecialisten',
         title: 'Effektiv laserbehandling mot ärr från finnar',
@@ -91,8 +91,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av kemisk peelingbehandling för ärr från finnar',
         image_alt: 'Bild på kemisk peelingbehandling mot ärr från finnar hos Acnespecialisten',
         title: 'Kemisk peeling mot ärr från finnar',
@@ -113,8 +113,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av microneedlingbehandling för ärr från finnar',
         image_alt: 'Bild på microneedlingbehandling mot ärr från finnar hos Acnespecialisten',
         title: 'Effektiv microneedling mot ärr från finnar',

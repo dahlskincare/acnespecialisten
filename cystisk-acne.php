@@ -110,13 +110,13 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot cystisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot cystisk akne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot cystisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot cystisk akne</a>';
 
 $top_articles = array(
     'areas' => new Article(
         title: 'Var och varför uppstår Cystisk akne?',
-        image_small: '',
-        image_large: '',
+        image_small: null,
+        image_large: null,
         image_alt: '',
         image_title: '',
         content: '<p class="p200">Orsakerna till cystisk akne är ofta en sammansättning av flera faktorer. En av de primära drivkrafterna bakom cystisk akne är hormonella förändringar, som kan stimulera en överproduktion av talg. Denna överproduktion kan i sin tur leda till att porerna blir tilltäppta och aknebildningar uppstår. Stress är också en viktig bidragande faktor, eftersom det kan rubba hormonbalansen och öka talgproduktionen, vilket förvärrar akne.</p>

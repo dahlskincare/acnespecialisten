@@ -50,48 +50,22 @@ $description_text = '<p class="p200">Dermabrasion är en djupgående hudföryngr
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför dermabrasion',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelse inför dermabrasion',
         image_title: 'Förberedelse inför dermabrasion',
         content: '<p class="p200">Inför din dermabrasion-behandling på AcneSpecialisten är det viktigt att förbereda huden för att maximera resultatet. Vi rekommenderar att du undviker att använda starka hudvårdsprodukter, såsom exfolierande syror, några dagar innan behandlingen. Detta för att minska risken för irritation och göra huden mer mottaglig för behandlingen.</p>
         <p class="p200 mt-m">Det är också klokt att skydda din hud från stark sol och undvika solbränna innan din session. Solbränd hud kan vara mer känslig och kan påverka resultatet av dermabrasion. Om du tar mediciner som påverkar huden, eller om du har några hudrelaterade tillstånd, informera oss gärna om detta i förväg så att vi kan anpassa behandlingen efter dina behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte boka en kostnadsfri dermabrasion konsultation hos oss.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Processen för dermabrasion',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Processen för dermabrasion',
         image_title: 'Processen för dermabrasion',
         content: '<p class="p200">Vid en dermabrasion-behandling på AcneSpecialisten inleds sessionen med att noggrant rengöra huden för att eliminera smuts, olja och andra orenheter. Denna rengöringsprocess är avgörande för att säkerställa att huden är fullständigt förberedd för dermabrasionens exfolierande effekter.</p>
     <p class="p200 mt-m">Efter rengöringen utförs själva dermabrasionen, en mekanisk peeling där ett specialverktyg används för att försiktigt men effektivt slipa bort det yttersta lagret av döda hudceller. Denna process stimulerar hudens naturliga förnyelseprocess, vilket kan förbättra hudens textur och ton samt minska synligheten av fina linjer, ärr och hyperpigmentering.</p>
     <p class="p200 mt-m">Efter dermabrasionen kan en lugnande och återfuktande mask appliceras för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en närande fuktighetskräm som skyddar och återställer huden. Vår expertpersonal ser till att varje steg i din dermabrasion-behandling är skräddarsytt för att passa din specifika hudtyp och dina behov, med målet att ge dig en friskare, mer strålande hud.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -104,8 +78,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Vår microdermabrasion-behandling är en effektiv metod för att förbättra hudens utseende och struktur. Anpassad för flera hudtyper, använder denna behandling varsam exfoliering för att ta bort döda hudceller från det yttersta hudlagret. Genom att stimulera hudens förnyelseprocess, kan behandlingen minska synligheten av ärr, fina linjer och hyperpigmentering, och lämnar huden jämnare och mer strålande.</p>
         <p class="p200 mt-m">Behandlingen inleds med en grundlig rengöring, följt av exfoliering med specialutrustning och avslutas med en återfuktande och lugnande eftervård. Vi erbjuder också en skräddarsydd eftervårdsplan för att maximera och förlänga effekterna av behandlingen.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Dermabrasion',
         image_title: 'Dermabrasion',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
@@ -114,7 +88,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -143,8 +117,8 @@ $big_types = array(
         content: '<p class="p200">Vår dermabrasion-behandling är en effektiv lösning för att förbättra hudens utseende och struktur. Denna behandling är lämplig för många hudtyper och fokuserar på att varsamt slipa bort det yttersta hudlagret. Processen börjar med en grundlig rengöring för att förbereda huden, vilket är avgörande för behandlingens framgång.</p>
         <p class="p200 mt-m">Efter rengöringen påbörjas själva dermabrasionen, där vi använder specialutrustning för att försiktigt men effektivt exfoliera huden. Detta hjälper till att avlägsna döda hudceller och stimulerar hudens förnyelseprocess, vilket kan minska synligheten av ärr, fina linjer och hyperpigmenteringar. Denna metod är djupgående och bidrar till en jämnare och mer strålande hudton.</p>
         <p class="p200 mt-m">Behandlingen avslutas med en återfuktande och lugnande behandling för att återställa och skydda huden. Efter dermabrasionen är det viktigt att huden får den vård den behöver för att optimera och förlänga resultaten av behandlingen. Vi erbjuder en skräddarsydd eftervårdsplan för att säkerställa att din hud får den näring och skydd den behöver.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Dermabrasion',
         image_title: 'Dermabrasion',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
@@ -153,7 +127,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Standard',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -182,8 +156,8 @@ $big_types = array(
         content: '<p class="p200">För att ge mogen hud ett riktigt lyft, inkluderar vi Dermabuilder serum i vår behandling. Detta specialserum är en riktig kraftkälla, särskilt utvecklad för att vitalisera och förstärka huden inifrån. Med en potentiell blandning av två aktiva peptider stimulerar det hudens naturliga proteinproduktion, vilket är avgörande för att bibehålla hudens elasticitet och fasthet.</p>
         <p class="p200 mt-m">Under behandlingen slussas Dermabuilder serum djupt in i huden, där det arbetar för att återuppbygga och förstärka hudstrukturen. Denna process bidrar till att fylla ut och reducera uppkomsten av rynkor och fina linjer, vilket ger ansiktet en mer ungdomlig och fast kontur. Det är en idealisk behandling för dig som vill återskapa hudens ungdomliga glöd och vitalitet.</p>
         <p class="p200 mt-m">Resultatet är inte bara en synligt jämnare och slätare hud, utan även en förstärkt och mer motståndskraftig hudkvalitet. Vårt Dermabuilder serum ger en effektiv boost och glow, och är en perfekt lösning för dem som vill ge sin mogen hud den extra vård och uppmärksamhet den förtjänar.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
         image_title: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion',
@@ -192,7 +166,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Boost_Glow',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -221,8 +195,8 @@ $big_types = array(
         content: '<p class="p200">För att effektivt ta itu med problemhud som pormaskar och finnar, erbjuder vi en specialiserad hydrafacial med Glycal Acid Peel. Denna behandling är speciellt utformad för att djuprengöra huden och hantera överproduktionen av talg, vilket ofta ligger bakom dessa hudproblem.</p>
         <p class="p200 mt-m">Vår Glycal Acid Peel kombinerar kraften av två aktiva syror för att penetrera huden på djupet. Denna intensiva peelingprocess hjälper till att lösa upp och avlägsna orenheter, vilket resulterar i en grundlig rengöring av porerna. Denna metod är effektiv för att minska uppkomsten av pormaskar och finnar, samtidigt som den bidrar till en klarare och mer balanserad hudton.</p>
         <p class="p200 mt-m">Behandlingen är idealisk för dig som kämpar med problemhy och söker en lösning som inte bara rengör på ytan, utan även arbetar aktivt på djupet. Med Glycal Acid Peel får du en rengjord och förnyad hud, fri från de vanligaste orsakerna till problemhy.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
         image_title: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion',
@@ -231,7 +205,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Pore_Minimizer',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -257,13 +231,12 @@ $big_types = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Dermabrasion',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård för Dermabrasion',
     image_title: 'Eftervård för Dermabrasion',
     content: '<p class="p200">Efter din dermabrasion-behandling är det avgörande att följa rätt eftervårdsrutiner för att säkerställa och förlänga resultaten. Det är viktigt att vara extra försiktig med huden direkt efter behandlingen. Undvik direkt exponering för solen och applicera solskydd med hög SPF för att skydda den behandlade huden. Det är också klokt att avstå från att använda irriterande hudprodukter under de första 24 timmarna.</p>
     <p class="p200 mt-m">För att främja läkning och bibehålla hudens kondition, rekommenderar vi att du återfuktar huden regelbundet med de produkter som din hudterapeut har rådgivit. Om din behandling inkluderade en kemisk peeling eller intensiv exfoliering, bör du vara försiktig och undvika att skrubba eller plocka på huden, även om du upplever några mindre orenheter. Det är även viktigt att upprätthålla en god vätskebalans genom att dricka mycket vatten och hålla en hälsosam kost för att stödja huden från insidan. Om du har några ytterligare frågor eller funderingar kring din eftervård, är du alltid välkommen att kontakta oss för skräddarsydda råd.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för Dermabrasion';

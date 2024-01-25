@@ -7,7 +7,7 @@ $seo_title = 'Ansiktsbehandling för Rosacea - Effektiv behandling | AcneSpecial
 $seo_description = 'AcneSpecialisten erbjuder specialanpassade ansiktsbehandlingar designade för att lugna och vårda rosacea-drabbad hud. Våra behandlingar är skonsamma och inriktade på att minska rodnad och irritation, samtidigt som de förbättrar hudens allmänna tillstånd. Få professionell vägledning och individuellt anpassade hudvårdsråd för att hantera din rosacea.';
 $seo_keywords = 'ansiktsbehandlingar för rosacea, rosaceabehandling, lugnande hudvård, behandla rodnad i ansiktet, AcneSpecialisten, skonsam hudvård, milda ansiktsbehandlingar, rosacealindring, hudvård vid rosacea, minska hudrodnad, lindra rosacea';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-rosacea.jpg';
+$seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $model = new Service(
     title: 'Ansiktsbehandling mot rosacea',
@@ -74,25 +74,12 @@ $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpass
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför ansitksbehandling mot rosacea',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelser inför ansiktsbehandling mot rosacea',
         image_title: 'Förberedelser inför ansiktsbehandlingar mot rosacea',
         content: '<p class="p200">Du kan alltid besöka AcneSpecialisten för en rosaceabehandling precis som du är utan några särskilda förberedeler. Men för dig som vill göra det där lilla extra för att maximera fördelarna med behandlingen rekommenderar vi att du avstår från att använda hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar innan din tid. Detta för att undvika onödig irritation och för att göra din hud mer mottaglig för de lugnande behandlingarna.</p>
         <p class="p200 mt-m">Det är inte nödvändigt att du kommer utan smink till din behandling, då vi kan ta hand om att varsamt avlägsna det vid sessionens början. Vi ser fram emot att välkomna dig och sätta ihop en personligt anpassad behandlingsplan.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -104,8 +91,8 @@ $big_types = array(
         duration: '60 min',
         price: null,
         content: '<p class="p200">Varje session börjar med en mild rengöring utformad för att förbereda och lugna rosacea-drabbad hud. Vi undviker aggressiv exfoliering och använder istället skonsamma produkter som är anpassade för att minska inflammation och rodnad associerad med rosacea. Vår behandling inkluderar noggrant utvalda lugnande metoder för att stärka hudens barriär utan att framkalla irritation. Om ytterligare exfoliering är nödvändig utförs den med yttersta varsamhet. Behandlingen avslutas med en särskilt utformad lugnande mask som minskar rodnad och ger komfort till huden, följt av en återfuktande kräm som hjälper till att balansera och skydda din känsliga hud. Denna omsorgsfullt anpassade behandlingsmetod bidrar till att lindra symtomen på rosacea och främjar en klarare och mer balanserad hudton.</p>',
-        image_small: 'https://via.placeholder.com/358x274.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Ansiktsbehandling mot rosacea',
         image_title: 'Ansiktsbehandling mot rosacea',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
@@ -114,7 +101,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea',
         booking_url_label: 'Boka Ansiktsbehandling mot rosacea',
         booking_url_title: 'Ansiktsbehandling mot rosacea',
-        icons: array('who-infants' => 'Infants', 'who-teenagers' => 'Teenagers', 'who-adults' => 'Adults', 'who-elders' => 'Elders'),
+        icons: array(),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
@@ -141,34 +128,20 @@ $big_types = array(
 $bottom_articles = array(
     'boost' => new Article(
         title: 'Boosta din ansiktsbehandling mot rosacea med IPL',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förbättra ansiktsbehandling mot rosacea med IPL',
         image_title: 'Förbättra ansiktsbehandling mot rosacea med IPL',
         content: '<p class="p200">För att förstärka effekten kan du kombinera din ansiktsbehandlijng med den senaste IPL-tekniken (Intensivt Pulserande Ljus). En IPL-behandling kan minska kärlförändringar och eliminerar de ytliga blodkärl som ofta associeras med rosacea, vilket ger en klarare och mer jämn hudton.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter ansiktsbehandling mot rosacea',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
         content: '<p class="p200">Efter din ansiktsbehandling mot rosacea är en konsekvent och rätt anpassad eftervård essentiell för att bevara de resultat som uppnåtts och underlätta hudens återhämtning. Det är viktigt att fortsätta med en daglig hudvårdsrutin som innehåller specialutformade produkter för att vårda och upprätthålla den känsliga huden med rosacea. Vi rekommenderar produkter från DAHL Skincare som är utvecklade för att stödja och bibehålla hudens balans och minska rodnad och irritation associerad med rosacea.</p>
         <p class="p200 mt-m">Personlig hudvård är nyckeln, och vi på Acnespecialisten är dedikerade till att hjälpa dig hitta en hudvårdsrutin som passar just dina behov och hudtyp. Att använda de rätta produkterna efter din ansiktsbehandling för rosacea kan inte bara långsiktigt bevara behandlingens positiva effekter utan även stärka huden för att motstå framtida utbrott. Vi är engagerade i att stödja dig genom din resa mot en bättre hudhälsa och ser fram emot att assistera dig i att uppnå och upprätthålla en sund hud med hjälp av vår expertis. Låt Acnespecialisten vara din partner på vägen mot en effektiv och hållbar hudvårdsrutin för rosacea.</p>',
-        tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
 

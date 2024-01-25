@@ -560,8 +560,8 @@ $articles = array(
 
       new Article(
             title: 'När ska jag söka hjälp med mina bristningar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med mina bristningar?',
             image_title: 'När ska jag söka hjälp med mina bristningar?',
             content: '<p class="p200">Bristningar är en av de vanligaste hudförändringarna som kan påverka både kvinnor och män, oavsett ålder. Även om de är helt ofarliga, kan bristningar orsaka självmedvetenhet och påverka ens självkänsla. Om du känner att dina bristningar stör dig estetiskt eller om du har försökt olika produkter och hemmabehandlingar utan framgång, kan det vara lämpligt att överväga professionell behandling.</p>
@@ -570,8 +570,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina bristningar, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en särskild expertis i att behandla bristningar, är vi väl rustade att hjälpa dig. Oavsett om du har några få bristningar eller områden med mer omfattande bristningar, kan vi erbjuda en skräddarsydd behandling för dig.</p>

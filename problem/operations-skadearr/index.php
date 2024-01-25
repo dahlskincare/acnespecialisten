@@ -332,8 +332,8 @@ $services = array(
 $articles = array(
       new Article(
             title: 'När ska jag söka hjälp med mina operations- och skadeärr?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med mina operations- och skadeärr?',
             image_title: 'När ska jag söka hjälp med mina operations- och skadeärr?',
             content: '<p class="p200">Operations- och skadeärr kan uppstå efter skador på huden, operationer, brännskador eller andra trauma. Även om de flesta ärr är ofarliga, kan de orsaka estetiska bekymmer, obehag eller rörelsebegränsning. Om du känner att ditt ärr börjar påverka ditt välbefinnande, eller om det ger fysiska besvär, kan det vara dags att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för dina ärr.</p>
@@ -342,8 +342,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
             content: '<p class="p200">Om du söker en effektiv och långsiktig lösning för dina operations- och skadeärr, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hud och udvård med en specialisering i att behandla ärr. Oavsett om du har mindre skadeärr eller mer omfattande operationsärr, kan vi erbjuda en skräddarsydd lösning för dig.</p>

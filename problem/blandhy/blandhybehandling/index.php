@@ -9,10 +9,10 @@ $seo_keywords = 'blandhy, behandling av blandhy, orsaker till blandhy, förebygg
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/blandhy.jpg';
+$seo_image = 'bilder/problem/424x456/blandhy.webp';
 
-$image_large = 'images/treatments/large/blandhy.jpg';
-$image_small = 'images/treatments/small/blandhy.jpg';
+$image_small = 'bilder/problem/424x324/blandhy.webp';
+$image_large = 'bilder/problem/424x456/blandhy.webp';
 $image_alt = 'Bild som illustrerar blandhy';
 $image_title = 'Blandhy';
 
@@ -65,15 +65,15 @@ $treat_content = '<p class="p200">Efter att ha förstått dina behov inlder vi p
 
 $services = array(
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Ansiktsbehandling för Blandhy hos Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling för blandhy utförd på Acnespecialisten',
 
         title: 'Ansiktsbehandling för Blandhy',
         duration: '60 minuter',
         price: 'Pris från 799 kr',
-        icons: array('who-infants' => 'Balanserande', 'who-elders' => 'Hudbalanserande', 'who-teenagers' => 'Porrensande', 'who-adults' => 'Fuktgivande'),
+        icons: array(),
         content: '<p class="p200">Denna ansiktsbehandling är särskilt för att hantera de utmaningarna som blandhy medför. Behandlingen börjar med en noggrann rengöring, varpå ånga används för att mjukt öppna porerna. En varsam exfoliering hjälper till att ge huden en enhetlig ton, följt av en djupgående porrengöring som avlägsnar inbäddade orenheter. Vi avslutar med en lugnande mask och en återfuktande kräm designad specifikt för blandhy, så att du lämnar vår klinik med en renare och mer balanserad hud.</p>',
 
 
@@ -94,14 +94,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Klient som genomgår laserbehandling för Blandhy',
         image_alt: 'Bild av laserbehandling för blandhy hos Acnespecialisten',
         title: 'Effektiv laserbehandling för Blandhy',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Precision', 'who-elders' => 'Icke-invasiv', 'who-teenagers' => 'Snabb', 'who-adults' => 'Balanserande'),
+        icons: array(),
         content: '<p class="p200">Laserbehandling på Acnespecialisten erbjuder en sofistikerad lösning för blandhy. Genom att utnyttja precisionen av ljusenergi, arbetar laserbehandlingen på cellulär nivå för att främja kollagenproduktion och reglera talgutsöndringen. Målet med behandlingen är att skapa en balanserad hud.</p>',
         consultation_url: 'konsultation-laser-blandhy',
         consultation_url_label: 'Boka konsultation',
@@ -118,14 +118,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av kemisk peelingbehandling för blandhy',
         image_alt: 'Bild på kemisk peelingbehandling för blandhy hos Acnespecialisten',
         title: 'Kemisk peeling för blandhy',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Exfolierande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Uppfräschande', 'who-adults' => 'Balanserande'),
+        icons: array(),
         content: '<p class="p200">Kemisk peeling är särskilt framtagen för att balansera de dynamiska behoven hos blandhy. Genom att applicera vår noggrant utvalda syror på huden, exfolieras det yttersta hudlagret bort, vilket främjar regenerering av frisk hud. Denna process bidrar till att jämna ut ojämnheter och optimera hudens textur, vilket leder till en klarare och mer balanserad hudton.</p>',
         consultation_url: 'hudkonsultation-blandhy',
         consultation_url_label: 'Boka konsultation',
@@ -141,14 +141,14 @@ $services = array(
     ),
 
     new Service(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/852x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Utförande av microneedlingbehandling för blandhy',
         image_alt: 'Bild på microneedlingbehandling för blandhy hos Acnespecialisten',
         title: 'Effektiv microneedling för blandhy',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('who-infants' => 'Stimulerande', 'who-elders' => 'Förnyande', 'who-teenagers' => 'Djupgående', 'who-adults' => 'Balanserande'),
+        icons: array(),
         content: '<p class="p200">Microneedling är en framstående behandling för att adressera blandhyens komplexitet. Denna teknik använder fina nålar för att skapa små kanaler i huden, vilket boostar kollagen- och elastinproduktionen. Denna behandlingsmetod möjliggör också att vårdande ingredienser tränger djupare ner i huden, vilket hjälper till att jämna ut både torra och oljiga områden för en mer balanserad och föryngrad hud.</p>',
         consultation_url: 'microneedling-konsultation-blandhy',
         consultation_url_label: 'Boka konsultation',
@@ -169,8 +169,8 @@ $headline03 = "03. Förebygg Blandhy";
 
 $products = array(
     new Product(
-        image_small: 'https://via.placeholder.com/358x274.jpg',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
+        image_small: null,
+        image_large: null,
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter för blandhy',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter för blandhy',
 
