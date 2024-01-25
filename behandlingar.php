@@ -52,7 +52,7 @@ class ServiceCategory
 
 $green_banner_content = new GreenBannerContent(
     title: 'Behandlingar',
-    description: 'Vi erbjuder ett brett utbud av behandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och skonsamma frysbehandlingar för att effektivt hantera hudtillstånd.',
+    description: 'Vi erbjuder ett brett utbud av behandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och laserbehandlingar för att effektivt hantera hudtillstånd.',
     description_extended: 'Vi förstår att varje hud är unik. Därför erbjuder vi skräddarsydda behandlingar för att uppfylla dina specifika behov. Våra erfarna specialister använder de senaste teknikerna och metoderna för att ge dig de bästa möjliga resultaten. Boka en tid hos oss för att upptäcka hur vi kan hjälpa dig.',
     button_url: 'https://acnespecialisten.se/book?flow=consultation',
     button_label: 'Boka en gratis konsultation'
@@ -705,6 +705,10 @@ $service_categories = array(
         consultation_url_title: 'Boka tid för hudkonsultation',
         consultation_url_label: 'Boka konsultation',
     ),
+);
+
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
 );
 
 ?>
