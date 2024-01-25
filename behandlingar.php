@@ -125,9 +125,9 @@ $people_search_for_title = "Populära alternativ";
 
 $people_search_for = array(
     new Treatment(
-        label: 'Ansiktsbehandling mot akne',
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
-        url_title: 'Läs mer om ansiktsbehandling mot akne'
+        label: 'Aknebehandling',
+        url: 'acnebehandling.php',
+        url_title: 'Läs mer om aknebehandling'
     ),
     new Treatment(
         label: 'Splendor X',
