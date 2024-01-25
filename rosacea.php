@@ -224,7 +224,7 @@ $symptoms_title = 'Rosacea symptom';
 $symptoms = array(
       new Symptom(
             name: 'Rodnad',
-            image: 'images/symptoms/102x102/rosacea-rodnad.webp',
+            image: 'images/problems/102x102/rodnad.webp',
             content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
             url: '',
             url_title: '',
@@ -236,7 +236,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Vätskefyllda blåsor',
-            image: 'images/symptoms/102x102/rosacea-vaskefyllda-blasor.webp',
+            image: 'images/problems/102x102/papular-rosacea.webp',
             content: 'Vätskefyllda blåsor är ett annat symptom på rosacea. De liknar de som uppträder vid akne.',
             url: '',
             url_title: '',
@@ -248,7 +248,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Synliga blodkärl',
-            image: 'images/symptoms/102x102/rosacea-blodkarl.webp',
+            image: 'images/problems/102x102/synliga-blodkarl.webp',
             content: 'Vid rosacea kan de små blodkärlen i huden bli mer synliga, vilket framträder som tunna röda linjer.',
             url: '',
             url_title: '',
@@ -260,7 +260,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Papler och pustler',
-            image: 'images/symptoms/102x102/rosacea-papler-pustler.webp',
+            image: 'images/problems/102x102/papulopustular-rosacea.webp',
             content: 'Rosacea kan leda till utvecklingen av röda upphöjda papler och pustler som vid akne.',
             url: '',
             url_title: '',
@@ -272,7 +272,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Hudförtjockning',
-            image: 'images/symptoms/102x102/rosacea-hudfortjockning.webp',
+            image: 'images/problems/102x102/rhinophyma-rosacea.webp',
             content: 'Hudförtjockning, särskilt runt näsan (en tillstånd kallad rhinophyma), kan förekomma vid mer allvarliga fall av rosacea. Rhinophyma är vanligare hos män.',
             url: '',
             url_title: '',
@@ -284,7 +284,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Ögonproblem',
-            image: 'images/symptoms/102x102/rosacea-ogonproblem.webp',
+            image: 'images/problems/102x102/okular-rosacea.webp',
             content: 'Okulär rosacea är en form av sjukdomen som påverkar ögonen och ögonlocken. Symptom kan inkludera torra ögon, irritation och rinnande ögon.',
             url: '',
             url_title: '',
@@ -296,7 +296,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Brännande eller stickande känsla',
-            image: 'images/symptoms/102x102/rosacea-brannande-stickande.webp',
+            image: 'images/problems/102x102/irriterad-hy.webp',
             content: 'En brännande eller stickande känsla i huden är ett vanligt symptom på rosacea.',
             url: '',
             url_title: '',
@@ -404,8 +404,8 @@ $procedures = array(
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför AcneSpecialisten?',
             image_title: 'Varför AcneSpecialisten?',
             content: '<p class="p200">Om du har problem med rosacea och letar efter den bästa lösning, är AcneSpecialisten ditt självklara val. Med över 30 års erfarenhet inom området har vi utvecklat en djup förståelse för denna hudåkomma, dess olika typer och de mest effektiva behandlingsmetoderna. Vi är mer än bara en klinik, vi är din partner i kampen mot rosacea.</p>
@@ -418,8 +418,8 @@ $articles = array(
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Om du känner att din rosacea hindrar dig från att leva fullt ut, eller om du har testat olika behandlingar och produkter som inte ger någon långvarig förbättring, är det dags att vända dig till AcneSpecialisten. Ju tidigare du tar itu med din rosacea, desto större chans har du att förebygga ärrbildning och permanenta hudförändringar. Oavsett om du lider av mild, måttlig eller svår rosacea, kan vi på AcneSpecialisten ge dig den expertis och de skräddarsydda behandlingsplaner du behöver. Vi bjuder in dig till en kostnadsfri konsultation där vi kan börja din resa mot en klarare, friskare hud.</p>
