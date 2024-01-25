@@ -108,7 +108,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför skonsamma och effektiva rosaceabehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
             url_label: 'Se behandlingar',
             url: 'rosaceabehandling.php',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
@@ -129,7 +129,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
+$treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva rosaceabehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 /*
 $types_title = 'Olika typer av rosacea';
 
