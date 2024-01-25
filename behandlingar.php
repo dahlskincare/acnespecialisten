@@ -65,7 +65,7 @@ $treatments = array(
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new Treatment(
-        label: 'Laser mot Problemhy',
+        label: 'Laser',
         url: 'behandlingar/laser-mot-problemhy',
         url_title: 'Läs mer om'
     ),
