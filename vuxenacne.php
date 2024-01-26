@@ -60,7 +60,6 @@ $nav_buttons = array(
       'about' => 'Om vuxenakne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',

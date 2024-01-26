@@ -59,7 +59,6 @@ $nav_buttons = array(
       'about' => 'About acne scars',
       'approach' => 'Method',
       'areas' => 'Areas',
-      'articles' => 'When?',
       'articles' => 'Why?',
       'results' => 'Results',
       'reviews' => 'Reviews',
