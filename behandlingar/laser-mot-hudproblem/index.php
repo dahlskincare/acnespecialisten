@@ -10,7 +10,7 @@ $seo_keywords = 'CO2-laser, laserbehandling, problemhy, acneärr, förbättrad h
 $seo_image = 'images/treatments/large/laser-mot-problemhy.jpg';
 
 $model = new Service(
-    title: 'Laser mot problemhy',
+    title: 'Laser mot hudproblem',
     duration: null,
     price: 'Från 4595 kr',
     content: '<p class="p200">På AcneSpecialisten erbjuder vi fraktionerad CO2-laserbehandling, en avancerad metod för att effektivt behandla problemhy. Denna laserterapi är särskilt effektiv mot acneärr, ojämn hudton och textur, och ger märkbara förbättringar i hudkvaliteten. Denna process bidrar till att minska synligheten av ärr och förbättrar hudens övergripande struktur och ton. CO2-laser är ett utmärkt alternativ för dig som söker en effektiv behandling mot problemhy utan lång återhämtningstid.</p>',
@@ -43,7 +43,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är laser mot problemhy?';
+$description_title = 'Vad är laser mot hudproblem?';
 $description_text = '<p class="p200">Vår fraktionerade CO2-laserbehandling på AcneSpecialisten sträcker sig även till att effektivt behandla stora porer, ett vanligt hudproblem som många upplever. Denna avancerade lasermetod är idealisk för att förfina hudens textur och minska synligheten av förstorade porer. Genom att målinriktat behandla de drabbade områdena, arbetar lasern för att stimulera hudens naturliga förnyelseprocess och därigenom förbättra hudens struktur.</p>
 <p class="p200 mt-m">Genom att exfoliera det yttre hudlagret och stimulera kollagenproduktionen under huden, bidrar behandlingen till att dra åt och minimera storleken på porerna. Detta leder inte bara till en synlig förbättring av porernas utseende utan även till en övergripande jämnare och klarare hudton. Vår fraktionerade CO2-laser är således en utmärkt behandlingsmetod för dig som vill uppnå en förfinad hudtextur och en minskning av stora porer, samtidigt som du behandlar andra hudproblem som ärrbildning, rynkor och fina linjer.</p>
 <p class="p200 mt-m">Oavsett dina hudproblem, vårt mål på AcneSpecialisten är att erbjuda effektiva och skräddarsydda behandlingar som förbättrar din hudkvalitet och ger dig en mer ungdomlig och fräsch utstrålning.</p>';
