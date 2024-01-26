@@ -60,7 +60,7 @@ $green_banner_content = new GreenBannerContent(
 
 $treatments = array(
     new Treatment(
-        label: 'Ansiktsbehandlingar Problemhy',
+        label: 'Ansiktsbehandlingar Hudproblem',
         url: 'behandlingar/ansiktsbehandlingar-problemhy',
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
@@ -125,14 +125,14 @@ $people_search_for_title = "Populära alternativ";
 
 $people_search_for = array(
     new Treatment(
-        label: 'Aknebehandling',
+        label: 'Aknebehandlingar',
         url: 'acnebehandling.php',
-        url_title: 'Läs mer om aknebehandling'
+        url_title: 'Läs mer om aknebehandlingar'
     ),
     new Treatment(
-        label: 'Akneärr behandling',
+        label: 'Akneärr behandlingar',
         url: 'behandla-acnearr.php',
-        url_title: 'Läs mer om akneärr behandling'
+        url_title: 'Läs mer om akneärr behandlingar'
     ),
     new Treatment(
         label: 'Rosaceabehandling',
@@ -174,13 +174,13 @@ $people_search_for = array(
 
 $service_categories = array(
     new ServiceCategory(
-        url: 'behandlingar/ansiktsbehandlingar-problemhy',
-        label: 'Ansiktsbehandlingar mot problemhy',
-        content: 'Dessa ansiktsbehandlingar är specialutformade för att ta itu med problemhy, såsom acne, rosacea och blandhy. Genom att använda noggrant utvalda produkter och tekniker, hjälper dessa behandlingar till att rengöra, lugna och återställa huden, samtidigt som de förebygger framtida hudproblem.',
+        url: 'behandlingar/ansiktsbehandlingar-hudproblem',
+        label: 'Ansiktsbehandlingar mot hudproblem',
+        content: 'Dessa ansiktsbehandlingar är specialutformade för att ta itu med hudproblem, såsom acne, rosacea och blandhy. Genom att använda noggrant utvalda produkter och tekniker, hjälper dessa behandlingar till att rengöra, lugna och återställa huden, samtidigt som de förebygger framtida hudproblem.',
         image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
+        image_alt: 'Ansiktsbehandlingar för hudproblem',
+        image_title: 'Ansiktsbehandlingar för hudproblem',
         booking_url: 'treatment-booking?problem=acne',
         booking_url_title: 'Boka tid för ansiktsbehandling',
         consultation_url: 'consultation-booking?problem=acne',
@@ -189,7 +189,7 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
+                url: 'behandlingar/ansiktsbehandlingar-hudproblem/ansiktsbehandlingar-akne',
                 url_label: 'Aknebehandling',
                 url_title: 'Läs mer om acnebehandling',
                 title: '',
