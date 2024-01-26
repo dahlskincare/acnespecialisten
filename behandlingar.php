@@ -517,7 +517,7 @@ $service_categories = array(
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
         image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
         image_title: 'Klassiska ansiktsbehandlingar',
-        image_alt: 'Classic facials',
+        image_alt: 'Man som får en klassisk ansiktsbehadnling i ansiktet',
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
         booking_url_title: 'Boka tid för ansiktsbehandling',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
