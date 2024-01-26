@@ -130,6 +130,11 @@ $people_search_for = array(
         url_title: 'Läs mer om aknebehandling'
     ),
     new Treatment(
+        label: 'Akneärr behandling',
+        url: 'behandla-acnearr.php',
+        url_title: 'Läs mer om akneärr behandling'
+    ),
+    new Treatment(
         label: 'Rosaceabehandling',
         url: 'rosaceabehandling.php',
         url_title: 'Läs mer om rosaceabehandling'
@@ -138,11 +143,6 @@ $people_search_for = array(
         label: 'Portömning',
         url: 'portomning.php',
         url_title: 'Läs mer om portömning'
-    ),
-    new Treatment(
-        label: 'PRX-T33',
-        url: 'prx-t33.php',
-        url_title: 'Läs mer om PRX-T33'
     ),
     new Treatment(
         label: 'Dermapen',
@@ -165,9 +165,9 @@ $people_search_for = array(
         url_title: 'Läs mer om hudterapeutens val'
     ),
     new Treatment(
-        label: 'Akneärr behandling',
-        url: 'behandla-acnearr.php',
-        url_title: 'Läs mer om akneärr behandling'
+        label: 'PRX-T33',
+        url: 'prx-t33.php',
+        url_title: 'Läs mer om PRX-T33'
     ),
 );
 
