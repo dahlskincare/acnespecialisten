@@ -131,33 +131,33 @@ $people_search_for = array(
     ),
     new Treatment(
         label: 'Rosaceabehandling',
-        url: 'varumarken/splendor-x',
-        url_title: 'Läs mer om Splendor X'
+        url: 'rosaceabehandling.php',
+        url_title: 'Läs mer om rosaceabehandling'
     ),
     new Treatment(
         label: 'Portömning',
-        url: 'varumarken/alma/soprano-ice',
-        url_title: 'Läs mer om Soprano Ice'
+        url: 'portomning.php',
+        url_title: 'Läs mer om portömning'
     ),
     new Treatment(
         label: 'PRX-T33',
-        url: 'varumarken/alma/soprano-ice',
-        url_title: 'Läs mer om Soprano Ice'
+        url: 'prx-t33.php',
+        url_title: 'Läs mer om PRX-T33'
     ),
     new Treatment(
         label: 'Dermapen',
-        url: 'varumarken/alma/soprano-ice',
-        url_title: 'Läs mer om Soprano Ice'
+        url: 'dermapen.php',
+        url_title: 'Läs mer om dermapen'
     ),
     new Treatment(
         label: 'Milierbehandling',
-        url: 'varumarken/alma/soprano-ice',
-        url_title: 'Läs mer om Soprano Ice'
+        url: 'milierbehandling.php',
+        url_title: 'Läs mer om milierbehandling'
     ),
     new Treatment(
         label: 'HydraFacial',
-        url: 'varumarken/alma/soprano-ice',
-        url_title: 'Läs mer om Soprano Ice'
+        url: 'hydrafacial.php',
+        url_title: 'Läs mer om HydraFacial'
     ),
 );
 
