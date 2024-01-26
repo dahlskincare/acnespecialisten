@@ -513,7 +513,7 @@ $service_categories = array(
     new ServiceCategory(
         url: 'ansiktsbehandlingar.php',
         label: 'Klassiska ansiktsbehandlingar',
-        content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, masker och ansiktsmassage, och är anpassade för att passa olika hudtyper och behov.',
+        content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, ansiktsmask och LED-ljus, och är anpassade för att passa olika hudtyper och behov.',
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
         image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
         image_title: 'Klassiska ansiktsbehandlingar',
