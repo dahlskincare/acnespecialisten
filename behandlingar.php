@@ -284,8 +284,8 @@ $service_categories = array(
         services: array(
             new Service(
                 url: 'alma-hybrid-co2-laser.php',
-                url_label: 'Alma Hybrid',
-                url_title: 'Läs mer om Alma Hybrid',
+                url_label: 'Alma Hybrid CO2',
+                url_title: 'Läs mer om Alma Hybrid CO2',
                 title: '',
                 duration: '',
                 price: '',
