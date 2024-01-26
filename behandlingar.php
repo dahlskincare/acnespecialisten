@@ -181,10 +181,16 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
         image_alt: 'Ansiktsbehandlingar för problemhy',
         image_title: 'Ansiktsbehandlingar för problemhy',
+        booking_url: 'treatment-booking?problem=acne',
+        booking_url_title: 'Boka tid för ansiktsbehandling',
+        consultation_url: 'consultation-booking?problem=acne',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
-                url_label: 'Mot Akne',
+                url_label: 'Aknebehandling',
                 url_title: 'Läs mer om acnebehandling',
                 title: '',
                 duration: '',
@@ -203,7 +209,7 @@ $service_categories = array(
             ),
             new Service(
                 url: 'portomning.php',
-                url_label: 'Mot Pormaskar',
+                url_label: 'Portömning',
                 url_title: 'Läs mer om portömning',
                 title: '',
                 duration: '',
@@ -222,7 +228,7 @@ $service_categories = array(
             ),
             new Service(
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
-                url_label: 'Mot Rosacea',
+                url_label: 'Rosaceabehandling',
                 url_title: 'Läs mer om rosaceabehandling',
                 title: '',
                 duration: '',
@@ -241,7 +247,7 @@ $service_categories = array(
             ),
             new Service(
                 url: 'milierbehandling.php',
-                url_label: 'Mot Milier',
+                url_label: 'Milierbehandling',
                 url_title: 'Läs mer om milierbehandling',
                 title: '',
                 duration: '',
@@ -259,12 +265,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?problem=acne',
-        booking_url_title: 'Boka tid för ansiktsbehandling',
-        consultation_url: 'consultation-booking?problem=acne',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'ansiktsbehandlingar.php',
@@ -274,6 +275,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
         image_alt: 'Classic facials',
         image_title: 'Classic facials',
+        booking_url: 'treatment-booking?service=classicFacials',
+        booking_url_title: 'Boka tid för ansiktsbehandling',
+        consultation_url: 'consultation-booking?service=classicFacials',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
@@ -295,12 +302,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=classicFacials',
-        booking_url_title: 'Boka tid för ansiktsbehandling',
-        consultation_url: 'consultation-booking?service=classicFacials',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'behandlingar/dermabrasion',
@@ -310,6 +312,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/dermabrasion.webp',
         image_alt: 'Dermabration',
         image_title: 'Dermabration',
+        booking_url: 'treatment-booking?service=dermabration',
+        booking_url_title: 'Boka tid för dermabration',
+        consultation_url: 'consultation-booking?service=dermabration',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'hydrafacial.php',
@@ -350,12 +358,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=dermabration',
-        booking_url_title: 'Boka tid för dermabration',
-        consultation_url: 'consultation-booking?service=dermabration',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'behandlingar/frysbehandling',
@@ -365,6 +368,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/frysbehandling.webp',
         image_alt: 'FreezeTreat',
         image_title: 'FreezeTreat',
+        booking_url: 'treatment-booking?service=freezeTreat',
+        booking_url_title: 'Boka tid för ansiktsbehandling',
+        consultation_url: 'consultation-booking?service=freezeTreat',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'cryopen.php',
@@ -386,12 +395,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=freezeTreat',
-        booking_url_title: 'Boka tid för ansiktsbehandling',
-        consultation_url: 'consultation-booking?service=freezeTreat',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'behandlingar/ipl',
@@ -401,6 +405,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/ipl.webp',
         image_alt: 'IPL',
         image_title: 'IPL',
+        booking_url: 'treatment-booking?service=ipl',
+        booking_url_title: 'Boka tid för ansiktsbehandling',
+        consultation_url: 'consultation-booking?service=ipl',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'ipl-rosacea.php',
@@ -460,12 +470,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=ipl',
-        booking_url_title: 'Boka tid för ansiktsbehandling',
-        consultation_url: 'consultation-booking?service=ipl',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'kemisk-peeling.php',
@@ -475,6 +480,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/kemisk-peeling.webp',
         image_alt: 'Chemical peeling',
         image_title: 'Chemical peeling',
+        booking_url: 'treatment-booking?service=chemicalPeeling',
+        booking_url_title: 'Boka tid för kemisk peeling',
+        consultation_url: 'consultation-booking?service=chemicalPeeling',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: '/varumarken/skin-tech',
@@ -515,12 +526,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=chemicalPeeling',
-        booking_url_title: 'Boka tid för kemisk peeling',
-        consultation_url: 'consultation-booking?service=chemicalPeeling',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'behandlingar/laser-mot-problemhy',
@@ -530,6 +536,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/laser-mot-problemhy.webp',
         image_alt: 'Laser mot Problemhy',
         image_title: 'Laser mot Problemhy',
+        booking_url: 'treatment-booking?service=laser',
+        booking_url_title: 'Boka tid för problemhud',
+        consultation_url: 'consultation-booking?service=laser',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'alma-hybrid-co2-laser.php',
@@ -570,12 +582,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=laser',
-        booking_url_title: 'Boka tid för problemhud',
-        consultation_url: 'consultation-booking?service=laser',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'microneedling.php',
@@ -585,6 +592,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/microneedling.webp',
         image_alt: 'Microneedling',
         image_title: 'Microneedling',
+        booking_url: 'treatment-booking?service=microneedling',
+        booking_url_title: 'Boka tid för ansiktsbehandling',
+        consultation_url: 'consultation-booking?service=microneedling',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'dermapen.php',
@@ -625,12 +638,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=microneedling',
-        booking_url_title: 'Boka tid för ansiktsbehandling',
-        consultation_url: 'consultation-booking?service=microneedling',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
 
     new ServiceCategory(
@@ -641,6 +649,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/permanent-harborttagning.webp',
         image_alt: 'Laser for hair removal',
         image_title: 'Laser for hair removal',
+        booking_url: 'treatment-booking?service=laser',
+        booking_url_title: 'Boka tid för hårborttagning',
+        consultation_url: 'consultation-booking?service=laser',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url_label: 'Boka Behandling',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: '/varumarken/splendor-x',
@@ -681,12 +695,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=laser',
-        booking_url_title: 'Boka tid för hårborttagning',
-        consultation_url: 'consultation-booking?service=laser',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
-        consultation_url_label: 'Boka Konsultation'
+        
     ),
     new ServiceCategory(
         url: 'behandlingar/skinbooster',
@@ -696,6 +705,12 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/skinbooster.webp',
         image_alt: 'Skinbooster',
         image_title: 'Skinbooster',
+        booking_url: 'treatment-booking?service=skinBooster',
+        booking_url_title: 'Boka tid för skinbooster',
+        booking_url_label: 'Boka behandling',
+        consultation_url: 'consultation-booking?service=skinBooster',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka Konsultation',
         services: array(
             new Service(
                 url: 'infuzion.php',
@@ -717,12 +732,7 @@ $service_categories = array(
                 booking_url_title: '',
             ),
         ),
-        booking_url: 'treatment-booking?service=skinBooster',
-        booking_url_title: 'Boka tid för skinbooster',
-        booking_url_label: 'Boka behandling',
-        consultation_url: 'consultation-booking?service=skinBooster',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        consultation_url_label: 'Boka Konsultation',
+        
     ),
     new ServiceCategory(
         url: 'gratis-hudkonsultation.php',
@@ -732,13 +742,14 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/gratis-hudkonsultation.webp',
         image_alt: 'Gratis Hudkonsultation',
         image_title: 'Gratis Hudkonsultation',
-        services: array(),
         booking_url: 'treatment-booking?service=skinBooster',
         booking_url_title: 'Boka tid för skinbooster',
         booking_url_label: 'Boka Behandling',
         consultation_url: 'consultation-booking?service=skinBooster',
         consultation_url_title: 'Boka tid för hudkonsultation',
         consultation_url_label: 'Boka konsultation',
+        services: array(),
+        
     ),
 );
 
