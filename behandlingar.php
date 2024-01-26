@@ -164,6 +164,11 @@ $people_search_for = array(
         url: 'behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
         url_title: 'Läs mer om hudterapeutens val'
     ),
+    new Treatment(
+        label: 'Akneärr behandling',
+        url: 'behandla-acnearr.php',
+        url_title: 'Läs mer om akneärr behandling'
+    ),
 );
 
 
