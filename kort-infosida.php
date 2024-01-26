@@ -67,7 +67,6 @@ $nav_buttons = array(
       'areas' => 'Områden',
       'define' => 'Konsultation',
       'treatments' => 'Behandling',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',

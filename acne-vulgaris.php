@@ -65,7 +65,6 @@ $nav_buttons = array(
       'about' => 'Om acne vulgaris',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
@@ -117,6 +116,7 @@ $top_articles = array(
         title: 'Var och varför uppstår acne vulgaris?',
         image_small: null,
         image_large: null,
+        image_alt: '',
         image_title: '',
         content: '<p class="p200">Orsakerna bakom acne vulgaris beror ofta på en samverkan av flera faktorer. Hormonella förändringar är en av de främsta orsakerna, då de kan leda till överproduktion av talg och resultera i tilltäppta porer och akne. Stress är en annan betydande faktor som kan förvärra akne genom att störa hormonbalansen och öka talgproduktionen i huden. På AcneSpecialisten lägger vi stor vikt vid en helhetssyn på dina hudproblem för att effektivt behandla och hantera acne vulgaris.</p>
             <p class="p200 mt-m">En effektiv strategi för att hantera acne vulgaris innebär en skräddarsydd hudvårdsrutin. Det är viktigt att välja hudvårdsprodukter som inte bara är effektiva, utan också skonsamma, för att undvika att irritera huden ytterligare. Hos AcneSpecialisten samarbetar vi med dig för att utforma en personlig hudvårdsplan som stärker och balanserar din hud. Detta bidrar till att förebygga framtida utbrott av akne och främjar en långsiktigt hälsosam hudmiljö.</p>',

@@ -65,7 +65,6 @@ $nav_buttons = array(
       'about' => 'Om stress akne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',

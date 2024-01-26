@@ -65,7 +65,6 @@ $nav_buttons = array(
       'about' => 'Om finnar på bröstet',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
@@ -176,7 +175,7 @@ $results = array(
                   duration: '4 månader',
             )
       ),
-);
+));
 
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";

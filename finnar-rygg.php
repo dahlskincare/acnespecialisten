@@ -65,7 +65,6 @@ $nav_buttons = array(
       'about' => 'Om finnar på ryggen',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',

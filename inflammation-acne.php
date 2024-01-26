@@ -66,7 +66,6 @@ $nav_buttons = array(
       'about' => 'Om inflammation akne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',

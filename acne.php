@@ -72,7 +72,6 @@ $nav_buttons = array(
       'symptoms' => 'Symptom',
       'define' => 'Konsultation',
       'treatments' => 'Behandling',
-      'articles' => 'Risker',
       'articles' => 'Varför AS?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',

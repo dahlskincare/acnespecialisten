@@ -61,7 +61,6 @@ $nav_buttons = array(
       'about' => 'Om pormaskar på bröstet',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',

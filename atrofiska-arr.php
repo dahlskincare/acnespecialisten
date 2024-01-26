@@ -55,7 +55,6 @@ $nav_buttons = array(
       'about' => 'Om atrofiska ärr',
       'approach' => 'Metoden',
       'areas' => 'Områden',
-      'articles' => 'När?',
       'articles' => 'Varför er?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
