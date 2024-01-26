@@ -179,14 +179,14 @@ $service_categories = array(
         content: 'Ansiktsbehandlingar mot problemhy såsom akne, rosacea och pormaskar med mera. Med noggrant utvalda produkter och tekniker rengör och återställer vi din hud, och förebygger framtida hudproblem.',
         image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
-        image_alt: 'Ansiktsbehandlingar för problemhy',
-        image_title: 'Ansiktsbehandlingar för problemhy',
+        image_title: 'Ansiktsbehandlingar mot problemhy',
+        image_alt: 'Kvinna som får ansiktsbehandling mot sin problemhy',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem',
-        booking_url_title: 'Boka tid för ansiktsbehandling',
+        booking_url_title: 'Boka tid för ansiktsbehandling mot problemhy',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url_label: 'Boka Behandling',
+        consultation_url_title: 'Boka tid för hudkonsultation mot problemhy',
         consultation_url_label: 'Boka Konsultation',
+        booking_url_label: 'Boka Behandling',
         services: array(
             new Service(
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
@@ -268,9 +268,9 @@ $service_categories = array(
         
     ),
     new ServiceCategory(
-        url: 'behandlingar/laser-mot-problemhy',
+        url: 'behandlingar/laser-mot-hudproblem',
         label: 'Laser mot Problemhy',
-        content: 'Laserbehandlingar mot problemhy använder koncentrerade ljusstrålar för att målriktat behandla hudproblem som acneärr, hyperpigmentering och texturproblem. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende.',
+        content: 'Laserbehandlingar mot hudproblem använder koncentrerade ljusstrålar för att målriktat behandla hudproblem som acneärr, hyperpigmentering och texturproblem. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende.',
         image_small: 'bilder/behandlingar/200x200/laser-mot-problemhy.webp',
         image_large: 'bilder/behandlingar/424x324/laser-mot-problemhy.webp',
         image_alt: 'Laser mot Problemhy',
