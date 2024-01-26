@@ -270,7 +270,7 @@ $service_categories = array(
     new ServiceCategory(
         url: 'behandlingar/laser-mot-hudproblem',
         label: 'Laser mot Problemhy',
-        content: 'Laserbehandlingar mot hudproblem använder koncentrerade ljusstrålar för att målriktat behandla hudproblem som acneärr, hyperpigmentering och texturproblem. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende.',
+        content: 'Laserbehandlingar mot hudproblem använder koncentrerade ljusstrålar för att målriktat behandla hudproblem som olika typer av ärr och pigmentfläckar. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende.',
         image_small: 'bilder/behandlingar/200x200/laser-mot-problemhy.webp',
         image_large: 'bilder/behandlingar/424x324/laser-mot-problemhy.webp',
         image_alt: 'Laser mot Problemhy',
