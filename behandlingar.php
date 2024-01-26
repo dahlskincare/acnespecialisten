@@ -159,6 +159,11 @@ $people_search_for = array(
         url: 'hydrafacial.php',
         url_title: 'Läs mer om HydraFacial'
     ),
+    new Treatment(
+        label: 'Hudterapeutens val',
+        url: 'behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
+        url_title: 'Läs mer om hudterapeutens val'
+    ),
 );
 
 
