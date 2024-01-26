@@ -76,7 +76,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Frysbehandling',
-        url: 'behandlingar/frysbehandling',
+        url: 'cryopen.php',
         url_title: 'Läs mer om frysbehandling'
     ),
     new Treatment(
@@ -130,12 +130,32 @@ $people_search_for = array(
         url_title: 'Läs mer om aknebehandling'
     ),
     new Treatment(
-        label: 'Splendor X',
+        label: 'Rosaceabehandling',
         url: 'varumarken/splendor-x',
         url_title: 'Läs mer om Splendor X'
     ),
     new Treatment(
-        label: 'Soprano Ice',
+        label: 'Portömning',
+        url: 'varumarken/alma/soprano-ice',
+        url_title: 'Läs mer om Soprano Ice'
+    ),
+    new Treatment(
+        label: 'PRX-T33',
+        url: 'varumarken/alma/soprano-ice',
+        url_title: 'Läs mer om Soprano Ice'
+    ),
+    new Treatment(
+        label: 'Dermapen',
+        url: 'varumarken/alma/soprano-ice',
+        url_title: 'Läs mer om Soprano Ice'
+    ),
+    new Treatment(
+        label: 'Milierbehandling',
+        url: 'varumarken/alma/soprano-ice',
+        url_title: 'Läs mer om Soprano Ice'
+    ),
+    new Treatment(
+        label: 'HydraFacial',
         url: 'varumarken/alma/soprano-ice',
         url_title: 'Läs mer om Soprano Ice'
     ),
@@ -815,24 +835,24 @@ $path_segments = array(
                 <?php $faq_categories = array(
                         'Generellt' => array(
                             new Question(
-                                title: 'Vad ska jag göra om jag är osäker på vilket hudproblem jag har?',
-                                text: '<p class="p200">Om du är osäker på vilket hudproblem du upplever, rekommenderar vi en kostnadsfri hudkonsultation med en av våra erfarna hudterapeuter. De kan ge dig en professionell bedömning och en personlig behandlingsplan baserat på din hudtyp och dess specifika problem.</p>'
+                                title: 'Vilka hudvårdsbehandlingar erbjuder AcneSpecialisten?',
+                                text: '<p class="p200">AcneSpecialisten erbjuder en rad olika behandlingar som är specialiserade på att ta hand om problemhud. Våra behandlingar inkluderar, men är inte begränsade till, djuprengörande ansiktsbehandlingar, kemiska peelingar, microneedling, och ljusbehandlingar. Varje behandling är anpassad för att möta specifika hudproblem såsom akne, rosacea, hyperpigmentering och åldrande hud.</p>'
                             ),
                             new Question(
-                                title: 'Behandlar AcneSpecialisten alla typer av hudproblem?',
-                                text: '<p class="p200">AcneSpecialisten har en bred expertis inom många olika hudproblem, inklusive men inte begränsat till akne, rosacea, pormaskar och de andra hudtyper som listas på den här sidan. Vi erbjuder skräddarsydda behandlingar och råd för en mängd olika hudtillstånd. Boka en konsultation hos oss så berättar vi mer om hur vi kan hjäpla dig.</p>'
+                                title: 'Hur vet jag vilken behandling som är rätt för mig?',
+                                text: '<p class="p200">För att hitta den mest lämpliga behandlingen för din hudtyp och dina specifika hudproblem, rekommenderar vi att du bokar en konsultation med en av våra kvalificerade hudterapeuter. Under konsultationen kommer din hud att analyseras noggrant och du får en skräddarsydd behandlingsplan som passar just dina hudvårdsbehov.</p>'
                             ),
                             new Question(
-                                title: 'Hur går jag tillväga för att behandla mitt hudproblem?',
-                                text: '<p class="p200">För att hitta den mest effektiva behandlingen för ditt specifika hudproblem, börjar vi med en grundlig hudanalys under en konsultation. Utifrån denna analys kan vi sedan rekommendera en anpassad behandlingsplan med behandlingar och hudvårdssrutiner som är skräddarsydda för din huds unika behov.</p>'
+                                title: 'Vad kan jag förvänta mig efter en hudvårdsbehandling?',
+                                text: '<p class="p200">Efter en hudvårdsbehandling kan du förvänta dig att din hud känns renare, fräschare och mer revitaliserad. Beroende på behandlingstyp kan vissa personer uppleva lätt rodnad eller känslighet direkt efter behandlingen, vilket oftast avtar inom några timmar till en dag. Vi kommer också att ge dig specifika eftervårdstips för att maximera resultaten och ta hand om din hud efter behandlingen.</p>'
                             ),
                             new Question(
-                                title: 'Vad kan jag göra om jag plötsligt utvecklar problemhy?',
-                                text: '<p class="p200">Om du plötsligt börjar uppleva hudproblem, är det viktigt att först identifiera orsaken. Detta kan göras genom en professionell hudanalys hos en av våra hudterapeuter. De kan också ge dig skräddarsydd rådgivning och behandlingsalternativ för att effektivt hantera ditt specifika hudtillstånd.</p>'
+                                title: 'Finns det åldersbegränsningar för några av behandlingarna hos AcneSpecialisten?',
+                                text: '<p class="p200">Vissa av våra mer intensiva behandlingar kan ha åldersbegränsningar, vilket är varför vi alltid genomför en noggrann konsultation innan vi rekommenderar en behandling. Detta hjälper oss att säkerställa att behandlingen är både lämplig och effektiv för dig, oavsett din ålder. Vi strävar efter att erbjuda säkra och anpassade behandlingsalternativ för alla våra kunder.</p>'
                             ),
                             new Question(
-                                title: 'Vad händer om mitt hudproblem inte finns listat på er hemsida?',
-                                text: '<p class="p200">Om ditt specifika hudproblem inte finns listat på vår hemsida, tveka inte att kontakta oss för en personlig konsultation. Våra hudterapeuter har bred erfarenhet och kan ofta erbjuda hjälp och rådgivning även för ovanliga eller sällsynta hudtillstånd. Vi är här för att hjälpa dig med alla dina hudvårdsbehov.</p>'
+                                title: 'Hur ofta bör jag boka in en hudvårdsbehandling?',
+                                text: '<p class="p200">Frekvensen för hudvårdsbehandlingar beror på behandlingstypen och dina individuella hudbehov. Vissa behandlingar, som lättare ansiktsbehandlingar, kan rekommenderas var fjärde vecka, medan mer intensiva behandlingar som kemisk peeling eller microneedling kan ha längre intervall, upp till var tredje månad. Din hudterapeut kommer att ge dig en rekommenderad behandlingsplan baserad på en initial hudanalys och dina specifika hudmål.</p>'
                             ),
                         ),
 
