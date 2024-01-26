@@ -61,7 +61,7 @@ $green_banner_content = new GreenBannerContent(
 $treatments = array(
     new Treatment(
         label: 'Ansiktsbehandlingar Problemhy',
-        url: 'behandlingar/ansiktsbehandlingar-problemhy',
+        url: 'problemhy.php',
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new Treatment(
@@ -174,7 +174,7 @@ $people_search_for = array(
 
 $service_categories = array(
     new ServiceCategory(
-        url: 'behandlingar/ansiktsbehandlingar-problemhy',
+        url: 'problemhy.php',
         label: 'Ansiktsbehandlingar mot problemhy',
         content: 'Dessa ansiktsbehandlingar är specialutformade för att ta itu med problemhy, såsom acne, rosacea och blandhy. Genom att använda noggrant utvalda produkter och tekniker, hjälper dessa behandlingar till att rengöra, lugna och återställa huden, samtidigt som de förebygger framtida hudproblem.',
         image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
