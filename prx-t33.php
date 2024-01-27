@@ -813,12 +813,14 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                            <picture class="mb-xl">
                                 <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
                                 <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
                                 <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
                             </picture>
-                            <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                            <?php } ?>
+                            <h3 class="h300"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
