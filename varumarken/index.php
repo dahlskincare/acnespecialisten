@@ -21,14 +21,6 @@ $header_brands = array(
             url_title: 'Alma',
       ),
       new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen',
-            image_title: 'CryoPen',
-            url: 'cryopen.php',
-            url_title: 'CryoPen',
-      ),
-      new Brand(
             label: 'Dermapen',
             image: 'bilder/logotyper/dermapen.svg',
             image_alt: 'Dermapen',
@@ -36,6 +28,15 @@ $header_brands = array(
             url: 'dermapen.php',
             url_title: 'Dermapen',
       ),
+      new Brand(
+            label: 'CryoPen',
+            image: 'bilder/logotyper/cryopen.svg',
+            image_alt: 'CryoPen',
+            image_title: 'CryoPen',
+            url: 'cryopen.php',
+            url_title: 'CryoPen',
+      ),
+      
       new Brand(
             label: 'Exceed',
             image: 'bilder/logotyper/exceed.png',
