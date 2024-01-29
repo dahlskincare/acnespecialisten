@@ -29,6 +29,14 @@ $header_brands = array(
             url_title: 'Dermapen',
       ),
       new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_alt: 'Alma Hybrid',
+            image_title: 'Alma Hybrid',
+            url: 'alma-hybrid-co2-laser.php',
+            url_title: 'Alma Hybrid',
+      ),
+      new Brand(
             label: 'CryoPen',
             image: 'bilder/logotyper/cryopen.svg',
             image_alt: 'CryoPen',
