@@ -52,7 +52,7 @@ class ServiceCategory
 
 $green_banner_content = new GreenBannerContent(
     title: 'Behandlingar',
-    description: 'Vi erbjuder ett brett utbud av behandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och laserbehandlingar för att effektivt hantera hudtillstånd.',
+    description: 'Vi erbjuder ett brett utbud av behandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och laserbehandlingar för att effektivt behandla olika hudtillstånd.',
     description_extended: 'Vi förstår att varje hud är unik. Därför erbjuder vi skräddarsydda behandlingar för att uppfylla dina specifika behov. Våra erfarna specialister använder de senaste teknikerna och metoderna för att ge dig de bästa möjliga resultaten. Boka en tid hos oss för att upptäcka hur vi kan hjälpa dig.',
     button_url: 'https://acnespecialisten.se/book?flow=consultation',
     button_label: 'Boka en gratis konsultation'
@@ -782,10 +782,10 @@ $path_segments = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Hudvårdsbehandlingar i Stockholm | AcneSpecialisten</title>
-    <meta name="title" content="Hudvårdsbehandlingar i Stockholm | AcneSpecialisten" class="l10n">
-    <meta name="description" content="AcneSpecialistens hudvårdsbehandlingar är utvecklade för dig med problemhy. Boka en kostnadsfri konsultation så kan vi hjälpa dig med rätt hudbehandling." class="l10n">
-    <meta name="keywords" content="Hudvårdsbehandlingar, Skönhetsbehandlingar, Hudbehandlingar" class="l10n">
+    <title class="l10n">Resultatinriktade hudvårdsbehandlingar i Stockholm</title>
+    <meta name="title" content="Resultatinriktade hudvårdsbehandlingar i Stockholm" class="l10n">
+    <meta name="description" content="AcneSpecialistens behandlingar är anpassade för dig med hudproblem. Boka en kostnadsfri konsultation så kan vi hjälpa dig med rätt hudbehandling." class="l10n">
+    <meta name="keywords" content="Resultatinriktade, Hudvårdsbehandlingar, Skönhetsbehandlingar, Hudbehandlingar" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
