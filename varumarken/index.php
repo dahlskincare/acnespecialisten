@@ -5,8 +5,8 @@ include_once('models.php');
 
 $green_banner_content = new GreenBannerContent(
       title: 'Varumärken',
-      description: 'På AcneSpecialisten samarbetar vi med branschledande leverantörer för att säkerställa att vi använder de mest avancerade teknikerna inom hudvård. Vår utrustning för permanent hårborttagning är bland de mest effektiva på marknaden, och vi prioriterar kvalitet och effektivitet i våra val. Denna kombination av toppmodern teknik och expertkompetens möjliggör de bästa möjliga resultaten för våra kunder. Kvalitet står i centrum för vår verksamhet, och vi kompromissar aldrig med standarden på vår utrustning.',
-      description_extended: 'Vid AcneSpecialisten är varje behandlingsplan unik och skräddarsydd för att möta individuella behov. Vi erbjuder en personlig och detaljerad konsultation för att noggrant förstå varje kunds unika hudtillstånd. Våra specialister är här för att ge dig vägledning och skapa en behandlingsplan som ger optimala resultat för just din hudtyp. Vi inbjuder dig att uppleva den skillnad våra skräddarsydda lösningar kan göra för din hud.',
+      description: 'På AcneSpecialisten samarbetar vi med branschledande leverantörer för att säkerställa att vi använder de mest avancerade teknikerna inom hudvård. Denna kombination av toppmodern teknik och expertkompetens möjliggör de bästa möjliga resultaten för våra kunder. Kvalitet står i centrum för vår verksamhet, och vi kompromissar aldrig med standarden på vår utrustning.',
+      description_extended: 'Vid AcneSpecialisten är varje behandlingsplan unik och skräddarsydd för att möta individuella behov. Vi erbjuder en personlig och detaljerad konsultation för att noggrant förstå varje kunds unika hudtillstånd. Våra specialister är här för att ge dig vägledning och skapa en behandlingsplan som ger optimala resultat för just din hudtyp.',
       button_url: 'gratis-hudkonsultation.php',
       button_label: 'Boka en gratis konsultation'
 );
