@@ -165,7 +165,7 @@ $type_categories = array(
                         title: 'Vuxenakne',
                         subtitle: 'Även kallat acne tarda',
 
-                        image_url: 'images/problems/102x102/vuxenakne.webp',
+                        image_url: 'bilder/symtom/102x102/vuxenakne.webp',
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
 
@@ -176,7 +176,7 @@ $type_categories = array(
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
 
-                        image_url: 'images/problems/102x102/tonarsakne.webp',
+                        image_url: 'bilder/symtom/102x102/tonarsakne.webp',
                         image_alt: 'Bild av tonårsakne',
                         image_title: 'Akne hos tonåringar',
 
@@ -187,7 +187,7 @@ $type_categories = array(
                         title: 'Barnakne',
                         subtitle: 'Även kallat acne neonatorum',
 
-                        image_url: 'images/problems/102x102/barnakne.webp',
+                        image_url: 'bilder/symtom/102x102/barnakne.webp',
                         image_alt: 'Bild av barnakne',
                         image_title: 'Akne hos barn',
 
@@ -205,7 +205,7 @@ $type_categories = array(
                         title: 'Mild akne',
                         subtitle: 'även kallat acne comedonica',
 
-                        image_url: 'images/problems/102x102/mild-akne.webp',
+                        image_url: 'bilder/symtom/102x102/mild-akne.webp',
                         image_alt: 'Bild av mild akne',
                         image_title: 'Mild akne exemplifierad',
 
@@ -216,7 +216,7 @@ $type_categories = array(
                         title: 'Medelsvår akne',
                         subtitle: 'Även kallat acne papulopustulosa',
 
-                        image_url: 'images/problems/102x102/medelsvar-akne.webp',
+                        image_url: 'bilder/symtom/102x102/medelsvar-akne.webp',
                         image_alt: 'Bild av medelsvår akne',
                         image_title: 'Medelsvår akne exemplifierad',
 
@@ -227,7 +227,7 @@ $type_categories = array(
                         title: 'Svår akne',
                         subtitle: 'Även kallat Acne nodulocystica',
 
-                        image_url: 'images/problems/102x102/svar-akne.webp',
+                        image_url: 'bilder/symtom/102x102/svar-akne.webp',
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
 
@@ -238,7 +238,7 @@ $type_categories = array(
                         title: 'Mycket svår akne',
                         subtitle: 'Även kallat Acne conglobata',
 
-                        image_url: 'images/problems/102x102/mycket-svar-akne.webp',
+                        image_url: 'bilder/symtom/102x102/mycket-svar-akne.webp',
                         image_alt: 'Bild av mycket svår akne',
                         image_title: 'Mycket svår akne exemplifierad',
 
@@ -255,7 +255,7 @@ $type_categories = array(
                         title: 'Mallorca akne',
                         subtitle: 'även kallat Acne aestivalis',
 
-                        image_url: 'images/problems/102x102/mallorca-akne.webp',
+                        image_url: 'bilder/symtom/102x102/mallorca-akne.webp',
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
 
@@ -266,7 +266,7 @@ $type_categories = array(
                         title: 'Hormonell akne',
                         subtitle: 'akne orsakad av hormoner',
 
-                        image_url: 'images/problems/102x102/hormonell-akne.webp',
+                        image_url: 'bilder/symtom/102x102/hormonell-akne.webp',
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
 
@@ -277,7 +277,7 @@ $type_categories = array(
                         title: 'kosmetika akne',
                         subtitle: 'Även kallat Acne cosmetica',
 
-                        image_url: 'images/problems/102x102/kosmetika-akne.webp',
+                        image_url: 'bilder/symtom/102x102/kosmetika-akne.webp',
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
 
@@ -288,7 +288,7 @@ $type_categories = array(
                         title: 'Akne från pillande',
                         subtitle: 'Även kallat Acne exoriée ',
 
-                        image_url: 'images/problems/102x102/pill-akne.webp',
+                        image_url: 'bilder/symtom/102x102/pill-akne.webp',
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
 
@@ -299,7 +299,7 @@ $type_categories = array(
                         title: 'Friktionsakne',
                         subtitle: 'Även kallat Acne mechanica',
 
-                        image_url: 'images/problems/102x102/friktions-akne.webp',
+                        image_url: 'bilder/symtom/102x102/friktions-akne.webp',
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
 
@@ -310,7 +310,7 @@ $type_categories = array(
                         title: 'Läkemedelsakne',
                         subtitle: 'Även kallat Acne medicamentosa',
 
-                        image_url: 'images/problems/102x102/lakemedelsakne.webp',
+                        image_url: 'bilder/symtom/102x102/lakemedelsakne.webp',
                         image_alt: 'Bild av läkemedelsakne',
                         image_title: 'Exempel på läkemedelsakne',
 
@@ -321,7 +321,7 @@ $type_categories = array(
                         title: 'Kontaktakne',
                         subtitle: 'Även kallat Acne venenata',
 
-                        image_url: 'images/problems/102x102/kontakt-akne.webp',
+                        image_url: 'bilder/symtom/102x102/kontakt-akne.webp',
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
 
@@ -332,7 +332,7 @@ $type_categories = array(
                         title: 'Svampakne',
                         subtitle: 'Även kallat fungal acne',
 
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
+                        image_url: 'bilder/symtom/102x102/svamp-akne.webp',
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
 
@@ -343,7 +343,7 @@ $type_categories = array(
                         title: 'Inflammerad Akne',
                         subtitle: 'Även kallat acne papulopustulosa',
 
-                        image_url: 'images/problems/102x102/svamp-akne.webp',
+                        image_url: 'bilder/symtom/102x102/svamp-akne.webp',
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
 
@@ -360,7 +360,7 @@ $type_categories = array(
                         title: 'Akne i ansiktet',
                         subtitle: 'Även kallat Acne faciei',
 
-                        image_url: 'images/problems/102x102/akne-ansikte.webp',
+                        image_url: 'bilder/symtom/102x102/akne-ansikte.webp',
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
 
@@ -371,7 +371,7 @@ $type_categories = array(
                         title: 'Akne på ryggen',
                         subtitle: 'Även kallat Acne dorsalis',
 
-                        image_url: 'images/problems/102x102/akne-rygg.webp',
+                        image_url: 'bilder/symtom/102x102/akne-rygg.webp',
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
 
@@ -382,7 +382,7 @@ $type_categories = array(
                         title: 'Akne på bröstet',
                         subtitle: 'Även kallat Acne pectoralis',
 
-                        image_url: 'images/problems/102x102/akne-brost.webp',
+                        image_url: 'bilder/symtom/102x102/akne-brost.webp',
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
 
@@ -410,7 +410,7 @@ $symptoms = array(
             url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
             url_title: 'Läs mer om öppna komedoner (pormaskar)',
 
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
+            image: 'bilder/symtom/102x102/komedoner-oppna.webp',
             image_alt: 'Bild av öppna komedoner (pormaskar)',
             image_title: 'Öppna komedoner (pormaskar)'
       ),
@@ -423,7 +423,7 @@ $symptoms = array(
             url: 'problem/akne/typer/atrophic-icepick-scars',
             url_title: 'Läs mer om stängda komedoner (whiteheads)',
 
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
+            image: 'bilder/symtom/102x102/komedoner-stangda.webp',
             image_alt: 'Bild av stängda komedoner (whiteheads)',
             image_title: 'Stängda komedoner (whiteheads)'
       ),
@@ -436,7 +436,7 @@ $symptoms = array(
             url: 'problem/akne/typer/atrophic-boxcar-scars',
             url_title: 'Läs mer om papler (röda finnar)',
 
-            image: 'images/symptoms/102x102/papler.webp',
+            image: 'bilder/symtom/102x102/papler.webp',
             image_alt: 'Bild av papler (röda finnar)',
             image_title: 'Papler (röda finnar)'
       ),
@@ -449,7 +449,7 @@ $symptoms = array(
             url: 'problem/akne/typer/atrophic-rolling-scars',
             url_title: 'Läs mer om pustler (gula finnar)',
 
-            image: 'images/symptoms/102x102/pustler.webp',
+            image: 'bilder/symtom/102x102/pustler.webp',
             image_alt: 'Bild av pustler (gula finnar)',
             image_title: 'Pustler (gula finnar)'
       ),
@@ -462,7 +462,7 @@ $symptoms = array(
             url: 'problem/akne/typer/hypertrophic-keloid',
             url_title: 'Läs mer om noduler (innåtfinnar)',
 
-            image: 'images/symptoms/102x102/noduler.webp',
+            image: 'bilder/symtom/102x102/noduler.webp',
             image_alt: 'Bild av noduler (innåtfinnar)',
             image_title: 'Noduler (innåtfinnar)'
       ),
@@ -475,7 +475,7 @@ $symptoms = array(
             url: 'problem/akne/typer/hypertrophic-keloid',
             url_title: 'Läs mer om cystor (bölder)',
 
-            image: 'images/symptoms/102x102/cystor.webp',
+            image: 'bilder/symtom/102x102/cystor.webp',
             image_alt: 'Bild av cystor (bölder)',
             image_title: 'Cystor (bölder)'
       ),
