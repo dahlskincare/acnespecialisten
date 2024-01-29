@@ -241,7 +241,7 @@
                                     image_title: 'Person som har akne',
                                     image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: 'Svår akne',
+                                          duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
                                     )
                               ),
                               new ResultCustomer(
@@ -252,7 +252,7 @@
                                     image_title: 'Person som har akne',
                                     image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: 'Akne',
+                                          duration: '<a href="akne.php" title="Akne">Akne</a>',
                                     )
                               ),
                               new ResultCustomer(
@@ -263,7 +263,7 @@
                                     image_title: 'Person som har rosacea',
                                     image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: 'Rosacea',
+                                          duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
                                     )
                               ),
                         );

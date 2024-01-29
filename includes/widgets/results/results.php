@@ -26,7 +26,7 @@ if (!isset($results)) {
             problem: 'Akne',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: 'Efter 3 månaders behandling av <a href="akne.php" title="akne">akne</a>',
+                duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -58,7 +58,7 @@ if (!isset($results)) {
             problem: 'Akne',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: 'Efter 2 månaders behandling av <a href="akne.php" title="akne">akne</a>',
+                duration: '<a href="akne.php" title="Akne">Akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -90,7 +90,7 @@ if (!isset($results)) {
             problem: 'Rosacea',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: 'Efter 4 månaders behandling av <a href="rosacea.php" title="rosacea">rosacea</a>',
+                duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
