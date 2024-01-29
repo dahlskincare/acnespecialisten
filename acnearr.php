@@ -136,7 +136,7 @@ $symptoms = array(
             url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             url_title: 'Läs mer om postinflammatorisk hyperpigmentering',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/postinflammatorisk_hyperpigmentering.webp',
+            image: 'bilder/symptom/102x102/postinflammatorisk-hyperpigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hyperpigmentering',
             image_title: 'Postinflammatorisk hyperpigmentering'
       ),
@@ -147,7 +147,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "ice-pick" ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/atrofiska-icepick-ar.webp',
+            image: 'bilder/symptom/102x102/atrofiska-arr.webp',
             image_alt: 'Bild av atrofiska "ice-pick" ärr',
             image_title: 'Atrofiska "ice-pick" ärr'
       ),
@@ -158,7 +158,7 @@ $symptoms = array(
             url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             url_title: 'Läs mer om postinflammatorisk erytem',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/postinflammatorisk-erytem.webp',
+            image: 'bilder/symptom/102x102/postinflammatorisk-erytem.webp',
             image_alt: 'Bild av postinflammatorisk erytem',
             image_title: 'Postinflammatorisk erytem (rosa/lila fläckar)'
       ),
@@ -170,7 +170,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "Boxcar" ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/boxcar.webp',
+            image: 'bilder/symptom/102x102/boxcar.webp',
             image_alt: 'Bild av atrofiska "Boxcar" ärr',
             image_title: 'Atrofiska "Boxcar" ärr (gropar)'
 
@@ -182,7 +182,7 @@ $symptoms = array(
             url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             url_title: 'Läs mer om postinflammatorisk hypopigmentering',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/hypopigmentering.webp',
+            image: 'bilder/symptom/102x102/hypopigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hypopigmentering',
             image_title: 'Postinflammatorisk hypopigmentering (vita fläckar)'
       ),
@@ -193,7 +193,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/rolling-scars.webp',
+            image: 'bilder/symptom/102x102/rolling-scars.webp',
             image_alt: 'Bild av atrofiska "rolling" ärr',
             image_title: 'Atrofiska "rolling" ärr (gropar)'
       ),
@@ -205,7 +205,7 @@ $symptoms = array(
             url: 'problem/aknearr/hypertrfiska-arr',
             url_title: 'Läs mer om hypertrofiska ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/hypertrophic-scars.webp',
+            image: 'bilder/symptom/102x102/hypertrophic-scars.webp',
             image_alt: 'Bild av hypertrofiska ärr',
             image_title: 'Hypertrofiska ärr (keloid ärr)'
       ),
@@ -217,7 +217,7 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska ärr (gropar)',
             url_label: 'Läs mer',
-            image: 'bilder/symptoms/102x102/atrofiska-arr.webp',
+            image: 'bilder/symptom/102x102/atrofiska-arr.webp',
             image_alt: 'Bild av atrofiska ärr (gropar)',
             image_title: 'Atrofiska ärr (gropar)'
       ),
