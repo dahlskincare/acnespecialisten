@@ -5,9 +5,9 @@ include_once('models.php');
 
 $green_banner_content = new GreenBannerContent(
       title: 'Varumärken',
-      description: 'På AcneSpecialisten är vi dedikerade till att behandla och förbättra hudproblem som akne, rosacea, pormaskar och finnar, och detta åstadkommer vi genom att använda ledande varumärken och tekniker inom hudvård. Våra samarbetspartners inkluderar Alma, Dermapen, CryoPen, HydraFacial, Infuzion, Splendor X och Soprano Ice, som alla erbjuder banbrytande lösningar för en rad hudtillstånd.',
-      description_extended: 'Genom dessa innovativa behandlingsmetoder och vår expertis, skapar vi skräddarsydda behandlingsplaner för att möta dina individuella hudvårdsbehov. Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos oss.',
-      button_url: 'gratis-hudkonsultation',
+      description: 'AcneSpecialisten specialiserar sig på att behandla en mängd hudproblem, från akne och rosacea till pormaskar och finnar, genom att använda framstående varumärken och tekniker inom hudvård. Våra noggrant utvalda samarbetspartners som Alma, Dermapen, CryoPen, HydraFacial, Infuzion, Splendor X och Soprano Ice, bidrar med toppmodern teknologi för behandling av olika hudtillstånd.',
+      description_extended: 'Vi lägger stor vikt vid individanpassade lösningar och vår expertkunskap för att utveckla skräddarsydda behandlingsplaner. För att säkerställa att du får den mest lämpliga vård för ditt unika hudtillstånd, erbjuder vi en kostnadsfri konsultation. Låt våra experter guida dig till rätt behandling och upptäck skillnaden med AcneSpecialisten.',
+      button_url: 'gratis-hudkonsultation.php',
       button_label: 'Boka en gratis konsultation'
 );
 
