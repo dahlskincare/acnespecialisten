@@ -155,10 +155,10 @@ $symptoms = array(
             name: 'Atrofiska "Boxcar" ärr',
             aka: 'Kända som gropar eller skålliknande ärr',
             content: 'Atrofiska "Boxcar" ärr är en typ av akneärr som kännetecknas av rundade eller ovala gropar med skarpa vertikala kanter. Dessa ärr uppstår när aknen förstör kollagen i huden, och lämnar en märkbar depression. Ärr av denna typ kan variera i djup och storlek, och de är ofta jämförda med ärr som orsakas av varicella (vattkoppor). De förekommer oftast på kinderna och tinningarna och kan vara mycket märkbara om de är omfattande.',
-            url: 'problem/aknearr/atrofiska-boxcar-arr',
+            url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "Boxcar" ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptom/102x102/boxcar.webp',
+            image: 'bilder/symptom/102x102/atrofiska-boxcar-arr.webp',
             image_alt: 'Bild av atrofiska "Boxcar" ärr',
             image_title: 'Atrofiska "Boxcar" ärr (gropar)'
 
