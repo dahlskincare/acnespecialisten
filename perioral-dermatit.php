@@ -411,8 +411,8 @@ $service = new Service(
       url: 'gratis-hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
-      consultation_url_label: 'Boka tid för konsultation ',
-      consultation_url: 'consultation-booking?problem=perioral-dermatit',
+      consultation_url_label: 'Boka konsultation ',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för perioral dermatit',
 
       booking_url_label: null,
