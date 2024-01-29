@@ -874,24 +874,24 @@ $path_segments = array(
                 <?php $faq_categories = array(
                         'Generellt' => array(
                             new Question(
-                                title: 'Vilka hudvårdsbehandlingar erbjuder AcneSpecialisten?',
-                                text: '<p class="p200">AcneSpecialisten erbjuder en rad olika behandlingar som är specialiserade på att ta hand om problemhud. Våra behandlingar inkluderar, men är inte begränsade till, djuprengörande ansiktsbehandlingar, kemiska peelingar, microneedling, och ljusbehandlingar. Varje behandling är anpassad för att möta specifika hudproblem såsom akne, rosacea, hyperpigmentering och åldrande hud.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur vet jag vilken behandling som är rätt för mig?',
-                                text: '<p class="p200">För att hitta den mest lämpliga behandlingen för din hudtyp och dina specifika hudproblem, rekommenderar vi att du bokar en konsultation med en av våra kvalificerade hudterapeuter. Under konsultationen kommer din hud att analyseras noggrant och du får en skräddarsydd behandlingsplan som passar just dina hudvårdsbehov.</p>'
+                                title: 'Hur vet jag vilken behandling som är bäst för mig?',
+                                text: '<p class="p200">För att hitta den behandling som passar dig bäst erbjuder vi en kostnadsfri konsultation. Under detta möte får du träffa en av våra erfarna hudterapeuter, som utifrån dina unika hudproblem och mål, skapar en personlig behandlingsplan.</p>'
                             ),
                             new Question(
                                 title: 'Vad kan jag förvänta mig efter en hudvårdsbehandling?',
-                                text: '<p class="p200">Efter en hudvårdsbehandling kan du förvänta dig att din hud känns renare, fräschare och mer revitaliserad. Beroende på behandlingstyp kan vissa personer uppleva lätt rodnad eller känslighet direkt efter behandlingen, vilket oftast avtar inom några timmar till en dag. Vi kommer också att ge dig specifika eftervårdstips för att maximera resultaten och ta hand om din hud efter behandlingen.</p>'
+                                text: '<p class="p200">Resultatet varierar beroende på antalet genomförda behandlingar. En enstaka behandling kan göra skillnad, men vi rekommenderar vanligtvis en fullständig behandlingskur. Denna kan omfatta 3-6 sessioner, beroende på vald metod. Vi erbjuder också kurpaket för dessa behandlingsserier.</p>'
+                            ),
+                            new Question(
+                                title: 'Erbjuder ni duobehandlingar?',
+                                text: '<p class="p200">Ja, vi kan ordna så att du och en till person får behandlingar parallellt. Detta ger er möjligheten att njuta av våra tjänster tillsammans. Observera dock att vi inte erbjuder behandlingar i samma rum.</p>'
                             ),
                             new Question(
                                 title: 'Finns det åldersbegränsningar för några av behandlingarna hos AcneSpecialisten?',
-                                text: '<p class="p200">Vissa av våra mer intensiva behandlingar kan ha åldersbegränsningar, vilket är varför vi alltid genomför en noggrann konsultation innan vi rekommenderar en behandling. Detta hjälper oss att säkerställa att behandlingen är både lämplig och effektiv för dig, oavsett din ålder. Vi strävar efter att erbjuda säkra och anpassade behandlingsalternativ för alla våra kunder.</p>'
+                                text: '<p class="p200">På AcneSpecialisten välkomnar vi kunder i alla åldrar. Vi är medvetna om att hudproblem kan drabba personer i olika åldersgrupper. Våra behandlingsplaner skräddarsys efter individuella behov. För vissa mer intensiva eller maskinbaserade behandlingar kan åldersbegränsningar tillämpas, är du under 18 år måste man alltid ha målsmans godkännande.</p>'
                             ),
                             new Question(
-                                title: 'Hur ofta bör jag boka in en hudvårdsbehandling?',
-                                text: '<p class="p200">Frekvensen för hudvårdsbehandlingar beror på behandlingstypen och dina individuella hudbehov. Vissa behandlingar, som lättare ansiktsbehandlingar, kan rekommenderas var fjärde vecka, medan mer intensiva behandlingar som kemisk peeling eller microneedling kan ha längre intervall, upp till var tredje månad. Din hudterapeut kommer att ge dig en rekommenderad behandlingsplan baserad på en initial hudanalys och dina specifika hudmål.</p>'
+                                title: 'Hur ofta bör jag genomgå en hudvårdsbehandling?',
+                                text: '<p class="p200">I din personliga behandlingsplan, som vi tar fram under vår kostnadsfria konsultation, specificerar vi rekommenderade intervaller mellan behandlingarna. Dessa intervaller varierar beroende på vilken typ av behandling du väljer. Vissa behandlingar kan kräva sessioner med en veckas mellanrum, andra var fjärde vecka, och vissa kanske var sjätte vecka. Denna flexibilitet säkerställer att vi kan erbjuda en behandlingsplan som är optimal för just din hudtyp och dina behov.</p>'
                             ),
                         ),
 
@@ -943,7 +943,7 @@ $path_segments = array(
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="Se alla våra specialister">Se alla våra specialister</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla våra specialister">Se alla våra specialister</a>
             </div>
         </section>
         <section id="brands">
