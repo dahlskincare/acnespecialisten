@@ -404,7 +404,7 @@
             <div id="footer-large-bottom">
                 <div class="flex-row justify-space-between">
                     <p>&copy;
-                        <?php echo date('Y') ?> Acnespecialisten
+                        <?php echo date('Y') ?> AcneSpecialisten Sverige AB
                     </p>
                     <div class="flex-row">
                         <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
