@@ -159,7 +159,7 @@ $symptoms = array(
             url: 'problem/stora-porer/typer/forstorade-oppningar',
             url_title: 'Läs mer om synliga tecken på stora porer',
 
-            image: 'images/symptoms/102x102/forstorade-oppningar.webp',
+            image: 'bilder/symptom/102x102/oppna-komedoner.webp',
             image_alt: 'Bild av synligt förstorade porer',
             image_title: 'Synligt förstorade porer'
       ),
@@ -172,7 +172,7 @@ $symptoms = array(
             url: 'problem/stora-porer/typer/ojamn-hudtextur',
             url_title: 'Läs mer om hur stora porer påverkar hudens textur',
 
-            image: 'images/symptoms/102x102/ojamn-hudtextur.webp',
+            image: 'bilder/symptom/102x102/ojamn-hudton.webp',
             image_alt: 'Bild som illustrerar en ojämn hudtextur',
             image_title: 'Ojämn hudtextur'
       ),
@@ -185,7 +185,7 @@ $symptoms = array(
             url: 'problem/stora-porer/typer/okad-oljeproduktion',
             url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
 
-            image: 'images/symptoms/102x102/okad-oljeproduktion.webp',
+            image: 'bilder/symptom/102x102/oljig-hy.webp',
             image_alt: 'Bild av fet hud med ökad oljeproduktion',
             image_title: 'Ökad oljeproduktion'
       ),
@@ -199,7 +199,7 @@ $symptoms = array(
             url: 'problem/stora-porer/typer/pormaskar-komedoner',
             url_title: 'Läs mer om hur pormaskar och komedoner utvecklas',
 
-            image: 'images/symptoms/102x102/pormaskar-komedoner.webp',
+            image: 'bilder/symptom/102x102/stangda-komedoner.webp',
             image_alt: 'Bild av pormaskar och komedoner',
             image_title: 'Pormaskar och komedoner'
       ),
@@ -223,8 +223,8 @@ $service = new Service(
       url: 'hudkonsultation-stora-porer',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 
-      consultation_url_label: 'Boka tid för konsultation om stora porer',
-      consultation_url: 'consultation-booking?problem=stora-porer',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
       consultation_url_title: 'Klicka för att boka tid för en konsultation om stora porer',
 
       booking_url_label: null,
@@ -251,12 +251,12 @@ $services = array(
             url_label: 'Läs mer om ansiktsbehandling för stora porer',
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling för stora porer',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=large-pores&service=classicFacials',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för stora porer',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling för stora porer',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för stora porer'
       ),
       new Service(
@@ -274,12 +274,12 @@ $services = array(
             url: 'behandlingar/laser-stora-porer',
             url_title: 'Klicka här för att läsa mer om laserbehandling för stora porer',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=large-pores&service=laser',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling för stora porer',
 
-            booking_url_label: 'Boka tid för laserbehandling för stora porer',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_LargePores',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för stora porer'
       ),
       new Service(
@@ -297,12 +297,12 @@ $services = array(
             url_label: 'Läs mer om kemisk peeling för stora porer',
             url_title: 'Klicka här för att läsa mer om kemisk peeling för stora porer',
 
-            consultation_url: 'consultation-booking?problem=large-pores&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för stora porer',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling för stora porer',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för stora porer behandling'
 
       ),
@@ -322,12 +322,12 @@ $services = array(
             url_label: 'Läs mer om microneedling för stora porer',
             url_title: 'Klicka här för att läsa mer om microneedling för stora porer',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=large-pores&service=microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för stora porer',
 
-            booking_url_label: 'Boka tid för microneedling för stora porer',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skonhetscenter-%C3%B6stermalm-43559/stora-porer-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
             booking_url_title: 'Klicka för att boka tid för en microneedling för stora porer behandling'
       ),
 
