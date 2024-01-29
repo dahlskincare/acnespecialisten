@@ -463,7 +463,7 @@ $products = array(
             image_alt: 'Bild av produkter designade för behandling av pormaskar',
             image_title: 'Effektiva produkter för bekämpning och förebyggande av pormaskar',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
             booking_url_label: 'Köp produkter',
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
