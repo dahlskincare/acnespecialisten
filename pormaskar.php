@@ -259,7 +259,7 @@ $symptoms_title = 'Pormaskar symptom';
 $symptoms = array(
       new Symptom(
             name: 'Öppna Komedoner',
-            image: 'images/symptoms/102x102/oppna-komedoner.webp',
+            image: 'bilder/symptom/102x102/oppna-komedoner.webp',
             content: 'Öppna komedoner, ofta kallade svarta pormaskar, är små mörka fläckar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
             aka: 'Även kända som svarta pormaskar',
             image_alt: 'Bild av öppna komedoner',
@@ -268,7 +268,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Stängda Komedoner',
-            image: 'images/symptoms/102x102/stangda-komedoner.webp',
+            image: 'bilder/symptom/102x102/stangda-komedoner.webp',
             content: 'Stängda komedoner, eller vita pormaskar, är små, hudfärgade upphöjningar som bildas när talg och döda hudceller blockar en por. De är täckta av hud och oxideras inte, vilket håller dem vita eller hudfärgade.',
             aka: 'Även kända som vita pormaskar',
             image_alt: 'Bild av stängda komedoner',
@@ -277,7 +277,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Ojämn Hudtextur',
-            image: 'images/symptoms/102x102/ojamn-hudton.webp',
+            image: 'bilder/symptom/102x102/ojamn-hudton.webp',
             content: 'Områden som är drabbade av pormaskar kan ha en ojämn, nästan sandpappersliknande textur.',
             aka: 'Känns som grusig hud',
             image_alt: 'Bild av ojämn hudtextur',
@@ -286,7 +286,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Förstorade Porer',
-            image: 'images/symptoms/102x102/forstorade-porer.webp',
+            image: 'bilder/symptom/102x102/forstorade-porer.webp',
             content: 'När porer blockeras av pormaskar kan de se större och mer framträdande ut.',
             aka: 'Synligt större porer',
             image_alt: 'Bild av förstorade porer',
@@ -295,7 +295,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Rödhet Runt Pormaskar',
-            image: 'images/symptoms/102x102/rodnad.webp',
+            image: 'bilder/symptom/102x102/rodnad.webp',
             content: 'Ett område runt en pormask kan bli rött och inflammerat, särskilt om det har utsatts för mekanisk påverkan som att klämmas eller skrapas.',
             aka: 'Lokaliserad rodnad',
             image_alt: 'Bild av rödhet runt pormaskar',
@@ -304,7 +304,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Överflödig Oljighet',
-            image: 'images/symptoms/102x102/oljig-hy.webp',
+            image: 'bilder/symptom/102x102/oljig-hy.webp',
             content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
             aka: 'Ökad sebumproduktion',
             image_alt: 'Bild av överflödig oljighet',
@@ -313,7 +313,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Klåda',
-            image: 'images/symptoms/102x102/klada.webp',
+            image: 'bilder/symptom/102x102/klada.webp',
             content: 'Vissa kan uppleva en lätt klåda kring områden med pormaskar.',
             aka: 'Mild irritation eller klåda',
             image_alt: 'Bild av klåda',
@@ -322,7 +322,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Mindre Inflammation',
-            image: 'images/symptoms/102x102/mindre-inflammation.webp',
+            image: 'bilder/symptom/102x102/mindre-inflammation.webp',
             content: 'I vissa fall kan pormaskar utvecklas till mindre inflammationer och små röda bultar, särskilt om de inte behandlas korrekt.',
             aka: 'Mindre inflammatoriska fläckar',
             image_alt: 'Bild av mindre inflammation',
@@ -342,8 +342,8 @@ $service = new Service(
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för pormaskar',
       image_title: 'Konsultation för pormaskar',
-      consultation_url: 'consultation-booking?problem=pormaskar',
-      consultation_url_label: 'Boka tid för hudkonsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+      consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för pormaskar',
       booking_url: null,
       booking_url_label: null,
@@ -368,10 +368,10 @@ $services = array(
             image_alt: 'Bild av en portömning',
             image_title: 'Portömning som behandling för pormaskar',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
             booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction',
-            booking_url_label: 'Boka tid för portömning',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en portömning',
             url: 'portomning.php',
             url_label: 'Läs mer om portömning som behandling för pormaskar',
