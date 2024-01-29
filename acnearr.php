@@ -147,27 +147,15 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "ice-pick" ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptom/102x102/atrofiska-arr.webp',
+            image: 'bilder/symptom/102x102/atrofiska-ice-pick-arr.webp',
             image_alt: 'Bild av atrofiska "ice-pick" ärr',
             image_title: 'Atrofiska "ice-pick" ärr'
       ),
       new Symptom(
-            name: 'Postinflammatorisk erytem (PIE)',
-            aka: 'Kända som rosa/lila fläckar eller missfärgning',
-            content: 'Postinflammatorisk erytem uppstår som en reaktion på inflammation efter en akneinfektion och visar sig som rosa eller lila fläckar på huden. Denna missfärgning är resultatet av skadade eller förstörda blodkärl under en inflammatorisk reaktion. Fläckarna kan vara känsliga eller klia, och de bleknar oftast över tid, men kan bli mer ihållande för personer med ljusare hudton. De förekommer oftast på platser där akne har läkt, och kan förväxlas med ärrvävnad även om det inte är en riktig ärrbildning.',
-            url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
-            url_title: 'Läs mer om postinflammatorisk erytem',
-            url_label: 'Läs mer',
-            image: 'bilder/symptom/102x102/postinflammatorisk-erytem.webp',
-            image_alt: 'Bild av postinflammatorisk erytem',
-            image_title: 'Postinflammatorisk erytem (rosa/lila fläckar)'
-      ),
-
-      new Symptom(
             name: 'Atrofiska "Boxcar" ärr',
             aka: 'Kända som gropar eller skålliknande ärr',
             content: 'Atrofiska "Boxcar" ärr är en typ av akneärr som kännetecknas av rundade eller ovala gropar med skarpa vertikala kanter. Dessa ärr uppstår när aknen förstör kollagen i huden, och lämnar en märkbar depression. Ärr av denna typ kan variera i djup och storlek, och de är ofta jämförda med ärr som orsakas av varicella (vattkoppor). De förekommer oftast på kinderna och tinningarna och kan vara mycket märkbara om de är omfattande.',
-            url: 'problem/aknearr/atrofiska-arr',
+            url: 'problem/aknearr/atrofiska-boxcar-arr',
             url_title: 'Läs mer om atrofiska "Boxcar" ärr',
             url_label: 'Läs mer',
             image: 'bilder/symptom/102x102/boxcar.webp',
@@ -182,7 +170,7 @@ $symptoms = array(
             url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
             url_title: 'Läs mer om postinflammatorisk hypopigmentering',
             url_label: 'Läs mer',
-            image: 'bilder/symptom/102x102/hypopigmentering.webp',
+            image: 'bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webp',
             image_alt: 'Bild av postinflammatorisk hypopigmentering',
             image_title: 'Postinflammatorisk hypopigmentering (vita fläckar)'
       ),
@@ -193,11 +181,21 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-arr',
             url_title: 'Läs mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptom/102x102/rolling-scars.webp',
+            image: 'bilder/symptom/102x102/atrofiska-rolling-arr.webp',
             image_alt: 'Bild av atrofiska "rolling" ärr',
             image_title: 'Atrofiska "rolling" ärr (gropar)'
       ),
-
+      new Symptom(
+            name: 'Postinflammatorisk erytem (PIE)',
+            aka: 'Kända som rosa/lila fläckar eller missfärgning',
+            content: 'Postinflammatorisk erytem uppstår som en reaktion på inflammation efter en akneinfektion och visar sig som rosa eller lila fläckar på huden. Denna missfärgning är resultatet av skadade eller förstörda blodkärl under en inflammatorisk reaktion. Fläckarna kan vara känsliga eller klia, och de bleknar oftast över tid, men kan bli mer ihållande för personer med ljusare hudton. De förekommer oftast på platser där akne har läkt, och kan förväxlas med ärrvävnad även om det inte är en riktig ärrbildning.',
+            url: 'problem/aknearr/postinflammatorisk-hyperpigmentering',
+            url_title: 'Läs mer om postinflammatorisk erytem',
+            url_label: 'Läs mer',
+            image: 'bilder/symptom/102x102/postinflammatorisk-erytem.webp',
+            image_alt: 'Bild av postinflammatorisk erytem',
+            image_title: 'Postinflammatorisk erytem (rosa/lila fläckar)'
+      ),
       new Symptom(
             name: 'Hypertrofiska ärr',
             aka: 'Kända som keloid ärr',
@@ -205,11 +203,10 @@ $symptoms = array(
             url: 'problem/aknearr/hypertrfiska-arr',
             url_title: 'Läs mer om hypertrofiska ärr',
             url_label: 'Läs mer',
-            image: 'bilder/symptom/102x102/hypertrophic-scars.webp',
+            image: 'bilder/symptom/102x102/hypertrofiska-arr.webp',
             image_alt: 'Bild av hypertrofiska ärr',
             image_title: 'Hypertrofiska ärr (keloid ärr)'
       ),
-
       new Symptom(
             name: 'Atrofiska ärr',
             aka: 'Kända som gropar',
