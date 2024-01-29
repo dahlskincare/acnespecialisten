@@ -140,7 +140,7 @@ $symptoms = array(
             url: 'problem/aknearr/hyperpigmentering-efter-inflammation',
             url_title: 'Lär dig mer om hyperpigmentering efter inflammation',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/hyperpigmentering_efter_inflammation.webp',
+            image: 'bilder/symptom/102x102/postinflammatorisk-hyperpigmentering.webp',
             image_alt: 'Bild som visar hyperpigmentering efter inflammation',
             image_title: 'Hyperpigmentering efter inflammation'
       ),
@@ -151,20 +151,9 @@ $symptoms = array(
             url: 'problem/aknearr/djupa-arr',
             url_title: 'Lär dig mer om djupa "ice-pick" ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/djupa-icepick-arr.webp',
+            image: 'bilder/symptom/102x102/atrofiska-ice-pick-arr.webp',
             image_alt: 'Bild som visar djupa "ice-pick" ärr',
             image_title: 'Djupa "ice-pick" ärr'
-      ),
-      new Symptom(
-            name: 'Erytem efter inflammation (PIE)',
-            aka: 'Visar sig som rosa eller lila fläckar eller missfärgningar',
-            content: 'Erytem efter inflammation manifesterar sig som rosa eller lila märken på huden efter en inflammation orsakad av akne. Denna missfärgning beror på skador eller förstöring av blodkärlen under inflammationsprocessen. Fläckarna kan vara ömma eller klia och bleknar vanligtvis med tiden. De är dock mer ihärdiga hos personer med ljusare hudton och kan ibland misstas för ärrvävnad, även om det inte är äkta ärr.',
-            url: 'problem/aknearr/erytem-efter-inflammation',
-            url_title: 'Lär dig mer om erytem efter inflammation',
-            url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/erytem_efter_inflammation.webp',
-            image_alt: 'Bild som visar erytem efter inflammation',
-            image_title: 'Erytem efter inflammation'
       ),
 
       new Symptom(
@@ -174,7 +163,7 @@ $symptoms = array(
             url: 'problem/aknearr/boxcar-arr',
             url_title: 'Lär dig mer om "Boxcar" ärr av atrofisk typ',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/boxcar.webp',
+            image: 'bilder/symptom/102x102/atrofiska-boxcar-arr.webp',
             image_alt: 'Bild som visar "Boxcar" ärr av atrofisk typ',
             image_title: '"Boxcar" ärr av atrofisk typ'
       ),
@@ -185,7 +174,7 @@ $symptoms = array(
             url: 'problem/aknearr/hypopigmentering-efter-inflammation',
             url_title: 'Lär dig mer om hypopigmentering efter inflammation',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/hypopigmentering_efter_inflammation.webp',
+            image: 'bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webpr',
             image_alt: 'Bild som visar hypopigmentering efter inflammation',
             image_title: 'Hypopigmentering efter inflammation'
       ),
@@ -196,11 +185,21 @@ $symptoms = array(
             url: 'problem/aknearr/atrofiska-rolling-arr',
             url_title: 'Lär dig mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
-            image: 'images/symptoms/102x102/atrofiska_rolling_arr.webp',
+            image: 'bilder/symptom/102x102/atrofiska-rolling-arr.webp',
             image_alt: 'Bild som visar atrofiska "rolling" ärr',
             image_title: 'Atrofiska "rolling" ärr'
       ),
-
+      new Symptom(
+            name: 'Erytem efter inflammation (PIE)',
+            aka: 'Visar sig som rosa eller lila fläckar eller missfärgningar',
+            content: 'Erytem efter inflammation manifesterar sig som rosa eller lila märken på huden efter en inflammation orsakad av akne. Denna missfärgning beror på skador eller förstöring av blodkärlen under inflammationsprocessen. Fläckarna kan vara ömma eller klia och bleknar vanligtvis med tiden. De är dock mer ihärdiga hos personer med ljusare hudton och kan ibland misstas för ärrvävnad, även om det inte är äkta ärr.',
+            url: 'problem/aknearr/erytem-efter-inflammation',
+            url_title: 'Lär dig mer om erytem efter inflammation',
+            url_label: 'Läs mer',
+            image: 'bilder/symptom/102x102/postinflammatorisk-erytem.webp',
+            image_alt: 'Bild som visar erytem efter inflammation',
+            image_title: 'Erytem efter inflammation'
+      ),
       new Symptom(
             name: 'Hypertrofiska Ärr',
             aka: 'Även benämnda keloid ärr',
@@ -208,7 +207,7 @@ $symptoms = array(
             url: 'problem/arr-fran-finnar/hypertrfiska-arr',
             url_title: 'Få mer information om hypertrofiska ärr',
             url_label: 'Läs mer här',
-            image: 'images/symptoms/102x102/hypertrophic-scars.webp',
+            image: 'bilder/symptom/102x102/hypertrofiska-arr.webp',
             image_alt: 'En bild som visar hypertrofiska ärr',
             image_title: 'Hypertrofiska ärr (keloid ärr)'
       ),
@@ -219,7 +218,7 @@ $symptoms = array(
             url: 'problem/arr-fran-finnar/atrofiska-arr',
             url_title: 'Lär dig mer om atrofiska ärr (gropar)',
             url_label: 'Läs mer här',
-            image: 'images/symptoms/102x102/atrofiska-arr.webp',
+            image: 'bilder/symptom/102x102/atrofiska-arr.webp',
             image_alt: 'Illustration av atrofiska ärr',
             image_title: 'Atrofiska ärr (gropar)'
       ),
