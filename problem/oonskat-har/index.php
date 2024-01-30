@@ -167,7 +167,6 @@ $services = array(
 
 
 $articles = array(
-$articles = array(
       new Article(
             title: 'När bör du söka hjälp för oönskat hår?',
             image_small: null,
@@ -185,7 +184,7 @@ $articles = array(
             content: '<p class="p200">AcneSpecialisten är en pålitlig partner när det kommer till behandling av oönskat hår. Vår erfarenhet och användning av de senaste teknologierna inom hårborttagning garanterar effektiva och säkra behandlingar. Vi erbjuder en rad olika alternativ, inklusive laserhårborttagning, som är både effektivt och skonsamt.</p>
             <p class="p200 mt-m">Vårt team av experter skräddarsyr behandlingen efter dina individuella behov och hudtyp, för att säkerställa bästa möjliga resultat. Hos oss får du tillgång till toppmodern behandling med personlig service och uppföljning. Vi är engagerade i att hjälpa dig uppnå en slät och hårfri hud på det sätt som passar dig bäst.</p>',
       ),
-));
+);
 
 
 $results = array(
