@@ -335,7 +335,7 @@
                                             <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
                                         </li>
                                         <li>
-                                            <a href="hudproblem.php" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">hudproblem</a>
+                                            <a href="hudproblem.php" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
                                         </li>
                                         <li>
                                             <a href="behandlingar.php" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
