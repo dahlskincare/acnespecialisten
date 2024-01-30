@@ -161,7 +161,7 @@ $link_brands = array(
             label: 'Dermabration',
             services: array(
                   "hydrafacial.php" => "HydraFacial",
-                  "microdemabrasion.php" => "Mimass - MicroDermabrasion",
+                  "microdemabrasion.php" => "Mimass",
             )
       ),
       new BrandCategory(
