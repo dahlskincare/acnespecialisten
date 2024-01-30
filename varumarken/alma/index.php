@@ -17,7 +17,7 @@ $nav_buttons = array(
 
 $models = array(
     new BrandModel(
-        image: 'https://via.placeholder.com/102x102.webp',
+        image: 'bilder/logotyper/alma-hybrid.svg',
         title: 'Hybrid (CO2)',
         subtitle: 'Avancerad laser för problemhy och ärr',
         content: 'Alma Hybrid CO2 laser är en innovativ lösning för behandling av problemhy och ärr. Denna laser kombinerar CO2-teknik med andra våglängder för att effektivt behandla akneärr och förbättra hudens textur och utseende. Idealisk för djupare hudförnyelse och ärrminskning, erbjuder Hybrid CO2 precisionsbehandling med snabb återhämtning.',
@@ -25,15 +25,15 @@ $models = array(
         url_label: 'Läs mer',
     ),
     new BrandModel(
-        image: 'https://via.placeholder.com/102x102.webp',
-        title: 'Harmony XL',
+        image: 'bilder/logotyper/harmony-xl-pro.png',
+        title: 'Harmony XL Pro',
         subtitle: 'Mångsidig laser och IPL-system',
         content: 'Harmony XL från Alma är ett mångsidigt system som erbjuder både laser- och IPL-behandlingar. Perfekt för en rad hudtillstånd inklusive akne, pigmentfläckar och ytliga blodkärl. Denna plattform ger skräddarsydda lösningar för både hudföryngring och specifika hudproblem, med olika handstycken för att passa olika behandlingsbehov.',
         url: 'varumarken/alma/harmony-xl',
         url_label: 'Läs mer',
     ),
     new BrandModel(
-        image: 'https://via.placeholder.com/102x102.webp',
+        image: 'bilder/logotyper/soprano-ice.png',
         title: 'Soprano ICE',
         subtitle: 'Effektiv laser för permanent hårborttagning',
         content: 'Soprano ICE är Alma Lasers banbrytande system för permanent hårborttagning. Denna laser är känd för sin effektivitet, komfort och säkerhet, och är lämplig för alla hudtyper. Med sin unika teknik ger Soprano ICE en nästan smärtfri behandlingserfarenhet och är idealisk för att minska oönskat hår på lång sikt.',
@@ -41,7 +41,7 @@ $models = array(
         url_label: 'Läs mer',
     ),
     new BrandModel(
-        image: 'https://via.placeholder.com/102x102.webp',
+        image: 'bilder/logotyper/rejuve-dye-vl.svg',
         title: 'Rejuve Dye VL',
         subtitle: 'IPL för hudtonsförbättring',
         content: 'Rejuve Dye VL är en del av Harmony XL-plattformen och fokuserar på IPL-behandlingar. Det är speciellt effektivt för att hantera hudrodnad, pigmentering och ytliga blodkärl. Denna teknik ger skonsamma men effektiva behandlingar för att förbättra hudtonen och ge en jämnare hudfärg.',
@@ -51,102 +51,39 @@ $models = array(
 );
 
 $results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-        url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
-        age: 21,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '5 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-        url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
-        age: 18,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: 'Efter 2 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-        url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
-        age: 33,
-        gender: 'Kvinna',
-        problem: 'Rosacea',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: 'Efter 4 månaders behandling av <a href="/problme/rosacea/rosaceabehandling" title="akne">akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Rosaceabehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår rosacea',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '3 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '2 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_alt: 'Rosacea resultat',
+            image_title: 'Rosacea resultat',
+            treatment: new ResultTreatment(
+                  duration: '4 månader',
+            )
+      ),
 );
 
 $reviews_title = 'Omdömen';
