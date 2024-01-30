@@ -366,7 +366,7 @@ $brand_cards = array(
           title: 'Soprano Ice',
           subtitle: 'Laser för hårborttagning',
           description: 'Soprano Ice använder Alma Lasers unika SHR-teknik för en nästan smärtfri och effektiv laserhårborttagning. Den är säker för alla hudtyper och erbjuder en behaglig behandlingsupplevelse med långvariga resultat, vilket gör den till en favorit för permanent hårborttagning.',
-          url: 'varumarken/soprano-ice',
+          url: 'varumarken/alma/soprano-ice',
           url_title: 'Läs mer om Soprano Ice',
           booking_url: 'https://acnespecialisten.se/book?flow=sopranoice',
           booking_url_title: 'Boka Soprano Ice-behandling',
@@ -584,7 +584,32 @@ $path_segments = array(
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                              <?php $faq_categories = array(
+                                    'Generellt' => array(
+                                        new Question(
+                                            title: 'Vad innebär det att använda "best in class" maskiner?',
+                                            text: '<p class="p200">Med "best in class" menar vi att vi använder de mest avancerade och effektiva maskinerna som finns tillgängliga för varje specifik typ av hudvårdsbehandling. Det innebär att våra kunder alltid får behandlingar med den senaste och bästa tekniken.</p>'
+                                        ),
+                                        new Question(
+                                            title: 'Hur väljer Acnespecialisten sina varumärken och maskiner för behandlingar?',
+                                            text: '<p class="p200">Vårt urval av varumärken och maskiner baseras på deras rykte och erfarenhet inom branschen. Vi prioriterar leverantörer som specialiserar sig inom specifika områden för att säkerställa högkvalitativa och fokuserade produkter. Dessutom värderar vi leverantörer som erbjuder omfattande utbildning, vilket är avgörande för att säkra både resultat och säkerhet i våra behandlingar.</p>'
+                                        ),
+                                        new Question(
+                                            title: 'Hur skiljer sig Acnespecialistens utrustning från andra hudvårdsklinikers?',
+                                            text: '<p class="p200">Medan vi inte kan garantera för alla konkurrenters utrustning, kan vi säga att Acnespecialisten undviker kopior och satsar på äkta, beprövad utrustning. Detta säkerställer att våra kunder får behandlingar med den högsta standarden av resultat och säkerhet.</p>'
+                                        ),
+                                        new Question(
+                                            title: 'Har Acnespecialisten några exklusiva samarbeten med hudvårdsmärken?',
+                                            text: '<p class="p200">Ja, vi är stolta över att vara en ledande klinik i Sverige för flera metoder, inklusive Dermapen och PRX-T33. Våra samarbeten med dessa framstående varumärken understryker vår dedikation till kvalitet och expertis inom hudvård.</p>'
+                                        ),
+                                        new Question(
+                                            title: 'Hur ofta uppdaterar Acnespecialisten sin utrustning?',
+                                            text: '<p class="p200">På Acnespecialisten är vi engagerade i att kontinuerligt uppdatera vår utrustning för att alltid ligga i framkant med den senaste teknologin. När nya innovationer introduceras på marknaden, strävar vi efter att snabbt integrera dem i vår verksamhet för att alltid erbjuda det bästa för våra kunder.</p>'
+                                        ),
+                                    ),
+
+                              );
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
                         </div>
                   </section>
