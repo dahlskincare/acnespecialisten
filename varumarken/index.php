@@ -138,7 +138,7 @@ $link_brands = array(
       new BrandCategory(
             label: 'Laser mot hudproblem',
             services: array(
-                  "alma-hybrid-co2-laser.php" => "Alma - Hybrid CO",
+                  "alma-hybrid-co2-laser.php" => "Alma - Hybrid CO2",
                   "alma-harmony-xl-pro.php" => "Alma - Harmony XL Pro"
             )
       ),
@@ -152,7 +152,7 @@ $link_brands = array(
       new BrandCategory(
             label: 'IPL',
             services: array(
-                  "varumarken/alma/rejuve-dye-vl" => "Alma - Rejuve Dye VL",
+                  "varumarken/alma/rejuve-dye-vl" => "Alma - Rejuve Dye-VL",
                   "alma-harmony-xl-pro.php" => "Alma - Harmony XL Pro",
                   "varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
             )
