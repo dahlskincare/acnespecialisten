@@ -14,7 +14,7 @@ $model = new Service(
     title: 'Dermapen',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer, samt återskapa hudens naturliga vitalitet och glöd. Våra Dermapen-behandlingar är personligt anpassade för att möta en mängd hudbehov och är omsorgsfullt utformade för att maximera hudens potential till regenerering och föryngring.</p>',
+    content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer. Våra Dermapen-behandlingar är personligt anpassade för att möta en mängd hudbehov och är omsorgsfullt utformade för att maximera hudens potential till regenerering och föryngring.</p>',
     image_small: 'bilder/varumarken/358x274/dermapen.webp',
     image_large: 'bilder/varumarken/424x456/dermapen.webp',
     image_alt: 'Dermapen',
