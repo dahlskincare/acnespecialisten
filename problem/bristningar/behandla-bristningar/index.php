@@ -43,10 +43,6 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av bristni
 
 $headline01 = "01. Identifiera dina bristningar";
 
-$define_image = null;
-$define_image_alt = 'Hur vi behandlar och minskar bristningar?';
-$define_image_title = 'Hur vi behandlar och minskar bristningar?';
-
 $define_content = '<p class="p200">Det första steget i vår process för att behandla bristningar är att kartlägga och analysera bristningarnas omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
 $define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-bristningar";
@@ -137,71 +133,71 @@ $services = array(
 );
 
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '3 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '2 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
-            treatment: new ResultTreatment(
-                  duration: '4 månader',
-            )
-      ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_alt: 'Akne resultat',
+        image_title: 'Akne resultat',
+        treatment: new ResultTreatment(
+            duration: '3 månader',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_alt: 'Akne resultat',
+        image_title: 'Akne resultat',
+        treatment: new ResultTreatment(
+            duration: '2 månader',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_alt: 'Rosacea resultat',
+        image_title: 'Rosacea resultat',
+        treatment: new ResultTreatment(
+            duration: '4 månader',
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat mot bristningar";
 $show_all_results_title = "Resultat mot bristningar";
 
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 
@@ -494,7 +490,6 @@ $brands_url_title = "Varumärken för behandling av bristningar";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
