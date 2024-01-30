@@ -588,19 +588,19 @@ $path_segments = array(
                                     'Generellt' => array(
                                         new Question(
                                             title: 'Vad innebär det att använda "best in class" maskiner?',
-                                            text: '<p class="p200">Med "best in class" menar vi att vi använder de mest avancerade och effektiva maskinerna som finns tillgängliga för varje specifik typ av hudvårdsbehandling. Det innebär att våra kunder alltid får behandlingar med den senaste och bästa tekniken.</p>'
+                                            text: '<p class="p200">Med "best in class" menar vi att vi använder de senaste och mest avancerade maskinerna inom varje behandlingskategori. Dessa maskiner är noggrant utvalda baserat på deras erkännande i kliniska studier och branschutmärkelser, vilket garanterar hög kvalitet och effektivitet i våra behandlingar, vilket ger våra kunder de bästa möjliga resultaten.</p>'
                                         ),
                                         new Question(
                                             title: 'Hur väljer Acnespecialisten sina varumärken och maskiner för behandlingar?',
-                                            text: '<p class="p200">Vårt urval av varumärken och maskiner baseras på deras rykte och erfarenhet inom branschen. Vi prioriterar leverantörer som specialiserar sig inom specifika områden för att säkerställa högkvalitativa och fokuserade produkter. Dessutom värderar vi leverantörer som erbjuder omfattande utbildning, vilket är avgörande för att säkra både resultat och säkerhet i våra behandlingar.</p>'
+                                            text: '<p class="p200">Vårt urval baseras på omfattande forskning och samarbete med ledande leverantörer som har gedigen erfarenhet inom branschen. Vi prioriterar specialiserade varumärken som fokuserar på specifika områden för att garantera högkvalitativa produkter. Dessutom säkerställer vi att vår personal får den bästa utbildningen för säker och effektiv användning av utrustningen.</p>'
                                         ),
                                         new Question(
                                             title: 'Hur skiljer sig Acnespecialistens utrustning från andra hudvårdsklinikers?',
-                                            text: '<p class="p200">Medan vi inte kan garantera för alla konkurrenters utrustning, kan vi säga att Acnespecialisten undviker kopior och satsar på äkta, beprövad utrustning. Detta säkerställer att våra kunder får behandlingar med den högsta standarden av resultat och säkerhet.</p>'
+                                            text: '<p class="p200">Till skillnad från vissa kliniker som använder kopior, fokuserar vi på att endast använda originalutrustning av högsta kvalitet. Vi uppmuntrar våra kunder att göra medvetna val genom att informera sig om vilken typ av utrustning som används för deras behandlingar, för att säkerställa optimala resultat och kompetens.</p>'
                                         ),
                                         new Question(
                                             title: 'Har Acnespecialisten några exklusiva samarbeten med hudvårdsmärken?',
-                                            text: '<p class="p200">Ja, vi är stolta över att vara en ledande klinik i Sverige för flera metoder, inklusive Dermapen och PRX-T33. Våra samarbeten med dessa framstående varumärken understryker vår dedikation till kvalitet och expertis inom hudvård.</p>'
+                                            text: '<p class="p200">Ja, Acnespecialisten är stolt över att vara en av Sveriges ledande kliniker för Dermapen och PRX-T33. Vi har etablerat starka samarbeten med dessa märken, vilket gör det möjligt för oss att erbjuda unika och effektiva behandlingsmetoder.</p>'
                                         ),
                                         new Question(
                                             title: 'Hur ofta uppdaterar Acnespecialisten sin utrustning?',
