@@ -109,6 +109,8 @@ $treatment_steps = array(
       ),
 );
 
+$treatment_link = '<a href="permanent-harborttagning.php" title="Utforska effektiva laser mot oönskat hår" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot oönskat hår</a>';
+
 $headline01 = "01. Identifiera ditt oönskade hår";
 
 $service = new Service(

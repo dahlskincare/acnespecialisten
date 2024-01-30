@@ -486,11 +486,11 @@ $service = new Service(
       image_title: 'Konsultation för Torr och Känslig Hy',
 
       url_label: 'Läs mer om vår konsultation för torr och känslig hy',
-      url: 'hudkonsultation-for-torr-och-kanslig-hy',
+      url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för torr och känslig hy',
 
-      consultation_url_label: 'Boka tid för konsultation av torr och känslig hy',
-      consultation_url: 'consultation-booking?problem=torr-kanslig-hy',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för torr och känslig hy',
 
       booking_url_label: null,
@@ -517,12 +517,12 @@ $services = array(
             url_label: 'Läs mer om ansiktsbehandling för torr och känslig hy',
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling för torr och känslig hy',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=dry-sensitive&service=classicFacials',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för torr och känslig hy',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling för torr och känslig hy',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/torr-kanslig-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för torr och känslig hy'
       ),
 
@@ -570,8 +570,8 @@ $articles = array(
             title: 'När ska jag besöka AcneSpecialisten för Torr & Känslig Hy?',
             content: '<p class="p200">Om du känner att din torra och känsliga hud påverkar din livskvalitet, eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar, bör du överväga att besöka AcneSpecialisten. Ju tidigare du får professionell hjälp, desto bättre chanser har du att lösa ditt hudproblem på ett effektivt sätt. AcneSpecialisten är här för att erbjuda dig skräddarsydda lösningar, oavsett om du har milda eller mer allvarliga hudproblem. Tveka inte att boka en kostnadsfri konsultation och ta det första steget mot en mjukare och mer komfortabel hud.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla torr och känslig hud och kan rekommendera vilka produkter och behandlingar som är bäst för just din hudtyp. Boka en gratis konsultation för att se hur vi kan hjälpa dig att förbättra din torra och känsliga hy.</p>',
 
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag besöka Specialisten för Torr & Känslig Hy?',
             image_title: 'När ska jag besöka Specialisten för Torr & Känslig Hy?',
       ),

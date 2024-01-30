@@ -408,10 +408,10 @@ $service = new Service(
       image_title: 'Konsultation för behandling av perioral dermatit',
 
       url_label: 'Läs mer om vår konsultation',
-      url: 'gratis-hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
-      consultation_url_label: 'Boka konsultation ',
+      consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för perioral dermatit',
 
@@ -439,12 +439,12 @@ $services = array(
             url_label: 'Läs mer om ansiktsbehandling mot perioral dermatit',
             url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot perioral dermatit',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=perioral-dermatit&service=classicFacials',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot perioral dermatit',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling mot perioral dermatit',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/skincare-center',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot perioral dermatit'
       ),
 );

@@ -129,6 +129,9 @@ $treatment_steps = array(
             url_title: 'Utforska våra specialanpassade behandlingar för operations- och skadeärr'
       ),
 );
+
+$treatment_link = '<a href="problem/operations-skadearr/behandla-operations-skadearr" title="Utforska effektiva behandlingar mot operations- och skadeärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot operations- och skadeärr</a>';
+
 /*
 $types_title = 'Olika typer av operations- och skadeärr';
 

@@ -310,11 +310,11 @@ $service = new Service(
       image_title: 'Konsultation för milierbehandling',
 
       url_label: 'Läs mer om vår konsultation för milier',
-      url: 'hudkonsultation-milier',
+      url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om kostnadsfri konsultation för milier',
 
-      consultation_url_label: 'Boka tid för hudkonsultation',
-      consultation_url: 'consultation-booking?problem=milia',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för milier',
 
       booking_url_label: null,
@@ -340,12 +340,12 @@ $services = array(
             url_label: 'Läs mer om behandling mot milier',
             url_title: 'Klicka här för att läsa mer om behandling mot milier',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=milia&service=miliaTreatment',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för behandling mot milier',
 
-            booking_url_label: 'Boka tid för behandling mot milier',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/milier-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia',
             booking_url_title: 'Klicka för att boka tid för en behandling mot milier'
       ),
 );

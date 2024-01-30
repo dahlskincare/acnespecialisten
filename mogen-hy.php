@@ -412,11 +412,11 @@ $service = new Service(
       image_title: 'Konsultation för mogen hy',
 
       url_label: 'Läs mer om vår konsultation för mogen hy',
-      url: 'konsultation-mogenhy',
+      url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om konsultation för mogen hy',
 
-      consultation_url_label: 'Boka tid för konsultation för mogen hy',
-      consultation_url: 'consultation-booking?problem=mogenhy',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för mogen hy',
 
       booking_url_label: null,
@@ -428,27 +428,27 @@ $headline02 = "02. Behandla tecken på mogen hy";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling för mogen hy',
-            duration: '60 min',
-            price: '1595 kr',
-            content: 'Denna ansiktsbehandling är speciellt anpassad för mogen hy. Den syftar till att återfukta, boosta kollagenproduktionen och förbättra hudens elasticitet. Behandlingen hjälper till att minska uppkomsten av fina linjer och rynkor.',
+            title: 'Laser mot mogen hy',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'En avancerad laserbehandling anpassad för mogen hy erbjuder en skonsam men effektiv lösning för att förbättra hudens kvalitet och utseende. Denna teknik är speciellt utvecklad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och ojämn hudton. Lasern stimulerar hudens naturliga kollagenproduktion, vilket bidrar till en fastare och mer strålande hud. Denna behandling hjälper till att revitalisera och föryngra huden, vilket ger ett mer ungdomligt och fräscht utseende.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
-            image_alt: 'Bild av en ansiktsbehandling för mogen hy',
-            image_title: 'Ansiktsbehandling för mogen hy',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Bild av laserbehandling mot mogen hy',
+            image_title: 'Laserbehandling mot mogen hy',
 
-            url: 'behandlingar/ansiktsbehandling-mogenhy',
-            url_label: 'Läs mer om ansiktsbehandling för mogen hy',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling för mogen hy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=mogenhy&service=classicFacials',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för mogen hy',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot mogen hy',
 
-            booking_url_label: 'Boka tid för ansiktsbehandling för mogen hy',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/mogenspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/mogenhy-konsultation-1643922',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för mogen hy'
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot mogen hy',
       ),
       new Service(
             title: 'Kemisk peeling för mogen hy',
@@ -465,12 +465,12 @@ $services = array(
             url_label: 'Läs mer om kemisk peeling för mogen hy',
             url_title: 'Klicka här för att läsa mer om kemisk peeling för mogen hy',
 
-            consultation_url: 'consultation-booking?problem=mogenhy&service=chemicalPeeling',
-            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för mogen hy',
 
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/mogenspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/mogenhy-konsultation-1643922',
-            booking_url_label: 'Boka tid för kemisk peeling för mogen hy',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles',
+            booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för mogen hy'
       ),
 
@@ -489,12 +489,12 @@ $services = array(
             url_label: 'Läs mer om microneedling för mogen hy',
             url_title: 'Klicka här för att läsa mer om microneedling för mogen hy',
 
-            consultation_url_label: 'Boka tid för hudkonsultation',
-            consultation_url: 'consultation-booking?problem=mogenhy&service=microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för mogen hy',
 
-            booking_url_label: 'Boka tid för microneedling för mogen hy',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/mogenspecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/mogenhy-konsultation-1643922',
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Wrinkles',
             booking_url_title: 'Klicka för att boka tid för en microneedling för mogen hy'
       ),
 );

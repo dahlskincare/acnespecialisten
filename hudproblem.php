@@ -268,7 +268,7 @@ $problems['bristningar'] = new Problem(
 );
 $problems['operations-skadearr'] = new Problem(
       label: 'Operations & Skadeärr',
-      url: 'problemhy/operations-skadearr',
+      url: 'problem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -507,7 +507,7 @@ $problems['torr-kanslig-hy-ansikte'] = new Problem(
 );
 $problems['operations-skadearr-ansikte'] = new Problem(
       label: 'Operations & Skadeärr i ansiktet',
-      url: 'problemhy/operations-skadearr',
+      url: 'problem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr i ansiktet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -577,7 +577,7 @@ $problems['bristningar-kropp'] = new Problem(
 );
 $problems['operations-skadearr-kropp'] = new Problem(
       label: 'Operations & Skadeärr på kroppen',
-      url: 'problemhy/operations-skadearr',
+      url: 'problem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på kroppen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -699,7 +699,7 @@ $problems['hudforandringar-rygg'] = new Problem(
 );
 $problems['operations-skadearr-rygg'] = new Problem(
       label: 'Operations & Skadeärr på ryggen',
-      url: 'problemhy/operations-skadearr',
+      url: 'problem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på ryggen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -821,7 +821,7 @@ $problems['hudforandringar-brost'] = new Problem(
 );
 $problems['operations-skadearr-brost'] = new Problem(
       label: 'Operations & Skadeärr på bröstet',
-      url: 'problemhy/operations-skadearr',
+      url: 'problem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på bröstet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -956,7 +956,7 @@ $problems['hudforandringar-panna'] = new Problem(
 );
 $problems['operations-skadearr-panna'] = new Problem(
       label: 'Operations & Skadeärr i pannan',
-      url: 'problemhy/operations-skadearr',
+      url: 'problem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr i pannan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -1550,7 +1550,7 @@ $problems['hudforandringar-haka'] = new Problem(
 );
 $problems['operations-skadearr-haka'] = new Problem(
       label: 'Operations & Skadeärr på hakan',
-      url: 'problemhy/operations-skadearr',
+      url: 'problem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på hakan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -1723,7 +1723,7 @@ $problem_areas = array(
 );
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/problemhy.php'),
+      new PathSegment('Hudproblem', '/problem.php'),
 );
 
 ?>
@@ -1903,7 +1903,7 @@ $path_segments = array(
                                 text: '<p class="p200">För att hitta den mest effektiva behandlingen för ditt specifika hudproblem, börjar vi med en grundlig hudanalys under en konsultation. Utifrån denna analys kan vi sedan rekommendera en anpassad behandlingsplan med behandlingar och hudvårdssrutiner som är skräddarsydda för din huds unika behov.</p>'
                             ),
                             new Question(
-                                title: 'Vad kan jag göra om jag plötsligt utvecklar problemhy?',
+                                title: 'Vad kan jag göra om jag plötsligt utvecklar problem?',
                                 text: '<p class="p200">Om du plötsligt börjar uppleva hudproblem, är det viktigt att först identifiera orsaken. Detta kan göras genom en professionell hudanalys hos en av våra hudterapeuter. De kan också ge dig skräddarsydd rådgivning och behandlingsalternativ för att effektivt hantera ditt specifika hudtillstånd.</p>'
                             ),
                             new Question(
