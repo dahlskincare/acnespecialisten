@@ -169,8 +169,8 @@ $type_categories = array(
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
 
-                        //url: 'problem/akne/typer/vuxenakne',
-                        // url_title: 'Utforska information om vuxenakne'
+                        url: 'vuxenacne.php',
+                        url_title: 'Utforska information om vuxenakne'
                   ),
                   new BasedType(
                         title: 'Tonårsakne',
@@ -180,7 +180,7 @@ $type_categories = array(
                         image_alt: 'Bild av tonårsakne',
                         image_title: 'Akne hos tonåringar',
 
-                        url: 'problem/akne/typer/tonårsakne',
+                        url: 'tonarsacne.php',
                         url_title: 'Utforska information om tonårsakne'
                   ),
                   new BasedType(
@@ -191,8 +191,8 @@ $type_categories = array(
                         image_alt: 'Bild av barnakne',
                         image_title: 'Akne hos barn',
 
-                        url: 'problem/akne/typer/barnakne',
-                        url_title: 'Utforska information om barnakne'
+                        //url: 'problem/akne/typer/barnakne',
+                        //url_title: 'Utforska information om barnakne'
                   ),
 
             )
@@ -209,8 +209,8 @@ $type_categories = array(
                         image_alt: 'Bild av mild akne',
                         image_title: 'Mild akne exemplifierad',
 
-                        url: 'problem/akne/typer/mild-akne',
-                        url_title: 'Utforska mer information om mild akne'
+                        //url: 'problem/akne/typer/mild-akne',
+                        //url_title: 'Utforska mer information om mild akne'
                   ),
                   new BasedType(
                         title: 'Medelsvår akne',
@@ -220,8 +220,8 @@ $type_categories = array(
                         image_alt: 'Bild av medelsvår akne',
                         image_title: 'Medelsvår akne exemplifierad',
 
-                        url: 'problem/akne/typer/medel-akne',
-                        url_title: 'Utforska mer information om medelsvår akne'
+                        //url: 'problem/akne/typer/medel-akne',
+                        //url_title: 'Utforska mer information om medelsvår akne'
                   ),
                   new BasedType(
                         title: 'Svår akne',
@@ -231,8 +231,8 @@ $type_categories = array(
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
 
-                        url: 'problem/akne/typer/svar-akne',
-                        url_title: 'Utforska mer information om svår akne'
+                        //url: 'problem/akne/typer/svar-akne',
+                        //url_title: 'Utforska mer information om svår akne'
                   ),
                   new BasedType(
                         title: 'Mycket svår akne',
@@ -242,8 +242,8 @@ $type_categories = array(
                         image_alt: 'Bild av mycket svår akne',
                         image_title: 'Mycket svår akne exemplifierad',
 
-                        url: 'problem/akne/typer/mycket-svar-akne',
-                        url_title: 'Utforska mer information om mycket svår akne'
+                        //url: 'problem/akne/typer/mycket-svar-akne',
+                        //url_title: 'Utforska mer information om mycket svår akne'
                   ),
             )
       ),
@@ -259,7 +259,7 @@ $type_categories = array(
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
 
-                        url: 'problem/akne/typer/mallorca-akne',
+                        url: 'mallorca-acne.php',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne',
                   ),
                   new BasedType(
@@ -270,7 +270,7 @@ $type_categories = array(
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
 
-                        url: 'problem/akne/typer/hormonell-akne',
+                        url: 'hormonell-acne.php',
                         url_title: 'Utforska mer om hur hormoner kan framkalla akne',
                   ),
                   new BasedType(
@@ -281,8 +281,8 @@ $type_categories = array(
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
 
-                        url: 'problem/akne/typer/kosmetika-akne',
-                        url_title: 'Lär dig mer om hur kosmetika kan ge akne',
+                        //url: 'problem/akne/typer/kosmetika-akne',
+                        //url_title: 'Lär dig mer om hur kosmetika kan ge akne',
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
@@ -292,8 +292,8 @@ $type_categories = array(
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
 
-                        url: 'problem/akne/typer/acne-exoriee',
-                        url_title: 'Läs mer om hur pillande kan leda till akne',
+                        //url: 'problem/akne/typer/acne-exoriee',
+                        //url_title: 'Läs mer om hur pillande kan leda till akne',
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
@@ -303,8 +303,8 @@ $type_categories = array(
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
 
-                        url: 'problem/akne/typer/akne-mekanisk',
-                        url_title: 'Utforska mer om hur friktion kan orsaka akne',
+                        //url: 'problem/akne/typer/akne-mekanisk',
+                        //url_title: 'Utforska mer om hur friktion kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Läkemedelsakne',
@@ -314,8 +314,8 @@ $type_categories = array(
                         image_alt: 'Bild av läkemedelsakne',
                         image_title: 'Exempel på läkemedelsakne',
 
-                        url: 'problem/akne/typer/lakemedelsakne',
-                        url_title: 'Lär dig mer om hur läkemedel kan orsaka akne',
+                        //url: 'problem/akne/typer/lakemedelsakne',
+                        //url_title: 'Lär dig mer om hur läkemedel kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
@@ -325,8 +325,8 @@ $type_categories = array(
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
 
-                        url: 'problem/akne/typer/kontakt-akne',
-                        url_title: 'Utforska mer om hur direktkontakt kan påverka akne',
+                        //url: 'problem/akne/typer/kontakt-akne',
+                        //url_title: 'Utforska mer om hur direktkontakt kan påverka akne',
                   ),
                   new BasedType(
                         title: 'Svampakne',
@@ -336,19 +336,19 @@ $type_categories = array(
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
 
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne',
+                        //url: 'problem/akne/typer/fungal-akne',
+                        //url_title: 'Lär dig mer om hur svamp relateras till akne',
                   ),
                   new BasedType(
                         title: 'Inflammerad Akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
+                        subtitle: 'Även kallat acne',
 
                         image_url: 'bilder/symtom/102x102/svamp-akne.webp',
-                        image_alt: 'Bild av svampakne',
-                        image_title: 'Exempel på svampakne',
+                        image_alt: 'Bild av inflammation akne',
+                        image_title: 'Exempel på inflammation akne',
 
-                        url: 'problem/akne/typer/fungal-akne',
-                        url_title: 'Lär dig mer om hur svamp relateras till akne',
+                        url: 'inflammation-acne.php',
+                        url_title: 'Lär dig mer om inflammation akne',
                   ),
             )
       ),
@@ -364,7 +364,7 @@ $type_categories = array(
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
 
-                        url: 'problem/akne/typer/akne-ansiktet',
+                        url: 'acne-ansikte.php',
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
@@ -375,7 +375,7 @@ $type_categories = array(
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
 
-                        url: 'problem/akne/typer/akne-ryggen',
+                        url: 'acne-rygg.php',
                         url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
                   ),
                   new BasedType(
@@ -386,7 +386,7 @@ $type_categories = array(
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
 
-                        url: 'problem/akne/typer/akne-brostet',
+                        url: 'acne-brost.php',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
 
@@ -407,7 +407,7 @@ $symptoms = array(
             content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
 
             url_label: 'Läs mer om öppna komedoner',
-            url: 'problem/akne/typer/post-inflammatory-hyperpigmentaion',
+            url: 'vita-pormaskar.php',
             url_title: 'Läs mer om öppna komedoner (pormaskar)',
 
             image: 'bilder/symtom/102x102/komedoner-oppna.webp',
@@ -420,7 +420,7 @@ $symptoms = array(
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
 
             url_label: 'Läs mer om stängda komedoner',
-            url: 'problem/akne/typer/atrophic-icepick-scars',
+            url: 'svarta-pormaskar.php',
             url_title: 'Läs mer om stängda komedoner (whiteheads)',
 
             image: 'bilder/symtom/102x102/komedoner-stangda.webp',
@@ -432,9 +432,9 @@ $symptoms = array(
             aka: 'Kända som röda finnar',
             content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
-            url_label: 'Läs mer om papler',
-            url: 'problem/akne/typer/atrophic-boxcar-scars',
-            url_title: 'Läs mer om papler (röda finnar)',
+            //url_label: 'Läs mer om papler',
+            //url: 'problem/akne/typer/atrophic-boxcar-scars',
+            //url_title: 'Läs mer om papler (röda finnar)',
 
             image: 'bilder/symtom/102x102/papler.webp',
             image_alt: 'Bild av papler (röda finnar)',
@@ -445,9 +445,9 @@ $symptoms = array(
             aka: 'Kända som gula finnar',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
-            url_label: 'Läs mer om pustler',
-            url: 'problem/akne/typer/atrophic-rolling-scars',
-            url_title: 'Läs mer om pustler (gula finnar)',
+            //url_label: 'Läs mer om pustler',
+            //url: 'problem/akne/typer/atrophic-rolling-scars',
+            //url_title: 'Läs mer om pustler (gula finnar)',
 
             image: 'bilder/symtom/102x102/pustler.webp',
             image_alt: 'Bild av pustler (gula finnar)',
@@ -458,9 +458,9 @@ $symptoms = array(
             aka: 'Kända som innåtfinnar',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
 
-            url_label: 'Läs mer om noduler',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om noduler (innåtfinnar)',
+            //url_label: 'Läs mer om noduler',
+            //url: 'problem/akne/typer/hypertrophic-keloid',
+            //url_title: 'Läs mer om noduler (innåtfinnar)',
 
             image: 'bilder/symtom/102x102/noduler.webp',
             image_alt: 'Bild av noduler (innåtfinnar)',
@@ -471,9 +471,9 @@ $symptoms = array(
             aka: 'Kända som bölder',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
 
-            url_label: 'Läs mer om cystor',
-            url: 'problem/akne/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om cystor (bölder)',
+            //url_label: 'Läs mer om cystor',
+            //url: 'problem/akne/typer/hypertrophic-keloid',
+            //url_title: 'Läs mer om cystor (bölder)',
 
             image: 'bilder/symtom/102x102/cystor.webp',
             image_alt: 'Bild av cystor (bölder)',

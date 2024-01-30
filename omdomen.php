@@ -4,9 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Priser | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens priser.">
-    <meta name="keywords" content="Priser">
+    <title>Omdömen | AcneSpecialisten – Hudvård i Stockholm</title>
+    <meta name="description" content="Läs om AcneSpecialistens omdömen.">
+    <meta name="keywords" content="Omdömen">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
@@ -30,8 +30,8 @@
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Priser</h1>
-                    <p class="l10n">Snart kommer du att kunna hitta alla våra priser här.</p>
+                    <h1 class="l10n">Omdömen</h1>
+                    <p class="l10n">Snart kommer du att kunna hitta alla våra omdömen här.</p>
                 </section>
             </div>
             <section id="results" class="large-margin">

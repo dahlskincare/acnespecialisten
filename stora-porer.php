@@ -155,9 +155,9 @@ $symptoms = array(
             aka: 'Kända som stora porer',
             content: 'Det mest uppenbara tecknet på stora porer är synligt större poröppningar, särskilt i områdena kring näsan, kinderna och pannan.',
 
-            url_label: 'Läs mer om förstorade öppningar',
-            url: 'problem/stora-porer/typer/forstorade-oppningar',
-            url_title: 'Läs mer om synliga tecken på stora porer',
+            //url_label: 'Läs mer om förstorade öppningar',
+            //url: 'problem/stora-porer/typer/forstorade-oppningar',
+            //url_title: 'Läs mer om synliga tecken på stora porer',
 
             image: 'bilder/symptom/102x102/oppna-komedoner.webp',
             image_alt: 'Bild av synligt förstorade porer',
@@ -168,9 +168,9 @@ $symptoms = array(
             name: 'Ojämn hudtextur',
             content: 'Huden kan kännas ojämn eller gropig till följd av de utvidgade porerna.',
 
-            url_label: 'Läs mer om ojämn hudtextur',
-            url: 'problem/stora-porer/typer/ojamn-hudtextur',
-            url_title: 'Läs mer om hur stora porer påverkar hudens textur',
+            //url_label: 'Läs mer om ojämn hudtextur',
+            //url: 'problem/stora-porer/typer/ojamn-hudtextur',
+            //url_title: 'Läs mer om hur stora porer påverkar hudens textur',
 
             image: 'bilder/symptom/102x102/ojamn-hudton.webp',
             image_alt: 'Bild som illustrerar en ojämn hudtextur',
@@ -181,9 +181,9 @@ $symptoms = array(
             name: 'Ökad oljeproduktion',
             content: 'Stora porer är ofta förknippade med fet hud eftersom talgkörtlarna producerar mer olja, vilket kan leda till att porerna vidgas.',
 
-            url_label: 'Läs mer om ökad oljeproduktion',
-            url: 'problem/stora-porer/typer/okad-oljeproduktion',
-            url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
+            //url_label: 'Läs mer om ökad oljeproduktion',
+            //url: 'problem/stora-porer/typer/okad-oljeproduktion',
+            //url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
 
             image: 'bilder/symptom/102x102/oljig-hy.webp',
             image_alt: 'Bild av fet hud med ökad oljeproduktion',
@@ -196,7 +196,7 @@ $symptoms = array(
             content: 'Förstorade porer kan lätt bli tilltäppta av olja, smuts och döda hudceller, vilket kan resultera i svarta eller vita pormaskar.',
 
             url_label: 'Läs mer om pormaskar och komedoner',
-            url: 'problem/stora-porer/typer/pormaskar-komedoner',
+            url: 'pormaskar.php',
             url_title: 'Läs mer om hur pormaskar och komedoner utvecklas',
 
             image: 'bilder/symptom/102x102/stangda-komedoner.webp',

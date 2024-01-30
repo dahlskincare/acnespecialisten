@@ -316,7 +316,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             image_alt: 'Öppna komedoner (pormaskar) i bild',
             image_title: 'Pormaskar (öppna komedoner)',
-            url: 'problem/finnar/typer/post-inflammatory-hyperpigmentaion',
+            url: 'svarta-pormaskar.php',
             url_title: 'Utforska öppna komedoner',
             url_label: 'Fler detaljer om öppna komedoner'
       ),
@@ -327,7 +327,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Whiteheads (stängda komedoner) bild',
             image_title: 'Stängda komedoner ("whiteheads")',
-            url: 'problem/finnar/typer/atrophic-icepick-scars',
+            url: 'vita-pormaskar.php',
             url_title: 'Mer om stängda komedoner',
             url_label: 'Fler detaljer om stängda komedoner'
       ),
@@ -338,9 +338,9 @@ $symptoms = array(
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Röda finnar (papler) bild',
             image_title: 'Papler (Röda Finnar)',
-            url: 'problem/finnar/typer/atrophic-boxcar-scars',
-            url_title: 'Lär dig mer om röda finnar',
-            url_label: 'Mer information om papler'
+            //url: 'problem/finnar/typer/atrophic-boxcar-scars',
+            //url_title: 'Lär dig mer om röda finnar',
+            //url_label: 'Mer information om papler'
       ),
       new Symptom(
             name: 'Gula Finnar',
@@ -349,9 +349,9 @@ $symptoms = array(
             image: 'images/symptoms/102x102/pustler.webp',
             image_alt: 'Gula finnar (pustler) bild',
             image_title: 'Pustler (Gula Finnar)',
-            url: 'problem/finnar/typer/atrophic-rolling-scars',
-            url_title: 'Fler detaljer om gula finnar',
-            url_label: 'Utforska pustuler'
+            //url: 'problem/finnar/typer/atrophic-rolling-scars',
+            //url_title: 'Fler detaljer om gula finnar',
+            //url_label: 'Utforska pustuler'
       ),
       new Symptom(
             name: 'Innåtfinnar',
@@ -360,9 +360,9 @@ $symptoms = array(
             image: 'images/symptoms/102x102/noduler.webp',
             image_alt: 'Innåtfinnar (noduler) i bild',
             image_title: 'Noduler (Innåtfinnar)',
-            url: 'problem/finnar/typer/hypertrophic-keloid',
-            url_title: 'Mer om innåtfinnar',
-            url_label: 'Utforska noduler'
+            //url: 'problem/finnar/typer/hypertrophic-keloid',
+            //url_title: 'Mer om innåtfinnar',
+            //url_label: 'Utforska noduler'
       ),
       new Symptom(
             name: 'Bölder',
@@ -371,9 +371,9 @@ $symptoms = array(
             image: 'images/symptoms/102x102/cystor.webp',
             image_alt: 'Bild av bölder (cystor)',
             image_title: 'Bölder (cystor)',
-            url: 'problem/finnar/typer/hypertrophic-keloid',
-            url_title: 'Läs mer om bölder (cystor)',
-            url_label: 'Mer information om bölder'
+            //url: 'problem/finnar/typer/hypertrophic-keloid',
+            //url_title: 'Läs mer om bölder (cystor)',
+            //url_label: 'Mer information om bölder'
       ),
 
 );
