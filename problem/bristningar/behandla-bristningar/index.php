@@ -8,7 +8,7 @@ $seo_keywords = 'behandling av bristningar, bristningsbehandling, metod för bri
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/bristningar.jpg';
+$seo_image = 'bilder/problem/424x456/bristningar.webp';
 
 $image_small = 'bilder/problem/424x324/bristningar.webp';
 $image_large = 'bilder/problem/424x456/bristningar.webp';
