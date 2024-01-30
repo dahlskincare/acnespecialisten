@@ -10,8 +10,8 @@ $seo_keywords = 'behandling av bristningar, bristningsbehandling, metod för bri
 
 $seo_image = 'images/treatments/large/bristningar.jpg';
 
-$image_large = 'images/treatments/large/bristningar.jpg';
-$image_small = 'images/treatments/small/bristningar.jpg';
+$image_small = 'bilder/problem/424x324/bristningar.webp';
+$image_large = 'bilder/problem/424x456/bristningar.webp';
 $image_alt = 'Bild som illustrerar bristningar';
 $image_title = 'Bristningar';
 
