@@ -132,6 +132,6 @@ if (!isset($results)) {
             <?php } ?>
         </div>
     </div>
-    <a class="mt-xl button b200 outline expand auto-width" title="<?php echo $show_all_results_title ?>" href="resultat"><?php echo $show_all_results_label ?></a>
+    <a class="mt-xl button b200 outline expand auto-width" title="<?php echo $show_all_results_title ?>" href="resultat.php"><?php echo $show_all_results_label ?></a>
     <script src="/includes/widgets/results/results.js"></script>
 </div>
