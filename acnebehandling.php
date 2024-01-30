@@ -76,9 +76,9 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/acnebehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Akne',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Akne',
+        url: '',
+        url_label: '',
+        url_title: '',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -94,15 +94,15 @@ $services = array(
         price: '1295 kr',
         icons: array('precision' => 'Precision', 'icke-invasiv' => 'Icke-invasiv', 'snabb' => 'Snabb', 'effektiv' => 'Effektiv'),
         content: '<p class="p200">Laserbehandling för akne hos Acnespecialisten fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar talgproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
-        consultation_url: 'konsultation-laser',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'boka-laserbehandling',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot akne nu',
-        url: 'behandlingar/laserbehandling-mot-akne',
-        url_label: 'Läs mer om laserbehandlingar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot akne',
+        url: '',
+        url_label: '',
+        url_title: '',
 
         // short_title: 'Laser'
 
@@ -116,15 +116,15 @@ $services = array(
         title: 'Kemisk peeling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('exfolierande' => 'Exfolierande', 'fornyande' => 'Förnyande'),
+        icons: array('exfolierande' => 'Exfolierande'),
         content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
-        consultation_url: 'gratis-hudkonsultation',
+        consultation_url: 'ghttps://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
-        url: 'behandlingar/kemisk-peeling-mot-akne',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot akne',
-        booking_url: 'boka-kemisk-peeling',
+        url: '',
+        url_label: '',
+        url_title: '',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling mot akne nu',
         short_title: 'Kemisk Peeling'
@@ -141,13 +141,13 @@ $services = array(
         price: '1295 kr',
         icons: array('fornyande' => 'Förnyande', 'maskin' => 'Djupgående', 'multi-funktion' => 'Minskning av ärr'),
         content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
-        consultation_url: 'microneedling-konsultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot akne',
-        url: 'behandlingar/microneedling-mot-akne',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot akne',
-        booking_url: 'boka-microneedling',
+        url: '',
+        url_label: '',
+        url_title: '',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling mot akne nu',
         short_title: 'Microneedling'
@@ -164,7 +164,7 @@ $products = array(
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
 
-        url: 'produkter/mot-akne',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
         url_label: 'Utforska våra hudvårdsprodukter mot akne',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
         price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
@@ -178,40 +178,48 @@ $products = array(
 $headline04 = '04. Reparera post-akne (Acneärr)';
 $repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
 
-$repair_url = 'treatments/acne';
+$repair_url = 'behandla-acnearr.php';
 $repair_url_label = 'Se ärrbehandlingar';
 $repair_url_title = 'klicka här för att se våra ärrbehandlingar';
 
-
 $results = array(
     new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_title: 'Person som har akne',
+        image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>'
-        ),
+            duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
+        )
     ),
     new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_title: 'Person som har akne',
+        image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/akne" title="Akne">behandlingar mot akne</a>',
+            duration: '<a href="akne.php" title="Akne">Akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_title: 'Person som har rosacea',
+        image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
         )
     ),
 );
 
-$show_all_results_label = "Se fler resultat blablalba";
-$show_all_results_title = "KLICKA PÅ MIG";
+$show_all_results_label = "Se fler resultat";
+$show_all_results_title = "Se fler resultat";
 
 $reviews = array(
     new Review(

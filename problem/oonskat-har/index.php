@@ -9,7 +9,7 @@ $seo_title = 'Allt om Oönskat Hår - Orsaker, Behandling och Förebyggande | Ac
 $seo_description = 'Lär dig allt om oönskat hår, från dess orsaker till hur man behandlar det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'oönskat hår, hårborttagning, orsaker till oönskat hår, förebygga oönskat hår, ta bort oönskat hår, permanent hårborttagning, laserbehandling, vaxning';
 
-$seo_image = 'images/treatments/large/oonskat-harjpg';
+$seo_image = 'bilder/problem/424x456/oonskat-har.webp';
 
 $title = 'Oönskat Hår';
 
@@ -186,17 +186,16 @@ $articles = array(
       ),
 );
 
-
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '3 månader',
+                  duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
             )
       ),
       new ResultCustomer(
@@ -204,10 +203,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '2 månader',
+                  duration: '<a href="akne.php" title="Akne">Akne</a>',
             )
       ),
       new ResultCustomer(
@@ -215,10 +214,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
+            image_title: 'Person som har rosacea',
+            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '4 månader',
+                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )
       ),
 );
