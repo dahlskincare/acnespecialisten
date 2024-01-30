@@ -268,7 +268,7 @@ $all_brands = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
         <div class="container">
-            <div id="floating-picture" style="background-image: url('images/problems/carousel/large/acne-scars.jpg')">
+            <div id="floating-picture" style="background-image: url('images/treatments/large/alma-hybrid.jpg')">
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
