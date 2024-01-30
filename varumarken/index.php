@@ -475,10 +475,10 @@ $path_segments = array(
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | Varumärken</title>
-      <meta name="description" content="" class="l10n">
-      <meta name="title" content="" class="l10n">
-      <meta name="keywords" content="" class="l10n">
+      <title class="l10n">Ledande Varumärken inom Hudvård hos Acnespecialisten</title>
+      <meta name="title" content="Ledande Varumärken inom Hudvård hos Acnespecialisten" class="l10n">
+      <meta name="description" content="Upptäck Acnespecialistens noggrant utvalda samling av ledande hudvårdsmärken och toppmodern utrustning, designade för effektiva och skräddarsydda hudvårdsbehandlingar." class="l10n">
+      <meta name="keywords" content="Acnespecialisten Varumärken, Hudvårdsteknologi, Avancerad Hudvårdsutrustning, Hudvårdsmärken" class="l10n">
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="/varumarken/style.css">
@@ -572,20 +572,20 @@ $path_segments = array(
 
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">Se alla omdömen</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
                         </div>
                   </section>
                   <section id="faq">
                         <div class="container">
                               <div class="flex-row align-end justify-space-between">
                                     <h2 class="big l10n">Frågor & svar</h2>
-                                    <a href="faq" class="button compact text is-hidden-mobile">
+                                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
                                           <span class="l10n">Se alla frågor</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
                         </div>
                   </section>
                   <!--Hudguide-->
@@ -631,7 +631,7 @@ $path_segments = array(
                               );
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                               ?>
-                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="Se alla specialister">Se alla specialister</a>
+                              <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla specialister">Se alla specialister</a>
                         </div>
                   </section>
                   <section id="brands">
