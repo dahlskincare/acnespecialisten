@@ -45,7 +45,7 @@ $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickf
 
 $headline01 = "01. Identifiera din akne";
 
-$define_image = 'images/service-categories/large/konsultation.jpg';
+$define_image = null;
 $define_image_alt = 'Hur vi tar bort och behandlar akne?';
 $define_image_title = 'Hur vi tar bort och behandlar akne?';
 
