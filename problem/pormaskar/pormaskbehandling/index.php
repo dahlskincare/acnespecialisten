@@ -45,7 +45,7 @@ $about_content = '<p class="p200">Att behandla och reducera pormaskar krÃ¤ver rÃ
 
 $headline01 = "01. Identifiera dina pormaskar";
 
-$define_image = null
+$define_image = null ;
 $define_image_alt = 'Hur vi reducerar och behandlar pormaskar?';
 $define_image_title = 'Hur vi reducerar och behandlar pormaskar?';
 
