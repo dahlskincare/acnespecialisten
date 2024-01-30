@@ -249,7 +249,7 @@ $brand_cards = array(
       ),
       new Brand(
           label: 'Harmony XL Pro',
-          image: 'bilder/logotyper/harmony-xl-pro.webp',
+          image: 'bilder/logotyper/harmony-xl-pro.png',
           image_alt: 'Harmony XL Pro logotyp',
           image_title: 'Harmony XL Pro',
           photo: 'bilder/varumarken/424x324/alma-hybrid-co2.webp',
