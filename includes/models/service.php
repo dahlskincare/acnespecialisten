@@ -84,10 +84,10 @@ class ServiceCombo
         $this->items = $items;
     }
     public string $name;
-    public string $image_small;
-    public string $image_large;
-    public string $image_alt;
-    public string $image_title;
+    public ?string $image_small;
+    public ?string $image_large;
+    public ?string $image_alt;
+    public ?string $image_title;
     public string $duration;
     public string $price;
     public string $booking_url;
