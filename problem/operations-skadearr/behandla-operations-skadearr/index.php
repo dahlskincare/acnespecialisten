@@ -8,10 +8,10 @@ $seo_keywords = 'behandling av operationsärr, skadeärrbehandling, metod för s
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/operations-skadearr.jpg';
+$seo_image = 'images/treatments/large/arr.jpg';
 
-$image_large = 'images/treatments/large/operations-skadearr.jpg';
-$image_small = 'images/treatments/small/operations-skadearr.jpg';
+$image_small = 'bilder/problem/424x324/operations-skadearr.webp';
+$image_large = 'bilder/problem/424x456/operations-skadearr.webp';
 $image_alt = 'Bild som illustrerar operations- och skadeärr';
 $image_title = 'Operations- och skadeärr';
 
