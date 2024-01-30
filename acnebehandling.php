@@ -121,7 +121,7 @@ $services = array(
         title: 'Kemisk peeling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('exfolierande' => 'Exfolierande', 'fornyande' => 'Förnyande'),
+        icons: array('exfolierande' => 'Exfolierande'),
         content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
         consultation_url: 'gratis-hudkonsultation',
         consultation_url_label: 'Boka konsultation',
