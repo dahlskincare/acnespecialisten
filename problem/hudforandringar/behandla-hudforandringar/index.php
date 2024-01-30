@@ -73,7 +73,7 @@ $services = array(
         title: 'Effektiv Cryopen behandling mot hudförändringar',
         duration: '10-60 min',
         price: '995 kr',
-        icons: array('who-infants' => 'Målriktad', 'who-elders' => 'Snabb', 'who-teenagers' => 'Skonsam', 'who-adults' => 'Resultatdriven'),
+        icons: array(),
         content: '<p class="p200">Cryopen är en avancerad frysbehandling som snabbt och skonsamt behandlar diverse hudförändringar. Med hjälp av denna metod kan vi precist rikta in oss på en hudförändring och frysa den på ett kontrollerat sätt, vilket stimulerar hudens naturliga regenerationsförmåga och leder till en förbättrad hudstruktur.</p>',
         consultation_url: 'cryopen-konsultation',
         consultation_url_label: 'Boka konsultation',
