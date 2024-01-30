@@ -314,7 +314,7 @@ $brand_cards = array(
           photo_alt: 'Infuzion System',
           photo_title: 'Infuzion',
           title: 'Infuzion - Skonsam hudföryngring',
-          subtitle: 'Skinbooster',
+          subtitle: 'Skinbooster utan nålar',
           description: 'Infuzion System är en revolutionerande teknik som effektivt levererar näringsämnen djupt in i huden. Genom att använda en icke-invasiv metod förbättras hudens hydrering och elasticitet markant, vilket ger en yngre och friskare hud.',
           url: 'infuzion.php',
           url_title: 'Läs mer om Infuzion',
