@@ -33,7 +33,6 @@ $nav_buttons = array(
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
     'specialists' => 'Specialister'
 );
 
@@ -44,10 +43,6 @@ $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickf
     <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva aknen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
 
 $headline01 = "01. Identifiera din akne";
-
-$define_image = null;
-$define_image_alt = 'Hur vi tar bort och behandlar akne?';
-$define_image_title = 'Hur vi tar bort och behandlar akne?';
 
 $define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
@@ -181,10 +176,6 @@ $products = array(
 );
 
 $headline04 = '04. Reparera post-akne (Acneärr)';
-
-$repair_image_small = null;
-$repair_image_large = null;
-
 $repair_content = '<p class="p200">När din akne har behandlats och aknen tagits bort, kan det hända att den lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort akne och njuta av en klarare, friskare hy.</p>';
 
 $repair_url = 'behandla-acnearr.php';
@@ -192,71 +183,71 @@ $repair_url_label = 'Se ärrbehandlingar';
 $repair_url_title = 'klicka här för att se våra ärrbehandlingar';
 
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="akne.php" title="Akne">Akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_title: 'Person som har rosacea',
-            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            )
-      ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_title: 'Person som har akne',
+        image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_title: 'Person som har akne',
+        image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="akne.php" title="Akne">Akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_title: 'Person som har rosacea',
+        image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "Se fler resultat";
 
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 
@@ -543,7 +534,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
@@ -566,11 +556,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                 <?php } ?>
                 <section id="repair">
                     <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
-                    </picture>
                     <div class="mt-xl"><?php echo $repair_content ?></div>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
