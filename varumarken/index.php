@@ -138,22 +138,22 @@ $link_brands = array(
       new BrandCategory(
             label: 'Laser mot hudproblem',
             services: array(
-                  "alma-hybrid-co2-laser.php" => "Alma - Hybrid CO2",
-                  "alma-harmony-xl-pro.php" => "Alma - Harmony XL Pro"
+                  "alma-hybrid-co2-laser.php" => "Alma Hybrid CO2",
+                  "alma-harmony-xl-pro.php" => "Harmony XL Pro"
             )
       ),
       new BrandCategory(
             label: 'Permanent Hårborttagning',
             services: array(
-                  "varumarken/alma/soprano-ice" => "Alma - Soprano Ice",
-                  "varumarken/splendor-x" => "Lumenis - Splendor X",
+                  "varumarken/splendor-x" => "Splendor X",
+                  "varumarken/alma/soprano-ice" => "Soprano Ice",
             )
       ),
       new BrandCategory(
             label: 'IPL',
             services: array(
-                  "varumarken/alma/rejuve-dye-vl" => "Alma - Rejuve Dye-VL",
-                  "alma-harmony-xl-pro.php" => "Alma - Harmony XL Pro",
+                  "varumarken/alma/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
+                  "alma-harmony-xl-pro.php" => "Harmony XL Pro",
                   "varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
             )
       ),
