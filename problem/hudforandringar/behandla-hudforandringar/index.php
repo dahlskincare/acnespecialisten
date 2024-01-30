@@ -8,8 +8,8 @@ $seo_keywords = 'behandling av hudförändringar, hudförändringsbehandling, me
 
 $seo_image = 'images/treatments/large/hudforandringar.jpg';
 
-$image_large = 'images/treatments/large/hudforandringar.jpg';
-$image_small = 'images/treatments/small/hudforandringar.jpg';
+$image_small = 'bilder/problem/424x324/hudforandringar.webp';
+$image_large = 'bilder/problem/424x456/hudforandringar.webp';
 $image_alt = 'Bild som illustrerar hudförändringar';
 $image_title = 'Hudförändringar';
 
@@ -41,7 +41,7 @@ $about_content = '<p class="p200">På AcneSpecialisten förstår vi att varje hu
 
 $headline01 = "01. Identifiera dina hudförändringar";
 
-$define_image = 'images/service-categories/large/consultation.jpg';
+$define_image = null;
 $define_image_alt = 'Hur vi behandlar och tar bort hudförändringar?';
 $define_image_title = 'Hur vi behandlar och tar bort hudförändringar?';
 
@@ -90,30 +90,39 @@ $services = array(
 );
 
 $results = array(
-    new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
-        treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/hudforandringar" title="Hudförändringar">behandlingar mot hudförändringar</a>'
-        ),
-    ),
-    new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
-        treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/hudforandringar" title="Hudförändringar">behandlingar mot hudförändringar</a>',
-        )
-    ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '3 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '2 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_alt: 'Rosacea resultat',
+            image_title: 'Rosacea resultat',
+            treatment: new ResultTreatment(
+                  duration: '4 månader',
+            )
+      ),
 );
 
 $show_all_results_label = "Se fler resultat mot hudförändringar";

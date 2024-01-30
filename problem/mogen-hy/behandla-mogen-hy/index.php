@@ -10,8 +10,8 @@ $seo_keywords = 'mogen hy, hudåldrande, åldrande hud, hudvårdsbehandlingar, �
 
 $seo_image = 'images/treatments/large/mogen-hy.jpg';
 
-$image_large = 'images/treatments/large/mogen-hy.jpg';
-$image_small = 'images/treatments/small/mogen-hy.jpg';
+$image_small = 'bilder/problem/424x324/mogen-hy.webp';
+$image_large = 'bilder/problem/424x456/mogen-hy.webp';
 $image_alt = 'Bild som illustrerar mogen hy';
 $image_title = 'Mogen hy';
 
@@ -43,7 +43,7 @@ $about_content = '<p class="p200">Mogen hy förtjänar särskild omtanke och beh
 
 $headline01 = "01. Identifiera din mogna hy";
 
-$define_image = 'images/service-categories/large/konsultation.jpg';
+$define_image = null;
 $define_image_alt = 'Hur vi tar hand om och behandlar mogen hy?';
 $define_image_title = 'Hur vi tar hand om och behandlar mogen hy?';
 
@@ -158,30 +158,39 @@ $services = array(
 );
 
 $results = array(
-    new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
-        treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/mogen-hy" title="Mogen hy">behandlingar mot mogen hy</a>'
-        ),
-    ),
-    new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
-        treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/mogen-hy" title="Mogen hy">behandlingar mot mogen hy</a>',
-        )
-    ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '3 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '2 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_alt: 'Rosacea resultat',
+            image_title: 'Rosacea resultat',
+            treatment: new ResultTreatment(
+                  duration: '4 månader',
+            )
+      ),
 );
 
 $show_all_results_label = "Se fler resultat";

@@ -43,7 +43,7 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av bristni
 
 $headline01 = "01. Identifiera dina bristningar";
 
-$define_image = 'images/service-categories/large/konsultation.jpg';
+$define_image = null;
 $define_image_alt = 'Hur vi behandlar och minskar bristningar?';
 $define_image_title = 'Hur vi behandlar och minskar bristningar?';
 
@@ -136,32 +136,40 @@ $services = array(
 
 );
 
-
 $results = array(
-    new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
-        treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/bristningar" title="Aknearr"">behandlingar mot bristningar</a>'
-        ),
-    ),
-    new ResultCustomer(
-        image_before_small: 'https://via.placeholder.com/358x358.webm',
-        image_after_small: 'https://via.placeholder.com/358x358.webm',
-        image_before_large: 'https://via.placeholder.com/424x424.webm',
-        image_after_large: 'https://via.placeholder.com/424x424.webm',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
-
-        treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders <a href="behandlingar/bristningar" title="Akne">behandlingar mot bristningar</a>',
-        )
-    ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '3 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_alt: 'Akne resultat',
+            image_title: 'Akne resultat',
+            treatment: new ResultTreatment(
+                  duration: '2 månader',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_alt: 'Rosacea resultat',
+            image_title: 'Rosacea resultat',
+            treatment: new ResultTreatment(
+                  duration: '4 månader',
+            )
+      ),
 );
 
 $show_all_results_label = "Se fler resultat mot bristningar";
