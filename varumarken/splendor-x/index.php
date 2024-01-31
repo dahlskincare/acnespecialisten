@@ -419,7 +419,7 @@ $treatment_areas = array(
 $bottom_articles = array('aftercare' => new Article(
     title: 'Splendor X eftervård',
     image_small: null,
-        image_large: null,
+    image_large: null,
     image_alt: 'Splendor X eftervård',
     image_title: 'Splendor X eftervård',
     content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>
@@ -548,8 +548,8 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Google',
         title: 'Jag är mycket nöjd..',
         text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
@@ -557,15 +557,15 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Bokadirekt',
         title: 'Rekommenderar varmt!',
         text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
         signature: 'Emily',
         stars: 5,
         logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
 );
 $reviews_view_more = 'Se alla omdömen';
 
@@ -850,13 +850,15 @@ $all_brands = array(
                 <section id="badges" class="mt-m mb-s is-hidden-desktop">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 </section>
-                <section id="image" class="is-hidden-desktop">
-                    <picture>
-                        <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
-                        <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
-                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
-                    </picture>
-                </section>
+                <?php if (isset($model->image_small)) { ?>
+                    <section id="image" class="is-hidden-desktop">
+                        <picture>
+                            <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
+                            <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
+                            <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
+                        </picture>
+                    </section>
+                <?php } ?>
                 <section id="nav-buttons">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
@@ -904,16 +906,18 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <?php } ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('../widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include($_SERVER['DOCUMENT_ROOT'] . '/behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
