@@ -63,8 +63,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandling med Soprano Ice till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går behandlingen med Soprano Ice till?',
         image_title: 'Hur går behandlingen med Soprano Ice till?',
         content: '<p class="p200">Under en Soprano ICE-session appliceras specialiserat laserljus på de önskade områdena för hårborttagning. Denna laser använder en unik kombination av våglängder som absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket effektivt skadar folliklarna och förhindrar framtida hårväxt.</p>
@@ -442,7 +442,7 @@ $service_brands = array(
 
     new Brand(
         label: 'Splendor X',
-        image: 'images/brands/splendor-x.svg',
+        image: 'bilder/logotyper/splendor-x.png',
         image_alt: 'Splendor X',
         image_title: 'Splendor X',
     ),
