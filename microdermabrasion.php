@@ -78,19 +78,6 @@ $top_articles = array(
         image_alt: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         image_title: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         content: '<p class="p200">När du förbereder dig för din Microdermabrasion-behandling hos AcneSpecialisten, är det viktigt att ta vissa steg för att din hud ska vara i bästa möjliga skick. För att säkerställa att du är fullständigt informerad och bekväm med processen, erbjuder vi en konsultation där vi går igenom allt du behöver veta inför din Microdermabrasion-behandling. Under konsultationen kommer vi att diskutera din hudtyp, eventuella specifika bekymmer och vad du kan förvänta dig av behandlingen. Detta är också ett utmärkt tillfälle för dig att ställa frågor och uttrycka eventuella funderingar. Vår prioritet är att du känner dig helt trygg och förberedd inför din behandling hos AcneSpecialisten.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Processen för Microdermabrasion',
@@ -113,7 +100,6 @@ $bottom_articles = array('aftercare' => new Article(
     image_title: 'Eftervård för Microdermabrasion',
     content: '<p class="p200">Efter en Microdermabrasion-behandling hos AcneSpecialisten är det essentiellt att du följer våra eftervårdsinstruktioner för att säkerställa bästa möjliga resultat. Det är viktigt att behandla din hud med omsorg under de första dagarna efter behandlingen. Börja med att skydda huden från solen och använd ett högkvalitativt solskydd med hög SPF för att förebygga skador från UV-strålar.</p>
     <p class="p200 mt-m">Om du har några frågor eller behöver ytterligare rådgivning angående din eftervård, är du alltid välkommen att kontakta oss på AcneSpecialisten. Vi är här för att stödja dig i din resa mot en friskare och mer strålande hud.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Andra märken för Dermabrasion';

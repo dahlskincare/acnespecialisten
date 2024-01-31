@@ -59,8 +59,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandling med Splendor X till?',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Hur går behandlingen med Splendor X till?',
         image_title: 'Hur går behandlingen med Splendor X till?',
         content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Detta ljus absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme skadar effektivt folliklarna utan att skada omgivande vävnad, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
@@ -433,7 +433,7 @@ $service_brands = array(
 
     new Brand(
         label: 'Soprano Ice',
-        image: 'images/brands/soprano-ice.svg',
+        image: 'bilder/logotyper/soprano-ice.png',
         image_alt: 'Soprano Ice',
         image_title: 'Soprano Ice',
     ),
