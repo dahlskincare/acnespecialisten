@@ -59,19 +59,6 @@ $top_articles = array(
         content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
         <p class="p200 mt-m">För att förbereda dig inför behandlingen rekommenderar vi att du undviker direkt solstrålning och solarium under veckorna före din session. Detta är för att minska risken för överkänslighet och för att optimera hudens tillstånd för behandlingen. Du bör också undvika att använda hudvårdsprodukter som innehåller starka aktiva ingredienser, såsom exfolierande syror, åtminstone en vecka före din behandling.</p>
         <p class="p200 mt-m">Under konsultationen kommer vi att granska din hudhistorik och eventuella tidigare behandlingar för att fullständigt anpassa Harmony XL Pro-behandlingen till dina behov. Vårt mål är att du ska känna dig trygg och informerad genom hela behandlingsprocessen. Vi ser fram emot att hjälpa dig att uppnå en förbättrad hudkvalitet och ett strålande utseende med hjälp av Harmony XL Pro.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går behandling med Harmony XL Pro till?',
@@ -83,19 +70,6 @@ $top_articles = array(
         <p class="p200 mt-m">Denna avancerade behandling kombinerar olika lasertekniker för att målinriktat och skonsamt behandla ditt hudtillstånd. Med Harmony XL Pro-teknologin använder vi fraktionerad CO2-laser för att skapa mikroskopiska skador i hudens yttre lager. Denna process aktiverar kroppens naturliga läkningsmekanismer och främjar nybildning av kollagen och elastin, vitala komponenter för en frisk och ungdomlig hud.</p>
         <p class="p200 mt-m">Denna laserbehandling är särskilt effektiv för att behandla och reducera ärr, som acneärr och kirurgiska ärr, samt att jämna ut rynkor och fina linjer. Behandlingen bidrar även till huduppfräschning och förbättring av hudens övergripande textur. Du kan känna en mild värme under behandlingen, men vi använder olika metoder för att minimera obehag och säkerställa en behaglig upplevelse.</p>
         <p class="p200 mt-m">Efter behandlingen kan viss rodnad och svullnad förekomma, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig omfattande instruktioner för eftervård för att stödja din hud under återhämtningsprocessen. Resultaten från Harmony XL Pro-behandlingarna utvecklas över tid, vilket ger en gradvis och varaktig förbättring av din hudkvalitet.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
