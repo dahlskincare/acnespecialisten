@@ -334,7 +334,7 @@ $treatment_areas = array(
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Powerlite Photonova',
     image_small: null,
-        image_large: null,
+    image_large: null,
     image_alt: 'Eftervård för Powerlite Photonova',
     image_title: 'Eftervård för Powerlite Photonova',
     content: '<p class="p200">Eftervården är en viktigt del av Powerlite Photonova processen för att säkerställa ett bra resultat och en effektiv återhämtningsprocess. Efter behandlingen är det vanligt att uppleva en viss rodnad och svullnad i det behandlade området. För att minska risken för irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
@@ -469,8 +469,8 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Google',
         title: 'Jag är mycket nöjd..',
         text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
@@ -478,15 +478,15 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Bokadirekt',
         title: 'Rekommenderar varmt!',
         text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
         signature: 'Emily',
         stars: 5,
         logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
 );
 $reviews_view_more = 'Se alla omdömen';
 
@@ -828,16 +828,18 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <?php } ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('../widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include($_SERVER['DOCUMENT_ROOT'] . '/behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>

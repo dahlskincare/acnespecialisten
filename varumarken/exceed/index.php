@@ -150,7 +150,7 @@ $treatment_areas = array(
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård Exceed behandling',
     image_small: null,
-        image_large: null,
+    image_large: null,
     image_alt: 'Eftervård Exceed behandling',
     image_title: 'Eftervård Exceed behandling',
     content: '<p class="p200">Eftervården är avgörande för att säkerställa bästa möjliga resultat från din Exceed-behandling. En lätt rodnad och svullnad är vanliga reaktioner efter behandlingen, och det är kritiskt att du håller det behandlade området rent och undviker att applicera smink under de första 24 timmarna för att minimera risken för infektion och irritation.</p>
@@ -279,8 +279,8 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Google',
         title: 'Jag är mycket nöjd..',
         text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
@@ -288,33 +288,33 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Bokadirekt',
         title: 'Rekommenderar varmt!',
         text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
         signature: 'Emily',
         stars: 5,
         logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
 );
 $reviews_view_more = 'Se alla omdömen';
 
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-            new Question(
-                title: 'Hur ofta bör jag genomgå Exceed microneedling?',
-                text: 'Antalet Exceed microneedling sessioner som rekommenderas varierar baserat på individens hudtillstånd och de mål man vill uppnå. Generellt sett kan man förvänta sig att behöva mellan 3 och 8 behandlingar, med 4 till 6 veckors mellanrum, för att nå önskvärt resultat. En skräddarsydd behandlingsplan kommer att utarbetas under din initiala konsultation.'
-            ),
-            new Question(
-                title: 'Finns det risk för att mina hudproblem kommer tillbaka efter Exceed-behandling?',
-                text: 'Medan Exceed-behandling kan ge betydande förbättringar i hudens tillstånd, kan den inte garantera att nya hudproblem inte uppstår i framtiden. Det är viktigt med en kontinuerlig hudvårdsrutin och möjligtvis ytterligare uppföljningsbehandlingar för att bibehålla och skydda resultaten på lång sikt.'
-            ),
-            new Question(
-                title: 'Hur snabbt kan jag se resultat efter en Exceed-behandling?',
-                text: 'Resultaten från Exceed-behandling kan variera från person till person. En del kan se förbättringar redan inom några dagar, medan andra kanske behöver vänta flera veckor för att se full effekt. Huden kan fortsätta att förbättras och kollagenproduktionen kan öka under flera månader efter behandlingen.'
-            ),
+        new Question(
+            title: 'Hur ofta bör jag genomgå Exceed microneedling?',
+            text: 'Antalet Exceed microneedling sessioner som rekommenderas varierar baserat på individens hudtillstånd och de mål man vill uppnå. Generellt sett kan man förvänta sig att behöva mellan 3 och 8 behandlingar, med 4 till 6 veckors mellanrum, för att nå önskvärt resultat. En skräddarsydd behandlingsplan kommer att utarbetas under din initiala konsultation.'
+        ),
+        new Question(
+            title: 'Finns det risk för att mina hudproblem kommer tillbaka efter Exceed-behandling?',
+            text: 'Medan Exceed-behandling kan ge betydande förbättringar i hudens tillstånd, kan den inte garantera att nya hudproblem inte uppstår i framtiden. Det är viktigt med en kontinuerlig hudvårdsrutin och möjligtvis ytterligare uppföljningsbehandlingar för att bibehålla och skydda resultaten på lång sikt.'
+        ),
+        new Question(
+            title: 'Hur snabbt kan jag se resultat efter en Exceed-behandling?',
+            text: 'Resultaten från Exceed-behandling kan variera från person till person. En del kan se förbättringar redan inom några dagar, medan andra kanske behöver vänta flera veckor för att se full effekt. Huden kan fortsätta att förbättras och kollagenproduktionen kan öka under flera månader efter behandlingen.'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
@@ -638,16 +638,18 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <?php } ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('../widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include($_SERVER['DOCUMENT_ROOT'] . '/behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
