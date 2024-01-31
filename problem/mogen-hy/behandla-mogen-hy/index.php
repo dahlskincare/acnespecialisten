@@ -43,7 +43,7 @@ $about_content = '<p class="p200">Mogen hy förtjänar särskild omtanke och beh
 
 $headline01 = "01. Identifiera din mogna hy";
 
-$define_image = null;
+$define_image = 'images/service-categories/large/consultation.jpg';
 $define_image_alt = 'Hur vi tar hand om och behandlar mogen hy?';
 $define_image_title = 'Hur vi tar hand om och behandlar mogen hy?';
 

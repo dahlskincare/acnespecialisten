@@ -47,7 +47,7 @@ $about_content = '<p class="p200">Blandhy ställer unika krav på behandling med
 
 $headline01 = "01. Identifiera din blandhy";
 
-$define_image = null;
+$define_image = 'images/service-categories/large/consultation.jpg';
 $define_image_alt = 'Vår process för att balansera och behandla blandhy';
 $define_image_title = 'Vår process för att balansera och behandla blandhy';
 

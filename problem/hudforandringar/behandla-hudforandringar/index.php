@@ -41,7 +41,7 @@ $about_content = '<p class="p200">På AcneSpecialisten förstår vi att varje hu
 
 $headline01 = "01. Identifiera dina hudförändringar";
 
-$define_image = null;
+$define_image = 'images/service-categories/large/consultation.jpg';
 $define_image_alt = 'Hur vi behandlar och tar bort hudförändringar?';
 $define_image_title = 'Hur vi behandlar och tar bort hudförändringar?';
 
