@@ -207,7 +207,7 @@ $service_brands = array(
 
     new Brand(
         label: 'Microdermabrasion',
-        image: 'images/brands/microdermabrasion.svg',
+        image: 'bilder/logotyper/microdermabrasion.png',
         image_alt: 'Microdermabrasion',
         image_title: 'Microdermabrasion',
     ),
