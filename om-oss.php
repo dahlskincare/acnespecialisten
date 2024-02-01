@@ -70,17 +70,17 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             </picture>
                         </div>
                     </div>
-                    <p class="mt-xl p200 is-hidden-tablet l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv fyrstegsmetod för att behandla hudproblem. Vårt engagerade team av hudterapeuter följer dig genom hela behandlingsprocessen, från noggrann hudkonsultation till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud.</p>
+                    <p class="mt-xl p200 is-hidden-tablet l10n">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                 </section>
                 <section id="hands" class="large-margin">
-                    <h2 class="h500 l10n">Från start till mål!</h2>
-                    <p class="mt-m p200 l10n is-hidden-mobile">På AcneSpecialisten är ditt nöjda leende och synliga hudförbättringar vårt främsta mål. Med fyra välplacerade salonger i Stockholmsregionen, står vi redo att välkomna dig på din resa mot en klarare och friskare hy. Vår expertis och engagemang speglas i de förstklassiga behandlingar och högkvalitativa produkter vi erbjuder, alla noggrant utvalda och beprövade för sin effektivitet. Vi ser fram emot att hjälpa dig uppnå din drömhud och ge dig den uppmärksamhet och vård du förtjänar.</p>
+                    <h2 class="h500 l10n">Från start till mål – Din partner i holistisk hudvård</h2>
+                    <p class="mt-m p200 l10n is-hidden-mobile">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                     <picture>
                         <source media="(max-width: 799px)" srcset="om-oss/images/about-hands.jpg">
                         <source media="(min-width: 800px)" srcset="om-oss/images/about-hands-large.jpg">
                         <img src="images/about/about-hands.jpg" alt="Vi siktar mot målet!" title="Vi siktar mot målet!" width="358" height="274" />
                     </picture>
-                    <p class="p200 mt-xl l10n is-hidden-tablet">På AcneSpecialisten är ditt nöjda leende och synliga hudförbättringar vårt främsta mål. Med fyra välplacerade salonger i Stockholmsregionen, står vi redo att välkomna dig på din resa mot en klarare och friskare hy. Vår expertis och engagemang speglas i de förstklassiga behandlingar och högkvalitativa produkter vi erbjuder, alla noggrant utvalda och beprövade för sin effektivitet. Vi ser fram emot att hjälpa dig uppnå din drömhud och ge dig den uppmärksamhet och vård du förtjänar.</p>
+                    <p class="p200 mt-xl l10n is-hidden-tablet">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling genom kostnadsfria återbesök. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                 </section>
                 <section id="bullets" class="large-margin">
                     <div class="columns">
