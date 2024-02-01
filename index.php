@@ -168,7 +168,7 @@
                                     image_large: 'bilder/problem/424x324/ytliga-blodkarl.webp',
                                     image_title: 'Person med ytliga blodkärl',
                                     image_alt: 'Närbild på person som har ytliga blodkärl i ansiktet.',
-                                    url: 'problemhy.php',
+                                    url: 'hudproblem.php',
                                     url_title: 'Läs mer information om alla typer av hudproblem.',
                                     show_on_large: true,
                                     show_on_small: false
@@ -177,7 +177,7 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problemhy.php" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
+                        <a href="hudproblem.php" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
