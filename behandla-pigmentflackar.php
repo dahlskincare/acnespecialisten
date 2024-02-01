@@ -17,7 +17,7 @@ $image_alt = 'Bild som illustrerar pigmentfläckar';
 $image_title = 'Pigmentfläckar';
 
 $title = 'Pigmentfläcksbehandlingar';
-$description = 'Vi på Acnespecialisten har samlat de mest effektiva metoderna för att behandla och minska pigmentfläckar. Våra pigmentfläcksbehandlingar är skräddarsydda för att effektivt reducera pigmenteringar oavsett dess orsak eller typ. Oavsett ditt specifika behov, har vi den rätta lösningen för att ge dig en klarare och jämnare hudton. Är du osäker på vilken <a href="https://www.acnespecialisten.se/pigmentflacksbehandlingar">pigmentfläcksbehandling</a> som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri hudkonsultation hos oss på Acnespecialisten, och våra experter kommer att vägleda dig mot en strålande och friskare hud.';
+$description = 'Vi på Acnespecialisten har samlat de mest effektiva metoderna för att behandla och minska pigmentfläckar. Våra pigmentfläcksbehandlingar är skräddarsydda för att effektivt reducera pigmenteringar oavsett dess orsak eller typ. Oavsett ditt specifika behov, har vi den rätta lösningen för att ge dig en klarare och jämnare hudton. Är du osäker på vilken pigmentfläcksbehandling som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri hudkonsultation hos oss på Acnespecialisten, och våra experter kommer att vägleda dig mot en strålande och friskare hud.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots';
 $booking_link_title = 'Boka behandling';
