@@ -8,7 +8,7 @@ $steps = array(
         content: "På Acnespecialisten inleder vi din hudvårdsresa med en gratis hudkonsultation. Under denna session identifierar våra experter din hudtyp och eventuella hudproblem. Denna noggranna analys är grunden för att skapa en effektiv och personligt anpassad behandlingsplan.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
-        url: 'konsultation',
+        url: 'gratis-hudkonsultation.php',
         url_label: 'Boka en gratis konsultation'
     ),
     new StepModel(
@@ -16,7 +16,7 @@ $steps = array(
         content: "Efter identifieringen av dina hudproblem, tar vi nästa steg mot att behandla dem direkt. Våra specialister använder avancerade tekniker och behandlingsmetoder för att effektivt hantera dina specifika hudproblem och uppnå synliga resultat.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
-        url: 'problem',
+        url: 'behandlingar.php',
         url_label: 'Se våra behandlingar'
     ),
     new StepModel(
@@ -24,7 +24,7 @@ $steps = array(
         content: "För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydda råd och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
-        url: 'https://dahlskincare.com',
+        url: 'https://dahlskincare.se',
         url_label: 'Upptäck våra produkter'
     ),
     new StepModel(
@@ -32,7 +32,7 @@ $steps = array(
         content: "I det sista steget i vår metod tar vi hand om eventuella återstående effekter av hudproblem, såsom ärr och pigmentförändringar. Vi erbjuder behandlingar och vård för att reparera och återställa huden, och ge dig en hälsosam och strålande hy.",
         image_small: 'https://via.placeholder.com/358x272.webp',
         image_large: 'https://via.placeholder.com/424x526.webp',
-        url: 'problem',
+        url: 'behandlingar.php',
         url_label: 'Läs mer om eftervård'
     ),
 );
