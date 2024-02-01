@@ -84,7 +84,6 @@ $bottom_articles = array(
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
         content: '<p class="p200">Efter en specialiserad milierbehandling hos AcneSpecialisten är korrekt eftervård essentiell för att bibehålla resultaten och underlätta hudens återhämtning. För att vårda din hud efter milierborttagningen rekommenderar vi att du fortsätter med en hudvårdsrutin som innefattar produkter specifikt utvalda för att nära och skydda huden. En effektiv hudvårdsregim bör vara personligt anpassad. Genom att använda lämpliga hudvårdsprodukter regelbundet kan du inte bara behålla de positiva resultaten av milierbehandlingen men också förstärka hudens motståndskraft mot framtida hudproblem.</p>',
-        tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
     ),
 );
 
@@ -102,7 +101,7 @@ $treatment_steps = array(
         content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
 
         url_label: 'Se milierbehandlingar',
-        url: 'behandlingar/milier',
+        url: 'milierbehandling.php',
         url_title: 'Utforska våra skräddarsydda behandlingar för milier'
     ),
 );

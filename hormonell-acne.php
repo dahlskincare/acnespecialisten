@@ -109,7 +109,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling_vulgaris.php" title="Utforska effektiva behandlingar mot hormonell akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hormonell akne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot hormonell akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hormonell akne</a>';
 
 $top_articles = array(
     'areas' => new Article(
