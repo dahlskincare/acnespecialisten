@@ -52,7 +52,15 @@ $glossary_items = array(
         ),
         
     ),
-    's' => array(),
+    's' => array(
+        new GlossaryItem(
+            title: 'Sidkarta',
+            description: '<p class="p200">Här hittar du många av våra sidor.</p>
+            <a class="b200 underline color-deep-sea-400" href="/problem/akne">Läs mer om Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="/problem/akne">Läs mer om Akne</a>',
+        ),
+        
+    ),
     't' => array(),
     'u' => array(),
     'v' => array(),
