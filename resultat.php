@@ -59,8 +59,8 @@ $result_category =
     );
 
 $category_links = array(
-    'resultat-akne.php' => 'Akne',
-    'resultat-aknearr.php' => 'Akneärr',
+    'resultat-acne.php' => 'Akne',
+    'resultat-acnearr.php' => 'Akneärr',
     'resultat-blandhy.php' => 'Blandhy',
     'resultat-arr-fran-finnar.php' => 'Ärr från Finnar',
     'resultat-finnar.php' => 'Finnar',
