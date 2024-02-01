@@ -26,7 +26,7 @@ if (!isset($results)) {
             problem: 'Akne',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
+                duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -58,7 +58,7 @@ if (!isset($results)) {
             problem: 'Akne',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '<a href="akne.php" title="Akne">Akne</a>',
+                duration: '<a href="acne.php" title="Akne">Akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',

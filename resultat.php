@@ -59,14 +59,14 @@ $result_category =
     );
 
 $category_links = array(
-    'akne' => 'Akne',
-    'aknearr' => 'Akneärr',
-    'blandhy' => 'Blandhy',
-    'arr-fran-finnar' => 'Ärr från Finnar',
-    'finnar' => 'Finnar',
-    'pormaskar' => 'Pormaskar',
-    'rosacea' => 'Rosacea',
-    'ytliga-blodkarl' => 'Ytliga Blodkärl',
+    'resultat-akne.php' => 'Akne',
+    'resultat-aknearr.php' => 'Akneärr',
+    'resultat-blandhy.php' => 'Blandhy',
+    'resultat-arr-fran-finnar.php' => 'Ärr från Finnar',
+    'resultat-finnar.php' => 'Finnar',
+    'resultat-pormaskar.php' => 'Pormaskar',
+    'resultat-rosacea.php' => 'Rosacea',
+    'resultat-ytliga-blodkarl.php' => 'Ytliga Blodkärl',
 );
 
 if (isset($_GET['page']) && $_GET['page'] > 0) {
@@ -381,7 +381,7 @@ $pages = sizeof($results_per_page);
                 <div id="filters-touch">
                     <?php foreach ($category_links as $link_id => $link_label) { ?>
                         <div class="filter-item">
-                            <a href="/resultat/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
+                            <a href="/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
                                 <?php echo $link_label ?>
                             </a>
                         </div>
@@ -392,7 +392,7 @@ $pages = sizeof($results_per_page);
                 <div id="filters-desktop">
                     <div id="filter-items">
                         <?php foreach ($category_links as $link_id => $link_label) { ?>
-                            <a href="/resultat/<?php echo $link_id ?>" class="filter-item">
+                            <a href="/<?php echo $link_id ?>" class="filter-item">
                                 <div class="b100 filter-item-label l10n">
                                     <?php echo $link_label ?>
                                 </div>
@@ -463,7 +463,7 @@ $pages = sizeof($results_per_page);
                 $faq_categories = null;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->
             <section id="specialists" class="large-margin">

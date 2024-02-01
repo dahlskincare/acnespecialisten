@@ -81,10 +81,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling mot Akne',
         image_title: 'Ansiktsbehandling mot Akne',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
-        booking_url_label: 'Boka en Ansiktsbehandling mot Akne',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
     ),
     new Service(
@@ -97,10 +97,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling för Blandhy',
         image_title: 'Ansiktsbehandling för Blandhy',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin',
-        booking_url_label: 'Boka en Ansiktsbehandling för Blandhy',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Blandhy',
     ),
     new Service(
@@ -113,10 +113,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling mot Finnar',
         image_title: 'Ansiktsbehandling mot Finnar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
-        booking_url_label: 'Boka en Ansiktsbehandling mot Finnar',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
     ),
     new Service(
@@ -129,10 +129,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling mot Milier',
         image_title: 'Ansiktsbehandling mot Milier',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia',
-        booking_url_label: 'Boka en Ansiktsbehandling mot Milier',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Milier',
     ),
     new Service(
@@ -145,10 +145,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling för Perioral Dermatit',
         image_title: 'Ansiktsbehandling för Perioral Dermatit',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis',
-        booking_url_label: 'Boka en Ansiktsbehandling för Perioral Dermatit',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Perioral Dermatit',
     ),
     new Service(
@@ -161,10 +161,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling mot Pormaskar',
         image_title: 'Ansiktsbehandling mot Pormaskar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
-        booking_url_label: 'Boka en Ansiktsbehandling mot Pormaskar',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
     ),
     new Service(
@@ -177,10 +177,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling för Rosacea',
         image_title: 'Ansiktsbehandling för Rosacea',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea',
-        booking_url_label: 'Boka en Ansiktsbehandling för Rosacea',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Rosacea',
     ),
     new Service(
@@ -193,10 +193,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling för Seborré',
         image_title: 'Ansiktsbehandling för Seborré',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
-        booking_url_label: 'Boka en Ansiktsbehandling för Seborré',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Seborré',
     ),
     new Service(
@@ -209,10 +209,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling för Stora Porer',
         image_title: 'Ansiktsbehandling för Stora Porer',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores',
-        booking_url_label: 'Boka en Ansiktsbehandling för Stora Porer',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
     ),
     new Service(
@@ -225,10 +225,10 @@ $types = array(
         image_alt: 'Ansiktsbehandling för Torr & Känslig Hy',
         image_title: 'Ansiktsbehandling för Torr & Känslig Hy',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
-        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
-        booking_url_label: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
     ),
 );
@@ -258,7 +258,7 @@ $results = array(
         problem: 'Akne',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: 'Efter 3 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -290,7 +290,7 @@ $results = array(
         problem: 'Akne',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 2 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: 'Efter 2 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -322,7 +322,7 @@ $results = array(
         problem: 'Rosacea',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 4 månaders behandling av <a href="/problme/rosacea/rosaceabehandling" title="akne">akne</a>',
+            duration: 'Efter 4 månaders behandling av <a href="/problem/rosacea/rosaceabehandling" title="akne">akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',

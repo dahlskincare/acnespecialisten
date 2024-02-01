@@ -133,7 +133,7 @@ $treatment_steps = array(
             content: 'Om din hud har ålderstecken såsom pigmentfläckar, förlorad elasticitet eller djupare rynkor, erbjuder vi behandlingsmetoder som laser, microneedling och kemisk peeling för att förnya och förbättra hudens utseende.',
 
             url_label: 'Se behandlingar för ålderstecken',
-            url: 'behandlingar/ålderstecken',
+            url: 'behandlingar/mogenhy/behandla-mogen-hy',
             url_title: 'Upptäck effektiva behandlingar för ålderstecken'
       ),
 );
@@ -461,9 +461,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling för mogen hy',
             image_title: 'Kemisk peeling för mogen hy',
 
-            url: 'behandlingar/kemisk-peeling-mogenhy',
-            url_label: 'Läs mer om kemisk peeling för mogen hy',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling för mogen hy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -485,9 +485,9 @@ $services = array(
             image_alt: 'Bild av microneedling för mogen hy',
             image_title: 'Microneedling för mogen hy',
 
-            url: 'behandlingar/microneedling-mogenhy',
-            url_label: 'Läs mer om microneedling för mogen hy',
-            url_title: 'Klicka här för att läsa mer om microneedling för mogen hy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',

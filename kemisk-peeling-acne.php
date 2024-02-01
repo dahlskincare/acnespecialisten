@@ -127,7 +127,7 @@ $results = array(
         problem: 'Akne',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: 'Efter 3 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -159,7 +159,7 @@ $results = array(
         problem: 'Akne',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 2 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: 'Efter 2 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -191,7 +191,7 @@ $results = array(
         problem: 'Rosacea',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 4 månaders behandling av <a href="/problme/rosacea/rosaceabehandling" title="akne">akne</a>',
+            duration: 'Efter 4 månaders behandling av <a href="/problem/rosacea/rosaceabehandling" title="akne">akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',

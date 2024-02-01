@@ -161,7 +161,7 @@ $link_brands = array(
             label: 'Dermabration',
             services: array(
                   "hydrafacial.php" => "HydraFacial",
-                  "microdemabrasion.php" => "Mimass",
+                  "microdermabrasion.php" => "Mimass",
             )
       ),
       new BrandCategory(
@@ -294,7 +294,7 @@ $brand_cards = array(
           title: 'Skin Tech',
           subtitle: 'Kemisk peeling mot hudproblem',
           description: 'En familj av kemiska peelingar anpassade för olika hudtillstånd. Dessa peelingar använder innovativa formuleringar som effektivt förbättrar hudens textur och utseende, med ett konstant fokus på resultat.',
-          url: 'skin-tech.php',
+          url: 'varumarken/skin-tech',
           url_title: 'Läs mer om Skin Tech',
           booking_url: 'https://acnespecialisten.se/book?flow=skintech',
           booking_url_title: 'Boka Skin Tech-behandling',

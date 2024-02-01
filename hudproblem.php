@@ -1723,7 +1723,7 @@ $problem_areas = array(
 );
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/problem.php'),
+      new PathSegment('Hudproblem', '/hudproblem.php'),
 );
 
 ?>
@@ -1876,7 +1876,7 @@ $path_segments = array(
 
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdonen.php" title="Se alla omdömen">Se alla omdömen</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
             </div>
         </section>
         <section id="faq">
@@ -1960,7 +1960,7 @@ $path_segments = array(
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialists" title="Se alla våra specialister">Se alla våra specialister</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla våra specialister">Se alla våra specialister</a>
             </div>
         </section>
         <section id="brands">

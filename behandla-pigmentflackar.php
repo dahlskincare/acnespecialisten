@@ -17,7 +17,7 @@ $image_alt = 'Bild som illustrerar pigmentfläckar';
 $image_title = 'Pigmentfläckar';
 
 $title = 'Pigmentfläcksbehandlingar';
-$description = 'Vi på Acnespecialisten har samlat de mest effektiva metoderna för att behandla och minska pigmentfläckar. Våra pigmentfläcksbehandlingar är skräddarsydda för att effektivt reducera pigmenteringar oavsett dess orsak eller typ. Oavsett ditt specifika behov, har vi den rätta lösningen för att ge dig en klarare och jämnare hudton. Är du osäker på vilken <a href="https://www.acnespecialisten.se/pigmentflacksbehandlingar">pigmentfläcksbehandling</a> som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri hudkonsultation hos oss på Acnespecialisten, och våra experter kommer att vägleda dig mot en strålande och friskare hud.';
+$description = 'Vi på Acnespecialisten har samlat de mest effektiva metoderna för att behandla och minska pigmentfläckar. Våra pigmentfläcksbehandlingar är skräddarsydda för att effektivt reducera pigmenteringar oavsett dess orsak eller typ. Oavsett ditt specifika behov, har vi den rätta lösningen för att ge dig en klarare och jämnare hudton. Är du osäker på vilken pigmentfläcksbehandling som passar din hudtyp bäst? Oroa dig inte, boka en kostnadsfri hudkonsultation hos oss på Acnespecialisten, och våra experter kommer att vägleda dig mot en strålande och friskare hud.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots';
 $booking_link_title = 'Boka behandling';
@@ -50,7 +50,7 @@ $define_image_title = 'Behandling av Pigmentfläckar';
 
 $define_content = '<p class="p200">För att kunna hjäpla dig med dina pigmentfläckar är det viktigt att vi förstår ditt specifika hudtillstånd och dina pigmentfläckarnas natur. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud noggrant och diskuterar dina mål samt dina tidigare erfarenheter med pigmentfläckar. Vi tar förebilder för att noga övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
+$define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för behandling av pigmentfläckar";
 

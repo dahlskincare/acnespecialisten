@@ -13,19 +13,19 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Aknebehandling',
             description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
-                <a class="b200 underline color-deep-sea-400" href="/problem/akne/aknebehandling">Läs mer och boka en Acnebehandling</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="acnebehandling.php">Läs mer och boka en Acnebehandling</a></p>',
         ),
         new GlossaryItem(
             title: 'Aknebölder',
             description: '<p class="p200">Dessa bölder kan förekomma hos hy med svår acne och uppstår när hårsäcken brister inåt. En stor böld uppstår då under huden som kan vara öm och smärtsam att ta bort. Du bör inte sticka eller skära i bölder då detta kan skapa ärr.
-                <a class="b200 underline color-deep-sea-400" href="/problem/akne">Läs mer om Akne</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="acne.php">Läs mer om Akne</a></p>',
         ),
     ),
     'b' => array(
         new GlossaryItem(
             title: 'Bota Problemhy',
             description: '<p class="p200">Tyvärr går det inte att bota problemhy, det är därför viktigt att använda produkter som effektivt behandlar och tar hand om huden och inte bara attackerar problemhyn. Roaccutan och andra preparat mot problemhy såsom acne ger temporär lindring och slutar verka så snart huden vänjer sig. </p>
-                <p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår. <a class="b200 underline color-deep-sea-400" href="/behandlingar/gratis-hudkonsultation">Läs mer om Gratis Hudkonsultation</a></p>',
+                <p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår. <a class="b200 underline color-deep-sea-400" href="gratis-hudkonsultation.php">Läs mer om Gratis Hudkonsultation</a></p>',
         ),
         
     ),
@@ -52,7 +52,104 @@ $glossary_items = array(
         ),
         
     ),
-    's' => array(),
+    's' => array(
+        new GlossaryItem(
+            title: 'Sidkarta',
+            description: '<p class="p200">Här hittar du många av våra sidor.</p>
+            <a class="b200 underline color-deep-sea-400" href="acne-myter.php">Akne Myter</a>
+            <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">Akne Vulgaris</a>
+            <a class="b200 underline color-deep-sea-400" href="cystisk-acne.php">Cystisk Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="hormonell-acne.php">Hormonell Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="inflammation-acne.php">Inflammation Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="mallorca-acne.php">Mallorca Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="stress-acne.php">Stress Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="tonarsacne.php">Tonårsacne</a>
+            <a class="b200 underline color-deep-sea-400" href="vuxenacne.php">Vuxenacne</a>
+            <a class="b200 underline color-deep-sea-400" href="acne-ansikte.php">Akne - Ansikte</a>
+            <a class="b200 underline color-deep-sea-400" href="acne-brost.php">Akne - Bröst</a>
+            <a class="b200 underline color-deep-sea-400" href="acne-rygg.php">Akne - Rygg</a>
+            <a class="b200 underline color-deep-sea-400" href="kemisk-peeling-acne.php">Kemisk Peeling Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="laser-acne.php">Laser Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="microneedling-acne.php">Microneedling Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a>
+            <a class="b200 underline color-deep-sea-400" href="atrofiska-arr.php">Atrofiska Ärr</a>
+            <a class="b200 underline color-deep-sea-400" href="behandla-acnearr.php">Behandla Acneärr</a>
+            <a class="b200 underline color-deep-sea-400" href="microneedling-acnearr.php">Microneedling Acneärr</a>
+            <a class="b200 underline color-deep-sea-400" href="postinflammatorisk-hyperpigmentering.php">Postinflammatorisk Hyperpigmentering</a>
+            <a class="b200 underline color-deep-sea-400" href="finnar-ansikte.php">Finnar - Ansikte</a>
+            <a class="b200 underline color-deep-sea-400" href="finnar-brost.php">Finnar - Bröst</a>
+            <a class="b200 underline color-deep-sea-400" href="finnar-rygg.php">Finnar - Rygg</a>
+            <a class="b200 underline color-deep-sea-400" href="finnar-behandling.php">Finnar - Behandling</a>
+            <a class="b200 underline color-deep-sea-400" href="klamma-finnar.php">Klämma Finnar</a>
+            <a class="b200 underline color-deep-sea-400" href="finnar-gravid.php">Finnar - Gravid</a>
+            <a class="b200 underline color-deep-sea-400" href="stress-finnar.php">Stress Finnar</a>
+            <a class="b200 underline color-deep-sea-400" href="tonarsfinnar.php">Tonårsfinnar</a>
+            <a class="b200 underline color-deep-sea-400" href="vuxenfinnar.php">Vuxenfinnar</a>
+            <a class="b200 underline color-deep-sea-400" href="behandla-finnar-arr.php">Behandla Finnar Ärr</a>
+            <a class="b200 underline color-deep-sea-400" href="finnar-arr.php">Finnar Ärr</a>
+            <a class="b200 underline color-deep-sea-400" href="ansiktsbehandlingar.php">Ansiktsbehandlingar</a>
+            <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
+            <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a>
+            <a class="b200 underline color-deep-sea-400" href="porrengoring.php">Porrrengöring</a>
+            <a class="b200 underline color-deep-sea-400" href="portomning.php">Portömning</a>
+            <a class="b200 underline color-deep-sea-400" href="laser-arr.php">Laser Ärr</a>
+            <a class="b200 underline color-deep-sea-400" href="aldersflackar.php">Åldersfläckar</a>
+            <a class="b200 underline color-deep-sea-400" href="behandla-pigmentflackar.php">Behandla Pigmentfläckar</a>
+            <a class="b200 underline color-deep-sea-400" href="ipl-pigmentflackar.php">IPL Pigmentfläckar</a>
+            <a class="b200 underline color-deep-sea-400" href="melasma.php">Melasma</a>
+            <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
+            <a class="b200 underline color-deep-sea-400" href="komedoner.php">Komedoner</a>
+            <a class="b200 underline color-deep-sea-400" href="pormaskar-ansikte.php">Pormaskar - Ansikte</a>
+            <a class="b200 underline color-deep-sea-400" href="pormaskar-brost.php">Pormaskar - Bröst</a>
+            <a class="b200 underline color-deep-sea-400" href="pormaskar-rygg.php">Pormaskar - Rygg</a>
+            <a class="b200 underline color-deep-sea-400" href="svarta-pormaskar.php">Svarta Pormaskar</a>
+            <a class="b200 underline color-deep-sea-400" href="vita-pormaskar.php">Vita Pormaskar</a>
+            <a class="b200 underline color-deep-sea-400" href="behandla-stora-porer.php">Behandla Stora Porer</a>
+            <a class="b200 underline color-deep-sea-400" href="microneedling-stora-porer.php">Microneedling Stora Porer</a>
+            <a class="b200 underline color-deep-sea-400" href="milierbehandling.php">Milierbehandling</a>
+            <a class="b200 underline color-deep-sea-400" href="mjalleksem.php">Mjälleksem</a>
+            <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
+            <a class="b200 underline color-deep-sea-400" href="fodelsemarken.php">Födelsemärken</a>
+            <a class="b200 underline color-deep-sea-400" href="hudflikar.php">Hudflikar</a>
+            <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
+            <a class="b200 underline color-deep-sea-400" href="dermapen-acne.php">Dermapen Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="dermapen-acnearr.php">Dermapen Acneärr</a>
+            <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen Finnar</a>
+            <a class="b200 underline color-deep-sea-400" href="dermapen-stora-porer.php">Dermapen Stora Porer</a>
+            <a class="b200 underline color-deep-sea-400" href="dermapen.php">Dermapen</a>
+            <a class="b200 underline color-deep-sea-400" href="ipl-rosacea.php">IPL Rosacea</a>
+            <a class="b200 underline color-deep-sea-400" href="rhinophyma-rosacea.php">Rhinophyma Rosacea</a>
+            <a class="b200 underline color-deep-sea-400" href="rosaceabehandling.php">Rosaceabehandling</a>
+            <a class="b200 underline color-deep-sea-400" href="ipl-ytliga-blodkarl.php">IPL Ytliga Blodkärl</a>
+            <a class="b200 underline color-deep-sea-400" href="permanent-harborttagning.php">Permanent Hårborttagning</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat.php">Resultat</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-acne.php">Resultat Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-acnearr.php">Resultat Acneärr</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-blandhy.php">Resultat Blandhy</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-dermapen.php">Resultat Dermapen</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-finnar-arr.php">Resultat Finnar Ärr</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-finnar.php">Resultat Finnar</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-microneedling.php">Resultat Microneedling</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-pormaskar.php">Resultat Pormaskar</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-rosacea.php">Resultat Rosacea</a>
+            <a class="b200 underline color-deep-sea-400" href="resultat-ytliga-blodkarl.php">Resultat Ytliga Blodkärl</a>
+            <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
+            <a class="b200 underline color-deep-sea-400" href="utbildningsdag.php">Utbildningsdag</a>
+            <a class="b200 underline color-deep-sea-400" href="rekrytering.php">Rekrytering</a>
+            <a class="b200 underline color-deep-sea-400" href="presentkort.php">Presentkort</a>
+            <a class="b200 underline color-deep-sea-400" href="fragor-svar.php">Frågor & Svar</a>
+            <a class="b200 underline color-deep-sea-400" href="jobb.php">Jobb</a>
+            <a class="b200 underline color-deep-sea-400" href="karriar.php">Karriär</a>
+            <a class="b200 underline color-deep-sea-400" href="ordlista.php">Ordlista</a>
+            <a class="b200 underline color-deep-sea-400" href="kontakt.php">Kontakt</a>
+            <a class="b200 underline color-deep-sea-400" href="metoden.php">Metoden</a>
+            <a class="b200 underline color-deep-sea-400" href="om-oss.php">Om Oss</a>
+            <a class="b200 underline color-deep-sea-400" href="avbokningspolicy.php">Avbokningspolicy</a>
+            <a class="b200 underline color-deep-sea-400" href="cookies.php">Cookies</a>
+            <a class="b200 underline color-deep-sea-400" href="gratis-hudkonsultation.php">Gratis Hudkonsultation</a>',
+        ),
+        
+    ),
     't' => array(),
     'u' => array(),
     'v' => array(),
@@ -177,7 +274,7 @@ $glossary_items = array(
                 $faq_categories = null;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->
             <section id="specialists" class="large-margin">
