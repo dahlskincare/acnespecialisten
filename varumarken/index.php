@@ -603,8 +603,8 @@ $path_segments = array(
                                             text: '<p class="p200">Ja, Acnespecialisten är stolt över att vara en av Sveriges ledande kliniker för Dermapen och PRX-T33. Vi har etablerat starka samarbeten med dessa märken, vilket gör det möjligt för oss att erbjuda unika och effektiva behandlingsmetoder.</p>'
                                         ),
                                         new Question(
-                                            title: 'Hur ofta uppdaterar Acnespecialisten sin utrustning?',
-                                            text: '<p class="p200">På Acnespecialisten är vi engagerade i att kontinuerligt uppdatera vår utrustning för att alltid ligga i framkant med den senaste teknologin. När nya innovationer introduceras på marknaden, strävar vi efter att snabbt integrera dem i vår verksamhet för att alltid erbjuda det bästa för våra kunder.</p>'
+                                            title: 'Hur ofta uppdaterar Acnespecialisten sin teknologi och utrustning inom hudvård?',
+                                            text: '<p class="p200">Vi ser alltid till att ligga i framkant när det kommer till den senaste tekonolign, vi strävar efter att alltid ha den senaste och bästa, släpps nya tekonoliger på marknaden ser vi till att byta ut till det bästa som marknaden har att erbjuda.</p>'
                                         ),
                                     ),
 
@@ -626,33 +626,33 @@ $path_segments = array(
                               <?php
                               $specialists = array(
                                     new Specialist(
-                                          name: 'Cazzandra Lindberg',
-                                          title: 'Hudterapeut sedan 2015',
-                                          image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-                                          image_alt: 'Cazzandra Lindberg',
-                                          image_title: 'Cazzandra Lindberg'
+                                        name: 'Cazzandra Lindberg',
+                                        title: 'Hudterapeut sedan 2018',
+                                        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+                                        image_title: 'Hudterapeut Cazzandra Lindberg',
+                                        image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
                                     ),
                                     new Specialist(
-                                          name: 'Veronika Benedik',
-                                          title: 'Hudterapeut sedan 1999',
-                                          image: 'images/specialists/large/hudterapeut-veronika.webp',
-                                          image_alt: 'Veronika Benedik',
-                                          image_title: 'Veronika Benedik'
+                                        name: 'Veronika Benedik',
+                                        title: 'Hudterapeut sedan 1999',
+                                        image: 'images/specialists/large/hudterapeut-veronika.webp',
+                                        image_title: 'Hudterapeut Veronika Benedik',
+                                        image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
                                     ),
                                     new Specialist(
-                                          name: 'Julia Eklund',
-                                          title: 'Hudterapeut sedan 2017',
-                                          image: 'images/specialists/large/hudterapeut-julia.webp',
-                                          image_alt: 'Julia Eklund',
-                                          image_title: 'Julia Eklund',
+                                        name: 'Julia Eklund',
+                                        title: 'Hudterapeut sedan 2021',
+                                        image: 'images/specialists/large/hudterapeut-julia.webp',
+                                        image_title: 'Hudterapeut Julia Eklund',
+                                        image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
                                     ),
                                     new Specialist(
-                                          name: 'Vilma Libom',
-                                          title: 'Hudterapeut sedan 2019',
-                                          image: 'images/specialists/large/hudterapeut-vilma.webp',
-                                          image_alt: 'Vilma Libom',
-                                          image_title: 'Vilma Libom'
-                                    )
+                                        name: 'Vilma Libom',
+                                        title: 'Hudterapeut sedan 2022',
+                                        image: 'images/specialists/large/hudterapeut-vilma.webp',
+                                        image_title: 'Hudterapeut Vilma Libom',
+                                        image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
+                                    ),
                               );
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                               ?>
