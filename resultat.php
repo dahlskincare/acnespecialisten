@@ -459,10 +459,32 @@ $pages = sizeof($results_per_page);
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
-                <?php
-                $faq_categories = null;
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
-                ?>
+                <?php $faq_categories = array(
+                        'Generellt' => array(
+                            new Question(
+                                title: 'Hur vet jag vilken behandling som är bäst för mig?',
+                                text: '<p class="p200">För att hitta den behandling som passar dig bäst erbjuder vi en kostnadsfri konsultation. Under detta möte får du träffa en av våra erfarna hudterapeuter, som utifrån dina unika hudproblem och mål, skapar en personlig behandlingsplan.</p>'
+                            ),
+                            new Question(
+                                title: 'Vad kan jag förvänta mig efter en hudvårdsbehandling?',
+                                text: '<p class="p200">Resultatet varierar beroende på antalet genomförda behandlingar. En enstaka behandling kan göra skillnad, men vi rekommenderar vanligtvis en fullständig behandlingskur. Denna kan omfatta 3-6 sessioner, beroende på vald metod. Vi erbjuder också kurpaket för dessa behandlingsserier.</p>'
+                            ),
+                            new Question(
+                                title: 'Erbjuder ni duobehandlingar?',
+                                text: '<p class="p200">Ja, vi kan ordna så att du och en till person får behandlingar parallellt. Detta ger er möjligheten att njuta av våra tjänster tillsammans. Observera dock att vi inte erbjuder behandlingar i samma rum.</p>'
+                            ),
+                            new Question(
+                                title: 'Finns det åldersbegränsningar för några av behandlingarna hos AcneSpecialisten?',
+                                text: '<p class="p200">På AcneSpecialisten välkomnar vi kunder i alla åldrar. Vi är medvetna om att hudproblem kan drabba personer i olika åldersgrupper. Våra behandlingsplaner skräddarsys efter individuella behov. För vissa mer intensiva eller maskinbaserade behandlingar kan åldersbegränsningar tillämpas, är du under 18 år måste man alltid ha målsmans godkännande.</p>'
+                            ),
+                            new Question(
+                                title: 'Hur ofta bör jag genomgå en hudvårdsbehandling?',
+                                text: '<p class="p200">I din personliga behandlingsplan, som vi tar fram under vår kostnadsfria konsultation, specificerar vi rekommenderade intervaller mellan behandlingarna. Dessa intervaller varierar beroende på vilken typ av behandling du väljer. Vissa behandlingar kan kräva sessioner med en veckas mellanrum, andra var fjärde vecka, och vissa kanske var sjätte vecka. Denna flexibilitet säkerställer att vi kan erbjuda en behandlingsplan som är optimal för just din hudtyp och dina behov.</p>'
+                            ),
+                        ),
+
+                  );
+                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->
