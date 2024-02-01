@@ -8,6 +8,6 @@ node_modules
 tmp/
 
 .env
-.ssh
+.ssl
 
 .DS_STORE
