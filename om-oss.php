@@ -32,7 +32,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
             <div id="content">
                 <section id="title">
                     <h1 class="h600 l10n">Om AcneSpecialisten</h1>
-                    <p class="p200 l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv trestegsmetod för att behandla problemhy. Vårt engagerade team av experter följer dig genom hela behandlingsprocessen, från noggrann analys till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud.</p>
+                    <p class="p200 l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv fyrstegsmetod för att behandla hudproblem. Vårt engagerade team av hudterapeuter följer dig genom hela behandlingsprocessen, från noggrann hudkonsultation till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud.</p>
                 </section>
                 <section id="plant">
                     <picture>
@@ -42,12 +42,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     </picture>
                 </section>
                 <section id="segments" class="large-margin">
-                    <h2 class="h500 mb-l is-hidden-tablet l10n">Vår Fyrstegsmetod: Ett Omfattande metod mot hudproblem</h2>
+                    <h2 class="h500 mb-l is-hidden-tablet l10n">Vår Fyrstegsmetod: en omfattande metod mot hudproblem</h2>
                     <div id="segments-flex">
                         <div id="s-first-two">
                             <div id="s-first-two-text" class="is-hidden-mobile">
-                                <h2 class="h500 l10n">Vår Fyrstegsmetod: Ett Omfattande metod mot hudproblem</h2>
-                                <p class="p200 l10n">På AcneSpecialisten tillämpar vi en unik fyrstegsmetod för att noggrant och effektivt hantera din problemhy. I det första steget erbjuder vi en gratis hudkonsultation, där vi identifierar de bakomliggande orsakerna till dina hudproblem. Efter denna grundliga analys följer det andra steget: specifikt anpassade behandlingar som riktar sig mot dina individuella hudproblem. I det tredje steget tar vi proaktiva åtgärder för att förhindra att problemen återuppstår, genom att tillämpa förebyggande hudvård. Det sista steget fokuserar på att reparera och återställa huden från eventuella skador såsom ärrbildningar, vilket är ett resultat av tidigare hudproblem. Vår omfattande metod säkerställer att du får en helhetssyn på din hudvård, från problemidentifiering till långsiktig uqnderhåll och reparation. Vi står vid din sida genom hela processen, med stöd och rådgivning tillgänglig via din personliga profil.</p>
+                                <h2 class="h500 l10n">Vår Fyrstegsmetod: en omfattande metod mot hudproblem</h2>
+                                <p class="p200 l10n">AcneSpecialisten tillämpar en fyrstegsmetod för att effektivt hantera hudproblem. Det inleds med en gratis hudkonsultation för att identifiera de bakomliggande orsakerna till dina hudåkommor. Därefter följer skräddarsydda behandlingar anpassade efter just dina behov, riktade mot specifika problem. Processen fortsätter med att vi tar proaktiva steg för att förebygga framtida hudproblem genom noggrant utvald hudvård. Slutligen inriktar vi oss på att reparera och återställa huden från skador såsom ärrbildningar, som ett resultat av tidigare hudproblem. Genom denna omfattande metod erbjuder vi en helhetslösning för din hudvård, från första identifikation till långsiktig underhåll och reparation, allt med personlig rådgivning genom hela din resa.</p>
                             </div>
                             <div id="s-first-images">
                                 <picture>
