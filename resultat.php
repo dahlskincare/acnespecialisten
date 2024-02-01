@@ -4,10 +4,10 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Resultat hos AcneSpecialisten | Se Våra Framgångar i Hudvård</title>
-    <meta name="title" content="Resultatinriktade hudvårdsbehandlingar i Stockholm" class="l10n">
-    <meta name="description" content="Utforska framgångsrika resultat hos AcneSpecialisten, där vi använder vår expertis inom hudvård för att effektivt bekämpa acne och andra hudproblem. Våra kundcase visar tydligt hur våra skräddarsydda behandlingar leder till förbättrad hudhälsa och ökat välbefinnande.">
-    <meta name="keywords" content="Acnebehandling resultat, Hudvårdsframgångar, AcneSpecialisten kundcase, Förbättrad hudhälsa, Effektiv hudvård, Resultatdriven behandling, Hudvårdsresultat">
+    <title>Resultat hos AcneSpecialisten | Före- och Efterbilder</title>
+    <meta name="title" content="Resultat hos AcneSpecialisten | Före- och Efterbilder" class="l10n">
+    <meta name="description" content="Upptäck AcneSpecialistens framgångar genom före- och efterbilder. Se hur vår expertis inom hudvård bidrar till betydande resultat i kampen mot akne och andra hudproblem. Våra kundcase illustrerar effekterna av våra skräddarsydda behandlingar.">
+    <meta name="keywords" content="Före och efter acnebehandling, Hudvårdsresultat, AcneSpecialisten framgångar, Kundcase hudvård, Förbättrad hudkvalitet, Effektiv behandling, Hudvårdsbehandlingar resultat">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
@@ -16,44 +16,44 @@
 
 <?php
 
-$consultation_url = 'gratis-hudkonsultation';
+$consultation_url = 'gratis-hudkonsultation.php';
 
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
+        title: 'Hudterapeut sedan 2018',
         image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg'
+        image_title: 'Hudterapeut Cazzandra Lindberg',
+        image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik'
+        image_title: 'Hudterapeut Veronika Benedik',
+        image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
     ),
     new Specialist(
         name: 'Julia Eklund',
-        title: 'Hudterapeut sedan 2017',
+        title: 'Hudterapeut sedan 2021',
         image: 'images/specialists/large/hudterapeut-julia.webp',
-        image_alt: 'Julia Eklund',
-        image_title: 'Julia Eklund'
+        image_title: 'Hudterapeut Julia Eklund',
+        image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
     ),
     new Specialist(
         name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
+        title: 'Hudterapeut sedan 2022',
         image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom'
-    )
+        image_title: 'Hudterapeut Vilma Libom',
+        image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
+    ),
 );
 
 $result_category =
     new ResultCategory(
         id: 'resultat',
         title: 'Resultat',
-        description_1: 'Här hittar du resultaten från några av våra kunder som har kämpat med olika typer av problemhy. Vi har samlat före- och efterbilder som tydligt visar de märkbara förändringarna som våra skräddarsydda hudvårdsbehandlingar och produkter åstadkommer.',
+        description_1: 'Här hittar du resultaten från några av våra kunder som har kämpat med olika typer av hudproblem. Vi har samlat före- och efterbilder som tydligt visar de märkbara förändringarna som våra skräddarsydda hudvårdsbehandlingar och produkter åstadkommer.',
 
         description_2: 'Om du är redo att förändra din hud och uppleva hur vi kan göra skillnad, boka din kostnadsfria konsultation idag. Påbörja din resa mot en problemfri hy!',
 
