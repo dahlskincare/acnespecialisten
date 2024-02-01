@@ -1,12 +1,3 @@
-<?php
-
-$path_segments = array(
-      new PathSegment('Resultat', '/resultat.php'),
-);
-
-?>
-
-
 <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -14,6 +5,7 @@ $path_segments = array(
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Resultat hos AcneSpecialisten | Se Våra Framgångar i Hudvård</title>
+    <meta name="title" content="Resultatinriktade hudvårdsbehandlingar i Stockholm" class="l10n">
     <meta name="description" content="Utforska framgångsrika resultat hos AcneSpecialisten, där vi använder vår expertis inom hudvård för att effektivt bekämpa acne och andra hudproblem. Våra kundcase visar tydligt hur våra skräddarsydda behandlingar leder till förbättrad hudhälsa och ökat välbefinnande.">
     <meta name="keywords" content="Acnebehandling resultat, Hudvårdsframgångar, AcneSpecialisten kundcase, Förbättrad hudhälsa, Effektiv hudvård, Resultatdriven behandling, Hudvårdsresultat">
 
