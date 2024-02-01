@@ -24,12 +24,12 @@ $image_alt = 'Bild som illustrerar hur pigmentfläckar kan se ut på huden';
 $akas = [
       new Link(
             label: 'Pigmentförändringar',
-            url: 'problem/arr-fran-finnar/postinflammatorisk-hyperpigmentering',
+            url: 'postinflammatorisk-hyperpigmentering.php',
             title: 'Utforska orsakerna, symptomen och de effektiva behandlingarna för postinflammatorisk hyperpigmentering i form av fläckar från finnar'
       ),
       new Link(
             label: 'Hudfläckar',
-            url: 'problem/arr-fran-finnar/atrofiska-arr',
+            url: 'atrofiska-arr.php',
             title: 'Lär dig mer om atrofiska ärr i form av gropar som uppstått från finnar och upptäck våra specialiserade behandlingsalternativ'
       ),
 
@@ -307,7 +307,7 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en IPL-behandling för pigmentfläckar',
-            url: 'ipl-behandling-pigmentflackar',
+            url: 'ipl-pigmentflackar.php',
             url_label: 'Läs mer om IPL-behandling för pigmentfläckar',
             url_title: 'Klicka här för att läsa mer om IPL-behandling för pigmentfläckar'
       ),

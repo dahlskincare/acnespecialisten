@@ -25,12 +25,12 @@ $description = 'Har du problem med ärr som uppstått från finnar? Vi förstår
 $akas = [
       new Link(
             label: 'Fläckar',
-            url: 'problem/arr-fran-finnar/postinflammatorisk-hyperpigmentering',
+            url: 'postinflammatorisk-hyperpigmentering.php',
             title: 'Utforska orsakerna, symptomen och de effektiva behandlingarna för postinflammatorisk hyperpigmentering i form av fläckar från finnar'
       ),
       new Link(
             label: 'Gropar',
-            url: 'problem/arr-fran-finnar/atrofiska-arr',
+            url: 'atrofiska-arr.php',
             title: 'Lär dig mer om atrofiska ärr i form av gropar som uppstått från finnar och upptäck våra specialiserade behandlingsalternativ'
       ),
 

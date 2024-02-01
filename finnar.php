@@ -138,7 +138,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="problem/finnar/behandla-finnar" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 /*
 $types_title = 'Olika typer av Finnar';
 
@@ -432,7 +432,7 @@ $services = array(
             image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot finnar',
             image_title: 'Laserbehandling mot finnar för en klarare hud',
-            consultation_url: 'consultation-booking?problem=laser',
+            consultation_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_LaserProblem',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka här för att boka tid för en hudkonsultation för laserbehandling mot finnar',
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP',

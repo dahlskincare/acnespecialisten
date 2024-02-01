@@ -359,7 +359,7 @@ $service = new Service(
       image_title: 'Konsultation för Ytliga Blodkärl',
 
       url_label: 'Läs mer om vår konsultation för ytliga blodkärl',
-      url: 'ipl-ytliga-blodkarl',
+      url: 'ipl-ytliga-blodkarl.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för ytliga blodkärl',
 
       consultation_url_label: 'Boka konsultation',
@@ -386,7 +386,7 @@ $services = array(
             image_title: 'IPL-behandling mot Ytliga Blodkärl',
 
             url_label: 'Läs mer om IPL mot ytliga blodkärl',
-            url: 'behandlingar/ipl-ytliga-blodkarl',
+            url: 'ipl-ytliga-blodkarl.php',
             url_title: 'Klicka här för att läsa mer om IPL-behandling mot ytliga blodkärl',
 
             consultation_url_label: 'Boka konsultation',
