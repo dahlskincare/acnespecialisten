@@ -410,9 +410,9 @@ $procedures = array(
             image_alt: 'Behandlingar för fläckar och ojämn hudstruktur',
             image_title: 'Behandlingar för en jämnare hudton',
 
-            url_label: 'Läs mer om behandlingar för ojämn hudstruktur',
-            url: 'behandlingar/ojamnhud',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar för ojämn hudstruktur',
+            url_label: '',
+            url: '',
+            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',

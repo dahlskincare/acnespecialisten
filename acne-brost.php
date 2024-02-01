@@ -29,12 +29,12 @@ $akas = [
       ),
       new Link(
             label: 'Vuxenakne',
-            url: 'vuxenakne.php',
+            url: 'vuxenacne.php',
             title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
       ),
       new Link(
             label: 'Tonårsakne',
-            url: 'tonarsakne.php',
+            url: 'tonarsacne.php',
             title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
       ),
 ];
@@ -109,7 +109,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling_bröst.php" title="Utforska effektiva behandlingar mot akne på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne på bröstet</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne på bröstet</a>';
 
 $top_articles = array(
     'areas' => new Article(

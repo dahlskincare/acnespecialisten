@@ -277,10 +277,10 @@ $all_brands = array(
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Boka konsultation">Boka konsultation</a>
+                                    <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem" class="button white expand l10n" title="Boka konsultation">Boka konsultation</a>
                                 </div>
                                 <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
+                                    <a href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
                                 </div>
                             </div>
                         </div>

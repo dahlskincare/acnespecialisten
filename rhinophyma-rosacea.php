@@ -24,11 +24,11 @@ $description = 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstån
 $floating_box = 'En översikt om rhinophyma rosacea och dess behandling';
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
 $consultation_url_title = "Gratis Konsultation för rosacea";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea";
 $booking_url_title = "Boka rosaceabehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
@@ -150,7 +150,7 @@ $service = new Service(
       image_large: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
       image_alt: 'Bild av en konsultation för rosaceabehandling',
       image_title: 'Konsultation för rosaceabehandling',
-      consultation_url: 'consultation-booking?problem=rosacea',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
       consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för rosacea',
       booking_url: null,
@@ -173,10 +173,10 @@ $services = array(
             image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
             image_title: 'Ansiktsbehandling mot rosacea',
-            consultation_url: 'consultation-booking?problem=rosacea&service=classicFacials',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot rosacea',
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559/rosacea-konsultation-1643922',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
             url: 'rosaceabehandling.php',

@@ -501,7 +501,7 @@ $related_problems = array(
             image: 'images/problems/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'rosace.phpa',
+            url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
       new RelatedProblem(
