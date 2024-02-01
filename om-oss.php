@@ -42,11 +42,11 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     </picture>
                 </section>
                 <section id="segments" class="large-margin">
-                    <h2 class="h500 mb-l is-hidden-tablet l10n">Vår Fyrstegsmetod: en omfattande metod mot hudproblem</h2>
+                    <h2 class="h500 mb-l is-hidden-tablet l10n">Din helhetslösning för hudproblem</h2>
                     <div id="segments-flex">
                         <div id="s-first-two">
                             <div id="s-first-two-text" class="is-hidden-mobile">
-                                <h2 class="h500 l10n">Vår Fyrstegsmetod: en omfattande metod mot hudproblem</h2>
+                                <h2 class="h500 l10n">Din helhetslösning för hudproblem</h2>
                                 <p class="p200 l10n">AcneSpecialisten använder en fyrstegsmetod för hudvård, som börjar med en gratis konsultation för att <b>identifiera</b> hudproblem. Vi fortsätter med anpassade <b>behandlingar</b>, följer upp med <b>förebyggande</b> hudvård, och avslutar med att <b>reparera</b> skadad hud, inklusive ärr. Denna metod säkerställer en komplett lösning från diagnos till reparation, med personlig rådgivning under hela processen.</p>
                             </div>
                             <div id="s-first-images">
@@ -70,10 +70,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             </picture>
                         </div>
                     </div>
-                    <p class="mt-xl p200 is-hidden-tablet l10n">På AcneSpecialisten tillämpar vi en unik fyrstegsmetod för att noggrant och effektivt hantera din problemhy. I det första steget erbjuder vi en gratis hudkonsultation, där vi identifierar de bakomliggande orsakerna till dina hudproblem. Efter denna grundliga analys följer det andra steget: specifikt anpassade behandlingar som riktar sig mot dina individuella hudproblem. I det tredje steget tar vi proaktiva åtgärder för att förhindra att problemen återuppstår, genom att tillämpa förebyggande hudvård. Det sista steget fokuserar på att reparera och återställa huden från eventuella skador såsom ärrbildningar, vilket är ett resultat av tidigare hudproblem. Vår omfattande metod säkerställer att du får en helhetssyn på din hudvård, från problemidentifiering till långsiktig underhåll och reparation. Vi står vid din sida genom hela processen, med stöd och rådgivning tillgänglig via din personliga profil.</p>
+                    <p class="mt-xl p200 is-hidden-tablet l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv fyrstegsmetod för att behandla hudproblem. Vårt engagerade team av hudterapeuter följer dig genom hela behandlingsprocessen, från noggrann hudkonsultation till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud.</p>
                 </section>
                 <section id="hands" class="large-margin">
-                    <h2 class="h500 l10n">Vi siktar mot målet!</h2>
+                    <h2 class="h500 l10n">Från start till mål!</h2>
                     <p class="mt-m p200 l10n is-hidden-mobile">På AcneSpecialisten är ditt nöjda leende och synliga hudförbättringar vårt främsta mål. Med fyra välplacerade salonger i Stockholmsregionen, står vi redo att välkomna dig på din resa mot en klarare och friskare hy. Vår expertis och engagemang speglas i de förstklassiga behandlingar och högkvalitativa produkter vi erbjuder, alla noggrant utvalda och beprövade för sin effektivitet. Vi ser fram emot att hjälpa dig uppnå din drömhud och ge dig den uppmärksamhet och vård du förtjänar.</p>
                     <picture>
                         <source media="(max-width: 799px)" srcset="om-oss/images/about-hands.jpg">
