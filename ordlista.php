@@ -13,19 +13,19 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Aknebehandling',
             description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
-                <a class="b200 underline color-deep-sea-400" href="/problem/akne/aknebehandling">Läs mer och boka en Acnebehandling</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="aknebehandling.php">Läs mer och boka en Acnebehandling</a></p>',
         ),
         new GlossaryItem(
             title: 'Aknebölder',
             description: '<p class="p200">Dessa bölder kan förekomma hos hy med svår acne och uppstår när hårsäcken brister inåt. En stor böld uppstår då under huden som kan vara öm och smärtsam att ta bort. Du bör inte sticka eller skära i bölder då detta kan skapa ärr.
-                <a class="b200 underline color-deep-sea-400" href="/problem/akne">Läs mer om Akne</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="acne.php">Läs mer om Akne</a></p>',
         ),
     ),
     'b' => array(
         new GlossaryItem(
             title: 'Bota Problemhy',
             description: '<p class="p200">Tyvärr går det inte att bota problemhy, det är därför viktigt att använda produkter som effektivt behandlar och tar hand om huden och inte bara attackerar problemhyn. Roaccutan och andra preparat mot problemhy såsom acne ger temporär lindring och slutar verka så snart huden vänjer sig. </p>
-                <p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår. <a class="b200 underline color-deep-sea-400" href="/behandlingar/gratis-hudkonsultation">Läs mer om Gratis Hudkonsultation</a></p>',
+                <p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår. <a class="b200 underline color-deep-sea-400" href="gratis-hudkonsultation.php">Läs mer om Gratis Hudkonsultation</a></p>',
         ),
         
     ),
@@ -56,8 +56,8 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Sidkarta',
             description: '<p class="p200">Här hittar du många av våra sidor.</p>
-            <a class="b200 underline color-deep-sea-400" href="/problem/akne">Läs mer om Akne</a>
-            <a class="b200 underline color-deep-sea-400" href="/problem/akne">Läs mer om Akne</a>',
+            <a class="b200 underline color-deep-sea-400" href="acne.php">Läs mer om Akne</a>
+            <a class="b200 underline color-deep-sea-400" href="acne.php">Läs mer om Akne</a>',
         ),
         
     ),
