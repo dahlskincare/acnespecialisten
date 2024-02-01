@@ -47,7 +47,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         <div id="s-first-two">
                             <div id="s-first-two-text" class="is-hidden-mobile">
                                 <h2 class="h500 l10n">Vår Fyrstegsmetod: Ett Omfattande metod mot hudproblem</h2>
-                                <p class="p200 l10n">På AcneSpecialisten tillämpar vi en unik fyrstegsmetod för att noggrant och effektivt hantera din problemhy. I det första steget erbjuder vi en gratis hudkonsultation, där vi identifierar de bakomliggande orsakerna till dina hudproblem. Efter denna grundliga analys följer det andra steget: specifikt anpassade behandlingar som riktar sig mot dina individuella hudproblem. I det tredje steget tar vi proaktiva åtgärder för att förhindra att problemen återuppstår, genom att tillämpa förebyggande hudvård. Det sista steget fokuserar på att reparera och återställa huden från eventuella skador såsom ärrbildningar, vilket är ett resultat av tidigare hudproblem. Vår omfattande metod säkerställer att du får en helhetssyn på din hudvård, från problemidentifiering till långsiktig underhåll och reparation. Vi står vid din sida genom hela processen, med stöd och rådgivning tillgänglig via din personliga profil.</p>
+                                <p class="p200 l10n">På AcneSpecialisten tillämpar vi en unik fyrstegsmetod för att noggrant och effektivt hantera din problemhy. I det första steget erbjuder vi en gratis hudkonsultation, där vi identifierar de bakomliggande orsakerna till dina hudproblem. Efter denna grundliga analys följer det andra steget: specifikt anpassade behandlingar som riktar sig mot dina individuella hudproblem. I det tredje steget tar vi proaktiva åtgärder för att förhindra att problemen återuppstår, genom att tillämpa förebyggande hudvård. Det sista steget fokuserar på att reparera och återställa huden från eventuella skador såsom ärrbildningar, vilket är ett resultat av tidigare hudproblem. Vår omfattande metod säkerställer att du får en helhetssyn på din hudvård, från problemidentifiering till långsiktig uqnderhåll och reparation. Vi står vid din sida genom hela processen, med stöd och rådgivning tillgänglig via din personliga profil.</p>
                             </div>
                             <div id="s-first-images">
                                 <picture>
@@ -201,7 +201,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                 $faq_categories = null;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->
             <section id="specialists" class="large-margin">

@@ -183,13 +183,13 @@ $specialists = array(
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Frågor & svar</h2>
-                    <a href="faq" class="button compact text is-hidden-mobile">
+                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="faq" title="Se alla frågor">Se alla frågor</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->
             <section id="brands" class="large-margin">

@@ -49,7 +49,7 @@ $define_image_title = 'Hur vi tar hand om och behandlar mogen hy?';
 
 $define_content = '<p class="p200">För att vårda mogen hy på bästa sätt är det avgörande att fastställa din unika hudtyp och dess behov. Vi erbjuder en kostnadsfri konsultation där vi noggrant analyserar din mogen hy och lyssnar på dina mål och tidigare erfarenheter. Genom att ta förebilder av din hud kan vi följa utvecklingen över tiden och skapa en skräddarsydd hudvårdsplan som passar just din mogen hy. Vår personliga hudterapeut kommer att vara med dig genom hela din resa för att säkerställa att du får den bästa möjliga vården.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
+$define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för behandling av mogen hy";
 

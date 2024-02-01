@@ -47,7 +47,7 @@ $define_image_title = 'Hur vi behandlar och tar bort hudförändringar?';
 
 $define_content = '<p class="p200">Det första steget i vår process för att hantera hudförändringar är att kartlägga och analysera din huds förändringars omfattning och art. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud, diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-forandringar";
+$define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation för Hudförändringar";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för hudförändringar";
 
@@ -58,7 +58,7 @@ $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
 $treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina hudförändringar, går vi vidare till nästa steg: behandling av dem. Ett av våra huvudsakliga verktyg för att behandla dessa förändringar är Cryopen, en avancerad frysbehandling. Denna metod är särskilt effektiv för att snabbt och skonsamt ta itu med olika hudförändringar. Genom att använda Cryopen kan vi precist rikta in oss på förändringen och frysa den på ett kontrollerat sätt, vilket stimulerar hudens naturliga regenerationsförmåga. Resultatet är en förbättrad hudstruktur och minskad synlighet av förändringen. Vi anpassar alltid behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat.</p>';
 
-$treat_url = 'treatments/hudförändringar';
+$treat_url = 'gratis-hudkonsultation.php';
 $treat_url_label = 'Se behandlingar för hudförändringar';
 $treat_url_title = 'klicka här för att se våra behandlingar för hudförändringar';
 

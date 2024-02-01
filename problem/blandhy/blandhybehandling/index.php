@@ -53,7 +53,7 @@ $define_image_title = 'Vår process för att balansera och behandla blandhy';
 
 $define_content = '<p class="p200">Det första steget i vår process att balansera blandhy är att kartlägga dina specifika behov. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud, diskuterar dina mål med huden och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och justera din behandlingsplan över tid. Din personliga hudterapeut står vid din sida genom hela resan, säkerställande en konsekvent och individanpassad omsorg.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
+$define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation för blandhy";
 

@@ -48,7 +48,7 @@ $define_image_title = 'Hur vi behandlar och minskar stora porer?';
 
 $define_content = '<p class="p200">Första steget i vår process att behandla stora porer är att kartlägga din hud och porstorlek. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och berättar om orsaken till dina stora porer samt hur vi effektivt kan behandla dem. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
+$define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot stora porer";
 

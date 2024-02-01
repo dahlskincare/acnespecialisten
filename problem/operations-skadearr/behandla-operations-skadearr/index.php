@@ -48,7 +48,7 @@ $define_image_title = 'Hur vi behandlar och tar bort operations- och skadeärr?'
 
 $define_content = '<p class="p200">Det första steget i vår process för att behandla operations- och skadeärr är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad behandling baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
+$define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation för operations- och skadeärr";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för operations- och skadeärr";
 
@@ -59,7 +59,7 @@ $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
 $treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina operations- och skadeärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
 
-$treat_url = 'treatments/operations-skadearr';
+$treat_url = 'gratis-hudkonsultation.php';
 $treat_url_label = 'Se behandlingar för operations- och skadeärr';
 $treat_url_title = 'klicka här för att se våra behandlingar för operations- och skadeärr';
 

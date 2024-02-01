@@ -20,17 +20,17 @@ $description = 'Här förklarar vi vad som kännetecknar finnar, varför dessa i
 $akas = [
       new Link(
             label: 'Vuxenfinnar',
-            url: 'problem/vuxenfinnar',
+            url: 'vuxenfinnar.php',
             title: 'Utforska de vanligaste orsakerna, symptomen och behandlingsalternativen för finnar hos vuxna'
       ),
       new Link(
             label: 'Tonårsfinnar',
-            url: 'problem/tonarsfinnar',
+            url: 'tonarsfinnar.php',
             title: 'Komplett guide till tonårsfinnar: orsaker, förebyggande åtgärder och effektiva lösningar'
       ),
       new Link(
             label: 'Akne',
-            url: 'problem/akne',
+            url: 'acne.php',
             title: 'Allt du behöver veta om akne och de mest effektiva behandlingsmetoderna'
       )
 
@@ -119,7 +119,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad. Genom säkra metoder säkerställer vi att du snabbt får kontroll över ditt problem.',
             url_label: 'Se behandlingar mot finnar',
-            url: 'behandla-finnar.php',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda behandlingar mot finnar'
       ),
       new TreatmentStep(
