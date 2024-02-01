@@ -36,8 +36,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                 </section>
                 <section id="plant">
                     <picture>
-                        <source media="(max-width: 799px)" srcset="om-oss/images/about-plant.jpg">
-                        <source media="(min-width: 800px)" srcset="om-oss/images/about-plant-large.jpg">
+                        <source media="(max-width: 799px)" srcset="images/about-plant.jpg">
+                        <source media="(min-width: 800px)" srcset="images/about-plant-large.jpg">
                         <img src="images/about/about-plant.jpg" alt="Om AcneSpecialisten" title="Om AcneSpecialisten" width="360" height="274" />
                     </picture>
                 </section>

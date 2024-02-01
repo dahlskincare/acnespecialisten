@@ -13,7 +13,7 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Aknebehandling',
             description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
-                <a class="b200 underline color-deep-sea-400" href="aknebehandling.php">Läs mer och boka en Acnebehandling</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="acnebehandling.php">Läs mer och boka en Acnebehandling</a></p>',
         ),
         new GlossaryItem(
             title: 'Aknebölder',
@@ -81,7 +81,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="finnar-rygg.php">Finnar - Rygg</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-behandling.php">Finnar - Behandling</a>
             <a class="b200 underline color-deep-sea-400" href="klamma-finnar.php">Klämma Finnar</a>
-            <a class="b200 underline color-deep-sea-400" href="microneedling-finnar.php">Microneedling Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-gravid.php">Finnar - Gravid</a>
             <a class="b200 underline color-deep-sea-400" href="stress-finnar.php">Stress Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="tonarsfinnar.php">Tonårsfinnar</a>
@@ -95,7 +94,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="portomning.php">Portömning</a>
             <a class="b200 underline color-deep-sea-400" href="laser-arr.php">Laser Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="aldersflackar.php">Åldersfläckar</a>
-            <a class="b200 underline color-deep-sea-400" href="behandla-melasma.php">Behandla Melasma</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-pigmentflackar.php">Behandla Pigmentfläckar</a>
             <a class="b200 underline color-deep-sea-400" href="ipl-pigmentflackar.php">IPL Pigmentfläckar</a>
             <a class="b200 underline color-deep-sea-400" href="melasma.php">Melasma</a>
@@ -107,7 +105,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="svarta-pormaskar.php">Svarta Pormaskar</a>
             <a class="b200 underline color-deep-sea-400" href="vita-pormaskar.php">Vita Pormaskar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-stora-porer.php">Behandla Stora Porer</a>
-            <a class="b200 underline color-deep-sea-400" href="kemisk-peeling-porer.php">Kemisk Peeling Porer</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-stora-porer.php">Microneedling Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="milierbehandling.php">Milierbehandling</a>
             <a class="b200 underline color-deep-sea-400" href="mjalleksem.php">Mjälleksem</a>
@@ -135,7 +132,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="resultat-microneedling.php">Resultat Microneedling</a>
             <a class="b200 underline color-deep-sea-400" href="resultat-pormaskar.php">Resultat Pormaskar</a>
             <a class="b200 underline color-deep-sea-400" href="resultat-rosacea.php">Resultat Rosacea</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-stora-porer.php">Resultat Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="resultat-ytliga-blodkarl.php">Resultat Ytliga Blodkärl</a>
             <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="utbildningsdag.php">Utbildningsdag</a>

@@ -122,7 +122,7 @@ $results = array(
         image_alt: 'Akne resultat',
         image_title: 'Akne resultat',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: 'Efter 3 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
         )
     ),
     new ResultCustomer(
@@ -133,7 +133,7 @@ $results = array(
         image_alt: 'Akne resultat',
         image_title: 'Akne resultat',
         treatment: new ResultTreatment(
-            duration: 'Efter 2 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: 'Efter 2 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
         )
     ),
     new ResultCustomer(
@@ -144,7 +144,7 @@ $results = array(
         image_alt: 'Rosacea resultat',
         image_title: 'Rosacea resultat',
         treatment: new ResultTreatment(
-            duration: 'Efter 4 månaders behandling av <a href="/problme/rosacea/rosaceabehandling" title="akne">akne</a>',
+            duration: 'Efter 4 månaders behandling av <a href="/problem/rosacea/rosaceabehandling" title="akne">akne</a>',
         )
     ),
 );

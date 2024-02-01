@@ -381,7 +381,7 @@ $pages = sizeof($results_per_page);
                 <div id="filters-touch">
                     <?php foreach ($category_links as $link_id => $link_label) { ?>
                         <div class="filter-item">
-                            <a href="/resultat/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
+                            <a href="/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
                                 <?php echo $link_label ?>
                             </a>
                         </div>
@@ -392,7 +392,7 @@ $pages = sizeof($results_per_page);
                 <div id="filters-desktop">
                     <div id="filter-items">
                         <?php foreach ($category_links as $link_id => $link_label) { ?>
-                            <a href="/resultat/<?php echo $link_id ?>" class="filter-item">
+                            <a href="/<?php echo $link_id ?>" class="filter-item">
                                 <div class="b100 filter-item-label l10n">
                                     <?php echo $link_label ?>
                                 </div>

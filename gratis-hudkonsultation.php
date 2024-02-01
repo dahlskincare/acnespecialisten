@@ -176,7 +176,7 @@ $categories = array(
                 consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling'
             ),
             new ConsultationType(
-                title: 'Laser mot problmehy',
+                title: 'Laser mot problemhy',
                 subtitle: '',
                 image: '',
                 url: '',
