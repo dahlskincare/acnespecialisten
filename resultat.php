@@ -1,3 +1,12 @@
+<?php
+
+$path_segments = array(
+      new PathSegment('Resultat', '/resultat.php'),
+);
+
+?>
+
+
 <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
