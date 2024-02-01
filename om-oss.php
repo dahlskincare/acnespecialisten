@@ -47,7 +47,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         <div id="s-first-two">
                             <div id="s-first-two-text" class="is-hidden-mobile">
                                 <h2 class="h500 l10n">Vår Fyrstegsmetod: en omfattande metod mot hudproblem</h2>
-                                <p class="p200 l10n">AcneSpecialisten tillämpar en fyrstegsmetod för att effektivt hantera hudproblem. Det inleds med en gratis hudkonsultation för att identifiera de bakomliggande orsakerna till dina hudåkommor. Därefter följer skräddarsydda behandlingar anpassade efter just dina behov, riktade mot specifika problem. Processen fortsätter med att vi tar proaktiva steg för att förebygga framtida hudproblem genom noggrant utvald hudvård. Slutligen inriktar vi oss på att reparera och återställa huden från skador såsom ärrbildningar, som ett resultat av tidigare hudproblem. Genom denna omfattande metod erbjuder vi en helhetslösning för din hudvård, från första identifikation till långsiktig underhåll och reparation, allt med personlig rådgivning genom hela din resa.</p>
+                                <p class="p200 l10n">AcneSpecialisten använder en fyrstegsmetod för hudvård, som börjar med en gratis konsultation för att <b>identifiera</b> hudproblem. Vi fortsätter med anpassade <b>behandlingar</b>, följer upp med <b>förebyggande</b> hudvård, och avslutar med att <b>reparera</b> skadad hud, inklusive ärr. Denna metod säkerställer en komplett lösning från diagnos till reparation, med personlig rådgivning under hela processen.</p>
                             </div>
                             <div id="s-first-images">
                                 <picture>
