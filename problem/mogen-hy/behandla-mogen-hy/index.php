@@ -72,7 +72,7 @@ $services = array(
         icons: array(),
         content: '<p class="p200">Ansiktsbehandling för mogen hy på Acnespecialisten är särskilt anpassad för att återuppliva och ge näring åt mogen hud. Behandlingen inleds med en skonsam rengöring för att ta bort orenheter och friska upp huden. Efter rengöringen introduceras LED-ljusterapin, känd för sina föryngrande egenskaper, som hjälper till att stimulera kollagenproduktionen och minska synligheten av fina linjer och rynkor. Behandlingen avslutas med en närande mask och en fuktgivande kräm som är speciellt framtagen för mogen hud, vilket ger en ljusare, fastare och mer ungdomlig hud.</p>',
 
-        consultation_url: 'boka-hudkonsultation-mogen-hy',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Mogen Hy på AcneSpecialisten',
 
@@ -80,9 +80,9 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling för Mogen Hy på AcneSpecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/mogen-hy-behandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling för Mogen Hy',
-        url_title: 'Mer Information om Vår Ansiktsbehandling för Mogen Hy'
+        url: '',
+        url_label: '',
+        url_title: '',
     ),
 
     new Service(
@@ -95,15 +95,15 @@ $services = array(
         price: '1295 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling för mogen hy hos Acnespecialisten fungerar genom att använda ljusenergi för att förnya och stimulera hudens kollagenproduktion. Denna metod hjälper till att minska fina linjer, rynkor och ger huden ett upplyft och fräscht utseende.</p>',
-        consultation_url: 'konsultation-laser-mogen-hy',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling för mogen hy',
-        booking_url: 'boka-laserbehandling-mogen-hy',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling för mogen hy nu',
-        url: 'behandlingar/laserbehandling-for-mogen-hy',
-        url_label: 'Läs mer om laserbehandlingar för mogen hy',
-        url_title: 'Utforska mer om våra laserbehandlingar för mogen hy',
+        url: '',
+        url_label: '',
+        url_title: '',
 
         // short_title: 'Laser'
 
@@ -119,13 +119,13 @@ $services = array(
         price: '1295 kr',
         icons: array(),
         content: '<p class="p200">Kemisk peeling för mogen hy hos Acnespecialisten syftar till att ta bort det översta lagret av döda hudceller och främjar tillväxten av ny, frisk hud. Denna behandling hjälper till att minska tecken på åldrande, som fina linjer och rynkor, samtidigt som den förbättrar hudens textur och lyster.</p>',
-        consultation_url: 'hudkonsultation-for-mogen-hy',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling för mogen hy',
-        url: 'behandlingar/kemisk-peeling-for-mogen-hy',
-        url_label: 'Läs mer om kemisk peeling för mogen hy',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling för mogen hy',
-        booking_url: 'boka-kemisk-peeling-for-mogen-hy',
+        url: '',
+        url_label: '',
+        url_title: '',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling för mogen hy nu',
         short_title: 'Kemisk Peeling för Mogen Hy'
@@ -142,13 +142,13 @@ $services = array(
         price: '1295 kr',
         icons: array(),
         content: '<p class="p200">Microneedling är en framstående behandlingsmetod för mogen hy som används för att öka hudens produktion av kollagen och elastin. Denna teknik använder små mikronålar för att skapa fina kanaler i huden, vilket förbättrar hudens textur, reducerar fina linjer och återupplivar hudens ungdomliga utseende.</p>',
-        consultation_url: 'microneedling-konsultation-for-mogen-hy',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling för mogen hy',
-        url: 'behandlingar/microneedling-for-mogen-hy',
-        url_label: 'Läs mer om microneedling för mogen hy',
-        url_title: 'Utforska mer om vår microneedlingbehandling för mogen hy',
-        booking_url: 'boka-microneedling-for-mogen-hy',
+        url: '',
+        url_label: '',
+        url_title: '',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling för mogen hy nu',
         short_title: 'Microneedling för Mogen Hy'

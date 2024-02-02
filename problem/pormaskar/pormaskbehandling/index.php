@@ -72,17 +72,17 @@ $services = array(
         icons: array(),
         content: '<p class="p200">Ansiktsbehandling mot pormaskar på Acnespecialisten är speciellt framtagen för att djuprengöra huden, avlägsna döda hudceller och bekämpa tilltäppta porer. Processen börjar med en rengöring, följt av ångning för att mjuka upp och öppna porerna. Därefter görs en noggrann porrengöring där pormaskar och andra orenheter avlägsnas. Behandlingen avrundas med en lugnande mask och en fuktgivande kräm som är anpassad för din hudtyp.</p>',
 
-        consultation_url: 'boka-hudkonsultation-pormaskar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Pormaskar på Acnespecialisten',
 
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-pormaskar',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Pormaskar på Acnespecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/pormaskarbehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling mot Pormaskar',
-        url_title: 'Mer Information om Vår Ansiktsbehandling mot Pormaskar',
+        url: '',
+        url_label: '',
+        url_title: '',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -98,15 +98,15 @@ $services = array(
         price: '1295 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling riktad mot pormaskar hos AcneSpecialisten använder ljusenergi för att specifikt behandla och minska pormaskarnas synlighet. Laserstrålens penetration i huden fokuserar på de områden där pormaskarna dominerar, balanserar hudens talgproduktion och minskar ansamlingen av döda hudceller, vilket ofta är orsaken till pormaskar.</p>',
-        consultation_url: 'konsultation-laser-pormaskar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot pormaskar',
-        booking_url: 'boka-laserbehandling-pormaskar',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot pormaskar nu',
-        url: 'behandlingar/laserbehandling-mot-pormaskar',
-        url_label: 'Läs mer om laserbehandlingar mot pormaskar',
-        url_title: 'Utforska mer om våra laserbehandlingar mot pormaskar',
+        url: '',
+        url_label: '',
+        url_title: '',
 
         // short_title: 'Laser'
 
@@ -122,13 +122,13 @@ $services = array(
         price: '1295 kr',
         icons: array(),
         content: '<p class="p200">För att effektivt behandla pormaskar starka syror under en kemisk peeling behandling. Vi applicerar en särskilt framtagen lösning på huden som avlägsnar det översta lagret av hudceller och luckra upp tilltäpta porer. Genom att ge plats för ny, frisk hud att framträda, minskas synligheten av pormaskar samtidigt som hudens textur och utseende förbättras betydligt.</p>',
-        consultation_url: 'hudkonsultation-pormaskar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot pormaskar',
-        url: 'behandlingar/kemisk-peeling-mot-pormaskar',
-        url_label: 'Läs mer om kemisk peeling mot pormaskar',
-        url_title: 'Utforska mer om vår kemiska peelingbehandling mot pormaskar',
-        booking_url: 'boka-kemisk-peeling-pormaskar',
+        url: '',
+        url_label: '',
+        url_title: '',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling mot pormaskar nu',
         short_title: 'Kemisk Peeling'
@@ -144,13 +144,13 @@ $services = array(
         price: '1295 kr',
         icons: array(),
         content: '<p class="p200">Microneedling erbjuds som en kraftfull metod för att bekämpa pormaskar. Genom att använda mikronålar skapas små kanaler i huden, vilket uppmuntrar hudens naturliga läkning och ökar kollagen- och elastinproduktionen. Microneedling adresserar även de bakomliggande orsakerna till pormaskar genom att tillåta aktiva ingredienser att penetrera djupare in i huden, vilket aktivt bidrar till att minska både storlek och mängd av pormaskar.</p>',
-        consultation_url: 'microneedling-konsultation-pormaskar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot pormaskar',
-        url: 'behandlingar/microneedling-mot-pormaskar',
-        url_label: 'Läs mer om microneedling mot pormaskar',
-        url_title: 'Utforska mer om vår microneedlingbehandling mot pormaskar',
-        booking_url: 'boka-microneedling-pormaskar',
+        url: '',
+        url_label: '',
+        url_title: '',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling mot pormaskar nu',
         short_title: 'Microneedling'
@@ -167,7 +167,7 @@ $products = array(
         image_title: 'AcneSpecialistens effektiva hudvårdsprodukter mot pormaskar',
         image_alt: 'Bild på AcneSpecialistens hudvårdsprodukter mot pormaskar',
 
-        url: 'produkter/pormaskar',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
         url_label: 'Utforska våra hudvårdsprodukter mot pormaskar',
         url_title: 'Information om AcneSpecialistens hudvårdsprodukter mot pormaskar',
         price: 'AcneSpecialistens hudvårdsprodukter mot pormaskar - Pris från 1295 kr',
@@ -184,7 +184,7 @@ $results = array(
             image_title: 'Person som har akne',
             image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '<a href="akne.php" title="Svår akne">Svår akne</a>',
+                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
       ),
       new ResultCustomer(
@@ -195,7 +195,7 @@ $results = array(
             image_title: 'Person som har akne',
             image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '<a href="akne.php" title="Akne">Akne</a>',
+                  duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
       ),
       new ResultCustomer(
