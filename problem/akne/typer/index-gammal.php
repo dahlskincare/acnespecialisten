@@ -425,7 +425,7 @@ $specialists = array(
                 <section id="faq">
                     <h2 class="big l10n">Questions & answers</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a href="faq" class="mt-xl button outline expand auto-width l10n" title="View all questions">View all questions</a>
+                    <a href="fragor-svar.php" class="mt-xl button outline expand auto-width l10n" title="View all questions">View all questions</a>
                 </section>
                 <section id="skin-guide">
                     <h2 class="big l10n">Skin guide</h2>

@@ -80,7 +80,7 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot akneärr',
-        url: 'behandlingar/laserbehandling-mot-aknearr',
+        url: 'behandlingar/laserbehandling-mot-hudproblem',
         url_label: 'Läs mer om laserbehandlingar mot akneärr',
         url_title: 'Utforska mer om våra laserbehandlingar mot akneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_LaserProblem',
@@ -102,7 +102,7 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot akneärr',
-        url: 'behandlingar/kemisk-peeling-mot-aknearr',
+        url: 'kemisk-peeling.php',
         url_label: 'Läs mer om kemisk peeling mot akneärr',
         url_title: 'Utforska mer om vår kemiska peelingbehandling mot akneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_ChemicalPeeling',
@@ -124,7 +124,7 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot akneärr',
-        url: 'behandlingar/microneedling-mot-aknearr',
+        url: 'microneedling-mot-acnearr.php',
         url_label: 'Läs mer om microneedling mot akneärr',
         url_title: 'Utforska mer om vår microneedlingbehandling mot akneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_Microneedling',
@@ -537,7 +537,7 @@ $brands_url_title = "Varumärken för behandling av akneärr";
                         </a>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="faq"><?php echo $faq_url_label ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                 </section>
                 <!--Hudguide-->
                 <section id="specialists">
