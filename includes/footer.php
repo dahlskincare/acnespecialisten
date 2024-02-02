@@ -138,10 +138,10 @@
                             <h2>Företag</h2>
                             <ul>
                                 <li>
-                                    <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
+                                    <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                                 </li>
                                 <li>
-                                    <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
+                                    <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                 </li>
                                 <li>
                                     <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialsiter</a>
@@ -383,10 +383,10 @@
                                     <h2>Företag</h2>
                                     <ul>
                                         <li>
-                                            <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
+                                            <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                                         </li>
                                         <li>
-                                            <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
+                                            <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                         </li>
                                         <li>
                                             <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialsiter</a>
