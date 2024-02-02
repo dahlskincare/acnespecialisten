@@ -523,7 +523,7 @@ $procedures = array(
             image_alt: 'Reparera ärr efter finnar',
             image_title: 'Reparera ärr efter finnar',
 
-            consultation_url: 'consultation-booking?problem=microneedling',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot ärr från finnar',
 
