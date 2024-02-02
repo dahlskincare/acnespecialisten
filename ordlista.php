@@ -135,7 +135,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="resultat-ytliga-blodkarl.php">Resultat Ytliga Blodkärl</a>
             <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="utbildningsdag.php">Utbildningsdag</a>
-            <a class="b200 underline color-deep-sea-400" href="rekrytering.php">Rekrytering</a>
             <a class="b200 underline color-deep-sea-400" href="presentkort.php">Presentkort</a>
             <a class="b200 underline color-deep-sea-400" href="fragor-svar.php">Frågor & Svar</a>
             <a class="b200 underline color-deep-sea-400" href="jobb.php">Jobb</a>
