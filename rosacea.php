@@ -651,7 +651,7 @@ $related_problems = array(
             image: 'bilder/problem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
-            url: 'akne.php',
+            url: 'acne.php',
             url_title: 'Akne'
       ),
       new RelatedProblem(

@@ -16,9 +16,9 @@ $image_title = 'Hudförändringar';
 $title = 'Behandling av Hudförändringar';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av hudförändringar som hjälper dig att effektivt behandla dessa förändringar. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">behandling</a> som bäst passar din hudtyp för att hantera hudförändringar? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en bättre hy.';
 
-$booking_link = 'rätt bokningslänk här';
+$booking_link = 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP';
 $booking_link_title = 'Boka behandling';
-$consultation_link = 'rätt konsultationslänk här';
+$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen';
 $consultation_link_title = 'Boka hudkonsultation';
 
 

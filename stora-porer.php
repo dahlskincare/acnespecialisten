@@ -318,9 +318,9 @@ $services = array(
             image_alt: 'Bild av microneedling för stora porer',
             image_title: 'Microneedling för stora porer behandling',
 
-            url: 'behandlingar/microneedling-stora-porer',
-            url_label: 'Läs mer om microneedling för stora porer',
-            url_title: 'Klicka här för att läsa mer om microneedling för stora porer',
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
@@ -348,7 +348,7 @@ $products = array(
             image_title: 'Effektiva produkter för hantering och förebyggande av stora porer',
 
             url_label: 'Läs mer om produkter för stora porer',
-            url: 'https://dahlskincare.se',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_title: 'Klicka här för att läsa mer om produkter för stora porer',
 
             consultation_url_label: null,
@@ -593,7 +593,7 @@ $related_problems = array(
             image: 'images/problems/102x102/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Akne - en vanlig hudåkomma',
-            url: 'akne.php',
+            url: 'acne.php',
             url_title: 'Akne'
       ),
       new RelatedProblem(

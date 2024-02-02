@@ -18,9 +18,9 @@ $image_title = 'Operations- och skadeärr';
 $title = 'Behandling av Operations- och Skadeärr';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av operations- och skadeärr som hjälper dig att behandla dessa effektivt. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att minska synligheten av operations- och skadeärr? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hud med reducerade ärr.';
 
-$booking_link = 'rätt bokningslänk här';
+$booking_link = 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars';
 $booking_link_title = 'Boka ärrbehandling';
-$consultation_link = 'rätt konsultationslänk här';
+$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars';
 $consultation_link_title = 'Boka konsultation för ärr';
 
 

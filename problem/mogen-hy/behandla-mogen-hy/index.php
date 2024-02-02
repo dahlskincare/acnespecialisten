@@ -18,9 +18,9 @@ $image_title = 'Mogen hy';
 $title = 'Behandlingar för Mogen Hy';
 $description = 'Upptäck våra skräddarsydda behandlingsalternativ för mogen hy som hjälper dig att effektivt behandla och vårda åldrande hud. Oavsett dina specifika behov, har vi rätt lösningar för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">hudvårdsbehandling</a> som passar bäst för din mogen hy? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en friskare och mer ungdomlig hud.';
 
-$booking_link = 'rätt bokningslänk här';
+$booking_link = 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress';
 $booking_link_title = 'Boka behandling';
-$consultation_link = 'rätt konsultationslänk här';
+$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles';
 $consultation_link_title = 'Boka hudkonsultation';
 
 
@@ -76,7 +76,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Mogen Hy på AcneSpecialisten',
 
-        booking_url: 'boka-djuprengörande-ansiktsbehandling-mogen-hy',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling för Mogen Hy på AcneSpecialisten',
 

@@ -19,9 +19,9 @@ $image_title = 'Blandhy';
 $title = 'Blandhybehandling';
 $description = 'Upptäck vårt urval av metoder speciellt utformade för att behandla blandhy, där målet är att ge din hud den bästa balansen mellan torra och oljiga områden. Oavsett din huds unika krav kan vi guida dig till den optimala lösningen. Undrar du över vilken <a href="https://www.acnespecialisten.se">behandling för blandhy</a> som skulle vara mest gynnsam för just dig? Tveka inte att boka en kostnadsfri konsultation med Acnespecialisten. Låt oss vara din partner på vägen till en balanserad och strålande hy.';
 
-$booking_link = 'rätt bokningslänk här';
+$booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin';
 $booking_link_title = 'Boka behandling';
-$consultation_link = 'rätt konsultationslänk här';
+$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin';
 $consultation_link_title = 'Boka hudkonsultation';
 
 

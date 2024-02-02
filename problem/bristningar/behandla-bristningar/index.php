@@ -18,9 +18,9 @@ $image_title = 'Bristningar';
 $title = 'Behandling av Bristningar';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av bristningar som hjälper dig att effektivt behandla dem. Oavsett ditt specifika behov har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">bristningsbehandling</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från bristningar.';
 
-$booking_link = 'rätt bokningslänk här';
+$booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_StrechMarks';
 $booking_link_title = 'Boka behandling';
-$consultation_link = 'rätt konsultationslänk här';
+$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks';
 $consultation_link_title = 'Boka hudkonsultation';
 
 

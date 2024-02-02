@@ -37,11 +37,11 @@ $akas = [
 $floating_box = 'Text på floating box';
 
 $consultation_url_label = "Få gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea";
 $consultation_url_title = "Gratis Konsultation för mjalleksem";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea";
 $booking_url_title = "Boka mjalleksembehandling";
 
 $mobile_consultation_url_label = "Få gratis konsultation";
@@ -145,7 +145,7 @@ $service = new Service(
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Mjälleksem Konsultation',
       image_title: 'Mjälleksem Konsultation',
-      consultation_url: 'consultation-booking?problem=seborrhea',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
       consultation_url_label: 'Boka din gratis mjälleksem konsultation nu',
       consultation_url_title: 'Boka din gratis mjälleksem konsultation nu',
       booking_url: null,
@@ -168,10 +168,10 @@ $services = array(
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Ansiktsbehandling mot mjälleksem',
             image_title: 'Ansiktsbehandling mot mjälleksem',
-            consultation_url: 'consultation-booking?problem=seborrhea&service=classicFacials',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
             consultation_url_label: 'Boka gratis konsultation',
             consultation_url_title: 'Boka gratis konsultation',
-            booking_url: null,
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
             booking_url_label: 'Boka din ansiktsbehandling mot mjälleksem',
             booking_url_title: 'Boka din ansiktsbehandling mot mjälleksem',
             url: null,

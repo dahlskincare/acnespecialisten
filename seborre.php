@@ -492,7 +492,7 @@ $related_problems = array(
             image: 'images/problems/102x102/akne.webp',
             image_alt: 'Bild som visar akne, en vanlig hudåkomma',
             image_title: 'Akne - en vanlig hudåkomma',
-            url: 'akne.php',
+            url: 'acne.php',
             url_title: 'Akne'
       ),
       new RelatedProblem(
