@@ -704,7 +704,7 @@ $all_brands = array(
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="Se alla frågor"><?php echo $faq_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
                 <!--Hudguide-->
                 <section id="specialists" class="large-margin">
