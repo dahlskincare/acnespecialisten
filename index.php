@@ -384,7 +384,7 @@
                                     image_large: 'bilder/behandlingar/424x324/ipl.webp',
                                     image_title: 'IPL-behandling i ansiktet',
                                     image_alt: 'Kvinna som får IPL-behandling i ansiktet.',
-                                    url: 'ipl.php',
+                                    url: 'behandlingar/ipl',
                                     url_title: 'Läs mer och boka tid för IPL.',
                                     show_on_large: true,
                                     show_on_small: true,

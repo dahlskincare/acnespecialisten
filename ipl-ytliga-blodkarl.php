@@ -153,7 +153,7 @@ $treatment_steps = array(
         title: 'Behandla',
         content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
         url_label: 'Se behandlingar',
-        url: 'behandlingar/rosacea',
+        url: 'rosaceabehandling.php',
         url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
     ),
     new TreatmentStep(

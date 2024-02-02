@@ -180,7 +180,7 @@ $treatment_steps = array(
         content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
 
         url_label: 'Se aknebehandlingar',
-        url: 'acnebehandlingar.php',
+        url: 'acnebehandling.php',
         url_title: 'Utforska våra skräddarsydda aknebehandlingar'
     ),
     new TreatmentStep(
