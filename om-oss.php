@@ -200,24 +200,24 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                 <?php $faq_categories = array(
                         'Generellt' => array(
                             new Question(
-                                title: 'Hur vet jag vilken behandling som är bäst för mig?',
-                                text: '<p class="p200">För att hitta den behandling som passar dig bäst erbjuder vi en kostnadsfri konsultation. Under detta möte får du träffa en av våra erfarna hudterapeuter, som utifrån dina unika hudproblem och mål, skapar en personlig behandlingsplan.</p>'
+                                title: 'Vad innebär det att ha en personlig terapeut hos er?',
+                                text: '<p class="p200">En personlig terapeut hos AcneSpecialisten fungerar som din personliga tränare (PT) för hudvård, vilken leder dig genom hela din behandlingsresa. Denna expert, som känner till ditt unika fall, skapar din behandlingsplan och står för kontinuerlig uppföljning och direktkontakt via chatten på din profil. De säkerställer en skräddarsydd och uppdaterad behandlingsprocess baserat på dina framsteg och behov.</p>'
                             ),
                             new Question(
-                                title: 'Vad kan jag förvänta mig efter en hudvårdsbehandling?',
-                                text: '<p class="p200">Resultatet varierar beroende på antalet genomförda behandlingar. En enstaka behandling kan göra skillnad, men vi rekommenderar vanligtvis en fullständig behandlingskur. Denna kan omfatta 3-6 sessioner, beroende på vald metod. Vi erbjuder också kurpaket för dessa behandlingsserier.</p>'
+                                title: 'Hur skiljer sig AcneSpecialistens metod från andra hudvårdskliniker?',
+                                text: '<p class="p200">Vår unika metod hos AcneSpecialisten bygger på en holistisk lösning. Vi kombinerar djupgående kunskap med de mest effektiva behandlingsmetoderna och korrekta hudvårdsrutiner för att ge dig ett omfattande stöd. Du behöver inte vända dig någon annanstans; vi tar hand om ditt hudproblem från början till slut med hjälp av din personliga terapeut. Detta garanterar en trygg och sammanhållen behandlingsprocess.</p>'
                             ),
                             new Question(
-                                title: 'Erbjuder ni duobehandlingar?',
-                                text: '<p class="p200">Ja, vi kan ordna så att du och en till person får behandlingar parallellt. Detta ger er möjligheten att njuta av våra tjänster tillsammans. Observera dock att vi inte erbjuder behandlingar i samma rum.</p>'
+                                title: 'Hur påbörjar jag min behandlingsprocess hos er?',
+                                text: '<p class="p200">Din resa med oss börjar med en kostnadsfri hudkonsultation. Under detta första möte med en av våra kvalificerade hudterapeuter, utvecklas en individuellt anpassad behandlingsplan specifikt för din hudtyp. Detta första steg ger dig en djupare förståelse för din hud och hur vi kan arbeta tillsammans för att uppnå de bästa möjliga resultaten.</p>'
                             ),
                             new Question(
-                                title: 'Finns det åldersbegränsningar för några av behandlingarna hos AcneSpecialisten?',
-                                text: '<p class="p200">På AcneSpecialisten välkomnar vi kunder i alla åldrar. Vi är medvetna om att hudproblem kan drabba personer i olika åldersgrupper. Våra behandlingsplaner skräddarsys efter individuella behov. För vissa mer intensiva eller maskinbaserade behandlingar kan åldersbegränsningar tillämpas, är du under 18 år måste man alltid ha målsmans godkännande.</p>'
+                                title: 'Är er metod lämplig för alla hudtyper?',
+                                text: '<p class="p200">Absolut, vår metod är utformad för att tillgodose alla hudtyper och hudproblem. Under den inledande konsultationen utför vi en noggrann analys av din hud för att identifiera dess unika behov. Baserat på denna analys skapar vi en skräddarsydd behandlingsplan som är perfekt anpassad för just din hudtyp.</p>'
                             ),
                             new Question(
-                                title: 'Hur ofta bör jag genomgå en hudvårdsbehandling?',
-                                text: '<p class="p200">I din personliga behandlingsplan, som vi tar fram under vår kostnadsfria konsultation, specificerar vi rekommenderade intervaller mellan behandlingarna. Dessa intervaller varierar beroende på vilken typ av behandling du väljer. Vissa behandlingar kan kräva sessioner med en veckas mellanrum, andra var fjärde vecka, och vissa kanske var sjätte vecka. Denna flexibilitet säkerställer att vi kan erbjuda en behandlingsplan som är optimal för just din hudtyp och dina behov.</p>'
+                                title: 'Hur anpassar ni metoden under behandlingsprocessen?',
+                                text: '<p class="p200">En framgångsrik hudvårdsbehandling kräver en nära dialog med din hudterapeut. Vi värderar och uppmuntrar denna kommunikation högt, eftersom det gör det möjligt för oss att finjustera din behandlingsplan baserat på hudens respons genom processen. Din personliga terapeut är alltid redo att svara på dina frågor och justera rekommendationerna efterhand för att säkerställa optimala resultat. Din hud är unik, och vår flexibilitet garanterar att vi möter dess föränderliga behov på bästa sätt.</p>'
                             ),
                         ),
 
