@@ -73,7 +73,7 @@ $steps = array(
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Ditt alternativ till hudläkare</h1>
-                    <p class="l10n">Vi på Acnespecialisten har utvecklat en unik metod i fyra steg där kundens problemhy står i fokus. Vi är ditt alternativ till en hudläkare, men utan remisser och långa köer. På våra hudmottagningar arbetar vi med att identifiera problemet, behandla det och sedan hjälpa dig att bibehålla den balans som vi påbörjat arbetet med att återställa. Vi vill vara ditt enkla och självklara val mot en problemfri hy!</p>
+                    <p class="l10n">Vi på Acnespecialisten har utvecklat en unik metod i fyra steg där kundens problemhy står i fokus. Vi är ditt alternativ till en hudläkare, men utan remisser och långa köer. På våra hudmottagningar arbetar vi med att identifiera problemet, behandla det och sedan hjälpa dig att förebygga och bibehålla den balans som vi påbörjat arbetet med att reparera och återställa. Vi vill vara ditt enkla och självklara val mot en problemfri hy!</p>
                 </section>
                 <section id="image">
                     <picture>

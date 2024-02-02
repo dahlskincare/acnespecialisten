@@ -7,6 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Om Oss - AcneSpecialisten | Din Partner i Hudvård</title>
+    <meta name="title" content="Om Oss - AcneSpecialisten | Din Partner i Hudvård" class="l10n">
     <meta name="description" content="AcneSpecialisten är din dedikerade partner i kampen mot acne och andra hudproblem. Med en kombination av expertkunskap, skräddarsydda behandlingar och en holistisk syn på hudvård, strävar vi efter att förbättra din hudhälsa och ditt välbefinnande.">
     <meta name="keywords" content="Acnebehandling, Hudvårdspecialister, Hudproblem, Ansiktsbehandling, Personlig hudvård, Hudhälsa, AcneSpecialistenn">
 
