@@ -172,7 +172,7 @@ $treatment_steps = array(
         content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
 
         url_label: 'Få gratis konsultation',
-        url: 'gratis-hudkonsultation',
+        url: 'gratis-hudkonsultation.php',
         url_title: 'Boka din kostnadsfria hudkonsultation idag'
     ),
     new TreatmentStep(
