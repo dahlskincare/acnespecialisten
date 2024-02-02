@@ -85,9 +85,9 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling för Blandhy hos Acnespecialisten',
 
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/blandhybehandling',
-        url_label: 'Läs Mer om Vår Ansiktsbehandling för Blandhy',
-        url_title: 'Mer Information om Vår Ansiktsbehandling för Blandhy',
+        url: '',
+        url_label: '',
+        url_title: '',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -174,7 +174,7 @@ $products = array(
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter för blandhy',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter för blandhy',
 
-        url: 'produkter/for-blandhy',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
         url_label: 'Utforska våra hudvårdsprodukter för blandhy',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter för blandhy',
         price: 'Acnespecialistens hudvårdsprodukter för blandhy - Pris från 1295 kr',
