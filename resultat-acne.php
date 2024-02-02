@@ -142,7 +142,7 @@ $pages = sizeof($results_per_page);
                 title: $result_category->title,
                 description: $result_category->description_1,
                 description_extended: $result_category->description_2,
-                button_url: 'gratis-hudkonsultation',
+                button_url: 'gratis-hudkonsultation.php',
                 button_label: 'Boka en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
