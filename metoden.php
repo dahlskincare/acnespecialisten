@@ -13,7 +13,7 @@ $steps = array(
     ),
     new StepModel(
         title: '02. Behandla',
-        content: "Efter identifieringen av dina hudproblem, tar vi nästa steg mot att behandla dem direkt. Våra specialister använder avancerade tekniker och behandlingsmetoder för att effektivt hantera dina specifika hudproblem och uppnå synliga resultat.",
+        content: "Efter att vi har identifierat ditt specifika hudproblem, går vi vidare till nästa steg – att inleda behandlingen med den metod som bäst passar just ditt tillstånd. Valet av behandlingsmetod baseras på problemets art och dina individuella behov.",
         image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
         url: 'behandlingar.php',
@@ -21,7 +21,7 @@ $steps = array(
     ),
     new StepModel(
         title: '03. Förebygga',
-        content: "För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydda råd och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.",
+        content: "För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.",
         image_small: 'bilder/behandlingar/358x274/produkter.webp',
         image_large: 'bilder/behandlingar/424x456/produkter.webp',
         url: 'https://dahlskincare.se',
@@ -29,10 +29,10 @@ $steps = array(
     ),
     new StepModel(
         title: '04. Reparera',
-        content: "I det sista steget i vår metod tar vi hand om eventuella återstående effekter av hudproblem, såsom ärr och pigmentförändringar. Vi erbjuder behandlingar och vård för att reparera och återställa huden, och ge dig en hälsosam och strålande hy.",
+        content: "I det sista steget i vår metod tar vi hand om eventuella återstående effekter av hudproblem, såsom ärr och pigmentförändringar. Vi erbjuder effektiva behandlingar för att reparera och återställa huden, och ge dig en hälsosam och strålande hy.",
         image_small: 'bilder/behandlingar/358x274/microneedling.webp',
         image_large: 'bilder/behandlingar/424x456/microneedling.webp',
-        url: 'behandlingar.php',
+        url: 'behandla-acnearr.php',
         url_label: 'Läs mer om eftervård'
     ),
 );
@@ -42,10 +42,10 @@ $steps = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Vår Metod</title>
-    <meta name="description" content="Upptäck Acnespecialistens unika fyrastegsmetod för effektiv hudvård. Vår metod kombinerar personlig konsultation, skräddarsydda behandlingar och kontinuerligt stöd för att nå optimala hudvårdsresultat." class="l10n">
+    <title class="l10n">Acnespecialisten - Expertis och Innovation inom Hudvård</title>
     <meta name="title" content="Acnespecialisten - Expertis och Innovation inom Hudvård" class="l10n">
-    <meta name="keywords" content="Acnespecialisten, hudvård, trestegsmetod, personlig konsultation, skräddarsydda behandlingar, hudhälsa" class="l10n">
+    <meta name="description" content="Upptäck AcneSpecialistens unika fyrastegsmetod för effektiv hudvård. Vår metod kombinerar personlig konsultation, skräddarsydda behandlingar och kontinuerligt stöd för att nå optimala hudvårdsresultat." class="l10n">
+    <meta name="keywords" content="Acnespecialisten, hudvård, fyrstegsmetod, personlig konsultation, skräddarsydda behandlingar" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
     <meta property="og:image" content="images/about-desktop.jpg" />
