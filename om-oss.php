@@ -90,7 +90,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                 <h3 class="h200 ml-s l10n">Unik helhetslösning</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                På AcneSpecialisten är vi dedikerade till att ge dig en omfattande lösning för din hud. Vår beprövade metod innebär att vi inte bara identifierar och behandlar dina hudproblem, utan även hjälper dig att bibehålla en frisk och balanserad hud på lång sikt. Genom hela processen står vi vid din sida, och vi tillhandahåller en skräddarsydd hudvårdsrutin som är anpassad specifikt för din unika hudtyp.
+                                På AcneSpecialisten är vi dedikerade till att ge dig en helhetslösning för din hy. Vår beprövade metod innebär att vi inte bara identifierar och behandlar dina hudproblem, utan även hjälper dig att förebygga och reparera huden. Genom hela processen står vi vid din sida, och vi tillhandahåller en skräddarsydd behandlingsplan som är anpassad specifikt för din unika hudtyp.
                             </p>
                         </div>
                         <div class="column">
@@ -99,7 +99,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                 <h3 class="h200 ml-s l10n">30 års erfarenhet</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                Sedan vår grundläggning 1994 har vi stolt hjälpt över 100.000 kunder att uppnå en bättre hudhälsa. Vår resa som AcneSpecialisten har varit fylld av kontinuerlig lärande och förfining av vår kunskap inom problemhy och hudvård. Vår långa erfarenhet ger oss en unik förmåga att ständigt utveckla och förbättra våra behandlingar och tjänster.
+                                Sedan vår start 1994 har vi stolt hjälpt flera hundra tusen personer att uppnå en problemfri hy. Vår resa som AcneSpecialisten har varit fylld av kontinuerlig lärande och förfining av vår kunskap inom problemhy och hudvård. Vår långa erfarenhet ger oss en unik förmåga att ständigt utveckla och förbättra våra behandlingar och tjänster.
                             </p>
                         </div>
                         <div class="column">
@@ -108,7 +108,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                                 <h3 class="h200 ml-s l10n">Diplomerade hudspecialister</h3>
                             </div>
                             <p class="bullet-desc l10n">
-                                Varje medlem i vårt team är en certifierad hudterapeut med specialutbildning inom de behandlingar vi erbjuder. Detta garanterar att alla behandlingar utförs med högsta möjliga kvalitet och precision, enligt branschstandarder och bästa praxis. Vårt engagemang för kvalitet och kunskap säkerställer att du får den mest effektiva och säkra hudvården.
+                                Varje specialist i vårt team är en certifierad hudterapeut med en Svenskt SHR-godkänd (Svenska hudterapeuters riksorganisation) utbildning. Detta garanterar att alla behandlingar utförs med högsta möjliga kvalitet och precision, enligt branschstandarder och bästa praxis. Vårt engagemang för kvalitet och kunskap säkerställer att du får den mest effektiva och säkra hudvården.
                             </p>
                         </div>
                     </div>
