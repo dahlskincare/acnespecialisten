@@ -48,9 +48,9 @@ $salons = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">AcneSpecialisten | Kontakt</title>
-    <meta name="description" content="Kontakta Acnespecialisten för professionell hudvård och rådgivning. Våra experter är redo att hjälpa dig med dina hudvårdsbehov på våra kliniker i Stockholm. Besök oss eller kontakta oss idag." class="l10n">
+    <title class="l10n">Kontakta Acnespecialisten | Expertis inom Hudvård</title>
     <meta name="title" content="Kontakta Acnespecialisten | Expertis inom Hudvård" class="l10n">
+    <meta name="description" content="Kontakta Acnespecialisten för professionell hudvård och rådgivning. Våra experter är redo att hjälpa dig med dina hudvårdsbehov på våra kliniker i Stockholm. Besök oss eller kontakta oss idag." class="l10n">
     <meta name="keywords" content="kontakta Acnespecialisten, hudvårdsexperter, hudklinik, professionell hudvård, Acnespecialisten Stockholm, hudvårdsrådgivning" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
@@ -75,7 +75,7 @@ $salons = array(
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Kontakt</h1>
-                    <p class="l10n">Vi på AcneSpecialisten har under 30 års tid utvecklat en unik behandlingsmetod för att effektivt behandla många olika sorters problemhy.</p>
+                    <p class="l10n">Välkommen att kontakta oss på AcneSpecialisten! Vi strävar efter att svara på alla förfrågningar inom en arbetsdag. För din bekvämlighet kan du nå oss genom vårt kontaktformulär, via telefon, e-post, eller direkt via chatten som du hittar nere i högra hörnet av vår webbsida. Vi ser fram emot att höra från dig och hjälpa dig med dina hudvårdsbehov.</p>
                 </section>
                 <section id="contact-details">
                     <div class="is-hidden-desktop">
