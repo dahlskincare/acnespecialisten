@@ -201,23 +201,23 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         'Generellt' => array(
                             new Question(
                                 title: 'Hur länge har AcneSpecialisten funnits?',
-                                text: '<p class="p200">AcneSpecialisten har varit en pionjär inom specialiserad hudvård sedan starten 1994, med över två decennier av erfarenhet och expertis.</p>'
+                                text: '<p class="p200">AcneSpecialisten har varit en ledande aktör inom hudvård sedan 1994, och under våra 30 år har vi hjälpt hundratusentals personer att övervinna deras hudproblem. Vårt engagemang och långvariga erfarenhet gör oss till det självklara valet för alla som söker en lösning på problemhy. Boka en kostnadsfri hudkonsultation för att inleda din resa mot ett liv utan hudproblem.</p>'
                             ),
                             new Question(
-                                title: 'Vilka tjänster erbjuder AcneSpecialisten?',
-                                text: '<p class="p200">Vi erbjuder en rad behandlingar, inklusive ansiktsbehandlingar, kemiska peelingar, laserterapi och skräddarsydda hudvårdsprogram, alla designade för att möta specifika hudvårdsbehov.</p>'
+                                title: 'Vad erbjuder AcneSpecialisten?',
+                                text: '<p class="p200">På AcneSpecialisten är vårt främsta mål att leverera hållbara resultat som helt eliminerar ditt hudproblem. Vi står ut från traditionella skönhetssalonger genom att agera som en specialiserad hudvårdsklinik med fokus på behandling av en mängd hudproblem. Vår expertis och behandlingsmetoder är anpassade för att effektivt adressera och lösa specifika hudåkommor, oavsett deras art eller omfattning.</p>'
+                            ),
+                            new Question(
+                                title: 'Kan alla besöka AcneSpecialisten?',
+                                text: '<p class="p200">Absolut! Vi välkomnar alla som upplever hudproblem, oavsett om de är stora eller små. Utöver att behandla hudåkommor erbjuder vi behandlingar för dem som önskar en huduppfräschning eller permanent hårborttagning. Från våra tidiga dagar med fokus på aknebehandlingar har vi utvidgat vårt erbjudande till att omfatta de flesta vanliga hudproblem – och lite till. Vår dörr står öppen för alla.</p>'
+                            ),
+                            new Question(
+                                title: 'Är ni hudläkare?',
+                                text: '<p class="p200">Vi på AcneSpecialisten är certifierade hudterapeuter med SHR-utbildning, specialiserade på akne och andra hudproblem, inte hudläkare. Med över 30 års erfarenhet i branschen har vi omfattande kunskap om och lösningar på akne, rosacea, pormaskar, pigmentfläckar, och mer. Vårt team är här för att erbjuda professionella råd och behandlingar baserade på djupgående kunskap om hudvård.</p>'
                             ),
                             new Question(
                                 title: 'Vad gör AcneSpecialisten unikt?',
-                                text: '<p class="p200">Vår dedikation till personlig vård, användning av avancerade behandlingstekniker och en holistisk syn på hudhälsa skiljer oss från andra kliniker.</p>'
-                            ),
-                            new Question(
-                                title: 'Kan jag boka en konsultation online?',
-                                text: '<p class="p200">Absolut, du kan enkelt boka en kostnadsfri konsultation via vår hemsida för att börja din resa mot bättre hudhälsa.</p>'
-                            ),
-                            new Question(
-                                title: 'Vad kan jag förvänta mig under min första konsultation?',
-                                text: '<p class="p200">Under din första konsultation kommer en av våra erfarna hudterapeuter att utföra en grundlig hudanalys, diskutera dina hudvårdsbehov och mål, och rekommendera en anpassad behandlingsplan.</p>'
+                                text: '<p class="p200">Det som särskiljer oss på AcneSpecialisten är att du vid ditt första besök tilldelas en personlig hudterapeut som stöttar dig genom hela din behandlingsprocess, från start till mål. Din terapeut utformar en behandlingsplan skräddarsydd för just din hudtyp och justerar sedan denna plan löpande för att optimalt passa din huds unika behov. Din personliga terapeut är alltid tillgänglig för frågor eller funderingar via en chatt i din profil, vilket garanterar en kontinuerlig, personlig och professionell service.</p>'
                             ),
                         ),
 
