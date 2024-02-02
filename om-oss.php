@@ -200,24 +200,24 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                 <?php $faq_categories = array(
                         'Generellt' => array(
                             new Question(
-                                title: 'Vad innebär det att ha en personlig terapeut hos er?',
-                                text: '<p class="p200">En personlig terapeut hos AcneSpecialisten fungerar som din personliga tränare (PT) för hudvård, vilken leder dig genom hela din behandlingsresa. Denna expert, som känner till ditt unika fall, skapar din behandlingsplan och står för kontinuerlig uppföljning och direktkontakt via chatten på din profil. De säkerställer en skräddarsydd och uppdaterad behandlingsprocess baserat på dina framsteg och behov.</p>'
+                                title: 'Hur länge har AcneSpecialisten funnits?',
+                                text: '<p class="p200">AcneSpecialisten har varit en pionjär inom specialiserad hudvård sedan starten 1994, med över två decennier av erfarenhet och expertis.</p>'
                             ),
                             new Question(
-                                title: 'Hur skiljer sig AcneSpecialistens metod från andra hudvårdskliniker?',
-                                text: '<p class="p200">Vår unika metod hos AcneSpecialisten bygger på en holistisk lösning. Vi kombinerar djupgående kunskap med de mest effektiva behandlingsmetoderna och korrekta hudvårdsrutiner för att ge dig ett omfattande stöd. Du behöver inte vända dig någon annanstans; vi tar hand om ditt hudproblem från början till slut med hjälp av din personliga terapeut. Detta garanterar en trygg och sammanhållen behandlingsprocess.</p>'
+                                title: 'Vilka tjänster erbjuder AcneSpecialisten?',
+                                text: '<p class="p200">Vi erbjuder en rad behandlingar, inklusive ansiktsbehandlingar, kemiska peelingar, laserterapi och skräddarsydda hudvårdsprogram, alla designade för att möta specifika hudvårdsbehov.</p>'
                             ),
                             new Question(
-                                title: 'Hur påbörjar jag min behandlingsprocess hos er?',
-                                text: '<p class="p200">Din resa med oss börjar med en kostnadsfri hudkonsultation. Under detta första möte med en av våra kvalificerade hudterapeuter, utvecklas en individuellt anpassad behandlingsplan specifikt för din hudtyp. Detta första steg ger dig en djupare förståelse för din hud och hur vi kan arbeta tillsammans för att uppnå de bästa möjliga resultaten.</p>'
+                                title: 'Vad gör AcneSpecialisten unikt?',
+                                text: '<p class="p200">Vår dedikation till personlig vård, användning av avancerade behandlingstekniker och en holistisk syn på hudhälsa skiljer oss från andra kliniker.</p>'
                             ),
                             new Question(
-                                title: 'Är er metod lämplig för alla hudtyper?',
-                                text: '<p class="p200">Absolut, vår metod är utformad för att tillgodose alla hudtyper och hudproblem. Under den inledande konsultationen utför vi en noggrann analys av din hud för att identifiera dess unika behov. Baserat på denna analys skapar vi en skräddarsydd behandlingsplan som är perfekt anpassad för just din hudtyp.</p>'
+                                title: 'Kan jag boka en konsultation online?',
+                                text: '<p class="p200">Absolut, du kan enkelt boka en kostnadsfri konsultation via vår hemsida för att börja din resa mot bättre hudhälsa.</p>'
                             ),
                             new Question(
-                                title: 'Hur anpassar ni metoden under behandlingsprocessen?',
-                                text: '<p class="p200">En framgångsrik hudvårdsbehandling kräver en nära dialog med din hudterapeut. Vi värderar och uppmuntrar denna kommunikation högt, eftersom det gör det möjligt för oss att finjustera din behandlingsplan baserat på hudens respons genom processen. Din personliga terapeut är alltid redo att svara på dina frågor och justera rekommendationerna efterhand för att säkerställa optimala resultat. Din hud är unik, och vår flexibilitet garanterar att vi möter dess föränderliga behov på bästa sätt.</p>'
+                                title: 'Vad kan jag förvänta mig under min första konsultation?',
+                                text: '<p class="p200">Under din första konsultation kommer en av våra erfarna hudterapeuter att utföra en grundlig hudanalys, diskutera dina hudvårdsbehov och mål, och rekommendera en anpassad behandlingsplan.</p>'
                             ),
                         ),
 

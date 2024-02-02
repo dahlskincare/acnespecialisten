@@ -76,7 +76,7 @@ $steps = array(
                     <p class="l10n">Vi på Acnespecialisten har utvecklat en unik metod i fyra steg där kundens problemhy står i fokus. Vi är ditt alternativ till en hudläkare, men utan remisser och långa köer. På våra hudmottagningar arbetar vi med att identifiera problemet, behandla det och sedan hjälpa dig att bibehålla den balans som vi påbörjat arbetet med att återställa. Vi vill vara ditt enkla och självklara val mot en problemfri hy!</p>
                 </section>
                 <section id="image">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3XmCJ8dROCw?si=mdTfCQagcdWUR58S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="1120" height="630" src="https://www.youtube.com/embed/3XmCJ8dROCw?si=mdTfCQagcdWUR58S" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section>
                 <section id="bullets">
                     <div class="columns is-variable is-3">
