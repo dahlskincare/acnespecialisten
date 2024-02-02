@@ -96,7 +96,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en expert inom hårbortagning som hjälper dig identifiera ditt behov av laserbehandling för oönskat hår och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'laserkonsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
             url_title: 'Boka din kostnadsfria konsultation för laserbehandling idag'
       ),
       new TreatmentStep(
@@ -104,7 +104,7 @@ $treatment_steps = array(
             content: 'Vi utför effektiva laserbehandlingar för permanent hårborttagning, anpassade för din hårtyp och hudton, så att du på ett säkert sätt kan bli av med oönskat hår för alltid.',
 
             url_label: 'Se laserbehandlingar för hårborttagning',
-            url: 'behandlingar/laser-hårborttagning',
+            url: 'permanent-harborttagning.php',
             url_title: 'Utforska våra skräddarsydda laserbehandlingar för permanent hårborttagning'
       ),
 );

@@ -247,9 +247,9 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för stora porer',
             image_title: 'Ansiktsbehandling för stora porer',
 
-            url: 'behandlingar/ansiktsbehandling-stora-porer',
-            url_label: 'Läs mer om ansiktsbehandling för stora porer',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling för stora porer',
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
@@ -270,9 +270,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling för stora porer',
             image_title: 'Laserbehandling för stora porer',
 
-            url_label: 'Läs mer om laser för stora porer',
-            url: 'behandlingar/laser-stora-porer',
-            url_title: 'Klicka här för att läsa mer om laserbehandling för stora porer',
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -293,9 +293,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling för stora porer',
             image_title: 'Kemisk peeling för stora porer behandling',
 
-            url: 'behandlingar/kemisk-peeling-stora-porer',
-            url_label: 'Läs mer om kemisk peeling för stora porer',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling för stora porer',
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',

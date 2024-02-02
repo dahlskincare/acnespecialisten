@@ -128,7 +128,7 @@ $treatment_steps = array(
 );
 
 
-$treatment_link = '<a href="problem/aknearr/aknearrbehandling" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
 
 $symptoms_title = 'Olika typer av ärr';
 
@@ -533,7 +533,7 @@ $related_problems = array(
             image: 'images/problems/102x102/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
-            url: 'akne.php',
+            url: 'acne.php',
             url_title: 'Akne'
       ),
 

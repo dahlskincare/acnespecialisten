@@ -116,7 +116,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera omfattningen och typen av dina bristningar och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
-            url: 'gratis-hudkonsultation',
+            url: 'gratis-hudkonsultation.php',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -124,7 +124,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva bristningsbehandlingar anpassade för din specifika hud och bristningstyp, så att du snabbt och säkert kan minska synligheten av dina bristningar.',
 
             url_label: 'Se bristningsbehandlingar',
-            url: 'behandlingar/bristningar',
+            url: 'problem/bristningar/behandla-bristningar',
             url_title: 'Utforska våra skräddarsydda bristningsbehandlingar'
       ),
 );

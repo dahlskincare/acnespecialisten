@@ -125,7 +125,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva behandlingar anpassade för din specifika hudförändring, så att du kan känna dig trygg och säker.',
 
             url_label: 'Se behandlingar för hudförändringar',
-            url: 'behandlingar/hudforandringar/behandla-hudforandringar',
+            url: 'problem/hudforandringar/behandla-hudforandringar',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
 

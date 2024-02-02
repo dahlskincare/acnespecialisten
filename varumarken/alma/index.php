@@ -21,7 +21,7 @@ $models = array(
         title: 'Hybrid (CO2)',
         subtitle: 'Avancerad laser för problemhy och ärr',
         content: 'Alma Hybrid CO2 laser är en innovativ lösning för behandling av problemhy och ärr. Denna laser kombinerar CO2-teknik med andra våglängder för att effektivt behandla akneärr och förbättra hudens textur och utseende. Idealisk för djupare hudförnyelse och ärrminskning, erbjuder Hybrid CO2 precisionsbehandling med snabb återhämtning.',
-        url: 'varumarken/alma/hybrid-c02',
+        url: 'alma-hybrid-co2-laser.php',
         url_label: 'Läs mer',
     ),
     new BrandModel(
@@ -29,7 +29,7 @@ $models = array(
         title: 'Harmony XL Pro',
         subtitle: 'Mångsidig laser och IPL-system',
         content: 'Harmony XL från Alma är ett mångsidigt system som erbjuder både laser- och IPL-behandlingar. Perfekt för en rad hudtillstånd inklusive akne, pigmentfläckar och ytliga blodkärl. Denna plattform ger skräddarsydda lösningar för både hudföryngring och specifika hudproblem, med olika handstycken för att passa olika behandlingsbehov.',
-        url: 'varumarken/alma/harmony-xl',
+        url: 'alma-harmony-xl-pro.php',
         url_label: 'Läs mer',
     ),
     new BrandModel(
@@ -301,10 +301,10 @@ $all_brands = array(
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
-                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Boka konsultation">Boka konsultation</a>
+                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem" class="button b200 white expand l10n" title="Boka konsultation">Boka konsultation</a>
                             </div>
                             <div class="column is-half">
-                                <a href="bokadirekt" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
+                                <a href="https://acnespecialisten.se/book?flow=laserProblem" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
                             </div>
                         </div>
                     </div>
@@ -324,8 +324,8 @@ $all_brands = array(
                         <h1 class="h600 l10n">Alma</h1>
                         <div class="mt-s l10n p200">Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice. Dessa avancerade maskiner erbjuder en bred palett av behandlingar, från hudföryngring och pigmentkorrigering till effektiv hårborttagning och behandling av vaskulära problem. Varje system är designat för att ge säkra, skonsamma och effektiva lösningar för en mängd olika hudtillstånd, vilket gör det möjligt för oss att skräddarsy behandlingar efter dina unika hudvårdsbehov.</div>
                         <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Boka konsultation">Boka konsultation</a>
-                            <a href="bokadirekt" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
+                            <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem" class="button b200 white l10n" title="Boka konsultation">Boka konsultation</a>
+                            <a href="https://acnespecialisten.se/book?flow=laserProblem" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
                         </div>
                     </div>
                 </div>

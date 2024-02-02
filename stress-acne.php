@@ -29,12 +29,12 @@ $akas = [
       ),
       new Link(
             label: 'Vuxenakne',
-            url: 'vuxenakne.php',
+            url: 'vuxenacne.php',
             title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
       ),
       new Link(
             label: 'Tonårsakne',
-            url: 'tonarsakne.php',
+            url: 'tonarsacne.php',
             title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
       ),
 ];

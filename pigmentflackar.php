@@ -326,9 +326,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_PigmentationSpots',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för pigmentfläckar',
-            url: 'behandlingar/kemisk-peeling-pigmentflackar',
-            url_label: 'Läs mer om kemisk peeling för pigmentfläckar',
-            url_title: 'Klicka här för att läsa mer om kemisk peeling för pigmentfläckar'
+            url: '',
+            url_label: '',
+            url_title: ''
       ),
       new Service(
             title: 'Laserbehandling mot pigmentfläckar',
@@ -345,9 +345,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_PigmentationSpots',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
-            url: 'behandlingar/laserbehandling-pigmentflackar',
-            url_label: 'Läs mer om laserbehandling för pigmentfläckar',
-            url_title: 'Klicka här för att läsa mer om laserbehandling mot pigmentfläckar'
+            url: '',
+            url_label: '',
+            url_title: ''
       ),
 
       new Service(
@@ -365,9 +365,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_PigmentationSpots',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för pigmentfläckar',
-            url: 'behandlingar/microneedling-pigmentflackar',
-            url_label: 'Läs mer om microneedling för pigmentfläckar',
-            url_title: 'Klicka här för att läsa mer om microneedling-behandling för pigmentfläckar'
+            url: '',
+            url_label: '',
+            url_title: ''
       ),
 );
 
