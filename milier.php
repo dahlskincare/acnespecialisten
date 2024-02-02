@@ -336,7 +336,7 @@ $services = array(
             image_alt: 'Bild av en behandling mot milier',
             image_title: 'Behandling mot milier',
 
-            url: 'behandlingar/behandling-milier',
+            url: 'milierbehandling.php',
             url_label: 'Läs mer om behandling mot milier',
             url_title: 'Klicka här för att läsa mer om behandling mot milier',
 

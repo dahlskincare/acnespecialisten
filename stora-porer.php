@@ -145,7 +145,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="problem/stora-porer/behandla-stora-porer" title="Utforska effektiva behandlingar för stora porer" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för stora porer</a>';
+$treatment_link = '<a href="behandla-stora-porer.php" title="Utforska effektiva behandlingar för stora porer" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för stora porer</a>';
 
 $symptoms_title = 'Stora porer symptom';
 
@@ -220,7 +220,7 @@ $service = new Service(
       image_title: 'Konsultation för behandling av stora porer',
 
       url_label: 'Läs mer om vår konsultation för stora porer',
-      url: 'hudkonsultation-stora-porer',
+      url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 
       consultation_url_label: 'Boka konsultation',

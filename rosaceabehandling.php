@@ -51,7 +51,7 @@ $define_image_title = 'Hur vi tar bort och behandlar rosacea?';
 
 $define_content = '<p class="p200">Första steget i vår process att behandla rosacea är att kartlägga din typ av rosacea. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation";
+$define_consultation_link = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
 $define_consultation_link_label = "Boka Gratis Konsultation för Rosacea";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot rosacea";
 
