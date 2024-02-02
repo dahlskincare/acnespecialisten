@@ -70,7 +70,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             </picture>
                         </div>
                     </div>
-                    <p class="mt-xl p200 is-hidden-tablet l10n">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
+                    <p class="mt-xl p200 is-hidden-tablet l10n">AcneSpecialisten använder en fyrstegsmetod för hudvård, som börjar med en gratis konsultation för att <b>identifiera</b> hudproblem. Vi fortsätter med anpassade <b>behandlingar</b>, följer upp med <b>förebyggande</b> hudvård, och avslutar med att <b>reparera</b> skadad hud, inklusive ärr. Denna metod säkerställer en komplett lösning från diagnos till reparation, med personlig rådgivning under hela processen.</p>
                 </section>
                 <section id="hands" class="large-margin">
                     <h2 class="h500 l10n">Från start till mål – Din partner i holistisk hudvård</h2>
