@@ -147,8 +147,8 @@ $salons = array(
                                 <div class="h400 l10n">Ditt meddelande har skickats</div>
                                 <div class="p200 mt-xxs l10n">Vi kommer att svara dig så snart vi kan.</div>
                             </div>
-                            <a href="kontakt" class="is-hidden-touch" title="Resend">Skicka igen</a>
-                            <a href="kontakt" class="is-hidden-desktop button outline white expand mt-xl" title="Resend">Skicka igen</a>
+                            <a href="kontakt.php" class="is-hidden-touch" title="Skicka igen">Skicka igen</a>
+                            <a href="kontakt.php" class="is-hidden-desktop button outline white expand mt-xl" title="Skicka igen">Skicka igen</a>
                         </div>
                     </section>
                 <?php } else {  ?>
