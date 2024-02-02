@@ -340,7 +340,7 @@
                                     image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
                                     image_title: 'Ansiktsbehandling',
                                     image_alt: 'Kvinna som får ansiktsbehandling i ansiktet.',
-                                    url: 'behandlingar/ansiktsbehandlingar-problemhy',
+                                    url: 'problemhy.php',
                                     url_title: 'Läs mer och boka tid för ansiktsbehandling.',
                                     show_on_large: true,
                                     show_on_small: true
@@ -362,7 +362,7 @@
                                     image_large: 'bilder/behandlingar/424x324/laser-mot-problemhy.webp',
                                     image_title: 'Laserbehandling i ansiktet',
                                     image_alt: 'Närbild på person som får laserbehandling på kinden.',
-                                    url: 'behandlingar/laser-mot-problemhy',
+                                    url: 'behandlingar/laser-mot-hudproblem',
                                     url_title: 'Läs mer och boka tid för laser.',
                                     show_on_large: true,
                                     show_on_small: true
@@ -384,7 +384,7 @@
                                     image_large: 'bilder/behandlingar/424x324/ipl.webp',
                                     image_title: 'IPL-behandling i ansiktet',
                                     image_alt: 'Kvinna som får IPL-behandling i ansiktet.',
-                                    url: 'behandlingar/laser-mot-problemhy',
+                                    url: 'ipl.php',
                                     url_title: 'Läs mer och boka tid för IPL.',
                                     show_on_large: true,
                                     show_on_small: true,
@@ -431,7 +431,7 @@
                               'Generellt' => array(
                                   new Question(
                                       title: 'Behandlar Acnespecialisten enbart akne?',
-                                      text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="problemhy.php">problemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
+                                      text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="hudproblem.php">hudproblemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
                                   ),
                                   new Question(
                                       title: 'Kan jag besöka Acnespecialisten även för mindre hudproblem?',
@@ -479,7 +479,7 @@
                                                       <div class="h200 l10n">30 års erfarenhet</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Sedan 1994 har vi hjälpt över 200 000 kunder med hudproblem och hudvård, och är idag det självklara valet mot problemhy.
+                                                      Sedan 1994 har vi hjälpt över 200 000 kunder med hudproblem och hudvård, och är idag det självklara valet mot hudproblem.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>

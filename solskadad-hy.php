@@ -91,7 +91,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="problem/pigmentflackar/behandla-pigmentflackar" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot solskadad hy</a>';
+$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot solskadad hy</a>';
 
 
 $top_articles = array(

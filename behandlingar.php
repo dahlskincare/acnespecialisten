@@ -66,7 +66,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Laser',
-        url: 'behandlingar/laser-mot-problemhy',
+        url: 'behandlingar/laser-mot-hudproblem',
         url_title: 'Läs mer om laser'
     ),
     new Treatment(

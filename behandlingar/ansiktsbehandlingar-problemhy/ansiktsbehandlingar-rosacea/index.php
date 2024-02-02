@@ -9,6 +9,11 @@ $seo_keywords = 'ansiktsbehandlingar för rosacea, rosaceabehandling, lugnande h
 
 $seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Ansiktsbehandlingar mot rosacea', '/behandlingar/ansiktsbehandlingar-rosacea'),
+);
+
 $model = new Service(
     title: 'Ansiktsbehandling mot rosacea',
     duration: '60 min',

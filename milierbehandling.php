@@ -93,7 +93,7 @@ $treatment_steps = array(
         content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
 
         url_label: 'Få gratis konsultation',
-        url: 'gratis-hudkonsultation',
+        url: 'gratis-hudkonsultation.php',
         url_title: 'Boka din kostnadsfria hudkonsultation idag'
     ),
     new TreatmentStep(

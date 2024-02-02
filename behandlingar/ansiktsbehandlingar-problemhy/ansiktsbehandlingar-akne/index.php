@@ -9,6 +9,10 @@ $seo_keywords = 'aknebehandling, ansiktsbehandlingar för akne, bekämpa akne, e
 
 $seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Ansiktsbehandlingar mot akne', '/behandlingar/ansiktsbehandlingar-akne'),
+);
 
 $model = new Service(
     title: 'Ansiktsbehandlingar mot akne',
