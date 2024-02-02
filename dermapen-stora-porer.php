@@ -115,36 +115,99 @@ $big_types = array(
 
 $results = array(
     new ResultCustomer(
+        url: '',
         image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
         image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        url_title: 'Akne resultat',
         image_alt: 'Akne resultat',
         image_title: 'Akne resultat',
+        age: 21,
+        gender: 'Kvinna',
+        problem: 'Akne',
+        type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
+            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Aknebehandling',
+                    count: '5 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår akne',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Cazzandra Lindberg'
+            ),
         )
     ),
     new ResultCustomer(
+        url: '',
         image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
         image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        url_title: 'Akne resultat',
         image_alt: 'Akne resultat',
         image_title: 'Akne resultat',
+        age: 18,
+        gender: 'Kvinna',
+        problem: 'Akne',
+        type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 2 månaders behandling av <a href="/problem/akne/aknebehandling" title="akne">akne</a>',
+            duration: '<a href="acne.php" title="Akne">Akne</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Aknebehandling',
+                    count: '3 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår akne',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Julia Eklund'
+            ),
         )
     ),
     new ResultCustomer(
+        url: '',
         image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
         image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        url_title: 'Rosacea resultat',
         image_alt: 'Rosacea resultat',
         image_title: 'Rosacea resultat',
+        age: 33,
+        gender: 'Kvinna',
+        problem: 'Rosacea',
+        type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 4 månaders behandling av <a href="/problem/rosacea/rosaceabehandling" title="akne">akne</a>',
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Rosaceabehandling',
+                    count: '3 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår rosacea',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Julia Eklund'
+            ),
         )
     ),
 );
