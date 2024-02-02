@@ -395,9 +395,6 @@ $type_categories = array(
 
 );
 
-$types_url = '<a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av akne</a>
-              <a href="problem/akne/typer" title="Lär dig mer om olika typer av akne och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av akne</a>';
-
 $symptoms_title = 'Akne symptom';
 
 $symptoms = array(
@@ -1210,7 +1207,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <?php echo $types_url ?>
+                                    
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
