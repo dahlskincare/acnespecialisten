@@ -45,7 +45,7 @@ $headline01 = "01. Identifiera dina bristningar";
 
 $define_content = '<p class="p200">Det första steget i vår process för att behandla bristningar är att kartlägga och analysera bristningarnas omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/boka-hudkonsultation-bristningar";
+$define_consultation_link = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks";
 $define_consultation_link_label = "Boka Gratis Konsultation för Bristningar";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för bristningar";
 

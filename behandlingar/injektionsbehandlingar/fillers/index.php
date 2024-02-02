@@ -52,49 +52,23 @@ $description_text = '<p class="p200">På AcneSpecialisten erbjuder vi fillers so
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför fillers',
-        image_small: 'https://via.placeholder.com/358x272.webp',
-        image_large: 'https://via.placeholder.com/872x456.webp',
+        image_small: null,
+        image_large: null,
         image_alt: 'Förberedelse inför fillers',
         image_title: 'Förberedelse inför fillers',
         content: '<p class="p200">På AcneSpecialisten börjar din resa mot förbättrad hudhälsa med en grundlig konsultation inför din fillersbehandling. Denna initiala konsultation, följt av en 48 timmars betänketid, är avgörande för att skapa en skräddarsydd plan som speglar dina unika behov och estetiska mål. Under denna tid diskuterar vi dina förväntningar och tidigare erfarenheter, för att säkerställa att behandlingen blir så framgångsrik som möjligt.</p>
         <p class="p200 mt-m">För att förbereda dig inför behandlingen, rekommenderar vi att du undviker direkt solljus och avstår från att använda produkter som kan irritera huden, såsom retinol eller exfolierande syror, under dagarna före din session. Denna försiktighet hjälper till att minimera risken för irritation eller oönskade reaktioner. Vi uppmuntrar dig att komma till din behandling med en klar förståelse av processen och realistiska förväntningar på resultatet.</p>
         <p class="p200 mt-m">Vårt team på AcneSpecialisten är här för att ge dig vägledning och stöd genom hela din behandlingsprocess. Din komfort och säkerhet är vår högsta prioritet, och vi strävar efter att ge dig en behandling som är både skonsam och effektiv. Vi välkomnar alla dina frågor och funderingar under konsultationen och ser fram emot att hjälpa dig att uppnå dina skönhetsmål.</p>',
-                tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
     'process' => new Article(
         title: 'Hur går fillersbehandlingar till?',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Hur går fillersbehandlingar till?',
     image_title: 'Hur går fillersbehandlingar till?',
     content: '<p class="p200">Vid AcneSpecialisten är varje steg i vår fillersbehandling omsorgsfullt planerad för att säkerställa bästa resultat. Din behandlingsresa inleds med en omfattande konsultation där vi utforskar dina estetiska mål och noggrant analyserar din hud. Denna viktiga dialog följs av en betänketid på 48 timmar, vilket ger dig tid att överväga behandlingen noggrant.</p>
     <p class="p200 mt-m">När du väl bestämt dig för att gå vidare, börjar behandlingsdagen med en grundlig rengöring av det valda området. Vi markerar sedan specifikt var behandlingen ska utföras för att garantera precision. Behandlingen, som utförs med största omsorg, innefattar användningen av avancerade injektionstekniker som inte bara uppfyller dina önskemål utan också minimerar eventuellt obehag.</p>
     <p class="p200 mt-m">Direkt efter behandlingen får du utförliga eftervårdsanvisningar för att underlätta en smidig återhämtning och optimera resultatet. Lätt rodnad eller svullnad i behandlingsområdet är normalt och bör snart avta. För att säkerställa att du är helt nöjd med resultatet erbjuder vi uppföljningssessioner där vi kan göra eventuella justeringar. Vi är engagerade i att ge dig en trygg och tillfredsställande upplevelse från start till slut.</p>',
-        tags: array(new ArticleTag(
-            icon: 'article-tag-steam',
-            label: 'Steam'
-        ), new ArticleTag(
-            icon: 'article-tag-extraction',
-            label: 'Extraction'
-        ), new ArticleTag(
-            icon: 'article-tag-mask',
-            label: 'Mask'
-        ), new ArticleTag(
-            icon: 'article-tag-cleansing',
-            label: 'Cleansing'
-        ))
     ),
 );
 
@@ -102,8 +76,8 @@ $treatment_areas_title = 'Behandlingsområden för Fillers';
 $treatment_areas_text = '<p class="p200">Vi anpassar alltid mängden fillers efter dina behov och önskemål.</p>';
 $treatment_areas = array(
     new TreatmentArea(
-        image_small: 'https://via.placeholder.com/361x274.webm',
-        image_large: 'https://via.placeholder.com/872x456.webm',
+        image_small: null,
+        image_large: null,
         image_alt: 'Fillers',
         image_title: 'Fillers',
         title: 'Fillers',
@@ -314,14 +288,13 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård och underhåll efter fillers',
-    image_small: 'https://via.placeholder.com/358x272.webp',
-    image_large: 'https://via.placeholder.com/872x456.webp',
+    image_small: null,
+    image_large: null,
     image_alt: 'Eftervård och underhåll efter fillers',
     image_title: 'Eftervård och underhåll efter fillers',
     content: '<p class="p200">Efter din fillersbehandling på AcneSpecialisten är det avgörande att du noggrant följer våra rekommendationer för eftervård för att optimera och bevara behandlingens effekter. Direkt efter behandlingen är det viktigt att minimera exponering för starkt solljus och alltid använda ett solskydd med hög SPF för att skydda det behandlade området.</p>
     <p class="p200 mt-m">Det är vanligt med en viss grad av svullnad eller blåmärken efter behandlingen. Det är viktigt att undvika att röra eller massera det behandlade området under de första kritiska dagarna. Vid behov kan en kall kompress användas för att lindra eventuell svullnad. Vi rekommenderar även att du håller huden återfuktad med de hudvårdsprodukter som vi rekommenderar, för att stödja och påskynda läkningsprocessen.</p>
     <p class="p200 mt-m">En hälsosam kost och tillräckligt med vätskeintag är viktiga komponenter för din huds återhämtning och allmänna välbefinnande. Undvik alkohol och var försiktig med användningen av blodförtunnande medel, som kan öka risken för blåmärken. För att underhålla och förlänga effekten av din behandling kan regelbundna uppföljningsbesök vara nödvändiga. Om du har några frågor om din eftervård, tveka inte att kontakta oss på AcneSpecialisten för personliga råd och vägledning.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $results = array(
@@ -339,7 +312,7 @@ $results = array(
         problem: 'Akne',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 3 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -371,7 +344,7 @@ $results = array(
         problem: 'Akne',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 2 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+            duration: '<a href="acne.php" title="Akne">Akne</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -403,7 +376,7 @@ $results = array(
         problem: 'Rosacea',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: 'Efter 4 månaders behandling av <a href="/problme/rosacea/rosaceabehandling" title="akne">akne</a>',
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
