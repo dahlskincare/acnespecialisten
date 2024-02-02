@@ -86,9 +86,9 @@ $salons = array(
                         <a href="tel:08-29 61 01" class="button b200 outline expand l10n" title="Ring oss">Ring oss</a>
                         <div class="p200">
                             <strong class="l10n">E-post&nbsp;</strong>
-                            <span>kund@acnespecialisten.se</span>
+                            <span>hej@acnespecialisten.se</span>
                         </div>
-                        <a href="mailto:kund@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
+                        <a href="mailto:hej@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
                     </div>
                     <div class="is-hidden-touch flex-row mt-xl">
                         <div>
@@ -97,12 +97,12 @@ $salons = array(
                         </div>
                         <div class="ml-xxl">
                             <strong class="h200 l10n">E-post&nbsp;</strong>
-                            <a class="h200 color-deep-sea-400" href="mailto:kund@acnespecialisten.se" title="kund@acnespecialisten.se">kund@acnespecialisten.se</a>
+                            <a class="h200 color-deep-sea-400" href="mailto:hej@acnespecialisten.se" title="hej@acnespecialisten.se">hej@acnespecialisten.se</a>
                         </div>
                     </div>
                 </section>
                 <?php if (array_key_exists('message', $_GET)) {
-                    $to = "kund@acnespecialisten.se";
+                    $to = "hej@acnespecialisten.se";
                     $subject = "Acnespecialisten form";
                     $message = "
                     <html>
@@ -285,9 +285,6 @@ $salons = array(
                     <?php } ?>
                 </section>
             </div>
-            <section id="results" class="large-margin">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
-            </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Omdömen</div>
@@ -310,18 +307,6 @@ $salons = array(
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>
-            <section id="faq" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Frågor & Svar</h2>
-                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla frågor</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
-            </section>
-            <!--Hudguide-->
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Våra specialister</h2>
