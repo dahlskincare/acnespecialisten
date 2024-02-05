@@ -12,7 +12,7 @@ $seo_image = 'images/treatments/large/mogen-hy.jpg';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
-      new PathSegment('Mogen hy', '/mogen-hy'),
+      new PathSegment('Mogen hy', '/mogen-hy.php'),
       new PathSegment('Behandla Mogen hy', '/problem/mogen-hy/behandla-mogen-hy/'),
 );
 
