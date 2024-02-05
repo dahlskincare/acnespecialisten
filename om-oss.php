@@ -35,12 +35,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <h1 class="h600 l10n">Om AcneSpecialisten</h1>
                     <p class="p200 l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv fyrstegsmetod för att behandla hudproblem. Vårt engagerade team av hudterapeuter följer dig genom hela behandlingsprocessen, från noggrann hudkonsultation till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud.</p>
                 </section>
-                <section id="plant">
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="images/about-plant.jpg">
-                        <source media="(min-width: 800px)" srcset="images/about-plant-large.jpg">
-                        <img src="images/about/about-plant.jpg" alt="Om AcneSpecialisten" title="Om AcneSpecialisten" width="360" height="274" />
-                    </picture>
+                <section>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/3XmCJ8dROCw?si=ITCRjBGvBZBeP2ML" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </section>
                 <section id="segments" class="large-margin">
                     <h2 class="h500 mb-l is-hidden-tablet l10n">Din helhetslösning för hudproblem</h2>
