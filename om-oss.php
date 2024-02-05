@@ -48,22 +48,22 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                             </div>
                             <div id="s-first-images">
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="om-oss/images/segments-left.jpg">
-                                    <source media="(min-width: 800px)" srcset="om-oss/images/segments-left-large.jpg">
-                                    <img src="images/about/segments-left.jpg" alt="Salon 1" title="Salon 1" width="114" height="214" />
+                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/helhetslosning-1.webp">
+                                    <source media="(min-width: 800px)" srcset="bilder/om-oss/helhetslosning-1.webp">
+                                    <img src="bilder/om-oss/helhetslosning-1.webp" alt="Salon 1" title="Salon 1" width="114" height="214" />
                                 </picture>
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="om-oss/images/segments-mid.jpg">
-                                    <source media="(min-width: 800px)" srcset="om-oss/images/segments-mid-large.jpg">
-                                    <img src="images/about/segments-mid.jpg" alt="Salon 2" title="Salon 2" width="114" height="157" />
+                                    <source media="(max-width: 799px)" srcset="helhetslosning-2.webp">
+                                    <source media="(min-width: 800px)" srcset="helhetslosning-2.webp">
+                                    <img src="helhetslosning-2.webp" alt="Salon 2" title="Salon 2" width="114" height="157" />
                                 </picture>
                             </div>
                         </div>
                         <div id="s-last">
                             <picture>
-                                <source media="(max-width: 799px)" srcset="om-oss/images/segments-right.jpg">
-                                <source media="(min-width: 800px)" srcset="om-oss/images/segments-right-large.jpg">
-                                <img src="images/about/segments-right.jpg" alt="Salon 3" title="Salon 3" width="114" height="272" />
+                                <source media="(max-width: 799px)" srcset="helhetslosning-3.webp">
+                                <source media="(min-width: 800px)" srcset="helhetslosning-3.webp">
+                                <img src="helhetslosning-3.webp" alt="Salon 3" title="Salon 3" width="114" height="272" />
                             </picture>
                         </div>
                     </div>
@@ -73,9 +73,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <h2 class="h500 l10n">Från start till mål – Din partner i holistisk hudvård</h2>
                     <p class="mt-m p200 l10n is-hidden-mobile">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                     <picture>
-                        <source media="(max-width: 799px)" srcset="om-oss/images/about-hands.jpg">
-                        <source media="(min-width: 800px)" srcset="om-oss/images/about-hands-large.jpg">
-                        <img src="images/about/about-hands.jpg" alt="Vi siktar mot målet!" title="Vi siktar mot målet!" width="358" height="274" />
+                        <source media="(max-width: 799px)" srcset="start-mal.webp">
+                        <source media="(min-width: 800px)" srcset="start-mal.webp">
+                        <img src="start-mal.webp" alt="Vi siktar mot målet!" title="Vi siktar mot målet!" width="358" height="274" />
                     </picture>
                     <p class="p200 mt-xl l10n is-hidden-tablet">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling genom kostnadsfria återbesök. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                 </section>
@@ -115,9 +115,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <div class="flex-row align-center">
                         <div>
                             <picture>
-                                <source media="(max-width: 799px)" srcset="om-oss/images/about-drip.jpg">
-                                <source media="(min-width: 800px)" srcset="om-oss/images/about-drip-large.jpg">
-                                <img src="images/about/about-drip.jpg" alt="Method" title="Method" width="358" height="272" />
+                                <source media="(max-width: 799px)" srcset="beprovad-expertis.webp">
+                                <source media="(min-width: 800px)" srcset="beprovad-expertis.webp">
+                                <img src="beprovad-expertis.webp" alt="Method" title="Method" width="358" height="272" />
                             </picture>
                         </div>
                         <div class="is-hidden-touch">
