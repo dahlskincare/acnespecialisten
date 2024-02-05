@@ -117,7 +117,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är designade för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
 
             url_label: 'Se behandlingar för mogen hy',
-            url: 'behandlingar/mogenhy/behandla-mogen-hy',
+            url: 'behandlingar/mogen-hy/behandla-mogen-hy',
             url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
       new TreatmentStep(

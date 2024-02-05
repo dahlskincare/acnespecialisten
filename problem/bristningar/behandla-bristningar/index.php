@@ -539,7 +539,7 @@ $brands_url_title = "Varumärken för behandling av bristningar";
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Frågor & Svar</h2>
-                        <a href="faq" title="FAQ" class="button compact text is-hidden-mobile">
+                        <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
                             <span class="l10n">Läs fler frågor & svar</span>
                             <?php icon('navigate-next') ?>
                         </a>

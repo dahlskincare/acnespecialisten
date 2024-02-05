@@ -317,7 +317,7 @@ $article = new SkinGuideArticle(
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Frågor & svar</div>
-                    <a href="faq" class="button compact text is-hidden-mobile">
+                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla frågor</span>
                         <?php icon('navigate-next') ?>
                     </a>

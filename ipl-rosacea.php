@@ -167,7 +167,7 @@ $treatment_steps = array(
         title: 'Behandla',
         content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
         url_label: 'Se behandlingar',
-        url: 'rosaceabehandling.php',
+        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
         url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
     ),
     new TreatmentStep(
@@ -181,7 +181,7 @@ $treatment_steps = array(
         title: 'Reparera',
         content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
         url_label: 'Se IPL-behandlingar',
-        url: 'behandlingar/rosacea',
+        url: 'ipl-ytliga-blodkarl.php',
         url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
     ),
 
