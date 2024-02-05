@@ -73,9 +73,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <h2 class="h500 l10n">Från start till mål – Din partner i holistisk hudvård</h2>
                     <p class="mt-m p200 l10n is-hidden-mobile">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                     <picture>
-                        <source media="(max-width: 799px)" srcset="start-mal.webp">
-                        <source media="(min-width: 800px)" srcset="start-mal.webp">
-                        <img src="start-mal.webp" alt="Kvinna som får estetisk maskinbehandling" title="Från start till mål" width="358" height="274" />
+                        <source media="(max-width: 799px)" srcset="bilder/om-oss/start-mal.webp">
+                        <source media="(min-width: 800px)" srcset="bilder/om-oss/start-mal.webp">
+                        <img src="bilder/om-oss/start-mal.webp" alt="Kvinna som får estetisk maskinbehandling" title="Från start till mål" width="358" height="274" />
                     </picture>
                     <p class="p200 mt-xl l10n is-hidden-tablet">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling genom kostnadsfria återbesök. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                 </section>
@@ -115,9 +115,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                     <div class="flex-row align-center">
                         <div>
                             <picture>
-                                <source media="(max-width: 799px)" srcset="beprovad-expertis.webp">
-                                <source media="(min-width: 800px)" srcset="beprovad-expertis.webp">
-                                <img src="beprovad-expertis.webp" alt="Hudterapeut som utför estetisk maskinbehandling i ansiktet på en man" title="Estetisk maskinbehandling" width="358" height="272" />
+                                <source media="(max-width: 799px)" srcset="bilder/om-oss/beprovad-expertis.webp">
+                                <source media="(min-width: 800px)" srcset="bilder/om-oss/beprovad-expertis.webp">
+                                <img src="bilder/om-oss/beprovad-expertis.webp" alt="Hudterapeut som utför estetisk maskinbehandling i ansiktet på en man" title="Estetisk maskinbehandling" width="358" height="272" />
                             </picture>
                         </div>
                         <div class="is-hidden-touch">
