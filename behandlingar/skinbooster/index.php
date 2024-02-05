@@ -9,6 +9,11 @@ $seo_keywords = 'skinbooster, återfuktning, hudföryngring, vitalisera huden, t
 
 $seo_image = 'images/treatments/large/skinbooster.jpg';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Skinbooster', '/behandlingar/skinbooster/'),
+);
+
 $model = new Service(
     title: 'Skinbooster',
     duration: '50 min',

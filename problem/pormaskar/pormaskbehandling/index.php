@@ -10,6 +10,12 @@ $seo_keywords = 'pormaskar, portömning, pormaskbehandling, orsaker till pormask
 
 $seo_image = 'images/treatments/large/pormaskar.jpg';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Pormaskar', '/pormaskar.php'),
+      new PathSegment('Pormaskbehandling', '/problem/pormaskar/pormaskbehandling/'),
+);
+
 $image_small = 'bilder/problem/424x324/pormaskar.webp';
 $image_large = 'bilder/problem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar pormaskar';

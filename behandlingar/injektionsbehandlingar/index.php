@@ -9,6 +9,10 @@ $seo_keywords = 'injektionsbehandlingar, hudföryngring, rynkreducering, volymå
 
 $seo_image = 'images/treatments/large/injektionsbehandlingar.jpg';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Injektioner', '/behandlingar/injektioner/'),
+);
 
 $model = new Service(
     title: 'Injektionsbehandlingar',

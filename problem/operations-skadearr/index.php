@@ -12,6 +12,11 @@ $seo_keywords = 'operationsärr, skadeärr, behandling av ärr, orsaker till är
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 $seo_image = 'images/treatments/large/arr.jpg';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Operations- och Skadeärr', '/problem/operations-skadearr'),
+);
+
 $title = 'Operations- och Skadeärr';
 
 $image_small = 'bilder/problem/424x324/operations-skadearr.webp';

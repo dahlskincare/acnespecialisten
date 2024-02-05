@@ -13,6 +13,11 @@ $seo_keywords = 'bristningar, behandling av bristningar, orsaker till bristninga
 
 $seo_image = 'bilder/problem/424x456/bristningar.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Bristningar', '/problem/bristningar'),
+);
+
 $title = 'Bristningar';
 
 $image_small = 'bilder/problem/424x324/bristningar.webp';

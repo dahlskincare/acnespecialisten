@@ -9,6 +9,12 @@ $seo_keywords = 'fillerbehandlingar, ålderslinjer, volymåterställning, naturl
 
 $seo_image = 'images/treatments/large/fillers.jpg';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Injektioner', '/behandlingar/injektioner/'),
+      new PathSegment('Fillers', '/behandlingar/injektioner/fillers/'),
+);
+
 $model = new Service(
     title: 'Fillers',
     duration: null,

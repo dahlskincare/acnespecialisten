@@ -9,6 +9,11 @@ $seo_keywords = 'dermabrasion, hudföryngring, acneärrbehandling, hudslipning, 
 
 $seo_image = 'images/treatments/large/dermabrasion.jpg';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Dermabrasion', '/behandlingar/dermabrasion/'),
+);
+
 $model = new Service(
     title: 'Dermabrasion',
     duration: null,

@@ -11,6 +11,11 @@ $seo_keywords = 'oönskat hår, hårborttagning, orsaker till oönskat hår, fö
 
 $seo_image = 'bilder/problem/424x456/oonskat-har.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Oönskat Hår', '/problem/oonskat-har'),
+);
+
 $title = 'Oönskat Hår';
 
 $image_small = 'bilder/problem/424x324/oonskat-har.webp';

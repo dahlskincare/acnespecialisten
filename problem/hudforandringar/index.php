@@ -12,6 +12,11 @@ $seo_keywords = 'ansiktsvårta, fibrom, födelsemärke, hallonmärke, jordgubbsm
 // här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms
 $seo_image = 'images/treatments/large/hudforandringar.jpg';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudförändringar', '/problem/hudforandringar'),
+);
+
 $title = 'Hudförändringar';
 
 $image_small = 'bilder/problem/424x324/hudforandringar.webp';

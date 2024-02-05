@@ -9,6 +9,12 @@ $seo_keywords = 'personlig ansiktsbehandling, Hudterapeutens Val, skräddarsydd 
 
 $seo_image = 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Klassiska Ansiktsbehandlingar', '/ansiktsbehandlingar.php'),
+      new PathSegment('Hudterapeutens Val', '/behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val/'),
+);
+
 $model = new Service(
     title: 'Hudterapeutens val',
     duration: '70 min',

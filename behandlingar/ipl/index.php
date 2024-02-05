@@ -9,6 +9,10 @@ $seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-beha
 
 $seo_image = 'images/treatments/large/ipl.jpg';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('IPL', '/behandlingar/ipl/'),
+);
 
 $model = new Service(
     title: 'IPL',

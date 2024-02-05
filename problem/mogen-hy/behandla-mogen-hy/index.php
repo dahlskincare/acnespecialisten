@@ -10,6 +10,12 @@ $seo_keywords = 'mogen hy, hudåldrande, åldrande hud, hudvårdsbehandlingar, �
 
 $seo_image = 'images/treatments/large/mogen-hy.jpg';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Mogen hy', '/mogen-hy'),
+      new PathSegment('Behandla Mogen hy', '/problem/mogen-hy/behandla-mogen-hy/'),
+);
+
 $image_small = 'bilder/problem/424x324/mogen-hy.webp';
 $image_large = 'bilder/problem/424x456/mogen-hy.webp';
 $image_alt = 'Bild som illustrerar mogen hy';

@@ -8,6 +8,12 @@ $seo_keywords = 'behandling av hudförändringar, hudförändringsbehandling, me
 
 $seo_image = 'images/treatments/large/hudforandringar.jpg';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudförändringar', '/problem/hudforandringar'),
+      new PathSegment('Behandla Hudförändringar', '/problem/hudforandringar/behandla-hudfornadringar/'),
+);
+
 $image_small = 'bilder/problem/424x324/hudforandringar.webp';
 $image_large = 'bilder/problem/424x456/hudforandringar.webp';
 $image_alt = 'Bild som illustrerar hudförändringar';
