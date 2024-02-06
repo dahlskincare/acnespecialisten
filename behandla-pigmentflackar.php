@@ -44,7 +44,7 @@ $about_content = '<p class="p200">Att behandla och reducera pigmentfläckar är 
 
 $headline01 = "01. Identifiera dina pigmentfläckar";
 
-$define_image = 'images/service-categories/large/konsultation.jpg';
+$define_image = 'images/service-categories/large/konsultation.webp';
 $define_image_alt = 'Behandling av Pigmentfläckar';
 $define_image_title = 'Behandling av Pigmentfläckar';
 

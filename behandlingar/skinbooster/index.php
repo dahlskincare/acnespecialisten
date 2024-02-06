@@ -7,7 +7,7 @@ $seo_title = 'Skinbooster Behandlingar - Återfukta och Föryngra Din Hud | Acne
 $seo_description = 'AcneSpecialisten presenterar skinbooster-behandlingar, en idealisk lösning för att djupt återfukta och vitalisera din hud. Våra skinboosters är skräddarsydda för att bekämpa tecken på torrhet och åldrande, och återställa hudens naturliga glans och ungdomlighet.';
 $seo_keywords = 'skinbooster, återfuktning, hudföryngring, vitalisera huden, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens elasticitet';
 
-$seo_image = 'images/treatments/large/skinbooster.jpg';
+$seo_image = '/images/treatments/large/skinbooster.webp';
 
 $path_segments = array(
       new PathSegment('Behandlingar', '/behandlingar.php'),

@@ -7,7 +7,7 @@ $seo_title = 'IPL för Blodkärl, Pigmentfläckar & Rosacea | Acnespecialisten';
 $seo_description = 'Specialiserade på att behandla ytliga blodkärl, pigmentfläckar och rosacea, erbjuder AcneSpecialisten avancerade IPL-behandlingar. Denna ljusbaserade teknologi riktar sig selektivt mot hudens ojämnheter, reducerar synligheten av blodkärl, pigmentering och symtom på rosacea för en klarare och mer harmonisk hudton.';
 $seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-behandling, ljusbaserad hudföryngring, hudjämnhetsförbättring, reducera rödhet, ljusa upp pigmentering, harmonisk hudton, avancerad hudvård';
 
-$seo_image = 'images/treatments/large/ipl.webp';
+$seo_image = '/images/treatments/large/ipl.webp';
 
 $path_segments = array(
       new PathSegment('Behandlingar', '/behandlingar.php'),

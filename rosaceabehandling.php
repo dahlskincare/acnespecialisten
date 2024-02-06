@@ -45,7 +45,7 @@ $about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt
 
 $headline01 = "01. Identifiera din rosacea";
 
-$define_image = 'images/service-categories/large/konsultation.jpg';
+$define_image = 'images/service-categories/large/konsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar rosacea?';
 $define_image_title = 'Hur vi tar bort och behandlar rosacea?';
 

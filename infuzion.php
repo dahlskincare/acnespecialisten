@@ -7,7 +7,7 @@ $seo_title = 'Infuzion - Djup Återfuktning för Huden | AcneSpecialisten';
 $seo_description = 'Upptäck Infuzion hos AcneSpecialisten, en banbrytande som djupt återfuktar och revitaliserar huden. Denna avancerade behandling är idealisk för att återställa hudens lyster och ungdomliga utseende, särskilt effektiv för torr och åldrande hud. Förvandla din hud med vår skräddarsydda Infuzion-behandling.';
 $seo_keywords = 'Infuzion, djup återfuktning, revitalisera huden, hudföryngring, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens lyster';
 
-$seo_image = 'images/treatments/large/infuzion.jpg';
+$seo_image = 'images/treatments/large/infuzion.webp';
 
 $model = new Service(
     title: 'Infuzion',
