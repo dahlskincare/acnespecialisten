@@ -87,15 +87,11 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="vuxenfinnar.php">Vuxenfinnar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-finnar-arr.php">Behandla Finnar Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-arr.php">Finnar Ärr</a>
-            <a class="b200 underline color-deep-sea-400" href="ansiktsbehandlingar.php">Ansiktsbehandlingar</a>
             <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
             <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a>
-            <a class="b200 underline color-deep-sea-400" href="porrengoring.php">Porrrengöring</a>
-            <a class="b200 underline color-deep-sea-400" href="portomning.php">Portömning</a>
             <a class="b200 underline color-deep-sea-400" href="laser-arr.php">Laser Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="aldersflackar.php">Åldersfläckar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-pigmentflackar.php">Behandla Pigmentfläckar</a>
-            <a class="b200 underline color-deep-sea-400" href="ipl-pigmentflackar.php">IPL Pigmentfläckar</a>
             <a class="b200 underline color-deep-sea-400" href="melasma.php">Melasma</a>
             <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
             <a class="b200 underline color-deep-sea-400" href="komedoner.php">Komedoner</a>
@@ -106,7 +102,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="vita-pormaskar.php">Vita Pormaskar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-stora-porer.php">Behandla Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-stora-porer.php">Microneedling Stora Porer</a>
-            <a class="b200 underline color-deep-sea-400" href="milierbehandling.php">Milierbehandling</a>
             <a class="b200 underline color-deep-sea-400" href="mjalleksem.php">Mjälleksem</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="fodelsemarken.php">Födelsemärken</a>
@@ -116,36 +111,13 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="dermapen-acnearr.php">Dermapen Acneärr</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-stora-porer.php">Dermapen Stora Porer</a>
-            <a class="b200 underline color-deep-sea-400" href="dermapen.php">Dermapen</a>
-            <a class="b200 underline color-deep-sea-400" href="ipl-rosacea.php">IPL Rosacea</a>
             <a class="b200 underline color-deep-sea-400" href="rhinophyma-rosacea.php">Rhinophyma Rosacea</a>
-            <a class="b200 underline color-deep-sea-400" href="rosaceabehandling.php">Rosaceabehandling</a>
-            <a class="b200 underline color-deep-sea-400" href="ipl-ytliga-blodkarl.php">IPL Ytliga Blodkärl</a>
-            <a class="b200 underline color-deep-sea-400" href="permanent-harborttagning.php">Permanent Hårborttagning</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat.php">Resultat</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-acne.php">Resultat Akne</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-acnearr.php">Resultat Acneärr</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-blandhy.php">Resultat Blandhy</a>
             <a class="b200 underline color-deep-sea-400" href="resultat-dermapen.php">Resultat Dermapen</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-finnar-arr.php">Resultat Finnar Ärr</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-finnar.php">Resultat Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="resultat-microneedling.php">Resultat Microneedling</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-pormaskar.php">Resultat Pormaskar</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-rosacea.php">Resultat Rosacea</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-ytliga-blodkarl.php">Resultat Ytliga Blodkärl</a>
             <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="utbildningsdag.php">Utbildningsdag</a>
-            <a class="b200 underline color-deep-sea-400" href="presentkort.php">Presentkort</a>
-            <a class="b200 underline color-deep-sea-400" href="fragor-svar.php">Frågor & Svar</a>
             <a class="b200 underline color-deep-sea-400" href="jobb.php">Jobb</a>
-            <a class="b200 underline color-deep-sea-400" href="karriar.php">Karriär</a>
-            <a class="b200 underline color-deep-sea-400" href="ordlista.php">Ordlista</a>
-            <a class="b200 underline color-deep-sea-400" href="kontakt.php">Kontakt</a>
-            <a class="b200 underline color-deep-sea-400" href="metoden.php">Metoden</a>
-            <a class="b200 underline color-deep-sea-400" href="om-oss.php">Om Oss</a>
-            <a class="b200 underline color-deep-sea-400" href="avbokningspolicy.php">Avbokningspolicy</a>
-            <a class="b200 underline color-deep-sea-400" href="cookies.php">Cookies</a>
-            <a class="b200 underline color-deep-sea-400" href="gratis-hudkonsultation.php">Gratis Hudkonsultation</a>',
+            <a class="b200 underline color-deep-sea-400" href="karriar.php">Karriär</a>',
         ),
         
     ),
