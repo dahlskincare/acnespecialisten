@@ -5,26 +5,25 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
+$seo_keywords = 'akne, orsaker till akne, varför får man akne, var akne, varför akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/problem/424x456/akne.webp';
 
-
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
-      new PathSegment('Acne', '/acne.php'),
+      new PathSegment('Akne', '/acne.php'),
 );
 
 $title = 'Akne';
 
 $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
-$image_title = 'Visar en hud med akne';
-$image_alt = 'Bild som illustrerar hur akne ser ut på huden';
+$image_title = 'Akne';
+$image_alt = 'Närbild på ett ansikte som har akne';
 $description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
@@ -45,22 +44,22 @@ $akas = [
       ),
 ];
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för Akne";
+$consultation_url_title = "Boka gratis konsultation för Akne";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
 $booking_url_title = "Boka Aknebehandling";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Akne";
+$mobile_consultation_url_label = "Boka gratis konsultation";
+$mobile_consultation_url_title = "Boka gratis konsultation för Akne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka Aknebehandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Akne";
+$floating_consultation_url_label = "Boka gratis konsultation";
+$floating_consultation_url_title = "Boka gratis konsultation för Akne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka Aknebehandling";
@@ -75,7 +74,7 @@ $nav_buttons = array(
       'articles' => 'Varför AS?',
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
+      'faq' => 'Fragor & svar',
       'skin-guide' => 'Hudguide',
       'specialists' => 'Specialister',
       'related-problems' => 'Relaterade problem',
