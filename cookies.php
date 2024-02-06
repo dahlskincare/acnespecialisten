@@ -20,7 +20,7 @@ $nav_buttons = array(
       <meta property="twitter:image" content="images/about-desktop.jpg" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="/cookies/style.scss">
+      <link rel="stylesheet" href="/cookies/style.css">
 
 </head>
 
