@@ -11,7 +11,7 @@ $seo_keywords = 'bristningar, behandling av bristningar, orsaker till bristninga
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = 'bilder/problem/424x456/bristningar.webp';
+$seo_image = '/bilder/problem/424x456/bristningar.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
