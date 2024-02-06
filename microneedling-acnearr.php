@@ -8,7 +8,7 @@ $seo_description = 'Utforska Acnespecialistens microneedling-behandlingar för a
 $seo_keywords = 'microneedling, behandling av akneärr, förbättrad hudstruktur, jämn hudton, kollagenproduktion, hudföryngring, minskning av akneärr, förfinad hud, porminskning, hudförbättring';
 
 
-$seo_image = 'images/treatments/large/microneedling.jpg';
+$seo_image = 'images/treatments/large/microneedling.webp';
 
 
 $model = new Service(

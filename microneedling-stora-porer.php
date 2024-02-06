@@ -8,7 +8,7 @@ $seo_description = 'Upptäck hur AcneSpecialistens microneedling-behandlingar ef
 $seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare hudstruktur, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling, hudförädling, porminskning';
 
 
-$seo_image = 'images/treatments/large/microneedling.jpg';
+$seo_image = 'images/treatments/large/microneedling.webp';
 
 
 $model = new Service(

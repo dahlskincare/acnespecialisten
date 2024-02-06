@@ -7,7 +7,7 @@ $seo_title = 'Dermapen mot Finnar - Effektiv Acnebehandling | Acnespecialisten';
 $seo_description = 'Acnespecialisten presenterar Dermapen som en revolutionerande behandling för finnar. Denna metod bekämpar effektivt finnar genom att stimulera hudens egen läkningsförmåga och minska inflammation. Dermapen främjar kollagenproduktion och hudens reparationsmekanismer, vilket hjälper till att minska finnar och förbättra hudens klarhet och övergripande hälsa.';
 $seo_keywords = 'Dermapen, finnar, acnebehandling, hudläkning, reducera finnar, kollagenproduktion, hudhälsa, inflammation, klar hud, microneedling, hudåterhämtning';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+$seo_image = 'images/treatments/large/dermapen.webp';
 
 
 $model = new Service(

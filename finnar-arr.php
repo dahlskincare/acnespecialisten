@@ -174,7 +174,7 @@ $symptoms = array(
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om hypopigmentering efter inflammation',
             url_label: 'Läs mer',
-            image: 'bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webpr',
+            image: 'bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webp',
             image_alt: 'Bild som visar hypopigmentering efter inflammation',
             image_title: 'Hypopigmentering efter inflammation'
       ),

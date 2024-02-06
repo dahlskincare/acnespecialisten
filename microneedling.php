@@ -7,7 +7,7 @@ $seo_title = 'Microneedling - Avancerad hudförbättring | Acnespecialisten';
 $seo_description = 'Upptäck AcneSpecialistens avancerade microneedling-behandlingar som revitaliserar och förbättrar hudens utseende. Få tillgång till expertkunskap och behandlingar anpassade för att stimulera hudens naturliga läkningsprocess och främja en jämn, fast och klar hud.';
 $seo_keywords = 'microneedling, hudföryngring, behandla ärr, reducera fina linjer, stimulera kollagenproduktion, hudförbättring, hudstruktur, förbättra hudton, elastisk hud, föryngra huden';
 
-$seo_image = 'images/treatments/large/microneedling.jpg';
+$seo_image = 'images/treatments/large/microneedling.webp';
 
 
 $model = new Service(

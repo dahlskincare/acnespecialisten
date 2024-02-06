@@ -7,7 +7,7 @@ $seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
 $seo_description = 'Upptäck AcneSpecialistens Dermapen-behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
 $seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+$seo_image = 'images/treatments/large/dermapen.webp';
 
 
 $model = new Service(

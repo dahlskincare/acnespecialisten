@@ -7,7 +7,7 @@ $seo_title = 'Dermapen mot Stora Porer - Förfinad Hudstruktur | Acnespecialiste
 $seo_description = 'Utforska effekten av AcneSpecialistens Dermapen-behandlingar för att minska stora porer. Genom att använda mikronålsteknik stimulerar vi hudens kollagenproduktion och förbättrar hudtexturen, vilket bidrar till att göra stora porer mindre framträdande och ger huden en jämnare och mer raffinerad utseende.';
 $seo_keywords = 'Dermapen, behandling av stora porer, minska porer, förbättrad hudstruktur, jämn hudton, stimulera kollagen, hudföryngring, mikroneedling, hudförfining, porminskning';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+$seo_image = 'images/treatments/large/dermapen.webp';
 
 
 $model = new Service(

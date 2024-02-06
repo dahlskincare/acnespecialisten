@@ -7,7 +7,7 @@ $seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | AcneSp
 $seo_description = 'Upptäck AcneSpecialistens expertutbud av kemiska peelings för att förbättra hudens utseende och hälsa. Våra anpassade peelingar behandlar allt från akne till åldrande, och erbjuder djupgående lösningar för diverse hudproblem. Med vår specialkunskap och avancerade behandlingar är din väg till en klarare och mer strålande hud inom räckhåll.';
 $seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbättring, hudproblem, exfoliering, fina linjer, pigmentering, hudens textur, professionell hudvård';
 
-$seo_image = 'images/treatments/large/kemisk-peeling.jpg';
+$seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
 $model = new Service(
     title: 'Kemisk Peeling',

@@ -7,7 +7,7 @@ $seo_title = 'Dermapen mot Acne - Avancerad Behandling | Acnespecialisten';
 $seo_description = 'Upptäck effektiviteten i AcneSpecialistens Dermapen-behandlingar för acne. Denna innovativa teknik hjälper till att bekämpa aktiv acne genom att främja hudens läkning och reducera inflammation. Genom att stimulera kollagenproduktionen och hudens naturliga reparationsprocesser, hjälper Dermapen-behandlingar till att minska utbrott och förbättra hudens klarhet och hälsa.';
 $seo_keywords = 'Dermapen, acnebehandling, hudläkning, bekämpa acne, kollagenstimulering, hudhälsa, minska inflammation, förbättrad hudklarhet, microneedling, hudreparation';
 
-$seo_image = 'images/treatments/large/dermapen.jpg';
+$seo_image = 'images/treatments/large/dermapen.webp';
 
 
 $model = new Service(

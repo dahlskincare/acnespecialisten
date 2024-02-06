@@ -7,7 +7,7 @@ $seo_title = 'Kemisk Peeling mot akne | AcneSpecialisten';
 $seo_description = 'Utforska AcneSpecialistens effektiva kemiska peelings särskilt utvecklade för aknebehandling. Våra specialanpassade peelingar reducerar akne och förbättrar hudens övergripande hälsa och utseende.';
 $seo_keywords = 'kemisk peeling mot akne, behandla akne, exfoliering';
 
-$seo_image = 'images/treatments/large/kemisk-peeling.jpg';
+$seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
 
 $model = new Service(

@@ -7,7 +7,7 @@ $seo_title = 'CryoPen - Precisionsstyrd Cryoterapi för hudförändringar | Acne
 $seo_description = 'Upplev precisionen med CryoPen hos Acnespecialisten, den moderna lösningen för att utan smärta och med stor noggrannhet behandla och ta bort hudförändringar som födelsemärken, skintags och leverfläckar. CryoPen använder avancerad kryoteknik för att effektivt minska hudförändringar och främja en jämn hudton.';
 $seo_keywords = 'CryoPen behandling, cryoterapi precision, smärtfri hudlesionsborttagning, hudlesioner, CryoPen för vårtor, skintags, pigmentfläckar reduktion, avancerad kryoteknik, jämna ut hudton, estetisk hudvård';
 
-$seo_image = 'images/treatments/large/cryopen.jpg';
+$seo_image = 'images/treatments/large/cryopen.webp';
 
 
 $model = new Service(
