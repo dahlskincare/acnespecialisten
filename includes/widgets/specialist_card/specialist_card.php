@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="specialist-card-info">
-            <strong><?php echo $specialist->num_treatments ?>&nbsp;</strong>
+            <strong><?php echo $specialist->num_reviews ?>&nbsp;</strong>
             <span class="l10n">omdömen</span>
             <div class="dot"></div>
             <span class="l10n">Hudterapeut&nbsp;</span>
@@ -26,6 +26,6 @@
             <strong><?php echo $specialist->since_year ?></strong>
         </div>
         <div class="specialist-card-description"><?php echo $specialist->description ?></div>
-        <a href="" class="button outline expand l10n" title="Boka behandling">Boka behandling</a>
+        <a href="<?php echo $specialist->booking ?><" class="button outline expand l10n" title="Boka behandling">Boka behandling</a>
     </div>
 </div>
