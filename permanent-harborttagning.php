@@ -7,7 +7,7 @@ $seo_title = 'Permanent Hårborttagning - Effektiva Laserbehandlingar | Acnespec
 $seo_description = 'Upptäck AcneSpecialistens professionella laserbehandlingar för permanent hårborttagning. Avancerade lösningar för att effektivt avlägsna oönskat hår på ett säkert och långvarigt sätt. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
 $seo_keywords = 'permanent hårborttagning, laserhårborttagning, oönskat hår, effektiv hårborttagning, säker laserbehandling, hårfri hud, långvarig hårborttagning, avancerade laserbehandlingar';
 
-$seo_image = 'images/treatments/large/permanent-harborttagning.jpg';
+$seo_image = 'images/treatments/large/permanent-harborttagning.webp';
 
 
 $model = new Service(
