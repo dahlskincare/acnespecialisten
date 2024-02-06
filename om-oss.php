@@ -142,9 +142,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         </div>
                         <div>
                             <picture>
-                                <source media="(max-width: 799px)" srcset="om-oss/images/about-lotion.jpg">
-                                <source media="(min-width: 800px)" srcset="om-oss/images/about-lotion-large.jpg">
-                                <img src="images/about/about-lotion.jpg" alt="Method" title="Method" width="358" height="272" />
+                                <source media="(max-width: 799px)" srcset="bilder/om-oss/beprovad-expertis.webp">
+                                <source media="(min-width: 800px)" srcset="bilder/om-oss/beprovad-expertis.webp">
+                                <img src="bilder/om-oss/beprovad-expertis.webp" alt="Method" title="Method" width="358" height="272" />
                             </picture>
                         </div>
                     </div>

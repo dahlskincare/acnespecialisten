@@ -425,7 +425,7 @@ $categories = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 </section>
                 <section id="image" class="is-hidden-desktop">
-                    <img src="bilder/behandlingar/358x274/gratis-hudkonsultation" alt="Gratis Hudkonsultation" title="Gratis Hudkonsultation" width="358" height="274" />
+                    <img src="bilder/behandlingar/358x274/gratis-hudkonsultation.webp" alt="Gratis Hudkonsultation" title="Gratis Hudkonsultation" width="358" height="274" />
                 </section>
                 <section id="nav-buttons">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
