@@ -7,7 +7,7 @@ $seo_title = 'Ansiktsbehandling för Rosacea - Effektiv behandling | AcneSpecial
 $seo_description = 'AcneSpecialisten erbjuder specialanpassade ansiktsbehandlingar designade för att lugna och vårda rosacea-drabbad hud. Våra behandlingar är skonsamma och inriktade på att minska rodnad och irritation, samtidigt som de förbättrar hudens allmänna tillstånd. Få professionell vägledning och individuellt anpassade hudvårdsråd för att hantera din rosacea.';
 $seo_keywords = 'ansiktsbehandlingar för rosacea, rosaceabehandling, lugnande hudvård, behandla rodnad i ansiktet, AcneSpecialisten, skonsam hudvård, milda ansiktsbehandlingar, rosacealindring, hudvård vid rosacea, minska hudrodnad, lindra rosacea';
 
-$seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = '/bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
       new PathSegment('Behandlingar', '/behandlingar.php'),

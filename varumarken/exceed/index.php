@@ -376,10 +376,10 @@ $all_brands = array(
         image_title: 'Powerlite',
     ),
     new Brand(
-        label: 'Exceed4',
-        image: 'images/brands/Exceed4.svg',
-        image_alt: 'Exceed4',
-        image_title: 'Exceed4',
+        label: 'Exceed',
+        image: 'images/brands/exceed.png',
+        image_alt: 'Exceed',
+        image_title: 'Exceed',
     ),
     new Brand(
         label: 'Cryopen',
