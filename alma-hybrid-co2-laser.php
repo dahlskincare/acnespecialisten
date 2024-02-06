@@ -7,7 +7,7 @@ $seo_title = 'Alma Hybrid - Avancerad Laserbehandling för Hudförnyelse | AcneS
 $seo_description = 'AcneSpecialisten introducerar Alma Hybrid, en banbrytande laserbehandling som kombinerar CO2 och icke-ablativ lasrar för att effektivt hantera ett brett spektrum av hudproblem. Idealisk för acneärr, ojämn hudton, rynkor och fina linjer, erbjuder Alma Hybrid en omfattande lösning för hudföryngring och texturutjämning.';
 $seo_keywords = 'Alma Hybrid, laserbehandling, hudföryngring, acneärr, hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
 
-$seo_image = 'images/treatments/large/alma-hybrid.jpg';
+$seo_image = 'images/treatments/large/alma-hybrid.webp';
 
 $model = new Service(
     title: 'Alma Hybrid',

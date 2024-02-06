@@ -248,12 +248,15 @@ $all_brands = array(
     <title>Alma Laser hos AcneSpecialisten | Avancerad Hudvårdsteknologi</title>
     <meta name="description" content="På AcneSpecialisten använder vi Alma Lasers högteknologiska system för att erbjuda banbrytande behandlingar. Upptäck våra Alma-lösningar, inklusive Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice, designade för att effektivt hantera en mängd hudproblem och förbättra hudhälsa.">
     <meta name="keywords" content="Alma Lasers, Avancerad hudvårdsteknologi, Hybrid CO2, Harmony XL Pro, Rejuve Dye VL, Soprano Ice, AcneSpecialisten behandlingar, Hudföryngring, Laserhårborttagning, Hudproblem lösningar, Estetisk hudvård">
-    <meta property="og:title" content="Acnespecialisten" />
-    <meta property="og:description" content="" class="l10n" />
-    <meta property="og:image" content="images/about-desktop.jpg" />
-    <meta property="twitter:title" content="Acnespecialisten" />
-    <meta property="twitter:description" content="" class="l10n" />
-    <meta property="twitter:image" content="images/about-desktop.jpg" />
+    
+    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
+    <meta property="og:title" content="<?php echo $seo_title ?>" />
+    <meta property="og:description" content="<?php echo $seo_description ?>" />
+    <meta property="og:image" content="<?php echo $seo_image ?>" />
+
+    <meta property="twitter:title" content="<?php echo $seo_title ?>" />
+    <meta property="twitter:description" content="<?php echo $seo_description ?>" />
+    <meta property="twitter:image" content="<?php echo $seo_image ?>" />
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 

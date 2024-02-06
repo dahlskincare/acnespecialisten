@@ -581,7 +581,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Blandhy',
             aka: 'Kombinationshy',
-            image: 'images/problems/102x102/blandhy.webp',
+            image: 'bilder/problem/102x102/blandhy.webp',
             image_alt: 'Bild som visar blandhy, en typ av hudproblem där vissa områden är torra medan andra är oljiga',
             image_title: 'Blandhy - en komplex hudtyp som kräver specialiserad vård',
             url: 'blandhy.php',
@@ -590,7 +590,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            image: 'bilder/problem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
             url: 'rosacea.php',
@@ -599,7 +599,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
+            image: 'bilder/problem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
