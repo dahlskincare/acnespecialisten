@@ -442,19 +442,6 @@
     }
 </script>
 
-<!-- Userback -->
-<script>
-    window.Userback = window.Userback || {};
-    Userback.access_token = '39985|79943|zHBdt9RxxhVGcbCqi7T7g80X3';
-    (function(d) {
-        var s = d.createElement('script');
-        s.async = true;
-        s.src = 'https://static.userback.io/widget/v1.js';
-        (d.head || d.body).appendChild(s);
-    })(document);
-</script>
-
-<!-- Cookies popup notification -->
 <style>
     #cookies-popup {
         display: none;
