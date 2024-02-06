@@ -10,8 +10,8 @@ $seo_keywords = 'injektionsbehandlingar, hudföryngring, rynkreducering, volymå
 $seo_image = 'images/treatments/large/injektionsbehandlingar.jpg';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Injektioner', '/behandlingar/injektioner/'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Injektioner', '/behandlingar/injektionsbehandlingar/'),
 );
 
 $model = new Service(
@@ -66,11 +66,11 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går injektionsbehandlingar till?',
-    image_small: null,
-    image_large: null,
-    image_alt: 'Hur går injektionsbehandlingar till?',
-    image_title: 'Hur går injektionsbehandlingar till?',
-    content: '<p class="p200">På AcneSpecialisten är processen för injektionsbehandlingar noggrant utformad för att uppnå bästa möjliga resultat. Det första steget är alltid en personlig konsultation, där vi diskuterar dina mål och granskar din hud för att skapa en skräddarsydd behandlingsplan. Denna konsultation följs av en 48 timmars betänketid för att ge dig möjlighet att överväga behandlingen fullt ut.</p>
+        image_small: null,
+        image_large: null,
+        image_alt: 'Hur går injektionsbehandlingar till?',
+        image_title: 'Hur går injektionsbehandlingar till?',
+        content: '<p class="p200">På AcneSpecialisten är processen för injektionsbehandlingar noggrant utformad för att uppnå bästa möjliga resultat. Det första steget är alltid en personlig konsultation, där vi diskuterar dina mål och granskar din hud för att skapa en skräddarsydd behandlingsplan. Denna konsultation följs av en 48 timmars betänketid för att ge dig möjlighet att överväga behandlingen fullt ut.</p>
     <p class="p200 mt-m">När du bestämt dig för att fortsätta, börjar själva behandlingsdagen med en noggrann rengöring av det område som ska behandlas. Därefter markerar vår erfarna personal de specifika områdena som ska behandlas för att säkerställa precision och effektivitet. Behandlingen utförs med största noggrannhet, där vi använder injektionstekniker som syftar till att uppfylla dina estetiska önskemål samtidigt som vi minimerar obehag.</p>
     <p class="p200 mt-m">Efter behandlingen får du detaljerade instruktioner om eftervård för att säkerställa optimal läkning och resultat. Det är vanligt att uppleva mild rodnad eller svullnad i det behandlade området, men detta bör avta inom kort. Vi erbjuder också uppföljningssessioner för att bedöma resultaten och göra eventuella justeringar om det behövs. Vår prioritet är din tillfredsställelse och säkerhet genom hela processen.</p>',
     ),
@@ -686,32 +686,32 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 $reviews_view_more = 'Se alla omdömen';

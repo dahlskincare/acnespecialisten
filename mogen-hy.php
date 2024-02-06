@@ -117,7 +117,7 @@ $treatment_steps = array(
             content: 'Vi utför skonsamma och effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är designade för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
 
             url_label: 'Se behandlingar för mogen hy',
-            url: 'behandlingar/mogen-hy/behandla-mogen-hy',
+            url: 'problem/mogen-hy/behandla-mogen-hy',
             url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
       new TreatmentStep(
@@ -133,7 +133,7 @@ $treatment_steps = array(
             content: 'Om din hud har ålderstecken såsom pigmentfläckar, förlorad elasticitet eller djupare rynkor, erbjuder vi behandlingsmetoder som laser, microneedling och kemisk peeling för att förnya och förbättra hudens utseende.',
 
             url_label: 'Se behandlingar för ålderstecken',
-            url: 'behandlingar/mogenhy/behandla-mogen-hy',
+            url: 'problem/mogen-hy/behandla-mogen-hy',
             url_title: 'Upptäck effektiva behandlingar för ålderstecken'
       ),
 );
