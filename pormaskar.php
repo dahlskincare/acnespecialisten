@@ -698,7 +698,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
             aka: 'Papler & Pustler',
-            image: 'bilder/problem/200x200/akne.webp',,
+            image: 'bilder/problem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'acne.php',
