@@ -1,7 +1,7 @@
 <?php
 class Specialist
 {
-    public function __construct($name, $title, $image, $image_alt, $image_title, $city = null, $description = null, $rating = null, $num_treatments = null, $since_year = null)
+    public function __construct($name, $title, $image, $image_alt, $image_title, $city = null, $description = null, $rating = null, $num_treatments = null, $since_year = null, $booking_url = null)
     {
         $this->name = $name;
         $this->title = $title;
@@ -13,6 +13,7 @@ class Specialist
         $this->rating = $rating;
         $this->num_treatments = $num_treatments;
         $this->since_year = $since_year;
+        $this->booking_url = $booking_url;
     }
 
     public String $name;
@@ -25,4 +26,5 @@ class Specialist
     public ?float $rating;
     public ?int $num_treatments;
     public ?int $since_year;
+    public ?String $booking_url;
 }
