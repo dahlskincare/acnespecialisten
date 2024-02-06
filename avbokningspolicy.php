@@ -34,7 +34,7 @@
                     <p class="l10n">Här kan du läsa mer om vår avbokningspolicy.</p>
                 </section>
                 <section id="alert-banner">
-                    <div id="alert-text" class="l10n">Kom ihåg att avboka minst 24 timmar innan den bokade tiden.</div>
+                    <div id="alert-text" class="l10n">Kom ihåg att avboka minst 24 timmar innan den bokade tid för att undvika avgift.</div>
                     <!-- TOOD: set link -->
                     <a href="https://www.bokadirekt.se/cancel" title="Till Avbokning" class="is-hidden-touch l10n">Till Avbokning</a>
                     <a href="https://www.bokadirekt.se/cancel" title="Till Avbokning" class="is-hidden-desktop button outline expand l10n">Till Avbokning</a>
@@ -43,9 +43,9 @@
                     <?php
                     $faq_categories = array(
                         '' => array(
-                            new Question('Avbokningspolicy', '<p class="p200">Avbokning skall göras senast 24 tim innan avtalad tid. För sent avbokad tid eller uteblivet besök debiteras hela behandlingskostnaden upp till 1000kr. Detta gäller även vid sjukdom samma dag. På grund av smittorisk tar vi ej emot dig som är sjuk. Vid utebliven konsultation eller återbesök debiteras 250kr. OBS! Ingen avbokning via telefonsvararen.</p>'),
-                            new Question('Hur avbokar jag min tid?', '<p class="p200">Du avbokar enklast din tid genom att använda avbokningssidan där du fyller i din avbokningskod. Avbokningskoden hittar du på din bokningsbekräftelse som skickat ut via e-post och SMS. Om du avbokar genom att kontakta oss är det viktigt att inkludera fullständig bokningsinformation så att vi kan identifiera den bokade tiden.'),
-                            new Question('Hur debiteras ett uteblivet besök?', '<p class="p200">Debitering sker via Billogram Faktura, denna faktura skickas via e-post och SMS.</p>'),
+                            new Question('Avbokningspolicy', '<p class="p200">Avbokning bör ske senast 24 timmar före din inbokade tid. Om du avbokar senare än så, eller uteblir från ditt bokade besök, kommer en avbokningsavgift att debiteras. Observera att denna policy gäller oavsett anledning till avbokning, även vid sjukdom på behandlingsdagen.</p>'),
+                            new Question('Hur avbokar jag min tid?', '<p class="p200">För att säkerställa en smidig avbokning rekommenderar vi att du använder avbokningskoden du mottog i din bokningsbekräftelse. Om du väljer att avboka via e-post eller telefonsvarare, var noga med att inkludera ditt fullständiga namn, den behandling du har bokat, samt den specifika dagen och tiden för din bokning.'),
+                            new Question('Hur debiteras ett uteblivet besök?', '<p class="p200">Debitering sker via Fortnox faktura som skickas via e-post.</p>'),
                         )
                     );
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
