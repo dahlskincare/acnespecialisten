@@ -199,7 +199,7 @@ $service_brands = array(
     ),
     new Brand(
         label: 'Alma Harmony XL Pro',
-        image: 'images/brands/alma-harmony-xl-pro.svg',
+        image: 'images/brands/alma-harmony-xl-pro.png',
         image_alt: 'Alma Harmony XL Pro',
         image_title: 'Alma Harmony XL Pro',
     ),

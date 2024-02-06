@@ -7,7 +7,7 @@ $seo_title = 'Laser mot Hudproblem - Effektiva Resultat | AcneSpecialisten';
 $seo_description = 'AcneSpecialisten erbjuder avancerade laserbehandlingar för att effektivt hantera problemhy. Våra CO2-laserbehandlingar är speciellt designade för att behandla acneärr, ojämn hudton och textur. Upplev förbättrad hudkvalitet och reduktion av hudproblem med vår expertis inom laserterapi.';
 $seo_keywords = 'CO2-laser, laserbehandling, problemhy, acneärr, förbättrad hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
 
-$seo_image = 'images/treatments/large/laser.jpg';
+$seo_image = 'images/treatments/large/laser.webp';
 
 $path_segments = array(
       new PathSegment('Behandlingar', '/behandlingar.php'),
@@ -475,7 +475,7 @@ $service_brands = array(
     ),
     new Brand(
         label: 'Alma Harmony XL Pro',
-        image: 'images/brands/alma-harmony-xl-pro.svg',
+        image: 'images/brands/alma-harmony-xl-pro.png',
         image_alt: 'Alma Harmony XL Pro',
         image_title: 'Alma Harmony XL Pro',
     ),

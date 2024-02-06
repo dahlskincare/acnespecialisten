@@ -7,7 +7,7 @@ $seo_title = 'PRX-T33 - Revolutionerande Kemisk Peeling | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi PRX-T33, en banbrytande kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den avskalning som traditionella peelings medför. Idealisk för alla som söker effektiva lösningar på sina hudproblem med minimal återhämtningstid.';
 $seo_keywords = 'PRX-T33, kemisk peeling, hudföryngring, anti-age, pigmenteringar, bristningar, fina linjer, hudförbättring, avancerad hudvård, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/prx-t33.jpg';
+$seo_image = 'images/treatments/large/prx-t33.webp';
 
 $model = new Service(
     title: 'PRX-T33',

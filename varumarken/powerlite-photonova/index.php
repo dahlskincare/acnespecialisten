@@ -7,7 +7,7 @@ $seo_title = 'Powerlite Photonova - Effektiv IPL behandling | AcneSpecialisten';
 $seo_description = 'Hos AcneSpecialisten välkomnar vi Powerlite Photonova, en effektiv IPL-behandling utformad för att effektivt behandla allt från pigmentfläckar, ytliga blodkärl och rosacea. Med Powerlite Photonova uppnår vi enastående resultat genom att förbättra hudens ton och textur, och skapar en jämnare och klarare hudton.';
 $seo_keywords = 'Powerlite Photonova, IPL-behandling, avancerad hudvård, behandla pigmentfläckar, ytliga blodkärl, rosacea, hudföryngring, jämn hudton, klar hud, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/powerlite-photonova.webp';
+$seo_image = '/images/treatments/large/powerlite-photonova.webp';
 
 $model = new Service(
     title: 'Powerlite Photonova',
@@ -354,7 +354,7 @@ $service_brands = array(
     ),
     new Brand(
         label: 'Alma Harmony XL Pro',
-        image: 'images/brands/alma-harmony-xl-pro.svg',
+        image: 'images/brands/alma-harmony-xl-pro.png',
         image_alt: 'Alma Harmony XL Pro',
         image_title: 'Alma Harmony XL Pro',
     ),

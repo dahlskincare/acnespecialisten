@@ -7,7 +7,7 @@ $seo_title = 'Injektionsbehandlingar för Hudförbättring | AcneSpecialisten';
 $seo_description = 'Utforska AcneSpecialistens injektionsbehandlingar för att uppnå en ungdomligare och fräschare hud. Våra erfarna utövare använder avancerade tekniker för att försiktigt behandla linjer, rynkor och återställa hudens volym, med resultat som ser naturliga ut.';
 $seo_keywords = 'injektionsbehandlingar, hudföryngring, rynkreducering, volymåterställning, professionell hudvård, ansiktskonturering, AcneSpecialisten, estetiska behandlingar';
 
-$seo_image = 'images/treatments/large/injektionsbehandlingar.jpg';
+$seo_image = '/images/treatments/large/injektionsbehandlingar.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/behandlingar.php'),
