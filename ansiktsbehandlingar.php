@@ -8,7 +8,7 @@ $seo_description = 'Upptäck AcneSpecialistens klassiska ansiktsbehandlingar fö
 $seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
 
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.jpg';
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.webp';
 
 
 $model = new Service(

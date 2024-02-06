@@ -7,7 +7,7 @@ $seo_title = 'Hydrafacial - Djupgående Hudvård och Förnyelse | AcneSpecialist
 $seo_description = 'Upptäck Hydrafacial hos AcneSpecialisten, en mångsidig behandling som kombinerar djup rengöring, exfoliering, och hydrering för att revitalisera din hud. Perfekt för alla hudtyper, denna behandling erbjuder omedelbar lyster och förbättrar hudens kvalitet på lång sikt.';
 $seo_keywords = 'Hydrafacial, hudvård, djupgående rengöring, exfoliering, hydrering, lyster, hudförbättring, AcneSpecialisten, hudens kvalitet, alla hudtyper';
 
-$seo_image = 'images/treatments/large/hydrafacial.jpg';
+$seo_image = 'images/treatments/large/hydrafacial.webp';
 
 $model = new Service(
     title: 'HydraFacial',

@@ -698,7 +698,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
             aka: 'Papler & Pustler',
-            image: 'images/problems/200x200/akne.webp',
+            image: 'bilder/problem/200x200/akne.webp',,
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'acne.php',
@@ -707,7 +707,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
+            image: 'bilder/problem/200x200/acnearr.webp',
             image_alt: '',
             image_title: '',
             url: 'acnearr.php',
@@ -716,7 +716,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
+            image: 'bilder/problem/200x200/perioral-dermatit.webp',
             image_alt: '',
             image_title: '',
             url: 'perioral-dermatit.php',
