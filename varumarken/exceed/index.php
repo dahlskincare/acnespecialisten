@@ -7,7 +7,7 @@ $seo_title = 'Exceed - Avancerad microneedling | Acnespecialisten';
 $seo_description = 'Utforska AcneSpecialistens Exceed-behandlingar, framkantstekniken för avancerad microneedling som effektivt tar itu med ålderstecken och hudens textur. Genom våra experter och anpassade behandlingsplaner, främjar vi hudens naturliga regenereringsprocess för att återställa dess fasthet och lyster.';
 $seo_keywords = 'Exceed, avancerad microneedling, behandla hudtextur, minska ålderstecken, främja kollagenproduktion, hudförbättringar, förbättrad hudstruktur, jämn hudton, förbättrad hudelasticitet, hudförnyelse';
 
-$seo_image = 'images/treatments/large/exceed.jpg';
+$seo_image = 'images/treatments/large/exceed.webp';
 
 
 $model = new Service(
