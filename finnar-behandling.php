@@ -425,15 +425,6 @@ $brands_url_title = "Varumärken för behandling av finnar";
     <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-    <meta property="og:title" content="<?php echo $seo_title ?>" />
-    <meta property="og:description" content="<?php echo $seo_description ?>" />
-    <meta property="og:image" content="<?php echo $seo_image ?>" />
-
-    <meta property="twitter:title" content="<?php echo $seo_title ?>" />
-    <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-    <meta property="twitter:image" content="<?php echo $seo_image ?>" />
-
-    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

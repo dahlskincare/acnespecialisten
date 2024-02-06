@@ -8,8 +8,8 @@ $seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora pore
 
 $seo_image = 'bilder/problem/424x456/stora-porer.webp';
 
-$image_large = 'images/treatments/large/stora-porer.jpg';
-$image_small = 'images/treatments/small/stora-porer.jpg';
+$image_small = 'bilder/problem/424x324/stora-porer.webp';
+$image_large = 'bilder/problem/424x456/stora-porer.webp';
 $image_alt = 'Bild på behandling för stora porer';
 $image_title = 'Behandling för stora porer';
 
@@ -42,7 +42,7 @@ $about_content = '<p class="p200">Att behandla stora porer kräver en genomtänk
 
 $headline01 = "01. Identifiera dina stora porer";
 
-$define_image = 'images/service-categories/large/konsultation.jpg';
+$define_image = 'images/service-categories/large/konsultation.webp';
 $define_image_alt = 'Hur vi behandlar och minskar stora porer?';
 $define_image_title = 'Hur vi behandlar och minskar stora porer?';
 

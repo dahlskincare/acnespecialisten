@@ -366,7 +366,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Hudförändringar',
             aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/hudforandringar.webp',
+            image: 'images/problems/200x200/hudforandringar.webp',
             image_alt: 'Bild som visar hudforändringar',
             image_title: 'Hudförändringar',
             url: 'problem/hudforandringar',

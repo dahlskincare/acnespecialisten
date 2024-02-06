@@ -9,7 +9,7 @@ $seo_title = 'Allt om Oönskat Hår - Orsaker, Behandling och Förebyggande | Ac
 $seo_description = 'Lär dig allt om oönskat hår, från dess orsaker till hur man behandlar det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'oönskat hår, hårborttagning, orsaker till oönskat hår, förebygga oönskat hår, ta bort oönskat hår, permanent hårborttagning, laserbehandling, vaxning';
 
-$seo_image = 'bilder/problem/424x456/oonskat-har.webp';
+$seo_image = '/bilder/problem/424x456/oonskat-har.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),

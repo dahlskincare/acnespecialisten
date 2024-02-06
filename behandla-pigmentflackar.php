@@ -9,10 +9,10 @@ $seo_keywords = 'pigmentfläckar, behandla pigmentfläckar, orsaker till pigment
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/pigmentflackar.jpg';
+$seo_image = 'images/treatments/large/ipl.webp';
 
-$image_large = 'images/treatments/large/pigmentflackar.jpg';
-$image_small = 'images/treatments/small/pigmentflackar.jpg';
+$image_large = 'bilder/problem/424x456/pigmentflackar.webp';
+$image_small = 'bilder/problem/424x456/pigmentflackar.webp';
 $image_alt = 'Bild som illustrerar pigmentfläckar';
 $image_title = 'Pigmentfläckar';
 

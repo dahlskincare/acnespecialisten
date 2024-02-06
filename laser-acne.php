@@ -7,7 +7,7 @@ $seo_title = 'Laserbehandling mot Akne | AcneSpecialisten';
 $seo_description = 'Upptäck AcneSpecialistens avancerade laserbehandlingar för akne. Våra skräddarsydda behandlingar använder laserljus för att effektivt reducera akne och förbättra hudens hälsa.';
 $seo_keywords = 'laserbehandling för akne, behandla akne med laser, effektiv aknebehandling, laser mot akne, aknebehandling, avancerad hudvård';
 
-$seo_image = 'images/treatments/large/laser-mot-problemhy.jpg';
+$seo_image = '/images/treatments/large/laser-mot-problemhy.webp';
 
 
 $model = new Service(
@@ -15,8 +15,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2995 kr',
     content: '',
-    image_small: 'bilder/varumarken/358x274/operations-skadearr.webp',
-    image_large: 'bilder/varumarken/424x456/operations-skadearr.webp',
+    image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
+    image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Laser mot akne',
     image_title: 'Laser mot akne',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',

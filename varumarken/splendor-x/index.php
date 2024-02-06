@@ -7,7 +7,7 @@ $seo_title = 'Splendor X Laserbehandling - Revolutionerande Permanent Hårbortta
 $seo_description = 'Välkommen till AcneSpecialisten, där vi stolt presenterar Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper. Splendor X kombinerar kraftfull teknik och skonsamhet för att ge dig snabba och hållbara resultat.';
 $seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, effektiv hårborttagning, säkerhet och komfort, långvariga resultat, alla hudtyper, snabb hårborttagning';
 
-$seo_image = 'images/treatments/large/splendor-x-harborttagning.jpg';
+$seo_image = '/images/treatments/large/splendor-x-harborttagning.webp';
 
 $model = new Service(
     title: 'Splendor X',

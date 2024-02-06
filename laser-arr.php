@@ -7,7 +7,7 @@ $seo_title = 'Laserbehandling mot Operations- och Skadeärr | AcneSpecialisten';
 $seo_description = 'Lär dig om laserbehandling som en effektiv metod för att reducera ärr efter operationer och skador. AcneSpecialisten erbjuder skräddarsydd expertis och behandlingar för att förbättra utseendet på dina ärr.';
 $seo_keywords = 'laserbehandling för ärr, operationsärr behandling, skadeärr behandling, reducera ärr med laser, effektiv ärrbehandling, microneedling för ärr, kemisk peeling för ärr';
 
-$seo_image = 'images/treatments/large/operations-skadearr.jpg';
+$seo_image = '/images/treatments/large/laser.webp';
 
 
 $model = new Service(
@@ -15,8 +15,8 @@ $model = new Service(
     duration: null,
     price: 'Från 4595 kr',
     content: '',
-    image_small: 'bilder/varumarken/358x274/operations-skadearr.webp',
-    image_large: 'bilder/varumarken/424x456/operations-skadearr.webp',
+    image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
+    image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Laser mot ärr',
     image_title: 'Laser mot ärr',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',

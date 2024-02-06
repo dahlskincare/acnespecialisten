@@ -10,7 +10,8 @@ $seo_description = 'Lär dig allt om operations- och skadeärr, från dess orsak
 $seo_keywords = 'operationsärr, skadeärr, behandling av ärr, orsaker till ärr, förebygga ärr, ta bort ärr, ärrbehandling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
-$seo_image = 'images/treatments/large/arr.jpg';
+
+$seo_image = '/bilder/problem/424x456/arr.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
