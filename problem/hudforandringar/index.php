@@ -10,7 +10,7 @@ $seo_description = 'Lär dig allt om olika typer av hudförändringar, från ide
 $seo_keywords = 'ansiktsvårta, fibrom, födelsemärke, hallonmärke, jordgubbsmärke, smultronmärke, hemangiom, hudflikar, hudutväxt, leverfläckar, mole, seborroisk keratos, skintags, skönhetsfläck, åldersvårta';
 
 // här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms
-$seo_image = '/images/treatments/large/hudforandringar.webp';
+$seo_image = '/bilder/problem/424x456/hudforandringar.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),

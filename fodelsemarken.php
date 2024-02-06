@@ -9,7 +9,7 @@ $seo_title = 'Behandling av Födelsemärken - Skonsamma Metoder | Acnespecialist
 $seo_description = 'Acnespecialisten erbjuder expertis inom behandling av födelsemärken. Med våra skonsamma och avancerade metoder kan vi effektivt hantera och ta bort olika typer av födelsemärken, vilket bidrar till en mer enhetlig hudton och förbättrat hudutseende.';
 $seo_keywords = 'födelsemärken, behandling av födelsemärken, hudförändringar, jämna ut hudton, ta bort födelsemärken, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
-$seo_image = 'images/treatments/large/hudforandringar.jpg';
+$seo_image = 'bilder/problem/424x456/hudforandringar.webp';
 
 $title = 'Behandling av Födelsemärken';
 

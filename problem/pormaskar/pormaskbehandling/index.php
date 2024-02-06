@@ -8,7 +8,7 @@ $seo_keywords = 'pormaskar, portömning, pormaskbehandling, orsaker till pormask
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/pormaskar.jpg';
+$seo_image = '/bilder/problem/424x456/pormaskar.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),

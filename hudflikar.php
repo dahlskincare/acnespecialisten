@@ -9,7 +9,7 @@ $seo_title = 'Behandling av Hudflikar - Skonsamma och Effektiva Metoder | Acnesp
 $seo_description = 'Upptäck Acnespecialistens expertis inom behandling av hudflikar. Med våra skonsamma och avancerade metoder erbjuder vi effektiva lösningar för att ta bort hudflikar, vilket bidrar till en slätare och mer enhetlig hudton.';
 $seo_keywords = 'hudflikar, behandling av hudflikar, hudförändringar, jämna ut hudton, ta bort hudflikar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
-$seo_image = 'images/treatments/large/hudforandringar.jpg';
+$seo_image = 'bilder/problem/424x456/hudforandringar.webp';
 
 $title = 'Behandling av Hudflikar';
 

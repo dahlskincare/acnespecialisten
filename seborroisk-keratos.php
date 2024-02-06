@@ -9,7 +9,7 @@ $seo_title = 'Behandling av Seborroisk Keratos - Effektiva Metoder | Acnespecial
 $seo_description = 'Acnespecialisten är experter på behandling av seborroisk keratos. Vi erbjuder skonsamma och avancerade metoder för att effektivt hantera dessa hudtillväxter, vilket bidrar till en förbättrad hudhälsa och ett jämnare hudutseende.';
 $seo_keywords = 'seborroisk keratos, behandling av seborroisk keratos, hudförändringar, jämn hudton, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
-$seo_image = 'images/treatments/large/hudforandringar.jpg';
+$seo_image = 'bilder/problem/424x456/hudforandringar.webp';
 
 $title = 'Behandling av Seborroisk Keratos';
 

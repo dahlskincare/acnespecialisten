@@ -8,7 +8,7 @@ $seo_keywords = 'behandling av operationsärr, skadeärrbehandling, metod för s
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = '/images/treatments/large/arr.jpg';
+$seo_image = '/bilder/problem/424x456/arr.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),

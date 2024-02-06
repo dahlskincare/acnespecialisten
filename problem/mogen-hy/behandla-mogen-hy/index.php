@@ -8,7 +8,7 @@ $seo_keywords = 'mogen hy, hud책ldrande, 책ldrande hud, hudv책rdsbehandlingar, �
 
 // h채r l채gger du bild som du vill skall synas n채r du l채nkar i socialamerider eller sms
 
-$seo_image = '/images/treatments/large/mogen-hy.jpg';
+$seo_image = '/bilder/problem/424x456/mogen-hy.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
