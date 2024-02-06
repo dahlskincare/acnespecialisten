@@ -7,7 +7,7 @@ $seo_title = 'Soprano ICE Laserbehandling - Effektiv Permanent Hårborttagning |
 $seo_description = 'Upptäck Soprano ICE hos AcneSpecialisten, en ledande teknologi inom permanent hårborttagning. Denna innovativa laserbehandling är utformad för att skonsamt och effektivt avlägsna oönskat hår på alla hudtyper. Soprano ICE erbjuder en unik kombination av effektivitet och patientkomfort, vilket garanterar både snabba och långvariga resultat.';
 $seo_keywords = 'Soprano ICE, permanent hårborttagning, laserbehandling, skonsam hårborttagning, effektiv metod, alla hudtyper, säker laserbehandling, långvariga resultat';
 
-$seo_image = 'images/treatments/large/soprano-ice.jpg';
+$seo_image = '/images/treatments/large/soprano-ice.webp';
 
 $model = new Service(
     title: 'Soprano Ice',
