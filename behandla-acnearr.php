@@ -43,7 +43,7 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av akneär
 
 $headline01 = "01. Identifiera dina akneärr";
 
-$define_image = 'images/service-categories/large/consultation.webp';
+$define_image = 'images/service-categories/large/konsultation.webp';
 $define_image_alt = 'Hur vi behandlar och tar bort akneärr?';
 $define_image_title = 'Hur vi behandlar och tar bort akneärr?';
 

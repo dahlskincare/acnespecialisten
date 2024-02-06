@@ -7,7 +7,7 @@ $seo_title = 'IPL-behandling mot Ytliga Blodkärl | AcneSpecialisten';
 $seo_description = 'AcneSpecialisten specialiserar sig på IPL-teknik för att effektivt behandla ytliga blodkärl. Vår precision med målinriktat ljus gör det möjligt att minskar synligheten av blodkärl och förbättrar hudtonen, vilket ger en klarare och mer enhetlig hudbild.';
 $seo_keywords = 'IPL-behandling ytliga blodkärl, minska synligheten av blodkärl, ljusbaserad hudvård, förbättra hudton, behandling av blodkärl, avancerad hudvårdsteknik, AcneSpecialisten hudexperter, jämnare hudbild';
 
-$seo_image = 'images/treatments/large/ipl-blood-vessels.jpg';
+$seo_image = 'images/treatments/large/ipl.webp';
 
 
 $model = new Service(

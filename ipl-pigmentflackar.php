@@ -7,7 +7,7 @@ $seo_title = 'IPL mot Pigmentfläckar | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi avancerade IPL-behandlingar särskilt inriktade på att reducera pigmentfläckar och förbättra hudtonen. Vår ljusbaserade teknologi selektivt målriktar pigmenteringar, vilket minskar synligheten av pigmentfläckar och leder till en klarare och mer enhetlig hudton.';
 $seo_keywords = 'IPL-behandling, pigmentfläckar, minska pigmentering, jämn hudton, ljusbaserad hudförbättring, hudjämnhet, ljusa upp huden, harmonisk hudton, avancerad hudvård, AcneSpecialisten';
 
-$seo_image = 'images/treatments/large/ipl-pigmentflackar.jpg';
+$seo_image = 'images/treatments/large/ipl.webp';
 
 
 $model = new Service(

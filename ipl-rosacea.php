@@ -7,7 +7,7 @@ $seo_title = 'IPL-behandling mot Rosacea | Acnespecialisten';
 $seo_description = 'Acnespecialisten är experter på att använda IPL-teknik för effektiv behandling av rosacea. Genom att använda målinriktat ljus, kan vi signifikant minska rodnad och andra karakteristiska symtom på rosacea, vilket ger en jämnare hudton och förbättrar hudens övergripande utseende.';
 $seo_keywords = 'IPL-behandling för rosacea, reducera rodnad, behandling av rosacea, ljusbaserad hudterapi, förbättra hudton, minska symtom på rosacea, jämn hudton, avancerad hudvård, specialister på rosacea';
 
-$seo_image = 'images/treatments/large/ipl-rosacea.jpg';
+$seo_image = 'images/treatments/large/ipl.webp';
 
 
 $model = new Service(

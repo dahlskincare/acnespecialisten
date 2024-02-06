@@ -7,7 +7,7 @@ $seo_title = 'Ansiktsbehandlingar för Milier - Milierbehandling | AcneSpecialis
 $seo_description = 'Hos AcneSpecialisten finner du effektiva ansiktsbehandlingar och milierbehandlingar skräddarsydda för att ta bort milier och ge en slät hud. Våra behandlingar är utformade för att försiktigt avlägsna milier och förbättra hudens textur. Få tillgång till expertis och personliga hudvårdsråd för att uppnå en strålande hud utan milier.';
 $seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning av milier, behandla milier, hudvård för slät hud, slätrakad hud, AcneSpecialisten, metoder för att ta bort milier, förebygga milier, reducera milier';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-milier.jpg';
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $model = new Service(
     title: 'Ansiktsbehandlingar mot milier',

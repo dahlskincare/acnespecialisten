@@ -7,7 +7,7 @@ $seo_title = 'Djuprengöring av Porer - Effektiv Behandling mot Pormaskar | Acne
 $seo_description = 'Utforska AcneSpecialistens djuprengöringsbehandlingar, en specialiserad form av porrengöring för att bekämpa pormaskar och orenheter. Våra behandlingar, anpassade efter individuella behov, rengör porerna på djupet och förbättrar hudens textur. Vi erbjuder expertguidning och personliga hudvårdslösningar för att uppnå en hälsosammare hud med minskad synlighet av pormaskar.';
 $seo_keywords = 'djuprengöring av porer, effektiv porrengöring, behandling av pormaskar, AcneSpecialisten, klara porer, frisk hud, reducera pormaskar, hudvård, rena porer, skräddarsydd hudvård, hudens textur, minska synligheten av orenheter';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-pormaskar.jpg';
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 
 $model = new Service(
