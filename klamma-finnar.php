@@ -7,7 +7,7 @@ $seo_title = 'Ansiktsbehandling för Finnar - Säker och Effektiv Behandling | A
 $seo_description = 'Utforska AcneSpecialistens ansiktsbehandlingar för finnar, utformade för att säkert och effektivt hantera finnar och orenheter. Våra behandlingar erbjuder professionell extraktion och eftervård, vilket bidrar till att minska akneutbrott och förbättra hudens klarhet och hälsa.';
 $seo_keywords = 'ansiktsbehandling för finnar, professionell finnextraktion, behandla akne, rena porer, hudklarhet, förebygga finnar, reducera orenheter, hudhälsa, förbättra hudtextur, säker finnbehandling';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-akne.jpg';
+$seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 
 $model = new Service(
@@ -323,12 +323,6 @@ $all_brands = array(
         image: 'images/brands/powerlite-photonova.svg',
         image_alt: 'Powerlite Photonova',
         image_title: 'Powerlite Photonova',
-    ),
-    new Brand(
-        label: 'ansiktsbehandling',
-        image: 'images/brands/ansiktsbehandling.svg',
-        image_alt: 'ansiktsbehandling',
-        image_title: 'ansiktsbehandling',
     ),
     new Brand(
         label: 'CryoPen',
