@@ -121,13 +121,13 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför grundliga och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
 
             url_label: 'Se aknebehandlingar',
             url: 'acnebehandling.php',
@@ -143,7 +143,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+            content: 'När aknen är borta fokuserar vi på att reducera ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
 
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
