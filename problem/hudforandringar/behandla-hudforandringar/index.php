@@ -6,7 +6,7 @@ $seo_title = 'Behandling av Hudförändringar - Effektiv Behandling | AcneSpecia
 $seo_description = 'Utforska de mest effektiva behandlingsmetoderna för hudförändringar. Få skräddarsydda råd, tips, och expertis från AcneSpecialisten för att behandla och minska hudförändringar.';
 $seo_keywords = 'behandling av hudförändringar, hudförändringsbehandling, metod för hudförändringsbehandling, laserbehandling för hudförändringar, microneedling, kemisk peeling';
 
-$seo_image = 'images/treatments/large/hudforandringar.jpg';
+$seo_image = '/images/treatments/large/hudforandringar.jpg';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
@@ -14,8 +14,8 @@ $path_segments = array(
     new PathSegment('Behandla Hudförändringar', '/problem/hudforandringar/behandla-hudforandringar/'),
 );
 
-$image_small = 'bilder/problem/424x324/hudforandringar.webp';
-$image_large = 'bilder/problem/424x456/hudforandringar.webp';
+$image_small = '/bilder/problem/424x324/hudforandringar.webp';
+$image_large = '/bilder/problem/424x456/hudforandringar.webp';
 $image_alt = 'Bild som illustrerar hudförändringar';
 $image_title = 'Hudförändringar';
 

@@ -8,7 +8,7 @@ $seo_keywords = 'behandling av operationsärr, skadeärrbehandling, metod för s
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'images/treatments/large/arr.jpg';
+$seo_image = '/images/treatments/large/arr.jpg';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Behandla Operations- och Skadeärr', '/problem/operations-skadearr/behandla-operations-skadearr'),
 );
 
-$image_small = 'bilder/problem/424x324/operations-skadearr.webp';
-$image_large = 'bilder/problem/424x456/operations-skadearr.webp';
+$image_small = '/bilder/problem/424x324/operations-skadearr.webp';
+$image_large = '/bilder/problem/424x456/operations-skadearr.webp';
 $image_alt = 'Bild som illustrerar operations- och skadeärr';
 $image_title = 'Operations- och skadeärr';
 

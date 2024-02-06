@@ -9,7 +9,7 @@ $seo_keywords = 'blandhy, behandling av blandhy, orsaker till blandhy, förebygg
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/blandhy.webp';
+$seo_image = '/bilder/problem/424x456/blandhy.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
@@ -17,8 +17,8 @@ $path_segments = array(
       new PathSegment('Blandhybehandling', '/problem/blandhy/blandhybehandling/'),
 );
 
-$image_small = 'bilder/problem/424x324/blandhy.webp';
-$image_large = 'bilder/problem/424x456/blandhy.webp';
+$image_small = '/bilder/problem/424x324/blandhy.webp';
+$image_large = '/bilder/problem/424x456/blandhy.webp';
 $image_alt = 'Bild som illustrerar blandhy';
 $image_title = 'Blandhy';
 

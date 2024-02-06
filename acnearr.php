@@ -487,28 +487,28 @@ $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut med fokus på akneärr sedan 2015',
-            image: 'bilder/specialists/312x312/hudterapeut-cazzandra.webp',
+            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
             image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i akneärrbehandling',
             image_title: 'Cazzandra Lindberg - Expert på akneärrbehandling'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut med specialisering i akneärr sedan 1999',
-            image: 'bilder/specialists/312x312/hudterapeut-veronika.webp',
+            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
             image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akneärr',
             image_title: 'Veronika Benedik - Specialist inom akneärrvård'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut med inriktning mot akneärr sedan 2017',
-            image: 'bilder/specialists/312x312/hudterapeut-amira.webp',
+            image: 'images/specialists/312x312/hudterapeut-amira.webp',
             image_alt: 'Amira Maqboul, hudterapeut specialiserad på akneärrhantering',
             image_title: 'Amira Maqboul - Hudterapeut specialiserad på akneärr'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut med specialisering i akneärr sedan 2019',
-            image: 'bilder/specialists/312x312/hudterapeut-vilma.webp',
+            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
             image_alt: 'Vilma Libom, hudterapeut med inriktning mot akneärrbehandling',
             image_title: 'Vilma Libom - Expert inom akneärrbehandling'
       )
@@ -522,7 +522,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
             aka: 'Finnar',
-            image: 'bilder/problems/102x102/akne.webp',
+            image: 'bilder/problem/102x102/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
             url: 'acne.php',
@@ -532,7 +532,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'bilder/problems/200x200/rosacea.webp',
+            image: 'bilder/problem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
             url: 'rosacea.php',
@@ -541,7 +541,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'bilder/problems/200x200/perioral-dermatit.webp',
+            image: 'bilder/problem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
