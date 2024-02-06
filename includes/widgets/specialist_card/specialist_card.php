@@ -26,6 +26,6 @@
             <strong><?php echo $specialist->since_year ?></strong>
         </div>
         <div class="specialist-card-description"><?php echo $specialist->description ?></div>
-        <a href="<?php echo $specialist->booking ?><" class="button outline expand l10n" title="Boka behandling">Boka behandling</a>
+        <a href="<?php echo $specialist->booking_link ?><" class="button outline expand l10n" title="Boka behandling">Boka behandling</a>
     </div>
 </div>
