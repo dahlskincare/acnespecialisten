@@ -143,7 +143,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När aknen är borta fokuserar vi på att reducera ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
+            content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
 
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
