@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="specialist-card-info">
-            <strong><?php echo $specialist->num_reviews ?>&nbsp;</strong>
+            <strong><?php echo $specialist->num_bookings ?>&nbsp;</strong>
             <span class="l10n">omdömen</span>
             <div class="dot"></div>
             <span class="l10n">Hudterapeut&nbsp;</span>
