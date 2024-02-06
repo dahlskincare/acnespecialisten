@@ -6,7 +6,7 @@ $seo_title = 'Behandling av Stora Porer - Effektiv Behandling och Förebyggande 
 $seo_description = 'Lär dig allt om behandlingen av stora porer, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, förebygga stora porer, minska porer, öppna porer, förstorade porer, hudtextur';
 
-$seo_image = 'images/treatments/large/stora-porer.jpg';
+$seo_image = 'bilder/problem/424x456/stora-porer.webp';
 
 $image_large = 'images/treatments/large/stora-porer.jpg';
 $image_small = 'images/treatments/small/stora-porer.jpg';

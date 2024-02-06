@@ -8,10 +8,10 @@ $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga ro
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = 'images/treatments/large/rosacea.jpg';
+$seo_image = 'bilder/problem/424x456/rosacea.webp';
 
-$image_large = 'images/treatments/large/rosacea.jpg';
-$image_small = 'images/treatments/small/rosacea.jpg';
+$image_large = 'bilder/problem/424x456/rosacea.webp';
+$image_small = 'bilder/problem/424x456/rosacea.webp';
 $image_alt = 'Bild på rosacea behandling';
 $image_title = 'Bild av effektiv rosaceabehandling';
 

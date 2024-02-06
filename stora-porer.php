@@ -11,7 +11,7 @@ $seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora pore
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = 'images/treatments/large/stora-porer.jpg';
+$seo_image = 'bilder/problem/424x456/stora-porer.webp';
 
 $title = 'Stora Porer';
 
