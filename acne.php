@@ -426,8 +426,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Papler',
-            aka: 'Kända som röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Propionibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            aka: 'Röda finnar',
+            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Cutibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
             //url_label: 'Läs mer om papler',
             //url: 'problem/akne/typer/atrophic-boxcar-scars',
@@ -439,7 +439,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Pustler',
-            aka: 'Kända som gula finnar',
+            aka: 'Gula finnar',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
             //url_label: 'Läs mer om pustler',
@@ -452,7 +452,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Noduler',
-            aka: 'Kända som innåtfinnar',
+            aka: 'Innåtfinnar',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
 
             //url_label: 'Läs mer om noduler',
@@ -465,7 +465,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Cystor',
-            aka: 'Kända som bölder',
+            aka: 'Bölder',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
 
             //url_label: 'Läs mer om cystor',
