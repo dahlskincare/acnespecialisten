@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $salons = array(
     new Salon(
-        title: 'Strandvägen',
+        title: 'Östermalm',
         image_small: 'bilder/kliniker/358x272/strandvagen.jpg',
         image_large: 'bilder/kliniker/424x526/strandvagen.jpg',
         address: 'Strandvägen 7, 114 51 Stockholm',
