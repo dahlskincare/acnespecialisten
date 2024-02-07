@@ -491,9 +491,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för aknebehandling',
       image_title: 'Konsultation för aknebehandling',
 
-      url_label: '',
-      url: '',
-      url_title: '',
+      url_label: 'Läs mer om gratis hudkonsultation mot akne',
+      url: 'gratis-hudkonsultation.php',
+      url_title: 'Läs mer om gratis hudkonsultation mot akne',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
@@ -519,9 +519,9 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url_label: 'Läs mer om ansiktsbehandling mot akne',
+            url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne.php',
+            url_title: 'Läs mer om ansiktsbehandling mot akne',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
@@ -542,9 +542,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url_label: 'Läs mer om gratis hudkonsultation mot akne',
+            url: 'gratis-hudkonsultation.php',
+            url_title: 'Läs mer om gratis hudkonsultation mot akne',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -611,7 +611,7 @@ $products = array(
             title: 'Produkter mot akne',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter och rutiner avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
@@ -632,7 +632,7 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-akne";
+$headline04 = "04. Reparera post-akne (acneärr)";
 
 $procedures = array(
       new Service(
@@ -646,12 +646,12 @@ $procedures = array(
             image_alt: 'Reparera acneärr',
             image_title: 'Reparera acneärr',
 
-            url_label: '',
-            url: '',
-            url_title: '',
+            url_label: 'Läs mer om behandling mot akneärr',
+            url: 'behandla-acnearr.php',
+            url_title: 'Läs mer om behandling mot akneärr',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
 
             booking_url_label: 'Boka behandling',
