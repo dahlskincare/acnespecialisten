@@ -542,9 +542,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
 
-            url_label: 'Läs mer om gratis hudkonsultation mot akne',
-            url: 'gratis-hudkonsultation.php',
-            url_title: 'Läs mer om gratis hudkonsultation mot akne',
+            url_label: 'Läs mer om laser mot akne',
+            url: 'laser-acne.php',
+            url_title: 'Läs mer om laser mot akne',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -565,9 +565,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling mot akne',
             image_title: 'Kemisk peeling mot akne behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url_label: 'Läs mer om kemisk peeling mot akne',
+            url: 'kemisk-peeling-acne.php',
+            url_title: 'Läs mer om kemisk peeling mot akne',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -590,9 +590,9 @@ $services = array(
             image_alt: 'Bild av microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url_label: 'Läs mer om microneedling mot akne',
+            url: 'microneedling-acne.php',
+            url_title: 'Läs mer om microneedling mot akne',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
