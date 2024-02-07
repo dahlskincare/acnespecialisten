@@ -251,15 +251,15 @@ $type_categories = array(
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
-                        title: 'Mallorca akne',
-                        subtitle: 'Acne aestivalis',
+                        title: 'Stress acne',
+                        subtitle: '',
 
-                        image_url: 'bilder/symptom/102x102/mallorca-akne.webp',
-                        image_alt: 'Bild av Mallorca akne',
-                        image_title: 'Exempel på Mallorca akne',
+                        image_url: 'bilder/symptom/102x102/lakemedelsakne.webp',
+                        image_alt: 'Bild av stress acne',
+                        image_title: 'Exempel på stress acne',
 
-                        url: 'mallorca-acne.php',
-                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne',
+                        //url: 'problem/akne/typer/lakemedelsakne',
+                        //url_title: 'Lär dig mer om hur läkemedel kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
@@ -273,7 +273,7 @@ $type_categories = array(
                         url_title: 'Utforska mer om hur hormoner kan framkalla akne',
                   ),
                   new BasedType(
-                        title: 'kosmetika akne',
+                        title: 'Kosmetika akne',
                         subtitle: 'Acne cosmetica',
 
                         image_url: 'bilder/symptom/102x102/kosmetika-akne.webp',
@@ -282,6 +282,17 @@ $type_categories = array(
 
                         //url: 'problem/akne/typer/kosmetika-akne',
                         //url_title: 'Lär dig mer om hur kosmetika kan ge akne',
+                  ),
+                  new BasedType(
+                        title: 'Mallorca akne',
+                        subtitle: 'Acne aestivalis',
+
+                        image_url: 'bilder/symptom/102x102/mallorca-akne.webp',
+                        image_alt: 'Bild av Mallorca akne',
+                        image_title: 'Exempel på Mallorca akne',
+
+                        url: 'mallorca-acne.php',
+                        url_title: 'Läs mer om hur solen kan orsaka Mallorca akne',
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
@@ -304,17 +315,6 @@ $type_categories = array(
 
                         //url: 'problem/akne/typer/akne-mekanisk',
                         //url_title: 'Utforska mer om hur friktion kan orsaka akne',
-                  ),
-                  new BasedType(
-                        title: 'Läkemedelsakne',
-                        subtitle: 'Acne medicamentosa',
-
-                        image_url: 'bilder/symptom/102x102/lakemedelsakne.webp',
-                        image_alt: 'Bild av läkemedelsakne',
-                        image_title: 'Exempel på läkemedelsakne',
-
-                        //url: 'problem/akne/typer/lakemedelsakne',
-                        //url_title: 'Lär dig mer om hur läkemedel kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
