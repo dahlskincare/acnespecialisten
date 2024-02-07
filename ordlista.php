@@ -95,9 +95,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="melasma.php">Melasma</a>
             <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
             <a class="b200 underline color-deep-sea-400" href="komedoner.php">Komedoner</a>
-            <a class="b200 underline color-deep-sea-400" href="pormaskar-ansikte.php">Pormaskar - Ansikte</a>
-            <a class="b200 underline color-deep-sea-400" href="pormaskar-brost.php">Pormaskar - Bröst</a>
-            <a class="b200 underline color-deep-sea-400" href="pormaskar-rygg.php">Pormaskar - Rygg</a>
             <a class="b200 underline color-deep-sea-400" href="svarta-pormaskar.php">Svarta Pormaskar</a>
             <a class="b200 underline color-deep-sea-400" href="vita-pormaskar.php">Vita Pormaskar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-stora-porer.php">Behandla Stora Porer</a>
