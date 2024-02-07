@@ -252,14 +252,14 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Stress acne',
-                        subtitle: '',
+                        subtitle: 'Acne orsakat av stress',
 
-                        image_url: 'bilder/symptom/102x102/stress-acne.webp',
-                        image_alt: 'Bild av stress acne',
-                        image_title: 'Exempel på stress acne',
+                        image_url: 'bilder/symptom/102x102/stress-akne.webp',
+                        image_alt: 'Bild av stress akne',
+                        image_title: 'Exempel på stress akne',
 
                         url: 'stress-acne.php',
-                        url_title: 'Lär dig mer om stress acne',
+                        url_title: 'Lär dig mer om stress akne',
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
@@ -340,9 +340,9 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Inflammerad Akne',
-                        subtitle: '',
+                        subtitle: 'Acne inflammatoria',
 
-                        image_url: 'bilder/symptom/102x102/svamp-akne.webp',
+                        image_url: 'bilder/symptom/102x102/inflammerad-akne.webp',
                         image_alt: 'Bild av inflammation akne',
                         image_title: 'Exempel på inflammation akne',
 
