@@ -358,7 +358,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Akne i ansiktet',
-                        subtitle: 'Även kallat Acne faciei',
+                        subtitle: 'Acne faciei',
 
                         image_url: 'bilder/symptom/102x102/akne-ansikte.webp',
                         image_alt: 'Bild av akne i ansiktet',
@@ -369,7 +369,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Akne på ryggen',
-                        subtitle: 'Även kallat Acne dorsalis',
+                        subtitle: 'Acne dorsalis',
 
                         image_url: 'bilder/symptom/102x102/akne-rygg.webp',
                         image_alt: 'Bild av akne på ryggen',
@@ -380,7 +380,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Akne på bröstet',
-                        subtitle: 'Även kallat Acne pectoralis',
+                        subtitle: 'Acne pectoralis',
 
                         image_url: 'bilder/symptom/102x102/akne-brost.webp',
                         image_alt: 'Bild av akne på bröstet',
@@ -400,12 +400,12 @@ $symptoms_title = 'Akne symptom';
 $symptoms = array(
       new Symptom(
             name: 'Öppna komedoner',
-            aka: 'Kända som pormaskar',
-            content: 'Pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg (hudens naturliga olja) och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin (hudens pigment) kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            aka: 'Svarta pormaskar',
+            content: 'Svarta pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin, hudens pigment kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
 
             url_label: 'Läs mer om öppna komedoner',
-            url: 'vita-pormaskar.php',
-            url_title: 'Läs mer om öppna komedoner (pormaskar)',
+            url: 'svarta-pormaskar.php',
+            url_title: 'Läs mer om Svarta pormaskar (öppna komedoner)',
 
             image: 'bilder/symptom/102x102/komedoner-oppna.webp',
             image_alt: 'Bild av öppna komedoner (pormaskar)',
@@ -413,11 +413,11 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Stängda komedoner',
-            aka: 'Kända som "whiteheads"',
+            aka: 'Vita pormaskar',
             content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
 
             url_label: 'Läs mer om stängda komedoner',
-            url: 'svarta-pormaskar.php',
+            url: 'vita-pormaskar.php',
             url_title: 'Läs mer om stängda komedoner (whiteheads)',
 
             image: 'bilder/symptom/102x102/komedoner-stangda.webp',
