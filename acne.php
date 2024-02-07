@@ -162,7 +162,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Tonårsakne',
-                        subtitle: 'Även kallat acne vulgaris',
+                        subtitle: 'Acne vulgaris',
 
                         image_url: 'bilder/symptom/102x102/tonarsakne.webp',
                         image_alt: 'Bild av tonårsakne',
@@ -173,7 +173,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
+                        subtitle: 'Acne tarda',
 
                         image_url: 'bilder/symptom/102x102/vuxenakne.webp',
                         image_alt: 'Bild av vuxenakne',
@@ -184,7 +184,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Barnakne',
-                        subtitle: 'Även kallat acne neonatorum',
+                        subtitle: 'Acne neonatorum',
 
                         image_url: 'bilder/symptom/102x102/barnakne.webp',
                         image_alt: 'Bild av barnakne',
@@ -202,7 +202,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Mild akne',
-                        subtitle: 'Även kallat acne comedonica',
+                        subtitle: 'Acne comedonica',
 
                         image_url: 'bilder/symptom/102x102/mild-akne.webp',
                         image_alt: 'Bild av mild akne',
