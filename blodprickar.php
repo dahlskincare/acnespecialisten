@@ -150,7 +150,7 @@ $service = new Service(
       url: '',
       url_title: '',
 
-      consultation_url_label: 'Boka tid för hudkonsultation för blodprickar',
+      consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för blodprickar',
 
@@ -177,11 +177,11 @@ $services = array(
             url_label: '',
             url_title: '',
 
-            consultation_url_label: 'Boka tid för konsultation för Cryopen behandling av blodprickar',
+            consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av blodprickar',
 
-            booking_url_label: 'Boka tid för behandling med Cryopen för blodprickar',
+            booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för blodprickar'
       ),

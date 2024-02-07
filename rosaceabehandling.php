@@ -45,7 +45,7 @@ $about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt
 
 $headline01 = "01. Identifiera din rosacea";
 
-$define_image = 'images/service-categories/large/konsultation.webp';
+$define_image = '';
 $define_image_alt = 'Hur vi tar bort och behandlar rosacea?';
 $define_image_title = 'Hur vi tar bort och behandlar rosacea?';
 
@@ -81,9 +81,9 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Rosacea på Acnespecialisten',
 
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
+        url_label: 'Läs mer om ansiktsbehandling mot rosacea',
+        url_title: 'Läs mer om ansiktsbehandling mot rosacea',
 
         // short_title: 'Ansiktsbehandling'
     ),

@@ -135,9 +135,9 @@ $people_search_for = array(
         url_title: 'Läs mer om akneärr behandlingar'
     ),
     new Treatment(
-        label: 'Rosaceabehandling',
+        label: 'Rosaceabehandlingar',
         url: 'rosaceabehandling.php',
-        url_title: 'Läs mer om rosaceabehandling'
+        url_title: 'Läs mer om rosaceabehandlingar'
     ),
     new Treatment(
         label: 'Portömning',
