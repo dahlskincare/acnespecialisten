@@ -252,7 +252,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Mallorca akne',
-                        subtitle: 'Även kallat Acne aestivalis',
+                        subtitle: 'Acne aestivalis',
 
                         image_url: 'bilder/symptom/102x102/mallorca-akne.webp',
                         image_alt: 'Bild av Mallorca akne',
@@ -263,7 +263,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
-                        subtitle: 'akne orsakad av hormoner',
+                        subtitle: 'Akne orsakad av hormoner',
 
                         image_url: 'bilder/symptom/102x102/hormonell-akne.webp',
                         image_alt: 'Bild av hormonell akne',
@@ -274,7 +274,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'kosmetika akne',
-                        subtitle: 'Även kallat Acne cosmetica',
+                        subtitle: 'Acne cosmetica',
 
                         image_url: 'bilder/symptom/102x102/kosmetika-akne.webp',
                         image_alt: 'Bild av kosmetika akne',
@@ -285,7 +285,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
-                        subtitle: 'Även kallat Acne exoriée ',
+                        subtitle: 'Acne exoriée ',
 
                         image_url: 'bilder/symptom/102x102/pill-akne.webp',
                         image_alt: 'Bild av pill akne',
@@ -296,7 +296,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
-                        subtitle: 'Även kallat Acne mechanica',
+                        subtitle: 'Acne mechanica',
 
                         image_url: 'bilder/symptom/102x102/friktions-akne.webp',
                         image_alt: 'Bild av friktions akne',
@@ -307,7 +307,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Läkemedelsakne',
-                        subtitle: 'Även kallat Acne medicamentosa',
+                        subtitle: 'Acne medicamentosa',
 
                         image_url: 'bilder/symptom/102x102/lakemedelsakne.webp',
                         image_alt: 'Bild av läkemedelsakne',
@@ -318,7 +318,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
-                        subtitle: 'Även kallat Acne venenata',
+                        subtitle: 'Acne venenata',
 
                         image_url: 'bilder/symptom/102x102/kontakt-akne.webp',
                         image_alt: 'Bild av kontaktakne',
@@ -329,7 +329,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Svampakne',
-                        subtitle: 'Även kallat fungal acne',
+                        subtitle: 'Fungal acne',
 
                         image_url: 'bilder/symptom/102x102/svamp-akne.webp',
                         image_alt: 'Bild av svampakne',
@@ -340,7 +340,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Inflammerad Akne',
-                        subtitle: 'Även kallat acne',
+                        subtitle: '',
 
                         image_url: 'bilder/symptom/102x102/svamp-akne.webp',
                         image_alt: 'Bild av inflammation akne',
