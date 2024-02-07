@@ -32,20 +32,20 @@ $akas = [
 ];
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för acneärr";
 
 $booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka behandling mot acneärr";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Boka gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för acneärr";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka acneärr-behandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för acneärr";
 
 $floating_booking_url_label = "Boka behandling";
@@ -71,8 +71,8 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är acneärr?',
-            content: '<p class="p200">acneärr och ärr från finnar uppstår när talget omvandlas till en syra som fräter på hudlagren. Denna omvandling sker när porerna täpps till och inte kan göra sig av med allt sitt innehåll. Ärr som uppstår som en följd av allvarlig eller långvarig akne representerar permanenta texturförändringar i huden och är ofta en påminnelse om tidigare akneutbrott. Det kan variera i form och storlek och påverka både utseendet och känslan på huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Fläckarna och ärrbildningen kan uppenbara sig på olika sätt, beroende på hur allvarlig acne man tidigare lidit av. Vid mild acne blir det ofta bara röda eller mörkare fläckar på huden, medan huden får så kallade gropar och blir ärrig efter svårare acne. Dessa gropar är exempel på atrofiska ärr (Gropar), som kan delas in i tre huvudtyper: ispickar, rullande ärr och lådformade ärr. Varje typ kräver en specifik behandlingsmetod, och det finns även andra former som postinflammatoriska hyperpigmenteringar (Fläckar).</p>
+            content: '<p class="p200">Acneärr uppstår när obehandlad akne skadar huden under en längre tid. Orsaken till detta är att aknens innehåll består av en aggresiv fettsyra som fräter på huden vilket orsakar en skada.. Det kan variera i form och storlek och påverka både utseendet och känslan på huden.</p>',
+            extended_content: '<p class="p200 mt-xl">Fläckar och gropar kan uppenbara sig på olika sätt, beroende på hur allvarlig acne man tidigare lidit av. Vid mild acne blir det ofta bara röda eller mörkare fläckar på huden, medan huden får så kallade gropar och blir ärrig efter svårare acne. Dessa gropar är exempel på atrofiska ärr (Gropar), som kan delas in i tre huvudtyper: ispickar, rullande ärr och lådformade ärr. Varje typ kräver en specifik behandlingsmetod, och det finns även andra former som postinflammatoriska hyperpigmenteringar (Fläckar).</p>
             <p class="p200 mt-xl">Hos Acnespecialisten, som har över 30 års erfarenhet av acneärr, erbjuder vi de senaste och mest effektiva metoderna för att behandla dessa ärr. Behandlingen av acneärr är ofta komplex och måste skräddarsys efter individens hudtyp och ärr. Det är av yttersta vikt att först hantera och behandla aktiv akne innan man går vidare med ärrbehandling, då nya akneutbrott kan leda till fler ärr. Vi har specialister som är redo att erbjuda dig en kostnadsfri hudkonsultation för att fastställa vilken typ av acneärr du har och lägga upp en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som är med dig hela vägen från start till mål.</p>',
             icons: array()
       ),
