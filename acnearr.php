@@ -9,8 +9,6 @@ $seo_title = 'Allt om Akneärr - Behandling, Orsaker och Förebyggande | Acnespe
 $seo_description = 'Utforska allt om akneärr, från de underliggande orsakerna till effektiva behandlingsmetoder och förebyggande åtgärder. Få professionell hjälp och individuella lösningar från Acnespecialisten.';
 $seo_keywords = 'akneärr, behandling av akneärr, orsaker till akneärr, förebygga akneärr, ta bort akneärr, ärrreducering, hudförnyelse, ärrbehandling';
 
-
-
 $title = 'Akneärr';
 
 $image_small = 'bilder/problem/424x324/aknearr.webp';
