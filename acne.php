@@ -340,7 +340,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Inflammerad Akne',
-                        subtitle: 'Acne inflammatoria',
+                        subtitle: 'Acne pustulosa',
 
                         image_url: 'bilder/symptom/102x102/inflammerad-akne.webp',
                         image_alt: 'Bild av inflammation akne',
