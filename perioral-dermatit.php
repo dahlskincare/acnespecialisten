@@ -437,7 +437,7 @@ $services = array(
 
             url: '',
             url_label: '',
-            url_title: ',
+            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
