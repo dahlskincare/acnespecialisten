@@ -49,7 +49,7 @@ $consultation_url = "https://acnespecialisten.se/book?flow=consultation&Consulta
 $consultation_url_title = "Boka gratis konsultation för Akne";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka Aknebehandling";
 
 $mobile_consultation_url_label = "Boka gratis konsultation";
@@ -130,7 +130,7 @@ $treatment_steps = array(
             content: 'Vi utför grundliga och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
 
             url_label: 'Se aknebehandlingar',
-            url: 'acnebehandling.php',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
@@ -158,19 +158,8 @@ $types_title = 'Olika typer av akne';
 $type_categories = array(
       new BasedTypeCategory(
             title: 'Akne baserat på ålder',
-            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Vuxenakne förekommer också, och det kan bero på en rad olika faktorer. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
+            content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
-                  new BasedType(
-                        title: 'Vuxenakne',
-                        subtitle: 'Även kallat acne tarda',
-
-                        image_url: 'bilder/symptom/102x102/vuxenakne.webp',
-                        image_alt: 'Bild av vuxenakne',
-                        image_title: 'Akne hos vuxna',
-
-                        url: 'vuxenacne.php',
-                        url_title: 'Utforska information om vuxenakne'
-                  ),
                   new BasedType(
                         title: 'Tonårsakne',
                         subtitle: 'Även kallat acne vulgaris',
@@ -181,6 +170,17 @@ $type_categories = array(
 
                         url: 'tonarsacne.php',
                         url_title: 'Utforska information om tonårsakne'
+                  ),
+                  new BasedType(
+                        title: 'Vuxenakne',
+                        subtitle: 'Även kallat acne tarda',
+
+                        image_url: 'bilder/symptom/102x102/vuxenakne.webp',
+                        image_alt: 'Bild av vuxenakne',
+                        image_title: 'Akne hos vuxna',
+
+                        url: 'vuxenacne.php',
+                        url_title: 'Utforska information om vuxenakne'
                   ),
                   new BasedType(
                         title: 'Barnakne',
@@ -202,7 +202,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Mild akne',
-                        subtitle: 'även kallat acne comedonica',
+                        subtitle: 'Även kallat acne comedonica',
 
                         image_url: 'bilder/symptom/102x102/mild-akne.webp',
                         image_alt: 'Bild av mild akne',
@@ -213,7 +213,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Medelsvår akne',
-                        subtitle: 'Även kallat acne papulopustulosa',
+                        subtitle: 'Acne papulopustulosa',
 
                         image_url: 'bilder/symptom/102x102/medelsvar-akne.webp',
                         image_alt: 'Bild av medelsvår akne',
@@ -224,7 +224,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Svår akne',
-                        subtitle: 'Även kallat Acne nodulocystica',
+                        subtitle: 'Acne nodulocystica',
 
                         image_url: 'bilder/symptom/102x102/svar-akne.webp',
                         image_alt: 'Bild av svår akne',
@@ -235,7 +235,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Mycket svår akne',
-                        subtitle: 'Även kallat Acne conglobata',
+                        subtitle: 'Acne conglobata',
 
                         image_url: 'bilder/symptom/102x102/mycket-svar-akne.webp',
                         image_alt: 'Bild av mycket svår akne',
@@ -252,7 +252,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Mallorca akne',
-                        subtitle: 'även kallat Acne aestivalis',
+                        subtitle: 'Även kallat Acne aestivalis',
 
                         image_url: 'bilder/symptom/102x102/mallorca-akne.webp',
                         image_alt: 'Bild av Mallorca akne',
