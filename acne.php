@@ -488,7 +488,7 @@ $service = new Service(
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Bild av en konsultation för aknebehandling',
+      image_alt: 'Kvinna som får konsultation för aknebehandling',
       image_title: 'Konsultation för aknebehandling',
 
       url_label: 'Läs mer om gratis hudkonsultation mot akne',
@@ -516,7 +516,7 @@ $services = array(
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot akne',
+            image_alt: 'Kvinna som får ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
 
             url_label: 'Läs mer om ansiktsbehandling mot akne',
@@ -539,7 +539,7 @@ $services = array(
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
-            image_alt: 'Bild av laserbehandling mot akne',
+            image_alt: 'Kvinna som får laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
 
             url_label: 'Läs mer om laser mot akne',
@@ -562,7 +562,7 @@ $services = array(
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
-            image_alt: 'Bild av kemisk peeling mot akne',
+            image_alt: 'Man som får kemisk peeling mot akne',
             image_title: 'Kemisk peeling mot akne behandling',
 
             url_label: 'Läs mer om kemisk peeling mot akne',
@@ -575,7 +575,7 @@ $services = array(
 
             booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
             booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne behandling',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne',
 
       ),
 
@@ -587,7 +587,7 @@ $services = array(
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Bild av microneedling mot akne',
+            image_alt: 'Kvinna som får microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
 
             url_label: 'Läs mer om microneedling mot akne',
@@ -600,7 +600,7 @@ $services = array(
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne',
       ),
 );
 
@@ -615,7 +615,7 @@ $products = array(
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
-            image_alt: 'Bild av produkter designade för behandling av akne',
+            image_alt: 'Produkter designade för behandling av akne',
             image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
 
             url: '',
@@ -643,7 +643,7 @@ $procedures = array(
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Reparera acneärr',
+            image_alt: 'Kvinna som får behandling mot acneärr',
             image_title: 'Reparera acneärr',
 
             url_label: 'Läs mer om behandling mot akneärr',
@@ -656,14 +656,15 @@ $procedures = array(
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot akne behandling',
+            booking_url_title: 'Klicka för att boka tid för behandling mot akneärr',
 
       ),
 );
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja Acnespecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p><p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+            content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja AcneSpecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p>
+            <p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
 
             image_small: null,
             image_large: null,
@@ -672,7 +673,8 @@ $articles = array(
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p><p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova Acnespecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar och resultat. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p>
+            <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
 
             image_small: null,
             image_large: null,
