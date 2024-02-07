@@ -117,6 +117,7 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="utbildningsdag.php">Utbildningsdag</a>
             <a class="b200 underline color-deep-sea-400" href="jobb.php">Jobb</a>
+            <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>
             <a class="b200 underline color-deep-sea-400" href="karriar.php">Karriär</a>',
         ),
         
