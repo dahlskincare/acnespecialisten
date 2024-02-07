@@ -767,10 +767,10 @@ $faq_categories = array(
                   text: '<p class="p200">Ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
             ),
             new Question(
-                  title: 'Ska jag klämma mina finnar?',
-                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer finnar själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att finnar kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
+                  title: 'Ska jag klämma min akne?',
+                  text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer din akne själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att akne kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
 
-                        <p class="p200 mt-m">För att klämma finnar korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla dina finnar på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt. Du kan läsa mer om våra aknebehandlingar och hur de kan hjälpa dig här.</p>'
+                        <p class="p200 mt-m">För att klämma akne korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla din akne på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt.</p>'
             ),
             new Question(
                   title: 'Försvinner aknen efter tonåren?',
@@ -792,7 +792,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av finnar. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då bör inte orsaka akneutbrott hos de flesta människor.</p>'
+                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av akne. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då orsakar akneutbrott.</p>'
             ),
             new Question(
                   title: 'Vad kan jag göra för att bli av med min akne?',
@@ -893,7 +893,7 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
-            aka: 'gropar & Fläckar',
+            aka: 'Gropar & Fläckar',
             image: 'images/problems/102x102/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
@@ -902,7 +902,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Rosacea',
-            aka: 'ansiktsrodnad',
+            aka: 'Ansiktsrodnad',
             image: 'images/problems/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
@@ -911,7 +911,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
+            aka: 'Akne runt munnen',
             image: 'images/problems/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
@@ -921,12 +921,28 @@ $related_problems = array(
 );
 $brands = array(
       new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            image_alt: 'Alma logotyp',
+            url: 'varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_title: 'Alma Hybrid - CO2 laser',
+            image_alt: 'Alma Hybrid logotyp',
+            url: 'alma-hybrid-co2-laser.php',
+            url_title: 'Läs mer om Alma Hybrid CO2 laser',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: 'alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
       ),
       new Brand(
             label: 'Dermapen',
@@ -937,44 +953,12 @@ $brands = array(
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'bilder/logotyper/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'bilder/logotyper/infuzion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: 'varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
 
