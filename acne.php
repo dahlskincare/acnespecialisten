@@ -440,7 +440,7 @@ $symptoms = array(
       new Symptom(
             name: 'Pustler',
             aka: 'Gula finnar',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            content: 'Pustuler är gula och inflammerade blemmor som innehåller var som är en blandning av bakterier, vita blodkroppar och döda hudceller. De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
             //url_label: 'Läs mer om pustler',
             //url: 'problem/akne/typer/atrophic-rolling-scars',
