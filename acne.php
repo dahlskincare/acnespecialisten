@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
-$seo_keywords = 'akne, orsaker till akne, varför får man akne, var akne, varför akne';
+$seo_title = 'Vad är akne? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Här hittar du allt om akne och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'akne, vad är akne, orsaker till akne, varför får man akne, var akne, varför akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
