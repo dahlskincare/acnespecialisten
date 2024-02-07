@@ -405,24 +405,24 @@ $symptoms = array(
 
             url_label: 'Läs mer om öppna komedoner',
             url: 'svarta-pormaskar.php',
-            url_title: 'Läs mer om Svarta pormaskar (öppna komedoner)',
+            url_title: 'Läs mer om Svarta pormaskar (svarta pormaskar)',
 
             image: 'bilder/symptom/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+            image_alt: 'Bild av öppna komedoner (svarta pormaskar)',
+            image_title: 'Öppna komedoner (svarta pormaskar)'
       ),
       new Symptom(
             name: 'Stängda komedoner',
             aka: 'Vita pormaskar',
-            content: 'Whiteheads (slutna komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            content: 'Vita pormaskar(stängda komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
 
             url_label: 'Läs mer om stängda komedoner',
             url: 'vita-pormaskar.php',
-            url_title: 'Läs mer om stängda komedoner (whiteheads)',
+            url_title: 'Läs mer om stängda komedoner (vita pormaskar)',
 
             image: 'bilder/symptom/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+            image_alt: 'Bild av stängda komedoner (vita pormaskar)',
+            image_title: 'Stängda komedoner (vita pormaskar)'
       ),
       new Symptom(
             name: 'Papler',
