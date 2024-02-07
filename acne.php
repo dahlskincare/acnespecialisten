@@ -401,7 +401,7 @@ $symptoms = array(
       new Symptom(
             name: 'Öppna komedoner',
             aka: 'Svarta pormaskar',
-            content: 'Svarta pormaskar (öppna komedoner) är små, mörka prickar som uppstår när en por täpps igen av talg och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin, hudens pigment kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            content: 'Svarta pormaskar är små, mörka prickar som uppstår när en por täpps igen av talg och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin, hudens pigment kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
 
             url_label: 'Läs mer om öppna komedoner',
             url: 'svarta-pormaskar.php',
@@ -414,7 +414,7 @@ $symptoms = array(
       new Symptom(
             name: 'Stängda komedoner',
             aka: 'Vita pormaskar',
-            content: 'Vita pormaskar(stängda komedoner) är små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            content: 'Vita pormaskarär små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
 
             url_label: 'Läs mer om stängda komedoner',
             url: 'vita-pormaskar.php',
@@ -453,7 +453,7 @@ $symptoms = array(
       new Symptom(
             name: 'Noduler',
             aka: 'Innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
+            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, bröstet och ryggen.',
 
             //url_label: 'Läs mer om noduler',
             //url: 'problem/akne/typer/hypertrophic-keloid',
