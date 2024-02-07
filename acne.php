@@ -511,7 +511,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'En effektiv ansiktsbehandling mot akne fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
@@ -610,7 +610,7 @@ $products = array(
       new Service(
             title: 'Produkter mot akne',
             duration: null,
-            price: 'Pris från 1495 kr',
+            price: 'Pris från 1395 kr',
             content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter och rutiner avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
 
             image_small: 'images/services/200x200/produkter.webp',
