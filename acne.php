@@ -254,12 +254,12 @@ $type_categories = array(
                         title: 'Stress acne',
                         subtitle: '',
 
-                        image_url: 'bilder/symptom/102x102/lakemedelsakne.webp',
+                        image_url: 'bilder/symptom/102x102/stress-acne.webp',
                         image_alt: 'Bild av stress acne',
                         image_title: 'Exempel på stress acne',
 
-                        //url: 'problem/akne/typer/lakemedelsakne',
-                        //url_title: 'Lär dig mer om hur läkemedel kan orsaka akne',
+                        url: 'stress-acne.php',
+                        url_title: 'Lär dig mer om stress acne',
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
