@@ -273,17 +273,6 @@ $type_categories = array(
                         url_title: 'Utforska mer om hur hormoner kan framkalla akne',
                   ),
                   new BasedType(
-                        title: 'Kosmetika akne',
-                        subtitle: 'Acne cosmetica',
-
-                        image_url: 'bilder/symptom/102x102/kosmetika-akne.webp',
-                        image_alt: 'Bild av kosmetika akne',
-                        image_title: 'Exempel på kosmetika akne',
-
-                        //url: 'problem/akne/typer/kosmetika-akne',
-                        //url_title: 'Lär dig mer om hur kosmetika kan ge akne',
-                  ),
-                  new BasedType(
                         title: 'Mallorca akne',
                         subtitle: 'Acne aestivalis',
 
@@ -293,6 +282,28 @@ $type_categories = array(
 
                         url: 'mallorca-acne.php',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne',
+                  ),
+                  new BasedType(
+                        title: 'Inflammerad Akne',
+                        subtitle: 'Acne pustulosa',
+
+                        image_url: 'bilder/symptom/102x102/inflammerad-akne.webp',
+                        image_alt: 'Bild av inflammation akne',
+                        image_title: 'Exempel på inflammation akne',
+
+                        url: 'inflammation-acne.php',
+                        url_title: 'Lär dig mer om inflammation akne',
+                  ),
+                  new BasedType(
+                        title: 'Kosmetika akne',
+                        subtitle: 'Acne cosmetica',
+
+                        image_url: 'bilder/symptom/102x102/kosmetika-akne.webp',
+                        image_alt: 'Bild av kosmetika akne',
+                        image_title: 'Exempel på kosmetika akne',
+
+                        //url: 'problem/akne/typer/kosmetika-akne',
+                        //url_title: 'Lär dig mer om hur kosmetika kan ge akne',
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
@@ -338,17 +349,7 @@ $type_categories = array(
                         //url: 'problem/akne/typer/fungal-akne',
                         //url_title: 'Lär dig mer om hur svamp relateras till akne',
                   ),
-                  new BasedType(
-                        title: 'Inflammerad Akne',
-                        subtitle: 'Acne pustulosa',
-
-                        image_url: 'bilder/symptom/102x102/inflammerad-akne.webp',
-                        image_alt: 'Bild av inflammation akne',
-                        image_title: 'Exempel på inflammation akne',
-
-                        url: 'inflammation-acne.php',
-                        url_title: 'Lär dig mer om inflammation akne',
-                  ),
+                  
             )
       ),
       new BasedTypeCategory(
