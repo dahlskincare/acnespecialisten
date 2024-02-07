@@ -401,27 +401,27 @@ $symptoms = array(
       new Symptom(
             name: 'Öppna komedoner',
             aka: 'Svarta pormaskar',
-            content: 'Svarta pormaskar är små, mörka prickar som uppstår när en por täpps igen av talg och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin, hudens pigment kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna, pannan och hakan.',
+            content: 'Svarta pormaskar är små, mörka prickar som uppstår när en por täpps igen av talg och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin, hudens pigment kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna och panna.',
 
             url_label: 'Läs mer om öppna komedoner',
             url: 'svarta-pormaskar.php',
             url_title: 'Läs mer om Svarta pormaskar (svarta pormaskar)',
 
             image: 'bilder/symptom/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (svarta pormaskar)',
+            image_alt: 'Ansikte med öppna komedoner (svarta pormaskar)',
             image_title: 'Öppna komedoner (svarta pormaskar)'
       ),
       new Symptom(
             name: 'Stängda komedoner',
             aka: 'Vita pormaskar',
-            content: 'Vita pormaskarär små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan, kinderna och hakan.',
+            content: 'Vita pormaskarär små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan och kinderna.',
 
             url_label: 'Läs mer om stängda komedoner',
             url: 'vita-pormaskar.php',
             url_title: 'Läs mer om stängda komedoner (vita pormaskar)',
 
             image: 'bilder/symptom/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (vita pormaskar)',
+            image_alt: 'Ansikte med stängda komedoner (vita pormaskar)',
             image_title: 'Stängda komedoner (vita pormaskar)'
       ),
       new Symptom(
@@ -434,7 +434,7 @@ $symptoms = array(
             //url_title: 'Läs mer om papler (röda finnar)',
 
             image: 'bilder/symptom/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
+            image_alt: 'Ansikte med papler (röda finnar)',
             image_title: 'Papler (röda finnar)'
       ),
       new Symptom(
@@ -447,7 +447,7 @@ $symptoms = array(
             //url_title: 'Läs mer om pustler (gula finnar)',
 
             image: 'bilder/symptom/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
+            image_alt: 'Ansikte med pustler (gula finnar)',
             image_title: 'Pustler (gula finnar)'
       ),
       new Symptom(
@@ -460,7 +460,7 @@ $symptoms = array(
             //url_title: 'Läs mer om noduler (innåtfinnar)',
 
             image: 'bilder/symptom/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
+            image_alt: 'Ansikte med noduler (innåtfinnar)',
             image_title: 'Noduler (innåtfinnar)'
       ),
       new Symptom(
@@ -473,7 +473,7 @@ $symptoms = array(
             //url_title: 'Läs mer om cystor (bölder)',
 
             image: 'bilder/symptom/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
+            image_alt: 'Ansikte med cystor (bölder)',
             image_title: 'Cystor (bölder)'
       ),
 );
