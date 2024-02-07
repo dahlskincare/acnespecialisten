@@ -98,7 +98,7 @@ $trivias = array(
             content: '<p class="p200">Seborré uppstår ofta i ansiktet, framförallt i områden med hög koncentration av talgkörtlar, såsom runt näsan, ögonbrynen, pannan och ögonlocken. Här kan tillståndet ge röda, fjällande, oljiga fläckar som kan vara svåra att dölja och orsaka obehag.</p>',
             extended_content: '<p class="p200 mt-xl">Ett annat vanligt område är hårbotten, där överdriven talgproduktion kan leda till mjäll. Även områden som öron, bröst och mitten av ryggen kan drabbas, där seborré kan skapa röda, flagnande fläckar. Trots att dessa områden är mest utsatta, kan seborré dyka upp var som helst på kroppen där talgproduktionen är hög. </p>
             <p class="p200 mt-xl">På AcneSpecialisten är vi experter på att hantera seborré. Vi erbjuder ett brett utbud av behandlingar och produkter som kan hjälpa dig att kontrollera dina symptom och förbättra din hudhälsa.</p>',
-            icons: array('ansikte' => 'Ansiktet', 'ogonbryn' => 'Ögonbryn', 'harlinje' => 'Hårlinje', 'skagg' => 'I skägget')
+            icons: array('ansikte' => 'Ansiktet', 'ogonbryn' => 'Ögonbryn', 'harlinje' => 'Hårlinje', 'skagg' => 'Skägget')
       ),
 );
 $treatment_steps = array(
