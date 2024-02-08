@@ -495,17 +495,17 @@ $procedures = array(
             title: 'Reparera ärr efter finnar',
             duration: '4 behandlingsmetoder',
             price: null,
-            content: 'Efter finnar kan det ibland uppstå ärr i form av gropar och fläckar på huden där finnarna tidigare varit. Dessa ärr kan vara i olika former och färger, och behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om ärr som uppstått efter finnar.',
+            content: 'Efter finnar kan det ibland uppstå ärr i form av gropar och fläckar på huden där finnarna tidigare varit. Dessa ärr kan vara i olika former och färger, och behandlas med olika metoder.',
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Reparera ärr efter finnar',
             image_title: 'Reparera ärr efter finnar',
 
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot ärr från finnar',
 
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot ärr från finnar',
 
@@ -522,7 +522,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?!',
             image_title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Har du kämpat med finnar och provat allt utan att få långvariga resultat? Då är det dags att vända dig till oss på AcneSpecialisten. Med över 30 års erfarenhet av att arbeta med finnar, är vi specialister som vet exakt vilken process som krävs för att bli av med problemet.Många av våra kunder har tidigare försökt med olika behandlingar utan framgång. Det är här vi kommer in. Vi skräddarsyr behandlingar baserade på dina specifika behov och tillämpar en beprövad metod som faktiskt fungerar. Vi använder bara de bästa produkterna och behandlingarna som är anpassade för att bekämpa finnar och hjälper dig att uppnå en klar och frisk hud.</p>
+            content: '<p class="p200">Har du kämpat med finnar och provat allt utan att få långvariga resultat? Då är det dags att vända dig till oss på AcneSpecialisten. Med över 30 års erfarenhet av att arbeta med finnar, är vi specialister som vet exakt vilken process som krävs för att bli av med problemet. Många av våra kunder har tidigare försökt med olika behandlingar utan framgång. Det är här vi kommer in. Vi skräddarsyr behandlingar baserade på dina specifika behov och tillämpar en beprövad metod som faktiskt fungerar. Vi använder bara de bästa produkterna och behandlingarna som är anpassade för att bekämpa finnar och hjälper dig att uppnå en klar och frisk hud.</p>
 
             <p class="p200 mt-m">När du väljer AcneSpecialisten får du inte bara den mest effektiva behandlingen för ditt specifika fall, utan också en hudvårdspartner som stöttar dig genom hela processen. Vi tar ditt problem på allvar och vi tar oss tid att förstå din hudtyp och dina unika behov.Ta steget mot en finn-fri hud idag genom att boka en kostnadsfri konsultation hos oss. Vi har kunskapen och erfarenheten att hjälpa dig att nå dina hudvårdsmål. Låt oss visa dig varför AcneSpecialisten är ditt bästa val för att hantera och övervinna dina finnar!</p>',
       ),
