@@ -401,7 +401,7 @@ $symptoms = array(
       new Symptom(
             name: 'Öppna komedoner',
             aka: 'Svarta pormaskar',
-            content: 'Svarta pormaskar är små, mörka prickar som uppstår när en por täpps igen av talg och döda hudceller. De är ofta svarta eller bruna på grund av oxidation, som inträffar när melanin, hudens pigment kommer i kontakt med luft. Pormaskar kan vara platta eller lätt upphöjda och är vanligt förekommande på näsan, kinderna och panna.',
+            content: 'Svarta pormaskar är mörka prickar som bildas av talg och döda hudceller, vilka oxiderar och blir mörka, oftast förekommande på näsa, kinder och panna.',
 
             url_label: 'Läs mer om öppna komedoner',
             url: 'svarta-pormaskar.php',
@@ -414,7 +414,7 @@ $symptoms = array(
       new Symptom(
             name: 'Stängda komedoner',
             aka: 'Vita pormaskar',
-            content: 'Vita pormaskarär små, vita eller hudfärgade utbuktningar som uppstår när en por täpps till av talg och döda hudceller under hudytan. De är täckta av ett tunt lager hud, vilket förhindrar oxidation och därmed behåller sin ljusa färg. Whiteheads kan vara platta eller lätt upphöjda och är vanligt förekommande på pannan och kinderna.',
+            content: 'Vita pormaskar, eller stängda komedoner, är små utbuktningar som bildas när porer blockeras under hudytan, skyddade från oxidation, vanligtvis synliga på pannan och kinderna.',
 
             url_label: 'Läs mer om stängda komedoner',
             url: 'vita-pormaskar.php',
@@ -427,7 +427,7 @@ $symptoms = array(
       new Symptom(
             name: 'Papler',
             aka: 'Röda finnar',
-            content: 'Papuler är små, fasta, röda och inflammerade blemmor som uppstår när en hårsäck blir infekterad av bakterier, oftast Cutibacterium acnes. De är vanligtvis mindre än 5 mm i diameter och kan vara känsliga vid beröring. Papuler är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            content: 'Papler är små, röda inflammerade blemmor som uppstår från bakterieinfektioner i hårsäckar, känsliga vid beröring och vanliga på ansikte, nacke, bröst och rygg.',
 
             //url_label: 'Läs mer om papler',
             //url: 'problem/akne/typer/atrophic-boxcar-scars',
@@ -440,7 +440,7 @@ $symptoms = array(
       new Symptom(
             name: 'Pustler',
             aka: 'Gula finnar',
-            content: 'Pustuler är gula och inflammerade blemmor som innehåller var som är en blandning av bakterier, talg och döda hudceller. De ser ut som papuler men har en vit eller gul prick i mitten. Pustler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            content: 'Pustler är inflammerade, gula blemmor med en varfylld mitt, resultatet av bakterier och talg, ofta smärtsamma och vanliga på ansikte, nacke, bröst och rygg.',
 
             //url_label: 'Läs mer om pustler',
             //url: 'problem/akne/typer/atrophic-rolling-scars',
@@ -453,7 +453,7 @@ $symptoms = array(
       new Symptom(
             name: 'Noduler',
             aka: 'Innåtfinnar',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, bröstet och ryggen.',
+            content: 'Noduler är stora, smärtsamma blemmor från djup infektion i hårsäckar, större än 5 mm i diameter, och vanliga på ansikte, bröst och rygg.',
 
             //url_label: 'Läs mer om noduler',
             //url: 'problem/akne/typer/hypertrophic-keloid',
@@ -466,7 +466,7 @@ $symptoms = array(
       new Symptom(
             name: 'Cystor',
             aka: 'Bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, bröstet och ryggen.',
+            content: 'Cystor är stora, varfyllda och smärtsamma blemmor från djup hårsäcksinfektion, mjuka eller fasta vid beröring, ofta större än 5 mm och vanliga på ansikte, bröst och rygg.',
 
             //url_label: 'Läs mer om cystor',
             //url: 'problem/akne/typer/hypertrophic-keloid',

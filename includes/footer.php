@@ -6,7 +6,7 @@
                 <h2 class="big l10n">Redo att sätta igång?</h2>
                 <p class="p200 l10n">Boka tid för en kostnadsfri konsultation.</p>
                 <a href="gratis-hudkonsultation.php" class="button white expand l10n">
-                    Få gratis hudkonsultation
+                    Boka gratis hudkonsultation
                 </a>
             </div>
         </div>
@@ -169,7 +169,7 @@
                 </div>
                 <div id="footer-consultation-button-container">
                     <a href="gratis-hudkonsultation.php" id="consultation-button" class="button expand l10n">
-                        Få gratis konsultation
+                        Boka gratis konsultation
                     </a>
                     <div id="legends">
                         <div>
