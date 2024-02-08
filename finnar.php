@@ -110,35 +110,35 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos FinnarSpecialisten blir du kopplad till en expert hudterapeut som analyserar din finnartyp och skapar en unik behandlingsplan. Vare sig du lider av milda eller allvarliga finnar, hjälper vi dig att förstå orsakerna och den bästa vägen framåt.',
-            url_label: 'Få gratis konsultation',
+            content: 'Hos AcneSpecialisten blir du kopplad till en hudterapeut som analyserar dina finnar och skapar en unik behandlingsplan.',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad. Genom säkra metoder säkerställer vi att du snabbt får kontroll över ditt problem.',
+            content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad.',
             url_label: 'Se behandlingar mot finnar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda behandlingar mot finnar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att hålla finnarna borta och din hud i balans erbjuder vi en personlig hudvårdsrutin och produkter som är särskilt anpassade för din hudtyp. Dessa hjälper till att förebygga framtida utbrott och upprätthålla en klar och frisk hud.',
+            content: 'För att hålla finnarna borta och din hud i balans erbjuder vi en personlig hudvårdsrutin och produkter som är särskilt anpassade för din hudtyp.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
             url_title: 'Hitta de bästa produkterna för att förebygga finnar'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Om finnarna har lämnat ärr eller annan skada, fokuserar vi på att reparera din hud med avancerade behandlingsmetoder som laser, microneedling och kemisk peeling. Målet är en jämn, vacker och problemfri hud.',
+            content: 'Om finnarna har lämnat ärr eller annan skada, fokuserar vi på att reparera din hud med avancerade behandlingsmetoder.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr orsakade av finnar'
       ),
 );
 
-$treatment_link = '<a href="https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
 /*
 $types_title = 'Olika typer av Finnar';
 
@@ -311,8 +311,8 @@ $symptoms_title = 'Finnar symptom';
 $symptoms = array(
       new Symptom(
             name: 'Pormaskar - Svarta',
-            aka: 'Kallade öppna komedoner',
-            content: 'Öppna komedoner, eller svarta pormaskar, är små, mörka prickar som känns något upphöjda och sträva vid beröring. De bildas när porerna i huden blir blockerade av en blandning av talg och döda hudceller. När denna blockering utsätts för luft, sker en oxidation som ger den mörka färgen. De är vanligen lokaliserade på näsa, kinder, panna och haka, men kan även förekomma på andra oljiga områden som bröst och rygg. Deras mörka färg och grova konsistens gör dem lätta att känna igen.',
+            aka: 'Öppna komedoner',
+            content: 'Kända som svarta pormaskar, dessa mörka fläckar uppstår när porer fylls med talg och hudceller som sedan oxiderar, vanligen synliga på områden som näsan, kinderna och pannan.',
             image: 'images/symptoms/102x102/komedoner-oppna.webp',
             image_alt: 'Öppna komedoner (pormaskar) i bild',
             image_title: 'Pormaskar (öppna komedoner)',
@@ -322,8 +322,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Pormaskar - Vita',
-            aka: '"Whiteheads" på engelska',
-            content: 'Slutna komedoner, eller "whiteheads", känns som små, fasta, vitaktiga eller hudfärgade knölar på hudytan. De bildas när porerna i huden blir blockerade av talg och döda hudceller, men är täckta av ett tunt hudlager. Detta skyddar innehållet från luft och förhindrar oxidation, vilket bevarar deras ljusa färg. De är vanligtvis placerade på kinder, panna och haka, men kan också dyka upp på andra områden.',
+            aka: 'Vita pormaskar',
+            content: 'Dessa vita eller hudfärgade små knölar, även kallade stängda komedoner, bildas av blockeringar djupt inom porerna, undanhållna från luft vilket förhindrar oxidation, ofta märkbara på pannan och kinderna.',
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Whiteheads (stängda komedoner) bild',
             image_title: 'Stängda komedoner ("whiteheads")',
@@ -333,8 +333,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Röda Finnar',
-            aka: 'Också kallade papler',
-            content: 'Papler, eller röda finnar, är små, fasta, rundade knölar som ofta är röda och inflammerade. De kan kännas ömma eller smärtsamma vid beröring. Papler bildas när hårsäckarna i huden blir inflammerade, ofta på grund av bakterieinfektion. De är mindre än 5 mm i diameter och uppträder ofta på ansikte, nacke, bröst och rygg. Om du ser eller känner små, röda, ömma knölar på huden, kan det vara papler.',
+            aka: 'Papler',
+            content: 'Kännetecknas av små, röda och inflammerade utslag orsakade av bakterieinfektioner i hårsäckarna, dessa blemmor är ömma vid beröring och förekommer främst i ansiktet, på nacken, bröstet och ryggen.',
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Röda finnar (papler) bild',
             image_title: 'Papler (Röda Finnar)',
@@ -344,8 +344,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Gula Finnar',
-            aka: 'Eller pustuler',
-            content: 'Pustuler, eller gula finnar, är röda blemmor med en vit eller gul prick i mitten, vilket är pus. De är oftast runda och upphöjda, och kan kännas ömma eller smärtsamma. När du ser eller känner dessa distinkta blemmor, oftast på ansikte, nacke, bröst och rygg, har du sannolikt att göra med pustuler.',
+            aka: 'Pustuler',
+            content: 'Dessa är ömma, gula utslag med ett varigt centrum, skapade av en mix av bakterier och talg, och de tenderar att vara smärtsamma, framträdande på ansikte, nacke, bröst och rygg.',
             image: 'images/symptoms/102x102/pustler.webp',
             image_alt: 'Gula finnar (pustler) bild',
             image_title: 'Pustler (Gula Finnar)',
@@ -355,8 +355,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Innåtfinnar',
-            aka: 'Kallas också noduler',
-            content: 'Noduler, ofta kända som innåtfinnar, är stora, fasta blemmor som sitter djupt under huden. De är ofta röda eller hudfärgade och kan kännas ömma och smärtsamma, särskilt vid beröring eller tryck. De kan ibland vara svåra att se men känns som stora, hårda knölar under huden. De är vanligtvis synliga på ansikte, nacke, bröst, rygg och ibland överarmar och skinkor.',
+            aka: 'Noduler',
+            content: 'Djupa, smärtsamma utslag som bildas vid allvarliga infektioner i hårsäckarna, dessa är större än 5 mm och syns ofta på ansikte, bröst och rygg.',
             image: 'images/symptoms/102x102/noduler.webp',
             image_alt: 'Innåtfinnar (noduler) i bild',
             image_title: 'Noduler (Innåtfinnar)',
@@ -366,8 +366,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Bölder',
-            aka: 'Ofta kallade cystor',
-            content: 'Bölder, även kända som cystor, är stora, inflammerade blemmor som sitter djupt under huden. De känns som stora, ömma knölar och är fyllda med var, vilket ger dem en gul eller vit yta i mitten. Bölder kan kännas mjuka och fyllda med vätska, eller fasta beroende på inflammationens grad. Deras storlek och ömhet, särskilt vid tryck, gör dem lätta att känna igen. De är vanligtvis synliga på ansikte, nacke, bröst och rygg, men kan dyka upp var som helst där det finns hårsäckar.',
+            aka: 'Cystor',
+            content: 'Liknande noduler men fyllda med var, dessa djupa och ömma blemmor uppstår från allvarliga infektioner i hårsäckarna och kan vara både mjuka och fasta vid beröring, vanligtvis större än 5 mm och förekommer på ansikte, bröst och rygg.',
             image: 'images/symptoms/102x102/cystor.webp',
             image_alt: 'Bild av bölder (cystor)',
             image_title: 'Bölder (cystor)',
