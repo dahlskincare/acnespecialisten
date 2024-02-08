@@ -11,7 +11,7 @@ $seo_image = '/images/treatments/large/laser.webp';
 
 
 $model = new Service(
-    title: 'Laser mot acneärr',
+    title: 'Laser mot ärr',
     duration: null,
     price: 'Från 4595 kr',
     content: '',
