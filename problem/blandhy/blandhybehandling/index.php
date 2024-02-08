@@ -91,9 +91,9 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling för Blandhy hos Acnespecialisten',
 
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/problemhy.php',
+        url_label: 'Läs mer om ansiktsbehandling mot blandhy',
+        url_title: 'Läs mer om ansiktsbehandling mot blandhy',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -115,7 +115,7 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling för Blandhy nu',
-        url: '',
+        url: '/laser-mot-hudproblem.php',
         url_label: '',
         url_title: '',
 
