@@ -225,7 +225,7 @@ $symptoms = array(
 $headline01 = "01. Identifiera dina acneärr";
 
 $service = new Service(
-      title: 'acneärr Konsultation',
+      title: 'Acneärr Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en specialist inom acneärr utförs en noggrann undersökning av dina ärr. Vi tar före-bilder på de drabbade områdena och diskuterar dina mål och förväntningar. En skräddarsydd behandlingsplan anpassad efter dina individuella behov och ärrets typ rekommenderas.',
