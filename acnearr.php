@@ -532,7 +532,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Finnar',
             aka: 'Akne',
-            image: 'images/problems/102x102/finnar.webp',
+            image: 'bilder/problem/102x102/finnar.webp',
             image_alt: 'Ansikte med finnar',
             image_title: 'Finnar - ett vanligt hudproblem',
             url: 'finnar.php',
@@ -541,7 +541,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Ärr från finnar',
             aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
+            image: 'bilder/problem/102x102/acnearr.webp',
             image_alt: 'Ansikte med ärr från finnar',
             image_title: 'ärr från finnar - en vanlig följd av akne',
             url: 'acnearr.php',
