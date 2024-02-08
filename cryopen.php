@@ -248,7 +248,7 @@ $treatment_areas = array(
         description: '<p class="p200">Behandlingen utgår ifrån antalet hudförändringar du vill behandla..</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: null,
                 image_alt: '1 st',
                 image_title: '1 st',
                 title: '1 st',
