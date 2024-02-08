@@ -80,8 +80,8 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man acneärr?',
-            content: '<p class="p200">Acneärr uppstår som ett resultat av hudens läkningsprocess efter acneutbrott. Det finns två huvudtyper av ärr som kan bildas: atrofiska ärr, som är gropar i huden, och postinflammatoriska hyperpigmenteringar, som är mörka fläckar.</p>',
-            extended_content: '<p class="p200 mt-xl">Atrofiska ärr bildas när huden inte kan återskapa tillräckligt med vävnad under läkningsprocessen, delvis på grund av den aggressiva fettsyran från finnarna som fräter på och "äter upp" den omkringliggande huden. Detta sker ofta efter svårare former av acne, som cystor och noduler, som skadar huden djupare och mer omfattande än mindre blemmor. När dessa akneformer läker, lämnar de bakom sig fördjupningar i huden eftersom det inte finns tillräckligt med kollagen (ett protein som hjälper till att hålla huden jämn och elastisk) för att fylla ut skadan. Detta resulterar i att huden får ett gropigt utseende.</p>
+            content: '<p class="p200">Acneärr uppstår som ett resultat av hudens läkningsprocess efter acneutbrott. Det finns två huvudtyper av ärr som kan bildas: atrofiska ärr, som är gropar i huden, och postinflammatoriska hyperpigmenteringar, som är mörka fläckar. Atrofiska ärr bildas när huden inte kan återskapa tillräckligt med vävnad under läkningsprocessen, delvis på grund av den aggressiva fettsyran från finnarna som fräter på och "äter upp" den omkringliggande huden.</p>',
+            extended_content: '<p class="p200 mt-xl">Detta sker ofta efter svårare former av acne, som cystor och noduler, som skadar huden djupare och mer omfattande än mindre blemmor. När dessa akneformer läker, lämnar de bakom sig fördjupningar i huden eftersom det inte finns tillräckligt med kollagen (ett protein som hjälper till att hålla huden jämn och elastisk) för att fylla ut skadan. Detta resulterar i att huden får ett gropigt utseende.</p>
             <p class="p200 mt-xl">Postinflammatoriska hyperpigmenteringar uppstår däremot när huden överproducerar melanin, pigmentet som ger huden dess färg, som svar på inflammation. Denna överproduktion kan leda till att områden av huden blir mörkare än omgivningen. Dessa mörka fläckar är vanligare hos personer med mörkare hudtoner och kan uppstå efter nästan vilken typ av acne som helst, inklusive de fall där aggressiva fettsyror har frätit på huden. Även om dessa fläckar kan blekna med tiden, kan de vara envisa och kräver ibland speciella behandlingar för att lindra.</p>
             <p class="p200 mt-xl">Sammanfattningsvis uppstår acneärr som en bieffekt av hudens naturliga läkningsprocess, förvärrat av aggressiva fettsyror från finnarna som skadar den omkringliggande huden. Atrofiska ärr och postinflammatoriska hyperpigmenteringar är de två vanligaste typerna av ärr som kan lämna permanenta märken på huden. Förståelse för dessa processer är viktigt för att vidta åtgärder för att förebygga och behandla acneärr effektivt.</p>',
             icons: array()
@@ -239,9 +239,9 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: '',
-      url_label: '',
-      url_title: ''
+      url: '/gratis-hudkonsultation.php',
+      url_label: 'Läs mer om gratis hudkonsultation mot acneärr',
+      url_title: 'Läs mer om gratis hudkonsultation mot acneärr'
 
 );
 
@@ -264,9 +264,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot acneärr',
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/laser-arr.php',
+            url_label: 'Läs mer om laser mot acneärr',
+            url_title: 'Läs mer om laser mot acneärr',
       ),
       new Service(
             title: 'Kemisk peeling mot acneärr',
@@ -283,9 +283,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot acneärr',
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/kemisk-peeling.php',
+            url_label: 'Läs mer om kemisk peeling mot acneärr',
+            url_title: 'Läs mer om kemisk peeling mot acneärr',
       ),
       new Service(
             title: 'Microneedling mot acneärr',
@@ -302,9 +302,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling mot acneärr',
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/microneedling-acnearr.php',
+            url_label: 'Läs mer om microneedling mot acneärr',
+            url_title: 'Läs mer om microneedling mot acneärr',
       ),
 );
 
