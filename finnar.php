@@ -139,7 +139,7 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
-/*
+
 $types_title = 'Olika typer av Finnar';
 
 $type_categories = array(
@@ -305,7 +305,7 @@ $type_categories = array(
 
 $types_url = '<a href="finnar/typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av finnar</a>
               <a href="finnar/typer" title="Lär dig mer om olika typer av finnar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olikta typer av finnar</a>';
-*/
+
 $symptoms_title = 'Finnar symptom';
 
 $symptoms = array(
@@ -532,7 +532,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du kämpar med finnar som påverkar ditt självförtroende eller om du har testat olika produkter och behandlingar utan att se några bestående resultat, då är det dags att söka hjälp hos AcneSpecialisten. Vår expertis sträcker sig över många år och vi förstår de unika utmaningar som finnar kan orsaka. Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan som passar just dig. Vare sig du lider av lindriga, måttliga eller svåra finnar, har AcneSpecialisten de verktyg och den kunskap som behövs för att hjälpa dig att uppnå en klarare och friskare hud. Tveka inte att ta steget mot en bättre hudhälsa genom att boka en gratis konsultation hos oss idag!</p>',
+            content: '<p class="p200">Om du kämpar med finnar som påverkar ditt självförtroende eller om du har testat olika produkter och behandlingar utan att se några bestående resultat, då är det dags att söka hjälp hos AcneSpecialisten. Vår expertis sträcker sig över många år och vi förstår de unika utmaningar som finnar kan orsaka. Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan som passar just dig. Vare sig du lider av lite eller mycket finnar, har AcneSpecialisten de verktyg och den kunskap som behövs för att hjälpa dig att uppnå en klarare och friskare hud. Tveka inte att ta steget mot en bättre hudhälsa genom att boka en gratis konsultation hos oss idag!</p>',
       ),
 );
 
@@ -542,10 +542,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '3 månader',
+                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
       ),
       new ResultCustomer(
@@ -553,10 +553,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '2 månader',
+                  duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
       ),
       new ResultCustomer(
@@ -564,10 +564,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
+            image_title: 'Person som har rosacea',
+            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '4 månader',
+                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )
       ),
 );
