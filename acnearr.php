@@ -421,11 +421,11 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vilka behandlingsmetoder erbjuder ni för olika typer av acneärr?',
-                  text: '<p class="p200">Vi erbjuder en mängd olika behandlingsalternativ för acneärr, inklusive laserbehandling, kemisk peeling och microneedling. Varje metod har sina unika fördelar och är mest effektiva för vissa typer av ärr. Under en kostnadsfri konsultation med en av våra hudterapeuter kan vi utvärdera dina specifika behov och rekommendera den metod som passar din hudtyp och ärr bäst.</p>'
+                  text: '<p class="p200">Vi erbjuder en mängd olika behandlingsalternativ för acneärr, inklusive laserbehandling, kemisk peeling och microneedling. Varje metod har sina unika fördelar och är mest effektiva för vissa typer av ärr. Under en kostnadsfri konsultation med en av våra hudterapeuter kan vi utvärdera dina specifika behov och rekommendera den metod som passar din hudtyp och acneärr bäst.</p>'
             ),
             new Question(
                   title: 'Är behandlingarna smärtsamma? Vilken eftervård krävs?',
-                  text: '<p class="p200">Våra behandlingsmetoder är utformade för att vara så bekväma som möjligt, och vi tar alla nödvändiga steg för att minimera eventuell obehag. Känslan under behandlingen kan variera beroende på metoden och ärrtypen. Eftervården är också individuell och din hudterapeut kommer att ge dig detaljerade instruktioner för hur du tar hand om din hud efter behandlingen för att främja läkning och optimera resultaten.</p>'
+                  text: '<p class="p200">Våra behandlingsmetoder är utformade för att vara så bekväma som möjligt, och vi tar alla nödvändiga steg för att minimera eventuell obehag. Känslan under behandlingen kan variera beroende på metoden och acneärrtypen. Eftervården är också individuell och din hudterapeut kommer att ge dig detaljerade instruktioner för hur du tar hand om din hud efter behandlingen för att främja läkning och optimera resultaten.</p>'
             ),
             new Question(
                   title: 'Hur länge behöver jag vänta mellan behandlingarna? Och hur snabbt kommer jag se resultat?',
@@ -524,39 +524,54 @@ $related_problems = array(
             name: 'Aktiv Akne',
             aka: 'Finnar',
             image: 'bilder/problem/102x102/akne.webp',
-            image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
+            image_alt: 'Ansikte med aktiv akne',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
             url: 'acne.php',
             url_title: 'Akne'
       ),
-
       new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'bilder/problem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'rosacea.php',
-            url_title: 'Rosacea'
+            name: 'Finnar',
+            aka: 'Akne',
+            image: 'images/problems/102x102/finnar.webp',
+            image_alt: 'Ansikte med finnar',
+            image_title: 'Finnar - ett vanligt hudproblem',
+            url: 'finnar.php',
+            url_title: 'Finnar'
       ),
       new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'bilder/problem/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
+            name: 'Ärr från finnar',
+            aka: 'gropar & Fläckar',
+            image: 'images/problems/102x102/acnearr.webp',
+            image_alt: 'Ansikte med ärr från finnar',
+            image_title: 'ärr från finnar - en vanlig följd av akne',
+            url: 'acnearr.php',
+            url_title: 'Acneärr'
       ),
 );
 $brands = array(
       new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            image_alt: 'Alma logotyp',
+            url: 'varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_title: 'Alma Hybrid - CO2 laser',
+            image_alt: 'Alma Hybrid logotyp',
+            url: 'alma-hybrid-co2-laser.php',
+            url_title: 'Läs mer om Alma Hybrid CO2 laser',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: 'alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
       ),
       new Brand(
             label: 'Dermapen',
@@ -567,44 +582,12 @@ $brands = array(
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'bilder/logotyper/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'bilder/logotyper/infuzion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: 'varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
 
