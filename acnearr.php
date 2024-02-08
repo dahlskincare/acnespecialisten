@@ -133,7 +133,7 @@ $symptoms = array(
       new Symptom(
             name: 'Postinflammatorisk hyperpigmentering (PIH)',
             aka: 'Mörka/bruna fläckar',
-            content: 'Postinflammatorisk hyperpigmentering (PIH) uppstår som ett resultat av inflammation i huden efter akne. Denna typ av mörka fläckar är inte faktiska ärr utan är ett exempel på överpigmentering. När huden läker från en inflammation, kan det hända att melanin, som ger huden dess färg, produceras i överflöd vilket resulterar i mörkare fläckar eller fläckar. Dessa kan vara brunaktiga, svarta eller till och med blåaktiga beroende på hudtyp och färg. PIH är vanligtvis platt mot huden, till skillnad från upphöjda eller indragna acneärr.',
+            content: 'Denna typ av ärrbildning innebär mörka fläckar som uppstår efter ett acneutbrott, där huden blivit mörkare på de områden som tidigare varit inflammerade. Det är resultatet av en ökad melaninproduktion som svar på hudskadan.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Läs mer om postinflammatorisk hyperpigmentering',
             url_label: 'Läs mer',
@@ -144,7 +144,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "ice-pick" ärr',
             aka: 'Gropar eller nålstick-liknande ärr',
-            content: 'Atrofiska "ice-pick" ärr är små, men djupa ärr som sträcker sig in i huden, och har ett utseende som påminner om skador orsakade av en ishacka. Dessa ärr är ofta smala vid ytan och vidgar sig nedåt in i dermis. Det är den djupa punktering som ger ärret dess karakteristiska utseende. Denna typ av ärrbildning uppstår oftast efter cystisk akne eller andra hudinfektioner och kan vara särskilt utmanande att behandla på grund av deras djup. Ice-pick ärr kan uppträda överallt där akne har varit, men de är vanligast på kinderna.',
+            content: 'Kännetecknas av smala, djupa och spetsiga gropar i huden, liknande hål efter en ispicka. Dessa ärr uppstår ofta efter djupgående acne och ger huden ett ojämnt utseende.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "ice-pick" ärr',
             url_label: 'Läs mer',
@@ -155,7 +155,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "Boxcar" ärr',
             aka: 'Gropar eller skålliknande ärr',
-            content: 'Atrofiska "Boxcar" ärr är en typ av acneärr som kännetecknas av rundade eller ovala gropar med skarpa vertikala kanter. Dessa ärr uppstår när aknen förstör kollagen i huden, och lämnar en märkbar depression. Ärr av denna typ kan variera i djup och storlek, och de är ofta jämförda med ärr som orsakas av varicella (vattkoppor). De förekommer oftast på kinderna och tinningarna och kan vara mycket märkbara om de är omfattande.',
+            content: 'Dessa ärr är breda med skarpa kanter och fördjupningar som liknar formen på ett boxcar. De bildas vanligtvis efter akneutbrott som lämnar runda eller ovala hål i huden.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "Boxcar" ärr',
             url_label: 'Läs mer',
@@ -167,7 +167,7 @@ $symptoms = array(
       new Symptom(
             name: 'Postinflammatorisk hypopigmentering',
             aka: 'Vita fläckar',
-            content: 'Postinflammatorisk hypopigmentering uppstår när huden förlorar pigment (färg) på områden där en inflammatorisk hudsjukdom, som akne, har läkt. Detta leder till ljusare fläckar eller områden som kan vara iögonfallande beroende på din hudton. Det är inte ett ärr, utan en tillfällig brist på pigment och brukar återgå till normalt med tiden eller med behandling.',
+            content: 'Detta är förlusten av hudfärg på acnebenägna områden, vilket resulterar i ljusare eller vitaktiga fläckar. Det sker när en inflammation leder till en minskning av melaninproduktionen i de drabbade områdena.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Läs mer om postinflammatorisk hypopigmentering',
             url_label: 'Läs mer',
@@ -178,7 +178,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
             aka: 'Gropar',
-            content: 'Atrofiska "rolling" ärr är en typ av acneärr som kännetecknas av skålformade fördjupningar i huden. De får sitt namn från deras något vågiga eller "rullande" utseende. Dessa ärr uppstår när underliggande hudstrukturer förändras och orsakar ett förlust av stöd. Det resulterar i en rörlig och ojämn hudyta. Atrofiska "rolling" ärr kan behandlas med olika metoder, som laserbehandling och dermabrasion.',
+            content: 'Dessa ärr ger huden en vågig yta med mjuka, ojämna fördjupningar. De orsakas av skador under huden som drar huden nedåt, vilket skapar ett oregelbundet utseende.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
@@ -189,7 +189,7 @@ $symptoms = array(
       new Symptom(
             name: 'Postinflammatorisk erytem (PIE)',
             aka: 'Rosa/lila fläckar eller missfärgning',
-            content: 'Postinflammatorisk erytem uppstår som en reaktion på inflammation efter en akneinfektion och visar sig som rosa eller lila fläckar på huden. Denna missfärgning är resultatet av skadade eller förstörda blodkärl under en inflammatorisk reaktion. Fläckarna kan vara känsliga eller klia, och de bleknar oftast över tid, men kan bli mer ihållande för personer med ljusare hudton. De förekommer oftast på platser där akne har läkt, och kan förväxlas med ärrvävnad även om det inte är en riktig ärrbildning.',
+            content: 'Kännetecknas av röda eller rosa fläckar på huden efter en inflammation. Detta är inte en permanent pigmentförändring utan en tillfällig rodnad som orsakas av skadade eller vidgade blodkärl under hudens yta.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Läs mer om postinflammatorisk erytem',
             url_label: 'Läs mer',
@@ -200,7 +200,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hypertrofiska ärr',
             aka: 'Keloid ärr',
-            content: 'Hypertrofiska ärr är tjocka och upphöjda ärr som oftast bildas som en reaktion på en skada, kirurgi eller akne. Till skillnad från keloidärr, som kan växa utöver det ursprungligt skadade området, begränsas hypertrofiska ärr till skadans gränser. De är vanligen röda eller rosa till färgen och kan vara känsliga eller klia. Med tiden kan dessa ärr ofta bli mindre framträdande, men deras textur och färg kan variera beroende på individens hudtyp och hur sårläkningen har gått till.',
+            content: 'Dessa är upphöjda ärr som bildas när det finns en överproduktion av vävnad på akneskadan. De ligger ovanför hudytan och är oftast begränsade till skadeområdet.',
             //url: 'problem/aknearr/hypertrfiska-arr',
             //url_title: 'Läs mer om hypertrofiska ärr',
             //url_label: 'Läs mer',
@@ -211,7 +211,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska ärr',
             aka: 'Gropar',
-            content: 'Atrofiska ärr är en typ av ärrbildning som ofta uppstår som en följd av akne eller andra inflammatoriska hudskador. De kännetecknas av en försänkning eller inbuktning i huden och kan likna små gropar eller håligheter. Denna typ av ärr uppstår när det finns en förlust av kollagen och stödjevävnad under huden, vilket leder till att området sjunker in. Atrofiska ärr kan variera i storlek och form och är vanligtvis belägna på ansiktet, där de kan påverka utseendet och ge en ojämn hudstruktur.',
+            content: 'Samlingsnamnet för ärr som bildar fördjupningar i huden, inklusive ice-pick, boxcar och rolling ärr. Dessa uppstår när huden förlorar vävnad under läkningsprocessen, vilket leder till att ärrvävnaden sjunker nedåt och skapar gropar.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska ärr (gropar)',
             url_label: 'Läs mer',
