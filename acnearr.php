@@ -265,7 +265,7 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot acneärr',
-            url: '/laser-arr.php',
+            url: '/laser-acnearr.php',
             url_label: 'Läs mer om laser mot acneärr',
             url_title: 'Läs mer om laser mot acneärr',
       ),
