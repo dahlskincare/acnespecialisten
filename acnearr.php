@@ -316,7 +316,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?!',
             image_title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">Vi erbjuder de senaste behandlingsmetoderna mot alla typer av acneärr. Oavsett om det gäller laserbehandling för de mest envisa ärrtyperna, microneedling som är mest effektiv mot atrofiska ärr, eller kemisk peeling för ärrtypen fläckar, är våra behandlingsalternativ bäst mot acneärr. Vi använder konstant de mest avancerade och skräddarsydda lösningarna som garanterar din tillfredsställelse. </p>
+            content: '<p class="p200">Vi erbjuder de senaste behandlingsmetoderna mot alla typer av acneärr. Oavsett om det gäller laserbehandling för de mest envisa ärrtyperna, microneedling som är mest effektiv mot atrofiska ärr, eller kemisk peeling för ärrtypen fläckar, är våra behandlingsalternativ bäst mot acneärr. Vi använder konstant de mest avancerade och skräddarsydda lösningarna som garanterar din tillfredsställelse.</p>
             <p class="p200 mt-m">Din resa med oss börjar med en helt kostnadsfri konsultation. Vi tar oss tiden att analysera ditt unika fall och erbjuder dig en personlig hudterapeut. Din terapeut kommer att vara din guide och stöttepelare från start till mål, och skapa en behandlingsplan som är helt anpassad efter dina behov.</p>',
       ),
       new Article(
