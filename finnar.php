@@ -637,7 +637,7 @@ $faq_categories = array(
             new Question(
                   title: 'Vad kan jag göra för att bli av med mina finnar?',
                   text: '<p class="p200">Effektiv behandling av finnar kräver en individuell strategi. På Acnespecialisten erbjuder vi kostnadsfria hudkonsultationer där vi utvärderar ditt specifika fall och hjälper till att skräddarsy en effektiv behandlingsrutin för dina finnar.</p>'
-            )
+            ),
       ),
 );
 
