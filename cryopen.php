@@ -259,7 +259,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: null,
                 image_alt: '2 - 3 st',
                 image_title: '2 - 3 st',
                 title: '2 - 3 st',
@@ -270,7 +270,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: null,
                 image_alt: '4 - 6 st',
                 image_title: '4 - 6 st',
                 title: '4 - 6 st',
@@ -281,7 +281,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: null,
                 image_alt: '7 - 10 st',
                 image_title: '7 - 10 st',
                 title: '7 - 10 st',
@@ -292,7 +292,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: null,
                 image_alt: '20 st',
                 image_title: '20 st',
                 title: '20 st',
@@ -303,7 +303,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: null,
                 image_alt: '50 st',
                 image_title: '50 st',
                 title: '50 st',
@@ -314,7 +314,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid förCryoPen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: null,
                 image_alt: 'Återbesök',
                 image_title: 'Återbesök',
                 title: 'Återbesökt',
