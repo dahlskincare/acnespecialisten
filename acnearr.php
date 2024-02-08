@@ -408,16 +408,16 @@ $faq_categories = array(
                   text: '<p class="p200">Ja, det är absolut möjligt att bli av med dina acneärr! Under vår kostnadsfria hudkonsultation kommer vi att noggrant undersöka och identifiera graden av ditt problem för att hjälpa dig att behandla det på bästa möjliga sätt. Genom att följa våra individuella råd och den skräddarsydda behandlingsplan vi rekommenderar, kan dina acneärr försvinna. Det är dock viktigt att förstå att tidsramen kan variera beroende på hur grova eller djupa ärr du har. Vi kommer att arbeta tillsammans med dig för att uppnå det bästa resultatet.</p>'
             ),
             new Question(
-                  title: 'Har jag fått ärr eftersom jag har klämt på finnarna?',
-                  text: '<p class="p200">Inte nödvändigtvis. Även om det klart kan vara en faktor – särskilt om du har plockat eller klämt på finnar som inte varit mogna – är det inte alltid orsaken till ärrbildning. Ofta handlar det snarare om att aknen inte har behandlats på rätt sätt, vilket har tillåtit den att skada hudens lager. På Acnespecialisten kan vi hjälpa dig att förstå dina specifika förhållanden och behandla dem på ett sätt som minimerar riskerna för framtida ärrbildning.</p>'
+                  title: 'Har jag fått acneärr eftersom jag har klämt på finnarna?',
+                  text: '<p class="p200">Inte nödvändigtvis. Även om det klart kan vara en faktor – särskilt om du har pillat eller klämt på finnar som inte varit mogna – är det inte alltid orsaken till ärrbildning. Ofta handlar det snarare om att aknen inte har behandlats på rätt sätt, vilket har tillåtit den att skada hudens lager. På Acnespecialisten kan vi hjälpa dig att förstå dina specifika förhållanden och behandla dem på ett sätt som minimerar riskerna för framtida ärrbildning.</p>'
             ),
             new Question(
-                  title: 'Kan mina ärr komma tillbaka efter behandling?',
+                  title: 'Kan mina acneärr komma tillbaka efter behandling?',
                   text: '<p class="p200">Nej, de ärr som du redan har behandlat bort kommer inte tillbaka. Men det är viktigt att förstå att om du inte behandlar själva orsaken till ärrbildningen, det vill säga aknen, kan nya ärr uppstå. På Acnespecialisten fokuserar vi inte bara på att behandla själva ärrbildningen, utan vi ser till att ta itu med roten till problemet och behandlar själva aknen. Detta hjälper dig att förhindra att nya ärr bildas, och ger dig den bästa chansen till en frisk och klar hud.</p>'
             ),
             new Question(
                   title: 'Hur många behandlingar behövs för att ta bort mina acneärr?',
-                  text: '<p class="p200">Antalet behandlingar som krävs för att uppnå önskat resultat varierar beroende på typ och svårighetsgrad av ärr, samt den metod som valts för att behandla din specifika hudtyp. På Acnespecialisten tror vi att varje persons hud är unik, och vi skräddarsyr en behandlingsplan baserat på dina individuella behov. Under din kostnadsfria konsultation kommer du att tilldelas en personlig hudterapeut som är med dig hela vägen. Din terapeut kommer att analysera din hud och ta fram en skräddarsydd plan som bäst passar dina behov, och ge dig en uppfattning om hur många behandlingar som kan behövas för att uppnå de bästa resultaten mot dina acneärr.</p>'
+                  text: '<p class="p200">Antalet behandlingar som krävs för att uppnå önskat resultat varierar beroende på typ och svårighetsgrad av acneärr, samt den metod som valts för att behandla din specifika hudtyp. På Acnespecialisten vet vi att varje persons hud är unik, och vi skräddarsyr en behandlingsplan baserat på dina individuella behov. Under din kostnadsfria konsultation kommer du att tilldelas en personlig hudterapeut som är med dig hela vägen. Din terapeut kommer att analysera din hud och ta fram en skräddarsydd plan som bäst passar dina behov, och ge dig en uppfattning om hur många behandlingar som kan behövas för att uppnå de bästa resultaten mot dina acneärr.</p>'
             ),
             new Question(
                   title: 'Vilka behandlingsmetoder erbjuder ni för olika typer av acneärr?',
