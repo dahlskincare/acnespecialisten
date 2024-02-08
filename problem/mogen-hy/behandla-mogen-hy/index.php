@@ -86,9 +86,9 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling för Mogen Hy på AcneSpecialisten',
 
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/ansiktsbehandlingar.php',
+        url_label: 'Läs mer om ansiktsbehandlingar mot mogen hy',
+        url_title: 'Läs mer om ansiktsbehandlingar mot mogen hy',
     ),
 
     new Service(
@@ -107,9 +107,9 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling för mogen hy nu',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/behandlingar/laser-mot-hudproblem/',
+        url_label: 'Läs mer om laser mot mogen hy',
+        url_title: 'Läs mer om laser mot mogen hy',
 
         // short_title: 'Laser'
 
@@ -128,9 +128,9 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling för mogen hy',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/kemisk-peeling.php',
+        url_label: 'Läs mer om kemisk peeling mot mogen hy',
+        url_title: 'Läs mer om kemisk peeling mot mogen hy',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling för mogen hy nu',
@@ -151,9 +151,9 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling för mogen hy',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/microneedling.php',
+        url_label: 'Läs mer om microneedling mot mogen hy',
+        url_title: 'Läs mer om microneedling mot mogen hy',
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling för mogen hy nu',

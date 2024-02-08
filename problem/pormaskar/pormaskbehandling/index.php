@@ -86,9 +86,9 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Pormaskar på Acnespecialisten',
 
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/problemhy.php',
+        url_label: 'Läs mer om ansiktsbehandlingar mot pormaskar',
+        url_title: 'Läs mer om ansiktsbehandlingar mot pormaskar',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -110,9 +110,9 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot pormaskar nu',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/behandlingar/laser-mot-hudproblem/',
+        url_label: 'Läs mer om laser mot pormaskar',
+        url_title: 'Läs mer om laser mot pormaskar',
 
         // short_title: 'Laser'
 
@@ -131,9 +131,9 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot pormaskar',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/kemisk-peeling.php',
+        url_label: 'Läs mer om kemisk peeling mot pormaskar',
+        url_title: 'Läs mer om kemisk peeling mot pormaskar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling mot pormaskar nu',
@@ -153,9 +153,9 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot pormaskar',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/microneedling.php',
+        url_label: 'Läs mer om microneedling mot pormaskar',
+        url_title: 'Läs mer om microneedling mot pormaskar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling mot pormaskar nu',
