@@ -90,9 +90,11 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får acneärr?',
-            content: '<p class="p200">Personer som har eller har haft svår akne är mest benägna att utveckla acneärr. Det är inte begränsat till en viss ålder eller kön, utan kan påverka människor genom hela livet. Genetik, ålder och kön spelar också en roll, och om familjemedlemmar har acneärr, kan risken öka. Om problemet pågår under en längre period, kan det skada hudstrukturen och leda till gropar i huden. Mörkare hudtoner kan vara mer benägna att uppleva postinflammatorisk hyperpigmentering.</p>',
-            extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer och hudvård spelar också en viktig roll. En sund livsstil och tidig behandling av akne kan förhindra både akne och efterföljande ärrbildning. Det är också viktigt att notera att livsstilsfaktorer som stress kan påverka akne, och därmed även risken för ärrbildning. På Acnespecialisten förstår vi att varje individ är unik och erbjuder anpassade behandlingsplaner med din personliga hudterapeut vid din sida.</p>
-            <p class="p200 mt-xl">Acnespecialisten har en omfattande erfarenhet av att behandla olika hudtyper och acneärr. Med vår expertis och förståelse för din hud kan vi erbjuda skräddarsydda lösningar som passar dig. Vi ser fram emot att börja din resa mot en klar och sund hud med en kostnadsfri hudkonsultation. Att ta steget att engagera sig i en sund livsstil tillsammans med rätt hudvård kan vara avgörande för att förhindra både akne och efterföljande ärrbildning.</p>',
+            content: '<p class="p200">Att förstå vilka som är mest benägna att få acneärr kräver en djupare titt på de individuella faktorer som påverkar hudens reaktion på acne. Även om acne i sig är en vanlig hudåkomma som kan drabba nästan vem som helst, finns det vissa personer som har en högre risk att utveckla bestående ärr efter dessa utbrott.</p>',
+            extended_content: '<p class="p200 mt-xl">För det första spelar genetik en betydande roll i hudens förmåga att läka och reagera på inflammation. Personer vars familjemedlemmar har en historia av acneärr är mer benägna att också uppleva detta. Detta innebär att om dina föräldrar eller syskon har kämpat med acneärr, kan din egen risk för att utveckla dem vara högre. Genetiken kan påverka allt från hudens tjocklek till hur väl den kan återhämta sig efter inflammation, vilket direkt påverkar ärrbildningsprocessen.</p>
+            <p class="p200 mt-xl">Ålder och hudtyp är ytterligare faktorer som påverkar vem som får acneärr. Ungdomar och unga vuxna genomgår hormonella förändringar som ofta leder till mer utbredd acne, vilket kan öka risken för ärrbildning om acnen inte hanteras väl. Personer med oljig hudtyper kan också ha en ökad benägenhet för acne, vilket i sin tur kan leda till en högre risk för ärr.</p>
+            <p class="p200 mt-xl">Slutligen är det viktigt att nämna att personer som har en tendens att peta på eller klämma sina finnar löper en större risk att utveckla ärr. Denna mekaniska manipulation kan förvärra hudens inflammation och skada, vilket leder till en större sannolikhet för ärrbildning. Att motstå frestelsen att röra vid finnar och följa en lämplig hudvårdsrutin är avgörande för att minska risken för acneärr.</p>
+            <p class="p200 mt-xl">Sammanfattningsvis är personer med genetiska förutsättningar, de som genomgår hormonella förändringar, har en oljig hudtyp, eller de som aktivt manipulerar sina finnar, mer benägna att utveckla acneärr. Förståelsen för dessa riskfaktorer är viktig för att vidta åtgärder mot att förhindra ärrbildning och hantera acnen på ett effektivt sätt.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
 
@@ -108,8 +110,8 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du omhändertagen av en personlig hudterapeut som noga undersöker och identifierar dina acneärr. Tillsammans kartlägger vi din unika ärrtyp och skapar en individuell behandlingsplan, skräddarsydd för just dina behov.',
-            url_label: 'Få gratis konsultation',
+            content: 'Hos AcneSpecialisten blir du tilldelad en personlig hudterapeut som noga undersöker och identifierar dina acneärr. Tillsammans kartlägger vi din unika ärrtyp och skapar en individuell behandlingsplan, skräddarsydd för just dina behov.',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             url_title: 'Boka din kostnadsfria ärrkonsultation idag'
       ),
@@ -117,7 +119,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Med målinriktade och effektiva acneärrbehandlingar, skräddarsyr vi en lösning som är perfekt anpassad för din specifika ärrtyp. Vår expertis säkerställer en snabb och säker förbättring av hudens utseende, så att du kan känna dig trygg och nöjd med ditt resultat.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr.php',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
             url_title: 'Utforska våra skräddarsydda behandlingar för acneärr'
       ),
 );
