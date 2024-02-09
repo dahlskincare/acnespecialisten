@@ -253,9 +253,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för blandhy',
       image_title: 'Konsultation för blandhy',
 
-      url_label: '',
-      url: '',
-      url_title: '',
+      url_label: '/gratis-hudkonsultation.php',
+      url: 'Läs mer om gratis hudkonsultation mot blandhy',
+      url_title: 'Läs mer om gratis hudkonsultation mot blandhy',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
