@@ -634,35 +634,35 @@ $faq_categories = array(
       'Generellt om finnar' => array(
             new Question(
                   title: 'Hur blir jag av med mina finnar snabbt?',
-                  text: '<p class="p200">Effektiv eliminering av finnar kräver tålamod och rätt hudvårdsrutin. Använda produkter anpassade för att bekämpa finnar är nyckeln. En personlig konsultation kan ge dig en skräddarsydd plan för snabbare resultat.</p>'
+                  text: '<p class="p200">Att snabbt bli av med finnar innebär en kombination av rätt hudvård och livsstilsförändringar. Att använda produkter som är specifikt utformade för att bekämpa finnar. En personligt anpassad konsultation hos oss kan erbjuda en skräddarsydd plan som inte bara adresserar dina nuvarande finnar utan också hjälper till att förebygga nya utbrott, vilket ger dig en klarare hud snabbare än du kanske trodde var möjligt.</p>'
             ),
             new Question(
                   title: 'Är det en finne jag har, även om det bara är en?',
-                  text: '<p class="p200">En enstaka finne betraktas fortfarande som en mild form av finnar. Oavsett antal, är varje utbrott en del av finnarnas spektrum.</p>'
+                  text: '<p class="p200">Ja, även en enskild finne anses vara en form av finnar. Enstaka finnar är lika mycket en del av finnarnas spektrum som ett fullblåst utbrott. Varje finne är ett tecken på att din hud reagerar på något, vare sig det är blockerade porer, överskott av olja, bakterier eller inflammation. Att behandla även enstaka finnar med lämplig vård kan hjälpa till att hålla huden i balans och förebygga framtida utbrott.</p>'
             ),
             new Question(
                   title: 'Bör jag klämma mina finnar?',
-                  text: '<p class="p200">Att klämma finnar själv rekommenderas inte då det ökar risken för ärr och infektion. Vi erbjuder professionella behandlingar för att hantera dina finnar säkert.</p>'
+                  text: '<p class="p200">Att klämma finnar är en handling som bör undvikas eftersom det kan orsaka mer skada än nytta. När du klämmer finnar riskerar du att introducera bakterier i öppna sår, vilket kan leda till infektion och ärrbildning. Istället för att klämma, rekommenderar vi professionella behandlingar som säkert kan avlägsna finnar och behandla den underliggande orsaken utan att riskera din huds hälsa.</p>'
             ),
             new Question(
                   title: 'Försvinner finnarna efter ungdomsåren?',
-                  text: '<p class="p200">Det är individuellt; vissa upplever förbättring efter tonåren medan andra fortsätter att ha finnar som vuxna. Tidig behandling är viktig för att undvika ärr.</p>'
+                  text: '<p class="p200">Många upplever en förbättring i sin hud efter ungdomsåren, men det är inte en garanti för att finnar helt försvinner. Hormonella förändringar, livsstil och genetik spelar alla en roll i hur din hud beter sig genom olika livsfaser. För vissa fortsätter kampen mot finnar in i vuxenåldern, vilket gör kontinuerlig hudvård och behandling nödvändig. Tidig och effektiv behandling är avgörande för att minimera risken för ärr och långsiktiga hudproblem.</p>'
             ),
             new Question(
                   title: 'Kan vuxna få finnar?',
-                  text: '<p class="p200">Ja, vuxna kan också drabbas av finnar, vilket ofta beror på faktorer som hormonella förändringar, stress och livsstilsval.</p>'
+                  text: '<p class="p200">Absolut, finnar är inte bara ett problem för tonåringar. Många vuxna upplever vad som ofta kallas "vuxenakne", som kan orsakas av allt från hormonella förändringar, stress, viss medicinering, till olämplig hudvård. Det är viktigt för vuxna som upplever finnar att inte avfärda det som ett övergående problem utan att söka lämplig vård och behandling för att hantera tillståndet effektivt.</p>'
             ),
             new Question(
-                  title: 'Påverkar choklad mina finnar?',
-                  text: '<p class="p200">Det finns inga vetenskapliga bevis som direkt kopplar choklad till finnar, men stress och kost kan påverka hudens hälsa.</p>'
+                  title: 'Förvärrar choklad mina finnar?',
+                  text: '<p class="p200">Även om det finns en utbredd uppfattning, saknas vetenskapligt stöd för att chokladkonsumtion direkt leder till finnar. Faktorer som stress kan däremot ha en inverkan på din hud. Om stress orsakad av chokladätande påverkar dig, kan detta indirekt bidra till utvecklingen av finnar. Att njuta av choklad i måttliga mängder är dock inget som orsakar finnar.</p>'
             ),
             new Question(
                   title: 'Vad kan jag göra för att bli av med mina finnar?',
-                  text: '<p class="p200">En individuellt anpassad behandlingsstrategi är mest effektiv. Våra hudkonsultationer är utformade för att skapa en behandlingsplan som passar just dina behov.</p>'
+                  text: '<p class="p200">Att hantera finnar framgångsrikt kräver en omfattande strategi som inkluderar både behandlingar och hudvårdsprodukter. Vi erbjuder personliga hudkonsultationer för att utarbeta en behandlingsplan skräddarsydd för dina specifika behov och mål, vilket hjälper dig att uppnå och bibehålla en klar hud.</p>'
             ),
+
       ),
 );
-
 
 $faq_url_label = "Läs fler frågor & svar";
 $faq_url_title = "läs flera frågor relaterat till finnar";
