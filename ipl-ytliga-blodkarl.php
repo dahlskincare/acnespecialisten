@@ -127,6 +127,27 @@ $treatment_areas = array(
             ),
         )
     ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Enskilda kärl',
+        image_title: 'Enskilda kärl',
+        title: 'Enskilda kärl',
+        description: '<p class="p200">IPL kan även behandla enskilda kärl.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '1 st Ytligt blodkärl',
+                image_title: '1 st Ytligt blodkärl',
+                title: 'IPL för 1 st Ytligt blodkärl',
+                duration: '20 min',
+                price: '995 kr',
+                url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_1x_spot_yb',
+                url_label: 'Boka',
+                url_title: 'Boka tid för IPL-behandling av 1 st Ytligt blodkärl',
+            ),
+        )
+    ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
