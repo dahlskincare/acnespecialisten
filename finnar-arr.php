@@ -163,7 +163,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hypopigmentering efter inflammation',
             aka: 'Ljusa eller vita märken',
-            content: 'Ljusare fläckar där hud har förlorat pigment efter akneinflammation, vilket skapar en tydlig kontrast. Dessa fläckar är temporära och kan normalisera över tid.',
+            content: 'Ljusare fläckar där hud har förlorat pigment efter akneinflammation, vilket skapar en tydlig kontrast. Detta skapar ljusare fläckar som kan vara tydliga beroende på hudfärgen efter att finnarna har läkt.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om hypopigmentering efter inflammation',
             url_label: 'Läs mer',
