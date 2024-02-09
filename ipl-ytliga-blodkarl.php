@@ -82,7 +82,7 @@ $treatment_areas = array(
         description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'IPL för Ansikte',
@@ -93,7 +93,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'IPL för Näsa',
@@ -104,7 +104,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för IPL-behandling av näsan'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'IPL för Kinder',
@@ -115,7 +115,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för IPL-behandling av kinderna',
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/1-blodkarl.webp',
                 image_alt: '1 st Ytligt blodkärl',
                 image_title: '1 st Ytligt blodkärl',
                 title: 'IPL för 1 st Ytligt blodkärl',
