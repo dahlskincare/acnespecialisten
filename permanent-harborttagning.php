@@ -110,7 +110,7 @@ $treatment_areas = array(
         description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omrade/92x92/ansikte.webp',
                 image_alt: 'Hela Ansiktet',
                 image_title: 'Hela Ansiktet',
                 title: 'Hela Ansiktet',
@@ -121,7 +121,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omrade/92x92/oron.webp',
                 image_alt: 'Öron',
                 image_title: 'Öron',
                 title: 'Öron',
