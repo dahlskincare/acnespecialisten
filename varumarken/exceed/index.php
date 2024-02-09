@@ -89,7 +89,7 @@ $treatment_areas = array(
         description: '<p class="p200">Exceed kan effektivt rikta in sig på flera behandlingsområden samtidigt.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '1x zon',
                 image_title: '1x zon',
                 title: '1x zon',
@@ -100,7 +100,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för 1 zon'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '2x zon',
                 image_title: '2x zon',
                 title: '2x zon',
@@ -111,7 +111,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för 2 zoner'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
@@ -122,7 +122,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för 1 område'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
@@ -133,7 +133,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för 2 områden'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
