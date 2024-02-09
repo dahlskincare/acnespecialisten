@@ -109,6 +109,14 @@ $header_brands = array(
             url_title: 'Infuzion',
       ),
       new Brand(
+            label: 'Lumenis',
+            image: 'bilder/logotyper/lumenis.svg',
+            image_alt: 'Lumenis logotyp',
+            image_title: 'Lumenis - Permanent hårborttagning med laser',
+            url: 'varumarken/splendor-x',
+            url_title: 'Lumenis',
+      ),
+      new Brand(
             label: 'PRX-T33',
             image: 'bilder/logotyper/prx-t33.svg',
             image_alt: 'PRX-T33 logotyp',
