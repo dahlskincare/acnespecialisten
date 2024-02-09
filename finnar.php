@@ -149,7 +149,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Vuxenfinnar',
-                        subtitle: 'Ibland kopplat till livsstilsfaktorer',
+                        subtitle: '20-65 års ålder',
                         image_url: 'images/problems/102x102/vuxenfinnar.webp',
                         image_alt: 'Bild av finnar hos vuxna',
                         image_title: 'Finnar hos vuxna',
@@ -158,7 +158,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Tonårsfinnar',
-                        subtitle: 'En vanlig företeelse under puberteten',
+                        subtitle: '13-19 års ålder',
                         image_url: 'images/problems/102x102/tonarsfinnar.webp',
                         image_alt: 'Bild av finnar hos tonåringar',
                         image_title: 'Finnar hos tonåringar',
