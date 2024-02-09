@@ -129,7 +129,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hyperpigmentering efter inflammation (PIH)',
             aka: 'Mörka eller bruna märken',
-            content: 'Dessa mörkare fläckar uppstår efter hudinflammation som floating_consultation_url_title, vilket ökar melanin och ger fläckar i olika mörka nyanser. De är platta mot huden och skiljer sig från akneärr.',
+            content: 'Dessa mörkare fläckar uppstår efter hudinflammation som finnar, vilket ökar melanin och ger fläckar i olika mörka nyanser. De är platta mot huden och skiljer sig från akneärr.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om hyperpigmentering efter inflammation',
             url_label: 'Läs mer',
@@ -138,9 +138,9 @@ $symptoms = array(
             image_title: 'Hyperpigmentering efter inflammation'
       ),
       new Symptom(
-            name: 'Djupa "ice-pick" ärr',
+            name: 'Atrofiska "ice-pick" ärr',
             aka: 'Små spetsiga gropar',
-            content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter svår finnar. Dessa ärr är utmanande att behandla på grund av deras djup och är vanliga på kinderna.',
+            content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter inflammerade finnar. Dessa ärr är utmanande att behandla på grund av deras djup och är vanliga på kinderna.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om djupa "ice-pick" ärr',
             url_label: 'Läs mer',
@@ -150,9 +150,9 @@ $symptoms = array(
       ),
 
       new Symptom(
-            name: '"Boxcar" ärr av atrofisk typ',
-            aka: 'Gropar',
-            content: 'Runda eller ovala fördjupningar med skarpa kanter, orsakade av finnare som bryter ner kollagen. Dessa är vanliga på kinder och tinningar, liknande ärr efter vattkoppor.',
+            name: 'Atrofiska "Boxcar" ärr',
+            aka: 'Fyrkantiga gropar',
+            content: 'Boxliknande fördjupningar med skarpt definierade kanter. Ärr av denna typ skapas när akne bryter ner hudens kollagen, vilket resulterar i en påtaglig sänkning där storlek och djup kan variera. Denna ärrtyp är vanligtvis belägen på kinder och tinningar.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om "Boxcar" ärr av atrofisk typ',
             url_label: 'Läs mer',
