@@ -217,13 +217,13 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina ärr från finnar";
+$headline01 = "01. Identifiera dina ärr";
 
 $service = new Service(
       title: 'Konsultation för Ärr från Finnar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en persnolig konsultation med en specialist inom ärr från finnar genomförs en detaljerad analys av dina specifika ärr. Vi fotograferar de berörda områdena och går igenom dina mål och förväntningar. En personlig behandlingsplan utformas, anpassad till dina unika behov och ärrtypen som du har.',
+      content: 'Under en personlig konsultation med en specialist inom ärr från finnar genomförs en detaljerad analys av dina specifika ärr. Vi fotograferar de berörda områdena och går igenom dina mål och förväntningar. En personlig behandlingsplan utformas som är anpassad för just dina ärr.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av ärr från finnar',
@@ -241,7 +241,7 @@ $service = new Service(
 
 
 
-$headline02 = "02. Behandling av dina ärr som uppstått från finnar";
+$headline02 = "02. Behandla dina ärr";
 
 $services = array(
       new Service(
