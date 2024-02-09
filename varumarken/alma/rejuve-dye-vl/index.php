@@ -155,7 +155,7 @@ $treatment_areas = array(
         description: '<p class="p200">Rejuve Dye-VL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Rejuve Dye-VL för Ansikte',
@@ -166,7 +166,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av ansiktet'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/panna.webp',
                 image_alt: 'Panna',
                 image_title: 'Panna',
                 title: 'Rejuve Dye-VL för Panna',
@@ -177,7 +177,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av pannan'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/nasa.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'Rejuve Dye-VL för Näsa',
@@ -188,7 +188,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av näsan'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/kinder.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'Rejuve Dye-VL för Kinder',
@@ -199,7 +199,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av kinderna'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/overlapp.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
                 title: 'Rejuve Dye-VL för Överläpp',
@@ -210,7 +210,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av överläppen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/haka.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Rejuve Dye-VL för Haka',
@@ -231,7 +231,7 @@ $treatment_areas = array(
         description: '<p class="p200">Rejuve Dye-VL kan behandla flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Rejuve Dye-VL för Hals',
@@ -242,7 +242,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av halsen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/dekolletage.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Rejuve Dye-VL för Dekolletage',
@@ -253,7 +253,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av dekolletaget'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/hander.webp',
                 image_alt: 'Händer',
                 image_title: 'Händer',
                 title: 'Rejuve Dye-VL för Händer',
@@ -274,7 +274,7 @@ $treatment_areas = array(
         description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '1x zon',
                 image_title: '1x zon',
                 title: '1x zon',
@@ -285,7 +285,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 1 zon.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '2x zoner',
                 image_title: '2x zoner',
                 title: '2x zoner',
@@ -296,7 +296,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 2x zoner.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
@@ -307,7 +307,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
@@ -318,7 +318,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',

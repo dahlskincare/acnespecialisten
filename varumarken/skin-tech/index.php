@@ -333,7 +333,7 @@ $treatment_areas = array(
         description: '<p class="p200">Vår kemiska peeling kan appliceras på flera olika områden, anpassad efter dina behov.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
@@ -344,7 +344,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Hals',
@@ -355,7 +355,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för halsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/dekolletage.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
@@ -366,7 +366,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/rygg.webp',
                 image_alt: 'Rygg',
                 image_title: 'Rygg',
                 title: 'Rygg',

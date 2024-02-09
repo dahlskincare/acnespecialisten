@@ -225,7 +225,7 @@ $treatment_areas = array(
         description: '<p class="p200">Vi behandlar dessutom flera områden på kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
@@ -236,7 +236,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Hals',
@@ -247,7 +247,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för halsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/dekolletage.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
@@ -258,7 +258,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/rygg.webp',
                 image_alt: 'Rygg',
                 image_title: 'Rygg',
                 title: 'Rygg',
@@ -269,7 +269,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ryggbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/hander.webp',
                 image_alt: 'Händer',
                 image_title: 'Händer',
                 title: 'Händer',
@@ -291,7 +291,7 @@ $treatment_areas = array(
         description: '<p class="p200">Utöka effekten genom att behandla flera områden.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
@@ -302,7 +302,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
@@ -313,7 +313,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
