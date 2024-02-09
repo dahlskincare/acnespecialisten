@@ -93,7 +93,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/92x92/nasa.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'IPL för Näsa',
@@ -104,7 +104,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för IPL-behandling av näsan'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/92x92/kinder.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'IPL för Kinder',
@@ -113,17 +113,6 @@ $treatment_areas = array(
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av kinderna',
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/1-blodkarl.webp',
-                image_alt: '1 st Ytligt blodkärl',
-                image_title: '1 st Ytligt blodkärl',
-                title: 'IPL för 1 st Ytligt blodkärl',
-                duration: '20 min',
-                price: '995 kr',
-                url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_1x_spot_yb',
-                url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av 1 st Ytligt blodkärl',
             ),
         )
     ),
