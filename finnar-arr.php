@@ -284,7 +284,7 @@ $services = array(
             title: 'Microneedling för Ärr från Finnar',
             duration: '60 min',
             price: '2995 kr',
-            content: 'Microneedling för ärr som bildats av finnar är en avancerad teknik som behandlar speciellt atrofiska ärr. Små, fina nålar används för att orsaka kontrollerade skador i huden, vilket igångsätter hudens läkningsprocess och kollagenproduktion. Resultatet blir en förbättrad hudtextur och mindre framträdande ärr.',
+            content: 'Microneedling för ärr som bildats av finnar är en avancerad teknik som behandlar speciellt atrofiska ärr. Små, fina nålar skapas för att orsaka kontrollerade skador i huden, vilket igångsätter hudens läkningsprocess och kollagenproduktion. Resultatet blir en förbättrad hudtextur och mindre framträdande ärr.',
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av en microneedling-behandling för ärr som orsakats av finnar',
@@ -309,16 +309,16 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför välja oss för behandling av ärr från finnar?',
             image_title: 'Varför välja oss för behandling av ärr från finnar?',
-            content: '<p class="p200">Vi på AcneSpecialisten erbjuder de mest innovativa och effektiva metoderna för att behandla ärr orsakade av finnar. Oavsett ärrtyp har vi lösningar – laserterapi för komplexa fall, microneedling för atrofiska ärr och kemisk peeling för mindre ojämnheter. Vår styrka ligger i att leverera individualiserade behandlingar, där din tillfredsställelse står i fokus.</p>
-            <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och kopplar dig med en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
+            content: '<p class="p200">Vi på AcneSpecialisten erbjuder de mest innovativa och effektiva metoderna för att behandla ärr orsakade av finnar. Oavsett ärrtyp har vi lösningar – laserterapi för komplexa fall, microneedling för atrofiska ärr och kemisk peeling för missfärgning. Vår styrka ligger i att leverera individualiserade behandlingar, där ditt resultat står i fokus.</p>
+            <p class="p200 mt-m">Börja din resa mot en klarare hud med en helt kostnadsfri konsultation. Vi analyserar ditt specifika fall och tilldelar dig en personlig hudterapeut som kommer att stödja och vägleda dig genom processen, med en behandlingsplan som är skräddarsydd för just dig. Boka din konsultation idag!</p>',
       ),
       new Article(
-            title: 'Varför AcneSpecialisten för ärr från finnar?',
+            title: 'Varför AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
             image_title: 'När ska jag besöka AcneSpecialisten för ärr från finnar?',
-            content: '<p class="p200">Välja rätt behandling för ärr som uppstått från finnar kan vara en utmaning. Hos AcneSpecialisten har vi över 30 års erfarenhet av att förstå och behandla denna typ av hudproblem. Vi är inte bara experter utan även pionjärer inom ärrreducering och laserbehandling.</p>
+            content: '<p class="p200">Att välja rätt behandling för ärr kan vara en utmaning. Hos AcneSpecialisten har vi över 30 års erfarenhet av att förstå och behandla denna typ av hudproblem. Vi är inte bara experter utan även pionjärer inom ärrreducering och laserbehandling.</p>
             <p class="p200 mt-m">Det som gör oss unika är vår specialiserade kunskap och dedikation. Vi ser inte bara till att förbättra din hud utan strävar också efter att stärka ditt självförtroende och välmående. </p>
             <p class="p200 mt-m">När du väljer AcneSpecialisten, får du inte bara behandling, utan en partner på din resa mot en ny början. Ta första steget med oss och boka din kostnadsfria konsultation idag. Vår professionella och erfarna team väntar på att få hjälpa dig.</p>',
       ),
