@@ -90,7 +90,7 @@ $treatment_areas = array(
         description: '<p class="p200">Vi utför även fillers, lägg till 2000 kronor per mililiter.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 1 ml',
                 image_title: 'Fillers 1 ml',
                 title: 'Fillers 1 ml',
@@ -101,7 +101,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling med 1 ml.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 2 ml',
                 image_title: 'Fillers 2 ml',
                 title: 'Fillers 2 ml',
@@ -112,7 +112,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling med 2 ml.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 3 ml',
                 image_title: 'Fillers 3 ml',
                 title: 'Fillers 3 ml',
@@ -123,7 +123,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling med 3 ml.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 4 ml',
                 image_title: 'Fillers 4 ml',
                 title: 'Fillers 4 ml',
@@ -134,7 +134,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling med 4 ml.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 5 ml',
                 image_title: 'Fillers 5 ml',
                 title: 'Fillers 5 ml',
@@ -145,7 +145,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling med 5 ml.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers - 1 ml Påfyllnig (Inom 2 månader)',
                 image_title: 'Fillers - 1 ml Påfyllnig (Inom 2 månader)',
                 title: 'Fillers - 1 ml Påfyllnig (Inom 2 månader)',
@@ -156,7 +156,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för påfyllning.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers - Hyalase (Borttagning av fillers)',
                 image_title: 'Fillers - Hyalase (Borttagning av fillers)',
                 title: 'Fillers - Hyalase (Borttagning av fillers)',
@@ -167,7 +167,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för hyalase.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers - Hyalase (Återbesök & Kontroll)',
                 image_title: 'Fillers - Hyalase (Återbesök & Kontroll)',
                 title: 'Fillers - Hyalase (Återbesök & Kontroll)',
@@ -188,7 +188,7 @@ $treatment_areas = array(
         description: '<p class="p200">Kombinera fillers med injektionsbehandlingar.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 1 ml + Injektion 1x Område',
                 image_title: 'Fillers 1 ml + Injektion 1x Område',
                 title: 'Fillers 1 ml + Injektion 1x Område',
@@ -199,7 +199,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Fillers 1 ml + Injektion 1x Område.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 1 ml + Injektion 2x Områden',
                 image_title: 'Fillers 1 ml + Injektion 2x Områden',
                 title: 'Fillers 1 ml + Injektion 2x Områden',
@@ -210,7 +210,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Fillers 1 ml + Injektion 2x Områden.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 1 ml + Injektion 3x Områden',
                 image_title: 'Fillers 1 ml + Injektion 3x Områden',
                 title: 'Fillers 1 ml + Injektion 3x Områden',
@@ -222,7 +222,7 @@ $treatment_areas = array(
             ),
 
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 2 ml + Injektion 1x Område',
                 image_title: 'Fillers 2 ml + Injektion 1x Område',
                 title: 'Fillers 2 ml + Injektion 1x Område',
@@ -233,7 +233,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Fillers 2 ml + Injektion 1x Område.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 2 ml + Injektion 2x Områden',
                 image_title: 'Fillers 2 ml + Injektion 2x Områden',
                 title: 'Fillers 2 ml + Injektion 2x Områden',
@@ -244,7 +244,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Fillers 2 ml + Injektion 2x Områden.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 2 ml + Injektion 3x Områden',
                 image_title: 'Fillers 2 ml + Injektion 3x Områden',
                 title: 'Fillers 2 ml + Injektion 3x Områden',
@@ -256,7 +256,7 @@ $treatment_areas = array(
             ),
 
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 3 ml + Injektion 1x Område',
                 image_title: 'Fillers 3 ml + Injektion 1x Område',
                 title: 'Fillers 3 ml + Injektion 1x Område',
@@ -267,7 +267,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Fillers 3 ml + Injektion 1x Område.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 3 ml + Injektion 2x Områden',
                 image_title: 'Fillers 3 ml + Injektion 2x Områden',
                 title: 'Fillers 3 ml + Injektion 2x Områden',
@@ -278,7 +278,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Fillers 3 ml + Injektion 2x Områden.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: 'Fillers 3 ml + Injektion 3x Områden',
                 image_title: 'Fillers 3 ml + Injektion 3x Områden',
                 title: 'Fillers 3 ml + Injektion 3x Områden',
