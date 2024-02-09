@@ -374,8 +374,8 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en portömning',
             url: 'portomning.php',
-            url_label: 'Läs mer om portömning som behandling för pormaskar',
-            url_title: 'Läs mer om portömning som behandling för pormaskar'
+            url_label: 'Läs mer om portömning mot pormaskar',
+            url_title: 'Läs mer om portömning mot pormaskar'
       ),
       new Service(
             title: 'Laser mot Pormaskar',
@@ -388,9 +388,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling mot pormaskar',
             image_title: 'Laserbehandling mot pormaskar',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/behandlingar/laser-mot-hudproblem/',
+            url_label: 'Läs mer om laser mot pormaskar',
+            url_title: 'Läs mer om laser mot pormaskar',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -411,9 +411,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling mot pormaskar',
             image_title: 'Kemisk peeling mot pormaskar',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/kemisk-peeling.php',
+            url_label: 'Läs mer om kemisk peeling mot pormaskar',
+            url_title: 'Läs mer om kemisk peeling mot pormaskar',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -435,9 +435,9 @@ $services = array(
             image_alt: 'Bild av microneedling mot pormaskar',
             image_title: 'Microneedling mot pormaskar',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/microneedling.php',
+            url_label: 'Läs mer om microneedling mot pormaskar',
+            url_title: 'Läs mer om microneedling mot pormaskar',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',

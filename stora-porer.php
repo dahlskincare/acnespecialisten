@@ -247,9 +247,9 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för stora porer',
             image_title: 'Ansiktsbehandling för stora porer',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: 'portomning.php',
+            url_label: 'Läs mer om portömning mot stora porer',
+            url_title: 'Läs mer om portömning mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
@@ -270,9 +270,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling för stora porer',
             image_title: 'Laserbehandling för stora porer',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/behandlingar/laser-mot-hudproblem/',
+            url_label: 'Läs mer om laser mot stora porer',
+            url_title: 'Läs mer om laser mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -293,9 +293,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling för stora porer',
             image_title: 'Kemisk peeling för stora porer behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/kemisk-peeling.php',
+            url_label: 'Läs mer om kemisk peeling mot stora porer',
+            url_title: 'Läs mer om kemisk peeling mot stora porer',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -318,9 +318,9 @@ $services = array(
             image_alt: 'Bild av microneedling för stora porer',
             image_title: 'Microneedling för stora porer behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/microneedling.php',
+            url_label: 'Läs mer om microneedling mot stora porer',
+            url_title: 'Läs mer om microneedling mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
@@ -347,17 +347,12 @@ $products = array(
             image_alt: 'Bild av produkter designade för att minska synligheten av stora porer',
             image_title: 'Effektiva produkter för hantering och förebyggande av stora porer',
 
-            url_label: 'Läs mer om produkter för stora porer',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-            url_title: 'Klicka här för att läsa mer om produkter för stora porer',
-
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
-
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för stora porer',
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            booking_url_title: 'Klicka för att köpa produktpaket mot stora porer',
       )
 );
 
