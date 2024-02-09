@@ -174,7 +174,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Stress finnar',
-                        subtitle: 'Acne orsakat av stress',
+                        subtitle: 'Finnar orsakat av stress',
 
                         image_url: 'bilder/symptom/102x102/stress-finnar.webp',
                         image_alt: 'Ansikte med stress finnar',
@@ -185,7 +185,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Hormonella finnar',
-                        subtitle: 'Akne orsakad av hormoner',
+                        subtitle: 'Finnar orsakad av hormoner',
 
                         image_url: 'bilder/symptom/102x102/hormonella-finnar.webp',
                         image_alt: 'Ansikte med hormonella finnar',
