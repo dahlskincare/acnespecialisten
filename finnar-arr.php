@@ -5,22 +5,17 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Ärr från Finnar - Behandlingsmetoder, Orsaker och Hur Man Förebygger | Acnespecialisten';
-$seo_description = 'Lär dig allt om ärr som uppstår från finnar, inklusive deras bakomliggande orsaker, effektiva metoder för behandling, och hur du kan förebygga dem. Sök professionell vägledning och skräddarsydda lösningar från Acnespecialisten.';
-$seo_keywords = 'ärr från finnar, behandling av ärr från finnar, orsaker till ärr från finnar, förebygga ärr från finnar, minska ärr från finnar, ärrminskning, hudförbättring, behandling av ärr';
-
-
-
+$seo_title = 'Ta bort ärr från finnar i form av fläckar och gropar';
+$seo_description = 'Lär dig allt om ärr som uppstår från finnar. AcneSpecialisten har behandlat ärr från finnar i 30 år. Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
+$seo_keywords = 'ärr från finnar, ärr från finnar Stockholm, ärr från finnar gropar, orsaker till ärr från finnar, vad är ärr från finnar, orsaker till ärr från finnar, varför får man ärr från finnar, var ärr från finnar, varför ärr från finnar';
 
 $title = 'Ärr från Finnar';
 
 $image_small = 'bilder/problem/424x324/arr-fran-finnar.webp';
 $image_large = 'bilder/problem/424x456/arr-fran-finnar.webp';
 $image_title = 'Visar en hud med ärr från finnar';
-$image_alt = 'Bild som illustrerar hur ärr från finnar ser ut på huden';
+$image_alt = 'Närbild på ärr från finnar  i ansiktet';
 $description = 'Har du problem med ärr som uppstått från finnar? Vi förstår frustrationen och vill hjälpa dig. Här förklarar vi vad som kännetecknar dessa ärr, hur de kan uppstå, och hur Acnespecialisten kan stödja dig i en personligt anpassad behandlingsprocess. Vårt mål är att återställa din huds släthet och utseende. Tveka inte att boka en tid hos oss för en individuell konsultation och ta steget mot en klarare och friskare hud.';
-
-
 
 $akas = [
       new Link(
@@ -36,22 +31,21 @@ $akas = [
 
 ];
 
-
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis konsultation för behandling av ärr från finnar";
 
 $booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av ärr från finnar";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Boka gratis konsultation";
 $mobile_consultation_url_title = "Gratis konsultation för ärr från finnar";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka din tid för behandling av ärr från finnar";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis konsultation för ärr från finnar";
 
 $floating_booking_url_label = "Boka behandling";
@@ -77,7 +71,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är ärr från finnar?',
-            content: '<p class="p200">Ärr från finnar i form av gropar och fläckar kan uppstå när en inflammation skadar hudlagren. Detta kan hända när porerna täpps till och inte kan göra sig av med sitt innehåll. Ärrbildningen som uppstår kan vara en varaktig påminnelse om tidigare hudproblem och kan variera i form och storlek, påverka både utseendet och känslan på huden.</p>',
+            content: '<p class="p200">Ärr från finnar i form av fläckar och gropar kan uppstå när en inflammation skadar hudlagren. Detta kan hända när porerna täpps till och inte kan göra sig av med sitt innehåll. Ärrbildningen som uppstår kan vara en varaktig påminnelse om tidigare hudproblem och kan variera i form och storlek, påverka både utseendet och känslan på huden.</p>',
             extended_content: '<p class="p200 mt-xl">Ärr i form av gropar och fläckar kan visa sig på olika sätt. Vid milda fall kan det resultera i färgförändringar på huden, medan mer allvarliga fall kan leda till gropar och permanent ärrbildning. Gropar är exempel på atrofiska ärr, som kan delas in i olika typer som ispickar, rullande ärr och lådformade ärr. Varje typ kräver en unik behandlingsmetod.</p>
             <p class="p200 mt-xl">Hos oss på Acnespecialisten, med över 30 års erfarenhet av att behandla ärr från finnar, erbjuder vi de mest effektiva metoderna. Behandlingen måste skräddarsys efter din hudtyp och dina specifika ärr. Våra specialister står redo att erbjuda dig en kostnadsfri hudkonsultation för att identifiera din ärrtyp och utforma en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som stöttar dig genom hela behandlingsprocessen, från start till mål.</p>',
             icons: array()
@@ -86,7 +80,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man ärr från finnar?',
-            content: '<p class="p200">Ärr från finnar kan uppstå när en finne orsakar en inflammation som fräter på huden. Såren som skapas kan leda till missfärgningar och, om de fortsätter att skada huden under en längre tid, kan de förändra hudstrukturen och orsaka gropar. Inflammerade finnar som tränger djupt in i huden kan också skada vävnaden nedanför, vilket leder till ärrbildning i form av både gropar och fläckar.</p>',
+            content: '<p class="p200">Ärr från finnar kan uppstå när en finne orsakar en inflammation som fräter på huden. Såren som skapas kan leda till missfärgningar och, om de fortsätter att skada huden under en längre tid, kan de förändra hudstrukturen och orsaka gropar. Inflammerade finnar som tränger djupt in i huden kan också skada vävnaden nedanför, vilket leder till ärrbildning i form av gropar.</p>',
             extended_content: '<p class="p200 mt-xl">Både för mycket och för lite kollagen vid läkningen kan resultera i olika typer av ärr. Felaktig hantering av finnar, som att peta och klämma, kan förvärra ärrbildningen, och felaktig behandling kan orsaka permanenta ärr. Förebyggande åtgärder, som rätt hudvård och tidig behandling, kan minska risken för ärrbildning.</p>
             <p class="p200 mt-xl">På Acnespecialisten koncentrerar vi oss på att förstå ditt specifika behov och hudtillstånd. Med 30 års erfarenhet och de mest effektiva metoderna för att behandla ärr från finnar, arbetar vi för att minimera och förebygga permanenta märken på din hud. Att ta första steget med en kostnadsfri konsultation hos oss kan vara starten på din väg till en sund och klar hud. Våra hudvårdsexperter arbetar tillsammans med dig för att skapa en behandlingsplan som passar just din hud.</p>',
             icons: array()
@@ -126,7 +120,6 @@ $treatment_steps = array(
             url_title: 'Upptäck våra unika och effektiva behandlingar för ärr från finnar'
       ),
 );
-
 
 $treatment_link = '<a href="behandla-finna-arr.php" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
 
