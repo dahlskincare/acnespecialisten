@@ -239,8 +239,6 @@ $service = new Service(
       url_title: 'Läs mer om gratis hudkonsultation mot ärr från finnar',
 );
 
-
-
 $headline02 = "02. Behandla dina ärr";
 
 $services = array(
