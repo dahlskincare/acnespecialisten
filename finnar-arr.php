@@ -135,8 +135,8 @@ $symptoms_title = 'Olika typer av ärr';
 $symptoms = array(
       new Symptom(
             name: 'Hyperpigmentering efter inflammation (PIH)',
-            aka: 'Också refererad som mörka eller bruna märken',
-            content: 'Denna sort av fläckar uppstår som följd av inflammation i huden orsakad av akne. Det är inte egentliga ärr utan representerar en ökning av pigmentet melanin som ger huden dess kulör. När huden reparerar sig själv, kan det leda till en ökad melaninproduktion, vilket ger mörkare märken. De kan variera i färg från brun till svart och till och med blå, beroende på hudtyp. Fläckarna ligger plant mot huden, till skillnad från förhöjda eller intryckta akneärr.',
+            aka: 'Mörka eller bruna märken',
+            content: 'Dessa mörkare fläckar uppstår efter hudinflammation som akne, vilket ökar melanin och ger fläckar i olika mörka nyanser. De är platta mot huden och skiljer sig från akneärr.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om hyperpigmentering efter inflammation',
             url_label: 'Läs mer',
@@ -146,8 +146,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Djupa "ice-pick" ärr',
-            aka: 'Liknande små gropar eller hål gjorda med en ishacka',
-            content: 'Dessa små och djupa ärr som påminner om en ishackas märken sträcker sig in i huden. De börjar smalt vid ytan och vidgas nedåt. Denna djupa hålighet ger ärret dess speciella utseende. Detta är en ärrtyp som ofta följer efter cystisk akne eller infektioner i huden och kan vara utmanande att behandla på grund av deras djup. De kan finnas var som helst där akne har varit, men är mest förekommande på kinderna.',
+            aka: 'Små gropar eller hål gjorda med en ishacka',
+            content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter svår akne. Dessa ärr är utmanande att behandla på grund av deras djup och är vanliga på kinderna.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om djupa "ice-pick" ärr',
             url_label: 'Läs mer',
@@ -158,8 +158,8 @@ $symptoms = array(
 
       new Symptom(
             name: '"Boxcar" ärr av atrofisk typ',
-            aka: 'Jämförbara med gropar eller brännskador',
-            content: 'Dessa är karakteristiska akneärr som framträder som runda eller ovala fördjupningar med skarpt definierade kanter. Ärr av denna typ skapas när akne bryter ner hudens kollagen, vilket resulterar i en påtaglig sänkning. Storlek och djup kan variera, och de har likheter med ärr orsakade av vattkoppor. Denna ärrtyp är vanligtvis belägen på kinder och tinningar och kan vara mycket iögonfallande om de är omfattande.',
+            aka: 'Gropar',
+            content: 'Runda eller ovala fördjupningar med skarpa kanter, orsakade av akne som bryter ner kollagen. Dessa är vanliga på kinder och tinningar, liknande ärr efter vattkoppor.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om "Boxcar" ärr av atrofisk typ',
             url_label: 'Läs mer',
@@ -169,8 +169,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Hypopigmentering efter inflammation',
-            aka: 'Representeras av ljusa eller vita märken',
-            content: 'Hypopigmentering efter inflammation sker när huden tappar pigmentering på platser där en inflammatorisk hudsjukdom, som akne, har läkt. Detta skapar ljusare fläckar som kan vara tydliga beroende på hudfärgen. Det är inte ett äkta ärr, utan en temporär minskning av pigment och brukar normalisera sig med tiden eller med rätt behandling.',
+            aka: 'Ljusa eller vita märken',
+            content: 'Ljusare fläckar där hud har förlorat pigment efter akneinflammation, vilket skapar en tydlig kontrast. Dessa fläckar är temporära och kan normalisera över tid.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om hypopigmentering efter inflammation',
             url_label: 'Läs mer',
@@ -181,7 +181,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
             aka: 'Liknande små fördjupningar eller vågor i huden',
-            content: 'Denna typ av akneärr kännetecknas av dess oregelbundna form och utseendet av fördjupningar som ger huden en rullande eller vågig yta. De uppstår när underliggande stödstrukturer i huden bryts ner, vilket resulterar i en förlust av stöd och struktur. Denna förändring i hudens yta ger ett intryck av slätta, skålformade fördjupningar som flyter samman. Ärr av denna typ kan behandlas, men kräver ofta en kombination av tekniker på grund av deras komplexa natur.',
+            content: 'Ärr med vågig yta som uppstår när hudens stödstrukturer bryts ner, vilket ger en förlust av struktur. Behandling kräver en kombination av metoder på grund av deras komplexitet.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
@@ -191,8 +191,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Erytem efter inflammation (PIE)',
-            aka: 'Visar sig som rosa eller lila fläckar eller missfärgningar',
-            content: 'Erytem efter inflammation manifesterar sig som rosa eller lila märken på huden efter en inflammation orsakad av akne. Denna missfärgning beror på skador eller förstöring av blodkärlen under inflammationsprocessen. Fläckarna kan vara ömma eller klia och bleknar vanligtvis med tiden. De är dock mer ihärdiga hos personer med ljusare hudton och kan ibland misstas för ärrvävnad, även om det inte är äkta ärr.',
+            aka: 'Rosa eller lila fläckar',
+            content: 'Rosa eller lila märken efter akne, orsakade av skador på blodkärlen. Dessa märken är mer ihärdiga hos ljusare hudtoner och kan misstas för äkta ärr.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om erytem efter inflammation',
             url_label: 'Läs mer',
@@ -202,8 +202,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Hypertrofiska Ärr',
-            aka: 'Även benämnda keloid ärr',
-            content: 'Hypertrofiska ärr, som är både tjocka och upphöjda, bildas i regel som svar på en skada, operation eller finnar. De skiljer sig från keloidärr genom att de inte sträcker sig utanför det område där skadan ursprungligen inträffade. Dessa ärr är ofta rödaktiga eller rosafärgade och kan kännas känsliga eller klia. Med tiden kan de minska i framträdande, även om deras konsistens och nyans kan skifta beroende på sårläkning och hudtyp.',
+            aka: 'Keloid ärr',
+            content: 'Tjocka, upphöjda ärr som bildas efter hudskada eller akne, vanligtvis rödaktiga och kan kännas känsliga. Dessa ärr minskar över tid men kan ändra konsistens och färg.',
             //url: 'problem/arr-fran-finnar/hypertrfiska-arr',
             //url_title: 'Få mer information om hypertrofiska ärr',
             //url_label: 'Läs mer här',
@@ -213,8 +213,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Atrofiska Ärr',
-            aka: 'Ibland refererade till som gropar',
-            content: 'Atrofiska ärr framträder ofta efter akne eller inflammation i huden och de visar sig som små inbuktningar eller fördjupningar i hudytan. De kan likna små hål eller dalar och uppstår när det sker en minskning av kollagen och stödjevävnad under ytan, vilket får området att sjunka in. Storleken och formen på dessa ärr kan variera, och de är mest framträdande i ansiktet, där de kan ge huden en ojämn textur.',
+            aka: 'Gropar',
+            content: 'Fördjupningar i huden efter akne, liknande små hål, orsakade av minskad kollagenproduktion. Dessa ger en ojämn hudtextur, särskilt i ansiktet.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om atrofiska ärr (gropar)',
             url_label: 'Läs mer här',
@@ -222,8 +222,6 @@ $symptoms = array(
             image_alt: 'Illustration av atrofiska ärr',
             image_title: 'Atrofiska ärr (gropar)'
       ),
-
-
 );
 
 $headline01 = "01. Identifiera dina ärr från finnar";
