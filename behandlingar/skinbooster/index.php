@@ -101,7 +101,7 @@ $treatment_areas = array(
         description: null,
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Skinbooster för ansiktet',
                 image_title: 'Skinbooster för ansiktet',
                 title: 'Ansikte',
@@ -112,7 +112,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Skinbooster i ansiktet'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Skinbooster för halsen',
                 image_title: 'Skinbooster för halsen',
                 title: 'Hals',
@@ -123,7 +123,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Skinbooster på halsen'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/dekolletage.webp',
                 image_alt: 'Skinbooster för dekolletaget',
                 image_title: 'Skinbooster för dekolletaget',
                 title: 'Dekolletage',
@@ -134,7 +134,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Skinbooster på dekolletaget'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/hander.webp',
                 image_alt: 'Skinbooster för händerna',
                 image_title: 'Skinbooster för händerna',
                 title: 'Händer',
@@ -156,7 +156,7 @@ $treatment_areas = array(
         description: '<p class="p200">Med Skinbooster kan vi kombinera flera områden.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
@@ -167,7 +167,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
@@ -178,7 +178,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
