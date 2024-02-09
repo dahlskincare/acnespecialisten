@@ -139,7 +139,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Djupa "ice-pick" ärr',
-            aka: 'Små gropar eller hål gjorda med en ishacka',
+            aka: 'Små spetsiga gropar',
             content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter svår finnar. Dessa ärr är utmanande att behandla på grund av deras djup och är vanliga på kinderna.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om djupa "ice-pick" ärr',
