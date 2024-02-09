@@ -34,7 +34,7 @@ $akas = [
       ),
 ];
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin";
 $consultation_url_title = "Gratis Konsultation för Blandhy";
 
@@ -42,13 +42,13 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin";
 $booking_url_title = "Boka Behandling för Blandhy";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Boka gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Blandhy";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka Behandling för Blandhy";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för Blandhy";
 
 $floating_booking_url_label = "Boka behandling";
@@ -281,9 +281,9 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för blandhy',
             image_title: 'Ansiktsbehandling för blandhy',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/problemhy.php',
+            url_label: 'Läs mer om ansiktsbehandling mot blandhy',
+            url_title: 'Läs mer om ansiktsbehandling mot blandhy',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
@@ -304,9 +304,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling för blandhy',
             image_title: 'Laserbehandling för blandhy',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/behandlingar/laser-mot-hudproblem/',
+            url_label: 'Läs mer om laser mot blandhy',
+            url_title: 'Läs mer om laser mot blandhy',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -328,9 +328,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling för blandhy',
             image_title: 'Kemisk peeling för blandhy behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/kemisk-peeling.php',
+            url_label: 'Läs mer om kemisk peeling mot blandhy',
+            url_title: 'Läs mer om kemisk peeling mot blandhy',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -353,9 +353,9 @@ $services = array(
             image_alt: 'Bild av microneedling för blandhy',
             image_title: 'Microneedling för blandhy behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/microneedling.php',
+            url_label: 'Läs mer om microneedling mot blandhy',
+            url_title: 'Läs mer om microneedling mot blandhy',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
@@ -415,11 +415,11 @@ $procedures = array(
             url_title: '',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för blandhy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
             booking_url_title: 'Klicka för att boka tid för en microneedling för blandhy behandling'
       ),
 );
