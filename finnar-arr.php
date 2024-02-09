@@ -106,14 +106,14 @@ $trivias = array(
 );
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Diagnostisera',
-            content: 'På AcneSpecialisten tar en erfaren hudterapeut hand om dig, undersöker dina hudproblem och identifierar specifika ärr från finnar som gropar och fläckar. Vi tar hänsyn till dina unika behov och skapar en skräddarsydd behandlingsplan för att ge dig de bästa resultaten.',
+            title: 'Identifiera',
+            content: 'På AcneSpecialisten tar en erfaren hudterapeut hand om dig, undersöker dina hudproblem och identifierar specifika ärr från finnar som fläckar och gropar. Vi tar hänsyn till dina unika behov och skapar en skräddarsydd behandlingsplan för att ge dig de bästa resultaten.',
             url_label: 'Boka en gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             url_title: 'Boka din kostnadsfria konsultation om ärr från finnar idag'
       ),
       new TreatmentStep(
-            title: 'Behandlingsprocess',
+            title: 'Behandla',
             content: 'Genom att använda specialiserade metoder för behandling av ärr från finnar, erbjuder vi lösningar som är perfekt anpassade till dina specifika behov. Vår expertis ger en effektiv förbättring av hudens utseende, så att du snabbt kan se resultat och känna dig nöjd med din hud.',
             url_label: 'Utforska våra ärrbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
@@ -121,7 +121,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="behandla-finna-arr.php" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
+$treatment_link = '<a href="behandla-finnar-arr.php" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
 
 $symptoms_title = 'Olika typer av ärr';
 
