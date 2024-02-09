@@ -129,7 +129,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hyperpigmentering efter inflammation (PIH)',
             aka: 'Mörka eller bruna märken',
-            content: 'Dessa mörkare fläckar uppstår efter hudinflammation som akne, vilket ökar melanin och ger fläckar i olika mörka nyanser. De är platta mot huden och skiljer sig från akneärr.',
+            content: 'Dessa mörkare fläckar uppstår efter hudinflammation som floating_consultation_url_title, vilket ökar melanin och ger fläckar i olika mörka nyanser. De är platta mot huden och skiljer sig från akneärr.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om hyperpigmentering efter inflammation',
             url_label: 'Läs mer',
@@ -140,7 +140,7 @@ $symptoms = array(
       new Symptom(
             name: 'Djupa "ice-pick" ärr',
             aka: 'Små gropar eller hål gjorda med en ishacka',
-            content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter svår akne. Dessa ärr är utmanande att behandla på grund av deras djup och är vanliga på kinderna.',
+            content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter svår finnar. Dessa ärr är utmanande att behandla på grund av deras djup och är vanliga på kinderna.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om djupa "ice-pick" ärr',
             url_label: 'Läs mer',
@@ -152,7 +152,7 @@ $symptoms = array(
       new Symptom(
             name: '"Boxcar" ärr av atrofisk typ',
             aka: 'Gropar',
-            content: 'Runda eller ovala fördjupningar med skarpa kanter, orsakade av akne som bryter ner kollagen. Dessa är vanliga på kinder och tinningar, liknande ärr efter vattkoppor.',
+            content: 'Runda eller ovala fördjupningar med skarpa kanter, orsakade av finnare som bryter ner kollagen. Dessa är vanliga på kinder och tinningar, liknande ärr efter vattkoppor.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om "Boxcar" ärr av atrofisk typ',
             url_label: 'Läs mer',
@@ -185,7 +185,7 @@ $symptoms = array(
       new Symptom(
             name: 'Erytem efter inflammation (PIE)',
             aka: 'Rosa eller lila fläckar',
-            content: 'Rosa eller lila märken efter akne, orsakade av skador på blodkärlen. Dessa märken är mer ihärdiga hos ljusare hudtoner och kan misstas för äkta ärr.',
+            content: 'Rosa eller lila märken efter finnar, orsakade av skador på blodkärlen. Dessa märken är mer ihärdiga hos ljusare hudtoner och kan misstas för äkta ärr.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om erytem efter inflammation',
             url_label: 'Läs mer',
@@ -196,7 +196,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hypertrofiska Ärr',
             aka: 'Keloid ärr',
-            content: 'Tjocka, upphöjda ärr som bildas efter hudskada eller akne, vanligtvis rödaktiga och kan kännas känsliga. Dessa ärr minskar över tid men kan ändra konsistens och färg.',
+            content: 'Tjocka, upphöjda ärr som bildas efter hudskada eller finnar, vanligtvis rödaktiga och kan kännas känsliga. Dessa ärr minskar över tid men kan ändra konsistens och färg.',
             //url: 'problem/arr-fran-finnar/hypertrfiska-arr',
             //url_title: 'Få mer information om hypertrofiska ärr',
             //url_label: 'Läs mer här',
@@ -207,7 +207,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska Ärr',
             aka: 'Gropar',
-            content: 'Fördjupningar i huden efter akne, liknande små hål, orsakade av minskad kollagenproduktion. Dessa ger en ojämn hudtextur, särskilt i ansiktet.',
+            content: 'Fördjupningar i huden efter finnar, liknande små hål, orsakade av minskad kollagenproduktion. Dessa ger en ojämn hudtextur, särskilt i ansiktet.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om atrofiska ärr (gropar)',
             url_label: 'Läs mer här',
