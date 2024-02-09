@@ -389,6 +389,17 @@ $type_categories = array(
                         url: 'acne-brost.php',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
+                  new BasedType(
+                        title: 'Akne runt munnen',
+                        subtitle: 'Perioral dermatit',
+
+                        image_url: 'bilder/problem/102x102/perioral-dermatit.webp',
+                        image_alt: 'Akne runt munnen',
+                        image_title: 'Exempel på akne runt munnen',
+
+                        url: '/perioral-dermatit',
+                        url_title: 'Läs mer om akne runt munnen och möjliga behandlingar'
+                  ),
 
             )
       )
