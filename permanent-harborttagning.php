@@ -132,7 +132,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omraden/92x92/kinder.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'Kinder',
@@ -143,7 +143,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omraden/92x92/overlapp.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
                 title: 'Överläpp',
@@ -154,7 +154,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omraden/92x92/haka.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Haka',
@@ -175,7 +175,7 @@ $treatment_areas = array(
         description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/axlar.webp',
                 image_alt: 'Axlar',
                 image_title: 'Axlar',
                 title: 'Axlar',
@@ -186,7 +186,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/armhalor.webp',
                 image_alt: 'Armhålor',
                 image_title: 'Armhålor',
                 title: 'Armhålor',
@@ -197,7 +197,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/brost.webp',
                 image_alt: 'Bröst',
                 image_title: 'Bröst',
                 title: 'Bröst',
@@ -208,7 +208,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/mage.webp',
                 image_alt: 'Mage',
                 image_title: 'Mage',
                 title: 'Mage',
@@ -219,7 +219,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/rygg.webp',
                 image_alt: 'Rygg',
                 image_title: 'Rygg',
                 title: 'Rygg',
@@ -230,7 +230,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/svank.webp',
                 image_alt: 'Svank',
                 image_title: 'Svank',
                 title: 'Svank',
@@ -241,7 +241,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/armar.webp',
                 image_alt: 'Armar',
                 image_title: 'Armar',
                 title: 'Armar',
@@ -252,7 +252,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/hander.webp',
                 image_alt: 'Händer & Fingrar',
                 image_title: 'Händer & Fingrar',
                 title: 'Händer & Fingrar',
@@ -273,7 +273,7 @@ $treatment_areas = array(
         description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omraden/92x92/bikinilinje.webp',
                 image_alt: 'Bikinilinje',
                 image_title: 'Bikinilinje',
                 title: 'Bikinilinje',
@@ -284,7 +284,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omraden/92x92/string.webp',
                 image_alt: 'String',
                 image_title: 'String',
                 title: 'String',
@@ -295,7 +295,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omraden/92x92/brasiliansk-anus.webp',
                 image_alt: 'Brasiliansk + Runt Anus',
                 image_title: 'Brasiliansk + Runt Anus',
                 title: 'Brasiliansk + Runt Anus',
@@ -306,7 +306,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webm',
+                image: '/bilder/omraden/92x92/anus.webp',
                 image_alt: 'Runt Anus',
                 image_title: 'Runt Anus',
                 title: 'Runt Anus',
