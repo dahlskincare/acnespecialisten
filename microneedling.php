@@ -197,7 +197,7 @@ $treatment_areas = array(
         description: '<p class="p200">Microneedling behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
@@ -208,7 +208,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/nasa.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'Näsa',
@@ -219,7 +219,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för näsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/kinder.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'Kinder',
@@ -230,7 +230,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för kindbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/overlapp.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
                 title: 'Överläpp',
@@ -241,7 +241,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för överläppsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/94x72.webp',
+                image: '/bilder/omraden/92x92/haka.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Haka',
@@ -263,7 +263,7 @@ $treatment_areas = array(
         description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Hals',
@@ -274,7 +274,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för halsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/dekolletage.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
@@ -285,7 +285,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/rygg.webp',
                 image_alt: 'Rygg',
                 image_title: 'Rygg',
                 title: 'Rygg',
@@ -306,7 +306,7 @@ $treatment_areas = array(
         description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
@@ -317,7 +317,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
@@ -328,7 +328,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: null,
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
