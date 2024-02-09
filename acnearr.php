@@ -336,10 +336,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '3 månader',
+                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
       ),
       new ResultCustomer(
@@ -347,10 +347,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '2 månader',
+                  duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
       ),
       new ResultCustomer(
@@ -358,10 +358,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
+            image_title: 'Person som har rosacea',
+            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '4 månader',
+                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )
       ),
 );
@@ -544,7 +544,7 @@ $related_problems = array(
             image: 'bilder/problem/102x102/acnearr.webp',
             image_alt: 'Ansikte med ärr från finnar',
             image_title: 'ärr från finnar - en vanlig följd av akne',
-            url: 'acnearr.php',
+            url: 'finnar-arr.php',
             url_title: 'Acneärr'
       ),
 );

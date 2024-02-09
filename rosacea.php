@@ -23,7 +23,7 @@ $consultation_url = "https://acnespecialisten.se/book?flow=consultation&Consulta
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för Rosacea";
 
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka rosaceabehandling";
 
@@ -110,7 +110,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi utför skonsamma och effektiva rosaceabehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
             url_label: 'Se behandlingar',
-            url: 'rosaceabehandling.php',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
       ),
       new TreatmentStep(
@@ -365,15 +365,18 @@ $products = array(
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av rosacea',
             image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            url_label: 'Läs mer om produkter mot rosacea',
-            url_title: 'Klicka här för att läsa mer om produkter mot rosacea'
+            
+            url: '',
+            url_label: '',
+            url_title: '',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot rosacea',
+
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            booking_url_title: 'Klicka för att köpa produktpaket mot rosacea',
       )
 );
 
@@ -389,12 +392,13 @@ $procedures = array(
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Behandla rosacea med IPL',
             image_title: 'Behandla rosacea med IPL',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
+            url_label: 'Läs mer om IPL mot ytliga blodkärl',
+            url: 'ipl-ytliga-blodkarl.php',
+            url_title: 'Klicka här för att läsa mer om IPL-behandling mot ytliga blodkärl',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för IPL-behandling mot ytliga blodkärl',
             url: 'ipl-rosacea.php',
             url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl'
