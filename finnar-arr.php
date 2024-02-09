@@ -161,7 +161,7 @@ $symptoms = array(
             image_title: '"Boxcar" ärr av atrofisk typ'
       ),
       new Symptom(
-            name: 'Hypopigmentering efter inflammation',
+            name: 'Postinflammatorisk hypopigmentering',
             aka: 'Ljusa eller vita märken',
             content: 'Ljusare fläckar där hud har förlorat pigment efter akneinflammation, vilket skapar en tydlig kontrast. Detta skapar ljusare fläckar som kan vara tydliga beroende på hudfärgen efter att finnarna har läkt.',
             url: 'postinflammatorisk-hyperpigmentering.php',
@@ -183,9 +183,9 @@ $symptoms = array(
             image_title: 'Atrofiska "rolling" ärr'
       ),
       new Symptom(
-            name: 'Erytem efter inflammation (PIE)',
-            aka: 'Rosa eller lila fläckar',
-            content: 'Rosa eller lila märken efter finnar, orsakade av skador på blodkärlen. Dessa märken är mer ihärdiga hos ljusare hudtoner och kan misstas för äkta ärr.',
+            name: 'Postinflammatorisk erytem (PIE)',
+            aka: 'Roöda, rosa eller lila fläckar',
+            content: 'Hudtillstånd som karaktäriseras av röda till lila fläckar på huden, vilka uppstår som en följd av inflammation eller skada, exempelvis efter akneutbrott. Detta tillstånd beror på dilaterade eller skadade blodkärl under huden, vilket ger upphov till de distinkta röda fläckarna.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om erytem efter inflammation',
             url_label: 'Läs mer',
@@ -196,7 +196,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hypertrofiska Ärr',
             aka: 'Keloid ärr',
-            content: 'Tjocka, upphöjda ärr som bildas efter hudskada eller finnar, vanligtvis rödaktiga och kan kännas känsliga. Dessa ärr minskar över tid men kan ändra konsistens och färg.',
+            content: 'Tjocka, upphöjda ärr som bildas efter hudskada eller finnar, vanligtvis rödaktiga och kan kännas känsliga. Dessa ärr minskar över tid men kan ändra textur och färg.',
             //url: 'problem/arr-fran-finnar/hypertrfiska-arr',
             //url_title: 'Få mer information om hypertrofiska ärr',
             //url_label: 'Läs mer här',
