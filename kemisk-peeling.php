@@ -366,7 +366,7 @@ $treatment_areas = array(
         description: '<p class="p200">Vår kemiska peeling kan appliceras på flera olika områden, anpassad efter dina behov.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
@@ -377,7 +377,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Hals',
@@ -388,7 +388,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för halsbehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/dekolletage.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
@@ -399,7 +399,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webp',
+                image: '/bilder/omraden/92x92/rygg.webp',
                 image_alt: 'Rygg',
                 image_title: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 title: 'Rygg',
@@ -421,7 +421,6 @@ $bottom_articles = array('aftercare' => new Article(
     image_title: 'Eftervård för kemisk peeling',
     content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>
     <p class="p200 mt-m">På AcneSpecialisten hjälper vi dig att skapa en effektiv eftervårdsplan som passar just din hud. Detta kan innefatta allt från noggrann rengöring och återfuktning till speciella vårdåtgärder som lugnar och främjar hudens läkningsprocess. Vi guidar dig genom varje steg för att försäkra att du ger din hud den optimala vård den behöver för att återhämta sig och bibehålla de positiva effekterna av peelingen. Rätt eftervård är essentiell för att upprätthålla en hälsosam, välvårdad och strålande hud.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Märken för kemisk peeling';
