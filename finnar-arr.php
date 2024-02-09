@@ -173,8 +173,8 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
-            aka: 'Liknande små fördjupningar eller vågor i huden',
-            content: 'Ärr med vågig yta som uppstår när hudens stödstrukturer bryts ner, vilket ger en förlust av struktur. Behandling kräver en kombination av metoder på grund av deras komplexitet.',
+            aka: 'Runda skålformade gropar',
+            content: 'Skålformade ärr som karaktäriseras av sin vågiga eller rullande yta på huden. De uppstår när underliggande hudvävnad förlorar sin stödstruktur, vilket resulterar i ojämna fördjupningar och en oregelbunden hudtextur.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
