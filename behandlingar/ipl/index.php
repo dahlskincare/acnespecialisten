@@ -10,8 +10,8 @@ $seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-beha
 $seo_image = '/images/treatments/large/ipl.webp';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('IPL', '/behandlingar/ipl/'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('IPL', '/behandlingar/ipl/'),
 );
 
 $model = new Service(
@@ -94,7 +94,7 @@ $types = array(
         booking_url_title: 'Boka IPL-behandling för rosacea',
     ),
 
-new Service(
+    new Service(
         title: 'IPL-behandling för Ytliga Blodkärl',
         duration: '30 minuter',
         price: '1995 kr',
@@ -111,7 +111,7 @@ new Service(
         booking_url_title: 'Boka IPL-behandling för ytliga blodkärl',
     ),
 
-new Service(
+    new Service(
         title: 'IPL-behandling för Pigmentfläckar',
         duration: '30 minuter',
         price: '1995 kr',
@@ -128,7 +128,7 @@ new Service(
         booking_url_title: 'Boka IPL-behandling för pigmentfläckar',
     ),
 
-new Service(
+    new Service(
         title: 'IPL-behandling för Melasma',
         duration: '30 minuter',
         price: '1995 kr',
@@ -339,7 +339,7 @@ $treatment_areas = array(
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter IPL-behandling',
     image_small: null,
-        image_large: null,
+    image_large: null,
     image_alt: 'Efter IPL-behandling',
     image_title: 'Efter IPL-behandling',
     content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller parfymerade produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
@@ -472,32 +472,32 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 $reviews_view_more = 'Se alla omdömen';
@@ -678,7 +678,7 @@ $all_brands = array(
                                 <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
-                            <div class="mt-m"><?php echo $floating_box ?></div>
+                        <div class="mt-m"><?php echo $floating_box ?></div>
                         <?php if (isset($model->procedures)) { ?>
                             <div id="floating-procedures" class="mt-xl">
                                 <?php foreach ($model->procedures as $procedure) { ?>
@@ -858,11 +858,13 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <?php } ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php

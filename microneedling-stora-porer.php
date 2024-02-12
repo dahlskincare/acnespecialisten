@@ -215,58 +215,58 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 $reviews_view_more = 'Se alla omdömen';
 
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
-      'Generella frågor' => array(
-            new Question(
-              title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-              text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
-            ),
-            new Question(
-              title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-              text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-              title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-              text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-              title: 'Anpassar ni behandlingarna för olika hudtyper?',
-              text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
-            ),
-      ),
+    'Generella frågor' => array(
+        new Question(
+            title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+            text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+        ),
+        new Question(
+            title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+            text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+        ),
+    ),
+    'Frågor om behandling' => array(
+        new Question(
+            title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+            text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+        ),
+        new Question(
+            title: 'Anpassar ni behandlingarna för olika hudtyper?',
+            text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+        ),
+    ),
 );
 
 $faq_view_more = 'Se alla frågor & svar';
@@ -577,11 +577,13 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <?php } ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php

@@ -10,9 +10,9 @@ $seo_keywords = 'fillerbehandlingar, ålderslinjer, volymåterställning, naturl
 $seo_image = '/images/treatments/large/fillers.webp';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Injektioner', '/behandlingar/injektioner/'),
-      new PathSegment('Fillers', '/behandlingar/injektioner/fillers/'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Injektioner', '/behandlingar/injektioner/'),
+    new PathSegment('Fillers', '/behandlingar/injektioner/fillers/'),
 );
 
 $model = new Service(
@@ -68,11 +68,11 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går fillersbehandlingar till?',
-    image_small: null,
-    image_large: null,
-    image_alt: 'Hur går fillersbehandlingar till?',
-    image_title: 'Hur går fillersbehandlingar till?',
-    content: '<p class="p200">Vid AcneSpecialisten är varje steg i vår fillersbehandling omsorgsfullt planerad för att säkerställa bästa resultat. Din behandlingsresa inleds med en omfattande konsultation där vi utforskar dina estetiska mål och noggrant analyserar din hud. Denna viktiga dialog följs av en betänketid på 48 timmar, vilket ger dig tid att överväga behandlingen noggrant.</p>
+        image_small: null,
+        image_large: null,
+        image_alt: 'Hur går fillersbehandlingar till?',
+        image_title: 'Hur går fillersbehandlingar till?',
+        content: '<p class="p200">Vid AcneSpecialisten är varje steg i vår fillersbehandling omsorgsfullt planerad för att säkerställa bästa resultat. Din behandlingsresa inleds med en omfattande konsultation där vi utforskar dina estetiska mål och noggrant analyserar din hud. Denna viktiga dialog följs av en betänketid på 48 timmar, vilket ger dig tid att överväga behandlingen noggrant.</p>
     <p class="p200 mt-m">När du väl bestämt dig för att gå vidare, börjar behandlingsdagen med en grundlig rengöring av det valda området. Vi markerar sedan specifikt var behandlingen ska utföras för att garantera precision. Behandlingen, som utförs med största omsorg, innefattar användningen av avancerade injektionstekniker som inte bara uppfyller dina önskemål utan också minimerar eventuellt obehag.</p>
     <p class="p200 mt-m">Direkt efter behandlingen får du utförliga eftervårdsanvisningar för att underlätta en smidig återhämtning och optimera resultatet. Lätt rodnad eller svullnad i behandlingsområdet är normalt och bör snart avta. För att säkerställa att du är helt nöjd med resultatet erbjuder vi uppföljningssessioner där vi kan göra eventuella justeringar. Vi är engagerade i att ge dig en trygg och tillfredsställande upplevelse från start till slut.</p>',
     ),
@@ -404,32 +404,32 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 $reviews_view_more = 'Se alla omdömen';
@@ -780,11 +780,13 @@ $all_brands = array(
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <picture>
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
+                            <?php } ?>
                             <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
