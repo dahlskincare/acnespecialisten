@@ -407,7 +407,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för behandling av perioral dermatit',
       image_title: 'Konsultation för behandling av perioral dermatit',
 
-      url_label: 'Läs mer om gratis hudkonsultation',
+      url_label: 'Läs mer om gratis hudkonsultation mot perioral dermatit',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
