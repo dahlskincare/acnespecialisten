@@ -215,9 +215,9 @@ $services = array(
             booking_url: "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea",
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka din ansiktsbehandling mot seborré',
-            url: null,
-            url_label: 'Läs mer om ansiktsbehandling mot seborré',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot seborré'
+            url: '/problemhy.php',
+            url_label: 'Läs mer om ansiktsbehanding mot seborré',
+            url_title: 'Läs mer om ansiktsbehanding mot seborré',
       ),
 );
 
