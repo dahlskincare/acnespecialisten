@@ -547,7 +547,7 @@ $products = array(
             url_title: '',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot torr och känslig hy',
 
             booking_url_label: 'Köp produkter',
