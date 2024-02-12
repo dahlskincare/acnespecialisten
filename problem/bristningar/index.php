@@ -473,7 +473,7 @@ $service = new Service(
       image_title: 'Konsultation för bristningsbehandling',
 
       url_label: 'Läs mer om gratis hudkonsultation mot bristningar',
-      url: 'gratis-hudkonsultation.php',
+      url: '/gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation mot bristningar',
 
       consultation_url_label: 'Boka konsultation',
@@ -500,9 +500,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling mot bristningar',
             image_title: 'Laserbehandling mot bristningar',
 
-            url_label: '',
-            url: '',
-            url_title: '',
+            url_label: 'Läs mer om laser mot bristningar',
+            url: '/behandlingar/laser-mot-hudproblem/',
+            url_title: 'Läs mer om laser mot bristningar',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
@@ -523,9 +523,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling mot bristningar',
             image_title: 'Kemisk peeling mot bristningar',
 
-            url_label: '',
-            url: '',
-            url_title: '',
+            url_label: 'Läs mer om kemisk peeling mot bristningar',
+            url: '/kemisk-peeling.php',
+            url_title: 'Läs mer om kemisk peeling mot bristningar',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
             consultation_url_label: 'Boka konsultation',
@@ -546,9 +546,9 @@ $services = array(
             image_alt: 'Bild av microneedling mot bristningar',
             image_title: 'Microneedling mot bristningar',
 
-            url_label: '',
-            url: '',
-            url_title: '',
+            url_label: 'Läs mer om microneedling mot bristningar',
+            url: '/microneedling.php',
+            url_title: 'Läs mer om microneedling mot bristningar',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
