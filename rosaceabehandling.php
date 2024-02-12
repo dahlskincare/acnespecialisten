@@ -45,6 +45,10 @@ $about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt
 
 $headline01 = "01. Identifiera din rosacea";
 
+$define_image = '';
+$define_image_alt = 'Hur vi tar bort och behandlar rosacea?';
+$define_image_title = 'Hur vi tar bort och behandlar rosacea?';
+
 $define_content = '<p class="p200">Första steget i vår process att behandla rosacea är att kartlägga din typ av rosacea. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
@@ -503,7 +507,6 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
