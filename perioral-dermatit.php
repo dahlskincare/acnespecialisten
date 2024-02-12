@@ -463,17 +463,17 @@ $products = array(
             image_alt: 'Bild av produkter designade för behandling av perioral dermatit',
             image_title: 'Effektiva produkter för lindring och förebyggande av perioral dermatit',
 
-            url_label: 'Läs mer om produkter mot perioral dermatit',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
-            url_title: 'Klicka här för att läsa mer om produkter mot perioral dermatit',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot perioral dermatit',
 
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
+            booking_url_title: 'Klicka för att köpa produktpaket mot perioral dermatit',
       )
 );
 
