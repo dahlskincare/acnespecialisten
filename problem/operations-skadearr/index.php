@@ -249,9 +249,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för ärrbehandling',
       image_title: 'Konsultation för ärrbehandling',
 
-      url_label: 'Läs mer om gratis hudkonsultation mot bristningar',
+      url_label: 'Läs mer om gratis hudkonsultation mot ärr',
       url: '/gratis-hudkonsultation.php',
-      url_title: 'Läs mer om gratis hudkonsultation mot bristningar',
+      url_title: 'Läs mer om gratis hudkonsultation mot ärr',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
