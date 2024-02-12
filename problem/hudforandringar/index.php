@@ -300,9 +300,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för hudförändringsbehandling',
       image_title: 'Konsultation för behandling av hudförändringar',
 
-      url_label: '',
-      url: '',
-      url_title: '',
+      url_label: 'Läs mer om konsultation mot hudförändringar',
+      url: '/gratis-hudkonsultation.php',
+      url_title: 'Läs mer om konsultation mot hudförändringar',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
@@ -327,9 +327,9 @@ $services = array(
             image_alt: 'Bild av en Cryopen behandling',
             image_title: 'Behandling av hudförändringar med Cryopen',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/cryopen.php',
+            url_label: 'Läs mer om CryoPen mot hudförändringar',
+            url_title: 'Läs mer om CryoPen mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
