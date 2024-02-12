@@ -253,8 +253,8 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för blandhy',
       image_title: 'Konsultation för blandhy',
 
-      url_label: '/gratis-hudkonsultation.php',
-      url: 'Läs mer om gratis hudkonsultation mot blandhy',
+      url_label: 'Läs mer om gratis hudkonsultation mot blandhy',
+      url: '/gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation mot blandhy',
 
       consultation_url_label: 'Boka konsultation',
