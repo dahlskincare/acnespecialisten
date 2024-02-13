@@ -414,7 +414,7 @@ $faq_categories = array(
                   text: '<p class="p200">Det finns ingen specifikt antal behandlingar, då detta beror på behandlingsmetod, din hud och dina ärr. Vi gör en individuell plan och din hudterapeut kommer att guida dig genom processen och ge dig en uppskattning av hur många behandlingar som behövs.</p>'
             ),
             new Question(
-                  title: 'Vilka tekniker används för att behandla olika ärr från finnar?',
+                  title: 'Vilka behandlingsmetoder används för att behandla olika ärr från finnar?',
                   text: '<p class="p200">Beroende på din hud och ärrtyp erbjuder vi olika metoder, inklusive laser, kemisk peeling och microneedling. Vi kommer att rekommendera den bästa metoden för just dig under en kostnadsfri konsultation.</p>'
             ),
             new Question(
