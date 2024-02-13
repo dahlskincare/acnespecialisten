@@ -422,8 +422,8 @@ $faq_categories = array(
                   text: '<p class="p200">Vi gör vårt bästa för att minimera obehag och för våra mest smärtsamma behandlingar erbjuder vi bedövningskräm som appliceras 30 minuter innan behandling så att du inte känner någonting. Eftervården är anpassad till varje individ och du får fullständiga instruktioner för hudvård efter varje behandling.</p>'
             ),
             new Question(
-                  title: 'Vilken tid behöver jag mellan behandlingar? När kommer jag att se förbättringar?',
-                  text: '<p class="p200">Behandlingsintervaller och tiden till synliga resultat varierar beroende på din situation. Din hudterapeut kommer att fastställa en plan inklusive en tidslinje som är anpassad för just dig.</p>'
+                  title: 'Hur lång tid behöver jag mellan behandlingar? När kommer jag att se förbättringar?',
+                  text: '<p class="p200">Behandlingsintervaller och tiden till synliga resultat varierar beroende på metoden och din huds förutsättningar. Din hudterapeut kommer att fastställa en plan inklusive en tidslinje som är anpassad för just dig.</p>'
             ),
       ),
 
