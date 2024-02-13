@@ -30,7 +30,7 @@ $akas = [
       ),
 ];
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels";
 $consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
 
@@ -38,13 +38,13 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels";
 $booking_url_title = "Boka Behandling för Ytliga Blodkärl";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Boka gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka Behandling för Ytliga Blodkärl";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
 
 $floating_booking_url_label = "Boka behandling";
@@ -109,7 +109,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
