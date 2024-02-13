@@ -399,15 +399,15 @@ $faq_categories = array(
       'Allt du behöver veta om ärr av finnar' => array(
             new Question(
                   title: 'Kan jag helt bli fri från ärr som orsakats av finnar?',
-                  text: '<p class="p200">Absolut, ärr som uppstått från finnar kan behandlas. Efter en grundlig analys av din hud sätter vi upp en behandlingsplan som är skräddarsydd för dig. Vi samarbetar tätt för att se till att dina ärr försvinner, även om behandlingstiden kan variera.</p>'
+                  text: '<p class="p200">Absolut, ärr som uppstått från finnar kan behandlas. Efter en grundlig analys av din hud sätter vi upp en behandlingsplan som är skräddarsydd för dig. Vi samarbetar tätt för att se till att dina ärr försvinner.</p>'
             ),
             new Question(
                   title: 'Kommer ärrbildningen från att jag klämt på finnarna?',
-                  text: '<p class="p200">Att klämma på finnar kan bidra, men är inte den enda orsaken till ärrbildning. Ibland beror det på att finnar inte blivit korrekt behandlade. Vi kan identifiera ditt unika fall och arbeta för att förhindra framtida ärr.</p>'
+                  text: '<p class="p200">Att klämma på finnar kan bidra, men är inte den enda orsaken till ärrbildning. Ibland beror det på att finnarna inte blivit korrekt behandlade. Vi kan identifiera ditt unika fall och arbeta för att bli av med befintliga ärr och förhindra framtida ärr.</p>'
             ),
             new Question(
                   title: 'Är det möjligt att ärr som behandlats kommer tillbaka?',
-                  text: '<p class="p200">En gång behandlade ärr kommer inte att återuppstå. Men utan korrekt behandling av finnar, kan nya ärr uppstå. Vårt fokus ligger på både att behandla ärr och förhindra nya finnar.</p>'
+                  text: '<p class="p200">Behandlade ärr kommer inte att komma tillbaka. Men utan korrekt behandling av aktiva finnar, kan nya ärr uppstå. Vårt fokus ligger på att behandla och förebygga både finnar och ärren från finnarna.</p>'
             ),
             new Question(
                   title: 'Hur många sessioner behövs för att radera mina ärr från finnar?',
