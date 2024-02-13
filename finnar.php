@@ -319,7 +319,7 @@ $type_categories = array(
                         image_alt: 'Finnar runt munnen',
                         image_title: 'Exempel på finnar runt munnen',
 
-                        url: '/perioral-dermatit',
+                        url: '/perioral-dermatit.php',
                         url_title: 'Läs mer om finnar runt munnen och möjliga behandlingar'
                   ),
             )

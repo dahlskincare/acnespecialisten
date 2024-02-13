@@ -397,7 +397,7 @@ $type_categories = array(
                         image_alt: 'Akne runt munnen',
                         image_title: 'Exempel på akne runt munnen',
 
-                        url: '/perioral-dermatit',
+                        url: '/perioral-dermatit.php',
                         url_title: 'Läs mer om akne runt munnen och möjliga behandlingar'
                   ),
 
