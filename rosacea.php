@@ -20,7 +20,7 @@ $description = 'Här förklarar vi vad som kännetecknar rosacea, varför proble
 
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för Rosacea";
 
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea";
