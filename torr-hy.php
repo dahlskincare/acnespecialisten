@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/torr-kanslig-hy.webp';
 $image_large = 'bilder/problem/424x456/torr-kanslig-hy.webp';
 $image_title = 'Visar en hy som är torr och känslig';
 $image_alt = 'Bild som illustrerar hur torr och känslig hy ser ut';
-$description = 'Torr och känslig hy är benägen för irritation, rodnad och skalning. Vi diskuterar de underliggande orsakerna till torrhet och känslighet samt hur denna hudtyp kan bäst hanteras.';
+$description = 'Torr och känslig hy är benägen att rodna med irritation och flagnande hy. Vi diskuterar de underliggande orsakerna till torrhet och känslighet samt hur denna hudtyp kan bäst hanteras.';
 
 $akas = [
       new Link(

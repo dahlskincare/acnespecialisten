@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/seborre.webp';
 $image_large = 'bilder/problem/424x456/seborre.webp';
 $image_title = 'Visar en hud med seborré';
 $image_alt = 'Bild som illustrerar hur seborré ser ut på huden';
-$description = 'Seborré, eller seborroiskt eksem, är en hudåkomma som orsakar fet, skalig hud. Här diskuterar vi de områden som oftast påverkas, vad som utlöser tillståndet och dess relation till hudens oljeproduktion.';
+$description = 'Seborré, eller seborroiskt eksem, är en hudåkomma som orsakar fet hy som flagnar. Här diskuterar vi de områden som oftast påverkas, vad som utlöser tillståndet och dess relation till hudens talgproduktion.';
 
 $akas = [
       new Link(

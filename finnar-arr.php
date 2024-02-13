@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/arr-fran-finnar.webp';
 $image_large = 'bilder/problem/424x456/arr-fran-finnar.webp';
 $image_title = 'Visar en hud med ärr från finnar';
 $image_alt = 'Närbild på ärr från finnar  i ansiktet';
-$description = 'Ärr från finnar uppstår när djup inflammation skadar kollagen i huden. Vi tillhandahåller information om hur dessa ärr utvecklas och påverkar hudens struktur och utseende.';
+$description = 'Ärr efter finnar bildas när inflammationen skadar hudens kollagen, vilket påverkar både struktur och utseende. Här förklarar vi processen bakom ärrbildning och presenterar behandlingsmetoder för att förbättra hudens textur.';
 
 $akas = [
       new Link(

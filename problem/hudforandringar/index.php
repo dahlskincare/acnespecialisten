@@ -23,7 +23,7 @@ $image_small = 'bilder/problem/424x324/hudforandringar.webp';
 $image_large = 'bilder/problem/424x456/hudforandringar.webp';
 $image_title = 'Olika typer av hudförändringar';
 $image_alt = 'Bild som illustrerar olika typer av hudförändringar';
-$description = 'Hudförändringar kan inkludera ett brett spektrum av tillstånd, från åldersfläckar till moles och hudtaggar. Vi ger en överblick över de vanligaste typerna av hudförändringar och vad de indikerar om hudhälsan.';
+$description = 'Hudförändringar kan inkludera ett brett spektrum av tillstånd, från födelsermäken och leverfläckar till hudflikar. Vi ger en överblick över de vanligaste typerna av hudförändringar och vad de beror på.';
 
 $akas = [
       new Link(

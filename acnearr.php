@@ -15,8 +15,7 @@ $image_small = 'bilder/problem/424x324/aknearr.webp';
 $image_large = 'bilder/problem/424x456/aknearr.webp';
 $image_title = 'Visar en hud med acneärr';
 $image_alt = 'Närbild på ett ansikte som har acneärr';
-$description = 'Akneärr är permanenta texturförändringar i huden som uppstår efter att akne läkt. Här förklarar vi hur akneärr bildas, olika typer av ärr och vilka faktorer som påverkar ärrbildningen.';
-
+$description = 'Akneärr är permanenta texturförändringar i huden som uppstår efter att akne. Här förklarar vi hur akneärr bildas, olika typer av ärr och vilka faktorer som påverkar ärrbildningen.';
 
 $akas = [
       new Link(

@@ -24,7 +24,7 @@ $image_small = 'bilder/problem/424x324/operations-skadearr.webp';
 $image_large = 'bilder/problem/424x456/operations-skadearr.webp';
 $image_title = 'Visar en hud med operations- och skadeärr';
 $image_alt = 'Bild som illustrerar hur operations- och skadeärr ser ut på huden';
-$description = 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Vi tillhandahåller detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.';
+$description = 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Här hittar du detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.';
 
 $akas = [
       new Link(

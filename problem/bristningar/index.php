@@ -24,7 +24,7 @@ $image_small = 'bilder/problem/424x324/bristningar.webp';
 $image_large = 'bilder/problem/424x456/bristningar.webp';
 $image_title = 'Visar en hud med bristningar';
 $image_alt = 'Bild som illustrerar hur bristningar ser ut på huden';
-$description = 'Bristningar, eller striae, är linjer på huden som uppstår när huden tänjs ut snabbt. På den här sidan förklarar vi varför bristningar bildas och vilka faktorer som kan påverka deras utveckling.';
+$description = 'Bristningar är linjer på huden som uppstår när huden tänjs ut snabbt. På den här sidan förklarar vi varför bristningar bildas och vilka faktorer som kan påverka deras utveckling.';
 
 $akas = [
       new Link(

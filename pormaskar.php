@@ -16,7 +16,7 @@ $image_large = 'bilder/problem/424x456/pormaskar.webp';
 $image_title = 'Visar en hud med pormaskar';
 $image_alt = 'Bild som illustrerar hur pormaskar ser ut på huden';
 
-$description = 'Pormaskar bildas när porer täpps till av sebum och döda hudceller. Denna sida utforskar de två huvudtyperna av pormaskar (öppna och stängda), deras orsaker och hur de påverkar hudhälsan.';
+$description = 'Pormaskar bildas när porer täpps till av talg och döda hudceller. Denna sida utforskar de två huvudtyperna av pormaskar (öppna och stängda), deras orsaker och hur de påverkar hudhälsan.';
 
 $akas = [
       new Link(

@@ -11,7 +11,7 @@ $seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pi
 
 $title = 'Pigmentfläckar';
 
-$description = 'Pigmentfläckar, såsom åldersfläckar och melasma, uppstår på grund av överproduktion av melanin. Vi förklarar de olika typerna av hyperpigmentering och deras underliggande orsaker.';
+$description = 'Pigmentfläckar, som åldersfläckar eller melasma, uppstår från ojämn melaninproduktion. Denna sida utforskar de underliggande orsakerna och ger en översikt över behandlingsalternativ för att jämna ut hudtonen.';
 
 $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
 $image_large = 'bilder/problem/424x456/pigmentflackar.webp';
