@@ -429,7 +429,6 @@ $faq_categories = array(
 
 );
 
-
 $faq_url_label = "Läs fler frågor & svar";
 $faq_url_title = "läs flera frågor relaterat till ärr";
 
