@@ -24,7 +24,7 @@ $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
 $image_title = 'Akne';
 $image_alt = 'Närbild på ett ansikte som har akne';
-$description = 'Välkommen till vår sida om akne, en hudåkomma som påverkar människor i alla åldrar. Här utforskar vi orsakerna bakom akne och delar med oss av effektiva behandlingsmetoder för att hantera utbrott och främja en klarare hud.';
+$description = 'Akne är en hudsjukdom som kännetecknas av tilltäppta porer, pormaskar, och inflammerade bölder. På denna sida djupdyker vi i orsakerna, typerna och hudens fysiologi relaterad till akne för att ge en grundlig förståelse av tillståndet.';
 
 $akas = [
       new Link(

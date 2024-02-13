@@ -22,7 +22,7 @@ $image_small = 'bilder/problem/424x324/oonskat-har.webp';
 $image_large = 'bilder/problem/424x456/oonskat-har.webp';
 $image_title = 'Visar en hud med oönskat hår';
 $image_alt = 'Bild som illustrerar hur oönskat hår ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar oönskat hår, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av oönskat hår, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Oönskat hår kan påverka olika delar av kroppen och ansiktet. Denna sida utforskar de underliggande orsakerna till oönskad hårväxt och de olika metoder som finns tillgängliga för hårborttagning.';
 
 $consultation_url_label = "Få gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval";

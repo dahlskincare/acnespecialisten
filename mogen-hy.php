@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/mogen-hy.webp';
 $image_large = 'bilder/problem/424x456/mogen-hy.webp';
 $image_title = 'Visar en hud med tecken på åldrande';
 $image_alt = 'Bild som illustrerar hur mogen hy ser ut';
-$description = 'Här förklarar vi vad som kännetecknar mogen hy, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika tecken på åldrande, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Mogen hy visar tecken på åldrande såsom rynkor, slapphet och torrhet. Denna sida fokuserar på att förstå de biologiska processerna bakom hudens åldrande och hur de påverkar hudens utseende och känsla.';
 
 $akas = [
       new Link(

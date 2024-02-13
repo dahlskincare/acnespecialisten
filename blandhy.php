@@ -13,7 +13,7 @@ $seo_image = 'bilder/problem/424x456/blandhy.webp';
 
 $title = 'Blandhy';
 
-$description = 'Här går vi igenom blandhys särskilda utmaningar, där huden kan vara både torr och oljig på olika ställen. Läs om varför blandhy uppstår och hur våra expertlösningar kan ge dig konkreta resultat. Vi är fokuserade på att erbjuda dig effektiva behandlingar för en problemfri hud.';
+$description = 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. På den här sidan diskuterar vi de utmaningar och skötselstrategier som är associerade med denna hudtyp.';
 
 $image_small = 'bilder/problem/424x324/blandhy.webp';
 $image_large = 'bilder/problem/424x456/blandhy.webp';

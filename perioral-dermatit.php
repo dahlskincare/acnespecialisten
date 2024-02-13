@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/perioral-dermatit.webp';
 $image_large = 'bilder/problem/424x456/perioral-dermatit.webp';
 $image_title = 'Visar en hud med perioral dermatit';
 $image_alt = 'Bild som illustrerar hur perioral dermatit ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar perioral dermatit, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av perioral dermatit, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Perioral dermatit är en inflammatorisk hudsjukdom som framträder som utslag runt munnen. Denna sida går igenom symptomen, potentiella orsaker och hur tillståndet skiljer sig från andra hudsjukdomar.';
 
 $akas = [
       new Link(

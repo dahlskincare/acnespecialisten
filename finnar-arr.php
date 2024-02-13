@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/arr-fran-finnar.webp';
 $image_large = 'bilder/problem/424x456/arr-fran-finnar.webp';
 $image_title = 'Visar en hud med ärr från finnar';
 $image_alt = 'Närbild på ärr från finnar  i ansiktet';
-$description = 'Har du problem med ärr som uppstått från finnar? Vi förstår frustrationen och vill hjälpa dig. Här förklarar vi vad som kännetecknar dessa ärr, hur de kan uppstå, och hur Acnespecialisten kan stödja dig i en personligt anpassad behandlingsprocess. Vårt mål är att återställa din huds släthet och utseende. Tveka inte att boka en tid hos oss för en individuell konsultation och ta steget mot en klarare och friskare hud.';
+$description = 'Ärr från finnar uppstår när djup inflammation skadar kollagen i huden. Vi tillhandahåller information om hur dessa ärr utvecklas och påverkar hudens struktur och utseende.';
 
 $akas = [
       new Link(

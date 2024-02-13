@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/finnar.webp';
 $image_large = 'bilder/problem/424x456/finnar.webp';
 $image_title = 'Visar en hud med finnar';
 $image_alt = 'Bild som illustrerar hur finnar kan se ut på huden';
-$description = 'Finnar är inte bara ett tonårsproblem, utan något som kan påverka oss i alla åldrar. Här går vi igenom vad som orsakar finnar och hur du kan behandla dem för att uppnå en renare och mer strålande hud.';
+$description = 'Finnar, eller pustler, är en typ av akne som visar sig som röda, inflammerade knölar med en vit topp. Denna sida fokuserar på att förklara vad finnar är, varför de uppstår och hur de skiljer sig från andra hudutslag.';
 
 $akas = [
       new Link(

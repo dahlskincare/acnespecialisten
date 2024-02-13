@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/milier.webp';
 $image_large = 'bilder/problem/424x456/milier.webp';
 $image_title = 'Visar en hud med milier';
 $image_alt = 'Bild som illustrerar hur milier ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar milier, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av milier, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Milier är små, vita cystor som är vanliga hos både nyfödda och vuxna. På denna sida utforskar vi hur milier bildas, deras placering på huden och skillnaden mellan milier och andra små hudlesioner.';
 
 
 $akas = [

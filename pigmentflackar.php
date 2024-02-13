@@ -11,7 +11,7 @@ $seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pi
 
 $title = 'Pigmentfläckar';
 
-$description = 'Lider du av pigmentfläckar, även kända som pigmentförändringar och hudfläckar? Vi känner till utmaningarna och har lösningen för dig. Lär dig mer om dessa hudfläckar, deras orsaker och hur våra specialiserade terapeuter kan skräddarsy en behandling för just dig. Boka en kostnadsfri konsultation nu och påbörja din väg mot en fläckfri och frisk hud.';
+$description = 'Pigmentfläckar, såsom åldersfläckar och melasma, uppstår på grund av överproduktion av melanin. Vi förklarar de olika typerna av hyperpigmentering och deras underliggande orsaker.';
 
 $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
 $image_large = 'bilder/problem/424x456/pigmentflackar.webp';

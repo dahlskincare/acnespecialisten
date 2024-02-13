@@ -19,7 +19,7 @@ $image_small = 'bilder/problem/424x324/stora-porer.webp';
 $image_large = 'bilder/problem/424x456/stora-porer.webp';
 $image_title = 'Visar en hud med stora porer';
 $image_alt = 'Bild som illustrerar hur stora porer ser ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar stora porer, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom orsakerna bakom vidgade eller förstorade porer och hur vi på Acnespecialisten kan stödja dig i din behandlingsprocess.';
+$description = 'Stora porer är ofta resultatet av genetiska faktorer, åldrande och ökad talgproduktion. Vi tillhandahåller information om faktorer som bidrar till stora porers utseende och hur de relaterar till hudens övergripande struktur.';
 
 $akas = [
       new Link(
