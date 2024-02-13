@@ -43,7 +43,6 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av acneär
 
 $headline01 = "01. Identifiera dina acneärr";
 
-$define_image = 'images/service-categories/large/konsultation.webp';
 $define_image_alt = 'Hur vi behandlar och tar bort acneärr?';
 $define_image_title = 'Hur vi behandlar och tar bort acneärr?';
 
@@ -487,7 +486,6 @@ $brands_url_title = "Varumärken för behandling av acneärr";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
