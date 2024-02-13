@@ -235,7 +235,7 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: '/gratis-hudkonsultation.php',
-      url_label: 'Läs mer om gratis hudkonsultation mot ärr från finnar',
+      url_label: 'Läs mer om konsultation mot ärr från finnar',
       url_title: 'Läs mer om gratis hudkonsultation mot ärr från finnar',
 );
 
