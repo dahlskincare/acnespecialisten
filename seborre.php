@@ -186,7 +186,7 @@ $service = new Service(
       image_alt: 'Seborré Konsultation',
       image_title: 'Seborré Konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
-      consultation_url_label: 'Boka din gratis seborré konsultation nu',
+      consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Boka din gratis seborré konsultation nu',
       booking_url: null,
       booking_url_label: null,

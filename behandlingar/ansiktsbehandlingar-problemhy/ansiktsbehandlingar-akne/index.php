@@ -100,7 +100,7 @@ $treatment_areas = array(
         description: null,
         items: array(
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansiktsbehandling mot akne i ansiktet',
                 image_title: 'Ansiktsbehandling mot akne i ansiktet',
                 title: 'Ansikte',
@@ -111,7 +111,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling mot akne'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/brost.webp',
                 image_alt: 'Behandling mot akne på bröstet',
                 image_title: 'Behandling mot akne på bröstet',
                 title: 'Bröst',
@@ -122,7 +122,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling mot akne på bröstet'
             ),
             new TreatmentAreaItem(
-                image: 'https://via.placeholder.com/102x102.webm',
+                image: '/bilder/omraden/92x92/rygg.webp',
                 image_alt: 'Behandling mot akne på ryggen',
                 image_title: 'Behandling mot akne på ryggen',
                 title: 'Rygg',
