@@ -658,6 +658,14 @@ $brands = array(
             url_title: 'Alma Rejuve Dye-VL',
       ),
       new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_alt: 'Harmony XL Pro logotyp',
+            image_title: 'Alma Harmony XL Pro',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Harmony XL Pro',
+      ),
+      new Brand(
             label: 'Powerlite Photonova',
             image: 'bilder/logotyper/powerlite-photonova.svg',
             image_alt: 'Powerlite Photonova logotyp',
