@@ -45,7 +45,7 @@ $specialists = array(
     ),
     new Specialist(
         name: 'Sally Johansson',
-        title: 'Hudterapeut sedan 2022',
+        title: 'Hudterapeut sedan 2020',
         image: '/images/specialists/large/hudterapeut-sally.webp',
         image_alt: 'Porträttbild på hudterapeuten Sally Johansson',
         image_title: 'Hudterapeut Sally Johansson',
@@ -58,7 +58,7 @@ $specialists = array(
     ),
     new Specialist(
         name: 'Ulrika Bill',
-        title: 'Hudterapeut sedan 2022',
+        title: 'Hudterapeut sedan 2023',
         image: '/images/specialists/large/hudterapeut-bild-saknas.jpg',
         image_alt: 'Porträttbild på hudterapeuten Ulrika Bill',
         image_title: 'Hudterapeut Ulrika Bill',
@@ -71,7 +71,7 @@ $specialists = array(
     ),
     new Specialist(
         name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 2010',
+        title: 'Hudterapeut sedan 1995',
         image: '/images/specialists/large/hudterapeut-veronika.webp',
         image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
         image_title: 'Hudterapeut Veronika Benedik',
@@ -123,7 +123,7 @@ $specialists = array(
     ),
     new Specialist(
         name: 'Georgina Youkhana',
-        title: 'Hudterapeut sedan 2023',
+        title: 'Hudterapeut sedan 2022',
         image: '/images/specialists/large/hudterapeut-bild-saknas.jpg',
         image_alt: 'Porträttbild på hudterapeuten Georgina Youkhana',
         image_title: 'Hudterapeut Georgina Youkhana',
