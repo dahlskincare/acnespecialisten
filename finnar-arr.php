@@ -410,8 +410,8 @@ $faq_categories = array(
                   text: '<p class="p200">Behandlade ärr kommer inte att komma tillbaka. Men utan korrekt behandling av aktiva finnar, kan nya ärr uppstå. Vårt fokus ligger på att behandla och förebygga både finnar och ärren från finnarna.</p>'
             ),
             new Question(
-                  title: 'Hur många sessioner behövs för att radera mina ärr från finnar?',
-                  text: '<p class="p200">Det finns ingen standardmängd sessioner, då detta beror på din hud och dina ärr. Vi gör en individuell plan och din hudterapeut kommer att guida dig genom processen och ge dig en uppskattning av hur många behandlingar som behövs.</p>'
+                  title: 'Hur många behandlingar behövs för att radera mina ärr från finnar?',
+                  text: '<p class="p200">Det finns ingen specifikt antal behandlingar, då detta beror på behandlingsmetod, din hud och dina ärr. Vi gör en individuell plan och din hudterapeut kommer att guida dig genom processen och ge dig en uppskattning av hur många behandlingar som behövs.</p>'
             ),
             new Question(
                   title: 'Vilka tekniker används för att behandla olika ärr från finnar?',
@@ -424,7 +424,7 @@ $faq_categories = array(
             new Question(
                   title: 'Vilken tid behöver jag mellan behandlingar? När kommer jag att se förbättringar?',
                   text: '<p class="p200">Behandlingsintervaller och tiden till synliga resultat varierar beroende på din situation. Din hudterapeut kommer att fastställa en plan inklusive en tidslinje som är anpassad för just dig.</p>'
-            )
+            ),
       ),
 
 );

@@ -430,7 +430,7 @@ $faq_categories = array(
             new Question(
                   title: 'Hur länge behöver jag vänta mellan behandlingarna? Och hur snabbt kommer jag se resultat?',
                   text: '<p class="p200">Tiden mellan behandlingarna och hur snabbt du kommer se resultat beror på den specifika metoden som används och din individuella hudtyp. I allmänhet rekommenderar vi en viss tid mellan sessionerna för att din hud ska få tid att läka ordentligt och för att maximera effektiviteten av behandlingen. Din personliga hudterapeut kommer att gå igenom alla detaljer med dig och skapa en skräddarsydd behandlingsplan som passar dina behov, inklusive en tidslinje för när du kan förvänta dig att se synliga förbättringar.</p>'
-            )
+            ),
       ),
 
 );
