@@ -415,11 +415,11 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vilka tekniker används för att behandla olika ärr från finnar?',
-                  text: '<p class="p200">Beroende på din hud och ärrtyp erbjuder vi olika metoder, inklusive laser, peeling och microneedling. Vi kommer att rekommendera den bästa metoden för just dig under en kostnadsfri konsultation.</p>'
+                  text: '<p class="p200">Beroende på din hud och ärrtyp erbjuder vi olika metoder, inklusive laser, kemisk peeling och microneedling. Vi kommer att rekommendera den bästa metoden för just dig under en kostnadsfri konsultation.</p>'
             ),
             new Question(
                   title: 'Är det smärtsamt att behandla ärr från finnar? Hur ser eftervård ut?',
-                  text: '<p class="p200">Vi gör vårt bästa för att minimera obehag. Eftervården är anpassad till varje individ och du får fullständiga instruktioner för hudvård efter varje behandling.</p>'
+                  text: '<p class="p200">Vi gör vårt bästa för att minimera obehag. För våra mest smärtsamma behandlingar erbjuder vi en bedövningskräms så att du inte känner något. Eftervården är anpassad till varje individ och du får fullständiga instruktioner för hudvård efter varje behandling.</p>'
             ),
             new Question(
                   title: 'Vilken tid behöver jag mellan behandlingar? När kommer jag att se förbättringar?',
