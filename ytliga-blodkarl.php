@@ -521,20 +521,7 @@ $faq_categories = array(
                   text: '<p class="p200">Absolut, livsstilsval kan faktiskt förvärra problemet med ytliga blodkärl. En ohälsosam diet kan leda till viktökning och dålig cirkulation, vilket i sin tur kan förvärra ytliga blodkärl. Å andra sidan kan en balanserad diet och regelbunden motion förbättra blodflödet och potentiellt minska uppkomsten eller svårighetsgraden av ytliga blodkärl. Motion hjälper till att stärka och tonifiera blodkärlen, vilket gör dem mindre sannolika att bli ytliga eller skadade.</p>'
             ),
       ),
-      'Behandling mot ytliga blodkärl' => array(
-            new Question(
-                  title: 'Hur behandlas ytliga blodkärl?',
-                  text: '<p class="p200">Ytliga blodkärl behandlas med hjälp av intensivt pulserat ljus, eller IPL. Denna teknologi fungerar genom att sända ut en serie av ljuspulser över en rad olika våglängder som absorberas av de röda blodkärlen. Värmen från ljuset får blodkärlen att koagulera och brytas ner, vilket resulterar i att de gradvis försvinner eller blir mindre framträdande. Eftersom IPL använder en bredare våglängd jämfört med laserterapi, kan det vara mer anpassningsbart och användbart för att behandla olika typer av ytliga blodkärl. IPL betraktas som en icke-invasiv behandlingsform och har därför kortare återhämtningstid jämfört med kirurgiska alternativ.</p>'
-            ),
-            new Question(
-                  title: 'Hur kan jag förhindra att ytliga blodkärl återkommer efter en behandling?',
-                  text: '<p class="p200">Även om det inte finns något sätt att garantera att ytliga blodkärl inte kommer tillbaka, finns det förebyggande åtgärder du kan vidta. Detta inkluderar att använda solskydd, undvika extrem värme och kyla, och att hålla huden väl återfuktad. Det är också viktigt att vara uppmärksam på eventuella triggers, som alkohol eller koffein, som kan orsaka utvidgning av blodkärlen och därmed förvärra problemet.</p>'
-            ),
-            new Question(
-                  title: 'Kan jag behandla ytliga blodkärl med hemmabehandlingar?',
-                  text: '<p class="p200">Tyvärr saknas en effektiv hemmabehandling för att behandla ytliga blodkärl. Orsaken är att kärlen ligger under hudytan dit hemmavårdsprodukter inte når utan att potentiellt skada huden. Det är alltid bäst att konsultera en hudterapeut för att diskutera dina behandlingsalternativ och för att säkerställa att du får en behandling som är både effektiv och säker för din hudtyp.</p>'
-            ),
-      ),
+      
 );
 
 $faq_url_label = "Läs fler frågor & svar";
@@ -564,8 +551,6 @@ $skin_guide_articles = array(
 
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
-
-
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -639,60 +624,28 @@ $related_problems = array(
 );
 $brands = array(
       new Brand(
+            label: 'Alma Rejuve Dye-VL',
+            image: 'bilder/logotyper/rejuve-dye-vl.svg',
+            image_alt: 'Alma Rejuve Dye-VL logotyp',
+            image_title: 'Alma Rejuve Dye-VL - IPL',
+            url: '/varumarken/alma/rejuve-dye-vl',
+            url_title: 'Alma Rejuve Dye-VL',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_alt: 'Harmony XL Pro logotyp',
+            image_title: 'Alma Harmony XL Pro',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Harmony XL Pro',
+      ),
+      new Brand(
             label: 'Powerlite Photonova',
             image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'bilder/logotyper/dermapen.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
-            url: 'dermapen.php',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'bilder/logotyper/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'bilder/logotyper/infuzion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+            image_alt: 'Powerlite Photonova logotyp',
+            image_title: 'Powerlite Photonova - IPL',
+            url: '/varumarken/powerlite-photonova',
+            url_title: 'Powerlite Photonova',
       ),
 );
 

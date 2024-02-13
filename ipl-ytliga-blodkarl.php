@@ -731,7 +731,24 @@ $all_brands = array(
                 </section>
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    <?php $faq_categories = array(
+                        'Behandling mot ytliga blodkärl' => array(
+                            new Question(
+                                  title: 'Hur behandlas ytliga blodkärl?',
+                                  text: '<p class="p200">Ytliga blodkärl behandlas med hjälp av intensivt pulserat ljus, eller IPL. Denna teknologi fungerar genom att sända ut en serie av ljuspulser över en rad olika våglängder som absorberas av de röda blodkärlen. Värmen från ljuset får blodkärlen att koagulera och brytas ner, vilket resulterar i att de gradvis försvinner eller blir mindre framträdande. Eftersom IPL använder en bredare våglängd jämfört med laserterapi, kan det vara mer anpassningsbart och användbart för att behandla olika typer av ytliga blodkärl. IPL betraktas som en icke-invasiv behandlingsform och har därför kortare återhämtningstid jämfört med kirurgiska alternativ.</p>'
+                            ),
+                            new Question(
+                                  title: 'Hur kan jag förhindra att ytliga blodkärl återkommer efter en behandling?',
+                                  text: '<p class="p200">Även om det inte finns något sätt att garantera att ytliga blodkärl inte kommer tillbaka, finns det förebyggande åtgärder du kan vidta. Detta inkluderar att använda solskydd, undvika extrem värme och kyla, och att hålla huden väl återfuktad. Det är också viktigt att vara uppmärksam på eventuella triggers, som alkohol eller koffein, som kan orsaka utvidgning av blodkärlen och därmed förvärra problemet.</p>'
+                            ),
+                            new Question(
+                                  title: 'Kan jag behandla ytliga blodkärl med hemmabehandlingar?',
+                                  text: '<p class="p200">Tyvärr saknas en effektiv hemmabehandling för att behandla ytliga blodkärl. Orsaken är att kärlen ligger under hudytan dit hemmavårdsprodukter inte når utan att potentiellt skada huden. Det är alltid bäst att konsultera en hudterapeut för att diskutera dina behandlingsalternativ och för att säkerställa att du får en behandling som är både effektiv och säker för din hudtyp.</p>'
+                            ),
+                      ),
+
+                  );
+                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
                 <!--Hudguide-->
