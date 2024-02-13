@@ -561,7 +561,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('../../widgets/product-card/product-card.php');
+                            include('/problem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>
