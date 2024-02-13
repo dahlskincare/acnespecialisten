@@ -521,7 +521,6 @@ $faq_categories = array(
                   text: '<p class="p200">Absolut, livsstilsval kan faktiskt förvärra problemet med ytliga blodkärl. En ohälsosam diet kan leda till viktökning och dålig cirkulation, vilket i sin tur kan förvärra ytliga blodkärl. Å andra sidan kan en balanserad diet och regelbunden motion förbättra blodflödet och potentiellt minska uppkomsten eller svårighetsgraden av ytliga blodkärl. Motion hjälper till att stärka och tonifiera blodkärlen, vilket gör dem mindre sannolika att bli ytliga eller skadade.</p>'
             ),
       ),
-      
 );
 
 $faq_url_label = "Läs fler frågor & svar";
