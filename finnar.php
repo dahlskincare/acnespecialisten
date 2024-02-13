@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/finnar.webp';
 $image_large = 'bilder/problem/424x456/finnar.webp';
 $image_title = 'Visar en hud med finnar';
 $image_alt = 'Bild som illustrerar hur finnar kan se ut på huden';
-$description = 'Här förklarar vi vad som kännetecknar finnar, varför dessa irriterande hudutslag uppstår, och hur vi kan hjälpa dig med effektiv behandling. Vi går även igenom de vanligaste orsakerna bakom finnar, inklusive hormonella förändringar och stress, samt hur vi kan stödja dig i din behandlingsprocess för att uppnå en klarare och friskare hud.';
+$description = 'Finnar är inte bara ett tonårsproblem, utan något som kan påverka oss i alla åldrar. Här går vi igenom vad som orsakar finnar och hur du kan behandla dem för att uppnå en renare och mer strålande hud.';
 
 $akas = [
       new Link(

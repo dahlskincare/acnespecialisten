@@ -15,7 +15,7 @@ $image_small = 'bilder/problem/424x324/aknearr.webp';
 $image_large = 'bilder/problem/424x456/aknearr.webp';
 $image_title = 'Visar en hud med acneärr';
 $image_alt = 'Närbild på ett ansikte som har acneärr';
-$description = 'Här förklarar vi vad som kännetecknar acneärr, hur dessa ärr kan uppstå efter aktiv akne och hur vi kan hjälpa dig med behandling för att ta bort dem. Vi går även igenom hur vi identifierar olika typer av acneärr, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess för att återställa hudens släthet och utseende.';
+$description = 'Akneärr kan påverka självkänslan lika mycket som aknen själv. Vår sida dedikeras åt att förstå hur akneärr uppstår och erbjuder lösningar för att minska synligheten av dessa ärr och återställa hudens släthet.';
 
 
 $akas = [

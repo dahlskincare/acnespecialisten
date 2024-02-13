@@ -24,7 +24,7 @@ $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
 $image_title = 'Akne';
 $image_alt = 'Närbild på ett ansikte som har akne';
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
+$description = 'Välkommen till vår sida om akne, en hudåkomma som påverkar människor i alla åldrar. Här utforskar vi orsakerna bakom akne och delar med oss av effektiva behandlingsmetoder för att hantera utbrott och främja en klarare hud.';
 
 $akas = [
       new Link(
