@@ -589,7 +589,7 @@ $faq_categories = array(
             ),
 
       ),
-      'Behandling mot akne' => array(
+      'Behandling mot pormaskar' => array(
             new Question(
                   title: 'Vilka är de mest effektiva behandlingarna för pormaskar?',
                   text: '<p class="p200">De mest effektiva behandlingarna för att ta hand om pormaskar kan variera från person till person, men det finns flera allmänt erkända metoder som har visat sig vara effektiva. Hudvårdsprodukter i kombination med portömning utförd av kvalificerade hudterapeuter behandlar effektivt pormaskar. Detta är en omedelbar lösning och resultat kan ses direkt efter behandlingen, även om uppföljande behandlingar ofta är nödvändiga för långsiktiga resultat.</p>'
