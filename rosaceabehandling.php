@@ -131,9 +131,6 @@ $products = array(
 
 $headline04 = '04. Behandla Ytliga Blodkärl';
 
-$repair_image_small = null;
-$repair_image_large = null;
-
 $repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På Acnespecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
 $repair_url = 'ipl-ytliga-blodkarl.php';
@@ -142,71 +139,71 @@ $repair_url_title = 'Klicka här för att se våra behandlingar för ytliga blod
 
 
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '3 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '2 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
-            treatment: new ResultTreatment(
-                  duration: '4 månader',
-            )
-      ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_alt: 'Akne resultat',
+        image_title: 'Akne resultat',
+        treatment: new ResultTreatment(
+            duration: '3 månader',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_alt: 'Akne resultat',
+        image_title: 'Akne resultat',
+        treatment: new ResultTreatment(
+            duration: '2 månader',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_alt: 'Rosacea resultat',
+        image_title: 'Rosacea resultat',
+        treatment: new ResultTreatment(
+            duration: '4 månader',
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat mot rosacea";
 $show_all_results_title = "Se resultat";
 
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 
@@ -324,62 +321,62 @@ $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 
 $brands = array(
-      new Brand(
-            label: 'Powerlite Photonova',
-            image: 'images/brands/powerlite.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'images/brands/dermapen4.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
-            url: 'dermapen.php',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'CryoPen',
-            image: 'images/brands/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'images/brands/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'images/brands/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'images/brands/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'images/brands/ipinfusion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
-      ),
+    new Brand(
+        label: 'Powerlite Photonova',
+        image: 'images/brands/powerlite.svg',
+        image_alt: 'Powerlite Brand Logo',
+        image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
+        url: 'varumarken/powerlite-photonova',
+        url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+    ),
+    new Brand(
+        label: 'Dermapen',
+        image: 'images/brands/dermapen4.svg',
+        image_alt: 'Dermapen Brand Logo',
+        image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+        url: 'dermapen.php',
+        url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+    ),
+    new Brand(
+        label: 'CryoPen',
+        image: 'images/brands/cryopen.svg',
+        image_alt: 'CryoPen Brand Logo',
+        image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
+        url: 'cryopen.php',
+        url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'images/brands/alma.svg',
+        image_alt: 'Alma Brand Logo',
+        image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+        url: 'varumarken/alma',
+        url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+    ),
+    new Brand(
+        label: 'PRX-T33',
+        image: 'images/brands/prx-t33.svg',
+        image_alt: 'PRX-T33 Brand Logo',
+        image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
+        url: 'prx-t33.php',
+        url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
+    ),
+    new Brand(
+        label: 'Hydrafacial',
+        image: 'images/brands/hydrafacial.svg',
+        image_alt: 'Hydrafacial Brand Logo',
+        image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
+        url: 'hydrafacial.php',
+        url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
+    ),
+    new Brand(
+        label: 'Infuzion',
+        image: 'images/brands/ipinfusion.svg',
+        image_alt: 'Infuzion Brand Logo',
+        image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
+        url: 'infuzion.php',
+        url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+    ),
 );
 
 $brands_url_label = "Se alla varumärken";
@@ -529,11 +526,6 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                 <?php } ?>
                 <section id="repair">
                     <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
-                    <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
-                    </picture>
                     <div class="mt-xl"><?php echo $repair_content ?></div>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
@@ -580,29 +572,29 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                     <?php $faq_categories = array(
                         'Behandling mot rosacea' => array(
                             new Question(
-                                  title: 'Vilka är de mest effektiva hudvårdsprodukterna för att lindra symtom på rosacea?',
-                                  text: '<p class="p200">De mest effektiva hudvårdsprodukterna för att lindra rosaceasymptom är ofta de som lugnar huden och minskar inflammation. Dessutom kan produkter med solskyddsfaktor (SPF) hjälpa till att skydda huden mot UV-strålar, vilket kan förvärra rosaceasymptom.</p>'
+                                title: 'Vilka är de mest effektiva hudvårdsprodukterna för att lindra symtom på rosacea?',
+                                text: '<p class="p200">De mest effektiva hudvårdsprodukterna för att lindra rosaceasymptom är ofta de som lugnar huden och minskar inflammation. Dessutom kan produkter med solskyddsfaktor (SPF) hjälpa till att skydda huden mot UV-strålar, vilket kan förvärra rosaceasymptom.</p>'
                             ),
                             new Question(
-                                  title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
-                                  text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>
+                                title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
+                                text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>
 
                                   <p class="p200 mt-m">Hydrerande behandlingar kan hjälpa till att återfukta och stärka hudbarriären, vilket kan minska hudens känslighet. Det är dock viktigt att undvika behandlingar som är för hårda eller irriterande, eftersom de kan förvärra rosaceasymptomen.</p>'
                             ),
                             new Question(
-                                  title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
-                                  text: '<p class="p200">Regelbundna ansiktsbehandlingar kan spela en nyckelroll i hanteringen av rosacea. De kan hjälpa till att hålla huden ren, minska inflammation och rodnad, återfukta huden och stärka hudbarriären. Genom att göra dessa behandlingar till en regelbunden del av din hudvårdsrutin kan du hjälpa till att hålla dina rosaceasymptom under kontroll.</p>'
+                                title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
+                                text: '<p class="p200">Regelbundna ansiktsbehandlingar kan spela en nyckelroll i hanteringen av rosacea. De kan hjälpa till att hålla huden ren, minska inflammation och rodnad, återfukta huden och stärka hudbarriären. Genom att göra dessa behandlingar till en regelbunden del av din hudvårdsrutin kan du hjälpa till att hålla dina rosaceasymptom under kontroll.</p>'
                             ),
                             new Question(
-                                  title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
-                                  text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>
+                                title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
+                                text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>
 
                                   <p class="p200 mt-m">Därefter, applicera en återfuktande kräm för att hjälpa till att återfukta huden och stärka hudbarriären. Slutligen, applicera ett solskyddsmedel med bred spektrum för att skydda huden mot solens strålar. Om du använder ansiktsbehandlingar bör de passa in i denna rutin på ett sätt som passar din hud och dina specifika behov.</p>'
                             ),
                         ),
 
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    );
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                 </section>
                 <!--Hudguide-->
