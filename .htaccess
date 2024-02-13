@@ -9,9 +9,6 @@ RewriteEngine On
 RewriteCond %{REQUEST_URI} /+[^\.]+$
 RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 
-# Redirect to custom 404 page
-ErrorDocument 404 /404.php
-
 # Redirect /book to treatment-booking.minoch.com and capture query parameters
 RewriteRule ^book$ https://treatment-booking.minoch.com [QSA,L,R=307]
 
@@ -359,3 +356,6 @@ RewriteRule ^lp-micro-injector\.php https://www.sverigesskonhetscenter.se/micro-
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*)\.html$ $1.php [R=301,L]
+
+# Redirect to custom 404 page
+ErrorDocument 404 /404.php
