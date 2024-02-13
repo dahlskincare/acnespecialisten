@@ -24,7 +24,7 @@ $image_small = 'bilder/problem/424x324/akne.webp';
 $image_large = 'bilder/problem/424x456/akne.webp';
 $image_title = 'Akne';
 $image_alt = 'Närbild på ett ansikte som har akne';
-$description = 'Akne är en hudsjukdom som kännetecknas av tilltäppta palpler och pustler. På denna sida djupdyker vi ner i orsakerna, typerna och områdena relaterad till akne för att ge en grundlig förståelse av hudtillståndet.';
+$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
 $akas = [
       new Link(
