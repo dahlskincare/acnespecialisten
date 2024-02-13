@@ -5,8 +5,8 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Rosacea - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
-$seo_description = 'Lär dig allt om rosacea, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
+$seo_title = 'Vad är rosacea? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Här hittar du allt om roacea och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, vuxenrosacea, rosacearodnad, kärlutvidgningar, rodnad, inflammation';
 
 $title = 'Rosacea';
@@ -27,13 +27,13 @@ $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Ro
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka rosaceabehandling";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Boka gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Rosacea";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka Rosaceabehandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för Rosacea";
 
 $floating_booking_url_label = "Boka behandling";
@@ -102,13 +102,13 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva rosaceabehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+            content: 'Vi utför skonsamma och effektiva rosaceabehandlingar anpassade för din specifika rosacea.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
@@ -124,12 +124,12 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
             url_label: 'Se IPL-behandlingar',
-            url: 'ipl-rosacea.php',
+            url: '/ipl-rosacea.php',
             url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
 );
-$treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva rosaceabehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
+$treatment_link = '<a href="/rosaceabehandling.php" title="Utforska effektiva rosaceabehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 /*
 $types_title = 'Olika typer av rosacea';
 
@@ -387,7 +387,7 @@ $procedures = array(
             title: 'Reparerar ytliga blodkärl',
             duration: '60 minuter',
             price: 'Pris från 1595 kr',
-            content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl. Klicka här för att läsa mer om hur du kan behandla din rosacea med IPL.',
+            content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Behandla rosacea med IPL',
@@ -532,28 +532,6 @@ $faq_categories = array(
                   text: '<p class="p200">Ja, vissa individer med rosacea har rapporterat att vissa livsmedel och drycker, som alkohol och kryddstark mat, kan förvärra deras symptom. Undvikande av extrem hetta och kyla samt stark sol kan också vara gynnsamt, då dessa faktorer ofta kan förvärra rosacea. Stresshantering är ytterligare en faktor att ta hänsyn till vid hantering av rosacea.</p>
 
                         <p class="p200 mt-m">Men vi på AcneSpecialisten förstår att det kan vara en stor utmaning att konstant justera din livsstil för att hantera din rosacea. Vi är här för att hjälpa. Genom att erbjuda effektiva behandlingar mot rosacea strävar vi efter att du ska kunna leva ditt liv som du vill, utan att behöva oroa dig för dina symptom. Ta gärna kontakt med oss för mer information om hur vi kan hjälpa dig att hantera din rosacea.</p>'
-            ),
-      ),
-      'Behandling mot rosacea' => array(
-            new Question(
-                  title: 'Vilka är de mest effektiva hudvårdsprodukterna för att lindra symtom på rosacea?',
-                  text: '<p class="p200">De mest effektiva hudvårdsprodukterna för att lindra rosaceasymptom är ofta de som lugnar huden och minskar inflammation. Dessutom kan produkter med solskyddsfaktor (SPF) hjälpa till att skydda huden mot UV-strålar, vilket kan förvärra rosaceasymptom.</p>'
-            ),
-            new Question(
-                  title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
-                  text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>
-
-                  <p class="p200 mt-m">Hydrerande behandlingar kan hjälpa till att återfukta och stärka hudbarriären, vilket kan minska hudens känslighet. Det är dock viktigt att undvika behandlingar som är för hårda eller irriterande, eftersom de kan förvärra rosaceasymptomen.</p>'
-            ),
-            new Question(
-                  title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
-                  text: '<p class="p200">Regelbundna ansiktsbehandlingar kan spela en nyckelroll i hanteringen av rosacea. De kan hjälpa till att hålla huden ren, minska inflammation och rodnad, återfukta huden och stärka hudbarriären. Genom att göra dessa behandlingar till en regelbunden del av din hudvårdsrutin kan du hjälpa till att hålla dina rosaceasymptom under kontroll.</p>'
-            ),
-            new Question(
-                  title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
-                  text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>
-
-                  <p class="p200 mt-m">Därefter, applicera en återfuktande kräm för att hjälpa till att återfukta huden och stärka hudbarriären. Slutligen, applicera ett solskyddsmedel med bred spektrum för att skydda huden mot solens strålar. Om du använder ansiktsbehandlingar bör de passa in i denna rutin på ett sätt som passar din hud och dina specifika behov.</p>'
             ),
       ),
 );
