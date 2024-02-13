@@ -247,7 +247,7 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för stora porer',
             image_title: 'Ansiktsbehandling för stora porer',
 
-            url: 'portomning.php',
+            url: '/portomning.php',
             url_label: 'Läs mer om portömning mot stora porer',
             url_title: 'Läs mer om portömning mot stora porer',
 

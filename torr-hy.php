@@ -485,7 +485,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för behandling av torr och känslig hy',
       image_title: 'Konsultation för Torr och Känslig Hy',
 
-      url_label: 'Läs mer om vår konsultation för torr och känslig hy',
+      url_label: 'Läs mer om konsultation mot torr och känslig hy',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för torr och känslig hy',
 
@@ -513,9 +513,9 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för torr och känslig hy',
             image_title: 'Ansiktsbehandling för torr och känslig hy',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: 'problemhy.php',
+            url_label: 'Läs mer om ansiktsbehandling mot torr och känslig hy',
+            url_title: 'Läs mer om ansiktsbehandling mot torr och känslig hy',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
@@ -542,17 +542,17 @@ $products = array(
             image_alt: 'Bild av produkter designade för behandling av torr och känslig hy',
             image_title: 'Effektiva produkter för lindring och vård av torr och känslig hy',
 
-            url_label: 'Läs mer om produkter för torr och känslig hy',
-            url: 'https://dahlskincare.se',
-            url_title: 'Klicka här för att läsa mer om produkter för torr och känslig hy',
+            url: '',
+            url_label: '',
+            url_title: '',
 
-            consultation_url_label: null,
-            consultation_url: null,
-            consultation_url_title: null,
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot torr och känslig hy',
 
-            booking_url_label: null,
-            booking_url: null,
-            booking_url_title: null,
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se',
+            booking_url_title: 'Klicka för att köpa produktpaket mot torr och känslig hy',
       ),
 );
 

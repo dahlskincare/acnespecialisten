@@ -425,7 +425,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
-                                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button white expand l10n" title="Få gratis konsultation">Få gratis konsultation</a>
+                                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button white expand l10n" title="Boka gratis konsultation">Boka gratis konsultation</a>
                                 </div>
                                 <div class="column">
                                     <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
@@ -507,7 +507,6 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>

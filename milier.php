@@ -309,7 +309,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för milierbehandling',
       image_title: 'Konsultation för milierbehandling',
 
-      url_label: 'Läs mer om vår konsultation för milier',
+      url_label: 'Läs mer om konsultation mot milier',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om kostnadsfri konsultation för milier',
 

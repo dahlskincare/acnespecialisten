@@ -393,17 +393,17 @@ $procedures = array(
             image_alt: 'Behandla rosacea med IPL',
             image_title: 'Behandla rosacea med IPL',
 
-            url_label: 'Läs mer om IPL mot ytliga blodkärl',
-            url: '/ipl-ytliga-blodkarl.php',
-            url_title: 'Klicka här för att läsa mer om IPL-behandling mot ytliga blodkärl',
+            url: 'ipl-rosacea.php',
+            url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för IPL-behandling mot ytliga blodkärl',
 
-            url: 'ipl-rosacea.php',
-            url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_BloodVessels',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för IPL mot ytliga blodkärl',
       ),
 );
 

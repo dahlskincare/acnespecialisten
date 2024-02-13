@@ -411,7 +411,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för mogen hy',
       image_title: 'Konsultation för mogen hy',
 
-      url_label: 'Läs mer om vår konsultation för mogen hy',
+      url_label: 'Läs mer om konsultation mot mogen hy',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om konsultation för mogen hy',
 
@@ -431,16 +431,16 @@ $services = array(
             title: 'Laser mot mogen hy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling anpassad för mogen hy erbjuder en skonsam men effektiv lösning för att förbättra hudens kvalitet och utseende. Denna teknik är speciellt utvecklad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och ojämn hudton. Lasern stimulerar hudens naturliga kollagenproduktion, vilket bidrar till en fastare och mer strålande hud. Denna behandling hjälper till att revitalisera och föryngra huden, vilket ger ett mer ungdomligt och fräscht utseende.',
+            content: 'En avancerad laserbehandling anpassad för mogen hy erbjuder en skonsam men effektiv lösning för att förbättra hudens kvalitet och utseende. Denna teknik är speciellt utvecklad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och ojämn hudton. ',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot mogen hy',
             image_title: 'Laserbehandling mot mogen hy',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/behandlingar/laser-mot-hudproblem/',
+            url_label: 'Läs mer om laser mot mogen hy',
+            url_title: 'Läs mer om laser mot mogen hy',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -461,9 +461,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling för mogen hy',
             image_title: 'Kemisk peeling för mogen hy',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/kemisk-peeling.php',
+            url_label: 'Läs mer om kemisk peeling mot mogen hy',
+            url_title: 'Läs mer om kemisk peeling mot mogen hy',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -485,9 +485,9 @@ $services = array(
             image_alt: 'Bild av microneedling för mogen hy',
             image_title: 'Microneedling för mogen hy',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/microneedling.php',
+            url_label: 'Läs mer om microneedling mot mogen hy',
+            url_title: 'Läs mer om microneedling mot mogen hy',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',

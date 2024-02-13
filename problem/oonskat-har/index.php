@@ -129,9 +129,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för hårborttagning med laser',
       image_title: 'Konsultation för hårborttagning med laser',
 
-      url_label: '',
-      url: '',
-      url_title: '',
+      url_label: 'Läs mer om gratis hudkonsultation mot oönskat hår',
+      url: 'gratis-hudkonsultation.php',
+      url_title: 'Läs mer om gratis hudkonsultation mot oönskat hår',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
@@ -156,9 +156,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling för hårborttagning',
             image_title: 'Laserbehandling för hårborttagning',
 
-            url_label: '',
-            url: '',
-            url_title: '',
+            url_label: 'Läs mer om laser mot oönskat hår',
+            url: '/permanent-harborttagning.php',
+            url_title: 'Läs mer om laser mot oönskat hår',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',

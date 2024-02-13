@@ -53,7 +53,6 @@ $about_content = '<p class="p200">Blandhy ställer unika krav på behandling med
 
 $headline01 = "01. Identifiera din blandhy";
 
-$define_image = 'images/service-categories/large/consultation.jpg';
 $define_image_alt = 'Vår process för att balansera och behandla blandhy';
 $define_image_title = 'Vår process för att balansera och behandla blandhy';
 
@@ -546,7 +545,6 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>

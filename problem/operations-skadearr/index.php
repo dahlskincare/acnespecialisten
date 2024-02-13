@@ -249,9 +249,9 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för ärrbehandling',
       image_title: 'Konsultation för ärrbehandling',
 
-      url_label: '',
-      url: '',
-      url_title: '',
+      url_label: 'Läs mer om gratis hudkonsultation mot ärr',
+      url: '/gratis-hudkonsultation.php',
+      url_title: 'Läs mer om gratis hudkonsultation mot ärr',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
@@ -276,9 +276,9 @@ $services = array(
             image_alt: 'Bild av laserbehandling för ärr',
             image_title: 'Laserbehandling för ärr',
 
-            url_label: '',
-            url: '',
-            url_title: '',
+            url_label: 'Läs mer om laser mot ärr',
+            url: '/laser-arr.php',
+            url_title: 'Läs mer om laser mot ärr',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
@@ -299,9 +299,9 @@ $services = array(
             image_alt: 'Bild av kemisk peeling för ärr',
             image_title: 'Kemisk peeling för ärr behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url_label: 'Läs mer om kemisk peeling mot ärr',
+            url: '/kemisk-peeling.php',
+            url_title: 'Läs mer om kemisk peeling mot ärr',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
             consultation_url_label: 'Boka konsultation',
@@ -323,9 +323,9 @@ $services = array(
             image_alt: 'Bild av microneedling för ärr',
             image_title: 'Microneedling för ärr behandling',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url_label: 'Läs mer om microneedling mot ärr',
+            url: '/microneedling.php',
+            url_title: 'Läs mer om microneedling mot ärr',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',

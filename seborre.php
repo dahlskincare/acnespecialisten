@@ -215,9 +215,9 @@ $services = array(
             booking_url: "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea",
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka din ansiktsbehandling mot seborré',
-            url: null,
-            url_label: 'Läs mer om ansiktsbehandling mot seborré',
-            url_title: 'Klicka här för att läsa mer om ansiktsbehandling mot seborré'
+            url: '/problemhy.php',
+            url_label: 'Läs mer om ansiktsbehanding mot seborré',
+            url_title: 'Läs mer om ansiktsbehanding mot seborré',
       ),
 );
 
@@ -233,15 +233,18 @@ $products = array(
             image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Produkter mot seborré',
             image_title: 'Produkter mot seborré',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
-            url_label: 'Köp produkter mot seborré',
-            url_title: 'Köp produkter mot seborré',
+            
+            url: '',
+            url_label: '',
+            url_title: '',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot seborré',
+
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            booking_url_title: 'Klicka för att köpa produktpaket mot seborré',
       )
 );
 
