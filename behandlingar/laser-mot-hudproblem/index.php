@@ -290,7 +290,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/pannawebp',
+                image: '/bilder/omraden/92x92/panna.webp',
                 image_alt: 'Panna',
                 image_title: 'Panna',
                 title: 'Panna',
@@ -334,7 +334,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för överläppsbehandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/hudterapeut-veronika.webp',
+                image: '/bilder/omraden/92x92/haka.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Haka',
