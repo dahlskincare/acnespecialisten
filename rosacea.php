@@ -365,7 +365,7 @@ $services = array(
             image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
             image_title: 'Ansiktsbehandling mot rosacea',
-            onsultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
             booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
@@ -438,13 +438,9 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?',
             image_title: 'Varför AcneSpecialisten?',
-            content: '<p class="p200">Om du har problem med rosacea och letar efter den bästa lösning, är AcneSpecialisten ditt självklara val. Med över 30 års erfarenhet inom området har vi utvecklat en djup förståelse för denna hudåkomma, dess olika typer och de mest effektiva behandlingsmetoderna. Vi är mer än bara en klinik, vi är din partner i kampen mot rosacea.</p>
+            content: '<p class="p200">AcneSpecialisten är din expertpartner i kampen mot rosacea med över 30 års erfarenhet. Vi förstår djupt hudåkommans olika typer och erbjuder skräddarsydda behandlingsplaner baserade på dina unika behov. Vår expertis möjliggör valet av effektiva produkter som både förebygger och behandlar rosacea, anpassade till din hudtyp och livsstil.</p>
 
-                  <p class="p200 mt-m">Vi tar oss tid att förstå just dina behov och skräddarsyr en behandlingsplan som passar just dig. Vår expertis inom rosacea gör att vi kan identifiera de mest effektiva produkterna för att förebygga och behandla din rosacea, samtidigt som vi ser till att de passar din individuella hudtyp och livsstil. </p>
-
-                  <p class="p200 mt-m">AcneSpecialisten erbjuder mer än bara behandling. Vi erbjuder ett omfattande stöd genom hela din resa, från första konsultation till uppföljning och underhåll. Vi vet att att hantera rosacea kan vara en utmaning och därför är vi här för att ge dig den hjälp och de verktyg du behöver för att hantera dina symptom och förbättra din livskvalitet. </p>
-
-                  <p class="p200 mt-m">Genom att välja AcneSpecialisten kan du lita på att du får den mest effektiva, individanpassade och stöttande behandlingen för din rosacea. Vi är här för att hjälpa dig uppnå klar och frisk hud. Välkommen till AcneSpecialisten - din partner i rosaceavård.</p>',
+                  <p class="p200 mt-m">Hos oss får du mer än behandling; ett omfattande stöd genom din resa mot bättre hudhälsa, från första konsultation till uppföljning och långsiktigt underhåll. Vi förstår utmaningarna med rosacea och tillhandahåller de verktyg och den hjälp du behöver för att förbättra din livskvalitet. AcneSpecialisten erbjuder individanpassad, effektiv och stöttande vård för att hjälpa dig uppnå klar och frisk hud. Välkommen till AcneSpecialisten - din dedikerade partner i rosaceavård.</p>',
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',
