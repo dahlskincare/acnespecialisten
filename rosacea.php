@@ -231,9 +231,9 @@ $symptoms = array(
             name: 'Rodnad',
             image: 'images/problems/102x102/rodnad.webp',
             content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
-            url: '',
-            url_title: '',
-            url_label: '',
+            url: null,
+            url_title: null,
+            url_label: null,
             aka: 'Erythema',
             image_alt: 'Bild av rodnad orsakad av rosacea',
             image_title: 'Rodnad orsakad av rosacea'
