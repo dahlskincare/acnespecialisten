@@ -231,9 +231,9 @@ $symptoms = array(
             name: 'Rodnad',
             image: 'images/problems/102x102/rodnad.webp',
             content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
-            url: null,
-            url_title: null,
-            url_label: null,
+            url: '',
+            url_title: '',
+            url_label: '',
             aka: 'Erythema',
             image_alt: 'Bild av rodnad orsakad av rosacea',
             image_title: 'Rodnad orsakad av rosacea'
@@ -390,9 +390,9 @@ $products = array(
             image_alt: 'Bild av produkter designade för behandling av rosacea',
             image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
             
-            url: null,
-            url_title: null,
-            url_label: null,
+            url: '',
+            url_label: '',
+            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
