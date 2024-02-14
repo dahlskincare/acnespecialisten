@@ -302,13 +302,13 @@ $symptoms = array(
       new Symptom(
             name: 'Irriterad hy',
             image: 'images/problems/102x102/irriterad-hy.webp',
-            content: 'En brännande eller stickande känsla i huden är ett vanligt symptom på rosacea. Huden kan även klia i form av klåda.',
+            content: 'En hettande. brännande eller stickande känsla i huden är ett vanligt symptom på rosacea. Huden kan även klia i form av klåda.',
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Brännande eller stickande känsla',
-            image_alt: 'Bild av brännande eller stickande känsla orsakad av rosacea',
-            image_title: 'Brännande eller stickande känsla orsakad av rosacea'
+            aka: 'Brännande och hettande hy',
+            image_alt: 'Bild av brännande och hettande hy känsla orsakad av rosacea',
+            image_title: 'Brännande och hettande hy orsakad av rosacea'
       ),
 );
 
