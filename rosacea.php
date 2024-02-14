@@ -69,13 +69,13 @@ $trivias = array(
 
             extended_content: '<p class="p200 mt-xl">Det finns fyra subtyper av rosacea som varierar i symtom och svårighetsgrad. Dessa inkluderar erythematotelangiectatic rosacea (ETR), som kännetecknas av rodnad och synliga blodkärl; papulopustulös rosacea (PPR), som visar upp rodnad, svullnad och akne-liknande utbrott; phymatous rosacea, som leder till hudförtjockning och en ojämn hudstruktur; och ockulär rosacea, som påverkar ögonen.</p>
 
-            <p class="p200 mt-xl">Varje variant av rosacea kräver en unik behandlingsplan, vilket understryker behovet av att söka professionell vård om du upplever några av dessa symtom. På AcneSpecialisten har vi erfarenhet av att behandla alla typer av rosacea och vi strävar efter att erbjuda individuellt anpassade behandlingsplaner för varje patient, baserat på deras unika behov och livsstil.</p>',
+            <p class="p200 mt-xl">Varje variant av rosacea kräver en unik behandlingsplan, vilket understryker behovet av att söka professionell vård om du upplever några av dessa symtom. På AcneSpecialisten har vi erfarenhet av att behandla alla typer av rosacea och vi erbjuder individuellt anpassade behandlingsplaner för varje patient, baserat på deras unika behov och livsstil.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man rosacea?',
-            content: '<p class="p200">Det exakta orsakssambandet till rosacea fortfarande är något som forskare och läkare försöker förstå, är det tydligt att genetik spelar en central roll. Om du har familjemedlemmar med rosacea, ökar sannolikheten att du också kommer att utveckla sjukdomen. Emellertid triggas ofta rosacea av flera kombinerade faktorer. En sådan faktor är abnormiteter i blodkärlen i ansiktet. De med rosacea har ofta utvidgade blodkärl, vilket leder till ökat blodflöde i ansiktshuden och kan orsaka den typiska rodnaden och synliga blodkärlen associerade med tillståndet.</p>',
+            content: '<p class="p200">Den exakta orsaken till rosacea är fortfarande något som forskare och läkare försöker förstå, det är dock tydligt att genetik spelar en central roll. Om du har familjemedlemmar med rosacea, ökar sannolikheten att du också kommer att utveckla sjukdomen. Emellertid triggas ofta rosacea av flera kombinerade faktorer. En sådan faktor är abnormiteter i blodkärlen i ansiktet. De med rosacea har ofta utvidgade blodkärl, vilket leder till ökat blodflöde i ansiktshuden och kan orsaka den typiska rodnaden och synliga blodkärlen associerade med tillståndet.</p>',
 
             extended_content: '<p class="p200 mt-xl">Människor med rosacea har dessutom ofta en högre koncentration av en typ av hårsäckskvalster, kallad demodex, än de utan sjukdomen. Dessa kvalster kan orsaka inflammatoriska reaktioner som leder till utslag och andra hudsymptom. Hudens skyddsbarriär kan också vara störd hos personer med rosacea, vilket resulterar i ökad känslighet och reaktivitet mot olika yttre och inre triggande faktorer.</p>
 
