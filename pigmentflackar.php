@@ -41,20 +41,20 @@ $akas = [
 ];
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis konsultation för behandling av pigmentfläckar";
 
 $booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av hudförändringar";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis konsultation för pigmenteringar";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka din tid för behandling av pigmentförändringar";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis konsultation för hyperpigmentering";
 
 $floating_booking_url_label = "Boka behandling";

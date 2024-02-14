@@ -44,7 +44,7 @@ $booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_prob
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av ärr från finnar";
 
-$mobile_consultation_url_label = "Boka gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis konsultation för ärr från finnar";
 
 $mobile_booking_url_label = "Boka behandling";

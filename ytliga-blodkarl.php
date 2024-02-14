@@ -43,7 +43,7 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels";
 $booking_url_title = "Boka Behandling för Ytliga Blodkärl";
 
-$mobile_consultation_url_label = "Boka gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
 
 $mobile_booking_url_label = "Boka behandling";
@@ -79,8 +79,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är ytliga blodkärl?',
             content: '<p class="p200">Ytliga blodkärl är små, utvidgade blodkärl som ligger nära hudytan och blir därför synliga genom huden. Dessa blodkärl tenderar att vara röda, lila eller blå och uppträder ofta i ansiktet, speciellt på näsan, kinderna och runt ögonen. De kan variera i storlek och form men är vanligtvis mindre än 1-3 mm i diameter. Medan ytliga blodkärl oftast är kosmetiskt störande, och inte betraktas som farlika, kan deras närvaro vara en indikator på underliggande hudsjukdomar som rosacea eller andra inflammatoriska tillstånd. Därför kan det vara värt att konsultera en hudterapeut för att utesluta eventuella bakomliggande problem.</p>',
-            extended_content: '<p class="p200 mt-xl">Tekniskt sett är dessa synliga blodkärl en form av venös insufficiens, vilket innebär att de små venösa ventilerna inte fungerar optimalt, vilket leder till att blodet har svårigheter att flyta tillbaka till hjärtat. Detta orsakar en ansamling av blod i dessa små kärl, vilket gör dem mer synliga. Dessa kärl behandlas effektivt med hjäpl av IPL som anpassas efter kundens behov, så en individuell konsultation är ofta nödvändig för att fastställa den bästa behandlingsplanen för dig.</p>
-            <p class="p200 mt-xl">I korthet, medan ytliga blodkärl i ansiktet vanligtvis är en kosmetisk bekymmer, kan de vara symptom på andra hudåkommor och bör tas på allvar. En medicinsk konsultation kan hjälpa dig att förstå de underliggande orsakerna och de mest effektiva behandlingsalternativen för din situation.</p>',
+            extended_content: '<p class="p200 mt-xl">Ytliga blodkärl uppstår när stora djupliggande kärls väggar försvagas eller brister. Då uppenbarar sig kärlen på det övre hudlagret och det som kallas ytliga blodkärl har bildats. I korthet, medan ytliga blodkärl i ansiktet vanligtvis är en kosmetisk bekymmer, kan de vara symptom på andra hudåkommor och bör tas på allvar. En medicinsk konsultation kan hjälpa dig att förstå de underliggande orsakerna och de mest effektiva behandlingsalternativen för din situation.</p>',
             icons: array()
       ),
       new ProblemTrivia(

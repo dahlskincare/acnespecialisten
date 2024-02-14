@@ -49,7 +49,7 @@ $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Prob
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka behandling mot finnar";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för finnar";
 
 $mobile_booking_url_label = "Boka behandling";

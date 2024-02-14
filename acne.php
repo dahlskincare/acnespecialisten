@@ -52,7 +52,7 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka Aknebehandling";
 
-$mobile_consultation_url_label = "Boka gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Boka gratis konsultation för Akne";
 
 $mobile_booking_url_label = "Boka behandling";

@@ -47,7 +47,7 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin";
 $booking_url_title = "Boka Behandling för Blandhy";
 
-$mobile_consultation_url_label = "Boka gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Blandhy";
 
 $mobile_booking_url_label = "Boka behandling";

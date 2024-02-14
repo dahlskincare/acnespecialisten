@@ -32,7 +32,7 @@ $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Ro
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka rosaceabehandling";
 
-$mobile_consultation_url_label = "Boka gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Rosacea";
 
 $mobile_booking_url_label = "Boka behandling";
@@ -80,7 +80,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Människor med rosacea har dessutom ofta en högre koncentration av en typ av hårsäckskvalster, kallad demodex, än de utan rosacea. Dessa kvalster kan orsaka inflammatoriska reaktioner som leder till utslag och andra hudsymptom. Hudens skyddsbarriär kan också vara försämrad hos personer med rosacea, vilket resulterar i ökad känslighet och reaktivitet mot olika yttre och inre triggande faktorer.</p>
 
             <p class="p200 mt-xl">En annan tänkbar bidragande faktor till rosacea är en överreaktion från kroppens immunsystem, vilket kan bidra till inflammation och rodnad i huden. Trots att det finns flera tänkbara utlösande faktorer, ligger den genetiska benägenheten för rosacea till grund för sjukdomen och inget man kan drabbas av om man inte har anlagen. Men varje individs upplevelse av rosacea är unik, och det är därför en anpassad behandlingsplan är nödvändig. På AcneSpecialisten hjälper vi dig att hitta den bästa behandlingen utifrån dina unika behov och utmaningar.</p>',
-            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'kyla-varme' => 'Kyla & Värme', 'mat-dryck' => 'Mat & Dryck')
+            icons: array('genetik' => 'Genetik', 'kyla-varme' => 'Kyla & Värme', 'mat-dryck' => 'Mat & Dryck')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
@@ -188,7 +188,7 @@ $type_categories = array(
                         image_url: '/icons/stress.svg',
                         image_alt: 'Ikon av stress',
                         image_title: 'Stress',
-                        title: 'Stress och Starka Känslor',
+                        title: 'Stress',
                         subtitle: '',
                   ),
                   new BasedType(
@@ -300,7 +300,7 @@ $symptoms = array(
       ),
 
       new Symptom(
-            name: 'Brännande eller stickande känsla',
+            name: 'Irriterad hy',
             image: 'images/problems/102x102/irriterad-hy.webp',
             content: 'En brännande eller stickande känsla i huden är ett vanligt symptom på rosacea. Huden kan även klia i form av klåda.',
             url: '',
@@ -361,8 +361,8 @@ $services = array(
             duration: '30-60 min',
             price: '1295 kr',
             content: 'IPL-behandling mot rosacea använder intensivt pulserat ljus för att effektivt minska rodnad och inflammation. Denna metod behandlar effektivt rosaceasymptom och främja en jämnare hudton.',
-            image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
-            image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+            image_small: 'bilder/behandlingar/200x200/ipl.webp',
+            image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
             image_title: 'Ansiktsbehandling mot rosacea',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
