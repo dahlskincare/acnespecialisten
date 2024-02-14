@@ -79,13 +79,13 @@ $trivias = array(
 
             extended_content: '<p class="p200 mt-xl">Människor med rosacea har dessutom ofta en högre koncentration av en typ av hårsäckskvalster, kallad demodex, än de utan rosacea. Dessa kvalster kan orsaka inflammatoriska reaktioner som leder till utslag och andra hudsymptom. Hudens skyddsbarriär kan också vara försämrad hos personer med rosacea, vilket resulterar i ökad känslighet och reaktivitet mot olika yttre och inre triggande faktorer.</p>
 
-            <p class="p200 mt-xl">En annan tänkbar bidragande faktor till rosacea är en överreaktion från kroppens immunsystem, vilket kan bidra till inflammation och rodnad i huden. Trots att det finns flera tänkbara utlösande faktorer, ligger den genetiska predispositionen för rosacea till grund för sjukdomen och inget man kan drabbas av om man inte har anlagen. Men varje individs upplevelse av rosacea är unik, och det är därför en anpassad behandlingsplan är nödvändig. På AcneSpecialisten hjälper vi dig att hitta den bästa behandlingen utifrån dina unika behov och utmaningar.</p>',
+            <p class="p200 mt-xl">En annan tänkbar bidragande faktor till rosacea är en överreaktion från kroppens immunsystem, vilket kan bidra till inflammation och rodnad i huden. Trots att det finns flera tänkbara utlösande faktorer, ligger den genetiska benägenheten för rosacea till grund för sjukdomen och inget man kan drabbas av om man inte har anlagen. Men varje individs upplevelse av rosacea är unik, och det är därför en anpassad behandlingsplan är nödvändig. På AcneSpecialisten hjälper vi dig att hitta den bästa behandlingen utifrån dina unika behov och utmaningar.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'kyla-varme' => 'Kyla & Värme', 'mat-dryck' => 'Mat & Dryck')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får rosacea?',
-            content: '<p class="p200">Vanligtvis utvecklas rosacea hos individer mellan 30 och 50 års ålder, även om det också kan dyka upp tidigare eller senare. Rosacea är vanligare hos kvinnor, men män tenderar att uppleva mer svår rosacea. Även om kvinnor är mer benägna att få rosacea, utvecklar män ofta mer svåra former av sjukdomen, inklusive rhinophyma, som kännetecknas av förtjockning av huden på näsan.</p>',
+            content: '<p class="p200">Vanligtvis utvecklas rosacea hos individer mellan 30 och 50 års ålder, även om det också kan dyka upp tidigare eller senare. Rosacea är vanligare hos kvinnor än hos män. Även om kvinnor är mer benägna att få rosacea, utvecklar män ofta mer svåra former av sjukdomen, inklusive rhinophyma, som kännetecknas av förtjockning av huden på näsan. (Potatisnäsa)</p>',
 
             extended_content: '<p class="p200 mt-xl">Det är också viktigt att notera att personer med en familjehistoria av rosacea eller andra hudsjukdomar, som akne, har en högre risk att utveckla sjukdomen. Dessa individer bör vara särskilt medvetna om symtomen på rosacea och söka professionell hjälp om de misstänker att de har tillståndet.</p>
 
