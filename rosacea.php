@@ -21,7 +21,7 @@ $image_large = 'bilder/problem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rosacea';
 $image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 
-$description = 'Rosacea är en kronisk hudsjukdom som orsakar rodnad och ytliga blodkärl i ansiktet. Den här sidan ger en översikt över sjukdomens symptom, stadier och de utlösande faktorer som kan förvärra tillståndet.';
+$description = 'Rosacea är en kronisk hudsjukdom som orsakar rodnad, inflammation och ytliga blodkärl i ansiktet. Den här sidan ger en översikt över sjukdomens symptom, stadier och de utlösande faktorer som kan förvärra tillståndet.';
 
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
