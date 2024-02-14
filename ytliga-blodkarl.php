@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Ytliga Blodkärl - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om ytliga blodkärl, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'ytliga blodkärl, behandling av ytliga blodkärl, orsaker till ytliga blodkärl, förebygga ytliga blodkärl, ta bort ytliga blodkärl';
+$seo_title = 'Vad är brustna och ytliga blodkärl?';
+$seo_description = 'Här hittar du allt om brustna och ytliga blodkärl och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'ytliga blodkärl, brustna blodkärl, synliga blodkärl, behandling av ytliga blodkärl, orsaker till ytliga blodkärl, förebygga ytliga blodkärl, ta bort ytliga blodkärl';
 
 $title = 'Ytliga Blodkärl';
 
@@ -24,14 +24,14 @@ $description = 'Ytliga blodkärl, som kan visa sig som spindelkärl eller synlig
 
 $akas = [
       new Link(
-            label: 'Spindelkärl',
-            url: null,
-            title: 'Spindelkärl',
-      ),
-      new Link(
             label: 'Brustna blodkärl',
             url: null,
             title: 'Brustna blodkärl',
+      ),
+      new Link(
+            label: 'Synliga blodkärl',
+            url: null,
+            title: 'Synliga blodkärl',
       ),
 ];
 
