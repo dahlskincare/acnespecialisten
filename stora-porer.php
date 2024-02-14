@@ -224,7 +224,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för behandling av stora porer',
       image_title: 'Konsultation för behandling av stora porer',
 
-      url_label: 'Läs mer om vår konsultation för stora porer',
+      url_label: 'Läs mer om konsultation mot stora porer',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 

@@ -150,7 +150,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Blandhy kan också lämna efter sig oönskade märken som fläckar eller ojämn hudstruktur. Vi erbjuder avancerade behandlingsmetoder för att återställa hudens jämnhet och lyster.',
+            content: 'Blandhy kan också lämna efter sig oönskade märken som fläckar eller ojämn hudstruktur.',
 
             url_label: 'Ärrbehandlingar',
             url: 'behandla-acnearr.php',
