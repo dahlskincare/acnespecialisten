@@ -302,7 +302,7 @@ $symptoms = array(
       new Symptom(
             name: 'Brännande eller stickande känsla',
             image: 'images/problems/102x102/irriterad-hy.webp',
-            content: 'En brännande eller stickande känsla i huden är ett vanligt symptom på rosacea.',
+            content: 'En brännande eller stickande känsla i huden är ett vanligt symptom på rosacea. Huden kan även klia i form av klåda.',
             url: '',
             url_title: '',
             url_label: '',
@@ -330,7 +330,7 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer om vår hudkonsultation',
+      url_label: 'Läs mer konsultation mot rosacea',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
 
@@ -355,6 +355,25 @@ $services = array(
             url: 'rosaceabehandling.php',
             url_label: 'Läs mer om ansiktsbehandling för rosacea',
             url_title: 'Läs mer om ansiktsbehandling för rosacea'
+      ),
+      new Service(
+            title: 'IPL mot rosacea',
+            duration: '30-60 min',
+            price: '1295 kr',
+            content: 'IPL-behandling mot rosacea använder intensivt pulserat ljus för att effektivt minska rodnad och inflammation. Denna metod behandlar effektivt rosaceasymptom och främja en jämnare hudton.',
+            image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+            image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+            image_alt: 'Bild av en ansiktsbehandling mot rosacea',
+            image_title: 'Ansiktsbehandling mot rosacea',
+            onsultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
+            booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Boka din IPL-behandling mot rosacea nu',
+            url: 'ipl-rosacea.php',
+            url_label: 'Läs mer om IPL-behandlingar',
+            url_title: 'Utforska mer om våra IPL-behandlingar mot rosacea',
       ),
 );
 
@@ -385,14 +404,14 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-rosacea";
+$headline04 = "04. Reparera post-rosacea (synliga blodkärl)";
 
 $procedures = array(
       new Service(
             title: 'Reparerar ytliga blodkärl',
             duration: '60 minuter',
             price: 'Pris från 1595 kr',
-            content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl.',
+            content: 'IPL-behandling minskar effektivt ytliga blodkärl med intensivt pulserat ljus, erbjuder en icke-invasiv lösning för en jämnare hudton och förbättrad hudtextur.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Behandla rosacea med IPL',
