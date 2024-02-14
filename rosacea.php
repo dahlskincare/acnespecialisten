@@ -234,7 +234,7 @@ $symptoms = array(
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Känd som Erythema',
+            aka: 'Erythema',
             image_alt: 'Bild av rodnad orsakad av rosacea',
             image_title: 'Rodnad orsakad av rosacea'
       ),
@@ -242,11 +242,11 @@ $symptoms = array(
       new Symptom(
             name: 'Vätskefyllda blåsor',
             image: 'images/problems/102x102/papular-rosacea.webp',
-            content: 'Vätskefyllda blåsor är ett annat symptom på rosacea. De liknar de som uppträder vid akne.',
+            content: 'Vätskefyllda blåsor är ett annat symptom på rosacea. De liknar de som uppträder vid akne och finnar.',
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Känd som Pustler',
+            aka: 'Pustler',
             image_alt: 'Bild av vätskefyllda blåsor orsakade av rosacea',
             image_title: 'Vätskefyllda blåsor orsakade av rosacea'
       ),
@@ -254,11 +254,11 @@ $symptoms = array(
       new Symptom(
             name: 'Synliga blodkärl',
             image: 'images/problems/102x102/synliga-blodkarl.webp',
-            content: 'Vid rosacea kan de små blodkärlen i huden bli mer synliga, vilket framträder som tunna röda linjer.',
+            content: 'Vid rosacea kan de små blodkärlen i huden bli mer ytliga och synliga, vilket framträder som tunna röda linjer.',
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Känd som Telangiectasier',
+            aka: 'Telangiektasi',
             image_alt: 'Bild av synliga blodkärl orsakade av rosacea',
             image_title: 'Synliga blodkärl orsakade av rosacea'
       ),
@@ -270,7 +270,7 @@ $symptoms = array(
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Känd som Papulopustulär rosacea',
+            aka: 'Papulopustulär rosacea',
             image_alt: 'Bild av papler och pustler orsakade av rosacea',
             image_title: 'Papler och pustler orsakade av rosacea'
       ),
@@ -282,7 +282,7 @@ $symptoms = array(
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Känd som Rhinophyma',
+            aka: 'Rhinophyma',
             image_alt: 'Bild av hudförtjockning orsakad av rosacea',
             image_title: 'Hudförtjockning orsakad av rosacea'
       ),
@@ -294,7 +294,7 @@ $symptoms = array(
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Känd som Okulär rosacea',
+            aka: 'Okulär rosacea',
             image_alt: 'Bild av ögonproblem orsakade av rosacea',
             image_title: 'Ögonproblem orsakade av rosacea'
       ),
@@ -306,7 +306,7 @@ $symptoms = array(
             url: '',
             url_title: '',
             url_label: '',
-            aka: 'Känd som Brännande eller stickande känsla',
+            aka: 'Brännande eller stickande känsla',
             image_alt: 'Bild av brännande eller stickande känsla orsakad av rosacea',
             image_title: 'Brännande eller stickande känsla orsakad av rosacea'
       ),
