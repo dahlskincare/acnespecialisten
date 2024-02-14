@@ -118,7 +118,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva behandlingar för ytliga blodkärl, anpassade till din specifika hudtyp och problemområden, så att du snabbt och säkert kan förbättra hudens utseende.',
+            content: 'Vi utför skonsamma och effektiva behandlingar för ytliga blodkärl, anpassade till din specifika kärltyp och problemområden, så att du snabbt och säkert kan förbättra hudens utseende.',
 
             url_label: 'Se behandlingar för ytliga blodkärl',
             url: 'ipl-ytliga-blodkarl.php',
@@ -354,7 +354,7 @@ $service = new Service(
       title: 'Konsultation för Ytliga Blodkärl',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist på ytliga blodkärl utförs en undersökning av ditt tillstånd. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist på ytliga blodkärl utförs en undersökning av ditt tillstånd. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina kärl.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
