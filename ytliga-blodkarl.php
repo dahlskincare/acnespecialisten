@@ -420,7 +420,7 @@ $articles = array(
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina ytliga blodkärl?',
             content: '<p class="p200">Om du letar efter en effektiv och långsiktig lösning på problemet med ytliga blodkärl, är AcneSpecialisten det självklara valet. Trots namnet har vi en bred erfarenhet inom hudvård, inklusive behandling av ytliga blodkärl. Vi erbjuder skräddarsydda lösningar baserade på ditt individuella behov och hudtyp.</p>
             <p class="p200 mt-m">Vi använder oss av de senaste metoderna och teknologierna inom hudvård för att ge dig det bästa möjliga resultatet. Vårt team av kvalificerade hudterapeuter kommer att skapa en individuell behandlingsplan för dig och stödja dig genom hela processen, från konsultation till slutresultat.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten för dina ytliga blodkärl innebär att du får tillgång till de mest avancerade och effektiva behandlingarna som finns. Vi hjälper dig under hela din hudvårdsresa och engagerar oss i att hjälpa dig uppnå och bibehålla en hy du trivs med. Vår kunskap och erfarenhet gör oss till ditt bästa val för behandling av ytliga blodkärl.</p>',
+            <p class="p200 mt-m">Att välja AcneSpecialisten för dina ytliga blodkärl innebär att du får tillgång till de mest avancerade och effektiva behandlingarna som finns. Vi stödjer dig under hela din hudvårdsresa och engagerar oss i att hjälpa dig uppnå och bibehålla en hy du trivs med. Vår kunskap och erfarenhet gör oss till ditt bästa val för behandling av ytliga blodkärl.</p>',
       ),
 );
 
