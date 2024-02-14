@@ -127,7 +127,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämnare hudton och en problemfri hud.',
+            content: 'När rosacean är borta fokuserar vi på att eliminera ytliga blodkärl med behandlingsmetoder som IPL för en jämnare hudton och problemfri hud.',
             url_label: 'Se IPL-behandlingar',
             url: '/ipl-rosacea.php',
             url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
