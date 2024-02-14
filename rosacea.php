@@ -529,7 +529,7 @@ $faq_categories = array(
       'Generellt om rosacea' => array(
             new Question(
                   title: 'Hur skiljer sig rosacea från andra hudsjukdomar som akne?',
-                  text: '<p class="p200">Rosacea och akne är två distinkta hudtillstånd. Även om de båda kan resultera i röda, inflammerade områden på huden, finns det några viktiga skillnader. Rosacea tenderar att uppträda i mitten av ansiktet (särskilt näsan och kinderna) och kan orsaka synliga blodkärl, röda fläckar och ibland ögonproblem. Rosacea kan också åtföljas av en brännande eller stickande känsla. Akne å andra sidan kan förekomma var som helst på kroppen och karakteriseras av pormaskar, whiteheads, och ibland cystor eller knutor under huden.</p>'
+                  text: '<p class="p200">Rosacea och akne är två distinkta hudtillstånd. Även om de båda kan resultera i röda, inflammerade områden på huden, finns det några viktiga skillnader. Rosacea tenderar att uppträda i mitten av ansiktet (särskilt näsan och kinderna) och kan orsaka synliga blodkärl, röda fläckar samt rodnad. Rosacea kan också orsaka av en brännande eller stickande känsla med klåda. Akne å andra sidan kan förekomma var som helst på kroppen och karakteriseras av pormaskar, finnar och ibland cystor under huden.</p>'
             ),
             new Question(
                   title: 'Är det några särskilda triggers som kan förvärra rosacea?',
