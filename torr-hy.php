@@ -84,7 +84,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är torr och känslig hy?',
             content: '<p class="p200">Torr och känslig hy är mer än bara en kosmetisk besvärighet; det är en hudtillstånd som kan ha både fysiska och psykologiska effekter på dem som lider av det. Denna hudtyp kännetecknas av en brist på tillräcklig fukt, vilket leder till en kompromissad hudbarriär. Detta gör huden mindre effektiv på att hålla kvar fukt och mer benägen att reagera på olika stimuli som temperaturändringar, kosmetiska produkter och till och med kranvatten. Symptomen kan inkludera klåda, rodnad, fjällning och en obehaglig känsla av stramhet i huden.</p>',
-            extended_content: '<p class="p200 mt-xl">En komplex orsakssamband av genetiska och miljömässiga faktorer kan bidra till torr och känslig hy. En viktig faktor är hudens lipidbarriär, som består av naturliga oljor som hjälper till att behålla fukt och skydda mot yttre irritanter. När denna barriär är försvagad, kan huden lättare förlora fukt och blir därmed torr och mer känslig för inflammation och irritation.</p>',
+            extended_content: '<p class="p200 mt-xl">En komplex orsakssamband av genetiska och miljömässiga faktorer kan bidra till torr och känslig hy. En viktig faktor är hudens lipidbarriär, som består av naturliga talg som hjälper till att behålla fukt och skydda mot yttre irritanter. När denna barriär är försvagad, kan huden lättare förlora fukt och blir därmed torr och mer känslig för inflammation och irritation.</p>',
             icons: array()
       ),
       new ProblemTrivia(
@@ -97,7 +97,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får torr och känslig hy?',
-            content: '<p class="p200">Torr och känslig hy är inte begränsad till en specifik demografisk grupp; den kan drabba personer i alla åldrar och kön. Det är dock viktigt att förstå att vissa faktorer gör vissa människor mer benägna att utveckla denna hudtyp. Ålder är en av de mest framstående faktorerna. Med åldern minskar hudens naturliga oljeproduktion och dess förmåga att behålla fukt, vilket gör äldre personer mer mottagliga för torr och känslig hud.</p>',
+            content: '<p class="p200">Torr och känslig hy är inte begränsad till en specifik demografisk grupp; den kan drabba personer i alla åldrar och kön. Det är dock viktigt att förstå att vissa faktorer gör vissa människor mer benägna att utveckla denna hudtyp. Ålder är en av de mest framstående faktorerna. Med åldern minskar hudens naturliga talgproduktion och dess förmåga att behålla fukt, vilket gör äldre personer mer mottagliga för torr och känslig hud.</p>',
             extended_content: '<p class="p200 mt-xl">Individer med tillstånd som eksem, rosacea eller psoriasis är också särskilt utsatta, eftersom de ofta medför en kronisk torrhet och känslighet i huden. Hormonella förändringar som sker under graviditet, menopaus eller menstruationscykler påverka hudens tillstånd och göra den mer känslig eller torr. Yrkesmässig exponering för kemiska ämnen, eller jobb som kräver frekvent handtvätt eller användning av handskar, kan också förvärra problemet.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
