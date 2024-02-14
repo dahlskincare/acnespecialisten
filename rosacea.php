@@ -213,7 +213,7 @@ $type_categories = array(
                         subtitle: '',
                   ),
                   new BasedType(
-                        image_url: '/icons/traning.svgg',
+                        image_url: '/icons/traning.svg',
                         image_alt: 'Ikon av en person som utför fysisk ansträngning',
                         image_title: 'Fysisk Ansträngning',
                         title: 'Fysisk Ansträngning',
