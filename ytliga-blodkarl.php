@@ -383,7 +383,7 @@ $services = array(
             title: 'IPL mot Ytliga Blodkärl',
             duration: '50 min',
             price: '2595 kr',
-            content: 'IPL (Intensivt Pulserande Ljus) är en effektiv metod för att behandla ytliga blodkärl. Tekniken använder ljusvågor av olika längder för att värma upp och skada blodkärlen, vilket får dem att krympa och försvinna eller bli mindre framträdande. IPL-behandling är en skonsam metod som minskar synligheten av ytliga blodkärl utan att skada den omgivande huden.',
+            content: 'IPL (Intensivt Pulserande Ljus) är en effektiv metod för att behandla ytliga blodkärl. Tekniken använder ljusvågor av olika längder för att värma upp och skada blodkärlen, vilket får dem att gå sönder och transporteras bort av kroppen.',
 
             image_small: 'images/services/200x200/ipl.webp',
             image_large: 'images/services/200x200/ipl.webp',
