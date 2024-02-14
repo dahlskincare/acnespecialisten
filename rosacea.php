@@ -278,7 +278,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hudförtjockning',
             image: 'images/problems/102x102/rhinophyma-rosacea.webp',
-            content: 'Hudförtjockning, särskilt påt näsan (ett tillstånd kallad rhinophyma), kan förekomma vid mer allvarliga fall av rosacea. Rhinophyma är vanligare hos män.',
+            content: 'Hudförtjockning, särskilt på näsan, kan förekomma vid mer allvarliga fall av rosacea. Rhinophyma är vanligare hos män.',
             url: '',
             url_title: '',
             url_label: '',
