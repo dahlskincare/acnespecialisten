@@ -538,8 +538,8 @@ $faq_categories = array(
                         <p class="p200 mt-m">Varje person med rosacea kan ha olika triggers, och det kan vara användbart att föra en dagbok för att identifiera vilka faktorer som förvärrar ens egna symptom.</p>'
             ),
             new Question(
-                  title: 'Kan man helt bli av med rosacea, eller är det en kronisk sjukdom?',
-                  text: '<p class="p200">Rosacea är en kronisk sjukdom, vilket betyder att den är långvarig. Även om det inte finns något botemedel, kan symptom kontrolleras och minskas betydligt med rätt behandling.</p>'
+                  title: 'Kan man helt bli helt symtomfri från rosacea?',
+                  text: '<p class="p200">Rosacea är en kronisk sjukdom, vilket betyder att problemet inte går att bota. Med med rätt behandla kan dinr rosacea bli symptomfri vilket betyder att den inte synns eller känns.</p>'
             ),
             new Question(
                   title: 'Vilka är de möjliga komplikationerna av rosacea om den inte behandlas?',
