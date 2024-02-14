@@ -390,9 +390,9 @@ $products = array(
             image_alt: 'Bild av produkter designade för behandling av rosacea',
             image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
             
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: null,
+            url_title: null,
+            url_label: null,
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
