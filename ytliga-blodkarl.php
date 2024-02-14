@@ -110,7 +110,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten kopplas du ihop med en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
