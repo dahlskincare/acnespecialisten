@@ -827,7 +827,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                               <?php echo $treatment_link ?>
 
                         </section>
-                        <!--<?php if (isset($type_categories) && sizeof($type_categories) > 0) { ?>
+                        <?php if (isset($type_categories) && sizeof($type_categories) > 0) { ?>
                               <section id="types">
                                     <h2 class="h500 l10n"><?php echo $types_title ?></h2>
                                     <div class="is-hidden-tablet">
@@ -866,7 +866,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                           <?php } ?>
                                     </div>
                               </section>
-                        <?php } ?>-->
+                        <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
                                     <h2 class="h500"><?php echo $symptoms_title ?></h2>
