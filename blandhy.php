@@ -159,7 +159,7 @@ $treatment_steps = array(
 
 );
 
-$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår blandhybehandling</a>';
+$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
 
 
 $symptoms_title = 'Blandhy symptom';
@@ -167,7 +167,7 @@ $symptoms_title = 'Blandhy symptom';
 $symptoms = array(
       new Symptom(
             name: 'Oljig & Fet hy',
-            aka: 'Även kallat glansig hy',
+            aka: 'Glansig hy',
             content: 'Den mest framträdande egenskapen för blandhy är ofta en oljig T-zon, vilket innebär att pannan, näsan och hakan kan kännas och se glansiga eller fetare ut jämfört med andra delar av ansiktet. Särskilt efter en lång dag eller under sommarmånaderna, när värmen kan förstärka oljeproduktionen, kan huden börja se extra glansig ut på grund av en kombination av talg och svett.',
 
             url_label: null,
@@ -180,7 +180,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Torr hy',
-            aka: 'Även kallat stram hy',
+            aka: 'Stram hy',
             content: 'Medan T-zonen kan vara oljig, särskilt under de varmare månaderna, kan kinderna antingen vara torra eller ha en normal konsistens. Under vinterhalvåret, när kylan kan göra huden mer utsatt, kan vissa områden bli torrare. Trots oljighet i vissa områden kan andra delar av huden kännas torr och stram, särskilt efter tvätt. Det kan även uppstå torra fläckar som fjällar, särskilt på kinderna.',
 
             url_label: null,
@@ -193,7 +193,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Känslig hy',
-            aka: 'Även kallat reaktiv & röd hy',
+            aka: 'Reaktiv & röd hy',
             content: 'Känslig hy är ett symptom där huden lätt kan reagera på olika stimuli, såsom vissa hudvårdsprodukter, miljöfaktorer eller förändringar i klimatet. Denna hudtyp tenderar att bli röd, irriterad eller klående snabbare än andra hudtyper. Det kan också vara vanligt med en brännande känsla eller en känsla av stramhet, särskilt efter att huden har kommit i kontakt med potentiellt irriterande ämnen.',
 
             url_label: null,
@@ -206,7 +206,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Pormaskar',
-            aka: 'Även känt som vidgade porer',
+            aka: 'Vidgade porer',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
             url_label: null,
@@ -219,7 +219,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Finnar',
-            aka: 'Även kallat akne',
+            aka: 'Akne',
             content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
 
             url_label: null,
@@ -232,7 +232,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Cystor',
-            aka: 'Kända som bölder',
+            aka: 'Bölder',
             content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
 
             url_label: null,
