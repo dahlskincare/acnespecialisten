@@ -11,6 +11,11 @@ $seo_keywords = 'acneärr, acneärr Stockholm, acneärr gropar, orsaker till acn
 
 $title = 'Acneärr';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Acneärr', '/acnearr.php'),
+);
+
 $image_small = 'bilder/problem/424x324/aknearr.webp';
 $image_large = 'bilder/problem/424x456/aknearr.webp';
 $image_title = 'Visar en hud med acneärr';

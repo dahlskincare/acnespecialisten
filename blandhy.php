@@ -13,6 +13,11 @@ $seo_image = 'bilder/problem/424x456/blandhy.webp';
 
 $title = 'Blandhy';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Blandhy', '/blandhy.php'),
+);
+
 $description = 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. Vi diskuterar strategier för att sköta om blandhy och hur du kan uppnå en balanserad och hälsosam hud med rätt behandling.';
 
 $image_small = 'bilder/problem/424x324/blandhy.webp';

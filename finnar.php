@@ -11,6 +11,11 @@ $seo_keywords = 'finnar, vad är finnar, orsaker till finnar, varför får man f
 
 $title = 'Finnar';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Finnar', '/finnar.php'),
+);
+
 $image_small = 'bilder/problem/424x324/finnar.webp';
 $image_large = 'bilder/problem/424x456/finnar.webp';
 $image_title = 'Visar en hud med finnar';

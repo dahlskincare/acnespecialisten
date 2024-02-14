@@ -11,6 +11,11 @@ $seo_keywords = 'ytliga blodkärl, behandling av ytliga blodkärl, orsaker till 
 
 $title = 'Ytliga Blodkärl';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Ytliga Blodkärl', '/ytliga-blodkarl.php'),
+);
+
 $image_small = 'bilder/problem/424x324/ytliga-blodkarl.webp';
 $image_large = 'bilder/problem/424x456/ytliga-blodkarl.webp';
 $image_title = 'Visar en hud med ytliga blodkärl';

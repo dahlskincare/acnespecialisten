@@ -11,6 +11,11 @@ $seo_keywords = 'pormaskar, behandling av pormaskar, orsaker till pormaskar, fö
 
 $title = 'Pormaskar';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Pormaskar', '/pormaskar.php'),
+);
+
 $image_small = 'bilder/problem/424x324/pormaskar.webp';
 $image_large = 'bilder/problem/424x456/pormaskar.webp';
 $image_title = 'Visar en hud med pormaskar';

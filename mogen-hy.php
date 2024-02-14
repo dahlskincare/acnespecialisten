@@ -11,6 +11,11 @@ $seo_keywords = 'mogen hy, behandling av mogen hy, orsaker till mogen hy, föreb
 
 $title = 'Mogen Hy';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Mogen hy', '/mogen-hy.php'),
+);
+
 $image_small = 'bilder/problem/424x324/mogen-hy.webp';
 $image_large = 'bilder/problem/424x456/mogen-hy.webp';
 $image_title = 'Visar en hud med tecken på åldrande';

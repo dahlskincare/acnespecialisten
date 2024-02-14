@@ -11,6 +11,11 @@ $seo_keywords = 'perioral dermatit, behandling av perioral dermatit, orsaker til
 
 $title = 'Perioral Dermatit';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Perioral Dermatit', '/perioral-dermatit.php'),
+);
+
 $image_small = 'bilder/problem/424x324/perioral-dermatit.webp';
 $image_large = 'bilder/problem/424x456/perioral-dermatit.webp';
 $image_title = 'Visar en hud med perioral dermatit';

@@ -11,6 +11,11 @@ $seo_keywords = 'seborré, seborrébehandling, orsaker till seborré, förebygga
 
 $title = 'Seborré';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Seborré', '/seborre.php'),
+);
+
 $image_small = 'bilder/problem/424x324/seborre.webp';
 $image_large = 'bilder/problem/424x456/seborre.webp';
 $image_title = 'Visar en hud med seborré';

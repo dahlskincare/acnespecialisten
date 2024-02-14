@@ -11,6 +11,11 @@ $seo_keywords = 'ärr från finnar, ärr från finnar Stockholm, ärr från finn
 
 $title = 'Ärr från Finnar';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Ärr från finnar', '/finnar-arr.php'),
+);
+
 $image_small = 'bilder/problem/424x324/arr-fran-finnar.webp';
 $image_large = 'bilder/problem/424x456/arr-fran-finnar.webp';
 $image_title = 'Visar en hud med ärr från finnar';

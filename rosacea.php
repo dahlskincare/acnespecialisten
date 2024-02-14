@@ -11,6 +11,11 @@ $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga ro
 
 $title = 'Rosacea';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Rosacea', '/rosacea.php'),
+);
+
 $image_small = 'bilder/problem/424x324/rosacea.webp';
 $image_large = 'bilder/problem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rosacea';

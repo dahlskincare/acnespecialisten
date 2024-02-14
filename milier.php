@@ -11,6 +11,11 @@ $seo_keywords = 'milier, behandling av milier, orsaker till milier, förebygga m
 
 $title = 'Milier';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Milier', '/milier.php'),
+);
+
 $image_small = 'bilder/problem/424x324/milier.webp';
 $image_large = 'bilder/problem/424x456/milier.webp';
 $image_title = 'Visar en hud med milier';

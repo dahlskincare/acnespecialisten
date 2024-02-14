@@ -11,6 +11,11 @@ $seo_keywords = 'torr hy, torr hud, känslig hy, känslig hud, hudvård, föreby
 
 $title = 'Torr och Känslig Hy';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Torr & Känslig hy', '/torr-hy.php'),
+);
+
 $image_small = 'bilder/problem/424x324/torr-kanslig-hy.webp';
 $image_large = 'bilder/problem/424x456/torr-kanslig-hy.webp';
 $image_title = 'Visar en hy som är torr och känslig';

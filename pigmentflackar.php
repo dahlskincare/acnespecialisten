@@ -11,6 +11,11 @@ $seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pi
 
 $title = 'Pigmentfläckar';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Pigmentfläckar', '/pigmentflackar.php'),
+);
+
 $description = 'Pigmentfläckar, som åldersfläckar eller melasma, uppstår från ojämn melaninproduktion. Denna sida utforskar de underliggande orsakerna och ger en översikt över behandlingsalternativ för att jämna ut hudtonen.';
 
 $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
