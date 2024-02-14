@@ -24,7 +24,7 @@ $image_title = 'Visar en hud med oönskat hår';
 $image_alt = 'Bild som illustrerar hur oönskat hår ser ut på huden';
 $description = 'Oönskat hår kan påverka olika delar av kroppen och ansiktet. Denna sida utforskar de underliggande orsakerna till oönskad hårväxt och de olika metoder som finns tillgängliga för hårborttagning.';
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval";
 $consultation_url_title = "Gratis Konsultation för Oönskat Hår";
 
@@ -32,13 +32,13 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=permanent_harborttagning";
 $booking_url_title = "Boka Behandling för Oönskat Hår";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Oönskat Hår";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka Behandling för Oönskat Hår";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för Oönskat Hår";
 
 $floating_booking_url_label = "Boka behandling";

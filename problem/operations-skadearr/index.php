@@ -44,7 +44,7 @@ $akas = [
       ),
 ];
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars";
 $consultation_url_title = "Gratis Konsultation för Ärr";
 
@@ -52,13 +52,13 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars";
 $booking_url_title = "Boka Ärrbehandling";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för Ärr";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka Ärrbehandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för Ärr";
 
 $floating_booking_url_label = "Boka behandling";
