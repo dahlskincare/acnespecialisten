@@ -543,13 +543,13 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vilka är de möjliga komplikationerna av rosacea om den inte behandlas?',
-                  text: '<p class="p200">Om rosacea inte behandlas kan den leda till permanenta förändringar i huden, såsom förtjockning och klumpighet, särskilt runt näsan (en tillstånd som kallas rhinophyma). Rosacea kan också orsaka allvarliga ögonproblem, inklusive infektioner och inflammation i ögonlocket och hornhinnan, vilket kan leda till synskador om det inte behandlas.</p>'
+                  text: '<p class="p200">Om rosacea inte behandlas kan den leda till permanenta förändringar i huden, såsom förtjockning och klumpighet, särskilt på näsan (ett tillstånd som kallas rhinophyma). Synliga och brustna blodkärl uppstår även vanligtvis vid rosacea.</p>'
             ),
             new Question(
-                  title: 'Är det någon koppling mellan rosacea och kost, och finns det några livsstilsförändringar som kan hjälpa till att hantera sjukdomen?',
+                  title: 'Är det någon koppling mellan rosacea, kost och livsstil?',
                   text: '<p class="p200">Ja, vissa individer med rosacea har rapporterat att vissa livsmedel och drycker, som alkohol och kryddstark mat, kan förvärra deras symptom. Undvikande av extrem hetta och kyla samt stark sol kan också vara gynnsamt, då dessa faktorer ofta kan förvärra rosacea. Stresshantering är ytterligare en faktor att ta hänsyn till vid hantering av rosacea.</p>
 
-                        <p class="p200 mt-m">Men vi på AcneSpecialisten förstår att det kan vara en stor utmaning att konstant justera din livsstil för att hantera din rosacea. Vi är här för att hjälpa. Genom att erbjuda effektiva behandlingar mot rosacea strävar vi efter att du ska kunna leva ditt liv som du vill, utan att behöva oroa dig för dina symptom. Ta gärna kontakt med oss för mer information om hur vi kan hjälpa dig att hantera din rosacea.</p>'
+                        <p class="p200 mt-m">Men vi på AcneSpecialisten förstår att det kan vara en stor utmaning att konstant justera din livsstil för att hantera din rosacea. Därför hjälper vi dig att effektivt behandla rosacean med hjälp av rätt hudvård och behandlingar så att du slipper anpassa ditt liv efter din hy.</p>'
             ),
       ),
 );
