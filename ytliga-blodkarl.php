@@ -19,7 +19,7 @@ $path_segments = array(
 $image_small = 'bilder/problem/424x324/ytliga-blodkarl.webp';
 $image_large = 'bilder/problem/424x456/ytliga-blodkarl.webp';
 $image_title = 'Visar en hud med ytliga blodkärl';
-$image_alt = 'Bild som illustrerar hur ytliga blodkärl ser ut på huden';
+$image_alt = 'Ytliga blodkärl i ansiktet';
 $description = 'Ytliga blodkärl, som kan visa sig som spindelkärl eller synliga kärl, är små, utvidgade blodkärl under hudytan. Vi förklarar hur och varför de bildas och vilka områden av kroppen som oftast påverkas.';
 
 $akas = [
