@@ -99,7 +99,7 @@ $trivias = array(
 
             extended_content: '<p class="p200 mt-xl">Näsans vävnad kan också påverkas av rosacea, särskilt hos män, vilket resulterar i en tillstånd som kallas rhinophyma. Rhinophyma är en form av rosacea där huden på näsan blir tjock och knölig. Även om rosacea primärt påverkar ansiktet, kan det i vissa fall sprida sig till hals, bröst, öron och till och med hårbotten.</p>
 
-            <p class="p200 mt-xl">Det är viktigt att påpeka att rosaceas manifestationer varierar från individ till individ, och dess exakta plats på kroppen kan variera beroende på flera faktorer, inklusive din genetiska predisposition och miljöfaktorer. På AcneSpecialisten är vi experter på att hantera alla former av rosacea, oavsett var de uppträder på kroppen. Vårt team av hudvårdsexperter är redo att erbjuda individualiserad behandling som kommer att hantera dina specifika symtom och förbättra din livskvalitet.</p>',
+            <p class="p200 mt-xl">Det är viktigt att påpeka att rosacea varierar från individ till individ, och dess exakta plats på kroppen kan variera beroende på flera faktorer, inklusive din genetiska benägenhet och miljöfaktorer. På AcneSpecialisten är vi experter på att hantera alla former av rosacea, oavsett var de uppträder på kroppen. Vårt team av hudvårdsexperter är redo att erbjuda individualiserad behandling som kommer att hantera dina specifika symtom och förbättra din livskvalitet.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kinder' => 'Kinder', 'nasa' => 'Näsa')
       ),
 );
