@@ -627,20 +627,6 @@ $faq_categories = array(
                   text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård, solskydd, en balanserad kost, och en hälsosam livsstil kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
             ),
       ),
-      'Behandling mot mogen hy' => array(
-            new Question(
-                  title: 'Vilka typer av behandlingar rekommenderas oftast för mogen hy?',
-                  text: '<p class="p200">För mogen hy rekommenderas ofta behandlingar som fokuserar på återfuktning, återställande av hudens elasticitet och reduktion av fina linjer och rynkor. Detta kan inkludera mikroneedling, kemiska peelingar och laserbehandlingar. Det är också vanligt att rekommendera produkter med aktiva ingredienser som retinol, hyaluronsyra och antioxidanter.</p>'
-            ),
-            new Question(
-                  title: 'Vilken roll spelar hemmavård i behandlingen av mogen hy?',
-                  text: '<p class="p200">Hemmavård är avgörande för att upprätthålla resultaten av professionella behandlingar och för att stödja hudens hälsa. Detta innebär att använda kvalitativa produkter som är lämpliga för mogen hy och att följa en regelbunden hudvårdsrutin som rengöring, toning, återfuktning och solskydd.</p>'
-            ),
-            new Question(
-                  title: 'Finns det några specifika ingredienser jag bör leta efter i produkter för mogen hy?',
-                  text: '<p class="p200">Absolut, för mogen hy är det fördelaktigt att leta efter produkter som innehåller retinol, hyaluronsyra, peptider, ceramider, antioxidanter (som vitamin C och E) och solskyddsfaktor. Dessa ingredienser hjälper till att återställa hudens elasticitet, återfukta, skydda mot fria radikaler och förebygga ytterligare åldrande.</p>'
-            ),
-      ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";

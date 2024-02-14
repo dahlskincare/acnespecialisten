@@ -466,23 +466,9 @@ $faq_categories = array(
                   title: 'Hur kan jag förebygga uppkomsten av hudförändringar?',
                   text: '<p class="p200">Några grundläggande åtgärder inkluderar att använda solskydd regelbundet, undvika överdriven solning, ha på sig skyddande klädsel under intensiv sol, inte röka, äta en balanserad kost, och genomgå regelbundna hudkontroller.</p>'
             ),
-      ),
-      'Behandling mot akne' => array(
             new Question(
                   title: 'Är det smärtsamt att ta bort hudförändringar?',
                   text: '<p class="p200">Tack vare CryoPen kan vi med kryoterapi, vilket är en metod som använder kyla för att frysa och eliminera hudförändringar. Under behandlingen kan vissa individer uppleva en stickande känsla eller ett kortvarigt obehag när förändringen fryses. Storleken och placeringen av hudförändringen kan påverka obehagskänslan. Efter behandlingen kan det området uppvisa tecken på rodnad, svullnad eller bli lite ömt, men detta brukar vara övergående. Generellt sett anses CryoPen vara en av de mildare och mindre smärtsamma metoderna för att ta bort hudförändringar.</p>'
-            ),
-            new Question(
-                  title: 'Hur lång tid tar det att återhämta sig efter borttagning av en hudförändring?',
-                  text: '<p class="p200">Återhämtningstiden varierar beroende på behandlingsmetoden, vid behandling med CryoPen varierar beroende på storleken och placeringen av hudförändringen som har behandlats. Generellt sett, efter en CryoPen-behandling, kan området bli rött och svullet i början, men detta minskar vanligtvis inom några timmar till ett par dagar. Skorpbildning kan också uppstå, vilken naturligt släpper efter några dagar upp till en vecka, beroende på behandlingsområdet. Det är viktigt att följa eftervårdanvisningarna för att minimera risken för ärrbildning eller infektion.</p>'
-            ),
-            new Question(
-                  title: 'Vilka alternativ finns till kirurgisk borttagning av hudförändringar?',
-                  text: '<p class="p200">Det finns flera icke-kirurgiska alternativ för att ta bort hudförändringar. Ett populärt och effektivt alternativ är CryoPen, som använder kryoterapi för att frysa och eliminera hudförändringar.</p>'
-            ),
-            new Question(
-                  title: 'Kan hudförändringar komma tillbaka efter behandling?',
-                  text: '<p class="p200">Möjligheten finns att hudförändringar kan komma tillbaka även efter behandling. När vi tar bort en hudförändring adresserar vi den synliga manifestationen, men vi kanske inte alltid behandlar den underliggande orsaken som ledde till förändringen från första början. Således, om den ursprungliga utlösande faktorn inte har behandlats eller motverkats, kan nya hudförändringar potentiellt uppstå.</p>'
             ),
       ),
 );

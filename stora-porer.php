@@ -467,27 +467,9 @@ $faq_categories = array(
                   title: 'Kan stora porer leda till andra hudproblem?',
                   text: '<p class="p200">Ja, stora porer kan leda till andra hudproblem. Förutom ovan nämnda akne kan stora porer fyllas med smuts, talg och döda hudceller, vilket kan leda till komedoner (pormaskar och whiteheads). Om de inte rengörs ordentligt kan dessa blockeringar bli inflammerade och utvecklas till pustler, papler eller cystor. Dessutom kan huden med stora porer ha en grov och ojämn textur, vilket kan påverka dess övergripande utseende och känsla.</p>'
             ),
-      ),
-      'Behandling mot akne' => array(
             new Question(
                   title: 'Vilka typer av behandlingar finns för stora porer?',
                   text: '<p class="p200">Det finns flera behandlingsalternativ tillgängliga för stora porer. Traditionella ansiktsbehandlingar kan vara till stor hjälp för att djuprengöra huden och dra samman porerna. Microneedling, även känd som kollageninduktionsterapi, involverar användning av små nålar för att skapa mikroskador i huden, vilket uppmuntrar produktionen av kollagen och kan förbättra hudens textur och minska porstorleken. Laserbehandlingar använder ljusenergi för att effektivt minska porernas storlek och stimulera produktionen av kollagen, vilket ger en jämnare hudton. Kemiska peelingar, som använder syror för att exfoliera huden, kan också rensa ut porerna och stimulera kollagenproduktion, vilket resulterar i mindre och mindre framstående porer. Med rätt behandlingsalternativ kan stora porer behandlas effektivt och ge en klarare, jämnare hudton.</p>'
-            ),
-            new Question(
-                  title: 'Hur ofta bör jag genomgå ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
-                  text: '<p class="p200">Frekvensen för behandlingarna varierar beroende på vilken typ du väljer. Regelbundna ansiktsbehandlingar kan rekommenderas månatligen, medan microneedling kan kräva färre sessioner med några veckors mellanrum. Laserbehandlingar kan vara ännu mer sällsynta beroende på intensiteten, och kemiska peelingar kan kräva varierande tidsintervall beroende på styrkan av peelingen. Rådgör alltid med en hudterapeut för att avgöra vad som passar bäst för din hudtyp och dina individuella behov.</p>'
-            ),
-            new Question(
-                  title: 'Är resultaten från ansiktsbehandlingar, microneedling, laser och kemisk peeling permanenta?',
-                  text: '<p class="p200">Ingen behandling erbjuder permanenta resultat eftersom huden naturligt förändras med tiden och påverkas av olika faktorer. Men regelbunden behandling och rätt hudvård kan förlänga effekterna av varje session. Medan vissa tekniker, som laserbehandling, kan ge mer långvariga resultat, kommer upprepade behandlingar förmodligen att behövas över tid.</p>'
-            ),
-            new Question(
-                  title: 'Vilka biverkningar kan jag förvänta mig efter ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
-                  text: '<p class="p200">Efter ansiktsbehandlingar kan man uppleva lätt rodnad. Microneedling kan leda till svullnad och rodnad. Laserbehandlingar kan orsaka rodnad, svullnad och i sällsynta fall skorpor. Kemiska peelingar kan orsaka rodnad, torrhet, flagning eller i intensiva fall skälning av huden. Det är viktigt att diskutera och förstå alla potentiella biverkningar med din hudspecialist innan du påbörjar någon behandling.</p>'
-            ),
-            new Question(
-                  title: 'Hur länge behöver jag vänta mellan sessioner av ansiktsbehandlingar, microneedling, laser och kemisk peeling?',
-                  text: '<p class="p200">Väntetiden mellan sessioner varierar. Ansiktsbehandlingar kan oftast utföras månatligen. Microneedling kan kräva några veckors mellanrum, medan laserbehandlingar kan behöva flera månader beroende på hudens respons och behandlingens intensitet. Kemiska peelingar har också varierande väntetider beroende på deras styrka. En hudspecialist kommer att ge dig en detaljerad plan baserad på den specifika behandlingen och dina huds behov.</p>'
             ),
       ),
 );

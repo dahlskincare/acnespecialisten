@@ -337,7 +337,7 @@ $services = array(
             image_title: 'Behandling mot milier',
 
             url: 'milierbehandling.php',
-            url_label: 'Läs mer om behandling mot milier',
+            url_label: 'Läs mer om ansiktsbehandling mot milier',
             url_title: 'Klicka här för att läsa mer om behandling mot milier',
 
             consultation_url_label: 'Boka konsultation',
@@ -462,27 +462,12 @@ $faq_categories = array(
                   title: 'Vad skiljer milier från finnar?',
                   text: 'Det finns inget direkt samband mellan milier och akne eller eksem, även om de kan uppträda samtidigt. Milier är fyllda med keratin snarare än talg, som är fallet med akne. De kan dock förekomma i områden där huden är skadad eller inflammerad, som kan vara fallet med eksem.</p>'
             ),
-
-      ),
-      'Behandling mot milier' => array(
-            new Question(
-                  title: 'Vilka behandlingsmetoder finns för att ta bort milier?',
-                  text: '<p class="p200">Behandlas genom extraktion med en steril nål. Behandlingen utförs av en hudterapeut.</p>'
-            ),
-            new Question(
-                  title: 'Är behandlingar för att ta bort milier smärtsamma?',
-                  text: '<p class="p200">Smärtnivån varierar beroende på behandlingsmetoden och individens smärttolerans. Vissa metoder som elektrokauteri och kryoterapi kan kännas obekväma, men är oftast inte smärtsamma. Lokalbedövning kan användas för att minska obehag.</p>'
-            ),
             new Question(
                   title: 'Hur länge tar det att se resultat efter en behandling för milier?',
                   text: '<p class="p200">Resultaten kan ses omedelbart efter behandlingen då milierna extraheras. Därefter kan det ta några dagar till veckor för huden att läka helt och för milier att försvinna helt, i vissa fall kan flera behandlingar krävs för att få bort milierna helt och hållet.</p>'
             ),
             new Question(
-                  title: 'Finns det några biverkningar eller risker med behandlingen av milier?',
-                  text: '<p class="p200">Biverkningar är i allmänhet minimala men kan inkludera rodnad, svullnad eller en brännande känsla direkt efter behandlingen.</p>'
-            ),
-            new Question(
-                  title: 'Hur kan jag förhindra att milier återkommer efter en behandling?',
+                  title: 'Hur kan jag förhindra att milier återkommer?',
                   text: '<p class="p200">Förhindrande av milier inkluderar god hudvård som rengöring och återfuktning samt att identifiera de yttre faktorer som bidragit till att milierna uppstått.</p>'
             ),
       ),

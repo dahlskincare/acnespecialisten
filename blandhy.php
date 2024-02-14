@@ -540,8 +540,6 @@ $faq_categories = array(
                   title: 'Hur påverkar årstiderna och klimatet blandhy?',
                   text: '<p class="p200">Årstider och klimat kan ha en stor inverkan på blandhy. Till exempel kan kallt och torrt vinterklimat göra att huden känns torrare, medan fuktigt och varmt sommarklimat kan öka oljeproduktionen. Det är viktigt för personer med blandhy att anpassa sin hudvårdsrutin efter årstiderna för att bäst ta hand om de varierande behoven hos deras hud.</p>'
             ),
-      ),
-      'Behandling mot akne' => array(
             new Question(
                   title: 'Vad är den mest effektiva behandlingsmetoden för blandhy?',
                   text: '<p class="p200">Blandhy är unik eftersom det innebär att man har både torra och oljiga områden på huden, oftast torra kinder och en oljig T-zon (panna, näsa och haka). Den mest effektiva behandlingsmetoden är därför ofta en kombination av produkter och behandlingar. Det handlar om att använda återfukta och balansera huden effektivt för att reklera både de oljia och torra partierna.</p>'
@@ -549,14 +547,6 @@ $faq_categories = array(
             new Question(
                   title: 'Är det viktigt att använda en fuktkräm även på de oljiga delarna av mitt ansikte?',
                   text: '<p class="p200">Ja, det är viktigt. Många tror felaktigt att de oljiga delarna av ansiktet har ett överskott av fukt ochdärför inte behöver återfuktning. Men i själva verket är oljiga partier och fukt två helt olika saker. Oljan är i själva verket talg som produceras av huden för att skydda och återfukta torr hud. Därför är det viktigt att återfukta både oljiga och torra delar av huden för att reglera och reducera talgproduktionen.</p>'
-            ),
-            new Question(
-                  title: 'Finns det några professionella behandlingar som är särskilt bra för blandhy?',
-                  text: '<p class="p200">Ja, det finns flera professionella behandlingar som kan vara effektiva för blandhy. Exempelvis kan mikrodermabrasion vara effektivt för att avlägsna döda hudceller och stimulera cellförnyelse, vilket kan balansera hudens textur och ton. Kemiska peelingar kan också anpassas för att behandla både de torra och oljiga områdena på huden. Hydrafacial är en annan populär behandling som kombinerar exfoliering, rengöring och återfuktning i ett och kan anpassas för blandhy. Det bästa är att konsultera en hudspecialist eller estetiker för att diskutera de bästa behandlingsalternativen för din specifika hudtyp.</p>'
-            ),
-            new Question(
-                  title: 'Hur många behandlingar behövs?',
-                  text: '<p class="p200">Solskydd är avgörande för alla hudtyper, inklusive blandhy. Solens UV-strålar kan orsaka för tidigt åldrande, pigmentfläckar och öka risken för hudcancer. För personer med blandhy är det ofta bäst att välja en solkräm med bred spektrum (skydd mot både UVA- och UVB-strålar).  Det viktiga är att hitta en solkräm som är anpassad för huden i ansiktet och att använda den dagligen, oavsett väder.</p>'
             ),
       ),
 );

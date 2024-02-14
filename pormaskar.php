@@ -587,9 +587,6 @@ $faq_categories = array(
                   text: '<p class="p200">Pormaskar i sig är inte farliga, men om de inte behandlas kan de utvecklas till inflammerad akne. Dessutom kan felaktig hantering eller klämning av pormaskar leda till inflammation, infektion och ärrbildning.</p>
                 <p class="p200 mt-m">Det är också viktigt att notera att pormaskar kan vara ett tidigt tecken på andra hudproblem som rosacea eller dermatit. Därför kan tidig behandling och en noggrann hudvårdsrutin inte bara förhindra pormaskar, men även minska risken för andra mer allvarliga hudproblem.</p>'
             ),
-
-      ),
-      'Behandling mot pormaskar' => array(
             new Question(
                   title: 'Vilka är de mest effektiva behandlingarna för pormaskar?',
                   text: '<p class="p200">De mest effektiva behandlingarna för att ta hand om pormaskar kan variera från person till person, men det finns flera allmänt erkända metoder som har visat sig vara effektiva. Hudvårdsprodukter i kombination med portömning utförd av kvalificerade hudterapeuter behandlar effektivt pormaskar. Detta är en omedelbar lösning och resultat kan ses direkt efter behandlingen, även om uppföljande behandlingar ofta är nödvändiga för långsiktiga resultat.</p>'
@@ -603,16 +600,6 @@ $faq_categories = array(
                   title: 'Vilka risker finns det med att behandla pormaskar själv?',
                   text: '<p class="p200">Behandla pormaskar själv kan leda till skada på huden, inklusive infektioner, ärrbildning, och ökad inflammation. Dessutom kanske man inte väljer den mest effektiva behandlingen för sin hudtyp eller problem.</p>
                 <p class="p200 mt-m">Felaktig användning av verktyg eller produkter, såsom pormaskborttagare, kan också skada huden och förvärra tillståndet. För att undvika dessa risker är det viktigt att konsultera en kvalificerad hudvårdsspecialist.</p>'
-            ),
-            new Question(
-                  title: 'Hur ofta bör man gå på professionell behandling för pormaskar?',
-                  text: '<p class="p200">Det beror på svårighetsgraden av ens pormaskar och vilken typ av behandling man väljer. Många hudterapeuter rekommenderar månatliga besök för optimala resultat.</p>
-                <p class="p200 mt-m">Frekvensen kan också variera beroende på din hudtyp, ålder och livsstil. En regelbunden uppföljning med en hudterapeut kommer inte bara att hjälpa dig att upprätthålla en frisk hud utan också justera din behandlingsplan baserat på hur din hud svarar.</p>'
-            ),
-            new Question(
-                  title: 'Finns det några huskurer som faktiskt fungerar?',
-                  text: '<p class="p200">Vissa tror att ingredienser som honung, äggvita och havregryn kan hjälpa till att dra ut pormaskar, men vetenskapliga bevis för dessa metoder är begränsade. Även om vissa huskurer kan vara skonsamma, är det alltid bäst att konsultera med en hudvårdsexpert innan man provar dem.</p>
-                <p class="p200 mt-m">En del huskurer kan faktiskt förvärra situationen, särskilt om du har känslig eller reaktiv hud. I vissa fall kan naturliga ingredienser som citron eller äppelcidervinäger vara irriterande och leda till mer skada än nytta.</p>'
             ),
             new Question(
                   title: 'Kan man helt bli av med pormaskar?',

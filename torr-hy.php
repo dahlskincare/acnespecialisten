@@ -678,24 +678,6 @@ $faq_categories = array(
                   text: '<p class="p200">Det kan vara svårt att differentiera mellan torr hud och andra hudåkommor som eksem eller psoriasis utan professionell diagnos. Torr hud är generellt sett karakteriserad av torrhet och skalning, medan eksem och psoriasis oftast innefattar rodnad, inflammation och ibland klåda. Om du är osäker, är det bäst att söka professionell rådgivning för att fastställa den exakta orsaken och få en anpassad behandlingsplan.</p>'
             ),
       ),
-      'Behandling mot akne' => array(
-            new Question(
-                  title: 'Vilka dagliga rutiner kan lindra symtomen på torr och känslig hud?',
-                  text: '<p class="p200">Att ha en daglig hudvårdsrutin kan göra en stor skillnad i hanteringen av torr och känslig hud. Grundläggande steg inkluderar skonsam rengöring, applicering av en fuktgivande kräm direkt efter bad eller dusch och användning av dagkräm. Det är också viktigt att undvika faktorer som kan förvärra din hud såsom starka tvålar. Vidare kan användning av en luftfuktare och dricka tillräckligt med vatten också vara fördelaktigt.</p>'
-            ),
-            new Question(
-                  title: 'Är det några specifika livsstilsförändringar som kan hjälpa i behandlingen av torr och känslig hud?',
-                  text: '<p class="p200">Ja, livsstilsförändringar kan definitivt hjälpa. Dricka tillräckligt med vatten, äta en balanserad kost rik på antioxidanter och essentiella fettsyror, och undvika rökning och överdriven alkoholkonsumtion kan bidra till bättre hudhälsa. Dessutom kan att hålla en jämn sömnrytm och undvika överdriven exponering för sol och vind ha en positiv effekt på din hud.</p>'
-            ),
-            new Question(
-                  title: 'Hur ofta bör man applicera fuktgivande kräm eller lotion om man har torr hud?',
-                  text: '<p class="p200">För personer med torr hud är det vanligtvis bäst att applicera fuktgivande kräm minst två gånger om dagen - på morgonen och på kvällen. I vissa fall kan ytterligare appliceringar under dagen vara nödvändiga, särskilt på vintern eller i torra klimat. Det är också bra att applicera en kräm direkt efter dusch eller bad, när huden är något fuktig, för att låsa in fukten.</p>'
-            ),
-            new Question(
-                  title: 'Är det några specifika behandlingar som kan vara fördelaktiga för torr och känslig hud?',
-                  text: '<p class="p200">För torr och känslig hud bör mer aggressiva behandlingar som kemiska peelingar och mikrodermabrasion undvikas eller användas med stor försiktighet, då de kan orsaka ytterligare irritation och torrhet. Behandlingar som fuktgivande masker, mild exfoliering och hyaluronsyra-injektioner kan istället vara mer lämpliga. Det är alltid bäst att rådgöra med en hudvårdsexpert innan du inleder någon ny behandlingsregim.</p>'
-            ),
-      ),
 );
 
 $faq_url_label = "Läs fler frågor & svar";

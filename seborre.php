@@ -192,7 +192,7 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer om vår hudkonsultation',
+      url_label: 'Läs mer om konsultation mot seborré',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 
 );
@@ -370,8 +370,6 @@ $faq_categories = array(
                   title: 'Vad kan jag göra för att minska rödhet och klåda orsakad av seborré?',
                   text: '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda behandlingsplaner för att hantera seborré och dess symtom. Beroende på ditt specifika tillstånd kan detta inkludera råd om hudvård och livsstil, samt specifika behandlingar riktade mot att kontrollera överdriven talgproduktion och reducera inflammation. Vårt mål är att förbättra din hy och livskvalitet genom att hjälpa dig hantera ditt seborré på bästa möjliga sätt.</p>'
             ),
-      ),
-      'Behandling mot seborré' => array(
             new Question(
                   title: 'Vilka behandlingar finns tillgängliga för seborré hos AcneSpecialisten?',
                   text: '<p class="p200">Hos AcneSpecialisten erbjuder vi olika behandlingar för att hantera och lindra symtomen på seborré. Efter en noggrann hudanalys och konsultation skräddarsyr vi en behandlingsplan som kan inkludera professionella behandlingar såsom specialanpassade ansiktsbehandlingar och hudvårdsprodukter som balanserar talgproduktionen, reducera inflammation och förbättra hudens textur och utseende.</p>'
@@ -381,26 +379,8 @@ $faq_categories = array(
                   text: '<p class="p200">Resultaten kan variera beroende på olika faktorer, inklusive svårighetsgraden av din seborré, din hudtyp och hur konsekvent du följer din personliga behandlingsplan. Vissa människor märker en förbättring av sina symtom redan efter en vecka, medan det för andra kan ta ett par veckor innan de ser märkbara resultat. Vi är engagerade i att arbeta med dig för att hitta den mest effektiva behandlingsplanen för att uppnå dina hudvårdsmål.</p>'
             ),
             new Question(
-                  title: 'Hur länge varar resultaten från behandlingarna?',
-                  text: '<p class="p200">Varaktigheten av resultaten från seborrébehandlingar kan variera beroende på flera faktorer, inklusive din individuella hudtyp, svårighetsgraden av dina symtom, din livsstil och hur noggrant du följer din eftervårdsplan. Precis som med alla hudvårdsrutiner kräver seborré ofta daglig uppmärksamhet. Genom att bibehålla en daglig hudvårdsrutin som omfattar rengöring, återfuktning och regelbundna behandlingar kan vi effektivt behandla seborré och förebygga återkommande symptom.</p>
-
-                        <p class="p200 mt-m">Att förstå att det handlar om daglig skötsel, snarare än en engångsbehandling, är nyckeln till framgång när det gäller att hantera seborré. På AcneSpecialisten arbetar vi tillsammans med dig för att utveckla en rutin som passar ditt liv och dina behov, och ger dig verktygen och kunskapen för att uppnå och behålla hälsosam hud.</p>'
-            ),
-            new Question(
-                  title: 'Är behandlingarna för seborré säkra?',
-                  text: '<p class="p200">Ja, behandlingar för seborré på AcneSpecialisten är säkra. Vi använder bara beprövade metoder och tekniker, och alla våra behandlingar utförs av välutbildade hudterapeuter. Vi prioriterar alltid säkerheten och komforten för våra kunder och arbetar för att säkerställa att du känner dig trygg och omhändertagen under hela behandlingsprocessen.</p>'
-            ),
-            new Question(
                   title: 'Behöver jag fortsätta behandlingen även när mina symtom förbättras?',
                   text: '<p class="p200">Ja, seborré kan vara ett kroniskt tillstånd för vissa människor, vilket innebär att även om symtomen förbättras kan de komma tillbaka om behandlingen upphör. För att bibehålla dina resultat rekommenderar vi att du fortsätter att följa din skräddarsydda hudvårdsrutin och regelbundet återvänder till oss för professionell vård och rådgivning.</p>'
-            ),
-            new Question(
-                  title: 'Vilka produkter ska jag använda hemma för att komplettera mina behandlingar?',
-                  text: '<p class="p200">Vi erbjuder ett brett sortiment av produkter som du kan använda hemma för att stödja och komplettera dina professionella behandlingar. Dessa inkluderar specialiserade ansiktsrengöringsmedel, fuktighetskrämer, exfolianter och produkter för att kontrollera talgproduktionen. Under din konsultation kommer vi att rekommendera de bästa produkterna för din hudtyp och tillstånd.</p>'
-            ),
-            new Question(
-                  title: 'Kommer min seborré att försvinna helt efter behandling?',
-                  text: '<p class="p200">Seborré kan vara ett kroniskt tillstånd, och det är möjligt att du kan behöva fortsätta behandlingar och hudvård för att hålla symtomen under kontroll. Vårt mål på AcneSpecialisten är att hjälpa dig att hantera ditt tillstånd på bästa möjliga sätt och att förbättra din hudhälsa och självkänsla. Vi är engagerade i att arbeta med dig för att hitta den mest effektiva behandlingsplanen för att uppnå dina hudvårdsmål.</p>',
             ),
       ),
 );

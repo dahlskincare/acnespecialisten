@@ -126,7 +126,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att finna en hudvårdsrutin och rekommenderar produkter speciellt anpassade för känslig hud och perioral dermatit. Detta kommer att minimera risken för framtida utbrott och hålla din hud i balans.',
+            content: 'Vi hjälper dig att finna en hudvårdsrutin och rekommenderar produkter speciellt anpassade för känslig hud och perioral dermatit.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
@@ -407,7 +407,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för behandling av perioral dermatit',
       image_title: 'Konsultation för behandling av perioral dermatit',
 
-      url_label: 'Läs mer om gratis hudkonsultation mot perioral dermatit',
+      url_label: 'Läs mer om konsultation mot perioral dermatit',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
@@ -595,23 +595,9 @@ $faq_categories = array(
                   title: 'Är det några särskilda faktorer som ökar risken för att utveckla perioral dermatit, som exempelvis livsstil eller genetik?',
                   text: '<p class="p200">Det finns flera faktorer som kan öka risken för att utveckla perioral dermatit. Kvinnor verkar vara mer benägna att utveckla tillståndet än män, och det verkar även vara vanligare bland personer i åldern 20-45 år. Långvarig användning av topiska steroider kan också vara en riskfaktor. Livsstilsfaktorer som stress eller hormonella förändringar (som graviditet eller användning av hormonella preventivmedel) kan också spela en roll. Det är dock viktigt att notera att perioral dermatit kan drabba vem som helst, och dess exakta orsak är inte alltid känd.</p>'
             ),
-      ),
-      'Behandling mot perioral dermatit' => array(
             new Question(
                   title: 'Vilka behandlingsalternativ finns tillgängliga för perioral dermatit?',
                   text: '<p class="p200">Det finns flera behandlingsalternativ beroende på svårighetsgraden av tillståndet. Problemet behandlas effektivt med en skräddarsydd hudvårdsrutin i kombination med ansiktsbehandlingar. Det är också viktigt att undvika utlösande faktorer, såsom starka hudvårdsprodukter eller topiska steroider. I dessa fall rekommenderas en så kallad "nollbehandling" där man undviker samliga produkter för att identifiera och eliminera det som triggat igång problemet.</p>'
-            ),
-            new Question(
-                  title: 'Hur lång tid tar det att se förbättringar efter påbörjad behandling?',
-                  text: '<p class="p200">Tiden det tar att se förbättringar kan variera från person till person och beror på svårighetsgraden av tillståndet samt vilken behandling som används. Vid effektiv behandling brukar förbättring synas inom några veckor, men ett fullständigt resultat kan ta några månader. Det är viktigt att följa hudterapeutens anvisningar och att fullfölja hela behandlingskuren, även om symptomen förbättras.</p>'
-            ),
-            new Question(
-                  title: 'Är det möjligt att behandla perioral dermatit med naturliga metoder?',
-                  text: '<p class="p200">Vissa naturliga metoder, som att ändra på kost eller livsstil, kan möjligen ha en viss effekt, men vetenskapliga bevis för deras effektivitet är oftast begränsade. I de fall där perioral dermatit orsakats av en särskilt yttre faktor brukar det räcka med att undvika denna orsak. Men i vanliga fall är orsaken oklar och det är då viktigt att söka sig till en kunnig hudterapeut som kan identifiera problemet och ta fram en effektiv behandlingsplan.</p>'
-            ),
-            new Question(
-                  title: 'Vilka är riskerna eller bieffekterna av att behandla perioral dermatit?',
-                  text: '<p class="p200">Som med alla behandlingar finns det potentiella bieffekter. En anpassad hudvårdsplan kan dock behandla problemet effektivt samtidigt som eventuella bieffekter under behandlingen minimeras. Det är därför viktigt att vända dig till en specialist som kan förklara vad behandlingen går ut på och vad du kan förvänta dig av processen.</p>'
             ),
             new Question(
                   title: 'Finns det något sätt att förebygga återkommande episoder av perioral dermatit?',
