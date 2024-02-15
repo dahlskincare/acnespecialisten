@@ -132,7 +132,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår pormaskbehandling</a>';
+$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om behandlingar mot pormaskar</a>';
 /*
 $types_title = 'Olika typer av pormaskar';
 
@@ -265,8 +265,8 @@ $symptoms = array(
       new Symptom(
             name: 'Öppna Komedoner',
             image: 'bilder/symptom/102x102/oppna-komedoner.webp',
-            content: 'Öppna komedoner, ofta kallade svarta pormaskar, är små mörka fläckar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
-            aka: 'Även kända som svarta pormaskar',
+            content: 'Öppna komedoner, ofta kallade svarta pormaskar, är små mörka prickar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
+            aka: 'Svarta pormaskar',
             image_alt: 'Bild av öppna komedoner',
             image_title: 'Öppna Komedoner'
       ),
@@ -275,7 +275,7 @@ $symptoms = array(
             name: 'Stängda Komedoner',
             image: 'bilder/symptom/102x102/stangda-komedoner.webp',
             content: 'Stängda komedoner, eller vita pormaskar, är små, hudfärgade upphöjningar som bildas när talg och döda hudceller blockar en por. De är täckta av hud och oxideras inte, vilket håller dem vita eller hudfärgade.',
-            aka: 'Även kända som vita pormaskar',
+            aka: 'Vita pormaskar',
             image_alt: 'Bild av stängda komedoner',
             image_title: 'Stängda Komedoner'
       ),
@@ -284,7 +284,7 @@ $symptoms = array(
             name: 'Ojämn Hudtextur',
             image: 'bilder/symptom/102x102/ojamn-hudton.webp',
             content: 'Områden som är drabbade av pormaskar kan ha en ojämn, nästan sandpappersliknande textur.',
-            aka: 'Känns som grusig hud',
+            aka: 'Grusig hud',
             image_alt: 'Bild av ojämn hudtextur',
             image_title: 'Ojämn Hudtextur'
       ),
@@ -311,7 +311,7 @@ $symptoms = array(
             name: 'Överflödig Oljighet',
             image: 'bilder/symptom/102x102/oljig-hy.webp',
             content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
-            aka: 'Ökad sebumproduktion',
+            aka: 'Ökad talgproduktion',
             image_alt: 'Bild av överflödig oljighet',
             image_title: 'Överflödig Oljighet'
       ),

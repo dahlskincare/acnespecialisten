@@ -21,7 +21,7 @@ $image_large = 'bilder/problem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar pormaskar';
 $image_title = 'Pormaskar';
 
-$title = 'Pormaskbehandling';
+$title = 'Behandlingar mot pormaskar';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av pormaskar som hjälper dig att effektivt reducera synligheten av porer och få bort pormaskar. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">pormaskbehandling</a> som bäst passar din hudtyp för att rengöra och förminska porer? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones';
