@@ -231,7 +231,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling för stora porer',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'Denna behandling är utformad för att minska synligheten av stora porer och förbättra hudens textur. Genom djup rengöring, exfoliering och hydrering kan huden se mer jämn och fräsch ut.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
@@ -239,9 +239,9 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för stora porer',
             image_title: 'Ansiktsbehandling för stora porer',
 
-            url: '/portomning.php',
-            url_label: 'Läs mer om portömning mot stora porer',
-            url_title: 'Läs mer om portömning mot stora porer',
+            url: '/porrengoring.php',
+            url_label: 'Läs mer om porrengoring mot stora porer',
+            url_title: 'Läs mer om porrengoring mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
