@@ -501,27 +501,23 @@ $faq_categories = array(
       'Generellt om ytliga blodkärl' => array(
             new Question(
                   title: 'Är ytliga blodkärl farliga?',
-                  text: '<p class="p200">Ytliga blodkärl är vanligtvis inte farliga och anses oftast vara en estetisk fråga snarare än en medicinsk. Men det är viktigt att inte avfärda dem helt, eftersom de i vissa sällsynta fall kan vara en indikator på underliggande hälsotillstånd som högt blodtryck eller blodsjukdomar. Om du märker en snabb ökning i antalet ytliga blodkärl eller om de förändras i färg eller form, rekommenderar vi att du konsulterar en hudläkare eller annan medicinsk specialist för att utesluta eventuella allvarliga problem.</p>'
+                  text: '<p class="p200">Ytliga blodkärl är vanligtvis inte farliga och utgör oftast ett estetiskt bekymmer snarare än en medicinsk risk. Dock kan de ibland indikera underliggande cirkulationsproblem, så det är bra att konsultera en läkare om du är orolig.</p>'
             ),
             new Question(
-                  title: 'Är ytliga blodkärl genetiskt betingade?',
-                  text: '<p class="p200">Ja, det finns starka bevis för att genetik spelar en roll i förekomsten av ytliga blodkärl. Om dina föräldrar eller andra nära släktingar har eller har haft problem med ytliga blodkärl, är det en högre sannolikhet att du också kommer att drabbas. Även om det inte är den enda faktorn, är genetik en viktig komponent att överväga i din riskbedömning och eventuella förebyggande åtgärder.</p>'
+                  title: 'Vad är skillnade på ytliga, synliga och brustna blodkärl?',
+                  text: '<p class="p200">Ytliga blodkärl är blodkärl som ligger nära hudens yta och kan bli synliga av olika anledningar. Synliga blodkärl är ytliga blodkärl som är tydligt märkbara genom huden. Brustna blodkärl, ofta kallade spindelvener eller ådernät, är små, fina ytliga blodkärl som har brustit och syns som röda eller blålila linjer på huden.</p>'
             ),
             new Question(
-                  title: 'Var på kroppen kan man få ytliga blodkärl?',
-                  text: '<p class="p200">Ytliga blodkärl kan dyka upp på olika delar av kroppen men är mest vanliga i ansiktet—särskilt runt näsan och kinderna—och på benen. I vissa fall kan de även förekomma på bröstet, ryggen, och armarna.</p>'
+                  title: 'Är ytliga blodkärl genetiskt?',
+                  text: '<p class="p200">Ja, benägenheten att utveckla ytliga blodkärl kan vara genetisk. Om dina familjemedlemmar har ytliga blodkärl är chansen större att du också får dem. Dock påverkas ytliga blodkärl också av andra faktorer som ålder, hormonella förändringar, och livsstil.</p>'
             ),
             new Question(
-                  title: 'Kan man förebygga ytliga blodkärl?',
-                  text: '<p class="p200">Det finns inga fullständigt säkra metoder för att förebygga utvecklingen av ytliga blodkärl, men det finns flera försiktighetsåtgärder som kan hjälpa. Skydda din hud från stark sol och undvik extrema temperaturförändringar. Det är också bra att undvika exponering för skadliga kemikalier och irritanter.</p>'
+                  title: 'Hur kan man förebygga ytliga blodkärl?',
+                  text: '<p class="p200">Även om det inte alltid går att helt förhindra ytliga blodkärl, kan du minska risken genom att undvika långvarigt stående eller sittande, bära stödstrumpor, upprätthålla en hälsosam vikt, motionera regelbundet för att förbättra cirkulationen, och skydda huden mot solskador.</p>'
             ),
             new Question(
-                  title: 'Hur vanliga är ytliga blodkärl?',
-                  text: '<p class="p200">Ytliga blodkärl är en mycket vanlig hudåkomma, särskilt bland äldre individer och de med ljusare hudtyper. De är vanligtvis mer uttalade efter 30-årsåldern och kan bli mer framträdande med ytterligare åldrande. Vissa undersökningar visar att upp till 40-50% av vuxna kan uppleva någon form av ytliga blodkärl under sin livstid.</p>'
-            ),
-            new Question(
-                  title: 'Påverkas ytliga blodkärl av livsstilsfaktorer som kost och motion?',
-                  text: '<p class="p200">Absolut, livsstilsval kan faktiskt förvärra problemet med ytliga blodkärl. En ohälsosam diet kan leda till viktökning och dålig cirkulation, vilket i sin tur kan förvärra ytliga blodkärl. Å andra sidan kan en balanserad diet och regelbunden motion förbättra blodflödet och potentiellt minska uppkomsten eller svårighetsgraden av ytliga blodkärl. Motion hjälper till att stärka och tonifiera blodkärlen, vilket gör dem mindre sannolika att bli ytliga eller skadade.</p>'
+                  title: 'Hur vanligt är det med ytliga blodkärl?',
+                  text: '<p class="p200">Ytliga blodkärl är mycket vanliga och påverkar både män och kvinnor, men är mer frekventa hos kvinnor. Risken att utveckla dem ökar med åldern, och de flesta människor kommer att uppleva någon form av synliga blodkärl under sin livstid.</p>'
             ),
       ),
 );
