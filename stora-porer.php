@@ -156,7 +156,8 @@ $symptoms = array(
 
       new Symptom(
             name: 'Ojämn hudtextur',
-            content: 'Apelsinhud',
+            aka: 'Apelsinhud',
+            content: 'Huden kan kännas ojämn eller gropig till följd av de utvidgade porerna.',
 
             //url_label: 'Läs mer om ojämn hudtextur',
             //url: 'problem/stora-porer/typer/ojamn-hudtextur',
@@ -168,7 +169,8 @@ $symptoms = array(
       ),
 
       new Symptom(
-            name: 'Ökad oljeproduktion',
+            name: 'Ökad talgproduktion',
+            aka: 'Fet hy',
             content: 'Stora porer är ofta förknippade med fet hud eftersom talgkörtlarna producerar mer olja, vilket kan leda till att porerna vidgas.',
 
             //url_label: 'Läs mer om ökad oljeproduktion',
