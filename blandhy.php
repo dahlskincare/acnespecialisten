@@ -18,7 +18,7 @@ $path_segments = array(
       new PathSegment('Blandhy', '/blandhy.php'),
 );
 
-$description = 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. Vi diskuterar strategier för att sköta om blandhy och hur du kan uppnå en balanserad och hälsosam hud med rätt behandling.';
+$description = 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.';
 
 $image_small = 'bilder/problem/424x324/blandhy.webp';
 $image_large = 'bilder/problem/424x456/blandhy.webp';
