@@ -291,7 +291,7 @@ $services = array(
             title: 'Kemisk peeling för stora porer',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla och minska synligheten av stora porer. Genom att använda en speciellt framtagen lösning för att exfoliera huden främjar kemisk peeling cellförnyelse och rensar tilltäppta porer. Resultatet är en jämnare hudton och en förbättrad hudstruktur med mindre synliga porer. Det är en enkel och effektiv strategi för att förbättra din hudhälsa och reducera stora porer.',
+            content: 'Kemisk peeling är en effektiv metod för att behandla och minska synligheten av stora porer. Genom att använda en speciellt framtagen lösning för att exfoliera huden främjar kemisk peeling cellförnyelse och rensar tilltäppta porer. Resultatet är en jämnare hudton och en förbättrad hudstruktur med mindre synliga porer.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -316,7 +316,7 @@ $services = array(
             title: 'Microneedling för stora porer',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för att reducera synligheten av stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av stora porer. Microneedling är en säker och effektiv strategi för att förbättra din hudhälsa och hantera stora porer.',
+            content: 'Microneedling är en innovativ behandlingsmetod för att reducera synligheten av stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av stora porer.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
