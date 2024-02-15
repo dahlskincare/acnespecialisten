@@ -655,6 +655,7 @@ $related_problems = array(
             url_title: 'Perioral dermatit'
       ),
 );
+
 $brands = array(
       new Brand(
             label: 'Alma',
