@@ -185,7 +185,7 @@ $symptoms = array(
       new Symptom(
             name: 'Pormaskar och komedoner',
             aka: 'Tilltäppta porer',
-            content: 'Förstorade porer kan lätt bli tilltäppta av olja, smuts och döda hudceller, vilket kan resultera i svarta eller vita pormaskar.',
+            content: 'Förstorade porer kan lätt bli tilltäppta av talg och döda hudceller, vilket kan resultera i svarta eller vita pormaskar.',
 
             url_label: 'Läs mer om pormaskar och komedoner',
             url: 'pormaskar.php',
