@@ -371,7 +371,7 @@ $articles = array(
             image_title: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
             content: '<p class="p200">Med vår djupgående expertis och mer än tre decenniers erfarenhet inom hudvård, särskilt med fokus på blandhy och andra hudtillstånd, har vi lång erfarenhet av att erbjuda personligt anpassade behandlingsplaner.</p>
             <p class="p200 mt-m">Vi använder de bästa metoderna inom hudvård för att säkerställa optimala resultat för din hud. Vårt team av certifierade hudterapeuter engagerar sig för att skapa en behandlingsplan som är perfekt anpassad efter din huds unika behov, kompletterat med uppföljningar och skräddarsydda hemvårdsprogram för att säkerställa en bestående förbättring av din hud.</p>
-            <p class="p200 mt-m">Att välja oss innebär inte bara tillgång till framstående behandlingar för blandhy; vi kommer även att bli din partner och arbetar för att du ska nå målet att uppnå en balanserad och hälsosam hud. Vårt åtagande och expertis är vad som gör AcneSpecialisten till det optimala valet för alla som önskar hantera sin blandhy med omsorg, kunskap och effektivitet.</p>',
+            <p class="p200 mt-m">Att välja oss innebär inte bara tillgång till framstående behandlingar för blandhy; vi kommer även att bli din partner och arbetar för att du ska uppnå målet av en balanserad och hälsosam hud. Vårt åtagande och expertis är vad som gör AcneSpecialisten till det optimala valet för alla som önskar hantera sin blandhy med omsorg, kunskap och effektivitet.</p>',
       ),
 
 );
