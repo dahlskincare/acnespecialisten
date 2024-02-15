@@ -526,6 +526,7 @@ $reviews = array(
       ),
 
 );
+
 $faq_categories = array(
       'Generellt om pormaskar' => array(
             new Question(
