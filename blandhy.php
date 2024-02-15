@@ -87,7 +87,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man blandhy?',
-            content: '<p class="p200">Blandhy kan härledas till en kombination av genetik, hormonella svängningar och yttre miljöfaktorer. En obalans mellan torra och oljiga områden uppstår när vissa delar av huden producerar en optimal mängd talg medan andra delar underproducerar. Denna ojämnhet kan förstärkas genom genetiska predispositioner där familjemedlemmar också har haft liknande hudmönster.</p>',
+            content: '<p class="p200">Blandhy beror på en kombination av genetik, hormonella svängningar och yttre miljöfaktorer. En obalans mellan torra och oljiga områden uppstår när vissa delar av huden producerar en optimal mängd talg medan andra delar underproducerar. Denna ojämnhet kan förstärkas genom genetiska predispositioner där familjemedlemmar också har haft liknande hudmönster.</p>',
 
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, som de som inträffar under puberteten, graviditet eller menstruationscykeln, kan också spela en stor roll i uppkomsten av blandhy. Hormonförändringarna kan leda till att vissa delar av huden, som T-zonen, producerar mer talg än normalt. Yttre faktorer som klimat, årstidens växlingar och luftfuktighet kan också påverka hudens talgproduktion och fuktighetsnivå. Till exempel kan kalla vintermånader leda till torra kinder samtidigt som inomhusuppvärmning kan öka oljighet i T-zonen.</p>
             
