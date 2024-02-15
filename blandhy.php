@@ -153,7 +153,7 @@ $symptoms_title = 'Blandhy symptom';
 $symptoms = array(
       new Symptom(
             name: 'Oljig & Fet hy',
-            aka: 'Glansig hy',
+            aka: 'Yttorr hy',
             content: 'Den mest framträdande egenskapen för blandhy är ofta en oljig T-zon, vilket innebär att pannan, näsan och hakan kan kännas och se glansiga eller fetare ut jämfört med andra delar av ansiktet. Särskilt efter en lång dag eller under sommarmånaderna, när värmen kan förstärka oljeproduktionen, kan huden börja se extra glansig ut på grund av en kombination av talg och svett.',
 
             url_label: null,
@@ -174,8 +174,8 @@ $symptoms = array(
             url_title: null,
 
             image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner (whiteheads)',
-            image_title: 'Stängda komedoner (whiteheads)'
+            image_alt: 'Bild av stängda komedoner',
+            image_title: 'Stängda komedoner'
       ),
       new Symptom(
             name: 'Känslig hy',
@@ -192,7 +192,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Pormaskar',
-            aka: 'Vidgade porer',
+            aka: 'Komedoner',
             content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
 
             url_label: null,
@@ -215,19 +215,6 @@ $symptoms = array(
             image: 'images/symptoms/102x102/noduler.webp',
             image_alt: 'Bild av noduler (innåtfinnar)',
             image_title: 'Noduler (innåtfinnar)'
-      ),
-      new Symptom(
-            name: 'Cystor',
-            aka: 'Bölder',
-            content: 'Cystor är stora, inflammerade och smärtsamma blemmor som är fyllda med var och bildas när en hårsäck blir mycket infekterad och inflammationen sprider sig djupt in i huden. De kan vara runda och mjuka eller fasta och ömma vid beröring. Cystor kan vara större än 5 mm i diameter och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen. Cystisk akne kan leda till ärrbildning och kräver ofta professionell behandling.',
-
-            url_label: null,
-            url: null,
-            url_title: null,
-
-            image: 'images/symptoms/102x102/cystor.webp',
-            image_alt: 'Bild av cystor (bölder)',
-            image_title: 'Cystor (bölder)'
       ),
 );
 
