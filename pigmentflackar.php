@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Pigmentfläckar - Behandlingsmetoder, Orsaker och Hur Man Förebygger | Acnespecialisten';
-$seo_description = 'Lär dig allt om pigmentfläckar, inklusive deras bakomliggande orsaker, effektiva metoder för behandling, och hur du kan förebygga dem. Sök professionell vägledning och skräddarsydda lösningar för hyperpigmentering och hudfläckar från Acnespecialisten.';
-$seo_keywords = 'pigmentfläckar, behandling av pigmentfläckar, orsaker till pigmentfläckar, förebygga pigmentfläckar, minska pigmentfläckar, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, pigmenteringar';
+$seo_title = 'Vad är pigmentfläckar? - Orsak, Behandla och Förebygg';
+$seo_description = 'Här hittar du allt om pigmentfläckar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'pigmentfläckar, orsaker till pigmentfläckar, förebygga pigmentfläckar, minska pigmentfläckar, hyperpigmentering, hudfläckar, hyperpigmentering, pigmenteringar';
 
 $title = 'Pigmentfläckar';
 
@@ -22,9 +22,6 @@ $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
 $image_large = 'bilder/problem/424x456/pigmentflackar.webp';
 $image_title = 'Visar en hud med pigmentfläckar';
 $image_alt = 'Bild som illustrerar hur pigmentfläckar kan se ut på huden';
-
-
-
 
 $akas = [
       new Link(
