@@ -119,7 +119,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför effektiva behandlingar för stora porer, anpassade för din specifika hudtyp, så att du snabbt och säkert kan minska deras framträdande.',
+            content: 'Vi utför effektiva behandlingar för stora porer, anpassade för din specifika hudtyp, så att du snabbt och säkert kan minska porernas storlek.',
 
             url_label: 'Se behandlingar för stora porer',
             url: 'behandla-stora-porer.php',
