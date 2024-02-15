@@ -154,7 +154,7 @@ $symptoms = array(
       new Symptom(
             name: 'Oljig & Fet hy',
             aka: 'Yttorr hy',
-            content: 'Blandhy visar sig ofta med en oljig T-zon där panna, näsa och haka blir extra glansiga, särskilt efter långa dagar eller i värme, då oljeproduktionen och svett gör huden glansigare.',
+            content: 'Karaktäriseras av en ökad produktion av talg, vilket ger huden en ständigt glansig eller fet yta. Denna hudtyp är särskilt märkbar i T-zonen (panna, näsa, haka) men kan påverka hela ansiktet. Överflödig talg kan leda till att huden ser oljig ut och känns fet vid beröring.',
 
             url_label: null,
             url: null,
@@ -224,7 +224,7 @@ $service = new Service(
       title: 'Konsultation för blandhy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vi börjar med ett personligt möte med en hudterapeut från AcneSpecialisten utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
+      content: 'Vid ett personligt möte med en hudterapeut utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
