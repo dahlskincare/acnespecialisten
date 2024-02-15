@@ -271,29 +271,6 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för blandhy'
       ),
-      new Service(
-            title: 'Laserbehandling för blandhy',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Laserbehandling för blandhy utnyttjar avancerad laserteknik för att specifikt adressera hudens ojämnheter. Den arbetar målinriktat för att reducera överproduktion av talg samtidigt som den boostar fuktnivåerna i torra partier. Efter behandlingen framstår huden mer balanserad med en förnyad lyster och jämnare yta.',
-
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
-            image_alt: 'Bild av laserbehandling för blandhy',
-            image_title: 'Laserbehandling för blandhy',
-
-            url: '/behandlingar/laser-mot-hudproblem/',
-            url_label: 'Läs mer om laser mot blandhy',
-            url_title: 'Läs mer om laser mot blandhy',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling för blandhy',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling för blandhy'
-      ),
 
       new Service(
             title: 'Kemisk peeling för blandhy',
