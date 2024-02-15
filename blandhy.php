@@ -461,7 +461,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Kan jag förändra min hudtyp över tid?',
-                  text: '<p class="p200">Ja, din hudtyp kan förändras över tid beroende på flera faktorer. Åldrande är en stor faktor, eftersom huden tenderar att bli torrare med tiden. Hormonella förändringar, som de som uppstår under graviditet eller menopaus, kan också påverka hudtypen. Dessutom kan faktorer som klimat, användning av vissa mediciner och hur du sköter om din hud alla leda till förändringar i hudtyp över tid.</p>'
+                  text: '<p class="p200">Ja, din hudtyp kan förändras över tid beroende på flera faktorer. Åldrande är en stor faktor, eftersom huden tenderar att bli torrare med tiden. Hormonella förändringar, som de som uppstår under graviditet eller klimakteriet, kan också påverka hudtypen. Dessutom kan faktorer som klimat, användning av vissa mediciner och hur du sköter om din hud alla leda till förändringar i hudtyp över tid.</p>'
             ),
             new Question(
                   title: 'Hur påverkar årstiderna och klimatet blandhy?',
