@@ -142,14 +142,6 @@ $treatment_steps = array(
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
             url_title: 'Bläddra bland våra produkter för blandhy'
       ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'Blandhy kan också lämna efter sig oönskade märken som fläckar eller ojämn hudstruktur.',
-
-            url_label: 'Ärrbehandlingar',
-            url: 'behandla-acnearr.php',
-            url_title: 'Se våra behandlingsalternativ för ärr orsakade av blandhy'
-      ),
 
 );
 
@@ -393,34 +385,6 @@ $products = array(
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
             booking_url_title: 'Klicka för att köpa produktpaket mot blandhy',
       )
-);
-
-$headline04 = "04. Reparera huden";
-
-$procedures = array(
-      new Service(
-            title: 'Reparera huden',
-            duration: '4 behandlingsmetoder',
-            price: null,
-            content: 'Med blandhy kan det ibland uppkomma fläckar och en ojämn hudstruktur. För att hantera dessa utmaningar har vi olika behandlingsmetoder som effektivt riktar sig mot både pigmentfläckar och ojämn hudstruktur. Klicka här för att läsa mer om hur du kan förbättra din hud med våra skräddarsydda behandlingar.',
-
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Behandlingar för fläckar och ojämn hudstruktur',
-            image_title: 'Behandlingar för en jämnare hudton',
-
-            url_label: '',
-            url: '',
-            url_title: '',
-
-            consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för blandhy',
-
-            booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
-            booking_url_title: 'Klicka för att boka tid för en microneedling för blandhy behandling'
-      ),
 );
 
 $articles = array(
@@ -901,14 +865,6 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                               <h2 class="h500"><?php echo $headline03 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
                               <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
