@@ -118,7 +118,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera problemet med dina stora porer och skapar en individuell behandlingsplan.',
+            content: 'Hos oss får du en personlig hudterapeut som hjälper dig identifiera problemet med dina stora porer och skapar en individuell behandlingsplan.',
 
             url_label: 'Få gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
@@ -142,7 +142,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förbättra',
-            content: 'När dina porer har minskat i storlek fokuserar vi på att ytterligare förbättra hudens struktur med behandlingsmetoder som laser, microneedling och kemisk peeling för en slät och strålande hud.',
+            content: 'När dina porer har minskat i storlek fokuserar vi på att ytterligare förbättra hudens struktur.',
 
             url_label: 'Se förbättringsbehandlingar',
             url: 'behandla-stora-porer.php',
