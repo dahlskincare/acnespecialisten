@@ -276,7 +276,7 @@ $services = array(
             title: 'Kemisk peeling för blandhy',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling anpassad för blandhy använder sig av en unik lösning designad för att exfoliera och återfukta hudens särskilda behov. Den främjar en accelererad cellförnyelse, vilket bidrar till att balansera både oljiga och torra partier av huden.',
+            content: 'Kemisk peeling anpassad för blandhy använder sig av en unik syra framtagen för att exfoliera och återfukta hudens särskilda behov. Den främjar en accelererad cellförnyelse, vilket bidrar till att balansera både oljiga och torra partier av huden.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -301,7 +301,7 @@ $services = array(
             title: 'Microneedling för blandhy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling för blandhy är en banbrytande teknik som direkt adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, boostar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga regioner, vilket förbättrar hudens yta och återställer en naturliga balans.',
+            content: 'Microneedling för blandhy adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, förbättrar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga områden, vilket förbättrar hudens yta och återställer en naturliga balans.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
