@@ -77,7 +77,6 @@ $nav_buttons = array(
       'faq' => 'FAQ',
       'skin-guide' => 'Hudguide',
       'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
 );
 
 $about_title = 'Om operations- och skadeärr';
@@ -870,16 +869,6 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
-                        </section>
-                        <section id="related-problems">
-                              <h2 class="big l10n">Relaterade hudproblem</h2>
-                              <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
-                                    <?php foreach ($related_problems as $problem) { ?>
-                                          <div class="column is-half">
-                                                <?php include('../widgets/related-problem-card/related-problem-card.php'); ?>
-                                          </div>
-                                    <?php } ?>
-                              </dig>
                         </section>
                   </div>
                   <section id="brands">
