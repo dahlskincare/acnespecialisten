@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Pormaskar - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om pormaskar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'pormaskar, behandling av pormaskar, orsaker till pormaskar, förebygga pormaskar, ta bort pormaskar, hudvård, ansiktsrengöring, porrengöring';
+$seo_title = 'Vad är pormaskar? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Här hittar du allt om pormaskar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'pormaskar, orsaker till pormaskar, förebygga pormaskar, ta bort pormaskar, hudvård';
 
 $title = 'Pormaskar';
 
