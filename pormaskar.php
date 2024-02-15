@@ -281,57 +281,21 @@ $symptoms = array(
       ),
 
       new Symptom(
-            name: 'Ojämn Hudtextur',
-            image: 'bilder/symptom/102x102/ojamn-hudton.webp',
-            content: 'Områden som är drabbade av pormaskar kan ha en ojämn, nästan sandpappersliknande textur.',
-            aka: 'Grusig hud',
-            image_alt: 'Bild av ojämn hudtextur',
-            image_title: 'Ojämn Hudtextur'
-      ),
-
-      new Symptom(
             name: 'Förstorade Porer',
             image: 'bilder/symptom/102x102/forstorade-porer.webp',
             content: 'När porer blockeras av pormaskar kan de se större och mer framträdande ut.',
-            aka: 'Synligt större porer',
+            aka: 'Vidgade porer',
             image_alt: 'Bild av förstorade porer',
             image_title: 'Förstorade Porer'
       ),
 
       new Symptom(
-            name: 'Rödhet Runt Pormaskar',
-            image: 'bilder/symptom/102x102/rodnad.webp',
-            content: 'Ett område runt en pormask kan bli rött och inflammerat, särskilt om det har utsatts för mekanisk påverkan som att klämmas eller skrapas.',
-            aka: 'Lokaliserad rodnad',
-            image_alt: 'Bild av rödhet runt pormaskar',
-            image_title: 'Rödhet Runt Pormaskar'
-      ),
-
-      new Symptom(
-            name: 'Överflödig Oljighet',
+            name: 'Oljig het',
             image: 'bilder/symptom/102x102/oljig-hy.webp',
             content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
-            aka: 'Ökad talgproduktion',
+            aka: 'Fet hy',
             image_alt: 'Bild av överflödig oljighet',
             image_title: 'Överflödig Oljighet'
-      ),
-
-      new Symptom(
-            name: 'Klåda',
-            image: 'bilder/symptom/102x102/klada.webp',
-            content: 'Vissa kan uppleva en lätt klåda kring områden med pormaskar.',
-            aka: 'Mild irritation eller klåda',
-            image_alt: 'Bild av klåda',
-            image_title: 'Klåda'
-      ),
-
-      new Symptom(
-            name: 'Mindre Inflammation',
-            image: 'bilder/symptom/102x102/mindre-inflammation.webp',
-            content: 'I vissa fall kan pormaskar utvecklas till mindre inflammationer och små röda bultar, särskilt om de inte behandlas korrekt.',
-            aka: 'Mindre inflammatoriska fläckar',
-            image_alt: 'Bild av mindre inflammation',
-            image_title: 'Mindre Inflammation'
       ),
 
 );
