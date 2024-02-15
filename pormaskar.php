@@ -550,7 +550,7 @@ $faq_categories = array(
             new Question(
                   title: 'Är pormaskar farliga eller kan de leda till andra hudproblem?',
                   text: '<p class="p200">Pormaskar i sig är inte farliga, men om de inte behandlas kan de utvecklas till inflammerad akne. Dessutom kan felaktig hantering eller klämning av pormaskar leda till inflammation, infektion och ärrbildning.</p>
-                <p class="p200 mt-m">Det är också viktigt att notera att pormaskar kan vara ett tidigt tecken på andra hudproblem som rosacea eller dermatit. Därför kan tidig behandling och en noggrann hudvårdsrutin inte bara förhindra pormaskar, men även minska risken för andra mer allvarliga hudproblem.</p>'
+                <p class="p200 mt-m">Det är också viktigt att notera att pormaskar kan vara ett tidigt tecken på andra hudproblem som akne. Därför kan tidig behandling och en noggrann hudvårdsrutin inte bara förhindra pormaskar, men även minska risken för andra mer allvarliga hudproblem.</p>'
             ),
             new Question(
                   title: 'Vilka är de mest effektiva behandlingarna för pormaskar?',
