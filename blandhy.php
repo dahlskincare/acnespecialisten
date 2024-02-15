@@ -154,7 +154,7 @@ $symptoms = array(
       new Symptom(
             name: 'Oljig & Fet hy',
             aka: 'Yttorr hy',
-            content: 'Den mest framträdande egenskapen för blandhy är ofta en oljig T-zon, vilket innebär att pannan, näsan och hakan kan kännas och se glansiga eller fetare ut jämfört med andra delar av ansiktet. Särskilt efter en lång dag eller under sommarmånaderna, när värmen kan förstärka oljeproduktionen, kan huden börja se extra glansig ut på grund av en kombination av talg och svett.',
+            content: 'Blandhy visar sig ofta med en oljig T-zon där panna, näsa och haka blir extra glansiga, särskilt efter långa dagar eller i värme, då oljeproduktionen och svett gör huden glansigare.',
 
             url_label: null,
             url: null,
@@ -167,7 +167,7 @@ $symptoms = array(
       new Symptom(
             name: 'Torr hy',
             aka: 'Stram hy',
-            content: 'Medan T-zonen kan vara oljig, särskilt under de varmare månaderna, kan kinderna antingen vara torra eller ha en normal konsistens. Under vinterhalvåret, när kylan kan göra huden mer utsatt, kan vissa områden bli torrare. Trots oljighet i vissa områden kan andra delar av huden kännas torr och stram, särskilt efter tvätt. Det kan även uppstå torra fläckar som fjällar, särskilt på kinderna.',
+            content: 'Medan T-zonen ofta är oljig, tenderar kinderna att vara torra eller ha en normal konsistens, särskilt under vintern då kylan gör huden torrare. Trots oljiga områden kan huden kännas torr och stram efter tvätt, vilket kan resultera i fjällande fläckar, oftast på kinderna.',
 
             url_label: null,
             url: null,
