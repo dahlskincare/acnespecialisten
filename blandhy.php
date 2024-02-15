@@ -473,7 +473,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är det viktigt att använda en fuktkräm även på de oljiga delarna av mitt ansikte?',
-                  text: '<p class="p200">Ja, det är viktigt. Många tror felaktigt att de oljiga delarna av ansiktet har ett överskott av fukt ochdärför inte behöver återfuktning. Men i själva verket är oljiga partier och fukt två helt olika saker. Oljan är i själva verket talg som produceras av huden för att skydda och återfukta torr hud. Därför är det viktigt att återfukta både oljiga och torra delar av huden för att reglera och reducera talgproduktionen.</p>'
+                  text: '<p class="p200">Ja, det är viktigt. Många tror felaktigt att de oljiga delarna av ansiktet har ett överskott av fukt och därför inte behöver återfuktning. Men i själva verket är oljiga partier och fukt två helt olika saker. Oljan är i själva verket talg som produceras av huden för att skydda och återfukta torr hud. Därför är det viktigt att återfukta både oljiga och torra delar av huden för att reglera och reducera talgproduktionen.</p>'
             ),
       ),
 );
