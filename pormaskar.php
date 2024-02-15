@@ -457,7 +457,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten?',
             image_title: 'Varför ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina pormaskar, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla pormaskar. Oavsett om du har enstaka pormaskar eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
+            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på dina pormaskar, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och är specialiserade på att behandla pormaskar. Oavsett om du har enstaka pormaskar eller en mer utbredd problematik, kan vi erbjuda en skräddarsydd lösning som passar just dig.</p>
             <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att du ska få bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att du får en långvarig förbättring.</p>
             <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för dina pormaskar. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en klar och frisk hud. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av pormaskar.</p>',
       ),
