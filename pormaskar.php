@@ -530,11 +530,6 @@ $reviews = array(
 $faq_categories = array(
       'Generellt om pormaskar' => array(
             new Question(
-                  title: 'Varför får man pormaskar?',
-                  text: '<p class="p200">Pormaskar uppstår när porer i huden blir igentäppta av överflödig talg (hudens naturliga talg) och döda hudceller. Denna tilltäppning kan oxidera när den kommer i kontakt med luft, vilket ger pormaskar deras karakteristiska mörka färg. Faktorer som kan bidra till ökad produktion av talg inkluderar genetiska faktorer, hormonella förändringar, fuktig och varm klimat.</p>
-                <p class="p200 mt-m">En obalanserad i huden till följd av kosmetiska produkter och stress kan också påverka talgproduktionen och bidra till uppkomsten av pormaskar. Det är viktigt att komma ihåg att pormaskar inte uppstår på grund av smuts, utan snarare från kroppens naturliga processer.</p>'
-            ),
-            new Question(
                   title: 'Är pormaskar ett tecken på dålig hygien?',
                   text: '<p class="p200">Nej, pormaskar är inte ett tecken på dålig hygien. Även om regelbunden rengöring av huden kan hjälpa till att minska risken för pormaskar.Det är en missuppfattning att pormaskar beror på smuts eller dålig hygien. Faktum är att överdriven tvättning eller skrubbande av huden kan orsaka irritation och faktiskt öka risken för att utveckla pormaskar.</p>'
             ),
@@ -545,8 +540,8 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur är pormaskar relaterade till akne?',
-                  text: '<p class="p200">Pormaskar är en typ av aknelesion. Akne kan manifestera sig i olika former, inklusive pormaskar, finnar, papler och cystor. Alla dessa är resultat av igentäppta porer, men de skiljer sig i utseende och svårighetsgrad.</p>
-                <p class="p200 mt-m">Pormaskar, särskilt om de inte tas om hand, kan utvecklas till inflammerade finnar när bakterier infekterar den igentäppta porstrukturen. Detta leder till rödhet, svullnad och eventuellt pusfyllda finnar.</p>'
+                  text: '<p class="p200">Pormaskar är en typ av aknelesion. Akne kan uppstå i olika former, inklusive pormaskar, finnar, papler och pustler. Alla dessa är resultat av igentäppta porer, men de skiljer sig i utseende och svårighetsgrad.</p>
+                <p class="p200 mt-m">Pormaskar, särskilt om de inte tas om hand, kan utvecklas till inflammerade finnar när bakterier infekterar den igentäppta porstrukturen. Detta leder till rödhet, svullnad och eventuellt varfyllda finnar.</p>'
             ),
             new Question(
                   title: 'Kan man förebygga uppkomsten av pormaskar?',
