@@ -397,7 +397,7 @@ $services = array(
             title: 'Microneedling mot Pormaskar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en effektiv metod för att minska synligheten av pormaskar. Genom att skapa små mikroskopiska kanaler i huden, stimulerar denna behandling hudens naturliga läkningsprocess och främjar ny kollagenproduktion. Detta bidrar till att rensa och förfina porerna, vilket reducerar pormaskarnas storlek och förbättrar hudens övergripande textur.',
+            content: 'Microneedling är en effektiv metod för att minska synligheten av pormaskar. Genom att skapa små mikroskopiska kanaler i huden, stimulerar denna behandling hudens naturliga läkningsprocess. Detta bidrar till att rensa och förfina porerna, vilket reducerar pormaskarnas storlek och förbättrar hudens övergripande textur.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
