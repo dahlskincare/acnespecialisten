@@ -112,7 +112,7 @@ $trivias = array(
 
             extended_content: '<p class="p200 mt-xl">När det gäller blandhy är ansiktets T-zon en av de mest talande indikatorerna. Den här zonen har en högre koncentration av talgkörtlar, vilket kan förklara varför den blir oljig snabbare. Kinderna, å andra sidan, kan kännas torra eftersom de har färre talgkörtlar. Detta kan skapa en känsla av obalans i huden, där vissa områden behöver fukt och andra behöver kontrollera överproduktion av talg.</p>
 
-            <p class="p200 mt-xl">Det är också värt att notera att andra delar av kroppen, som nacke eller décolletage, kan visa tecken på blandhy, särskilt om man använder produkter som är oljebaserade. Medan blandhy främst observeras i ansiktet, kan den unika kombinationen av torra och oljiga områden dyka upp var som helst. För att adressera de specifika behoven hos blandhy rekommenderar vi att du konsulterar med en hudspecialist för att skräddarsy en hudvårdsrutin som ger balans och välbefinnande till din hud.</p>',
+            <p class="p200 mt-xl">Medan blandhy främst observeras i ansiktet, kan den unika kombinationen av torra och oljiga områden dyka upp var som helst. För att tillgodose de specifika behoven hos blandhy rekommenderar vi att du konsulterar med en hudspecialist för att skräddarsy en hudvårdsrutin som ger balans och välbefinnande till din hud.</p>',
             icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
       ),
 
