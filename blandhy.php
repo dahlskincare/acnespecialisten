@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Blandhy - Förståelse, Behandling och Råd | Acnespecialisten';
-$seo_description = 'Dyk djupt in i blandhyens karaktär med Acnespecialisten. Lär dig hur man hanterar både torra och oljiga partier för att uppnå en harmoniserad hudbalans.';
-$seo_keywords = 'blandhy, hudbalans, behandla blandhy, råd för blandhy, torra och oljiga partier, fet hy, Acnespecialistens tips, oljig hy';
+$seo_title = 'Vad är blandhy? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Här hittar du allt om blandhy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'blandhy, råd för blandhy, torra och oljiga partier';
 
 $seo_image = 'bilder/problem/424x456/blandhy.webp';
 
@@ -28,14 +28,9 @@ $image_alt = 'Bild som illustrerar hur en blandhy ser ut';
 
 $akas = [
       new Link(
-            label: 'Oljig & torr hy',
+            label: 'Kombinerad hud',
             url: null,
-            title: 'Oljig & torr hy'
-      ),
-      new Link(
-            label: 'Yttorr hy',
-            url: null,
-            title: 'Yttorr hy'
+            title: 'Kombinerad hud'
       ),
 ];
 
