@@ -133,14 +133,6 @@ $treatment_steps = array(
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/stora-porer',
             url_title: 'Hitta de bästa produkterna för att förebygga stora porer'
       ),
-      new TreatmentStep(
-            title: 'Förbättra',
-            content: 'När dina porer har minskat i storlek fokuserar vi på att ytterligare förbättra hudens struktur.',
-
-            url_label: 'Se förbättringsbehandlingar',
-            url: 'behandla-stora-porer.php',
-            url_title: 'Upptäck effektiva behandlingar för att förbättra hudens struktur'
-      ),
 
 );
 $treatment_link = '<a href="behandla-stora-porer.php" title="Utforska effektiva behandlingar för stora porer" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för stora porer</a>';
