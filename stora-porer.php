@@ -449,20 +449,20 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om stora porer' => array(
             new Question(
-                  title: 'Kan miljöfaktorer som solljus eller föroreningar bidra till stora porer?',
-                  text: '<p class="p200">Ja, miljöfaktorer kan definitivt påverka storleken på porerna. Solljus, särskilt överdriven exponering utan adekvat solskydd, kan orsaka att huden förlorar kollagen, vilket gör att porerna kan se större ut. Föroreningar, å andra sidan, kan leda till ansamling av smuts och talg i porerna, vilket kan få dem att förstoras. Det är därför det är viktigt att regelbundet rengöra huden och använda solskydd för att skydda den från dessa miljöfaktorer.</p>'
+                  title: 'Är det möjligt att minska eller krympa storleken på stora porer?',
+                  text: '<p class="p200">Ja, det är möjligt att minska synligheten av stora porer med rätt hudvårdsrutin och behandlingar. Användning av produkter som rengör och exfolierar huden rensar porerna och gör dem mindre synliga. Professionella behandlingar som kemiska peelingar, laser, och mikroneedling kan också effektivt minska storleken på porerna genom att förbättra hudens kvalitet och elasticitet.</p>'
             ),
             new Question(
-                  title: 'Hur relaterar stora porer till andra hudåkommor som akne eller oljig hud?',
-                  text: '<p class="p200">Stora porer är ofta kopplade till oljig hud eftersom ökad talgproduktion kan få porerna att vidgas. När talget kombineras med döda hudceller kan det leda till blockeringar i porerna, vilket i sin tur kan leda till pormaskar eller akne. Akne kan även förvärras av stora porer, eftersom bakterier har en större yta att kolonisera. Samtidigt kan inflammation från akneutbrott sträcka ut porerna, vilket gör dem mer synliga.</p>'
+                  title: 'Kan oren hy leda till större porer?',
+                  text: '<p class="p200">Ja, oren hy kan bidra till större porer. När huden producerar överskott av talg och döda hudceller samlas, kan det leda till att porerna täpps till och vidgas. Regelbunden rengöring, exfoliering och användning av icke-komedogena produkter kan hjälpa till att hålla porerna rena och därmed mindre synliga.</p>'
             ),
             new Question(
-                  title: 'Kan stora porer leda till andra hudproblem?',
-                  text: '<p class="p200">Ja, stora porer kan leda till andra hudproblem. Förutom ovan nämnda akne kan stora porer fyllas med smuts, talg och döda hudceller, vilket kan leda till komedoner (pormaskar och whiteheads). Om de inte rengörs ordentligt kan dessa blockeringar bli inflammerade och utvecklas till pustler, papler eller cystor. Dessutom kan huden med stora porer ha en grov och ojämn textur, vilket kan påverka dess övergripande utseende och känsla.</p>'
+                  title: 'Hur påverkar åldrandet storleken på porerna?',
+                  text: '<p class="p200">Åldrandet kan påverka porernas storlek eftersom huden förlorar sin elasticitet och fasthet med tiden. Detta kan göra att porerna ser större ut. Hudvårdsprodukter och behandlingar som främjar kollagenproduktionen kan hjälpa till att förbättra hudens struktur och göra porerna mindre märkbara.</p>'
             ),
             new Question(
-                  title: 'Vilka typer av behandlingar finns för stora porer?',
-                  text: '<p class="p200">Det finns flera behandlingsalternativ tillgängliga för stora porer. Traditionella ansiktsbehandlingar kan vara till stor hjälp för att djuprengöra huden och dra samman porerna. Microneedling, även känd som kollageninduktionsterapi, involverar användning av små nålar för att skapa mikroskador i huden, vilket uppmuntrar produktionen av kollagen och kan förbättra hudens textur och minska porstorleken. Laserbehandlingar använder ljusenergi för att effektivt minska porernas storlek och stimulera produktionen av kollagen, vilket ger en jämnare hudton. Kemiska peelingar, som använder syror för att exfoliera huden, kan också rensa ut porerna och stimulera kollagenproduktion, vilket resulterar i mindre och mindre framstående porer. Med rätt behandlingsalternativ kan stora porer behandlas effektivt och ge en klarare, jämnare hudton.</p>'
+                  title: 'Bidrar solen till större porer?',
+                  text: '<p class="p200">Ja, långvarig exponering för solen utan adekvat skydd kan skada huden och försämra dess elasticitet, vilket kan leda till större och mer synliga porer. Det är viktigt att alltid använda solskydd med hög SPF för att skydda huden mot solens skadliga UV-strålar och förebygga att porerna blir större.</p>'
             ),
       ),
 );
