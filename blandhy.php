@@ -167,7 +167,7 @@ $symptoms = array(
       new Symptom(
             name: 'Torr hy',
             aka: 'Stram hy',
-            content: 'Medan T-zonen ofta är oljig, tenderar kinderna att vara torra eller ha en normal konsistens, särskilt under vintern då kylan gör huden torrare. Trots oljiga områden kan huden kännas torr och stram efter tvätt, vilket kan resultera i fjällande fläckar, oftast på kinderna.',
+            content: 'Områden av huden, ofta kinderna, känns torra och strama. Detta beror på brist på fukt, vilket gör att huden inte kan behålla sin naturliga smidighet.',
 
             url_label: null,
             url: null,
@@ -180,7 +180,7 @@ $symptoms = array(
       new Symptom(
             name: 'Känslig hy',
             aka: 'Reaktiv & röd hy',
-            content: 'Känslig hy är ett symptom där huden lätt kan reagera på olika stimuli, såsom vissa hudvårdsprodukter, miljöfaktorer eller förändringar i klimatet. Denna hudtyp tenderar att bli röd, irriterad eller klående snabbare än andra hudtyper. Det kan också vara vanligt med en brännande känsla eller en känsla av stramhet, särskilt efter att huden har kommit i kontakt med potentiellt irriterande ämnen.',
+            content: 'Huden reagerar lätt på produkter eller miljöförändringar, vilket kan leda till irritation, rodnad och ibland klåda. Känsligheten beror på en försvagad hudbarriär.',
 
             url_label: null,
             url: null,
@@ -193,7 +193,7 @@ $symptoms = array(
       new Symptom(
             name: 'Pormaskar',
             aka: 'Komedoner',
-            content: 'Pustuler är röda och inflammerade blemmor som innehåller var (en blandning av döda bakterier, vita blodkroppar och döda hudceller). De ser ut som papuler men har en vit eller gul prick i mitten. Pustuler kan vara smärtsamma och är vanligt förekommande på ansiktet, nacken, bröstet och ryggen.',
+            content: 'Synliga små svarta eller vita punkter, framför allt i T-zonen (panna, näsa, haka), som uppstår när talg och döda hudceller täpper till porerna.',
 
             url_label: null,
             url: null,
@@ -206,7 +206,7 @@ $symptoms = array(
       new Symptom(
             name: 'Finnar',
             aka: 'Akne',
-            content: 'Noduler är större, djupare och ofta smärtsamma inflammerade blemmor som uppstår när en hårsäck blir kraftigt infekterad och inflammationen sprider sig till det omgivande vävnaden. De är vanligtvis större än 5 mm i diameter och kan vara fasta och ömma vid beröring. Noduler är vanligt förekommande på ansiktet, nacken, bröstet, ryggen och ibland även på överarmarna och skinkorna.',
+            content: 'Inflammation i hudens porer, vilket resulterar i röda knottror, varfyllda finnar eller djupare cystor. Kan förekomma på grund av överproduktion av talg, bakterietillväxt eller inflammation.',
 
             url_label: null,
             url: null,
