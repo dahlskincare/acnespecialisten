@@ -127,7 +127,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga uppkomsten av stora porer och hålla din hud i balans.',
+            content: 'Vi tar fram en hudvårdsrutin och produkter som passar din hudtyp för att förebygga uppkomsten av stora porer och hålla din hud i balans.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/stora-porer',
