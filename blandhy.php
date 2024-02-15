@@ -87,7 +87,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man blandhy?',
-            content: '<p class="p200">Blandhy beror på en kombination av genetik, hormonella svängningar och yttre miljöfaktorer. En obalans mellan torra och oljiga områden uppstår när vissa delar av huden producerar en optimal mängd talg medan andra delar underproducerar. Denna ojämnhet kan förstärkas genom genetiska predispositioner där familjemedlemmar också har haft liknande hudmönster.</p>',
+            content: '<p class="p200">Blandhy beror på en kombination av genetik, hormonella svängningar och yttre miljöfaktorer. En obalans mellan torra och oljiga områden uppstår när vissa delar av huden producerar en optimal mängd talg medan andra delar underproducerar. Denna ojämnhet kan förstärkas genom genetiska anlag där familjemedlemmar också har haft liknande hudmönster.</p>',
 
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, som de som inträffar under puberteten, graviditet eller menstruationscykeln, kan också spela en stor roll i uppkomsten av blandhy. Hormonförändringarna kan leda till att vissa delar av huden, som T-zonen, producerar mer talg än normalt. Yttre faktorer som klimat, årstidens växlingar och luftfuktighet kan också påverka hudens talgproduktion och fuktighetsnivå. Till exempel kan kalla vintermånader leda till torra kinder samtidigt som inomhusuppvärmning kan öka oljighet i T-zonen.</p>
             
@@ -100,7 +100,7 @@ $trivias = array(
             title: 'får blandhy?',
             content: '<p class="p200">Blandhy är en av de mest förekommande hudtyperna och kan drabba människor i alla åldrar, oavsett kön och etnicitet. Det är inte ovanligt att ungdomar upplever blandhy när hormoner börjar fluktuera under puberteten, vilket leder till att vissa delar av ansiktet blir oljigare medan andra förblir torra. Denna kombination av torra och oljiga områden, ofta med oljig T-zon (panna, näsa och haka) och torra kinder, kan vara en källa till frustration för många.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Medan blandhy ofta förknippas med tonåringar, kan det fortsätta eller till och med börja under vuxen ålder. Hormonella förändringar som de under graviditet, menstruationscykeln eller menopaus kan också leda till en uppkomst av blandhy hos vuxna kvinnor. Män kan också uppleva blandhy, särskilt om de har en genetisk predisposition för det.</p>
+            extended_content: '<p class="p200 mt-xl">Medan blandhy ofta förknippas med tonåringar, kan det fortsätta eller till och med börja under vuxen ålder. Hormonella förändringar som de under graviditet, menstruationscykeln eller klimakteriet också leda till en uppkomst av blandhy hos vuxna kvinnor. Män kan också uppleva blandhy, särskilt om de har en genetisk predisposition för det.</p>
             
             <p class="p200 mt-xl">Externa faktorer som klimat, miljö och hudvård kan också påverka hudtypen. Personer som bor i områden med skiftande årstider kan märka att deras hud känns oljigare på sommaren och torrare på vintern. För att adressera de specifika behoven hos blandhy rekommenderar vi en individuell hudvårdsrutin som tar hänsyn till de olika zonerna i ansiktet och balanserar dem effektivt.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
@@ -108,7 +108,6 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man blandhy?',
-
             content: '<p class="p200">Blandhy kan manifestera sig på olika platser i ansiktet, med vissa områden som känns oljigare än andra. De vanligaste zonerna för blandhy är den centrala delen av ansiktet – även känd som T-zonen, som inkluderar panna, näsa och haka. Samtidigt kan andra delar av ansiktet, som kinderna, upplevas torra eller normala.</p>',
 
             extended_content: '<p class="p200 mt-xl">När det gäller blandhy är ansiktets T-zon en av de mest talande indikatorerna. Den här zonen har en högre koncentration av talgkörtlar, vilket kan förklara varför den blir oljig snabbare. Kinderna, å andra sidan, kan kännas torra eftersom de har färre talgkörtlar. Detta kan skapa en känsla av obalans i huden, där vissa områden behöver fukt och andra behöver kontrollera överproduktion av olja.</p>
