@@ -37,11 +37,6 @@ $akas = [
             url: null,
             title: null,
       ),
-      new Link(
-            label: 'Utvidgade porer',
-            url: null,
-            title: null,
-      ),
 ];
 
 $consultation_url_label = "Boka gratis konsultation";
