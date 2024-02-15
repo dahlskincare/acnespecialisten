@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Stora Porer - Orsaker, Behandling och Råd | Acnespecialisten';
-$seo_description = 'Lär dig allt om stora porer, från dess orsaker till hur man behandlar och minimerar dem. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, minimering av porer, vidgade porer, förstorade porer, hudtextur, sebum, talgproduktion';
+$seo_title = 'Vad är stora porer? - Orsaker, Behandling och Förebyggande';
+$seo_description = 'Här hittar du allt om stora porer och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, minimering av porer, vidgade porer, förstorade porer';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
