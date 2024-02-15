@@ -141,8 +141,8 @@ $symptoms_title = 'Stora porer symptom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Förstorade öppningar',
-            aka: 'Kända som stora porer',
+            name: 'Vidgade porer',
+            aka: 'Förstorade porer',
             content: 'Det mest uppenbara tecknet på stora porer är synligt större poröppningar, särskilt i områdena kring näsan, kinderna och pannan.',
 
             //url_label: 'Läs mer om förstorade öppningar',
@@ -156,13 +156,13 @@ $symptoms = array(
 
       new Symptom(
             name: 'Ojämn hudtextur',
-            content: 'Huden kan kännas ojämn eller gropig till följd av de utvidgade porerna.',
+            content: 'Apelsinhud',
 
             //url_label: 'Läs mer om ojämn hudtextur',
             //url: 'problem/stora-porer/typer/ojamn-hudtextur',
             //url_title: 'Läs mer om hur stora porer påverkar hudens textur',
 
-            image: 'bilder/symptom/102x102/ojamn-hudton.webp',
+            image: 'bilder/symptom/102x102/apelsinhud.webp',
             image_alt: 'Bild som illustrerar en ojämn hudtextur',
             image_title: 'Ojämn hudtextur'
       ),
