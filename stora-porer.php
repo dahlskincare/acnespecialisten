@@ -303,7 +303,7 @@ $services = array(
             title: 'Microneedling för stora porer',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för att reducera synligheten av stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av stora porer.',
+            content: 'Microneedling är en behandlingsmetod som reducerar synliga stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av stora porer.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
