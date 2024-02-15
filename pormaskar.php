@@ -350,7 +350,7 @@ $services = array(
             title: 'Laser mot Pormaskar',
             duration: '90 min',
             price: '4595 kr',
-            content: 'Vår avancerade laserbehandling är en effektiv metod för att minska pormaskar. Denna teknik använder lasrar för att försiktigt rengöra porerna och minska talgproduktionen. Det hjälper till att rensa pormaskarna och förebygga nya utbrott, vilket ger en klarare och mer ren hud.',
+            content: 'Vår avancerade laserbehandling är en effektiv metod för att minska pormaskar. Denna teknik använder laser för att bränna bort det översta hudlagret för att bli av med porblockerna. Det hjälper till att rensa pormaskarna och förebygga nya utbrott.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
