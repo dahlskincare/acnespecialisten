@@ -1,5 +1,5 @@
 <?php
-$badges_trustpilot = '<strong>4,9</strong> på Trustpilot';
+$badges_trustpilot = '<strong>4.8</strong> på Trustpilot';
 $badges_years_in_service = '<strong>30+ års</strong> erfarenhet';
 $badges_clients = '<strong>200k+</strong> Problemfria';
 ?>

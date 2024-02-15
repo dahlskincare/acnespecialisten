@@ -72,7 +72,7 @@
             <div class="review-brand-right">
                 <div class="flex-row align-center justify-end">
                     <?php icon('star') ?>
-                    <span class="ml-xs h200">4.7 / 5</span>
+                    <span class="ml-xs h200">4.8 / 5</span>
                 </div>
                 <p>565 omdömen</p>
             </div>
@@ -82,7 +82,7 @@
             <div class="review-brand-right">
                 <div class="flex-row align-center justify-end">
                     <?php icon('star') ?>
-                    <span class="ml-xs h200">4.7 / 5</span>
+                    <span class="ml-xs h200">4.8 / 5</span>
                 </div>
                 <p>11 171 omdömen</p>
             </div>
