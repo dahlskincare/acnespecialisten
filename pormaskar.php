@@ -373,7 +373,7 @@ $services = array(
             title: 'Kemisk peeling mot Pormaskar',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en utmärkt behandling för att effektivt rengöra porer och minska pormaskar. Genom att använda speciella syror som exfolierar huden, rengör vi tilltäppta porer och främjar cellförnyelse, vilket leder till en klarare hud med färre synliga pormaskar.',
+            content: 'Kemisk peeling är en utmärkt behandling för att effektivt rengöra porer och minska pormaskar. Genom att använda speciella syror som exfolierar huden och luckrar upp pormaskarna porer, vilket leder till en klarare hud.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
