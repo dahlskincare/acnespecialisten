@@ -469,7 +469,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vad är den mest effektiva behandlingsmetoden för blandhy?',
-                  text: '<p class="p200">Blandhy är unik eftersom det innebär att man har både torra och oljiga områden på huden, oftast torra kinder och en oljig T-zon (panna, näsa och haka). Den mest effektiva behandlingsmetoden är därför ofta en kombination av produkter och behandlingar. Det handlar om att använda återfukta och balansera huden effektivt för att reklera både de oljia och torra partierna.</p>'
+                  text: '<p class="p200">Blandhy är unik eftersom det innebär att man har både torra och oljiga områden på huden, oftast torra kinder och en oljig T-zon (panna, näsa och haka). Den mest effektiva behandlingsmetoden är därför ofta en kombination av produkter och behandlingar. Det handlar om att använda återfukta och balansera huden effektivt för att reglera både de oljia och torra partierna.</p>'
             ),
             new Question(
                   title: 'Är det viktigt att använda en fuktkräm även på de oljiga delarna av mitt ansikte?',
