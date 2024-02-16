@@ -111,9 +111,9 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten kopplas du till en personlig hudterapeut som hjälper dig att identifiera tecknen på mogen hy och skapar en skräddarsydd behandlingsplan för dina specifika behov.',
+            content: 'Hos får du en personlig hudterapeut som hjälper dig att identifiera tecknen på mogen hy och skapar en behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
@@ -127,7 +127,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi rådgör dig om den bästa hudvårdsrutinen och produkterna för mogen hy, för att bevara hudens ungdomlighet och motverka framtida ålderstecken.',
+            content: 'Du får rekommendation om en hudvårdsrutinen och produkterna för mogen hy som behandlar och förebygger.',
 
             url_label: 'Se produkter',
             url: 'https://swedskin.com',
@@ -135,7 +135,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Om din hud har ålderstecken såsom pigmentfläckar, förlorad elasticitet eller djupare rynkor, erbjuder vi behandlingsmetoder som laser, microneedling och kemisk peeling för att förnya och förbättra hudens utseende.',
+            content: 'Om din hud har ålderstecken såsom pigmentfläckar, förlorad elasticitet eller djupare rynkor..',
 
             url_label: 'Se behandlingar för ålderstecken',
             url: 'problem/mogen-hy/behandla-mogen-hy',
@@ -725,15 +725,6 @@ $specialist_url_title = "Hudterapeuter specialiserade på mogen hy";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: 'acnearr.php',
-            url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
             image: 'images/problems/200x200/rosacea.webp',
@@ -742,24 +733,32 @@ $related_problems = array(
             url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
-      ),
 );
+
 $brands = array(
       new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            image_alt: 'Alma logotyp',
+            url: 'varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_title: 'Alma Hybrid - CO2 laser',
+            image_alt: 'Alma Hybrid logotyp',
+            url: 'alma-hybrid-co2-laser.php',
+            url_title: 'Läs mer om Alma Hybrid CO2 laser',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: 'alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
       ),
       new Brand(
             label: 'Dermapen',
@@ -770,44 +769,12 @@ $brands = array(
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'bilder/logotyper/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'bilder/logotyper/infuzion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: 'varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
 
