@@ -16,7 +16,7 @@ $path_segments = array(
       new PathSegment('Pigmentfläckar', '/pigmentflackar.php'),
 );
 
-$description = 'Pigmentfläckar, som åldersfläckar eller melasma, uppstår från ojämn melaninproduktion. Denna sida utforskar de underliggande orsakerna och ger en översikt över behandlingsalternativ för att jämna ut hudtonen.';
+$description = 'Pigmentfläckar, inklusive åldersfläckar eller hyperpigmentering, beror på ojämn produktion av melanin. På denna sida dyker vi djupare in i de bakomliggande faktorerna och presenterar en översikt över behandlingsmetoder för att skapa en mer enhetlig hudton.';
 
 $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
 $image_large = 'bilder/problem/424x456/pigmentflackar.webp';
@@ -31,8 +31,8 @@ $akas = [
       ),
       new Link(
             label: 'Hudfläckar',
-            url: 'atrofiska-arr.php',
-            title: 'Lär dig mer om atrofiska ärr i form av gropar som uppstått från finnar och upptäck våra specialiserade behandlingsalternativ'
+            url: null,
+            title: 'Hudfläckar'
       ),
 
 ];
