@@ -181,7 +181,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Mörka / Bruna Pigmentfläckar',
                         subtitle: 'Även kallat Hyperpigmentering',
-                        image_url: 'images/pigmentflackar/102x102/morka-bruna.webp',
+                        image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av mörka bruna pigmentfläckar',
                         image_title: 'Mörka bruna pigmentförändringar',
                         url: 'problem/pigmentflackar/typer/morka-bruna',
@@ -190,7 +190,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Röda / Lila Pigmentfläckar',
                         subtitle: 'Även kallat Postinflammatorisk Hyperpigmentering (PIH)',
-                        image_url: 'images/pigmentflackar/102x102/roda-lila.webp',
+                        image_url: '/bilder/symptom/102x102/postinflammatorisk-hyperpigmentering.webp',
                         image_alt: 'Bild av röda lila pigmentfläckar',
                         image_title: 'Röda lila pigmentförändringar',
                         url: 'problem/pigmentflackar/typer/roda-lila',
@@ -199,7 +199,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Ljusbruna Pigmentfläckar',
                         subtitle: 'Även kallat Café au lait fläckar',
-                        image_url: 'images/pigmentflackar/102x102/ljusbruna.webp',
+                        image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av ljusbruna pigmentfläckar',
                         image_title: 'Ljusbruna pigmentförändringar',
                         url: 'problem/pigmentflackar/typer/ljusbruna',
@@ -208,7 +208,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Vita Pigmentfläckar',
                         subtitle: 'Även kallat Hypopigmentering',
-                        image_url: 'images/pigmentflackar/102x102/vita.webp',
+                        image_url: '/bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webp',
                         image_alt: 'Bild av vita pigmentfläckar',
                         image_title: 'Vita pigmentförändringar',
                         url: 'problem/pigmentflackar/typer/vita',
