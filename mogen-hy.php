@@ -521,9 +521,9 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
-            content: '<p class="p200">Om du är ute efter en effektiv och långsiktig lösning på utmaningarna med mogen hy, är AcneSpecialisten det självklara valet. Vi har över 30 års erfarenhet inom hudvård och en specialisering i att behandla tecken på åldrande såsom fina linjer, rynkor och minskad elasticitet.</p>
-            <p class="p200 mt-m">Vi använder de senaste metoderna och teknologierna inom hudvård för att du ska uppnå bästa möjliga resultat. Vårt team av hudterapeuter står redo att erbjuda en individuellt anpassad behandlingsplan och att stötta dig genom hela processen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram ser vi till att din huds vitalitet förblir på topp.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten innebär att du får tillgång till den mest avancerade och effektiva behandlingen för din mogen hy. Men det är inte allt. Vi ser dig som en partner i din hudvårdsresa och är dedikerade till att hjälpa dig att uppnå och bibehålla en frisk och ungdomlig hy. Vårt engagemang, kunskap och erfarenhet gör oss till ditt bästa val för behandling av mogen hy.</p>',
+            content: '<p class="p200">Letar du efter en hållbar lösning på de utmaningar som följer med mogen hud? Då är AcneSpecialisten platsen för dig. Med mer än tre decenniers erfarenhet inom hudvård, specialiserar vi oss på att effektivt minska ålderstecken såsom rynkor, fina linjer och förlorad elasticitet.</p>
+            <p class="p200 mt-m">Hos oss möts du av de mest framstående metoderna och teknikerna i hudvårdens värld, allt för att du ska kunna se de bästa resultaten. Våra hudterapeuter utformar en skräddarsydd behandlingsplan just för dig och följer dig noga genom din behandlingsresa. Genom att erbjuda regelbundna kontroller och skräddarsydda program för hudvård hemma, garanterar vi att din huds vitalitet hålls i optimalt skick.</p>
+            <p class="p200 mt-m">Att välja AcneSpecialisten betyder inte bara tillgång till den mest avancerade behandlingen för din hud. Vi är dedikerade till att du ska uppnå dina huvårdsmål. Vår djupa kunskap, engagemang och långvariga erfarenhet gör oss till ditt främsta val för att ta hand om din mogen hud.</p>',
       ),
 
 );
