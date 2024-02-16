@@ -120,7 +120,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Med din personliga behandlingsplan i hand använder AcneSpecialisten specialiserade metoder för att effektivt behandla dina pigmentfläckar. Vår expertis säkerställer att du snabbt ser resultat och känner dig nöjd med din hud.',
-            url_label: 'Utforska våra behandlingar för pigmentfläckar',
+            url_label: 'Utforska våra behandlingar mot pigmentfläckar',
             url: 'behandla-pigmentflackar.php',
             url_title: 'Upptäck våra unika och effektiva behandlingar för pigmentfläckar'
       ),
@@ -137,8 +137,8 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Hormonella pigmentförändringar',
-                        subtitle: 'Även kallat melasma',
-                        image_url: 'images/problems/102x102/melasma.webp',
+                        subtitle: 'Melasma',
+                        image_url: 'bilder/problem/102x102/melasma.webp',
                         image_alt: 'Bild av hormonella pigmentförändringar',
                         image_title: 'Hormonella pigmentförändringar',
                         url: 'problem/pigmentflackar/typer/melasma',
@@ -146,8 +146,8 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Solfläckar',
-                        subtitle: 'Även kallat Solar Lentigines',
-                        image_url: 'images/problems/102x102/solflackar.webp',
+                        subtitle: 'Solar Lentigines',
+                        image_url: 'bilder/problem/102x102/solflackar.webp',
                         image_alt: 'Bild av solfläckar',
                         image_title: 'Solfläckar',
                         url: 'problem/pigmentflackar/typer/solflackar',
@@ -155,8 +155,8 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Åldersfläckar',
-                        subtitle: 'Även kallat Lentigo Senilis',
-                        image_url: 'images/problems/102x102/aldersflackar.webp',
+                        subtitle: 'Lentigo Senilis',
+                        image_url: 'bilder/problem/102x102/aldersflackar.webp',
                         image_alt: 'Bild av åldersfläckar',
                         image_title: 'Åldersfläckar',
                         url: 'problem/pigmentflackar/typer/aldersflackar',
@@ -164,8 +164,8 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Fräknar',
-                        subtitle: 'Även kallat Ephelides',
-                        image_url: 'images/problems/102x102/freknar.webp',
+                        subtitle: 'Ephelides',
+                        image_url: 'bilder/problem/102x102/freknar.webp',
                         image_alt: 'Bild av fräknar',
                         image_title: 'Fräknar',
                         url: 'problem/pigmentflackar/typer/freknar',
