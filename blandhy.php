@@ -588,12 +588,12 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Stora porer',
-            aka: 'gropar & Fläckar',
+            aka: 'Utvidgade porer',
             image: 'bilder/problem/200x200/stora-porer.webp',
-            image_alt: '',
-            image_title: '',
+            image_alt: 'Ansikte med stora porer',
+            image_title: 'Stora porer',
             url: 'stora-porer.php',
-            url_title: 'Acneärr',
+            url_title: 'Utvidgade porer',
       ),
 );
 

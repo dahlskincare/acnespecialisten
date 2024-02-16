@@ -629,21 +629,21 @@ $specialists = array(
 $related_problems = array(
       new RelatedProblem(
             name: 'Stora porer',
-            aka: 'gropar & Fläckar',
-            image: 'bilder/problem/200x200/acnearr.webp',
-            image_alt: '',
-            image_title: '',
-            url: 'acnearr.php',
-            url_title: 'Acneärr',
+            aka: 'Förstorade porer',
+            image: 'bilder/problem/200x200/stora-porer.webp',
+            image_alt: 'Ansikte med stora porer',
+            image_title: 'Stora porer',
+            url: 'stora-porer.php',
+            url_title: 'Stora porer',
       ),
       new RelatedProblem(
             name: 'Blandhy',
-            aka: 'Papler & Pustler',
-            image: 'bilder/problem/200x200/akne.webp',
-            image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
-            image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
-            url: 'acne.php',
-            url_title: 'Akne'
+            aka: 'Oljig och torr hy',
+            image: 'bilder/problem/200x200/blandhy.webp',
+            image_alt: 'Bild som skildrar oljig och torr hy, en hudåkomma som drabbar många ungdomar och vuxna',
+            image_title: 'Blandhy - ett vanligt hudproblem bland både ungdomar och vuxna',
+            url: 'blandhy.php',
+            url_title: 'Blandhy'
       ),
       new RelatedProblem(
             name: 'Akne',
