@@ -589,10 +589,10 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Stora porer',
             aka: 'gropar & Fläckar',
-            image: 'bilder/problem/200x200/acnearr.webp',
+            image: 'bilder/problem/200x200/stora-porer.webp',
             image_alt: '',
             image_title: '',
-            url: 'acnearr.php',
+            url: 'stora-porer.php',
             url_title: 'Acneärr',
       ),
 );
