@@ -593,6 +593,15 @@ $related_problems = array(
             url: '/melasma.php',
             url_title: 'Melasma'
       ),
+      new RelatedProblem(
+            name: 'Solskadad hy',
+            aka: 'Solfläckar',
+            image: 'bilder/problem/solskadad-hy.webp',
+            image_alt: 'Solskadad hy i ansiktet',
+            image_title: 'Solskadad hy - en vanlig hudåkomma',
+            url: '/solskadad-hy.php',
+            url_title: 'Solskadad hy'
+      ),
 );
 
 $brands = array(
