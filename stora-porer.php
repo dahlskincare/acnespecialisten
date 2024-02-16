@@ -560,16 +560,25 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Pormaskar',
             aka: 'Komedoner',
-            image: 'images/problems/102x102/pormaskar.webp',
+            image: 'bilder/problem/200x200/pormaskar.webp',
             image_alt: 'Bild som visar pormaskar, en vanlig hudåkomma',
             image_title: 'Pormaskar - en vanlig hudåkomma',
             url: 'pormaskar.php',
             url_title: 'Pormaskar'
       ),
       new RelatedProblem(
+            name: 'Blandhy',
+            aka: 'Oljig och torr hy',
+            image: 'bilder/problem/200x200/blandhy.webp',
+            image_alt: 'Blandhy i ansiktet',
+            image_title: 'Blandhy - en vanlig hudåkomma',
+            url: 'blandhy.php',
+            url_title: 'Blandhy'
+      ),
+      new RelatedProblem(
             name: 'Akne',
             aka: 'Finnar',
-            image: 'images/problems/102x102/akne.webp',
+            image: 'bilder/problem/200x200/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Akne - en vanlig hudåkomma',
             url: 'acne.php',

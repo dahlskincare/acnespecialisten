@@ -628,16 +628,7 @@ $specialists = array(
 );
 $related_problems = array(
       new RelatedProblem(
-            name: 'Akne',
-            aka: 'Papler & Pustler',
-            image: 'bilder/problem/200x200/akne.webp',
-            image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
-            image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
-            url: 'acne.php',
-            url_title: 'Akne'
-      ),
-      new RelatedProblem(
-            name: 'Acneärr',
+            name: 'Stora porer',
             aka: 'gropar & Fläckar',
             image: 'bilder/problem/200x200/acnearr.webp',
             image_alt: '',
@@ -646,13 +637,22 @@ $related_problems = array(
             url_title: 'Acneärr',
       ),
       new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'bilder/problem/200x200/perioral-dermatit.webp',
-            image_alt: '',
-            image_title: '',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit'
+            name: 'Blandhy',
+            aka: 'Papler & Pustler',
+            image: 'bilder/problem/200x200/akne.webp',
+            image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
+            image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
+            url: 'acne.php',
+            url_title: 'Akne'
+      ),
+      new RelatedProblem(
+            name: 'Akne',
+            aka: 'Papler & Pustler',
+            image: 'bilder/problem/200x200/akne.webp',
+            image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
+            image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
+            url: 'acne.php',
+            url_title: 'Akne'
       ),
 );
 

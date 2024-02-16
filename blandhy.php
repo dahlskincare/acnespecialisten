@@ -577,6 +577,24 @@ $related_problems = array(
             url: 'acne.php',
             url_title: 'Akne'
       ),
+      new RelatedProblem(
+            name: 'Pormaskar',
+            aka: 'Komedoner',
+            image: 'bilder/problem/200x200/pormaskar.webp',
+            image_alt: 'Bild som visar pormaskar, en vanlig hudåkomma',
+            image_title: 'Pormaskar - en vanlig hudåkomma',
+            url: 'pormaskar.php',
+            url_title: 'Pormaskar'
+      ),
+      new RelatedProblem(
+            name: 'Stora porer',
+            aka: 'gropar & Fläckar',
+            image: 'bilder/problem/200x200/acnearr.webp',
+            image_alt: '',
+            image_title: '',
+            url: 'acnearr.php',
+            url_title: 'Acneärr',
+      ),
 );
 
 $brands = array(
