@@ -375,7 +375,7 @@ $articles = array(
             image_alt: 'Kvinna som funderar över sina pigmentfläckar',
             image_title: 'Övervägande av behandling för pigmentfläckar hos Acnespecialisten',
             content: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, kan visa sig på huden av olika skäl, såsom solskador, hormonella förändringar eller naturlig åldrande. Även om de flesta av dessa fläckar är godartade och inte utgör någon fara, kan de fortfarande vara en estetisk olägenhet för många. För dem som känner att deras pigmentfläckar påverkar deras självförtroende eller deras dagliga liv är det dags att överväga behandlingsalternativ.</p>
-            <p class="p200 mt-m">Om du har fläckar som du redan vet är godartade men som du finner störande, kan en konsultation hos AcneSpecialistem hjälpa dig att utforska de bästa behandlingsmetoderna för just din hudtyp och dina behov.Det bör noteras att på vår klinik behandlar vi endast estetiska aspekter av pigmentfläckar. Om du har bekymmer om en specifik fläck på din hud rekommenderar vi att du konsulterar en hudläkare. Vi kan inte behandla eller diagnostisera melanom eller andra medicinska hudtillstånd.</p>',
+            <p class="p200 mt-m">Om du har fläckar som du redan vet är godartade men som du finner störande, kan en konsultation hos AcneSpecialistem hjälpa dig att utforska de bästa behandlingsmetoderna för just din hudtyp och dina behov.Det bör noteras att på vår klinik behandlar vi endast estetiska aspekter av pigmentfläckar.</p>',
       ),
       new Article(
             title: 'Varför ska jag behandla mina pigmentfläckar hos Acnespecialisten?',
