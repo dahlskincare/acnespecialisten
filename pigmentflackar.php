@@ -138,7 +138,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Hormonella pigmentförändringar',
                         subtitle: 'Melasma',
-                        image_url: '/bilder/problem/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av hormonella pigmentförändringar',
                         image_title: 'Hormonella pigmentförändringar',
                         url: 'problem/pigmentflackar/typer/melasma',
@@ -147,7 +147,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Solfläckar',
                         subtitle: 'Solar Lentigines',
-                        image_url: '/bilder/problem/102x102/solflackar.webp',
+                        image_url: '/bilder/symptom/102x102/solflackar.webp',
                         image_alt: 'Bild av solfläckar',
                         image_title: 'Solfläckar',
                         url: 'problem/pigmentflackar/typer/solflackar',
@@ -156,7 +156,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Åldersfläckar',
                         subtitle: 'Lentigo Senilis',
-                        image_url: '/bilder/problem/102x102/aldersflackar.webp',
+                        image_url: '/bilder/symptom/102x102/aldersflackar.webp',
                         image_alt: 'Bild av åldersfläckar',
                         image_title: 'Åldersfläckar',
                         url: 'problem/pigmentflackar/typer/aldersflackar',
@@ -165,7 +165,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Fräknar',
                         subtitle: 'Ephelides',
-                        image_url: '/bilder/problem/102x102/fraknar.webp',
+                        image_url: '/bilder/symptom/102x102/fraknar.webp',
                         image_alt: 'Bild av fräknar',
                         image_title: 'Fräknar',
                         url: 'problem/pigmentflackar/typer/freknar',
