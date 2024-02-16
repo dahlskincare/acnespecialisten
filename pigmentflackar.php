@@ -180,7 +180,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Mörka / Bruna Pigmentfläckar',
-                        subtitle: 'Även kallat Hyperpigmentering',
+                        subtitle: 'Hyperpigmentering',
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av mörka bruna pigmentfläckar',
                         image_title: 'Mörka bruna pigmentförändringar',
@@ -189,7 +189,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Röda / Lila Pigmentfläckar',
-                        subtitle: 'Även kallat Postinflammatorisk Hyperpigmentering (PIH)',
+                        subtitle: 'Postinflammatorisk Hyperpigmentering (PIH)',
                         image_url: '/bilder/symptom/102x102/postinflammatorisk-hyperpigmentering.webp',
                         image_alt: 'Bild av röda lila pigmentfläckar',
                         image_title: 'Röda lila pigmentförändringar',
@@ -198,7 +198,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Ljusbruna Pigmentfläckar',
-                        subtitle: 'Även kallat Café au lait fläckar',
+                        subtitle: 'Café au lait fläckar',
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av ljusbruna pigmentfläckar',
                         image_title: 'Ljusbruna pigmentförändringar',
@@ -207,7 +207,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Vita Pigmentfläckar',
-                        subtitle: 'Även kallat Hypopigmentering',
+                        subtitle: 'Hypopigmentering',
                         image_url: '/bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webp',
                         image_alt: 'Bild av vita pigmentfläckar',
                         image_title: 'Vita pigmentförändringar',
@@ -223,8 +223,8 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Pigmentfläckar i ansiktet',
-                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                        image_url: 'images/pigmentflackar/102x102/ansikte.webp',
+                        subtitle: 'Solfläckar & åldersfläckar',
+                        image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar i ansiktet',
                         image_title: 'Pigmentförändringar i ansiktet',
                         url: 'problem/pigmentflackar/omraden/ansikte',
@@ -232,8 +232,8 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på överläppen',
-                        subtitle: 'Även kallat Melasma & Chloasma',
-                        image_url: 'images/pigmentflackar/102x102/overlappen.webp',
+                        subtitle: 'Melasma & Chloasma',
+                        image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på överläppen',
                         image_title: 'Pigmentförändringar på överläppen',
                         url: 'problem/pigmentflackar/omraden/overlappen',
@@ -241,8 +241,8 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på Kroppen',
-                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                        image_url: 'images/pigmentflackar/102x102/kroppen.webp',
+                        subtitle: 'Solfläckar & åldersfläckar',
+                        image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på kroppen',
                         image_title: 'Pigmentförändringar på kroppen',
                         url: 'problem/pigmentflackar/omraden/kroppen',
@@ -250,8 +250,8 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på Händerna',
-                        subtitle: 'Även kallat Solfläckar & åldersfläckar',
-                        image_url: 'images/pigmentflackar/102x102/hander.webp',
+                        subtitle: 'Solfläckar & åldersfläckar',
+                        image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på händerna',
                         image_title: 'Pigmentförändringar på händerna',
                         url: 'problem/pigmentflackar/omraden/hander',
