@@ -401,10 +401,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '3 månader',
+                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
       ),
       new ResultCustomer(
@@ -412,10 +412,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_title: 'Person som har akne',
+            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '2 månader',
+                  duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
       ),
       new ResultCustomer(
@@ -423,10 +423,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
+            image_title: 'Person som har rosacea',
+            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
             treatment: new ResultTreatment(
-                  duration: '4 månader',
+                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )
       ),
 );
@@ -550,35 +550,34 @@ $skin_guide_articles = array(
 $skinguide_url_label = "Läs fler guider";
 $skinguide_url_title = "Läs fler guider om Pigmentfläckar";
 
-
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut specialiserad på behandling av ärr orsakade av finnar sedan 2015',
+            title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med expertis i ärr av finnar',
-            image_title: 'Cazzandra Lindberg - Expert på behandling av ärr från finnar'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
+            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
       ),
       new Specialist(
             name: 'Veronika Benedik',
-            title: 'Erfaren hudterapeut inriktad på ärr som uppstått från finnar sedan 1999',
+            title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut fokuserad på ärr av finnar',
-            image_title: 'Veronika Benedik - Specialist inom behandling av ärr som uppstått av finnar'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
+            image_title: 'Veronika Benedik - Specialist inom aknevård'
       ),
       new Specialist(
             name: 'Amira Maqboul',
-            title: 'Hudterapeut med inriktning mot ärr bildade av finnar sedan 2017',
+            title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut specialiserad på behandling av ärr orsakade av finnar',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på ärr från finnar'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
       ),
       new Specialist(
             name: 'Vilma Libom',
-            title: 'Hudterapeut med expertis inom ärr som uppstått genom finnar sedan 2019',
+            title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av ärr bildade av finnar',
-            image_title: 'Vilma Libom - Expert inom behandling av ärr orsakade av finnar'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
+            image_title: 'Vilma Libom - Expert inom aknebehandling'
       )
 );
 
@@ -589,41 +588,39 @@ $specialist_url_title = "Specialiserade Hudterapeuter med inriktning mot ärr bi
 $related_problems = array(
       new RelatedProblem(
             name: 'Melasma',
-            aka: 'Finnar',
-            image: 'images/problems/102x102/akne.webp',
-            image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
-            image_title: 'Aktiv Akne - en vanlig hudåkomma',
-            url: 'acne.php',
-            url_title: 'Akne'
-      ),
-
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'rosacea.php',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
+            aka: 'Pigmenteringar',
+            image: 'images/problems/102x102/melasma.webp',
+            image_alt: 'Melasma i ansiktet',
+            image_title: 'Melasma - en vanlig hudåkomma',
+            url: '/melasma.php',
+            url_title: 'Melasma'
       ),
 );
+
 $brands = array(
+      new Brand(
+            label: 'Alma Rejuve Dye-VL',
+            image: 'bilder/logotyper/rejuve-dye-vl.svg',
+            image_alt: 'Alma Rejuve Dye-VL logotyp',
+            image_title: 'Alma Rejuve Dye-VL - IPL',
+            url: '/varumarken/alma/rejuve-dye-vl',
+            url_title: 'Alma Rejuve Dye-VL',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_alt: 'Harmony XL Pro logotyp',
+            image_title: 'Alma Harmony XL Pro',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Harmony XL Pro',
+      ),
       new Brand(
             label: 'Powerlite Photonova',
             image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+            image_alt: 'Powerlite Photonova logotyp',
+            image_title: 'Powerlite Photonova - IPL',
+            url: '/varumarken/powerlite-photonova',
+            url_title: 'Powerlite Photonova',
       ),
       new Brand(
             label: 'Dermapen',
@@ -634,44 +631,12 @@ $brands = array(
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'bilder/logotyper/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'bilder/logotyper/infuzion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: 'varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
 
