@@ -5,9 +5,9 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Bristningar - Orsaker, Behandling och Förebyggande | Bristningsspecialisten';
-$seo_description = 'Lär dig allt om bristningar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Bristningsspecialisten.';
-$seo_keywords = 'bristningar, behandling av bristningar, orsaker till bristningar, förebygga bristningar, ta bort bristningar, graviditetsbristningar, tillväxtbristningar, hudärr, hudskador';
+$seo_title = 'Vad är bristningar? - Orsaker, Behandling och Förebyggande';
+$seo_description = 'Här hittar du allt om bristningar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'bristningar, orsaker till bristningar, förebygga bristningar, ta bort bristningar, graviditetsbristningar, tillväxtbristningar, hudärr, hudskador';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 

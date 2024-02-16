@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Perioral Dermatit - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
-$seo_description = 'Lär dig allt om perioral dermatit, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'perioral dermatit, behandling av perioral dermatit, orsaker till perioral dermatit, förebygga perioral dermatit, vuxendermatit, barn med dermatit';
+$seo_title = 'Vad är perioral dermatit? - Orsak, Behandla och Förebygg';
+$seo_description = 'Här hittar du allt om perioral dermatit och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'perioral dermatit, orsaker till perioral dermatit, förebygga perioral dermatit';
 
 $title = 'Perioral Dermatit';
 

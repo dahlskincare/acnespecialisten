@@ -5,9 +5,9 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Operations- och Skadeärr - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om operations- och skadeärr, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'operationsärr, skadeärr, behandling av ärr, orsaker till ärr, förebygga ärr, ta bort ärr, ärrbehandling';
+$seo_title = 'Vad är operations- och skadeärr? - Orsak, Behandla, Förebygg';
+$seo_description = 'Här hittar du allt om operations- och skadeärr och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'operationsärr, skadeärr, orsaker till ärr, förebygga ärr, ta bort ärr';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 

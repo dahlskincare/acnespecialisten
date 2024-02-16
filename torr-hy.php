@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Torr och Känslig Hy - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
-$seo_description = 'Lär dig allt om torr och känslig hy, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
-$seo_keywords = 'torr hy, torr hud, känslig hy, känslig hud, hudvård, förebygga torr hud, behandla känslig hud, hudproblem, fuktighetskräm, hudbarriär';
+$seo_title = 'Vad är torr och känslig hy? - Orsak, Behandla och Förebygg';
+$seo_description = 'Här hittar du allt om torr och känslig hy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'torr hy, torr hud, känslig hy, känslig hud, hudvård, förebygga torr hud';
 
 $title = 'Torr och Känslig Hy';
 

@@ -5,8 +5,8 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Hudförändringar - Identifiering och Råd | Acnespecialisten';
-$seo_description = 'Lär dig allt om olika typer av hudförändringar, från identifiering till råd och omhändertagande. Skräddarsydda lösningar och expertis från Acnespecialisten.';
+$seo_title = 'Vad är hudförändringar? - Orsak, Behandla och Förebygg';
+$seo_description = 'Här hittar du allt om hudförändringar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'ansiktsvårta, fibrom, födelsemärke, hallonmärke, jordgubbsmärke, smultronmärke, hemangiom, hudflikar, hudutväxt, leverfläckar, mole, seborroisk keratos, skintags, skönhetsfläck, åldersvårta';
 
 // här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms

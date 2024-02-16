@@ -5,9 +5,9 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Oönskat Hår - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om oönskat hår, från dess orsaker till hur man behandlar det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'oönskat hår, hårborttagning, orsaker till oönskat hår, förebygga oönskat hår, ta bort oönskat hår, permanent hårborttagning, laserbehandling, vaxning';
+$seo_title = 'Vad är oönskat hår? - Orsaker, Behandling och Förebyggande';
+$seo_description = 'Här hittar du allt om oönskat hår och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'oönskat hår, orsaker till oönskat hår, förebygga oönskat hår, ta bort oönskat hår';
 
 $seo_image = '/bilder/problem/424x456/oonskat-har.webp';
 

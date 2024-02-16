@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Mogen Hy - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om mogen hy, från dess orsaker till hur man behandlar och förebygger tecken på åldrande. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'mogen hy, behandling av mogen hy, orsaker till mogen hy, förebygga ålderstecken, hudåldrande, rynkor, fina linjer, ålderfläckar, hudföryngring';
+$seo_title = 'Vad är mogen hy - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_description = 'Här hittar du allt om mogen hy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_keywords = 'mogen hy, orsaker till mogen hy, förebygga ålderstecken, hudåldrande, rynkor, fina linjer, ålderfläckar';
 
 $title = 'Mogen Hy';
 
