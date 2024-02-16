@@ -515,7 +515,7 @@ $services = array(
             title: 'Kemisk peeling mot bristningar',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla bristningar. Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen. Detta kan hjälpa till att förbättra hudens struktur och minska synligheten av bristningar. Kemisk peeling är en enkel och effektiv strategi för att förbättra utseendet av dina bristningar.',
+            content: 'Kemisk peeling är en effektiv metod för att behandla bristningar. Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen. Detta kan hjälpa till att förbättra hudens struktur och minska synligheten av bristningar.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -538,7 +538,7 @@ $services = array(
             title: 'Microneedling mot bristningar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för bristningar. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av bristningar. Microneedling är en säker och effektiv strategi för att förbättra utseendet av dina bristningar.',
+            content: 'Microneedling är en innovativ behandlingsmetod för bristningar. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av bristningar.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
@@ -782,12 +782,28 @@ $specialist_url_title = "Hudterapeuter specialiserade på bristningar";
 
 $brands = array(
       new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            image_alt: 'Alma logotyp',
+            url: 'varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_title: 'Alma Hybrid - CO2 laser',
+            image_alt: 'Alma Hybrid logotyp',
+            url: 'alma-hybrid-co2-laser.php',
+            url_title: 'Läs mer om Alma Hybrid CO2 laser',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: 'alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
       ),
       new Brand(
             label: 'Dermapen',
@@ -798,44 +814,12 @@ $brands = array(
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'bilder/logotyper/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'bilder/logotyper/infuzion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: 'varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
 

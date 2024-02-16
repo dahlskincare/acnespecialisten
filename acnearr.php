@@ -552,6 +552,7 @@ $related_problems = array(
             url_title: 'Acneärr'
       ),
 );
+
 $brands = array(
       new Brand(
             label: 'Alma',

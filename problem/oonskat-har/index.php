@@ -348,29 +348,29 @@ $specialists = array(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling mot oönskat hår',
+            image_title: 'Cazzandra Lindberg - Expert på oönskat hår'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på oönskat hår',
+            image_title: 'Veronika Benedik - Specialist inom oönskat hår'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
             image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom oönskat hårhantering',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på oönskat hår'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot oönskat hårbehandling',
+            image_title: 'Vilma Libom - Expert inom oönskat hårbehandling'
       )
 );
 
@@ -379,65 +379,25 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $brands = array(
       new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Brand Logo',
-            image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
-            url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
+            label: 'Splendor X',
+            image: 'bilder/logotyper/splendor-x.png',
+            image_alt: 'Splendor X logotyp',
+            image_title: 'Splendor X - Permanent hårborttagning med laser',
+            url: '/varumarken/splendor-x',
+            url_title: 'Splendor X',
       ),
       new Brand(
-            label: 'Dermapen',
-            image: 'bilder/logotyper/dermapen.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
-            url: 'dermapen.php',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'CryoPen',
-            image: 'bilder/logotyper/cryopen.svg',
-            image_alt: 'CryoPen Brand Logo',
-            image_title: 'CryoPen - Kryoterapi Verktyg för Hudbehandlingar',
-            url: 'cryopen.php',
-            url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 Brand Logo',
-            image_title: 'PRX-T33 - Bio-revitaliserande Hudbehandlingsteknik',
-            url: 'prx-t33.php',
-            url_title: 'Läs mer om PRX-T33 Bio-revitaliserande Hudbehandlingar',
-      ),
-      new Brand(
-            label: 'Hydrafacial',
-            image: 'bilder/logotyper/hydrafacial.svg',
-            image_alt: 'Hydrafacial Brand Logo',
-            image_title: 'Hydrafacial - Intensiv Hydrering och Rengöring Behandlingar för Hudvård',
-            url: 'hydrafacial.php',
-            url_title: 'Läs mer om Hydrafacial Hudvårdsbehandlingar',
-      ),
-      new Brand(
-            label: 'Infuzion',
-            image: 'bilder/logotyper/infuzion.svg',
-            image_alt: 'Infuzion Brand Logo',
-            image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
-            url: 'infuzion.php',
-            url_title: 'Läs mer om Infuzion Hudföryngringslösningar'
+            label: 'Soprano Ice',
+            image: 'bilder/logotyper/soprano-ice.png',
+            image_alt: 'Soprano Ice logotyp',
+            image_title: 'Soprano Ice - Permanent hårborttagning med laser',
+            url: '/varumarken/alma/soprano-ice',
+            url_title: 'Soprano Ice',
       ),
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken för Aknebehandling";
+$brands_url_title = "Varumärken för oönskat hår";
 
 ?>
 
