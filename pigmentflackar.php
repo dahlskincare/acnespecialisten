@@ -128,7 +128,7 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot pigmentfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot pigmentfläckar</a>';
-/*
+
 $types_title = 'Olika typer av Pigmentfläckar';
 
 $type_categories = array(
@@ -266,8 +266,6 @@ $type_categories = array(
 
 $types_url = '<a href="problem/pigmentflackar/typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av pigmentfläckar</a>
               <a href="problem/pigmentflackar/typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av pigmentfläckar</a>';
-
-*/
 
 $headline01 = "01. Identifiera dina Pigmentfläckar";
 
