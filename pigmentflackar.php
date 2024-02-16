@@ -223,7 +223,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Pigmentfläckar i ansiktet',
-                        subtitle: 'Åldersfläckar',
+                        subtitle: 'Solfläckar & åldersfläckar',
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar i ansiktet',
                         image_title: 'Pigmentförändringar i ansiktet',
@@ -250,7 +250,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på Händerna',
-                        subtitle: 'Solfläckar',
+                        subtitle: 'Solfläckar & åldersfläckar',
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på händerna',
                         image_title: 'Pigmentförändringar på händerna',
@@ -262,9 +262,6 @@ $type_categories = array(
       )
 
 );
-
-$types_url = '<a href="problem/pigmentflackar/typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline expand l10n is-hidden-tablet">Läs mer om olika typer av pigmentfläckar</a>
-              <a href="problem/pigmentflackar/typer" title="Lär dig mer om olika typer av pigmentfläckar och deras behandling" class="mt-xl button b200 outline l10n is-hidden-mobile">Läs mer om olika typer av pigmentfläckar</a>';
 
 $headline01 = "01. Identifiera dina Pigmentfläckar";
 
