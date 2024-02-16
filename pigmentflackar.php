@@ -582,7 +582,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Melasma',
             aka: 'Pigmenteringar',
-            image: 'images/problems/102x102/melasma.webp',
+            image: '/bilder/problem/102x102/melasma.webp',
             image_alt: 'Melasma i ansiktet',
             image_title: 'Melasma - en vanlig hudåkomma',
             url: '/melasma.php',
@@ -591,7 +591,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Solskadad hy',
             aka: 'Solfläckar',
-            image: 'bilder/problem/solskadad-hy.webp',
+            image: '/bilder/problem/102x102/solskadad-hy.webp',
             image_alt: 'Solskadad hy i ansiktet',
             image_title: 'Solskadad hy - en vanlig hudåkomma',
             url: '/solskadad-hy.php',
