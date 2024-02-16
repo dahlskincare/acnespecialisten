@@ -171,7 +171,6 @@ $type_categories = array(
                         //url: 'problem/pigmentflackar/typer/freknar',
                         //url_title: 'Utforska information om fräknar'
                   ),
-
             )
       ),
       new BasedTypeCategory(
@@ -834,7 +833,6 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    <?php echo $types_url ?>
                               </section>
 
                         <?php } ?>
