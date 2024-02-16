@@ -141,7 +141,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av hormonella pigmentförändringar',
                         image_title: 'Hormonella pigmentförändringar',
-                        url: 'problem/pigmentflackar/typer/melasma',
+                        url: '/melasma.php',
                         url_title: 'Utforska information om hormonella pigmentförändringar'
                   ),
                   new BasedType(
@@ -150,7 +150,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/solflackar.webp',
                         image_alt: 'Bild av solfläckar',
                         image_title: 'Solfläckar',
-                        url: 'problem/pigmentflackar/typer/solflackar',
+                        url: '/solskadad-hy.php',
                         url_title: 'Utforska information om solfläckar'
                   ),
                   new BasedType(
@@ -159,7 +159,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/aldersflackar.webp',
                         image_alt: 'Bild av åldersfläckar',
                         image_title: 'Åldersfläckar',
-                        url: 'problem/pigmentflackar/typer/aldersflackar',
+                        url: '/aldersflackar.php',
                         url_title: 'Utforska information om åldersfläckar'
                   ),
                   new BasedType(
@@ -168,8 +168,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/fraknar.webp',
                         image_alt: 'Bild av fräknar',
                         image_title: 'Fräknar',
-                        url: 'problem/pigmentflackar/typer/freknar',
-                        url_title: 'Utforska information om fräknar'
+                        //url: 'problem/pigmentflackar/typer/freknar',
+                        //url_title: 'Utforska information om fräknar'
                   ),
 
             )
@@ -184,8 +184,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av mörka bruna pigmentfläckar',
                         image_title: 'Mörka bruna pigmentförändringar',
-                        url: 'problem/pigmentflackar/typer/morka-bruna',
-                        url_title: 'Utforska mörka bruna pigmentfläckar'
+                        //url: 'problem/pigmentflackar/typer/morka-bruna',
+                        //url_title: 'Utforska mörka bruna pigmentfläckar'
                   ),
                   new BasedType(
                         title: 'Röda / Lila Pigmentfläckar',
@@ -193,8 +193,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/postinflammatorisk-hyperpigmentering.webp',
                         image_alt: 'Bild av röda lila pigmentfläckar',
                         image_title: 'Röda lila pigmentförändringar',
-                        url: 'problem/pigmentflackar/typer/roda-lila',
-                        url_title: 'Utforska röda lila pigmentfläckar'
+                        //url: 'problem/pigmentflackar/typer/roda-lila',
+                        //url_title: 'Utforska röda lila pigmentfläckar'
                   ),
                   new BasedType(
                         title: 'Ljusbruna Pigmentfläckar',
@@ -202,8 +202,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av ljusbruna pigmentfläckar',
                         image_title: 'Ljusbruna pigmentförändringar',
-                        url: 'problem/pigmentflackar/typer/ljusbruna',
-                        url_title: 'Utforska ljusbruna pigmentfläckar'
+                        //url: 'problem/pigmentflackar/typer/ljusbruna',
+                        //url_title: 'Utforska ljusbruna pigmentfläckar'
                   ),
                   new BasedType(
                         title: 'Vita Pigmentfläckar',
@@ -211,8 +211,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webp',
                         image_alt: 'Bild av vita pigmentfläckar',
                         image_title: 'Vita pigmentförändringar',
-                        url: 'problem/pigmentflackar/typer/vita',
-                        url_title: 'Utforska vita pigmentfläckar'
+                        //url: 'problem/pigmentflackar/typer/vita',
+                        //url_title: 'Utforska vita pigmentfläckar'
                   ),
             )
       ),
@@ -227,8 +227,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar i ansiktet',
                         image_title: 'Pigmentförändringar i ansiktet',
-                        url: 'problem/pigmentflackar/omraden/ansikte',
-                        url_title: 'Läs mer om pigmentfläckar i ansiktet'
+                        //url: 'problem/pigmentflackar/omraden/ansikte',
+                        //url_title: 'Läs mer om pigmentfläckar i ansiktet'
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på överläppen',
@@ -236,8 +236,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på överläppen',
                         image_title: 'Pigmentförändringar på överläppen',
-                        url: 'problem/pigmentflackar/omraden/overlappen',
-                        url_title: 'Läs mer om pigmentfläckar på överläppen'
+                        //url: 'problem/pigmentflackar/omraden/overlappen',
+                        //url_title: 'Läs mer om pigmentfläckar på överläppen'
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på Kroppen',
@@ -245,8 +245,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på kroppen',
                         image_title: 'Pigmentförändringar på kroppen',
-                        url: 'problem/pigmentflackar/omraden/kroppen',
-                        url_title: 'Läs mer om pigmentfläckar på kroppen'
+                        //url: 'problem/pigmentflackar/omraden/kroppen',
+                        //url_title: 'Läs mer om pigmentfläckar på kroppen'
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på Händerna',
@@ -254,8 +254,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på händerna',
                         image_title: 'Pigmentförändringar på händerna',
-                        url: 'problem/pigmentflackar/omraden/hander',
-                        url_title: 'Läs mer om pigmentfläckar på händerna'
+                        //url: 'problem/pigmentflackar/omraden/hander',
+                        //url_title: 'Läs mer om pigmentfläckar på händerna'
                   ),
 
             )
