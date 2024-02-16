@@ -291,7 +291,7 @@ $services = array(
             title: 'IPL-behandling för Pigmentfläckar',
             duration: '60 min',
             price: '2595 kr',
-            content: 'IPL utnyttjar fokuserade ljusstrålar för att behandla och reducera pigmentfläckar och pigmenteringar. Behandlingen främjar hudens kollagenproduktion och tar bort skadade hudceller, vilket resulterar i en jämnare hud och mindre synliga fläckar.',
+            content: 'IPL-behandling använder ljuspulser för att bryta ner melanin i pigmentfläckar, vilket gör att de bleknar eller försvinner.',
             image_small: 'images/services/200x200/ipl.webp',
             image_large: 'images/services/200x200/ipl.webp',
             image_alt: 'Bild av en IPL-behandling för pigmentfläckar',
