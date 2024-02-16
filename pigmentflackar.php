@@ -165,7 +165,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Fräknar',
                         subtitle: 'Ephelides',
-                        image_url: 'bilder/problem/102x102/freknar.webp',
+                        image_url: 'bilder/problem/102x102/fraknar.webp',
                         image_alt: 'Bild av fräknar',
                         image_title: 'Fräknar',
                         url: 'problem/pigmentflackar/typer/freknar',
