@@ -121,7 +121,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos oss blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din hudförändring och skapar en individuell behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),

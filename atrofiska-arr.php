@@ -32,20 +32,20 @@ $akas = [
 $floating_box = 'Information om atrofiska ärr';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för atrofiska ärr";
 
 $booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka behandling mot atrofiska ärr";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för atrofiska ärr";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka atrofiska ärr behandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för atrofiska ärr";
 
 $floating_booking_url_label = "Boka behandling";
@@ -72,7 +72,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'På AcneSpecialisten får du personlig hjälp från en erfaren hudterapeut som specialiserar sig på atrofiska ärr. Vi genomför en noggrann analys av dina ärr och tar fram en skräddarsydd behandlingsplan anpassad efter just dina behov och din ärrtyp.',
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             url_title: 'Boka din kostnadsfria konsultation för atrofiska ärr'
       ),

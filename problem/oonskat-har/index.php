@@ -99,7 +99,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en expert inom hårbortagning som hjälper dig identifiera ditt behov av laserbehandling för oönskat hår och skapar en individuell behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
             url_title: 'Boka din kostnadsfria konsultation för laserbehandling idag'
       ),

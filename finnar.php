@@ -42,7 +42,7 @@ $akas = [
 ];
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis Konsultation mot Finnar";
 
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples";
@@ -55,7 +55,7 @@ $mobile_consultation_url_title = "Gratis Konsultation för finnar";
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling för finnar";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för finnar";
 
 $floating_booking_url_label = "Boka behandling";

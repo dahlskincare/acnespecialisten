@@ -23,7 +23,7 @@ $description = 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstån
 
 $floating_box = 'En översikt om rhinophyma rosacea och dess behandling';
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
 $consultation_url_title = "Gratis Konsultation för rosacea";
 
@@ -31,13 +31,13 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea";
 $booking_url_title = "Boka rosaceabehandling";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för rosacea";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka rosaceabehandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för rosacea";
 
 $floating_booking_url_label = "Boka behandling";
@@ -66,7 +66,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rhinophyma rosacea och skapar en individuell behandlingsplan.',
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),

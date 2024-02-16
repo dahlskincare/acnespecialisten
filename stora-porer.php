@@ -113,7 +113,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos oss får du en personlig hudterapeut som hjälper dig identifiera problemet med dina stora porer och skapar en individuell behandlingsplan.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),

@@ -117,7 +117,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten får du träffa en erfaren hudterapeut som hjälper dig identifiera din specifika typ av perioral dermatit och utvecklar en personlig behandlingsplan just för dig.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
             url_title: 'Boka din kostnadsfria hudkonsultation för perioral dermatit idag'
       ),

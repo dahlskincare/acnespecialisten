@@ -36,7 +36,7 @@ $akas = [
 
 $floating_box = 'Text på floating box';
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea";
 $consultation_url_title = "Gratis Konsultation för mjalleksem";
 
@@ -44,13 +44,13 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea";
 $booking_url_title = "Boka mjalleksembehandling";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för mjalleksem";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka mjalleksembehandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för mjalleksem";
 
 $floating_booking_url_label = "Boka behandling";

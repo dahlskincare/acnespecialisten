@@ -41,7 +41,7 @@ $akas = [
 
 $floating_box = 'Behandla dina cystisk akne effektivt.';
 
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
 $consultation_url_title = "Gratis Konsultation för Cystisk akne";
 
@@ -49,13 +49,13 @@ $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för cystisk akne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för cystisk akne";
 
 $floating_booking_url_label = "Boka behandling";
@@ -82,7 +82,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Genom vår specialiserade konsultation på AcneSpecialisten fokuserar vi på att förstå de unika egenskaperna hos din cystiska akne. Vi genomför en detaljerad analys för att identifiera de underliggande orsakerna och utarbeta en skräddarsydd behandlingsplan för att effektivt hantera ditt hudtillstånd.',
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för cystisk akne idag'
       ),

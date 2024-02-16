@@ -121,7 +121,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten kopplas du ihop med en specialist inom ärrbehandling. De hjälper dig att identifiera typen av operations- och skadeärr och sätter upp en individuell behandlingsplan anpassad för dina behov.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'gratis-hudkonsultation.php',
             url_title: 'Boka din kostnadsfria konsultation gällande ärrbehandling idag'
       ),

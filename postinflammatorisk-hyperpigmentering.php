@@ -32,20 +32,20 @@ $akas = [
 $floating_box = 'Information om postinflammatorisk hyperpigmentering';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för postinflammatorisk hyperpigmentering";
 
 $booking_url = "https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka behandling mot postinflammatorisk hyperpigmentering";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis Konsultation för postinflammatorisk hyperpigmentering";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka postinflammatorisk hyperpigmentering-behandling";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis Konsultation för postinflammatorisk hyperpigmentering";
 
 $floating_booking_url_label = "Boka behandling";
@@ -73,7 +73,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten får du professionell hjälp av en hudterapeut som är expert på postinflammatorisk hyperpigmentering. Vi utför en grundlig analys av din hud för att identifiera områden med hyperpigmentering och skapar en behandlingsplan som är unikt anpassad för din hudtyp och dina specifika behov.',
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             url_title: 'Boka din kostnadsfria konsultation för postinflammatorisk hyperpigmentering'
       ),

@@ -159,7 +159,7 @@ $treatment_steps = array(
     new TreatmentStep(
         title: 'Identifiera',
         content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-        url_label: 'Få gratis konsultation',
+        url_label: 'Boka gratis konsultation',
         url: 'gratis-hudkonsultation.php',
         url_title: 'Boka din kostnadsfria hudkonsultation idag'
     ),

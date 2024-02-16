@@ -37,20 +37,20 @@ $akas = [
 $floating_box = 'Vi behandlar pormaskar i ansiktet effektivt';
 
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
-$consultation_url_label = "Få gratis konsultation";
+$consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis konsultation för behandling av pormaskar i ansiktet";
 
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
 
-$mobile_consultation_url_label = "Få gratis konsultation";
+$mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka din tid för behandling av pormaskar i ansiktet";
 
-$floating_consultation_url_label = "Få gratis konsultation";
+$floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis konsultation för pormaskar i ansiktet";
 
 $floating_booking_url_label = "Boka behandling";
@@ -78,7 +78,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Din behandlingsresa hos AcneSpecialisten inleds med en professionell hudanalys. Våra erfarna hudterapeuter genomför en detaljerad utvärdering för att identifiera pormaskar i ansiktet och skapar en skräddarsydd behandlingsplan som är specifikt riktad mot dina unika hudbehov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag',
       ),
       new TreatmentStep(
