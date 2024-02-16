@@ -280,7 +280,7 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer om vår konsultation för pigmentfläckar och hudfläckar',
+      url_label: 'Läs mer konsultation mot pigmentfläckar',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för pigmentfläckar och hudfläckar'
 );
 
@@ -303,7 +303,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en IPL-behandling för pigmentfläckar',
             url: 'ipl-pigmentflackar.php',
-            url_label: 'Läs mer om IPL-behandling för pigmentfläckar',
+            url_label: 'Läs mer om IPL-behandling mot pigmentfläckar',
             url_title: 'Klicka här för att läsa mer om IPL-behandling för pigmentfläckar'
       ),
       new Service(
