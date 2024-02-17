@@ -462,32 +462,25 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Allt du behöver veta om ärr av finnar' => array(
             new Question(
-                  title: 'Kan jag helt bli fri från ärr som orsakats av finnar?',
-                  text: '<p class="p200">Absolut, ärr som uppstått från finnar kan behandlas. Efter en grundlig analys av din hud sätter vi upp en behandlingsplan som är skräddarsydd för dig. Vi samarbetar tätt för att se till att dina ärr försvinner, även om behandlingstiden kan variera.</p>'
+                  title: 'Vad är pigmentfläckar och hur skiljer de sig från vanliga hudfläckar?',
+                  text: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, uppstår när vissa områden av huden blir mörkare än den omgivande huden. De kan uppkomma som ett resultat av en överproduktion av melanin, pigmentet som ger huden dess färg. Dessa fläckar skiljer sig från vanliga hudfläckar genom deras färgintensitet och tendens att uppstå som en reaktion på faktorer som solskador, hormonella förändringar eller hudskador.</p>'
             ),
             new Question(
-                  title: 'Kommer ärrbildningen från att jag klämt på finnarna?',
-                  text: '<p class="p200">Att klämma på finnar kan bidra, men är inte den enda orsaken till ärrbildning. Ibland beror det på att finnar inte blivit korrekt behandlade. Vi kan identifiera ditt unika fall och arbeta för att förhindra framtida ärr.</p>'
+                  title: 'Vilka är de vanligaste orsakerna till hyperpigmentering?',
+                  text: '<p class="p200">De vanligaste orsakerna inkluderar exponering för solen, vilket kan leda till solfläckar eller åldersfläckar; hormonella förändringar, som kan förekomma under graviditet eller som en bieffekt av vissa mediciner; och inflammation eller hudskador, som kan resultera i mörkare fläckar efter läkning. Genetiska faktorer kan också spela en roll i benägenheten att utveckla pigmentfläckar.</p>'
             ),
             new Question(
-                  title: 'Är det möjligt att ärr som behandlats kommer tillbaka?',
-                  text: '<p class="p200">En gång behandlade ärr kommer inte att återuppstå. Men utan korrekt behandling av finnar, kan nya ärr uppstå. Vårt fokus ligger på både att behandla ärr och förhindra nya finnar.</p>'
+                  title: 'Finns det olika typer av pigmentfläckar?',
+                  text: '<p class="p200">Ja, det finns flera typer av pigmentfläckar, inklusive melasma, som ofta är kopplat till hormonella förändringar och förekommer vanligtvis på ansiktet; solfläckar, också kända som leverfläckar, som är resultatet av solskador; och postinflammatorisk hyperpigmentering, som uppstår på områden där huden har varit inflammerad eller skadad.</p>'
             ),
             new Question(
-                  title: 'Hur många sessioner behövs för att radera mina ärr från finnar?',
-                  text: '<p class="p200">Det finns ingen standardmängd sessioner, då detta beror på din hud och dina ärr. Vi gör en individuell plan och din hudterapeut kommer att guida dig genom processen och ge dig en uppskattning av hur många behandlingar som behövs.</p>'
+                  title: 'Kan alla hudtyper få pigmentfläckar?',
+                  text: '<p class="p200"> Ja, pigmentfläckar kan påverka människor med alla hudtyper. Dock kan risknivån och typerna av pigmentfläckar variera beroende på hudens pigmentering och genetiska faktorer. Personer med ljusare hud kan märka en större kontrast med hyperpigmentering, medan de med mörkare hudtoner kan vara mer benägna att utveckla vissa typer av fläckar som postinflammatorisk hyperpigmentering.</p>'
             ),
             new Question(
-                  title: 'Vilka tekniker används för att behandla olika ärr från finnar?',
-                  text: '<p class="p200">Beroende på din hud och ärrtyp erbjuder vi olika metoder, inklusive laser, peeling och microneedling. Vi kommer att rekommendera den bästa metoden för just dig under en kostnadsfri konsultation.</p>'
-            ),
-            new Question(
-                  title: 'Är det smärtsamt att behandla ärr från finnar? Hur ser eftervård ut?',
-                  text: '<p class="p200">Vi gör vårt bästa för att minimera obehag. Eftervården är anpassad till varje individ och du får fullständiga instruktioner för hudvård efter varje behandling.</p>'
-            ),
-            new Question(
-                  title: 'Vilken tid behöver jag mellan behandlingar? När kommer jag att se förbättringar?',
-                  text: '<p class="p200">Behandlingsintervaller och tiden till synliga resultat varierar beroende på din situation. Din hudterapeut kommer att fastställa en plan inklusive en tidslinje som är anpassad för just dig.</p>'
+                  title: 'Hur kan jag identifiera en pigmentfläck jämfört med andra hudförändringar?',
+                  text: '<p class="p200">   Pigmentfläckar är vanligtvis platta, mörkare områden som varierar i storlek och form och är tydligare än den omgivande huden. De kan förekomma var som helst på kroppen men är vanligast i ansiktet, på händerna och andra områden som utsätts för solen. Om du är osäker på en hudförändring, är det alltid bäst att konsultera en hudläkare för en korrekt diagnos och råd.</p>'
+          
             )
       ),
 
