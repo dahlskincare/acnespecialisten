@@ -463,7 +463,7 @@ $faq_categories = array(
       'Allt du behöver veta om ärr av finnar' => array(
             new Question(
                   title: 'Vad är pigmentfläckar och hur skiljer de sig från vanliga hudfläckar?',
-                  text: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, uppstår när vissa områden av huden blir mörkare än den omgivande huden. De kan uppkomma som ett resultat av en överproduktion av melanin, pigmentet som ger huden dess färg. Dessa fläckar skiljer sig från vanliga hudfläckar genom deras färgintensitet och tendens att uppstå som en reaktion på faktorer som solskador, hormonella förändringar eller hudskador.</p>'
+                  text: '<p class="p200">Pigmentfläckar, även kända som hyperpigmentering, uppstår när vissa områden av huden blir mörkare än den omgivande huden. De kan uppkomma som ett resultat av en överproduktion av melanin, pigmentet som ger huden dess färg. Dessa fläckar skiljer sig från vanliga hudfläckar genom deras färgintensitet och tendens att uppstå som en reaktion på faktorer som solskador, hormonella förändringar eller åldrande.</p>'
             ),
             new Question(
                   title: 'Vilka är de vanligaste orsakerna till hyperpigmentering?',
@@ -479,7 +479,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur kan jag identifiera en pigmentfläck jämfört med andra hudförändringar?',
-                  text: '<p class="p200">   Pigmentfläckar är vanligtvis platta, mörkare områden som varierar i storlek och form och är tydligare än den omgivande huden. De kan förekomma var som helst på kroppen men är vanligast i ansiktet, på händerna och andra områden som utsätts för solen. Om du är osäker på en hudförändring, är det alltid bäst att konsultera en hudläkare för en korrekt diagnos och råd.</p>'
+                  text: '<p class="p200">   Pigmentfläckar är vanligtvis platta, mörkare områden som varierar i storlek och form och är tydligare än den omgivande huden. De kan förekomma var som helst på kroppen men är vanligast i ansiktet, på händerna och andra områden som utsätts för solen. Om du är osäker på dina pigmentfläckar, är det alltid bäst att boka en konsultation hos en av våra hudterapeuter för en korrekt diagnos och råd.</p>'
           
             )
       ),
@@ -488,7 +488,7 @@ $faq_categories = array(
 
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till ärr";
+$faq_url_title = "läs flera frågor relaterat till pigmentfläckar";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -542,14 +542,14 @@ $specialists = array(
             title: 'Hudterapeut sedan 2015',
             image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
             image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i pigmentfläcksbehandling',
-            image_title: 'Cazzandra Lindberg - Expert på pigmentfläcksbehandling'
+            image_title: 'Cazzandra Lindberg - Expert på hudfläckar'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
             image: 'images/specialists/312x312/hudterapeut-veronika.webp',
             image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på pigmentfläckar',
-            image_title: 'Veronika Benedik - Specialist inom pigmentfläckarsård'
+            image_title: 'Veronika Benedik - Specialist inom hyperpigmentering'
       ),
       new Specialist(
             name: 'Amira Maqboul',
@@ -563,7 +563,7 @@ $specialists = array(
             title: 'Hudterapeut sedan 2019',
             image: 'images/specialists/312x312/hudterapeut-vilma.webp',
             image_alt: 'Vilma Libom, hudterapeut med inriktning mot pigmentfläcksbehandling',
-            image_title: 'Vilma Libom - Expert inom pigmentfläcksbehandling'
+            image_title: 'Vilma Libom - Expert inom pigmenteringar'
       )
 );
 
@@ -576,8 +576,8 @@ $related_problems = array(
             name: 'Melasma',
             aka: 'Pigmenteringar',
             image: '/bilder/problem/102x102/melasma.webp',
-            image_alt: 'Melasma i ansiktet',
             image_title: 'Melasma - en vanlig hudåkomma',
+            image_alt: 'Melasma i ansiktet',
             url: '/melasma.php',
             url_title: 'Melasma'
       ),
@@ -585,8 +585,17 @@ $related_problems = array(
             name: 'Solskadad hy',
             aka: 'Solfläckar',
             image: '/bilder/problem/102x102/solskadad-hy.webp',
-            image_alt: 'Solskadad hy i ansiktet',
             image_title: 'Solskadad hy - en vanlig hudåkomma',
+            image_alt: 'Solskadad hy i ansiktet',
+            url: '/solskadad-hy.php',
+            url_title: 'Solskadad hy'
+      ),
+      new RelatedProblem(
+            name: 'Hudförändringar',
+            aka: 'Leverfläckar & Födelsemärken',
+            image: '/peter',
+            image_title: 'Leverfläck i ansiktet',
+            image_alt: 'svart upphöjdleverfläck i ansiktet',
             url: '/solskadad-hy.php',
             url_title: 'Solskadad hy'
       ),
