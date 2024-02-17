@@ -594,8 +594,17 @@ $related_problems = array(
             name: 'Hudförändringar',
             aka: 'Leverfläckar & Födelsemärken',
             image: '/peter',
-            image_title: 'Leverfläck i ansiktet',
-            image_alt: 'svart upphöjdleverfläck i ansiktet',
+            image_title: 'födelsemärke i ansiktet',
+            image_alt: 'svart utåtstående leverläck i ansiktet',
+            url: '/solskadad-hy.php',
+            url_title: 'Solskadad hy'
+      ),
+      new RelatedProblem(
+            name: 'Åldersfläckar',
+            aka: 'Åldersvårtor',
+            image: '/peter',
+            image_title: 'Leverfläck i huvudet',
+            image_alt: 'svart upphöjdleverfläck på huvudet',
             url: '/solskadad-hy.php',
             url_title: 'Solskadad hy'
       ),
