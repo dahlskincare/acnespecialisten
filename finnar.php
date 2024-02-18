@@ -609,24 +609,24 @@ $reviews = array(
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Farväl finnar!',
-            text: "Jag har länge kämpat med envisa finnar, men tack vare AcneSpecialisten är de nu borta. Kunde inte vara mer nöjd!",
-            signature: 'Elin'
+            title: 'Mycket nöjd',
+            text: "Nu har vår dotter 13 år gått på två behandlingar och använt produkterna i 2 1/2 mån och hon är mycket bättre i hyn och finnar och pormaskar under kontroll. Vi är jätte nöjda!",
+            signature: 'Cecilia'
+      ),
+      new Review(
+            stars: 5,
+            brand: 'Trustpilot',
+            logo_url: 'images/brands/trustpilot.svg',
+            title: 'Hade fått finnar som aldrig förr och…',
+            text: "Hade fått finnar som aldrig förr och trodde aldrig att de skulle försvinna, nu är till och med de märken som suttit kvar efter de första finnarna jag fick när jag kanske var 15 (är 20 nu) knappast synliga 😍",
+            signature: 'Adriana'
       ),
       new Review(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/google-small.svg',
-            title: 'Finnar är ett minne blott',
-            text: "Efter månader av behandlingar hos AcneSpecialisten är mina finnar äntligen borta. Personalen är proffsig, och resultaten talar för sig själva!",
-            signature: 'Martin'
-      ),
-      new Review(
-            stars: 5,
-            brand: 'Bokadirekt',
-            logo_url: 'images/brands/bokadirekt-small.svg',
-            title: 'Inga mer finnar!',
-            text: "Jag trodde aldrig jag skulle bli av med mina finnar, men behandlingarna här har verkligen gjort underverk. Rekommenderar starkt!",
+            title: 'Bra resultat',
+            text: "Har sett så bra resultat! Har haft problem med huden ganska länge, men nu har huden verkligen glänst och så mycket mindre finnar!",
             signature: 'Karin'
       ),
 
