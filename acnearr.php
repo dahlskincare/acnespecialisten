@@ -379,25 +379,25 @@ $reviews = array(
             stars: 5,
             brand: 'Trustpilot',
             logo_url: 'images/brands/trustpilot.svg',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia'
+            title: 'Utmärkt',
+            text: "Professionellt gjort. Man känner sig trygg. Är nöjd med dagens behandling.",
+            signature: 'Vee'
       ),
       new Review(
             stars: 5,
             brand: 'Google',
             logo_url: 'images/brands/google-small.svg',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa'
+            title: 'Bra ställe..',
+            text: "Bra ställe och fantastiska specialister. Jag uppskattar mycket hur ren platsen är men också hur uppmärksam personalen är. Rekommenderas 10/10!",
+            signature: 'Alba'
       ),
       new Review(
             stars: 5,
             brand: 'Bokadirekt',
             logo_url: 'images/brands/bokadirekt-small.svg',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily'
+            title: 'Så fräsch lokal..',
+            text: "Så fräsch lokal och proffsigt och mysigt besök. Vi har nu satt upp en plan för min hy.",
+            signature: 'Matilda'
       ),
 
 );

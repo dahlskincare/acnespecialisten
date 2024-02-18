@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är pigmentfläckar? - Orsak, Behandla och Förebygg';
+$seo_title = 'Vad är Pigmentfläckar? - Orsaker, Typer och Förebyggande';
 $seo_description = 'Här hittar du allt om pigmentfläckar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'pigmentfläckar, orsaker till pigmentfläckar, förebygga pigmentfläckar, minska pigmentfläckar, hyperpigmentering, hudfläckar, hyperpigmentering, pigmenteringar';
+$seo_keywords = 'pigmentfläckar, hyperpigmentering, pigmentering, hudfläckar, hyperpigmentering, hudfläckar, pigmenteringar';
 
 $title = 'Pigmentfläckar';
 
@@ -16,7 +16,7 @@ $path_segments = array(
       new PathSegment('Pigmentfläckar', '/pigmentflackar.php'),
 );
 
-$description = 'Pigmentfläckar, inklusive åldersfläckar eller hyperpigmentering, beror på ojämn produktion av melanin. På denna sida dyker vi djupare in i de bakomliggande faktorerna och presenterar en översikt över behandlingsmetoder för att skapa en mer enhetlig hudton.';
+$description = 'Pigmentfläckar, inklusive åldersfläckar eller hyperpigmentering, beror på ökad produktion av melanin. På denna sida dyker vi djupare in i de bakomliggande faktorerna och presenterar en översikt över behandlingsmetoder för att skapa en mer enhetlig hudton.';
 
 $image_small = 'bilder/problem/424x324/pigmentflackar.webp';
 $image_large = 'bilder/problem/424x456/pigmentflackar.webp';
@@ -43,7 +43,7 @@ $consultation_url_title = "Gratis konsultation för behandling av pigmentfläcka
 
 $booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av hudförändringar";
+$booking_url_title = "Boka din tid för behandling av hudfläckar";
 
 $mobile_consultation_url_label = "Gratis konsultation";
 $mobile_consultation_url_title = "Gratis konsultation för pigmenteringar";
