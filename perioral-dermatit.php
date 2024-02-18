@@ -5,9 +5,9 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är perioral dermatit? - Orsak, Behandla och Förebygg';
+$seo_title = 'Vad är Perioral Dermatit? - Orsaker, Behandling och Förebyggande.';
 $seo_description = 'Här hittar du allt om perioral dermatit och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'perioral dermatit, orsaker till perioral dermatit, förebygga perioral dermatit';
+$seo_keywords = 'perioral dermatit, finnar runt munnen, akne runt munnen';
 
 $title = 'Perioral Dermatit';
 
@@ -24,20 +24,11 @@ $description = 'Perioral dermatit är en inflammatorisk hudsjukdom som framträd
 
 $akas = [
       new Link(
-            label: 'Perioral hudirritation',
+            label: 'Akne runt munnen',
             url: null,
             title: 'Allt du behöver veta om perioral hudirritation och dess behandling'
       ),
-      new Link(
-            label: 'Munområdeseksem',
-            url: null,
-            title: 'Utforska orsaker, symptom och behandlingar av munområdeseksem'
-      ),
-      new Link(
-            label: 'Hudinflammation runt munnen',
-            url: null,
-            title: 'Komplett guide om hudinflammation runt munnen: orsaker, förebyggande och lösningar'
-      ),
+
 ];
 
 $consultation_url_label = "Boka gratis konsultation";

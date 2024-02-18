@@ -5,7 +5,7 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är akne? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_title = 'Vad är akne? - Orsaker, Behandling och Förebyggande.';
 $seo_description = 'Här hittar du allt om akne och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'akne, vad är akne, orsaker till akne, varför får man akne, var akne, varför akne';
 
