@@ -553,36 +553,6 @@ $specialists = array(
 $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
-$related_problems = array(
-      new RelatedProblem(
-            name: 'Blandhy',
-            aka: 'Kombinationshy',
-            image: 'bilder/problem/102x102/blandhy.webp',
-            image_alt: 'Bild som visar blandhy, en typ av hudproblem där vissa områden är torra medan andra är oljiga',
-            image_title: 'Blandhy - en komplex hudtyp som kräver specialiserad vård',
-            url: 'blandhy.php',
-            url_title: 'Blandhy'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'bilder/problem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'rosacea.php',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'bilder/problem/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
-      ),
-);
-
 $brands = array(
       new Brand(
             label: 'Alma',
@@ -975,16 +945,6 @@ $brands_url_title = "Varumärken för Milierbehandling";
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
-                        </section>
-                        <section id="related-problems">
-                              <h2 class="big l10n">Relaterade hudproblem</h2>
-                              <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
-                                    <?php foreach ($related_problems as $problem) { ?>
-                                          <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
-                                          </div>
-                                    <?php } ?>
-                              </dig>
                         </section>
                   </div>
                   <section id="brands">
