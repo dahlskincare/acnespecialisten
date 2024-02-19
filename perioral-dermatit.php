@@ -411,7 +411,7 @@ $products = array(
             title: 'Produkter mot Perioral Dermatit',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Daglig skötsel av huden är viktig för att hålla perioral dermatit i schack. Våra produkter är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
+            content: 'Daglig skötsel av huden är viktig för att hålla perioral dermatit i schack. Vi rekommenderar produkter som är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
@@ -439,7 +439,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp för min perioral dermatit?',
             image_title: 'När ska jag söka hjälp för min perioral dermatit?',
-            content: '<p class="p200">Perioral dermatit är en hudsjukdom som oftast påverkar området runt munnen och ibland näsan eller ögonen. Detta tillstånd kan vara smärtsamt, obehagligt och estetiskt störande.</p>
+            content: '<p class="p200">Perioral dermatit är en hudsjukdom som oftast påverkar området runt munnen och näsan. Detta tillstånd kan vara smärtsamt, obehagligt och estetiskt störande.</p>
             <p class="p200 mt-m">Om du upplever att din perioral dermatit inte förbättras eller om det påverkar din livskvalitet, kan det vara dags att söka professionell hjälp. En hudterapeut kan identifiera din hudtyp och utforma en skräddarsydd behandlingsplan, vilken kan inkludera specialanpassade produkter och behandlingar. Om du är bekymrad över din perioral dermatit, tveka inte att söka professionell rådgivning. Det är aldrig för tidigt eller för sent att ta kontroll över din hy.</p>',
       ),
 
