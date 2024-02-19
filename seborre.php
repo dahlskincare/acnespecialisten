@@ -183,7 +183,7 @@ $service = new Service(
       title: 'Seborré Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under ett personligt möte med en av våra AcneSpecialister utförs en noggrann undersökning av din hud för att identifiera och förstå din seborré. Vi tar före-bilder på din hud och utifrån denna undersökning rekommenderar vi den mest lämpliga seborrébehandlingen för dig.',
+      content: 'Under ett personligt möte med en av våra hudterapeuter utförs en noggrann undersökning av din hud för att identifiera och förstå din seborré. Vi tar före-bilder på din hud och utifrån denna undersökning rekommenderar vi den mest lämpliga seborrébehandlingen för dig.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Seborré Konsultation',
