@@ -111,7 +111,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
 
-            url_label: 'Se milierbehandlingar',
+            url_label: 'Läs mer om milierbehandling',
             url: 'milierbehandling.php',
             url_title: 'Utforska våra skräddarsydda behandlingar för milier'
       ),
@@ -359,7 +359,7 @@ $articles = array(
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             content: '<p class="p200">Om du letar efter en effektiv lösning för dina milier, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i att behandla olika hudåkommor, inklusive milier, kan vi erbjuda en individuellt skräddarsydd behandlingsplan som är perfekt anpassad för dig.</p>
             <p class="p200 mt-m">Vi använder oss av de mest beprövade metoderna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av professionella hudterapeuter står redo att guida dig genom hela behandlingsprocessen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram säkerställer vi en långvarig förbättring av din hud.</p>
-            <p class="p200 mt-m">När du väljer AcneSpecialisten för behandling av dina milier får du inte bara tillgång till den mest effektiva hudvården. Vi ser också dig som en partner i din hudvårdsresa och är engagerade i att hjälpa dig uppnå och bibehålla en klar och frisk hud. Vårt engagemang, vår kunskap och vår långa erfarenhet gör oss till ditt bästa val för behandling av milier.</p>',
+            <p class="p200 mt-m">När du väljer AcneSpecialisten för behandling av dina milier får du inte bara tillgång till den mest effektiva hudvården. Vi blir din parnet under din hudvårdsresa och är engagerade i att hjälpa dig uppnå och bibehålla en klar och frisk hud. Vårt engagemang, vår kunskap och vår långa erfarenhet gör oss till ditt bästa val för behandling av milier.</p>',
       ),
 
 );
