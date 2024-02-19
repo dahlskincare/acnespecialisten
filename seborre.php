@@ -258,7 +258,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med min seborré?',
             image_title: 'När ska jag söka hjälp med min seborré?',
-            content: '<p class="p200">Om du upplever att seborré börjar påverka din dagliga livskvalitet, eller om du har provat olika behandlingar och produkter utan att märka någon bestående förbättring, kan det vara dags att söka professionell hjälp. Att agera tidigt ökar chanserna att förhindra långvariga hudproblem och att uppnå en sundare och mer balanserad hud. Vänta inte med att söka hjälp, det första steget kan vara att boka en gratis konsultation.</p>',
+            content: '<p class="p200">Om du upplever att seborré börjar påverka din dagliga livskvalitet, eller om du har provat olika behandlingar och produkter utan att märka någon bestående förbättring, kan det vara dags att söka professionell hjälp. Att agera tidigt gör att du kan förhindra att problemet utvecklas och får snabbare resultat till en sundare och mer balanserad hud. Vänta inte med att söka hjälp, det första steget kan vara att boka en gratis konsultation.</p>',
       ),
       new Article(
             title: 'När ska jag söka hjälp med min seborré?',
