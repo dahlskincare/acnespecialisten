@@ -347,7 +347,10 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina milier?',
             image_title: 'När ska jag söka hjälp med mina milier?',
-            content: '<p class="p200">Även om milier är ofarliga så kan det påverka ditt välbefinnande negativt genom att minska självkänslan eller orsaka obehag. Om du har testat olika hudvårdsprodukter eller hemmabehandlingar utan att se några resultat, eller om milier på något sätt börjar störa ditt dagliga liv, är det lämpligt att överväga professionell hjälp.</p>',
+            content: '<p class="p200">Att upptäcka milier på huden kan vara en källa till frustration, särskilt när de dyker upp på väl synliga ställen. Dessa små, ofarliga hudcystor orsakar vanligtvis inte något fysiskt obehag, men deras närvaro kan vara estetiskt störande för många. Det finns specifika situationer när det blir viktigt att överväga att söka professionell hjälp för att hantera dem. Om du har försökt olika metoder för hembehandling utan något märkbart resultat, kan det vara ett tecken på att det är dags att ta nästa steg.</p>
+            <p class="p200 mt-m">Ibland kan det vara svårt att skilja milier från andra hudförändringar såsom vita pormaskar eller små fettknölar. Om osäkerhet råder kring vad dessa hudförändringar faktiskt är, är det klokt att söka expertis för en korrekt diagnos. Att besöka en hudterapeut kan ge klarhet och säkerställa att du får rätt behandling.</p>
+            <p class="p200 mt-m">Milier kan för vissa personer vara mer än bara en mindre skönhetssak; de kan påverka självkänslan och välbefinnandet. Om du känner dig obekväm eller självmedveten på grund av dina milier, är det ett tydligt tecken på att professionell hjälp kan vara av värde. En hudterapeut kan erbjuda skräddarsydda behandlingsalternativ som effektivt förbättrar hudens utseende utan att kompromissa med dess hälsa.</p>
+            <p class="p200 mt-m">Ett viktigt skäl till att undvika att hantera milier på egen hand är risken för hudskador, infektioner eller ärrbildning. Professionell borttagning av milier genom en hudterapeut säkerställer att behandlingen utförs säkert och effektivt, med minimal risk för negativa effekter. Att välja att besöka en specialist kan därför vara ett klokt beslut för alla som vill hantera sina milier på ett säkert och effektivt sätt, samtidigt som de upprätthåller en god hudhälsa och estetik.</p>',
       ),
 
       new Article(
@@ -357,7 +360,8 @@ $articles = array(
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             content: '<p class="p200">AcneSpecialisten står ut som det självklara valet för den som söker effektiv behandling av milier, med vår djupgående erfarenhet av över 30 år inom hudvård och specialisering på olika hudproblem. Vi erbjuder individuellt utformade behandlingsplaner som skräddarsys för att passa just dina behov och hudtyp.</p>
-            <p class="p200 mt-m">Vårt tillvägagångssätt bygger på beprövade hudvårdsmetoder som säkerställer optimala resultat. Vårt team av dedikerade hudterapeuter guidar dig genom varje steg i behandlingsprocessen. Vårt engagemang för din hudhälsa, kombinerat med vår omfattande kunskap och erfarenhet, gör AcneSpecialisten till det självklara valet för alla som vill ta itu med sina milier.</p>',
+            <p class="p200 mt-m">Vårt tillvägagångssätt bygger på beprövade hudvårdsmetoder som säkerställer optimala resultat. Vårt team av dedikerade hudterapeuter guidar dig genom varje steg i behandlingsprocessen. Detta tillvägagångssätt garanterar inte bara omedelbara förbättringar utan också långsiktiga resultat för din hud.</p>
+            <p class="p200 mt-m">Genom att välja oss får du mer än bara behandling; du blir en del av en gemenskap där vi tillsammans arbetar mot målet att uppnå och underhålla en klar och hälsosam hud. Vårt engagemang för din hudhälsa, kombinerat med vår omfattande kunskap och erfarenhet, gör AcneSpecialisten till det självklara valet för alla som vill ta itu med sina milier.</p>',
       ),
 
 );
