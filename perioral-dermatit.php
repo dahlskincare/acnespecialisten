@@ -284,107 +284,68 @@ $symptoms_title = 'Perioral dermatit symptom';
 $symptoms = array(
       new Symptom(
           name: 'Röda Utslag',
-          aka: 'Kända som inflammerade utslag',
+          aka: 'Papler eller pustler',
           content: 'Röda, inflammerade utslag är det mest framträdande symptomet av perioral dermatit. Dessa utslag uppstår oftast runt munnen och kan också spridas till näsan och ibland ögonen.',
         
           url_label: null,
           url: null,
           url_title: null,
 
-          image: 'images/symptoms/102x102/roda-utslag.webp',
+          image_url: 'bilder/symptom/102x102/stress-akne.webp',
           image_alt: 'Bild av röda utslag',
           image_title: 'Röda Utslag'
       ),
       new Symptom(
-          name: 'Små Knölar eller Pustler',
-          aka: 'Kända som papuler eller pustler',
-          content: 'Förutom röda utslag, kan små, pusfyllda blåsor eller knölar också uppstå som en del av perioral dermatit.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
-
-          image: 'images/symptoms/102x102/knolar-pustler.webp',
-          image_alt: 'Bild av små knölar eller pustler',
-          image_title: 'Små Knölar eller Pustler'
-      ),
-      new Symptom(
           name: 'Klåda',
-          aka: 'Känd som pruritus',
+          aka: 'Kliande hud',
           content: 'Vissa individer upplever klåda i det drabbade området, även om detta symptom inte är universellt för alla som har perioral dermatit.',
         
           url_label: null,
           url: null,
           url_title: null,
 
-          image: 'images/symptoms/102x102/klada.webp',
+          image_url: 'bilder/symptom/102x102/stress-akne.webp',
           image_alt: 'Bild av hud som kliar',
           image_title: 'Klåda'
       ),
       new Symptom(
-          name: 'Brännande eller Svidande Känsla',
-          aka: 'Känd som brännande hud',
+          name: 'vidande Känsla',
+          aka: 'Hettande hud',
           content: 'En brännande eller svidande känsla är också vanlig vid perioral dermatit och kan förvärras när huden kommer i kontakt med vatten eller hudvårdsprodukter.',
         
           url_label: null,
           url: null,
           url_title: null,
 
-          image: 'images/symptoms/102x102/brannande-svidande.webp',
+          image_url: 'bilder/symptom/102x102/stress-akne.webp',
           image_alt: 'Bild av hud med brännande eller svidande känsla',
           image_title: 'Brännande eller Svidande Känsla'
       ),
       new Symptom(
           name: 'Hudfjällning',
-          aka: 'Känd som desquamation',
+          aka: 'Flagnande hud',
           content: 'I vissa fall kan huden runt de drabbade områdena börja fjälla eller flagna, vilket kan likna symptom av eksem.',
         
           url_label: null,
           url: null,
           url_title: null,
 
-          image: 'images/symptoms/102x102/hudfallning.webp',
+          image_url: 'bilder/symptom/102x102/stress-akne.webp',
           image_alt: 'Bild av hudfjällning',
           image_title: 'Hudfjällning'
       ),
       new Symptom(
           name: 'Rodnad och Inflammation',
-          aka: 'Känd som erytem och inflammation',
+          aka: 'Erytem och inflammation',
           content: 'Området kring de drabbade delarna kan vara kraftigt rött och inflammerat, särskilt i svårare fall av perioral dermatit.',
         
           url_label: null,
           url: null,
           url_title: null,
 
-          image: 'images/symptoms/102x102/rodnad-inflammation.webp',
+          image_url: 'bilder/symptom/102x102/stress-akne.webp',
           image_alt: 'Bild av rodnad och inflammation',
           image_title: 'Rodnad och Inflammation'
-      ),
-      new Symptom(
-          name: 'Förvärring vid Solsken',
-          aka: 'Känd som solkänslighet',
-          content: 'Vissa personer med perioral dermatit rapporterar att deras symptom blir värre när de exponeras för direkt solljus.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
-
-          image: 'images/symptoms/102x102/forvarring-solsken.webp',
-          image_alt: 'Bild av hud som reagerar på solsken',
-          image_title: 'Förvärring vid Exponering för Solsken'
-      ),
-      new Symptom(
-          name: 'Hudirritation från Kosmetika',
-          aka: 'Känd som kosmetik-inducerad irritation',
-          content: 'Användning av kosmetiska produkter som foundation eller solkräm kan förvärra symptomen av perioral dermatit.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
-
-          image: 'images/symptoms/102x102/hudirritation-kosmetika.webp',
-          image_alt: 'Bild av hudirritation orsakad av kosmetika',
-          image_title: 'Hudirritation från Kosmetika'
       ),
 );
 
