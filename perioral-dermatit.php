@@ -533,7 +533,7 @@ $faq_categories = array(
       'Generellt om perioral dermatit' => array(
             new Question(
                   title: 'Vad är perioral dermatit och hur skiljer det sig från andra hudåkommor?',
-                  text: '<p class="p200">Perioral dermatit är en inflammatorisk hudsjukdom som oftast uppträder runt munnen och ibland runt ögon eller näsa. Det kännetecknas av små röda prickar, pustler och flagnande hud. Tillståndet kan vara kroniskt och tenderar att återkomma. Det skiljer sig från akne genom att det oftast inte inkluderar komedoner (svarta och vita pormaskar) och från rosacea genom att det oftast är centrerat kring munnen snarare än på kinderna och näsan. Det kan också förväxlas med eksem, men behandlingar som ofta används för eksem, som kortikosteroider, kan faktiskt förvärra perioral dermatit.</p>'
+                  text: '<p class="p200">Perioral dermatit är en inflammatorisk hudsjukdom som oftast uppträder runt munnen och näsan. Det kännetecknas av små röda prickar, pustler och flagnande hud. Tillståndet kan vara kroniskt och tenderar att återkomma. Det skiljer sig från akne genom att det oftast inte inkluderar komedoner (svarta och vita pormaskar) och från rosacea genom att det oftast är centrerat kring munnen snarare än på kinderna och näsan. Det kan också förväxlas med eksem, men behandlingar som ofta används för eksem, som kortison, kan faktiskt förvärra perioral dermatit.</p>'
             ),
             new Question(
                   title: 'Vilka är de vanligaste symptomen på perioral dermatit?',
