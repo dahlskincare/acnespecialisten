@@ -357,8 +357,7 @@ $articles = array(
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             content: '<p class="p200">AcneSpecialisten står ut som det självklara valet för den som söker effektiv behandling av milier, med vår djupgående erfarenhet av över 30 år inom hudvård och specialisering på olika hudproblem. Vi erbjuder individuellt utformade behandlingsplaner som skräddarsys för att passa just dina behov och hudtyp.</p>
-            <p class="p200 mt-m">Vårt tillvägagångssätt bygger på beprövade hudvårdsmetoder som säkerställer optimala resultat. Vårt team av dedikerade hudterapeuter guidar dig genom varje steg i behandlingsprocessen, inklusive regelbundna uppföljningar och ett hemvårdsprogram anpassat för dig. Detta tillvägagångssätt garanterar inte bara omedelbara förbättringar utan också långsiktiga resultat för din hud.</p>
-            <p class="p200 mt-m">Genom att välja oss får du mer än bara behandling; du blir en del av en gemenskap där vi tillsammans arbetar mot målet att uppnå och underhålla en klar och hälsosam hud. Vårt engagemang för din hudhälsa, kombinerat med vår omfattande kunskap och erfarenhet, gör AcneSpecialisten till det självklara valet för alla som vill ta itu med sina milier.</p>',
+            <p class="p200 mt-m">Vårt tillvägagångssätt bygger på beprövade hudvårdsmetoder som säkerställer optimala resultat. Vårt team av dedikerade hudterapeuter guidar dig genom varje steg i behandlingsprocessen. Vårt engagemang för din hudhälsa, kombinerat med vår omfattande kunskap och erfarenhet, gör AcneSpecialisten till det självklara valet för alla som vill ta itu med sina milier.</p>',
       ),
 
 );
