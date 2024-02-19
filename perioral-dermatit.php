@@ -537,7 +537,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vilka är de vanligaste symptomen på perioral dermatit?',
-                  text: '<p class="p200">De vanligaste symptomen inkluderar en utslagsliknande utbrott av små, röda, inflammerade bumpar eller pustler vanligtvis centrerade runt munnen. Detta kan åtföljas av mild till måttlig klåda, brännande känsla och flagnande hud. Utslagen kan ibland sprida sig till områden runt näsan eller ögonen.</p>'
+                  text: '<p class="p200">De vanligaste symptomen inkluderar en utslagsliknande utbrott av små, röda, inflammerade papler eller pustler vanligtvis centrerade runt munnen. Detta kan åtföljas av mild till måttlig klåda, brännande känsla och flagnande hud. Utslagen kan ibland sprida sig till områden runt näsan eller ögonen.</p>'
             ),
             new Question(
                   title: 'Är perioral dermatit relaterat till andra hudtillstånd, som exempelvis rosacea eller akne?',
