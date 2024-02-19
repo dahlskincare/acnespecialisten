@@ -43,19 +43,19 @@ $consultation_url_title = "Gratis konsultation för behandling av pigmentfläcka
 
 $booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots";
 $booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av hudfläckar";
+$booking_url_title = "Boka din tid för behandling mot pigmentfläckar";
 
 $mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för pigmenteringar";
+$mobile_consultation_url_title = "Gratis konsultation mot pigmenteringar";
 
 $mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av pigmentförändringar";
+$mobile_booking_url_title = "Boka din tid för behandling mot pigmentförändringar";
 
 $floating_consultation_url_label = "Boka gratis konsultation";
 $floating_consultation_url_title = "Gratis konsultation för hyperpigmentering";
 
 $floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av hudfläckar";
+$floating_booking_url_title = "Boka din tid för behandling mot pigmentfläckar";
 
 $nav_buttons = array(
       'about' => 'Om pigmentfläckar',
@@ -593,16 +593,16 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Hudförändringar',
             aka: 'Leverfläckar & Födelsemärken',
-            image: '/peter',
+            image: '/bilder/problem/102x102/hudforandringar.webp',
             image_title: 'födelsemärke i ansiktet',
             image_alt: 'svart utåtstående leverläck i ansiktet',
-            url: '/solskadad-hy.php',
+            url: '/probelm/hudforandringar/',
             url_title: 'Solskadad hy'
       ),
       new RelatedProblem(
             name: 'Åldersfläckar',
             aka: 'Åldersvårtor',
-            image: '/peter',
+            image: '/bilder/problem/102x102/aldersflackar.webp',
             image_title: 'Leverfläck i huvudet',
             image_alt: 'svart upphöjdleverfläck på huvudet',
             url: '/solskadad-hy.php',
@@ -763,7 +763,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
                                           <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="<?php echo $booking_url ?>" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
+                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
                                     </div>
                               </div>
                         </div>
