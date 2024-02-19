@@ -347,8 +347,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina milier?',
             image_title: 'När ska jag söka hjälp med mina milier?',
-            content: '<p class="p200">Milier är små, vita eller gulaktiga cystor som kan uppstå på huden hos personer i alla åldrar. Även om milier är ofarliga och mestadels estetiska bekymmer, kan de ändå påverka självkänslan eller ge upphov till obehag. Om du har provat olika hudvårdsprodukter och hemmabehandlingar utan framgång, eller om milier börjar påverka ditt välbefinnande, kan det vara dags att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för dina milier.</p>
-            <p class="p200 mt-m">Hos en hudspecialist, som de hos AcneSpecialisten, kan du få en personlig konsultation och en skräddarsydd behandlingsplan. En expert kan analysera din hudtyp och de områden där milier har uppstått, och sedan rekommendera den mest effektiva behandlingsmetoden för just ditt fall. Om du känner att dina milier har blivit en belastning eller om du helt enkelt vill förbättra din huds utseende, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
+            content: '<p class="p200">Milier, de små vita eller gulaktiga cystorna som kan dyka upp på huden oavsett ålder, är oftast ofarliga. Dessa små korn kan dock påverka ditt välbefinnande negativt genom att minska självkänslan eller orsaka obehag. Om du har testat olika hudvårdsprodukter eller hemmabehandlingar utan att se några resultat, eller om milier på något sätt börjar störa ditt dagliga liv, är det lämpligt att överväga professionell hjälp. Det finns inget behov av att vänta tills situationen blir ohållbar för att söka hjälp.</p>
+            <p class="p200 mt-m">Under en konsultation tas behandlingsplan fram som är speciellt anpassad för din hudtyp och de specifika områden där milier förekommer. Att ta hand om din hud och förbättra dess utseende är något du förtjänar.</p>',
       ),
 
       new Article(
@@ -357,9 +357,9 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
-            content: '<p class="p200">Om du letar efter en effektiv lösning för dina milier, är AcneSpecialisten det självklara valet. Med över 30 års erfarenhet inom hudvård och en specialisering i att behandla olika hudåkommor, inklusive milier, kan vi erbjuda en individuellt skräddarsydd behandlingsplan som är perfekt anpassad för dig.</p>
-            <p class="p200 mt-m">Vi använder oss av de mest beprövade metoderna inom hudvård för att ge dig bästa möjliga resultat. Vårt team av professionella hudterapeuter står redo att guida dig genom hela behandlingsprocessen. Med regelbundna uppföljningar och anpassade hemmavårdsprogram säkerställer vi en långvarig förbättring av din hud.</p>
-            <p class="p200 mt-m">När du väljer AcneSpecialisten för behandling av dina milier får du inte bara tillgång till den mest effektiva hudvården. Vi blir din parnet under din hudvårdsresa och är engagerade i att hjälpa dig uppnå och bibehålla en klar och frisk hud. Vårt engagemang, vår kunskap och vår långa erfarenhet gör oss till ditt bästa val för behandling av milier.</p>',
+            content: '<p class="p200">AcneSpecialisten står ut som det självklara valet för den som söker effektiv behandling av milier, med vår djupgående erfarenhet av över 30 år inom hudvård och specialisering på olika hudproblem. Vi erbjuder individuellt utformade behandlingsplaner som skräddarsys för att passa just dina behov och hudtyp.</p>
+            <p class="p200 mt-m">Vårt tillvägagångssätt bygger på beprövade hudvårdsmetoder som säkerställer optimala resultat. Vårt team av dedikerade hudterapeuter guidar dig genom varje steg i behandlingsprocessen, inklusive regelbundna uppföljningar och ett hemvårdsprogram anpassat för dig. Detta tillvägagångssätt garanterar inte bara omedelbara förbättringar utan också långsiktiga resultat för din hud.</p>
+            <p class="p200 mt-m">Genom att välja oss får du mer än bara behandling; du blir en del av en gemenskap där vi tillsammans arbetar mot målet att uppnå och underhålla en klar och hälsosam hud. Vårt engagemang för din hudhälsa, kombinerat med vår omfattande kunskap och erfarenhet, gör AcneSpecialisten till det självklara valet för alla som vill ta itu med sina milier.</p>',
       ),
 
 );
