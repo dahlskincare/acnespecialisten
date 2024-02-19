@@ -283,9 +283,9 @@ $symptoms_title = 'Perioral dermatit symptom';
 
 $symptoms = array(
       new Symptom(
-          name: 'Röda Utslag',
+          name: 'Utslag runt munnen',
           aka: 'Papler eller pustler',
-          content: 'Röda, inflammerade utslag är det mest framträdande symptomet av perioral dermatit. Dessa utslag uppstår oftast runt munnen och kan också spridas till näsan och ibland ögonen.',
+          content: 'Röda, inflammerade utslag är det mest framträdande symptomet av perioral dermatit. Dessa utslag uppstår oftast runt munnen och näsan.',
         
           url_label: null,
           url: null,
