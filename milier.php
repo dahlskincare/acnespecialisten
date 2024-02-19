@@ -5,7 +5,7 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är milier? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_title = 'Vad är milier? - Orsaker, Behandling och Förebyggande';
 $seo_description = 'Här hittar du allt om milier och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'milier, orsaker till milier, förebygga milier, ta bort milier';
 
@@ -20,26 +20,7 @@ $image_small = 'bilder/problem/424x324/milier.webp';
 $image_large = 'bilder/problem/424x456/milier.webp';
 $image_title = 'Visar en hud med milier';
 $image_alt = 'Bild som illustrerar hur milier ser ut på huden';
-$description = 'Milier är små, vita cystor som är vanliga hos både nyfödda och vuxna. På denna sida utforskar vi hur milier bildas, deras placering på huden och skillnaden mellan milier och andra små hudlesioner.';
-
-
-$akas = [
-      new Link(
-            label: 'Keratinpluggar',
-            url: null,
-            title: 'Keratinpluggar'
-      ),
-      new Link(
-            label: 'Hudkorn',
-            url: null,
-            title: 'Hudkorn'
-      ),
-      new Link(
-            label: 'Mikrocystor',
-            url: null,
-            title: 'Mikrocystor'
-      ),
-];
+$description = 'Milier är små, vita cystor som kan drabba alla. På denna sida utforskar vi hur milier bildas, deras placering på huden och skillnaden mellan milier och andra små hudlesioner.';
 
 $consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia";
@@ -790,15 +771,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                               <h1 class="h600"><?php echo $title ?></h1>
-                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
 
-                              <?php foreach ($akas as $aka) { ?>
-                                    <div>
-                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
-                                                <?php echo $aka->label ?>
-                                          </a>
-                                    </div>
-                              <?php } ?>
                               <hr class="mt-xl" />
                               <p class="mt-m p200">
                                     <?php echo $description ?>
