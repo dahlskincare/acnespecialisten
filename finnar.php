@@ -5,7 +5,7 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är finnar? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_title = 'Vad är finnar? - Symptom, orsak och behandling | AcneSpecialisten';
 $seo_description = 'Här hittar du allt om finnar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'finnar, vad är finnar, orsaker till finnar, varför får man finnar, var finnar, varför finnar';
 
