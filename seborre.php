@@ -58,7 +58,6 @@ $floating_booking_url_title = "Boka din tid för behandling av seborré";
 $nav_buttons = array(
       'about' => 'Om akne',
       'approach' => 'Metoden',
-      'types' => 'Typer',
       'symptoms' => 'Symptom',
       'define' => 'Konsultation',
       'treatments' => 'Behandling',
