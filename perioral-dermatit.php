@@ -541,7 +541,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är perioral dermatit relaterat till andra hudtillstånd, som exempelvis rosacea eller akne?',
-                  text: '<p class="p200">Perioral dermatit är ett unikt dermatologiskt tillstånd, men det har vissa likheter med både rosacea och akne. Det kan vara svårt att diagnostisera eftersom dess symptom liknar dem för andra hudsjukdomarna.</p>'
+                  text: '<p class="p200">Perioral dermatit är ett unikt dermatologiskt tillstånd, men det har vissa likheter med både rosacea och akne. Det kan vara svårt att diagnostisera eftersom dess symptom liknar dem för andra hudsjukdomarna. Vissa forskare tror att det kan ha en koppling till rosacea på grund av liknande inflammatoriska processer.</p>'
             ),
             new Question(
                   title: 'Kan perioral dermatit vara en reaktion på kosmetika eller hudvårdsprodukter?',
