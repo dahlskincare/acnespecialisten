@@ -476,7 +476,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Torr & känslig hy',
             aka: 'Reaktiv hy',
-            image: 'bilder/problemhy/102x102/torr-kanslig-hy.webp',
+            image: 'bilder/problem/102x102/torr-kanslig-hy.webp',
             image_alt: 'Torr & känslig hy i ansiktet',
             image_title: 'Torr & känslig hy - en vanlig hudåkomma',
             url: '/torr-hy.php',
