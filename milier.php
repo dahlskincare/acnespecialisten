@@ -69,9 +69,8 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man milier?',
-            content: '<p class="p200">Orsakerna till att man får milier kan vara många och varierar från person till person. Generellt sett uppstår milier när döda hudceller eller keratin blir instängda under hudens ytskikt. Detta kan hända av olika anledningar, inklusive naturliga hudförändringar, hormonella fluktuationer, eller som en reaktion på vissa produkter. Det kan ocskå uppstå som ett resultat av förändringar i huden eller hormonella obalanser, exempelvis kan kvinnor uppleva en ökning av milier under graviditet eller menopaus på grund av hormonella förändringar.</p>',
-            extended_content: '<p class="p200 mt-xl">Personer som utsätter sin hud för mycket sol löper högre risk att få milier. För det tredje kan vissa hudåkommor och medicinska tillstånd öka risken för att utveckla milier. Dessa inkluderar saker som brännskador, allergiska reaktioner och även vissa typer av hudsjukdomar. Det har också observerats att personer med mer fuktig och oljig hud är mer benägna att utveckla milier.</p>
-            <p class="p200 mt-xl">Vissa personer är mer benägna att utveckla milier än andra, så är genetiska faktorer troligtvis också inblandade. Detta innebär att om andra i din familj har haft milier, kan det öka din egen risk att utveckla dem. Det är alltså en kombination av genetiska, hormonella och externa faktorer som samverkar för att orsaka dessa små, men ofta störande, hudcystor.</p>',
+            content: '<p class="p200">Orsakerna till att man får milier kan vara många och varierar från person till person. Generellt sett uppstår milier när döda hudceller eller keratin blir instängda under hudens ytskikt. Detta kan hända av olika anledningar, inklusive naturliga hudförändringar, hormonella fluktuationer, eller som en reaktion på vissa produkter. Det kan ocskå uppstå som ett resultat av förändringar i huden eller hormonella obalanser, exempelvis kan kvinnor uppleva en ökning av milier under graviditet eller klimeakteriet på grund av hormonella förändringar.</p>',
+            extended_content: '<p class="p200 mt-xl">Personer som utsätter sin hud för mycket sol löper högre risk att få milier. Vissa hudåkommor och medicinska tillstånd kan öka risken för att utveckla milier. Det har också observerats att personer med mer fuktig och oljig hud är mer benägna att utveckla milier. Vissa personer är mer benägna att utveckla milier än andra, så är genetiska faktorer troligtvis också inblandade. Detta innebär att om andra i din familj har haft milier, kan det öka din egen risk att utveckla dem. Det är alltså en kombination av genetiska, hormonella och externa faktorer som samverkar för att orsaka dessa små, men ofta störande, hudcystor.</p>',
             icons: array('hormoner' => 'Hormoner', 'stress' => 'Stress', 'genetik' => 'Genetik', 'livsstil' => 'Livsstil')
       ),
       new ProblemTrivia(
@@ -743,7 +742,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                               <div>
                                     <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
-                                          
+
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
