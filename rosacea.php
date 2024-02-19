@@ -5,7 +5,7 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är rosacea? - Orsaker, Behandling och Förebyggande | AcneSpecialisten';
+$seo_title = 'Vad är rosacea? -Symptom, orsak och behandling | AcneSpecialisten';
 $seo_description = 'Här hittar du allt om roacea och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, vuxenrosacea, rosacearodnad, kärlutvidgningar, rodnad, inflammation';
 

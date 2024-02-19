@@ -5,7 +5,7 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är bristningar? - Orsaker, Behandling och Förebyggande';
+$seo_title = 'Vad är bristningar? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om bristningar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'bristningar, orsaker till bristningar, förebygga bristningar, ta bort bristningar, graviditetsbristningar, tillväxtbristningar, hudärr, hudskador';
 

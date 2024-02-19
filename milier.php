@@ -94,7 +94,7 @@ $trivias = array(
             <p class="p200 mt-xl">Öronen<br />Milier kan även uppträda på eller runt öronen, inklusive öronlapparna och bakom öronen, där små hudfickor lätt kan bli blockerade.</p>
             <p class="p200 mt-xl">Även om dessa är de vanligaste platserna för milier, kan de i princip uppträda var som helst på kroppen. Det är mindre vanligt, men inte omöjligt, för milier att utvecklas på områden som halsen och bröstet, särskilt om huden där har blivit irriterad eller skadad.</p>
             <p class="p200 mt-xl">Det är viktigt att komma ihåg att även om milier kan vara kosmetiskt störande, är de helt ofarliga och inte smittsamma. De kan dock vara tecken på att huden behöver extra omvårdnad eller anpassning av hudvårdsrutiner, särskilt för personer som ofta upplever dessa små cystor.</p>',
-            icons: array('ansikte' => 'Ansiktet', 'kinder' => 'På Kinderna')
+            icons: array('ansikte' => 'Ansiktet', 'kinder' => 'På Kinderna', 'ogon' => 'Runt ögonen')
       ),
 );
 
