@@ -143,7 +143,7 @@ $symptoms = array(
       new Symptom(
           name: 'Rodnad',
           aka: 'Inflammation',
-          content: 'Områden med fjällning kan vara omgivna av rodnad hud, vilket indikerar inflammation.',
+          content: 'Röd hud kring fjällande områden indikerar inflammation, vanligen orsakad av immunförsvarets reaktion mot jästsvampar som Malassezia. Denna rodnad, som kan förekomma i talgrika områden som ansiktet och hårbotten, kan medföra värme och ömhet.',
         
           url_label: null,
           url: null,
