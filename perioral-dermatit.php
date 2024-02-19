@@ -324,7 +324,7 @@ $symptoms = array(
       new Symptom(
           name: 'Hudfjällning',
           aka: 'Flagnande hud',
-          content: 'I vissa fall kan huden runt de drabbade områdena börja fjälla eller flagna, vilket kan likna symptom av eksem.',
+          content: 'I vissa fall kan huden runt de drabbade områdena börja fjälla eller flagna, vilket kan likna symptom av eksem. Huden känns också stram och torr.',
         
           url_label: null,
           url: null,
