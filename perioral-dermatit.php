@@ -291,7 +291,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/papler.webp',
+          image: 'bilder/symptom/102x102/papler.webp',
           image_alt: 'Bild av röda utslag',
           image_title: 'Röda Utslag'
       ),
@@ -304,7 +304,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/klada.webp',
+          image: 'bilder/symptom/102x102/klada.webp',
           image_alt: 'Bild av hud som kliar',
           image_title: 'Klåda'
       ),
@@ -317,7 +317,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/irriterad-hy.webp',
+          image: 'bilder/symptom/102x102/irriterad-hy.webp',
           image_alt: 'Bild av hud med brännande eller svidande känsla',
           image_title: 'Brännande eller Svidande Känsla'
       ),
@@ -330,7 +330,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/flagnande-hud.webp',
+          image: 'bilder/symptom/102x102/flagnande-hud.webp',
           image_alt: 'Bild av hudfjällning',
           image_title: 'Hudfjällning'
       ),
@@ -343,7 +343,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
+          image: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
           image_alt: 'Bild av rodnad och inflammation',
           image_title: 'Rodnad och Inflammation'
       ),
