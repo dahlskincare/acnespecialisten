@@ -62,7 +62,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är milier?',
-            content: '<p class="p200">Milier är små, fasta cystor som är vanligtvis vita eller hudfärgade och som kan förekomma på olika delar av huden. De är typiskt sett 1-2 millimeter i diameter och uppstår när döda hudceller eller keratin, ett protein som naturligt förekommer i hud, hår och naglar, blir instängda under hudens ytskikt. Denna instängning skapar en liten kapsel eller ficka fylld med proteinet keratin. Milier är i allmänhet helt smärtfria och orsakar inte inflammation eller rodnad runt det drabbade området, vilket skiljer dem från akne eller andra inflammerade hudåkommor.</p>',
+            content: '<p class="p200">Milier är små, fasta cystor som är vanligtvis vita eller hudfärgade och som kan förekomma på olika delar av ansiktet. De är typiskt sett 1-2 millimeter i diameter och uppstår när döda hudceller eller keratin, ett protein som naturligt förekommer i hud, hår och naglar, blir instängda under hudens ytskikt. Denna instängning skapar en liten kapsel eller ficka fylld med proteinet keratin. Milier är i allmänhet helt smärtfria och orsakar inte inflammation eller rodnad runt det drabbade området, vilket skiljer dem från akne eller andra inflammerade hudåkommor.</p>',
             extended_content: '<p class="p200 mt-xl">Många förväxlar milier med vanlig akne, men dessa två hudåkommor skiljer sig åt både i deras orsaker och i hur de bör behandlas. Till skillnad från akne, är milier inte fyllda med var och de är inte resultatet av bakterieinfektioner eller inflammation. De är heller inte associerade med överproduktion av talg, vilket är en av de vanligaste orsakerna till akne. Eftersom milier saknar en poröppning är det viktigt att inte klämma på milier i ett försök att "rensa ut" dem, eftersom detta kan leda till infektion och ärrbildning.</p>',
             icons: array()
       ),
@@ -800,12 +800,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                               </div>
                               <div id="green-header-large-text" class="mt-xxs">
                                     <h1 class="h600"><?php echo $title ?></h1>
-                                    <div class="mt-s">
-                                          <span class="h200 l10n">Även känt som:</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
-                                    </div>
+
                                     <p class="mt-s p200"><?php echo $description ?></p>
                                     <div class="mt-xl flex-row" id="book-buttons">
                                           <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
