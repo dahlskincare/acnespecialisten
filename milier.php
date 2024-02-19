@@ -80,6 +80,17 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får milier?',
+            content: '<p class="p200">Milier, de små keratinfyllda cystorna som bildas under huden, kan påverka individer oavsett ålder, kön eller hudtyp, vilket gör dem till ett vanligt hudtillstånd. Dock varierar förekomsten av milier bland olika åldersgrupper och under olika omständigheter.</p>',
+            extended_content: '<p class="p200 mt-xl">Nyfödda<br />Milier är mycket vanliga hos nyfödda och anses vara en normal del av hudens utveckling. Hos spädbarn uppträder milier ofta i ansiktet, särskilt runt näsan och på kinderna, men de kan också förekomma på andra delar av kroppen. Dessa milier försvinner vanligtvis naturligt inom några veckor eller månader efter födseln utan behandling.</p>
+            <p class="p200 mt-xl">Vuxna<br />Även om milier är särskilt vanliga hos nyfödda, kan vuxna också utveckla dem. Hos vuxna kan bildandet av milier associeras med hudskador, långvarig solskada, användning av vissa kosmetiska produkter som kan blockera porerna, eller hudtillstånd som påverkar hudens förmåga att exfoliera sig själv. Vuxna med en tendens till torr hud eller de som upplever hormonella förändringar kan också vara mer benägna att utveckla milier.</p>
+            <p class="p200 mt-xl">Personer med vissa hudtillstånd<br />Individer med vissa hudåkommor, såsom rosacea, atopisk dermatit eller skadad hud från till exempel solbränna, kan ha en ökad risk att utveckla milier. Hudtillstånd som påverkar hudens barriärfunktion eller förnyelseprocess kan skapa gynnsamma förhållanden för milier att bildas.</p>
+            <p class="p200 mt-xl">Personer som använder tunga hudvårdsprodukter<br />Användning av tjocka, oljiga hudkrämer eller smink kan bidra till blockering av porer, vilket kan leda till bildandet av milier. Individer som regelbundet använder sådana produkter kan märka en ökad förekomst av milier, särskilt om produkterna inte är väl anpassade till deras hudtyp.</p>
+            <p class="p200 mt-xl">Sammanfattningsvis kan vem som helst få milier, men förekomsten kan vara högre bland nyfödda, vuxna som utsätts för vissa riskfaktorer, personer med specifika hudtillstånd, och de som använder produkter som kan bidra till hudblockeringar. Även om milier är ofarliga och inte indikerar ett allvarligare hudproblem, kan de för vissa personer vara en kosmetisk oro som de önskar behandla.</p>',
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'vuxna' => 'Vuxna', '65+' => 'Äldre')
+      ),
+      new ProblemTrivia(
+            prefix: 'Var',
+            title: 'får man milier?',
             content: '<p class="p200">Milier kan uppträda på olika delar av kroppen men är mest vanliga i ansiktet, där huden är känslig och utsatt för både yttre och inre faktorer som kan bidra till deras bildning. De specifika platser där milier oftast observeras inkluderar:</p>',
             extended_content: '<p class="p200 mt-xl">Ögonområdet<br />Milier förekommer ofta runt ögonen, inklusive ögonlocken och under ögonen. Denna hud är särskilt tunn och känslig, vilket gör den mer mottaglig för blockeringar som kan leda till milier.</p>
             <p class="p200 mt-xl">Kinder<br />Ansiktets kinder är en annan vanlig plats för milier, särskilt hos nyfödda och små barn, men även vuxna kan drabbas här. Huden på kinderna kan lätt bli irriterad eller skadad, vilket skapar gynnsamma förhållanden för milier att utvecklas.</p>
@@ -88,18 +99,6 @@ $trivias = array(
             <p class="p200 mt-xl">Öronen<br />Milier kan även uppträda på eller runt öronen, inklusive öronlapparna och bakom öronen, där små hudfickor lätt kan bli blockerade.</p>
             <p class="p200 mt-xl">Även om dessa är de vanligaste platserna för milier, kan de i princip uppträda var som helst på kroppen. Det är mindre vanligt, men inte omöjligt, för milier att utvecklas på områden som halsen, bröstet eller till och med på genitala områden, särskilt om huden där har blivit irriterad eller skadad.</p>
             <p class="p200 mt-xl">Det är viktigt att komma ihåg att även om milier kan vara kosmetiskt störande, är de helt ofarliga och inte smittsamma. De kan dock vara tecken på att huden behöver extra omvårdnad eller anpassning av hudvårdsrutiner, särskilt för personer som ofta upplever dessa små cystor.</p>',
-
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'vuxna' => 'Vuxna', '65+' => 'Äldre')
-      ),
-      new ProblemTrivia(
-            prefix: 'Var',
-            title: 'får man milier?',
-            content: '<p class="p200">Milier, de små keratinfyllda cystorna som bildas under huden, kan påverka individer oavsett ålder, kön eller hudtyp, vilket gör dem till ett vanligt hudtillstånd. Dock varierar förekomsten av milier bland olika åldersgrupper och under olika omständigheter.</p>',
-            extended_content: '<p class="p200 mt-xl">Nyfödda<br />Milier är mycket vanliga hos nyfödda och anses vara en normal del av hudens utveckling. Hos spädbarn uppträder milier ofta i ansiktet, särskilt runt näsan och på kinderna, men de kan också förekomma på andra delar av kroppen. Dessa milier försvinner vanligtvis naturligt inom några veckor eller månader efter födseln utan behandling.</p>
-            <p class="p200 mt-xl">Vuxna<br />Även om milier är särskilt vanliga hos nyfödda, kan vuxna också utveckla dem. Hos vuxna kan bildandet av milier associeras med hudskador, långvarig solskada, användning av vissa kosmetiska produkter som kan blockera porerna, eller hudtillstånd som påverkar hudens förmåga att exfoliera sig själv. Vuxna med en tendens till torr hud eller de som upplever hormonella förändringar kan också vara mer benägna att utveckla milier.</p>
-            <p class="p200 mt-xl">Personer med vissa hudtillstånd<br />Individer med vissa hudåkommor, såsom rosacea, atopisk dermatit eller skadad hud från till exempel solbränna, kan ha en ökad risk att utveckla milier. Hudtillstånd som påverkar hudens barriärfunktion eller förnyelseprocess kan skapa gynnsamma förhållanden för milier att bildas.</p>
-            <p class="p200 mt-xl">Personer som använder tunga hudvårdsprodukter<br />Användning av tjocka, oljiga hudkrämer eller smink kan bidra till blockering av porer, vilket kan leda till bildandet av milier. Individer som regelbundet använder sådana produkter kan märka en ökad förekomst av milier, särskilt om produkterna inte är väl anpassade till deras hudtyp.</p>
-            <p class="p200 mt-xl">Sammanfattningsvis kan vem som helst få milier, men förekomsten kan vara högre bland nyfödda, vuxna som utsätts för vissa riskfaktorer, personer med specifika hudtillstånd, och de som använder produkter som kan bidra till hudblockeringar. Även om milier är ofarliga och inte indikerar ett allvarligare hudproblem, kan de för vissa personer vara en kosmetisk oro som de önskar behandla.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kinder' => 'På Kinderna')
       ),
 );
