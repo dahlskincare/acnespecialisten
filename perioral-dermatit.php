@@ -649,13 +649,13 @@ $specialist_url_title = "Perioral dermatit Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: 'acnearr.php',
-            url_title: 'Acneärr'
+            name: 'Aktiv Akne',
+            aka: 'Finnar',
+            image: 'bilder/problem/102x102/akne.webp',
+            image_alt: 'Ansikte med aktiv akne',
+            image_title: 'Aktiv Akne - en vanlig hudåkomma',
+            url: 'acne.php',
+            url_title: 'Akne'
       ),
       new RelatedProblem(
             name: 'Rosacea',
