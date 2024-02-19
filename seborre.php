@@ -131,29 +131,31 @@ $symptoms_title = 'Seborré symptom';
 $symptoms = array(
       new Symptom(
             name: 'Flagnande hy',
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
+            image: 'bilder/symptom/102x102/flagnande-hud.webp',
             content: 'Det främsta symptomen på seborré är flagnande hud, vilket innebär att det finns små skikt eller flingor av döda hudceller som lossnar från huden. Detta beror på en överproduktion av hudens naturliga oljor (talg), som stör hudens normala avstötningsprocess och orsakar en snabbare cellomsättning.',
             url: null,
             url_title: null,
             url_label: null,
-            aka: 'Fjällande hy',
+            aka: 'Torr hy',
             image_alt: 'Flagnande hy symptom på seborré',
             image_title: 'Flagnande hy som ett symptom på seborré'
       ),
       new Symptom(
-            name: 'Mjäll',
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            content: 'Mjäll är vita till gula, små flagor av döda hudceller som lossnar från huden, specifikt från områden med hårväxt såsom ögonbryn, skäggväxt och hårbotten. Detta är en typ av flagnande som är vanligt i seborré och är oftast mer uttalad än normalt flagnande.',
-            url: null,
-            url_title: null,
-            url_label: null,
-            aka: 'Fjäll',
-            image_alt: 'Mjäll symptom på seborré',
-            image_title: 'Mjäll som ett symptom på seborré'
+          name: 'Rodnad',
+          aka: 'Inflammation',
+          content: 'Områden med fjällning kan vara omgivna av rodnad hud, vilket indikerar inflammation.',
+        
+          url_label: null,
+          url: null,
+          url_title: null,
+
+          image: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
+          image_alt: 'Bild av rodnad och inflammation',
+          image_title: 'Rodnad och Inflammation'
       ),
       new Symptom(
             name: 'Klåda',
-            image: 'images/symptoms/102x102/papler.webp',
+            image: 'bilder/symptom/102x102/klada.webp',
             content: 'Seborré kan ofta leda till klåda, särskilt i de områden där det finns en överproduktion av talg. Klådan beror på hudirritation som orsakas av en kombination av överflödig olja och en snabbare hudcellsturnover.',
             url: null,
             url_title: null,
@@ -164,7 +166,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Fet hy',
-            image: 'images/symptoms/102x102/papler.webp',
+            image: 'bilder/symptom/102x102/oljig-hy.webp',
             content: 'Fet hy är ett av de mest utmärkande tecknen på seborré. Detta beror på en överproduktion av talg, vilket gör huden glänsande och oljig, särskilt i områdena kring näsan, pannan och hårbotten.',
             url: null,
             url_title: null,
