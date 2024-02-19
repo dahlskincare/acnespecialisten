@@ -75,7 +75,7 @@ $trivias = array(
             extended_content: '<p class="p200 mt-xl">Strukturellt sett är milier primära eller sekundära. Primära milier bildas direkt från ockluderade porer där keratin samlas. Dessa är vanligast hos nyfödda men kan förekomma hos individer i alla åldrar. Sekundära milier uppstår som en följd av skada på hudens svettkörtlar eller hårfolliklar, vilket kan ske till följd av hudskador, inflammatoriska hudsjukdomar eller långvarig exponering för solen.</p>
             <p class="p200 mt-xl">Milier skiljer sig från andra hudförändringar som akne eller pormaskar genom att de inte är resultatet av talgöverproduktion eller bakterieinfektioner. Istället är de helt ofarliga och inte ett tecken på något allvarligare hudtillstånd. De är dock kosmetiskt störande för vissa människor, vilket kan leda till önskan om borttagning.</p>
             <p class="p200 mt-xl">Tillvägagångssättet för att hantera milier inkluderar ofta professionella hudvårdsbehandlingar, som exempelvis genom användning av tunna nålar eller laser för att försiktigt ta bort cystorna. Det är viktigt att notera att även om milier är ofarliga, bör borttagning ske av en kvalificerad hudvårdsspecialist för att undvika hudskador.</p>',
-            icons: array('hormoner' => 'Hormoner', 'stress' => 'Stress', 'genetik' => 'Genetik', 'livsstil' => 'Livsstil')
+            icons: array('genetik' => 'Genetik', 'klimat' => 'Klimat', 'livsstil' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
