@@ -442,7 +442,7 @@ $faq_categories = array(
       'Generellt om milier' => array(
             new Question(
                   title: 'Är milier skadliga eller farliga för huden?',
-                  text: '<p class="p200">Milier är i allmänhet inte skadliga eller farliga för huden. De är små, vita eller gula cystor som i huvudsak är estetiska i sin natur. De är inte infektiösa och förvandlas inte till cancer. Det primära problemet med milier är ofta kosmetiskt, eftersom de kan vara störande för personen som har dem.</p>'
+                  text: '<p class="p200">Nej, milier är inte skadliga eller farliga för huden. De är små, ofarliga cystor som bildas när keratin, ett hudprotein, blir instängt under hudytan. Även om milier inte orsakar fysisk skada, kan de vara ett estetiskt bekymmer för vissa.</p>'
             ),
             new Question(
                   title: 'Kan milier försvinna av sig själva?',
@@ -451,7 +451,7 @@ $faq_categories = array(
 
             new Question(
                   title: 'Vad skiljer milier från finnar?',
-                  text: 'Det finns inget direkt samband mellan milier och akne eller eksem, även om de kan uppträda samtidigt. Milier är fyllda med keratin snarare än talg, som är fallet med akne. De kan dock förekomma i områden där huden är skadad eller inflammerad, som kan vara fallet med eksem.</p>'
+                  text: 'Milier och finnar skiljer sig åt i orsak och utseende. Milier uppstår när keratin, ett protein i huden, blir instängt under ytan och bildar små, vita eller gulaktiga cystor. De är inte resultatet av tilltäppta porer och är inte inflammerade. Finnar, å andra sidan, orsakas av tilltäppta hårsäckar på grund av överproduktion av talg och döda hudceller, vilket kan leda till inflammation och bakterietillväxt.</p>'
             ),
             new Question(
                   title: 'Hur länge tar det att se resultat efter en behandling för milier?',
