@@ -54,7 +54,6 @@ $floating_booking_url_title = "Boka Perioral Dermatitbehandling";
 $nav_buttons = array(
       'about' => 'Om perioral dermatit',
       'approach' => 'Metoden',
-      'types' => 'Typer',
       'symptoms' => 'Symptom',
       'define' => 'Konsultation',
       'treatments' => 'Behandling',
@@ -98,8 +97,7 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man perioral dermatit?',
             content: '<p class="p200">Perioral dermatit är ett hudtillstånd som oftast uppstår runt munnen och på nedre delen av ansiktet, men det kan även spridas till områden kring näsan och ibland runt ögonen. Det är därför det kallas "perioral", vilket betyder "runt munnen". Faktorer som påverkar var på huden tillståndet uppstår inkluderar lokal irritation från kosmetiska produkter eller hudvårdsbehandlingar. Ingredienser i tandkräm, munvatten och ansiktskrämer kan ibland förvärra eller utlösa tillståndet. Därför är det viktigt att vara medveten om de produkter man använder och hur de kan påverka ens hud.</p>',
-            extended_content: '<p class="p200 mt-xl">Tillståndet kan också påverkas av klimat och väderförhållanden. Till exempel, fuktiga och varma klimat har observerats att förvärra symptomen av perioral dermatit hos vissa individer. Å andra sidan kan mycket torra miljöer leda till hudirritation som kan vara en utlösande faktor. </p>
-            <p class="p200 mt-xl">I vissa fall kan användningen av ansiktsmasker eller annan personlig skyddsutrustning leda till en förvärring av tillståndet. Den ökade fuktigheten, friktionen och värmen under masken kan förvärra perioral dermatit.</p>',
+            extended_content: '<p class="p200 mt-xl">Tillståndet kan också påverkas av klimat och väderförhållanden. Till exempel, fuktiga och varma klimat har observerats att förvärra symptomen av perioral dermatit hos vissa individer. Å andra sidan kan mycket torra miljöer leda till hudirritation som kan vara en utlösande faktor. I vissa fall kan användningen av ansiktsmasker eller annan personlig skyddsutrustning leda till en förvärring av tillståndet. Den ökade fuktigheten, friktionen och värmen under masken kan förvärra perioral dermatit.</p>',
             icons: array('mun' => 'Runt Munnen', 'ansikte' => 'Ansiktet')
       ),
 );
@@ -116,7 +114,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder noggrant anpassade och effektiva behandlingar för perioral dermatit. Dessa behandlingsplaner är utformade för att lindra symptomen snabbt och säkert.',
 
-            url_label: 'Se behandlingar för perioral dermatit',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis',
             url_title: 'Utforska våra specialanpassade behandlingar för perioral dermatit'
       ),
@@ -280,7 +278,7 @@ $type_categories = array(
       ),
 
 );
-
+*/
 $symptoms_title = 'Perioral dermatit symptom';
 
 $symptoms = array(
@@ -389,7 +387,7 @@ $symptoms = array(
           image_title: 'Hudirritation från Kosmetika'
       ),
 );
-*/
+
 $headline01 = "01. Identifiera din perioral dermatit";
 
 $service = new Service(
