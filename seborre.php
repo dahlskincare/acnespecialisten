@@ -107,21 +107,21 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera din seborré och utformar en individuell behandlingsplan speciellt för dig.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
-            url_label: 'Boka din gratis konsultation nu',
+            url_label: 'Boka gratis konsultation',
             url_title: 'Boka en tid för gratis seborré konsultation',
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder en rad skonsamma och effektiva seborrébehandlingar anpassade till din specifika typ av seborré, vilket säkerställer att du snabbt och säkert kan bli av med ditt seborréproblem.',
+            content: 'Vi erbjuder en rad skonsamma och effektiva seborrébehandlingar anpassade till din specifika typ av seborré, vilket säkerställer att du snabbt och säkert kan bli av med ditt problem.',
             url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
-            url_label: 'Utforska våra seborrébehandlingar',
+            url_label: 'Se seborrébehandlingar',
             url_title: 'Utforska alla våra effektiva seborrébehandlingar',
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'På AcneSpecialisten hjälper vi dig att hitta en skräddarsydd hudvårdsrutin och produkter specifikt för att förebygga seborré, och att hålla din hud frisk, balanserad och seborréfri.',
+            content: 'På AcneSpecialisten hjälper vi dig att hitta en skräddarsydd hudvårdsrutin och produkter specifikt för att förebygga seborré, och att hålla din hud frisk, balanserad och problemfri.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
-            url_label: 'Upptäck produkterna',
+            url_label: 'Se produkter',
             url_title: 'Se produkterna för att förebygga seborré',
       ),
 );
@@ -136,7 +136,7 @@ $symptoms = array(
             url: null,
             url_title: null,
             url_label: null,
-            aka: 'Även kallat fjällande hy',
+            aka: 'Fjällande hy',
             image_alt: 'Flagnande hy symptom på seborré',
             image_title: 'Flagnande hy som ett symptom på seborré'
       ),
@@ -147,7 +147,7 @@ $symptoms = array(
             url: null,
             url_title: null,
             url_label: null,
-            aka: 'Även kallat fjäll',
+            aka: 'Fjäll',
             image_alt: 'Mjäll symptom på seborré',
             image_title: 'Mjäll som ett symptom på seborré'
       ),
@@ -158,7 +158,7 @@ $symptoms = array(
             url: null,
             url_title: null,
             url_label: null,
-            aka: 'Även kallat hudirritation',
+            aka: 'Hudirritation',
             image_alt: 'Klåda symptom på seborré',
             image_title: 'Klåda som ett symptom på seborré'
       ),
@@ -169,7 +169,7 @@ $symptoms = array(
             url: null,
             url_title: null,
             url_label: null,
-            aka: 'Även kallat oljig hy',
+            aka: 'Oljig hy',
             image_alt: 'Fet hy symptom på seborré',
             image_title: 'Fet hy som ett symptom på seborré'
       ),
