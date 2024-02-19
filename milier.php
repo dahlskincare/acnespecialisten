@@ -62,14 +62,14 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är milier?',
-            content: '<p class="p200">Milier, mer känt som hudcystor, är små, vita eller ibland gula inkappslingar som framträder på hudens yta. Dessa formationer är faktiskt små cystor fyllda med keratin, ett protein som finns i hud, hår och naglar. De bildas när döda hudceller blir instängda istället för att exfolieras bort naturligt. Trots att de kan uppfattas som estetiskt störande för vissa, är milier helt ofarliga och inte smittsamma.</p>',
+            content: '<p class="p200">Milier är små, vita eller ibland gula inkappslingar som framträder på hudens yta. Dessa formationer är faktiskt små cystor fyllda med keratin, ett protein som finns i hud, hår och naglar. De bildas när döda hudceller blir instängda istället för att exfolieras bort naturligt. Trots att de kan uppfattas som estetiskt störande för vissa, är milier helt ofarliga och inte smittsamma. Det är också viktigt att inte försöka klämma sina egna milier då de saknar poröppning vilket kan leda till inflammation eller ärrbildning om de klämms.</p>',
             extended_content: '<p class="p200 mt-xl">Milier kan delas in i olika kategorier baserade på deras ursprung. Primära milier uppstår utan någon uppenbar anledning och kan ses hos individer i alla åldrar, inklusive nyfödda. Sekundära milier, å andra sidan, utvecklas som en respons på skada, såsom en inflammatorisk hudsjukdom, skador från solbränna, eller som en bieffekt av vissa hudvårdsprodukter eller behandlingar som irriterar huden. Att förstå dessa typer är viktigt för att rikta in sig på lämplig hudvård och behandlingsmetoder för att förebygga eller minska förekomsten av milier.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man milier?',
-            content: '<p class="p200">Orsakerna bakom bildandet av milier är mångfacetterade men grundar sig ofta i ackumuleringen av döda hudceller. Dessa celler kan bli instängda under huden snarare än att avlägsnas genom den naturliga exfolieringsprocessen. Förutom denna ackumulation kan genetiska faktorer, olämplig hudvård, och skador på huden också spela en roll i utvecklingen av milier.</p>',
+            content: '<p class="p200">Det finns många orsaker bakom bilandet av milier men grundar sig ofta i ansamlingen av döda hudceller. Dessa celler kan bli instängda under huden snarare än att avlägsnas genom den naturliga exfolieringsprocessen. Förutom denna samling kan genetiska faktorer, olämplig hudvård, och skador på huden också spela en roll i utvecklingen av milier.</p>',
             extended_content: '<p class="p200 mt-xl">Till exempel kan användning av för tjocka eller oljebaserade hudvårdsprodukter bidra till att porerna blir tilltäppta, vilket underlättar bildandet av milier. På samma sätt kan hud som skadas av solen eller som är utsatt för aggressiva kemikalier ha en nedsatt förmåga att exfoliera döda hudceller effektivt, vilket leder till att dessa celler ackumuleras och bildar milier. Att förstå dessa utlösande faktorer är avgörande för att vidta förebyggande åtgärder och anpassa sin hudvårdsrutin för att minimera risken för milier.</p>',
             icons: array('genetik' => 'Genetik', 'klimat' => 'Klimat', 'livsstil' => 'Livsstil')
       ),
