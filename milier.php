@@ -359,8 +359,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
-            content: '<p class="p200">Att besöka Acnespecialisten för dina milier innebär att du får tillgång till över 30 års erfarenhet och expertis inom specifika behandlingar för dessa små, keratinfyllda cystor. Vi förstår att milier, som saknar naturlig poröppning, kräver särskild hantering med de rätta verktygen för att säkert och effektivt avlägsna dem utan risk för ärrbildning eller infektion.</p>
-            <p class="p200 mt-m">Vår långvariga specialisering och användning av specialanpassade tekniker har etablerat oss som ledande experter på området, erkända för vår förmåga att erbjuda skräddarsydda behandlingslösningar. Genom att välja oss får du inte bara professionell hjälp med att ta bort milier utan också en partner som bidrar till din övergripande hudhälsa. Låt vår expertis och dedikation till kvalitet visa varför vi anses vara de bästa för behandling av milier.</p>',
+            content: '<p class="p200">Att besöka Acnespecialisten för dina milier innebär att du får tillgång till över 30 års erfarenhet och expertis inom specifika behandlingar för dessa små, keratinfyllda cystor. Vi förstår att milier, som saknar naturlig poröppning, kräver särskild hantering med de rätta verktygen för att säkert och effektivt avlägsna dem utan risk för ärrbildning eller infektion. </p>
+            <p class="p200 mt-m">Vår långvariga specialisering och användning av beprövade tekniker har etablerat oss som ledande experter på området, erkända för vår förmåga att erbjuda skräddarsydda behandlingslösningar. Genom att välja oss får du inte bara professionell hjälp med att ta bort milier utan också en partner som bidrar till din övergripande hudhälsa. Låt vår expertis och dedikation till kvalitet visa varför vi anses vara de bästa för behandling av milier.</p>',
       ),
 
 );
