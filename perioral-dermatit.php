@@ -666,15 +666,6 @@ $related_problems = array(
             url: 'rosacea.php',
             url_title: 'Rosacea'
       ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
-      ),
 );
 
 $brands = array(
