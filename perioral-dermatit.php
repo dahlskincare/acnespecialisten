@@ -391,7 +391,7 @@ $services = array(
             image_title: 'Ansiktsbehandling mot perioral dermatit',
 
             url: '/problemhy.php',
-            url_label: 'Läs mer om ansiktsbehanding mot perioral dermatit',
+            url_label: 'Läs mer om behanding mot perioral dermatit',
             url_title: 'Läs mer om ansiktsbehanding mot perioral dermatit',
 
             consultation_url_label: 'Boka konsultation',

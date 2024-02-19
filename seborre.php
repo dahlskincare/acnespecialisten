@@ -5,7 +5,7 @@ include_once('problem/widgets/symptom-card/symptom.php');
 include_once('problem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är seborré? - Orsaker, Behandling och Förebyggande';
+$seo_title = 'Vad är seborré? - Symptom, orsaker och behandling';
 $seo_description = 'Här hittar du allt om seborré och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'seborré, orsaker till seborré, förebygga seborré, ta bort seborré, skalp seborré, ansiktsseborré, seborroisk dermatit, fjällande hud';
 
@@ -20,13 +20,13 @@ $image_small = 'bilder/problem/424x324/seborre.webp';
 $image_large = 'bilder/problem/424x456/seborre.webp';
 $image_title = 'Visar en hud med seborré';
 $image_alt = 'Bild som illustrerar hur seborré ser ut på huden';
-$description = 'Seborré, eller seborroiskt eksem, är en hudåkomma som orsakar fet hy som flagnar. Här diskuterar vi de områden som oftast påverkas, vad som utlöser tillståndet och dess relation till hudens talgproduktion.';
+$description = 'Seborré, eller seborroiskt eksem, är en hudåkomma som orsakar fet hy som flagnar. Här diskuterar vi de områden som oftast påverkas, vad som utlöser tillståndet och hur det behandlas effektivt.';
 
 $akas = [
       new Link(
             label: 'Mjälleksem',
-            url: null,
-            title: null,
+            url: '/mjalleksem.php',
+            title: 'Mjälleksem',
       ),
       new Link(
             label: 'Seborroiskt Eksem',
