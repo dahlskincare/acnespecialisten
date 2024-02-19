@@ -359,9 +359,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
-            content: '<p class="p200">AcneSpecialisten står ut som det självklara valet för den som söker effektiv behandling av milier, med vår djupgående erfarenhet av över 30 år inom hudvård och specialisering på olika hudproblem. Vi erbjuder individuellt utformade behandlingsplaner som skräddarsys för att passa just dina behov och hudtyp.</p>
-            <p class="p200 mt-m">Vårt tillvägagångssätt bygger på beprövade hudvårdsmetoder som säkerställer optimala resultat. Vårt team av dedikerade hudterapeuter guidar dig genom varje steg i behandlingsprocessen. Detta tillvägagångssätt garanterar inte bara omedelbara förbättringar utan också långsiktiga resultat för din hud.</p>
-            <p class="p200 mt-m">Genom att välja oss får du mer än bara behandling; du blir en del av en gemenskap där vi tillsammans arbetar mot målet att uppnå och underhålla en klar och hälsosam hud. Vårt engagemang för din hudhälsa, kombinerat med vår omfattande kunskap och erfarenhet, gör AcneSpecialisten till det självklara valet för alla som vill ta itu med sina milier.</p>',
+            content: '<p class="p200">Att besöka Acnespecialisten för dina milier innebär att du får tillgång till över 30 års erfarenhet och expertis inom specifika behandlingar för dessa små, keratinfyllda cystor. Vi förstår att milier, som saknar naturlig poröppning, kräver särskild hantering med de rätta verktygen för att säkert och effektivt avlägsna dem utan risk för ärrbildning eller infektion.</p>
+            <p class="p200 mt-m">Vår långvariga specialisering och användning av specialanpassade tekniker har etablerat oss som ledande experter på området, erkända för vår förmåga att erbjuda skräddarsydda behandlingslösningar. Genom att välja oss får du inte bara professionell hjälp med att ta bort milier utan också en partner som bidrar till din övergripande hudhälsa. Låt vår expertis och dedikation till kvalitet visa varför vi anses vara de bästa för behandling av milier.</p>',
       ),
 
 );
