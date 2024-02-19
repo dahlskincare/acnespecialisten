@@ -548,12 +548,8 @@ $faq_categories = array(
                   text: '<p class="p200">Det är möjligt. Yttre faktorer som starka hudvårdsprodukter, hormonella förändringar och även vissa kosmetika kan utlösa eller förvärra perioral dermatit. Dock är den exakta orsaken ofta okänd, och det kan vara en kombination av flera faktorer som bidrar till utvecklingen av detta tillstånd.</p>'
             ),
             new Question(
-                  title: 'Är det några särskilda faktorer som ökar risken för att utveckla perioral dermatit, som exempelvis livsstil eller genetik?',
-                  text: '<p class="p200">Det finns flera faktorer som kan öka risken för att utveckla perioral dermatit. Kvinnor verkar vara mer benägna att utveckla tillståndet än män, och det verkar även vara vanligare bland personer i åldern 20-45 år. Långvarig användning av topiska steroider kan också vara en riskfaktor. Livsstilsfaktorer som stress eller hormonella förändringar (som graviditet eller användning av hormonella preventivmedel) kan också spela en roll. Det är dock viktigt att notera att perioral dermatit kan drabba vem som helst, och dess exakta orsak är inte alltid känd.</p>'
-            ),
-            new Question(
                   title: 'Vilka behandlingsalternativ finns tillgängliga för perioral dermatit?',
-                  text: '<p class="p200">Det finns flera behandlingsalternativ beroende på svårighetsgraden av tillståndet. Problemet behandlas effektivt med en skräddarsydd hudvårdsrutin i kombination med ansiktsbehandlingar. Det är också viktigt att undvika utlösande faktorer, såsom starka hudvårdsprodukter eller topiska steroider. I dessa fall rekommenderas en så kallad "nollbehandling" där man undviker samliga produkter för att identifiera och eliminera det som triggat igång problemet.</p>'
+                  text: '<p class="p200">Det finns flera behandlingsalternativ beroende på svårighetsgraden av tillståndet. Problemet behandlas effektivt med en skräddarsydd hudvårdsrutin i kombination med ansiktsbehandlingar. Det är också viktigt att undvika utlösande faktorer, såsom vissa produkter eller topiska steroider. I dessa fall rekommenderas en så kallad "nollbehandling" där man undviker samliga produkter för att identifiera och eliminera det som triggat igång problemet.</p>'
             ),
             new Question(
                   title: 'Finns det något sätt att förebygga återkommande episoder av perioral dermatit?',
