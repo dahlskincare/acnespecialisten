@@ -347,8 +347,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina milier?',
             image_title: 'När ska jag söka hjälp med mina milier?',
-            content: '<p class="p200">Milier, de små vita eller gulaktiga cystorna som kan dyka upp på huden oavsett ålder, är oftast ofarliga. Dessa små korn kan dock påverka ditt välbefinnande negativt genom att minska självkänslan eller orsaka obehag. Om du har testat olika hudvårdsprodukter eller hemmabehandlingar utan att se några resultat, eller om milier på något sätt börjar störa ditt dagliga liv, är det lämpligt att överväga professionell hjälp. Det finns inget behov av att vänta tills situationen blir ohållbar för att söka hjälp.</p>
-            <p class="p200 mt-m">Under en konsultation tas behandlingsplan fram som är speciellt anpassad för din hudtyp och de specifika områden där milier förekommer. Att ta hand om din hud och förbättra dess utseende är något du förtjänar.</p>',
+            content: '<p class="p200">Milier, de små vita eller gulaktiga cystorna som kan dyka upp på huden oavsett ålder, är oftast ofarliga. Dessa små korn kan dock påverka ditt välbefinnande negativt genom att minska självkänslan eller orsaka obehag. Om du har testat olika hudvårdsprodukter eller hemmabehandlingar utan att se några resultat, eller om milier på något sätt börjar störa ditt dagliga liv, är det lämpligt att överväga professionell hjälp. Det finns inget behov av att vänta tills situationen blir ohållbar för att söka hjälp.</p>',
       ),
 
       new Article(
