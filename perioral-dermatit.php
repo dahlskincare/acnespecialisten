@@ -291,7 +291,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/stress-akne.webp',
+          image_url: 'bilder/symptom/102x102/papler.webp',
           image_alt: 'Bild av röda utslag',
           image_title: 'Röda Utslag'
       ),
@@ -304,12 +304,12 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/stress-akne.webp',
+          image_url: 'bilder/symptom/102x102/klada.webp',
           image_alt: 'Bild av hud som kliar',
           image_title: 'Klåda'
       ),
       new Symptom(
-          name: 'vidande Känsla',
+          name: 'Svidande Känsla',
           aka: 'Hettande hud',
           content: 'En brännande eller svidande känsla är också vanlig vid perioral dermatit och kan förvärras när huden kommer i kontakt med vatten eller hudvårdsprodukter.',
         
@@ -317,7 +317,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/stress-akne.webp',
+          image_url: 'bilder/symptom/102x102/irriterad-hy.webp',
           image_alt: 'Bild av hud med brännande eller svidande känsla',
           image_title: 'Brännande eller Svidande Känsla'
       ),
@@ -330,7 +330,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/stress-akne.webp',
+          image_url: 'bilder/symptom/102x102/flagnande-hud.webp',
           image_alt: 'Bild av hudfjällning',
           image_title: 'Hudfjällning'
       ),
@@ -343,7 +343,7 @@ $symptoms = array(
           url: null,
           url_title: null,
 
-          image_url: 'bilder/symptom/102x102/stress-akne.webp',
+          image_url: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
           image_alt: 'Bild av rodnad och inflammation',
           image_title: 'Rodnad och Inflammation'
       ),
