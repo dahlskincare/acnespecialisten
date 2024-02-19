@@ -455,7 +455,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur länge tar det att se resultat efter en behandling för milier?',
-                  text: '<p class="p200">Resultaten kan ses omedelbart efter behandlingen då milierna extraheras. Därefter kan det ta några dagar till veckor för huden att läka helt och för milier att försvinna helt, i vissa fall kan flera behandlingar krävs för att få bort milierna helt och hållet.</p>'
+                  text: '<p class="p200">Resultaten kan ses omedelbart efter behandlingen då milierna extraheras. Därefter kan det ta några dagar för huden att läka, i vissa fall kan flera behandlingar krävs för att få bort milierna helt och hållet.</p>'
             ),
             new Question(
                   title: 'Hur kan jag förhindra att milier återkommer?',
