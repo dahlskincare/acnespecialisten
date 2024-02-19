@@ -445,7 +445,8 @@ $articles = array(
 
       new Article(
             title: 'När ska jag besöka AcneSpecialisten för Perioral Dermatit?',
-            content: '<p class="p200">Om du märker att din perioral dermatit påverkar din livskvalitet, eller om du har provat olika behandlingsalternativ och produkter utan framgång, är det dags att söka professionell hjälp. Ju tidigare du agerar, desto större chans att effektivt behandla och hantera ditt tillstånd. Vi är specialister inom hudvård och kan erbjuda skräddarsydda behandlingsplaner som är anpassade till just ditt hudproblem.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla perioral dermatit och kan rekommendera de bästa produkterna och behandlingarna för din unika hudtyp. Tveka inte att boka en gratis konsultation för att ta första steget mot en friskare och mer komfortabel hud.</p>',
+            content: '<p class="p200">Om du märker att din perioral dermatit påverkar din livskvalitet, eller om du har provat olika behandlingsalternativ och produkter utan framgång, är det dags att söka professionell hjälp. Ju tidigare du agerar, desto snabbare kan vi effektivt behandla och hantera ditt tillstånd. Vi är specialister inom hudvård och kan erbjuda skräddarsydda behandlingsplaner som är anpassade till just ditt hudproblem.</p>
+            <p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla perioral dermatit och kan rekommendera de bästa produkterna och behandlingarna för din unika hudtyp. Tveka inte att boka en gratis konsultation för att ta första steget mot en friskare och mer komfortabel hud.</p>',
 
             image_small: null,
             image_large: null,
