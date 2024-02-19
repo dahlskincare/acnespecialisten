@@ -20,7 +20,7 @@ $image_small = 'bilder/problem/424x324/milier.webp';
 $image_large = 'bilder/problem/424x456/milier.webp';
 $image_title = 'Visar en hud med milier';
 $image_alt = 'Bild som illustrerar hur milier ser ut på huden';
-$description = 'Milier är små, vita cystor som kan drabba alla. På denna sida utforskar vi hur milier bildas, deras placering på huden och skillnaden mellan milier och andra små hudlesioner.';
+$description = 'Milier är små, vita cystor som kan drabba alla. På denna sida utforskar vi hur milier bildas, deras placering på huden och skillnaden mellan milier och andra hudproblem.';
 
 $consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia";
