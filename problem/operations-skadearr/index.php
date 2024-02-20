@@ -291,7 +291,7 @@ $services = array(
             title: 'Kemisk peeling för ärr',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling kan effektivt behandla och minska ärrbildning. Genom att exfoliera huden främjar kemisk peeling cellförnyelse, vilket leder till att ärr och ojämn hudton förbättras. Det är en effektiv strategi för att förbättra din hudhälsa och reducera ärr.',
+            content: 'Kemisk peeling kan effektivt behandla och minska ärrbildning. Genom att exfoliera huden främjar kemisk peeling cellförnyelse, vilket leder till att ärr och ojämn hudton förbättras.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -315,7 +315,7 @@ $services = array(
             title: 'Microneedling för ärr',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en effektiv behandlingsmetod för ärr. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen. Denna behandling kan effektivt minska ärrbildning, förbättra hudens struktur och textur.',
+            content: 'Microneedling är en effektiv behandlingsmetod för ärr. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
@@ -354,7 +354,7 @@ $articles = array(
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
             content: '<p class="p200">Letar du efter en pålitlig och långvarig lösning för dina operations- och skadeärr? AcneSpecialisten erbjuder sig som det optimala alternativet. Med en gedigen bakgrund på över 30 år inom hud- och skönhetsvård, och med en djupgående specialisering i ärrbehandling, är vi väl förberedda för att möta dina behov. Vi har kompetensen att hantera allt från mindre skadeärr till större operationsärr med personligt anpassade behandlingsalternativ.</p>
-          <p class="p200 mt-m">Genom att implementera de senaste framstegen och teknikerna inom hudvård siktar vi på att leverera överlägsna resultat. Vårt kvalificerade team av hudterapeuter är berett att utarbeta en behandlingsplan skräddarsydd för dig, och ge dig stöd genom hela behandlingsförloppet. Med regelbundna kontroller och specialanpassade vårdplaner, strävar vi efter att uppnå en varaktig förbättring av dina ärrs utseende.</p>
+          <p class="p200 mt-m">Genom att implementera de senaste framstegen och teknikerna inom hudvård siktar vi på att leverera överlägsna resultat. Vårt kvalificerade team av hudterapeuter är berett att utarbeta en behandlingsplan skräddarsydd för dig, och ge dig stöd genom hela behandlingsförloppet. Med regelbundna behndlingar och specialanpassade behandlingsplan, strävar vi efter att reducera och eliminera dina ärr.</p>
           <p class="p200 mt-m">Väljer du AcneSpecialisten får du inte bara tillgång till den mest framstående och effektiva ärrbehandlingen. Vårt omfattande engagemang, expertis och långvariga erfarenhet positionerar oss som det självklara valet för den som söker professionell behandling av operations- och skadeärr.</p>',
       ),
 
