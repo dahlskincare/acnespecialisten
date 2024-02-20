@@ -441,7 +441,7 @@ $services = array(
             title: 'Kemisk peeling för mogen hy',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling för mogen hy är designad för att exfoliera döda hudceller, boosta cellförnyelse och förbättra hudens textur. Resultatet är en jämnare hudton, förnyad lyster och minskade tecken på åldrande.',
+            content: 'Kemisk peeling för mogen hy är framtagen för att exfoliera döda hudceller, boosta cellförnyelse och förbättra hudens textur. Resultatet är en jämnare hudton, förnyad lyster och minskade tecken på åldrande.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -493,8 +493,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med tecken på mogen hy?',
             image_title: 'När ska jag söka hjälp med tecken på mogen hy?',
-            content: '<p class="p200">Mogen hy med tecken på åldrande, som fina linjer, rynkor och förlust av elasticitet, är en naturlig del av åldrandeprocessen. Men för vissa kan dessa tecken på åldrande påverka självkänslan och orsaka obehag. Om du märker att din mogen hy börjar påverka ditt välbefinnande, eller om du har provat olika produkter och behandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att det inte finns någon "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
-            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just dina behov. En hudterapeut kan analysera din hudtyp, diskutera möjliga orsaker till dina hudproblem och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och återfuktning till mer avancerade behandlingar som microneedling och kemisk peeling. Så, om du känner att tecknen på mogen hy påverkar ditt självförtroende eller om du bara vill förbättra hudens utseende, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en förbättrad hy.</p>',
+            content: '<p class="p200">Mogen hy med tecken på åldrande, som fina linjer, rynkor och förlust av elasticitet, är en naturlig del av åldrandeprocessen. Men för vissa kan dessa tecken på åldrande påverka självkänslan och orsaka obehag. Om du märker att din åldrande börjar påverka ditt välbefinnande, eller om du har provat olika produkter och behandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att det inte finns någon "minsta gräns" för när det är lämpligt att söka professionell hudvård.</p>
+            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just dina behov. En hudterapeut kan analysera din hudtyp, diskutera möjliga orsaker till dina hudproblem och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och återfuktning till mer avancerade behandlingar som laser och hudföryngring. Så, om du känner att tecknen på åldrnadet påverkar ditt självförtroende eller om du bara vill förbättra hudens utseende, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en förbättrad hy.</p>',
       ),
 
       new Article(
