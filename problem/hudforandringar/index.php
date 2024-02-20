@@ -215,6 +215,16 @@ $type_categories = array(
                   ),
 
                   new BasedType(
+                      title: 'Cherryspot',
+                      subtitle: '',
+                      image_url: 'bilder/symptom/102x102/cherryspot.webp',
+                      image_alt: 'Bild av Cherryspot',
+                      image_title: 'Exempel på Cherryspot',
+                      url: null,
+                      url_title: null,
+                  ),
+
+                  new BasedType(
                       title: 'Hudflikar',
                       subtitle: '',
                       image_url: 'bilder/symptom/102x102/hudflikar.webp',
