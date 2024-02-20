@@ -590,7 +590,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vid vilken ålder börjar huden oftast klassificeras som mogen?',
-                  text: '<p class="p200">Det finns ingen exakt ålder där huden börjar klassificeras som "mogen", eftersom åldrande är en individuell process. Men många människor börjar märka förändringar i sin hud runt 30-årsåldern. Dessa förändringar kan vara mer eller mindre framträdande beroende på genetik, livsstil och hudvårdsvanor.</p>'
+                  text: '<p class="p200">Det finns ingen exakt ålder där huden börjar klassificeras som "mogen", eftersom åldrande är en individuell process. Men många människor börjar märka förändringar i sin hud runt 30 till 40-årsåldern. Dessa förändringar kan vara mer eller mindre framträdande beroende på genetik, livsstil och hudvårdsvanor.</p>'
             ),
             new Question(
                   title: 'Hur påverkar hormonella förändringar, såsom menopaus, mogen hy?',
