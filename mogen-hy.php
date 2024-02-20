@@ -601,10 +601,6 @@ $faq_categories = array(
                   text: '<p class="p200">Genetik spelar en betydande roll i processen för hudens åldrande. Om dina föräldrar eller nära släktingar har en hud som åldras långsamt eller visa tecken på åldrande vid en högre ålder, kan du också ha en genetisk benägenhet att uppleva samma utveckling. Detta betyder dock inte att externa faktorer som solexponering och livsstilsval inte kommer att ha någon inverkan.</p>'
             ),
             new Question(
-                  title: 'Vilken inverkan har kost och näring på mogen hy?',
-                  text: '<p class="p200">Kost och näring spelar en avgörande roll för huden. En balanserad kost rik på antioxidanter, omega-3-fettsyror, vitaminer och mineraler kan bidra till en hälsosam hud. Mat som är rik på vitamin C och E, till exempel, kan hjälpa till att bekämpa fria radikaler och skydda huden från oxidativ stress.</p>'
-            ),
-            new Question(
                   title: 'Kan miljöfaktorer, som luftfuktighet och föroreningar, påverka mogen hy mer än yngre hy?',
                   text: '<p class="p200">Ja, mogen hy kan vara mer känslig för yttre påverkan som luftfuktighet och föroreningar. Denna hudtyp har ofta en minskad förmåga att hålla kvar fukt, vilket gör den mer sårbar för torrhet i låg luftfuktighet. Föroreningar kan också påskynda åldringsprocessen genom att orsaka oxidativ stress, vilket kan vara mer skadligt för en redan åldrande hud.</p>'
             ),
