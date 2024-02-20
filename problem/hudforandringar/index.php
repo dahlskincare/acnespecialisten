@@ -330,7 +330,7 @@ $services = array(
             title: 'CryoPen mot hudförändringar',
             duration: '20 min',
             price: '995 kr',
-            content: 'CryoPen är en skonsam behandling som fryser bort godartade hudförändringar.',
+            content: 'Cryopen fryser bort hudförändringar med extrem kyla, vilket förstör den oönskade hudförändringen. Behandlingen initierar kroppens läkningsprocess, vilket leder till att förändringarna gradvis försvinner.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
@@ -353,7 +353,7 @@ $services = array(
             title: 'Laser mot hudförändringar',
             duration: '30 min',
             price: '1995 kr',
-            content: 'Laserbehandling är en snabb och effektiv behandling som bränner bort godartade hudförändringar.',
+            content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
