@@ -125,22 +125,6 @@ $treatment_steps = array(
             url: 'problem/mogen-hy/behandla-mogen-hy',
             url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Du får rekommendation om en hudvårdsrutinen och produkterna för mogen hy som behandlar och förebygger.',
-
-            url_label: 'Se produkter',
-            url: 'https://swedskin.com',
-            url_title: 'Hitta de bästa produkterna för mogen hy'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'Om din hud har ålderstecken såsom pigmentfläckar, förlorad elasticitet eller djupare rynkor..',
-
-            url_label: 'Se behandlingar för ålderstecken',
-            url: 'problem/mogen-hy/behandla-mogen-hy',
-            url_title: 'Upptäck effektiva behandlingar för ålderstecken'
-      ),
 );
 
 $treatment_link = '<a href="problem/mogen-hy/behandla-mogen-hy" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
