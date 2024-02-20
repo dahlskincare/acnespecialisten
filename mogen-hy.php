@@ -598,7 +598,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vilken roll spelar genetik i hur och när huden blir mogen?',
-                  text: '<p class="p200">Genetik spelar en betydande roll i processen för hudens åldrande. Om dina föräldrar eller nära släktingar har en hud som åldras långsamt eller visa tecken på åldrande vid en högre ålder, kan du också ha en genetisk benägenhet att uppleva samma saker. Detta betyder dock inte att externa faktorer som solexponering och livsstilsval inte kommer att ha någon inverkan.</p>'
+                  text: '<p class="p200">Genetik spelar en betydande roll i processen för hudens åldrande. Om dina föräldrar eller nära släktingar har en hud som åldras långsamt eller visa tecken på åldrande vid en högre ålder, kan du också ha en genetisk benägenhet att uppleva samma utveckling. Detta betyder dock inte att externa faktorer som solexponering och livsstilsval inte kommer att ha någon inverkan.</p>'
             ),
             new Question(
                   title: 'Vilken inverkan har kost och näring på mogen hy?',
