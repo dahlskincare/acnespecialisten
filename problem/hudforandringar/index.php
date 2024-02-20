@@ -327,7 +327,7 @@ $headline02 = "02. Behandla hudförändringar med Cryopen";
 
 $services = array(
       new Service(
-            title: 'Behandling med Cryopen',
+            title: 'CryoPen mot hudförändringar',
             duration: '20 min',
             price: '995 kr',
             content: 'Cryopen är en avancerad behandling som snabbt och effektivt behandlar godartade hudförändringar genom att frysa det drabbade området.',
@@ -350,27 +350,27 @@ $services = array(
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen'
       ),
       new Service(
-            title: 'Laser mot akne',
-            duration: '50 min',
-            price: '2595 kr',
+            title: 'Laser mot hudförändringar',
+            duration: '30 min',
+            price: '1995 kr',
             content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida akne utbrott.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
-            image_alt: 'Kvinna som får laserbehandling mot akne',
-            image_title: 'Laserbehandling mot akne',
+            image_alt: 'Kvinna som får laserbehandling mot hudförändringar',
+            image_title: 'Laserbehandling mot hudförändringar',
 
-            url_label: 'Läs mer om laser mot akne',
+            url_label: 'Läs mer om laser mot hudförändringar',
             url: 'laser-acne.php',
-            url_title: 'Läs mer om laser mot akne',
+            url_title: 'Läs mer om laser mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot hudförändringar',
 
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
-            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot hudförändringar',
       ),
 );
 
