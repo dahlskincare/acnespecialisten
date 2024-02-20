@@ -109,7 +109,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos får du en personlig hudterapeut som hjälper dig att identifiera tecknen på mogen hy och skapar en behandlingsplan.',
+            content: 'Hos får du en personlig hudterapeut som hjälper dig att identifiera tecknen på mogen hy och skapar en skräddarsydd behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
@@ -117,15 +117,15 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är designade för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
+            content: 'Vi utför effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är framtagna för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
 
             url_label: 'Se behandlingar för mogen hy',
-            url: 'problem/mogen-hy/behandla-mogen-hy',
+            url: '/problem/mogen-hy/behandla-mogen-hy',
             url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
 );
 
-$treatment_link = '<a href="problem/mogen-hy/behandla-mogen-hy" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
+$treatment_link = '<a href="/problem/mogen-hy/behandla-mogen-hy" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
 
 /*
 $types_title = 'Olika typer av mogen hy';
