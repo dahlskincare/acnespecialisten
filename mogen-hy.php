@@ -385,7 +385,7 @@ $symptoms = array(
       ),
 );
 */
-$headline01 = "01. Utforska din mogen hy";
+$headline01 = "01. Identifiera ålderstecken";
 
 $service = new Service(
       title: 'Konsultation för mogen hy',
@@ -411,7 +411,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla tecken på mogen hy";
+$headline02 = "02. Behandla mogen hy";
 
 $services = array(
       new Service(
