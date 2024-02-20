@@ -515,7 +515,7 @@ $services = array(
             title: 'Kemisk peeling mot bristningar',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla bristningar. Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen. Detta kan hjälpa till att förbättra hudens struktur och minska synligheten av bristningar.',
+            content: 'Kemisk peeling är en effektiv metod för att behandla bristningar. Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -538,7 +538,7 @@ $services = array(
             title: 'Microneedling mot bristningar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för bristningar. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av bristningar.',
+            content: 'Microneedling är en innovativ behandlingsmetod för bristningar. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
