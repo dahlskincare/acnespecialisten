@@ -330,7 +330,7 @@ $services = array(
             title: 'CryoPen mot hudförändringar',
             duration: '20 min',
             price: '995 kr',
-            content: 'CryoPen är en skonsam behandling som fryser bort godartade hudförändringar under en serie behandlingar.',
+            content: 'CryoPen är en skonsam behandling som fryser bort godartade hudförändringar.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
