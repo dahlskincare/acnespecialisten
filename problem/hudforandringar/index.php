@@ -44,11 +44,11 @@ $akas = [
 ];
 
 $consultation_url_label = "Boka gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen";
+$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles";
 $consultation_url_title = "Gratis Konsultation för Hudförändringar";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=cryopen";
+$booking_url = "https://acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Gratis konsultation";
@@ -122,7 +122,7 @@ $treatment_steps = array(
             content: 'Hos oss får du träffa en hudterapeut som kan undersöka dina godartade hudförändringar och skapa en individuell behandlingsplans.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -130,7 +130,7 @@ $treatment_steps = array(
             content: 'Vi utför behandlingar mot godartade hudförändringar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar för hudförändringar',
-            url: 'problem/hudforandringar/behandla-hudforandringar',
+            url: '/problem/hudforandringar/behandla-hudforandringar/',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
 
@@ -315,7 +315,7 @@ $service = new Service(
       url_title: 'Läs mer om konsultation mot hudförändringar',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudförändringar',
 
       booking_url_label: null,
@@ -490,10 +490,6 @@ $faq_categories = array(
                   title: 'Hur kan jag förebygga uppkomsten av hudförändringar?',
                   text: '<p class="p200">Några grundläggande åtgärder inkluderar att använda solskydd regelbundet, undvika överdriven solning, ha på sig skyddande klädsel under intensiv sol, inte röka, äta en balanserad kost, och genomgå regelbundna hudkontroller.</p>'
             ),
-            new Question(
-                  title: 'Är det smärtsamt att ta bort hudförändringar?',
-                  text: '<p class="p200">Tack vare CryoPen kan vi med kryoterapi, vilket är en metod som använder kyla för att frysa och eliminera hudförändringar. Under behandlingen kan vissa individer uppleva en stickande känsla eller ett kortvarigt obehag när förändringen fryses. Storleken och placeringen av hudförändringen kan påverka obehagskänslan. Efter behandlingen kan det området uppvisa tecken på rodnad, svullnad eller bli lite ömt, men detta brukar vara övergående. Generellt sett anses CryoPen vara en av de mildare och mindre smärtsamma metoderna för att ta bort hudförändringar.</p>'
-            ),
       ),
 );
 
@@ -603,6 +599,14 @@ $brands = array(
             image_title: 'Alma Hybrid CO2',
             url: '/alma-hybrid-co2-laser.php',
             url_title: 'Alma Hybrid',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: 'alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
       ),
 );
 

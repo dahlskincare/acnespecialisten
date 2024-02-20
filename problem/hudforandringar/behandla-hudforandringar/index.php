@@ -189,6 +189,10 @@ $faq_categories = array(
             title: 'Kan alla hudtyper behandlas för hudförändringar hos Acnespecialisten?',
             text: 'Ja, Acnespecialisten erbjuder behandlingar för hudförändringar som är lämpliga för alla hudtyper.'
         ),
+        new Question(
+              title: 'Är det smärtsamt att ta bort hudförändringar?',
+              text: '<p class="p200">Tack vare CryoPen kan vi med kryoterapi, vilket är en metod som använder kyla för att frysa och eliminera hudförändringar. Under behandlingen kan vissa individer uppleva en stickande känsla eller ett kortvarigt obehag när förändringen fryses. Storleken och placeringen av hudförändringen kan påverka obehagskänslan. Efter behandlingen kan det området uppvisa tecken på rodnad, svullnad eller bli lite ömt, men detta brukar vara övergående. Generellt sett anses CryoPen vara en av de mildare och mindre smärtsamma metoderna för att ta bort hudförändringar.</p>'
+        ),
     ),
 );
 
