@@ -28,7 +28,7 @@ $description = 'Hudförändringar kan inkludera ett brett spektrum av tillstånd
 $akas = [
       new Link(
             label: 'Födelsemärken',
-            url: 'fodelsemarken.php',
+            url: '/fodelsemarken.php',
             title: 'Födelsemärken',
       ),
       new Link(
