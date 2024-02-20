@@ -483,16 +483,8 @@ $faq_categories = array(
                   text: '<p class="p200">Nej, de flesta hudförändringar är ofarliga och godartade. Men det är viktigt att känna igen tecknen på potentiellt farliga hudförändringar, särskilt de som kan indikera hudcancer.</p>'
             ),
             new Question(
-                  title: 'Hur kan jag skilja mellan en ofarlig och en potentiellt farlig hudförändring?',
-                  text: '<p class="p200">Enkel regel som används för att identifiera potentiellt farliga hudförändringar är ABCDE-regeln: Asymmetry (Asymmetri), Border (Oregelbunden kant), Color (Flerfärgad eller onormal färg), Diameter (Större än 6mm) och Evolving (Förändras över tid). Om en hudförändring uppvisar något av dessa tecken bör man konsultera en hudläkare.</p>'
-            ),
-            new Question(
                   title: 'Är vissa personer mer benägna att utveckla hudförändringar än andra?',
                   text: '<p class="p200">Ja, genetik spelar en roll, och de med en familjehistoria av vissa hudförändringar kan vara mer benägna att utveckla dem. Exponering för sol, hudtyp, ålder och andra faktorer kan också påverka sannolikheten.</p>'
-            ),
-            new Question(
-                  title: 'Kan livsstilsval som kost, rökning eller solning påverka risken för hudförändringar?',
-                  text: '<p class="p200">Absolut. Överdriven solning utan adekvat solskydd kan leda till solskador och öka risken för hudförändringar. Rökning kan också påverka hudens hälsa negativt. Vissa studier antyder att en balanserad kost kan bidra till att upprätthålla en frisk hud.</p>'
             ),
             new Question(
                   title: 'Hur kan jag förebygga uppkomsten av hudförändringar?',
