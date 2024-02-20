@@ -594,7 +594,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur påverkar hormonella förändringar, såsom menopaus, mogen hy?',
-                  text: '<p class="p200">Menopaus och de hormonella förändringar som följer med den kan ha en märkbar inverkan på huden. Östrogen, ett hormon som minskar under menopaus, spelar en viktig roll i produktionen av kollagen och hudens naturliga oljor. När nivåerna av östrogen minskar, kan huden bli torrare, mindre elastisk, och mer benägen för rynkor och fina linjer.</p>'
+                  text: '<p class="p200">Klimakteriet och de hormonella förändringar som följer med den kan ha en märkbar inverkan på huden. Östrogen, ett hormon som minskar under menopaus, spelar en viktig roll i produktionen av kollagen och hudens naturliga oljor. När nivåerna av östrogen minskar, kan huden bli torrare, mindre elastisk, och mer benägen för rynkor och fina linjer.</p>'
             ),
             new Question(
                   title: 'Vilken roll spelar genetik i hur och när huden blir mogen?',
