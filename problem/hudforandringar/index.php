@@ -119,7 +119,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos oss blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din hudförändring och skapar en individuell behandlingsplan.',
+            content: 'Hos oss får du träffa en hudterapeut som kan undersöka dina godartade hudförändringar och skapa en individuell behandlingsplans.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
@@ -127,7 +127,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva behandlingar anpassade för din specifika hudförändring, så att du kan känna dig trygg och säker.',
+            content: 'Vi utför behandlingar mot godartade hudförändringar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar för hudförändringar',
             url: 'problem/hudforandringar/behandla-hudforandringar',
