@@ -593,7 +593,7 @@ $faq_categories = array(
                   text: '<p class="p200">Det finns ingen exakt ålder där huden börjar klassificeras som "mogen", eftersom åldrande är en individuell process. Men många människor börjar märka förändringar i sin hud runt 30 till 40-årsåldern. Dessa förändringar kan vara mer eller mindre framträdande beroende på genetik, livsstil och hudvårdsvanor.</p>'
             ),
             new Question(
-                  title: 'Hur påverkar hormonella förändringar, såsom menopaus, mogen hy?',
+                  title: 'Hur påverkar hormonella förändringar, såsom klimakteriet, mogen hy?',
                   text: '<p class="p200">Klimakteriet och de hormonella förändringar som följer med den kan ha en märkbar inverkan på huden. Östrogen, ett hormon som minskar under menopaus, spelar en viktig roll i produktionen av kollagen och hudens naturliga oljor. När nivåerna av östrogen minskar, kan huden bli torrare, mindre elastisk, och mer benägen för rynkor och fina linjer.</p>'
             ),
             new Question(
