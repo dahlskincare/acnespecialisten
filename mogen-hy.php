@@ -58,8 +58,6 @@ $floating_booking_url_title = "Boka Behandling för Mogen Hy";
 $nav_buttons = array(
       'about' => 'Om mogen hy',
       'approach' => 'Metoden',
-      'types' => 'Typer',
-      'symptoms' => 'Symptom',
       'define' => 'Konsultation',
       'treatments' => 'Behandling',
       'articles' => 'Varför AS?',
@@ -290,7 +288,7 @@ $type_categories = array(
             )
       ),
 );
-*/
+
 $symptoms_title = 'Mogen hy symptom';
 
 $symptoms = array(
@@ -386,7 +384,7 @@ $symptoms = array(
             image_title: 'Minskad lyster'
       ),
 );
-
+*/
 $headline01 = "01. Utforska din mogen hy";
 
 $service = new Service(
