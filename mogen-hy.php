@@ -391,7 +391,7 @@ $service = new Service(
       title: 'Konsultation för mogen hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en hudterapeut utförs en djupgående analys av din mogen hy. Vi tar före-bilder på din hud, identifierar tecken på åldrande, och rekommenderar en lämplig behandling. Vidare skräddarsyr vi en behandlingsplan anpassad efter dina individuella behov.',
+      content: 'Vid ett personligt möte med en hudterapeut utförs en djupgående analys av din mogen hy. Vi tar före-bilder på din hud, identifierar tecken på åldrande, och rekommenderar en lämplig behandling.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -418,7 +418,7 @@ $services = array(
             title: 'Laser mot mogen hy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling anpassad för mogen hy erbjuder en skonsam men effektiv lösning för att förbättra hudens kvalitet och utseende. Denna teknik är speciellt utvecklad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och ojämn hudton. ',
+            content: 'En avancerad laserbehandling anpassad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och ojämn hudton.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
@@ -465,7 +465,7 @@ $services = array(
             title: 'Microneedling för mogen hy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling för mogen hy stimulerar hudens naturliga kollagenproduktion, vilket hjälper till att minska fina linjer, rynkor och andra tecken på åldrande. Denna behandling kan effektivt förbättra hudens struktur och elasticitet, vilket ger ett yngre och mer vitalt utseende.',
+            content: 'Microneedling för mogen hy stimulerar hudens naturliga kollagenproduktion, vilket hjälper till att minska fina linjer, rynkor och andra tecken på åldrande.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
