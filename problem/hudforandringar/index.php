@@ -33,7 +33,7 @@ $akas = [
       ),
       new Link(
             label: 'Hudflikar',
-            url: null,
+            url: '/hudflikar.php',
             title: 'Hudflikar',
       ),
       new Link(
