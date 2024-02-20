@@ -606,7 +606,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är det möjligt att förhindra vissa tecken på åldrande, eller handlar det mest om att hantera dem när de uppstår?',
-                  text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård, solskydd, en balanserad kost, och en hälsosam livsstil kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
+                  text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård med behandlingar och solskydd kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
             ),
       ),
 );
@@ -702,13 +702,22 @@ $specialist_url_title = "Hudterapeuter specialiserade på mogen hy";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'rosacea.php',
-            url_title: 'Rosacea'
+            name: 'Pigmentfläckar',
+            aka: 'Melasma',
+            image: 'bilder/problem/200x200/pigmentflackar.webp',
+            image_alt: 'Ansikte med pigmentfläckar',
+            image_title: 'Pigmentfläckar',
+            url: 'pigmentflackar.php',
+            url_title: 'Pigmentfläckar',
+      ),
+      new RelatedProblem(
+            name: 'Stora porer',
+            aka: 'Förstorade porer',
+            image: 'bilder/problem/200x200/stora-porer.webp',
+            image_alt: 'Ansikte med stora porer',
+            image_title: 'Stora porer',
+            url: 'stora-porer.php',
+            url_title: 'Stora porer',
       ),
 );
 
