@@ -503,9 +503,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
-            content: '<p class="p200">Letar du efter en hållbar lösning på de utmaningar som följer med mogen hud? Då är AcneSpecialisten platsen för dig. Med mer än tre decenniers erfarenhet inom hudvård, specialiserar vi oss på att effektivt minska ålderstecken såsom rynkor, fina linjer och förlorad elasticitet.</p>
-            <p class="p200 mt-m">Hos oss möts du av de mest framstående metoderna och teknikerna i hudvårdens värld, allt för att du ska kunna se de bästa resultaten. Våra hudterapeuter utformar en skräddarsydd behandlingsplan just för dig och följer dig noga genom din behandlingsresa. Genom att erbjuda regelbundna kontroller och skräddarsydda program för hudvård hemma, garanterar vi att din huds vitalitet hålls i optimalt skick.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten betyder inte bara tillgång till den mest avancerade behandlingen för din hud. Vi är dedikerade till att du ska uppnå dina huvårdsmål. Vår djupa kunskap, engagemang och långvariga erfarenhet gör oss till ditt främsta val för att ta hand om din mogen hud.</p>',
+            content: '<p class="p200">Letar du efter effektiv behandling för de utmaningar som följer med åldrandet? Då är AcneSpecialisten platsen för dig. Med mer än tre decenniers erfarenhet inom hudvård, specialiserar vi oss på att effektivt minska ålderstecken såsom rynkor, fina linjer och förlorad elasticitet.Hos oss möts du av de mest framstående metoderna och teknikerna i hudvårdens värld, allt för att du ska kunna se de bästa resultaten. Våra hudterapeuter utformar en skräddarsydd behandlingsplan just för dig och följer dig noga genom din behandlingsresa.</p>
+            <p class="p200 mt-m">Att välja AcneSpecialisten betyder inte bara tillgång till den mest avancerade behandlingen för din hud. Vi är dedikerade till att du ska uppnå dina huvårdsmål. Vår djupa kunskap, engagemang och långvariga erfarenhet gör oss till ditt främsta val för att ta hand om din mogna hy.</p>',
       ),
 
 );
