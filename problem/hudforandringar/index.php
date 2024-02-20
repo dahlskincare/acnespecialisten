@@ -330,7 +330,7 @@ $services = array(
             title: 'CryoPen mot hudförändringar',
             duration: '20 min',
             price: '995 kr',
-            content: 'Cryopen är en avancerad behandling som snabbt och effektivt behandlar godartade hudförändringar genom att frysa det drabbade området.',
+            content: 'CryoPen är en skonsam behandling som fryser bort godartade hudförändringar under en serie behandlingar.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
@@ -353,7 +353,7 @@ $services = array(
             title: 'Laser mot hudförändringar',
             duration: '30 min',
             price: '1995 kr',
-            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida akne utbrott.',
+            content: 'Laserbehandling är en effektiv och snabbverkande behandling som bränner bort godartade hudförändringar på ett besök',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
@@ -361,7 +361,7 @@ $services = array(
             image_title: 'Laserbehandling mot hudförändringar',
 
             url_label: 'Läs mer om laser mot hudförändringar',
-            url: 'laser-acne.php',
+            url: '/behandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer om laser mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
@@ -369,7 +369,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot hudförändringar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Moles&area=EMPTY',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot hudförändringar',
       ),
 );
