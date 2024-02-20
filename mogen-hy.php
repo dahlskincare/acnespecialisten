@@ -391,7 +391,7 @@ $service = new Service(
       title: 'Konsultation för mogen hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en hudterapeut utförs en djupgående analys av din hy. Vi tar före-bilder på din hud, identifierar tecken på åldrande, och rekommenderar en lämplig behandling.',
+      content: 'Vid ett personligt möte med en hudterapeut utförs en djupgående analys av din hy. Vi tar före-bilder på din hud, identifierar tecken på åldrande, och rekommenderar en lämplig behandlingsplan.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
