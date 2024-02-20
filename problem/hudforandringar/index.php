@@ -353,7 +353,7 @@ $services = array(
             title: 'Laser mot hudförändringar',
             duration: '30 min',
             price: '1995 kr',
-            content: 'Laserbehandling är en effektiv och snabbverkande behandling som bränner bort godartade hudförändringar på ett besök',
+            content: 'Laserbehandling är en snabb och effektiv behandling som bränner bort godartade hudförändringar på ett besök.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
