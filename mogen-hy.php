@@ -418,7 +418,7 @@ $services = array(
             title: 'Laser mot mogen hy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling anpassad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och ojämn hudton.',
+            content: 'En avancerad laserbehandling anpassad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och slapp hy.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
