@@ -303,7 +303,7 @@ $service = new Service(
       title: 'Konsultation för hudförändringar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en hudspecialist utförs en undersökning av din hudförändring. Vi tar före-bilder på det berörda området och rekommenderar en lämplig behandling med Cryopen, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Under en konsultation får du träffa en hudterapeut som går igenom dina godartade hudförändringar. Vi tar före-bilder på det berörda området och rekommenderar en lämplig behandlingsplan.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -330,7 +330,7 @@ $services = array(
             title: 'Behandling med Cryopen',
             duration: '20 min',
             price: '995 kr',
-            content: 'Cryopen är en avancerad behandling som snabbt och effektivt behandlar hudförändringar genom att frysa det drabbade området. Detta kan hjälpa till att minska eller eliminera utseendet på olika typer av hudförändringar.',
+            content: 'Cryopen är en avancerad behandling som snabbt och effektivt behandlar godartade hudförändringar genom att frysa det drabbade området.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
@@ -348,6 +348,29 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen'
+      ),
+      new Service(
+            title: 'Laser mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'En avancerad laserbehandling mot akne erbjuder en effektiv lösning för att bekämpa aktiv akne. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida akne utbrott.',
+
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Kvinna som får laserbehandling mot akne',
+            image_title: 'Laserbehandling mot akne',
+
+            url_label: 'Läs mer om laser mot akne',
+            url: 'laser-acne.php',
+            url_title: 'Läs mer om laser mot akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot akne',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot akne',
       ),
 );
 
