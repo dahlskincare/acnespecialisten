@@ -104,7 +104,7 @@ $trivias = array(
             prefix: 'Vem',
             title: 'får torr och känslig hy?',
             content: '<p class="p200">Torr och känslig hy är inte begränsad till en specifik demografisk grupp, det kan drabba personer i alla åldrar och kön. Det är dock viktigt att förstå att vissa faktorer gör vissa människor mer benägna att utveckla denna hudtyp. Ålder är en av de mest framstående faktorerna. Med åldern minskar hudens naturliga talgproduktion och dess förmåga att behålla fukt, vilket gör äldre personer mer mottagliga för torr och känslig hud.</p>',
-            extended_content: '<p class="p200 mt-xl">Individer med tillstånd som eksem, rosacea eller psoriasis är också särskilt utsatta, eftersom de ofta medför en kronisk torrhet och känslighet i huden. Hormonella förändringar som sker under graviditet, menopaus eller menstruationscykler påverka hudens tillstånd och göra den mer känslig eller torr. Yrkesmässig exponering för kemiska ämnen, eller jobb som kräver frekvent handtvätt eller användning av handskar, kan också förvärra problemet.</p>',
+            extended_content: '<p class="p200 mt-xl">Individer med tillstånd som eksem, rosacea eller seborré är också särskilt utsatta, eftersom de ofta medför en kronisk torrhet och känslighet i huden. Hormonella förändringar som sker under graviditet, klimakteriet eller menstruationscykler påverkar hudens tillstånd och göra den mer känslig eller torr. Yrkesmässig exponering för kemiska ämnen, eller jobb som kräver frekvent handtvätt eller användning av handskar, kan också förvärra problemet.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
