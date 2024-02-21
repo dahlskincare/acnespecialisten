@@ -115,16 +115,16 @@ $trivias = array(
             <p class="p200 mt-xl">Kinderna och kindbenen:<br />Dessa områden kan lida av torrhet, särskilt under vintermånaderna när kall luft och centralvärme bidrar till fuktighetsförlust. Torr hud här kan kännas stram och flagnande.</p>
             <p class="p200 mt-xl">Näsan:<br />Trots att näsan ofta kan upplevas som oljig, kan sidorna och området under näsan bli torrt och irriterat, särskilt vid förkylningar eller allergier när man ofta använder näsdukar som irriterar huden.</p>
             <p class="p200 mt-xl">Hakan och området runt munnen:<br />Dessa områden är benägna att bli torra och spruckna, delvis på grund av rörelser när vi talar eller äter, och påverkas negativt av såväl väder som vissa livsmedel och drycker.</p>
-            <p class="p200 mt-xl">Att hantera torr och känslig hud i ansiktet kräver en skonsam men effektiv hudvårdsrutin. Det börjar med milda rengöringsprodukter som inte strippar huden på dess naturliga oljor, följt av återfuktande produkter som är fria från irriterande ämnen. Att vara uppmärksam på hur olika områden i ansiktet reagerar på produkter och miljöförändringar är nyckeln till att upprätthålla en hälsosam, återfuktad och lugn hud.</p>',
+            <p class="p200 mt-xl">Att hantera torr och känslig hud i ansiktet kräver en skonsam men effektiv hudvårdsrutin och skräddarsydda behandlingar. Det börjar med milda rengöringsprodukter som inte strippar huden på dess naturliga oljor, följt av återfuktande produkter som är fria från irriterande ämnen. Att vara uppmärksam på hur olika områden i ansiktet reagerar på produkter och miljöförändringar är nyckeln till att upprätthålla en hälsosam, återfuktad och lugn hud.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kinder' => 'Kinder', 'panna' => 'Panna')
       ),
 );
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig att identifiera din hudtyp som torr och känslig, samt skapar en individuell behandlingsplan för dig.',
+            content: 'Hos AcneSpecialisten får du träffa en hudterapeut som hjälper dig att identifiera din torra och känsliga hy, samt skapar en individuell behandlingsplan för dig.',
 
-            url_label: 'Få gratis konsultation',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
