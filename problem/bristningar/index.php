@@ -33,12 +33,7 @@ $akas = [
             title: null,
       ),
       new Link(
-            label: 'Hudärr',
-            url: null,
-            title: null,
-      ),
-      new Link(
-            label: 'Stretchmärken',
+            label: 'Stretchmarks',
             url: null,
             title: null,
       ),
