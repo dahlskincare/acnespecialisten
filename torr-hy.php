@@ -680,7 +680,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vilka är de vanligaste symtomen på torr och känslig hud?',
-                  text: '<p class="p200">Torr hud uppvisar ofta symtom som stramhet, fjällning och ibland klåda. I mer allvarliga fall kan huden bli sprucken.. Känslig hud kan reagera med symtom som rodnad, brännande, stickningar och ibland utslag när den utsätts för irriterande ämnen eller miljöfaktorer. Ofta upplever personer med känslig hud att deras hud "reagerar" snabbt och lätt blir irriterad.</p>'
+                  text: '<p class="p200">Torr hud uppvisar ofta symtom som stramhet, fjällning och ibland klåda. I mer allvarliga fall kan huden bli sprucken.. Känslig hud kan reagera med symtom som rodnad, brännande, stickningar och ibland utslag när den utsätts för irriterande ämnen eller miljöfaktorer. Ofta upplever personer med känslig hud att deras hud "reagerar" snabbt och lätt blir irriterad och röd.</p>'
             ),
             new Question(
                   title: 'Hur påverkar årstiderna hudens torrhet och känslighet?',
