@@ -111,8 +111,7 @@ $trivias = array(
             prefix: 'Var',
             title: 'får man torr och känslig hy?',
             content: '<p class="p200">Torr och känslig hud i ansiktet kan särskilt påverka vissa områden mer än andra, vilket gör det viktigt att förstå hur man tar hand om varje specifikt parti. Här är en närmare titt på de mest utsatta områdena i ansiktet:</p>',
-            extended_content: '<p class="p200 mt-xl">Torr hy tenderar att åldras snabbare än oljig eller normal hud på grund av flera faktorer. När huden är torr saknar den fukt och talg (olja), vilket är avgörande för att bibehålla hudens elasticitet och smidighet. Här är en närmare förklaring av processen:</p>
-            <p class="p200 mt-xl">Ögonområdet:<br />Huden runt ögonen är extremt tunn och saknar talgkörtlar, vilket gör den särskilt mottaglig för torrhet och irritation. Torra linjer och rynkor kan bli mer framträdande här på grund av hudens känslighet.</p>
+            extended_content: '<p class="p200 mt-xl">Ögonområdet:<br />Huden runt ögonen är extremt tunn och saknar talgkörtlar, vilket gör den särskilt mottaglig för torrhet och irritation. Torra linjer och rynkor kan bli mer framträdande här på grund av hudens känslighet.</p>
             <p class="p200 mt-xl">Kinderna och kindbenen:<br />Dessa områden kan lida av torrhet, särskilt under vintermånaderna när kall luft och centralvärme bidrar till fuktighetsförlust. Torr hud här kan kännas stram och flagnande.</p>
             <p class="p200 mt-xl">Näsan:<br />Trots att näsan ofta kan upplevas som oljig, kan sidorna och området under näsan bli torrt och irriterat, särskilt vid förkylningar eller allergier när man ofta använder näsdukar som irriterar huden.</p>
             <p class="p200 mt-xl">Hakan och området runt munnen:<br />Dessa områden är benägna att bli torra och spruckna, delvis på grund av rörelser när vi talar eller äter, och påverkas negativt av såväl väder som vissa livsmedel och drycker.</p>
