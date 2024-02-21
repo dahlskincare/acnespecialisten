@@ -138,7 +138,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som är anpassade för torr och känslig hud, för att förhindra framtida hudproblem och behålla hudens balans.',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som är anpassade för torr och känslig hud, för att förhindra framtida hudproblem och behålla hudens fuktbalans.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/day-n-night-duo',

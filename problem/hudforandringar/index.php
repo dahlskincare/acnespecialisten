@@ -323,7 +323,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla hudförändringar med Cryopen";
+$headline02 = "02. Behandla hudförändringar";
 
 $services = array(
       new Service(
