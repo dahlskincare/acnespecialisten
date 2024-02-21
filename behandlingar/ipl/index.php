@@ -344,7 +344,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_title: 'Efter IPL-behandling',
     content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller parfymerade produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen bör du undvika intensiv fysisk aktivitet, bastu och långa varma duschar som kan förvärra svullnad och irritation. Användning av solskydd är kritiskt; det är viktigt att regelbundet applicera en hög SPF för att skydda huden mot UV-strålning, vilket är särskilt viktigt för det behandlade området. Vi rekommenderar även att du använder milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och upprätthålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din behandlare ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård. Beroende på din huds respons kan uppföljande behandlingar rekommenderas för att uppnå och underhålla önskade resultat.</p>',
+    <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din behandlare ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård.</p>',
 ));
 
 $service_brands_title = 'Märken för IPL';

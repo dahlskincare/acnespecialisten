@@ -87,6 +87,16 @@ $top_articles = array(
         content: '<p class="p200">För att förbereda dig inför din Skinbooster-behandling hos AcneSpecialisten, rekommenderar vi några enkla steg. Minska användningen av hudvårdsprodukter med starka aktiva ingredienser, som exfolierande syror, några dagar före din behandling. Detta minskar risken för irritation och förbereder din hud för att effektivt ta emot de näringsrika ingredienserna i behandlingen.</p>
         <p class="p200 mt-m">Att komma osminkad till din behandling är inte ett krav, men om du väljer att göra det, underlättar det för oss att göra en noggrann hudanalys och anpassa behandlingen efter dina specifika behov. Under en kostnadsfri konsultation går vi igenom allt du behöver veta inför behandlingen. Vårt team på AcneSpecialisten ser fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan för din hudtyp och dina mål. Vi är här för att stödja dig genom din hudvårdsresa och ser fram emot att bidra till din förbättrade hudhälsa.</p>',
     ),
+    'process' => new Article(
+        title: 'Hur går Skinbooster behandlingen till?',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Hur går Skinbooster behandlingen till?',
+        image_title: 'Hur går Skinbooster behandlingen till?',
+        content: '<p class="p200">Skinbooster är en innovativ behandling som erbjuder de fördelar man finner i både fillers och skinboosters, men helt utan användning av nålar. Denna skonsamma men effektiva behandling passar perfekt för att förbättra hudens utseende och kvalitet på ansiktet, halsen, dekolletaget eller händerna.</p>
+        <p class="p200 mt-m">Under behandlingen appliceras Cytocare 532, ett serum rikt på hyaluronsyra och en blandning av 52 essentiella vitaminer och mineraler. Denna kraftfulla formula återfuktar huden på djupet och stimulerar produktionen av elastin och kollagen, vilket bidrar till en förbättrad hudstruktur och elasticitet. Applikationen görs med en unik roller som använder galvanisk ström, vilket möjliggör penetration av serumet upp till 3mm under hudytan och säkerställer en jämn fördelning över behandlingsområdet.</p>
+        <p class="p200 mt-m">Efter behandlingen får huden en lugnande vård för att maximera resultatet och komforten. Vi rekommenderar att genomgå en serie av tre behandlingar med en veckas mellanrum för optimala resultat, som kan varar i upp till sex månader. En uppföljningsbehandling var sjätte månad hjälper till att upprätthålla hudens ungdomliga utseende och lyster. Infuzion är en idealisk lösning för dem som söker en effektiv, smärtfri behandling för att återfå en fräsch och återfuktad hud.</p>',
+    ),
 );
 
 $treatment_areas_title = 'Behandlingsområden för Skinbooster';
@@ -193,16 +203,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'process' => new Article(
-        title: 'Hur går Skinbooster behandlingen till?',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Hur går Skinbooster behandlingen till?',
-        image_title: 'Hur går Skinbooster behandlingen till?',
-        content: '<p class="p200">Skinbooster är en innovativ behandling som erbjuder de fördelar man finner i både fillers och skinboosters, men helt utan användning av nålar. Denna skonsamma men effektiva behandling passar perfekt för att förbättra hudens utseende och kvalitet på ansiktet, halsen, dekolletaget eller händerna.</p>
-        <p class="p200 mt-m">Under behandlingen appliceras Cytocare 532, ett serum rikt på hyaluronsyra och en blandning av 52 essentiella vitaminer och mineraler. Denna kraftfulla formula återfuktar huden på djupet och stimulerar produktionen av elastin och kollagen, vilket bidrar till en förbättrad hudstruktur och elasticitet. Applikationen görs med en unik roller som använder galvanisk ström, vilket möjliggör penetration av serumet upp till 3mm under hudytan och säkerställer en jämn fördelning över behandlingsområdet.</p>
-        <p class="p200 mt-m">Efter behandlingen får huden en lugnande vård för att maximera resultatet och komforten. Vi rekommenderar att genomgå en serie av tre behandlingar med en veckas mellanrum för optimala resultat, som kan varar i upp till sex månader. En uppföljningsbehandling var sjätte månad hjälper till att upprätthålla hudens ungdomliga utseende och lyster. Infuzion är en idealisk lösning för dem som söker en effektiv, smärtfri behandling för att återfå en fräsch och återfuktad hud.</p>',
-    ),
     'boost' => new Article(
         title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
         image_small: null,

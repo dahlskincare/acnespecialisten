@@ -70,7 +70,7 @@ $top_articles = array(
         image_title: 'Processen för dermabrasion',
         content: '<p class="p200">Vid en dermabrasion-behandling på AcneSpecialisten inleds sessionen med att noggrant rengöra huden för att eliminera smuts, olja och andra orenheter. Denna rengöringsprocess är avgörande för att säkerställa att huden är fullständigt förberedd för dermabrasionens exfolierande effekter.</p>
     <p class="p200 mt-m">Efter rengöringen utförs själva dermabrasionen, en mekanisk peeling där ett specialverktyg används för att försiktigt men effektivt slipa bort det yttersta lagret av döda hudceller. Denna process stimulerar hudens naturliga förnyelseprocess, vilket kan förbättra hudens textur och ton samt minska synligheten av fina linjer, ärr och hyperpigmentering.</p>
-    <p class="p200 mt-m">Efter dermabrasionen kan en lugnande och återfuktande mask appliceras för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en närande fuktighetskräm som skyddar och återställer huden. Vår expertpersonal ser till att varje steg i din dermabrasion-behandling är skräddarsytt för att passa din specifika hudtyp och dina behov, med målet att ge dig en friskare, mer strålande hud.</p>',
+    <p class="p200 mt-m">Sedan används en lugnande och återfuktande mask appliceras för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en närande fuktighetskräm som skyddar och återställer huden. Vår expertpersonal ser till att varje steg i din dermabrasion-behandling är skräddarsytt för att passa din specifika hudtyp och dina behov, med målet att ge dig en friskare, mer strålande hud.</p>',
     ),
 );
 
