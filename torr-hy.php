@@ -522,7 +522,7 @@ $services = array(
             title: 'Ansiktsbehandling för torr och känslig hy',
             duration: '60 min',
             price: '995 kr',
-            content: 'Denna ansiktsbehandling är specialdesignad för att lindra torr och känslig hud. Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
+            content: 'Denna ansiktsbehandling är utformad för att lindra torr och känslig hud. Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
@@ -567,7 +567,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot torr och känslig hy',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/day-n-night-duo',
             booking_url_title: 'Klicka för att köpa produktpaket mot torr och känslig hy',
       ),
 );
@@ -579,12 +579,13 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp för min torra och känsliga hy?',
             image_title: 'När ska jag söka hjälp för min torra och känsliga hy?',
-            content: '<p class="p200">Torr och känslig hud är en utmaning som många människor brottas med. Denna hudtyp kan kännas obekväm, stram och kan även flagna eller bli röd. Även om dessa symtom i många fall kan hanteras med rätt hudvårdsrutin, kan det för vissa bli en källa till stress eller obehag. Om du känner att din hud inte svarar väl på de produkter du använder, eller om din hudrutin inte verkar göra någon skillnad, kan det vara dags att överväga professionell hjälp.</p>
+            content: '<p class="p200">Torr och känslig hud är en utmaning som många människor drabbas av. Denna hudtyp kan kännas obekväm, stram och kan även flagna eller bli röd. Även om dessa symtom i många fall kan hanteras med rätt hudvårdsrutin, kan det för vissa bli en källa till stress eller obehag. Om du känner att din hud inte svarar väl på de produkter du använder, eller om din hudrutin inte verkar göra någon skillnad, kan det vara dags att överväga professionell hjälp.</p>
             <p class="p200 mt-m">Genom att konsultera en hudspecialist kan du få en skräddarsydd lösning som matchar din huds unika behov. En expert kan bedöma din hud, diskutera orsakerna bakom torrheten och känsligheten, och rekommendera en behandlingsplan. Detta kan inkludera specialiserade produkter, behandlingar eller båda. Om du känner att din torra och känsliga hud har blivit ett problem, eller om du helt enkelt vill återställa hudens lyster och komfort, bör du inte tveka att söka professionell rådgivning. Det är aldrig för tidigt eller för sent att sträva efter en hälsosam hud.</p>',
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten för Torr & Känslig Hy?',
-            content: '<p class="p200">Om du känner att din torra och känsliga hud påverkar din livskvalitet, eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar, bör du överväga att besöka AcneSpecialisten. Ju tidigare du får professionell hjälp, desto bättre chanser har du att lösa ditt hudproblem på ett effektivt sätt. AcneSpecialisten är här för att erbjuda dig skräddarsydda lösningar, oavsett om du har milda eller mer allvarliga hudproblem. Tveka inte att boka en kostnadsfri konsultation och ta det första steget mot en mjukare och mer komfortabel hud.</p><p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla torr och känslig hud och kan rekommendera vilka produkter och behandlingar som är bäst för just din hudtyp. Boka en gratis konsultation för att se hur vi kan hjälpa dig att förbättra din torra och känsliga hy.</p>',
+            content: '<p class="p200">Om du känner att din torra och känsliga hud påverkar din livskvalitet, eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar, bör du överväga att besöka AcneSpecialisten. Ju tidigare du får professionell hjälp, desto bättre chanser har du att lösa ditt hudproblem på ett effektivt sätt. AcneSpecialisten är här för att erbjuda dig skräddarsydda lösningar, oavsett om du har milda eller mer allvarliga hudproblem. Tveka inte att boka en kostnadsfri konsultation och ta det första steget mot en mjukare och mer komfortabel hud.</p>
+            <p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla torr och känslig hud och kan rekommendera vilka produkter och behandlingar som är bäst för just din hudtyp. Boka en gratis konsultation för att se hur vi kan hjälpa dig att förbättra din torra och känsliga hy.</p>',
 
             image_small: null,
             image_large: null,
