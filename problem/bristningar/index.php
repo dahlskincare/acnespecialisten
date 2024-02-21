@@ -118,7 +118,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera omfattningen och typen av dina bristningar och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten får du en personlig hudterapeut som hjälper dig identifiera omfattningen och typen av dina bristningar och skapar en individuell behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'gratis-hudkonsultation.php',
@@ -568,8 +568,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina bristningar?',
             image_title: 'När ska jag söka hjälp med mina bristningar?',
-            content: '<p class="p200">Bristningar är en av de vanligaste hudförändringarna som kan påverka både kvinnor och män, oavsett ålder. Även om de är helt ofarliga, kan bristningar orsaka självmedvetenhet och påverka ens självkänsla. Om du känner att dina bristningar stör dig estetiskt eller om du har försökt olika produkter och hemmabehandlingar utan framgång, kan det vara lämpligt att överväga professionell behandling.</p>
-            <p class="p200 mt-m">En hudterapeut kan bedöma svårighetsgraden av dina bristningar, diskutera potentiella behandlingsalternativ och rekommendera den bästa metoden för just din situation. Oavsett om bristningarna är nya och röda eller gamla och vita, finns det behandlingsmetoder som kan förbättra hudens utseende. Om du känner att bristningarna påverkar hur du känner för din kropp, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att arbeta mot en hud du trivs med.</p>',
+            content: '<p class="p200">Bristningar är en av de vanligaste hudförändringarna som kan påverka både kvinnor och män, oavsett ålder. Även om de är helt ofarliga, kan bristningar orsaka självmedvetenhet och påverka ens självkänsla. Om du känner att dina bristningar stör dig estetiskt eller om du har försökt olika produkter och behandlingar utan framgång, kan det vara lämpligt att överväga professionell behandling.</p>
+            <p class="p200 mt-m">En hudterapeut kan bedöma svårighetsgraden av dina bristningar, diskutera potentiella behandlingsalternativ och rekommendera den bästa metoden för just din situation. Oavsett om bristningarna är nya och röda eller gamla och ljusa, finns det behandlingsmetoder som kan förbättra hudens utseende. Om du känner att bristningarna påverkar hur du känner för din kropp, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att arbeta mot en hud du trivs med.</p>',
       ),
 
       new Article(
@@ -578,9 +578,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
-            content: '<p class="p200">Letar du efter en långvarig och effektiv lösning för dina bristningar? AcneSpecialisten står som det självklara svaret. Med mer än 30 års expertis inom hudvård och en specialiserad förmåga att behandla bristningar, är vi perfekt utrustade för att möta dina behov. Oavsett om dina bristningar är få eller omfattande, utformar vi behandlingar som är anpassade just för dig.</p>
-            <p class="p200 mt-m">Vår användning av de senaste behandlingsteknikerna och teknologierna inom hudvården garanterar de bästa resultaten för dig. Vårt team av erfarna hudterapeuter skapar en personlig behandlingsplan och erbjuder stöd genom hela din behandlingsresa. Genom att erbjuda regelbundna uppföljningar och skräddarsydda hemvårdsprogram säkerställer vi att dina bristningar minskar märkbart.</p>
-            <p class="p200 mt-m">Att välja AcneSpecialisten ger dig inte bara tillgång till de mest avancerade behandlingarna för dina bristningar. Vi dedikerar oss till att assistera dig i din strävan efter en slät och jämn hud. Vår passion, expertis och långa erfarenhet gör oss till det självklara valet för dig som söker behandling av bristningar.</p>',
+            content: '<p class="p200">Letar du efter en effektiv lösning för dina bristningar? AcneSpecialisten står som det självklara svaret. Med mer än 30 års expertis inom hudvård och en specialiserad förmåga att behandla bristningar, är vi perfekt utrustade för att möta dina behov. Oavsett om dina bristningar är få eller omfattande, utformar vi behandlingar som är anpassade just för dig.</p>
+            <p class="p200 mt-m">Vi använder oss av de senaste behandlingsteknikerna för att effektivt reducera och eliminera dina bristningar. Vårt team av erfarna hudterapeuter skapar en personlig behandlingsplan och erbjuder stöd genom hela din behandlingsresa. Vi dedikerar oss till att assistera dig i din strävan efter en slät och jämn hud. Vår passion, expertis och långa erfarenhet gör oss till det självklara valet för dig som söker behandling av bristningar.</p>',
       ),
 
 );
