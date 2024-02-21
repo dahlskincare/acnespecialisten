@@ -18,7 +18,7 @@ $model = new Service(
     title: 'IPL',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea. Våra behandlingar är skräddarsydda och anpassade efter dina specifika hudbehov, och utformade för att effektivt stimulera hudens egna läkningsmekanismer och förbättra hudens övergripande kondition.</p>',
+    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea.</p>',
     image_small: 'bilder/behandlingar/358x274/ipl.webp',
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL',

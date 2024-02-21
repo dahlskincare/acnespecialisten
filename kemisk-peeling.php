@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Kemisk Peeling',
     duration: '30 min',
     price: null,
-    content: '<p class="p200">På AcneSpecialisten är vi specialister på kemisk peeling för att effektivt behandla olika typer av hudproblem. Vår metod är idealisk för dig som önskar att förbättra hudens utseende genom att minska akne, acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, rynkor, fina linjer och solskador. Våra behandlingsprotokoll är skräddarsydda och noggrant anpassade för att erbjuda en säker och icke-invasiv behandling, som ger en jämnare hudstruktur. Vi på AcneSpecialisten strävar efter att ge varje person en förbättrad hudkvalitet med våra professionella och effektiva kemiska peelingbehandlingar.</p>',
+    content: '<p class="p200">Kemisk peeling är en hudvårdsbehandling som används för att förbättra hudens utseende och textur. Genom att applicera en exfolierande syror på huden avlägsnas de döda hudcellerna på ytan. Denna process stimulerar cellförnyelsen och främjar tillväxten av ny, friskare hud. </p>',
     image_small: 'bilder/behandlingar/358x274/kemisk-peeling.webp',
     image_large: 'bilder/behandlingar/424x456/kemisk-peeling.webp',
     image_alt: 'Kemisk peeling behandlingar',

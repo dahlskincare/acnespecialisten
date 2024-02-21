@@ -14,7 +14,7 @@ $model = new Service(
     title: 'Microneedling',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Oavsett var du är, från Östermalm till Södermalm eller Sundbyberg, har du tillgång till denna effektiva metod som genom en kontrollerad process stimulerar huden att reparera sig själv. Detta uppnås genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>',
+    content: '<p class="p200">Som ledande experter på microneedling i Sverige, erbjuder vi toppmodern behandling för att revitalisera din hud. Genom att försiktigt och strategiskt inducera mikroskopiska skador i hudens yttre lager, vilket kickstartar produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>',
     image_small: 'bilder/behandlingar/358x274/microneedling.webp',
     image_large: 'bilder/behandlingar/424x456/microneedling.webp',
     image_alt: 'Microneedling',

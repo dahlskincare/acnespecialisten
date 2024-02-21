@@ -14,7 +14,7 @@ $model = new Service(
     title: 'CryoPen',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">CryoPen är en framstående metod för att snabbt och effektivt behandla en rad hudförändringar, inklusive födelsemärken, skintags och leverfläckar. Denna icke-invasiva teknik erbjuder en precisionsstyrd behandling som fryser och förstör oönskade hudlesioner med minimal påverkan på den omgivande huden. Våra CryoPen-behandlingar är säkra, kräver minimal återhämtningstid och är idealiska för att återställa en slät hudton utan behov av kirurgiska ingrepp.</p>',
+    content: '<p class="p200">CryoPen är en framstående metod för att snabbt och effektivt behandla en rad hudförändringar, inklusive födelsemärken, skintags och leverfläckar. Denna icke-invasiva teknik erbjuder en precisionsstyrd behandling som fryser och förstör oönskade hudförändringar med minimal påverkan på den omgivande huden.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
     image_alt: 'CryoPen',

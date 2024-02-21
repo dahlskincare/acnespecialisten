@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Laser mot hudproblem',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">På AcneSpecialisten erbjuder vi fraktionerad CO2-laserbehandling, en avancerad metod för att effektivt behandla problemhy. Denna laserterapi är särskilt effektiv mot acneärr, ojämn hudton och textur, och ger märkbara förbättringar i hudkvaliteten. Denna process bidrar till att minska synligheten av ärr och förbättrar hudens övergripande struktur och ton. CO2-laser är ett utmärkt alternativ för dig som söker en effektiv behandling mot problemhy utan lång återhämtningstid.</p>',
+    content: '<p class="p200">På AcneSpecialisten erbjuder vi fraktionerad CO2-laserbehandling, en avancerad metod för att effektivt behandla problemhy. Denna laserterapi är särskilt effektiv mot acneärr, ojämn hudton och textur, och ger märkbara förbättringar i hudkvaliteten.</p>',
     image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',

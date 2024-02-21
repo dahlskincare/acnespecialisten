@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Dermabrasion',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Dermabrasion hos AcneSpecialisten är en effektiv behandling för att förbättra hudens textur och utseende. Denna metod är särskilt användbar för att behandla acneärr, fina linjer och pigmentering, vilket ger en slätare och mer jämn hudton. Vår dermabrasion-teknik skräddarsys för att passa din hudtyp och ger en djup exfoliering som främjar hudens förnyelse och kollagenproduktion.</p>',
+    content: '<p class="p200">Dermabrasion är en effektiv behandling som slipar huden för att förbättra hudens textur och utseende. Vår dermabrasion-teknik skräddarsys för att passa din hudtyp och ger en djup exfoliering som främjar hudens förnyelse och kollagenproduktion.</p>',
     image_small: 'bilder/behandlingar/358x274/dermabrasion.webp',
     image_large: 'bilder/behandlingar/424x456/dermabrasion.webp',
     image_alt: 'Dermabrasion',

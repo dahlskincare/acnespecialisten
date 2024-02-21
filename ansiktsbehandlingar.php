@@ -15,7 +15,7 @@ $model = new Service(
     title: 'Klassiska ansiktsbehandlingar',
     duration: null,
     price: 'Från 799 kr',
-    content: '<p class="p200">Hos oss på AcneSpecialisten erbjuder vi ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Oavsett om du befinner dig på Östermalm, Södermalm eller i Sundbyberg, kan du välja den behandling som bäst matchar din hudtyp och dina önskemål. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
+    content: '<p class="p200">Vi erbjuder ett brett utbud av klassiska ansiktsbehandlingar anpassade för varje individs unika behov. Vare sig du är ute efter att ge din mogen hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
     image_small: 'bilder/behandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
     image_large: 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
