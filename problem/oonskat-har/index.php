@@ -121,7 +121,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en hårborttagningsspecialist utförs en undersökning av ditt oönskade hår. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig laserbehandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en hårborttagningsspecialist utförs en undersökning av ditt oönskade hår. Vi rekommenderar en lämplig laserbehandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -186,8 +186,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för behandling av oönskat hår?',
             image_title: 'Varför välja AcneSpecialisten för behandling av oönskat hår?',
-            content: '<p class="p200">AcneSpecialisten är en pålitlig partner när det kommer till behandling av oönskat hår. Vår erfarenhet och användning av de senaste teknologierna inom hårborttagning garanterar effektiva och säkra behandlingar. Vi erbjuder en rad olika alternativ, inklusive laserhårborttagning, som är både effektivt och skonsamt.</p>
-            <p class="p200 mt-m">Vårt team av experter skräddarsyr behandlingen efter dina individuella behov och hudtyp, för att säkerställa bästa möjliga resultat. Hos oss får du tillgång till toppmodern behandling med personlig service och uppföljning. Vi är engagerade i att hjälpa dig uppnå en slät och hårfri hud på det sätt som passar dig bäst.</p>',
+            content: '<p class="p200">AcneSpecialisten är en pålitlig partner när det kommer till behandling av oönskat hår. Vår erfarenhet och användning av de senaste teknologierna inom hårborttagning för att du ska få både effektiva och säkra behandlingar. Vårt team av experter skräddarsyr behandlingen efter dina individuella behov och hudtyp, för att säkerställa bästa möjliga resultat. Hos oss får du tillgång till toppmodern behandling med personlig service och uppföljning. Vi är engagerade i att hjälpa dig uppnå en slät och hårfri hud på det sätt som passar dig bäst.</p>',
       ),
 );
 
