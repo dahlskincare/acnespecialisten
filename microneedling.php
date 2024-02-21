@@ -64,7 +64,7 @@ $top_articles = array(
         image_large: null,
         image_alt: 'Microneedling behandlingsprocess',
         image_title: 'Microneedling behandlingsprocess',
-        content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras en bedövningskräm för att minska eventuellt obehag under behandlingen.</p>
+        content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter.</p>
         <p class="p200 mt-m">Vår speciellt utformade microneedling-enhet använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också en näringsrik serum för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
     ),
     'boost' => new Article(
@@ -74,7 +74,7 @@ $top_articles = array(
         image_alt: 'Boosta Microneedling effekten med PRX-T33',
         image_title: 'Boosta Microneedling effekten med PRX-T33',
         content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
-                <p class="p200 mt-m">Inför din microneedling-behandling är det viktigt att undvika produkter som kan irritera huden, som exfolierande syror och retinol. PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en dramatisk minskning av fina linjer och ojämnheter.</p>',
+                <p class="p200 mt-m">PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en omfattande minskning av fina linjer och ojämnheter.</p>',
     ),
 );
 
@@ -94,7 +94,7 @@ $types = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
-        booking_url_label: 'Boka microneedling för aktiv acne',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för aktiv acne',
     ),
 
@@ -351,7 +351,7 @@ $bottom_articles = array('aftercare' => new Article(
     content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbunden uppföljning och eventuellt ytterligare behandlingar kan rekommenderas beroende på din huds individuella svar och de mål du strävar efter med din hudvård.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
+    tags: array()
 ));
 
 $service_brands_title = 'Märken för microneedling';
