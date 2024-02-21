@@ -584,8 +584,8 @@ $articles = array(
       ),
       new Article(
             title: 'När ska jag besöka AcneSpecialisten för Torr & Känslig Hy?',
-            content: '<p class="p200">Om du känner att din torra och känsliga hud påverkar din livskvalitet, eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar, bör du överväga att besöka AcneSpecialisten. Ju tidigare du får professionell hjälp, desto bättre chanser har du att lösa ditt hudproblem på ett effektivt sätt. AcneSpecialisten är här för att erbjuda dig skräddarsydda lösningar, oavsett om du har milda eller mer allvarliga hudproblem. Tveka inte att boka en kostnadsfri konsultation och ta det första steget mot en mjukare och mer komfortabel hud.</p>
-            <p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla torr och känslig hud och kan rekommendera vilka produkter och behandlingar som är bäst för just din hudtyp. Boka en gratis konsultation för att se hur vi kan hjälpa dig att förbättra din torra och känsliga hy.</p>',
+            content: '<p class="p200">Om du känner att din torra och känsliga hud påverkar din livskvalitet, eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar, bör du överväga att besöka AcneSpecialisten. Ju tidigare du får professionell hjälp, desto snabbare kan du återställa huden fuktbalans. AcneSpecialisten är här för att erbjuda dig skräddarsydda lösningar, oavsett om du har milda eller mer allvarliga hudproblem. Tveka inte att boka en kostnadsfri konsultation och ta det första steget mot en mjukare och mer komfortabel hud.</p>
+            <p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla torr och känslig hud och kan rekommendera vilka produkter och behandlingar som är bäst för just din hudtyp.</p>',
 
             image_small: null,
             image_large: null,
@@ -672,27 +672,23 @@ $faq_categories = array(
       'Generellt om torr och känslig hy' => array(
             new Question(
                   title: 'Vad är de vanligaste orsakerna till torr och känslig hud?',
-                  text: '<p class="p200">Det finns flera faktorer som kan bidra till torr och känslig hud. Dessa inkluderar genetiska predispositioner, miljöfaktorer som kallt eller torrt klimat, och kemiska faktorer som användning av hårda hudvårdsprodukter. Medicinska tillstånd som eksem, psoriasis, och rosacea kan också orsaka eller förvärra torr och känslig hud. Hormonella förändringar, som de som upplevs under graviditet eller klimakteriet, kan också påverka huden.</p>'
+                  text: '<p class="p200">Det finns flera faktorer som kan bidra till torr och känslig hud. Dessa inkluderar genetiska anlag, miljöfaktorer som kallt eller torrt klimat, och kemiska faktorer som användning av starka hudvårdsprodukter. Medicinska tillstånd som eksem, seborré, och rosacea kan också orsaka eller förvärra torr och känslig hud. Hormonella förändringar, som de som upplevs under graviditet eller klimakteriet, kan också påverka huden.</p>'
             ),
             new Question(
                   title: 'Hur kan man skilja mellan torr och känslig hud?',
-                  text: '<p class="p200">Torr hud kännetecknas ofta av en brist på fukt, vilket kan leda till fjällning, klåda och en känsla av stramhet. Känslig hud å andra sidan, är mer en reaktion på vissa triggers som hudvårdsprodukter, mat eller miljöfaktorer. Symptomen på känslig hud inkluderar rodnad, irritation, och ibland utslag. Det är också möjligt att ha både torr och känslig hud, vilket kan komplicera diagnos och behandling.</p>'
+                  text: '<p class="p200">Torr hud kännetecknas ofta av en brist på fukt, vilket kan leda till fjällning, klåda och en känsla av stramhet. Känslig hud å andra sidan, är mer en reaktion på vissa triggers som hudvårdsprodukter eller miljöfaktorer. Symptomen på känslig hud inkluderar rodnad, irritation, och ibland utslag. Det är också möjligt att ha både torr och känslig hud, vilket kan komplicera diagnos och behandling.</p>'
             ),
             new Question(
                   title: 'Vilka är de vanligaste symtomen på torr och känslig hud?',
-                  text: '<p class="p200">Torr hud uppvisar ofta symtom som stramhet, fjällning och ibland klåda. I mer allvarliga fall kan huden bli sprucken och till och med blöda. Känslig hud kan reagera med symtom som rodnad, brännande, stickningar och ibland utslag när den utsätts för irriterande ämnen eller miljöfaktorer. Ofta upplever personer med känslig hud att deras hud "reaktiverar" snabbt och lätt blir irriterad.</p>'
+                  text: '<p class="p200">Torr hud uppvisar ofta symtom som stramhet, fjällning och ibland klåda. I mer allvarliga fall kan huden bli sprucken.. Känslig hud kan reagera med symtom som rodnad, brännande, stickningar och ibland utslag när den utsätts för irriterande ämnen eller miljöfaktorer. Ofta upplever personer med känslig hud att deras hud "reagerar" snabbt och lätt blir irriterad.</p>'
             ),
             new Question(
                   title: 'Hur påverkar årstiderna hudens torrhet och känslighet?',
                   text: '<p class="p200">Under vintermånaderna kan den kalla utomhusluften och den torra inomhusluften från uppvärmningssystem leda till torrare hud. Sommaren har sin egen uppsättning utmaningar, inklusive ökad exponering för solen och salt eller klorerat vatten, vilket kan torka ut huden och göra den mer känslig. Vissa personer finner att deras hud är känsligare under perioder med hög pollenproduktion eller andra miljömässiga förändringar.</p>'
             ),
             new Question(
-                  title: 'Kan kost och livsstil påverka torr och känslig hud?',
-                  text: '<p class="p200">Ja, kost och livsstil kan ha en betydande inverkan på huden. En diet som är låg i essentiella fettsyror eller fukt kan förvärra torr hud. Rökning och hög alkoholkonsumtion kan också påverka hudens förmåga att hålla kvar fukt och kan göra huden mer känslig. Sömnbrist och stress kan också påverka huden negativt genom att störa hormonbalansen och öka inflammation, vilket kan leda till ökad torrhet och känslighet.</p>'
-            ),
-            new Question(
-                  title: 'Hur kan man differentiera mellan torr hud och andra hudåkommor som eksem eller psoriasis?',
-                  text: '<p class="p200">Det kan vara svårt att differentiera mellan torr hud och andra hudåkommor som eksem eller psoriasis utan professionell diagnos. Torr hud är generellt sett karakteriserad av torrhet och skalning, medan eksem och psoriasis oftast innefattar rodnad, inflammation och ibland klåda. Om du är osäker, är det bäst att söka professionell rådgivning för att fastställa den exakta orsaken och få en anpassad behandlingsplan.</p>'
+                  title: 'Hur kan man skilja på torr hud och andra hudåkommor som eksem eller psoriasis?',
+                  text: '<p class="p200">Det kan vara svårt att skilja på torr hud och andra hudåkommor som eksem eller seborré utan professionell diagnos. Torr hud är generellt sett karakteriserad av torrhet och flagnande hud, medan eksem och seborré oftast innefattar rodnad, inflammation och ibland klåda. Om du är osäker, är det bäst att söka professionell rådgivning för att fastställa den exakta orsaken och få en anpassad behandlingsplan.</p>'
             ),
       ),
 );
