@@ -493,7 +493,7 @@ $service = new Service(
       title: 'Konsultation för Torr och Känslig Hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist inom torr och känslig hy utförs en omfattande hudanalys. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina unika behov och hudtyp.',
+      content: 'Vid ett personligt möte med en specialist inom torr och känslig hy utförs en hudanalys. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina unika behov och hudtyp.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
