@@ -24,12 +24,12 @@ $description = 'Akneärr är permanenta texturförändringar i huden som uppstå
 
 $akas = [
       new Link(
-            label: 'Gropar',
+            label: 'Gropar (Atrofiska ärr)',
             url: 'atrofiska-arr.php',
             title: 'Allt du behöver veta om atrofiska ärr i form av gropar från akne och deras behandling'
       ),
       new Link(
-            label: 'Fläckar',
+            label: 'Fläckar (Postinflammatorisk hyperpigmentering)',
             url: 'postinflammatorisk-hyperpigmentering.php',
             title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av fläckar från akne'
       ),
