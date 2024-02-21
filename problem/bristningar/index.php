@@ -87,7 +87,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man bristningar?',
-            content: '<p class="p200">Bristningar, även kända som striae eller stretchmärken, kan uppstå av flera olika anledningar, men de två vanligaste orsakerna är snabb tillväxt och snabb viktuppgång. </p>',
+            content: '<p class="p200">Bristningar, även kända som striae eller stretchmarks, kan uppstå av flera olika anledningar, men de två vanligaste orsakerna är snabb tillväxt och snabb viktuppgång. </p>',
             extended_content: '<p class="p200 mt-xl">När huden sträcks snabbt, som under puberteten, graviditet eller vid snabb viktuppgång, kan det leda till att det mellersta lagret av huden (dermis) rivs. Detta orsakar de synliga linjerna som vi känner till som bristningar. De kan variera i färg från rosa, rött till lila, och bleknar över tid till en mer hudliknande färg, även om de sällan försvinner helt.</p>
             <p class="p200 mt-xl">Växande<br />Under puberteten kan ungdomar uppleva snabba tillväxtspurter som kan leda till bristningar, särskilt på platser som höfter, bröst, skinkor och lår. Dessa är ofta resultatet av den naturliga tillväxten och utvecklingen som sker under denna period.</p>
             <p class="p200 mt-xl">Viktuppgång<br />Likaså kan snabb viktuppgång, oavsett orsak, sträcka huden och skapa bristningar. Detta kan ske i samband med snabb muskeltillväxt hos idrottare, under graviditet, eller som resultat av övervikt och fetma.</p>
