@@ -230,6 +230,17 @@ $type_categories = array(
                         url: null,
                         url_title: null,
                   ),
+                  new Symptom(
+                        name: 'Hypertrofiska ärr',
+                        aka: 'Keloid ärr',
+                        content: 'Dessa är upphöjda ärr som bildas när det finns en överproduktion av vävnad på akneskadan. De ligger ovanför hudytan och är oftast begränsade till skadeområdet.',
+                        //url: 'problem/aknearr/hypertrfiska-arr',
+                        //url_title: 'Läs mer om hypertrofiska ärr',
+                        //url_label: 'Läs mer',
+                        image: 'bilder/symptom/102x102/hypertrofiska-arr.webp',
+                        image_alt: 'Bild av hypertrofiska ärr',
+                        image_title: 'Hypertrofiska ärr (keloid ärr)'
+                  ),
             )
       ),
 

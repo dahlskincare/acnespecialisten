@@ -487,6 +487,7 @@ $symptoms = array(
 
 );
 */
+
 $headline01 = "01. Identifiera din torra och känsliga hy";
 
 $service = new Service(
