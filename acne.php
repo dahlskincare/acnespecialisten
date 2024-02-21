@@ -770,6 +770,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om akne' => array(
             new Question(
+                  title: 'Vad orsakar akne?',
+                  text: '<p class="p200">Akne är ett vanligt hudtillstånd som påverkar människor i alla åldrar, men är särskilt vanligt under tonåren och unga vuxna år. Det orsakas av en kombination av flera faktorer:
+
+<p class="p200 mt-xl">1. Överproduktion av talg: Talgkörtlar i huden producerar olja (sebum) som hjälper till att hålla huden mjuk och smidig. När dessa körtlar producerar för mycket talg kan det leda till att porerna blir tilltäppta.</p>
+
+2. **Ansamlning av döda hudceller:** Hudens naturliga process för cellförnyelse kan ibland leda till att döda hudceller inte avlägsnas effektivt, vilket bidrar till blockering av porer.
+
+3. **Bakterier:** Porer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Propionibacterium acnes (P. acnes), vilket kan leda till inflammation och svullnad runt porerna.
+
+4. **Hormonella förändringar:** Hormonella förändringar, särskilt under puberteten, graviditeten och menstruationscykeln, kan påverka talgproduktionen. Androgener (manliga könshormoner som finns hos både män och kvinnor) kan öka under dessa perioder, vilket stimulerar talgkörtlarna att producera mer talg.
+
+5. **Genetik:** En benägenhet för akne kan vara ärftlig. Om dina föräldrar hade akne är det mer sannolikt att du också får det.
+
+6. **Kost och livsstilsfaktorer:** Vissa studier tyder på att kostfaktorer, som ett högt intag av socker och mejeriprodukter, kan påverka akne hos vissa individer. Stress och vissa kosmetika kan också förvärra tillståndet.
+
+Det är viktigt att komma ihåg att akne varierar från person till person, och vad som orsakar akne för en person kanske inte gäller för en annan. Att hantera akne innebär ofta en kombination av hudvårdsrutiner, medicinsk behandling och ibland livsstilsförändringar. Om du upplever ihållande eller svår akne, överväg att konsultera en dermatolog för en skräddarsydd behandlingsplan.</p>'
+            ),
+            new Question(
                   title: 'Hur blir jag av med min akne snabbt?',
                   text: '<p class="p200">Att bli av med akne snabbt är en utmaning, eftersom det inte finns någon quickfix när det gäller akne. Effektiv behandling kräver att du tar hand om din hud genom att använda rätt behandlingar och produkter som passar din specifika hudtyp och akne. För att få en skräddarsydd behandlingsplan som hjälper dig att bli av med aknen så snabbt som möjligt, rekommenderar vi att du bokar en kostnadsfri hudkonsultation hos oss. Under konsultationen kommer vi att analysera din hud och hjälpa dig att utforma en anpassad behandlingsrutin som ger dig de bästa förutsättningarna för att snabbt och effektivt behandla din akne.</p>'
             ),
