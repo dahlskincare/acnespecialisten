@@ -32,6 +32,11 @@ $akas = [
             url: null,
             title: 'Kombinerad hud'
       ),
+      new Link(
+            label: 'Yttorr hy',
+            url: null,
+            title: 'Yttorr hy',
+      ),
 ];
 
 $consultation_url_label = "Boka gratis konsultation";

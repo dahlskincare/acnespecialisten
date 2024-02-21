@@ -24,11 +24,6 @@ $description = 'Torr och känslig hy är benägen att rodna med irritation och f
 
 $akas = [
       new Link(
-            label: 'Yttorr hy',
-            url: null,
-            title: 'Yttorr hy',
-      ),
-      new Link(
             label: 'Stram hy',
             url: null,
             title: 'Stram hy',
