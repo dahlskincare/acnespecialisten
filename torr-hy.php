@@ -20,7 +20,7 @@ $image_small = 'bilder/problem/424x324/torr-kanslig-hy.webp';
 $image_large = 'bilder/problem/424x456/torr-kanslig-hy.webp';
 $image_title = 'Visar en hy som är torr och känslig';
 $image_alt = 'Bild som illustrerar hur torr och känslig hy ser ut';
-$description = 'Torr och känslig hy är benägen att rodna med irritation och flagnande hy. Vi diskuterar de underliggande orsakerna till torrhet och känslighet samt hur denna hudtyp kan bäst hanteras.';
+$description = 'Torr och känslig hy är benägen att rodna med irritation och flagnande hy. Vi diskuterar de underliggande orsakerna till torrhet och känslighet samt hur denna hudtyp kan bäst behandlas.';
 
 $akas = [
       new Link(
@@ -88,7 +88,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är torr och känslig hy?',
-            content: '<p class="p200">Torr och känslig hy är mer än bara en kosmetisk besvärighet; det är en hudtillstånd som kan ha både fysiska och psykologiska effekter på dem som lider av det. Denna hudtyp kännetecknas av en brist på tillräcklig fukt, vilket leder till en kompromissad hudbarriär. Detta gör huden mindre effektiv på att hålla kvar fukt och mer benägen att reagera på olika stimuli som temperaturändringar, kosmetiska produkter och till och med kranvatten. Symptomen kan inkludera klåda, rodnad, fjällning och en obehaglig känsla av stramhet i huden.</p>',
+            content: '<p class="p200">Torr och känslig hy är mer än bara ett kosmetisk besvär; det är en hudtillstånd som kan ha både fysiska och psykologiska effekter på dem som lider av det. Denna hudtyp kännetecknas av en brist på tillräcklig fukt, vilket leder till en kompromissad hudbarriär. Detta gör huden mindre effektiv på att hålla kvar fukt och mer benägen att reagera på olika stimuli som temperaturändringar, kosmetiska produkter och till och med kranvatten. Symptomen kan inkludera klåda, rodnad, fjällning och en obehaglig känsla av stramhet i huden.</p>',
             extended_content: '<p class="p200 mt-xl">En komplex orsakssamband av genetiska och miljömässiga faktorer kan bidra till torr och känslig hy. En viktig faktor är hudens lipidbarriär, som består av naturliga talg som hjälper till att behålla fukt och skydda mot yttre irritanter. När denna barriär är försvagad, kan huden lättare förlora fukt och blir därmed torr och mer känslig för inflammation och irritation.</p>',
             icons: array()
       ),
