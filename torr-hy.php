@@ -98,7 +98,7 @@ $trivias = array(
             title: 'får man torr och känslig hy?',
             content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Vissa hudvårdsprodukters irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som psoriasis och eksem, bidra till problemet. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som dålig kost och brist på vattenintag kan också spela en roll. En diet som är låg i essentiella fettsyror och vitaminer som vitamin E kan påverka hudens förmåga att behålla fukt. Stress och brist på sömn har också visat sig förvärra hudens känslighet och kan leda till ytterligare uttorkning och irritation. Det är viktigt att förstå att en kombination av dessa faktorer oftast ligger bakom problemet, och därför kan en holistisk plan till behandling och förebyggande vara mest effektiv.</p>',
-            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat')
+            icons: array('produkter' => 'Produkter', 'stress' => 'Stress', 'klimat' => 'Klimat')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
@@ -494,7 +494,7 @@ $service = new Service(
       title: 'Konsultation för Torr och Känslig Hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist inom torr och känslig hy utförs en hudanalys. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina unika behov och hudtyp.',
+      content: 'Vid ett personligt möte med en specialist inom torr och känslig hy utförs en hudanalys. Vi rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina unika behov och hudtyp.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
