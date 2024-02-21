@@ -29,9 +29,14 @@ $akas = [
             title: 'Yttorr hy',
       ),
       new Link(
-            label: 'Ömtålig hy',
+            label: 'Stram hy',
             url: null,
-            title: 'Ömtålig hy',
+            title: 'Stram hy',
+      ),
+      new Link(
+            label: 'Fjällig hy',
+            url: null,
+            title: 'Fjällig hy',
       ),
       new Link(
             label: 'Reaktiv hy',
