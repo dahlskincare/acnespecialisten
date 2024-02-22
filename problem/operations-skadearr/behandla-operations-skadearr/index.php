@@ -215,6 +215,10 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
+              title: 'Vilka är de vanligaste behandlingsmetoderna för operations- och skadeärr?',
+              text: '<p class="p200">Det finns flera behandlingsalternativ för operations- och skadeärr, och valet av metod beror på ärrets typ, placering och den enskilda patientens behov. De mest populära metoderna inkluderar laserbehandling, som bryter ner ärrvävnaden och stimulerar hudens naturliga läkningsprocess; microneedling, där små nålar används för att skapa mikroskopiska sår i huden vilket aktiverar kollagenproduktionen; och kemisk peeling, där syror appliceras för att ta bort de yttersta hudlagren och främja ny hudtillväxt.</p>'
+        ),
+        new Question(
             title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för operations- och skadeärr?',
             text: 'Acnespecialisten erbjuder en rad olika behandlingar för operations- och skadeärr, inklusive laserbehandling, kemisk peeling och microneedling.'
         ),

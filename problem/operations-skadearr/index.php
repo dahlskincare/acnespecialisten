@@ -466,11 +466,6 @@ $faq_categories = array(
                   title: 'Är det vanligt att känna smärta eller obehag runt ett ärr?',
                   text: '<p class="p200">Ja, många individer upplever smärta, klåda eller obehag i och runt ärrvävnaden. Särskilt under de tidiga stadierna av läkning kan kollagenfibrerna bli strama, vilket ger en dragande eller klämmande känsla. Smärta eller obehag kan också vara kopplat till nervskada, irritation eller inflammation i området. Med tiden tenderar dessa känslor att minska för de flesta ärr.</p>'
             ),
-            new Question(
-                  title: 'Vilka är de vanligaste behandlingsmetoderna för operations- och skadeärr?',
-                  text: '<p class="p200">Det finns flera behandlingsalternativ för operations- och skadeärr, och valet av metod beror på ärrets typ, placering och den enskilda patientens behov. De mest populära metoderna inkluderar laserbehandling, som bryter ner ärrvävnaden och stimulerar hudens naturliga läkningsprocess; microneedling, där små nålar används för att skapa mikroskopiska sår i huden vilket aktiverar kollagenproduktionen; och kemisk peeling, där syror appliceras för att ta bort de yttersta hudlagren och främja ny hudtillväxt.</p>'
-            ),
-
       ),
 );
 
