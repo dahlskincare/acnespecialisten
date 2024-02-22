@@ -569,7 +569,7 @@ $articles = array(
             image_alt: 'När ska jag söka hjälp med mina bristningar?',
             image_title: 'När ska jag söka hjälp med mina bristningar?',
             content: '<p class="p200">Bristningar är en av de vanligaste hudförändringarna som kan påverka både kvinnor och män, oavsett ålder. Även om de är helt ofarliga, kan bristningar orsaka självmedvetenhet och påverka ens självkänsla. Om du känner att dina bristningar stör dig estetiskt eller om du har försökt olika produkter och behandlingar utan framgång, kan det vara lämpligt att överväga professionell behandling.</p>
-            <p class="p200 mt-m">En hudterapeut kan bedöma svårighetsgraden av dina bristningar, diskutera potentiella behandlingsalternativ och rekommendera den bästa metoden för just din situation. Oavsett om bristningarna är nya och röda eller gamla och ljusa, finns det behandlingsmetoder som kan förbättra hudens utseende. Om du känner att bristningarna påverkar hur du känner för din kropp, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att arbeta mot en hud du trivs med.</p>',
+            <p class="p200 mt-m">En hudterapeut kan bedöma svårighetsgraden av dina bristningar, diskutera potentiella behandlingsalternativ och rekommendera den bästa metoden för just din situation. Oavsett om bristningarna är nya och röda eller gamla och ljusa, finns det behandlingsmetoder som kan förbättra hudens utseende. Om du känner att bristningarna påverkar hur du känner för din kropp, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en hud du trivs med.</p>',
       ),
 
       new Article(
@@ -578,7 +578,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
-            content: '<p class="p200">Letar du efter en effektiv lösning för dina bristningar? AcneSpecialisten står som det självklara svaret. Med mer än 30 års expertis inom hudvård och en specialiserad förmåga att behandla bristningar, är vi perfekt utrustade för att möta dina behov. Oavsett om dina bristningar är få eller omfattande, utformar vi behandlingar som är anpassade just för dig.</p>
+            content: '<p class="p200">Letar du efter en effektiv lösning för dina bristningar? AcneSpecialisten står som det självklara valet. Med mer än 30 års expertis inom hudvård och en specialiserad förmåga att behandla bristningar, är vi perfekt utrustade för att möta dina behov. Oavsett om dina bristningar är få eller omfattande, utformar vi behandlingar som är anpassade just för dig.</p>
             <p class="p200 mt-m">Vi använder oss av de senaste behandlingsteknikerna för att effektivt reducera och eliminera dina bristningar. Vårt team av erfarna hudterapeuter skapar en personlig behandlingsplan och erbjuder stöd genom hela din behandlingsresa. Vi dedikerar oss till att assistera dig i din strävan efter en slät och jämn hud. Vår passion, expertis och långa erfarenhet gör oss till det självklara valet för dig som söker behandling av bristningar.</p>',
       ),
 
@@ -661,7 +661,7 @@ $faq_categories = array(
       'Generellt om bristningar' => array(
             new Question(
                   title: 'Vilka är de vanligaste områdena på kroppen som är mer benägna att utveckla bristningar?',
-                  text: '<p class="p200">Bristningar kan uppträda på olika delar av kroppen, men de vanligaste områdena där de uppträder är buken, brösten, höfterna, skinkorna och låren. Dessa områden är mer mottagliga för bristningar på grund av deras större potentiella tillväxt och utsträckning, särskilt under perioder som graviditet, snabb viktökning eller intensiv muskeltillväxt.</p>'
+                  text: '<p class="p200">Bristningar kan uppträda på olika delar av kroppen, men de vanligaste områdena där de uppträder är buken, brösten, höfterna, rumpan och låren. Dessa områden är mer mottagliga för bristningar på grund av deras större potentiella tillväxt och utsträckning, särskilt under perioder som graviditet, snabb viktökning eller intensiv muskeltillväxt.</p>'
             ),
             new Question(
                   title: 'Är det vanligt att man får bristningar under graviditet?',
