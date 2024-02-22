@@ -14,7 +14,7 @@ $model = new Service(
     title: 'Alma Rejuve Dye-VL',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov. Med sin unika Dye-VL-teknologi stimulerar Alma Rejuve effektivt hudens naturliga läkningsprocesser och bidrar till en markant förbättring av hudens övergripande kvalitet och utseende.</p>',
+    content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov.</p>',
     image_small: 'bilder/varumarken/358x274/alma-rejuve-dye-vl.webp',
     image_large: 'bilder/varumarken/424x456/alma-rejuve-dye-vl.webp',
     image_alt: 'IPL',

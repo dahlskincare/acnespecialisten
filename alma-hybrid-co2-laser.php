@@ -13,8 +13,7 @@ $model = new Service(
     title: 'Alma Hybrid',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">Alma Hybrid hos AcneSpecialisten representerar nästa generation av laserbehandlingar, kombinerar effektiviteten av CO2-laser med mångsidigheten hos icke-ablativ lasrar. Denna innovativa behandling är utformad för att effektivt hantera en rad hudproblem, inklusive acneärr, rynkor, fina linjer och ojämn hudton. Med Alma Hybrid upplever du en betydande förbättring av hudens textur och lyster.</p>
-    <p class="p200 mt-m">Vår Alma Hybrid-teknik arbetar genom att noggrant och kontrollerat skapa mikroskopiska skador i hudens yttre lager, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Denna process resulterar i en märkbar föryngring av huden, vilket minskar synligheten av ärr och förbättrar hudens övergripande struktur och utseende. Alma Hybrid är det perfekta valet för dem som söker en omfattande och avancerad lösning för hudföryngring och förbättring av hudkvalitet.</p>',
+    content: '<p class="p200">Alma Hybrid hos AcneSpecialisten representerar nästa generation av laserbehandlingar, kombinerar effektiviteten av CO2-laser med mångsidigheten hos icke-ablativ lasrar. Denna innovativa behandling är utformad för att effektivt hantera en rad hudproblem, inklusive acneärr, rynkor, fina linjer och ojämn hudton.</p>',
     image_small: 'bilder/varumarken/358x274/alma.webp',
     image_large: 'bilder/varumarken/424x456/alma.webp',
     image_alt: 'Alma Hybrid',

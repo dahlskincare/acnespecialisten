@@ -290,7 +290,7 @@ $all_brands = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     <h1 class="mt-xs h600 l10n">Alma</h1>
                     <div class="mt-xs l10n">
-                        Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice. Dessa avancerade maskiner erbjuder en bred palett av behandlingar, från hudföryngring och pigmentkorrigering till effektiv hårborttagning och behandling av vaskulära problem. Varje system är designat för att ge säkra, skonsamma och effektiva lösningar för en mängd olika hudtillstånd, vilket gör det möjligt för oss att skräddarsy behandlingar efter dina unika hudvårdsbehov.
+                        Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice.
                     </div>
                     <div class="mt-xl">
                         <div class="columns is-mobile">

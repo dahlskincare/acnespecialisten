@@ -11,9 +11,9 @@ $seo_image = '/images/treatments/large/skin-tech.webp';
 
 $model = new Service(
     title: 'Skin Tech',
-    duration: '30 min',
+    duration: null,
     price: null,
-    content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peelings för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering. Dessa behandlingar kombinerar varsamhet och kraftfullhet, vilket gör dem idealiska för en djupgående hudförbättring.</p>',
+    content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peelings för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering.</p>',
     image_small: 'bilder/varumarken/358x274/skin-tech.webp',
     image_large: 'bilder/varumarken/424x456/skin-tech.webp',
     image_alt: 'Skin Tech behandlingar',

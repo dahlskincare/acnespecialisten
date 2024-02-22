@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Soprano Ice',
     duration: null,
     price: 'Från 995 kr',
-    content: '<p class="p200">Soprano ICE är en revolution inom området för permanent hårborttagning med laser, som erbjuder en toppmodern lösning för dig som önskar att effektivt och varaktigt minska oönskad hårväxt. Denna avancerade teknik använder en kombination av flera våglängder för att på ett målriktat och skonsamt sätt avlägsna hårstrån genom att selektivt påverka hårfolliklarna. Detta leder till minskad hårproduktion och en hårfri, len hud. Det gör Soprano ICE till en idealisk behandlingsmetod för en mängd olika hudtyper och hårnyanser, och erbjuder en skonsam, men ändå effektiv lösning för permanent hårborttagning.</p>',
+    content: '<p class="p200">Soprano ICE är en revolution inom området för permanent hårborttagning med laser, som erbjuder en toppmodern lösning för dig som önskar att effektivt och varaktigt minska oönskad hårväxt. Denna avancerade teknik använder en kombination av flera våglängder för att på ett målriktat och skonsamt sätt avlägsna hårstrån genom att selektivt påverka hårfolliklarna.</p>',
     image_small: 'bilder/varumarken/358x274/soprano-ice.webp',
     image_large: 'bilder/varumarken/424x456/soprano-ice.webp',
     image_alt: 'Permanent Hårborttagning',

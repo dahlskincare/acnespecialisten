@@ -13,7 +13,7 @@ $model = new Service(
     title: 'HydraFacial',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Hydrafacial hos AcneSpecialisten är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering och hydrering för att vitalisera huden. Denna skonsamma men effektiva metod är idealisk för alla hudtyper och ger omedelbar förbättring av hudens lyster och textur. Med Hydrafacial upplever du en fräschare, klarare och mer strålande hud, tack vare behandlingens förmåga att djuprengöra och återfukta på en och samma gång.</p>',
+    content: '<p class="p200">Hydrafacial hos AcneSpecialisten är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering och hydrering för att vitalisera huden.</p>',
     image_small: 'bilder/varumarken/358x274/hydrafacial.webp',
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',
     image_alt: 'HydraFacial',

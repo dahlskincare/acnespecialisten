@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Splendor X',
     duration: null,
     price: 'Från 995 kr',
-    content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår. Våra Splendor X-behandlingar är individuellt anpassade för att möta dina unika behov, och vi behandlar effektivt olika områden på kroppen. Denna toppmoderna metod använder en kombination av laserljus med dubbla våglängder för att målriktat och skonsamt avlägsna hårstrån genom att skada hårfolliklarna. Detta minskar hårproduktionen och resulterar i en hårfri och mjuk hud. Splendor X är inte bara effektiv för att avlägsna oönskat hår, utan bidrar även till att förbättra hudens kvalitet och textur, vilket gör den till en idealisk behandling för en rad olika hudtyper och hårfärger.</p>',
+    content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår.</p>',
     image_small: 'bilder/varumarken/358x274/splendor-x.webp',
     image_large: 'bilder/varumarken/424x456/splendor-x.webp',
     image_alt: 'Permanent Hårborttagning',

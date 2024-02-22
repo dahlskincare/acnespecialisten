@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Powerlite Photonova',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Powerlite Photonova erbjuder effektiv IPL behandling för dig som strävar efter en jämnare hudton och önskar behandla hudproblem som pigmentfläckar, ytliga blodkärl eller lindra symtomen på rosacea. Powerlite Photonova utnyttjar avancerad ljusenergi för att effektivt stimulera hudens läkningsmekanismer, vilket bidrar till en betydande förbättring av hudens kvalitet och utseende, resulterande i en klarare och mer enhetlig hudton.</p>',
+    content: '<p class="p200">Powerlite Photonova erbjuder effektiv IPL behandling för dig som strävar efter en jämnare hudton och önskar behandla hudproblem som pigmentfläckar, ytliga blodkärl eller lindra symtomen på rosacea.</p>',
     image_small: 'bilder/varumarken/358x274/powerlite-photonova.webp',
     image_large: 'bilder/varumarken/424x456/powerlite-photonova.webp',
     image_alt: 'IPL',
