@@ -316,7 +316,7 @@ $all_brands = array(
                     </div>
                     <div id="green-header-large-text" class="mt-xxs">
                         <h1 class="h600 l10n">Alma</h1>
-                        <div class="mt-s l10n p200">Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice. Dessa avancerade maskiner erbjuder en bred palett av behandlingar, från hudföryngring och pigmentkorrigering till effektiv hårborttagning och behandling av vaskulära problem. Varje system är designat för att ge säkra, skonsamma och effektiva lösningar för en mängd olika hudtillstånd, vilket gör det möjligt för oss att skräddarsy behandlingar efter dina unika hudvårdsbehov.</div>
+                        <div class="mt-s l10n p200">Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice.</div>
                         <div class="mt-xl flex-row" id="book-buttons">
                             <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem" class="button b200 white l10n" title="Boka konsultation">Boka konsultation</a>
                             <a href="https://acnespecialisten.se/book?flow=laserProblem" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
