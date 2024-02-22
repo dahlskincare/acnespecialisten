@@ -119,7 +119,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten kopplas du ihop med en specialist inom ärrbehandling. De hjälper dig att identifiera typen av operations- och skadeärr och sätter upp en individuell behandlingsplan anpassad för dina behov.',
+            content: 'Hos AcneSpecialisten får du träffa en specialist inom ärrbehandling. De hjälper dig att identifiera typen av operations- och skadeärr och sätter upp en individuell behandlingsplan anpassad för dina behov.',
 
             url_label: 'Boka gratis konsultation',
             url: 'gratis-hudkonsultation.php',
@@ -127,7 +127,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder avancerade och skonsamma behandlingar för olika typer av operations- och skadeärr, designade för att effektivt minska ärrvävnadens framträdande och förbättra hudens utseende.',
+            content: 'Vi erbjuder avancerade behandlingar för olika typer av operations- och skadeärr, framtagna för att effektivt minska ärrvävnadens framträdande och förbättra hudens utseende.',
 
             url_label: 'Se ärrbehandlingar',
             url: 'problem/operations-skadearr/behandla-operations-skadearr',
