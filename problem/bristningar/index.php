@@ -683,10 +683,6 @@ $faq_categories = array(
                   title: 'Är bristningar farliga eller skadliga för hälsan?',
                   text: '<p class="p200">Nej, bristningar är inte farliga eller skadliga för hälsan. De är mestadels en estetisk bekymmer för många människor. Även om de kan vara irriterande eller orsaka obehag, särskilt när de först uppträder, representerar de inget hot mot personens hälsa.</p>'
             ),
-            new Question(
-                  title: 'Vilka behandlingsalternativ finns tillgängliga för bristningar?',
-                  text: '<p class="p200">Det finns olika behandlingsalternativ för att ta itu med bristningar, bland dessa är laserbehandlingar, kemisk peeling och microneedling de mest populära. Laserbehandlingar fungerar genom att stimulera produktionen av kollagen och elastin i huden, vilket kan förbättra bristningens utseende. Kemisk peeling använder syror för att exfoliera det översta hudlagret, vilket kan minska synligheten av yngre bristningar. Microneedling, å andra sidan, skapar mikroskopiska sår i huden för att stimulera hudens naturliga läkningsprocess och öka kollagenproduktionen. Valet av behandlingsmetod beror på individens specifika behov, bristningens ålder och svårighetsgrad, samt andra faktorer. En konsultation med en hudterapeut rekommenderas för att bestämma den bästa behandlingsplanen för just dig.</p>'
-            ),
 
       ),
 );
