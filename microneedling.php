@@ -51,8 +51,8 @@ $description_text = '<p class="p200">Microneedling är en skonsam och revolution
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Microneedling-behandling',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/microneedling-forberedelser.webp',
+        image_large: '/bilder/process/872x456/microneedling-forberedelser.webp',
         image_alt: 'Förberedelser inför Microneedling-behandling',
         image_title: 'Förberedelser inför Microneedling-behandling',
         content: '<p class="p200">Förberedelse inför en Microneedling-behandling börjar med en noggrann konsultation där du får träffa en av våra erfarna hudterapeuter. Under konsultationen kommer hudterapeuten att genomföra en omfattande undersökning av din hud för att identifiera specifika behov och hudtillstånd. Detta steg är avgörande för att kunna ta fram en personlig och skräddarsydd behandlingsplan som är optimerad för just dina hudvårdsbehov.</p>
@@ -60,8 +60,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Microneedling behandlingsprocess',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/microneedling-process.webp',
+        image_large: '/bilder/process/872x456/microneedling-process.webp',
         image_alt: 'Microneedling behandlingsprocess',
         image_title: 'Microneedling behandlingsprocess',
         content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter.</p>
@@ -344,8 +344,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter microneedling behandling',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/microneedling-eftervard.webp',
+    image_large: '/bilder/process/872x456/microneedling-eftervard.webp',
     image_alt: 'Efter microneedling behandling',
     image_title: 'Efter microneedling behandling',
     content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
