@@ -673,7 +673,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Förändras bristningarnas utseende över tid?',
-                  text: '<p class="p200">Ja, bristningarnas utseende kan förändras över tiden. När de först uppträder kan de vara röda, lila eller rosa, men med tiden bleknar de ofta till en ljusare, pärlemorfärg eller till en vit eller silveraktig nyans. Även om de inte helt försvinner kan de bli mindre framträdande över åren.</p>'
+                  text: '<p class="p200">Ja, bristningarnas utseende kan förändras över tiden. När de först uppträder kan de vara röda, lila eller rosa, men med tiden bleknar de ofta till en ljusare, pärlemorfärg eller till en vit eller silveraktig nyans. Även om de inte helt försvinner kan de bli mindre framträdande med åren.</p>'
             ),
             new Question(
                   title: 'Vilka faktorer kan öka risken för att utveckla bristningar?',
