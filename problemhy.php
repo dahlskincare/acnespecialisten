@@ -50,8 +50,8 @@ $description_text = '<p class="p200">Dessa behandlingar är skräddarsydds för 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/problemhy-forberedelser.webp',
+        image_large: '/bilder/process/872x456/problemhy-forberedelser.webp',
         image_alt: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         image_title: 'Förberedelser inför ansiktsbehandlingar för problemhy',
         content: '<p class="p200">Inför din ansiktsbehandling för problemhy hos oss behöver du inte tänka på något särskilt. Kom som du är, och vi tar hand om resten. Om du vill förbereda dig lite extra kan du tänka på följande: undvik att exfoliera huden dagen innan och undvik att sola några dagar innan behandlingen. Det kan också vara bra att komma med ett rent ansikte, utan smink. Informera gärna din hudterapeut i förväg om du tar några mediciner eller har några aktiva hudåkommor, så att behandlingen kan anpassas efter dina behov. Men det viktigaste är att du känner dig bekväm, så välj det som känns bäst för dig.</p>',
