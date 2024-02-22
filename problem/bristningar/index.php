@@ -94,7 +94,7 @@ $trivias = array(
             <p class="p200 mt-xl">Kroppsbyggnad och styrketräning<br />Snabb muskeltillväxt kan också leda till bristningar, särskilt på armar, axlar och bröst.</p>
             <p class="p200 mt-xl">Hormonella förändringar<br />Hormonella förändringar i kroppen kan påverka hudens elasticitet och öka risken för bristningar. Detta kan inkludera pubertet, graviditet och hormonbehandling.</p>
             <p class="p200 mt-xl">Genetik<br />Benägenheten att utveckla bristningar kan också vara genetisk. Om dina föräldrar eller syskon har bristningar, är chansen större att du också får det.</p>
-            <p class="p200 mt-xl">Även om bristningar är helt naturliga och inte skadliga för hälsan, kan de påverka hur man känner för sitt utseende. Det finns behandlingar som kan minska synligheten av bristningar, men det är viktigt att komma ihåg att de sällan kan tas bort helt. Hudvårdsrutiner som fokuserar på att återfukta och stärka huden kan bidra till att minska risken för framtida bristningar.</p>',
+            <p class="p200 mt-xl">Även om bristningar är helt naturliga och inte skadliga för hälsan, kan de påverka hur man känner för sitt utseende. Det finns behandlingar som kan minska synligheten av bristningar.</p>',
             icons: array('vaxt' => 'Tillväxt', 'traning' => 'Träning', 'livsstil' => 'Livsstil', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
