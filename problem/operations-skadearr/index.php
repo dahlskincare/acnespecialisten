@@ -456,11 +456,11 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Hur kan genetik påverka ärrbildningen?',
-                  text: '<p class="p200">Genetik spelar en viktig roll i ärrbildning och kan påverka hur en person läker. Vissa genetiska faktorer kan göra en person mer benägen att utveckla tjocka, upphöjda ärr som keloider eller hypertrofiska ärr. Etnicitet kan också spela en roll, med vissa befolkningar som har en högre risk att utveckla dessa typer av ärr. Förståelse av familjens ärrhistoria kan ge insikt i hur en person kan förväntas läka efter en skada.</p>'
+                  text: '<p class="p200">Genetik spelar en viktig roll i ärrbildning och kan påverka hur en person läker. Vissa genetiska faktorer kan göra en person mer benägen att utveckla tjocka, upphöjda ärr som keloider eller hypertrofiska ärr. Förståelse av familjens ärrhistoria kan ge insikt i hur en person kan förväntas läka efter en skada.</p>'
             ),
             new Question(
                   title: 'Kan solen påverka hur ett ärr läker eller dess utseende över tid?',
-                  text: '<p class="p200">Solen har en signifikant inverkan på ärrs läkning och utseende. Direkt sol exponering kan leda till att nybildade ärr mörknar eller hyperpigmenterar, vilket kan göra dem mer framträdande. Solskador på ärr kan också minska hudens elasticitet, vilket kan förvärra ärrbildningens textur och kvalitet. Det är därför avgörande att använda solskydd, som solkräm eller kläder, för att skydda ärret från solen, särskilt under dess tidiga läkningsfaser.</p>'
+                  text: '<p class="p200">Solen har en stor inverkan på ärrs läkning och utseende. Direkt solexponering kan leda till att nybildade ärr mörknar eller hyperpigmenterar, vilket kan göra dem mer framträdande. Solskador på ärr kan också minska hudens elasticitet, vilket kan förvärra ärrbildningens textur och kvalitet. Det är därför avgörande att använda solskydd, som solkräm eller kläder, för att skydda ärret från solen, särskilt under dess tidiga läkningsfaser.</p>'
             ),
             new Question(
                   title: 'Är det vanligt att känna smärta eller obehag runt ett ärr?',
