@@ -58,8 +58,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går en ansiktsbehandling för problemhy till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/problemhy-process.webp',
+        image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Processen för ansiktsbehandling mot problemhy',
         image_title: 'Processen för ansiktsbehandling mot problemhy',
         content: '<p class="p200">Hos oss hittar du ansiktsbehandlingar designade för alla typer av problemhy. Vi förstår att varje persons hud är unik, och därför skräddarsyr vi varje behandling baserat på dina personliga och individuella behov. Vår expertis och omfattande kunskap säkerställer att du får den bästa möjliga vården för din hud.</p>
@@ -235,8 +235,8 @@ $types = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård och omhändertagande',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
+    image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
     image_alt: 'Eftervård och omhändertagande',
     image_title: 'Eftervård och omhändertagande',
     content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda produkter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
