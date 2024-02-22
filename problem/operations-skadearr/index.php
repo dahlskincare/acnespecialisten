@@ -448,7 +448,7 @@ $faq_categories = array(
       'Generellt om operations- och skadeärr' => array(
             new Question(
                   title: 'När bleknar ärr?',
-                  text: '<p class="p200">Ärr kan blekna över tid. Faktorer som ålder, hudens placering, storlek och typ av skada påverkar alla tiden det tar för ett ärr att blekna. Generellt kan ärr på ansiktet blekna snabbare jämfört med de på kroppen. Yngre hud har också en tendens att läka snabbare än äldre hud. Även om vissa ärr kan blekna betydligt inom några månader, kan andra ta flera år och vissa kan aldrig helt försvinna utan behandling. Regelbunden återfuktning och solskydd kan hjälpa till att påskynda blekningsprocessen.</p>'
+                  text: '<p class="p200">Ärr kan blekna över tid. Faktorer som ålder, placering, storlek och typ av skada påverkar alla tiden det tar för ett ärr att blekna. Generellt kan ärr på ansiktet blekna snabbare jämfört med de på kroppen. Yngre hud har också en tendens att läka snabbare än äldre hud. Även om vissa ärr kan blekna betydligt inom några månader, kan andra ta flera år och vissa kan aldrig helt försvinna utan behandling. Regelbunden återfuktning och solskydd kan hjälpa till att påskynda blekningsprocessen.</p>'
             ),
             new Question(
                   title: 'Finns det olika typer av ärr?',
