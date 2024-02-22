@@ -771,21 +771,21 @@ $faq_categories = array(
       'Generellt om akne' => array(
             new Question(
                   title: 'Vad orsakar akne?',
-                  text: '<p class="p200">Akne är ett vanligt hudtillstånd som påverkar människor i alla åldrar, men är särskilt vanligt under tonåren och unga vuxna år. Det orsakas av en kombination av flera faktorer:
+                  text: '<p class="p200">Akne är ett vanligt hudtillstånd som påverkar människor i alla åldrar, men är särskilt vanligt under tonåren och unga vuxna år. Det orsakas av en kombination av flera faktorer:</p>
 
-<p class="p200 mt-xl">1. Överproduktion av talg: Talgkörtlar i huden producerar olja (sebum) som hjälper till att hålla huden mjuk och smidig. När dessa körtlar producerar för mycket talg kan det leda till att porerna blir tilltäppta.</p>
+                  <p class="p200 mt-xl">1. Överproduktion av talg:<br />Talgkörtlar i huden producerar olja (sebum) som hjälper till att hålla huden mjuk och smidig. När dessa körtlar producerar för mycket talg kan det leda till att porerna blir tilltäppta.</p>
 
-2. **Ansamlning av döda hudceller:** Hudens naturliga process för cellförnyelse kan ibland leda till att döda hudceller inte avlägsnas effektivt, vilket bidrar till blockering av porer.
+                  <p class="p200 mt-xl">2. Ansamlning av döda hudceller:<br />Hudens naturliga process för cellförnyelse kan ibland leda till att döda hudceller inte avlägsnas effektivt, vilket bidrar till blockering av porer.</p>
 
-3. **Bakterier:** Porer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Propionibacterium acnes (P. acnes), vilket kan leda till inflammation och svullnad runt porerna.
+                  <p class="p200 mt-xl">3. Bakterier:<br />orer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Propionibacterium acnes (P. acnes), vilket kan leda till inflammation och svullnad runt porerna.</p>
 
-4. **Hormonella förändringar:** Hormonella förändringar, särskilt under puberteten, graviditeten och menstruationscykeln, kan påverka talgproduktionen. Androgener (manliga könshormoner som finns hos både män och kvinnor) kan öka under dessa perioder, vilket stimulerar talgkörtlarna att producera mer talg.
+                  <p class="p200 mt-xl">4. Hormonella förändringar:<br />Hormonella förändringar, särskilt under puberteten, graviditeten och menstruationscykeln, kan påverka talgproduktionen. Androgener (manliga könshormoner som finns hos både män och kvinnor) kan öka under dessa perioder, vilket stimulerar talgkörtlarna att producera mer talg.</p>
 
-5. **Genetik:** En benägenhet för akne kan vara ärftlig. Om dina föräldrar hade akne är det mer sannolikt att du också får det.
+                  <p class="p200 mt-xl">5. Genetik:<br />En benägenhet för akne kan vara ärftlig. Om dina föräldrar hade akne är det mer sannolikt att du också får det.</p>
 
-6. **Kost och livsstilsfaktorer:** Vissa studier tyder på att kostfaktorer, som ett högt intag av socker och mejeriprodukter, kan påverka akne hos vissa individer. Stress och vissa kosmetika kan också förvärra tillståndet.
+                  <p class="p200 mt-xl">6. Kost och livsstilsfaktorer:<br />Vissa studier tyder på att kostfaktorer, som ett högt intag av socker och mejeriprodukter, kan påverka akne hos vissa individer. Stress och vissa kosmetika kan också förvärra tillståndet.</p>
 
-Det är viktigt att komma ihåg att akne varierar från person till person, och vad som orsakar akne för en person kanske inte gäller för en annan. Att hantera akne innebär ofta en kombination av hudvårdsrutiner, medicinsk behandling och ibland livsstilsförändringar. Om du upplever ihållande eller svår akne, överväg att konsultera en dermatolog för en skräddarsydd behandlingsplan.</p>'
+                  <p class="p200 mt-xl">Det är viktigt att komma ihåg att akne varierar från person till person, och vad som orsakar akne för en person kanske inte gäller för en annan. Att hantera akne innebär ofta en kombination av hudvårdsrutiner, medicinsk behandling och ibland livsstilsförändringar. Om du upplever ihållande eller svår akne, överväg att konsultera en dermatolog för en skräddarsydd behandlingsplan.</p>'
             ),
             new Question(
                   title: 'Hur blir jag av med min akne snabbt?',
