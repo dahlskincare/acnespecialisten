@@ -234,7 +234,7 @@ $types = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och omhändertagande',
+    title: 'Eftervård för problemhy',
     image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
     image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
     image_alt: 'Eftervård och omhändertagande',
