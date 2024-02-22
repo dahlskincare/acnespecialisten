@@ -464,7 +464,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är det vanligt att känna smärta eller obehag runt ett ärr?',
-                  text: '<p class="p200">Ja, många individer upplever smärta, klåda eller obehag i och runt ärrvävnaden. Särskilt under de tidiga stadierna av läkning kan kollagenfibrerna bli strama, vilket ger en dragande eller klämmande känsla. Smärta eller obehag kan också vara kopplat till nervskada, irritation eller inflammation i området. Med tiden tenderar dessa känslor att minska för de flesta ärr, men om smärtan kvarstår eller är svår, bör medicinsk rådgivning sökas.</p>'
+                  text: '<p class="p200">Ja, många individer upplever smärta, klåda eller obehag i och runt ärrvävnaden. Särskilt under de tidiga stadierna av läkning kan kollagenfibrerna bli strama, vilket ger en dragande eller klämmande känsla. Smärta eller obehag kan också vara kopplat till nervskada, irritation eller inflammation i området. Med tiden tenderar dessa känslor att minska för de flesta ärr.</p>'
             ),
             new Question(
                   title: 'Vilka är de vanligaste behandlingsmetoderna för operations- och skadeärr?',
