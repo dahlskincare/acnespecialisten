@@ -465,7 +465,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist för bristningar utförs en undersökning av dina bristningar. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist på bristningar utförs en undersökning av din hy. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -539,7 +539,7 @@ $services = array(
             title: 'Microneedling mot bristningar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en innovativ behandlingsmetod för bristningar. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar.',
+            content: 'Microneedling är en effektiv behandlingsmetod för bristningar. Genom att skapa små mikroskopiska skador i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
