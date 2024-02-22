@@ -452,7 +452,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Finns det olika typer av ärr?',
-                  text: '<p class="p200">Ja, det finns flera olika typer av ärr, var och en med sina egna egenskaper. Keloidärr är tjocka, upphöjda ärr som bildas när kroppen överproducerar kollagen efter en hudskada. Dessa kan växa större än såret och kan vara klåda eller smärtsamt. Hypertrofiska ärr liknar keloider men växer inte utanför sårets gränser. De är upphöjda, röda och kan också vara smärtsamma. Atrofiska ärr är försänkta ärr som ofta kommer från akne eller vattkoppor. De har en gropig yta och kan likna små kratrar. Kontrakturärr är ett resultat av förlust av ett stort hudområde, oftast från brännskador och kan begränsa rörelseförmågan på grund av hudens sammandragning.</p>'
+                  text: '<p class="p200">Ja, det finns flera olika typer av ärr, var och en med sina egna egenskaper. Keloidärr är tjocka, upphöjda ärr som bildas när kroppen överproducerar kollagen efter en hudskada. Dessa kan växa större än såret och kan orsaka klåda eller smärta. Hypertrofiska ärr liknar keloider men växer inte utanför sårets gränser. De är upphöjda, röda och kan också vara smärtsamma. Atrofiska ärr är försänkta ärr som ofta kommer från akne eller vattkoppor. De har en gropig yta och kan likna små kratrar. Kontrakturärr är ett resultat av förlust av ett stort hudområde, oftast från brännskador och kan begränsa rörelseförmågan på grund av hudens sammandragning.</p>'
             ),
             new Question(
                   title: 'Hur kan genetik påverka ärrbildningen?',
