@@ -66,8 +66,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går laser mot problemhy till?',
-        image_small: '/bilder/process/358x272/problemhy-process.webp',
-        image_large: '/bilder/process/872x456/problemhy-process.webp',
+        image_small: '/bilder/process/358x272/laser-process.webp',
+        image_large: '/bilder/process/872x456/laser-process.webp',
         image_alt: 'Hur går laser mot problemhy till?',
         image_title: 'Hur går laser mot problemhy till?',
         content: '<p class="p200">När du kommer till AcneSpecialisten för en laserbehandling mot problemhy, startar vi med en noggrann rengöring av ditt behandlingsområde. Detta är en viktig del i processen för att säkerställa att huden är fri från smuts och oljor, vilket gör behandlingen mer effektiv.</p>
@@ -448,8 +448,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för laserbehandling',
-    image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
-    image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
+    image_small: '/bilder/process/358x272/laser-eftervard.webp',
+    image_large: '/bilder/process/872x456/laser-eftervard.webp',
     image_alt: 'Eftervård för laserbehandling',
     image_title: 'Eftervård för laserbehandling',
     content: '<p class="p200">Eftervård är en avgörande del av din laserbehandlingsprocess för att säkerställa bästa möjliga resultat och snabb återhämtning. Omedelbart efter din laserbehandling kan du uppleva rodnad och viss svullnad i det behandlade området, vilket är normalt. Det är viktigt att inte röra området med orena händer och att undvika att applicera makeup under de första 24 timmarna för att förhindra irritation och infektioner.</p>
