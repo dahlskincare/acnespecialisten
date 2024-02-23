@@ -74,7 +74,7 @@ $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför Microdermabrasion',
         image_small: '/bilder/process/358x272/mimass-forberedelser.webp',
-        image_large: '/bilder/process/872x456/Microdermabrasion-processen-forberedelser.webp',
+        image_large: '/bilder/process/872x456/mimass-forberedelser.webp',
         image_alt: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         image_title: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         content: '<p class="p200">När du förbereder dig för din Microdermabrasion-behandling hos AcneSpecialisten, är det viktigt att ta vissa steg för att din hud ska vara i bästa möjliga skick. För att säkerställa att du är fullständigt informerad och bekväm med processen, erbjuder vi en konsultation där vi går igenom allt du behöver veta inför din Microdermabrasion-behandling. Under konsultationen kommer vi att diskutera din hudtyp, eventuella specifika bekymmer och vad du kan förvänta dig av behandlingen. Detta är också ett utmärkt tillfälle för dig att ställa frågor och uttrycka eventuella funderingar. Vår prioritet är att du känner dig helt trygg och förberedd inför din behandling hos AcneSpecialisten.</p>',
