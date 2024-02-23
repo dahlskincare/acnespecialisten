@@ -50,8 +50,8 @@ $description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med Powerlite Photonova',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/powerlite-photonova-forberedelser.webp',
+        image_large: '/bilder/process/872x456/powerlite-photonova-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med Powerlite Photonova',
         image_title: 'Förberedelser inför behandling med Powerlite Photonova',
         content: '<p class="p200">Att förbereda sig inför en Powerlite Photonova-behandling är ett viktigt steg för att säkerställa att din hud är i bästa möjliga skick. Det första steget är en konsultation med en erfaren hudterapeut där din hudtyp och dina unika behov noggrant utvärderas. Under denna konsultation skapas en individuellt anpassad behandlingsplan med Powerlite Photonova-tekniken för att uppnå de bästa resultaten.</p>
@@ -59,8 +59,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går en Powerlite Photonova behandling till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/powerlite-photonova-process.webp',
+        image_large: '/bilder/process/872x456/powerlite-photonova-process.webp',
         image_alt: 'Hur går en Rejuve Powerlite Photonova behandling till?',
         image_title: 'Hur går en Powerlite Photonova behandling till?',
         content: '<p class="p200">Powerlite Photonova-behandlingen är en avancerad metod för att förbättra hudens utseende, speciellt utvecklad för att korrigera hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du kommer till vår klinik inleder vi med att noggrant rengöra din hud för att avlägsna alla spår av makeup och orenheter. Dina ögon skyddas sedan med speciella skyddsglasögon för att förhindra exponering för det intensiva IPL-ljuset under behandlingen.</p>
@@ -333,8 +333,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Powerlite Photonova',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/powerlite-photonova-eftervard.webp',
+    image_large: '/bilder/process/872x456/powerlite-photonova-eftervard.webp',
     image_alt: 'Eftervård för Powerlite Photonova',
     image_title: 'Eftervård för Powerlite Photonova',
     content: '<p class="p200">Eftervården är en viktigt del av Powerlite Photonova processen för att säkerställa ett bra resultat och en effektiv återhämtningsprocess. Efter behandlingen är det vanligt att uppleva en viss rodnad och svullnad i det behandlade området. För att minska risken för irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>

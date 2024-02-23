@@ -73,16 +73,16 @@ $description_text = '<p class="p200">Microdermabrasion på AcneSpecialisten är 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför Microdermabrasion',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/mimass-forberedelser.webp',
+        image_large: '/bilder/process/872x456/Microdermabrasion-processen-forberedelser.webp',
         image_alt: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         image_title: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         content: '<p class="p200">När du förbereder dig för din Microdermabrasion-behandling hos AcneSpecialisten, är det viktigt att ta vissa steg för att din hud ska vara i bästa möjliga skick. För att säkerställa att du är fullständigt informerad och bekväm med processen, erbjuder vi en konsultation där vi går igenom allt du behöver veta inför din Microdermabrasion-behandling. Under konsultationen kommer vi att diskutera din hudtyp, eventuella specifika bekymmer och vad du kan förvänta dig av behandlingen. Detta är också ett utmärkt tillfälle för dig att ställa frågor och uttrycka eventuella funderingar. Vår prioritet är att du känner dig helt trygg och förberedd inför din behandling hos AcneSpecialisten.</p>',
     ),
     'process' => new Article(
         title: 'Processen för Microdermabrasion',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/mimass-process.webp',
+        image_large: '/bilder/process/872x456/mimass-process.webp',
         image_alt: 'Processen för Microdermabrasion',
         image_title: 'Processen för Microdermabrasion',
         content: '<p class="p200">Microdermabrasion-processen på AcneSpecialisten är en noggrant utformad behandling som syftar till att förbättra hudens kvalitet genom en skonsam men effektiv exfoliering. Behandlingen inleds med en grundlig rengöring av huden för att avlägsna smuts, olja och orenheter. Detta steg är viktigt för att förbereda huden för microdermabrasionen.</p>
@@ -94,8 +94,8 @@ $top_articles = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Microdermabrasion',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/mimass-eftervard.webp',
+    image_large: '/bilder/process/872x456/mimass-eftervard.webp',
     image_alt: 'Eftervård för Microdermabrasion',
     image_title: 'Eftervård för Microdermabrasion',
     content: '<p class="p200">Efter en Microdermabrasion-behandling hos AcneSpecialisten är det essentiellt att du följer våra eftervårdsinstruktioner för att säkerställa bästa möjliga resultat. Det är viktigt att behandla din hud med omsorg under de första dagarna efter behandlingen. Börja med att skydda huden från solen och använd ett högkvalitativt solskydd med hög SPF för att förebygga skador från UV-strålar.</p>

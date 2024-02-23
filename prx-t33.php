@@ -76,8 +76,8 @@ $description_text = '<p class="p200">PRX-T33, som erbjuds hos AcneSpecialisten, 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför PRX-T33-behandling',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/prx-t33-forberedelser.webp',
+        image_large: '/bilder/process/872x456/prx-t33-forberedelser.webp',
         image_alt: 'Förberedelser inför PRX-T33-behandling',
         image_title: 'Förberedelser inför PRX-T33-behandling',
         content: '<p class="p200">För att förbereda dig optimalt för din PRX-T33-behandling hos AcneSpecialisten, rekommenderar vi att du följer några enkla men viktiga steg. Börja med att undvika exfoliering av huden några dagar före din behandling. Eftersom PRX-T33 agerar djupt på huden, är det bäst att låta huden vara så orörd som möjligt innan peelingen.</p>
@@ -85,8 +85,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandling med PRX-T33 till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/prx-t33-process.webp',
+        image_large: '/bilder/process/872x456/prx-t33-process.webp',
         image_alt: 'Hur går behandling med PRX-T33 till?',
         image_title: 'Hur går behandling med PRX-T33 till?',
         content: '<p class="p200">På AcneSpecialisten tar vi hudvården till nästa nivå med PRX-T33, en innovativ kemisk peeling som är skräddarsydd för att återuppliva och förbättra din hud. Vi förstår att varje persons hud är unik, och därför är varje PRX-T33-behandling noggrant anpassad efter dina specifika behov och hudtillstånd.</p>
@@ -327,8 +327,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård vid PRX-T33',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/prx-t33-eftervard.webp',
+    image_large: '/bilder/process/872x456/prx-t33-eftervard.webp',
     image_alt: 'Eftervård vid PRX-T33',
     image_title: 'Eftervård vid PRX-T33',
     content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>

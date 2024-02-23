@@ -51,8 +51,8 @@ $description_text = '<p class="p200">Harmony XL Pro på AcneSpecialisten är en 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Harmony XL Pro',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/alma-harmony-xl-pro-forberedelser.webp',
+        image_large: '/bilder/process/872x456/alma-harmony-xl-pro-forberedelser.webp',
         image_alt: 'Förberedelser inför Alma Harmony XL Pro',
         image_title: 'Förberedelser inför Alma Harmony XL Pro',
         content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
@@ -61,8 +61,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandling med Harmony XL Pro till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/alma-harmony-xl-pro-process.webp',
+        image_large: '/bilder/process/872x456/alma-harmony-xl-pro-process.webp',
         image_alt: 'Hur går behandling med Harmony XL Pro till?',
         image_title: 'Hur går behandling med Harmony XL Pro till?',
         content: '<p class="p200">Harmony XL Pro-behandlingen på AcneSpecialisten är en sofistikerad metod för att effektivt adressera och behandla en rad hudåkommor. Din session börjar med en grundlig rengöring av huden för att optimera förberedelserna inför laserns applicering.</p>
@@ -328,8 +328,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Harmony XL Pro',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/alma-harmony-xl-pro-eftervard.webp',
+    image_large: '/bilder/process/872x456/alma-harmony-xl-pro-eftervard.webp',
     image_alt: 'Eftervård för Harmony XL Pro',
     image_title: 'Eftervård för Harmony XL Pro',
     content: '<p class="p200">Att följa rätt eftervård är avgörande för att maximera effekten av din Harmony XL Pro-laserbehandling hos AcneSpecialisten. Efter behandlingen är det normalt att uppleva en viss rodnad och svullnad i det behandlade området. Vi råder dig att inte röra området med orena händer och att undvika makeup under de första 24 timmarna för att minska risken för irritation och infektioner.</p>

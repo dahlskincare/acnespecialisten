@@ -50,8 +50,8 @@ $description_text = '<p class="p200">Skin Tech representerar en innovativ kollek
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med Skin Tech',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/skin-tech-forberedelser.webp',
+        image_large: '/bilder/process/872x456/skin-tech-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med Skin Tech',
         image_title: 'Förberedelser inför behandling med Skin Tech',
         content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
@@ -59,8 +59,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandlingar med Skin Tech till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/skin-tech-process.webp',
+        image_large: '/bilder/process/872x456/skin-tech-process.webp',
         image_alt: 'Hur går behandlingar med Skin Tech till?',
         image_title: 'Hur går behandlingar med Skin Tech till?',
         content: '<p class="p200">Hos AcneSpecialisten erbjuder vi Skin Techs avancerade kemiska peelingbehandlingar, skräddarsydda för att möta en rad olika hudproblem. Vi förstår att varje klients hud är unik och anpassar därför varje behandling individuellt. Våra erfarna hudterapeuter kombinerar sin expertis med Skin Techs innovativa metoder för att leverera exceptionella resultat.</p>
@@ -382,8 +382,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Skin Techs eftervård',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/skin-tech-eftervard.webp',
+    image_large: '/bilder/process/872x456/skin-tech-eftervard.webp',
     image_alt: 'Skin Techs eftervård',
     image_title: 'Skin Techs eftervård',
     content: '<p class="p200">Att följa rätt eftervårdsrutin är kritiskt efter en kemisk peeling med Skin Tech för att säkerställa de bästa och mest hållbara resultaten. En korrekt eftervårdsplan hjälper inte bara din hud att återhämta sig efter behandlingen, utan främjar även en fortsatt hudförbättring.</p>

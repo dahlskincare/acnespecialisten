@@ -75,12 +75,22 @@ $description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Infuzion',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/infuzion-forberedelser.webp',
+        image_large: '/bilder/process/872x456/infuzion-forberedelser.webp',
         image_alt: 'Förberedelser inför Infuzion',
         image_title: 'Förberedelser inför Infuzion',
         content: '<p class="p200"><p class="p200">Inför din Infuzion-behandling hos AcneSpecialisten finns några enkla förberedelser som kan hjälpa till att maximera effekten av behandlingen. Vi rekommenderar att du undviker användning av starka hudvårdsprodukter och exfolierande syror några dagar före din session. Detta minskar risken för hudirritation och gör din hud mer mottaglig för behandlingen.</p>
         <p class="p200 mt-m">Medan det inte är ett krav att komma utan makeup, kan det vara fördelaktigt att ha ett rent ansikte vid din ankomst. Detta gör det möjligt för våra hudterapeuter att göra en mer exakt hudanalys och anpassa behandlingen effektivt efter dina behov. Oavsett om du väljer att komma osminkad eller inte, ser vi fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan som passar din hudtyp och dina specifika hudproblem.</p>',
+    ),
+    'process' => new Article(
+        title: 'Hur går behandlingen med Infuzion till?',
+        image_small: '/bilder/process/358x272/infuzion-process.webp',
+        image_large: '/bilder/process/872x456/infuzion-process.webp',
+        image_alt: 'Hur går behandlingen med Infuzion till?',
+        image_title: 'Hur går behandlingen med Infuzion till?',
+        content: '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men utan användning av nålar. Behandlingen börjar med en noggrann rengöring av det valda området - ansikte, hals, dekolletage eller händer - för att förbereda huden för serumets applicering.</p>
+        <p class="p200 mt-m">Vi använder Cytocare 532, ett serum som innehåller hyaluronsyra och 52 olika vitaminer och mineraler, vilket ger intensiv återfuktning och stimulerar produktionen av kroppens naturliga proteiner, elastin och kollagen. Serumet appliceras med en specialroller och galvanisk ström, vilket gör att det kan nå upp till 3mm djup i huden, påverkande varje enskild cell och komma nära ögon och andra känsliga områden.</p>
+        <p class="p200 mt-m">Behandlingen avslutas med en lugnande och återfuktande process för att maximera komfort och effekt. För att uppnå bästa resultat rekommenderas tre behandlingar med en veckas mellanrum. Därefter räcker det med en uppföljningsbehandling var sjätte månad för att bibehålla effekterna. Infuzion är en idealisk behandling för dem som önskar en fylligare, elastisk och strålande hud utan nålstick eller lång återhämtningsperiod.</p>',
     ),
 );
 
@@ -188,16 +198,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'process' => new Article(
-        title: 'Hur går behandlingen med Infuzion till?',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Hur går behandlingen med Infuzion till?',
-        image_title: 'Hur går behandlingen med Infuzion till?',
-        content: '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men utan användning av nålar. Behandlingen börjar med en noggrann rengöring av det valda området - ansikte, hals, dekolletage eller händer - för att förbereda huden för serumets applicering.</p>
-        <p class="p200 mt-m">Vi använder Cytocare 532, ett serum som innehåller hyaluronsyra och 52 olika vitaminer och mineraler, vilket ger intensiv återfuktning och stimulerar produktionen av kroppens naturliga proteiner, elastin och kollagen. Serumet appliceras med en specialroller och galvanisk ström, vilket gör att det kan nå upp till 3mm djup i huden, påverkande varje enskild cell och komma nära ögon och andra känsliga områden.</p>
-        <p class="p200 mt-m">Behandlingen avslutas med en lugnande och återfuktande process för att maximera komfort och effekt. För att uppnå bästa resultat rekommenderas tre behandlingar med en veckas mellanrum. Därefter räcker det med en uppföljningsbehandling var sjätte månad för att bibehålla effekterna. Infuzion är en idealisk behandling för dem som önskar en fylligare, elastisk och strålande hud utan nålstick eller lång återhämtningsperiod.</p>',
-    ),
     'boost' => new Article(
         title: 'Multifuzion - Infuzion + Microneedling',
         image_small: null,
@@ -210,8 +210,8 @@ $bottom_articles = array(
     ),
     'aftercare' => new Article(
         title: 'Eftervård för Infuzion & Multifuzion',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/infuzion-eftervard.webp',
+        image_large: '/bilder/process/872x456/infuzion-eftervard.webp',
         image_alt: 'Eftervård för Infuzion & Multifuzion',
         image_title: 'Eftervård för Infuzion & Multifuzion',
         content: '<p class="p200">Eftervård är en väsentlig del av din Infuzion och Multifuzion behandling hos AcneSpecialisten. För att upprätthålla och maximera behandlingens fördelar, är det viktigt att du följer en anpassad hudvårdsrutin. Efter en Infuzion eller Multifuzion behandling kan huden vara extra mottaglig för näring och hydrering, därför är det avgörande att ge den rätt vård för att underlätta återhämtningen och förstärka resultaten.</p>

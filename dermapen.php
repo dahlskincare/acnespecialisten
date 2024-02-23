@@ -60,8 +60,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Dermapen behandlingsprocess',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/dermapen-forberedelser.webp',
+        image_large: '/bilder/process/872x456/dermapen-forberedelser.webp',
         image_alt: 'Dermapen behandlingsprocess',
         image_title: 'Dermapen behandlingsprocess',
         content: '<p class="p200">En Dermapen-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
@@ -69,8 +69,8 @@ $top_articles = array(
     ),
     'boost' => new Article(
         title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/dermapen-process.webp',
+        image_large: '/bilder/process/872x456/dermapen-process.webp',
         image_alt: 'Boosta Dermapen-behandling effekten med PRX-T33',
         image_title: 'Dermapen-behandling effekten med PRX-T33',
         content: '<p class="p200">För att ta din Dermapen-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
@@ -343,8 +343,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter Dermapen behandling',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/dermapen-eftervard.webp',
+    image_large: '/bilder/process/872x456/dermapen-eftervard.webp',
     image_alt: 'Efter Dermapen behandling',
     image_title: 'Efter Dermapen behandling',
     content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Dermapenbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är essentiellt att hålla behandlingsområdet rent och avstå från att applicera makeup under det första dygnet för att minska risken för infektioner och irritation.</p>

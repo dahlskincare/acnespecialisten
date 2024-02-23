@@ -51,8 +51,8 @@ $description_text = '<p class="p200">Alma Hybrid på AcneSpecialisten represente
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Alma Hybrid',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/alma-hybrid-forberedelser.webp',
+        image_large: '/bilder/process/872x456/alma-hybrid-forberedelser.webp',
         image_alt: 'Förberedelser inför Alma Hybrid',
         image_title: 'Förberedelser inför Alma Hybrid',
         content: '<p class="p200">Inför din Alma Hybrid-behandling hos AcneSpecialisten, erbjuder vi en kostnadsfri konsultation. Under denna session kommer vi att gå igenom behandlingsprocessen i detalj och skapa en personlig behandlingsplan för att uppnå bästa möjliga resultat. Det är ett viktigt steg för att säkerställa att du är fullständigt informerad och bekväm med behandlingen.</p>
@@ -61,8 +61,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandling med Alma Hybrid till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/alma-hybrid-process.webp',
+        image_large: '/bilder/process/872x456/alma-hybrid-process.webp',
         image_alt: 'Hur går behandling med Alma Hybrid till?',
         image_title: 'Hur går behandling med Alma Hybrid till?',
         content: '<p class="p200">Att genomgå en Alma Hybrid-behandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla problemhy. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserterapin.</p>
@@ -468,8 +468,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Alma Hybrid',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/alma-hybrid-eftervard.webp',
+    image_large: '/bilder/process/872x456/alma-hybrid-eftervard.webp',
     image_alt: 'Eftervård för Alma Hybrid',
     image_title: 'Eftervård för Alma Hybrid',
     content: '<p class="p200">Efter din Alma Hybrid-laserbehandling är det viktigt att noggrant följa våra eftervårdsinstruktioner för att främja en snabb och effektiv läkningsprocess. Du kan förvänta dig en viss rodnad och svullnad i det behandlade området, vilket är en normal reaktion på behandlingen. För att undvika irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att använda makeup under de första 24 timmarna.</p>

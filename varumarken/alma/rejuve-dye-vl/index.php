@@ -51,8 +51,8 @@ $description_text = '<p class="p200">Alma Rejuve Dye-VL representerar en special
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Rejuve Dye-VL',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/rejuve-forberedelser.webp',
+        image_large: '/bilder/process/872x456/rejuve-forberedelser.webp',
         image_alt: 'Förberedelser inför Rejuve Dye-VL',
         image_title: 'Förberedelser inför Rejuve Dye-VL',
         content: '<p class="p200">Förberedelserna inför en Rejuve Dye-VL-behandling är avgörande för att din hud ska vara i optimalt skick för behandlingen. Det första steget är en konsultation med en erfaren hudterapeut, där din hudtyp och specifika behov noggrant analyseras. Här skapas en personligt anpassad behandlingsplan med Dye-VL-tekniken för att säkerställa bästa möjliga resultat.</p>
@@ -60,8 +60,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går en Rejuve Dye-VL behandling till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/rejuve-process.webp',
+        image_large: '/bilder/process/872x456/rejuve-process.webp',
         image_alt: 'Hur går en Rejuve Dye-VL behandling till?',
         image_title: 'Hur går en Rejuve Dye-VL behandling till?',
         content: '<p class="p200">Rejuve Dye-VL-behandling är en framstående metod för att förbättra hudens utseende, speciellt anpassad för att korrigera problem som pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik börjar vi med att rengöra din hud grundligt för att avlägsna alla spår av makeup och orenheter. Ett speciellt skydd placeras över dina ögon för att skydda dem från det intensiva ljuset under behandlingen.</p>
@@ -334,8 +334,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter behandling med Rejuve Dye-VL',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/rejuve-eftervard.webp',
+    image_large: '/bilder/process/872x456/rejuve-eftervard.webp',
     image_alt: 'Efter behandling med Rejuve Dye-VL',
     image_title: 'Efter behandling med Rejuve Dye-VL',
     content: '<p class="p200">Eftervården är en viktig del av processen efter en Rejuve Dye-VL-behandling för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>

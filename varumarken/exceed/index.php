@@ -51,8 +51,8 @@ $description_text = '<p class="p200">Exceed är en toppmodern behandling som pas
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med Exceed',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/exceed-forberedelser.webp',
+        image_large: '/bilder/process/872x456/exceed-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med Exceed',
         image_title: 'Förberedelser inför behandling med Exceed',
         content: '<p class="p200">För att få så bra resultat av Exceed som möjligt rekommenderar vi alltid att man börjar med en detaljerad konsultation hos en av våra hudterapeuter. Konsultationen innebär en djupgående hudanalys där vi identifierar dina specifika behov och eventuella hudproblem. Denna initiala bedömning är avgörande för att skräddarsy en behandlingsplan som är unikt anpassad efter din huds egna förutsättningar.</p>
@@ -60,20 +60,12 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Exceed behandlingsprocess',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/exceed-process.webp',
+        image_large: '/bilder/process/872x456/exceed-process.webp',
         image_alt: 'Exceed behandlingsprocess',
         image_title: 'Exceed behandlingsprocess',
         content: '<p class="p200">Exceed-behandlingen är en innovativ metod inom mikronålning som effektivt jobbar för att revitalisera och förbättra din huds struktur och utseende. Vid ankomst till vår klinik påbörjar vi processen med en omfattande rengöring av ditt ansikte för att avlägsna orenheter och smuts, vilket förbereder huden för behandlingen.</p>
         <p class="p200 mt-m">Under behandlingen använder vi Exceed-apparaten som är försedd med fina, sterila mikronålar. Denna apparat används för att skapa kontrollerade mikro-perforeringar i huden, vilket startar hudens naturliga läkningsmekanismer. Genom dessa mikro-skador stimuleras produktionen av kollagen och elastin, vitala komponenter för hudens ungdomlighet och spänst. Specifikt utformade serum appliceras under proceduren för att ytterligare nära huden och stödja den helande processen. Efter behandlingen kan du uppleva en lätt rodnad och svullnad, vilket är normala tecken på att hudens återhämtning är i gång. Över tid leder behandlingen till att huden blir jämnare, stramare och får en förhöjd lyster.</p>',
-    ),
-    'boost' => new Article(
-        title: 'Boosta din Exceed-behandling med PRX-T33-behandling',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Boosta Exceed-behandling effekten med PRX-T33',
-        image_title: 'Exceed-behandling effekten med PRX-T33',
-        content: '<p class="p200">För att maximera effekterna av din Exceed-behandling, kan du välja att addera en PRX-T33 booster, vilket är en avancerad behandlingsform som förstärker och fördjupar de föryngrande resultaten. Denna unika förstärkningsbehandling kompletterar Exceed genom att stimulera huden utan nålar och erbjuder en effektiv förbättring utan behovet av återhämtningsperiod. PRX-T33 arbetar på hudens yta för att ge en omedelbar uppstramande effekt och förbättrar hudtonen, medan Exceed arbetar i hudens djupare lager för att stimulera långvarig kollagenproduktion. Tillsammans skapar de en omfattande behandlingsupplevelse som dramatiskt minskar fina linjer, utjämnar hudtonen och ger en övergripande förfinad hudstruktur för en ungdomligare och mer strålande hud.</p>',
     ),
 );
 
@@ -147,16 +139,26 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård Exceed behandling',
-    image_small: null,
-    image_large: null,
-    image_alt: 'Eftervård Exceed behandling',
-    image_title: 'Eftervård Exceed behandling',
-    content: '<p class="p200">Eftervården är avgörande för att säkerställa bästa möjliga resultat från din Exceed-behandling. En lätt rodnad och svullnad är vanliga reaktioner efter behandlingen, och det är kritiskt att du håller det behandlade området rent och undviker att applicera smink under de första 24 timmarna för att minimera risken för infektion och irritation.</p>
-    <p class="p200 mt-m">Det är även rekommenderat att du avstår från aktiviteter som intensiv fysisk träning, besök i bastu, och varma duschar de första dagarna efter behandlingen, eftersom detta kan öka svullnad och irritation. Användning av hög SPF-solskydd är essentiellt för att skydda den känsliga huden mot solens strålar post-behandling.</p>
-    <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som din hudterapeut ger dig, och tveka inte att kontakta din klinik om du har några frågor eller funderingar angående återhämtningen. Beroende på din huds respons på behandlingen kan ytterligare uppföljningar och sessioner rekommenderas för att nå dina hudvårds mål.</p>',
-));
+$bottom_articles = array(
+    'boost' => new Article(
+        title: 'Boosta din Exceed-behandling med PRX-T33-behandling',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Boosta Exceed-behandling effekten med PRX-T33',
+        image_title: 'Exceed-behandling effekten med PRX-T33',
+        content: '<p class="p200">För att maximera effekterna av din Exceed-behandling, kan du välja att addera en PRX-T33 booster, vilket är en avancerad behandlingsform som förstärker och fördjupar de föryngrande resultaten. Denna unika förstärkningsbehandling kompletterar Exceed genom att stimulera huden utan nålar och erbjuder en effektiv förbättring utan behovet av återhämtningsperiod. PRX-T33 arbetar på hudens yta för att ge en omedelbar uppstramande effekt och förbättrar hudtonen, medan Exceed arbetar i hudens djupare lager för att stimulera långvarig kollagenproduktion. Tillsammans skapar de en omfattande behandlingsupplevelse som dramatiskt minskar fina linjer, utjämnar hudtonen och ger en övergripande förfinad hudstruktur för en ungdomligare och mer strålande hud.</p>',
+    ),
+    'aftercare' => new Article(
+        title: 'Eftervård Exceed behandling',
+        image_small: '/bilder/process/358x272/exceed-eftervard.webp',
+        image_large: '/bilder/process/872x456/exceed-eftervard.webp',
+        image_alt: 'Eftervård Exceed behandling',
+        image_title: 'Eftervård Exceed behandling',
+        content: '<p class="p200">Eftervården är avgörande för att säkerställa bästa möjliga resultat från din Exceed-behandling. En lätt rodnad och svullnad är vanliga reaktioner efter behandlingen, och det är kritiskt att du håller det behandlade området rent och undviker att applicera smink under de första 24 timmarna för att minimera risken för infektion och irritation.</p>
+        <p class="p200 mt-m">Det är även rekommenderat att du avstår från aktiviteter som intensiv fysisk träning, besök i bastu, och varma duschar de första dagarna efter behandlingen, eftersom detta kan öka svullnad och irritation. Användning av hög SPF-solskydd är essentiellt för att skydda den känsliga huden mot solens strålar post-behandling.</p>
+        <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som din hudterapeut ger dig, och tveka inte att kontakta din klinik om du har några frågor eller funderingar angående återhämtningen. Beroende på din huds respons på behandlingen kan ytterligare uppföljningar och sessioner rekommenderas för att nå dina hudvårds mål.</p>',
+    ),
+);
 
 $service_brands_title = 'Andra märken för microneedling';
 $service_brands_text = '<p class="p200">Utöver exceed utför vi även microneeding med Dermapen.</p>';

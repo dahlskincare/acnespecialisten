@@ -50,8 +50,8 @@ $description_text = '<p class="p200">Splendor X står i frontlinjen för innovat
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Splendor X',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/splendor-x-forberedelser.webp',
+        image_large: '/bilder/process/872x456/splendor-x-forberedelser.webp',
         image_alt: 'Förberedelser inför Splendor X',
         image_title: 'Förberedelser inför Splendor X',
         content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället bör du raka området noggrant dagen före din behandling.</p>
@@ -59,8 +59,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandling med Splendor X till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/splendor-x-process.webp',
+        image_large: '/bilder/process/872x456/splendor-x-process.webp',
         image_alt: 'Hur går behandlingen med Splendor X till?',
         image_title: 'Hur går behandlingen med Splendor X till?',
         content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Detta ljus absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme skadar effektivt folliklarna utan att skada omgivande vävnad, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
@@ -418,8 +418,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Splendor X eftervård',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/splendor-x-eftervard.webp',
+    image_large: '/bilder/process/872x456/splendor-x-eftervard.webp',
     image_alt: 'Splendor X eftervård',
     image_title: 'Splendor X eftervård',
     content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>

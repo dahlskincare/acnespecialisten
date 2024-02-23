@@ -50,8 +50,8 @@ $description_text = '<p class="p200">HydraFacial är en innovativ och skonsam hu
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför HydraFacial',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/hydrafacial-forberedelser.webp',
+        image_large: '/bilder/process/872x456/hydrafacial-forberedelser.webp',
         image_alt: 'Förberedelse inför HydraFaciala ansiktsbehandlingar',
         image_title: 'Förberedelse inför HydraFaciala ansiktsbehandlingar',
         content: '<p class="p200">Inför din HydraFacial-behandling hos AcneSpecialisten är det viktigt att förbereda huden för att optimera behandlingens effekt. Vi rekommenderar att du undviker starka hudvårdsprodukter, såsom exfolierande syror eller retinol, några dagar före din session. Detta hjälper till att minska risken för hudirritation och gör huden mer mottaglig för behandlingen.</p>
@@ -59,8 +59,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Processen för HydraFacial',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/hydrafacial-process.webp',
+        image_large: '/bilder/process/872x456/hydrafacial-process.webp',
         image_alt: 'Processen för HydraFacial',
         image_title: 'Processen för HydraFacial',
         content: '<p class="p200">En HydraFacial-behandling hos AcneSpecialisten börjar med en grundlig rengöring av huden för att avlägsna smuts och orenheter. Detta första steg är viktigt för att förbereda huden för behandlingens nästa faser.</p>
@@ -193,8 +193,8 @@ $big_types = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för HydraFacial',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/hydrafacial-eftervard.webp',
+    image_large: '/bilder/process/872x456/hydrafacial-eftervard.webp',
     image_alt: 'Eftervård för HydraFacial',
     image_title: 'Eftervård för HydraFacial',
     content: '<p class="p200">Efter din HydraFacial-behandling hos AcneSpecialisten är det viktigt att noggrant följa eftervårdsinstruktioner för att bibehålla och förlänga behandlingens positiva effekter. Direkt efter behandlingen ska huden behandlas varsamt. Undvik stark sol och använd ett högkvalitativt solskydd med hög SPF för att skydda huden från UV-strålar.</p>
