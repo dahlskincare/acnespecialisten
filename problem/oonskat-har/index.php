@@ -268,7 +268,7 @@ $faq_categories = array(
       'Generellt om oönskat hår' => array(
             new Question(
                   title: 'Vad är oönskat hår och varför uppstår det?',
-                  text: '<p class="p200">Oönskat hår, även känd som överflödig hårväxt, kan uppstå av olika anledningar som genetik, hormonella obalanser eller vissa medicinska tillstånd. Det kan visa sig på olika delar av kroppen där man normalt inte önskar hårväxt, som ansiktet, bröstet, eller ryggen.</p>'
+                  text: '<p class="p200">Oönskat hår är allt hår på kroppen som inte är önsksvärt, som kan uppstå av olika anledningar som genetik, hormonella obalanser eller vissa medicinska tillstånd. Det kan visa sig på olika delar av kroppen där man normalt inte önskar hårväxt, som ansiktet, bröstet, eller ryggen.</p>'
             ),
             new Question(
                   title: 'Vilka är de mest effektiva professionella behandlingarna för att permanent minska oönskat hår?',
@@ -280,7 +280,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Kan oönskat hår orsaka hudproblem?',
-                  text: '<p class="p200">Oönskat hår i sig orsakar sällan hudproblem, men de metoder som används för att ta bort det kan ibland leda till hudirritation, inåtväxande hår, och andra hudåkommor. Det är viktigt att följa rätt tekniker och hudvård efter hårborttagning.</p>'
+                  text: '<p class="p200">Oönskat hår i sig orsakar sällan hudproblem, men de metoder som används för att ta bort det kan ibland leda till hudirritation, inåtväxande hår, och andra hudåkommor. Genom att behandla hårväxten med laser kan vi få bort den utan att orsaka dessa bieffekter.</p>'
             ),
             new Question(
                   title: 'Hur viktig är eftervård post hårborttagningsbehandling?',
