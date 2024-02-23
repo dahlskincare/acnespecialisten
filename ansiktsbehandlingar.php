@@ -31,7 +31,7 @@ $model = new Service(
 $floating_box = 'Klassiska ansiktsbehandlingar som passar alla.';
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot problemhy',
+    'about' => 'Om ansiktsbehandlingar',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -52,8 +52,8 @@ $description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grunds
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ansiktsbehandlingar-forberedelser.webp',
+        image_large: '/bilder/process/872x456/ansiktsbehandlingar-forberedelser.webp',
         image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
         image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
         content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
@@ -61,8 +61,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Processen för klassiska ansiktsbehandlingar',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ansiktsbehandlingar-process.webp',
+        image_large: '/bilder/process/872x456/ansiktsbehandlingar-process.webp',
         image_alt: 'Processen för klassiska ansiktsbehandlingar',
         image_title: 'Processen för klassiska ansiktsbehandlingar',
         content: '<p class="p200">Hos AcneSpecialisten anpassas varje ansiktsbehandling efter den specifika behandling du väljer, men det finns vissa gemensamma steg som ingår i de flesta av våra klassiska ansiktsbehandlingar. Behandlingen inleds alltid med en rengöring av huden för att avlägsna smuts, talg och orenheter. Detta förbereder huden för de följande stegen och säkerställer att den kan dra nytta av de produkter och metoder som används.</p>
@@ -288,8 +288,8 @@ $big_types = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård och underhåll',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/ansiktsbehandlingar-eftervard.webp',
+    image_large: '/bilder/process/872x456/ansiktsbehandlingar-eftervard.webp',
     image_alt: 'Eftervård och underhåll',
     image_title: 'Eftervård och underhåll',
     content: '<p class="p200">Våra klassiska ansiktsbehandlingar erbjuder en grundlig rengöring och uppfräschning av huden. Efter din behandling är det viktigt att följa några enkla eftervårdsinstruktioner för att bibehålla resultatet. Undvik starkt solsken och använd en hög SPF för att skydda huden. Vi rekommenderar också att du undviker tung makeup och hudirriterande ämnen de första 24 timmarna efter behandlingen. Fortsätt att återfukta huden väl och använd de produkter som rekommenderats av din hudterapeut för att stödja hudens läkning och förbättring.</p>

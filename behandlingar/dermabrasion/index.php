@@ -55,8 +55,8 @@ $description_text = '<p class="p200">Dermabrasion är en djupgående hudföryngr
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför dermabrasion',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/dermabrasion-forberedelser.webp',
+        image_large: '/bilder/process/872x456/dermabrasion-forberedelser.webp',
         image_alt: 'Förberedelse inför dermabrasion',
         image_title: 'Förberedelse inför dermabrasion',
         content: '<p class="p200">Inför din dermabrasion-behandling på AcneSpecialisten är det viktigt att förbereda huden för att maximera resultatet. Vi rekommenderar att du undviker att använda starka hudvårdsprodukter, såsom exfolierande syror, några dagar innan behandlingen. Detta för att minska risken för irritation och göra huden mer mottaglig för behandlingen.</p>
@@ -64,8 +64,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Processen för dermabrasion',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/dermabrasion-process.webp',
+        image_large: '/bilder/process/872x456/dermabrasion-process.webp',
         image_alt: 'Processen för dermabrasion',
         image_title: 'Processen för dermabrasion',
         content: '<p class="p200">Vid en dermabrasion-behandling på AcneSpecialisten inleds sessionen med att noggrant rengöra huden för att eliminera smuts, olja och andra orenheter. Denna rengöringsprocess är avgörande för att säkerställa att huden är fullständigt förberedd för dermabrasionens exfolierande effekter.</p>
@@ -236,8 +236,8 @@ $big_types = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Dermabrasion',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/dermabrasion-eftervard.webp',
+    image_large: '/bilder/process/872x456/dermabrasion-eftervard.webp',
     image_alt: 'Eftervård för Dermabrasion',
     image_title: 'Eftervård för Dermabrasion',
     content: '<p class="p200">Efter din dermabrasion-behandling är det avgörande att följa rätt eftervårdsrutiner för att säkerställa och förlänga resultaten. Det är viktigt att vara extra försiktig med huden direkt efter behandlingen. Undvik direkt exponering för solen och applicera solskydd med hög SPF för att skydda den behandlade huden. Det är också klokt att avstå från att använda irriterande hudprodukter under de första 24 timmarna.</p>

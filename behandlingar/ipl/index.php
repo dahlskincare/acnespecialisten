@@ -55,8 +55,8 @@ $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Lj
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med IPL',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-forberedelser.webp',
+        image_large: '/bilder/process/872x456/ipl-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med IPL',
         image_title: 'Förberedelser inför behandling med IPL',
         content: '<p class="p200">Inför en IPL-behandling är det viktigt att följa några grundläggande steg för att säkerställa att din hud är i bästa möjliga skick och redo för behandlingen. En konsultation med en erfaren hudterapeut är det första steget, där hudens kondition noggrant analyseras och en individuell behandlingsplan utformas för att uppnå optimala resultat med IPL-tekniken.</p>
@@ -64,8 +64,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går en IPL behandling till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-process.webp',
+        image_large: '/bilder/process/872x456/ipl-process.webp',
         image_alt: 'Hur går en IPL behandling till?',
         image_title: 'Hur går en IPL behandling till?',
         content: '<p class="p200">IPL-behandling är en effektiv metod för hudföryngring och korrigering av olika hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du anländer till vår klinik, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter. Därefter appliceras ett särskilt skydd på dina ögon för att säkerställa att de inte utsätts för det intensiva ljuset.</p>
@@ -338,8 +338,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter IPL-behandling',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/ipl-eftervard.webp',
+    image_large: '/bilder/process/872x456/ipl-eftervard.webp',
     image_alt: 'Efter IPL-behandling',
     image_title: 'Efter IPL-behandling',
     content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller parfymerade produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>

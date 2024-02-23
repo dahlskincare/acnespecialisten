@@ -56,8 +56,8 @@ $description_text = '<p class="p200">Injektionsbehandlingar på AcneSpecialisten
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelse inför injektionsbehandlingar',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/injektioner-forberedelser.webp',
+        image_large: '/bilder/process/872x456/injektioner-forberedelser.webp',
         image_alt: 'Förberedelse inför injektionsbehandlingar',
         image_title: 'Förberedelse inför injektionsbehandlingar',
         content: '<p class="p200">På AcneSpecialisten är en grundlig konsultation ett essentiellt första steg inför din injektionsbehandling. Denna process, som inkluderar en 48 timmars betänketid, är avgörande för att säkerställa att behandlingen är anpassad efter dina specifika behov och önskemål. Under konsultationen diskuterar vi dina mål, förväntningar och eventuella tidigare erfarenheter av liknande behandlingar.</p>
@@ -65,8 +65,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går injektionsbehandlingar till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/injektioner-process.webp',
+        image_large: '/bilder/process/872x456/injektioner-process.webp',
         image_alt: 'Hur går injektionsbehandlingar till?',
         image_title: 'Hur går injektionsbehandlingar till?',
         content: '<p class="p200">Behandlingen börjar med en noggrann rengöring av det område som ska behandlas. Därefter markerar vår erfarna personal de specifika områdena som ska behandlas för att säkerställa precision och effektivitet. Behandlingen utförs med största noggrannhet, där vi använder injektionstekniker som uppfyller dina estetiska önskemål samtidigt som vi minimerar obehag.</p>
@@ -574,8 +574,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård och underhåll efter injektionsbehandlingar',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/injektioner-eftervard.webp',
+    image_large: '/bilder/process/872x456/injektioner-eftervard.webp',
     image_alt: 'Eftervård och underhåll efter injektionsbehandlingar',
     image_title: 'Eftervård och underhåll efter injektionsbehandlingar',
     content: '<p class="p200">Efter din injektionsbehandling är det viktigt att du följer några grundläggande eftervårdsanvisningar för att upprätthålla och maximera resultatet. Direkt efter behandlingen bör du undvika intensiv sol och använda solskydd med hög SPF för att skydda behandlingsområdet. Det är också rekommenderat att undvika tung makeup och produkter som kan irritera huden under de första 24 timmarna.</p>

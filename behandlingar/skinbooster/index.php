@@ -80,8 +80,8 @@ $description_text = '<p class="p200">Skinbooster är en innovativ behandling som
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Skinbooster',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/skinbooster-forberedelser.webp',
+        image_large: '/bilder/process/872x456/skinbooster-forberedelser.webp',
         image_alt: 'Förberedelser inför Skinbooster',
         image_title: 'Förberedelser inför Skinbooster',
         content: '<p class="p200">För att förbereda dig inför din Skinbooster-behandling hos AcneSpecialisten, rekommenderar vi några enkla steg. Minska användningen av hudvårdsprodukter med starka aktiva ingredienser, som exfolierande syror, några dagar före din behandling. Detta minskar risken för irritation och förbereder din hud för att effektivt ta emot de näringsrika ingredienserna i behandlingen.</p>
@@ -89,8 +89,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går Skinbooster behandlingen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/skinbooster-process.webp',
+        image_large: '/bilder/process/872x456/skinbooster-process.webp',
         image_alt: 'Hur går Skinbooster behandlingen till?',
         image_title: 'Hur går Skinbooster behandlingen till?',
         content: '<p class="p200">Skinbooster är en innovativ behandling som erbjuder de fördelar man finner i både fillers och skinboosters, men helt utan användning av nålar. Denna skonsamma men effektiva behandling passar perfekt för att förbättra hudens utseende och kvalitet på ansiktet, halsen, dekolletaget eller händerna.</p>
@@ -215,8 +215,8 @@ $bottom_articles = array(
     ),
     'aftercare' => new Article(
         title: 'Eftervård för Skinbooster',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/skinbooster-eftervard.webp',
+        image_large: '/bilder/process/872x456/skinbooster-eftervard.webp',
         image_alt: 'Eftervård för Skinbooster',
         image_title: 'Eftervård för Skinbooster',
         content: '<p class="p200">Eftervård är en kritisk aspekt för att uppnå optimala resultat från din Infuzion skinbooster och Multifuzion behandlingar hos AcneSpecialisten. Efter dessa behandlingar är din hud mer mottaglig för vård och näring, och det är därför viktigt att ge den rätt behandling för att stödja återhämtningen och optimera resultatet.</p>

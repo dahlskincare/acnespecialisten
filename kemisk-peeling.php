@@ -50,8 +50,8 @@ $description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten innefat
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför kemisk peeling',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/kemisk-peeling-forberedelser.webp',
+        image_large: '/bilder/process/872x456/kemisk-peeling-forberedelser.webp',
         image_alt: null,
         image_title: null,
         content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
@@ -59,8 +59,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går kemisk peeling behandlingar till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/kemisk-peeling-process.webp',
+        image_large: '/bilder/process/872x456/kemisk-peeling-process.webp',
         image_alt: null,
         image_title: null,
         content: '<p class="p200">På AcneSpecialisten erbjuder vi specialiserade kemiska peelingbehandlingar som är anpassade för att möta en mängd olika hudproblem. Vi förstår att varje persons hud är unik och skräddarsyr därför varje behandling för att passa just dina individuella behov och hudtillstånd. Våra erfarna hudterapeuter använder sin expertis och djupgående kunskap för att ge dig den bästa möjliga vård och resultat.</p>
@@ -415,8 +415,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för kemisk peeling',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/kemisk-peeling-eftervard.webp',
+    image_large: '/bilder/process/872x456/kemisk-peeling-eftervard.webp',
     image_alt: 'Eftervård för kemisk peeling',
     image_title: 'Eftervård för kemisk peeling',
     content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>

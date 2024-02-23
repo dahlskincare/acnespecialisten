@@ -51,8 +51,8 @@ $description_text = '<p class="p200">Permanent hårborttagning med laser represe
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför permanent hårborttagning',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/permanent-harborttagning-forberedelser.webp',
+        image_large: '/bilder/process/872x456/permanent-harborttagning-forberedelser.webp',
         image_alt: 'Förberedelser inför permanent hårborttagning',
         image_title: 'Förberedelser inför permanent hårborttagning',
         content: '<p class="p200">Förberedelserna inför permanent hårborttagning består av en konsultation som är en viktig del av processen för att uppnå bästa möjliga resultat. Denna behandling är skräddarsydd för att effektivt och säkert reducera oönskat hår på olika delar av kroppen. Innan din laserbehandling rekommenderar vi att du undviker att vaxa eller noppa hår i behandlingsområdet, eftersom laserenergin fokuserar på hårfolliklarna som måste vara intakta för effektiv behandling. Istället ska området rakas dagen innan behandlingen.</p>
@@ -60,8 +60,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandlingen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/permanent-harborttagning-process.webp',
+        image_large: '/bilder/process/872x456/permanent-harborttagning-process.webp',
         image_alt: 'Hur går behandlingen till?',
         image_title: 'Hur går behandlingen till?',
         content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket skadar folliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Behandlingen utförs med precision för att säkerställa optimal komfort och effektivitet.</p>
@@ -419,8 +419,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Permanent Hårborttagning',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/permanent-harborttagning-eftervard.webp',
+    image_large: '/bilder/process/872x456/permanent-harborttagning-eftervard.webp',
     image_alt: 'Eftervård för Permanent Hårborttagning',
     image_title: 'Eftervård för Permanent Hårborttagning',
     content: '<p class="p200">Efter en behandling med permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
