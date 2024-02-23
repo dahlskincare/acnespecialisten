@@ -51,8 +51,8 @@ $description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför CryoPenbehandling',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/cryopen-forberedelser.webp',
+        image_large: '/bilder/process/872x456/cryopen-forberedelser.webp',
         image_alt: 'Inför CryoPenbehandling',
         image_title: 'Inför CryoPenbehandling',
         content: '<p class="p200">Inför din CryoPen behandling erbjuder vi alltid en kostnadsfri konsultation där du möter en av våra erfarna hudterapeuter. Under konsultationen kommer din hudterapeut att noggrant undersöka de hudförändringar du önskar behandla. Detta steg är avgörande för att vi ska kunna utforma en behandlingsplan som är skräddarsydd för just dina hudproblem och för att besluta om CryoPen är den optimala metoden för dig.</p>
@@ -60,8 +60,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går CryoPen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/cryopen-process.webp',
+        image_large: '/bilder/process/872x456/cryopen-process.webp',
         image_alt: 'Hur går CryoPen till?',
         image_title: 'Hur går CryoPen till?',
         content: '<p class="p200">CryoPen behandling är en precisionsmetod för att frysa och avlägsna oönskade hudförändringar. Vid ankomst till vår klinik kommer vi att inleda med en grundlig rengöring av huden för att förbereda det aktuella området för behandling.</p>
@@ -331,8 +331,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Efter CryoPen',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/cryopen-eftervard.webp',
+    image_large: '/bilder/process/872x456/cryopen-eftervard.webp',
     image_alt: 'Efter CryoPen',
     image_title: 'Efter CryoPeng',
     content: '<p class="p200">Efter en CryoPen-behandling är korrekt eftervård avgörande för att säkerställa en effektiv läkning och undvika komplikationer. Direkt efter behandlingen kan området vara rött och svullet, vilket är normalt. Det är viktigt att skydda det behandlade området från att smutsas ner; undvik därför att röra det med händerna och att applicera smink inom de första 24 timmarna efter ingreppet.</p>
