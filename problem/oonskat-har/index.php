@@ -283,7 +283,7 @@ $faq_categories = array(
                   text: '<p class="p200">Oönskat hår i sig orsakar sällan hudproblem, men de metoder som används för att ta bort det kan ibland leda till hudirritation, inåtväxande hår, och andra hudåkommor. Genom att behandla hårväxten med laser kan vi få bort den utan att orsaka dessa bieffekter.</p>'
             ),
             new Question(
-                  title: 'Hur viktig är eftervård post hårborttagningsbehandling?',
+                  title: 'Hur viktig är eftervård efter hårborttagningsbehandling?',
                   text: '<p class="p200">Eftervård är mycket viktig för att minimera risken för biverkningar och maximera behandlingens effektivitet. Det kan innebära att undvika solen, applicera lugnande krämer eller geler, och undvika vissa hudvårdsprodukter eller aktiviteter som kan irritera behandlade områden.</p>'
             ),
       ),
