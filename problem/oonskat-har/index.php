@@ -106,7 +106,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför effektiva laserbehandlingar för permanent hårborttagning, anpassade för din hårtyp och hudton, så att du på ett säkert sätt kan bli av med oönskat hår för alltid.',
+            content: 'Vi utför effektiva laserbehandlingar för permanent hårborttagning, anpassade för din hårtyp och hudton, så att du på ett säkert sätt kan bli av med oönskat hår.',
 
             url_label: 'Se laserbehandlingar för hårborttagning',
             url: 'permanent-harborttagning.php',
