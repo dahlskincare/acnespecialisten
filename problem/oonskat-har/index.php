@@ -89,7 +89,7 @@ $trivias = array(
             title: 'får man oönskat hår?',
             content: '<p class="p200">Oönskat hår kan växa på nästan vilken del av kroppen som helst. Ett av de vanligaste områdena där kvinnor upplever oönskat hår är ansiktet. Detta omfattar överläppen, kinderna, hakan och området mellan näsan. Kvinnor som genomgår hormonella förändringar kan märka en markant ökning av hårväxt i dessa områden.</p>',
             extended_content: '<p class="p200 mt-xl">På kroppen upplever både män och kvinnor oönskat hår i områden som underarmarna, benen, armarna och ryggen. Bröst och mage är också vanliga områden där oönskat hår kan uppstå. Bikiniområdet är en annan plats där många kvinnor upplever ökad hårväxt, särskilt runt bikinilinjen. Denna ökade hårväxt kan vara särskilt problematisk under sommarmånaderna eller när man bär badkläder.</p>
-            <p class="p200 mt-xl">Likaså kan hårväxt på intima områden som runt vagina och anus upplevas som oönskad av många. Denna typ av hårväxt är helt naturlig och varierar i omfattning, tjocklek och färg från person till person. Hårväxt i dessa områden tjänar biologiska syften, bland annat att skydda de känsliga områdena mot friktion och infektioner. Trots dess naturliga funktion, väljer många att avlägsna eller trimma håret i dessa områden för estetiska skäl eller för en känsla av renhet och komfort.</p>
+            <p class="p200 mt-xl">Likaså kan hårväxt på intima områden som runt vagina och anus upplevas som oönskad av många. Denna typ av hårväxt är helt naturlig och varierar i omfattning, tjocklek och färg från person till person. Hårväxt i dessa områden tjänar biologiska syften, bland annat att skydda de känsliga områdena mot friktion och infektioner. Trots dess naturliga funktion, väljer många att ta bort håret i dessa områden för estetiska skäl eller för en känsla av renhet och komfort.</p>
             <p class="p200 mt-xl">Även om det kan verka mindre vanligt, finns det människor som upplever hårväxt på ovansidan av sina händer och fötter. Dessutom kan hormonella obalanser, genetik och vissa medicinska tillstånd orsaka att hår växer på oväntade platser, såsom inuti öronen, inuti näsan eller till och med på pannan. Oavsett var på kroppen det oönskade håret växer, varierar dess tjocklek och färg. Medan några kan ha tunt, ljust hår som är knappt märkbart, kan andra ha tjockt, mörkt hår som är mycket synligt.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kropp' => 'Kroppen')
       ),
@@ -98,7 +98,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en expert inom hårbortagning som hjälper dig identifiera ditt behov av laserbehandling för oönskat hår och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten får du träffa en expert inom hårbortagning som hjälper dig identifiera ditt behov av laserbehandling för oönskat hår och skapar en individuell behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
