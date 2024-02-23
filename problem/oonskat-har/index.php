@@ -178,7 +178,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När bör du söka hjälp för oönskat hår?',
             image_title: 'När bör du söka hjälp för oönskat hår?',
-            content: '<p class="p200">Att hantera oönskat hår kan vara en utmaning som påverkar självkänslan negativt. Många förlitar sig på tillfälliga lösningar som rakning eller vaxning, vilka ofta leder till återkommande besvär och hudirritation. För de som söker en mer permanent lösning på problemet med oönskad hårväxt, erbjuds professionella behandlingar som laser som effektivt tar bort håret. Denna teknik skadar hårfolliklarna med ljusenergi, vilket minskar hårets återväxt och kan ge bestående resultat med färre biverkningar.</p>
+            content: '<p class="p200">Att hantera oönskat hår kan vara en utmaning som påverkar självkänslan negativt. Många förlitar sig på tillfälliga lösningar som rakning eller vaxning, vilka ofta leder till återkommande besvär och hudirritation. För de som söker en mer permanent lösning på problemet med oönskad hårväxt, erbjuds professionella behandlingar som laser som effektivt tar bort håret. Denna teknik inaktiverar hårfolliklarna med ljusenergi, vilket stoppar hårets återväxt och ger ett bestående resultat.</p>
             <p class="p200 mt-m">Att välja professionell hjälp för att ta itu med oönskat hår är ett viktigt steg mot förbättrad självbild och välbefinnande. Laserhårborttagning är inte bara en investering i ditt utseende utan även i din livskvalitet, genom att erbjuda en hållbar lösning på ett vanligt estetiskt bekymmer. Det är avgörande att välja en erfaren specialist som kan erbjuda skräddarsydda behandlingar för din unika situation, vilket säkerställer optimala och tillfredsställande resultat.</p>',
       ),
       new Article(
@@ -187,7 +187,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för behandling av oönskat hår?',
             image_title: 'Varför välja AcneSpecialisten för behandling av oönskat hår?',
-            content: '<p class="p200">AcneSpecialisten är en pålitlig partner när det kommer till behandling av oönskat hår. Vår erfarenhet och användning av de senaste teknologierna inom hårborttagning för att du ska få både effektiva och säkra behandlingar. Vårt team av experter skräddarsyr behandlingen efter dina individuella behov och hudtyp, för att säkerställa bästa möjliga resultat. Hos oss får du tillgång till toppmodern behandling med personlig service och uppföljning. Vi är engagerade i att hjälpa dig uppnå en slät och hårfri hud på det sätt som passar dig bäst.</p>',
+            content: '<p class="p200">AcneSpecialisten är en pålitlig partner när det kommer till behandling av oönskat hår. Vår erfarenhet och användning av de senaste teknologierna inom hårborttagning för att du ska få både effektiva och säkra behandlingar. Vårt team av experter skräddarsyr behandlingen efter dina individuella hår och hudtyp, för att säkerställa bästa möjliga resultat. Hos oss får du tillgång till toppmodern behandling med personlig service och uppföljning. Vi är engagerade i att hjälpa dig uppnå en slät och hårfri hud på det sätt som passar dig bäst.</p>',
       ),
 );
 
