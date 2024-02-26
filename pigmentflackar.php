@@ -596,7 +596,7 @@ $related_problems = array(
             image: '/bilder/problem/102x102/hudforandringar.webp',
             image_title: 'födelsemärke i ansiktet',
             image_alt: 'svart utåtstående leverläck i ansiktet',
-            url: '/probelm/hudforandringar/',
+            url: '/problem/hudforandringar/',
             url_title: 'Solskadad hy'
       ),
       new RelatedProblem(
