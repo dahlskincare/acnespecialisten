@@ -14,7 +14,7 @@ $seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp
 $model = new Service(
     title: 'Ansiktsbehandling mot problemhy',
     duration: '60 min',
-    price: 'Från 799 kr',
+    price: 'Från 999 kr',
     content: '',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
