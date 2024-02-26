@@ -89,13 +89,13 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '2595 kr',
-                savings: '865 kr per besök',
+                savings: '865 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '2595 kr',
-                savings: '799 kr per besök',
+                savings: '799 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
             )
         )
