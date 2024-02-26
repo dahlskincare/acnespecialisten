@@ -227,7 +227,7 @@ $types = array(
         title: 'Ansiktsbehandling för Seborré',
         duration: null,
         price: null,
-        content: 'Denna behandling är specifikt framtagen för att behandla och balansera huden som drabbats av seborré. Genom att exfoliera bort flagnande hy, kontrollera överdriven talgproduktion och minska inflammation, vilket ger huden en friskare och jämnare ton.',
+        content: 'Ansiktsbehandling som behandlar och balansera huden som drabbats av seborré. Genom att exfoliera bort flagnande hy, kontrollera överdriven talgproduktion och minska inflammation, vilket ger huden en friskare och jämnare ton.',
         image_small: 'bilder/problem/102x102/seborre.webp',
         image_large: 'bilder/problem/200x200/seborre.webp',
         image_alt: 'Ansiktsbehandling för Seborré',
@@ -279,7 +279,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
     image_alt: 'Eftervård och omhändertagande',
     image_title: 'Eftervård och omhändertagande',
-    content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda produkter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
+    content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda rätt hudvårdsprodukter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
     <p class="p200 mt-m">Vi på AcneSpecialisten finns här för att hjälpa dig att ta fram den bästa hudvårdsplanen för din hudtyp. Oavsett om det handlar om daglig rengöring, återfuktning eller specialbehandlingar, så kommer vi att vägleda dig genom varje steg för att säkerställa att din hud får den vård den förtjänar. Kom ihåg, rätt eftervård är nyckeln till en frisk och strålande hud!</p>',
 ));
 
