@@ -12,7 +12,7 @@ $seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp
 
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar för problemhy',
+    title: 'Ansiktsbehandling mot problemhy',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
@@ -26,6 +26,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=facialProblem',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '995 kr',
+            savings: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '2595 kr',
+            savings: '865 kr per behandling',
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '3995 kr',
+            savings: '799 kr per behandling',
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+        )
+    ),
 );
 
 $nav_buttons = array(
@@ -43,7 +69,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad innebär ansiktsbehandlingar för problemhy?';
+$description_title = 'Vad innebär ansiktsbehandling mot problemhy?';
 $description_text = '<p class="p200">Dessa behandlingar är skräddarsydds för en mängd olika hudproblem. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann rengöring.</p>
 <p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa hudens balans och ge den lyster och vitalitet den förtjänar.</p>';
 
