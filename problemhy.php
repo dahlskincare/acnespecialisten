@@ -55,7 +55,7 @@ $model = new Service(
 );
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot problemhy',
+    'about' => 'Om ansiktsbehandling - problemhy',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
