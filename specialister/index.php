@@ -178,7 +178,7 @@ $specialists = array(
         <div class="container">
             <section id="title" class="large-margin">
                 <h1 class="l10n">Våra Specialister</h1>
-                <div class="p200 mt-s l10n">Hos AcneSpecialisten är vi stolta över att presentera vårt team av högt kvalificerade hudterapeuter, alla med professionell utbildning certifierad av SHR (Svenska Hudterapeuters Riksorganisation). Våra specialister besitter omfattande kunskap och specialkompetens inom estetisk hudvård och individanpassade lösningar för hudproblem. Med ett djupt engagemang för varje kunds unika behov, är vårt team dedikerat till att utveckla personligt anpassade och effektiva behandlingsplaner för att möta och överträffa förväntningarna hos individer med olika hudtyper.</div>
+                <div class="p200 mt-s l10n">Hos AcneSpecialisten är vi stolta över att presentera vårt team av högt kvalificerade hudterapeuter, alla med professionell utbildning certifierad av SHR (Svenska Hudterapeuters Riksorganisation). Våra specialister besitter omfattande kunskap och specialkompetens inom medicinsk och estetisk hudvård och individanpassade lösningar för hudproblem. Med ett djupt engagemang för varje kunds unika behov, är vårt team dedikerat till att utveckla personligt anpassade och effektiva behandlingsplaner för att möta och överträffa förväntningarna hos individer med olika hudtyper.</div>
             </section>
             <section id="cards">
                 <div class="columns is-3 is-variable is-multiline">

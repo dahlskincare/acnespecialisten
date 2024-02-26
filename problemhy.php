@@ -427,7 +427,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur ofta bör jag boka en ansiktsbehandling för bästa resultat?',
-            text: 'Det beror på din specifika hudtyp och de problem du vill adressera. För vissa kan en månadsvis behandling vara optimal, medan andra kanske vill komma oftare i början för att hantera specifika hudproblem.'
+            text: 'Det beror på din specifika hudtyp och de problem du vill behandla. För vissa kan månadsvis behandling vara optimal, medan för andra kan var tredje månad passa bättre, allt beror på din hy och dina behov. Regelbundna besök hjälper dig att underhålla din hy och din hudterapeut kan följa hudens utveckling under hela behandlingsprocessen.'
         ),
         new Question(
             title: 'Hur vet jag vilken behandling som passar bäst för min problemhy?',
