@@ -18,7 +18,7 @@ $model = new Service(
     title: 'IPL',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">IPL är en idealisk lösning för dig som söker en jämnare hudton genom att reducera pigmenteringar och ytliga blodkärl eller strävar efter att lindra symtomen på rosacea.</p>',
+    content: '',
     image_small: 'bilder/behandlingar/358x274/ipl.webp',
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL',
@@ -29,6 +29,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=ipl',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '2595 kr',
+            savings: null,
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '6995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '9995 kr',
+            savings: 'Spara 2980 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        )
+    ),
 );
 
 $floating_box = 'Effektiv ljusbehandling för en rad olika hudproblem såsom pigmenteringar, ytliga blodkärl och rosacea.';
@@ -79,8 +105,8 @@ $types_description = 'IPL (Intensivt Pulserande Ljus) är en mångsidig och effe
 $types = array(
     new Service(
         title: 'IPL-behandling för Rosacea',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Effektiv behandling av rosacea med vår avancerade IPL-teknik. Genom att använda målinriktade ljuspulser kan vi mildra rodnad och andra symtom associerade med rosacea, vilket ger en jämnare hudton och en förbättrad hudkvalitet.',
         image_small: 'bilder/problem/102x102/rosacea.webp',
         image_large: 'bilder/problem/200x200/rosacea.webp',
@@ -96,8 +122,8 @@ $types = array(
 
     new Service(
         title: 'IPL-behandling för Ytliga Blodkärl',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Effektiv och skonsam IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt målriktad de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
         image_small: 'bilder/problem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/problem/200x200/ytliga-blodkarl.webp',
@@ -113,8 +139,8 @@ $types = array(
 
     new Service(
         title: 'IPL-behandling för Pigmentfläckar',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Minska och ljusa upp pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt målriktad och reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och mer strålande hud.',
         image_small: 'bilder/problem/102x102/pigmentflackar.webp',
         image_large: 'bilder/problem/200x200/pigmentflackar.webp',
@@ -130,8 +156,8 @@ $types = array(
 
     new Service(
         title: 'IPL-behandling för Melasma',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Behandla melasma effektivt med IPL. Vår behandling hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt behandla de hyperpigmenterade områdena, vilket ger en märkbar förbättring i hudens utseende.',
         image_small: 'bilder/problem/102x102/melasma.webp',
         image_large: 'bilder/problem/200x200/melasma.webp',

@@ -29,6 +29,32 @@ $model = new Service(
     booking_url: 'https://bokadirekt.se',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '2595 kr',
+            savings: null,
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '6995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '9995 kr',
+            savings: 'Spara 2980 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        )
+    ),
 );
 
 $nav_buttons = array(
