@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar mot Problemhy | AcneSpecialisten';
-$seo_description = 'Utforska AcneSpecialistens skräddarsydda ansiktsbehandlingar mot problemhy. Expertbehandling och professionell rådgivning endast ett steg bort.';
-$seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, förebygga problemhy, behandla problemhy, oren hud, hudrodnad, hudutslag, pormaskar, torr hud, oljig hud';
+$seo_title = 'Effektiva Ansiktsbehandlingar för Problemhy | Din Hudvårdsexpert';
+$seo_description = 'Upptäck skräddarsydda ansiktsbehandlingar för problemhy som akne, rosacea, och mer. Få klarare hud med våra expertanpassade lösningar. Boka din tid idag!';
+$seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, behandla problemhy';
 
 $seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
