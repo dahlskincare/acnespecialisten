@@ -24,6 +24,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=powerlite',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '2595 kr',
+            savings: null,
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '6995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '9995 kr',
+            savings: 'Spara 2980 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        )
+    ),
 );
 
 $floating_box = 'Effektiv IPL behandling som eliminerar ytliga blodkärl, jämnar ut pigmentfläckar och reducerar rosacea.';
@@ -74,8 +100,8 @@ $types_description = 'Powerlite Photonova är en högteknologisk IPL (Intensivt 
 $types = array(
     new Service(
         title: 'Powerlite Photonova behandling för Rosacea',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Utnyttja effektiviteten hos Powerlite Photonova för att behandla rosacea. Denna avancerade IPL-metod är inriktad på att mildra rodnad och andra symtom associerade med rosacea, vilket resulterar i en jämnare hudton och förbättrad hudkvalitet.',
         image_small: 'bilder/problem/102x102/rosacea.webp',
         image_large: 'bilder/problem/200x200/rosacea.webp',
@@ -91,8 +117,8 @@ $types = array(
 
     new Service(
         title: 'Powerlite Photonova behandling för Ytliga Blodkärl',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Powerlite Photonova erbjuder en effektiv lösning för att minska synligheten av ytliga blodkärl. Denna IPL-behandling är skräddarsydd för att selektivt och skonsamt behandla de berörda områdena, vilket leder till en klarare och mer enhetlig hudton.',
         image_small: 'bilder/problem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/problem/200x200/ytliga-blodkarl.webp',
@@ -108,8 +134,8 @@ $types = array(
 
     new Service(
         title: 'Powerlite Photonova behandling för Pigmentfläckar',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Med Powerlite Photonova kan du effektivt minska och ljusa upp pigmentfläckar. Denna skonsamma, men effektiva IPL-metod är perfekt för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
         image_small: 'bilder/problem/102x102/pigmentflackar.webp',
         image_large: 'bilder/problem/200x200/pigmentflackar.webp',
@@ -125,8 +151,8 @@ $types = array(
 
     new Service(
         title: 'Powerlite Photonova behandling för Melasma',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Behandla melasma effektivt med Powerlite Photonova. Denna teknik är inriktad på att ljusa upp och jämna ut hudtonen genom att selektivt behandla hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
         image_small: 'bilder/problem/102x102/melasma.webp',
         image_large: 'bilder/problem/200x200/melasma.webp',

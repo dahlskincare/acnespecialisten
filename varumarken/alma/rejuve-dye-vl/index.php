@@ -25,6 +25,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=almarejuve',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '2595 kr',
+            savings: null,
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '6995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '9995 kr',
+            savings: 'Spara 2980 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        )
+    ),
 );
 
 $floating_box = 'Modern och effektiv IPL-maskin för en lång rad hudproblem.';
@@ -75,8 +101,8 @@ $types_description = 'Alma Rejuve Dye-VL erbjuder en högspecialiserad form av I
 $types = array(
     new Service(
         title: 'Rejuve Dye-VL behandling för Rosacea',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Utnyttja kraften i Rejuve Dye-VL för att effektivt behandla rosacea. Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
         image_small: 'bilder/problem/102x102/rosacea.webp',
         image_large: 'bilder/problem/200x200/rosacea.webp',
@@ -92,8 +118,8 @@ $types = array(
 
     new Service(
         title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Rejuve Dye-VL erbjuder en skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
         image_small: 'bilder/problem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/problem/200x200/ytliga-blodkarl.webp',
@@ -109,8 +135,8 @@ $types = array(
 
     new Service(
         title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Använd fördelarna med Rejuve Dye-VL för att effektivt minska och ljusa upp pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
         image_small: 'bilder/problem/102x102/pigmentflackar.webp',
         image_large: 'bilder/problem/200x200/pigmentflackar.webp',
@@ -126,8 +152,8 @@ $types = array(
 
     new Service(
         title: 'Rejuve Dye-VL behandling för Melasma',
-        duration: '30 minuter',
-        price: '1995 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Med Rejuve Dye-VL kan du effektivt behandla melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
         image_small: 'bilder/problem/102x102/pigmentflackar.webp',
         image_large: 'bilder/problem/200x200/pigmentflackar.webp',
