@@ -32,7 +32,6 @@ $floating_box = 'Klassiska ansiktsbehandlingar som passar alla.';
 
 $nav_buttons = array(
     'about' => 'Om ansiktsbehandlingar',
-    'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
     'treatment-areas' => 'Områden',
@@ -50,15 +49,6 @@ $description_text = '<p class="p200">Klassiska ansiktsbehandlingar är en grunds
 <p class="p200 mt-m">Hos oss på AcneSpecialisten kan du välja mellan flera typer av ansiktsbehandlingar. Vi erbjuder allt från den traditionella klassiska ansiktsbehandlingen till Antistress, där fokus ligger på avslappning. Hudterapeutens val anpassas helt efter dina behov, medan Peel, Boost & Glow siktar på att ge huden en extra boost. För den som vill ha det lilla extra erbjuder vi Lyx behandlingen. Oavsett vilken behandling du väljer, är vårt mål att ge din hud den bästa möjliga omsorgen.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_small: '/bilder/process/358x272/ansiktsbehandlingar-forberedelser.webp',
-        image_large: '/bilder/process/872x456/ansiktsbehandlingar-forberedelser.webp',
-        image_alt: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        image_title: 'Förberedelse inför klassiska ansiktsbehandlingar',
-        content: '<p class="p200">Hos AcneSpecialisten är vårt främsta mål att du ska känna dig bekväm och väl omhändertagen. Om du vill kan du vidta vissa förberedande åtgärder innan din ansiktsbehandling, såsom att undvika starka hudprodukter eller direkt solljus. Men det är viktigt att betona att du alltid kan komma precis som du är. Vi förstår att varje individ är unik, och vi anpassar varje behandling efter dina specifika behov och önskemål.</p>
-        <p class="p200 mt-m">Om du har några specifika bekymmer eller frågor inför din behandling, tveka inte att meddela oss. Vår prioritet är din komfort och att leverera den bästa möjliga behandlingen för dig. Välkommen till en avslappnande och förnyande upplevelse hos oss på AcneSpecialisten!</p>',
-    ),
     'process' => new Article(
         title: 'Processen för klassiska ansiktsbehandlingar',
         image_small: '/bilder/process/358x272/ansiktsbehandlingar-process.webp',
