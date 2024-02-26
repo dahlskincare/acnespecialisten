@@ -60,7 +60,7 @@ $green_banner_content = new GreenBannerContent(
 
 $treatments = array(
     new Treatment(
-        label: 'Ansiktsbehandlingar Problemhy',
+        label: 'Ansiktsbehandling Problemhy',
         url: 'problemhy.php',
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
@@ -90,7 +90,7 @@ $treatments = array(
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
     new Treatment(
-        label: 'Ansiktsbehandlingar Klassiska',
+        label: 'Ansiktsbehandling Klassiska',
         url: 'ansiktsbehandlingar.php',
         url_title: 'Läs mer om klassiska ansiktsbehandlingar'
     ),
@@ -175,7 +175,7 @@ $people_search_for = array(
 $service_categories = array(
     new ServiceCategory(
         url: 'problemhy.php',
-        label: 'Ansiktsbehandlingar mot problemhy',
+        label: 'Ansiktsbehandling mot problemhy',
         content: 'Ansiktsbehandlingar mot problemhy såsom akne, rosacea och pormaskar med mera. Med noggrant utvalda produkter och tekniker rengör och återställer vi din hud, och förebygger framtida hudproblem.',
         image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
@@ -512,7 +512,7 @@ $service_categories = array(
     ),
     new ServiceCategory(
         url: 'ansiktsbehandlingar.php',
-        label: 'Klassiska ansiktsbehandlingar',
+        label: 'Klassiska ansiktsbehandling',
         content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, ansiktsmask och LED-terapi, och är anpassade för att passa olika hudtyper och behov.',
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
         image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
