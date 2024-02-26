@@ -104,7 +104,7 @@ $big_types = array(
         title: 'Ansiktsbehandling - Antistress',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Unna dig en paus från vardagens hektik med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en närande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
+        content: '<p class="p200">Unna dig en paus från vardagens stress med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en riktligt återfuktande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Ansiktsbehandling - Antistress',
@@ -115,7 +115,7 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress',
         booking_url_label: 'Boka en Antistress ansiktsbehandling',
         booking_url_title: 'Boka en Antistress ansiktsbehandling',
-        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'produkter' => 'Närande kräm', 'led' => 'LED'),
+        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'led' => 'LED'),
         procedures: array(
             new Procedure(
                 label: '1 behandling',
