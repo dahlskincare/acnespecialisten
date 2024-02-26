@@ -90,7 +90,7 @@ $treatments = array(
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
     new Treatment(
-        label: 'Ansiktsbehandling Klassiska',
+        label: 'Klassiska Ansiktsbehandlingar',
         url: 'ansiktsbehandlingar.php',
         url_title: 'Läs mer om klassiska ansiktsbehandlingar'
     ),
