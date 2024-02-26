@@ -141,7 +141,7 @@ $big_types = array(
         title: 'Hudterapeutens val',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en Lumafuse med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera en djuprengöring med peel, boost & glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
+        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en sheetmask i kombination med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera serumet peel2glow, brynstyling samt olika masker och serum som är särskilt utvalda för dig.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Hudterapeutens val',
