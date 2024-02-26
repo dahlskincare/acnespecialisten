@@ -107,7 +107,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Ansiktsbehandlingar för problemhy';
+$types_title = 'Ansiktsbehandlingar mot problemhy';
 $types_description = '';
 $types = array(
     new Service(
