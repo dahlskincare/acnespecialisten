@@ -83,7 +83,7 @@ $types = array(
         title: 'Laserbehandling mot Acneärr',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Vår laserbehandling är särskilt effektiv för att minska synligheten av acneärr. Genom att använda fraktionerad CO2-laser stimuleras hudens naturliga läkningsprocess, vilket bidrar till en jämnare hudstruktur och minskning av ärr.',
+        content: 'Laser mot acneärr behandlar huden med olika lasertekniker beroende på dina acneärr som kan vara fläckar eller gropar i huden.',
         image_small: 'bilder/problem/102x102/acnearr.webp',
         image_large: 'bilder/problem/200x200/acnearr.webp',
         image_alt: 'Laserbehandling mot Acneärr',
