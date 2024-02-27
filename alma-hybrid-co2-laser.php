@@ -9,6 +9,11 @@ $seo_keywords = 'Alma Hybrid, laserbehandling, hudföryngring, acneärr, hudton,
 
 $seo_image = 'images/treatments/large/alma-hybrid.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Alma Hybrid CO2', '/alma-hybrid-co2-laser.php'),
+);
+
 $model = new Service(
     title: 'Alma Hybrid',
     duration: null,

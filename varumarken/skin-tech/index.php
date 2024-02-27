@@ -9,6 +9,11 @@ $seo_keywords = 'Skin Tech, kemisk peeling, hudproblem, acneärr, åldrande hud,
 
 $seo_image = '/images/treatments/large/skin-tech.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Skin Tech', '/varumarken/skin-tech'),
+);
+
 $model = new Service(
     title: 'Skin Tech',
     duration: null,

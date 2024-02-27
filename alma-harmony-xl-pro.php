@@ -9,6 +9,11 @@ $seo_keywords = 'Harmony XL Pro, mångsidig laserbehandling, hudföryngring, pig
 
 $seo_image = 'images/treatments/large/alma-harmony-xl-pro.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Alma Harmony XL Pro', '/alma-harmony-xl-pro.php'),
+);
+
 $model = new Service(
     title: 'Alma Harmony XL Pro',
     duration: null,

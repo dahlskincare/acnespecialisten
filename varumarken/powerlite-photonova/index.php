@@ -9,6 +9,11 @@ $seo_keywords = 'Powerlite Photonova, IPL-behandling, avancerad hudvård, behand
 
 $seo_image = '/images/treatments/large/powerlite-photonova.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Powerlite Photonova', '/varumarken/powerlite-photonova/'),
+);
+
 $model = new Service(
     title: 'Powerlite Photonova',
     duration: null,
