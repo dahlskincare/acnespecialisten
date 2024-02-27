@@ -256,7 +256,7 @@ $big_types = array(
         title: 'Porrengöring',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en djupgående rengöring som förbereder huden för exfoliering. Efter exfolieringen tillämpas en mjukgörande ångprocess för att öppna upp och mjuka upp porerna. Noggrann manuell porrengöring följer för att varsamt avlägsna orenheter och komedoner. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en exfolierande rengöring och mjukgörande ångbehandlingför att öppna upp och mjuka upp porerna. Noggrann manuell porrensning följer för att varsamt avlägsna orenheter och pormaskar. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Porrengöring',
