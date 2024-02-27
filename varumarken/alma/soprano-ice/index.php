@@ -9,6 +9,11 @@ $seo_keywords = 'Soprano ICE, permanent hårborttagning, laserbehandling, skonsa
 
 $seo_image = '/images/treatments/large/soprano-ice.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Soprano Ice', '/varumarken/alma/soprano-ice/'),
+);
+
 $model = new Service(
     title: 'Soprano Ice',
     duration: null,

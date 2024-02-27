@@ -9,6 +9,11 @@ $seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandlin
 
 $seo_image = '/images/treatments/large/splendor-x.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Splendor X', '/varumarken/splendor-x/'),
+);
+
 $model = new Service(
     title: 'Splendor X',
     duration: null,
