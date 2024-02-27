@@ -15,10 +15,10 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Laser mot hudproblem',
+    title: 'Laserbehandling ansikte och kropp',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">På AcneSpecialisten erbjuder vi fraktionerad CO2-laserbehandling, en avancerad metod för att effektivt behandla problemhy. Denna laserterapi är särskilt effektiv mot acneärr, ojämn hudton och textur, och ger märkbara förbättringar i hudkvaliteten.</p>',
+    content: '<p class="p200">Hos AcneSpecialisten använder vi en rad avancerade lasertekniker för att effektivt behandla en mängd hudproblem, vilket bidrar till märkbara förbättringar i hudens kvalitet och utseende.</p>',
     image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -49,9 +49,9 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är laser mot hudproblem?';
-$description_text = '<p class="p200">Vår fraktionerade CO2-laserbehandling på AcneSpecialisten sträcker sig även till att effektivt behandla stora porer, ett vanligt hudproblem som många upplever. Denna avancerade lasermetod är idealisk för att förfina hudens textur och minska synligheten av förstorade porer. Genom att målinriktat behandla de drabbade områdena, arbetar lasern för att stimulera hudens naturliga förnyelseprocess och därigenom förbättra hudens struktur.</p>
-<p class="p200 mt-m">Genom att exfoliera det yttre hudlagret och stimulera kollagenproduktionen under huden, bidrar behandlingen till att dra åt och minimera storleken på porerna. Detta leder inte bara till en synlig förbättring av porernas utseende utan även till en övergripande jämnare och klarare hudton. Vår fraktionerade CO2-laser är således en utmärkt behandlingsmetod för dig som vill uppnå en förfinad hudtextur och en minskning av stora porer, samtidigt som du behandlar andra hudproblem som ärrbildning, rynkor och fina linjer.</p>
-<p class="p200 mt-m">Oavsett dina hudproblem är vårt mål på AcneSpecialisten är att erbjuda effektiva och skräddarsydda behandlingar som förbättrar din hudkvalitet och ger dig en mer ungdomlig och fräsch utstrålning.</p>';
+$description_text = '<p class="p200">Laser är en avancerad teknologi som använder ljusstrålar med hög intensitet för att behandla ett brett spektrum av hudproblem. Denna teknik utnyttjar olika våglängder och styrkor anpassade för specifika tillstånd och hudtyper, vilket gör den extremt mångsidig. </p>
+<p class="p200 mt-m">Exempel på lasertyper inkluderar CO2-lasern, som är effektiv för att minska acneärr, stora porer och fina linjer genom att stimulera hudens förnyelseprocess. YAG-lasern är en annan variant som ofta används för djupare penetration, idealisk för pigmentförändringar och hårborttagning. Alexandritlaser är föredragen för hårborttagning på ljusare hudtoner, medan diodlasern passar för en rad olika hudtyper och behandlingsområden..</p>
+<p class="p200 mt-m">Varje laser typ har unika egenskaper som gör den lämplig för olika behandlingsmål, från hudförnyelse och förbättrad hudtextur till minskning av pigmentfläckar och hårborttagning. På AcneSpecialisten anpassar vi behandlingen efter dina individuella behov och hudproblem, med målet att förbättra din hudkvalitet och ge en ungdomligare utstrålning. Vårt utbud av laserbehandlingar ger effektiva lösningar för en mängd hudåkommor, inklusive porförminskning, ärrbehandling, och hudföryngring.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
