@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Klassiska Ansiktsbehandlingar - Professionell Hudvård | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens klassiska ansiktsbehandlingar för optimal hudvård. Med vår expertis ger vi din hud den bästa omvårdnaden den förtjänar. Professionella behandlingar och rådgivning endast ett steg bort.';
+$seo_title = 'Ansiktsbehandling Stockholm | AcneSpecialisten';
+$seo_description = 'Vi på Acnespecialisten erbjuder ansiktsbehandlingar i Stockholm för alla hudtyper! Behandla, återfukta eller lyxa till det lite extra. Boka direkt →';
 $seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
 
 
