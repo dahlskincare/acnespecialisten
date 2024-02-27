@@ -239,9 +239,9 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för stora porer',
             image_title: 'Ansiktsbehandling för stora porer',
 
-            url: '/porrengoring.php',
-            url_label: 'Läs mer om porrengoring mot stora porer',
-            url_title: 'Läs mer om porrengoring mot stora porer',
+            url_label: 'Läs mer om ansiktsbehandling mot stora porer',
+            url: '/portomning.php',
+            url_title: 'Läs mer om ansiktsbehandling mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',

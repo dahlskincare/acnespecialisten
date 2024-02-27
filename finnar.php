@@ -424,9 +424,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot finnar',
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
+            url_label: 'Läs mer om ansiktsbehandling mot finnar',
             url: '/portomning.php',
-            url_title: 'Läs mer om ansiktsbehandling mot akne',
+            url_title: 'Läs mer om ansiktsbehandling mot finnar',
       ),
       new Service(
             title: 'Laserbehandling mot finnar',

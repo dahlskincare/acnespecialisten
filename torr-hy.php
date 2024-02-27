@@ -529,7 +529,7 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för torr och känslig hy',
             image_title: 'Ansiktsbehandling för torr och känslig hy',
 
-            url: 'problemhy.php',
+            url: '/problemhy.php',
             url_label: 'Läs mer om ansiktsbehandling mot torr och känslig hy',
             url_title: 'Läs mer om ansiktsbehandling mot torr och känslig hy',
 

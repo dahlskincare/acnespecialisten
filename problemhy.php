@@ -126,7 +126,7 @@ $types = array(
         booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
 
         url_label: 'Läs mer om ansiktsbehandling mot akne',
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
+        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
         url_title: 'Läs mer om ansiktsbehandling mot akne',
     ),
     new Service(
@@ -144,6 +144,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
+
+        url_label: 'Läs mer om ansiktsbehandling mot pormaskar',
+        url: '/portomning.php',
+        url_title: 'Läs mer om ansiktsbehandling mot pormaskar',
     ),
     new Service(
         title: 'Ansiktsbehandling mot Rosacea',
@@ -162,7 +166,7 @@ $types = array(
         booking_url_title: 'Boka en Ansiktsbehandling för Rosacea',
 
         url_label: 'Läs mer om ansiktsbehandling mot rosacea',
-        url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
+        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
         url_title: 'Läs mer om ansiktsbehandling mot rosacea',
     ),
     
@@ -181,6 +185,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
+
+        url_label: 'Läs mer om ansiktsbehandling mot finnar',
+        url: '/portomning.php',
+        url_title: 'Läs mer om ansiktsbehandling mot finnar',
     ),
     new Service(
         title: 'Ansiktsbehandling för Blandhy',
@@ -197,6 +205,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Blandhy',
+
+        url_label: 'Läs mer om ansiktsbehandling mot blandhy',
+        url: '/portomning.php',
+        url_title: 'Läs mer om ansiktsbehandling mot blandhy',
     ),
     new Service(
         title: 'Ansiktsbehandling mot Milier',
@@ -213,6 +225,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Milier',
+
+        url: 'milierbehandling.php',
+        url_label: 'Läs mer om ansiktsbehandling mot milier',
+        url_title: 'Klicka här för att läsa mer om behandling mot milier',
     ),
     new Service(
         title: 'Ansiktsbehandling för Perioral Dermatit',
@@ -229,6 +245,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Perioral Dermatit',
+
+        url_label: 'Läs mer om ansiktsbehandling mot perioral dermatit',
+        url: '/portomning.php',
+        url_title: 'Läs mer om ansiktsbehandling mot perioral dermatit',
     ),
     new Service(
         title: 'Ansiktsbehandling för Seborré',
@@ -245,6 +265,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Seborré',
+
+        url_label: 'Läs mer om ansiktsbehandling mot seborré',
+        url: '/portomning.php',
+        url_title: 'Läs mer om ansiktsbehandling mot seborré',
     ),
     new Service(
         title: 'Ansiktsbehandling för Stora Porer',
@@ -261,6 +285,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
+
+        url_label: 'Läs mer om ansiktsbehandling mot stora porer',
+        url: '/portomning.php',
+        url_title: 'Läs mer om ansiktsbehandling mot stora porer',
     ),
     new Service(
         title: 'Ansiktsbehandling för Torr & Känslig Hy',
@@ -277,6 +305,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
+
+        url_label: 'Läs mer om ansiktsbehandling mot torr & känslig hy',
+        url: '/portomning.php',
+        url_title: 'Läs mer om ansiktsbehandling mot torr & känslig hy',
     ),
 );
 
