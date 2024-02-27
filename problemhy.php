@@ -124,6 +124,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
+
+        url_label: 'Läs mer om gratis hudkonsultation mot akne',
+        url: 'gratis-hudkonsultation.php',
+        url_title: 'Läs mer om gratis hudkonsultation mot akne',
     ),
     new Service(
         title: 'Ansiktsbehandling mot Pormaskar',
