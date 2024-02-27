@@ -177,8 +177,8 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Stora Porer',
-        duration: '50 minuter',
-        price: '2595 kr',
+        duration: '90 minuter',
+        price: '4595 kr',
         content: ' okuserar på att minska porernas storlek genom att stimulera kollagenproduktionen under huden, vilket leder till en slätare och mer enhetlig hudton.',
         image_small: 'bilder/problem/102x102/stora-porer.webp',
         image_large: 'bilder/problem/200x200/stora-porer.webp',
@@ -193,8 +193,8 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Hudutväxter',
-        duration: '50 minuter',
-        price: '2595 kr',
+        duration: '20 minuter',
+        price: 'Från 1595 kr',
         content: 'Använder specifik våglängd av laserljus för att selektivt bryta ner pigmentet i leverfläckar och födelsemärken, vilket gradvis ljusar upp och kan ta bort dessa hudförändringar.',
         image_small: 'bilder/problem/102x102/hudforandringar.webp',
         image_large: 'bilder/problem/200x200/hudforandringar.webp',
