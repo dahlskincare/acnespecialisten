@@ -50,7 +50,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är laser mot hudproblem?';
 $description_text = '<p class="p200">Laser är en avancerad teknologi som använder ljusstrålar med hög intensitet för att behandla ett brett spektrum av hudproblem. Denna teknik utnyttjar olika våglängder och styrkor anpassade för specifika tillstånd och hudtyper, vilket gör den extremt mångsidig. </p>
-<p class="p200 mt-m">Exempel på lasertyper inkluderar CO2-lasern, som är effektiv för att minska acneärr, stora porer och fina linjer genom att stimulera hudens förnyelseprocess. YAG-lasern är en annan variant som ofta används för djupare penetration, idealisk för pigmentförändringar och hårborttagning. Alexandritlaser är föredragen för hårborttagning på ljusare hudtoner, medan diodlasern passar för en rad olika hudtyper och behandlingsområden..</p>
+<p class="p200 mt-m">Exempel på lasertyper inkluderar CO2-lasern, som är effektiv för att minska acneärr, stora porer och fina linjer genom att stimulera hudens förnyelseprocess. YAG-lasern är en annan variant som ofta används för djupare penetration, idealisk för pigmentförändringar och hårborttagning. Alexandritlaser är föredragen för hårborttagning på ljusare hudtoner, medan diodlasern passar för en rad olika hudtyper och behandlingsområden.</p>
 <p class="p200 mt-m">Varje laser typ har unika egenskaper som gör den lämplig för olika behandlingsmål, från hudförnyelse och förbättrad hudtextur till minskning av pigmentfläckar och hårborttagning. På AcneSpecialisten anpassar vi behandlingen efter dina individuella behov och hudproblem, med målet att förbättra din hudkvalitet och ge en ungdomligare utstrålning. Vårt utbud av laserbehandlingar ger effektiva lösningar för en mängd hudåkommor, inklusive porförminskning, ärrbehandling, och hudföryngring.</p>';
 
 $top_articles = array(
@@ -60,17 +60,17 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/laser-forberedelser.webp',
         image_alt: 'Förberedelser inför laserbehandling',
         image_title: 'Förberedelser inför laserbehandling',
-        content: '<p class="p200">Inför din laserbehandling mot hudproblem på AcneSpecialisten, rekommenderar vi att du börjar med en kostnadsfri konsultation. Detta steg är essentiellt för att vi ska kunna förbereda din hud optimalt och förstå dina specifika behov. Under konsultationen diskuterar vi din hudtyp, eventuella hudproblem och dina mål med behandlingen. Vi tar även en titt på din nuvarande hudvårdsrutin och gör nödvändiga justeringar inför behandlingen.</p>
+        content: '<p class="p200">Inför din laserbehandling rekommenderar vi att du börjar med en kostnadsfri konsultation. Detta steg är nödvändigt för att vi ska kunna förstå dina specifika behov och förbereda en behandlingsplan för just dig. Under konsultationen diskuterar vi din hudtyp, eventuella hudproblem och dina mål med behandlingen. Vi tar även en titt på din nuvarande hudvårdsrutin och gör nödvändiga justeringar inför behandlingen.</p>
         <p class="p200 mt-m">För att förbereda din hud för laserbehandlingen är det viktigt att du undviker solbränna och stark sol under veckorna före behandlingen. Solbränd hud kan vara mer känslig, vilket kan påverka behandlingens effektivitet och säkerhet. Dessutom rekommenderas att du undviker hudvårdsprodukter med starka ingredienser, som exfolierande syror, minst en vecka före din behandling för att minimera risken för irritation.</p>
         <p class="p200 mt-m">Din säkerhet och komfort är vår högsta prioritet. Vi uppmuntrar dig att dela alla hudrelaterade tillstånd eller bekymmer under konsultationen. Detta säkerställer att vi kan skräddarsy behandlingen efter dina unika behov och ge dig den bästa möjliga upplevelsen och resultaten med vår laserbehandling.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går laser mothudproblem till?',
+        title: 'Hur går laserbehandlingen till?',
         image_small: '/bilder/process/358x272/laser-process.webp',
         image_large: '/bilder/process/872x456/laser-process.webp',
-        image_alt: 'Hur går laser mot hudproblem till?',
-        image_title: 'Hur går laser mot hudproblem till?',
-        content: '<p class="p200">När du kommer till AcneSpecialisten för en laserbehandling mot problemhy, startar vi med en noggrann rengöring av ditt behandlingsområde. Detta är en viktig del i processen för att säkerställa att huden är fri från smuts och oljor, vilket gör behandlingen mer effektiv.</p>
+        image_alt: 'Hur går laserbehandlingen till?',
+        image_title: 'Hur går laserbehandlingen till?',
+        content: '<p class="p200">Vi startar med en noggrann rengöring av ditt behandlingsområde. Detta är en viktig del i processen för att säkerställa att huden är fri från smuts och oljor, vilket gör behandlingen mer effektiv.</p>
         <p class="p200 mt-m">Vår fraktionerade CO2-laserbehandling involverar användning av avancerad laser-teknologi för att rikta in sig på djupet av huden. Lasern skapar mikroskopiska "zoner" av skada i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar kollagen- och elastinproduktion. Denna process hjälper till att minska synligheten av ärr, inklusive acneärr, operationsärr, och bristningar. Den är även effektiv för att behandla rynkor och fina linjer, samt utföra huduppfräschning och hudresurfacing.</p>
         <p class="p200 mt-m">Under behandlingen kan du känna en värmande känsla, men vi använder kylsystem och bedövningsmedel för att göra upplevelsen så bekväm som möjligt. Efter behandlingen kan det uppstå rodnad och svullnad, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig noggranna instruktioner för eftervård för att säkerställa en snabb och smidig läkningsprocess. Resultaten från behandlingen utvecklas över tid, när huden gradvis förnyas och förbättras från insidan.</p>',
     ),
