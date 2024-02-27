@@ -9,6 +9,10 @@ $seo_keywords = 'CryoPen behandling, cryoterapi precision, smärtfri hudlesionsb
 
 $seo_image = 'images/treatments/large/cryopen.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('CryoPen', '/cryopen.php'),
+);
 
 $model = new Service(
     title: 'CryoPen',

@@ -9,6 +9,10 @@ $seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reduce
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Dermapen', '/dermapen.php'),
+);
 
 $model = new Service(
     title: 'Dermapen',

@@ -9,6 +9,11 @@ $seo_keywords = 'Infuzion, djup återfuktning, revitalisera huden, hudföryngrin
 
 $seo_image = 'images/treatments/large/infuzion.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Infuzion', '/infuzion.php'),
+);
+
 $model = new Service(
     title: 'Infuzion',
     duration: '50 min',

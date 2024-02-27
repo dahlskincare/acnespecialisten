@@ -9,6 +9,11 @@ $seo_keywords = 'Hydrafacial, hudvård, djupgående rengöring, exfoliering, hyd
 
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('HydraFacial', '/hydrafacial.php'),
+);
+
 $model = new Service(
     title: 'HydraFacial',
     duration: null,

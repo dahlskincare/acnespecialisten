@@ -9,6 +9,11 @@ $seo_keywords = 'PRX-T33, kemisk peeling, hudföryngring, anti-age, pigmentering
 
 $seo_image = 'images/treatments/large/prx-t33.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('PRX-T33', '/prx-t33.php'),
+);
+
 $model = new Service(
     title: 'PRX-T33',
     duration: null,

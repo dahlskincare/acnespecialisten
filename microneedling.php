@@ -9,6 +9,10 @@ $seo_keywords = 'microneedling, hudföryngring, behandla ärr, reducera fina lin
 
 $seo_image = 'images/treatments/large/microneedling.webp';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Microneedling', '/microneedling.php'),
+);
 
 $model = new Service(
     title: 'Microneedling',

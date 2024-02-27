@@ -9,6 +9,11 @@ $seo_keywords = 'kemisk peeling, hudföryngring, aknebehandling, hudtonsförbät
 
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Kemisk Peeling', '/kemisk-peeling.php'),
+);
+
 $model = new Service(
     title: 'Kemisk Peeling',
     duration: '30 min',
