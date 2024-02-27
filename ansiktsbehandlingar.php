@@ -145,7 +145,7 @@ $big_types = array(
         title: 'Hudterapeutens val',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en sheetmask i kombination med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera olika masker och serum som är särskilt utvalda för dig.</p>',
+        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en sheetmask i kombination med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera exfoliering, vapozon, tömning av porer, brynformning och serum som är särskilt utvalda för dig.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Hudterapeutens val',
