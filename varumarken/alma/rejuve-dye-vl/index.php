@@ -9,6 +9,10 @@ $seo_keywords = 'Alma Rejuve Dye-VL, specialiserad IPL-behandling, pigmentfläck
 
 $seo_image = '/images/treatments/large/alma-rejuve-dye-vl.webp';
 
+$path_segments = array(
+      new PathSegment('Varumärken', '/varumarken/'),
+      new PathSegment('Rejuve Dye-VL', '/varumarken/alma/rejuve-dye-vl/'),
+);
 
 $model = new Service(
     title: 'Alma Rejuve Dye-VL',
