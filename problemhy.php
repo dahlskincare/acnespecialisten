@@ -9,6 +9,10 @@ $seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, behandla problemhy'
 
 $seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Problemhy', '/problemhy.php'),
+);
 
 $model = new Service(
     title: 'Ansiktsbehandling mot problemhy',
