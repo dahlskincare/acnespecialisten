@@ -76,8 +76,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som behandlas med laser';
-$types_description = '<p class="p200">Vår laserbehandling är effektiv för en rad olika hudproblem, tack vare dess förmåga att stimulera hudens egen läkningsprocess och kollagenproduktion. Nedan listar vi de hudproblem som vi effektivt behandlar med vår lasermetod.</p>';
+$types_title = 'Laserbehandling mot olika hudproblem';
+$types_description = '<p class="p200">Våra laserbehandlingar är effektiva för en rad olika hudproblem, tack vare dess förmåga att stimulera hudens egen läkningsprocess och kollagenproduktion. Nedan listar vi de hudproblem som vi effektivt behandlar med vår lasertekniker.</p>';
 $types = array(
     new Service(
         title: 'Laserbehandling mot Acneärr',
