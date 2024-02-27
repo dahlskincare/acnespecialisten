@@ -50,7 +50,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är Soprano ICE för permanent hårborttagning?';
 $description_text = '<p class="p200">Soprano ICE är en innovation inom området permanent hårborttagning. Denna avancerade laserbehandling kombinerar flera våglängder för att effektivt och skonsamt behandla en bred variation av hårtyper. Känd för sin revolutionerande kylteknik, erbjuder Soprano ICE en nästan helt smärtfri upplevelse, vilket utmärker den från traditionella lasermetoder.</p>
-<p class="p200 mt-m">Soprano ICE:s stora fördel är dess mångsidighet och förmåga att behandla patienter året runt, även de med solbränd hud. Behandlingen är exceptionellt snabb och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, inklusive känsliga områden som ansiktet. Soprano ICE är effektiv för de flesta hårtyper och nyanser, även om det bör noteras att vissa hårtyper som grått och mycket ljust hår kan vara svårare att behandla med denna metod.</p>';
+<p class="p200 mt-m">Soprano ICE:s stora fördel är dess mångsidighet och förmåga att behandla kunder året runt, även de med solbränd hud. Behandlingen är exceptionellt snabb och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, inklusive känsliga områden som ansiktet. Soprano ICE är effektiv för de flesta hårtyper och nyanser, även om det bör noteras att vissa hårtyper som grått och mycket ljust hår kan vara svårare att behandla med denna metod.</p>';
 
 $top_articles = array(
     'preparing' => new Article(

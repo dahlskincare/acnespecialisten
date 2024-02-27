@@ -76,7 +76,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är Alma Rejuve Dye-VL?';
 $description_text = '<p class="p200">Alma Rejuve Dye-VL representerar en specialiserad form av IPL (Intensivt Pulserande Ljus)-teknik, utvecklad för att förbättra hudens ton och textur. Denna avancerade version av IPL använder en unik Dye-VL-teknologi, vilken är optimal för att effektivt behandla hudtillstånd genom att målinrikta melanin i pigmentfläckar och hemoglobin i blodkärl. Detta gör Dye-VL särskilt effektivt för att reducera pigmentfläckar, ytliga blodkärl och symtom på rosacea.</p>
-    <p class="p200 mt-m">Alma Rejuve Dye-VL skiljer sig från traditionella IPL-behandlingar genom sin förmåga att mer specifikt och effektivt behandla olika hudproblem. Med sin anpassningsbara teknologi kan den skräddarsys för individuella hudförhållanden, vilket ger en precis och skonsam behandling med minimala biverkningar. Patienter kan återgå till sina dagliga aktiviteter snabbt efter behandlingen. Alma Rejuve Dye-VL är idealisk för att uppnå en jämnare hudton, minska synliga hudproblem och förbättra den övergripande hudkvaliteten.</p>';
+    <p class="p200 mt-m">Alma Rejuve Dye-VL skiljer sig från traditionella IPL-behandlingar genom sin förmåga att mer specifikt och effektivt behandla olika hudproblem. Med sin anpassningsbara teknologi kan den skräddarsys för individuella hudförhållanden, vilket ger en precis och skonsam behandling med minimala biverkningar. Kunden kan återgå till sina dagliga aktiviteter snabbt efter behandlingen. Alma Rejuve Dye-VL är idealisk för att uppnå en jämnare hudton, minska synliga hudproblem och förbättra den övergripande hudkvaliteten.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
