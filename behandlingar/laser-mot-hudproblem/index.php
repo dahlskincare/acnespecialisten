@@ -179,7 +179,7 @@ $types = array(
         title: 'Laserbehandling mot Stora Porer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Denna behandling är inriktad på att förminska och förbättra utseendet av stora porer. Genom att använda fraktionerad CO2-laser stimuleras huden för att dra ihop porerna, vilket resulterar i en mer jämn och förfinad hudtextur.',
+        content: ' okuserar på att minska porernas storlek genom att stimulera kollagenproduktionen under huden, vilket leder till en slätare och mer enhetlig hudton.',
         image_small: 'bilder/problem/102x102/stora-porer.webp',
         image_large: 'bilder/problem/200x200/stora-porer.webp',
         image_alt: 'Laserbehandling mot Stora Porer',
@@ -195,7 +195,7 @@ $types = array(
         title: 'Laserbehandling mot Hudutväxter',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Fraktionerad CO2-laserbehandling för säker och effektiv borttagning av hudutväxter. Denna metod ger en skonsam behandling som minimerar risken för ärrbildning och ger ett slätt, jämnt resultat.',
+        content: 'Använder specifik våglängd av laserljus för att selektivt bryta ner pigmentet i leverfläckar och födelsemärken, vilket gradvis ljusar upp och kan ta bort dessa hudförändringar.',
         image_small: 'bilder/problem/102x102/hudforandringar.webp',
         image_large: 'bilder/problem/200x200/hudforandringar.webp',
         image_alt: 'Laserbehandling mot Hudutväxter',
@@ -211,7 +211,7 @@ $types = array(
         title: 'Laserbehandling mot Bristningar',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Vår laserbehandling erbjuder en effektiv lösning för att reducera synligheten av bristningar. Genom att använda fraktionerad CO2-laser, behandlas de berörda områdena för att främja hudens naturliga läkningsprocess och förbättra hudens textur.',
+        content: 'Använder laserljus för att stimulera hudens kollagenproduktion, vilket minskar synligheten av bristningar och förbättrar hudens textur.',
         image_small: 'bilder/problem/102x102/bristningar.webp',
         image_large: 'bilder/problem/200x200/bristningar.webp',
         image_alt: 'Laserbehandling för Bristningar',
@@ -227,7 +227,7 @@ $types = array(
         title: 'Laserbehandling mot Ärr (Skade- och Operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
-        content: 'Denna laserbehandling är speciellt anpassad för att minska synligheten av skade- och operationsärr. Genom att använda avancerad CO2-laser stimuleras hudens förnyelseprocess för att mjuka upp och släta ut ärrvävnad.',
+        content: 'Riktar in sig på att mjuka upp och minska ärrvävnad, vilket bidrar till att ärr blir mindre framträdande och huden jämnare.',
         image_small: 'bilder/problem/102x102/operations-skadearr.webp',
         image_large: 'bilder/problem/200x200/operations-skadearr.webp',
         image_alt: 'Laserbehandling mot Ärr',
@@ -258,7 +258,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Laser';
-$treatment_areas_text = '<p class="p200">Vår laserbehandling är anpassningsbar för en rad olika områden, vilket gör den idealisk för att adressera specifika hudproblem på olika delar av kroppen. Vi använder fraktionerad CO2-laser för att behandla hudområden som ansikte, hals, dekolletage, rygg och händer, samt specifika ansiktsområden som panna, näsa, kinder, överläpp och haka. Denna teknik möjliggör precisionsbehandling för att förbättra hudens kvalitet och utseende, oavsett område.</p>';
+$treatment_areas_text = '<p class="p200">Vår laserbehandling är anpassningsbar för en rad olika områden, vilket gör den idealisk för att adressera specifika hudproblem på olika delar av kroppen. Vi behandlar områden som ansikte, hals, dekolletage, rygg och händer, samt specifika ansiktsområden som panna, näsa, kinder, överläpp och haka. Denna teknik möjliggör precisionsbehandling för att förbättra hudens kvalitet och utseende, oavsett område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
