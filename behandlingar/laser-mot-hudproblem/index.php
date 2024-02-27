@@ -51,25 +51,25 @@ $nav_buttons = array(
 $description_title = 'Vad är laser mot hudproblem?';
 $description_text = '<p class="p200">Vår fraktionerade CO2-laserbehandling på AcneSpecialisten sträcker sig även till att effektivt behandla stora porer, ett vanligt hudproblem som många upplever. Denna avancerade lasermetod är idealisk för att förfina hudens textur och minska synligheten av förstorade porer. Genom att målinriktat behandla de drabbade områdena, arbetar lasern för att stimulera hudens naturliga förnyelseprocess och därigenom förbättra hudens struktur.</p>
 <p class="p200 mt-m">Genom att exfoliera det yttre hudlagret och stimulera kollagenproduktionen under huden, bidrar behandlingen till att dra åt och minimera storleken på porerna. Detta leder inte bara till en synlig förbättring av porernas utseende utan även till en övergripande jämnare och klarare hudton. Vår fraktionerade CO2-laser är således en utmärkt behandlingsmetod för dig som vill uppnå en förfinad hudtextur och en minskning av stora porer, samtidigt som du behandlar andra hudproblem som ärrbildning, rynkor och fina linjer.</p>
-<p class="p200 mt-m">Oavsett dina hudproblem, vårt mål på AcneSpecialisten är att erbjuda effektiva och skräddarsydda behandlingar som förbättrar din hudkvalitet och ger dig en mer ungdomlig och fräsch utstrålning.</p>';
+<p class="p200 mt-m">Oavsett dina hudproblem är vårt mål på AcneSpecialisten är att erbjuda effektiva och skräddarsydda behandlingar som förbättrar din hudkvalitet och ger dig en mer ungdomlig och fräsch utstrålning.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför laser mot problemhy',
+        title: 'Förberedelser inför laserbehandling',
         image_small: '/bilder/process/358x272/laser-forberedelser.webp',
         image_large: '/bilder/process/872x456/laser-forberedelser.webp',
-        image_alt: 'Förberedelser inför laser mot problemhy',
-        image_title: 'Förberedelser inför laser mot problemhy',
-        content: '<p class="p200">Inför din laserbehandling mot problemhy på AcneSpecialisten, rekommenderar vi att du börjar med en kostnadsfri konsultation. Detta steg är essentiellt för att vi ska kunna förbereda din hud optimalt och förstå dina specifika behov. Under konsultationen diskuterar vi din hudtyp, eventuella hudproblem och dina mål med behandlingen. Vi tar även en titt på din nuvarande hudvårdsrutin och gör nödvändiga justeringar inför behandlingen.</p>
+        image_alt: 'Förberedelser inför laserbehandling',
+        image_title: 'Förberedelser inför laserbehandling',
+        content: '<p class="p200">Inför din laserbehandling mot hudproblem på AcneSpecialisten, rekommenderar vi att du börjar med en kostnadsfri konsultation. Detta steg är essentiellt för att vi ska kunna förbereda din hud optimalt och förstå dina specifika behov. Under konsultationen diskuterar vi din hudtyp, eventuella hudproblem och dina mål med behandlingen. Vi tar även en titt på din nuvarande hudvårdsrutin och gör nödvändiga justeringar inför behandlingen.</p>
         <p class="p200 mt-m">För att förbereda din hud för laserbehandlingen är det viktigt att du undviker solbränna och stark sol under veckorna före behandlingen. Solbränd hud kan vara mer känslig, vilket kan påverka behandlingens effektivitet och säkerhet. Dessutom rekommenderas att du undviker hudvårdsprodukter med starka ingredienser, som exfolierande syror, minst en vecka före din behandling för att minimera risken för irritation.</p>
         <p class="p200 mt-m">Din säkerhet och komfort är vår högsta prioritet. Vi uppmuntrar dig att dela alla hudrelaterade tillstånd eller bekymmer under konsultationen. Detta säkerställer att vi kan skräddarsy behandlingen efter dina unika behov och ge dig den bästa möjliga upplevelsen och resultaten med vår laserbehandling.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går laser mot problemhy till?',
+        title: 'Hur går laser mothudproblem till?',
         image_small: '/bilder/process/358x272/laser-process.webp',
         image_large: '/bilder/process/872x456/laser-process.webp',
-        image_alt: 'Hur går laser mot problemhy till?',
-        image_title: 'Hur går laser mot problemhy till?',
+        image_alt: 'Hur går laser mot hudproblem till?',
+        image_title: 'Hur går laser mot hudproblem till?',
         content: '<p class="p200">När du kommer till AcneSpecialisten för en laserbehandling mot problemhy, startar vi med en noggrann rengöring av ditt behandlingsområde. Detta är en viktig del i processen för att säkerställa att huden är fri från smuts och oljor, vilket gör behandlingen mer effektiv.</p>
         <p class="p200 mt-m">Vår fraktionerade CO2-laserbehandling involverar användning av avancerad laser-teknologi för att rikta in sig på djupet av huden. Lasern skapar mikroskopiska "zoner" av skada i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar kollagen- och elastinproduktion. Denna process hjälper till att minska synligheten av ärr, inklusive acneärr, operationsärr, och bristningar. Den är även effektiv för att behandla rynkor och fina linjer, samt utföra huduppfräschning och hudresurfacing.</p>
         <p class="p200 mt-m">Under behandlingen kan du känna en värmande känsla, men vi använder kylsystem och bedövningsmedel för att göra upplevelsen så bekväm som möjligt. Efter behandlingen kan det uppstå rodnad och svullnad, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig noggranna instruktioner för eftervård för att säkerställa en snabb och smidig läkningsprocess. Resultaten från behandlingen utvecklas över tid, när huden gradvis förnyas och förbättras från insidan.</p>',
