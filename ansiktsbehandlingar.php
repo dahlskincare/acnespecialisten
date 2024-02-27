@@ -437,21 +437,23 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
+            title: 'Varför ska man göra ansiktsbehandling?',
+            text: '<p class="p200">Ansiktsbehandlingar erbjuder en rad fördelar för huden, inklusive djuprengöring, återfuktning, och exfoliering, vilket kan hjälpa till att förbättra hudens textur och utseende. Regelbundna behandlingar kan även minska tecken på åldrande, behandla akne och minska synligheten av porer. Genom att anpassa behandlingen efter din specifika hudtyp och behov, kan en ansiktsbehandling också bidra till en friskare, mer strålande hud med förbättrad elasticitet och fasthet.</p>'
         ),
         new Question(
-            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
-            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
+            title: 'Hur ofta ska man göra ansiktsbehandling?',
+            text: '<p class="p200">Frekvensen för ansiktsbehandlingar kan variera beroende på flera faktorer, såsom din hudtyp, hudens tillstånd, och specifika hudproblem. Generellt rekommenderas det att göra en ansiktsbehandling var 4:e till 6:e vecka för att stödja hudens naturliga förnyelsecykel och uppnå bästa möjliga resultat. Det är dock viktigt att konsultera med en hudterapeut som kan ge råd baserat på dina individuella behov.</p>'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
-            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
+            title: 'Vad kostar en ansiktsbehandling?',
+            text: '<p class="p200">Priset för en ansiktsbehandling hos oss varierar beroende på vilken typ av behandling du väljer. Vi erbjuder ett brett utbud av ansiktsbehandlingar, utformade för att möta olika hudvårdsbehov och önskemål. Våra priser börjar från 995 kr för grundläggande behandlingar och kan gå upp till 1995 kr för mer avancerade alternativ. För att se de specifika priserna för varje behandling, vänligen referera till prislistan i texten ovanför. Vi strävar efter att erbjuda behandlingar av högsta kvalitet, anpassade efter dina individuella behov, för att säkerställa att du får bästa möjliga resultat och valuta för pengarna.</p>'
         ),
         new Question(
-            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
-            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
-        )
+            title: 'Vilken ansiktsbehandling är bäst?',
+            text: '<p class="p200">Det finns ingen "bästa" ansiktsbehandling som passar alla eftersom varje persons hud är unik, med olika behov och problem. Populära behandlingar inkluderar hydrerande ansiktsbehandlingar, anti-aging behandlingar, och djuprengörande behandlingar för aknebenägen hud. För att hitta den bästa behandlingen för just dig, rekommenderas det att du konsulterar med en professionell hudterapeut som kan analysera din hudtyp, diskutera dina hudvårdsbehov, och rekommendera en skräddarsydd behandlingsplan.</p>
+
+            <p class="p200 mt-xl">Dessa svar är designade för att vara både informativa och engagerande, och bör anpassas ytterligare för att passa den specifika tonen och stilen på din webbsida. Det är också viktigt att uppdatera informationen regelbundet för att återspegla eventuella förändringar i behandlingar, priser, och hudvårdstrender.</p>'
+        ),
     )
 );
 
