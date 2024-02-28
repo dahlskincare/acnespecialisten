@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Laserbehandling ansiktet för dina hud';
+$seo_title = 'Laserbehandling ansiktet för dina hudproblem';
 $seo_description = 'Avancerade laserbehandlingar för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
 $seo_keywords = 'CO2-laser, laserbehandling, problemhy, acneärr, förbättrad hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
 
