@@ -65,7 +65,7 @@ $top_articles = array(
         <p class="p200 mt-m">Din säkerhet och komfort är vår högsta prioritet. Vi uppmuntrar dig att dela alla hudrelaterade tillstånd eller bekymmer under konsultationen. Detta säkerställer att vi kan skräddarsy behandlingen efter dina unika behov och ge dig den bästa möjliga upplevelsen och resultaten med vår laserbehandling.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går laserbehandlingen till?',
+        title: 'Hur går en laserbehandlingen till?',
         image_small: '/bilder/process/358x272/laser-process.webp',
         image_large: '/bilder/process/872x456/laser-process.webp',
         image_alt: 'Hur går laserbehandlingen till?',
@@ -273,78 +273,12 @@ $treatment_areas = array(
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
-                duration: '90 min',
-                price: '4595 kr',
+                duration: '50-90 min',
+                price: 'Från 2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Laser_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/panna.webp',
-                image_alt: 'Panna',
-                image_title: 'Panna',
-                title: 'Panna',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Laser_Forehead',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling i pannan'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/nasa.webp',
-                image_alt: 'Näsa',
-                image_title: 'Näsa',
-                title: 'Näsa',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Laser_Nose',
-                url_label: 'Boka',
-                url_title: 'Boka tid för näsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/kinder.webp',
-                image_alt: 'Kinder',
-                image_title: 'Kinder',
-                title: 'Kinder',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Laser_Cheeks',
-                url_label: 'Boka',
-                url_title: 'Boka tid för kindbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/overlapp.webp',
-                image_alt: 'Överläpp',
-                image_title: 'Överläpp',
-                title: 'Överläpp',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Laser_UpperLip',
-                url_label: 'Boka',
-                url_title: 'Boka tid för överläppsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/haka.webp',
-                image_alt: 'Haka',
-                image_title: 'Haka',
-                title: 'Haka',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Laser_Chin',
-                url_label: 'Boka',
-                url_title: 'Boka tid för hakbehandling'
-            ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">Vi behandlar flera olika delar av kroppen.</p>',
-        items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Hals',
