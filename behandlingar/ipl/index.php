@@ -533,7 +533,7 @@ $faq_categories = array(
     'Vanliga Frågor för IPL' => array(
         new Question(
             title: 'Hur många IPL-behandlingar behövs vanligtvis?',
-            text: '<p class="p200">Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-8 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.</p>'
+            text: '<p class="p200">Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-5 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.</p>'
         ),
         new Question(
             title: 'Kan mina hudproblem återkomma efter en IPL-behandling?',
