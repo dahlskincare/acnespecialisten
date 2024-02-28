@@ -188,7 +188,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'IPL - Ansikte',
+                title: 'IPL hudföryngring hela ansiktet',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
@@ -400,6 +400,38 @@ $service_brands = array(
 $results = array(
     new ResultCustomer(
         url: '',
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        url_title: 'Rosacea resultat',
+        image_alt: 'Rosacea resultat',
+        image_title: 'Rosacea resultat',
+        age: 33,
+        gender: 'Kvinna',
+        problem: 'Rosacea',
+        type: 'Svår',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">IPL ansikte före och efter</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Rosaceabehandling',
+                    count: '3 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår rosacea',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Julia Eklund'
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
         image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
         image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
@@ -455,38 +487,6 @@ $results = array(
             product: new ResultProduct(
                 image: 'https://via.placeholder.com/102x102.webm',
                 name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-        url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
-        age: 33,
-        gender: 'Kvinna',
-        problem: 'Rosacea',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Rosaceabehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår rosacea',
             ),
             employee: new ResultEmployee(
                 image: 'https://via.placeholder.com/102x102.webm',
