@@ -108,7 +108,7 @@ $top_articles = array(
     ),*/
 );
 
-$types_title = 'Hudproblem som behandlas med microneedling';
+$types_title = 'Microneedling efter hudproblem';
 $types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
 $types = array(
     new Service(
@@ -147,7 +147,7 @@ $types = array(
         title: 'Microneedling mot Stora Porer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Förfining och minskning av stora porer med våra riktade microneedlingbehandlingar som främjar en slätare hud.',
+        content: 'Reducera och minska stora porer med våra resultatinriktade microneedlingbehandling som främjar en slätare hud.',
         image_small: 'bilder/problem/102x102/stora-porer.webp',
         image_large: 'bilder/problem/200x200/stora-porer.webp',
         image_alt: 'Microneedling för Stora Porer',
@@ -179,7 +179,7 @@ $types = array(
         title: 'Microneedling mot Bristningar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Förbättra utseendet på bristningar genom att stimulera återuppbyggnaden av kollagen och elastin i huden.',
+        content: 'Förbättra bristningarnas utseendet genom att stimulera återuppbyggnaden av kollagen och elastin i huden.',
         image_small: 'bilder/problem/102x102/bristningar.webp',
         image_large: 'bilder/problem/200x200/bristningar.webp',
         image_alt: 'Microneedling för Bristningar',
@@ -209,7 +209,7 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Microneedling';
+$treatment_areas_title = 'Microneedling efter område';
 $treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
