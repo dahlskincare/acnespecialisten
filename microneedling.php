@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är microneedling?';
-$description_text = '<p class="p200">Microneedling är en effektiv och revolutionerande behandlingsmetod anpassad för alla hudtyper som syftar till att förbättra hudens struktur och utseende. Med hjälp av 16 tunna, medicinska engångsnålar skapas tusentals mikroskopiska kanaler i huden, vilket möjliggör djup penetration av uppbyggande och näringsrika serum. Denna process stimulerar hudens egen förmåga till förnyelse och reparationsmekanismer.</p>
-    <p class="p200 mt-m">Den här helt digitala microneedling-tekniken är ett smärtfritt alternativ till traditionella metoder som laser, och erbjuder minimala risker för biverkningar. Det passar en mångfald av hudtillstånd, inklusive men inte begränsat till åldrande hud, ärrbildningar, ojämn hudton och textur. Genom att aktivera hudens egen kollagenproduktion, förbättras spänsten, lystern och konditionen i huden, vilket resulterar i en fräschare och mer ungdomlig hy.</p>';
+$description_text = '<p class="p200">Microneedling är en effektiv och revolutionerande behandlingsmetod anpassad för alla hudtyper som syftar till att förbättra hudens struktur och utseende. Med hjälp av 16 tunna, medicinska engångsnålar skapas tusentals mikroskopiska kanaler i huden, vilket möjliggör djup penetration av uppbyggande och näringsrika serum. Denna process stimulerar hudens egen förmåga till cellförnyelse och återuppbyggnad.</p>
+    <p class="p200 mt-m">Den digitala microneedling-tekniken är ett smärtfritt alternativ till traditionella metoder som laser, och erbjuder minimala risker för biverkningar. Det passar en mångfald av hudtillstånd, inklusive men inte begränsat till åldrande hud, ärrbildningar, ojämn hudton och textur. Genom att aktivera hudens egen kollagenproduktion, förbättras spänsten, lystern och hudens utseende, vilket resulterar i en fräschare och mer ungdomlig hy.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
