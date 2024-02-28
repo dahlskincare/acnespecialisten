@@ -532,24 +532,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     'Vanliga Frågor för IPL' => array(
         new Question(
-            title: 'Hur många IPL-behandlingar behövs vanligtvis?',
-            text: '<p class="p200">Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-5 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.</p>'
-        ),
-        new Question(
-            title: 'Kan mina hudproblem återkomma efter en IPL-behandling?',
-            text: '<p class="p200">IPL-behandlingar är mycket effektiva för att adressera befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea. Men det är viktigt att notera att nya hudproblem kan uppstå på grund av faktorer som åldrande och solskador. En regelbunden hudvårdsrutin och skydd mot solen är viktigt för att underhålla resultaten, och ytterligare behandlingar kan behövas för att upprätthålla effekterna över tid.</p>'
-        ),
-        new Question(
-            title: 'Hur snabbt kan jag se resultat efter en IPL-behandling?',
-            text: '<p class="p200">Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.</p>'
-        ),
-        new Question(
             title: 'Hur fungerar IPL hårborttagning?',
-            text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.<a class="b200 underline color-deep-sea-400" href="/permanent-harborttagning.php">Läs mer om Permanent Hårborttagning här</a></p>'
+            text: '<p class="p200">Vi erbjuder inte IPL för hårborttagning, utan fokuserar på laserbehandlingar för detta ändamål. Laserbehandling är en mer avancerad och effektiv metod för permanent hårborttagning. Den är designad för att vara snabbare, mindre smärtsam, och kräver färre behandlingar för att uppnå önskat resultat. IPL, som var en tidig metod för ljusbaserad hårborttagning, har med tiden blivit mindre populär jämfört med de nyare och mer effektiva lasermetoderna.</p>'
         ),
         new Question(
-            title: 'Graviditet och amning',
-            text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.</p>'
+            title: 'Hur fungerar IPL?',
+            text: '<p class="p200">IPL, eller Intensivt Pulsat Ljus, fungerar genom att använda ett brett spektrum av ljus för att målriktat behandla olika hudtillstånd. Till skillnad från laser som använder en specifik våglängd, skickar IPL ut ljus i flera våglängder som kan tränga igenom olika djup av huden. Detta gör IPL till en mångsidig behandling som kan anpassas för att adressera en rad olika hudproblem, inklusive pigmentfläckar, ytliga blodkärl, och hudföryngring genom att stimulera kollagenproduktionen.</p>'
+        ),
+        new Question(
+            title: 'Hur många IPL-behandlingar behövs?',
+            text: '<p class="p200">Antalet IPL-behandlingar varierar beroende på individens hudtillstånd och det specifika problem som behandlas. Generellt rekommenderas 3-5 behandlingar för att uppnå optimala resultat. Under den kostnadsfria konsultationen kommer en hudterapeut att noggrant undersöka ditt hudtillstånd och skapa en personlig behandlingsplan. Denna plan anpassas efter dina specifika behov och mål, för att säkerställa de bästa möjliga resultaten.</p>'
+        ),
+        new Question(
+            title: 'Vad står IPL för?',
+            text: '<p class="p200">IPL står för Intensivt Pulsat Ljus. Denna teknik använder ett brett ljusspektrum för att behandla en rad olika hudtillstånd. Genom att anpassa ljusets intensitet och våglängd kan IPL effektivt målriktat adressera specifika hudproblem som pigmentförändringar, ytliga blodkärl, och tecken på hudåldring. Denna flexibla och anpassningsbara metod gör IPL till en populär val för icke-invasiv hudförbättring.<a class="b200 underline color-deep-sea-400" href="/permanent-harborttagning.php">Läs mer om Permanent Hårborttagning här</a></p>'
+        ),
+        new Question(
+            title: 'Hur snabbt kan jag se ett resultat av IPL-behandling?',
+            text: '<p class="p200">Resultaten av IPL-behandling kan variera beroende på vilket hudproblem som behandlas. För pigmenteringar och solskador kan vissa patienter märka en ljusare och jämnare hudton redan efter en behandling, medan andra kan behöva flera behandlingar för att se fullständiga resultat. Vid behandling av ytliga blodkärl kan förbättringar ofta ses direkt efter behandlingen, även om det kan krävas ytterligare behandlingar för att helt eliminera kärlen. Det är viktigt att ha realistiska förväntningar och diskutera med din hudterapeut hur behandlingsprocessen ser ut och när du kan förvänta dig att se resultat.</p>'
         ),
         new Question(
             title: 'Ljuskänsliggörande mediciner',
