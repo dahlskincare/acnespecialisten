@@ -546,19 +546,19 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många laserbehandlingar mot problemhy krävs?',
-            text: 'Antalet laserbehandlingar för problemhy varierar beroende på individens specifika hudtillstånd och mål. Ofta rekommenderas en serie av 3-5 behandlingar med några veckors mellanrum. En individuell behandlingsplan och rekommendationer kommer att ges under en konsultation.'
+            title: 'Hur många laserbehandlingar krävs?',
+            text: 'Antalet laserbehandlingar för problemhy varierar beroende på individens specifika hudproblem och mål. Ofta rekommenderas en serie av 3-5 behandlingar. En individuell behandlingsplan och rekommendationer kommer att ges under en konsultation.'
         ),
         new Question(
             title: 'Är resultaten från laserbehandling mot problemhy bestående?',
-            text: 'Laserbehandlingar kan ge långsiktiga förbättringar, men det är viktigt att komma ihåg att hudens åldrande och yttre faktorer kan påverka hållbarheten av resultaten. En kontinuerlig hudvårdsrutin och eventuellt periodiska uppföljningsbehandlingar kan behövas för att bibehålla effekterna.'
+            text: 'Vårt primära mål med laserbehandling är att erbjuda en effektiv lösning för specifika hudproblem. Varje behandlingsplan skräddarsys utifrån individuella behov och mål, vilket vi grundligt går igenom under den initiala konsultationen. Detta säkerställer att du har realistiska förväntningar på vad som kan uppnås. När det gäller hudproblem, uppnår vi ofta långvariga förbättringar genom att målmedvetet adressera och behandla underliggande tillstånd. Det är dock viktigt att förstå att åldrande hud är en naturlig process som inte kan stoppas helt. Våra laserbehandlingar kan dock markant förbättra hudens utseende genom att minska synligheten av rynkor, fina linjer och slapphet, vilket ger ett friskare och mer ungdomligt utseende. Vi strävar efter att ge dig bestående resultat där det är möjligt, men rekommenderar även en anpassad hudvårdsrutin för att upprätthålla dessa resultat över tid.'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig direkt efter en laserbehandling mot problemhy?',
+            title: 'Vad kan jag förvänta mig direkt efter en laserbehandling?',
             text: 'Efter en laserbehandling mot problemhy kan du uppleva viss rodnad, svullnad eller känslighet i det behandlade området. Dessa reaktioner är normala och bör avta inom några dagar. Det är viktigt att följa eftervårdsinstruktionerna och skydda huden mot solen.'
         ),
         new Question(
-            title: 'Behöver jag speciell eftervård efter en laserbehandling mot problemhy?',
+            title: 'Behöver jag speciell eftervård efter en laserbehandling?',
             text: 'Eftervård är viktig för att upprätthålla resultaten av din laserbehandling. Det innefattar användning av solskydd, undvikande av direkt solstrålning och användning av milda hudvårdsprodukter. Din hudterapeut kommer att ge dig specifika råd baserade på din behandling och hudtyp.'
         ),
         new Question(
