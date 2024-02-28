@@ -545,7 +545,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur fungerar IPL hårborttagning?',
-            text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.<a href="/permanent-harborttagning.php">Permanent Hårborttagning</a></p>'
+            text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.<a class="b200 underline color-deep-sea-400" href="/permanent-harborttagning.php">Läs mer om Permanent Hårborttagning här</a></p>'
         ),
         new Question(
             title: 'Graviditet och amning',
