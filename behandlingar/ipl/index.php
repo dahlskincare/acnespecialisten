@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL för Blodkärl, Pigmentfläckar & Rosacea | Acnespecialisten';
-$seo_description = 'Specialiserade på att behandla ytliga blodkärl, pigmentfläckar och rosacea, erbjuder AcneSpecialisten avancerade IPL-behandlingar. Denna ljusbaserade teknologi riktar sig selektivt mot hudens ojämnheter, reducerar synligheten av blodkärl, pigmentering och symtom på rosacea för en klarare och mer harmonisk hudton.';
-$seo_keywords = 'IPL-behandling, Intensivt Pulserande Ljus';
+$seo_title = 'Bästa IPL behandling i Stockholm - Effektiv Hudförbättring';
+$seo_description = 'Upptäck Stockholms ledande klinik för IPL-behandlingar. Våra hudterapeuter erbjuder skräddarsydda lösningar för hudföryngring, pigmentering, och mer. Boka en kostnadsfri konsultation idag för att uppleva den bästa IPL behandlingen i Stockholm.';
+$seo_keywords = 'IPL ehandling, Intensivt Pulserande Ljus, IPL Stockholm, Vad är IPL?';
 
 $seo_image = '/images/treatments/large/ipl.webp';
 
@@ -188,7 +188,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'IPL hudföryngring hela ansiktet',
+                title: 'IPL hudföryngring - hela ansiktet',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
