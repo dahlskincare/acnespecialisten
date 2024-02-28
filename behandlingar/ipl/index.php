@@ -888,7 +888,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 </section>
                 <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">IPL före och efter bilder</h2>
+                        <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                         <div class="flex-row is-hidden-mobile">
                             <div class="step-buttons">
                                 <button class="round-large grey" onclick="Reviews.scroll(-1)">
