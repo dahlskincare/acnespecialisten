@@ -179,7 +179,7 @@ $types = array(
         title: 'Laserbehandling mot Stora Porer',
         duration: '90 minuter',
         price: '4595 kr',
-        content: ' okuserar på att minska porernas storlek genom att stimulera kollagenproduktionen under huden, vilket leder till en slätare och mer enhetlig hudton.',
+        content: 'Fokuserar på att minska porernas storlek genom att stimulera kollagenproduktionen under huden, vilket leder till en slätare och mer enhetlig hudton.',
         image_small: 'bilder/problem/102x102/stora-porer.webp',
         image_large: 'bilder/problem/200x200/stora-porer.webp',
         image_alt: 'Laserbehandling mot Stora Porer',
