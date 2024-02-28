@@ -236,8 +236,8 @@ $treatment_areas = array(
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'Näsa',
-                duration: '30 min',
-                price: '1295 kr',
+                duration: '20 min',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för näsbehandling'
@@ -248,7 +248,7 @@ $treatment_areas = array(
                 image_title: 'Kinder',
                 title: 'Kinder',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för kindbehandling'
@@ -258,8 +258,8 @@ $treatment_areas = array(
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
                 title: 'Överläpp',
-                duration: '30 min',
-                price: '1295 kr',
+                duration: '20 min',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP&area=Microneedling_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för överläppsbehandling'
@@ -269,8 +269,8 @@ $treatment_areas = array(
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Haka',
-                duration: '30 min',
-                price: '1295 kr',
+                duration: '20 min',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för hakbehandling'
@@ -345,7 +345,7 @@ $treatment_areas = array(
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
-                duration: '70 min',
+                duration: '60 min',
                 price: '3595 kr',
                 url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP&area=Microneedling_2xAreas',
                 url_label: 'Boka',
@@ -356,7 +356,7 @@ $treatment_areas = array(
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
-                duration: '90 min',
+                duration: '70 min',
                 price: '4595 kr',
                 url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP&area=Microneedling_3xAreas',
                 url_label: 'Boka',
@@ -372,7 +372,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: '/bilder/process/872x456/microneedling-eftervard.webp',
     image_alt: 'Efter microneedling behandling',
     image_title: 'Efter microneedling behandling',
-    content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter proceduren är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera makeup de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
+    content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter behandlingen är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera smink de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvik kraftig motion, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera en bredspektrum solskyddsfaktor dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan parfym eller andra irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbunden uppföljning och eventuellt ytterligare behandlingar kan rekommenderas beroende på din huds individuella svar och de mål du strävar efter med din hudvård.</p>',
     tags: array()
