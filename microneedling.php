@@ -112,7 +112,7 @@ $types_title = 'Hudproblem som behandlas med microneedling';
 $types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
 $types = array(
     new Service(
-        title: 'Microneedling för Acneärr',
+        title: 'Microneedling mot Acneärr',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Vår microneedlingbehandling för acneärr stimulerar kollagenproduktion för att minska synligheten av ärr och förbättra hudens textur.',
@@ -128,10 +128,10 @@ $types = array(
         booking_url_title: 'Boka microneedling för acneärr',
     ),
     new Service(
-        title: 'Microneedling för Rynkor & Fina Linjer',
+        title: 'Microneedling mot Rynkor & Fina Linjer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Utjämna rynkor och fina linjer med vår microneedlingbehandling som hjälper till att förnya och strama upp huden.',
+        content: 'Utjämna rynkor och fina linjer med vår microneedling som hjälper till att förnya och strama upp huden.',
         image_small: 'bilder/problem/102x102/mogen-hy.webp',
         image_large: 'bilder/problem/200x200/mogen-hy.webp',
         image_alt: 'Microneedling för Rynkor & Fina Linjer',
@@ -144,7 +144,7 @@ $types = array(
         booking_url_title: 'Boka microneedling för rynkor & fina linjer',
     ),
     new Service(
-        title: 'Microneedling för Stora Porer',
+        title: 'Microneedling mot Stora Porer',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Förfining och minskning av stora porer med våra riktade microneedlingbehandlingar som främjar en slätare hud.',
@@ -160,7 +160,7 @@ $types = array(
         booking_url_title: 'Boka microneedling för stora porer',
     ),
     new Service(
-        title: 'Microneedling för Pigmentfläckar',
+        title: 'Microneedling mot Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Minska synligheten av pigmentfläckar och återställ en jämn hudton.',
@@ -176,7 +176,7 @@ $types = array(
         booking_url_title: 'Boka microneedling för pigmentfläckar',
     ),
     new Service(
-        title: 'Microneedling för Bristningar',
+        title: 'Microneedling mot Bristningar',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Förbättra utseendet på bristningar genom att stimulera återuppbyggnaden av kollagen och elastin i huden.',
@@ -192,7 +192,7 @@ $types = array(
         booking_url_title: 'Boka microneedling för bristningar',
     ),
     new Service(
-        title: 'Microneedling för Aktiv Acne',
+        title: 'Microneedling mot Aktiv Acne',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Skapar en kontrollerad skada i huden som påskyndar hudens läkningsprocess för att reducera inflammation och förbättra hudens textur.',
