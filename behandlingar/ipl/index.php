@@ -18,7 +18,7 @@ $model = new Service(
     title: 'IPL behandling',
     duration: null,
     price: 'Från 2332 kr',
-    content: '',
+    content: '<p class="p200">Vi erbjuder den bästa IPL-behandlingen för effektiv hudföryngring i Stockholm. Vår expertis och avancerade teknik garanterar resultat som förbättrar hudens utseende och kvalitet. Oavsett om du söker permanenta lösningar för pigmentfläckar, ytliga kärl eller ojämn hudton, är vår IPL-behandling anpassad för att möta dina behov.</p>',
     image_small: 'bilder/behandlingar/358x274/ipl.webp',
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL',
