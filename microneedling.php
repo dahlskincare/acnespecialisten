@@ -210,7 +210,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Microneedling efter område';
-$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för olika delar av ansiktet och kroppen. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
+$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för olika delar av ansiktet och kroppen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
