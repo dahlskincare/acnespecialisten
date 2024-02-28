@@ -370,11 +370,11 @@ $bottom_articles = array('aftercare' => new Article(
     image_title: 'Efter IPL-behandling',
     content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller starka produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen bör du undvika intensiv fysisk aktivitet, bastu och långa varma duschar som kan förvärra svullnad och irritation. Användning av solskydd är kritiskt; det är viktigt att regelbundet applicera en hög SPF för att skydda huden mot UV-strålning, vilket är särskilt viktigt för det behandlade området. Vi rekommenderar även att du använder milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och upprätthålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din behandlare ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård.</p>',
+    <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din hudterapeut ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård.</p>',
 ));
 
-$service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_title = 'Varumärken för IPL i Stockholm';
+$service_brands_text = '';
 $service_brands = array(
 
     new Brand(
@@ -530,7 +530,7 @@ $reviews_view_more = 'Se alla omdömen';
 
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
-    'Vanliga Frågor' => array(
+    'Vanliga Frågor för IPL' => array(
         new Question(
             title: 'Hur många IPL-behandlingar behövs vanligtvis?',
             text: '<p class="p200">Antalet IPL-behandlingar som krävs varierar beroende på individens specifika hudtillstånd och de mål som satts upp. Generellt sett kan man behöva 3-8 behandlingar med ungefär 4 veckors mellanrum för att uppnå optimala resultat. En individuell behandlingsplan upprättas under din initiala konsultation baserat på dina unika hudbehov.</p>'
@@ -543,8 +543,6 @@ $faq_categories = array(
             title: 'Hur snabbt kan jag se resultat efter en IPL-behandling?',
             text: '<p class="p200">Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.</p>'
         ),
-    ),
-    'Kontraindikationer' => array(
         new Question(
             title: 'Graviditet och amning',
             text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.</p>'
@@ -556,10 +554,6 @@ $faq_categories = array(
         new Question(
             title: 'Aktiv solbränna eller nyligen solariumanvändning',
             text: '<p class="p200">IPL-behandlingar är inte lämpliga för nyligen solbränd hud eller hud som exponerats för UV-strålar i solarium.</p>'
-        ),
-        new Question(
-            title: 'Historik av keloidärrbildning eller onormal ärrbildning',
-            text: '<p class="p200">Personer med en historik av keloider eller onormal ärrbildning bör undvika IPL-behandlingar på grund av risken för ytterligare ärrbildning.</p>'
         ),
     ),
 );
