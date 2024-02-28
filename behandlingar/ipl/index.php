@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'IPL',
+    title: 'IPL behandling',
     duration: null,
     price: 'Från 2332 kr',
     content: '',
