@@ -109,25 +109,8 @@ $top_articles = array(
 );
 
 $types_title = 'Hudproblem som behandlas med microneedling';
-$types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd. Microneedling kan användas för att adressera och förbättra tillstånd och du hittar alla problem vi behandlar här.';
+$types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
 $types = array(
-    new Service(
-        title: 'Microneedling för Aktiv Acne',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Skapar en kontrollerad skada i huden som påskyndar hudens läkningsprocess för att reducera inflammation och förbättra hudens textur.',
-        image_small: 'bilder/problem/102x102/acne.webp',
-        image_large: 'bilder/problem/200x200/acne.webp',
-        image_alt: 'Microneedling för Aktiv Acne',
-        image_title: 'Microneedling för Aktiv Acne',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka microneedling för aktiv acne',
-    ),
-
     new Service(
         title: 'Microneedling för Acneärr',
         duration: '50 minuter',
@@ -144,7 +127,6 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för acneärr',
     ),
-
     new Service(
         title: 'Microneedling för Rynkor & Fina Linjer',
         duration: '50 minuter',
@@ -161,7 +143,6 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för rynkor & fina linjer',
     ),
-
     new Service(
         title: 'Microneedling för Stora Porer',
         duration: '50 minuter',
@@ -178,7 +159,6 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för stora porer',
     ),
-
     new Service(
         title: 'Microneedling för Pigmentfläckar',
         duration: '50 minuter',
@@ -195,7 +175,6 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för pigmentfläckar',
     ),
-
     new Service(
         title: 'Microneedling för Bristningar',
         duration: '50 minuter',
@@ -212,7 +191,22 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för bristningar',
     ),
-
+    new Service(
+        title: 'Microneedling för Aktiv Acne',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Skapar en kontrollerad skada i huden som påskyndar hudens läkningsprocess för att reducera inflammation och förbättra hudens textur.',
+        image_small: 'bilder/problem/102x102/acne.webp',
+        image_large: 'bilder/problem/200x200/acne.webp',
+        image_alt: 'Microneedling för Aktiv Acne',
+        image_title: 'Microneedling för Aktiv Acne',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka microneedling för aktiv acne',
+    ),
 );
 
 $treatment_areas_title = 'Behandlingsområden för Microneedling';
