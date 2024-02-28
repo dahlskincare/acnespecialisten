@@ -97,7 +97,7 @@ $top_articles = array(
         content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till en av våra kliniker för behandling, kommer din hud först att rengöras grundligt för att avlägsna makeup och orenheter.</p>
         <p class="p200 mt-m">Vår speciellt utformade microneedling maskin använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också näringsrika serum som slussas in kanalerna i hudenf för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
     ),
-    /*'boost' => new Article(
+    'boost' => new Article(
         title: 'Boosta din Microneedling med PRX-T33-behandling',
         image_small: null,
         image_large: null,
@@ -105,7 +105,7 @@ $top_articles = array(
         image_title: 'Boosta Microneedling effekten med PRX-T33',
         content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
             <p class="p200 mt-m">PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en omfattande minskning av fina linjer och ojämnheter.</p>',
-    ),*/
+    ),
 );
 
 $types_title = 'Microneedling efter hudproblem';
