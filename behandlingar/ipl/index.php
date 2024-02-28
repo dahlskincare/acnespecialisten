@@ -544,6 +544,10 @@ $faq_categories = array(
             text: '<p class="p200">Resultaten från en IPL-behandling kan variera från person till person. Många upplever en synlig förbättring redan efter den första behandlingen, men de fullständiga effekterna blir ofta tydligare efter en serie behandlingar. Förändringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas och förbättras under veckorna mellan behandlingarna och efter behandlingsserien är avslutad.</p>'
         ),
         new Question(
+            title: 'Hur fungerar IPL hårborttagning?',
+            text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.<a href="/permanent-harborttagning.php">Permanent Hårborttagning</a></p>'
+        ),
+        new Question(
             title: 'Graviditet och amning',
             text: '<p class="p200">IPL-behandlingar rekommenderas inte under graviditet eller amning då säkerheten för dessa tillstånd inte är tillräckligt studerad.</p>'
         ),
