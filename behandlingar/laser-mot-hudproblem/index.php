@@ -547,23 +547,35 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många laserbehandlingar krävs?',
-            text: 'Antalet laserbehandlingar för problemhy varierar beroende på individens specifika hudproblem och mål. Ofta rekommenderas en serie av 3-5 behandlingar. En individuell behandlingsplan och rekommendationer kommer att ges under en konsultation.'
+            text: '<p class="p200">Antalet laserbehandlingar för problemhy varierar beroende på individens specifika hudproblem och mål. Ofta rekommenderas en serie av 3-5 behandlingar. En individuell behandlingsplan och rekommendationer kommer att ges under en konsultation.</p>'
         ),
         new Question(
             title: 'Är resultaten från laserbehandling mot problemhy bestående?',
-            text: 'Vårt primära mål med laserbehandling är att erbjuda en effektiv lösning för specifika hudproblem. Varje behandlingsplan skräddarsys utifrån individuella behov och mål, vilket vi grundligt går igenom under den initiala konsultationen. Detta säkerställer att du har realistiska förväntningar på vad som kan uppnås. När det gäller hudproblem, uppnår vi ofta långvariga förbättringar genom att målmedvetet adressera och behandla underliggande tillstånd. Det är dock viktigt att förstå att åldrande hud är en naturlig process som inte kan stoppas helt. Våra laserbehandlingar kan dock markant förbättra hudens utseende genom att minska synligheten av rynkor, fina linjer och slapphet, vilket ger ett friskare och mer ungdomligt utseende. Vi strävar efter att ge dig bestående resultat där det är möjligt, men rekommenderar även en anpassad hudvårdsrutin för att upprätthålla dessa resultat över tid.'
+            text: '<p class="p200">Vårt primära mål med laserbehandling är att erbjuda en effektiv lösning för specifika hudproblem. Varje behandlingsplan skräddarsys utifrån individuella behov och mål, vilket vi grundligt går igenom under den initiala konsultationen. Detta säkerställer att du har realistiska förväntningar på vad som kan uppnås. När det gäller hudproblem, uppnår vi ofta långvariga förbättringar genom att målmedvetet adressera och behandla underliggande tillstånd. Det är dock viktigt att förstå att åldrande hud är en naturlig process som inte kan stoppas helt. Våra laserbehandlingar kan dock markant förbättra hudens utseende genom att minska synligheten av rynkor, fina linjer och slapphet, vilket ger ett friskare och mer ungdomligt utseende. Vi strävar efter att ge dig bestående resultat där det är möjligt, men rekommenderar även en anpassad hudvårdsrutin för att upprätthålla dessa resultat över tid.</p>'
         ),
         new Question(
             title: 'Vad kan jag förvänta mig direkt efter en laserbehandling?',
-            text: 'Efter en laserbehandling mot problemhy kan du uppleva viss rodnad, svullnad eller känslighet i det behandlade området. Dessa reaktioner är normala och bör avta inom några dagar. Det är viktigt att följa eftervårdsinstruktionerna och skydda huden mot solen.'
+            text: '<p class="p200">Efter en laserbehandling mot problemhy kan du uppleva viss rodnad, svullnad eller känslighet i det behandlade området. Dessa reaktioner är normala och bör avta inom några dagar. Det är viktigt att följa eftervårdsinstruktionerna och skydda huden mot solen.</p>'
         ),
         new Question(
             title: 'Behöver jag speciell eftervård efter en laserbehandling?',
-            text: 'Eftervård är viktig för att upprätthålla resultaten av din laserbehandling. Det innefattar användning av solskydd, undvikande av direkt solstrålning och användning av milda hudvårdsprodukter. Din hudterapeut kommer att ge dig specifika råd baserade på din behandling och hudtyp.'
+            text: '<p class="p200">Eftervård är viktig för att upprätthålla resultaten av din laserbehandling. Det innefattar användning av solskydd, undvikande av direkt solstrålning och användning av milda hudvårdsprodukter. Din hudterapeut kommer att ge dig specifika råd baserade på din behandling och hudtyp.</p>'
         ),
         new Question(
             title: 'Hur lång tid mellan laserbehandlingarna?',
-            text: 'Tiden mellan laserbehandlingar kan variera beroende på typen av laser, behandlingens intensitet och det specifika hudtillståndet som behandlas. Generellt rekommenderas en paus på 4 till 6 veckor mellan sessionerna för de flesta laserbehandlingar. Denna tidsram ger huden tillräckligt med tid att läka och regenerera sig själv. För vissa mer intensiva laserbehandlingar, som CO2-lasern, kan det behövas en längre återhämtningstid. Det är viktigt att följa din hudvårdsspecialists rekommendationer för att uppnå bästa möjliga resultat och säkerställa en säker läkningsprocess.'
+            text: '<p class="p200">Tiden mellan laserbehandlingar kan variera beroende på typen av laser, behandlingens intensitet och det specifika hudtillståndet som behandlas. Generellt rekommenderas en paus på 4 till 6 veckor mellan sessionerna för de flesta laserbehandlingar. Denna tidsram ger huden tillräckligt med tid att läka och regenerera sig själv. För vissa mer intensiva laserbehandlingar, som CO2-lasern, kan det behövas en längre återhämtningstid. Det är viktigt att följa din hudvårdsspecialists rekommendationer för att uppnå bästa möjliga resultat och säkerställa en säker läkningsprocess.</p>'
+        ),
+        new Question(
+            title: 'Vad ska jag göra om jag nyligen har solbränt hud?',
+            text: '<p class="p200">Vi rekommenderar att du väntar med laserbehandling tills din solbränna har bleknat helt. Solbränd hud har en ökad risk för negativa effekter, såsom brännskador eller pigmentförändringar efter behandlingen. Det är viktigt att skydda huden från solen före och efter laserbehandlingen för att maximera resultaten och minimera riskerna.</p>'
+        ),
+        new Question(
+            title: 'Är det säkert att genomgå laserbehandling om jag är gravid?',
+            text: '<p class="p200">Som en försiktighetsåtgärd rekommenderar vi inte laserbehandlingar för gravida kvinnor. Det finns begränsad forskning om effekterna av laserbehandlingar under graviditeten, så vi föreslår att vänta med behandlingen tills efter graviditeten och amningsperioden.</p>'
+        ),
+        new Question(
+            title: 'Kan alla hudtyper behandlas säkert med laser?',
+            text: '<p class="p200">De flesta hudtyper kan behandlas med laser, men det finns vissa begränsningar. Personer med mycket mörk hud kan ha en ökad risk för pigmentförändringar som ett resultat av vissa lasertyper. Under den initiala konsultationen bedömer vi din hudtyp och eventuella risker för att säkerställa att behandlingen är säker och effektiv för dig.</p>'
         ),
     )
 );
