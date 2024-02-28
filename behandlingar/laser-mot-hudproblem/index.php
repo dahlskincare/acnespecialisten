@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Laserbehandling ansiktet för dina hudproblem';
+$seo_title = 'Laserbehandling ansiktet och kropp i Stockholm';
 $seo_description = 'Avancerade laserbehandlingar för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
-$seo_keywords = 'CO2-laser, laserbehandling, problemhy, acneärr, förbättrad hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
+$seo_keywords = 'laserbehandling, ansikte, kropp';
 
 $seo_image = '/images/treatments/large/laser.webp';
 
