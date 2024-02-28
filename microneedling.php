@@ -531,7 +531,11 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många microneedling behandlingar behövs?',
+            title: 'Hur ofta kan man göra microneedling?',
+            text: 'Antalet microneedling behandlingar som behövs varierar beroende på individens hudtillstånd och de mål man önskar uppnå. Generellt rekommenderas en serie på 3-8 behandlingar med intervaller på 4-6 veckor mellan varje session för bästa resultat. Ditt hudvårdsteam kan ge dig en personlig rekommendation efter en initial konsultation.'
+        ),
+        new Question(
+            title: 'Vad är microneedling bra för?',
             text: 'Antalet microneedling behandlingar som behövs varierar beroende på individens hudtillstånd och de mål man önskar uppnå. Generellt rekommenderas en serie på 3-8 behandlingar med intervaller på 4-6 veckor mellan varje session för bästa resultat. Ditt hudvårdsteam kan ge dig en personlig rekommendation efter en initial konsultation.'
         ),
         new Question(
