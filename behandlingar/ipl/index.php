@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'IPL för Blodkärl, Pigmentfläckar & Rosacea | Acnespecialisten';
 $seo_description = 'Specialiserade på att behandla ytliga blodkärl, pigmentfläckar och rosacea, erbjuder AcneSpecialisten avancerade IPL-behandlingar. Denna ljusbaserade teknologi riktar sig selektivt mot hudens ojämnheter, reducerar synligheten av blodkärl, pigmentering och symtom på rosacea för en klarare och mer harmonisk hudton.';
-$seo_keywords = 'IPL-behandling, ytliga blodkärl, pigmentfläckar, rosacea-behandling, ljusbaserad hudföryngring, hudjämnhetsförbättring, reducera rödhet, ljusa upp pigmentering, harmonisk hudton, avancerad hudvård';
+$seo_keywords = 'IPL-behandling, Intensivt Pulserande Ljus';
 
 $seo_image = '/images/treatments/large/ipl.webp';
 
@@ -363,11 +363,11 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter IPL-behandling',
+    title: 'Att tänka på efter IPL behandling',
     image_small: '/bilder/process/358x272/ipl-eftervard.webp',
     image_large: '/bilder/process/872x456/ipl-eftervard.webp',
-    image_alt: 'Efter IPL-behandling',
-    image_title: 'Efter IPL-behandling',
+    image_alt: 'Att tänka på efter IPL behandling',
+    image_title: 'Att tänka på efter IPL behandling',
     content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller starka produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen bör du undvika intensiv fysisk aktivitet, bastu och långa varma duschar som kan förvärra svullnad och irritation. Användning av solskydd är kritiskt; det är viktigt att regelbundet applicera en hög SPF för att skydda huden mot UV-strålning, vilket är särskilt viktigt för det behandlade området. Vi rekommenderar även att du använder milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och upprätthålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din hudterapeut ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård.</p>',
@@ -552,12 +552,24 @@ $faq_categories = array(
             text: '<p class="p200">Resultaten av IPL-behandling kan variera beroende på vilket hudproblem som behandlas. För pigmenteringar och solskador kan vissa patienter märka en ljusare och jämnare hudton redan efter en behandling, medan andra kan behöva flera behandlingar för att se fullständiga resultat. Vid behandling av ytliga blodkärl kan förbättringar ofta ses direkt efter behandlingen, även om det kan krävas ytterligare behandlingar för att helt eliminera kärlen. Det är viktigt att ha realistiska förväntningar och diskutera med din hudterapeut hur behandlingsprocessen ser ut och när du kan förvänta dig att se resultat.</p>'
         ),
         new Question(
-            title: 'Ljuskänsliggörande mediciner',
-            text: '<p class="p200">Personer som tar mediciner som ökar hudens ljuskänslighet, som vissa antibiotika eller retinoider, bör undvika IPL-behandlingar.</p>'
+            title: 'Kan jag genomgå en IPL-behandling om jag är gravid eller ammar?',
+            text: '<p class="p200">Nej, det rekommenderas inte att genomgå IPL-behandlingar under graviditet eller amningsperioden. Detta är en försiktighetsåtgärd för att undvika eventuella risker för både mor och barn, eftersom det inte finns tillräckligt med forskning som bekräftar säkerheten för dessa grupper.</p>'
         ),
         new Question(
-            title: 'Aktiv solbränna eller nyligen solariumanvändning',
-            text: '<p class="p200">IPL-behandlingar är inte lämpliga för nyligen solbränd hud eller hud som exponerats för UV-strålar i solarium.</p>'
+            title: 'Är IPL-behandling lämplig för alla hudtyper?',
+            text: '<p class="p200">IPL-behandlingar kan vara effektiva för många hudtyper, men de är inte lämpliga för mycket mörka hudtyper. Mörkare hudtyper har en högre risk för pigmentförändringar på grund av den intensiva ljuspulsen. En konsultation med en specialist är nödvändig för att bedöma din hudtyp och avgöra om IPL är en lämplig behandlingsmetod för dig.</p>'
+        ),
+        new Question(
+            title: 'Kan jag genomföra IPL-behandling om jag nyligen har solat?',
+            text: '<p class="p200">Det rekommenderas att undvika direkt solljus och solbränna minst två veckor före en IPL-behandling. Solbränd hud ökar risken för oönskade biverkningar som hyperpigmentering. Det är viktigt att skydda behandlingsområdet från solen både före och efter behandlingen för att uppnå de bästa resultaten.</p>'
+        ),
+        new Question(
+            title: 'Kan jag genomföra IPL-behandling om jag nyligen har solat?',
+            text: '<p class="p200">Det rekommenderas att undvika direkt solljus och solbränna minst två veckor före en IPL-behandling. Solbränd hud ökar risken för oönskade biverkningar som hyperpigmentering. Det är viktigt att skydda behandlingsområdet från solen både före och efter behandlingen för att uppnå de bästa resultaten.</p>'
+        ),
+        new Question(
+            title: ' Kan jag genomgå en IPL-behandling om jag tar medicin som gör mig ljuskänslig?',
+            text: '<p class="p200">Om du tar mediciner som ökar din ljuskänslighet, även kända som fotosensibiliserande mediciner, är det viktigt att du informerar din behandlare om detta innan du genomgår en IPL-behandling. Fotosensibiliserande mediciner kan inkludera vissa typer av antibiotika, antiinflammatoriska läkemedel, och mediciner för aknebehandling såsom isotretinoin. Dessa mediciner kan öka risken för biverkningar från IPL-behandlingen, såsom brännskador eller pigmentförändringar.</p>'
         ),
     ),
 );
@@ -876,7 +888,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 </section>
                 <section id="reviews" class="large-margin">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n"><?php echo $reviews_title ?></h2>
+                        <h2 class="big l10n">IPL före och efter bilder</h2>
                         <div class="flex-row is-hidden-mobile">
                             <div class="step-buttons">
                                 <button class="round-large grey" onclick="Reviews.scroll(-1)">
