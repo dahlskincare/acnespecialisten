@@ -89,11 +89,11 @@ $top_articles = array(
         <p class="p200 mt-m">Innan behandlingen är det viktigt att huden inte är solbränd. Dessutom bör du undvika starka hudvårdsprodukter som innehåller syror några dagar före behandlingen för att minimera risken för irritation. Din hudterapeut kommer att ge dig all information du behöver för att förbereda din hud på bästa sätt inför din microneedling session, för att du ska få en så effektiv och säker behandling som möjligt.</p>',
     ),
     'process' => new Article(
-        title: 'Microneedling behandlingsprocess',
+        title: 'Hur fungerar microneedling?',
         image_small: '/bilder/process/358x272/microneedling-process.webp',
         image_large: '/bilder/process/872x456/microneedling-process.webp',
-        image_alt: 'Microneedling behandlingsprocess',
-        image_title: 'Microneedling behandlingsprocess',
+        image_alt: 'Hur fungerar microneedling?',
+        image_title: 'Hur fungerar microneedling?',
         content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till kliniken, kommer din hud att rengöras grundligt för att avlägsna makeup och orenheter.</p>
         <p class="p200 mt-m">Vår speciellt utformade microneedling-enhet använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också en näringsrik serum för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
     ),
