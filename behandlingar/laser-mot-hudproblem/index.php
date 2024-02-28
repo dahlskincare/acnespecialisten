@@ -31,7 +31,7 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'Fraktionerad CO2-laserbehandling är det senaste och mest effektiva mot en lång rad hudproblem.';
+$floating_box = 'Vi använder de senaste laserteknikerna som är effektiva mot en lång rad hudproblem.';
 
 $nav_buttons = array(
     'about' => 'Om laser mot problemhy',
