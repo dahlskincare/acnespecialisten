@@ -188,7 +188,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/ansikte.webp',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'IPL för Ansikte',
+                title: 'IPL - Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
@@ -199,8 +199,8 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/panna.webp',
                 image_alt: 'Panna',
                 image_title: 'Panna',
-                title: 'IPL för Panna',
-                duration: '30 min',
+                title: 'IPL - Panna',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Forehead',
                 url_label: 'Boka',
@@ -210,8 +210,8 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/nasa.webp',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
-                title: 'IPL för Näsa',
-                duration: '30 min',
+                title: 'IPL - Näsa',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Nose',
                 url_label: 'Boka',
@@ -221,8 +221,8 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/kinder.webp',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
-                title: 'IPL för Kinder',
-                duration: '30 min',
+                title: 'IPL - Kinder',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Cheeks',
                 url_label: 'Boka',
@@ -232,8 +232,8 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/overlapp.webp',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
-                title: 'IPL för Överläpp',
-                duration: '30 min',
+                title: 'IPL - Överläpp',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_UpperLip',
                 url_label: 'Boka',
@@ -243,8 +243,8 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/haka.webp',
                 image_alt: 'Haka',
                 image_title: 'Haka',
-                title: 'IPL för Haka',
-                duration: '30 min',
+                title: 'IPL - Haka',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Chin',
                 url_label: 'Boka',
@@ -264,9 +264,9 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/hals.webp',
                 image_alt: 'Hals',
                 image_title: 'Hals',
-                title: 'IPL för Hals',
-                duration: '30 min',
-                price: '1895 kr',
+                title: 'IPL - Hals',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av halsen'
@@ -275,9 +275,9 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/dekolletage.webp',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
-                title: 'IPL för Dekolletage',
-                duration: '40 min',
-                price: '2295 kr',
+                title: 'IPL - Dekolletage',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av dekolletaget'
@@ -286,9 +286,9 @@ $treatment_areas = array(
                 image: '/bilder/omraden/92x92/hander.webp',
                 image_alt: 'Händer',
                 image_title: 'Händer',
-                title: 'IPL för Händer',
-                duration: '30 min',
-                price: '1895 kr',
+                title: 'IPL - Händer',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av händerna'
@@ -368,7 +368,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: '/bilder/process/872x456/ipl-eftervard.webp',
     image_alt: 'Efter IPL-behandling',
     image_title: 'Efter IPL-behandling',
-    content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller parfymerade produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
+    content: '<p class="p200">Eftervården efter en IPL-behandling är avgörande för att uppnå bästa resultat och säkerställa en effektiv läkningsprocess. Efter behandlingen kan det vara normalt att uppleva viss rodnad och svullnad i det behandlade området. Det är viktigt att du undviker att röra området med orena händer och att inte applicera makeup eller starka produkter under de första 24 timmarna för att minimera risken för irritation eller infektioner.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen bör du undvika intensiv fysisk aktivitet, bastu och långa varma duschar som kan förvärra svullnad och irritation. Användning av solskydd är kritiskt; det är viktigt att regelbundet applicera en hög SPF för att skydda huden mot UV-strålning, vilket är särskilt viktigt för det behandlade området. Vi rekommenderar även att du använder milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och upprätthålla hudens fuktbalans.</p>
     <p class="p200 mt-m">Se till att följa de specifika eftervårdsinstruktioner som din behandlare ger dig, och tveka inte att kontakta kliniken om du har frågor eller funderingar kring din eftervård.</p>',
 ));
@@ -613,137 +613,6 @@ $specialists = array(
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 
-$brands_title = 'Märken vi jobbar med';
-$all_brands = array(
-    new Brand(
-        label: 'Alma',
-        image: '/bilder/logotyper/alma.svg',
-        image_alt: 'Alma logotyp',
-        image_title: 'Alma Lasermaskiner',
-        url: '/varumarken/alma',
-        url_title: 'Alma',
-    ),
-    new Brand(
-        label: 'Alma Hybrid',
-        image: '/bilder/logotyper/alma-hybrid.svg',
-        image_alt: 'Alma Hybrid logotyp',
-        image_title: 'Alma Hybrid CO2',
-        url: '/alma-hybrid-co2-laser.php',
-        url_title: 'Alma Hybrid',
-    ),
-    new Brand(
-        label: 'Dermapen',
-        image: '/bilder/logotyper/dermapen.svg',
-        image_alt: 'Dermapen logotyp',
-        image_title: 'Dermapen - Microneedling',
-        url: '/dermapen.php',
-        url_title: 'Dermapen',
-    ),
-    new Brand(
-        label: 'Harmony XL Pro',
-        image: '/bilder/logotyper/harmony-xl-pro.png',
-        image_alt: 'Harmony XL Pro logotyp',
-        image_title: 'Alma Harmony XL Pro',
-        url: '/alma-harmony-xl-pro.php',
-        url_title: 'Harmony XL Pro',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: '/bilder/logotyper/hydrafacial.svg',
-        image_alt: 'HydraFacial logotyp',
-        image_title: 'HydraFacial - Dermabrasion',
-        url: '/hydrafacial.php',
-        url_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Skin Tech',
-        image: '/bilder/logotyper/skin-tech.svg',
-        image_alt: 'Skin Tech logotyp',
-        image_title: 'Skin Tech - kemisk peeling',
-        url: '/varumarken/skin-tech',
-        url_title: 'Skin Tech',
-    ),
-    new Brand(
-        label: 'Alma Rejuve Dye-VL',
-        image: '/bilder/logotyper/rejuve-dye-vl.svg',
-        image_alt: 'Alma Rejuve Dye-VL logotyp',
-        image_title: 'Alma Rejuve Dye-VL - IPL',
-        url: '/varumarken/alma/rejuve-dye-vl',
-        url_title: 'Alma Rejuve Dye-VL',
-    ),
-    new Brand(
-        label: 'CryoPen',
-        image: '/bilder/logotyper/cryopen.svg',
-        image_alt: 'CryoPen logotyp',
-        image_title: 'CryoPen - frysbehandling',
-        url: '/cryopen.php',
-        url_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Splendor X',
-        image: '/bilder/logotyper/splendor-x.png',
-        image_alt: 'Splendor X logotyp',
-        image_title: 'Splendor X - Permanent hårborttagning med laser',
-        url: '/varumarken/splendor-x',
-        url_title: 'Splendor X',
-    ),
-    new Brand(
-        label: 'Soprano Ice',
-        image: '/bilder/logotyper/soprano-ice.png',
-        image_alt: 'Soprano Ice logotyp',
-        image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-        url: '/varumarken/alma/soprano-ice',
-        url_title: 'Soprano Ice',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: '/bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova logotyp',
-        image_title: 'Powerlite Photonova - IPL',
-        url: '/varumarken/powerlite-photonova',
-        url_title: 'Powerlite Photonova',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: '/bilder/logotyper/infuzion.svg',
-        image_alt: 'Infuzion logotyp',
-        image_title: 'Infuzion - nålfri skinbooster',
-        url: '/infuzion.php',
-        url_title: 'Infuzion',
-    ),
-    new Brand(
-        label: 'Lumenis',
-        image: '/bilder/logotyper/lumenis.svg',
-        image_alt: 'Lumenis logotyp',
-        image_title: 'Lumenis - Permanent hårborttagning med laser',
-        url: '/varumarken/splendor-x',
-        url_title: 'Lumenis',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: '/bilder/logotyper/prx-t33.svg',
-        image_alt: 'PRX-T33 logotyp',
-        image_title: 'PRX-T33 - kemisk peeling',
-        url: '/prx-t33.php',
-        url_title: 'PRX-T33',
-    ),
-    new Brand(
-        label: 'Exceed',
-        image: '/bilder/logotyper/exceed.png',
-        image_alt: 'Exceed logotyp',
-        image_title: 'Exceed - microneedling',
-        url: '/varumarken/exceed',
-        url_title: 'Exceedn',
-    ),
-    new Brand(
-        label: 'Microdermabrasion',
-        image: '/bilder/logotyper/microdermabrasion.png',
-        image_alt: 'Microdermabrasion logotyp',
-        image_title: 'Microdermabrasion - hudslipning',
-        url: '/microdermabrasion.php',
-        url_title: 'Microdermabrasion',
-    ),
-);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -1049,20 +918,6 @@ $all_brands = array(
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
-            <section id="brands">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n"><?php echo $brands_title ?></h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla varumärken</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php
-                $brands = $all_brands;
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
-                ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
-            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
