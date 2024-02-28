@@ -48,7 +48,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är laser mot hudproblem?';
+$description_title = 'Vad är laserbehandling?';
 $description_text = '<p class="p200">Laser är en avancerad teknologi som använder ljusstrålar med hög intensitet för att behandla ett brett spektrum av hudproblem. Denna teknik utnyttjar olika våglängder och styrkor anpassade för specifika tillstånd och hudtyper, vilket gör den extremt mångsidig. </p>
 <p class="p200 mt-m">Exempel på lasertyper inkluderar CO2-lasern, som är effektiv för att minska acneärr, stora porer och fina linjer genom att stimulera hudens förnyelseprocess. YAG-lasern är en annan variant som ofta används för djupare penetration, idealisk för pigmentförändringar och hårborttagning. Alexandritlaser är föredragen för hårborttagning på ljusare hudtoner, medan diodlasern passar för en rad olika hudtyper och behandlingsområden.</p>
 <p class="p200 mt-m">Varje laser typ har unika egenskaper som gör den lämplig för olika behandlingsmål, från hudförnyelse och förbättrad hudtextur till minskning av pigmentfläckar och hårborttagning. På AcneSpecialisten anpassar vi behandlingen efter dina individuella behov och hudproblem, med målet att förbättra din hudkvalitet och ge en ungdomligare utstrålning. Vårt utbud av laserbehandlingar ger effektiva lösningar för en mängd hudåkommor, inklusive porförminskning, ärrbehandling, och hudföryngring.</p>';
@@ -65,7 +65,7 @@ $top_articles = array(
         <p class="p200 mt-m">Din säkerhet och komfort är vår högsta prioritet. Vi uppmuntrar dig att dela alla hudrelaterade tillstånd eller bekymmer under konsultationen. Detta säkerställer att vi kan skräddarsy behandlingen efter dina unika behov och ge dig den bästa möjliga upplevelsen och resultaten med vår laserbehandling.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går en laserbehandlingen till?',
+        title: 'Hur fungerar laserbehandling?',
         image_small: '/bilder/process/358x272/laser-process.webp',
         image_large: '/bilder/process/872x456/laser-process.webp',
         image_alt: 'Hur går laserbehandlingen till?',
@@ -560,6 +560,10 @@ $faq_categories = array(
         new Question(
             title: 'Behöver jag speciell eftervård efter en laserbehandling mot problemhy?',
             text: 'Eftervård är viktig för att upprätthålla resultaten av din laserbehandling. Det innefattar användning av solskydd, undvikande av direkt solstrålning och användning av milda hudvårdsprodukter. Din hudterapeut kommer att ge dig specifika råd baserade på din behandling och hudtyp.'
+        ),
+        new Question(
+            title: 'Hur lång tid mellan laserbehandlingarna?',
+            text: 'Tiden mellan laserbehandlingar kan variera beroende på typen av laser, behandlingens intensitet och det specifika hudtillståndet som behandlas. Generellt rekommenderas en paus på 4 till 6 veckor mellan sessionerna för de flesta laserbehandlingar. Denna tidsram ger huden tillräckligt med tid att läka och regenerera sig själv. För vissa mer intensiva laserbehandlingar, som CO2-lasern, kan det behövas en längre återhämtningstid. Det är viktigt att följa din hudvårdsspecialists rekommendationer för att uppnå bästa möjliga resultat och säkerställa en säker läkningsprocess.'
         ),
     )
 );
