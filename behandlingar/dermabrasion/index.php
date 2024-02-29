@@ -813,13 +813,6 @@ $all_brands = array(
                     </section>
 
                 <?php } ?>
-                <?php foreach ($bottom_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
-                <?php } ?>
                 <?php if (isset($service_brands)) { ?>
                     <section id="service-brands" class="large-margin">
                         <?php if (isset($service_brands_title)) { ?>
