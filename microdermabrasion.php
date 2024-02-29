@@ -92,6 +92,49 @@ $top_articles = array(
     ),
 );
 
+$types_title = '';
+$types_description = '';
+$big_types = array(
+    new Service(
+        title: 'MicroDermabrasion',
+        duration: '40 min',
+        price: null,
+        content: '<p class="p200">Microdermabrasion är en icke-invasiv mekanisk peelingbehandling som använder mikrokristaller eller en diamantspets för att varsamt exfoliera det yttersta lagret av döda hudceller från epidermis. Genom att avlägsna döda hudceller främjar behandlingen cellförnyelse, vilket leder till en jämnare hudton, minskning av fina linjer, och en allmän förbättring av hudens textur och utseende.</p>
+        <p class="p200 mt-m">Microdermabrasion är effektiv för att behandla ljusare ärrbildningar, åldersfläckar och andra yttre hudproblem. Behandlingen stimulerar även blodcirkulationen vilket kan bidra till en förbättrad hudhälsa över tid.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'MicroDermabrasion',
+        image_title: 'MicroDermabrasion',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
+        consultation_url_label: 'Boka tid för hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
+        icons: array(),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '3995 kr',
+                savings: 'Spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                savings: '5995 kr',
+                price: 'Spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_5'
+            )
+        )
+    ),
+);
+
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för Microdermabrasion',
     image_small: '/bilder/process/358x272/mimass-eftervard.webp',
