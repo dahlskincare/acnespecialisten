@@ -256,7 +256,7 @@ $service_brands = array(
         url: '/hydrafacial.php',
         url_title: 'HydraFacial',
       ),
-    ne Brand(
+    new Brand(
         label: 'Microdermabrasion',
         image: 'bilder/logotyper/microdermabrasion.png',
         image_alt: 'Microdermabrasion logotyp',
