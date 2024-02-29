@@ -69,7 +69,7 @@ $top_articles = array(
         image_alt: 'Hur går CryoPen till?',
         image_title: 'Hur går CryoPen till?',
         content: '<p class="p200">Med hjälp av CryoPennan applicerar vår kvalificerade hudterapeut en exakt dos av kyla direkt på den oönskade hudförändringen. Denna riktade kyla är mycket effektiv och behandlingen tar bara några sekunder. Känslan under behandlingen kan jämföras med en nypande eller stickande känsla, men är normalt sett kortvarig och hanterbar.</p>
-        <p class="p200 mt-m">Omedelbart efter CryoPen-behandlingen kan det behandlade området uppvisa rodnad eller svullnad, och ibland kan en liten blåsa uppstå. Detta är en normal reaktion och en del av den naturliga läkningsprocessen. Efter behandlingen kommer du att få detaljerade instruktioner för att ta hand om huden hemma. Den frysta hudförändringen kommer att torka och så småningom falla av inom några veckor, vilket lämnar ett jämnare och renare hudområde.</p>',
+        <p class="p200 mt-m">Omedelbart efter CryoPen-behandlingen kan det behandlade området uppvisa rodnad eller svullnad, och ibland kan en liten blåsa uppstå. Detta är en normal reaktion och en del av den naturliga läkningsprocessen. Efter behandlingen kommer du att få detaljerade instruktioner för att ta hand om huden hemma. Den frysta hudförändringen kommer att torka och krympa inom några veckor, under följande behandlingar så kommer hudförändringen gradvis att försvinna.</p>',
     ),
 );
 
