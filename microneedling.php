@@ -126,6 +126,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för acneärr',
+
+        url: '/microneedling-acnearr.php',
+        url_label: 'Läs mer om microneedling mot acneärr',
+        url_title: 'Läs mer om microneedling mot acneärr',
     ),
     new Service(
         title: 'Microneedling mot Rynkor & Fina Linjer',
@@ -142,6 +146,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för rynkor & fina linjer',
+
+        url: '/mogen-hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
     ),
     new Service(
         title: 'Microneedling mot Stora Porer',
@@ -158,6 +166,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för stora porer',
+
+        url: '/microneedling-stora porer.php',
+        url_label: 'Läs mer om microneedling mot stora porer',
+        url_title: 'Läs mer om microneedling mot stora porer',
     ),
     new Service(
         title: 'Microneedling mot Pigmentfläckar',
@@ -174,6 +186,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för pigmentfläckar',
+
+        url: '/pigmentflackar.php',
+        url_label: 'Läs mer om pigmentfläckar',
+        url_title: 'Läs mer om pigmentfläckar',
     ),
     new Service(
         title: 'Microneedling mot Bristningar',
@@ -190,6 +206,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för bristningar',
+
+        url: '/problem/bristningar/behandla-bristningar/',
+        url_label: 'Läs mer om behandling av bristningar',
+        url_title: 'Läs mer om behandling av bristningar',
     ),
     new Service(
         title: 'Microneedling mot Aktiv Acne',
@@ -206,6 +226,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för aktiv acne',
+
+        url: '/microneedling-acne.php',
+        url_label: 'Läs mer om microneedling mot acne',
+        url_title: 'Läs mer om microneedling mot acne',
     ),
 );
 
