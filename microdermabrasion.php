@@ -87,8 +87,7 @@ $top_articles = array(
         image_title: 'Processen för Microdermabrasion',
         content: '<p class="p200">MicroDermabrasion är en noggrant utformad behandling som syftar till att förbättra hudens kvalitet genom en skonsam men effektiv mekanisk exfoliering. Behandlingen inleds med en grundlig rengöring av huden för att avlägsna smuts, olja och orenheter. Detta steg är viktigt för att förbereda huden för microdermabrasion.</p>
         <p class="p200 mt-m">Nästa steg i processen är själva slipningen, där vi använder ett hudslipningsmunstycke för att skonsamt men djupgående exfoliera hudens yttre lager. Denna teknik använder mikrokristaller och en diamantspets för att försiktigt slipa bort döda hudceller, vilket främjar cellförnyelse och förbättrar hudens textur och lyster.</p>
-        <p class="p200 mt-m">Efter exfolieringen appliceras specifika serum för att ytterligare förbättra hudens hälsa och utseende. Dessa produkter är utvalda för att passa din specifika hudtyp och behov, och kan innefatta ingredienser som hyaluronsyra, antioxidanter och vitaminer.</p>
-        <p class="p200 mt-m">Behandlingen avslutas med applicering av en lugnande mask och en återfuktande kräm för att maximera hudens återhämtning och skydda den från yttre påverkan.</p>',
+        <p class="p200 mt-m">Efter exfolieringen appliceras specifika serum för att ytterligare förbättra hudens hälsa och utseende. Dessa produkter är utvalda för att passa din specifika hudtyp och behov, och kan innefatta ingredienser som hyaluronsyra, antioxidanter och vitaminer. Behandlingen avslutas med applicering av en lugnande mask och en återfuktande kräm för att maximera hudens återhämtning och skydda den från yttre påverkan.</p>',
     ),
 );
 
@@ -99,8 +98,7 @@ $big_types = array(
         title: 'MicroDermabrasion',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Microdermabrasion är en icke-invasiv mekanisk peelingbehandling som använder mikrokristaller eller en diamantspets för att varsamt exfoliera det yttersta lagret av döda hudceller från epidermis. Genom att avlägsna döda hudceller främjar behandlingen cellförnyelse, vilket leder till en jämnare hudton, minskning av fina linjer, och en allmän förbättring av hudens textur och utseende.</p>
-        <p class="p200 mt-m">Microdermabrasion är effektiv för att behandla ljusare ärrbildningar, åldersfläckar och andra yttre hudproblem. Behandlingen stimulerar även blodcirkulationen vilket kan bidra till en förbättrad hudhälsa över tid.</p>',
+        content: '',
         image_small: null,
         image_large: null,
         image_alt: 'MicroDermabrasion',
@@ -141,12 +139,12 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: '/bilder/process/872x456/mimass-eftervard.webp',
     image_alt: 'Eftervård för Microdermabrasion',
     image_title: 'Eftervård för Microdermabrasion',
-    content: '<p class="p200">Efter en Microdermabrasion-behandling hos AcneSpecialisten är det essentiellt att du följer våra eftervårdsinstruktioner för att säkerställa bästa möjliga resultat. Det är viktigt att behandla din hud med omsorg under de första dagarna efter behandlingen. Börja med att skydda huden från solen och använd ett högkvalitativt solskydd med hög SPF för att förebygga skador från UV-strålar.</p>
+    content: '<p class="p200">Efter en Microdermabrasion-behandling är det essentiellt att du följer våra eftervårdsinstruktioner för att säkerställa bästa möjliga resultat. Det är viktigt att behandla din hud med omsorg under de första dagarna efter behandlingen. Börja med att skydda huden från solen och använd ett högkvalitativt solskydd med hög SPF för att förebygga skador från UV-strålar.</p>
     <p class="p200 mt-m">Om du har några frågor eller behöver ytterligare rådgivning angående din eftervård, är du alltid välkommen att kontakta oss på AcneSpecialisten. Vi är här för att stödja dig i din resa mot en friskare och mer strålande hud.</p>',
 ));
 
-$service_brands_title = 'Andra märken för Dermabrasion';
-$service_brands_text = '<p class="p200">Utöver Microdermabrasion jobbar vi även med HydraFacial.</p>';
+$service_brands_title = 'Andra varumärken för Dermabrasion';
+$service_brands_text = '<p class="p200">Utöver Microdermabrasion jobbar vi även med HydraFacial som är en typ av HydroDermabrasion.</p>';
 $service_brands = array(
 
     new Brand(
@@ -361,51 +359,6 @@ $specialists = array(
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 
-$brands_title = 'Märken vi jobbar med';
-$all_brands = array(
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
-    new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen',
-    ),
-    new Brand(
-        label: 'CryoPen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'CryoPen',
-        image_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRXT',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: 'images/brands/infuzion.svg',
-        image_alt: 'Infuzion',
-        image_title: 'Infuzion',
-    ),
-);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -713,20 +666,7 @@ $all_brands = array(
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specialister"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
-            <section id="brands">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n"><?php echo $brands_title ?></h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla varumärken</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php
-                $brands = $all_brands;
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
-                ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
-            </section>
+            
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
