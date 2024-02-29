@@ -167,7 +167,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för stora porer',
 
-        url: '/microneedling-stora porer.php',
+        url: '/microneedling-stora-porer.php',
         url_label: 'Läs mer om microneedling mot stora porer',
         url_title: 'Läs mer om microneedling mot stora porer',
     ),
