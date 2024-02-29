@@ -56,7 +56,7 @@ $model = new Service(
 $floating_box = 'Effektiv laserbehandling som förbättrar hudens struktur.';
 
 $nav_buttons = array(
-    'about' => 'Om laser mot acneärr',
+    'about' => 'Om laser mot ärr',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
