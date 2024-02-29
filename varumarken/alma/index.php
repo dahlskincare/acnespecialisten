@@ -412,9 +412,9 @@ $all_brands = array(
                 </section>
                 <section id="image" class="is-hidden-desktop">
                     <picture>
-                        <source media="(max-width: 449px)" srcset="https://via.placeholder.com/358x274.webp">
-                        <source media="(min-width: 450px)" srcset="https://via.placeholder.com/424x456.webp">
-                        <img src="https://via.placeholder.com/358x274.webp" alt="Alma" title="Alma" width="358" height="274" />
+                        <source media="(max-width: 449px)" srcset="bilder/varumarken/358x274/alma.webp">
+                        <source media="(min-width: 450px)" srcset="bilder/varumarken/424x456/alma.webp">
+                        <img src="bilder/varumarken/358x274/alma.webp" alt="Alma" title="Alma" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
