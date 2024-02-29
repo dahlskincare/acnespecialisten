@@ -155,7 +155,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydroDermabrasion - Dermabuilder Serum - Boost & Glow',
+        title: 'HydroDermabrasion - Boost & Glow',
         duration: '40 min',
         price: null,
         content: '<p class="p200">För att ge mogen hud ett riktigt lyft, inkluderar vi Dermabuilder serum i vår behandling. Detta specialserum är en riktig kraftkälla, särskilt utvecklad för att vitalisera och förstärka huden inifrån. Med en potentiell blandning av två aktiva peptider stimulerar det hudens naturliga proteinproduktion, vilket är avgörande för att bibehålla hudens elasticitet och fasthet.</p>
@@ -194,7 +194,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydroDermabrasion - Glycal Acid Peel - Mot Pormaskar',
+        title: 'HydroDermabrasion - Mot Pormaskar',
         duration: '40 min',
         price: null,
         content: '<p class="p200">För att effektivt ta itu med problemhud som pormaskar och finnar, erbjuder vi en specialiserad hydrafacial med Glycal Acid Peel. Denna behandling är speciellt utformad för att djuprengöra huden och hantera överproduktionen av talg, vilket ofta ligger bakom dessa hudproblem.</p>
