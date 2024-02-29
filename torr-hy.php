@@ -560,7 +560,7 @@ $services = array(
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för Infuzion behandling för torr och känslig hy',
 
-            booking_url_label: 'Boka behandling',s
+            booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=infuzion',
             booking_url_title: 'Klicka för att boka tid för en Infuzion behandling för torr och känslig hy'
       ),
