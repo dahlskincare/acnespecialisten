@@ -287,7 +287,7 @@ $treatment_areas = array(
         image_alt: 'Antal hudförändringar',
         image_title: 'Antal hudförändringar',
         title: 'Antal hudförändringar',
-        description: '<p class="p200">Behandlingen utgår ifrån antalet hudförändringar du vill behandla..</p>',
+        description: '<p class="p200">Behandlingen utgår ifrån antalet hudförändringar du vill behandla.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
