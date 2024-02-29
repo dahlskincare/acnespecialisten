@@ -52,28 +52,6 @@ $description_title = 'Vad är Dermabrasion?';
 $description_text = '<p class="p200">Dermabrasion är en djupgående hudföryngrande behandling som effektivt förbättrar hudens yta och textur. Genom en mekanisk exfolieringsprocess avlägsnas döda hudceller, vilket stimulerar hudens förnyelse och ger en märkbar föryngring av huden.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi dermabrasion som en skräddarsydd behandling för att möta olika hudbehov. Detta inkluderar att minska acneärr, fina linjer, och pigmentfläckar samt förbättra hudens övergripande utseende. Vår dermabrasion-behandling är skonsam men effektiv, vilket gör den lämplig för olika hudtyper. Genom att stimulera kollagenproduktionen och cellförnyelsen, bidrar behandlingen till en fräschare, mjukare och mer strålande hud. Dermabrasion är en idealisk behandling för dig som söker en konkret förbättring av din hudkvalitet.</p>';
 
-$top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelse inför dermabrasion',
-        image_small: '/bilder/process/358x272/dermabrasion-forberedelser.webp',
-        image_large: '/bilder/process/872x456/dermabrasion-forberedelser.webp',
-        image_alt: 'Förberedelse inför dermabrasion',
-        image_title: 'Förberedelse inför dermabrasion',
-        content: '<p class="p200">Inför din dermabrasion-behandling på AcneSpecialisten är det viktigt att förbereda huden för att maximera resultatet. Vi rekommenderar att du undviker att använda starka hudvårdsprodukter, såsom exfolierande syror, några dagar innan behandlingen. Detta för att minska risken för irritation och göra huden mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Det är också klokt att skydda din hud från stark sol och undvika solbränna innan din session. Solbränd hud kan vara mer känslig och kan påverka resultatet av dermabrasion. Om du tar mediciner som påverkar huden, eller om du har några hudrelaterade tillstånd, informera oss gärna om detta i förväg så att vi kan anpassa behandlingen efter dina behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte boka en kostnadsfri dermabrasion konsultation hos oss.</p>',
-    ),
-    'process' => new Article(
-        title: 'Processen för dermabrasion',
-        image_small: '/bilder/process/358x272/dermabrasion-process.webp',
-        image_large: '/bilder/process/872x456/dermabrasion-process.webp',
-        image_alt: 'Processen för dermabrasion',
-        image_title: 'Processen för dermabrasion',
-        content: '<p class="p200">Vid en dermabrasion-behandling på AcneSpecialisten inleds sessionen med att noggrant rengöra huden för att eliminera smuts, olja och andra orenheter. Denna rengöringsprocess är avgörande för att säkerställa att huden är fullständigt förberedd för dermabrasionens exfolierande effekter.</p>
-    <p class="p200 mt-m">Efter rengöringen utförs själva dermabrasionen, en mekanisk peeling där ett specialverktyg används för att försiktigt men effektivt slipa bort det yttersta lagret av döda hudceller. Denna process stimulerar hudens naturliga förnyelseprocess, vilket kan förbättra hudens textur och ton samt minska synligheten av fina linjer, ärr och hyperpigmentering.</p>
-    <p class="p200 mt-m">Sedan används en lugnande och återfuktande mask appliceras för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en närande fuktighetskräm som skyddar och återställer huden. Vår expertpersonal ser till att varje steg i din dermabrasion-behandling är skräddarsytt för att passa din specifika hudtyp och dina behov, med målet att ge dig en friskare, mer strålande hud.</p>',
-    ),
-);
-
 $types_title = 'Dermabrasion och tillval';
 $types_description = 'Dermabrasion är en effektiv behandling som anpassas efter dina behov.';
 $big_types = array(
@@ -158,9 +136,7 @@ $big_types = array(
         title: 'HydroDermabrasion - Boost & Glow',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">För att ge mogen hud ett riktigt lyft, inkluderar vi Dermabuilder serum i vår behandling. Detta specialserum är en riktig kraftkälla, särskilt utvecklad för att vitalisera och förstärka huden inifrån. Med en potentiell blandning av två aktiva peptider stimulerar det hudens naturliga proteinproduktion, vilket är avgörande för att bibehålla hudens elasticitet och fasthet.</p>
-        <p class="p200 mt-m">Under behandlingen slussas Dermabuilder serum djupt in i huden, där det arbetar för att återuppbygga och förstärka hudstrukturen. Denna process bidrar till att fylla ut och reducera uppkomsten av rynkor och fina linjer, vilket ger ansiktet en mer ungdomlig och fast kontur. Det är en idealisk behandling för dig som vill återskapa hudens ungdomliga glöd och vitalitet.</p>
-        <p class="p200 mt-m">Resultatet är inte bara en synligt jämnare och slätare hud, utan även en förstärkt och mer motståndskraftig hudkvalitet. Vårt Dermabuilder serum ger en effektiv boost och glow, och är en perfekt lösning för dem som vill ge sin mogen hud den extra vård och uppmärksamhet den förtjänar.</p>',
+        content: '',
         image_small: null,
         image_large: null,
         image_alt: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
@@ -197,9 +173,7 @@ $big_types = array(
         title: 'HydroDermabrasion - Mot Pormaskar',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">För att effektivt ta itu med problemhud som pormaskar och finnar, erbjuder vi en specialiserad hydrafacial med Glycal Acid Peel. Denna behandling är speciellt utformad för att djuprengöra huden och hantera överproduktionen av talg, vilket ofta ligger bakom dessa hudproblem.</p>
-        <p class="p200 mt-m">Vår Glycal Acid Peel kombinerar kraften av två aktiva syror för att penetrera huden på djupet. Denna intensiva peelingprocess hjälper till att lösa upp och avlägsna orenheter, vilket resulterar i en grundlig rengöring av porerna. Denna metod är effektiv för att minska uppkomsten av pormaskar och finnar, samtidigt som den bidrar till en klarare och mer balanserad hudton.</p>
-        <p class="p200 mt-m">Behandlingen är idealisk för dig som kämpar med problemhy och söker en lösning som inte bara rengör på ytan, utan även arbetar aktivt på djupet. Med Glycal Acid Peel får du en rengjord och förnyad hud, fri från de vanligaste orsakerna till problemhy.</p>',
+        content: '',
         image_small: null,
         image_large: null,
         image_alt: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
