@@ -524,8 +524,8 @@ $services = array(
             price: '995 kr',
             content: 'Denna ansiktsbehandling är utformad för att lindra torr och känslig hud. Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
 
-            image_small: '/bilder/behandlingar/ansiktsbehandling.webp',
-            image_large: '/bilder/behandlingar/ansiktsbehandling.webp',
+            image_small: '/bilder/behandlingar/200x200/ansiktsbehandling.webp',
+            image_large: '/bilder/behandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för torr och känslig hy',
             image_title: 'Ansiktsbehandling för torr och känslig hy',
 
