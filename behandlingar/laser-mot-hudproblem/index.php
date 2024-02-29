@@ -419,6 +419,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'Laserbehandling före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
