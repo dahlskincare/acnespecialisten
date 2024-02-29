@@ -192,7 +192,7 @@
                               new ApproachCard(
                                     number: '01',
                                     title: 'Identifiera',
-                                    content: 'Vi erbjuder alltid gratis konsultation där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
+                                    content: 'Vi erbjuder alltid gratis konsultation där du får en personlig hudspecialist och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
                                     button_label: 'Boka gratis hudkonsultation',
                                     button_url: 'gratis-hudkonsultation.php'
                               ),
@@ -443,15 +443,15 @@
                                   ),
                                   new Question(
                                       title: 'Finns Acnespecialisten endast i Stockholm?',
-                                      text: '<p class="p200">Just nu har vi enbart fysiska kliniker i Stockholm. Men oavsett var du befinner dig, kan vi erbjuda hjälp genom vår onlinekonsultation. Genom denna service får du möta en av våra erfarna hudterapeuter digitalt. För många hudproblem kan effektiva lösningar implementeras hemma. Skulle det krävas ett personligt besök på kliniken, kan det vara värt resan för att få den rätta behandlingen efter en initial onlinekonsultation.</p>'
+                                      text: '<p class="p200">Just nu har vi enbart fysiska kliniker i Stockholm. Men oavsett var du befinner dig, kan vi erbjuda hjälp genom vår onlinekonsultation. Genom denna service får du möta en av våra erfarna hudspecialister digitalt. För många hudproblem kan effektiva lösningar implementeras hemma. Skulle det krävas ett personligt besök på kliniken, kan det vara värt resan för att få den rätta behandlingen efter en initial onlinekonsultation.</p>'
                                   ),
                                   new Question(
                                       title: 'Är personalen på Acnespecialisten hudläkare?',
-                                      text: '<p class="p200">Vi är professionella hudterapeuter, inte hudläkare. Vår personal har lång erfarenhet och expertis i att behandla problemhud med de senaste metoderna och teknikerna. Vi är specialiserade på att erbjuda effektiva hudvårdsbehandlingar och rådgivning.</p>'
+                                      text: '<p class="p200">Vi är professionella hudspecialister, inte hudläkare. Vår personal har lång erfarenhet och expertis i att behandla problemhud med de senaste metoderna och teknikerna. Vi är specialiserade på att erbjuda effektiva hudvårdsbehandlingar och rådgivning.</p>'
                                   ),
                                   new Question(
-                                      title: 'Vilken utbildning har hudterapeuterna hos Acnespecialisten?',
-                                      text: '<p class="p200">Alla våra hudterapeuter har genomgått utbildning vid en av Sveriges Hudterapeuters Riksorganisations (SHR) godkända skolor. Många av dem är dessutom CIDESCO-certifierade, vilket är en internationellt erkänd kvalifikation. Denna höga utbildningsstandard säkerställer att vi är väl förberedda för att effektivt hjälpa personer med olika hudproblem.</p>'
+                                      title: 'Vilken utbildning har hudspecialisterna hos Acnespecialisten?',
+                                      text: '<p class="p200">Alla våra hudspecialister har genomgått utbildning vid en av Sveriges Hudterapeuters Riksorganisations (SHR) godkända skolor. Många av dem är dessutom CIDESCO-certifierade, vilket är en internationellt erkänd kvalifikation. Denna höga utbildningsstandard säkerställer att vi är väl förberedda för att effektivt hjälpa personer med olika hudproblem.</p>'
                                   ),
                               ),
 
@@ -528,7 +528,7 @@
                   </section>
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Våra specialister</div>
+                              <div class="h500 l10n">Våra hudspecialister</div>
                               <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
@@ -567,7 +567,7 @@
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudterapeuter" href="specialister">Se alla specialister</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudspecialister" href="specialister">Se alla hudspecialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
