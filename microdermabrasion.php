@@ -87,8 +87,8 @@ $top_articles = array(
         image_title: 'Processen för Microdermabrasion',
         content: '<p class="p200">MicroDermabrasion är en noggrant utformad behandling som syftar till att förbättra hudens kvalitet genom en skonsam men effektiv mekanisk exfoliering. Behandlingen inleds med en grundlig rengöring av huden för att avlägsna smuts, olja och orenheter. Detta steg är viktigt för att förbereda huden för microdermabrasion.</p>
         <p class="p200 mt-m">Nästa steg i processen är själva slipningen, där vi använder ett hudslipningsmunstycke för att skonsamt men djupgående exfoliera hudens yttre lager. Denna teknik använder mikrokristaller och en diamantspets för att försiktigt slipa bort döda hudceller, vilket främjar cellförnyelse och förbättrar hudens textur och lyster.</p>
-        <p class="p200 mt-m">Efter exfolieringen appliceras specifika serum och näringsämnen för att ytterligare förbättra hudens hälsa och utseende. Dessa produkter är utvalda för att passa din specifika hudtyp och behov, och kan innefatta ingredienser som hyaluronsyra, antioxidanter och vitaminer.</p>
-        <p class="p200 mt-m">Behandlingen avslutas med applicering av en lugnande och återfuktande kräm för att maximera hudens återhämtning och skydda den från yttre påverkan. Microdermabrasion är en idealisk behandling för dig som vill förbättra hudens textur och utseende, och passar för en rad olika hudtyper och tillstånd. Vårt mål är att ge dig en förbättrad, mjukare och mer strålande hud efter varje behandling.</p>',
+        <p class="p200 mt-m">Efter exfolieringen appliceras specifika serum för att ytterligare förbättra hudens hälsa och utseende. Dessa produkter är utvalda för att passa din specifika hudtyp och behov, och kan innefatta ingredienser som hyaluronsyra, antioxidanter och vitaminer.</p>
+        <p class="p200 mt-m">Behandlingen avslutas med applicering av en lugnande mask och en återfuktande kräm för att maximera hudens återhämtning och skydda den från yttre påverkan.</p>',
     ),
 );
 
