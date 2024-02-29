@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Microneedling för ansiktet och kroppen i Sverige';
 $seo_description = 'Avancerade microneedlingbehandlingar för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
-$seo_keywords = 'microneedling, microneedling behandling, microneedling stockholm';
+$seo_keywords = 'microneedling, microneedling behandling, microneedling stockholm, vad är microneedling, microneedling före efter';
 
 $seo_image = 'images/treatments/large/microneedling.webp';
 
