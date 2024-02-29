@@ -73,8 +73,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Vilka hudförändringar kan CryoPen ta bort?';
-$types_description = 'CryoPen är en avancerad behandlingsteknik inom kryoterapi som specialiserar sig på att noggrant och effektivt frysa bort ett brett spektrum av hudförändringar.';
+$types_title = 'Olika typer av hudförändringar vi tar bort';
+$types_description = '';
 $types = array(
     new Service(
         title: 'CryoPen mot födelsemärken',
