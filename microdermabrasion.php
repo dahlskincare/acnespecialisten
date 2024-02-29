@@ -13,7 +13,7 @@ $model = new Service(
     title: 'MicroDermabrasion',
     duration: null,
     price: 'Från 1595 kr',
-    content: '',
+    content: '<p class="p200">Microdermabrasion är en icke-invasiv hudförnyelsebehandling som effektivt minskar hudproblem. Genom att använda mikrokristaller och en diamantborste slipar denna teknik varsamt det yttersta hudlagret, vilket uppmuntrar till ny celltillväxt och främjar en friskare, mer strålande hud.</p>',
     image_small: 'bilder/varumarken/358x274/microdermabrasion.webp',
     image_large: 'bilder/varumarken/424x456/microdermabrasion.webp',
     image_alt: 'Microdermabrasion',
