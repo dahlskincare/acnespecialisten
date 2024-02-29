@@ -54,14 +54,14 @@ $description_text = '<p class="p200">Dermabrasion är en djupgående hudföryngr
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hydro-Dermabrasion VS Micro-Dermabrasion',
+        title: 'Hydra-Dermabrasion VS Micro-Dermabrasion',
         image_small: '/bilder/process/358x272/dermabrasion-process.webp',
         image_large: '/bilder/process/872x456/dermabrasion-process.webp',
-        image_alt: 'Hydro-Dermabrasion VS Micro-Dermabrasion',
-        image_title: 'Hydro-Dermabrasion VS Micro-Dermabrasion',
-        content: '<p class="p200">Microdermabrasion och hydrodermabrasion (ofta marknadsförd som Hydrafacial) är två populära hudvårdsbehandlingar som erbjuder föryngring och förbättring av hudens utseende. Trots likheter i deras syfte att förbättra hudens hälsa och utseende, skiljer sig metoderna åt i tillvägagångssätt, teknik och fördelar.</p>
-    <p class="p200 mt-m">När det gäller att välja mellan microdermabrasion och hydrodermabrasion, beror det på individens hudtyp, hudtillstånd och de specifika målen med behandlingen. Microdermabrasion kan vara ett bättre val för de som söker en mer intensiv exfoliering och har hud som tål denna typ av behandling, medan hydrodermabrasion (Hydrafacial) är ett utmärkt alternativ för de som föredrar en skonsammare behandling som inte bara rengör och exfolierar utan också återfuktar och tillför näring till huden.</p>
-    <p class="p200 mt-m">Båda behandlingarna erbjuder fördelar som förbättrad hudtextur och ton, minskning av fina linjer och rynkor, samt en friskare och mer strålande hud. Valet mellan microdermabrasion och hydrodermabrasion bör baseras på en professionell hudvårdspecialists rekommendationer, som kan bedöma hudens behov och rekommendera den mest lämpliga behandlingen för att uppnå önskade resultat.</p>',
+        image_alt: 'Hydra-Dermabrasion VS Micro-Dermabrasion',
+        image_title: 'Hydra-Dermabrasion VS Micro-Dermabrasion',
+        content: '<p class="p200">Microdermabrasion och hydradermabrasion (ofta marknadsförd som Hydrafacial) är två populära hudvårdsbehandlingar som erbjuder föryngring och förbättring av hudens utseende. Trots likheter i deras syfte att förbättra hudens hälsa och utseende, skiljer sig metoderna åt i tillvägagångssätt, teknik och fördelar.</p>
+    <p class="p200 mt-m">När det gäller att välja mellan microdermabrasion och hydradermabrasion, beror det på individens hudtyp, hudtillstånd och de specifika målen med behandlingen. Microdermabrasion kan vara ett bättre val för de som söker en mer intensiv exfoliering och har hud som tål denna typ av behandling, medan hydradermabrasion (Hydrafacial) är ett utmärkt alternativ för de som föredrar en skonsammare behandling som inte bara rengör och exfolierar utan också återfuktar och tillför näring till huden.</p>
+    <p class="p200 mt-m">Båda behandlingarna erbjuder fördelar som förbättrad hudtextur och ton, minskning av fina linjer och rynkor, samt en friskare och mer strålande hud. Valet mellan microdermabrasion och hydradermabrasion bör baseras på en professionell hudvårdspecialists rekommendationer, som kan bedöma hudens behov och rekommendera den mest lämpliga behandlingen för att uppnå önskade resultat.</p>',
     ),
 );
 
@@ -69,15 +69,15 @@ $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'HydroDermabrasion - Standard',
+        title: 'HydraDermabrasion - Standard',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Hydrodermabrasion är skonsam behandling som kombinerar exfoliering, djuprengöring och återfuktning av huden. Istället för kristaller använder hydrodermabrasion en ström av vatten och aktiva serum under högt tryck för att rengöra porerna och avlägsna döda hudceller samtidigt som huden återfuktas och närs med olika serum anpassade efter hudtyp och specifika hudproblem.</p>
-        <p class="p200 mt-m">Denna metod är känd för sin förmåga att omedelbart förbättra hudens hydrering, minska synligheten av fina linjer och rynkor, och ge en övergripande lyster. Hydrodermabrasion är särskilt populär för sin förmåga att behandla en mängd hudproblem utan irritation, vilket gör den lämplig för nästan alla hudtyper, inklusive känslig hud.</p>',
+        content: '<p class="p200">Hydradermabrasion är skonsam behandling som kombinerar exfoliering, djuprengöring och återfuktning av huden. Istället för kristaller använder hydradermabrasion en ström av vatten och aktiva serum under högt tryck för att rengöra porerna och avlägsna döda hudceller samtidigt som huden återfuktas och närs med olika serum anpassade efter hudtyp och specifika hudproblem.</p>
+        <p class="p200 mt-m">Denna metod är känd för sin förmåga att omedelbart förbättra hudens hydrering, minska synligheten av fina linjer och rynkor, och ge en övergripande lyster. Hydradermabrasion är särskilt populär för sin förmåga att behandla en mängd hudproblem utan irritation, vilket gör den lämplig för nästan alla hudtyper, inklusive känslig hud.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'HydroDermabrasion - Standard',
-        image_title: 'HydroDermabrasion - Standard',
+        image_alt: 'HydraDermabrasion - Standard',
+        image_title: 'HydraDermabrasion - Standard',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
@@ -107,14 +107,14 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydroDermabrasion - Boost & Glow',
+        title: 'HydraDermabrasion - Boost & Glow',
         duration: '40 min',
         price: null,
         content: '<p class="p200">Upptäck vår specialanpassade Hydrafacial-behandling för mogen hy. Vi använder ett unikt serum berikat med två kraftfulla peptider som aktiverar hudens egna proteiner, essentiella för elasticitet och fasthet. Denna djupgående behandling penetrerar huden för att stärka dess struktur, vilket minskar synligheten av rynkor och fina linjer för en omedelbar boost och strålande lyster.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'HydroDermabrasion - Boost & Glow',
-        image_title: 'HydroDermabrasion - Boost & Glow',
+        image_alt: 'HydraDermabrasion - Boost & Glow',
+        image_title: 'HydraDermabrasion - Boost & Glow',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
@@ -144,14 +144,14 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydroDermabrasion - Mot Pormaskar',
+        title: 'HydraDermabrasion - Mot Pormaskar',
         duration: '40 min',
         price: null,
         content: '<p class="p200">Vår Hydrafacial-behandling för problemhy är skräddarsydd för att effektivt bekämpa pormaskar och finnar. Genom att använda en intensiv peeling med två specifika syror tar vi målmedvetet bort orenheter och överflödigt talg som bidrar till problemhy. Denna djuprengörande process minskar pormaskar och finnar, lämnar huden ren och klar med förbättrad hudtextur.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'HydroDermabrasion - Mot Pormaskar',
-        image_title: 'HydroDermabrasion - Mot Pormaskar',
+        image_alt: 'HydraDermabrasion - Mot Pormaskar',
+        image_title: 'HydraDermabrasion - Mot Pormaskar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
