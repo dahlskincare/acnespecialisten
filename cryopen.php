@@ -54,7 +54,7 @@ $description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Inför CryoPenbehandling',
+        title: 'Inför CryoPen behandling',
         image_small: '/bilder/process/358x272/cryopen-forberedelser.webp',
         image_large: '/bilder/process/872x456/cryopen-forberedelser.webp',
         image_alt: 'Inför CryoPenbehandling',
@@ -63,7 +63,7 @@ $top_articles = array(
         <p class="p200 mt-m">För att förbereda huden inför behandlingen är det viktigt att du låter bli att pilla eller irritera området som ska behandlas. Det är också fördelaktigt att inte utsätta huden för intensiv solning eller stark kyla före din session. Under konsultationen kommer vi att ge dig omfattande information om hur du bäst förbereder dig och vad du kan förvänta dig av behandlingen. Om förhållandena tillåter, och området är lämpligt, kan vi ofta påbörja din CryoPen behandling direkt vid konsultationstillfället. Observera att vi inte kan ställa diagnos på om din hudförändring är godartad eller elakartad.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går CryoPen till?',
+        title: 'Hur går CryoPen behandling till?',
         image_small: '/bilder/process/358x272/cryopen-process.webp',
         image_large: '/bilder/process/872x456/cryopen-process.webp',
         image_alt: 'Hur går CryoPen till?',
@@ -376,7 +376,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_small: '/bilder/process/358x272/cryopen-eftervard.webp',
     image_large: '/bilder/process/872x456/cryopen-eftervard.webp',
     image_alt: 'Efter CryoPen',
-    image_title: 'Efter CryoPeng',
+    image_title: 'Efter CryoPen',
     content: '<p class="p200">Efter en CryoPen-behandling är korrekt eftervård avgörande för att säkerställa en effektiv läkning och undvika komplikationer. Direkt efter behandlingen kan området vara rött och svullet, vilket är normalt. Det är viktigt att skydda det behandlade området från att smutsas ner; undvik därför att röra det med händerna och att applicera smink inom de första 24 timmarna efter ingreppet.</p>
     <p class="p200 mt-m">För att minska risken för irritation och svullnad, bör du avstå från att delta i ansträngande aktiviteter som intensiv träning, bastu och exponering för mycket varmt vatten under de initiala dagarna efter behandlingen. Även om det behandlade området inte utsätts för direkt solljus, är det kritiskt att applicera solskydd för att skydda huden mot UV-strålning och understödja läkningsprocessen.</p>
     <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som din hudterapeut ger dig. Om du upplever några osäkerheter eller bekymmer angående din läkning efter behandlingen, kontakta din klinik för råd. Baserat på din huds respons på behandlingen rekommenderas en eller flera uppföljningar eller behandlingar för optimala resultat.</p>',
