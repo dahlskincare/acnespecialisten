@@ -68,7 +68,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är MicroDermabrasion?';
-$description_text = '<p class="p200">MicroDermabrasion på AcneSpecialisten är en effektiv behandlingsmetod för att föryngra och vitalisera huden. Denna process fokuserar på att varsamt slipa bort det yttersta lagret av döda hudceller, vilket stimulerar huden att påbörja en naturlig läkningsprocess. Genom denna slipning avlägsnas gamla celler och ger plats åt nya, fräscha hudceller, vilket bidrar till en starkare, friskare och mer strålande hud. Behandlingen är designad för att kickstarta hudens förnyelse och är särskilt effektiv för att skapa en jämnare hudton och förbättra hudens övergripande kvalitet.</p>';
+$description_text = '<p class="p200">MicroDermabrasion på AcneSpecialisten är en effektiv behandlingsmetod för att föryngra och vitalisera huden. Denna process fokuserar på att varsamt slipa bort det yttersta lagret av döda hudceller, vilket stimulerar huden att påbörja en naturlig läkningsprocess. Genom denna slipning avlägsnas gamla hudceller och ger plats åt nya, fräscha hudceller, vilket bidrar till en starkare, friskare och mer strålande hud. Behandlingen är framtagen för att kickstarta hudens förnyelse och är särskilt effektiv för att skapa en jämnare hudton och förbättra hudens övergripande kvalitet.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
@@ -77,7 +77,7 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/mimass-forberedelser.webp',
         image_alt: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
         image_title: 'Förberedelse inför Microdermabrasiona ansiktsbehandlingar',
-        content: '<p class="p200">När du förbereder dig för din Microdermabrasion-behandling hos AcneSpecialisten, är det viktigt att ta vissa steg för att din hud ska vara i bästa möjliga skick. För att säkerställa att du är fullständigt informerad och bekväm med processen, erbjuder vi en konsultation där vi går igenom allt du behöver veta inför din Microdermabrasion-behandling. Under konsultationen kommer vi att diskutera din hudtyp, eventuella specifika bekymmer och vad du kan förvänta dig av behandlingen. Detta är också ett utmärkt tillfälle för dig att ställa frågor och uttrycka eventuella funderingar. Vår prioritet är att du känner dig helt trygg och förberedd inför din behandling hos AcneSpecialisten.</p>',
+        content: '<p class="p200">När du förbereder dig för din Microdermabrasion-behandling hos AcneSpecialisten, är det viktigt att ta vissa steg för att din hud ska vara i bästa möjliga skick. För att säkerställa att du är fullständigt informerad och bekväm med processen, erbjuder vi en kostnadsfri konsultation där vi går igenom allt du behöver veta inför din Microdermabrasion-behandling. Under konsultationen kommer vi att diskutera din hudtyp, eventuella specifika bekymmer och vad du kan förvänta dig av behandlingen. Detta är också ett utmärkt tillfälle för dig att ställa frågor och uttrycka eventuella funderingar. Vår prioritet är att du känner dig helt trygg och förberedd inför din behandling hos oss.</p>',
     ),
     'process' => new Article(
         title: 'Processen för Microdermabrasion',
@@ -85,8 +85,8 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/mimass-process.webp',
         image_alt: 'Processen för Microdermabrasion',
         image_title: 'Processen för Microdermabrasion',
-        content: '<p class="p200">Microdermabrasion-processen på AcneSpecialisten är en noggrant utformad behandling som syftar till att förbättra hudens kvalitet genom en skonsam men effektiv exfoliering. Behandlingen inleds med en grundlig rengöring av huden för att avlägsna smuts, olja och orenheter. Detta steg är viktigt för att förbereda huden för microdermabrasionen.</p>
-        <p class="p200 mt-m">Nästa steg i processen är själva microdermabrasionen, där vi använder en specialapparat för att skonsamt men djupgående exfoliera hudens yttre lager. Denna teknik använder mikrokristaller eller en diamantspets för att försiktigt slipa bort döda hudceller, vilket främjar cellförnyelse och förbättrar hudens textur och lyster.</p>
+        content: '<p class="p200">MicroDermabrasion är en noggrant utformad behandling som syftar till att förbättra hudens kvalitet genom en skonsam men effektiv mekanisk exfoliering. Behandlingen inleds med en grundlig rengöring av huden för att avlägsna smuts, olja och orenheter. Detta steg är viktigt för att förbereda huden för microdermabrasion.</p>
+        <p class="p200 mt-m">Nästa steg i processen är själva slipningen, där vi använder ett hudslipningsmunstycke för att skonsamt men djupgående exfoliera hudens yttre lager. Denna teknik använder mikrokristaller och en diamantspets för att försiktigt slipa bort döda hudceller, vilket främjar cellförnyelse och förbättrar hudens textur och lyster.</p>
         <p class="p200 mt-m">Efter exfolieringen appliceras specifika serum och näringsämnen för att ytterligare förbättra hudens hälsa och utseende. Dessa produkter är utvalda för att passa din specifika hudtyp och behov, och kan innefatta ingredienser som hyaluronsyra, antioxidanter och vitaminer.</p>
         <p class="p200 mt-m">Behandlingen avslutas med applicering av en lugnande och återfuktande kräm för att maximera hudens återhämtning och skydda den från yttre påverkan. Microdermabrasion är en idealisk behandling för dig som vill förbättra hudens textur och utseende, och passar för en rad olika hudtyper och tillstånd. Vårt mål är att ge dig en förbättrad, mjukare och mer strålande hud efter varje behandling.</p>',
     ),
