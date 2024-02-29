@@ -65,8 +65,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Dermabrasion och tillval';
-$types_description = 'Dermabrasion är en effektiv behandling som anpassas efter dina behov.';
+$types_title = null;
+$types_description = null;
 $big_types = array(
     new Service(
         title: 'MicroDermabrasion',
