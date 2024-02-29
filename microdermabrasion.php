@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'MicroDermabrasion - Effektiv Hudslipning och Förnyelse';
-$seo_description = 'Upptäck Microdermabrasion – avancerad hudslipning som förfinar porer, reducerar fina linjer och förbättrar hudens lyster. Idealisk för en jämnare hudton.';
+$seo_description = 'Upptäck MicroDermabrasion – avancerad hudslipning som förfinar porer, reducerar fina linjer och förbättrar hudens lyster. Idealisk för en jämnare hudton.';
 $seo_keywords = 'Microdermabrasion, hudförnyelse, hudslipning';
 
 $seo_image = '/images/treatments/large/microdermabrasion.webp';
