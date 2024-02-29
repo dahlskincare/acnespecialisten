@@ -65,8 +65,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = null;
-$types_description = null;
+$types_title = '';
+$types_description = '';
 $big_types = array(
     new Service(
         title: 'MicroDermabrasion',
