@@ -107,11 +107,13 @@ $service_brands_text = '<p class="p200">Utöver Microdermabrasion jobbar vi äve
 $service_brands = array(
 
     new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-    ),
+            label: 'HydraFacial',
+            image: 'bilder/logotyper/hydrafacial.svg',
+            image_alt: 'HydraFacial logotyp',
+            image_title: 'HydraFacial - Dermabrasion',
+            url: '/hydrafacial.php',
+            url_title: 'HydraFacial',
+      ),
 );
 
 $results = array(

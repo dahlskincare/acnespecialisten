@@ -437,11 +437,13 @@ $service_brands_text = '<p class="p200">Utöver Splendor X utför vi även perma
 $service_brands = array(
 
     new Brand(
-        label: 'Soprano Ice',
-        image: 'bilder/logotyper/soprano-ice.png',
-        image_alt: 'Soprano Ice',
-        image_title: 'Soprano Ice',
-    ),
+            label: 'Soprano Ice',
+            image: 'bilder/logotyper/soprano-ice.png',
+            image_alt: 'Soprano Ice logotyp',
+            image_title: 'Soprano Ice - Permanent hårborttagning med laser',
+            url: '/varumarken/alma/soprano-ice',
+            url_title: 'Soprano Ice',
+      ),
 );
 
 $results = array(

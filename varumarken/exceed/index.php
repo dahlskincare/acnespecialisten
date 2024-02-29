@@ -191,11 +191,13 @@ $service_brands_text = '<p class="p200">Utöver exceed utför vi även microneed
 $service_brands = array(
 
     new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen'
-    ),
+            label: 'Dermapen',
+            image: 'bilder/logotyper/dermapen.svg',
+            image_alt: 'Dermapen logotyp',
+            image_title: 'Dermapen - Microneedling',
+            url: '/dermapen.php',
+            url_title: 'Dermapen',
+      ),
 );
 
 $results = array(

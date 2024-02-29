@@ -347,22 +347,28 @@ $service_brands_text = '<p class="p200">Utöver Harmony XL Pro har vi ett bredd 
 $service_brands = array(
 
     new Brand(
-        label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/rejuve-dyevl.svg',
-        image_alt: 'Alma Rejuve DyeVL',
-        image_title: 'Alma Rejuve DyeVL',
+        label: 'Alma Hybrid',
+        image: 'bilder/logotyper/alma-hybrid.svg',
+        image_alt: 'Alma Hybrid logotyp',
+        image_title: 'Alma Hybrid CO2',
+        url: '/alma-hybrid-co2-laser.php',
+        url_title: 'Alma Hybrid',
     ),
     new Brand(
-        label: 'Alma Hybrid',
-        image: 'images/brands/alma-hybrid.svg',
-        image_alt: 'Alma Hybrid',
-        image_title: 'Alma Hybrid',
+        label: 'Alma Rejuve Dye-VL',
+        image: 'bilder/logotyper/rejuve-dye-vl.svg',
+        image_alt: 'Alma Rejuve Dye-VL logotyp',
+        image_title: 'Alma Rejuve Dye-VL - IPL',
+        url: '/varumarken/alma/rejuve-dye-vl',
+        url_title: 'Alma Rejuve Dye-VL',
     ),
     new Brand(
         label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
+        image: 'bilder/logotyper/powerlite-photonova.svg',
+        image_alt: 'Powerlite Photonova logotyp',
+        image_title: 'Powerlite Photonova - IPL',
+        url: '/varumarken/powerlite-photonova',
+        url_title: 'Powerlite Photonova',
     ),
 );
 

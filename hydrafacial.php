@@ -211,11 +211,13 @@ $service_brands_text = '<p class="p200">Utöver HydraFacial jobbar vi även med 
 $service_brands = array(
 
     new Brand(
-        label: 'Microdermabrasion',
-        image: 'bilder/logotyper/microdermabrasion.png',
-        image_alt: 'Microdermabrasion',
-        image_title: 'Microdermabrasion',
-    ),
+            label: 'Microdermabrasion',
+            image: 'bilder/logotyper/microdermabrasion.png',
+            image_alt: 'Microdermabrasion logotyp',
+            image_title: 'Microdermabrasion - hudslipning',
+            url: '/microdermabrasion.php',
+            url_title: 'Microdermabrasion',
+      ),
 );
 
 $results = array(

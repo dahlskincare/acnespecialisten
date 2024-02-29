@@ -399,11 +399,13 @@ $service_brands_title = 'Märken för kemisk peeling';
 $service_brands_text = '<p class="p200">Utöver Skin Tech jobbar vi även med PRX-T33 för kemisk peeling.</p>';
 $service_brands = array(
     new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRX-T33'
-    ),
+            label: 'PRX-T33',
+            image: 'bilder/logotyper/prx-t33.svg',
+            image_alt: 'PRX-T33 logotyp',
+            image_title: 'PRX-T33 - kemisk peeling',
+            url: '/prx-t33.php',
+            url_title: 'PRX-T33',
+      ),
 );
 
 $results = array(

@@ -378,17 +378,21 @@ $service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även 
 $service_brands = array(
 
     new Brand(
-        label: 'Alma Rejuve DyeVL',
-        image: 'images/brands/alma-rejuve-dyevl.svg',
-        image_alt: 'Alma Rejuve DyeVL',
-        image_title: 'Alma Rejuve DyeVL',
-    ),
+            label: 'Alma Rejuve Dye-VL',
+            image: 'bilder/logotyper/rejuve-dye-vl.svg',
+            image_alt: 'Alma Rejuve Dye-VL logotyp',
+            image_title: 'Alma Rejuve Dye-VL - IPL',
+            url: '/varumarken/alma/rejuve-dye-vl',
+            url_title: 'Alma Rejuve Dye-VL',
+      ),
     new Brand(
-        label: 'Alma Harmony XL Pro',
-        image: 'images/brands/alma-harmony-xl-pro.png',
-        image_alt: 'Alma Harmony XL Pro',
-        image_title: 'Alma Harmony XL Pro',
-    ),
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_alt: 'Harmony XL Pro logotyp',
+            image_title: 'Alma Harmony XL Pro',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Harmony XL Pro',
+      ),
 );
 
 $results = array(

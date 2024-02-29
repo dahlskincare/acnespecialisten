@@ -378,17 +378,21 @@ $service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även 
 $service_brands = array(
 
     new Brand(
-        label: 'Alma Harmony XL Pro',
-        image: 'bilder/logotyper/harmony-xl-pro.png',
-        image_alt: 'Alma Harmony XL Pro',
-        image_title: 'Alma Harmony XL Pro',
-    ),
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_alt: 'Harmony XL Pro logotyp',
+            image_title: 'Alma Harmony XL Pro',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Harmony XL Pro',
+      ),
     new Brand(
-        label: 'Powerlite Photonova',
-        image: 'bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
+            label: 'Powerlite Photonova',
+            image: 'bilder/logotyper/powerlite-photonova.svg',
+            image_alt: 'Powerlite Photonova logotyp',
+            image_title: 'Powerlite Photonova - IPL',
+            url: '/varumarken/powerlite-photonova',
+            url_title: 'Powerlite Photonova',
+      ),
 );
 
 $results = array(
