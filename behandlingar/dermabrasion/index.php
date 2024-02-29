@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermabrasion - Avancerad Hudförnyelse | AcneSpecialisten';
-$seo_description = 'Utforska AcneSpecialistens dermabrasion-behandlingar för att dramatiskt förbättra hudens textur och utseende. Med vår avancerade teknik och expertis ger vi dig en djupgående hudförnyelse och återuppbyggnad. Upplev skillnaden med professionell dermabrasion.';
+$seo_title = 'Dermabrasion & Hydro - Effektiv Hudförnyelse';
+$seo_description = 'Effektiv förbättring av hudens textur och utseende. Med avancerad teknik och expertis får du djupgående hudförnyelse och återuppbyggnad.';
 $seo_keywords = 'dermabrasion, dermabrasion i Stockholm';
 
 $seo_image = '/images/treatments/large/dermabrasion.webp';
