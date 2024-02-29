@@ -384,15 +384,19 @@ $service_brands = array(
 
     new Brand(
         label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen'
+        image: 'bilder/logotyper/dermapen.svg',
+        image_alt: 'Dermapen logotyp',
+        image_title: 'Dermapen - Microneedling',
+        url: '/dermapen.php',
+        url_title: 'Dermapen',
     ),
     new Brand(
         label: 'Exceed',
-        image: 'images/brands/exceed.png',
-        image_alt: 'Exceed',
-        image_title: 'Exceed'
+        image: 'bilder/logotyper/exceed.png',
+        image_alt: 'Exceed logotyp',
+        image_title: 'Exceed - microneedling',
+        url: '/varumarken/exceed',
+        url_title: 'Exceedn',
     ),
 );
 

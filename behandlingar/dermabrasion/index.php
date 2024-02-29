@@ -250,15 +250,19 @@ $service_brands = array(
 
     new Brand(
         label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial'
-    ),
-    new Brand(
+        image: 'bilder/logotyper/hydrafacial.svg',
+        image_alt: 'HydraFacial logotyp',
+        image_title: 'HydraFacial - Dermabrasion',
+        url: '/hydrafacial.php',
+        url_title: 'HydraFacial',
+      ),
+    ne Brand(
         label: 'Microdermabrasion',
-        image: 'images/brands/microdermabrasion.png',
-        image_alt: 'Microdermabrasion',
-        image_title: 'Microdermabrasion'
+        image: 'bilder/logotyper/microdermabrasion.png',
+        image_alt: 'Microdermabrasion logotyp',
+        image_title: 'Microdermabrasion - hudslipning',
+        url: '/microdermabrasion.php',
+        url_title: 'Microdermabrasion',
     ),
 );
 

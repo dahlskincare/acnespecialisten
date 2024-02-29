@@ -321,46 +321,20 @@ $specialists_view_more = 'Se alla hudterapeuter';
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
+        label: 'Dermapen',
+        image: 'bilder/logotyper/dermapen.svg',
+        image_alt: 'Dermapen logotyp',
+        image_title: 'Dermapen - Microneedling',
+        url: '/dermapen.php',
+        url_title: 'Dermapen',
     ),
     new Brand(
-        label: 'microneedling',
-        image: 'images/brands/microneedling.svg',
-        image_alt: 'microneedling',
-        image_title: 'microneedling',
-    ),
-    new Brand(
-        label: 'CryoPen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'CryoPen',
-        image_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRXT',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: 'images/brands/infuzion.svg',
-        image_alt: 'Infuzion',
-        image_title: 'Infuzion',
+        label: 'Exceed',
+        image: 'bilder/logotyper/exceed.png',
+        image_alt: 'Exceed logotyp',
+        image_title: 'Exceed - microneedling',
+        url: '/varumarken/exceed',
+        url_title: 'Exceedn',
     ),
 );
 ?>

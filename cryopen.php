@@ -344,18 +344,6 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som din hudterapeut ger dig. Om du upplever några osäkerheter eller bekymmer angående din läkning efter behandlingen, kontakta din klinik för råd. Baserat på din huds respons på behandlingen rekommenderas en eller flera uppföljningar eller behandlingar för optimala resultat.</p>',
 ));
 
-$service_brands_title = 'Metoder för CryoPen';
-$service_brands_text = '<p class="p200">Cryopen är en form av frysbehandling</p>';
-$service_brands = array(
-
-    new Brand(
-        label: 'Frysbehandling',
-        image: 'bilder/logotyper/cryopen.svg',
-        image_alt: 'Frysbehandling',
-        image_title: 'Frysbehandling',
-    ),
-);
-
 $results = array(
     new ResultCustomer(
         url: '',
