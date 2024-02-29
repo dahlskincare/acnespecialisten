@@ -31,7 +31,7 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'Hudslipning som jämnar hudens ytan.';
+$floating_box = 'Hudslipning som jämnar hudens yta.';
 
 $nav_buttons = array(
     'about' => 'Om Dermabrasion',
