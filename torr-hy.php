@@ -496,8 +496,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en specialist inom torr och känslig hy utförs en hudanalys. Vi rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina unika behov och hudtyp.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: '/bilder/behandlingar/200x200/konsultation.webp',
+      image_large: '/bilder/behandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av torr och känslig hy',
       image_title: 'Konsultation för Torr och Känslig Hy',
 
@@ -524,8 +524,8 @@ $services = array(
             price: '995 kr',
             content: 'Denna ansiktsbehandling är utformad för att lindra torr och känslig hud. Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_small: '/bilder/behandlingar/ansiktsbehandling.webp',
+            image_large: '/bilder/behandlingar/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för torr och känslig hy',
             image_title: 'Ansiktsbehandling för torr och känslig hy',
 
@@ -541,7 +541,52 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för torr och känslig hy'
       ),
+      new Service(
+            title: 'Infuzion för torr och känslig hy',
+            duration: '75 min',
+            price: '1,295 kr',
+            content: 'Infuzion behandlingen är speciellt framtagen för att återfukta och lugna torr och känslig hud. Genom en unik process införs fuktbindande ämnen djupt in i huden utan nålar, vilket ger en omedelbar förbättring av hudens hydrering och minskar irritation.',
 
+            image_small: '/bilder/behandlingar/200x200/infuzion.webp',
+            image_large: '/bilder/behandlingar/200x200/infuzion.webp',
+            image_alt: 'Bild av Infuzion behandling för torr och känslig hy',
+            image_title: 'Infuzion behandling för torr och känslig hy',
+
+            url: '/problemhy.php',
+            url_label: 'Läs mer om Infuzion behandling mot torr och känslig hy',
+            url_title: 'Läs mer om Infuzion behandling mot torr och känslig hy',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensitiveSkin_Infuzion',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för Infuzion behandling för torr och känslig hy',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensitiveSkin_Infuzion',
+            booking_url_title: 'Klicka för att boka tid för en Infuzion behandling för torr och känslig hy'
+      ),
+      new Service(
+            title: 'HydraFacial för torr och känslig hy',
+            duration: '60 min',
+            price: '1,195 kr',
+            content: 'HydraFacial behandlingen erbjuder en skonsam men effektiv exfoliering samt djupåterfuktning för torr och känslig hud. Tekniken renar huden och tillför antioxidanter, vilket lämnar huden återfuktad, mjuk och med en fräsch lyster.',
+
+            image_small: '/bilder/behandlingar/200x200/hydrafacial.webp',
+            image_large: '/bilder/behandlingar/200x200/hydrafacial.webp',
+            image_alt: 'Bild av HydraFacial behandling för torr och känslig hy',
+            image_title: 'HydraFacial behandling för torr och känslig hy',
+
+            url: '/problemhy.php',
+            url_label: 'Läs mer om HydraFacial behandling mot torr och känslig hy',
+            url_title: 'Läs mer om HydraFacial behandling mot torr och känslig hy',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensitiveSkin_HydraFacial',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för HydraFacial behandling för torr och känslig hy',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensitiveSkin_HydraFacial',
+            booking_url_title: 'Klicka för att boka tid för en HydraFacial behandling för torr och känslig hy'
+      ),
 );
 
 $headline03 = "03. Förebygg uppkomsten av torr och känslig hy";
@@ -553,8 +598,8 @@ $products = array(
             price: 'Pris från 1495 kr',
             content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin med rätt produkter. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
 
-            image_small: 'images/services/200x200/produkter.webp',
-            image_large: 'images/services/200x200/produkter.webp',
+            image_small: '/bilder/behandlingar/200x200/produkter.webp',
+            image_large: '/bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av torr och känslig hy',
             image_title: 'Effektiva produkter för lindring och vård av torr och känslig hy',
 
