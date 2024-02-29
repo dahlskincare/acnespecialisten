@@ -118,8 +118,8 @@ $articles = array(
 
       new Article(
             title: 'När ska jag söka hjälp med min rhinophyma rosacea?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'När ska jag söka hjälp med min rhinophyma rosacea?',
             image_title: 'När ska jag söka hjälp med min rhinophyma rosacea?',
             content: '<p class="p200">Om du upplever några tecken på rhinophyma rosacea, såsom en gradvis förtjockning eller förändring i formen på näsan, är det viktigt att omedelbart söka professionell hjälp. Tidiga stadier kan vara svåra att skilja från vanlig rosacea, men att ignorera symtomen kan leda till att tillståndet förvärras och blir svårare att behandla.</p>
@@ -128,8 +128,8 @@ $articles = array(
 
       new Article(
             title: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
-            image_small: 'https://via.placeholder.com/358x272.webp',
-            image_large: 'https://via.placeholder.com/872x456.webp',
+            image_small: null,
+            image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
             content: '<p class="p200">Om du söker en expert på behandling av rhinophyma rosacea, är AcneSpecialisten det självklara valet. Med vårt engagemang för kvalitet och vår omfattande erfarenhet inom avancerad hudvård, står vi redo att erbjuda dig den expertis som krävs för att hantera detta komplexa tillstånd effektivt.</p>

@@ -94,7 +94,7 @@ $big_types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
         consultation_url_label: 'Boka tid för hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Service_Laser_oScar',
         booking_url_label: 'Boka Hybrid oScar',
         booking_url_title: 'Boka Hybrid oScar',
         icons: array(),

@@ -410,7 +410,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://bokadirekt.se',
+                url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
             ),
