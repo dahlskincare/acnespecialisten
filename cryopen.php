@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'CryoPen - Precisionsstyrd Cryoterapi för hudförändringar | Acnespecialisten';
 $seo_description = 'Upplev precisionen med CryoPen hos Acnespecialisten, den moderna lösningen för att utan smärta och med stor noggrannhet behandla och ta bort hudförändringar som födelsemärken, skintags och leverfläckar. CryoPen använder avancerad kryoteknik för att effektivt minska hudförändringar och främja en jämn hudton.';
-$seo_keywords = 'CryoPen behandling, cryoterapi precision, smärtfri hudlesionsborttagning, hudlesioner, CryoPen för vårtor, skintags, pigmentfläckar reduktion, avancerad kryoteknik, jämna ut hudton, estetisk hudvård';
+$seo_keywords = 'CryoPen behandling, cryoterapi precision, smärtfri hudlesionsborttagning, CryoPen för vårtor, skintags, pigmentfläckar reduktion, avancerad kryoteknik, jämna ut hudton, estetisk hudvård';
 
 $seo_image = 'images/treatments/large/cryopen.webp';
 
@@ -18,7 +18,7 @@ $model = new Service(
     title: 'CryoPen',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">CryoPen är en framstående metod för att snabbt och effektivt behandla en rad hudförändringar, inklusive födelsemärken, skintags och leverfläckar.</p>',
+    content: '<p class="p200">CryoPen är en skonsam metod för att snabbt och effektivt ta bort en rad hudförändringar, inklusive födelsemärken, hudflikar och leverfläckar.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
     image_alt: 'CryoPen',
@@ -48,7 +48,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'CryoPen - Effektiv behandling för hudförändringar';
+$description_title = 'Vad är CryoPen?';
 $description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi, en snabb och icke-invasiv metod för att avlägsna hudförändringar som födelsemärken, hudflikar och ansitksvårtor, och olika typer av märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
     <p class="p200 mt-m">Genom att rikta in sig på specifika områden med extrem kyla, kan CryoPen behandla hudförändringar effektivt utan att skada omgivande hud. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
 
@@ -344,6 +344,7 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som din hudterapeut ger dig. Om du upplever några osäkerheter eller bekymmer angående din läkning efter behandlingen, kontakta din klinik för råd. Baserat på din huds respons på behandlingen rekommenderas en eller flera uppföljningar eller behandlingar för optimala resultat.</p>',
 ));
 
+$results_title = 'CryoPen före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
