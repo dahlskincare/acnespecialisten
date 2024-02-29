@@ -116,7 +116,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Dermabrasion',
+        title: 'Dermabrasion (HydraFacial)',
         duration: '40 min',
         price: null,
         content: '<p class="p200">Vår dermabrasion-behandling är en effektiv lösning för att förbättra hudens utseende och struktur. Denna behandling är lämplig för många hudtyper och fokuserar på att varsamt slipa bort det yttersta hudlagret. Processen börjar med en grundlig rengöring för att förbereda huden, vilket är avgörande för behandlingens framgång.</p>
