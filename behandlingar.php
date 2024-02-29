@@ -100,9 +100,9 @@ $treatments = array(
         url_title: 'Läs mer om ipl'
     ),
     new Treatment(
-        label: 'Dermabrasion',
-        url: 'behandlingar/dermabrasion',
-        url_title: 'Läs mer om dermabrasion'
+        label: 'MicroDermabrasion',
+        url: '/microdermabrasion.php',
+        url_title: 'Läs mer om MicroDermabrasion'
     ),
     new Treatment(
         label: 'Permanent Hårborttagning',
@@ -168,6 +168,11 @@ $people_search_for = array(
         label: 'PRX-T33',
         url: 'prx-t33.php',
         url_title: 'Läs mer om PRX-T33'
+    ),
+    new Treatment(
+        label: 'Dermabrasion',
+        url: 'behandlingar/dermabrasion',
+        url_title: 'Läs mer om dermabrasion'
     ),
 );
 
