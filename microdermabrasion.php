@@ -10,7 +10,7 @@ $seo_keywords = 'Microdermabrasion, hudförnyelse, hudslipning, fina linjer, jä
 $seo_image = '/images/treatments/large/microdermabrasion.webp';
 
 $model = new Service(
-    title: 'Microdermabrasion',
+    title: 'MicroDermabrasion',
     duration: null,
     price: 'Från 1595 kr',
     content: '',
