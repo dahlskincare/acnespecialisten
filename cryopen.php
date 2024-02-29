@@ -378,7 +378,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_alt: 'Efter CryoPen',
     image_title: 'Efter CryoPen',
     content: '<p class="p200">Efter en CryoPen-behandling är korrekt eftervård avgörande för att säkerställa en effektiv läkning och för att undvika komplikationer. Direkt efter behandlingen kan området vara rött och svullet, vilket är normalt. Det är viktigt att skydda det behandlade området från att smuts, undvik därför att röra det med händerna och att applicera smink inom de första 24 timmarna efter ingreppet.</p>
-    <p class="p200 mt-m">För att minska risken för irritation och svullnad, bör du avstå från att delta i ansträngande aktiviteter som intensiv träning, bastu och exponering för mycket varmt vatten under de initiala dagarna efter behandlingen. Även om det behandlade området inte utsätts för direkt solljus, är det kritiskt att applicera solskydd för att skydda huden mot UV-strålning och understödja läkningsprocessen.</p>
+    <p class="p200 mt-m">För att minska risken för irritation och svullnad, bör du avstå från att delta i ansträngande aktiviteter som intensiv träning, bastu och heta duschar/badför under de första dagarna efter behandlingen. Det är viktigt att skydda huden, speciellt på det behandlade området så det är viktigt att applicera solskydd för att skydda huden mot UV-strålning och hjälpa till i läkningsprocessen.</p>
     <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som din hudterapeut ger dig. Om du upplever några osäkerheter eller bekymmer angående din läkning efter behandlingen, kontakta din klinik för råd. Baserat på din huds respons på behandlingen rekommenderas en eller flera uppföljningar eller behandlingar för optimala resultat.</p>',
 ));
 
