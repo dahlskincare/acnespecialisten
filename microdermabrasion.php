@@ -67,8 +67,8 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Microdermabrasion?';
-$description_text = '<p class="p200">Microdermabrasion på AcneSpecialisten är en effektiv behandlingsmetod för att föryngra och vitalisera huden. Denna process fokuserar på att varsamt skrapa bort det yttersta lagret av döda hudceller, vilket stimulerar huden att påbörja en naturlig läkningsprocess. Genom denna slipning avlägsnas gamla celler och ger plats åt nya, fräscha hudceller, vilket bidrar till en starkare, friskare och mer strålande hud. Behandlingen är designad för att kickstarta hudens förnyelse och är särskilt effektiv för att skapa en jämnare hudton och förbättra hudens övergripande kvalitet.</p>';
+$description_title = 'Vad är MicroDermabrasion?';
+$description_text = '<p class="p200">MicroDermabrasion på AcneSpecialisten är en effektiv behandlingsmetod för att föryngra och vitalisera huden. Denna process fokuserar på att varsamt slipa bort det yttersta lagret av döda hudceller, vilket stimulerar huden att påbörja en naturlig läkningsprocess. Genom denna slipning avlägsnas gamla celler och ger plats åt nya, fräscha hudceller, vilket bidrar till en starkare, friskare och mer strålande hud. Behandlingen är designad för att kickstarta hudens förnyelse och är särskilt effektiv för att skapa en jämnare hudton och förbättra hudens övergripande kvalitet.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
