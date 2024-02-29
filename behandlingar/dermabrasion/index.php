@@ -116,7 +116,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Dermabrasion (HydraFacial)',
+        title: 'HydroDermabrasion',
         duration: '40 min',
         price: null,
         content: '<p class="p200">Vår dermabrasion-behandling är en effektiv lösning för att förbättra hudens utseende och struktur. Denna behandling är lämplig för många hudtyper och fokuserar på att varsamt slipa bort det yttersta hudlagret. Processen börjar med en grundlig rengöring för att förbereda huden, vilket är avgörande för behandlingens framgång.</p>
@@ -155,7 +155,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Dermabrasion - Dermabuilder Serum - Boost & Glow',
+        title: 'HydroDermabrasion - Dermabuilder Serum - Boost & Glow',
         duration: '40 min',
         price: null,
         content: '<p class="p200">För att ge mogen hud ett riktigt lyft, inkluderar vi Dermabuilder serum i vår behandling. Detta specialserum är en riktig kraftkälla, särskilt utvecklad för att vitalisera och förstärka huden inifrån. Med en potentiell blandning av två aktiva peptider stimulerar det hudens naturliga proteinproduktion, vilket är avgörande för att bibehålla hudens elasticitet och fasthet.</p>
@@ -194,7 +194,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Dermabrasion - Glycal Acid Peel - Mot Pormaskar',
+        title: 'HydroDermabrasion - Glycal Acid Peel - Mot Pormaskar',
         duration: '40 min',
         price: null,
         content: '<p class="p200">För att effektivt ta itu med problemhud som pormaskar och finnar, erbjuder vi en specialiserad hydrafacial med Glycal Acid Peel. Denna behandling är speciellt utformad för att djuprengöra huden och hantera överproduktionen av talg, vilket ofta ligger bakom dessa hudproblem.</p>
