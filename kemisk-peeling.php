@@ -434,15 +434,19 @@ $service_brands = array(
 
     new Brand(
         label: 'Skin Tech',
-        image: 'images/brands/skin-tech.svg',
-        image_alt: 'Skin Tech',
-        image_title: 'SkinTech',
+        image: 'bilder/logotyper/skin-tech.svg',
+        image_alt: 'Skin Tech logotyp',
+        image_title: 'Skin Tech - kemisk peeling',
+        url: '/varumarken/skin-tech',
+        url_title: 'Skin Tech',
     ),
     new Brand(
         label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRX-T33'
+        image: 'bilder/logotyper/prx-t33.svg',
+        image_alt: 'PRX-T33 logotyp',
+        image_title: 'PRX-T33 - kemisk peeling',
+        url: '/prx-t33.php',
+        url_title: 'PRX-T33',
     ),
 );
 

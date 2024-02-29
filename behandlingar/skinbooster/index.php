@@ -232,9 +232,11 @@ $service_brands = array(
 
     new Brand(
         label: 'Infuzion',
-        image: 'images/brands/infuzion.svg',
-        image_alt: 'Infuzion',
-        image_title: 'Infuzion'
+        image: 'bilder/logotyper/infuzion.svg',
+        image_alt: 'Infuzion logotyp',
+        image_title: 'Infuzion - nålfri skinbooster',
+        url: '/infuzion.php',
+        url_title: 'Infuzion',
     ),
 );
 

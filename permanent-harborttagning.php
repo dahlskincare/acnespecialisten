@@ -438,15 +438,19 @@ $service_brands = array(
 
     new Brand(
         label: 'Splendor X',
-        image: 'images/brands/splendor-x.png',
-        image_alt: 'Splendor X',
-        image_title: 'Splendor X',
+        image: 'bilder/logotyper/splendor-x.png',
+        image_alt: 'Splendor X logotyp',
+        image_title: 'Splendor X - Permanent hårborttagning med laser',
+        url: '/varumarken/splendor-x',
+        url_title: 'Splendor X',
     ),
-    new Brand(
+      new Brand(
         label: 'Soprano Ice',
-        image: 'images/brands/soprano-ice.png',
-        image_alt: 'Soprano Ice',
-        image_title: 'Soprano Ice',
+        image: 'bilder/logotyper/soprano-ice.png',
+        image_alt: 'Soprano Ice logotyp',
+        image_title: 'Soprano Ice - Permanent hårborttagning med laser',
+        url: '/varumarken/alma/soprano-ice',
+        url_title: 'Soprano Ice',
     ),
 );
 
