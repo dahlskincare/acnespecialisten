@@ -220,16 +220,6 @@ $big_types = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för Dermabrasion',
-    image_small: '/bilder/process/358x272/dermabrasion-eftervard.webp',
-    image_large: '/bilder/process/872x456/dermabrasion-eftervard.webp',
-    image_alt: 'Eftervård för Dermabrasion',
-    image_title: 'Eftervård för Dermabrasion',
-    content: '<p class="p200">Efter din dermabrasion-behandling är det avgörande att följa rätt eftervårdsrutiner för att säkerställa och förlänga resultaten. Det är viktigt att vara extra försiktig med huden direkt efter behandlingen. Undvik direkt exponering för solen och applicera solskydd med hög SPF för att skydda den behandlade huden. Det är också klokt att avstå från att använda irriterande hudprodukter under de första 24 timmarna.</p>
-    <p class="p200 mt-m">För att främja läkning och bibehålla hudens kondition, rekommenderar vi att du återfuktar huden regelbundet med de produkter som din hudterapeut har rådgivit. Om din behandling inkluderade en kemisk peeling eller intensiv exfoliering, bör du vara försiktig och undvika att skrubba eller plocka på huden, även om du upplever några mindre orenheter. Det är även viktigt att upprätthålla en god vätskebalans genom att dricka mycket vatten och hålla en hälsosam kost för att stödja huden från insidan. Om du har några ytterligare frågor eller funderingar kring din eftervård, är du alltid välkommen att kontakta oss för skräddarsydda råd.</p>',
-));
-
 $service_brands_title = 'Märken för Dermabrasion';
 $service_brands_text = '<p class="p200">Vi utför dermabrasion med HydraFacial och Microdermabrasion vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
 $service_brands = array(
