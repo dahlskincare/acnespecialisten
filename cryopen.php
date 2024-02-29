@@ -286,7 +286,7 @@ $treatment_areas = array(
         image_large: null,
         image_alt: 'Antal hudförändringar',
         image_title: 'Antal hudförändringar',
-        title: 'Antal hudförändringar',
+        title: 'CryoPen pris',
         description: '<p class="p200">Priset baseras på antal hudförändringar som behandlas.</p>',
         items: array(
             new TreatmentAreaItem(
