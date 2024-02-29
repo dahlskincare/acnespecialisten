@@ -400,6 +400,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'Microneedling före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
