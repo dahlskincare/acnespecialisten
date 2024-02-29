@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är CryoPen?';
-$description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi, en snabb och icke-invasiv metod för att avlägsna hudförändringar som födelsemärken, hudflikar och ansiktsvårtor, och olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
+$description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi, en snabb och icke-invasiv metod för att avlägsna hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
     <p class="p200 mt-m">Genom att rikta in sig på specifika områden med extrem kyla, kan CryoPen behandla hudförändringar effektivt utan att skada omgivande hud. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
 
 $top_articles = array(
