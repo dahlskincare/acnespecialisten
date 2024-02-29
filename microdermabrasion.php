@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microdermabrasion - Effektiv Hudslipning och Förnyelse | AcneSpecialisten';
-$seo_description = 'AcneSpecialisten presenterar microdermabrasion, en avancerad behandlingsmetod för att förbättra hudens textur och lyster. Denna djupgående hudslipning är idealisk för att förfina porer, minska fina linjer och ge en jämnare hudton. Perfekt för de som söker en skonsam, men effektiv hudförnyelse.';
-$seo_keywords = 'Microdermabrasion, hudförnyelse, hudslipning, fina linjer, jämn hudton, porförfining, AcneSpecialisten, skonsam behandling, effektiv hudvård';
+$seo_title = 'MicroDermabrasion - Effektiv Hudslipning och Förnyelse';
+$seo_description = 'Upptäck Microdermabrasion – avancerad hudslipning som förfinar porer, reducerar fina linjer och förbättrar hudens lyster. Idealisk för en jämnare hudton.';
+$seo_keywords = 'Microdermabrasion, hudförnyelse, hudslipning';
 
 $seo_image = '/images/treatments/large/microdermabrasion.webp';
 
