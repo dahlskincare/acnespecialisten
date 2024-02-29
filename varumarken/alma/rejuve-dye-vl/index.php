@@ -166,7 +166,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av melasma',
-        booking_url: 'https://www.bokadirekt.se/',
+        booking_url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Rejuve Dye-VL behandling för melasma',
     ),
