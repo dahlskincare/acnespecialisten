@@ -94,6 +94,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/laser-acnearr.php',
+        url_label: 'Läs mer om laser mot acneärr',
+        url_title: 'Läs mer om laser mot acneärr',
     ),
     new Service(
         title: 'Laserbehandling mot Aktiv Acne',
@@ -110,6 +114,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/laser-acne.php',
+        url_label: 'Läs mer om laser mot akne',
+        url_title: 'Läs mer om laser mot akne',
     ),
     new Service(
         title: 'Laserbehandling mot Ytliga Blodkärl',
@@ -126,6 +134,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_BloodVessels',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/ipl-ytliga-blodkarl.php',
+        url_label: 'Läs mer om laser mot ytliga blodkärl',
+        url_title: 'Läs mer om laser mot ytliga blodkärl',
     ),
     new Service(
         title: 'Laserbehandling mot Rosacea',
@@ -142,6 +154,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_BloodVessels',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/ipl-rosacea.php',
+        url_label: 'Läs mer om laser mot rosacea',
+        url_title: 'Läs mer om laser mot rosacea',
     ),
     new Service(
         title: 'Laserbehandling mot Pigmentfläckar',
@@ -158,6 +174,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/ipl-pigmentflackar.php',
+        url_label: 'Läs mer om laser mot pigmentfläckar',
+        url_title: 'Läs mer om laser mot pigmentfläckar',
     ),
     new Service(
         title: 'Laserbehandling mot Melasma',
@@ -174,6 +194,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Melasma',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/melasma.php',
+        url_label: 'Läs mer om melasma',
+        url_title: 'Läs mer om melasma',
     ),
     new Service(
         title: 'Laserbehandling mot Stora Porer',
@@ -190,6 +214,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/stora-porer.php',
+        url_label: 'Läs mer om stora porer',
+        url_title: 'Läs mer om stora porer',
     ),
     new Service(
         title: 'Laserbehandling mot Hudutväxter',
@@ -206,6 +234,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Moles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/problem/hudfornadringar/behandla-hudfornadringar/',
+        url_label: 'Läs mer om behandling av hudförändringar',
+        url_title: 'Läs mer om behandling av hudförändringar',
     ),
     new Service(
         title: 'Laserbehandling mot Bristningar',
@@ -222,6 +254,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/problem/bristningar/behandla-bristningar/',
+        url_label: 'Läs mer om behandling av bristningar',
+        url_title: 'Läs mer om behandling av bristningar',
     ),
     new Service(
         title: 'Laserbehandling mot Ärr (Skade- och Operationsärr)',
@@ -238,6 +274,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/laser-arr.php',
+        url_label: 'Läs mer om laser mot ärr',
+        url_title: 'Läs mer om laser mot ärr',
     ),
     new Service(
         title: 'Laserbehandling mot Rynkor och Fina Linjer',
@@ -254,6 +294,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
+
+        url: '/mogen-hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
     ),
 );
 

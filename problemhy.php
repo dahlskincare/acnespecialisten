@@ -149,9 +149,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
 
-        url_label: 'Läs mer om ansiktsbehandling mot pormaskar',
+        url_label: 'Läs mer om portömning',
         url: '/portomning.php',
-        url_title: 'Läs mer om ansiktsbehandling mot pormaskar',
+        url_title: 'Läs mer om portömning',
     ),
     new Service(
         title: 'Ansiktsbehandling mot Rosacea',
@@ -190,9 +190,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
 
-        url_label: 'Läs mer om ansiktsbehandling mot finnar',
+        url_label: 'Läs mer om portömning',
         url: '/portomning.php',
-        url_title: 'Läs mer om ansiktsbehandling mot finnar',
+        url_title: 'Läs mer om portömning',
     ),
     new Service(
         title: 'Ansiktsbehandling för Blandhy',
@@ -210,9 +210,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Blandhy',
 
-        url_label: 'Läs mer om ansiktsbehandling mot blandhy',
+        url_label: 'Läs mer om portömning',
         url: '/portomning.php',
-        url_title: 'Läs mer om ansiktsbehandling mot blandhy',
+        url_title: 'Läs mer om portömning',
     ),
     new Service(
         title: 'Ansiktsbehandling mot Milier',
@@ -230,8 +230,8 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Milier',
 
-        url: 'milierbehandling.php',
-        url_label: 'Läs mer om ansiktsbehandling mot milier',
+        url: '/milierbehandling.php',
+        url_label: 'Läs mer om milierbehandling',
         url_title: 'Klicka här för att läsa mer om behandling mot milier',
     ),
     new Service(
@@ -290,9 +290,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
 
-        url_label: 'Läs mer om ansiktsbehandling mot stora porer',
+        url_label: 'Läs mer om portömning',
         url: '/portomning.php',
-        url_title: 'Läs mer om ansiktsbehandling mot stora porer',
+        url_title: 'Läs mer om portömning',
     ),
     new Service(
         title: 'Ansiktsbehandling för Torr & Känslig Hy',
@@ -310,9 +310,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
 
-        url_label: 'Läs mer om ansiktsbehandling mot torr & känslig hy',
-        url: '/portomning.php',
-        url_title: 'Läs mer om ansiktsbehandling mot torr & känslig hy',
+        url_label: 'Läs mer om torr & känslig hy',
+        url: '/torr-hy.php',
+        url_title: 'Läs mer om torr & känslig hy',
     ),
 );
 

@@ -118,6 +118,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka IPL-behandling för rosacea',
+
+        url: '/ipl-rosacea.php',
+        url_label: 'Läs mer om laser mot rosacea',
+        url_title: 'Läs mer om laser mot rosacea',
     ),
 
     new Service(
@@ -135,6 +139,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka IPL-behandling för ytliga blodkärl',
+
+        url: '/ipl-ytliga-blodkarl.php',
+        url_label: 'Läs mer om laser mot ytliga blodkärl',
+        url_title: 'Läs mer om laser mot ytliga blodkärl',
     ),
 
     new Service(
@@ -152,13 +160,17 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka IPL-behandling för pigmentfläckar',
+
+        url: '/ipl-pigmentflackar.php',
+        url_label: 'Läs mer om laser mot pigmentfläckar',
+        url_title: 'Läs mer om laser mot pigmentfläckar',
     ),
 
     new Service(
-        title: 'IPL-behandling för Melasma',
+        title: 'Laserbehandling för Melasma',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Behandla melasma effektivt med IPL. Vår behandling hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt behandla de hyperpigmenterade områdena, vilket ger en märkbar förbättring i hudens utseende.',
+        content: 'Behandla melasma effektivt med laser. Vår behandling hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt behandla de hyperpigmenterade områdena, vilket ger en märkbar förbättring i hudens utseende.',
         image_small: 'bilder/problem/102x102/melasma.webp',
         image_large: 'bilder/problem/200x200/melasma.webp',
         image_alt: 'IPL-behandling för Melasma',
@@ -166,9 +178,13 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för IPL-behandling av melasma',
-        booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Melasma',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Melasma&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka IPL-behandling för melasma',
+
+        url: '/melasma.php',
+        url_label: 'Läs mer om melasma',
+        url_title: 'Läs mer om melasma',
     ),
 
 );
