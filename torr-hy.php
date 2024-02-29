@@ -543,8 +543,8 @@ $services = array(
       ),
       new Service(
             title: 'Infuzion för torr och känslig hy',
-            duration: '75 min',
-            price: '1,295 kr',
+            duration: '50 min',
+            price: '2595 kr',
             content: 'Infuzion behandlingen är speciellt framtagen för att återfukta och lugna torr och känslig hud. Genom en unik process införs fuktbindande ämnen djupt in i huden utan nålar, vilket ger en omedelbar förbättring av hudens hydrering och minskar irritation.',
 
             image_small: '/bilder/behandlingar/200x200/infuzion.webp',
@@ -552,22 +552,22 @@ $services = array(
             image_alt: 'Bild av Infuzion behandling för torr och känslig hy',
             image_title: 'Infuzion behandling för torr och känslig hy',
 
-            url: '/problemhy.php',
+            url: '/infuzion.php',
             url_label: 'Läs mer om Infuzion behandling mot torr och känslig hy',
             url_title: 'Läs mer om Infuzion behandling mot torr och känslig hy',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensitiveSkin_Infuzion',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för Infuzion behandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensitiveSkin_Infuzion',
+            booking_url: 'https://acnespecialisten.se/book?flow=infuzion',
             booking_url_title: 'Klicka för att boka tid för en Infuzion behandling för torr och känslig hy'
       ),
       new Service(
             title: 'HydraFacial för torr och känslig hy',
-            duration: '60 min',
-            price: '1,195 kr',
+            duration: '40 min',
+            price: '1595 kr',
             content: 'HydraFacial behandlingen erbjuder en skonsam men effektiv exfoliering samt djupåterfuktning för torr och känslig hud. Tekniken renar huden och tillför antioxidanter, vilket lämnar huden återfuktad, mjuk och med en fräsch lyster.',
 
             image_small: '/bilder/behandlingar/200x200/hydrafacial.webp',
@@ -575,16 +575,16 @@ $services = array(
             image_alt: 'Bild av HydraFacial behandling för torr och känslig hy',
             image_title: 'HydraFacial behandling för torr och känslig hy',
 
-            url: '/problemhy.php',
+            url: '/hydrafacial.php',
             url_label: 'Läs mer om HydraFacial behandling mot torr och känslig hy',
             url_title: 'Läs mer om HydraFacial behandling mot torr och känslig hy',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensitiveSkin_HydraFacial',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för HydraFacial behandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensitiveSkin_HydraFacial',
+            booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial',
             booking_url_title: 'Klicka för att boka tid för en HydraFacial behandling för torr och känslig hy'
       ),
 );
