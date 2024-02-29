@@ -278,7 +278,7 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Användningsområden för CryoPen Behandling';
+$treatment_areas_title = 'Områden vi behandlar';
 $treatment_areas_text = '<p class="p200">CryoPen erbjuder en mångsidig lösning för att avlägsna hudförändringar i många olika delar av kroppen. Med dess precision kan behandlingen utföras på känsliga och svåråtkomliga områden som ansiktet, samt mer utbredda regioner som hals, axlar, och rygg. CryoPen är idealisk för att behandla enstaka eller flera hudförändringar, oavsett deras storlek och placering, och anpassas för att leverera optimala resultat för varje unikt fall.</p>';
 $treatment_areas = array(
     new TreatmentArea(
