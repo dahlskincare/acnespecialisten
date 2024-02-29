@@ -52,6 +52,19 @@ $description_title = 'Vad är Dermabrasion?';
 $description_text = '<p class="p200">Dermabrasion är en djupgående hudföryngrande behandling som effektivt förbättrar hudens yta och textur. Genom en mekanisk exfolieringsprocess avlägsnas döda hudceller, vilket stimulerar hudens förnyelse och ger en märkbar föryngring av huden.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi dermabrasion som en skräddarsydd behandling för att möta olika hudbehov. Detta inkluderar att minska acneärr, fina linjer, och pigmentfläckar samt förbättra hudens övergripande utseende. Vår dermabrasion-behandling är skonsam men effektiv, vilket gör den lämplig för olika hudtyper. Genom att stimulera kollagenproduktionen och cellförnyelsen, bidrar behandlingen till en fräschare, mjukare och mer strålande hud. Dermabrasion är en idealisk behandling för dig som söker en konkret förbättring av din hudkvalitet.</p>';
 
+$top_articles = array(
+    'process' => new Article(
+        title: 'Hydro-Dermabrasion VS Micro-Dermabrasion',
+        image_small: '/bilder/process/358x272/dermabrasion-process.webp',
+        image_large: '/bilder/process/872x456/dermabrasion-process.webp',
+        image_alt: 'Hydro-Dermabrasion VS Micro-Dermabrasion',
+        image_title: 'Hydro-Dermabrasion VS Micro-Dermabrasion',
+        content: '<p class="p200">Microdermabrasion och hydrodermabrasion (ofta marknadsförd som Hydrafacial) är två populära hudvårdsbehandlingar som erbjuder föryngring och förbättring av hudens utseende. Trots likheter i deras syfte att förbättra hudens hälsa och utseende, skiljer sig metoderna åt i tillvägagångssätt, teknik och fördelar.</p>
+    <p class="p200 mt-m">När det gäller att välja mellan microdermabrasion och hydrodermabrasion, beror det på individens hudtyp, hudtillstånd och de specifika målen med behandlingen. Microdermabrasion kan vara ett bättre val för de som söker en mer intensiv exfoliering och har hud som tål denna typ av behandling, medan hydrodermabrasion (Hydrafacial) är ett utmärkt alternativ för de som föredrar en skonsammare behandling som inte bara rengör och exfolierar utan också återfuktar och tillför näring till huden.</p>
+    <p class="p200 mt-m">Båda behandlingarna erbjuder fördelar som förbättrad hudtextur och ton, minskning av fina linjer och rynkor, samt en friskare och mer strålande hud. Valet mellan microdermabrasion och hydrodermabrasion bör baseras på en professionell hudvårdspecialists rekommendationer, som kan bedöma hudens behov och rekommendera den mest lämpliga behandlingen för att uppnå önskade resultat.</p>',
+    ),
+);
+
 $types_title = 'Dermabrasion och tillval';
 $types_description = 'Dermabrasion är en effektiv behandling som anpassas efter dina behov.';
 $big_types = array(
@@ -59,8 +72,8 @@ $big_types = array(
         title: 'MicroDermabrasion',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Vår microdermabrasion-behandling är en effektiv metod för att förbättra hudens utseende och struktur. Anpassad för flera hudtyper, använder denna behandling varsam exfoliering för att ta bort döda hudceller från det yttersta hudlagret. Genom att stimulera hudens förnyelseprocess, kan behandlingen minska synligheten av ärr, fina linjer och hyperpigmentering, och lämnar huden jämnare och mer strålande.</p>
-        <p class="p200 mt-m">Behandlingen inleds med en grundlig rengöring, följt av exfoliering med specialutrustning och avslutas med en återfuktande och lugnande eftervård. Vi erbjuder också en skräddarsydd eftervårdsplan för att maximera och förlänga effekterna av behandlingen.</p>',
+        content: '<p class="p200">Microdermabrasion är en icke-invasiv mekanisk peelingbehandling som använder mikrokristaller eller en diamantspets för att varsamt exfoliera det yttersta lagret av döda hudceller från epidermis. Genom att avlägsna döda hudceller främjar behandlingen cellförnyelse, vilket leder till en jämnare hudton, minskning av fina linjer, och en allmän förbättring av hudens textur och utseende.</p>
+        <p class="p200 mt-m">Microdermabrasion är effektiv för att behandla ljusare ärrbildningar, åldersfläckar och andra yttre hudproblem. Behandlingen stimulerar även blodcirkulationen vilket kan bidra till en förbättrad hudhälsa över tid.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Dermabrasion',
@@ -94,12 +107,11 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydroDermabrasion',
+        title: 'HydroDermabrasion - Standard',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Vår dermabrasion-behandling är en effektiv lösning för att förbättra hudens utseende och struktur. Denna behandling är lämplig för många hudtyper och fokuserar på att varsamt slipa bort det yttersta hudlagret. Processen börjar med en grundlig rengöring för att förbereda huden, vilket är avgörande för behandlingens framgång.</p>
-        <p class="p200 mt-m">Efter rengöringen påbörjas själva dermabrasionen, där vi använder specialutrustning för att försiktigt men effektivt exfoliera huden. Detta hjälper till att avlägsna döda hudceller och stimulerar hudens förnyelseprocess, vilket kan minska synligheten av ärr, fina linjer och hyperpigmenteringar. Denna metod är djupgående och bidrar till en jämnare och mer strålande hudton.</p>
-        <p class="p200 mt-m">Behandlingen avslutas med en återfuktande och lugnande behandling för att återställa och skydda huden. Efter dermabrasionen är det viktigt att huden får den vård den behöver för att optimera och förlänga resultaten av behandlingen. Vi erbjuder en skräddarsydd eftervårdsplan för att säkerställa att din hud får den näring och skydd den behöver.</p>',
+        content: '<p class="p200">Hydrodermabrasion, å andra sidan, är en mer skonsam behandling som kombinerar exfoliering, djuprengöring och återfuktning av huden. Istället för kristaller använder hydrodermabrasion en ström av vatten och aktiva serum under högt tryck för att rengöra porerna och avlägsna döda hudceller samtidigt som huden återfuktas och närs med olika serum anpassade efter hudtyp och specifika hudproblem.</p>
+        <p class="p200 mt-m">Denna metod är känd för sin förmåga att omedelbart förbättra hudens hydrering, minska synligheten av fina linjer och rynkor, och ge en övergripande lyster. Hydrodermabrasion är särskilt populär för sin förmåga att behandla en mängd hudproblem utan irritation, vilket gör den lämplig för nästan alla hudtyper, inklusive känslig hud.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Dermabrasion',
