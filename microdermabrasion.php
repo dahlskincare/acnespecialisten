@@ -157,6 +157,7 @@ $service_brands = array(
       ),
 );
 
+$results_title = 'MicroDermabrasion resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -290,6 +291,10 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
+        new Question(
+            title: 'Är microdermabrasion bra mot ärr?',
+            text: 'Ja, microdermabrasion är bra mot ärr och särskilt effektivt mot acneärr. Denna behandling hjälper till att minska synligheten av ärr genom att slipa bort det yttersta hudlagret, vilket främjar hudens naturliga läkningsprocess och cellförnyelse. Det kan leda till en jämnare hudton och förbättrad hudtextur.'
+        ),
         new Question(
             title: 'Hur snabbt ser man resultat efter Microdermabrasion?',
             text: 'De flesta kunder märker en omedelbar förbättring i hudens lyster och känsla direkt efter en Microdermabrasion-behandling. För långsiktiga och mer dramatiska förbättringar rekommenderas regelbundna sessioner, som ger progressiv förbättring av hudens utseende och kvalitet.'
