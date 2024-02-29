@@ -13,7 +13,7 @@ $model = new Service(
     title: 'MicroDermabrasion',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Microdermabrasion är en icke-invasiv hudförnyelsebehandling som effektivt minskar hudproblem. Genom att använda mikrokristaller och en diamantborste slipar denna teknik varsamt det yttersta hudlagret, vilket uppmuntrar till ny celltillväxt och främjar en friskare, mer strålande hud.</p>',
+    content: '<p class="p200">Genom att använda mikrokristaller och en diamantborste slipar denna teknik varsamt det yttersta hudlagret, vilket uppmuntrar till ny celltillväxt och främjar en friskare, mer strålande hud.</p>',
     image_small: 'bilder/varumarken/358x274/microdermabrasion.webp',
     image_large: 'bilder/varumarken/424x456/microdermabrasion.webp',
     image_alt: 'Microdermabrasion',
@@ -300,7 +300,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Kan Microdermabrasion behandla specifika hudåkommor?',
-            text: 'Absolut. Microdermabrasion är effektiv för att behandla en rad hudproblem som fina linjer, lättare pigmentförändringar, torrhet och till viss del acne. Den kan skräddarsys för att fokusera på dina specifika hudbehov och problemområden.'
+            text: 'Absolut. Microdermabrasion är effektiv för att behandla en rad hudproblem som fina linjer, lättare pigmentförändringar och torrhet. Den kan skräddarsys för att fokusera på dina specifika hudbehov och problemområden.'
         ),
         new Question(
             title: 'Vad är de huvudsakliga fördelarna med Microdermabrasion jämfört med andra hudvårdsbehandlingar?',
