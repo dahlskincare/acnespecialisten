@@ -478,34 +478,34 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-    new Specialist(
-        name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg'
-    ),
-    new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik'
-    ),
-    new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
-    ),
-    new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom'
-    )
+      new Specialist(
+            name: 'Cazzandra Lindberg',
+            title: 'Hudterapeut sedan 2015',
+            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i fillers',
+            image_title: 'Cazzandra Lindberg - Expert på fillerbehandling'
+      ),
+      new Specialist(
+            name: 'Veronika Benedik',
+            title: 'Hudterapeut sedan 1999',
+            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på fillers',
+            image_title: 'Veronika Benedik - Specialist inom fillers'
+      ),
+      new Specialist(
+            name: 'Amira Maqboul',
+            title: 'Hudterapeut sedan 2017',
+            image: 'images/specialists/312x312/hudterapeut-amira.webp',
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom fillerbehandling',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på fillers'
+      ),
+      new Specialist(
+            name: 'Vilma Libom',
+            title: 'Hudterapeut sedan 2019',
+            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot fillers',
+            image_title: 'Vilma Libom - Expert inom fillerbehandling'
+      )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 

@@ -497,36 +497,38 @@ $skin_guide_articles = array(
 $skin_guide_view_more = 'Visa alla artiklar';
 
 $specialists_title = 'Våra hudterapeuter';
+
 $specialists = array(
-    new Specialist(
-        name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg'
-    ),
-    new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik'
-    ),
-    new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
-    ),
-    new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom'
-    )
+      new Specialist(
+            name: 'Cazzandra Lindberg',
+            title: 'Hudterapeut sedan 2015',
+            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i problemhud',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av problemhy'
+      ),
+      new Specialist(
+            name: 'Veronika Benedik',
+            title: 'Hudterapeut sedan 1999',
+            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på problemhy',
+            image_title: 'Veronika Benedik - Specialist inom problemhudvård'
+      ),
+      new Specialist(
+            name: 'Amira Maqboul',
+            title: 'Hudterapeut sedan 2017',
+            image: 'images/specialists/312x312/hudterapeut-amira.webp',
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom hantering av problemhud',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på problemhy'
+      ),
+      new Specialist(
+            name: 'Vilma Libom',
+            title: 'Hudterapeut sedan 2019',
+            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av problemhud',
+            image_title: 'Vilma Libom - Expert inom problemhudbehandling'
+      )
 );
+
 $specialists_view_more = 'Se alla hudterapeuter';
 
 $brands_title = 'Märken vi jobbar med';
