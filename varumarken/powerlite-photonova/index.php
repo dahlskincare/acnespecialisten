@@ -185,7 +185,7 @@ $treatment_areas = array(
         description: '<p class="p200">Powerlite Photonova kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Powerlite Photonova för Ansikte',
@@ -196,7 +196,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av ansiktet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/panna.webp',
+                image: '/bilder/omraden/ikoner/panna.svg',
                 image_alt: 'Panna',
                 image_title: 'Panna',
                 title: 'Powerlite Photonova för Panna',
@@ -207,7 +207,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av pannan'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/nasa.webp',
+                image: '/bilder/omraden/ikoner/nasa.svg',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'Powerlite Photonova för Näsa',
@@ -218,7 +218,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av näsan'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/kinder.webp',
+                image: '/bilder/omraden/ikoner/kinder.svg',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'Powerlite Photonova för Kinder',
@@ -229,7 +229,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av kinderna'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/overlapp.webp',
+                image: '/bilder/omraden/ikoner/overlapp.svg',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
                 title: 'Powerlite Photonova för Överläpp',
@@ -240,7 +240,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av överläppen'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/haka.webp',
+                image: '/bilder/omraden/ikoner/haka.svg',
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Powerlite Photonova för Haka',
@@ -261,7 +261,7 @@ $treatment_areas = array(
         description: '<p class="p200">Powerlite Photonova kan även behandla olika av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/hals.webp',
+                image: '/bilder/omraden/ikoner/hals.svg',
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Powerlite Photonova för Hals',
@@ -272,7 +272,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling med Powerlite Photonova på halsen'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/dekolletage.webp',
+                image: '/bilder/omraden/ikoner/dekolletage.svg',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Rejuve Dye-VL för Dekolletage',
@@ -283,7 +283,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling med Powerlite Photonova på dekolletaget'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/hander.webp',
+                image: '/bilder/omraden/ikoner/hander.svg',
                 image_alt: 'Händer',
                 image_title: 'Händer',
                 title: 'Rejuve Dye-VL för Händer',

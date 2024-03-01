@@ -111,7 +111,7 @@ $treatment_areas = array(
         description: null,
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Infuzion behandling i ansiktet',
                 image_title: 'Infuzion behandling i ansiktet',
                 title: 'Ansikte',
@@ -122,7 +122,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Infuzion behandling i ansiktet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/hals.webp',
+                image: '/bilder/omraden/ikoner/hals.svg',
                 image_alt: 'Infuzion behandling för halsen',
                 image_title: 'Infuzion behandling för halsen',
                 title: 'Hals',
@@ -133,7 +133,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Infuzion behandling för halsen'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/dekolletage.webp',
+                image: '/bilder/omraden/ikoner/dekolletage.svg',
                 image_alt: 'Infuzion behandling för dekolletaget',
                 image_title: 'Infuzion behandling för dekolletaget',
                 title: 'Dekolletage',
@@ -144,7 +144,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för Infuzion behandling för dekolletaget'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/hander.webp',
+                image: '/bilder/omraden/ikoner/hander.svg',
                 image_alt: 'Infuzion behandling för händerna',
                 image_title: 'Infuzion behandling för händerna',
                 title: 'Händer',
