@@ -422,7 +422,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för Permanent Hårborttagning',
+    title: 'Efter laser hårborttagning',
     image_small: '/bilder/process/358x272/permanent-harborttagning-eftervard.webp',
     image_large: '/bilder/process/872x456/permanent-harborttagning-eftervard.webp',
     image_alt: 'Eftervård för Permanent Hårborttagning',
