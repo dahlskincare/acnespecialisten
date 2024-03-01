@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Permanent Hårborttagning - Effektiva Laserbehandlingar';
-$seo_description = 'Upptäck AcneSpecialistens professionella laserbehandlingar för permanent hårborttagning. Avancerade lösningar för att effektivt avlägsna oönskat hår på ett säkert och långvarigt sätt. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
+$seo_title = 'Permanent Laser Hårborttagning i Stockholm';
+$seo_description = 'Avancerade lasermaskiner som effektivt ta bort oönskat hår säkert och permanent. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
 $seo_keywords = 'permanent hårborttagning, laserhårborttagning';
 
 $seo_image = 'images/treatments/large/permanent-harborttagning.webp';
