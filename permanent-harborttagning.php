@@ -63,11 +63,11 @@ $top_articles = array(
         <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under veckan innan behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går hårborttagning med laser i Stockholm till?',
+        title: 'Hur fungerar laser hårborttagning?',
         image_small: '/bilder/process/358x272/permanent-harborttagning-process.webp',
         image_large: '/bilder/process/872x456/permanent-harborttagning-process.webp',
-        image_alt: 'Hur går behandlingen till?',
-        image_title: 'Hur går behandlingen till?',
+        image_alt: 'Hur fungerar laser hårborttagning?',
+        image_title: 'Hur fungerar laser hårborttagning?',
         content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna som omvandlas till värme, vilket skadar hårfolliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Alla våra lasermaskiner för permanent hårborttagning har effektiva kylsystem som gör att behandlingarna nästan är smärtfria.</p>
         <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser behövs flera behandlingar behövas för att uppnå permanent resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
     ),
@@ -593,8 +593,8 @@ $faq_categories = array(
             text: '<p class="p200">Antalet behandlingar för permanent hårborttagning varierar beroende på individens hårtyp, hårfärg och det område som behandlas. Generellt krävs det 8-12 behandlingar för att uppnå optimala resultat. Varje behandling utförs med några veckors mellanrum för att följa hårets tillväxtcykel.</p>'
         ),
         new Question(
-            title: 'Är resultatet av permanent hårborttagning varaktigt?',
-            text: '<p class="p200">Permanent hårborttagning med laser ger långvariga resultat. Efter en fullständig behandlingsserie kan de flesta förvänta sig en betydande minskning av hårväxt. I vissa fall kan lättare underhållsbehandlingar krävas för att hantera eventuell återväxt av finare hårstrån.</p>'
+            title: 'Hur länge håller laser hårborttagning?',
+            text: '<p class="p200">Permanent hårborttagning med laser ger permanenta resultat. Efter en fullständig behandlingsserie kan de flesta förvänta sig en betydande minskning av hårväxt. I vissa fall kan lättare underhållsbehandlingar krävas för att hantera eventuell återväxt av finare hårstrån.</p>'
         ),
         new Question(
             title: 'Hur förbereder jag mig inför en behandling för permanent hårborttagning?',
