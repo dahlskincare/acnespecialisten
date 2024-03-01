@@ -598,7 +598,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Är laserbehandling för permanent hårborttagning smärtsamt?',
-            text: '<p class="p200">Många upplever laserbehandling för permanent hårborttagning som mindre smärtsam än andra metoder som vaxning. Känslan beskrivs ofta som en lätt snärt mot huden. Smärtupplevelsen kan variera beroende på individens smärttröskel och det behandlade området.</p>'
+            text: '<p class="p200">Många upplever att laserbehandling för permanent hårborttagning är mycket mindre smärtsamt jämfört med alternativa metoder, såsom vaxning och IPL. Ofta liknas känslan vid behandlingen vid ett lätt snärt mot huden. Det är dock viktigt att notera att upplevelsen av smärta kan variera från person till person, beroende på individens smärttröskel samt vilket område som behandlas. För att ytterligare minska obehaget är alla våra lasermaskiner utrustade med avancerade kylsystem. Dessa system är placerade direkt på munstycket som avger laserstrålen, vilket hjälper till att kyla ner huden omedelbart före varje pulsslag. Denna funktion bidrar till en mer bekväm behandlingsupplevelse.</p>'
         ),
         new Question(
             title: 'Hur ofta utförs laser hårborttagning?',
