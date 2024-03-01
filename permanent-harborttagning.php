@@ -101,8 +101,8 @@ $combos = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Permanent Hårborttagning';
-$treatment_areas_text = '<p class="p200">Permanent hårborttagning med laser är en effektiv metod för att avlägsna oönskat hår från olika delar av kroppen. Vi behandlar hela kroppen från ansiktet till intima områden.</p>';
+$treatment_areas_title = 'Områden vi behandlar';
+$treatment_areas_text = '';
 
 $treatment_areas = array(
     new TreatmentArea(
