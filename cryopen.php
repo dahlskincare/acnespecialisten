@@ -518,19 +518,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Vilken är den vanliga läkningstiden efter en behandling med CryoPen?',
-            text: 'Läkningstiden efter en CryoPen behandling varierar beroende på individens hudtyp, omfattning och storlek på de behandlade hudförändringarna. Små hudförändringar tenderar att läka inom några dagar, medan större eller fler behandlade områden kan kräva flera veckor. Initial svullnad och rodnad är att förvänta och bör avta inom de första dagarna efter behandling.'
+            text: '<p class="p200">Läkningstiden efter en CryoPen behandling varierar beroende på individens hudtyp, omfattning och storlek på de behandlade hudförändringarna. Små hudförändringar tenderar att läka inom några dagar, medan större eller fler behandlade områden kan kräva flera veckor. Initial svullnad och rodnad är att förvänta och bör avta inom de första dagarna efter behandling.</p>'
         ),
         new Question(
             title: 'Finns det en risk att hudförändringar återkommer efter att ha använt CryoPen?',
-            text: 'CryoPen är utformad för att permanentta bort hudförändringar, de kommer inte att komma tillbaka.'
+            text: '<p class="p200">CryoPen är utformad för att permanentta bort hudförändringar, de kommer inte att komma tillbaka.</p>'
         ),
         new Question(
             title: 'Vad ska jag undvika efter behandling med CryoPen?',
-            text: 'Efter en CryoPe behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.'
+            text: '<p class="p200">Efter en CryoPe behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.</p>'
         ),
         new Question(
             title: 'Hur många behandlingar krävs?',
-            text: 'Vanligtvis krävs 1-3 behandlingar för att få bort hudförändringen. Detta baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större eller djupare.'
+            text: '<p class="p200">Vanligtvis krävs 1-3 behandlingar för att få bort hudförändringen. Detta baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större eller djupare.</p>'
         ),
     )
 );
