@@ -529,8 +529,8 @@ $faq_categories = array(
             text: 'Efter en CryoPe behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.'
         ),
         new Question(
-            title: 'Hur många återbesök kan behövas efter en CryoPen-behandling?',
-            text: 'Vanligtvis krävs 1-3 behandlingar för att få bort hudförändringen. Detta baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större, djupare eller om det finns ett större antal att behandla.'
+            title: 'Hur många behandlingar krävs?',
+            text: 'Vanligtvis krävs 1-3 behandlingar för att få bort hudförändringen. Detta baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större eller djupare.'
         ),
     )
 );
