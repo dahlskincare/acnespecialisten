@@ -313,7 +313,7 @@ $treatment_areas = array(
         description: '<p class="p200">Vi behandlar både hela och delar av ansiktet med laser.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
