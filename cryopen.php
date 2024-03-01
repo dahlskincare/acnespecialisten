@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'CryoPen Behandling i Stockholm - Effektiv frysbehandling';
-$seo_description = 'En modern lösningen för att utan smärta och med stor noggrannhet behandla och ta bort hudförändringar som födelsemärken, leverfläckar och hudflikar.';
+$seo_description = 'Upptäck CryoPen Behandling – effektiv frysbehandling på att säkert ta bort leverfläckar, födelsemärken med precision. Boka en gratis konsultation idag';
 $seo_keywords = 'CryoPen, CryotPen behandling, Stockholm';
 
 $seo_image = 'images/treatments/large/cryopen.webp';
