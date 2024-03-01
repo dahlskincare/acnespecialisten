@@ -60,7 +60,7 @@ $top_articles = array(
         image_alt: 'Förberedelser inför permanent hårborttagning',
         image_title: 'Förberedelser inför permanent hårborttagning',
         content: '<p class="p200">Förberedelserna inför permanent hårborttagning består av en konsultation som är en viktig del av processen för att gå igenom vilka områden på kroppen som du vill ta bort hår på. Innan din laserbehandling rekommenderar vi att du undviker att vaxa eller noppa hår i behandlingsområdet, eftersom laserenergin fokuserar på håret som leder värmen ner i hårfolliklarna. Istället ska området rakas dagen innan behandlingen.</p>
-        <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under veckan innan behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för att motta laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
+        <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under veckan innan behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
     ),
     'process' => new Article(
         title: 'Hur går hårborttagning med laser i Stockholm till?',
