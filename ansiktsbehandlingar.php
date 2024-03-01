@@ -76,6 +76,12 @@ $big_types = array(
         image_large: null,
         image_alt: 'Klassisk',
         image_title: 'Klassisk',
+        consultation_url: '',
+        consultation_url_label: '',
+        consultation_url_title: '',
+        booking_url: '',
+        booking_url_label: '',
+        booking_url_title: '',
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
