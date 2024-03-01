@@ -598,7 +598,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Är laserbehandling för permanent hårborttagning smärtsamt?',
-            text: '<p class="p200">Många upplever laserbehandling för permanent hårborttagning som mindre smärtsam än andra metoder som vaxning. Känslan beskrivs ofta som ett lätt snäpp mot huden. Smärtupplevelsen kan variera beroende på individens smärttröskel och det behandlade området.</p>'
+            text: '<p class="p200">Många upplever laserbehandling för permanent hårborttagning som mindre smärtsam än andra metoder som vaxning. Känslan beskrivs ofta som en lätt snärt mot huden. Smärtupplevelsen kan variera beroende på individens smärttröskel och det behandlade området.</p>'
         ),
         new Question(
             title: 'Hur ofta utförs laser hårborttagning?',
