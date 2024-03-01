@@ -594,7 +594,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur länge håller laser hårborttagning?',
-            text: '<p class="p200">Permanent hårborttagning med laser ger permanenta resultat. Efter en fullständig behandlingsserie kan de flesta förvänta sig en betydande minskning av hårväxt. I vissa fall kan lättare underhållsbehandlingar krävas för att hantera eventuell återväxt av finare hårstrån.</p>'
+            text: '<p class="p200">Målet med laser hårborttagning är att permanent eliminera oönskat hår. När behandlingen är klar och hårfollikeln slutar producera hår, upphör hårväxten helt. För att uppnå detta resultat är det viktigt att noggrant följa de rekommenderade behandlingsintervallerna. Dessa intervaller är utformade för att behandlingen ska ske under rätt fas av hårets tillväxtcykel, vilket är avgörande för effektiviteten. Om behandlingsplanens intervaller inte följs kan det resultera i att det tar längre tid att uppnå en permanent hårfri status. Att följa dessa riktlinjer noggrant säkerställer att du får ut det mesta och bästa av din behandling för långvariga resultat.</p>'
         ),
         new Question(
             title: 'Hur förbereder jag mig inför en behandling för permanent hårborttagning?',
