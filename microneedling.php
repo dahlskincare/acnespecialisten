@@ -561,31 +561,31 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur ofta kan man göra microneedling?',
-            text: 'Rekommenderad frekvens för microneedling-behandlingar varierar beroende på hudens tillstånd och det önskade resultatet, men generellt kan behandlingar utföras med 4-6 veckors mellanrum. Detta intervall möjliggör fullständig läkning och kollagenproduktion mellan sessionerna. Din hudterapeut kommer att skräddarsy en behandlingsplan baserad på en individuell bedömning.'
+            text: '<p class="p200">Rekommenderad frekvens för microneedling-behandlingar varierar beroende på hudens tillstånd och det önskade resultatet, men generellt kan behandlingar utföras med 4-6 veckors mellanrum. Detta intervall möjliggör fullständig läkning och kollagenproduktion mellan sessionerna. Din hudterapeut kommer att skräddarsy en behandlingsplan baserad på en individuell bedömning.</p>'
         ),
         new Question(
             title: 'Vad är microneedling bra för?',
-            text: ' Microneedling är effektivt för att förbättra hudens textur, elasticitet och fasthet. Det minskar synligheten av fina linjer, rynkor, akneärr och stora porer. Behandlingen stimulerar kroppens naturliga kollagen- och elastinproduktion, vilket leder till en friskare, mer ungdomlig hud.'
+            text: ' <p class="p200">Microneedling är effektivt för att förbättra hudens textur, elasticitet och fasthet. Det minskar synligheten av fina linjer, rynkor, akneärr och stora porer. Behandlingen stimulerar kroppens naturliga kollagen- och elastinproduktion, vilket leder till en friskare, mer ungdomlig hud.</p>'
         ),
         new Question(
             title: 'Hur snabbt kan man se resultat efter microneedling?',
-            text: 'De första förbättringarna kan ofta märkas inom några veckor efter behandlingen, men de mest märkbara resultaten uppnås vanligtvis efter flera behandlingar och över tid, eftersom huden fortsätter att producera nytt kollagen. Fullständiga resultat kan ses efter 3-6 månader, beroende på behandlingsintensitet och hudens respons.'
+            text: '<p class="p200">De första förbättringarna kan ofta märkas inom några veckor efter behandlingen, men de mest märkbara resultaten uppnås vanligtvis efter flera behandlingar och över tid, eftersom huden fortsätter att producera nytt kollagen. Fullständiga resultat kan ses efter 3-6 månader, beroende på behandlingsintensitet och hudens respons.</p>'
         ),
         new Question(
             title: 'Kan man göra microneedling hemma?',
-            text: 'Även om det finns hemmakit för microneedling, rekommenderar vi inte att utföra behandlingen hemma. Professionella behandlingar använder längre nålar för djupare och mer effektiva resultat, och utförs under sterila förhållanden för att minimera risken för infektion. Det är viktigt att behandlingen utförs av utbildade hudterapeuter för bästa möjliga resultat och säkerhet.'
+            text: '<p class="p200">Även om det finns hemmakit för microneedling, rekommenderar vi inte att utföra behandlingen hemma. Professionella behandlingar använder längre nålar för djupare och mer effektiva resultat, och utförs under sterila förhållanden för att minimera risken för infektion. Det är viktigt att behandlingen utförs av utbildade hudterapeuter för bästa möjliga resultat och säkerhet.</p>'
         ),
         new Question(
             title: 'Kan man göra microneedling på sommaren?',
-            text: 'Absolut, microneedling kan utföras även under sommaren. Intressant nog kommer Dermapen, som är världsledande inom microneedling, från Australien där solen skiner året om. Detta understryker vikten av korrekt eftervård, särskilt solskydd. Efter behandlingen är det kritiskt att använda solskyddsmedel med hög SPF och undvika direkt solljus för att skydda huden och säkerställa optimal läkning. Denna försiktighetsåtgärd hjälper till att undvika eventuella komplikationer som kan uppstå på grund av solens strålar.'
+            text: '<p class="p200">Absolut, microneedling kan utföras även under sommaren. Intressant nog kommer Dermapen, som är världsledande inom microneedling, från Australien där solen skiner året om. Detta understryker vikten av korrekt eftervård, särskilt solskydd. Efter behandlingen är det kritiskt att använda solskyddsmedel med hög SPF och undvika direkt solljus för att skydda huden och säkerställa optimal läkning. Denna försiktighetsåtgärd hjälper till att undvika eventuella komplikationer som kan uppstå på grund av solens strålar.</p>'
         ),
         new Question(
             title: 'Kan man träna efter microneedling?',
-            text: 'Det är bäst att undvika intensiv träning och svettning under de första 24-48 timmarna efter en microneedling-behandling. Överdriven svettning kan irritera den nyligen behandlade huden och öka risken för inflammation eller infektion.'
+            text: '<p class="p200">Det är bäst att undvika intensiv träning och svettning under de första 24-48 timmarna efter en microneedling-behandling. Överdriven svettning kan irritera den nyligen behandlade huden och öka risken för inflammation eller infektion.</p>'
         ),
         new Question(
             title: 'Är microneedling mot ytliga blodkärl effektivt?',
-            text: 'Vi använder inte microneedling för att behandla ytliga blodkärl. För denna typ av hudproblem erbjuder vi en mer riktad och effektiv behandling med IPL-teknik, som är specialiserad på att minska synligheten av ytliga blodkärl genom att selektivt behandla de berörda områdena utan att skada omgivande vävnad.'
+            text: '<p class="p200">Vi använder inte microneedling för att behandla ytliga blodkärl. För denna typ av hudproblem erbjuder vi en mer riktad och effektiv behandling med IPL-teknik, som är specialiserad på att minska synligheten av ytliga blodkärl genom att selektivt behandla de berörda områdena utan att skada omgivande vävnad.</p>'
         ),
     )
 );

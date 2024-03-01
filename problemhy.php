@@ -462,19 +462,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Passar era ansiktsbehandlingar alla hudtyper?',
-            text: 'Ja, vi har ansiktsbehandlingar som passar alla hudtyper. Vi anpassar dessutom alltid våra behandlingar efter dina individuella behov så att du ska få ett så bra resultat som möjligt.'
+            text: '<p class="p200">Ja, vi har ansiktsbehandlingar som passar alla hudtyper. Vi anpassar dessutom alltid våra behandlingar efter dina individuella behov så att du ska få ett så bra resultat som möjligt.</p>'
         ),
         new Question(
             title: 'Är ansiktsbehandlingar effektiva mot pormaskar?',
-            text: 'Ja, många av våra ansiktsbehandlingar syftar till att djuprengöra porerna och kan vara särskilt effektiva mot pormaskar. Genom regelbundna behandlingar kan vi hjälpa till att minska och förebygga uppkomsten av nya pormaskar.'
+            text: '<p class="p200">Ja, många av våra ansiktsbehandlingar syftar till att djuprengöra porerna och kan vara särskilt effektiva mot pormaskar. Genom regelbundna behandlingar kan vi hjälpa till att minska och förebygga uppkomsten av nya pormaskar.</p>'
         ),
         new Question(
             title: 'Hur ofta bör jag boka en ansiktsbehandling för bästa resultat?',
-            text: 'Det beror på din specifika hudtyp och de problem du vill behandla. För vissa kan månadsvis behandling vara optimal, medan för andra kan var tredje månad passa bättre, allt beror på din hy och dina behov. Regelbundna besök hjälper dig att underhålla din hy och din hudterapeut kan följa hudens utveckling under hela behandlingsprocessen.'
+            text: '<p class="p200">Det beror på din specifika hudtyp och de problem du vill behandla. För vissa kan månadsvis behandling vara optimal, medan för andra kan var tredje månad passa bättre, allt beror på din hy och dina behov. Regelbundna besök hjälper dig att underhålla din hy och din hudterapeut kan följa hudens utveckling under hela behandlingsprocessen.</p>'
         ),
         new Question(
             title: 'Hur vet jag vilken behandling som passar bäst för min problemhy?',
-            text: 'Det är bäst att boka en konsultation med en av våra hudterapeuter. Under konsultationen kommer vi att analysera din hud, diskutera dina bekymmer och rekommendera den bästa behandlingsplanen anpassad för dina specifika behov.'
+            text: '<p class="p200">Det är bäst att boka en konsultation med en av våra hudterapeuter. Under konsultationen kommer vi att analysera din hud, diskutera dina bekymmer och rekommendera den bästa behandlingsplanen anpassad för dina specifika behov.</p>'
         )
     )
 );
