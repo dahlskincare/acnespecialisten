@@ -54,7 +54,7 @@ $description_text = '<p class="p200">Permanent hårborttagning med laser represe
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför permanent hårborttagning',
+        title: 'Förberedelser inför laser hårborttagning',
         image_small: '/bilder/process/358x272/permanent-harborttagning-forberedelser.webp',
         image_large: '/bilder/process/872x456/permanent-harborttagning-forberedelser.webp',
         image_alt: 'Förberedelser inför permanent hårborttagning',
