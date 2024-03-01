@@ -601,7 +601,7 @@ $faq_categories = array(
             text: '<p class="p200">Många upplever laserbehandling för permanent hårborttagning som mindre smärtsam än andra metoder som vaxning. Känslan beskrivs ofta som ett lätt snäpp mot huden. Smärtupplevelsen kan variera beroende på individens smärttröskel och det behandlade området.</p>'
         ),
         new Question(
-            title: 'Hur ofta utförs laser hårborttagning?',
+            title: 'Hur ofta utförs laser hårborttagning2?',
             text: '<p class="p200">Behandlingsintervallen för laser hårborttagning varierar beroende på vilket område av kroppen som behandlas, eftersom olika delar har olika hårväxtcykler. För ansiktet rekommenderas behandling var fjärde vecka för att effektivt rikta in sig på hårets tillväxtfas. För områden på överkroppen, inklusive intimbehandlingar, är det lämpligt med behandling var sjätte vecka. Underkroppen, såsom lår och ben, bör behandlas var åttonde vecka för bästa möjliga resultat. Dessa intervaller är optimerade för att matcha de unika växtcyklerna för varje område och maximera effektiviteten av behandlingen mot permanent hårborttagning.</p>
 
             <p class="p200 mt-m">En individuell behandlingsplan utformas av din personliga laserterapeut för att säkerställa att du får den mest effektiva behandlingen för permanent hårborttagning. Din terapeut kommer att bedöma dina specifika behov, hudtyp och hårväxt för att fastställa de optimala behandlingsintervallerna och antalet sessioner som krävs för att uppnå bästa möjliga resultat. Detta skräddarsydda tillvägagångssätt garanterar att behandlingen är anpassad just för dig.</p>'
