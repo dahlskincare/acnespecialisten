@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'CryoPen - Precisionsstyrd Cryoterapi för hudförändringar';
+$seo_title = 'CryoPen Behandling i Stockholm - Effektiv frysbehandling';
 $seo_description = 'En modern lösningen för att utan smärta och med stor noggrannhet behandla och ta bort hudförändringar som födelsemärken, leverfläckar och hudflikar.';
 $seo_keywords = 'CryoPen, CryotPen behandling, Stockholm';
 
