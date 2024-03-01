@@ -15,10 +15,10 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'CryoPen Stockholm',
+    title: 'CryoPen behandling',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">CryoPen är en skonsam metod för att snabbt och effektivt ta bort en rad hudförändringar, inklusive födelsemärken, hudflikar och leverfläckar.</p>',
+    content: '<p class="p200">CryoPen är en skonsam frysbehandling för att snabbt och effektivt ta bort en rad hudförändringar, inklusive födelsemärken, hudflikar och leverfläckar.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
     image_alt: 'CryoPen',
