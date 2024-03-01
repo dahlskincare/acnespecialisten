@@ -518,7 +518,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Vilken är den vanliga läkningstiden efter en behandling med CryoPen?',
-            text: 'Läkningstiden efter en CryoPen behandling varierar beroende på individens hudtyp, omfattning och storlek på de behandlade hudförändringarna. Små hudförändringar tenderar att läka inom några dagar, medan större eller fler behandlade områden kan kräva flera veckor. Initial svullnad och rodnad är att förvänta och bör subside inom de första dagarna post-behandling.'
+            text: 'Läkningstiden efter en CryoPen behandling varierar beroende på individens hudtyp, omfattning och storlek på de behandlade hudförändringarna. Små hudförändringar tenderar att läka inom några dagar, medan större eller fler behandlade områden kan kräva flera veckor. Initial svullnad och rodnad är att förvänta och bör avta inom de första dagarna post-behandling.'
         ),
         new Question(
             title: 'Finns det en risk att hudförändringar återkommer efter att ha använt CryoPen?',
