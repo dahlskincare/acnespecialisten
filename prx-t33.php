@@ -112,12 +112,12 @@ $big_types = array(
         image_large: null,
         image_alt: 'PRX-T33',
         image_title: 'PRX-T33',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_PRX',
-        booking_url_label: 'Boka PRX-T33',
-        booking_url_title: 'Boka PRX-T33',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
         procedures: array(
             new Procedure(
                 label: '1 behandling',

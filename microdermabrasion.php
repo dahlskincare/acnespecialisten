@@ -103,12 +103,12 @@ $big_types = array(
         image_large: null,
         image_alt: 'MicroDermabrasion',
         image_title: 'MicroDermabrasion',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka behandling',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
         icons: array(),
         procedures: array(
             new Procedure(
