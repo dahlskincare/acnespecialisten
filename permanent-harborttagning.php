@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Permanent Hårborttagning',
+    title: 'Permanent Laser Hårborttagning',
     duration: null,
     price: 'Från 995 kr',
     content: '<p class="p200">Permanent hårborttagning med laser erbjuder en effektiv lösning för dig som önskar att minska oönskat hår permanent. Denna metod är utformad för att målriktat och effektivt avlägsna hårstrån genom att skada hårfolliklarna, vilket reducerar hårproduktionen och leder till hårfri hud.</p>',
