@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Permanent Hårborttagning - Effektiva Laserbehandlingar | Acnespecialisten';
 $seo_description = 'Upptäck AcneSpecialistens professionella laserbehandlingar för permanent hårborttagning. Avancerade lösningar för att effektivt avlägsna oönskat hår på ett säkert och långvarigt sätt. Få expertvägledning och behandlingar anpassade för din unika hud- och hårtyp.';
-$seo_keywords = 'permanent hårborttagning, laserhårborttagning, oönskat hår, effektiv hårborttagning, säker laserbehandling, hårfri hud, långvarig hårborttagning, avancerade laserbehandlingar';
+$seo_keywords = 'permanent hårborttagning, laserhårborttagning';
 
 $seo_image = 'images/treatments/large/permanent-harborttagning.webp';
 
@@ -597,12 +597,12 @@ $faq_categories = array(
             text: '<p class="p200">Målet med laser hårborttagning är att permanent eliminera oönskat hår. När behandlingen är klar och hårfollikeln slutar producera hår, upphör hårväxten helt. För att uppnå detta resultat är det viktigt att noggrant följa de rekommenderade behandlingsintervallerna. Dessa intervaller är utformade för att behandlingen ska ske under rätt fas av hårets tillväxtcykel, vilket är avgörande för effektiviteten. Om behandlingsplanens intervaller inte följs kan det resultera i att det tar längre tid att uppnå en permanent hårfri status. Att följa dessa riktlinjer noggrant säkerställer att du får ut det mesta och bästa av din behandling för långvariga resultat.</p>'
         ),
         new Question(
-            title: 'Hur förbereder jag mig inför en behandling för permanent hårborttagning?',
-            text: '<p class="p200">För att förbereda dig inför en laserbehandling för permanent hårborttagning bör du undvika att vaxa eller noppa håret i området som ska behandlas, men det är viktigt att raka området dagen innan behandlingen. Det är också viktigt att skydda huden från solen innan behandlingen för att undvika komplikationer och optimera resultatet.</p>'
-        ),
-        new Question(
             title: 'Är laserbehandling för permanent hårborttagning smärtsamt?',
             text: '<p class="p200">Många upplever laserbehandling för permanent hårborttagning som mindre smärtsam än andra metoder som vaxning. Känslan beskrivs ofta som ett lätt snäpp mot huden. Smärtupplevelsen kan variera beroende på individens smärttröskel och det behandlade området.</p>'
+        ),
+        new Question(
+            title: 'Hur ofta utförs laser hårborttagning?',
+            text: '<p class="p200">En individuell behandlingsplan utformas av din personliga laserterapeut för att säkerställa att du får den mest effektiva behandlingen för permanent hårborttagning. Din terapeut kommer att bedöma dina specifika behov, hudtyp och hårväxt för att fastställa de optimala behandlingsintervallerna och antalet sessioner som krävs för att uppnå bästa möjliga resultat. Detta skräddarsydda tillvägagångssätt garanterar att behandlingen är anpassad just för dig.</p>'
         ),
     )
 );
