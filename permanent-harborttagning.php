@@ -422,17 +422,17 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter laser hårborttagning',
+    title: 'Efter hårborttagning med laser',
     image_small: '/bilder/process/358x272/permanent-harborttagning-eftervard.webp',
     image_large: '/bilder/process/872x456/permanent-harborttagning-eftervard.webp',
     image_alt: 'Eftervård för Permanent Hårborttagning',
     image_title: 'Eftervård för Permanent Hårborttagning',
-    content: '<p class="p200">Efter en behandling med permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
-    <p class="p200 mt-m">Undvik hård skrubbning och använd inte irriterande hudvårdsprodukter. Det är också viktigt att undvika andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Använd ett högt SPF-solskydd om du måste vara utomhus, för att skydda huden från ytterligare skador och stödja återhämtningsprocessen.</p>
+    content: '<p class="p200">Efter en laser behandling för permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
+    <p class="p200 mt-m">Undvik hård skrubbning och använd inte irriterande hudvårdsprodukter. Det är också viktigt att undvika andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Använd ett högt SPF-solskydd om du ska vara utomhus, för att skydda huden från ytterligare skador och stödja återhämtningsprocessen.</p>
     <p class="p200 mt-m">Om du upplever någon ovanlig irritation eller har frågor om din återhämtning, är det viktigt att du kontaktar oss. En korrekt skötsel efter din behandling för permanent hårborttagning är nyckeln till en snabb och problemfri återhämtning, och hjälper till att upprätthålla och optimera behandlingens resultat.</p>',
 ));
 
-$service_brands_title = 'Märken för Permanent Hårborttagning';
+$service_brands_title = 'Våra lasermaskiner för permanent hårborttagning';
 $service_brands_text = '<p class="p200">Vi utför Permanent Hårborttagning med Splendor X och Soprano Ice som är de två bästa maskinerna på marknaden.</p>';
 $service_brands = array(
 
