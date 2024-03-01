@@ -522,7 +522,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Finns det en risk att hudförändringar återkommer efter att ha använt CryoPen?',
-            text: 'CryoPen är utformad för att permanent eliminera behandlade hudförändringar. Även om de specifika förändringarna som behandlats typiskt inte återkommer, är det möjligt att nya hudförändringar kan utvecklas på andra områden av huden. Att upprätthålla en bra hudvårdsrutin och att skydda huden mot överdriven solexponering kan minska sannolikheten för framtida hudproblem.'
+            text: 'CryoPen är utformad för att permanentta bort hudförändringar, de kommer inte att komma tillbaka.'
         ),
         new Question(
             title: 'Vad ska jag undvika efter behandling med CryoPen?',
@@ -530,7 +530,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur många återbesök kan behövas efter en CryoPen-behandling?',
-            text: 'Vanligtvis kan 1-3 återbesök vara tillräckliga för att uppnå önskat resultat med CryoPen behandling. Detta antagande baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större, djupare eller om det finns ett större antal att behandla.'
+            text: 'Vanligtvis krävs 1-3 behandlingar för att få bort hudförändringen. Detta baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större, djupare eller om det finns ett större antal att behandla.'
         ),
     )
 );
