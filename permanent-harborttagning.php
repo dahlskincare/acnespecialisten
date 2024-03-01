@@ -69,7 +69,7 @@ $top_articles = array(
         image_alt: 'Hur går behandlingen till?',
         image_title: 'Hur går behandlingen till?',
         content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna som omvandlas till värme, vilket skadar hårfolliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Alla våra lasermaskiner för permanent hårborttagning har effektiva kylsystem som gör att behandlingarna nästan är smärtfria.</p>
-        <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser kan flera behandlingar behövas för att uppnå fullständigt och långvarigt resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
+        <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser behövs flera behandlingar behövas för att uppnå permanent resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
     ),
 );
 
