@@ -63,7 +63,7 @@ $top_articles = array(
         <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under de veckor som leder upp till din behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för att motta laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går laser behandlingen till?',
+        title: 'Hur går hårborttagning med laser i Stockholm till?',
         image_small: '/bilder/process/358x272/permanent-harborttagning-process.webp',
         image_large: '/bilder/process/872x456/permanent-harborttagning-process.webp',
         image_alt: 'Hur går behandlingen till?',
