@@ -518,7 +518,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Vilken är den vanliga läkningstiden efter en behandling med CryoPen?',
-            text: 'Läkningstiden efter en CryoPen-behandling varierar beroende på individens hudtyp, omfattningen och storleken på de behandlade hudförändringarna. Små hudförändringar tenderar att läka inom några dagar, medan större eller fler behandlade områden kan kräva flera veckor. Initial svullnad och rodnad är att förvänta och bör subside inom de första dagarna post-behandling.'
+            text: 'Läkningstiden efter en CryoPen behandling varierar beroende på individens hudtyp, omfattning och storlek på de behandlade hudförändringarna. Små hudförändringar tenderar att läka inom några dagar, medan större eller fler behandlade områden kan kräva flera veckor. Initial svullnad och rodnad är att förvänta och bör subside inom de första dagarna post-behandling.'
         ),
         new Question(
             title: 'Finns det en risk att hudförändringar återkommer efter att ha använt CryoPen?',
@@ -526,11 +526,11 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Vad ska jag undvika efter behandling med CryoPen?',
-            text: 'Efter en CryoPen-behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.'
+            text: 'Efter en CryoPe behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.'
         ),
         new Question(
             title: 'Hur många återbesök kan behövas efter en CryoPen-behandling?',
-            text: 'Vanligtvis kan 1-3 återbesök vara tillräckliga för att uppnå önskat resultat med CryoPen-behandling. Detta antagande baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större, djupare eller om det finns ett större antal att behandla.'
+            text: 'Vanligtvis kan 1-3 återbesök vara tillräckliga för att uppnå önskat resultat med CryoPen behandling. Detta antagande baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större, djupare eller om det finns ett större antal att behandla.'
         ),
     )
 );
