@@ -76,12 +76,6 @@ $big_types = array(
         image_large: null,
         image_alt: 'Klassisk',
         image_title: 'Klassisk',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic',
-        booking_url_label: 'Boka klassisk behandling',
-        booking_url_title: 'Boka klassisk behandling',
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
