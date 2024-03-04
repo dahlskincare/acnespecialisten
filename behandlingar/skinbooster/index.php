@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Skinbooster Behandlingar - Återfukta och Föryngra Din Hud';
 $seo_description = 'AcneSpecialisten presenterar skinbooster-behandlingar, en idealisk lösning för att djupt återfukta och vitalisera din hud. Våra skinboosters är skräddarsydda för att bekämpa tecken på torrhet och åldrande, och återställa hudens naturliga glans och ungdomlighet.';
-$seo_keywords = 'skinbooster, återfuktning, hudföryngring, vitalisera huden, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens elasticitet';
+$seo_keywords = 'skinbooster, återfuktning';
 
 $seo_image = '/images/treatments/large/skinbooster.webp';
 
@@ -21,8 +21,8 @@ $model = new Service(
     content: '',
     image_small: 'bilder/behandlingar/358x274/skinbooster.webp',
     image_large: 'bilder/behandlingar/424x456/skinbooster.webp',
-    image_alt: 'Ansiktsbehandlingar mot akne',
-    image_title: 'Ansiktsbehandlingar mot akne',
+    image_alt: 'Skinbooster',
+    image_title: 'Skinbooster',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
