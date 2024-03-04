@@ -679,7 +679,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Vad är de vanligaste biverkningarna av kemisk peeling?',
-            text: '<p class="p200">Kemisk peeling är en populär hudvårdsbehandling som används för att förbättra hudens utseende genom att avlägsna döda hudceller och stimulera tillväxten av ny, frisk hud. Trots dess effektivitet kan behandlingen medföra vissa biverkningar, som varierar beroende på peelingens djup och din huds känslighet. De vanligaste biverkningarna inkluderar:</p>
+            text: '<p class="p200">Kemisk peeling är en populär hudvårdsbehandling som används för att förbättra hudens utseende. Trots dess effektivitet kan behandlingen medföra vissa biverkningar, som varierar beroende på peelingens djup och din huds känslighet. De vanligaste biverkningarna inkluderar:</p>
             <p class="p200 mt-m">Rodnad och irritation:<br />Det är vanligt att uppleva en viss grad av rodnad och irritation i behandlingsområdet, vilket vanligtvis avtar inom några timmar till dagar efter behandlingen.</p>
             <p class="p200 mt-m">Skalning och flagning:<br />Eftersom behandlingen avlägsnar det yttersta hudlagret, kan du uppleva att huden börjar skala eller flagna bort, vilket är en del av läkningsprocessen.</p>
             <p class="p200 mt-m">Torhet:<br />Din hud kan kännas ovanligt torr och stram efter behandlingen, vilket kan hanteras med återfuktande produkter rekommenderade av din hudvårdsspecialist.</p>
