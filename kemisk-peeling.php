@@ -472,6 +472,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'Kemisk Peeling före och efter bilder';
 $results = array(
     new ResultCustomer(
         url: '',
