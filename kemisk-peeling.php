@@ -233,7 +233,7 @@ $types = array(
         title: 'Kemisk peeling mot acneärr',
         duration: '30 min',
         price: null,
-        content: 'Vår specialanpassade kemiska peeling är utformad för att effektivt behandla och minska synligheten av acneärr. Denna behandling arbetar på djupet för att jämna ut både ytan och hudtonen där ärrbildning har skett.',
+        content: 'Utformad för att effektivt behandla och minska synligheten av acneärr (fläckar). Denna behandling arbetar på djupet för att jämna ut både ytan och hudtonen där ärrbildning har skett.',
         image_small: 'bilder/problem/102x102/acnearr.webp',
         image_large: 'bilder/problem/200x200/acnearr.webp',
         image_alt: 'Kemisk peeling mot acneärr',
