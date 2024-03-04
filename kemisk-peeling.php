@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens expertutbud av kemiska peelings för att förbättra hudens utseende och hälsa. Våra anpassade peelingar behandlar allt från akne till åldrande, och erbjuder djupgående lösningar för diverse hudproblem. Med vår specialkunskap och avancerade behandlingar är din väg till en klarare och mer strålande hud inom räckhåll.';
+$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar';
+$seo_description = 'Behandla och förbättra hudens utseende och hälsa. Våra anpassade syror behandlar allt från akne och mogen hy till pigmenteringar. Boka en gratis konsultation!';
 $seo_keywords = 'kemisk peeling, stockholm';
 
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
