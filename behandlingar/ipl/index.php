@@ -104,7 +104,7 @@ $types_title = 'Hudproblem som behandlas med IPL';
 $types_description = 'IPL (Intensivt Pulserande Ljus) är en mångsidig och effektiv behandlingsmetod som används för att adressera en rad olika hudproblem. Här kan du utforska de olika hudtillstånden som vi framgångsrikt behandlar med vår IPL-teknik.';
 $types = array(
     new Service(
-        title: 'IPL-behandling för Rosacea',
+        title: 'IPL-behandling mot Rosacea',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Effektiv behandling av rosacea med vår avancerade IPL-teknik. Genom att använda målinriktade ljuspulser kan vi mildra rodnad och andra symtom associerade med rosacea, vilket ger en jämnare hudton och en förbättrad hudkvalitet.',
@@ -125,7 +125,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'IPL-behandling för Ytliga Blodkärl',
+        title: 'IPL-behandling mot Ytliga Blodkärl',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Effektiv IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt behandla de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
@@ -146,7 +146,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'IPL-behandling för Pigmentfläckar',
+        title: 'IPL-behandling mot Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Minska och ta bort pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt och målinriktat reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare hudton.',
@@ -167,7 +167,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Laserbehandling för Melasma',
+        title: 'Laserbehandling mot Melasma',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Behandla melasma effektivt med laser. Vår behandling hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt behandla de hyperpigmenterade områdena, vilket ger en märkbar förbättring i hudens utseende.',
