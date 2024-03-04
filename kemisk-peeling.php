@@ -29,6 +29,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '1995 kr',
+            savings: null,
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '4 behandlingar',
+            price: '6995 kr',
+            savings: 'Spara 785 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '6 behandlingar',
+            price: '8995 kr',
+            savings: 'Spara 2975 kr',
+            booking_url: null,
+            booking_url_label:null,
+            booking_url_title: null,
+        )
+    ),
 );
 
 $floating_box = 'Exfolierar och förnyar hudytan effektivt.';
@@ -63,7 +89,7 @@ $top_articles = array(
         <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar rekommenderar vi alltid att du börjar med en kostnadsfri konsultation.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går kemisk peeling behandlingar till?',
+        title: 'Hur går kemisk peeling till?',
         image_small: '/bilder/process/358x272/kemisk-peeling-process.webp',
         image_large: '/bilder/process/872x456/kemisk-peeling-process.webp',
         image_alt: null,
@@ -239,6 +265,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka konsultation',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
+
+        url: '/acnearr.php',
+        url_label: 'Läs mer om acneärr',
+        url_title: 'Läs mer om acneärr',
     ),
     new Service(
         title: 'Kemisk Peeling mot Aktiv Akne',
@@ -255,6 +285,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka konsultation',
         booking_url_title: 'Boka Kemisk Peeling för Aktiv Akne',
+
+        url: '/kemisk-peeling-acne.php',
+        url_label: 'Läs mer om kemisk peeling mot acne',
+        url_title: 'Läs mer om kemisk peeling mot acne',
     ),
     new Service(
         title: 'Kemisk Peeling mot Pormaskar & Stora Porer',
@@ -271,6 +305,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka konsultation',
         booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
+
+        url: '/pormaskar.php',
+        url_label: 'Läs mer om pormaskar',
+        url_title: 'Läs mer om pormaskar',
     ),
     new Service(
         title: 'Kemisk Peeling mot Melasma',
@@ -287,6 +325,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Melasma',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Melasma',
+
+        url: '/melasma.php',
+        url_label: 'Läs mer om melasma',
+        url_title: 'Läs mer om melasma',
     ),
     new Service(
         title: 'Kemisk Peeling mot Pigmentfläckar',
@@ -303,6 +345,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Pigmentfläckar',
+
+        url: '/pigmentflackar.php',
+        url_label: 'Läs mer om pigmentfläckar',
+        url_title: 'Läs mer om pigmentfläckar',
     ),
     new Service(
         title: 'Kemisk Peeling mot Rynkor & Fina Linjer',
@@ -319,6 +365,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
+
+        url: '/mogen hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
     ),
     new Service(
         title: 'Kemisk Peeling mot Solskadad Hy',
@@ -335,6 +385,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_SunDamage',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Solskadad Hy',
+
+        url: '/solskadad-hy.php',
+        url_label: 'Läs mer om solskadad hy',
+        url_title: 'Läs mer om solskadad hy',
     ),
 );
 
@@ -621,6 +675,10 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Vilken typ av kemisk peeling ska jag välja för min hud?',
+            text: 'För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen, vare sig det är Easy Phytic Peel, Easy TCA Pain Control, PRX-T33, eller någon annan.'
+        ),
+        new Question(
+            title: 'Kemisk peeling biverkningar?',
             text: 'För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen, vare sig det är Easy Phytic Peel, Easy TCA Pain Control, PRX-T33, eller någon annan.'
         ),
     )
