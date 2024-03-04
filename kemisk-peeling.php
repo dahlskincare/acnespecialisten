@@ -265,7 +265,7 @@ $types = array(
         title: 'Kemisk Peeling mot Pormaskar & Stora Porer',
         duration: '30 min',
         price: '1595 kr',
-        content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
+        content: 'Denna behandling är idealisk för att djuprengöra och rensar ur porerna, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
         image_small: 'bilder/problem/102x102/stora-porer.webp',
         image_large: 'bilder/problem/200x200/stora-porer.webp',
         image_alt: 'Kemisk Peeling för Pormaskar och Stora Porer',
