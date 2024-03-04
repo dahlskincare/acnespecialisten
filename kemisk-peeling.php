@@ -75,7 +75,7 @@ $top_articles = array(
 
 $big_types = array(
     new Service(
-        title: 'Skin Tech Easy Phytic Peel',
+        title: 'Easy Phytic Peel - Glycolic + Lactic + Mandelic + Phytic acids',
         duration: '30 min',
         price: null,
         content: '<p class="p200">Skin Tech Easy Phytic Peel är perfekt för dig som vill behandla orenheter, igentäppt hy och pigmenteringar, då den passar för alla hudtyper. Denna milda peeling ger en fördjupad rengöring och förbättrar hudens övergripande utseende utan att kräva en lång återhämtningsperiod. Den unika formulan i Easy Phytic Peel exfolierar försiktigt hudens yttre lager, vilket bidrar till en minskning av synliga ojämnheter och en förnyelse av hudcellerna.</p>
@@ -112,7 +112,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'Skin Tech Easy Droxy Versicolor Peel',
+        title: 'Easy Droxy Versicolor Peel - Glycolic + Lactic + Citric + Kojic + Salicylic Acid',
         duration: '30 min',
         price: null,
         content: '<p class="p200">Skin Tech Easy Droxy Versicolor Peel är en utmärkt behandling för dig som söker en uppfräschning av huden och en effektiv lösning mot pigmenteringar. Denna peeling är skonsam och passar för en mängd olika hudtyper, och är särskilt effektiv för att ge huden en fräschare, klarare och mer ungdomlig utstrålning. Den arbetar genom att varsamt exfoliera hudens yttre lager, vilket hjälper till att reducera ojämnheter och främja en jämn hudton.</p>
