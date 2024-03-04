@@ -400,6 +400,49 @@ $treatment_areas = array(
             ),
         )
     ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Kombinera områden',
+        image_title: 'Kombinera områden',
+        title: 'Kombinera områden',
+        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '1x område',
+                image_title: '1x område',
+                title: '1x område',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_1xArea',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 område.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '2x områden',
+                image_title: '2x områden',
+                title: '2x områden',
+                duration: '40 min',
+                price: '2995 kr',
+                url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_2xAreas',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '3x områden',
+                image_title: '3x områden',
+                title: '3x områden',
+                duration: '50 min',
+                price: '3995 kr',
+                url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_3xAreas',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 3 områden.'
+            ),
+        )
+    ),
 );
 
 $bottom_articles = array('aftercare' => new Article(
