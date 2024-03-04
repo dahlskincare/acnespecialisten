@@ -263,7 +263,7 @@ $types = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
-        booking_url_label: 'Boka konsultation',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
 
         url: '/acnearr.php',
@@ -283,7 +283,7 @@ $types = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Aktiv Akne',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
-        booking_url_label: 'Boka konsultation',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Aktiv Akne',
 
         url: '/kemisk-peeling-acne.php',
@@ -303,7 +303,7 @@ $types = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
-        booking_url_label: 'Boka konsultation',
+        booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
 
         url: '/pormaskar.php',
