@@ -45,7 +45,7 @@ $consultation_url = "https://acnespecialisten.se/book?flow=consultation&Consulta
 $consultation_url_title = "Gratis Konsultation för Torr och Känslig Hy";
 
 $booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY";
 $booking_url_title = "Boka Behandling för Torr och Känslig Hy";
 
 $mobile_consultation_url_label = "Gratis konsultation";
@@ -538,7 +538,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för torr och känslig hy'
       ),
       new Service(

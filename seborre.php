@@ -39,7 +39,7 @@ $consultation_url = "https://acnespecialisten.se/book?flow=consultation&Consulta
 $consultation_url_label = "Boka gratis konsultation";
 $consultation_url_title = "Gratis Konsultation för Seborré";
 
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea";
+$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY";
 $booking_url_label = "Boka behandling";
 $booking_url_title = "Boka din tid för behandling av seborré";
 
@@ -215,7 +215,7 @@ $services = array(
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Boka gratis konsultation',
-            booking_url: "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea",
+            booking_url: "https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY",
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka din ansiktsbehandling mot seborré',
             url: '/problemhy.php',
