@@ -302,7 +302,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
-        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
 
@@ -322,7 +322,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Melasma',
-        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Melasma',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Melasma',
 
@@ -362,7 +362,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Rynkor och Fina Linjer',
-        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
 
@@ -382,7 +382,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Solskadad Hy',
-        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_SunDamage',
+        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_SunDamage&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Solskadad Hy',
 

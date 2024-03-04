@@ -143,7 +143,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för behandling av rynkor och fina linjer',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Wrinkles',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för rynkor & fina linjer',
 
@@ -163,7 +163,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för behandling av stora porer',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för stora porer',
 

@@ -151,7 +151,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_BloodVessels',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Rosacea&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 
@@ -191,7 +191,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Melasma',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Melasma&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 
@@ -211,7 +211,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_LargePores',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 
@@ -231,7 +231,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Moles',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Moles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 
@@ -271,7 +271,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 
@@ -291,7 +291,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 

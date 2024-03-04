@@ -176,7 +176,7 @@ $services = array(
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             consultation_url_label: 'Boka tid för hudkonsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot rosacea',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
             url: 'rosaceabehandling.php',

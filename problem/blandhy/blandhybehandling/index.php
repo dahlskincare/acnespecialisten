@@ -86,7 +86,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Blandhy hos Acnespecialisten',
 
-        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem&area=Facial_Face',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling för Blandhy hos Acnespecialisten',
 
@@ -95,30 +95,6 @@ $services = array(
         url_title: 'Läs mer om ansiktsbehandling mot blandhy',
 
         // short_title: 'Ansiktsbehandling'
-
-    ),
-
-    new Service(
-        image_small: null,
-        image_large: null,
-        image_title: 'Klient som genomgår laserbehandling för Blandhy',
-        image_alt: 'Bild av laserbehandling för blandhy hos Acnespecialisten',
-        title: 'Effektiv laserbehandling för Blandhy',
-        duration: '30-60 min',
-        price: '1295 kr',
-        icons: array(),
-        content: '<p class="p200">Laserbehandling på Acnespecialisten erbjuder en sofistikerad lösning för blandhy. Genom att utnyttja precisionen av ljusenergi, arbetar laserbehandlingen på cellulär nivå för att främja kollagenproduktion och reglera talgutsöndringen. Målet med behandlingen är att skapa en balanserad hud.</p>',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka en konsultation för laserbehandling för Blandhy',
-        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_LaserProblem',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling för Blandhy nu',
-        url: '/behandlingar/laser-mot-hudproblem/',
-        url_label: 'Läs mer om laser mot blandhy',
-        url_title: 'Läs mer om laser mot blandhy',
-
-        // short_title: 'Laser'
 
     ),
 
@@ -138,7 +114,7 @@ $services = array(
         url: '/kemisk-peeling.php',
         url_label: 'Läs mer om kemisk peeling mot blandhy',
         url_title: 'Läs mer om kemisk peeling mot blandhy',
-        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_ChemicalPeeling',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling för blandhy nu',
         short_title: 'Kemisk Peeling'
@@ -161,7 +137,7 @@ $services = array(
         url: '/microneedling.php',
         url_label: 'Läs mer om microneedling mot blandhy',
         url_title: 'Läs mer om microneedling mot blandhy',
-        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_Microneedling',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_Microneedling&area=Microneedling_Face',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling för blandhy nu',
         short_title: 'Microneedling'

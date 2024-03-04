@@ -273,7 +273,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för blandhy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_FacialProblem&area=Facial_Face',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för blandhy'
       ),
 
@@ -296,7 +296,7 @@ $services = array(
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för blandhy',
 
-            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för blandhy behandling'
 
@@ -322,7 +322,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för blandhy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_Microneedling&area=Microneedling_Face',
             booking_url_title: 'Klicka för att boka tid för en microneedling för blandhy behandling'
       ),
 

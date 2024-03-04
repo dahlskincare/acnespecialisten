@@ -115,7 +115,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av rosacea',
-        booking_url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=Problem_Rosacea',
+        booking_url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=Problem_Rosacea&area=EMPTY',
         booking_url_label: 'Bokabehandling',
         booking_url_title: 'Boka Powerlite Photonova behandling för rosacea',
     ),

@@ -77,7 +77,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Rosacea på Acnespecialisten',
 
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea&method=Service_Facial_RosaceaTreatment&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Rosacea på Acnespecialisten',
 
@@ -100,7 +100,7 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
-        booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea&method=Method_IPL&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din IPL-behandling mot rosacea nu',
         url: 'ipl-rosacea.php',

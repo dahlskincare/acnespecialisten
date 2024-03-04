@@ -115,7 +115,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Rejuve Dye-VL behandling av rosacea',
-        booking_url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=Problem_Rosacea',
+        booking_url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=Problem_Rosacea&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Rejuve Dye-VL behandling för rosacea',
     ),

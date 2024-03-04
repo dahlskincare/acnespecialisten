@@ -206,7 +206,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Blandhy',
 
@@ -226,7 +226,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Milia&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Milier',
 
@@ -246,7 +246,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Perioral Dermatit',
 
@@ -266,7 +266,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Seborré',
 
@@ -286,7 +286,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
 
@@ -306,7 +306,7 @@ $types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
 
