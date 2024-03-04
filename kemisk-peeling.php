@@ -663,23 +663,29 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Är kemisk peeling lämplig för alla hudtyper?',
-            text: 'Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat.'
+            text: '<p class="p200">Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat.</p>'
         ),
         new Question(
             title: 'Kan kemisk peeling hjälpa till med acneärr och pigmentfläckar?',
-            text: 'Absolut, kemisk peeling är en effektiv metod för att behandla acneärr och pigmentfläckar. Genom att exfoliera och främja cellförnyelse kan dessa behandlingar signifikant förbättra hudens textur och minska synligheten av ärr och fläckar.'
+            text: '<p class="p200">Absolut, kemisk peeling är en effektiv metod för att behandla acneärr och pigmentfläckar. Genom att exfoliera och främja cellförnyelse kan dessa behandlingar signifikant förbättra hudens textur och minska synligheten av ärr och fläckar.</p>'
         ),
         new Question(
             title: 'Hur ofta bör jag genomgå en kemisk peeling?',
-            text: 'Frekvensen av kemisk peeling beror på din hudtyp och de specifika problem du vill adressera. En del kan behöva behandlingar var fjärde till sjätte vecka, medan andra kan ha behov av mer eller mindre frekventa sessioner. Våra experter kommer att rekommendera en behandlingsplan baserad på din hudanalys.'
+            text: '<p class="p200">Frekvensen av kemisk peeling beror på din hudtyp och de specifika problem du vill adressera. Ofta börjar man med en behandling i veckan och sedan underhålls resultatet med frekvensen 4-6 veckor. Våra experter kommer att rekommendera en behandlingsplan baserad på din hudanalys.</p>'
         ),
         new Question(
             title: 'Vilken typ av kemisk peeling ska jag välja för min hud?',
-            text: 'För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen, vare sig det är Easy Phytic Peel, Easy TCA Pain Control, PRX-T33, eller någon annan.'
+            text: '<p class="p200">För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen.</p>'
         ),
         new Question(
-            title: 'Kemisk peeling biverkningar?',
-            text: 'För att hitta den bästa kemiska peelingen för din hud rekommenderar vi en personlig konsultation. Under denna tid kommer våra hudterapeuter att analysera din hudtyp och behov, och rekommendera den mest effektiva behandlingen, vare sig det är Easy Phytic Peel, Easy TCA Pain Control, PRX-T33, eller någon annan.'
+            title: 'Vad är de vanligaste biverkningarna av kemisk peeling?',
+            text: '<p class="p200">Kemisk peeling är en populär hudvårdsbehandling som används för att förbättra hudens utseende genom att avlägsna döda hudceller och stimulera tillväxten av ny, frisk hud. Trots dess effektivitet kan behandlingen medföra vissa biverkningar, som varierar beroende på peelingens djup och din huds känslighet. De vanligaste biverkningarna inkluderar:</p>
+            <p class="p200 mt-m">Rodnad och irritation:<br />Det är vanligt att uppleva en viss grad av rodnad och irritation i behandlingsområdet, vilket vanligtvis avtar inom några timmar till dagar efter behandlingen.</p>
+            <p class="p200 mt-m">Skalning och flagning:<br />Eftersom behandlingen avlägsnar det yttersta hudlagret, kan du uppleva att huden börjar skala eller flagna bort, vilket är en del av läkningsprocessen.</p>
+            <p class="p200 mt-m">Torhet:<br />Din hud kan kännas ovanligt torr och stram efter behandlingen, vilket kan hanteras med återfuktande produkter rekommenderade av din hudvårdsspecialist.</p>
+            <p class="p200 mt-m">Känslighet mot solen:<br />Efter en kemisk peeling är huden mer känslig för solen, vilket gör det viktigt att använda solskydd med hög SPF och undvika direkt solljus under de första veckorna efter behandlingen.</p>
+            <p class="p200 mt-m">Sällsynta biverkningar:<br />I mer sällsynta fall kan personer uppleva mer allvarliga biverkningar som infektion, pigmentförändringar (antingen hyperpigmentering eller hypopigmentering), och i mycket sällsynta fall ärrbildning. Dessa risker är högre med djupare peelings.</p>
+            <p class="p200 mt-m">Det är viktigt att diskutera eventuella bekymmer och din hudtyp med en certifierad hudvårdsspecialist eller dermatolog innan du genomgår en kemisk peeling. De kan hjälpa till att anpassa behandlingen efter dina behov och minimera risken för biverkningar.</p>'
         ),
     )
 );
