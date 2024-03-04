@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Skinbooster Behandlingar - Återfukta och Föryngra Din Hud | AcneSpecialisten';
+$seo_title = 'Skinbooster Behandlingar - Återfukta och Föryngra Din Hud';
 $seo_description = 'AcneSpecialisten presenterar skinbooster-behandlingar, en idealisk lösning för att djupt återfukta och vitalisera din hud. Våra skinboosters är skräddarsydda för att bekämpa tecken på torrhet och åldrande, och återställa hudens naturliga glans och ungdomlighet.';
 $seo_keywords = 'skinbooster, återfuktning, hudföryngring, vitalisera huden, torr hud, åldrande hud, AcneSpecialisten, avancerad hudvård, hudens elasticitet';
 
