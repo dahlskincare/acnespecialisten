@@ -69,7 +69,7 @@ $top_articles = array(
         image_alt: null,
         image_title: null,
         content: '<p class="p200">På AcneSpecialisten erbjuder vi kemiska peelingbehandlingar som är anpassade för att möta en mängd olika hudproblem. Vi förstår att varje persons hud är unik och skräddarsyr därför varje behandling för att passa just dina individuella behov och hudtillstånd. Våra erfarna hudterapeuter använder sin expertis och djupgående kunskap för att ge dig den bästa möjliga behandling och resultat.</p>
-        <p class="p200 mt-m">Varje kemisk peelingbehandling inleds med en grundlig rengöring för att förbereda huden. Detta följs av appliceringen av en specifikt utvald syra, som är anpassad efter din hudtyp och de hudproblem som ska behandlas. Denna syra arbetar för att exfoliera de övre hudlagren och stimulerar hudens naturliga förnyelseprocess. Beroende på behandlingens intensitet, kan du uppleva en lätt stickande känsla under denna fas. Efter att syran har verkat tillräckligt länge neutraliseras den noggrant för att säkerställa din komfort och säkerhet. Avslutningsvis appliceras en lugnande och återfuktande mask för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en återfuktande kräm som hjälper din hud att känna sig återupplivad och förnyad.</p>',
+        <p class="p200 mt-m">Varje kemisk peelingbehandling inleds med en grundlig rengöring för att förbereda huden. Detta följs av appliceringen av en specifikt utvald syra, som är anpassad efter din hudtyp och de hudproblem som ska behandlas. Denna syra arbetar för att exfoliera de övre hudlagren och stimulerar hudens naturliga förnyelseprocess. Beroende på behandlingens intensitet, kan du uppleva en lätt stickande känsla under denna fas. Efter att syran har verkat tillräckligt länge neutraliseras den noggrant för att säkerställa din komfort och säkerhet. Avslutningsvis appliceras en återfuktande mask för att lugna huden och minska eventuell rodnad eller irritation. Behandlingen avslutas med en återfuktande kräm som hjälper din hud att känna sig återupplivad och förnyad.</p>',
     ),
 );
 
@@ -227,7 +227,7 @@ $big_types = array(
 );
 
 $types_title = 'Hudproblem vi behandlar med kemisk peeling';
-$types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda kemiska peelings för en rad hudproblem. Våra behandlingar är specifikt utformade för att effektivt hantera allt från acneärr och aktiv akne till bristningar, melasma och pigmentfläckar. Vi tar även hand om pormaskar, stora porer, samt rynkor och fina linjer. Genom att välja rätt typ av kemisk peeling för varje specifikt hudproblem, kan vi erbjuda behandlingar som inte bara förbättrar hudens utseende, utan också dess övergripande hälsa och vitalitet.</p>';
+$types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda kemiska peelings för en rad hudproblem. Våra behandlingar är specifikt utformade för att effektivt hantera allt från acneärr och aktiv akne till melasma och pigmentfläckar. Vi tar även hand om pormaskar, stora porer, samt rynkor och fina linjer. Genom att välja rätt typ av kemisk peeling för varje specifikt hudproblem, kan vi erbjuda behandlingar som inte bara förbättrar hudens utseende, utan också dess övergripande hälsa och vitalitet.</p>';
 $types = array(
     new Service(
         title: 'Kemisk Peeling mot Melasma',
@@ -260,22 +260,6 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Pigmentfläckar',
-    ),
-    new Service(
-        title: 'Kemisk Peeling mot Bristningar',
-        duration: '30 min',
-        price: '1995 kr',
-        content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
-        image_small: 'bilder/problem/102x102/bristningar.webp',
-        image_large: 'bilder/problem/200x200/bristningar.webp',
-        image_alt: 'Kemisk Peeling mot Bristningar',
-        image_title: 'Kemisk Peeling mot Bristningar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka tid för konsultation om Bristningar',
-        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_StrechMarks',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Kemisk Peeling mot Bristningar',
     ),
     new Service(
         title: 'Kemisk Peeling mot Rynkor & Fina Linjer',
