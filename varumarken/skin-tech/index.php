@@ -211,6 +211,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Pigmentfläckar',
+
+        url: '/pigmentflackar.php',
+        url_label: 'Läs mer om pigmentfläckar',
+        url_title: 'Läs mer om pigmentfläckar',
     ),
     new Service(
         title: 'Skin Tech mot Bristningar',
@@ -243,6 +247,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Rynkor och Fina Linjer',
+
+        url: '/mogen-hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
     ),
     new Service(
         title: 'Skin Tech mot Solskadad Hy',
@@ -259,6 +267,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_SunDamage&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Solskadad Hy',
+
+        url: '/solskadad-hy.php',
+        url_label: 'Läs mer om solskadad hy',
+        url_title: 'Läs mer om solskadad hy',
     ),
     new Service(
         title: 'Skin Tech mot acneärr',
@@ -275,6 +287,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
+
+        url: '/acnearr.php',
+        url_label: 'Läs mer om acneärr',
+        url_title: 'Läs mer om acneärr',
     ),
     new Service(
         title: 'Skin Tech mot Aktiv Akne',
@@ -291,6 +307,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Aktiv Akne',
+
+        url: '/kemisk-peeling-acne.php',
+        url_label: 'Läs mer om kemisk peeling mot acne',
+        url_title: 'Läs mer om kemisk peeling mot acne',
     ),
     new Service(
         title: 'Skin Tech mot Pormaskar & Stora Porer',
@@ -307,6 +327,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandlingar',
         booking_url_title: 'Boka Skin Tech mot Pormaskar och Stora Porer',
+
+        url: '/pormaskar.php',
+        url_label: 'Läs mer om pormaskar',
+        url_title: 'Läs mer om pormaskar',
     ),
     new Service(
         title: 'Skin Tech mot Melasma',
@@ -323,6 +347,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Melasma&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech för Melasma',
+
+        url: '/melasma.php',
+        url_label: 'Läs mer om melasma',
+        url_title: 'Läs mer om melasma',
     ),
 );
 
