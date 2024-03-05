@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Skinbooster',
+    title: 'Skinbooster behandling',
     duration: '50 min',
     price: '2595 kr',
     content: '',
@@ -79,7 +79,7 @@ $description_text = '<p class="p200">Skinbooster är en innovativ behandling som
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Skinbooster',
+        title: 'Förberedelser inför Skinbooster behandling',
         image_small: '/bilder/process/358x272/skinbooster-forberedelser.webp',
         image_large: '/bilder/process/872x456/skinbooster-forberedelser.webp',
         image_alt: 'Förberedelser inför Skinbooster',
@@ -88,7 +88,7 @@ $top_articles = array(
         <p class="p200 mt-m">Att komma osminkad till din behandling är inte ett krav, men om du väljer att göra det, underlättar det för oss att göra en noggrann hudanalys och anpassa behandlingen efter dina specifika behov. Under en kostnadsfri konsultation går vi igenom allt du behöver veta inför behandlingen. Vårt team på AcneSpecialisten ser fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan för din hudtyp och dina mål. Vi är här för att stödja dig genom din hudvårdsresa och ser fram emot att bidra till din förbättrade hudhälsa.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går Skinbooster behandlingen till?',
+        title: 'Hur går Skinbooster till?',
         image_small: '/bilder/process/358x272/skinbooster-process.webp',
         image_large: '/bilder/process/872x456/skinbooster-process.webp',
         image_alt: 'Hur går Skinbooster behandlingen till?',
@@ -240,6 +240,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'Skinbooster före efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -376,7 +377,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många Skinbooster behandlingar rekommenderas?',
-            text: 'För optimalt resultat rekommenderas en uppbyggnadsfas av 3 behandlingar och därefter att resultatet bibehålls med regelbundna behandlingar.'
+            text: 'För optimalt resultat rekommenderas en uppbyggnadsfas av 3 behandlingar med en veckas mellanrum och därefter underhållsbehandlingar var 4-6e månad.'
         ),
 
             new Question(
