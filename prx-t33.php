@@ -161,6 +161,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_Melasma',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Melasma',
+
+        url: '/melasma.php',
+        url_label: 'Läs mer om melasma',
+        url_title: 'Läs mer om melasma',
     ),
     new Service(
         title: 'PRX-T33 mot Bristningar',
@@ -177,6 +181,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Bristningar',
+
+        url: '/problem/bristningar/',
+        url_label: 'Läs mer om bristningar',
+        url_title: 'Läs mer om bristningar',
     ),
     new Service(
         title: 'PRX-T33 mot Rynkor & Fina Linjer',
@@ -193,6 +201,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
+
+        url: '/mogen-hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
     ),
     new Service(
         title: 'PRX-T33 mot acneärr',
@@ -209,6 +221,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
+
+        url: '/acnearr.php',
+        url_label: 'Läs mer om acneärr',
+        url_title: 'Läs mer om acneärr',
     ),
     new Service(
         title: 'PRX-T33 mot Aktiv Akne',
@@ -225,6 +241,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Aktiv Akne',
+
+        url: '/kemisk-peeling-acne.php',
+        url_label: 'Läs mer om kemisk peeling mot acne',
+        url_title: 'Läs mer om kemisk peeling mot acne',
     ),
     new Service(
         title: 'PRX-T33 mot Pormaskar & Stora Porer',
@@ -241,6 +261,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_LargePores',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Pormaskar och Stora Porer',
+
+        url: '/pormaskar.php',
+        url_label: 'Läs mer om pormaskar',
+        url_title: 'Läs mer om pormaskar',
     ),
     new Service(
         title: 'PRX-T33 mot Pigmentfläckar',
@@ -257,6 +281,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=prx&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Pigmentfläckar',
+
+        url: '/pigmentflackar.php',
+        url_label: 'Läs mer om pigmentfläckar',
+        url_title: 'Läs mer om pigmentfläckar',
     ),
 );
 
