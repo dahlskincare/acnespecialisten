@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Injektionsbehandlingar för Hudförbättring | AcneSpecialisten';
-$seo_description = 'Utforska AcneSpecialistens injektionsbehandlingar för att uppnå en ungdomligare och fräschare hud. Våra erfarna utövare använder avancerade tekniker för att försiktigt behandla linjer, rynkor och återställa hudens volym, med resultat som ser naturliga ut.';
-$seo_keywords = 'injektionsbehandlingar, hudföryngring, rynkreducering, volymåterställning, professionell hudvård, ansiktskonturering, AcneSpecialisten, estetiska behandlingar';
+$seo_title = 'Injektionsbehandlingar för Hudförbättring';
+$seo_description = 'Våra erfarna utövare använder avancerade tekniker för att försiktigt behandla linjer, rynkor och återställa hudens volym, med resultat som ser naturliga ut.';
+$seo_keywords = 'injektionsbehandlingar, fillers';
 
 $seo_image = '/images/treatments/large/injektionsbehandlingar.webp';
 
@@ -726,11 +726,11 @@ $faq_categories = array(
         ),
         new Question(
             title: 'När kan jag återgå till mina normala aktiviteter efter en injektionsbehandling?',
-            text: 'De flesta kan återgå till sina normala aktiviteter direkt efter behandlingen. Vi rekommenderar dock att undvika ansträngande fysisk aktivitet och direkt solstrålning under de första 24 timmarna för att minimera svullnad och blåmärken.'
+            text: 'De flesta kan återgå till sina normala aktiviteter direkt efter behandlingen. Vi rekommenderar dock att undvika ansträngande fysisk aktivitet under de första 24 timmarna för att minimera svullnad och blåmärken.'
         ),
         new Question(
             title: 'Behöver jag någon speciell eftervård efter en injektionsbehandling?',
-            text: 'Efter injektionsbehandlingar är det viktigt att undvika att röra vid behandlingsområdet under de första timmarna. Använd solskydd och milda hudvårdsprodukter för att skydda och lugna huden. Vi ger dig detaljerade eftervårdsinstruktioner beroende på din specifika behandling.'
+            text: 'Efter injektionsbehandlingar är det viktigt att undvika att röra vid behandlingsområdet under de första timmarna. Vi ger dig detaljerade eftervårdsinstruktioner beroende på din specifika behandling.'
         ),
     )
 );
