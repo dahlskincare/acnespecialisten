@@ -745,51 +745,6 @@ $specialists = array(
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 
-$brands_title = 'Märken vi jobbar med';
-$all_brands = array(
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
-    new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen',
-    ),
-    new Brand(
-        label: 'CryoPen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'CryoPen',
-        image_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRXT',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: 'images/brands/infuzion.svg',
-        image_alt: 'Infuzion',
-        image_title: 'Infuzion',
-    ),
-);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -1095,20 +1050,6 @@ $all_brands = array(
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specialister"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
-            <section id="brands">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n"><?php echo $brands_title ?></h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla varumärken</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php
-                $brands = $all_brands;
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
-                ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
-            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
