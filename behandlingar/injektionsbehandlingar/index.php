@@ -51,7 +51,7 @@ $nav_buttons = array(
 $description_title = 'Vad är estetiska injektionsbehandlingar?';
 $description_text = '<p class="p200">Injektionsbehandlingar på AcneSpecialisten innefattar icke-kirurgiska metoder för att förbättra hudens utseende och struktur. Dessa behandlingar involverar användning av speciella preparat som injiceras i huden för att minska synliga linjer, rynkor och för att återställa eller förbättra hudens volym och konturer.</p>
 <p class="p200 mt-m">Vår metod fokuserar på att skapa en naturlig och förfinad estetik, anpassad efter varje klients unika ansiktsdrag och behov. Vi använder en rad tekniker för att behandla områden som kinder, läppar, panna och andra delar av ansiktet där tecken på åldrande eller volymförlust kan vara synliga. Varje behandling är skräddarsydd för att uppnå de mest naturliga och tillfredsställande resultaten.</p>
-<p class="p200 mt-m">Våra injektionsbehandlingar erbjuder en säker och effektiv lösning för de som önskar en omedelbar förbättring av hudens utseende utan behov av kirurgiska ingrepp. Med vårt team av erfarna hudterapeuter och användning av högkvalitativa produkter, strävar vi efter att ge dig en förbättrad hudhälsa och förnyat självförtroende.</p>';
+<p class="p200 mt-m">Våra injektionsbehandlingar erbjuder en säker och effektiv lösning för de som önskar en omedelbar förbättring av hudens utseende utan behov av kirurgiska ingrepp. Med vårt team av erfarna sjuksköterskor och läkare, samt användning av högkvalitativa produkter, strävar vi efter att ge dig en förbättrad hudhälsa och förnyat självförtroende.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
