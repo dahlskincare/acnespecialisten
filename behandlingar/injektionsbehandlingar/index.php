@@ -462,9 +462,9 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
-        image_alt: 'Kombinera områden',
-        image_title: 'Kombinera områden',
-        title: 'Kombinera områden',
+        image_alt: 'Kombinera metoder',
+        image_title: 'Kombinera metoder',
+        title: 'Kombinera metoder',
         description: '<p class="p200">Kombinera injektionsbehandling med fillers.</p>',
         items: array(
             new TreatmentAreaItem(
