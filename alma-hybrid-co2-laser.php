@@ -218,6 +218,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot Acneärr',
+
+        url: '/laser-acnearr.php',
+        url_label: 'Läs mer om laser mot acneärr',
+        url_title: 'Läs mer om laser mot acneärr',
     ),
 
     new Service(
@@ -235,6 +239,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot Rynkor och Fina Linjer',
+
+        url: '/mogen-hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
     ),
 
     new Service(
@@ -252,6 +260,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot Bristningar',
+
+        url: '/problem/bristningar/',
+        url_label: 'Läs mer om bristningar',
+        url_title: 'Läs mer om bristningar',
     ),
 
     new Service(
@@ -269,6 +281,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_Scars&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot Ärr (Skade- och Operationsärr)',
+
+        url: '/laser-arr.php',
+        url_label: 'Läs mer om laser mot ärr',
+        url_title: 'Läs mer om laser mot ärr',
     ),
 
     new Service(
@@ -286,6 +302,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot Pigmentfläckar',
+
+        url: '/ipl-pigmentflackar.php',
+        url_label: 'Läs mer om laser mot pigmentfläckar',
+        url_title: 'Läs mer om laser mot pigmentfläckar',
     ),
 
     new Service(
@@ -303,6 +323,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot Aktiv Acne',
+
+        url: '/laser-acne.php',
+        url_label: 'Läs mer om laser mot akne',
+        url_title: 'Läs mer om laser mot akne',
     ),
 
     new Service(
@@ -320,6 +344,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=almahybrid&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot Stora Porer',
+
+        url: '/stora-porer.php',
+        url_label: 'Läs mer om stora porer',
+        url_title: 'Läs mer om stora porer',
     ),
 
     new Service(
@@ -337,6 +365,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP&area=Service_Laser_oScar',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot hudutväxter',
+
+        url: '/problem/hudforandringar/behandla-hudforandringar/',
+        url_label: 'Läs mer om behandling av hudförändringar',
+        url_title: 'Läs mer om behandling av hudförändringar',
     ),
 
     new Service(

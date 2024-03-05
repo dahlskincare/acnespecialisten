@@ -111,23 +111,6 @@ $types_title = 'Hudproblem som Dermapen kan förbättra';
 $types_description = 'Dermapen är en innovativ behandlingsmetod som effektivt angriper en mängd hudproblem genom att skapa mikroskopiska perforeringar i huden. Dessa små punkteringar sätter igång kroppens naturliga reparation och regenereringsprocesser, vilket stimulerar nybildningen av kollagen och elastin. Tack vare sin förmåga att målriktat påverka hudens djupare skikt, kan Dermapen hjälpa till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Dermapen här.';
 $types = array(
     new Service(
-        title: 'Dermapen för Aktiv Acne',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Dermapen behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
-        image_small: 'bilder/problem/102x102/acne.webp',
-        image_large: 'bilder/problem/200x200/acne.webp',
-        image_alt: 'Dermapen för Aktiv Acne',
-        image_title: 'Dermapen för Aktiv Acne',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
-        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Dermapen för aktiv acne',
-    ),
-
-    new Service(
         title: 'Dermapen för Acneärr',
         duration: '50 minuter',
         price: '2595 kr',
@@ -142,8 +125,11 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen för acneärr',
-    ),
 
+        url: '/dermapen-acnearr.php',
+        url_label: 'Läs mer om Dermapen mot acneärr',
+        url_title: 'Läs mer om Dermapen mot acneärr',
+    ),
     new Service(
         title: 'Dermapen för Rynkor & Fina Linjer',
         duration: '50 minuter',
@@ -159,8 +145,11 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen för rynkor & fina linjer',
-    ),
 
+        url: '/mogen-hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
+    ),
     new Service(
         title: 'Dermapen för Stora Porer',
         duration: '50 minuter',
@@ -176,8 +165,11 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen för stora porer',
-    ),
 
+        url: '/pigmentflackar.php',
+        url_label: 'Läs mer om pigmentfläckar',
+        url_title: 'Läs mer om pigmentfläckar',
+    ),
     new Service(
         title: 'Dermapen för Pigmentfläckar',
         duration: '50 minuter',
@@ -193,8 +185,11 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen för pigmentfläckar',
-    ),
 
+        url: '/pigmentflackar.php',
+        url_label: 'Läs mer om pigmentfläckar',
+        url_title: 'Läs mer om pigmentfläckar',
+    ),
     new Service(
         title: 'Dermapen för Bristningar',
         duration: '50 minuter',
@@ -210,8 +205,31 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen för bristningar',
-    ),
 
+        url: '/problem/bristningar/',
+        url_label: 'Läs mer om bristningar',
+        url_title: 'Läs mer om bristningar',
+    ),
+    new Service(
+        title: 'Dermapen för Aktiv Acne',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Dermapen behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
+        image_small: 'bilder/problem/102x102/acne.webp',
+        image_large: 'bilder/problem/200x200/acne.webp',
+        image_alt: 'Dermapen för Aktiv Acne',
+        image_title: 'Dermapen för Aktiv Acne',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka konsultation för behandling av aktiv acne',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_Acne',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka Dermapen för aktiv acne',
+
+        url: '/dermapen-acne.php',
+        url_label: 'Läs mer om Dermapen mot acne',
+        url_title: 'Läs mer om Dermapen mot acne',
+    ),
 );
 
 $treatment_areas_title = 'Behandlingsområden för Dermapen';
