@@ -207,9 +207,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka microneedling för bristningar',
 
-        url: '/problem/bristningar/behandla-bristningar/',
-        url_label: 'Läs mer om behandling av bristningar',
-        url_title: 'Läs mer om behandling av bristningar',
+        url: '/problem/bristningar/',
+        url_label: 'Läs mer om bristningar',
+        url_title: 'Läs mer om bristningar',
     ),
     new Service(
         title: 'Microneedling mot Aktiv Acne',
