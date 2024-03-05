@@ -74,7 +74,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är Skinbooster?';
 $description_text = '<p class="p200">Skinbooster är en innovativ behandling som fungerar som fillers utan nålar för att förbättra hudens kvalitet, utan de vanliga bieffekterna som kommer med nålbehandlingar. Denna unika behandlingsmetod använder ett specialutvecklat serum, Cytocare 532, som innehåller hyaluronsyra och en rik blandning av 52 essentiella vitaminer och mineraler. Dessa ingredienser tränger djupt in i huden för att intensivt återfukta och stimulera kollagen- och elastinproduktionen, vilket är nödvändigt för att upprätthålla hudens fyllighet, elasticitet och fräschhet.</p>
-<p class="p200 mt-m">Under en Skinbooster-behandling används en roller i kombination med galvanisk ström för att föra ner serumet 3 mm under huden, vilket säkerställer att varje hudcell når och absorberar näringsämnena effektivt. Denna nålfria metod gör det möjligt att behandla även känsliga områden nära ögonen. Skinbooster är idealisk för att förbättra hudens utseende i ansiktet, halsen, dekolletaget och på händerna, och ger flera fördelar som minskning av mörka ringar, utjämning av fina linjer, förbättring av hudens fasthet och elasticitet samt en övergripande förbättring av hudens lyster och textur.</p>
+<p class="p200 mt-m">Under en Skinbooster-behandling används en roller i kombination med galvanisk ström för att slussa ner serumet 3 mm under huden, vilket säkerställer att varje hudcell når och absorberar näringsämnena effektivt. Denna nålfria metod gör det möjligt att behandla även känsliga områden nära ögonen. Skinbooster är idealisk för att förbättra hudens utseende i ansiktet, halsen, dekolletaget och på händerna, och ger flera fördelar som minskning av mörka ringar, utjämning av fina linjer, förbättring av hudens fasthet och elasticitet samt en övergripande förbättring av hudens lyster och textur.</p>
 <p class="p200 mt-m">För att uppnå de bästa resultaten rekommenderas en serie av tre behandlingar med en veckas mellanrum, efterföljt av underhållsbehandlingar var sjätte månad. Vi erbjuder även Multifuzion, en kombinationsbehandling som innefattar både microneedling och Skinbooster för en ännu djupare effekt och stimulans av hudens naturliga proteinproduktion, vilket är särskilt effektivt för att återfå en ungdomligare och fastare hud.</p>';
 
 $top_articles = array(
@@ -100,7 +100,7 @@ $top_articles = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Skinbooster';
-$treatment_areas_text = '<p class="p200">Skinbooster kan anvädnas på flera delar av kroppen för fina resultat..</p>';
+$treatment_areas_text = '<p class="p200">Skinbooster kan anvädnas på flera delar av kroppen för fina resultat.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
