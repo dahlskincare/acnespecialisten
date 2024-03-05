@@ -80,6 +80,71 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
+        image_alt: 'Områden',
+        image_title: 'Områden',
+        title: 'Områden',
+        description: '<p class="p200">Lägg till flera områden för endast 500 kronor styck.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '1x område',
+                image_title: '1x område',
+                title: '1x område',
+                duration: '30 min',
+                price: '2595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493?_gl=1*hq0vgy*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3NS41Ny4wLjA.',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 område.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '2x områden',
+                image_title: '2x områden',
+                title: '2x områden',
+                duration: '30 min',
+                price: '2995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-2181712?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '3x områden',
+                image_title: '3x områden',
+                title: '3x områden',
+                duration: '30 min',
+                price: '3595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-2181669?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 3 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '4x områden',
+                image_title: '4x områden',
+                title: '4x områden',
+                duration: '30 min',
+                price: '3995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-4x-omraden-2181612?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 4 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '5x områden',
+                image_title: '5x områden',
+                title: '5x områden',
+                duration: '30 min',
+                price: '4595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-5x-omraden-2181785?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 5 områden.'
+            ),
+        ),
+    ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
         image_alt: 'Problem',
         image_title: 'Problem',
         title: 'Problem',
@@ -293,71 +358,6 @@ $treatment_areas = array(
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493?_gl=1*hq0vgy*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3NS41Ny4wLjA.',
                 url_label: 'Boka',
                 url_title: 'Boka tid för tandköttsvisning'
-            ),
-        ),
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Områden',
-        image_title: 'Områden',
-        title: 'Områden',
-        description: '<p class="p200">Lägg till flera områden för endast 500 kronor styck.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '1x område',
-                image_title: '1x område',
-                title: '1x område',
-                duration: '30 min',
-                price: '2595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493?_gl=1*hq0vgy*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3NS41Ny4wLjA.',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 1 område.'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '2x områden',
-                image_title: '2x områden',
-                title: '2x områden',
-                duration: '30 min',
-                price: '2995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-2181712?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 2 områden.'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '3x områden',
-                image_title: '3x områden',
-                title: '3x områden',
-                duration: '30 min',
-                price: '3595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-2181669?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 3 områden.'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '4x områden',
-                image_title: '4x områden',
-                title: '4x områden',
-                duration: '30 min',
-                price: '3995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-4x-omraden-2181612?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 4 områden.'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '5x områden',
-                image_title: '5x områden',
-                title: '5x områden',
-                duration: '30 min',
-                price: '4595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-5x-omraden-2181785?_gl=1*w060ma*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzE3OS41My4wLjA.',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 5 områden.'
             ),
         ),
     ),
