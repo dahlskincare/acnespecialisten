@@ -235,7 +235,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 
-        url: '/problem/hudfornadringar/behandla-hudfornadringar/',
+        url: '/problem/hudforandringar/behandla-hudforandringar/',
         url_label: 'Läs mer om behandling av hudförändringar',
         url_title: 'Läs mer om behandling av hudförändringar',
     ),

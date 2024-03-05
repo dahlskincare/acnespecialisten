@@ -112,7 +112,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för leverfläckar',
 
-        url: '/problemhy/hudforandringar/',
+        url: '/problem/hudforandringar/',
         url_label: 'Läs mer om hudförändringar',
         url_title: 'Läs mer om hudförändringar',
     ),
@@ -132,7 +132,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för hudflikar',
 
-        url: '/problemhy/hudforandringar/',
+        url: '/problem/hudforandringar/',
         url_label: 'Läs mer om hudförändringar',
         url_title: 'Läs mer om hudförändringar',
     ),

@@ -366,7 +366,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling mot Rynkor och Fina Linjer',
 
-        url: '/mogen hy.php',
+        url: '/mogen-hy.php',
         url_label: 'Läs mer om mogen hy',
         url_title: 'Läs mer om mogen hy',
     ),
