@@ -174,10 +174,8 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
         url_label: 'Utforska produkter mot akne',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-
-        title: 'Produkter mot akne',
-        duration: '',
-        price: 'Pris från 1395 kr',
+        
+        price: 'Produkter mot akne - Pris från 1395 kr',
         content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri. För att hålla din akne under kontroll rekommenderar vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper dig att bli fri från aknen samt förhindra framtida utbrott.</p>',
     ),
 );
