@@ -74,6 +74,192 @@ $big_types = array(
         booking_url_label: 'Boka Milierbehandling',
         booking_url_title: 'Boka Milierbehandling',
     ),
+    new Service(
+        title: 'Ansiktsbehandling - Antistress',
+        duration: '40 min',
+        price: null,
+        content: '<p class="p200">Unna dig en paus från vardagens stress med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en riktligt återfuktande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Ansiktsbehandling - Antistress',
+        image_title: 'Ansiktsbehandling - Antistress',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'led' => 'LED'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1295 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '3295 kr',
+                savings: '1098 kr per behandling',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '4995 kr',
+                savings: '999 kr per behandling',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_5'
+            ),
+        )
+    ),
+    new Service(
+        title: 'Hudterapeutens val',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en sheetmask i kombination med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera exfoliering, vapozon, tömning av porer, brynformning och serum som är särskilt utvalda för dig.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Hudterapeutens val',
+        image_title: 'Hudterapeutens val',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '3995 kr',
+                savings: 'spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '5995 kr',
+                savings: 'spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5'
+            )
+        )
+    ),
+    new Service(
+        title: 'Peel, Boost & Glow',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">För en uppfriskande och lystergivande hudupplevelse, prova vår Peel, Boost & Glow behandling. Den här behandling är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Peel, Boost & Glow',
+        image_title: 'Peel, Boost & Glow',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '3995 kr',
+                savings: 'spara 790 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '5995 kr',
+                savings: 'spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_5'
+            )
+        )
+    ),
+    new Service(
+        title: 'Lyx',
+        duration: '90 min',
+        price: null,
+        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling. Denna omfattande behandling börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en vårdande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Ansiktsbehandling Lyx',
+        image_title: 'Ansiktsbehandling Lyx',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1995 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '4995 kr',
+                savings: 'spara 990 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '7995 kr',
+                savings: 'spara 1980 kr',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_5'
+            )
+        )
+    ),
+    new Service(
+        title: 'Porrengöring',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">Vår porrengöringsbehandling är speciellt framtagen för att effektivt rensa tilltäppta porer och främja en klarare hud. Behandlingen börjar med en exfolierande rengöring och mjukgörande ångbehandlingför att öppna upp och mjuka upp porerna. Noggrann manuell porrensning följer för att varsamt avlägsna orenheter och pormaskar. Vi avslutar med en lugnande ansiktsmask och lägger på en återfuktande kräm som är anpassad för din hudtyp.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Porrengöring',
+        image_title: 'Porrengöring',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 porrengöringsbehandling',
+                price: '1295 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
+            ),
+            new Procedure(
+                label: '3 porrengöringsbehandlingar',
+                price: '3295 kr',
+                savings: '1098 kr per besök',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
+            ),
+            new Procedure(
+                label: '5 porrengöringsbehandlingar',
+                price: '4995 kr',
+                savings: '999 kr per besök',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing'
+            )
+        )
+    ),
+
 );
 
 $bottom_articles = array(
