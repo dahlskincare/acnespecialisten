@@ -55,6 +55,8 @@ $top_articles = array(
     ),
 );
 
+$types_title = 'Våra bästa ansiktsbehandlingar i Stockholm';
+$types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar.';
 $big_types = array(
     new Service(
         title: 'Milierbehandling',
