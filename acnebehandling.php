@@ -49,7 +49,7 @@ $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickf
 
 $headline01 = "01. Identifiera din akne";
 
-$define_image = 'images/service-categories/large/konsultation.jpg';
+$define_image = '/bilder/behandlingar/424x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar akne?';
 $define_image_title = 'Hur vi tar bort och behandlar akne?';
 
@@ -535,7 +535,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
+                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>"/>
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
