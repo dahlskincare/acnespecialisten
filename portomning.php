@@ -144,7 +144,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter porrengöring',
+        title: 'Eftervård och underhåll efter portömning',
         image_small: null,
         image_large: null,
         image_alt: 'Eftervård och underhåll',
