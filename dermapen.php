@@ -97,14 +97,6 @@ $top_articles = array(
         content: '<p class="p200">En Dermapen-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
         <p class="p200 mt-m">Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål. Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter proceduren är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
     ),
-    'boost' => new Article(
-        title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
-        image_small: '/bilder/process/358x272/dermapen-process.webp',
-        image_large: '/bilder/process/872x456/dermapen-process.webp',
-        image_alt: 'Boosta Dermapen-behandling effekten med PRX-T33',
-        image_title: 'Dermapen-behandling effekten med PRX-T33',
-        content: '<p class="p200">För att ta din Dermapen-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
-    ),
 );
 
 $types_title = 'Hudproblem som Dermapen kan förbättra';
@@ -229,6 +221,27 @@ $types = array(
         url: '/dermapen-acne.php',
         url_label: 'Läs mer om Dermapen mot acne',
         url_title: 'Läs mer om Dermapen mot acne',
+    ),
+);
+
+$big_types = array(
+    new Service(
+        title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
+        duration: null,
+        price: null,
+        content: '<p class="p200">För att ta din Dermapen-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
+        image_title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+        consultation_url_label: 'Boka hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling+PRX-T33-Boost',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka tid för behandling',
+        icons: array(),
+        procedures: array()
     ),
 );
 
