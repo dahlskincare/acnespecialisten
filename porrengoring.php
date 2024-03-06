@@ -78,7 +78,8 @@ $big_types = array(
         title: 'Porrengöring',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">Vår porrengöringsbehandling börjar med en skonsam rengöring för att avlägsna smuts och talg. Därefter används en ångbehandling för att mjuka upp huden och underlätta borttagning av pormaskar. Med varsam teknik rengör terapeuten porerna djupt och effektivt.</p><p class="p200 mt-m">Behandlingen avslutas med en lugnande lermask som minskar rodnad och stramar åt porerna, följt av en återfuktande kräm. Denna process hjälper till att återställa hudens balans och ger en slät, ren yta.</p>',
+        content: '<p class="p200">Vår porrengöringsbehandling börjar med en skonsam rengöring för att avlägsna smuts och talg. Därefter används en ångbehandling för att mjuka upp huden och underlätta borttagning av pormaskar. Med varsam teknik rengör terapeuten porerna djupt och effektivt.</p>
+        <p class="p200 mt-m">Behandlingen avslutas med en lugnande lermask som minskar rodnad och stramar åt porerna, följt av en återfuktande kräm. Denna process hjälper till att återställa hudens balans och ger en slät, ren yta.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Porrengöring',
