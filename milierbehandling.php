@@ -58,7 +58,7 @@ $top_articles = array(
 $types_title = null;
 $types_description = null;
 $big_types = array(
-    'process' => new Service(
+    new Service(
         title: 'Milierbehandling',
         duration: '60 min',
         price: '1295 kr',
