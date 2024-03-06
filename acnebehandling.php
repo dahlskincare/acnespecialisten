@@ -49,6 +49,10 @@ $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickf
 
 $headline01 = "01. Identifiera din akne";
 
+$define_image = '/bilder/behandlingar/872x456/gratis-hudkonsultation.webp';
+$define_image_alt = 'Hur vi tar bort och behandlar akne?';
+$define_image_title = 'Hur vi tar bort och behandlar akne?';
+
 $define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg för varje återbesök. Du kommer att få en personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
@@ -61,8 +65,8 @@ $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi
 
 $services = array(
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/behandlingar/872x456/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
 
@@ -162,8 +166,8 @@ $headline03 = "03. Förebygg akne";
 
 $products = array(
     new Product(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/produkter.webp',
+        image_large: '/bilder/behandlingar/872x456/produkter.webp',
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
 
@@ -176,6 +180,10 @@ $products = array(
 );
 
 $headline04 = '04. Reparera post-akne (Acneärr)';
+
+$repair_image_small = '/bilder/behandlingar/358x274/laser.webp';
+$repair_image_large = '/bilder/behandlingar/872x456/laser.webp';
+
 $repair_content = '<p class="p200">När din akne har behandlats och aknen försvunnit, tar vi itu med akneärren som den lämnat bakom sig. På AcneSpecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen läkningsprocess, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort acneärr och njuta av en problemfri hy.</p>';
 
 $repair_url = 'behandla-acnearr.php';
@@ -531,6 +539,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
+                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
@@ -553,6 +562,11 @@ $brands_url_title = "Varumärken för Aknebehandling";
                 <?php } ?>
                 <section id="repair">
                     <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
+                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
+                    </picture>
                     <div class="mt-xl"><?php echo $repair_content ?></div>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">
