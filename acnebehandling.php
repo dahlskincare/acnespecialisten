@@ -16,7 +16,7 @@ $image_alt = 'Bild som illustrerar akne';
 $image_title = 'Akne';
 
 $title = 'Aknebehandling';
-$description = 'Här har vi samlat de mest effektiva metoderna för aknebehandling som hjälper dig att effektivt få bort akne oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken aknebehandling som bäst passar din hudtyp för att få bort akne? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
+$description = 'Här har vi samlat de mest effektiva metoderna för aknebehandling som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp för att få bort akne? Boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne';
 $booking_link_title = 'Boka behandling';
