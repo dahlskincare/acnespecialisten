@@ -359,7 +359,7 @@ $categories = array(
                     <div>
                         <h2 class="h600 l10n">Gratis hudkonsultation</h2>
                         <h3 class="mt-m h200 l10n">Längd: 20 min</h3>
-                        <p class="mt-m p200 l10n">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
+                        <p class="mt-m p200 l10n">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.</p>
                         <div class="mt-xl">
                             <div class="columns is-2 is-variable">
                                 <div class="column">
