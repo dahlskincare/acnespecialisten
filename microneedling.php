@@ -97,59 +97,10 @@ $top_articles = array(
         content: '<p class="p200">Microneedling är en avancerad hudförnyande behandlingsmetod som kickstartar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. När du anländer till en av våra kliniker för behandling, kommer din hud först att rengöras grundligt för att avlägsna makeup och orenheter.</p>
         <p class="p200 mt-m">Vår speciellt utformade microneedling maskin använder en serie fina, sterila nålar för att skapa mikroskopiska kanaler i huden. Detta initierar hudens egen reparationsmekanism och leder till ökad elastin- och kollagenproduktion. Under behandlingen använder vi också näringsrika serum som slussas in kanalerna i hudenf för att maximera hudens upptagningsförmåga och stimulera förnyelseprocessen. Efter behandlingen kan du förvänta dig en viss rodnad, men detta är normalt och indikerar att hudens läkningsprocess har börjat. Med tiden kommer du att märka en förbättrad hudtextur, minskning av fina linjer och en övergripande mer strålande hy.</p>',
     ),
-    'boost' => new Article(
-        title: 'Boosta din Microneedling med PRX-T33-behandling',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Boosta Microneedling effekten med PRX-T33',
-        image_title: 'Boosta Microneedling effekten med PRX-T33',
-        content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
-            <p class="p200 mt-m">PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en omfattande minskning av fina linjer och ojämnheter.</p>',
-    ),
 );
 
 $types_title = 'Microneedling efter hudproblem';
 $types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
-
-$big_types = array(
-    new Service(
-        title: 'Klassisk',
-        duration: '50 min',
-        price: null,
-        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring som exfolierar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en lättare porrengöring och brynplockning. Slutligen appliceras en lugnande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Klassisk',
-        image_title: 'Klassisk',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '995 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '2595 kr',
-                savings: '799 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
-            )
-        )
-    ),
-);
 $types = array(
     new Service(
         title: 'Microneedling mot Acneärr',
@@ -272,6 +223,55 @@ $types = array(
         url_title: 'Läs mer om microneedling mot acne',
     ),
 );
+$big_types = array(
+    new Service(
+        title: 'Klassisk',
+        duration: '50 min',
+        price: null,
+        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring som exfolierar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en lättare porrengöring och brynplockning. Slutligen appliceras en lugnande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Klassisk',
+        image_title: 'Klassisk',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '995 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '2595 kr',
+                savings: '865 kr per behandling',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '2595 kr',
+                savings: '799 kr per behandling',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
+            )
+        )
+    ),
+);
+
+'boost' => new Article(
+        title: 'Boosta din Microneedling med PRX-T33-behandling',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Boosta Microneedling effekten med PRX-T33',
+        image_title: 'Boosta Microneedling effekten med PRX-T33',
+        content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
+            <p class="p200 mt-m">PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en omfattande minskning av fina linjer och ojämnheter.</p>',
+    ),
 
 $treatment_areas_title = 'Microneedling efter område';
 $treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för olika delar av ansiktet och kroppen.</p>';
