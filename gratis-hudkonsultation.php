@@ -333,9 +333,9 @@ $categories = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <title class="l10n">Gratis Hudkonsultation | AcneSpecialisten</title>
-    <meta name="description" content="Upptäck fördelarna med en personlig hudkonsultation hos AcneSpecialisten. Våra erfarna hudterapeuter analyserar din hudtyp och skräddarsyr en behandlingsplan just för dig." class="l10n">
-    <meta name="title" content="Gratis Hudkonsultation hos AcneSpecialisten - Din väg till en bättre hud" class="l10n">
+    <title class="l10n">Gratis hudkonsultation i Stockholm eller online</title>
+    <meta name="description" content="Upptäck fördelarna med en personlig hudkonsultation, våra erfarna hudterapeuter analyserar din hudtyp och skräddarsyr en behandlingsplan just för dig." class="l10n">
+    <meta name="title" content="Gratis hudkonsultation i Stockholm eller online" class="l10n">
     <meta name="keywords" content="hudkonsultation, AcneSpecialisten, gratis hudanalys, personlig hudvårdsplan, hudterapeuter, hudvård, problemhy, skräddarsydd behandling" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />

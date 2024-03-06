@@ -2,9 +2,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Akne - Orsaker, Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om akne, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'akne, aknebehandling, orsaker till akne, förebygga akne, ta bort akne, vuxenakne, tonårsakne, akneärr, finnar, pormaskar';
+$seo_title = 'Aknebehandlingar som effektivt behandlar och förebygger akne';
+$seo_description = 'Boka en aknebehandling i Stockholm! Vi erbjuder ✓Kostnadsfri konsultation ✓Skräddarsydd behandling ✓Personlig hudvårdsrutin. Behandla akne hos oss →';
+$seo_keywords = 'akne, aknebehandling, ';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -366,46 +366,44 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $brands = array(
     new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
+        label: 'Alma',
+        image: 'bilder/logotyper/alma.svg',
+        image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+        image_alt: 'Alma logotyp',
+        url: '/varumarken/alma',
+        url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+    ),
+    new Brand(
+        label: 'Alma Hybrid',
+        image: 'bilder/logotyper/alma-hybrid.svg',
+        image_title: 'Alma Hybrid - CO2 laser',
+        image_alt: 'Alma Hybrid logotyp',
+        url: '/alma-hybrid-co2-laser.php',
+        url_title: 'Läs mer om Alma Hybrid CO2 laser',
+    ),
+    new Brand(
+        label: 'Harmony XL Pro',
+        image: 'bilder/logotyper/harmony-xl-pro.png',
+        image_title: 'Harmony XL Pro - Laser & IPL',
+        image_alt: 'Harmony XL Pro logotyp',
+        url: '/alma-harmony-xl-pro.php',
+        url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
     ),
     new Brand(
         label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen',
+        image: 'bilder/logotyper/dermapen.svg',
+        image_alt: 'Dermapen Brand Logo',
+        image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+        url: '/dermapen.php',
+        url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
     ),
     new Brand(
-        label: 'CryoPen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'CryoPen',
-        image_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRX-T33',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: 'images/brands/infuzion.svg',
-        image_alt: 'Infuzion',
-        image_title: 'Infuzion',
+        label: 'Skin Tech',
+        image: 'bilder/logotyper/skin-tech.svg',
+        image_title: 'Skin Tech - Professionella kemiska peelingar',
+        image_alt: 'Skin Tech logotyp',
+        url: '/varumarken/skin-tech',
+        url_title: 'Läs mer om Skin Techs kemiska peelingar',
     ),
 );
 
