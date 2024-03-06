@@ -142,7 +142,7 @@ $services = array(
         title: 'Effektiv microneedling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('fornyande' => 'Förnyande', 'maskin' => 'Djupgående', 'multi-funktion' => 'Minskning av ärr'),
+        icons: array('maskin' => 'Djupgående', 'multi-funktion' => 'Minskning av ärr'),
         content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
