@@ -110,6 +110,46 @@ $top_articles = array(
 
 $types_title = 'Microneedling efter hudproblem';
 $types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
+
+$big_types = array(
+    new Service(
+        title: 'Klassisk',
+        duration: '50 min',
+        price: null,
+        content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring som exfolierar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en lättare porrengöring och brynplockning. Slutligen appliceras en lugnande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Klassisk',
+        image_title: 'Klassisk',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '995 kr',
+                savings: null,
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_1'
+            ),
+            new Procedure(
+                label: '3 behandlingar',
+                price: '2595 kr',
+                savings: '865 kr per behandling',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
+            ),
+            new Procedure(
+                label: '5 behandlingar',
+                price: '2595 kr',
+                savings: '799 kr per behandling',
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
+            )
+        )
+    ),
+);
 $types = array(
     new Service(
         title: 'Microneedling mot Acneärr',
