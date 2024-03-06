@@ -39,7 +39,7 @@ $about_title = 'Hur vi behandlar och tar bort acneärr?';
 
 $about_content = '<p class="p200">Att behandla och minska synligheten av acneärr kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera acneärr. Med vår kostnadsfria hudkonsultation identifierar vi skadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att effektivt behandla och reducera ärrvävnaden för att återställa hudens jämna yta. Efter att vi har behandlat de direkta ärrvävnaderna hjälper vi dig med en anpassad hudvårdsrutin som kan bidra till att förbättra hudens textur och elasticitet över tid. Om du också har aktiva akneutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlad akne kan bidra till ytterligare ärrbildning. Vårt team på Acnespecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
+    <p class="p200 mt-xl">Vi behandlar och tar bort ärrvävnaden effektivt för att återställa hudens jämna yta. Om du också har aktiva akneutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlad akne kan bidra till ytterligare ärrbildning. Vårt team på Acnespecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 
 $headline01 = "01. Identifiera dina acneärr";
 
