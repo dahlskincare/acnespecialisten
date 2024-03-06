@@ -55,8 +55,6 @@ $top_articles = array(
     ),
 );
 
-$types_title = null;
-$types_description = null;
 $big_types = array(
     new Service(
         title: 'Milierbehandling',
