@@ -485,10 +485,41 @@ $categories = array(
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
                 </section>
                 <section id="faq" class="large-margin">
+                <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Frågor & svar</h2>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
-                </section>
+                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
+                        <span class="l10n">Se alla frågor</span>
+                        <?php icon('navigate-next') ?>
+                    </a>
+                </div>
+                <?php $faq_categories = array(
+                        'Generellt' => array(
+                            new Question(
+                                title: 'Hur länge har AcneSpecialisten funnits?',
+                                text: '<p class="p200">AcneSpecialisten har varit en ledande aktör inom hudvård sedan 1994, och under våra 30 år har vi hjälpt hundratusentals personer att övervinna deras hudproblem. Vårt engagemang och långvariga erfarenhet gör oss till det självklara valet för alla som söker en lösning på problemhy. Boka en kostnadsfri hudkonsultation för att inleda din resa mot ett liv utan hudproblem.</p>'
+                            ),
+                            new Question(
+                                title: 'Vad erbjuder AcneSpecialisten?',
+                                text: '<p class="p200">På AcneSpecialisten är vårt främsta mål att leverera hållbara resultat som helt eliminerar ditt hudproblem. Vi står ut från traditionella skönhetssalonger genom att agera som en specialiserad hudvårdsklinik med fokus på behandling av en mängd hudproblem. Vår expertis och behandlingsmetoder är anpassade för att effektivt adressera och lösa specifika hudåkommor, oavsett deras art eller omfattning.</p>'
+                            ),
+                            new Question(
+                                title: 'Kan alla besöka AcneSpecialisten?',
+                                text: '<p class="p200">Absolut! Vi välkomnar alla som upplever hudproblem, oavsett om de är stora eller små. Utöver att behandla hudåkommor erbjuder vi behandlingar för dem som önskar en huduppfräschning eller permanent hårborttagning. Från våra tidiga dagar med fokus på aknebehandlingar har vi utvidgat vårt erbjudande till att omfatta de flesta vanliga hudproblem – och lite till. Vår dörr står öppen för alla.</p>'
+                            ),
+                            new Question(
+                                title: 'Är ni hudläkare?',
+                                text: '<p class="p200">Vi på AcneSpecialisten är certifierade hudterapeuter med SHR-utbildning, specialiserade på akne och andra hudproblem, inte hudläkare. Med över 30 års erfarenhet i branschen har vi omfattande kunskap om och lösningar på akne, rosacea, pormaskar, pigmentfläckar, och mer. Vårt team är här för att erbjuda professionella råd och behandlingar baserade på djupgående kunskap om hudvård.</p>'
+                            ),
+                            new Question(
+                                title: 'Vad gör AcneSpecialisten unikt?',
+                                text: '<p class="p200">Det som särskiljer oss på AcneSpecialisten är att du vid ditt första besök tilldelas en personlig hudterapeut som stöttar dig genom hela din behandlingsprocess, från start till mål. Din terapeut utformar en behandlingsplan skräddarsydd för just din hudtyp och justerar sedan denna plan löpande för att optimalt passa din huds unika behov. Din personliga terapeut är alltid tillgänglig för frågor eller funderingar via en chatt i din profil, vilket garanterar en kontinuerlig, personlig och professionell service.</p>'
+                            ),
+                        ),
+
+                  );
+                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
+            </section>
                 <!--Hudguide-->
                 <section id="specialister" class="large-margin">
                     <div class="flex-row justify-space-between">
