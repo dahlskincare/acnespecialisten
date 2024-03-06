@@ -61,7 +61,7 @@ $big_types = array(
     'process' => new Service(
         title: 'Milierbehandling',
         duration: '60 min',
-        price: null,
+        price: '1295 kr',
         content: '<p class="p200">Vi inleder med en grundlig rengöring för att förbereda huden. Istället för traditionell exfoliering som kan vara för hård för huden med milier, använder vi skonsamma metoder för att lösgöra de små cystorna. Därefter tillämpar vi specialtekniker för att försiktigt avlägsna milier utan att skada huden. Om det finns ett behov av porrengöring utförs detta med stor omsorg för att inte irritera huden ytterligare. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
         image_small: null,
         image_large: null,
