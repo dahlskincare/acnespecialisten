@@ -382,7 +382,7 @@ $categories = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     <h1 class="h600 l10n">Gratis hudkonsultation</h1>
                     <h3 class="mt-xs h200 l10n">Längd: 20 min</h3>
-                    <p class="mt-xs p200">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
+                    <p class="mt-xs p200">Vår kostnadsfria hudkonsultation passar alla. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.</p>
                     <div class="mt-xl">
                         <div class="columns is-mobile">
                             <div class="column is-half">
@@ -447,7 +447,7 @@ $categories = array(
                         </div>
                     </div>
                     <div class="mt-xl l10n">
-                        <p class="p200">Upptäck nyckeln till en strålande och frisk hy med vår skräddarsydda hudkonsultation på AcneSpecialisten. Denna kostnadsfria tjänst är inte bara en analys av din hudtyp, utan ett omfattande första steg för att skräddarsy en behandlingsplan som är rätt för dig. Under konsultationen utforskar vi din hud i detalj - vi identifierar din hudtyp, eventuella hudproblem som acne eller känslighet, och skräddarsyr en behandling som är effektiv och anpassad för just dig.</p>
+                        <p class="p200">Upptäck nyckeln till en strålande och frisk hy med vår skräddarsydda hudkonsultation på AcneSpecialisten. Denna kostnadsfria tjänst är inte bara en analys av din hudtyp, utan ett omfattande första steg för att skräddarsy en behandlingsplan som är rätt för dig. Under konsultationen utforskar vi din hud i detalj - vi identifierar din hudtyp, eventuella hudproblem och skräddarsyr en behandling som är effektiv och anpassad för just dig.</p>
                         <p class="p200 mt-m">Vår expertis sträcker sig bortom grundläggande hudvård. Vi tar en helhetssyn på din hudhälsa och erbjuder råd och lösningar som omfattar allt från våra beprövade metoder till de senaste innovationerna inom hudvård. Vi introducerar dig till de mest effektiva produkterna och varumärkena i vår portfolio, noggrant utvalda för att matcha dina specifika behov.</p>
                         <p class="p200 mt-m">Boka din gratis hudkonsultation idag och ta det första steget mot en klarare, friskare hy. Kontakta oss på AcneSpecialisten eller använd vårt smidiga bokningssystem för att hitta en tid som passar dig. Vår dedikerade personal väntar på att ge dig en personlig upplevelse och hjälpa dig på din resa mot en problemfri hy.</p>
                     </div>
