@@ -82,6 +82,16 @@ $top_articles = array(
         content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
             <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
     ),
+    'process' => new Article(
+        title: 'Hur går en portömning till?',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Hur går en portömning till?',
+        image_title: 'Hur går en portömning till?',
+        content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
+        <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
+        <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
+    ),
 );
 
 $treatment_areas_title = 'Behandlingsområden för portömning';
@@ -133,16 +143,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'process' => new Article(
-        title: 'Hur går en portömning till?',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Hur går en portömning till?',
-        image_title: 'Hur går en portömning till?',
-        content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
-        <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
-        <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
-    ),
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter porrengöring',
         image_small: null,
@@ -153,32 +153,6 @@ $bottom_articles = array(
         <p class="p200 mt-m">Bra hudvård är anpassad efter dig och vi på Acnespecialisten strävar efter att skräddarsy rekommendationer som kompletterar din specifika hudtyp och behov. Genom att använda rätt hudvårdsprodukter i din dagliga rutin kan du inte bara upprätthålla de positiva effekterna av portömningen utan också stärka din hud mot framtida problem. Vi är dedikerade till att stötta dig genom hela din hudvårdsresa och ser fram emot att hjälpa dig uppnå och bibehålla en klar och hälsosam hud. Låt Acnespecialisten vara din guide och stöd på vägen mot en sund hudvårdsvana.</p>',
     ),
 );
-
-$treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-            url_label: 'Boka gratis konsultation',
-            url_title: 'Boka din kostnadsfria hudkonsultation idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-            url: 'problem/pormaskar/pormaskbehandling',
-            url_label: 'Se portömning',
-            url_title: 'Utforska våra skräddarsydda portömning'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya pormaskar och hålla din hud i balans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-            url_label: 'Se produkter',
-            url_title: 'Hitta de bästa produkterna för att förebygga pormaskar'
-      ),
-
-);
-$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår pormaskbehandling</a>';
 
 $results = array(
     new ResultCustomer(
@@ -780,17 +754,6 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="approach">
-                    <h2 class="h500 l10n">Metoden</h2>
-                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                    <div class="columns is-variable is-2">
-                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                            echo '<div class="column">';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                            echo '</div>';
-                        } ?>
-                    </div>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
