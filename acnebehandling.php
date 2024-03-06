@@ -72,14 +72,14 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Akne',
         duration: '60 minuter',
-        price: 'Pris från 799 kr',
+        price: 'Pris från 1295 kr',
         content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup portömning där inflammationer och akne kläms ut. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
 
-        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_facial',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
 
@@ -99,7 +99,7 @@ $services = array(
         title: 'Laserbehandling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('precision' => 'Precision', 'icke-invasiv' => 'Icke-invasiv', 'snabb' => 'Snabb', 'effektiv' => 'Effektiv'),
+        icons: array(),
         content: '<p class="p200">Laserbehandling mot akne fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar talgproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
@@ -123,7 +123,7 @@ $services = array(
         title: 'Kemisk peeling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('exfolierande' => 'Exfolierande'),
+        icons: array(),
         content: '<p class="p200">Kemisk peeling är en av de mest effektiva metoderna för att behandla akne. På Acnespecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akneärr och att förbättra hudens textur och utseende.</p>',
         consultation_url: 'ghttps://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
@@ -146,7 +146,7 @@ $services = array(
         title: 'Effektiv microneedling mot akne',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array('maskin' => 'Djupgående', 'multi-funktion' => 'Minskning av ärr'),
+        icons: array(),
         content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
