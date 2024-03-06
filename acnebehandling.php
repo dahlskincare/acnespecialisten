@@ -36,7 +36,7 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi tar bort och behandlar akne?';
+$about_title = 'Behandla din akne hos oss';
 
 $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
