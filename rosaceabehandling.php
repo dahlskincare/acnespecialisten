@@ -45,7 +45,7 @@ $about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt
 
 $headline01 = "01. Identifiera din rosacea";
 
-$define_image = '';
+$define_image = '/bilder/behandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar rosacea?';
 $define_image_title = 'Hur vi tar bort och behandlar rosacea?';
 
@@ -62,8 +62,8 @@ $treat_content = '<p class="p200">När din typ av rosacea har identifierats, på
 
 $services = array(
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/behandlingar/872x456/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Rosacea på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot rosacea utförd på Acnespecialisten',
 
@@ -89,8 +89,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/ipl.webp',
+        image_large: '/bilder/behandlingar/872x456/ipl.webp',
         image_title: 'Klient som genomgår IPL-behandling mot rosacea',
         image_alt: 'Bild av IPL-behandling mot rosacea hos Acnespecialisten',
         title: 'Effektiv IPL-behandling mot Rosacea',
@@ -116,8 +116,8 @@ $headline03 = "03. Förebygg rosacea";
 
 $products = array(
     new Product(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/produkter.webp',
+        image_large: '/bilder/behandlingar/872x456/produkter.webp',
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot rosacea',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot rosacea',
 
@@ -130,6 +130,9 @@ $products = array(
 );
 
 $headline04 = '04. Behandla Ytliga Blodkärl';
+
+$repair_image_small = '/bilder/behandlingar/358x274/ipl.webp';
+$repair_image_large = '/bilder/behandlingar/872x456/ipl.webp';
 
 $repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På Acnespecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
@@ -493,6 +496,11 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                 <?php } ?>
                 <section id="repair">
                     <h2 class="h500 l10n"><?php echo $headline04 ?></h2>
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
+                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
+                    </picture>
                     <div class="mt-xl"><?php echo $repair_content ?></div>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button compact text b200 is-hidden-mobile">

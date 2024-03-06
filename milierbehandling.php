@@ -87,25 +87,6 @@ $bottom_articles = array(
     ),
 );
 
-$treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
-
-        url_label: 'Boka gratis konsultation',
-        url: 'gratis-hudkonsultation.php',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
-
-        url_label: 'Se milierbehandlingar',
-        url: 'milierbehandling.php',
-        url_title: 'Utforska våra skräddarsydda behandlingar för milier'
-    ),
-);
-
 $results = array(
     new ResultCustomer(
         url: '',
@@ -701,17 +682,6 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="approach">
-                    <h2 class="h500 l10n">Metoden</h2>
-                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                    <div class="columns is-variable is-2">
-                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                            echo '<div class="column">';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                            echo '</div>';
-                        } ?>
-                    </div>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>

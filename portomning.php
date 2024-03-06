@@ -75,8 +75,8 @@ $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpass
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför portömning',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/problemhy-forberedelser.webp',
+        image_large: '/bilder/process/872x456/problemhy-forberedelser.webp',
         image_alt: 'Förberedelser inför portömning',
         image_title: 'Förberedelser inför portömning',
         content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
@@ -84,8 +84,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går en portömning till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/problemhy-process.webp',
+        image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Hur går en portömning till?',
         image_title: 'Hur går en portömning till?',
         content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
@@ -145,8 +145,8 @@ $treatment_areas = array(
 $bottom_articles = array(
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter portömning',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
+        image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
         content: '<p class="p200">Efter en noggrann portömning hos Acnespecialisten är rätt eftervård avgörande för att upprätthålla resultaten och främja hudens läkning. Vi rekommenderar att efter behandlingen fortsätter du med en daglig hudvårdsrutin som omfattar produkter särskilt anpassade för att vårda och balansera porerna efter tömning. För detta ändamål rekommenderar vi produkter från DAHL Skincare, som stöder balansen i din hud och arbetar för att avlägsna och minimera pormaskar.</p>

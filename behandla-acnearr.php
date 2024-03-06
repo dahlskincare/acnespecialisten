@@ -43,6 +43,10 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av acneär
 
 $headline01 = "01. Identifiera dina acneärr";
 
+$define_image = '/bilder/behandlingar/872x456/gratis-hudkonsultation.webp';
+$define_image_alt = 'Hur vi tar bort och behandlar acenärr?';
+$define_image_title = 'Hur vi tar bort och behandlar acneärr?';
+
 $define_image_alt = 'Hur vi behandlar och tar bort acneärr?';
 $define_image_title = 'Hur vi behandlar och tar bort acneärr?';
 
@@ -54,9 +58,6 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla acneärr";
 
-$treat_image_small = 'https://via.placeholder.com/358x274.jpg';
-$treat_image_large = 'https://via.placeholder.com/872x456.jpg';
-
 $treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina acneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
 
 $treat_url = 'gratis-hudkonsultation.php';
@@ -67,8 +68,8 @@ $treat_url_title = 'klicka här för att se våra ärrbehandlingar';
 $services = array(
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/laser-mot-hudproblem.webp',
+        image_large: '/bilder/behandlingar/872x456/laser-mot-hudproblem.webp',
         image_title: 'Kund som genomgår laserbehandling mot acneärr',
         image_alt: 'Bild av laserbehandling mot acneärr hos Acnespecialisten',
         title: 'Effektiv laserbehandling mot acneärr',
@@ -89,8 +90,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/kemisk-peeling.webp',
+        image_large: '/bilder/behandlingar/872x456/kemisk-peeling.webp',
         image_title: 'Utförande av kemisk peelingbehandling för acneärr',
         image_alt: 'Bild på kemisk peelingbehandling mot acneärr hos Acnespecialisten',
         title: 'Kemisk peeling mot acneärr',
@@ -111,8 +112,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/behandlingar/358x274/microneedling.webp',
+        image_large: '/bilder/behandlingar/872x456/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för acneärr',
         image_alt: 'Bild på microneedlingbehandling mot acneärr hos Acnespecialisten',
         title: 'Effektiv microneedling mot acneärr',
@@ -483,6 +484,7 @@ $brands_url_title = "Varumärken för behandling av acneärr";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
+                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
