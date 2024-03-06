@@ -49,7 +49,7 @@ $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickf
 
 $headline01 = "01. Identifiera din akne";
 
-$define_image = '/bilder/behandlingar/424x456/gratis-hudkonsultation.webp';
+$define_image = '/bilder/behandlingar/424x324/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar akne?';
 $define_image_title = 'Hur vi tar bort och behandlar akne?';
 
@@ -174,7 +174,7 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
         url_label: 'Utforska hudvårdsprodukter mot akne',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-        price: 'Hudvårdsprodukter mot akne - Pris från 1395 kr',
+        price: 'Produkter mot akne - Pris från 1395 kr',
         content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri. För att hålla din akne under kontroll rekommenderar vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper dig att bli fri från aknen samt förhindra framtida utbrott.</p>',
     ),
 );
