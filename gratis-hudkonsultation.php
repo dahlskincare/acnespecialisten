@@ -495,24 +495,20 @@ $categories = array(
                 <?php $faq_categories = array(
                         'Generellt' => array(
                             new Question(
-                                title: 'Hur länge har AcneSpecialisten funnits?',
-                                text: '<p class="p200">AcneSpecialisten har varit en ledande aktör inom hudvård sedan 1994, och under våra 30 år har vi hjälpt hundratusentals personer att övervinna deras hudproblem. Vårt engagemang och långvariga erfarenhet gör oss till det självklara valet för alla som söker en lösning på problemhy. Boka en kostnadsfri hudkonsultation för att inleda din resa mot ett liv utan hudproblem.</p>'
+                                title: 'Hur bokar jag en hudanalys?',
+                                text: '<p class="p200">För att boka en hudanalys kan du välja mellan att besöka en av våra kliniker i Stockholm eller boka en tid online. När din bokning är bekräftad, kommer du att matchas med en personlig hudterapeut – tänk på dem som din hudvårdspersonliga tränare. Under konsultationen kommer du att få ta bilder av din hud, diskutera dina hudproblem och mål, och tillsammans med din terapeut utarbeta en skräddarsydd behandlingsplan. Denna initiala konsultation är helt kostnadsfri, förutsatt att du dyker upp på din bokade tid. Det är viktigt att betona att det inte finns något köptvång; syftet är att erbjuda dig en personlig åtgärdsplan.</p>'
                             ),
                             new Question(
-                                title: 'Vad erbjuder AcneSpecialisten?',
-                                text: '<p class="p200">På AcneSpecialisten är vårt främsta mål att leverera hållbara resultat som helt eliminerar ditt hudproblem. Vi står ut från traditionella skönhetssalonger genom att agera som en specialiserad hudvårdsklinik med fokus på behandling av en mängd hudproblem. Vår expertis och behandlingsmetoder är anpassade för att effektivt adressera och lösa specifika hudåkommor, oavsett deras art eller omfattning.</p>'
+                                title: 'Varför är konsultationen kostnadsfri?',
+                                text: '<p class="p200">Vi erbjuder gratis konsultationer för att göra professionell hudvård tillgänglig för alla, utan att du behöver binda dig till något. Detta innovativa tillvägagångssätt har varit en del av vår filosofi i nästan 30 år, vilket gör oss till pionjärer inom branschen för att tillhandahålla denna service.</p>'
                             ),
                             new Question(
-                                title: 'Kan alla besöka AcneSpecialisten?',
-                                text: '<p class="p200">Absolut! Vi välkomnar alla som upplever hudproblem, oavsett om de är stora eller små. Utöver att behandla hudåkommor erbjuder vi behandlingar för dem som önskar en huduppfräschning eller permanent hårborttagning. Från våra tidiga dagar med fokus på aknebehandlingar har vi utvidgat vårt erbjudande till att omfatta de flesta vanliga hudproblem – och lite till. Vår dörr står öppen för alla.</p>'
+                                title: 'Måste jag köpa något under eller efter konsultationen?',
+                                text: '<p class="p200">Absolut inte. Det finns inget köptvång eller dolda avgifter associerade med vår konsultation. Mötet är helt och hållet gratis, där du får en personanpassad rekommendation och behandlingsplan utifrån din hudanalys.</p>'
                             ),
                             new Question(
-                                title: 'Är ni hudläkare?',
-                                text: '<p class="p200">Vi på AcneSpecialisten är certifierade hudterapeuter med SHR-utbildning, specialiserade på akne och andra hudproblem, inte hudläkare. Med över 30 års erfarenhet i branschen har vi omfattande kunskap om och lösningar på akne, rosacea, pormaskar, pigmentfläckar, och mer. Vårt team är här för att erbjuda professionella råd och behandlingar baserade på djupgående kunskap om hudvård.</p>'
-                            ),
-                            new Question(
-                                title: 'Vad gör AcneSpecialisten unikt?',
-                                text: '<p class="p200">Det som särskiljer oss på AcneSpecialisten är att du vid ditt första besök tilldelas en personlig hudterapeut som stöttar dig genom hela din behandlingsprocess, från start till mål. Din terapeut utformar en behandlingsplan skräddarsydd för just din hudtyp och justerar sedan denna plan löpande för att optimalt passa din huds unika behov. Din personliga terapeut är alltid tillgänglig för frågor eller funderingar via en chatt i din profil, vilket garanterar en kontinuerlig, personlig och professionell service.</p>'
+                                title: 'Vad är skillnaden mellan en konsultation på klinik och en online?',
+                                text: '<p class="p200">Det finns ingen skillnad i kvaliteten på service mellan en konsultation på klinik och en online. Vi har infört onlinekonsultationer för att kunna erbjuda vår expertis till kunder över hela Sverige. Oavsett vilket alternativ du väljer, garanterar vi en personlig och professionell service. För att genomföra eventuella behandlingar, välkomnar vi dig sedan till en av våra kliniker i Stockholm.</p>'
                             ),
                         ),
 
