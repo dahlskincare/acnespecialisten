@@ -666,6 +666,7 @@ $related_problems = array(
             url_title: 'Finnar'
       ),
 );
+
 $brands = array(
       new Brand(
             label: 'Alma Rejuve Dye-VL',

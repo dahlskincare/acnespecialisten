@@ -282,83 +282,80 @@ $skinguide_url_label = "Läs fler guider";
 $skinguide_url_title = "Läs fler guider om behandling av acneärr";
 
 $specialists = array(
-    new Specialist(
-        name: 'Cassandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_title: 'Cassandra Lindberg, Hudterapeut hos Acnespecialisten sedan 2015',
-        image_alt: 'Cassandra Lindberg - Erfaren Hudterapeut hos Acnespecialisten'
-    ),
-    new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_title: 'Veronika Benedik, Erfaren Hudterapeut på Acnespecialisten',
-        image_alt: 'Veronika Benedik, hudterapeut sedan 1999 på Acnespecialisten'
-    ),
-    new Specialist(
-        name: 'Jennifer Eklund',
-        title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_title: 'Amira Maqboul, Hudterapeut på Acnespecialisten',
-        image_alt: 'Amira Maqboul, hudterapeut sedan 2017 på Acnespecialisten'
-
-    ),
-    new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_title: 'Vilma Libom, Hudterapeut på Acnespecialisten',
-        image_alt: 'Vilma Libom, hudterapeut sedan 2019 på Acnespecialisten'
-    )
+      new Specialist(
+            name: 'Cazzandra Lindberg',
+            title: 'Hudterapeut med fokus på acneärr sedan 2015',
+            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i acneärrbehandling',
+            image_title: 'Cazzandra Lindberg - Expert på acneärrbehandling'
+      ),
+      new Specialist(
+            name: 'Veronika Benedik',
+            title: 'Hudterapeut med specialisering i acneärr sedan 1999',
+            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på acneärr',
+            image_title: 'Veronika Benedik - Specialist inom acneärrvård'
+      ),
+      new Specialist(
+            name: 'Amira Maqboul',
+            title: 'Hudterapeut med inriktning mot acneärr sedan 2017',
+            image: 'images/specialists/312x312/hudterapeut-amira.webp',
+            image_alt: 'Amira Maqboul, hudterapeut specialiserad på acneärrhantering',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på acneärr'
+      ),
+      new Specialist(
+            name: 'Vilma Libom',
+            title: 'Hudterapeut med specialisering i acneärr sedan 2019',
+            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot acneärrbehandling',
+            image_title: 'Vilma Libom - Expert inom acneärrbehandling'
+      )
 );
 
 $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "acneärr Specialiserade Hudterapeuter";
 
 $brands = array(
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
-    new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen',
-    ),
-    new Brand(
-        label: 'CryoPen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'CryoPen',
-        image_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRX-T33',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: 'images/brands/infuzion.svg',
-        image_alt: 'Infuzion',
-        image_title: 'Infuzion',
-    ),
+      new Brand(
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            image_alt: 'Alma logotyp',
+            url: 'varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_title: 'Alma Hybrid - CO2 laser',
+            image_alt: 'Alma Hybrid logotyp',
+            url: 'alma-hybrid-co2-laser.php',
+            url_title: 'Läs mer om Alma Hybrid CO2 laser',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: 'alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'bilder/logotyper/dermapen.svg',
+            image_alt: 'Dermapen Brand Logo',
+            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            url: 'dermapen.php',
+            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+      ),
+      new Brand(
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: 'varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
+      ),
 );
 
 $brands_url_label = "Se alla varumärken";
