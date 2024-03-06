@@ -278,81 +278,167 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-    new Specialist(
-        name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg'
-    ),
-    new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik'
-    ),
-    new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
-    ),
-    new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom'
-    )
+      new Specialist(
+            name: 'Cazzandra Lindberg',
+            title: 'Hudterapeut sedan 2015',
+            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av milier',
+            image_title: 'Cazzandra Lindberg - Expert på behandling av milier'
+      ),
+      new Specialist(
+            name: 'Veronika Benedik',
+            title: 'Hudterapeut sedan 1999',
+            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på milier',
+            image_title: 'Veronika Benedik - Specialist inom vård av milier'
+      ),
+      new Specialist(
+            name: 'Amira Maqboul',
+            title: 'Hudterapeut sedan 2017',
+            image: 'images/specialists/312x312/hudterapeut-amira.webp',
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandling av milier',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på milier'
+      ),
+      new Specialist(
+            name: 'Vilma Libom',
+            title: 'Hudterapeut sedan 2019',
+            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av milier',
+            image_title: 'Vilma Libom - Expert inom behandling av milier'
+      )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
-    new Brand(
-        label: 'Dermapen',
-        image: 'images/brands/dermapen.svg',
-        image_alt: 'Dermapen',
-        image_title: 'Dermapen',
-    ),
-    new Brand(
-        label: 'CryoPen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'CryoPen',
-        image_title: 'CryoPen',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRX-T33',
-        image: 'images/brands/prx-t33.svg',
-        image_alt: 'PRX-T33',
-        image_title: 'PRXT',
-    ),
-    new Brand(
-        label: 'HydraFacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-    ),
-    new Brand(
-        label: 'Infuzion',
-        image: 'images/brands/infuzion.svg',
-        image_alt: 'Infuzion',
-        image_title: 'Infuzion',
-    ),
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_alt: 'Alma logotyp',
+            image_title: 'Alma Lasermaskiner',
+            url: '/varumarken/alma',
+            url_title: 'Alma',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_alt: 'Alma Hybrid logotyp',
+            image_title: 'Alma Hybrid CO2',
+            url: '/alma-hybrid-co2-laser.php',
+            url_title: 'Alma Hybrid',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'bilder/logotyper/dermapen.svg',
+            image_alt: 'Dermapen logotyp',
+            image_title: 'Dermapen - Microneedling',
+            url: '/dermapen.php',
+            url_title: 'Dermapen',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_alt: 'Harmony XL Pro logotyp',
+            image_title: 'Alma Harmony XL Pro',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Harmony XL Pro',
+      ),
+      new Brand(
+            label: 'HydraFacial',
+            image: 'bilder/logotyper/hydrafacial.svg',
+            image_alt: 'HydraFacial logotyp',
+            image_title: 'HydraFacial - Dermabrasion',
+            url: '/hydrafacial.php',
+            url_title: 'HydraFacial',
+      ),
+      new Brand(
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_alt: 'Skin Tech logotyp',
+            image_title: 'Skin Tech - kemisk peeling',
+            url: '/varumarken/skin-tech',
+            url_title: 'Skin Tech',
+      ),
+      new Brand(
+            label: 'Alma Rejuve Dye-VL',
+            image: 'bilder/logotyper/rejuve-dye-vl.svg',
+            image_alt: 'Alma Rejuve Dye-VL logotyp',
+            image_title: 'Alma Rejuve Dye-VL - IPL',
+            url: '/varumarken/alma/rejuve-dye-vl',
+            url_title: 'Alma Rejuve Dye-VL',
+      ),
+      new Brand(
+            label: 'CryoPen',
+            image: 'bilder/logotyper/cryopen.svg',
+            image_alt: 'CryoPen logotyp',
+            image_title: 'CryoPen - frysbehandling',
+            url: '/cryopen.php',
+            url_title: 'CryoPen',
+      ),
+      new Brand(
+            label: 'Splendor X',
+            image: 'bilder/logotyper/splendor-x.png',
+            image_alt: 'Splendor X logotyp',
+            image_title: 'Splendor X - Permanent hårborttagning med laser',
+            url: '/varumarken/splendor-x',
+            url_title: 'Splendor X',
+      ),
+      new Brand(
+            label: 'Soprano Ice',
+            image: 'bilder/logotyper/soprano-ice.png',
+            image_alt: 'Soprano Ice logotyp',
+            image_title: 'Soprano Ice - Permanent hårborttagning med laser',
+            url: '/varumarken/alma/soprano-ice',
+            url_title: 'Soprano Ice',
+      ),
+      new Brand(
+            label: 'Powerlite Photonova',
+            image: 'bilder/logotyper/powerlite-photonova.svg',
+            image_alt: 'Powerlite Photonova logotyp',
+            image_title: 'Powerlite Photonova - IPL',
+            url: '/varumarken/powerlite-photonova',
+            url_title: 'Powerlite Photonova',
+      ),
+      new Brand(
+            label: 'Infuzion',
+            image: 'bilder/logotyper/infuzion.svg',
+            image_alt: 'Infuzion logotyp',
+            image_title: 'Infuzion - nålfri skinbooster',
+            url: '/infuzion.php',
+            url_title: 'Infuzion',
+      ),
+      new Brand(
+            label: 'Lumenis',
+            image: 'bilder/logotyper/lumenis.svg',
+            image_alt: 'Lumenis logotyp',
+            image_title: 'Lumenis - Permanent hårborttagning med laser',
+            url: '/varumarken/splendor-x',
+            url_title: 'Lumenis',
+      ),
+      new Brand(
+            label: 'PRX-T33',
+            image: 'bilder/logotyper/prx-t33.svg',
+            image_alt: 'PRX-T33 logotyp',
+            image_title: 'PRX-T33 - kemisk peeling',
+            url: '/prx-t33.php',
+            url_title: 'PRX-T33',
+      ),
+      new Brand(
+            label: 'Exceed',
+            image: 'bilder/logotyper/exceed.png',
+            image_alt: 'Exceed logotyp',
+            image_title: 'Exceed - microneedling',
+            url: '/varumarken/exceed',
+            url_title: 'Exceedn',
+      ),
+      new Brand(
+            label: 'Microdermabrasion',
+            image: 'bilder/logotyper/microdermabrasion.png',
+            image_alt: 'Microdermabrasion logotyp',
+            image_title: 'Microdermabrasion - hudslipning',
+            url: '/microdermabrasion.php',
+            url_title: 'Microdermabrasion',
+      ),
 );
 ?>
 <!DOCTYPE html>
