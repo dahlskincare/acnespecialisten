@@ -49,10 +49,6 @@ $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickf
 
 $headline01 = "01. Identifiera din akne";
 
-$define_image = '/bilder/behandlingar/424x324/gratis-hudkonsultation.webp';
-$define_image_alt = 'Hur vi tar bort och behandlar akne?';
-$define_image_title = 'Hur vi tar bort och behandlar akne?';
-
 $define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg för varje återbesök. Du kommer att få en personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
@@ -535,7 +531,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>"/>
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
