@@ -166,7 +166,7 @@ $products = array(
         url_label: 'Utforska hudvårdsprodukter mot akne',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
         price: 'Acnespecialistens hudvårdsprodukter mot akne - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
+        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri. För att hålla din akne under kontroll rekommenderar vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper dig att bli fri från aknen samt förhindra framtida utbrott.</p>',
 
     ),
 );
