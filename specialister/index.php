@@ -59,7 +59,7 @@ $specialists = array(
     new Specialist(
         name: 'Ulrika Bill',
         title: 'Hudterapeut sedan 2023',
-        image: '/images/specialists/large/hudterapeut-ulrika.jpg',
+        image: '/images/specialists/large/hudterapeut-ulrika.webp',
         image_alt: 'Porträttbild på hudterapeuten Ulrika Bill',
         image_title: 'Hudterapeut Ulrika Bill',
         city: 'Östermalm',
