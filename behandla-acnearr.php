@@ -84,7 +84,7 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot acneärr',
-        url: '/laser-arr.php',
+        url: '/laser-acnearr.php',
         url_label: 'Läs mer om laser mot acneärr',
         url_title: 'Läs mer om laser mot acneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_LaserProblem',
