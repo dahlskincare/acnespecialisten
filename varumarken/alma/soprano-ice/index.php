@@ -10,8 +10,8 @@ $seo_keywords = 'Soprano ICE, permanent hårborttagning, laserbehandling, skonsa
 $seo_image = '/images/treatments/large/soprano-ice.webp';
 
 $path_segments = array(
-      new PathSegment('Varumärken', '/varumarken/'),
-      new PathSegment('Soprano Ice', '/varumarken/alma/soprano-ice/'),
+    new PathSegment('Varumärken', '/varumarken/'),
+    new PathSegment('Soprano Ice', '/varumarken/alma/soprano-ice/'),
 );
 
 $model = new Service(
@@ -446,13 +446,13 @@ $service_brands_text = '<p class="p200">Utöver Soprano Ice utför vi även perm
 $service_brands = array(
 
     new Brand(
-            label: 'Splendor X',
-            image: 'bilder/logotyper/splendor-x.png',
-            image_alt: 'Splendor X logotyp',
-            image_title: 'Splendor X - Permanent hårborttagning med laser',
-            url: '/varumarken/splendor-x',
-            url_title: 'Splendor X',
-      ),
+        label: 'Splendor X',
+        image: 'bilder/logotyper/splendor-x.png',
+        image_alt: 'Splendor X logotyp',
+        image_title: 'Splendor X - Permanent hårborttagning med laser',
+        url: '/varumarken/splendor-x',
+        url_title: 'Splendor X',
+    ),
 );
 
 $results = array(
@@ -463,8 +463,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -495,8 +497,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -527,8 +531,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -626,34 +632,34 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Soprano Ice-behandlingar',
-            image_title: 'Cazzandra Lindberg - Expert på Soprano Ice-behandlingar'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Soprano Ice',
-            image_title: 'Veronika Benedik - Specialist inom Soprano Ice-behandlingar'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Soprano Ice-behandlingar',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på Soprano Ice'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot Soprano Ice-behandlingar',
-            image_title: 'Vilma Libom - Expert inom Soprano Ice-behandlingar'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Soprano Ice-behandlingar',
+        image_title: 'Cazzandra Lindberg - Expert på Soprano Ice-behandlingar'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Soprano Ice',
+        image_title: 'Veronika Benedik - Specialist inom Soprano Ice-behandlingar'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Soprano Ice-behandlingar',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på Soprano Ice'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Soprano Ice-behandlingar',
+        image_title: 'Vilma Libom - Expert inom Soprano Ice-behandlingar'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 

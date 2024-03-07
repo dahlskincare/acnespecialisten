@@ -11,9 +11,9 @@ $seo_keywords = 'pormaskar, portömning, pormaskbehandling, orsaker till pormask
 $seo_image = '/bilder/problem/424x456/pormaskar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
-      new PathSegment('Pormaskar', '/pormaskar.php'),
-      new PathSegment('Pormaskbehandling', '/problem/pormaskar/pormaskbehandling/'),
+    new PathSegment('Hudproblem', '/hudproblem.php'),
+    new PathSegment('Pormaskar', '/pormaskar.php'),
+    new PathSegment('Pormaskbehandling', '/problem/pormaskar/pormaskbehandling/'),
 );
 
 $image_small = 'bilder/problem/424x324/pormaskar.webp';
@@ -181,71 +181,77 @@ $products = array(
 );
 
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_title: 'Person som har rosacea',
-            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            )
-      ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Akne">Akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat mot pormaskar";
 $show_all_results_title = "Resultat mot pormaskar";
 
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 
@@ -256,22 +262,22 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-              title: 'Vilka är de mest effektiva behandlingarna för pormaskar?',
-              text: '<p class="p200">De mest effektiva behandlingarna för att ta hand om pormaskar kan variera från person till person, men det finns flera allmänt erkända metoder som har visat sig vara effektiva. Hudvårdsprodukter i kombination med portömning utförd av kvalificerade hudterapeuter behandlar effektivt pormaskar. Detta är en omedelbar lösning och resultat kan ses direkt efter behandlingen, även om uppföljande behandlingar ofta är nödvändiga för långsiktiga resultat.</p>'
+            title: 'Vilka är de mest effektiva behandlingarna för pormaskar?',
+            text: '<p class="p200">De mest effektiva behandlingarna för att ta hand om pormaskar kan variera från person till person, men det finns flera allmänt erkända metoder som har visat sig vara effektiva. Hudvårdsprodukter i kombination med portömning utförd av kvalificerade hudterapeuter behandlar effektivt pormaskar. Detta är en omedelbar lösning och resultat kan ses direkt efter behandlingen, även om uppföljande behandlingar ofta är nödvändiga för långsiktiga resultat.</p>'
         ),
         new Question(
-              title: 'Är det bra eller dåligt att klämma pormaskar?',
-              text: '<p class="p200">Det är generellt inte rekommenderat att själv klämma pormaskar eftersom det kan leda till infektion, inflammation och potentiell ärrbildning. Professionella portömningar utförda av en hudvårdsspecialist är ett säkrare alternativ.</p>
+            title: 'Är det bra eller dåligt att klämma pormaskar?',
+            text: '<p class="p200">Det är generellt inte rekommenderat att själv klämma pormaskar eftersom det kan leda till infektion, inflammation och potentiell ärrbildning. Professionella portömningar utförda av en hudvårdsspecialist är ett säkrare alternativ.</p>
             <p class="p200 mt-m">När du klämmer en pormask, riskerar du att trycka ned bakterier och talg djupare in i huden, vilket kan leda till en allvarligare infektion. Därför är det bäst att låta en professionell hudvårdsterapeut hantera det för att minimera risken för komplikationer.</p>'
         ),
         new Question(
-              title: 'Vilka risker finns det med att behandla pormaskar själv?',
-              text: '<p class="p200">Behandla pormaskar själv kan leda till skada på huden, inklusive infektioner, ärrbildning, och ökad inflammation. Dessutom kanske man inte väljer den mest effektiva behandlingen för sin hudtyp eller problem.</p>
+            title: 'Vilka risker finns det med att behandla pormaskar själv?',
+            text: '<p class="p200">Behandla pormaskar själv kan leda till skada på huden, inklusive infektioner, ärrbildning, och ökad inflammation. Dessutom kanske man inte väljer den mest effektiva behandlingen för sin hudtyp eller problem.</p>
             <p class="p200 mt-m">Felaktig användning av verktyg eller produkter, såsom pormaskborttagare, kan också skada huden och förvärra tillståndet. För att undvika dessa risker är det viktigt att konsultera en kvalificerad hudvårdsspecialist.</p>'
         ),
         new Question(
-              title: 'Kan man helt bli av med pormaskar?',
-              text: '<p class="p200">Det kan vara svårt att helt och hållet eliminera pormaskar eftersom de kan uppstå på grund av en rad olika faktorer som hormoner, diet, och hudvård. Men genom en kombination av professionella behandlingar och rätt hudvårdsrutin kan du dramatiskt minska deras förekomst och förhindra nya från att uppstå.</p>
+            title: 'Kan man helt bli av med pormaskar?',
+            text: '<p class="p200">Det kan vara svårt att helt och hållet eliminera pormaskar eftersom de kan uppstå på grund av en rad olika faktorer som hormoner, diet, och hudvård. Men genom en kombination av professionella behandlingar och rätt hudvårdsrutin kan du dramatiskt minska deras förekomst och förhindra nya från att uppstå.</p>
             <p class="p200 mt-m">Det är också viktigt att ha realistiska förväntningar. Medan professionell behandling kan minimera och kontrollera pormaskar, kräver det ofta en långsiktig plan och konsekvent hudvård för att upprätthålla resultaten.</p>'
         ),
     ),

@@ -283,69 +283,69 @@ $symptoms_title = 'Perioral dermatit symptom';
 
 $symptoms = array(
       new Symptom(
-          name: 'Utslag runt munnen',
-          aka: 'Papler eller pustler',
-          content: 'Röda, inflammerade utslag är det mest framträdande symptomet av perioral dermatit. Dessa utslag uppstår oftast runt munnen och näsan.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
+            name: 'Utslag runt munnen',
+            aka: 'Papler eller pustler',
+            content: 'Röda, inflammerade utslag är det mest framträdande symptomet av perioral dermatit. Dessa utslag uppstår oftast runt munnen och näsan.',
 
-          image: 'bilder/symptom/102x102/papler.webp',
-          image_alt: 'Bild av röda utslag',
-          image_title: 'Röda Utslag'
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/papler.webp',
+            image_alt: 'Bild av röda utslag',
+            image_title: 'Röda Utslag'
       ),
       new Symptom(
-          name: 'Klåda',
-          aka: 'Kliande hud',
-          content: 'Vissa individer upplever klåda i det drabbade området, även om detta symptom inte är universellt för alla som har perioral dermatit.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
+            name: 'Klåda',
+            aka: 'Kliande hud',
+            content: 'Vissa individer upplever klåda i det drabbade området, även om detta symptom inte är universellt för alla som har perioral dermatit.',
 
-          image: 'bilder/symptom/102x102/klada.webp',
-          image_alt: 'Bild av hud som kliar',
-          image_title: 'Klåda'
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/klada.webp',
+            image_alt: 'Bild av hud som kliar',
+            image_title: 'Klåda'
       ),
       new Symptom(
-          name: 'Svidande Känsla',
-          aka: 'Hettande hud',
-          content: 'En brännande eller svidande känsla är också vanlig vid perioral dermatit och kan förvärras när huden kommer i kontakt med vatten eller hudvårdsprodukter.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
+            name: 'Svidande Känsla',
+            aka: 'Hettande hud',
+            content: 'En brännande eller svidande känsla är också vanlig vid perioral dermatit och kan förvärras när huden kommer i kontakt med vatten eller hudvårdsprodukter.',
 
-          image: 'bilder/symptom/102x102/irriterad-hy.webp',
-          image_alt: 'Bild av hud med brännande eller svidande känsla',
-          image_title: 'Brännande eller Svidande Känsla'
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/irriterad-hy.webp',
+            image_alt: 'Bild av hud med brännande eller svidande känsla',
+            image_title: 'Brännande eller Svidande Känsla'
       ),
       new Symptom(
-          name: 'Hudfjällning',
-          aka: 'Flagnande hud',
-          content: 'I vissa fall kan huden runt de drabbade områdena börja fjälla eller flagna, vilket kan likna symptom av eksem. Huden är torr och kan kännas stram.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
+            name: 'Hudfjällning',
+            aka: 'Flagnande hud',
+            content: 'I vissa fall kan huden runt de drabbade områdena börja fjälla eller flagna, vilket kan likna symptom av eksem. Huden är torr och kan kännas stram.',
 
-          image: 'bilder/symptom/102x102/flagnande-hud.webp',
-          image_alt: 'Bild av hudfjällning',
-          image_title: 'Hudfjällning'
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/flagnande-hud.webp',
+            image_alt: 'Bild av hudfjällning',
+            image_title: 'Hudfjällning'
       ),
       new Symptom(
-          name: 'Rodnad och Inflammation',
-          aka: 'Erytem och inflammation',
-          content: 'Området kring de drabbade delarna kan vara kraftigt rött och inflammerat, särskilt i svårare fall av perioral dermatit.',
-        
-          url_label: null,
-          url: null,
-          url_title: null,
+            name: 'Rodnad och Inflammation',
+            aka: 'Erytem och inflammation',
+            content: 'Området kring de drabbade delarna kan vara kraftigt rött och inflammerat, särskilt i svårare fall av perioral dermatit.',
 
-          image: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
-          image_alt: 'Bild av rodnad och inflammation',
-          image_title: 'Rodnad och Inflammation'
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
+            image_alt: 'Bild av rodnad och inflammation',
+            image_title: 'Rodnad och Inflammation'
       ),
 );
 
@@ -462,8 +462,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
@@ -473,8 +475,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
@@ -484,8 +488,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_title: 'Person som har rosacea',
-            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )

@@ -16,8 +16,8 @@ $image_alt = 'Bild som illustrerar akne';
 $image_title = 'Akne';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Aknebehandling', '/acnebehandling.php'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Aknebehandling', '/acnebehandling.php'),
 );
 
 $title = 'Akne behandling';
@@ -174,7 +174,7 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
         url_label: 'Utforska produkter mot akne',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
-        
+
         price: 'Produkter mot akne - Pris från 1395 kr',
         content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri. För att hålla din akne under kontroll rekommenderar vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper dig att bli fri från aknen samt förhindra framtida utbrott.</p>',
     ),
@@ -197,8 +197,10 @@ $results = array(
         image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-        image_title: 'Person som har akne',
-        image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         treatment: new ResultTreatment(
             duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
         )
@@ -208,8 +210,10 @@ $results = array(
         image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-        image_title: 'Person som har akne',
-        image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         treatment: new ResultTreatment(
             duration: '<a href="acne.php" title="Akne">Akne</a>',
         )
@@ -219,8 +223,10 @@ $results = array(
         image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-        image_title: 'Person som har rosacea',
-        image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         treatment: new ResultTreatment(
             duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
         )
@@ -339,34 +345,34 @@ $skinguide_url_label = "Läs fler guider";
 $skinguide_url_title = "Läs fler guider om aknebehandling";
 
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
+        image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
+        image_title: 'Veronika Benedik - Specialist inom aknevård'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
+        image_title: 'Vilma Libom - Expert inom aknebehandling'
+    )
 );
 
 $specialist_url_label = "Se alla specialister";
@@ -614,47 +620,47 @@ $brands_url_title = "Varumärken för Aknebehandling";
                     <?php $faq_categories = array(
                         'Behandling mot akne' => array(
                             new Question(
-                                  title: 'Hur många behandlingar behövs?',
-                                  text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
+                                title: 'Hur många behandlingar behövs?',
+                                text: '<p class="p200">Antalet behandlingar som behövs varierar från person till person och beror på flera faktorer, som din hudtyp, svårighetsgraden av din akne och din respons på behandlingen. Vanligtvis kan du se en förbättring efter 1 till 3 veckors regelbunden behandling.</p>
 
                                        <p class="p200 mt-m">En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell klinik behandling och hemmavård som ger bästa möjliga resultat.</p>
 
                                         <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
                             ),
                             new Question(
-                                  title: 'Finns det en risk att min akne återkommer?',
-                                  text: '<p class="p200">Ja, akne är ett ihållande problem som inte går att bota utan uppstår till följd av de fakturer som orsakar akne såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
+                                title: 'Finns det en risk att min akne återkommer?',
+                                text: '<p class="p200">Ja, akne är ett ihållande problem som inte går att bota utan uppstår till följd av de fakturer som orsakar akne såsom genetik, hormoner, livsstil och hudvård. Personer med en genetisk benägenhet för akne kan uppleva att aknen återkommer, särskilt under perioder av hormonella förändringar som pubertet, graviditet eller menstruation. Även faktorer som stress och användning av olämpliga hudvårdsprodukter kan bidra till att aknen återkommer.</p>
                                        
                                        <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
                             ),
                             new Question(
-                                  title: 'Vilken är den bästa behandlingen mot akne?',
-                                  text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsakerna till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
+                                title: 'Vilken är den bästa behandlingen mot akne?',
+                                text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsakerna till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
                             ),
                             new Question(
-                                  title: 'Gör aknebehandlingen ont?',
-                                  text: '<p class="p200">Vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna hudterapeuter är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
+                                title: 'Gör aknebehandlingen ont?',
+                                text: '<p class="p200">Vi strävar efter att göra aknebehandlingen så behaglig som möjligt för våra klienter. Det är sant att akne ibland innebär inflammation i porerna och kan göra ont när de öppnas upp och töms. Men vi vill påpeka att smärtupplevelsen kan variera från person till person och bero på behandlingsmetoden som används. Vår erfarna hudterapeuter är välutbildad och tar stor hänsyn till din komfort under behandlingen. Om du känner någon obehag, tveka inte att informera din acnespecialist så att de kan justera behandlingen efter dina behov.</p>'
                             ),
                             new Question(
-                                  title: 'Vad ska jag tänka på innan behandlingen?',
-                                  text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
+                                title: 'Vad ska jag tänka på innan behandlingen?',
+                                text: '<p class="p200">Vi vill att din behandling ska vara så smidig och bekväm som möjligt, och vi strävar efter att göra processen enkel för dig. Du behöver inte förbereda något särskilt inför ditt besök hos oss. Kom precis som du är, och vi tar hand om resten. Vi kommer att genomföra en grundlig hudanalys och skräddarsy en behandlingsplan som passar just dig och din hudtyp. Så, du kan lita på oss och bara slappna av inför din aknebehandling.</p>'
                             ),
                             new Question(
-                                  title: 'Vad ska jag tänka på efter behandling?',
-                                  text: '<p class="p200">Efter din aknebehandling hos AcneSpecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
+                                title: 'Vad ska jag tänka på efter behandling?',
+                                text: '<p class="p200">Efter din aknebehandling hos AcneSpecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
                                         
                                         <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskydd och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på AcneSpecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
                             ),
                             new Question(
-                                  title: 'Hemmavård efter behandlingen?',
-                                  text: '<p class="p200">Hemmavården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
+                                title: 'Hemmavård efter behandlingen?',
+                                text: '<p class="p200">Hemmavården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
 
                                   <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på AcneSpecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
                             ),
                         ),
 
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    );
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                 </section>
                 <!--Hudguide-->

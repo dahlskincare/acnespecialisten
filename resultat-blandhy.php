@@ -46,7 +46,7 @@ $specialists = array(
 );
 $result_category =
     new ResultCategory(
-    id: 'blandhy',
+        id: 'blandhy',
         title: 'Blandhy Resultat',
         description_1: 'Utforska våra framgångsrika fall där vi på AcneSpecialisten har behandlat blandhy. Denna sida visar en serie av före- och efterbilder som illustrerar hur våra skräddarsydda behandlingar effektivt balanserar och förbättrar hudens tillstånd. Se hur vi harmoniserar kombinationen av torra och oljiga hudområden för en jämnare och mer strålande hudton.',
 
@@ -68,8 +68,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-blandhy-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-blandhy-efter.jpg',
             url_title: 'Blandhy resultat',
-            image_alt: 'Blandhy resultat',
-            image_title: 'Blandhy resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 19,
             gender: 'Kvinna',
             problem: 'Blandhy',

@@ -10,8 +10,8 @@ $seo_keywords = 'aknebehandling, ansiktsbehandlingar för akne, bekämpa akne, e
 $seo_image = '/bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Ansiktsbehandlingar mot akne', '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Ansiktsbehandlingar mot akne', '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne'),
 );
 
 $model = new Service(
@@ -210,8 +210,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -242,8 +244,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -274,8 +278,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -303,32 +309,32 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 $reviews_view_more = 'Se alla omdömen';

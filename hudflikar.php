@@ -90,81 +90,81 @@ $treatment_steps = array(
 $treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudflikar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudflikar</a>';
 
 $top_articles = array(
-    'areas' => new Article(
-        title: 'Områden för hudflikar',
-        image_small: null,
-        image_large: null,
-        image_alt: '',
-        image_title: '',
-        content: '<p class="p200">Hudflikar, även kända som skintags, är små hudutväxter som ofta bildas i områden med mycket friktion eller hud-mot-hud kontakt, såsom hals, armhålor och under brösten. Dessa ofarliga utväxter varierar i storlek och färg och är vanligen mjuka och rörliga vid beröring.</p>
+      'areas' => new Article(
+            title: 'Områden för hudflikar',
+            image_small: null,
+            image_large: null,
+            image_alt: '',
+            image_title: '',
+            content: '<p class="p200">Hudflikar, även kända som skintags, är små hudutväxter som ofta bildas i områden med mycket friktion eller hud-mot-hud kontakt, såsom hals, armhålor och under brösten. Dessa ofarliga utväxter varierar i storlek och färg och är vanligen mjuka och rörliga vid beröring.</p>
       <p class="p200 mt-m">Hudflikar är vanligen ofarliga men kan kräva uppmärksamhet om de orsakar irritation eller om de förändras. På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för hudflikar, anpassade efter dina individuella behov och önskemål.</p>',
-    ),
+      ),
 );
 
 $articles = array(
-    new Article(
-        title: 'När är det dags att söka hjälp för hudflikar?',
-        image_small: null,
-        image_large: null,
-        image_alt: 'När är det dags att söka hjälp för hudflikar?',
-        image_title: 'När är det dags att söka hjälp för hudflikar?',
-        content: '<p class="p200">Hudflikar är vanligtvis ofarliga men bör övervakas. Om du upplever irritation, obehag eller märker förändringar i storlek, form eller färg, är det lämpligt att konsultera en specialist.</p>',
-    ),
+      new Article(
+            title: 'När är det dags att söka hjälp för hudflikar?',
+            image_small: null,
+            image_large: null,
+            image_alt: 'När är det dags att söka hjälp för hudflikar?',
+            image_title: 'När är det dags att söka hjälp för hudflikar?',
+            content: '<p class="p200">Hudflikar är vanligtvis ofarliga men bör övervakas. Om du upplever irritation, obehag eller märker förändringar i storlek, form eller färg, är det lämpligt att konsultera en specialist.</p>',
+      ),
 
-    new Article(
-        title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
-        image_title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
-        content: '<p class="p200">AcneSpecialisten är experter på att behandla hudflikar, och erbjuder skräddarsydda lösningar. Våra behandlingar är både säkra och effektiva, och vi använder de senaste teknikerna för att uppnå bästa möjliga resultat. Vårt team av specialiserade hudterapeuter tillhandahåller professionell rådgivning och behandling, och hjälper dig att uppnå en slätare och jämnare hudton.</p>',
-    ),
+      new Article(
+            title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
+            image_small: null,
+            image_large: null,
+            image_alt: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
+            image_title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
+            content: '<p class="p200">AcneSpecialisten är experter på att behandla hudflikar, och erbjuder skräddarsydda lösningar. Våra behandlingar är både säkra och effektiva, och vi använder de senaste teknikerna för att uppnå bästa möjliga resultat. Vårt team av specialiserade hudterapeuter tillhandahåller professionell rådgivning och behandling, och hjälper dig att uppnå en slätare och jämnare hudton.</p>',
+      ),
 );
 
 $headline01 = "01. Identifiera dina hudflikar";
 
 $service = new Service(
-    title: 'Konsultation för hudflikar',
-    duration: '20 min',
-    price: 'Kostnadsfri',
-    content: 'Under vår konsultation utför vi en detaljerad utvärdering av dina hudflikar. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen, inklusive användning av Cryopen eller andra metoder, för att skapa en behandlingsplan som är anpassad efter dina behov och önskemål.',
+      title: 'Konsultation för hudflikar',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Under vår konsultation utför vi en detaljerad utvärdering av dina hudflikar. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen, inklusive användning av Cryopen eller andra metoder, för att skapa en behandlingsplan som är anpassad efter dina behov och önskemål.',
 
-    image_small: 'images/services/200x200/konsultation.webp',
-    image_large: 'images/services/200x200/konsultation.webp',
-    image_alt: 'Bild av en konsultation för behandling av hudflikar',
-    image_title: 'Konsultation för behandling av hudflikar',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Bild av en konsultation för behandling av hudflikar',
+      image_title: 'Konsultation för behandling av hudflikar',
 
-    consultation_url_label: 'Boka konsultation',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-    consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
 
-    booking_url_label: null,
-    booking_url: null,
-    booking_url_title: null,
+      booking_url_label: null,
+      booking_url: null,
+      booking_url_title: null,
 );
 
 $headline02 = "02. Behandla hudflikar med Cryopen";
 
 $services = array(
-    new Service(
-        title: 'Behandling av hudflikar med Cryopen',
-        duration: '20 min',
-        price: '995 kr',
-        content: 'Med Cryopen-tekniken erbjuder vi en snabb och skonsam behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
+      new Service(
+            title: 'Behandling av hudflikar med Cryopen',
+            duration: '20 min',
+            price: '995 kr',
+            content: 'Med Cryopen-tekniken erbjuder vi en snabb och skonsam behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
 
-        image_small: 'images/services/200x200/cryopen.webp',
-        image_large: 'images/services/200x200/cryopen.webp',
-        image_alt: 'Bild av Cryopen behandling för hudflikar',
-        image_title: 'Cryopen behandling för hudflikar',
+            image_small: 'images/services/200x200/cryopen.webp',
+            image_large: 'images/services/200x200/cryopen.webp',
+            image_alt: 'Bild av Cryopen behandling för hudflikar',
+            image_title: 'Cryopen behandling för hudflikar',
 
-        consultation_url_label: 'Boka konsultation',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-        consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av hudflikar',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av hudflikar',
 
-        booking_url_label: 'Boka behandling',
-        booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
-        booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
-    ),
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
+      ),
 );
 
 
@@ -174,8 +174,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '3 månader',
             )
@@ -185,8 +187,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '2 månader',
             )
@@ -196,8 +200,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '4 månader',
             )
@@ -244,22 +250,22 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-              title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-              text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
             ),
             new Question(
-              title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-              text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
             ),
       ),
       'Frågor om behandling' => array(
             new Question(
-              title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-              text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
             ),
             new Question(
-              title: 'Anpassar ni behandlingarna för olika hudtyper?',
-              text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
+                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
             ),
       ),
 );
@@ -553,9 +559,9 @@ $brands_url_title = "Se alla varumärken";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                          <h2 class="h500"><?php echo $description_title ?></h2>
-                          <div class="mt-xl"><?php echo $description_text ?></div>
-                      </section>
+                              <h2 class="h500"><?php echo $description_title ?></h2>
+                              <div class="mt-xl"><?php echo $description_text ?></div>
+                        </section>
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -572,12 +578,12 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
                         <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
-                          </section>
-                      <?php } ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
@@ -598,7 +604,7 @@ $brands_url_title = "Se alla varumärken";
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
-                        
+
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';

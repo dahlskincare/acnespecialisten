@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div id="footer-links">
-                <div class="columns is-mobile is-gapless">
+                <div class="columns is-mobile">
                     <div class="column">
                         <h2>Upptäck</h2>
                         <ul>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <div id="second-link-row">
-                    <div class="columns is-mobile is-gapless">
+                    <div class="columns is-mobile">
                         <div class="column">
                             <h2>Kundtjänst</h2>
                             <ul>
@@ -144,7 +144,7 @@
                                     <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                 </li>
                                 <li>
-                                    <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialsiter</a>
+                                    <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a>
                                 </li>
                                 <li>
                                     <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Se våra lediga tjänster" rel="nofollow" class="button text grey compact l10n">Karriär</a>

@@ -112,15 +112,15 @@ $treatment_steps = array(
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot finnar på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
 
 $top_articles = array(
-    'areas' => new Article(
-        title: 'Varför uppstår finnar på bröstet?',
-        image_small: null,
-        image_large: null,
-        image_alt: '',
-        image_title: '',
-        content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>
+      'areas' => new Article(
+            title: 'Varför uppstår finnar på bröstet?',
+            image_small: null,
+            image_large: null,
+            image_alt: '',
+            image_title: '',
+            content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>
       <p class="p200 mt-m">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet, särskilt för finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
-    ),
+      ),
 );
 
 $articles = array(
@@ -132,50 +132,57 @@ $articles = array(
             image_title: 'Tecken på att söka hjälp för bröstfinnar',
             content: '<p class="p200">Finnar på bröstet kan vara mer än bara ett estetiskt problem – de kan även vara en källa till obehag och emotionell oro. Om du upptäcker att dina finnar är återkommande eller försämras, är det dags att överväga professionell hjälp. Tidig intervention är viktig för att förhindra ärrbildning och andra långsiktiga hudproblem. Genom att söka professionell rådgivning kan du få hjälp med att behandla befintliga utbrott och lära dig förebyggande strategier och skapa en effektiv hudvårdsrutin.</p>',
       ),
-  new Article(
-        title: 'Varför välja AcneSpecialisten för behandling av finnar på bröstet?',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
-        image_title: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
-        content: '<p class="p200">Vår expertis möjliggör skräddarsydda behandlingsplaner anpassade till varje individs unika behov. På AcneSpecialisten fokuserar vi inte bara på att behandla dina nuvarande hudproblem, utan också på att utbilda dig i hur du kan bibehålla en hälsosam hud på lång sikt. Vårt engagemang och vår kunskap gör oss till det bästa valet för dem som söker en varaktig lösning på sina hudproblem, och vi strävar efter att du ska känna dig säker och nöjd med din hudvård.</p>',
-  ),
+      new Article(
+            title: 'Varför välja AcneSpecialisten för behandling av finnar på bröstet?',
+            image_small: null,
+            image_large: null,
+            image_alt: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
+            image_title: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
+            content: '<p class="p200">Vår expertis möjliggör skräddarsydda behandlingsplaner anpassade till varje individs unika behov. På AcneSpecialisten fokuserar vi inte bara på att behandla dina nuvarande hudproblem, utan också på att utbilda dig i hur du kan bibehålla en hälsosam hud på lång sikt. Vårt engagemang och vår kunskap gör oss till det bästa valet för dem som söker en varaktig lösning på sina hudproblem, och vi strävar efter att du ska känna dig säker och nöjd med din hudvård.</p>',
+      ),
 
-$results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '3 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
-            treatment: new ResultTreatment(
-                  duration: '2 månader',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
-            treatment: new ResultTreatment(
-                  duration: '4 månader',
-            )
-      ),
-));
+      $results = array(
+            new ResultCustomer(
+                  image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+                  image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+                  image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+                  image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+                  image_before_alt: 'Före',
+                  image_before_title: 'Före',
+                  image_after_alt: 'Efter',
+                  image_after_title: 'Efter',
+                  treatment: new ResultTreatment(
+                        duration: '3 månader',
+                  )
+            ),
+            new ResultCustomer(
+                  image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+                  image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+                  image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+                  image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+                  image_before_alt: 'Före',
+                  image_before_title: 'Före',
+                  image_after_alt: 'Efter',
+                  image_after_title: 'Efter',
+                  treatment: new ResultTreatment(
+                        duration: '2 månader',
+                  )
+            ),
+            new ResultCustomer(
+                  image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+                  image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+                  image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+                  image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+                  image_before_alt: 'Före',
+                  image_before_title: 'Före',
+                  image_after_alt: 'Efter',
+                  image_after_title: 'Efter',
+                  treatment: new ResultTreatment(
+                        duration: '4 månader',
+                  )
+            ),
+      )
+);
 
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
@@ -217,22 +224,22 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-              title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-              text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
             ),
             new Question(
-              title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-              text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
             ),
       ),
       'Frågor om behandling' => array(
             new Question(
-              title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-              text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
             ),
             new Question(
-              title: 'Anpassar ni behandlingarna för olika hudtyper?',
-              text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
+                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
             ),
       ),
 );
@@ -544,9 +551,9 @@ $brands_url_title = "Se alla varumärken";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                          <h2 class="h500"><?php echo $description_title ?></h2>
-                          <div class="mt-xl"><?php echo $description_text ?></div>
-                      </section>
+                              <h2 class="h500"><?php echo $description_title ?></h2>
+                              <div class="mt-xl"><?php echo $description_text ?></div>
+                        </section>
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -563,19 +570,19 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
                         <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
-                          </section>
-                      <?php } ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
-                        
+
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
