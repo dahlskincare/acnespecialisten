@@ -59,7 +59,7 @@ $specialists = array(
     new Specialist(
         name: 'Ulrika Bill',
         title: 'Hudterapeut sedan 2023',
-        image: '/images/specialists/large/hudterapeut-bild-saknas.jpg',
+        image: '/images/specialists/large/hudterapeut-ulrika.jpg',
         image_alt: 'Porträttbild på hudterapeuten Ulrika Bill',
         image_title: 'Hudterapeut Ulrika Bill',
         city: 'Östermalm',
@@ -131,7 +131,7 @@ $specialists = array(
         description: '',
         rating: 4.5,
         num_treatments: 288,
-        since_year: 2023,
+        since_year: 2022,
         booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300?_gl=1%2A2y7n64%2A_ga%2AMTU1NDQ2MjU3MS4xNjYwNTUzMjIy%2A_ga_7EMC778CH1%2AMTcwNzIzMTUyOS4yMjAuMS4xNzA3MjMxNzExLjYwLjAuMA..',
     ),
     new Specialist(
