@@ -70,8 +70,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är portömning för ansiktsbehandling?';
-$description_text = '<p class="p200">Vår portömning är anpassad för att tömma och rengöra porerna från finnar och pormaskar. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
-    <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
+$description_text = '<p class="p200">Portömning är en ansiktsbehandling utformad för att djuprengöra porerna genom att noggrant extrahera komedoner (svarta och vita pormaskar) orsakade av talg och döda hudceller. Denna behandling minskar risken för finnar och förbättrar hudens utseende genom att avlägsna orenheter som kan leda till hudproblem. Utförd av professionella hudterapeuter, erbjuder portömning en skonsam och effektiv lösning för att uppnå en klarare, mjukare hud. Den är idealisk för de som kämpar med tilltäppta porer och söker en omfattande rengöring.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
