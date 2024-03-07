@@ -10,7 +10,7 @@ $seo_keywords = 'ansiktsbehandlingar mot pormaskar, portömning, rengöring av p
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $model = new Service(
-    title: 'Portömning',
+    title: 'Portömning i Stockholm',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '<p class="p200">Portömning är en effektiv ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
@@ -239,6 +239,7 @@ $bottom_articles = array(
     ),
 );
 
+$results_title = 'Portömning före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
