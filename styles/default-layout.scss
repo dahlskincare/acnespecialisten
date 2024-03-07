@@ -487,6 +487,10 @@ html {
 
                     .columns {
 
+                        .column:nth-child(2) {
+                            margin-left: $xl3;
+                        }
+
                         ul {
                             margin: 0;
                             padding: 0;

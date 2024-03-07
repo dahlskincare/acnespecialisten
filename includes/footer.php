@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div id="footer-links">
-                <div class="columns is-mobile is-gapless">
+                <div class="columns is-mobile">
                     <div class="column">
                         <h2>Upptäck</h2>
                         <ul>
@@ -116,7 +116,7 @@
                     </div>
                 </div>
                 <div id="second-link-row">
-                    <div class="columns is-mobile is-gapless">
+                    <div class="columns is-mobile">
                         <div class="column">
                             <h2>Kundtjänst</h2>
                             <ul>
