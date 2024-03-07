@@ -121,6 +121,10 @@ section#cards {
         margin: $xl 0;
     }
 
+    #paginator {
+        margin-top: $m;
+    }
+
     @media screen and (min-width: $tablet) {
         #show-more {
             margin-top: $xl*2;
