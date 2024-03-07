@@ -142,6 +142,91 @@ $treatment_areas = array(
     ),
 );
 
+$types_title = 'Ansiktsbehandlingar mot problemhy';
+$types_description = '';
+$types = array(
+    new Service(
+        title: 'Ansiktsbehandling mot Pormaskar',
+        duration: null,
+        price: null,
+        content: 'Ansiktsbehandling anpassad för pormaskar med fokus på att rengöra porer och klämma ut pormaskar.',
+        image_small: 'bilder/problem/102x102/pormaskar.webp',
+        image_large: 'bilder/problem/200x200/pormaskar.webp',
+        image_alt: 'Ansiktsbehandling mot Pormaskar',
+        image_title: 'Ansiktsbehandling mot Pormaskar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
+
+        url_label: 'Läs mer om portömning',
+        url: '/portomning.php',
+        url_title: 'Läs mer om portömning',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling mot Akne',
+        duration: null,
+        price: null,
+        content: 'Ansiktsbehandling anpassad för akne med fokus på att klämma ut papler, pustler och komedoner.',
+        image_small: 'bilder/problem/102x102/akne.webp',
+        image_large: 'bilder/problem/200x200/akne.webp',
+        image_alt: 'Ansiktsbehandling mot Akne',
+        image_title: 'Ansiktsbehandling mot Akne',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
+
+        url_label: 'Läs mer om ansiktsbehandling mot akne',
+        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
+        url_title: 'Läs mer om ansiktsbehandling mot akne',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling mot Finnar',
+        duration: null,
+        price: null,
+        content: 'Ansiktsbehandling mot finnar som djuprengör, behandlar och klämmer ut finnar finnar, samtidigt som den balanserar hudens talgproduktion och minskar inflammation.',
+        image_small: 'bilder/problem/102x102/finnar.webp',
+        image_large: 'bilder/problem/200x200/finnar.webp',
+        image_alt: 'Ansiktsbehandling mot Finnar',
+        image_title: 'Ansiktsbehandling mot Finnar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
+
+        url_label: 'Läs mer om portömning',
+        url: '/portomning.php',
+        url_title: 'Läs mer om portömning',
+    ),
+    new Service(
+        title: 'Ansiktsbehandling för Stora Porer',
+        duration: null,
+        price: null,
+        content: 'Denna behandling är specifikt framtagen för att behandla och minska framträdande stora porer. Vi rengör och tömmer porerna på djupet så att de blir mindre framträdande vilket resulterar i en jämnare och slätare hy.',
+        image_small: 'bilder/problem/102x102/stora-porer.webp',
+        image_large: 'bilder/problem/200x200/stora-porer.webp',
+        image_alt: 'Ansiktsbehandling för Stora Porer',
+        image_title: 'Ansiktsbehandling för Stora Porer',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores&area=EMPTY',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
+
+        url_label: 'Läs mer om portömning',
+        url: '/portomning.php',
+        url_title: 'Läs mer om portömning',
+    ),
+);
+
 $bottom_articles = array(
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter portömning',
