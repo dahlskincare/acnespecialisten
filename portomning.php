@@ -73,15 +73,6 @@ $description_title = 'Vad är portömning för ansiktsbehandling?';
 $description_text = '<p class="p200">Portömning är en ansiktsbehandling utformad för att djuprengöra porerna genom att noggrant extrahera komedoner (svarta och vita pormaskar) orsakade av talg och döda hudceller. Denna behandling minskar risken för finnar och förbättrar hudens utseende genom att avlägsna orenheter som kan leda till hudproblem. Utförd av professionella hudterapeuter, erbjuder portömning en skonsam och effektiv lösning för att uppnå en klarare, mjukare hud. Den är idealisk för de som kämpar med tilltäppta porer och söker en omfattande rengöring.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför portömning',
-        image_small: '/bilder/process/358x272/problemhy-forberedelser.webp',
-        image_large: '/bilder/process/872x456/problemhy-forberedelser.webp',
-        image_alt: 'Förberedelser inför portömning',
-        image_title: 'Förberedelser inför portömning',
-        content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
-            <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går en portömning till?',
         image_small: '/bilder/process/358x272/problemhy-process.webp',
