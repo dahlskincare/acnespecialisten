@@ -79,7 +79,7 @@ $specialists = array(
         description: '',
         rating: 4.7,
         num_treatments: 994,
-        since_year: 2010,
+        since_year: 1995,
         booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300?_gl=1%2A2y7n64%2A_ga%2AMTU1NDQ2MjU3MS4xNjYwNTUzMjIy%2A_ga_7EMC778CH1%2AMTcwNzIzMTUyOS4yMjAuMS4xNzA3MjMxNzExLjYwLjAuMA..&sr=48B57D6B_BB76_4FD4_A3D3_7E127863C835',
     ),
     new Specialist(
