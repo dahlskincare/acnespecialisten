@@ -197,6 +197,11 @@ section#faq {
 
     @media screen and (min-width: $widescreen) {
         margin-top: $section-margin-top;
+
+        #faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
     }
 }
 
