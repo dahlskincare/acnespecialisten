@@ -3,12 +3,12 @@
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $result_customer->slider_image_before_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $result_customer->slider_image_before_large ?>">
-            <img src="<?php echo $result_customer->slider_image_before_large ?>" alt="Före" title="Före" width="178" height="238" />
+            <img src="<?php echo $result_customer->slider_image_before_large ?>" alt="<?php echo $result_customer->image_before_alt ?>" title="<?php echo $result_customer->image_before_title ?>" width="178" height="238" />
         </picture>
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $result_customer->slider_image_after_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $result_customer->slider_image_after_large ?>">
-            <img src="<?php echo $result_customer->slider_image_after_large ?>" alt="Efter" title="Efter" width="178" height="238" />
+            <img src="<?php echo $result_customer->slider_image_after_large ?>" alt="<?php echo $result_customer->image_after_alt ?>" title="<?php echo $result_customer->image_after_title ?>" width="178" height="238" />
         </picture>
     </div>
     <div class="customer-card-content">

@@ -242,8 +242,10 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-                                    image_title: 'Person som har akne',
-                                    image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
+                                    image_before_title: 'Person som har akne',
+                                    image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
+                                    image_after_title: 'Person som har akne',
+                                    image_after_alt: 'Ansiktet på en person som behandlat svår akne, efterbild',
                                     treatment: new ResultTreatment(
                                           duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
                                     )
@@ -253,8 +255,10 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-                                    image_title: 'Person som har akne',
-                                    image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
+                                    image_before_title: 'Person som har akne',
+                                    image_before_alt: 'Ansiktet på en person som behandlat akne, föreefterbild',
+                                    image_after_title: 'Person som har akne',
+                                    image_after_alt: 'Ansiktet på en person som behandlat akne, efterbild',
                                     treatment: new ResultTreatment(
                                           duration: '<a href="acne.php" title="Akne">Akne</a>',
                                     )
@@ -264,8 +268,10 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-                                    image_title: 'Person som har rosacea',
-                                    image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
+                                    image_before_title: 'Person som har rosacea',
+                                    image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
+                                    image_after_title: 'Person som har rosacea',
+                                    image_after_alt: 'Ansiktet på en person som behandlat rosacea, efterbild',
                                     treatment: new ResultTreatment(
                                           duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
                                     )
