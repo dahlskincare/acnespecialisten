@@ -3,7 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne behandling i Stockholm hos AcneSpecialisten';
-$seo_description = 'Boka en aknebehandling i Stockholm! Vi erbjuder ✓Kostnadsfri konsultation ✓Skräddarsydd behandling ✓Personlig hudvårdsrutin. Behandla akne hos oss →';
+$seo_description = 'Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av aknebehandlingar, börja din resa med en gratis hudkonsultation i stockholm eller online';
 $seo_keywords = 'akne, aknebehandling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
