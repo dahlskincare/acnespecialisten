@@ -54,9 +54,9 @@ $define_image_title = 'Hur vi tar bort och behandlar acneärr?';
 $define_image_alt = 'Hur vi behandlar och tar bort acneärr?';
 $define_image_title = 'Hur vi behandlar och tar bort acneärr?';
 
-$define_content = '<p class="p200">Det första steget i vår process för att behandla acneärr är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
+$define_content = '<p class="p200">Det första steget i vår process för att behandla acneärr är att kartlägga och analysera dina ärrs omfattning, färg och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "gratis-hudkonsultation.php";
+$define_consultation_link = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
 $define_consultation_link_label = "Boka Gratis Konsultation för acneärr";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för acneärr";
 
