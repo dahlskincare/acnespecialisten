@@ -15,7 +15,12 @@ $image_small = 'bilder/problem/424x456/rosacea.webp';
 $image_alt = 'Bild på rosacea behandling';
 $image_title = 'Bild av effektiv rosaceabehandling';
 
-$title = 'Rosaceabehandlingar';
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Rosacea behandling', '/rosaceabehandling.php'),
+);
+
+$title = 'Rosacea behandling';
 $description = 'Här har vi samlat de mest effektiva metoderna för rosaceabehandling som hjälper dig att hantera och lindra dina symptom. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">rosaceabehandling</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en lugnare och jämnare hy.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea';
