@@ -3,7 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Få bort acneärr effektivt';
-$seo_description = 'Utforska de mest effektiva behandlingsmetoderna för acneärr. Få skräddarsydda råd, tips, och expertis från Acnespecialisten för att behandla och minska acneärr.';
+$seo_description = 'Behandla din acneärr hos AcneSpecialisten, vi har 30 års erfarenhet av att ta bort acneärr, börja din resa med en gratis konsultation i stockholm eller online';
 $seo_keywords = 'behandling av acneärr, acneärrbehandling, metod för acneärrbehandling, ta bort acneärr, få bort acneärr';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
