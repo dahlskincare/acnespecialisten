@@ -161,9 +161,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
 
-        url_label: 'Läs mer om portömning',
-        url: '/portomning.php',
-        url_title: 'Läs mer om portömning',
+        url_label: 'Läs mer om pormaskar',
+        url: '/pormaskar.php',
+        url_title: 'Läs mer om pormaskar',
     ),
     new Service(
         title: 'Ansiktsbehandling mot Akne',
@@ -181,9 +181,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
 
-        url_label: 'Läs mer om ansiktsbehandling mot akne',
-        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
-        url_title: 'Läs mer om ansiktsbehandling mot akne',
+        url_label: 'Läs mer om akne',
+        url: '/acne.php',
+        url_title: 'Läs mer om akne',
     ),
     new Service(
         title: 'Ansiktsbehandling mot Finnar',
@@ -201,9 +201,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
 
-        url_label: 'Läs mer om portömning',
-        url: '/portomning.php',
-        url_title: 'Läs mer om portömning',
+        url_label: 'Läs mer om finnar',
+        url: '/finnar.php',
+        url_title: 'Läs mer om finnar',
     ),
     new Service(
         title: 'Ansiktsbehandling för Stora Porer',
@@ -221,9 +221,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
 
-        url_label: 'Läs mer om portömning',
-        url: '/portomning.php',
-        url_title: 'Läs mer om portömning',
+        url_label: 'Läs mer om stora porer',
+        url: '/stora-porer.php',
+        url_title: 'Läs mer om stora porer',
     ),
 );
 
