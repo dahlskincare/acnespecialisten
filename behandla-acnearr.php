@@ -2,9 +2,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av acneärr - Effektiv Behandling | AcneSpecialisten';
-$seo_description = 'Utforska de mest effektiva behandlingsmetoderna för acneärr. Få skräddarsydda råd, tips, och expertis från Acnespecialisten för att behandla och minska acneärr.';
-$seo_keywords = 'behandling av acneärr, acneärrbehandling, metod för acneärrbehandling, laserbehandling för acneärr, microneedling, kemisk peeling';
+$seo_title = 'Få bort acneärr effektivt';
+$seo_description = 'Behandla din acneärr hos AcneSpecialisten, vi har 30 års erfarenhet av att ta bort acneärr, börja din resa med en gratis konsultation i stockholm eller online';
+$seo_keywords = 'behandling av acneärr, acneärrbehandling, metod för acneärrbehandling, ta bort acneärr, få bort acneärr';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -215,24 +215,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för acneärr?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för acneärr, inklusive laserbehandling, kemisk peeling och microneedling.'
+            title: 'Kan man få bort röda acneärr?',
+            text: 'Ja, det är möjligt att minska eller få bort röda acneärr. Röda ärr, ofta ett resultat av postinflammatorisk hyperpigmentering, kan behandlas med olika metoder såsom kemisk peeling, laserbehandling och microneedling som bidrar till att ljusa upp huden och minska rodnaden. Det är viktigt att konsultera med en hudterapeut för att bestämma den mest effektiva behandlingen baserat på din hudtyp och ärrbildningens svårighetsgrad.'
         ),
         new Question(
-            title: 'Hur lång tid tar en behandling av acneärr hos Acnespecialisten?',
-            text: 'En behandling av acneärr hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
+            title: 'Vilken metod är bäst mot acneärr?',
+            text: 'Den bästa metoden mot acneärr beror på ärrbildningens typ och djup. Laserbehandlingar är ofta effektiva för atrofiska ärr (gropar), medan kemisk peeling kan vara mer fördelaktigt för hyperpigmentering (fläckar). Microneedling är en annan behandling som kan vara effektiv för olika typer av acneärr genom att stimulera hudens naturliga läkningsprocess och öka kollagenproduktionen. Det är viktigt att konsultera med en hudvårdsspecialist för att fastställa vilken metod som är mest lämplig för just dina behov.'
         ),
         new Question(
-            title: 'Hur många behandlingar behövs för att se resultat på acneärr?',
-            text: 'Antalet behandlingar som behövs för att se resultat på acneärr varierar beroende på ärrskadans omfattning och din hudtyp. Genomsnittligt antal behandlingar är mellan 3-8 stycken.'
+            title: 'Finns det kräm mot acneärr?',
+            text: 'Ja, det finns krämer som är utformade för att behandla acneärr såsom Cyspera Creme. Dessa krämer kan innehålla ingredienser som retinol, vitamin C, glykolsyra, och salicylsyra, vilka alla kan hjälpa till att ljusa upp ärr och främja hudförnyelse. Krämer kan vara särskilt effektiva för lättare ärr och missfärgningar. För bästa resultat är det ofta rekommenderat att använda dessa krämer som en del av en omfattande hudvårdsrutin och i kombination med professionella behandlingar.'
         ),
         new Question(
-            title: 'Är behandlingarna för acneärr smärtsamma?',
-            text: 'Behandlingarna för acneärr hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar ärrade områden kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
+            title: 'Hur många behandlingar behövs för att få bort sina acneärr?',
+            text: 'Antalet behandlingar som krävs för att få bort acneärr varierar beroende på ärrtyp, djup, och den valda behandlingsmetoden. Generellt sett kan lättare ärr kräva några få behandlingar, medan djupare ärr kan kräva flera sessioner för att uppnå önskade resultat. Det är viktigt att ha realistiska förväntningar och diskutera en behandlingsplan med din hudvårdsspecialist, som kan ge en uppskattning baserad på din specifika situation.'
         ),
         new Question(
-            title: 'Kan alla hudtyper behandlas för acneärr hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar för acneärr som passar alla hudtyper.'
+            title: 'Gör det ont att ta bort acneärr?',
+            text: 'Upplevelsen av smärta eller obehag varierar beroende på behandlingsmetod och individuell smärttolerans. Vissa behandlingar, såsom laser och microneedling, kan orsaka en viss nivå av obehag under proceduren, men smärtlindring i form av lokalbedövning kan ofta användas för att minska obehaget. Kemisk peeling och användning av krämer orsakar generellt sett mindre obehag. Din hudvårdsspecialist kan informera dig om vad du kan förvänta dig av behandlingen och hur eventuellt obehag hanteras.'
         ),
     ),
 );
