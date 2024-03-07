@@ -643,7 +643,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                   title: 'Vad ska jag tänka på efter behandling?',
                                   text: '<p class="p200">Efter din aknebehandling hos AcneSpecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
                                         
-                                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskyddsmedel och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på AcneSpecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
+                                        <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskydd och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på AcneSpecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
                             ),
                             new Question(
                                   title: 'Eftervård efter behandlingen?',
