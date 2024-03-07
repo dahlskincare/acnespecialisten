@@ -68,7 +68,6 @@ $treat_url = '/laser-acnearr.php';
 $treat_url_label = 'Se ärrbehandlingar';
 $treat_url_title = 'klicka här för att se våra ärrbehandlingar';
 
-
 $services = array(
 
     new Service(
