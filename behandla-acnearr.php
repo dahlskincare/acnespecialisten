@@ -39,7 +39,7 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi behandlar och tar bort acneärr?';
+$about_title = 'Hur vi behandlar och tar bort acneärr';
 
 $about_content = '<p class="p200">Att behandla och minska synligheten av acneärr kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera acneärr. Med vår kostnadsfria hudkonsultation identifierar vi skadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
 
