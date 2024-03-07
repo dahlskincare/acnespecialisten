@@ -62,9 +62,9 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla acneärr";
 
-$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina acneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina acneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga reparationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och hudton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
 
-$treat_url = 'gratis-hudkonsultation.php';
+$treat_url = '/laser-acnearr.php';
 $treat_url_label = 'Se ärrbehandlingar';
 $treat_url_title = 'klicka här för att se våra ärrbehandlingar';
 
@@ -76,7 +76,7 @@ $services = array(
         image_large: '/bilder/behandlingar/872x456/laser-mot-hudproblem.webp',
         image_title: 'Kund som genomgår laserbehandling mot acneärr',
         image_alt: 'Bild av laserbehandling mot acneärr hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot acneärr',
+        title: 'Laserbehandling mot acneärr',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array(),
