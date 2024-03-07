@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Portömning',
     duration: '60 min',
     price: 'Från 799 kr',
-    content: '',
+    content: '<p class="p200">Portömning är en effektiv ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och akne. Denna behandling utförs bäst av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Portömning',
