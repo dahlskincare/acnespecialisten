@@ -2,9 +2,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Rosaceabehandling - Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om rosacea, från behandling till hur man förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, symptom på rosacea';
+$seo_title = 'Rosacea behandling och förebyggande';
+$seo_description = 'Behandla din arosacea hos AcneSpecialisten, vi har 30 års erfarenhet av att ta bort rosacea, börja din resa med en gratis konsultation i stockholm eller online';
+$seo_keywords = 'rosaceabehandling, rosacea behandling, ta bort orsacea, få bort rosacea';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
@@ -541,20 +541,28 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                     <?php $faq_categories = array(
                         'Behandling mot rosacea' => array(
                             new Question(
-                                title: 'Vilka är de mest effektiva hudvårdsprodukterna för att lindra symtom på rosacea?',
-                                text: '<p class="p200">De mest effektiva hudvårdsprodukterna för att lindra rosaceasymptom är ofta de som lugnar huden och minskar inflammation. Dessutom kan produkter med solskyddsfaktor (SPF) hjälpa till att skydda huden mot UV-strålar, vilket kan förvärra rosaceasymptom.</p>'
+                                title: 'Vad är rosacea behandling med laser?',
+                                text: '<p class="p200">Rosacea behandling med laser innebär användning av laserljus för att selektivt målriktat behandla de blodkärl som bidrar till rosaceans rodnad och synlighet. Denna metod hjälper till att minska rodnaden och förbättra hudens övergripande utseende genom att skonsamt och effektivt minska synligheten av blodkärlen. </p>'
                             ),
                             new Question(
-                                title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
-                                text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>'
+                                title: 'Kan man behandla rosacea under graviditet?',
+                                text: '<p class="p200">Under graviditet är det viktigt att närma sig rosaceabehandling med försiktighet, då vissa behandlingsmetoder och produkter kanske inte är lämpliga. Det finns dock milda och säkra alternativ för att hantera rosacea under denna period.</p>'
                             ),
                             new Question(
-                                title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
-                                text: '<p class="p200">Regelbundna ansiktsbehandlingar kan spela en nyckelroll i hanteringen av rosacea. De kan hjälpa till att hålla huden ren, minska inflammation och rodnad, återfukta huden och stärka hudbarriären. Genom att göra dessa behandlingar till en regelbunden del av din hudvårdsrutin kan du hjälpa till att hålla dina rosaceasymptom under kontroll.</p>'
+                                title: 'Hur många behandlingar behövs?',
+                                text: '<p class="p200">Antalet behandlingar som behövs för rosacea varierar beroende på individens hudtillstånd och svårighetsgraden av symtomen. Vissa kan uppleva förbättringar efter endast några sessioner, medan andra kan behöva fler behandlingar för optimala resultat.</p>'
                             ),
                             new Question(
-                                title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
-                                text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>'
+                                title: 'Gör behandlingen ont?',
+                                text: '<p class="p200">Rosaceabehandlingar är utformade för att vara så bekväma som möjligt. Vissa kunder kan uppleva en lätt stickande känsla under behandlingar som laser, men detta är oftast övergående och hanterbart. Vi strävar efter att göra din behandling så smärtfri som möjligt och kan diskutera smärtlindringsalternativ under din kostnadsfria konsultation.</p>'
+                            ),
+                            new Question(
+                                title: 'Kan jag behandla rosacea hemma?',
+                                text: '<p class="p200">Det finns produkter och rutiner för hemmabruk som kan hjälpa till att hantera milda rosaceasymtom. Dessa inkluderar användning av skonsamma hudvårdsprodukter och solskydd. För att få en skräddarsydd rekommendation baserat på dina unika behov.</p>'
+                            ),
+                            new Question(
+                                title: 'Vilken är den bästa rosacea behandlingen?',
+                                text: '<p class="p200">Den "bästa" behandlingen för rosacea beror helt på individens hudtillstånd och symtomens svårighetsgrad. Det finns många effektiva behandlingsalternativ, från laserbehandlingar till hudvårdsprodukter. Upptäck vilken metod som är mest effektiv för dig genom att boka en kostnadsfri konsultation hos Acnespecialisten, där vi kan erbjuda en personlig behandlingsplan.</p>'
                             ),
                         ),
 
