@@ -130,7 +130,7 @@ $products = array(
         url_label: 'Utforska hudvårdsprodukter mot rosacea',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
         price: 'Acnespecialistens hudvårdsprodukter mot rosacea - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga rosacea med rätt hudvårdsprodukter är avgörande för att upprätthålla en balanserad, lugn hud utan rodnad. På Acnespecialisten rekommenderar vi en daglig hudvårdsrutin utformad specifikt för att möta behoven hos personer med rosacea. Genom att integrera dessa produkter i din dagliga vård, kan du stärka hudens naturliga barriär, minska symtom på rodnad och irritation, och effektivt förhindra förvärring av tillståndet. Denna rutin är lika viktig som regelbundna besök hos oss, eftersom den hjälper till att hålla din hud i bästa möjliga skick och bidrar till en långsiktig lindring av rosacea-symtom.</p>',
+        content: '<p class="p200">Att förebygga rosacea med rätt hudvårdsprodukter är avgörande för att upprätthålla en balanserad, lugn hud utan rodnad. På AcneSpecialisten rekommenderar vi en daglig hudvårdsrutin utformad specifikt för att möta behoven hos personer med rosacea. Genom att använda dessa produkter i din dagliga hudvårdsrutin, kan du stärka hudens naturliga barriär, minska symtom på rodnad och irritation, och effektivt förhindra förvärring av tillståndet. Denna rutin är lika viktig som regelbundna klinikbesök, eftersom den hjälper till att hålla din hud i bästa möjliga skick och bidrar till en långsiktig lindring av rosacea-symtom.</p>',
     ),
 );
 
