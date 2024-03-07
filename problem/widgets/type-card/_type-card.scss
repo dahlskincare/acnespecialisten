@@ -3,6 +3,7 @@
 @import '../../../styles/util/sizes';
 
 .type-card-widget {
+    position: relative;
     margin-top: $m;
     padding: $xl;
     border: 1px solid $light-200;
@@ -31,5 +32,11 @@
 
     .p200 {
         color: $dark-200;
+    }
+
+    .icon {
+        position: absolute;
+        top: $s;
+        right: $xxs;
     }
 }

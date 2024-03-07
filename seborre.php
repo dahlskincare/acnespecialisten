@@ -688,13 +688,11 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
 
                               <?php foreach ($akas as $aka) { ?>
-                                    <div>
-                                          <?php if (isset($aka->url)) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright"><?php echo $aka->label ?></a>
-                                          <?php } else { ?>
-                                                <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
-                                          <?php } ?>
-                                    </div>
+                                    <?php if (isset($aka->url)) { ?>
+                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright"><?php echo $aka->label ?></a>
+                                    <?php } else { ?>
+                                          <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
+                                    <?php } ?>
                               <?php } ?>
                               <hr class="mt-xl" />
                               <p class="mt-m p200">
