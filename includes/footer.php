@@ -68,15 +68,15 @@
                     <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" rel="nofollow" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
                 <div class="salon-card">
-                        <div class="flex-row">
-                            <img src="images/salons/profile-sundbyberg.jpg" alt="Fasaden på AcneSpecialistens klinik på Sundbyberg" title="AcneSpecialisten Sundbyberg" width="102" height="102">
-                            <div>
-                                <h2>Sundbyberg</h2>
-                                <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                            </div>
+                    <div class="flex-row">
+                        <img src="images/salons/profile-sundbyberg.jpg" alt="Fasaden på AcneSpecialistens klinik på Sundbyberg" title="AcneSpecialisten Sundbyberg" width="102" height="102">
+                        <div>
+                            <h2>Sundbyberg</h2>
+                            <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
                         </div>
-                        <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                     </div>
+                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" rel="nofollow" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                </div>
             </div>
             <div id="footer-links">
                 <div class="columns is-mobile is-gapless">
@@ -157,7 +157,7 @@
             <div id="footer-bottom">
                 <div class="copy-n-cookies">
                     <p>&copy;
-                        <?php echo date('Y') ?> AcneSpecialisten Sverige AB
+                        <?php echo date('Y') ?> Acnespecialisten
                     </p>
                     <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
                     <div id="language-selector">
