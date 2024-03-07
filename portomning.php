@@ -67,7 +67,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är portömning?';
+$description_title = 'Vad är portömning för ansiktsbehandling?';
 $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att målmedvetet angripa och reducera pormaskar, och ge dig en långvarig behandlingsmetod för en problemfri hy. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
     <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
 
