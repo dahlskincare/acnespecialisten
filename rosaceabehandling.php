@@ -63,7 +63,7 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla aktiv rosacea";
 
-$treat_content = '<p class="p200">När din typ av rosacea har identifierats, påbörjar vi fas två: behandling av den aktiva rosacean. Här är målet framför allt att lindra inflammationen och rodnaden som är karaktäristisk för tillståndet. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket optimerar resultaten och minimerar obehaget. Genom denna process minskar vi inflammation, stärker hudens barriär, och balanserar hudens känslighet, vilket över tid leder till en minskning av rosaceasymptomen. Behandlingsplanen anpassas löpande efter din huds respons.</p>';
+$treat_content = '<p class="p200">När din typ av rosacea har identifierats, påbörjar vi fas två: behandling av den aktiva rosacean. Här är målet framför allt att lindra inflammationen och rodnaden som är karaktäristiskt för tillståndet. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket optimerar resultaten och minimerar obehaget. Genom denna process minskar vi inflammation, stärker hudens barriär, och balanserar hudens känslighet, vilket över tid leder till en minskning av rosaceasymptomen. Behandlingsplanen anpassas löpande efter din huds respons.</p>';
 
 $services = array(
     new Service(
@@ -74,9 +74,9 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Rosacea',
         duration: '60 minuter',
-        price: 'Pris från 799 kr',
+        price: 'Pris från 1295 kr',
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        content: '<p class="p200">Ansiktsbehandling mot rosacea på Acnespecialisten syftar till att lugna huden, minska rodnad och inflammation. Behandlingen inleds med en skonsam rengöring, följt av behandlingar som är anpassade för att stärka hudens barriär och minska symtomen av rosacea. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig hud eller hud med rosacea.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot rosacea på Acnespecialisten syftar till att lugna huden, minska rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig hud eller hud med rosacea.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
         consultation_url_label: 'Boka konsultation',
@@ -99,8 +99,8 @@ $services = array(
         image_title: 'Klient som genomgår IPL-behandling mot rosacea',
         image_alt: 'Bild av IPL-behandling mot rosacea hos Acnespecialisten',
         title: 'Effektiv IPL-behandling mot Rosacea',
-        duration: '30-60 min',
-        price: '1295 kr',
+        duration: '50 min',
+        price: '2595 kr',
         content: '<p class="p200">IPL-behandling för rosacea hos Acnespecialisten fungerar genom att använda ljuspulser för att minska rodnad och små blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
         consultation_url_label: 'Boka konsultation',
