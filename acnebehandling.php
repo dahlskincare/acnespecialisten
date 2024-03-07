@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Aknebehandlingar som effektivt behandlar och förebygger akne';
 $seo_description = 'Boka en aknebehandling i Stockholm! Vi erbjuder ✓Kostnadsfri konsultation ✓Skräddarsydd behandling ✓Personlig hudvårdsrutin. Behandla akne hos oss →';
-$seo_keywords = 'akne, aknebehandling, ';
+$seo_keywords = 'akne, aknebehandling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
