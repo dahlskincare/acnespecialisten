@@ -311,7 +311,7 @@ $big_types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för PRX-T33';
-$treatment_areas_text = '<p class="p200">PRX-T33 är en avancerad form av kemisk peeling som effektivt används för att behandla och förbättra hudens tillstånd i olika områden. Denna unika behandling är särskilt lämplig för ansiktet, halsen, dekolletaget och ryggen, där den kan bidra till att förbättra hudens textur och utseende.</p>';
+$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
