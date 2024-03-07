@@ -142,7 +142,7 @@ $treatment_areas = array(
     ),
 );
 
-$types_title = 'Ansiktsbehandlingar mot problemhy';
+$types_title = 'Portömning mot hudproblem';
 $types_description = '';
 $types = array(
     new Service(
