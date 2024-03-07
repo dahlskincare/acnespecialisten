@@ -99,6 +99,32 @@ $top_articles = array(
     ),
 );
 
+$types_title = '';
+$types_description = '';
+$big_types = array(
+    new Service(
+        title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
+        duration: null,
+        price: null,
+        content: '<p class="p200">Multifuzion är en innovativ behandling som kombinerar kraften hos microneedling med fördelarna av en Skinbooster, för en omfattande hudförbättring. Behandlingen inleds med microneedling, där fina nålar skapar mikrokanaler i huden. Denna teknik främjar hudens egen läkningsförmåga och stimulerar produktionen av kollagen, vilket leder till en förstärkt hudstruktur och en minskning av ärr och fina linjer.</p>
+        <p class="p200 mt-m">Direkt efter microneedling tillämpas Skinbooster. De mikrokanaler som skapas under microneedling möjliggör för Infuzion-serumet, som är laddat med hyaluronsyra och vitala näringsämnen, att penetrera djupare in i huden. Detta intensifierar hydreringen och näringsförsörjningen till hudcellerna, vilket resulterar i en djupare och mer långvarig effekt.</p>
+        <p class="p200 mt-m">Multifuzion är en utmärkt behandling för att adressera en rad hudproblem som åldrande, torrhet, ojämn hudton och struktur. Genom att kombinera dessa två kraftfulla behandlingar ger Multifuzion en omfattande förbättring av huden, inte bara i utseende utan även i dess struktur och kvalitet, vilket ger en mer ungdomlig och strålande lyster.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Förstärk din Microneedling med Skinbooster',
+        image_title: 'Förstärk din Microneedling med Skinbooster',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
+        consultation_url_label: 'Boka hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=infuzion',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka tid för behandling',
+        icons: array(),
+        procedures: array()
+    ),
+);
+
+
 $treatment_areas_title = 'Behandlingsområden för Skinbooster';
 $treatment_areas_text = '<p class="p200">Skinbooster kan anvädnas på flera delar av kroppen för fina resultat.</p>';
 $treatment_areas = array(
@@ -203,16 +229,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'boost' => new Article(
-        title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
-        image_title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
-        content: '<p class="p200">Multifuzion är en innovativ behandling som kombinerar kraften hos microneedling med fördelarna av en Skinbooster, för en omfattande hudförbättring. Behandlingen inleds med microneedling, där fina nålar skapar mikrokanaler i huden. Denna teknik främjar hudens egen läkningsförmåga och stimulerar produktionen av kollagen, vilket leder till en förstärkt hudstruktur och en minskning av ärr och fina linjer.</p>
-        <p class="p200 mt-m">Direkt efter microneedling tillämpas Skinbooster. De mikrokanaler som skapas under microneedling möjliggör för Infuzion-serumet, som är laddat med hyaluronsyra och vitala näringsämnen, att penetrera djupare in i huden. Detta intensifierar hydreringen och näringsförsörjningen till hudcellerna, vilket resulterar i en djupare och mer långvarig effekt.</p>
-        <p class="p200 mt-m">Multifuzion är en utmärkt behandling för att adressera en rad hudproblem som åldrande, torrhet, ojämn hudton och struktur. Genom att kombinera dessa två kraftfulla behandlingar ger Multifuzion en omfattande förbättring av huden, inte bara i utseende utan även i dess struktur och kvalitet, vilket ger en mer ungdomlig och strålande lyster.</p>',
-    ),
     'aftercare' => new Article(
         title: 'Eftervård för Skinbooster',
         image_small: '/bilder/process/358x272/skinbooster-eftervard.webp',

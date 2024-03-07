@@ -15,14 +15,18 @@ $image_small = 'images/treatments/small/acne-scars.jpg';
 $image_alt = 'Bild som illustrerar acneärr';
 $image_title = 'Acneärr';
 
-$title = 'Behandling av acneärr';
-$description = 'Här har vi samlat de mest effektiva metoderna för behandling av acneärr som hjälper dig att effektivt. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att få bort acneärr? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
+);
+
+$title = 'Få bort acneärr';
+$description = 'Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars';
 $booking_link_title = 'Boka behandling';
 $consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars';
 $consultation_link_title = 'Boka hudkonsultation';
-
 
 $nav_buttons = array(
     'about' => 'Info',
@@ -35,11 +39,11 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi behandlar och tar bort acneärr?';
+$about_title = 'Hur vi behandlar och tar bort acneärr';
 
-$about_content = '<p class="p200">Att behandla och minska synligheten av acneärr kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera acneärr. Med vår kostnadsfria hudkonsultation identifierar vi skadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och minska synligheten av acneärr kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera acneärr. Med vår kostnadsfria hudkonsultation identifierar vi ärrets djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vi behandlar och tar bort ärrvävnaden effektivt för att återställa hudens jämna yta. Om du också har aktiva akneutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlad akne kan bidra till ytterligare ärrbildning. Vårt team på Acnespecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
+    <p class="p200 mt-xl">Vi behandlar och tar bort ärrvävnaden effektivt för att återställa hudens jämna yta. Om du också har aktiva akneutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlad akne kan bidra till ytterligare ärrbildning. Våra hudterapeuter på AcneSpecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 
 $headline01 = "01. Identifiera dina acneärr";
 
@@ -50,20 +54,19 @@ $define_image_title = 'Hur vi tar bort och behandlar acneärr?';
 $define_image_alt = 'Hur vi behandlar och tar bort acneärr?';
 $define_image_title = 'Hur vi behandlar och tar bort acneärr?';
 
-$define_content = '<p class="p200">Det första steget i vår process för att behandla acneärr är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
+$define_content = '<p class="p200">Det första steget i vår process för att behandla acneärr är att kartlägga och analysera dina ärrs omfattning, färg och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
-$define_consultation_link = "gratis-hudkonsultation.php";
+$define_consultation_link = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars";
 $define_consultation_link_label = "Boka Gratis Konsultation för acneärr";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för acneärr";
 
 $headline02 = "02. Behandla acneärr";
 
-$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina acneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina acneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga reparationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och hudton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
 
-$treat_url = 'gratis-hudkonsultation.php';
+$treat_url = '/laser-acnearr.php';
 $treat_url_label = 'Se ärrbehandlingar';
 $treat_url_title = 'klicka här för att se våra ärrbehandlingar';
-
 
 $services = array(
 
@@ -72,21 +75,21 @@ $services = array(
         image_large: '/bilder/behandlingar/872x456/laser-mot-hudproblem.webp',
         image_title: 'Kund som genomgår laserbehandling mot acneärr',
         image_alt: 'Bild av laserbehandling mot acneärr hos Acnespecialisten',
-        title: 'Effektiv laserbehandling mot acneärr',
-        duration: '30-60 min',
-        price: '1295 kr',
+        title: 'Laser mot acneärr',
+        duration: '90 min',
+        price: '4595 kr',
         icons: array(),
-        content: '<p class="p200">Laserbehandling för acneärr hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
+        content: '<p class="p200">Laserbehandling för acneärr hos AcneSpecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot acneärr',
-        url: '/laser-arr.php',
+        url: '/laser-acnearr.php',
         url_label: 'Läs mer om laser mot acneärr',
         url_title: 'Läs mer om laser mot acneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot acneärr nu',
-        short_title: 'Laser mot ärr'
+        short_title: 'Laser mot acneärr'
     ),
 
     new Service(
@@ -95,10 +98,10 @@ $services = array(
         image_title: 'Utförande av kemisk peelingbehandling för acneärr',
         image_alt: 'Bild på kemisk peelingbehandling mot acneärr hos Acnespecialisten',
         title: 'Kemisk peeling mot acneärr',
-        duration: '30-60 min',
+        duration: '30 min',
         price: '1295 kr',
         icons: array(),
-        content: '<p class="p200">Kemisk peeling för acneärr på Acnespecialisten använder en speciell lösning som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
+        content: '<p class="p200">Kemisk peeling för acneärr på AcneSpecialisten använder en anpassad syra som appliceras på huden för att avlägsna skadade yttre skikt, vilket ger plats åt ny, jämnare hud att växa fram. Detta bidrar till att reducera utseendet av ärrbildning och förbättrar hudens textur.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot acneärr',
@@ -116,9 +119,9 @@ $services = array(
         image_large: '/bilder/behandlingar/872x456/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för acneärr',
         image_alt: 'Bild på microneedlingbehandling mot acneärr hos Acnespecialisten',
-        title: 'Effektiv microneedling mot acneärr',
-        duration: '30-60 min',
-        price: '1295 kr',
+        title: 'Microneedling mot acneärr',
+        duration: '50 min',
+        price: '2595 kr',
         icons: array(),
         content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot acneärr som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen, vilket hjälper till att fylla ut och jämna ut ärrade områden.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',

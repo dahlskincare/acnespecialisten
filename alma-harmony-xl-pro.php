@@ -187,8 +187,8 @@ $types = array(
 
     new Service(
         title: 'Harmony XL Pro mot Aktiv Acne',
-        duration: '60 minuter',
-        price: '3595 kr',
+        duration: '50 minuter',
+        price: '2595 kr',
         content: 'Harmony XL Pro-lasern behandlar aktiv acne genom att angripa acnebakterier och minska inflammation, vilket resulterar i en klarare och friskare hud.',
         image_small: 'bilder/problem/102x102/acne.webp',
         image_large: 'bilder/problem/200x200/acne.webp',
