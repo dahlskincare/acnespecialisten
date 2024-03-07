@@ -134,7 +134,7 @@ $products = array(
     ),
 );
 
-$headline04 = '04. Behandla Ytliga Blodkärl';
+$headline04 = '04. Behandla Ytliga Blodkärl från rosacea';
 
 $repair_image_small = '/bilder/behandlingar/358x274/ipl.webp';
 $repair_image_large = '/bilder/behandlingar/872x456/ipl.webp';
