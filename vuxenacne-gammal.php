@@ -279,8 +279,8 @@ $specialists = array(
                         <h2 class="h500 l10n">Treatment approach</h2>
                         <?php
                         $approach_cards = array(
-                            new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'hudkonsultation'),
-                            new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments'),
+                            new ApproachCard('01', 'Define', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'Get a free consultation', 'hudkonsultation', 'Get a free consultation'),
+                            new ApproachCard('02', 'Treat', 'In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.', 'View treatments', 'treatments', 'View treatments'),
                         );
                         ?>
                         <div class="columns is-gapless">
