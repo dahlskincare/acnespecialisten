@@ -120,7 +120,6 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
@@ -128,7 +127,6 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför grundliga och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
@@ -136,7 +134,6 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
@@ -144,7 +141,6 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
@@ -156,247 +152,187 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 $types_title = 'Olika typer av akne';
 
 $type_categories = array(
-      new BasedTypeCategory(
+      "acne_age" => new BasedTypeCategory(
             title: 'Akne baserat på ålder',
             content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
                   new BasedType(
                         title: 'Tonårsakne',
                         subtitle: 'Acne vulgaris',
-
                         image_url: 'bilder/symptom/102x102/tonarsakne.webp',
                         image_alt: 'Bild av tonårsakne',
                         image_title: 'Akne hos tonåringar',
-
                         url: 'tonarsacne.php',
                         url_title: 'Utforska information om tonårsakne'
                   ),
                   new BasedType(
                         title: 'Vuxenakne',
                         subtitle: 'Acne tarda',
-
                         image_url: 'bilder/symptom/102x102/vuxenakne.webp',
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
-
                         url: 'vuxenacne.php',
                         url_title: 'Utforska information om vuxenakne'
                   ),
                   new BasedType(
                         title: 'Barnakne',
                         subtitle: 'Acne neonatorum',
-
                         image_url: 'bilder/symptom/102x102/barnakne.webp',
                         image_alt: 'Bild av barnakne',
                         image_title: 'Akne hos barn',
-
-                        //url: 'problem/akne/typer/barnakne',
-                        //url_title: 'Utforska information om barnakne'
                   ),
 
             )
       ),
-      new BasedTypeCategory(
+      "acne_severity" => new BasedTypeCategory(
             title: 'Akne baserat på svårighetsgrad',
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
                         title: 'Mild akne',
                         subtitle: 'Acne comedonica',
-
                         image_url: 'bilder/symptom/102x102/mild-akne.webp',
                         image_alt: 'Bild av mild akne',
                         image_title: 'Mild akne exemplifierad',
-
-                        //url: 'problem/akne/typer/mild-akne',
-                        //url_title: 'Utforska mer information om mild akne'
                   ),
                   new BasedType(
                         title: 'Medelsvår akne',
                         subtitle: 'Acne papulopustulosa',
-
                         image_url: 'bilder/symptom/102x102/medelsvar-akne.webp',
                         image_alt: 'Bild av medelsvår akne',
                         image_title: 'Medelsvår akne exemplifierad',
-
-                        //url: 'problem/akne/typer/medel-akne',
-                        //url_title: 'Utforska mer information om medelsvår akne'
                   ),
                   new BasedType(
                         title: 'Svår akne',
                         subtitle: 'Acne nodulocystica',
-
                         image_url: 'bilder/symptom/102x102/svar-akne.webp',
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
-
-                        //url: 'problem/akne/typer/svar-akne',
-                        //url_title: 'Utforska mer information om svår akne'
                   ),
                   new BasedType(
                         title: 'Mycket svår akne',
                         subtitle: 'Acne conglobata',
-
                         image_url: 'bilder/symptom/102x102/mycket-svar-akne.webp',
                         image_alt: 'Bild av mycket svår akne',
                         image_title: 'Mycket svår akne exemplifierad',
-
-                        //url: 'problem/akne/typer/mycket-svar-akne',
-                        //url_title: 'Utforska mer information om mycket svår akne'
                   ),
             )
       ),
-      new BasedTypeCategory(
+      "acne_external_factors" => new BasedTypeCategory(
             title: 'Akne baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
                         title: 'Stress acne',
                         subtitle: 'Acne orsakat av stress',
-
                         image_url: 'bilder/symptom/102x102/stress-akne.webp',
                         image_alt: 'Bild av stress akne',
                         image_title: 'Exempel på stress akne',
-
                         url: 'stress-acne.php',
                         url_title: 'Lär dig mer om stress akne',
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
                         subtitle: 'Akne orsakad av hormoner',
-
                         image_url: 'bilder/symptom/102x102/hormonell-akne.webp',
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
-
                         url: 'hormonell-acne.php',
                         url_title: 'Utforska mer om hur hormoner kan framkalla akne',
                   ),
                   new BasedType(
                         title: 'Mallorca akne',
                         subtitle: 'Acne aestivalis',
-
                         image_url: 'bilder/symptom/102x102/mallorca-akne.webp',
                         image_alt: 'Bild av Mallorca akne',
                         image_title: 'Exempel på Mallorca akne',
-
                         url: 'mallorca-acne.php',
                         url_title: 'Läs mer om hur solen kan orsaka Mallorca akne',
                   ),
                   new BasedType(
                         title: 'Inflammerad Akne',
                         subtitle: 'Acne pustulosa',
-
                         image_url: 'bilder/symptom/102x102/inflammerad-akne.webp',
                         image_alt: 'Bild av inflammation akne',
                         image_title: 'Exempel på inflammation akne',
-
                         url: 'inflammation-acne.php',
                         url_title: 'Lär dig mer om inflammation akne',
                   ),
                   new BasedType(
                         title: 'Kosmetika akne',
                         subtitle: 'Acne cosmetica',
-
                         image_url: 'bilder/symptom/102x102/kosmetika-akne.webp',
                         image_alt: 'Bild av kosmetika akne',
                         image_title: 'Exempel på kosmetika akne',
-
-                        //url: 'problem/akne/typer/kosmetika-akne',
-                        //url_title: 'Lär dig mer om hur kosmetika kan ge akne',
                   ),
                   new BasedType(
                         title: 'Akne från pillande',
                         subtitle: 'Acne exoriée ',
-
                         image_url: 'bilder/symptom/102x102/pill-akne.webp',
                         image_alt: 'Bild av pill akne',
                         image_title: 'Exempel på pill akne',
-
-                        //url: 'problem/akne/typer/acne-exoriee',
-                        //url_title: 'Läs mer om hur pillande kan leda till akne',
                   ),
                   new BasedType(
                         title: 'Friktionsakne',
                         subtitle: 'Acne mechanica',
-
                         image_url: 'bilder/symptom/102x102/friktions-akne.webp',
                         image_alt: 'Bild av friktions akne',
                         image_title: 'Exempel på friktions akne',
-
-                        //url: 'problem/akne/typer/akne-mekanisk',
-                        //url_title: 'Utforska mer om hur friktion kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Kontaktakne',
                         subtitle: 'Acne venenata',
-
                         image_url: 'bilder/symptom/102x102/kontakt-akne.webp',
                         image_alt: 'Bild av kontaktakne',
                         image_title: 'Exempel på kontaktakne',
-
-                        //url: 'problem/akne/typer/kontakt-akne',
-                        //url_title: 'Utforska mer om hur direktkontakt kan påverka akne',
                   ),
                   new BasedType(
                         title: 'Svampakne',
                         subtitle: 'Fungal acne',
-
                         image_url: 'bilder/symptom/102x102/svamp-akne.webp',
                         image_alt: 'Bild av svampakne',
                         image_title: 'Exempel på svampakne',
-
-                        //url: 'problem/akne/typer/fungal-akne',
-                        //url_title: 'Lär dig mer om hur svamp relateras till akne',
                   ),
 
             )
       ),
-      new BasedTypeCategory(
+      "acne_area" => new BasedTypeCategory(
             title: 'Akne baserat på område',
             content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
             types: array(
                   new BasedType(
                         title: 'Akne i ansiktet',
                         subtitle: 'Acne faciei',
-
                         image_url: 'bilder/symptom/102x102/akne-ansikte.webp',
                         image_alt: 'Bild av akne i ansiktet',
                         image_title: 'Exempel på akne i ansiktet',
-
                         url: 'acne-ansikte.php',
                         url_title: 'Läs mer om akne i ansiktet och dess potentiella behandlingar'
                   ),
                   new BasedType(
                         title: 'Akne på ryggen',
                         subtitle: 'Acne dorsalis',
-
                         image_url: 'bilder/symptom/102x102/akne-rygg.webp',
                         image_alt: 'Bild av akne på ryggen',
                         image_title: 'Exempel på akne på ryggen',
-
                         url: 'acne-rygg.php',
                         url_title: 'Läs mer om akne på ryggen och dess potentiella behandlingar'
                   ),
                   new BasedType(
                         title: 'Akne på bröstet',
                         subtitle: 'Acne pectoralis',
-
                         image_url: 'bilder/symptom/102x102/akne-brost.webp',
                         image_alt: 'Bild av akne på bröstet',
                         image_title: 'Exempel på akne på bröstet',
-
                         url: 'acne-brost.php',
                         url_title: 'Läs mer om akne på bröstet och dess potentiella behandlingar'
                   ),
                   new BasedType(
                         title: 'Akne runt munnen',
                         subtitle: 'Perioral dermatit',
-
                         image_url: 'bilder/problem/102x102/perioral-dermatit.webp',
                         image_alt: 'Akne runt munnen',
                         image_title: 'Exempel på akne runt munnen',
-
                         url: '/perioral-dermatit.php',
                         url_title: 'Läs mer om akne runt munnen och möjliga behandlingar'
                   ),
@@ -409,7 +345,7 @@ $type_categories = array(
 $symptoms_title = 'Akne symptom';
 
 $symptoms = array(
-      new Symptom(
+      "open_comedones" => new Symptom(
             name: 'Öppna komedoner',
             aka: 'Svarta pormaskar',
             content: 'Svarta pormaskar är mörka prickar som bildas av talg och döda hudceller, vilka oxiderar och blir mörka, oftast förekommande på näsa, kinder och panna.',
@@ -422,7 +358,7 @@ $symptoms = array(
             image_alt: 'Ansikte med öppna komedoner (svarta pormaskar)',
             image_title: 'Öppna komedoner (svarta pormaskar)'
       ),
-      new Symptom(
+      "closed_comedones" => new Symptom(
             name: 'Stängda komedoner',
             aka: 'Vita pormaskar',
             content: 'Vita pormaskar, eller stängda komedoner, är små utbuktningar som bildas när porer blockeras under hudytan, skyddade från oxidation, vanligtvis synliga på pannan och kinderna.',
@@ -435,7 +371,7 @@ $symptoms = array(
             image_alt: 'Ansikte med stängda komedoner (vita pormaskar)',
             image_title: 'Stängda komedoner (vita pormaskar)'
       ),
-      new Symptom(
+      "papules" => new Symptom(
             name: 'Papler',
             aka: 'Röda finnar',
             content: 'Papler är små, röda inflammerade blemmor som uppstår från bakterieinfektioner i hårsäckar, känsliga vid beröring och vanliga på ansikte, nacke, bröst och rygg.',
@@ -448,7 +384,7 @@ $symptoms = array(
             image_alt: 'Ansikte med papler (röda finnar)',
             image_title: 'Papler (röda finnar)'
       ),
-      new Symptom(
+      "pustules" => new Symptom(
             name: 'Pustler',
             aka: 'Gula finnar',
             content: 'Pustler är inflammerade, gula blemmor med en varfylld mitt, resultatet av bakterier och talg, ofta smärtsamma och vanliga på ansikte, nacke, bröst och rygg.',
@@ -461,7 +397,7 @@ $symptoms = array(
             image_alt: 'Ansikte med pustler (gula finnar)',
             image_title: 'Pustler (gula finnar)'
       ),
-      new Symptom(
+      "nodules" => new Symptom(
             name: 'Noduler',
             aka: 'Innåtfinnar',
             content: 'Noduler är stora, smärtsamma blemmor från djup infektion i hårsäckar, större än 5 mm i diameter, och vanliga på ansikte, bröst och rygg.',
@@ -474,7 +410,7 @@ $symptoms = array(
             image_alt: 'Ansikte med noduler (innåtfinnar)',
             image_title: 'Noduler (innåtfinnar)'
       ),
-      new Symptom(
+      "cysts" => new Symptom(
             name: 'Cystor',
             aka: 'Bölder',
             content: 'Cystor är stora, varfyllda och smärtsamma blemmor från djup hårsäcksinfektion, mjuka eller fasta vid beröring, ofta större än 5 mm och vanliga på ansikte, bröst och rygg.',
@@ -623,20 +559,13 @@ $products = array(
             duration: null,
             price: 'Pris från 1395 kr',
             content: 'För att effektivt bekämpa och förebygga akne är daglig behandling med rätt produkter och rutiner avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
-
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Produkter designade för behandling av akne',
             image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
-
-            url: '',
-            url_label: '',
-            url_title: '',
-
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot akne',
-
             booking_url_label: 'Köp produkter',
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             booking_url_title: 'Klicka för att köpa produktpaket mot akne',
@@ -651,24 +580,19 @@ $procedures = array(
             duration: '4 behandlingsmetoder',
             price: null,
             content: 'Efter aktiv akne kan man uppleva post-akne, vilket innebär ärr i form av gropar i olika former och fläckar i olika färger på huden där aknen tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
-
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Kvinna som får behandling mot acneärr',
             image_title: 'Reparera acneärr',
-
             url_label: 'Läs mer om behandling mot akneärr',
             url: 'behandla-acnearr.php',
             url_title: 'Läs mer om behandling mot akneärr',
-
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
-
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
             booking_url_title: 'Klicka för att boka tid för behandling mot akneärr',
-
       ),
 );
 $articles = array(
@@ -676,7 +600,6 @@ $articles = array(
             title: 'Varför AcneSpecialisten?!',
             content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja AcneSpecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p>
             <p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
-
             image_small: null,
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?!',
@@ -686,7 +609,6 @@ $articles = array(
             title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar och resultat. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p>
             <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
-
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
@@ -1156,14 +1078,14 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     <h2 class="h500 l10n"><?php echo $types_title ?></h2>
                                     <div class="is-hidden-tablet">
                                           <div class="mt-m mb-xxl" id="type-category-buttons">
-                                                <?php foreach ($type_categories as $type_category) { ?>
-                                                      <a href="javascript:;" class="button b50 grey">
+                                                <?php foreach ($type_categories as $id => $type_category) { ?>
+                                                      <a href="//<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '#' . $id ?>" class="button b50">
                                                             <?php echo $type_category->title ?>
                                                       </a>
                                                 <?php } ?>
                                           </div>
-                                          <?php foreach ($type_categories as $type_category) { ?>
-                                                <div class="type-category">
+                                          <?php foreach ($type_categories as $id => $type_category) { ?>
+                                                <div id="<?php echo $id ?>" class="type-category">
                                                       <h3 class="h300"><?php echo $type_category->title ?></h3>
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
@@ -1196,16 +1118,18 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <section id="symptoms">
                                     <h2 class="h500"><?php echo $symptoms_title ?></h2>
                                     <div class="mt-m is-hidden-tablet" id="symptom-buttons">
-                                          <?php foreach ($symptoms as $symptom) { ?>
-                                                <a href="javascript:;" class="button b50 grey">
+                                          <?php foreach ($symptoms as $id => $symptom) { ?>
+                                                <a href="//<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] . '#' . $id ?>" class="button b50">
                                                       <?php echo $symptom->name ?>
                                                 </a>
                                           <?php } ?>
                                     </div>
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
-                                          <?php foreach ($symptoms as $symptom) { ?>
+                                          <?php foreach ($symptoms as $id => $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <div class="symptom-card-wrapper" id="<?php echo $id ?>">
+                                                            <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      </div>
                                                 </div>
                                           <?php } ?>
                                     </div>

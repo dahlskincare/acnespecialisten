@@ -119,12 +119,16 @@ section#header {
                 a.button {
                     margin-top: $xs;
                     margin-right: $xs;
+                    background-color: $deep-sea-25;
+                    border: 1px solid $deep-sea-25;
+                    color: $deep-sea-400;
                 }
             }
 
             div.type-category {
                 border-top: 1px solid $light-200;
                 padding: $xl3 0;
+                scroll-margin-top: 120px;
 
                 div.type-category-cards {
                     padding-top: $xs;
@@ -152,7 +156,14 @@ section#header {
                 a.button {
                     margin-top: $xs;
                     margin-right: $xs;
+                    background-color: $deep-sea-25;
+                    border: 1px solid $deep-sea-25;
+                    color: $deep-sea-400;
                 }
+            }
+
+            .symptom-card-wrapper {
+                scroll-margin-top: 150px;
             }
         }
 
