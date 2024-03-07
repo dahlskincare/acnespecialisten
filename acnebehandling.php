@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Aknebehandlingar som effektivt behandlar och förebygger akne';
+$seo_title = 'Akne behandling i Stockholm hos AcneSpecialisten';
 $seo_description = 'Boka en aknebehandling i Stockholm! Vi erbjuder ✓Kostnadsfri konsultation ✓Skräddarsydd behandling ✓Personlig hudvårdsrutin. Behandla akne hos oss →';
 $seo_keywords = 'akne, aknebehandling';
 
