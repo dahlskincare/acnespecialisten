@@ -21,7 +21,7 @@ $path_segments = array(
 );
 
 $title = 'Rosacea behandling';
-$description = 'Här har vi samlat de mest effektiva metoderna för rosaceabehandling som hjälper dig att hantera och lindra dina symptom. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">rosaceabehandling</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en lugnare och jämnare hy.';
+$description = 'Här har vi samlat de mest effektiva metoderna för rosaceabehandling som hjälper dig att hantera och lindra dina symptom. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en lugnare och jämnare hy.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea';
 $booking_link_title = 'Boka behandling';
@@ -44,7 +44,7 @@ $nav_buttons = array(
 
 $about_title = 'Hur behandlar man rosacea?';
 
-$about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa verktygen för att effektivt och regelbundet behandla rosacea. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en individuell behandlingsplan för dig.</p>
+$about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa metoderna för att effektivt och regelbundet behandla rosacea. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en individuell behandlingsplan för dig.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att lindra inflammationen och rodnaden, de mest framträdande symptomen av rosacea. Efter att rosacean har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot rosacea för att förhindra framtida utbrott. Vi ser fram emot att bli din guide på resan mot att behandla rosacea och uppnå en klarare, lugnare hy.</p>';
 
