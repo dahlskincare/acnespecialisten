@@ -194,28 +194,32 @@
                                     title: 'Identifiera',
                                     content: 'Vi erbjuder alltid gratis konsultation där du får en personlig hudspecialist och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
                                     button_label: 'Boka gratis hudkonsultation',
-                                    button_url: 'gratis-hudkonsultation.php'
+                                    button_url: 'gratis-hudkonsultation.php',
+                                    button_url_title: 'Boka en kostnadsfri hudkonsultation',
                               ),
                               new ApproachCard(
                                     number: '02',
                                     title: 'Behandla',
                                     content: 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.',
                                     button_label: 'Våra behandlingar',
-                                    button_url: 'behandlingar.php'
+                                    button_url: 'behandlingar.php',
+                                    button_url_title: 'Boka en behandling',
                               ),
                               new ApproachCard(
                                     number: '03',
                                     title: 'Förebygga',
                                     content: 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.',
                                     button_label: 'Se produkter',
-                                    button_url: 'https://dahlskincare.com'
+                                    button_url: 'https://dahlskincare.com',
+                                    button_url_title: 'Besök vår webbshop',
                               ),
                               new ApproachCard(
                                     number: '04',
                                     title: 'Reparera',
                                     content: 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera eventuella ärr med hjälp av maskinbehandlingar som microneedling, laser och IPL för att förbättra hudens struktur.',
                                     button_label: 'Våra ärrbehandlingar',
-                                    button_url: 'behandla-acnearr.php'
+                                    button_url: 'behandla-acnearr.php',
+                                    button_url_title: 'Läs mer om ärrbehandlingar',
                               )
                         );
                         ?>
