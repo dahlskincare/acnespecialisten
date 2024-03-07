@@ -99,6 +99,31 @@ $top_articles = array(
     ),
 );
 
+$types_title = '';
+$types_description = '';
+$big_types = array(
+    new Service(
+        title: 'Multizuion - Infuzion + Microneedling',
+        duration: null,
+        price: null,
+        content: '<p class="p200"><p class="p200">Multifuzion är en avancerad behandlingsmetod som kombinerar effekterna av microneedling och Infuzion skinbooster. Denna behandling börjar med microneedling, en teknik där små nålar skapar mikroskopiska kanaler i huden. Denna process stimulerar hudens naturliga läkningsprocess och ökar kollagenproduktionen, vilket bidrar till förbättrad hudstruktur och minskning av fina linjer och ärr.</p>
+        <p class="p200 mt-m">Efter microneedling följer Infuzion-behandlingen. Tack vare de mikroskopiska kanalerna som skapats under microneedling, kan Infuzion serumet, som är rikt på hyaluronsyra och näringsämnen, tränga djupare ner i huden. Detta maximerar hydreringen och näringstillförseln till hudcellerna, vilket resulterar i en mer intensiv och långvarig effekt. </p>
+        <p class="p200 mt-m">Multifuzion är en idealisk behandling för att effektivt hantera hudproblem som åldrande, torrhet, ojämn hudton och textur, samt för att ge huden en mer ungdomlig och strålande lyster. Denna kombinationsbehandling ger en synergistisk effekt som inte bara förbättrar hudens yttre utseende, men även dess övergripande hälsa och kvalitet.</p>',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Multizuion - Infuzion + Microneedling',
+        image_title: 'Multizuion - Infuzion + Microneedling',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
+        consultation_url_label: 'Boka hudkonsultation',
+        consultation_url_title: 'Boka tid för hudkonsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=infuzion',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka tid för behandling',
+        icons: array(),
+        procedures: array()
+    ),
+);
+
 $treatment_areas_title = 'Behandlingsområden för Infuzion';
 $treatment_areas_text = '<p class="p200">Infuzion är en flexibel metod som kan användas för att behandla flera olika delar av kroppen.</p>';
 $treatment_areas = array(
@@ -203,16 +228,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'boost' => new Article(
-        title: 'Multifuzion - Infuzion + Microneedling',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Multizuion - Infuzion + Microneedling',
-        image_title: 'Multizuion - Infuzion + Microneedling',
-        content: '<p class="p200"><p class="p200">Multifuzion är en avancerad behandlingsmetod som kombinerar effekterna av microneedling och Infuzion skinbooster. Denna behandling börjar med microneedling, en teknik där små nålar skapar mikroskopiska kanaler i huden. Denna process stimulerar hudens naturliga läkningsprocess och ökar kollagenproduktionen, vilket bidrar till förbättrad hudstruktur och minskning av fina linjer och ärr.</p>
-        <p class="p200 mt-m">Efter microneedling följer Infuzion-behandlingen. Tack vare de mikroskopiska kanalerna som skapats under microneedling, kan Infuzion serumet, som är rikt på hyaluronsyra och näringsämnen, tränga djupare ner i huden. Detta maximerar hydreringen och näringstillförseln till hudcellerna, vilket resulterar i en mer intensiv och långvarig effekt. </p>
-        <p class="p200 mt-m">Multifuzion är en idealisk behandling för att effektivt hantera hudproblem som åldrande, torrhet, ojämn hudton och textur, samt för att ge huden en mer ungdomlig och strålande lyster. Denna kombinationsbehandling ger en synergistisk effekt som inte bara förbättrar hudens yttre utseende, men även dess övergripande hälsa och kvalitet.</p>',
-    ),
     'aftercare' => new Article(
         title: 'Eftervård för Infuzion & Multifuzion',
         image_small: '/bilder/process/358x272/infuzion-eftervard.webp',
