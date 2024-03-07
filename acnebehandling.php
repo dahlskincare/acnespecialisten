@@ -98,7 +98,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
         title: 'Laserbehandling mot akne',
         duration: '60 min',
-        price: 'Pris från 2995 kr',
+        price: 'Pris från 2595 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling mot akne fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar talgproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
