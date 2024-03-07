@@ -76,7 +76,7 @@ $services = array(
         duration: '60 minuter',
         price: 'Pris från 1295 kr',
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        content: '<p class="p200">Ansiktsbehandling mot rosacea på Acnespecialisten syftar till att lugna huden, minska rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot rosacea lugnar huden, minskar rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
         consultation_url_label: 'Boka konsultation',
@@ -130,7 +130,7 @@ $products = array(
         url_label: 'Utforska hudvårdsprodukter mot rosacea',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
         price: 'Acnespecialistens hudvårdsprodukter mot rosacea - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga rosacea med produkter är en viktig del av processen för att hålla din hud balanserad, lugn och fri från rodnad. Detta gör vi genom att ta fram en daglig hudvårdsrutin med specifika produkter mot rosacea. Denna rutin hjälper till att hålla din hy balanserad, stärker hudens naturliga barriär och minskar symtom på rodnad och irritation. Denna dagliga vård hjälper till att förhindra förvärring av symtomen och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
+        content: '<p class="p200">Att förebygga rosacea med rätt hudvårdsprodukter är avgörande för att upprätthålla en balanserad, lugn hud utan rodnad. På Acnespecialisten rekommenderar vi en daglig hudvårdsrutin utformad specifikt för att möta behoven hos personer med rosacea. Genom att integrera dessa produkter i din dagliga vård, kan du stärka hudens naturliga barriär, minska symtom på rodnad och irritation, och effektivt förhindra förvärring av tillståndet. Denna rutin är lika viktig som regelbundna besök hos oss, eftersom den hjälper till att hålla din hud i bästa möjliga skick och bidrar till en långsiktig lindring av rosacea-symtom.</p>',
     ),
 );
 
@@ -139,7 +139,7 @@ $headline04 = '04. Behandla Ytliga Blodkärl';
 $repair_image_small = '/bilder/behandlingar/358x274/ipl.webp';
 $repair_image_large = '/bilder/behandlingar/872x456/ipl.webp';
 
-$repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På Acnespecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
+$repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På AcneSpecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
 $repair_url = 'ipl-ytliga-blodkarl.php';
 $repair_url_label = 'Se behandlingar för ytliga blodkärl';
