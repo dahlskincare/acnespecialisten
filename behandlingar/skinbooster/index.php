@@ -99,27 +99,53 @@ $top_articles = array(
     ),
 );
 
+$types_title = 'Microneedling efter hudproblem';
+$types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
+$types = array(
+    new Service(
+        title: 'Microneedling mot Acneärr',
+        duration: '50 minuter',
+        price: '2595 kr',
+        content: 'Vår microneedlingbehandling för acneärr stimulerar kollagenproduktion för att minska synligheten av ärr och förbättra hudens textur.',
+        image_small: 'bilder/problem/102x102/acnearr.webp',
+        image_large: 'bilder/problem/200x200/acnearr.webp',
+        image_alt: 'Microneedling för Acneärr',
+        image_title: 'Microneedling för Acneärr',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka konsultation för behandling av acneärr',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka microneedling för acneärr',
+
+        url: '/microneedling-acnearr.php',
+        url_label: 'Läs mer om microneedling mot acneärr',
+        url_title: 'Läs mer om microneedling mot acneärr',
+    ),
+);
 $big_types = array(
     new Service(
-        title: 'Boosta din Microneedling med PRX-T33-behandling',
+        title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
         duration: null,
         price: null,
-        content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
-            <p class="p200 mt-m">PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en omfattande minskning av fina linjer och ojämnheter.</p>',
+        content: '<p class="p200">Multifuzion är en innovativ behandling som kombinerar kraften hos microneedling med fördelarna av en Skinbooster, för en omfattande hudförbättring. Behandlingen inleds med microneedling, där fina nålar skapar mikrokanaler i huden. Denna teknik främjar hudens egen läkningsförmåga och stimulerar produktionen av kollagen, vilket leder till en förstärkt hudstruktur och en minskning av ärr och fina linjer.</p>
+        <p class="p200 mt-m">Direkt efter microneedling tillämpas Skinbooster. De mikrokanaler som skapas under microneedling möjliggör för Infuzion-serumet, som är laddat med hyaluronsyra och vitala näringsämnen, att penetrera djupare in i huden. Detta intensifierar hydreringen och näringsförsörjningen till hudcellerna, vilket resulterar i en djupare och mer långvarig effekt.</p>
+        <p class="p200 mt-m">Multifuzion är en utmärkt behandling för att adressera en rad hudproblem som åldrande, torrhet, ojämn hudton och struktur. Genom att kombinera dessa två kraftfulla behandlingar ger Multifuzion en omfattande förbättring av huden, inte bara i utseende utan även i dess struktur och kvalitet, vilket ger en mer ungdomlig och strålande lyster.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'Boosta din Microneedling med PRX-T33-behandling',
-        image_title: 'Boosta din Microneedling med PRX-T33-behandling',
+        image_alt: 'Förstärk din Microneedling med Skinbooster',
+        image_title: 'Förstärk din Microneedling med Skinbooster',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP&area=Microneedling+PRX-T33-Boost',
+        booking_url: 'https://acnespecialisten.se/book?flow=microneedling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka tid för behandling',
         icons: array(),
         procedures: array()
     ),
 );
+
 
 $treatment_areas_title = 'Behandlingsområden för Skinbooster';
 $treatment_areas_text = '<p class="p200">Skinbooster kan anvädnas på flera delar av kroppen för fina resultat.</p>';
@@ -225,16 +251,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'boost' => new Article(
-        title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
-        image_title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
-        content: '<p class="p200">Multifuzion är en innovativ behandling som kombinerar kraften hos microneedling med fördelarna av en Skinbooster, för en omfattande hudförbättring. Behandlingen inleds med microneedling, där fina nålar skapar mikrokanaler i huden. Denna teknik främjar hudens egen läkningsförmåga och stimulerar produktionen av kollagen, vilket leder till en förstärkt hudstruktur och en minskning av ärr och fina linjer.</p>
-        <p class="p200 mt-m">Direkt efter microneedling tillämpas Skinbooster. De mikrokanaler som skapas under microneedling möjliggör för Infuzion-serumet, som är laddat med hyaluronsyra och vitala näringsämnen, att penetrera djupare in i huden. Detta intensifierar hydreringen och näringsförsörjningen till hudcellerna, vilket resulterar i en djupare och mer långvarig effekt.</p>
-        <p class="p200 mt-m">Multifuzion är en utmärkt behandling för att adressera en rad hudproblem som åldrande, torrhet, ojämn hudton och struktur. Genom att kombinera dessa två kraftfulla behandlingar ger Multifuzion en omfattande förbättring av huden, inte bara i utseende utan även i dess struktur och kvalitet, vilket ger en mer ungdomlig och strålande lyster.</p>',
-    ),
     'aftercare' => new Article(
         title: 'Eftervård för Skinbooster',
         image_small: '/bilder/process/358x272/skinbooster-eftervard.webp',
