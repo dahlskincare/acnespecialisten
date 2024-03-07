@@ -79,7 +79,7 @@ $services = array(
         duration: '90 min',
         price: '4595 kr',
         icons: array(),
-        content: '<p class="p200">Laserbehandling är den främsta strategin för att korrigera atrofiska ärr, vanligen kända som gropar, som är en följd av akne. Genom att fokusera på djupliggande skikt i huden, bidrar laserbehandlingen inte bara till att minska synligheten av dessa ärr genom att stimulera kollagenproduktionen, utan också genom att främja hudcellsförnyelse. Denna dubbla verkan hjälper till att "fylla ut" groparna och skapar en slätare hudtextur.</p>',
+        content: '<p class="p200">Laserbehandling är den främsta strategin för att korrigera atrofiska ärr, vanligen kända som gropar, som är en följd av aktiv akne. Genom att fokusera på djupliggande skikt i huden, bidrar laserbehandlingen inte bara till att minska synligheten av dessa ärr genom att stimulera kollagenproduktionen, utan också genom att främja hudcellsförnyelse. Denna dubbla verkan hjälper till att "fylla ut" groparna och skapar en slätare hudtextur.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot acneärr',
