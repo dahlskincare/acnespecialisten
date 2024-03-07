@@ -52,6 +52,8 @@ $model = new Service(
     ),
 );
 
+$floating_box = 'Ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar.';
+
 $nav_buttons = array(
     'about' => 'Om portömning',
     'preparing' => 'Förberedelser',
