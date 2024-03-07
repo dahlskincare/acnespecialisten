@@ -44,7 +44,7 @@ $nav_buttons = array(
 
 $about_title = 'Hur behandlar man rosacea?';
 
-$about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa metoderna för att effektivt och regelbundet behandla rosacea. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en individuell behandlingsplan för dig.</p>
+$about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa metoderna för att effektivt behandla rosacea. Under vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapa en individuell behandlingsplan för dig.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att lindra inflammationen och rodnaden, de mest framträdande symptomen av rosacea. Vi skapar en anpassad hudvårdsrutin med produkter mot rosacea för att förhindra framtida utbrott. Behandlingen kombineras med IPL för att effektivt ta bort rodnad och ytliga blodkärl. Vi ser fram emot att bli din guide på resan mot att behandla rosacea och uppnå en klarare, lugnare hy.</p>';
 
@@ -54,7 +54,7 @@ $define_image = '/bilder/behandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar rosacea?';
 $define_image_title = 'Hur vi tar bort och behandlar rosacea?';
 
-$define_content = '<p class="p200">Första steget i vår process att behandla rosacea är att kartlägga din typ av rosacea. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Första steget i vår process att behandla rosacea är att identifiera din typ av rosacea. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. Din personliga hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en effektiv behandlingsplan anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
 $define_consultation_link_label = "Boka Gratis Konsultation för Rosacea";
