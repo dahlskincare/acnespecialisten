@@ -113,15 +113,15 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behand
 
 
 $top_articles = array(
-    'areas' => new Article(
-        title: 'Varför uppstår akne på ryggen?',
-        image_small: null,
-        image_large: null,
-        image_alt: '',
-        image_title: '',
-        content: '<p class="p200">Akne på ryggen kan uppstå genom en kombination av faktorer, där hormonella förändringar ofta spelar en stor roll. Dessa förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer, en primär orsak till akne. Stress är en annan betydande faktor som kan förvärra hudens tillstånd genom att påverka hormonbalansen. Ytterligare en orsak kan vara friktion från kläder och sportutrustning, som exempelvis skydd vid olika sportaktiviteter, vilket kan bidra till aknes uppkomst genom ökad svettning och irritation av huden. akne kan dyka upp inte bara på ryggen utan även på andra delar av kroppen, som bröstet.</p>
+      'areas' => new Article(
+            title: 'Varför uppstår akne på ryggen?',
+            image_small: null,
+            image_large: null,
+            image_alt: '',
+            image_title: '',
+            content: '<p class="p200">Akne på ryggen kan uppstå genom en kombination av faktorer, där hormonella förändringar ofta spelar en stor roll. Dessa förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer, en primär orsak till akne. Stress är en annan betydande faktor som kan förvärra hudens tillstånd genom att påverka hormonbalansen. Ytterligare en orsak kan vara friktion från kläder och sportutrustning, som exempelvis skydd vid olika sportaktiviteter, vilket kan bidra till aknes uppkomst genom ökad svettning och irritation av huden. akne kan dyka upp inte bara på ryggen utan även på andra delar av kroppen, som bröstet.</p>
             <p class="p200 mt-m">Att hantera akne på ryggen effektivt kräver en hudvårdsrutin som är specifikt anpassad till de utmaningar som denna typ av akne medför. Det är viktigt att välja produkter som är skonsamma men effektiva för att minska irritation och samtidigt bevara hudens naturliga balans. Hos AcneSpecialisten står våra erfarna hudterapeuter redo att ge dig personlig rådgivning och rekommendationer, och skapa en hudvårdsrutin som stödjer en balanserad hud. Vi tar hänsyn till de speciella förutsättningarna som krävs för att effektivt hantera akne på ryggen.</p>',
-    ),
+      ),
 );
 
 $articles = array(
@@ -151,8 +151,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
@@ -162,8 +164,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
@@ -173,8 +177,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_title: 'Person som har rosacea',
-            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )
@@ -221,22 +227,22 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-              title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-              text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
             ),
             new Question(
-              title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-              text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
             ),
       ),
       'Frågor om behandling' => array(
             new Question(
-              title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-              text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
             ),
             new Question(
-              title: 'Anpassar ni behandlingarna för olika hudtyper?',
-              text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
+                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
             ),
       ),
 );
@@ -548,9 +554,9 @@ $brands_url_title = "Se alla varumärken";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                          <h2 class="h500"><?php echo $description_title ?></h2>
-                          <div class="mt-xl"><?php echo $description_text ?></div>
-                      </section>
+                              <h2 class="h500"><?php echo $description_title ?></h2>
+                              <div class="mt-xl"><?php echo $description_text ?></div>
+                        </section>
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -567,19 +573,19 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
                         <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
-                          </section>
-                      <?php } ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
-                        
+
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';

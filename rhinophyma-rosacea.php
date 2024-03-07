@@ -96,22 +96,22 @@ $treatment_steps = array(
 $treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
 
 $top_articles = array(
-    'areas' => new Article(
-        title: 'Rhinophyma Rosacea områden',
-        image_small: '',
-        image_large: '',
-        image_alt: '',
-        image_title: '',
-        content: '<p class="p200">Rhinophyma rosacea är en särskild och avancerad form av rosacea som påverkar näsan. Det kännetecknas av en betydande förtjockning och rödhet av näshuden, och kan resultera i en knölig, ojämn yta. Denna tillstånd uppträder uteslutande på näsan och är känt för att gradvis förändra dess form och storlek. Rhinophyma utvecklas över tid och är oftare sett hos män än hos kvinnor. Även om det är en sällsyntare manifestation av rosacea, är det viktigt att korrekt identifiera och behandla rhinophyma för att förhindra ytterligare progression och förbättra patientens livskvalitet.</p>
+      'areas' => new Article(
+            title: 'Rhinophyma Rosacea områden',
+            image_small: '',
+            image_large: '',
+            image_alt: '',
+            image_title: '',
+            content: '<p class="p200">Rhinophyma rosacea är en särskild och avancerad form av rosacea som påverkar näsan. Det kännetecknas av en betydande förtjockning och rödhet av näshuden, och kan resultera i en knölig, ojämn yta. Denna tillstånd uppträder uteslutande på näsan och är känt för att gradvis förändra dess form och storlek. Rhinophyma utvecklas över tid och är oftare sett hos män än hos kvinnor. Även om det är en sällsyntare manifestation av rosacea, är det viktigt att korrekt identifiera och behandla rhinophyma för att förhindra ytterligare progression och förbättra patientens livskvalitet.</p>
       <p class="p200 mt-m">För att förstå ditt specifika tillstånd och utforska behandlingsalternativ, är en konsultation med en hudterapeut nödvändig. En hudterapeut kan ge en personlig bedömning och rekommendera en behandlingsplan anpassad för dina behov.</p>',
-      tags: array(new ArticleTag(
-            icon: 'man',
-            label: 'Män'
-        ), new ArticleTag(
-            icon: 'nasa',
-            label: 'Näsa'
-        ))
-    ),
+            tags: array(new ArticleTag(
+                  icon: 'man',
+                  label: 'Män'
+            ), new ArticleTag(
+                  icon: 'nasa',
+                  label: 'Näsa'
+            ))
+      ),
 );
 
 $articles = array(
@@ -239,8 +239,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '3 månader',
             )
@@ -250,8 +252,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '2 månader',
             )
@@ -261,8 +265,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '4 månader',
             )
@@ -309,44 +315,44 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generellt om rhinophyma rosacea' => array(
             new Question(
-                title: 'Vilka är de vanligaste symtomen på rhinophyma?',
-                text: '<p class="p200">De vanligaste symtomen på rhinophyma inkluderar en markant förtjockning av huden på näsan, en röd, svullen och knölig yta, samt förstorade porer och talgkörtlar. Detta kan leda till en synlig deformation av näsan och i vissa fall orsaka andningsproblem. Symtomen utvecklas gradvis och kan förvärras utan behandling.</p>'
+                  title: 'Vilka är de vanligaste symtomen på rhinophyma?',
+                  text: '<p class="p200">De vanligaste symtomen på rhinophyma inkluderar en markant förtjockning av huden på näsan, en röd, svullen och knölig yta, samt förstorade porer och talgkörtlar. Detta kan leda till en synlig deformation av näsan och i vissa fall orsaka andningsproblem. Symtomen utvecklas gradvis och kan förvärras utan behandling.</p>'
             ),
 
             new Question(
-                title: 'Är rhinophyma ärftligt?',
-                text: '<p class="p200">Även om den exakta orsaken till rhinophyma inte är fullständigt känd, finns det bevis som tyder på att genetiska faktorer kan spela en roll. Personer med en familjehistoria av rosacea eller rhinophyma kan vara mer benägna att utveckla tillståndet.</p>'
+                  title: 'Är rhinophyma ärftligt?',
+                  text: '<p class="p200">Även om den exakta orsaken till rhinophyma inte är fullständigt känd, finns det bevis som tyder på att genetiska faktorer kan spela en roll. Personer med en familjehistoria av rosacea eller rhinophyma kan vara mer benägna att utveckla tillståndet.</p>'
             ),
 
             new Question(
-                title: 'Hur kan jag skydda min hud från solen om jag har rhinophyma?',
-                text: '<p class="p200">Skydd mot solen är avgörande om du har rhinophyma. Använd en bredspektrum solskyddskräm dagligen, bär skyddande kläder och hatt, och undvik att vara ute i starkt solljus, särskilt mitt på dagen. Detta hjälper inte bara till att skydda huden utan också till att förebygga förvärring av symtomen.</p>'
+                  title: 'Hur kan jag skydda min hud från solen om jag har rhinophyma?',
+                  text: '<p class="p200">Skydd mot solen är avgörande om du har rhinophyma. Använd en bredspektrum solskyddskräm dagligen, bär skyddande kläder och hatt, och undvik att vara ute i starkt solljus, särskilt mitt på dagen. Detta hjälper inte bara till att skydda huden utan också till att förebygga förvärring av symtomen.</p>'
             ),
 
             new Question(
-                title: 'På vilka sätt skiljer sig rhinophyma från andra hudtillstånd som påverkar näsan?',
-                text: '<p class="p200">Rhinophyma är unikt genom sin uttalade förtjockning och grovhet av huden på näsan, vilket inte ses i andra hudtillstånd. Till skillnad från akne, som också kan påverka näsan, karaktäriseras rhinophyma av en permanent förändring av hudens struktur snarare än temporära utbrott.</p>'
+                  title: 'På vilka sätt skiljer sig rhinophyma från andra hudtillstånd som påverkar näsan?',
+                  text: '<p class="p200">Rhinophyma är unikt genom sin uttalade förtjockning och grovhet av huden på näsan, vilket inte ses i andra hudtillstånd. Till skillnad från akne, som också kan påverka näsan, karaktäriseras rhinophyma av en permanent förändring av hudens struktur snarare än temporära utbrott.</p>'
             ),
 
             new Question(
-                title: 'Finns det några kända triggers som kan förvärra rhinophyma?',
-                text: '<p class="p200">Ja, vissa faktorer kan förvärra rhinophyma, inklusive stark sol, extrema temperaturer, stark mat och alkohol, stress och vissa hudvårdsprodukter. Att undvika dessa triggers kan hjälpa till att hantera tillståndet och förhindra att det förvärras.</p>'
+                  title: 'Finns det några kända triggers som kan förvärra rhinophyma?',
+                  text: '<p class="p200">Ja, vissa faktorer kan förvärra rhinophyma, inklusive stark sol, extrema temperaturer, stark mat och alkohol, stress och vissa hudvårdsprodukter. Att undvika dessa triggers kan hjälpa till att hantera tillståndet och förhindra att det förvärras.</p>'
             ),
       ),
       'Behandling mot rosacea' => array(
             new Question(
-                title: 'Vilka är de mest effektiva behandlingarna för rhinophyma?',
-                text: '<p class="p200">De mest effektiva behandlingarna för rhinophyma innefattar en kombination av rätt hudvårdsprodukter och behandlignar som behandlar och balanserar huden. Dessa behandlingar syftar till att jämna ut hudens yta och förbättra näsans utseende.</p>'
+                  title: 'Vilka är de mest effektiva behandlingarna för rhinophyma?',
+                  text: '<p class="p200">De mest effektiva behandlingarna för rhinophyma innefattar en kombination av rätt hudvårdsprodukter och behandlignar som behandlar och balanserar huden. Dessa behandlingar syftar till att jämna ut hudens yta och förbättra näsans utseende.</p>'
             ),
 
             new Question(
-                title: 'Vad är de potentiella riskerna och biverkningarna av rhinophyma?',
-                text: '<p class="p200">De potentiella riskerna och biverkningarna av rhinophyma-behandlingar kan inkludera infektion, ärrbildning, pigmentförändringar och ojämnheter i hudens textur. En noggrann konsultation och uppföljning med erfaren hudspecialist är avgörande för att minimera dessa risker.</p>'
+                  title: 'Vad är de potentiella riskerna och biverkningarna av rhinophyma?',
+                  text: '<p class="p200">De potentiella riskerna och biverkningarna av rhinophyma-behandlingar kan inkludera infektion, ärrbildning, pigmentförändringar och ojämnheter i hudens textur. En noggrann konsultation och uppföljning med erfaren hudspecialist är avgörande för att minimera dessa risker.</p>'
             ),
 
             new Question(
-                title: 'Finns det något jag kan göra för att förhindra att mitt rhinophyma blir värre?',
-                text: '<p class="p200">Först och främst är det viktigt att identifiera och behandla problemet tidigt innan de hinner utvecklas och bli värre. När det väl brutit ut är det viktigt att förhindra att rhinophyma blir värre är det viktigt att skydda huden mot solen, undvika kända triggers som stark mat och alkohol, och följa en skonsam hudvårdsrutin. Regelbundna hudkonsultationer och tidig behandling av rosaceasymtom kan också bidra till att förebygga utvecklingen av rhinophyma.</p>'
+                  title: 'Finns det något jag kan göra för att förhindra att mitt rhinophyma blir värre?',
+                  text: '<p class="p200">Först och främst är det viktigt att identifiera och behandla problemet tidigt innan de hinner utvecklas och bli värre. När det väl brutit ut är det viktigt att förhindra att rhinophyma blir värre är det viktigt att skydda huden mot solen, undvika kända triggers som stark mat och alkohol, och följa en skonsam hudvårdsrutin. Regelbundna hudkonsultationer och tidig behandling av rosaceasymtom kan också bidra till att förebygga utvecklingen av rhinophyma.</p>'
             ),
 
       ),
@@ -627,9 +633,9 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
-                          <h2 class="h500"><?php echo $description_title ?></h2>
-                          <div class="mt-xl"><?php echo $description_text ?></div>
-                      </section>
+                              <h2 class="h500"><?php echo $description_title ?></h2>
+                              <div class="mt-xl"><?php echo $description_text ?></div>
+                        </section>
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -646,12 +652,12 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
                         </section>
 
                         <?php foreach ($top_articles as $id => $article) { ?>
-                          <section id="<?php echo $id ?>">
-                              <?php
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                              ?>
-                          </section>
-                      <?php } ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
@@ -688,7 +694,7 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
-                        
+
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';

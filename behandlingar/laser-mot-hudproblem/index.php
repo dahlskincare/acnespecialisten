@@ -472,8 +472,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -504,8 +506,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -536,8 +540,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -651,34 +657,34 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i laserbehandling av hudproblem',
-            image_title: 'Cazzandra Lindberg - Expert på laserbehandling av hudproblem'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på laserbehandling av hudproblem',
-            image_title: 'Veronika Benedik - Specialist inom laserbehandling av hudproblem'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom laserbehandling av hudproblem',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på laserbehandling av hudproblem'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot laserbehandling av hudproblem',
-            image_title: 'Vilma Libom - Expert inom laserbehandling av hudproblem'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i laserbehandling av hudproblem',
+        image_title: 'Cazzandra Lindberg - Expert på laserbehandling av hudproblem'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på laserbehandling av hudproblem',
+        image_title: 'Veronika Benedik - Specialist inom laserbehandling av hudproblem'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom laserbehandling av hudproblem',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på laserbehandling av hudproblem'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot laserbehandling av hudproblem',
+        image_title: 'Vilma Libom - Expert inom laserbehandling av hudproblem'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 

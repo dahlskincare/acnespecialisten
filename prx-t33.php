@@ -10,8 +10,8 @@ $seo_keywords = 'PRX-T33, kemisk peeling, hudföryngring, anti-age, pigmentering
 $seo_image = 'images/treatments/large/prx-t33.webp';
 
 $path_segments = array(
-      new PathSegment('Varumärken', '/varumarken/'),
-      new PathSegment('PRX-T33', '/prx-t33.php'),
+    new PathSegment('Varumärken', '/varumarken/'),
+    new PathSegment('PRX-T33', '/prx-t33.php'),
 );
 
 $model = new Service(
@@ -409,8 +409,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -441,8 +443,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -473,8 +477,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -510,8 +516,8 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Google',
         title: 'Jag är mycket nöjd..',
         text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
@@ -519,15 +525,15 @@ $reviews = array(
         stars: 5,
         logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
+    ),
+    new Review(
         brand: 'Bokadirekt',
         title: 'Rekommenderar varmt!',
         text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
         signature: 'Emily',
         stars: 5,
         logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
 );
 $reviews_view_more = 'Se alla omdömen';
 
@@ -572,34 +578,34 @@ $skin_guide_view_more = 'Visa alla artiklar';
 
 $specialists_title = 'Våra hudterapeuter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i PRX-T33-behandling',
-            image_title: 'Cazzandra Lindberg - Expert på PRX-T33-behandling'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på PRX-T33',
-            image_title: 'Veronika Benedik - Specialist inom PRX-T33-behandling'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom PRX-T33-behandling',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på PRX-T33'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot PRX-T33-behandling',
-            image_title: 'Vilma Libom - Expert inom PRX-T33-behandling'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i PRX-T33-behandling',
+        image_title: 'Cazzandra Lindberg - Expert på PRX-T33-behandling'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på PRX-T33',
+        image_title: 'Veronika Benedik - Specialist inom PRX-T33-behandling'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom PRX-T33-behandling',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på PRX-T33'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot PRX-T33-behandling',
+        image_title: 'Vilma Libom - Expert inom PRX-T33-behandling'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 
@@ -824,11 +830,11 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <?php } ?>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
                             <?php if (isset($treatment_area->image_small)) { ?>
-                            <picture class="mb-xl">
-                                <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                            </picture>
+                                <picture class="mb-xl">
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
                             <?php } ?>
                             <h3 class="h300"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>

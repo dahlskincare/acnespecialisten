@@ -10,8 +10,8 @@ $seo_keywords = 'kemisk peeling, stockholm';
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Kemisk Peeling', '/kemisk-peeling.php'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Kemisk Peeling', '/kemisk-peeling.php'),
 );
 
 $model = new Service(
@@ -35,7 +35,7 @@ $model = new Service(
             price: '1995 kr',
             savings: null,
             booking_url: null,
-            booking_url_label:null,
+            booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
@@ -43,7 +43,7 @@ $model = new Service(
             price: '6995 kr',
             savings: 'Spara 785 kr',
             booking_url: null,
-            booking_url_label:null,
+            booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
@@ -51,7 +51,7 @@ $model = new Service(
             price: '8995 kr',
             savings: 'Spara 2975 kr',
             booking_url: null,
-            booking_url_label:null,
+            booking_url_label: null,
             booking_url_title: null,
         )
     ),
@@ -535,8 +535,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -567,8 +569,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -599,8 +603,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -708,34 +714,34 @@ $skin_guide_view_more = 'Visa alla artiklar';
 
 $specialists_title = 'Våra hudterapeuter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i kemisk peeling',
-            image_title: 'Cazzandra Lindberg - Expert på kemisk peeling'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på kemisk peeling',
-            image_title: 'Veronika Benedik - Specialist inom kemisk peeling'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom kemisk peeling',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på kemisk peeling'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot kemisk peeling',
-            image_title: 'Vilma Libom - Expert inom kemisk peeling'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i kemisk peeling',
+        image_title: 'Cazzandra Lindberg - Expert på kemisk peeling'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på kemisk peeling',
+        image_title: 'Veronika Benedik - Specialist inom kemisk peeling'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom kemisk peeling',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på kemisk peeling'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot kemisk peeling',
+        image_title: 'Vilma Libom - Expert inom kemisk peeling'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 

@@ -16,8 +16,8 @@ $image_alt = 'Bild som illustrerar acneärr';
 $image_title = 'Acneärr';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
 );
 
 $title = 'Få bort acneärr';
@@ -139,45 +139,45 @@ $services = array(
 
 $results_title = 'Behandla acneärr före och efter resultat';
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_before_title: 'Person som har akne',
-            image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
-            image_after_title: 'Person som är aknefri',
-            image_after_alt: 'Ansiktet på en person som behandlat svår akne och blivit av med den, efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_before_title: 'Person som har akne',
-            image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
-            image_after_title: 'Person som är aknefri',
-            image_after_alt: 'Ansiktet på en person som behandlat akne och blivit av med den, efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_before_title: 'Person som har rosacea',
-            image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
-            image_after_title: 'Person som är rosaceafri',
-            image_after_alt: 'Ansiktet på en person som behandlat rosacea och blivit av med den, efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            )
-      ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_before_title: 'Person som har akne',
+        image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
+        image_after_title: 'Person som är aknefri',
+        image_after_alt: 'Ansiktet på en person som behandlat svår akne och blivit av med den, efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_before_title: 'Person som har akne',
+        image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
+        image_after_title: 'Person som är aknefri',
+        image_after_alt: 'Ansiktet på en person som behandlat akne och blivit av med den, efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Akne">Akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_before_title: 'Person som har rosacea',
+        image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
+        image_after_title: 'Person som är rosaceafri',
+        image_after_alt: 'Ansiktet på en person som behandlat rosacea och blivit av med den, efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat mot acneärr";
@@ -185,32 +185,32 @@ $show_all_results_title = "Resultat mot acneärr";
 
 
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 
@@ -293,80 +293,80 @@ $skinguide_url_label = "Läs fler guider";
 $skinguide_url_title = "Läs fler guider om behandling av acneärr";
 
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut med fokus på acneärr sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i acneärrbehandling',
-            image_title: 'Cazzandra Lindberg - Expert på acneärrbehandling'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut med specialisering i acneärr sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på acneärr',
-            image_title: 'Veronika Benedik - Specialist inom acneärrvård'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut med inriktning mot acneärr sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut specialiserad på acneärrhantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på acneärr'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut med specialisering i acneärr sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot acneärrbehandling',
-            image_title: 'Vilma Libom - Expert inom acneärrbehandling'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut med fokus på acneärr sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i acneärrbehandling',
+        image_title: 'Cazzandra Lindberg - Expert på acneärrbehandling'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut med specialisering i acneärr sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på acneärr',
+        image_title: 'Veronika Benedik - Specialist inom acneärrvård'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut med inriktning mot acneärr sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut specialiserad på acneärrhantering',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på acneärr'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut med specialisering i acneärr sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot acneärrbehandling',
+        image_title: 'Vilma Libom - Expert inom acneärrbehandling'
+    )
 );
 
 $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "acneärr Specialiserade Hudterapeuter";
 
 $brands = array(
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            image_alt: 'Alma logotyp',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'Alma Hybrid',
-            image: 'bilder/logotyper/alma-hybrid.svg',
-            image_title: 'Alma Hybrid - CO2 laser',
-            image_alt: 'Alma Hybrid logotyp',
-            url: 'alma-hybrid-co2-laser.php',
-            url_title: 'Läs mer om Alma Hybrid CO2 laser',
-      ),
-      new Brand(
-            label: 'Harmony XL Pro',
-            image: 'bilder/logotyper/harmony-xl-pro.png',
-            image_title: 'Harmony XL Pro - Laser & IPL',
-            image_alt: 'Harmony XL Pro logotyp',
-            url: 'alma-harmony-xl-pro.php',
-            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'bilder/logotyper/dermapen.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
-            url: 'dermapen.php',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'Skin Tech',
-            image: 'bilder/logotyper/skin-tech.svg',
-            image_title: 'Skin Tech - Professionella kemiska peelingar',
-            image_alt: 'Skin Tech logotyp',
-            url: 'varumarken/skin-tech',
-            url_title: 'Läs mer om Skin Techs kemiska peelingar',
-      ),
+    new Brand(
+        label: 'Alma',
+        image: 'bilder/logotyper/alma.svg',
+        image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+        image_alt: 'Alma logotyp',
+        url: 'varumarken/alma',
+        url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+    ),
+    new Brand(
+        label: 'Alma Hybrid',
+        image: 'bilder/logotyper/alma-hybrid.svg',
+        image_title: 'Alma Hybrid - CO2 laser',
+        image_alt: 'Alma Hybrid logotyp',
+        url: 'alma-hybrid-co2-laser.php',
+        url_title: 'Läs mer om Alma Hybrid CO2 laser',
+    ),
+    new Brand(
+        label: 'Harmony XL Pro',
+        image: 'bilder/logotyper/harmony-xl-pro.png',
+        image_title: 'Harmony XL Pro - Laser & IPL',
+        image_alt: 'Harmony XL Pro logotyp',
+        url: 'alma-harmony-xl-pro.php',
+        url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
+    ),
+    new Brand(
+        label: 'Dermapen',
+        image: 'bilder/logotyper/dermapen.svg',
+        image_alt: 'Dermapen Brand Logo',
+        image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+        url: 'dermapen.php',
+        url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+    ),
+    new Brand(
+        label: 'Skin Tech',
+        image: 'bilder/logotyper/skin-tech.svg',
+        image_title: 'Skin Tech - Professionella kemiska peelingar',
+        image_alt: 'Skin Tech logotyp',
+        url: 'varumarken/skin-tech',
+        url_title: 'Läs mer om Skin Techs kemiska peelingar',
+    ),
 );
 
 $brands_url_label = "Se alla varumärken";

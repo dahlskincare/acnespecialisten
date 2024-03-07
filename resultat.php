@@ -85,8 +85,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-1.jpg',
             url_title: 'Akne resultat',
-            image_alt: 'Före och efterbilder på kvinna som behandlat svår akne',
-            image_title: 'Svår akne resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 21,
             gender: 'Kvinna',
             problem: 'Akne',
@@ -117,8 +119,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-akne-efter-2.jpg',
             url_title: 'Akne resultat',
-            image_alt: 'Före och efterbilder på kvinna som behandlat svår akne',
-            image_title: 'Svår akne resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 18,
             gender: 'Kvinna',
             problem: 'Akne',
@@ -149,8 +153,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-rosacea-efter.jpg',
             url_title: 'Rosacea resultat',
-            image_alt: 'Före och efterbilder på kvinna som behandlat svår rosacea',
-            image_title: 'Svår rosacea resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 33,
             gender: 'Kvinna',
             problem: 'Rosacea',
@@ -181,8 +187,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-ytliga-blodkarl-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-ytliga-blodkarl-efter.jpg',
             url_title: 'Ytliga Blodkärl resultat',
-            image_alt: 'Före och efterbilder på kvinna som behandlat ytliga blodkärl',
-            image_title: 'Ytliga blodkärl resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 47,
             gender: 'Kvinna',
             problem: 'Ytliga Blodkärl',
@@ -211,8 +219,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-aknearr-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-aknearr-efter.jpg',
             url_title: 'Akneärr resultat',
-            image_alt: 'Före och efterbilder på kvinna som behandlat akneärr',
-            image_title: 'Akneärr resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 24,
             gender: 'Kvinna',
             problem: 'Akneärr',
@@ -239,8 +249,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-arr-fran-finnar-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-arr-fran-finnar-efter.jpg',
             url_title: 'Ärr från finnar resultat',
-            image_alt: 'Före och efterbilder på kvinna som behandlat akneärr',
-            image_title: 'Akneärr resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 22,
             gender: 'Kvinna',
             problem: 'Ärr från finnar',
@@ -267,8 +279,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-pormaskar-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-pormaskar-efter.jpg',
             url_title: 'Resultat mot pormaskar',
-            image_alt: 'Före och efterbilder på kvinna som behandlat pormaskar',
-            image_title: 'Pormaskar resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 24,
             gender: 'Kvinna',
             problem: 'Pormaskar',
@@ -299,8 +313,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-finnar-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-finnar-efter.jpg',
             url_title: 'Resultat mot finnar',
-            image_alt: 'Före och efterbilder på kvinna som behandlat finnar',
-            image_title: 'Finnar resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 18,
             gender: 'Kvinna',
             problem: 'Finnar',
@@ -333,8 +349,10 @@ $results_per_page = array(
             image_before_large: '/bilder/resultat/372x496/resultat-blandhy-fore.jpg',
             image_after_large: '/bilder/resultat/372x496/resultat-blandhy-efter.jpg',
             url_title: 'Blandhy resultat',
-            image_alt: 'Före och efterbilder på kvinna som behandlat finnar',
-            image_title: 'Finnar resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             age: 19,
             gender: 'Kvinna',
             problem: 'Blandhy',
@@ -461,31 +479,31 @@ $pages = sizeof($results_per_page);
                     </a>
                 </div>
                 <?php $faq_categories = array(
-                        'Generellt' => array(
-                            new Question(
-                                title: 'När börjar jag se resultat efter era ansiktsbehandlingar?',
-                                text: '<p class="p200">De första förbättringarna kan ofta märkas inom de första veckorna efter behandlingen. Fullständiga resultat kan dock ta längre tid att uppnå, beroende på behandlingens natur och individens hudtillstånd.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur långvariga är resultaten från era behandlingar?',
-                                text: '<p class="p200">Det beror på vilket problem som behandlas. Hudproblem såsom akne, rosacea och pormaskar måste behandlas löpande. Befintliga Pigmentfläckar, ytliga blodkärl och hår tas bort permanent, dock kan man inte motverka uppkomsten av nya.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur följer ni upp och mäter framgång i behandlingarna?',
-                                text: '<p class="p200">Vi dokumenterar varje kunds framsteg genom att ta bilder vid den första konsultationen, vid varje uppföljande besök, och slutligen när det önskade resultatet har uppnåtts. Dessa bilder jämförs sedan för att visa hudens förändring och framsteg från start till slut.</p>'
-                            ),
-                            new Question(
-                                title: 'Förbättras resultaten om jag kombinerar olika behandlingar?',
-                                text: '<p class="p200">Absolut. För att effektivt hantera hudproblem som akne, rosacea och pormaskar rekommenderar vi en kombination av specifikt utvalda hudvårdsprodukter och skräddarsydda ansiktsbehandlingar. Denna strategi syftar till att inte bara behandla befintliga hudåkommor utan också förebygga framtida utbrott.</p>'
-                            ),
-                            new Question(
-                                title: 'Ger era behandlingar samma resultat för alla hudtyper?',
-                                text: '<p class="p200">Medan vi strävar efter att uppnå de bästa möjliga resultaten för alla våra kunder, skräddarsys behandlingsplanen för varje individ baserat på deras unika hudtyp och behov. Detta tillvägagångssätt garanterar att varje person får den mest effektiva behandlingen anpassad för att maximera resultaten för just deras hud.</p>'
-                            ),
+                    'Generellt' => array(
+                        new Question(
+                            title: 'När börjar jag se resultat efter era ansiktsbehandlingar?',
+                            text: '<p class="p200">De första förbättringarna kan ofta märkas inom de första veckorna efter behandlingen. Fullständiga resultat kan dock ta längre tid att uppnå, beroende på behandlingens natur och individens hudtillstånd.</p>'
                         ),
+                        new Question(
+                            title: 'Hur långvariga är resultaten från era behandlingar?',
+                            text: '<p class="p200">Det beror på vilket problem som behandlas. Hudproblem såsom akne, rosacea och pormaskar måste behandlas löpande. Befintliga Pigmentfläckar, ytliga blodkärl och hår tas bort permanent, dock kan man inte motverka uppkomsten av nya.</p>'
+                        ),
+                        new Question(
+                            title: 'Hur följer ni upp och mäter framgång i behandlingarna?',
+                            text: '<p class="p200">Vi dokumenterar varje kunds framsteg genom att ta bilder vid den första konsultationen, vid varje uppföljande besök, och slutligen när det önskade resultatet har uppnåtts. Dessa bilder jämförs sedan för att visa hudens förändring och framsteg från start till slut.</p>'
+                        ),
+                        new Question(
+                            title: 'Förbättras resultaten om jag kombinerar olika behandlingar?',
+                            text: '<p class="p200">Absolut. För att effektivt hantera hudproblem som akne, rosacea och pormaskar rekommenderar vi en kombination av specifikt utvalda hudvårdsprodukter och skräddarsydda ansiktsbehandlingar. Denna strategi syftar till att inte bara behandla befintliga hudåkommor utan också förebygga framtida utbrott.</p>'
+                        ),
+                        new Question(
+                            title: 'Ger era behandlingar samma resultat för alla hudtyper?',
+                            text: '<p class="p200">Medan vi strävar efter att uppnå de bästa möjliga resultaten för alla våra kunder, skräddarsys behandlingsplanen för varje individ baserat på deras unika hudtyp och behov. Detta tillvägagångssätt garanterar att varje person får den mest effektiva behandlingen anpassad för att maximera resultaten för just deras hud.</p>'
+                        ),
+                    ),
 
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                );
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->

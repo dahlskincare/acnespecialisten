@@ -10,8 +10,8 @@ $seo_keywords = 'skinbooster, stockholm';
 $seo_image = '/images/treatments/large/skinbooster.webp';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Skinbooster', '/behandlingar/skinbooster/'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Skinbooster', '/behandlingar/skinbooster/'),
 );
 
 $model = new Service(
@@ -265,8 +265,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -297,8 +299,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -329,8 +333,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -358,32 +364,32 @@ $results = array(
 
 $reviews_title = 'Omdömen';
 $reviews = array(
-      new Review(
-            brand: 'Trustpilot',
-            title: 'Supernöjd',
-            text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-            signature: 'Sofia',
-            stars: 5,
-            logo_url: 'images/brands/trustpilot.svg'
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: 'images/brands/trustpilot.svg'
 
-      ),
-      new Review(
-            brand: 'Google',
-            title: 'Jag är mycket nöjd..',
-            text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-            signature: 'Lovisa',
-            stars: 5,
-            logo_url: 'images/brands/google-small.svg'
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: 'images/brands/google-small.svg'
 
-      ),
-      new Review(
-            brand: 'Bokadirekt',
-            title: 'Rekommenderar varmt!',
-            text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-            signature: 'Emily',
-            stars: 5,
-            logo_url: 'images/brands/bokadirekt-small.svg'
-      ),
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: 'images/brands/bokadirekt-small.svg'
+    ),
 
 );
 $reviews_view_more = 'Se alla omdömen';
@@ -396,20 +402,20 @@ $faq_categories = array(
             text: 'För optimalt resultat rekommenderas en uppbyggnadsfas av 3 behandlingar med en veckas mellanrum och därefter underhållsbehandlingar var 4-6e månad.'
         ),
 
-            new Question(
-                title: 'Är effekterna från Infuzion eller Multifuzion varaktiga?',
-                text: 'Resultaten från Infuzion och Multifuzion kan vara långvariga, särskilt om de stöds av en kontinuerlig och lämplig hudvårdsrutin. Åldrande och miljöfaktorer kan dock påverka hur länge resultaten varar. För att bibehålla och förstärka effekterna kan periodiska underhållsbehandlingar vara nödvändiga.'
-            ),
+        new Question(
+            title: 'Är effekterna från Infuzion eller Multifuzion varaktiga?',
+            text: 'Resultaten från Infuzion och Multifuzion kan vara långvariga, särskilt om de stöds av en kontinuerlig och lämplig hudvårdsrutin. Åldrande och miljöfaktorer kan dock påverka hur länge resultaten varar. För att bibehålla och förstärka effekterna kan periodiska underhållsbehandlingar vara nödvändiga.'
+        ),
 
-            new Question(
-                title: 'Vad ska jag tänka på inför min Infuzion eller Multifuzion behandling?',
-                text: 'Innan du genomgår en Infuzion eller Multifuzion behandling är det bäst att undvika produkter som kan irritera huden, såsom starka exfolierande syror. Håll huden återfuktad och skyddad mot solen. Vid din konsultation kommer vi att ge dig anpassade råd för att förbereda din hud optimalt för behandlingen.'
-            ),
+        new Question(
+            title: 'Vad ska jag tänka på inför min Infuzion eller Multifuzion behandling?',
+            text: 'Innan du genomgår en Infuzion eller Multifuzion behandling är det bäst att undvika produkter som kan irritera huden, såsom starka exfolierande syror. Håll huden återfuktad och skyddad mot solen. Vid din konsultation kommer vi att ge dig anpassade råd för att förbereda din hud optimalt för behandlingen.'
+        ),
 
-            new Question(
-                title: 'Vad är skillnaden mellan Infuzion, Multifuzion och traditionella skinboosters och fillers?',
-                text: 'Infuzion och Multifuzion skiljer sig från traditionella skinboosters och fillers genom deras unika applikationsmetod och ingredienser. De erbjuder intensiv hydrering och hudförbättring utan användning av nålar, vilket gör dem till ett skonsamt alternativ. Dessa behandlingar är särskilt bra för att förbättra hudens textur, elasticitet och lyster genom att effektivt tillföra näringsämnen till hudens djupare lager.'
-            ),
+        new Question(
+            title: 'Vad är skillnaden mellan Infuzion, Multifuzion och traditionella skinboosters och fillers?',
+            text: 'Infuzion och Multifuzion skiljer sig från traditionella skinboosters och fillers genom deras unika applikationsmetod och ingredienser. De erbjuder intensiv hydrering och hudförbättring utan användning av nålar, vilket gör dem till ett skonsamt alternativ. Dessa behandlingar är särskilt bra för att förbättra hudens textur, elasticitet och lyster genom att effektivt tillföra näringsämnen till hudens djupare lager.'
+        ),
 
     )
 );
@@ -432,34 +438,34 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Skinbooster-behandlingar',
-            image_title: 'Cazzandra Lindberg - Expert på Skinbooster-behandlingar'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Skinbooster',
-            image_title: 'Veronika Benedik - Specialist inom Skinbooster-vård'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Skinbooster-behandlingar',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på Skinbooster'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot Skinbooster-behandlingar',
-            image_title: 'Vilma Libom - Expert inom Skinbooster-behandlingar'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Skinbooster-behandlingar',
+        image_title: 'Cazzandra Lindberg - Expert på Skinbooster-behandlingar'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Skinbooster',
+        image_title: 'Veronika Benedik - Specialist inom Skinbooster-vård'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Skinbooster-behandlingar',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på Skinbooster'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Skinbooster-behandlingar',
+        image_title: 'Vilma Libom - Expert inom Skinbooster-behandlingar'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 

@@ -10,8 +10,8 @@ $seo_keywords = 'Skin Tech, kemisk peeling, hudproblem, acneärr, åldrande hud,
 $seo_image = '/images/treatments/large/skin-tech.webp';
 
 $path_segments = array(
-      new PathSegment('Varumärken', '/varumarken/'),
-      new PathSegment('Skin Tech', '/varumarken/skin-tech'),
+    new PathSegment('Varumärken', '/varumarken/'),
+    new PathSegment('Skin Tech', '/varumarken/skin-tech'),
 );
 
 $model = new Service(
@@ -195,7 +195,7 @@ $big_types = array(
 $types_title = 'Hudproblem vi behandlar med Skin Tech';
 $types_description = '<p class="p200"> Våra specialiserade behandlingar är skräddarsydda för att möta utmaningar som acneärr, aktiv akne, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Genom att noggrant välja den mest lämpliga kemiska peelingen för varje unikt hudproblem, strävar vi efter att inte bara förbättra hudens utseende utan också dess hälsotillstånd och vitalitet.</p>';
 $types = array(
-    
+
     new Service(
         title: 'Skin Tech mot Pigmentfläckar',
         duration: '30 min',
@@ -427,13 +427,13 @@ $service_brands_title = 'Märken för kemisk peeling';
 $service_brands_text = '<p class="p200">Utöver Skin Tech jobbar vi även med PRX-T33 för kemisk peeling.</p>';
 $service_brands = array(
     new Brand(
-            label: 'PRX-T33',
-            image: 'bilder/logotyper/prx-t33.svg',
-            image_alt: 'PRX-T33 logotyp',
-            image_title: 'PRX-T33 - kemisk peeling',
-            url: '/prx-t33.php',
-            url_title: 'PRX-T33',
-      ),
+        label: 'PRX-T33',
+        image: 'bilder/logotyper/prx-t33.svg',
+        image_alt: 'PRX-T33 logotyp',
+        image_title: 'PRX-T33 - kemisk peeling',
+        url: '/prx-t33.php',
+        url_title: 'PRX-T33',
+    ),
 );
 
 $results = array(
@@ -444,8 +444,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -476,8 +478,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -508,8 +512,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -610,34 +616,34 @@ $skin_guide_view_more = 'Visa alla artiklar';
 
 $specialists_title = 'Våra hudterapeuter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Skin Tech-behandlingar',
-            image_title: 'Cazzandra Lindberg - Expert på Skin Tech-behandlingar'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Skin Tech',
-            image_title: 'Veronika Benedik - Specialist inom Skin Tech-vård'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Skin Tech-behandlingar',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på Skin Tech'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot Skin Tech-behandlingar',
-            image_title: 'Vilma Libom - Expert inom Skin Tech-behandlingar'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Skin Tech-behandlingar',
+        image_title: 'Cazzandra Lindberg - Expert på Skin Tech-behandlingar'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Skin Tech',
+        image_title: 'Veronika Benedik - Specialist inom Skin Tech-vård'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Skin Tech-behandlingar',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på Skin Tech'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Skin Tech-behandlingar',
+        image_title: 'Vilma Libom - Expert inom Skin Tech-behandlingar'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 

@@ -349,7 +349,7 @@ $type_categories = array(
                         //url: 'problem/akne/typer/fungal-akne',
                         //url_title: 'Lär dig mer om hur svamp relateras till akne',
                   ),
-                  
+
             )
       ),
       new BasedTypeCategory(
@@ -700,8 +700,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat svår akne, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
@@ -711,8 +713,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_title: 'Person som har akne',
-            image_alt: 'Ansiktet på en person som behandlat akne, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
@@ -722,8 +726,10 @@ $results = array(
             image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_title: 'Person som har rosacea',
-            image_alt: 'Ansiktet på en person som behandlat rosacea, före och efterbild',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
             treatment: new ResultTreatment(
                   duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )
@@ -1183,7 +1189,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                                 </div>
                                           <?php } ?>
                                     </div>
-                                    
+
                               </section>
                         <?php } ?>
                         <?php if (sizeof($symptoms) > 0) { ?>

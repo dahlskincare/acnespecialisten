@@ -10,8 +10,8 @@ $seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reduce
 $seo_image = 'images/treatments/large/dermapen.webp';
 
 $path_segments = array(
-      new PathSegment('Varumärken', '/varumarken/'),
-      new PathSegment('Dermapen', '/dermapen.php'),
+    new PathSegment('Varumärken', '/varumarken/'),
+    new PathSegment('Dermapen', '/dermapen.php'),
 );
 
 $model = new Service(
@@ -35,7 +35,7 @@ $model = new Service(
             price: '2595 kr',
             savings: null,
             booking_url: null,
-            booking_url_label:null,
+            booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
@@ -43,7 +43,7 @@ $model = new Service(
             price: '6995 kr',
             savings: 'Spara 790 kr',
             booking_url: null,
-            booking_url_label:null,
+            booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
@@ -51,7 +51,7 @@ $model = new Service(
             price: '9995 kr',
             savings: 'Spara 2980 kr',
             booking_url: null,
-            booking_url_label:null,
+            booking_url_label: null,
             booking_url_title: null,
         )
     ),
@@ -434,8 +434,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 21,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -466,8 +468,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
         url_title: 'Akne resultat',
-        image_alt: 'Akne resultat',
-        image_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Kvinna',
         problem: 'Akne',
@@ -498,8 +502,10 @@ $results = array(
         image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
         image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
         url_title: 'Rosacea resultat',
-        image_alt: 'Rosacea resultat',
-        image_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 33,
         gender: 'Kvinna',
         problem: 'Rosacea',
@@ -592,34 +598,34 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Dermapen-behandling',
-            image_title: 'Cazzandra Lindberg - Expert på Dermapen-behandling'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Dermapen',
-            image_title: 'Veronika Benedik - Specialist inom Dermapen-behandling'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Dermapen-behandling',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på Dermapen'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot Dermapen-behandling',
-            image_title: 'Vilma Libom - Expert inom Dermapen-behandling'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Dermapen-behandling',
+        image_title: 'Cazzandra Lindberg - Expert på Dermapen-behandling'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Dermapen',
+        image_title: 'Veronika Benedik - Specialist inom Dermapen-behandling'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Dermapen-behandling',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på Dermapen'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Dermapen-behandling',
+        image_title: 'Vilma Libom - Expert inom Dermapen-behandling'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 

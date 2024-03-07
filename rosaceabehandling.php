@@ -16,8 +16,8 @@ $image_alt = 'Bild på rosacea behandling';
 $image_title = 'Bild av effektiv rosaceabehandling';
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
-      new PathSegment('Rosacea behandling', '/rosaceabehandling.php'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Rosacea behandling', '/rosaceabehandling.php'),
 );
 
 $title = 'Rosacea behandling';
@@ -147,45 +147,45 @@ $repair_url_title = 'Klicka här för att se våra behandlingar för ytliga blod
 
 
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_before_title: 'Person som har akne',
-            image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
-            image_after_title: 'Person som är aknefri',
-            image_after_alt: 'Ansiktet på en person som behandlat svår akne och blivit av med den, efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_before_title: 'Person som har akne',
-            image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
-            image_after_title: 'Person som är aknefri',
-            image_after_alt: 'Ansiktet på en person som behandlat akne och blivit av med den, efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_before_title: 'Person som har rosacea',
-            image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
-            image_after_title: 'Person som är rosaceafri',
-            image_after_alt: 'Ansiktet på en person som behandlat rosacea och blivit av med den, efterbild',
-            treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            )
-      ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_before_title: 'Person som har akne',
+        image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
+        image_after_title: 'Person som är aknefri',
+        image_after_alt: 'Ansiktet på en person som behandlat svår akne och blivit av med den, efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_before_title: 'Person som har akne',
+        image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
+        image_after_title: 'Person som är aknefri',
+        image_after_alt: 'Ansiktet på en person som behandlat akne och blivit av med den, efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Akne">Akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_before_title: 'Person som har rosacea',
+        image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
+        image_after_title: 'Person som är rosaceafri',
+        image_after_alt: 'Ansiktet på en person som behandlat rosacea och blivit av med den, efterbild',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat mot rosacea";
@@ -300,64 +300,64 @@ $skinguide_url_label = "Läs fler guider";
 $skinguide_url_title = "Läs fler guider om rosaceabehandling";
 
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i rosaceabehandling',
-            image_title: 'Cazzandra Lindberg - Expert på rosaceabehandling'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på rosacea',
-            image_title: 'Veronika Benedik - Specialist inom rosaceavård'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom rosaceahantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på rosacea'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot rosaceabehandling',
-            image_title: 'Vilma Libom - Expert inom rosaceabehandling'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i rosaceabehandling',
+        image_title: 'Cazzandra Lindberg - Expert på rosaceabehandling'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på rosacea',
+        image_title: 'Veronika Benedik - Specialist inom rosaceavård'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom rosaceahantering',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på rosacea'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot rosaceabehandling',
+        image_title: 'Vilma Libom - Expert inom rosaceabehandling'
+    )
 );
 
 $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 
 $brands = array(
-      new Brand(
-            label: 'Alma Rejuve Dye-VL',
-            image: 'bilder/logotyper/rejuve-dye-vl.svg',
-            image_alt: 'Alma Rejuve Dye-VL logotyp',
-            image_title: 'Alma Rejuve Dye-VL - IPL',
-            url: '/varumarken/alma/rejuve-dye-vl',
-            url_title: 'Alma Rejuve Dye-VL',
-      ),
-      new Brand(
-            label: 'Harmony XL Pro',
-            image: 'bilder/logotyper/harmony-xl-pro.png',
-            image_alt: 'Harmony XL Pro logotyp',
-            image_title: 'Alma Harmony XL Pro',
-            url: '/alma-harmony-xl-pro.php',
-            url_title: 'Harmony XL Pro',
-      ),
-      new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Photonova logotyp',
-            image_title: 'Powerlite Photonova - IPL',
-            url: '/varumarken/powerlite-photonova',
-            url_title: 'Powerlite Photonova',
-      ),
+    new Brand(
+        label: 'Alma Rejuve Dye-VL',
+        image: 'bilder/logotyper/rejuve-dye-vl.svg',
+        image_alt: 'Alma Rejuve Dye-VL logotyp',
+        image_title: 'Alma Rejuve Dye-VL - IPL',
+        url: '/varumarken/alma/rejuve-dye-vl',
+        url_title: 'Alma Rejuve Dye-VL',
+    ),
+    new Brand(
+        label: 'Harmony XL Pro',
+        image: 'bilder/logotyper/harmony-xl-pro.png',
+        image_alt: 'Harmony XL Pro logotyp',
+        image_title: 'Alma Harmony XL Pro',
+        url: '/alma-harmony-xl-pro.php',
+        url_title: 'Harmony XL Pro',
+    ),
+    new Brand(
+        label: 'Powerlite Photonova',
+        image: 'bilder/logotyper/powerlite-photonova.svg',
+        image_alt: 'Powerlite Photonova logotyp',
+        image_title: 'Powerlite Photonova - IPL',
+        url: '/varumarken/powerlite-photonova',
+        url_title: 'Powerlite Photonova',
+    ),
 );
 
 $brands_url_label = "Se alla varumärken";
