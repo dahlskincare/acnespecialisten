@@ -61,7 +61,7 @@ $define_consultation_link_label = "Boka Gratis Konsultation för Rosacea";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot rosacea";
 
 
-$headline02 = "02. Behandla aktiv rosacea";
+$headline02 = "02. Behandla rosacea";
 
 $treat_content = '<p class="p200">När din typ av rosacea har identifierats, påbörjar vi fas två: behandling av den aktiva rosacean. Här är målet framför allt att lindra inflammationen och rodnaden som är karaktäristiskt för tillståndet. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket optimerar resultaten och minimerar obehaget. Genom denna process minskar vi inflammation, stärker hudens barriär, och balanserar hudens känslighet, vilket över tid leder till en minskning av rosaceasymptomen. Behandlingsplanen anpassas löpande efter din huds respons.</p>';
 
@@ -139,7 +139,7 @@ $headline04 = '04. Behandla Ytliga Blodkärl';
 $repair_image_small = '/bilder/behandlingar/358x274/ipl.webp';
 $repair_image_large = '/bilder/behandlingar/872x456/ipl.webp';
 
-$repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På AcneSpecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
+$repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På AcneSpecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL. Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
 $repair_url = 'ipl-ytliga-blodkarl.php';
 $repair_url_label = 'Se behandlingar för ytliga blodkärl';
