@@ -99,30 +99,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Microneedling efter hudproblem';
-$types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
-$types = array(
-    new Service(
-        title: 'Microneedling mot Acneärr',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Vår microneedlingbehandling för acneärr stimulerar kollagenproduktion för att minska synligheten av ärr och förbättra hudens textur.',
-        image_small: 'bilder/problem/102x102/acnearr.webp',
-        image_large: 'bilder/problem/200x200/acnearr.webp',
-        image_alt: 'Microneedling för Acneärr',
-        image_title: 'Microneedling för Acneärr',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka konsultation för behandling av acneärr',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka microneedling för acneärr',
-
-        url: '/microneedling-acnearr.php',
-        url_label: 'Läs mer om microneedling mot acneärr',
-        url_title: 'Läs mer om microneedling mot acneärr',
-    ),
-);
+$types_title = '';
+$types_description = '';
 $big_types = array(
     new Service(
         title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
