@@ -132,6 +132,27 @@ $products = array(
         price: 'Acnespecialistens hudvårdsprodukter mot rosacea - Pris från 1295 kr',
         content: '<p class="p200">Att förebygga rosacea är en viktig del av processen för att hålla din hud lugn och utan rodnad, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot rosacea. Denna rutin hjälper till att hålla din hy balanserad, stärker hudens naturliga barriär och minskar symtom på rodnad och irritation. Denna dagliga vård hjälper till att förhindra förvärring av symtomen och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
     ),
+    new Service(
+        image_small: '/bilder/behandlingar/358x274/ipl.webp',
+        image_large: '/bilder/behandlingar/872x456/ipl.webp',
+        image_title: 'Klient som genomgår IPL-behandling mot rosacea',
+        image_alt: 'Bild av IPL-behandling mot rosacea hos Acnespecialisten',
+        title: 'IPL-behandling mot Rosacea',
+        duration: '50 min',
+        price: '2595 kr',
+        content: '<p class="p200">IPL-behandling för rosacea fungerar genom att använda ljuspulser för att minska rodnad och ytliga blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende och hudton.</p>',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea&method=Method_IPL&area=EMPTY',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka din IPL-behandling mot rosacea nu',
+        url: 'ipl-rosacea.php',
+        url_label: 'Läs mer om IPL-behandlingar',
+        url_title: 'Utforska mer om våra IPL-behandlingar mot rosacea',
+
+        // short_title: 'IPL'
+    ),
 );
 
 $headline04 = '04. Behandla Ytliga Blodkärl';
