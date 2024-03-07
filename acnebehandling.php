@@ -143,7 +143,7 @@ $services = array(
         image_large: '/bilder/behandlingar/872x456/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för akne',
         image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
-        title: 'Effektiv microneedling mot akne',
+        title: 'Microneedling mot akne',
         duration: '50 min',
         price: 'Pris från 2595 kr',
         icons: array(),
