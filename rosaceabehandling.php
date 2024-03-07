@@ -119,19 +119,7 @@ $services = array(
 
 $headline03 = "03. Förebygg rosacea";
 
-$products = array(
-    new Product(
-        image_small: '/bilder/behandlingar/358x274/produkter.webp',
-        image_large: '/bilder/behandlingar/872x456/produkter.webp',
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot rosacea',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot rosacea',
-
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-        url_label: 'Utforska hudvårdsprodukter mot rosacea',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
-        price: 'Acnespecialistens hudvårdsprodukter mot rosacea - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga rosacea är en viktig del av processen för att hålla din hud lugn och utan rodnad, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot rosacea. Denna rutin hjälper till att hålla din hy balanserad, stärker hudens naturliga barriär och minskar symtom på rodnad och irritation. Denna dagliga vård hjälper till att förhindra förvärring av symtomen och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
-    ),
+$services = array(
     new Service(
         image_small: '/bilder/behandlingar/358x274/ipl.webp',
         image_large: '/bilder/behandlingar/872x456/ipl.webp',
