@@ -11,8 +11,8 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $model = new Service(
     title: 'Portömning i Stockholm',
-    duration: '60 min',
-    price: 'Från 799 kr',
+    duration: null,
+    price: null,
     content: '<p class="p200">Portömning är en effektiv ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
@@ -135,13 +135,12 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter portömning',
+        title: 'Eftervård efter portömning',
         image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
         image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
         image_alt: 'Eftervård och underhåll',
         image_title: 'Eftervård och underhåll',
-        content: '<p class="p200">Efter en noggrann portömning hos Acnespecialisten är rätt eftervård avgörande för att upprätthålla resultaten och främja hudens läkning. Vi rekommenderar att efter behandlingen fortsätter du med en daglig hudvårdsrutin som omfattar produkter särskilt anpassade för att vårda och balansera porerna efter tömning. För detta ändamål rekommenderar vi produkter från DAHL Skincare, som stöder balansen i din hud och arbetar för att avlägsna och minimera pormaskar.</p>
-        <p class="p200 mt-m">Bra hudvård är anpassad efter dig och vi på Acnespecialisten strävar efter att skräddarsy rekommendationer som kompletterar din specifika hudtyp och behov. Genom att använda rätt hudvårdsprodukter i din dagliga rutin kan du inte bara upprätthålla de positiva effekterna av portömningen utan också stärka din hud mot framtida problem. Vi är dedikerade till att stötta dig genom hela din hudvårdsresa och ser fram emot att hjälpa dig uppnå och bibehålla en klar och hälsosam hud. Låt Acnespecialisten vara din guide och stöd på vägen mot en sund hudvårdsvana.</p>',
+        content: '<p class="p200">Efter en portömning är det viktigt att ge huden den omsorg den behöver för att bevara de uppnådda resultaten och underlätta läkningsprocessen. Detta gör du bäst genom en anpassad hudvårdsrutin, som skyddar huden och ger den näring efter behandlingen. Vi rekommenderar hudvårdsprodukter som är utformade för att behandla och balansera huden för att bibehålla resultatet och förebygga framtida hudproblem. Vi på AcneSpecialisten är engagerade i att stödja dig genom hela processen från behandling till eftervård. Vi säkerställer att du får ut det mesta av din portömning och fortsätter på vägen mot optimal hudhälsa.</p>',
     ),
 );
 
@@ -526,9 +525,7 @@ $all_brands = array(
                                 <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
-                        <?php if (strlen($model->content) > 0) { ?>
-                            <div class="mt-m"><?php echo $model->content ?></div>
-                        <?php } ?>
+                       <div class="mt-m"><?php echo $floating_box ?></div>
                         <?php if (isset($model->procedures)) { ?>
                             <div id="floating-procedures" class="mt-xl">
                                 <?php foreach ($model->procedures as $procedure) { ?>

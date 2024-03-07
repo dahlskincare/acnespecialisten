@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Microneedling i Stockholm',
     duration: null,
-    price: 'Från 2332 kr',
+    price: null,
     content: '<p class="p200">Som ledande experter på microneedling i Stockholm, erbjuder vi toppmodern behandling för att revitalisera din hud. Genom att försiktigt och strategiskt skapa mikroskopiska skador i hudens yttre lager, kickstartas produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>',
     image_small: 'bilder/behandlingar/358x274/microneedling.webp',
     image_large: 'bilder/behandlingar/424x456/microneedling.webp',
