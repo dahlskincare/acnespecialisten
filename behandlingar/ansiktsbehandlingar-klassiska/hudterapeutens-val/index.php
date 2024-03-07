@@ -132,11 +132,11 @@ $big_types = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter hudterapeutens val',
+        title: 'Efter hudterapeutens val',
         image_small: null,
         image_large: null,
-        image_alt: 'Eftervård och underhåll',
-        image_title: 'Eftervård och underhåll',
+        image_alt: 'Efter hudterapeutens val',
+        image_title: 'Efter hudterapeutens val',
         content: '<p class="p200">Efter din personligt anpassade ansiktsbehandling är ett individuellt anpassat eftervårdsprogram nyckeln till att förlänga de positiva effekterna och stödja din huds hälsa. Din hudterapeut kommer att ge dig skräddarsydda råd för hemvård baserat på de specifika behandlingar som har utförts, eftersom varje behandling är unik för just din hudtyp och dina behov.</p>
         <p class="p200 mt-m">Du kommer att få rekommendationer om lämpliga produkter som kompletterar den behandling du har fått och råd om hur du bäst implementerar dem i din dagliga hudvårdsrutin. Detta kan innefatta allt från hur du ska återfukta och skydda huden till vilka ingredienser som är viktiga för just din hudprofil. Eftervårdsprogrammet siktar inte bara på att underhålla de omedelbara resultaten från din behandling, utan också att ge dig verktygen och kunskapen för att hantera din hud och dess behov över tid. Att följa hudterapeutens eftervårdsråd säkerställer att du får ut det mesta av din skräddarsydda behandling långt efter att du har lämnat salongen.</p>',
     ),
