@@ -26,5 +26,6 @@
                 <?php echo $type->subtitle ?>
             </p>
         </div>
+        <?php icon('link-external') ?>
     </a>
 <?php } ?>
