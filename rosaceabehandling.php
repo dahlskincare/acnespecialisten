@@ -21,7 +21,7 @@ $path_segments = array(
 );
 
 $title = 'Rosacea behandling';
-$description = 'Här har vi samlat de mest effektiva metoderna för rosaceabehandling som hjälper dig att hantera och lindra dina symptom. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en lugnare och jämnare hy.';
+$description = 'På Acnespecialisten erbjuder vi effektiva rosaceabehandlingar anpassade för att mildra dina symtom och förbättra din hudhälsa. Med en rad alternativ tillgängliga, är vi här för att hjälpa dig att hitta den metod som bäst passar din hudtyp. Boka en kostnadsfri konsultation hos oss idag, och ta det första steget mot en lugnare och jämnare hy.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea';
 $booking_link_title = 'Boka behandling';
