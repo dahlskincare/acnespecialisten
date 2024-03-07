@@ -1,4 +1,7 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -15,9 +18,11 @@
 </head>
 
 <?php
+$path_segments = array(
+    new PathSegment('Resultat', 'resultat.php'),
+);
 
 $consultation_url = 'gratis-hudkonsultation.php';
-
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
