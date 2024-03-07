@@ -212,6 +212,7 @@
                                     button_label: 'Se produkter',
                                     button_url: 'https://dahlskincare.com',
                                     button_url_title: 'Besök vår webbshop',
+                                    button_url_target: '_blank',
                               ),
                               new ApproachCard(
                                     number: '04',
