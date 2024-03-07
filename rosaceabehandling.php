@@ -546,9 +546,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                             ),
                             new Question(
                                 title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
-                                text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>
-
-                                  <p class="p200 mt-m">Hydrerande behandlingar kan hjälpa till att återfukta och stärka hudbarriären, vilket kan minska hudens känslighet. Det är dock viktigt att undvika behandlingar som är för hårda eller irriterande, eftersom de kan förvärra rosaceasymptomen.</p>'
+                                text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>'
                             ),
                             new Question(
                                 title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
@@ -556,9 +554,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                             ),
                             new Question(
                                 title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
-                                text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>
-
-                                  <p class="p200 mt-m">Därefter, applicera en återfuktande kräm för att hjälpa till att återfukta huden och stärka hudbarriären. Slutligen, applicera ett solskyddsmedel med bred spektrum för att skydda huden mot solens strålar. Om du använder ansiktsbehandlingar bör de passa in i denna rutin på ett sätt som passar din hud och dina specifika behov.</p>'
+                                text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>'
                             ),
                         ),
 
