@@ -224,28 +224,11 @@ $reviews = array(
 $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
-
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
-        ),
-        new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
-        ),
-        new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
-        ),
-        new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
-        ),
-        new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: '',
+            text: ''
         ),
     ),
 );
