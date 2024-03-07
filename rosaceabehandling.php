@@ -28,7 +28,6 @@ $booking_link_title = 'Boka behandling';
 $consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea';
 $consultation_link_title = 'Boka hudkonsultation';
 
-
 $nav_buttons = array(
     'about' => 'Info',
     'define' => 'Konsultation',
