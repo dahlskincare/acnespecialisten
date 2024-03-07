@@ -2,9 +2,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Rosaceabehandling - Behandling och Förebyggande | Acnespecialisten';
-$seo_description = 'Lär dig allt om rosacea, från behandling till hur man förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, symptom på rosacea';
+$seo_title = 'Rosacea behandling, boka gratis konsultation';
+$seo_description = 'Behandla din rosacea hos AcneSpecialisten, vi har 30 års erfarenhet av att ta bort rosacea, börja din resa med en gratis konsultation i stockholm eller online';
+$seo_keywords = 'rosaceabehandling, rosacea behandling, ta bort orsacea, få bort rosacea';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
@@ -27,7 +27,6 @@ $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_R
 $booking_link_title = 'Boka behandling';
 $consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea';
 $consultation_link_title = 'Boka hudkonsultation';
-
 
 $nav_buttons = array(
     'about' => 'Info',
@@ -61,7 +60,7 @@ $define_consultation_link_label = "Boka Gratis Konsultation för Rosacea";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot rosacea";
 
 
-$headline02 = "02. Behandla aktiv rosacea";
+$headline02 = "02. Behandla rosacea";
 
 $treat_content = '<p class="p200">När din typ av rosacea har identifierats, påbörjar vi fas två: behandling av den aktiva rosacean. Här är målet framför allt att lindra inflammationen och rodnaden som är karaktäristiskt för tillståndet. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket optimerar resultaten och minimerar obehaget. Genom denna process minskar vi inflammation, stärker hudens barriär, och balanserar hudens känslighet, vilket över tid leder till en minskning av rosaceasymptomen. Behandlingsplanen anpassas löpande efter din huds respons.</p>';
 
@@ -75,8 +74,8 @@ $services = array(
         title: 'Ansiktsbehandling mot Rosacea',
         duration: '60 minuter',
         price: 'Pris från 1295 kr',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        content: '<p class="p200">Ansiktsbehandling mot rosacea på Acnespecialisten syftar till att lugna huden, minska rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',
+        icons: array(),
+        content: '<p class="p200">Ansiktsbehandling mot rosacea lugnar huden, minskar rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
         consultation_url_label: 'Boka konsultation',
@@ -129,17 +128,17 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
         url_label: 'Utforska hudvårdsprodukter mot rosacea',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
-        price: 'Acnespecialistens hudvårdsprodukter mot rosacea - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga rosacea med produkter är en viktig del av processen för att hålla din hud balanserad, lugn och utan rodnad. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot rosacea. Denna rutin hjälper till att hålla din hy balanserad, stärker hudens naturliga barriär och minskar symtom på rodnad och irritation. Denna dagliga vård hjälper till att förhindra förvärring av symtomen och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
+        price: 'Hudvårdsprodukter mot rosacea - Pris från 1395 kr',
+        content: '<p class="p200">Att förebygga rosacea med rätt hudvårdsprodukter är avgörande för att upprätthålla en balanserad och lugn hud utan rodnad. På AcneSpecialisten rekommenderar vi en daglig hudvårdsrutin utformad specifikt för att möta behoven för rosaceabenägen hy. Genom att använda dessa produkter i din dagliga hudvårdsrutin, kan du ta bort rosacea genom att stärka hudens naturliga barriär, minska symtom på rodnad och irritation, och effektivt förhindra förvärring av tillståndet. Denna rutin är lika viktig som regelbundna klinikbesök, eftersom den hjälper till att hålla din hud i bästa möjliga skick och bidrar till en långsiktig lindring av rosacea-symtom.</p>',
     ),
 );
 
-$headline04 = '04. Behandla Ytliga Blodkärl';
+$headline04 = '04. Behandla Ytliga Blodkärl från rosacea';
 
 $repair_image_small = '/bilder/behandlingar/358x274/ipl.webp';
 $repair_image_large = '/bilder/behandlingar/872x456/ipl.webp';
 
-$repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå av flera orsaker och ge ett rodnat och fläckigt utseende på huden. På Acnespecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laserteknik och IPL (Intense Pulsed Light). Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
+$repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå efter rosacea och ge ett rodnat och ojämn hudton. På AcneSpecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laser och IPL. Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
 $repair_url = 'ipl-ytliga-blodkarl.php';
 $repair_url_label = 'Se behandlingar för ytliga blodkärl';
@@ -224,28 +223,11 @@ $reviews = array(
 $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
-
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilka typer av behandlingar erbjuder Acnespecialisten för olika hudproblem?',
-            text: 'Acnespecialisten erbjuder en rad olika behandlingar för hudproblem, inklusive acnebehandling, rosaceabehandling och portömning.'
-        ),
-        new Question(
-            title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
-        ),
-        new Question(
-            title: 'Hur många behandlingar behövs för att se resultat?',
-            text: 'Antalet behandlingar som behövs för att se resultat varierar beroende på ditt specifika hudproblem och din hudtyp. Genomsnittligt antal behandlingar är mellan 2-4 stycken.'
-        ),
-        new Question(
-            title: 'Är behandlingarna smärtsamma?',
-            text: 'Behandlingarna hos Acnespecialisten är utformade för att minimera obehag. När vi behandlar inflammerade områden och utför extraktioner kan det dock uppstå en tillfällig smärta. Denna känsla är dock övergående och försvinner snabbt, så du kan känna dig trygg under behandlingen.'
-        ),
-        new Question(
-            title: 'Kan alla hudtyper behandlas hos Acnespecialisten?',
-            text: 'Ja, Acnespecialisten erbjuder behandlingar som passar alla hudtyper.'
+            title: '',
+            text: ''
         ),
     ),
 );
@@ -558,24 +540,28 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                     <?php $faq_categories = array(
                         'Behandling mot rosacea' => array(
                             new Question(
-                                title: 'Vilka är de mest effektiva hudvårdsprodukterna för att lindra symtom på rosacea?',
-                                text: '<p class="p200">De mest effektiva hudvårdsprodukterna för att lindra rosaceasymptom är ofta de som lugnar huden och minskar inflammation. Dessutom kan produkter med solskyddsfaktor (SPF) hjälpa till att skydda huden mot UV-strålar, vilket kan förvärra rosaceasymptom.</p>'
+                                title: 'Vad är rosacea behandling med laser?',
+                                text: '<p class="p200">Rosacea behandling med laser innebär användning av laserljus för att selektivt målriktat behandla de blodkärl som bidrar till rosaceans rodnad och synlighet. Denna metod hjälper till att minska rodnaden och förbättra hudens övergripande utseende genom att skonsamt och effektivt minska synligheten av blodkärlen. </p>'
                             ),
                             new Question(
-                                title: 'Vilka typer av ansiktsbehandlingar är mest fördelaktiga för personer med rosacea och varför?',
-                                text: '<p class="p200">Vissa ansiktsbehandlingar kan vara särskilt fördelaktiga för personer med rosacea. Milt rengörande behandlingar kan hjälpa till att ta bort orenheter från huden utan att irritera den. Behandlingar som innehåller antiinflammatoriska ingredienser kan hjälpa till att minska inflammation och rodnad.</p>
-
-                                  <p class="p200 mt-m">Hydrerande behandlingar kan hjälpa till att återfukta och stärka hudbarriären, vilket kan minska hudens känslighet. Det är dock viktigt att undvika behandlingar som är för hårda eller irriterande, eftersom de kan förvärra rosaceasymptomen.</p>'
+                                title: 'Kan man behandla rosacea under graviditet?',
+                                text: '<p class="p200">Under graviditet är det viktigt att närma sig rosaceabehandling med försiktighet, då vissa behandlingsmetoder och produkter kanske inte är lämpliga. Det finns dock milda och säkra alternativ för att hantera rosacea under denna period.</p>'
                             ),
                             new Question(
-                                title: 'Hur kan regelbundna ansiktsbehandlingar förbättra tillståndet hos en person med rosacea?',
-                                text: '<p class="p200">Regelbundna ansiktsbehandlingar kan spela en nyckelroll i hanteringen av rosacea. De kan hjälpa till att hålla huden ren, minska inflammation och rodnad, återfukta huden och stärka hudbarriären. Genom att göra dessa behandlingar till en regelbunden del av din hudvårdsrutin kan du hjälpa till att hålla dina rosaceasymptom under kontroll.</p>'
+                                title: 'Hur många behandlingar behövs?',
+                                text: '<p class="p200">Antalet behandlingar som behövs för rosacea varierar beroende på individens hudtillstånd och svårighetsgraden av symtomen. Vissa kan uppleva förbättringar efter endast några sessioner, medan andra kan behöva fler behandlingar för optimala resultat.</p>'
                             ),
                             new Question(
-                                title: 'Finns det några särskilda steg man ska följa i sin hudvårdsrutin om man har rosacea och använder specialprodukter och ansiktsbehandlingar?',
-                                text: '<p class="p200">Ja, det finns några särskilda steg du bör följa om du har rosacea och använder specialprodukter och ansiktsbehandlingar. Det första steget är att rengöra huden varsamt med en mild rengöringsprodukt. Använd sedan en toner utan alkohol för att balansera hudens pH. Efter det, applicera eventuella medicinska krämer eller geler som du har fått utskrivna för att behandla din rosacea.</p>
-
-                                  <p class="p200 mt-m">Därefter, applicera en återfuktande kräm för att hjälpa till att återfukta huden och stärka hudbarriären. Slutligen, applicera ett solskyddsmedel med bred spektrum för att skydda huden mot solens strålar. Om du använder ansiktsbehandlingar bör de passa in i denna rutin på ett sätt som passar din hud och dina specifika behov.</p>'
+                                title: 'Gör behandlingen ont?',
+                                text: '<p class="p200">Rosaceabehandlingar är utformade för att vara så bekväma som möjligt. Vissa kunder kan uppleva en lätt stickande känsla under behandlingar som laser, men detta är oftast övergående och hanterbart. Vi strävar efter att göra din behandling så smärtfri som möjligt och kan diskutera smärtlindringsalternativ under din kostnadsfria konsultation.</p>'
+                            ),
+                            new Question(
+                                title: 'Kan jag behandla rosacea hemma?',
+                                text: '<p class="p200">Det finns produkter och rutiner för hemmabruk som kan hjälpa till att hantera milda rosaceasymtom. Dessa inkluderar användning av skonsamma hudvårdsprodukter och solskydd. För att få en skräddarsydd rekommendation baserat på dina unika behov.</p>'
+                            ),
+                            new Question(
+                                title: 'Vilken är den bästa rosacea behandlingen?',
+                                text: '<p class="p200">Den "bästa" behandlingen för rosacea beror helt på individens hudtillstånd och symtomens svårighetsgrad. Det finns många effektiva behandlingsalternativ, från laserbehandlingar till hudvårdsprodukter. Upptäck vilken metod som är mest effektiv för dig genom att boka en kostnadsfri konsultation hos Acnespecialisten, där vi kan erbjuda en personlig behandlingsplan.</p>'
                             ),
                         ),
 

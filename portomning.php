@@ -10,10 +10,10 @@ $seo_keywords = 'ansiktsbehandlingar mot pormaskar, portömning, rengöring av p
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $model = new Service(
-    title: 'Portömning',
+    title: 'Portömning i Stockholm',
     duration: '60 min',
     price: 'Från 799 kr',
-    content: '',
+    content: '<p class="p200">Portömning är en effektiv ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Portömning',
@@ -52,6 +52,8 @@ $model = new Service(
     ),
 );
 
+$floating_box = 'Ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar.';
+
 $nav_buttons = array(
     'about' => 'Om portömning',
     'preparing' => 'Förberedelser',
@@ -67,30 +69,19 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är portömning?';
-$description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att målmedvetet angripa och reducera pormaskar, och ge dig en långvarig behandlingsmetod för en problemfri hy. Genom specialicerade tekniker som vapozone använder vi ånga för att varsamt öppna upp porerna, vilket möjliggör en djup och effektiv rengöring speciellt inriktad på borttagning av pormaskar och andra tilltäpptheter.</p>
-    <p class="p200 mt-m">Dessa behandlingar är skräddarsydda för olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en kombination. Vårt mål är att förbättra hudens övergripande tillstånd och återställa en naturlig balans, samtidigt som vi tillhandahåller den med näring och omsorg som krävs för att förebygga framtida tilltäpptheter och uppkomsten av nya pormaskar.</p>';
-
+$description_title = 'Vad är portömning för ansiktsbehandling?';
+$description_text = '<p class="p200">Portömning är en ansiktsbehandling utformad för att djuprengöra porerna genom att noggrant extrahera komedoner (svarta och vita pormaskar) orsakade av talg och döda hudceller. Denna behandling minskar risken för finnar och förbättrar hudens utseende genom att avlägsna orenheter som kan leda till hudproblem. Utförd av professionella hudterapeuter, erbjuder portömning en skonsam och effektiv lösning för att uppnå en klarare, mjukare hud. Den är idealisk för de som kämpar med tilltäppta porer och söker en omfattande rengöring.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför portömning',
-        image_small: '/bilder/process/358x272/problemhy-forberedelser.webp',
-        image_large: '/bilder/process/872x456/problemhy-forberedelser.webp',
-        image_alt: 'Förberedelser inför portömning',
-        image_title: 'Förberedelser inför portömning',
-        content: '<p class="p200">Du är alltid välkommen att komma som du är till en portömning hos oss på AcneSpecialisten. Dock kan några enkla förberedelser optimera effekten av din behandling. Vi råder dig att, om möjligt, undvika hudvårdsprodukter med starka ingredienser eller exfolierande syror några dagar före din behandling för att minska risken för irritation och göra din hud mer mottaglig för behandlingen.</p>
-            <p class="p200 mt-m">Vi har inte heller några krav på att du ska komma osminkad utan detta kan vi hjäpla dig att tvätta bort i samband med att behandlingen inleds. Vi ser fram emot att ta emot dig och erbjuda en skräddarsydd behandlingsplan, anpassad efter dina behov, oavsett om det är för pormaskar i ansiktet, på bröstet eller ryggen.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går en portömning till?',
         image_small: '/bilder/process/358x272/problemhy-process.webp',
         image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Hur går en portömning till?',
         image_title: 'Hur går en portömning till?',
-        content: '<p class="p200">Portömning är en noggrann rengöringsprocess med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller. Denna exfoliering är viktig då den förbereder huden genom att öppna upp porerna, vilket gör dem redo för den följande djuprengöringen.</p>
-        <p class="p200 mt-m">Efter peelingen tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar porerna ytterligare, vilket gör det enklare att ta bort pormaskar och andra blockeringar. Detta steg är avgörande eftersom det förbereder huden för den manuella portömningen där en terapeut varsamt tömmer porerna. För de mest envisa tilltäppningarna kan en lansett användas för att försiktigt göra en öppning och möjliggöra en mer effektiv rengöring.</p>
-        <p class="p200 mt-m">Efter den manuella rengöringen lugnas huden med en specialanpassad lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
+        content: '<p class="p200">Portömning är en noggrann ansiktsbehandling med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, finnar och akne, vilket bidrar till en jämnare hudton och textur. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller.</p>
+        <p class="p200 mt-m">Efter rengöring tillämpas en mild ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar upp porerna, vilket gör det enklare att klämma ut pormaskar och andra blockeringar. För de mest envisa tilltäppningarna kan en lansett (liten nål) användas för att försiktigt göra en öppning i poren för att kunna extrahera innehållet.</p>
+        <p class="p200 mt-m">Sedan applicerar vi en lugnande lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
     ),
 );
 
@@ -142,91 +133,6 @@ $treatment_areas = array(
     ),
 );
 
-$types_title = 'Portömning mot hudproblem';
-$types_description = '';
-$types = array(
-    new Service(
-        title: 'Ansiktsbehandling mot Pormaskar',
-        duration: null,
-        price: null,
-        content: 'Ansiktsbehandling anpassad för pormaskar med fokus på att rengöra porer och klämma ut pormaskar.',
-        image_small: 'bilder/problem/102x102/pormaskar.webp',
-        image_large: 'bilder/problem/200x200/pormaskar.webp',
-        image_alt: 'Ansiktsbehandling mot Pormaskar',
-        image_title: 'Ansiktsbehandling mot Pormaskar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka en Ansiktsbehandling mot Pormaskar',
-
-        url_label: 'Läs mer om pormaskar',
-        url: '/pormaskar.php',
-        url_title: 'Läs mer om pormaskar',
-    ),
-    new Service(
-        title: 'Ansiktsbehandling mot Akne',
-        duration: null,
-        price: null,
-        content: 'Ansiktsbehandling anpassad för akne med fokus på att klämma ut papler, pustler och komedoner.',
-        image_small: 'bilder/problem/102x102/akne.webp',
-        image_large: 'bilder/problem/200x200/akne.webp',
-        image_alt: 'Ansiktsbehandling mot Akne',
-        image_title: 'Ansiktsbehandling mot Akne',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
-
-        url_label: 'Läs mer om akne',
-        url: '/acne.php',
-        url_title: 'Läs mer om akne',
-    ),
-    new Service(
-        title: 'Ansiktsbehandling mot Finnar',
-        duration: null,
-        price: null,
-        content: 'Ansiktsbehandling mot finnar som djuprengör, behandlar och klämmer ut finnar finnar, samtidigt som den balanserar hudens talgproduktion och minskar inflammation.',
-        image_small: 'bilder/problem/102x102/finnar.webp',
-        image_large: 'bilder/problem/200x200/finnar.webp',
-        image_alt: 'Ansiktsbehandling mot Finnar',
-        image_title: 'Ansiktsbehandling mot Finnar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka en Ansiktsbehandling mot Finnar',
-
-        url_label: 'Läs mer om finnar',
-        url: '/finnar.php',
-        url_title: 'Läs mer om finnar',
-    ),
-    new Service(
-        title: 'Ansiktsbehandling för Stora Porer',
-        duration: null,
-        price: null,
-        content: 'Denna behandling är specifikt framtagen för att behandla och minska framträdande stora porer. Vi rengör och tömmer porerna på djupet så att de blir mindre framträdande vilket resulterar i en jämnare och slätare hy.',
-        image_small: 'bilder/problem/102x102/stora-porer.webp',
-        image_large: 'bilder/problem/200x200/stora-porer.webp',
-        image_alt: 'Ansiktsbehandling för Stora Porer',
-        image_title: 'Ansiktsbehandling för Stora Porer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores&area=EMPTY',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka en Ansiktsbehandling för Stora Porer',
-
-        url_label: 'Läs mer om stora porer',
-        url: '/stora-porer.php',
-        url_title: 'Läs mer om stora porer',
-    ),
-);
-
 $bottom_articles = array(
     'aftercare' => new Article(
         title: 'Eftervård och underhåll efter portömning',
@@ -239,6 +145,7 @@ $bottom_articles = array(
     ),
 );
 
+$results_title = 'Portömning före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
