@@ -42,7 +42,7 @@ $nav_buttons = array(
     'specialists' => 'Specialister'
 );
 
-$about_title = 'Hur vi tar bort och behandlar rosacea?';
+$about_title = 'Hur behandlar man rosacea?';
 
 $about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa verktygen för att effektivt och regelbundet behandla rosacea. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en individuell behandlingsplan för dig.</p>
 
