@@ -15,6 +15,11 @@ $image_small = 'images/treatments/small/acne-scars.jpg';
 $image_alt = 'Bild som illustrerar acneärr';
 $image_title = 'Acneärr';
 
+$path_segments = array(
+      new PathSegment('Behandlingar', '/behandlingar.php'),
+      new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
+);
+
 $title = 'Behandling av acneärr';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av acneärr som hjälper dig att effektivt. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att få bort acneärr? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
 
