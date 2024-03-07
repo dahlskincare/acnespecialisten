@@ -81,8 +81,8 @@ $description_text = '<p class="p200">Dermapen är en framstående och skonsam be
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför Dermapen-behandling',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/dermapen-forberedelser.webp',
+        image_large: '/bilder/process/872x456/dermapen-forberedelser.webp',
         image_alt: 'Förberedelser inför Dermapen-behandling',
         image_title: 'Förberedelser inför Dermapen-behandling',
         content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
@@ -90,8 +90,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Dermapen behandlingsprocess',
-        image_small: '/bilder/process/358x272/dermapen-forberedelser.webp',
-        image_large: '/bilder/process/872x456/dermapen-forberedelser.webp',
+        image_small: '/bilder/process/358x272/dermapen-process.webp',
+        image_large: '/bilder/process/872x456/dermapen-process.webp',
         image_alt: 'Dermapen behandlingsprocess',
         image_title: 'Dermapen behandlingsprocess',
         content: '<p class="p200">En Dermapen-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
@@ -411,7 +411,6 @@ $bottom_articles = array('aftercare' => new Article(
     content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Dermapenbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är essentiellt att hålla behandlingsområdet rent och avstå från att applicera makeup under det första dygnet för att minska risken för infektioner och irritation.</p>
     <p class="p200 mt-m">För att underlätta läkningen bör du undvika intensiv träning, bastubad, och varma duschar de första dagarna som kan förvärra svullnad och irritation. Vikten av solskydd kan inte understrykas nog; använd ett högkvalitativt solskyddsfaktor dagligen för att skydda den nybehandlade huden mot solens strålar.</p>
     <p class="p200 mt-m">Följ de instruktioner för eftervård du får från din behandlare noggrant. Om du har några frågor eller bekymmer, är du alltid välkommen att kontakta din klinik. Baserat på hur din hud reagerar kan ytterligare uppföljning och behandlingar vara nödvändiga för att uppnå dina hudvårdsambitioner.</p>',
-    tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
 $service_brands_title = 'Andra märken för microneedling';
