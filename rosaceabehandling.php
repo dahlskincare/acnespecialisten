@@ -75,7 +75,7 @@ $services = array(
         title: 'Ansiktsbehandling mot Rosacea',
         duration: '60 minuter',
         price: 'Pris från 1295 kr',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+        icons: array(),
         content: '<p class="p200">Ansiktsbehandling mot rosacea lugnar huden, minskar rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
