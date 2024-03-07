@@ -20,8 +20,8 @@ $path_segments = array(
       new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
 );
 
-$title = 'Behandling av acneärr';
-$description = 'Här har vi samlat de mest effektiva metoderna för behandling av acneärr som hjälper dig att effektivt. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken som bäst passar din hudtyp för att få bort acneärr är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
+$title = 'Få bort acneärr';
+$description = 'Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars';
 $booking_link_title = 'Boka behandling';
