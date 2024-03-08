@@ -425,6 +425,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'Dermapen före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
