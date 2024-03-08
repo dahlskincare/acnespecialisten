@@ -86,7 +86,7 @@ $top_articles = array(
         image_alt: 'Förberedelser inför Dermapen behandling',
         image_title: 'Förberedelser inför Dermapen behandling',
         content: '<p class="p200">Att förbereda sig för en Dermapen behandling innebär att först genomgå en detaljerad konsultation med en av våra hudterapeuter. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
-        <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
+        <p class="p200 mt-m">För optimala resultat bör huden inte vara solbränd vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
     ),
     'process' => new Article(
         title: 'Dermapen behandlingsprocess',
