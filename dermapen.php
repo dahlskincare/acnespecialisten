@@ -408,8 +408,8 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: '/bilder/process/872x456/dermapen-eftervard.webp',
     image_alt: 'Dermapen eftervård',
     image_title: 'Dermapen eftervård',
-    content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Dermapenbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är essentiellt att hålla behandlingsområdet rent och avstå från att applicera makeup under det första dygnet för att minska risken för infektioner och irritation.</p>
-    <p class="p200 mt-m">För att underlätta läkningen bör du undvika intensiv träning, bastubad, och varma duschar de första dagarna som kan förvärra svullnad och irritation. Vikten av solskydd kan inte understrykas nog; använd ett högkvalitativt solskyddsfaktor dagligen för att skydda den nybehandlade huden mot solens strålar.</p>
+    content: '<p class="p200">Eftervården spelar en stor roll för framgången med din Dermapenbehandling. Det är helt normalt att uppleva rödhet och svullnad efter behandlingen. Det är viktigt att hålla behandlingsområdet rent och avstå från att applicera smink under det första dygnet för att minska risken för infektioner och irritation.</p>
+    <p class="p200 mt-m">För att underlätta läkningen bör du undvika intensiv träning, bastubad, och varma duschar de första dagarna som kan förvärra svullnad och irritation. Vikten av solskydd kan inte understrykas nog, använd ett högkvalitativt solskyddsfaktor dagligen för att skydda den nybehandlade huden mot solens strålar.</p>
     <p class="p200 mt-m">Följ de instruktioner för eftervård du får från din behandlare noggrant. Om du har några frågor eller bekymmer, är du alltid välkommen att kontakta din klinik. Baserat på hur din hud reagerar kan ytterligare uppföljning och behandlingar vara nödvändiga för att uppnå dina hudvårdsambitioner.</p>',
 ));
 
