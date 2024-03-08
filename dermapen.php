@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Dermapen 4 behandling Stockholm',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
+    content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste Dermapen tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
     image_small: 'bilder/varumarken/358x274/dermapen.webp',
     image_large: 'bilder/varumarken/424x456/dermapen.webp',
     image_alt: 'Dermapen',
@@ -74,7 +74,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Dermapen - en innovativ behandlingsteknik';
+$description_title = 'Dermapen 4 - en innovativ behandlingsteknik';
 $description_text = '<p class="p200">Dermapen är en framstående och skonsam behandlingsmetod som är lämplig för alla hudtyper, inriktad på att vitalisera och föryngra huden. Med en patenterad teknologi använder Dermapen avancerade mikronålar för att skapa fina, precisionsinriktade mikrokanaler i huden. Detta underlättar djupgående absorption av aktiva serum som är rika på näringsämnen och stimulerar hudens kollagenproduktion och naturliga läkningsprocess.</p>
     <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre metoder. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
 
