@@ -145,6 +145,8 @@ $header_brands = array(
 $link_brands = array(
       new BrandCategory(
             label: 'Laser mot hudproblem',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "alma-hybrid-co2-laser.php" => "Alma Hybrid CO2",
                   "alma-harmony-xl-pro.php" => "Harmony XL Pro"
@@ -152,6 +154,8 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'Permanent Hårborttagning',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "varumarken/splendor-x" => "Splendor X",
                   "varumarken/alma/soprano-ice" => "Soprano Ice",
@@ -159,6 +163,8 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'IPL',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "varumarken/alma/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
                   "alma-harmony-xl-pro.php" => "Harmony XL Pro",
@@ -167,6 +173,8 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'Dermabration',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "hydrafacial.php" => "HydraFacial",
                   "microdermabrasion.php" => "Mimass",
@@ -174,6 +182,8 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'Kemisk Peeling',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "varumarken/skin-tech" => "Skin Tech",
                   "prx-t33.php" => "PRX-T33",
@@ -181,18 +191,24 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'FreezeTreat',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "cryopen.php" => "CryoPen",
             )
       ),
       new BrandCategory(
             label: 'Skinbooster',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "infuzion.php" => "Infuzion",
             )
       ),
       new BrandCategory(
             label: 'Microneedling',
+            url: '#',
+            url_title: 'Läs mer',
             services: array(
                   "dermapen.php" => "Dermapen",
                   "varumarken/exceed" => "Exceed"
@@ -532,7 +548,7 @@ $path_segments = array(
                         <div id="item-container">
                               <?php for ($i = 0; $i < count($link_brands); $i++) { ?>
                                     <div class="item" id="item-<?php echo $i ?>">
-                                          <p class="p200"><?php echo $link_brands[$i]->label ?></p>
+                                          <p class="p200"><a href="<?php echo $link_brands[$i]->url ?>" title="<?php echo $link_brands[$i]->url_title ?>"><?php echo $link_brands[$i]->label ?></a></p>
                                           <?php foreach ($link_brands[$i]->services as $url => $label) { ?>
                                                 <p class="p200 service-label"><a href="<?php echo $url ?>" title="<?php echo $label ?>"><?php echo $label ?></a></p>
                                           <?php } ?>

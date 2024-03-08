@@ -132,9 +132,11 @@ html {
                         background-color: $light-50;
                     }
 
-                    a {
-                        font-weight: bold;
-                        color: $black-500;
+                    .service-label {
+                        a {
+                            font-weight: bold;
+                            color: $black-500;
+                        }
                     }
                 }
 
