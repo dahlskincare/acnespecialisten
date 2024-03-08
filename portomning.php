@@ -135,11 +135,11 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård efter portömning',
+        title: 'Eftervård för portömning',
         image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
         image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
-        image_alt: 'Eftervård och underhåll',
-        image_title: 'Eftervård och underhåll',
+        image_alt: 'Eftervård för portömning',
+        image_title: 'Eftervård för portömning',
         content: '<p class="p200">Efter en portömning är det viktigt att ge huden den omsorg den behöver för att bevara de uppnådda resultaten och underlätta läkningsprocessen. Detta gör du bäst genom en anpassad hudvårdsrutin, som skyddar huden och ger den näring efter behandlingen. Vi rekommenderar hudvårdsprodukter som är utformade för att behandla och balansera huden för att bibehålla resultatet och förebygga framtida hudproblem. Vi på AcneSpecialisten är engagerade i att stödja dig genom hela processen från behandling till eftervård. Vi säkerställer att du får ut det mesta av din portömning och fortsätter på vägen mot optimal hudhälsa.</p>',
     ),
 );
