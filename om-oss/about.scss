@@ -46,6 +46,16 @@ div#content {
     margin: 0 auto;
     max-width: 872px;
 
+    section#video {
+        margin-top: $m;
+
+        iframe {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
+    }
+
     section#title {
         margin-top: $xl;
 
@@ -127,15 +137,13 @@ div#content {
                     justify-content: space-between;
 
                     #s-first-two-text {
-                        max-width: 400px;
-
                         p {
                             margin-top: $m;
                         }
                     }
 
                     #s-first-images {
-                        margin-top: $xl3;
+                        margin-top: $xl;
                     }
                 }
 
@@ -143,9 +151,6 @@ div#content {
 
             @include desktop {
                 #s-first-two {
-                    #s-first-two-text {
-                        max-width: 423px;
-                    }
 
                     #s-first-images {
                         picture:first-child {

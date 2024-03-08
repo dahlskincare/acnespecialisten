@@ -45,6 +45,16 @@ html {
             margin: 0 auto;
             max-width: 872px;
 
+            section#video {
+                margin-top: $m;
+
+                iframe {
+                    width: 100%;
+                    height: auto;
+                    aspect-ratio: 16/9;
+                }
+            }
+
             section#title {
                 margin-top: $xl;
 
