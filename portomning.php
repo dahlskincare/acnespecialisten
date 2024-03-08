@@ -287,7 +287,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur ofta bör jag genomgå en portömning?',
-            text: '<p class="p200">Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behövs ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.</p>'
+            text: '<p class="p200">Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behövs ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du bokar en konsultation med en av våra hudterapeuter.</p>'
         ),
         new Question(
             title: 'Kommer pormaskarna tillbaka efter en portömning?',
