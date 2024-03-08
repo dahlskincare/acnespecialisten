@@ -81,7 +81,7 @@ $top_articles = array(
         image_title: 'Hur går en portömning till?',
         content: '<p class="p200">Portömning är en noggrann ansiktsbehandling med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, finnar och akne, vilket bidrar till att minimera porernas storlek. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller.</p>
         <p class="p200 mt-m">Efter rengöring tillämpas en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar upp porerna, vilket gör det enklare att klämma ut pormaskar och andra blockeringar. För de mest envisa tilltäppningarna kan en lansett (liten nål) användas för att försiktigt göra en öppning i poren för att kunna extrahera innehållet.</p>
-        <p class="p200 mt-m">Sedan applicerar vi en lugnande lermask, som har förmågan att minska rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
+        <p class="p200 mt-m">Sedan applicerar vi en lugnande lermask, som minskar rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
     ),
 );
 
@@ -97,7 +97,7 @@ $treatment_areas = array(
         description: null,
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/ansikte.webp',
+                image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Portömning i ansiktet',
                 image_title: 'Portömning i ansiktet',
                 title: 'Ansikte',
@@ -108,7 +108,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för portömning i ansiktet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/brost.webp',
+                image: '/bilder/omraden/ikoner/brost.svg',
                 image_alt: 'Portömning på bröstet',
                 image_title: 'Portömning på bröstet',
                 title: 'Bröst',
@@ -119,7 +119,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för portömning på bröstet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/rygg.webp',
+                image: '/bilder/omraden/ikoner/rygg.svg',
                 image_alt: 'Portömning på ryggen',
                 image_title: 'Portömning på ryggen',
                 title: 'Rygg',
