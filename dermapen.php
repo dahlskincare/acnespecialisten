@@ -57,7 +57,7 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
+$floating_box = 'Förbättrar hudens struktur med nålbehandling.';
 
 $nav_buttons = array(
     'about' => 'Om Dermapen',
