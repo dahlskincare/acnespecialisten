@@ -295,7 +295,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur snabbt kan jag se resultat från portömning?',
-            text: '<p class="p200">Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera behandlingar. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.</p>'
+            text: '<p class="p200">Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera behandlingar. Kombinationen av regelbundna portömningar och rätt hemmavård är nyckeln till långsiktiga resultat.</p>'
         ),
         new Question(
             title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
