@@ -4,8 +4,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Dermapen behandling i Stockholm';
-$seo_description = 'Upptäck AcneSpecialistens Dermapen behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
-$seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
+$seo_description = 'Dermapen behandlingar är ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar genom att stimulera hudens läkningsprocess.';
+$seo_keywords = 'Dermapen, Dermapen 4, Dermapen behandling, Dermapen 4 behandling hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
@@ -566,20 +566,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Vilket är det rekommenderade antalet Dermapen sessioner?',
-            text: '<p class="p200">Det optimala antalet Dermapen sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.</p>'
+            title: 'Hur ofta ska man göra Dermapen?',
+            text: '<p class="p200">Frekvensen för Dermapen-behandlingar varierar beroende på individens hudtyp, det specifika hudtillståndet som behandlas, och den önskade effekten. Generellt rekommenderas en serie av 3-8 behandlingar med 4-6 veckors mellanrum för optimala resultat. Därefter kan underhållsbehandlingar genomföras vid behov, vanligtvis var sjätte till tolfte månad. Det är viktigt att konsultera med en kvalificerad hudvårdsspecialist för att fastställa den bästa behandlingsplanen för just din hud.</p>'
         ),
         new Question(
-            title: 'Är det en risk att hudproblemen återvänder efter en Dermapen behandlingar?',
-            text: '<p class="p200">Dermapen är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.</p>'
+            title: 'Vad gör Dermapen?',
+            text: '<p class="p200">Dermapen är en form av microneedling-behandling som använder en specialdesignad enhet med 16 små nålar för att skapa mikroskopiska punkteringar i hudens ytskikt. Denna process stimulerar hudens naturliga läkningsprocess och produktionen av kollagen och elastin. Resultatet är en förbättring av hudens textur och fasthet samt en minskning av ärr, fina linjer, rynkor, och stora porer. Behandlingen kan också effektivt minska hyperpigmentering och ge huden en mer jämn ton.</p>'
         ),
         new Question(
-            title: 'När kan jag förvänta mig resultat från min Dermapen behandling?',
-            text: '<p class="p200">Tidsramen för synliga resultat efter en Dermapen behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.</p>'
+            title: 'Vad är Dermapen?',
+            text: '<p class="p200">Dermapen är en avancerad teknik inom hudvård som använder microneedling för att behandla en mängd hudproblem. Den består av en pennliknande enhet utrustad med fina nålar som skapar små punkteringar i hudens yta. Dessa kontrollerade skador stimulerar kroppens naturliga sårhelande processer, vilket leder till ny kollagen- och elastinproduktion. Denna teknik används för att förbättra hudens textur, minska ärrbildning, och bekämpa tecken på åldrande.</p>'
         ),
         new Question(
-            title: 'När kan jag förvänta mig resultat från min Dermapen behandling?',
-            text: '<p class="p200">Tidsramen för synliga resultat efter en Dermapen behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.</p>'
+            title: 'Dermapen fungerar inte?',
+            text: '<p class="p200">Om du inte ser de resultat du förväntade dig från din Dermapen-behandling, kan det finnas flera faktorer som spelar in. Resultat kan variera beroende på individens hudtyp, ålder, det specifika hudtillståndet, och antalet genomförda behandlingar. Det är också viktigt att besöka en klinik som har lång erfarenhet av att utföra Dermapen behandlingar effektivt. För att säkerställa effektiviteten av en Dermapen-behandling är det avgörande att utföraren är utbildad hudterapeut och certifierad av Dermapen World. Ett kritiskt moment under behandlingen är kontinuerlig justering av nåldjupet för att anpassa sig till den unika hudtypen och de specifika behoven hos varje individ. Alla har vi olika hudtyper, och det är därför viktigt att behandlaren skräddarsyr nåldjupet efter just din hud för att uppnå optimala resultat. Om dessa viktiga aspekter förbises kan behandlingen bli ineffektiv. Vi rekommenderar att du väljer en klinik med den kunskap och erfarenhet som krävs för att justera behandlingen för just din hud.</p>'
+        ),
+        new Question(
+            title: 'Är Dermapen och microneedling samma sak?',
+            text: '<p class="p200">Dermapen är en typ av microneedling, vilket är en metod som använder små nålar för att skapa mikroskopiska skador i huden och därigenom stimulera hudens naturliga läkningsprocess och produktion av kollagen och elastin. Medan Dermapen är ett varumärkesnamn för en specifik enhet som används för denna typ av behandling, refererar microneedling till själva tekniken oavsett vilken enhet som används. Dermapen är känd för sin precision och förmåga att justera nåldjupet, vilket gör det möjligt att anpassa behandlingen efter olika hudtyper och tillstånd.</p>'
         ),
     )
 );
