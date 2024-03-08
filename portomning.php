@@ -286,6 +286,10 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
+            title: 'Kan jag göra portömning hemma?',
+            text: '<p class="p200">Att utföra portömning hemma rekommenderas inte då det ökar risken för infektioner och ärrbildning. Professionella hudterapeuter använder sterila verktyg och rätt metoder för att säkert rensa porerna, vilket minskar risken för hudskador. För bästa resultat och minsta risk, bör du söka hjälp av en utbildad hudterapeut för att hantera porblockeringar och pormaskar.</p>'
+        ),
+        new Question(
             title: 'Hur ofta bör jag genomgå en portömning?',
             text: '<p class="p200">Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behövs ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du bokar en konsultation med en av våra hudterapeuter.</p>'
         ),
