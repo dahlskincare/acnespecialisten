@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Portömning mot Pormaskar - Portömning | AcneSpecialisten';
-$seo_description = 'AcneSpecialisten erbjuder specialiserade porrengöringsbehandlingar riktade mot pormaskar och orenheter. Våra skräddarsydda behandlingar renar porerna och bidrar till en jämnare hudtextur. Få professionell hjälp och skräddarsydda hudvårdsråd för att uppnå en sundare hud och reducera synligheten av pormaskar.';
-$seo_keywords = 'ansiktsbehandlingar mot pormaskar, portömning, rengöring av pormaskar, behandling av pormaskar, pormaskrengöring, hudvård, klara porer, AcneSpecialisten, djuprengöring av huden, förebygga pormaskar, minska pormaskar, rena porer';
+$seo_title = 'Portömning i Stockholm - Töm dina porer effektivt';
+$seo_description = 'Portömning är en specialisterad ansiktsbehandling som djuprengör och tömmer porerna för att bli av med pormaskar, finnar och acne.';
+$seo_keywords = 'ansiktsbehandlingar mot pormaskar, portömning, rengöring av pormaskar, behandling av pormaskar, pormaskrengöring, klara porer, djuprengöring av huden, förebygga pormaskar, minska pormaskar, rena porer';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
