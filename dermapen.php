@@ -99,7 +99,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som Dermapen kan förbättra';
+$types_title = 'Hudproblem som Dermapen kan behandla';
 $types_description = 'Dermapen hjälper till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Dermapen här.';
 $types = array(
     new Service(
