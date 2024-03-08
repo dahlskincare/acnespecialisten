@@ -299,7 +299,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
-            text: '<p class="p200">Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.</p>'
+            text: '<p class="p200">Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan dra nytta av en personligt anpassad hudvårdsstrategi.</p>'
         ),
     )
 );
