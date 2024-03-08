@@ -287,19 +287,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur ofta bör jag genomgå en portömning?',
-            text: 'Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behöver ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.'
+            text: '<p class="p200">Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behöver ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du genomgår en konsultation med en hudspecialist.</p>'
         ),
         new Question(
             title: 'Kommer pormaskarna tillbaka efter en portömning?',
-            text: 'Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.'
+            text: '<p class="p200">Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.</p>'
         ),
         new Question(
             title: 'Hur snabbt kan jag se resultat från portömning?',
-            text: 'Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera behandlingar. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.'
+            text: '<p class="p200">Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera behandlingar. Kombinationen av regelbundna portömningar och rätt hemvård är nyckeln till långsiktiga resultat.</p>'
         ),
         new Question(
             title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
-            text: 'Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.'
+            text: '<p class="p200">Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan gagnas av en personligt anpassad hudvårdsstrategi.</p>'
         ),
     )
 );

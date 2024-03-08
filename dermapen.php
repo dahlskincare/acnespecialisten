@@ -569,7 +569,7 @@ $faq_categories = array(
             text: 'Det optimala antalet Dermapen sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
         ),
         new Question(
-            title: 'Är det en risk att hudproblemen återvänder efter en Dermapen session?',
+            title: 'Är det en risk att hudproblemen återvänder efter en Dermapen behandlingar?',
             text: 'Dermapen är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.'
         ),
         new Question(
