@@ -363,7 +363,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Dermapen är effektiv för att samtidigt behandla mångfaldiga områden.</p>',
+        description: '<p class="p200">Dermapen är effektiv för att behandla flera områden samtidigt.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
