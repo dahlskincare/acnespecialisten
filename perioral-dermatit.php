@@ -842,9 +842,11 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                                     <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                          <?php } ?>
+                                          <div>
+                                                <?php foreach ($akas as $aka) { ?>
+                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                                <?php } ?>
+                                          </div>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
