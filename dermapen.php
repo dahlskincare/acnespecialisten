@@ -567,15 +567,15 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Vilket är det rekommenderade antalet Dermapen sessioner?',
-            text: 'Det optimala antalet Dermapen sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.'
+            text: '<p class="p200">Det optimala antalet Dermapen sessioner är individuellt och baseras på hudens skick samt önskade mål. Vanligtvis föreslås en behandlingsserie bestående av 3 till 8 sessioner, med pauser på 4 till 6 veckor emellan, för att uppnå de bästa resultaten. En anpassad behandlingsplan utarbetas efter din första konsultation.</p>'
         ),
         new Question(
             title: 'Är det en risk att hudproblemen återvänder efter en Dermapen behandlingar?',
-            text: 'Dermapen är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.'
+            text: '<p class="p200">Dermapen är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.</p>'
         ),
         new Question(
             title: 'När kan jag förvänta mig resultat från min Dermapen behandling?',
-            text: 'Tidsramen för synliga resultat efter en Dermapen behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.'
+            text: '<p class="p200">Tidsramen för synliga resultat efter en Dermapen behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.</p>'
         ),
     )
 );
