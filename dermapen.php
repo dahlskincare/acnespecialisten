@@ -414,7 +414,7 @@ $bottom_articles = array('aftercare' => new Article(
 ));
 
 $service_brands_title = 'Andra märken för microneedling';
-$service_brands_text = '<p class="p200">Utför Dermapen utför vi även microneedling med Exceed.</p>';
+$service_brands_text = '<p class="p200">Utöver Dermapen utför vi även microneedling med Exceed.</p>';
 $service_brands = array(
 
     new Brand(
@@ -531,7 +531,7 @@ $results = array(
     ),
 );
 
-$reviews_title = 'Omdömen';
+$reviews_title = 'Dermapen Omdömen';
 $reviews = array(
     new Review(
         brand: 'Trustpilot',
@@ -572,6 +572,10 @@ $faq_categories = array(
         new Question(
             title: 'Är det en risk att hudproblemen återvänder efter en Dermapen behandlingar?',
             text: '<p class="p200">Dermapen är effektivt för att behandla och förbättra nuvarande hudtillstånd, men kan inte motverka att nya problem inte uppstår. För att bevara resultatet och förebygga framtida hudproblem är en regelbunden hudvårdsrutin, kompletterad med rätt produkter och eventuella uppföljningsbehandlingar, att rekommendera.</p>'
+        ),
+        new Question(
+            title: 'När kan jag förvänta mig resultat från min Dermapen behandling?',
+            text: '<p class="p200">Tidsramen för synliga resultat efter en Dermapen behandling skiljer sig åt mellan individer. Medan vissa noterar förbättring inom några få dagar, kan andra behöva vänta flera veckor för att uppleva fullständig effekt. Kollagenproduktionen och hudförbättringen kan fortsätta att utvecklas under månaderna efter behandlingen.</p>'
         ),
         new Question(
             title: 'När kan jag förvänta mig resultat från min Dermapen behandling?',
