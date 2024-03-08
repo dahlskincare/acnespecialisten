@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
+$seo_title = 'Dermapen behandling i Stockholm';
 $seo_description = 'Upptäck AcneSpecialistens Dermapen behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
 $seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Dermapen behandling',
+    title: 'Dermapen behandling Stockholm',
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
