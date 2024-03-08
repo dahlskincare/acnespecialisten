@@ -17,20 +17,10 @@ function showProblems(problems) {
         var index = problemIds.indexOf(column.dataset.id);
         if (index >= 0) {
             column.classList.remove('is-hidden');
-            column.classList.remove('first');
-            column.classList.remove('last');
-            if (index == 0) {
-                column.classList.add('first');
-            }
-            if (index == problemIds.length - 1) {
-                column.classList.add('last');
-            }
             card.classList.remove('is-hidden');
         }
         else {
             column.classList.add('is-hidden');
-            column.classList.remove('first');
-            column.classList.remove('last');
             card.classList.add('is-hidden');
         }
     }

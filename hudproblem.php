@@ -1881,7 +1881,7 @@ $specialists = array(
                   <div class="container is-hidden-desktop" id="filters-touch-container">
                         <div id="filters-touch" class="mt-m">
                               <?php foreach ($problem_areas as $problem_area) { ?>
-                                    <div class=" filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
+                                    <div class="filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
                                           <?php icon($problem_area->icon) ?>
                                           <div class="b100 filter-item-label l10n">
                                                 <?php echo $problem_area->label ?>
@@ -1915,9 +1915,9 @@ $specialists = array(
                               </div>
                         </div>
                         <div class="mt-xl">
-                              <div class="columns is-multiline" id="banner-problem-areas">
+                              <div id="banner-problem-areas">
                                     <?php foreach ($problems as $id => $problem) { ?>
-                                          <div class="column is-one-fifth is-hidden" data-id="<?php echo $id ?>">
+                                          <div class="is-hidden" data-id="<?php echo $id ?>">
                                                 <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="button b200 grey expand l10n" title="<?php echo $problem->content_label ?>"><?php echo $problem->button_label ?></a>
                                           </div>
                                     <?php } ?>

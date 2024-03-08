@@ -75,9 +75,19 @@ section#banner {
 
     #banner-problem-areas {
         margin-top: $xl - $m;
+        display: flex;
+        flex-wrap: wrap;
 
-        .button {
-            margin-top: $xxs;
+        >div {
+            margin-right: $xxs;
+
+            .button {
+                margin-bottom: $xxs;
+                padding: 10px $m;
+                background-color: $light-50;
+                border-radius: $radius-s;
+                @include h200;
+            }
         }
     }
 
@@ -165,23 +175,6 @@ section#banner {
 
         #banner-problem-areas {
             margin-top: $xl3;
-
-            .button {
-                margin-top: $xs;
-                padding: 17px 23px;
-            }
-
-            .column.first {
-                .button {
-                    border-top-left-radius: $radius-l;
-                }
-            }
-
-            .column.last {
-                .button {
-                    border-bottom-right-radius: $radius-l;
-                }
-            }
         }
 
     }
