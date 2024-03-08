@@ -45,6 +45,19 @@ class Problem
       public string $info;
 }
 
+
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem.php'),
+);
+
+$green_banner_content = new GreenBannerContent(
+      title: 'Hudproblem',
+      description: 'På Acnespecialisten arbetar vi med att behandla och förbättra huden genom att erbjuda skräddarsydda lösningar för varje enskilt hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har.',
+      description_extended: 'Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera ditt problem.',
+      button_url: 'gratis-hudkonsultation.php',
+      button_label: 'Boka en gratis hudkonsultation'
+);
+
 $problems['akne'] = new Problem(
       label: 'Akne',
       url: 'acne.php',
@@ -293,10 +306,6 @@ $problems['oonskat-har'] = new Problem(
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
 
-
-
-
-
 $problems['akne-ansikte'] = new Problem(
       label: 'Akne i ansiktet',
       url: 'acne-ansikte.php',
@@ -531,11 +540,6 @@ $problems['oonskat-har-ansikte'] = new Problem(
       image_title: 'Oönskat hår i ansiktet',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
-
-
-
-
-
 $problems['pigmentflackar-kropp'] = new Problem(
       label: 'Pigmentfläckar på kroppen',
       url: 'pigmentflackar.php',
@@ -601,11 +605,6 @@ $problems['oonskat-har-kropp'] = new Problem(
       image_title: 'Oönskat hår på kroppen',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
-
-
-
-
-
 $problems['akne-rygg'] = new Problem(
       label: 'Akne på ryggen',
       url: 'acne-rygg.php',
@@ -723,11 +722,6 @@ $problems['oonskat-har-rygg'] = new Problem(
       image_title: 'Oönskat hår på ryggen',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
-
-
-
-
-
 $problems['akne-brost'] = new Problem(
       label: 'Akne på bröstet',
       url: 'acne-brost.php',
@@ -845,11 +839,6 @@ $problems['oonskat-har-brost'] = new Problem(
       image_title: 'Oönskat hår på bröstet',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
-
-
-
-
-
 $problems['akne-panna'] = new Problem(
       label: 'Akne i pannan',
       url: 'acne.php',
@@ -967,11 +956,6 @@ $problems['operations-skadearr-panna'] = new Problem(
       image_title: 'Operations & Skadeärr i pannan',
       info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
 );
-
-
-
-
-
 $problems['akne-kinder'] = new Problem(
       label: 'Akne på kinderna',
       url: 'acne.php',
@@ -1167,11 +1151,6 @@ $problems['oonskat-har-kinder'] = new Problem(
       image_title: 'Oönskat hår på kinderna',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
-
-
-
-
-
 $problems['perioral-dermatit-nasa'] = new Problem(
       label: 'Perioral dermatit på näsan',
       url: 'perioral-dermatit.php',
@@ -1328,12 +1307,6 @@ $problems['hudforandringar-nasa'] = new Problem(
       image_title: 'Hudförändringar på näsan',
       info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
 );
-
-
-
-
-
-
 $problems['perioral-dermatit-runt-munnen'] = new Problem(
       label: 'Perioral dermatit runt munnen',
       url: 'perioral-dermatit.php',
@@ -1425,12 +1398,6 @@ $problems['hudforandringar-runt-munnen'] = new Problem(
       image_title: 'Hudförändringar runt munnen',
       info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
 );
-
-
-
-
-
-
 $problems['akne-haka'] = new Problem(
       label: 'Akne på hakan',
       url: 'acne.php',
@@ -1574,12 +1541,6 @@ $problems['oonskat-har-haka'] = new Problem(
       image_title: 'Oönskat hår på hakan',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
-
-
-
-
-
-
 $problems['akne-kaklinje'] = new Problem(
       label: 'Akne på käklinjen',
       url: 'acne.php',
@@ -1658,11 +1619,6 @@ $problems['oonskat-har-kaklinje'] = new Problem(
       image_title: 'Oönskat hår på käklinjen',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
-
-
-
-
-
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
@@ -1722,9 +1678,61 @@ $problem_areas = array(
       ),
 );
 
-$path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+$faq_categories = array(
+      'Generellt' => array(
+            new Question(
+                  title: 'Vad ska jag göra om jag är osäker på vilket hudproblem jag har?',
+                  text: '<p class="p200">Om du är osäker på vilket hudproblem du upplever, rekommenderar vi en kostnadsfri hudkonsultation med en av våra erfarna hudterapeuter. De kan ge dig en professionell bedömning och en personlig behandlingsplan baserat på din hudtyp och dess specifika problem.</p>'
+            ),
+            new Question(
+                  title: 'Behandlar AcneSpecialisten alla typer av hudproblem?',
+                  text: '<p class="p200">AcneSpecialisten har en bred expertis inom många olika hudproblem, inklusive men inte begränsat till akne, rosacea, pormaskar och de andra hudtyper som listas på den här sidan. Vi erbjuder skräddarsydda behandlingar och råd för en mängd olika hudtillstånd. Boka en konsultation hos oss så berättar vi mer om hur vi kan hjäpla dig.</p>'
+            ),
+            new Question(
+                  title: 'Hur går jag tillväga för att behandla mitt hudproblem?',
+                  text: '<p class="p200">För att hitta den mest effektiva behandlingen för ditt specifika hudproblem, börjar vi med en grundlig hudanalys under en konsultation. Utifrån denna analys kan vi sedan rekommendera en anpassad behandlingsplan med behandlingar och hudvårdssrutiner som är skräddarsydda för din huds unika behov.</p>'
+            ),
+            new Question(
+                  title: 'Vad kan jag göra om jag plötsligt utvecklar problem?',
+                  text: '<p class="p200">Om du plötsligt börjar uppleva hudproblem, är det viktigt att först identifiera orsaken. Detta kan göras genom en professionell hudanalys hos en av våra hudterapeuter. De kan också ge dig skräddarsydd rådgivning och behandlingsalternativ för att effektivt hantera ditt specifika hudtillstånd.</p>'
+            ),
+            new Question(
+                  title: 'Vad händer om mitt hudproblem inte finns listat på er hemsida?',
+                  text: '<p class="p200">Om ditt specifika hudproblem inte finns listat på vår hemsida, tveka inte att kontakta oss för en personlig konsultation. Våra hudterapeuter har bred erfarenhet och kan ofta erbjuda hjälp och rådgivning även för ovanliga eller sällsynta hudtillstånd. Vi är här för att hjälpa dig med alla dina hudvårdsbehov.</p>'
+            ),
+      ),
 );
+$specialists = array(
+      new Specialist(
+            name: 'Cazzandra Lindberg',
+            title: 'Hudterapeut sedan 2018',
+            image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+            image_title: 'Hudterapeut Cazzandra Lindberg',
+            image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
+      ),
+      new Specialist(
+            name: 'Veronika Benedik',
+            title: 'Hudterapeut sedan 1999',
+            image: 'images/specialists/large/hudterapeut-veronika.webp',
+            image_title: 'Hudterapeut Veronika Benedik',
+            image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
+      ),
+      new Specialist(
+            name: 'Julia Eklund',
+            title: 'Hudterapeut sedan 2021',
+            image: 'images/specialists/large/hudterapeut-julia.webp',
+            image_title: 'Hudterapeut Julia Eklund',
+            image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
+      ),
+      new Specialist(
+            name: 'Vilma Libom',
+            title: 'Hudterapeut sedan 2022',
+            image: 'images/specialists/large/hudterapeut-vilma.webp',
+            image_title: 'Hudterapeut Vilma Libom',
+            image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
+      ),
+);
+
 
 ?>
 
@@ -1747,16 +1755,7 @@ $path_segments = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
             <section id="banner" class="sticky-badges-target">
-                  <?php
-                  $green_banner_content = new GreenBannerContent(
-                        title: 'Hudproblem',
-                        description: 'På Acnespecialisten arbetar vi med att behandla och förbättra huden genom att erbjuda skräddarsydda lösningar för varje enskilt hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har.',
-                        description_extended: 'Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera ditt problem.',
-                        button_url: 'gratis-hudkonsultation.php',
-                        button_label: 'Boka en gratis hudkonsultation'
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
-                  ?>
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
                   <div class="container is-hidden-desktop" id="filters-touch-container">
                         <div id="filters-touch" class="mt-m">
                               <?php foreach ($problem_areas as $problem_area) { ?>
@@ -1856,126 +1855,68 @@ $path_segments = array(
                   </div>
             </section>
             <section id="reviews">
-            <div class="container">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Omdömen</h2>
-                    <div class="flex-row is-hidden-mobile">
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Omdömen</h2>
+                              <div class="flex-row is-hidden-mobile">
+                                    <div class="step-buttons">
+                                          <button class="round-large grey" onclick="Reviews.scroll(-1)">
+                                                <?php icon('arrow-left') ?>
+                                          </button>
+                                          <button class="round-large grey" onclick="Reviews.scroll(1)">
+                                                <?php icon('arrow-right') ?>
+                                          </button>
+                                    </div>
+                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
+                                          <span class="l10n">Se alla omdömen</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
+                              </div>
+
                         </div>
-                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">Se alla omdömen</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
-            </div>
-        </section>
-        <section id="faq">
-            <div class="container">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Frågor & svar</h2>
-                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla frågor</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php $faq_categories = array(
-                        'Generellt' => array(
-                            new Question(
-                                title: 'Vad ska jag göra om jag är osäker på vilket hudproblem jag har?',
-                                text: '<p class="p200">Om du är osäker på vilket hudproblem du upplever, rekommenderar vi en kostnadsfri hudkonsultation med en av våra erfarna hudterapeuter. De kan ge dig en professionell bedömning och en personlig behandlingsplan baserat på din hudtyp och dess specifika problem.</p>'
-                            ),
-                            new Question(
-                                title: 'Behandlar AcneSpecialisten alla typer av hudproblem?',
-                                text: '<p class="p200">AcneSpecialisten har en bred expertis inom många olika hudproblem, inklusive men inte begränsat till akne, rosacea, pormaskar och de andra hudtyper som listas på den här sidan. Vi erbjuder skräddarsydda behandlingar och råd för en mängd olika hudtillstånd. Boka en konsultation hos oss så berättar vi mer om hur vi kan hjäpla dig.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur går jag tillväga för att behandla mitt hudproblem?',
-                                text: '<p class="p200">För att hitta den mest effektiva behandlingen för ditt specifika hudproblem, börjar vi med en grundlig hudanalys under en konsultation. Utifrån denna analys kan vi sedan rekommendera en anpassad behandlingsplan med behandlingar och hudvårdssrutiner som är skräddarsydda för din huds unika behov.</p>'
-                            ),
-                            new Question(
-                                title: 'Vad kan jag göra om jag plötsligt utvecklar problem?',
-                                text: '<p class="p200">Om du plötsligt börjar uppleva hudproblem, är det viktigt att först identifiera orsaken. Detta kan göras genom en professionell hudanalys hos en av våra hudterapeuter. De kan också ge dig skräddarsydd rådgivning och behandlingsalternativ för att effektivt hantera ditt specifika hudtillstånd.</p>'
-                            ),
-                            new Question(
-                                title: 'Vad händer om mitt hudproblem inte finns listat på er hemsida?',
-                                text: '<p class="p200">Om ditt specifika hudproblem inte finns listat på vår hemsida, tveka inte att kontakta oss för en personlig konsultation. Våra hudterapeuter har bred erfarenhet och kan ofta erbjuda hjälp och rådgivning även för ovanliga eller sällsynta hudtillstånd. Vi är här för att hjälpa dig med alla dina hudvårdsbehov.</p>'
-                            ),
-                        ),
-
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Läs alla våra frågor och svar" href="fragor-svar.php">Se fler frågor & svar</a>
-            </div>
-        </section>
-        <!--Hudguide-->
-        <section id="specialists">
-            <div class="container">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Våra specialister</h2>
-                    <a href="specialister" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla våra specialister</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php
-                $specialists = array(
-                    new Specialist(
-                        name: 'Cazzandra Lindberg',
-                        title: 'Hudterapeut sedan 2018',
-                        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-                        image_title: 'Hudterapeut Cazzandra Lindberg',
-                        image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
-                  ),
-                  new Specialist(
-                        name: 'Veronika Benedik',
-                        title: 'Hudterapeut sedan 1999',
-                        image: 'images/specialists/large/hudterapeut-veronika.webp',
-                        image_title: 'Hudterapeut Veronika Benedik',
-                        image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
-                  ),
-                  new Specialist(
-                        name: 'Julia Eklund',
-                        title: 'Hudterapeut sedan 2021',
-                        image: 'images/specialists/large/hudterapeut-julia.webp',
-                        image_title: 'Hudterapeut Julia Eklund',
-                        image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
-                    ),
-                  new Specialist(
-                        name: 'Vilma Libom',
-                        title: 'Hudterapeut sedan 2022',
-                        image: 'images/specialists/large/hudterapeut-vilma.webp',
-                        image_title: 'Hudterapeut Vilma Libom',
-                        image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
-                  ),
-                );
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
-                ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla våra specialister">Se alla våra specialister</a>
-            </div>
-        </section>
-        <section id="brands">
-            <div class="container">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Varumärken</h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla varumärken</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
-            </div>
-        </section>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
+                  </div>
+            </section>
+            <section id="faq">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Frågor & svar</h2>
+                              <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se alla frågor</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Läs alla våra frågor och svar" href="fragor-svar.php">Se fler frågor & svar</a>
+                  </div>
+            </section>
+            <section id="specialists">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Våra specialister</h2>
+                              <a href="specialister" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se alla våra specialister</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla våra specialister">Se alla våra specialister</a>
+                  </div>
+            </section>
+            <section id="brands">
+                  <div class="container">
+                        <div class="flex-row align-end justify-space-between">
+                              <h2 class="big l10n">Varumärken</h2>
+                              <a href="varumarken" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se alla varumärken</span>
+                                    <?php icon('navigate-next') ?>
+                              </a>
+                        </div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
+                  </div>
+            </section>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script src="problem/problems.js"></script>
