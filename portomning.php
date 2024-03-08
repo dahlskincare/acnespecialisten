@@ -27,7 +27,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '995 kr',
+            price: '1295 kr',
             savings: null,
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -35,16 +35,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '2595 kr',
-            savings: '865 kr per behandling',
+            price: '3495 kr',
+            savings: '1165 kr per behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '3995 kr',
-            savings: '799 kr per behandling',
+            price: '4995 kr',
+            savings: '999 kr per behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
@@ -85,7 +85,7 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för portömning';
+$treatment_areas_title = 'Portömning baserat på område';
 $treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
@@ -100,9 +100,9 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Portömning i ansiktet',
                 image_title: 'Portömning i ansiktet',
-                title: 'Ansikte',
+                title: 'Portömning - Ansikte',
                 duration: '60 min',
-                price: '995 kr',
+                price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning i ansiktet'
@@ -111,9 +111,9 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/brost.svg',
                 image_alt: 'Portömning på bröstet',
                 image_title: 'Portömning på bröstet',
-                title: 'Bröst',
+                title: 'Portömning - Bröst',
                 duration: '60 min',
-                price: '995 kr',
+                price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning på bröstet'
@@ -122,9 +122,9 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/rygg.svg',
                 image_alt: 'Portömning på ryggen',
                 image_title: 'Portömning på ryggen',
-                title: 'Rygg',
+                title: 'Portömning - Rygg',
                 duration: '60 min',
-                price: '995 kr',
+                price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning på ryggen'
