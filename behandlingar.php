@@ -15,7 +15,7 @@ class Treatment
 }
 class ServiceCategory
 {
-    public function __construct($url, $label, $content, $image_small, $image_large, $image_alt, $image_title, $services, $booking_url, $booking_url_title, $consultation_url, $consultation_url_title, $consultation_url_label = '', $booking_url_label = '', $read_more_label = 'Läs mer')
+    public function __construct($url, $label, $content, $image_small, $image_large, $image_alt, $image_title, $services, $booking_url, $booking_url_title, $consultation_url, $consultation_url_title, $consultation_url_label = '', $booking_url_label = '', $read_more_label = 'Läs mer', $read_more_title = 'Läs mer')
     {
         $this->url = $url;
         $this->label = $label;
@@ -32,6 +32,7 @@ class ServiceCategory
         $this->consultation_url_label = $consultation_url_label;
         $this->booking_url_label = $booking_url_label;
         $this->read_more_label = $read_more_label;
+        $this->read_more_title = $read_more_title;
     }
     public string $url;
     public string $label;
@@ -41,13 +42,14 @@ class ServiceCategory
     public string $image_alt;
     public string $image_title;
     public array $services;
-    public string $booking_url;
-    public string $booking_url_title;
-    public string $consultation_url;
-    public string $consultation_url_title;
-    public string $booking_url_label;
-    public string $consultation_url_label;
+    public ?string $booking_url;
+    public ?string $booking_url_title;
+    public ?string $booking_url_label;
+    public ?string $consultation_url;
+    public ?string $consultation_url_title;
+    public ?string $consultation_url_label;
     public string $read_more_label;
+    public string $read_more_title;
 }
 
 $green_banner_content = new GreenBannerContent(
@@ -193,84 +195,29 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         booking_url_label: 'Boka Behandling',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
-                url_label: 'Aknebehandling',
+                label: 'Aknebehandling',
                 url_title: 'Läs mer om aknebehandling',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'portomning.php',
-                url_label: 'Portömning',
+                label: 'Portömning',
                 url_title: 'Läs mer om portömning',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
-                url_label: 'Rosaceabehandling',
+                label: 'Rosaceabehandling',
                 url_title: 'Läs mer om rosaceabehandling',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'milierbehandling.php',
-                url_label: 'Milierbehandling',
+                label: 'Milierbehandling',
                 url_title: 'Läs mer om milierbehandling',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new ServiceCategory(
         url: 'behandlingar/laser-mot-hudproblem',
@@ -287,46 +234,19 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'alma-hybrid-co2-laser.php',
-                url_label: 'Alma Hybrid CO2',
+                label: 'Alma Hybrid CO2',
                 url_title: 'Läs mer om Alma Hybrid CO2',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'alma-harmony-xl-pro.php',
-                url_label: 'Alma Harmony XL Pro',
+                label: 'Alma Harmony XL Pro',
                 url_title: 'Läs mer om Alma Harmony XL Pro',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om laserbehandling mot hudproblem'
     ),
     new ServiceCategory(
         url: 'microneedling.php',
@@ -343,46 +263,19 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         booking_url_label: 'Boka Behandling',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'dermapen.php',
-                url_label: 'Dermapen',
+                label: 'Dermapen',
                 url_title: 'Läs mer om dermapen',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: '/varumarken/exceed',
-                url_label: 'Exceed',
+                label: 'Exceed',
                 url_title: 'Läs mer om exceed',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om microneedling'
     ),
     new ServiceCategory(
         url: 'behandlingar/ipl',
@@ -399,65 +292,24 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'ipl-rosacea.php',
-                url_label: 'Mot Rosacea',
+                label: 'Mot Rosacea',
                 url_title: 'Läs mer om IPL mot Rosacea',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'ipl-ytliga-blodkarl.php',
-                url_label: 'Mot Ytliga Blodkärl',
+                label: 'Mot Ytliga Blodkärl',
                 url_title: 'Läs mer om IPL mot Ytliga Blodkärl',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'ipl-pigmentflackar.php',
-                url_label: 'Mot Pigmentfläckar',
+                label: 'Mot Pigmentfläckar',
                 url_title: 'Läs mer om IPL mot Pigmentfläckar',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om IPL'
     ),
     new ServiceCategory(
         url: 'kemisk-peeling.php',
@@ -474,50 +326,23 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: '/varumarken/skin-tech',
-                url_label: 'Skin Tech',
+                label: 'Skin Tech',
                 url_title: 'Läs mer om Skin Tech',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'prx-t33.php',
-                url_label: 'PRX-T33',
+                label: 'PRX-T33',
                 url_title: 'Läs mer om PRX-T33',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om kemisk peeling'
     ),
     new ServiceCategory(
         url: 'ansiktsbehandlingar.php',
-        label: 'Klassiska ansiktsbehandling',
+        label: 'Klassiska ansiktsbehandlingar',
         content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, ansiktsmask och LED-terapi, och är anpassade för att passa olika hudtyper och behov.',
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
         image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
@@ -530,46 +355,19 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
-                url_label: 'Hudterapeutens val',
+                label: 'Hudterapeutens val',
                 url_title: 'Läs mer om hudterapeutens val',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'porrengoring.php',
-                url_label: 'Portömning',
+                label: 'Portömning',
                 url_title: 'Läs mer om portömning',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om klassisk ansiktsbehandling'
     ),
     new ServiceCategory(
         url: 'behandlingar/dermabrasion',
@@ -586,46 +384,19 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'hydrafacial.php',
-                url_label: 'HydraFacial',
+                label: 'HydraFacial',
                 url_title: 'Läs mer om Hydrafacial',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: 'microdermabrasion.php',
-                url_label: 'Microdermabrasion',
+                label: 'Microdermabrasion',
                 url_title: 'Läs mer om Microdermabrasion',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om dermabrasion'
     ),
     new ServiceCategory(
         url: 'cryopen.php',
@@ -642,27 +413,14 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'cryopen.php',
-                url_label: 'CryoPen',
+                label: 'CryoPen',
                 url_title: 'Läs mer om cryopen',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om frysbehandling'
     ),
     new ServiceCategory(
         url: 'permanent-harborttagning.php',
@@ -679,46 +437,19 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: '/varumarken/splendor-x',
-                url_label: 'Splendor X',
+                label: 'Splendor X',
                 url_title: 'Läs mer om Splendor X',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
-            new Service(
+            new Treatment(
                 url: '/varumarken/alma/soprano-ice',
-                url_label: 'Soprano Ice',
+                label: 'Soprano Ice',
                 url_title: 'Läs mer om Soprano Ice',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om permanent hårborttagning'
     ),
     new ServiceCategory(
         url: 'behandlingar/skinbooster',
@@ -735,27 +466,14 @@ $service_categories = array(
         consultation_url_title: 'Boka konsultation för skinbooster',
         consultation_url_label: 'Boka Konsultation',
         services: array(
-            new Service(
+            new Treatment(
                 url: 'infuzion.php',
-                url_label: 'Infuzion',
+                label: 'Infuzion',
                 url_title: 'Läs mer om Infuzion',
-                title: '',
-                duration: '',
-                price: '',
-                content: '',
-                image_small: '',
-                image_large: '',
-                image_alt: '',
-                image_title: '',
-                consultation_url: '',
-                consultation_url_label: '',
-                consultation_url_title: '',
-                booking_url: '',
-                booking_url_label: '',
-                booking_url_title: '',
             ),
         ),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om skinbooster'
     ),
     new ServiceCategory(
         url: 'gratis-hudkonsultation.php',
@@ -765,19 +483,20 @@ $service_categories = array(
         image_large: 'bilder/behandlingar/424x324/gratis-hudkonsultation.webp',
         image_title: 'Gratis Hudkonsultation',
         image_alt: 'Kvinna som får en gratis hudkonsultation av en hudterapeut',
-        booking_url: '',
-        booking_url_title: '',
-        booking_url_label: '',
+        booking_url: null,
+        booking_url_title: null,
+        booking_url_label: null,
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
         consultation_url_title: 'Boka tid för gratis hudkonsultation',
         consultation_url_label: 'Boka konsultation',
         services: array(),
-        
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om gratis hudkonsultation'
     ),
 );
 
 $path_segments = array(
-      new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/behandlingar.php'),
 );
 
 ?>
@@ -877,31 +596,31 @@ $path_segments = array(
                     </a>
                 </div>
                 <?php $faq_categories = array(
-                        'Generellt' => array(
-                            new Question(
-                                title: 'Hur vet jag vilken behandling som är bäst för mig?',
-                                text: '<p class="p200">För att hitta den behandling som passar dig bäst erbjuder vi en kostnadsfri konsultation. Under detta möte får du träffa en av våra erfarna hudterapeuter, som utifrån dina unika hudproblem och mål, skapar en personlig behandlingsplan.</p>'
-                            ),
-                            new Question(
-                                title: 'Vad kan jag förvänta mig efter en hudvårdsbehandling?',
-                                text: '<p class="p200">Resultatet varierar beroende på antalet genomförda behandlingar. En enstaka behandling kan göra skillnad, men vi rekommenderar vanligtvis en fullständig behandlingskur. Denna kan omfatta 3-6 sessioner, beroende på vald metod. Vi erbjuder också kurpaket för dessa behandlingsserier.</p>'
-                            ),
-                            new Question(
-                                title: 'Erbjuder ni duobehandlingar?',
-                                text: '<p class="p200">Ja, vi kan ordna så att du och en till person får behandlingar parallellt. Detta ger er möjligheten att njuta av våra tjänster tillsammans. Observera dock att vi inte erbjuder behandlingar i samma rum.</p>'
-                            ),
-                            new Question(
-                                title: 'Finns det åldersbegränsningar för några av behandlingarna hos AcneSpecialisten?',
-                                text: '<p class="p200">På AcneSpecialisten välkomnar vi kunder i alla åldrar. Vi är medvetna om att hudproblem kan drabba personer i olika åldersgrupper. Våra behandlingsplaner skräddarsys efter individuella behov. För vissa mer intensiva eller maskinbaserade behandlingar kan åldersbegränsningar tillämpas, är du under 18 år måste man alltid ha målsmans godkännande.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur ofta bör jag genomgå en hudvårdsbehandling?',
-                                text: '<p class="p200">I din personliga behandlingsplan, som vi tar fram under vår kostnadsfria konsultation, specificerar vi rekommenderade intervaller mellan behandlingarna. Dessa intervaller varierar beroende på vilken typ av behandling du väljer. Vissa behandlingar kan kräva sessioner med en veckas mellanrum, andra var fjärde vecka, och vissa kanske var sjätte vecka. Denna flexibilitet säkerställer att vi kan erbjuda en behandlingsplan som är optimal för just din hudtyp och dina behov.</p>'
-                            ),
+                    'Generellt' => array(
+                        new Question(
+                            title: 'Hur vet jag vilken behandling som är bäst för mig?',
+                            text: '<p class="p200">För att hitta den behandling som passar dig bäst erbjuder vi en kostnadsfri konsultation. Under detta möte får du träffa en av våra erfarna hudterapeuter, som utifrån dina unika hudproblem och mål, skapar en personlig behandlingsplan.</p>'
                         ),
+                        new Question(
+                            title: 'Vad kan jag förvänta mig efter en hudvårdsbehandling?',
+                            text: '<p class="p200">Resultatet varierar beroende på antalet genomförda behandlingar. En enstaka behandling kan göra skillnad, men vi rekommenderar vanligtvis en fullständig behandlingskur. Denna kan omfatta 3-6 sessioner, beroende på vald metod. Vi erbjuder också kurpaket för dessa behandlingsserier.</p>'
+                        ),
+                        new Question(
+                            title: 'Erbjuder ni duobehandlingar?',
+                            text: '<p class="p200">Ja, vi kan ordna så att du och en till person får behandlingar parallellt. Detta ger er möjligheten att njuta av våra tjänster tillsammans. Observera dock att vi inte erbjuder behandlingar i samma rum.</p>'
+                        ),
+                        new Question(
+                            title: 'Finns det åldersbegränsningar för några av behandlingarna hos AcneSpecialisten?',
+                            text: '<p class="p200">På AcneSpecialisten välkomnar vi kunder i alla åldrar. Vi är medvetna om att hudproblem kan drabba personer i olika åldersgrupper. Våra behandlingsplaner skräddarsys efter individuella behov. För vissa mer intensiva eller maskinbaserade behandlingar kan åldersbegränsningar tillämpas, är du under 18 år måste man alltid ha målsmans godkännande.</p>'
+                        ),
+                        new Question(
+                            title: 'Hur ofta bör jag genomgå en hudvårdsbehandling?',
+                            text: '<p class="p200">I din personliga behandlingsplan, som vi tar fram under vår kostnadsfria konsultation, specificerar vi rekommenderade intervaller mellan behandlingarna. Dessa intervaller varierar beroende på vilken typ av behandling du väljer. Vissa behandlingar kan kräva sessioner med en veckas mellanrum, andra var fjärde vecka, och vissa kanske var sjätte vecka. Denna flexibilitet säkerställer att vi kan erbjuda en behandlingsplan som är optimal för just din hudtyp och dina behov.</p>'
+                        ),
+                    ),
 
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                );
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </div>
         </section>
@@ -918,33 +637,33 @@ $path_segments = array(
                 <?php
                 $specialists = array(
                     new Specialist(
-                            name: 'Cazzandra Lindberg',
-                            title: 'Hudterapeut sedan 2018',
-                            image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-                            image_title: 'Hudterapeut Cazzandra Lindberg',
-                            image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
-                      ),
-                      new Specialist(
-                            name: 'Veronika Benedik',
-                            title: 'Hudterapeut sedan 1999',
-                            image: 'images/specialists/large/hudterapeut-veronika.webp',
-                            image_title: 'Hudterapeut Veronika Benedik',
-                            image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
-                      ),
-                      new Specialist(
-                            name: 'Julia Eklund',
-                            title: 'Hudterapeut sedan 2021',
-                            image: 'images/specialists/large/hudterapeut-julia.webp',
-                            image_title: 'Hudterapeut Julia Eklund',
-                            image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
-                        ),
-                      new Specialist(
-                            name: 'Vilma Libom',
-                            title: 'Hudterapeut sedan 2022',
-                            image: 'images/specialists/large/hudterapeut-vilma.webp',
-                            image_title: 'Hudterapeut Vilma Libom',
-                            image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
-                      ),
+                        name: 'Cazzandra Lindberg',
+                        title: 'Hudterapeut sedan 2018',
+                        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+                        image_title: 'Hudterapeut Cazzandra Lindberg',
+                        image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
+                    ),
+                    new Specialist(
+                        name: 'Veronika Benedik',
+                        title: 'Hudterapeut sedan 1999',
+                        image: 'images/specialists/large/hudterapeut-veronika.webp',
+                        image_title: 'Hudterapeut Veronika Benedik',
+                        image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
+                    ),
+                    new Specialist(
+                        name: 'Julia Eklund',
+                        title: 'Hudterapeut sedan 2021',
+                        image: 'images/specialists/large/hudterapeut-julia.webp',
+                        image_title: 'Hudterapeut Julia Eklund',
+                        image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
+                    ),
+                    new Specialist(
+                        name: 'Vilma Libom',
+                        title: 'Hudterapeut sedan 2022',
+                        image: 'images/specialists/large/hudterapeut-vilma.webp',
+                        image_title: 'Hudterapeut Vilma Libom',
+                        image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
+                    ),
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
