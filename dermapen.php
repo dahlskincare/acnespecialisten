@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Dermapen - Effektiv hudföryngring | Acnespecialisten';
-$seo_description = 'Upptäck AcneSpecialistens Dermapen-behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
+$seo_description = 'Upptäck AcneSpecialistens Dermapen behandlingar, den ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar. Med expertis och skräddarsydda behandlingsprogram, stimulerar vi din hud att självläka och återfå sin spänst och lyster.';
 $seo_keywords = 'Dermapen, hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
 
 $seo_image = 'images/treatments/large/dermapen.webp';
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Dermapen',
+    title: 'Dermapen behandling',
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
@@ -80,12 +80,12 @@ $description_text = '<p class="p200">Dermapen är en framstående och skonsam be
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Dermapen-behandling',
+        title: 'Förberedelser inför Dermapen behandling',
         image_small: '/bilder/process/358x272/dermapen-forberedelser.webp',
         image_large: '/bilder/process/872x456/dermapen-forberedelser.webp',
-        image_alt: 'Förberedelser inför Dermapen-behandling',
-        image_title: 'Förberedelser inför Dermapen-behandling',
-        content: '<p class="p200">Att förbereda sig för en Dermapen-behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
+        image_alt: 'Förberedelser inför Dermapen behandling',
+        image_title: 'Förberedelser inför Dermapen behandling',
+        content: '<p class="p200">Att förbereda sig för en Dermapen behandling innebär att först genomgå en detaljerad konsultation med en av våra hudspecialister. Under konsultationen utförs en noggrann bedömning av din hud för att identifiera individuella behov och särskilda hudproblem. Denna initiala analys är kritisk för att utforma en personlig behandlingsplan som är perfekt anpassad för dina unika hudvårdsbehov.</p>
         <p class="p200 mt-m">För optimala resultat bör huden inte vara solskadad vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
     ),
     'process' => new Article(
@@ -94,7 +94,7 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/dermapen-process.webp',
         image_alt: 'Dermapen behandlingsprocess',
         image_title: 'Dermapen behandlingsprocess',
-        content: '<p class="p200">En Dermapen-behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
+        content: '<p class="p200">En Dermapen behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
         <p class="p200 mt-m">Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål. Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter proceduren är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
     ),
 );
@@ -226,14 +226,14 @@ $types = array(
 
 $big_types = array(
     new Service(
-        title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
+        title: 'Boosta din Dermapen behandling med PRX-T33-behandling',
         duration: null,
         price: null,
-        content: '<p class="p200">För att ta din Dermapen-behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
+        content: '<p class="p200">För att ta din Dermapen behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
-        image_title: 'Boosta din Dermapen-behandling med PRX-T33-behandling',
+        image_alt: 'Boosta din Dermapen behandling med PRX-T33-behandling',
+        image_title: 'Boosta din Dermapen behandling med PRX-T33-behandling',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
@@ -602,29 +602,29 @@ $specialists = array(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Dermapen-behandling',
-        image_title: 'Cazzandra Lindberg - Expert på Dermapen-behandling'
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Dermapen behandling',
+        image_title: 'Cazzandra Lindberg - Expert på Dermapen behandling'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/312x312/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Dermapen',
-        image_title: 'Veronika Benedik - Specialist inom Dermapen-behandling'
+        image_title: 'Veronika Benedik - Specialist inom Dermapen behandling'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
         image: 'images/specialists/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Dermapen-behandling',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Dermapen behandling',
         image_title: 'Amira Maqboul - Hudterapeut specialiserad på Dermapen'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Dermapen-behandling',
-        image_title: 'Vilma Libom - Expert inom Dermapen-behandling'
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Dermapen behandling',
+        image_title: 'Vilma Libom - Expert inom Dermapen behandling'
     )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
