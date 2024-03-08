@@ -245,7 +245,7 @@ $big_types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Dermapen';
+$treatment_areas_title = 'Dermapen baserat på område';
 $treatment_areas_text = '<p class="p200">Dermapen är en mångsidig behandling lämplig för ansikte, axlar, rygg och bröst. Den förbättrar hudens struktur och lyster genom att stimulera kollagenproduktion och läkning, anpassad efter varje unikt hudtillstånd och område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
