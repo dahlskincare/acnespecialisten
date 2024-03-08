@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Dermapen behandling Stockholm',
+    title: 'Dermapen 4 behandling Stockholm',
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Dermapen är optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
