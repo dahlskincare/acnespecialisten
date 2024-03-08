@@ -420,23 +420,19 @@
 
 <script>
     if (document.body.clientWidth <= 800) {
-        var header = document.querySelector('.sticky-badges-target');
-        if (header != undefined) {
-            var offset_1 = header.offsetTop + header.offsetHeight;
-            window.addEventListener('scroll', setSticky, {
-                passive: true
-            });
+        window.addEventListener('scroll', setSticky, {
+            passive: true
+        });
 
-            function setSticky() {
-                var flag = window.scrollY > offset_1;
-                var container = document.querySelector('#footer-consultation-button-container');
-                if (flag == true) {
-                    container.classList.add('fixed');
-                    document.body.style.paddingBottom = "".concat(container.offsetHeight, "px");
-                } else {
-                    container.classList.remove('fixed');
-                    document.body.style.paddingBottom = null;
-                }
+        function setSticky() {
+            var flag = window.scrollY > 700;
+            var container = document.querySelector('#footer-consultation-button-container');
+            if (flag == true) {
+                container.classList.add('fixed');
+                document.body.style.paddingBottom = "".concat(container.offsetHeight, "px");
+            } else {
+                container.classList.remove('fixed');
+                document.body.style.paddingBottom = null;
             }
         }
     }
