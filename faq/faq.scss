@@ -13,6 +13,7 @@ section#banner {
             @include button-text-color($white-500);
             color: $white-500;
             background-color: transparent;
+            border-radius: 0;
         }
 
         .badge:first-child {
@@ -25,13 +26,14 @@ section#banner {
     }
 
     @include desktop {
-        .badges-widget {
-            flex: 0;
-        }
 
         .breadcrumbs-widget {
             padding-top: 0;
             padding-bottom: 0;
+        }
+
+        .badges-widget {
+            justify-content: flex-end;
         }
     }
 }
