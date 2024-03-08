@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Dermapen 4 behandling Stockholm',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste Dermapen tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
+    content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste microneedling tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
     image_small: 'bilder/varumarken/358x274/dermapen.webp',
     image_large: 'bilder/varumarken/424x456/dermapen.webp',
     image_alt: 'Dermapen',
