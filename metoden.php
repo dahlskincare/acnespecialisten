@@ -9,7 +9,8 @@ $steps = array(
         image_small: 'bilder/behandlingar/358x274/konsultation.webp',
         image_large: 'bilder/behandlingar/424x456/konsultation.webp',
         url: 'gratis-hudkonsultation.php',
-        url_label: 'Boka en gratis konsultation'
+        url_label: 'Boka en gratis konsultation',
+        url_title: 'Boka en gratis hudkonsultation hos Acnespecialisten',
     ),
     new StepModel(
         title: '02. Behandla',
@@ -17,7 +18,8 @@ $steps = array(
         image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
         url: 'behandlingar.php',
-        url_label: 'Se våra behandlingar'
+        url_label: 'Se våra behandlingar',
+        url_title: 'Se våra behandlingar',
     ),
     new StepModel(
         title: '03. Förebygga',
@@ -25,7 +27,9 @@ $steps = array(
         image_small: 'bilder/behandlingar/358x274/produkter.webp',
         image_large: 'bilder/behandlingar/424x456/produkter.webp',
         url: 'https://dahlskincare.se',
-        url_label: 'Upptäck våra produkter'
+        url_label: 'Upptäck våra produkter',
+        url_title: 'Besök vår webbshop',
+        url_target: '_blank',
     ),
     new StepModel(
         title: '04. Reparera',
@@ -33,7 +37,8 @@ $steps = array(
         image_small: 'bilder/behandlingar/358x274/microneedling.webp',
         image_large: 'bilder/behandlingar/424x456/microneedling.webp',
         url: 'behandla-acnearr.php',
-        url_label: 'Läs mer om eftervård'
+        url_label: 'Läs mer om eftervård',
+        url_title: 'Läs mer om eftervård',
     ),
 );
 ?>
@@ -157,31 +162,31 @@ $steps = array(
                     </a>
                 </div>
                 <?php $faq_categories = array(
-                        'Generellt' => array(
-                            new Question(
-                                title: 'Vad innebär det att ha en personlig terapeut hos er?',
-                                text: '<p class="p200">En personlig terapeut hos AcneSpecialisten fungerar som din personliga tränare (PT) för hudvård, vilken leder dig genom hela din behandlingsresa. Denna expert, som känner till ditt unika fall, skapar din behandlingsplan och står för kontinuerlig uppföljning och direktkontakt via chatten på din profil. De säkerställer en skräddarsydd och uppdaterad behandlingsprocess baserat på dina framsteg och behov.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur skiljer sig AcneSpecialistens metod från andra hudvårdskliniker?',
-                                text: '<p class="p200">Vår unika metod hos AcneSpecialisten bygger på en holistisk lösning. Vi kombinerar djupgående kunskap med de mest effektiva behandlingsmetoderna och korrekta hudvårdsrutiner för att ge dig ett omfattande stöd. Du behöver inte vända dig någon annanstans; vi tar hand om ditt hudproblem från början till slut med hjälp av din personliga terapeut. Detta garanterar en trygg och sammanhållen behandlingsprocess.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur påbörjar jag min behandlingsprocess hos er?',
-                                text: '<p class="p200">Din resa med oss börjar med en kostnadsfri hudkonsultation. Under detta första möte med en av våra kvalificerade hudterapeuter, utvecklas en individuellt anpassad behandlingsplan specifikt för din hudtyp. Detta första steg ger dig en djupare förståelse för din hud och hur vi kan arbeta tillsammans för att uppnå de bästa möjliga resultaten.</p>'
-                            ),
-                            new Question(
-                                title: 'Är er metod lämplig för alla hudtyper?',
-                                text: '<p class="p200">Absolut, vår metod är utformad för att tillgodose alla hudtyper och hudproblem. Under den inledande konsultationen utför vi en noggrann analys av din hud för att identifiera dess unika behov. Baserat på denna analys skapar vi en skräddarsydd behandlingsplan som är perfekt anpassad för just din hudtyp.</p>'
-                            ),
-                            new Question(
-                                title: 'Hur anpassar ni metoden under behandlingsprocessen?',
-                                text: '<p class="p200">En framgångsrik hudvårdsbehandling kräver en nära dialog med din hudterapeut. Vi värderar och uppmuntrar denna kommunikation högt, eftersom det gör det möjligt för oss att finjustera din behandlingsplan baserat på hudens respons genom processen. Din personliga terapeut är alltid redo att svara på dina frågor och justera rekommendationerna efterhand för att säkerställa optimala resultat. Din hud är unik, och vår flexibilitet garanterar att vi möter dess föränderliga behov på bästa sätt.</p>'
-                            ),
+                    'Generellt' => array(
+                        new Question(
+                            title: 'Vad innebär det att ha en personlig terapeut hos er?',
+                            text: '<p class="p200">En personlig terapeut hos AcneSpecialisten fungerar som din personliga tränare (PT) för hudvård, vilken leder dig genom hela din behandlingsresa. Denna expert, som känner till ditt unika fall, skapar din behandlingsplan och står för kontinuerlig uppföljning och direktkontakt via chatten på din profil. De säkerställer en skräddarsydd och uppdaterad behandlingsprocess baserat på dina framsteg och behov.</p>'
                         ),
+                        new Question(
+                            title: 'Hur skiljer sig AcneSpecialistens metod från andra hudvårdskliniker?',
+                            text: '<p class="p200">Vår unika metod hos AcneSpecialisten bygger på en holistisk lösning. Vi kombinerar djupgående kunskap med de mest effektiva behandlingsmetoderna och korrekta hudvårdsrutiner för att ge dig ett omfattande stöd. Du behöver inte vända dig någon annanstans; vi tar hand om ditt hudproblem från början till slut med hjälp av din personliga terapeut. Detta garanterar en trygg och sammanhållen behandlingsprocess.</p>'
+                        ),
+                        new Question(
+                            title: 'Hur påbörjar jag min behandlingsprocess hos er?',
+                            text: '<p class="p200">Din resa med oss börjar med en kostnadsfri hudkonsultation. Under detta första möte med en av våra kvalificerade hudterapeuter, utvecklas en individuellt anpassad behandlingsplan specifikt för din hudtyp. Detta första steg ger dig en djupare förståelse för din hud och hur vi kan arbeta tillsammans för att uppnå de bästa möjliga resultaten.</p>'
+                        ),
+                        new Question(
+                            title: 'Är er metod lämplig för alla hudtyper?',
+                            text: '<p class="p200">Absolut, vår metod är utformad för att tillgodose alla hudtyper och hudproblem. Under den inledande konsultationen utför vi en noggrann analys av din hud för att identifiera dess unika behov. Baserat på denna analys skapar vi en skräddarsydd behandlingsplan som är perfekt anpassad för just din hudtyp.</p>'
+                        ),
+                        new Question(
+                            title: 'Hur anpassar ni metoden under behandlingsprocessen?',
+                            text: '<p class="p200">En framgångsrik hudvårdsbehandling kräver en nära dialog med din hudterapeut. Vi värderar och uppmuntrar denna kommunikation högt, eftersom det gör det möjligt för oss att finjustera din behandlingsplan baserat på hudens respons genom processen. Din personliga terapeut är alltid redo att svara på dina frågor och justera rekommendationerna efterhand för att säkerställa optimala resultat. Din hud är unik, och vår flexibilitet garanterar att vi möter dess föränderliga behov på bästa sätt.</p>'
+                        ),
+                    ),
 
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                );
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->
