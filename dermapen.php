@@ -273,7 +273,7 @@ $treatment_areas = array(
                 image_title: 'Näsa',
                 title: 'Näsa',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för näsbehandling'
@@ -284,7 +284,7 @@ $treatment_areas = array(
                 image_title: 'Kinder',
                 title: 'Kinder',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för kindbehandling'
@@ -295,7 +295,7 @@ $treatment_areas = array(
                 image_title: 'Överläpp',
                 title: 'Överläpp',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för överläppsbehandling'
@@ -306,7 +306,7 @@ $treatment_areas = array(
                 image_title: 'Haka',
                 title: 'Haka',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för hakbehandling'
