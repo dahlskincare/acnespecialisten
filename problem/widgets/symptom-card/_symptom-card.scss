@@ -40,8 +40,8 @@
     }
 
     .scw-content {
-        height: 170px;
-        overflow-y: auto;
+        height: 150px;
+        overflow-y: hidden;
     }
 
     @media screen and (min-width: $tablet) {
