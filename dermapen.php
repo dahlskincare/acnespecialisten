@@ -229,7 +229,7 @@ $big_types = array(
         title: 'Boosta din Dermapen behandling med PRX-T33-behandling',
         duration: null,
         price: null,
-        content: '<p class="p200">För att ta din Dermapen behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 är en icke-invasiv behandling som inte använder nålar och som därmed kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen lovar en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
+        content: '<p class="p200">För att ta din Dermapen behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan den längre återhämtning som andra behandlingar kräver. PRX-T33 kompletterar Dermapen perfekt genom att förstärka och förlänga dess fördelaktiga effekter. Den kombinerade behandlingen ger en synlig förbättring av hudens ton och textur samt en avsevärd minskning av fina linjer och ojämnheter, för en jämnare och mer ungdomlig hud.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Boosta din Dermapen behandling med PRX-T33-behandling',
