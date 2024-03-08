@@ -94,8 +94,8 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/dermapen-process.webp',
         image_alt: 'Dermapen behandlingsprocess',
         image_title: 'Dermapen behandlingsprocess',
-        content: '<p class="p200">En Dermapen behandling är en effektiv procedur för hudföryngring som använder avancerad teknik för att förbättra hudens utseende och struktur. När du kommer till kliniken börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts.</p>
-        <p class="p200 mt-m">Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål. Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter proceduren är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
+        content: '<p class="p200">När du kommer till en av våra kliniker börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts. Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål.</p>
+        <p class="p200 mt-m">Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter behandlingen är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
     ),
 );
 
