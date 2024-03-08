@@ -97,7 +97,7 @@ $treatment_areas = array(
         description: null,
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/ikoner/ansikte.webp',
                 image_alt: 'Portömning i ansiktet',
                 image_title: 'Portömning i ansiktet',
                 title: 'Ansikte',
@@ -108,7 +108,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för portömning i ansiktet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/brost.webp',
+                image: '/bilder/omraden/ikoner/brost.webp',
                 image_alt: 'Portömning på bröstet',
                 image_title: 'Portömning på bröstet',
                 title: 'Bröst',
@@ -119,7 +119,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för portömning på bröstet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/rygg.webp',
+                image: '/bilder/omraden/ikoner/rygg.webp',
                 image_alt: 'Portömning på ryggen',
                 image_title: 'Portömning på ryggen',
                 title: 'Rygg',
