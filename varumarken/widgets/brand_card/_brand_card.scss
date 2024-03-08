@@ -51,7 +51,7 @@
     }
 
     .description {
-      @include p200;
+      @include p100;
       // Limit to keep widget height similar
       height: $s*12;
       line-height: $xl;
