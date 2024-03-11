@@ -11,11 +11,11 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Milierbehandling', '/milierbehandling.php'),
+    new PathSegment('Milier behandling', '/milierbehandling.php'),
 );
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar mot milier',
+    title: 'Milier behandling',
     duration: '60 min',
     price: 'Från 1295 kr',
     content: '<p class="p200">Milierbehandling är en ansiktsbehandling som tömmer milier på ett säkert och effektivt sätt. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
