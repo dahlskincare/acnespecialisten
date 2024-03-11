@@ -60,8 +60,6 @@ $green_banner_content = new GreenBannerContent(
     button_label: 'Boka en gratis konsultation'
 );
 
-$treatments_title = 'Behandlingsmetoder';
-
 $treatments = array(
     new Treatment(
         label: 'Ansiktsbehandling Problemhy',
@@ -526,10 +524,9 @@ $path_segments = array(
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
             <div class="container">
-                <p id="treatments-title" class="p100"><?php echo $treatments_title ?></p>
                 <div id="treatments">
                     <?php foreach ($treatments as $treatment) { ?>
-                        <a class="treatment" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
+                        <a class="treatment b200" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
                     <?php } ?>
                 </div>
             </div>
