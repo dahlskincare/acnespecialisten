@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hudterapeutens Val - Personlig Ansiktsbehandling | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten får du en ansiktsbehandling som är unikt anpassad av våra erfarna hudterapeuter baserat på din hudtyp och behov. Hudterapeutens Val innebär en skräddarsydd upplevelse som adresserar dina specifika hudutmaningar för att främja en frisk och balanserad hud. Upptäck den optimala vägen till en skönare hud med professionell vägledning och individanpassad omsorg.';
+$seo_title = 'Hudterapeutens Val - Personlig Ansiktsbehandling';
+$seo_description = 'Ansiktsbehandling som är unikt anpassad av våra erfarna hudterapeuter baserat på din hudtyp och behov. Hudterapeutens Val innebär en skräddarsydd upplevelse som adresserar dina specifika hudutmaningar för att främja en frisk och balanserad hud. Upptäck den optimala vägen till en skönare hud med professionell vägledning och individanpassad omsorg.';
 $seo_keywords = 'personlig ansiktsbehandling, Hudterapeutens Val, skräddarsydd hudvård, individanpassad ansiktsbehandling, hudvårdsrådgivning, anpassad hudvård, expertis i hudvård, AcneSpecialisten, behandling efter hudtyp, frisk hud, balanserad hudvård';
 
 $seo_image = '/bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp';
