@@ -545,19 +545,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Är PRX T33 lämplig för alla hudtyper?',
-            text: 'Ja, PRX T33 är en flexibel kemisk peeling som passar för många olika hudtyper. Denna behandling är skonsam och effektiv, och vi anpassar den individuellt för att säkerställa att den passar dina specifika hudbehov och ger optimala resultat.'
+            text: '<p class="p200">Ja, PRX T33 är en flexibel kemisk peeling som passar för många olika hudtyper. Denna behandling är skonsam och effektiv, och vi anpassar den individuellt för att säkerställa att den passar dina specifika hudbehov och ger optimala resultat.</p>'
         ),
         new Question(
             title: 'Kan PRX T33 behandling hjälpa till med acneärr och pigmentfläckar?',
-            text: 'Definitivt, PRX T33 är särskilt effektiv för att behandla acneärr och pigmentfläckar. Denna peeling hjälper till att exfoliera huden och främja cellförnyelse, vilket kan minska synligheten av acneärr och jämna ut pigmentfläckar.'
+            text: '<p class="p200">Definitivt, PRX T33 är särskilt effektiv för att behandla acneärr och pigmentfläckar. Denna peeling hjälper till att exfoliera huden och främja cellförnyelse, vilket kan minska synligheten av acneärr och jämna ut pigmentfläckar.</p>'
         ),
         new Question(
             title: 'Hur ofta bör jag genomgå en PRX T33 behandling?',
-            text: 'Behandlingsintervall för PRX T33 varierar beroende på din hudtyp och de problem du vill åtgärda. Vissa kan ha fördel av behandlingar var fjärde till sjätte vecka, medan andra kan behöva behandlas med längre eller kortare mellanrum. Vi kommer att rekommendera en behandlingsplan anpassad efter din personliga hudanalys.'
+            text: '<p class="p200">Behandlingsintervall för PRX T33 varierar beroende på din hudtyp och de problem du vill åtgärda. Vissa kan ha fördel av behandlingar var fjärde till sjätte vecka, medan andra kan behöva behandlas med längre eller kortare mellanrum. Vi kommer att rekommendera en behandlingsplan anpassad efter din personliga hudanalys.</p>'
         ),
         new Question(
             title: 'Vilken typ av PRX T33 behandling ska jag välja för min hud?',
-            text: 'För att bestämma vilken PRX T33 behandling som är bäst för din hud, rekommenderar vi en konsultation med våra erfarna hudterapeuter. Under konsultationen analyserar vi din hudtyp och dina specifika behov för att kunna rekommendera den mest effektiva behandlingen för dig.'
+            text: '<p class="p200">För att bestämma vilken PRX T33 behandling som är bäst för din hud, rekommenderar vi en konsultation med våra erfarna hudterapeuter. Under konsultationen analyserar vi din hudtyp och dina specifika behov för att kunna rekommendera den mest effektiva behandlingen för dig.</p>'
         ),
     )
 );
