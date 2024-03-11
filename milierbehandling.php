@@ -16,8 +16,8 @@ $path_segments = array(
 
 $model = new Service(
     title: 'Ansiktsbehandlingar mot milier',
-    duration: null,
-    price: null,
+    duration: '60 min',
+    price: 'Från 1295 kr',
     content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste microneedling tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
@@ -29,6 +29,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Milia&method=Service_Facial_MiliaTreatment&area=EMPTY',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '1295 kr',
+            savings: null,
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '3495 kr',
+            savings: '1165 kr per behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '4995 kr',
+            savings: '999 kr per behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
+            booking_url_label: 'Boka tid för behandling',
+            booking_url_title: 'Boka tid för behandling'
+        )
+    ),
 );
 
 $floating_box = 'Bli av med milier effektivt.';
