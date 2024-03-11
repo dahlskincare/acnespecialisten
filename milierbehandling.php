@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta bort milier med rätt behandling';
-$seo_description = 'Effektiv ehandling mot milier skräddarsydda för att ta bort milier och ge en slät hud. Utformad för att försiktigt avlägsna milier och förbättra hudens textur.';
+$seo_title = 'Ta bort milier med milier behandling';
+$seo_description = 'Ansiktsbehandling för att effektivt få bort milier, skräddarsydda för att ta bort milier och ge en slät hud.';
 $seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning av milier, behandla milier, ta bort milier, förebygga milier, reducera milier';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Milier behandling i Stockholm',
     duration: '60 min',
     price: 'Från 1295 kr',
-    content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att milier tas bort på ett säkert och effektivt sätt.</p>',
+    content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att du får bort milier på ett säkert och effektivt sätt.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot milier',
@@ -60,10 +60,7 @@ $model = new Service(
 $floating_box = 'Bli av med milier effektivt.';
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot milier',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'aftercare' => 'Eftervård',
+    'about' => 'Om milier behandling',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -240,10 +237,6 @@ $reviews_view_more = 'Se alla omdömen';
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
-        new Question(
-            title: 'Hur ofta bör jag genomgå en milierbehandling?',
-            text: '<p class="p200">Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.</p>'
-        ),
         new Question(
             title: 'Kommer milier att komma tillbaka efter behandling?',
             text: '<p class="p200">Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.</p>'
