@@ -609,13 +609,6 @@ $all_brands = array(
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
-                <?php foreach ($top_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
-                <?php } ?>
                 <?php if (isset($treatment_areas)) { ?>
                     <section id="treatment-areas" class="large-margin">
                         <?php if (isset($treatment_areas_title)) { ?>
@@ -670,13 +663,6 @@ $all_brands = array(
                         <?php foreach ($combos as $combo) { ?>
                             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_combo/service_combo.php') ?>
                         <?php } ?>
-                    </section>
-                <?php } ?>
-                <?php foreach ($bottom_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
                     </section>
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
