@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'HydraFacial',
+    title: 'HydraFacial i Stockholm',
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">HydraFacial är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering och hydrering för att vitalisera huden.</p>',
@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1595 kr',
+            price: '1995 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -40,16 +40,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '3995 kr',
-            savings: 'Spara 790 kr',
+            price: '4995 kr',
+            savings: 'Spara 990 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '5995 kr',
-            savings: 'Spara 2980 kr',
+            price: '7995 kr',
+            savings: 'Spara 1980 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
