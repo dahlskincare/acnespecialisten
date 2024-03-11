@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Milier behandling',
+    title: 'Milier behandling i Stockholm',
     duration: '60 min',
     price: 'Från 1295 kr',
     content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att milier tas bort på ett säkert och effektivt sätt.</p>',
@@ -73,7 +73,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Ta bort milier';
-$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt.</p>';
+$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov för att du ska få bort dina milier. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt.</p>';
 
 $types_title = '';
 $types_description = '';
@@ -82,7 +82,7 @@ $big_types = array(
         title: 'Milierbehandling',
         duration: '60 min',
         price: '1295 kr',
-        content: '<p class="p200">Vi inleder med en grundlig rengöring för att förbereda huden. Istället för traditionell exfoliering som kan vara för hård för huden med milier, använder vi skonsamma metoder för att lösgöra de små cystorna. Därefter tillämpar vi specialtekniker för att försiktigt avlägsna milier utan att skada huden. Om det finns ett behov av porrengöring utförs detta med stor omsorg för att inte irritera huden ytterligare. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
+        content: '<p class="p200">Vår milier behandling börjar med en noggrann rengöring av huden för att förbereda för borttagning av milier. Eftersom milier saknar en naturlig poröppning och inte kan avlägsnas genom vanlig rengöring, använder vi en speciell metod för att effektivt ta hand om dem. Med hjälp av en lansett, en tunn nål, öppnar vi varsamt upp milierna. Detta gör det möjligt för oss att noggrant klämma ut den lilla keratincystan utan att skada den omgivande huden. Denna process säkerställer en säker och effektiv borttagning av milier, vilket lämnar huden ren och slät. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Milierbehandling',
@@ -93,6 +93,10 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Milia&method=Service_Facial_MiliaTreatment&area=EMPTY',
         booking_url_label: 'Boka Milierbehandling',
         booking_url_title: 'Boka Milierbehandling',
+
+        url: '/milier.php',
+        url_label: 'Läs mer om milier',
+        url_title: 'Läs mer om milier',
     ),
 );
 
@@ -238,19 +242,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur ofta bör jag genomgå en milierbehandling?',
-            text: 'Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.'
+            text: '<p class="p200">Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.</p>'
         ),
         new Question(
             title: 'Kommer milier att komma tillbaka efter behandling?',
-            text: 'Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.'
+            text: '<p class="p200">Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.</p>'
         ),
         new Question(
             title: 'Hur snabbt kan jag se resultat från milierbehandling?',
-            text: 'Resultatet är omedelbart då vi manuellt tömmer milierna, men ibland kan det krävas upprepade sessioner för att hantera mer ihållande eller omfattande milier. Kontinuerliga behandlingar, i kombination med en anpassad hudvårdsrutin, bidrar till de bästa långsiktiga resultaten.'
+            text: '<p class="p200">Resultatet är omedelbart då vi manuellt tömmer milierna, men ibland kan det krävas upprepade sessioner för att hantera mer ihållande eller omfattande milier. Kontinuerliga behandlingar, i kombination med en anpassad hudvårdsrutin, bidrar till de bästa långsiktiga resultaten.</p>'
         ),
         new Question(
             title: 'Är milierbehandling nödvändig även om jag bara har några milier?',
-            text: 'Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.'
+            text: '<p class="p200">Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.</p>'
         ),
 
     )
