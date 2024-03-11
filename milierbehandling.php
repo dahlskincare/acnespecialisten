@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta bort milier med rätt behandling';
-$seo_description = 'Effektiv ehandling mot milier skräddarsydda för att ta bort milier och ge en slät hud. Utformad för att försiktigt avlägsna milier och förbättra hudens textur.';
+$seo_title = 'Ta bort milier med milier behandling';
+$seo_description = 'Ansiktsbehandling för att effektivt få bort milier, skräddarsydda för att ta bort milier och ge en slät hud.';
 $seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning av milier, behandla milier, ta bort milier, förebygga milier, reducera milier';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Milier behandling i Stockholm',
     duration: '60 min',
     price: 'Från 1295 kr',
-    content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att milier tas bort på ett säkert och effektivt sätt.</p>',
+    content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att du får bort milier på ett säkert och effektivt sätt.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot milier',
@@ -60,10 +60,7 @@ $model = new Service(
 $floating_box = 'Bli av med milier effektivt.';
 
 $nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot milier',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'aftercare' => 'Eftervård',
+    'about' => 'Om milier behandling',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -241,10 +238,6 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur ofta bör jag genomgå en milierbehandling?',
-            text: '<p class="p200">Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.</p>'
-        ),
-        new Question(
             title: 'Kommer milier att komma tillbaka efter behandling?',
             text: '<p class="p200">Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.</p>'
         ),
@@ -256,7 +249,18 @@ $faq_categories = array(
             title: 'Är milierbehandling nödvändig även om jag bara har några milier?',
             text: '<p class="p200">Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.</p>'
         ),
-
+        new Question(
+            title: 'Kan man ta bort milier själv hemma?',
+            text: '<p class="p200">Att försöka ta bort milier själv hemma rekommenderas inte, eftersom det kan leda till hudirritation, infektion eller ärrbildning. Milier i ansiktet kräver professionell behandling för säker och effektiv borttagning. Vår milier behandling utförs av kvalificerade hudterapeuter som använder sterila instrument för att försiktigt öppna och ta bort milier, vilket minimerar risken för komplikationer. För bästa resultat och för att undvika potentiella risker, är det viktigt att söka professionell hjälp för borttagning av milier.</p>'
+        ),
+        new Question(
+            title: 'Hur får man bort milier i ansiktet?',
+            text: '<p class="p200">För att effektivt få bort milier i ansiktet, rekommenderar vi professionell milier behandling. Denna behandlingsmetod involverar en noggrann rengöring av huden följt av en säker metod för att öppna och ta bort de små keratincystorna med hjälp av en lansett och speciella verktyg. Genom att anlita en professionell hudterapeut säkerställs att behandlingen utförs på ett säkert sätt, vilket minimerar risken för ärr och infektion. Professionell behandling är den mest effektiva metoden för att få bort milier och uppnå en jämn och klar hudton.</p>'
+        ),
+        new Question(
+            title: 'Milier på läppen?',
+            text: '<p class="p200">Milier kan uppträda även på känsliga områden som läpparna, där huden är tunn och känslig. Precis som med milier i andra delar av ansiktet, rekommenderas professionell behandling för milier på läppen. På grund av läpparnas känslighet krävs stor försiktighet vid borttagning av milier för att undvika skador på den omgivande huden. Våra hudterapeuter är utbildade i att hantera milier på alla delar av ansiktet, inklusive läpparna, med precision och omsorg. Kontakta oss för en säker och effektiv borttagning av milier, oavsett var de befinner sig.</p>'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
