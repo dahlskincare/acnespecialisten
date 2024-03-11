@@ -220,8 +220,8 @@ $bottom_articles = array(
         image_title: 'Inför en HydraFacial behandling',
         content: '<p class="p200">Innan du genomgår en HydraFacial behandling är det viktigt att förbereda din hud på rätt sätt. Det innebär att du bör undvika användning av:</p>
         <p class="p200 mt-m">Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>
-        <p class="p200 mt-m">Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>
-        <p class="p200 mt-m">Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>',
+        <p class="p200 mt-m">Exponering för direkt solljus minst tre dygn före din behandling.</p>
+        <p class="p200 mt-m">Kraftfulla hudvårdsprodukter två dagar före din behandling.</p>',
     ),
         'aftercare' => new Article(
         title: 'Eftervård',
