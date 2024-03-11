@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hydrafacial - Djupgående Hudvård och Förnyelse';
-$seo_description = 'Upptäck Hydrafacial hos AcneSpecialisten, en mångsidig behandling som kombinerar djup rengöring, exfoliering, och hydrering för att revitalisera din hud. Perfekt för alla hudtyper, denna behandling erbjuder omedelbar lyster och förbättrar hudens kvalitet på lång sikt.';
-$seo_keywords = 'Hydrafacial, hudvård, djupgående rengöring, exfoliering, hydrering, lyster, hudförbättring, AcneSpecialisten, hudens kvalitet, alla hudtyper';
+$seo_title = 'Hydrafacial i Stockholm';
+$seo_description = 'Upptäck HydraFacial, en mångsidig behandling som kombinerar djup rengöring, exfoliering, avlägsnande av orenheter och återfuktning.';
+$seo_keywords = 'Hydrafacial, HydraFacial Stockholm';
 
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
@@ -18,7 +18,7 @@ $model = new Service(
     title: 'HydraFacial Stockholm',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">HydraFacial är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering och avlägsnar orenheter och återfuktar huden.</p>',
+    content: '<p class="p200">HydraFacial är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering, avlägsnar orenheter och återfuktar huden.</p>',
     image_small: 'bilder/varumarken/358x274/hydrafacial.webp',
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',
     image_alt: 'HydraFacial',
@@ -94,7 +94,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'HydraFacial behandlar';
+$types_title = 'Fördelar med HydraFacial';
 $types_description = '<p class="p200">HydraFacial kan effektivt användas för att adressera och förbättra en rad hudtillstånd, inklusive:</p>
     <p class="p200 mt-m">- Minska synligheten av fina linjer och rynkor.</p>
     <p class="p200 mt-m">- Öka hudens spänst och elasticitet.</p>
@@ -226,9 +226,9 @@ $bottom_articles = array(
         image_alt: 'Inför en HydraFacial behandling',
         image_title: 'Inför en HydraFacial behandling',
         content: '<p class="p200">Innan du genomgår en HydraFacial behandling är det viktigt att förbereda din hud på rätt sätt. Det innebär att du bör undvika användning av:</p>
-        <p class="p200 mt-m">Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>
-        <p class="p200 mt-m">Exponering för direkt solljus minst tre dygn före din behandling.</p>
-        <p class="p200 mt-m">Kraftfulla hudvårdsprodukter två dagar före din behandling.</p>',
+        <p class="p200 mt-m">- Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>
+        <p class="p200 mt-m">- Exponering för direkt solljus minst tre dygn före din behandling.</p>
+        <p class="p200 mt-m">- Kraftfulla hudvårdsprodukter två dagar före din behandling.</p>',
     ),
         'aftercare' => new Article(
         title: 'Eftervård',
@@ -237,8 +237,8 @@ $bottom_articles = array(
         image_alt: 'Eftervård',
         image_title: 'Eftervård',
         content: '<p class="p200">Efter att ha genomgått en HydraFacial-behandling kommer du att märka att din hud omedelbart känns renare och mer strålande. För att maximera resultatet och undvika irritation är det viktigt att:</p>
-        <p class="p200 mt-m">Undvika solen i minst 72 timmar för att skydda din nybehandlade hud.</p>
-        <p class="p200 mt-m">Avstå från att använda starka hudvårdsprodukter under cirka 48 timmar efter behandlingen för att låta din hud återhämta sig naturligt.</p>
+        <p class="p200 mt-m">- Undvika solen i minst 72 timmar för att skydda din nybehandlade hud.</p>
+        <p class="p200 mt-m">- Avstå från att använda starka hudvårdsprodukter under cirka 48 timmar efter behandlingen för att låta din hud återhämta sig naturligt.</p>
         <p class="p200 mt-m">Genom att följa dessa enkla riktlinjer säkerställer du att din hud återhämtar sig optimalt efter din HydraFacial-behandling, och du kommer att kunna njuta av dina resultat längre.</p>',
     ),
 );
