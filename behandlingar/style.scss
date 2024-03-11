@@ -3,29 +3,51 @@
 @import '../styles/util/mixins';
 @import 'widgets/service-category-card/service-category-card';
 
-html {
+html { 
     scroll-behavior: smooth;
 }
 
 section#banner {
-    p#treatments-title {
-        margin-top: $xxl;
-        margin-bottom: $m;
-    }
-
     div#treatments {
-        display: flex;
-        flex-wrap: wrap;
+        margin-top: $m;
+        background-color: $white-500;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        overflow: hidden;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.06);
 
         .treatment {
-            padding: 10px $m;
-            background-color: $light-50;
-            margin-right: $xxs;
-            margin-bottom: $xxs;
-            border-radius: $radius-s;
-            @include h200;
+            text-align: center;
+            border: 1px solid $light-200;
+            height: 72px;
+            margin-left: -1px;
+            margin-top: -1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .treatment:nth-child(6n) {
+            border-right: 0;
         }
     }
+
+    @include desktop {
+        .green-header-banner-widget {
+            padding-bottom: 140px;
+        }
+
+        div#treatments {
+
+            margin-top: -72px;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+        }
+    }
+
+
 }
 
 section#links {
