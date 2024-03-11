@@ -75,18 +75,6 @@ $nav_buttons = array(
 $description_title = 'Ta bort milier';
 $description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt.</p>';
 
-$top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför milierbehandling',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Förberedelser inför milierbehandling',
-        image_title: 'Förberedelser inför milierbehandling',
-        content: '<p class="p200">För att förbereda din hud för behandlingen och optimera resultaten rekommenderar vi några enkla åtgärder. Undvik helst produkter med starka ingredienser eller exfolierande syror ett par dagar före din behandling för att minska risken för hudirritation och för att göra huden mer mottaglig för den behandling vi ska utföra.</p>
-            <p class="p200 mt-m">Det är inte nödvändigt att du kommer osminkad; vi kan varsamt rengöra din hud på plats. Vår prioritet är att ge dig en personligt anpassad behandlingserfarenhet och en behandlingsplan som är skräddarsydd för just dina behov, oavsett om det gäller milier i ansiktet eller på andra delar av kroppen.</p>',
-    ),
-);
-
 $types_title = '';
 $types_description = '';
 $big_types = array(
@@ -105,17 +93,6 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Milia&method=Service_Facial_MiliaTreatment&area=EMPTY',
         booking_url_label: 'Boka Milierbehandling',
         booking_url_title: 'Boka Milierbehandling',
-    ),
-);
-
-$bottom_articles = array(
-    'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter milierbehandling',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Eftervård och underhåll',
-        image_title: 'Eftervård och underhåll',
-        content: '<p class="p200">Efter en specialiserad milierbehandling hos AcneSpecialisten är korrekt eftervård essentiell för att bibehålla resultaten och underlätta hudens återhämtning. För att vårda din hud efter milierborttagningen rekommenderar vi att du fortsätter med en hudvårdsrutin som innefattar produkter specifikt utvalda för att nära och skydda huden. En effektiv hudvårdsregim bör vara personligt anpassad. Genom att använda lämpliga hudvårdsprodukter regelbundet kan du inte bara behålla de positiva resultaten av milierbehandlingen men också förstärka hudens motståndskraft mot framtida hudproblem.</p>',
     ),
 );
 
