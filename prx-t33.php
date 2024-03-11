@@ -18,7 +18,7 @@ $model = new Service(
     title: 'PRX T33 behandling',
     duration: null,
     price: null,
-    content: '<p class="p200">PRX T33 är en avancerad form av kemisk peeling som inriktar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer.</p>',
+    content: '<p class="p200">PRX T33 är en avancerad form av kemisk peeling som inriktar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer.</p>',
     image_small: 'bilder/varumarken/358x274/prx-t33.webp',
     image_large: 'bilder/varumarken/424x456/prx-t33.webp',
     image_alt: 'PRX T33 behandlingar',
