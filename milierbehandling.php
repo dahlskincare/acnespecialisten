@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar mot Milier - Milierbehandling';
+$seo_title = 'Ta bort milier med rätt behandling';
 $seo_description = 'Effektiv ehandling mot milier skräddarsydda för att ta bort milier och ge en slät hud. Utformad för att försiktigt avlägsna milier och förbättra hudens textur.';
 $seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning av milier, behandla milier, ta bort milier, förebygga milier, reducera milier';
 
@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Milier behandling',
     duration: '60 min',
     price: 'Från 1295 kr',
-    content: '<p class="p200">Milierbehandling är en ansiktsbehandling som tömmer milier på ett säkert och effektivt sätt. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
+    content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att milier tas bort på ett säkert och effektivt sätt.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot milier',
@@ -72,7 +72,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är milierbehandling?';
+$description_title = 'Ta bort milier';
 $description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn och ren hudytan.</p>
     <p class="p200 mt-m">Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt. Genom noggrann rengöring och specialiserad vård hjälper vi din hud att behålla sin släthet och förebygga nya milier från att bildas.</p>';
 
