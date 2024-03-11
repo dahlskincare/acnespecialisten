@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'PRX-T33 - Revolutionerande Kemisk Peeling | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten erbjuder vi PRX-T33, en banbrytande kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den avskalning som traditionella peelings medför. Idealisk för alla som söker effektiva lösningar på sina hudproblem med minimal återhämtningstid.';
-$seo_keywords = 'PRX-T33, kemisk peeling, hudföryngring, anti-age, pigmenteringar, bristningar, fina linjer, hudförbättring, avancerad hudvård, AcneSpecialisten';
+$seo_title = 'PRX T33 - Revolutionerande Kemisk Peeling | AcneSpecialisten';
+$seo_description = 'På AcneSpecialisten erbjuder vi PRX T33, en banbrytande kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den avskalning som traditionella peelings medför. Idealisk för alla som söker effektiva lösningar på sina hudproblem med minimal återhämtningstid.';
+$seo_keywords = 'PRX T33, kemisk peeling';
 
 $seo_image = 'images/treatments/large/prx-t33.webp';
 
@@ -15,10 +15,10 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'PRX-T33',
+    title: 'PRX T33 behandling',
     duration: null,
     price: null,
-    content: '<p class="p200">På AcneSpecialisten är vi stolta över att erbjuda PRX-T33, en avancerad form av kemisk peeling som specialiserar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer.</p>',
+    content: '<p class="p200">På AcneSpecialisten är vi stolta över att erbjuda PRX T33, en avancerad form av kemisk peeling som specialiserar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer.</p>',
     image_small: 'bilder/varumarken/358x274/prx-t33.webp',
     image_large: 'bilder/varumarken/424x456/prx-t33.webp',
     image_alt: 'PRX-T33 behandlingar',
@@ -60,7 +60,7 @@ $model = new Service(
 $floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
 
 $nav_buttons = array(
-    'about' => 'Om PRX-T33',
+    'about' => 'Om PRX T33',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -74,44 +74,44 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är PRX-T33?';
-$description_text = '<p class="p200">PRX-T33, som erbjuds hos AcneSpecialisten, är en banbrytande form av kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling kombinerar egenskaperna hos TCA (triklorättiksyra) med väteperoxid, vilket ger en djupgående effekt på huden utan den avskalning och irritation som ofta associeras med traditionella kemiska peelings.</p>
-<p class="p200 mt-m">PRX-T33 är särskilt utvecklad för att förbättra hudens struktur och utseende genom att stimulera hudens underliggande strukturer utan att skada dess yttre lager. Detta gör den idealisk för behandling av acneärr, bristningar, melasma, fina linjer, rynkor och pigmentfläckar. PRX-T33 ger synliga resultat redan efter första behandlingen och är lämplig för alla hudtyper, inklusive känslig hud. Behandlingen är smärtfri, kräver ingen återhämtningstid och kan utföras året om, vilket gör den till ett attraktivt val för dem som söker effektiva men skonsamma hudförbättringar.</p>';
+$description_title = 'Vad är PRX T33?';
+$description_text = '<p class="p200">PRX T33, som erbjuds hos AcneSpecialisten, är en banbrytande form av kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling kombinerar egenskaperna hos TCA (triklorättiksyra) med väteperoxid, vilket ger en djupgående effekt på huden utan den avskalning och irritation som ofta associeras med traditionella kemiska peelings.</p>
+<p class="p200 mt-m">PRX T33 är särskilt utvecklad för att förbättra hudens struktur och utseende genom att stimulera hudens underliggande strukturer utan att skada dess yttre lager. Detta gör den idealisk för behandling av acneärr, bristningar, melasma, fina linjer, rynkor och pigmentfläckar. PRX T33 ger synliga resultat redan efter första behandlingen och är lämplig för alla hudtyper, inklusive känslig hud. Behandlingen är smärtfri, kräver ingen återhämtningstid och kan utföras året om, vilket gör den till ett attraktivt val för dem som söker effektiva men skonsamma hudförbättringar.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför PRX-T33-behandling',
+        title: 'Förberedelser inför PRX T33-behandling',
         image_small: '/bilder/process/358x272/prx-t33-forberedelser.webp',
         image_large: '/bilder/process/872x456/prx-t33-forberedelser.webp',
-        image_alt: 'Förberedelser inför PRX-T33-behandling',
-        image_title: 'Förberedelser inför PRX-T33-behandling',
-        content: '<p class="p200">För att förbereda dig optimalt för din PRX-T33-behandling hos AcneSpecialisten, rekommenderar vi att du följer några enkla men viktiga steg. Börja med att undvika exfoliering av huden några dagar före din behandling. Eftersom PRX-T33 agerar djupt på huden, är det bäst att låta huden vara så orörd som möjligt innan peelingen.</p>
-        <p class="p200 mt-m">Det är också viktigt att skydda din hud mot solen och undvika att använda brun-utan-sol-produkter veckan före din behandling. Denna försiktighetsåtgärd minskar risken för oönskade reaktioner och säkerställer att din hud är i bästa skick för att ta emot behandlingen. Vidare, informera din hudterapeut om eventuella mediciner du använder eller om du har några aktuella hudtillstånd, så att behandlingen kan anpassas på ett säkert och effektivt sätt. Tveka inte att kontakta oss om du har några frågor eller oro inför din PRX-T33-behandling – vi är här för att se till att din upplevelse blir så bekväm och givande som möjligt.</p>',
+        image_alt: 'Förberedelser inför PRX T33-behandling',
+        image_title: 'Förberedelser inför PRX T33-behandling',
+        content: '<p class="p200">För att förbereda dig optimalt för din PRX T33-behandling hos AcneSpecialisten, rekommenderar vi att du följer några enkla men viktiga steg. Börja med att undvika exfoliering av huden några dagar före din behandling. Eftersom PRX T33 agerar djupt på huden, är det bäst att låta huden vara så orörd som möjligt innan peelingen.</p>
+        <p class="p200 mt-m">Det är också viktigt att skydda din hud mot solen och undvika att använda brun-utan-sol-produkter veckan före din behandling. Denna försiktighetsåtgärd minskar risken för oönskade reaktioner och säkerställer att din hud är i bästa skick för att ta emot behandlingen. Vidare, informera din hudterapeut om eventuella mediciner du använder eller om du har några aktuella hudtillstånd, så att behandlingen kan anpassas på ett säkert och effektivt sätt. Tveka inte att kontakta oss om du har några frågor eller oro inför din PRX T33-behandling – vi är här för att se till att din upplevelse blir så bekväm och givande som möjligt.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går behandling med PRX-T33 till?',
+        title: 'Hur går behandling med PRX T33 till?',
         image_small: '/bilder/process/358x272/prx-t33-process.webp',
         image_large: '/bilder/process/872x456/prx-t33-process.webp',
-        image_alt: 'Hur går behandling med PRX-T33 till?',
-        image_title: 'Hur går behandling med PRX-T33 till?',
-        content: '<p class="p200">På AcneSpecialisten tar vi hudvården till nästa nivå med PRX-T33, en innovativ kemisk peeling som är skräddarsydd för att återuppliva och förbättra din hud. Vi förstår att varje persons hud är unik, och därför är varje PRX-T33-behandling noggrant anpassad efter dina specifika behov och hudtillstånd.</p>
-        <p class="p200 mt-m">Behandlingen inleds med en noggrann rengöring av huden för att skapa en optimal grund för peelingen. Därefter appliceras PRX-T33-lösningen varsamt på huden. Denna unika formula är utformad för att djupgående exfoliera utan att orsaka den avskalning som traditionella kemiska peelings kan ge. Du kan känna en mild stickande känsla, men processen är i stort sett smärtfri tack vare PRX-T33:s avancerade sammansättning.</p>
-        <p class="p200 mt-m">Efter att peelingen har verkat i rätt tid, följer en lugnande fas där vi applicerar en återfuktande och lugnande mask för att maximera komforten och minimera eventuell rodnad. Slutligen avslutas behandlingen med en närande kräm som hjälper till att återställa hudens fuktbalans och ger en omedelbar lyster. Med PRX-T33-behandlingen hos AcneSpecialisten kan du förvänta dig en snabb och effektiv förbättring av hudens textur och utseende, utan den nedtid som associeras med traditionell kemisk peeling.</p>',
+        image_alt: 'Hur går behandling med PRX T33 till?',
+        image_title: 'Hur går behandling med PRX T33 till?',
+        content: '<p class="p200">På AcneSpecialisten tar vi hudvården till nästa nivå med PRX T33, en innovativ kemisk peeling som är skräddarsydd för att återuppliva och förbättra din hud. Vi förstår att varje persons hud är unik, och därför är varje PRX T33-behandling noggrant anpassad efter dina specifika behov och hudtillstånd.</p>
+        <p class="p200 mt-m">Behandlingen inleds med en noggrann rengöring av huden för att skapa en optimal grund för peelingen. Därefter appliceras PRX T33-lösningen varsamt på huden. Denna unika formula är utformad för att djupgående exfoliera utan att orsaka den avskalning som traditionella kemiska peelings kan ge. Du kan känna en mild stickande känsla, men processen är i stort sett smärtfri tack vare PRX T33:s avancerade sammansättning.</p>
+        <p class="p200 mt-m">Efter att peelingen har verkat i rätt tid, följer en lugnande fas där vi applicerar en återfuktande och lugnande mask för att maximera komforten och minimera eventuell rodnad. Slutligen avslutas behandlingen med en närande kräm som hjälper till att återställa hudens fuktbalans och ger en omedelbar lyster. Med PRX T33-behandlingen hos AcneSpecialisten kan du förvänta dig en snabb och effektiv förbättring av hudens textur och utseende, utan den nedtid som associeras med traditionell kemisk peeling.</p>',
     ),
 );
 
 $big_types = array(
     new Service(
-        title: 'PRX-T33',
+        title: 'PRX T33',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">PRX-T33 är en innovativ kemisk peeling som erbjuder exceptionella resultat för att bekämpa tecken på åldrande, som rynkor, fina linjer, pigmenteringar och bristningar. Denna avancerade behandling är utformad för att ge intensiv förnyelse och förbättring av hudens struktur och ton utan den avskalning som traditionella peelings kan medföra.</p>
-        <p class="p200 mt-m">Under PRX-T33-behandlingen appliceras en speciell lösning som verkar djupt in i huden för att stimulera kollagenproduktionen och förnya hudcellerna. Detta bidrar till att effektivt minska tecken på åldrande och förbättra hudens övergripande utseende. Unikt för PRX-T33 är dess förmåga att ge dramatiska resultat utan längre återhämtningstid, vilket gör den idealisk för de som önskar snabba, märkbara förbättringar.</p>
-        <p class="p200 mt-m">PRX-T33 är särskilt lämplig för de som vill återställa hudens lyster och ungdomliga utstrålning. Dess skonsamma men effektiva formula säkerställer en behaglig behandlingsupplevelse, vilket gör den till ett utmärkt val för de som söker en kraftfull men icke-invasiv lösning för att förbättra hudens kvalitet.</p>',
+        content: '<p class="p200">PRX T33 är en innovativ kemisk peeling som erbjuder exceptionella resultat för att bekämpa tecken på åldrande, som rynkor, fina linjer, pigmenteringar och bristningar. Denna avancerade behandling är utformad för att ge intensiv förnyelse och förbättring av hudens struktur och ton utan den avskalning som traditionella peelings kan medföra.</p>
+        <p class="p200 mt-m">Under PRX T33-behandlingen appliceras en speciell lösning som verkar djupt in i huden för att stimulera kollagenproduktionen och förnya hudcellerna. Detta bidrar till att effektivt minska tecken på åldrande och förbättra hudens övergripande utseende. Unikt för PRX T33 är dess förmåga att ge dramatiska resultat utan längre återhämtningstid, vilket gör den idealisk för de som önskar snabba, märkbara förbättringar.</p>
+        <p class="p200 mt-m">PRX T33 är särskilt lämplig för de som vill återställa hudens lyster och ungdomliga utstrålning. Dess skonsamma men effektiva formula säkerställer en behaglig behandlingsupplevelse, vilket gör den till ett utmärkt val för de som söker en kraftfull men icke-invasiv lösning för att förbättra hudens kvalitet.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'PRX-T33',
-        image_title: 'PRX-T33',
+        image_alt: 'PRX T33',
+        image_title: 'PRX T33',
         consultation_url: null,
         consultation_url_label: null,
         consultation_url_title: null,
@@ -142,12 +142,12 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem vi behandlar med PRX-T33';
-$types_description = '<p class="p200">Hos AcneSpecialisten använder vi PRX-T33, en avancerad form av kemisk peeling, för att effektivt hantera en mängd hudproblem. Denna banbrytande behandling är särskilt utformad för att ta itu med en rad olika hudutmaningar, inklusive acneärr, aktiv akne, bristningar, melasma och pigmentfläckar. PRX-T33 är också ett utmärkt val för att behandla pormaskar och stora porer samt att minska synligheten av rynkor och fina linjer.</p>';
+$types_title = 'Hudproblem vi behandlar med PRX T33';
+$types_description = '<p class="p200">Hos AcneSpecialisten använder vi PRX T33, en avancerad form av kemisk peeling, för att effektivt hantera en mängd hudproblem. Denna banbrytande behandling är särskilt utformad för att ta itu med en rad olika hudutmaningar, inklusive acneärr, aktiv akne, bristningar, melasma och pigmentfläckar. PRX T33 är också ett utmärkt val för att behandla pormaskar och stora porer samt att minska synligheten av rynkor och fina linjer.</p>';
 
 $types = array(
     new Service(
-        title: 'PRX-T33 mot Melasma',
+        title: 'PRX T33 mot Melasma',
         duration: '30 min',
         price: '1995 kr',
         content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
@@ -167,7 +167,7 @@ $types = array(
         url_title: 'Läs mer om melasma',
     ),
     new Service(
-        title: 'PRX-T33 mot Bristningar',
+        title: 'PRX T33 mot Bristningar',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
@@ -187,7 +187,7 @@ $types = array(
         url_title: 'Läs mer om bristningar',
     ),
     new Service(
-        title: 'PRX-T33 mot Rynkor & Fina Linjer',
+        title: 'PRX T33 mot Rynkor & Fina Linjer',
         duration: '30 min',
         price: '1995 kr',
         content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
@@ -207,7 +207,7 @@ $types = array(
         url_title: 'Läs mer om mogen hy',
     ),
     new Service(
-        title: 'PRX-T33 mot acneärr',
+        title: 'PRX T33 mot acneärr',
         duration: '30 min',
         price: null,
         content: 'Vår specialanpassade kemiska peeling är utformad för att effektivt behandla och minska synligheten av acneärr. Denna behandling arbetar på djupet för att jämna ut både ytan och hudtonen där ärrbildning har skett.',
@@ -227,7 +227,7 @@ $types = array(
         url_title: 'Läs mer om acneärr',
     ),
     new Service(
-        title: 'PRX-T33 mot Aktiv Akne',
+        title: 'PRX T33 mot Aktiv Akne',
         duration: '30 min',
         price: '1595 kr',
         content: 'Specialiserad peeling för att behandla aktiv akne. Hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
@@ -247,7 +247,7 @@ $types = array(
         url_title: 'Läs mer om kemisk peeling mot acne',
     ),
     new Service(
-        title: 'PRX-T33 mot Pormaskar & Stora Porer',
+        title: 'PRX T33 mot Pormaskar & Stora Porer',
         duration: '30 min',
         price: '1595 kr',
         content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
@@ -267,7 +267,7 @@ $types = array(
         url_title: 'Läs mer om pormaskar',
     ),
     new Service(
-        title: 'PRX-T33 mot Pigmentfläckar',
+        title: 'PRX T33 mot Pigmentfläckar',
         duration: '30 min',
         price: '1995 kr',
         content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
@@ -290,15 +290,15 @@ $types = array(
 
 $big_types = array(
     new Service(
-        title: 'Boosta din PRX-T33-behandling med Microneedling',
+        title: 'Boosta din PRX T33-behandling med Microneedling',
         duration: null,
         price: null,
-        content: '<p class="p200">För att ta din hudvårdsrutin till nästa nivå, introducerar vår klinik en innovativ kombinationsbehandling som kombinerar fördelarna med PRX-T33 med microneedling för att maximera hudens förnyelse och lyster. Genom denna specialiserade metod uppnås en djupgående förbättring av hudens kvalitet, spänst och glöd, samtidigt som den minimala återhämtningstiden bibehålls.</p>
-        <p class="p200 mt-m">Genom att applicera PRX-T33 direkt efter en microneedling-session, stimuleras hudens naturliga läkningsmekanismer och kollagenproduktion på ett kraftfullt sätt. PRX-T33, en behandling som inte involverar nålar eller skapar hudtrauma, fungerar som ett perfekt komplement till microneedling, vilket intensifierar de regenerativa effekterna och bidrar till en långvarig förbättring av hudtonen, texturen samt en signifikant minskning av fina linjer och ojämnheter. Upplev den omvandlande kraften i denna kombinerade behandling för en synligt förnyad och strålande hud.</p>',
+        content: '<p class="p200">För att ta din hudvårdsrutin till nästa nivå, introducerar vår klinik en innovativ kombinationsbehandling som kombinerar fördelarna med PRX T33 med microneedling för att maximera hudens förnyelse och lyster. Genom denna specialiserade metod uppnås en djupgående förbättring av hudens kvalitet, spänst och glöd, samtidigt som den minimala återhämtningstiden bibehålls.</p>
+        <p class="p200 mt-m">Genom att applicera PRX T33 direkt efter en microneedling-session, stimuleras hudens naturliga läkningsmekanismer och kollagenproduktion på ett kraftfullt sätt. PRX T33, en behandling som inte involverar nålar eller skapar hudtrauma, fungerar som ett perfekt komplement till microneedling, vilket intensifierar de regenerativa effekterna och bidrar till en långvarig förbättring av hudtonen, texturen samt en signifikant minskning av fina linjer och ojämnheter. Upplev den omvandlande kraften i denna kombinerade behandling för en synligt förnyad och strålande hud.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'Boosta din PRX-T33-behandling med Microneedling',
-        image_title: 'Boosta din PRX-T33-behandling med Microneedling',
+        image_alt: 'Boosta din PRX T33-behandling med Microneedling',
+        image_title: 'Boosta din PRX T33-behandling med Microneedling',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
@@ -310,7 +310,7 @@ $big_types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för PRX-T33';
+$treatment_areas_title = 'Behandlingsområden för PRX T33';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
@@ -381,17 +381,17 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård vid PRX-T33',
+    title: 'Eftervård vid PRX T33',
     image_small: '/bilder/process/358x272/prx-t33-eftervard.webp',
     image_large: '/bilder/process/872x456/prx-t33-eftervard.webp',
-    image_alt: 'Eftervård vid PRX-T33',
-    image_title: 'Eftervård vid PRX-T33',
+    image_alt: 'Eftervård vid PRX T33',
+    image_title: 'Eftervård vid PRX T33',
     content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>
     <p class="p200 mt-m">På AcneSpecialisten hjälper vi dig att skapa en effektiv eftervårdsplan som passar just din hud. Detta kan innefatta allt från noggrann rengöring och återfuktning till speciella vårdåtgärder som lugnar och främjar hudens läkningsprocess. Vi guidar dig genom varje steg för att försäkra att du ger din hud den optimala vård den behöver för att återhämta sig och bibehålla de positiva effekterna av peelingen. Rätt eftervård är essentiell för att upprätthålla en hälsosam, välvårdad och strålande hud.</p>',
 ));
 
 $service_brands_title = 'Märken för kemisk peeling';
-$service_brands_text = '<p class="p200">Utöver PRX-T33 jobbar vi även med Skin Tech för kemisk peeling.</p>';
+$service_brands_text = '<p class="p200">Utöver PRX T33 jobbar vi även med Skin Tech för kemisk peeling.</p>';
 $service_brands = array(
     new Brand(
         label: 'Skin Tech',
@@ -541,20 +541,20 @@ $faq_title = 'Frågor & svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Är PRX-T33 lämplig för alla hudtyper?',
-            text: 'Ja, PRX-T33 är en flexibel kemisk peeling som passar för många olika hudtyper. Denna behandling är skonsam och effektiv, och vi anpassar den individuellt för att säkerställa att den passar dina specifika hudbehov och ger optimala resultat.'
+            title: 'Är PRX T33 lämplig för alla hudtyper?',
+            text: 'Ja, PRX T33 är en flexibel kemisk peeling som passar för många olika hudtyper. Denna behandling är skonsam och effektiv, och vi anpassar den individuellt för att säkerställa att den passar dina specifika hudbehov och ger optimala resultat.'
         ),
         new Question(
-            title: 'Kan PRX-T33 behandling hjälpa till med acneärr och pigmentfläckar?',
-            text: 'Definitivt, PRX-T33 är särskilt effektiv för att behandla acneärr och pigmentfläckar. Denna peeling hjälper till att exfoliera huden och främja cellförnyelse, vilket kan minska synligheten av acneärr och jämna ut pigmentfläckar.'
+            title: 'Kan PRX T33 behandling hjälpa till med acneärr och pigmentfläckar?',
+            text: 'Definitivt, PRX T33 är särskilt effektiv för att behandla acneärr och pigmentfläckar. Denna peeling hjälper till att exfoliera huden och främja cellförnyelse, vilket kan minska synligheten av acneärr och jämna ut pigmentfläckar.'
         ),
         new Question(
-            title: 'Hur ofta bör jag genomgå en PRX-T33 behandling?',
-            text: 'Behandlingsintervall för PRX-T33 varierar beroende på din hudtyp och de problem du vill åtgärda. Vissa kan ha fördel av behandlingar var fjärde till sjätte vecka, medan andra kan behöva behandlas med längre eller kortare mellanrum. Vi kommer att rekommendera en behandlingsplan anpassad efter din personliga hudanalys.'
+            title: 'Hur ofta bör jag genomgå en PRX T33 behandling?',
+            text: 'Behandlingsintervall för PRX T33 varierar beroende på din hudtyp och de problem du vill åtgärda. Vissa kan ha fördel av behandlingar var fjärde till sjätte vecka, medan andra kan behöva behandlas med längre eller kortare mellanrum. Vi kommer att rekommendera en behandlingsplan anpassad efter din personliga hudanalys.'
         ),
         new Question(
-            title: 'Vilken typ av PRX-T33 behandling ska jag välja för min hud?',
-            text: 'För att bestämma vilken PRX-T33 behandling som är bäst för din hud, rekommenderar vi en konsultation med våra erfarna hudterapeuter. Under konsultationen analyserar vi din hudtyp och dina specifika behov för att kunna rekommendera den mest effektiva behandlingen för dig.'
+            title: 'Vilken typ av PRX T33 behandling ska jag välja för min hud?',
+            text: 'För att bestämma vilken PRX T33 behandling som är bäst för din hud, rekommenderar vi en konsultation med våra erfarna hudterapeuter. Under konsultationen analyserar vi din hudtyp och dina specifika behov för att kunna rekommendera den mest effektiva behandlingen för dig.'
         ),
     )
 );
@@ -582,29 +582,29 @@ $specialists = array(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i PRX-T33-behandling',
-        image_title: 'Cazzandra Lindberg - Expert på PRX-T33-behandling'
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i PRX T33-behandling',
+        image_title: 'Cazzandra Lindberg - Expert på PRX T33-behandling'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på PRX-T33',
-        image_title: 'Veronika Benedik - Specialist inom PRX-T33-behandling'
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på PRX T33',
+        image_title: 'Veronika Benedik - Specialist inom PRX T33-behandling'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
         image: 'images/specialists/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom PRX-T33-behandling',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på PRX-T33'
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom PRX T33-behandling',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på PRX T33'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot PRX-T33-behandling',
-        image_title: 'Vilma Libom - Expert inom PRX-T33-behandling'
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot PRX T33-behandling',
+        image_title: 'Vilma Libom - Expert inom PRX T33-behandling'
     )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
