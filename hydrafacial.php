@@ -79,15 +79,6 @@ $description_text = '<p class="p200">HydraFacial är en innovativ maskinbehandli
 <p class="p200 mt-m">På AcneSpecialisten anpassar vi varje HydraFacial-behandling efter individuella hudbehov. Behandlingen är effektiv för att minska synliga tecken på åldrande, som fina linjer och rynkor, samt att hantera problem som acne, förstorade porer och hyperpigmentering. Dessutom förbättrar HydraFacial hudens övergripande hälsa och lyster genom att öka fuktnivåerna i en torr och känslig hy. HydraFacial är en perfekt lösning för alla som vill ha en direkt synlig förbättring av sin hudkvalitet utan någon återhämtningstid.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelse inför HydraFacial',
-        image_small: '/bilder/process/358x272/hydrafacial-forberedelser.webp',
-        image_large: '/bilder/process/872x456/hydrafacial-forberedelser.webp',
-        image_alt: 'Förberedelse inför HydraFaciala ansiktsbehandlingar',
-        image_title: 'Förberedelse inför HydraFaciala ansiktsbehandlingar',
-        content: '<p class="p200">Inför din HydraFacial-behandling hos AcneSpecialisten är det viktigt att förbereda huden för att optimera behandlingens effekt. Vi rekommenderar att du undviker starka hudvårdsprodukter, såsom exfolierande syror eller retinol, några dagar före din session. Detta hjälper till att minska risken för hudirritation och gör huden mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Skydda din hud mot stark sol och undvik solbränna innan din HydraFacial-behandling, då solbränd hud kan vara mer känslig och detta kan påverka behandlingens resultat. Om du använder mediciner som påverkar huden, eller har hudtillstånd som akne eller rosacea, är det viktigt att informera oss i förväg så att vi kan anpassa behandlingen efter dina unika behov. Kom ihåg att det är viktigt att du känner dig trygg och bekväm, så tveka inte att kontakta oss med eventuella frågor eller funderingar inför din behandling hos AcneSpecialisten.</p>',
-    ),
     'process' => new Article(
         title: 'Processen för HydraFacial',
         image_small: '/bilder/process/358x272/hydrafacial-process.webp',
