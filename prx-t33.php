@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'PRX T33 - Revolutionerande Kemisk Peeling | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten erbjuder vi PRX T33, en banbrytande kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den avskalning som traditionella peelings medför. Idealisk för alla som söker effektiva lösningar på sina hudproblem med minimal återhämtningstid.';
+$seo_title = 'PRX T33 behandling i Stockholm';
+$seo_description = 'PRX T33 ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den flagnande hy som traditionella peelingar medför.';
 $seo_keywords = 'PRX T33, kemisk peeling';
 
 $seo_image = 'images/treatments/large/prx-t33.webp';
@@ -554,10 +554,6 @@ $faq_categories = array(
         new Question(
             title: 'Hur ofta bör jag genomgå en PRX T33 behandling?',
             text: '<p class="p200">Behandlingsintervall för PRX T33 varierar beroende på din hudtyp och de problem du vill åtgärda. Vissa kan ha fördel av behandlingar var fjärde till sjätte vecka, medan andra kan behöva behandlas med längre eller kortare mellanrum. Vi kommer att rekommendera en behandlingsplan anpassad efter din personliga hudanalys.</p>'
-        ),
-        new Question(
-            title: 'Vilken typ av PRX T33 behandling ska jag välja för min hud?',
-            text: '<p class="p200">För att bestämma vilken PRX T33 behandling som är bäst för din hud, rekommenderar vi en konsultation med våra erfarna hudterapeuter. Under konsultationen analyserar vi din hudtyp och dina specifika behov för att kunna rekommendera den mest effektiva behandlingen för dig.</p>'
         ),
     )
 );
