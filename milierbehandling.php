@@ -16,8 +16,8 @@ $path_segments = array(
 
 $model = new Service(
     title: 'Ansiktsbehandlingar mot milier',
-    duration: '60 min',
-    price: 'Från 1295 kr',
+    duration: null,
+    price: null,
     content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste microneedling tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
