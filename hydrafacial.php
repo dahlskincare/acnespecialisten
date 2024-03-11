@@ -101,7 +101,7 @@ $big_types = array(
         title: 'HydraFacial',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">HydraFacial hos AcneSpecialisten är en mångsidig och effektiv hudvårdsbehandling som passar en mängd olika hudtyper. Behandlingen fokuserar på djupgående rengöring, hydrering och förnyelse av hudens yta, vilket ger en fräsch och strålande lyster.</p>
+        content: '<p class="p200">En mångsidig och effektiv hudvårdsbehandling som passar en mängd olika hudtyper. Behandlingen fokuserar på djupgående rengöring, hydrering och förnyelse av hudens yta, vilket ger en fräsch och strålande lyster.</p>
         <p class="p200 mt-m">Behandlingen inleds med en varsam men grundlig rengöring som förbereder huden för HydraFacialens nästa steg. Därefter används en specialapparat för att utföra en mild exfoliering, som tar bort döda hudceller och rengör porerna på djupet. Samtidigt tillförs närande och fuktgivande serum som är skräddarsydda efter din hudtyp och dina behov.</p>
         <p class="p200 mt-m">Efter den exfolierande fasen följer en infusion av antioxidanter och hyaluronsyra som djupt återfuktar huden och bidrar till dess vitalitet och utstrålning. Behandlingen avslutas med en lugnande fas där huden får extra vård och skydd för att bevara de långvariga effekterna av HydraFacial.</p>
         <p class="p200 mt-m">På AcneSpecialisten ger vi dig en skräddarsydd behandling och eftervård som maximerar fördelarna av HydraFacial. Denna behandling är idealisk för dig som söker en omfattande lösning för att förbättra din hudhälsa och utstrålning.</p>',
@@ -140,7 +140,7 @@ $big_types = array(
         title: 'HydraFacial - Dermabuilder Serum - Boost & Glow',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">HydraFacial-behandlingen med Dermabuilder Serum hos AcneSpecialisten är en exceptionell upplevelse för den mogna huden. Detta avancerade serum är särskilt framtaget för att djupt vitalisera och stärka huden. Med en kraftfull blandning av två aktiva peptider, arbetar serumet för att stimulera produktionen av hudens egna proteiner, vilket är avgörande för hudens elasticitet och fasthet.</p>
+        content: '<p class="p200">Dermabuilder Serum är en exceptionell upplevelse för den mogna huden. Detta avancerade serum är särskilt framtaget för att djupt vitalisera och stärka huden. Med en kraftfull blandning av två aktiva peptider, arbetar serumet för att stimulera produktionen av hudens egna proteiner, vilket är avgörande för hudens elasticitet och fasthet.</p>
         <p class="p200 mt-m">I denna behandling tränger Dermabuilder Serum in i hudens djupare lager för att effektivt bygga upp och stärka hudstrukturen inifrån. Detta bidrar till att synbart minska rynkor och fina linjer, och ger ansiktet en fastare och mer ungdomlig profil. Behandlingen är perfekt för dig som vill återställa och bevara hudens ungdomliga utstrålning och vitalitet.</p>
         <p class="p200 mt-m">Med HydraFacial och Dermabuilder Serum får du inte bara en slätare och jämnare hud, utan också en mer motståndskraftig och välvårdad hudkvalitet. Detta serum är en idealisk lösning för att ge din mogen hud en omedelbar boost.</p>',
         image_small: null,
@@ -178,7 +178,7 @@ $big_types = array(
         title: 'HydraFacial - Glycal Acid Peel - Mot Pormaskar',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">HydraFacial-behandlingen hos AcneSpecialisten, förstärkt med Glycal Acid Peel, är skräddarsydd för att effektivt hantera hud med pormaskar och finnar. Denna specialanpassade behandling fokuserar på att djuprengöra huden och adressera överproduktionen av talg, en vanlig orsak till dessa hudtillstånd.</p>
+        content: '<p class="p200">Glycal Acid Peel, är skräddarsydd för att effektivt hantera hud med pormaskar och finnar. Denna specialanpassade behandling fokuserar på att djuprengöra huden och adressera överproduktionen av talg, en vanlig orsak till dessa hudtillstånd.</p>
         <p class="p200 mt-m">Glycal Acid Peel är en kraftfull kombination av aktiva syror som tränger djupt in i hudlagren för att lösgöra och avlägsna inbyggda orenheter. Denna intensiva exfolieringsprocess renar effektivt porerna, vilket minskar synligheten av pormaskar och finnar och bidrar till en klarare och jämnare hudton.</p>
         <p class="p200 mt-m">Denna behandling är idealisk för dig som söker en djupgående lösning på problemhy. Med vår Glycal Acid Peel får du inte bara en yttre rengöring, utan en behandling som aktivt arbetar för att rena huden på djupet. Resultatet är en ren, förnyad hud som är fri från de vanligaste orsakerna till problemhy.</p>',
         image_small: null,
