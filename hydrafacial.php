@@ -85,10 +85,12 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/hydrafacial-process.webp',
         image_alt: 'Processen för HydraFacial',
         image_title: 'Processen för HydraFacial',
-        content: '<p class="p200">En HydraFacial-behandling hos AcneSpecialisten börjar med en grundlig rengöring av huden för att avlägsna smuts och orenheter. Detta första steg är viktigt för att förbereda huden för behandlingens nästa faser.</p>
-    <p class="p200 mt-m">Efter rengöringen följer HydraFacialens huvudsteg, där vi använder en specialiserad apparatur för att utföra en skonsam men djupgående exfoliering. Apparaten kombinerar rengöring, exfoliering och extraktion för att ta bort döda hudceller och rengöra porerna, samtidigt som den tillför intensiva fuktgivande serum anpassade efter din hudtyp.</p>
-    <p class="p200 mt-m">Behandlingen fortsätter med införande av näring och antioxidanter som vitaliserar och ger huden en fräsch, strålande lyster. HydraFacialen avslutas med att lugnande och skyddande ämnen appliceras på huden för att maximera återhämtningen och skydda mot miljöpåverkan.</p>
-    <p class="p200 mt-m">Våra experter vid AcneSpecialisten anpassar varje HydraFacial-behandling individuellt för att uppnå bästa möjliga resultat. Denna behandling är perfekt för alla som söker en djup men skonsam rengöring och önskar en synbart förbättrad hudkvalitet.</p>',
+        content: '<p class="p200">En HydraFacial-behandling följer en välstrukturerad process som består av fyra huvudsakliga faser för att revitalisera och föryngra huden.</p>
+    <p class="p200 mt-m">Fas 1:<br />Grundlig Rengöring och Hudslipning. Initialt behandlas huden med en grundlig rengöring och en skonsam exfoliering som öppnar upp porerna och avlägsnar döda hudceller, vilket gör huden redo för de nästkommande stegen och lämnar den fräsch och förberedd.</p>
+    <p class="p200 mt-m">Fas 2:<br />Skonsam Peeling. Denna fas inbegriper en mild peeling med glykol- och salicylsyra som effektivt mjukar upp och löser upp orenheter inuti porerna, utan att vara för hård mot huden.</p>
+    <p class="p200 mt-m">Fas 3:<br />Utrensning av Orenheter. I detta viktiga steg använder behandlingen en avancerad vakuumsugningsteknik för att djuprengöra porerna och extrahera orenheter från hudens djupare lager, vilket bidrar till en klarare hudton.</p>
+    <p class="p200 mt-m">Fas 4:<br />Hydrering och Näringsboost. Slutligen berikas huden med en kraftfull infusion av antioxidanter och hyaluronsyra, vilket intensivt återfuktar huden, stärker dess skyddsbarriär och gör den mjuk och smidig. Detta steg säkerställer att huden inte bara ser, utan också känner sig, återvitaliserad med en varaktig lyster.</p>
+    <p class="p200 mt-m">Varje steg i denna process är noga utformat för att ge din hud en optimal behandlingsupplevelse som går utöver traditionell hudvård, och lämnar dig med en strålande, hälsosam hud utan någon nedtid.</p>',
     ),
 );
 
