@@ -29,6 +29,32 @@ $model = new Service(
     booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
+    procedures: array(
+        new Procedure(
+            label: '1 behandling',
+            price: '1595 kr',
+            savings: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '3 behandlingar',
+            price: '3995 kr',
+            savings: 'Spara 790 kr',
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+        ),
+        new Procedure(
+            label: '5 behandlingar',
+            price: '5995 kr',
+            savings: 'Spara 2980 kr',
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+        )
+    ),
 );
 
 $floating_box = 'Med HydraFacial slipas och vårdas huden för att effektivt exfoliera huden.';
@@ -111,8 +137,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '5995 kr',
-                price: 'Spara 1980 kr',
+                price: '5995 kr',
+                savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_5'
             )
         )
@@ -149,8 +175,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '7995 kr',
-                price: 'Spara 1980 kr',
+                price: '7995 kr',
+                savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_5'
             )
         )
@@ -187,8 +213,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '7995 kr',
-                price: 'Spara 1980 kr',
+                price: '7995 kr',
+                savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_5'
             )
         )
