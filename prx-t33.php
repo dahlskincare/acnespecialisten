@@ -388,8 +388,8 @@ $bottom_articles = array(
     image_large: '/bilder/process/872x456/prx-t33-eftervard.webp',
     image_alt: 'Eftervård vid PRX T33',
     image_title: 'Eftervård vid PRX T33',
-    content: '<p class="p200"><p class="p200">Eftervård är avgörande för att maximera resultaten av din kemiska peeling. För att underhålla och förbättra din hudkvalitet efter behandlingen, är det viktigt att följa en skräddarsydd hudvårdsrutin. Det innebär inte bara att använda rätt produkter, utan också att följa en rutin som är anpassad för din specifika hudtyp och de behov som uppstått efter peelingen.</p>
-    <p class="p200 mt-m">På AcneSpecialisten hjälper vi dig att skapa en effektiv eftervårdsplan som passar just din hud. Detta kan innefatta allt från noggrann rengöring och återfuktning till speciella vårdåtgärder som lugnar och främjar hudens läkningsprocess. Vi guidar dig genom varje steg för att försäkra att du ger din hud den optimala vård den behöver för att återhämta sig och bibehålla de positiva effekterna av peelingen. Rätt eftervård är essentiell för att upprätthålla en hälsosam, välvårdad och strålande hud.</p>',
+    content: '<p class="p200">Eftervård är en avgörande del av processen för att uppnå optimala resultat från din PRX-T33 behandling. För att säkerställa att din hud får den vård den behöver efter denna innovativa behandling, inkluderar vi ett skräddarsytt eftervårdskit som en del av din behandlingsplan. Detta kit är designat för att stödja och maximera din huds återhämtningsprocess och förbättra de långsiktiga resultaten av din behandling.</p>
+    <p class="p200 mt-m">Det eftervårdskit du mottar ska användas under de första tre dagarna efter din behandling. Kitet innehåller noggrant utvalda produkter som är anpassade för att vårda, återfukta och skydda din hud under den kritiska återhämtningsperioden. Genom att följa eftervårdsinstruktionerna och använda produkterna i kitet som angivet, kan du hjälpa din hud att bibehålla optimal fuktbalans, minska risken för irritation och främja en snabbare återhämtning.</p>',
     ),
 );
 
