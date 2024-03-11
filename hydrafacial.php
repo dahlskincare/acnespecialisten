@@ -98,7 +98,7 @@ $types_title = 'HydraFacial och tillval';
 $types_description = 'Med hjälp av våra tillval anpassar vi behandingen för just dina behov.';
 $big_types = array(
     new Service(
-        title: 'HydraFacial',
+        title: 'HydraFacial - Standard',
         duration: '40 min',
         price: null,
         content: '<p class="p200">En mångsidig och effektiv hudvårdsbehandling som passar en mängd olika hudtyper. Behandlingen fokuserar på djupgående rengöring, hydrering och förnyelse av hudens yta, vilket ger en fräsch och strålande lyster.</p>
