@@ -75,7 +75,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är PRX T33?';
-$description_text = '<p class="p200">PRX T33, som erbjuds hos AcneSpecialisten, är en banbrytande form av kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling kombinerar egenskaperna hos TCA (triklorättiksyra) med väteperoxid, vilket ger en djupgående effekt på huden utan den avskalning och irritation som ofta associeras med traditionella kemiska peelings.</p>
+$description_text = '<p class="p200">PRX T33 är en banbrytande form av kemisk peeling som revolutionerar hudvårdsbehandlingar. Denna unika peeling kombinerar egenskaperna hos TCA (triklorättiksyra) med väteperoxid, vilket ger en djupgående effekt på huden utan den avskalning och irritation som ofta associeras med traditionella kemiska peelings.</p>
 <p class="p200 mt-m">PRX T33 är särskilt utvecklad för att förbättra hudens struktur och utseende genom att stimulera hudens underliggande strukturer utan att skada dess yttre lager. Detta gör den idealisk för behandling av acneärr, bristningar, melasma, fina linjer, rynkor och pigmentfläckar. PRX T33 ger synliga resultat redan efter första behandlingen och är lämplig för alla hudtyper, inklusive känslig hud. Behandlingen är smärtfri, kräver ingen återhämtningstid och kan utföras året om, vilket gör den till ett attraktivt val för dem som söker effektiva men skonsamma hudförbättringar.</p>';
 
 $top_articles = array(
