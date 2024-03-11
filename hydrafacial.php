@@ -101,10 +101,7 @@ $big_types = array(
         title: 'HydraFacial - Standard',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">En mångsidig och effektiv hudvårdsbehandling som passar en mängd olika hudtyper. Behandlingen fokuserar på djupgående rengöring, hydrering och förnyelse av hudens yta, vilket ger en fräsch och strålande lyster.</p>
-        <p class="p200 mt-m">Behandlingen inleds med en varsam men grundlig rengöring som förbereder huden för HydraFacialens nästa steg. Därefter används en specialapparat för att utföra en mild exfoliering, som tar bort döda hudceller och rengör porerna på djupet. Samtidigt tillförs närande och fuktgivande serum som är skräddarsydda efter din hudtyp och dina behov.</p>
-        <p class="p200 mt-m">Efter den exfolierande fasen följer en infusion av antioxidanter och hyaluronsyra som djupt återfuktar huden och bidrar till dess vitalitet och utstrålning. Behandlingen avslutas med en lugnande fas där huden får extra vård och skydd för att bevara de långvariga effekterna av HydraFacial.</p>
-        <p class="p200 mt-m">På AcneSpecialisten ger vi dig en skräddarsydd behandling och eftervård som maximerar fördelarna av HydraFacial. Denna behandling är idealisk för dig som söker en omfattande lösning för att förbättra din hudhälsa och utstrålning.</p>',
+        content: '',
         image_small: null,
         image_large: null,
         image_alt: 'HydraFacial',
@@ -137,7 +134,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydraFacial - Dermabuilder Serum - Boost & Glow',
+        title: 'HydraFacial - Boost & Glow',
         duration: '40 min',
         price: null,
         content: '<p class="p200">Dermabuilder Serum är en exceptionell upplevelse för den mogna huden. Detta avancerade serum är särskilt framtaget för att djupt vitalisera och stärka huden. Med en kraftfull blandning av två aktiva peptider, arbetar serumet för att stimulera produktionen av hudens egna proteiner, vilket är avgörande för hudens elasticitet och fasthet.</p>
@@ -175,7 +172,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydraFacial - Glycal Acid Peel - Mot Pormaskar',
+        title: 'HydraFacial - Mot Pormaskar',
         duration: '40 min',
         price: null,
         content: '<p class="p200">Glycal Acid Peel, är skräddarsydd för att effektivt hantera hud med pormaskar och finnar. Denna specialanpassade behandling fokuserar på att djuprengöra huden och adressera överproduktionen av talg, en vanlig orsak till dessa hudtillstånd.</p>
