@@ -242,19 +242,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur ofta bör jag genomgå en milierbehandling?',
-            text: 'Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.'
+            text: '<p class="p200">Frekvensen av milierbehandlingar kan variera beroende på din hudtyp och hur benägen din hud är för att utveckla milier. I början kan behandlingar behövas oftare för att komma till rätta med befintliga milier, men efter det kan regelbundna underhållsbehandlingar var tredje till var sjätte månad vara tillräckligt. En individuell konsultation med en hudvårdsexpert kan ge en mer skräddarsydd behandlingsplan.</p>'
         ),
         new Question(
             title: 'Kommer milier att komma tillbaka efter behandling?',
-            text: 'Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.'
+            text: '<p class="p200">Milierbehandling tar bort de milier som för närvarande finns, men det finns alltid en möjlighet att nya milier kan utvecklas. Det är viktigt med en adekvat hemvårdsrutin och potentiellt livsstilsförändringar för att minimera återkomsten av milier.</p>'
         ),
         new Question(
             title: 'Hur snabbt kan jag se resultat från milierbehandling?',
-            text: 'Resultatet är omedelbart då vi manuellt tömmer milierna, men ibland kan det krävas upprepade sessioner för att hantera mer ihållande eller omfattande milier. Kontinuerliga behandlingar, i kombination med en anpassad hudvårdsrutin, bidrar till de bästa långsiktiga resultaten.'
+            text: '<p class="p200">Resultatet är omedelbart då vi manuellt tömmer milierna, men ibland kan det krävas upprepade sessioner för att hantera mer ihållande eller omfattande milier. Kontinuerliga behandlingar, i kombination med en anpassad hudvårdsrutin, bidrar till de bästa långsiktiga resultaten.</p>'
         ),
         new Question(
             title: 'Är milierbehandling nödvändig även om jag bara har några milier?',
-            text: 'Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.'
+            text: '<p class="p200">Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.</p>'
         ),
 
     )
