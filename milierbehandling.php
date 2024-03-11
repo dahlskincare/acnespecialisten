@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Ansiktsbehandlingar mot milier',
     duration: '60 min',
     price: 'Från 1295 kr',
-    content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste microneedling tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
+    content: '<p class="p200">Milierbehandling är en ansiktsbehandling som tömmer milier på ett säkert och effektivt sätt. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot milier',
