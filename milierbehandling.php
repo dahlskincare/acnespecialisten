@@ -82,7 +82,7 @@ $big_types = array(
         title: 'Milierbehandling',
         duration: '60 min',
         price: '1295 kr',
-        content: '<p class="p200">Vi inleder med en grundlig rengöring för att förbereda huden. Istället för traditionell exfoliering som kan vara för hård för huden med milier, använder vi skonsamma metoder för att lösgöra de små cystorna. Därefter tillämpar vi specialtekniker för att försiktigt avlägsna milier utan att skada huden. Om det finns ett behov av porrengöring utförs detta med stor omsorg för att inte irritera huden ytterligare. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
+        content: '<p class="p200">Vår milier behandling börjar med en noggrann rengöring av huden för att förbereda för borttagning av milier. Eftersom milier saknar en naturlig poröppning och inte kan avlägsnas genom vanlig rengöring, använder vi en speciell metod för att effektivt ta hand om dem. Med hjälp av en lansett, en tunn nål, öppnar vi varsamt upp milierna. Detta gör det möjligt för oss att noggrant klämma ut den lilla keratincystan utan att skada den omgivande huden. Denna process säkerställer en säker och effektiv borttagning av milier, vilket lämnar huden ren och slät. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Milierbehandling',
@@ -93,6 +93,10 @@ $big_types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Milia&method=Service_Facial_MiliaTreatment&area=EMPTY',
         booking_url_label: 'Boka Milierbehandling',
         booking_url_title: 'Boka Milierbehandling',
+
+        url: '/milier.php',
+        url_label: 'Läs mer om milier',
+        url_title: 'Läs mer om milier',
     ),
 );
 
