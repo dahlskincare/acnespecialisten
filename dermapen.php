@@ -4,8 +4,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Dermapen behandling i Stockholm';
-$seo_description = 'Dermapen behandlingar är ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar genom att stimulera hudens läkningsprocess.';
-$seo_keywords = 'Dermapen, Dermapen 4, Dermapen behandling, Dermapen 4 behandling hudföryngring, behandla texturförändringar, reducera ålderslinjer, stimulera kollagen, hudförbättring, förfinad hudstruktur, jämna ut hudton, öka hudens elasticitet, föryngra huden';
+$seo_description = 'Dermapen 4 behandlingar är ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar genom att stimulera hudens läkningsprocess.';
+$seo_keywords = 'Dermapen, Dermapen 4, Dermapen behandling, Dermapen 4 behandling';
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
