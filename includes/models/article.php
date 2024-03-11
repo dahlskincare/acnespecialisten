@@ -1,7 +1,7 @@
 <?php
 class Article
 {
-    public function __construct($title, $image_small, $image_large, $image_alt, $image_title, $content, $tags = array())
+    public function __construct($title, $image_small, $image_large, $image_alt, $image_title, $content, $tags = array(), $url = null, $url_label = null, $url_title = null)
     {
         $this->title = $title;
         $this->image_small = $image_small;
@@ -10,6 +10,9 @@ class Article
         $this->image_title = $image_title;
         $this->content = $content;
         $this->tags = $tags;
+        $this->url = $url;
+        $this->url_label = $url_label;
+        $this->url_title = $url_title;
     }
     public string $title;
     public ?string $image_small;
@@ -18,6 +21,9 @@ class Article
     public ?string $image_title;
     public string $content;
     public array $tags;
+    public ?string $url;
+    public ?string $url_label;
+    public ?string $url_title;
 }
 
 class ArticleTag
