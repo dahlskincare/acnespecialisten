@@ -211,15 +211,30 @@ $big_types = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för HydraFacial',
-    image_small: '/bilder/process/358x272/hydrafacial-eftervard.webp',
-    image_large: '/bilder/process/872x456/hydrafacial-eftervard.webp',
-    image_alt: 'Eftervård för HydraFacial',
-    image_title: 'Eftervård för HydraFacial',
-    content: '<p class="p200">Efter din HydraFacial-behandling hos AcneSpecialisten är det viktigt att noggrant följa eftervårdsinstruktioner för att bibehålla och förlänga behandlingens positiva effekter. Direkt efter behandlingen ska huden behandlas varsamt. Undvik stark sol och använd ett högkvalitativt solskydd med hög SPF för att skydda huden från UV-strålar.</p>
-    <p class="p200 mt-m">För att stödja huden i dess återhämtningsprocess, är det viktigt att regelbundet återfukta med lämpliga hudvårdsprodukter, som rekommenderats av din hudterapeut. Om din behandling inkluderade en kemisk peeling eller en djup exfoliering, bör du undvika att skrubba eller irritera huden och låta eventuella mindre orenheter läka på egen hand. Det är även viktigt att hålla en god hydrering genom att dricka tillräckligt med vatten och upprätthålla en näringsrik kost för att stödja huden inifrån. Tveka inte att kontakta oss på AcneSpecialisten för ytterligare råd eller frågor om din eftervård.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Inför en HydraFacial behandling',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Inför en HydraFacial behandling',
+        image_title: 'Inför en HydraFacial behandling',
+        content: '<p class="p200">Innan du genomgår en HydraFacial behandling är det viktigt att förbereda din hud på rätt sätt. Det innebär att du bör undvika användning av:</p>
+        <p class="p200 mt-m">Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>
+        <p class="p200 mt-m">Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>
+        <p class="p200 mt-m">Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>',
+    ),
+        'aftercare' => new Article(
+        title: 'Eftervård',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Eftervård',
+        image_title: 'Eftervård',
+        content: '<p class="p200">Efter att ha genomgått en HydraFacial-behandling kommer du att märka att din hud omedelbart känns renare och mer strålande. För att maximera resultatet och undvika irritation är det viktigt att:</p>
+        <p class="p200 mt-m">Undvika solen i minst 72 timmar för att skydda din nybehandlade hud.</p>
+        <p class="p200 mt-m">Avstå från att använda starka hudvårdsprodukter under cirka 48 timmar efter behandlingen för att låta din hud återhämta sig naturligt.</p>
+        <p class="p200 mt-m">Genom att följa dessa enkla riktlinjer säkerställer du att din hud återhämtar sig optimalt efter din HydraFacial-behandling, och du kommer att kunna njuta av dina resultat längre.</p>',
+    ),
+);
 
 $service_brands_title = 'Andra märken för Dermabrasion';
 $service_brands_text = '<p class="p200">Utöver HydraFacial jobbar vi även med Microdermabrasion.</p>';
