@@ -18,7 +18,7 @@ $model = new Service(
     title: 'HydraFacial i Stockholm',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">HydraFacial är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering och hydrering för att vitalisera huden.</p>',
+    content: '<p class="p200">HydraFacial är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering och avlägsnar orenheter och återfuktar huden.</p>',
     image_small: 'bilder/varumarken/358x274/hydrafacial.webp',
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',
     image_alt: 'HydraFacial',
