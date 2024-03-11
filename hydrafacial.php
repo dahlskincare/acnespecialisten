@@ -57,7 +57,7 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Med HydraFacial slipas och vårdas huden för att effektivt exfoliera huden.';
+$floating_box = 'Rengöring, exfoliering, avlägsnande av orenheter och återfuktning med HydraFacial.';
 
 $nav_buttons = array(
     'about' => 'Om HydraFacial',
