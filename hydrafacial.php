@@ -80,7 +80,7 @@ $description_text = '<p class="p200">HydraFacial är en innovativ maskinbehandli
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Processen för HydraFacial',
+        title: 'Hur går en HydraFacial behandling till?',
         image_small: '/bilder/process/358x272/hydrafacial-process.webp',
         image_large: '/bilder/process/872x456/hydrafacial-process.webp',
         image_alt: 'Processen för HydraFacial',
