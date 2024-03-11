@@ -444,9 +444,11 @@ $brands_url_title = "Se alla varumärken";
                               <h1 class="h600"><?php echo $title ?></h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $aka) { ?>
-                                    <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
-                                          <?php echo $aka->label ?>
-                                    </a>
+                                    <?php if (isset($aka->url)) { ?>
+                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button underline b50 bright"><?php echo $aka->label ?></a>
+                                    <?php } else { ?>
+                                          <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
+                                    <?php } ?>
                               <?php } ?>
 
                               <hr class="mt-xl" />
