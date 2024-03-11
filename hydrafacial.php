@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hydrafacial - Djupgående Hudvård och Förnyelse | AcneSpecialisten';
+$seo_title = 'Hydrafacial - Djupgående Hudvård och Förnyelse';
 $seo_description = 'Upptäck Hydrafacial hos AcneSpecialisten, en mångsidig behandling som kombinerar djup rengöring, exfoliering, och hydrering för att revitalisera din hud. Perfekt för alla hudtyper, denna behandling erbjuder omedelbar lyster och förbättrar hudens kvalitet på lång sikt.';
 $seo_keywords = 'Hydrafacial, hudvård, djupgående rengöring, exfoliering, hydrering, lyster, hudförbättring, AcneSpecialisten, hudens kvalitet, alla hudtyper';
 
