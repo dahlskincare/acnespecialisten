@@ -73,8 +73,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Ta bort milier';
-$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta.</p>
-    <p class="p200 mt-m">Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt. Genom noggrann rengöring och specialiserad vård hjälper vi din hud att behålla sin släthet och förebygga nya milier från att bildas.</p>';
+$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
