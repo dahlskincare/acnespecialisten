@@ -94,8 +94,15 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'HydraFacial och tillval';
-$types_description = 'Med hjälp av våra tillval anpassar vi behandingen för just dina behov.';
+$types_title = 'HydraFacial behandlar';
+$types_description = '<p class="p200">HydraFacial kan effektivt användas för att adressera och förbättra en rad hudtillstånd, inklusive:</p>
+    <p class="p200 mt-m">- Minska synligheten av fina linjer och rynkor.</p>
+    <p class="p200 mt-m">- Öka hudens spänst och elasticitet.</p>
+    <p class="p200 mt-m">- Ge huden en förnyad lyster samt jämnare hudton.</p>
+    <p class="p200 mt-m">- Djuprengöra fet och aknebenägen hud, vilket bidrar till hudförbättringar.</p>
+    <p class="p200 mt-m">- Återställa och balansera hudens naturliga fuktnivåer.</p>
+    <p class="p200 mt-m">- Minska storleken på stora porer och göra dem mindre framträdande.</p>
+    <p class="p200 mt-m">Denna mångsidiga behandling erbjuder en skräddarsydd lösning för en rad hudbekymmer, vilket gör det till ett utmärkt val för alla som önskar förbättra sitt hudtillstånd på ett märkbart sätt. Vi anpassar även behandlingen efter dina hudvårdsproblem och mål.</p>';
 $big_types = array(
     new Service(
         title: 'HydraFacial - Standard',
