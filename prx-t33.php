@@ -262,7 +262,7 @@ $types = array(
         title: 'PRX T33 mot Aktiv Akne',
         duration: '30 min',
         price: '1595 kr',
-        content: 'Specialiserad peeling för att behandla aktiv akne. Hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
+        content: 'Behandlar aktiv akne och hjäpler till att rengöra porer, minska inflammation och exfolierar huden.',
         image_small: 'bilder/problem/102x102/akne.webp',
         image_large: 'bilder/problem/200x200/akne.webp',
         image_alt: 'Kemisk Peeling mot Aktiv Akne',
@@ -285,8 +285,8 @@ $big_types = array(
         title: 'Boosta din PRX T33-behandling med Microneedling',
         duration: null,
         price: null,
-        content: '<p class="p200">För att ta din hudvårdsrutin till nästa nivå, introducerar vår klinik en innovativ kombinationsbehandling som kombinerar fördelarna med PRX T33 med microneedling för att maximera hudens förnyelse och lyster. Genom denna specialiserade metod uppnås en djupgående förbättring av hudens kvalitet, spänst och glöd, samtidigt som den minimala återhämtningstiden bibehålls.</p>
-        <p class="p200 mt-m">Genom att applicera PRX T33 direkt efter en microneedling-session, stimuleras hudens naturliga läkningsmekanismer och kollagenproduktion på ett kraftfullt sätt. PRX T33, en behandling som inte involverar nålar eller skapar hudtrauma, fungerar som ett perfekt komplement till microneedling, vilket intensifierar de regenerativa effekterna och bidrar till en långvarig förbättring av hudtonen, texturen samt en signifikant minskning av fina linjer och ojämnheter. Upplev den omvandlande kraften i denna kombinerade behandling för en synligt förnyad och strålande hud.</p>',
+        content: '<p class="p200">För att ta din PRX T33 behandling till nästa nivå, introducerar vår klinik en innovativ kombinationsbehandling som kombinerar fördelarna med PRX T33 och microneedling för att maximera hudens förnyelse och lyster. Genom denna konbinations metod uppnås en djupgående förbättring av hudens kvalitet, spänst och lyster, samtidigt som den minimala återhämtningstiden bibehålls.</p>
+        <p class="p200 mt-m">Genom att applicera PRX T33 direkt efter en microneedling-session, stimuleras hudens naturliga läkningsmekanismer och kollagenproduktion på ett kraftfullt sätt. PRX T33 är ett komplement till microneedling, vilket intensifierar de återskapande effekterna och bidrar till en långvarig förbättring av hudtonen, texturen samt en signifikant minskning av fina linjer och ojämnheter. Upplev den omvandlande kraften i denna kombinerade behandling för en synligt förnyad och strålande hud.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Boosta din PRX T33-behandling med Microneedling',
