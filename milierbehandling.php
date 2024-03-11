@@ -9,11 +9,16 @@ $seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning 
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
+$path_segments = array(
+    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Milierbehandling', '/milierbehandling.php'),
+);
+
 $model = new Service(
     title: 'Ansiktsbehandlingar mot milier',
     duration: '60 min',
-    price: 'Från 799 kr',
-    content: '',
+    price: 'Från 1295 kr',
+    content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste microneedling tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot milier',
@@ -25,6 +30,8 @@ $model = new Service(
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
+
+$floating_box = 'Bli av med milier effektivt.';
 
 $nav_buttons = array(
     'about' => 'Om ansiktsbehandlingar mot milier',
