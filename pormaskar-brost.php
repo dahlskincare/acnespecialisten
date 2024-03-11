@@ -413,7 +413,11 @@ $brands_url_title = "Se alla varumärken";
                                           <span class="p200 l10n">Även kallat</span>
                                           <div>
                                                 <?php foreach ($akas as $aka) { ?>
-                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                                      <?php if (isset($aka->url)) { ?>
+                                                            <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                                      <?php } else { ?>
+                                                            <span class="b200 aka"><?php echo $aka->label ?></span>
+                                                      <?php } ?>
                                                 <?php } ?>
                                           </div>
                                           <div class="mt-m"><?php echo $floating_box ?></div>

@@ -656,13 +656,13 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     <h2 class="h600"><?php echo $title ?></h2>
                                     <div class="mt-m aka">
                                           <span class="p200 l10n">Även kallat</span>
-                                          <?php foreach ($akas as $aka) {
-                                                if (isset($aka->url)) { ?>
+                                          <?php foreach ($akas as $aka) { ?>
+                                                <?php if (isset($aka->url)) { ?>
                                                       <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
                                                 <?php } else { ?>
                                                       <span class="b200 aka"><?php echo $aka->label ?></span>
-                                          <?php }
-                                          } ?>
+                                                <?php } ?>
+                                          <?php } ?>
                                           <div class="mt-xl">
                                                 <div class="columns is-2 is-variable">
                                                       <div class="column">
