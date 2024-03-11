@@ -93,7 +93,7 @@ $top_articles = array(
 );
 
 $types_title = 'HydraFacial och tillval';
-$types_description = 'Med hjälp av våra tillval anpassar vi behandingen för just dina behov..';
+$types_description = 'Med hjälp av våra tillval anpassar vi behandingen för just dina behov.';
 $big_types = array(
     new Service(
         title: 'HydraFacial',
