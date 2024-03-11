@@ -721,9 +721,11 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                               <h1 class="h600"><?php echo $title ?></h1>
                               <h3 class="mt-xs p100 l10n">Även känt som:</h3>
                               <?php foreach ($akas as $aka) { ?>
-                                    <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button b50 bright">
-                                          <?php echo $aka->label ?>
-                                    </a>
+                                    <?php if (isset($aka->url)) { ?>
+                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button underline b50 bright"><?php echo $aka->label ?></a>
+                                    <?php } else { ?>
+                                          <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
+                                    <?php } ?>
                               <?php } ?>
                               <hr class="mt-xl" />
                               <p class="mt-m p200">
@@ -758,7 +760,11 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                                     <div class="mt-s">
                                           <span class="h200 l10n">Även känt som:</span>
                                           <?php foreach ($akas as $aka) { ?>
-                                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                                <?php if (isset($aka->url)) { ?>
+                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                                <?php } else { ?>
+                                                      <span class="b200 aka"><?php echo $aka->label ?></span>
+                                                <?php } ?>
                                           <?php } ?>
                                     </div>
                                     <p class="mt-s p200"><?php echo $description ?></p>
