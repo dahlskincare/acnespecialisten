@@ -9,7 +9,7 @@ $seo_title = 'Vad är milier? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om milier och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'milier, orsaker till milier, förebygga milier, ta bort milier';
 
-$title = 'Milier';
+$title = 'Milier i ansiktet';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
