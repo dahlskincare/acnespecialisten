@@ -23,7 +23,10 @@
         </div>
     <?php }
     ?>
-    <div class=" article-content p200">
+    <div class="article-content p200">
         <?php echo $article->content ?>
     </div>
+    <?php if (isset($article->url) && isset($article->url_label)) { ?>
+        <a href="<?php echo $article->url ?>" title="<?php echo $article->url_title ?>" class="mt-m button"><?php echo $article->url_label ?></a>
+    <?php } ?>
 </div>
