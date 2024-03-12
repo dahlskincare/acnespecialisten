@@ -61,16 +61,6 @@ Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med
 <p class="p200 mt-m">Alma Harmony XL Pro kombinerar dessa innovativa tekniker för att erbjuda en komplett lösning för de mest efterfrågade estetiska behandlingarna. Genom att anpassa behandlingen efter varje patients unika behov säkerställer Alma Harmony XL Pro optimala resultat och maximal patienttillfredsställelse.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför Harmony XL Pro',
-        image_small: '/bilder/process/358x272/alma-harmony-xl-pro-forberedelser.webp',
-        image_large: '/bilder/process/872x456/alma-harmony-xl-pro-forberedelser.webp',
-        image_alt: 'Förberedelser inför Alma Harmony XL Pro',
-        image_title: 'Förberedelser inför Alma Harmony XL Pro',
-        content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
-        <p class="p200 mt-m">För att förbereda dig inför behandlingen rekommenderar vi att du undviker direkt solstrålning och solarium under veckorna före din session. Detta är för att minska risken för överkänslighet och för att optimera hudens tillstånd för behandlingen. Du bör också undvika att använda hudvårdsprodukter som innehåller starka aktiva ingredienser, såsom exfolierande syror, åtminstone en vecka före din behandling.</p>
-        <p class="p200 mt-m">Under konsultationen kommer vi att granska din hudhistorik och eventuella tidigare behandlingar för att fullständigt anpassa Harmony XL Pro-behandlingen till dina behov. Vårt mål är att du ska känna dig trygg och informerad genom hela behandlingsprocessen. Vi ser fram emot att hjälpa dig att uppnå en förbättrad hudkvalitet och ett strålande utseende med hjälp av Harmony XL Pro.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går behandling med Harmony XL Pro till?',
         image_small: '/bilder/process/358x272/alma-harmony-xl-pro-process.webp',
@@ -366,16 +356,28 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för Harmony XL Pro',
-    image_small: '/bilder/process/358x272/alma-harmony-xl-pro-eftervard.webp',
-    image_large: '/bilder/process/872x456/alma-harmony-xl-pro-eftervard.webp',
-    image_alt: 'Eftervård för Harmony XL Pro',
-    image_title: 'Eftervård för Harmony XL Pro',
-    content: '<p class="p200">Att följa rätt eftervård är avgörande för att maximera effekten av din Harmony XL Pro-laserbehandling hos AcneSpecialisten. Efter behandlingen är det normalt att uppleva en viss rodnad och svullnad i det behandlade området. Vi råder dig att inte röra området med orena händer och att undvika makeup under de första 24 timmarna för att minska risken för irritation och infektioner.</p>
-    <p class="p200 mt-m">Under återhämtningen är det viktigt att undvika aktiviteter som kan öka svullnad och rodnad, såsom intensiv träning, heta duschar och bastu. Användning av solskydd med hög SPF är essentiellt för att skydda den känsliga huden från solens UV-strålar. Vi rekommenderar också att du använder milda och återfuktande hudvårdsprodukter utan starka dofter eller irriterande ingredienser för att främja en smidig läkningsprocess och upprätthålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Om du har några frågor eller bekymmer efter din behandling, är vi alltid här för att erbjuda råd och stöd. Regelbundna uppföljningar och eventuella ytterligare behandlingar kan diskuteras och planeras utifrån din individuella hudtyp och de specifika mål du har för din hudvård. Vårt mål på AcneSpecialisten är att du ska känna dig trygg och nöjd med dina behandlingsresultat.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+            title: 'Förberedelser inför Harmony XL Pro',
+            image_small: '/bilder/process/358x272/alma-harmony-xl-pro-forberedelser.webp',
+            image_large: '/bilder/process/872x456/alma-harmony-xl-pro-forberedelser.webp',
+            image_alt: 'Förberedelser inför Alma Harmony XL Pro',
+            image_title: 'Förberedelser inför Alma Harmony XL Pro',
+            content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
+            <p class="p200 mt-m">För att förbereda dig inför behandlingen rekommenderar vi att du undviker direkt solstrålning och solarium under veckorna före din session. Detta är för att minska risken för överkänslighet och för att optimera hudens tillstånd för behandlingen. Du bör också undvika att använda hudvårdsprodukter som innehåller starka aktiva ingredienser, såsom exfolierande syror, åtminstone en vecka före din behandling.</p>
+            <p class="p200 mt-m">Under konsultationen kommer vi att granska din hudhistorik och eventuella tidigare behandlingar för att fullständigt anpassa Harmony XL Pro-behandlingen till dina behov. Vårt mål är att du ska känna dig trygg och informerad genom hela behandlingsprocessen. Vi ser fram emot att hjälpa dig att uppnå en förbättrad hudkvalitet och ett strålande utseende med hjälp av Harmony XL Pro.</p>',
+    ),
+    'aftercare' => new Article(
+        title: 'Eftervård för Harmony XL Pro',
+        image_small: '/bilder/process/358x272/alma-harmony-xl-pro-eftervard.webp',
+        image_large: '/bilder/process/872x456/alma-harmony-xl-pro-eftervard.webp',
+        image_alt: 'Eftervård för Harmony XL Pro',
+        image_title: 'Eftervård för Harmony XL Pro',
+        content: '<p class="p200">Att följa rätt eftervård är avgörande för att maximera effekten av din Harmony XL Pro-laserbehandling hos AcneSpecialisten. Efter behandlingen är det normalt att uppleva en viss rodnad och svullnad i det behandlade området. Vi råder dig att inte röra området med orena händer och att undvika makeup under de första 24 timmarna för att minska risken för irritation och infektioner.</p>
+        <p class="p200 mt-m">Under återhämtningen är det viktigt att undvika aktiviteter som kan öka svullnad och rodnad, såsom intensiv träning, heta duschar och bastu. Användning av solskydd med hög SPF är essentiellt för att skydda den känsliga huden från solens UV-strålar. Vi rekommenderar också att du använder milda och återfuktande hudvårdsprodukter utan starka dofter eller irriterande ingredienser för att främja en smidig läkningsprocess och upprätthålla hudens fuktbalans.</p>
+        <p class="p200 mt-m">Om du har några frågor eller bekymmer efter din behandling, är vi alltid här för att erbjuda råd och stöd. Regelbundna uppföljningar och eventuella ytterligare behandlingar kan diskuteras och planeras utifrån din individuella hudtyp och de specifika mål du har för din hudvård. Vårt mål på AcneSpecialisten är att du ska känna dig trygg och nöjd med dina behandlingsresultat.</p>',
+    ),
+);
 
 $service_brands_title = 'Andra märken för laser';
 $service_brands_text = '<p class="p200">Utöver Harmony XL Pro har vi ett bredd utbud av moderna och effektiva lasermaskiner.</p>';
