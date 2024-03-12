@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Harmony XL Pro - Mångsidig Laserbehandling | AcneSpecialisten';
+$seo_title = 'Harmony XL Pro - Mångsidig Laserbehandling';
 $seo_description = 'Upptäck AcneSpecialistens Harmony XL Pro, en mångsidig och avancerad laserteknik för behandling av diverse hudåkommor. Denna teknologi är särskilt effektiv för hudföryngring, pigmentering, aknehantering, hårborttagning, vaskulära behandlingar och tatueringsborttagning. Harmony XL Pro erbjuder skräddarsydda behandlingar för att möta dina unika hudvårdsbehov.';
-$seo_keywords = 'Harmony XL Pro, mångsidig laserbehandling, hudföryngring, pigmentering, aknebehandling, hårborttagning, vaskulära behandlingar, tatueringsborttagning, AcneSpecialisten, anpassad hudvård';
+$seo_keywords = 'Alma Harmony XL Pro';
 
 $seo_image = 'images/treatments/large/alma-harmony-xl-pro.webp';
 
