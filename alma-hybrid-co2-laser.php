@@ -371,8 +371,8 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden med Alma Hybrid';
-$treatment_areas_text = '<p class="p200">Alma Hybrid är en mångsidig laserbehandling som är effektiv för att behandla en rad olika hudområden. Vi använder denna avancerade teknik för att behandla specifika områden såsom ansikte, hals, dekolletage, rygg och händer.</p>';
+$treatment_areas_title = 'Områden vi behandlar med CO2 laser';
+$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -446,7 +446,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Kombinera flera områden för bättre effekt.</p>',
+        description: '<p class="p200">Kombinera flera områden för ett mer fullständigt resultat.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
