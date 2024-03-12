@@ -60,22 +60,8 @@ iPixel är en fraktionerad laserbehandling som använder Erbium YAG-laser på 29
 Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med en unik färgämneslösning för att selektivt rikta in sig på och behandla vaskulära lesioner, rodnad, pigmentfläckar och solskador. Denna mångsidiga behandlingsmetod är skonsam mot huden och erbjuder förbättringar i hudton och textur, vilket gör den idealisk för en omfattande hudförnyelse.</p>
 <p class="p200 mt-m">Alma Harmony XL Pro kombinerar dessa innovativa tekniker för att erbjuda en komplett lösning för de mest efterfrågade estetiska behandlingarna. Genom att anpassa behandlingen efter varje patients unika behov säkerställer Alma Harmony XL Pro optimala resultat och maximal patienttillfredsställelse.</p>';
 
-$top_articles = array(
-    'process' => new Article(
-        title: 'Hur går behandling med Harmony XL Pro till?',
-        image_small: '/bilder/process/358x272/alma-harmony-xl-pro-process.webp',
-        image_large: '/bilder/process/872x456/alma-harmony-xl-pro-process.webp',
-        image_alt: 'Hur går behandling med Harmony XL Pro till?',
-        image_title: 'Hur går behandling med Harmony XL Pro till?',
-        content: '<p class="p200">Harmony XL Pro-behandlingen på AcneSpecialisten är en sofistikerad metod för att effektivt adressera och behandla en rad hudåkommor. Din session börjar med en grundlig rengöring av huden för att optimera förberedelserna inför laserns applicering.</p>
-        <p class="p200 mt-m">Denna avancerade behandling kombinerar olika lasertekniker för att målinriktat och skonsamt behandla ditt hudtillstånd. Med Harmony XL Pro-teknologin använder vi fraktionerad CO2-laser för att skapa mikroskopiska skador i hudens yttre lager. Denna process aktiverar kroppens naturliga läkningsmekanismer och främjar nybildning av kollagen och elastin, vitala komponenter för en frisk och ungdomlig hud.</p>
-        <p class="p200 mt-m">Denna laserbehandling är särskilt effektiv för att behandla och reducera ärr, som acneärr och kirurgiska ärr, samt att jämna ut rynkor och fina linjer. Behandlingen bidrar även till huduppfräschning och förbättring av hudens övergripande textur. Du kan känna en mild värme under behandlingen, men vi använder olika metoder för att minimera obehag och säkerställa en behaglig upplevelse.</p>
-        <p class="p200 mt-m">Efter behandlingen kan viss rodnad och svullnad förekomma, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig omfattande instruktioner för eftervård för att stödja din hud under återhämtningsprocessen. Resultaten från Harmony XL Pro-behandlingarna utvecklas över tid, vilket ger en gradvis och varaktig förbättring av din hudkvalitet.</p>',
-    ),
-);
-
 $types_title = 'Hudproblem som behandlas med Harmony XL Pro';
-$types_description = '<p class="p200">med Harmony XL Pro behandlar vi en rad olika hudproblem effektivt.</p>';
+$types_description = '<p class="p200">';
 $types = array(
     new Service(
         title: 'Harmony XL Pro mot Acneärr',
@@ -97,91 +83,6 @@ $types = array(
         url_label: 'Läs mer om laser mot acneärr',
         url_title: 'Läs mer om laser mot acneärr',
     ),
-
-    new Service(
-        title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
-        duration: '90 minuter',
-        price: '4595 kr',
-        content: 'Harmony XL Pro-lasern fokuserar på att mjuka upp rynkor och fina linjer, vilket bidrar till att återställa hudens ungdomliga utseende och elasticitet genom stimulering av kollagen- och elastinproduktion.',
-        image_small: 'bilder/problem/102x102/mogen-hy.webp',
-        image_large: 'bilder/problem/200x200/mogen-hy.webp',
-        image_alt: 'Harmony XL Pro mot Rynkor och Fina Linjer',
-        image_title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_Wrinkles&area=EMPTY',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Harmony XL Pro mot Rynkor och Fina Linjer',
-
-        url: '/mogen-hy.php',
-        url_label: 'Läs mer om mogen hy',
-        url_title: 'Läs mer om mogen hy',
-    ),
-
-    new Service(
-        title: 'Harmony XL Pro mot Bristningar',
-        duration: '90 minuter',
-        price: '4595 kr',
-        content: 'Denna laserbehandling med Harmony XL Pro är effektiv för att reducera bristningar och förbättra hudens textur och elasticitet, vilket ger en slätare och mer enhetlig hudton.',
-        image_small: 'bilder/problem/102x102/bristningar.webp',
-        image_large: 'bilder/problem/200x200/bristningar.webp',
-        image_alt: 'Harmony XL Pro mot Bristningar',
-        image_title: 'Harmony XL Pro mot Bristningar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_StrechMarks',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Harmony XL Pro mot Bristningar',
-
-        url: '/problem/bristningar/',
-        url_label: 'Läs mer om bristningar',
-        url_title: 'Läs mer om bristningar',
-    ),
-
-    new Service(
-        title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
-        duration: '30 minuter',
-        price: '2995 kr',
-        content: 'Harmony XL Pro-lasern erbjuder en specialiserad behandling för att effektivt minska synligheten av skade- och operationsärr, och stimulerar samtidigt hudens naturliga regenereringsprocess.',
-        image_small: 'bilder/problem/102x102/operations-skadearr.webp',
-        image_large: 'bilder/problem/200x200/operations-skadearr.webp',
-        image_alt: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
-        image_title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_Scars&area=EMPTY',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
-
-        url: '/laser-arr.php',
-        url_label: 'Läs mer om laser mot ärr',
-        url_title: 'Läs mer om laser mot ärr',
-    ),
-
-    new Service(
-        title: 'Harmony XL Pro mot Pigmentfläckar',
-        duration: '950 minuter',
-        price: '4595 kr',
-        content: 'Denna målinriktade laserbehandling med Harmony XL Pro arbetar för att ljusa upp och reducera pigmentfläckar, och jämnar ut hudtonen samtidigt som den återställer hudens naturliga lyster.',
-        image_small: 'bilder/problem/102x102/pigmentflackar.webp',
-        image_large: 'bilder/problem/200x200/pigmentflackar.webp',
-        image_alt: 'Harmony XL Pro mot Pigmentfläckar',
-        image_title: 'Harmony XL Pro mot Pigmentfläckar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_PigmentationSpots',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Harmony XL Pro mot Pigmentfläckar',
-
-        url: '/ipl-pigmentflackar.php',
-        url_label: 'Läs mer om laser mot pigmentfläckar',
-        url_title: 'Läs mer om laser mot pigmentfläckar',
-    ),
-
     new Service(
         title: 'Harmony XL Pro mot Aktiv Acne',
         duration: '50 minuter',
@@ -202,7 +103,46 @@ $types = array(
         url_label: 'Läs mer om laser mot akne',
         url_title: 'Läs mer om laser mot akne',
     ),
+    new Service(
+        title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
+        duration: '30 minuter',
+        price: '2995 kr',
+        content: 'Harmony XL Pro-lasern erbjuder en specialiserad behandling för att effektivt minska synligheten av skade- och operationsärr, och stimulerar samtidigt hudens naturliga regenereringsprocess.',
+        image_small: 'bilder/problem/102x102/operations-skadearr.webp',
+        image_large: 'bilder/problem/200x200/operations-skadearr.webp',
+        image_alt: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
+        image_title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_Scars&area=EMPTY',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
 
+        url: '/laser-arr.php',
+        url_label: 'Läs mer om laser mot ärr',
+        url_title: 'Läs mer om laser mot ärr',
+    ),
+    new Service(
+        title: 'Harmony XL Pro mot Bristningar',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Denna laserbehandling med Harmony XL Pro är effektiv för att reducera bristningar och förbättra hudens textur och elasticitet, vilket ger en slätare och mer enhetlig hudton.',
+        image_small: 'bilder/problem/102x102/bristningar.webp',
+        image_large: 'bilder/problem/200x200/bristningar.webp',
+        image_alt: 'Harmony XL Pro mot Bristningar',
+        image_title: 'Harmony XL Pro mot Bristningar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_StrechMarks',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka Harmony XL Pro mot Bristningar',
+
+        url: '/problem/bristningar/',
+        url_label: 'Läs mer om bristningar',
+        url_title: 'Läs mer om bristningar',
+    ),
     new Service(
         title: 'Harmony XL Pro mot Stora Porer',
         duration: '60 minuter',
@@ -223,7 +163,46 @@ $types = array(
         url_label: 'Läs mer om stora porer',
         url_title: 'Läs mer om stora porer',
     ),
+    new Service(
+        title: 'Harmony XL Pro mot Pigmentfläckar',
+        duration: '950 minuter',
+        price: '4595 kr',
+        content: 'Denna målinriktade laserbehandling med Harmony XL Pro arbetar för att ljusa upp och reducera pigmentfläckar, och jämnar ut hudtonen samtidigt som den återställer hudens naturliga lyster.',
+        image_small: 'bilder/problem/102x102/pigmentflackar.webp',
+        image_large: 'bilder/problem/200x200/pigmentflackar.webp',
+        image_alt: 'Harmony XL Pro mot Pigmentfläckar',
+        image_title: 'Harmony XL Pro mot Pigmentfläckar',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_PigmentationSpots',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka Harmony XL Pro mot Pigmentfläckar',
 
+        url: '/ipl-pigmentflackar.php',
+        url_label: 'Läs mer om laser mot pigmentfläckar',
+        url_title: 'Läs mer om laser mot pigmentfläckar',
+    ),
+    new Service(
+        title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Harmony XL Pro-lasern fokuserar på att mjuka upp rynkor och fina linjer, vilket bidrar till att återställa hudens ungdomliga utseende och elasticitet genom stimulering av kollagen- och elastinproduktion.',
+        image_small: 'bilder/problem/102x102/mogen-hy.webp',
+        image_large: 'bilder/problem/200x200/mogen-hy.webp',
+        image_alt: 'Harmony XL Pro mot Rynkor och Fina Linjer',
+        image_title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka gratis konsultation',
+        booking_url: 'https://acnespecialisten.se/book?flow=almaharmony&skipable_problem=Problem_Wrinkles&area=EMPTY',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka Harmony XL Pro mot Rynkor och Fina Linjer',
+
+        url: '/mogen-hy.php',
+        url_label: 'Läs mer om mogen hy',
+        url_title: 'Läs mer om mogen hy',
+    ),
     new Service(
         title: 'Harmony XL Pro för Hudföryngring (Skin Rejuvenation)',
         duration: '60 minuter',
@@ -789,13 +768,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
-                <?php foreach ($top_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
-                <?php } ?>
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
                         <h2 class="h500"><?php echo $types_title; ?></h2>
