@@ -49,9 +49,16 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Harmony XL Pro?';
-$description_text = '<p class="p200">Harmony XL Pro på AcneSpecialisten är en avancerad och mångsidig laserplattform som erbjuder skräddarsydda lösningar för en mängd hudproblem. Denna innovativa teknik kombinerar olika lasermoduler och ljusbaserade behandlingar för att ge en anpassad och effektiv hudvårdsupplevelse.</p>
-<p class="p200 mt-m">Med Harmony XL Pro kan vi adressera en rad hudtillstånd, inklusive hudföryngring, pigmentkorrigering, aknebehandling, vaskulära problem, och även tatueringsborttagning. Den unika mångsidigheten hos denna plattform gör det möjligt för oss att skapa skonsamma men kraftfulla behandlingsprotokoll, anpassade efter varje klients individuella behov och hudtyp.</p>
-<p class="p200 mt-m">Denna teknik är känd för sin förmåga att leverera märkbara resultat med minimal återhämtningstid. Harmony XL Pro är idealisk för de som söker en icke-invasiv, men effektiv, lösning på sina hudvårdsproblem. Vår användning av Harmony XL Pro på AcneSpecialisten innebär att vi kan erbjuda en hög nivå av personlig anpassning i våra behandlingar, vilket leder till optimala resultat och förbättrad hudhälsa.</p>';
+$description_text = '<p class="p200">Alma Harmony XL Pro är en banbrytande plattform för estetiska behandlingar som integrerar en rad avancerade tekniker för att möta en mängd hudvårdsbehov. Denna plattform använder specifika teknologier för att erbjuda skräddarsydda lösningar för hudföryngring, korrigering av huddefekter, och förbättring av hudens övergripande kvalitet. Här följer en översikt över några av de nyckeltekniker som Alma Harmony XL Pro erbjuder:</p>
+<p class="p200 mt-m">Clear Lift - Q-switchad Nd:YAG<br />
+Clear Lift använder Q-switchad Nd:YAG-laserteknik, känd för sin förmåga att behandla en rad hudtillstånd utan att skada hudens yttre lager. Denna teknik är idealisk för hudföryngring, minskning av fina linjer och rynkor, samt ljusning av pigmentfläckar. Den erbjuder en säker och effektiv behandling för alla hudtyper, inklusive mörkare hudtoner, med minimal återhämtningstid.</p>
+<p class="p200 mt-m">Clear Skin - Erbium Glass 1540<br />
+Clear Skin-tekniken använder Erbium Glass-laser på 1540nm för att effektivt behandla acne, acneärr, och andra texturrelaterade hudproblem. Denna icke-ablativa laser tränger djupt in i huden för att stimulera kollagenproduktion och hudförnyelse, vilket resulterar i en klarare och jämnare hudton. Behandlingen är skonsam och lämpar sig väl för känsliga hudområden.</p>
+<p class="p200 mt-m">iPixel - Erbium YAG: 2940<br />
+iPixel är en fraktionerad laserbehandling som använder Erbium YAG-laser på 2940nm för att utföra precisionsskinnande av huden. Denna metod är effektiv för att minska ärr, förbättra hudtextur, och strama åt huden genom att stimulera intensiv hudregeneration. Den erbjuder snabba resultat med kort återhämtningstid och är lämplig för de som vill ha märkbara förbättringar med minimala ingrepp.</p>
+<p class="p200 mt-m">Dye-VL: IPL<br />
+Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med en unik färgämneslösning för att selektivt rikta in sig på och behandla vaskulära lesioner, rodnad, pigmentfläckar och solskador. Denna mångsidiga behandlingsmetod är skonsam mot huden och erbjuder förbättringar i hudton och textur, vilket gör den idealisk för en omfattande hudförnyelse.</p>
+<p class="p200 mt-m">Alma Harmony XL Pro kombinerar dessa innovativa tekniker för att erbjuda en komplett lösning för de mest efterfrågade estetiska behandlingarna. Genom att anpassa behandlingen efter varje patients unika behov säkerställer Alma Harmony XL Pro optimala resultat och maximal patienttillfredsställelse.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
