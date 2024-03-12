@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Alma Harmony XL Pro',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">På AcneSpecialisten erbjuder vi Harmony XL Pro, en avancerad och mångsidig laserteknik som är idealisk för en rad olika hudbehandlingar. Harmony XL Pro är utmärkt för allt från hudföryngring och pigmentkorrigering till effektiv aknebehandling.</p>',
+    content: '<p class="p200">Alma Harmony XL Pro är en avancerad multi laser plattform som kombinerar flera tekniker för att adressera en mängd hudtillstånd. Den erbjuder anpassningsbara behandlingar för hudföryngring, pigmentkorrigering, acnebehandling och mer, med minimal återhämtningstid. </p>',
     image_small: 'bilder/varumarken/358x274/harmony-xl-pro.webp',
     image_large: 'bilder/varumarken/424x456/harmony-xl-pro.webp',
     image_alt: 'Alma Harmony XL Pro',
