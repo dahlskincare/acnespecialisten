@@ -184,7 +184,7 @@ $big_types = array(
 );
 
 $types_title = 'Hudproblem vi behandlar med Skin Tech';
-$types_description = '<p class="p200"> Våra specialiserade behandlingar är skräddarsydda för att möta utmaningar som acneärr, aktiv akne, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Genom att noggrant välja den mest lämpliga kemiska peelingen för varje unikt hudproblem, strävar vi efter att inte bara förbättra hudens utseende utan också dess hälsotillstånd och vitalitet.</p>';
+$types_description = '';
 $types = array(
 
     new Service(
