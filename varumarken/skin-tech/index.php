@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Skin Tech',
+    title: 'Skin Tech - Kemisk Peeling',
     duration: null,
     price: null,
     content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peelings för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering.</p>',
@@ -53,15 +53,6 @@ $description_text = '<p class="p200">Skin Tech representerar en innovativ kollek
 <p class="p200 mt-m">Behandlingarna är skräddarsydda för att hantera specifika utmaningar såsom acneärr, aktiv akne, bristningar, melasma och pigmentfläckar, samt effektivt reducera synligheten av pormaskar, stora porer, rynkor och fina linjer. De är även effektiva mot solskadad hud. Varje Skin Tech-peeling anpassas individuellt, för att erbjuda personliga och effektiva lösningar som resulterar i förnyad och ungdomlig hud.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför behandling med Skin Tech',
-        image_small: '/bilder/process/358x272/skin-tech-forberedelser.webp',
-        image_large: '/bilder/process/872x456/skin-tech-forberedelser.webp',
-        image_alt: 'Förberedelser inför behandling med Skin Tech',
-        image_title: 'Förberedelser inför behandling med Skin Tech',
-        content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
-        <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, tveka inte att kontakta oss före din behandling.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går behandlingar med Skin Tech till?',
         image_small: '/bilder/process/358x272/skin-tech-process.webp',
@@ -413,15 +404,26 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Skin Techs eftervård',
-    image_small: '/bilder/process/358x272/skin-tech-eftervard.webp',
-    image_large: '/bilder/process/872x456/skin-tech-eftervard.webp',
-    image_alt: 'Skin Techs eftervård',
-    image_title: 'Skin Techs eftervård',
-    content: '<p class="p200">Att följa rätt eftervårdsrutin är kritiskt efter en kemisk peeling med Skin Tech för att säkerställa de bästa och mest hållbara resultaten. En korrekt eftervårdsplan hjälper inte bara din hud att återhämta sig efter behandlingen, utan främjar även en fortsatt hudförbättring.</p>
-    <p class="p200 mt-m">Vid AcneSpecialisten är vi dedikerade till att stödja dig genom din hudvårdsresa efter din peeling. Vi skapar en personlig eftervårdsplan som inkluderar allt från skonsam rengöring och intensiv återfuktning till produkter som effektivt lugnar och stödjer hudens återhämtningsprocess. Genom att följa våra rekommenderade eftervårdsinstruktioner kan du förlänga och förstärka de fördelar som kemisk peeling med Skin Tech ger, för en bestående och strålande hudhälsa.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelser inför behandling med Skin Tech',
+        image_small: '/bilder/process/358x272/skin-tech-forberedelser.webp',
+        image_large: '/bilder/process/872x456/skin-tech-forberedelser.webp',
+        image_alt: 'Förberedelser inför behandling med Skin Tech',
+        image_title: 'Förberedelser inför behandling med Skin Tech',
+        content: '<p class="p200">När du förbereder dig för en kemisk peeling hos AcneSpecialisten finns det några enkla steg du kan följa för att optimera din behandlingsupplevelse. För det första är det bra att undvika att exfoliera huden några dagar före din behandling, då själva peelingen kommer att ta hand om detta. Det är också viktigt att inte sola eller använda brun-utan-sol-produkter veckan innan behandlingen för att minska risken för hudirritationer.</p>
+        <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar, tveka inte att kontakta oss före din behandling.</p>',
+    ),
+    'aftercare' => new Article(
+        title: 'Skin Techs eftervård',
+        image_small: '/bilder/process/358x272/skin-tech-eftervard.webp',
+        image_large: '/bilder/process/872x456/skin-tech-eftervard.webp',
+        image_alt: 'Skin Techs eftervård',
+        image_title: 'Skin Techs eftervård',
+        content: '<p class="p200">Att följa rätt eftervårdsrutin är kritiskt efter en kemisk peeling med Skin Tech för att säkerställa de bästa och mest hållbara resultaten. En korrekt eftervårdsplan hjälper inte bara din hud att återhämta sig efter behandlingen, utan främjar även en fortsatt hudförbättring.</p>
+        <p class="p200 mt-m">Vid AcneSpecialisten är vi dedikerade till att stödja dig genom din hudvårdsresa efter din peeling. Vi skapar en personlig eftervårdsplan som inkluderar allt från skonsam rengöring och intensiv återfuktning till produkter som effektivt lugnar och stödjer hudens återhämtningsprocess. Genom att följa våra rekommenderade eftervårdsinstruktioner kan du förlänga och förstärka de fördelar som kemisk peeling med Skin Tech ger, för en bestående och strålande hudhälsa.</p>',
+    ),
+);
 
 $service_brands_title = 'Märken för kemisk peeling';
 $service_brands_text = '<p class="p200">Utöver Skin Tech jobbar vi även med PRX-T33 för kemisk peeling.</p>';
