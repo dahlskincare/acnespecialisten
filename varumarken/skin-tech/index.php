@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Skin Tech',
     duration: null,
     price: null,
-    content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peeling för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering.</p>',
+    content: '<p class="p200">Skin Tech behandlar effektivt acneärr, aktiv akne, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Genom att noggrant välja den mest lämpliga kemiska peelingen för varje unikt hudproblem, strävar vi efter att inte bara förbättra hudens utseende utan också dess hälsotillstånd och vitalitet.</p>',
     image_small: 'bilder/varumarken/358x274/skin-tech.webp',
     image_large: 'bilder/varumarken/424x456/skin-tech.webp',
     image_alt: 'Skin Tech behandlingar',
