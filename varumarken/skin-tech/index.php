@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Skin Tech',
     duration: null,
     price: null,
-    content: '<p class="p200">Skin Tech behandlar effektivt acneärr, aktiv akne, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Genom att noggrant välja den mest lämpliga kemiska peelingen för varje unikt hudproblem, strävar vi efter att inte bara förbättra hudens utseende utan också dess hälsotillstånd och vitalitet.</p>',
+    content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peeling för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering.</p>',
     image_small: 'bilder/varumarken/358x274/skin-tech.webp',
     image_large: 'bilder/varumarken/424x456/skin-tech.webp',
     image_alt: 'Skin Tech behandlingar',
@@ -184,7 +184,7 @@ $big_types = array(
 );
 
 $types_title = 'Hudproblem vi behandlar med Skin Tech';
-$types_description = '';
+$types_description = '<p class="p200"> Våra specialiserade behandlingar är skräddarsydda för att möta utmaningar som acneärr, aktiv akne, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Genom att noggrant välja den mest lämpliga kemiska peelingen för varje unikt hudproblem, strävar vi efter att inte bara förbättra hudens utseende utan också dess hälsotillstånd och vitalitet.</p>';
 $types = array(
 
     new Service(
@@ -346,7 +346,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Områden som Behandlas med Skin Tech Peeling';
-$treatment_areas_text = '<p class="p200">Skin Techs kemiska peelingar erbjuder mångsidiga lösningar för hudförbättring i olika områden, inklusive ansiktet, halsen, dekolletaget och ryggen. Dessa behandlingar är anpassade för att effektivt hantera specifika hudproblem i varje område.</p>';
+$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -831,13 +831,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <?php } ?>
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
-                        <?php if (isset($big_types)) { ?>
-                            <?php foreach ($big_types as $service) { ?>
-                                <div class="big-type">
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
-                                </div>
-                            <?php } ?>
-                        <?php } ?>
                         <h2 class="h500"><?php echo $types_title; ?></h2>
                         <?php if (isset($types_description)) { ?>
                             <p class="p200 mt-xs"><?php echo $types_description ?></p>
@@ -849,6 +842,13 @@ $specialists_view_more = 'Se alla hudterapeuter';
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                             <?php } ?>
                             <hr class="is-hidden-touch" />
+                        <?php } ?>
+                        <?php if (isset($big_types)) { ?>
+                            <?php foreach ($big_types as $service) { ?>
+                                <div class="big-type">
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
+                                </div>
+                            <?php } ?>
                         <?php } ?>
                     </section>
                 <?php } ?>
