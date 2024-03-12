@@ -13,14 +13,6 @@ $green_banner_content = new GreenBannerContent(
 
 $header_brands = array(
       new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma logotyp',
-            image_title: 'Alma Lasermaskiner',
-            url: 'varumarken/alma',
-            url_title: 'Alma',
-      ),
-      new Brand(
             label: 'Alma Hybrid',
             image: 'bilder/logotyper/alma-hybrid.svg',
             image_alt: 'Alma Hybrid logotyp',
@@ -217,27 +209,6 @@ $link_brands = array(
 );
 
 $brand_cards = array(
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma Lasers logotyp',
-            image_title: 'Alma Lasers',
-            photo: 'bilder/varumarken/424x324/alma.webp',
-            photo_alt: 'Person som får behanding med alma lasers',
-            photo_title: 'Alma Lasers',
-            title: 'Alma Lasers',
-            subtitle: 'Laser för hudproblem',
-            description: 'Alma Lasers är ledande inom medicinska och estetiska lasermaskiner. Våra behandlingar med Alma innehåller avancerad teknologi för hudföryngring, hårborttagning och behandling av olika hudtillstånd. Upplev skillnaden med Alma Lasers precision och innovation för överlägsna estetiska resultat.',
-            url: 'varumarken/alma',
-            url_label: 'Läs mer',
-            url_title: 'Läs mer om Alma lasers',
-            consultation_url_label: 'Gratis hudkonsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation',
-            consultation_url_title: 'Boka gratis hudkonsultation',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem',
-            booking_url_label: 'Boka behandling',
-            booking_url_title: 'Boka tid för Alma-behandling',
-      ),
       new Brand(
             label: 'Alma Hybrid CO2',
             image: 'bilder/logotyper/alma-hybrid.svg',
