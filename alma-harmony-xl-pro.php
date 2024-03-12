@@ -58,6 +58,8 @@ Clear Skin-tekniken använder Erbium Glass-laser på 1540nm för att effektivt b
 iPixel är en fraktionerad laserbehandling som använder Erbium YAG-laser på 2940nm för att utföra precisionsskinnande av huden. Denna metod är effektiv för att minska ärr, förbättra hudtextur, och strama åt huden genom att stimulera intensiv hudregeneration. Den erbjuder snabba resultat med kort återhämtningstid och är lämplig för de som vill ha märkbara förbättringar med minimala ingrepp.</p>
 <p class="p200 mt-m">Dye-VL: IPL<br />
 Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med en unik färgämneslösning för att selektivt rikta in sig på och behandla vaskulära lesioner, rodnad, pigmentfläckar och solskador. Denna mångsidiga behandlingsmetod är skonsam mot huden och erbjuder förbättringar i hudton och textur, vilket gör den idealisk för en omfattande hudförnyelse.</p>
+<p class="p200 mt-m">Q-switchad Nd:YAG-teknik<br />
+Bryter effektivt ner och tar bort tatueringspigment från huden. Denna metod riktar sig selektivt mot bläckpartiklarna, vilket tillåter kroppen att naturligt eliminera dem.</p>
 <p class="p200 mt-m">Alma Harmony XL Pro kombinerar dessa innovativa tekniker för att erbjuda en komplett lösning för de mest efterfrågade estetiska behandlingarna. Genom att anpassa behandlingen efter varje patients unika behov säkerställer Alma Harmony XL Pro optimala resultat och maximal patienttillfredsställelse.</p>';
 
 $types_title = 'Hudproblem som behandlas med Harmony XL Pro';
