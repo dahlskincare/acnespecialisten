@@ -194,7 +194,7 @@ $types_title = 'Hudproblem vi behandlar med CO2 laser';
 $types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hybrid för att effektivt behandla en rad olika hudproblem.</p>';
 $types = array(
     new Service(
-        title: 'Alma Hybrid mot Acneärr',
+        title: 'CO2 laser mot Acneärr',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Effektiv behandling av acneärr med Alma Hybrid-laser. Denna teknik minskar ärr och förbättrar hudens textur genom att stimulera kollagenproduktion och hudens läkningsprocess.',
@@ -215,7 +215,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Rynkor och Fina Linjer',
+        title: 'CO2 laser mot Rynkor och Fina Linjer',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Vår Alma Hybrid-laser fokuserar på att minska rynkor och fina linjer, återställer hudens ungdomliga utseende genom att stimulera kollagen och elastinproduktion.',
@@ -236,7 +236,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Bristningar',
+        title: 'CO2 laser mot Bristningar',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Behandlingen med Alma Hybrid-laser erbjuder en effektiv metod för att minska bristningar. Denna teknik förbättrar hudens textur och elasticitet, vilket ger en jämnare hudton.',
@@ -257,7 +257,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Ärr (Skade- och Operationsärr)',
+        title: 'CO2 laser mot Ärr (Skade- och Operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
         content: 'Specialiserad laserbehandling för att reducera synligheten av skade- och operationsärr. Alma Hybrid stimulerar hudens naturliga regenereringsprocess för slätare och jämnare hud.',
@@ -278,7 +278,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Pigmentfläckar',
+        title: 'CO2 laser mot Pigmentfläckar',
         duration: '950 minuter',
         price: '4595 kr',
         content: 'Målriktad laserbehandling för att ljusa upp och reducera pigmentfläckar. Alma Hybrid jämnar ut hudtonen och återställer hudens naturliga lyster.',
@@ -299,7 +299,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Aktiv Acne',
+        title: 'CO2 laser mot Aktiv Acne',
         duration: '50 minuter',
         price: '2995 kr',
         content: 'Innovativ behandling för aktiv acne med Alma Hybrid-laser. Denna teknik angriper acnebakterier och minskar inflammation, vilket leder till en klarare och friskare hud.',
@@ -320,7 +320,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Stora Porer',
+        title: 'CO2 laser mot Stora Porer',
         duration: '60 minuter',
         price: '3595 kr',
         content: 'Effektiv behandling för att minska storleken på stora porer. Alma Hybrid-laser förfinar hudens struktur, ger en jämnare hudton och förbättrar hudens övergripande utseende.',
@@ -341,7 +341,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid mot Hudutväxter',
+        title: 'CO2 laser mot Hudutväxter',
         duration: '30 minuter',
         price: '1595 kr',
         content: 'Säker och skonsam borttagning av hudutväxter med Alma Hybrid-laser. Denna metod erbjuder en effektiv behandling med minimal risk för ärrbildning.',
@@ -362,7 +362,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Alma Hybrid för Hudföryngring (Skin Rejuvenation)',
+        title: 'CO2 laser för Hudföryngring (Skin Rejuvenation)',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Alma Hybrid-laser ger en omfattande förnyelse och uppfräschning av huden. Denna behandling reducerar ålderstecken och återställer hudens naturliga lyster och vitalitet.',
