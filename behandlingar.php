@@ -176,6 +176,11 @@ $people_search_for = array(
         url: 'behandlingar/dermabrasion',
         url_title: 'Läs mer om dermabrasion'
     ),
+    new Treatment(
+        label: 'CO2 laser',
+        url: 'alma-hybrid-co2-laser.php',
+        url_title: 'Läs mer om CO2 laser'
+    ),
 );
 
 
