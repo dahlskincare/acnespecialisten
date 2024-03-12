@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Skin Tech - Kemisk Peeling',
+    title: 'Skin Tech',
     duration: null,
     price: null,
     content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peelings för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering.</p>',
