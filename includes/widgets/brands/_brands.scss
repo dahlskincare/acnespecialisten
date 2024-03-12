@@ -16,11 +16,14 @@
       align-items: center;
       justify-content: center;
       background-color: $light-25;
-      flex: 1 0 150px;
+
       height: $xl5;
       box-sizing: border-box;
       padding: $l $s;
       margin: 1px;
+
+
+      flex: 1;
 
       img {
         width: auto;
@@ -39,6 +42,7 @@
       padding-bottom: $xs;
 
       .flex-item {
+        flex: 0 0 150px;
         margin: $xxs;
         border-radius: $radius-l;
         user-select: none;

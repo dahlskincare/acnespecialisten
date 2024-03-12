@@ -39,14 +39,15 @@
         color: $dark-200;
     }
 
-    .scw-content {
-        height: 150px;
-        overflow-y: hidden;
-    }
 
     @media screen and (min-width: $tablet) {
         box-shadow: none;
 
+        .scw-content {
+
+            height: 150px;
+            overflow-y: hidden;
+        }
     }
 }
 
