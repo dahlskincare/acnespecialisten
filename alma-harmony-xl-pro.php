@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Harmony XL Pro - Mångsidig Laserbehandling';
-$seo_description = 'Upptäck AcneSpecialistens Harmony XL Pro, en mångsidig och avancerad laserteknik för behandling av diverse hudåkommor. Denna teknologi är särskilt effektiv för hudföryngring, pigmentering, aknehantering, hårborttagning, vaskulära behandlingar och tatueringsborttagning. Harmony XL Pro erbjuder skräddarsydda behandlingar för att möta dina unika hudvårdsbehov.';
-$seo_keywords = 'Alma Harmony XL Pro';
+$seo_title = 'Alma Harmony XL Pro behandling i Stockholm';
+$seo_description = 'En mångsidig och avancerad laserteknik för behandling av diverse hudåkommor såsom hudföryngring, pigmentering, aknehantering och ytliga blodkärl.';
+$seo_keywords = 'Alma Harmony XL Pro, Stockholm';
 
 $seo_image = 'images/treatments/large/alma-harmony-xl-pro.webp';
 
@@ -67,7 +67,7 @@ $types = array(
         title: 'Harmony XL Pro mot Acneärr',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Harmony XL Pro-lasern reducerar effektivt acneärr och förbättrar hudens textur genom att stimulera kollagenproduktion och främja hudens läkning, vilket resulterar i en jämnare och mer föryngrad hud.',
+        content: 'Använder ClearSkin med Erbium Glass 1540 munstycke för att stimulera kollagen och främja hudförnyelse. Denna teknik minskar acneärrens synlighet genom djup penetration och kollageninduktion.',
         image_small: 'bilder/problem/102x102/acnearr.webp',
         image_large: 'bilder/problem/200x200/acnearr.webp',
         image_alt: 'Harmony XL Pro mot Acneärr',
@@ -85,9 +85,9 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot Aktiv Acne',
-        duration: '50 minuter',
-        price: '2595 kr',
-        content: 'Harmony XL Pro-lasern behandlar aktiv acne genom att angripa acnebakterier och minska inflammation, vilket resulterar i en klarare och friskare hud.',
+        duration: '60 minuter',
+        price: '2995 kr',
+        content: 'ClearSkin erbjuder en unik kombination av laserenergi och vakuum för att behandla aktiv acne genom att minska talgproduktionen och eliminera acne-bakterier. Denna metods djuprengörande effekt bidrar till klarare hud.',
         image_small: 'bilder/problem/102x102/acne.webp',
         image_large: 'bilder/problem/200x200/acne.webp',
         image_alt: 'Harmony XL Pro mot Aktiv Acne',
@@ -107,7 +107,7 @@ $types = array(
         title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
-        content: 'Harmony XL Pro-lasern erbjuder en specialiserad behandling för att effektivt minska synligheten av skade- och operationsärr, och stimulerar samtidigt hudens naturliga regenereringsprocess.',
+        content: 'Kombinerar ClearLift och iPixel tekniker för att målinrikta och behandla ärrvävnad genom stimulering av ny hudväxt och minskning av ärrvävnadens tjocklek. Denna strategi jämnar ut hudtexturen och minimerar ärr.',
         image_small: 'bilder/problem/102x102/operations-skadearr.webp',
         image_large: 'bilder/problem/200x200/operations-skadearr.webp',
         image_alt: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
@@ -127,7 +127,7 @@ $types = array(
         title: 'Harmony XL Pro mot Bristningar',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Denna laserbehandling med Harmony XL Pro är effektiv för att reducera bristningar och förbättra hudens textur och elasticitet, vilket ger en slätare och mer enhetlig hudton.',
+        content: 'ClearLift med Q-switchad Nd:YAG teknologi använder mikrovibrationer för att stimulera djupt liggande hudlager utan att skada ytan. Denna process främjar hudens naturliga läkningsmekanismer, vilket minskar bristningars synlighet.',
         image_small: 'bilder/problem/102x102/bristningar.webp',
         image_large: 'bilder/problem/200x200/bristningar.webp',
         image_alt: 'Harmony XL Pro mot Bristningar',
@@ -145,9 +145,9 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot Stora Porer',
-        duration: '60 minuter',
-        price: '3595 kr',
-        content: 'Harmony XL Pro-laserbehandling minskar effektivt storleken på stora porer och förfinar hudens struktur, vilket bidrar till en jämnare hudton och ett förbättrat utseende.',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'ClearLift tekniken stimulerar hudens djupare lager för att förbättra hudstrukturen och minska porernas storlek. Denna icke-invasiva metod ger en slätare och mer raffinerad hudtextur.',
         image_small: 'bilder/problem/102x102/stora-porer.webp',
         image_large: 'bilder/problem/200x200/stora-porer.webp',
         image_alt: 'Harmony XL Pro mot Stora Porer',
@@ -165,9 +165,9 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot Pigmentfläckar',
-        duration: '950 minuter',
+        duration: '90 minuter',
         price: '4595 kr',
-        content: 'Denna målinriktade laserbehandling med Harmony XL Pro arbetar för att ljusa upp och reducera pigmentfläckar, och jämnar ut hudtonen samtidigt som den återställer hudens naturliga lyster.',
+        content: 'Dye-VL använder IPL-teknologi med ett specifikt munstycke för att rikta in sig på melanin, vilket ljusar upp och reducerar pigmentfläckar. Denna selektiva målinriktning bidrar till en jämnare hudton.',
         image_small: 'bilder/problem/102x102/pigmentflackar.webp',
         image_large: 'bilder/problem/200x200/pigmentflackar.webp',
         image_alt: 'Harmony XL Pro mot Pigmentfläckar',
@@ -187,7 +187,7 @@ $types = array(
         title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Harmony XL Pro-lasern fokuserar på att mjuka upp rynkor och fina linjer, vilket bidrar till att återställa hudens ungdomliga utseende och elasticitet genom stimulering av kollagen- och elastinproduktion.',
+        content: 'iPixel med Erbium YAG 2940 munstycke utför mikrolaser peeling som stimulerar hudregeneration och kollagenproduktion. Detta slätar effektivt ut rynkor och fina linjer genom precisionsförnyelse av hudytan.',
         image_small: 'bilder/problem/102x102/mogen-hy.webp',
         image_large: 'bilder/problem/200x200/mogen-hy.webp',
         image_alt: 'Harmony XL Pro mot Rynkor och Fina Linjer',
@@ -205,9 +205,9 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro för Hudföryngring (Skin Rejuvenation)',
-        duration: '60 minuter',
-        price: '4000 kr',
-        content: 'Harmony XL Pro-laserbehandling erbjuder en avancerad lösning för hudföryngring. Denna behandling syftar till att minska ålderstecken, förbättra hudton och textur, och återställa hudens ungdomliga lyster och vitalitet. Perfekt för dem som önskar en synlig uppfräschning av huden med långvariga resultat.',
+        duration: '90 minuter',
+        price: '4595 kr',
+        content: 'Använder en kombination av tekniker, inklusive Dye-VL och ClearLift, för att omfattande förbättra hudtonen, textur och elasticitet. Denna flerdimensionella strategi resulterar i en märkbart yngre och mer strålande hud.',
         image_small: 'bilder/problem/102x102/mogen-hy.webp',
         image_large: 'bilder/problem/200x200/mogen-hy.webp',
         image_alt: 'Harmony XL Pro-behandling för hudföryngring',
@@ -353,7 +353,7 @@ $bottom_articles = array(
         image_alt: 'Eftervård för Harmony XL Pro',
         image_title: 'Eftervård för Harmony XL Pro',
         content: '<p class="p200">Att följa rätt eftervård är avgörande för att maximera effekten av din Harmony XL Pro-laserbehandling hos AcneSpecialisten. Efter behandlingen är det normalt att uppleva en viss rodnad och svullnad i det behandlade området. Vi råder dig att inte röra området med orena händer och att undvika makeup under de första 24 timmarna för att minska risken för irritation och infektioner.</p>
-        <p class="p200 mt-m">Under återhämtningen är det viktigt att undvika aktiviteter som kan öka svullnad och rodnad, såsom intensiv träning, heta duschar och bastu. Användning av solskydd med hög SPF är essentiellt för att skydda den känsliga huden från solens UV-strålar. Vi rekommenderar också att du använder milda och återfuktande hudvårdsprodukter utan starka dofter eller irriterande ingredienser för att främja en smidig läkningsprocess och upprätthålla hudens fuktbalans.</p>
+        <p class="p200 mt-m">Under återhämtningen är det viktigt att undvika aktiviteter som kan öka svullnad och rodnad, såsom intensiv träning, heta duschar och bastu. Användning av solskydd med hög SPF är essentiellt för att skydda den känsliga huden från solens UV-strålar. Vi rekommenderar också att du använder milda och återfuktande hudvårdsprodukter utan irriterande ingredienser för att främja en smidig läkningsprocess och upprätthålla hudens fuktbalans.</p>
         <p class="p200 mt-m">Om du har några frågor eller bekymmer efter din behandling, är vi alltid här för att erbjuda råd och stöd. Regelbundna uppföljningar och eventuella ytterligare behandlingar kan diskuteras och planeras utifrån din individuella hudtyp och de specifika mål du har för din hudvård. Vårt mål på AcneSpecialisten är att du ska känna dig trygg och nöjd med dina behandlingsresultat.</p>',
     ),
 );
@@ -528,20 +528,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många Harmony XL Pro-behandlingar behövs för bästa resultat?',
-            text: 'Antalet Harmony XL Pro-behandlingar som behövs varierar individuellt, beroende på dina hudproblem och önskade resultat. Generellt rekommenderas en serie av 3-5 behandlingar med några veckors mellanrum. Under konsultationen skapar vi en anpassad behandlingsplan som passar just dina behov.'
+            title: 'Hur säker är behandlingen med Alma Harmony XL Pro?',
+            text: '<p class="p200">Alma Harmony XL Pro är känd för sin höga säkerhetsprofil och är designad för att behandla en mängd hudtillstånd med minimal risk. Plattformen erbjuder skräddarsydda behandlingsprotokoll för alla hudtyper, inklusive mörkare hudtoner, vilket minskar risken för biverkningar.</p>'
         ),
         new Question(
-            title: 'Hur långvariga är effekterna av Harmony XL Pro-behandlingar?',
-            text: 'Resultaten från Harmony XL Pro-behandlingar kan vara långvariga, men det är viktigt att underhålla huden och skydda den från yttre påverkan som sol och åldrande. Regelbundna uppföljningsbehandlingar och en skräddarsydd hudvårdsrutin rekommenderas för att bevara effekterna.'
+            title: 'Hur lång tid tar en behandlingssession med Alma Harmony XL Pro?',
+            text: '<p class="p200">Längden på en behandlingssession varierar beroende på behandlingsområdets storlek och den specifika tekniken som används. Sessioner kan vara allt från några få minuter till en timme, vilket gör det möjligt för många behandlingar att utföras även under en lunchrast.</p>'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig efter en Harmony XL Pro-behandling?',
-            text: 'Efter en Harmony XL Pro-behandling är det vanligt med rodnad, svullnad och en viss känslighet i det behandlade området. Dessa symtom är normala och börjar avta efter några dagar. Följ alltid eftervårdsinstruktionerna och skydda huden mot solen för att främja en smidig läkningsprocess.'
+            title: 'Är behandlingar med Alma Harmony XL Pro smärtsamma?',
+            text: '<p class="p200">De flesta patienter upplever minimalt till inget obehag under behandlingen, tack vare de icke-invasiva teknikerna och möjligheten till topikal bedövning vid mer avancerade behandlingar. Obehaget är ofta kortvarigt och hanterbart.</p>'
         ),
         new Question(
-            title: 'Krävs det särskild eftervård efter Harmony XL Pro-behandling?',
-            text: 'Ja, korrekt eftervård är avgörande efter en Harmony XL Pro-behandling. Detta innefattar att regelbundet använda solskydd, undvika direkt solljus, och använda milda, återfuktande hudvårdsprodukter. Följ de eftervårdsråd som ges av din hudterapeut för bästa möjliga resultat och läkning.'
+            title: 'Hur många behandlingssessioner behövs för att se resultat?',
+            text: '<p class="p200">Antalet rekommenderade sessioner varierar beroende på individens hudtillstånd och de specifika målen med behandlingen. Vissa förbättringar kan märkas redan efter en session, men vanligtvis krävs flera sessioner för optimala resultat.</p>'
+        ),
+        new Question(
+            title: 'Hur lång är återhämtningsperioden efter en behandling med Alma Harmony XL Pro?',
+            text: '<p class="p200">Återhämtningsperioden är minimal, med de flesta patienter som återgår till sina normala aktiviteter direkt efter behandlingen. För vissa mer intensiva behandlingar kan en kort återhämtningsperiod krävas, men detta diskuteras i förväg med din behandlare.</p>'
         ),
     )
 );

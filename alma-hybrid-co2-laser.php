@@ -335,7 +335,7 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot Aktiv Acne',
-        duration: '50 minuter',
+        duration: '60 minuter',
         price: '2595 kr',
         content: 'Reducerar aktiv acne genom att minska inflammation och döda bakterier, förhindrar framtida utbrott genom att rikta sig mot acneorsaker.',
         image_small: 'bilder/problem/102x102/acne.webp',
