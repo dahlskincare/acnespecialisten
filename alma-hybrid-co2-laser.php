@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Alma Hybrid - Avancerad Laserbehandling för Hudförnyelse | AcneSpecialisten';
+$seo_title = 'Alma Hybrid - Avancerad Laserbehandling för Hudförnyelse';
 $seo_description = 'AcneSpecialisten introducerar Alma Hybrid, en banbrytande laserbehandling som kombinerar CO2 och icke-ablativ lasrar för att effektivt hantera ett brett spektrum av hudproblem. Idealisk för acneärr, ojämn hudton, rynkor och fina linjer, erbjuder Alma Hybrid en omfattande lösning för hudföryngring och texturutjämning.';
-$seo_keywords = 'Alma Hybrid, laserbehandling, hudföryngring, acneärr, hudton, hudtextur, avancerad hudvård, AcneSpecialisten, effektiv hudbehandling, hudförnyelse';
+$seo_keywords = 'Alma Hybrid, laserbehandling, CO2 laser';
 
 $seo_image = 'images/treatments/large/alma-hybrid.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Alma Hybrid',
+    title: 'CO2 laser - Alma Hybrid',
     duration: null,
     price: 'Från 4595 kr',
     content: '<p class="p200">Alma Hybrid hos AcneSpecialisten representerar nästa generation av laserbehandlingar, kombinerar effektiviteten av CO2-laser med mångsidigheten hos icke-ablativ lasrar. Denna innovativa behandling är utformad för att effektivt hantera en rad hudproblem, inklusive acneärr, rynkor, fina linjer och ojämn hudton.</p>',
@@ -48,7 +48,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Alma Hybrid?';
+$description_title = 'Vad är Alma Hybrid CO2 laser i Stockholm?';
 $description_text = '<p class="p200">Alma Hybrid på AcneSpecialisten representerar en banbrytande teknik inom laserbehandling, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade metod erbjuder en omfattande och mångsidig lösning för ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med minskad återhämtningstid.</p>
 <p class="p200 mt-m">CO2-lasern arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en effektiv behandling med minimal återhämtningstid.</p>
 <p class="p200 mt-m">Alma Hybrid är känd för sin förmåga att leverera snabba och synliga resultat redan efter en session, vilket gör den till en idealisk lösning för dem som söker en effektiv och tidsbesparande behandling. Dessutom är säkerheten alltid en prioritet, med förbättrade säkerhetsåtgärder som säkerställer en trygg och behaglig upplevelse. Våra skräddarsydda Alma Hybrid-behandlingar på AcneSpecialisten erbjuder en effektiv väg mot en fräschare, jämnare och mer vital hud.</p>';
