@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Skin Tech',
     duration: null,
     price: null,
-    content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peelings för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering.</p>',
+    content: '<p class="p200">Skin Tech erbjuder en sofistikerad serie av kemiska peeling för omfattande hudvårdsbehandlingar. Vår specialisering inom Skin Tech är utformad för att effektivt hantera en rad hudåkommor, från acneärr till åldrande och hyperpigmentering.</p>',
     image_small: 'bilder/varumarken/358x274/skin-tech.webp',
     image_large: 'bilder/varumarken/424x456/skin-tech.webp',
     image_alt: 'Skin Tech behandlingar',
@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Skin Tech?';
-$description_text = '<p class="p200">Skin Tech representerar en innovativ kollektion av kemiska peeling anpassade för olika hudproblem. Dessa behandlingar använder specialformulerade lösningar för att exfoliera och vitalisera huden på djupet. Med produkter som Easy Phytic Peel, Easy Droxy Versicolor Peel, Easy TCA Pain Control, fokuserar vi på att förbättra hudens textur, ton och allmänna hälsa.</p>
+$description_text = '<p class="p200">Skin Tech representerar en innovativ kollektion av kemiska peeling anpassade för olika hudproblem. Dessa behandlingar använder specialformulerade syror för att exfoliera och vitalisera huden på djupet. Med produkter som Easy Phytic Peel, Easy Droxy Versicolor Peel, Easy TCA Pain Control, fokuserar vi på att förbättra hudens textur, ton och allmänna hälsa.</p>
 <p class="p200 mt-m">Behandlingarna är skräddarsydda för att hantera specifika utmaningar såsom acneärr, aktiv akne, bristningar, melasma och pigmentfläckar, samt effektivt reducera synligheten av pormaskar, stora porer, rynkor och fina linjer. De är även effektiva mot solskadad hud. Varje Skin Tech-peeling anpassas individuellt, för att erbjuda personliga och effektiva lösningar som resulterar i förnyad och ungdomlig hud.</p>';
 
 $top_articles = array(
@@ -831,6 +831,13 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <?php } ?>
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
+                        <?php if (isset($big_types)) { ?>
+                            <?php foreach ($big_types as $service) { ?>
+                                <div class="big-type">
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
+                                </div>
+                            <?php } ?>
+                        <?php } ?>
                         <h2 class="h500"><?php echo $types_title; ?></h2>
                         <?php if (isset($types_description)) { ?>
                             <p class="p200 mt-xs"><?php echo $types_description ?></p>
@@ -842,13 +849,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                             <?php } ?>
                             <hr class="is-hidden-touch" />
-                        <?php } ?>
-                        <?php if (isset($big_types)) { ?>
-                            <?php foreach ($big_types as $service) { ?>
-                                <div class="big-type">
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
-                                </div>
-                            <?php } ?>
                         <?php } ?>
                     </section>
                 <?php } ?>
