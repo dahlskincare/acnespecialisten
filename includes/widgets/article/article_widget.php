@@ -26,6 +26,12 @@
     <div class="article-content p200">
         <?php echo $article->content ?>
     </div>
+    <div class="mt-m">
+        <div class="button outline l10n" onclick="this.classList.add('is-hidden'); this.parentElement.querySelector('.article-extended-content').classList.remove('zero-size')">Läs mer</div>
+        <div class="article-extended-content zero-size p200">
+            <?php echo $article->extended_content ?>
+        </div>
+    </div>
     <?php if (isset($article->url) && isset($article->url_label)) { ?>
         <a href="<?php echo $article->url ?>" title="<?php echo $article->url_title ?>" class="mt-m button"><?php echo $article->url_label ?></a>
     <?php } ?>
