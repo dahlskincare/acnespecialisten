@@ -149,7 +149,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'SoftLift - huduppfräschning (Lunch-time behandling)',
+        title: 'SoftLift - Huduppfräschning (Lunch-time behandling)',
         duration: '60 min',
         price: null,
         content: '<p class="p200">AcneSpecialisten presenterar nu SoftLift, en innovativ huduppfräschande behandling utformad för att ge synliga resultat med minimal återhämtningstid. SoftLift är perfekt för dig som önskar en snabb och effektiv förbättring av din hudton, minskning av fina linjer och rynkor, samt reparation av hudskador inklusive akneärr, allt under en lunchrast.</p>
