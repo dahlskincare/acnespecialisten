@@ -190,7 +190,7 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem som behandlas med Alma Hybrid';
+$types_title = 'Hudproblem vi behandlar med CO2 laser';
 $types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hybrid för att effektivt behandla en rad olika hudproblem.</p>';
 $types = array(
     new Service(
