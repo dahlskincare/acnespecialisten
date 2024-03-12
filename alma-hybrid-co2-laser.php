@@ -55,11 +55,11 @@ $description_text = '<p class="p200">Fraktionerad laser är en banbrytande tekni
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går CO2 laserbehandling till?',
+        title: 'Hur går fraktionerad CO2 laserbehandling till?',
         image_small: '/bilder/process/358x272/alma-hybrid-process.webp',
         image_large: '/bilder/process/872x456/alma-hybrid-process.webp',
-        image_alt: 'Hur går CO2 laserbehandling till?',
-        image_title: 'Hur går CO2 laserbehandling till?',
+        image_alt: 'Hur går fraktionerad CO2 laserbehandling till?',
+        image_title: 'Hur går fraktionerad CO2 laserbehandling till?',
         content: '<p class="p200">Att genomgå en Alma Hybrid-behandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla problemhy. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserterapin.</p>
         <p class="p200 mt-m">Alma Hybrid använder en unik kombination av laser-teknologier för att målinriktat behandla olika hudproblem. Under behandlingen använder vi fraktionerad CO2-laser som arbetar genom att skapa små mikroskopiska skador i hudens lager. Denna process stimulerar hudens naturliga läkning och tillväxt av nytt kollagen och elastin, vilket är avgörande för hudens hälsa och ungdomlighet.</p>
         <p class="p200 mt-m">Behandlingen är speciellt effektiv för att minska synligheten av olika typer av ärr, inklusive acneärr och operationsärr. Den är också idealisk för att behandla rynkor, fina linjer och för att utföra huduppfräschning och hudresurfacing. Värmen från lasern kan upplevas som en värmande känsla på huden, men vi använder effektiva kylmetoder och bedövning för att göra behandlingen så behaglig som möjligt.</p>
