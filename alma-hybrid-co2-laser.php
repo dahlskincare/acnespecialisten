@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Alma Hybrid - Avancerad Laserbehandling för Hudförnyelse';
-$seo_description = 'AcneSpecialisten introducerar Alma Hybrid, en banbrytande laserbehandling som kombinerar CO2 och icke-ablativ lasrar för att effektivt hantera ett brett spektrum av hudproblem. Idealisk för acneärr, ojämn hudton, rynkor och fina linjer, erbjuder Alma Hybrid en omfattande lösning för hudföryngring och texturutjämning.';
-$seo_keywords = 'Alma Hybrid, laserbehandling, CO2 laser';
+$seo_title = 'Fraktionerad CO2 laser i Stockholm';
+$seo_description = 'Kombinerar CO2 och icke-ablativ lasrar för att effektivt hantera ett brett spektrum av hudproblem. Idealisk för acneärr, ojämn hudton, rynkor och fina linjer.';
+$seo_keywords = 'Alma Hybrid, laserbehandling, CO2 laser, fraktionerad CO2 laser';
 
 $seo_image = 'images/treatments/large/alma-hybrid.webp';
 
