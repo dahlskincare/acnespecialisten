@@ -336,7 +336,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot Aktiv Acne',
         duration: '50 minuter',
-        price: '2995 kr',
+        price: '2595 kr',
         content: 'Innovativ behandling för aktiv acne med Alma Hybrid-laser. Denna teknik angriper acnebakterier och minskar inflammation, vilket leder till en klarare och friskare hud.',
         image_small: 'bilder/problem/102x102/acne.webp',
         image_large: 'bilder/problem/200x200/acne.webp',
