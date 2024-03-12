@@ -137,73 +137,73 @@ $header_brands = array(
 $link_brands = array(
       new BrandCategory(
             label: 'Laser mot hudproblem',
-            url: '#',
+            url: '/behandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer',
             services: array(
-                  "alma-hybrid-co2-laser.php" => "Alma Hybrid CO2",
-                  "alma-harmony-xl-pro.php" => "Harmony XL Pro"
+                  "/alma-hybrid-co2-laser.php" => "Alma Hybrid CO2",
+                  "/alma-harmony-xl-pro.php" => "Harmony XL Pro"
             )
       ),
       new BrandCategory(
             label: 'Permanent Hårborttagning',
-            url: '#',
+            url: '/permanent-harborttagning',
             url_title: 'Läs mer',
             services: array(
-                  "varumarken/splendor-x" => "Splendor X",
-                  "varumarken/alma/soprano-ice" => "Soprano Ice",
+                  "/varumarken/splendor-x" => "Splendor X",
+                  "/varumarken/alma/soprano-ice" => "Soprano Ice",
             )
       ),
       new BrandCategory(
             label: 'IPL',
-            url: '#',
+            url: '/behandlingar/ipl/',
             url_title: 'Läs mer',
             services: array(
-                  "varumarken/alma/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
-                  "alma-harmony-xl-pro.php" => "Harmony XL Pro",
-                  "varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
+                  "/varumarken/alma/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
+                  "/alma-harmony-xl-pro.php" => "Harmony XL Pro",
+                  "/varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
             )
       ),
       new BrandCategory(
             label: 'Dermabration',
-            url: '#',
+            url: '/behandlingar/dermabrasion/',
             url_title: 'Läs mer',
             services: array(
-                  "hydrafacial.php" => "HydraFacial",
-                  "microdermabrasion.php" => "Mimass",
+                  "/hydrafacial.php" => "HydraFacial",
+                  "/microdermabrasion.php" => "Mimass",
             )
       ),
       new BrandCategory(
             label: 'Kemisk Peeling',
-            url: '#',
+            url: '/kemisk-peeling.php',
             url_title: 'Läs mer',
             services: array(
-                  "varumarken/skin-tech" => "Skin Tech",
-                  "prx-t33.php" => "PRX-T33",
+                  "/arumarken/skin-tech" => "Skin Tech",
+                  "/prx-t33.php" => "PRX-T33",
             )
       ),
       new BrandCategory(
             label: 'FreezeTreat',
-            url: '#',
+            url: '/cryopen.php',
             url_title: 'Läs mer',
             services: array(
-                  "cryopen.php" => "CryoPen",
+                  "/cryopen.php" => "CryoPen",
             )
       ),
       new BrandCategory(
             label: 'Skinbooster',
-            url: '#',
+            url: '/behandlingar/skinbooster/',
             url_title: 'Läs mer',
             services: array(
-                  "infuzion.php" => "Infuzion",
+                  "/infuzion.php" => "Infuzion",
             )
       ),
       new BrandCategory(
             label: 'Microneedling',
-            url: '#',
+            url: '/microneedling.php',
             url_title: 'Läs mer',
             services: array(
-                  "dermapen.php" => "Dermapen",
-                  "varumarken/exceed" => "Exceed"
+                  "/dermapen.php" => "Dermapen",
+                  "/varumarken/exceed" => "Exceed"
             )
       ),
 );
