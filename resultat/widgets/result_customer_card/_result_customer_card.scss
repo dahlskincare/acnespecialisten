@@ -14,7 +14,7 @@
         font-size: 0;
 
         picture {
-            flex: 0.5;
+            flex: 1;
 
             img {
                 width: 100%;
@@ -101,14 +101,6 @@
                 img {
                     border-radius: $radius-l;
                 }
-            }
-
-            picture:first-child {
-                margin-right: $xs;
-            }
-
-            picture:last-child {
-                margin-left: $xs;
             }
         }
 
