@@ -95,7 +95,7 @@ $types_title = 'Hudtillstånd som behandlas med Rejuve Dye-VL';
 $types_description = '';
 $types = array(
     new Service(
-        title: 'Rejuve Dye-VL behandling för Rosacea',
+        title: 'Rejuve Dye-VL mot Rosacea',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Utnyttja kraften i Rejuve Dye-VL för att effektivt behandla rosacea. Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
@@ -111,12 +111,12 @@ $types = array(
         booking_url_title: 'Boka Rejuve Dye-VL behandling för rosacea',
 
         url: '/ipl-rosacea.php',
-        url_label: 'Läs mer om laser mot rosacea',
-        url_title: 'Läs mer om laser mot rosacea',
+        url_label: 'Läs mer om IPL mot rosacea',
+        url_title: 'Läs mer om IPL mot rosacea',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
+        title: 'Rejuve Dye-VL mot Ytliga Blodkärl',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Rejuve Dye-VL erbjuder en skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
@@ -132,12 +132,12 @@ $types = array(
         booking_url_title: 'Boka Rejuve Dye-VL behandling för ytliga blodkärl',
 
         url: '/ipl-ytliga-blodkarl.php',
-        url_label: 'Läs mer om laser mot ytliga blodkärl',
-        url_title: 'Läs mer om laser mot ytliga blodkärl',
+        url_label: 'Läs mer om IPL mot ytliga blodkärl',
+        url_title: 'Läs mer om IPL mot ytliga blodkärl',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
+        title: 'Rejuve Dye-VL mot Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Använd fördelarna med Rejuve Dye-VL för att effektivt minska och ljusa upp pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
@@ -153,12 +153,12 @@ $types = array(
         booking_url_title: 'Boka Rejuve Dye-VL behandling för pigmentfläckar',
 
         url: '/ipl-pigmentflackar.php',
-        url_label: 'Läs mer om laser mot pigmentfläckar',
-        url_title: 'Läs mer om laser mot pigmentfläckar',
+        url_label: 'Läs mer om IPL mot pigmentfläckar',
+        url_title: 'Läs mer om IPL mot pigmentfläckar',
     ),
 
     new Service(
-        title: 'Rejuve Dye-VL behandling för Melasma',
+        title: 'Rejuve Dye-VL mot Melasma',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Med Rejuve Dye-VL kan du effektivt behandla melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
