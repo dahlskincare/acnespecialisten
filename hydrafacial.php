@@ -182,8 +182,7 @@ $big_types = array(
         title: 'HydraFacial - Mot Pormaskar',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Glycal Acid Peel, är skräddarsydd för att effektivt hantera hud med pormaskar och finnar. Denna specialanpassade behandling fokuserar på att djuprengöra huden och adressera överproduktionen av talg, en vanlig orsak till dessa hudtillstånd.</p>
-        <p class="p200 mt-m">Glycal Acid Peel är en kraftfull kombination av aktiva syror som tränger djupt in i hudlagren för att lösgöra och avlägsna inbyggda orenheter. Denna intensiva exfolieringsprocess renar effektivt porerna, vilket minskar synligheten av pormaskar och finnar och bidrar till en klarare och jämnare hudton.</p>
+        content: '<p class="p200 mt-m">Glycal Acid Peel är en kraftfull kombination av aktiva syror som tränger djupt in i hudlagren för att lösgöra och avlägsna inbyggda orenheter. Denna intensiva exfolieringsprocess renar effektivt porerna, vilket minskar synligheten av pormaskar och finnar och bidrar till en klarare och jämnare hudton.</p>
         <p class="p200 mt-m">Denna behandling är idealisk för dig som söker en djupgående lösning på problemhy. Med vår Glycal Acid Peel får du inte bara en yttre rengöring, utan en behandling som aktivt arbetar för att rena huden på djupet. Resultatet är en ren, förnyad hud som är fri från de vanligaste orsakerna till problemhy.</p>',
         image_small: null,
         image_large: null,

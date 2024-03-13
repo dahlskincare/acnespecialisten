@@ -74,23 +74,23 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är HydraFacial?';
-$description_text = '<p class="p200">HydraFacial är en innovativ maskinbehandling som kombinerar rengöring, exfoliering, avlägsnande av orenheter och intensiv återfuktning för att förnya och vitalisera huden. Denna behandling använder en pattenterad  teknik som kallas "vortex-fusion", där ett spiralformat munstycke möjliggör djuprengöring samtidigt som den tillför antioxidanter, peptider och hyaluronsyra.</p>
-<p class="p200 mt-m">På AcneSpecialisten anpassar vi varje HydraFacial-behandling efter individuella hudbehov. Behandlingen är effektiv för att minska synliga tecken på åldrande, som fina linjer och rynkor, samt att hantera problem som acne, förstorade porer och hyperpigmentering. Dessutom förbättrar HydraFacial hudens övergripande hälsa och lyster genom att öka fuktnivåerna i en torr och känslig hy. HydraFacial är en perfekt lösning för alla som vill ha en direkt synlig förbättring av sin hudkvalitet utan någon återhämtningstid.</p>';
+$description_title = 'Vad är vakuumsugning av pormaskar?';
+$description_text = '<p class="p200">Vakuumsugning av pormaskar är en effektiv hudvårdsbehandling som djuprengör huden genom att kombinera rengöring, exfoliering, avlägsnande av orenheter och intensiv återfuktning. Behandlingen använder avancerad teknik för att skonsamt suga ut smuts, olja och döda hudceller från porerna samtidigt som den infuserar huden med närande ingredienser som antioxidanter, peptider och hyaluronsyra.</p>
+<p class="p200 mt-m">På vår klinik skräddarsys varje behandling för att möta specifika hudbehov, vilket gör det möjligt att effektivt adressera en rad hudbekymmer som åldrandetecken inklusive fina linjer och rynkor, acne, förstorade porer och ojämn hudton. Vakuumsugning av pormaskar förbättrar inte bara hudens yttre egenskaper genom att minska orenheter och främja en jämnare hudton, utan bidrar även till hudens övergripande välbefinnande genom att öka hydreringen. Denna behandling är idealisk för den som söker en omedelbar förbättring av hudens utseende utan någon återhämtningstid.</p>';
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en HydraFacial behandling till?',
+        title: 'Hur fungerar en vakuumsugning för pormaskar?',
         image_small: '/bilder/process/358x272/hydrafacial-process.webp',
         image_large: '/bilder/process/872x456/hydrafacial-process.webp',
-        image_alt: 'Processen för HydraFacial',
-        image_title: 'Processen för HydraFacial',
-        content: '<p class="p200">En HydraFacial-behandling följer en välstrukturerad process som består av fyra huvudsakliga faser för att revitalisera och föryngra huden.</p>
-    <p class="p200 mt-m">Fas 1 - Grundlig Rengöring och Hudslipning<br /> Initialt behandlas huden med en grundlig rengöring och en skonsam exfoliering som öppnar upp porerna och avlägsnar döda hudceller, vilket gör huden redo för de nästkommande stegen och lämnar den fräsch och förberedd.</p>
-    <p class="p200 mt-m">Fas 2 - Skonsam Peeling<br /> Denna fas inbegriper en mild peeling med glykol- eller salicylsyra som effektivt mjukar upp och löser upp orenheter inuti porerna, utan att vara för hård mot huden.</p>
-    <p class="p200 mt-m">Fas 3 - Utrensning av Orenheter<br /> I detta viktiga steg använder behandlingen en avancerad vakuumsugningsteknik för att djuprengöra porerna och extrahera orenheter från hudens djupare lager, vilket bidrar till en klarare hudton.</p>
-    <p class="p200 mt-m">Fas 4 - Hydrering och Näringsboost<br /> Slutligen berikas huden med en kraftfull infusion av antioxidanter och hyaluronsyra, vilket intensivt återfuktar huden, stärker dess skyddsbarriär och gör den mjuk och smidig. Detta steg säkerställer att huden inte bara ser, utan också känner sig, återvitaliserad med en varaktig lyster.</p>
-    <p class="p200 mt-m">Varje steg i denna process är noga utformat för att ge din hud en optimal behandlingsupplevelse som går utöver traditionell hudvård, och lämnar dig med en strålande, hälsosam hud utan någon nedtid.</p>',
+        image_alt: 'Behandlingsprocessen för vakuumsug av pormaskar',
+        image_title: 'Behandlingsprocessen för vakuumsug av pormaskar',
+        content: '<p class="p200">Behandlingen med vakuumsug för pormaskar följer en noggrant planerad process som går igenom flera steg för att djuprengöra och återfukta huden.</p>
+    <p class="p200 mt-m">Steg 1 - Djuprengöring och Exfoliering<br /> Behandlingen inleds med en djupgående rengöring följt av en skonsam exfoliering. Detta förbereder huden genom att öppna upp porerna och ta bort döda hudceller, vilket gör den redo för nästa fas.</p>
+    <p class="p200 mt-m">Steg 2 - Mild Peeling<br /> Här appliceras en mild peeling som syftar till att lösa upp orenheter och smuts inuti porerna utan att irritera huden.</p>
+    <p class="p200 mt-m">Steg 3 - Extraktion av Orenheter<br /> Med hjälp av specifik vakuumsugningsteknik rensas porerna från djupet och orenheter samt överflödigt sebum extraheras effektivt, vilket bidrar till en klarare och mer jämn hudton.</p>
+    <p class="p200 mt-m">Steg 4 - Intensiv Återfuktning<br /> Slutligen får huden en riklig återfuktning genom en infusion av närande ingredienser som antioxidanter och hyaluronsyra. Denna fas av behandlingen ger intensiv hydrering och näringsboost, vilket stärker hudens skyddsbarriär och lämnar den mjuk och återfuktad.</p>
+    <p class="p200 mt-m">Varje steg i denna behandling är designat för att maximera hudens hälsa och lyster, erbjuder en omfattande vård som inte bara förbättrar hudens utseende utan också dess kvalitet utan någon nedtid.</p>',
     ),
 );
 
@@ -98,14 +98,14 @@ $types_title = 'Olika metoder för vakuumsugning av pormaskar';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'HydraFacial - Standard',
+        title: 'Vakuumsug - Standard',
         duration: '40 min',
         price: null,
         content: '',
         image_small: null,
         image_large: null,
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
+        image_alt: 'Vakuumsug - Standard',
+        image_title: 'Vakuumsug - Standard',
         consultation_url: null,
         consultation_url_label: null,
         consultation_url_title: null,
@@ -134,16 +134,15 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HydraFacial - Mot Pormaskar',
+        title: 'Vakuumsug mot pormaskar',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Glycal Acid Peel, är skräddarsydd för att effektivt hantera hud med pormaskar och finnar. Denna specialanpassade behandling fokuserar på att djuprengöra huden och adressera överproduktionen av talg, en vanlig orsak till dessa hudtillstånd.</p>
-        <p class="p200 mt-m">Glycal Acid Peel är en kraftfull kombination av aktiva syror som tränger djupt in i hudlagren för att lösgöra och avlägsna inbyggda orenheter. Denna intensiva exfolieringsprocess renar effektivt porerna, vilket minskar synligheten av pormaskar och finnar och bidrar till en klarare och jämnare hudton.</p>
-        <p class="p200 mt-m">Denna behandling är idealisk för dig som söker en djupgående lösning på problemhy. Med vår Glycal Acid Peel får du inte bara en yttre rengöring, utan en behandling som aktivt arbetar för att rena huden på djupet. Resultatet är en ren, förnyad hud som är fri från de vanligaste orsakerna till problemhy.</p>',
+        content: '<p class="p200">Vakuumsug kombinerat med Glycal Acid Peel är en specialdesignad behandling för att målinriktat bekämpa hudproblem som pormaskar. Genom att djuprengöra huden och specifikt rikta in sig på att minska överproduktionen av talg, tar denna anpassade behandling itu med en av de främsta orsakerna till dessa vanliga hudtillstånd.</p>
+        <p class="p200 mt-m">Om du letar efter en grundlig lösning för dina hudproblem, är Glycal Acid Peel det perfekta valet. Denna behandling erbjuder mer än bara en yttre rengöring; den arbetar intensivt för att rena huden inifrån och ut. Efter behandlingen kommer du att märka en betydande förbättring – en renare, fräschare hud som ser och känns förnyad, befriad från de mest typiska tecknen på pormaskar.</p>',
         image_small: null,
         image_large: null,
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
+        image_alt: 'Vakuumsug mot pormaskar',
+        image_title: 'Vakuumsug mot pormaskar',
         consultation_url: null,
         consultation_url_label: null,
         consultation_url_title: null,
@@ -175,26 +174,26 @@ $big_types = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Inför en HydraFacial behandling',
+        title: 'Inför din vakuumsugningsbehandling mot pormaskar',
         image_small: null,
         image_large: null,
-        image_alt: 'Inför en HydraFacial behandling',
-        image_title: 'Inför en HydraFacial behandling',
-        content: '<p class="p200">Innan du genomgår en HydraFacial behandling är det viktigt att förbereda din hud på rätt sätt. Det innebär att du bör undvika användning av:</p>
-        <p class="p200 mt-m">- Starka syror och intensiva exfolierande behandlingar under de två veckorna före din session.</p>
-        <p class="p200 mt-m">- Exponering för direkt solljus minst tre dygn före din behandling.</p>
-        <p class="p200 mt-m">- Kraftfulla hudvårdsprodukter två dagar före din behandling.</p>',
+        image_alt: 'Inför en vakuumsugningsbehandling mot pormaskar',
+        image_title: 'Inför en vakuumsugningsbehandling mot pormaskar',
+        content: '<p class="p200">För att din hud ska vara optimalt förberedd inför en vakuumsugningsbehandling mot pormaskar, är det viktigt att följa några förberedande steg. Dessa inkluderar att undvika:</p>
+        <p class="p200 mt-m">- Användning av starka syror och intensiva exfolierande behandlingar under de två veckorna före din behandling.</p>
+        <p class="p200 mt-m">- Direkt solljussexponering minst tre dygn innan din behandling.</p>
+        <p class="p200 mt-m">- Användning av kraftfulla hudvårdsprodukter två dagar före din behandling.</p>',
     ),
-        'aftercare' => new Article(
-        title: 'Eftervård',
+    'aftercare' => new Article(
+        title: 'Eftervård för vakuumsugning mot pormaskar',
         image_small: null,
         image_large: null,
-        image_alt: 'Eftervård',
-        image_title: 'Eftervård',
-        content: '<p class="p200">Efter att ha genomgått en HydraFacial-behandling kommer du att märka att din hud omedelbart känns renare och mer strålande. För att maximera resultatet och undvika irritation är det viktigt att:</p>
-        <p class="p200 mt-m">- Undvika solen i minst 72 timmar för att skydda din nybehandlade hud.</p>
-        <p class="p200 mt-m">- Avstå från att använda starka hudvårdsprodukter under cirka 48 timmar efter behandlingen för att låta din hud återhämta sig naturligt.</p>
-        <p class="p200 mt-m">Genom att följa dessa enkla riktlinjer säkerställer du att din hud återhämtar sig optimalt efter din HydraFacial-behandling, och du kommer att kunna njuta av dina resultat längre.</p>',
+        image_alt: 'Eftervård för vakuumsugning mot pormaskar',
+        image_title: 'Eftervård för vakuumsugning mot pormaskar',
+        content: '<p class="p200">Efter att ha genomgått en vakuumsugningsbehandling mot pormaskar kommer du att märka en omedelbar förbättring av hudens renhet och lyster. För att maximera behandlingens resultat och minimera irritation, är det viktigt att:</p>
+        <p class="p200 mt-m">- Undvika solen i minst 72 timmar för att skydda din behandlade hud.</p>
+        <p class="p200 mt-m">- Avstå från att använda starka hudvårdsprodukter under de första 48 timmarna efter behandlingen, för att ge din hud chans att återhämta sig naturligt.</p>
+        <p class="p200 mt-m">Att följa dessa enkla riktlinjer hjälper till att säkerställa optimal återhämtning för din hud efter behandlingen, och du kommer att kunna njuta av dina resultat längre.</p>',
     ),
 );
 
@@ -352,23 +351,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur lång tid tar det att se resultat efter en HydraFacial?',
-            text: 'Resultaten från en HydraFacial kan ofta ses omedelbart efter behandlingen, där många upplever en mer strålande och jämn hudton. För att uppnå och upprätthålla optimala resultat rekommenderas regelbundna behandlingar anpassade efter individens hudbehov.'
+            title: 'Hur lång tid tar det att se resultat efter en behandling med vakuumsug mot pormaskar?',
+            text: 'Resultaten från en behandling med vakuumsug mot pormaskar kan ofta ses omedelbart efter behandlingen, där många upplever en minskning av pormaskar och en renare hud. För att uppnå och upprätthålla optimala resultat rekommenderas regelbundna behandlingar anpassade efter individens hudbehov.'
         ),
         new Question(
-            title: 'Är det säkert att göra HydraFacial regelbundet?',
-            text: 'Ja, HydraFacial är en säker och skonsam behandling som kan utföras regelbundet. Den är utformad för att vara skonsam mot huden samtidigt som den erbjuder effektiva resultat, vilket gör den till en idealisk lösning för kontinuerlig hudvård och underhåll.'
+            title: 'Är det säkert att göra behandlingar med vakuumsug mot pormaskar regelbundet?',
+            text: 'Ja, behandlingar med vakuumsug mot pormaskar är säkra och skonsamma och kan utföras regelbundet. De är utformade för att vara skonsamma mot huden samtidigt som de erbjuder effektiva resultat, vilket gör dem till en idealisk lösning för kontinuerlig hudvård och underhåll.'
         ),
         new Question(
-            title: 'Kan HydraFacial hjälpa mot specifika hudproblem?',
-            text: 'Ja, HydraFacial är effektiv för en mängd olika hudproblem, inklusive torrhet, fina linjer, acne och hyperpigmentering. Behandlingen är anpassningsbar, vilket gör det möjligt att rikta in sig på specifika problemområden och hudtillstånd.'
+            title: 'Kan behandlingar med vakuumsug mot pormaskar hjälpa mot specifika hudproblem?',
+            text: 'Ja, behandlingar med vakuumsug mot pormaskar är effektiva för en mängd olika hudproblem, inklusive pormaskar, orenheter och överflödigt talg. Behandlingen är anpassningsbar, vilket gör det möjligt att rikta in sig på specifika problemområden och hudtillstånd.'
         ),
         new Question(
-            title: 'Vilka är de främsta fördelarna med HydraFacial jämfört med andra hudvårdsbehandlingar?',
-            text: 'HydraFacial utmärker sig genom sin förmåga att djuprengöra, exfoliera och återfukta huden på ett skonsamt sätt. Dess unika teknik och anpassningsförmåga gör den effektiv för en rad olika hudtyper och problem, med mindre risk för irritation jämfört med mer aggressiva behandlingar.'
+            title: 'Vilka är de främsta fördelarna med behandlingar med vakuumsug mot pormaskar jämfört med andra hudvårdsbehandlingar?',
+            text: 'Behandlingar med vakuumsug mot pormaskar utmärker sig genom sin förmåga att djuprengöra huden och avlägsna orenheter effektivt. Deras unika teknik och skonsamma natur gör dem lämpliga för en rad olika hudtyper och problem, med mindre risk för irritation jämfört med mer aggressiva behandlingar.'
         ),
     )
 );
+
 
 $faq_view_more = 'Se alla frågor & svar';
 
@@ -393,31 +393,32 @@ $specialists = array(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i HydraFacial',
-        image_title: 'Cazzandra Lindberg - Expert på HydraFacial'
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering på vakuumsug mot pormaskar',
+        image_title: 'Cazzandra Lindberg - Expert på vakuumsug mot pormaskar'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på HydraFacial',
-        image_title: 'Veronika Benedik - Specialist inom HydraFacial-behandlingar'
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på vakuumsug mot pormaskar',
+        image_title: 'Veronika Benedik - Specialist inom vakuumsug mot pormaskar'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
         image: 'images/specialists/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom HydraFacial',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på HydraFacial'
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom vakuumsug mot pormaskar',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på vakuumsug mot pormaskar'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot HydraFacial',
-        image_title: 'Vilma Libom - Expert inom HydraFacial-behandlingar'
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot vakuumsug mot pormaskar',
+        image_title: 'Vilma Libom - Expert inom vakuumsug mot pormaskar'
     )
 );
+
 $specialists_view_more = 'Se alla hudterapeuter';
 
 ?>
