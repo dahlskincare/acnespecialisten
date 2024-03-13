@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hydrafacial i Stockholm';
-$seo_description = 'Upptäck HydraFacial, en mångsidig behandling som kombinerar djup rengöring, exfoliering, avlägsnande av orenheter och återfuktning.';
-$seo_keywords = 'Hydrafacial, HydraFacial Stockholm';
+$seo_title = 'Effektiv Vakuumsugning av Pormaskar';
+$seo_description = 'Upptäck hemligheten till en klarare hud med vår vakuumsugningsteknik som effektivt rengör porerna, exfolierar, avlägsnar orenheter och återfuktar.';
+$seo_keywords = 'vakuumsug pormaskar, djuprengöring porer, återfuktning hudvård, Stockholm';
 
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
@@ -18,11 +18,11 @@ $model = new Service(
     title: 'Vakuumsug Pormaskar',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">HydraFacial är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering, avlägsnar orenheter och återfuktar huden.</p>',
+    content: '<p class="p200">Vi suger ut pormaskarna effektivt med hjälp av vakuum, töm dina porer effektivt.</p>',
     image_small: 'bilder/varumarken/358x274/hydrafacial.webp',
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',
-    image_alt: 'HydraFacial',
-    image_title: 'HydraFacial',
+    image_alt: 'Vakuumsug Pormaskar',
+    image_title: 'Vakuumsug Pormaskar',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -57,10 +57,10 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Rengöring, exfoliering, avlägsnande av orenheter och återfuktning med HydraFacial.';
+$floating_box = 'Vi suger ut pormaskarna effektivt med hjälp av vakuum, töm dina porer effektivt.';
 
 $nav_buttons = array(
-    'about' => 'Om HydraFacial',
+    'about' => 'vakuumsug pormaskar',
     'preparing' => 'Förberedelser',
     'process' => 'Processen',
     'types' => 'Typer',
@@ -94,15 +94,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Fördelar med HydraFacial';
-$types_description = '<p class="p200">HydraFacial kan effektivt användas för att adressera och förbättra en rad hudtillstånd, inklusive:</p>
-    <p class="p200 mt-m">- Minska synligheten av fina linjer och rynkor.</p>
-    <p class="p200 mt-m">- Öka hudens spänst och elasticitet.</p>
-    <p class="p200 mt-m">- Ge huden en förnyad lyster samt jämnare hudton.</p>
-    <p class="p200 mt-m">- Djuprengöra fet och aknebenägen hud, vilket bidrar till hudförbättringar.</p>
-    <p class="p200 mt-m">- Återställa och balansera hudens naturliga fuktnivåer.</p>
-    <p class="p200 mt-m">- Minska storleken på stora porer och göra dem mindre framträdande.</p>
-    <p class="p200 mt-m">Denna mångsidiga behandling erbjuder en skräddarsydd lösning för en rad hudbekymmer, vilket gör det till ett utmärkt val för alla som önskar förbättra sitt hudtillstånd på ett märkbart sätt. Vi anpassar även behandlingen efter dina hudvårdsproblem och mål.</p>';
+$types_title = 'Olika metoder för vakuumsugning av pormaskar';
+$types_description = '';
 $big_types = array(
     new Service(
         title: 'HydraFacial - Standard',
@@ -137,44 +130,6 @@ $big_types = array(
                 price: '5995 kr',
                 savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_5'
-            )
-        )
-    ),
-    new Service(
-        title: 'HydraFacial - Boost & Glow',
-        duration: '40 min',
-        price: null,
-        content: '<p class="p200">Dermabuilder Serum är en exceptionell upplevelse för den mogna huden. Detta avancerade serum är särskilt framtaget för att djupt vitalisera och stärka huden. Med en kraftfull blandning av två aktiva peptider, arbetar serumet för att stimulera produktionen av hudens egna proteiner, vilket är avgörande för hudens elasticitet och fasthet.</p>
-        <p class="p200 mt-m">I denna behandling tränger Dermabuilder Serum in i hudens djupare lager för att effektivt bygga upp och stärka hudstrukturen inifrån. Detta bidrar till att synbart minska rynkor och fina linjer, och ger ansiktet en fastare och mer ungdomlig profil. Behandlingen är perfekt för dig som vill återställa och bevara hudens ungdomliga utstrålning och vitalitet.</p>
-        <p class="p200 mt-m">Med HydraFacial och Dermabuilder Serum får du inte bara en slätare och jämnare hud, utan också en mer motståndskraftig och välvårdad hudkvalitet. Detta serum är en idealisk lösning för att ge din mogen hud en omedelbar boost.</p>',
-        image_small: null,
-        image_large: null,
-        image_alt: 'HydraFacial',
-        image_title: 'HydraFacial',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1995 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '4995 kr',
-                savings: 'Spara 990 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '7995 kr',
-                savings: 'Spara 1980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
@@ -243,17 +198,17 @@ $bottom_articles = array(
     ),
 );
 
-$service_brands_title = 'Andra märken för Dermabrasion';
-$service_brands_text = '<p class="p200">Utöver HydraFacial jobbar vi även med Microdermabrasion.</p>';
+$service_brands_title = 'Märken för vakuumsugning av pormaskar';
+$service_brands_text = '<p class="p200">Vi använder HydraFacial för att effektivt suga upp pormaskarna.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Microdermabrasion',
-        image: 'bilder/logotyper/microdermabrasion.png',
-        image_alt: 'Microdermabrasion logotyp',
-        image_title: 'Microdermabrasion - hudslipning',
-        url: '/microdermabrasion.php',
-        url_title: 'Microdermabrasion',
+        label: 'HydraFacial',
+        image: 'bilder/logotyper/hydrafacial.svg',
+        image_alt: 'HydraFacial logotyp',
+        image_title: 'HydraFacial - Dermabrasion',
+        url: '/hydrafacial.php',
+        url_title: 'HydraFacial',
     ),
 );
 
