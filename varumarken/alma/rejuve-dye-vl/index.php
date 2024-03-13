@@ -312,28 +312,6 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: null,
-                image_alt: '1x zon',
-                image_title: '1x zon',
-                title: '1x zon',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_1xZone',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 1 zon.'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '2x zoner',
-                image_title: '2x zoner',
-                title: '2x zoner',
-                duration: '30 min',
-                price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_2xZones',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 2x zoner.'
-            ),
-            new TreatmentAreaItem(
-                image: null,
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
@@ -364,6 +342,28 @@ $treatment_areas = array(
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '1x zon',
+                image_title: '1x zon',
+                title: '1x zon',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_1xZone',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 zon.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '2x zoner',
+                image_title: '2x zoner',
+                title: '2x zoner',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_2xZones',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2x zoner.'
             ),
         )
     ),
@@ -554,15 +554,15 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar med Rejuve Dye-VL krävs vanligtvis?',
-            text: 'Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.'
+            text: '<p class="p200">Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.</p>'
         ),
         new Question(
             title: 'Kan hudproblem återkomma efter en Rejuve Dye-VL-behandling?',
-            text: 'Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.'
+            text: '<p class="p200">Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.</p>'
         ),
         new Question(
             title: 'Hur snabbt ser jag resultat efter en Rejuve Dye-VL-behandling?',
-            text: 'Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.'
+            text: '<p class="p200">Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.</p>'
         ),
     )
 );
