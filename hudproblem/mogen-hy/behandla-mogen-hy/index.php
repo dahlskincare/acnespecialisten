@@ -8,16 +8,16 @@ $seo_keywords = 'mogen hy, hudåldrande, åldrande hud, hudvårdsbehandlingar, �
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = '/bilder/problem/424x456/mogen-hy.webp';
+$seo_image = '/bilder/hudproblem/424x456/mogen-hy.webp';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
     new PathSegment('Mogen hy', '/mogen-hy.php'),
-    new PathSegment('Behandla Mogen hy', '/problem/mogen-hy/behandla-mogen-hy/'),
+    new PathSegment('Behandla Mogen hy', '/hudproblem/mogen-hy/behandla-mogen-hy/'),
 );
 
-$image_small = '/bilder/problem/424x324/mogen-hy.webp';
-$image_large = '/bilder/problem/424x456/mogen-hy.webp';
+$image_small = '/bilder/hudproblem/424x324/mogen-hy.webp';
+$image_large = '/bilder/hudproblem/424x456/mogen-hy.webp';
 $image_alt = 'Bild som illustrerar mogen hy';
 $image_title = 'Mogen hy';
 
@@ -106,7 +106,7 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling för mogen hy nu',
-        url: '/behandlingar/laser-mot-hudproblem/',
+        url: '/behandlingar/laser-mot-hudhudproblem/',
         url_label: 'Läs mer om laser mot mogen hy',
         url_title: 'Läs mer om laser mot mogen hy',
 
@@ -427,7 +427,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>

@@ -6,16 +6,16 @@ $seo_title = 'Behandling av Hudförändringar - Effektiv Behandling | AcneSpecia
 $seo_description = 'Utforska de mest effektiva behandlingsmetoderna för hudförändringar. Få skräddarsydda råd, tips, och expertis från AcneSpecialisten för att behandla och minska hudförändringar.';
 $seo_keywords = 'behandling av hudförändringar, hudförändringsbehandling, metod för hudförändringsbehandling, laserbehandling för hudförändringar, microneedling, kemisk peeling';
 
-$seo_image = '/bilder/problem/424x456/hudforandringar.webp';
+$seo_image = '/bilder/hudproblem/424x456/hudforandringar.webp';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
-    new PathSegment('Hudförändringar', '/problem/hudforandringar'),
-    new PathSegment('Behandla Hudförändringar', '/problem/hudforandringar/behandla-hudforandringar/'),
+    new PathSegment('Hudförändringar', '/hudproblem/hudforandringar'),
+    new PathSegment('Behandla Hudförändringar', '/hudproblem/hudforandringar/behandla-hudforandringar/'),
 );
 
-$image_small = '/bilder/problem/424x324/hudforandringar.webp';
-$image_large = '/bilder/problem/424x456/hudforandringar.webp';
+$image_small = '/bilder/hudproblem/424x324/hudforandringar.webp';
+$image_large = '/bilder/hudproblem/424x456/hudforandringar.webp';
 $image_alt = 'Bild som illustrerar hudförändringar';
 $image_title = 'Hudförändringar';
 
@@ -321,7 +321,7 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>

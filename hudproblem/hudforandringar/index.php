@@ -10,17 +10,17 @@ $seo_description = 'Här hittar du allt om hudförändringar och hur man blir av
 $seo_keywords = 'ansiktsvårta, fibrom, födelsemärke, hallonmärke, jordgubbsmärke, smultronmärke, hemangiom, hudflikar, hudutväxt, leverfläckar, mole, seborroisk keratos, skintags, skönhetsfläck, åldersvårta';
 
 // här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms
-$seo_image = '/bilder/problem/424x456/hudforandringar.webp';
+$seo_image = '/bilder/hudproblem/424x456/hudforandringar.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
-      new PathSegment('Hudförändringar', '/problem/hudforandringar'),
+      new PathSegment('Hudförändringar', '/hudproblem/hudforandringar'),
 );
 
 $title = 'Hudförändringar';
 
-$image_small = 'bilder/problem/424x324/hudforandringar.webp';
-$image_large = 'bilder/problem/424x456/hudforandringar.webp';
+$image_small = 'bilder/hudproblem/424x324/hudforandringar.webp';
+$image_large = 'bilder/hudproblem/424x456/hudforandringar.webp';
 $image_title = 'Olika typer av hudförändringar';
 $image_alt = 'Bild som illustrerar olika typer av hudförändringar';
 $description = 'Hudförändringar kan inkludera ett brett spektrum av tillstånd, från födelsermäken och leverfläckar till hudflikar. Vi ger en överblick över de vanligaste typerna av hudförändringar och vad de beror på.';
@@ -130,13 +130,13 @@ $treatment_steps = array(
             content: 'Vi utför behandlingar mot godartade hudförändringar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar för hudförändringar',
-            url: '/problem/hudforandringar/behandla-hudforandringar/',
+            url: '/hudproblem/hudforandringar/behandla-hudforandringar/',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
 
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudförändringar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudförändringar</a>';
+$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudförändringar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudförändringar</a>';
 
 $types_title = 'Olika typer av hudförändringar';
 
@@ -361,7 +361,7 @@ $services = array(
             image_title: 'Laserbehandling mot hudförändringar',
 
             url_label: 'Läs mer om laser mot hudförändringar',
-            url: '/behandlingar/laser-mot-hudproblem/',
+            url: '/behandlingar/laser-mot-hudhudproblem/',
             url_title: 'Läs mer om laser mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
@@ -639,8 +639,8 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>

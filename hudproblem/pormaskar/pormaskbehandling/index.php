@@ -8,16 +8,16 @@ $seo_keywords = 'pormaskar, portömning, pormaskbehandling, orsaker till pormask
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = '/bilder/problem/424x456/pormaskar.webp';
+$seo_image = '/bilder/hudproblem/424x456/pormaskar.webp';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
     new PathSegment('Pormaskar', '/pormaskar.php'),
-    new PathSegment('Pormaskbehandling', '/problem/pormaskar/pormaskbehandling/'),
+    new PathSegment('Pormaskbehandling', '/hudproblem/pormaskar/pormaskbehandling/'),
 );
 
-$image_small = 'bilder/problem/424x324/pormaskar.webp';
-$image_large = 'bilder/problem/424x456/pormaskar.webp';
+$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
+$image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar pormaskar';
 $image_title = 'Pormaskar';
 
@@ -109,7 +109,7 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot pormaskar nu',
-        url: '/behandlingar/laser-mot-hudproblem/',
+        url: '/behandlingar/laser-mot-hudhudproblem/',
         url_label: 'Läs mer om laser mot pormaskar',
         url_title: 'Läs mer om laser mot pormaskar',
 
@@ -438,7 +438,7 @@ $brands_url_title = "Varumärken för pormaskbehandling";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>
@@ -553,7 +553,7 @@ $brands_url_title = "Varumärken för pormaskbehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('/problem/widgets/product-card/product-card.php');
+                            include('/hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>
