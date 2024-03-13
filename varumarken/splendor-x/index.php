@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Splendor X laser?';
-$description_text = '<p class="p200">Splendor X står i frontlinjen för innovation inom permanent hårborttagning. Denna avancerade metod kombinerar ljus med två olika våglängder för att effektivt behandla en mångfald av hårtyper. Med sin unika och effektiva kylmetod erbjuder Splendor X en nästan helt smärtfri upplevelse, vilket revolutionerar traditionell laserbehandling.</p>
+$description_text = '<p class="p200">Splendor X står i frontlinjen för innovation inom permanent hårborttagning. Denna avancerade metod kombinerar ljus med två olika våglängder (Alexandrit och Nd:YAG) för att effektivt behandla en mångfald av hårtyper. Med sin unika och effektiva kylmetod erbjuder Splendor X en nästan helt smärtfri upplevelse, vilket revolutionerar traditionell laserbehandling.</p>
 <p class="p200 mt-m">En av de stora fördelarna med Splendor X är dess flexibilitet. Till skillnad från äldre metoder är denna behandling inte begränsad av solbränd hud, vilket gör den tillgänglig för behandling året runt. Den är otroligt snabb och effektiv, och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, från ansikte till ben. Splendor X behandlar de vanligaste nyanserna av hårstrån och fjun, men det bör noteras att gråa och röda hårstrån inte kan behandlas med denna teknik.</p>';
 
 $top_articles = array(
