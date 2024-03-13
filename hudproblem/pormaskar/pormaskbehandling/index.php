@@ -109,7 +109,7 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot pormaskar nu',
-        url: '/behandlingar/laser-mot-hudhudproblem/',
+        url: '/behandlingar/laser-mot-hudproblem/',
         url_label: 'Läs mer om laser mot pormaskar',
         url_title: 'Läs mer om laser mot pormaskar',
 
