@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne i Ansiktet - Förståelse och Behandling| Acnespecialisten';
+$seo_title = 'Akne i Ansiktet - Förståelse och Behandling';
 $seo_description = 'Utforska djupgående insikter om akne i ansiktet, dess orsaker och skräddarsydda behandlingsmetoder hos Acnespecialisten för alla hudtyper och åldrar.';
 $seo_keywords = 'akne i ansiktet, ansiktsakne behandling, hudvård för ansiktsakne';
 

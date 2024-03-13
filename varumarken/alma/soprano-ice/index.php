@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Soprano ICE Laserbehandling - Effektiv Permanent Hårborttagning | Acnespecialisten';
+$seo_title = 'Soprano ICE Laserbehandling - Effektiv Hårborttagning';
 $seo_description = 'Upptäck Soprano ICE hos AcneSpecialisten, en ledande teknologi inom permanent hårborttagning. Denna innovativa laserbehandling är utformad för att skonsamt och effektivt avlägsna oönskat hår på alla hudtyper. Soprano ICE erbjuder en unik kombination av effektivitet och patientkomfort, vilket garanterar både snabba och långvariga resultat.';
 $seo_keywords = 'Soprano ICE, permanent hårborttagning, laserbehandling, skonsam hårborttagning, effektiv metod, alla hudtyper, säker laserbehandling, långvariga resultat';
 

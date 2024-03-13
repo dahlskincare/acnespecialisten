@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Fet Hy - Orsaker, Behandling och Vård | Acnespecialisten';
+$seo_title = 'Allt om Fet Hy - Orsaker, Behandling och Vård';
 $seo_description = 'Upptäck allt om fet hy och hur du bäst hanterar den. Få experttips och skräddarsydda lösningar från Acnespecialisten för en klarare och friskare hud.';
 $seo_keywords = 'fet hy, behandling av fet hy, orsaker till fet hy, hudvård, balansera fet hy, hudproblem, hudvårdsexpert, Acnespecialisten, ansiktsvård, hudhälsa';
 

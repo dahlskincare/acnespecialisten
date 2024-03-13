@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är Perioral Dermatit? - Orsaker, Behandling och Förebyggande';
+$seo_title = 'Vad är Perioral Dermatit? - Orsak, Behandling och Förebygg';
 $seo_description = 'Här hittar du allt om perioral dermatit och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'perioral dermatit, finnar runt munnen, akne runt munnen';
 

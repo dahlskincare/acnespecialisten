@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne på Ryggen - Information och  Behandling | Acnespecialisten';
+$seo_title = 'Akne på Ryggen - Information och  Behandling';
 $seo_description = 'Utforska allt om akne på ryggen, dess orsaker, och upptäck personligt anpassade behandlingar hos Acnespecialisten för alla hudtyper och åldersgrupper.';
 $seo_keywords = 'akne på ryggen, ryggakne behandling, hudvård för ryggakne';
 

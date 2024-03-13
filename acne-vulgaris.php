@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Vulgaris - Djupgående Förståelse och Effektiv Behandling | Acnespecialisten';
+$seo_title = 'Acne Vulgaris - Djupgående Information - Effektiv Behandling';
 $seo_description = 'Utforska insikter om acne vulgaris, dess orsaker och Acnespecialistens skräddarsydda behandlingsmetoder för alla hudtyper och åldersgrupper.';
 $seo_keywords = 'acne vulgaris, behandling av acne vulgaris, hudvård för acne vulgaris';
 
