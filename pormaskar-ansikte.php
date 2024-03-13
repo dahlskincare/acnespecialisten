@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Komplett Guide till Pormaskar i Ansiktet - Orsaker, Behandling, Förebyggande | Acnespecialisten';
@@ -11,12 +11,12 @@ $seo_keywords = 'pormaskar i ansiktet, behandla pormaskar i ansiktet, orsaker ti
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/pormaskar.webp';
+$seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
 $title = 'Pormaskar i ansiktet';
 
-$image_small = 'bilder/problem/424x324/pormaskar.webp';
-$image_large = 'bilder/problem/424x456/pormaskar.webp';
+$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
+$image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar pormaskar i ansiktet på huden';
 $image_alt = 'Bild på pormaskar i ansiktshuden';
 $description = 'Denna sektion utforskar pormaskar i ansiktet, deras ursprung och Acnespecialistens effektiva behandlingar. Vi diskuterar hur pormaskar bildas i ansiktet och erbjuder råd för att minska dem och förbättra din hudhälsa.';
@@ -84,7 +84,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder skonsamma, men kraftfulla, behandlingsalternativ för att effektivt avlägsna pormaskar i ansiktet. Varje behandling är noga anpassad efter din hudtyp och hudens specifika behov, med målet att noggrant rensa pormaskarna och återställa din huds naturliga lyster.',
-            url: 'problem/pormaskar/pormaskbehandling',
+            url: 'hudproblem/pormaskar/pormaskbehandling',
             url_label: 'Se portömning',
             url_title: 'Upptäck våra skräddarsydda behandlingar för portömning',
       ),
@@ -96,7 +96,7 @@ $treatment_steps = array(
             url_title: 'Utforska de bästa produkterna för att förebygga pormaskar i ansiktet',
       ),
 );
-$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Läs mer om vår specialiserade portömning" class="mt-xl button b200 outline expand auto-width">Mer information om vår portömning</a>';
+$treatment_link = '<a href="hudproblem/pormaskar/pormaskbehandling" title="Läs mer om vår specialiserade portömning" class="mt-xl button b200 outline expand auto-width">Mer information om vår portömning</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -305,7 +305,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Pormaskar',
             aka: 'Vita & svarta pormaskar',
-            image: 'bilder/problem/200x200/pormaskar.webp',
+            image: 'bilder/hudproblem/200x200/pormaskar.webp',
             image_alt: 'Bild som skildrar pormaskar',
             image_title: 'Pormaskar - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'pormaskar.php',
@@ -395,8 +395,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -584,7 +584,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

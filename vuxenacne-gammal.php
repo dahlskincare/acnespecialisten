@@ -12,7 +12,7 @@
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/type.css">
+    <link rel="stylesheet" href="hudproblem/type.css">
 </head>
 
 <?php

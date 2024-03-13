@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är Pigmentfläckar? - Symptom, orsak och behandling';
@@ -18,8 +18,8 @@ $path_segments = array(
 
 $description = 'Pigmentfläckar, inklusive åldersfläckar eller hyperpigmentering, beror på ökad produktion av melanin. På denna sida dyker vi djupare in i de bakomliggande faktorerna och presenterar en översikt över behandlingsmetoder för att skapa en mer enhetlig hudton.';
 
-$image_small = 'bilder/problem/424x324/pigmentflackar.webp';
-$image_large = 'bilder/problem/424x456/pigmentflackar.webp';
+$image_small = 'bilder/hudproblem/424x324/pigmentflackar.webp';
+$image_large = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 $image_title = 'Visar en hud med pigmentfläckar';
 $image_alt = 'Bild som illustrerar hur pigmentfläckar kan se ut på huden';
 
@@ -168,7 +168,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/fraknar.webp',
                         image_alt: 'Bild av fräknar',
                         image_title: 'Fräknar',
-                        //url: 'problem/pigmentflackar/typer/freknar',
+                        //url: 'hudproblem/pigmentflackar/typer/freknar',
                         //url_title: 'Utforska information om fräknar'
                   ),
             )
@@ -183,7 +183,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av mörka bruna pigmentfläckar',
                         image_title: 'Mörka bruna pigmentförändringar',
-                        //url: 'problem/pigmentflackar/typer/morka-bruna',
+                        //url: 'hudproblem/pigmentflackar/typer/morka-bruna',
                         //url_title: 'Utforska mörka bruna pigmentfläckar'
                   ),
                   new BasedType(
@@ -192,7 +192,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/postinflammatorisk-hyperpigmentering.webp',
                         image_alt: 'Bild av röda lila pigmentfläckar',
                         image_title: 'Röda lila pigmentförändringar',
-                        //url: 'problem/pigmentflackar/typer/roda-lila',
+                        //url: 'hudproblem/pigmentflackar/typer/roda-lila',
                         //url_title: 'Utforska röda lila pigmentfläckar'
                   ),
                   new BasedType(
@@ -201,7 +201,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av ljusbruna pigmentfläckar',
                         image_title: 'Ljusbruna pigmentförändringar',
-                        //url: 'problem/pigmentflackar/typer/ljusbruna',
+                        //url: 'hudproblem/pigmentflackar/typer/ljusbruna',
                         //url_title: 'Utforska ljusbruna pigmentfläckar'
                   ),
                   new BasedType(
@@ -210,7 +210,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webp',
                         image_alt: 'Bild av vita pigmentfläckar',
                         image_title: 'Vita pigmentförändringar',
-                        //url: 'problem/pigmentflackar/typer/vita',
+                        //url: 'hudproblem/pigmentflackar/typer/vita',
                         //url_title: 'Utforska vita pigmentfläckar'
                   ),
             )
@@ -226,7 +226,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar i ansiktet',
                         image_title: 'Pigmentförändringar i ansiktet',
-                        //url: 'problem/pigmentflackar/omraden/ansikte',
+                        //url: 'hudproblem/pigmentflackar/omraden/ansikte',
                         //url_title: 'Läs mer om pigmentfläckar i ansiktet'
                   ),
                   new BasedType(
@@ -235,7 +235,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på överläppen',
                         image_title: 'Pigmentförändringar på överläppen',
-                        //url: 'problem/pigmentflackar/omraden/overlappen',
+                        //url: 'hudproblem/pigmentflackar/omraden/overlappen',
                         //url_title: 'Läs mer om pigmentfläckar på överläppen'
                   ),
                   new BasedType(
@@ -244,7 +244,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på kroppen',
                         image_title: 'Pigmentförändringar på kroppen',
-                        //url: 'problem/pigmentflackar/omraden/kroppen',
+                        //url: 'hudproblem/pigmentflackar/omraden/kroppen',
                         //url_title: 'Läs mer om pigmentfläckar på kroppen'
                   ),
                   new BasedType(
@@ -253,7 +253,7 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/melasma.webp',
                         image_alt: 'Bild av pigmentfläckar på händerna',
                         image_title: 'Pigmentförändringar på händerna',
-                        //url: 'problem/pigmentflackar/omraden/hander',
+                        //url: 'hudproblem/pigmentflackar/omraden/hander',
                         //url_title: 'Läs mer om pigmentfläckar på händerna'
                   ),
 
@@ -340,7 +340,7 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_PigmentationSpots',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
-            url: '/behandlingar/laser-mot-hudproblem/',
+            url: '/behandlingar/laser-mot-hudhudproblem/',
             url_label: 'Läs mer om laser mot pigmentfläckar',
             url_title: 'Läs mer om laser mot pigmentfläckar'
       ),
@@ -581,7 +581,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Melasma',
             aka: 'Pigmenteringar',
-            image: '/bilder/problem/102x102/melasma.webp',
+            image: '/bilder/hudproblem/102x102/melasma.webp',
             image_title: 'Melasma - en vanlig hudåkomma',
             image_alt: 'Melasma i ansiktet',
             url: '/melasma.php',
@@ -590,7 +590,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Solskadad hy',
             aka: 'Solfläckar',
-            image: '/bilder/problem/102x102/solskadad-hy.webp',
+            image: '/bilder/hudproblem/102x102/solskadad-hy.webp',
             image_title: 'Solskadad hy - en vanlig hudåkomma',
             image_alt: 'Solskadad hy i ansiktet',
             url: '/solskadad-hy.php',
@@ -599,16 +599,16 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Hudförändringar',
             aka: 'Leverfläckar & Födelsemärken',
-            image: '/bilder/problem/102x102/hudforandringar.webp',
+            image: '/bilder/hudproblem/102x102/hudforandringar.webp',
             image_title: 'födelsemärke i ansiktet',
             image_alt: 'svart utåtstående leverläck i ansiktet',
-            url: '/problem/hudforandringar/',
+            url: '/hudproblem/hudforandringar/',
             url_title: 'Solskadad hy'
       ),
       new RelatedProblem(
             name: 'Åldersfläckar',
             aka: 'Åldersvårtor',
-            image: '/bilder/problem/102x102/aldersflackar.webp',
+            image: '/bilder/hudproblem/102x102/aldersflackar.webp',
             image_title: 'Leverfläck i huvudet',
             image_alt: 'svart upphöjdleverfläck på huvudet',
             url: '/solskadad-hy.php',
@@ -681,8 +681,8 @@ $brands_url_title = "Varumärken för pigmentfläckar";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -803,7 +803,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -838,7 +838,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('problem/widgets/type-card/type-card.php');
+                                                                  include('hudproblem/widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -852,7 +852,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('problem/widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('hudproblem/widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -939,7 +939,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

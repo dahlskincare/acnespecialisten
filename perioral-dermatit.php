@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är Perioral Dermatit? - Orsaker, Behandling och Förebyggande';
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Perioral Dermatit', '/perioral-dermatit.php'),
 );
 
-$image_small = 'bilder/problem/424x324/perioral-dermatit.webp';
-$image_large = 'bilder/problem/424x456/perioral-dermatit.webp';
+$image_small = 'bilder/hudproblem/424x324/perioral-dermatit.webp';
+$image_large = 'bilder/hudproblem/424x456/perioral-dermatit.webp';
 $image_title = 'Visar en hud med perioral dermatit';
 $image_alt = 'Bild som illustrerar hur perioral dermatit ser ut på huden';
 $description = 'Perioral dermatit är en inflammatorisk hudsjukdom som framträder som utslag runt munnen. Denna sida går igenom symptomen, potentiella orsaker och hur tillståndet skiljer sig från andra hudsjukdomar.';
@@ -657,7 +657,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
             aka: 'Finnar',
-            image: 'bilder/problem/102x102/akne.webp',
+            image: 'bilder/hudproblem/102x102/akne.webp',
             image_alt: 'Ansikte med aktiv akne',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
             url: 'acne.php',
@@ -827,8 +827,8 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -949,7 +949,7 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -983,7 +983,7 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('problem/widgets/type-card/type-card.php');
+                                                                  include('hudproblem/widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -997,7 +997,7 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('problem/widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('hudproblem/widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -1020,7 +1020,7 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -1105,7 +1105,7 @@ $brands_url_title = "Varumärken för behandling av perioral dermatit";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

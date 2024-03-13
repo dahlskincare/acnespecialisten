@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Everything about Acne Scars - Treatment, Causes, and Prevention | Acnespecialisten';
@@ -11,12 +11,12 @@ $seo_keywords = 'acne scars, acne scar treatment, causes of acne scars, preventi
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/aknearr.webp';
+$seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
 
 $title = 'Acne Scars';
 
-$image_small = 'bilder/problem/424x324/aknearr.webp';
-$image_large = 'bilder/problem/424x456/aknearr.webp';
+$image_small = 'bilder/hudproblem/424x324/aknearr.webp';
+$image_large = 'bilder/hudproblem/424x456/aknearr.webp';
 $image_title = 'Showing skin with Acne Scars';
 $image_alt = 'Image illustrating the appearance of acne scars on the skin';
 $description = 'In this section, we explain the characteristics of acne scars, how these scars can develop after acne, and how we can assist you with treatments to reduce them. We also cover how we identify different types of acne scars, the causes behind them, and how we can support you in your treatment process to restore your skin’s smoothness and appearance.';
@@ -296,7 +296,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
-            image: 'bilder/problem/200x200/acnearr.webp',
+            image: 'bilder/hudproblem/200x200/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
             url: 'acnearr.php',
@@ -305,7 +305,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'bilder/problem/200x200/rosacea.webp',
+            image: 'bilder/hudproblem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
             url: 'rosacea.php',
@@ -314,7 +314,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'bilder/problem/200x200/perioral-dermatit.webp',
+            image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
@@ -404,8 +404,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -614,7 +614,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

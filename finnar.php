@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är finnar? - Symptom, orsak och behandling | AcneSpecialisten';
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Finnar', '/finnar.php'),
 );
 
-$image_small = 'bilder/problem/424x324/finnar.webp';
-$image_large = 'bilder/problem/424x456/finnar.webp';
+$image_small = 'bilder/hudproblem/424x324/finnar.webp';
+$image_large = 'bilder/hudproblem/424x456/finnar.webp';
 $image_title = 'Visar en hud med finnar';
 $image_alt = 'Bild som illustrerar hur finnar kan se ut på huden';
 $description = 'Finnar visar sig som röda eller gula inflammationer i huden. Denna sida förklarar vad finnar är, varför de uppstår och hur de skiljer sig från andra hudutslag.';
@@ -229,7 +229,7 @@ $type_categories = array(
                         image_alt: 'Ansikte med kosmetik finnar',
                         image_title: 'Exempel på kosmetik finnar',
 
-                        //url: 'problem/akne/typer/kosmetika-akne',
+                        //url: 'hudproblem/akne/typer/kosmetika-akne',
                         //url_title: 'Lär dig mer om hur kosmetika kan ge akne',
                   ),
                   new BasedType(
@@ -240,7 +240,7 @@ $type_categories = array(
                         image_alt: 'Ansikte med pill finnar',
                         image_title: 'Exempel på pill finnar',
 
-                        //url: 'problem/akne/typer/acne-exoriee',
+                        //url: 'hudproblem/akne/typer/acne-exoriee',
                         //url_title: 'Läs mer om hur pillande kan leda till akne',
                   ),
                   new BasedType(
@@ -251,7 +251,7 @@ $type_categories = array(
                         image_alt: 'Ansikte med friktions finnar',
                         image_title: 'Exempel på friktions finnar',
 
-                        //url: 'problem/akne/typer/akne-mekanisk',
+                        //url: 'hudproblem/akne/typer/akne-mekanisk',
                         //url_title: 'Utforska mer om hur friktion kan orsaka akne',
                   ),
                   new BasedType(
@@ -262,7 +262,7 @@ $type_categories = array(
                         image_alt: 'Ansikte med kontakt finnar',
                         image_title: 'Exempel på kontakta finnar',
 
-                        //url: 'problem/akne/typer/kontakt-akne',
+                        //url: 'hudproblem/akne/typer/kontakt-akne',
                         //url_title: 'Utforska mer om hur direktkontakt kan påverka akne',
                   ),
                   new BasedType(
@@ -273,7 +273,7 @@ $type_categories = array(
                         image_alt: 'Ansikte med svampfinnar',
                         image_title: 'Exempel på svampfinnar',
 
-                        //url: 'problem/akne/typer/fungal-akne',
+                        //url: 'hudproblem/akne/typer/fungal-akne',
                         //url_title: 'Lär dig mer om hur svamp relateras till akne',
                   ),
             )
@@ -320,7 +320,7 @@ $type_categories = array(
                         title: 'Finnar runt munnen',
                         subtitle: 'Perioral dermatit',
 
-                        image_url: 'bilder/problem/102x102/perioral-dermatit.webp',
+                        image_url: 'bilder/hudproblem/102x102/perioral-dermatit.webp',
                         image_alt: 'Finnar runt munnen',
                         image_title: 'Exempel på finnar runt munnen',
 
@@ -343,7 +343,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/papler.webp',
             image_alt: 'Röda finnar (papler) i ansiktet',
             image_title: 'Papler (Röda Finnar)',
-            //url: 'problem/finnar/typer/atrophic-boxcar-scars',
+            //url: 'hudproblem/finnar/typer/atrophic-boxcar-scars',
             //url_title: 'Lär dig mer om röda finnar',
             //url_label: 'Mer information om papler'
       ),
@@ -354,7 +354,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/pustler.webp',
             image_alt: 'Gula finnar (pustler) i ansiktet',
             image_title: 'Pustler (Gula Finnar)',
-            //url: 'problem/finnar/typer/atrophic-rolling-scars',
+            //url: 'hudproblem/finnar/typer/atrophic-rolling-scars',
             //url_title: 'Fler detaljer om gula finnar',
             //url_label: 'Utforska pustuler'
       ),
@@ -365,7 +365,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/noduler.webp',
             image_alt: 'Innåtfinnar (noduler) i ansiktet',
             image_title: 'Noduler (Innåtfinnar)',
-            //url: 'problem/finnar/typer/hypertrophic-keloid',
+            //url: 'hudproblem/finnar/typer/hypertrophic-keloid',
             //url_title: 'Mer om innåtfinnar',
             //url_label: 'Utforska noduler'
       ),
@@ -376,7 +376,7 @@ $symptoms = array(
             image: 'images/symptoms/102x102/cystor.webp',
             image_alt: 'Bölder (cystor) i ansiktet',
             image_title: 'Bölder (cystor)',
-            //url: 'problem/finnar/typer/hypertrophic-keloid',
+            //url: 'hudproblem/finnar/typer/hypertrophic-keloid',
             //url_title: 'Läs mer om bölder (cystor)',
             //url_label: 'Mer information om bölder'
       ),
@@ -443,7 +443,7 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
-            url: '/behandlingar/laser-mot-hudproblem/',
+            url: '/behandlingar/laser-mot-hudhudproblem/',
             url_label: 'Läs mer om laser mot finnar',
             url_title: 'Läs mer om laser mot finnar',
       ),
@@ -869,8 +869,8 @@ $brands_url_title = "Varumärken för Aknebehandling";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -992,7 +992,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -1027,7 +1027,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('problem/widgets/type-card/type-card.php');
+                                                                  include('hudproblem/widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -1041,7 +1041,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('problem/widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('hudproblem/widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -1064,7 +1064,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -1157,7 +1157,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

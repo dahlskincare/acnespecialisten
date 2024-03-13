@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Rhinophyma och Rosacea - Orsaker, Behandlingar och Förebyggande | Acnespecialisten';
@@ -11,12 +11,12 @@ $seo_keywords = 'rhinophyma, rosacea, rhinophyma behandling, orsaker till rhinop
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/rosacea.webp';
+$seo_image = 'bilder/hudproblem/424x456/rosacea.webp';
 
 $title = 'Rhinophyma Rosacea';
 
-$image_small = 'bilder/problem/424x324/rosacea.webp';
-$image_large = 'bilder/problem/424x456/rosacea.webp';
+$image_small = 'bilder/hudproblem/424x324/rosacea.webp';
+$image_large = 'bilder/hudproblem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rhinophyma rosacea';
 $image_alt = 'Bild som illustrerar hur rhinophyma rosacea ser ut på huden';
 $description = 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.';
@@ -451,7 +451,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'bilder/problem/200x200/rosacea.webp',
+            image: 'bilder/hudproblem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med rosacea',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med rosacea',
             url: 'rosacea.php',
@@ -540,8 +540,8 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -747,7 +747,7 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

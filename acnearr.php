@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Ta bort acneärr och gropar i huden | AcneSpecialisten';
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Acneärr', '/acnearr.php'),
 );
 
-$image_small = 'bilder/problem/424x324/aknearr.webp';
-$image_large = 'bilder/problem/424x456/aknearr.webp';
+$image_small = 'bilder/hudproblem/424x324/aknearr.webp';
+$image_large = 'bilder/hudproblem/424x456/aknearr.webp';
 $image_title = 'Visar en hud med acneärr';
 $image_alt = 'Närbild på ett ansikte som har acneärr';
 $description = 'Akneärr är permanenta texturförändringar i huden som uppstår efter att akne. Här förklarar vi hur akneärr bildas, olika typer av ärr och vilka faktorer som påverkar ärrbildningen.';
@@ -525,7 +525,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
             aka: 'Finnar',
-            image: 'bilder/problem/102x102/akne.webp',
+            image: 'bilder/hudproblem/102x102/akne.webp',
             image_alt: 'Ansikte med aktiv akne',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
             url: 'acne.php',
@@ -534,7 +534,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Finnar',
             aka: 'Akne',
-            image: 'bilder/problem/102x102/finnar.webp',
+            image: 'bilder/hudproblem/102x102/finnar.webp',
             image_alt: 'Ansikte med finnar',
             image_title: 'Finnar - ett vanligt hudproblem',
             url: 'finnar.php',
@@ -543,7 +543,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Ärr från finnar',
             aka: 'gropar & Fläckar',
-            image: 'bilder/problem/102x102/acnearr.webp',
+            image: 'bilder/hudproblem/102x102/acnearr.webp',
             image_alt: 'Ansikte med ärr från finnar',
             image_title: 'ärr från finnar - en vanlig följd av akne',
             url: 'finnar-arr.php',
@@ -616,8 +616,8 @@ $brands_url_title = "Varumärken för acneärr";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -739,7 +739,7 @@ $brands_url_title = "Varumärken för acneärr";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -771,7 +771,7 @@ $brands_url_title = "Varumärken för acneärr";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -854,7 +854,7 @@ $brands_url_title = "Varumärken för acneärr";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

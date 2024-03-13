@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är rosacea? -Symptom, orsak och behandling | AcneSpecialisten';
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Rosacea', '/rosacea.php'),
 );
 
-$image_small = 'bilder/problem/424x324/rosacea.webp';
-$image_large = 'bilder/problem/424x456/rosacea.webp';
+$image_small = 'bilder/hudproblem/424x324/rosacea.webp';
+$image_large = 'bilder/hudproblem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rosacea';
 $image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 
@@ -647,7 +647,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Ytliga blodkärl',
             aka: 'Spindelvener',
-            image: 'bilder/problem/200x200/ytliga-blodkarl.webp',
+            image: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
             image_alt: 'Bild som visar ytliga blodkärl som röda linjer i huden',
             image_title: 'Ytliga blodkärl - vanligt på näsa och kinder',
             url: 'ytliga-blodkarl.php',
@@ -656,7 +656,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
             aka: 'Papler & Pustler',
-            image: 'bilder/problem/200x200/akne.webp',
+            image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'acne.php',
@@ -665,7 +665,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Finnar',
             aka: 'Plitor & Inkapslingar',
-            image: 'bilder/problem/200x200/finnar.webp',
+            image: 'bilder/hudproblem/200x200/finnar.webp',
             image_alt: 'Bild som visar finnar, små inflammationer i huden',
             image_title: 'Finnar - vanliga små hudinflammationer',
             url: 'finnar.php',
@@ -722,8 +722,8 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -816,7 +816,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -851,7 +851,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('problem/widgets/type-card/type-card.php');
+                                                                  include('hudproblem/widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -865,7 +865,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('problem/widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('hudproblem/widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -887,7 +887,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -980,7 +980,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

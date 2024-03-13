@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är seborré? - Symptom, orsak och behandling';
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Seborré', '/seborre.php'),
 );
 
-$image_small = 'bilder/problem/424x324/seborre.webp';
-$image_large = 'bilder/problem/424x456/seborre.webp';
+$image_small = 'bilder/hudproblem/424x324/seborre.webp';
+$image_large = 'bilder/hudproblem/424x456/seborre.webp';
 $image_title = 'Visar en hud med seborré';
 $image_alt = 'Bild som illustrerar hur seborré ser ut på huden';
 $description = 'Seborré, eller seborroiskt eksem, är en hudåkomma som orsakar fet hy som flagnar. Här diskuterar vi de områden som oftast påverkas, vad som utlöser tillståndet och hur det behandlas effektivt.';
@@ -480,7 +480,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Torr & känslig hy',
             aka: 'Reaktiv hy',
-            image: 'bilder/problem/102x102/torr-kanslig-hy.webp',
+            image: 'bilder/hudproblem/102x102/torr-kanslig-hy.webp',
             image_alt: 'Torr & känslig hy i ansiktet',
             image_title: 'Torr & känslig hy - en vanlig hudåkomma',
             url: '/torr-hy.php',
@@ -641,8 +641,8 @@ $brands_url_title = "Varumärken för Aknebehandling";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -762,7 +762,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -792,7 +792,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -877,7 +877,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

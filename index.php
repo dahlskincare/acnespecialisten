@@ -98,8 +98,8 @@
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Akne',
-                                    image_small: 'bilder/problem/114x140/akne.webp',
-                                    image_large: 'bilder/problem/424x324/akne.webp',
+                                    image_small: 'bilder/hudproblem/114x140/akne.webp',
+                                    image_large: 'bilder/hudproblem/424x324/akne.webp',
                                     image_title: 'Ansikte med akne',
                                     image_alt: 'Närbild på person som har akne i ansiktet.',
                                     url: 'acne.php',
@@ -109,8 +109,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Akneärr',
-                                    image_small: 'bilder/problem/114x140/acnearr.webp',
-                                    image_large: 'bilder/problem/424x324/acnearr.webp',
+                                    image_small: 'bilder/hudproblem/114x140/acnearr.webp',
+                                    image_large: 'bilder/hudproblem/424x324/acnearr.webp',
                                     image_title: 'Person med akneärr',
                                     image_alt: 'Närbild på person som har akneärr i ansiktet.',
                                     url: 'acnearr.php',
@@ -120,8 +120,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Rosacea',
-                                    image_small: 'bilder/problem/114x140/rosacea.webp',
-                                    image_large: 'bilder/problem/424x324/rosacea.webp',
+                                    image_small: 'bilder/hudproblem/114x140/rosacea.webp',
+                                    image_large: 'bilder/hudproblem/424x324/rosacea.webp',
                                     image_title: 'Person med rosacea',
                                     image_alt: 'Närbild på person som har rosacea i ansiktet.',
                                     url: 'rosacea.php',
@@ -131,8 +131,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Finnar',
-                                    image_small: 'bilder/problem/114x140/finnar.webp',
-                                    image_large: 'bilder/problem/424x324/finnar.webp',
+                                    image_small: 'bilder/hudproblem/114x140/finnar.webp',
+                                    image_large: 'bilder/hudproblem/424x324/finnar.webp',
                                     image_title: 'Person med finnar',
                                     image_alt: 'Närbild på person som har finnar i ansiktet.',
                                     url: 'finnar.php',
@@ -142,8 +142,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Pigmentfläckar',
-                                    image_small: 'bilder/problem/114x140/pigmentflackar.webp',
-                                    image_large: 'bilder/problem/424x324/pigmentflackar.webp',
+                                    image_small: 'bilder/hudproblem/114x140/pigmentflackar.webp',
+                                    image_large: 'bilder/hudproblem/424x324/pigmentflackar.webp',
                                     image_title: 'Person med pigmentfläckar',
                                     image_alt: 'Närbild på person som har pigmentfläckar i ansiktet.',
                                     url: 'pigmentflackar.php',
@@ -153,8 +153,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Ytliga blodkärl',
-                                    image_small: 'bilder/problem/114x140/other.webp',
-                                    image_large: 'bilder/problem/424x324/other.webp',
+                                    image_small: 'bilder/hudproblem/114x140/other.webp',
+                                    image_large: 'bilder/hudproblem/424x324/other.webp',
                                     image_title: 'Person med allmänna hudproblem',
                                     image_alt: 'Närbild på person som hara allmänna hudproblem i ansiktet.',
                                     url: 'ytliga-blodkarl.php',
@@ -164,8 +164,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Se alla problem',
-                                    image_small: 'bilder/problem/114x140/other.webp',
-                                    image_large: 'bilder/problem/424x324/other.webp',
+                                    image_small: 'bilder/hudproblem/114x140/other.webp',
+                                    image_large: 'bilder/hudproblem/424x324/other.webp',
                                     image_title: 'Person med allmänna hudproblem',
                                     image_alt: 'Närbild på person som har allmänna hudproblem i ansiktet.',
                                     url: 'hudproblem.php',
