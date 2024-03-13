@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Postinflammatorisk Hyperpigmentering: Behandling och Förståelse | Acnespecialisten';
+$seo_title = 'Postinflammatorisk Hyperpigmentering information';
 $seo_description = 'Upptäck allt om postinflammatorisk hyperpigmentering, dess orsaker och effektiva behandlingar. Acnespecialisten erbjuder professionell hjälp och individuellt anpassade lösningar.';
 $seo_keywords = 'postinflammatorisk hyperpigmentering, behandling av hyperpigmentering';
 
