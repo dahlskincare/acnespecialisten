@@ -8,10 +8,10 @@ $seo_keywords = 'rosaceabehandling, rosacea behandling, ta bort orsacea, få bor
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = 'bilder/problem/424x456/rosacea.webp';
+$seo_image = 'bilder/hudproblem/424x456/rosacea.webp';
 
-$image_large = 'bilder/problem/424x456/rosacea.webp';
-$image_small = 'bilder/problem/424x456/rosacea.webp';
+$image_large = 'bilder/hudproblem/424x456/rosacea.webp';
+$image_small = 'bilder/hudproblem/424x456/rosacea.webp';
 $image_alt = 'Bild på rosacea behandling';
 $image_title = 'Bild av effektiv rosaceabehandling';
 
@@ -368,7 +368,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>
@@ -483,7 +483,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('problem/widgets/product-card/product-card.php');
+                            include('hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

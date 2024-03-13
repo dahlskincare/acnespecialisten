@@ -245,7 +245,7 @@ $problems['milier'] = new Problem(
 $problems['hudforandringar'] = new Problem(
       button_label: 'Hudförändringar',
       content_label: 'Hudförändringar',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -287,7 +287,7 @@ $problems['torr-kanslig-hy'] = new Problem(
 $problems['bristningar'] = new Problem(
       button_label: 'Bristningar',
       content_label: 'Bristningar',
-      url: 'problem/bristningar',
+      url: 'hudproblem/bristningar',
       url_title: 'Läs mer information om Bristningar',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
       booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_StrechMarks',
@@ -301,7 +301,7 @@ $problems['bristningar'] = new Problem(
 $problems['operations-skadearr'] = new Problem(
       button_label: 'Operations & Skadeärr',
       content_label: 'Operations & Skadeärr',
-      url: 'problem/operations-skadearr',
+      url: 'hudproblem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -315,7 +315,7 @@ $problems['operations-skadearr'] = new Problem(
 $problems['oonskat-har'] = new Problem(
       button_label: 'Oönskat hår',
       content_label: 'Oönskat hår',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -512,7 +512,7 @@ $problems['milier-ansikte'] = new Problem(
 $problems['hudforandringar-ansikte'] = new Problem(
       button_label: 'Hudförändringar i ansiktet',
       content_label: 'Hudförändringar i ansiktet',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar i ansiktet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -554,7 +554,7 @@ $problems['torr-kanslig-hy-ansikte'] = new Problem(
 $problems['operations-skadearr-ansikte'] = new Problem(
       button_label: 'Operations & Skadeärr i ansiktet',
       content_label: 'Operations & Skadeärr i ansiktet',
-      url: 'problem/operations-skadearr',
+      url: 'hudproblem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr i ansiktet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -568,7 +568,7 @@ $problems['operations-skadearr-ansikte'] = new Problem(
 $problems['oonskat-har-ansikte'] = new Problem(
       button_label: 'Oönskat hår i ansiktet',
       content_label: 'Oönskat hår i ansiktet',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår i ansiktet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -596,7 +596,7 @@ $problems['pigmentflackar-kropp'] = new Problem(
 $problems['hudforandringar-kropp'] = new Problem(
       button_label: 'Hudförändringar på kroppen',
       content_label: 'Hudförändringar på kroppen',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar på kroppen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -610,7 +610,7 @@ $problems['hudforandringar-kropp'] = new Problem(
 $problems['bristningar-kropp'] = new Problem(
       button_label: 'Bristningar på kroppen',
       content_label: 'Bristningar på kroppen',
-      url: 'problem/bristningar',
+      url: 'hudproblem/bristningar',
       url_title: 'Läs mer information om Bristningar på kroppen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
       booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_StrechMarks',
@@ -624,7 +624,7 @@ $problems['bristningar-kropp'] = new Problem(
 $problems['operations-skadearr-kropp'] = new Problem(
       button_label: 'Operations & Skadeärr på kroppen',
       content_label: 'Operations & Skadeärr på kroppen',
-      url: 'problem/operations-skadearr',
+      url: 'hudproblem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på kroppen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -638,7 +638,7 @@ $problems['operations-skadearr-kropp'] = new Problem(
 $problems['oonskat-har-kropp'] = new Problem(
       button_label: 'Oönskat hår på kroppen',
       content_label: 'Oönskat hår på kroppen',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår på kroppen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -736,7 +736,7 @@ $problems['stora-porer-rygg'] = new Problem(
 $problems['hudforandringar-rygg'] = new Problem(
       button_label: 'Hudförändringar på ryggen',
       content_label: 'Hudförändringar på ryggen',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar på ryggen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -750,7 +750,7 @@ $problems['hudforandringar-rygg'] = new Problem(
 $problems['operations-skadearr-rygg'] = new Problem(
       button_label: 'Operations & Skadeärr på ryggen',
       content_label: 'Operations & Skadeärr på ryggen',
-      url: 'problem/operations-skadearr',
+      url: 'hudproblem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på ryggen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -764,7 +764,7 @@ $problems['operations-skadearr-rygg'] = new Problem(
 $problems['oonskat-har-rygg'] = new Problem(
       button_label: 'Oönskat hår på ryggen',
       content_label: 'Oönskat hår på ryggen',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår på ryggen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -862,7 +862,7 @@ $problems['stora-porer-brost'] = new Problem(
 $problems['hudforandringar-brost'] = new Problem(
       button_label: 'Hudförändringar på bröstet',
       content_label: 'Hudförändringar på bröstet',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar på bröstet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -876,7 +876,7 @@ $problems['hudforandringar-brost'] = new Problem(
 $problems['operations-skadearr-brost'] = new Problem(
       button_label: 'Operations & Skadeärr på bröstet',
       content_label: 'Operations & Skadeärr på bröstet',
-      url: 'problem/operations-skadearr',
+      url: 'hudproblem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på bröstet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -890,7 +890,7 @@ $problems['operations-skadearr-brost'] = new Problem(
 $problems['oonskat-har-brost'] = new Problem(
       button_label: 'Oönskat hår på bröstet',
       content_label: 'Oönskat hår på bröstet',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår på bröstet',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -1002,7 +1002,7 @@ $problems['pigmentflackar-panna'] = new Problem(
 $problems['hudforandringar-panna'] = new Problem(
       button_label: 'Hudförändringar i pannan',
       content_label: 'Hudförändringar i pannan',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar i pannan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -1016,7 +1016,7 @@ $problems['hudforandringar-panna'] = new Problem(
 $problems['operations-skadearr-panna'] = new Problem(
       button_label: 'Operations & Skadeärr i pannan',
       content_label: 'Operations & Skadeärr i pannan',
-      url: 'problem/operations-skadearr',
+      url: 'hudproblem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr i pannan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -1184,7 +1184,7 @@ $problems['milier-kinder'] = new Problem(
 $problems['hudforandringar-kinder'] = new Problem(
       button_label: 'Hudförändringar på kinderna',
       content_label: 'Hudförändringar på kinderna',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar på kinderna',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -1226,7 +1226,7 @@ $problems['torr-kanslig-hy-kinder'] = new Problem(
 $problems['oonskat-har-kinder'] = new Problem(
       button_label: 'Oönskat hår på kinderna',
       content_label: 'Oönskat hår på kinderna',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår på kinderna',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -1394,7 +1394,7 @@ $problems['pigmentflackar-nasa'] = new Problem(
 $problems['hudforandringar-nasa'] = new Problem(
       button_label: 'Hudförändringar på näsan',
       content_label: 'Hudförändringar på näsan',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar på näsan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -1492,7 +1492,7 @@ $problems['arr-fran-finnar-runt-munnen'] = new Problem(
 $problems['hudforandringar-runt-munnen'] = new Problem(
       button_label: 'Hudförändringar runt munnen',
       content_label: 'Hudförändringar runt munnen',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar runt munnen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -1618,7 +1618,7 @@ $problems['seborre-haka'] = new Problem(
 $problems['hudforandringar-haka'] = new Problem(
       button_label: 'Hudförändringar på hakan',
       content_label: 'Hudförändringar på hakan',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar på hakan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -1632,7 +1632,7 @@ $problems['hudforandringar-haka'] = new Problem(
 $problems['operations-skadearr-haka'] = new Problem(
       button_label: 'Operations & Skadeärr på hakan',
       content_label: 'Operations & Skadeärr på hakan',
-      url: 'problem/operations-skadearr',
+      url: 'hudproblem/operations-skadearr',
       url_title: 'Läs mer information om Operations & Skadeärr på hakan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
@@ -1646,7 +1646,7 @@ $problems['operations-skadearr-haka'] = new Problem(
 $problems['oonskat-har-haka'] = new Problem(
       button_label: 'Oönskat hår på hakan',
       content_label: 'Oönskat hår på hakan',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår på hakan',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -1716,7 +1716,7 @@ $problems['arr-fran-finnar-kaklinje'] = new Problem(
 $problems['hudforandringar-kaklinje'] = new Problem(
       button_label: 'Hudförändringar på käklinjen',
       content_label: 'Hudförändringar på käklinjen',
-      url: 'problem/hudforandringar',
+      url: 'hudproblem/hudforandringar',
       url_title: 'Läs mer information om Hudförändringar på käklinjen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
@@ -1730,7 +1730,7 @@ $problems['hudforandringar-kaklinje'] = new Problem(
 $problems['oonskat-har-kaklinje'] = new Problem(
       button_label: 'Oönskat hår på käklinjen',
       content_label: 'Oönskat hår på käklinjen',
-      url: 'problem/oonskat-har',
+      url: 'hudproblem/oonskat-har',
       url_title: 'Läs mer information om Oönskat hår på käklinjen',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
@@ -1870,7 +1870,7 @@ $specialists = array(
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problems.css">
+      <link rel="stylesheet" href="hudproblem/problems.css">
 </head>
 
 <body>
@@ -2041,7 +2041,7 @@ $specialists = array(
             </section>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-      <script src="problem/problems.js"></script>
+      <script src="hudproblem/problems.js"></script>
       <script>
             showProblems('<?php echo join(',', $default_problems->problem_ids) ?>');
       </script>
