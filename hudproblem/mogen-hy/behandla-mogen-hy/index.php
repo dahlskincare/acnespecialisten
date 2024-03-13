@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Mogen Hy - Effektiv Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Behandla Mogen Hy - Effektiv Behandling och Förebyggande';
 $seo_description = 'Upptäck skräddarsydda behandlingsalternativ för mogen hy hos Acnespecialisten. Vår kunskap hjälper dig att behandla och förebygga åldrande hud med effektiva lösningar.';
 $seo_keywords = 'mogen hy, hudåldrande, åldrande hud, hudvårdsbehandlingar, åldrande hudbehandling, rynkor, fina linjer, åldrande hudvård';
 

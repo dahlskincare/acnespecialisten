@@ -4,7 +4,7 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Microneedling Resultat för Akneärr hos AcneSpecialisten | Hudförnyelse och Förbättring</title>
+    <title>Microneedling Resultat för Akneärr | Hudförnyelse och Förbättring</title>
     <meta name="description" content="Se de anmärkningsvärda förändringarna som microneedling-behandlingar åstadkommer för akneärr hos AcneSpecialisten. Utforska våra före- och efterbilder som visar hur denna avancerade teknik effektivt minimerar akneärr och förbättrar hudens struktur och utseende.">
     <meta name="keywords" content="Microneedling akneärr resultat, AcneSpecialisten framgångar med microneedling, Hudförnyelse, Jämn hudton, Behandla akneärr, Kundcase microneedling, Effektiv akneärrbehandling, Hudhälsans förbättring, Akneärr före- och efterbilder med microneedling">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

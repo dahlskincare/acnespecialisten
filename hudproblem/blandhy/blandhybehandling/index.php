@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Blandhy - Effektiv Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Behandla Blandhy - Effektiv Behandling och Förebyggande';
 $seo_description = 'Lär dig allt om blandhy, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'blandhy, behandling av blandhy, orsaker till blandhy, förebygga blandhy, ta hand om blandhy, hudvård för blandhy, torra partier, oljiga partier';
 

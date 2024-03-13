@@ -4,7 +4,7 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Blandhy Resultat hos AcneSpecialisten | Balanserade Hudförändringar</title>
+    <title>Blandhy Resultat | Balanserade Hudförändringar</title>
     <meta name="description" content="Upptäck AcneSpecialistens framgångar med att behandla och balansera blandhy genom våra kundcase. Se effekten av våra anpassade behandlingar som harmoniserar både torra och oljiga hudområden, förbättrar hudens övergripande struktur och utseende. Bläddra igenom våra inspirerande före- och efterbilder som visar hur vi effektivt skapar en mer enhetlig och frisk hudton.">
     <meta name="keywords" content="Blandhy behandling resultat, AcneSpecialisten framgångar, Balanserad hudvård, Jämn hudton, Hantera blandhy, Kundcase blandhy, Effektiv behandling för blandhy, Hudhälsans förbättring, Blandhy före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

@@ -4,7 +4,7 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Akneärr Resultat hos AcneSpecialisten | Framgångshistorier i Hudförbättring</title>
+    <title>Akneärr Resultat | Framgångshistorier i Hudförbättring</title>
     <meta name="description" content="Utforska hur AcneSpecialisten framgångsrikt behandlar akneärr genom våra kundcase. Upptäck effekten av våra expertanpassade behandlingar som minimerar akneärr och förbättrar hudens utseende och struktur. Se våra imponerande före- och efterbilder som visar hur vi effektivt reducerar akneärr och återställer hudens jämnhet.">
     <meta name="keywords" content="Akneärrbehandling resultat, AcneSpecialisten framgångar, Hudförbättring, Jämn hudton, Reducera akneärr, Kundcase akneärr, Effektiv akneärrbehandling, Hudhälsans förbättring, Akneärr före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

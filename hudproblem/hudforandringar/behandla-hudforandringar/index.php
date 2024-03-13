@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Hudförändringar - Effektiv Behandling | AcneSpecialisten';
+$seo_title = 'Behandling av Hudförändringar - Effektiv Behandling';
 $seo_description = 'Utforska de mest effektiva behandlingsmetoderna för hudförändringar. Få skräddarsydda råd, tips, och expertis från AcneSpecialisten för att behandla och minska hudförändringar.';
 $seo_keywords = 'behandling av hudförändringar, hudförändringsbehandling, metod för hudförändringsbehandling, laserbehandling för hudförändringar, microneedling, kemisk peeling';
 

@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Everything about Acne Scars - Treatment, Causes, and Prevention | Acnespecialisten';
+$seo_title = 'Acne Scars - Treatment, Causes, and Prevention';
 $seo_description = 'Explore everything about acne scars, from their underlying causes to effective treatment methods and preventive measures. Receive professional help and individual solutions from Acnespecialisten.';
 $seo_keywords = 'acne scars, acne scar treatment, causes of acne scars, preventing acne scars, acne scar removal, scar reduction, skin renewal, scar treatment';
 

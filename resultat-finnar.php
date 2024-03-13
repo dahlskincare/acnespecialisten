@@ -4,7 +4,7 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Finnar Resultat hos AcneSpecialisten | Effektiva Hudförbättringar</title>
+    <title>Finnar Resultat | Effektiva Hudförbättringar</title>
     <meta name="description" content="Utforska hur AcneSpecialisten framgångsrikt behandlar finnar genom våra kundcase. Se den tydliga effekten av våra specialanpassade behandlingar som reducerar finnar och förbättrar hudens utseende. Våra före- och efterbilder visar hur vi effektivt bekämpar finnar och uppnår en klarare och friskare hud.">
     <meta name="keywords" content="Finnar behandling resultat, AcneSpecialisten framgångar, Effektiv finnarbehandling, Klar hud, Bekämpa finnar, Kundcase finnar, Resultatdriven finnarbehandling, Hudhälsans förbättring, Finnar före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
