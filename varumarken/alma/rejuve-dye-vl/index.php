@@ -91,8 +91,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudtillstånd behandlade med Rejuve Dye-VL';
-$types_description = 'Alma Rejuve Dye-VL erbjuder en högspecialiserad form av IPL (Intensivt Pulserande Ljus)-behandling, anpassad för att effektivt hantera en mängd olika hudproblem. Upptäck vilka hudtillstånd som kan förbättras och behandlas framgångsrikt med vår avancerade Dye-VL-teknologi.';
+$types_title = 'Hudtillstånd som behandlas med Rejuve Dye-VL';
+$types_description = '';
 $types = array(
     new Service(
         title: 'Rejuve Dye-VL behandling för Rosacea',
