@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Splendor X Laserbehandling - Revolutionerande Permanent Hårborttagning | Acnespecialisten';
 $seo_description = 'Välkommen till AcneSpecialisten, där vi stolt presenterar Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper. Splendor X kombinerar kraftfull teknik och skonsamhet för att ge dig snabba och hållbara resultat.';
-$seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, effektiv hårborttagning, säkerhet och komfort, långvariga resultat, alla hudtyper, snabb hårborttagning';
+$seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, ta bort hår';
 
 $seo_image = '/images/treatments/large/splendor-x.webp';
 
@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Hårborttagning - Splendor X',
     duration: null,
     price: 'Från 995 kr',
-    content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår.</p>',
+    content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent ta bort hår.</p>',
     image_small: 'bilder/varumarken/358x274/splendor-x.webp',
     image_large: 'bilder/varumarken/424x456/splendor-x.webp',
     image_alt: 'Permanent Hårborttagning',
@@ -53,15 +53,6 @@ $description_text = '<p class="p200">Splendor X står i frontlinjen för innovat
 <p class="p200 mt-m">En av de stora fördelarna med Splendor X är dess flexibilitet. Till skillnad från äldre metoder är denna behandling inte begränsad av solbränd hud, vilket gör den tillgänglig för behandling året runt. Den är otroligt snabb och effektiv, och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, från ansikte till ben. Splendor X behandlar de vanligaste nyanserna av hårstrån och fjun, men det bör noteras att gråa och röda hårstrån inte kan behandlas med denna teknik.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför Splendor X',
-        image_small: '/bilder/process/358x272/splendor-x-forberedelser.webp',
-        image_large: '/bilder/process/872x456/splendor-x-forberedelser.webp',
-        image_alt: 'Förberedelser inför Splendor X',
-        image_title: 'Förberedelser inför Splendor X',
-        content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället bör du raka området noggrant dagen före din behandling.</p>
-        <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika solning och användning av självbruningsprodukter under de veckor som leder upp till behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går behandling med Splendor X till?',
         image_small: '/bilder/process/358x272/splendor-x-process.webp',
@@ -421,16 +412,27 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Splendor X eftervård',
-    image_small: '/bilder/process/358x272/splendor-x-eftervard.webp',
-    image_large: '/bilder/process/872x456/splendor-x-eftervard.webp',
-    image_alt: 'Splendor X eftervård',
-    image_title: 'Splendor X eftervård',
-    content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>
-    <p class="p200 mt-m">Efter behandlingen kan man uppleva mild rodnad och en lätt värmande känsla i de behandlade områdena. Dessa symtom är normala och bör avta relativt snabbt, vilket är ett tecken på den skonsamma naturen hos Splendor X. För att stödja och påskynda återhämtningsprocessen, rekommenderas det att man sköter det behandlade området varsamt, undviker direkt solljus och använder ett högt SPF-solskydd för att skydda huden.</p>
-    <p class="p200 mt-m">Undvik att skrubba huden eller använda irriterande hudvårdsprodukter, och avstå från andra hårborttagningsmetoder som vaxning eller plockning. Genom att följa dessa steg säkerställer du att huden återhämtar sig effektivt och behåller de optimala resultaten från din Splendor X-behandling.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelser inför Splendor X',
+        image_small: '/bilder/process/358x272/splendor-x-forberedelser.webp',
+        image_large: '/bilder/process/872x456/splendor-x-forberedelser.webp',
+        image_alt: 'Förberedelser inför Splendor X',
+        image_title: 'Förberedelser inför Splendor X',
+        content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället bör du raka området noggrant dagen före din behandling.</p>
+        <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika solning och användning av självbruningsprodukter under de veckor som leder upp till behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
+    ),
+    'aftercare' => new Article(
+        title: 'Splendor X eftervård',
+        image_small: '/bilder/process/358x272/splendor-x-eftervard.webp',
+        image_large: '/bilder/process/872x456/splendor-x-eftervard.webp',
+        image_alt: 'Splendor X eftervård',
+        image_title: 'Splendor X eftervård',
+        content: '<p class="p200">Eftervården efter en Splendor X-behandling för permanent hårborttagning är avgörande för att främja en förbättrad och effektiv återhämtning. Splendor X-teknologin är utformad för att vara skonsam mot huden, vilket bidrar till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Dock är det viktigt att följa eftervårdsråden för att maximera denna fördel.</p>
+        <p class="p200 mt-m">Efter behandlingen kan man uppleva mild rodnad och en lätt värmande känsla i de behandlade områdena. Dessa symtom är normala och bör avta relativt snabbt, vilket är ett tecken på den skonsamma naturen hos Splendor X. För att stödja och påskynda återhämtningsprocessen, rekommenderas det att man sköter det behandlade området varsamt, undviker direkt solljus och använder ett högt SPF-solskydd för att skydda huden.</p>
+        <p class="p200 mt-m">Undvik att skrubba huden eller använda irriterande hudvårdsprodukter, och avstå från andra hårborttagningsmetoder som vaxning eller plockning. Genom att följa dessa steg säkerställer du att huden återhämtar sig effektivt och behåller de optimala resultaten från din Splendor X-behandling.</p>',
+    ),
+);
 
 $service_brands_title = 'Märken för Permanent Hårborttagning';
 $service_brands_text = '<p class="p200">Utöver Splendor X utför vi även permanent hårborttagning med Soprano Ice.</p>';
