@@ -79,15 +79,6 @@ $description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, 
 <p class="p200 mt-m">Photonova-maskinen under Powerlite-varumärket skiljer sig från traditionella IPL-behandlingar genom sin avancerade teknologi som möjliggör mer preciserade och effektiva behandlingar av olika hudproblem. Med dess förmåga att finjusteras efter varje individs hudbehov, erbjuder Photonova en säker och skonsam upplevelse med minimala biverkningar. Denna behandlingsmetod möjliggör snabb återgång till vardagsaktiviteter och är idealisk för de som önskar en jämnare hudton och en förbättrad övergripande hudkvalitet.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför behandling med Powerlite Photonova',
-        image_small: '/bilder/process/358x272/powerlite-photonova-forberedelser.webp',
-        image_large: '/bilder/process/872x456/powerlite-photonova-forberedelser.webp',
-        image_alt: 'Förberedelser inför behandling med Powerlite Photonova',
-        image_title: 'Förberedelser inför behandling med Powerlite Photonova',
-        content: '<p class="p200">Att förbereda sig inför en Powerlite Photonova-behandling är ett viktigt steg för att säkerställa att din hud är i bästa möjliga skick. Det första steget är en konsultation med en erfaren hudterapeut där din hudtyp och dina unika behov noggrant utvärderas. Under denna konsultation skapas en individuellt anpassad behandlingsplan med Powerlite Photonova-tekniken för att uppnå de bästa resultaten.</p>
-        <p class="p200 mt-m">För att förbereda din hud bör du undvika solning och inte använda självbrunande produkter minst två veckor före behandlingen för att minska risken för oönskade pigmentförändringar. Detta är viktigt eftersom Powerlite Photonova-behandlingen är mest effektiv när huden är i sin naturliga ton. Undvik även hudvårdsprodukter som innehåller starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att ge dig omfattande råd och instruktioner för förberedelser och eftervård, för att säkerställa en säker behandlingsupplevelse och en effektiv återhämtningsprocess.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går en Powerlite Photonova behandling till?',
         image_small: '/bilder/process/358x272/powerlite-photonova-process.webp',
@@ -378,16 +369,27 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för Powerlite Photonova',
-    image_small: '/bilder/process/358x272/powerlite-photonova-eftervard.webp',
-    image_large: '/bilder/process/872x456/powerlite-photonova-eftervard.webp',
-    image_alt: 'Eftervård för Powerlite Photonova',
-    image_title: 'Eftervård för Powerlite Photonova',
-    content: '<p class="p200">Eftervården är en viktigt del av Powerlite Photonova processen för att säkerställa ett bra resultat och en effektiv återhämtningsprocess. Efter behandlingen är det vanligt att uppleva en viss rodnad och svullnad i det behandlade området. För att minska risken för irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
-    <p class="p200 mt-m">Det är rekommenderat att undvika intensiva fysiska aktiviteter, bastubad och långa varma duschar under de första dagarna efter din Powerlite Photonova-behandling, eftersom dessa kan förvärra svullnad och irritation. Användning av solskydd med hög SPF är också viktigt för att skydda huden från UV-strålning, särskilt på de behandlade områdena. Vi råder att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att stödja läkningsprocessen och bevara hudens fuktbalans.</p>
-    <p class="p200 mt-m">Det är essentiellt att du noggrant följer de eftervårdsinstruktioner som ges av din behandlare. Vid frågor eller funderingar kring din eftervård, tveka inte att kontakta kliniken. Baserat på hur din hud reagerar, kan ytterligare behandlingar med Powerlite Photonova rekommenderas för att uppnå och bibehålla optimala resultat.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelser inför behandling med Powerlite Photonova',
+        image_small: '/bilder/process/358x272/powerlite-photonova-forberedelser.webp',
+        image_large: '/bilder/process/872x456/powerlite-photonova-forberedelser.webp',
+        image_alt: 'Förberedelser inför behandling med Powerlite Photonova',
+        image_title: 'Förberedelser inför behandling med Powerlite Photonova',
+        content: '<p class="p200">Att förbereda sig inför en Powerlite Photonova-behandling är ett viktigt steg för att säkerställa att din hud är i bästa möjliga skick. Det första steget är en konsultation med en erfaren hudterapeut där din hudtyp och dina unika behov noggrant utvärderas. Under denna konsultation skapas en individuellt anpassad behandlingsplan med Powerlite Photonova-tekniken för att uppnå de bästa resultaten.</p>
+        <p class="p200 mt-m">För att förbereda din hud bör du undvika solning och inte använda självbrunande produkter minst två veckor före behandlingen för att minska risken för oönskade pigmentförändringar. Detta är viktigt eftersom Powerlite Photonova-behandlingen är mest effektiv när huden är i sin naturliga ton. Undvik även hudvårdsprodukter som innehåller starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att ge dig omfattande råd och instruktioner för förberedelser och eftervård, för att säkerställa en säker behandlingsupplevelse och en effektiv återhämtningsprocess.</p>',
+    ),
+    'aftercare' => new Article(
+        title: 'Eftervård för Powerlite Photonova',
+        image_small: '/bilder/process/358x272/powerlite-photonova-eftervard.webp',
+        image_large: '/bilder/process/872x456/powerlite-photonova-eftervard.webp',
+        image_alt: 'Eftervård för Powerlite Photonova',
+        image_title: 'Eftervård för Powerlite Photonova',
+        content: '<p class="p200">Eftervården är en viktigt del av Powerlite Photonova processen för att säkerställa ett bra resultat och en effektiv återhämtningsprocess. Efter behandlingen är det vanligt att uppleva en viss rodnad och svullnad i det behandlade området. För att minska risken för irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
+        <p class="p200 mt-m">Det är rekommenderat att undvika intensiva fysiska aktiviteter, bastubad och långa varma duschar under de första dagarna efter din Powerlite Photonova-behandling, eftersom dessa kan förvärra svullnad och irritation. Användning av solskydd med hög SPF är också viktigt för att skydda huden från UV-strålning, särskilt på de behandlade områdena. Vi råder att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att stödja läkningsprocessen och bevara hudens fuktbalans.</p>
+        <p class="p200 mt-m">Det är essentiellt att du noggrant följer de eftervårdsinstruktioner som ges av din behandlare. Vid frågor eller funderingar kring din eftervård, tveka inte att kontakta kliniken. Baserat på hur din hud reagerar, kan ytterligare behandlingar med Powerlite Photonova rekommenderas för att uppnå och bibehålla optimala resultat.</p>',
+    ),
+);
 
 $service_brands_title = 'Andra märken för IPL';
 $service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även Alma Harmony XL och Photonova som är de bästa maskinerna på marknaden för IPL.</p>';

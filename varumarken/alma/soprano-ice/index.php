@@ -53,19 +53,6 @@ $description_text = '<p class="p200">Soprano ICE är en innovation inom området
 <p class="p200 mt-m">Soprano ICE:s stora fördel är dess mångsidighet och förmåga att behandla kunder året runt, även de med solbränd hud. Behandlingen är exceptionellt snabb och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, inklusive känsliga områden som ansiktet. Soprano ICE är effektiv för de flesta hårtyper och nyanser, även om det bör noteras att vissa hårtyper som grått och mycket ljust hår kan vara svårare att behandla med denna metod.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför Soprano Ice',
-        image_small: '/bilder/process/358x272/soprano-ice-forberedelser.webp',
-        image_large: '/bilder/process/872x456/soprano-ice-forberedelser.webp',
-        image_alt: 'Förberedelser inför Splendor X',
-        image_title: 'Förberedelser inför Splendor X',
-        content: '<p class="p200">Att noggrant förbereda sig inför en Soprano ICE-behandling är essentiellt för att uppnå optimala resultat i permanent hårborttagning. Denna toppmoderna laserbehandling kräver specifika förberedelser för att garantera en effektiv och säker session. Innan din Soprano ICE-behandling är det viktigt att du inte vaxar eller noppar hår i det område som ska behandlas. Lasern fungerar bäst när hårfolliklarna är intakta, så det rekommenderas att du raka området noga dagen före din behandling.</p>
-        <p class="p200 mt-m">För att maximera säkerheten och effektiviteten med Soprano ICE, bör du undvika solning och användning av självbruningsprodukter under veckorna före din behandling. Solbränd hud kan påverka behandlingens utfall och öka risken för biverkningar. Genom att följa dessa förberedelser säkerställer du att din hud är i bästa möjliga skick inför Soprano ICE-behandlingen, vilket bidrar till en effektiv och problemfri hårborttagningsprocess.</p>',
-        tags: array(new ArticleTag(
-            icon: 'rakning',
-            label: 'Rakning'
-        ))
-    ),
     'process' => new Article(
         title: 'Hur går behandling med Soprano Ice till?',
         image_small: '/bilder/process/358x272/soprano-ice-process.webp',
@@ -74,13 +61,6 @@ $top_articles = array(
         image_title: 'Hur går behandlingen med Soprano Ice till?',
         content: '<p class="p200">Under en Soprano ICE-session appliceras specialiserat laserljus på de önskade områdena för hårborttagning. Denna laser använder en unik kombination av våglängder som absorberas av pigmentet i hårfolliklarna och omvandlas till värme, vilket effektivt skadar folliklarna och förhindrar framtida hårväxt.</p>
         <p class="p200 mt-m">En viktig del av Soprano ICE-behandlingen är användningen av en speciell gel som hjälper till att leda laserljuset effektivt och öka patientkomforten. Denna gel hjälper till att skydda huden under behandlingen och bidrar till en jämnare fördelning av laserns värme. Efter behandlingen kan det uppstå en viss rodnad och svullnad i de behandlade områdena, men dessa symtom är normalt milda och övergående. För att uppnå bästa möjliga och långvariga resultat är det ofta nödvändigt med flera behandlingssessioner. Vår expertis och användning av Soprano ICE säkerställer en effektiv, säker och bekväm upplevelse för permanent hårborttagning, vilket resulterar i en mjuk och hårfri hud.</p>',
-        tags: array(new ArticleTag(
-            icon: 'smartfri',
-            label: 'Smärtfri'
-        ), new ArticleTag(
-            icon: 'precision',
-            label: 'Precision'
-        ))
     ),
 );
 
@@ -430,16 +410,31 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Soprano Ice eftervård',
-    image_small: '/bilder/process/358x272/soprano-ice-eftervard.webp',
-    image_large: '/bilder/process/872x456/soprano-ice-eftervard.webp',
-    image_alt: 'Soprano Ice eftervård',
-    image_title: 'Soprano Ice eftervård',
-    content: '<p class="p200">Eftervården efter en Soprano ICE-behandling för permanent hårborttagning är en viktig del av processen och spelar en avgörande roll för en smidig och effektiv återhämtning. Soprano ICE är känd för sin skonsamma behandlingsmetod, vilket ofta leder till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Att följa eftervårdsråden är dock viktigt för att uppnå bästa möjliga resultat.</p>
-    <p class="p200 mt-m">Efter din behandling kan du uppleva mild rodnad och en lätt värmande känsla i det behandlade området, vilket är normala reaktioner som vanligtvis avtar inom kort tid. Detta indikerar Soprano ICE:s skonsamma effekt på huden. För att främja en snabb återhämtning bör du behandla området varsamt, undvika direkt exponering för solljus och använda solskyddsmedel med hög SPF för att skydda huden.</p>
-    <p class="p200 mt-m">Undvik att skrubba eller irritera huden med starka hudvårdsprodukter och undvik andra hårborttagningsmetoder som vaxning eller plockning under återhämtningsperioden. Genom att följa dessa riktlinjer kan du säkerställa att din hud återhämtar sig på bästa sätt och behåller de optimala resultaten från din Soprano ICE-behandling.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelser inför Soprano Ice',
+        image_small: '/bilder/process/358x272/soprano-ice-forberedelser.webp',
+        image_large: '/bilder/process/872x456/soprano-ice-forberedelser.webp',
+        image_alt: 'Förberedelser inför Splendor X',
+        image_title: 'Förberedelser inför Splendor X',
+        content: '<p class="p200">Att noggrant förbereda sig inför en Soprano ICE-behandling är essentiellt för att uppnå optimala resultat i permanent hårborttagning. Denna toppmoderna laserbehandling kräver specifika förberedelser för att garantera en effektiv och säker session. Innan din Soprano ICE-behandling är det viktigt att du inte vaxar eller noppar hår i det område som ska behandlas. Lasern fungerar bäst när hårfolliklarna är intakta, så det rekommenderas att du raka området noga dagen före din behandling.</p>
+        <p class="p200 mt-m">För att maximera säkerheten och effektiviteten med Soprano ICE, bör du undvika solning och användning av självbruningsprodukter under veckorna före din behandling. Solbränd hud kan påverka behandlingens utfall och öka risken för biverkningar. Genom att följa dessa förberedelser säkerställer du att din hud är i bästa möjliga skick inför Soprano ICE-behandlingen, vilket bidrar till en effektiv och problemfri hårborttagningsprocess.</p>',
+        tags: array(new ArticleTag(
+            icon: 'rakning',
+            label: 'Rakning'
+        ))
+    ),
+    'aftercare' => new Article(
+        title: 'Soprano Ice eftervård',
+        image_small: '/bilder/process/358x272/soprano-ice-eftervard.webp',
+        image_large: '/bilder/process/872x456/soprano-ice-eftervard.webp',
+        image_alt: 'Soprano Ice eftervård',
+        image_title: 'Soprano Ice eftervård',
+        content: '<p class="p200">Eftervården efter en Soprano ICE-behandling för permanent hårborttagning är en viktig del av processen och spelar en avgörande roll för en smidig och effektiv återhämtning. Soprano ICE är känd för sin skonsamma behandlingsmetod, vilket ofta leder till en snabbare återhämtning jämfört med traditionella laserbehandlingar. Att följa eftervårdsråden är dock viktigt för att uppnå bästa möjliga resultat.</p>
+        <p class="p200 mt-m">Efter din behandling kan du uppleva mild rodnad och en lätt värmande känsla i det behandlade området, vilket är normala reaktioner som vanligtvis avtar inom kort tid. Detta indikerar Soprano ICE:s skonsamma effekt på huden. För att främja en snabb återhämtning bör du behandla området varsamt, undvika direkt exponering för solljus och använda solskyddsmedel med hög SPF för att skydda huden.</p>
+        <p class="p200 mt-m">Undvik att skrubba eller irritera huden med starka hudvårdsprodukter och undvik andra hårborttagningsmetoder som vaxning eller plockning under återhämtningsperioden. Genom att följa dessa riktlinjer kan du säkerställa att din hud återhämtar sig på bästa sätt och behåller de optimala resultaten från din Soprano ICE-behandling.</p>',
+    ),
+);
 
 $service_brands_title = 'Märken för Permanent Hårborttagning';
 $service_brands_text = '<p class="p200">Utöver Soprano Ice utför vi även permanent hårborttagning med Splendor X.</p>';
