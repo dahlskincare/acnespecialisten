@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Bekämpa Finnar på Bröstet: Experttips och Behandling | Acnespecialisten';
+$seo_title = 'Bekämpa Finnar på Bröstet: Experttips och Behandling';
 $seo_description = 'Utforska skräddarsydda metoder för att hantera finnar på bröstet med Acnespecialisten. Få insikt i orsaker och specialanpassade behandlingsalternativ för varje hudtyp.';
 $seo_keywords = 'bekämpa finnar på bröstet';
 

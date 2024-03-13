@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Finnar i Ansiktet: Orsaker, Behandling och Vård | Acnespecialisten';
+$seo_title = 'Finnar i Ansiktet: Orsaker, Behandling och Vård';
 $seo_description = 'Upptäck orsaker till och effektiva behandlingsstrategier för finnar i ansiktet för alla åldrar. Acnespecialisten erbjuder experttips och personligt anpassade lösningar.';
 $seo_keywords = 'finnar i ansiktet';
 

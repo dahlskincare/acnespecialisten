@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Pigmentfläckar - Effektiva Metoder och Förebyggande | AcneSpecialisten';
+$seo_title = 'Behandla Pigmentfläckar - Effektiva Metoder och Förebyggande';
 $seo_description = 'Lär dig allt om pigmentfläckar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
 $seo_keywords = 'pigmentfläckar, behandla pigmentfläckar, orsaker till pigmentfläckar, förebygga pigmentfläckar, reducera pigmentfläckar, solskador, melasma, lentigo, hudfläckar, ojämn hudton';
 

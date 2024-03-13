@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Solskadad Hy - Behandlingsmetoder, Orsaker och Förebyggande | Acnespecialisten';
+$seo_title = 'Allt om Solskadad Hy - Behandling, Orsak och Förebygg';
 $seo_description = 'Utforska allt om solskadad hy, dess orsaker, effektiva behandlingar och förebyggande åtgärder. Få expertvägledning och skräddarsydda lösningar från Acnespecialisten för att hantera och reparera solskadad hy.';
 $seo_keywords = 'solskadad hy, behandla solskadad hy, orsaker till solskadad hy, förebygga solskador, minska solskador, solskador på huden, behandling av solskador, hudens återhämtning efter solen';
 
