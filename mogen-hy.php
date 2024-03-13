@@ -425,7 +425,7 @@ $services = array(
             image_alt: 'Bild av laserbehandling mot mogen hy',
             image_title: 'Laserbehandling mot mogen hy',
 
-            url: '/behandlingar/laser-mot-hudhudproblem/',
+            url: '/behandlingar/laser-mot-hudproblem/',
             url_label: 'Läs mer om laser mot mogen hy',
             url_title: 'Läs mer om laser mot mogen hy',
 

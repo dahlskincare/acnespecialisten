@@ -443,7 +443,7 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
-            url: '/behandlingar/laser-mot-hudhudproblem/',
+            url: '/behandlingar/laser-mot-hudproblem/',
             url_label: 'Läs mer om laser mot finnar',
             url_title: 'Läs mer om laser mot finnar',
       ),

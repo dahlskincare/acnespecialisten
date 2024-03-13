@@ -340,7 +340,7 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_PigmentationSpots',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
-            url: '/behandlingar/laser-mot-hudhudproblem/',
+            url: '/behandlingar/laser-mot-hudproblem/',
             url_label: 'Läs mer om laser mot pigmentfläckar',
             url_title: 'Läs mer om laser mot pigmentfläckar'
       ),

@@ -262,7 +262,7 @@ $services = array(
             image_alt: 'Bild av laserbehandling för stora porer',
             image_title: 'Laserbehandling för stora porer',
 
-            url: '/behandlingar/laser-mot-hudhudproblem/',
+            url: '/behandlingar/laser-mot-hudproblem/',
             url_label: 'Läs mer om laser mot stora porer',
             url_title: 'Läs mer om laser mot stora porer',
 

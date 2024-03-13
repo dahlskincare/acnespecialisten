@@ -356,7 +356,7 @@ $services = array(
             image_alt: 'Bild av laserbehandling mot pormaskar',
             image_title: 'Laserbehandling mot pormaskar',
 
-            url: '/behandlingar/laser-mot-hudhudproblem/',
+            url: '/behandlingar/laser-mot-hudproblem/',
             url_label: 'Läs mer om laser mot pormaskar',
             url_title: 'Läs mer om laser mot pormaskar',
 
