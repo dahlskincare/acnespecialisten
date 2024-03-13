@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Splendor X',
+    title: 'Hårborttagning - Splendor X',
     duration: null,
     price: 'Från 995 kr',
     content: '<p class="p200">Splendor X representerar en banbrytande utveckling inom permanent hårborttagning med laser, och erbjuder en avancerad lösning för dig som önskar att permanent minska oönskat hår.</p>',
