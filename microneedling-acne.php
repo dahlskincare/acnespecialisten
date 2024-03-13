@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot Akne - Reducera akne effektivt | Acnespecialisten';
+$seo_title = 'Microneedling mot Akne - Reducera akne effektivt';
 $seo_description = 'Utforska hur AcneSpecialistens microneedling-behandlingar effektivt kan behandla akne och förbättra huden Vår mikronålsteknik stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket resulterar i en klarare och mer hälsosam hud.';
 $seo_keywords = 'microneedling, aknebehandling, förbättra hudkvalitet, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling mot akne, hudhälsa, minskning av akne';
 
