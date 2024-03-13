@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Alma Rejuve Dye-VL: Specialiserad IPL-teknik för Hudförbättring';
-$seo_description = 'Alma Rejuve Dye-VL är en avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea. Dye-VL-tekniken använder en unik ljusvåglängd som är optimal för att selektivt rikta sig mot och behandla hudens ojämnheter, vilket leder till en betydande förbättring i hudens ton och textur för en klarare och mer enhetlig hudton.';
-$seo_keywords = 'Alma Rejuve Dye-VL, specialiserad IPL-behandling, pigmentfläckar behandling, reducera ytliga blodkärl, rosacea-behandling, Dye-VL teknik, hudförbättring, avancerad hudföryngring, jämn hudton, AcneSpecialisten';
+$seo_title = 'IPL för Hudföryngring - Alma Rejuve Dye-VL';
+$seo_description = 'En avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea med en unik ljusvåglängd.';
+$seo_keywords = 'Alma Rejuve Dye-VL, IPL-behandling';
 
 $seo_image = '/images/treatments/large/alma-rejuve-dye-vl.webp';
 
