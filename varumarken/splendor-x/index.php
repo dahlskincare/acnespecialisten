@@ -49,8 +49,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Splendor X laser?';
-$description_text = '<p class="p200">Splendor X står i frontlinjen för innovation inom permanent hårborttagning. Denna avancerade metod kombinerar ljus med två olika våglängder (Alexandritlaser och Nd:YAG) för att effektivt behandla en mångfald av hårtyper. Med sin unika och effektiva kylmetod erbjuder Splendor X en nästan helt smärtfri upplevelse, vilket revolutionerar traditionell laserbehandling.</p>
-<p class="p200 mt-m">En av de stora fördelarna med Splendor X är dess flexibilitet. Till skillnad från äldre metoder är denna behandling inte begränsad av solbränd hud, vilket gör den tillgänglig för behandling året runt. Den är otroligt snabb och effektiv, och kräver ingen återhämtningstid, vilket gör den idealisk för alla områden på kroppen, från ansikte till ben. Splendor X behandlar de vanligaste nyanserna av hårstrån och fjun, men det bör noteras att gråa och röda hårstrån inte kan behandlas med denna teknik.</p>';
+$description_text = '<p class="p200">Splendor X är en framstående laserutrustning från Lumenis, specialiserad på permanent hårborttagning genom användning av BLEND X-teknologi. Denna teknologi kombinerar Nd:YAG- och Alexandritlasrar för att skapa en skräddarsydd behandling lämplig för nästan alla hud- och hårtyper. Detta innovativa system erbjuder en nästan smärtfri upplevelse, tack vare en unik kylmetod, vilket skiljer den från traditionella laserbehandlingar.</p>
+<p class="p200 mt-m">Utrustningen är designad för att vara flexibel och kan användas på hela kroppen, inklusive ansikte och ben, oavsett årstid eller hudens solbränna. Detta gör det möjligt att genomföra behandlingar året runt utan behov av återhämtningstid. Den är dock effektiv mot de flesta andra hårnyanser och fjun, vilket gör den till en idealisk lösning för dem som söker efter permanent hårborttagning.</p>';
 
 $top_articles = array(
     'process' => new Article(
@@ -59,8 +59,8 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/splendor-x-process.webp',
         image_alt: 'Hur går behandlingen med Splendor X till?',
         image_title: 'Hur går behandlingen med Splendor X till?',
-        content: '<p class="p200">Splendor X är en framstående laserutrustning från Lumenis, specialiserad på permanent hårborttagning genom användning av BLEND X-teknologi. Denna teknologi kombinerar Nd:YAG- och Alexandritlasrar för att skapa en skräddarsydd behandling lämplig för nästan alla hud- och hårtyper. Detta innovativa system erbjuder en nästan smärtfri upplevelse, tack vare en unik kylmetod, vilket skiljer den från traditionella laserbehandlingar som inte använder nåogn gel för kylning vilket gör behandlingen helt kladdfri.</p>
-        <p class="p200 mt-m">Utrustningen är designad för att vara flexibel och kan användas på hela kroppen, inklusive ansikte och ben, oavsett årstid eller hudens solbränna. Detta gör det möjligt att genomföra behandlingar året runt utan behov av återhämtningstid. Den är dock effektiv mot de flesta andra hårnyanser och fjun, vilket gör den till en idealisk lösning för dem som söker efter permanent hårborttagning.</p>',
+        content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Detta ljus absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme skadar effektivt folliklarna utan att skada omgivande vävnad, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
+        <p class="p200 mt-m">En av de största fördelarna med Splendor X är att den inte kräver användning av gel under behandlingen, vilket gör hela processen renare och bekvämare för dig som kund. Efter behandlingen kan det förekomma en viss rodnad och svullnad i de behandlade områdena, men dessa reaktioner är milda och försvinner vanligtvis snabbt. För att uppnå optimala och långvariga resultat kan det vara nödvändigt med flera behandlingssessioner, då hår växer i olika faser och varje strå måste behandlas vid rätt tidpunkt. Vår expertis och avancerade teknik med Splendor X säkerställer en effektiv, säker och bekväm upplevelse, vilket resulterar i slät och hårfri hud.</p>',
     ),
 );
 
