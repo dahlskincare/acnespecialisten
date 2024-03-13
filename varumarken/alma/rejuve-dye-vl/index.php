@@ -98,7 +98,7 @@ $types = array(
         title: 'Rejuve Dye-VL mot Rosacea',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Utnyttja kraften i Rejuve Dye-VL för att effektivt behandla rosacea. Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
+        content: 'Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
         image_small: 'bilder/problem/102x102/rosacea.webp',
         image_large: 'bilder/problem/200x200/rosacea.webp',
         image_alt: 'Rejuve Dye-VL behandling för Rosacea',
@@ -119,7 +119,7 @@ $types = array(
         title: 'Rejuve Dye-VL mot Ytliga Blodkärl',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Rejuve Dye-VL erbjuder en skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
+        content: 'En skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
         image_small: 'bilder/problem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/problem/200x200/ytliga-blodkarl.webp',
         image_alt: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
@@ -140,7 +140,7 @@ $types = array(
         title: 'Rejuve Dye-VL mot Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Använd fördelarna med Rejuve Dye-VL för att effektivt minska och ljusa upp pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
+        content: 'Effektiv minskning och uppljusning av pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
         image_small: 'bilder/problem/102x102/pigmentflackar.webp',
         image_large: 'bilder/problem/200x200/pigmentflackar.webp',
         image_alt: 'Rejuve Dye-VL behandling för Pigmentfläckar',
@@ -161,7 +161,7 @@ $types = array(
         title: 'Rejuve Dye-VL mot Melasma',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Med Rejuve Dye-VL kan du effektivt behandla melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
+        content: 'Effektivt behandling melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
         image_small: 'bilder/problem/102x102/pigmentflackar.webp',
         image_large: 'bilder/problem/200x200/pigmentflackar.webp',
         image_alt: 'Rejuve Dye-VL behandling för Melasma',
@@ -181,7 +181,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Rejuve Dye-VL';
-$treatment_areas_text = '<p class="p200">Rejuve Dye-VL, en avancerad form av IPL (Intensivt Pulserande Ljus), erbjuder mångsidig behandling för olika områden på kroppen. Denna specialiserade teknik är särskilt effektiv för ansikte, hals, händer och bröst, där den kan målriktat behandla hudproblem som pigmentfläckar, ytliga blodkärl och ojämn hudton.</p>';
+$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
