@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Pigmentfläckar - Effektiva Metoder och Förebyggande | AcneSpecialisten';
+$seo_title = 'Behandla Pigmentfläckar - Effektiva Metoder och Förebyggande';
 $seo_description = 'Lär dig allt om pigmentfläckar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
 $seo_keywords = 'pigmentfläckar, behandla pigmentfläckar, orsaker till pigmentfläckar, förebygga pigmentfläckar, reducera pigmentfläckar, solskador, melasma, lentigo, hudfläckar, ojämn hudton';
 
@@ -11,8 +11,8 @@ $seo_keywords = 'pigmentfläckar, behandla pigmentfläckar, orsaker till pigment
 
 $seo_image = 'images/treatments/large/ipl.webp';
 
-$image_large = 'bilder/problem/424x456/pigmentflackar.webp';
-$image_small = 'bilder/problem/424x456/pigmentflackar.webp';
+$image_large = 'bilder/hudproblem/424x456/pigmentflackar.webp';
+$image_small = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 $image_alt = 'Bild som illustrerar pigmentfläckar';
 $image_title = 'Pigmentfläckar';
 
@@ -377,7 +377,7 @@ $brands_url_title = "Varumärken för pigmentfläcksbehandling";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>

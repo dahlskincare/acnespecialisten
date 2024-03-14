@@ -395,7 +395,7 @@ $brands_url_title = "Varumärken för behandling av acneärr";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>

@@ -11,17 +11,17 @@ $seo_keywords = 'bristningar, orsaker till bristningar, förebygga bristningar, 
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = '/bilder/problem/424x456/bristningar.webp';
+$seo_image = '/bilder/hudproblem/424x456/bristningar.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
-      new PathSegment('Bristningar', '/problem/bristningar'),
+      new PathSegment('Bristningar', '/hudproblem/bristningar'),
 );
 
 $title = 'Bristningar';
 
-$image_small = 'bilder/problem/424x324/bristningar.webp';
-$image_large = 'bilder/problem/424x456/bristningar.webp';
+$image_small = 'bilder/hudproblem/424x324/bristningar.webp';
+$image_large = 'bilder/hudproblem/424x456/bristningar.webp';
 $image_title = 'Visar en hud med bristningar';
 $image_alt = 'Bild som illustrerar hur bristningar ser ut på huden';
 $description = 'Bristningar är linjer på huden som uppstår när huden tänjs ut snabbt. På den här sidan förklarar vi varför bristningar bildas och vilka faktorer som kan påverka deras utveckling.';
@@ -129,12 +129,12 @@ $treatment_steps = array(
             content: 'Vi utför effektiva behandlingar anpassade för din specifika hud och bristningstyp, så att du snabbt och säkert kan minska synligheten av dina bristningar.',
 
             url_label: 'Se behandlingar',
-            url: 'problem/bristningar/behandla-bristningar',
+            url: 'hudproblem/bristningar/behandla-bristningar',
             url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
 );
 
-$treatment_link = '<a href="problem/bristningar/behandla-bristningar" title="Utforska effektiva behandlingar mot bristningar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot bristningar</a>';
+$treatment_link = '<a href="hudproblem/bristningar/behandla-bristningar" title="Utforska effektiva behandlingar mot bristningar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot bristningar</a>';
 /*
 $types_title = 'Olika typer av bristningar';
 
@@ -848,8 +848,8 @@ $brands_url_title = "Varumärken för behandling av bristningar";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>

@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Blodprickar - Effektiva Metoder | Acnespecialisten';
@@ -11,12 +11,12 @@ $seo_keywords = 'blodprickar, behandling av blodprickar, hudförändringar, klar
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/hudforandringar.webp';
+$seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';
 
 $title = 'Behandling av Blodprickar';
 
-$image_small = 'bilder/problem/424x324/hudforandringar.webp';
-$image_large = 'bilder/problem/424x456/hudforandringar.webp';
+$image_small = 'bilder/hudproblem/424x324/hudforandringar.webp';
+$image_large = 'bilder/hudproblem/424x456/hudforandringar.webp';
 $image_title = 'Effektiv behandling av blodprickar';
 $image_alt = 'Bild som illustrerar behandling av blodprickar';
 $description = 'Blodprickar, även kända som cherry angiomas, är små, röda hudförändringar som ofta uppkommer med åldern. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.';
@@ -94,12 +94,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
 
             url_label: 'Se behandlingar för blodprickar',
-            url: 'problem/hudforandringar/behandla-hudforandringar',
+            url: 'hudproblem/hudforandringar/behandla-hudforandringar',
             url_title: 'Läs mer om behandlingar för blodprickar'
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot blodprickar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot blodprickar</a>';
+$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot blodprickar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot blodprickar</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -385,7 +385,7 @@ $related_problems = array(
             image: 'images/problems/200x200/hudforandringar.webp',
             image_alt: 'Bild som visar hudforändringar',
             image_title: 'Hudförändringar',
-            url: 'problem/hudforandringar',
+            url: 'hudproblem/hudforandringar',
             url_title: 'Hudförändringar'
       ),
 );
@@ -472,8 +472,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -682,7 +682,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

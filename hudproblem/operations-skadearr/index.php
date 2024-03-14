@@ -11,17 +11,17 @@ $seo_keywords = 'operationsärr, skadeärr, orsaker till ärr, förebygga ärr, 
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = '/bilder/problem/424x456/arr.webp';
+$seo_image = '/bilder/hudproblem/424x456/arr.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
-      new PathSegment('Operations- och Skadeärr', '/problem/operations-skadearr'),
+      new PathSegment('Operations- och Skadeärr', '/hudproblem/operations-skadearr'),
 );
 
 $title = 'Operations- och Skadeärr';
 
-$image_small = 'bilder/problem/424x324/operations-skadearr.webp';
-$image_large = 'bilder/problem/424x456/operations-skadearr.webp';
+$image_small = 'bilder/hudproblem/424x324/operations-skadearr.webp';
+$image_large = 'bilder/hudproblem/424x456/operations-skadearr.webp';
 $image_title = 'Visar en hud med operations- och skadeärr';
 $image_alt = 'Bild som illustrerar hur operations- och skadeärr ser ut på huden';
 $description = 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Här hittar du detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.';
@@ -130,12 +130,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder avancerade behandlingar för olika typer av operations- och skadeärr, framtagna för att effektivt minska ärrvävnadens framträdande och förbättra hudens utseende.',
 
             url_label: 'Se ärrbehandlingar',
-            url: 'problem/operations-skadearr/behandla-operations-skadearr',
+            url: 'hudproblem/operations-skadearr/behandla-operations-skadearr',
             url_title: 'Utforska våra specialanpassade behandlingar för operations- och skadeärr'
       ),
 );
 
-$treatment_link = '<a href="problem/operations-skadearr/behandla-operations-skadearr" title="Utforska effektiva behandlingar mot operations- och skadeärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot operations- och skadeärr</a>';
+$treatment_link = '<a href="hudproblem/operations-skadearr/behandla-operations-skadearr" title="Utforska effektiva behandlingar mot operations- och skadeärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot operations- och skadeärr</a>';
 
 /*
 $types_title = 'Olika typer av operations- och skadeärr';
@@ -154,7 +154,7 @@ $type_categories = array(
                         image_alt: 'Bild av ytliga ärr',
                         image_title: 'Ytliga ärr exemplifierade',
 
-                        url: 'problem/arr/svarighetsgrad/ytliga-arr',
+                        url: 'hudproblem/arr/svarighetsgrad/ytliga-arr',
                         url_title: 'Utforska information om ytliga ärr',
                   ),
                   new BasedType(
@@ -165,7 +165,7 @@ $type_categories = array(
                         image_alt: 'Bild av mellan djupa ärr',
                         image_title: 'Mellan djupa ärr exemplifierade',
 
-                        url: 'problem/arr/svarighetsgrad/mellandjupa-arr',
+                        url: 'hudproblem/arr/svarighetsgrad/mellandjupa-arr',
                         url_title: 'Utforska information om mellan djupa ärr',
                   ),
                   new BasedType(
@@ -176,7 +176,7 @@ $type_categories = array(
                         image_alt: 'Bild av djupa och omfattande ärr',
                         image_title: 'Djupa och omfattande ärr exemplifierade',
 
-                        url: 'problem/arr/svarighetsgrad/djupa-arr',
+                        url: 'hudproblem/arr/svarighetsgrad/djupa-arr',
                         url_title: 'Utforska information om djupa och omfattande ärr',
                   ),
             )
@@ -234,7 +234,7 @@ $type_categories = array(
                         name: 'Hypertrofiska ärr',
                         aka: 'Keloid ärr',
                         content: 'Dessa är upphöjda ärr som bildas när det finns en överproduktion av vävnad på akneskadan. De ligger ovanför hudytan och är oftast begränsade till skadeområdet.',
-                        //url: 'problem/aknearr/hypertrfiska-arr',
+                        //url: 'hudproblem/aknearr/hypertrfiska-arr',
                         //url_title: 'Läs mer om hypertrofiska ärr',
                         //url_label: 'Läs mer',
                         image: 'bilder/symptom/102x102/hypertrofiska-arr.webp',
@@ -628,8 +628,8 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>

@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är stora porer? - Symptom, orsak och behandling';
@@ -11,7 +11,7 @@ $seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora pore
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = 'bilder/problem/424x456/stora-porer.webp';
+$seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
 
 $title = 'Stora Porer';
 
@@ -20,8 +20,8 @@ $path_segments = array(
       new PathSegment('Stora porer', '/stora-porer.php'),
 );
 
-$image_small = 'bilder/problem/424x324/stora-porer.webp';
-$image_large = 'bilder/problem/424x456/stora-porer.webp';
+$image_small = 'bilder/hudproblem/424x324/stora-porer.webp';
+$image_large = 'bilder/hudproblem/424x456/stora-porer.webp';
 $image_title = 'Visar en hud med stora porer';
 $image_alt = 'Bild som illustrerar hur stora porer ser ut på huden';
 $description = 'Stora porer är ofta resultatet av genetiska faktorer, åldrande och ökad talgproduktion. Här hittar du information och orsakar som påverkar porernas storlek, utseende och hur de påverkar hudens struktur.';
@@ -146,7 +146,7 @@ $symptoms = array(
             content: 'Det mest uppenbara tecknet på stora porer är synligt större poröppningar, särskilt i områdena kring näsan, kinderna och pannan.',
 
             //url_label: 'Läs mer om förstorade öppningar',
-            //url: 'problem/stora-porer/typer/forstorade-oppningar',
+            //url: 'hudproblem/stora-porer/typer/forstorade-oppningar',
             //url_title: 'Läs mer om synliga tecken på stora porer',
 
             image: 'bilder/symptom/102x102/oppna-komedoner.webp',
@@ -160,7 +160,7 @@ $symptoms = array(
             content: 'Huden kan kännas ojämn eller gropig till följd av de utvidgade porerna.',
 
             //url_label: 'Läs mer om ojämn hudtextur',
-            //url: 'problem/stora-porer/typer/ojamn-hudtextur',
+            //url: 'hudproblem/stora-porer/typer/ojamn-hudtextur',
             //url_title: 'Läs mer om hur stora porer påverkar hudens textur',
 
             image: 'bilder/symptom/102x102/apelsinhud.webp',
@@ -174,7 +174,7 @@ $symptoms = array(
             content: 'Stora porer är ofta förknippade med fet hud eftersom talgkörtlarna producerar mer olja, vilket kan leda till att porerna vidgas.',
 
             //url_label: 'Läs mer om ökad oljeproduktion',
-            //url: 'problem/stora-porer/typer/okad-oljeproduktion',
+            //url: 'hudproblem/stora-porer/typer/okad-oljeproduktion',
             //url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
 
             image: 'bilder/symptom/102x102/oljig-hy.webp',
@@ -566,7 +566,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Pormaskar',
             aka: 'Komedoner',
-            image: 'bilder/problem/200x200/pormaskar.webp',
+            image: 'bilder/hudproblem/200x200/pormaskar.webp',
             image_alt: 'Bild som visar pormaskar, en vanlig hudåkomma',
             image_title: 'Pormaskar - en vanlig hudåkomma',
             url: 'pormaskar.php',
@@ -575,7 +575,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Blandhy',
             aka: 'Oljig och torr hy',
-            image: 'bilder/problem/200x200/blandhy.webp',
+            image: 'bilder/hudproblem/200x200/blandhy.webp',
             image_alt: 'Blandhy i ansiktet',
             image_title: 'Blandhy - en vanlig hudåkomma',
             url: 'blandhy.php',
@@ -584,7 +584,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
             aka: 'Finnar',
-            image: 'bilder/problem/200x200/akne.webp',
+            image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Akne - en vanlig hudåkomma',
             url: 'acne.php',
@@ -658,8 +658,8 @@ $brands_url_title = "Varumärken för behandling av stora porer";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -780,7 +780,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -811,7 +811,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -896,7 +896,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

@@ -2,22 +2,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Mogen Hy - Effektiv Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Behandla Mogen Hy - Effektiv Behandling och Förebyggande';
 $seo_description = 'Upptäck skräddarsydda behandlingsalternativ för mogen hy hos Acnespecialisten. Vår kunskap hjälper dig att behandla och förebygga åldrande hud med effektiva lösningar.';
 $seo_keywords = 'mogen hy, hudåldrande, åldrande hud, hudvårdsbehandlingar, åldrande hudbehandling, rynkor, fina linjer, åldrande hudvård';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = '/bilder/problem/424x456/mogen-hy.webp';
+$seo_image = '/bilder/hudproblem/424x456/mogen-hy.webp';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
     new PathSegment('Mogen hy', '/mogen-hy.php'),
-    new PathSegment('Behandla Mogen hy', '/problem/mogen-hy/behandla-mogen-hy/'),
+    new PathSegment('Behandla Mogen hy', '/hudproblem/mogen-hy/behandla-mogen-hy/'),
 );
 
-$image_small = '/bilder/problem/424x324/mogen-hy.webp';
-$image_large = '/bilder/problem/424x456/mogen-hy.webp';
+$image_small = '/bilder/hudproblem/424x324/mogen-hy.webp';
+$image_large = '/bilder/hudproblem/424x456/mogen-hy.webp';
 $image_alt = 'Bild som illustrerar mogen hy';
 $image_title = 'Mogen hy';
 
@@ -427,7 +427,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>

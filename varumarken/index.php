@@ -146,7 +146,7 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'Permanent Hårborttagning',
-            url: '/permanent-harborttagning',
+            url: '/permanent-harborttagning.php',
             url_title: 'Läs mer',
             services: array(
                   "/varumarken/splendor-x" => "Splendor X",
@@ -177,7 +177,7 @@ $link_brands = array(
             url: '/kemisk-peeling.php',
             url_title: 'Läs mer',
             services: array(
-                  "/arumarken/skin-tech" => "Skin Tech",
+                  "/varumarken/skin-tech" => "Skin Tech",
                   "/prx-t33.php" => "PRX-T33",
             )
       ),

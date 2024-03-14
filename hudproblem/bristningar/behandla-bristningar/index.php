@@ -2,22 +2,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Bristningar - Effektiv Behandling | AcneSpecialisten';
+$seo_title = 'Behandling av Bristningar - Effektiv Behandling';
 $seo_description = 'Utforska de mest effektiva behandlingsmetoderna för bristningar. Få skräddarsydda råd, tips, och expertis från AcneSpecialisten för att behandla och minska bristningar.';
 $seo_keywords = 'behandling av bristningar, bristningsbehandling, metod för bristningsbehandling, laserbehandling för bristningar, microneedling, kemisk peeling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = '/bilder/problem/424x456/bristningar.webp';
+$seo_image = '/bilder/hudproblem/424x456/bristningar.webp';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
-    new PathSegment('Bristningar', '/problem/bristningar'),
-    new PathSegment('Behandla Bristningar', '/problem/bristningar/behandla-bristningar/'),
+    new PathSegment('Bristningar', '/hudproblem/bristningar'),
+    new PathSegment('Behandla Bristningar', '/hudproblem/bristningar/behandla-bristningar/'),
 );
 
-$image_small = '/bilder/problem/424x324/bristningar.webp';
-$image_large = '/bilder/problem/424x456/bristningar.webp';
+$image_small = '/bilder/hudproblem/424x324/bristningar.webp';
+$image_large = '/bilder/hudproblem/424x456/bristningar.webp';
 $image_alt = 'Bild som illustrerar bristningar';
 $image_title = 'Bristningar';
 
@@ -403,7 +403,7 @@ $brands_url_title = "Varumärken för behandling av bristningar";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>

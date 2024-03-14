@@ -1,15 +1,15 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är blandhy? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om blandhy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'blandhy, råd för blandhy, torra och oljiga partier';
 
-$seo_image = 'bilder/problem/424x456/blandhy.webp';
+$seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
 $title = 'Blandhy';
 
@@ -20,8 +20,8 @@ $path_segments = array(
 
 $description = 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.';
 
-$image_small = 'bilder/problem/424x324/blandhy.webp';
-$image_large = 'bilder/problem/424x456/blandhy.webp';
+$image_small = 'bilder/hudproblem/424x324/blandhy.webp';
+$image_large = 'bilder/hudproblem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med blandhy';
 $image_alt = 'Bild som illustrerar hur en blandhy ser ut';
 
@@ -136,7 +136,7 @@ $treatment_steps = array(
             content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden.',
 
             url_label: 'Utforska behandlingar',
-            url: 'problem/blandhy/blandhybehandling',
+            url: 'hudproblem/blandhy/blandhybehandling',
             url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(
@@ -150,7 +150,7 @@ $treatment_steps = array(
 
 );
 
-$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
+$treatment_link = '<a href="hudproblem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
 
 
 $symptoms_title = 'Blandhy symptom';
@@ -582,7 +582,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
             aka: 'Papler & Pustler',
-            image: 'bilder/problem/200x200/akne.webp',
+            image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'acne.php',
@@ -591,7 +591,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Pormaskar',
             aka: 'Komedoner',
-            image: 'bilder/problem/200x200/pormaskar.webp',
+            image: 'bilder/hudproblem/200x200/pormaskar.webp',
             image_alt: 'Bild som visar pormaskar, en vanlig hudåkomma',
             image_title: 'Pormaskar - en vanlig hudåkomma',
             url: 'pormaskar.php',
@@ -600,7 +600,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Stora porer',
             aka: 'Utvidgade porer',
-            image: 'bilder/problem/200x200/stora-porer.webp',
+            image: 'bilder/hudproblem/200x200/stora-porer.webp',
             image_alt: 'Ansikte med stora porer',
             image_title: 'Stora porer',
             url: 'stora-porer.php',
@@ -649,8 +649,8 @@ $brands_url_title = "Varumärken för Blandhybehandling";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -772,7 +772,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -804,7 +804,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -889,7 +889,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Alma Rejuve Dye-VL: Specialiserad IPL-teknik för Hudförbättring';
-$seo_description = 'Alma Rejuve Dye-VL är en avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea. Dye-VL-tekniken använder en unik ljusvåglängd som är optimal för att selektivt rikta sig mot och behandla hudens ojämnheter, vilket leder till en betydande förbättring i hudens ton och textur för en klarare och mer enhetlig hudton.';
-$seo_keywords = 'Alma Rejuve Dye-VL, specialiserad IPL-behandling, pigmentfläckar behandling, reducera ytliga blodkärl, rosacea-behandling, Dye-VL teknik, hudförbättring, avancerad hudföryngring, jämn hudton, AcneSpecialisten';
+$seo_title = 'IPL för Hudföryngring - Alma Rejuve Dye-VL';
+$seo_description = 'En avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea med en unik ljusvåglängd.';
+$seo_keywords = 'Alma Rejuve Dye-VL, IPL-behandling';
 
 $seo_image = '/images/treatments/large/alma-rejuve-dye-vl.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Alma Rejuve Dye-VL',
+    title: 'IPL för Hudföryngring - Rejuve Dye-VL',
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov.</p>',
@@ -98,9 +98,9 @@ $types = array(
         title: 'Rejuve Dye-VL mot Rosacea',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Utnyttja kraften i Rejuve Dye-VL för att effektivt behandla rosacea. Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
-        image_small: 'bilder/problem/102x102/rosacea.webp',
-        image_large: 'bilder/problem/200x200/rosacea.webp',
+        content: 'Denna specialiserade IPL-metod fokuserar på att mildra rodnad och andra symtom associerade med rosacea, för att skapa en jämnare hudton och förbättra hudens kvalitet.',
+        image_small: 'bilder/hudproblem/102x102/rosacea.webp',
+        image_large: 'bilder/hudproblem/200x200/rosacea.webp',
         image_alt: 'Rejuve Dye-VL behandling för Rosacea',
         image_title: 'Rejuve Dye-VL behandling för Rosacea',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve',
@@ -119,9 +119,9 @@ $types = array(
         title: 'Rejuve Dye-VL mot Ytliga Blodkärl',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Rejuve Dye-VL erbjuder en skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
-        image_small: 'bilder/problem/102x102/ytliga-blodkarl.webp',
-        image_large: 'bilder/problem/200x200/ytliga-blodkarl.webp',
+        content: 'En skonsam och effektiv lösning för att minska synligheten av ytliga blodkärl. Denna behandling är idealisk för att selektivt målriktad och behandla drabbade områden, vilket resulterar i en klarare och jämnare hudton.',
+        image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
+        image_large: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
         image_alt: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
         image_title: 'Rejuve Dye-VL behandling för Ytliga Blodkärl',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve',
@@ -140,9 +140,9 @@ $types = array(
         title: 'Rejuve Dye-VL mot Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Använd fördelarna med Rejuve Dye-VL för att effektivt minska och ljusa upp pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
-        image_small: 'bilder/problem/102x102/pigmentflackar.webp',
-        image_large: 'bilder/problem/200x200/pigmentflackar.webp',
+        content: 'Effektiv minskning och uppljusning av pigmentfläckar. Denna metod är idealisk för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
+        image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
+        image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
         image_alt: 'Rejuve Dye-VL behandling för Pigmentfläckar',
         image_title: 'Rejuve Dye-VL behandling för Pigmentfläckar',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve',
@@ -161,9 +161,9 @@ $types = array(
         title: 'Rejuve Dye-VL mot Melasma',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Med Rejuve Dye-VL kan du effektivt behandla melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
-        image_small: 'bilder/problem/102x102/pigmentflackar.webp',
-        image_large: 'bilder/problem/200x200/pigmentflackar.webp',
+        content: 'Effektivt behandling melasma. Denna teknik hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt rikta in sig på hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
+        image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
+        image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
         image_alt: 'Rejuve Dye-VL behandling för Melasma',
         image_title: 'Rejuve Dye-VL behandling för Melasma',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve',
@@ -181,7 +181,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Rejuve Dye-VL';
-$treatment_areas_text = '<p class="p200">Rejuve Dye-VL, en avancerad form av IPL (Intensivt Pulserande Ljus), erbjuder mångsidig behandling för olika områden på kroppen. Denna specialiserade teknik är särskilt effektiv för ansikte, hals, händer och bröst, där den kan målriktat behandla hudproblem som pigmentfläckar, ytliga blodkärl och ojämn hudton.</p>';
+$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -195,7 +195,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'Rejuve Dye-VL för Ansikte',
+                title: 'Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Face',
@@ -206,7 +206,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/panna.svg',
                 image_alt: 'Panna',
                 image_title: 'Panna',
-                title: 'Rejuve Dye-VL för Panna',
+                title: 'Panna',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Forehead',
@@ -217,7 +217,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/nasa.svg',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
-                title: 'Rejuve Dye-VL för Näsa',
+                title: 'Näsa',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Nose',
@@ -228,7 +228,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/kinder.svg',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
-                title: 'Rejuve Dye-VL för Kinder',
+                title: 'Kinder',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Cheeks',
@@ -239,7 +239,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/overlapp.svg',
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
-                title: 'Rejuve Dye-VL för Överläpp',
+                title: 'Överläpp',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_UpperLip',
@@ -250,7 +250,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/haka.svg',
                 image_alt: 'Haka',
                 image_title: 'Haka',
-                title: 'Rejuve Dye-VL för Haka',
+                title: 'Haka',
                 duration: '30 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Chin',
@@ -271,7 +271,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/hals.svg',
                 image_alt: 'Hals',
                 image_title: 'Hals',
-                title: 'Rejuve Dye-VL för Hals',
+                title: 'Hals',
                 duration: '30 min',
                 price: '1895 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Neck',
@@ -282,7 +282,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/dekolletage.svg',
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
-                title: 'Rejuve Dye-VL för Dekolletage',
+                title: 'Dekolletage',
                 duration: '40 min',
                 price: '2295 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Decolletage',
@@ -293,7 +293,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/hander.svg',
                 image_alt: 'Händer',
                 image_title: 'Händer',
-                title: 'Rejuve Dye-VL för Händer',
+                title: 'Händer',
                 duration: '30 min',
                 price: '1895 kr',
                 url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_Hands',
@@ -310,28 +310,6 @@ $treatment_areas = array(
         title: 'Kombinera områden',
         description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
         items: array(
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '1x zon',
-                image_title: '1x zon',
-                title: '1x zon',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_1xZone',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 1 zon.'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '2x zoner',
-                image_title: '2x zoner',
-                title: '2x zoner',
-                duration: '30 min',
-                price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_2xZones',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 2x zoner.'
-            ),
             new TreatmentAreaItem(
                 image: null,
                 image_alt: '1x område',
@@ -365,6 +343,28 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
             ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '1x zon',
+                image_title: '1x zon',
+                title: '1x zon',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_1xZone',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 1 zon.'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '2x zoner',
+                image_title: '2x zoner',
+                title: '2x zoner',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://acnespecialisten.se/book?flow=almarejuve&skipable_problem=SKIP&area=IPL_2xZones',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling av 2x zoner.'
+            ),
         )
     ),
 );
@@ -380,12 +380,12 @@ $bottom_articles = array(
         <p class="p200 mt-m">För att förbereda din hud, bör du undvika solning och användning av självbrunande produkter minst två veckor innan behandlingen. Detta minskar risken för pigmentförändringar eftersom Dye-VL-behandlingen kräver att huden är i sin mest naturliga ton för effektivt riktad behandling av pigment och blodkärl. Undvik även hudvårdsprodukter som innehåller kraftiga exfolierande ingredienser veckan före din behandling. Din hudterapeut kommer att ge dig detaljerade instruktioner om ytterligare förberedelser och råd om hur du tar hand om din hud både före och efter din Rejuve Dye-VL-session, för att garantera en säker behandling och effektiv läkningsprocess.</p>',
     ),
     'aftercare' => new Article(
-        title: 'Efter behandling med Rejuve Dye-VL',
+        title: 'Eftervår för Rejuve Dye-VL',
         image_small: '/bilder/process/358x272/rejuve-eftervard.webp',
         image_large: '/bilder/process/872x456/rejuve-eftervard.webp',
-        image_alt: 'Efter behandling med Rejuve Dye-VL',
-        image_title: 'Efter behandling med Rejuve Dye-VL',
-        content: '<p class="p200">Eftervården är en viktig del av processen efter en Rejuve Dye-VL-behandling för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna.</p>
+        image_alt: 'Eftervår för Rejuve Dye-VL',
+        image_title: 'Eftervår för Rejuve Dye-VL',
+        content: '<p class="p200">Eftervården är en viktig del av processen efter en Rejuve Dye-VL-behandling för att uppnå optimala resultat och en smidig läkningsprocess. Det är vanligt att uppleva en viss rodnad och svullnad i det behandlade området direkt efter sessionen. För att minimera risken för irritation och infektioner är det viktigt att inte röra området med smutsiga händer och att undvika att applicera smink eller irriterande produkter under de första 24 timmarna.</p>
         <p class="p200 mt-m">Under de första dagarna efter din Alma Rejuve Dye-VL-behandling är det rekommenderat att undvika intensiva fysiska aktiviteter, bastu och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Regelbunden användning av solskydd med hög SPF är essentiellt för att skydda huden mot UV-strålning, särskilt på de behandlade områdena. Vi råder också att använda milda och återfuktande hudvårdsprodukter utan starka ingredienser för att främja läkningsprocessen och bibehålla hudens fuktbalans.</p>
         <p class="p200 mt-m">Det är viktigt att du följer de specifika eftervårdsinstruktionerna som ges av din behandlare noggrant. Om du har några frågor eller oro kring din eftervård, tveka inte att kontakta kliniken. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din behandling med Alma Rejuve Dye-VL.</p>',
     ),
@@ -554,15 +554,15 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar med Rejuve Dye-VL krävs vanligtvis?',
-            text: 'Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.'
+            text: '<p class="p200">Antalet behandlingar med Rejuve Dye-VL som behövs varierar beroende på individens unika hudtillstånd och de önskade målen. Vanligtvis kan det krävas mellan 3-8 sessioner med cirka 4 veckors mellanrum för att uppnå bästa möjliga resultat. En skräddarsydd behandlingsplan utformas under din initiala konsultation, anpassad efter dina specifika hudbehov.</p>'
         ),
         new Question(
             title: 'Kan hudproblem återkomma efter en Rejuve Dye-VL-behandling?',
-            text: 'Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.'
+            text: '<p class="p200">Även om Rejuve Dye-VL är effektiv för att behandla befintliga hudproblem som pigmentfläckar, ytliga blodkärl och rosacea, kan nya problem uppstå på grund av externa faktorer såsom åldrande och solskador. Regelbunden hudvård och solskydd är avgörande för att underhålla resultaten. Ytterligare Rejuve Dye-VL-behandlingar kan rekommenderas för att bevara effekterna över tid.</p>'
         ),
         new Question(
             title: 'Hur snabbt ser jag resultat efter en Rejuve Dye-VL-behandling?',
-            text: 'Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.'
+            text: '<p class="p200">Resultaten från en Rejuve Dye-VL-behandling varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de mest påtagliga resultaten framträder ofta efter en fullständig serie av behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas både under behandlingsförloppet och efter avslutade sessioner.</p>'
         ),
     )
 );

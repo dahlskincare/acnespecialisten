@@ -9,17 +9,17 @@ $seo_title = 'Vad är oönskat hår? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om oönskat hår och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'oönskat hår, orsaker till oönskat hår, förebygga oönskat hår, ta bort oönskat hår';
 
-$seo_image = '/bilder/problem/424x456/oonskat-har.webp';
+$seo_image = '/bilder/hudproblem/424x456/oonskat-har.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem.php'),
-      new PathSegment('Oönskat Hår', '/problem/oonskat-har'),
+      new PathSegment('Oönskat Hår', '/hudproblem/oonskat-har'),
 );
 
 $title = 'Oönskat Hår';
 
-$image_small = 'bilder/problem/424x324/oonskat-har.webp';
-$image_large = 'bilder/problem/424x456/oonskat-har.webp';
+$image_small = 'bilder/hudproblem/424x324/oonskat-har.webp';
+$image_large = 'bilder/hudproblem/424x456/oonskat-har.webp';
 $image_title = 'Visar en hud med oönskat hår';
 $image_alt = 'Bild som illustrerar hur oönskat hår ser ut på huden';
 $description = 'Oönskat hår kan påverka olika delar av kroppen och ansiktet. Denna sida utforskar de underliggande orsakerna till oönskad hårväxt och de olika metoder som finns tillgängliga för hårborttagning.';
@@ -426,8 +426,8 @@ $brands_url_title = "Varumärken för oönskat hår";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>

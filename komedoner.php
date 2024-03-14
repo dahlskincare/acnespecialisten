@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Komedoner - Orsaker, Behandling och Förebyggande | Acnespecialisten';
@@ -12,12 +12,12 @@ $seo_keywords = 'komedoner, behandling av komedoner, orsaker till komedoner, fö
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/pormaskar.webp';
+$seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
 $title = 'Komedoner';
 
-$image_small = 'bilder/problem/424x324/pormaskar.webp';
-$image_large = 'bilder/problem/424x456/pormaskar.webp';
+$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
+$image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar komedoner på huden';
 $description = 'I denna sektion utforskar vi vad komedoner är, varför de uppstår och hur Acnespecialisten kan bistå dig med effektiv behandling. Vi diskuterar de bakomliggande orsakerna till komedoner och hur vi kan hjälpa dig genom hela behandlingsprocessen för att uppnå en klarare och friskare hud.';
 
@@ -84,7 +84,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vår behandling av komedoner involverar skonsamma men effektiva metoder för portömning, anpassade efter dina specifika hudbehov. Målet är att säkert och effektivt eliminera komedoner och förbättra hudens utseende.',
-            url: 'problem/pormaskar/pormaskbehandling',
+            url: 'hudproblem/pormaskar/pormaskbehandling',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
       ),
@@ -96,7 +96,7 @@ $treatment_steps = array(
             url_title: 'Hitta de bästa produkterna för att förebygga komedoner'
       ),
 );
-$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår portömning</a>';
+$treatment_link = '<a href="hudproblem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår portömning</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -328,7 +328,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Pormaskar',
             aka: 'Vita & Svarta pormaskar',
-            image: 'bilder/problem/200x200/pormaskar.webp',
+            image: 'bilder/hudproblem/200x200/pormaskar.webp',
             image_alt: 'Bild som skildrar pormaskar',
             image_title: 'Pormaskar - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'pormaskar.php',
@@ -418,8 +418,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -614,7 +614,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

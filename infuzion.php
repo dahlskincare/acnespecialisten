@@ -78,15 +78,6 @@ $description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling
 <p class="p200 mt-m">För optimala och långvariga resultat rekommenderas tre behandlingar med en veckas mellanrum, vilket ger effekter som varar i upp till sex månader. Därefter räcker det med en underhållsbehandling var sjätte månad. Vi erbjuder även Multifuzion, en kombination av microneedling och Infuzion, för att öka effekten och möjliggöra djupare penetration av serumet efter microneedling. Denna kombinationsbehandling är särskilt effektiv för att stimulera naturlig proteinproduktion och strama upp åldrande hud.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför Infuzion',
-        image_small: '/bilder/process/358x272/infuzion-forberedelser.webp',
-        image_large: '/bilder/process/872x456/infuzion-forberedelser.webp',
-        image_alt: 'Förberedelser inför Infuzion',
-        image_title: 'Förberedelser inför Infuzion',
-        content: '<p class="p200"><p class="p200">Inför din Infuzion-behandling hos AcneSpecialisten finns några enkla förberedelser som kan hjälpa till att maximera effekten av behandlingen. Vi rekommenderar att du undviker användning av starka hudvårdsprodukter och exfolierande syror några dagar före din session. Detta minskar risken för hudirritation och gör din hud mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Medan det inte är ett krav att komma utan makeup, kan det vara fördelaktigt att ha ett rent ansikte vid din ankomst. Detta gör det möjligt för våra hudterapeuter att göra en mer exakt hudanalys och anpassa behandlingen effektivt efter dina behov. Oavsett om du väljer att komma osminkad eller inte, ser vi fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan som passar din hudtyp och dina specifika hudproblem.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går behandlingen med Infuzion till?',
         image_small: '/bilder/process/358x272/infuzion-process.webp',
@@ -228,6 +219,15 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelser inför Infuzion',
+        image_small: '/bilder/process/358x272/infuzion-forberedelser.webp',
+        image_large: '/bilder/process/872x456/infuzion-forberedelser.webp',
+        image_alt: 'Förberedelser inför Infuzion',
+        image_title: 'Förberedelser inför Infuzion',
+        content: '<p class="p200"><p class="p200">Inför din Infuzion-behandling hos AcneSpecialisten finns några enkla förberedelser som kan hjälpa till att maximera effekten av behandlingen. Vi rekommenderar att du undviker användning av starka hudvårdsprodukter och exfolierande syror några dagar före din session. Detta minskar risken för hudirritation och gör din hud mer mottaglig för behandlingen.</p>
+        <p class="p200 mt-m">Medan det inte är ett krav att komma utan makeup, kan det vara fördelaktigt att ha ett rent ansikte vid din ankomst. Detta gör det möjligt för våra hudterapeuter att göra en mer exakt hudanalys och anpassa behandlingen effektivt efter dina behov. Oavsett om du väljer att komma osminkad eller inte, ser vi fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan som passar din hudtyp och dina specifika hudproblem.</p>',
+    ),
     'aftercare' => new Article(
         title: 'Eftervård för Infuzion & Multifuzion',
         image_small: '/bilder/process/358x272/infuzion-eftervard.webp',

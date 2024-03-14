@@ -1,22 +1,22 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Melasma – Behandling, Orsaker & Förebyggande | AcneSpecialisten';
+$seo_title = 'Melasma – Behandling, Orsaker & Förebyggande';
 $seo_description = 'Utforska allt kring melasma: dess orsaker, effektiva behandlingsalternativ och förebyggande strategier. Få professionell hjälp och anpassade lösningar från AcneSpecialisten för att hantera melasma och liknande hudproblem.';
 $seo_keywords = 'melasma, behandla melasma, orsaker till melasma, förebyggande av melasma, minska melasma, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, hudens hälsa';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/problem/424x456/pigmentflackar.webp';
+$seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $title = 'Melasma';
 
-$image_small = 'bilder/problem/424x324/pigmentflackar.webp';
-$image_large = 'bilder/problem/424x456/pigmentflackar.webp';
+$image_small = 'bilder/hudproblem/424x324/pigmentflackar.webp';
+$image_large = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 $image_title = 'Visar en hud med melasma';
 $image_alt = 'Bild som visar melasma på huden';
 $description = 'Har du upplevt melasma – även känd som solfläckar eller "leverfläckar" – på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.';
@@ -321,7 +321,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
-            image: 'bilder/problem/200x200/acnearr.webp',
+            image: 'bilder/hudproblem/200x200/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
             url: 'acnearr.php',
@@ -330,7 +330,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'bilder/problem/200x200/rosacea.webp',
+            image: 'bilder/hudproblem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
             url: 'rosacea.php',
@@ -339,7 +339,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'akne runt munnen',
-            image: 'bilder/problem/200x200/perioral-dermatit.webp',
+            image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
@@ -429,8 +429,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -624,7 +624,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar mot Akne - Effektiv behandling | AcneSpecialisten';
+$seo_title = 'Ansiktsbehandlingar mot Akne - Effektiv behandling';
 $seo_description = 'Upplev AcneSpecialistens expertanpassade ansiktsbehandlingar speciellt utformade för aknebenägen hud. Upptäck våra avancerade metoder för att effektivt hantera utbrott och uppnå en klarare hud. Professionell behandling och personlig rådgivning väntar för att hjälpa dig till en bättre hudhälsa.';
 $seo_keywords = 'aknebehandling, ansiktsbehandlingar för akne, bekämpa akne, effektiv aknevård, acne specialister, akne lösningar, finnar, blemmor, akneärr, inflammerad hud, hudvård för akne';
 

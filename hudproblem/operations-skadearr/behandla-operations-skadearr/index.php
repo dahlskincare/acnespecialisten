@@ -8,16 +8,16 @@ $seo_keywords = 'behandling av operationsärr, skadeärrbehandling, metod för s
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = '/bilder/problem/424x456/arr.webp';
+$seo_image = '/bilder/hudproblem/424x456/arr.webp';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
-    new PathSegment('Operations- och Skadeärr', '/problem/operations-skadearr'),
-    new PathSegment('Behandla Operations- och Skadeärr', '/problem/operations-skadearr/behandla-operations-skadearr'),
+    new PathSegment('Operations- och Skadeärr', '/hudproblem/operations-skadearr'),
+    new PathSegment('Behandla Operations- och Skadeärr', '/hudproblem/operations-skadearr/behandla-operations-skadearr'),
 );
 
-$image_small = '/bilder/problem/424x324/operations-skadearr.webp';
-$image_large = '/bilder/problem/424x456/operations-skadearr.webp';
+$image_small = '/bilder/hudproblem/424x324/operations-skadearr.webp';
+$image_large = '/bilder/hudproblem/424x456/operations-skadearr.webp';
 $image_alt = 'Bild som illustrerar operations- och skadeärr';
 $image_title = 'Operations- och skadeärr';
 
@@ -408,7 +408,7 @@ $brands_url_title = "Varumärken för behandling av operations- och skadeärr";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>

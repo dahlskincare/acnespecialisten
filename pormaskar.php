@@ -1,11 +1,11 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är pormaskar? - Symptom, orsak och behandling | AcneSpecialisten';
+$seo_title = 'Vad är pormaskar? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om pormaskar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'pormaskar, orsaker till pormaskar, förebygga pormaskar, ta bort pormaskar, hudvård';
 
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Pormaskar', '/pormaskar.php'),
 );
 
-$image_small = 'bilder/problem/424x324/pormaskar.webp';
-$image_large = 'bilder/problem/424x456/pormaskar.webp';
+$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
+$image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_title = 'Visar en hud med pormaskar';
 $image_alt = 'Bild som illustrerar hur pormaskar ser ut på huden';
 
@@ -118,7 +118,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-            url: 'problem/pormaskar/pormaskbehandling',
+            url: 'hudproblem/pormaskar/pormaskbehandling',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
       ),
@@ -131,7 +131,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="problem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om behandlingar mot pormaskar</a>';
+$treatment_link = '<a href="hudproblem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om behandlingar mot pormaskar</a>';
 /*
 $types_title = 'Olika typer av pormaskar';
 
@@ -637,7 +637,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Stora porer',
             aka: 'Förstorade porer',
-            image: 'bilder/problem/200x200/stora-porer.webp',
+            image: 'bilder/hudproblem/200x200/stora-porer.webp',
             image_alt: 'Ansikte med stora porer',
             image_title: 'Stora porer',
             url: 'stora-porer.php',
@@ -646,7 +646,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Blandhy',
             aka: 'Oljig och torr hy',
-            image: 'bilder/problem/200x200/blandhy.webp',
+            image: 'bilder/hudproblem/200x200/blandhy.webp',
             image_alt: 'Bild som skildrar oljig och torr hy, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Blandhy - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'blandhy.php',
@@ -655,7 +655,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
             aka: 'Papler & Pustler',
-            image: 'bilder/problem/200x200/akne.webp',
+            image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
             url: 'acne.php',
@@ -728,8 +728,8 @@ $brands_url_title = "Varumärken förpormaskar";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -850,7 +850,7 @@ $brands_url_title = "Varumärken förpormaskar";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -885,7 +885,7 @@ $brands_url_title = "Varumärken förpormaskar";
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('problem/widgets/type-card/type-card.php');
+                                                                  include('hudproblem/widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -899,7 +899,7 @@ $brands_url_title = "Varumärken förpormaskar";
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('problem/widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('hudproblem/widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -922,7 +922,7 @@ $brands_url_title = "Varumärken förpormaskar";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -1007,7 +1007,7 @@ $brands_url_title = "Varumärken förpormaskar";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

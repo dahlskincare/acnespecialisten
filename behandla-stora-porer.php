@@ -6,10 +6,10 @@ $seo_title = 'Behandling av Stora Porer - Effektiv Behandling och Förebyggande 
 $seo_description = 'Lär dig allt om behandlingen av stora porer, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, förebygga stora porer, minska porer, öppna porer, förstorade porer, hudtextur';
 
-$seo_image = 'bilder/problem/424x456/stora-porer.webp';
+$seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
 
-$image_small = 'bilder/problem/424x324/stora-porer.webp';
-$image_large = 'bilder/problem/424x456/stora-porer.webp';
+$image_small = 'bilder/hudproblem/424x324/stora-porer.webp';
+$image_large = 'bilder/hudproblem/424x456/stora-porer.webp';
 $image_alt = 'Bild på behandling för stora porer';
 $image_title = 'Behandling för stora porer';
 
@@ -427,7 +427,7 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>
@@ -542,7 +542,7 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('problem/widgets/product-card/product-card.php');
+                            include('hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

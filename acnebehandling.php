@@ -447,7 +447,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>
@@ -563,7 +563,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('problem/widgets/product-card/product-card.php');
+                            include('hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

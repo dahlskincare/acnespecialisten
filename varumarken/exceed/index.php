@@ -75,15 +75,6 @@ $description_text = '<p class="p200">Exceed är en toppmodern behandling som pas
     <p class="p200 mt-m">Som en digitalt styrd microneedling-teknik, erbjuder Exceed en behandling med minimal obehag jämfört med traditionella metoder. Exceed är anpassningsbar och kan målinriktat förbättra en mängd hudtillstånd som rynkor, ärr, ojämn hudton och textur. Genom att aktivera hudens egna reparationsförmåga ökas dess elasticitet och lyster, vilket resulterar i en synbart yngre och mer strålande hud.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför behandling med Exceed',
-        image_small: '/bilder/process/358x272/exceed-forberedelser.webp',
-        image_large: '/bilder/process/872x456/exceed-forberedelser.webp',
-        image_alt: 'Förberedelser inför behandling med Exceed',
-        image_title: 'Förberedelser inför behandling med Exceed',
-        content: '<p class="p200">För att få så bra resultat av Exceed som möjligt rekommenderar vi alltid att man börjar med en detaljerad konsultation hos en av våra hudterapeuter. Konsultationen innebär en djupgående hudanalys där vi identifierar dina specifika behov och eventuella hudproblem. Denna initiala bedömning är avgörande för att skräddarsy en behandlingsplan som är unikt anpassad efter din huds egna förutsättningar.</p>
-        <p class="p200 mt-m">För att säkerställa att du får de bästa möjliga resultaten, är det viktigt att din hud inte uppvisar tecken på solskador vid tiden för behandlingen. Vi råder också till att undvika hudretande produkter med starka syror eller andra irritanter några dagar innan din session. Vår hudterapeut kommer att ge dig omfattande råd och instruktioner om hur du på bästa sätt förbereder din hud för Exceed-behandlingen, vilket ger en både effektiv och säker behandlingsupplevelse.</p>',
-    ),
     'process' => new Article(
         title: 'Exceed behandlingsprocess',
         image_small: '/bilder/process/358x272/exceed-process.webp',
@@ -173,6 +164,15 @@ $bottom_articles = array(
         image_alt: 'Boosta Exceed-behandling effekten med PRX-T33',
         image_title: 'Exceed-behandling effekten med PRX-T33',
         content: '<p class="p200">För att maximera effekterna av din Exceed-behandling, kan du välja att addera en PRX-T33 booster, vilket är en avancerad behandlingsform som förstärker och fördjupar de föryngrande resultaten. Denna unika förstärkningsbehandling kompletterar Exceed genom att stimulera huden utan nålar och erbjuder en effektiv förbättring utan behovet av återhämtningsperiod. PRX-T33 arbetar på hudens yta för att ge en omedelbar uppstramande effekt och förbättrar hudtonen, medan Exceed arbetar i hudens djupare lager för att stimulera långvarig kollagenproduktion. Tillsammans skapar de en omfattande behandlingsupplevelse som dramatiskt minskar fina linjer, utjämnar hudtonen och ger en övergripande förfinad hudstruktur för en ungdomligare och mer strålande hud.</p>',
+    ),
+    'preparing' => new Article(
+        title: 'Förberedelser inför behandling med Exceed',
+        image_small: '/bilder/process/358x272/exceed-forberedelser.webp',
+        image_large: '/bilder/process/872x456/exceed-forberedelser.webp',
+        image_alt: 'Förberedelser inför behandling med Exceed',
+        image_title: 'Förberedelser inför behandling med Exceed',
+        content: '<p class="p200">För att få så bra resultat av Exceed som möjligt rekommenderar vi alltid att man börjar med en detaljerad konsultation hos en av våra hudterapeuter. Konsultationen innebär en djupgående hudanalys där vi identifierar dina specifika behov och eventuella hudproblem. Denna initiala bedömning är avgörande för att skräddarsy en behandlingsplan som är unikt anpassad efter din huds egna förutsättningar.</p>
+        <p class="p200 mt-m">För att säkerställa att du får de bästa möjliga resultaten, är det viktigt att din hud inte uppvisar tecken på solskador vid tiden för behandlingen. Vi råder också till att undvika hudretande produkter med starka syror eller andra irritanter några dagar innan din session. Vår hudterapeut kommer att ge dig omfattande råd och instruktioner om hur du på bästa sätt förbereder din hud för Exceed-behandlingen, vilket ger en både effektiv och säker behandlingsupplevelse.</p>',
     ),
     'aftercare' => new Article(
         title: 'Eftervård Exceed behandling',

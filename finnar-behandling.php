@@ -2,14 +2,14 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Finnar - Behandling och Förebyggande | AcneSpecialisten';
+$seo_title = 'Behandla Finnar - Behandling och Förebyggande';
 $seo_description = 'Lär dig allt om hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
 $seo_keywords = 'finnar, behandling av finnar, orsaker till finnar, förebygga finnar, ta bort finnar, vuxenfinnar, tonårsfinnar, ärr från finnar, pormaskar';
 
 // här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms
 
-$image_small = 'bilder/problem/424x324/finnar.webp';
-$image_large = 'bilder/problem/424x456/finnar.webp';
+$image_small = 'bilder/hudproblem/424x324/finnar.webp';
+$image_large = 'bilder/hudproblem/424x456/finnar.webp';
 $image_alt = 'Bild på behandling av finnar';
 $image_title = 'Behandling av finnar';
 
@@ -434,7 +434,7 @@ $brands_url_title = "Varumärken för behandling av finnar";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>
@@ -550,7 +550,7 @@ $brands_url_title = "Varumärken för behandling av finnar";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('problem/widgets/product-card/product-card.php');
+                            include('hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

@@ -2,23 +2,23 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Blandhy - Effektiv Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Behandla Blandhy - Effektiv Behandling och Förebyggande';
 $seo_description = 'Lär dig allt om blandhy, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'blandhy, behandling av blandhy, orsaker till blandhy, förebygga blandhy, ta hand om blandhy, hudvård för blandhy, torra partier, oljiga partier';
 
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = '/bilder/problem/424x456/blandhy.webp';
+$seo_image = '/bilder/hudproblem/424x456/blandhy.webp';
 
 $path_segments = array(
     new PathSegment('Hudproblem', '/hudproblem.php'),
     new PathSegment('Blandhy', '/blandhy.php'),
-    new PathSegment('Blandhybehandling', '/problem/blandhy/blandhybehandling/'),
+    new PathSegment('Blandhybehandling', '/hudproblem/blandhy/blandhybehandling/'),
 );
 
-$image_small = '/bilder/problem/424x324/blandhy.webp';
-$image_large = '/bilder/problem/424x456/blandhy.webp';
+$image_small = '/bilder/hudproblem/424x324/blandhy.webp';
+$image_large = '/bilder/hudproblem/424x456/blandhy.webp';
 $image_alt = 'Bild som illustrerar blandhy';
 $image_title = 'Blandhy';
 
@@ -428,7 +428,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="problem/treatment.css">
+    <link rel="stylesheet" href="hudproblem/treatment.css">
 </head>
 
 <body>
@@ -543,7 +543,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('/problem/widgets/product-card/product-card.php');
+                            include('/hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>

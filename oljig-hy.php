@@ -1,22 +1,22 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Oljig Hy - Orsaker, Behandling och Vård | Acnespecialisten';
+$seo_title = 'Allt om Oljig Hy - Orsaker, Behandling och Vård';
 $seo_description = 'Utforska allt om oljig hy och de bästa sätten att hantera den. Få expertråd och anpassade lösningar från Acnespecialisten för en balanserad och frisk hud.';
 $seo_keywords = 'oljig hy, behandling av oljig hy, orsaker till oljig hy, hudvård, kontrollera oljig hy, hudproblem, hudvårdsexpert, Acnespecialisten, ansiktsvård, hudhälsa';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
-$seo_image = 'bilder/problem/424x456/blandhy.webp';
+$seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
 $title = 'Oljig hy';
 
-$image_small = 'bilder/problem/424x324/blandhy.webp';
-$image_large = 'bilder/problem/424x456/blandhy.webp';
+$image_small = 'bilder/hudproblem/424x324/blandhy.webp';
+$image_large = 'bilder/hudproblem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med oljig hy';
 $image_alt = 'Bild som illustrerar utseendet av oljig hy';
 $description = 'I detta avsnittet går vi igenom vad som utmärker oljig hy, varför det uppstår och hur Acnespecialisten kan bistå dig i att hantera och behandla denna hudtyp. Vi utforskar de specifika orsakerna till oljig hy, hur den skiljer sig från andra hudtyper, och hur vi kan stödja dig i din individuella hudvårdsresa.';
@@ -85,7 +85,7 @@ $treatment_steps = array(
             content: 'Specialiserade behandlingar för oljig hy hos AcneSpecialisten inkluderar djuprengöring för att avlägsna överflödig olja, samt tekniker för att reglera oljeproduktionen och minska förekomsten av acne. Dessa behandlingar är inriktade på att återställa hudens balans och främja dess hälsa.',
 
             url_label: 'Utforska behandlingar',
-            url: 'problem/blandhy/blandhybehandling',
+            url: 'hudproblem/blandhy/blandhybehandling',
             url_title: 'Ta reda på vilka behandlingar som passar din oljig hy'
       ),
       new TreatmentStep(
@@ -98,7 +98,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="problem/blandhy/blandhybehandling" title="Utforska effektiv oljig hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för oljig hy</a>';
+$treatment_link = '<a href="hudproblem/blandhy/blandhybehandling" title="Utforska effektiv oljig hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för oljig hy</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -412,7 +412,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
             aka: 'gropar & Fläckar',
-            image: 'bilder/problem/200x200/acnearr.webp',
+            image: 'bilder/hudproblem/200x200/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter oljig hy',
             image_title: 'Acneärr - en vanlig följd av oljig hy',
             url: 'acnearr.php',
@@ -421,7 +421,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'bilder/problem/200x200/rosacea.webp',
+            image: 'bilder/hudproblem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med oljig hy',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med oljig hy',
             url: 'rosacea.php',
@@ -430,7 +430,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Perioral dermatit',
             aka: 'oljig hy runt munnen',
-            image: 'bilder/problem/200x200/perioral-dermatit.webp',
+            image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med oljig hy',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande oljig hy',
             url: 'perioral-dermatit.php',
@@ -520,8 +520,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -737,7 +737,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandling för Finnar - Säker och Effektiv Behandling | Acnespecialisten';
+$seo_title = 'Ansiktsbehandling för Finnar - Säker och Effektiv Behandling';
 $seo_description = 'Utforska AcneSpecialistens ansiktsbehandlingar för finnar, utformade för att säkert och effektivt hantera finnar och orenheter. Våra behandlingar erbjuder professionell extraktion och eftervård, vilket bidrar till att minska akneutbrott och förbättra hudens klarhet och hälsa.';
 $seo_keywords = 'ansiktsbehandling för finnar, professionell finnextraktion, behandla akne, rena porer, hudklarhet, förebygga finnar, reducera orenheter, hudhälsa, förbättra hudtextur, säker finnbehandling';
 

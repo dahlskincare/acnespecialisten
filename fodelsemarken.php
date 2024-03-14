@@ -1,20 +1,20 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Födelsemärken - Skonsamma Metoder | Acnespecialisten';
 $seo_description = 'Acnespecialisten erbjuder expertis inom behandling av födelsemärken. Med våra skonsamma och avancerade metoder kan vi effektivt hantera och ta bort olika typer av födelsemärken, vilket bidrar till en mer enhetlig hudton och förbättrat hudutseende.';
 $seo_keywords = 'födelsemärken, behandling av födelsemärken, hudförändringar, jämna ut hudton, ta bort födelsemärken, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
-$seo_image = 'bilder/problem/424x456/hudforandringar.webp';
+$seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';
 
 $title = 'Behandling av Födelsemärken';
 
-$image_small = 'bilder/problem/424x324/hudforandringar.webp';
-$image_large = 'bilder/problem/424x456/hudforandringar.webp';
+$image_small = 'bilder/hudproblem/424x324/hudforandringar.webp';
+$image_large = 'bilder/hudproblem/424x456/hudforandringar.webp';
 $image_title = 'Skonsam och effektiv behandling av födelsemärken';
 $image_alt = 'Bild som illustrerar behandling av födelsemärken';
 $description = 'Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Denna sida förklarar hur födelsemärken uppstår och de mest effektiva metoderna för att hantera dem. På Acnespecialisten använder vi skonsamma och avancerade tekniker för att säkert behandla födelsemärken, vilket hjälper till att förbättra hudens övergripande utseende och textur.';
@@ -82,12 +82,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
             url_label: 'Se behandlingar för födelsemärken',
-            url: 'problem/hudforandringar/behandla-hudforandringar',
+            url: 'hudproblem/hudforandringar/behandla-hudforandringar',
             url_title: 'Läs mer om våra behandlingar för födelsemärken'
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
+$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -375,7 +375,7 @@ $related_problems = array(
             image: 'images/problems/200x200/hudforandringar.webp',
             image_alt: 'Bild som visar hudforändringar',
             image_title: 'Hudförändringar',
-            url: 'problem/hudforandringar',
+            url: 'hudproblem/hudforandringar',
             url_title: 'Hudförändringar'
       ),
 );
@@ -462,8 +462,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -672,7 +672,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

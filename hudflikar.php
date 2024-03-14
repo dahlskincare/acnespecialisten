@@ -1,20 +1,20 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Hudflikar - Skonsamma och Effektiva Metoder | Acnespecialisten';
 $seo_description = 'Upptäck Acnespecialistens expertis inom behandling av hudflikar. Med våra skonsamma och avancerade metoder erbjuder vi effektiva lösningar för att ta bort hudflikar, vilket bidrar till en slätare och mer enhetlig hudton.';
 $seo_keywords = 'hudflikar, behandling av hudflikar, hudförändringar, jämna ut hudton, ta bort hudflikar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
-$seo_image = 'bilder/problem/424x456/hudforandringar.webp';
+$seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';
 
 $title = 'Behandling av Hudflikar';
 
-$image_small = 'bilder/problem/424x324/hudforandringar.webp';
-$image_large = 'bilder/problem/424x456/hudforandringar.webp';
+$image_small = 'bilder/hudproblem/424x324/hudforandringar.webp';
+$image_large = 'bilder/hudproblem/424x456/hudforandringar.webp';
 $image_title = 'Skonsam och effektiv behandling av hudflikar';
 $image_alt = 'Bild som illustrerar behandling av hudflikar';
 $description = 'Hudflikar är små utväxter på huden som ofta förekommer i hudveck eller områden med friktion. På Acnespecialisten förklarar vi hur hudflikar kan behandlas effektivt. Vi använder skonsamma och avancerade tekniker för att säkert ta bort hudflikar, vilket hjälper till att förbättra hudens utseende och textur.';
@@ -82,12 +82,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder olika behandlingsalternativ för att effektivt och skonsamt ta bort hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar för hudflikar',
-            url: 'problem/hudforandringar/behandla-hudforandringar',
+            url: 'hudproblem/hudforandringar/behandla-hudforandringar',
             url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
 );
 
-$treatment_link = '<a href="problem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudflikar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudflikar</a>';
+$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudflikar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudflikar</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -366,7 +366,7 @@ $related_problems = array(
             image: 'images/problems/200x200/hudforandringar.webp',
             image_alt: 'Bild som visar hudforändringar',
             image_title: 'Hudförändringar',
-            url: 'problem/hudforandringar',
+            url: 'hudproblem/hudforandringar',
             url_title: 'Hudförändringar'
       ),
 );
@@ -453,8 +453,8 @@ $brands_url_title = "Se alla varumärken";
       <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -663,7 +663,7 @@ $brands_url_title = "Se alla varumärken";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

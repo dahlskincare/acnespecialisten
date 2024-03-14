@@ -1,8 +1,8 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('problem/widgets/problem-trivia-card/problem-trivia.php');
-include_once('problem/widgets/symptom-card/symptom.php');
-include_once('problem/widgets/related-problem-card/related-problem.php');
+include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
+include_once('hudproblem/widgets/symptom-card/symptom.php');
+include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är mogen hy - Symptom, orsak och behandling';
@@ -16,8 +16,8 @@ $path_segments = array(
       new PathSegment('Mogen hy', '/mogen-hy.php'),
 );
 
-$image_small = 'bilder/problem/424x324/mogen-hy.webp';
-$image_large = 'bilder/problem/424x456/mogen-hy.webp';
+$image_small = 'bilder/hudproblem/424x324/mogen-hy.webp';
+$image_large = 'bilder/hudproblem/424x456/mogen-hy.webp';
 $image_title = 'Visar en hud med tecken på åldrande';
 $image_alt = 'Bild som illustrerar hur mogen hy ser ut';
 $description = 'Mogen hy visar tecken på åldrande såsom rynkor, fina linjer och slapp hy. Denna sida fokuserar på att förstå orsakerna bakom hudens åldrande och hur de påverkar hudens utseende och känsla.';
@@ -120,12 +120,12 @@ $treatment_steps = array(
             content: 'Vi utför effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är framtagna för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
 
             url_label: 'Se behandlingar för mogen hy',
-            url: '/problem/mogen-hy/behandla-mogen-hy',
+            url: '/hudproblem/mogen-hy/behandla-mogen-hy',
             url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
 );
 
-$treatment_link = '<a href="/problem/mogen-hy/behandla-mogen-hy" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
+$treatment_link = '<a href="/hudproblem/mogen-hy/behandla-mogen-hy" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
 
 /*
 $types_title = 'Olika typer av mogen hy';
@@ -143,7 +143,7 @@ $type_categories = array(
                         image_alt: 'Bild av tidig mogen hy',
                         image_title: 'Mogen hy i tidig ålder',
 
-                        url: 'problem/mogenhy/typer/tidigmogenhy',
+                        url: 'hudproblem/mogenhy/typer/tidigmogenhy',
                         url_title: 'Utforska information om tidig mogen hy'
                   ),
                   new BasedType(
@@ -154,7 +154,7 @@ $type_categories = array(
                         image_alt: 'Bild av mogen hy',
                         image_title: 'Mogen hy under medelåldern',
 
-                        url: 'problem/mogenhy/typer/mogenhy',
+                        url: 'hudproblem/mogenhy/typer/mogenhy',
                         url_title: 'Utforska information om mogen hy'
                   ),
                   new BasedType(
@@ -165,7 +165,7 @@ $type_categories = array(
                         image_alt: 'Bild av avancerad mogen hy',
                         image_title: 'Mogen hy hos äldre',
 
-                        url: 'problem/mogenhy/typer/avanceradmogenhy',
+                        url: 'hudproblem/mogenhy/typer/avanceradmogenhy',
                         url_title: 'Utforska information om avancerad mogen hy'
                   ),
             )
@@ -710,7 +710,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Pigmentfläckar',
             aka: 'Melasma',
-            image: 'bilder/problem/200x200/pigmentflackar.webp',
+            image: 'bilder/hudproblem/200x200/pigmentflackar.webp',
             image_alt: 'Ansikte med pigmentfläckar',
             image_title: 'Pigmentfläckar',
             url: 'pigmentflackar.php',
@@ -719,7 +719,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Stora porer',
             aka: 'Förstorade porer',
-            image: 'bilder/problem/200x200/stora-porer.webp',
+            image: 'bilder/hudproblem/200x200/stora-porer.webp',
             image_alt: 'Ansikte med stora porer',
             image_title: 'Stora porer',
             url: 'stora-porer.php',
@@ -792,8 +792,8 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
       <meta property="twitter:image" content="<?php echo $image_large ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="problem/problem.css">
-      <script src="problem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
+      <link rel="stylesheet" href="hudproblem/problem.css">
+      <script src="hudproblem/widgets/problem-trivia-card/problem-trivia-card.js"></script>
 </head>
 
 <body>
@@ -914,7 +914,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
-                                    include('problem/widgets/problem-trivia-card/problem-trivia-card.php');
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
                               } ?>
                               <hr>
                         </section>
@@ -949,7 +949,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                                                       <div class="mt-xxs type-category-content"><?php echo $type_category->content ?></div>
                                                       <div class="type-category-cards">
                                                             <?php foreach ($type_category->types as $type) {
-                                                                  include('problem/widgets/type-card/type-card.php');
+                                                                  include('hudproblem/widgets/type-card/type-card.php');
                                                             } ?>
                                                       </div>
                                                 </div>
@@ -963,7 +963,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                                                       <div class="columns is-3 is-variable is-multiline type-category-large-cards">
                                                             <?php foreach ($type_category->types as $type) { ?>
                                                                   <div class="column is-one-third">
-                                                                        <?php include('problem/widgets/type-card/type-card-large.php') ?>
+                                                                        <?php include('hudproblem/widgets/type-card/type-card-large.php') ?>
                                                                   </div>
                                                             <?php } ?>
                                                       </div>
@@ -986,7 +986,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                                     <div class="columns is-multiline is-variable is-3" id="symptom-cards">
                                           <?php foreach ($symptoms as $symptom) { ?>
                                                 <div class="column is-half">
-                                                      <?php include('problem/widgets/symptom-card/symptom-card.php'); ?>
+                                                      <?php include('hudproblem/widgets/symptom-card/symptom-card.php'); ?>
                                                 </div>
                                           <?php } ?>
                                     </div>
@@ -1063,7 +1063,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                               <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
-                                                <?php include('problem/widgets/related-problem-card/related-problem-card.php'); ?>
+                                                <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
                               </dig>

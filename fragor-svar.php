@@ -80,7 +80,7 @@ $faq_categories = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Vanliga Frågor</title>
+    <title class="l10n">Vanliga Frågor - AcneSpecialisten</title>
     <meta name="description" content="Hitta svar på de vanligaste frågorna om AcneSpecialistens hudvårdsbehandlingar, metoder och produkter." class="l10n">
     <meta name="title" content="Vanliga Frågor - AcneSpecialisten" class="l10n">
     <meta name="keywords" content="hudvård, acnebehandling, hudproblem, frågor och svar, AcneSpecialisten, hudterapi" class="l10n">
