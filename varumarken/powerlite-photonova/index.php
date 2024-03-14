@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Powerlite Photonova',
+    title: 'IPL Laser - Powerlite Photonova',
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Powerlite Photonova erbjuder effektiv IPL behandling för dig som strävar efter en jämnare hudton och önskar behandla hudproblem som pigmentfläckar, ytliga blodkärl eller lindra symtomen på rosacea.</p>',
