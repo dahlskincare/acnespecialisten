@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Tonårsfinnar - Förståelse, Behandling och Skötsel';
-$seo_description = 'Upptäck allt om tonårsfinnar – från orsaker och effekter till skonsamma och effektiva behandlingar. Acnespecialisten erbjuder experttips och skräddarsydda lösningar.';
+$seo_description = 'Läs mer om olika typer av finnar & Acnespecialistens behandlingar mot finnar. Boka en gratis hudkonsultation →';
 $seo_keywords = 'tonårsfinnar, behandling av tonårsakne, skötsel av tonårshud, hormonella förändringar och akne, effektiv aknebehandling, ungdomshudvård';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
