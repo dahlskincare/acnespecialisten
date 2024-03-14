@@ -58,7 +58,7 @@ $description_text = '<p class="p200">Soprano ICE Platinum representerar framkant
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går behandling med Soprano ICE till?',
+        title: 'Hur går behandling med Soprano ICE Platinum till?',
         image_small: '/bilder/process/358x272/soprano-ice-process.webp',
         image_large: '/bilder/process/872x456/soprano-ice-process.webp',
         image_alt: 'Hur går behandlingen med Soprano Ice till?',
