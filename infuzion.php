@@ -358,23 +358,27 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar rekommenderas?',
-            text: '<p class="p200">Behandlingen inleds med en uppbyggnadsfas där 3 Infuzion behandlingar rekommenderas och därefter utförs regelbundna behandlingar för att bibehålla resultatet. Vid Multifuzion utförs en microneedling behandling under den första behandlingen, detta för att utöka resultatet från behandlignen.</p>'
+            title: 'Vilka områden kan behandlas med Infuzion System®?',
+            text: '<p class="p200">Infuzion System® är mångsidigt och kan användas för att behandla flera områden, inklusive ansikte, händer, hals och dekolletage. Det är också effektivt för att rikta in sig på specifika problemområden som mörka ringar under ögonen, nasolabialveck, kråksparkar, rynkor runt munnen och för att skapa fylligare läppar.</p>'
         ),
 
         new Question(
-            title: 'Är resultaten från behandlingar långvariga?',
-            text: '<p class="p200">Resultaten från Infuzion och Multifuzion behandlingar kan vara långvariga, speciellt när de kombineras med en regelbunden och korrekt hudvårdsrutin. Det är dock viktigt att notera att hudens åldrande och miljöfaktorer kan påverka hållbarheten av resultaten. Regelbundna uppföljningsbehandlingar kan rekommenderas för att upprätthålla hudens förbättrade skick.</p>'
+            title: 'Är Infuzion-behandling smärtsam?',
+            text: '<p class="p200">Nej, Infuzion-behandling är helt smärtfri. Till skillnad från traditionella metoder som använder nålar för att införa aktiva ingredienser i huden, använder Infuzion en specialanpassad elektrisk ström för att öppna porerna och tillåta en djup penetration utan obehag.</p>'
         ),
 
         new Question(
-            title: 'Hur förbereder jag mig bäst inför en behandling?',
-            text: '<p class="p200">För att förbereda dig för en Infuzion eller Multifuzion behandling, bör du undvika starka hudvårdsprodukter och exfoliering några dagar innan. Det är också bra att hålla huden väl hydrerad och skyddad från solen. Vid din konsultation kommer vi att ge dig skräddarsydda råd baserade på din hudtyp och de specifika behov du har.</p>'
+            title: 'Hur länge varar resultaten från en Infuzion-behandling?',
+            text: '<p class="p200">Resultaten från en Infuzion-behandling kan variera beroende på individens hudtyp och skötsel efter behandlingen. Många klienter observerar omedelbara förbättringar i hudens återfuktning och textur. För att upprätthålla och förbättra dessa resultat rekommenderas regelbundna behandlingar samt en anpassad hudvårdsrutin.</p>'
         ),
 
         new Question(
-            title: 'Vad skiljer Infuzion från traditionella skinboosters och fillers?',
-            text: '<p class="p200">Skillnaden mellan Infuzion och Multifuzion jämfört med traditionella skinboosters och fillers ligger i deras unika applikationsmetod och sammansättning. Infuzion och Multifuzion erbjuder djup hydrering och förbättring av hudens kvalitet utan användning av nålar. Dessa behandlingar är särskilt effektiva för att förbättra hudens textur, elasticitet och lyster genom att leverera näringsämnen direkt till hudens djupare lager.</p>'
+            title: 'Vilka är de främsta fördelarna med att välja Infuzion System® jämfört med andra hudförbättringsmetoder?',
+            text: '<p class="p200">Infuzion System® erbjuder flera unika fördelar jämfört med andra metoder, inklusive dess förmåga att leverera aktiva ingredienser djupt in i huden utan smärta eller obehag. Det minimerar också risken för irritation, svullnad och blåmärken som kan uppstå med injektionsbaserade behandlingar. Dessutom är Infuzion effektiv för ett brett spektrum av hudtyper och problemområden, vilket gör det till en mångsidig och inkluderande behandling för hudföryngring.</p>'
+        ),
+        new Question(
+            title: 'För vilka hudproblem är infuzion bra mot?',
+            text: '<p class="p200">Infuzion System® är utmärkt för en bred variation av hudproblem, tack vare dess förmåga att djupt återfukta huden och förbättra dess övergripande textur och lyster. Det är särskilt effektivt mot fina linjer och rynkor, då det hjälper till att fylla ut och jämnar ut huden för ett mer ungdomligt utseende. Behandlingen är också idealisk för de som kämpar med torrhet eller matt hud, eftersom den införda hyaluronsyran verkar återfuktande på djupet. Vidare är Infuzion ett bra alternativ för dem som vill förebygga hudåldrande eller som söker en mildare, icke-invasiv behandling för hudförbättring. Genom att erbjuda djup hydrering och främja hudens hälsa på cellnivå, är Infuzion System® en omfattande lösning för många olika hudproblem.</p>'
         ),
 
     )
