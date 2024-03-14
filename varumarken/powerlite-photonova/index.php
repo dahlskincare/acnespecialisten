@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Powerlite Photonova - Effektiv IPL behandling';
+$seo_title = 'IPL laser - Powerlite Photonova';
 $seo_description = 'Powerlite Photonova är en effektiv IPL-behandling utformad för att effektivt behandla allt från pigmentfläckar, ytliga blodkärl och rosacea.';
 $seo_keywords = 'Powerlite Photonova, IPL-behandling, avancerad hudvård, behandla pigmentfläckar, ytliga blodkärl, rosacea, hudföryngring, jämn hudton, klar hud, AcneSpecialisten';
 
