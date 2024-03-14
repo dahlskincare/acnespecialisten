@@ -117,7 +117,7 @@ $big_types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden för Infuzion';
-$treatment_areas_text = '<p class="p200">Infuzion är en flexibel metod som kan användas för att behandla flera olika delar av kroppen.</p>';
+$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
