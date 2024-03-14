@@ -155,7 +155,7 @@ $specialists = array(
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Möt Våra Hudexperter | AcneSpecialisten i Stockholm</title>
-    <meta name="description" content="Träffa vårt team av professionella hudterapeuter på AcneSpecialisten. Med gedigen erfarenhet inom estetisk hudvård, erbjuder våra specialister personligt anpassade lösningar för alla hudtyper och behov.">
+    <meta name="description" content="Träffa vårt team av professionella hudterapeuter på AcneSpecialisten. Med gedigen erfarenhet inom estetisk hudvård.">
     <meta name="keywords" content="Hudterapeuter, Hudspecialister, Estetisk hudvård, Hudvårdsexperter, AcneSpecialisten Team, Hudvård Stockholm, Professionell hudvård, Skräddarsydd hudvård, Hudproblem lösningar, Hudvårdsklinik Stockholm">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

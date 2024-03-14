@@ -9,7 +9,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
     <!-- TODO: Set title and meta tags -->
     <title>Resultat hos AcneSpecialisten | Före- och Efterbilder</title>
     <meta name="title" content="Resultat hos AcneSpecialisten | Före- och Efterbilder" class="l10n">
-    <meta name="description" content="Upptäck AcneSpecialistens framgångar genom före- och efterbilder. Se hur vår expertis inom hudvård bidrar till betydande resultat i kampen mot akne och andra hudproblem. Våra kundcase illustrerar effekterna av våra skräddarsydda behandlingar.">
+    <meta name="description" content="Före- och efter bilder på våra kunder som har använt AcneSpecialistens metod.">
     <meta name="keywords" content="Före och efter acnebehandling, Hudvårdsresultat, AcneSpecialisten framgångar, Kundcase hudvård, Förbättrad hudkvalitet, Effektiv behandling, Hudvårdsbehandlingar resultat">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

@@ -6,7 +6,7 @@
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">Erfarna Hudspecialister inom hudproblem i Stockholm</title>
       <meta name="title" content="Erfarna Hudspecialister inom hudproblem i Stockholm" class="l10n">
-      <meta name="description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n">
+      <meta name="description" content="AcneSpecialisten har över 25 års erfarenhet av alla typer av hudproblem. Boka en gratis konsultation så hjälper våra hudspecialister dig med rätt hudvård" class="l10n">
       <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation" class="l10n">
 
       <meta property="og:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />

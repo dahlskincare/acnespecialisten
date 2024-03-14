@@ -5,7 +5,7 @@
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Avbokningspolicy | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens avbokningspolicy. Avboka din tid senast 24 timmar innan ditt planerade besök för att undvika avgifter. Vi erbjuder expertis inom acne och hudvård i Stockholm.">
+    <meta name="description" content="Vår avbokningspolicy, här kan du läsa mer om den avbokningspolicy som gäller när du bokar en behandling hos oss.">
     <meta name="keywords" content="Avbokningspolicy, AcneSpecialisten, Hudvårdstidning, Avboka Tid, Hudvård Stockholm, Hudvårdsbokning, Hudvårdsavbokning, Hudvårdsklinik Stockholm, Hudvårdsexpert, Hudbehandling, Hudkonsultation">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->

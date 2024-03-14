@@ -50,7 +50,7 @@ $salons = array(
     <!-- TODO: Set title and meta tags -->
     <title class="l10n">Kontakta Acnespecialisten | Expertis inom Hudvård</title>
     <meta name="title" content="Kontakta Acnespecialisten | Expertis inom Hudvård" class="l10n">
-    <meta name="description" content="Kontakta Acnespecialisten för professionell hudvård och rådgivning. Våra experter är redo att hjälpa dig med dina hudvårdsbehov på våra kliniker i Stockholm. Besök oss eller kontakta oss idag." class="l10n">
+    <meta name="description" content="Här hittar du öppettider, kontaktinformation och adress till våra hudvårdssalonger på Södermalm, Östermalm och i Sundbyberg." class="l10n">
     <meta name="keywords" content="kontakta Acnespecialisten, hudvårdsexperter, hudklinik, professionell hudvård, Acnespecialisten Stockholm, hudvårdsrådgivning" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
