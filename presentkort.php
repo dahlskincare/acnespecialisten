@@ -438,7 +438,7 @@ if (form_completed()) {
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
                             <div class="gcf-text l10n">
-                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål. Oavsett om det är en lyxig ansiktsbehandling eller ett bidrag till deras favoritprodukter, blir ditt presentkort en tankefull gest.
+                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål.
                             </div>
                             <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
                         </div>
@@ -454,7 +454,7 @@ if (form_completed()) {
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Fungerar på Alla Våra Kliniker</div>
                             <div class="gcf-text l10n">
-                                Våra presentkort är utformade för ultimat flexibilitet och kan användas på alla AcneSpecialistens kliniker. Oavsett vilken av våra lokaler mottagaren väljer att besöka, kan presentkortet lösas in hos någon av våra kvalificerade hudterapeuter. Presentkortet kan användas för både våra expertbehandlingar och vårt sortiment av högkvalitativa hudvårdsprodukter, vilket ger mottagaren friheten att välja den upplevelse som passar dem bäst.
+                                Våra presentkort är utformade för ultimat flexibilitet och kan användas på alla AcneSpecialistens kliniker. Oavsett vilken av våra lokaler mottagaren väljer att besöka, kan presentkortet lösas in hos någon av våra kvalificerade hudterapeuter. Presentkortet kan användas för alla våra expertbehandlingar vilket ger mottagaren friheten att välja den upplevelse som passar dem bäst.
                             </div>
 
                             <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
