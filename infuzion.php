@@ -57,7 +57,7 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Microneedling är en innovativ och effektiv behandling för att förbättra hudens kvalitet och adressera en mängd hudproblem.';
+$floating_box = 'Infuzion - en komnbination av fillers och skinbooster';
 
 $nav_buttons = array(
     'about' => 'Om Infuzion',
