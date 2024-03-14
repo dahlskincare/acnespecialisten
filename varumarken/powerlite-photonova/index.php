@@ -80,7 +80,7 @@ $description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, 
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en Powerlite Photonova behandling till?',
+        title: 'Hur går en IPL laser behandling i ansiktet till?',
         image_small: '/bilder/process/358x272/powerlite-photonova-process.webp',
         image_large: '/bilder/process/872x456/powerlite-photonova-process.webp',
         image_alt: 'Hur går en Rejuve Powerlite Photonova behandling till?',
