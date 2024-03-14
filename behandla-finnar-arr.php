@@ -3,7 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Ärr från Finnar - Effektiv Behandling';
-$seo_description = 'Utforska de mest effektiva behandlingsmetoderna för ärr från finnar. Få skräddarsydda råd, tips, och expertis från Acnespecialisten för att behandla och minska ärr orsakade av finnar.';
+$seo_description = 'Utforska de mest effektiva behandlingsmetoderna för ärr från finnar. Få skräddarsydda råd, tips, och expertis från oss för att behandla och minska ärr.';
 $seo_keywords = 'behandling av ärr från finnar, ärr från finnar, metod för behandling av finnärr, laserbehandling för finnärr, microneedling, kemisk peeling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
