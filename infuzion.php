@@ -377,7 +377,7 @@ $faq_categories = array(
             text: '<p class="p200">Infuzion System® erbjuder flera unika fördelar jämfört med andra metoder, inklusive dess förmåga att leverera aktiva ingredienser djupt in i huden utan smärta eller obehag. Det minimerar också risken för irritation, svullnad och blåmärken som kan uppstå med injektionsbaserade behandlingar. Dessutom är Infuzion effektiv för ett brett spektrum av hudtyper och problemområden, vilket gör det till en mångsidig och inkluderande behandling för hudföryngring.</p>'
         ),
         new Question(
-            title: 'För vilka hudproblem är infuzion bra mot?',
+            title: 'Vilka hudproblem är infuzion bra mot?',
             text: '<p class="p200">Infuzion System® är utmärkt för en bred variation av hudproblem, tack vare dess förmåga att djupt återfukta huden och förbättra dess övergripande textur och lyster. Det är särskilt effektivt mot fina linjer och rynkor, då det hjälper till att fylla ut och jämnar ut huden för ett mer ungdomligt utseende. Behandlingen är också idealisk för de som kämpar med torrhet eller matt hud, eftersom den införda hyaluronsyran verkar återfuktande på djupet. Vidare är Infuzion ett bra alternativ för dem som vill förebygga hudåldrande eller som söker en mildare, icke-invasiv behandling för hudförbättring. Genom att erbjuda djup hydrering och främja hudens hälsa på cellnivå, är Infuzion System® en omfattande lösning för många olika hudproblem.</p>'
         ),
 
