@@ -92,7 +92,7 @@ $top_articles = array(
 );
 
 $types_title = 'Hudtillstånd Behandlade med Powerlite Photonova';
-$types_description = 'Powerlite Photonova är en högteknologisk IPL (Intensivt Pulserande Ljus)-lösning som effektivt tar itu med en rad olika hudproblem.';
+$types_description = '';
 $types = array(
     new Service(
         title: 'Powerlite Photonova behandling för Rosacea',
