@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Soprano ICE Laserbehandling - Effektiv Hårborttagning';
 $seo_description = 'Upptäck Soprano Ice, en ledande teknologi inom permanent hårborttagning. Innovativ laserbehandling för att effektivt avlägsna oönskat hår på alla hudtyper.';
-$seo_keywords = 'Soprano ICE, permanent hårborttagning, laserbehandling, skonsam hårborttagning, effektiv metod, alla hudtyper, säker laserbehandling, långvariga resultat';
+$seo_keywords = 'Soprano Ice, diodlaser, laserbehandling, skonsam hårborttagning, effektiv metod, alla hudtyper, säker laserbehandling, långvariga resultat';
 
 $seo_image = '/images/treatments/large/soprano-ice.webp';
 
