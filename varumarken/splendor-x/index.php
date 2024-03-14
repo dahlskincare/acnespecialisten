@@ -434,8 +434,8 @@ $bottom_articles = array(
     ),
 );
 
-$service_brands_title = 'Märken för Permanent Hårborttagning';
-$service_brands_text = '<p class="p200">Utöver Splendor X utför vi även permanent hårborttagning med Soprano Ice.</p>';
+$service_brands_title = 'Andra teknologier för hårborttagning';
+$service_brands_text = '<p class="p200">Vi erbjuder även Soprano Ice som består använder diodlaser för hårborttagning.</p>';
 $service_brands = array(
 
     new Brand(
