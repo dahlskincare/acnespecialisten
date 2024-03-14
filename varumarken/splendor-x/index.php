@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Laser Hårborttagning i Stockholm';
-$seo_description = 'Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper.';
+$seo_description = 'Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt och smärtfritt tar bort hår på alla hudtyper.';
 $seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, ta bort hår';
 
 $seo_image = '/images/treatments/large/splendor-x.webp';
