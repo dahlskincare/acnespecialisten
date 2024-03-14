@@ -59,7 +59,7 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/splendor-x-process.webp',
         image_alt: 'Hur går behandlingen med Splendor X till?',
         image_title: 'Hur går behandlingen med Splendor X till?',
-        content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. Behandlingen utförs med ehög precision tack vare kombinationen av ett UV-bläck och speciellt UV ljus som gör att laserterapeuten tydligt ser exakt vilka områden som ska behandlas. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Denna laserstråle absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme inaktiverar hårfolliklarna vilket gör att dem slutar producera går, detta sker helt utan att skada vävnaden, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
+        content: '<p class="p200">Splendor X-behandlingen revolutionerar den permanenta hårborttagningen med sin unika gelfria och därmed kladdfria metod. Behandlingen utförs med hög precision tack vare kombinationen av ett UV-bläck och speciellt UV ljus som gör att laserterapeuten tydligt ser exakt vilka områden som ska behandlas. När du genomgår en Splendor X-behandling appliceras specialiserat laserljus på de områden där du önskar hårborttagning. Denna laserstråle absorberas av pigmentet i hårfolliklarna och omvandlas till värme. Denna värme inaktiverar hårfolliklarna vilket gör att dem slutar producera går, detta sker helt utan att skada vävnaden, vilket förhindrar framtida hårväxt på ett precist och säkert sätt.</p>
         <p class="p200 mt-m">Efter behandlingen kan det förekomma en viss rodnad och svullnad på de behandlade områdena, men dessa reaktioner är milda och försvinner vanligtvis snabbt. För att uppnå optimala och långvariga resultat kan det vara nödvändigt med flera behandlingssessioner, då hår växer i olika faser och varje strå måste behandlas vid rätt tidpunkt. Vår expertis och avancerade teknik med Splendor X säkerställer en effektiv, säker och bekväm upplevelse, vilket resulterar i slät och hårfri hud.</p>',
     ),
 );
@@ -588,7 +588,7 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många Splendor X-behandlingar krävs för permanent hårborttagning?',
+            title: 'Hur många Splendor X-behandlingar krävs för hårborttagning?',
             text: '<p class="p200">Antalet Splendor X-behandlingar som krävs för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det behövas 8-12 behandlingar för att uppnå optimala resultat med Splendor X. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets olika tillväxtfaser.</p>'
         ),
         new Question(
