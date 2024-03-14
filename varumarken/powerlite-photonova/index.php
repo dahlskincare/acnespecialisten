@@ -111,8 +111,8 @@ $types = array(
         booking_url_title: 'Boka Powerlite Photonova behandling för rosacea',
 
         url: '/ipl-rosacea.php',
-        url_label: 'Läs mer om laser mot rosacea',
-        url_title: 'Läs mer om laser mot rosacea',
+        url_label: 'Läs mer om IPL laser mot rosacea',
+        url_title: 'Läs mer om IPL laser mot rosacea',
     ),
 
     new Service(
@@ -132,8 +132,8 @@ $types = array(
         booking_url_title: 'Boka Powerlite Photonova behandling för ytliga blodkärl',
 
         url: '/ipl-ytliga-blodkarl.php',
-        url_label: 'Läs mer om laser mot ytliga blodkärl',
-        url_title: 'Läs mer om laser mot ytliga blodkärl',
+        url_label: 'Läs mer om IPL laser mot ytliga blodkärl',
+        url_title: 'Läs mer om IPL laser mot ytliga blodkärl',
     ),
 
     new Service(
@@ -153,8 +153,8 @@ $types = array(
         booking_url_title: 'Boka Powerlite Photonova behandling för pigmentfläckar',
 
         url: '/ipl-pigmentflackar.php',
-        url_label: 'Läs mer om laser mot pigmentfläckar',
-        url_title: 'Läs mer om laser mot pigmentfläckar',
+        url_label: 'Läs mer om IPL laser mot pigmentfläckar',
+        url_title: 'Läs mer om IPL laser mot pigmentfläckar',
     ),
 
     new Service(
