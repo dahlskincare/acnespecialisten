@@ -152,10 +152,10 @@ if (form_completed()) {
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Gift cards</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">Presentkort | AcneSpecialisten</title>
+    <meta name="title" content="Presentkort | AcneSpecialisten" class="l10n">
+    <meta name="description" content="Ge bort ett presentkort till någon du tycker om." class="l10n">
+    <meta name="keywords" content="presentkort" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">

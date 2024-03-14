@@ -138,10 +138,10 @@ $glossary_items = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten | Glossary</title>
-    <meta name="description" content="" class="l10n">
-    <meta name="title" content="" class="l10n">
-    <meta name="keywords" content="" class="l10n">
+    <title class="l10n">Ordlista | AcneSpecialisten</title>
+    <meta name="title" content="Ordlista | AcneSpecialisten" class="l10n">
+    <meta name="description" content="Här förklarar vi mer om olika begrepp relaterade till problemhy och hudproblem. Få mer information om huden | AcneSpecialisten" class="l10n">
+    <meta name="keywords" content="ordlista" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
