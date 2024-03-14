@@ -182,7 +182,7 @@ $link_brands = array(
             )
       ),
       new BrandCategory(
-            label: 'FreezeTreat',
+            label: 'Frysbehandling',
             url: '/cryopen.php',
             url_title: 'Läs mer',
             services: array(
