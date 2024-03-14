@@ -593,7 +593,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur långvariga är resultaten?',
-            text: '<p class="p200">Resultaten av permanent hårborttagning med Splendor X är vanligtvis långvariga. Efter en komplett serie av behandlingar kan kunder förvänta sig en betydande och varaktig minskning av hårväxt. För att upprätthålla resultaten över tid kan periodiska underhållsbehandlingar vara nödvändiga, speciellt för att hantera eventuell finare återväxt.</p>'
+            text: '<p class="p200">Resultaten av hårborttagning med Splendor X är permanenta. Efter en komplett serie av behandlingar kan kunder förvänta sig en betydande och varaktig minskning av hårväxt. För att upprätthålla resultaten över tid kan periodiska underhållsbehandlingar vara nödvändiga, speciellt för att hantera eventuell finare återväxt.</p>'
         ),
         new Question(
             title: 'Hur förbereder jag mig inför en behandling?',
