@@ -589,7 +589,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar krävs för hårborttagning?',
-            text: '<p class="p200">Antalet Splendor X-behandlingar som krävs för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det behövas 8-12 behandlingar för att uppnå optimala resultat med Splendor X. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets olika tillväxtfaser.</p>'
+            text: '<p class="p200">Antalet Splendor X-behandlingar som krävs för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det behövas 8-12 behandlingar för att uppnå optimala resultat med Splendor X. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets olika växtfaser.</p>'
         ),
         new Question(
             title: 'Hur långvariga är resultaten?',
