@@ -88,12 +88,12 @@ if (form_completed()) {
     $message .= "--$boundary--\r\n";
     mail($to, $subject, $message, $headers);
 } else {
+    $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
     /*
     $rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
     $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/swish_certificate.pem', 'lok13rum'];
     $client = Client::make($rootCert, $clientCert);
 
-    $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
     $pr = new PaymentRequest([
         'callbackUrl' => 'https://acnespecialisten.se/presentkort?paid=1',
         'payeePaymentReference' => uniqid(),
