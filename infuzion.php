@@ -95,12 +95,11 @@ $types_title = '';
 $types_description = '';
 $big_types = array(
     new Service(
-        title: 'Multizuion - Infuzion + Microneedling',
+        title: 'Multifuzion - Infuzion + Microneedling',
         duration: null,
         price: null,
-        content: '<p class="p200"><p class="p200">Multifuzion är en avancerad behandlingsmetod som kombinerar effekterna av microneedling och Infuzion skinbooster. Denna behandling börjar med microneedling, en teknik där små nålar skapar mikroskopiska kanaler i huden. Denna process stimulerar hudens naturliga läkningsprocess och ökar kollagenproduktionen, vilket bidrar till förbättrad hudstruktur och minskning av fina linjer och ärr.</p>
-        <p class="p200 mt-m">Efter microneedling följer Infuzion-behandlingen. Tack vare de mikroskopiska kanalerna som skapats under microneedling, kan Infuzion serumet, som är rikt på hyaluronsyra och näringsämnen, tränga djupare ner i huden. Detta maximerar hydreringen och näringstillförseln till hudcellerna, vilket resulterar i en mer intensiv och långvarig effekt. </p>
-        <p class="p200 mt-m">Multifuzion är en idealisk behandling för att effektivt hantera hudproblem som åldrande, torrhet, ojämn hudton och textur, samt för att ge huden en mer ungdomlig och strålande lyster. Denna kombinationsbehandling ger en synergistisk effekt som inte bara förbättrar hudens yttre utseende, men även dess övergripande hälsa och kvalitet.</p>',
+        content: '<p class="p200"><p class="p200">Multifuzion är en avancerad hudförbättringsmetod som kombinerar microneedling och Infuzion för att erbjuda en omfattande behandling för hudföryngring. Processen börjar med microneedling för att skapa mikroskopiska kanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens struktur.</p>
+        <p class="p200 mt-m">Därefter appliceras Infuzion-behandlingen, där hudens förmåga att absorbera de näringsrika serumerna förbättras avsevärt genom de skapade kanalerna. Denna synergistiska effekt ger en intensiv hydrering och näring, vilket resulterar i en slätare, mer strålande hud med minskade tecken på åldrande.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'Multizuion - Infuzion + Microneedling',
