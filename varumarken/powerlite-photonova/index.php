@@ -91,11 +91,11 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudtillstånd Behandlade med Powerlite Photonova';
+$types_title = 'Hudtillstånd vi behandlar';
 $types_description = '';
 $types = array(
     new Service(
-        title: 'Powerlite Photonova behandling för Rosacea',
+        title: 'IPL laser mot Rosacea',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Utnyttja effektiviteten hos Powerlite Photonova för att behandla rosacea. Denna avancerade IPL-metod är inriktad på att mildra rodnad och andra symtom associerade med rosacea, vilket resulterar i en jämnare hudton och förbättrad hudkvalitet.',
@@ -116,7 +116,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Powerlite Photonova behandling för Ytliga Blodkärl',
+        title: 'IPL laser mot Ytliga Blodkärl',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Powerlite Photonova erbjuder en effektiv lösning för att minska synligheten av ytliga blodkärl. Denna IPL-behandling är skräddarsydd för att selektivt och skonsamt behandla de berörda områdena, vilket leder till en klarare och mer enhetlig hudton.',
@@ -137,7 +137,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Powerlite Photonova behandling för Pigmentfläckar',
+        title: 'IPL laser mot Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Med Powerlite Photonova kan du effektivt minska och ljusa upp pigmentfläckar. Denna skonsamma, men effektiva IPL-metod är perfekt för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
@@ -158,7 +158,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Powerlite Photonova behandling för Melasma',
+        title: 'IPL laser mot Melasma',
         duration: '50 minuter',
         price: '2595 kr',
         content: 'Behandla melasma effektivt med Powerlite Photonova. Denna teknik är inriktad på att ljusa upp och jämna ut hudtonen genom att selektivt behandla hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
