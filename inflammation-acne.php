@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Inflammatorisk Akne - Omfattande Behandling och Expertkunskap | Acnespecialisten';
+$seo_title = 'Inflammatorisk Akne - Omfattande Behandling och Kunskap';
 $seo_description = 'Utforska grundläggande information om inflammatorisk akne, dess orsaker och Acnespecialistens anpassade behandlingsmetoder för alla hudtyper och åldrar.';
 $seo_keywords = 'inflammatorisk akne, behandling av inflammatorisk akne, hudvård för inflammatorisk akne';
 

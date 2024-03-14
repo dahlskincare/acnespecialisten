@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Operations- och Skadeärr - Effektiv Metod | AcneSpecialisten';
+$seo_title = 'Behandling av Operations- och Skadeärr - Effektiv Metod';
 $seo_description = 'Utforska de mest effektiva behandlingsmetoderna för operations- och skadeärr. Få skräddarsydda råd, tips och expertis från AcneSpecialisten för att behandla och minska ärr orsakade av operationer och skador.';
 $seo_keywords = 'behandling av operationsärr, skadeärrbehandling, metod för skadeärrbehandling, laserbehandling för skadeärr, microneedling, kemisk peeling för skadeärr';
 

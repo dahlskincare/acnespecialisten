@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Pormaskar på Bröstet - Orsaker, Behandling, Förebyggande | Acnespecialisten';
+$seo_title = 'Allt om Pormaskar på Bröstet - Orsak, Behandling, Förebygg';
 $seo_description = 'Få insikter om pormaskar på bröstet, varför de uppstår, effektiva behandlingsmetoder och hur du kan förebygga dem. Utforska Acnespecialistens expertlösningar.';
 $seo_keywords = 'pormaskar på bröstet, behandla pormaskar på bröstet, orsaker till pormaskar på bröstet, förebygga pormaskar på bröstet, reducera pormaskar på bröstet, hudvård, bröstrengöring, djuprengöring av porer';
 

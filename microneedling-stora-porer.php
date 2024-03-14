@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot Stora Porer - Uppnå Finare Hudstruktur | Acnespecialisten';
+$seo_title = 'Microneedling mot Stora Porer - Uppnå Finare Hudstruktur';
 $seo_description = 'Upptäck hur AcneSpecialistens microneedling-behandlingar effektivt kan minska synligheten av stora porer. Genom att använda avancerad mikronålsteknik aktiverar vi hudens naturliga kollagenproduktion, vilket leder till en förbättrad hudtextur. Resultatet är mindre märkbara porer och en slätare, mer raffinerad hud.';
 $seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare hudstruktur, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling, hudförädling, porminskning';
 

@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Tonårsakne - Strategier för Behandling och Skötsel | Acnespecialisten';
+$seo_title = 'Tonårsakne - Strategier för Behandling och Skötsel';
 $seo_description = 'Utforska tonårsakne, deras orsaker, effekter och effektiva behandlingar. Acnespecialisten ger experttips för skonsam och anpassad hudvård för ungdomar.';
 $seo_keywords = 'tonårsakne, behandling av tonårsakne, ungdomshudvård, hormonella förändringar och akne, effektiv aknebehandling för ungdomar';
 

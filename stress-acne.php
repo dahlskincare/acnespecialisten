@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Stress akne - Förståelse, Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Stress akne - Förståelse, Behandling och Förebyggande';
 $seo_description = 'Lär dig om stressrelaterad akne, dess orsaker och hur Acnespecialisten kan hjälpa med skräddarsydda behandlingsmetoder och förebyggande strategier.';
 $seo_keywords = 'stressrelaterad akne, behandling av stressakne, förebygga stressakne, hantera akne orsakad av stress, hudvård vid stress';
 

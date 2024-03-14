@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Cystisk Akne - Omfattande Behandling och Expertis | Acnespecialisten';
+$seo_title = 'Cystisk Akne - Omfattande Behandling och Expertis';
 $seo_description = 'Utforska allt om cystisk akne, dess orsaker och effektiva behandlingsmetoder från Acnespecialisten, anpassade för alla hudtyper och åldrar.';
 $seo_keywords = 'cystisk akne, behandling av cystisk akne, hudvård för cystisk akne';
 

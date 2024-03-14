@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Gravid Finnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
+$seo_title = 'Gravid Finnar - Förståelse, Behandling och Skötsel';
 $seo_description = 'Utforska allt om gravid finnar – från orsaker till säker behandling och skötsel under graviditeten. Acnespecialisten ger skräddarsydda råd och lösningar.';
 $seo_keywords = 'gravid finnar, hudvård under graviditet, behandla finnar under graviditet, säker hudvård för gravida, förebygga finnar under graviditet, hormonell akne, graviditet och hudvård';
 

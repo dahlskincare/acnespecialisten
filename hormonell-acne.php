@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hormonell Akne - Djupgående Förståelse och Skräddarsydd Behandling | Acnespecialisten';
+$seo_title = 'Hormonell Akne - Djupgående Information och Behandling';
 $seo_description = 'Lär dig allt om hormonell akne, dess orsaker och upptäck Acnespecialistens effektiva, anpassade behandlingsmetoder för alla hudtyper och åldrar.';
 $seo_keywords = 'hormonell akne, behandling av hormonell akne, hudvård för hormonell akne';
 

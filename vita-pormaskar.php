@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Vita Pormaskar - Orsaker, Behandlingar, Prevention | Acnespecialisten';
+$seo_title = 'Allt om Vita Pormaskar - Orsaker, Behandlingar, Förebygg';
 $seo_description = 'Upptäck djupgående information om vita pormaskar, deras bildning, effektiva behandlingsalternativ och preventionsstrategier. Få tillgång till Acnespecialistens skräddarsydda lösningar och expertkunskaper.';
 $seo_keywords = 'vita pormaskar, hantering av vita pormaskar, vita pormaskars orsaker, förebyggande av vita pormaskar, eliminering av vita pormaskar, hudvårdsrutiner, ansiktsrengöring, djuprengöring av porer';
 

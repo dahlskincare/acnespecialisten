@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Blodprickar - Effektiva Metoder | Acnespecialisten';
+$seo_title = 'Behandling av Blodprickar - Effektiva Metoder';
 $seo_description = 'Upptäck Acnespecialistens expertis inom behandling av blodprickar. Vi erbjuder skräddarsydda lösningar för att säkert och effektivt ta hand om dessa vanliga hudförändringar. Med våra avancerade metoder och tekniker kan du uppnå en klarare och jämnare hudton utan synliga blodprickar.';
 $seo_keywords = 'blodprickar, behandling av blodprickar, hudförändringar, klar hud, jämn hudton, avlägsna blodprickar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 

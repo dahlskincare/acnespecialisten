@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Komedoner - Orsaker, Behandling och Förebyggande | Acnespecialisten';
+$seo_title = 'Allt om Komedoner - Orsaker, Behandling och Förebyggande';
 $seo_description = 'Upptäck allt om komedoner, från vad de är till hur man effektivt behandlar och förebygger dem. Få anpassade lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'komedoner, behandling av komedoner, orsaker till komedoner, förebygga komedoner, eliminera komedoner, hudvård, ansiktsrengöring, porrengöring';
 

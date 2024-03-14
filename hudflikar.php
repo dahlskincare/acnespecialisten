@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Hudflikar - Skonsamma och Effektiva Metoder | Acnespecialisten';
+$seo_title = 'Behandling av Hudflikar - Skonsamma och Effektiva Metoder';
 $seo_description = 'Upptäck Acnespecialistens expertis inom behandling av hudflikar. Med våra skonsamma och avancerade metoder erbjuder vi effektiva lösningar för att ta bort hudflikar, vilket bidrar till en slätare och mer enhetlig hudton.';
 $seo_keywords = 'hudflikar, behandling av hudflikar, hudförändringar, jämna ut hudton, ta bort hudflikar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 

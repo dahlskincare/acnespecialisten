@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Mallorca akne - Förståelse och Effektiv Behandling | Acnespecialisten';
+$seo_title = 'Mallorca akne - Förståelse och Effektiv Behandling';
 $seo_description = 'Lär dig om Mallorca akne, dess orsaker, inklusive exponering för sol, och upptäck Acnespecialistens anpassade behandlingsmetoder.';
 $seo_keywords = 'Mallorca akne, behandling av Mallorca akne, hudvård för Mallorca akne';
 

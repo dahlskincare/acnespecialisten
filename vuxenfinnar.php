@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vuxenfinnar - Förståelse, Behandling och Skötsel | Acnespecialisten';
+$seo_title = 'Vuxenfinnar - Förståelse, Behandling och Skötsel';
 $seo_description = 'Utforska allt om vuxenfinnar – från orsaker till effektiva behandlingsmetoder. Acnespecialisten erbjuder experttips och skräddarsydda lösningar för vuxna med akne.';
 $seo_keywords = 'vuxenfinnar, behandling av vuxenakne, hudvård för vuxna, hormonella förändringar och akne, effektiv aknebehandling för vuxna';
 

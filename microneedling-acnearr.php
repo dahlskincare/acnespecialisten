@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot akneärr - Uppnå Finare Hudstruktur';
+$seo_title = 'Microneedling mot Stora Porer - Uppnå Bättre Hudstruktur';
 $seo_description = 'Utforska Acnespecialistens microneedling-behandlingar för akneärr. Vår avancerade mikronålsteknik främjar hudens egen kollagenproduktion och bidrar till en märkbart förbättrad hudtextur. Upplev en hud med mindre synliga akneärr och en jämnare hudton.';
 $seo_keywords = 'microneedling, behandling av akneärr, förbättrad hudstruktur, jämn hudton, kollagenproduktion, hudföryngring, minskning av akneärr, förfinad hud, porminskning, hudförbättring';
 
