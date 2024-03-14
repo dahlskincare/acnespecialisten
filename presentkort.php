@@ -429,11 +429,11 @@ if (form_completed()) {
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Ge ett presentkort <br />till någon som du bryr dig om</div>
+                        <div class="h500 is-hidden-desktop l10n">Välj Belopp eller Behandling</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
                             <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
-                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" title="Gift to someone" width="358" height="272" />
+                            <img src="https://via.placeholder.com/358x272.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
@@ -445,11 +445,11 @@ if (form_completed()) {
 
                     </div>
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Gift to someone you care about</div>
+                        <div class="h500 is-hidden-desktop l10n">Fungerar på Alla Våra Kliniker</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
                             <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
-                            <img src="https://via.placeholder.com/358x272.webp" alt="Gift to someone" title="Gift to someone" width="358" height="272" />
+                            <img src="https://via.placeholder.com/358x272.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på Alla Våra Kliniker" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Fungerar på Alla Våra Kliniker</div>
