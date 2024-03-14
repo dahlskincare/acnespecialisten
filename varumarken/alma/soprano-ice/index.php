@@ -592,20 +592,24 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar med Soprano ICE krävs för permanent hårborttagning?',
-            text: '<p class="p200">Antalet behandlingar med Soprano ICE för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det krävas 8-12 behandlingar för att uppnå optimala resultat. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets tillväxtcykel.</p>'
+            title: 'Hur fungerar diodlaser i Soprano ICE?',
+            text: '<p class="p200">Diodlaser i Soprano ICE använder en specifik våglängd på 810 nm för att djupt penetrera huden och målinrikta hårsäckarna utan att skada omgivande vävnad. Det gör behandlingen säker och effektiv för permanent hårborttagning.</p>'
         ),
         new Question(
-            title: 'Hur långvariga är resultaten med Soprano ICE?',
-            text: '<p class="p200">Resultaten av permanent hårborttagning med Soprano ICE är vanligtvis långvariga. De flesta klienter upplever en betydande och varaktig minskning av hårväxt efter en fullständig serie av behandlingar. Vissa klienter kan behöva periodiska underhållsbehandlingar för att hantera eventuell återväxt av finare hårstrån.</p>'
+            title: 'Är resultaten från Soprano ICE permanenta?',
+            text: '<p class="p200">Ja, Soprano ICE tar permanent bort håret efter en serie serie behandlingar. Efter att ha genomgått en komplett serie behandlingar, upplever de flesta en betydande minskning i hårväxt på de behandlade områdena. Dock kan resultaten variera beroende på individuella faktorer.</p>'
         ),
         new Question(
-            title: 'Hur förbereder jag mig inför en Soprano ICE-behandling?',
-            text: '<p class="p200">För att förbereda dig för en Soprano ICE-behandling är det viktigt att du inte vaxar eller noppar hår i det område som ska behandlas. Raka området dagen före din behandling för att förbättra resultatet. Det är också viktigt att undvika solning och använda solskydd i veckorna före din behandling för att minska risken för biverkningar och maximera effektiviteten.</p>'
+            title: 'Hur många behandlingar behövs för bästa resultat?',
+            text: '<p class="p200">Antalet behandlingar varierar beroende på individens hår- och hudtyp, samt området som behandlas. Vanligtvis rekommenderas 6-8 behandlingar med 4-6 veckors intervall för att uppnå optimala resultat, men det kan behövas fler sessioner för vissa personer.</p>'
         ),
         new Question(
-            title: 'Är behandling med Soprano ICE smärtsam?',
-            text: '<p class="p200">Många upplever att behandling med Soprano ICE är mindre smärtsam än andra former av laserbehandling för hårborttagning. Tack vare dess avancerade kylsystem och mjuka lasermetod rapporterar de flesta endast en lätt snäppkänsla mot huden. Smärtupplevelsen kan dock variera beroende på individens smärttröskel och behandlingsområde.</p>'
+            title: 'Är Soprano ICE smärtsam?',
+            text: '<p class="p200">Soprano ICE är känd för att vara en av de minst smärtsamma metoderna för laserhårborttagning, tack vare sin unika kylteknik och gradvisa uppvärmning av huden. De flesta känner endast en lätt värme eller stickande känsla.</p>'
+        ),
+        new Question(
+            title: 'Kan Soprano ICE användas på alla hudtyper?',
+            text: '<p class="p200">Ja, Soprano ICE är effektiv och säker för alla hudtyper, inklusive solbränd hud. Dess teknologi är utformad för att anpassa sig och behandla olika hudfärger och hårtyper effektivt, vilket gör den till en mångsidig lösning för permanent hårborttagning.</p>'
         ),
     )
 );
