@@ -431,9 +431,9 @@ if (form_completed()) {
                     <div class="gift-card-flyer">
                         <div class="h500 is-hidden-desktop l10n">Välj Belopp eller Behandling</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
-                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
-                            <img src="https://via.placeholder.com/358x272.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/konsultation.webp">
+                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/konsultation.webp">
+                            <img src="bilder/behandlingar/358x274/konsultation.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
@@ -447,9 +447,9 @@ if (form_completed()) {
                     <div class="gift-card-flyer">
                         <div class="h500 is-hidden-desktop l10n">Fungerar på Alla Våra Kliniker</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="https://via.placeholder.com/358x272.webp">
-                            <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/424x526.webp">
-                            <img src="https://via.placeholder.com/358x272.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på Alla Våra Kliniker" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp">
+                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp">
+                            <img src="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på Alla Våra Kliniker" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Fungerar på Alla Våra Kliniker</div>
