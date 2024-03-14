@@ -111,7 +111,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
+        description: '<p class="p200">Hos oss kan du ta bort hår i ansiktet, du kan även lasra bort hår i delar av ansiktet. Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/ansikte.webp',
