@@ -3,12 +3,11 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Exceed - Avancerad microneedling | Acnespecialisten';
-$seo_description = 'Exceed-behandlingar, framkantstekniken för avancerad microneedling som effektivt tar itu med ålderstecken och hudens textur.';
-$seo_keywords = 'Exceed, avancerad microneedling, behandla hudtextur, minska ålderstecken, främja kollagenproduktion, hudförbättringar, förbättrad hudstruktur, jämn hudton, förbättrad hudelasticitet, hudförnyelse';
+$seo_title = 'Exceed Stockhom - Avancerad hudförbättring';
+$seo_description = 'Exceed är en avancerad microneedling behandling som effektivt tar itu med ålderstecken och hudens textur.';
+$seo_keywords = 'Exceed, Stockholm';
 
 $seo_image = '/images/treatments/large/exceed.webp';
-
 
 $model = new Service(
     title: 'Exceed',
@@ -74,18 +73,6 @@ $description_title = 'Exceed - en ledande teknik inom avancerad hudförbättring
 $description_text = '<p class="p200">Exceed är en toppmodern behandling som passar alla hudtyper, utformad för att vitalisera och förbättra hudens kvalitet. Denna avancerade metod använder preciserade mikronålar för att skapa små, exakta mikrokanaler i huden, vilket främjar djupt upptag av näringsrika serum och stimulerar hudens naturliga kollagenproduktion och läkningsmekanismer.</p>
     <p class="p200 mt-m">Som en digitalt styrd microneedling-teknik, erbjuder Exceed en behandling med minimal obehag jämfört med traditionella metoder. Exceed är anpassningsbar och kan målinriktat förbättra en mängd hudtillstånd som rynkor, ärr, ojämn hudton och textur. Genom att aktivera hudens egna reparationsförmåga ökas dess elasticitet och lyster, vilket resulterar i en synbart yngre och mer strålande hud.</p>';
 
-$top_articles = array(
-    'process' => new Article(
-        title: 'Exceed behandlingsprocess',
-        image_small: '/bilder/process/358x272/exceed-process.webp',
-        image_large: '/bilder/process/872x456/exceed-process.webp',
-        image_alt: 'Exceed behandlingsprocess',
-        image_title: 'Exceed behandlingsprocess',
-        content: '<p class="p200">Exceed-behandlingen är en innovativ metod inom mikronålning som effektivt jobbar för att revitalisera och förbättra din huds struktur och utseende. Vid ankomst till vår klinik påbörjar vi processen med en omfattande rengöring av ditt ansikte för att avlägsna orenheter och smuts, vilket förbereder huden för behandlingen.</p>
-        <p class="p200 mt-m">Under behandlingen använder vi Exceed-apparaten som är försedd med fina, sterila mikronålar. Denna apparat används för att skapa kontrollerade mikro-perforeringar i huden, vilket startar hudens naturliga läkningsmekanismer. Genom dessa mikro-skador stimuleras produktionen av kollagen och elastin, vitala komponenter för hudens ungdomlighet och spänst. Specifikt utformade serum appliceras under proceduren för att ytterligare nära huden och stödja den helande processen. Efter behandlingen kan du uppleva en lätt rodnad och svullnad, vilket är normala tecken på att hudens återhämtning är i gång. Över tid leder behandlingen till att huden blir jämnare, stramare och får en förhöjd lyster.</p>',
-    ),
-);
-
 $treatment_areas_title = 'Områden som förbättras med Exceed';
 $treatment_areas_text = '<p class="p200">Exceed erbjuder anpassningsbar behandling för diverse områden inklusive ansiktet, nacken, dekolletaget och andra kroppsdelar. Denna teknik är expert på att förbättra hudens textur och ge en ökad lyster genom att aktivera kollagenproduktionen och stödja naturliga läkningsprocesser, skräddarsydd för varje specifikt hudområde.</p>';
 $treatment_areas = array(
@@ -97,28 +84,6 @@ $treatment_areas = array(
         title: 'Kombinera områden',
         description: '<p class="p200">Exceed kan effektivt rikta in sig på flera behandlingsområden samtidigt.</p>',
         items: array(
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '1x zon',
-                image_title: '1x zon',
-                title: '1x zon',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_1xZone',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 1 zon'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '2x zon',
-                image_title: '2x zon',
-                title: '2x zon',
-                duration: '30 min',
-                price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_2xZones',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 2 zoner'
-            ),
             new TreatmentAreaItem(
                 image: null,
                 image_alt: '1x område',
@@ -152,29 +117,29 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för 3 områden'
             ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '1x zon',
+                image_title: '1x zon',
+                title: '1x zon',
+                duration: '20 min',
+                price: '1595 kr',
+                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_1xZone',
+                url_label: 'Boka',
+                url_title: 'Boka tid för 1 zon'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: '2x zon',
+                image_title: '2x zon',
+                title: '2x zon',
+                duration: '30 min',
+                price: '1995 kr',
+                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_2xZones',
+                url_label: 'Boka',
+                url_title: 'Boka tid för 2 zoner'
+            ),
         )
-    ),
-);
-
-$bottom_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför behandling med Exceed',
-        image_small: '/bilder/process/358x272/exceed-forberedelser.webp',
-        image_large: '/bilder/process/872x456/exceed-forberedelser.webp',
-        image_alt: 'Förberedelser inför behandling med Exceed',
-        image_title: 'Förberedelser inför behandling med Exceed',
-        content: '<p class="p200">För att få så bra resultat av Exceed som möjligt rekommenderar vi alltid att man börjar med en detaljerad konsultation hos en av våra hudterapeuter. Konsultationen innebär en djupgående hudanalys där vi identifierar dina specifika behov och eventuella hudproblem. Denna initiala bedömning är avgörande för att skräddarsy en behandlingsplan som är unikt anpassad efter din huds egna förutsättningar.</p>
-        <p class="p200 mt-m">För att säkerställa att du får de bästa möjliga resultaten, är det viktigt att din hud inte uppvisar tecken på solskador vid tiden för behandlingen. Vi råder också till att undvika hudretande produkter med starka syror eller andra irritanter några dagar innan din session. Vår hudterapeut kommer att ge dig omfattande råd och instruktioner om hur du på bästa sätt förbereder din hud för Exceed-behandlingen, vilket ger en både effektiv och säker behandlingsupplevelse.</p>',
-    ),
-    'aftercare' => new Article(
-        title: 'Eftervård Exceed behandling',
-        image_small: '/bilder/process/358x272/exceed-eftervard.webp',
-        image_large: '/bilder/process/872x456/exceed-eftervard.webp',
-        image_alt: 'Eftervård Exceed behandling',
-        image_title: 'Eftervård Exceed behandling',
-        content: '<p class="p200">Eftervården är avgörande för att säkerställa bästa möjliga resultat från din Exceed-behandling. En lätt rodnad och svullnad är vanliga reaktioner efter behandlingen, och det är kritiskt att du håller det behandlade området rent och undviker att applicera smink under de första 24 timmarna för att minimera risken för infektion och irritation.</p>
-        <p class="p200 mt-m">Det är även rekommenderat att du avstår från aktiviteter som intensiv fysisk träning, besök i bastu, och varma duschar de första dagarna efter behandlingen, eftersom detta kan öka svullnad och irritation. Användning av hög SPF-solskydd är essentiellt för att skydda den känsliga huden mot solens strålar post-behandling.</p>
-        <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som din hudterapeut ger dig, och tveka inte att kontakta din klinik om du har några frågor eller funderingar angående återhämtningen. Beroende på din huds respons på behandlingen kan ytterligare uppföljningar och sessioner rekommenderas för att nå dina hudvårds mål.</p>',
     ),
 );
 
@@ -333,15 +298,15 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur ofta bör jag genomgå Exceed microneedling?',
-            text: 'Antalet Exceed microneedling sessioner som rekommenderas varierar baserat på individens hudtillstånd och de mål man vill uppnå. Generellt sett kan man förvänta sig att behöva mellan 3 och 8 behandlingar, med 4 till 6 veckors mellanrum, för att nå önskvärt resultat. En skräddarsydd behandlingsplan kommer att utarbetas under din initiala konsultation.'
+            text: '<p class="p200">Antalet Exceed microneedling sessioner som rekommenderas varierar baserat på individens hudtillstånd och de mål man vill uppnå. Generellt sett kan man förvänta sig att behöva mellan 3 och 8 behandlingar, med 4 till 6 veckors mellanrum, för att nå önskvärt resultat. En skräddarsydd behandlingsplan kommer att utarbetas under din initiala konsultation.</p>'
         ),
         new Question(
             title: 'Finns det risk för att mina hudproblem kommer tillbaka efter Exceed-behandling?',
-            text: 'Medan Exceed-behandling kan ge betydande förbättringar i hudens tillstånd, kan den inte garantera att nya hudproblem inte uppstår i framtiden. Det är viktigt med en kontinuerlig hudvårdsrutin och möjligtvis ytterligare uppföljningsbehandlingar för att bibehålla och skydda resultaten på lång sikt.'
+            text: '<p class="p200">Medan Exceed-behandling kan ge betydande förbättringar i hudens tillstånd, kan den inte garantera att nya hudproblem inte uppstår i framtiden. Det är viktigt med en kontinuerlig hudvårdsrutin och möjligtvis ytterligare uppföljningsbehandlingar för att bibehålla och skydda resultaten på lång sikt.</p>'
         ),
         new Question(
             title: 'Hur snabbt kan jag se resultat efter en Exceed-behandling?',
-            text: 'Resultaten från Exceed-behandling kan variera från person till person. En del kan se förbättringar redan inom några dagar, medan andra kanske behöver vänta flera veckor för att se full effekt. Huden kan fortsätta att förbättras och kollagenproduktionen kan öka under flera månader efter behandlingen.'
+            text: '<p class="p200">Resultaten från Exceed-behandling kan variera från person till person. En del kan se förbättringar redan inom några dagar, medan andra kanske behöver vänta flera veckor för att se full effekt. Huden kan fortsätta att förbättras och kollagenproduktionen kan öka under flera månader efter behandlingen.</p>'
         ),
     )
 );
@@ -568,13 +533,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
-                <?php foreach ($top_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
-                <?php } ?>
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
                         <h2 class="h500"><?php echo $types_title; ?></h2>
@@ -631,13 +589,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         } ?>
                     </section>
 
-                <?php } ?>
-                <?php foreach ($bottom_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
                     <section id="service-brands" class="large-margin">
