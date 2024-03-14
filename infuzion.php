@@ -57,7 +57,7 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Infuzion - en komnbination av fillers och skinbooster';
+$floating_box = 'Infuzion - en komnbination av fillers och skinbooster.';
 
 $nav_buttons = array(
     'about' => 'Om Infuzion',
