@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Soprano ICE Platinum - Diodlaser Hårborttagning';
+$seo_title = 'Soprano ICE Platinum - Diodlaser för hårborttagning';
 $seo_description = 'Upptäck Soprano Ice, en ledande teknologi inom permanent hårborttagning. Innovativ laserbehandling för att effektivt avlägsna oönskat hår på alla hudtyper.';
 $seo_keywords = 'Soprano Ice, diodlaser, laserbehandling';
 
