@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Infuzion behandling - Mesoterapi Stockholm',
     duration: '50 min',
     price: '2595 kr',
-    content: '<p class="p200">Infuzion är en avancerad form av mesoterapi utan nålar som effektivt slussar in serum djupt i huden. Omedelbara resultat med minimal återhämtningstid, vilket gör den till en populär teknik för de som söker effektiva hudförbättringar utan kirurgi.</p>',
+    content: '<p class="p200">Infuzion är en avancerad form av mesoterapi utan nålar som effektivt slussar in serum djupt i huden. Omedelbara resultat med utan återhämtningstid, vilket gör den till en populär teknik för de som söker effektiva hudförbättringar utan kirurgi.</p>',
     image_small: 'bilder/varumarken/358x274/infuzion.webp',
     image_large: 'bilder/varumarken/424x456/infuzion.webp',
     image_alt: 'Infuzion',
