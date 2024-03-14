@@ -554,15 +554,15 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar med Powerlite Photonova krävs vanligtvis?',
-            text: 'Antalet behandlingar som behövs med Powerlite Photonova beror på individens hudtillstånd och de mål man önskar uppnå. Oftast krävs det mellan 3-8 sessioner, med ungefär 4 veckors intervall, för att nå optimala resultat. En individuellt anpassad behandlingsplan utarbetas under den initiala konsultationen, baserat på dina specifika behov och hudtillstånd.'
+            text: '<p class="p200">Antalet behandlingar som behövs med Powerlite Photonova beror på individens hudtillstånd och de mål man önskar uppnå. Oftast krävs det mellan 3-8 sessioner, med ungefär 4 veckors intervall, för att nå optimala resultat. En individuellt anpassad behandlingsplan utarbetas under den initiala konsultationen, baserat på dina specifika behov och hudtillstånd.</p>'
         ),
         new Question(
             title: 'Kan hudproblem återkomma efter en Powerlite Photonova-behandling?',
-            text: 'Medan Powerlite Photonova är effektivt för att behandla befintliga hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea, finns det en risk att nya hudproblem kan utvecklas, speciellt orsakade av faktorer som åldrande och solskador. En bra hudvårdsrutin och skydd mot solen är avgörande för att underhålla resultaten. Ytterligare Powerlite Photonova-behandlingar kan behövas för att upprätthålla effekterna över tid.'
+            text: '<p class="p200">Medan Powerlite Photonova är effektivt för att behandla befintliga hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea, finns det en risk att nya hudproblem kan utvecklas, speciellt orsakade av faktorer som åldrande och solskador. En bra hudvårdsrutin och skydd mot solen är avgörande för att underhålla resultaten. Ytterligare Powerlite Photonova-behandlingar kan behövas för att upprätthålla effekterna över tid.</p>'
         ),
         new Question(
             title: 'Hur snabbt kan jag se resultat efter en Powerlite Photonova-behandling?',
-            text: 'Resultaten från en Powerlite Photonova-behandling varierar beroende på individen. Många patienter ser en märkbar förbättring redan efter den första sessionen, men de mest framträdande resultaten uppnås ofta efter en hel serie behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter att utvecklas under behandlingsserien och även efter avslutade sessioner.'
+            text: '<p class="p200">Resultaten från en Powerlite Photonova-behandling varierar beroende på individen. Många patienter ser en märkbar förbättring redan efter den första sessionen, men de mest framträdande resultaten uppnås ofta efter en hel serie behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter att utvecklas under behandlingsserien och även efter avslutade sessioner.</p>'
         ),
     )
 );

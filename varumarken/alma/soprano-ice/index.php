@@ -591,19 +591,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar med Soprano ICE krävs för permanent hårborttagning?',
-            text: 'Antalet behandlingar med Soprano ICE för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det krävas 8-12 behandlingar för att uppnå optimala resultat. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets tillväxtcykel.'
+            text: '<p class="p200">Antalet behandlingar med Soprano ICE för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det krävas 8-12 behandlingar för att uppnå optimala resultat. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets tillväxtcykel.</p>'
         ),
         new Question(
             title: 'Hur långvariga är resultaten med Soprano ICE?',
-            text: 'Resultaten av permanent hårborttagning med Soprano ICE är vanligtvis långvariga. De flesta klienter upplever en betydande och varaktig minskning av hårväxt efter en fullständig serie av behandlingar. Vissa klienter kan behöva periodiska underhållsbehandlingar för att hantera eventuell återväxt av finare hårstrån.'
+            text: '<p class="p200">Resultaten av permanent hårborttagning med Soprano ICE är vanligtvis långvariga. De flesta klienter upplever en betydande och varaktig minskning av hårväxt efter en fullständig serie av behandlingar. Vissa klienter kan behöva periodiska underhållsbehandlingar för att hantera eventuell återväxt av finare hårstrån.</p>'
         ),
         new Question(
             title: 'Hur förbereder jag mig inför en Soprano ICE-behandling?',
-            text: 'För att förbereda dig för en Soprano ICE-behandling är det viktigt att du inte vaxar eller noppar hår i det område som ska behandlas. Raka området dagen före din behandling för att förbättra resultatet. Det är också viktigt att undvika solning och använda solskydd i veckorna före din behandling för att minska risken för biverkningar och maximera effektiviteten.'
+            text: '<p class="p200">För att förbereda dig för en Soprano ICE-behandling är det viktigt att du inte vaxar eller noppar hår i det område som ska behandlas. Raka området dagen före din behandling för att förbättra resultatet. Det är också viktigt att undvika solning och använda solskydd i veckorna före din behandling för att minska risken för biverkningar och maximera effektiviteten.</p>'
         ),
         new Question(
             title: 'Är behandling med Soprano ICE smärtsam?',
-            text: 'Många upplever att behandling med Soprano ICE är mindre smärtsam än andra former av laserbehandling för hårborttagning. Tack vare dess avancerade kylsystem och mjuka lasermetod rapporterar de flesta endast en lätt snäppkänsla mot huden. Smärtupplevelsen kan dock variera beroende på individens smärttröskel och behandlingsområde.'
+            text: '<p class="p200">Många upplever att behandling med Soprano ICE är mindre smärtsam än andra former av laserbehandling för hårborttagning. Tack vare dess avancerade kylsystem och mjuka lasermetod rapporterar de flesta endast en lätt snäppkänsla mot huden. Smärtupplevelsen kan dock variera beroende på individens smärttröskel och behandlingsområde.</p>'
         ),
     )
 );

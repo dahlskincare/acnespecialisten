@@ -589,19 +589,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många Splendor X-behandlingar krävs för permanent hårborttagning?',
-            text: 'Antalet Splendor X-behandlingar som krävs för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det behövas 8-12 behandlingar för att uppnå optimala resultat med Splendor X. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets olika tillväxtfaser.'
+            text: '<p class="p200">Antalet Splendor X-behandlingar som krävs för permanent hårborttagning varierar beroende på individuella faktorer som hårtyp, hårfärg och behandlingsområde. Generellt sett kan det behövas 8-12 behandlingar för att uppnå optimala resultat med Splendor X. Behandlingarna utförs med några veckors mellanrum för att effektivt följa hårets olika tillväxtfaser.</p>'
         ),
         new Question(
             title: 'Hur långvariga är resultaten med Splendor X?',
-            text: 'Resultaten av permanent hårborttagning med Splendor X är vanligtvis långvariga. Efter en komplett serie av behandlingar kan kunder förvänta sig en betydande och varaktig minskning av hårväxt. För att upprätthålla resultaten över tid kan periodiska underhållsbehandlingar vara nödvändiga, speciellt för att hantera eventuell finare återväxt.'
+            text: '<p class="p200">Resultaten av permanent hårborttagning med Splendor X är vanligtvis långvariga. Efter en komplett serie av behandlingar kan kunder förvänta sig en betydande och varaktig minskning av hårväxt. För att upprätthålla resultaten över tid kan periodiska underhållsbehandlingar vara nödvändiga, speciellt för att hantera eventuell finare återväxt.</p>'
         ),
         new Question(
             title: 'Hur förbereder jag mig inför en Splendor X-behandling?',
-            text: 'Inför din Splendor X-behandling bör du undvika att vaxa eller noppa hår i behandlingsområdet. Det är viktigt att raka området dagen före behandlingen för att optimera effektiviteten. Dessutom är det kritiskt att skydda huden från solen i veckorna före behandlingen för att minimera risken för biverkningar och förbättra behandlingens resultat.'
+            text: '<p class="p200">Inför din Splendor X-behandling bör du undvika att vaxa eller noppa hår i behandlingsområdet. Det är viktigt att raka området dagen före behandlingen för att optimera effektiviteten. Dessutom är det kritiskt att skydda huden från solen i veckorna före behandlingen för att minimera risken för biverkningar och förbättra behandlingens resultat.</p>'
         ),
         new Question(
             title: 'Är Splendor X-behandling smärtsam?',
-            text: 'Splendor X-behandlingen är känd för att vara mindre smärtsam jämfört med traditionella laserbehandlingar för hårborttagning. Tack vare den avancerade kyltekniken och den precisa laserstrålen upplever de flesta en minimalt obehaglig känsla, som ofta beskrivs som lätt snäpp mot huden. Smärtupplevelsen varierar dock från person till person.'
+            text: '<p class="p200">Splendor X-behandlingen är känd för att vara mindre smärtsam jämfört med traditionella laserbehandlingar för hårborttagning. Tack vare den avancerade kyltekniken och den precisa laserstrålen upplever de flesta en minimalt obehaglig känsla, som ofta beskrivs som lätt snäpp mot huden. Smärtupplevelsen varierar dock från person till person.</p>'
         ),
     )
 );
