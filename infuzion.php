@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Infuzion',
+    title: 'Infuzion behandling - Mesoterapi Stockholm',
     duration: '50 min',
     price: '2595 kr',
     content: '<p class="p200">Som ledande experter på microneedling i Stockholm, erbjuder vi toppmodern behandling för att revitalisera din hud. Genom att försiktigt och strategiskt skapa mikroskopiska skador i hudens yttre lager, kickstartas produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>',
