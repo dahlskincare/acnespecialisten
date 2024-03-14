@@ -75,7 +75,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Powerlite Photonova?';
-$description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, en avancerad IPL (Intensivt Pulserande Ljus)-maskin, designad för att effektivt förbättra hudens ton och textur. Photonova, som är en del av Powerlites produktlinje, använder högteknologisk IPL-teknik skräddarsydd för att behandla en rad hudtillstånd, såsom pigmentfläckar, ytliga blodkärl och rosacea, genom att specifikt rikta in sig på och behandla melanin och hemoglobin i huden.</p>
+$description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, en avancerad Svensk IPL-maskin, framtagen för att effektivt förbättra hudens ton och textur. Photonova, som är en del av Powerlites produktlinje, använder Svensktillverkad IPL-teknik skräddarsydd för att behandla en rad hudtillstånd, såsom pigmentfläckar, ytliga blodkärl och rosacea, genom att specifikt rikta in sig på och behandla melanin och hemoglobin i huden.</p>
 <p class="p200 mt-m">Photonova-maskinen under Powerlite-varumärket skiljer sig från traditionella IPL-behandlingar genom sin avancerade teknologi som möjliggör mer preciserade och effektiva behandlingar av olika hudproblem. Med dess förmåga att finjusteras efter varje individs hudbehov, erbjuder Photonova en säker och skonsam upplevelse med minimala biverkningar. Denna behandlingsmetod möjliggör snabb återgång till vardagsaktiviteter och är idealisk för de som önskar en jämnare hudton och en förbättrad övergripande hudkvalitet.</p>';
 
 $top_articles = array(
@@ -83,9 +83,9 @@ $top_articles = array(
         title: 'Hur går en IPL laser behandling i ansiktet till?',
         image_small: '/bilder/process/358x272/powerlite-photonova-process.webp',
         image_large: '/bilder/process/872x456/powerlite-photonova-process.webp',
-        image_alt: 'Hur går en Rejuve Powerlite Photonova behandling till?',
-        image_title: 'Hur går en Powerlite Photonova behandling till?',
-        content: '<p class="p200">Powerlite Photonova-behandlingen är en avancerad metod för att förbättra hudens utseende, speciellt utvecklad för att korrigera hudproblem såsom pigmentfläckar, ytliga blodkärl och rosacea. När du kommer till vår klinik inleder vi med att noggrant rengöra din hud för att avlägsna alla spår av makeup och orenheter. Dina ögon skyddas sedan med speciella skyddsglasögon för att förhindra exponering för det intensiva IPL-ljuset under behandlingen.</p>
+        image_alt: 'Hur går en IPL laser behandling i ansiktet till?',
+        image_title: 'Hur går en IPL laser behandling i ansiktet till?',
+        content: '<p class="p200">När du kommer till en av våra kliniker inleder vi med att noggrant rengöra din hud för att avlägsna alla spår av eventuellt smink och orenheter. Dina ögon skyddas sedan med speciella skyddsglasögon för att förhindra exponering för det intensiva IPL-ljuset under behandlingen.</p>
         <p class="p200 mt-m">Vår Powerlite Photonova-enhet kalibreras omsorgsfullt för att anpassa ljuspulsernas intensitet och våglängd till ditt specifika hudtillstånd och de områden som ska behandlas. Behandlingen består av korta, intensiva ljuspulser som penetrerar huden. Dessa pulser är riktade för att precist behandla pigmentfläckar, blodkärl och andra hudproblem, där ljusenergin omvandlas till värme för att effektivt reducera oönskat pigment och blodkärl utan att skada den omgivande huden.</p>
         <p class="p200 mt-m">Efter behandlingen är det vanligt att uppleva en viss rodnad och en värmande känsla i huden, liknande den efter en mild solbränna. Dessa reaktioner är övergående och bör avta inom kort tid. Resultaten av Powerlite Photonova-behandlingen utvecklas gradvis, och du kan förvänta dig en fortsatt förbättring av din hud över tid, med en minskning av ojämnheter och en jämnare och förbättrad hudton. Din hudterapeut kommer att ge dig skräddarsydda råd för eftervården för att säkerställa bästa möjliga resultat och främja en snabb läkning.</p>',
     ),
