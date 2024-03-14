@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Soprano ICE Platinum - Diodlaser Hårborttagning',
     duration: null,
     price: 'Från 995 kr',
-    content: '<p class="p200">Soprano ICE är en revolution inom området för permanent hårborttagning med laser, som erbjuder en toppmodern lösning för dig som önskar att effektivt och varaktigt minska oönskad hårväxt. Denna avancerade teknik använder en kombination av flera våglängder för att på ett målriktat och skonsamt sätt avlägsna hårstrån genom att selektivt påverka hårfolliklarna.</p>',
+    content: '<p class="p200">Soprano ICE är en revolution inom området för permanent hårborttagning med diodlaser, som erbjuder en toppmodern lösning för dig som önskar att effektivt ta bort oönskad hårväxt permanent. Denna avancerade teknik använder en kombination av flera våglängder för att på ett målriktat och skonsamt sätt avlägsna hårstrån genom att selektivt påverka hårfolliklarna.</p>',
     image_small: 'bilder/varumarken/358x274/soprano-ice.webp',
     image_large: 'bilder/varumarken/424x456/soprano-ice.webp',
     image_alt: 'Permanent Hårborttagning',
