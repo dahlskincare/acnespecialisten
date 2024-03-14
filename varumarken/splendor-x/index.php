@@ -593,7 +593,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur långvariga är resultaten?',
-            text: '<p class="p200">Resultaten av hårborttagning med Splendor X är permanenta. Efter en komplett serie av behandlingar kan kunder förvänta sig en betydande och varaktig minskning av hårväxt. För att upprätthålla resultaten över tid kan periodiska underhållsbehandlingar vara nödvändiga, speciellt för att hantera eventuell finare återväxt.</p>'
+            text: '<p class="p200">Splendor X-behandlingen erbjuder permanenta resultat när det gäller att minska oönskad hårväxt. Efter en fullständig behandlingsserie kan många användare uppleva en signifikant minskning av hårväxt på behandlade områden. Det är dock viktigt att komma ihåg att individuella resultat kan variera.</p>'
         ),
         new Question(
             title: 'Hur förbereder jag mig inför en behandling?',
@@ -601,7 +601,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Är behandlingen smärtsam?',
-            text: '<p class="p200">Splendor X-behandlingen är känd för att vara mindre smärtsam jämfört med traditionella laserbehandlingar för hårborttagning. Tack vare den avancerade kyltekniken och den precisa laserstrålen upplever de flesta en minimalt obehaglig känsla, som ofta beskrivs som lätt snäpp mot huden. Smärtupplevelsen varierar dock från person till person.</p>'
+            text: '<p class="p200">Splendor X-behandlingen är känd för att vara mindre smärtsam jämfört med traditionella laserbehandlingar för hårborttagning. Tack vare den avancerade kyltekniken och den precisa laserstrålen upplever de flesta en minimalt obehaglig känsla, som ofta beskrivs som lätt snärt mot huden. Smärtupplevelsen varierar dock från person till person.</p>'
         ),
     )
 );
