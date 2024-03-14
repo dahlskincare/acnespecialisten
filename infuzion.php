@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Infuzion',
     duration: '50 min',
     price: '2595 kr',
-    content: '',
+    content: '<p class="p200">Som ledande experter på microneedling i Stockholm, erbjuder vi toppmodern behandling för att revitalisera din hud. Genom att försiktigt och strategiskt skapa mikroskopiska skador i hudens yttre lager, kickstartas produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>',
     image_small: 'bilder/varumarken/358x274/infuzion.webp',
     image_large: 'bilder/varumarken/424x456/infuzion.webp',
     image_alt: 'Infuzion',
@@ -56,6 +56,8 @@ $model = new Service(
         )
     ),
 );
+
+$floating_box = 'Microneedling är en innovativ och effektiv behandling för att förbättra hudens kvalitet och adressera en mängd hudproblem.';
 
 $nav_buttons = array(
     'about' => 'Om Infuzion',
@@ -622,9 +624,7 @@ $all_brands = array(
                                 <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
-                        <?php if (strlen($model->content) > 0) { ?>
-                            <div class="mt-m"><?php echo $model->content ?></div>
-                        <?php } ?>
+                        <div class="mt-m"><?php echo $floating_box ?></div>
                         <?php if (isset($model->procedures)) { ?>
                             <div id="floating-procedures" class="mt-xl">
                                 <?php foreach ($model->procedures as $procedure) { ?>
