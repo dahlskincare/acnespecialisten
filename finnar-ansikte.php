@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Finnar i Ansiktet: Orsaker, Behandling och Vård';
-$seo_description = 'Upptäck orsaker till och effektiva behandlingsstrategier för finnar i ansiktet för alla åldrar. Acnespecialisten erbjuder experttips och personligt anpassade lösningar.';
+$seo_description = 'Upptäck orsaker till och effektiva behandlingsstrategier för finnar i ansiktet för alla åldrar. Vi erbjuder experttips och personligt anpassade lösningar.';
 $seo_keywords = 'finnar i ansiktet';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

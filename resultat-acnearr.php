@@ -5,7 +5,7 @@
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Akneärr Resultat | Framgångshistorier i Hudförbättring</title>
-    <meta name="description" content="Före och Efter bilder på Microneedling behandlingar som tar bort Acneärr samt resultat från våra Dermapen behandlingar | AcneSpecialisten">
+    <meta name="description" content="Före och Efter bilder på behandlingar som tar bort Acneärr samt resultat från våra behandlingar | AcneSpecialisten">
     <meta name="keywords" content="Akneärrbehandling resultat, AcneSpecialisten framgångar, Hudförbättring, Jämn hudton, Reducera akneärr, Kundcase akneärr, Effektiv akneärrbehandling, Hudhälsans förbättring, Akneärr före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

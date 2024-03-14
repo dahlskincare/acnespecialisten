@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Dermapen mot Finnar - Effektiv Acnebehandling';
-$seo_description = 'Acnespecialisten presenterar Dermapen som en revolutionerande behandling för finnar. Denna metod bekämpar effektivt finnar genom att stimulera hudens egen läkningsförmåga och minska inflammation. Dermapen främjar kollagenproduktion och hudens reparationsmekanismer, vilket hjälper till att minska finnar och förbättra hudens klarhet och övergripande hälsa.';
+$seo_description = 'Dermapen som en revolutionerande behandling för finnar. Bekämpar effektivt finnar genom att stimulera hudens egen läkningsförmåga och minska inflammation.';
 $seo_keywords = 'Dermapen, finnar, acnebehandling, hudläkning, reducera finnar, kollagenproduktion, hudhälsa, inflammation, klar hud, microneedling, hudåterhämtning';
 
 $seo_image = 'images/treatments/large/dermapen.webp';
