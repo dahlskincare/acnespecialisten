@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Mjälleksem - Orsaker, Behandling och Förebyggande';
-$seo_description = 'Utforska allt om mjälleksem, från dess orsaker till effektiva behandlingsmetoder och förebyggande åtgärder. Få expertis och skräddarsydda lösningar från Acnespecialisten.';
+$seo_description = 'Med vår behandling mot mjälleksem kan bli av med dina problem. Boka en gratis hudkonsultation hos AcneSpecialisten så tar vi fram en behandlingsplan till dig!';
 $seo_keywords = 'mjälleksem, behandling av mjälleksem, orsaker till mjälleksem, förebygga mjälleksem, seborroisk dermatit, skalpmjälleksem, ansiktsmjälleksem, flagnande hud, oljig hud';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

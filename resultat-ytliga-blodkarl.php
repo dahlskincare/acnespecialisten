@@ -5,7 +5,7 @@
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Ytliga Blodkärl Resultat | Visuella Förbättringar</title>
-    <meta name="description" content="Utforska AcneSpecialistens expertis i behandling av ytliga blodkärl. Se våra före- och efterbilder som visar hur våra specialanpassade behandlingar minskar synligheten av ytliga blodkärl och förbättrar hudens övergripande utseende.">
+    <meta name="description" content="Före- och efter bilder på våra kunder som har genomgått AcneSpecialistens IPL behandling av ytliga blodkärl.">
     <meta name="keywords" content="Ytliga blodkärl behandling resultat, AcneSpecialisten framgångar, Minska synliga blodkärl, Hudförbättring, Kundcase ytliga blodkärl, Effektiv behandling av blodkärl, Förbättrad hudton, Hudhälsans förbättring, Ytliga blodkärl före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

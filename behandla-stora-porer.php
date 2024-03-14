@@ -3,7 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Stora Porer - Ta bort stora porer';
-$seo_description = 'Lär dig allt om behandlingen av stora porer, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från Acnespecialisten.';
+$seo_description = 'Skräddarsydd stora porer-behandling i Stockholm. ✓Behandla stora porer med 3 olika metoder ✓Paketpris ✓Boka en kostnadsfri konsultation →';
 $seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, förebygga stora porer, minska porer, öppna porer, förstorade porer, hudtextur';
 
 $seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';

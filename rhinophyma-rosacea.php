@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Rhinophyma - Orsaker, Behandlingar och Förebyggande';
-$seo_description = 'Upptäck viktiga fakta om rhinophyma, en avancerad form av rosacea, och hur det påverkar huden. Få insikter i effektiva behandlingar och omsorgsmetoder med Acnespecialistens expertis.';
+$seo_description = 'Om rhinophyma, en avancerad form av rosacea, och hur det påverkar huden. Få insikter i effektiva behandlingar och metoder.';
 $seo_keywords = 'rhinophyma, rosacea, rhinophyma behandling, orsaker till rhinophyma, förebygga rhinophyma, ta bort rhinophyma, avancerad rosacea, hudsjukdomar, rosaceaärr, förtjockad hud på näsan';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
