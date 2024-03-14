@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Pormaskar i Ansiktet - Orsaker, Behandling, Förebyggande';
-$seo_description = 'Lär dig allt om pormaskar i ansiktet, deras uppkomst, effektiva behandlingar och hur du kan förebygga dem. Upptäck Acnespecialistens skräddarsydda lösningar och expertis.';
+$seo_description = 'Lär dig allt om pormaskar i ansiktet, deras uppkomst, effektiva behandlingar och hur du kan förebygga dem. Upptäck våra skräddarsydda lösningar och expertis.';
 $seo_keywords = 'pormaskar i ansiktet, behandla pormaskar i ansiktet, orsaker till pormaskar i ansiktet, förebygga pormaskar i ansiktet, reducera pormaskar i ansiktet, hudvård, ansiktsrengöring, effektiv porrengöring';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

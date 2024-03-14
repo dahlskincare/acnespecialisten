@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Laserbehandling mot Operations- och Skadeärr';
-$seo_description = 'Lär dig om laserbehandling som en effektiv metod för att reducera ärr efter operationer och skador. AcneSpecialisten erbjuder skräddarsydd expertis och behandlingar för att förbättra utseendet på dina ärr.';
+$seo_description = 'Effektiv metod för att reducera ärr efter operationer och skador. Vi erbjuder skräddarsydd behandlingar för att förbättra utseendet på dina ärr.';
 $seo_keywords = 'laserbehandling för ärr, operationsärr behandling, skadeärr behandling, reducera ärr med laser, effektiv ärrbehandling, microneedling för ärr, kemisk peeling för ärr';
 
 $seo_image = '/images/treatments/large/laser.webp';
