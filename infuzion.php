@@ -218,28 +218,6 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför Infuzion',
-        image_small: '/bilder/process/358x272/infuzion-forberedelser.webp',
-        image_large: '/bilder/process/872x456/infuzion-forberedelser.webp',
-        image_alt: 'Förberedelser inför Infuzion',
-        image_title: 'Förberedelser inför Infuzion',
-        content: '<p class="p200"><p class="p200">Inför din Infuzion-behandling hos AcneSpecialisten finns några enkla förberedelser som kan hjälpa till att maximera effekten av behandlingen. Vi rekommenderar att du undviker användning av starka hudvårdsprodukter och exfolierande syror några dagar före din session. Detta minskar risken för hudirritation och gör din hud mer mottaglig för behandlingen.</p>
-        <p class="p200 mt-m">Medan det inte är ett krav att komma utan makeup, kan det vara fördelaktigt att ha ett rent ansikte vid din ankomst. Detta gör det möjligt för våra hudterapeuter att göra en mer exakt hudanalys och anpassa behandlingen effektivt efter dina behov. Oavsett om du väljer att komma osminkad eller inte, ser vi fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan som passar din hudtyp och dina specifika hudproblem.</p>',
-    ),
-    'aftercare' => new Article(
-        title: 'Eftervård för Infuzion & Multifuzion',
-        image_small: '/bilder/process/358x272/infuzion-eftervard.webp',
-        image_large: '/bilder/process/872x456/infuzion-eftervard.webp',
-        image_alt: 'Eftervård för Infuzion & Multifuzion',
-        image_title: 'Eftervård för Infuzion & Multifuzion',
-        content: '<p class="p200">Eftervård är en väsentlig del av din Infuzion och Multifuzion behandling hos AcneSpecialisten. För att upprätthålla och maximera behandlingens fördelar, är det viktigt att du följer en anpassad hudvårdsrutin. Efter en Infuzion eller Multifuzion behandling kan huden vara extra mottaglig för näring och hydrering, därför är det avgörande att ge den rätt vård för att underlätta återhämtningen och förstärka resultaten.</p>
-        <p class="p200 mt-m">Vi rekommenderar att du använder milda och återfuktande produkter som inte irriterar huden. Det är också viktigt att skydda huden mot solen, särskilt efter behandlingen, då huden kan vara mer känslig för UV-strålar. Använd en hög SPF och undvik direkt solljus för att förebygga eventuell hyperpigmentering och skada på den behandlade huden.</p>
-        <p class="p200 mt-m">Vi på AcneSpecialisten erbjuder en uppföljning och skräddarsydda råd för att hjälpa dig att upprätthålla de positiva effekterna av din Infuzion eller Multifuzion behandling. Det är viktigt att du följer dessa råd noggrant och återvänder till oss för eventuella uppföljningsbehandlingar eller rådgivning. Vårt mål är att hjälpa dig att uppnå och bibehålla en strålande, hydrerad och välmående hud.</p>',
-    ),
-);
-
 $results = array(
     new ResultCustomer(
         url: '',
@@ -816,13 +794,6 @@ $all_brands = array(
                         <?php foreach ($combos as $combo) { ?>
                             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_combo/service_combo.php') ?>
                         <?php } ?>
-                    </section>
-                <?php } ?>
-                <?php foreach ($bottom_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
                     </section>
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
