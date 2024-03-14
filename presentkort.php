@@ -87,7 +87,8 @@ if (form_completed()) {
     $message .= chunk_split(base64_encode($file_content)) . "\r\n";
     $message .= "--$boundary--\r\n";
     mail($to, $subject, $message, $headers);
-} else {;
+} else {
+    /*
     $rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
     $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/swish_certificate.pem', 'lok13rum'];
     $client = Client::make($rootCert, $clientCert);
@@ -142,6 +143,8 @@ if (form_completed()) {
     );
     $qr_image_desktop = 'data:image/png;base64,' . base64_encode(curl_exec($ch));
     curl_close($ch);
+    */
+    $qr_image_desktop = 'https://via.placeholder.com/300x300.webp';
 }
 ?>
 <!DOCTYPE html>
@@ -208,7 +211,7 @@ if (form_completed()) {
                                     </div>
                                 </form>
                                 <hr />
-                                <a href="swish://paymentrequest?token=<?php echo $client->createPaymentRequest($pr)->paymentRequestToken ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
+                                <a href="swish://paymentrequest?token=123&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
                             <?php } ?>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
