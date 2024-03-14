@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Dermapen mot Acneärr - Effektiv Behandling';
-$seo_description = 'Upptäck kraften i AcneSpecialistens Dermapen-behandlingar för acneärr. Denna banbrytande teknik effektiviserar hudens återhämtning, minskar synligheten av acneärr och förbättrar hudens övergripande textur. Genom att stimulera hudens naturliga kollagenproduktion, bidrar våra skräddarsydda behandlingar till att återskapa en slät och jämn hudton.';
+$seo_description = 'Dermapen-behandling hos AcneSpecialisten. Effektiv microneedling som sätter igång hudens kollagenproduktion och behandlar flera typer av hudproblem.';
 $seo_keywords = 'Dermapen, behandling av acneärr, hudåterhämtning, reducera acneärr, stimulera kollagen, förbättrad hudtextur, slät hudton, kollagenproduktion, hudförfining, microneedling';
 
 $seo_image = 'images/treatments/large/dermapen.webp';

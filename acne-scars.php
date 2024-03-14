@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Acne Scars - Treatment, Causes, and Prevention';
-$seo_description = 'Explore everything about acne scars, from their underlying causes to effective treatment methods and preventive measures. Receive professional help and individual solutions from Acnespecialisten.';
+$seo_description = 'Explore everything about acne scars, from their underlying causes to effective treatment methods and preventive measures.';
 $seo_keywords = 'acne scars, acne scar treatment, causes of acne scars, preventing acne scars, acne scar removal, scar reduction, skin renewal, scar treatment';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
