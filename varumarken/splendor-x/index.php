@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Splendor X Laserbehandling - Revolutionerande Permanent Hårborttagning';
-$seo_description = 'Välkommen till AcneSpecialisten, där vi stolt presenterar Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper. Splendor X kombinerar kraftfull teknik och skonsamhet för att ge dig snabba och hållbara resultat.';
+$seo_description = 'Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt tar bort oönskat hår för alla hudtyper.';
 $seo_keywords = 'Splendor X, permanent hårborttagning, avancerad laserbehandling, ta bort hår';
 
 $seo_image = '/images/treatments/large/splendor-x.webp';

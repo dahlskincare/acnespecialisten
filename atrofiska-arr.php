@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Atrofiska Ärr: Behandling och Förståelse | Acnespecialisten';
-$seo_description = 'Lär dig om atrofiska ärr, deras orsaker och effektiva behandlingsalternativ. Acnespecialisten ger professionell hjälp och skräddarsydda lösningar för ärrminskning.';
+$seo_description = 'Vår atrofiska ärr-behandling läker ihop huden på ett nytt & förbättrat sätt. Boka in en kostnadsfri hudkonsultation och få en skräddarsydd behandlingsplan →';
 $seo_keywords = 'atrofiska ärr, orsaker till atrofiska ärr';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

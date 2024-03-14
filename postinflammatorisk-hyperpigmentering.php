@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Postinflammatorisk Hyperpigmentering information';
-$seo_description = 'Upptäck allt om postinflammatorisk hyperpigmentering, dess orsaker och effektiva behandlingar. Acnespecialisten erbjuder professionell hjälp och individuellt anpassade lösningar.';
+$seo_description = 'Ta bort postinflammatorisk hyperpigmentering! Vi på AcneSpecialisten har behandlat acneärr i 25 år. Boka tid för en gratis hudkonsultation →';
 $seo_keywords = 'postinflammatorisk hyperpigmentering, behandling av hyperpigmentering';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

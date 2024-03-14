@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Laserbehandling mot Akne | AcneSpecialisten';
-$seo_description = 'Upptäck AcneSpecialistens avancerade laserbehandlingar för akne. Våra skräddarsydda behandlingar använder laserljus för att effektivt reducera akne och förbättra hudens hälsa.';
+$seo_description = 'Avancerade laserbehandlingar för akne. Våra skräddarsydda behandlingar använder laserljus för att effektivt reducera akne och förbättra hudens hälsa.';
 $seo_keywords = 'laserbehandling för akne, behandla akne med laser, effektiv aknebehandling, laser mot akne, aknebehandling, avancerad hudvård';
 
 $seo_image = '/images/treatments/large/laser-mot-problemhy.webp';

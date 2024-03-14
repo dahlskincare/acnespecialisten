@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Om akne på bröstet | Acnespecialisten';
-$seo_description = 'Få djupgående förståelse för akne på bröstet, lär dig om dess orsaker och upptäck anpassade behandlingar från Acnespecialisten som passar alla hudtyper och åldersgrupper.';
+$seo_description = 'Behandla acne på bröstet hos oss på Acnespecialisten! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'akne på bröstet, bröstakne behandling, hudvård för bröstakne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

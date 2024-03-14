@@ -1865,7 +1865,7 @@ $specialists = array(
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">Hudproblem i ansiktet? Boka en kostnadsfri konsultation</title>
       <meta name="title" content="Information och behandling av Hudproblem | AcneSpecialisten" class="l10n">
-      <meta name="description" content="Läsa mer om olika hudproblem och hur du effektivt behandlar dem. Hos oss på AcneSpecialisten får du alltid gratis hudkonsultation med hudterapeut." class="l10n">
+      <meta name="description" content="Läs mer om hudproblem och hur du effektivt behandlar dem. Hos oss får du alltid gratis hudkonsultation och tillgång till en personlig hudterapeut." class="l10n">
       <meta name="keywords" content="hudproblem, akne, akneärr, finnar, ärr från finnar, rosacea, ytliga blodkärl, pormaskar, stora porer, blandhy, pigmentfläckar, perioral dermatit, seborré, milier, hudförändringar, mogen hy, torr & känslig hy, bristningar, operations & skadeärr, oönskat hår" class="l10n">
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

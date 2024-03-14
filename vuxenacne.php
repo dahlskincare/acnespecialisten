@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vuxenakne - Förståelse och Effektiva Behandlingsstrategier';
-$seo_description = 'Upptäck vuxenakne, dess orsaker, och Acnespecialistens anpassade behandlingsmetoder. Få experttips för skonsam och effektiv hudvård anpassad för vuxna med akne.';
+$seo_description = 'Hur kan du bli av med vuxenacne och vad orsakar problemet? Behandla vuxenacne med vårt skräddarsydda upplägg. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'vuxenakne, behandling av vuxenakne, skötsel av akne i vuxen ålder, hormonella förändringar, effektiv aknebehandling för vuxna';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

@@ -5,7 +5,7 @@
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Akne Resultat | Framgångshistorier och Transformationer</title>
-    <meta name="description" content="Upptäck AcneSpecialistens framgångar i behandling av akne genom våra kundcase. Se hur vår expertis och skräddarsydda behandlingsmetoder transformerar hudhälsa och bidrar till en klarare hud och förbättrat välbefinnande. Våra före- och efterbilder illustrerar den effektiva bekämpningen av akne och andra hudproblem.">
+    <meta name="description" content="Upptäck framgångar i behandling av akne genom våra kundcase. Våra före- och efterbilder illustrerar den effektiva bekämpningen av akne och andra hudproblem.">
     <meta name="keywords" content="Aknebehandling resultat, AcneSpecialisten framgångar, Hudtransformation, Klar hud, Bekämpa akne, Kundcase akne, Resultatdriven aknebehandling, Hudhälsans förbättring, Akneföre- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

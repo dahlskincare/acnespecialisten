@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Fillerbehandlingar för Fina Resultat | AcneSpecialisten';
-$seo_description = 'Upplev skillnaden med AcneSpecialistens fillerbehandlingar. Vi är experter på att skapa en mer ungdomlig och harmonisk utstrålning. Genom säker och skonsam behandling reducerar vi linjer och återskapar volym för ett naturligt och förfinat utseende.';
+$seo_description = 'Upplev skillnaden med AcneSpecialistens fillerbehandlingar. Vi är experter på att skapa en mer ungdomlig och harmonisk utstrålning.';
 $seo_keywords = 'fillerbehandlingar, ålderslinjer, volymåterställning, naturliga resultat, ansiktsförfining, AcneSpecialisten, estetisk hudvård';
 
 $seo_image = '/images/treatments/large/fillers.webp';

@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Bästa IPL behandling i Stockholm - Effektiv Hudförbättring';
-$seo_description = 'Upptäck Stockholms ledande klinik för IPL-behandlingar. Våra hudterapeuter erbjuder skräddarsydda lösningar för hudföryngring, pigmentering, och mer. Boka en kostnadsfri konsultation idag för att uppleva den bästa IPL behandlingen i Stockholm.';
+$seo_description = 'Upptäck Stockholms ledande klinik för IPL-behandlingar. Våra hudterapeuter erbjuder skräddarsydda lösningar för hudföryngring, pigmentering, och mer.';
 $seo_keywords = 'IPL ehandling, Intensivt Pulserande Ljus, IPL Stockholm, Vad är IPL?';
 
 $seo_image = '/images/treatments/large/ipl.webp';
