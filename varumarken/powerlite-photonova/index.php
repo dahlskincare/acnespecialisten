@@ -180,16 +180,16 @@ $types = array(
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för Powerlite Photonova';
-$treatment_areas_text = '<p class="p200">Med denna mångsidiga behandlingsmetod för olika delar av kroppen såsom ansikte, hals, händer och bröst.</p>';
+$treatment_areas_title = 'IPL behandling efter område';
+$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
-        title: 'Ansikte',
-        description: '<p class="p200">Powerlite Photonova kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        title: 'IPL laser Ansikte',
+        description: '',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
@@ -207,7 +207,7 @@ $treatment_areas = array(
                 image_alt: 'Panna',
                 image_title: 'Panna',
                 title: 'Powerlite Photonova för Panna',
-                duration: '30 min',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Forehead',
                 url_label: 'Boka',
@@ -218,7 +218,7 @@ $treatment_areas = array(
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'Powerlite Photonova för Näsa',
-                duration: '30 min',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Nose',
                 url_label: 'Boka',
@@ -240,7 +240,7 @@ $treatment_areas = array(
                 image_alt: 'Överläpp',
                 image_title: 'Överläpp',
                 title: 'Powerlite Photonova för Överläpp',
-                duration: '30 min',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_UpperLip',
                 url_label: 'Boka',
@@ -251,7 +251,7 @@ $treatment_areas = array(
                 image_alt: 'Haka',
                 image_title: 'Haka',
                 title: 'Powerlite Photonova för Haka',
-                duration: '30 min',
+                duration: '20 min',
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Chin',
                 url_label: 'Boka',
@@ -264,7 +264,7 @@ $treatment_areas = array(
         image_large: null,
         image_alt: 'Kropp',
         image_title: 'Kropp',
-        title: 'Kropp',
+        title: 'IPL laser Kropp',
         description: '<p class="p200">Powerlite Photonova kan även behandla olika av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
@@ -272,7 +272,7 @@ $treatment_areas = array(
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Powerlite Photonova för Hals',
-                duration: '30 min',
+                duration: '50 min',
                 price: '1895 kr',
                 url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
@@ -283,8 +283,8 @@ $treatment_areas = array(
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Rejuve Dye-VL för Dekolletage',
-                duration: '40 min',
-                price: '2295 kr',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med Powerlite Photonova på dekolletaget'
@@ -294,8 +294,8 @@ $treatment_areas = array(
                 image_alt: 'Händer',
                 image_title: 'Händer',
                 title: 'Rejuve Dye-VL för Händer',
-                duration: '30 min',
-                price: '1895 kr',
+                duration: '50 min',
+                price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med Powerlite Photonova på händerna'
