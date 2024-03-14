@@ -420,7 +420,7 @@ $bottom_articles = array(
         image_alt: 'Förberedelser inför Splendor X',
         image_title: 'Förberedelser inför Splendor X',
         content: '<p class="p200">Att förbereda sig noggrant inför en Splendor X-behandling är avgörande för att uppnå de bästa resultaten i permanent hårborttagning. Denna avancerade laserbehandling kräver specifika förberedelser för att säkerställa en effektiv och säker behandling. Innan din Splendor X-session är det viktigt att du avstår från att vaxa eller noppa hår i området som ska behandlas. Laseren behöver intakta hårfolliklar för att kunna verka effektivt. Istället ska du raka området noggrant dagen före din behandling.</p>
-        <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika solning och användning av självbruningsprodukter under de veckor som leder upp till behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
+        <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika att vara solbränd samt användning av självbruningsprodukter inför behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
     ),
     'aftercare' => new Article(
         title: 'Splendor X eftervård',
