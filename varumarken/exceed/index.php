@@ -157,14 +157,6 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array(
-    'boost' => new Article(
-        title: 'Boosta din Exceed-behandling med PRX-T33-behandling',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Boosta Exceed-behandling effekten med PRX-T33',
-        image_title: 'Exceed-behandling effekten med PRX-T33',
-        content: '<p class="p200">För att maximera effekterna av din Exceed-behandling, kan du välja att addera en PRX-T33 booster, vilket är en avancerad behandlingsform som förstärker och fördjupar de föryngrande resultaten. Denna unika förstärkningsbehandling kompletterar Exceed genom att stimulera huden utan nålar och erbjuder en effektiv förbättring utan behovet av återhämtningsperiod. PRX-T33 arbetar på hudens yta för att ge en omedelbar uppstramande effekt och förbättrar hudtonen, medan Exceed arbetar i hudens djupare lager för att stimulera långvarig kollagenproduktion. Tillsammans skapar de en omfattande behandlingsupplevelse som dramatiskt minskar fina linjer, utjämnar hudtonen och ger en övergripande förfinad hudstruktur för en ungdomligare och mer strålande hud.</p>',
-    ),
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med Exceed',
         image_small: '/bilder/process/358x272/exceed-forberedelser.webp',
