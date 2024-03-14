@@ -433,7 +433,7 @@ $bottom_articles = array(
         image_large: '/bilder/process/872x456/soprano-ice-eftervard.webp',
         image_alt: 'Soprano ICE eftervård',
         image_title: 'Soprano ICe eftervård',
-        content: '<p class="p200">Efter din behandling kan du uppleva mild rodnad och en lätt värmande känsla i det behandlade området, vilket är normala reaktioner som vanligtvis avtar inom kort tid. Detta indikerar Soprano ICE:s skonsamma effekt på huden. För att främja en snabb återhämtning bör du behandla området varsamt, undvika direkt exponering för solljus och använda solskyddsmedel med hög SPF för att skydda huden.</p>
+        content: '<p class="p200">Efter din behandling kan du uppleva mild rodnad och en lätt värmande känsla i det behandlade området, vilket är normala reaktioner som vanligtvis avtar inom kort tid. För att främja en snabb återhämtning bör du behandla området varsamt, undvika direkt exponering för solljus och använda solskyddsmedel med hög SPF för att skydda huden.</p>
         <p class="p200 mt-m">Undvik att skrubba eller irritera huden med starka hudvårdsprodukter och undvik andra hårborttagningsmetoder som vaxning eller plockning under återhämtningsperioden. Genom att följa dessa riktlinjer kan du säkerställa att din hud återhämtar sig på bästa sätt och behåller de optimala resultaten från din Soprano ICE-behandling.</p>',
     ),
 );
