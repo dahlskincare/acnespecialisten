@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Exceed Stockhom - Avancerad hudförbättring';
+$seo_title = 'Exceed Stockholm - Avancerad hudförbättring';
 $seo_description = 'Exceed är en avancerad microneedling behandling som effektivt tar itu med ålderstecken och hudens textur.';
 $seo_keywords = 'Exceed, Stockholm';
 
