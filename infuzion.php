@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Infuzion behandling - Mesoterapi Stockholm';
 $seo_description = 'Infuzion ger effekterna hos fillers och skinbooster, utan att använda nålar. Boostar huden med effektivt serum. Boka en gratis konsultation i dag!';
-$seo_keywords = 'Infuzion, behandling, mesoterapi, Stockholm';
+$seo_keywords = 'Infuzion behandling, mesoterapi, Stockholm';
 
 $seo_image = 'images/treatments/large/infuzion.webp';
 
