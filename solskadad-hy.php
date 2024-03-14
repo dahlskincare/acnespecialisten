@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Solskadad Hy - Behandling, Orsak och Förebygg';
-$seo_description = 'Utforska allt om solskadad hy, dess orsaker, effektiva behandlingar och förebyggande åtgärder. Få expertvägledning och skräddarsydda lösningar från Acnespecialisten för att hantera och reparera solskadad hy.';
+$seo_description = 'Allt om solskadad hy, orsaker, effektiva behandlingar och förebyggand. Få expertvägledning och skräddarsydda lösningar för att hantera och reparera solskadad hy';
 $seo_keywords = 'solskadad hy, behandla solskadad hy, orsaker till solskadad hy, förebygga solskador, minska solskador, solskador på huden, behandling av solskador, hudens återhämtning efter solen';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
