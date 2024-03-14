@@ -391,8 +391,8 @@ $bottom_articles = array(
     ),
 );
 
-$service_brands_title = 'Andra märken för IPL';
-$service_brands_text = '<p class="p200">Utöver Powerlite Photonova använder vi även Alma Harmony XL och Rejuve Dye-VL som är de bästa maskinerna på marknaden för IPL.</p>';
+$service_brands_title = 'Våra IPL maskinsmärken';
+$service_brands_text = '<p class="p200">Utöver Powerlite Photonova använder vi även Alma Harmony XL och Rejuve Dye-VL.</p>';
 $service_brands = array(
 
     new Brand(
