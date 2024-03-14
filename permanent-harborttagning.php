@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Permanent Laser Hårborttagning i Stockholm';
+$seo_title = 'Permanent Laser Hårborttagning';
 $seo_description = 'Bli fri från oönskat hår och njut av en permanent len känsla med den senaste lasestekniken. Boka din kostnadsfria konsultation idag och upplev skillnaden.';
 $seo_keywords = 'permanent hårborttagning, laserhårborttagning';
 
