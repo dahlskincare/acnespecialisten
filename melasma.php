@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Melasma – Behandling, Orsaker & Förebyggande';
-$seo_description = 'Utforska allt kring melasma: dess orsaker, effektiva behandlingsalternativ och förebyggande strategier. Få professionell hjälp och anpassade lösningar från AcneSpecialisten för att hantera melasma och liknande hudproblem.';
+$seo_description = 'Vi hjälper dig att behandla oönskade melasma. Läs mer och boka tid för behandling eller en gratis konsultation i dag!';
 $seo_keywords = 'melasma, behandla melasma, orsaker till melasma, förebyggande av melasma, minska melasma, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, hudens hälsa';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

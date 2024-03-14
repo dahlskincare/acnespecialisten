@@ -5,7 +5,7 @@
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Dermapen Resultat för Akneärr | Effektiva Hudförbättringar</title>
-    <meta name="description" content="Se den revolutionerande effekten av Dermapen-behandlingar för akneärr hos AcneSpecialisten. Utforska våra kundcase och före- och efterbilder som visar hur Dermapen effektivt minimerar akneärr och förbättrar hudens struktur och utseende. Upptäck hur denna avancerade teknik bidrar till att återskapa en jämn och klar hudton.">
+    <meta name="description" content="Före och Efter bilder på Dermapen behandlingar | AcneSpecialisten">
     <meta name="keywords" content="Dermapen akneärr resultat, AcneSpecialisten Dermapen, Behandling av akneärr, Hudförbättring med Dermapen, Jämn hudton, Akneärr minskning, Effektiv akneärrbehandling, Hudhälsans förbättring, Akneärr före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

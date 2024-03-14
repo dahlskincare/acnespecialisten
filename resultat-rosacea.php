@@ -5,7 +5,7 @@
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Rosacea Resultat | Hudförbättring och Lindring</title>
-    <meta name="description" content="Se hur AcneSpecialisten framgångsrikt behandlar rosacea och förbättrar hudens hälsa och utseende. Utforska våra före- och efterbilder som visar effekten av våra specialanpassade behandlingar, vilka bidrar till att minska rodnad och lugna hud med rosacea.">
+    <meta name="description" content="Se resultatbilder från våra rosacea behandlingar. AcneSpecialisten har lång erfarenhet av att behandla hudutslag och rosacea">
     <meta name="keywords" content="Rosacea behandling resultat, AcneSpecialisten framgångar, Hudlindring rosacea, Reducera rodnad, Kundcase rosacea, Effektiv rosaceabehandling, Lugnande hudvård, Hudhälsans förbättring, Rosacea före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

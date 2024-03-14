@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'IPL mot Pigmentfläckar | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten erbjuder vi avancerade IPL-behandlingar särskilt inriktade på att reducera pigmentfläckar och förbättra hudtonen. Vår ljusbaserade teknologi selektivt målriktar pigmenteringar, vilket minskar synligheten av pigmentfläckar och leder till en klarare och mer enhetlig hudton.';
+$seo_description = 'Ta bort pigmentfläckar och åldersfläckar med hjälp av IPL. Läs mer om vår behandling & boka in en kostnadsfri konsultation →';
 $seo_keywords = 'IPL-behandling, pigmentfläckar, minska pigmentering, jämn hudton, ljusbaserad hudförbättring, hudjämnhet, ljusa upp huden, harmonisk hudton, avancerad hudvård, AcneSpecialisten';
 
 $seo_image = 'images/treatments/large/ipl.webp';

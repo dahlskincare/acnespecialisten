@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Seborroisk Keratos - Effektiva Metoder';
-$seo_description = 'Acnespecialisten är experter på behandling av seborroisk keratos. Vi erbjuder skonsamma och avancerade metoder för att effektivt hantera dessa hudtillväxter, vilket bidrar till en förbättrad hudhälsa och ett jämnare hudutseende.';
+$seo_description = 'Experter på behandling av seborroisk keratos. Vi erbjuder skonsamma och avancerade metoder för att effektivt hantera dessa hudtillväxter.';
 $seo_keywords = 'seborroisk keratos, behandling av seborroisk keratos, hudförändringar, jämn hudton, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';

@@ -5,7 +5,7 @@
 <head>
     <!-- TODO: Set title and meta tags -->
     <title>Pormaskar Resultat | Effektiva Hudförändringar</title>
-    <meta name="description" content="Utforska framgångsrika behandlingsresultat för pormaskar hos AcneSpecialisten. Se hur våra skräddarsydda behandlingar effektivt rengör och minskar pormaskar, vilket leder till en klarare och jämnare hudton. Våra före- och efterbilder visar hur vi effektivt tar hand om pormaskar och förbättrar hudens utseende.">
+    <meta name="description" content="Före- och efter bilder på våra pormaskar kunder som har använt AcneSpecialistens metod.">
     <meta name="keywords" content="Pormaskar behandling resultat, AcneSpecialisten framgångar, Effektiv pormaskbehandling, Rengörande hudvård, Bekämpa pormaskar, Kundcase pormaskar, Resultatdriven pormaskbehandling, Förbättrad hudhälsa, Pormaskar före- och efterbilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
