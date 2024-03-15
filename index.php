@@ -30,7 +30,7 @@
                         <video autoplay muted loop id="banner-video">
                         </video>
                         <div class="container">
-                              <h1 class="h700 l10n">AcneSpecialisterna, din hudspecialist i Stockholm och Online</h1>
+                              <h1 class="h700 l10n">AcneSpecialisten, din hudspecialist i Stockholm och Online</h1>
                         </div>
                   </div>
                   <a href="gratis-hudkonsultation.php" title="Boka Gratis Hudkonsultation">
