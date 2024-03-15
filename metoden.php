@@ -47,7 +47,7 @@ $steps = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Alternativ till Hudläkare Stockholm - Privat & Utan Remiss</title>
+    <title class="l10n">Alternativ till Hudläkare Stockholm</title>
     <meta name="title" content="Alternativ till Hudläkare Stockholm - Privat & Utan Remiss" class="l10n">
     <meta name="description" content="Vi är AcneSpecialisten, ditt alternativ till traditionella hudläkare i Stockholm. Behandling och rådgivning utan remiss. Boka din gratis konsultation nu!" class="l10n">
     <meta name="keywords" content="hudläkare, hudläkare stockholm, hudläkare stockholm utan remiss, hudläkare utan remiss stockholm, hudläkare utan remiss, privat hudläkare stockholm, hudläkare stockholm privat, hudläkare privat, privat hudläkare, hudläkare online, huddoktor" class="l10n">
