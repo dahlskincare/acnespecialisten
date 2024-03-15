@@ -4,9 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Omdömen | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens omdömen.">
-    <meta name="keywords" content="Omdömen">
+    <title>AcneSpecialistens Recensioner & Omdömen</title>
+    <meta name="description" content="Verifierade recensioner från Trustpilot, Google & Bokadirekt. Läs hur vi har hjälpt tusentals med deras hudvårdsresor. Bli inspirerad att börja din!">
+    <meta name="keywords" content="acnespecialisten recensioner, acnespecialisten omdöme">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

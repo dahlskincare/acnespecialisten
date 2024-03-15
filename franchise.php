@@ -4,8 +4,8 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Franchise | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens franchise.">
+    <title>Starta Franchise: Egen Klinik inom Hudvård & skönhet</title>
+    <meta name="description" content="Drömmer du om en egen klinik? Starta ett franchise inom hudvård och skönhet. Vi stödjer dig på resan mot att bli en framgångsrik ägare.">
     <meta name="keywords" content="franchise">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
