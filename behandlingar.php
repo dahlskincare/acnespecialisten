@@ -53,7 +53,7 @@ class ServiceCategory
 }
 
 $green_banner_content = new GreenBannerContent(
-    title: 'Behandlingar',
+    title: 'Hudbehandlingar',
     description: 'Vi erbjuder ett brett utbud av behandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och laserbehandlingar för att effektivt behandla olika hudtillstånd.',
     description_extended: 'Vi förstår att varje hud är unik. Därför erbjuder vi skräddarsydda behandlingar för att uppfylla dina specifika behov. Våra erfarna hudterapeuter använder de senaste teknikerna och metoderna för att ge dig de bästa möjliga resultaten. Boka en tid hos oss för att upptäcka hur vi kan hjälpa dig.',
     button_url: 'https://acnespecialisten.se/book?flow=consultation',
@@ -180,6 +180,11 @@ $people_search_for = array(
         label: 'CO2 laser',
         url: 'alma-hybrid-co2-laser.php',
         url_title: 'Läs mer om CO2 laser'
+    ),
+    new Treatment(
+        label: 'Porrengöring',
+        url: 'porrengoring.php',
+        url_title: 'Läs mer om porrengöring'
     ),
 );
 
@@ -501,7 +506,7 @@ $service_categories = array(
 );
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Hudbehandlingar', '/behandlingar.php'),
 );
 
 ?>
@@ -511,10 +516,10 @@ $path_segments = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Hudbehandlingar i Stockholm - AcneSpecialisten</title>
-    <meta name="title" content="Hudbehandlingar i Stockholm - AcneSpecialisten" class="l10n">
+    <title class="l10n">Hudbehandling i Stockholm - AcneSpecialisten</title>
+    <meta name="title" content="Hudbehandling i Stockholm - AcneSpecialisten" class="l10n">
     <meta name="description" content="Upptäck topprankade hudbehandlingar i Stockholm hos AcneSpecialisten. Skräddarsydda lösningar för alla hudtyper. Boka din behandling idag!" class="l10n">
-    <meta name="keywords" content="hudbehandling, hudbehandlingar, hudbehandling stockholm" class="l10n">
+    <meta name="keywords" content="hudbehandling, hudbehandlingar, hudbehandling stockholm, hudbehandling porer, laser hudbehandling" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
