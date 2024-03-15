@@ -4,8 +4,8 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Hudguide | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens  hudguide.">
+    <title>Hudguide från AcneSpecialisten - Din Hudvårdsexpert</title>
+    <meta name="description" content="Utforska AcneSpecialistens omfattande hudguide. Få professionella tips och råd för att förbättra din hudhälsa med expertis från branschledare.">
     <meta name="keywords" content="Hudguide">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
