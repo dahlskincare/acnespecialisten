@@ -6,9 +6,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Om Oss - AcneSpecialisten | Din Partner i Hudvård</title>
-    <meta name="title" content="Om Oss - AcneSpecialisten | Din Partner i Hudvård" class="l10n">
-    <meta name="description" content="Läs mer om oss på AcneSpecialisten. Vi har 25 års erfarenhet av att behandla problem hy. Boka en kostnadsfri hudkonsultation så hjälper vi dig behandla din hy">
+    <title>Privat Hudmottagning Stockholm - Boka Tid Utan Remiss</title>
+    <meta name="title" content="Privat Hudmottagning Stockholm - Boka Tid Utan Remiss" class="l10n">
+    <meta name="description" content="Boka gratis hudkonsultation på våra privata hudmottagningar i Stockholm. Vi har 30 års erfarenhet. Personlig och effektiv hudvård för alla behov.">
     <meta name="keywords" content="hudmottagning, hudmottagning stockholm, hudmottagning utan remiss, boka tid hudmottagning, privat hudmottagning, hudmottagningar i stockholm">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
