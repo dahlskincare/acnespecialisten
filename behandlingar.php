@@ -518,8 +518,8 @@ $path_segments = array(
     <!-- TODO: Set title and meta tags -->
     <title class="l10n">Hudbehandling i Stockholm - AcneSpecialisten</title>
     <meta name="title" content="Hudbehandling i Stockholm - AcneSpecialisten" class="l10n">
-    <meta name="description" content="Boka hudbehandling och laser för porer hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda lösningar för varje hudtyp. Boka nu!" class="l10n">
-    <meta name="keywords" content="hudbehandling, hudbehandlingar, hudbehandling stockholm, hudbehandling porer, laser hudbehandling" class="l10n">
+    <meta name="description" content="Boka hudbehandling med laser för porer hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda lösningar för varje hudtyp. Boka nu!" class="l10n">
+    <meta name="keywords" content="hudbehandling, hudbehandlingar, hudbehandling porer, laser hudbehandling" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
