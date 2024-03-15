@@ -8,10 +8,10 @@ $nav_buttons = array(
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Acnespecialisten | Cookies</title>
-      <meta name="description" content="" class="l10n">
-      <meta name="title" content="" class="l10n">
-      <meta name="keywords" content="" class="l10n">
+      <title class="l10n">AcneSpecialisten - Information om Cookies</title>
+      <meta name="description" content="Läs hur AcneSpecialisten använder cookies för att förbättra din upplevelse. Transparent och användarvänligt. Din integritet är viktig för oss." class="l10n">
+      <meta name="title" content="AcneSpecialisten - Information om Cookies" class="l10n">
+      <meta name="keywords" content="Cookies acnespecialisten" class="l10n">
       <meta property="og:title" content="Acnespecialisten" />
       <meta property="og:description" content="" class="l10n" />
       <meta property="og:image" content="images/about-desktop.jpg" />
