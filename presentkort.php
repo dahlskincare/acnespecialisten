@@ -152,10 +152,10 @@ if (form_completed()) {
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Presentkort | AcneSpecialisten</title>
-    <meta name="title" content="Presentkort | AcneSpecialisten" class="l10n">
-    <meta name="description" content="Ge bort ett presentkort till någon du tycker om." class="l10n">
-    <meta name="keywords" content="presentkort, presentkort hudvård, digitalt presentkort, skicka digitalt presentkort, skicka presentkort online" class="l10n">
+    <title class="l10n">Digitalt Presentkort på Hudvård & Skönhet</title>
+    <meta name="title" content="Digitalt Presentkort på Hudvård & Skönhet" class="l10n">
+    <meta name="description" content="Ge bort skönhet med ett digitalt presentkort. Perfekt för hudvård, ansiktsbehandlingar och mer. Skicka kärlek online med ett klick!" class="l10n">
+    <meta name="keywords" content="presentkort, presentkort hudvård, digitalt presentkort, skicka digitalt presentkort, presentkort online, skicka presentkort online" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
