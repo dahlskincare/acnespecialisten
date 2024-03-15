@@ -155,7 +155,7 @@ if (form_completed()) {
     <title class="l10n">Presentkort | AcneSpecialisten</title>
     <meta name="title" content="Presentkort | AcneSpecialisten" class="l10n">
     <meta name="description" content="Ge bort ett presentkort till någon du tycker om." class="l10n">
-    <meta name="keywords" content="presentkort" class="l10n">
+    <meta name="keywords" content="presentkort, presentkort hudvård, digitalt presentkort, skicka digitalt presentkort, skicka presentkort online" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
