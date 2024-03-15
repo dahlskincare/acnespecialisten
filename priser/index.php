@@ -4,8 +4,8 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Priser | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens priser.">
+    <title>Priser hos AcneSpecialisten - Behandlingar & Paket</title>
+    <meta name="description" content="Upptäck prisvänliga behandlings-, paket- och kurpriser hos AcneSpecialisten. Investera i din hudhälsa med våra skräddarsydda lösningar.">
     <meta name="keywords" content="Priser">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
