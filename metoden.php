@@ -50,7 +50,7 @@ $steps = array(
     <title class="l10n">Alternativ till Hudläkare Stockholm - Privat & Utan Remiss</title>
     <meta name="title" content="Alternativ till Hudläkare Stockholm - Privat & Utan Remiss" class="l10n">
     <meta name="description" content="Vi är AcneSpecialisten, ditt alternativ till traditionella hudläkare i Stockholm. Behandling och rådgivning utan remiss. Boka din gratis konsultation nu!" class="l10n">
-    <meta name="keywords" content="Acnespecialisten, hudvård, fyrstegsmetod, personlig konsultation, skräddarsydda behandlingar" class="l10n">
+    <meta name="keywords" content="hudläkare, hudläkare stockholm, hudläkare stockholm utan remiss, hudläkare utan remiss stockholm, hudläkare utan remiss, privat hudläkare stockholm, hudläkare stockholm privat, hudläkare privat, privat hudläkare, hudläkare online, huddoktor" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
     <meta property="og:image" content="images/about-desktop.jpg" />
@@ -77,7 +77,7 @@ $steps = array(
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Ditt alternativ till hudläkare</h1>
+                    <h1 class="l10n">Alternativ till Hudläkare Stockholm - Privat & Utan Remiss</h1>
                     <p class="l10n">Vi på Acnespecialisten har utvecklat en unik metod i fyra steg där kundens problemhy står i fokus. Vi är ditt alternativ till en hudläkare, men utan remisser och långa köer. På våra hudmottagningar arbetar vi med att identifiera problemet, behandla det och sedan hjälpa dig att förebygga och bibehålla den balans som vi påbörjat arbetet med att reparera och återställa. Vi vill vara ditt enkla och självklara val mot en problemfri hy!</p>
                 </section>
                 <section id="video">
