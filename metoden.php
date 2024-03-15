@@ -47,9 +47,9 @@ $steps = array(
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten - Expertis och Innovation inom Hudvård</title>
-    <meta name="title" content="Acnespecialisten - Expertis och Innovation inom Hudvård" class="l10n">
-    <meta name="description" content="Vi är ett alternativ till hudläkare och på AcneSpecialisten erbjuder vi behandlingar och rådgivning utan remiss. Boka gratis konsultation så hjälper vi dig!" class="l10n">
+    <title class="l10n">Alternativ till Hudläkare Stockholm - Privat & Utan Remiss</title>
+    <meta name="title" content="Alternativ till Hudläkare Stockholm - Privat & Utan Remiss" class="l10n">
+    <meta name="description" content="Vi är AcneSpecialisten, ditt alternativ till traditionella hudläkare i Stockholm. Behandling och rådgivning utan remiss. Boka din gratis konsultation nu!" class="l10n">
     <meta name="keywords" content="Acnespecialisten, hudvård, fyrstegsmetod, personlig konsultation, skräddarsydda behandlingar" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
