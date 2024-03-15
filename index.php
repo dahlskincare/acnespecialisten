@@ -4,8 +4,8 @@
 
 <head>
       <!-- TODO: Set title and meta tags -->
-      <title class="l10n">Erfarna Hudspecialister inom hudproblem i Stockholm</title>
-      <meta name="title" content="Erfarna Hudspecialister inom hudproblem i Stockholm" class="l10n">
+      <title class="l10n">AcneSpecialisten - Din Hudspecialist i Stockholm och Online</title>
+      <meta name="title" content="AcneSpecialisten - Din Hudspecialist i Stockholm och Online" class="l10n">
       <meta name="description" content="AcneSpecialisten har över 25 års erfarenhet av alla typer av hudproblem. Boka en gratis konsultation så hjälper våra hudspecialister dig med rätt hudvård" class="l10n">
       <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation" class="l10n">
 
@@ -30,7 +30,7 @@
                         <video autoplay muted loop id="banner-video">
                         </video>
                         <div class="container">
-                              <h1 class="h700 l10n">Hudspecialisterna</h1>
+                              <h1 class="h700 l10n">AcneSpecialisterna, din hudspecialist i Stockholm och Online</h1>
                         </div>
                   </div>
                   <a href="gratis-hudkonsultation.php" title="Boka Gratis Hudkonsultation">
