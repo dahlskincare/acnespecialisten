@@ -9,7 +9,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
     <title>Om Oss - AcneSpecialisten | Din Partner i Hudvård</title>
     <meta name="title" content="Om Oss - AcneSpecialisten | Din Partner i Hudvård" class="l10n">
     <meta name="description" content="Läs mer om oss på AcneSpecialisten. Vi har 25 års erfarenhet av att behandla problem hy. Boka en kostnadsfri hudkonsultation så hjälper vi dig behandla din hy">
-    <meta name="keywords" content="Acnebehandling, Hudvårdspecialister, Hudproblem, Ansiktsbehandling, Personlig hudvård, Hudhälsa, AcneSpecialistenn">
+    <meta name="keywords" content="hudmottagning, hudmottagning stockholm, hudmottagning utan remiss, boka tid hudmottagning, privat hudmottagning, hudmottagningar i stockholm">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
