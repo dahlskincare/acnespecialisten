@@ -336,7 +336,7 @@ $categories = array(
     <title class="l10n">Gratis hudanalys och hudkonsultation i Stockholm och Online</title>
     <meta name="description" content="Upptäck fördelarna med en personlig hudkonsultation, våra erfarna hudterapeuter analyserar din hudtyp och skräddarsyr en behandlingsplan just för dig." class="l10n">
     <meta name="title" content="Gratis hudanalys och hudkonsultation i Stockholm eller Online" class="l10n">
-    <meta name="keywords" content="hudkonsultation, AcneSpecialisten, gratis hudanalys, personlig hudvårdsplan, hudterapeuter, hudvård, problemhy, skräddarsydd behandling" class="l10n">
+    <meta name="keywords" content="hudkonsultation, gratis hudkonsultation stockholm, hudanalys" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
     <meta property="og:image" content="images/about-desktop.jpg" />
