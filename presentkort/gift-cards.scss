@@ -333,3 +333,53 @@ section#cta {
         }
     }
 }
+
+
+#terms-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #terms-modal {
+        position: relative;
+        background-color: white;
+        @include elevation-medium();
+        max-width: 600px;
+        padding: $xl;
+        margin: $m;
+
+        border-radius: $radius-l;
+
+        h2 {
+            @include h300;
+            margin-bottom: $m;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+                padding: $xxs 0;
+            }
+        }
+
+        p {
+            margin: $s 0;
+        }
+
+        .button.round-small {
+            position: absolute;
+            top: $s;
+            right: $s;
+        }
+    }
+}
