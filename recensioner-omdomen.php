@@ -4,9 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Jobb | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens jobb.">
-    <meta name="keywords" content="Jobb">
+    <title>AcneSpecialistens Recensioner & Omdömen</title>
+    <meta name="description" content="Verifierade recensioner från Trustpilot, Google & Bokadirekt. Läs hur vi har hjälpt tusentals med deras hudvårdsresor. Bli inspirerad att börja din!">
+    <meta name="keywords" content="acnespecialisten recensioner, acnespecialisten omdöme">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
@@ -30,14 +30,8 @@
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Jobb</h1>
-                    <p class="l10n">Här kan du läsa mer om våra tillgängliga tjänster.</p>
-                </section>
-                <section id="alert-banner">
-                    <div id="alert-text" class="l10n">Besök vår jobbsida.</div>
-                    <!-- TOOD: set link -->
-                    <a href="https://skonhetsgruppen.teamtailor.com" title="Till Avbokning" class="is-hidden-touch l10n">Till jobb</a>
-                    <a href="https://skonhetsgruppen.teamtailor.com" title="Till Avbokning" class="is-hidden-desktop button outline expand l10n">Till jobb</a>
+                    <h1 class="l10n">Omdömen</h1>
+                    <p class="l10n">Snart kommer du att kunna hitta alla våra omdömen här.</p>
                 </section>
             </div>
             <section id="results" class="large-margin">
