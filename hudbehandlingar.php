@@ -63,42 +63,42 @@ $green_banner_content = new GreenBannerContent(
 $treatments = array(
     new Treatment(
         label: 'Ansiktsbehandling Problemhy',
-        url: 'problemhy.php',
+        url: '/problemhy.php',
         url_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new Treatment(
         label: 'Laser',
-        url: 'hudbehandlingar/laser-mot-hudproblem',
+        url: '/hudbehandlingar/laser-mot-hudproblem',
         url_title: 'Läs mer om laser'
     ),
     new Treatment(
         label: 'Microneedling',
-        url: 'microneedling.php',
+        url: '/microneedling.php',
         url_title: 'Läs mer om microneedling'
     ),
     new Treatment(
         label: 'Frysbehandling',
-        url: 'cryopen.php',
+        url: '/cryopen.php',
         url_title: 'Läs mer om frysbehandling'
     ),
     new Treatment(
         label: 'Kemisk Peeling',
-        url: 'kemisk-peeling.php',
+        url: '/kemisk-peeling.php',
         url_title: 'Läs mer om kemisk peeling'
     ),
     new Treatment(
         label: 'Injektioner',
-        url: 'hudbehandlingar/injektionsbehandlingar',
+        url: '/hudbehandlingar/injektionsbehandlingar',
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
     new Treatment(
         label: 'Klassiska Ansiktsbehandlingar',
-        url: 'ansiktsbehandlingar.php',
+        url: '/ansiktsbehandlingar.php',
         url_title: 'Läs mer om klassiska ansiktsbehandlingar'
     ),
     new Treatment(
         label: 'IPL',
-        url: 'hudbehandlingar/ipl',
+        url: '/hudbehandlingar/ipl',
         url_title: 'Läs mer om ipl'
     ),
     new Treatment(
@@ -108,17 +108,17 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Permanent Hårborttagning',
-        url: 'permanent-harborttagning.php',
+        url: '/permanent-harborttagning.php',
         url_title: 'Läs mer om Permanent Hårobrttagning'
     ),
     new Treatment(
         label: 'Skinbooster',
-        url: 'hudbehandlingar/skinbooster',
+        url: '/hudbehandlingar/skinbooster',
         url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
         label: 'Hudkonsultation',
-        url: 'gratis-hudkonsultation.php',
+        url: '/gratis-hudkonsultation.php',
         url_title: 'Läs mer om gratis hudkonsultation'
     ),
 );
@@ -128,62 +128,62 @@ $people_search_for_title = "Populära alternativ";
 $people_search_for = array(
     new Treatment(
         label: 'Aknebehandlingar',
-        url: 'acnebehandling.php',
+        url: '/acnebehandling.php',
         url_title: 'Läs mer om aknebehandlingar'
     ),
     new Treatment(
         label: 'Akneärr behandlingar',
-        url: 'behandla-acnearr.php',
+        url: '/behandla-acnearr.php',
         url_title: 'Läs mer om akneärr behandlingar'
     ),
     new Treatment(
         label: 'Rosaceabehandlingar',
-        url: 'rosaceabehandling.php',
+        url: '/rosaceabehandling.php',
         url_title: 'Läs mer om rosaceabehandlingar'
     ),
     new Treatment(
         label: 'Portömning',
-        url: 'portomning.php',
+        url: '/portomning.php',
         url_title: 'Läs mer om portömning'
     ),
     new Treatment(
         label: 'Dermapen',
-        url: 'dermapen.php',
+        url: '/dermapen.php',
         url_title: 'Läs mer om dermapen'
     ),
     new Treatment(
         label: 'Milierbehandling',
-        url: 'milierbehandling.php',
+        url: '/milierbehandling.php',
         url_title: 'Läs mer om milierbehandling'
     ),
     new Treatment(
         label: 'HydraFacial',
-        url: 'hydrafacial.php',
+        url: '/hydrafacial.php',
         url_title: 'Läs mer om HydraFacial'
     ),
     new Treatment(
         label: 'Hudterapeutens val',
-        url: 'hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
+        url: '/hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
         url_title: 'Läs mer om hudterapeutens val'
     ),
     new Treatment(
         label: 'PRX-T33',
-        url: 'prx-t33.php',
+        url: '/prx-t33.php',
         url_title: 'Läs mer om PRX-T33'
     ),
     new Treatment(
         label: 'Dermabrasion',
-        url: 'hudbehandlingar/dermabrasion',
+        url: '/hudbehandlingar/dermabrasion',
         url_title: 'Läs mer om dermabrasion'
     ),
     new Treatment(
         label: 'CO2 laser',
-        url: 'alma-hybrid-co2-laser.php',
+        url: '/alma-hybrid-co2-laser.php',
         url_title: 'Läs mer om CO2 laser'
     ),
     new Treatment(
         label: 'Porrengöring',
-        url: 'porrengoring.php',
+        url: '/porrengoring.php',
         url_title: 'Läs mer om porrengöring'
     ),
 );
@@ -191,7 +191,7 @@ $people_search_for = array(
 
 $service_categories = array(
     new ServiceCategory(
-        url: 'problemhy.php',
+        url: '/problemhy.php',
         label: 'Ansiktsbehandling mot problemhy',
         content: 'Ansiktsbehandlingar mot problemhy såsom akne, rosacea och pormaskar med mera. Med noggrant utvalda produkter och tekniker rengör och återställer vi din hud, och förebygger framtida hudproblem.',
         image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
@@ -206,22 +206,22 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         services: array(
             new Treatment(
-                url: 'hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
+                url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
                 label: 'Aknebehandling',
                 url_title: 'Läs mer om aknebehandling',
             ),
             new Treatment(
-                url: 'portomning.php',
+                url: '/portomning.php',
                 label: 'Portömning',
                 url_title: 'Läs mer om portömning',
             ),
             new Treatment(
-                url: 'hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
+                url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
                 label: 'Rosaceabehandling',
                 url_title: 'Läs mer om rosaceabehandling',
             ),
             new Treatment(
-                url: 'milierbehandling.php',
+                url: '/milierbehandling.php',
                 label: 'Milierbehandling',
                 url_title: 'Läs mer om milierbehandling',
             ),
@@ -230,7 +230,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new ServiceCategory(
-        url: 'hudbehandlingar/laser-mot-hudproblem',
+        url: '/hudbehandlingar/laser-mot-hudproblem',
         label: 'Laser mot hudproblem',
         content: 'Laserbehandlingar mot hudproblem som använder koncentrerade ljusstrålar för att målriktat behandla olika typer av ärr och pigmentfläckar. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende och textur.',
         image_small: 'bilder/behandlingar/200x200/laser-mot-problemhy.webp',
@@ -245,12 +245,12 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: 'alma-hybrid-co2-laser.php',
+                url: '/alma-hybrid-co2-laser.php',
                 label: 'Alma Hybrid CO2',
                 url_title: 'Läs mer om Alma Hybrid CO2',
             ),
             new Treatment(
-                url: 'alma-harmony-xl-pro.php',
+                url: '/alma-harmony-xl-pro.php',
                 label: 'Alma Harmony XL Pro',
                 url_title: 'Läs mer om Alma Harmony XL Pro',
             ),
@@ -259,7 +259,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om laserbehandling mot hudproblem'
     ),
     new ServiceCategory(
-        url: 'microneedling.php',
+        url: '/microneedling.php',
         label: 'Microneedling',
         content: 'Microneedling är en behandling där små nålar används för att skapa mikroskopiska hål i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en fastare, jämnare och fräschare hud.',
         image_small: 'bilder/behandlingar/200x200/microneedling.webp',
@@ -274,7 +274,7 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         services: array(
             new Treatment(
-                url: 'dermapen.php',
+                url: '/dermapen.php',
                 label: 'Dermapen',
                 url_title: 'Läs mer om dermapen',
             ),
@@ -288,7 +288,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om microneedling'
     ),
     new ServiceCategory(
-        url: 'behandlingar/ipl',
+        url: '/hudbehandlingar/ipl',
         label: 'IPL',
         content: 'IPL-behandlingar använder intensivt pulserande ljus för att behandla en rad hudproblem, inklusive pigmentfläckar, ytliga blodkärl och rosacea. Denna teknik förbättrar även hudens textur och ton.',
         image_small: 'bilder/behandlingar/200x200/ipl.webp',
@@ -303,17 +303,17 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: 'ipl-rosacea.php',
+                url: '/ipl-rosacea.php',
                 label: 'Mot Rosacea',
                 url_title: 'Läs mer om IPL mot Rosacea',
             ),
             new Treatment(
-                url: 'ipl-ytliga-blodkarl.php',
+                url: '/ipl-ytliga-blodkarl.php',
                 label: 'Mot Ytliga Blodkärl',
                 url_title: 'Läs mer om IPL mot Ytliga Blodkärl',
             ),
             new Treatment(
-                url: 'ipl-pigmentflackar.php',
+                url: '/ipl-pigmentflackar.php',
                 label: 'Mot Pigmentfläckar',
                 url_title: 'Läs mer om IPL mot Pigmentfläckar',
             ),
@@ -322,7 +322,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om IPL'
     ),
     new ServiceCategory(
-        url: 'kemisk-peeling.php',
+        url: '/kemisk-peeling.php',
         label: 'Kemisk Peeling',
         content: 'Kemisk peeling innebär applicering av syror på huden för att exfoliera huden och avlägsna gammal hud och döda hudceller. Detta stimulerar hudens förnyelseprocess, vilket leder till ny hudyta som är mjukare, klarare och jämnare.',
         image_small: 'bilder/behandlingar/200x200/kemisk-peeling.webp',
@@ -342,7 +342,7 @@ $service_categories = array(
                 url_title: 'Läs mer om Skin Tech',
             ),
             new Treatment(
-                url: 'prx-t33.php',
+                url: '/prx-t33.php',
                 label: 'PRX-T33',
                 url_title: 'Läs mer om PRX-T33',
             ),
@@ -351,7 +351,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om kemisk peeling'
     ),
     new ServiceCategory(
-        url: 'ansiktsbehandlingar.php',
+        url: '/ansiktsbehandlingar.php',
         label: 'Klassiska ansiktsbehandlingar',
         content: 'Klassiska ansiktsbehandlingar är tidlösa och grundläggande skönhetsbehandlingar som främjar allmän hudhälsa. De inkluderar rengöring, exfoliering, ånga, ansiktsmask och LED-terapi, och är anpassade för att passa olika hudtyper och behov.',
         image_small: 'bilder/behandlingar/200x200/klassiska-ansiktsbehandlingar.webp',
@@ -366,12 +366,12 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: 'hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
+                url: '/hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
                 label: 'Hudterapeutens val',
                 url_title: 'Läs mer om hudterapeutens val',
             ),
             new Treatment(
-                url: 'porrengoring.php',
+                url: '/porrengoring.php',
                 label: 'Portömning',
                 url_title: 'Läs mer om portömning',
             ),
@@ -380,7 +380,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om klassisk ansiktsbehandling'
     ),
     new ServiceCategory(
-        url: 'hudbehandlingar/dermabrasion',
+        url: '/hudbehandlingar/dermabrasion',
         label: 'Dermabrasion',
         content: 'Dermabrasion är en icke-invasiv behandling som använder vätska eller mikrokristaller för att försiktigt exfoliera hudens yttre lager. Denna process främjar hudens förnyelse, minskar fina linjer, och ger en jämnare hudton och textur.',
         image_small: 'bilder/behandlingar/200x200/dermabrasion.webp',
@@ -395,12 +395,12 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: 'hydrafacial.php',
+                url: '/hydrafacial.php',
                 label: 'HydraFacial',
                 url_title: 'Läs mer om Hydrafacial',
             ),
             new Treatment(
-                url: 'microdermabrasion.php',
+                url: '/microdermabrasion.php',
                 label: 'Microdermabrasion',
                 url_title: 'Läs mer om Microdermabrasion',
             ),
@@ -409,7 +409,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om dermabrasion'
     ),
     new ServiceCategory(
-        url: 'cryopen.php',
+        url: '/cryopen.php',
         label: 'Frysbehandling',
         content: 'Frysbehandling med CryoPen, innebär att man använder extrema kyla för att ta bort olika typer hudförändringar, inklusive födelsemärken, leverfläckar, hudflikar och fibrom.',
         image_small: 'bilder/behandlingar/200x200/frysbehandling.webp',
@@ -424,7 +424,7 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: 'cryopen.php',
+                url: '/cryopen.php',
                 label: 'CryoPen',
                 url_title: 'Läs mer om cryopen',
             ),
@@ -433,7 +433,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om frysbehandling'
     ),
     new ServiceCategory(
-        url: 'permanent-harborttagning.php',
+        url: '/permanent-harborttagning.php',
         label: 'Permanent Hårborttagning',
         content: 'Laserbaserad hårborttagning erbjuder en permanent lösning för att effektivt ta bort oönskat hår från alla kroppsområden. Säg farväl till daglig rakning och välkomna slät, hårfri hud. Denna behandling är anpassad för olika hud- och hårfärger.',
         image_small: 'bilder/behandlingar/200x200/permanent-harborttagning.webp',
@@ -462,7 +462,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om permanent hårborttagning'
     ),
     new ServiceCategory(
-        url: 'hudbehandlingar/skinbooster',
+        url: '/hudbehandlingar/skinbooster',
         label: 'Skinbooster',
         content: 'Skinboosters är injektionsbehandlingar som ger intensiv återfuktning och näring till huden. Hyaluronsyra och andra aktiva ingredienser slussas in i huden för att förbättra dess elasticitet, struktur och lyster.',
         image_small: 'bilder/behandlingar/200x200/skinbooster.webp',
@@ -477,7 +477,7 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: 'infuzion.php',
+                url: '/infuzion.php',
                 label: 'Infuzion',
                 url_title: 'Läs mer om Infuzion',
             ),
@@ -486,7 +486,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om skinbooster'
     ),
     new ServiceCategory(
-        url: 'gratis-hudkonsultation.php',
+        url: '/gratis-hudkonsultation.php',
         label: 'Gratis Hudkonsultation',
         content: 'Under vår kostnadsfria hudkonsultation får du träffa en av våra hudterapeuter på kliniken eller digitalt. Vi utför en noggran hudanalys för att identifiera ditt hudproblem och rekommendera rätt behandlingar och produkter som passar just din hy.',
         image_small: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
