@@ -12,7 +12,7 @@ $seo_keywords = 'ärr från finnar, ärr från finnar Stockholm, ärr från finn
 $title = 'Ärr från Finnar';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Ärr från finnar', '/finnar-arr.php'),
 );
 

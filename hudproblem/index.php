@@ -2016,14 +2016,14 @@ $specialists = array(
             <section id="specialists">
                   <div class="container">
                         <div class="flex-row align-end justify-space-between">
-                              <h2 class="big l10n">Våra specialister</h2>
-                              <a href="specialister" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Se alla våra specialister</span>
+                              <h2 class="big l10n">Våra hudterapeuter</h2>
+                              <a href="/hudterapeut" class="button compact text is-hidden-mobile">
+                                    <span class="l10n">Se alla våra hudterapeuter</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla våra specialister">Se alla våra specialister</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="/hudterapeut" title="Se alla våra hudterapeuter">Se alla våra hudterapeuter</a>
                   </div>
             </section>
             <section id="brands">

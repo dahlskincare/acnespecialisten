@@ -12,7 +12,7 @@ $seo_keywords = 'ytliga blodkärl, brustna blodkärl, synliga blodkärl, behandl
 $title = 'Ytliga Blodkärl';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Ytliga Blodkärl', '/ytliga-blodkarl.php'),
 );
 

@@ -12,7 +12,7 @@ $seo_keywords = 'perioral dermatit, finnar runt munnen, akne runt munnen';
 $title = 'Perioral Dermatit';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Perioral Dermatit', '/perioral-dermatit.php'),
 );
 

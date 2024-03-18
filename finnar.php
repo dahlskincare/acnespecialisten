@@ -12,7 +12,7 @@ $seo_keywords = 'finnar, vad är finnar, orsaker till finnar, varför får man f
 $title = 'Finnar';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Finnar', '/finnar.php'),
 );
 

@@ -12,7 +12,7 @@ $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga ro
 $title = 'Rosacea';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Rosacea', '/rosacea.php'),
 );
 

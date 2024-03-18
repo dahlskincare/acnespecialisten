@@ -16,7 +16,7 @@ $seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
 $title = 'Stora Porer';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Stora porer', '/stora-porer.php'),
 );
 

@@ -12,7 +12,7 @@ $seo_keywords = 'seborré, seborreiskt eksem, orsaker till seborré, förebygga 
 $title = 'Seborré';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Seborré', '/seborre.php'),
 );
 

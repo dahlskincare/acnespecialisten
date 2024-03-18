@@ -12,7 +12,7 @@ $seo_keywords = 'pormaskar, orsaker till pormaskar, förebygga pormaskar, ta bor
 $title = 'Pormaskar';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Pormaskar', '/pormaskar.php'),
 );
 

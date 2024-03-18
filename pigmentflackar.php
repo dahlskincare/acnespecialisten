@@ -12,7 +12,7 @@ $seo_keywords = 'pigmentfläckar, hyperpigmentering, pigmentering, hudfläckar, 
 $title = 'Pigmentfläckar';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Pigmentfläckar', '/pigmentflackar.php'),
 );
 
