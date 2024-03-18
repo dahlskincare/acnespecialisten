@@ -357,7 +357,7 @@ $categories = array(
                 <div id="overlay">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                     <div>
-                        <h2 class="h600 l10n">Gratis hudkonsultation i Stockholm eller hudanalys online</h2>
+                        <h2 class="h600 l10n">Gratis hudkonsultation eller hudanalys online</h2>
                         <h3 class="mt-m h200 l10n">Längd: 20 min</h3>
                         <p class="mt-m p200 l10n">Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.</p>
                         <div class="mt-xl">
@@ -380,7 +380,7 @@ $categories = array(
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="h600 l10n">Gratis hudkonsultation i Stockholm eller hudanalys online</h1>
+                    <h1 class="h600 l10n">Gratis hudkonsultation eller hudanalys online</h1>
                     <h3 class="mt-xs h200 l10n">Längd: 20 min</h3>
                     <p class="mt-xs p200">Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.</p>
                     <div class="mt-xl">
@@ -408,7 +408,7 @@ $categories = array(
                         </div>
                     </div>
                     <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600 l10n">Gratis hudkonsultation i Stockholm eller hudanalys online</h1>
+                        <h1 class="h600 l10n">Gratis hudkonsultation eller hudanalys online</h1>
                         <h3 class="mt-s h200 l10n">Längd: 20 min</h3>
                         <p class="mt-s p200 l10n">Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
                         <div class="mt-xl flex-row" id="book-buttons">
