@@ -1870,7 +1870,7 @@ $specialists = array(
 
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="hudproblem/problems.css">
+      <link rel="stylesheet" href="/hudproblem/problems.css">
 </head>
 
 <body>
