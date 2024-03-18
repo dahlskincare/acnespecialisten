@@ -181,6 +181,7 @@ if (form_completed()) {
                     <h1 class="l10n">Presentkort</h1>
                     <p class="l10n">Ge bort en omtänksam gåva med ett presentkort från Acnespecialisten. Nu kan du enkelt skicka en uppskattad present utan att besöka kliniken. Swisha oss det valda beloppet eller ange önskad behandling, och vi skickar ett vackert utformat presentkort direkt till dig eller mottagaren. Våra presentkort är en flexibel gåva som ger mottagaren friheten att välja bland våra många hudvårdsbehandlingar eller kvalitetsprodukter, perfekt för att visa att du bryr dig.</p>
                     <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Köp ett presentkort</div>
+                    <div class="button outline b200 expand" onclick="document.querySelector('#terms-modal-overlay').classList.remove('is-hidden')">Allmänna villkor</div>
                 </section>
                 <section id="image">
                     <picture>
@@ -537,6 +538,41 @@ if (form_completed()) {
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="presentkort/gift-cards.js"></script>
+
+    <div id="terms-modal-overlay" class="is-hidden">
+        <div id="terms-modal">
+            <h2>Presentkortsvillkor</h2>
+            <ul class="p100">
+                <li><strong>Giltighetstid:</strong>
+                    <span>Presentkortet är giltigt i 1 år från köpdatumet.</span>
+                </li>
+                <li>
+                    <strong>Återbetalningspolicy:</strong>
+                    <span>En ångerrätt på 30 dagar efter köpdatumet tillämpas.</span>
+                </li>
+                <li>
+                    <strong>Inlösen:</strong>
+                    <span>Presentkortet kan inte bytas in mot kontanter.</span>
+                </li>
+                <li>
+                    <strong>Leveransform:</strong>
+                    <span>Presentkortet levereras digitalt och eller fysiskt via post om så önskas.</span>
+                </li>
+                <li>
+                    <strong>Moms:</strong>
+                    <span>Inget moms tillkommer på värdet av presentkortet.</span>
+                </li>
+                <li>
+                    <strong>Kontaktinformation:</strong>
+                    <span>Fullständig kontaktinformation finns på vår kontaktsida, inklusive e-post och telefonnummer.</span>
+                </li>
+            </ul>
+            <p>Presentkortet kan användas för tjänster hos någon av våra kliniker. För ytterligare information och detaljer, vänligen referera till våra presentkortsvillkor på hemsidan.</p>
+            <p>AcneSpecialisten Sverige AB</p>
+            <p>Organisationsnummer: 556530-0695</p>
+            <button class="button round-small outline" onclick="document.querySelector('#terms-modal-overlay').classList.add('is-hidden')"><?php icon('close') ?></button>
+        </div>
+    </div>
 
 </body>
 
