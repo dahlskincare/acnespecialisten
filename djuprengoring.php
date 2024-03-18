@@ -252,30 +252,6 @@ $reviews = array(
 );
 $reviews_view_more = 'Se alla omdömen';
 
-$faq_title = 'Frågor & Svar';
-$faq_categories = array(
-    '' => array(
-        new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
-        ),
-        new Question(
-            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
-            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
-        ),
-        new Question(
-            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
-            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
-        ),
-        new Question(
-            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
-            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
-        )
-    )
-);
-
-$faq_view_more = 'Se alla frågor & svar';
-
 $skin_guide_title = 'Hudguiden';
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -296,32 +272,33 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg'
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i djuprengöring',
+        image_title: 'Cazzandra Lindberg - Expert på djuprengöring'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik'
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på djuprengöring',
+        image_title: 'Veronika Benedik - Specialist inom djuprengöring'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom djuprengöring',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på djuprengöring'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom'
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot djuprengöring',
+        image_title: 'Vilma Libom - Expert inom djuprengöring'
     )
 );
+
 $specialists_view_more = 'Se alla hudterapeuter';
 
 $brands_title = 'Märken vi jobbar med';
@@ -637,11 +614,6 @@ $all_brands = array(
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
-                </section>
-                <section id="faq" class="large-margin">
-                    <h2 class="big l10n"><?php echo $faq_title ?></h2>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
                 <!--Hudguide-->
                 <section id="specialists" class="large-margin">
