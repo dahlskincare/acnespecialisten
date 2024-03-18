@@ -709,7 +709,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/behandlingar/service.css">
+    <link rel="stylesheet" href="/hudbehandlingar/service.css">
 </head>
 
 <body>
