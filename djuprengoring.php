@@ -68,7 +68,7 @@ $nav_buttons = array(
 
 $description_title = 'Djuprengöring mot pormaskar';
 $description_text = '<p class="p200">Våra djuprengöring är en specialiserad form av porrengöring som specifikt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
-<p class="p200 mt-m">Anpassad för olika hudtyper, inklusive oljig, torr och blandhud, strävar våra djuprengöringsbehandlingar efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
+<p class="p200 mt-m">Anpassad för olika hudtyper, inklusive oljig, torr och blandhud, strävar våra djuprengöringsbehandling efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
 
 
 $types_title = '';
@@ -78,7 +78,7 @@ $big_types = array(
         title: 'Djuprengöring',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">Vår djuprengöringsprocess inleds med en varsam rengöring som effektivt tar bort smuts och överflödig talg. Efter detta tillkommer en ångbehandling som mjukgör huden och förbereder den för pormaskborttagning. Genom denna metod kan våra terapeuter djuprengöra porerna mer effektivt.</p>
+        content: '<p class="p200">Vår djuprengöringsprocess inleds med en rengöring som effektivt tar bort smuts och överflödig talg. Efter detta tillkommer en ångbehandling som mjukgör huden och förbereder den för pormaskborttagning. Genom denna metod kan våra hudterapeuter djuprengöra porerna mer effektivt.</p>
         <p class="p200 mt-m">Efter den grundliga rengöringen appliceras en lermask som verkar lugnande på huden och hjälper till att strama åt porerna. Behandlingen avrundas med en återfuktande kräm som återställer hudens balans och efterlämnar en jämn och ren yta.</p>',
         image_small: null,
         image_large: null,
