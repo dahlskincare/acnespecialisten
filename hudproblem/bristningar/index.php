@@ -501,7 +501,7 @@ $services = array(
             image_title: 'Laserbehandling mot bristningar',
 
             url_label: 'Läs mer om laser mot bristningar',
-            url: '/behandlingar/laser-mot-hudproblem/',
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer om laser mot bristningar',
 
             consultation_url_label: 'Boka konsultation',
