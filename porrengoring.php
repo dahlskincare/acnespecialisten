@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Porrengöring och Behandling av Pormaskar | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten erbjuder vi portömning för att behandla pormaskar. Djupgående porrengöring för effektiv behandling. Boka tid hos oss idag →';
-$seo_keywords = 'porrengöring, behandling av pormaskar, effektiv portömning, hudvårdsbehandlingar, pormaskar, AcneSpecialisten, djuprengöring, klar hud, frisk hud, minska synligheten av pormaskar, rena porer, skräddarsydd hudvård';
+$seo_title = 'Porrengöring | AcneSpecialisten';
+$seo_description = 'På AcneSpecialisten erbjuder vi porrengöring för att behandla porer. Denna djupgående rengör och exfolierar porerna effektivt. Boka tid hos oss idag →';
+$seo_keywords = 'porrengöring';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
