@@ -137,7 +137,7 @@ $header_brands = array(
 $link_brands = array(
       new BrandCategory(
             label: 'Laser mot hudproblem',
-            url: '/behandlingar/laser-mot-hudproblem/',
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer',
             services: array(
                   "/alma-hybrid-co2-laser.php" => "Alma Hybrid CO2",
@@ -155,7 +155,7 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'IPL',
-            url: '/behandlingar/ipl/',
+            url: '/hudbehandlingar/ipl/',
             url_title: 'Läs mer',
             services: array(
                   "/varumarken/alma/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
@@ -165,7 +165,7 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'Dermabration',
-            url: '/behandlingar/dermabrasion/',
+            url: '/hudbehandlingar/dermabrasion/',
             url_title: 'Läs mer',
             services: array(
                   "/hydrafacial.php" => "HydraFacial",
@@ -191,7 +191,7 @@ $link_brands = array(
       ),
       new BrandCategory(
             label: 'Skinbooster',
-            url: '/behandlingar/skinbooster/',
+            url: '/hudbehandlingar/skinbooster/',
             url_title: 'Läs mer',
             services: array(
                   "/infuzion.php" => "Infuzion",

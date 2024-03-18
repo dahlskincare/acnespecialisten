@@ -10,8 +10,8 @@ $seo_keywords = 'skinbooster, stockholm';
 $seo_image = '/images/treatments/large/skinbooster.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Skinbooster', '/behandlingar/skinbooster/'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Skinbooster', '/hudbehandlingar/skinbooster/'),
 );
 
 $model = new Service(
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '50 min',
     price: '2595 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/skinbooster.webp',
-    image_large: 'bilder/behandlingar/424x456/skinbooster.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/skinbooster.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/skinbooster.webp',
     image_alt: 'Skinbooster',
     image_title: 'Skinbooster',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
@@ -671,7 +671,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include($_SERVER['DOCUMENT_ROOT'] . '/behandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include($_SERVER['DOCUMENT_ROOT'] . '/hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
