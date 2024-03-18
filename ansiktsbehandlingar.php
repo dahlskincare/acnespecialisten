@@ -7,7 +7,6 @@ $seo_title = 'Ansiktsbehandling Stockholm | AcneSpecialisten';
 $seo_description = 'Vi på Acnespecialisten erbjuder ansiktsbehandlingar i Stockholm för alla hudtyper! Behandla, återfukta eller lyxa till det lite extra. Boka direkt →';
 $seo_keywords = 'klassiska ansiktsbehandlingar, hudvård, förebyggande hudvård, professionell hudvård, hudförbättring, återfuktning, hudrengöring, AcneSpecialisten';
 
-
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.webp';
 
 $path_segments = array(
