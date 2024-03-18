@@ -68,7 +68,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Laser',
-        url: 'behandlingar/laser-mot-hudproblem',
+        url: 'hudbehandlingar/laser-mot-hudproblem',
         url_title: 'Läs mer om laser'
     ),
     new Treatment(
@@ -88,7 +88,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Injektioner',
-        url: 'behandlingar/injektionsbehandlingar',
+        url: 'hudbehandlingar/injektionsbehandlingar',
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
     new Treatment(
@@ -98,7 +98,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'IPL',
-        url: 'behandlingar/ipl',
+        url: 'hudbehandlingar/ipl',
         url_title: 'Läs mer om ipl'
     ),
     new Treatment(
@@ -113,7 +113,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Skinbooster',
-        url: 'behandlingar/skinbooster',
+        url: 'hudbehandlingar/skinbooster',
         url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
@@ -163,7 +163,7 @@ $people_search_for = array(
     ),
     new Treatment(
         label: 'Hudterapeutens val',
-        url: 'behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
+        url: 'hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
         url_title: 'Läs mer om hudterapeutens val'
     ),
     new Treatment(
@@ -173,7 +173,7 @@ $people_search_for = array(
     ),
     new Treatment(
         label: 'Dermabrasion',
-        url: 'behandlingar/dermabrasion',
+        url: 'hudbehandlingar/dermabrasion',
         url_title: 'Läs mer om dermabrasion'
     ),
     new Treatment(
@@ -206,7 +206,7 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         services: array(
             new Treatment(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
+                url: 'hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
                 label: 'Aknebehandling',
                 url_title: 'Läs mer om aknebehandling',
             ),
@@ -216,7 +216,7 @@ $service_categories = array(
                 url_title: 'Läs mer om portömning',
             ),
             new Treatment(
-                url: 'behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
+                url: 'hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
                 label: 'Rosaceabehandling',
                 url_title: 'Läs mer om rosaceabehandling',
             ),
@@ -230,7 +230,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new ServiceCategory(
-        url: 'behandlingar/laser-mot-hudproblem',
+        url: 'hudbehandlingar/laser-mot-hudproblem',
         label: 'Laser mot hudproblem',
         content: 'Laserbehandlingar mot hudproblem som använder koncentrerade ljusstrålar för att målriktat behandla olika typer av ärr och pigmentfläckar. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende och textur.',
         image_small: 'bilder/behandlingar/200x200/laser-mot-problemhy.webp',
@@ -366,7 +366,7 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: 'behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
+                url: 'hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
                 label: 'Hudterapeutens val',
                 url_title: 'Läs mer om hudterapeutens val',
             ),
@@ -380,7 +380,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om klassisk ansiktsbehandling'
     ),
     new ServiceCategory(
-        url: 'behandlingar/dermabrasion',
+        url: 'hudbehandlingar/dermabrasion',
         label: 'Dermabrasion',
         content: 'Dermabrasion är en icke-invasiv behandling som använder vätska eller mikrokristaller för att försiktigt exfoliera hudens yttre lager. Denna process främjar hudens förnyelse, minskar fina linjer, och ger en jämnare hudton och textur.',
         image_small: 'bilder/behandlingar/200x200/dermabrasion.webp',
@@ -462,7 +462,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om permanent hårborttagning'
     ),
     new ServiceCategory(
-        url: 'behandlingar/skinbooster',
+        url: 'hudbehandlingar/skinbooster',
         label: 'Skinbooster',
         content: 'Skinboosters är injektionsbehandlingar som ger intensiv återfuktning och näring till huden. Hyaluronsyra och andra aktiva ingredienser slussas in i huden för att förbättra dess elasticitet, struktur och lyster.',
         image_small: 'bilder/behandlingar/200x200/skinbooster.webp',
@@ -523,7 +523,7 @@ $path_segments = array(
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/behandlingar/style.css">
+    <link rel="stylesheet" href="/hudbehandlingar/style.css">
 </head>
 
 <body>
@@ -556,7 +556,7 @@ $path_segments = array(
                 <div class="columns is-multiline is-variable is-3">
                     <?php foreach ($service_categories as $category) { ?>
                         <div class="column is-one-third">
-                            <?php include('behandlingar/widgets/service-category-card/service-category-card.php') ?>
+                            <?php include('hudbehandlingar/widgets/service-category-card/service-category-card.php') ?>
                         </div>
                     <?php } ?>
                 </div>
