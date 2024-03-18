@@ -10,7 +10,7 @@ $seo_keywords = 'permanent hårborttagning, laserhårborttagning';
 $seo_image = 'images/treatments/large/permanent-harborttagning.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Permanent Laser Hårborttagning', '/permanent-harborttagning.php'),
 );
 
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 995 kr',
     content: '<p class="p200">Permanent hårborttagning med laser erbjuder en effektiv lösning för dig som önskar att ta bort oönskat hår permanent. Denna metod är utformad för att målinriktat och effektivt avlägsna hårstrån genom att skada hårfolliklarna, vilket inaktiverar hårproduktionen och leder till hårfri hud.</p>',
-    image_small: 'bilder/behandlingar/358x274/permanent-harborttagning.webp',
-    image_large: 'bilder/behandlingar/424x456/permanent-harborttagning.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/permanent-harborttagning.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/permanent-harborttagning.webp',
     image_alt: 'Permanent Hårborttagning',
     image_title: 'Permanent Hårborttagning',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',

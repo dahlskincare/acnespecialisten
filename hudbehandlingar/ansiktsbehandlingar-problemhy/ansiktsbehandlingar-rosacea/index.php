@@ -7,11 +7,11 @@ $seo_title = 'Ansiktsbehandling för Rosacea - Effektiv behandling';
 $seo_description = 'Vi erbjuder specialanpassade ansiktsbehandlingar för att lugna och vårda rosacea-drabbad hud. Våra behandlingar är inriktade på att minska rodnad och irritation';
 $seo_keywords = 'ansiktsbehandlingar för rosacea, rosaceabehandling, lugnande hudvård, behandla rodnad i ansiktet, AcneSpecialisten, skonsam hudvård, milda ansiktsbehandlingar, rosacealindring, hudvård vid rosacea, minska hudrodnad, lindra rosacea';
 
-$seo_image = '/bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = '/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Ansiktsbehandlingar mot rosacea', '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Ansiktsbehandlingar mot rosacea', '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea'),
 );
 
 $model = new Service(
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot rosacea',
     image_title: 'Ansiktsbehandlingar mot rosacea',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
@@ -68,7 +68,7 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister',
+    'specialists' => 'Hudterapeut',
     'service-brands' => 'Märken',
 );
 
@@ -462,7 +462,7 @@ $all_brands = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/behandlingar/service.css">
+    <link rel="stylesheet" href="/hudbehandlingar/service.css">
 </head>
 
 <body>
@@ -730,7 +730,7 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">

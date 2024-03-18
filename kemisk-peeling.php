@@ -10,7 +10,7 @@ $seo_keywords = 'kemisk peeling, stockholm';
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Kemisk Peeling', '/kemisk-peeling.php'),
 );
 
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '30 min',
     price: null,
     content: '<p class="p200">Kemisk peeling är en hudvårdsbehandling som används för att förbättra hudens utseende och textur. Genom att applicera exfolierande syror på huden avlägsnas de döda hudcellerna på ytan. Denna process stimulerar cellförnyelsen och främjar tillväxten av ny, friskare hud. </p>',
-    image_small: 'bilder/behandlingar/358x274/kemisk-peeling.webp',
-    image_large: 'bilder/behandlingar/424x456/kemisk-peeling.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/kemisk-peeling.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp',
     image_alt: 'Kemisk peeling behandlingar',
     image_title: 'Kemisk peeling behandlingar',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',

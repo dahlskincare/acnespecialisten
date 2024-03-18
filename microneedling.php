@@ -10,7 +10,7 @@ $seo_keywords = 'microneedling, microneedling behandling, microneedling stockhol
 $seo_image = 'images/treatments/large/microneedling.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Microneedling', '/microneedling.php'),
 );
 
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: null,
     content: '<p class="p200">Som ledande experter på microneedling i Stockholm, erbjuder vi toppmodern behandling för att revitalisera din hud. Genom att försiktigt och strategiskt skapa mikroskopiska skador i hudens yttre lager, kickstartas produktionen av kollagen – ett avgörande protein för att upprätthålla hudens styrka och smidighet.</p>',
-    image_small: 'bilder/behandlingar/358x274/microneedling.webp',
-    image_large: 'bilder/behandlingar/424x456/microneedling.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/microneedling.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/microneedling.webp',
     image_alt: 'Microneedling',
     image_title: 'Microneedling',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',

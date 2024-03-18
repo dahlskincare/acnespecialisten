@@ -38,7 +38,7 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister'
+    'specialists' => 'Hudterapeuter'
 );
 
 $about_title = 'Hur vi vårdar och behandlar mogen hy';
@@ -106,7 +106,7 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling för mogen hy nu',
-        url: '/behandlingar/laser-mot-hudproblem/',
+        url: '/hudbehandlingar/laser-mot-hudproblem/',
         url_label: 'Läs mer om laser mot mogen hy',
         url_title: 'Läs mer om laser mot mogen hy',
 
@@ -347,7 +347,7 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister";
+$specialist_url_label = "Se alla hudterapeut";
 $specialist_url_title = "Mogen hy Specialiserade Hudterapeuter";
 
 $brands = array(
@@ -580,16 +580,16 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                 <!--Hudguide-->
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Våra specialister</h2>
-                        <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
-                            <span class="l10n">Se alla specialister</span>
+                        <h2 class="big l10n">Våra hudterapeut</h2>
+                        <a href="/hudterapeut" title="Specialister" class="button compact text is-hidden-mobile">
+                            <span class="l10n">Se alla hudterapeut</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut"><?php echo $specialist_url_label ?></a>
                 </section>
             </div>
             <section id="brands">

@@ -10,8 +10,8 @@ $seo_keywords = 'injektionsbehandlingar, fillers';
 $seo_image = '/images/treatments/large/injektionsbehandlingar.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Injektioner', '/behandlingar/injektionsbehandlingar/'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Injektioner', '/hudbehandlingar/injektionsbehandlingar/'),
 );
 
 $model = new Service(
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2595 kr',
     content: '<p class="p200">Vi erbjuder estetiska injektionsbehandlingar för att förbättra hudens utseende och textur. Dessa behandlingar är utformade för att försiktigt minska synliga linjer och rynkor samt återställa hudens volym och konturer.</p>',
-    image_small: 'bilder/behandlingar/358x274/injektionsbehandlingar.webp',
-    image_large: 'bilder/behandlingar/424x456/injektionsbehandlingar.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/injektionsbehandlingar.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/injektionsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/konsultation-fillers-klinik-2181498?_gl=1*5spofb*_ga*NTM5NzY3NDQuMTcwODA5MzAyNw..*_ga_TLP294F6BC*MTcwODA5MzAyNi4xLjEuMTcwODA5MzAzMS41NS4wLjA.',
@@ -44,7 +44,7 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister',
+    'specialists' => 'Hudterapeuter',
     'service-brands' => 'Märken',
 );
 
@@ -1224,7 +1224,7 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">

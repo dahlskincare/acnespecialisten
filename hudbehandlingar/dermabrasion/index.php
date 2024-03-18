@@ -10,8 +10,8 @@ $seo_keywords = 'dermabrasion, dermabrasion i Stockholm';
 $seo_image = '/images/treatments/large/dermabrasion.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Dermabrasion', '/behandlingar/dermabrasion/'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Dermabrasion', '/hudbehandlingar/dermabrasion/'),
 );
 
 $model = new Service(
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">Dermabrasion är en effektiv behandling som slipar huden för att förbättra hudens textur och utseende. Vår dermabrasion-teknik skräddarsys för att passa din hudtyp och ger en djup exfoliering som främjar hudens förnyelse och kollagenproduktion.</p>',
-    image_small: 'bilder/behandlingar/358x274/dermabrasion.webp',
-    image_large: 'bilder/behandlingar/424x456/dermabrasion.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/dermabrasion.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/dermabrasion.webp',
     image_alt: 'Dermabrasion',
     image_title: 'Dermabrasion',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
@@ -44,7 +44,7 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister',
+    'specialists' => 'Hudterapeuter',
     'service-brands' => 'Märken',
 );
 
@@ -877,7 +877,7 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">

@@ -16,7 +16,7 @@ $image_alt = 'Bild på rosacea behandling';
 $image_title = 'Bild av effektiv rosaceabehandling';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Rosacea behandling', '/rosaceabehandling.php'),
 );
 
@@ -49,7 +49,7 @@ $about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt
 
 $headline01 = "01. Identifiera din rosacea";
 
-$define_image = '/bilder/behandlingar/872x456/gratis-hudkonsultation.webp';
+$define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar rosacea?';
 $define_image_title = 'Hur vi tar bort och behandlar rosacea?';
 
@@ -66,8 +66,8 @@ $treat_content = '<p class="p200">När din typ av rosacea har identifierats, på
 
 $services = array(
     new Service(
-        image_small: '/bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-        image_large: '/bilder/behandlingar/872x456/ansiktsbehandlingar-mot-problemhy.webp',
+        image_small: '/bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/872x456/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Rosacea på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot rosacea utförd på Acnespecialisten',
 
@@ -85,7 +85,7 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Rosacea på Acnespecialisten',
 
-        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
+        url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
         url_label: 'Läs mer om ansiktsbehandling mot rosacea',
         url_title: 'Läs mer om ansiktsbehandling mot rosacea',
 
@@ -93,8 +93,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: '/bilder/behandlingar/358x274/ipl.webp',
-        image_large: '/bilder/behandlingar/872x456/ipl.webp',
+        image_small: '/bilder/hudbehandlingar/358x274/ipl.webp',
+        image_large: '/bilder/hudbehandlingar/872x456/ipl.webp',
         image_title: 'Klient som genomgår IPL-behandling mot rosacea',
         image_alt: 'Bild av IPL-behandling mot rosacea hos Acnespecialisten',
         title: 'IPL-behandling mot Rosacea',
@@ -120,8 +120,8 @@ $headline03 = "03. Förebygg rosacea";
 
 $products = array(
     new Product(
-        image_small: '/bilder/behandlingar/358x274/produkter.webp',
-        image_large: '/bilder/behandlingar/872x456/produkter.webp',
+        image_small: '/bilder/hudbehandlingar/358x274/produkter.webp',
+        image_large: '/bilder/hudbehandlingar/872x456/produkter.webp',
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot rosacea',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot rosacea',
 
@@ -135,8 +135,8 @@ $products = array(
 
 $headline04 = '04. Behandla Ytliga Blodkärl från rosacea';
 
-$repair_image_small = '/bilder/behandlingar/358x274/ipl.webp';
-$repair_image_large = '/bilder/behandlingar/872x456/ipl.webp';
+$repair_image_small = '/bilder/hudbehandlingar/358x274/ipl.webp';
+$repair_image_large = '/bilder/hudbehandlingar/872x456/ipl.webp';
 
 $repair_content = '<p class="p200">Ytliga blodkärl, även kända som spindelkärl eller brustna blodkärl, kan uppstå efter rosacea och ge ett rodnat och ojämn hudton. På AcneSpecialisten kan vi hjälpa dig att behandla dessa blodkärl med moderna tekniker som laser och IPL. Dessa metoder riktar sig direkt till blodkärlen, vilket får dem att kollapsa och successivt försvinna. Med oss vid din sida kan du känna dig trygg i att du får den bästa möjliga behandlingen och rådgivningen för att återställa en jämn hudton utan störande blodkärl.</p>';
 
