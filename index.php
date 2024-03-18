@@ -351,7 +351,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
                                     image_title: 'Ansiktsbehandling',
                                     image_alt: 'Kvinna som får ansiktsbehandling i ansiktet.',
-                                    url: 'problemhy.php',
+                                    url: '/problemhy.php',
                                     url_title: 'Läs mer och boka tid för ansiktsbehandling.',
                                     show_on_large: true,
                                     show_on_small: true
@@ -362,7 +362,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/microneedling.webp',
                                     image_title: 'Ansiktsbehandling med microneedling.',
                                     image_alt: 'Kvinna som får microneedling behandling i ansiktet.',
-                                    url: 'microneedling.php',
+                                    url: '/microneedling.php',
                                     url_title: 'Läs mer och boka tid för microneedling.',
                                     show_on_large: true,
                                     show_on_small: true
@@ -373,7 +373,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/laser-mot-problemhy.webp',
                                     image_title: 'Laserbehandling i ansiktet',
                                     image_alt: 'Närbild på person som får laserbehandling på kinden.',
-                                    url: 'behandlingar/laser-mot-hudproblem',
+                                    url: '/hudbehandlingar/laser-mot-hudproblem',
                                     url_title: 'Läs mer och boka tid för laser.',
                                     show_on_large: true,
                                     show_on_small: true
@@ -384,7 +384,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/kemisk-peeling.webp',
                                     image_title: 'Ansiktsbehandling med kemisk peeling.',
                                     image_alt: 'Man som får kemisk peeling behandling i ansiktet.',
-                                    url: 'kemisk-peeling.php',
+                                    url: '/kemisk-peeling.php',
                                     url_title: 'Läs mer och boka tid för kemisk peeling.',
                                     show_on_large: true,
                                     show_on_small: true
@@ -395,7 +395,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/ipl.webp',
                                     image_title: 'IPL-behandling i ansiktet',
                                     image_alt: 'Kvinna som får IPL-behandling i ansiktet.',
-                                    url: 'hudbehandlingar/ipl',
+                                    url: '/hudbehandlingar/ipl',
                                     url_title: 'Läs mer och boka tid för IPL.',
                                     show_on_large: true,
                                     show_on_small: true,
@@ -406,7 +406,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/dermabrasion.webp',
                                     image_title: 'Ansiktsbehandling med HydraFacial',
                                     image_alt: 'Kvinna som får HydraFacial behandling i ansiktet.',
-                                    url: 'hudbehandlingar/dermabrasion',
+                                    url: '/hudbehandlingar/dermabrasion',
                                     url_title: 'Läs mer och boka tid för dermabrasion.',
                                     show_on_large: false,
                                     show_on_small: true
@@ -542,7 +542,7 @@
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Våra hudspecialister</div>
-                              <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
+                              <a href="/hudterapeut" title="Specialister" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -580,7 +580,7 @@
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudspecialister" href="specialister">Se alla hudspecialister</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudspecialister" href="/hudterapeut">Se alla hudspecialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">

@@ -7,11 +7,11 @@ $seo_title = 'Ansiktsbehandlingar mot Akne - Effektiv behandling';
 $seo_description = 'Expertanpassade ansiktsbehandlingar speciellt utformade för aknebenägen hud. Avancerade metoder för att effektivt hantera utbrott och uppnå en klarare hud.';
 $seo_keywords = 'aknebehandling, ansiktsbehandlingar för akne, bekämpa akne, effektiv aknevård, acne specialister, akne lösningar, finnar, blemmor, akneärr, inflammerad hud, hudvård för akne';
 
-$seo_image = '/bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = '/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Ansiktsbehandlingar mot akne', '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Ansiktsbehandlingar mot akne', '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne'),
 );
 
 $model = new Service(
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot akne',
     image_title: 'Ansiktsbehandlingar mot akne',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
@@ -482,7 +482,7 @@ $all_brands = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/behandlingar/service.css">
+    <link rel="stylesheet" href="/hudbehandlingar/service.css">
 </head>
 
 <body>

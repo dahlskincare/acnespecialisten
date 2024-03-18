@@ -7,12 +7,12 @@ $seo_title = 'Hudterapeutens Val - Personlig Ansiktsbehandling';
 $seo_description = 'Ansiktsbehandling som är unikt anpassad av våra erfarna hudterapeuter baserat på din hudtyp och behov..';
 $seo_keywords = 'Hudterapeutens Val, skräddarsydd hudvård';
 
-$seo_image = '/bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp';
+$seo_image = '/bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Klassiska Ansiktsbehandlingar', '/ansiktsbehandlingar.php'),
-    new PathSegment('Hudterapeutens Val', '/behandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val/'),
+    new PathSegment('Hudterapeutens Val', '/hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val/'),
 );
 
 $model = new Service(
@@ -20,8 +20,8 @@ $model = new Service(
     duration: '70 min',
     price: 'Från 1595 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
-    image_large: 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
     image_alt: 'Hudterapeutens Val',
     image_title: 'Hudterapeutens Val',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
