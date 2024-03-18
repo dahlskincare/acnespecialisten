@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermabrasion & Hydro - Effektiv Hudförnyelse';
+$seo_title = 'Dermabrasion | AcneSpecialisten';
 $seo_description = 'Effektiv förbättring av hudens textur och utseende. Med avancerad teknik och expertis får du djupgående hudförnyelse och återuppbyggnad.';
-$seo_keywords = 'dermabrasion, dermabrasion i Stockholm';
+$seo_keywords = 'dermabrasion';
 
 $seo_image = '/images/treatments/large/dermabrasion.webp';
 
