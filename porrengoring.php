@@ -66,7 +66,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är porrengöring?';
-$description_text = '<p class="p200">Våra porrengöringsbehandling är skräddarsydda för att effektivt ta itu med och minska pormaskar, och erbjuder en djupgående lösning för att uppnå en klarare och mer problemfri hud. Med avancerade tekniker, inklusive ånganvändning, öppnar vi försiktigt upp porerna för att möjliggöra en grundlig och riktad rengöring. Denna process är särskilt effektiv för att avlägsna pormaskar och rensa tilltäppningar.</p>
+$description_text = '<p class="p200">Våra porrengöringsbehandling är skräddarsydd för att effektivt ta itu med och minska pormaskar, och erbjuder en djupgående lösning för att uppnå en klarare och mer problemfri hud. Med specialiserade tekniker, inklusive ånga, öppnar vi försiktigt upp porerna för att möjliggöra en grundlig och riktad rengöring. Denna process är särskilt effektiv för att avlägsna pormaskar och rensa tilltäppningar.</p>
     <p class="p200 mt-m">Varje behandling är unikt utformad för att passa olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en blandhud. Vårt fokus ligger på att förbättra hudens hälsa och återställa dess naturliga balans, samtidigt som vi ger nödvändig näring och vård för att förebygga framtida hudproblem, inklusive uppkomsten av nya pormaskar.</p>';
 
 
