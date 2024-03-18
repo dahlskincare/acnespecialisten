@@ -3,22 +3,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Effektiv Vakuumsugning av Pormaskar';
-$seo_description = 'Upptäck hemligheten till en klarare hud med vår vakuumsugningsteknik som effektivt rengör porerna, exfolierar, avlägsnar orenheter och återfuktar.';
+$seo_title = 'Portömning med vakuumsug | AcneSpecialisten';
+$seo_description = 'Vakuumsug är en effektiv metod för djuprengöring av huden. Genom vakuumteknik och specialserum avlägsnar behandlingen oönskade pormaskar.';
 $seo_keywords = 'vakuumsug pormaskar, djuprengöring porer, återfuktning hudvård, Stockholm';
 
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar'),
-    new PathSegment('HydraFacial', '/hydrafacial.php'),
+    new PathSegment('Portömning med vakuumsug', '/vakuumsug-pormaskar.php'),
 );
 
 $model = new Service(
-    title: 'Vakuumsug Pormaskar',
+    title: 'Portömning med vakuumsug',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Vi suger ut pormaskarna effektivt med hjälp av vakuum, töm dina porer effektivt.</p>',
+    content: '<p class="p200">Vi suger ut pormaskarna effektivt med hjälp av vakuum. Med hjälp av avancerad vakuumteknik och skräddarsydda serum rensar behandlingen porerna på djupet, avlägsnar döda hudceller och återfuktar huden.</p>',
     image_small: 'bilder/varumarken/358x274/hydrafacial.webp',
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',
     image_alt: 'Vakuumsug Pormaskar',
@@ -75,8 +75,9 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är vakuumsugning av pormaskar?';
-$description_text = '<p class="p200">Vakuumsugning av pormaskar är en effektiv hudvårdsbehandling som djuprengör huden genom att kombinera rengöring, exfoliering, avlägsnande av orenheter och intensiv återfuktning. Behandlingen använder avancerad teknik för att skonsamt suga ut smuts, olja och döda hudceller från porerna samtidigt som den infuserar huden med närande ingredienser som antioxidanter, peptider och hyaluronsyra.</p>
-<p class="p200 mt-m">På vår klinik skräddarsys varje behandling för att möta specifika hudbehov, vilket gör det möjligt att effektivt adressera en rad hudbekymmer som åldrandetecken inklusive fina linjer och rynkor, acne, förstorade porer och ojämn hudton. Vakuumsugning av pormaskar förbättrar inte bara hudens yttre egenskaper genom att minska orenheter och främja en jämnare hudton, utan bidrar även till hudens övergripande välbefinnande genom att öka hydreringen. Denna behandling är idealisk för den som söker en omedelbar förbättring av hudens utseende utan någon återhämtningstid.</p>';
+$description_text = '<p class="p200">Portömning med vakuum är en modern och effektiv metod för att djuprengöra huden och bli av med oönskade pormaskar. En av de mest populära enheterna för detta ändamål är HydraFacial-maskinen, som använder vakuumteknik kombinerat med specialutformade serum för att rensa, exfoliera och återfukta huden.</p>
+<p class="p200 mt-m">HydraFacial-behandlingen börjar med en skonsam exfoliering som avlägsnar döda hudceller och öppnar upp porerna. Detta förberedande steg gör det möjligt för vakuumtekniken att arbeta mer effektivt. Efter exfolieringen använder HydraFacial-maskinen ett speciellt munstycke som skapar ett vakuum över huden. Detta vakuum suggerar varsamt ut smuts, olja och andra orenheter från porerna, inklusive envisa pormaskar. Det är denna process som är känd som portömning med vakuum.</p>
+<p class="p200 mt-m">Ett unikt drag hos HydraFacial-behandlingen är dess förmåga att samtidigt införa närande serum i huden. Medan vakuumet rensar porerna, levererar maskinen antioxidanter, hyaluronsyra och andra hudvårdande ämnen direkt till hudens djupare lager. Detta steg inte bara rengör huden på djupet utan bidrar också till att återfukta och revitalisera den, vilket ger en fräsch och ungdomlig lyster.</p>';
 
 $top_articles = array(
     'process' => new Article(
@@ -94,45 +95,9 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Olika metoder för vakuumsugning av pormaskar';
+$types_title = '';
 $types_description = '';
 $big_types = array(
-    new Service(
-        title: 'Vakuumsug - Standard',
-        duration: '40 min',
-        price: null,
-        content: '',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Vakuumsug - Standard',
-        image_title: 'Vakuumsug - Standard',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '3995 kr',
-                savings: 'Spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '5995 kr',
-                savings: 'Spara 1980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_5'
-            )
-        )
-    ),
     new Service(
         title: 'Vakuumsug mot pormaskar',
         duration: '40 min',
