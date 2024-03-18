@@ -10,8 +10,8 @@ $seo_keywords = 'laserbehandling, ansikte, kropp';
 $seo_image = '/images/treatments/large/laser.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Laser mot hudproblem', '/behandlingar/laser-mot-hudproblem/'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Laser mot hudproblem', '/hudbehandlingar/laser-mot-hudproblem/'),
 );
 
 $model = new Service(
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 4595 kr',
     content: '<p class="p200">Hos AcneSpecialisten använder vi en rad avancerade lasertekniker för att effektivt behandla en mängd hudproblem, vilket bidrar till märkbara förbättringar i hudens kvalitet och utseende.</p>',
-    image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/laser-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',

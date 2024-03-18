@@ -16,7 +16,7 @@ $image_alt = 'Bild som illustrerar acneärr';
 $image_title = 'Acneärr';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
 );
 
@@ -47,7 +47,7 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av acneär
 
 $headline01 = "01. Identifiera dina acneärr";
 
-$define_image = '/bilder/behandlingar/872x456/gratis-hudkonsultation.webp';
+$define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar acenärr?';
 $define_image_title = 'Hur vi tar bort och behandlar acneärr?';
 
@@ -71,8 +71,8 @@ $treat_url_title = 'klicka här för att se våra ärrbehandlingar';
 $services = array(
 
     new Service(
-        image_small: '/bilder/behandlingar/358x274/laser-mot-hudproblem.webp',
-        image_large: '/bilder/behandlingar/872x456/laser-mot-hudproblem.webp',
+        image_small: '/bilder/hudbehandlingar/358x274/laser-mot-hudproblem.webp',
+        image_large: '/bilder/hudbehandlingar/872x456/laser-mot-hudproblem.webp',
         image_title: 'Kund som genomgår laserbehandling mot acneärr',
         image_alt: 'Bild av laserbehandling mot acneärr hos Acnespecialisten',
         title: 'Laser mot acneärr',
@@ -93,8 +93,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: '/bilder/behandlingar/358x274/kemisk-peeling.webp',
-        image_large: '/bilder/behandlingar/872x456/kemisk-peeling.webp',
+        image_small: '/bilder/hudbehandlingar/358x274/kemisk-peeling.webp',
+        image_large: '/bilder/hudbehandlingar/872x456/kemisk-peeling.webp',
         image_title: 'Utförande av kemisk peelingbehandling för acneärr',
         image_alt: 'Bild på kemisk peelingbehandling mot acneärr hos Acnespecialisten',
         title: 'Kemisk peeling mot acneärr',
@@ -115,8 +115,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: '/bilder/behandlingar/358x274/microneedling.webp',
-        image_large: '/bilder/behandlingar/872x456/microneedling.webp',
+        image_small: '/bilder/hudbehandlingar/358x274/microneedling.webp',
+        image_large: '/bilder/hudbehandlingar/872x456/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för acneärr',
         image_alt: 'Bild på microneedlingbehandling mot acneärr hos Acnespecialisten',
         title: 'Microneedling mot acneärr',
