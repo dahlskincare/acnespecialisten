@@ -16,7 +16,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Hudterapeutens val',
+    title: 'Ansiktsbehandling - Hudterapeutens val',
     duration: '70 min',
     price: 'Från 1595 kr',
     content: '',
