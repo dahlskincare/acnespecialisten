@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Djuprengöring av Porer - Effektiv Behandling mot Pormaskar';
+$seo_title = 'Djuprengöring Ansikte | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi djuprengöring för att behandla pormaskar. Djupgående porrengöring för effektiv behandling. Boka tid hos oss idag →';
 $seo_keywords = 'djuprengöring av porer, effektiv porrengöring, behandling av pormaskar, AcneSpecialisten, klara porer, frisk hud, reducera pormaskar, hudvård, rena porer, skräddarsydd hudvård, hudens textur, minska synligheten av orenheter';
 
@@ -11,7 +11,7 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 
 $model = new Service(
-    title: 'Djuprengöring',
+    title: 'Djuprengöring Ansikte',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
