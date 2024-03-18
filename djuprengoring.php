@@ -14,7 +14,7 @@ $model = new Service(
     title: 'Djuprengöring Ansikte',
     duration: '60 min',
     price: 'Från 799 kr',
-    content: '<p class="p200">En behandling för dig som vill ta bort pormaskar eller balansera hudens talgproduktion genom att rengöra porerna. Behandlingen består av en djupgående portömning som öppnar upp och rensar porerna.</p>',
+    content: '<p class="p200">En djuprengörande behandling framtagen för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring av huden.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Djuprengöring',
