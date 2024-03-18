@@ -56,7 +56,7 @@ $nav_buttons = array(
       'reviews' => 'Omdömen',
       'faq' => 'FAQ',
       'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
+      'specialists' => 'Hudterapeuter',
 );
 
 $about_title = 'Om oönskat hår';
@@ -282,7 +282,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är laserhårborttagning säker för alla hudtyper?',
-                  text: '<p class="p200">Laserhårborttagning är säker för de flesta hudtyper, men det är viktigt att konsultera med en specialist för att bestämma den bästa typen av laser för din hudton och hårfärg. Vissa lasrar är mer lämpade för ljusare hud med mörkt hår, medan andra är säkrare för mörkare hudtyper. På AcneSpecialister har vi de senaste maskinerna som passar alla hudtoner och hårfärger som går att behandla.</p>'
+                  text: '<p class="p200">Laserhårborttagning är säker för de flesta hudtyper, men det är viktigt att konsultera med en specialist för att bestämma den bästa typen av laser för din hudton och hårfärg. Vissa lasrar är mer lämpade för ljusare hud med mörkt hår, medan andra är säkrare för mörkare hudtyper. På AcneSpecialisten har vi de senaste maskinerna som passar alla hudtoner och hårfärger som går att behandla.</p>'
             ),
             new Question(
                   title: 'Kan oönskat hår orsaka hudproblem?',
@@ -381,7 +381,7 @@ $specialists = array(
       )
 );
 
-$specialist_url_label = "Se alla specialister";
+$specialist_url_label = "Se alla hudterapeut";
 $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $brands = array(
@@ -591,7 +591,7 @@ $brands_url_title = "Varumärken för oönskat hår";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -602,7 +602,7 @@ $brands_url_title = "Varumärken för oönskat hår";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut"><?php echo $specialist_url_label ?></a>
                         </section>
 
                   </div>
