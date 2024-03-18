@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Hudterapeutens Val - Personlig Ansiktsbehandling';
-$seo_description = 'Ansiktsbehandling som är unikt anpassad av våra erfarna hudterapeuter baserat på din hudtyp och behov..';
+$seo_description = 'Ansiktsbehandling som är unikt anpassad av våra erfarna hudterapeuter baserat på din hudtyp och behov.';
 $seo_keywords = 'Hudterapeutens Val, skräddarsydd hudvård';
 
 $seo_image = '/bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp';
