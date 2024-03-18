@@ -159,7 +159,7 @@ $service_brands = array(
     ),
 );
 
-$results_title = 'MicroDermabrasion före och efter resultat';
+$results_title = 'Microdermabrasion före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
