@@ -506,7 +506,7 @@ $service_categories = array(
 );
 
 $path_segments = array(
-    new PathSegment('Hudbehandlingar', '/behandlingar.php'),
+    new PathSegment('Hudbehandlingar', '/hudbehandlingar'),
 );
 
 ?>
