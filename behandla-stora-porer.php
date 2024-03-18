@@ -31,7 +31,7 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister'
+    'specialists' => 'Hudterapeuter'
 );
 
 $about_title = 'Hur vi behandlar och minskar stora porer';
@@ -353,7 +353,7 @@ $specialists = array(
     )
 );
 
-$specialist_url_label = "Se alla specialister på stora porer";
+$specialist_url_label = "Se alla hudterapeuter på stora porer";
 $specialist_url_title = "Hudterapeuter Specialiserade på stora porer";
 
 $brands = array(
@@ -588,16 +588,16 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
                 <!--Hudguide-->
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Våra specialister</h2>
-                        <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
-                            <span class="l10n">Se alla specialister</span>
+                        <h2 class="big l10n">Våra hudterapeut</h2>
+                        <a href="/hudterapeut" title="Specialister" class="button compact text is-hidden-mobile">
+                            <span class="l10n">Se alla hudterapeut</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut"><?php echo $specialist_url_label ?></a>
                 </section>
             </div>
             <section id="brands">
