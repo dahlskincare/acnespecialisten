@@ -18,7 +18,7 @@ $model = new Service(
     title: 'CryoPen behandling i Stockholm',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">CryoPen är en skonsam frysbehandling för att snabbt och effektivt ta bort en rad hudförändringar, inklusive födelsemärken, hudflikar och leverfläckar.</p>',
+    content: '<p class="p200">Cryopen är ett alternativ för dig som vill ta bort leverfläckar, födelsemärken, skintags, fibrom, fettknölar, hemangiom och pigmentfläckar. Hos oss på Acnespecialisten kan du boka en kostnadsfri konsultation och göra CryoPen-behandlingar.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
     image_alt: 'CryoPen',
@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är CryoPen?';
-$description_text = '<p class="p200">CryoPen är en avancerad form av kryoterapi, en snabb och icke-invasiv metod för att avlägsna hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
+$description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 sekunder fryser bort godartade hudförändringar. Kryo betyder frysning och är en populär metod världen över. Behandlingen ger snabba resultat, är snäll mot huden och kan reducera många olika typer av hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
     <p class="p200 mt-m">Genom att rikta in sig på specifika områden med extrem kyla, kan CryoPen behandla hudförändringar effektivt utan att skada omgivande hud. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
 
 $top_articles = array(
