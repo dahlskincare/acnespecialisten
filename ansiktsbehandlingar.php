@@ -266,6 +266,9 @@ $big_types = array(
         booking_url: null,
         booking_url_label: null,
         booking_url_title: null,
+        url: '/porrengoring.php',
+        url_label: 'Läs mer om porrengöring',
+        url_title: 'Läs mer om porrengöring',
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
