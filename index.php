@@ -347,8 +347,8 @@
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Ansiktsbehandling',
-                                    image_small: 'bilder/behandlingar/114x140/ansiktsbehandlingar-mot-problemhy.webp',
-                                    image_large: 'bilder/behandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
+                                    image_small: 'bilder/hudbehandlingar/114x140/ansiktsbehandlingar-mot-problemhy.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
                                     image_title: 'Ansiktsbehandling',
                                     image_alt: 'Kvinna som får ansiktsbehandling i ansiktet.',
                                     url: 'problemhy.php',
@@ -358,8 +358,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Microneedling',
-                                    image_small: 'bilder/behandlingar/114x140/microneedling.webp',
-                                    image_large: 'bilder/behandlingar/424x324/microneedling.webp',
+                                    image_small: 'bilder/hudbehandlingar/114x140/microneedling.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/microneedling.webp',
                                     image_title: 'Ansiktsbehandling med microneedling.',
                                     image_alt: 'Kvinna som får microneedling behandling i ansiktet.',
                                     url: 'microneedling.php',
@@ -369,8 +369,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Laser',
-                                    image_small: 'bilder/behandlingar/114x140/laser-mot-problemhy.webp',
-                                    image_large: 'bilder/behandlingar/424x324/laser-mot-problemhy.webp',
+                                    image_small: 'bilder/hudbehandlingar/114x140/laser-mot-problemhy.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/laser-mot-problemhy.webp',
                                     image_title: 'Laserbehandling i ansiktet',
                                     image_alt: 'Närbild på person som får laserbehandling på kinden.',
                                     url: 'behandlingar/laser-mot-hudproblem',
@@ -380,8 +380,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Kemisk Peeling',
-                                    image_small: 'bilder/behandlingar/114x140/kemisk-peeling.webp',
-                                    image_large: 'bilder/behandlingar/424x324/kemisk-peeling.webp',
+                                    image_small: 'bilder/hudbehandlingar/114x140/kemisk-peeling.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/kemisk-peeling.webp',
                                     image_title: 'Ansiktsbehandling med kemisk peeling.',
                                     image_alt: 'Man som får kemisk peeling behandling i ansiktet.',
                                     url: 'kemisk-peeling.php',
@@ -391,8 +391,8 @@
                               ),
                               new AccordionItem(
                                     label: 'IPL',
-                                    image_small: 'bilder/behandlingar/114x140/ipl.webp',
-                                    image_large: 'bilder/behandlingar/424x324/ipl.webp',
+                                    image_small: 'bilder/hudbehandlingar/114x140/ipl.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/ipl.webp',
                                     image_title: 'IPL-behandling i ansiktet',
                                     image_alt: 'Kvinna som får IPL-behandling i ansiktet.',
                                     url: 'behandlingar/ipl',
@@ -402,8 +402,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Dermabrasion',
-                                    image_small: 'bilder/behandlingar/114x140/dermabrasion.webp',
-                                    image_large: 'bilder/behandlingar/424x324/dermabrasion.webp',
+                                    image_small: 'bilder/hudbehandlingar/114x140/dermabrasion.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/dermabrasion.webp',
                                     image_title: 'Ansiktsbehandling med HydraFacial',
                                     image_alt: 'Kvinna som får HydraFacial behandling i ansiktet.',
                                     url: 'behandlingar/dermabrasion',
@@ -413,8 +413,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Se alla behandlingar',
-                                    image_small: 'bilder/behandlingar/114x140/klassiska-ansiktsbehandlingar.webp',
-                                    image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
+                                    image_small: 'bilder/hudbehandlingar/114x140/klassiska-ansiktsbehandlingar.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
                                     image_title: 'Ansiktsbehandling',
                                     image_alt: 'Man som får ansiktsbehandling i ansiktet.',
                                     url: '/hudbehandlingar',
