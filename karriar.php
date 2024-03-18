@@ -4,9 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Karriär | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens karriär.">
-    <meta name="keywords" content="karriär">
+    <title>Vill du jobba som hudterapeut? - Lediga jobb</title>
+    <meta name="description" content="Se lediga tjänster hos oss på AcneSpecialisten. Vi söker dig som vill jobba heltid och deltid som hudterapeut hos oss.">
+    <meta name="keywords" content="Lediga jobb hudterapeut, Hudterapeut jobb">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
