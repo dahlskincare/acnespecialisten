@@ -10,7 +10,7 @@ $seo_keywords = 'ansiktsbehandling, ansiktsbehandling stockholm, ansiktsbehandli
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Ansiktsbehandlingar', '/ansiktsbehandlingar.php'),
 );
 
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 799 kr',
     content: '<p class="p200">Vi erbjuder ett brett utbud av klassiska ansiktsbehandlingar i Stockholm anpassade för varje individs unika behov. Vare sig du är ute efter att ge din mogna hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
-    image_small: 'bilder/behandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
-    image_large: 'bilder/behandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',

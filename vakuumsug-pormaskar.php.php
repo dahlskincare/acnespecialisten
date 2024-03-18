@@ -10,7 +10,7 @@ $seo_keywords = 'vakuumsug pormaskar, djuprengöring porer, återfuktning hudvå
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('HydraFacial', '/hydrafacial.php'),
 );
 

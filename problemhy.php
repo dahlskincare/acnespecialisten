@@ -10,7 +10,7 @@ $seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, behandla problemhy'
 $seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Problemhy', '/problemhy.php'),
 );
 

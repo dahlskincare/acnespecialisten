@@ -10,7 +10,7 @@ $seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Milier behandling', '/milierbehandling.php'),
 );
 
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '60 min',
     price: 'Från 1295 kr',
     content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att du får bort milier på ett säkert och effektivt sätt.</p>',
-    image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar mot milier',
     image_title: 'Ansiktsbehandlingar mot milier',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',

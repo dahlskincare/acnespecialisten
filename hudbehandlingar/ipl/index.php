@@ -10,8 +10,8 @@ $seo_keywords = 'IPL ehandling, Intensivt Pulserande Ljus, IPL Stockholm, Vad ä
 $seo_image = '/images/treatments/large/ipl.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('IPL', '/behandlingar/ipl/'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('IPL', '/hudbehandlingar/ipl/'),
 );
 
 $model = new Service(
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Vi erbjuder den bästa IPL-behandlingen för effektiv hudföryngring i Stockholm. Vår expertis och avancerade teknik garanterar resultat som förbättrar hudens utseende och kvalitet. Oavsett om du söker permanenta lösningar för pigmentfläckar, ytliga kärl eller ojämn hudton, är vår IPL-behandling anpassad för att möta dina behov.</p>',
-    image_small: 'bilder/behandlingar/358x274/ipl.webp',
-    image_large: 'bilder/behandlingar/424x456/ipl.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
     image_alt: 'IPL',
     image_title: 'IPL',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
