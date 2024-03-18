@@ -87,10 +87,10 @@
                                 <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
-                                <a href="hudproblem.php" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
+                                <a href="hudproblem" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
                             </li>
                             <li>
-                                <a href="behandlingar.php" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
+                                <a href="hudbehandlingar" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
                             </li>
                             <li>
                                 <a href="varumarken" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
@@ -144,7 +144,7 @@
                                     <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                 </li>
                                 <li>
-                                    <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a>
+                                    <a href="hudterapeut" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
                                 </li>
                                 <li>
                                     <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Se våra lediga tjänster" rel="nofollow" class="button text grey compact l10n">Karriär</a>
@@ -335,10 +335,10 @@
                                             <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
                                         </li>
                                         <li>
-                                            <a href="hudproblem.php" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
+                                            <a href="hudproblem" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
                                         </li>
                                         <li>
-                                            <a href="behandlingar.php" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
+                                            <a href="hudbehandlingar" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
                                         </li>
                                         <li>
                                             <a href="varumarken" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
@@ -389,7 +389,7 @@
                                             <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="specialister" class="button text grey compact l10n" title="Se alla våra specialister och hudterapeuter">Våra specialsiter</a>
+                                            <a href="hudterapeut" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
                                         </li>
                                         <li>
                                             <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Se våra lediga tjänster" rel="nofollow" class="button text grey compact l10n">Karriär</a>

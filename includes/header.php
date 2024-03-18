@@ -8,8 +8,8 @@
             <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
         <div id="mobile-nav-links">
-            <a href="hudproblem.php" class="mobile-nav-link l10n" title="Hudproblem">Hudproblem</a>
-            <a href="behandlingar.php" class="mobile-nav-link l10n" title="Behandlingar">Behandlingar</a>
+            <a href="hudproblem" class="mobile-nav-link l10n" title="Hudproblem">Hudproblem</a>
+            <a href="hudbehandlingar" class="mobile-nav-link l10n" title="Hudbehandlingar">Behandlingar</a>
             <a href="resultat.php" class="mobile-nav-link l10n" title="Resultat">Resultat</a>
             <a href="varumarken" class="mobile-nav-link l10n" title="Varumärken">Varumärken</a>
             <a href="metoden.php" class="mobile-nav-link l10n" title="Vår metod">Vår metod</a>
@@ -49,7 +49,7 @@
                 <div class="ep-content">
                     <a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                     <a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
-                    <a href="specialister" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a>
+                    <a href="hudterapeut" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeut</a>
                     <a href="https://skonhetsgruppen.teamtailor.com" rel="nofollow" title="Se våra lediga tjänster" target="_blank" class="l10n">Karriär</a>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                             <li class="l10n">Företag</li>
                             <li><a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a></li>
                             <li><a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a></li>
-                            <li><a href="specialister" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra specialister</a></li>
+                            <li><a href="hudterapeut" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeuter</a></li>
                             <li><a href="https://skonhetsgruppen.teamtailor.com" target="_blank" rel="nofollow" title="Se våra lediga tjänster" class="l10n">Karriär</a></li>
                         </ul>
                     </div>
@@ -136,8 +136,8 @@
                 </a>
                 <nav>
                     <ul>
-                        <li><a href="hudproblem.php" class="h100 l10n" title="Hudproblem">Hudproblem</a></li>
-                        <li><a href="behandlingar.php" class="h100 l10n" title="Behandlingar">Behandlingar</a></li>
+                        <li><a href="hudproblem" class="h100 l10n" title="Hudproblem">Hudproblem</a></li>
+                        <li><a href="hudbehandlingar" class="h100 l10n" title="Hudbehandlingar">Behandlingar</a></li>
                         <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
                         <li><a href="resultat.php" class="h100 l10n" title="Resultat">Resultat</a></li>
                         <li><a href="metoden.php" class="h100 l10n" title="Vår metod">Vår metod</a></li>
