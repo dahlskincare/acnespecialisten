@@ -79,22 +79,6 @@ $description_text = '<p class="p200">Portömning med vakuum är en modern och ef
 <p class="p200 mt-m">HydraFacial-behandlingen börjar med en skonsam exfoliering som avlägsnar döda hudceller och öppnar upp porerna. Detta förberedande steg gör det möjligt för vakuumtekniken att arbeta mer effektivt. Efter exfolieringen använder HydraFacial-maskinen ett speciellt munstycke som skapar ett vakuum över huden. Detta vakuum suggerar varsamt ut smuts, olja och andra orenheter från porerna, inklusive envisa pormaskar. Det är denna process som är känd som portömning med vakuum.</p>
 <p class="p200 mt-m">Ett unikt drag hos HydraFacial-behandlingen är dess förmåga att samtidigt införa närande serum i huden. Medan vakuumet rensar porerna, levererar maskinen antioxidanter, hyaluronsyra och andra hudvårdande ämnen direkt till hudens djupare lager. Detta steg inte bara rengör huden på djupet utan bidrar också till att återfukta och revitalisera den, vilket ger en fräsch och ungdomlig lyster.</p>';
 
-$top_articles = array(
-    'process' => new Article(
-        title: 'Hur fungerar en vakuumsugning för pormaskar?',
-        image_small: '/bilder/process/358x272/hydrafacial-process.webp',
-        image_large: '/bilder/process/872x456/hydrafacial-process.webp',
-        image_alt: 'Behandlingsprocessen för vakuumsug av pormaskar',
-        image_title: 'Behandlingsprocessen för vakuumsug av pormaskar',
-        content: '<p class="p200">Behandlingen med vakuumsug för pormaskar följer en noggrant planerad process som går igenom flera steg för att djuprengöra och återfukta huden.</p>
-    <p class="p200 mt-m">Steg 1 - Djuprengöring och Exfoliering<br /> Behandlingen inleds med en djupgående rengöring följt av en skonsam exfoliering. Detta förbereder huden genom att öppna upp porerna och ta bort döda hudceller, vilket gör den redo för nästa fas.</p>
-    <p class="p200 mt-m">Steg 2 - Mild Peeling<br /> Här appliceras en mild peeling som syftar till att lösa upp orenheter och smuts inuti porerna utan att irritera huden.</p>
-    <p class="p200 mt-m">Steg 3 - Extraktion av Orenheter<br /> Med hjälp av specifik vakuumsugningsteknik rensas porerna från djupet och orenheter samt överflödigt sebum extraheras effektivt, vilket bidrar till en klarare och mer jämn hudton.</p>
-    <p class="p200 mt-m">Steg 4 - Intensiv Återfuktning<br /> Slutligen får huden en riklig återfuktning genom en infusion av närande ingredienser som antioxidanter och hyaluronsyra. Denna fas av behandlingen ger intensiv hydrering och näringsboost, vilket stärker hudens skyddsbarriär och lämnar den mjuk och återfuktad.</p>
-    <p class="p200 mt-m">Varje steg i denna behandling är designat för att maximera hudens hälsa och lyster, erbjuder en omfattande vård som inte bara förbättrar hudens utseende utan också dess kvalitet utan någon nedtid.</p>',
-    ),
-);
-
 $types_title = '';
 $types_description = '';
 $big_types = array(
@@ -134,31 +118,6 @@ $big_types = array(
                 booking_url: 'https://acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_5'
             )
         )
-    ),
-);
-
-$bottom_articles = array(
-    'preparing' => new Article(
-        title: 'Inför din vakuumsugningsbehandling mot pormaskar',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Inför en vakuumsugningsbehandling mot pormaskar',
-        image_title: 'Inför en vakuumsugningsbehandling mot pormaskar',
-        content: '<p class="p200">För att din hud ska vara optimalt förberedd inför en vakuumsugningsbehandling mot pormaskar, är det viktigt att följa några förberedande steg. Dessa inkluderar att undvika:</p>
-        <p class="p200 mt-m">- Användning av starka syror och intensiva exfolierande behandlingar under de två veckorna före din behandling.</p>
-        <p class="p200 mt-m">- Direkt solljussexponering minst tre dygn innan din behandling.</p>
-        <p class="p200 mt-m">- Användning av kraftfulla hudvårdsprodukter två dagar före din behandling.</p>',
-    ),
-    'aftercare' => new Article(
-        title: 'Eftervård för vakuumsugning mot pormaskar',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Eftervård för vakuumsugning mot pormaskar',
-        image_title: 'Eftervård för vakuumsugning mot pormaskar',
-        content: '<p class="p200">Efter att ha genomgått en vakuumsugningsbehandling mot pormaskar kommer du att märka en omedelbar förbättring av hudens renhet och lyster. För att maximera behandlingens resultat och minimera irritation, är det viktigt att:</p>
-        <p class="p200 mt-m">- Undvika solen i minst 72 timmar för att skydda din behandlade hud.</p>
-        <p class="p200 mt-m">- Avstå från att använda starka hudvårdsprodukter under de första 48 timmarna efter behandlingen, för att ge din hud chans att återhämta sig naturligt.</p>
-        <p class="p200 mt-m">Att följa dessa enkla riktlinjer hjälper till att säkerställa optimal återhämtning för din hud efter behandlingen, och du kommer att kunna njuta av dina resultat längre.</p>',
     ),
 );
 
@@ -559,13 +518,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
-                <?php foreach ($top_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
-                <?php } ?>
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
                         <h2 class="h500"><?php echo $types_title; ?></h2>
@@ -622,13 +574,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         } ?>
                     </section>
 
-                <?php } ?>
-                <?php foreach ($bottom_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
                     <section id="service-brands" class="large-margin">
