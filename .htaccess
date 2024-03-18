@@ -253,9 +253,9 @@ Redirect 301 /strandvagen.php /kontakt.php
 Redirect 301 /sunscreen.php /ordlista.php
 Redirect 301 /rekrytering.php /karriar.php
 Redirect 301 /jobb.php /karriar.php
+Redirect 301 /jobba.php /karriar.php
 
 Redirect 301 /ipl.php /behandlingar/ipl/index.php
-Redirect 301 /jobba.php /jobb.php
 Redirect 301 /hydrafacial.html /hydrafacial.php
 Redirect 301 /microneedling.html /microneedling.php
 Redirect 301 /micro-dermabrasion.html /microdermabrasion.php
