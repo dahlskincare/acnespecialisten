@@ -395,7 +395,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/ipl.webp',
                                     image_title: 'IPL-behandling i ansiktet',
                                     image_alt: 'Kvinna som får IPL-behandling i ansiktet.',
-                                    url: 'behandlingar/ipl',
+                                    url: 'hudbehandlingar/ipl',
                                     url_title: 'Läs mer och boka tid för IPL.',
                                     show_on_large: true,
                                     show_on_small: true,
@@ -406,7 +406,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/dermabrasion.webp',
                                     image_title: 'Ansiktsbehandling med HydraFacial',
                                     image_alt: 'Kvinna som får HydraFacial behandling i ansiktet.',
-                                    url: 'behandlingar/dermabrasion',
+                                    url: 'hudbehandlingar/dermabrasion',
                                     url_title: 'Läs mer och boka tid för dermabrasion.',
                                     show_on_large: false,
                                     show_on_small: true
