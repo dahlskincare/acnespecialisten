@@ -9,7 +9,6 @@ $seo_keywords = 'porrengöring, behandling av pormaskar, effektiv portömning, h
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
-
 $model = new Service(
     title: 'Porrengöring',
     duration: '60 min',
