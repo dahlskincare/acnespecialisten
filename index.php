@@ -168,7 +168,7 @@
                                     image_large: 'bilder/hudproblem/424x324/other.webp',
                                     image_title: 'Person med allmänna hudproblem',
                                     image_alt: 'Närbild på person som har allmänna hudproblem i ansiktet.',
-                                    url: 'hudproblem.php',
+                                    url: '/hudproblem',
                                     url_title: 'Läs mer information om alla typer av hudproblem.',
                                     show_on_large: true,
                                     show_on_small: false
@@ -177,7 +177,7 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="hudproblem.php" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
+                        <a href="/hudproblem" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
@@ -202,7 +202,7 @@
                                     title: 'Behandla',
                                     content: 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.',
                                     button_label: 'Våra behandlingar',
-                                    button_url: 'behandlingar.php',
+                                    button_url: '/hudbehandlingar',
                                     button_url_title: 'Boka en behandling',
                               ),
                               new ApproachCard(
@@ -417,7 +417,7 @@
                                     image_large: 'bilder/behandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
                                     image_title: 'Ansiktsbehandling',
                                     image_alt: 'Man som får ansiktsbehandling i ansiktet.',
-                                    url: 'behandlingar.php',
+                                    url: '/hudbehandlingar',
                                     url_title: 'Se alla våra behandlingar.',
                                     show_on_large: true,
                                     show_on_small: false
@@ -427,7 +427,7 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="behandlingar.php" title="Behandlingar" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
+                        <a href="/hudbehandlingar" title="Behandlingar" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
                   </section>
 
                   <section id="faq">
@@ -443,7 +443,7 @@
                                     'Generellt' => array(
                                           new Question(
                                                 title: 'Behandlar AcneSpecialisten enbart akne?',
-                                                text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="hudproblem.php">hudproblemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
+                                                text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="/hudproblem">hudproblemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
                                           ),
                                           new Question(
                                                 title: 'Kan jag besöka AcneSpecialisten även för mindre hudproblem?',

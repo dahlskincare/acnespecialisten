@@ -7,7 +7,7 @@ $seo_title = 'Effektiva Ansiktsbehandlingar för Problemhy';
 $seo_description = 'Upptäck skräddarsydda ansiktsbehandlingar för problemhy som akne, rosacea, och mer. Få klarare hud med våra expertanpassade lösningar. Boka din tid idag!';
 $seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, behandla problemhy';
 
-$seo_image = 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/behandlingar.php'),
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '60 min',
     price: 'Från 999 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
@@ -130,7 +130,7 @@ $types = array(
         booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
 
         url_label: 'Läs mer om ansiktsbehandling mot akne',
-        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
+        url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
         url_title: 'Läs mer om ansiktsbehandling mot akne',
     ),
     new Service(
@@ -170,7 +170,7 @@ $types = array(
         booking_url_title: 'Boka en Ansiktsbehandling för Rosacea',
 
         url_label: 'Läs mer om ansiktsbehandling mot rosacea',
-        url: '/behandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
+        url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
         url_title: 'Läs mer om ansiktsbehandling mot rosacea',
     ),
 

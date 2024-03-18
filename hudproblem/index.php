@@ -49,7 +49,7 @@ class Problem
 
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
 );
 
 $green_banner_content = new GreenBannerContent(
