@@ -86,8 +86,7 @@ $big_types = array(
         title: 'Vakuumsug mot pormaskar',
         duration: '40 min',
         price: null,
-        content: '<p class="p200">Vakuumsug kombinerat med Glycal Acid Peel är en specialdesignad behandling för att målinriktat bekämpa hudproblem som pormaskar. Genom att djuprengöra huden och specifikt rikta in sig på att minska överproduktionen av talg, tar denna anpassade behandling itu med en av de främsta orsakerna till dessa vanliga hudtillstånd.</p>
-        <p class="p200 mt-m">Om du letar efter en grundlig lösning för dina hudproblem, är Glycal Acid Peel det perfekta valet. Denna behandling erbjuder mer än bara en yttre rengöring; den arbetar intensivt för att rena huden inifrån och ut. Efter behandlingen kommer du att märka en betydande förbättring – en renare, fräschare hud som ser och känns förnyad, befriad från de mest typiska tecknen på pormaskar.</p>',
+        content: '',
         image_small: null,
         image_large: null,
         image_alt: 'Vakuumsug mot pormaskar',
