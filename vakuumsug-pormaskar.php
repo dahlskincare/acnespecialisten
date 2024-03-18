@@ -270,31 +270,6 @@ $reviews = array(
 );
 $reviews_view_more = 'Se alla omdömen';
 
-$faq_title = 'Frågor & Svar';
-$faq_categories = array(
-    '' => array(
-        new Question(
-            title: 'Hur lång tid tar det att se resultat efter en behandling med vakuumsug mot pormaskar?',
-            text: 'Resultaten från en behandling med vakuumsug mot pormaskar kan ofta ses omedelbart efter behandlingen, där många upplever en minskning av pormaskar och en renare hud. För att uppnå och upprätthålla optimala resultat rekommenderas regelbundna behandlingar anpassade efter individens hudbehov.'
-        ),
-        new Question(
-            title: 'Är det säkert att göra behandlingar med vakuumsug mot pormaskar regelbundet?',
-            text: 'Ja, behandlingar med vakuumsug mot pormaskar är säkra och skonsamma och kan utföras regelbundet. De är utformade för att vara skonsamma mot huden samtidigt som de erbjuder effektiva resultat, vilket gör dem till en idealisk lösning för kontinuerlig hudvård och underhåll.'
-        ),
-        new Question(
-            title: 'Kan behandlingar med vakuumsug mot pormaskar hjälpa mot specifika hudproblem?',
-            text: 'Ja, behandlingar med vakuumsug mot pormaskar är effektiva för en mängd olika hudproblem, inklusive pormaskar, orenheter och överflödigt talg. Behandlingen är anpassningsbar, vilket gör det möjligt att rikta in sig på specifika problemområden och hudtillstånd.'
-        ),
-        new Question(
-            title: 'Vilka är de främsta fördelarna med behandlingar med vakuumsug mot pormaskar jämfört med andra hudvårdsbehandlingar?',
-            text: 'Behandlingar med vakuumsug mot pormaskar utmärker sig genom sin förmåga att djuprengöra huden och avlägsna orenheter effektivt. Deras unika teknik och skonsamma natur gör dem lämpliga för en rad olika hudtyper och problem, med mindre risk för irritation jämfört med mer aggressiva behandlingar.'
-        ),
-    )
-);
-
-
-$faq_view_more = 'Se alla frågor & svar';
-
 $skin_guide_title = 'Hudguiden';
 $skin_guide_articles = array(
     new SkinGuideArticle(
@@ -612,11 +587,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
-                </section>
-                <section id="faq" class="large-margin">
-                    <h2 class="big l10n"><?php echo $faq_title ?></h2>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
                 <!--Hudguide-->
                 <section id="specialists" class="large-margin">
