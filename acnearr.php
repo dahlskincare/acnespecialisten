@@ -12,7 +12,7 @@ $seo_keywords = 'acneärr, acneärr Stockholm, acneärr gropar, orsaker till acn
 $title = 'Acneärr';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Acneärr', '/acnearr.php'),
 );
 

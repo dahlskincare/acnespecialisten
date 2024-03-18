@@ -14,7 +14,7 @@ $seo_keywords = 'akne, vad är akne, orsaker till akne, varför får man akne, v
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Akne', '/acne.php'),
 );
 
