@@ -62,12 +62,12 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister',
+    'specialists' => 'Hudterapeuter',
     'service-brands' => 'Märken',
 );
 
 $description_title = 'Djuprengöring mot pormaskar';
-$description_text = '<p class="p200">Våra djuprengöringsbehandlingar är en avancerad form av porrengöring som specifikt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och sundare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjlig gör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
+$description_text = '<p class="p200">Våra djuprengöring är en specialiserad form av porrengöring som specifikt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och sundare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjlig gör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
 <p class="p200 mt-m">Anpassade för olika hudtyper, inklusive oljig, torr och blandhud, strävar våra djuprengöringsbehandlingar efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
 
 
@@ -657,7 +657,7 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">
