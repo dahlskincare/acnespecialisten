@@ -556,7 +556,7 @@ $path_segments = array(
                 <div class="columns is-multiline is-variable is-3">
                     <?php foreach ($service_categories as $category) { ?>
                         <div class="column is-one-third">
-                            <?php include('/hudbehandlingar/widgets/service-category-card/service-category-card.php') ?>
+                            <?php include('widgets/service-category-card/service-category-card.php') ?>
                         </div>
                     <?php } ?>
                 </div>
