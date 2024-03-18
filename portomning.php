@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Portömning i Stockholm - Töm dina porer effektivt';
 $seo_description = 'Portömning är en specialisterad ansiktsbehandling som djuprengör och tömmer porerna för att bli av med pormaskar, finnar och acne.';
-$seo_keywords = 'ansiktsbehandlingar mot pormaskar, portömning, rengöring av pormaskar, behandling av pormaskar, pormaskrengöring, klara porer, djuprengöring av huden, förebygga pormaskar, minska pormaskar, rena porer';
+$seo_keywords = 'portömning, portömning stockholm';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
