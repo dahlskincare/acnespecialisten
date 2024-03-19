@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'CryoPen Behandling i Stockholm - Effektiv frysbehandling';
-$seo_description = 'Upptäck CryoPen Behandling – effektiv frysbehandling på att säkert ta bort leverfläckar, födelsemärken med precision. Boka en gratis konsultation idag';
-$seo_keywords = 'CryoPen, CryotPen behandling, Stockholm';
+$seo_title = 'CryoPen – Ta bort leverfläckar & Födelsemärken';
+$seo_description = 'En CryoPen behandling är effektiv och fryser bort godartade hudförändringar som leverfläckar, födelsemärken, hudflikar & fibrom. Boka gratis konsultation';
+$seo_keywords = 'cryopen, cryopen behandling, cryopen stockholm, cryopen före efter';
 
 $seo_image = 'images/treatments/large/cryopen.webp';
 
@@ -112,9 +112,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för leverfläckar',
 
-        url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url: '/fodelsemarken.php',
+        url_label: 'Läs mer om leverfläckar',
+        url_title: 'Läs mer om leverfläckar',
     ),
     new Service(
         title: 'CryoPen mot hudflikar',
@@ -152,9 +152,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för hudflikar',
 
-        url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url: '/hudflikar.php',
+        url_label: 'Läs mer om hudflikar',
+        url_title: 'Läs mer om hudflikar',
     ),
     new Service(
         title: 'CryoPen mot Hallonmärke - Jordgubbsmärke - Smultronmärke',
@@ -173,8 +173,8 @@ $types = array(
         booking_url_title: 'Boka CryoPen för kärlförändringar',
 
         url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url_label: 'Läs mer om hallonmärken, jordgubbsmärken och smultronmärken',
+        url_title: 'Läs mer om hallonmärken, jordgubbsmärken och smultronmärken',
     ),
     new Service(
         title: 'CryoPen mot hemangiom',
@@ -193,8 +193,8 @@ $types = array(
         booking_url_title: 'Boka CryoPen för hemangiom',
 
         url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url_label: 'Läs mer om hemangiom',
+        url_title: 'Läs mer om hemangiom',
     ),
     new Service(
         title: 'CryoPen mot åldersfläckar',
@@ -212,9 +212,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för åldersfläckar',
 
-        url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url: '/aldersflackar.php',
+        url_label: 'Läs mer om åldersfläckar',
+        url_title: 'Läs mer om åldersfläckar',
     ),
     new Service(
         title: 'CryoPen mot fibrom',
@@ -233,8 +233,8 @@ $types = array(
         booking_url_title: 'Boka CryoPen för fibrom',
 
         url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url_label: 'Läs mer om fibrom',
+        url_title: 'Läs mer om fibrom',
     ),
     new Service(
         title: 'CryoPen mot seborroisk keratos',
@@ -253,8 +253,8 @@ $types = array(
         booking_url_title: 'Boka CryoPen för seborroisk keratos',
 
         url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url_label: 'Läs mer om seborroisk keratos',
+        url_title: 'Läs mer om seborroisk keratos',
     ),
     new Service(
         title: 'CryoPen mot ansiktsvårtor',
@@ -273,8 +273,8 @@ $types = array(
         booking_url_title: 'Boka CryoPen för ansiktsvårtor',
 
         url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url_label: 'Läs mer om ansiktsvårtor',
+        url_title: 'Läs mer om ansiktsvårtor',
     ),
 );
 
@@ -541,6 +541,19 @@ $faq_categories = array(
         new Question(
             title: 'Hur vet jag om min hudförändring är godartad?',
             text: '<p class="p200">Vi på AcneSpecialisten har tyvärr inte möjlighet att undersöka hudförändringar. Vi behandlar enbart godartade. Är du osäker på om din hudförändring är godartad rekommenderar vi att du först ser till att få den bedömd av en läkare.</p>'
+        ),
+        new Question(
+            title: 'Kan man ta bort och frysa bort födelsemärken själv?',
+            text: '<p class="p200">Nej, det rekommenderas inte att man försöker ta bort eller frysa bort födelsemärken själv. Födelsemärken kan variera stort i form, storlek och djup, och det krävs rätt bedömning för att avgöra den mest lämpliga behandlingen. Att använda produkter som CryoPen hemma utan tillräcklig kunskap eller erfarenhet kan leda till oönskade resultat, inklusive infektion, ärrbildning eller i värsta fall missa en diagnos av hudcancer. Professionell bedömning av en hudläkare eller certifierad specialist är avgörande för en säker och effektiv borttagning av födelsemärken.</p>'
+        ),
+        new Question(
+            title: 'CryoPen biverkningar?',
+            text: '<p class="p200">Användning av CryoPen för att frysa bort hudförändringar är en generellt säker metod, men som med alla medicinska ingrepp kan det finnas potentiella biverkningar. Dessa kan inkludera:</p>
+            <p class="p200 mt-xl">Mild smärta eller obehag under behandlingen, liknande en stickande eller brännande känsla.</p>
+            <p class="p200 mt-xl">Rödhet, svullnad, och blåsor kan uppstå på behandlingsområdet, vilka vanligtvis läker inom några dagar.</p>
+            <p class="p200 mt-xl">Ärrbildning, även om detta är mindre vanligt, kan vissa personer utveckla ärr på behandlingsområdet, speciellt om eftervården inte följs som rekommenderat.</p>
+            <p class="p200 mt-xl">Pigmentförändringar, såsom hypopigmentering (blekare hud) eller hyperpigmentering (mörkare hud), kan förekomma, särskilt hos personer med mörkare hudtoner. Dessa förändringar är oftast tillfälliga men kan vara permanenta i vissa fall.</p>
+            <p class="p200 mt-xl">Det är viktigt att följa alla eftervårdsinstruktioner från din behandlare för att minimera risken för biverkningar och säkerställa en säker läkningsprocess. Om du upplever några oväntade symtom efter behandling med CryoPen, bör du omedelbart kontakta din vårdgivare.</p>'
         ),
     )
 );
