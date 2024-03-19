@@ -12,7 +12,7 @@ $seo_keywords = 'mogen hy, orsaker till mogen hy, förebygga ålderstecken, hud�
 $title = 'Mogen Hy';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Mogen hy', '/mogen-hy.php'),
 );
 

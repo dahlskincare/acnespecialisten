@@ -11,7 +11,7 @@ $seo_keywords = 'behandling av operationsärr, skadeärrbehandling, metod för s
 $seo_image = '/bilder/hudproblem/424x456/arr.webp';
 
 $path_segments = array(
-    new PathSegment('Hudproblem', '/hudproblem.php'),
+    new PathSegment('Hudproblem', '/hudproblem'),
     new PathSegment('Operations- och Skadeärr', '/hudproblem/operations-skadearr'),
     new PathSegment('Behandla Operations- och Skadeärr', '/hudproblem/operations-skadearr/behandla-operations-skadearr'),
 );

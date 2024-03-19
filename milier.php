@@ -12,7 +12,7 @@ $seo_keywords = 'milier, orsaker till milier, förebygga milier, ta bort milier'
 $title = 'Milier i ansiktet';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Milier', '/milier.php'),
 );
 
