@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Bästa IPL behandling i Stockholm - Effektiv Hudförbättring';
 $seo_description = 'Upptäck Stockholms ledande klinik för IPL-behandlingar. Våra hudterapeuter erbjuder skräddarsydda lösningar för hudföryngring, pigmentering, och mer.';
-$seo_keywords = 'IPL ehandling, Intensivt Pulserande Ljus, IPL Stockholm, Vad är IPL?';
+$seo_keywords = 'ipl, ipl laser, ipl behandling, ipl ansikte';
 
 $seo_image = '/images/treatments/large/ipl.webp';
 
@@ -419,6 +419,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'IPL före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -565,7 +566,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur fungerar IPL?',
-            text: '<p class="p200">IPL, eller Intensivt Pulsat Ljus, fungerar genom att använda ett brett spektrum av ljus för att målriktat behandla olika hudtillstånd. Till skillnad från laser som använder en specifik våglängd, skickar IPL ut ljus i flera våglängder som kan tränga igenom olika djup av huden. Detta gör IPL till en mångsidig behandling som kan anpassas för att adressera en rad olika hudproblem, inklusive pigmentfläckar, ytliga blodkärl, och hudföryngring genom att stimulera kollagenproduktionen.</p>'
+            text: '<p class="p200">IPL, eller Intensivt Pulsat Ljus, kan liknas vid laser men använder ett brett spektrum av ljus för att målriktat behandla olika hudtillstånd. Till skillnad från laser som använder en specifik våglängd, skickar IPL ut ljus i flera våglängder som kan tränga igenom olika djup av huden. Detta gör IPL till en mångsidig behandling som kan anpassas för att adressera en rad olika hudproblem, inklusive pigmentfläckar, ytliga blodkärl, och hudföryngring genom att stimulera kollagenproduktionen.</p>'
         ),
         new Question(
             title: 'Hur många IPL-behandlingar behövs?',
