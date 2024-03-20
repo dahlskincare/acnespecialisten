@@ -6,9 +6,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Elevbehandlingar - AcneSpecialisten | Din Partner i Hudvård</title>
-    <meta name="description" content="Här hittar du alla behandlingar som utförs av våra duktiga elever.">
-    <meta name="keywords" content="elevbehandlingar">
+    <title>Elevbehandling Ansiktsbehandling Stockholm</title>
+    <meta name="description" content="Upptäck elevbehandlingar i Stockholm: Professionella ansiktsbehandlingar utförda av våra skickliga elever. Kvalitet till ett förmånligt pris.">
+    <meta name="keywords" content="elevbehandlingar, elevbehandlingar stockholm, elevbehandling ansiktsbehandling stockholm">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
