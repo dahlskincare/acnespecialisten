@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Kemisk Peeling - Effektiva Hudförbättrande Behandlingar';
-$seo_description = 'Behandla och förbättra hudens utseende och hälsa. Våra anpassade syror behandlar allt från akne och mogen hy till pigmenteringar. Boka en gratis konsultation!';
+$seo_title = 'Kemisk peeling Stockholm | AcneSpecialisten';
+$seo_description = 'Vi erbjuder kemisk peeling med olika behandlingsmetoder. ✓BHA ✓AHA ✓TCA – Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
 $seo_keywords = 'kemisk peeling, stockholm';
 
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
@@ -669,7 +669,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Är kemisk peeling lämplig för alla hudtyper?',
-            text: '<p class="p200">Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat.</p>'
+            text: '<p class="p200">Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat. Dock är det viktigt att veta att det inte går att utföra kemisk peeling under graviditet eller amning på grund av risken för pigmentfläckar.</p>'
         ),
         new Question(
             title: 'Kan kemisk peeling hjälpa till med acneärr och pigmentfläckar?',
@@ -691,6 +691,11 @@ $faq_categories = array(
             <p class="p200 mt-m">Torhet:<br />Din hud kan kännas ovanligt torr och stram efter behandlingen, vilket kan hanteras med återfuktande produkter rekommenderade av din hudvårdsspecialist.</p>
             <p class="p200 mt-m">Känslighet mot solen:<br />Efter en kemisk peeling är huden mer känslig för solen, vilket gör det viktigt att använda solskydd med hög SPF och undvika direkt solljus under de första veckorna efter behandlingen.</p>
             <p class="p200 mt-m">Självklart hjälper vi dig alltid att anpassa behandlingen efter dina behov och minimera risken för biverkningar.</p>'
+        ),
+        new Question(
+            title: 'Vilken är den starkaste aha syran?',
+            text: '<p class="p200">Den starkaste AHA-syran vi använder på vår klinik är Easy Phytic Peel. Detta är en professionell peeling som innehåller en kraftfull kombination av AHA-syror, designad för att ge djupgående exfoliering och stimulera hudens förnyelseprocess. Det unika med Easy Phytic Peel är dess förmåga att verka effektivt utan att orsaka irritation, vilket gör den till ett utmärkt val för de som söker märkbara resultat.</p>
+            <p class="p200 mt-m">Det är viktigt att veta att AHA-syror som används på hudvårdskliniker generellt är starkare än de produkter som är avsedda för hemmabruk. Professionella behandlingar är utformade för att utföras av utbildade specialister som kan anpassa behandlingen efter individens hudtyp och behov, samtidigt som de säkerställer optimal säkerhet och effektivitet. Denna nivå av anpassning och styrka i behandlingen bidrar till mer påtagliga och långvariga resultat jämfört med hemmaprodukter.</p>'
         ),
     )
 );
