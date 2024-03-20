@@ -669,7 +669,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Är kemisk peeling lämplig för alla hudtyper?',
-            text: '<p class="p200">Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat. Dock är det viktigt att veta att det inte går att utföra kemisk peeling under graviditet eller amning på grund av risken för pigmentfläckar.</p>'
+            text: '<p class="p200">Ja, vi erbjuder olika typer av kemiska peelings som är anpassade för olika hudtyper. Vi anpassar varje behandling individuellt för att säkerställa att den passar dina hudbehov och ger bästa möjliga resultat.</p>'
         ),
         new Question(
             title: 'Kan kemisk peeling hjälpa till med acneärr och pigmentfläckar?',
