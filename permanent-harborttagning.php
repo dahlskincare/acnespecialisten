@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Permanent Laser Hårborttagning';
-$seo_description = 'Bli fri från oönskat hår och njut av en permanent len känsla med den senaste lasestekniken. Boka din kostnadsfria konsultation idag och upplev skillnaden.';
-$seo_keywords = 'permanent hårborttagning, laserhårborttagning';
+$seo_title = 'Permanent Laser Hårborttagning i Stockholm';
+$seo_description = 'Lasra bort hår permanent och njut av en len känsla med den senaste lasestekniken. Boka din kostnadsfria konsultation idag och upplev skillnaden.';
+$seo_keywords = 'laser hårborttagning, hårborttagning, permanent hårborttagning, hår permanent, hårborttagning laser stockholm';
 
 $seo_image = 'images/treatments/large/permanent-harborttagning.webp';
 
@@ -611,6 +611,12 @@ $faq_categories = array(
             text: '<p class="p200">Behandlingsintervallen för laser hårborttagning varierar beroende på vilket område av kroppen som behandlas, eftersom olika delar har olika hårväxtcykler. För ansiktet rekommenderas behandling var fjärde vecka för att effektivt rikta in sig på hårets tillväxtfas. För områden på överkroppen, inklusive intimbehandlingar, är det lämpligt med behandling var sjätte vecka. Underkroppen, såsom lår och ben, bör behandlas var åttonde vecka för bästa möjliga resultat. Dessa intervaller är optimerade för att matcha de unika växtcyklerna för varje område och maximera effektiviteten av behandlingen mot permanent hårborttagning.</p>
 
             <p class="p200 mt-m">En individuell behandlingsplan utformas av din personliga laserterapeut för att säkerställa att du får den mest effektiva behandlingen för permanent hårborttagning. Din terapeut kommer att bedöma dina specifika behov, hudtyp och hårväxt för att fastställa de optimala behandlingsintervallerna och antalet sessioner som krävs för att uppnå bästa möjliga resultat. Detta skräddarsydda tillvägagångssätt garanterar att behandlingen är anpassad just för dig.</p>'
+        ),
+        new Question(
+            title: 'Kan man göra permanent hårborttagning hemma?',
+            text: '<p class="p200">Nej, att uppnå helt permanent hårborttagning hemma är inte möjligt med maskiner för hemmabruk. Hemmabrukstekniker kan potentiellt minska hårväxten till viss del, men de kan inte erbjuda de permanenta resultaten som professionella behandlingar gör. För helt permanent hårborttagning rekommenderas professionella metoder som laserhårborttagning eller elektrolys, som är utformade för att målinrikta och permanent minska hårväxten med stor precision och säkerhet.</p>
+
+            <p class="p200 mt-m">Dessutom är säkerhetsaspekten viktig att överväga. Hemmabruk av hårborttagningsenheter innebär en risk för hudirritationer, brännskador och i värsta fall permanenta hudskador om de används felaktigt. Professionella behandlare har särskild utbildning och tillgång till avancerad utrustning för att minimera dessa risker, vilket gör att de kan erbjuda en säker och effektiv behandling för permanent hårborttagning.</p>'
         ),
     )
 );
