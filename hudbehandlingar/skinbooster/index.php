@@ -4,8 +4,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Skinbooster Behandlingar - Återfukta och Föryngra Din Hud';
-$seo_description = 'Idealisk lösning för att djupt återfukta och vitalisera din hud. Bekämpar tecken på torrhet och åldrande, återställa hudens naturliga glans och ungdomlighet.';
-$seo_keywords = 'skinbooster, stockholm';
+$seo_description = 'Effektiv nålfri behandling för djup återfuktning och hudförnyelse. Återuppliva din hud med förbättrad elasticitet, lyster och textur utan biverkningar.';
+$seo_keywords = 'skinbooster, skinbooster behandling';
 
 $seo_image = '/images/treatments/large/skinbooster.webp';
 
@@ -416,7 +416,10 @@ $faq_categories = array(
             title: 'Vad är skillnaden mellan Infuzion, Multifuzion och traditionella skinboosters och fillers?',
             text: 'Infuzion och Multifuzion skiljer sig från traditionella skinboosters och fillers genom deras unika applikationsmetod och ingredienser. De erbjuder intensiv hydrering och hudförbättring utan användning av nålar, vilket gör dem till ett skonsamt alternativ. Dessa behandlingar är särskilt bra för att förbättra hudens textur, elasticitet och lyster genom att effektivt tillföra näringsämnen till hudens djupare lager.'
         ),
-
+        new Question(
+            title: 'Skinbooster biverkningar?',
+            text: 'Eftersom vi utför skinbooster-behandlingar utan nålar, är risken för biverkningar minimal. Denna nålfria metod eliminerar de vanligaste biverkningarna som är associerade med injektioner, såsom svullnad, rodnad, och blåmärken. Våra kunder upplever en skonsam och effektiv behandling med fokus på att förbättra hudens kvalitet utan obehag eller nedtid.'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
