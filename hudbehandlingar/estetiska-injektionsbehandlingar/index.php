@@ -11,7 +11,7 @@ $seo_image = '/images/treatments/large/injektionsbehandlingar.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar'),
-    new PathSegment('Injektioner', '/hudbehandlingar/injektionsbehandlingar/'),
+    new PathSegment('Estetiska Injektionsbehandlingar', '/hudbehandlingar/estetiska-injektionsbehandlingar/'),
 );
 
 $model = new Service(

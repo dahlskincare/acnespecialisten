@@ -10,9 +10,9 @@ $seo_keywords = 'lip fillers, fillers läppar, fillers under ögonen, fillers st
 $seo_image = '/images/treatments/large/fillers.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/behandlingar.php'),
-    new PathSegment('Injektioner', '/behandlingar/injektioner/'),
-    new PathSegment('Fillers', '/behandlingar/injektioner/fillers/'),
+    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Estetiska Injektionsbehandlingar', '/hudbehandlingar/estetiska-injektionsbehandlingar/'),
+    new PathSegment('Fillers', '/hudbehandlingar/estetiska-injektionsbehandlingar/fillers/'),
 );
 
 $model = new Service(
@@ -50,7 +50,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Injektionsbehandlingar?';
+$description_title = 'Vad är fillers?';
 $description_text = '<p class="p200">På AcneSpecialisten erbjuder vi fillers som är noga och icke-kirurgisk metod för att framhäva och förbättra hudens kvalitet och estetik. Dessa behandlingar innebär noggrant utförda injektioner med specialiserade produkter som effektivt reducerar fina linjer och rynkor samt återställer eller förhöjer hudens naturliga volym och konturer.</p>
 <p class="p200 mt-m">Vår approach är att skapa en diskret förfining, harmoniserat anpassad till varje individs unika ansiktsdrag och önskemål. Vi utnyttjar diverse tekniker för att noggrant behandla områden som läppar, kindben, panna och andra ansiktsdelar där åldersrelaterade förändringar eller volymförlust kan vara tydlig. Varje behandling är skräddarsydd med målet att uppnå resultat som både känns och ser naturliga ut.</p>
 <p class="p200 mt-m">Injektionsbehandlingarna hos AcneSpecialisten ger en omedelbar förbättring av hudens utseende på ett säkert och effektivt sätt, utan kirurgiska ingrepp. Med vårt erfarna team och användning av premiumprodukter, siktar vi på att förbättra din hudhälsa och stärka ditt självförtroende genom subtila och naturliga förändringar.</p>';
