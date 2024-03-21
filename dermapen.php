@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dermapen behandling i Stockholm';
-$seo_description = 'Dermapen 4 behandlingar är ledande tekniken inom hudföryngring som aktivt bekämpar åldrande och texturförändringar genom att stimulera hudens läkningsprocess.';
-$seo_keywords = 'Dermapen, Dermapen 4, Dermapen behandling, Dermapen 4 behandling';
+$seo_title = 'Dermapen 4 Behandling i Stockholm | AcneSpecialisten';
+$seo_description = 'Dermapen 4 behandling är en effektiv form av microneedling i Stockholm, som sätter igång hudens kollagenproduktion och behandlar flera typer av hudproblem.';
+$seo_keywords = 'dermapen, dermapend 4, dermapen före efter, dermapen behandling, microneedling stockholm';
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
@@ -95,7 +95,7 @@ $top_articles = array(
         image_alt: 'Dermapen behandlingsprocess',
         image_title: 'Dermapen behandlingsprocess',
         content: '<p class="p200">När du kommer till en av våra kliniker börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts. Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål.</p>
-        <p class="p200 mt-m">Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter behandlingen är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud.</p>',
+        <p class="p200 mt-m">Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter behandlingen är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud. För att ett bra resultat krävs en microneedling kur.</p>',
     ),
 );
 
@@ -425,7 +425,7 @@ $service_brands = array(
     ),
 );
 
-$results_title = 'Dermapen före och efter resultat';
+$results_title = 'Dermapen 4 före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -566,7 +566,7 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur ofta ska man göra Dermapen?',
+            title: 'Dermapen och microneedling, hur många behandlingar?',
             text: '<p class="p200">Frekvensen för Dermapen-behandlingar varierar beroende på individens hudtyp, det specifika hudtillståndet som behandlas, och den önskade effekten. Generellt rekommenderas en serie av 3-8 behandlingar med 4-6 veckors mellanrum för optimala resultat. Därefter kan underhållsbehandlingar genomföras vid behov, vanligtvis var sjätte till tolfte månad. Det är viktigt att konsultera med en kvalificerad hudvårdsspecialist för att fastställa den bästa behandlingsplanen för just din hud.</p>'
         ),
         new Question(
@@ -579,7 +579,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Dermapen fungerar inte?',
-            text: '<p class="p200">Om du inte ser de resultat du förväntade dig från din Dermapen-behandling, kan det finnas flera faktorer som spelar in. Resultat kan variera beroende på individens hudtyp, ålder, det specifika hudtillståndet, och antalet genomförda behandlingar. Det är också viktigt att besöka en klinik som har lång erfarenhet av att utföra Dermapen behandlingar effektivt. För att säkerställa effektiviteten av en Dermapen-behandling är det avgörande att utföraren är utbildad hudterapeut och certifierad av Dermapen World. Ett kritiskt moment under behandlingen är kontinuerlig justering av nåldjupet för att anpassa sig till den unika hudtypen och de specifika behoven hos varje individ. Alla har vi olika hudtyper, och det är därför viktigt att behandlaren skräddarsyr nåldjupet efter just din hud för att uppnå optimala resultat. Om dessa viktiga aspekter förbises kan behandlingen bli ineffektiv. Vi rekommenderar att du väljer en klinik med den kunskap och erfarenhet som krävs för att justera behandlingen för just din hud.</p>'
+            text: '<p class="p200">Om du inte ser de resultat du förväntade dig från din Dermapen-behandling, kan det finnas flera faktorer som spelar in. Resultat kan variera beroende på individens hudtyp, ålder, det specifika hudtillståndet, och antalet genomförda behandlingar. Det är också viktigt att besöka en klinik som har lång erfarenhet av att utföra Dermapen behandlingar effektivt. För att säkerställa effektiviteten av Dermapen-behandling är det avgörande att utföraren är utbildad hudterapeut och certifierad av Dermapen World. Ett kritiskt moment under behandlingen är kontinuerlig justering av nåldjupet för att anpassa sig till den unika hudtypen och de specifika behoven hos varje individ. Alla har vi olika hudtyper, och det är därför viktigt att behandlaren skräddarsyr nåldjupet efter just din hud för att uppnå optimala resultat. Om dessa viktiga aspekter förbises kan behandlingen bli ineffektiv. Microneedling resultat efter en behandling är också begränsat, och det krävs en microneedling kur för att få ett fullständigt resultat. Vi rekommenderar att du väljer en klinik med den kunskap och erfarenhet som krävs för att justera behandlingen för just din hud.</p>'
         ),
         new Question(
             title: 'Är Dermapen och microneedling samma sak?',
