@@ -88,7 +88,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Injektioner',
-        url: '/hudbehandlingar/injektionsbehandlingar',
+        url: '/hudbehandlingar/estetiska-injektionsbehandlingar',
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
     new Treatment(
