@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Fillerbehandlingar för Fina Resultat | AcneSpecialisten';
-$seo_description = 'Upplev skillnaden med AcneSpecialistens fillerbehandlingar. Vi är experter på att skapa en mer ungdomlig och harmonisk utstrålning.';
-$seo_keywords = 'fillerbehandlingar, ålderslinjer, volymåterställning, naturliga resultat, ansiktsförfining, AcneSpecialisten, estetisk hudvård';
+$seo_title = 'Fillers i Stockholm - Naturligt Vackra Läppar och Hud';
+$seo_description = 'Upptäck fillers för läppar, under ögonen och mer i Stockholm. Naturliga resultat med lip fillers och andra behandlingar av högsta kvalitet.';
+$seo_keywords = 'lip fillers, fillers läppar, fillers under ögonen, fillers stockholm, fillers läppar naturligt';
 
 $seo_image = '/images/treatments/large/fillers.webp';
 
