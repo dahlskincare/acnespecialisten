@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'CryoPen – Ta bort leverfläckar & Födelsemärken';
-$seo_description = 'En CryoPen behandling är effektiv och fryser bort godartade hudförändringar som leverfläckar, födelsemärken, hudflikar & fibrom. Boka gratis konsultation';
-$seo_keywords = 'cryopen, cryopen behandling, cryopen stockholm, cryopen före efter';
+$seo_title = 'Ta Bort Leverfläckar och Födelsemärken - CryoPen Behandling';
+$seo_description = 'Ta bort hudförändringar i Stockholm – Effektiv frysbehandling på att säker borttagning av leverfläckar, födelsemärken med precision. Boka gratis konsultation!';
+$seo_keywords = 'cryopen, cryopen behandling, leverfläckar, ta bort leverfläckar, ta bort födelsemärken';
 
 $seo_image = 'images/treatments/large/cryopen.webp';
 
@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är CryoPen?';
-$description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 sekunder fryser bort godartade hudförändringar. Kryo i kryobehandling betyder frysning och är en populär metod världen över. Behandlingen ger snabba resultat, är snäll mot huden och kan reducera många olika typer av hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
+$description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 sekunder fryser bort godartade hudförändringar. Kryo i kryobehandling betyder frysning och är en populär metod världen över. Behandlingen ger snabba resultat, är snäll mot huden och lämpar sig för borttagning av många olika typer av hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
     <p class="p200 mt-m">Genom att rikta in sig på specifika områden med extrem kyla, kan CryoPen behandla hudförändringar effektivt utan att skada omgivande hud. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
 
 $top_articles = array(
@@ -545,7 +545,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Kan man ta bort och frysa bort födelsemärken själv?',
-            text: '<p class="p200">Nej, det rekommenderas inte att man försöker ta bort eller frysa bort födelsemärken. Man ska inte heller försöka ta bort en fettknöl själv eller använda seborroisk keratos behandla själv lösningar. Födelsemärken kan variera stort i form, storlek och djup, och det krävs rätt bedömning för att avgöra den mest lämpliga behandlingen. Att använda produkter som CryoPen hemma utan tillräcklig kunskap eller erfarenhet kan leda till oönskade resultat, inklusive infektion, ärrbildning eller i värsta fall missa en diagnos av hudcancer. Professionell bedömning av en hudläkare eller certifierad specialist är avgörande för en säker och effektiv borttagning av födelsemärken.</p>'
+            text: '<p class="p200">Nej, det rekommenderas inte att man försöker ta bort eller frysa bort födelsemärken. Man ska inte heller försöka ta bort en fettknöl själv eller använda seborroisk keratos behandla själv lösningar. Födelsemärken kan variera stort i form, storlek och djup, och det krävs rätt bedömning för att avgöra den mest lämpliga behandlingen. Att använda produkter som CryoPen hemma utan tillräcklig kunskap eller erfarenhet kan leda till oönskade resultat, inklusive infektion, ärrbildning eller i värsta fall missa en diagnos av hudcancer. Professionell bedömning av en hudläkare eller certifierad specialist är avgörande för en säker och effektiv borttagning av födelsemärke.</p>'
         ),
         new Question(
             title: 'CryoPen biverkningar?',
