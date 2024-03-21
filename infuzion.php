@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Infuzion behandling - Mesoterapi Stockholm';
+$seo_title = 'Infuzion Behandling - Mesoterapi Stockholm';
 $seo_description = 'Infuzion ger effekterna hos fillers och skinbooster, utan att använda nålar. Boostar huden med effektivt serum. Boka en gratis konsultation i dag!';
-$seo_keywords = 'Infuzion behandling, mesoterapi Stockholm';
+$seo_keywords = 'infuzion infuzion behandling, mesoterapi stockholm';
 
 $seo_image = 'images/treatments/large/infuzion.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Infuzion behandling - Mesoterapi Stockholm',
+    title: 'Infuzion Behandling - Mesoterapi Stockholm',
     duration: '50 min',
     price: '2595 kr',
     content: '<p class="p200">Infuzion är en avancerad form av mesoterapi utan nålar som effektivt slussar in serum djupt i huden. Omedelbara resultat med utan återhämtningstid, vilket gör den till en populär teknik för de som söker effektiva hudförbättringar utan nålar.</p>',
@@ -74,7 +74,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Infuzion behandling?';
+$description_title = 'Vad är Infusion?';
 $description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men helt utan nålars bieffekter. Detta innovativa koncept använder Cytocare 532, ett serum berikat med hyaluronsyra och 52 vitala vitaminer och mineraler, för att djupgående återfukta huden och stimulera produktionen av kollagen och elastin. Dessa ämnen är avgörande för att bibehålla hudens fyllighet och elasticitet.</p>
 <p class="p200 mt-m">Infuzion behandlingen utförs med en specialroller och galvanisk ström, som slussar serumet 3mm djupt in i huden och når varje enskild cell. Denna metod är särskilt effektiv eftersom den tillåter behandling nära ögonen och andra känsliga områden, utan nålar. Behandlingen är idealisk för ansiktet, halsen, dekolletaget och händerna, och erbjuder en rad fördelar, såsom minskning av mörka ringar, utfyllnad under ögonen, förbättrad hudfasthet och elasticitet, samt reduktion av fina linjer och torrhet. Den ger huden en fräschare lyster och en jämnare hudton och textur.</p>
 <p class="p200 mt-m">För optimala och långvariga resultat rekommenderas tre behandlingar med en veckas mellanrum, vilket ger effekter som varar i upp till sex månader. Därefter räcker det med en underhållsbehandling var sjätte månad. Vi erbjuder även Multifuzion, en kombination av microneedling och Infuzion, för att öka effekten och möjliggöra djupare penetration av serumet efter microneedling. Denna kombinationsbehandling är särskilt effektiv för att stimulera naturlig proteinproduktion och strama upp åldrande hud.</p>';

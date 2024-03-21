@@ -86,7 +86,7 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar'] = new Problem(
       button_label: 'Finnar',
@@ -100,7 +100,7 @@ $problems['finnar'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar'] = new Problem(
       button_label: 'Ärr från finnar',
@@ -353,7 +353,7 @@ $problems['aknearr-ansikte'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr i ansiktet',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-ansikte'] = new Problem(
       button_label: 'Finnar i ansiktet',
@@ -367,7 +367,7 @@ $problems['finnar-ansikte'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar i ansiktet',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-ansikte'] = new Problem(
       button_label: 'Ärr från finnar i ansiktet',
@@ -675,7 +675,7 @@ $problems['aknearr-rygg'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på ryggen',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-rygg'] = new Problem(
       button_label: 'Finnar på ryggen',
@@ -689,7 +689,7 @@ $problems['finnar-rygg'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar på ryggen',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-rygg'] = new Problem(
       button_label: 'Ärr från finnar på ryggen',
@@ -801,7 +801,7 @@ $problems['aknearr-brost'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på bröstet',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-brost'] = new Problem(
       button_label: 'Finnar på bröstet',
@@ -815,7 +815,7 @@ $problems['finnar-brost'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar på bröstet',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-brost'] = new Problem(
       button_label: 'Ärr från finnar på bröstet',
@@ -927,7 +927,7 @@ $problems['aknearr-panna'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr i pannan',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-panna'] = new Problem(
       button_label: 'Finnar i pannan',
@@ -941,7 +941,7 @@ $problems['finnar-panna'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar i pannan',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-panna'] = new Problem(
       button_label: 'Ärr från finnar i pannan',
@@ -1053,7 +1053,7 @@ $problems['aknearr-kinder'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på kinderna',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-kinder'] = new Problem(
       button_label: 'Finnar på kinderna',
@@ -1067,7 +1067,7 @@ $problems['finnar-kinder'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar på kinderna',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-kinder'] = new Problem(
       button_label: 'Ärr från finnar på kinderna',
@@ -1291,7 +1291,7 @@ $problems['aknearr-nasa'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på näsan',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-nasa'] = new Problem(
       button_label: 'Finnar på näsan',
@@ -1305,7 +1305,7 @@ $problems['finnar-nasa'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar på näsan',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-nasa'] = new Problem(
       button_label: 'Ärr från finnar på näsan',
@@ -1459,7 +1459,7 @@ $problems['aknearr-runt-munnen'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr runt munnen',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-runt-munnen'] = new Problem(
       button_label: 'Finnar runt munnen',
@@ -1473,7 +1473,7 @@ $problems['finnar-runt-munnen'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar runt munnen',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-runt-munnen'] = new Problem(
       button_label: 'Ärr från finnar runt munnen',
@@ -1529,7 +1529,7 @@ $problems['aknearr-haka'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på hakan',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-haka'] = new Problem(
       button_label: 'Finnar på hakan',
@@ -1543,7 +1543,7 @@ $problems['finnar-haka'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar på hakan',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-haka'] = new Problem(
       button_label: 'Ärr från finnar på hakan',
@@ -1683,7 +1683,7 @@ $problems['aknearr-kaklinje'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på käklinjen',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-kaklinje'] = new Problem(
       button_label: 'Finnar på käklinjen',
@@ -1697,7 +1697,7 @@ $problems['finnar-kaklinje'] = new Problem(
       image: 'images/problems/424x324/finnar.webp',
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar på käklinjen',
-      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
+      info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
 );
 $problems['arr-fran-finnar-kaklinje'] = new Problem(
       button_label: 'Ärr från finnar på käklinjen',

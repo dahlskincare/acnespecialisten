@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Soprano ICE Platinum - Diodlaser Hårborttagning';
 $seo_description = 'Soprano ICE Platinum, diodlaser för hårborttagning. smärtfri laserbehandling för att effektivt avlägsna oönskat hår på alla hudtyper. Boka gratis konsultation!';
-$seo_keywords = 'Soprano Ice, diodlaser, laserbehandling';
+$seo_keywords = 'soprano ice platinum, soprano ice, soprano ice laser, soprano ice stockholm, diodlaser';
 
 $seo_image = '/images/treatments/large/soprano-ice.webp';
 
@@ -48,7 +48,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad är Soprano ICE för permanent hårborttagning?';
+$description_title = 'Vad är Soprano ICE Platinum för permanent hårborttagning?';
 $description_text = '<p class="p200">Soprano ICE Platinum representerar framkanten inom teknologin för permanent hårborttagning, genom att effektivt kombinera tre kraftfulla diodlaserteknologier i en behandling. Denna innovativa diodlaserbehandling använder en unik 3 i 1 metod som integrerar våglängderna Alexandrit 755NM, Speed 810NM, och YAG 1064NM, var och en med särskilda egenskaper för att målriktat och skonsamt behandla olika hårtyper och hudtoner.</p>
 <p class="p200 mt-m">Alexandrit 755NM våglängden är särskilt effektiv för ljusa och tunna hårstrån, som traditionellt varit utmanande att behandla. Denna våglängd utmärker sig genom sin höga energiabsorption och ytliga penetration, vilket gör den idealisk för att behandla hårstrån nära hudytan i områden som ögonbryn och överläpp.</p>
 <p class="p200 mt-m">Speed 810NM våglängden erbjuder djup penetration av hårsäcken, vilket möjliggör en snabb och effektiv behandling av större områden såsom armar, ben, kinder och skäggområdet. Dess förmåga att absorbera melanin i måttlig grad gör den säker för användning på mörkare hudtyper, medan dess djupverkande penetration tar sikte på hårsäckens struktur runt hårstrået.</p>
