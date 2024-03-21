@@ -91,7 +91,7 @@ if (form_completed()) {
     $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
     /*
     $rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
-    $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/swish_certificate.pem', 'lok13rum'];
+    $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/swish_certificate.pem', ''];
     $client = Client::make($rootCert, $clientCert);
 
     $pr = new PaymentRequest([
@@ -144,6 +144,7 @@ if (form_completed()) {
     $qr_image_desktop = 'data:image/png;base64,' . base64_encode(curl_exec($ch));
     curl_close($ch);
     */
+
     $qr_image_desktop = 'https://via.placeholder.com/300x300.webp';
 }
 ?>
