@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hydrafacial i Stockholm';
-$seo_description = 'Upptäck HydraFacial, en mångsidig behandling som kombinerar djup rengöring, exfoliering, avlägsnande av orenheter och återfuktning.';
-$seo_keywords = 'Hydrafacial, HydraFacial Stockholm';
+$seo_title = 'Hydrafacial behandling i Stockholm';
+$seo_description = 'HydraFacial behandling är en mångsidig behandling som kombinerar djup rengöring, exfoliering, avlägsnande av orenheter och återfuktning.';
+$seo_keywords = 'hydrafacial, hydrafacial stockholm, hydrafacial behandling';
 
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'HydraFacial Stockholm',
+    title: 'Hydrafacial behandling i Stockholm',
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">HydraFacial är en djupgående hudvårdsbehandling som kombinerar rengöring, exfoliering, avlägsnar orenheter och återfuktar huden.</p>',
