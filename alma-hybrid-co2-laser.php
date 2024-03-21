@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Fraktionerad CO2 laser i Stockholm';
-$seo_description = 'Kombinerar CO2 och icke-ablativ lasrar för att effektivt hantera ett brett spektrum av hudproblem. Idealisk för acneärr, ojämn hudton, rynkor och fina linjer.';
-$seo_keywords = 'Alma Hybrid, laserbehandling, CO2 laser, fraktionerad CO2 laser';
+$seo_title = 'CO2 laser - Fraktionerad laser | AcneSpecialisten';
+$seo_description = 'Effektiv behandling för ärr, hudföryngring och mer hos AcneSpecialisten i Stockholm. Se före och efter bilder och boka din konsultation idag.';
+$seo_keywords = 'CO2 laser, fraktionerad laser, co2 laser före och efter, co2 laser stockholm, fraktionerad laser före och efter, fraktionerad laser ärr, koldioxidlaser, fraktionerad co2 laser';
 
 $seo_image = 'images/treatments/large/alma-hybrid.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'CO2 laser - Alma Hybrid',
+    title: 'CO2 laser - Fraktionerad laser',
     duration: null,
     price: 'Från 4595 kr',
     content: '<p class="p200">Alma Hybrid är en fraktionerad CO2 laser vilket är nästa generation av laserbehandlingar. Kombinerar effektiviteten av CO2-laser med mångsidigheten hos icke-ablativ lasrar. Denna innovativa behandling är utformad för att effektivt hantera en rad hudproblem, inklusive acneärr, rynkor, fina linjer och ojämn hudton.</p>',
@@ -217,7 +217,7 @@ $types = array(
         title: 'CO2 laser mot Ärr (Skade- och Operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
-        content: 'Behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
+        content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
         image_alt: 'Alma Hybrid mot Ärr (Skade- och Operationsärr)',
@@ -257,7 +257,7 @@ $types = array(
         title: 'CO2 laser mot Bristningar',
         duration: '90 minuter',
         price: '4595 kr',
-        content: 'Stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
+        content: 'Laser behandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
         image_alt: 'Alma Hybrid mot Bristningar',
@@ -350,8 +350,8 @@ $types = array(
         booking_url_title: 'Boka Alma Hybrid mot Aktiv Acne',
 
         url: '/laser-acne.php',
-        url_label: 'Läs mer om laser mot akne',
-        url_title: 'Läs mer om laser mot akne',
+        url_label: 'Läs mer om laser mot acne',
+        url_title: 'Läs mer om laser mot acne',
     ),
     new Service(
         title: 'CO2 laser för Hudföryngring (Skin Rejuvenation)',
@@ -538,7 +538,7 @@ $service_brands = array(
     ),
 );
 
-$results_title = 'CO2 laser före och efter';
+$results_title = 'Freaktionerad CO2 laser före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
