@@ -19,8 +19,7 @@ $model = new Service(
     title: 'Fillers',
     duration: null,
     price: 'Från 3595 kr',
-    content: '<p class="p200">På AcneSpecialisten erbjuder vi avancerade fillersbehandlingar för att elegant förbättra ditt ansiktes naturliga skönhet. Dessa behandlingar är noggrant utformade för att smidigt reducera fina linjer och rynkor samt återge och förbättra ansiktets volym och konturer på ett naturligt sätt. Vårt team av experter inom estetisk hudvård är specialiserade på att skapa harmoniska och balanserade resultat.</p>
-    <p class="p200 mt-m">Våra fillersbehandlingar är särskilt lämpade för dig som önskar att framhäva din naturliga skönhet, vare sig det gäller att ge läpparna en fylligare form, definiera kindbenen eller mjuka upp uttryckslinjer. Vi tar oss tid att förstå varje klients unika behov och målsättningar, och varje behandling anpassas för att uppnå individuella önskemål. Oavsett om ditt mål är att föryngra din hud eller skapa en mer definierad ansiktskontur, erbjuder våra fillersbehandlingar en skonsam och effektiv metod för att förhöja ditt utseende.</p>',
+    content: '<p class="p200">Vårt mål är att förädla din naturliga skönhet genom att varsamt förbättra hudens utseende och textur. Med hjälp av fillers arbetar vi för att subtilt reducera synliga linjer och rynkor samt återskapa och accentuera hudens naturliga volym och konturer.</p>',
     image_small: 'bilder/behandlingar/358x274/injektionsbehandlingar.webp',
     image_large: 'bilder/behandlingar/424x456/injektionsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -51,9 +50,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är fillers?';
-$description_text = '<p class="p200">På AcneSpecialisten erbjuder vi fillers som är noga och icke-kirurgisk metod för att framhäva och förbättra hudens kvalitet och estetik. Dessa behandlingar innebär noggrant utförda injektioner med specialiserade produkter som effektivt reducerar fina linjer och rynkor samt återställer eller förhöjer hudens naturliga volym och konturer.</p>
-<p class="p200 mt-m">Vår approach är att skapa en diskret förfining, harmoniserat anpassad till varje individs unika ansiktsdrag och önskemål. Vi utnyttjar diverse tekniker för att noggrant behandla områden som läppar, kindben, panna och andra ansiktsdelar där åldersrelaterade förändringar eller volymförlust kan vara tydlig. Varje behandling är skräddarsydd med målet att uppnå resultat som både känns och ser naturliga ut.</p>
-<p class="p200 mt-m">Injektionsbehandlingarna hos AcneSpecialisten ger en omedelbar förbättring av hudens utseende på ett säkert och effektivt sätt, utan kirurgiska ingrepp. Med vårt erfarna team och användning av premiumprodukter, siktar vi på att förbättra din hudhälsa och stärka ditt självförtroende genom subtila och naturliga förändringar.</p>';
+$description_text = '<p class="p200">Fillers är en icke-invasiv teknik för att förhöja och förbättra hudens kvalitet samt dess estetiska uttryck. Våra behandlingar omfattar precisioninjektioner med högkvalitativa produkter, framtagna för att effektivt minska uppkomsten av fina linjer och rynkor, samtidigt som de återskapar eller framhäver hudens naturliga volym och form. Vår filosofi centrerar kring att åstadkomma en subtil försköning, skräddarsydd för att komplettera varje klients unika ansiktsdrag och behov.</p>
+<p class="p200 mt-m">VVi använder en rad avancerade tekniker för att varsamt adressera områden som läppar, kinder, panna, och andra delar av ansiktet där åldrande eller volymförlust kan vara särskilt framträdande. Perfekt för dig som söker lip fillers som ger läppar naturligt utseende. Varje behandlingsplan är unikt utformad med ambitionen att leverera resultat som ser och känns naturliga. Våra injektionsbehandlingar levererar omedelbara förbättringar i hudens utseende på ett tryggt och effektivt vis.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
@@ -62,19 +60,17 @@ $top_articles = array(
         image_large: null,
         image_alt: 'Förberedelse inför fillers',
         image_title: 'Förberedelse inför fillers',
-        content: '<p class="p200">På AcneSpecialisten börjar din resa mot förbättrad hudhälsa med en grundlig konsultation inför din fillersbehandling. Denna initiala konsultation, följt av en 48 timmars betänketid, är avgörande för att skapa en skräddarsydd plan som speglar dina unika behov och estetiska mål. Under denna tid diskuterar vi dina förväntningar och tidigare erfarenheter, för att säkerställa att behandlingen blir så framgångsrik som möjligt.</p>
-        <p class="p200 mt-m">För att förbereda dig inför behandlingen, rekommenderar vi att du undviker direkt solljus och avstår från att använda produkter som kan irritera huden, såsom retinol eller exfolierande syror, under dagarna före din session. Denna försiktighet hjälper till att minimera risken för irritation eller oönskade reaktioner. Vi uppmuntrar dig att komma till din behandling med en klar förståelse av processen och realistiska förväntningar på resultatet.</p>
-        <p class="p200 mt-m">Vårt team på AcneSpecialisten är här för att ge dig vägledning och stöd genom hela din behandlingsprocess. Din komfort och säkerhet är vår högsta prioritet, och vi strävar efter att ge dig en behandling som är både skonsam och effektiv. Vi välkomnar alla dina frågor och funderingar under konsultationen och ser fram emot att hjälpa dig att uppnå dina skönhetsmål.</p>',
+        content: '<p class="p200">Inför din fillersbehandling lägger vi stor vikt vid en omfattande förberedelseprocess, inkluderande en djupgående konsultation. Detta första steg, som inkluderar en betänketid på 48 timmar, är avgörande för att skräddarsy behandlingen så den perfekt matchar dina unika behov och förväntningar. Under konsultationen tar vi oss tid att utforska dina mål med behandlingen, dina förhoppningar samt eventuella tidigare erfarenheter av liknande procedurer.</p>
+        <p class="p200 mt-m">För att optimera förutsättningarna för din fillersbehandling, rekommenderar vi vissa förberedelser. Vi råder dig att undvika starkt solljus och att inte använda hudirriterande produkter såsom retinol eller produkter med exfolierande syror några dagar innan din behandling. Dessa försiktighetsåtgärder hjälper till att minska risken för hudirritation och säkerställer att din hud är i bästa möjliga skick. Det är också viktigt att du inför din behandling har en klar förståelse för hela processen, för att vi gemensamt ska kunna uppnå de resultat du önskar.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går fillersbehandlingar till?',
+        title: 'Hur går fillers behandlingar till?',
         image_small: null,
         image_large: null,
-        image_alt: 'Hur går fillersbehandlingar till?',
-        image_title: 'Hur går fillersbehandlingar till?',
-        content: '<p class="p200">Vid AcneSpecialisten är varje steg i vår fillersbehandling omsorgsfullt planerad för att säkerställa bästa resultat. Din behandlingsresa inleds med en omfattande konsultation där vi utforskar dina estetiska mål och noggrant analyserar din hud. Denna viktiga dialog följs av en betänketid på 48 timmar, vilket ger dig tid att överväga behandlingen noggrant.</p>
-    <p class="p200 mt-m">När du väl bestämt dig för att gå vidare, börjar behandlingsdagen med en grundlig rengöring av det valda området. Vi markerar sedan specifikt var behandlingen ska utföras för att garantera precision. Behandlingen, som utförs med största omsorg, innefattar användningen av avancerade injektionstekniker som inte bara uppfyller dina önskemål utan också minimerar eventuellt obehag.</p>
-    <p class="p200 mt-m">Direkt efter behandlingen får du utförliga eftervårdsanvisningar för att underlätta en smidig återhämtning och optimera resultatet. Lätt rodnad eller svullnad i behandlingsområdet är normalt och bör snart avta. För att säkerställa att du är helt nöjd med resultatet erbjuder vi uppföljningssessioner där vi kan göra eventuella justeringar. Vi är engagerade i att ge dig en trygg och tillfredsställande upplevelse från start till slut.</p>',
+        image_alt: 'Hur går fillers behandlingar till?',
+        image_title: 'Hur går fillers behandlingar till?',
+        content: '<p class="p200">Fillers behandlingen inleds alltid med en omsorgsfull rengöring av det specifika område som ska behandlas, för att försäkra oss om att huden är optimalt förberedd och fri från föroreningar. Efter detta steg markerar vår kvalificerade personal de exakta områdena som kommer att behandlas. Denna precision är avgörande för att uppnå de estetiska mål du önskar, samtidigt som vi minimerar eventuellt obehag. Genom att använda sig av skickliga injektionstekniker arbetar vi metodiskt för att uppfylla dina önskemål, med fokus på både resultat och komfort.</p>
+    <p class="p200 mt-m">Efter behandlingen går vi noggrannt igenom eftervårdsinstruktioner, en avgörande del för en effektiv återhämtning och för att säkra det bästa möjliga resultat av din fillersbehandling. Det är vanligt med en lätt rodnad eller svullnad efter proceduren, men dessa symtom är vanligtvis övergående. Vi planerar också uppföljningsbesök så att vi kan följa hudens framsteg och säkerställa att du är fullständigt nöjd med resultatet. Dessa steg understryker vår åtagande till din säkerhet och tillfredsställelse genom hela behandlingsprocessen.</p>',
     ),
 );
 
@@ -429,11 +425,11 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: null,
     image_alt: 'Eftervård och underhåll efter fillers',
     image_title: 'Eftervård och underhåll efter fillers',
-    content: '<p class="p200">Efter din fillersbehandling på AcneSpecialisten är det avgörande att du noggrant följer våra rekommendationer för eftervård för att optimera och bevara behandlingens effekter. Direkt efter behandlingen är det viktigt att minimera exponering för starkt solljus och alltid använda ett solskydd med hög SPF för att skydda det behandlade området.</p>
-    <p class="p200 mt-m">Det är vanligt med en viss grad av svullnad eller blåmärken efter behandlingen. Det är viktigt att undvika att röra eller massera det behandlade området under de första kritiska dagarna. Vid behov kan en kall kompress användas för att lindra eventuell svullnad. Vi rekommenderar även att du håller huden återfuktad med de hudvårdsprodukter som vi rekommenderar, för att stödja och påskynda läkningsprocessen.</p>
-    <p class="p200 mt-m">En hälsosam kost och tillräckligt med vätskeintag är viktiga komponenter för din huds återhämtning och allmänna välbefinnande. Undvik alkohol och var försiktig med användningen av blodförtunnande medel, som kan öka risken för blåmärken. För att underhålla och förlänga effekten av din behandling kan regelbundna uppföljningsbesök vara nödvändiga. Om du har några frågor om din eftervård, tveka inte att kontakta oss på AcneSpecialisten för personliga råd och vägledning.</p>',
+    content: '<p class="p200">Efter din fillersbehandling är det normalt att känna av en viss svullnad eller se några blåmärken, tecken på kroppens naturliga läkningsprocess. För en optimal återhämtning är det viktigt att undvika direktkontakt eller massage av det behandlade området de första dagarna. Om obehag uppstår, kan en kall kompress användas för att lindra svullnad. Det är också essentiellt att fortsätta återfukta huden med de specifikt rekommenderade produkterna från din behandlare.</p>
+    <p class="p200 mt-m">För att bevara effekten av din behandling över tid kan det vara aktuellt med regelbundna uppföljningsbehandlingar, enligt den individuella plan som du och din specialist har lagt upp. Om du har frågor eller funderingar kring din eftervård, uppmuntrar vi dig att kontakta oss. Vi är dedikerade till att erbjuda personlig rådgivning, för att säkerställa att du är helt nöjd med dina resultat och känner dig trygg genom hela processen.</p>',
 ));
 
+$results_title = 'Fillers före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -575,23 +571,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur ofta bör jag genomföra fillersbehandlingar?',
-            text: 'Frekvensen för fillersbehandlingar beror på dina individuella estetiska mål och hur din hud reagerar på behandlingen. Vanligtvis rekommenderas en initial behandlingsserie följt av underhållsbehandlingar var 3-6 månader för att bibehålla och förstärka resultatet.'
+            title: 'Hur länge håller fillers?',
+            text: 'Längden på effekten av fillers kan variera beroende på flera faktorer, inklusive typen av filler som används, behandlingsområdet och individens hudtyp. Generellt sett kan fillers i läpparna hålla mellan 6 till 12 månader, medan fillers i nasolabialvecken ofta har en varaktighet på 9 till 18 månader. Självklart kand in specialist alltid ge en mer exakt uppskattning baserat på din unika situation.'
         ),
-
         new Question(
-            title: 'Vilka omedelbara effekter kan jag förvänta mig efter fillersbehandling?',
-            text: 'Efter en fillersbehandling kan du märka omedelbara effekter som lätt svullnad och kanske lite rodnad i det behandlade området. Dessa reaktioner är vanligen milda och övergående. De slutgiltiga resultaten framträder tydligare när eventuell svullnad lagt sig, oftast inom några dagar.'
+            title: 'Hur länge är man svullen efter fillers i läpparna?',
+            text: 'Svullnad efter fillers i läpparna är vanligt och en del av läkningsprocessen. Den initiala svullnaden avtar vanligtvis inom de första dagarna efter behandlingen, men det kan ta upp till två veckor för svullnaden att helt försvinna. Varje persons erfarenhet är unik, och din specialist kan ge dig specifika råd om vad du kan förvänta dig.'
         ),
-
         new Question(
-            title: 'När är det säkert att återuppta mina vanliga aktiviteter efter fillersbehandling?',
-            text: 'De flesta klienter kan återgå till sitt normala liv direkt efter en fillersbehandling. Vi rekommenderar dock att du undviker kraftig fysisk aktivitet och direkt exponering för solen under de första 24 timmarna efter behandlingen för att minska risken för svullnad och blåmärken.'
-        ),
-
-        new Question(
-            title: 'Finns det några speciella eftervårdsinstruktioner jag bör följa efter fillersbehandling?',
-            text: 'Efter din fillersbehandling är det viktigt att följa specifika eftervårdsinstruktioner för optimal läkning. Det innefattar att inte röra behandlingsområdet och att använda solskydd samt milda hudvårdsprodukter för att skydda och lugna huden. Vi kommer att ge dig detaljerade instruktioner anpassade efter din behandling.'
+            title: 'Vilken fillers är bäst?',
+            text: 'Valet av fillers beror på flera faktorer, inklusive behandlingsområdet, önskat resultat och individens hudtyp. På vår klinik arbetar vi endast med de bästa märkena på marknaden, kombinerat med våra duktiga specialister som har omfattande erfarenhet och kunskap om att utföra behandlingarna. Detta säkerställer att vi kan erbjuda skräddarsydda lösningar som uppfyller våra klienters behov och förväntningar på bästa möjliga sätt.'
         ),
     )
 );

@@ -581,6 +581,7 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">Ett balanserat intag av vatten och näringsrik kost är också viktigt för att stödja din huds hälsa inifrån och ut. Undvik att dricka alkohol och begränsa användningen av blodförtunnande läkemedel som kan öka risken för blåmärken. För att upprätthålla resultatet av din behandling, kan regelbundna uppföljningsbehandlingar rekommenderas av din specialist. Om du har några frågor eller funderingar kring din eftervård, tveka inte att kontakta oss på AcneSpecialisten för personlig rådgivning och stöd.</p>',
 ));
 
+$results_title = 'Estetiska injektionsbehandlingar före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
