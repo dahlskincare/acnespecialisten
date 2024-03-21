@@ -89,18 +89,42 @@ if (form_completed()) {
     mail($to, $subject, $message, $headers);
 } else {
     $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
-    /*
-    $rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
-    $clientCert = [$_ENV['SWISH_SSL_FOLDER'] . '/swish_certificate.pem', ''];
-    $client = Client::make($rootCert, $clientCert);
 
-    $pr = new PaymentRequest([
-        'callbackUrl' => 'https://acnespecialisten.se/presentkort?paid=1',
-        'payeePaymentReference' => uniqid(),
-        'payeeAlias' => '1230106443',
-        'amount' => intval($amount),
-        'message' => 'Presentkort Acnespecialisten',
-    ]);
+    $rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
+    $url = "https://mss.cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/11A86BE70EA346E4B1C39C874173F088";
+    $clientCert = $_ENV['SWISH_SSL_FOLDER'] . "/cert.p12";
+    $pwd = "lok13rum";
+
+    $data = [
+        "payeePaymentReference" => uniqid(),
+        "callbackUrl" => "https://acnespecialisten.se/presentkort?paid=1",
+        //"payerAlias" => "4671234768",
+        "payeeAlias" => "1232335198",
+        "amount" => intval($amount),
+        "currency" => "SEK",
+        "message" => "Presentkort Acnespecialisten"
+    ];
+
+    $ch = curl_init($url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_SSLVERSION, CURL_SSLVERSION_DEFAULT);
+    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
+    curl_setopt($ch, CURLOPT_SSLCERT, $clientCert);
+    curl_setopt($ch, CURLOPT_SSLCERTPASSWD, $pwd);
+    curl_setopt($ch, CURLOPT_SSLCERTTYPE, "P12");
+    curl_setopt($ch, CURLOPT_CAINFO, $rootCert);
+
+    $response = curl_exec($ch);
+
+    if ($response === false) {
+        throw new Exception('Curl error: ' . curl_error($ch));
+    }
+
+    curl_close($ch);
+
+    echo $response;
 
     $data = array(
         "format" => "svg",
@@ -109,7 +133,9 @@ if (form_completed()) {
         "transparent" => "true",
         "token" => $client->createPaymentRequest($pr)->paymentRequestToken,
     );
+
     $json_data = json_encode($data);
+
     $ch = curl_init("https://mpc.getswish.net/qrg-swish/api/v1/commerce");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
@@ -125,9 +151,9 @@ if (form_completed()) {
     $qr_image = curl_exec($ch);
     curl_close($ch);
 
-
+    /*
     $json_data = json_encode(array(
-        "payee" => "123 08 866 89",
+        "payee" => "123 233 51 98",
     ));
     $ch = curl_init("https://api.swish.nu/qr/v2/prefilled");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -143,8 +169,8 @@ if (form_completed()) {
     );
     $qr_image_desktop = 'data:image/png;base64,' . base64_encode(curl_exec($ch));
     curl_close($ch);
-    */
 
+*/
     $qr_image_desktop = 'https://via.placeholder.com/300x300.webp';
 }
 ?>
