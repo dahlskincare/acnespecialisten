@@ -18,7 +18,7 @@ $model = new Service(
     title: 'CryoPen behandling i Stockholm',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Cryopen är ett alternativ för dig som vill ta bort leverfläckar, födelsemärken, skintags, fibrom, fettknölar, hemangiom och pigmentfläckar. Hos oss på Acnespecialisten kan du boka en kostnadsfri konsultation och göra CryoPen-behandlingar.</p>',
+    content: '<p class="p200">Cryopen är en ett alternativ för dig som vill ta bort leverfläckar, födelsemärken, skintags, fibrom, fettknölar, hemangiom och pigmentfläckar. Hos oss på Acnespecialisten kan du boka en kostnadsfri konsultation och göra CryoPen-behandlingar.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
     image_alt: 'CryoPen',
@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är CryoPen?';
-$description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 sekunder fryser bort godartade hudförändringar. Kryo betyder frysning och är en populär metod världen över. Behandlingen ger snabba resultat, är snäll mot huden och kan reducera många olika typer av hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
+$description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 sekunder fryser bort godartade hudförändringar. Kryo i kryobehandling betyder frysning och är en populär metod världen över. Behandlingen ger snabba resultat, är snäll mot huden och kan reducera många olika typer av hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
     <p class="p200 mt-m">Genom att rikta in sig på specifika områden med extrem kyla, kan CryoPen behandla hudförändringar effektivt utan att skada omgivande hud. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
 
 $top_articles = array(
@@ -60,7 +60,8 @@ $top_articles = array(
         image_alt: 'Inför CryoPenbehandling',
         image_title: 'Inför CryoPenbehandling',
         content: '<p class="p200">Inför din CryoPen behandling erbjuder vi alltid en kostnadsfri konsultation där du möter en av våra erfarna hudterapeuter. Under konsultationen kommer din hudterapeut att noggrant undersöka de hudförändringar du önskar ta bort. Detta steg är avgörande för att vi ska kunna utforma en behandlingsplan som är skräddarsydd för just dina hudproblem och för att besluta om CryoPen är den optimala metoden för dig.</p>
-        <p class="p200 mt-m">För att förbereda huden inför behandlingen är det viktigt att du låter bli att pilla eller irritera området som ska behandlas. Det är också fördelaktigt att inte utsätta huden för intensiv solning eller stark kyla före din session. Under konsultationen kommer vi att ge dig omfattande information om hur du bäst förbereder dig och vad du kan förvänta dig av behandlingen. Om förhållandena tillåter, och området är lämpligt, kan vi ofta påbörja din CryoPen behandling direkt vid konsultationstillfället. Observera att vi inte kan ställa diagnos på om din hudförändring är godartad eller elakartad.</p>',
+        <p class="p200 mt-m">För att förbereda huden inför behandlingen är det viktigt att du låter bli att pilla eller irritera området som ska behandlas. Det är också fördelaktigt att inte utsätta huden för intensiv solning eller stark kyla före din session. Under konsultationen kommer vi att ge dig omfattande information om hur du bäst förbereder dig och vad du kan förvänta dig av behandlingen. Om förhållandena tillåter, och området är lämpligt, kan vi ofta påbörja din CryoPen behandling direkt vid konsultationstillfället.</p>
+        <p class="p200 mt-m">Observera att vi endast har möjlighet att behandla godartade hudförändringar. Är du osäker på om din hudåkomma är farlig eller inte ska du ta kontakt med en läkare först och få den undersökt. Är den ofarlig rekommenderar vi att boka vår kostnadsfria CryoPen-konsultation där du och din personliga hudterapeut lägger upp en skräddarsydd behandlingsplan.</p>',
     ),
     'process' => new Article(
         title: 'Hur går CryoPen behandling till?',
