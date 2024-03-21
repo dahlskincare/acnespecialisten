@@ -54,15 +54,6 @@ $description_text = '<p class="p200">Fillers är en icke-invasiv teknik för att
 <p class="p200 mt-m">VVi använder en rad avancerade tekniker för att varsamt adressera områden som läppar, kinder, panna, och andra delar av ansiktet där åldrande eller volymförlust kan vara särskilt framträdande. Perfekt för dig som söker lip fillers som ger läppar naturligt utseende. Varje behandlingsplan är unikt utformad med ambitionen att leverera resultat som ser och känns naturliga. Våra injektionsbehandlingar levererar omedelbara förbättringar i hudens utseende på ett tryggt och effektivt vis.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelse inför fillers',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Förberedelse inför fillers',
-        image_title: 'Förberedelse inför fillers',
-        content: '<p class="p200">Inför din fillersbehandling lägger vi stor vikt vid en omfattande förberedelseprocess, inkluderande en djupgående konsultation. Detta första steg, som inkluderar en betänketid på 48 timmar, är avgörande för att skräddarsy behandlingen så den perfekt matchar dina unika behov och förväntningar. Under konsultationen tar vi oss tid att utforska dina mål med behandlingen, dina förhoppningar samt eventuella tidigare erfarenheter av liknande procedurer.</p>
-        <p class="p200 mt-m">För att optimera förutsättningarna för din fillersbehandling, rekommenderar vi vissa förberedelser. Vi råder dig att undvika starkt solljus och att inte använda hudirriterande produkter såsom retinol eller produkter med exfolierande syror några dagar innan din behandling. Dessa försiktighetsåtgärder hjälper till att minska risken för hudirritation och säkerställer att din hud är i bästa möjliga skick. Det är också viktigt att du inför din behandling har en klar förståelse för hela processen, för att vi gemensamt ska kunna uppnå de resultat du önskar.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går fillers behandlingar till?',
         image_small: null,
@@ -419,15 +410,26 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och underhåll efter fillers',
-    image_small: null,
-    image_large: null,
-    image_alt: 'Eftervård och underhåll efter fillers',
-    image_title: 'Eftervård och underhåll efter fillers',
-    content: '<p class="p200">Efter din fillersbehandling är det normalt att känna av en viss svullnad eller se några blåmärken, tecken på kroppens naturliga läkningsprocess. För en optimal återhämtning är det viktigt att undvika direktkontakt eller massage av det behandlade området de första dagarna. Om obehag uppstår, kan en kall kompress användas för att lindra svullnad. Det är också essentiellt att fortsätta återfukta huden med de specifikt rekommenderade produkterna från din behandlare.</p>
-    <p class="p200 mt-m">För att bevara effekten av din behandling över tid kan det vara aktuellt med regelbundna uppföljningsbehandlingar, enligt den individuella plan som du och din specialist har lagt upp. Om du har frågor eller funderingar kring din eftervård, uppmuntrar vi dig att kontakta oss. Vi är dedikerade till att erbjuda personlig rådgivning, för att säkerställa att du är helt nöjd med dina resultat och känner dig trygg genom hela processen.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelse inför fillers',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Förberedelse inför fillers',
+        image_title: 'Förberedelse inför fillers',
+        content: '<p class="p200">Inför din fillersbehandling lägger vi stor vikt vid en omfattande förberedelseprocess, inkluderande en djupgående konsultation. Detta första steg, som inkluderar en betänketid på 48 timmar, är avgörande för att skräddarsy behandlingen så den perfekt matchar dina unika behov och förväntningar. Under konsultationen tar vi oss tid att utforska dina mål med behandlingen, dina förhoppningar samt eventuella tidigare erfarenheter av liknande procedurer.</p>
+        <p class="p200 mt-m">För att optimera förutsättningarna för din fillersbehandling, rekommenderar vi vissa förberedelser. Vi råder dig att undvika starkt solljus och att inte använda hudirriterande produkter såsom retinol eller produkter med exfolierande syror några dagar innan din behandling. Dessa försiktighetsåtgärder hjälper till att minska risken för hudirritation och säkerställer att din hud är i bästa möjliga skick. Det är också viktigt att du inför din behandling har en klar förståelse för hela processen, för att vi gemensamt ska kunna uppnå de resultat du önskar.</p>',
+    ),
+    'aftercare' => new Article(
+        title: 'Eftervård och underhåll efter fillers',
+        image_small: null,
+        image_large: null,
+        image_alt: 'Eftervård och underhåll efter fillers',
+        image_title: 'Eftervård och underhåll efter fillers',
+        content: '<p class="p200">Efter din fillersbehandling är det normalt att känna av en viss svullnad eller se några blåmärken, tecken på kroppens naturliga läkningsprocess. För en optimal återhämtning är det viktigt att undvika direktkontakt eller massage av det behandlade området de första dagarna. Om obehag uppstår, kan en kall kompress användas för att lindra svullnad. Det är också essentiellt att fortsätta återfukta huden med de specifikt rekommenderade produkterna från din behandlare.</p>
+        <p class="p200 mt-m">För att bevara effekten av din behandling över tid kan det vara aktuellt med regelbundna uppföljningsbehandlingar, enligt den individuella plan som du och din specialist har lagt upp. Om du har frågor eller funderingar kring din eftervård, uppmuntrar vi dig att kontakta oss. Vi är dedikerade till att erbjuda personlig rådgivning, för att säkerställa att du är helt nöjd med dina resultat och känner dig trygg genom hela processen.</p>',
+    ),
+);
 
 $results_title = 'Fillers före och efter resultat';
 $results = array(

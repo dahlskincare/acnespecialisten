@@ -53,15 +53,6 @@ $description_text = '<p class="p200">Vår metod fokuserar på att skapa en natur
 <p class="p200 mt-m">Våra injektionsbehandlingar erbjuder en säker och effektiv lösning för de som önskar en omedelbar förbättring av hudens utseende utan behov av kirurgiska ingrepp. Med vårt team av erfarna sjuksköterskor och läkare, samt användning av högkvalitativa produkter, strävar vi efter att ge dig en förbättrad hudhälsa och förnyat självförtroende.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelse inför injektionsbehandlingar',
-        image_small: '/bilder/process/358x272/injektioner-forberedelser.webp',
-        image_large: '/bilder/process/872x456/injektioner-forberedelser.webp',
-        image_alt: 'Förberedelse inför injektionsbehandlingar',
-        image_title: 'Förberedelse inför injektionsbehandlingar',
-        content: '<p class="p200">På AcneSpecialisten är en grundlig konsultation ett essentiellt första steg inför din injektionsbehandling. Denna process, som inkluderar en 48 timmars betänketid, är avgörande för att säkerställa att behandlingen är anpassad efter dina specifika behov och önskemål. Under konsultationen diskuterar vi dina mål, förväntningar och eventuella tidigare erfarenheter av liknande behandlingar.</p>
-        <p class="p200 mt-m">För att förbereda dig för din behandling rekommenderar vi att du undviker vissa aktiviteter och produkter. Det är bra att inte exponera huden för starkt solljus och att undvika att använda hudirriterande produkter som retinol eller exfolierande syror några dagar före din behandling. Dessa åtgärder minimerar risken för eventuell hudirritation. Vi betonar vikten av att du kommer till din behandling med en god förståelse för processen.</p>',
-    ),
     'process' => new Article(
         title: 'Hur går injektionsbehandlingar till?',
         image_small: '/bilder/process/358x272/injektioner-process.webp',
@@ -571,15 +562,26 @@ $treatment_areas = array(
     ),
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård och underhåll efter injektionsbehandlingar',
-    image_small: '/bilder/process/358x272/injektioner-eftervard.webp',
-    image_large: '/bilder/process/872x456/injektioner-eftervard.webp',
-    image_alt: 'Eftervård och underhåll efter injektionsbehandlingar',
-    image_title: 'Eftervård och underhåll efter injektionsbehandlingar',
-    content: '<p class="p200">Efter behandlingen kan det uppstå mindre svullnad eller blåmärken, vilket är normalt. Det är viktigt att inte röra eller massera behandlingsområdet under de första dagarna. Om du upplever någon obehag, kan en kall kompress hjälpa till att minska svullnad. För att stödja läkningen, fortsätt att återfukta huden med lämpliga hudvårdsprodukter som rekommenderats av din utövare.</p>
-    <p class="p200 mt-m">Ett balanserat intag av vatten och näringsrik kost är också viktigt för att stödja din huds hälsa inifrån och ut. Undvik att dricka alkohol och begränsa användningen av blodförtunnande läkemedel som kan öka risken för blåmärken. För att upprätthålla resultatet av din behandling, kan regelbundna uppföljningsbehandlingar rekommenderas av din specialist. Om du har några frågor eller funderingar kring din eftervård, tveka inte att kontakta oss på AcneSpecialisten för personlig rådgivning och stöd.</p>',
-));
+$bottom_articles = array(
+    'preparing' => new Article(
+        title: 'Förberedelse inför injektionsbehandlingar',
+        image_small: '/bilder/process/358x272/injektioner-forberedelser.webp',
+        image_large: '/bilder/process/872x456/injektioner-forberedelser.webp',
+        image_alt: 'Förberedelse inför injektionsbehandlingar',
+        image_title: 'Förberedelse inför injektionsbehandlingar',
+        content: '<p class="p200">På AcneSpecialisten är en grundlig konsultation ett essentiellt första steg inför din injektionsbehandling. Denna process, som inkluderar en 48 timmars betänketid, är avgörande för att säkerställa att behandlingen är anpassad efter dina specifika behov och önskemål. Under konsultationen diskuterar vi dina mål, förväntningar och eventuella tidigare erfarenheter av liknande behandlingar.</p>
+        <p class="p200 mt-m">För att förbereda dig för din behandling rekommenderar vi att du undviker vissa aktiviteter och produkter. Det är bra att inte exponera huden för starkt solljus och att undvika att använda hudirriterande produkter som retinol eller exfolierande syror några dagar före din behandling. Dessa åtgärder minimerar risken för eventuell hudirritation. Vi betonar vikten av att du kommer till din behandling med en god förståelse för processen.</p>',
+    ),
+    'aftercare' => new Article(
+        title: 'Eftervård och underhåll efter injektionsbehandlingar',
+        image_small: '/bilder/process/358x272/injektioner-eftervard.webp',
+        image_large: '/bilder/process/872x456/injektioner-eftervard.webp',
+        image_alt: 'Eftervård och underhåll efter injektionsbehandlingar',
+        image_title: 'Eftervård och underhåll efter injektionsbehandlingar',
+        content: '<p class="p200">Efter behandlingen kan det uppstå mindre svullnad eller blåmärken, vilket är normalt. Det är viktigt att inte röra eller massera behandlingsområdet under de första dagarna. Om du upplever någon obehag, kan en kall kompress hjälpa till att minska svullnad. För att stödja läkningen, fortsätt att återfukta huden med lämpliga hudvårdsprodukter som rekommenderats av din utövare.</p>
+        <p class="p200 mt-m">Ett balanserat intag av vatten och näringsrik kost är också viktigt för att stödja din huds hälsa inifrån och ut. Undvik att dricka alkohol och begränsa användningen av blodförtunnande läkemedel som kan öka risken för blåmärken. För att upprätthålla resultatet av din behandling, kan regelbundna uppföljningsbehandlingar rekommenderas av din specialist. Om du har några frågor eller funderingar kring din eftervård, tveka inte att kontakta oss på AcneSpecialisten för personlig rådgivning och stöd.</p>',
+    ),
+);
 
 $results_title = 'Estetiska injektionsbehandlingar före och efter resultat';
 $results = array(
