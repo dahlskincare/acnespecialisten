@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'IPL för Hudföryngring - Alma Rejuve Dye-VL';
 $seo_description = 'En avancerad version av IPL-tekniken, specialdesignad för att effektivt behandla pigmentfläckar, ytliga blodkärl och rosacea med en unik ljusvåglängd.';
-$seo_keywords = 'Alma Rejuve Dye-VL, IPL-behandling';
+$seo_keywords = 'ipl för hudföryngring, rejuve dye-vl';
 
 $seo_image = '/images/treatments/large/alma-rejuve-dye-vl.webp';
 

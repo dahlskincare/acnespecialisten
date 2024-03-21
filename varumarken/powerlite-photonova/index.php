@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'IPL laser behandling - Powerlite Photonova';
 $seo_description = 'Powerlite Photonova är en effektiv IPL laser behandling utformad för att effektivt behandla allt från pigmentfläckar, ytliga blodkärl till rosacea.';
-$seo_keywords = 'ipl laser, powerlite, photonova, ipl laser behandling';
+$seo_keywords = 'ipl laser, powerlite, photonova';
 
 $seo_image = '/images/treatments/large/powerlite-photonova.webp';
 

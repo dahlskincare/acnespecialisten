@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'PRX T33 behandling i Stockholm';
+$seo_title = 'PRX T33 Behandling i Stockholm';
 $seo_description = 'PRX T33 ger djupgående resultat mot rynkor, fina linjer, pigmenteringar och bristningar, utan den flagnande hy som traditionella peelingar medför.';
-$seo_keywords = 'PRX T33, kemisk peeling';
+$seo_keywords = 'prx t33, prx behandling, prx t33 behandling';
 
 $seo_image = 'images/treatments/large/prx-t33.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'PRX T33 behandling',
+    title: 'PRX T33 behandling i Stockholm',
     duration: null,
     price: null,
     content: '<p class="p200">PRX T33 är en avancerad form av kemisk peeling som inriktar sig på att effektivt förbättra hudens utseende och kvalitet. Denna innovativa behandling är särskilt lämplig för dig som vill adressera hudproblem såsom acneärr, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer.</p>',
@@ -282,7 +282,7 @@ $types = array(
 
 $big_types = array(
     new Service(
-        title: 'Boosta din PRX T33-behandling med Microneedling',
+        title: 'Boosta din PRX T33 behandling med Microneedling',
         duration: null,
         price: null,
         content: '<p class="p200">För att ta din PRX T33 behandling till nästa nivå, introducerar vår klinik en innovativ kombinationsbehandling som kombinerar fördelarna med PRX T33 och microneedling för att maximera hudens förnyelse och lyster. Genom denna konbinations metod uppnås en djupgående förbättring av hudens kvalitet, spänst och lyster, samtidigt som den minimala återhämtningstiden bibehålls.</p>
@@ -383,11 +383,11 @@ $bottom_articles = array(
         <p class="p200 mt-m">Det är också viktigt att skydda din hud mot solen och undvika att använda brun-utan-sol-produkter veckan före din behandling. Denna försiktighetsåtgärd minskar risken för oönskade reaktioner och säkerställer att din hud är i bästa skick för att ta emot behandlingen. Vidare, informera din hudterapeut om eventuella mediciner du använder eller om du har några aktuella hudtillstånd, så att behandlingen kan anpassas på ett säkert och effektivt sätt. Tveka inte att kontakta oss om du har några frågor eller oro inför din PRX T33-behandling – vi är här för att se till att din upplevelse blir så bekväm och givande som möjligt.</p>',
     ),
     'aftercare' => new Article(
-    title: 'Eftervård vid PRX T33',
+    title: 'PRX T33 eftervård',
     image_small: '/bilder/process/358x272/prx-t33-eftervard.webp',
     image_large: '/bilder/process/872x456/prx-t33-eftervard.webp',
-    image_alt: 'Eftervård vid PRX T33',
-    image_title: 'Eftervård vid PRX T33',
+    image_alt: 'PRX T33 eftervård',
+    image_title: 'PRX T33 eftervård',
     content: '<p class="p200">Eftervård är en avgörande del av processen för att uppnå optimala resultat från din PRX-T33 behandling. För att säkerställa att din hud får den vård den behöver efter denna innovativa behandling, inkluderar vi ett skräddarsytt eftervårdskit som en del av din behandlingsplan. Detta kit är designat för att stödja och maximera din huds återhämtningsprocess och förbättra de långsiktiga resultaten av din behandling.</p>
     <p class="p200 mt-m">Det eftervårdskit du mottar ska användas under de första tre dagarna efter din behandling. Kitet innehåller noggrant utvalda produkter som är anpassade för att vårda, återfukta och skydda din hud under den kritiska återhämtningsperioden. Genom att följa eftervårdsinstruktionerna och använda produkterna i kitet som angivet, kan du hjälpa din hud att bibehålla optimal fuktbalans, minska risken för irritation och främja en snabbare återhämtning.</p>',
     ),
@@ -404,6 +404,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'PRX T33 före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
