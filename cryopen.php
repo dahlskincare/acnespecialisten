@@ -544,7 +544,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Kan man ta bort och frysa bort födelsemärken själv?',
-            text: '<p class="p200">Nej, det rekommenderas inte att man försöker ta bort eller frysa bort födelsemärken själv. Födelsemärken kan variera stort i form, storlek och djup, och det krävs rätt bedömning för att avgöra den mest lämpliga behandlingen. Att använda produkter som CryoPen hemma utan tillräcklig kunskap eller erfarenhet kan leda till oönskade resultat, inklusive infektion, ärrbildning eller i värsta fall missa en diagnos av hudcancer. Professionell bedömning av en hudläkare eller certifierad specialist är avgörande för en säker och effektiv borttagning av födelsemärken.</p>'
+            text: '<p class="p200">Nej, det rekommenderas inte att man försöker ta bort eller frysa bort födelsemärken. Man ska inte heller försöka ta bort en fettknöl själv eller använda seborroisk keratos behandla själv lösningar. Födelsemärken kan variera stort i form, storlek och djup, och det krävs rätt bedömning för att avgöra den mest lämpliga behandlingen. Att använda produkter som CryoPen hemma utan tillräcklig kunskap eller erfarenhet kan leda till oönskade resultat, inklusive infektion, ärrbildning eller i värsta fall missa en diagnos av hudcancer. Professionell bedömning av en hudläkare eller certifierad specialist är avgörande för en säker och effektiv borttagning av födelsemärken.</p>'
         ),
         new Question(
             title: 'CryoPen biverkningar?',
