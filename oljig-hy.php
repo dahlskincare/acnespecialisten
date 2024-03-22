@@ -646,7 +646,6 @@ $brands_url_title = "Se alla varumärken";
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
 

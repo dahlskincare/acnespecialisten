@@ -97,6 +97,8 @@ $treatment_steps = array(
       ),
 );
 
+$treatment_link = '<a href="hudproblem/blandhy/blandhybehandling" title="Utforska effektiv fet hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för fet hy</a>';
+
 $top_articles = array(
       'areas' => new Article(
             title: 'Fet hy områden',
@@ -136,7 +138,7 @@ $service = new Service(
       title: 'Konsultation för fet hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Din resa mot en balanserad hud börjar med en personlig konsultation hos AcneSpecialisten. Under mötet analyserar en erfaren hudterapeut din feta hy, tar före-bilder, och diskuterar med dig för att förstå din huds unika behov. Vi rekommenderar den mest effektiva behandlingsmetoden för din hudtyp och utformar en anpassad behandlingsplan specifikt för dig.',
+      content: 'Under konsultationen får du träffa en av våra hudterapeuter som analyserar din feta hy, tar före-bilder, och rekommenderar den mest effektiva behandlingsmetoden för din hudtyp och utformar en anpassad behandlingsplan specifikt för dig.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -163,7 +165,7 @@ $services = array(
             title: 'Ansiktsbehandling för fet hy',
             duration: '60 min',
             price: '995 kr',
-            content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med fet hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig olja och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer. Behandlingen syftar även till att återställa hudens naturliga balans, vilket minskar oönskad glans och ger en förbättrad hudtextur och en hälsosam lyster.',
+            content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med fet hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig talg och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
@@ -191,7 +193,7 @@ $products = array(
             title: 'Produkter mot fet hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Att hantera fet hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning av våra specialutformade produkter såsom ansiktsrengöring, ansiktskräm och dagkräm för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa. Dessa produkter är utvecklade för att ge en ren, fräsch känsla och en klarare hud.',
+            content: 'Att hantera fet hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning produkter såsom ansiktsrengöring, ansiktskräm och dagkräm för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
@@ -643,7 +645,6 @@ $brands_url_title = "Se alla varumärken";
                                     } ?>
                               </div>
                               <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
 
