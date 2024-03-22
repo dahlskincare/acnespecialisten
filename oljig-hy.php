@@ -139,7 +139,7 @@ $service = new Service(
       title: 'Konsultation för oljig hy',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Ditt första steg mot en mer balanserad hud är en personlig konsultation hos AcneSpecialisten. Under denna konsultation kommer en av våra erfarna hudterapeuter att noggrant analysera din oljiga hy, ta före-bilder och diskutera dina specifika hudvårdsbehov. Vi kommer att rekommendera den mest effektiva behandlingsmetoden för just din hudtyp och utforma en skräddarsydd behandlingsplan för att hantera din oljiga hy.',
+      content: 'Under denna konsultation kommer en av våra erfarna hudterapeuter att noggrant analysera din oljiga hy, ta före-bilder och diskutera dina specifika hudvårdsbehov. Vi kommer att rekommendera den mest effektiva behandlingsmetoden för just din hudtyp och utforma en skräddarsydd behandlingsplan för att hantera din oljiga hy.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -166,7 +166,7 @@ $services = array(
             title: 'Ansiktsbehandling för oljig hy',
             duration: '60 min',
             price: '995 kr',
-            content: 'Vår specialanpassade ansiktsbehandling för oljig hy är utformad för att effektivt tackla de utmaningar som kommer med denna hudtyp. Fokus ligger på djuprengöring för att avlägsna överflödig olja och föroreningar, samt specialiserade exfolieringstekniker för att minska risken för tilltäppta porer. Behandlingen strävar även efter att återställa hudens naturliga balans, minska oljig glans och förbättra hudens textur och utstrålning.',
+            content: 'Vår specialanpassade ansiktsbehandling för oljig hy är utformad för att effektivt tackla de utmaningar som kommer med denna hudtyp. Behandlingen strävar även efter att återställa hudens naturliga balans, minska oljig glans och förbättra hudens textur och utstrålning.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
@@ -194,7 +194,7 @@ $products = array(
             title: 'Produkter mot oljig hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt hantera oljig hy är det viktigt att välja rätt produkter som kan hjälpa till att kontrollera och balansera talgproduktionen, utan att torka ut huden. Vårt sortiment av produkter designade för oljig hy innehåller ingredienser som är noggrant utvalda för att minska glans och förbättra hudens allmänna tillstånd, bidragande till en fräschare och klarare hud.',
+            content: 'För att effektivt hantera oljig hy är det viktigt att välja rätt hudvårdsprodukter som kan hjälpa till att kontrollera och balansera talgproduktionen, utan att torka ut huden.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
@@ -299,22 +299,23 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Vad orsakar oljig hy?',
+                  text: 'Oljig hy orsakas av överproduktion av talg från talgkörtlarna. Detta kan bero på genetiska faktorer, hormonella förändringar, stress och felaktig hudvård. Att identifiera den underliggande orsaken är ett viktigt steg mot att hantera oljig hy effektivt.'
             ),
+
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  title: 'Vilka hudprodukter rekommenderas för oljig hy?',
+                  text: 'För att behandla oljig hud effektivt rekommenderar vi en skräddarsydd hudvårdsrutin av rätt produkter för just din hy. På så sätt kan du effektivt behandla och balansera din hy för att bli av med glansigheten. Med rätt hudvård för oljig hy behöver du inte anpassa dina övriga produkter, och behöver därmed inte välja en primer eller foundation för oljig hy utan kan välja den produkt som passar dina preferenser.'
             ),
-      ),
-      'Frågor om behandling' => array(
+
             new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'Hur ofta ska jag tvätta mitt ansikte om jag har oljig hy?',
+                  text: 'Personer med oljig hy bör tvätta ansiktet två gånger dagligen, morgon och kväll, med en mild rengöring för att kontrollera oljeproduktionen utan att torka ut huden. Att överdriva rengöringen kan leda till ökad oljeproduktion som en reaktion på hudirritation eller uttorkning.'
             ),
+
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Kan oljig hy dra nytta av ansiktsmasker, och i så fall vilka typer?',
+                  text: 'Ja, ansiktsmasker kan vara fördelaktiga för oljig hy, särskilt de som innehåller lera, eftersom de hjälper till att absorbera överflödig olja. Ansiktsmask oljig hy bör användas regelbundet, men inte för ofta, för att undvika att huden torkar ut.'
             ),
       ),
 );
