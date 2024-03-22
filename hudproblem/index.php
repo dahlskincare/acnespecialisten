@@ -72,7 +72,7 @@ $problems['akne'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr'] = new Problem(
       button_label: 'Akneärr',
@@ -86,7 +86,7 @@ $problems['aknearr'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar'] = new Problem(
       button_label: 'Finnar',
@@ -184,7 +184,7 @@ $problems['blandhy'] = new Problem(
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Ansikte med hudproblemet Blandhy',
       image_title: 'Blandhy',
-      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torr hy med finnar och pormaskar. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
 );
 $problems['pigmentflackar'] = new Problem(
       button_label: 'Pigmentfläckar',
@@ -339,7 +339,7 @@ $problems['akne-ansikte'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne i ansiktet',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-ansikte'] = new Problem(
       button_label: 'Akneärr i ansiktet',
@@ -353,7 +353,7 @@ $problems['aknearr-ansikte'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr i ansiktet',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-ansikte'] = new Problem(
       button_label: 'Finnar i ansiktet',
@@ -451,7 +451,7 @@ $problems['blandhy-ansikte'] = new Problem(
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Ansikte med hudproblemet Blandhy',
       image_title: 'Blandhy i ansiktet',
-      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torr hy med finnar och pormaskar. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
 );
 $problems['pigmentflackar-ansikte'] = new Problem(
       button_label: 'Pigmentfläckar i ansiktet',
@@ -661,7 +661,7 @@ $problems['akne-rygg'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne på ryggen',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-rygg'] = new Problem(
       button_label: 'Akneärr på ryggen',
@@ -675,7 +675,7 @@ $problems['aknearr-rygg'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på ryggen',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-rygg'] = new Problem(
       button_label: 'Finnar på ryggen',
@@ -787,7 +787,7 @@ $problems['akne-brost'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne på bröstet',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-brost'] = new Problem(
       button_label: 'Akneärr på bröstet',
@@ -801,7 +801,7 @@ $problems['aknearr-brost'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på bröstet',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-brost'] = new Problem(
       button_label: 'Finnar på bröstet',
@@ -913,7 +913,7 @@ $problems['akne-panna'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne i pannan',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-panna'] = new Problem(
       button_label: 'Akneärr i pannan',
@@ -927,7 +927,7 @@ $problems['aknearr-panna'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr i pannan',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-panna'] = new Problem(
       button_label: 'Finnar i pannan',
@@ -1039,7 +1039,7 @@ $problems['akne-kinder'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne på kinderna',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-kinder'] = new Problem(
       button_label: 'Akneärr på kinderna',
@@ -1053,7 +1053,7 @@ $problems['aknearr-kinder'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på kinderna',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-kinder'] = new Problem(
       button_label: 'Finnar på kinderna',
@@ -1151,7 +1151,7 @@ $problems['blandhy-kinder'] = new Problem(
       image: 'images/problems/424x324/blandhy.webp',
       image_alt: 'Ansikte med hudproblemet Blandhy',
       image_title: 'Blandhy på kinderna',
-      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torra. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
+      info: 'En hudtyp där vissa områden, speciellt T-zonen (panna, näsa, haka), är oljiga, medan kinderna och andra delar av ansiktet kan vara normala eller torr hy med finnar och pormaskar. Denna blandning av hudtyper kräver en balanserad hudvårdsrutin som kan hantera både torrhet och överproduktion av talg.'
 );
 $problems['pigmentflackar-kinder'] = new Problem(
       button_label: 'Pigmentfläckar på kinderna',
@@ -1277,7 +1277,7 @@ $problems['akne-nasa'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne på näsan',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-nasa'] = new Problem(
       button_label: 'Akneärr på näsan',
@@ -1291,7 +1291,7 @@ $problems['aknearr-nasa'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på näsan',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-nasa'] = new Problem(
       button_label: 'Finnar på näsan',
@@ -1445,7 +1445,7 @@ $problems['akne-runt-munnen'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne runt munnen',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-runt-munnen'] = new Problem(
       button_label: 'Akneärr runt munnen',
@@ -1459,7 +1459,7 @@ $problems['aknearr-runt-munnen'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr runt munnen',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-runt-munnen'] = new Problem(
       button_label: 'Finnar runt munnen',
@@ -1515,7 +1515,7 @@ $problems['akne-haka'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne på hakan',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-haka'] = new Problem(
       button_label: 'Akneärr på hakan',
@@ -1529,7 +1529,7 @@ $problems['aknearr-haka'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på hakan',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-haka'] = new Problem(
       button_label: 'Finnar på hakan',
@@ -1669,7 +1669,7 @@ $problems['akne-kaklinje'] = new Problem(
       image: 'images/problems/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['aknearr-kaklinje'] = new Problem(
       button_label: 'Akneärr på käklinjen',
@@ -1683,7 +1683,7 @@ $problems['aknearr-kaklinje'] = new Problem(
       image: 'images/problems/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr på käklinjen',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av akne. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar-kaklinje'] = new Problem(
       button_label: 'Finnar på käklinjen',

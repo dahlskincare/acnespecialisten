@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Effektiva Ansiktsbehandlingar för Problemhy';
 $seo_description = 'Upptäck skräddarsydda ansiktsbehandlingar för problemhy som akne, rosacea, och mer. Få klarare hud med våra expertanpassade lösningar. Boka din tid idag!';
-$seo_keywords = 'problemhy, ansiktsbehandlingar, hudproblem, behandla problemhy';
+$seo_keywords = 'problemhy, hudproblem, hudproblem ansikte';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Ansiktsbehandling mot problemhy',
+    title: 'Hudproblem i Ansiktet - Ansiktsbehandling mot problemhy',
     duration: '60 min',
     price: 'Från 999 kr',
     content: '',
@@ -72,8 +72,8 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad innebär ansiktsbehandling mot problemhy?';
-$description_text = '<p class="p200">Dessa behandlingar skräddarsydds för en mängd olika hudproblem. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann exfoliering.</p>
+$description_title = 'Vad innebär ansiktsbehandling mot problemhy hudproblem i ansiktet?';
+$description_text = '<p class="p200">Dessa behandlingar skräddarsydds för en mängd olika hudproblem. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann exfoliering. Perfekt för dig som upplever att du har dålig hy i ansiktet som vuxen.</p>
 <p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa en balanserad och problemfri hy.</p>';
 
 $top_articles = array(
@@ -117,7 +117,7 @@ $types = array(
         title: 'Ansiktsbehandling mot Akne',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling anpassad för akne med fokus på att klämma ut papler, pustler och komedoner.',
+        content: 'Ansiktsbehandling mot acne hy anpassad för olika typer av akne med fokus på att klämma ut papler, pustler och komedoner. Perfekt för dig som lider av blemmor i ansiktet och vi behandlar allt från mild till grov akne.',
         image_small: 'bilder/hudproblem/102x102/akne.webp',
         image_large: 'bilder/hudproblem/200x200/akne.webp',
         image_alt: 'Ansiktsbehandling mot Akne',
@@ -137,7 +137,7 @@ $types = array(
         title: 'Ansiktsbehandling mot Pormaskar',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling anpassad för pormaskar med fokus på att rengöra porer och klämma ut pormaskar.',
+        content: 'Ansiktsbehandling anpassad för pormaskar som upplevs som svarta prickar i ansiktet eller prickig hy med fokus på att rengöra porer och klämma ut pormaskar. Vi behandlar alla områden såsom pormaskar runt munnen.',
         image_small: 'bilder/hudproblem/102x102/pormaskar.webp',
         image_large: 'bilder/hudproblem/200x200/pormaskar.webp',
         image_alt: 'Ansiktsbehandling mot Pormaskar',
@@ -178,7 +178,7 @@ $types = array(
         title: 'Ansiktsbehandling mot Finnar',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling mot finnar som djuprengör, behandlar och klämmer ut finnar finnar, samtidigt som den balanserar hudens talgproduktion och minskar inflammation.',
+        content: 'Ansiktsbehandling mot olika typer av finnar ansikte som djuprengör, behandlar och klämmer ut finnar, samtidigt som den balanserar hudens talgproduktion och minskar inflammation för att bli av med stora som små finnar. Utmärkt för dig som lider av röda eller vita finnar av torr hy eller fet hy.',
         image_small: 'bilder/hudproblem/102x102/finnar.webp',
         image_large: 'bilder/hudproblem/200x200/finnar.webp',
         image_alt: 'Ansiktsbehandling mot Finnar',
@@ -198,7 +198,7 @@ $types = array(
         title: 'Ansiktsbehandling för Blandhy',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling för blandhy som balanserar och återfuktar, samtidigt som den djuprengör och tar bort pormaskar för en jämnare hudton.',
+        content: 'Ansiktsbehandling för blandhy som kan vara oljig eller torr med finnar och pormaskar. Balanserar och återfuktar huden, samtidigt som den djuprengör och tar bort pormaskar för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/blandhy.webp',
         image_large: 'bilder/hudproblem/200x200/blandhy.webp',
         image_alt: 'Ansiktsbehandling för Blandhy',
@@ -218,7 +218,7 @@ $types = array(
         title: 'Ansiktsbehandling mot Milier',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling för milier inriktad på att varsamt öppna upp de små, vita cystorna som saknar poröppning, för att noggrant extrahera dem och ge en klarare hud.',
+        content: 'Ansiktsbehandling för milier som uppstår som vita prickar i ansiktet eller på näsan, inriktad på att varsamt öppna upp de små, vita cystorna som saknar poröppning, för att noggrant extrahera dem och ge en klarare hud.',
         image_small: 'bilder/hudproblem/102x102/milier.webp',
         image_large: 'bilder/hudproblem/200x200/milier.webp',
         image_alt: 'Ansiktsbehandling mot Milier',
@@ -238,7 +238,7 @@ $types = array(
         title: 'Ansiktsbehandling för Perioral Dermatit',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling för perioral dermatit som lugnar huden, reducera irritation och rodnad runt munområdet, med fokus på att återställa hudens naturliga balans och lindra symtomen.',
+        content: 'Ansiktsbehandling för perioral dermatit som lugnar huden, reducera irritation och rodnad runt munområdet, med fokus på att återställa hudens naturliga balans och lindra symtomen. Finnar runt munnen betyder ofta att man har perioral dermatit.',
         image_small: 'bilder/hudproblem/102x102/perioral-dermatit.webp',
         image_large: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
         image_alt: 'Ansiktsbehandling för Perioral Dermatit',
@@ -278,7 +278,7 @@ $types = array(
         title: 'Ansiktsbehandling för Stora Porer',
         duration: null,
         price: null,
-        content: 'Denna behandling är specifikt framtagen för att behandla och minska framträdande stora porer. Vi rengör och tömmer porerna på djupet så att de blir mindre framträdande vilket resulterar i en jämnare och slätare hy.',
+        content: 'Denna behandling är specifikt framtagen för att behandla och minska framträdande stora porer i ansiktet och på kroppen. Vi rengör och tömmer porerna på djupet så att de blir mindre framträdande vilket resulterar i en jämnare och slätare hy.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
         image_alt: 'Ansiktsbehandling för Stora Porer',
@@ -298,7 +298,7 @@ $types = array(
         title: 'Ansiktsbehandling för Torr & Känslig Hy',
         duration: null,
         price: null,
-        content: 'Denna behandling är specifikt framtagen för att nära och lugna torr samt känslig hy. Genom att använda specialanpassade produkter återställer vi hudens fuktbalans, minska rodnad och irritation, och ge huden en mjuk och behaglig känsla.',
+        content: 'Denna behandling är specifikt framtagen för att nära och lugna torr samt känslig hy. Genom att använda specialanpassade produkter återställer vi hudens fuktbalans, minska rodnad och irritation, och ge huden en mjuk och behaglig känsla för att bekämpa flagnande hud. Kan även hjälpa för dig som har torr hy och finnar.',
         image_small: 'bilder/hudproblem/102x102/torr-kanslig-hy.webp',
         image_large: 'bilder/hudproblem/200x200/torr-kanslig-hy.webp',
         image_alt: 'Ansiktsbehandling för Torr & Känslig Hy',
@@ -323,7 +323,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_alt: 'Eftervård och omhändertagande',
     image_title: 'Eftervård och omhändertagande',
     content: '<p class="p200">Efter en ansiktsbehandling är det viktigt med rätt eftervård för att behandla och bibehålla hudens skick. Genom att fortsätta ta hand om huden med rätt hemmavård kan du förlänga och förstärka effekterna av behandlingen. Det handlar inte bara om att använda rätt hudvårdsprodukter utan också om att följa rätt behandlingsrutiner för just ditt behov.</p>
-    <p class="p200 mt-m">Vi på AcneSpecialisten finns här för att hjälpa dig att ta fram den bästa hudvårdsplanen för din hudtyp. Oavsett om det handlar om daglig rengöring, återfuktning eller specialbehandlingar, så kommer vi att vägleda dig genom varje steg för att säkerställa att din hud får den vård den förtjänar. Kom ihåg, rätt eftervård är nyckeln till en frisk och strålande hud!</p>',
+    <p class="p200 mt-m">Vi på AcneSpecialisten finns här för att hjälpa dig att ta fram den bästa hudvårdsplanen för din hudtyp. Oavsett om det handlar om daglig rengöring, återfuktning eller specialbehandlingar, så kommer vi att vägleda dig genom varje steg för att säkerställa att din hud får den vård den förtjänar. Vi kan även hjälpa dig att behandla gropig hy och annan ärrbildning som uppstår efter problemhy. Kom ihåg, rätt eftervård är nyckeln till en frisk och strålande hud!</p>',
 ));
 
 $results = array(
