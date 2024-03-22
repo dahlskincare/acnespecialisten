@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är Perioral Dermatit? - Orsak, Behandling och Förebygg';
-$seo_description = 'Här hittar du allt om perioral dermatit och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'perioral dermatit, finnar runt munnen, akne runt munnen';
+$seo_title = 'Perorial Dermatit Behandling och Information';
+$seo_description = 'Har du utslag runt munnen? Då kan det vara perioral dermatit. Boka en gratis hudkonsultation så skräddarsyr vi rätt behandling →';
+$seo_keywords = 'perioral dermatit, finnar runt munnen, perioral dermatit behandling, utslag runt munnen, acne runt munnen, akne runt munnen, finnar runt munnen, finnar som kliar';
 
 $title = 'Perioral Dermatit';
 
@@ -112,7 +112,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder noggrant anpassade och effektiva behandlingar för perioral dermatit. Dessa behandlingsplaner är utformade för att lindra symptomen snabbt och säkert.',
+            content: 'Vi erbjuder noggrant anpassade och effektiv perioral dermatit behandling. Dessa behandlingsplaner är utformade för att lindra symptomen snabbt och säkert.',
 
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis',
@@ -279,7 +279,7 @@ $type_categories = array(
 
 );
 */
-$symptoms_title = 'Perioral dermatit symptom';
+$symptoms_title = 'Perioral dermatit bilder och symptom';
 
 $symptoms = array(
       new Symptom(
@@ -376,7 +376,7 @@ $service = new Service(
 );
 
 
-$headline02 = "02. Behandla perioral dermatit";
+$headline02 = "02. Perioral Dermatit Behandling";
 
 $services = array(
       new Service(
@@ -408,10 +408,10 @@ $headline03 = "03. Förebygg uppkomsten av ny perioral dermatit";
 
 $products = array(
       new Service(
-            title: 'Produkter mot Perioral Dermatit',
+            title: 'Perioral Dermatit Produkter',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Daglig skötsel av huden är viktig för att hålla perioral dermatit i schack. Vi rekommenderar produkter som är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
+            content: 'Daglig skötsel av huden är viktig för att hålla ditt hudproblem i schack. Vi rekommenderar produkter som perioral dermatit kräm är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
@@ -560,6 +560,10 @@ $faq_categories = array(
             new Question(
                   title: 'Finns det något sätt att förebygga återkommande episoder av perioral dermatit?',
                   text: '<p class="p200">Eftersom den exakta orsaken till perioral dermatit inte alltid är känd, kan det vara svårt att förebygga återkommande episoder helt och hållet. Undvikande av kända utlösande faktorer, såsom topiska steroider och vissa hudvårdsprodukter, kan dock minska risken för återfall. Genom att behandla huden med effektiva hudvårdsprodukter kan du anpassa behandlingens intensitet beroende på huden.</p>'
+            ),
+            new Question(
+                  title: 'Fungerar äppelcidervinäger mot perioral dermatiti?',
+                  text: '<p class="p200">Äppelcidervinäger har diskuterats som en naturlig behandling för olika hudtillstånd, inklusive perioral dermatiti. Vissa personer rapporterar en lindring av symtomen genom att använda utspädd äppelcidervinäger lokalt. Det är dock viktigt att komma ihåg att det vetenskapliga stödet för dess effektivitet är begränsat och att äppelcidervinäger kan irritera huden, särskilt de med känslig hud som är vanligt för hudtypen. Vi rekommenderar att du konsulterar med en hudterapeut innan du testar hembehandlingar för perioral dermatiti, som kan ge dig råd om säkra och effektiva behandlingsalternativ anpassade för just din hud.</p>'
             ),
       ),
 );
