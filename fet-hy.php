@@ -97,8 +97,6 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="hudproblem/blandhy/blandhybehandling" title="Utforska effektiv fet hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för fet hy</a>';
-
 $top_articles = array(
       'areas' => new Article(
             title: 'Fet hy områden',
