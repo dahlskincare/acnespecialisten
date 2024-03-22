@@ -5,21 +5,21 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Fet Hy - Orsaker, Behandling och Vård';
-$seo_description = 'Upptäck allt om fet hy och hur du bäst hanterar den. Få experttips och skräddarsydda lösningar från Acnespecialisten för en klarare och friskare hud.';
-$seo_keywords = 'fet hy, behandling av fet hy, orsaker till fet hy, hudvård, balansera fet hy, hudproblem, hudvårdsexpert, Acnespecialisten, ansiktsvård, hudhälsa';
+$seo_title = 'Fet Hy i Ansiktet - Orsak + Behandling | AcneSpecialisten';
+$seo_description = 'Läs mer om fet hud och hur vi kan hjäpla dig att bli av med fet hy i ansiktet. Boka en konsultation idag och få skräddarsydd hudvård för just din hy!';
+$seo_keywords = 'fet hy, fet hud, fet och torr hy, hudvård för fet hy, flottig, ansiktskräm fet hy, fet hy i ansiktet, hudvård för fet hy';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
-$title = 'Fet Hy';
+$title = 'Fet Hy i Ansiktet';
 
 $image_small = 'bilder/hudproblem/424x324/blandhy.webp';
 $image_large = 'bilder/hudproblem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med fet hy';
 $image_alt = 'Bild som illustrerar utseendet av fet hy';
-$description = 'I denna avsnittet förklarar vi vad som kännetecknar fet hy, varför det uppstår och hur Acnespecialisten kan hjälpa dig att hantera och behandla ditt hudtillstånd. Vi diskuterar orsaker till fet hy, hur den skiljer sig från andra hudtyper, och hur vi kan stödja dig genom din personliga hudvårdsresa.';
+$description = 'Kan också beskrivas som oljig hy, glansig hy eller blank hy. Här förklarar vi vad som kännetecknar fet hy, varför problemet uppstår och hur vi kan hjälpa dig.';
 
 $akas = [
       new Link(
@@ -67,8 +67,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Fet Hy?';
-$description_text = '<p class="p200">Fet hy kännetecknas av ökad talgproduktion vilket ger en oljig yta och kan leda till tilltäppta porer och acne. Det är viktigt att hantera fet hy med rätt produkter och behandlingar för att balansera oljeproduktionen och bibehålla en klar hudton.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade behandlingar för fet hy. Detta inkluderar djuprengörande ansiktsbehandlingar, användning av specialprodukter för att reglera oljeproduktionen, och behandlingar som effektivt tar itu med acne och andra hudproblem som ofta förekommer hos personer med fet hy. Vårt mål är att hjälpa dig uppnå en balanserad, klar och frisk hud.</p>';
+$description_text = '<p class="p200">Fet hy eller flottig hud kännetecknas av ökad talgproduktion vilket ger en oljig yta och kan leda till tilltäppta porer och acne. Det är viktigt att hantera fet hy med rätt produkter och behandlingar för att balansera talgproduktionen och bibehålla en klar hudton.</p>
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade behandlingar för fet hy. Detta inkluderar djuprengörande ansiktsbehandlingar, användning av specialprodukter för att reglera talgproduktionen, och behandlingar som effektivt tar itu med acne och andra hudproblem som ofta förekommer hos personer med fet hy. Vårt mål är att hjälpa dig uppnå en balanserad, klar och frisk hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -81,7 +81,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder behandlingar som är specifikt utformade för att hantera utmaningarna med fet hy, inklusive djuprengöring, reglering av oljeproduktion och minimering av acne. Våra behandlingar syftar till att återställa balansen och förbättra hudens hälsa.',
+            content: 'Vi erbjuder hudvård för fet hy som är specifikt utformade för att hantera utmaningarna som hudproblemet orsakar, inklusive djuprengöring och reglering av talgproduktion.',
 
             url_label: 'Utforska behandlingar',
             url: 'hudproblem/blandhy/blandhybehandling',
@@ -106,7 +106,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Fet hy kännetecknas ofta av en ökad oljeproduktion i specifika områden av ansiktet, särskilt i T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
+            content: '<p class="p200">Hudproblemet kännetecknas ofta av en ökad talgproduktion i specifika områden såsom fet hy i ansiktet, problemet är vanligast i  T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
       <p class="p200 mt-m">Orsaken till fet hy i dessa områden kan variera och inkluderar faktorer som genetik, hormonella förändringar och yttre miljöpåverkan. Att förstå de specifika orsakerna och hur de påverkar din hud är avgörande för att kunna välja rätt behandlingsmetoder och hudvårdsprodukter. Hos AcneSpecialisten genomför vi en noggrann hudanalys för att identifiera dina unika hudbehov och utforma en personlig behandlingsplan för att hantera fet hy effektivt.</p>',
       ),
 );
@@ -118,7 +118,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med fet hy?',
             image_title: 'När ska jag söka hjälp med fet hy?',
-            content: '<p class="p200">Fet hy är en vanlig hudåkomma som kan påverka individer i alla åldrar. Detta tillstånd, som kännetecknas av ökad oljeproduktion, kan leda till en glansig hud och ökad benägenhet för acneutbrott. Om du märker att din fet hy bidrar till hudproblem eller om du har försökt hantera det med olika produkter utan framgång, kan det vara dags att överväga professionell hjälp. Kom ihåg, det är lämpligt att söka hjälp oavsett om du upplever milda eller allvarliga symptom.</p>',
+            content: '<p class="p200">Fet hy är en vanlig hudåkomma som kan påverka individer i alla åldrar. Detta tillstånd, som kännetecknas av ökad talgproduktion, kan leda till en glansig hud och ökad benägenhet för acneutbrott. Om du märker att din fet hy bidrar till hudproblem eller om du har försökt hantera det med olika produkter utan framgång, kan det vara dags att överväga professionell hjälp. Kom ihåg, det är lämpligt att söka hjälp oavsett om du upplever milda eller allvarliga symptom.</p>',
       ),
 
       new Article(
@@ -193,7 +193,7 @@ $products = array(
             title: 'Produkter mot fet hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Att hantera fet hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning av våra specialutformade produkter för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa. Dessa produkter är utvecklade för att ge en ren, fräsch känsla och en klarare hud.',
+            content: 'Att hantera fet hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning av våra specialutformade produkter såsom ansiktsrengöring, ansiktskräm och dagkräm för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa. Dessa produkter är utvecklade för att ge en ren, fräsch känsla och en klarare hud.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
@@ -297,22 +297,23 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Hur kan jag kontrollera glansighet orsakad av fet hy?',
+                  text: 'För att kontrollera glansighet orsakad av fet hy är daglig användning av en ansiktsrengöring, dagkräm och ansiktskräm mot fet hy hjälper för att behandla och balansera huden effektivt. Regelbunden exfoliering för att avlägsna döda hudceller och rengöra porerna kan även bidra till mindre talgproduktion.'
             ),
+
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  title: 'Vilka typer av ansiktsrengöring är bäst för fet hy?',
+                  text: 'För fet hy är det bäst att använda ansiktsrengöringar som effektivt kan avlägsna överflödig olja utan att torka ut huden. Produkter som innehåller ingredienser såsom salicylsyra kan också hjälpa till att hålla porerna rena och minska oljighet. Det är viktigt att välja produkter som är milda nog för daglig användning för att undvika irritation och överproduktion av olja som en försvarsmekanism.'
             ),
-      ),
-      'Frågor om behandling' => array(
+
             new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'Kan stress orsaka eller förvärra fet hy?',
+                  text: 'Ja, stress kan definitivt orsaka eller förvärra fet hy. Stress leder till ökad produktion av hormon som kan stimulera talgkörtlarna att producera mer talg. Att hantera stress genom avslappningstekniker, motion och tillräcklig sömn kan hjälpa till att minska hudens talgproduktion och förbättra hudens övergripande tillstånd.'
             ),
+
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Är det möjligt att förändra hudtyp från fet till normal?',
+                  text: 'Ja, det är möjligt att balansera och förbättra hudens tillstånd så att den blir mindre fet. Genom en lämplig hudvårdsrutin kan man minska talgproduktionen och närma sig en mer balanserad och "normal" hudtyp.'
             ),
       ),
 );

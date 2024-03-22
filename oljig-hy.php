@@ -13,7 +13,7 @@ $seo_keywords = 'oljig hy, oljig hud, oljig, oljig hy i pannan, glansig hy';
 
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
-$title = 'Oljig hy';
+$title = 'Oljig hy i Ansiktet';
 
 $image_small = 'bilder/hudproblem/424x324/blandhy.webp';
 $image_large = 'bilder/hudproblem/424x456/blandhy.webp';
