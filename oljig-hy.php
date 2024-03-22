@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Oljig Hy - Orsaker, Behandling och Vård';
-$seo_description = 'Utforska allt om oljig hy och de bästa sätten att hantera den. Få expertråd och anpassade lösningar från Acnespecialisten för en balanserad och frisk hud.';
-$seo_keywords = 'oljig hy, behandling av oljig hy, orsaker till oljig hy, hudvård, kontrollera oljig hy, hudproblem, hudvårdsexpert, Acnespecialisten, ansiktsvård, hudhälsa';
+$seo_title = 'Oljig Hy i Ansiktet - Orsak + Behandling | AcneSpecialisten';
+$seo_description = 'Läs mer om hur vi effektivt behandlar glansig och oljig hy i pannan och på ansiktet. Vi skapar skräddarsydda lösningar för dig. Boka gratis konsultation idag!';
+$seo_keywords = 'oljig hy, oljig hud, oljig, oljig hy i pannan, glansig hy';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
