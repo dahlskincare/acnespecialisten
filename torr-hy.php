@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är torr och känslig hy? - Symptom, orsak och behandling';
-$seo_description = 'Här hittar du allt om torr och känslig hy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'torr hy, torr hud, känslig hy, känslig hud, hudvård, förebygga torr hud';
+$seo_title = 'Torr hy i ansiktet Behandling och Information';
+$seo_description = 'Torr hy är en vanlig typ av problemhy. På AcneSpecialisten hjälper vi dig att behandla torr hy med skräddarsydda lösningar för dig. Läs mer och boka tid i dag →';
+$seo_keywords = 'torr hy, torr hud, torr hud ansikte, fjällar';
 
 $title = 'Torr och Känslig Hy';
 
@@ -20,7 +20,7 @@ $image_small = 'bilder/hudproblem/424x324/torr-kanslig-hy.webp';
 $image_large = 'bilder/hudproblem/424x456/torr-kanslig-hy.webp';
 $image_title = 'Visar en hy som är torr och känslig';
 $image_alt = 'Bild som illustrerar hur torr och känslig hy ser ut';
-$description = 'Torr och känslig hy är benägen att rodna med irritation och flagnande hy. Vi diskuterar de underliggande orsakerna till torrhet och känslighet samt hur denna hudtyp kan bäst behandlas.';
+$description = 'Torr fjällande hud i ansiktet samt känslig hy är benägen att rodna med irritation och flagnande hy. Här får du svar på frågor såsom varför fjällar huden och varför flagnar huden, samt mer information om fjällande hud i ansiktet samt hur denna hudtyp kan bäst behandlas.';
 
 $akas = [
       new Link(
@@ -84,7 +84,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är torr och känslig hy?',
             content: '<p class="p200">Torr och känslig hy är mer än bara ett kosmetisk besvär; det är en hudtillstånd som kan ha både fysiska och psykologiska effekter på dem som lider av det. Denna hudtyp kännetecknas av en brist på tillräcklig fukt, vilket leder till en försvagad hudbarriär. Detta gör huden mindre effektiv på att hålla kvar fukt och mer benägen att reagera på olika yttre faktorer som temperaturändringar, kosmetiska produkter och till och med kranvatten. Symptomen kan inkludera klåda, rodnad, fjällning och en obehaglig känsla av stramhet i huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Torr hy tenderar att åldras snabbare än oljig eller normal hud på grund av flera faktorer. När huden är torr saknar den fukt och talg (olja), vilket är avgörande för att bibehålla hudens elasticitet och smidighet. Här är en närmare förklaring av processen:</p>
+            extended_content: '<p class="p200 mt-xl">Torr hud tenderar att åldras snabbare än oljig eller normal hud på grund av flera faktorer. När huden är torr saknar den fukt och talg (olja), vilket är avgörande för att bibehålla hudens elasticitet och smidighet. Här är en närmare förklaring av processen:</p>
             <p class="p200 mt-xl">Minskad oljeproduktion:<br />Torr hud producerar mindre talg, den naturliga oljan som hjälper till att behålla fukten i huden. När talgproduktionen minskar, kan huden inte behålla fukt lika effektivt, vilket leder till att den blir torr och stram.</p>
             <p class="p200 mt-xl">Försämrad fuktbarriär:<br />Hudens yttre lager, kallat stratum corneum, fungerar som en barriär som skyddar kroppen mot yttre påverkan och hjälper till att behålla fukt. Torr hud har ofta en skadad eller försämrad barriär, vilket gör den mer sårbar för miljöskador som solstrålning och föroreningar. Detta kan accelerera hudens åldrandeprocess.</p>
             <p class="p200 mt-xl">Ökad tendens till fina linjer och rynkor:<br />När huden är torr och uttorkad, blir fina linjer och rynkor mer framträdande. Fuktighet är avgörande för att ge huden dess fylliga, elastiska utseende. Utan tillräcklig fuktighet kan huden inte "plumpas upp" från insidan, vilket gör att tecken på åldrande blir mer synliga.</p>
@@ -96,7 +96,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man torr och känslig hy?',
-            content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Vissa hudvårdsprodukters irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som psoriasis och eksem, bidra till problemet. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
+            content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Vissa hudvårdsprodukters irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som seborré i ansiktet, psoriasis och eksem, bidra till problemet, eller att man får torr hy med finnar. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som dålig kost och brist på vattenintag kan också spela en roll. En diet som är låg i essentiella fettsyror och vitaminer som vitamin E kan påverka hudens förmåga att behålla fukt. Stress och brist på sömn har också visat sig förvärra hudens känslighet och kan leda till ytterligare uttorkning och irritation. Det är viktigt att förstå att en kombination av dessa faktorer oftast ligger bakom problemet, och därför kan en holistisk plan till behandling och förebyggande vara mest effektiv.</p>',
             icons: array('produkter' => 'Produkter', 'stress' => 'Stress', 'klimat' => 'Klimat')
       ),
@@ -110,12 +110,13 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man torr och känslig hy?',
-            content: '<p class="p200">Torr och känslig hud i ansiktet kan särskilt påverka vissa områden mer än andra, vilket gör det viktigt att förstå hur man tar hand om varje specifikt parti. Här är en närmare titt på de mest utsatta områdena i ansiktet:</p>',
+            content: '<p class="p200">Känslig och torr hud i ansiktet kan särskilt påverka vissa områden mer än andra, vilket gör det viktigt att förstå hur man tar hand om varje specifikt parti. Här är en närmare titt på de mest utsatta områdena i ansiktet:</p>',
             extended_content: '<p class="p200 mt-xl">Ögonområdet:<br />Huden runt ögonen är extremt tunn och saknar talgkörtlar, vilket gör den särskilt mottaglig för torrhet och irritation. Torra linjer och rynkor kan bli mer framträdande här på grund av hudens känslighet.</p>
+            <p class="p200 mt-xl">Torr T zon:<br />Om man upplever en torr panna i kombination med torr näsa så formar detta område t zonen som ofta kan bli torr med flagnande hud.</p>
             <p class="p200 mt-xl">Kinderna och kindbenen:<br />Dessa områden kan lida av torrhet, särskilt under vintermånaderna när kall luft och centralvärme bidrar till fuktighetsförlust. Torr hud här kan kännas stram och flagnande.</p>
-            <p class="p200 mt-xl">Näsan:<br />Trots att näsan ofta kan upplevas som oljig, kan sidorna och området under näsan bli torrt och irriterat, särskilt vid förkylningar eller allergier när man ofta använder näsdukar som irriterar huden.</p>
+            <p class="p200 mt-xl"Näsan:<br />Trots att näsan ofta kan upplevas som oljig, kan sidorna och området under näsan bli torrt och irriterat, särskilt vid förkylningar eller allergier när man ofta använder näsdukar som irriterar huden. Man kan även uppleva att man blir torr vid näsvingarna.</p>
             <p class="p200 mt-xl">Hakan och området runt munnen:<br />Dessa områden är benägna att bli torra och spruckna, delvis på grund av rörelser när vi talar eller äter, och påverkas negativt av såväl väder som vissa livsmedel och drycker.</p>
-            <p class="p200 mt-xl">Att hantera torr och känslig hud i ansiktet kräver en skonsam men effektiv hudvårdsrutin och skräddarsydda behandlingar. Det börjar med milda rengöringsprodukter som inte strippar huden på dess naturliga oljor, följt av återfuktande produkter som är fria från irriterande ämnen. Att vara uppmärksam på hur olika områden i ansiktet reagerar på produkter och miljöförändringar är nyckeln till att upprätthålla en hälsosam, återfuktad och lugn hud.</p>',
+            <p class="p200 mt-xl">Att hantera torr fjällande hud i ansiktet kräver en skonsam men effektiv hudvårdsrutin och skräddarsydda behandlingar. Det börjar med milda rengöringsprodukter som inte strippar huden på dess naturliga oljor, följt av återfuktande produkter som är fria från irriterande ämnen för att undvika flagnande hud. Att vara uppmärksam på hur olika områden i ansiktet reagerar på produkter och miljöförändringar är nyckeln till att upprätthålla en hälsosam, återfuktad och lugn hud.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kinder' => 'Kinder', 'panna' => 'Panna')
       ),
 );
@@ -138,7 +139,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som är anpassade för torr och känslig hud, för att förhindra framtida hudproblem och behålla hudens fuktbalans.',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin som inkluderar hudkräm för torr hud anpassade för torr och känslig hud, för att förhindra framtida hudproblem och behålla hudens fuktbalans.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/day-n-night-duo',
@@ -596,7 +597,7 @@ $products = array(
             title: 'Produkter för torr och känslig hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin med rätt produkter. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
+            content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin med ansiktskräm för torr hud. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
 
             image_small: '/bilder/behandlingar/200x200/produkter.webp',
             image_large: '/bilder/behandlingar/200x200/produkter.webp',
@@ -740,6 +741,10 @@ $faq_categories = array(
             new Question(
                   title: 'Hur kan man skilja på torr hud och andra hudåkommor som eksem eller psoriasis?',
                   text: '<p class="p200">Det kan vara svårt att skilja på torr hud och andra hudåkommor som eksem eller seborré utan professionell diagnos. Torr hud är generellt sett karakteriserad av torrhet och flagnande hud, medan eksem och seborré oftast innefattar rodnad, inflammation och ibland klåda. Om du är osäker, är det bäst att söka professionell rådgivning för att fastställa den exakta orsaken och få en anpassad behandlingsplan.</p>'
+            ),
+            new Question(
+                  title: 'Varför flagnar huden?',
+                  text: '<p class="p200">Hudflagnande är ett tecken på att kroppen avlägsnar döda hudceller från ytan för att ge plats åt nya celler. Detta kan orsakas av flera faktorer, inklusive torr hud, solbränna, allergiska reaktioner, vissa hudsjukdomar som eksem eller psoriasis, och efter vissa hudbehandlingar som kemiska peelingar. Att hålla huden återfuktad är viktigt för att minska risken för fjällande hud i ansiktet och på andra delar av kroppen. Om du upplever kraftig eller ihållande flagnande bör du konsultera en hudterapeut för att utesluta underliggande hudtillstånd och få lämplig behandling.</p>'
             ),
       ),
 );

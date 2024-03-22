@@ -117,7 +117,8 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="karriar.php">Karriär</a>
             <a class="b200 underline color-deep-sea-400" href="/varumarken/alma/">Alma</a>
             <a class="b200 underline color-deep-sea-400" href="/hudbehandlingar/estetiska-injektionsbehandlingar/fillers">Fillers</a>
-            <a class="b200 underline color-deep-sea-400" href="/vakuumsug-pormaskar.php.php">Vakuumsug Pormaskar</a>',
+            <a class="b200 underline color-deep-sea-400" href="/vakuumsug-pormaskar.php.php">Vakuumsug Pormaskar</a>
+            <a class="b200 underline color-deep-sea-400" href="/oljig-hy.php">Oljig hy</a>',
         ),
         
     ),
