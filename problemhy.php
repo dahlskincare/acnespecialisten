@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Effektiva Ansiktsbehandlingar för Problemhy';
-$seo_description = 'Upptäck skräddarsydda ansiktsbehandlingar för problemhy som akne, rosacea, och mer. Få klarare hud med våra expertanpassade lösningar. Boka din tid idag!';
-$seo_keywords = 'problemhy, hudproblem, hudproblem ansikte';
+$seo_title = 'Effektiva Ansiktsbehandlingar för hudproblem i ansiktet';
+$seo_description = 'Skräddarsydda ansiktsbehandlingar för problemhy som akne, rosacea, olika typer av finnar och mer. Bli av med hudproblem med våra expertanpassade lösningar';
+$seo_keywords = 'problemhy, hudproblem, hudproblem ansikte, hudproblem i ansiktet';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
