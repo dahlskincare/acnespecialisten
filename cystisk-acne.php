@@ -206,20 +206,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                title: 'Hur kan jag identifiera nodulär akne?',
+                text: 'Nodulär akne kännetecknas av djupt liggande, smärtsamma, inflammerade knölar under huden som inte lätt kommer till ytan. Dessa utslag kan kännas som ömma punkter och är ofta större och mer ihållande än vanliga finnar. De kan förekomma i ansiktet, på nacken, bröstet, och ryggen, och lämnar ofta efter sig ärr om de inte behandlas korrekt.'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                title: 'Vilka är de bästa behandlingsmetoderna för cystisk akne?',
+                text: 'Behandling av cystisk akne kräver en noggrant utformad plan som kan inkludera en kombination av professionella hudvårdsbehandlingar och skräddarsydda hudvårdsprodukter. En hudterapeut kan ge råd om den mest effektiva behandlingsstrategin för dig.'
             ),
             new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                title: 'Hur lång tid tar det för cystisk akne att läka?',
+                text: 'Förbättring bör kunna observeras inom 1-3 veckor efter inledande behandling, men fullständig läkning kan ta längre tid, beroende på svårighetsgraden av aknen och hur väl behandlingen följs. Det är viktigt att ha tålamod och följa din hudvårdsrutin noggrant för att uppnå bästa möjliga resultat.'
             ),
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                title: 'Finns det effektiva hembehandlingar för cystisk akne?',
+                text: 'Ja, användning av rätt hudvårdsprodukter och följa en anpassad hudvårdsrutin kan göra en stor skillnad. Dock är det viktigt att komplettera dessa med professionell vägledning från en hudterapeut för att säkerställa att din hudvårdsrutin är optimerad för din specifika hudtyp och aknes tillstånd.'
+            ),
+            new Question(
+                title: 'När bör jag överväga att söka professionell hjälp för min cystisk akne?',
+                text: 'Det är viktigt att söka professionell hjälp omedelbart om du lider av cystisk akne, för att snabbt ta itu med tillståndet och minimera risken för långsiktig ärrbildning. En hudspecialist eller hudterapeut kan erbjuda anpassade behandlingar och råd som adresserar både de yttre symptomen och de underliggande orsakerna till din akne, vilket ger dig den bästa chansen till en klar och hälsosam hud.'
             ),
       ),
 );
