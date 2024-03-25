@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Stress Acne - Förståelse, Behandling och Förebyggande';
 $seo_description = 'Lär dig om stressrelaterad akne, dess orsaker och hur Acnespecialisten kan hjälpa med skräddarsydda behandlingsmetoder och förebyggande strategier.';
-$seo_keywords = 'stressrelaterad akne, behandling av stressakne, förebygga stressakne, hantera akne orsakad av stress, hudvård vid stress';
+$seo_keywords = 'stress acne, akne stress, stress breakout';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 

@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Cystisk Akne - Omfattande Behandling och Expertis';
-$seo_description = 'Utforska allt om cystisk akne, dess orsaker och effektiva behandlingsmetoder från Acnespecialisten, anpassade för alla hudtyper och åldrar.';
-$seo_keywords = 'cystisk akne, behandling av cystisk akne, hudvård för cystisk akne';
+$seo_title = 'Cystisk Akne och Nodulocystisk akne | AcneSpecialisten';
+$seo_description = 'Läs om vad cystisk acne, även kallat nodulocystisk acne, är samt hur du kan behandla den. Hos oss börjar du med en kostnadsfri konsultation →';
+$seo_keywords = 'cystisk akne, nodulocystisk akne, nodulär akne, acne nodulocystica';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är cystisk akne?';
-$description_text = '<p class="p200">Cystisk akne är en av de mest allvarliga formerna av acne och karaktäriseras av stora, smärtsamma, fyllda cystor under huden. Till skillnad från andra typer av akneutslag som kan behandlas med över-disk-produkter, kräver cystisk acne ofta mer intensiv behandling för att förhindra ärrbildning och andra långvariga hudskador. Cysterna bildas när talg, hudceller och bakterier blir instängda djupt inuti huden, vilket leder till inflammation och infektion.</p>
-<p class="p200 mt-m">Denna typ av akne kan vara särskilt smärtsam och är mer benägen att lämna ärr efter läkning. Behandlingsalternativ för cystisk acne inkluderar orala antibiotika, hormonbehandlingar, och isotretinoin (Accutane), samt injektioner med kortikosteroider för att minska inflammation och storlek på cystorna. Effektiv behandling kräver ofta samarbete med en hudläkare för att anpassa en behandlingsplan baserad på individens specifika behov och hudtillstånd.</p>';
+$description_text = '<p class="p200">Cystisk akne, även känd som nodulocystisk akne eller acne nodulocystica, representerar en av de mest allvarliga formerna av akne. Denna typ av hudåkomma går bortom vanliga akneutslag och karaktäriseras av djupt liggande cystor och noduler som bildas under huden. Till skillnad från mindre allvarliga former av akne, såsom pormaskar eller mindre finnar, innebär cystisk och nodulär akne stora, smärtsamma, inflammerade utslag som kan orsaka betydande obehag samt risk för långvarig ärrbildning. Cystisk akne och nodulär akne delar liknande drag i det att båda tillstånden involverar djupgående inflammation och stora, smärtsamma utslag som ofta kräver professionell behandling för att hantera effektivt. Nodulocystisk akne, specifikt, refererar till när både noduler och cystor är närvarande, vilket tyder på en ännu mer intensiv grad av akne.</p>
+<p class="p200 mt-m">Behandlingen av cystisk akne och dess varianter kräver en bred behandlingsplan som kombinerar både klinikbehandlingar och hemmavård som behandlar och balanserar problemet effektivt. På grund av den djupa inflammationen och risken för ärrbildning, är det viktigt att identifiera och inleda behandlingen tidigt för att reducera den negativa påverkan på huden. En hudterapeut kan hjäpla dig att komma igång med en skräddarsydd behandlingsplan som är anpassad för just din akne.</p>';
 
 
 $treatment_steps = array(
