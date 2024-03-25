@@ -75,8 +75,9 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är stress acne?';
-$description_text = '<p class="p200">Stress acne uppstår när kroppens stressrespons aktiveras, vilket leder till en ökning av stresshormoner som kortisol. Dessa hormoner kan stimulera talgkörtlarna att producera mer talg, vilket ökar risken för tilltäppta porer och akneutbrott. Stressrelaterad akne orsakar ofta utslag på ansiktet, särskilt i områden som är mer benägna för talgproduktion, som T-zonen (panna, näsa, och haka) samt käklinjen. Denna typ av akne kan vara särskilt envis och svår att hantera eftersom den både är kopplad till emotionellt välbefinnande och fysiska hudvårdsrutiner.</p>
-<p class="p200 mt-m">För att effektivt behandla stress acne är det viktigt att anta en holistisk strategi som inkluderar en skräddarsydd behandlingsplan som är anpassad för dig och dina behov.</p>';
+$description_text = '<p class="p200">GPT
+Stress acne, även känd som akne stress, är en hudåkomma som förvärras eller utlöses av perioder av hög stress. När vi upplever stress, reagerar kroppen genom att öka produktionen av hormoner som kortisol, vilket kan leda till ökad oljeproduktion i hudens talgkörtlar. Denna överproduktion av talg kan i sin tur orsaka tilltäppta porer, vilket skapar en gynnsam miljö för bakterier att växa och leder till inflammation i form av akne. Stress breakout refererar till akneutbrott som uppstår just under eller efter perioder av emotionell eller fysisk stress, och kan visa sig i form av pormaskar, finnar, och i vissa fall även mer inflammerade former av akne.</p>
+<p class="p200 mt-m">Att hantera stress acne kräver inte bara en anpassad hudvårdsrutin utan även tekniker för att hantera själva stressen. Hudvårdsrutiner bör inkludera mild rengöring och användning av produkter som reglerar oljeproduktionen utan att torka ut huden. Dessutom är det viktigt att hitta effektiva sätt att hantera och minska stress, såsom genom motion, mindfulness, tillräckligt med sömn, och andra avslappningstekniker. Genom att adressera både hudvård och stresshantering kan individer med stress acne se en förbättring i både hudens tillstånd och deras övergripande välbefinnande.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
