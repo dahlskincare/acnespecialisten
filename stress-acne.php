@@ -81,7 +81,7 @@ $description_text = '<p class="p200">Stressrelaterad akne uppstår ofta som ett 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten erbjuder vi specialiserade konsultationer för att identifiera stressrelaterad akne. Vi utformar en personlig behandlingsplan för att effektivt hantera din situation.',
+            content: 'Vi  erbjuder specialiserade konsultationer för att identifiera stressrelaterad akne. Vi utformar en personlig behandlingsplan för att effektivt hantera din situation.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för stress acne idag'
@@ -90,7 +90,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder anpassade behandlingar för stress acne som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas av stress.',
             url_label: 'Se aknebehandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(

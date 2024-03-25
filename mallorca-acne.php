@@ -81,29 +81,29 @@ $description_text = '<p class="p200">Mallorca akne, ibland kallad semesterakne, 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Genom vår specialiserade konsultation på AcneSpecialisten undersöker vi de unika egenskaperna hos din Mallorca akne. Vi utför en detaljerad analys för att fastställa de specifika orsakerna till ditt hudproblem, såsom reaktioner på solen eller vissa hudvårdsprodukter, och skapar en anpassad behandlingsplan för att effektivt hantera din Mallorca akne.',
+            content: 'Vi utför en detaljerad analys för att fastställa de specifika orsakerna till ditt hudproblem, såsom reaktioner på solen, och skapar en anpassad behandlingsplan för din hy.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för Mallorca akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vår behandling för Mallorca akne är anpassad efter din hudtyp och de specifika behoven hos din hud. Vi erbjuder ett brett spektrum av behandlingsmetoder, från skonsam exfoliering till djuprengöring, för att effektivt adressera akne som orsakas av solen och hjälpa till att återställa en klar och frisk hud.',
-            url_label: 'Se Mallorca akne-behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            content: 'Vår behandling för Mallorca akne är anpassad efter din hudtyp och de specifika behoven hos din hud. Vi erbjuder ett stort utbud av behandlingsmetoder som hjälper till att återställa en klar och frisk hud.',
+            url_label: 'Se behandlingar',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för Mallorca akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av Mallorca akne erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är särskilt utformade för att balansera huden och motverka de faktorer som bidrar till akne, såsom felaktig användning av solskyddsprodukter eller exponering för intensiv sol.',
-            url_label: 'Se produkter för Mallorca akne',
+            content: 'För att förebygga framtida utbrott av Mallorca akne erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är särskilt utformade för att balansera huden och motverka de faktorer som bidrar till problemet.',
+            url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga Mallorca akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat den aktiva Mallorca aknen, fokuserar vi på att reparera och förbättra hudens tillstånd. Våra metoder inkluderar behandlingar för att minska ärrbildning och förbättra hudens textur, vilket bidrar till en jämnare och fräschare hudton som varar över tid.',
-            url_label: 'Se ärrbehandlingar för Mallorca akne',
+            content: 'Efter att du blivit av med din Mallorca akne, fokuserar vi på att reparera och reducera eventuell ärrbildning som uppstått.',
+            url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av Mallorca akne'
       ),

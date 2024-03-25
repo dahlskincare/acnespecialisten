@@ -89,21 +89,21 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Våra behandlingar för hormonell akne är skräddarsydda för att passa just din hudtyp och dess unika behov.',
-            url_label: 'Se behandlingar för hormonell akne',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för hormonell akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
             content: 'För att förebygga framtida utbrott av hormonell akne, erbjuder vi specialdesignade hudvårdsprodukter och rutiner.',
-            url_label: 'Se produkter för hormonell akne',
+            url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga hormonell akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'När vi har behandlat den aktiva hormonella aknen, inriktar vi oss på att reparera och förbättra hudens kvalitet.',
-            url_label: 'Se ärrbehandlingar för hormonell akne',
+            url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av hormonell akne'
       ),
@@ -118,7 +118,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Det är viktigt att förstå att platsen där akne uppstår inte nödvändigtvis indikerar att det är hormonell akne. I själva verket är all akne i grund och botten relaterad till hormonella förändringar i kroppen och kan uppstå på vilken del av huden som helst där akne tenderar att framträda. Akne orsakas av en överproduktion av talg från talgkörtlar, vilket ofta är resultatet av hormonella förändringar. Dessa förändringar kan vara ett resultat av faktorer som pubertet, menstruationscykler, graviditet, menopaus eller vissa medicinska tillstånd. Akne kan manifestera sig på flera platser på kroppen, inklusive ansikte, nacke, rygg, bröst och axlar, vilka alla har en hög koncentration av talgkörtlar.</p>',
+            content: '<p class="p200">All akne är i grund och botten relaterad till hormonella förändringar i kroppen och kan uppstå på vilken del av huden som helst där akne tenderar att framträda. Akne orsakas av en överproduktion av talg från talgkörtlar, vilket ofta är resultatet av hormonella förändringar. Dessa förändringar kan vara ett resultat av faktorer som pubertet, menstruationscykler, graviditet, menopaus eller vissa medicinska tillstånd. Akne kan manifestera sig på flera platser på kroppen, inklusive ansikte, nacke, rygg, bröst och axlar, vilka alla har en hög koncentration av talgkörtlar.</p>',
       ),
 );
 

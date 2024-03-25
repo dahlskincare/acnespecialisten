@@ -81,29 +81,29 @@ $description_text = '<p class="p200">Inflammatorisk akne kännetecknas av röda,
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'I vår specialiserade konsultation på AcneSpecialisten fokuserar vi på att analysera de unika egenskaperna hos din inflammatoriska akne. Genom att identifiera de bakomliggande orsakerna, utformar vi en skräddarsydd behandlingsplan som är anpassad för att effektivt hantera din specifika situation med inflammatorisk akne.',
+            content: 'Vi analyserar de unika egenskaperna hos din inflammatoriska akne, ta före bilder på huden coh rekommenderar en behandlingsplan för din inflammerade akne.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för inflammatorisk akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar våra behandlingar för inflammatorisk akne efter din hudtyp och unika behov. Vårt utbud av behandlingsmetoder inkluderar allt från milda till djupgående terapier, utformade för att effektivt adressera och behandla inflammationen i din hud, och strävar efter att återställa en frisk och klar hud.',
-            url_label: 'Se behandlingar för inflammatorisk akne',
+            content: 'Vi anpassar våra behandlingar för inflammatorisk akne efter din hudtyp och unika behov. Vi har ett brett utbud av behandlingar utformade för att behandla inflammationen i din hud.',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för inflammatorisk akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av inflammatorisk akne, erbjuder vi specialutvecklade hudvårdsprodukter och rutiner. Dessa är utformade för att balansera din hud och motverka de faktorer som orsakar inflammation, vilket bidrar till en långsiktigt hälsosam och ren hud.',
-            url_label: 'Se produkter för inflammatorisk akne',
+            content: 'För att förebygga framtida utbrott av inflammatorisk akne, erbjuder vi specialutvecklade hudvårdsprodukter och rutiner.',
+            url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga inflammatorisk akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv inflammatorisk akne, fokuserar vi på att reparera och förbättra hudens kvalitet. Våra metoder inkluderar behandlingar för att minska ärrbildning och förbättra hudens textur, vilket bidrar till en jämnare och mer strålande hudton över tid.',
-            url_label: 'Se ärrbehandlingar för inflammatorisk akne',
+            content: 'Efter att ha behandlat aktiv inflammatorisk akne, fokuserar vi på att reparera och minska ärrbildning och förbättra hudens textur, vilket bidrar till en jämnare och mer strålande hudton.',
+            url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av inflammatorisk akne'
       ),

@@ -82,29 +82,29 @@ $description_text = '<p class="p200">Cystisk akne, även känd som nodulocystisk
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Genom vår specialiserade konsultation på AcneSpecialisten fokuserar vi på att förstå de unika egenskaperna hos din cystiska akne. Vi genomför en detaljerad analys för att identifiera de underliggande orsakerna och utarbeta en skräddarsydd behandlingsplan för att effektivt hantera ditt hudtillstånd.',
+            content: 'Vi genomför en detaljerad analys för att identifiera de underliggande orsakerna och skapar en skräddarsydd behandlingsplan för att effektivt hantera ditt hudtillstånd.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för cystisk akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Behandlingar för cystisk akne hos AcneSpecialisten anpassas individuellt efter din hudtyp och dess specifika behov. Vi använder oss av både milda och intensiva behandlingsmetoder för att hantera denna svåra form av akne och arbetar för att uppnå en klarare och friskare hud.',
-            url_label: 'Se behandlingar för cystisk akne',
+            content: 'Behandlingen anpassas efter din hudtyp och dess specifika behov. Vi använder oss av skräddarsydda behandlingsmetoder för att hantera denna svåra form av akne.',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för cystisk akne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av cystisk akne erbjuder vi specialanpassade hudvårdsprodukter och rutiner. Dessa är utformade för att hjälpa till att balansera huden och bekämpa de faktorer som kan orsaka akne, bidragande till en långvarigt hälsosam och ren hud.',
-            url_label: 'Se produkter för cystisk akne',
+            content: 'För att förebygga framtida utbrott av cystisk akne erbjuder vi specialanpassade hudvårdsprodukter och rutiner, utformade för att hjälpa till att balansera huden och bekämpa de faktorer som orsakar problemet.',
+            url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga cystisk akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat den aktiva cystiska aknen, fokuserar vi på att reparera och förbättra hudens övergripande tillstånd. Våra metoder inkluderar behandlingar för att minska ärrbildning och förbättra hudens textur, vilket leder till en jämnare och mer vital hudton.',
-            url_label: 'Se ärrbehandlingar för cystisk akne',
+            content: 'Efter att ha behandlat det aktiva hudproblemet, fokuserar vi på att reparera ärrbildningen som cystorna orsakat. Vi minskar ärrbildningen och förbättra hudens textur, vilket leder till en jämnare hudton.',
+            url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av cystisk akne'
       ),
