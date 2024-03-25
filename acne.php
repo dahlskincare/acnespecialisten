@@ -6,8 +6,8 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är akne? - Symptom, orsak och behandling';
-$seo_description = 'Här hittar du allt om akne och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'akne, vad är akne, orsaker till akne, varför får man akne, var akne, varför akne';
+$seo_description = 'Läs mer om akne & acne, varför det uppstår och vilka behandlingar du kan göra. Boka en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →';
+$seo_keywords = 'akne, acne, vad är akne, acne på ansiktet, akne bakterie, acne i ansiktet, varför får man akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -95,7 +95,7 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man akne?',
             content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell akne.</p>
+            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne under puberteten, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell acne.</p>
             <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
@@ -110,7 +110,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man akne?',
-            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att akne drabbar ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
+            content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att drabbas av  akne på ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
             extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
             <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation. För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
             icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
@@ -705,7 +705,7 @@ $faq_categories = array(
 
                   <p class="p200 mt-xl">2. Ansamlning av döda hudceller:<br />Hudens naturliga process för cellförnyelse kan ibland leda till att döda hudceller inte avlägsnas effektivt, vilket bidrar till blockering av porer.</p>
 
-                  <p class="p200 mt-xl">3. Bakterier:<br />orer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Propionibacterium acnes (P. acnes), vilket kan leda till inflammation och svullnad runt porerna.</p>
+                  <p class="p200 mt-xl">3. Bakterier:<br />orer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Cutibacteriuam acnes (C. acnes). Denna akne bakterie har tidigare kallats bakterieacnes (P. acnes). Dessa bakterier leder till inflammation och svullnad runt porerna.</p>
 
                   <p class="p200 mt-xl">4. Hormonella förändringar:<br />Hormonella förändringar, särskilt under puberteten, graviditeten och menstruationscykeln, kan påverka talgproduktionen. Androgener (manliga könshormoner som finns hos både män och kvinnor) kan öka under dessa perioder, vilket stimulerar talgkörtlarna att producera mer talg.</p>
 
@@ -721,7 +721,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Har jag akne även om jag bara har en finne?',
-                  text: '<p class="p200">Ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
+                  text: '<p class="p200">Ja, du har tekniskt sett akne även om du bara har en enstaka finne. Akne kan ta sig många olika former och innefattar alla typer av finnar, oavsett om det är enstaka eller flera, stora eller små, papler eller pustler, samt kombinationen som kallas papulopustulös akne. Många tror att de inte har akne om de endast upplever enstaka finnar då och då, men faktum är att alla dessa fall kategoriseras som akne.</p>'
             ),
             new Question(
                   title: 'Ska jag klämma min akne?',
@@ -754,7 +754,11 @@ $faq_categories = array(
             new Question(
                   title: 'Vad kan jag göra för att bli av med min akne?',
                   text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
-            )
+            ),
+            new Question(
+                title: 'Vad är det för skillnad mellan acne och finnar?',
+                text: '<p class="p200">Acne och finnar är relaterade men beskriver olika aspekter av samma hudtillstånd. Finnar är en term som ofta används för att beskriva enstaka utbrott eller plitor på huden, som kan vara ett resultat av tilltäppta porer, överproduktion av talg, eller inflammation. Acne å andra sidan, är en medicinsk term som beskriver en kronisk hudsjukdom karaktäriserad av upprepade och flera utbrott av finnar, pormaskar, och ibland cystor, som kan påverka ansiktet, nacken, bröstet och ryggen. Acne är ofta mer omfattande och kan kräva medicinsk behandling för att hantera både utbrotten och dess underliggande orsaker.</p>'
+            ),
       ),
 );
 
