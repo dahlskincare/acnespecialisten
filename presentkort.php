@@ -1,9 +1,11 @@
 <?php
+require 'vendor/autoload.php';
 
-use HelmutSchneider\Swish\Client;
-use HelmutSchneider\Swish\PaymentRequest;
+use Ramsey\Uuid\Uuid;
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+
+$phone_no = '123 233 51 98';
 
 function form_completed()
 {
@@ -89,10 +91,10 @@ if (form_completed()) {
     mail($to, $subject, $message, $headers);
 } else {
     $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
+    $uuid4 = Uuid::uuid4();
+    $id = str_replace('-', '', strtoupper($uuid4));
 
-    //$rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
-
-    $url = "https://mss.cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/11A86BE70EA346E4B1C39C874173F088";
+    $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/" . $id;
     $clientCert = $_ENV['SWISH_SSL_FOLDER'] . "/cert.p12";
     $rootCert = $_ENV['SWISH_SSL_FOLDER'] . "/Swish_TLS_RootCA.pem";
     $pwd = "Mammamia123";
@@ -101,8 +103,8 @@ if (form_completed()) {
         "payeePaymentReference" => uniqid(),
         "callbackUrl" => "https://acnespecialisten.se/presentkort?paid=1",
         //"payerAlias" => "4671234768",
-        "payeeAlias" => "1232335198",
-        "amount" => intval($amount),
+        "payeeAlias" => $phone_no,
+        "amount" => $amount,
         "currency" => "SEK",
         "message" => "Presentkort Acnespecialisten"
     ];
@@ -126,16 +128,13 @@ if (form_completed()) {
 
     curl_close($ch);
 
-    echo $response;
-
     $data = array(
         "format" => "svg",
         "size" => "300",
         "border" => "0",
         "transparent" => "true",
-        "token" => $client->createPaymentRequest($pr)->paymentRequestToken,
+        "token" => $response,
     );
-
     $json_data = json_encode($data);
 
     $ch = curl_init("https://mpc.getswish.net/qrg-swish/api/v1/commerce");
@@ -153,9 +152,9 @@ if (form_completed()) {
     $qr_image = curl_exec($ch);
     curl_close($ch);
 
-    /*
+
     $json_data = json_encode(array(
-        "payee" => "123 233 51 98",
+        "payee" => $phone_no,
     ));
     $ch = curl_init("https://api.swish.nu/qr/v2/prefilled");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -171,9 +170,6 @@ if (form_completed()) {
     );
     $qr_image_desktop = 'data:image/png;base64,' . base64_encode(curl_exec($ch));
     curl_close($ch);
-
-*/
-    $qr_image_desktop = 'https://via.placeholder.com/300x300.webp';
 }
 ?>
 <!DOCTYPE html>
@@ -342,7 +338,7 @@ if (form_completed()) {
                                 <?php if (!form_completed()) { ?>
                                     <div id="qr-image">
                                         <img src="<?php echo $qr_image_desktop ?>" alt="QR" title="QR">
-                                        <div class="mt-s h200">123 010 64 43</div>
+                                        <div class="mt-s h200"><?php echo $phone_no ?></div>
                                     </div>
                                 <?php } ?>
                             </div>
