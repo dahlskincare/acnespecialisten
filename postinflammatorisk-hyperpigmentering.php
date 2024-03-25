@@ -80,8 +80,8 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder avancerade behandlingar för postinflammatorisk hyperpigmentering, anpassade för att effektivt minska mörka fläckar och förbättra hudens ton och utseende. Våra behandlingsmetoder inkluderar speciella ljusbehandlingar, kemiska peelingar och topiska produkter, alla utvalda för att ge bästa möjliga resultat för din hud.',
-            url_label: 'Se behandlingar för postinflammatorisk hyperpigmentering',
-            url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
+            url_label: 'Se behandlingar',
+            url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra anpassade behandlingar för postinflammatorisk hyperpigmentering'
       ),
 );

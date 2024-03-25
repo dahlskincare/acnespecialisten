@@ -66,7 +66,7 @@ $nav_buttons = array(
 
 $description_title = 'Om atrofiska ärr';
 $description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar eller gropar i huden och är ofta resultatet av akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå.</p>
-<p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingar för atrofiska ärr, inklusive laserterapi, mikroneedling och kemiska peelingar. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
+<p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingar för atrofiska ärr, inklusive laser, mikroneedling och kemiska peelingar. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -79,7 +79,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder specialiserade behandlingar för atrofiska ärr som är både effektiva och skonsamma. Med vår expertis och målinriktade metoder arbetar vi för att förbättra hudens struktur och utseende, så att du kan känna dig säker och nöjd med ditt hudtillstånd.',
-            url_label: 'Se behandlingar för atrofiska ärr',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
             url_title: 'Upptäck våra anpassade behandlingar för atrofiska ärr'
       ),

@@ -74,14 +74,14 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Om stress acne';
+$description_title = 'Vad är stress acne?';
 $description_text = '<p class="p200">Stressrelaterad akne uppstår ofta som ett resultat av höga stressnivåer, vilket leder till hormonella förändringar och påverkar huden. Dessa hormonella förändringar kan öka talgproduktionen och orsaka akneutbrott. På Acnespecialisten fokuserar vi på att skonsamt rengöra, balansera och lugna huden, och erbjuder anpassade behandlingsalternativ som effektivt hanterar akne utan att irritera huden.</p>
 <p class="p200 mt-m">Vi förstår vikten av en anpassad hudvårdsrutin för att effektivt hantera stressrelaterade hudproblem. Genom att kombinera milda rengöringsmetoder med lugnande och återfuktande behandlingar, strävar våra hudterapeuter efter att erbjuda skonsam och effektiv vård för stresspåverkad hud. Vi lägger även fokus på att lära ut strategier för att hantera stress och dess effekter på huden, för att hjälpa till att förebygga framtida utbrott av stressakne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten erbjuder vi specialiserade konsultationer för att identifiera stressrelaterad akne. Genom att analysera hur din livsstil och stressnivåer påverkar huden, utformar vi en personlig behandlingsplan för att effektivt hantera din situation.',
+            content: 'Vi  erbjuder specialiserade konsultationer för att identifiera stressrelaterad akne. Vi utformar en personlig behandlingsplan för att effektivt hantera din situation.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för stress acne idag'
@@ -90,7 +90,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder anpassade behandlingar för stress acne som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas av stress.',
             url_label: 'Se aknebehandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
