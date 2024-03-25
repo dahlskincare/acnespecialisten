@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Atrofiska Ärr: Behandling och Förståelse | Acnespecialisten';
-$seo_description = 'Vår atrofiska ärr-behandling läker ihop huden på ett nytt & förbättrat sätt. Boka in en kostnadsfri hudkonsultation och få en skräddarsydd behandlingsplan →';
-$seo_keywords = 'atrofiska ärr, orsaker till atrofiska ärr';
+$seo_title = 'Atrofiska Ärr - Bli av med Gropar i Huden | AcneSpecialisten';
+$seo_description = 'Läs mer om atrofiska ärr och effektiva behandlingsmetoder. Vi på AcneSpecialisten har behandlat acneärr i 25 år. Boka tid för en gratis hudkonsultation →';
+$seo_keywords = 'atrofiska ärr, atrofisk ärrbildning, acneärr gropar, gropar i huden';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/aknearr.webp';
 $image_large = 'bilder/hudproblem/424x456/aknearr.webp';
 $image_title = 'Visar hud med atrofiska ärr';
 $image_alt = 'Bild som illustrerar atrofiska ärr på huden';
-$description = 'I denna sektion förklarar vi vad atrofiska ärr är, hur de kan uppstå som resultat av akne, och hur vi på Acnespecialisten kan hjälpa dig med behandlingar för att minska dessa ärr. Vi diskuterar också hur vi identifierar olika typer av atrofiska ärr, de bakomliggande orsakerna, och hur vi kan stödja dig genom behandlingsprocessen för att förbättra hudens textur och utseende.';
+$description = 'Atrofiska ärr är en form av ärrbildning som ofta lämnar efter sig gropar eller fördjupningar i huden, vilket är en vanlig följd av akne. Denna typ av ärrbildning sker när huden inte lyckas producera tillräckligt med kollagen vid läkningen av ett sår, vilket resulterar i att området sjunker inåt istället för att bilda en jämn yta.';
 
 $akas = [
       new Link(

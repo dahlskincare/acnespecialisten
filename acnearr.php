@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta bort acneärr och gropar i huden | AcneSpecialisten';
-$seo_description = 'AcneSpecialisten har behandlat acneärr i 30 år. Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
-$seo_keywords = 'acneärr, acneärr Stockholm, acneärr gropar, orsaker till acneärr, vad är acneärr, orsaker till acneärr, varför får man acneärr, var acneärr, varför acneärr';
+$seo_title = 'Ta Bort Aacneärr och Gropar i Huden | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten har behandlat acneärr i ansiktet och på kroppen i 30 år. Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
+$seo_keywords = 'acneärr, akne ärr, ärr i ansiktet, ärr från finnar, acneärr gropar';
 
 $title = 'Acneärr';
 
@@ -77,7 +77,7 @@ $trivias = array(
             prefix: 'Vad',
             title: 'är acneärr?',
             content: '<p class="p200">Acneärr är märken eller förändringar som blir kvar på huden efter att akne har läkt. När vi pratar om acneärr, menar vi oftast de synliga tecknen som akneutbrott lämnar efter sig, vilka kan påverka hudens utseende på lång sikt. Dessa ärr kan se olika ut beroende på person och vilken typ av akne de har haft. Acneärr kan främst kategoriseras som atrofiska ärr (gropar) och postinflammatorisk hyperpigmentering (fläckar).</p>',
-            extended_content: '<p class="p200 mt-xl"> Atrofiska ärr är fördjupningar eller gropar i huden. Dessa är vanliga efter akne och varierar i utseende. Atrofiska ärr kan framträda som små, djupa hål som påminner om ispickesår, ha en vågig kontur som skapar ett ojämnt hudutseende, eller vara breda med mer distinkt avgränsade kanter. Postinflammatorisk hyperpigmentering är en följd av akne som inte orsakar någon fördjupning eller upphöjning i huden. Istället är det fläckar av ökad pigmentering som uppstår på platsen för tidigare inflammation. Dessa fläckar kan vara mörkare än den omgivande huden och variera i nyans från rosa till brun, beroende på hudton och svårighetsgraden av den initiala inflammationen. Postinflammatorisk hyperpigmentering skapar en ojämn hudton men ändrar inte hudens textur.</p>
+            extended_content: '<p class="p200 mt-xl"> Atrofiska ärr är fördjupningar eller acneärr i form av gropar i huden. Dessa är vanliga efter akne och varierar i utseende. Atrofiska ärr kan framträda som små, djupa hål som påminner om ispickesår, ha en vågig kontur som skapar ett ojämnt hudutseende, eller vara breda med mer distinkt avgränsade kanter. Postinflammatorisk hyperpigmentering är en följd av akne som inte orsakar någon fördjupning eller upphöjning i huden. Istället är det fläckar av ökad pigmentering som uppstår på platsen för tidigare inflammation. Dessa fläckar kan vara mörkare än den omgivande huden och variera i nyans från rosa till brun, beroende på hudton och svårighetsgraden av den initiala inflammationen. Postinflammatorisk hyperpigmentering skapar en ojämn hudton men ändrar inte hudens textur.</p>
             <p class="p200 mt-xl">Hos Acnespecialisten, som har över 30 års erfarenhet av acneärr, erbjuder vi de senaste och mest effektiva metoderna för att behandla dessa ärr. Behandlingen av acneärr är ofta komplex och måste skräddarsys efter individens hudtyp och ärr. Det är av yttersta vikt att först hantera och behandla aktiv akne innan man går vidare med ärrbehandling, då nya akneutbrott kan leda till fler ärr. Vi har specialister som är redo att erbjuda dig en kostnadsfri hudkonsultation för att fastställa vilken typ av acneärr du har och lägga upp en personlig behandlingsplan. Du blir också tilldelad en personlig hudterapeut som är med dig hela vägen från start till mål.</p>',
             icons: array()
       ),
@@ -247,7 +247,7 @@ $services = array(
             title: 'Laser mot acneärr',
             duration: '90 min',
             price: '4595 kr',
-            content: 'Laserbehandling mot acneärr är en effektiv metod som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
+            content: 'Laserbehandling mot acneärr är en effektiv metod för att ta bort ärr med laser som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
             image_small: 'bilder/behandlingar/200x200/laser.webp',
             image_large: 'bilder/behandlingar/200x200/laser.webp',
             image_alt: 'Bild av en laserbehandling mot acneärr',
@@ -285,7 +285,7 @@ $services = array(
             title: 'Microneedling mot acneärr',
             duration: '60 min',
             price: '2595 kr',
-            content: 'Microneedling mot acneärr riktiar sig särskilt till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
+            content: 'Microneedling är en populär behandling av ärr i ansiktet som riktiar sig särskilt till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
             image_small: 'bilder/behandlingar/200x200/microneedling.webp',
             image_large: 'bilder/behandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av en microneedling-behandling mot acneärr',
@@ -410,7 +410,7 @@ $faq_categories = array(
                   text: '<p class="p200">Ja, det är absolut möjligt att bli av med dina acneärr! Under vår kostnadsfria hudkonsultation kommer vi att noggrant undersöka och identifiera graden av ditt problem för att hjälpa dig att behandla det på bästa möjliga sätt. Genom att följa våra individuella råd och den skräddarsydda behandlingsplan vi rekommenderar, kan dina acneärr försvinna. Det är dock viktigt att förstå att tidsramen kan variera beroende på hur grova eller djupa ärr du har. Vi kommer att arbeta tillsammans med dig för att uppnå det bästa resultatet.</p>'
             ),
             new Question(
-                  title: 'Har jag fått acneärr eftersom jag har klämt på finnarna?',
+                  title: 'Har jag fått ärr från finnar eftersom jag har klämt på dem?',
                   text: '<p class="p200">Inte nödvändigtvis. Även om det klart kan vara en faktor – särskilt om du har pillat eller klämt på finnar som inte varit mogna – är det inte alltid orsaken till ärrbildning. Ofta handlar det snarare om att aknen inte har behandlats på rätt sätt, vilket har tillåtit den att skada hudens lager. På Acnespecialisten kan vi hjälpa dig att förstå dina specifika förhållanden och behandla dem på ett sätt som minimerar riskerna för framtida ärrbildning.</p>'
             ),
             new Question(
