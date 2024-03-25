@@ -157,7 +157,7 @@ if (form_completed()) {
         "size" => 300,
         "transparent" => true,
         "payee" => new Payee($phone_no, false),
-        "amount" => new Amount(intval($amount), false),
+        "amount" => new Amount(intval($amount), true),
     ));
     $ch = curl_init('https://mpc.getswish.net/qrg-swish/api/v1/prefilled');
 
