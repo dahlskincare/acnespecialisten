@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Inflammatorisk Akne - Omfattande Behandling och Kunskap';
-$seo_description = 'Utforska grundläggande information om inflammatorisk akne, dess orsaker och Acnespecialistens anpassade behandlingsmetoder för alla hudtyper och åldrar.';
-$seo_keywords = 'inflammatorisk akne, behandling av inflammatorisk akne, hudvård för inflammatorisk akne';
+$seo_title = 'Vad är inflammerad akne? Orsak, symtom och behandling';
+$seo_description = 'Läs mer om acne och hur det orsakas av en inflammation i huden på ansiktet. Boka en kostnadsfri konsultation →';
+$seo_keywords = 'inflammerad akne';
 
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
@@ -20,7 +20,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
-$description = 'Denna sektion ger en djupgående översikt över inflammatorisk akne, dess främsta orsaker såsom hormonella obalanser och stress, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också skräddarsydda hudvårdsråd för att effektivt stödja personer med inflammatorisk akne i alla åldrar.';
+$description = 'Inflammerad akne kännetecknas av rodnad, svullnad och smärtsamma utslag som kan uppstå över hela kroppen, men är vanligast i ansiktet. Inflammation i huden är en naturlig reaktion och kan bestå av både papler och pustler samt finnar med vätska.';
 
 $akas = [
       new Link(
@@ -75,7 +75,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Om Inflammatorisk Akne';
+$description_title = 'Vad är inflammerad akne?';
 $description_text = '<p class="p200">Inflammatorisk akne kännetecknas av röda, inflammerade blemmor som ofta är smärtsamma. Denna typ av akne uppstår när bakterier och överflödig talg orsakar en inflammation i talgkörtlar och hårfolliklar. Behandlingen av inflammatorisk akne hos Acnespecialisten är mångfacetterad och inkluderar både specialbehandlingar och dagliga hudvårdsrutiner. Våra behandlingsmetoder är utformade för att effektivt minska inflammation, djuprengöra porerna och bekämpa bakterier. Dessutom lägger vi fokus på att skapa en hudvårdsrutin som balanserar huden och förebygger framtida utbrott. Genom denna kombinerade ansats strävar vi efter att uppnå en klarare och friskare hud över tid.</p>';
 
 $treatment_steps = array(
