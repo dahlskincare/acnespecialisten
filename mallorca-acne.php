@@ -5,21 +5,21 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Mallorca akne - Förståelse och Effektiv Behandling';
-$seo_description = 'Lär dig om Mallorca akne, dess orsaker, inklusive exponering för sol, och upptäck Acnespecialistens anpassade behandlingsmetoder.';
-$seo_keywords = 'Mallorca akne, behandling av Mallorca akne, hudvård för Mallorca akne';
+$seo_title = 'Vad är Mallorca Acne och Hur kan det Behandlas?';
+$seo_description = 'Vi på AcneSpecialisten tar fram en skräddarsydd behandlingsplan för dig som drabbts av akne och sol finnar. Börja med en kostnadsfri konsultation →';
+$seo_keywords = 'mallorca acne, acne aestivalis, akne sol, finnar sol, sol finnar';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
-$title = 'Mallorca akne';
+$title = 'Mallorca acne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av Mallorca akne';
-$image_alt = 'Bild som illustrerar behandlingsmetoder för Mallorca akne';
-$description = 'Denna sektion erbjuder en översikt över Mallorca akne, en hudåkomma som ofta påverkas av exponering för solen och användning av vissa hudvårdsprodukter under solsemester. Acnespecialisten tillhandahåller anpassade behandlingsmetoder för denna specifika aknetyp.';
+$image_alt = 'Bild som illustrerar behandlingsmetoder för Mallorca acne';
+$description = 'Mallorca akne, även känd som Acne Aestivalis, är en särskild form av akne som ofta uppstår efter exponering för solen. Trots solens välbefinnande effekter kan för mycket sol leda till oväntade hudproblem, däribland Mallorca akne. Denna tillstånd kännetecknas av små, kliande utslag eller finnar som främst uppträder på områden som har utsatts för sol, såsom ansiktet, bröstet och armarna.';
 
 $akas = [
       new Link(
@@ -39,7 +39,7 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina Mallorca akne effektivt.';
+$floating_box = 'Behandla dina Mallorca acne effektivt.';
 
 $consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
@@ -74,8 +74,8 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och Behandla Mallorca akne Effektivt';
-$description_text = '<p class="p200">Mallorca akne, ibland kallad semesterakne, är en hudåkomma som oftast uppträder efter exponering för stark sol och användning av vissa hudvårdsprodukter som kan irritera huden. Denna form av akne kan påverka personer i alla åldrar under eller efter en semester i soliga klimat. På Acnespecialisten fokuserar vi på att identifiera orsakerna till din Mallorca akne och erbjuder behandlingar och hudvårdsstrategier som är specifikt anpassade för att behandla och förebygga denna typ av akne.</p>
+$description_title = 'Vad orsakar mallorca acne?';
+$description_text = '<p class="p200">Mallorca akne, ibland kallad semesterakne, är en hudåkomma som oftast uppträder efter exponering för stark sol och användning av vissa hudvårdsprodukter som kan irritera huden. Denna form av sol finnar kan påverka personer i alla åldrar under eller efter en semester i soliga klimat. På AcneSpecialisten fokuserar vi på att identifiera orsakerna till din sol akne och erbjuder behandlingar och hudvårdsstrategier som är specifikt anpassade för att behandla och förebygga hudproblemet.</p>
 <p class="p200 mt-m">Våra behandlingsmetoder inkluderar skonsamma, djuprengörande procedurer och rådgivning kring solskyddsprodukter och hudvård under soliga förhållanden. Vårt mål är att lugna huden, minska eventuell inflammation och främja en balanserad hud, vilket hjälper till att förebygga framtida utbrott av Mallorca akne.</p>';
 
 $treatment_steps = array(
@@ -193,22 +193,16 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                title: 'Vilka är de bästa sätten att förebygga Mallorca akne?',
+                text: 'För att förebygga Mallorca akne, bör du använda en icke-komedogen (inte por-täppande) solskydd anpassad för aknebenägen hud, begränsa direkt solljus exponering under de mest intensiva timmarna på dagen, och regelbundet rengöra huden för att förhindra tilltäppning av porerna.'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                title: 'Hur kan man behandla Mallorca akne när man väl fått det?',
+                text: 'Behandling av Mallorca akne inriktas på att lugna huden och minska inflammation. Användning av en hudvårdsrutin som behandlar och balanserar huden kan effektivt få bort dina sol finnar. En hudterapeut kan hjälpa dig med en skräddarsydd behandlingsplan anpassad för dig både inför semestern och efter att problemet redan brutit ut.'
             ),
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                title: 'Kan Mallorca akne återkomma, och i så fall, hur hanterar man återkommande utbrott?',
+                text: 'Ja, Mallorca akne kan återkomma, särskilt om man utsätts för liknande förhållanden som ledde till det första utbrottet. För att hantera återkommande utbrott är det viktigt att fortsätta med förebyggande åtgärder såsom användning av lämpligt solskydd, undvika överdriven sol exponering och upprätthålla en god hudvårdsrutin. Vid upprepade utbrott kan det vara klokt att rådfråga en hudterapeut för ytterligare rådgivning och behandlingsalternativ.'
             ),
       ),
 );
