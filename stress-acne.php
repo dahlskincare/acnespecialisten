@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Stress akne - Förståelse, Behandling och Förebyggande';
+$seo_title = 'Stress Acne - Förståelse, Behandling och Förebyggande';
 $seo_description = 'Lär dig om stressrelaterad akne, dess orsaker och hur Acnespecialisten kan hjälpa med skräddarsydda behandlingsmetoder och förebyggande strategier.';
 $seo_keywords = 'stressrelaterad akne, behandling av stressakne, förebygga stressakne, hantera akne orsakad av stress, hudvård vid stress';
 
@@ -13,13 +13,13 @@ $seo_keywords = 'stressrelaterad akne, behandling av stressakne, förebygga stre
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
-$title = 'Stress akne';
+$title = 'Stress acne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Behandling och Förståelse av Stressrelaterad Akne';
 $image_alt = 'Bild som illustrerar hud påverkad av stressrelaterad akne';
-$description = 'Denna sektion ger insikt i stressrelaterad akne, dess unika egenskaper jämfört med andra aknetyper, och hur Acnespecialisten kan stödja dig med skräddarsydda behandlingar och strategier för att hantera stressens effekter på huden.';
+$description = 'Stress kan ha en djupgående effekt på vår hud, ofta uppstå som stress akne. Denna typ av utbrott, även känd som stress finnar, uppstår när kroppens stressrespons leder till ökad talgproduktion, vilket kan täppa till porerna och orsakar acne. Här hittar du mer information om problemet och hur vi kan hjäpla dig att behandla det effektivt.';
 
 $akas = [
       new Link(
@@ -39,30 +39,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina stress akne effektivt.';
+$floating_box = 'Behandla dina stress acne effektivt.';
 
 $consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples";
-$consultation_url_title = "Gratis Konsultation för stress akne";
+$consultation_url_title = "Gratis Konsultation för stress acne";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för stress akne";
+$mobile_consultation_url_title = "Gratis Konsultation för stress acne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för stress akne";
+$floating_consultation_url_title = "Gratis Konsultation för stress acne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om stress akne',
+      'about' => 'Om stress acne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'Varför er?',
@@ -74,7 +74,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Om stress akne';
+$description_title = 'Om stress acne';
 $description_text = '<p class="p200">Stressrelaterad akne uppstår ofta som ett resultat av höga stressnivåer, vilket leder till hormonella förändringar och påverkar huden. Dessa hormonella förändringar kan öka talgproduktionen och orsaka akneutbrott. På Acnespecialisten fokuserar vi på att skonsamt rengöra, balansera och lugna huden, och erbjuder anpassade behandlingsalternativ som effektivt hanterar akne utan att irritera huden.</p>
 <p class="p200 mt-m">Vi förstår vikten av en anpassad hudvårdsrutin för att effektivt hantera stressrelaterade hudproblem. Genom att kombinera milda rengöringsmetoder med lugnande och återfuktande behandlingar, strävar våra hudterapeuter efter att erbjuda skonsam och effektiv vård för stresspåverkad hud. Vi lägger även fokus på att lära ut strategier för att hantera stress och dess effekter på huden, för att hjälpa till att förebygga framtida utbrott av stressakne.</p>';
 
@@ -84,25 +84,25 @@ $treatment_steps = array(
             content: 'På AcneSpecialisten erbjuder vi specialiserade konsultationer för att identifiera stressrelaterad akne. Genom att analysera hur din livsstil och stressnivåer påverkar huden, utformar vi en personlig behandlingsplan för att effektivt hantera din situation.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för stress akne idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för stress acne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder anpassade behandlingar för stress akne som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas av stress.',
+            content: 'Vi erbjuder anpassade behandlingar för stress acne som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas av stress.',
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att minska risken för framtida stress akne, erbjuder vi hudvårdsprodukter och rutiner som hjälper till att upprätthålla en hälsosam hudbalans och hantera stressorsaker.',
+            content: 'För att minska risken för framtida stress acne, erbjuder vi hudvårdsprodukter och rutiner som hjälper till att upprätthålla en hälsosam hudbalans och hantera stressorsaker.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga stress akne'
+            url_title: 'Hitta de bästa produkterna för att förebygga stress acne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Våra behandlingsstrategier för stress akne inkluderar även metoder för att reparera hudskador orsakade av akne, som att minska ärrbildning och förbättra hudens textur för en jämnare hudton.',
+            content: 'Våra behandlingsstrategier för stress acne inkluderar även metoder för att reparera hudskador orsakade av akne, som att minska ärrbildning och förbättra hudens textur för en jämnare hudton.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
@@ -113,7 +113,7 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebe
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var uppstår stress akne?',
+            title: 'Var uppstår stress acne?',
             image_small: null,
             image_large: null,
             image_alt: '',

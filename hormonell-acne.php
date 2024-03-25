@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hormonell Akne: Orsaker, Symptom och Behandlingar';
+$seo_title = 'Hormonell Akne - Orsaker, Symptom och Behandlingar';
 $seo_description = 'Kämpar du med hormonell akne? Läs om orsaker, symptom och hur du kan hantera hormonella finnar som vuxen med rätt behandlingsstrategier och hudvårdsrutiner.';
 $seo_keywords = 'acne hormonell, hormonell akne, hormon akne';
 
