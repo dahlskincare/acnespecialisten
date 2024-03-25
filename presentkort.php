@@ -91,8 +91,10 @@ if (form_completed()) {
     $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
 
     //$rootCert = $_ENV['SWISH_SSL_FOLDER'] . '/Swish_TLS_RootCA.pem';
+
     $url = "https://mss.cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/11A86BE70EA346E4B1C39C874173F088";
     $clientCert = $_ENV['SWISH_SSL_FOLDER'] . "/cert.p12";
+    $rootCert = $_ENV['SWISH_SSL_FOLDER'] . "/Swish_TLS_RootCA.pem";
     $pwd = "Mammamia123";
 
     $data = [
@@ -112,10 +114,9 @@ if (form_completed()) {
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
     curl_setopt($ch, CURLOPT_SSLCERT, $clientCert);
-    curl_setopt($ch, CURLOPT_SSLCERTPASSWD, $pwd);
     curl_setopt($ch, CURLOPT_SSLCERTTYPE, "P12");
-
-    //curl_setopt($ch, CURLOPT_CAINFO, $rootCert);
+    curl_setopt($ch, CURLOPT_SSLCERTPASSWD, $pwd);
+    curl_setopt($ch, CURLOPT_CAINFO, $rootCert);
 
     $response = curl_exec($ch);
 
