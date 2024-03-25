@@ -111,17 +111,6 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot hormonell akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hormonell akne</a>';
 
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Var uppstår hormonell akne?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">All akne är i grund och botten relaterad till hormonella förändringar i kroppen och kan uppstå på vilken del av huden som helst där akne tenderar att framträda. Akne orsakas av en överproduktion av talg från talgkörtlar, vilket ofta är resultatet av hormonella förändringar. Dessa förändringar kan vara ett resultat av faktorer som pubertet, menstruationscykler, graviditet, menopaus eller vissa medicinska tillstånd. Akne kan manifestera sig på flera platser på kroppen, inklusive ansikte, nacke, rygg, bröst och axlar, vilka alla har en hög koncentration av talgkörtlar.</p>',
-      ),
-);
-
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
@@ -548,14 +537,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
 
                         <section id="results">
                               <?php

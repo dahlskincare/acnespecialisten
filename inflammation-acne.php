@@ -76,7 +76,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är inflammerad akne?';
-$description_text = '<p class="p200">Inflammatorisk akne kännetecknas av röda, inflammerade blemmor som ofta är smärtsamma. Denna typ av akne uppstår när bakterier och överflödig talg orsakar en inflammation i talgkörtlar och hårfolliklar. Behandlingen av inflammatorisk akne hos Acnespecialisten är mångfacetterad och inkluderar både specialbehandlingar och dagliga hudvårdsrutiner. Våra behandlingsmetoder är utformade för att effektivt minska inflammation, djuprengöra porerna och bekämpa bakterier. Dessutom lägger vi fokus på att skapa en hudvårdsrutin som balanserar huden och förebygger framtida utbrott. Genom denna kombinerade ansats strävar vi efter att uppnå en klarare och friskare hud över tid.</p>';
+$description_text = '<p class="p200">Inflammatorisk acne är en typ av akne som kännetecknas av rodnad, svullnad och smärta runt de drabbade områdena, ofta resulterande i pustler, papler, noduler och cystor. Till skillnad från icke-inflammatorisk akne, som mestadels består av komedoner (svarta och vita pormaskar), involverar inflammatorisk akne djupare hudlager och kan lämna efter sig ärr om den inte behandlas korrekt. Denna aknetyp uppstår när porerna blir tilltäppta med överflödigt talg, döda hudceller och bakterier, vilket leder till en infektion och den efterföljande inflammatoriska responsen. Behandlingen av inflammatorisk acne bygger på att minska inflammation, bekämpa bakteriell infektion och normalisera avstötningen av döda hudceller för att förhindra ytterligare tilltäppning av porerna.</p>
+<p class="p200 mt-m">Det är också viktigt att upprätthålla en effektiv hudvårdsrutin som behandlar och balanserar huden. Dessutom kan regelbundna besök hos en hudterapeut hjälpa till att anpassa behandlingen efter individens specifika behov och följa upp framstegen.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -110,18 +111,6 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot inflammatorisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot inflammatorisk akne</a>';
-
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Var uppstår inflammatorisk akne och varför?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Inflammatorisk akne uppstår när hårfolliklar och talgkörtlar i huden blir inflammerade. Denna typ av akne är ofta mer smärtsam och synlig än icke-inflammatorisk akne, och kännetecknas av röda, svullna utslag. Orsakerna till inflammatorisk akne är mångfacetterade och inkluderar hormonella förändringar som leder till ökad talgproduktion, vilket kan kombineras med bakterier och döda hudceller för att blockera porerna och orsaka inflammation.</p>
-      <p class="p200">Faktorer som stress, diet, och vissa hudvårdsprodukter kan också bidra till eller förvärra inflammatorisk akne. Dessutom kan vissa personer ha en genetisk benägenhet till denna typ av akne. Oavsett var på kroppen den uppträder – vare sig det är på ansiktet, ryggen, bröstet eller någon annan del med hög koncentration av talgkörtlar – är det viktigt att hantera inflammatorisk akne varsamt för att minska risken för ärrbildning och andra långsiktiga hudproblem.</p>',
-      ),
-);
 
 $results = array(
       new ResultCustomer(
@@ -555,14 +544,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
 
                         <section id="results">
                               <?php

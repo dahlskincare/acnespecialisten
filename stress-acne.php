@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är stress acne?';
-$description_text = '<p class="p200">Stressrelaterad akne uppstår ofta som ett resultat av höga stressnivåer, vilket leder till hormonella förändringar och påverkar huden. Dessa hormonella förändringar kan öka talgproduktionen och orsaka akneutbrott. På Acnespecialisten fokuserar vi på att skonsamt rengöra, balansera och lugna huden, och erbjuder anpassade behandlingsalternativ som effektivt hanterar akne utan att irritera huden.</p>
-<p class="p200 mt-m">Vi förstår vikten av en anpassad hudvårdsrutin för att effektivt hantera stressrelaterade hudproblem. Genom att kombinera milda rengöringsmetoder med lugnande och återfuktande behandlingar, strävar våra hudterapeuter efter att erbjuda skonsam och effektiv vård för stresspåverkad hud. Vi lägger även fokus på att lära ut strategier för att hantera stress och dess effekter på huden, för att hjälpa till att förebygga framtida utbrott av stressakne.</p>';
+$description_text = '<p class="p200">Stress acne uppstår när kroppens stressrespons aktiveras, vilket leder till en ökning av stresshormoner som kortisol. Dessa hormoner kan stimulera talgkörtlarna att producera mer talg, vilket ökar risken för tilltäppta porer och akneutbrott. Stressrelaterad akne orsakar ofta utslag på ansiktet, särskilt i områden som är mer benägna för talgproduktion, som T-zonen (panna, näsa, och haka) samt käklinjen. Denna typ av akne kan vara särskilt envis och svår att hantera eftersom den både är kopplad till emotionellt välbefinnande och fysiska hudvårdsrutiner.</p>
+<p class="p200 mt-m">För att effektivt behandla stress acne är det viktigt att anta en holistisk strategi som inkluderar en skräddarsydd behandlingsplan som är anpassad för dig och dina behov.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

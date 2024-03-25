@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är cystisk akne?';
-$description_text = '<p class="p200">Cystisk akne, även känd som nodulocystisk akne eller acne nodulocystica, representerar en svårare form av akne som kan drabba individer i alla åldrar, och ofta påverkas av faktorer som hormonella förändringar och stress. Acnespecialisten är dedikerad till att förstå de unika orsakerna bakom din cystiska och nodulära akne, erbjudande skräddarsydda behandlingsalternativ och hudvårdsstrategier som adresserar dessa specifika typer av akne direkt.</p>00
-<p class="p200 mt-m">Genom vår expertis, skapar vi personliga hudvårdsplaner som omfattar specialbehandlingar och dagliga hudvårdsrutiner, skräddarsydda för din specifika hudtyp och aknes svårighetsgrad. Vårt mål är att lugna huden, minska inflammation, och främja en hälsosam hudbalans för att uppnå en klarare och mer välmående hudton över tid.</p>';
+$description_text = '<p class="p200">Cystisk akne är en av de mest allvarliga formerna av acne och karaktäriseras av stora, smärtsamma, fyllda cystor under huden. Till skillnad från andra typer av akneutslag som kan behandlas med över-disk-produkter, kräver cystisk acne ofta mer intensiv behandling för att förhindra ärrbildning och andra långvariga hudskador. Cysterna bildas när talg, hudceller och bakterier blir instängda djupt inuti huden, vilket leder till inflammation och infektion.</p>
+<p class="p200 mt-m">Denna typ av akne kan vara särskilt smärtsam och är mer benägen att lämna ärr efter läkning. Behandlingsalternativ för cystisk acne inkluderar orala antibiotika, hormonbehandlingar, och isotretinoin (Accutane), samt injektioner med kortikosteroider för att minska inflammation och storlek på cystorna. Effektiv behandling kräver ofta samarbete med en hudläkare för att anpassa en behandlingsplan baserad på individens specifika behov och hudtillstånd.</p>';
 
 
 $treatment_steps = array(
@@ -96,7 +96,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av cystisk akne erbjuder vi specialanpassade hudvårdsprodukter och rutiner, utformade för att hjälpa till att balansera huden och bekämpa de faktorer som orsakar problemet.',
+            content: 'För att förebygga utbrott av cystisk akne erbjuder vi hudvårdsprodukter kombinerat med hudvårdsrutiner som hjälper till att balansera huden och bekämpa de faktorer som orsakar cystorna.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga cystisk akne'
@@ -111,18 +111,6 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot cystisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot cystisk akne</a>';
-
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Var och varför uppstår Cystisk akne?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Orsakerna till cystisk akne är ofta en sammansättning av flera faktorer. En av de primära drivkrafterna bakom cystisk akne är hormonella förändringar, som kan stimulera en överproduktion av talg. Denna överproduktion kan i sin tur leda till att porerna blir tilltäppta och aknebildningar uppstår. Stress är också en viktig bidragande faktor, eftersom det kan rubba hormonbalansen och öka talgproduktionen, vilket förvärrar akne.</p>
-            <p class="p200 mt-m">Att hantera cystisk akne kräver en noggrant anpassad hudvårdsrutin. Det är avgörande att använda hudvårdsprodukter som är effektiva men samtidigt milda för att inte förvärra hudens tillstånd. På AcneSpecialisten arbetar vi tillsammans med dig för att utveckla en personlig hudvårdsplan som inte bara behandlar befintliga hudproblem, utan även stärker och balanserar huden för att förebygga framtida akneutbrott och stödja en långsiktigt hälsosam hud.</p>',
-      ),
-);
 
 $results = array(
       new ResultCustomer(
@@ -558,14 +546,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
 
                         <section id="results">
                               <?php

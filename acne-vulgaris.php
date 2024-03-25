@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Acne Vulgaris?';
-$description_text = '<p class="p200">Acne vulgaris är en vanlig hudåkomma som drabbar personer i alla åldrar, påverkad av faktorer såsom hormonella förändringar och stress. På AcneSpecialisten lägger vi stor vikt vid att förstå de unika orsakerna bakom din acne vulgaris och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Våra behandlingsmetoder varierar från djuprengörande ansiktsbehandlingar till avancerade maskinbehandlingar för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Genom vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både specialbehandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och aknes svårighetsgrad. Våra behandlingsplaner är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tid.</p>';
+$description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av akne och drabbar människor i alla åldrar, men är mest framträdande under tonåren och unga vuxna år. Detta tillstånd kännetecknas av en rad olika hudutslag, inklusive komedoner (svarta och vita pormaskar), papler (små röda knölar), pustler (pus-fyllda blåsor), och ibland svårare former som noduler och cystor. Acne vulgaris påverkar de talgproducerande områdena av huden, främst ansiktet, ryggen och bröstet. Det finns många olika orsaker bakom acne vulgaris såsom genetiska faktorer, hormonella förändringar, överskott av talg, tilltäppning av hårfolliklar med olja och döda hudceller, samt närvaro av acneframkallande bakterier (Propionibacterium acnes). Dessa faktorer leder till inflammation och bildandet av akneutslag.</p>
+<p class="p200 mt-m">Behandling av acne vulgaris inriktar sig på att minska produktionen av talg, bekämpa bakteriell infektion, uppmuntra till cellomsättning för att förhindra tilltäppning av porerna, och minska inflammation. En anpassad daglig hudvårdsrutin är också viktig för att hantera acne vulgaris, med användning av rengöringsmedel och hudvårdsprodukter som banaserar huden. Regelbundna besök hos en hudterapeut kan hjälpa till med att skräddarsy en behandlingsplan baserad på individens unika hudtillstånd och behov, och övervaka framsteg över tid. Att hantera acne vulgaris effektivt kräver rätt behandlingar och produkter, men med rätt rutin kan vi effektivt behandla och exliminera problemet.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -110,18 +110,6 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot acne vulgaris" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot acne vulgaris</a>';
-
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Var och varför uppstår acne vulgaris?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Orsakerna bakom acne vulgaris beror ofta på en samverkan av flera faktorer. Hormonella förändringar är en av de främsta orsakerna, då de kan leda till överproduktion av talg och resultera i tilltäppta porer och akne. Stress är en annan betydande faktor som kan förvärra akne genom att störa hormonbalansen och öka talgproduktionen i huden. På AcneSpecialisten lägger vi stor vikt vid en helhetssyn på dina hudproblem för att effektivt behandla och hantera acne vulgaris.</p>
-            <p class="p200 mt-m">En effektiv strategi för att hantera acne vulgaris innebär en skräddarsydd hudvårdsrutin. Det är viktigt att välja hudvårdsprodukter som inte bara är effektiva, utan också skonsamma, för att undvika att irritera huden ytterligare. Hos AcneSpecialisten samarbetar vi med dig för att utforma en personlig hudvårdsplan som stärker och balanserar din hud. Detta bidrar till att förebygga framtida utbrott av akne och främjar en långsiktigt hälsosam hudmiljö.</p>',
-      ),
-);
 
 $results = array(
       new ResultCustomer(
@@ -553,14 +541,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
 
                         <section id="results">
                               <?php
