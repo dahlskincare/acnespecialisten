@@ -117,14 +117,13 @@ if (form_completed()) {
     $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
     $uuid4 = Uuid::uuid4();
     $id = str_replace('-', '', strtoupper($uuid4));
-
     $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/" . $id;
     $clientCert = $_ENV['SWISH_SSL_FOLDER'] . "/cert.p12";
-    $rootCert = $_ENV['SWISH_SSL_FOLDER'] . "/Swish_TLS_RootCA.pem";
+    //$rootCert = $_ENV['SWISH_SSL_FOLDER'] . "/Swish_TLS_RootCA.pem";
     $pwd = "Mammamia123";
 
     $data = [
-        "payeePaymentReference" => uniqid(),
+        "payeePaymentReference" => $id,
         "callbackUrl" => "https://acnespecialisten.se/presentkort?paid=1",
         //"payerAlias" => "4671234768",
         "payeeAlias" => $phone_no,
@@ -135,47 +134,23 @@ if (form_completed()) {
 
     $ch = curl_init($url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_SSLVERSION, CURL_SSLVERSION_DEFAULT);
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
+    curl_setopt($ch, CURLOPT_HEADER, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
     curl_setopt($ch, CURLOPT_SSLCERT, $clientCert);
     curl_setopt($ch, CURLOPT_SSLCERTTYPE, "P12");
     curl_setopt($ch, CURLOPT_SSLCERTPASSWD, $pwd);
-    curl_setopt($ch, CURLOPT_CAINFO, $rootCert);
+    //curl_setopt($ch, CURLOPT_CAINFO, $rootCert);
 
     $response = curl_exec($ch);
-
     if ($response === false) {
         throw new Exception('Curl error: ' . curl_error($ch));
     }
 
+    $token = substr($response, strpos($response, "PaymentRequestToken: ") + strlen("PaymentRequestToken: "), 32);
+
     curl_close($ch);
-
-    $data = array(
-        "format" => "svg",
-        "size" => "300",
-        "border" => "0",
-        "transparent" => "true",
-        "token" => $response,
-    );
-    $json_data = json_encode($data);
-
-    $ch = curl_init("https://mpc.getswish.net/qrg-swish/api/v1/commerce");
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
-    curl_setopt(
-        $ch,
-        CURLOPT_HTTPHEADER,
-        array(
-            'Content-Type: application/json',
-            'Content-Length: ' . strlen($json_data)
-        )
-    );
-    $qr_image = curl_exec($ch);
-    curl_close($ch);
-
 
     $json_data = json_encode(array(
         "format" => "png",
@@ -198,9 +173,6 @@ if (form_completed()) {
         )
     );
     $response = curl_exec($ch);
-
-
-
     if ($response === false) {
         throw new Exception('Curl error: ' . curl_error($ch));
     }
@@ -274,7 +246,7 @@ if (form_completed()) {
                                     </div>
                                 </form>
                                 <hr />
-                                <a href="swish://paymentrequest?token=123&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
+                                <a href="swish://paymentrequest?token=<?php echo $token ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
                             <?php } ?>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
