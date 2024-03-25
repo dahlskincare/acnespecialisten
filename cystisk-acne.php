@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av Cystisk Akne';
 $image_alt = 'Bild som visar behandling av cystisk akne';
-$description = 'Denna sektion ger dig en djupgående översikt över cystisk akne, dess vanligaste orsaker såsom hormonella obalanser och stress, samt Acnespecialistens skräddarsydda behandlingsmetoder. Vi tillhandahåller även individuellt anpassade hudvårdsråd för att stödja personer med cystisk akne i olika åldrar.';
+$description = 'Cystisk akne kallas också för nodulocystisk akne. I vardagligt tal går den även under benämningen "innåtfinne" då de inte täpps på ytan, utan uppstår på grund av en inflammation inne i huden. Detta är en av allvarligaste formerna av acne då risken är stor för ärrbildning. Den visar sig som knölar och bulor i huden.';
 
 $akas = [
       new Link(
@@ -74,9 +74,10 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och effektivt behandla cystisk akne';
-$description_text = '<p class="p200">Cystisk akne är en svårare form av akne, som drabbar individer i alla åldrar och ofta är påverkad av faktorer såsom hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de unika orsakerna till din cystiska akne och erbjuder skräddarsydda behandlingsalternativ och hudvårdsstrategier. Våra behandlingsmetoder sträcker sig från avancerade terapier till djuprengörande procedurer, utformade för att effektivt hantera akne och dess inverkan på huden.</p>
-<p class="p200 mt-m">Med vår expertis utformar vi personliga hudvårdsplaner som innefattar både specialbehandlingar och dagliga hudvårdsrutiner, anpassade efter din hudtyp och aknes svårighetsgrad. Våra program är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och mer välmående hudton över tid.</p>';
+$description_title = 'Vad är cystisk akne?';
+$description_text = '<p class="p200">Cystisk akne, även känd som nodulocystisk akne eller acne nodulocystica, representerar en svårare form av akne som kan drabba individer i alla åldrar, och ofta påverkas av faktorer som hormonella förändringar och stress. Acnespecialisten är dedikerad till att förstå de unika orsakerna bakom din cystiska och nodulära akne, erbjudande skräddarsydda behandlingsalternativ och hudvårdsstrategier som adresserar dessa specifika typer av akne direkt.</p>00
+<p class="p200 mt-m">Genom vår expertis, skapar vi personliga hudvårdsplaner som omfattar specialbehandlingar och dagliga hudvårdsrutiner, skräddarsydda för din specifika hudtyp och aknes svårighetsgrad. Vårt mål är att lugna huden, minska inflammation, och främja en hälsosam hudbalans för att uppnå en klarare och mer välmående hudton över tid.</p>';
+
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -212,8 +213,6 @@ $faq_categories = array(
                   title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
                   text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
             ),
-      ),
-      'Frågor om behandling' => array(
             new Question(
                   title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
                   text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'

@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Vulgaris: Behandling och lösningar för nodulär acne';
-$seo_description = 'Lär dig allt om Acne Vulgaris och nodulär acne, inklusive effektiva behandlingsmetoder. Få experttips för att bekämpa denna hudåkomma och återfå en klar hud.';
-$seo_keywords = 'acne vulgaris, behandling av acne vulgaris, hudvård för acne vulgaris';
+$seo_title = 'Vad är Acne Vulgaris? Information och behandlingsalternativ';
+$seo_description = 'Utforska behandlingsalternativ för Acne Vulgaris och hur du effektivt kan hantera huden. Skräddarsydd rådgivning för att uppnå och underhålla en problemfri hy';
+$seo_keywords = 'acne vulgaris, acne vulgaris behandling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -74,7 +74,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och effektivt behandla acne vulgaris';
+$description_title = 'Vad är Acne Vulgaris?';
 $description_text = '<p class="p200">Acne vulgaris är en vanlig hudåkomma som drabbar personer i alla åldrar, påverkad av faktorer såsom hormonella förändringar och stress. På Acnespecialisten lägger vi stor vikt vid att förstå de unika orsakerna bakom din acne vulgaris och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Våra behandlingsmetoder varierar från milda, djuprengörande procedurer till avancerade terapier för att effektivt minska akne och dess påverkan på huden.</p>
 <p class="p200 mt-m">Genom vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både specialbehandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och aknes svårighetsgrad. Våra behandlingsprogram är inriktade på att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tid.</p>';
 
@@ -205,22 +205,20 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Vilka är de vanligaste orsakerna till Acne Vulgaris?',
+                  text: 'De vanligaste orsakerna inkluderar hormonella förändringar, genetik och stress.'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'Hur skiljer sig Acne Vulgaris från andra typer av acne?',
+                  text: 'Acne Vulgaris är den mest förekommande formen av acne och karaktäriseras av en blandning av hudutslag inklusive pormaskar, finnar och ibland cystor, till skillnad från andra former som kan vara mer specifika i sina utslag.'
             ),
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Kan Acne Vulgaris påverka vuxna?',
+                  text: 'Ja, även om Acne Vulgaris är vanligast hos tonåringar, kan det definitivt påverka vuxna också, särskilt kvinnor, på grund av hormonella förändringar och andra faktorer.'
+            ),
+            new Question(
+                title: 'När bör man söka professionell hjälp för Acne Vulgaris och kan det förebyggas?',
+                text: 'Du behöver inte vänta med att söka professionell hjälp från en hudterapeut. Att få hjälp tidigt kan inte bara behandla de nuvarande hudproblemen effektivt utan också agera förebyggande genom att minska risken för framtida utbrott och ärrbildning. En anpassad behandlingsplan kan ge dig de verktyg och kunskaper som krävs för att hantera din hud på bästa sätt.'
             ),
       ),
 );
