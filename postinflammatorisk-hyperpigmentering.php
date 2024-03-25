@@ -170,22 +170,12 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                title: 'Kan postinflammatorisk hyperpigmentering vara permanent?',
+                text: 'Postinflammatorisk hyperpigmentering (PIH) är vanligtvis inte permanent. Med rätt behandling och hudvårdsrutiner kan de mörka fläckarna blekna över tid. Dock kan processen vara långsam, och utan rätt behandling kan PIH kvarstå i flera år.'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                title: 'Vilka är de första stegen i att behandla hyperpigmentering?',
+                text: 'Det första steget i att behandla postinflammatorisk hyperpigmentering (PIH) är att boka en konsultation hos en hudterapeut. En expert kan utvärdera din hud och ta fram en skräddarsydd hudvårdsrutin. Denna rutin kan inkludera både produkter och professionella behandlingar som är effektiva för att reducera och potentiellt eliminera hyperpigmentering.'
             ),
       ),
 );

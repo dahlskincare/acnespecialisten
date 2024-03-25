@@ -181,22 +181,20 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                title: 'Kan atrofiska ärr försvinna naturligt över tid?',
+                text: 'Atrofiska ärr kan blekna något över tid, men de försvinner sällan helt utan behandling. Gradvis kan vissa ytliga ärr bli mindre märkbara, men djupare ärr kräver ofta specifika behandlingsmetoder för att signifikant minska deras utseende.'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                title: 'Vilka är de mest effektiva behandlingsmetoderna för atrofiska ärr?',
+                text: 'De mest effektiva behandlingsmetoderna för atrofiska ärr inkluderar laser och mikroneedling. Dessa behandlingar stimulerar hudens naturliga läkningsprocess och kollagenproduktion för att minska ärrvävnadens djup och förbättra hudtexturen.'
             ),
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                title: 'Hur kan laserbehandlingar minska utseendet på atrofiska ärr?',
+                text: 'Laserbehandlingar minskar utseendet på atrofiska ärr genom att rikta in sig på och bryta ner ärrvävnaden samtidigt som de stimulerar hudens kollagenproduktion. Detta kan hjälpa till att jämna ut huden och fylla ut de fördjupningar som orsakas av ärr, vilket gör dem mindre märkbara.'
+            ),
+            new Question(
+                title: 'Är dermaroller en effektiv behandling för atrofiska ärr?',
+                text: 'Nej, vi rekommenderar inte dermaroller för hemmabruk på grund av dess tendens att skapa slitande skador i huden, vilket kan vara skadligt och kontraproduktivt. Dessutom är nåldjupet ofta för lågt för att ge effektiva resultat. Istället rekommenderar vi användningen av microneedling med en modern penna som skapar raka, kontrollerade kanaler i huden. Denna metod, utförd av en utbildad hudterapeut, säkerställer en säker och steril behandling och är betydligt mer effektiv för att minska utseendet på atrofiska ärr genom att stimulera hudens kollagenproduktion på ett kontrollerat sätt.'
             ),
       ),
 );
