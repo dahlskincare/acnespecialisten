@@ -5,7 +5,31 @@ use Ramsey\Uuid\Uuid;
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
-$phone_no = '123 233 51 98';
+$phone_no = '1232335198';
+
+class Payee
+{
+    public function __construct($value, $editable)
+    {
+        $this->value = $value;
+        $this->editable = $editable;
+    }
+
+    public string $value;
+    public bool $editable;
+}
+
+class Amount
+{
+    public function __construct($value, $editable)
+    {
+        $this->value = $value;
+        $this->editable = $editable;
+    }
+
+    public int $value;
+    public bool $editable;
+}
 
 function form_completed()
 {
@@ -104,7 +128,7 @@ if (form_completed()) {
         "callbackUrl" => "https://acnespecialisten.se/presentkort?paid=1",
         //"payerAlias" => "4671234768",
         "payeeAlias" => $phone_no,
-        "amount" => $amount,
+        "amount" => intval($amount),
         "currency" => "SEK",
         "message" => "Presentkort Acnespecialisten"
     ];
@@ -154,9 +178,14 @@ if (form_completed()) {
 
 
     $json_data = json_encode(array(
-        "payee" => $phone_no,
+        "format" => "png",
+        "size" => 300,
+        "transparent" => true,
+        "payee" => new Payee($phone_no, false),
+        "amount" => new Amount(intval($amount), false),
     ));
-    $ch = curl_init("https://api.swish.nu/qr/v2/prefilled");
+    $ch = curl_init('https://mpc.getswish.net/qrg-swish/api/v1/prefilled');
+
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_POST, true);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
@@ -168,7 +197,15 @@ if (form_completed()) {
             'Content-Length: ' . strlen($json_data)
         )
     );
-    $qr_image_desktop = 'data:image/png;base64,' . base64_encode(curl_exec($ch));
+    $response = curl_exec($ch);
+
+
+
+    if ($response === false) {
+        throw new Exception('Curl error: ' . curl_error($ch));
+    }
+    $qr_image_desktop = 'data:image/png;base64,' . base64_encode($response);
+
     curl_close($ch);
 }
 ?>
