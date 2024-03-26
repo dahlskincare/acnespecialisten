@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är Inflammerad Akne? Orsak, Symtom och Behandling';
+$seo_title = 'Inflammerad Akne | AcneSpecialisten';
 $seo_description = 'Läs mer om acne och hur det orsakas av en inflammation i huden på ansiktet. Boka en kostnadsfri konsultation →';
 $seo_keywords = 'inflammerad akne';
 
@@ -14,7 +14,7 @@ $seo_keywords = 'inflammerad akne';
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
-$title = 'Inflammation akne';
+$title = 'Inflammerad acne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
