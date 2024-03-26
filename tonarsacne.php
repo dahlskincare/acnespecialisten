@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Tonårsakne - Strategier för Behandling och Skötsel';
+$seo_title = 'Tonårsakne - Orsak, Symtom och Behandling';
 $seo_description = 'Behandla tonårsacne på ett effektivt sätt hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation och få en skräddarsydd behandlingsplan →';
 $seo_keywords = 'tonårsakne';
 
@@ -70,8 +70,9 @@ $nav_buttons = array(
 );
 
 $description_title = 'Förstå och Behandla Tonårsakne';
-$description_text = '<p class="p200">Tonårsakne är en vanlig hudåkomma som drabbar många ungdomar under puberteten, en period där kroppen genomgår betydande hormonella förändringar. Denna typ av akne kännetecknas av utbrott av pormaskar, finnar, och ibland mer allvarliga former som cystor och noduler, främst i ansiktet, på ryggen och bröstet. Orsaken till tonårsakne är en kombination av ökad produktion av talg, tilltäppning av hårfolliklar och en ökning av acneframkallande bakterier på huden. Under puberteten ökar nivåerna av androgener, inklusive testosteron, vilket kan stimulera talgkörtlarna att producera mer sebum. När detta överskott av sebum kombineras med döda hudceller kan det täppa till porerna och skapa en idealisk miljö för bakterier som Cutibacterium acnes att växa, vilket leder till inflammation och akneutslag.</p>
-<p class="p200 mt-m">Att hantera tonårsakne effektivt kräver ofta en kombination av rätt hudvårdprodukter och behandlingar. Även om tonårsakne kan vara en källa till frustration och självmedvetenhet för många ungdomar, finns det många effektiva behandlingar och strategier för att hantera tillståndet. Med rätt metod kan vi hjälpa dig att bli av med din akne!.</p>';
+$description_text = '<p class="p200">Tonårsakne är en vanlig hudåkomma som drabbar många ungdomar under puberteten, en period där kroppen genomgår betydande hormonella förändringar. Denna typ av akne kännetecknas av utbrott av pormaskar, finnar, och ibland mer allvarliga former som cystor och noduler, främst i ansiktet, på ryggen och bröstet. Orsaken till tonårsakne är en kombination av ökad produktion av talg, tilltäppning av hårfolliklar och en ökning av acneframkallande bakterier på huden.</p>
+<p class="p200 mt-m">Under puberteten ökar nivåerna av androgener, inklusive testosteron, vilket kan stimulera talgkörtlarna att producera mer sebum. När detta överskott av sebum kombineras med döda hudceller kan det täppa till porerna och skapa en idealisk miljö för bakterier som Cutibacterium acnes att växa, vilket leder till inflammation och akneutslag.</p>
+<p class="p200 mt-m">Att hantera tonårsakne effektivt kräver ofta en kombination av rätt hudvårdprodukter och behandlingar. Även om tonårsakne kan vara en källa till frustration och självmedvetenhet för många ungdomar, finns det många effektiva behandlingar och strategier för att hantera tillståndet. På Acnespecialisten lägger vi stor vikt vid att förstå de unika utmaningarna med tonårshud och erbjuder behandlingar som är anpassade för att effektivt hantera tonårsakne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -105,39 +106,6 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
-
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Var och varför uppstår tonårsakne?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Tonårsakne är vanligtvis ett resultat av de hormonella förändringar som sker under tonåren, vilket kan leda till ökad talgproduktion och därmed tilltäppta porer. Denna typ av akne påverkar ofta ansiktet men kan också dyka upp på andra delar av kroppen som rygg och bröst, där talgkörtlar är mer aktiva. På Acnespecialisten lägger vi stor vikt vid att förstå de unika utmaningarna med tonårshud och erbjuder behandlingar som är anpassade för att effektivt hantera tonårsakne.</p>
-            <p class="p200 mt-m">För att hantera tonårsakne på bästa sätt är det viktigt att anpassa hudvårdsrutinen till tonåringens specifika hudbehov. Det innebär att välja produkter som är skonsamma, men samtidigt effektiva, för att inte irritera den känsliga ungdomshuden och samtidigt bevara dess naturliga balans. Våra experter på Acnespecialisten ger personligt anpassade råd och rekommendationer för att främja en sund hudvårdsrutin som stödjer en hälsosam hudutveckling under tonåren.</p>',
-      ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När är det dags att söka professionell hjälp för tonårsakne?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'När är det dags att söka professionell hjälp för tonårsakne?',
-            image_title: 'När är det dags att söka professionell hjälp för tonårsakne?',
-            content: '<p class="p200">Tonårsakne kan vara både fysiskt och känslomässigt utmanande. Om du ser att akneutbrotten blir alltmer frekventa eller svåra och vanlig hudvård inte ger effekt, kan det vara läge att söka professionell hjälp. Tidig intervention är nyckeln till att förebygga ärrbildning och andra långsiktiga hudproblem.</p>',
-      ),
-
-      new Article(
-            title: 'Fördelarna med att välja AcneSpecialisten för hantering av tonårsakne',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Fördelarna med att välja AcneSpecialisten för hantering av tonårsakne',
-            image_title: 'Fördelarna med att välja AcneSpecialisten för hantering av tonårsakne',
-            content: '<p class="p200">AcneSpecialisten är en ledande expert på behandling av tonårsakne, med över 30 års erfarenhet. Vi förstår de specifika utmaningar tonårsakne medför och erbjuder anpassade behandlingar för att hantera dessa effektivt och säkert.</p>
-            <p class="p200 mt-m">Våra individuellt skräddarsydda behandlingsplaner är utformade för att möta tonåringars unika hudbehov. Vi engagerar oss i varje ung klient för att hjälpa dem uppnå en hälsosam och strålande hud, vilket gör oss till det självklara valet för alla som söker kvalitativ vård och support för tonårsakne.</p>',
-      ),
-);
 
 $results = array(
       new ResultCustomer(
@@ -221,22 +189,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                title: 'Vid vilken ålder börjar vanligtvis tonårsacne?',
+                text: 'Tonårsacne börjar vanligtvis runt 11-13 års ålder, men kan variera beroende på individuella faktorer som genetik och hormonella förändringar. Det är inte ovanligt att se de första tecknen på akne när barn går in i puberteten.'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                title: 'Vilka områden på kroppen påverkas oftast av tonårsacne?',
+                text: 'Tonårsacne påverkar mest ansiktet, ryggen och bröstet. Dessa områden har fler talgproducerande körtlar, vilket gör dem mer benägna att utveckla akneutslag.'
             ),
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                title: 'Hur länge varar tonårsacne vanligtvis?',
+                text: 'Varaktigheten av tonårsacne varierar från person till person. Hudproblemet kan avta under de sena tonåren till tidiga tjugoårsåldern, men det kan fortsätta in i vuxen ålder för vissa i form av vuxenacne.'
+            ),
+            new Question(
+                title: 'Kan tonårsacne lämna permanenta ärr?',
+                text: 'Ja, om tonårsakne är allvarlig eller inte behandlas korrekt kan det leda till permanenta ärr. Därför är det viktigt att hantera akne tidigt och undvika att pilla eller klämma på finnar.'
+            ),
+            new Question(
+                title: 'När ska jag söka hjälp från en hudterapeut för min tonårsacne?',
+                text: 'Det är bäst att söka hjälp från en hudterapeut direkt vid de första tecknen på tonårsacne för att undvika ärrbildning och få en effektiv behandlingsplan. En hudterapeut kan erbjuda skräddarsydda lösningar baserade på din specifika hudtyp och aknens svårighetsgrad.'
             ),
       ),
 );
@@ -569,20 +539,6 @@ $brands_url_title = "Se alla varumärken";
                               <hr class="mt-xl3 is-hidden-mobile">
                               <?php echo $treatment_link ?>
 
-                        </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
                         </section>
 
                         <section id="results">
