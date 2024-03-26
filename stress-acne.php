@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Stress Acne - Förståelse, Behandling och Förebyggande';
-$seo_description = 'Lär dig om stressrelaterad akne, dess orsaker och hur Acnespecialisten kan hjälpa med skräddarsydda behandlingsmetoder och förebyggande strategier.';
+$seo_title = 'Stress acne - Orsak, Symtom och Behandling';
+$seo_description = 'Lär dig om stressrelaterad akne, dess orsaker och hur AcneSpecialisten kan hjälpa med skräddarsydda behandlingsmetoder och förebyggande strategier.';
 $seo_keywords = 'stress acne, akne stress, stress breakout';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms

@@ -6,8 +6,8 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Tonårsakne - Strategier för Behandling och Skötsel';
-$seo_description = 'Utforska tonårsakne, deras orsaker, effekter och effektiva behandlingar. Acnespecialisten ger experttips för skonsam och anpassad hudvård för ungdomar.';
-$seo_keywords = 'tonårsakne, behandling av tonårsakne, ungdomshudvård, hormonella förändringar och akne, effektiv aknebehandling för ungdomar';
+$seo_description = 'Behandla tonårsacne på ett effektivt sätt hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation och få en skräddarsydd behandlingsplan →';
+$seo_keywords = 'tonårsakne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -70,34 +70,34 @@ $nav_buttons = array(
 );
 
 $description_title = 'Förstå och Behandla Tonårsakne';
-$description_text = '<p class="p200">Tonårsakne är en vanlig hudåkomma som uppkommer till följd av hormonella förändringar, vilket leder till ökad talgproduktion. På Acnespecialisten fokuserar vi på skonsamma behandlingsmetoder som är anpassade för tonåringars känsliga hud. Våra skräddarsydda behandlingar bekämpar effektivt akne och stödjer ungdomshudens hälsa.</p>
-<p class="p200 mt-m">Vi på Acnespecialisten är medvetna om vikten av att anpassa hudvårdsrutiner för tonåringar. Genom noggrann rengöring och utvalda behandlingar som fokuserar på att återfukta och lugna, ger våra experter effektiv vård som är skonsam mot den unga huden och hanterar de specifika utmaningarna som tonårsakne medför.</p>';
+$description_text = '<p class="p200">Tonårsakne är en vanlig hudåkomma som drabbar många ungdomar under puberteten, en period där kroppen genomgår betydande hormonella förändringar. Denna typ av akne kännetecknas av utbrott av pormaskar, finnar, och ibland mer allvarliga former som cystor och noduler, främst i ansiktet, på ryggen och bröstet. Orsaken till tonårsakne är en kombination av ökad produktion av talg, tilltäppning av hårfolliklar och en ökning av acneframkallande bakterier på huden. Under puberteten ökar nivåerna av androgener, inklusive testosteron, vilket kan stimulera talgkörtlarna att producera mer sebum. När detta överskott av sebum kombineras med döda hudceller kan det täppa till porerna och skapa en idealisk miljö för bakterier som Cutibacterium acnes att växa, vilket leder till inflammation och akneutslag.</p>
+<p class="p200 mt-m">Att hantera tonårsakne effektivt kräver ofta en kombination av rätt hudvårdprodukter och behandlingar. Även om tonårsakne kan vara en källa till frustration och självmedvetenhet för många ungdomar, finns det många effektiva behandlingar och strategier för att hantera tillståndet. Med rätt metod kan vi hjälpa dig att bli av med din akne!.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'AcneSpecialisten erbjuder specialiserade konsultationer för att noggrant utvärdera tonårsakne och utforma skräddarsydda behandlingsplaner anpassade för ungdomshudens specifika behov.',
+            content: 'Hos oss får du träffa en personlig hudterapeut som skapar en anpassad behandlingsplan för just din tonårsakne.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder effektiva och säkra behandlingar för tonårsakne, med metoder skonsamma nog för ungdomshud, men tillräckligt kraftfulla för att effektivt hantera akneutbrott.',
+            content: 'Effektiva behandlingar för just din tonårsakne för att du effektivt ska bli av med problemet.',
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi tillhandahåller anpassade hudvårdsprodukter och rutiner speciellt utformade för tonåringar, för att hjälpa dem att förebygga framtida utbrott av tonårsakne och upprätthålla en hälsosam hud.',
+            content: 'Vi skapar en personlig hudvårdsrutin som behandlar och balanserar din akne effektivt.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga tonårsakne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Våra behandlingsmetoder inkluderar också tekniker för att minska ärr och hudförändringar orsakade av tonårsakne, med säkerhet och effektivitet för unga hudtyper.',
+            content: 'När din akne är borta kan vi reducera och eliminera ärrbildning som hudproblemet orsakat.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
