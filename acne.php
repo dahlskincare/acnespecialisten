@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne - Symptom, orsak och behandling';
 $seo_description = 'Läs mer om akne & acne, varför det uppstår och vilka behandlingar du kan göra. Boka en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →';
-$seo_keywords = 'akne, acne, vad är akne, acne på ansiktet, akne bakterie, acne i ansiktet, varför får man akne';
+$seo_keywords = 'akne, acne, papler akne, papler acne, vad är akne, acne på ansiktet, akne bakterie, acne i ansiktet, varför får man akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 

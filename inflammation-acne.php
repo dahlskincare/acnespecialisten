@@ -14,13 +14,13 @@ $seo_keywords = 'inflammerad akne';
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
-$title = 'Inflammerad acne';
+$title = 'Inflammerad akne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
-$description = 'Inflammerad akne kännetecknas av rodnad, svullnad och smärtsamma utslag som kan uppstå över hela kroppen, men är vanligast i ansiktet. Inflammation i huden är en naturlig reaktion och kan bestå av både papler och pustler samt finnar med vätska.';
+$description = 'Inflammerad acne, som även kallas även för pustel, skadar huden och kan skapa ärrbildning. Acnen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.';
 
 $akas = [
       new Link(
@@ -76,7 +76,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är inflammerad akne?';
-$description_text = '<p class="p200">Inflammatorisk acne är en typ av akne som kännetecknas av rodnad, svullnad och smärta runt de drabbade områdena, ofta resulterande i pustler, papler, noduler och cystor. Till skillnad från icke-inflammatorisk akne, som mestadels består av komedoner (svarta och vita pormaskar), involverar inflammatorisk akne djupare hudlager och kan lämna efter sig ärr om den inte behandlas korrekt. Denna aknetyp uppstår när porerna blir tilltäppta med överflödigt talg, döda hudceller och bakterier, vilket leder till en infektion och den efterföljande inflammatoriska responsen. Behandlingen av inflammatorisk acne bygger på att minska inflammation, bekämpa bakteriell infektion och normalisera avstötningen av döda hudceller för att förhindra ytterligare tilltäppning av porerna.</p>
+$description_text = '<p class="p200">Inflammatorisk akne är en typ av akne som kännetecknas av rodnad, svullnad och smärta runt de drabbade områdena, ofta resulterande i pustler, papler, noduler och cystor. Till skillnad från icke-inflammatorisk akne, som mestadels består av komedoner (svarta och vita pormaskar), involverar inflammatorisk akne djupare hudlager och kan lämna efter sig ärr om den inte behandlas korrekt. Denna aknetyp uppstår när porerna blir tilltäppta med överflödigt talg, döda hudceller och bakterier, vilket leder till en infektion och den efterföljande inflammatoriska responsen gör att en pustel bildas. Behandlingen av inflammatorisk acne bygger på att minska inflammation, bekämpa bakteriell infektion och normalisera avstötningen av döda hudceller för att förhindra ytterligare tilltäppning av porerna.</p>
 <p class="p200 mt-m">Det är också viktigt att upprätthålla en effektiv hudvårdsrutin som behandlar och balanserar huden. Dessutom kan regelbundna besök hos en hudterapeut hjälpa till att anpassa behandlingen efter individens specifika behov och följa upp framstegen.</p>';
 
 $treatment_steps = array(

@@ -91,7 +91,7 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Processen för ansiktsbehandling mot problemhy',
         image_title: 'Processen för ansiktsbehandling mot problemhy',
-        content: '<p class="p200">Hos oss hittar du ansiktsbehandlingar utformade för alla typer av problemhy. Vi förstår att varje persons hud är unik, och därför skräddarsyr vi varje behandling baserat på dina personliga och individuella behov. Vår expertis och omfattande kunskap säkerställer att du får den bästa möjliga vården för din hud.</p>
+        content: '<p class="p200">Hos oss hittar du ansiktsbehandlingar utformade för alla typer av problemhy. Vi förstår att varje persons hud är unik, och därför skräddarsyr vi varje behandling baserat på dina personliga och individuella behov. Vår expertis och omfattande kunskap i att identifiera din hudtyp säkerställer att du får den bästa möjliga vården för din hud.</p>
 
         <p class="p200 mt-m">Varje behandling inleds med en noggrann rengöring för att avlägsna smuts och eventuellt smink. Därefter används en Vapozon för att varsamt öppna upp porerna och göra huden mer mottaglig. Efter detta steg genomför vi en grundlig extraktion (klämning) där vi noggrant tömmer porerna på oönskade finnar, pormaskar och andra orenheter. För att lugna huden och minska eventuell rodnad eller irritation appliceras sedan en lugnande mask. Slutligen avslutas behandlingen med en intensiv återfuktning, vilket hjälper din hud att återhämta sig och känna sig förnyad.</p>',
         tags: array(new ArticleTag(
@@ -481,7 +481,11 @@ $faq_categories = array(
         new Question(
             title: 'Hur vet jag vilken behandling som passar bäst för min problemhy?',
             text: '<p class="p200">Det är bäst att boka en konsultation med en av våra hudterapeuter. Under konsultationen kommer vi att analysera din hud, diskutera dina bekymmer och rekommendera den bästa behandlingsplanen anpassad för dina specifika behov.</p>'
-        )
+        ),
+        new Question(
+            title: 'Vilken hudtyp har jag?',
+            text: '<p class="p200">För dig som är osäker på vilken hudtyp du har erbjuder vi alltid en kostnadsfri hudkonsultation. Vi kan också svara på frågor om din hudtyp under ansiktsbehandlingen för problemhy, och vi skräddarsyr alltid behandlingen efter din huds behov.</p>'
+        ),
     )
 );
 

@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Fet Hy i Ansiktet - Orsak + Behandling | AcneSpecialisten';
+$seo_title = 'Fet Hy i Ansiktet - Oljig T-Zon | AcneSpecialisten';
 $seo_description = 'Läs mer om fet hud och hur vi kan hjäpla dig att bli av med fet hy i ansiktet. Boka en konsultation idag och få skräddarsydd hudvård för just din hy!';
 $seo_keywords = 'fet hy, fet hud, fet och torr hy, hudvård för fet hy, flottig, ansiktskräm fet hy, fet hy i ansiktet, hudvård för fet hy';
 
@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/blandhy.webp';
 $image_large = 'bilder/hudproblem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med fet hy';
 $image_alt = 'Bild som illustrerar utseendet av fet hy';
-$description = 'Kan också beskrivas som oljig hy, glansig hy eller blank hy. Här förklarar vi vad som kännetecknar fet hy, varför problemet uppstår och hur vi kan hjälpa dig.';
+$description = 'Kan också beskrivas som oljig hy i t-zon, glansig hy eller blank hy. Här förklarar vi vad som kännetecknar fet hy, varför problemet uppstår och hur vi kan hjälpa dig.';
 
 $akas = [
       new Link(

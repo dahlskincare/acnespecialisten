@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Perorial Dermatit Behandling och Information';
+$seo_title = 'Perorial Dermatit | AcneSpecialisten';
 $seo_description = 'Har du utslag runt munnen? Då kan det vara perioral dermatit. Boka en gratis hudkonsultation så skräddarsyr vi rätt behandling →';
 $seo_keywords = 'perioral dermatit, finnar runt munnen, perioral dermatit behandling, utslag runt munnen, acne runt munnen, akne runt munnen, finnar runt munnen, finnar som kliar';
 
@@ -20,7 +20,7 @@ $image_small = 'bilder/hudproblem/424x324/perioral-dermatit.webp';
 $image_large = 'bilder/hudproblem/424x456/perioral-dermatit.webp';
 $image_title = 'Visar en hud med perioral dermatit';
 $image_alt = 'Bild som illustrerar hur perioral dermatit ser ut på huden';
-$description = 'Perioral dermatit är en inflammatorisk hudsjukdom som framträder som utslag runt munnen. Denna sida går igenom symptomen, potentiella orsaker och hur tillståndet skiljer sig från andra hudsjukdomar.';
+$description = 'Perioral dermatit kan beskrivas som utslag och eksem runt munnen, och uppstår som finnar som kliar i ansiktet. Här läser du mer om vad som kännetecknar perioral dermatit, varför problemet uppstår och hur vi kan hjälpa dig att behandla det.';
 
 $akas = [
       new Link(
@@ -96,7 +96,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man perioral dermatit?',
-            content: '<p class="p200">Perioral dermatit är ett hudtillstånd som oftast ger utslag runt munnen och på nedre delen av ansiktet, men det kan även spridas till områden kring näsan och ibland runt ögonen. Det är därför det kallas "perioral", vilket betyder "runt munnen". Faktorer som påverkar var på huden tillståndet uppstår inkluderar lokal irritation från kosmetiska produkter eller hudvårdsbehandlingar. Ingredienser i tandkräm, munvatten och ansiktskrämer kan ibland förvärra eller utlösa tillståndet. Därför är det viktigt att vara medveten om de produkter man använder och hur de kan påverka ens hud.</p>',
+            content: '<p class="p200">Perioral dermatit är ett hudtillstånd som oftast ger utslag runt munnen och på nedre delen av ansiktet, men det kan även spridas till områden kring näsan och ibland runt ögonen. Det är därför det kallas "perioral", vilket betyder "runt munnen". På grund av detta brukar det ofta beskrivas som finnar eller akne runt munnen. Faktorer som påverkar var på huden tillståndet uppstår inkluderar lokal irritation från kosmetiska produkter eller hudvårdsbehandlingar. Ingredienser i tandkräm, munvatten och ansiktskrämer kan ibland förvärra eller utlösa tillståndet. Därför är det viktigt att vara medveten om de produkter man använder och hur de kan påverka ens hud.</p>',
             extended_content: '<p class="p200 mt-xl">Tillståndet kan också påverkas av klimat och väderförhållanden. Till exempel, fuktiga och varma klimat har observerats att förvärra symptomen av perioral dermatit hos vissa individer. Å andra sidan kan mycket torra miljöer leda till hudirritation som kan vara en utlösande faktor. I vissa fall kan användningen av ansiktsmasker eller annan personlig skyddsutrustning leda till en förvärring av tillståndet. Den ökade fuktigheten, friktionen och värmen under masken kan förvärra perioral dermatit.</p>',
             icons: array('mun' => 'Runt Munnen', 'ansikte' => 'Ansiktet')
       ),
