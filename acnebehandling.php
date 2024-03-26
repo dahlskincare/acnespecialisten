@@ -73,7 +73,7 @@ $services = array(
         title: 'Ansiktsbehandling mot Akne',
         duration: '60 minuter',
         price: 'Pris från 1295 kr',
-        content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup portömning där inflammationer och akne kläms ut. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup portömning där inflammationer och akne kläms ut. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
         consultation_url_label: 'Boka konsultation',
@@ -634,7 +634,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                        <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
                             ),
                             new Question(
-                                title: 'Vilken är den bästa behandlingen mot akne?',
+                                title: 'Vilken är den bästa akne behandling ni erbjuder?',
                                 text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsakerna till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
                             ),
                             new Question(
