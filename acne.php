@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne - Symptom, orsak och behandling';
+$seo_title = 'Akne | AcneSpecialisten';
 $seo_description = 'Läs mer om akne & acne, varför det uppstår och vilka behandlingar du kan göra. Boka en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →';
 $seo_keywords = 'akne, acne, papler akne, papler acne, vad är akne, acne på ansiktet, akne bakterie, acne i ansiktet, varför får man akne';
 

@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Cystisk Akne och Nodulocystisk akne | AcneSpecialisten';
+$seo_title = 'Cystisk Akne och Nodulocystisk Akne | AcneSpecialisten';
 $seo_description = 'Läs om vad cystisk acne, även kallat nodulocystisk acne, är samt hur du kan behandla den. Hos oss börjar du med en kostnadsfri konsultation →';
 $seo_keywords = 'cystisk akne, nodulocystisk akne, nodulär akne, acne nodulocystica';
 

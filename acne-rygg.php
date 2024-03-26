@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne på Ryggen - Information + Behandling | AcneSpecialisten';
+$seo_title = 'Akne på Ryggen - Ta bort finnar på ryggen | AcneSpecialisten';
 $seo_description = 'Information och behandling av akne på ryggen, allt du behöver veta om ryggbehandling av acne! Boka in en kostnadsfri konsultation & få en behandlingsplan →';
-$seo_keywords = 'akne på ryggen, ryggbehandling acne, behandling av akne på ryggen';
+$seo_keywords = 'akne på ryggen, ryggbehandling acne, behandling av akne på ryggen, akne rygg, finnar på ryggen, acne axlar';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -74,9 +74,9 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och Behandla akne på ryggen';
-$description_text = '<p class="p200">Akne på ryggen, ofta refererad till som "bacne", beror på samma faktorer som akne i ansiktet och på bröstet – överproduktion av sebum, ackumulering av döda hudceller och tillväxt av bakterier i porerna. Ryggen, med sin stora yta och höga koncentration av talgkörtlar, är särskilt mottaglig för kraftiga utbrott. Detta tillstånd kan vara särskilt utmanande att behandla på grund av ryggens svåråtkomliga läge. Behandlingsstrategier för akne på ryggen inkluderar användning av hudvårdsprodukter som kan appliceras över större hudområden.</p>
-<p class="p200 mt-m">För individer som kämpar med envis akne på ryggen kan det vara nödvändigt att utforska mer avancerade behandlingsalternativ i samråd med en hudterapeut, såsom laserbehandling eller kemiska peelingar, för att effektivt minska både aktiva utbrott och efterföljande ärrbildning.</p>';
+$description_title = 'Vad är akne på ryggen?';
+$description_text = '<p class="p200">Akne på ryggen, ofta benämnd som "bakne", är en hudåkomma där utslag som finnar, pormaskar, och i vissa fall, djupare cystor och noduler uppträder på ryggen och axlar. Precis som akne på andra delar av kroppen, är akne på ryggen resultatet av tilltäppta hårfolliklar orsakade av en överproduktion av talg och samling av döda hudceller, vilket skapar en gynnsam miljö för tillväxt av acneframkallande bakterier. Akne på ryggen kan påverka individer i alla åldrar men är särskilt vanlig under tonår och unga vuxna år. Denna typ av akne kan vara särskilt utmanande att behandla på grund av ryggens stora yta och svåråtkomliga läge. Faktorer som bidrar till utvecklingen av akne på ryggen inkluderar hormonella förändringar, svett och friktion från kläder samt vissa livsstils- och kostvanor.</p>
+<p class="p200 mt-m">Ryggbehandling för akne fokuserar på att rensa tilltäppta porer, minska produktionen av talg, bekämpa bakterietillväxt och minska inflammation. Behandlingar består av hudvårdsrutiner som regelbunden rengöring med produkter anpassade för aknebenägen hud. Det är också viktigt att kombinera med behandlingar som djuprengör huden för att avlägsna döda hudceller och förebygga tilltäppning av porer. Under en konsultation tar vi fram en skräddarsydd behandlignsplan för just din hy så att du effektivt kan få rätt ryggbehandling för din acne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

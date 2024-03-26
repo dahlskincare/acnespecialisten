@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är akne på bröstet?';
-$description_text = '<p class="p200">Akne på bröstet manifesterar sig när talgkörtlar under huden blir inflammerade eller infekterade, vilket resulterar i ett utslag bestående av pormaskar, papler, pustler och ibland även djupare cystor. Denna typ av akne kan framkallas av en rad orsaker, däribland hormonella svängningar som påverkar sebumproduktionen, irritation från svett och klädernas konstanta gnuggning mot huden, olämpliga hudvårdsprodukter som kan täppa till porerna samt kost som kan bidra till kroppens inflammatoriska respons. Förutom de fysiska obehagen kan akne på bröstet även medföra psykologisk stress och självmedvetenhet.</p>
-<p class="p200 mt-m">Behandling för denna form av akne består av hudvårdsprodukter och rutiner kombinerat med behandlingar som exfolierar och rengör huden. Regelbunden hudvård är nyckeln till att minska och förebygga utbrott.</p>';
+$description_text = '<p class="p200">Akne på bröstet är en hudåkomma som kan drabba individer i alla åldrar, men är särskilt vanlig under tonåren och unga vuxna år. Detta tillstånd kännetecknas av utbrott av finnar, pormaskar och i vissa fall djupare cystor och noduler, som uppkommer på huden över bröstkorgen. Precis som med annan akne, beror akne på bröstet på en kombination av överproduktion av talg, tilltäppning av hårfolliklar med döda hudceller, och förekomsten av acneframkallande bakterier. Behandlingen av akne på bröstet varierar beroende på dess svårighetsgrad och inkluderar hudvårdsprodukter och behandlingar som behandlar och balanserar huden. En viktig komponent är att undvika att pilla eller klämma på utslagen för att förebygga ärrbildning och inflammation.</p>
+<p class="p200 mt-m">Sammanfattningsvis är akne på bröstet ett vanligt men hanterbart hudtillstånd. Med rätt hudvård och behandlingar kan individer effektivt minska utbrott och upprätthålla en klarare och friskare hud på bröstet.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

@@ -76,7 +76,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är akne i ansiktet?';
 $description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av talg, kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
-<p class="p200 mt-m">Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
+<p class="p200 mt-m">Akne påverkar oftast områden i ansiktet där talgkörtlar är mest aktiva, inklusive käklinjen, kinderna, pannan, näsan och även området under hakan. I vissa fall kan akne även sprida sig till halsen, vilket ytterligare kan försvåra tillståndet. Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -95,7 +95,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Med hjälp av en anpassad hudvårdsrutin tillsammans med rätt hudvårdsprodukter kan du effektivt förebygga aknen i ansiktet..',
+            content: 'Med hjälp av en anpassad hudvårdsrutin tillsammans med rätt hudvårdsprodukter kan du effektivt förebygga aknen i ansiktet.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'

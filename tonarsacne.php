@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Tonårsakne - Orsak, Symtom och Behandling';
+$seo_title = 'Tonårsakne | AcneSpecialisten';
 $seo_description = 'Behandla tonårsacne på ett effektivt sätt hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation och få en skräddarsydd behandlingsplan →';
 $seo_keywords = 'tonårsakne';
 
