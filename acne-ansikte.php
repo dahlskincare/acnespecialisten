@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne i Ansiktet - Förståelse och Behandling';
-$seo_description = 'Utforska djupgående insikter om akne i ansiktet, dess orsaker och skräddarsydda behandlingsmetoder hos Acnespecialisten för alla hudtyper och åldrar.';
-$seo_keywords = 'akne i ansiktet, ansiktsakne behandling, hudvård för ansiktsakne';
+$seo_title = 'Akne i Ansiktet | AcneSpecialisten';
+$seo_description = 'Har du problem med acne i ansiktet, såsom käklinje, kinderna eller under hakan? Läs mer om hur du kan behandla det. Börja med en kostnadsfri konsultation →';
+$seo_keywords = 'akne, akne i ansiktet, acne i ansiktet, acne käklinje, acne kinderna, acne under hakan';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är akne i ansiktet?';
-$description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av sebum (hudolja), kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
-<p class="p200 mt-m">Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoder sträcker sig från enkla hudvårdsrutiner, inklusive användning av milda rengöringsmedel och icke-komedogena hudvårdsprodukter, till mer avancerade medicinska ingrepp som receptbelagda topikala retinoider, orala antibiotika eller hormonbehandlingar, beroende på aknens svårighetsgrad och typ.</p>';
+$description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av talg, kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
+<p class="p200 mt-m">Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Om akne på bröstet | Acnespecialisten';
-$seo_description = 'Behandla acne på bröstet hos oss på Acnespecialisten! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
-$seo_keywords = 'akne på bröstet, bröstakne behandling, hudvård för bröstakne';
+$seo_title = 'Akne och Finnar på Bröstet | AcneSpecialisten';
+$seo_description = 'Läs mer om akne på bröstkorgen och andra delar av bröstet! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
+$seo_keywords = 'finnar på bröstet, akne på bröstkorgen';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av Bröstakne';
 $image_alt = 'Bild som visar behandling och vård av akne på bröstet';
-$description = 'I denna sektion får du en detaljerad inblick i akne på bröstet, dess vanligaste orsaker såsom hormonella obalanser, stress, och miljöfaktorer, samt Acnespecialistens skräddarsydda behandlingsmetoder. Vi delar även med oss av individanpassade hudvårdsråd för att effektivt stötta personer med bröstakne i olika åldrar.';
+$description = 'Finnar på bröstet kan vara både besvärande och obekväma, men det finns lösningar. Denna sida är dedikerad till att utforska akne på bröstkorgen, dess orsaker och hur du kan behandla och förebygga dessa irriterande utslag. Vi guidar dig genom de bästa metoderna för att ta hand om din hud och ge dig tips för att återställa dess naturliga balans och skönhet.';
 
 $akas = [
       new Link(
@@ -74,35 +74,35 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och Behandla akne på bröstet';
-$description_text = '<p class="p200">Akne på bröstet är en vanlig hudåkomma som drabbar människor i alla åldrar, påverkad av olika faktorer såsom hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att identifiera de unika orsakerna till din bröstakne och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetod innefattar allt från skonsamma djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess effekter på huden.</p>
-<p class="p200 mt-m">Med vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både behandlingar och dagliga hudvårdsrutiner anpassade för din hudtyp och akneintensitet. Våra behandlingsprogram är utformade för att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tiden.</p>';
+$description_title = 'Vad är akne på bröstet?';
+$description_text = '<p class="p200">Akne på bröstet manifesterar sig när talgkörtlar under huden blir inflammerade eller infekterade, vilket resulterar i ett utslag bestående av pormaskar, papler, pustler och ibland även djupare cystor. Denna typ av akne kan framkallas av en rad orsaker, däribland hormonella svängningar som påverkar sebumproduktionen, irritation från svett och klädernas konstanta gnuggning mot huden, olämpliga hudvårdsprodukter som kan täppa till porerna samt kost som kan bidra till kroppens inflammatoriska respons. Förutom de fysiska obehagen kan akne på bröstet även medföra psykologisk stress och självmedvetenhet.</p>
+<p class="p200 mt-m">Behandling för denna form av akne består av hudvårdsprodukter och rutiner kombinerat med behandlingar som exfolierar och rengör huden. Regelbunden hudvård är nyckeln till att minska och förebygga utbrott.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är anpassad för att kartlägga de unika egenskaperna hos din bröstakne. Genom vår expertanalys identifierar vi de bakomliggande faktorerna och utvecklar en skräddarsydd behandlingsplan för att effektivt hantera dina hudproblem.',
+            content: 'Vår specialiserade konsultation är anpassad för att kartlägga de unika egenskaperna hos din bröstakne och utvecklar en skräddarsydd behandlingsplan för att effektivt hantera dina hudproblem.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne_Chest',
             url_title: 'Boka din kostnadsfria hudkonsultation för akne på bröstet idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar varje behandling för bröstakne baserat på din huds individuella behov. Från skonsamma exfolierande till djuprengörande metoder, erbjuder vi effektiva lösningar för att bekämpa akne på bröstet och främja en klarare hud.',
+            content: 'Vi anpassar varje behandling för bröstakne baserat på din huds individuella behov, för att bekämpa akne på bröstet och främja en klarare hud.',
             url_label: 'Se bröstaknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av bröstakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa produkter är specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne, hållande din hud hälsosam och ren.',
+            content: 'För att förebygga framtida utbrott av bröstakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner, specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne på bröstet'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv bröstakne fokuserar vi på att reparera och förbättra hudens textur. Våra behandlingar inkluderar metoder för att minska ärrbildning och främja en jämn och fräsch hudton, för långsiktiga och hållbara resultat.',
+            content: 'Efter att ha behandlat aktiv bröstakne fokuserar vi på att reparera och förbättra hudens textur, för att minska ärrbildning och främja en jämn hudton.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från akne på bröstet'
@@ -222,32 +222,6 @@ $reviews = array(
 
 $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
-
-$faq_categories = array(
-      'Generella frågor' => array(
-            new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
-            ),
-            new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
-            ),
-      ),
-);
-
-$faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -651,11 +625,6 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
-                        </section>
-                        <section id="faq">
-                              <h2 class="big l10n">Frågor & Svar</h2>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
                         <!--Hudguide-->
                         <section id="specialists">
