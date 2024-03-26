@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Behandling av ansiktsakne';
 $image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
-$description = 'Denna avdelning erbjuder en detaljerad översikt över akne i ansiktet, dess vanligaste orsaker som hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens effektiva behandlingar. Vi delar också med oss av individuellt anpassade hudvårdsråd för att stödja personer med ansiktsakne i olika åldrar.';
+$description = 'Upptäck allt du behöver veta om akne i ansiktet, en vanlig hudåkomma som kan påverka alla, oavsett ålder. Från pormaskar till mer djupgående utslag längs käklinjen, kinderna och under hakan, förklarar vi orsakerna bakom dessa utbrott och erbjuder råd för effektiva behandlingsmetoder. Lär dig hur du kan hantera din hudvård för att bekämpa akne och uppnå en klarare och friskare hud.';
 
 $akas = [
       new Link(
@@ -74,35 +74,35 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Förstå och Behandla Akne i Ansiktet';
-$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som drabbar människor i alla åldersgrupper, påverkad av en rad olika faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att förstå de unika orsakerna till din ansiktsakne och tillhandahåller personligt anpassade behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetodik omfattar allt från skonsamma, djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess påverkan på huden.</p>
-<p class="p200 mt-m">Med vår expertis skapar vi individuella hudvårdsplaner som inkluderar både behandlingar och dagliga hudvårdsrutiner anpassade efter din hudtyp och akneintensitet. Våra behandlingsprogram syftar till att lugna huden, minska inflammation och främja hudens balans, vilket bidrar till en klarare och mer jämn hudton över tid.</p>';
+$description_title = 'Vad är akne i ansiktet?';
+$description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av sebum (hudolja), kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
+<p class="p200 mt-m">Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoder sträcker sig från enkla hudvårdsrutiner, inklusive användning av milda rengöringsmedel och icke-komedogena hudvårdsprodukter, till mer avancerade medicinska ingrepp som receptbelagda topikala retinoider, orala antibiotika eller hormonbehandlingar, beroende på aknens svårighetsgrad och typ.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är utformad för att kartlägga de unika egenskaperna hos din ansiktsakne. Genom vår expertis identifierar vi de bakomliggande faktorerna och utvecklar en personlig behandlingsplan för att effektivt hantera dina hudproblem.',
+            content: 'Hos oss får du en personlig hudterapeut som hjäpler dig att analysera aknen på ansiktet och tar fram en skräddarsydd behandlingsplan för just din hy.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar varje behandling för akne i ansiktet baserat på din huds individuella behov. Med vårt breda utbud av behandlingar, från milt exfolierande till djuprengörande metoder, erbjuder vi effektiva lösningar för att bekämpa akne och främja en klarare hud.',
+            content: 'Vi utför grundliga ansiktsbehandlingar anpassade för just din aknetyp så att du blir av med problemet effektivt.',
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av akne i ansiktet, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne, hållande din hud hälsosam och ren.',
+            content: 'Med hjälp av en anpassad hudvårdsrutin tillsammans med rätt hudvårdsprodukter kan du effektivt förebygga aknen i ansiktet..',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera huden. Våra behandlingar inkluderar metoder för att minska ärrbildning och förbättra hudens textur, bidragande till en jämn och fräsch hudton för långsiktiga resultat.',
+            content: 'Akne på ansiktet orsakar ofta ärrbildning, vi kan hjälpa dig att repapera skadan som orsakats så att du blir av med ärren.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från akne'
@@ -110,40 +110,6 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne</a>';
-
-
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Varför uppstår akne i ansiktet?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Orsakerna till akne i ansiktet är mångfacetterade och involverar ofta en kombination av faktorer. En primär orsak är hormonella förändringar som kan stimulera överproduktion av talg, vilket leder till tilltäppta porer och akneutbrott. Stress har också visat sig kunna förvärra akne genom att påverka hormonbalansen och öka hudens talgproduktion. På AcneSpecialisten fokuserar vi på en helhetssyn av dina hudproblem för att effektivt adressera akne i ansiktet.</p>
-            <p class="p200 mt-m">Ett riktat tillvägagångssätt för att hantera akne i ansiktet kräver en noga anpassad hudvårdsrutin. Det är avgörande att välja produkter som är effektiva men samtidigt skonsamma mot huden för att undvika ytterligare irritation. På AcneSpecialisten arbetar vi nära med dig för att skapa en personligt anpassad hudvårdsrutin som stärker och balanserar din hud, och bidrar till att förebygga framtida akneutbrott och främja en hälsosam hudmiljö.</p>',
-      ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            image_title: 'När är det dags att söka professionell hjälp för akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet kan vara mer än bara ett hudproblem – det kan även leda till emotionellt obehag. Om du upplever att din akne är ihållande eller förvärras, är det en signal om att det kan vara läge att söka professionell hjälp. Tidig behandling är nyckeln till att förebygga ärr och andra långsiktiga hudproblem. Genom professionell rådgivning kan du få hjälp med att behandla nuvarande utbrott samt råd om förebyggande åtgärder och anpassade hudvårdsrutiner för att bevara en frisk hud.</p>',
-      ),
-
-      new Article(
-            title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            image_title: 'Varför välja AcneSpecialisten för din aknebehandling i ansiktet?',
-            content: '<p class="p200">AcneSpecialisten står ut med över 30 års erfarenhet av att behandla akne i ansiktet. Vår djupa förståelse för hudens komplexitet och behov gör att vi kan erbjuda unika, skräddarsydda behandlingar anpassade efter varje individs situation.</p>
-            <p class="p200 mt-m">Vi på AcneSpecialisten utvecklar personliga behandlingsplaner för varje kund, med fokus på att inte bara lindra nuvarande hudproblem utan också utbilda om hur man upprätthåller en hälsosam hud långsiktigt. Vårt engagemang och vår kunskap gör oss till det självklara valet för dem som söker hållbara lösningar för akne i ansiktet.</p>',
-      ),
-);
 
 $results = array(
       new ResultCustomer(
@@ -223,32 +189,6 @@ $reviews = array(
 
 $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
-
-$faq_categories = array(
-      'Generella frågor' => array(
-            new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
-            ),
-            new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
-            ),
-      ),
-);
-
-$faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -576,20 +516,6 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
-
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
@@ -615,11 +541,6 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
-                        </section>
-                        <section id="faq">
-                              <h2 class="big l10n">Frågor & Svar</h2>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
                         <!--Hudguide-->
                         <section id="specialists">

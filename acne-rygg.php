@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av Ryggakne';
 $image_alt = 'Bild som illustrerar behandling och vård av akne på ryggen';
-$description = 'Denna sektion ger dig en omfattande översikt över akne på ryggen, dess vanligaste orsaker som hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att effektivt stödja personer med akne på ryggen i olika åldrar.';
+$description = 'Akne på ryggen kan vara svårare att behandla på grund av dess läge, men vi har samlat den information och de resurser du behöver för att effektivt hantera detta tillstånd. Från djupgående ryggbehandlingar till hemåtgärder, utforskar vi olika behandlingar av akne på ryggen som kan hjälpa dig att bli av med utbrott och förebygga framtida problem. Upptäck hur du kan uppnå och bibehålla en ren och klar rygg, fri från akne.';
 
 $akas = [
       new Link(
@@ -75,8 +75,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Förstå och Behandla akne på ryggen';
-$description_text = '<p class="p200">Akne på ryggen är en vanlig hudåkomma som drabbar människor i alla åldrar, påverkad av olika faktorer såsom hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att identifiera de unika orsakerna till din bröstakne och erbjuder skräddarsydda behandlingar och hudvårdsstrategier. Vår mångsidiga behandlingsmetod innefattar allt från skonsamma djuprengörande procedurer till avancerade behandlingar för att effektivt minska akne och dess effekter på huden.</p>
-<p class="p200 mt-m">Med vår expertis utvecklar vi individuella hudvårdsplaner som omfattar både behandlingar och dagliga hudvårdsrutiner anpassade för din hudtyp och akneintensitet. Våra behandlingsprogram är utformade för att lugna huden, minska inflammation och främja en hälsosam hudbalans, vilket bidrar till en klarare och jämnare hudton över tiden.</p>';
+$description_text = '<p class="p200">Akne på ryggen, ofta refererad till som "bacne", beror på samma faktorer som akne i ansiktet och på bröstet – överproduktion av sebum, ackumulering av döda hudceller och tillväxt av bakterier i porerna. Ryggen, med sin stora yta och höga koncentration av talgkörtlar, är särskilt mottaglig för kraftiga utbrott. Detta tillstånd kan vara särskilt utmanande att behandla på grund av ryggens svåråtkomliga läge. Behandlingsstrategier för akne på ryggen inkluderar användning av topikala lösningar som kan appliceras över större hudområden, medicinska kroppsskrubbar som innehåller exfolierande syror och, för svårare fall, orala mediciner.</p>
+<p class="p200 mt-m">Att vidta förebyggande åtgärder som att bära andningsaktiva tyger, undvika direkt kontakt med svettiga träningsredskap och att upprätthålla en regelbunden rengöringsrutin efter träning kan hjälpa till att kontrollera tillståndet. För individer som kämpar med envis akne på ryggen kan det vara nödvändigt att utforska mer avancerade behandlingsalternativ i samråd med en hudläkare, såsom laserterapi eller kemiska peelingar, för att effektivt minska både aktiva utbrott och efterföljande ärrbildning.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -110,40 +110,6 @@ $treatment_steps = array(
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ryggakne</a>';
-
-
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Varför uppstår akne på ryggen?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Akne på ryggen kan uppstå genom en kombination av faktorer, där hormonella förändringar ofta spelar en stor roll. Dessa förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer, en primär orsak till akne. Stress är en annan betydande faktor som kan förvärra hudens tillstånd genom att påverka hormonbalansen. Ytterligare en orsak kan vara friktion från kläder och sportutrustning, som exempelvis skydd vid olika sportaktiviteter, vilket kan bidra till aknes uppkomst genom ökad svettning och irritation av huden. akne kan dyka upp inte bara på ryggen utan även på andra delar av kroppen, som bröstet.</p>
-            <p class="p200 mt-m">Att hantera akne på ryggen effektivt kräver en hudvårdsrutin som är specifikt anpassad till de utmaningar som denna typ av akne medför. Det är viktigt att välja produkter som är skonsamma men effektiva för att minska irritation och samtidigt bevara hudens naturliga balans. Hos AcneSpecialisten står våra erfarna hudterapeuter redo att ge dig personlig rådgivning och rekommendationer, och skapa en hudvårdsrutin som stödjer en balanserad hud. Vi tar hänsyn till de speciella förutsättningarna som krävs för att effektivt hantera akne på ryggen.</p>',
-      ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När är det dags att söka professionell hjälp för akne på ryggen?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'När är det dags att söka professionell hjälp för akne på ryggen?',
-            image_title: 'När är det dags att söka professionell hjälp för akne på ryggen?',
-            content: '<p class="p200">Ryggakne kan uppstå av flera olika anledningar, där en kombination av faktorer som hormonella förändringar och stress spelar en stor roll. Dessa kan leda till ökad talgproduktion och tilltäppta porer. Att identifiera när det är dags att söka professionell hjälp är viktigt för att förhindra långsiktiga effekter på huden. På AcneSpecialisten erbjuder vi en helhetsorienterad metod för att effektivt hantera din ryggakne. En personligt anpassad hudvårdsrutin är central, där val av produkter som är både effektiva och skonsamma är avgörande för att förebygga ytterligare hudirritation och upprätthålla en hälsosam hudmiljö.</p>',
-      ),
-
-      new Article(
-            title: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
-            image_title: 'Varför AcneSpecialisten är det bästa valet för behandling av din akne på ryggen',
-            content: '<p class="p200">Med över 30 års erfarenhet inom behandling av akne på ryggen, har AcneSpecialisten utvecklat en djup förståelse för hudens komplexitet och behov. Vi erbjuder unika, skräddarsydda behandlingar anpassade för varje enskild klients unika situation.</p>
-            <p class="p200 mt-m">Vårt team på AcneSpecialisten utvecklar personliga behandlingsplaner, inriktade på att behandla aktuella hudproblem samt utbilda kunder om hur man bibehåller en hälsosam hud över tid. Vårt engagemang och vår expertis gör oss till det självklara valet för de som söker effektiva och hållbara lösningar på sin ryggakne.</p>',
-      ),
-);
 
 $results = array(
       new ResultCustomer(
@@ -223,32 +189,6 @@ $reviews = array(
 
 $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
-
-$faq_categories = array(
-      'Generella frågor' => array(
-            new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
-            ),
-            new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
-            ),
-      ),
-);
-
-$faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -576,20 +516,6 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
-
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
@@ -615,11 +541,6 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
-                        </section>
-                        <section id="faq">
-                              <h2 class="big l10n">Frågor & Svar</h2>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
                         <!--Hudguide-->
                         <section id="specialists">
