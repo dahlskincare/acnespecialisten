@@ -330,35 +330,36 @@ $specialists = array(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i pormaskbehandling',
-        image_title: 'Cazzandra Lindberg - Expert på pormaskbehandling'
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i portömning',
+        image_title: 'Cazzandra Lindberg - Expert på portömning'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på pormaskar',
-        image_title: 'Veronika Benedik - Specialist inom pormaskvård'
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på portömning',
+        image_title: 'Veronika Benedik - Specialist inom portömning'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
         image: 'images/specialists/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom pormaskhantering',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på pormaskar'
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom portömning',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på portömning'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot pormaskbehandling',
-        image_title: 'Vilma Libom - Expert inom pormaskbehandling'
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot portömning',
+        image_title: 'Vilma Libom - Expert inom portömning'
     )
 );
 
+
 $specialists_view_more = 'Se alla hudterapeuter';
 
-$brands_title = 'Märken vi jobbar med';
+$brands_title = 'Varumärken vi jobbar med';
 $all_brands = array(
     new Brand(
         label: 'Alma',

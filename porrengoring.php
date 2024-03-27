@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Porrengöring | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi porrengöring för att behandla porer. Denna djupgående rengör och exfolierar porerna effektivt. Boka tid hos oss idag →';
-$seo_keywords = 'porrengöring';
+$seo_keywords = 'porrengöring, porrengörare, porrengöring hemma';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
@@ -56,12 +56,16 @@ $floating_box = 'Effektiv porrengöring.';
 
 $nav_buttons = array(
     'about' => 'Om porrengöring',
+    'preparing' => 'Förberedelser',
+    'process' => 'Processen',
     'types' => 'Typer',
+    'treatment-areas' => 'Områden',
+    'aftercare' => 'Eftervård',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Hudterapeuter',
+    'specialists' => 'Specialister',
     'service-brands' => 'Märken',
 );
 
@@ -69,51 +73,79 @@ $description_title = 'Vad är porrengöring?';
 $description_text = '<p class="p200">Våra porrengöringsbehandling är skräddarsydd för att effektivt ta itu med och minska pormaskar, och erbjuder en djupgående lösning för att uppnå en klarare och mer problemfri hud. Med specialiserade tekniker, inklusive ånga, öppnar vi försiktigt upp porerna för att möjliggöra en grundlig och riktad rengöring. Denna process är särskilt effektiv för att avlägsna pormaskar och rensa tilltäppningar.</p>
     <p class="p200 mt-m">Varje behandling är unikt utformad för att passa olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en blandhud. Vårt fokus ligger på att förbättra hudens hälsa och återställa dess naturliga balans, samtidigt som vi ger nödvändig näring och vård för att förebygga framtida hudproblem, inklusive uppkomsten av nya pormaskar.</p>';
 
-
-$types_title = '';
-$types_description = '';
-$big_types = array(
-    new Service(
-        title: 'Porrengöring',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">Vår porrengöringsbehandling börjar med en skonsam rengöring för att avlägsna smuts och talg. Därefter används en ångbehandling för att mjuka upp huden och underlätta borttagning av pormaskar. Med varsam teknik rengör terapeuten porerna djupt och effektivt.</p>
-        <p class="p200 mt-m">Behandlingen avslutas med en lugnande lermask som minskar rodnad och stramar åt porerna, följt av en återfuktande kräm. Denna process hjälper till att återställa hudens balans och ger en slät, ren yta.</p>',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Porrengöring',
-        image_title: 'Porrengöring',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
-        consultation_url_label: 'Boka hudkonsultation',
-        consultation_url_title: 'Boka hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka behandling',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '995 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '2595 kr',
-                savings: '799 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1'
-            )
-        )
+$top_articles = array(
+    'process' => new Article(
+        title: 'Hur går en portömning till?',
+        image_small: '/bilder/process/358x272/problemhy-process.webp',
+        image_large: '/bilder/process/872x456/problemhy-process.webp',
+        image_alt: 'Hur går en portömning till?',
+        image_title: 'Hur går en portömning till?',
+        content: '<p class="p200">Portömning är en noggrann ansiktsbehandling med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, finnar och akne, vilket bidrar till att minimera porernas storlek. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller.</p>
+        <p class="p200 mt-m">Efter rengöring tillämpas en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar upp porerna, vilket gör det enklare att klämma ut pormaskar och andra blockeringar. För de mest envisa tilltäppningarna kan en lansett (liten nål) användas för att försiktigt göra en öppning i poren för att kunna extrahera innehållet.</p>
+        <p class="p200 mt-m">Sedan applicerar vi en lugnande lermask, som minskar rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
     ),
-
 );
 
+$treatment_areas_title = 'Portömning baserat på område';
+$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
+$treatment_areas = array(
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: null,
+        image_title: null,
+        title: null,
+        description: null,
+        items: array(
+            new TreatmentAreaItem(
+                image: '/bilder/omraden/ikoner/ansikte.svg',
+                image_alt: 'Portömning i ansiktet',
+                image_title: 'Portömning i ansiktet',
+                title: 'Portömning - Ansikte',
+                duration: '60 min',
+                price: '1295 kr',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
+                url_label: 'Boka',
+                url_title: 'Boka tid för portömning i ansiktet'
+            ),
+            new TreatmentAreaItem(
+                image: '/bilder/omraden/ikoner/brost.svg',
+                image_alt: 'Portömning på bröstet',
+                image_title: 'Portömning på bröstet',
+                title: 'Portömning - Bröst',
+                duration: '60 min',
+                price: '1295 kr',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
+                url_label: 'Boka',
+                url_title: 'Boka tid för portömning på bröstet'
+            ),
+            new TreatmentAreaItem(
+                image: '/bilder/omraden/ikoner/rygg.svg',
+                image_alt: 'Portömning på ryggen',
+                image_title: 'Portömning på ryggen',
+                title: 'Portömning - Rygg',
+                duration: '60 min',
+                price: '1295 kr',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
+                url_label: 'Boka',
+                url_title: 'Boka tid för portömning på ryggen'
+            ),
+        )
+    ),
+);
+
+$bottom_articles = array(
+    'aftercare' => new Article(
+        title: 'Eftervård för portömning',
+        image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
+        image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
+        image_alt: 'Eftervård för portömning',
+        image_title: 'Eftervård för portömning',
+        content: '<p class="p200">Efter en portömning är det viktigt att ge huden den omsorg den behöver för att bevara de uppnådda resultaten och underlätta läkningsprocessen. Detta gör du bäst genom en anpassad hudvårdsrutin, som skyddar huden och ger den näring efter behandlingen. Vi rekommenderar hudvårdsprodukter som är utformade för att behandla och balansera huden för att bibehålla resultatet och förebygga framtida hudproblem. Vi på AcneSpecialisten är engagerade i att stödja dig genom hela processen från behandling till eftervård. Vi säkerställer att du får ut det mesta av din portömning och fortsätter på vägen mot optimal hudhälsa.</p>',
+    ),
+);
+
+$results_title = 'Portömning före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -255,24 +287,27 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar behövs?',
-            text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
+            title: 'Kan jag göra portömning hemma?',
+            text: '<p class="p200">Att utföra portömning hemma rekommenderas inte då det ökar risken för infektioner och ärrbildning. Professionella hudterapeuter använder sterila verktyg och rätt metoder för att säkert rensa porerna, vilket minskar risken för hudskador. För bästa resultat och minsta risk, bör du söka hjälp av en utbildad hudterapeut för att hantera porblockeringar och pormaskar.</p>'
         ),
         new Question(
-            title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
-            text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
+            title: 'Hur ofta bör jag genomgå en portömning?',
+            text: '<p class="p200">Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behövs ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du bokar en konsultation med en av våra hudterapeuter.</p>'
         ),
         new Question(
-            title: 'Vad kan jag förvänta mig direkt efter behandlingen?',
-            text: 'Efter en klassisk ansiktsbehandling kan huden vara lite rosig och kännas extra mjuk och återfuktad. Det är viktigt att följa eftervårdsinstruktionerna för att maximera behandlingens effekt. I de fall där en mer resultatinriktad behandling gjorts kan upplevelsen av huden variera.'
+            title: 'Kommer pormaskarna tillbaka efter en portömning?',
+            text: '<p class="p200">Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.</p>'
         ),
         new Question(
-            title: 'Behövs speciell eftervård efter en klassisk ansiktsbehandling?',
-            text: 'Eftervård är viktigt för att bevara resultatet av din ansiktsbehandling. Det innefattar solskydd, mild hudvård, och att undvika starka hudirriterande ämnen ett par dagar efter behandlingen.'
-        )
+            title: 'Hur snabbt kan jag se resultat från portömning?',
+            text: '<p class="p200">Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera behandlingar. Kombinationen av regelbundna portömningar och rätt hemmavård är nyckeln till långsiktiga resultat.</p>'
+        ),
+        new Question(
+            title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
+            text: '<p class="p200">Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan dra nytta av en personligt anpassad hudvårdsstrategi.</p>'
+        ),
     )
 );
-
 $faq_view_more = 'Se alla frågor & svar';
 
 $skin_guide_title = 'Hudguiden';
@@ -296,35 +331,35 @@ $specialists = array(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i pormaskbehandling',
-        image_title: 'Cazzandra Lindberg - Expert på pormaskbehandling'
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i porrengöring',
+        image_title: 'Cazzandra Lindberg - Expert på porrengöring'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på pormaskar',
-        image_title: 'Veronika Benedik - Specialist inom pormaskvård'
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på porrengöring',
+        image_title: 'Veronika Benedik - Specialist inom porrvård'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
         image: 'images/specialists/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom pormaskhantering',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på pormaskar'
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom porrengöring',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på porrengöring'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot pormaskbehandling',
-        image_title: 'Vilma Libom - Expert inom pormaskbehandling'
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot porrengöring',
+        image_title: 'Vilma Libom - Expert inom porrengöring'
     )
 );
 
 $specialists_view_more = 'Se alla hudterapeuter';
 
-$brands_title = 'Märken vi jobbar med';
+$brands_title = 'Varumärken vi jobbar med';
 $all_brands = array(
     new Brand(
         label: 'Alma',
@@ -495,7 +530,7 @@ $all_brands = array(
                                 <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                             </div>
                         <?php } ?>
-                        <div class="mt-m"><?php echo $floating_box ?></div>
+                       <div class="mt-m"><?php echo $floating_box ?></div>
                         <?php if (isset($model->procedures)) { ?>
                             <div id="floating-procedures" class="mt-xl">
                                 <?php foreach ($model->procedures as $procedure) { ?>
@@ -531,7 +566,7 @@ $all_brands = array(
             <div id="green-header-small" class="is-hidden-desktop">
                 <div class="container">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
+                    <h1 class="h600">
                         <?php echo $model->title ?>
                     </h1>
                     <?php if (isset($model->duration)) { ?>
@@ -628,6 +663,43 @@ $all_brands = array(
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
+                <?php foreach ($top_articles as $id => $article) { ?>
+                    <section id="<?php echo $id ?>">
+                        <?php
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                        ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($treatment_areas)) { ?>
+                    <section id="treatment-areas" class="large-margin">
+                        <?php if (isset($treatment_areas_title)) { ?>
+                            <h2 class="big l10n"><?php echo $treatment_areas_title ?></h2>
+                        <?php } ?>
+                        <?php if (isset($treatment_areas_text)) { ?>
+                            <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
+                        <?php } ?>
+                        <div class="mt-m">
+                            <?php foreach ($treatment_areas as $treatment_area) {
+                                if (isset($treatment_area->image_small)) { ?>
+                                    <picture>
+                                        <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                        <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                        <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                    </picture>
+                                <? }
+                                if (isset($treatment_area->title)) { ?>
+                                    <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                                <?php }
+                                if (isset($treatment_area->description)) { ?>
+                                    <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                            <?php }
+                                foreach ($treatment_area->items as $treatment_area_item) {
+                                    include('hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                }
+                            } ?>
+                        </div>
+                    </section>
+                <?php } ?>
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
                         <h2 class="h500"><?php echo $types_title; ?></h2>
@@ -659,31 +731,12 @@ $all_brands = array(
                         <?php } ?>
                     </section>
                 <?php } ?>
-                <?php if (isset($treatment_areas)) { ?>
-                    <section id="treatment-areas" class="large-margin">
-                        <?php if (isset($treatment_areas_title)) { ?>
-                            <h2 class="big l10n"><?php echo $treatment_areas_title ?></h2>
-                        <?php } ?>
-                        <?php if (isset($treatment_areas_text)) { ?>
-                            <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
-                        <?php } ?>
-                        <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <?php if (isset($treatment_area->image_small)) { ?>
-                                <picture>
-                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                                </picture>
-                            <?php } ?>
-                            <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
-                            <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                <?php foreach ($bottom_articles as $id => $article) { ?>
+                    <section id="<?php echo $id ?>">
                         <?php
-                            foreach ($treatment_area->items as $treatment_area_item) {
-                                include('../widgets/treatment-area-item-card/treatment-area-item-card.php');
-                            }
-                        } ?>
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                        ?>
                     </section>
-
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
                     <section id="service-brands" class="large-margin">
@@ -724,7 +777,7 @@ $all_brands = array(
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
                 </section>
-                <section id="faq" class="large-margin">
+                <section id="fragor-svar.php" class="large-margin">
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
@@ -743,7 +796,7 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specilaister"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">

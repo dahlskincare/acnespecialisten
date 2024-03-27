@@ -707,7 +707,7 @@ $brands = array(
 );
 
 $brands_url_label = "Se alla varumärken";
-$brands_url_title = "Varumärken förpormaskar";
+$brands_url_title = "Varumärken för pormaskar";
 
 ?>
 
