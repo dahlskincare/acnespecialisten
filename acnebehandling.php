@@ -73,7 +73,7 @@ $services = array(
         title: 'Ansiktsbehandling mot Akne',
         duration: '60 minuter',
         price: 'Pris från 1295 kr',
-        content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup portömning där inflammationer och akne kläms ut. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Därefter utgör hudterapeuten grundlig extraktion där finnar kläms ut och porerna extraheras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
         consultation_url_label: 'Boka konsultation',
@@ -124,7 +124,7 @@ $services = array(
         duration: '30 min',
         price: 'Pris från 1595 kr',
         icons: array(),
-        content: '<p class="p200">Kemisk peeling är en effektiva metode för att behandla akne. Vi använder en speciell syra som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akne och att förbättra hudens textur och utseende.</p>',
+        content: '<p class="p200">Kemisk peeling är en effektiva acne behandling. Vi använder en speciell syra som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akne och att förbättra hudens textur och utseende.</p>',
         consultation_url: 'ghttps://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
@@ -612,7 +612,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Frågor & Svar</h2>
-                        <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
+                        <a href="fragor-svar.php" title="Läs fler frågor & svar" class="button compact text is-hidden-mobile">
                             <span class="l10n">Läs fler frågor & svar</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -655,7 +655,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                 title: 'Hemmavård efter behandlingen?',
                                 text: '<p class="p200">Hemmavården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
 
-                                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på AcneSpecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Du behöver inte akne medicin för att behandla problemet utan kan göra det effektivt med hjälp av rätt hudvårdsprodukter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på AcneSpecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
                             ),
                         ),
 
