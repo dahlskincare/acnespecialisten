@@ -75,14 +75,14 @@ $description_text = '<p class="p200">Våra porrengöringsbehandling är skrädda
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en portömning till?',
+        title: 'Hur går en porrengöring till?',
         image_small: '/bilder/process/358x272/problemhy-process.webp',
         image_large: '/bilder/process/872x456/problemhy-process.webp',
-        image_alt: 'Hur går en portömning till?',
-        image_title: 'Hur går en portömning till?',
-        content: '<p class="p200">Portömning är en noggrann ansiktsbehandling med målet att djuprengöra porerna och avlägsna orenheter som pormaskar, finnar och akne, vilket bidrar till att minimera porernas storlek. Behandlingen påbörjas med att huden varsamt rengörs för att tvätta bort yttre orenheter såsom talg och smuts, följt av en peelingtvätt som exfolierar och tar bort döda hudceller.</p>
-        <p class="p200 mt-m">Efter rengöring tillämpas en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp huden och öppnar upp porerna, vilket gör det enklare att klämma ut pormaskar och andra blockeringar. För de mest envisa tilltäppningarna kan en lansett (liten nål) användas för att försiktigt göra en öppning i poren för att kunna extrahera innehållet.</p>
-        <p class="p200 mt-m">Sedan applicerar vi en lugnande lermask, som minskar rodnad och dra ihop porerna, vilket efterlämnar en slät och jämn hud. Avslutningsvis återfuktas huden med en närande dagkräm. Denna sista fas av behandlingen är viktig för hudens återhämtning och för att skapa en skyddande barriär mot yttre miljöfaktorer. Genom hela processen är målet inte bara att rengöra porerna utan också att återställa hudens naturliga balans och förebygga framtida hudproblem.</p>',
+        image_alt: 'Hur går en porrengöring till?',
+        image_title: 'Hur går en porrengöring till?',
+        content: '<p class="p200">Porrengöring är en djupgående ansiktsbehandling designad för att effektivt rensa porerna från orenheter såsom pormaskar, finnar och andra former av akne. Denna process bidrar till att minska synligheten av porer genom att avlägsna ackumulerat talg, smuts och döda hudceller. Behandlingen inleds med en varsam rengöring som syftar till att avlägsna yttre orenheter och förbereda huden för ytterligare rengöringssteg.</p>
+        <p class="p200 mt-m">Därefter följer en exfolierande peeling som hjälper till att lösa upp och ta bort döda hudceller, vilket underlättar en djupare rengöring av porerna. Efter peelingen appliceras en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp hudytan och bidrar till att öppna porerna, vilket gör det lättare att varsamt avlägsna blockeringar och rensa ut innehållet på ett skonsamt sätt. För de mest ihärdiga blockeringarna kan en specialanpassad lansett användas för att försiktigt göra en liten öppning i poren, vilket möjliggör en noggrann extraktion av innehållet.</p>
+        <p class="p200 mt-m">Efter den noggranna rengöringen appliceras en lugnande lermask som verkar för att minska rodnad och strama åt porerna, lämnande huden slät och jämn. Behandlingen avslutas med återfuktning genom en närande dagkräm som hjälper till att återställa hudens fuktbalans och skapa en skyddande barriär mot externa miljöpåverkningar. Målet med porrengöring är inte enbart att djuprengöra porerna utan även att främja hudens hälsa genom att återställa dess naturliga balans och förebygga framtida hudåkommor. Genom hela processen läggs stor vikt vid att behandla huden varsamt och att använda produkter och tekniker som är skonsamma men effektiva för att uppnå optimala resultat.</p>',
     ),
 );
 
