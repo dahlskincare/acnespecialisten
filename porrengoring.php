@@ -13,7 +13,7 @@ $model = new Service(
     title: 'Porrengöring',
     duration: '60 min',
     price: 'Från 799 kr',
-    content: '<p class="p200">En behandling för dig som vill ta bort pormaskar eller balansera hudens talgproduktion genom att rengöra porerna. Behandlingen består av en djupgående portömning som öppnar upp pch rensar porerna.</p>',
+    content: '<p class="p200">En ansiktsbehandling mot porer för dig som vill ta bort pormaskar eller balansera hudens talgproduktion genom att rengöra porerna. Behandlingen består av en djupgående portömning som öppnar upp pch rensar porerna.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Porrengöring',
@@ -70,8 +70,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är porrengöring?';
-$description_text = '<p class="p200">Våra porrengöringsbehandling är skräddarsydd för att effektivt ta itu med och minska pormaskar, och erbjuder en djupgående lösning för att uppnå en klarare och mer problemfri hud. Med specialiserade tekniker, inklusive ånga, öppnar vi försiktigt upp porerna för att möjliggöra en grundlig och riktad rengöring. Denna process är särskilt effektiv för att avlägsna pormaskar och rensa tilltäppningar.</p>
-    <p class="p200 mt-m">Varje behandling är unikt utformad för att passa olika hudtyper som är benägna till pormaskar, oavsett om din hud är oljig, torr eller en blandhud. Vårt fokus ligger på att förbättra hudens hälsa och återställa dess naturliga balans, samtidigt som vi ger nödvändig näring och vård för att förebygga framtida hudproblem, inklusive uppkomsten av nya pormaskar.</p>';
+$description_text = '<p class="p200">En porrengöring är en avancerad hudvårdsprocedure som fokuserar på att djupt rengöra huden och effektivt hantera problem som tilltäppta porer, överskott av talg, och orenheter som bidrar till hudåkommor såsom akne. Denna behandlingsmetod är utformad för att ge en omfattande rensning som går utöver vad traditionella hemmabehandlingar kan erbjuda, med målet att förbättra hudens övergripande utseende och hälsa. Nyckeln till en porrengörings effektivitet ligger i dess förmåga att djuprengöra utan att störa hudens naturliga skyddsbarriär, vilket kan minska uppkomsten av akne och göra porerna mindre synliga. Genom att regelbundet underhålla och rengöra porerna bidrar denna behandling till att upprätthålla en klar och välmående hud.</p>
+<p class="p200 mt-m">Att investera i professionell porrengöring kan vara särskilt fördelaktigt för individer som kämpar med återkommande hudproblem, eftersom det hjälper till att återställa hudens naturliga balans och främjar en sund hudmiljö. Denna behandlingsform rekommenderas dock att utföras av kvalificerade hudvårdsexperter för att säkerställa att den anpassas korrekt efter hudtyp och individuella behov, samt för att minimera risken för komplikationer. Genom att integrera porrengöring i din hudvårdsrutin, kan du ta ett viktigt steg mot att uppnå och bibehålla en frisk hud med färre utbrott och en jämnare hudton. Det är en investering i din hudhälsa som kan ge långvariga resultat och bidra till ökat välbefinnande.</p>';
 
 $top_articles = array(
     'process' => new Article(
@@ -80,14 +80,14 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Hur går en porrengöring till?',
         image_title: 'Hur går en porrengöring till?',
-        content: '<p class="p200">Porrengöring är en djupgående ansiktsbehandling designad för att effektivt rensa porerna från orenheter såsom pormaskar, finnar och andra former av akne. Denna process bidrar till att minska synligheten av porer genom att avlägsna ackumulerat talg, smuts och döda hudceller. Behandlingen inleds med en varsam rengöring som syftar till att avlägsna yttre orenheter och förbereda huden för ytterligare rengöringssteg.</p>
-        <p class="p200 mt-m">Därefter följer en exfolierande peeling som hjälper till att lösa upp och ta bort döda hudceller, vilket underlättar en djupare rengöring av porerna. Efter peelingen appliceras en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp hudytan och bidrar till att öppna porerna, vilket gör det lättare att varsamt avlägsna blockeringar och rensa ut innehållet på ett skonsamt sätt. För de mest ihärdiga blockeringarna kan en specialanpassad lansett användas för att försiktigt göra en liten öppning i poren, vilket möjliggör en noggrann extraktion av innehållet.</p>
-        <p class="p200 mt-m">Efter den noggranna rengöringen appliceras en lugnande lermask som verkar för att minska rodnad och strama åt porerna, lämnande huden slät och jämn. Behandlingen avslutas med återfuktning genom en närande dagkräm som hjälper till att återställa hudens fuktbalans och skapa en skyddande barriär mot externa miljöpåverkningar. Målet med porrengöring är inte enbart att djuprengöra porerna utan även att främja hudens hälsa genom att återställa dess naturliga balans och förebygga framtida hudåkommor. Genom hela processen läggs stor vikt vid att behandla huden varsamt och att använda produkter och tekniker som är skonsamma men effektiva för att uppnå optimala resultat.</p>',
+        content: '<p class="p200">Porrengöring är en djupgående ansiktsbehandling designad för att effektivt rensa porerna från orenheter såsom pormaskar, finnar och andra former av akne. Denna process bidrar till att minska synligheten av porer genom att avlägsna talg, smuts och döda hudceller. Behandlingen inleds med en varsam rengöring som syftar till att avlägsna yttre orenheter och förbereda huden för ytterligare rengöringssteg.</p>
+        <p class="p200 mt-m">Därefter utförs en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp hudytan och bidrar till att öppna porerna, vilket gör det lättare att varsamt avlägsna blockeringar och rensa ut innehållet på ett skonsamt sätt. För de mest ihärdiga blockeringarna kan en specialanpassad lansett användas för att försiktigt göra en liten öppning i poren, vilket möjliggör en noggrann extraktion av innehållet.</p>
+        <p class="p200 mt-m">Efter den noggranna rengöringen appliceras en lugnande lermask som verkar för att minska rodnad och strama åt porerna, lämnande huden slät och jämn. Behandlingen avslutas med återfuktning genom en närande dagkräm som hjälper till att återställa hudens fuktbalans och skapa en skyddande barriär mot externa miljöpåverkningar. Målet med porrengöring är inte enbart att djuprengöra porerna utan även att främja hudens hälsa genom att återställa dess naturliga balans och förebygga framtida hudåkommor.</p>',
     ),
 );
 
-$treatment_areas_title = 'Portömning baserat på område';
-$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
+$treatment_areas_title = 'Porrengöring för olika områden';
+$treatment_areas_text = '<p class="p200">Vi utför porrengöring i ansiktet, på brötstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -99,36 +99,36 @@ $treatment_areas = array(
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
-                image_alt: 'Portömning i ansiktet',
-                image_title: 'Portömning i ansiktet',
-                title: 'Portömning - Ansikte',
+                image_alt: 'Porrengöring i ansiktet',
+                image_title: 'Porrengöring i ansiktet',
+                title: 'Porrengöring - Ansikte',
                 duration: '60 min',
                 price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
-                url_title: 'Boka tid för portömning i ansiktet'
+                url_title: 'Boka tid för porrengöring i ansiktet'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/brost.svg',
-                image_alt: 'Portömning på bröstet',
-                image_title: 'Portömning på bröstet',
-                title: 'Portömning - Bröst',
+                image_alt: 'Porrengöring på bröstet',
+                image_title: 'Porrengöring på bröstet',
+                title: 'Porrengöring - Bröst',
                 duration: '60 min',
                 price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
-                url_title: 'Boka tid för portömning på bröstet'
+                url_title: 'Boka tid för porrengöring på bröstet'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/rygg.svg',
-                image_alt: 'Portömning på ryggen',
-                image_title: 'Portömning på ryggen',
-                title: 'Portömning - Rygg',
+                image_alt: 'Porrengöring på ryggen',
+                image_title: 'Porrengöring på ryggen',
+                title: 'Porrengöring - Rygg',
                 duration: '60 min',
                 price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
                 url_label: 'Boka',
-                url_title: 'Boka tid för portömning på ryggen'
+                url_title: 'Boka tid för porrengöring på ryggen'
             ),
         )
     ),
@@ -136,16 +136,16 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård för portömning',
+        title: 'Eftervård för porrengöring',
         image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
         image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
-        image_alt: 'Eftervård för portömning',
-        image_title: 'Eftervård för portömning',
-        content: '<p class="p200">Efter en portömning är det viktigt att ge huden den omsorg den behöver för att bevara de uppnådda resultaten och underlätta läkningsprocessen. Detta gör du bäst genom en anpassad hudvårdsrutin, som skyddar huden och ger den näring efter behandlingen. Vi rekommenderar hudvårdsprodukter som är utformade för att behandla och balansera huden för att bibehålla resultatet och förebygga framtida hudproblem. Vi på AcneSpecialisten är engagerade i att stödja dig genom hela processen från behandling till eftervård. Vi säkerställer att du får ut det mesta av din portömning och fortsätter på vägen mot optimal hudhälsa.</p>',
+        image_alt: 'Eftervård för porrengöring',
+        image_title: 'Eftervård för porrengöring',
+        content: '<p class="p200">För att bibehålla resultatet och stödja återhämtning efter en porrengöring är det viktigt att fortsätta att ta hand om huden efter behandlingen. En skräddarsydd hudvårdsrutin är nyckeln till att skydda och nära huden. På AcneSpecialisten rekommenderar vi specifikt utvalda hudvårdsprodukter som är framtagda för att vårda och balansera din hud. Dessa produkter är essentiella för att upprätthålla de positiva effekterna av din behandling och för att hjälpa till att förhindra framtida hudutmaningar. Vårt åtagande är att vägleda och stödja dig genom hela din hudvårdsresa, från den initiala behandlingen till den fortsatta eftervården, för att säkerställa att du uppnår och behåller en optimal hudhälsa.</p>',
     ),
 );
 
-$results_title = 'Portömning före och efter resultat';
+$results_title = 'Porrengöring före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -287,24 +287,20 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Kan jag göra portömning hemma?',
-            text: '<p class="p200">Att utföra portömning hemma rekommenderas inte då det ökar risken för infektioner och ärrbildning. Professionella hudterapeuter använder sterila verktyg och rätt metoder för att säkert rensa porerna, vilket minskar risken för hudskador. För bästa resultat och minsta risk, bör du söka hjälp av en utbildad hudterapeut för att hantera porblockeringar och pormaskar.</p>'
+            title: 'Är porrengöring lämplig för alla hudtyper?',
+            text: '<p class="p200">Ja, porrengöring kan anpassas för att passa olika hudtyper, inklusive känslig hud. Det är dock viktigt att konsultera med en hudvårdsexpert som kan anpassa behandlingen efter din specifika hudtyp och behov för att undvika irritation och maximera resultatet.</p>'
         ),
         new Question(
-            title: 'Hur ofta bör jag genomgå en portömning?',
-            text: '<p class="p200">Frekvensen av portömningar varierar beroende på din hudtyp och graden av pormaskar. Ofta behövs ett kortare interval i början och därefter underhålls huden med en behandling varannan månad. För att skapa en anpassad behandlingsplan rekommenderar vi att du bokar en konsultation med en av våra hudterapeuter.</p>'
+            title: 'Hur ofta bör jag genomgå en porrengöring?',
+            text: '<p class="p200">Hur ofta man bör göra porrengöringar beror på din hudtyp och dess behov, men i de flesta fallen rekommenderas en kur mot pormaskar. Inledningsvis rekommenderas en behandling var fjärde till sjätte vecka för att upprätthålla en klar och ren hud. Därefter kan resultatet ofta bibehållas med behandlingar var 1-3 månad. Din hudterapeut kan ge dig råd om det bästa intervaller för just din hud.</p>'
         ),
         new Question(
-            title: 'Kommer pormaskarna tillbaka efter en portömning?',
-            text: '<p class="p200">Portömning är effektivt för att ta bort befintliga pormaskar, men det kan inte förhindra nya från att bildas. Det är avgörande att upprätthålla en god hudvårdsrutin efter behandlingen för att minimera risken för nya pormaskar.</p>'
+            title: 'Hur skiljer sig porrengöring från andra ansiktsbehandlingar?',
+            text: '<p class="p200">Porrengöring fokuserar specifikt på att djuprengöra porerna och avlägsna orenheter som pormaskar och talg, vilket skiljer den från andra ansiktsbehandlingar som kan inriktas mer på återfuktning, exfoliering eller anti-aging. Porrengöring är särskilt effektiv för att förebygga och behandla akne.</p>'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat från portömning?',
-            text: '<p class="p200">Många kunder ser en förbättring direkt efter första behandlingen, men för att uppnå bästa möjliga resultat kan det krävas flera behandlingar. Kombinationen av regelbundna portömningar och rätt hemmavård är nyckeln till långsiktiga resultat.</p>'
-        ),
-        new Question(
-            title: 'Behöver jag en portömning även om jag bara har några få pormaskar?',
-            text: '<p class="p200">Ja, även ett fåtal pormaskar kan behandlas med portömning. Det finns ingen minimumgräns för antalet pormaskar som krävs för att dra nytta av behandlingen. Varje hudtillstånd är unikt och kan dra nytta av en personligt anpassad hudvårdsstrategi.</p>'
+            title: 'Kan jag utföra en porrengöring hemma?',
+            text: '<p class="p200">Nej, för bästa resultat och säkerhet rekommenderas det att porrengöring utförs av en professionell hudterapeut. Hemmabehandlingar kan riskera att irritera huden eller orsaka mer skada om de inte utförs korrekt. Professionella behandlingar säkerställer en djup och säker rengöring med minimal risk för biverkningar.</p>'
         ),
     )
 );
