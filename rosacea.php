@@ -675,6 +675,14 @@ $related_problems = array(
 
 $brands = array(
       new Brand(
+            label: 'DAHL Skincare',
+            image: 'bilder/logotyper/dahl-skincare.webp',
+            image_alt: 'DAHL Skincare logotyp',
+            image_title: 'DAHL Skincare - hudvårdsprodukter',
+            url: 'https://dahlskincare.se',
+            url_title: 'DAHL Skincare',
+      ),
+      new Brand(
             label: 'Alma Rejuve Dye-VL',
             image: 'bilder/logotyper/rejuve-dye-vl.svg',
             image_alt: 'Alma Rejuve Dye-VL logotyp',

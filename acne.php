@@ -883,6 +883,14 @@ $related_problems = array(
 
 $brands = array(
       new Brand(
+            label: 'DAHL Skincare',
+            image: 'bilder/logotyper/dahl-skincare.webp',
+            image_alt: 'DAHL Skincare logotyp',
+            image_title: 'DAHL Skincare - hudvårdsprodukter',
+            url: 'https://dahlskincare.se',
+            url_title: 'DAHL Skincare',
+      ),
+      new Brand(
             label: 'Alma',
             image: 'bilder/logotyper/alma.svg',
             image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',

@@ -316,30 +316,54 @@ $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 
 $brands = array(
-    new Brand(
-        label: 'Alma Rejuve Dye-VL',
-        image: 'bilder/logotyper/rejuve-dye-vl.svg',
-        image_alt: 'Alma Rejuve Dye-VL logotyp',
-        image_title: 'Alma Rejuve Dye-VL - IPL',
-        url: '/varumarken/alma/rejuve-dye-vl',
-        url_title: 'Alma Rejuve Dye-VL',
-    ),
-    new Brand(
-        label: 'Harmony XL Pro',
-        image: 'bilder/logotyper/harmony-xl-pro.png',
-        image_alt: 'Harmony XL Pro logotyp',
-        image_title: 'Alma Harmony XL Pro',
-        url: '/alma-harmony-xl-pro.php',
-        url_title: 'Harmony XL Pro',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova logotyp',
-        image_title: 'Powerlite Photonova - IPL',
-        url: '/varumarken/powerlite-photonova',
-        url_title: 'Powerlite Photonova',
-    ),
+      new Brand(
+            label: 'DAHL Skincare',
+            image: 'bilder/logotyper/dahl-skincare.webp',
+            image_alt: 'DAHL Skincare logotyp',
+            image_title: 'DAHL Skincare - hudvårdsprodukter',
+            url: 'https://dahlskincare.se',
+            url_title: 'DAHL Skincare',
+      ),
+      new Brand(
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            image_alt: 'Alma logotyp',
+            url: '/varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_title: 'Alma Hybrid - CO2 laser',
+            image_alt: 'Alma Hybrid logotyp',
+            url: '/alma-hybrid-co2-laser.php',
+            url_title: 'Läs mer om Alma Hybrid CO2 laser',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'bilder/logotyper/dermapen.svg',
+            image_alt: 'Dermapen Brand Logo',
+            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            url: '/dermapen.php',
+            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+      ),
+      new Brand(
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: '/varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
+      ),
 );
 
 $brands_url_label = "Se alla varumärken";

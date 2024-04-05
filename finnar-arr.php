@@ -554,13 +554,22 @@ $related_problems = array(
             url_title: 'Acneärr'
       ),
 );
+
 $brands = array(
+      new Brand(
+            label: 'DAHL Skincare',
+            image: 'bilder/logotyper/dahl-skincare.webp',
+            image_alt: 'DAHL Skincare logotyp',
+            image_title: 'DAHL Skincare - hudvårdsprodukter',
+            url: 'https://dahlskincare.se',
+            url_title: 'DAHL Skincare',
+      ),
       new Brand(
             label: 'Alma',
             image: 'bilder/logotyper/alma.svg',
             image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
             image_alt: 'Alma logotyp',
-            url: 'varumarken/alma',
+            url: '/varumarken/alma',
             url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
       ),
       new Brand(
@@ -568,7 +577,7 @@ $brands = array(
             image: 'bilder/logotyper/alma-hybrid.svg',
             image_title: 'Alma Hybrid - CO2 laser',
             image_alt: 'Alma Hybrid logotyp',
-            url: 'alma-hybrid-co2-laser.php',
+            url: '/alma-hybrid-co2-laser.php',
             url_title: 'Läs mer om Alma Hybrid CO2 laser',
       ),
       new Brand(
@@ -576,7 +585,7 @@ $brands = array(
             image: 'bilder/logotyper/harmony-xl-pro.png',
             image_title: 'Harmony XL Pro - Laser & IPL',
             image_alt: 'Harmony XL Pro logotyp',
-            url: 'alma-harmony-xl-pro.php',
+            url: '/alma-harmony-xl-pro.php',
             url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
       ),
       new Brand(
@@ -584,7 +593,7 @@ $brands = array(
             image: 'bilder/logotyper/dermapen.svg',
             image_alt: 'Dermapen Brand Logo',
             image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
-            url: 'dermapen.php',
+            url: '/dermapen.php',
             url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
       ),
       new Brand(
@@ -592,7 +601,7 @@ $brands = array(
             image: 'bilder/logotyper/skin-tech.svg',
             image_title: 'Skin Tech - Professionella kemiska peelingar',
             image_alt: 'Skin Tech logotyp',
-            url: 'varumarken/skin-tech',
+            url: '/varumarken/skin-tech',
             url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
