@@ -485,6 +485,14 @@ $all_brands = array(
         url: '/microdermabrasion.php',
         url_title: 'Microdermabrasion',
     ),
+    new Brand(
+        label: 'DAHL Skincare',
+        image: 'bilder/logotyper/dahl-skincare.webp',
+        image_alt: 'DAHL Skincare logotyp',
+        image_title: 'DAHL Skincare - hudvårdsprodukter',
+        url: 'https://dahlskincare.se',
+        url_title: 'DAHL Skincare',
+    ),
 );
 ?>
 <!DOCTYPE html>

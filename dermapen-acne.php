@@ -367,6 +367,14 @@ $all_brands = array(
         image_alt: 'Infuzion',
         image_title: 'Infuzion',
     ),
+    new Brand(
+        label: 'DAHL Skincare',
+        image: 'bilder/logotyper/dahl-skincare.webp',
+        image_alt: 'DAHL Skincare logotyp',
+        image_title: 'DAHL Skincare - hudvårdsprodukter',
+        url: 'https://dahlskincare.se',
+        url_title: 'DAHL Skincare',
+    ),
 );
 ?>
 <!DOCTYPE html>
