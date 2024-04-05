@@ -250,7 +250,7 @@ $brand_cards = array(
             image: 'bilder/logotyper/harmony-xl-pro.png',
             image_alt: 'Harmony XL Pro logotyp',
             image_title: 'Harmony XL Pro',
-            photo: 'bilder/varumarken/424x324/alma-hybrid-co2.webp',
+            photo: 'bilder/varumarken/424x324/harmony-xl-pro.webp',
             photo_alt: 'Person som får behanding med harmony xl pro',
             photo_title: 'Harmony XL Pro',
             title: 'Harmony XL Pro',
