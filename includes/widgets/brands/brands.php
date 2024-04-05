@@ -1,7 +1,7 @@
 <?php
 if (!isset($brands)) {
   $brands = array(
-    new Brand(
+      new Brand(
             label: 'Alma',
             image: 'bilder/logotyper/alma.svg',
             image_alt: 'Alma logotyp',
@@ -128,6 +128,14 @@ if (!isset($brands)) {
             image_title: 'Microdermabrasion - hudslipning',
             url: '/microdermabrasion.php',
             url_title: 'Microdermabrasion',
+      ),
+      new Brand(
+            label: 'DAHL Skincare',
+            image: 'bilder/logotyper/dahl-skincare.webp',
+            image_alt: 'DAHL Skincare logotyp',
+            image_title: 'DAHL Skincare - hudvårdsprodukter',
+            url: 'https://dahlskincare.se',
+            url_title: 'DAHL Skincare',
       ),
   );
 }
