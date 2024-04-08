@@ -133,6 +133,7 @@ $treatment_areas = array(
     ),
 );
 
+$results_title = 'Ansiktsbehandlingar mot akne före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
