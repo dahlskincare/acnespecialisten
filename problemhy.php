@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Effektiva Ansiktsbehandlingar för hudproblem i ansiktet';
 $seo_description = 'Skräddarsydda ansiktsbehandlingar för problemhy som akne, rosacea, olika typer av finnar och mer. Bli av med hudproblem med våra expertanpassade lösningar';
-$seo_keywords = 'problemhy, hudproblem, hudproblem ansikte, hudproblem i ansiktet';
+$seo_keywords = 'problemhy, hudproblem, hudproblem ansikte, hudproblem i ansiktet, olika typer av akne, pormaskar näsa, finnar ansikte';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
@@ -137,7 +137,7 @@ $types = array(
         title: 'Ansiktsbehandling mot Pormaskar',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling anpassad för pormaskar som upplevs som svarta prickar i ansiktet eller prickig hy med fokus på att rengöra porer och klämma ut pormaskar. Vi behandlar alla områden såsom pormaskar runt munnen.',
+        content: 'Ansiktsbehandling anpassad för pormaskar som upplevs som svarta prickar i ansiktet eller prickig hy med fokus på att rengöra porer och klämma ut pormaskar. Vi behandlar alla områden såsom pormaskar runt munnen, näsa eller på kinderna.',
         image_small: 'bilder/hudproblem/102x102/pormaskar.webp',
         image_large: 'bilder/hudproblem/200x200/pormaskar.webp',
         image_alt: 'Ansiktsbehandling mot Pormaskar',
@@ -178,7 +178,7 @@ $types = array(
         title: 'Ansiktsbehandling mot Finnar',
         duration: null,
         price: null,
-        content: 'Ansiktsbehandling mot olika typer av finnar ansikte som djuprengör, behandlar och klämmer ut finnar, samtidigt som den balanserar hudens talgproduktion och minskar inflammation för att bli av med stora som små finnar. Utmärkt för dig som lider av röda eller vita finnar av torr hy eller fet hy.',
+        content: 'Ansiktsbehandling mot olika typer av finnar i ansiktet som djuprengör, behandlar och klämmer ut finnar, samtidigt som den balanserar hudens talgproduktion och minskar inflammation för att bli av med stora som små finnar. Utmärkt för dig som lider av röda eller vita finnar av torr hy eller fet hy.',
         image_small: 'bilder/hudproblem/102x102/finnar.webp',
         image_large: 'bilder/hudproblem/200x200/finnar.webp',
         image_alt: 'Ansiktsbehandling mot Finnar',
