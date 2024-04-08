@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '995 kr',
+            price: '1295 kr',
             savings: null,
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -40,17 +40,17 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '2595 kr',
-            savings: '865 kr per behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face',
+            price: '3495 kr',
+            savings: '1165 kr per behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face&procedures=PriceClass_1_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '3995 kr',
-            savings: '799 kr per behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face',
+            price: '4995 kr',
+            savings: '999 kr per behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face&procedures=PriceClass_1_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
