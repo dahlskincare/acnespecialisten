@@ -3,9 +3,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandlingar mot Akne - Effektiv behandling';
-$seo_description = 'Expertanpassade ansiktsbehandlingar speciellt utformade för aknebenägen hud. Avancerade metoder för att effektivt hantera utbrott och uppnå en klarare hud.';
-$seo_keywords = 'aknebehandling, ansiktsbehandlingar för akne, bekämpa akne, effektiv aknevård, acne specialister, akne lösningar, finnar, blemmor, akneärr, inflammerad hud, hudvård för akne';
+$seo_title = 'Ansiktsbehandling mot Akne | AcneSpecialisten';
+$seo_description = 'Vi på AcneSpecialisten erbjuder effentiva ansiktsbehandlingar mot akne. Rengör och exfoliderar huden få djupet för att bli av med inflammationerna.';
+$seo_keywords = 'ansiktsbehandling akne';
 
 $seo_image = '/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar mot akne',
+    title: 'Ansiktsbehandling mot akne',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '',
@@ -108,7 +108,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling mot akne'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/brost.webp',
+                image: '/bilder/omraden/ikoner/brost.svg',
                 image_alt: 'Behandling mot akne på bröstet',
                 image_title: 'Behandling mot akne på bröstet',
                 title: 'Bröst',
@@ -119,7 +119,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling mot akne på bröstet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/rygg.webp',
+                image: '/bilder/omraden/ikoner/rygg.svg',
                 image_alt: 'Behandling mot akne på ryggen',
                 image_title: 'Behandling mot akne på ryggen',
                 title: 'Rygg',
