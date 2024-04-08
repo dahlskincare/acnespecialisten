@@ -77,14 +77,14 @@ $description_text = '<p class="p200">Våra ansiktsbehandlingar är noggrant utfo
     <p class="p200 mt-m">Behandlingarna är anpassade för alla hudtyper som är benägna till akne, vare sig det rör sig om oljig, torr eller kombinerad hud, och även för hudtillstånd som kan förvärra akne, såsom rosacea eller seborré. Vi siktar på att återställa hudens hälsa och balans, samtidigt som vi ger den den näring och vård den behöver för att motstå framtida utbrott.</p>';
 
 $top_articles = array(
-    'preparing' => new Article(
-        title: 'Förberedelser inför ansiktsbehandlingar mot akne',
+    'process' => new Article(
+        title: 'Hur går en ansiktsbehandling mot akne till?',
         image_small: null,
         image_large: null,
-        image_alt: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        image_title: 'Förberedelser inför ansiktsbehandlingar mot akne',
-        content: '<p class="p200">Du är välkommen alltid välkommen att boka en aknebehandling hos oss på AcneSpecialisten och komma precis som du är. Men för dig som vill kan du effektivisera behandlingen med hjälp av några enkla förberedelser kan göra stor skillnad för behandlingens effektivitet. Vi föreslår att du, om möjligt, undviker produkter med starka ingredienser som och exfolierande syror dagarna innan din behandling. Detta för att minimera risken för hudirritation och för att din hud ska vara i sitt mest mottagliga skick. </p>
-                  <p class="p200 mt-m">Det finns ingen nödvändighet att komma osminkad – det är helt upp till dig. Men om du har möjlighet, kan det vara bra att komma med ett rent ansikte utan makeup för att tillåta en direkt och grundlig hudanalys. Oavsett ditt val, ser vi fram emot att välkomna dig och skapa en individuell behandlingsplan för din hud, vare sig det handlar om akne i ansiktet, på bröstet eller ryggen.</p>',
+        image_alt: 'Hur går en ansiktsbehandling mot akne till?',
+        image_title: 'Hur går en ansiktsbehandling mot akne till?',
+        content: '<p class="p200">Vår ansiktsbehandling för akne är noggrant utformad för att möta de specifika behoven hos hud som drabbats av akne och finnar. Behandlingen inleds med en grundlig rengöring för att ta bort talg, smuts och andra particlar från hudytan. Efter rengöringen använder vi en vapozon, en apparat som genererar varm ånga, vilket öppnar upp porerna och förbereder huden för de efterföljande stegen.</p>
+            <p class="p200 mt-m">Efter ångbehandlingen kan vi göra en varsam men effektiv manuell utrensning av porerna för att avlägsna olika typer av inkapslingar såsom finnar, papler, pustler och komedoner (svarta och vita pormaskar). Behandlingen avslutas med en lugnande mask och återfuktande för att hjäpla huden att återhämta sig.</p>',
     ),
 );
 
@@ -134,72 +134,6 @@ $treatment_areas = array(
             ),
         )
     ),
-);
-
-$bottom_articles = array(
-    'process' => new Article(
-        title: 'Hur går en ansiktsbehandling mot akne till?',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Hur går en ansiktsbehandling mot akne till?',
-        image_title: 'Hur går en ansiktsbehandling mot akne till?',
-        content: '<p class="p200">Vår ansiktsbehandling för akne är noggrant utformad för att möta de specifika behoven hos hud som drabbats av akne och finnar. Behandlingen inleds med en grundlig rengöring för att ta bort talg, smuts och andra particlar från hudytan. Efter rengöringen använder vi en vapozon, en apparat som genererar varm ånga, vilket öppnar upp porerna och förbereder huden för de efterföljande stegen.</p>
-            <p class="p200 mt-m">Efter ångbehandlingen kan vi göra en varsam men effektiv manuell utrensning av porerna för att avlägsna olika typer av inkapslingar såsom finnar, papler, pustler och komedoner (svarta och vita pormaskar). Behandlingen avslutas med en lugnande mask och återfuktande för att hjäpla huden att återhämta sig.</p>',
-    ),
-    'boost' => new Article(
-        title: 'Boosta din ansiktsbehandling mot akne med laser',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Förbättra ansiktsbehandling mot akne med laser',
-        image_title: 'Förbättra ansiktsbehandling mot akne med laser',
-        content: '<p class="p200">På vår klinik tar vi din aknebehandling till nästa nivå genom att kombinera beprövade metoder med innovativ laserterapi. För att få ut det mesta av din behandling rekommenderar vi att komplettera din ansiktsbehandling med en lasersession. Laserterapin kan bidra till att minska akne och ärrbildning samt förbättra hudens övergripande textur och ton. </p>
-        <p class="p200 mt-m">Innan din behandling är det fördelaktigt att undvika hudirriterande produkter, inklusive de med exfolierande syror och retinol, för att din hud ska vara så mottaglig som möjligt för både ansiktsbehandlingen och laserterapin. Det är inte nödvändigt att komma osminkad, men ett ansikte fritt från smink underlättar för oss att göra en noggrann hudanalys direkt vid ankomst. Vi är här för att ta hand om dig och erbjuda en skräddarsydd lösning som adresserar din unika hudtyp och akneproblem, oavsett om det är i ansiktet, på bröstet eller ryggen.</p>',
-    ),
-    'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter ansiktsbehandling för akne',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Eftervård och underhåll',
-        image_title: 'Eftervård och underhåll',
-        content: '<p class="p200">På Acnespecialisten vet vi att det inte finns någon enkel lösning för akne, därför är det viktigt att du tar hand om din hud efter en ansiktsbehandling för att säkerställa bästa möjliga resultat. Det är viktigt att låta huden läka ordentligt och bidra med återfuktning så att du hjäpler huden att återhämta sig. Det är också viktigt att komma igång med din dagliga hudvårdsrutin med produkter speciellt framtagna för aknebenägen hud. Vi rekommenderar DAHL Skincares linje av akneprodukter, som hjälper till att bibehålla hudens balans och förebygga framtida utbrott. Att engagera sig i en regelbunden hudvårdsrutin är essentiellt för att hantera din akne effektivt både hemma och med återkommande professionella behandlingar.</p>
-        <p class="p200">Vi förstår att varje individ har unika behov, och är därför med dig under hela processen där vi berätta vilka produkter och rutiner som passar just dig för att förstärka och förlänga effekten av din behandling. Att använda DAHL Skincares produkter regelbundet kan inte bara stödja de förbättringar som görs under behandlingen utan även bidra till en problemhy och mer balanserad hud över tid. Låt oss på Acnespecialisten hjälpa dig att ta kontroll över din hudhälsa och leda dig mot en klar och strålande hud. Välkommen till en partner i din hudvårdsresa.</p>',
-    ),
-);
-
-$treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.',
-
-        url_label: 'Få gratis konsultation',
-        url: 'gratis-hudkonsultation.php',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-
-        url_label: 'Se aknebehandlingar',
-        url: 'acnebehandling.php',
-        url_title: 'Utforska våra skräddarsydda aknebehandlingar'
-    ),
-    new TreatmentStep(
-        title: 'Förebygga',
-        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.',
-
-        url_label: 'Se produkter',
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-        url_title: 'Hitta de bästa produkterna för att förebygga akne'
-    ),
-    new TreatmentStep(
-        title: 'Reparera',
-        content: 'När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
-
-        url_label: 'Se ärrbehandlingar',
-        url: 'behandla-acnearr.php',
-        url_title: 'Upptäck effektiva behandlingar för akneärr'
-    ),
-
 );
 
 $results = array(
@@ -379,87 +313,87 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-    new Specialist(
-        name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg',
-        image_title: 'Cazzandra Lindberg'
-    ),
-    new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik',
-        image_title: 'Veronika Benedik'
-    ),
-    new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
-    ),
-    new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom',
-        image_title: 'Vilma Libom'
-    )
+      new Specialist(
+            name: 'Cazzandra Lindberg',
+            title: 'Hudterapeut sedan 2015',
+            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
+            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+      ),
+      new Specialist(
+            name: 'Veronika Benedik',
+            title: 'Hudterapeut sedan 1999',
+            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
+            image_title: 'Veronika Benedik - Specialist inom aknevård'
+      ),
+      new Specialist(
+            name: 'Amira Maqboul',
+            title: 'Hudterapeut sedan 2017',
+            image: 'images/specialists/312x312/hudterapeut-amira.webp',
+            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
+            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+      ),
+      new Specialist(
+            name: 'Vilma Libom',
+            title: 'Hudterapeut sedan 2019',
+            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
+            image_title: 'Vilma Libom - Expert inom aknebehandling'
+      )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite',
-    ),
-    new Brand(
-        label: 'Dermapen4',
-        image: 'images/brands/dermapen4.svg',
-        image_alt: 'Dermapen4',
-        image_title: 'Dermapen4',
-    ),
-    new Brand(
-        label: 'Cryopen',
-        image: 'images/brands/cryopen.svg',
-        image_alt: 'Cryopen',
-        image_title: 'Cryopen',
-    ),
-    new Brand(
-        label: 'Lumenis',
-        image: 'images/brands/lumenis.svg',
-        image_alt: 'Lumenis',
-        image_title: 'Lumenis',
-    ),
-    new Brand(
-        label: 'Alma',
-        image: 'images/brands/alma.svg',
-        image_alt: 'Alma',
-        image_title: 'Alma',
-    ),
-    new Brand(
-        label: 'PRXT',
-        image: 'images/brands/prxt.svg',
-        image_alt: 'PRXT',
-        image_title: 'PRXT',
-    ),
-    new Brand(
-        label: 'Hydrafacial',
-        image: 'images/brands/hydrafacial.svg',
-        image_alt: 'Hydrafacial',
-        image_title: 'Hydrafacial',
-    ),
-    new Brand(
-        label: 'IP infusion',
-        image: 'images/brands/ipinfusion.svg',
-        image_alt: 'IP infusion',
-        image_title: 'IP infusion',
-    ),
+            label: 'DAHL Skincare',
+            image: 'bilder/logotyper/dahl-skincare.webp',
+            image_alt: 'DAHL Skincare logotyp',
+            image_title: 'DAHL Skincare - hudvårdsprodukter',
+            url: 'https://dahlskincare.se',
+            url_title: 'DAHL Skincare',
+      ),
+      new Brand(
+            label: 'Alma',
+            image: 'bilder/logotyper/alma.svg',
+            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+            image_alt: 'Alma logotyp',
+            url: '/varumarken/alma',
+            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+      ),
+      new Brand(
+            label: 'Alma Hybrid',
+            image: 'bilder/logotyper/alma-hybrid.svg',
+            image_title: 'Alma Hybrid - CO2 laser',
+            image_alt: 'Alma Hybrid logotyp',
+            url: '/alma-hybrid-co2-laser.php',
+            url_title: 'Läs mer om Alma Hybrid CO2 laser',
+      ),
+      new Brand(
+            label: 'Harmony XL Pro',
+            image: 'bilder/logotyper/harmony-xl-pro.png',
+            image_title: 'Harmony XL Pro - Laser & IPL',
+            image_alt: 'Harmony XL Pro logotyp',
+            url: '/alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
+      ),
+      new Brand(
+            label: 'Dermapen',
+            image: 'bilder/logotyper/dermapen.svg',
+            image_alt: 'Dermapen Brand Logo',
+            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+            url: '/dermapen.php',
+            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+      ),
+      new Brand(
+            label: 'Skin Tech',
+            image: 'bilder/logotyper/skin-tech.svg',
+            image_title: 'Skin Tech - Professionella kemiska peelingar',
+            image_alt: 'Skin Tech logotyp',
+            url: '/varumarken/skin-tech',
+            url_title: 'Läs mer om Skin Techs kemiska peelingar',
+      ),
 );
 ?>
 <!DOCTYPE html>
@@ -697,13 +631,6 @@ $all_brands = array(
                         <?php foreach ($combos as $combo) { ?>
                             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_combo/service_combo.php') ?>
                         <?php } ?>
-                    </section>
-                <?php } ?>
-                <?php foreach ($bottom_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
                     </section>
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
