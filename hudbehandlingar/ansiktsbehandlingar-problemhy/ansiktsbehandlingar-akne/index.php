@@ -69,21 +69,10 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Vad innebär ansiktsbehandlingar mot akne?';
-$description_text = '<p class="p200">Våra ansiktsbehandlingar är noggrant utformade för att bekämpa akne och förse dig med en långsiktig lösning för en klarare hud. Genom att använda effektiva som vapozone öppnar vi porerna med ånga för att kunna utföra en grundlig rengöring som är effektiv mot finnar, pormaskar och andra former av akne.</p>
-    <p class="p200 mt-m">Behandlingarna är anpassade för alla hudtyper som är benägna till akne, vare sig det rör sig om oljig, torr eller kombinerad hud, och även för hudtillstånd som kan förvärra akne, såsom rosacea eller seborré. Vi siktar på att återställa hudens hälsa och balans, samtidigt som vi ger den den näring och vård den behöver för att motstå framtida utbrott.</p>';
-
-$top_articles = array(
-    'process' => new Article(
-        title: 'Hur går en ansiktsbehandling mot akne till?',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Hur går en ansiktsbehandling mot akne till?',
-        image_title: 'Hur går en ansiktsbehandling mot akne till?',
-        content: '<p class="p200">Vår ansiktsbehandling för akne är noggrant utformad för att möta de specifika behoven hos hud som drabbats av akne och finnar. Behandlingen inleds med en grundlig rengöring för att ta bort talg, smuts och andra particlar från hudytan. Efter rengöringen använder vi en vapozon, en apparat som genererar varm ånga, vilket öppnar upp porerna och förbereder huden för de efterföljande stegen.</p>
-            <p class="p200 mt-m">Efter ångbehandlingen kan vi göra en varsam men effektiv manuell utrensning av porerna för att avlägsna olika typer av inkapslingar såsom finnar, papler, pustler och komedoner (svarta och vita pormaskar). Behandlingen avslutas med en lugnande mask och återfuktande för att hjäpla huden att återhämta sig.</p>',
-    ),
-);
+$description_title = 'Vad är ansiktsbehandling mot akne?';
+$description_text = '<p class="p200">Vår ansiktsbehandling mot akne är en omfattande lösning framtagen för att aktivt bekämpa akne och dess orsaker, samtidigt som den främjar en hälsosammare och klarare hud. Denna specialiserade behandling bekämpa de olika problem som uppstår i samband med akne genom att djuprengöra porerna, minska talgproduktionen och lugna inflammation, vilket lägger grunden för en varaktig förbättring av hudens tillstånd.</p>
+    <p class="p200 mt-m">Behandlingen inleds med en skonsam men effektiv rengöring för att ta bort smuts, talg och makeuprester. Därefter följer en ångbehandling som öppnar upp porerna, vilket underlättar en noggrann och skonsam extraktion av pormaskar och andra orenheter som kan bidra till akneutbrott. Vi använder exfolierande behandlingar anpassade efter din hudtyp för att varsamt avlägsna döda hudceller och främja cellförnyelse. Efter extraktionerna appliceras en lugnande mask rik på aktiva ingredienser som är utvalda för att behandla akne, minska rodnad och inflammation samt återfukta och balansera huden.</p>
+    <p class="p200 mt-m">Vårt team av erfarna hudterapeuter skräddarsyr varje ansiktsbehandling mot akne efter dina unika behov och hudtillstånd för att säkerställa optimala resultat. Vi använder oss av beprövade tekniker och högkvalitativa produkter för att erbjuda en effektiv behandling som inte bara adresserar akne i det korta perspektivet utan även arbetar för att förebygga framtida utbrott och främja en långsiktig hudhälsa.</p>';
 
 $treatment_areas_title = 'Behandlingsområden för akne';
 $treatment_areas_text = '<p class="p200">Vi behandlar akne överallt där det förekommer vilket är i ansiktet, på bröstet och på ryggen.</p>';
@@ -568,13 +557,6 @@ $all_brands = array(
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
-                <?php foreach ($top_articles as $id => $article) { ?>
-                    <section id="<?php echo $id ?>">
-                        <?php
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                        ?>
-                    </section>
-                <?php } ?>
                 <?php if (isset($treatment_areas)) { ?>
                     <section id="treatment-areas" class="large-margin">
                         <?php if (isset($treatment_areas_title)) { ?>
