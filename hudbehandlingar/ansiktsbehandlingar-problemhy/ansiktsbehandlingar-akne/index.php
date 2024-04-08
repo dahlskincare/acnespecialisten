@@ -59,11 +59,8 @@ $model = new Service(
 
 $nav_buttons = array(
     'about' => 'Om ansiktsbehandlingar mot akne',
-    'preparing' => 'Förberedelser',
     'process' => 'Processen',
-    'types' => 'Typer',
     'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
@@ -100,7 +97,7 @@ $treatment_areas = array(
         description: null,
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Ansiktsbehandling mot akne i ansiktet',
                 image_title: 'Ansiktsbehandling mot akne i ansiktet',
                 title: 'Ansikte',
@@ -111,7 +108,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling mot akne'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/brost.webp',
+                image: '/bilder/omraden/ikoner/brost.webp',
                 image_alt: 'Behandling mot akne på bröstet',
                 image_title: 'Behandling mot akne på bröstet',
                 title: 'Bröst',
@@ -122,7 +119,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling mot akne på bröstet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/rygg.webp',
+                image: '/bilder/omraden/ikoner/rygg.webp',
                 image_alt: 'Behandling mot akne på ryggen',
                 image_title: 'Behandling mot akne på ryggen',
                 title: 'Rygg',
