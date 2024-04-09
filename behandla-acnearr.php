@@ -2,9 +2,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Få bort acneärr effektivt';
-$seo_description = 'Behandla din acneärr hos AcneSpecialisten, vi har 30 års erfarenhet av att ta bort acneärr, börja din resa med en gratis konsultation i stockholm eller online';
-$seo_keywords = 'behandling av acneärr, acneärrbehandling, metod för acneärrbehandling, ta bort acneärr, få bort acneärr';
+$seo_title = 'Få bort acneärr effektivt | AcneSpecialisten';
+$seo_description = 'Behandla din acneärr hos AcneSpecialisten, 30 års erfarenhet av att ta bort acneärr med microneedling, laser eller kemisk peeling. Boka gratis konsultation →';
+$seo_keywords = 'få bort acneärr, microneedling acne, microneedling akne, akneärr, acneärr, microneedling acneärr';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -21,7 +21,7 @@ $path_segments = array(
 );
 
 $title = 'Få bort acneärr';
-$description = 'Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
+$description = 'Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars';
 $booking_link_title = 'Boka behandling';
