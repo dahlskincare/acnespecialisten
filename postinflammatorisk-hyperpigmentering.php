@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Postinflammatorisk Hyperpigmentering | AcneSpecialisten';
 $seo_description = 'Läs mer om postinflammatorisk hyperpigmentering, vi hjälper dig med rätt hyperpigmentering behandling! Boka tid för en gratis hudkonsultation →';
-$seo_keywords = 'postinflammatorisk hyperpigmentering, hyperpigmentering behandling, fläckar i ansiktet efter finnar';
+$seo_keywords = 'postinflammatorisk hyperpigmentering, hyperpigmentering, hyperpigmenteirng behandling, fläckar efter finnar';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/aknearr.webp';
 $image_large = 'bilder/hudproblem/424x456/aknearr.webp';
 $image_title = 'Exempel på postinflammatorisk hyperpigmentering';
 $image_alt = 'Bild som visar effekterna av postinflammatorisk hyperpigmentering på huden';
-$description = 'Postinflammatorisk hyperpigmentering (PIH) uppstår när huden blir mörkare eller fläckig efter en inflammation, såsom akneutbrott. Dessa mörka fläckar i ansiktet efter finnar kan vara svårt att helt eliminera, med med rätt hyerpigmentering behandling kan vi reducera och eliminera problemet. Här hittar du mer information om problemet och hur vi effektivt kan hjäpla dig.';
+$description = 'Postinflammatorisk hyperpigmentering (PIH) uppstår när huden blir mörkare eller fläckig efter en inflammation, såsom finnar eller akneutbrott. Dessa mörka fläckar i ansiktet efter finnar kan vara svårt att helt eliminera, med med rätt hyerpigmentering behandling kan vi reducera och eliminera problemet. Här hittar du mer information om problemet och hur vi effektivt kan hjäpla dig.';
 
 $akas = [
       new Link(
