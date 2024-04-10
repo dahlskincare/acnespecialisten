@@ -4,9 +4,9 @@
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Akneärr Resultat | Framgångshistorier i Hudförbättring</title>
-    <meta name="description" content="Före och Efter bilder på behandlingar som tar bort Acneärr samt resultat från våra behandlingar | AcneSpecialisten">
-    <meta name="keywords" content="Akneärrbehandling resultat, AcneSpecialisten framgångar, Hudförbättring, Jämn hudton, Reducera akneärr, Kundcase akneärr, Effektiv akneärrbehandling, Hudhälsans förbättring, Akneärr före- och efterbilder">
+    <title>Acneärr Före och Efter Resultat | AcneSpecialisten</title>
+    <meta name="description" content="Så före och efter bilder från laser, kemisk peeling och microneedling resultat. Vi reducerar effektivt dina akneärr oavsett typ.">
+    <meta name="keywords" content="microneedling acneärr resultat, microneedling före efter, microneedling före och efter">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/category.css">
@@ -48,7 +48,7 @@ $result_category =
     new ResultCategory(
         id: 'aknearr',
         title: 'Akneärr Resultat',
-        description_1: 'Upptäck hur vi på AcneSpecialisten framgångsrikt omvandlar hud med akneärr. På denna sida presenterar vi en samling före- och efterbilder som visar resultaten av våra anpassade behandlingar för akneärr. Se hur vi återställer hudens jämnhet och minskar synligheten av ärr för en klarare och mer jämn hudton.',
+        description_1: 'Upptäck hur vi på AcneSpecialisten effektivt behandlar acneärr med laser, kemisk peeling och microneedling för att du ska få resultat. På denna sida presenterar vi en samling före och efter bilder som visar resultaten av våra anpassade behandlingar för akneärr. Se hur vi återställer hudens jämnhet och minskar synligheten av ärr för en klarare och mer jämn hudton.',
 
         description_2: 'Är du redo att adressera dina akneärr och se en verklig förändring? Genom att boka en kostnadsfri konsultation hos AcneSpecialisten, tar du det första steget mot en hud utan akneärr. Vi är här för att vägleda dig mot en mer självsäker hud med våra effektiva och skräddarsydda behandlingsalternativ.',
     );
