@@ -20,7 +20,7 @@ $image_small = 'bilder/hudproblem/424x324/finnar.webp';
 $image_large = 'bilder/hudproblem/424x456/finnar.webp';
 $image_title = 'Visar en hud med finnar';
 $image_alt = 'Bild som illustrerar hur finnar kan se ut på huden';
-$description = 'Finnar visar sig som röda eller gula inflammationer i huden. Denna sida förklarar vad finnar är, varför de uppstår och hur de skiljer sig från andra hudutslag.';
+$description = 'Finnar visar sig som röda eller gula inflammationer i huden. Denna sida förklarar vad finnar är, varför de uppstår, hur man kan ta bort finnar och hur de skiljer sig från andra hudutslag.';
 
 $akas = [
       new Link(
@@ -413,7 +413,7 @@ $services = array(
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
             price: '995 kr',
-            content: 'Vår ansiktsbehandling mot finnar är en effektiv lösning, noggrant framtagen för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
+            content: 'Vår ansiktsbehandling mot finnar är en effektiv lösning för att klämma finnar utan att orsaka ärr, detta genom att noggrant framtagen för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling mot finnar',
