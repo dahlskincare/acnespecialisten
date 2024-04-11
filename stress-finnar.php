@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Stress Finnar - Förståelse, Behandling och Förebyggande';
-$seo_description = 'Utforska allt om stress finnar – deras orsaker, effektiva behandlingsmetoder och förebyggande strategier. Acnespecialisten erbjuder skräddarsydda lösningar.';
-$seo_keywords = 'stress finnar, stressrelaterad akne, behandla finnar orsakade av stress, förebygga stress finnar, hantera stressakne, hudvård vid stress';
+$seo_title = 'Stress Finnar | AcneSpecialisten';
+$seo_description = 'Utforska allt om stressfinnar – deras orsaker, effektiva behandlingsmetoder och förebyggande strategier. AcneSpecialisten erbjuder skräddarsydda lösningar.';
+$seo_keywords = 'stressfinnar, stress finnar, finnar i hårbotten stress';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Visar en hud med stress finnar';
 $image_alt = 'Bild som illustrerar hud påverkad av stress finnar';
-$description = 'I denna sektion förklarar vi vad stress finnar är, hur de skiljer sig från andra aknetyper, och hur Acnespecialisten kan stödja dig med effektiva behandlingar. Vi diskuterar även hur stress påverkar huden och strategier för att hantera detta.';
+$description = 'Läs merom stressfinnar och akne till följd av stress. Här berättar vi mer om varför stress orsakar problemet, var problemet uppstår och hur det skiljer sig från andra aknetyper.';
 
 $akas = [
       new Link(
@@ -76,12 +76,12 @@ $nav_buttons = array(
 
 $description_title = 'Vad är stress finnar?';
 $description_text = '<p class="p200">stress finnar är en hudåkomma som ofta uppstår till följd av höga stressnivåer, vilket kan påverka huden genom hormonella förändringar. Våra behandlingar syftar till att skonsamt rengöra, balansera och lugna huden, med särskild inriktning på stressrelaterade hudproblem. Vi erbjuder anpassade behandlingsalternativ för att effektivt hantera finnar orsakade av stress utan att irritera huden.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten förstår vi behovet av en anpassad hudvårdsrutin för att hantera stressrelaterade hudproblem. Genom att kombinera milda rengöringsmetoder med lugnande och återfuktande behandlingar, är våra hudterapeuter utrustade för att ge den mest effektiva och skonsamma vård för din stresspåverkade hud. Vi fokuserar även på att lära dig strategier för att hantera stress och dess inverkan på huden, för att förebygga framtida utbrott.</p>';
+<p class="p200 mt-m">Hos AcneSpecialisten förstår vi behovet av en anpassad hudvårdsrutin för att hantera stressrelaterade hudproblem. Genom att kombinera rengöringsmetoder med lugnande och återfuktande behandlingar, är våra hudterapeuter utrustade för att ge den mest effektiva och skonsamma vård för din stresspåverkade hud. Vi fokuserar även på att lära dig strategier för att hantera stress och dess inverkan på huden, för att förebygga framtida utbrott.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Genom en konsultation hos AcneSpecialisten kan du få hjälp att identifiera hur stress finnar påverkar just din hud och utveckla en skräddarsydd behandlingsplan. Vi är experter på att identifiera och hantera de hudförändringar som kan uppstå på grund av stress.',
+            content: 'Genom en konsultation hos AcneSpecialisten kan du få hjälp att identifiera hur stress finnar påverkar just din hud och utveckla en skräddarsydd behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
@@ -89,7 +89,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för stress finnar är skonsamma och anpassade för att effektivt hantera de unika utmaningarna som stressrelaterade hudproblem medför. Vi använder tekniker och produkter som är effektiva mot stress finnar samtidigt som de är skonsamma mot huden.',
+            content: 'Våra behandlingar för stress finnar är effektiva och anpassade för att effektivt hantera de unika utmaningarna som stressrelaterade hudproblem medför.',
 
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
@@ -97,7 +97,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder skräddarsydda hudvårdsrutiner och produkter som är utformade för att förebygga uppkomsten av stress finnar och upprätthålla en hälsosam hudbalans. Detta inkluderar råd om stresshantering och livsstilsförändringar.',
+            content: 'Vi erbjuder skräddarsydda hudvårdsrutiner och produkter som är utformade för att förebygga uppkomsten av stress finnar och upprätthålla en hälsosam hudbalans.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
@@ -105,7 +105,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi kan också hjälpa till med att behandla och reducera hudförändringar eller ärr som kan ha orsakats av stress finnar, med hjälp av säkra och effektiva behandlingsmetoder. Våra metoder fokuserar på att återställa hudens naturliga utseende och lindra de långsiktiga effekterna av stress på huden.',
+            content: 'Vi kan också hjälpa till med att behandla och reducera hudförändringar eller ärr som kan ha orsakats av stress finnar, med hjälp av säkra och effektiva behandlingsmetoder.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
@@ -121,7 +121,7 @@ $top_articles = array(
             image_alt: '',
             image_title: '',
             content: '<p class="p200">stress finnar uppstår ofta somen reaktion på de fysiska och hormonella förändringar som stress kan orsaka i kroppen. När vi är stressade, producerar kroppen mer androgener (en typ av hormon), vilket kan leda till ökad talgproduktion och inflammation i huden. Detta resulterar ofta i att porerna blir tilltäppta och skapar en gynnsam miljö för akne.</p>
-            <p class="p200 mt-m">stress finnar är vanliga i ansiktet, särskilt runt munnen, käken och pannan, men kan också dyka upp på kroppen. Hantering av stress finnar kräver en kombination av stresshanteringstekniker och skräddarsydd hudvård. Våra hudterapeuter på AcneSpecialisten ger råd om hur man balanserar huden med rätt produkter och behandlingar samtidigt som man implementerar livsstilsförändringar för att minska stressnivåerna.</p>',
+            <p class="p200 mt-m">stress finnar är vanliga i ansiktet, särskilt runt munnen, käken och pannan, men kan också dyka upp på kroppen, det är inte ovanligt att få finnar i hårbotten på grund av stress. Hantering av stress akne kräver en kombination av behandlingar och skräddarsydd hudvård.</p>',
       ),
 );
 
@@ -142,7 +142,7 @@ $articles = array(
             image_alt: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
             image_title: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
             content: '<p class="p200">Att hantera stress finnar kräver expertis och en förståelse för hur stress påverkar huden. Hos AcneSpecialisten är vi specialiserade på att hantera just denna typ av hudproblem. Med över 30 års erfarenhet och en djupgående förståelse för stressrelaterade hudtillstånd, erbjuder vi behandlingsmetoder som är både säkra och effektiva.</p
-            <p class="p200 mt-m">Vår individuellt anpassade behandlingsplan tar hänsyn till dina unika hudbehov. Vi ser varje kund som en unik individ och strävar efter att erbjuda personligt anpassad vård och stöd. Vår expertis och engagemang gör oss till det självklara valet för att hantera dina stress finnar och hjälpa dig att återfå en hälsosam och strålande hud.</p>',
+            <p class="p200 mt-m">Vår individuellt anpassade behandlingsplan tar hänsyn till dina unika hudbehov. Vi ser varje kund som en unik individ och strävar efter att erbjuda personligt anpassad behandling. Vår expertis och engagemang gör oss till det självklara valet för att hantera dina stress finnar och hjälpa dig att återfå en hälsosam och strålande hud.</p>',
       ),
 );
 
