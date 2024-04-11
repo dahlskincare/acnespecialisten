@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Gravid Finnar - Förståelse, Behandling och Skötsel';
-$seo_description = 'Utforska allt om gravid finnar – från orsaker till säker behandling och skötsel under graviditeten. Acnespecialisten ger skräddarsydda råd och lösningar.';
-$seo_keywords = 'gravid finnar, hudvård under graviditet, behandla finnar under graviditet, säker hudvård för gravida, förebygga finnar under graviditet, hormonell akne, graviditet och hudvård';
+$seo_title = 'Gravid Finnar & Acne | AcneSpecialisten';
+$seo_description = 'Besväras du av finnar under graviditet, som kanske kommit tidigt? Vi kan identifiera dina hormonutslag och behandla dem effektivt. Boka gratis hudkonsultation!';
+$seo_keywords = 'gravid finnar, finnar graviditet, finnar gravid tidigt, hormonutslag gravid, acne gravid, akne gravid, finnar på hakan gravid';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Visar en hud med gravid finnar';
 $image_alt = 'Bild som illustrerar hud med gravid finnar';
-$description = 'I denna sektion förklarar vi hur gravid finnar skiljer sig från andra typer av akne, varför det uppstår under graviditeten och hur Acnespecialisten kan stödja dig med säkra behandlingar. Vi diskuterar även hormonella förändringar under graviditeten och hur de påverkar huden.';
+$description = 'Besväras du av finnar and och acne under graviditeten? Vi kan identifera dina finnar och var de uppstår såsom i ansiktet, på hakan eller på kroppen. Vi berättarmed om hur dem uppstår och hur vi effektivt kan behandla dem.';
 
 $akas = [
       new Link(
@@ -75,13 +75,13 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är gravid finnar?';
-$description_text = '<p class="p200">Gravid finnar är en vanlig hudåkomma som drabbar kvinnor under graviditeten på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven under graviditeten. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
+$description_text = '<p class="p200">Acne eller finnar under graviditet är en vanlig hudåkomma som orsakar drabbar kvinnor på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven under graviditeten. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
 <p class="p200 mt-m">Vid AcneSpecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner under graviditeten. Från milda rengöringsmetoder till återfuktande och lugnande behandlingar, våra hudterapeuter är utbildade att ge den mest skonsamma och effektiva vård för graviditetsrelaterade hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera hur gravid finnar påverkar din hud och få en skräddarsydd behandlingsplan. Vår expertis sträcker sig till att hantera hudförändringar under graviditeten.',
+            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera hur gravid finnar påverkar din hud och få en skräddarsydd behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
