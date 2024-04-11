@@ -82,7 +82,7 @@ $description_text = '<p class="p200">Finnar på ryggen är ett vanligt hudproble
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'I en personlig konsultation hos AcneSpecialisten kartlägger vi de unika dragen hos dina finnar på ryggen och tar fram en behandlingsplan skräddarsydd för dig. Vår expertis ligger i att förstå och hantera de mångfacetterade orsakerna till finnar på ryggen.',
+            content: 'I en personlig konsultation hos AcneSpecialisten kartlägger vi de unika dragen hos dina finnar på ryggen och tar fram en behandlingsplan skräddarsydd för dig.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
@@ -96,7 +96,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi tillhandahåller skräddarsydda hudvårdsprodukter och rutiner för att effektivt förebygga framtida utbrott av finnar på ryggen. Dessa produkter är utvecklade för att bevara en sund hudbalans och förhindra nya finnar.',
+            content: 'Vi erbjuder skräddarsydda hudvårdsprodukter och rutiner för att effektivt förebygga framtida utbrott av finnar på ryggen. Dessa produkter är utvecklade för att bevara en sund hudbalans och förhindra nya finnar.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga finnar på ryggen'
