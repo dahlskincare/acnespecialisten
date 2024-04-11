@@ -82,7 +82,7 @@ $description_text = '<p class="p200">Finnar på ryggen är ett vanligt hudproble
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'I en personlig konsultation hos AcneSpecialisten kartlägger vi de unika dragen hos dina finnar på ryggen och tar fram en behandlingsplan skräddarsydd för dig.',
+            content: 'I en personlig konsultation hos AcneSpecialisten kartlägger vi de unika dragen hos dina finnar på både axlarna och ryggen, samt tar fram en behandlingsplan skräddarsydd för dig.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
@@ -103,7 +103,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'För att återställa huden efter finnar på ryggen erbjuder vi behandlingar som minskar ärr och förbättrar hudtexturen. Dessa metoder är speciellt effektiva för finnar på ryggen och skapar varaktiga förbättringar.',
+            content: 'För att återställa huden efter finnar på ryggen och axlarna erbjuder vi behandlingar som minskar ärr och förbättrar hudtexturen.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar på ryggen'
