@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Finnar på Ryggen: Experttips från Acnespecialisten';
-$seo_description = 'Utforska orsaker och skräddarsydda behandlingar för finnar på ryggen med Acnespecialisten. Vi erbjuder anpassade lösningar för alla åldrar.';
-$seo_keywords = 'finnar på ryggen';
+$seo_title = 'Få bort finnar på ryggen och axlarna | AcneSpecialisten';
+$seo_description = 'Utforska orsaker och skräddarsydda behandlingar för finnar på ryggen med AcneSpecialisten. Vi erbjuder anpassade lösningar för alla åldrar.';
+$seo_keywords = 'finnar på ryggen, finnar på axlarna, få bort finnar på ryggen';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -19,7 +19,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Visar en hud med finnar på ryggen';
 $image_alt = 'Bild som visar hudproblem med finnar på ryggen';
-$description = 'Denna sektion utforskar finnar på ryggen, deras vanligaste orsaker som hormonella förändringar och stress, samt AcneSpecialistens specialanpassade behandlingsmetoder för detta hudproblem. Vi delar också med oss av individuellt anpassade hudvårdsråd för alla åldersgrupper.';
+$description = 'Denna sektion utforskar finnar på axlarna och ryggen, de vanligaste orsakerna som hormonella förändringar och stress, samt AcneSpecialistens specialanpassade behandlingsmetoder kan hjälpa dig att få bort finnar på ryggen. Vi delar också med oss av individuellt anpassade hudvårdsråd för alla åldersgrupper.';
 
 $akas = [
       new Link(
@@ -74,10 +74,10 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Finnar på Ryggen: Förståelse och Anpassade Behandlingar';
+$description_title = 'Hur får man bort finnar på ryggen?';
 $description_text = '<p class="p200">Finnar på ryggen är ett vanligt hudproblem som drabbar personer i alla åldrar, ofta relaterat till faktorer såsom hormonella förändringar, stress och specifika livsstilsval. Acnespecialisten är dedikerad till att noggrant rengöra och balansera huden, med behandlingsmetoder anpassade för olika åldersgrupper och hudtyper. Vi erbjuder ett brett spektrum av behandlingar som effektivt hanterar akne samtidigt som de är skonsamma mot huden.</p>
 
-<p class="p200 mt-m">På Acnespecialisten har vi specialiserat oss på att utforma individuella hudvårdsprogram som uppfyller varje klients specifika behov. Våra strategier sträcker sig från noggranna rengöringsmetoder till specifika behandlingar som både vårdar och lugnar. Vårt team av hudterapeuter har både kunskapen och erfarenheten för att erbjuda effektiv och samtidigt skonsam vård för alla typer av hudåkommor.</p>';
+<p class="p200 mt-m">På AcneSpecialisten har vi specialiserat oss på att utforma individuella hudvårdsprogram som uppfyller varje klients specifika behov. Våra strategier sträcker sig från noggranna rengöringsmetoder till specifika behandlingar som både vårdar och lugnar. Vårt team av hudterapeuter har både kunskapen och erfarenheten för att erbjuda effektiv och samtidigt skonsam vård för alla typer av hudåkommor.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

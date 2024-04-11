@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är finnar och ska man klämma dem?';
+$seo_title = 'Vad är finnar och ska man klämma dem? | AcneSpecialisten';
 $seo_description = 'Här hittar du allt om finnar och hur man får bort dem. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'finnar, klämma finnar, klämma acne, klämma finnar ärr, ska man klämma finnar i ansiktet, ta bort finnar, få bort finnar, hur får man bort finnar, bli av med finnar';
 
