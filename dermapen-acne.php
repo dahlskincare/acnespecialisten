@@ -9,6 +9,10 @@ $seo_keywords = 'Dermapen, acnebehandling, hudläkning, bekämpa acne, kollagens
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
+$path_segments = array(
+    new PathSegment('Varumärken', '/varumarken/'),
+    new PathSegment('Dermapen Acne', '/dermapen-acne.php'),
+);
 
 $model = new Service(
     title: 'Dermapen mot acne',

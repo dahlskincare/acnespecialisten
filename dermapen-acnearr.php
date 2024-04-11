@@ -9,6 +9,10 @@ $seo_keywords = 'dermapen acneärr, dermapen resultat acneärr';
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
+$path_segments = array(
+    new PathSegment('Varumärken', '/varumarken/'),
+    new PathSegment('Dermapen Acneärr', '/dermapen-acnearr.php'),
+);
 
 $model = new Service(
     title: 'Dermapen mot acneärr',

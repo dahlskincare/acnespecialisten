@@ -9,6 +9,10 @@ $seo_keywords = 'Dermapen, finnar, acnebehandling, hudläkning, reducera finnar,
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
+$path_segments = array(
+    new PathSegment('Varumärken', '/varumarken/'),
+    new PathSegment('Dermapen Finnar', '/dermapen-finnar.php'),
+);
 
 $model = new Service(
     title: 'Dermapen mot finnar',
