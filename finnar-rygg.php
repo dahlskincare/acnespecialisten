@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Få bort finnar på ryggen och axlarna | AcneSpecialisten';
-$seo_description = 'Utforska orsaker och skräddarsydda behandlingar för finnar på ryggen med AcneSpecialisten. Vi erbjuder anpassade lösningar för alla åldrar.';
+$seo_description = 'Utforska orsaker och skräddarsydda behandlingar för finnar på rygg och axlar med AcneSpecialisten. Vi erbjuder anpassade lösningar för alla åldrar.';
 $seo_keywords = 'finnar på ryggen, finnar på axlarna, få bort finnar på ryggen';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
