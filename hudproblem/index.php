@@ -327,6 +327,8 @@ $problems['oonskat-har'] = new Problem(
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
 
+
+
 $problems['akne-ansikte'] = new Problem(
       button_label: 'Akne i ansiktet',
       content_label: 'Akne i ansiktet',
@@ -579,6 +581,9 @@ $problems['oonskat-har-ansikte'] = new Problem(
       image_title: 'Oönskat hår i ansiktet',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
+
+
+
 $problems['akne-rygg'] = new Problem(
       button_label: 'Akne på ryggen',
       content_label: 'Akne på ryggen',
@@ -705,6 +710,9 @@ $problems['oonskat-har-rygg'] = new Problem(
       image_title: 'Oönskat hår på ryggen',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
+
+
+
 $problems['akne-brost'] = new Problem(
       button_label: 'Akne på bröstet',
       content_label: 'Akne på bröstet',
@@ -831,6 +839,9 @@ $problems['oonskat-har-brost'] = new Problem(
       image_title: 'Oönskat hår på bröstet',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
+
+
+
 $problems['akne-panna'] = new Problem(
       button_label: 'Akne i pannan',
       content_label: 'Akne i pannan',
@@ -957,6 +968,9 @@ $problems['operations-skadearr-panna'] = new Problem(
       image_title: 'Operations & Skadeärr i pannan',
       info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
 );
+
+
+
 $problems['akne-kinder'] = new Problem(
       button_label: 'Akne på kinderna',
       content_label: 'Akne på kinderna',
@@ -1167,6 +1181,9 @@ $problems['oonskat-har-kinder'] = new Problem(
       image_title: 'Oönskat hår på kinderna',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
+
+
+
 $problems['perioral-dermatit-nasa'] = new Problem(
       button_label: 'Perioral dermatit på näsan',
       content_label: 'Perioral dermatit på näsan',
@@ -1335,6 +1352,9 @@ $problems['hudforandringar-nasa'] = new Problem(
       image_title: 'Hudförändringar på näsan',
       info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
 );
+
+
+
 $problems['perioral-dermatit-runt-munnen'] = new Problem(
       button_label: 'Perioral dermatit runt munnen',
       content_label: 'Perioral dermatit runt munnen',
@@ -1433,6 +1453,9 @@ $problems['hudforandringar-runt-munnen'] = new Problem(
       image_title: 'Hudförändringar runt munnen',
       info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
 );
+
+
+
 $problems['akne-haka'] = new Problem(
       button_label: 'Akne på hakan',
       content_label: 'Akne på hakan',
@@ -1587,6 +1610,9 @@ $problems['oonskat-har-haka'] = new Problem(
       image_title: 'Oönskat hår på hakan',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
+
+
+
 $problems['akne-kaklinje'] = new Problem(
       button_label: 'Akne på käklinjen',
       content_label: 'Akne på käklinjen',
@@ -1671,6 +1697,9 @@ $problems['oonskat-har-kaklinje'] = new Problem(
       image_title: 'Oönskat hår på käklinjen',
       info: 'Detta innebär överdriven hårväxt på kroppen eller ansiktet, vilket kan vara ett resultat av hormonella obalanser, genetik, vissa mediciner eller medicinska tillstånd. Denna typ av hårväxt kan uppfattas som kosmetiskt störande och varierar i intensitet och distribution över kroppen.'
 );
+
+
+
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
