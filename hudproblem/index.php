@@ -654,6 +654,20 @@ $problems['pormaskar-rygg'] = new Problem(
       image_title: 'Pormaskar på ryggen',
       info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
 );
+$problems['pigmentflackar-rygg'] = new Problem(
+      button_label: 'Pigmentfläckar i ryggen',
+      content_label: 'Pigmentfläckar i ryggen',
+      url: 'pigmentflackar.php',
+      url_title: 'Läs mer information om Pigmentfläckar i ryggen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
+      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
+      consultation_url_title: 'Boka konsultation mot pigmentfläckar i ryggen',
+      booking_url_title: 'Boka behandling mot pigmentfläckar i ryggen',
+      image: 'bilder/hudproblem/424x324/pigmentflackar-rygg.webp',
+      image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
+      image_title: 'Pigmentfläckar i ryggen',
+      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
+);
 $problems['hudforandringar-rygg'] = new Problem(
       button_label: 'Hudförändringar på ryggen',
       content_label: 'Hudförändringar på ryggen',
@@ -768,6 +782,20 @@ $problems['pormaskar-brost'] = new Problem(
       image_alt: 'Ansikte med hudproblemet Pormaskar',
       image_title: 'Pormaskar på bröstet',
       info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
+);
+$problems['pigmentflackar-brost'] = new Problem(
+      button_label: 'Pigmentfläckar i bröstet',
+      content_label: 'Pigmentfläckar i bröstet',
+      url: 'pigmentflackar.php',
+      url_title: 'Läs mer information om Pigmentfläckar i bröstet',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
+      booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
+      consultation_url_title: 'Boka konsultation mot pigmentfläckar i bröstet',
+      booking_url_title: 'Boka behandling mot pigmentfläckar i bröstet',
+      image: 'bilder/hudproblem/424x324/pigmentflackar-brost.webp',
+      image_alt: 'Ansikte med hudproblemet Pigmentfläckar',
+      image_title: 'Pigmentfläckar i bröstet',
+      info: 'Detta är mörka områden på huden som uppstår när melanin, det pigment som ger hud dess färg, produceras i överflöd. Dessa fläckar kan vara resultatet av olika faktorer, inklusive solskador, hormonella förändringar som de som uppstår under graviditet eller genom användning av vissa mediciner, och är vanligare med stigande ålder.'
 );
 $problems['hudforandringar-brost'] = new Problem(
       button_label: 'Hudförändringar på bröstet',
@@ -957,7 +985,7 @@ $problems['rosacea-kinder'] = new Problem(
       image_title: 'Rosacea på kinderna',
       info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, varfyllda bölder. Det kan också involvera hettande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet på kinderna och nästan.'
 );
-$problems['ytliga-blodkar-kinderl'] = new Problem(
+$problems['ytliga-blodkar-kinder'] = new Problem(
       button_label: 'Ytliga Blodkärl på kinderna',
       content_label: 'Ytliga Blodkärl på kinderna',
       url: 'ytliga-blodkarl.php',
@@ -1058,6 +1086,21 @@ $problems['oonskat-har-kinder'] = new Problem(
 
 
 
+
+$problems['akne-nasa'] = new Problem(
+      button_label: 'Akne på näsan',
+      content_label: 'Akne på näsan',
+      url: 'acne.php',
+      url_title: 'Läs mer information om Akne på näsan',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url_title: 'Boka konsultation mot akne på näsan',
+      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+      booking_url_title: 'Boka behandling mot akne på näsan',
+      image: 'bilder/hudproblem/424x324/akne-nasa.webp',
+      image_alt: 'Ansikte med hudproblemet akne',
+      image_title: 'Akne på näsan',
+      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+);
 $problems['finnar-nasa'] = new Problem(
       button_label: 'Finnar på näsan',
       content_label: 'Finnar på näsan',
@@ -1407,12 +1450,12 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Rygg',
             icon: 'rygg',
-            problem_ids: array('akne-rygg', 'aknearr-rygg', 'finnar-rygg', 'arr-fran-finnar-rygg', 'pormaskar-rygg', 'hudforandringar-rygg', 'operations-skadearr-rygg', 'oonskat-har-rygg',)
+            problem_ids: array('akne-rygg', 'aknearr-rygg', 'finnar-rygg', 'arr-fran-finnar-rygg', 'pormaskar-rygg', 'pigmentflackar-rygg', 'hudforandringar-rygg', 'operations-skadearr-rygg', 'oonskat-har-rygg',)
       ),
       new ProblemArea(
             label: 'Bröst',
             icon: 'brost',
-            problem_ids: array('akne-brost', 'aknearr-brost', 'finnar-brost', 'arr-fran-finnar-brost', 'pormaskar-brost', 'hudforandringar-brost', 'operations-skadearr-brost', 'oonskat-har-brost',)
+            problem_ids: array('akne-brost', 'aknearr-brost', 'finnar-brost', 'arr-fran-finnar-brost', 'pormaskar-brost', 'pigmentflackar-brost', 'hudforandringar-brost', 'operations-skadearr-brost', 'oonskat-har-brost',)
       ),
       new ProblemArea(
             label: 'Panna',
@@ -1427,7 +1470,7 @@ $problem_areas = array(
       new ProblemArea(
             label: 'Näsa',
             icon: 'nasa',
-            problem_ids: array('finnar-nasa', 'rosacea-nasa', 'ytliga-blodkarl-nasa', 'pormaskar-nasa', 'stora-porer-nasa', 'pigmentflackar-nasa', 'hudforandringar-nasa',)
+            problem_ids: array('finnar-nasa', 'akne-nasa', 'rosacea-nasa', 'ytliga-blodkarl-nasa', 'pormaskar-nasa', 'stora-porer-nasa', 'pigmentflackar-nasa', 'hudforandringar-nasa',)
       ),
       new ProblemArea(
             label: 'Runt munnen',
