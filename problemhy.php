@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Ansiktsbehandling mot problemhy',
+    title: 'Ansiktsbehandlingar mot problemhy',
     duration: '60 min',
     price: 'Från 999 kr',
     content: '',
@@ -72,7 +72,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Hur fungerar behandlingar för hudproblem i ansiktet?';
+$description_title = 'Vad är behandlingar för hudproblem?';
 $description_text = '<p class="p200">Dessa behandlingar skräddarsydds för en mängd olika hudproblem. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann exfoliering. Perfekt för dig som upplever att du har dålig hy i ansiktet som vuxen.</p>
 <p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa en balanserad och problemfri hy.</p>';
 
