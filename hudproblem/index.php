@@ -1395,14 +1395,14 @@ $problems['oonskat-har-kaklinje'] = new Problem(
 $default_problems = new ProblemArea(
       label: '',
       icon: '',
-      problem_ids: array('akne', 'aknearr', 'finnar', 'arr-fran-finnar', 'rosacea', 'ytliga-blodkarl', 'pormaskar', 'stora-porer', 'blandhy', 'pigmentflackar', 'perioral-dermatit',  'seborre', 'milier',  'hudforandringar',  'mogen-hy', 'torr-kanslig-hy', 'bristningar', 'operations-skadearr', 'oonskat-har',),
+      problem_ids: array('akne', 'aknearr', 'finnar', 'arr-fran-finnar', 'rosacea', 'ytliga-blodkarl', 'pormaskar', 'stora-porer', 'blandhy', 'pigmentflackar', 'milier',  'hudforandringar', 'bristningar', 'operations-skadearr', 'oonskat-har',),
 );
 
 $problem_areas = array(
       new ProblemArea(
             label: 'Ansikte',
             icon: 'ansikte',
-            problem_ids: array('akne-ansikte', 'aknearr-ansikte', 'finnar-ansikte', 'arr-fran-finnar-ansikte', 'rosacea-ansikte', 'ytliga-blodkarl-ansikte', 'pormaskar-ansikte', 'stora-porer-ansikte', 'blandhy-ansikte', 'pigmentflackar-ansikte', 'perioral-dermatit-ansikte', 'seborre-ansikte', 'milier-ansikte', 'hudforandringar-ansikte',  'mogen-hy-ansikte', 'torr-kanslig-hy-ansikte', 'operations-skadearr-ansikte', 'oonskat-har-ansikte',)
+            problem_ids: array('akne-ansikte', 'aknearr-ansikte', 'finnar-ansikte', 'arr-fran-finnar-ansikte', 'rosacea-ansikte', 'ytliga-blodkarl-ansikte', 'pormaskar-ansikte', 'stora-porer-ansikte', 'pigmentflackar-ansikte', 'perioral-dermatit-ansikte', 'seborre-ansikte', 'milier-ansikte', 'hudforandringar-ansikte',  'mogen-hy-ansikte', 'torr-kanslig-hy-ansikte', 'operations-skadearr-ansikte', 'oonskat-har-ansikte',)
       ),
       new ProblemArea(
             label: 'Rygg',
