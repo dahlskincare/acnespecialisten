@@ -11,12 +11,12 @@ $seo_keywords = 'finnar i ansiktet';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/finnar-ansikte.webp';
 
 $title = 'Finnar i ansiktet';
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/424x324/finnar-ansikte.webp';
+$image_large = 'bilder/hudproblem/424x456/finnar-ansikte.webp';
 $image_title = 'Visar en hud med finnar i ansiktet';
 $image_alt = 'Bild som visar hudproblem med finnar i ansiktet';
 $description = 'Denna sektion ger en ingående titt på finnar i ansiktet, dess huvudsakliga orsaker som hormonella förändringar, stress och andra faktorer, samt hur Acnespecialisten erbjuder målinriktade behandlingar för detta hudtillstånd. Dessutom delar vi med oss av skräddarsydda hudvårdsråd lämpliga för personer i alla åldersgrupper.';

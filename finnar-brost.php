@@ -11,12 +11,12 @@ $seo_keywords = 'bekämpa finnar på bröstet';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/finnar-brost.webp';
 
 $title = 'Finnar på bröstet';
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/424x324/finnar-brost.webp';
+$image_large = 'bilder/hudproblem/424x456/finnar-brost.webp';
 $image_title = 'Visar en hud med finnar på bröstet';
 $image_alt = 'Bild av hudproblem med finnar på bröstet';
 $description = 'I denna sektion utforskar vi djupare finnar på bröstet - deras vanligaste orsaker som hormonella faktorer och stress, och hur Acnespecialisten ger målmedvetna behandlingar för att effektivt hantera detta hudproblem. Vi delar också med oss av personligt anpassade hudvårdsråd för personer i alla åldersgrupper.';

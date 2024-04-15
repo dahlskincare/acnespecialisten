@@ -11,12 +11,12 @@ $seo_keywords = 'finnar på ryggen, finnar på axlarna, få bort finnar på rygg
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/finnar-rygg.webp';
 
 $title = 'Finnar på ryggen';
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/424x324/finnar-rygg.webp';
+$image_large = 'bilder/hudproblem/424x456/finnar-rygg.webp';
 $image_title = 'Visar en hud med finnar på ryggen';
 $image_alt = 'Bild som visar hudproblem med finnar på ryggen';
 $description = 'Denna sektion utforskar finnar på axlarna och ryggen, de vanligaste orsakerna som hormonella förändringar och stress, samt AcneSpecialistens specialanpassade behandlingsmetoder kan hjälpa dig att få bort finnar på ryggen. Vi delar också med oss av individuellt anpassade hudvårdsråd för alla åldersgrupper.';
