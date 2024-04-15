@@ -165,9 +165,9 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/komedoner-oppna.webp',
-            image_alt: 'Bild av öppna komedoner (pormaskar)',
-            image_title: 'Öppna komedoner (pormaskar)'
+            image: 'images/symptoms/102x102/oljig-hy.webp',
+            image_alt: 'Oljig & fet hy i ansiktet',
+            image_title: 'Oljig & fet hy'
       ),
       new Symptom(
             name: 'Torr hy',
@@ -178,9 +178,9 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/komedoner-stangda.webp',
-            image_alt: 'Bild av stängda komedoner',
-            image_title: 'Stängda komedoner'
+            image: 'images/symptoms/102x102/torr-hy.webp',
+            image_alt: 'Torr hy i ansiktet',
+            image_title: 'Torr hy'
       ),
       new Symptom(
             name: 'Känslig hy',
@@ -191,9 +191,9 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/papler.webp',
-            image_alt: 'Bild av papler (röda finnar)',
-            image_title: 'Papler (röda finnar)'
+            image: 'images/symptoms/102x102/kanslig-hy.webp',
+            image_alt: 'Känslighy i ansiktet',
+            image_title: 'Känslig hy'
       ),
       new Symptom(
             name: 'Pormaskar',
@@ -204,9 +204,9 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/pustler.webp',
-            image_alt: 'Bild av pustler (gula finnar)',
-            image_title: 'Pustler (gula finnar)'
+            image: 'images/symptoms/102x102/tilltapta-porer.webp.webp',
+            image_alt: 'Pormaskar i ansiktet',
+            image_title: 'Pormaskar'
       ),
       new Symptom(
             name: 'Finnar',
@@ -218,8 +218,8 @@ $symptoms = array(
             url_title: null,
 
             image: 'images/symptoms/102x102/noduler.webp',
-            image_alt: 'Bild av noduler (innåtfinnar)',
-            image_title: 'Noduler (innåtfinnar)'
+            image_alt: 'Finnar i ansiktet',
+            image_title: 'Finnar'
       ),
 );
 

@@ -149,7 +149,7 @@ $symptoms = array(
             //url: 'hudproblem/stora-porer/typer/forstorade-oppningar',
             //url_title: 'Läs mer om synliga tecken på stora porer',
 
-            image: 'bilder/symptom/102x102/oppna-komedoner.webp',
+            image: 'bilder/symptom/102x102/forstorade-porer.webp',
             image_alt: 'Bild av synligt förstorade porer',
             image_title: 'Synligt förstorade porer'
       ),
@@ -177,7 +177,7 @@ $symptoms = array(
             //url: 'hudproblem/stora-porer/typer/okad-oljeproduktion',
             //url_title: 'Läs mer om talgproduktion och dess relation till stora porer',
 
-            image: 'bilder/symptom/102x102/oljig-hy.webp',
+            image: 'bilder/symptom/102x102/okad-talgproduktion.webp',
             image_alt: 'Bild av fet hud med ökad oljeproduktion',
             image_title: 'Ökad oljeproduktion'
       ),
@@ -191,7 +191,7 @@ $symptoms = array(
             url: 'pormaskar.php',
             url_title: 'Läs mer om hur pormaskar och komedoner utvecklas',
 
-            image: 'bilder/symptom/102x102/stangda-komedoner.webp',
+            image: 'bilder/symptom/102x102/tilltapta-porer.webp',
             image_alt: 'Bild av pormaskar och komedoner',
             image_title: 'Pormaskar och komedoner'
       ),
