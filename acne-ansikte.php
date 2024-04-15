@@ -11,12 +11,12 @@ $seo_keywords = 'akne, akne i ansiktet, acne i ansiktet, acne käklinje, acne ki
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 
 $title = 'Akne i ansiktet';
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/424x324/akne-ansikte.webp';
+$image_large = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 $image_title = 'Behandling av ansiktsakne';
 $image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
 $description = 'Upptäck allt du behöver veta om akne i ansiktet, en vanlig hudåkomma som kan påverka alla, oavsett ålder. Från pormaskar till mer djupgående utslag längs käklinjen, kinderna och under hakan, förklarar vi orsakerna bakom dessa utbrott och erbjuder råd för effektiva behandlingsmetoder. Lär dig hur du kan hantera din hudvård för att bekämpa akne och uppnå en klarare och friskare hud.';
