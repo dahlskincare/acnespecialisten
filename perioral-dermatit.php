@@ -317,7 +317,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'bilder/symptom/102x102/irriterad-hy.webp',
+            image: 'bilder/symptom/102x102/svidande-kansla.webp',
             image_alt: 'Bild av hud med brännande eller svidande känsla',
             image_title: 'Brännande eller Svidande Känsla'
       ),
@@ -343,7 +343,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
+            image: 'bilder/symptom/102x102/rodnad-inflammation.webp',
             image_alt: 'Bild av rodnad och inflammation',
             image_title: 'Rodnad och Inflammation'
       ),
