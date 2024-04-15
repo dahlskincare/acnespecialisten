@@ -223,7 +223,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar i ansiktet',
                         subtitle: 'Solfläckar & åldersfläckar',
-                        image_url: '/bilder/symptom/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/pigmentflackar-ansikte.webp',
                         image_alt: 'Bild av pigmentfläckar i ansiktet',
                         image_title: 'Pigmentförändringar i ansiktet',
                         //url: 'hudproblem/pigmentflackar/omraden/ansikte',
@@ -241,7 +241,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar på Kroppen',
                         subtitle: 'Hyperpigmentering',
-                        image_url: '/bilder/symptom/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/pigmentflackar-kropp.webp',
                         image_alt: 'Bild av pigmentfläckar på kroppen',
                         image_title: 'Pigmentförändringar på kroppen',
                         //url: 'hudproblem/pigmentflackar/omraden/kroppen',
@@ -250,7 +250,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar på Händerna',
                         subtitle: 'Solfläckar & åldersfläckar',
-                        image_url: '/bilder/symptom/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/pigmentflackar-hander.webp',
                         image_alt: 'Bild av pigmentfläckar på händerna',
                         image_title: 'Pigmentförändringar på händerna',
                         //url: 'hudproblem/pigmentflackar/omraden/hander',
