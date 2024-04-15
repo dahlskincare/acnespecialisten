@@ -11,12 +11,12 @@ $seo_keywords = 'pormaskar i ansiktet, behandla pormaskar i ansiktet, orsaker ti
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
+$seo_image = 'bilder/hudproblem/424x456/pormaskar-ansikte.webp';
 
 $title = 'Pormaskar i ansiktet';
 
-$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
-$image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
+$image_small = 'bilder/hudproblem/424x324/pormaskar-ansikte.webp';
+$image_large = 'bilder/hudproblem/424x456/pormaskar-ansikte.webp';
 $image_alt = 'Bild som illustrerar pormaskar i ansiktet på huden';
 $image_alt = 'Bild på pormaskar i ansiktshuden';
 $description = 'Denna sektion utforskar pormaskar i ansiktet, deras ursprung och Acnespecialistens effektiva behandlingar. Vi diskuterar hur pormaskar bildas i ansiktet och erbjuder råd för att minska dem och förbättra din hudhälsa.';

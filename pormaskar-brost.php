@@ -11,12 +11,12 @@ $seo_keywords = 'pormaskar på bröstet, behandla pormaskar på bröstet, orsake
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
+$seo_image = 'bilder/hudproblem/424x456/pormaskar-brost.webp';
 
 $title = 'Pormaskar på bröstet';
 
-$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
-$image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
+$image_small = 'bilder/hudproblem/424x324/pormaskar-brost.webp';
+$image_large = 'bilder/hudproblem/424x456/pormaskar-brost.webp';
 $image_alt = 'Bild som illustrerar pormaskar på bröstet på huden';
 $image_alt = 'Bild på pormaskar på bröstet';
 $description = 'I denna sektion tar vi en närmare titt på pormaskar på bröstet, deras uppkomst och hur Acnespecialisten kan erbjuda effektiva behandlingar. Vi diskuterar hur pormaskar bildas på bröstet och ger råd för att reducera dem och förbättra hudens hälsa.';

@@ -11,12 +11,12 @@ $seo_keywords = 'pormaskar på ryggen, behandling av pormaskar på ryggen, orsak
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
+$seo_image = 'bilder/hudproblem/424x456/pormaskar-rygg.webp';
 
 $title = 'Pormaskar på ryggen';
 
-$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
-$image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
+$image_small = 'bilder/hudproblem/424x324/pormaskar-rygg.webp';
+$image_large = 'bilder/hudproblem/424x456/pormaskar-rygg.webp';
 $image_alt = 'Bild som illustrerar pormaskar på ryggen på huden';
 $image_alt = 'Bild på pormaskar på ryggen';
 $description = 'Denna sektion fokuserar på pormaskar på ryggen, deras orsaker och Acnespecialistens effektiva behandlingsalternativ. Vi diskuterar hur pormaskar på ryggen bildas och ger råd om hur du kan minska dem för en hälsosammare hud.';
