@@ -11,12 +11,12 @@ $seo_keywords = 'akne på ryggen, ryggbehandling acne, behandling av akne på ry
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/akne-rygg.webp';
 
 $title = 'Akne på ryggen';
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/424x324/akne-rygg.webp';
+$image_large = 'bilder/hudproblem/424x456/akne-rygg.webp';
 $image_title = 'Effektiv Behandling av Ryggakne';
 $image_alt = 'Bild som illustrerar behandling och vård av akne på ryggen';
 $description = 'Akne på ryggen kan vara svårare att behandla på grund av dess läge, men vi har samlat den information och de resurser du behöver för att effektivt hantera detta tillstånd. Från djupgående ryggbehandlingar till hemåtgärder, utforskar vi olika behandlingar av akne på ryggen som kan hjälpa dig att bli av med utbrott och förebygga framtida problem. Upptäck hur du kan uppnå och bibehålla en ren och klar rygg, fri från akne.';
