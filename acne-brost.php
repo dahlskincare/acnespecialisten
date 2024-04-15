@@ -11,12 +11,12 @@ $seo_keywords = 'finnar på bröstet, akne på bröstkorgen';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/akne-brost.webp';
 
 $title = 'Akne på bröstet';
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/424x324/akne-brost.webp';
+$image_large = 'bilder/hudproblem/424x456/akne-brost.webp';
 $image_title = 'Effektiv Behandling av Bröstakne';
 $image_alt = 'Bild som visar behandling och vård av akne på bröstet';
 $description = 'Finnar på bröstet kan vara både besvärande och obekväma, men det finns lösningar. Denna sida är dedikerad till att utforska akne på bröstkorgen, dess orsaker och hur du kan behandla och förebygga dessa irriterande utslag. Vi guidar dig genom de bästa metoderna för att ta hand om din hud och ge dig tips för att återställa dess naturliga balans och skönhet.';
