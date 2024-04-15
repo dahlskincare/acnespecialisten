@@ -354,7 +354,7 @@ $symptoms = array(
             url: 'svarta-pormaskar.php',
             url_title: 'Läs mer om Svarta pormaskar (svarta pormaskar)',
 
-            image: 'bilder/symptom/102x102/komedoner-oppna.webp',
+            image: 'bilder/symptom/102x102/oppna-komedoner.webp',
             image_alt: 'Ansikte med öppna komedoner (svarta pormaskar)',
             image_title: 'Öppna komedoner (svarta pormaskar)'
       ),
@@ -367,7 +367,7 @@ $symptoms = array(
             url: 'vita-pormaskar.php',
             url_title: 'Läs mer om stängda komedoner (vita pormaskar)',
 
-            image: 'bilder/symptom/102x102/komedoner-stangda.webp',
+            image: 'bilder/symptom/102x102/stangda-komedoner.webp',
             image_alt: 'Ansikte med stängda komedoner (vita pormaskar)',
             image_title: 'Stängda komedoner (vita pormaskar)'
       ),
