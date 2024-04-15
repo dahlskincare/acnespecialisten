@@ -330,7 +330,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'bilder/symptom/102x102/flagnande-hud.webp',
+            image: 'bilder/symptom/102x102/flagnande-hud-runt-munnen.webp',
             image_alt: 'Bild av hudfjällning',
             image_title: 'Hudfjällning'
       ),
