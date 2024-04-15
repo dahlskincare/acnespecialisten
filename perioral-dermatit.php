@@ -291,7 +291,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'bilder/symptom/102x102/papler.webp',
+            image: 'bilder/symptom/102x102/utslag-runt-munnen.webp',
             image_alt: 'Bild av röda utslag',
             image_title: 'Röda Utslag'
       ),
