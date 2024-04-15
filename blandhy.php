@@ -204,7 +204,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/tilltapta-porer.webp.webp',
+            image: 'images/symptoms/102x102/tilltapta-porer.webp',
             image_alt: 'Pormaskar i ansiktet',
             image_title: 'Pormaskar'
       ),
