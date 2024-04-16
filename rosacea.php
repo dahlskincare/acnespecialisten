@@ -229,7 +229,7 @@ $symptoms_title = 'Rosacea symptom';
 $symptoms = array(
       new Symptom(
             name: 'Rodnad',
-            image: 'images/problems/102x102/rodnad.webp',
+            image: 'images/problems/102x102/rodnad-kinder.webp',
             content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
             url: '',
             url_title: '',
@@ -241,7 +241,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Vätskefyllda blåsor',
-            image: 'images/problems/102x102/papular-rosacea.webp',
+            image: 'images/problems/102x102/vatskefyllda-blasor.webp',
             content: 'Vätskefyllda blåsor är ett annat symptom på rosacea. De liknar de som uppträder vid akne och finnar.',
             url: '',
             url_title: '',

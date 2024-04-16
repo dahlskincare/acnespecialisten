@@ -290,7 +290,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Oljig hy',
-            image: 'bilder/symptom/102x102/oljig-hy.webp',
+            image: 'bilder/symptom/102x102/oljig-hy-ansikte.webp',
             content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
             aka: 'Fet hy',
             image_alt: 'Bild av överflödig oljighet',
