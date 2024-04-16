@@ -374,7 +374,7 @@ $specialists = array(
                         <?php
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                         ?>
-                        <a class="mt-xl button outline expand auto-width l10n" href="specialister" title="View all specialists">View all specialists</a>
+                        <a class="mt-xl button outline expand auto-width l10n" href="hudterapeut" title="View all specialists">View all specialists</a>
                     </section>
                 </div>
                 <section id="brands">
