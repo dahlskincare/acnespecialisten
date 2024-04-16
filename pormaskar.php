@@ -997,7 +997,7 @@ $brands_url_title = "Varumärken för pormaskar";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -1008,7 +1008,7 @@ $brands_url_title = "Varumärken för pormaskar";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="specialister">Se alla specialister</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="hudterapeut">Se alla hudterapeuter</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
