@@ -83,7 +83,7 @@
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="hudterapeut" title="Se alla specialister">Se alla specialister</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="hudterapeut" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
