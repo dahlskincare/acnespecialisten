@@ -149,7 +149,7 @@ $symptoms = array(
             //url: 'hudproblem/stora-porer/typer/forstorade-oppningar',
             //url_title: 'Läs mer om synliga tecken på stora porer',
 
-            image: 'bilder/symptom/102x102/forstorade-porer.webp',
+            image: 'bilder/symptom/102x102/vidgade-porer.webp',
             image_alt: 'Bild av synligt förstorade porer',
             image_title: 'Synligt förstorade porer'
       ),
@@ -163,7 +163,7 @@ $symptoms = array(
             //url: 'hudproblem/stora-porer/typer/ojamn-hudtextur',
             //url_title: 'Läs mer om hur stora porer påverkar hudens textur',
 
-            image: 'bilder/symptom/102x102/apelsinhud.webp',
+            image: 'bilder/symptom/102x102/ojamn-hudtextur.webp',
             image_alt: 'Bild som illustrerar en ojämn hudtextur',
             image_title: 'Ojämn hudtextur'
       ),
