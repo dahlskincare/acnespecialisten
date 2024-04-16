@@ -682,7 +682,7 @@ $path_segments = array(
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="specialister" title="Se alla våra specialister">Se alla våra specialister</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="hudterapeut" title="Se alla våra hudterapeuter">Se alla våra hudterapeuter</a>
             </div>
         </section>
         <section id="brands">

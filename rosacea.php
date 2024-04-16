@@ -229,7 +229,7 @@ $symptoms_title = 'Rosacea symptom';
 $symptoms = array(
       new Symptom(
             name: 'Rodnad',
-            image: 'images/problems/102x102/rodnad-kinder.webp',
+            image: '/bilder/symptom/102x102/rodnad-kinder.webp',
             content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
             url: '',
             url_title: '',
@@ -241,7 +241,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Vätskefyllda blåsor',
-            image: 'images/problems/102x102/vatskefyllda-blasor.webp',
+            image: '/bilder/symptom/102x102/vatskefyllda-blasor.webp',
             content: 'Vätskefyllda blåsor är ett annat symptom på rosacea. De liknar de som uppträder vid akne och finnar.',
             url: '',
             url_title: '',
@@ -253,7 +253,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Synliga blodkärl',
-            image: 'images/problems/102x102/synliga-blodkarl.webp',
+            image: '/bilder/symptom/102x102/synliga-blodkarl.webp',
             content: 'Vid rosacea kan de små blodkärlen i huden bli mer ytliga och synliga, vilket framträder som tunna röda linjer.',
             url: '',
             url_title: '',
@@ -265,7 +265,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Papler och pustler',
-            image: 'images/problems/102x102/papulopustular-rosacea.webp',
+            image: '/bilder/symptom/102x102/papulopustular-rosacea.webp',
             content: 'Rosacea kan leda till utvecklingen av röda upphöjda papler och pustler som vid akne.',
             url: '',
             url_title: '',
@@ -277,7 +277,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Hudförtjockning',
-            image: 'images/problems/102x102/rhinophyma-rosacea.webp',
+            image: '/bilder/symptom/102x102/rhinophyma-rosacea.webp',
             content: 'Hudförtjockning, särskilt på näsan, kan förekomma vid mer allvarliga fall av rosacea. Rhinophyma är vanligare hos män.',
             url: '',
             url_title: '',
@@ -289,7 +289,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Ögonproblem',
-            image: 'images/problems/102x102/okular-rosacea.webp',
+            image: '/bilder/symptom/102x102/okular-rosacea.webp',
             content: 'Okulär rosacea är en form av sjukdomen som påverkar ögonen och ögonlocken. Symptom kan inkludera torra ögon, irritation och rinnande ögon.',
             url: '',
             url_title: '',
@@ -301,7 +301,7 @@ $symptoms = array(
 
       new Symptom(
             name: 'Irriterad hy',
-            image: 'images/problems/102x102/irriterad-hy.webp',
+            image: '/bilder/symptom/102x102/irriterad-hy.webp',
             content: 'En hettande. brännande eller stickande känsla i huden är ett vanligt symptom på rosacea. Huden kan även klia i form av klåda.',
             url: '',
             url_title: '',

@@ -13,7 +13,7 @@ $seo_keywords = 'ansiktsvårta, fibrom, födelsemärke, hallonmärke, jordgubbsm
 $seo_image = '/bilder/hudproblem/424x456/hudforandringar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Hudförändringar', '/hudproblem/hudforandringar'),
 );
 

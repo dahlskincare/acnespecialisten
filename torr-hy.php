@@ -12,7 +12,7 @@ $seo_keywords = 'torr hy, torr hud, torr hud ansikte, fjällar';
 $title = 'Torr och Känslig Hy';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Torr & Känslig hy', '/torr-hy.php'),
 );
 
