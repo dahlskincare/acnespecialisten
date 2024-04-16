@@ -320,7 +320,7 @@ $type_categories = array(
                         title: 'Finnar runt munnen',
                         subtitle: 'Perioral dermatit',
 
-                        image_url: 'bilder/hudproblem/102x102/finnar-runt-munnen.webp',
+                        image_url: 'bilder/symptom/102x102/finnar-runt-munnen.webp',
                         image_alt: 'Finnar runt munnen',
                         image_title: 'Exempel på finnar runt munnen',
 

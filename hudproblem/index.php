@@ -898,20 +898,6 @@ $problems['hudforandringar-panna'] = new Problem(
       image_title: 'Hudförändringar i pannan',
       info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
 );
-$problems['operations-skadearr-panna'] = new Problem(
-      button_label: 'Operations & Skadeärr i pannan',
-      content_label: 'Operations & Skadeärr i pannan',
-      url: 'hudproblem/operations-skadearr',
-      url_title: 'Läs mer information om Operations & Skadeärr i pannan',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
-      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
-      consultation_url_title: 'Boka konsultation operations & skadeärr i pannan',
-      booking_url_title: 'Boka behandlingoperations & skadeärr i pannan',
-      image: 'bilder/hudproblem/424x324/operations-skadearr-panna.webp',
-      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
-      image_title: 'Operations & Skadeärr i pannan',
-      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
-);
 
 
 

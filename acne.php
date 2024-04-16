@@ -1227,7 +1227,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
