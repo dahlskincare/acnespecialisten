@@ -138,7 +138,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Hormonella pigmentförändringar',
                         subtitle: 'Melasma',
-                        image_url: '/bilder/symptom/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/hormonella-pigmentforandringar.webp',
                         image_alt: 'Bild av hormonella pigmentförändringar',
                         image_title: 'Hormonella pigmentförändringar',
                         url: '/melasma.php',
@@ -180,7 +180,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Mörka / Bruna Pigmentfläckar',
                         subtitle: 'Hyperpigmentering',
-                        image_url: '/bilder/symptom/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/bruna-pigmentflackar.webp',
                         image_alt: 'Bild av mörka bruna pigmentfläckar',
                         image_title: 'Mörka bruna pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/morka-bruna',
@@ -189,7 +189,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Röda / Lila Pigmentfläckar',
                         subtitle: 'Postinflammatorisk Hyperpigmentering (PIH)',
-                        image_url: '/bilder/symptom/102x102/postinflammatorisk-hyperpigmentering.webp',
+                        image_url: '/bilder/symptom/102x102/roda-pigmentflackar.webp',
                         image_alt: 'Bild av röda lila pigmentfläckar',
                         image_title: 'Röda lila pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/roda-lila',
@@ -198,7 +198,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Ljusbruna Pigmentfläckar',
                         subtitle: 'Café au lait fläckar',
-                        image_url: '/bilder/symptom/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/ljusbruna-pigmentflackar.webp',
                         image_alt: 'Bild av ljusbruna pigmentfläckar',
                         image_title: 'Ljusbruna pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/ljusbruna',
@@ -207,7 +207,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Vita Pigmentfläckar',
                         subtitle: 'Hypopigmentering',
-                        image_url: '/bilder/symptom/102x102/postinflammatorisk-hypopigmentering.webp',
+                        image_url: '/bilder/symptom/102x102/vita-pigmentflackar.webp',
                         image_alt: 'Bild av vita pigmentfläckar',
                         image_title: 'Vita pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/vita',
@@ -232,7 +232,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar på överläppen',
                         subtitle: 'Melasma & Chloasma',
-                        image_url: '/bilder/symptom/102x102/melasma.webp',
+                        image_url: '/bilder/symptom/102x102/pigmentflackar-overlapp.webp',
                         image_alt: 'Bild av pigmentfläckar på överläppen',
                         image_title: 'Pigmentförändringar på överläppen',
                         //url: 'hudproblem/pigmentflackar/omraden/overlappen',
