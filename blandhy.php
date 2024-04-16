@@ -165,7 +165,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/oljig-hy.webp',
+            image: 'bilder/symptom/102x102/oljig-hy.webp',
             image_alt: 'Oljig & fet hy i ansiktet',
             image_title: 'Oljig & fet hy'
       ),
@@ -178,7 +178,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/torr-hy.webp',
+            image: 'bilder/symptom/102x102/torr-hy.webp',
             image_alt: 'Torr hy i ansiktet',
             image_title: 'Torr hy'
       ),
@@ -191,7 +191,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/kanslig-hy.webp',
+            image: 'bilder/symptom/102x102/kanslig-hy.webp',
             image_alt: 'Känslighy i ansiktet',
             image_title: 'Känslig hy'
       ),
@@ -204,7 +204,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/pormaskar.webp',
+            image: 'bilder/symptom/102x102/pormaskar.webp',
             image_alt: 'Pormaskar i ansiktet',
             image_title: 'Pormaskar'
       ),
@@ -217,7 +217,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/finnar.webp',
+            image: 'bilder/symptom/102x102/finnar.webp',
             image_alt: 'Finnar i ansiktet',
             image_title: 'Finnar'
       ),
