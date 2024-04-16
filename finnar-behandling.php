@@ -618,9 +618,9 @@ $brands_url_title = "Varumärken för behandling av finnar";
                 <!--Hudguide-->
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Våra specialister</h2>
-                        <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
-                            <span class="l10n">Se alla specialister</span>
+                        <h2 class="big l10n">Våra hudterapeuter</h2>
+                        <a href="hudterapeut" title="Specialister" class="button compact text is-hidden-mobile">
+                            <span class="l10n">Se alla hudterapeuter</span>
                             <?php icon('navigate-next') ?>
                         </a>
                     </div>
