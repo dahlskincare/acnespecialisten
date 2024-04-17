@@ -13,6 +13,11 @@ $seo_keywords = 'bekämpa finnar på bröstet';
 
 $seo_image = 'bilder/hudproblem/424x456/finnar-brost.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Finnar Bröst', '/finnar-rygg.php'),
+);
+
 $title = 'Finnar på bröstet';
 
 $image_small = 'bilder/hudproblem/424x324/finnar-brost.webp';

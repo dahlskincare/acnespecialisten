@@ -13,6 +13,11 @@ $seo_keywords = 'gravid finnar, finnar graviditet, finnar gravid tidigt, hormonu
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Finnar Gravid', '/finnar-gravid.php'),
+);
+
 $title = 'Gravid Finnar';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';

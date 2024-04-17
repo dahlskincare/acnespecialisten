@@ -13,6 +13,11 @@ $seo_keywords = 'postinflammatorisk hyperpigmentering, hyperpigmentering, hyperp
 
 $seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Postinflammatorisk Hyperpigmentering', '/postinflammatorisk-hyperpigmentering.php'),
+);
+
 $title = 'Postinflammatorisk Hyperpigmentering';
 
 $image_small = 'bilder/hudproblem/424x324/aknearr.webp';

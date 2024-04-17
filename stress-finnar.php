@@ -13,6 +13,11 @@ $seo_keywords = 'stressfinnar, stress finnar, finnar i hårbotten stress';
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Stress Finnar', '/stress-finnar.php'),
+);
+
 $title = 'Stress finnar';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';

@@ -13,6 +13,11 @@ $seo_keywords = 'finnar i ansiktet';
 
 $seo_image = 'bilder/hudproblem/424x456/finnar-ansikte.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Finnar Ansikte', '/finnar-ansikte.php'),
+);
+
 $title = 'Finnar i ansiktet';
 
 $image_small = 'bilder/hudproblem/424x324/finnar-ansikte.webp';

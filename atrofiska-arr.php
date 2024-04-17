@@ -13,6 +13,11 @@ $seo_keywords = 'atrofiska ärr, atrofisk ärrbildning, acneärr gropar, gropar 
 
 $seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Atrofiska Ärr', '/atrofiska-arr.php'),
+);
+
 $title = 'Atrofiska ärr';
 
 $image_small = 'bilder/hudproblem/424x324/aknearr.webp';
