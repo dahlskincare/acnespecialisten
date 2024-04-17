@@ -310,7 +310,7 @@ $services = array(
             image_alt: 'Bild av microneedling för stora porer',
             image_title: 'Microneedling för stora porer behandling',
 
-            url: '/microneedling.php',
+            url: '/microneedling-stora-porer.php',
             url_label: 'Läs mer om microneedling mot stora porer',
             url_title: 'Läs mer om microneedling mot stora porer',
 

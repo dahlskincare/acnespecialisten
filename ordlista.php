@@ -60,22 +60,16 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">Akne Vulgaris</a>
             <a class="b200 underline color-deep-sea-400" href="laser-acne.php">Laser Akne</a>
             <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a>
-            <a class="b200 underline color-deep-sea-400" href="behandla-acnearr.php">Behandla Acneärr</a>
-            <a class="b200 underline color-deep-sea-400" href="microneedling-acnearr.php">Microneedling Acneärr</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-behandling.php">Finnar - Behandling</a>
             <a class="b200 underline color-deep-sea-400" href="klamma-finnar.php">Klämma Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-gravid.php">Finnar - Gravid</a>
-            <a class="b200 underline color-deep-sea-400" href="tonarsfinnar.php">Tonårsfinnar</a>
-            <a class="b200 underline color-deep-sea-400" href="vuxenfinnar.php">Vuxenfinnar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-finnar-arr.php">Behandla Finnar Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
             <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a>
             <a class="b200 underline color-deep-sea-400" href="laser-arr.php">Laser Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="aldersflackar.php">Åldersfläckar</a>
-            <a class="b200 underline color-deep-sea-400" href="behandla-pigmentflackar.php">Behandla Pigmentfläckar</a>
             <a class="b200 underline color-deep-sea-400" href="melasma.php">Melasma</a>
             <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
-            <a class="b200 underline color-deep-sea-400" href="microneedling-stora-porer.php">Microneedling Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen Finnar</a>
@@ -85,7 +79,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="franchise.php">Franchise</a>
             <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>
-            <a class="b200 underline color-deep-sea-400" href="/varumarken/alma/">Alma</a>
             <a class="b200 underline color-deep-sea-400" href="/vakuumsug-pormaskar.php">Vakuumsug Pormaskar</a>,
         ),
         
