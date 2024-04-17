@@ -153,8 +153,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Ytliga blodkärl',
-                                    image_small: 'bilder/hudproblem/114x140/other.webp',
-                                    image_large: 'bilder/hudproblem/424x324/other.webp',
+                                    image_small: 'bilder/hudproblem/114x140/ytliga-blodkarl.webp',
+                                    image_large: 'bilder/hudproblem/424x324/ytliga-blodkarl.webp',
                                     image_title: 'Person med allmänna hudproblem',
                                     image_alt: 'Närbild på person som hara allmänna hudproblem i ansiktet.',
                                     url: 'ytliga-blodkarl.php',
@@ -164,8 +164,8 @@
                               ),
                               new AccordionItem(
                                     label: 'Se alla problem',
-                                    image_small: 'bilder/hudproblem/114x140/other.webp',
-                                    image_large: 'bilder/hudproblem/424x324/other.webp',
+                                    image_small: 'bilder/hudproblem/114x140/ytliga-blodkarl.webp',
+                                    image_large: 'bilder/hudproblem/424x324/ytliga-blodkarl.webp',
                                     image_title: 'Person med allmänna hudproblem',
                                     image_alt: 'Närbild på person som har allmänna hudproblem i ansiktet.',
                                     url: '/hudproblem',
@@ -289,7 +289,7 @@
                                           <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
                                           <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
                                     </div>
-                                    <a href="omdomen.php" title="Läs fler omdömen" class="ml-l button compact text">
+                                    <a href="recensioner-omdomen.php" title="Läs fler omdömen" class="ml-l button compact text">
                                           <span class="l10n">Läs fler omdömen</span>
                                           <?php icon('navigate-next') ?>
                                     </a>
