@@ -58,18 +58,15 @@ $glossary_items = array(
             description: '<p class="p200">Här hittar du många av våra sidor.</p>
             <a class="b200 underline color-deep-sea-400" href="acne-myter.php">Akne Myter</a>
             <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">Akne Vulgaris</a>
-            <a class="b200 underline color-deep-sea-400" href="cystisk-acne.php">Cystisk Akne</a>
             <a class="b200 underline color-deep-sea-400" href="kemisk-peeling-acne.php">Kemisk Peeling Akne</a>
             <a class="b200 underline color-deep-sea-400" href="laser-acne.php">Laser Akne</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-acne.php">Microneedling Akne</a>
             <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-acnearr.php">Behandla Acneärr</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-acnearr.php">Microneedling Acneärr</a>
-            <a class="b200 underline color-deep-sea-400" href="postinflammatorisk-hyperpigmentering.php">Postinflammatorisk Hyperpigmentering</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-behandling.php">Finnar - Behandling</a>
             <a class="b200 underline color-deep-sea-400" href="klamma-finnar.php">Klämma Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-gravid.php">Finnar - Gravid</a>
-            <a class="b200 underline color-deep-sea-400" href="stress-finnar.php">Stress Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="tonarsfinnar.php">Tonårsfinnar</a>
             <a class="b200 underline color-deep-sea-400" href="vuxenfinnar.php">Vuxenfinnar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-finnar-arr.php">Behandla Finnar Ärr</a>
@@ -85,14 +82,9 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="vita-pormaskar.php">Vita Pormaskar</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-stora-porer.php">Behandla Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-stora-porer.php">Microneedling Stora Porer</a>
-            <a class="b200 underline color-deep-sea-400" href="mjalleksem.php">Mjälleksem</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
-            <a class="b200 underline color-deep-sea-400" href="fodelsemarken.php">Födelsemärken</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
-            <a class="b200 underline color-deep-sea-400" href="dermapen-acne.php">Dermapen Akne</a>
-            <a class="b200 underline color-deep-sea-400" href="dermapen-acnearr.php">Dermapen Acneärr</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen Finnar</a>
-            <a class="b200 underline color-deep-sea-400" href="dermapen-stora-porer.php">Dermapen Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="rhinophyma-rosacea.php">Rhinophyma Rosacea</a>
             <a class="b200 underline color-deep-sea-400" href="resultat-dermapen.php">Resultat Dermapen</a>
             <a class="b200 underline color-deep-sea-400" href="resultat-microneedling.php">Resultat Microneedling</a>
