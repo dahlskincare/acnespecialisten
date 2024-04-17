@@ -13,6 +13,11 @@ $seo_keywords = 'akne på ryggen, ryggbehandling acne, behandling av akne på ry
 
 $seo_image = 'bilder/hudproblem/424x456/akne-rygg.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Acne Rygg', '/acne-rygg.php'),
+);
+
 $title = 'Akne på ryggen';
 
 $image_small = 'bilder/hudproblem/424x324/akne-rygg.webp';

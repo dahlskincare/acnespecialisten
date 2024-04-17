@@ -13,6 +13,11 @@ $seo_keywords = 'akne, akne i ansiktet, acne i ansiktet, acne käklinje, acne ki
 
 $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Acne Ansikte', '/acne-ansikte.php'),
+);
+
 $title = 'Akne i ansiktet';
 
 $image_small = 'bilder/hudproblem/424x324/akne-ansikte.webp';

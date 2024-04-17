@@ -14,7 +14,12 @@ $seo_keywords = 'inflammerad akne';
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
-$title = 'Inflammerad akne';
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Inflammation Acne', '/inflammation-acne.php'),
+);
+
+$title = 'Inflammerad Akne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';

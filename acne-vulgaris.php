@@ -13,6 +13,11 @@ $seo_keywords = 'acne vulgaris, acne vulgaris behandling';
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Acne Vulgaris', '/acne-vulgaris.php'),
+);
+
 $title = 'Acne Vulgaris';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';

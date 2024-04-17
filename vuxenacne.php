@@ -13,6 +13,11 @@ $seo_keywords = 'vuxenacne, vuxenakne, vuxenakne man, vuxenakne orsaker, varför
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Vuxenacne', '/vuxenacne.php'),
+);
+
 $title = 'Vuxenakne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';

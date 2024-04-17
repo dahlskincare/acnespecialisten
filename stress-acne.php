@@ -13,6 +13,11 @@ $seo_keywords = 'stress acne, akne stress, stress breakout';
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Stress Acne', '/stress-acne.php'),
+);
+
 $title = 'Stress acne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';

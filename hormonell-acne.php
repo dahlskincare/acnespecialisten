@@ -13,6 +13,11 @@ $seo_keywords = 'akne hormonell, acne hormonell, hormonell akne, hormon akne, ho
 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hormonell Acne', '/hormonell-acne.php'),
+);
+
 $title = 'Hormonell Akne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
