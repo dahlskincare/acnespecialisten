@@ -66,9 +66,7 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="behandla-finnar-arr.php">Behandla Finnar Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
             <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a>
-            <a class="b200 underline color-deep-sea-400" href="laser-arr.php">Laser Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="aldersflackar.php">Åldersfläckar</a>
-            <a class="b200 underline color-deep-sea-400" href="melasma.php">Melasma</a>
             <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
