@@ -284,7 +284,11 @@ $symptoms = array(
             url_label: '',
             aka: 'Rhinophyma',
             image_alt: 'Bild av hudförtjockning orsakad av rosacea',
-            image_title: 'Hudförtjockning orsakad av rosacea'
+            image_title: 'Hudförtjockning orsakad av rosacea',
+
+            url_label: 'Läs mer om rhinophyma rosacea',
+            url: 'rhinophyma-rosacea.php',
+            url_title: 'Läs mer om rhinophyma rosacea',
       ),
 
       new Symptom(
