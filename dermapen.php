@@ -138,9 +138,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen mot stora porer',
 
-        url: '/pigmentflackar.php',
-        url_label: 'Läs mer om pigmentfläckar',
-        url_title: 'Läs mer om pigmentfläckar',
+        url: '/dermapen-stora-porer.php',
+        url_label: 'Läs mer om Dermapen mot stora porer',
+        url_title: 'Läs mer om Dermapen mot stora porer',
     ),
     new Service(
         title: 'Dermapen mot Rynkor & Fina Linjer',
@@ -939,7 +939,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="specialister" title="Se alla specialister"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
         </div>

@@ -149,7 +149,7 @@ $symptoms = array(
             //url: 'hudproblem/stora-porer/typer/forstorade-oppningar',
             //url_title: 'Läs mer om synliga tecken på stora porer',
 
-            image: 'bilder/symptom/102x102/forstorade-porer.webp',
+            image: 'bilder/symptom/102x102/vidgade-porer.webp',
             image_alt: 'Bild av synligt förstorade porer',
             image_title: 'Synligt förstorade porer'
       ),
@@ -163,7 +163,7 @@ $symptoms = array(
             //url: 'hudproblem/stora-porer/typer/ojamn-hudtextur',
             //url_title: 'Läs mer om hur stora porer påverkar hudens textur',
 
-            image: 'bilder/symptom/102x102/apelsinhud.webp',
+            image: 'bilder/symptom/102x102/ojamn-hudtextur.webp',
             image_alt: 'Bild som illustrerar en ojämn hudtextur',
             image_title: 'Ojämn hudtextur'
       ),
@@ -886,7 +886,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -897,7 +897,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>

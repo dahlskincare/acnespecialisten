@@ -884,20 +884,6 @@ $problems['pormaskar-panna'] = new Problem(
       image_title: 'Pormaskar i pannan',
       info: 'Dessa är små, mörka lesioner på huden, oftast förekommande i ansiktet. De uppstår när porerna i huden blir tilltäppta med en kombination av talg och döda hudceller. Pormaskar kan vara antingen öppna (svarta) eller stängda (vita) och är ofta ett av de första tecknen på akne.'
 );
-$problems['stora-porer-panna'] = new Problem(
-      button_label: 'Stora porer i pannan',
-      content_label: 'Stora porer i pannan',
-      url: 'stora-porer.php',
-      url_title: 'Läs mer information om Stora porer i pannan',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores',
-      consultation_url_title: 'Boka konsultation mot stora porer i pannan',
-      booking_url_title: 'Boka behandling mot stora porer i pannan',
-      image: 'bilder/hudproblem/424x324/stora-porer-panna.webp',
-      image_alt: 'Ansikte med hudproblemet Stora porer',
-      image_title: 'Stora porer i pannan',
-      info: 'Dessa är porer som ser större ut än vanligt, ofta märkbara på näsan, kinderna och pannan. Stora porer kan vara resultatet av genetiska faktorer, åldrande, frekvent sol exponering, ökad talgproduktion eller tidigare hudskador.'
-);
 $problems['hudforandringar-panna'] = new Problem(
       button_label: 'Hudförändringar i pannan',
       content_label: 'Hudförändringar i pannan',
@@ -911,20 +897,6 @@ $problems['hudforandringar-panna'] = new Problem(
       image_alt: 'Rygg med hudproblemet Hudförändringar',
       image_title: 'Hudförändringar i pannan',
       info: 'Detta är en bred kategori som innefattar alla typer av synliga förändringar i huden, inklusive födelsemärken, leverfläckar och hudflikar. Dessa förändringar kan bero på en rad faktorer som åldrande, solskador, genetiska predispositioner och livsstil.'
-);
-$problems['operations-skadearr-panna'] = new Problem(
-      button_label: 'Operations & Skadeärr i pannan',
-      content_label: 'Operations & Skadeärr i pannan',
-      url: 'hudproblem/operations-skadearr',
-      url_title: 'Läs mer information om Operations & Skadeärr i pannan',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
-      booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
-      consultation_url_title: 'Boka konsultation operations & skadeärr i pannan',
-      booking_url_title: 'Boka behandlingoperations & skadeärr i pannan',
-      image: 'bilder/hudproblem/424x324/operations-skadearr-panna.webp',
-      image_alt: 'Mage med hudproblemet Operations & Skadeärr',
-      image_title: 'Operations & Skadeärr i pannan',
-      info: 'Dessa ärr är resultatet av kirurgiska ingrepp eller skador och kan variera mycket i utseende, beroende på operationens omfattning, placeringen av snittet, och individens läkningsförmåga. De kan vara upphöjda, röda, eller ha en annorlunda textur jämfört med omgivande hud.'
 );
 
 
@@ -1230,20 +1202,6 @@ $problems['akne-runt-munnen'] = new Problem(
       image_title: 'Akne runt munnen',
       info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
-$problems['aknearr-runt-munnen'] = new Problem(
-      button_label: 'Akneärr runt munnen',
-      content_label: 'Akneärr runt munnen',
-      url: 'acnearr.php',
-      url_title: 'Läs mer information om Akneärr runt munnen',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
-      consultation_url_title: 'Boka en konsultation mot akneärr runt munnen',
-      booking_url_title: 'Boka behandling mot akneärr runt munnen',
-      image: 'bilder/hudproblem/424x324/acnearr-runt-munnen.webp',
-      image_alt: 'Ansikte med hudproblemet Akneärr',
-      image_title: 'Akneärr runt munnen',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
-);
 $problems['finnar-runt-munnen'] = new Problem(
       button_label: 'Finnar runt munnen',
       content_label: 'Finnar runt munnen',
@@ -1257,20 +1215,6 @@ $problems['finnar-runt-munnen'] = new Problem(
       image_alt: 'Ansikte med hudproblemet Finnar',
       image_title: 'Finnar runt munnen',
       info: 'Små inflammerade blemmor på huden, ofta fyllda med var, som är en del av akne. Finnar orsakas av inflammation i hårfolliklar och talgkörtlar, ofta förvärrade av bakterier där de orsakar olika typer av finnar. De kan uppstå i ansiktet, på ryggen, bröstet och axlarna och kan variera i storlek och svårighetsgrad.'
-);
-$problems['arr-fran-finnar-runt-munnen'] = new Problem(
-      button_label: 'Ärr från finnar runt munnen',
-      content_label: 'Ärr från finnar runt munnen',
-      url: 'finnar-arr.php',
-      url_title: 'Läs mer information om Ärr från finnar runt munnen',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars',
-      consultation_url_title: 'Boka konsultation mot ärr från finnar runt munnen',
-      booking_url_title: 'Boka behandling mot ärr från finnar runt munnen',
-      image: 'bilder/hudproblem/424x324/arr-fran-finnar-runt-munnen.webp',
-      image_alt: 'Ansikte med hudproblemet Ärr från finnar',
-      image_title: 'Ärr från finnar runt munnen',
-      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen.'
 );
 $problems['hudforandringar-runt-munnen'] = new Problem(
       button_label: 'Hudförändringar runt munnen',
@@ -1686,7 +1630,7 @@ $specialists = array(
 
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
+                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="recensioner-omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
                   </div>
             </section>
             <section id="faq">

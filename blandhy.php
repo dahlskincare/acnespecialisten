@@ -37,6 +37,16 @@ $akas = [
             url: null,
             title: 'Yttorr hy',
       ),
+      new Link(
+            label: 'Oljig hy',
+            url: 'oljig-hy.php',
+            title: 'Oljig hy'
+      ),
+      new Link(
+            label: 'Fet hy',
+            url: 'fet-hy.php',
+            title: 'Fet hy'
+      ),
 ];
 
 $consultation_url_label = "Boka gratis konsultation";
@@ -165,7 +175,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/oljig-hy.webp',
+            image: 'bilder/symptom/102x102/oljig-hy.webp',
             image_alt: 'Oljig & fet hy i ansiktet',
             image_title: 'Oljig & fet hy'
       ),
@@ -178,7 +188,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/torr-hy.webp',
+            image: 'bilder/symptom/102x102/torr-hy.webp',
             image_alt: 'Torr hy i ansiktet',
             image_title: 'Torr hy'
       ),
@@ -191,7 +201,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/kanslig-hy.webp',
+            image: 'bilder/symptom/102x102/kanslig-hy.webp',
             image_alt: 'Känslighy i ansiktet',
             image_title: 'Känslig hy'
       ),
@@ -204,7 +214,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/pormaskar.webp',
+            image: 'bilder/symptom/102x102/pormaskar.webp',
             image_alt: 'Pormaskar i ansiktet',
             image_title: 'Pormaskar'
       ),
@@ -217,7 +227,7 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'images/symptoms/102x102/finnar.webp',
+            image: 'bilder/symptom/102x102/finnar.webp',
             image_alt: 'Finnar i ansiktet',
             image_title: 'Finnar'
       ),
@@ -901,7 +911,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -912,7 +922,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>

@@ -267,7 +267,11 @@ $symptoms = array(
             content: 'Öppna komedoner, ofta kallade svarta pormaskar, är små mörka prickar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
             aka: 'Svarta pormaskar',
             image_alt: 'Bild av öppna komedoner',
-            image_title: 'Öppna Komedoner'
+            image_title: 'Öppna Komedoner',
+
+            url_label: 'Läs mer om öppna komedoner',
+            url: 'svarta-pormaskar.php',
+            url_title: 'Läs mer om Svarta pormaskar (svarta pormaskar)',
       ),
 
       new Symptom(
@@ -276,7 +280,11 @@ $symptoms = array(
             content: 'Stängda komedoner, eller vita pormaskar, är små, hudfärgade upphöjningar som bildas när talg och döda hudceller blockar en por. De är täckta av hud och oxideras inte, vilket håller dem vita eller hudfärgade.',
             aka: 'Vita pormaskar',
             image_alt: 'Bild av stängda komedoner',
-            image_title: 'Stängda Komedoner'
+            image_title: 'Stängda Komedoner',
+
+            url_label: 'Läs mer om stängda komedoner',
+            url: 'vita-pormaskar.php',
+            url_title: 'Läs mer om stängda komedoner (vita pormaskar)',
       ),
 
       new Symptom(
@@ -285,16 +293,24 @@ $symptoms = array(
             content: 'När porer blockeras av pormaskar kan de se större och mer framträdande ut.',
             aka: 'Vidgade porer',
             image_alt: 'Bild av förstorade porer',
-            image_title: 'Förstorade Porer'
+            image_title: 'Förstorade Porer',
+
+            url_label: 'Läs mer om stora porer',
+            url: 'stora-porer.php',
+            url_title: 'Läs mer om stora porer',
       ),
 
       new Symptom(
             name: 'Oljig hy',
-            image: 'bilder/symptom/102x102/oljig-hy.webp',
+            image: 'bilder/symptom/102x102/oljig-hy-ansikte.webp',
             content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
             aka: 'Fet hy',
             image_alt: 'Bild av överflödig oljighet',
-            image_title: 'Överflödig Oljighet'
+            image_title: 'Överflödig Oljighet',
+
+            url_label: 'Läs mer om oljig hy',
+            url: 'oljig-hy.php',
+            url_title: 'Läs mer om oljig hy',
       ),
 
 );
@@ -997,7 +1013,7 @@ $brands_url_title = "Varumärken för pormaskar";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -1008,7 +1024,7 @@ $brands_url_title = "Varumärken för pormaskar";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="specialister">Se alla specialister</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="hudterapeut">Se alla hudterapeuter</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>

@@ -131,7 +131,7 @@ $symptoms_title = 'Seborré symptom';
 $symptoms = array(
       new Symptom(
             name: 'Flagnande hy',
-            image: 'bilder/symptom/102x102/flagnande-hud.webp',
+            image: 'bilder/symptom/102x102/flagnande-hud-ogonbryn.webp',
             content: 'Det främsta symptomen på seborré är flagnande hud, vilket innebär att det finns små skikt eller flingor av döda hudceller som lossnar från huden. Detta beror på en överproduktion av hudens naturliga oljor (talg), som stör hudens normala avstötningsprocess och orsakar en snabbare cellomsättning.',
             url: null,
             url_title: null,
@@ -149,13 +149,13 @@ $symptoms = array(
             url: null,
             url_title: null,
 
-            image: 'bilder/symptom/102x102/rodnad-nasvingar.webp',
+            image: 'bilder/symptom/102x102/rodnad-inflammation-panna.webp',
             image_alt: 'Bild av rodnad och inflammation',
             image_title: 'Rodnad och Inflammation'
       ),
       new Symptom(
             name: 'Klåda',
-            image: 'bilder/symptom/102x102/klada.webp',
+            image: 'bilder/symptom/102x102/klada-ogonbryn.webp',
             content: 'Seborré kan ofta leda till klåda, särskilt i de områden där det finns en överproduktion av talg. Klådan beror på hudirritation som orsakas av en kombination av överflödig olja och en snabbare hudcellsturnover.',
             url: null,
             url_title: null,
@@ -166,7 +166,7 @@ $symptoms = array(
       ),
       new Symptom(
             name: 'Fet hy',
-            image: 'bilder/symptom/102x102/oljig-hy.webp',
+            image: 'bilder/symptom/102x102/oljig-hy-rodnad.webp',
             content: 'Fet hy är ett av de mest utmärkande tecknen på seborré. Detta beror på en överproduktion av talg, vilket gör huden glänsande och oljig, särskilt i områdena kring näsan, pannan och hårbotten.',
             url: null,
             url_title: null,
@@ -867,7 +867,7 @@ $brands_url_title = "Varumärken för behandling av seoborré";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -878,7 +878,7 @@ $brands_url_title = "Varumärken för behandling av seoborré";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>

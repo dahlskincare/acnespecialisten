@@ -12,7 +12,7 @@ $seo_keywords = 'blandhy, behandling av blandhy, orsaker till blandhy, förebygg
 $seo_image = '/bilder/hudproblem/424x456/blandhy.webp';
 
 $path_segments = array(
-    new PathSegment('Hudproblem', '/hudproblem.php'),
+    new PathSegment('Hudproblem', '/hudproblem'),
     new PathSegment('Blandhy', '/blandhy.php'),
     new PathSegment('Blandhybehandling', '/hudproblem/blandhy/blandhybehandling/'),
 );

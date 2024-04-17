@@ -532,7 +532,7 @@ $categories = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla specialister">Se alla specialister</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
                 </section>
             </div>
             <section id="brands" class="large-margin">

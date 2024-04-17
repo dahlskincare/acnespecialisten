@@ -415,9 +415,9 @@ $symptoms = array(
             aka: 'Bölder',
             content: 'Cystor är stora, varfyllda och smärtsamma blemmor från djup hårsäcksinfektion, mjuka eller fasta vid beröring, ofta större än 5 mm och vanliga på ansikte, bröst och rygg.',
 
-            //url_label: 'Läs mer om cystor',
-            //url: 'hudproblem/akne/typer/hypertrophic-keloid',
-            //url_title: 'Läs mer om cystor (bölder)',
+            url_label: 'Läs mer om cystor',
+            url: 'cystisk-acne.php',
+            url_title: 'Läs mer om cystor (bölder)',
 
             image: 'bilder/symptom/102x102/cystor.webp',
             image_alt: 'Ansikte med cystor (bölder)',
@@ -1227,7 +1227,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>

@@ -91,7 +91,7 @@ $trivias = array(
             prefix: 'Varför',
             title: 'får man finnar?',
             content: '<p class="p200">Finnar är en hudåkomma som uppstår när talgkörtlar i huden överproducerar talg, ofta på grund av genetiska, hormonella, och miljömässiga faktorer. En viss mängd talg är essentiell för att huden ska förbli hälsosam, men ett överskott kan resultera i blockeringar av porerna. Dessa blockeringar, tillsammans med döda hudceller, skapar en gynnsam miljö för bakterietillväxt. Kroppens naturliga respons på denna bakterietillväxt är inflammation, vilket visar sig som finnar på huden.</p>',
-            extended_content: '<p class="p200 mt-xl">Hormonella förändringar, särskilt under puberteten, kan leda till ökad talgproduktion, men även stress, vissa mediciner, och miljöfaktorer som varma, fuktiga klimat kan bidra. Livshändelser som graviditet, menstruation och klimakteriet, liksom användning av anabola steroider och vissa typer av preventivmedel, kan också påverka uppkomsten av finnar. Stress, både från större och mindre händelser, kan förvärra hudtillstånd genom att öka kroppens produktion av talg, vilket i sin tur kan leda till finnar.</p>
+            extended_content: '<p class="p200 mt-xl">Hormonella förändringar, särskilt under puberteten, kan leda till ökad talgproduktion, men även stress, vissa mediciner, och miljöfaktorer som varma, fuktiga klimat kan bidra. Livshändelser som <a href="finnar-gravid.php">graviditet</a>, menstruation och klimakteriet, liksom användning av anabola steroider och vissa typer av preventivmedel, kan också påverka uppkomsten av finnar. Stress, både från större och mindre händelser, kan förvärra hudtillstånd genom att öka kroppens produktion av talg, vilket i sin tur kan leda till finnar.</p>
             <p class="p200 mt-xl">Att behandla finnar effektivt innebär att hantera talgproduktionen med lämpliga hudvårdsprodukter och regelbundna hudvårdsbehandlingar. Med rätt behandling kan finnar elimineras. På AcneSpecialisten har vi omfattande erfarenhet och expertis inom behandling av finnar. Vi hjälper dig att upprätthålla en balanserad talgproduktion för att minska risken för utbrott och förbättra hudens övergripande hälsa.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat')
       ),
@@ -320,7 +320,7 @@ $type_categories = array(
                         title: 'Finnar runt munnen',
                         subtitle: 'Perioral dermatit',
 
-                        image_url: 'bilder/hudproblem/102x102/perioral-dermatit.webp',
+                        image_url: 'bilder/symptom/102x102/finnar-runt-munnen.webp',
                         image_alt: 'Finnar runt munnen',
                         image_title: 'Exempel på finnar runt munnen',
 
@@ -340,7 +340,7 @@ $symptoms = array(
             name: 'Röda Finnar',
             aka: 'Papler',
             content: 'Kännetecknas av små, röda och inflammerade utslag orsakade av bakterieinfektioner i hårsäckarna, dessa blemmor är ömma vid beröring och förekommer främst i ansiktet, på nacken, bröstet och ryggen.',
-            image: 'images/symptoms/102x102/roda-finnar.webp',
+            image: 'bilder/symptom/102x102/roda-finnar.webp',
             image_alt: 'Röda finnar (papler) i ansiktet',
             image_title: 'Papler (Röda Finnar)',
             //url: 'hudproblem/finnar/typer/atrophic-boxcar-scars',
@@ -351,7 +351,7 @@ $symptoms = array(
             name: 'Gula Finnar',
             aka: 'Pustuler',
             content: 'Dessa är ömma, gula utslag med ett varigt centrum, skapade av en mix av bakterier och talg, och de tenderar att vara smärtsamma, framträdande på ansikte, nacke, bröst och rygg.',
-            image: 'images/symptoms/102x102/gula-finnar.webp',
+            image: 'bilder/symptom/102x102/gula-finnar.webp',
             image_alt: 'Gula finnar (pustler) i ansiktet',
             image_title: 'Pustler (Gula Finnar)',
             //url: 'hudproblem/finnar/typer/atrophic-rolling-scars',
@@ -362,7 +362,7 @@ $symptoms = array(
             name: 'Innåtfinnar / Inombordare',
             aka: 'Noduler',
             content: 'Djupa, smärtsamma utslag som bildas vid allvarliga infektioner i hårsäckarna, dessa är större än 5 mm och syns ofta på ansikte, bröst och rygg.',
-            image: 'images/symptoms/102x102/noduler.webp',
+            image: 'bilder/symptom/102x102/noduler.webp',
             image_alt: 'Innåtfinnar (noduler) i ansiktet',
             image_title: 'Noduler (Innåtfinnar)',
             //url: 'hudproblem/finnar/typer/hypertrophic-keloid',
@@ -373,7 +373,7 @@ $symptoms = array(
             name: 'Bölder',
             aka: 'Cystor',
             content: 'Liknande noduler men fyllda med var, dessa djupa och ömma blemmor uppstår från allvarliga infektioner i hårsäckarna och kan vara både mjuka och fasta vid beröring, vanligtvis större än 5 mm och förekommer på ansikte, bröst och rygg.',
-            image: 'images/symptoms/102x102/cystor.webp',
+            image: 'bilder/symptom/102x102/cystor.webp',
             image_alt: 'Bölder (cystor) i ansiktet',
             image_title: 'Bölder (cystor)',
             //url: 'hudproblem/finnar/typer/hypertrophic-keloid',
@@ -1131,7 +1131,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Våra specialister</h2>
+                                    <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
                                           <button class="round-large grey" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
@@ -1142,7 +1142,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="specialister"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
