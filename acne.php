@@ -415,9 +415,9 @@ $symptoms = array(
             aka: 'Bölder',
             content: 'Cystor är stora, varfyllda och smärtsamma blemmor från djup hårsäcksinfektion, mjuka eller fasta vid beröring, ofta större än 5 mm och vanliga på ansikte, bröst och rygg.',
 
-            //url_label: 'Läs mer om cystor',
-            //url: 'hudproblem/akne/typer/hypertrophic-keloid',
-            //url_title: 'Läs mer om cystor (bölder)',
+            url_label: 'Läs mer om cystor',
+            url: 'cystisk-acne.php',
+            url_title: 'Läs mer om cystor (bölder)',
 
             image: 'bilder/symptom/102x102/cystor.webp',
             image_alt: 'Ansikte med cystor (bölder)',
