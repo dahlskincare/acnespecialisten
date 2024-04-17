@@ -63,13 +63,9 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="laser-acne.php">Laser Akne</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-acne.php">Microneedling Akne</a>
             <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a>
-            <a class="b200 underline color-deep-sea-400" href="atrofiska-arr.php">Atrofiska Ärr</a>
             <a class="b200 underline color-deep-sea-400" href="behandla-acnearr.php">Behandla Acneärr</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-acnearr.php">Microneedling Acneärr</a>
             <a class="b200 underline color-deep-sea-400" href="postinflammatorisk-hyperpigmentering.php">Postinflammatorisk Hyperpigmentering</a>
-            <a class="b200 underline color-deep-sea-400" href="finnar-ansikte.php">Finnar - Ansikte</a>
-            <a class="b200 underline color-deep-sea-400" href="finnar-brost.php">Finnar - Bröst</a>
-            <a class="b200 underline color-deep-sea-400" href="finnar-rygg.php">Finnar - Rygg</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-behandling.php">Finnar - Behandling</a>
             <a class="b200 underline color-deep-sea-400" href="klamma-finnar.php">Klämma Finnar</a>
             <a class="b200 underline color-deep-sea-400" href="finnar-gravid.php">Finnar - Gravid</a>
@@ -92,7 +88,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="mjalleksem.php">Mjälleksem</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="fodelsemarken.php">Födelsemärken</a>
-            <a class="b200 underline color-deep-sea-400" href="hudflikar.php">Hudflikar</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-acne.php">Dermapen Akne</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-acnearr.php">Dermapen Acneärr</a>
