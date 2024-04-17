@@ -37,6 +37,16 @@ $akas = [
             url: null,
             title: 'Yttorr hy',
       ),
+      new Link(
+            label: 'Oljig hy',
+            url: 'oljig-hy.php',
+            title: 'Oljig hy'
+      ),
+      new Link(
+            label: 'Fet hy',
+            url: 'fet-hy.php',
+            title: 'Fet hy'
+      ),
 ];
 
 $consultation_url_label = "Boka gratis konsultation";

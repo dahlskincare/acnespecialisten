@@ -75,9 +75,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="behandla-pigmentflackar.php">Behandla Pigmentfläckar</a>
             <a class="b200 underline color-deep-sea-400" href="melasma.php">Melasma</a>
             <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
-            <a class="b200 underline color-deep-sea-400" href="svarta-pormaskar.php">Svarta Pormaskar</a>
-            <a class="b200 underline color-deep-sea-400" href="vita-pormaskar.php">Vita Pormaskar</a>
-            <a class="b200 underline color-deep-sea-400" href="behandla-stora-porer.php">Behandla Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="microneedling-stora-porer.php">Microneedling Stora Porer</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
@@ -89,9 +86,7 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="franchise.php">Franchise</a>
             <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>
             <a class="b200 underline color-deep-sea-400" href="/varumarken/alma/">Alma</a>
-            <a class="b200 underline color-deep-sea-400" href="/vakuumsug-pormaskar.php">Vakuumsug Pormaskar</a>
-            <a class="b200 underline color-deep-sea-400" href="/oljig-hy.php">Oljig hy</a>
-            <a class="b200 underline color-deep-sea-400" href="/fet-hy.php">Fet hy</a>',
+            <a class="b200 underline color-deep-sea-400" href="/vakuumsug-pormaskar.php">Vakuumsug Pormaskar</a>,
         ),
         
     ),

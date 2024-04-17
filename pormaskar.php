@@ -267,7 +267,11 @@ $symptoms = array(
             content: 'Öppna komedoner, ofta kallade svarta pormaskar, är små mörka prickar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
             aka: 'Svarta pormaskar',
             image_alt: 'Bild av öppna komedoner',
-            image_title: 'Öppna Komedoner'
+            image_title: 'Öppna Komedoner',
+
+            url_label: 'Läs mer om öppna komedoner',
+            url: 'svarta-pormaskar.php',
+            url_title: 'Läs mer om Svarta pormaskar (svarta pormaskar)',
       ),
 
       new Symptom(
@@ -276,7 +280,11 @@ $symptoms = array(
             content: 'Stängda komedoner, eller vita pormaskar, är små, hudfärgade upphöjningar som bildas när talg och döda hudceller blockar en por. De är täckta av hud och oxideras inte, vilket håller dem vita eller hudfärgade.',
             aka: 'Vita pormaskar',
             image_alt: 'Bild av stängda komedoner',
-            image_title: 'Stängda Komedoner'
+            image_title: 'Stängda Komedoner',
+
+            url_label: 'Läs mer om stängda komedoner',
+            url: 'vita-pormaskar.php',
+            url_title: 'Läs mer om stängda komedoner (vita pormaskar)',
       ),
 
       new Symptom(
@@ -285,7 +293,11 @@ $symptoms = array(
             content: 'När porer blockeras av pormaskar kan de se större och mer framträdande ut.',
             aka: 'Vidgade porer',
             image_alt: 'Bild av förstorade porer',
-            image_title: 'Förstorade Porer'
+            image_title: 'Förstorade Porer',
+
+            url_label: 'Läs mer om stora porer',
+            url: 'stora-porer.php',
+            url_title: 'Läs mer om stora porer',
       ),
 
       new Symptom(
@@ -294,7 +306,11 @@ $symptoms = array(
             content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
             aka: 'Fet hy',
             image_alt: 'Bild av överflödig oljighet',
-            image_title: 'Överflödig Oljighet'
+            image_title: 'Överflödig Oljighet',
+
+            url_label: 'Läs mer om oljig hy',
+            url: 'oljig-hy.php',
+            url_title: 'Läs mer om oljig hy',
       ),
 
 );
