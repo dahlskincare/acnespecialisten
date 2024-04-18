@@ -63,11 +63,8 @@ $glossary_items = array(
             title: 'Sidkarta',
             description: '<p class="p200">Här hittar du många av våra sidor.</p>
             <a class="b200 underline color-deep-sea-400" href="acne-myter.php">Akne Myter</a>
-            <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">Akne Vulgaris</a>
             <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a>
             <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
-            <a class="b200 underline color-deep-sea-400" href="aldersflackar.php">Åldersfläckar</a>
-            <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen Finnar</a>
