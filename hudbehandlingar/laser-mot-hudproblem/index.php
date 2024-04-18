@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Laserbehandling ansikte och kropp',
+    title: 'Laserbehandling för ansikte och kropp',
     duration: null,
     price: 'Från 4595 kr',
     content: '<p class="p200">Hos AcneSpecialisten använder vi en rad avancerade lasertekniker för att effektivt behandla en mängd hudproblem, vilket bidrar till märkbara förbättringar i hudens kvalitet och utseende.</p>',
