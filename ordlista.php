@@ -71,8 +71,7 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="resultat-microneedling.php">Resultat Microneedling</a>
             <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="franchise.php">Franchise</a>
-            <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>
-            <a class="b200 underline color-deep-sea-400" href="/vakuumsug-pormaskar.php">Vakuumsug Pormaskar</a>',
+            <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>',
         ),
         
     ),
