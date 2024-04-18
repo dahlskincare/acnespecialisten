@@ -67,7 +67,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Ansiktsbehandling för att klämma finnar?';
-$description_text = '<p class="p200">En ansiktsbehandling för att klämma finnar är en specialiserad hudvårdsbehandling som utförs av professionella hudterapeuter. Denna behandling fokuserar på säker borttagning av finnar genom att varsamt klämma ut innehållet i porerna. Detta görs på ett sätt som minimerar risken för hudsår och ärrbildning, vilket är en vanlig följd av att försöka klämma finnar på egen hand. Att låta en erfaren hudterapeut utföra denna behandling är avgörande för att undvika skador på huden och uppnå bästa möjliga resultat.</p
+$description_text = '<p class="p200">En ansiktsbehandling för att klämma finnar är en specialiserad hudvårdsbehandling som utförs av professionella hudterapeuter. Denna behandling fokuserar på säker borttagning av finnar genom att varsamt klämma ut innehållet i porerna. Detta görs på ett sätt som minimerar risken för hudsår och ärrbildning, vilket är en vanlig följd av att försöka klämma finnar på egen hand. Att låta en erfaren hudterapeut utföra denna behandling är avgörande för att undvika skador på huden och uppnå bästa möjliga resultat.</p>
 <p class="p200 mt-xl">Våra hudterapeuter har den expertis och erfarenhet som krävs för att utföra denna behandling effektivt och skonsamt. Genom att välja en professionell ansiktsbehandling för att klämma finnar hos AcneSpecialisten, säkerställer du att din hud får den bästa möjliga vård, samtidigt som du minskar risken för komplikationer som infektioner eller ärr som kan uppstå vid felaktig hantering av finnar.</p>';
 
 $types_title = '';
