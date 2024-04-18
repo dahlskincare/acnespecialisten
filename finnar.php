@@ -471,7 +471,7 @@ $services = array(
             title: 'Microneedling mot finnar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en effektiv behandlingsmetod mot finnar. Genom att skapa små mikroskopiska kanaler i huden, främjar denna behandling hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Metoden kan effektivt minska utbrott av finnar, förbättra hudens struktur och minska synligheten av ärr orsakade av finnar.',
+            content: 'Microneedling eller <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen mot finnar</a> är en effektiv behandlingsmetod. Genom att skapa små mikroskopiska kanaler i huden, främjar denna behandling hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Metoden kan effektivt minska utbrott av finnar, förbättra hudens struktur och minska synligheten av ärr orsakade av finnar.',
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot finnar',
