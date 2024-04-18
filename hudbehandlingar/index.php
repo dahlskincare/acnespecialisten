@@ -187,6 +187,11 @@ $people_search_for = array(
         url_title: 'Läs mer om porrengöring'
     ),
     new Treatment(
+        label: 'Djuprengöring',
+        url: '/djuprengoring.php',
+        url_title: 'Läs mer om djuprengöring'
+    ),
+    new Treatment(
         label: 'Fillers',
         url: '/hudbehandlingar/estetiska-injektionsbehandlingar/fillers',
         url_title: 'Läs mer om fillers'

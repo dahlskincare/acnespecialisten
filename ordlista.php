@@ -61,17 +61,17 @@ $glossary_items = array(
             description: '<p class="p200">Här hittar du med information om rhinophyma rosacea.
                 <a class="b200 underline color-deep-sea-400" href="/rhinophyma-rosacea.php">Rhinophyma Rosacea</a></p>',
         ),
+        new GlossaryItem(
+            title: 'Roaccutan',
+            description: '<p class="p200">Roaccutan är ett A-vitaminderivat inom gruppen retinoider som framför allt används som läkemedel vid mycket svårartad acne.
+                <a class="b200 underline color-deep-sea-400" href="/roaccutan.php">Roaccutan</a></p>',
+        ),
         
     ),
     's' => array(
         new GlossaryItem(
             title: 'Sidkarta',
             description: '<p class="p200">Här hittar du många av våra sidor.</p>
-            <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
-            <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
-            <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
-            <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen Finnar</a>
-            <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="franchise.php">Franchise</a>
             <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>',
         ),
