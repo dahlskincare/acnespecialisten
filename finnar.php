@@ -653,7 +653,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Bör jag klämma mina finnar?',
-                  text: '<p class="p200">Att klämma finnar är en handling som bör undvikas eftersom det kan orsaka mer skada än nytta. När du klämmer finnar riskerar du att introducera bakterier i öppna sår, vilket kan leda till infektion och ärrbildning. Istället för att klämma, rekommenderar vi professionella behandlingar som säkert kan avlägsna finnar och behandla den underliggande orsaken utan att riskera din huds hälsa.</p>'
+                  text: '<p class="p200">Att <a class="b200 underline color-deep-sea-400" href="klamma-finnar.php">klämma finnar</a> är en handling som bör undvikas eftersom det kan orsaka mer skada än nytta. När du klämmer finnar riskerar du att introducera bakterier i öppna sår, vilket kan leda till infektion och ärrbildning. Istället för att klämma, rekommenderar vi professionella behandlingar som säkert kan avlägsna finnar och behandla den underliggande orsaken utan att riskera din huds hälsa.</p>'
             ),
             new Question(
                   title: 'Försvinner finnarna efter ungdomsåren?',
