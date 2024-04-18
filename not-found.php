@@ -31,7 +31,7 @@
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Sidan hittas ej</h1>
-                    <p class="l10n">Just nu har vi inga planerade sidan hittas ej.</p>
+                    <p class="l10n">Denna sida finns tyvärr inte, vänligen kontakta vår kundtjänst och berätta om felet så att vi akn åtgärda problemet.</p>
                 </section>
             </div>
             <section id="results" class="large-margin">
