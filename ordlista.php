@@ -66,9 +66,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>
             <a class="b200 underline color-deep-sea-400" href="dermapen-finnar.php">Dermapen Finnar</a>
-            <a class="b200 underline color-deep-sea-400" href="rhinophyma-rosacea.php">Rhinophyma Rosacea</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-dermapen.php">Resultat Dermapen</a>
-            <a class="b200 underline color-deep-sea-400" href="resultat-microneedling.php">Resultat Microneedling</a>
             <a class="b200 underline color-deep-sea-400" href="roaccutan.php">Roaccutan</a>
             <a class="b200 underline color-deep-sea-400" href="franchise.php">Franchise</a>
             <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>',
