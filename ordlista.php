@@ -31,7 +31,13 @@ $glossary_items = array(
     ),
     'c' => array(),
     'd' => array(),
-    'e' => array(),
+    'e' => array(
+        new GlossaryItem(
+            title: 'Elevbehandlingar',
+            description: '<p class="p200">Ibland har vi elevbehandlingar från hudterapeuter som är under utbildning: <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a></p>',
+        ),
+        
+    ),
     'f' => array(),
     'g' => array(),
     'h' => array(),
@@ -60,7 +66,6 @@ $glossary_items = array(
             <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">Akne Vulgaris</a>
             <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a>
             <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
-            <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a>
             <a class="b200 underline color-deep-sea-400" href="aldersflackar.php">Åldersfläckar</a>
             <a class="b200 underline color-deep-sea-400" href="solskadad-hy.php">Solskadad Hy</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
