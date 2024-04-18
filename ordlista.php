@@ -43,7 +43,13 @@ $glossary_items = array(
         ),
         
     ),
-    'f' => array(),
+    'f' => array(
+        new GlossaryItem(
+            title: 'Franchise',
+            description: '<p class="p200">Bli en del av AcneSpecialisten med din egen franchise salong.: <a class="b200 underline color-deep-sea-400" href="franchise.php">Läs mer om Franchise</a></p>',
+        ),
+        
+    ),
     'g' => array(),
     'h' => array(),
     'i' => array(),
@@ -71,9 +77,9 @@ $glossary_items = array(
     's' => array(
         new GlossaryItem(
             title: 'Sidkarta',
-            description: '<p class="p200">Här hittar du många av våra sidor.</p>
-            <a class="b200 underline color-deep-sea-400" href="franchise.php">Franchise</a>
-            <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a>',
+            description: '<p class="p200">Här hittar du många av våra sidor: <a class="b200 underline color-deep-sea-400" href="not-found.php">Not found</a></p>
+            
+            ',
         ),
         
     ),
