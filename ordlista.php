@@ -11,6 +11,11 @@ $glossary_items = array(
             description_extended: "Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud Over the years, Acnespecialisten has established itself as one of the Nordics' foremost clinics in plastic surgery. Now we continue the journey with the ambition to become the Nordic region's foremost destination for medical skin care and aesthetic injection treatments. We hereby present our new department Nordiska Kliniken Hud..."
         ),*/
         new GlossaryItem(
+            title: 'Acne Scars',
+            description: '<p class="p200">Det engelska ordet för acneärr, här hittar du mer information:
+                <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a></p>',
+        ),
+        new GlossaryItem(
             title: 'Aknebehandling',
             description: '<p class="p200">Detta är en behandling anpassad för acnehy och finnar och ger en riktigt bra start på behandlingen av huden. Under acnebehandlingen rengörs huden på djupet med hjälp av en vapozon som ångar upp huden. Hudterapeuten tar även hand om både finnar och pormaskar för att få bort talg och andra orenheter.
                 <a class="b200 underline color-deep-sea-400" href="acnebehandling.php">Läs mer och boka en Acnebehandling</a></p>',
@@ -62,8 +67,6 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Sidkarta',
             description: '<p class="p200">Här hittar du många av våra sidor.</p>
-            <a class="b200 underline color-deep-sea-400" href="acne-myter.php">Akne Myter</a>
-            <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a>
             <a class="b200 underline color-deep-sea-400" href="djuprengoring.php">Djuprengöring</a>
             <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a>
             <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a>

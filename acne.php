@@ -749,7 +749,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Förvärras min akne av att jag äter choklad?',
-                  text: '<p class="p200">Nej, det är en myt att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av akne. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då orsakar akneutbrott.</p>'
+                  text: '<p class="p200">Nej, det är en vanlig <a class="b200 underline color-deep-sea-400" href="acne-myter.php">acne myt</a> att choklad direkt skulle leda till akne. Ingen vetenskaplig forskning har tydligt påvisat ett direkt samband mellan chokladkonsumtion och uppkomsten av akne. Det som potentiellt kan påverka din akne är stress. Om du upplever stress över att du ätit choklad, kan det i sin tur bidra till akneutbrott. Men en bit choklad då och då orsakar akneutbrott.</p>'
             ),
             new Question(
                   title: 'Vad kan jag göra för att bli av med min akne?',
