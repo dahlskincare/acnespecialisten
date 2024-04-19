@@ -53,7 +53,7 @@ $specialists = array(
         description: '',
         rating: 4.8,
         num_treatments: 582,
-        since_year: 2022,
+        since_year: 2020,
         booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301?_gl=1%2A2y7n64%2A_ga%2AMTU1NDQ2MjU3MS4xNjYwNTUzMjIy%2A_ga_7EMC778CH1%2AMTcwNzIzMTUyOS4yMjAuMS4xNzA3MjMxNzExLjYwLjAuMA..&sr=1FAFA2BB_848D_433E_B00F_E1E7BCED350E',
     ),
     new Specialist(
@@ -66,7 +66,7 @@ $specialists = array(
         description: '',
         rating: 4.7,
         num_treatments: 1075,
-        since_year: 2022,
+        since_year: 2023,
         booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559?_gl=1%2A2y7n64%2A_ga%2AMTU1NDQ2MjU3MS4xNjYwNTUzMjIy%2A_ga_7EMC778CH1%2AMTcwNzIzMTUyOS4yMjAuMS4xNzA3MjMxNzExLjYwLjAuMA..&sr=47F1F39E_EC03_4974_87BC_A52B96FA5989',
     ),
     new Specialist(
@@ -144,7 +144,7 @@ $specialists = array(
         description: '',
         rating: 4.8,
         num_treatments: 100,
-        since_year: 2020,
+        since_year: 2021,
         booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559?_gl=1%2A2y7n64%2A_ga%2AMTU1NDQ2MjU3MS4xNjYwNTUzMjIy%2A_ga_7EMC778CH1%2AMTcwNzIzMTUyOS4yMjAuMS4xNzA3MjMxNzExLjYwLjAuMA..&sr=328CFFD0_03BF_4CB5_BC9B_1288D44C47FC',
     ),
 );
