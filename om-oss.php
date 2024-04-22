@@ -32,7 +32,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="h600 l10n">Om AcneSpecialisten - Din hudmottagning mot hudproblem</h1>
+                    <h1 class="h600 l10n">Privat hudmottagning i Stockholm - Boka tid utan remiss</h1>
                     <p class="p200 l10n">På AcneSpecialisten har vi under 30 år utvecklat en unik och effektiv fyrstegsmetod för att behandla hudproblem. Vårt engagerade team av hudterapeuter följer dig genom hela behandlingsprocessen, från noggrann hudkonsultation till personligt anpassade behandlingar. Vi erbjuder skräddarsydda hudvårdsrutiner som främjar din huds naturliga balans och hälsa, utan att kompromissa med kroppens välbefinnande. Med vår långa erfarenhet och metodik står vi redo att hjälpa dig uppnå och bibehålla en frisk och balanserad hud.</p>
                 </section>
                 <section id="video">

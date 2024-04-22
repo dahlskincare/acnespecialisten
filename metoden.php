@@ -5,7 +5,7 @@ include_once('metod/models/step/step.php');
 $steps = array(
     new StepModel(
         title: '01. Identifiera',
-        content: "På Acnespecialisten inleder vi din hudvårdsresa med en gratis hudkonsultation. Under denna session identifierar våra experter din hudtyp och eventuella hudproblem. Denna noggranna analys är grunden för att skapa en effektiv och personligt anpassad behandlingsplan.",
+        content: "På Acnespecialisten inleder vi din hudvårdsresa med en gratis hudkonsultation på klinik eller online. Under denna session identifierar våra experter din hudtyp och eventuella hudproblem. Denna noggranna analys är grunden för att skapa en effektiv och personligt anpassad behandlingsplan.",
         image_small: 'bilder/hudbehandlingar/358x274/konsultation.webp',
         image_large: 'bilder/hudbehandlingar/424x456/konsultation.webp',
         url: 'gratis-hudkonsultation.php',
