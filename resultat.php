@@ -7,9 +7,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title>Resultat hos AcneSpecialisten | Före- och Efterbilder</title>
-    <meta name="title" content="Resultat hos AcneSpecialisten | Före- och Efterbilder" class="l10n">
-    <meta name="description" content="Före- och efter bilder på våra kunders resultat som har använt AcneSpecialistens behandlingsmetoder.">
+    <title>Resultat Från AcneSpecialisten | Före och Efter bilder</title>
+    <meta name="title" content="Resultat Från AcneSpecialisten | Före och Efter bilder" class="l10n">
+    <meta name="description" content="Före  och efter bilder på våra kunders resultat som har använt AcneSpecialistens behandlingsmetoder.">
     <meta name="keywords" content="Acnespecialisten resultat, acnespecialisten före efter">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
