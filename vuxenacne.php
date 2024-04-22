@@ -18,7 +18,7 @@ $path_segments = array(
       new PathSegment('Vuxenacne', '/vuxenacne.php'),
 );
 
-$title = 'Vuxenakne';
+$title = 'Vuxenakne - Acne Tarda';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';

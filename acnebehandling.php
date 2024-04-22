@@ -21,7 +21,7 @@ $path_segments = array(
 );
 
 $title = 'Akne behandling';
-$description = 'Här har vi samlat de bästa akne behandlingarna som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp? Oavsett om det är hormonell akne eller annan typ av akne rekomenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten så hjälper vi dig att få bort akne.';
+$description = 'Här har vi samlat de bästa akne behandlingarna som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp? Oavsett om det är hormonell akne behandling eller annan typ av akne rekomenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten så hjälper vi dig att få bort akne.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne';
 $booking_link_title = 'Boka behandling';
@@ -73,7 +73,7 @@ $services = array(
         title: 'Ansiktsbehandling mot Akne',
         duration: '60 minuter',
         price: 'Pris från 1295 kr',
-        content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Därefter utgör hudterapeuten grundlig extraktion där finnar kläms ut och porerna extraheras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Det är viktigt att låta en hudterapeut klämma finnar och extrahera porerna. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
         consultation_url_label: 'Boka konsultation',
@@ -625,7 +625,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
 
                                        <p class="p200 mt-m">En väsentlig del av din framgång ligger i den dagliga användningen av de rekommenderade produkterna hemma. Det är kombinationen av professionell klinik behandling och hemmavård som ger bästa möjliga resultat.</p>
 
-                                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan.</p>'
+                                        <p class="p200 mt-m">Om du inte upplever de förväntade förbättringarna efter en tid, uppmanar vi dig att ta kontakt med din personliga hudterapeut. Tillsammans kan vi se över dina hudvårdsrutiner och de produkter du använder, för att optimera din behandlingsplan. För bäst resultat rekommenderas en acne kur med flera behandlingar.</p>'
                             ),
                             new Question(
                                 title: 'Finns det en risk att min akne återkommer?',
@@ -647,7 +647,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                             ),
                             new Question(
                                 title: 'Vad ska jag tänka på efter behandling?',
-                                text: '<p class="p200">Efter din aknebehandling hos AcneSpecialisten kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
+                                text: '<p class="p200">Efter din behandling på akne klinik kan du uppleva att huden blir något röd och irriterad. Detta är helt normalt och en del av hudens naturliga läkningsprocess. Rödheten och irritationen kommer att avta under dagarna efter behandlingen. Det är viktigt att du fortsätter att följa den hudvårdsrutin och de produktrekommendationer vi gett dig för att stödja hudens återhämtning och maximera resultaten av behandlingen.</p>
                                         
                                         <p class="p200 mt-m">Undvik att peta eller klämma på behandlade områden för att undvika eventuell ärrbildning och infektion. Dessutom är det bra att skydda huden från solen, då den kan vara extra känslig efter behandling. Använd solskydd och undvik direkt solljus så mycket som möjligt. Kom ihåg att vi på AcneSpecialisten alltid finns här för dig om du har några frågor eller funderingar efter din behandling.</p>'
                             ),

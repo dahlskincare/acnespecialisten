@@ -3,15 +3,15 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Kemisk Peeling mot akne | AcneSpecialisten';
+$seo_title = 'Kemisk Peeling mot acne | AcneSpecialisten';
 $seo_description = 'Kemiska peelings särskilt utvecklade för aknebehandling. Våra specialanpassade peelingar reducerar akne och förbättrar hudens övergripande hälsa och utseende.';
-$seo_keywords = 'kemisk peeling mot akne, behandla akne, exfoliering';
+$seo_keywords = 'kemisk peeling mot acne';
 
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
 
 $model = new Service(
-    title: 'Kemisk peeling mot akne',
+    title: 'Kemisk peeling mot acne',
     duration: null,
     price: 'Från 2995 kr',
     content: '',

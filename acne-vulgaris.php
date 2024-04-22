@@ -18,7 +18,7 @@ $path_segments = array(
       new PathSegment('Acne Vulgaris', '/acne-vulgaris.php'),
 );
 
-$title = 'Acne Vulgaris';
+$title = 'Acne Vulgaris - Tonårsakne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';

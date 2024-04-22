@@ -69,7 +69,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Om atrofiska ärr';
+$description_title = 'Vad är atrofisk ärrbildning?';
 $description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar eller gropar i huden och är ofta resultatet av akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå.</p>
 <p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingar för atrofiska ärr, inklusive laser, mikroneedling och kemiska peelingar. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
 
