@@ -538,7 +538,7 @@ $service_brands = array(
     ),
 );
 
-$results_title = 'Freaktionerad CO2 laser före och efter resultat';
+$results_title = 'Fraktionerad CO2 laser före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
