@@ -760,7 +760,7 @@ $skin_guide_articles = array(
 );
 $skin_guide_view_more = 'Se alla artiklar';
 
-$specialists_title = 'Våra hudterpaueter';
+$specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',

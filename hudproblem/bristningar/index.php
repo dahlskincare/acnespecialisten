@@ -779,7 +779,7 @@ $specialists = array(
       )
 );
 
-$specialist_url_label = "Se alla hudterapeut";
+$specialist_url_label = "Se alla hudterapeuter";
 $specialist_url_title = "Hudterapeuter specialiserade på bristningar";
 
 $brands = array(
