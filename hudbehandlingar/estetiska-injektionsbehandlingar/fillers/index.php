@@ -45,7 +45,6 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'skin-guide' => 'Hudguide',
-    'specialists' => 'Hudterapeut',
     'service-brands' => 'Märken',
 );
 
@@ -604,39 +603,6 @@ $skin_guide_articles = array(
 );
 $skin_guide_view_more = 'Se alla artiklar';
 
-$specialists_title = 'Våra hudterapeuter';
-$specialists = array(
-    new Specialist(
-        name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i fillers',
-        image_title: 'Cazzandra Lindberg - Expert på fillerbehandling'
-    ),
-    new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på fillers',
-        image_title: 'Veronika Benedik - Specialist inom fillers'
-    ),
-    new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom fillerbehandling',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på fillers'
-    ),
-    new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot fillers',
-        image_title: 'Vilma Libom - Expert inom fillerbehandling'
-    )
-);
-$specialists_view_more = 'Se alla hudterapeuter';
-
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
@@ -1057,21 +1023,6 @@ $all_brands = array(
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
                 <!--Hudguide-->
-                <section id="specialists" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n"><?php echo $specialists_title ?></h2>
-                        <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="scrollSpecialists(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
-                </section>
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
