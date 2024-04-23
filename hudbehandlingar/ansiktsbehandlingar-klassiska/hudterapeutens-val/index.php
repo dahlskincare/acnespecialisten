@@ -72,7 +72,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är hudterapeutens val?';
-$description_text = '<p class="p200">Hudterapeutens val är en högst personlig ansiktsbehandling där vi skräddarsyr varje moment för att passa just din hudtyp och dina specifika behov. Denna behandling kan inkludera allt från Lumafuse med LED-mask för att förstärka hudens lyster till djuprengöring med Peel2glow som skonsamt avlägsnar orenheter och ger huden ny energi.</p>
+$description_text = '<p class="p200">Hudterapeutens val är en högst personlig ansiktsbehandling för skräddarsydd hudvård där varje moment för att passa just din hudtyp och dina specifika behov. Denna behandling kan inkludera allt från Lumafuse med LED-mask för att förstärka hudens lyster till djuprengöring med Peel2glow som skonsamt avlägsnar orenheter och ger huden ny energi.</p>
     <p class="p200 mt-m">Varje behandling är unikt komponerad efter en noggrann hudanalys utförd av din hudterapeut. Beroende på din huds tillstånd och dina önskemål kan behandlingen även innefatta brynstyling, applicering av närande masker och potenta serum anpassade för just din hud. Vårt mål är att inte enbart adressera aktuella hudutmaningar utan också att förbättra din huds övergripande hälsa och välmående över tid.</p>';
 
 $top_articles = array(

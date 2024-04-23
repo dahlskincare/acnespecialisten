@@ -410,7 +410,7 @@ $bottom_articles = array('aftercare' => new Article(
     image_title: 'Microneedling eftervård',
     content: '<p class="p200">Efter en microneedlingbehandling är det flera viktiga steg du bör följa för att främja läkning och optimera resultatet av din behandling. Direkt efter behandlingen är det normalt att huden blir röd och svullen. Det är kritiskt att undvika att röra behandlingsområdet med smutsiga händer och att inte applicera smink de första 24 timmarna för att minimera risken för infektioner eller irritationer.</p>
     <p class="p200 mt-m">Under de första dagarna efter behandlingen, undvika fysisk aktivitet, bastu, och långa varma duschar som kan öka svullnad och irritation i huden. Solskydd är också av yttersta vikt; applicera solskydd med hög SPF dagligen för att skydda din hud mot UV-strålning, som kan vara extra skadlig för den nya känsliga huden efter microneedling. Dessutom rekommenderas att du använder milda, återfuktande produkter utan irriterande ingredienser för att hjälpa till med läkningsprocessen och behålla hudens fuktbalans.</p>
-    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. Regelbundna kur behandlingar rekommenderas för att du ska uppnå de mål du strävar efter med din hudvård.</p>',
+    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner som din behandlare ger dig och tveka inte att kontakta kliniken om du har några frågor eller oro kring din eftervård. En regelbunden microneedling kur rekommenderas för att du ska uppnå de mål du strävar efter med din hudvård.</p>',
     tags: array()
 ));
 
