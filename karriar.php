@@ -6,7 +6,7 @@
     <!-- TODO: Set title and meta tags -->
     <title>Vill du jobba som hudterapeut? - Lediga jobb</title>
     <meta name="description" content="Se lediga tjänster hos oss på AcneSpecialisten. Vi söker dig som vill jobba heltid och deltid som hudterapeut hos oss.">
-    <meta name="keywords" content="Lediga jobb hudterapeut, Hudterapeut jobb">
+    <meta name="keywords" content="lediga jobb hudterapeut, hudterapeut jobb, jobba som hudterpeut">
 
     <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
@@ -31,7 +31,7 @@
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Karriär</h1>
-                    <p class="l10n">Här kan du läsa mer om våra tillgängliga tjänster.</p>
+                    <p class="l10n">Vill du jobba som hudterapeut? Här kan du läsa mer om våra lediga jobb som hudterapeut.</p>
                 </section>
                 <section id="alert-banner">
                     <div id="alert-text" class="l10n">Besök vår karriärsida.</div>

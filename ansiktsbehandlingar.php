@@ -304,6 +304,7 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">För dig som gjort en lite mer resultatinriktad behandling är det viktigt att komma ihåg att inte klämma och pilla på huden. Om du har några frågor om din eftervård, tveka inte att kontakta oss för personliga råd.</p>',
 ));
 
+$results_title = 'Ansiktsbehandlingar före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',

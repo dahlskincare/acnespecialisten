@@ -9,7 +9,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
     <title>Privat Hudmottagning Stockholm - Boka Tid Utan Remiss</title>
     <meta name="title" content="Privat Hudmottagning Stockholm - Boka Tid Utan Remiss" class="l10n">
     <meta name="description" content="Boka gratis hudkonsultation på våra privata hudmottagningar i Stockholm. Vi har 30 års erfarenhet. Personlig och effektiv hudvård för alla behov.">
-    <meta name="keywords" content="hudmottagning, hudmottagning stockholm, hudmottagning utan remiss, boka tid hudmottagning, privat hudmottagning, hudmottagningar i stockholm">
+    <meta name="keywords" content="hudmottagning, hudmottagning stockholm, hudmottagning utan remiss, boka tid hudmottagning, privat hudmottagning">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 

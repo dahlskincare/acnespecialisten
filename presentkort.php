@@ -213,7 +213,7 @@ if (form_completed()) {
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Presentkort</h1>
-                    <p class="l10n">Ge bort en omtänksam gåva med ett presentkort från Acnespecialisten. Nu kan du enkelt skicka en uppskattad present utan att besöka kliniken. Swisha oss det valda beloppet eller ange önskad behandling, och vi skickar ett vackert utformat presentkort direkt till dig eller mottagaren. Våra presentkort är en flexibel gåva som ger mottagaren friheten att välja bland våra många hudvårdsbehandlingar eller kvalitetsprodukter, perfekt för att visa att du bryr dig.</p>
+                    <p class="l10n">Ge bort en omtänksam gåva med ett presentkort på hudvårdfrån AcneSpecialisten. Nu kan du enkelt skicka en uppskattad present utan att besöka kliniken. Swisha oss det valda beloppet eller ange önskad behandling, och vi skickar ett vackert utformat presentkort direkt till dig eller mottagaren. Våra presentkort är en flexibel gåva som ger mottagaren friheten att välja bland våra många hudvårdsbehandlingar eller kvalitetsprodukter, perfekt för att visa att du bryr dig.</p>
                     <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Köp ett presentkort</div>
                     <div class="button outline b200 expand" onclick="document.querySelector('#terms-modal-overlay').classList.remove('is-hidden')">Allmänna villkor</div>
                 </section>
@@ -333,7 +333,7 @@ if (form_completed()) {
                                 <div class="gc-number">03</div>
                                 <h2 class="l10n">Få ditt presentkort</h2>
                             </div>
-                            <div class="gc-text l10n">Vi skickar ett digitalt presentkort till dig inom 1 dag. Vi skickar även presentkortet fysiskt via posten enligt önskemål, detta tar normalt 2-3 dagar.</div>
+                            <div class="gc-text l10n">Vi skickar ett digitalt presentkort online till dig inom 1 dag. Vi skickar även presentkortet fysiskt via posten enligt önskemål, detta tar normalt 2-3 dagar.</div>
                         </div>
                     </div>
                     <div class="is-hidden-touch">

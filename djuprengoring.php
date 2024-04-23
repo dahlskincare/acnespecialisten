@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Djuprengöring Ansikte | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi djuprengöring för att behandla pormaskar. Djupgående porrengöring för effektiv behandling. Boka tid hos oss idag →';
-$seo_keywords = 'djuprengöring av porer, effektiv porrengöring, behandling av pormaskar, AcneSpecialisten, klara porer, frisk hud, reducera pormaskar, hudvård, rena porer, skräddarsydd hudvård, hudens textur, minska synligheten av orenheter';
+$seo_keywords = 'djuprengöring, djuprengöring ansikte';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
@@ -66,7 +66,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Djuprengöring mot pormaskar';
+$description_title = 'Djuprengöring ansikte';
 $description_text = '<p class="p200">Våra djuprengöring är en specialiserad form av porrengöring som specifikt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
 <p class="p200 mt-m">Anpassad för olika hudtyper, inklusive oljig, torr och blandhud, strävar våra djuprengöringsbehandling efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
 

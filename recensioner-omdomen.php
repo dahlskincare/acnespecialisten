@@ -30,7 +30,7 @@
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Omdömen</h1>
+                    <h1 class="l10n">Recensioner & Omdömen</h1>
                     <p class="l10n">Snart kommer du att kunna hitta alla våra omdömen här.</p>
                 </section>
             </div>

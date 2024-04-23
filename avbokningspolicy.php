@@ -31,7 +31,7 @@
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Avbokningspolicy</h1>
-                    <p class="l10n">Här kan du läsa mer om vår avbokningspolicy.</p>
+                    <p class="l10n">Här kan du läsa mer om AcneSpecialistens avbokningspolicy.</p>
                 </section>
                 <section id="alert-banner">
                     <div id="alert-text" class="l10n">Kom ihåg att avboka minst 24 timmar innan den bokade tid för att undvika avgift.</div>

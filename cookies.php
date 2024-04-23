@@ -38,7 +38,7 @@ $nav_buttons = array(
             <div class="container">
                   <div id="content">
                         <section id="headers">
-                              <h1 class="mt-xl">Cookie Policy</h1>
+                              <h1 class="mt-xl">Cookies AcneSpecialisten</h1>
                               <p class="mt-xs">På AcneSpecialisten.se använder vi cookies för att kunna anpassa vår webbplats så bra som möjligt för användaren, baserat på hur du som användare beter dig när du besöker vår webbplats.</p>
                         </section>
                         <section id="nav-buttons" class="mt-xl">

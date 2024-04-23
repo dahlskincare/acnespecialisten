@@ -54,7 +54,7 @@ class ServiceCategory
 
 $green_banner_content = new GreenBannerContent(
     title: 'Hudbehandlingar',
-    description: 'Vi erbjuder ett brett utbud av hudbehandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och behandlingar med laser för att effektivt behandla olika hudtillstånd.',
+    description: 'Vi erbjuder ett brett utbud av hudbehandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör huden och porer och återupplivar huden, avancerade kemiska peelingar för hudföryngring, och behandlingar med laser för att effektivt behandla olika hudtillstånd.',
     description_extended: 'Vi förstår att varje hud är unik. Därför erbjuder vi skräddarsydda behandlingar för att uppfylla dina specifika behov. Våra erfarna hudterapeuter använder de senaste teknikerna och metoderna för att ge dig de bästa möjliga resultaten. Boka en tid hos oss för att upptäcka hur vi kan hjälpa dig.',
     button_url: 'https://acnespecialisten.se/book?flow=consultation',
     button_label: 'Boka en gratis konsultation'
@@ -529,7 +529,7 @@ $path_segments = array(
     <title class="l10n">Hudbehandling i Stockholm - AcneSpecialisten</title>
     <meta name="title" content="Hudbehandling i Stockholm - AcneSpecialisten" class="l10n">
     <meta name="description" content="Boka hudbehandling med laser för porer hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda lösningar för varje hudtyp. Boka gratis hudkonsultation!" class="l10n">
-    <meta name="keywords" content="hudbehandling, hudbehandlingar, hudbehandling porer, laser hudbehandling" class="l10n">
+    <meta name="keywords" content="hudbehandling, hudbehandlingar, hudbehandling porer, laser hudbehandling, hudbehandling stockholm" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
