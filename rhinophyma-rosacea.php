@@ -244,7 +244,7 @@ $results = array(
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
             treatment: new ResultTreatment(
-                  duration: '3 månader',
+                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
             )
       ),
       new ResultCustomer(
@@ -257,7 +257,7 @@ $results = array(
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
             treatment: new ResultTreatment(
-                  duration: '2 månader',
+                  duration: '<a href="acne.php" title="Akne">Akne</a>',
             )
       ),
       new ResultCustomer(
@@ -270,7 +270,7 @@ $results = array(
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
             treatment: new ResultTreatment(
-                  duration: '4 månader',
+                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
             )
       ),
 );
