@@ -161,7 +161,6 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
-
 $reviews = array(
       new Review(
             brand: 'Trustpilot',
@@ -170,7 +169,6 @@ $reviews = array(
             signature: 'Sofia',
             stars: 5,
             logo_url: 'images/brands/trustpilot.svg'
-
       ),
       new Review(
             brand: 'Google',
@@ -179,7 +177,6 @@ $reviews = array(
             signature: 'Lovisa',
             stars: 5,
             logo_url: 'images/brands/google-small.svg'
-
       ),
       new Review(
             brand: 'Bokadirekt',
