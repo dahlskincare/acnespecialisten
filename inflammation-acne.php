@@ -25,7 +25,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
-$description = 'Inflammerad akne, som även kallas även för pustel, skadar huden och kan skapa ärrbildning. Acnen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.';
+$description = 'Inflammerad akne, som även kallas även för acne pustel, skadar huden och kan skapa ärrbildning. Acnen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.';
 
 $akas = [
       new Link(
