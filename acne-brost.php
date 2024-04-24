@@ -139,7 +139,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Fördelarna med att välja AcneSpecialisten för behandling av din akne på bröstet',
+            title: 'Varför AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Fördelarna med att välja AcneSpecialisten för behandling av din akne på bröstet',
@@ -557,37 +557,6 @@ $brands_url_title = "Se alla varumärken";
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
-
-                        <section id="define">
-                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
-                              <hr class="is-hidden-mobile">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                              <hr class="is-hidden-mobile">
-                        </section>
-                        <section id="treatments">
-                              <h2 class="h500"><?php echo $headline02 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($services as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="products">
-                              <h2 class="h500"><?php echo $headline03 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($products as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
-                              <?php } ?>
-                        </section>
-                        <section id="treatment-solutions">
-                              <h2 class="h500"><?php echo $headline04 ?></h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($procedures as $service) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
-                                    <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
 

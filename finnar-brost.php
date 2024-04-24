@@ -138,7 +138,7 @@ $articles = array(
             content: '<p class="p200">Finnar på bröstet kan vara mer än bara ett estetiskt problem – de kan även vara en källa till obehag och emotionell oro. Om du upptäcker att dina finnar är återkommande eller försämras, är det dags att överväga professionell hjälp. Tidig intervention är viktig för att förhindra ärrbildning och andra långsiktiga hudproblem. Genom att söka professionell rådgivning kan du få hjälp med att behandla befintliga utbrott och lära dig förebyggande strategier och skapa en effektiv hudvårdsrutin.</p>',
       ),
       new Article(
-            title: 'Varför välja AcneSpecialisten för behandling av finnar på bröstet?',
+            title: 'Varför välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Anledningar att välja AcneSpecialisten för bröstfinnar',
@@ -146,47 +146,48 @@ $articles = array(
             content: '<p class="p200">Vår expertis möjliggör skräddarsydda behandlingsplaner anpassade till varje individs unika behov. På AcneSpecialisten fokuserar vi inte bara på att behandla dina nuvarande hudproblem, utan också på att utbilda dig i hur du kan bibehålla en hälsosam hud på lång sikt. Vårt engagemang och vår kunskap gör oss till det bästa valet för dem som söker en varaktig lösning på sina hudproblem, och vi strävar efter att du ska känna dig säker och nöjd med din hudvård.</p>',
       ),
 
-      $results = array(
-            new ResultCustomer(
-                  image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-                  image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-                  image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-                  image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-                  image_before_alt: 'Före',
-                  image_before_title: 'Före',
-                  image_after_alt: 'Efter',
-                  image_after_title: 'Efter',
-                  treatment: new ResultTreatment(
-                        duration: '3 månader',
-                  )
-            ),
-            new ResultCustomer(
-                  image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-                  image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-                  image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-                  image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-                  image_before_alt: 'Före',
-                  image_before_title: 'Före',
-                  image_after_alt: 'Efter',
-                  image_after_title: 'Efter',
-                  treatment: new ResultTreatment(
-                        duration: '2 månader',
-                  )
-            ),
-            new ResultCustomer(
-                  image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-                  image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-                  image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-                  image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-                  image_before_alt: 'Före',
-                  image_before_title: 'Före',
-                  image_after_alt: 'Efter',
-                  image_after_title: 'Efter',
-                  treatment: new ResultTreatment(
-                        duration: '4 månader',
-                  )
-            ),
-      )
+);
+
+$results = array(
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            treatment: new ResultTreatment(
+                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            treatment: new ResultTreatment(
+                  duration: '<a href="acne.php" title="Akne">Akne</a>',
+            )
+      ),
+      new ResultCustomer(
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            treatment: new ResultTreatment(
+                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+            )
+      ),
 );
 
 $show_all_results_label = "Se fler resultat";
