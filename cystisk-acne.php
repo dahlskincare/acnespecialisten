@@ -162,7 +162,6 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
-
 $reviews = array(
       new Review(
             brand: 'Trustpilot',
@@ -248,7 +247,6 @@ $skin_guide_articles = array(
 
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
-
 
       ),
       new SkinGuideArticle(
