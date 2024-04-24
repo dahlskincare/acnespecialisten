@@ -543,7 +543,7 @@ $results = array(
     ),
 );
 
-$reviews_title = 'Reviews';
+$reviews_title = 'Omdömen';
 $reviews = array(
     new Review(
         brand: 'Trustpilot',

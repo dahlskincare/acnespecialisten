@@ -234,7 +234,7 @@ $results = array(
 );
 
 $show_all_results_label = "Se fler resultat";
-$show_all_results_title = "se flera aknebehandlingsresultat";
+$show_all_results_title = "se flera behandlingsresultat";
 
 
 $reviews = array(
@@ -296,7 +296,7 @@ $faq_categories = array(
 );
 
 $faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor relaterat till akne";
+$faq_url_title = "läs flera frågor relaterat";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -348,7 +348,7 @@ $skin_guide_articles = array(
 );
 
 $skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om akne";
+$skinguide_url_title = "Läs fler guider";
 
 $specialists = array(
       new Specialist(
@@ -382,7 +382,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla hudterapeuter";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Specialiserade Hudterapeuter";
 
 $brands = array(
       new Brand(
