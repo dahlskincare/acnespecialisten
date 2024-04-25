@@ -91,7 +91,6 @@ $trivias = array(
             icons: array()
       ),
 
-
       new ProblemTrivia(
             prefix: 'Vem',
             title: 'får ärr från finnar?',
@@ -109,6 +108,7 @@ $trivias = array(
             icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
       ),
 );
+
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
