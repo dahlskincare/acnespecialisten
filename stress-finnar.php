@@ -280,8 +280,6 @@ $skin_guide_articles = array(
 
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
-
-
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -340,7 +338,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_title = "Se alla specialister";
 
 $related_problems = array(
       new RelatedProblem(
