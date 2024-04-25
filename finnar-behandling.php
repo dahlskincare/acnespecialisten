@@ -42,7 +42,7 @@ $about_content = '<p class="p200">Att behandla och ta bort finnar är ingen quic
 
 $headline01 = "01. Identifiera dina finnar";
 
-$define_image = 'images/service-categories/large/konsultation.webp';
+$define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar finnar?';
 $define_image_title = 'Hur vi tar bort och behandlar finnar?';
 
