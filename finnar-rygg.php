@@ -140,7 +140,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
+            title: 'Anledningar att välja AcneSpecialisten',
             image_small: null,
             image_large: null,
             image_alt: 'Anledningar att välja AcneSpecialisten för behandling av finnar på ryggen',
