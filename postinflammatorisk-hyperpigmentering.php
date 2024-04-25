@@ -69,7 +69,7 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är postinflammatorisk hyperpigmentering';
+$description_title = 'Vad är postinflammatorisk hyperpigmentering?';
 $description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) uppstår när huden producerar mer melanin, hudens naturliga pigment, som svar på vissa inflammatoriska tillstånd såsom akne. PIH visar sig som mörkare fläckar eller partier på huden och kan variera i färg från ljusbrun till nästan svart, beroende på din hudton och inflammationens intensitet.</p>
 <p class="p200 mt-m">På Acnespecialisten fokuserar vi på att behandla och minska synligheten av postinflammatorisk hyperpigmentering genom individuellt anpassade metoder. Våra behandlingar, som ljusbehandlingar och kemiska peelingar, är utformade för att jämna ut hudtonen och främja en mer enhetlig hudfärg, med målet att ge dig en klarare och mer jämn hudton.</p>';
 
@@ -271,8 +271,8 @@ $specialists = array(
       )
 );
 
-$specialist_url_label = "Se alla specialister";
-$specialist_url_title = "Akne Specialiserade Hudterapeuter";
+$specialist_url_label = "Se alla hudterapeuter";
+$specialist_url_title = "Se alla hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
