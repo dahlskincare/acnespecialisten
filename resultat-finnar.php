@@ -137,7 +137,7 @@ $pages = sizeof($results_per_page);
             </section>
             <section id="reviews" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Omdömens</div>
+                    <div class="h500 l10n">Omdömen</div>
                     <div class="flex-row is-hidden-mobile">
                         <div class="step-buttons">
                             <button class="round-large grey" onclick="Reviews.scroll(-1)">
