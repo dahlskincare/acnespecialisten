@@ -11,12 +11,12 @@ $seo_keywords = 'melasma, behandla melasma, orsaker till melasma, förebyggande 
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
-$seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
+$seo_image = 'bilder/hudproblem/424x456/melasma.webp';
 
 $title = 'Melasma';
 
-$image_small = 'bilder/hudproblem/424x324/pigmentflackar.webp';
-$image_large = 'bilder/hudproblem/424x456/pigmentflackar.webp';
+$image_small = 'bilder/hudproblem/424x324/melasma.webp';
+$image_large = 'bilder/hudproblem/424x456/melasma.webp';
 $image_title = 'Visar en hud med melasma';
 $image_alt = 'Bild som visar melasma på huden';
 $description = 'Har du upplevt melasma – även känd som solfläckar eller "leverfläckar" – på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.';
