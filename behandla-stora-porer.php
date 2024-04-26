@@ -51,8 +51,6 @@ $define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot stora porer";
 
-
-
 $headline02 = "02. Behandla stora porer";
 
 $treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, därefter påbörjar vi behandlingen av stora porer. Här är målet framför allt att djuprengöra och minska porernas synlighet som kan påverka hudens textur och utseende. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process rengör vi porerna, tar bort döda hudceller och överflödig talg, och balanserar talgproduktionen. Vi utför också porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Vi anpassar behandlingsplanen efter din huds respons.</p>';

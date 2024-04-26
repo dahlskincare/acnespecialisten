@@ -385,8 +385,6 @@ $skin_guide_articles = array(
 
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
-
-
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -445,7 +443,7 @@ $specialists = array(
 );
 
 $specialist_url_label = "Se alla specialister";
-$specialist_url_title = "rhinophyma rosacea Specialiserade Hudterapeuter";
+$specialist_url_title = "Hudterapeuter specialiserade på Rhinophyma Rosacea";
 
 $related_problems = array(
       new RelatedProblem(
