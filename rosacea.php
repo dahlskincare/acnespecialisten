@@ -285,8 +285,6 @@ $symptoms = array(
             aka: 'Rhinophyma',
             image_alt: 'Bild av hudförtjockning orsakad av rosacea',
             image_title: 'Hudförtjockning orsakad av rosacea',
-
-            
       ),
 
       new Symptom(
