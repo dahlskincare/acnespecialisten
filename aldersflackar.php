@@ -255,8 +255,6 @@ $skin_guide_articles = array(
 
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
-
-
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
@@ -319,31 +317,13 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'bilder/hudproblem/200x200/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: 'acnearr.php',
-            url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'bilder/hudproblem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'rosacea.php',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
+            name: 'Pigmentfläckar',
+            aka: 'Pigmenteringar',
+            image: 'bilder/hudproblem/200x200/pigmentflackar.webp',
+            image_alt: 'Pigmentfläckar i ansiktet',
+            image_title: 'Läs mer om pigmentfläckar',
+            url: 'pigmentflackar.php',
+            url_title: 'Pigmentfläckar'
       ),
 );
 
