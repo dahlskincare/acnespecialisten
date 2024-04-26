@@ -74,6 +74,38 @@ $description_title = 'Vad är IPL-behandling mot rosacea?';
 $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
     <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
 
+$treatment_steps = array(
+    new TreatmentStep(
+        title: 'Identifiera',
+        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
+        url_label: 'Boka gratis konsultation',
+        url: 'gratis-hudkonsultation.php',
+        url_title: 'Boka din kostnadsfria hudkonsultation idag'
+    ),
+    new TreatmentStep(
+        title: 'Behandla',
+        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+        url_label: 'Se behandlingar',
+        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
+        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
+    ),
+    new TreatmentStep(
+        title: 'Förebygga',
+        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
+        url_label: 'Se produkter',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+        url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
+    ),
+    new TreatmentStep(
+        title: 'Reparera',
+        content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
+        url_label: 'Se IPL-behandlingar',
+        url: 'ipl-ytliga-blodkarl.php',
+        url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
+    ),
+
+);
+
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandling med IPL mot rosacea',
@@ -154,38 +186,6 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling rekommenderas det att du undviker stark fysisk ansträngning, bastubad och långa heta duschar, då dessa aktiviteter kan förvärra svullnad och irritation. Det är även viktigt att skydda din hud mot solen. Använd en solskyddskräm med hög SPF regelbundet, särskilt på det behandlade området, för att undvika ytterligare solskador och stödja läkningsprocessen. Använd gärna milda och återfuktande hudvårdsprodukter som inte innehåller irriterande ingredienser för att lugna huden och upprätthålla dess fuktbalans.</p>
     <p class="p200 mt-m">Följ noga de eftervårdsinstruktioner som du får från din hudterapeut. Om du har några frågor eller funderingar kring din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljande behandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot rosacea.</p>',
 ));
-
-$treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-        url_label: 'Boka gratis konsultation',
-        url: 'gratis-hudkonsultation.php',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-        url_label: 'Se behandlingar',
-        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
-        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-    ),
-    new TreatmentStep(
-        title: 'Förebygga',
-        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
-        url_label: 'Se produkter',
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-        url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-    ),
-    new TreatmentStep(
-        title: 'Reparera',
-        content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-        url_label: 'Se IPL-behandlingar',
-        url: 'ipl-ytliga-blodkarl.php',
-        url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-    ),
-
-);
 
 $service_brands_title = 'Märken för IPL';
 $service_brands_text = '<p class="p200">Vi utför IPL mot rosacea med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';

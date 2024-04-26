@@ -9,7 +9,6 @@ $seo_keywords = 'laserbehandling för ärr, operationsärr behandling, skadeärr
 
 $seo_image = '/images/treatments/large/laser.webp';
 
-
 $model = new Service(
     title: 'Laser mot ärr',
     duration: null,

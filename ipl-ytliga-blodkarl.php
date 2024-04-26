@@ -48,9 +48,26 @@ $description_title = 'Vad är IPL-behandling mot Ytliga Blodkärl?';
 $description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus, är en framstående och icke-invasiv metod för att effektivt behandla ytliga blodkärl. Denna avancerade ljusbaserade teknologi avger specifika ljuspulser som målmedvetet tränger igenom huden för att minska synligheten av blodkärlen. IPL-behandling riktar sig direkt mot de blodkärl som orsakar ojämn hudton och synliga kärl på hudytan.</p>
     <p class="p200 mt-m">Genom att specifikt behandla dessa blodkärl, bidrar IPL inte bara till en mer jämn hudton, utan förbättrar också hudens övergripande utseende och kvalitet. Varje behandling är individuellt anpassad för att uppnå bästa möjliga resultat baserat på patientens unika hudbehov. IPL-behandling för ytliga blodkärl är känd för att vara både skonsam och effektiv, med minimal risk för biverkningar. Många patienter ser märkbara förbättringar efter endast några sessioner, vilket gör detta till en uppskattad behandlingsmetod för dem som önskar reducera synligheten av ytliga blodkärl.</p>';
 
+$treatment_steps = array(
+    new TreatmentStep(
+        title: 'Identifiera',
+        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
+        url_label: 'Boka gratis konsultation',
+        url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+        url_title: 'Boka din kostnadsfria hudkonsultation idag'
+    ),
+    new TreatmentStep(
+        title: 'Behandla',
+        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+        url_label: 'Se behandlingar',
+        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
+        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
+    ),
+);
+
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
+        title: 'Förberedelser inför IPL mot Ytliga Blodkärl',
         image_small: null,
         image_large: null,
         image_alt: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
@@ -150,23 +167,6 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner du får från din hudterapeut. Om du har några frågor eller bekymmer om din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljningsbehandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot ytliga blodkärl.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
-
-$treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-        url_label: 'Boka gratis konsultation',
-        url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-        url_label: 'Se behandlingar',
-        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
-        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-    ),
-);
 
 $service_brands_title = 'Märken för IPL';
 $service_brands_text = '<p class="p200">Vi utför IPL mot ytliga blodkärl med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
