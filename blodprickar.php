@@ -159,11 +159,11 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla blodprickar med Cryopen";
+$headline02 = "02. Behandla blodprickar med CryoPen";
 
 $services = array(
       new Service(
-            title: 'Behandling av blodprickar med Cryopen',
+            title: 'Behandling av blodprickar med CryoPen',
             duration: '20 min',
             price: '995 kr',
             content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort blodprickar. Behandlingen är snabb och ger minimalt obehag, vilket gör den till ett effektivt sätt att minska synligheten av blodprickar.',
@@ -316,8 +316,6 @@ $skin_guide_articles = array(
 
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
             url_title: 'How hormones effect?',
-
-
       ),
       new SkinGuideArticle(
             url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',

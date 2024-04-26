@@ -148,11 +148,11 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla födelsemärken med Cryopen";
+$headline02 = "02. Behandla födelsemärken med CryoPen";
 
 $services = array(
       new Service(
-            title: 'Behandling av födelsemärken med Cryopen',
+            title: 'Behandling av födelsemärken med CryoPen',
             duration: '20 min',
             price: '995 kr',
             content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är snabb, effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',

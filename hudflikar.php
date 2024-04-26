@@ -143,11 +143,11 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla hudflikar med Cryopen";
+$headline02 = "02. Behandla hudflikar med CryoPen";
 
 $services = array(
       new Service(
-            title: 'Behandling av hudflikar med Cryopen',
+            title: 'Behandling av hudflikar med CryoPen',
             duration: '20 min',
             price: '995 kr',
             content: 'Med Cryopen-tekniken erbjuder vi en snabb och skonsam behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
