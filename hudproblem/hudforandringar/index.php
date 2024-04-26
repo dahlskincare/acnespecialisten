@@ -76,7 +76,6 @@ $nav_buttons = array(
       'faq' => 'FAQ',
       'skin-guide' => 'Hudguide',
       'specialists' => 'Hudterapeuter',
-      'related-problems' => 'Relaterade problem',
 );
 
 $about_title = 'Om hudförändringar';

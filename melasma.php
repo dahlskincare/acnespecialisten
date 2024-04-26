@@ -76,14 +76,14 @@ $description_text = '<p class="p200">Melasma, som ofta är kopplat till hudens �
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Diagnostisera',
+            title: 'Identifiera',
             content: 'Din resa mot en friskare hud börjar hos AcneSpecialisten med en omfattande konsultation. Våra erfarna hudterapeuter genomför en noggrann hudanalys för att bedöma omfattningen av din melasma. Denna inledande utvärdering är kritisk för att kunna utveckla en skräddarsydd behandlingsplan, skräddarsydd för dina unika hudvårdsbehov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_label: 'Boka en kostnadsfri konsultation',
             url_title: 'Boka din kostnadsfria konsultation för melasma idag',
       ),
       new TreatmentStep(
-            title: 'Behandlingsalternativ',
+            title: 'Behandla',
             content: 'Baserat på din individuella diagnos erbjuder AcneSpecialisten en rad anpassade behandlingsalternativ för melasma. Våra metoder inkluderar avancerade tekniker speciellt utvecklade för att hantera och minska tecken på melasma, som hyperpigmentering och ojämn hudton, och arbetar mot att förbättra både hudens struktur och dess övergripande utseende.',
             url: 'behandla-pigmentflackar.php',
             url_label: 'Upptäck våra behandlingsalternativ för melasma',
@@ -319,31 +319,13 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'bilder/hudproblem/200x200/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
-            image_title: 'Acneärr - en vanlig följd av akne',
-            url: 'acnearr.php',
-            url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'bilder/hudproblem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
-            url: 'rosacea.php',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'akne runt munnen',
-            image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
+            name: 'Pigmentfläckar',
+            aka: 'Pigmenteringar',
+            image: 'bilder/hudproblem/200x200/pigmentflackar.webp',
+            image_alt: 'Pigmentfläckar i ansiktet',
+            image_title: 'Läs mer om pigmentfläckar',
+            url: 'pigmentflackar.php',
+            url_title: 'Pigmentfläckar'
       ),
 );
 
