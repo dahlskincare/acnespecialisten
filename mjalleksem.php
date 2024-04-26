@@ -397,31 +397,13 @@ $specialist_url_title = "mjalleksem Specialiserade Hudterapeuter";
 
 $related_problems = array(
       new RelatedProblem(
-            name: 'Acneärr',
-            aka: 'gropar & Fläckar',
-            image: 'bilder/hudproblem/200x200/acnearr.webp',
-            image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter mjalleksem',
-            image_title: 'Acneärr - en vanlig följd av mjalleksem',
-            url: 'acnearr.php',
-            url_title: 'Acneärr'
-      ),
-      new RelatedProblem(
-            name: 'Rosacea',
-            aka: 'ansiktsrodnad',
-            image: 'bilder/hudproblem/200x200/rosacea.webp',
-            image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med mjalleksem',
-            image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med mjalleksem',
-            url: 'rosacea.php',
-            url_title: 'Rosacea'
-      ),
-      new RelatedProblem(
-            name: 'Perioral dermatit',
-            aka: 'mjalleksem runt munnen',
-            image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
-            image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med mjalleksem',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande mjalleksem',
-            url: 'perioral-dermatit.php',
-            url_title: 'Perioral dermatit',
+            name: 'Seborré',
+            aka: 'Flagnande hy',
+            image: 'bilder/hudproblem/200x200/seborre.webp',
+            image_alt: 'Flagnande hy på ögonbrynen',
+            image_title: 'Seborré',
+            url: 'seborre.php',
+            url_title: 'Seborré'
       ),
 );
 
