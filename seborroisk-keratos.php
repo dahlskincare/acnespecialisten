@@ -143,11 +143,11 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla seborroisk keratos med Cryopen";
+$headline02 = "02. Behandla seborroisk keratos med CryoPen";
 
 $services = array(
       new Service(
-            title: 'Behandling av seborroisk keratos med Cryopen',
+            title: 'Behandling av seborroisk keratos med CryoPen',
             duration: '20 min',
             price: '995 kr',
             content: 'Cryopen är en innovativ behandling som använder kryoterapi för att målinriktat och skonsamt behandla seborroisk keratos. Denna snabba och effektiva metod minimerar obehag och är utmärkt för att reducera synligheten av seborroisk keratos, vilket ger en jämnare och förbättrad hudton.',
