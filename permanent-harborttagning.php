@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Permanent Laser Hårborttagning i Stockholm';
 $seo_description = 'Lasra bort hår permanent och njut av en len känsla med den senaste lasestekniken. Boka din kostnadsfria konsultation idag och upplev skillnaden.';
-$seo_keywords = 'laser hårborttagning, hårborttagning, permanent hårborttagning, hår permanent, hårborttagning laser stockholm';
+$seo_keywords = 'hårborttagning, laser hårborttagning, permanent hårborttagning, hårborttagning laser stockholm, ta bort hår';
 
 $seo_image = 'images/treatments/large/permanent-harborttagning.webp';
 

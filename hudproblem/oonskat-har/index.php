@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är oönskat hår? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om oönskat hår och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'oönskat hår, orsaker till oönskat hår, förebygga oönskat hår, ta bort oönskat hår';
+$seo_keywords = 'ta bort oönskat hår, oönskat hår i ansiktet, ta bort oönskat hår i ansiktet, oönskat hår';
 
 $seo_image = '/bilder/hudproblem/424x456/oonskat-har.webp';
 

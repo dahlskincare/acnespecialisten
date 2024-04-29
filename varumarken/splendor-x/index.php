@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Laser Hårborttagning i Stockholm';
 $seo_description = 'Splendor X - nästa generations laser för permanent hårborttagning. Upplev en överlägsen behandling som effektivt och smärtfritt tar bort hår på alla hudtyper.';
-$seo_keywords = 'splendor x, hårborttagning, ta bort hår';
+$seo_keywords = 'alexandrite laser, alexandrite laser pris, alexandrite laser vs diode laser, laser alexandrite stockholm, alexandrite laser hårborttagning, splendor x';
 
 $seo_image = '/images/treatments/large/splendor-x.webp';
 

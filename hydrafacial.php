@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Hydrafacial Behandling i Stockholm';
 $seo_description = 'HydraFacial behandling är en mångsidig behandling som kombinerar djup rengöring, exfoliering, avlägsnande av orenheter och återfuktning.';
-$seo_keywords = 'hydrafacial, hydrafacial stockholm, hydrafacial behandling, hydrafacial före efter';
+$seo_keywords = 'hydrafacial, hydrafacial stockholm, hydrafacial före efter, hydrafacial behandling, hydrafacial acne';
 
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 

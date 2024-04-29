@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Skin Tech - Avancerade Kemiska Peelings | AcneSpecialisten';
 $seo_description = 'Skin Techs sortiment av avancerade kemiska peelingar är effektiva mot en rad hudproblem, inklusive acneärr, åldrande hud, hyperpigmentering och mycket mer.';
-$seo_keywords = 'skin tech';
+$seo_keywords = 'skin tech, peel to glow skin tech, skin tech peeling';
 
 $seo_image = '/images/treatments/large/skin-tech.webp';
 
