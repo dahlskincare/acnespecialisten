@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Splendor X laser?';
-$description_text = '<p class="p200">Splendor X är en framstående laserutrustning från Lumenis, specialiserad på permanent hårborttagning genom användning av BLEND X-teknologi. Denna teknologi kombinerar Nd:YAG- och Alexandritlasrar för att skapa en skräddarsydd behandling lämplig för nästan alla hud- och hårtyper. Detta innovativa system erbjuder en nästan smärtfri upplevelse, tack vare en unik kylmetod, vilket skiljer den från traditionella laserbehandlingar.</p>
+$description_text = '<p class="p200">Splendor X är en framstående laserutrustning från Lumenis, specialiserad på permanent hårborttagning genom användning av BLEND X-teknologi. Denna teknologi kombinerar Nd:YAG- och Alexandrite laser för att skapa en skräddarsydd behandling lämplig för nästan alla hud- och hårtyper. Detta innovativa system erbjuder en nästan smärtfri upplevelse, tack vare en unik kylmetod, vilket skiljer den från traditionella laserbehandlingar.</p>
 <p class="p200 mt-m">Utrustningen är designad för att vara flexibel och kan användas på hela kroppen, inklusive ansikte och ben, oavsett årstid. Detta gör det möjligt att genomföra behandlingar året runt utan behov av återhämtningstid. Den är dock effektiv mot de flesta andra hårnyanser och fjun, vilket gör den till en idealisk lösning för dem som söker efter permanent hårborttagning.</p>';
 
 $top_articles = array(
@@ -435,7 +435,7 @@ $bottom_articles = array(
 );
 
 $service_brands_title = 'Andra teknologier för hårborttagning';
-$service_brands_text = '<p class="p200">Vi erbjuder även Soprano Ice som består använder diodlaser för hårborttagning.</p>';
+$service_brands_text = '<p class="p200">Vi erbjuder även Soprano Ice som består använder diode laser för hårborttagning.</p>';
 $service_brands = array(
 
     new Brand(

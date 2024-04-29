@@ -592,7 +592,7 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur fungerar diodlaser i Soprano ICE?',
+            title: 'Vad är diodlaser?',
             text: '<p class="p200">Diodlaser i Soprano ICE använder en specifik våglängd på 810 nm för att djupt penetrera huden och målinrikta hårsäckarna utan att skada omgivande vävnad. Det gör behandlingen säker och effektiv för permanent hårborttagning.</p>'
         ),
         new Question(
