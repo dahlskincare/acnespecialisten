@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Portömning med vakuumsug | AcneSpecialisten';
 $seo_description = 'Vakuumsug är en effektiv metod för djuprengöring av huden. Genom vakuumteknik och specialserum avlägsnar behandlingen oönskade pormaskar.';
-$seo_keywords = 'vakuumsug pormaskar, djuprengöring porer, återfuktning hudvård, Stockholm';
+$seo_keywords = 'portömning med vakuumsug';
 
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
