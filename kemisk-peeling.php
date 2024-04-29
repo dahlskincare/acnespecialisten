@@ -274,7 +274,7 @@ $types = array(
         title: 'Kemisk Peeling mot acne',
         duration: '30 min',
         price: '1595 kr',
-        content: 'Effektiv akne peeling som hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
+        content: 'Effektiv acne peeling som hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
         image_small: 'bilder/hudproblem/102x102/akne.webp',
         image_large: 'bilder/hudproblem/200x200/akne.webp',
         image_alt: 'Kemisk Peeling mot acne',
@@ -526,7 +526,7 @@ $service_brands = array(
     ),
 );
 
-$results_title = 'Kemisk Peeling före och efter';
+$results_title = 'Kemisk Peeling före och efter bilder';
 $results = array(
     new ResultCustomer(
         url: '',
