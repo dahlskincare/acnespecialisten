@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'MicroDermabrasion behandling | AcneSpecialisten';
 $seo_description = 'Upptäck MicroDermabrasion – avancerad hudslipning som förfinar porer, reducerar fina linjer och förbättrar hudens lyster. Idealisk för en jämnare hudton.';
-$seo_keywords = 'microdermabrasion';
+$seo_keywords = 'microdermabrasion, mikrodermabrasion, vad är microdermabrasion, microdermabrasion resultat, microdermabrasion före efter';
 
 $seo_image = '/images/treatments/large/microdermabrasion.webp';
 
