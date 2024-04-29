@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Dermapen 4 Behandling i Stockholm';
 $seo_description = 'Dermapen 4 behandling är en effektiv form av microneedling i Stockholm, som sätter igång hudens kollagenproduktion och behandlar flera typer av hudproblem.';
-$seo_keywords = 'dermapen, dermapend 4, dermapen före efter, dermapen behandling, microneedling stockholm';
+$seo_keywords = 'dermapen, dermapen 4, dermapen före efter, dermapen behandling';
 
 $seo_image = 'images/treatments/large/dermapen.webp';
 
