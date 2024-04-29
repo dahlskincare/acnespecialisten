@@ -413,6 +413,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'IPL hudföryngring före efter';
 $results = array(
     new ResultCustomer(
         url: '',
