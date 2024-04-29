@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Perorial Dermatit | AcneSpecialisten';
 $seo_description = 'Har du utslag runt munnen? Då kan det vara perioral dermatit. Boka en gratis hudkonsultation så skräddarsyr vi rätt behandling →';
-$seo_keywords = 'perioral dermatit, finnar runt munnen, perioral dermatit behandling, utslag runt munnen, acne runt munnen, akne runt munnen, finnar runt munnen, finnar som kliar';
+$seo_keywords = 'perioral dermatit, finnar som kliar, acne runt munnen, finnar vid munnen, akne runt munnen, finnar runt munnen, perioral dermatit sol';
 
 $title = 'Perioral Dermatit';
 
@@ -24,7 +24,7 @@ $description = 'Perioral dermatit kan beskrivas som utslag och eksem runt munnen
 
 $akas = [
       new Link(
-            label: 'Akne runt munnen',
+            label: 'Acne runt munnen',
             url: null,
             title: 'Allt du behöver veta om perioral hudirritation och dess behandling'
       ),
@@ -80,7 +80,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man perioral dermatit?',
-            content: '<p class="p200">Orsakerna till perioral dermatit är inte fullständigt kartlagda, men det finns flera faktorer som antas bidra till dess utveckling. Problemet är i grunden hormonellt och genetiskt. Användning av topiska steroidkrämer på ansiktet har också varit förknippad med perioral dermatit och kan i vissa fall förvärra symptomen. Faktorer som stress, hormonella förändringar,till exempel menstruationscykeln, graviditet, eller användning av hormonella preventivmedel. Dessa faktorer kan inte direkt orsaka perioral dermatit, men de kan förvärra befintliga symptom eller utlösa ett utbrott.</p>',
+            content: '<p class="p200">Orsakerna till perioral dermatit är inte fullständigt kartlagda, men det finns flera faktorer som antas bidra till dess utveckling. Problemet är i grunden hormonellt och genetiskt. Användning av topiska steroidkrämer på ansiktet har också varit förknippad med perioral dermatit och kan i vissa fall förvärra symptomen. Faktorer som stress, sol, hormonella förändringar, till exempel menstruationscykeln, graviditet, eller användning av hormonella preventivmedel. Dessa faktorer kan inte direkt orsaka perioral dermatit, men de kan förvärra befintliga symptom eller utlösa ett utbrott.</p>',
             extended_content: '<p class="p200 mt-xl">Många experter menar att en kombination av olika faktorer snarare än en enskild utlösande faktor troligtvis bidrar till utvecklingen av perioral dermatit. Detta inkluderar en benägenhetav genetik, miljöfaktorer som klimat och livsstil, samt potentiella irriterande preparat såsom kosmetika.</p>
             <p class="p200 mt-xl">Överdriven hygien kan också störa hudens naturliga barriärfunktion och bidra till irritation och inflammation. På grund av den multifaktoriella naturen av perioral dermatit, är det ofta nödvändigt med en holistisk strategi för diagnos och behandling som tar hänsyn till individens medicinska historia, livsstil och eventuella utlösande faktorer. En sådan omfattande syn på problemet kan bidra till att identifiera och behandla orsakerna effektivare.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat')
