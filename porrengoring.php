@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Porrengöring | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi porrengöring för att behandla porer. Denna djupgående rengör och exfolierar porerna effektivt. Boka tid hos oss idag →';
-$seo_keywords = 'porrengöring, porrengörare';
+$seo_keywords = 'ansiktsbehandling portömning, por rengöring, porrengöring, pormask tömning, hudbehandling porer, pormaskar behandling, behandling av pormaskar, por rengörare, behandling pormaskar, pormask rengöring, pormask borttagning, rengöring pormaskar, ta bort pormaskar, ta bort porer, rengöra porer, ångbad pormaskar';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
@@ -81,7 +81,7 @@ $top_articles = array(
         image_alt: 'Hur går en porrengöring till?',
         image_title: 'Hur går en porrengöring till?',
         content: '<p class="p200">Porrengöring är en djupgående ansiktsbehandling designad för att effektivt rensa porerna från orenheter såsom pormaskar, finnar och andra former av akne. Denna process bidrar till att minska synligheten av porer genom att avlägsna talg, smuts och döda hudceller. Behandlingen inleds med en varsam rengöring som syftar till att avlägsna yttre orenheter och förbereda huden för ytterligare rengöringssteg.</p>
-        <p class="p200 mt-m">Därefter utförs en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp hudytan och bidrar till att öppna porerna, vilket gör det lättare att varsamt avlägsna blockeringar och rensa ut innehållet på ett skonsamt sätt. För de mest ihärdiga blockeringarna kan en specialanpassad lansett, även kallad porrengörare, användas för att försiktigt göra en liten öppning i poren, vilket möjliggör en noggrann extraktion av innehållet.</p>
+        <p class="p200 mt-m">Därefter utförs en ångbehandling med hjälp av en Vapozon. Ångan mjukar upp hudytan och bidrar till att öppna porerna, vilket gör det lättare att varsamt avlägsna blockeringar och rensa ut innehållet på ett skonsamt sätt. För de mest ihärdiga blockeringarna kan en specialanpassad lansett, användas för att försiktigt göra en liten öppning i poren, vilket möjliggör en noggrann extraktion av innehållet.</p>
         <p class="p200 mt-m">Efter den noggranna rengöringen appliceras en lugnande lermask som verkar för att minska rodnad och strama åt porerna, lämnande huden slät och jämn. Behandlingen avslutas med återfuktning genom en närande dagkräm som hjälper till att återställa hudens fuktbalans och skapa en skyddande barriär mot externa miljöpåverkningar. Målet med porrengöring är inte enbart att djuprengöra porerna utan även att främja hudens hälsa genom att återställa dess naturliga balans och förebygga framtida hudåkommor.</p>',
     ),
 );
