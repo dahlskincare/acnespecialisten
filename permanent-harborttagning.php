@@ -49,7 +49,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är permanent hårborttagning med laser?';
-$description_text = '<p class="p200">Permanent hårborttagning med laser representerar den bästa och mest avancerade metoden för att effektivt och långvarigt ta bort oönskat hår. Denna högteknologiska metod är effektiv på alla kroppsdelar, till exempel ansiktet, benen, armarna, ryggen och intim såsom underlivet och rumpan. Laserbehandlingarna fungerar genom att rikta energi direkt mot hårfolliklarna, vilket förhindrar framtida hårväxt på ett säkert och effektivt sätt.</p>
+$description_text = '<p class="p200">Permanent hårborttagning med laser representerar den bästa och mest avancerade metoden för att effektivt och långvarigt ta bort oönskat hår. Denna högteknologiska metod är effektiv på alla kroppsdelar, till exempel ansiktet, benen, armarna, ryggen och intim såsom underlivet och rumpa. Laserbehandlingarna fungerar genom att rikta energi direkt mot hårfolliklarna, vilket förhindrar framtida hårväxt på ett säkert och effektivt sätt.</p>
 <p class="p200 mt-m">Vår laser hårborttagning är anpassningsbar för alla hud- och hårtyper, och är ett utmärkt alternativ till traditionella metoder som rakning, vaxning eller IPL. Dess unika förmåga att arbeta på flera olika djupnivåer säkerställer en grundlig behandling och minimerar risken för missade hårstrån. Denna smärtfria och tidsbesparande metod ger dig slät och hårfri hud utan behov av återhämtningstid. Vi behandlar de flesta hårtyper, hudfärger och grova strån, men notera att gråa eller röda hårstrån inte kan behandlas med denna teknik.</p>';
 
 $top_articles = array(
