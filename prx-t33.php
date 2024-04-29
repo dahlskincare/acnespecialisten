@@ -510,7 +510,7 @@ $results = array(
     ),
 );
 
-$reviews_title = 'Omdömen';
+$reviews_title = 'PRX T33 recension';
 $reviews = array(
     new Review(
         brand: 'Trustpilot',
