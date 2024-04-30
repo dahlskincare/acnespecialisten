@@ -77,7 +77,7 @@
                             <li><a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a></li>
                             <li><a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a></li>
                             <li><a href="priser" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
-                            
+
                         </ul>
                     </div>
                     <div class="column">
@@ -130,21 +130,19 @@
             </div>
         </div>
         <div class="is-hidden-touch" id="header-large">
-            <div id="left">
-                <a href="/" id="logo">
-                    <img src="images/logo-green.svg" alt="Acnespecialisten logo" title="Acnespecialisten logo" width="160" height="28" />
-                </a>
-                <nav>
-                    <ul>
-                        <li><a href="hudproblem" class="h100 l10n" title="Hudproblem">Hudproblem</a></li>
-                        <li><a href="hudbehandlingar" class="h100 l10n" title="Hudbehandlingar">Behandlingar</a></li>
-                        <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
-                        <li><a href="resultat.php" class="h100 l10n" title="Resultat">Resultat</a></li>
-                        <li><a href="metoden.php" class="h100 l10n" title="Vår metod">Vår metod</a></li>
-                        <li><a href="kontakt.php" class="h100 l10n" title="Kontakt">Kontakt</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <a href="/" id="logo">
+                <img src="images/logo-green.svg" alt="Acnespecialisten logo" title="Acnespecialisten logo" width="160" height="28" />
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="hudproblem" class="h100 l10n" title="Hudproblem">Hudproblem</a></li>
+                    <li><a href="hudbehandlingar" class="h100 l10n" title="Hudbehandlingar">Behandlingar</a></li>
+                    <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
+                    <li><a href="resultat.php" class="h100 l10n" title="Resultat">Resultat</a></li>
+                    <li><a href="metoden.php" class="h100 l10n" title="Vår metod">Vår metod</a></li>
+                    <li><a href="kontakt.php" class="h100 l10n" title="Kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
             <div id="actions">
                 <a class="button text l10n" href="gratis-hudkonsultation.php" title="Boka gratis konsultation">Boka gratis konsultation</a>
                 <div onclick="HeaderDesktop.toggleMenu()">
