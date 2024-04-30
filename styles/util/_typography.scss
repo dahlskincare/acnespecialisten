@@ -69,6 +69,8 @@ p {
 
 * {
     font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    text-rendering: optimizeLegibility !important;
 }
 
 
