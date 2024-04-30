@@ -36,12 +36,13 @@ html {
                 padding: $xs 0;
                 box-sizing: border-box;
                 text-align: center;
-                background-color: $deep-sea-400;
-                color: $white-500;
+                background-color: $white-500;
+                color: $black-500;
+                border-bottom: 1px solid $light-100;
 
                 span.important-notice-highlight {
-                    background-color: $white-500;
-                    color: $deep-sea-400;
+                    background-color: $deep-sea-500;
+                    color: $white-500;
                     border-radius: 36px;
                     padding: 2px $xxs;
                     margin-right: 2px;
@@ -55,9 +56,8 @@ html {
                 }
 
                 a {
-                    @include p100;
-                    color: $white-500;
-                    text-decoration: underline;
+                    @include h100;
+                    color: $deep-sea-400;
                 }
 
             }
