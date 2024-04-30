@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Torr hy i Ansiktet | AcneSpecialisten';
 $seo_description = 'Torr hy är en vanlig typ av problemhy. På AcneSpecialisten hjälper vi dig att behandla torr hy med skräddarsydda lösningar för dig. Läs mer och boka tid i dag →';
-$seo_keywords = 'torr hy, torr hud, torr hud ansikte, fjällar';
+$seo_keywords = 'torr hud, torr hud ansikte, fjällar, torr i ansiktet, torrt ansikte, torr hy, torr hud i ansiktet flagnar, flagnar i ansiktet, varför flagnar huden, huden flagnar, torr hy finnar, torr hy med acne, torr t zon';
 
 $title = 'Torr och Känslig Hy';
 
@@ -88,7 +88,7 @@ $trivias = array(
             <p class="p200 mt-xl">Minskad oljeproduktion:<br />Torr hud producerar mindre talg, den naturliga oljan som hjälper till att behålla fukten i huden. När talgproduktionen minskar, kan huden inte behålla fukt lika effektivt, vilket leder till att den blir torr och stram.</p>
             <p class="p200 mt-xl">Försämrad fuktbarriär:<br />Hudens yttre lager, kallat stratum corneum, fungerar som en barriär som skyddar kroppen mot yttre påverkan och hjälper till att behålla fukt. Torr hud har ofta en skadad eller försämrad barriär, vilket gör den mer sårbar för miljöskador som solstrålning och föroreningar. Detta kan accelerera hudens åldrandeprocess.</p>
             <p class="p200 mt-xl">Ökad tendens till fina linjer och rynkor:<br />När huden är torr och uttorkad, blir fina linjer och rynkor mer framträdande. Fuktighet är avgörande för att ge huden dess fylliga, elastiska utseende. Utan tillräcklig fuktighet kan huden inte "plumpas upp" från insidan, vilket gör att tecken på åldrande blir mer synliga.</p>
-            <p class="p200 mt-xl">Känslighet för irritation:<br />Torr hud är mer benägen att bli irriterad, vilket kan leda till inflammation. Kronisk inflammation kan bryta ner kollagen och elastin i huden, vilket är proteiner som är viktiga för hudens struktur och elasticitet. När dessa proteiner bryts ner, förlorar huden sin fasthet och rynkor bildas lättare.</p>
+            <p class="p200 mt-xl">Känslighet för irritation:<br />Torr hud är mer benägen att bli irriterad, vilket kan leda till inflammation och hud som svider. Kronisk inflammation kan bryta ner kollagen och elastin i huden, vilket är proteiner som är viktiga för hudens struktur och elasticitet. När dessa proteiner bryts ner, förlorar huden sin fasthet och rynkor bildas lättare.</p>
             <p class="p200 mt-xl">Långsam cellomsättning:<br />Torr hud kan också ha en långsammare cellomsättning eller cellförnyelse. Detta innebär att gamla, döda hudceller stannar kvar på hudytan längre, vilket kan ge huden ett tråkigt, åldrat utseende.</p>
             <p class="p200 mt-xl">För att motverka de åldrande effekterna av torr hud är det viktigt att fokusera på återfuktning och näring. Detta kan inkludera användning av återfuktande behandlngar och hudvårdsprodukter, dricka tillräckligt med vatten, och skydda huden från solen med hjälp av solskydd. Genom att bibehålla hudens fuktighetsnivåer och skydda den mot yttre påfrestningar kan man hjälpa till att sakta ner åldrandeprocessen.</p>',
             icons: array()
@@ -96,7 +96,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man torr och känslig hy?',
-            content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Vissa hudvårdsprodukters irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som seborré i ansiktet, psoriasis och eksem, bidra till problemet, eller att man får torr hy med finnar. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
+            content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer och plötsligt orsaka torr hud. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Vissa hudvårdsprodukters irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som seborré i ansiktet, psoriasis och eksem, bidra till problemet, eller att man får torr hy med acne eller finnar. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som dålig kost och brist på vattenintag kan också spela en roll. En diet som är låg i essentiella fettsyror och vitaminer som vitamin E kan påverka hudens förmåga att behålla fukt. Stress och brist på sömn har också visat sig förvärra hudens känslighet och kan leda till ytterligare uttorkning och irritation. Det är viktigt att förstå att en kombination av dessa faktorer oftast ligger bakom problemet, och därför kan en holistisk plan till behandling och förebyggande vara mest effektiv.</p>',
             icons: array('produkter' => 'Produkter', 'stress' => 'Stress', 'klimat' => 'Klimat')
       ),
@@ -743,7 +743,7 @@ $faq_categories = array(
                   text: '<p class="p200">Det kan vara svårt att skilja på torr hud och andra hudåkommor som eksem eller seborré utan professionell diagnos. Torr hud är generellt sett karakteriserad av torrhet och flagnande hud, medan eksem och seborré oftast innefattar rodnad, inflammation och ibland klåda. Om du är osäker, är det bäst att söka professionell rådgivning för att fastställa den exakta orsaken och få en anpassad behandlingsplan.</p>'
             ),
             new Question(
-                  title: 'Varför flagnar huden?',
+                  title: 'Varför flagnar och fjällar huden?',
                   text: '<p class="p200">Hudflagnande är ett tecken på att kroppen avlägsnar döda hudceller från ytan för att ge plats åt nya celler. Detta kan orsakas av flera faktorer, inklusive torr hud, solbränna, allergiska reaktioner, vissa hudsjukdomar som eksem eller psoriasis, och efter vissa hudbehandlingar som kemiska peelingar. Att hålla huden återfuktad är viktigt för att minska risken för fjällande hud i ansiktet och på andra delar av kroppen. Om du upplever kraftig eller ihållande flagnande bör du konsultera en hudterapeut för att utesluta underliggande hudtillstånd och få lämplig behandling.</p>'
             ),
       ),

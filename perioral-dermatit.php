@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Perorial Dermatit | AcneSpecialisten';
 $seo_description = 'Har du utslag runt munnen? Då kan det vara perioral dermatit. Boka en gratis hudkonsultation så skräddarsyr vi rätt behandling →';
-$seo_keywords = 'perioral dermatit, finnar som kliar, acne runt munnen, finnar vid munnen, akne runt munnen, finnar runt munnen, perioral dermatit sol';
+$seo_keywords = 'perioral dermatit, finnar på hakan, finnar runt munnen, perioral dermatit behandling, utslag runt munnen, perioral dermatit bilder, perioral dermatit produkter, perioral dermatit näsan, behandla perioral dermatit, utslag perioral dermatit, varför får man perioral dermatit';
 
 $title = 'Perioral Dermatit';
 
@@ -20,7 +20,7 @@ $image_small = 'bilder/hudproblem/424x324/perioral-dermatit.webp';
 $image_large = 'bilder/hudproblem/424x456/perioral-dermatit.webp';
 $image_title = 'Visar en hud med perioral dermatit';
 $image_alt = 'Bild som illustrerar hur perioral dermatit ser ut på huden';
-$description = 'Perioral dermatit kan beskrivas som utslag och eksem runt munnen, och uppstår som finnar som kliar i ansiktet. Här läser du mer om vad som kännetecknar perioral dermatit, varför problemet uppstår och hur vi kan hjälpa dig att behandla det.';
+$description = 'Perioral dermatit kan beskrivas som utslag och eksem runt munnen, men kan också uppstå som finnar som kliar i ansiktet. Här hittar du mer information om vad som kännetecknar perioral dermatit, varför problemet uppstår och hur vi kan hjälpa dig att behandla det.';
 
 $akas = [
       new Link(
