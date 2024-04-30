@@ -53,7 +53,7 @@ $define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar akne?';
 $define_image_title = 'Hur vi tar bort och behandlar akne?';
 
-$define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg för varje återbesök. Du kommer att få en personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp, oavsett om du har problem med acne i ditt ansikte, på bröstet eller på ryggen. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg för varje återbesök. Du kommer att få en personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $define_consultation_link_label = "Boka Gratis Konsultation";

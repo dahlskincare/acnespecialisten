@@ -206,8 +206,8 @@ $faq_categories = array(
                   text: 'Acne Vulgaris är den mest förekommande formen av acne och karaktäriseras av en blandning av hudutslag inklusive pormaskar, finnar och ibland cystor, till skillnad från andra former som kan vara mer specifika i sina utslag.'
             ),
             new Question(
-                  title: 'Kan Acne Vulgaris påverka vuxna?',
-                  text: 'Ja, även om Acne Vulgaris är vanligast hos tonåringar, kan det definitivt påverka vuxna också, särskilt kvinnor, på grund av hormonella förändringar och andra faktorer.'
+                  title: 'Kan Akne Vulgaris påverka vuxna?',
+                  text: 'Ja, även om Akne Vulgaris är vanligast hos tonåringar, kan det definitivt påverka vuxna också, särskilt kvinnor, på grund av hormonella förändringar och andra faktorer.'
             ),
             new Question(
                 title: 'När bör man söka professionell hjälp för Acne Vulgaris och kan det förebyggas?',

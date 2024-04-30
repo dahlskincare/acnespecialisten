@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Cystisk Akne och Nodulocystisk Akne | AcneSpecialisten';
 $seo_description = 'Läs om vad cystisk acne, även kallat nodulocystisk acne, är samt hur du kan behandla den. Hos oss börjar du med en kostnadsfri konsultation →';
-$seo_keywords = 'cystisk akne, nodulocystisk akne, nodulär akne, acne nodulocystica';
+$seo_keywords = 'cystisk akne, nodulocystisk akne, nodulär akne, acne nodulocystica, akne cystor, cystic acne svenska, cystisk acne, cystisk akne behandling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 

@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Tonårsakne | AcneSpecialisten';
 $seo_description = 'Behandla tonårsacne på ett effektivt sätt hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation och få en skräddarsydd behandlingsplan →';
-$seo_keywords = 'tonårsakne';
+$seo_keywords = 'tonårsakne, tonårsacne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 

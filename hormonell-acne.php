@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Hormonell Akne och Hormon Finnar | AcneSpecialisten';
 $seo_description = 'Kämpar du med hormon acne eller hormon finnar? Läs om orsaker, symptom och hur du kan hantera hormonella finnar med rätt behandlingarr och hudvårdsrutiner.';
-$seo_keywords = 'akne hormonell, acne hormonell, hormonell akne, hormon akne, hormonell akne behandling, hormonella finnar, hormon finnar';
+$seo_keywords = 'hormonell acne, hormonell akne, hormon finnar, hormonella finnar, hormonell akne behandling, hormonell akne vuxen, hormonella finnar vuxen, hormonfinnar, acne hormonell, hormonell akne haka, hormonfinnar hakan, hormonell akne produkter, hormon akne, hormonell acne kinder, hudvård hormonell acne, behandla hormonell acne, akne hormonell';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -18,12 +18,12 @@ $path_segments = array(
       new PathSegment('Hormonell Acne', '/hormonell-acne.php'),
 );
 
-$title = 'Hormonell Akne';
+$title = 'Hormonell Acne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
-$image_title = 'Effektiv Behandling av hormonell akne';
-$image_alt = 'Bild som visar behandlingsmetoder för hormonell akne';
+$image_title = 'Effektiv Behandling av hormonell acne';
+$image_alt = 'Bild som visar behandlingsmetoder för hormonell acne';
 $description = 'Hormonell akne, eller hormon finnar ofta ett problem inte bara under tonåren utan även för vuxna, är ett vanligt hudtillstånd som påverkar många. Denna typ av akne uppstår när hormonella förändringar, såsom de som sker under menstruationscykeln, graviditet, eller på grund av vissa medicinska tillstånd, stimulerar en överproduktion av olja i huden.';
 
 $akas = [
@@ -44,30 +44,30 @@ $akas = [
       ),
 ];
 
-$floating_box = 'Behandla dina hormonell akne effektivt.';
+$floating_box = 'Behandla dina hormonell acne effektivt.';
 
 $consultation_url_label = "Boka gratis konsultation";
 $consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Gratis Konsultation för hormonell akne";
+$consultation_url_title = "Gratis Konsultation för hormonell acne";
 
 $booking_url_label = "Boka behandling";
 $booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $booking_url_title = "Boka behandling";
 
 $mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för hormonell akne";
+$mobile_consultation_url_title = "Gratis Konsultation för hormonell acne";
 
 $mobile_booking_url_label = "Boka behandling";
 $mobile_booking_url_title = "Boka behandling";
 
 $floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för hormonell akne";
+$floating_consultation_url_title = "Gratis Konsultation för hormonell acne";
 
 $floating_booking_url_label = "Boka behandling";
 $floating_booking_url_title = "Boka behandling";
 
 $nav_buttons = array(
-      'about' => 'Om hormonell akne',
+      'about' => 'Om hormonell acne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'Varför er?',
@@ -80,8 +80,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Hur vet jag om min akne är hormonell?';
-$description_text = '<p class="p200">Hormonell akne, ofta känd som hormon acne eller hormon finnar, är ett tillstånd där huden blir utsatt för utbrott som är direkt kopplade till kroppens hormonella förändringar och obalanser. Denna typ av akne skiljer sig från andra former av akne genom att den är starkt kopplad till svängningar i hormonerna, vilket kan påverka hudens tillstånd. Hormonella obalanser kan leda till ökad talgproduktion i huden, vilket i sin tur kan täppa till porerna och skapa en gynnsam miljö för bakterietillväxt och inflammation. Hormonell akne är särskilt vanlig under puberteten, men det är inte ovanligt att vuxna, och i synnerhet kvinnor, upplever dessa hudutslag. Hos kvinnor kan akne hormonell vara kopplad till menstruationscykeln, graviditet eller användning av preventivmedel. Hos både män och kvinnor kan stress och vissa livsstilsfaktorer också påverka hormonbalansen och därmed bidra till hormonella akneutbrott.</p>
-<p class="p200 mt-m">Behandlingen av hormonell akne utan att rubba hudens naturliga hormoner fokuserar på en helhetslösning som kombinerar rätt behandlingar med rätt hudvårdsprodukter. Denna metod kombinerar extraktioner på klinik för att tömma aknen, med en skräddarsydd hudvårdsrutin som används hemma. Med hjälp av en hudterapeut som guidar dig genom hela processen kan du kontrollera din hormonella acne effektivt.</p>';
+$description_text = '<p class="p200">Hormonell acne, ofta känd som hormon acne eller hormon finnar, är ett tillstånd där huden blir utsatt för utbrott som är direkt kopplade till kroppens hormonella förändringar och obalanser. Denna typ av akne skiljer sig från andra former av akne genom att den är starkt kopplad till svängningar i hormonerna, vilket kan påverka hudens tillstånd. Hormonella obalanser kan leda till ökad talgproduktion i huden, vilket i sin tur kan täppa till porerna och skapa en gynnsam miljö för bakterietillväxt och inflammation. Hormonell acne är särskilt vanlig under puberteten, men det är inte ovanligt att vuxna, och i synnerhet kvinnor, upplever dessa hudutslag. Hos kvinnor kan akne hormonell vara kopplad till menstruationscykeln, graviditet eller användning av preventivmedel. Hos både män och kvinnor kan stress och vissa livsstilsfaktorer också påverka hormonbalansen och därmed bidra till hormonella akneutbrott.</p>
+<p class="p200 mt-m">Behandlingen av acne som är hormonell utan att rubba hudens naturliga hormoner fokuserar på en helhetslösning som kombinerar rätt behandlingar med rätt hudvårdsprodukter. Denna metod kombinerar extraktioner på klinik för att tömma aknen, med en skräddarsydd hudvårdsrutin som används hemma. Med hjälp av en hudterapeut som guidar dig genom hela processen kan du kontrollera din hormonella acne effektivt.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -89,32 +89,32 @@ $treatment_steps = array(
             content: 'Vår specialiserade konsultation på AcneSpecialisten är avsedd att djupdyka i de unika egenskaperna hos din hormonella akne.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för hormonell akne idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation för hormonell acne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för hormonell akne är skräddarsydda för att passa just din hudtyp och dess unika behov.',
+            content: 'Våra behandlingar för hormonell acne är skräddarsydda för att passa just din hudtyp och dess unika behov.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra behandlingar för hormonell akne'
+            url_title: 'Utforska våra behandlingar för hormonell acne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av hormonell akne, erbjuder vi specialdesignade hudvårdsprodukter och rutiner.',
+            content: 'För att förebygga framtida utbrott av hormonell acne, erbjuder vi specialdesignade hudvårdsprodukter och rutiner.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga hormonell akne'
+            url_title: 'Hitta de bästa produkterna för att förebygga hormonell acne'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'När vi har behandlat den aktiva hormonella aknen, inriktar vi oss på att reparera och förbättra hudens kvalitet.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av hormonell akne'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av hormonell acne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot hormonell akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hormonell akne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot hormonell acne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hormonell acne</a>';
 
 $results = array(
       new ResultCustomer(
@@ -195,16 +195,16 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Vad är hormonell akne?',
-                text: 'Hormonell akne är en typ av akne som främst drivs av hormonella förändringar och obalanser i kroppen. Den är vanlig hos tonåringar under puberteten men kan även påverka vuxna, särskilt kvinnor, på grund av cykliska hormonförändringar, graviditet, användning av vissa typer av preventivmedel eller hormonrelaterade tillstånd.'
+                title: 'Varför är acne hormonell?',
+                text: 'Hormonell acne är en typ av akne som främst drivs av hormonella förändringar och obalanser i kroppen. Den är vanlig hos tonåringar under puberteten men kan även påverka vuxna, särskilt kvinnor, på grund av cykliska hormonförändringar, graviditet, användning av vissa typer av preventivmedel eller hormonrelaterade tillstånd.'
             ),
             new Question(
-                title: 'Hur får man bort hormonell akne?',
-                text: 'Att effektivt hantera hormonell akne börjar med att utvärdera din hudvårdsrutin och produkter. En skräddarsydd hudvårdsrutin framtagen av en hudterapeut kan göra stor skillnad. Denna rutin kan inkludera användning av hudvårdsprodukter och specifika behandlingar som är anpassade för att lugna inflammation och reglera talgproduktionen, samt produkter som hjälper till att balansera hudens naturliga barriär. Regelbunden professionell behandling, såsom djuprengörande ansiktsbehandlingar och milda peelingar, kan också vara avgörande för att minska och förebygga utbrott.'
+                title: 'Hur får man bort hormonell acne?',
+                text: 'Att effektivt hantera hormonell acne börjar med att utvärdera din hudvårdsrutin och produkter. En skräddarsydd hudvårdsrutin framtagen av en hudterapeut kan göra stor skillnad. Denna rutin kan inkludera användning av hudvårdsprodukter och specifika behandlingar som är anpassade för att lugna inflammation och reglera talgproduktionen, samt produkter som hjälper till att balansera hudens naturliga barriär. Regelbunden professionell behandling, såsom djuprengörande ansiktsbehandlingar och milda peelingar, kan också vara avgörande för att minska och förebygga utbrott.'
             ),
             new Question(
-                title: 'Varför får man hormonell akne?',
-                text: 'Hormonell akne orsakas av variationer i kroppens hormonnivåer, särskilt en ökning av androgener som stimulerar överproduktion av talg i huden. Detta leder till tilltäppta porer och inflammation som uppstår i form av akne. Kvinnor kan uppleva ökade hormonförändringar i samband med menstruationscykel, graviditet, förlossning, amning eller i övergångsåldern, vilket gör dem mer benägna att utveckla hormonell akne.'
+                title: 'Varför får man hormonell acne?',
+                text: 'Hormonell acne orsakas av variationer i kroppens hormonnivåer, särskilt en ökning av androgener som stimulerar överproduktion av talg i huden. Detta leder till tilltäppta porer och inflammation som uppstår i form av akne. Kvinnor kan uppleva ökade hormonförändringar i samband med menstruationscykel, graviditet, förlossning, amning eller i övergångsåldern, vilket gör dem mer benägna att utveckla hormonell acne.'
             ),
       ),
 );
