@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne behandling i Stockholm hos AcneSpecialisten';
 $seo_description = 'Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av aknebehandlingar, börja din resa med en gratis hudkonsultation i stockholm eller online';
-$seo_keywords = 'akne behandling, behandla akne, aknebehandling, acnebehandling, acne behandling, få bort akne, få bort acne, ta. bort akne, ta bort acne';
+$seo_keywords = 'akne behandling, akne medicin, acne behandling, bästa akne behandling, ansikte behandling, aknebehandling, behandling acne, få bort acne, ta bort acne, hormonell akne behandling, behandla acne, behandla akne, bli av med acne, bli av med akne, få bort akne, hur blir man av med akne';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -70,22 +70,22 @@ $services = array(
         image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
 
-        title: 'Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling mot Acne',
         duration: '60 minuter',
         price: 'Pris från 1295 kr',
-        content: '<p class="p200">Ansiktsbehandling mot akne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Det är viktigt att låta en hudterapeut klämma finnar och extrahera porerna. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Ansiktsbehandling mot acne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Det är viktigt att låta en hudterapeut klämma finnar och extrahera porerna. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Akne på Acnespecialisten',
+        consultation_url_title: 'Boka Hudkonsultation mot Acne på Acnespecialisten',
 
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_facial',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Akne på Acnespecialisten',
+        booking_url_title: 'Boka Din Ansiktsbehandling mot Acne på Acnespecialisten',
 
         url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
-        url_label: 'Läs mer om ansiktsbehandling mot akne',
-        url_title: 'Läs mer om ansiktsbehandling mot akne',
+        url_label: 'Läs mer om ansiktsbehandling mot acne',
+        url_title: 'Läs mer om ansiktsbehandling mot acne',
 
         // short_title: 'Ansiktsbehandling'
 
