@@ -60,13 +60,7 @@ section#banner {
             align-items: center;
             justify-content: space-between;
 
-            .icon-trustpilot {
-                svg {
-                    * {
-                        stroke: $white-500;
-                    }
-                }
-            }
+
         }
     }
 
@@ -86,7 +80,7 @@ section#banner {
             margin-top: $m;
             text-align: center;
 
-            .icon-trustpilot {
+            .icon-trustpilot-green {
                 margin-left: $xxs;
                 display: inline-block;
             }

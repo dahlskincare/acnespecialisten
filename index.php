@@ -42,7 +42,7 @@
                                     <div id="banner-bar-cols">
                                           <div>
                                                 <span class="h500">4,8</span>
-                                                <?php icon('trustpilot') ?>
+                                                <?php icon('trustpilot-green') ?>
                                                 <div class="p200 l10n">På Trustpilot</div>
                                           </div>
                                           <div>
@@ -60,11 +60,11 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">4,8</span>
                                                 <div>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
+                                                      <?php icon('trustpilot-green') ?>
+                                                      <?php icon('trustpilot-green') ?>
+                                                      <?php icon('trustpilot-green') ?>
+                                                      <?php icon('trustpilot-green') ?>
+                                                      <?php icon('trustpilot-green-half') ?>
                                                       <div class="p200 l10n">På Trustpilot</div>
                                                 </div>
                                           </div>
