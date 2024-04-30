@@ -67,8 +67,11 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Fet Hy?';
-$description_text = '<p class="p200">Fet hy eller flottig hud kännetecknas av ökad talgproduktion vilket ger en oljig yta och kan leda till tilltäppta porer och acne. Det är viktigt att hantera fet hy med rätt produkter och behandlingar för att balansera talgproduktionen och bibehålla en klar hudton.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade behandlingar för fet hy. Detta inkluderar djuprengörande ansiktsbehandlingar, användning av specialprodukter för att reglera talgproduktionen, och behandlingar som effektivt tar itu med acne och andra hudproblem som ofta förekommer hos personer med fet hy. Vårt mål är att hjälpa dig uppnå en balanserad, klar och frisk hud.</p>';
+$description_text = '<p class="p200">Fet hy, även kallad flottig hud, är en av de vanligaste hudtyperna. Den kännetecknas av överproduktion av talg, vilket resulterar i en oljig yta som kan leda till tilltäppta porer och acne. Fet hy uppstår när porerna producerar för mycket talg, vilket är kroppens naturliga fett som hjälper till att återfukta huden. En naturlig reaktion är att sluta återfukta huden för att minska talgproduktionen, men detta kan istället leda till att huden blir ännu fetare.</p>
+
+<p class="p200 mt-m">Orsakerna till fet hy kan vara många, inklusive långvarig användning av uttorkande hudvårdsprodukter, vilket triggar en överproduktion av talg som kompensation. Dessutom kan fet hy vara ärftlig eller hormonellt betingad, vilket är en vanlig anledning till att problemen ofta uppstår i tonåren. Miljöpåverkan kan också spela en roll, särskilt under vinterhalvåret när huden tenderar att bli torrare. Mäns talgproduktion påverkas också i mindre utsträckning av hormonella förändringar jämfört med kvinnor, vilket kan göra kvinnors hy mer benägen att bli oljig.</p>
+
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade behandlingar för att balansera och förbättra hudens tillstånd. Dessa inkluderar djuprengörande ansiktsbehandlingar, specialprodukter för att reglera talgproduktionen, och behandlingar som effektivt tar itu med akne och andra hudproblem kopplade till fet hy. Vårt mål är att hjälpa dig uppnå en balanserad, klar och frisk hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -106,7 +109,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Hudproblemet kännetecknas ofta av en ökad talgproduktion i specifika områden såsom fet hy i ansiktet, problemet är vanligast i  T-zonen som inkluderar pannan, näsan och hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
+            content: '<p class="p200">Hudproblemet kännetecknas ofta av en ökad talgproduktion i vilket leder till blank hud i ansiktet, problemet är vanligast i T-zonen med oljig hy i pannan, på näsan och på hakan. Dessa områden har en högre koncentration av talgkörtlar, vilket kan leda till en mer oljig hudton jämfört med andra delar av ansiktet.</p>
       <p class="p200 mt-m">Orsaken till fet hy i dessa områden kan variera och inkluderar faktorer som genetik, hormonella förändringar och yttre miljöpåverkan. Att förstå de specifika orsakerna och hur de påverkar din hud är avgörande för att kunna välja rätt behandlingsmetoder och hudvårdsprodukter. Hos AcneSpecialisten genomför vi en noggrann hudanalys för att identifiera dina unika hudbehov och utforma en personlig behandlingsplan för att hantera fet hy effektivt.</p>',
       ),
 );
