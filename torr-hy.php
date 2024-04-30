@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Torr hy i Ansiktet | AcneSpecialisten';
-$seo_description = 'Torr hy är en vanlig typ av problemhy. På AcneSpecialisten hjälper vi dig att behandla torr hy med skräddarsydda lösningar för dig. Läs mer och boka tid i dag →';
+$seo_description = 'Torr hy är en vanlig typ av hudproblem. På AcneSpecialisten hjälper vi dig att behandla torr hy med skräddarsydda lösningar för dig. Läs mer och boka tid i dag →';
 $seo_keywords = 'torr hud, torr hud ansikte, fjällar, torr i ansiktet, torrt ansikte, torr hy, torr hud i ansiktet flagnar, flagnar i ansiktet, varför flagnar huden, huden flagnar, torr hy finnar, torr hy med acne, torr t zon';
 
 $title = 'Torr och Känslig Hy';
@@ -20,7 +20,7 @@ $image_small = 'bilder/hudproblem/424x324/torr-kanslig-hy.webp';
 $image_large = 'bilder/hudproblem/424x456/torr-kanslig-hy.webp';
 $image_title = 'Visar en hy som är torr och känslig';
 $image_alt = 'Bild som illustrerar hur torr och känslig hy ser ut';
-$description = 'Torr fjällande hud i ansiktet samt känslig hy är benägen att rodna med irritation och flagnande hy. Torr hud och akne är vanligt förekomande och här får du mer information mer information om problemhy i ansiktet samt hur denna hudtyp kan bäst behandlas.';
+$description = 'Känslig och torr fjällande hud i ansiktet är något många lider av. Flagnande hud har lättare att få problem med acne och finnar och kan utöver ansiktet även påverka specifika områden som panna, t-zon, eller hakan. Här får du mer information mer information om hudproblemet samt hur denna hudtyp kan bäst behandlas.';
 
 $akas = [
       new Link(
