@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Fet Hy i Ansiktet - Oljig T-Zon | AcneSpecialisten';
 $seo_description = 'Läs mer om fet hud och hur vi kan hjäpla dig att bli av med fet hy i ansiktet. Boka en konsultation idag och få skräddarsydd hudvård för just din hy!';
-$seo_keywords = 'fet hy, fet hud, fet och torr hy, hudvård för fet hy, flottig, ansiktskräm fet hy, fet hy i ansiktet, hudvård för fet hy';
+$seo_keywords = 'oljig hy, ansiktskräm fet hy, fet hy, oljig hud, oljig, fet hud, hudvård för oljig hy, extremt oljig hy, fet hy i ansiktet, flottig, hudvård för fet hy, oljig hy i pannan, fet och torr hy, glansig hy';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamedier eller sms
 
