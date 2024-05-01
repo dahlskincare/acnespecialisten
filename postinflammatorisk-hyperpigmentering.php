@@ -175,12 +175,12 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Kan postinflammatorisk hyperpigmentering vara permanent?',
-                text: 'Postinflammatorisk hyperpigmentering (PIH) är vanligtvis inte permanent. Med rätt behandling och hudvårdsrutiner kan de mörka fläckarna blekna över tid. Dock kan processen vara långsam, och utan rätt behandling kan PIH kvarstå i flera år.'
+                  title: 'Kan postinflammatorisk hyperpigmentering vara permanent?',
+                  text: 'Postinflammatorisk hyperpigmentering (PIH) är vanligtvis inte permanent. Med rätt behandling och hudvårdsrutiner kan de mörka fläckarna blekna över tid. Dock kan processen vara långsam, och utan rätt behandling kan PIH kvarstå i flera år.'
             ),
             new Question(
-                title: 'Vilka är de första stegen i att behandla hyperpigmentering?',
-                text: 'Det första steget i att behandla postinflammatorisk hyperpigmentering (PIH) är att boka en konsultation hos en hudterapeut. En expert kan utvärdera din hud och ta fram en skräddarsydd hudvårdsrutin. Denna rutin kan inkludera både produkter och professionella behandlingar som är effektiva för att reducera och potentiellt eliminera hyperpigmentering.'
+                  title: 'Vilka är de första stegen i att behandla hyperpigmentering?',
+                  text: 'Det första steget i att behandla postinflammatorisk hyperpigmentering (PIH) är att boka en konsultation hos en hudterapeut. En expert kan utvärdera din hud och ta fram en skräddarsydd hudvårdsrutin. Denna rutin kan inkludera både produkter och professionella behandlingar som är effektiva för att reducera och potentiellt eliminera hyperpigmentering.'
             ),
       ),
 );
@@ -514,19 +514,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

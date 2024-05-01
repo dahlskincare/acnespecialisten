@@ -210,8 +210,8 @@ $faq_categories = array(
                   text: 'Ja, även om Acne Vulgaris är vanligast hos tonåringar, kan det definitivt påverka vuxna också, särskilt kvinnor, på grund av hormonella förändringar och andra faktorer.'
             ),
             new Question(
-                title: 'När bör man söka professionell hjälp för Acne Vulgaris och kan det förebyggas?',
-                text: 'Du behöver inte vänta med att söka professionell hjälp från en hudterapeut. Att få hjälp tidigt kan inte bara behandla de nuvarande hudproblemen effektivt utan också agera förebyggande genom att minska risken för framtida utbrott och ärrbildning. En anpassad behandlingsplan kan ge dig de verktyg och kunskaper som krävs för att hantera din hud på bästa sätt.'
+                  title: 'När bör man söka professionell hjälp för Acne Vulgaris och kan det förebyggas?',
+                  text: 'Du behöver inte vänta med att söka professionell hjälp från en hudterapeut. Att få hjälp tidigt kan inte bara behandla de nuvarande hudproblemen effektivt utan också agera förebyggande genom att minska risken för framtida utbrott och ärrbildning. En anpassad behandlingsplan kan ge dig de verktyg och kunskaper som krävs för att hantera din hud på bästa sätt.'
             ),
       ),
 );
@@ -545,19 +545,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

@@ -300,87 +300,87 @@ $skin_guide_view_more = 'Se alla artiklar';
 
 $specialists_title = 'Våra hudterpaueter';
 $specialists = array(
-      new Specialist(
-            name: 'Cazzandra Lindberg',
-            title: 'Hudterapeut sedan 2015',
-            image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
-            image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
-            image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
-      ),
-      new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/312x312/hudterapeut-veronika.webp',
-            image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
-            image_title: 'Veronika Benedik - Specialist inom aknevård'
-      ),
-      new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'images/specialists/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
-      ),
-      new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2019',
-            image: 'images/specialists/312x312/hudterapeut-vilma.webp',
-            image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
-            image_title: 'Vilma Libom - Expert inom aknebehandling'
-      )
+    new Specialist(
+        name: 'Cazzandra Lindberg',
+        title: 'Hudterapeut sedan 2015',
+        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i aknebehandling',
+        image_title: 'Cazzandra Lindberg - Expert på aknebehandling'
+    ),
+    new Specialist(
+        name: 'Veronika Benedik',
+        title: 'Hudterapeut sedan 1999',
+        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på akne',
+        image_title: 'Veronika Benedik - Specialist inom aknevård'
+    ),
+    new Specialist(
+        name: 'Amira Maqboul',
+        title: 'Hudterapeut sedan 2017',
+        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom aknehantering',
+        image_title: 'Amira Maqboul - Hudterapeut specialiserad på akne'
+    ),
+    new Specialist(
+        name: 'Vilma Libom',
+        title: 'Hudterapeut sedan 2019',
+        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot aknebehandling',
+        image_title: 'Vilma Libom - Expert inom aknebehandling'
+    )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
 
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
-            label: 'DAHL Skincare',
-            image: 'bilder/logotyper/dahl-skincare.webp',
-            image_alt: 'DAHL Skincare logotyp',
-            image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
-            url_title: 'DAHL Skincare',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            image_alt: 'Alma logotyp',
-            url: '/varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'Alma Hybrid',
-            image: 'bilder/logotyper/alma-hybrid.svg',
-            image_title: 'Alma Hybrid - CO2 laser',
-            image_alt: 'Alma Hybrid logotyp',
-            url: '/alma-hybrid-co2-laser.php',
-            url_title: 'Läs mer om Alma Hybrid CO2 laser',
-      ),
-      new Brand(
-            label: 'Harmony XL Pro',
-            image: 'bilder/logotyper/harmony-xl-pro.png',
-            image_title: 'Harmony XL Pro - Laser & IPL',
-            image_alt: 'Harmony XL Pro logotyp',
-            url: '/alma-harmony-xl-pro.php',
-            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'bilder/logotyper/dermapen.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
-            url: '/dermapen.php',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'Skin Tech',
-            image: 'bilder/logotyper/skin-tech.svg',
-            image_title: 'Skin Tech - Professionella kemiska peelingar',
-            image_alt: 'Skin Tech logotyp',
-            url: '/varumarken/skin-tech',
-            url_title: 'Läs mer om Skin Techs kemiska peelingar',
-      ),
+        label: 'DAHL Skincare',
+        image: 'bilder/logotyper/dahl-skincare.webp',
+        image_alt: 'DAHL Skincare logotyp',
+        image_title: 'DAHL Skincare - hudvårdsprodukter',
+        url: 'https://dahlskincare.se',
+        url_title: 'DAHL Skincare',
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'bilder/logotyper/alma.svg',
+        image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+        image_alt: 'Alma logotyp',
+        url: '/varumarken/alma',
+        url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+    ),
+    new Brand(
+        label: 'Alma Hybrid',
+        image: 'bilder/logotyper/alma-hybrid.svg',
+        image_title: 'Alma Hybrid - CO2 laser',
+        image_alt: 'Alma Hybrid logotyp',
+        url: '/alma-hybrid-co2-laser.php',
+        url_title: 'Läs mer om Alma Hybrid CO2 laser',
+    ),
+    new Brand(
+        label: 'Harmony XL Pro',
+        image: 'bilder/logotyper/harmony-xl-pro.png',
+        image_title: 'Harmony XL Pro - Laser & IPL',
+        image_alt: 'Harmony XL Pro logotyp',
+        url: '/alma-harmony-xl-pro.php',
+        url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
+    ),
+    new Brand(
+        label: 'Dermapen',
+        image: 'bilder/logotyper/dermapen.svg',
+        image_alt: 'Dermapen Brand Logo',
+        image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+        url: '/dermapen.php',
+        url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+    ),
+    new Brand(
+        label: 'Skin Tech',
+        image: 'bilder/logotyper/skin-tech.svg',
+        image_title: 'Skin Tech - Professionella kemiska peelingar',
+        image_alt: 'Skin Tech logotyp',
+        url: '/varumarken/skin-tech',
+        url_title: 'Läs mer om Skin Techs kemiska peelingar',
+    ),
 );
 ?>
 <!DOCTYPE html>
@@ -633,19 +633,7 @@ $all_brands = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n"><?php echo $reviews_title ?></h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

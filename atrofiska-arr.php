@@ -186,20 +186,20 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Kan atrofiska ärr försvinna naturligt över tid?',
-                text: 'Atrofiska ärr kan blekna något över tid, men de försvinner sällan helt utan behandling. Gradvis kan vissa ytliga ärr bli mindre märkbara, men djupare ärr kräver ofta specifika behandlingsmetoder för att signifikant minska deras utseende.'
+                  title: 'Kan atrofiska ärr försvinna naturligt över tid?',
+                  text: 'Atrofiska ärr kan blekna något över tid, men de försvinner sällan helt utan behandling. Gradvis kan vissa ytliga ärr bli mindre märkbara, men djupare ärr kräver ofta specifika behandlingsmetoder för att signifikant minska deras utseende.'
             ),
             new Question(
-                title: 'Vilka är de mest effektiva behandlingsmetoderna för atrofiska ärr?',
-                text: 'De mest effektiva behandlingsmetoderna för atrofiska ärr inkluderar laser och mikroneedling. Dessa behandlingar stimulerar hudens naturliga läkningsprocess och kollagenproduktion för att minska ärrvävnadens djup och förbättra hudtexturen.'
+                  title: 'Vilka är de mest effektiva behandlingsmetoderna för atrofiska ärr?',
+                  text: 'De mest effektiva behandlingsmetoderna för atrofiska ärr inkluderar laser och mikroneedling. Dessa behandlingar stimulerar hudens naturliga läkningsprocess och kollagenproduktion för att minska ärrvävnadens djup och förbättra hudtexturen.'
             ),
             new Question(
-                title: 'Hur kan laserbehandlingar minska utseendet på atrofiska ärr?',
-                text: 'Laserbehandlingar minskar utseendet på atrofiska ärr genom att rikta in sig på och bryta ner ärrvävnaden samtidigt som de stimulerar hudens kollagenproduktion. Detta kan hjälpa till att jämna ut huden och fylla ut de fördjupningar som orsakas av ärr, vilket gör dem mindre märkbara.'
+                  title: 'Hur kan laserbehandlingar minska utseendet på atrofiska ärr?',
+                  text: 'Laserbehandlingar minskar utseendet på atrofiska ärr genom att rikta in sig på och bryta ner ärrvävnaden samtidigt som de stimulerar hudens kollagenproduktion. Detta kan hjälpa till att jämna ut huden och fylla ut de fördjupningar som orsakas av ärr, vilket gör dem mindre märkbara.'
             ),
             new Question(
-                title: 'Är dermaroller en effektiv behandling för atrofiska ärr?',
-                text: 'Nej, vi rekommenderar inte dermaroller för hemmabruk på grund av dess tendens att skapa slitande skador i huden, vilket kan vara skadligt och kontraproduktivt. Dessutom är nåldjupet ofta för lågt för att ge effektiva resultat. Istället rekommenderar vi användningen av microneedling med en modern penna som skapar raka, kontrollerade kanaler i huden. Denna metod, utförd av en utbildad hudterapeut, säkerställer en säker och steril behandling och är betydligt mer effektiv för att minska utseendet på atrofiska ärr genom att stimulera hudens kollagenproduktion på ett kontrollerat sätt.'
+                  title: 'Är dermaroller en effektiv behandling för atrofiska ärr?',
+                  text: 'Nej, vi rekommenderar inte dermaroller för hemmabruk på grund av dess tendens att skapa slitande skador i huden, vilket kan vara skadligt och kontraproduktivt. Dessutom är nåldjupet ofta för lågt för att ge effektiva resultat. Istället rekommenderar vi användningen av microneedling med en modern penna som skapar raka, kontrollerade kanaler i huden. Denna metod, utförd av en utbildad hudterapeut, säkerställer en säker och steril behandling och är betydligt mer effektiv för att minska utseendet på atrofiska ärr genom att stimulera hudens kollagenproduktion på ett kontrollerat sätt.'
             ),
       ),
 );
@@ -550,19 +550,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

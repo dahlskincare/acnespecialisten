@@ -181,10 +181,10 @@ $article = new SkinGuideArticle(
                     <h3 class="nav-anchor">Användande av roaccutan</h3>
                     <ul>
                         <li>
-                            Det är mot alla rekommendationer att använda roaccutan i fall om graviditet. Läkemedlet orsakar svåra fosterskador vilket också kan resultera i kroppsliga missbildningar och hjärnskada på barnet.  Inom både EU och USA finns det därför krav på att fertila kvinnor måste använda sig av minst ett effektivt preventivmedel som kan hämma ägglossningen. Däremot kan det inte överföras från män vid befruktning. Det skadar alltså inte männens spermie-produktion eller dess kvalité. Varken män eller kvinnor som använder roaccutan är tillåtna att donera blod under behandlingen.
+                            Det är mot alla rekommendationer att använda roaccutan i fall om graviditet. Läkemedlet orsakar svåra fosterskador vilket också kan resultera i kroppsliga missbildningar och hjärnskada på barnet. Inom både EU och USA finns det därför krav på att fertila kvinnor måste använda sig av minst ett effektivt preventivmedel som kan hämma ägglossningen. Däremot kan det inte överföras från män vid befruktning. Det skadar alltså inte männens spermie-produktion eller dess kvalité. Varken män eller kvinnor som använder roaccutan är tillåtna att donera blod under behandlingen.
                         </li>
                         <li>
-                            Roccutan är fettlösligt och lagras därför i kroppens fettdepåer i upp till en månad efter att du avslutat din behandling. Det gör att risken för att drabbas av en eller flera av de kända biverkningarna blir ännu större. I vissa sällsynta fall kan biverkningarna bli permanenta. 
+                            Roccutan är fettlösligt och lagras därför i kroppens fettdepåer i upp till en månad efter att du avslutat din behandling. Det gör att risken för att drabbas av en eller flera av de kända biverkningarna blir ännu större. I vissa sällsynta fall kan biverkningarna bli permanenta.
                         </li>
                         <li>
                             Eftersom acne inte går att bota är risken även stor att din acne kommer åter - trots att du gått på roaccutan en eller flera gånger. Därför vore det allra bästa att hitta ett hållbart alternativ som på sikt inte bara reducerar acnen utan även håller den borta utan en rad negativa biverkningar. Vi rekommenderar därför att du provar vår metod i första hand, eller om du redan provat roaccutan med upplevt att acnen kommit tillbaka. Vi arbetar med en unik trestegs-metod som bygger på att identifiera och reducera hudproblem och långsiktigt arbeta med en hudvårdsrutin som håller problemen borta. Och det gör vi utan allvarliga biverkningar.
@@ -277,7 +277,7 @@ $article = new SkinGuideArticle(
                             </div>
                         </div>
                     </div>
-                    
+
                 </section>
             </div>
 
@@ -294,23 +294,7 @@ $article = new SkinGuideArticle(
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="reviews" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Omdömen</div>
-                    <div class="flex-row is-hidden-mobile">
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">Se alla omdömen</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                </div>
+                <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>

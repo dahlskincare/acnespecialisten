@@ -142,35 +142,19 @@ $nav_buttons = array(
                         </section>
                   </div>
                   <section id="cta" class="large-margin">
-                      <div id="cta-banner-texts">
-                          <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
-                          <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
-                      </div>
-                      <div>
-                          <a href="gratis-hudkonsultation.php" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
-                      </div>
+                        <div id="cta-banner-texts">
+                              <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
+                              <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
+                        </div>
+                        <div>
+                              <a href="gratis-hudkonsultation.php" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
+                        </div>
                   </section>
                   <section id="results" class="large-margin">
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
                   </section>
                   <section id="reviews" class="large-margin">
-                        <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Omdömen</div>
-                              <div class="flex-row is-hidden-mobile">
-                                    <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
-                                    </div>
-                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                                          <span class="l10n">Se alla omdömen</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                        </div>
+                        <div class="h500 l10n">Omdömen</div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
                   </section>

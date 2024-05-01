@@ -756,8 +756,8 @@ $faq_categories = array(
                   text: '<p class="p200">Att bekämpa akne effektivt kräver en individuellt anpassad strategi som kombinerar lämpliga behandlingar och hudvårdsprodukter, utformade för att passa dina unika behov och din huds specifika tillstånd. På Acnespecialisten, erbjuder vi kostnadsfria hudkonsultationer där vi kan utvärdera ditt specifika fall av akne och hjälpa till att skräddarsy en effektiv behandlingsrutin.</p>'
             ),
             new Question(
-                title: 'Vad är det för skillnad mellan acne och finnar?',
-                text: '<p class="p200">Acne och finnar är relaterade men beskriver olika aspekter av samma hudtillstånd. Finnar är en term som ofta används för att beskriva enstaka utbrott eller plitor på huden, som kan vara ett resultat av tilltäppta porer, överproduktion av talg, eller inflammation. Acne å andra sidan, är en medicinsk term som beskriver en kronisk hudsjukdom karaktäriserad av upprepade och flera utbrott av finnar, pormaskar, och ibland cystor, som kan påverka ansiktet, nacken, bröstet och ryggen. Acne är ofta mer omfattande och kan kräva medicinsk behandling för att hantera både utbrotten och dess underliggande orsaker.</p>'
+                  title: 'Vad är det för skillnad mellan acne och finnar?',
+                  text: '<p class="p200">Acne och finnar är relaterade men beskriver olika aspekter av samma hudtillstånd. Finnar är en term som ofta används för att beskriva enstaka utbrott eller plitor på huden, som kan vara ett resultat av tilltäppta porer, överproduktion av talg, eller inflammation. Acne å andra sidan, är en medicinsk term som beskriver en kronisk hudsjukdom karaktäriserad av upprepade och flera utbrott av finnar, pormaskar, och ibland cystor, som kan påverka ansiktet, nacken, bröstet och ryggen. Acne är ofta mer omfattande och kan kräva medicinsk behandling för att hantera både utbrotten och dess underliggande orsaker.</p>'
             ),
       ),
 );
@@ -1200,19 +1200,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
