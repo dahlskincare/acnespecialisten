@@ -229,7 +229,7 @@ $bottom_articles = array(
         <p class="p200 mt-m">- Exponering för direkt solljus minst tre dygn före din behandling.</p>
         <p class="p200 mt-m">- Kraftfulla hudvårdsprodukter två dagar före din behandling.</p>',
     ),
-        'aftercare' => new Article(
+    'aftercare' => new Article(
         title: 'Eftervård',
         image_small: null,
         image_large: null,
@@ -729,19 +729,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n"><?php echo $reviews_title ?></h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

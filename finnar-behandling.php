@@ -185,45 +185,45 @@ $repair_url_label = 'Se ärrbehandlingar efter finnar';
 $repair_url_title = 'klicka här för att se våra ärrbehandlingar efter finnar';
 
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            )
-      ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Akne">Akne</a>',
+        )
+    ),
+    new ResultCustomer(
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat";
@@ -373,54 +373,54 @@ $specialist_url_label = "Se alla specialister";
 $specialist_url_title = "Hudterapeuter Specialiserade på finnar";
 
 $brands = array(
-      new Brand(
-            label: 'DAHL Skincare',
-            image: 'bilder/logotyper/dahl-skincare.webp',
-            image_alt: 'DAHL Skincare logotyp',
-            image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
-            url_title: 'DAHL Skincare',
-      ),
-      new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            image_alt: 'Alma logotyp',
-            url: '/varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
-            label: 'Alma Hybrid',
-            image: 'bilder/logotyper/alma-hybrid.svg',
-            image_title: 'Alma Hybrid - CO2 laser',
-            image_alt: 'Alma Hybrid logotyp',
-            url: '/alma-hybrid-co2-laser.php',
-            url_title: 'Läs mer om Alma Hybrid CO2 laser',
-      ),
-      new Brand(
-            label: 'Harmony XL Pro',
-            image: 'bilder/logotyper/harmony-xl-pro.png',
-            image_title: 'Harmony XL Pro - Laser & IPL',
-            image_alt: 'Harmony XL Pro logotyp',
-            url: '/alma-harmony-xl-pro.php',
-            url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
-      ),
-      new Brand(
-            label: 'Dermapen',
-            image: 'bilder/logotyper/dermapen.svg',
-            image_alt: 'Dermapen Brand Logo',
-            image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
-            url: '/dermapen.php',
-            url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
-      ),
-      new Brand(
-            label: 'Skin Tech',
-            image: 'bilder/logotyper/skin-tech.svg',
-            image_title: 'Skin Tech - Professionella kemiska peelingar',
-            image_alt: 'Skin Tech logotyp',
-            url: '/varumarken/skin-tech',
-            url_title: 'Läs mer om Skin Techs kemiska peelingar',
-      ),
+    new Brand(
+        label: 'DAHL Skincare',
+        image: 'bilder/logotyper/dahl-skincare.webp',
+        image_alt: 'DAHL Skincare logotyp',
+        image_title: 'DAHL Skincare - hudvårdsprodukter',
+        url: 'https://dahlskincare.se',
+        url_title: 'DAHL Skincare',
+    ),
+    new Brand(
+        label: 'Alma',
+        image: 'bilder/logotyper/alma.svg',
+        image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
+        image_alt: 'Alma logotyp',
+        url: '/varumarken/alma',
+        url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
+    ),
+    new Brand(
+        label: 'Alma Hybrid',
+        image: 'bilder/logotyper/alma-hybrid.svg',
+        image_title: 'Alma Hybrid - CO2 laser',
+        image_alt: 'Alma Hybrid logotyp',
+        url: '/alma-hybrid-co2-laser.php',
+        url_title: 'Läs mer om Alma Hybrid CO2 laser',
+    ),
+    new Brand(
+        label: 'Harmony XL Pro',
+        image: 'bilder/logotyper/harmony-xl-pro.png',
+        image_title: 'Harmony XL Pro - Laser & IPL',
+        image_alt: 'Harmony XL Pro logotyp',
+        url: '/alma-harmony-xl-pro.php',
+        url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
+    ),
+    new Brand(
+        label: 'Dermapen',
+        image: 'bilder/logotyper/dermapen.svg',
+        image_alt: 'Dermapen Brand Logo',
+        image_title: 'Dermapen - Microneedling Verktyg för Hudföryngring',
+        url: '/dermapen.php',
+        url_title: 'Läs mer om Dermapen Microneedling Hudvårdslösningar',
+    ),
+    new Brand(
+        label: 'Skin Tech',
+        image: 'bilder/logotyper/skin-tech.svg',
+        image_title: 'Skin Tech - Professionella kemiska peelingar',
+        image_alt: 'Skin Tech logotyp',
+        url: '/varumarken/skin-tech',
+        url_title: 'Läs mer om Skin Techs kemiska peelingar',
+    ),
 );
 
 $brands_url_label = "Se alla varumärken";
@@ -580,24 +580,7 @@ $brands_url_title = "Varumärken för behandling av finnar";
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>
                 <section id="reviews">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Omdömen</h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                            <a href="https://se.trustpilot.com/review/acnespecialisten.se" title="Läs fler omdömen" class="ml-l button compact text">
-                                <span class="l10n">Läs fler omdömen</span>
-                                <?php icon('navigate-next') ?>
-                            </a>
-                        </div>
-
-                    </div>
+                    <h2 class="big l10n">Omdömen</h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

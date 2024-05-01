@@ -195,16 +195,16 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Varför är acne hormonell?',
-                text: 'Hormonell acne är en typ av akne som främst drivs av hormonella förändringar och obalanser i kroppen. Den är vanlig hos tonåringar under puberteten men kan även påverka vuxna, särskilt kvinnor, på grund av cykliska hormonförändringar, graviditet, användning av vissa typer av preventivmedel eller hormonrelaterade tillstånd.'
+                  title: 'Varför är acne hormonell?',
+                  text: 'Hormonell acne är en typ av akne som främst drivs av hormonella förändringar och obalanser i kroppen. Den är vanlig hos tonåringar under puberteten men kan även påverka vuxna, särskilt kvinnor, på grund av cykliska hormonförändringar, graviditet, användning av vissa typer av preventivmedel eller hormonrelaterade tillstånd.'
             ),
             new Question(
-                title: 'Hur får man bort hormonell acne?',
-                text: 'Att effektivt hantera hormonell acne börjar med att utvärdera din hudvårdsrutin och produkter. En skräddarsydd hudvårdsrutin framtagen av en hudterapeut kan göra stor skillnad. Denna rutin kan inkludera användning av hudvårdsprodukter och specifika behandlingar som är anpassade för att lugna inflammation och reglera talgproduktionen, samt produkter som hjälper till att balansera hudens naturliga barriär. Regelbunden professionell behandling, såsom djuprengörande ansiktsbehandlingar och milda peelingar, kan också vara avgörande för att minska och förebygga utbrott.'
+                  title: 'Hur får man bort hormonell acne?',
+                  text: 'Att effektivt hantera hormonell acne börjar med att utvärdera din hudvårdsrutin och produkter. En skräddarsydd hudvårdsrutin framtagen av en hudterapeut kan göra stor skillnad. Denna rutin kan inkludera användning av hudvårdsprodukter och specifika behandlingar som är anpassade för att lugna inflammation och reglera talgproduktionen, samt produkter som hjälper till att balansera hudens naturliga barriär. Regelbunden professionell behandling, såsom djuprengörande ansiktsbehandlingar och milda peelingar, kan också vara avgörande för att minska och förebygga utbrott.'
             ),
             new Question(
-                title: 'Varför får man hormonell acne?',
-                text: 'Hormonell acne orsakas av variationer i kroppens hormonnivåer, särskilt en ökning av androgener som stimulerar överproduktion av talg i huden. Detta leder till tilltäppta porer och inflammation som uppstår i form av akne. Kvinnor kan uppleva ökade hormonförändringar i samband med menstruationscykel, graviditet, förlossning, amning eller i övergångsåldern, vilket gör dem mer benägna att utveckla hormonell acne.'
+                  title: 'Varför får man hormonell acne?',
+                  text: 'Hormonell acne orsakas av variationer i kroppens hormonnivåer, särskilt en ökning av androgener som stimulerar överproduktion av talg i huden. Detta leder till tilltäppta porer och inflammation som uppstår i form av akne. Kvinnor kan uppleva ökade hormonförändringar i samband med menstruationscykel, graviditet, förlossning, amning eller i övergångsåldern, vilket gör dem mer benägna att utveckla hormonell acne.'
             ),
       ),
 );
@@ -547,19 +547,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

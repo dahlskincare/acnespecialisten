@@ -198,24 +198,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Hur kan jag identifiera nodulär akne?',
-                text: 'Nodulär akne kännetecknas av djupt liggande, smärtsamma, inflammerade knölar under huden som inte lätt kommer till ytan. Dessa utslag kan kännas som ömma punkter och är ofta större och mer ihållande än vanliga finnar. De kan förekomma i ansiktet, på nacken, bröstet, och ryggen, och lämnar ofta efter sig ärr om de inte behandlas korrekt.'
+                  title: 'Hur kan jag identifiera nodulär akne?',
+                  text: 'Nodulär akne kännetecknas av djupt liggande, smärtsamma, inflammerade knölar under huden som inte lätt kommer till ytan. Dessa utslag kan kännas som ömma punkter och är ofta större och mer ihållande än vanliga finnar. De kan förekomma i ansiktet, på nacken, bröstet, och ryggen, och lämnar ofta efter sig ärr om de inte behandlas korrekt.'
             ),
             new Question(
-                title: 'Vilka är de bästa behandlingsmetoderna för cystisk akne?',
-                text: 'Behandling av cystisk akne kräver en noggrant utformad plan som kan inkludera en kombination av professionella hudvårdsbehandlingar och skräddarsydda hudvårdsprodukter. En hudterapeut kan ge råd om den mest effektiva behandlingsstrategin för dig.'
+                  title: 'Vilka är de bästa behandlingsmetoderna för cystisk akne?',
+                  text: 'Behandling av cystisk akne kräver en noggrant utformad plan som kan inkludera en kombination av professionella hudvårdsbehandlingar och skräddarsydda hudvårdsprodukter. En hudterapeut kan ge råd om den mest effektiva behandlingsstrategin för dig.'
             ),
             new Question(
-                title: 'Hur lång tid tar det för cystisk akne att läka?',
-                text: 'Förbättring bör kunna observeras inom 1-3 veckor efter inledande behandling, men fullständig läkning kan ta längre tid, beroende på svårighetsgraden av aknen och hur väl behandlingen följs. Det är viktigt att ha tålamod och följa din hudvårdsrutin noggrant för att uppnå bästa möjliga resultat.'
+                  title: 'Hur lång tid tar det för cystisk akne att läka?',
+                  text: 'Förbättring bör kunna observeras inom 1-3 veckor efter inledande behandling, men fullständig läkning kan ta längre tid, beroende på svårighetsgraden av aknen och hur väl behandlingen följs. Det är viktigt att ha tålamod och följa din hudvårdsrutin noggrant för att uppnå bästa möjliga resultat.'
             ),
             new Question(
-                title: 'Finns det effektiva hembehandlingar för cystisk akne?',
-                text: 'Ja, användning av rätt hudvårdsprodukter och följa en anpassad hudvårdsrutin kan göra en stor skillnad. Dock är det viktigt att komplettera dessa med professionell vägledning från en hudterapeut för att säkerställa att din hudvårdsrutin är optimerad för din specifika hudtyp och aknes tillstånd.'
+                  title: 'Finns det effektiva hembehandlingar för cystisk akne?',
+                  text: 'Ja, användning av rätt hudvårdsprodukter och följa en anpassad hudvårdsrutin kan göra en stor skillnad. Dock är det viktigt att komplettera dessa med professionell vägledning från en hudterapeut för att säkerställa att din hudvårdsrutin är optimerad för din specifika hudtyp och aknes tillstånd.'
             ),
             new Question(
-                title: 'När bör jag överväga att söka professionell hjälp för min cystisk akne?',
-                text: 'Det är viktigt att söka professionell hjälp omedelbart om du lider av cystisk akne, för att snabbt ta itu med tillståndet och minimera risken för långsiktig ärrbildning. En hudspecialist eller hudterapeut kan erbjuda anpassade behandlingar och råd som adresserar både de yttre symptomen och de underliggande orsakerna till din akne, vilket ger dig den bästa chansen till en klar och hälsosam hud.'
+                  title: 'När bör jag överväga att söka professionell hjälp för min cystisk akne?',
+                  text: 'Det är viktigt att söka professionell hjälp omedelbart om du lider av cystisk akne, för att snabbt ta itu med tillståndet och minimera risken för långsiktig ärrbildning. En hudspecialist eller hudterapeut kan erbjuda anpassade behandlingar och råd som adresserar både de yttre symptomen och de underliggande orsakerna till din akne, vilket ger dig den bästa chansen till en klar och hälsosam hud.'
             ),
       ),
 );
@@ -549,19 +549,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

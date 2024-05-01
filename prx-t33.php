@@ -80,7 +80,7 @@ $description_text = '<p class="p200">PRX T33 är en banbrytande hudföryngringsb
 <p class="p200 mt-m">En av de största fördelarna med PRX T33 är att den inte kräver någon återhämtningstid, vilket gör det möjligt för kunden att återgå till sina normala aktiviteter omedelbart efter behandlingen. Detta, tillsammans med dess effektivitet vid förbättring av hudens utseende och känsla, har gjort PRX T33 till en favorit bland de som söker icke-invasiva metoder för hudförbättring. Behandlingen passar alla hudtyper och kan utföras när som helst på året, vilket ger en mångsidig lösning för de som strävar efter en ungdomligare, mer strålande hud.</p>';
 
 $top_articles = array(
-    
+
     'process' => new Article(
         title: 'Hur går behandling med PRX T33 till?',
         image_small: '/bilder/process/358x272/prx-t33-process.webp',
@@ -383,12 +383,12 @@ $bottom_articles = array(
         <p class="p200 mt-m">Det är också viktigt att skydda din hud mot solen och undvika att använda brun-utan-sol-produkter veckan före din behandling. Denna försiktighetsåtgärd minskar risken för oönskade reaktioner och säkerställer att din hud är i bästa skick för att ta emot behandlingen. Vidare, informera din hudterapeut om eventuella mediciner du använder eller om du har några aktuella hudtillstånd, så att behandlingen kan anpassas på ett säkert och effektivt sätt. Tveka inte att kontakta oss om du har några frågor eller oro inför din PRX T33-behandling – vi är här för att se till att din upplevelse blir så bekväm och givande som möjligt.</p>',
     ),
     'aftercare' => new Article(
-    title: 'PRX T33 eftervård',
-    image_small: '/bilder/process/358x272/prx-t33-eftervard.webp',
-    image_large: '/bilder/process/872x456/prx-t33-eftervard.webp',
-    image_alt: 'PRX T33 eftervård',
-    image_title: 'PRX T33 eftervård',
-    content: '<p class="p200">Eftervård är en avgörande del av processen för att uppnå optimala resultat från din PRX-T33 behandling. För att säkerställa att din hud får den vård den behöver efter denna innovativa behandling, inkluderar vi ett skräddarsytt eftervårdskit som en del av din behandlingsplan. Detta kit är designat för att stödja och maximera din huds återhämtningsprocess och förbättra de långsiktiga resultaten av din behandling.</p>
+        title: 'PRX T33 eftervård',
+        image_small: '/bilder/process/358x272/prx-t33-eftervard.webp',
+        image_large: '/bilder/process/872x456/prx-t33-eftervard.webp',
+        image_alt: 'PRX T33 eftervård',
+        image_title: 'PRX T33 eftervård',
+        content: '<p class="p200">Eftervård är en avgörande del av processen för att uppnå optimala resultat från din PRX-T33 behandling. För att säkerställa att din hud får den vård den behöver efter denna innovativa behandling, inkluderar vi ett skräddarsytt eftervårdskit som en del av din behandlingsplan. Detta kit är designat för att stödja och maximera din huds återhämtningsprocess och förbättra de långsiktiga resultaten av din behandling.</p>
     <p class="p200 mt-m">Det eftervårdskit du mottar ska användas under de första tre dagarna efter din behandling. Kitet innehåller noggrant utvalda produkter som är anpassade för att vårda, återfukta och skydda din hud under den kritiska återhämtningsperioden. Genom att följa eftervårdsinstruktionerna och använda produkterna i kitet som angivet, kan du hjälpa din hud att bibehålla optimal fuktbalans, minska risken för irritation och främja en snabbare återhämtning.</p>',
     ),
 );
@@ -873,19 +873,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n"><?php echo $reviews_title ?></h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

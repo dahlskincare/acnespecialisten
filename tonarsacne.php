@@ -194,24 +194,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Vid vilken ålder börjar vanligtvis tonårsacne?',
-                text: 'Tonårsacne börjar vanligtvis runt 11-13 års ålder, men kan variera beroende på individuella faktorer som genetik och hormonella förändringar. Det är inte ovanligt att se de första tecknen på akne när barn går in i puberteten.'
+                  title: 'Vid vilken ålder börjar vanligtvis tonårsacne?',
+                  text: 'Tonårsacne börjar vanligtvis runt 11-13 års ålder, men kan variera beroende på individuella faktorer som genetik och hormonella förändringar. Det är inte ovanligt att se de första tecknen på akne när barn går in i puberteten.'
             ),
             new Question(
-                title: 'Vilka områden på kroppen påverkas oftast av tonårsacne?',
-                text: 'Tonårsacne påverkar mest ansiktet, ryggen och bröstet. Dessa områden har fler talgproducerande körtlar, vilket gör dem mer benägna att utveckla akneutslag.'
+                  title: 'Vilka områden på kroppen påverkas oftast av tonårsacne?',
+                  text: 'Tonårsacne påverkar mest ansiktet, ryggen och bröstet. Dessa områden har fler talgproducerande körtlar, vilket gör dem mer benägna att utveckla akneutslag.'
             ),
             new Question(
-                title: 'Hur länge varar tonårsacne vanligtvis?',
-                text: 'Varaktigheten av tonårsacne varierar från person till person. Hudproblemet kan avta under de sena tonåren till tidiga tjugoårsåldern, men det kan fortsätta in i vuxen ålder för vissa i form av vuxenacne.'
+                  title: 'Hur länge varar tonårsacne vanligtvis?',
+                  text: 'Varaktigheten av tonårsacne varierar från person till person. Hudproblemet kan avta under de sena tonåren till tidiga tjugoårsåldern, men det kan fortsätta in i vuxen ålder för vissa i form av vuxenacne.'
             ),
             new Question(
-                title: 'Kan tonårsacne lämna permanenta ärr?',
-                text: 'Ja, om tonårsakne är allvarlig eller inte behandlas korrekt kan det leda till permanenta ärr. Därför är det viktigt att hantera akne tidigt och undvika att pilla eller klämma på finnar.'
+                  title: 'Kan tonårsacne lämna permanenta ärr?',
+                  text: 'Ja, om tonårsakne är allvarlig eller inte behandlas korrekt kan det leda till permanenta ärr. Därför är det viktigt att hantera akne tidigt och undvika att pilla eller klämma på finnar.'
             ),
             new Question(
-                title: 'När ska jag söka hjälp från en hudterapeut för min tonårsacne?',
-                text: 'Det är bäst att söka hjälp från en hudterapeut direkt vid de första tecknen på tonårsacne för att undvika ärrbildning och få en effektiv behandlingsplan. En hudterapeut kan erbjuda skräddarsydda lösningar baserade på din specifika hudtyp och aknens svårighetsgrad.'
+                  title: 'När ska jag söka hjälp från en hudterapeut för min tonårsacne?',
+                  text: 'Det är bäst att söka hjälp från en hudterapeut direkt vid de första tecknen på tonårsacne för att undvika ärrbildning och få en effektiv behandlingsplan. En hudterapeut kan erbjuda skräddarsydda lösningar baserade på din specifika hudtyp och aknens svårighetsgrad.'
             ),
       ),
 );
@@ -545,19 +545,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

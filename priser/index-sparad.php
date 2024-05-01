@@ -257,24 +257,7 @@ $service_categories = array(
             </section>
             <section id="reviews" class="large-margin">
                 <div class="container">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Reviews</h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                            <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                                <span class="l10n">View all reviews</span>
-                                <?php icon('navigate-next') ?>
-                            </a>
-                        </div>
-
-                    </div>
+                    <h2 class="big l10n">Reviews</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                     <a class="mt-xl button outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
                 </div>

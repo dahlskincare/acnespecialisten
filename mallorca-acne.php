@@ -198,16 +198,16 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Vilka är de bästa sätten att förebygga Mallorca akne?',
-                text: 'För att förebygga Mallorca akne, bör du använda en icke-komedogen (inte por-täppande) solskydd anpassad för aknebenägen hud, begränsa direkt solljus exponering under de mest intensiva timmarna på dagen, och regelbundet rengöra huden för att förhindra tilltäppning av porerna.'
+                  title: 'Vilka är de bästa sätten att förebygga Mallorca akne?',
+                  text: 'För att förebygga Mallorca akne, bör du använda en icke-komedogen (inte por-täppande) solskydd anpassad för aknebenägen hud, begränsa direkt solljus exponering under de mest intensiva timmarna på dagen, och regelbundet rengöra huden för att förhindra tilltäppning av porerna.'
             ),
             new Question(
-                title: 'Hur kan man behandla Mallorca akne när man väl fått det?',
-                text: 'Behandling av Mallorca akne inriktas på att lugna huden och minska inflammation. Användning av en hudvårdsrutin som behandlar och balanserar huden kan effektivt få bort dina sol finnar. En hudterapeut kan hjälpa dig med en skräddarsydd behandlingsplan anpassad för dig både inför semestern och efter att problemet redan brutit ut.'
+                  title: 'Hur kan man behandla Mallorca akne när man väl fått det?',
+                  text: 'Behandling av Mallorca akne inriktas på att lugna huden och minska inflammation. Användning av en hudvårdsrutin som behandlar och balanserar huden kan effektivt få bort dina sol finnar. En hudterapeut kan hjälpa dig med en skräddarsydd behandlingsplan anpassad för dig både inför semestern och efter att problemet redan brutit ut.'
             ),
             new Question(
-                title: 'Kan Mallorca akne återkomma, och i så fall, hur hanterar man återkommande utbrott?',
-                text: 'Ja, Mallorca akne kan återkomma, särskilt om man utsätts för liknande förhållanden som ledde till det första utbrottet. För att hantera återkommande utbrott är det viktigt att fortsätta med förebyggande åtgärder såsom användning av lämpligt solskydd, undvika överdriven sol exponering och upprätthålla en god hudvårdsrutin. Vid upprepade utbrott kan det vara klokt att rådfråga en hudterapeut för ytterligare rådgivning och behandlingsalternativ.'
+                  title: 'Kan Mallorca akne återkomma, och i så fall, hur hanterar man återkommande utbrott?',
+                  text: 'Ja, Mallorca akne kan återkomma, särskilt om man utsätts för liknande förhållanden som ledde till det första utbrottet. För att hantera återkommande utbrott är det viktigt att fortsätta med förebyggande åtgärder såsom användning av lämpligt solskydd, undvika överdriven sol exponering och upprätthålla en god hudvårdsrutin. Vid upprepade utbrott kan det vara klokt att rådfråga en hudterapeut för ytterligare rådgivning och behandlingsalternativ.'
             ),
       ),
 );
@@ -541,19 +541,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

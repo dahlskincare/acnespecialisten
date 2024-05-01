@@ -465,19 +465,7 @@ $categories = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Omdömen</h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="big l10n">Omdömen</h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
@@ -485,14 +473,14 @@ $categories = array(
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
                 </section>
                 <section id="faq" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Frågor & svar</h2>
-                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla frågor</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php $faq_categories = array(
+                    <div class="flex-row align-end justify-space-between">
+                        <h2 class="big l10n">Frågor & svar</h2>
+                        <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
+                            <span class="l10n">Se alla frågor</span>
+                            <?php icon('navigate-next') ?>
+                        </a>
+                    </div>
+                    <?php $faq_categories = array(
                         'Generellt' => array(
                             new Question(
                                 title: 'Hur gör man en hudanalys?',
@@ -512,10 +500,10 @@ $categories = array(
                             ),
                         ),
 
-                  );
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
-            </section>
+                    );
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                    <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
+                </section>
                 <!--Hudguide-->
                 <section id="specialister" class="large-margin">
                     <div class="flex-row justify-space-between">

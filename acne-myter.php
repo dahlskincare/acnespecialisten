@@ -11,7 +11,7 @@ $faq_categories = array(
         new Question('Jag har inte acne, bara en finne', '<p class="p200">Många med acne insisterar på att de bara har oljig hy, finnar eller dålig hy i ansiktet som vuxen eller tonåring, men inte acne! Andra insisterar på att det finns en skillnad mellan att ha en enstaka finne någon gång ibland och att ha många finnar som återkommer ofta. Men ur ett anatomiskt perspektiv är allt det samma under mikroskopet, det är acne oavsett hur många finnar man får. Eftersom varje ärr är ett resultat av en finne, så kommer en individ som bara har en finne som leder till ett ärr i månaden under en 5 årig period till slut ha 60 ärr. Det är lika mycket som en person som har svår akne och får 5 ärr i månaden under en ettårsperiod. Acne är acne, oavsett hur mycket</p>'),
         new Question('Ingen behandling fungerar', '<p class="p200">Effektiv behandling av acne har funnits i över 25 år, men myten om att ingenting fungerar lever fortfarande kvar. Detta beror på att forskning kring acne aldrig prioriterats och det tog lång tid innan man förstod vad acne är och hur man effektivt behandlar huden, och det finns fortfarande många som inte förstår vad acne är! Det är därför vanligt att människor med acne har prövat allt utan resultat, från dieter och vitaminer till behandlingar, produkter och mediciner. Eftersom de som blivit hjälpa ofta inte vill berätta om att de har acne som de måste behandla, lever myten om att ingenting fungerar vidare.</p>
             <p class="p200 mt-m">Det finns även en variation på myten där vissa tror att de inte har råd att behandla sin hy, det är för dyrt. Dock är det mer troligt att de menar att om de spenderar pengar på att behandla sin hy så kommer det inte att fungera, och när de då blir besvikna känns det som att de kastat pengarna i sjön. Det finns nämligen inte många som inte skulle vara villiga att spendera en förmögenhet på något som faktiskt fungerar, och för att undvika de svåra ärr som acne kan leda till. Det finns till och med många som säger att de skulle göra vad som helst för att ha sluppit sin acne, och ångrar att de inte sökte hjälp och hittade AcneSpecialisten tidigare. Vi erbjuder effektiv behandling av acne och när man använder en metod som faktiskt fungerar så blir det inte så dyrt som många kanske skulle tro.</p>'),
-        
+
         new Question('Acne är bara ett resultat av psykologiska problem', '<p class="p200">Även om acne och psykologisk ohälsa ofta hänger ihop har många missförstått sambandet och tror på myten om att acne bara är ett resultat av psykiska problem. Många söker inte hjälp i form av produkter eller behandling eftersom de tror att problemet sitter i huvudet. Något som ofta bekräftas av psykologer, familjemedlemmar och vänner.  De tror därför att de inte kan bli av med sin acne förrän de har behandlat det inre kaoset. När detta inte fungerar ger de till slut upp vilket bara gör saken värre. De är dock inte ensamma i sin naivitet, många experter har utforskat de psykologiska problemen med acne med antagandet att det var de psykologiska problemen som orsakade acnen. Detta är helt fel.</p>
             <p class="p200 mt-m">Vi är övertygade om att acnens största bieffekt är just psykologiska och emotionella ärr. Dessa ärr kan leda till kronisk depression, asocialt och antisocialt beteende. Efter att ha hjälpt tusentals är vi övertygade om att acnen kom först och de psykologiska problemen därefter. För att behandla dessa människor på bästa sätt måste man först och främst ta hand om källan till problemet, acneutbrotten i ansiktet, på bröstet, magen eller ryggen. När man ser att vår metod fungerar börjar de emotionella problemen försvinna vilket gör de mer mottagliga för att följa vår behandlingsmetod noga. Vi ser att de tar lättare steg, ler och håller huvudet högt på ett helt annat sätt en tidigare. När acnen försvinner från ansiktet har de en helt annan livsuppfattning.</p>
             <p class="p200 mt-m">Men för alla de som ännu inte tagit tag i sin acne måste vi bekämpa myten om att acne bara är ett resultat av psykiska problem. Som med många av de andra myterna kring acne är det viktigt att motverka den generella uppfattningen som finns kring acnen. Det är inte det som pågår i huvudet som är problemet utan det som pågår i porerna. Samtidigt måste vi ta tillfället i akt och förklara kopplingen som faktiskt finns mellan acne och psykologisk ohälsa. Även om stress och andra emotionella problem sällan orsakar acne kan de mycket väl leda till ett skov för de som redan har acne. Stress har en otroligt negativ effekt på acne-benägen hy. På samma sätt som stress kan ge en person med matsmältningsproblem magsår och kan orsaka hjärtproblem för en person med gener för hjärtsjukdom så kan stress leda till ett skov hos de som har acne. Skovet leder ofta till ännu mer stress vilket skapar en ord cirkel för människor med acne, men kom ihåg att allt började med genetiskt triggad acne. Själva acnen måste behandlas först och främst, sedan får man hjälpa hen att hantera stress.</p>'),
@@ -69,24 +69,7 @@ $faq_categories = array(
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="reviews" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Omdömen</div>
-                    <div class="flex-row is-hidden-mobile">
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">Se alla omdömen</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-
-                </div>
+                <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">Se alla omdömen</a>
             </section>

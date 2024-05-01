@@ -194,20 +194,20 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Finns det några effektiva hembehandlingar för vuxenacne?',
-                text: 'Ja, det finns flera hembehandlingar som kan hjälpa till att lindra vuxenacne och få bort både finnar och kvisslor. Genom att använda en skräddarsydd hudvårdsrutin kan du effektivt behandla och balansera huden för att bli av med vuxenakne.'
+                  title: 'Finns det några effektiva hembehandlingar för vuxenacne?',
+                  text: 'Ja, det finns flera hembehandlingar som kan hjälpa till att lindra vuxenacne och få bort både finnar och kvisslor. Genom att använda en skräddarsydd hudvårdsrutin kan du effektivt behandla och balansera huden för att bli av med vuxenakne.'
             ),
             new Question(
-                title: 'Hur kan jag förebygga framtida utbrott av vuxen finnar?',
-                text: 'För att effektivt förebygga framtida utbrott av vuxen finnar, är det viktigt att följa en regelbunden hudvårdsrutin anpassad för aknebenägen hud. Dessutom rekommenderas det att kontakta en hudterapeut direkt för att få en skräddarsydd behandlingsplan. Detta kan inte bara hjälpa till att effektivt bli av med vuxenaknen utan också motverka ärrbildning och säkerställa långsiktigt problemfri hud.'
+                  title: 'Hur kan jag förebygga framtida utbrott av vuxen finnar?',
+                  text: 'För att effektivt förebygga framtida utbrott av vuxen finnar, är det viktigt att följa en regelbunden hudvårdsrutin anpassad för aknebenägen hud. Dessutom rekommenderas det att kontakta en hudterapeut direkt för att få en skräddarsydd behandlingsplan. Detta kan inte bara hjälpa till att effektivt bli av med vuxenaknen utan också motverka ärrbildning och säkerställa långsiktigt problemfri hud.'
             ),
             new Question(
-                title: 'Är det möjligt att vuxenacne lämnar ärr och hur kan man behandla dem?',
-                text: 'Ja, precis som med annan akne kan vuxenacne lämna ärr om den inte behandlas korrekt. Ärrbehandling kan inkludera metoder som laserbehandling, microneedling och kemisk peeling beroende på ärrens typ och utseende. En hudterapeut kan rekommendera den bästa behandlingsplanen för dina ärr.'
+                  title: 'Är det möjligt att vuxenacne lämnar ärr och hur kan man behandla dem?',
+                  text: 'Ja, precis som med annan akne kan vuxenacne lämna ärr om den inte behandlas korrekt. Ärrbehandling kan inkludera metoder som laserbehandling, microneedling och kemisk peeling beroende på ärrens typ och utseende. En hudterapeut kan rekommendera den bästa behandlingsplanen för dina ärr.'
             ),
             new Question(
-                title: 'Är vuxenakne vanligare hos män eller kvinnor?',
-                text: 'Vuxenakne är vanligare hos kvinnor än hos män, vilket ofta är kopplat till hormonella förändringar såsom menstruationscykel, graviditet, och användning av hormonbaserade preventivmedel. Som man kan man dock också drabbas av vuxenakne, särskilt om de har en bakgrund av akne under tonåren.'
+                  title: 'Är vuxenakne vanligare hos män eller kvinnor?',
+                  text: 'Vuxenakne är vanligare hos kvinnor än hos män, vilket ofta är kopplat till hormonella förändringar såsom menstruationscykel, graviditet, och användning av hormonbaserade preventivmedel. Som man kan man dock också drabbas av vuxenakne, särskilt om de har en bakgrund av akne under tonåren.'
             ),
       ),
 );
@@ -549,19 +549,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
                         <section id="reviews">
-                              <div class="flex-row align-end justify-space-between">
-                                    <h2 class="big l10n">Omdömen</h2>
-                                    <div class="flex-row is-hidden-mobile">
-                                          <div class="step-buttons">
-                                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                                      <?php icon('arrow-left') ?>
-                                                </button>
-                                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                                      <?php icon('arrow-right') ?>
-                                                </button>
-                                          </div>
-                                    </div>
-                              </div>
+                              <h2 class="big l10n">Omdömen</h2>
                               <?php
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

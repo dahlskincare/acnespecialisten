@@ -511,24 +511,7 @@ $brands_url_title = "Varumärken för behandling av acneärr";
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>
                 <section id="reviews">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Omdömen</h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                            <a href="https://se.trustpilot.com/review/acnespecialisten.se" title="Läs fler omdömen" class="ml-l button compact text">
-                                <span class="l10n">Läs fler omdömen</span>
-                                <?php icon('navigate-next') ?>
-                            </a>
-                        </div>
-
-                    </div>
+                    <h2 class="big l10n">Omdömen</h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');

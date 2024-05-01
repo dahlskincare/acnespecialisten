@@ -32,7 +32,7 @@ $glossary_items = array(
             description: '<p class="p200">Tyvärr går det inte att bota problemhy, det är därför viktigt att använda produkter som effektivt behandlar och tar hand om huden och inte bara attackerar problemhyn. Roaccutan och andra preparat mot problemhy såsom acne ger temporär lindring och slutar verka så snart huden vänjer sig. </p>
                 <p class="p200">Vi på AcneSpecialisten erbjuder en effektiv behandling mot problemhy och med hjälp av hudvårdsprodukterna kan du få din hud i balans för att effektivt bli av med problemhyn och motverka att problemet återuppstår. <a class="b200 underline color-deep-sea-400" href="gratis-hudkonsultation.php">Läs mer om Gratis Hudkonsultation</a></p>',
         ),
-        
+
     ),
     'c' => array(),
     'd' => array(),
@@ -41,14 +41,14 @@ $glossary_items = array(
             title: 'Elevbehandlingar',
             description: '<p class="p200">Ibland har vi elevbehandlingar från hudterapeuter som är under utbildning: <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a></p>',
         ),
-        
+
     ),
     'f' => array(
         new GlossaryItem(
             title: 'Franchise',
             description: '<p class="p200">Bli en del av AcneSpecialisten med din egen franchise salong.: <a class="b200 underline color-deep-sea-400" href="franchise.php">Läs mer om Franchise</a></p>',
         ),
-        
+
     ),
     'g' => array(),
     'h' => array(),
@@ -72,7 +72,7 @@ $glossary_items = array(
             description: '<p class="p200">Roaccutan är ett A-vitaminderivat inom gruppen retinoider som framför allt används som läkemedel vid mycket svårartad acne.
                 <a class="b200 underline color-deep-sea-400" href="/roaccutan.php">Roaccutan</a></p>',
         ),
-        
+
     ),
     's' => array(
         new GlossaryItem(
@@ -81,7 +81,7 @@ $glossary_items = array(
             
             ',
         ),
-        
+
     ),
     't' => array(),
     'u' => array(),
@@ -175,23 +175,7 @@ $glossary_items = array(
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="reviews" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Omdömens</div>
-                    <div class="flex-row is-hidden-mobile">
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">Se alla omdömen</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                </div>
+                <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
             </section>

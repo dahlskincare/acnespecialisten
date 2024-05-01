@@ -583,7 +583,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
 
-                 <section id="approach">
+                <section id="approach">
                     <h2 class="h500 l10n">Metoden</h2>
                     <hr class="mt-xl mb-xl3 is-hidden-mobile">
                     <div class="columns is-variable is-2">
@@ -682,24 +682,12 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
-               
+
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n"><?php echo $reviews_title ?></h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
