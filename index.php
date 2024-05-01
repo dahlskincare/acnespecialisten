@@ -296,7 +296,7 @@
                               new Review(
                                     stars: 5,
                                     brand: 'Google',
-                                    logo_url: 'images/brands/trustpilot.svg',
+                                    logo_url: 'images/brands/google-small.svg',
                                     title: 'Man behöver inte klä av sig',
                                     text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
                                     signature: 'Alan'
@@ -312,7 +312,7 @@
                               new Review(
                                     stars: 5,
                                     brand: 'Google',
-                                    logo_url: 'images/brands/trustpilot.svg',
+                                    logo_url: 'images/brands/google-small.svg',
                                     title: 'Nöjd',
                                     text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
                                     signature: 'Mona'
