@@ -24,16 +24,28 @@
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
             </div>
         </div>
-        <div class="is-hidden-touch">
+        <div id="ghb-desktop" class="is-hidden-touch">
             <div id="ghb-header">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
             </div>
             <div id="ghb-main">
-                <h1><?php echo $green_banner_content->title ?></h1>
-                <div id="ghb-texts-col">
-                    <div><?php echo $green_banner_content->description ?></div>
-                    <div><?php echo $green_banner_content->description_extended ?></div>
+                <div>
+                    <h1><?php echo $green_banner_content->title ?></h1>
+                    <div id="ghb-texts-col">
+                        <p><?php echo $green_banner_content->description ?></p>
+                        <p><?php echo $green_banner_content->description_extended ?></p>
+                    </div>
+                </div>
+                <div class="ghb-consultation-card">
+                    <div class="ghb-consultation-card-content">
+                        <div class="ghb-consultation-card-text">
+                            <h3 class="l10n">Get specialists help</h3>
+                            <p class="l10n">Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos oss.</p>
+                        </div>
+                        <?php icon('consultation') ?>
+                    </div>
+                    <a href="/gratis-hudkonsultation.php" class="button outline">Boka en gratis hudkonsultation</a>
                 </div>
             </div>
         </div>

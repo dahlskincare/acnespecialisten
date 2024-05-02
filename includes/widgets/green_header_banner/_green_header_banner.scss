@@ -24,7 +24,34 @@
         }
     }
 
+    #ghb-desktop {
+        #ghb-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid $white-200;
+        }
+
+        #ghb-main {
+            margin: $xl * 2 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            #ghb-texts-col {
+                flex: 1 0 704px;
+                margin-right: 80px;
+
+                p {
+                    margin-top: $m;
+                }
+
+            }
+        }
+    }
+
     .ghb-consultation-card {
+        @include elevation-medium;
         background-color: $white-500;
         padding: $xl;
         border-radius: $radius-l;

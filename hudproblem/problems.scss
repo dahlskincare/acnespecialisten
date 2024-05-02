@@ -7,12 +7,6 @@ html {
 }
 
 section#banner {
-    @include desktop {
-        .green-header-banner-widget {
-            padding-bottom: 102px;
-        }
-    }
-
     #filters-touch-container {
         overflow-x: scroll;
         padding-bottom: $m;
@@ -98,9 +92,8 @@ section#banner {
             border: 1px solid $light-200;
             border-radius: $radius-l;
             overflow: hidden;
-            margin-top: -2*$xl;
+            margin-top: $xl3;
             background-color: $white-500;
-            @include elevation-medium();
 
             div#filter-items {
                 position: relative;
