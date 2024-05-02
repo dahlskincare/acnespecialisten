@@ -1,36 +1,83 @@
 .green-header-banner-widget {
     background-color: $deep-sea-400;
     color: $white-500;
-    padding-top: $xl;
-    padding-bottom: $xl;
-    @include p100;
+    padding-bottom: 20px;
 
-    .underline {
-        cursor: pointer;
-        text-decoration: underline;
-    }
+    #ghb-touch {
+        h1 {
+            font-size: 48px;
+            margin-top: $m;
+        }
 
-    @include desktop {
-        padding-bottom: $xl4;
+        #ghb-touch-content {
+            @include p200;
+            margin-top: $m;
+            margin-bottom: $xl;
 
-        div#ghb-title-col {
-            flex: 1 0 425px;
-
-            .h600 {
-                width: 1px;
+            #banner-expanded {
+                margin-top: $m;
             }
         }
 
-        div#ghb-texts-col {
-            margin-left: $xl;
+        #ghb-touch-badges {
+            margin-top: 20px;
+        }
+    }
+
+    #ghb-desktop {
+        #ghb-header {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid $white-200;
+        }
 
-            div {
-                flex: 1;
-                @include p200;
+        #ghb-main {
+            margin: $xl * 2 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            #ghb-texts-col {
+                flex: 1 0 704px;
+                margin-right: 80px;
+
+                p {
+                    margin-top: $m;
+                }
+
             }
         }
     }
 
+    .ghb-consultation-card {
+        @include elevation-medium;
+        background-color: $white-500;
+        padding: $xl;
+        border-radius: $radius-l;
+        color: $black-500;
+
+        .ghb-consultation-card-content {
+            display: flex;
+
+            h3 {
+                @include h200;
+            }
+
+            p {
+                @include p200;
+                margin-top: $xs;
+            }
+
+            .icon {
+                min-width: $xl4;
+            }
+        }
+
+        .button {
+            margin-top: $m;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
 }

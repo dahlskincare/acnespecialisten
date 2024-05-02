@@ -543,11 +543,26 @@ html {
                         }
 
                         #legends {
-                            margin-top: $s;
+                            margin-top: $xs;
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
                             @include p100;
+
+                            .legend {
+                                text-align: center;
+
+                                .legend-title {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    font-weight: bold;
+
+                                    sadas .icon {
+                                        margin-right: $xxs;
+                                    }
+                                }
+                            }
                         }
                     }
 
@@ -555,7 +570,7 @@ html {
                         position: fixed;
                         left: 0;
                         bottom: 0;
-                        padding: $s $m $m $m;
+                        padding: $s $m $xs $m;
                         width: 100%;
 
                         #consultation-button {
@@ -694,7 +709,6 @@ html {
                             }
                         }
                     }
-
                 }
             }
         }
