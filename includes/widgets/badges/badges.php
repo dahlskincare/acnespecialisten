@@ -16,4 +16,28 @@
             <div>problemfria</div>
         </div>
     </div>
+    <div class="badges-desktop is-hidden-touch">
+        <div class="badge">
+            <div class="badge-icons">
+                <?php icon('trustpilot-green') ?>
+                <?php icon('trustpilot-green') ?>
+                <?php icon('trustpilot-green') ?>
+                <?php icon('trustpilot-green') ?>
+                <?php icon('trustpilot-green-half') ?>
+            </div>
+            <strong>4.8</strong>&nbsp;<span>på</span>&nbsp;<a href="#">Trustpilot</a>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+            <strong>30+ års</strong>
+            &nbsp;
+            <span>erfarenhet</span>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+            <strong>200k+</strong>
+            &nbsp;
+            <span>problemfria</span>
+        </div>
+    </div>
 </div>

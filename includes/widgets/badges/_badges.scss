@@ -27,4 +27,30 @@
             margin-right: 0;
         }
     }
+
+    .badges-desktop {
+        display: flex;
+        align-items: center;
+
+        .badge {
+            display: flex;
+            align-items: center;
+
+            .badge-icons {
+                margin-right: $xs;
+            }
+
+            a {
+                @include h100;
+                text-decoration: underline;
+            }
+        }
+
+        .badge-divider {
+            margin: 0 $s;
+            width: 1px;
+            height: $m;
+            background-color: $white-400;
+        }
+    }
 }
