@@ -1,6 +1,56 @@
 .green-header-banner-widget {
     background-color: $deep-sea-400;
     color: $white-500;
-    padding-top: $xl;
-    padding-bottom: $xl;
+    padding-bottom: 20px;
+
+    #ghb-touch {
+        h1 {
+            font-size: 48px;
+            margin-top: $m;
+        }
+
+        #ghb-touch-content {
+            @include p200;
+            margin-top: $m;
+            margin-bottom: $xl;
+
+            #banner-expanded {
+                margin-top: $m;
+            }
+        }
+
+        #ghb-touch-badges {
+            margin-top: 20px;
+        }
+    }
+
+    .ghb-consultation-card {
+        background-color: $white-500;
+        padding: $xl;
+        border-radius: $radius-l;
+        color: $black-500;
+
+        .ghb-consultation-card-content {
+            display: flex;
+
+            h3 {
+                @include h200;
+            }
+
+            p {
+                @include p200;
+                margin-top: $xs;
+            }
+
+            .icon {
+                min-width: $xl4;
+            }
+        }
+
+        .button {
+            margin-top: $m;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
 }

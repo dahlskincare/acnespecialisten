@@ -1,36 +1,30 @@
 .badges-widget {
-    display: flex;
-    justify-content: space-between;
-
-    .badge {
+    .badges-touch {
         display: flex;
-        align-items: center;
-        border-radius: $xl4;
-        padding: 5.5px $s;
-        margin-right: 6px;
-        line-height: 1.1em;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        /// Trustpilot
-        @include button-text-color(#00B67A);
-        color: $black-500;
+        justify-content: space-between;
 
-        span.icon {
-            margin-right: 6px;
-        }
-    }
-
-    .badge:last-child {
-        margin-right: 0;
-    }
-}
-
-@include desktop {
-    .badges-widget {
         .badge {
-            background-color: $deep-sea-300;
+            @include p100;
             color: $white-500;
-            @include button-text-color($white-500);
+            text-align: center;
+
+            .badge-title {
+                @include h200;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: $xxs;
+
+                span.icon {
+                    margin-right: 6px;
+                }
+            }
+
+        }
+
+        .badge:last-child {
+            margin-right: 0;
         }
     }
 }

@@ -1,24 +1,19 @@
-<?php
-$badges_trustpilot = '<strong>4.8</strong> på Trustpilot';
-$badges_years_in_service = '<strong>30+ års</strong> erfarenhet';
-$badges_clients = '<strong>200k+</strong> Problemfria';
-?>
-
-<div class="badges-widget p100">
-    <div class="badge">
-        <?php icon('trustpilot') ?>
-        <span class="l10n">
-            <?php echo $badges_trustpilot ?>
-        </span>
-    </div>
-    <div class="badge">
-        <span class="l10n">
-            <?php echo $badges_years_in_service ?>
-        </span>
-    </div>
-    <div class="badge">
-        <span class="l10n">
-            <?php echo $badges_clients ?>
-        </span>
+<div class="badges-widget">
+    <div class="badges-touch is-hidden-desktop">
+        <div class="badge">
+            <div class="badge-title">
+                <?php icon('trustpilot-green') ?>
+                <span>4.8</span>
+            </div>
+            <div>Trustpilot</div>
+        </div>
+        <div class="badge">
+            <div class="badge-title">30+ års</div>
+            <div>erfarenhet</div>
+        </div>
+        <div class="badge">
+            <div class="badge-title">200 000+</div>
+            <div>problemfria</div>
+        </div>
     </div>
 </div>
