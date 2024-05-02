@@ -156,9 +156,7 @@
             </div>
             <div id="footer-bottom">
                 <div class="copy-n-cookies">
-                    <p>&copy;
-                        <?php echo date('Y') ?> Acnespecialisten
-                    </p>
+                    <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
                     <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
                     <div id="language-selector">
                         <?php icon("intl") ?>
