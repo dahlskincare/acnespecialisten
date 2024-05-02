@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Mallorca Acne | AcneSpecialisten';
 $seo_description = 'Vi på AcneSpecialisten tar fram en skräddarsydd behandlingsplan för dig som drabbts av akne och sol finnar. Börja med en kostnadsfri konsultation →';
-$seo_keywords = 'mallorca acne, acne aestivalis, akne sol, finnar sol, sol finnar';
+$seo_keywords = 'mallorca acne, acne aestivalis, finnar sol, sol finnar, finnar av solen, akne sol, små finnar av solen, tar solen bort finnar, akne av sol, sola bort akne, acne aestivalis behandling';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -80,7 +80,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad orsakar mallorca acne?';
-$description_text = '<p class="p200">Mallorca acne, även känd som Acne Aestivalis, är en särskild form av akne som uppkommer som en reaktion på solens strålar, ofta under eller efter en semester i soliga klimat. Denna typ av akne skiljer sig från traditionell akne genom att den främst drivs av en kombination av intensiv sol exponering och användning av oljiga solskydd som kan täppa till porerna. Till skillnad från vanliga akneutslag som pormaskar och inflammerade finnar, karaktäriseras Mallorca acne av små, täta, kliande utslag som kan dyka upp på områden av huden som utsatts för sol, såsom ansiktet, nacken, bröstet och armarna. För att förebygga Mallorca acne är det viktigt att välja solskyddsprodukter som är icke-komedogena (inte por-täppande) och anpassade för känslig eller aknebenägen hud.</p>
+$description_text = '<p class="p200">Mallorca acne, även känd som Acne Aestivalis, är en särskild form av akne från sol som uppkommer som en reaktion på solens strålar, ofta under eller efter en semester i soliga klimat. Denna typ av akne skiljer sig från traditionell akne genom att den främst drivs av en kombination av intensiv sol exponering och användning av oljiga solskydd som kan täppa till porerna. Till skillnad från vanliga akneutslag som pormaskar och inflammerade finnar, karaktäriseras Mallorca acne av små, täta, kliande utslag som kan dyka upp på områden av huden som utsatts för sol, såsom ansiktet, nacken, bröstet och armarna. För att förebygga Mallorca acne är det viktigt att välja solskyddsprodukter som är icke-komedogena (inte por-täppande) och anpassade för känslig eller aknebenägen hud.</p>
 <p class="p200 mt-m">Det är även klokt att applicera solskydd regelbundet, särskilt efter bad och svettning, och att söka skugga under solens mest intensiva timmar mitt på dagen. Efter en dag i solen rekommenderas en noggrann rengöring av huden för att avlägsna solskyddsmedel och minska risken för tilltäppta porer. Om du upplever ihållande eller svår Mallorca acne kan det vara lämpligt att konsultera en hudterapeut för att diskutera behandlingsalternativ och få en skräddarsydd hudvårdsrutin som är anpassad för dig.</p>';
 
 $treatment_steps = array(
