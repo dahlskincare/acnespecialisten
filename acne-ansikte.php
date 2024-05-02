@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne i Ansiktet | AcneSpecialisten';
 $seo_description = 'Har du problem med acne i ansiktet, såsom käklinje, kinderna eller under hakan? Läs mer om hur du kan behandla det. Börja med en kostnadsfri konsultation →';
-$seo_keywords = 'akne, akne i ansiktet, acne i ansiktet, acne käklinje, acne kinderna, acne under hakan';
+$seo_keywords = 'acne ansikte, acne på hakan, akne på hakan, akne på kinderna, acne i ansiktet, akne i pannan, acne ansiktet, acne på halsen, acne på ansiktet, acne käklinje, akne pannan';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -81,7 +81,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är akne i ansiktet?';
 $description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av talg, kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
-<p class="p200 mt-m">Akne påverkar oftast områden i ansiktet där talgkörtlar är mest aktiva, inklusive käklinjen, kinderna, pannan, näsan och även området under hakan. I vissa fall kan akne även sprida sig till halsen, vilket ytterligare kan försvåra tillståndet. Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
+<p class="p200 mt-m">Akne påverkar oftast områden i ansiktet där talgkörtlar är mest aktiva, inklusive käklinje, kinder, panna, näsa samt på området under haka. I vissa fall kan akne även sprida sig till halsen, vilket ytterligare kan försvåra tillståndet. Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
