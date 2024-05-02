@@ -170,18 +170,20 @@
                         Boka gratis konsultation
                     </a>
                     <div id="legends">
-                        <div>
-                            <?php icon("trustpilot") ?>
-                            <strong>4.8</strong>
-                            <span class="l10n">Trustpilot</span>
+                        <div class="legend">
+                            <div class="legend-title">
+                                <?php icon("trustpilot-green") ?>
+                                <span>4.8</span>
+                            </div>
+                            <span>Trustpilot</span>
                         </div>
-                        <div>
-                            <strong>30+</strong>
-                            <span class="l10n">Års erfarenhet</span>
+                        <div class="legend">
+                            <div class="legend-title l10n">30+ års</div>
+                            <div class="l10n">erfarenhet</div>
                         </div>
-                        <div>
-                            <strong>200k+</strong>
-                            <span class="l10n">Kunder</span>
+                        <div class="legend">
+                            <div class="legend-title">200 000+</div>
+                            <div class="l10n">problemfria</div>
                         </div>
                     </div>
                 </div>
