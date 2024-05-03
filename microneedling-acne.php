@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Microneedling mot Akne - Reducera akne effektivt';
 $seo_description = 'Microneedling-behandlingar effektivt kan behandla akne och förbättra huden, mikronålsteknik stimulerar hudens naturliga läkningsprocess och kollagenproduktion.';
-$seo_keywords = 'microneedling, aknebehandling, förbättra hudkvalitet, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling mot akne, hudhälsa, minskning av akne';
+$seo_keywords = 'microneedling mot acne, dermapen acne, dermapen akne, microneedling acne, microneedling akne, microneedling mot akne';
 
 
 $seo_image = 'images/treatments/large/microneedling.webp';
@@ -78,7 +78,7 @@ $big_types = array(
         title: 'Microneedling mot akne',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">Microneedling-behandling mot akne hos AcneSpecialisten inleds med en grundlig rengöring av huden för att avlägsna smuts och oljor som kan påverka behandlingens effektivitet. Därefter genomförs själva microneedling-proceduren där ett specialiserat verktyg med små, fina nålar varsamt skapar mikroskopiska punkteringar i hudens ytskikt. Efter proceduren appliceras en lugnande och återfuktande kräm på huden för att minska eventuell rodnad och främja snabbare läkning. Det är normalt att uppleva en viss rodnad och känslighet direkt efter behandlingen.</p>',
+        content: '<p class="p200">Microneedling-behandling mot akne hos AcneSpecialisten inleds med en grundlig rengöring av huden för att avlägsna smuts och oljor som kan påverka behandlingens effektivitet. Därefter genomförs själva microneedling-proceduren där ett specialiserat verktyg med små, fina nålar varsamt skapar mikroskopiska punkteringar i hudens ytskikt. Efter proceduren appliceras en lugnande och återfuktande kräm på huden för att minska eventuell rodnad och främja snabbare läkning. Vi går alltid igenom eftervård och det är normalt att uppleva en viss rodnad och känslighet direkt efter behandlingen.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'microneedling mot akne',
