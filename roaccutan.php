@@ -23,7 +23,7 @@ $article = new SkinGuideArticle(
     <title class="l10n">Information om acnemedicinen Roaccutan | AcneSpecialisten</title>
     <meta name="title" content="Information om acnemedicinen Roaccutan | AcneSpecialisten" class="l10n">
     <meta name="description" content="Roaccutan är en acne medicin. Här hittar du mer information om roaccutan och dess biverkningar, vi erbjuder effektiv behandling utan roaccutan." class="l10n">
-    <meta name="keywords" content="accutane, roaccutan hur länge, roacutan, roaccutan, roaccutane, roaccutan kräm, roccutan, acne medicin roaccutan, roaccutan permanenta biverkningar, akne tabletter, akne medicin, accutane svenska" class="l10n">
+    <meta name="keywords" content="accutane, roaccutan, akne medicin, accutane svenska, roaccutane, roacutan, isotretinoin före efter, acne medicin, medicin mot akne, akne kräm recept, antibiotika mot akne, biverkningar roaccutan, roaccutan biverkningar, accutane sweden, akne tabletter, antibiotika mot akne resultat, roaccutan fass" class="l10n">
 
     <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
@@ -82,7 +82,7 @@ $article = new SkinGuideArticle(
                     <h2 class="nav-anchor">Översikt</h2>
                     <h3>Vad är roaccutan?</h3>
                     <p>
-                        Acnemedicinen roaccutan tillhör en grupp av läkemedel som kallas för retinoider. Preparatet har flera benämningar såsom accutane och roaccutane på engelska, och det är inte ovanligt att det kallas roccutan på Svenska. De är besläktade med A-vitamin, ett vitamin som du bär på naturligt och är därför viktigt för både huden och kroppen i viss mängd. Läkemedlet roaccutan används främst vid mycket svår acne och är ett av de få läkemedel som faktiskt visat sig ha effekt på acnebenägen hy. Det lanserades av Hoffman-La Roche under 1980-talet.
+                        Acnemedicinen roaccutan tillhör en grupp av läkemedel som kallas för retinoider. Preparatet har flera benämningar såsom accutane och roaccutane på engelska, och det är inte ovanligt att det kallas roccutan eller roacutan på Svenska. De är besläktade med A-vitamin, ett vitamin som du bär på naturligt och är därför viktigt för både huden och kroppen i viss mängd. Läkemedlet roaccutan används främst vid mycket svår acne och är ett av de få läkemedel som faktiskt visat sig ha effekt på acnebenägen hy. Det lanserades av Hoffman-La Roche under 1980-talet.
                     </p>
                     <p>
                         En behandling pågår normalt mellan 16 och 24 veckor. Medicinen är paketerad i form av röd-bruna gelatinkapslar eller tabletter som du äter dagligen. Roaccutan är inte receptfritt utan skrivs ut av legitimerade läkare under särskilda förhållanden.
@@ -96,7 +96,7 @@ $article = new SkinGuideArticle(
                             Med medicinen roaccutan minskar talgkörtlarnas storlek och då i sin tur också talgproduktionen. Eftersom talgproduktionen reduceras minskar också antalet av den bakterie, propionibacterium acnes, som resulterar i acne. Den kan nämligen inte leva utan talg. Preparatet har också en antiinflammatorisk effekt och är starkt avfjällande på huden. A-vitamin må vara viktigt för din kropp och din hud, men den torkar också ut rejält.
                         </li>
                         <li>
-                            Med tanke på preparatets positiva resultat när det kommer till att reducera acne så låter väl inte roaccutan som en allt för tokig idé kanske. Vad man däremot bör veta är att medicinen inte är vidare snäll mot resten av kroppen. I processen att bli kvitt acnen med roaccutan tillkommer det en rad biverkningar.
+                            Med tanke på preparatets positiva resultat när det kommer till att reducera acne i vissa fall så låter väl inte roaccutan som en allt för tokig idé kanske. Vad man däremot bör veta är att medicinen inte är vidare snäll mot resten av kroppen. I processen att bli kvitt acnen med roaccutan tillkommer det en rad biverkningar.
                         </li>
                     </ol>
 
