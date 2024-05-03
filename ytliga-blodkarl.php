@@ -8,8 +8,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Vad är brustna och ytliga blodkärl?';
 $seo_description = 'Här hittar du allt om brustna och ytliga blodkärl och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'ytliga blodkärl, brustna blodkärl, synliga blodkärl, behandling av ytliga blodkärl, orsaker till ytliga blodkärl, förebygga ytliga blodkärl, ta bort ytliga blodkärl';
-
-$title = 'Ytliga Blodkärl';
+$seo_image = 'bilder/hudproblem/424x456/ytliga-blodkarl.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
@@ -20,41 +19,32 @@ $image_small = 'bilder/hudproblem/424x324/ytliga-blodkarl.webp';
 $image_large = 'bilder/hudproblem/424x456/ytliga-blodkarl.webp';
 $image_title = 'Visar en hud med ytliga blodkärl';
 $image_alt = 'Ytliga blodkärl i ansiktet';
-$description = 'Ytliga blodkärl, som kan visa sig som spindelkärl (brustna blodkärl) eller synliga kärl, är små, utvidgade blodkärl under hudytan. Vi förklarar hur och varför de bildas och vilka områden av kroppen som oftast påverkas.';
 
-$akas = [
-      new Link(
-            label: 'Brustna blodkärl',
-            url: null,
-            title: 'Brustna blodkärl',
-      ),
-      new Link(
-            label: 'Synliga blodkärl',
-            url: null,
-            title: 'Synliga blodkärl',
-      ),
-];
-
-$consultation_url_label = "Boka gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels";
-$consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
-
-$booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels";
-$booking_url_title = "Boka Behandling för Ytliga Blodkärl";
-
-$mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
-
-$mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Behandling för Ytliga Blodkärl";
-
-$floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Ytliga Blodkärl";
-
-$floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Behandling för Ytliga Blodkärl";
-
+$green_banner_content = new GreenBannerContent(
+      title: 'Ytliga Blodkärl',
+      description: 'Ytliga blodkärl, som kan visa sig som spindelkärl (brustna blodkärl) eller synliga kärl, är små, utvidgade blodkärl under hudytan. Vi förklarar hur och varför de bildas och vilka områden av kroppen som oftast påverkas.',
+      links_touch: [
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels', 'Boka gratis konsultation för ytliga blodkärl'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels', 'Boka denna behandling'),
+      ],
+      links_desktop: [
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels', 'Boka gratis konsultation för ytliga blodkärl'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels', 'Boka denna behandling'),
+      ],
+      show_consultation_card: false,
+      akas: [
+            new Link(
+                  label: 'Brustna blodkärl',
+                  url: null,
+                  title: 'Brustna blodkärl',
+            ),
+            new Link(
+                  label: 'Synliga blodkärl',
+                  url: null,
+                  title: 'Synliga blodkärl',
+            ),
+      ]
+);
 
 $nav_buttons = array(
       'about' => 'Om ytliga blodkärl',
@@ -65,7 +55,6 @@ $nav_buttons = array(
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
       'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
       'specialists' => 'Specialister',
       'related-problems' => 'Relaterade problem',
 );
@@ -667,10 +656,10 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
       <meta property="og:title" content="<?php echo $seo_title ?>" />
       <meta property="og:description" content="<?php echo $seo_description ?>" />
-      <meta property="og:image" content="<?php echo $image_large ?>" />
+      <meta property="og:image" content="<?php echo $seo_image ?>" />
       <meta property="twitter:title" content="<?php echo $seo_title ?>" />
       <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-      <meta property="twitter:image" content="<?php echo $image_large ?>" />
+      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="hudproblem/problem.css">
@@ -679,108 +668,13 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-            <div class="container">
-                  <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                        <div id="overlay">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                              <div>
-                                    <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka">
-                                          <span class="p200 l10n">Även kallat</span>
-                                          <div>
-                                                <?php foreach ($akas as $aka) { ?>
-                                                      <?php if (isset($aka->url)) { ?>
-                                                            <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                                      <?php } else { ?>
-                                                            <span class="b200 aka"><?php echo $aka->label ?></span>
-                                                      <?php } ?>
-                                                <?php } ?>
-                                          </div>
-                                          <div class="mt-xl">
-                                                <div class="columns is-2 is-variable">
-                                                      <div class="column">
-                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
-                                                      </div>
-                                                      <div class="column">
-                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
       <main>
             <section id="header">
-                  <div id="green-header-small" class="is-hidden-desktop">
-                        <div class="container">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600"><?php echo $title ?></h1>
-                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
-                              <?php foreach ($akas as $aka) { ?>
-                                    <?php if (isset($aka->url)) { ?>
-                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button underline b50 bright"><?php echo $aka->label ?></a>
-                                    <?php } else { ?>
-                                          <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
-                                    <?php } ?>
-                              <?php } ?>
-                              <hr class="mt-xl" />
-                              <p class="mt-m p200">
-                                    <?php echo $description ?>
-                              </p>
-                              <div class="mt-xl">
-                                    <div class="columns is-mobile">
-                                          <div class="column is-half">
-                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
-                                          </div>
-                                          <div class="column is-half">
-                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <div id="green-header-large" class="is-hidden-touch">
-                        <div class="container">
-                              <div class="columns">
-                                    <div class="column is-half">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                                    </div>
-                                    <div class="column is-half flex-row justify-end">
-                                          <div class="mt-xl">
-                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600"><?php echo $title ?></h1>
-                                    <div class="mt-s">
-                                          <span class="h200 l10n">Även känt som:</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <?php if (isset($aka->url)) { ?>
-                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                                <?php } else { ?>
-                                                      <span class="b200 aka"><?php echo $aka->label ?></span>
-                                                <?php } ?>
-                                          <?php } ?>
-                                    </div>
-                                    <p class="mt-s p200"><?php echo $description ?></p>
-                                    <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </section>
                         <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">

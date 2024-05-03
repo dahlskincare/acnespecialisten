@@ -8,8 +8,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Vad är rosacea? -Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om roacea och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'rosacea, rosaceabehandling, orsaker till rosacea, förebygga rosacea, behandla rosacea, vuxenrosacea, rosacearodnad, kärlutvidgningar, rodnad, inflammation';
-
-$title = 'Rosacea';
+$seo_image = 'bilder/hudproblem/424x456/rosacea.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
@@ -21,28 +20,19 @@ $image_large = 'bilder/hudproblem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rosacea';
 $image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';
 
-$description = 'Rosacea är en kronisk hudsjukdom som orsakar rodnad, inflammation och ytliga blodkärl i ansiktet. Den här sidan ger en översikt över sjukdomens symptom, stadier och de utlösande faktorer som kan förvärra tillståndet.';
-
-
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
-$consultation_url_label = "Boka gratis konsultation";
-$consultation_url_title = "Gratis Konsultation för Rosacea";
-
-$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea";
-$booking_url_label = "Boka behandling";
-$booking_url_title = "Boka rosaceabehandling";
-
-$mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Rosacea";
-
-$mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Rosaceabehandling";
-
-$floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Rosacea";
-
-$floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Rosaceabehandling";
+$green_banner_content = new GreenBannerContent(
+      title: 'Rosacea',
+      description: 'Rosacea är en kronisk hudsjukdom som orsakar rodnad, inflammation och ytliga blodkärl i ansiktet. Den här sidan ger en översikt över sjukdomens symptom, stadier och de utlösande faktorer som kan förvärra tillståndet.',
+      links_touch: [
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea', 'Boka gratis konsultation för rosacea'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea', 'Boka denna behandling'),
+      ],
+      links_desktop: [
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea', 'Boka gratis konsultation för rosacea'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea', 'Boka denna behandling'),
+      ],
+      show_consultation_card: false,
+);
 
 $nav_buttons = array(
       'about' => 'Om rosacea',
@@ -54,7 +44,6 @@ $nav_buttons = array(
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
       'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
       'specialists' => 'Specialister',
       'related-problems' => 'Relaterade problem',
 );
@@ -231,9 +220,6 @@ $symptoms = array(
             name: 'Rodnad',
             image: '/bilder/symptom/102x102/rodnad-kinder.webp',
             content: 'Rodnad är ett vanligt symptom på rosacea och visar sig ofta som en ihållande röd färg i ansiktet, särskilt på kinderna, näsan, pannan och hakan.',
-            url: '',
-            url_title: '',
-            url_label: '',
             aka: 'Erythema',
             image_alt: 'Bild av rodnad orsakad av rosacea',
             image_title: 'Rodnad orsakad av rosacea'
@@ -243,9 +229,6 @@ $symptoms = array(
             name: 'Vätskefyllda blåsor',
             image: '/bilder/symptom/102x102/vatskefyllda-blasor.webp',
             content: 'Vätskefyllda blåsor är ett annat symptom på rosacea. De liknar de som uppträder vid akne och finnar.',
-            url: '',
-            url_title: '',
-            url_label: '',
             aka: 'Pustler',
             image_alt: 'Bild av vätskefyllda blåsor orsakade av rosacea',
             image_title: 'Vätskefyllda blåsor orsakade av rosacea'
@@ -255,9 +238,6 @@ $symptoms = array(
             name: 'Synliga blodkärl',
             image: '/bilder/symptom/102x102/synliga-blodkarl.webp',
             content: 'Vid rosacea kan de små blodkärlen i huden bli mer ytliga och synliga, vilket framträder som tunna röda linjer.',
-            url: '',
-            url_title: '',
-            url_label: '',
             aka: 'Telangiektasi',
             image_alt: 'Bild av synliga blodkärl orsakade av rosacea',
             image_title: 'Synliga blodkärl orsakade av rosacea'
@@ -267,9 +247,6 @@ $symptoms = array(
             name: 'Papler och pustler',
             image: '/bilder/symptom/102x102/papulopustular-rosacea.webp',
             content: 'Rosacea kan leda till utvecklingen av röda upphöjda papler och pustler som vid akne.',
-            url: '',
-            url_title: '',
-            url_label: '',
             aka: 'Papulopustulär rosacea',
             image_alt: 'Bild av papler och pustler orsakade av rosacea',
             image_title: 'Papler och pustler orsakade av rosacea'
@@ -291,9 +268,6 @@ $symptoms = array(
             name: 'Ögonproblem',
             image: '/bilder/symptom/102x102/okular-rosacea.webp',
             content: 'Okulär rosacea är en form av sjukdomen som påverkar ögonen och ögonlocken. Symptom kan inkludera torra ögon, irritation och rinnande ögon.',
-            url: '',
-            url_title: '',
-            url_label: '',
             aka: 'Okulär rosacea',
             image_alt: 'Bild av ögonproblem orsakade av rosacea',
             image_title: 'Ögonproblem orsakade av rosacea'
@@ -303,9 +277,6 @@ $symptoms = array(
             name: 'Irriterad hy',
             image: '/bilder/symptom/102x102/irriterad-hy.webp',
             content: 'En hettande. brännande eller stickande känsla i huden är ett vanligt symptom på rosacea. Huden kan även klia i form av klåda.',
-            url: '',
-            url_title: '',
-            url_label: '',
             aka: 'Brännande och hettande hy',
             image_alt: 'Bild av brännande och hettande hy känsla orsakad av rosacea',
             image_title: 'Brännande och hettande hy orsakad av rosacea'
@@ -389,10 +360,6 @@ $products = array(
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av rosacea',
             image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
-
-            url: '',
-            url_label: '',
-            url_title: '',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
@@ -724,10 +691,10 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
       <meta property="og:title" content="<?php echo $seo_title ?>" />
       <meta property="og:description" content="<?php echo $seo_description ?>" />
-      <meta property="og:image" content="<?php echo $image_large ?>" />
+      <meta property="og:image" content="<?php echo $seo_image ?>" />
       <meta property="twitter:title" content="<?php echo $seo_title ?>" />
       <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-      <meta property="twitter:image" content="<?php echo $image_large ?>" />
+      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="hudproblem/problem.css">
@@ -736,80 +703,13 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-            <div class="container">
-                  <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                        <div id="overlay">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                              <div>
-                                    <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka">
-                                          <div class="mt-xl">
-                                                <div class="columns is-2 is-variable">
-                                                      <div class="column">
-                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
-                                                      </div>
-                                                      <div class="column">
-                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
       <main>
             <section id="header">
-                  <div id="green-header-small" class="is-hidden-desktop">
-                        <div class="container">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600"><?php echo $title ?></h1>
-                              <hr class="mt-xl" />
-                              <p class="mt-m p200">
-                                    <?php echo $description ?>
-                              </p>
-                              <div class="mt-xl">
-                                    <div class="columns is-mobile">
-                                          <div class="column is-half">
-                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
-                                          </div>
-                                          <div class="column is-half">
-                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <div id="green-header-large" class="is-hidden-touch">
-                        <div class="container">
-                              <div class="columns">
-                                    <div class="column is-half">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                                    </div>
-                                    <div class="column is-half flex-row justify-end">
-                                          <div class="mt-xl">
-                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600"><?php echo $title ?></h1>
-                                    <p class="mt-s p200"><?php echo $description ?></p>
-                                    <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="<?php echo $booking_url ?>" title="B<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </section>
                         <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">

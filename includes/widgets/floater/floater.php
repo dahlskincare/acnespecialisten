@@ -5,18 +5,20 @@
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 <div>
                     <h2 class="h600"><?php echo $green_banner_content->title ?></h2>
-                    <div class="mt-m">
-                        <span class="p200 l10n">Även kallat</span>
-                        <div>
-                            <?php foreach ($green_banner_content->akas as $aka) { ?>
-                                <?php if (isset($aka->url)) { ?>
-                                    <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                <?php } else { ?>
-                                    <span class="b200 aka"><?php echo $aka->label ?></span>
+                    <?php if (sizeof($green_banner_content->akas) > 0) { ?>
+                        <div class="mt-m">
+                            <span class="p200 l10n">Även kallat</span>
+                            <div>
+                                <?php foreach ($green_banner_content->akas as $aka) { ?>
+                                    <?php if (isset($aka->url)) { ?>
+                                        <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
+                                    <?php } else { ?>
+                                        <span class="b200 aka"><?php echo $aka->label ?></span>
+                                    <?php } ?>
                                 <?php } ?>
-                            <?php } ?>
+                            </div>
                         </div>
-                    </div>
+                    <?php } ?>
                     <?php if (isset($floating_box)) { ?>
                         <div class="mt-m"><?php echo $floating_box ?></div>
                     <?php } ?>
