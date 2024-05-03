@@ -8,7 +8,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Akne | AcneSpecialisten';
 $seo_description = 'Läs mer om akne & acne, varför det uppstår och vilka behandlingar du kan göra. Boka en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →';
 $seo_keywords = 'acne, akne, papler, pustler, vad är akne, varför får man akne, acne vård, plötslig akne, akne bakterie, papler akne, akne symtom, papler acne';
-$seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
