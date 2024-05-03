@@ -8,7 +8,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Akne | AcneSpecialisten';
 $seo_description = 'Läs mer om akne & acne, varför det uppstår och vilka behandlingar du kan göra. Boka en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →';
 $seo_keywords = 'acne, akne, papler, pustler, vad är akne, varför får man akne, acne vård, plötslig akne, akne bakterie, papler akne, akne symtom, papler acne';
-$seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
@@ -29,7 +28,7 @@ $green_banner_content = new GreenBannerContent(
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       show_consultation_card: false,

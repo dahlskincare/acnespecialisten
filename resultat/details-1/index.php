@@ -139,7 +139,7 @@
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <section id="banner" class="sticky-badges-target">
+        <section id="banner">
             <div id="banner-green">
                 <div class="container l10n">
                     <div class="is-hidden-desktop">

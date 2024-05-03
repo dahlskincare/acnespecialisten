@@ -140,7 +140,7 @@ $pages = sizeof($results_per_page);
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <section id="banner" class="sticky-badges-target">
+        <section id="banner">
             <?php
             $green_banner_content = new GreenBannerContent(
                 title: $result_category->title,

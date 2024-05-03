@@ -536,7 +536,7 @@ $path_segments = array(
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <section id="banner" class="sticky-badges-target">
+        <section id="banner">
             <?php
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>

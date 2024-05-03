@@ -1478,7 +1478,7 @@ $specialists = array(
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
-            <section id="banner" class="sticky-badges-target">
+            <section id="banner">
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
                   <div class="container is-hidden-desktop" id="filters-touch-container">
                         <div id="filters-touch" class="mt-m">

@@ -722,7 +722,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
             </div>
       </div>
       <main>
-            <section id="header" class="sticky-badges-target">
+            <section id="header">
                   <div id="green-header-small" class="is-hidden-desktop">
                         <div class="container">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
