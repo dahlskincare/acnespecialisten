@@ -1,6 +1,6 @@
-@import "colors";
-@import "mixins";
-@import "sizes";
+@import "../../../styles/util/colors";
+@import "../../../styles/util/mixins";
+@import "../../../styles/util/sizes";
 
 div#floater {
     position: sticky;

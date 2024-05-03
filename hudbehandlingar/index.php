@@ -56,8 +56,6 @@ $green_banner_content = new GreenBannerContent(
     title: 'Hudbehandlingar',
     description: 'Vi erbjuder ett brett utbud av hudbehandlingar anpassade för alla typer av hudproblem. Våra tjänster inkluderar ansiktsbehandlingar som djuprengör hudens porer, avancerade kemiska peelingar för hudföryngring, och laser hudbehandling för att effektivt behandla olika hudtillstånd.',
     description_extended: 'Vi förstår att varje hud är unik. Därför erbjuder vi skräddarsydda behandlingar för att uppfylla dina specifika behov. Våra erfarna hudterapeuter använder de senaste teknikerna och metoderna för att ge dig de bästa möjliga resultaten. Boka en tid hos oss för att upptäcka hur vi kan hjälpa dig.',
-    button_url: 'https://acnespecialisten.se/book?flow=consultation',
-    button_label: 'Boka en gratis konsultation'
 );
 
 $treatments = array(

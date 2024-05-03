@@ -3,6 +3,16 @@
         <div id="ghb-touch" class="is-hidden-desktop">
             <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
             <h1><?php echo $green_banner_content->title ?></h1>
+            <?php if (sizeof($green_banner_content->akas) > 0) { ?>
+                <div id="ghb-akas-touch">
+                    <div class="p100 mt-xs l10n">Även känt som</div>
+                    <div id="gbh-akas-touch-links">
+                        <?php foreach ($green_banner_content->akas as $aka) { ?>
+                            <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>"><?php echo $aka->label ?></a>
+                        <?php } ?>
+                    </div>
+                </div>
+            <?php } ?>
             <div id="ghb-touch-content">
                 <span><?php echo $green_banner_content->description ?></span>
                 <span class="l10n underline h200" onclick="GreenHeaderBanner.onReadMoreClick(this)">läs mer</span>
@@ -10,15 +20,22 @@
                     <?php echo $green_banner_content->description_extended ?>
                 </div>
             </div>
-            <div class="ghb-consultation-card">
-                <div class="ghb-consultation-card-content">
-                    <div class="ghb-consultation-card-text">
-                        <h3 class="l10n">Get specialists help</h3>
-                        <p class="l10n">Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos oss.</p>
+            <?php if ($green_banner_content->show_consultation_card) { ?>
+                <div class="ghb-consultation-card">
+                    <div class="ghb-consultation-card-content">
+                        <div class="ghb-consultation-card-text">
+                            <h3 class="l10n">Få specialisthjälp</h3>
+                            <p class="l10n">Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos oss.</p>
+                        </div>
+                        <?php icon('consultation') ?>
                     </div>
-                    <?php icon('consultation') ?>
+                    <a href="/gratis-hudkonsultation.php" class="button outline">Boka en gratis hudkonsultation</a>
                 </div>
-                <a href="/gratis-hudkonsultation.php" class="button outline">Boka en gratis hudkonsultation</a>
+            <?php } ?>
+            <div id="ghb-touch-links">
+                <?php foreach ($green_banner_content->links_touch as $link) { ?>
+                    <a href="<?php echo $link->url ?>" title="<?php echo $link->title ?>" class="button b200 white"><?php echo $link->label ?></a>
+                <?php } ?>
             </div>
             <div id="ghb-touch-badges">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
@@ -30,23 +47,37 @@
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
             </div>
             <div id="ghb-main">
-                <div>
+                <div id="ghb-texts-col">
                     <h1><?php echo $green_banner_content->title ?></h1>
-                    <div id="ghb-texts-col">
-                        <p><?php echo $green_banner_content->description ?></p>
-                        <p><?php echo $green_banner_content->description_extended ?></p>
-                    </div>
-                </div>
-                <div class="ghb-consultation-card">
-                    <div class="ghb-consultation-card-content">
-                        <div class="ghb-consultation-card-text">
-                            <h3 class="l10n">Get specialists help</h3>
-                            <p class="l10n">Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos oss.</p>
+                    <?php if (sizeof($green_banner_content->akas) > 0) { ?>
+                        <div id="ghb-akas">
+                            <span class="h200">Även känt som</span>
+                            <?php foreach ($green_banner_content->akas as $aka) { ?>
+                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline"><?php echo $aka->label ?></a>
+                            <?php } ?>
                         </div>
-                        <?php icon('consultation') ?>
+                    <?php } ?>
+                    <p><?php echo $green_banner_content->description ?></p>
+                    <p><?php echo $green_banner_content->description_extended ?></p>
+                    <div id="ghb-links">
+                        <?php foreach ($green_banner_content->links_desktop as $link) { ?>
+                            <a href="<?php echo $link->url ?>" title="<?php echo $link->title ?>" class="button b200 white"><?php echo $link->label ?></a>
+                        <?php } ?>
                     </div>
-                    <a href="/gratis-hudkonsultation.php" class="button outline">Boka en gratis hudkonsultation</a>
+
                 </div>
+                <?php if ($green_banner_content->show_consultation_card) { ?>
+                    <div class="ghb-consultation-card">
+                        <div class="ghb-consultation-card-content">
+                            <div class="ghb-consultation-card-text">
+                                <h3 class="l10n">Få specialisthjälp</h3>
+                                <p class="l10n">Om du är osäker på ditt hudtillstånd eller vilken behandling som passar dig bäst, rekommenderar vi en kostnadsfri hudkonsultation hos oss.</p>
+                            </div>
+                            <?php icon('consultation') ?>
+                        </div>
+                        <a href="/gratis-hudkonsultation.php" class="button outline">Boka en gratis hudkonsultation</a>
+                    </div>
+                <?php } ?>
             </div>
         </div>
     </div>

@@ -56,8 +56,6 @@ $green_banner_content = new GreenBannerContent(
       title: 'Hudproblem',
       description: 'På Acnespecialisten arbetar vi med att behandla och förbättra huden genom att erbjuda skräddarsydda lösningar för varje enskilt hudproblem. För att veta mer om de olika problemen och hur vi kan hjälpa dig, klicka på det problem du misstänker att du har.',
       description_extended: 'Om du är osäker på vilket hudproblem du har eller vilken behandling som skulle passa dig bäst, rekommenderar vi att du bokar en kostnadsfri hudkonsultation. Under konsultationen kommer en av våra erfarna hudterapeuter att undersöka din hud, identifiera ditt problem.',
-      button_url: 'gratis-hudkonsultation.php',
-      button_label: 'Boka en gratis hudkonsultation'
 );
 
 $problems['akne'] = new Problem(

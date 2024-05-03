@@ -5,8 +5,29 @@
 
     #ghb-touch {
         h1 {
-            font-size: 48px;
+            font-size: $xl3;
             margin-top: $m;
+        }
+
+        #ghb-akas-touch {
+            padding-bottom: $xl;
+            border-bottom: 1px solid $white-200;
+
+            #gbh-akas-touch-links {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+
+
+                a {
+                    @include p100;
+                    margin-top: $xs;
+                    margin-right: $xs;
+                    padding: 6px $s;
+                    background-color: $deep-sea-300;
+                    border-radius: $radius-s;
+                }
+            }
         }
 
         #ghb-touch-content {
@@ -16,6 +37,24 @@
 
             #banner-expanded {
                 margin-top: $m;
+            }
+        }
+
+        #ghb-touch-links {
+            display: flex;
+            align-items: center;
+            justify-content: stretch;
+
+            a {
+                flex: auto;
+            }
+
+            a:first-child {
+                margin-right: 6px;
+            }
+
+            a:last-child {
+                margin-left: 6px;
             }
         }
 
@@ -32,6 +71,16 @@
             border-bottom: 1px solid $white-200;
         }
 
+        #ghb-akas {
+            a:not(:last-child)::after {
+                content: ",";
+            }
+
+            a:last-child::after {
+                content: ".";
+            }
+        }
+
         #ghb-main {
             margin: $xl * 2 0;
             display: flex;
@@ -39,11 +88,21 @@
             justify-content: space-between;
 
             #ghb-texts-col {
-                flex: 1 0 704px;
+                flex: 0 0 704px;
                 margin-right: 80px;
 
                 p {
                     margin-top: $m;
+                }
+
+                #ghb-links {
+                    margin-top: $m;
+                    display: flex;
+                    align-items: center;
+
+                    a:first-child {
+                        margin-right: $s;
+                    }
                 }
 
             }

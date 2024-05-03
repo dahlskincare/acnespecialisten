@@ -1,5 +1,3 @@
-@import "../styles/util/floating_image";
-
 @import "widgets/problem-trivia-card/problem-trivia-card";
 @import "widgets/symptom-card/symptom-card";
 @import "widgets/related-problem-card/related-problem-card";
@@ -21,39 +19,15 @@ html {
     content: ",";
 }
 
-section#header {
-
-    #green-header-small {
-        background-color: $deep-sea-400;
-        color: $white-500;
-        padding-bottom: $xl;
-
-        hr {
-            border: 0;
-            border-top: 1px solid $white-200;
-        }
-    }
-
-    #green-header-large {
-        background-color: $deep-sea-400;
-        color: $white-500;
-
-        #green-header-large-text {
-            width: 648px;
-            padding-bottom: 62px;
-
-            #book-buttons {
-                .button {
-                    margin-right: $s;
-                }
-            }
-        }
-    }
+.aka:last-child::after {
+    content: ".";
 }
+
 
 .container {
     #content {
         section#image {
+            margin-top: $xl;
             font-size: 0;
 
             img {
