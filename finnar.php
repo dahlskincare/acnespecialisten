@@ -559,7 +559,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om du kämpar med finnar som påverkar ditt självförtroende eller om du har testat olika produkter och behandlingar utan att se några bestående resultat, då är det dags att söka hjälp hos AcneSpecialisten. Vår expertis sträcker sig över många år och vi förstår de unika utmaningar som finnar kan orsaka. Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan som passar just dig. Vare sig du lider av lite eller mycket finnar, har AcneSpecialisten de verktyg och den kunskap som behövs för att hjälpa dig att uppnå en klarare och friskare hud. Tveka inte att ta steget mot en bättre hudhälsa genom att boka en gratis konsultation hos oss idag!</p>',
+            content: '<p class="p200">Om du kämpar med finnar som påverkar ditt självförtroende, om de gör ont eller om du har testat olika produkter och behandlingar utan att se några bestående resultat, då är det dags att söka hjälp hos AcneSpecialisten. Vår expertis sträcker sig över många år och vi förstår de unika utmaningar som finnar kan orsaka. Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan som passar just dig. Vare sig du lider av lite eller mycket finnar, har AcneSpecialisten de verktyg och den kunskap som behövs för att hjälpa dig att uppnå en klarare och friskare hud. Tveka inte att ta steget mot en bättre hudhälsa genom att boka en gratis konsultation hos oss idag!</p>',
       ),
 );
 
@@ -648,8 +648,8 @@ $faq_categories = array(
                   text: '<p class="p200">Att snabbt bli av med finnar innebär en kombination av rätt hudvård och livsstilsförändringar. Att använda produkter som är specifikt utformade för att bekämpa finnar. En personligt anpassad konsultation hos oss kan erbjuda en skräddarsydd plan som inte bara adresserar dina nuvarande finnar utan också hjälper till att förebygga nya utbrott, vilket ger dig en klarare hud snabbare än du kanske trodde var möjligt.</p>'
             ),
             new Question(
-                  title: 'Är det en finne jag har, även om det bara är en?',
-                  text: '<p class="p200">Ja, även en enskild finne anses vara en form av finnar. Enstaka finnar är lika mycket en del av finnarnas spektrum som ett fullblåst utbrott. Varje finne är ett tecken på att din hud reagerar på något, vare sig det är blockerade porer, överskott av olja, bakterier eller inflammation. Att behandla även enstaka finnar med lämplig vård kan hjälpa till att hålla huden i balans och förebygga framtida utbrott.</p>'
+                  title: 'Vad är en finne?',
+                  text: '<p class="p200">Varje finne är ett tecken på att din hud reagerar på något, vare sig det är blockerade porer, överskott av talg, bakterier eller inflammation. Att behandla även enstaka finnar med lämplig vård kan hjälpa till att hålla huden i balans och förebygga framtida utbrott.</p>'
             ),
             new Question(
                   title: 'Bör jag klämma mina finnar?',
