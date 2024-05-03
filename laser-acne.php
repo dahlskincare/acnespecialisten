@@ -3,22 +3,22 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Laserbehandling mot Akne | AcneSpecialisten';
-$seo_description = 'Avancerade laserbehandlingar för akne. Våra skräddarsydda behandlingar använder laserljus för att effektivt reducera akne och förbättra hudens hälsa.';
-$seo_keywords = 'laserbehandling för akne, behandla akne med laser, effektiv aknebehandling, laser mot akne, aknebehandling, avancerad hudvård';
+$seo_title = 'Laser mot Acne | AcneSpecialisten';
+$seo_description = 'Avancerade laserbehandlingar för acne. Våra skräddarsydda behandlingar använder laserljus för att effektivt reducera acne och förbättra hudens hälsa.';
+$seo_keywords = 'acne laser, laser acne, laser acne stockholm, laser mot akne, laserbehandling acne';
 
 $seo_image = '/images/treatments/large/laser-mot-problemhy.webp';
 
 
 $model = new Service(
-    title: 'Laser mot akne',
+    title: 'Laser mot acne',
     duration: null,
     price: 'Från 2995 kr',
     content: '',
     image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
-    image_alt: 'Laser mot akne',
-    image_title: 'Laser mot akne',
+    image_alt: 'Laser mot acne',
+    image_title: 'Laser mot acne',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka hudkonsultation',
@@ -53,10 +53,10 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Effektiv laserbehandling mot akne.';
+$floating_box = 'Effektiv laserbehandling mot acne.';
 
 $nav_buttons = array(
-    'about' => 'Om laser mot akne',
+    'about' => 'Om laser mot acne',
     'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
@@ -66,9 +66,9 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Laserbehandling mot Akne';
-$description_text = '<p class="p200">Laserbehandling är en innovativ och effektiv metod för att bekämpa akne. Genom att använda speciellt utformade laserljus, riktas behandlingen mot de bakterier som orsakar akne samt minskar inflammationen i huden. Denna teknik hjälper till att kontrollera akneutbrott och bidrar till en klarare hudton.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten anpassar vi våra laserbehandlingar för att möta de unika behoven hos varje individ med akneproblem. Vår metod inte bara behandlar befintlig akne, utan jobbar även på att förebygga framtida utbrott. Genom att kombinera laserbehandling med en personlig hudvårdsrutin och eventuellt kompletterande behandlingar, strävar vi efter att ge dig en långvarigt friskare och klarare hud.</p>';
+$description_title = 'Laserbehandling mot Acne';
+$description_text = '<p class="p200">Laserbehandling är en innovativ och effektiv metod för att bekämpa acne. Genom att använda speciellt utformade laserljus, riktas behandlingen mot de bakterier som orsakar acne samt minskar inflammationen i huden. Denna teknik hjälper till att kontrollera acneutbrott och bidrar till en klarare hudton.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten anpassar vi våra laserbehandlingar för att möta de unika behoven hos varje individ med acneproblem. Vår metod inte bara behandlar befintlig acne, utan jobbar även på att förebygga framtida utbrott. Genom att kombinera laserbehandling med en personlig hudvårdsrutin och eventuellt kompletterande behandlingar, strävar vi efter att ge dig en långvarigt friskare och klarare hud.</p>';
 
 $types_title = '';
 $types_description = '';
