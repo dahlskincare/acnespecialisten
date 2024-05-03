@@ -613,7 +613,7 @@ $brands_url_title = "Varumärken för acneärr";
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
       <main>
-            <section id="header" class="sticky-badges-target">
+            <section id="header">
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
             <div class="container">
