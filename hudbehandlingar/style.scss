@@ -33,16 +33,12 @@ section#banner {
     }
 
     @include desktop {
-        .green-header-banner-widget {
-            padding-bottom: 140px;
-        }
-
         div#treatments {
-
-            margin-top: -72px;
+            margin-top: $xxl;
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: repeat(2, 1fr);
+            box-shadow: none;
 
         }
     }

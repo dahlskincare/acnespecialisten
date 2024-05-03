@@ -525,7 +525,6 @@ $path_segments = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Hudbehandling i Stockholm - AcneSpecialisten</title>
     <meta name="title" content="Hudbehandling i Stockholm - AcneSpecialisten" class="l10n">
     <meta name="description" content="Boka hudbehandling med laser för porer hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda lösningar för varje hudtyp. Boka gratis hudkonsultation!" class="l10n">
