@@ -609,13 +609,12 @@ $brands_url_title = "Varumärken för ärr";
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
-      <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
       <meta property="og:title" content="<?php echo $seo_title ?>" />
       <meta property="og:description" content="<?php echo $seo_description ?>" />
-      <meta property="og:image" content="<?php echo $image_large ?>" />
+      <meta property="og:image" content="<?php echo $seo_image ?>" />
       <meta property="twitter:title" content="<?php echo $seo_title ?>" />
       <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-      <meta property="twitter:image" content="<?php echo $image_large ?>" />
+      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="hudproblem/problem.css">
@@ -631,9 +630,6 @@ $brands_url_title = "Varumärken för ärr";
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </section>
                         <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
