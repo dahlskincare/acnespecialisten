@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Effektiva Ansiktsbehandlingar för Hudproblem i Ansiktet';
 $seo_description = 'Skräddarsydda ansiktsbehandlingar för problemhy som akne, rosacea, olika typer av finnar och mer. Bli av med hudproblem med våra expertanpassade lösningar';
-$seo_keywords = 'problemhy, hudproblem, hudproblem ansikte, hudproblem i ansiktet, olika typer av akne, pormaskar näsa, finnar ansikte';
+$seo_keywords = 'problemhy, gropig hy, hudproblem ansikte, olika typer av finnar, torr hy med finnar och pormaskar, olika typer av akne, hudutskott, blodprickar, torr hy och finnar, finnar och torr hy, åldersfläckar bilder, stressfinnar i ansiktet';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
