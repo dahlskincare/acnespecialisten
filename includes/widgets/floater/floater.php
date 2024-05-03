@@ -17,7 +17,9 @@
                             <?php } ?>
                         </div>
                     </div>
-                    <div class="mt-m"><?php echo $floating_box ?></div>
+                    <?php if (isset($floating_box)) { ?>
+                        <div class="mt-m"><?php echo $floating_box ?></div>
+                    <?php } ?>
                     <div class="mt-xl">
                         <div class="columns is-2 is-variable">
                             <?php foreach ($green_banner_content->links_touch as $link) { ?>
