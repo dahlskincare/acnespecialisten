@@ -15,7 +15,9 @@
             <?php } ?>
             <div id="ghb-touch-content">
                 <span><?php echo $green_banner_content->description ?></span>
-                <span class="l10n underline h200" onclick="GreenHeaderBanner.onReadMoreClick(this)">läs mer</span>
+                <?php if (isset($green_header_banner->description_extended)) { ?>
+                    <span class="l10n underline h200" onclick="GreenHeaderBanner.onReadMoreClick(this)">läs mer</span>
+                <?php } ?>
                 <div id="banner-expanded" class="zero-size">
                     <?php echo $green_banner_content->description_extended ?>
                 </div>
