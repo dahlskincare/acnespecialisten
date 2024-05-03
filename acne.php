@@ -8,61 +8,49 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Akne | AcneSpecialisten';
 $seo_description = 'Läs mer om akne & acne, varför det uppstår och vilka behandlingar du kan göra. Boka en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →';
 $seo_keywords = 'acne, akne, papler, pustler, vad är akne, varför får man akne, acne vård, plötslig akne, akne bakterie, papler akne, akne symtom, papler acne';
-
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
-
+$seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
-      new PathSegment('Akne', '/acne.php'),
+      new PathSegment('Acne', '/acne.php'),
 );
-
-$title = 'Akne';
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Akne';
 $image_alt = 'Närbild på ett ansikte som har akne';
-$description = 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.';
 
-$akas = [
-      new Link(
-            label: 'Finnar',
-            url: 'finnar.php',
-            title: 'Allt du behöver veta om finnar och deras behandling'
-      ),
-      new Link(
-            label: 'Vuxenakne',
-            url: 'vuxenacne.php',
-            title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-      ),
-      new Link(
-            label: 'Tonårsakne',
-            url: 'tonarsacne.php',
-            title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
-      ),
-];
-
-$consultation_url_label = "Boka gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne";
-$consultation_url_title = "Boka gratis konsultation för Akne";
-
-$booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
-$booking_url_title = "Boka Aknebehandling";
-
-$mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Boka gratis konsultation för Akne";
-
-$mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Aknebehandling";
-
-$floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Boka gratis konsultation för Akne";
-
-$floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Aknebehandling";
+$green_banner_content = new GreenBannerContent(
+      title: 'Akne',
+      description: 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.',
+      links_touch: [
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+      ],
+      links_desktop: [
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+      ],
+      show_consultation_card: false,
+      akas: [
+            new Link(
+                  label: 'Finnar',
+                  url: 'finnar.php',
+                  title: 'Allt du behöver veta om finnar och deras behandling'
+            ),
+            new Link(
+                  label: 'Vuxenakne',
+                  url: 'vuxenacne.php',
+                  title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+            ),
+            new Link(
+                  label: 'Tonårsakne',
+                  url: 'tonarsacne.php',
+                  title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+            ),
+      ]
+);
 
 $nav_buttons = array(
       'about' => 'Om akne',
@@ -75,7 +63,6 @@ $nav_buttons = array(
       'results' => 'Resultat',
       'reviews' => 'Omdömen',
       'faq' => 'Fragor & svar',
-      'skin-guide' => 'Hudguide',
       'specialists' => 'Specialister',
       'related-problems' => 'Relaterade problem',
 );
@@ -88,7 +75,7 @@ $trivias = array(
             title: 'är akne?',
             content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
             extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större bölder. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
-            <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar din akne och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma.</p>',
+              <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar din akne och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma.</p>',
             icons: array()
       ),
       new ProblemTrivia(
@@ -96,7 +83,7 @@ $trivias = array(
             title: 'får man akne?',
             content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
             extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne i pubertet, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell acne.</p>
-            <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
+              <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
@@ -104,7 +91,7 @@ $trivias = array(
             title: 'får akne?',
             content: '<p class="p200">Akne är vanligast bland tonåringar och unga vuxna, men det kan drabba människor i alla åldrar, oavsett kön och hudtyp. I puberteten ökar produktionen av könshormoner, vilket kan leda till <a class="b200 underline color-deep-sea-400" href="acne-vulgaris.php">acne vulgaris</a>, även kallad tonårsakne. Denna form av akne kan variera från enstaka finnar till större besvär, med små gula eller röda utslag, stora och smärtsamma bölder. Eftersom akne oftast uppträder i ansiktet under en känslig period som tonåren, kan det påverka det mentala måendet och det är viktigt att behandla akne effektivt för att undvika ärrbildning och andra skador på huden.</p>',
             extended_content: '<p class="p200 mt-xl">Akne drabbar inte bara tonåringar. Spädbarn och småbarn kan drabbas av lindriga former av akne, såsom akne neonatorum och akne infantum. Vuxenakne, kallad akne tarda, kan också uppstå om huden överproducerar talg. Kvinnor drabbas oftare av vuxenakne än män, eftersom de påverkas mer av hormonsvängningar under graviditet, mens och klimakteriet. Preventivmedel kan också påverka huden, men hur de påverkar varierar från individ till individ.</p>
-            <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos AcneSpecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne.</p>',
+              <p class="p200 mt-xl">Yttre faktorer som stress och alkohol kan också påverka akne, både hos tonåringar och vuxna. För att behandla akne rekommenderas att boka en kostnadsfri hudkonsultation hos AcneSpecialisten. Där görs en bedömning av din hud och du får förslag på behandlingar samt en personlig hudvårdsrutin anpassad efter din hudtyp. Detta hjälper dig att motverka ytterligare problem med akne.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
@@ -112,7 +99,7 @@ $trivias = array(
             title: 'får man akne?',
             content: '<p class="p200">Akne kan uppstå på flera delar av kroppen och påverka personer i olika åldrar och med olika hudtyper. Vanligast är att drabbas av  akne på ansiktet, men det kan även förekomma på andra områden som bröstet, axlarna och ryggen. Placeringen av akne beror på var talgkörtlarna är aktiva och därmed kan överproducera talg, vilket leder till tilltäppta porer och inflammationer i huden.</p>',
             extended_content: '<p class="p200 mt-xl">Akne i ansiktet är särskilt påtagligt, eftersom det är svårt att dölja och ofta påverkar en persons självkänsla och mentala välbefinnande. Det är vanligt att tonåringar drabbas av ansiktsakne under puberteten, då hormonella förändringar kan leda till ökad talgproduktion. Även vuxna kan drabbas av ansiktsakne, särskilt kvinnor som genomgår hormonella förändringar under graviditet, mens och klimakteriet.</p>
-            <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation. För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
+              <p class="p200 mt-xl">Akne på bröstet, axlarna och ryggen är också vanligt och kan vara lika besvärande som ansiktsakne, även om det är lättare att dölja under kläder. Denna typ av akne kan orsakas av samma faktorer som ansiktsakne, men även av yttre faktorer som friktion från kläder eller väskor som gnider mot huden och skapar irritation. För att behandla och förebygga akne oavsett var på kroppen det uppstår, är det viktigt att följa en anpassad hudvårdsrutin, inklusive rengöring, återfuktning och aknebehandlingar som passar din hudtyp. Konsultera hos en av våra hudspecialister för att få råd om vilka produkter och behandlingar som är bäst lämpade för din specifika situation och för att minimera akneproblem på olika delar av kroppen.</p>',
             icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
       ),
 );
@@ -599,7 +586,7 @@ $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
             content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja AcneSpecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p>
-            <p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+              <p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
             image_small: null,
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?!',
@@ -608,7 +595,7 @@ $articles = array(
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar och resultat. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p>
-            <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+              <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
@@ -700,20 +687,20 @@ $faq_categories = array(
             new Question(
                   title: 'Vad orsakar akne?',
                   text: '<p class="p200">Akne är ett vanligt hudtillstånd som påverkar människor i alla åldrar, men är särskilt vanligt under tonåren och unga vuxna år. Det orsakas av en kombination av flera faktorer:</p>
-
-                  <p class="p200 mt-xl">1. Överproduktion av talg:<br />Talgkörtlar i huden producerar olja (sebum) som hjälper till att hålla huden mjuk och smidig. När dessa körtlar producerar för mycket talg kan det leda till att porerna blir tilltäppta.</p>
-
-                  <p class="p200 mt-xl">2. Ansamlning av döda hudceller:<br />Hudens naturliga process för cellförnyelse kan ibland leda till att döda hudceller inte avlägsnas effektivt, vilket bidrar till blockering av porer.</p>
-
-                  <p class="p200 mt-xl">3. Bakterier:<br />orer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Cutibacteriuam acnes (C. acnes). Denna akne bakterie har tidigare kallats bakterieacnes (P. acnes). Dessa bakterier leder till inflammation och svullnad runt porerna.</p>
-
-                  <p class="p200 mt-xl">4. Hormonella förändringar:<br />Hormonella förändringar, särskilt under puberteten, graviditeten och menstruationscykeln, kan påverka talgproduktionen. Androgener (manliga könshormoner som finns hos både män och kvinnor) kan öka under dessa perioder, vilket stimulerar talgkörtlarna att producera mer talg.</p>
-
-                  <p class="p200 mt-xl">5. Genetik:<br />En benägenhet för akne kan vara ärftlig. Om dina föräldrar hade akne är det mer sannolikt att du också får det.</p>
-
-                  <p class="p200 mt-xl">6. Kost och livsstilsfaktorer:<br />Vissa studier tyder på att kostfaktorer, som ett högt intag av socker och mejeriprodukter, kan påverka akne hos vissa individer. Stress och vissa kosmetika kan också förvärra tillståndet.</p>
-
-                  <p class="p200 mt-xl">Det är viktigt att komma ihåg att akne varierar från person till person, och vad som orsakar akne för en person kanske inte gäller för en annan. Att hantera akne innebär ofta en kombination av hudvårdsrutiner, medicinsk behandling och ibland livsstilsförändringar. Om du upplever ihållande eller svår akne, överväg att konsultera en dermatolog för en skräddarsydd behandlingsplan.</p>'
+  
+                    <p class="p200 mt-xl">1. Överproduktion av talg:<br />Talgkörtlar i huden producerar olja (sebum) som hjälper till att hålla huden mjuk och smidig. När dessa körtlar producerar för mycket talg kan det leda till att porerna blir tilltäppta.</p>
+  
+                    <p class="p200 mt-xl">2. Ansamlning av döda hudceller:<br />Hudens naturliga process för cellförnyelse kan ibland leda till att döda hudceller inte avlägsnas effektivt, vilket bidrar till blockering av porer.</p>
+  
+                    <p class="p200 mt-xl">3. Bakterier:<br />orer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Cutibacteriuam acnes (C. acnes). Denna akne bakterie har tidigare kallats bakterieacnes (P. acnes). Dessa bakterier leder till inflammation och svullnad runt porerna.</p>
+  
+                    <p class="p200 mt-xl">4. Hormonella förändringar:<br />Hormonella förändringar, särskilt under puberteten, graviditeten och menstruationscykeln, kan påverka talgproduktionen. Androgener (manliga könshormoner som finns hos både män och kvinnor) kan öka under dessa perioder, vilket stimulerar talgkörtlarna att producera mer talg.</p>
+  
+                    <p class="p200 mt-xl">5. Genetik:<br />En benägenhet för akne kan vara ärftlig. Om dina föräldrar hade akne är det mer sannolikt att du också får det.</p>
+  
+                    <p class="p200 mt-xl">6. Kost och livsstilsfaktorer:<br />Vissa studier tyder på att kostfaktorer, som ett högt intag av socker och mejeriprodukter, kan påverka akne hos vissa individer. Stress och vissa kosmetika kan också förvärra tillståndet.</p>
+  
+                    <p class="p200 mt-xl">Det är viktigt att komma ihåg att akne varierar från person till person, och vad som orsakar akne för en person kanske inte gäller för en annan. Att hantera akne innebär ofta en kombination av hudvårdsrutiner, medicinsk behandling och ibland livsstilsförändringar. Om du upplever ihållande eller svår akne, överväg att konsultera en dermatolog för en skräddarsydd behandlingsplan.</p>'
             ),
             new Question(
                   title: 'Hur blir jag av med min akne snabbt?',
@@ -726,26 +713,26 @@ $faq_categories = array(
             new Question(
                   title: 'Ska jag klämma min akne?',
                   text: '<p class="p200">Vi på Acnespecialisten rekommenderar att du inte klämmer din akne själv, eftersom felaktig teknik kan leda till ärrbildning och förvärra inflammationen genom att införa bakterier från dina fingrar. Det är dock sant att akne kan behöva klämmas, men det måste göras på rätt sätt för att undvika skador på huden. Om du undviker att klämma helt kan ärrbildning också uppstå, eftersom fettsyran i finnen fortsätter att fräta på huden.</p>
-
-                        <p class="p200 mt-m">För att klämma akne korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla din akne på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt.</p>'
+  
+                          <p class="p200 mt-m">För att klämma akne korrekt krävs både rätt utrustning och teknik. På Acnespecialisten har vi erfarna hudterapeuter som kan hjälpa dig att behandla din akne på ett säkert och effektivt sätt. Genom att vända dig till oss får du den expertis och omsorg du behöver för att hantera din akne på bästa sätt.</p>'
             ),
             new Question(
                   title: 'Försvinner aknen efter tonåren?',
                   text: '<p class="p200">Det är svårt att ge ett entydigt svar på den frågan eftersom det varierar från person till person. För vissa kan akne vara ett tonårsproblem som försvinner när de blir äldre, medan det för andra kan övergå till vuxenakne. Det är inte säkert att aknen försvinner efter tonåren, och det kan variera beroende på individuella faktorer som hormoner, genetik och livsstil.</p>
-
-                        <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
-
-                        <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
+  
+                          <p class="p200 mt-m">Akne kan uppstå i olika faser av livet och dess svårighetsgrad varierar från person till person. Vissa individer upplever akne under tonåren, som sedan försvinner när de når vuxen ålder. Andra kan vara aknefria under tonåren, men drabbas av akne som vuxna. Den mest besvärliga situationen är när någon drabbas av akne under tonåren som sedan övergår till vuxenakne.</p>
+  
+                          <p class="p200 mt-m">När man når vuxen ålder och aknen fortfarande inte har försvunnit, är det stor risk att aknen har lett till ärrbildning. Det är därför viktigt att behandla akne i alla åldrar för att förebygga och minimera risken för att drabbas av acneärr. Oavsett ålder och fas av akne, bör man söka hjälp för att behandla och kontrollera sitt tillstånd, för att minska risken för långsiktiga hudproblem som ärrbildning.</p>'
             ),
             new Question(
                   title: 'Kan jag ha akne även om jag är vuxen?',
                   text: '<p class="p200">Ja, akne kan drabba vuxna och det är faktiskt ganska vanligt. Vuxenakne drabbar cirka 12-22% av alla kvinnor och 3% av alla män. Den kan uppkomma vid 20-, 30- och 40-årsåldern, och ibland ännu senare. Det kallas då för vuxenakne och har också med hormonerna i din kropp att göra, men faktorerna som triggar igång din akne är lite annorlunda än vid tonårsakne.</p>
-
-                        <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
-
-                       <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
-
-                       <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
+  
+                          <p class="p200 mt-m">Vid tonårsakne ökar produktionen av det manliga könshormonet i din kropp. Det, i kombination med fettproduktionen, kan leda till att du drabbas av akne. Vid vuxen ålder däremot, kan aknen bero på sådant som graviditet, menstruation, alkohol, stress och preventivmedel. Alltså, yttre faktorer som triggar igång dina hormoner och får aknen att blomma upp.</p>
+  
+                         <p class="p200 mt-m">Vuxenakne kan orsakas av flera faktorer, såsom hormonella förändringar, stress, genetik och användning av olämpliga hudvårdsprodukter. Hos kvinnor kan akne ofta vara kopplad till menstruationscykeln eller hormonella förändringar i samband med graviditet och menopaus.</p>
+  
+                         <p class="p200 mt-m">Sammanfattningsvis kan akne drabba personer i alla åldrar, och det är viktigt att vara medveten om att akne inte bara är ett tonårsproblem.</p>'
             ),
             new Question(
                   title: 'Förvärras min akne av att jag äter choklad?',
@@ -942,7 +929,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
 
 <head>
       <title><?php echo $seo_title ?></title>
-      <meta name="title" content="<?php echo $seo_title ?>">
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
 
@@ -962,108 +948,13 @@ $brands_url_title = "Varumärken för Aknebehandling";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-            <div class="container">
-                  <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                        <div id="overlay">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                              <div>
-                                    <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka">
-                                          <span class="p200 l10n">Även kallat</span>
-                                          <div>
-                                                <?php foreach ($akas as $aka) { ?>
-                                                      <?php if (isset($aka->url)) { ?>
-                                                            <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                                      <?php } else { ?>
-                                                            <span class="b200 aka"><?php echo $aka->label ?></span>
-                                                      <?php } ?>
-                                                <?php } ?>
-                                          </div>
-                                          <div class="mt-xl">
-                                                <div class="columns is-2 is-variable">
-                                                      <div class="column">
-                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
-                                                      </div>
-                                                      <div class="column">
-                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
       <main>
-            <section id="header" class="sticky-badges-target">
-                  <div id="green-header-small" class="is-hidden-desktop">
-                        <div class="container">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600"><?php echo $title ?></h1>
-                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
-                              <?php foreach ($akas as $aka) { ?>
-                                    <?php if (isset($aka->url)) { ?>
-                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button underline b50 bright"><?php echo $aka->label ?></a>
-                                    <?php } else { ?>
-                                          <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
-                                    <?php } ?>
-                              <?php } ?>
-                              <hr class="mt-xl" />
-                              <p class="mt-m p200">
-                                    <?php echo $description ?>
-                              </p>
-                              <div class="mt-xl">
-                                    <div class="columns is-mobile">
-                                          <div class="column is-half">
-                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
-                                          </div>
-                                          <div class="column is-half">
-                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <div id="green-header-large" class="is-hidden-touch">
-                        <div class="container">
-                              <div class="columns">
-                                    <div class="column is-half">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                                    </div>
-                                    <div class="column is-half flex-row justify-end">
-                                          <div class="mt-xl">
-                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600"><?php echo $title ?></h1>
-                                    <div class="mt-s">
-                                          <span class="h200 l10n">Även känt som:</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <?php if (isset($aka->url)) { ?>
-                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                                <?php } else { ?>
-                                                      <span class="b200 aka"><?php echo $aka->label ?></span>
-                                                <?php } ?>
-                                          <?php } ?>
-                                    </div>
-                                    <p class="mt-s p200"><?php echo $description ?></p>
-                                    <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
+            <section id="header">
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </section>
                         <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
