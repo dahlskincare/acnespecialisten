@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandla Finnar - Behandling och Förebyggande';
 $seo_description = 'Lär dig allt om hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
-$seo_keywords = 'finnar, behandling av finnar, orsaker till finnar, förebygga finnar, ta bort finnar, vuxenfinnar, tonårsfinnar, ärr från finnar, pormaskar';
+$seo_keywords = 'finnar behandling, behandling av finnar, förebygga finnar, ta bort finnar';
 
 // här lägger du bild som du vill skall synas när du länkar i sociala medier eller sms
 
