@@ -1,3 +1,5 @@
 User-agent: *
+# TODO: remove 'Disallow: /' on release
+Disallow: /
 Disallow: /includes/
 Disallow /node_modules/
