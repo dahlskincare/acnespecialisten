@@ -8,53 +8,45 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Allt om Svarta Pormaskar - Orsak, Behandling och Förebygg';
 $seo_description = 'Allt om svarta pormaskar, från deras uppkomst till effektiva behandlingar och förebyggande strategier. Få skräddarsydda lösningar och expertis.';
 $seo_keywords = 'svarta pormaskar, behandla svarta pormaskar, orsaker till svarta pormaskar, förebygga svarta pormaskar, eliminera svarta pormaskar, hudvård, ansiktsrengöring, djuprengöring av porer';
-
-
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
-
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
-$title = 'Svarta pormaskar';
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Svarta pormaskar', '/svarta-pormaskar.php'),
+);
 
 $image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
 $image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar svarta pormaskar på huden';
-$description = 'I denna sektion utforskar vi naturen av svarta pormaskar, deras orsaker och hur Acnespecialisten kan bistå dig med effektiv behandling. Vi diskuterar hur svarta pormaskar bildas och vilka steg du kan ta för att minska dem och förbättra din hudhälsa.';
 
-$akas = [
-      new Link(
-            url: 'pormaskar.php',
-            label: 'Pormaskar',
-            title: 'Allt du behöver veta om pormaskar'
-      ),
-      new Link(
-            url: 'stora-porer.php',
-            label: 'Stora porer',
-            title: 'Utforska orsaker, symptom och behandlingar av stora porer'
-      ),
-];
+$green_banner_content = new GreenBannerContent(
+      title: 'Svarta pormaskar',
+      description: $description = 'I denna sektion utforskar vi naturen av svarta pormaskar, deras orsaker och hur Acnespecialisten kan bistå dig med effektiv behandling. Vi diskuterar hur svarta pormaskar bildas och vilka steg du kan ta för att minska dem och förbättra din hudhälsa.',
+      links_touch: [
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
+      ],
+      links_desktop: [
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
+      ],
+      show_consultation_card: false,
+      akas: [
+            new Link(
+                  url: 'pormaskar.php',
+                  label: 'Pormaskar',
+                  title: 'Allt du behöver veta om pormaskar'
+            ),
+            new Link(
+                  url: 'stora-porer.php',
+                  label: 'Stora porer',
+                  title: 'Utforska orsaker, symptom och behandlingar av stora porer'
+            ),
+      ]
+);
+
 
 $floating_box = 'Vi behandlar svarta pormaskar effektivt';
-
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones";
-$consultation_url_label = "Boka gratis konsultation";
-$consultation_url_title = "Gratis konsultation för behandling av svarta pormaskar";
-
-$booking_url = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones";
-$booking_url_label = "Boka behandling";
-$booking_url_title = "Boka din tid för behandling av svarta pormaskar";
-
-$mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis konsultation för svarta pormaskar";
-
-$mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka din tid för behandling av svarta pormaskar";
-
-$floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Gratis konsultation för svarta pormaskar";
-
-$floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka din tid för behandling av svarta pormaskar";
 
 $nav_buttons = array(
       'about' => 'Om svarta pormaskar',
@@ -414,100 +406,13 @@ $brands_url_title = "Se alla varumärken";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-            <div class="container">
-                  <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                        <div id="overlay">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                              <div>
-                                    <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka">
-                                          <span class="p200 l10n">Även kallat</span>
-                                          <div>
-                                                <?php foreach ($akas as $aka) { ?>
-                                                      <?php if (isset($aka->url)) { ?>
-                                                            <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                                      <?php } else { ?>
-                                                            <span class="b200 aka"><?php echo $aka->label ?></span>
-                                                      <?php } ?>
-                                                <?php } ?>
-                                          </div>
-                                          <div class="mt-m"><?php echo $floating_box ?></div>
-                                          <div class="mt-xl">
-                                                <div class="columns is-2 is-variable">
-                                                      <div class="column">
-                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
-                                                      </div>
-                                                      <div class="column">
-                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
       <main>
             <section id="header">
-                  <div id="green-header-small" class="is-hidden-desktop">
-                        <div class="container">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600"><?php echo $title ?></h1>
-                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
-                              <?php foreach ($akas as $aka) { ?>
-                                    <?php if (isset($aka->url)) { ?>
-                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button underline b50 bright"><?php echo $aka->label ?></a>
-                                    <?php } else { ?>
-                                          <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
-                                    <?php } ?>
-                              <?php } ?>
-
-                              <hr class="mt-xl" />
-                              <p class="mt-m p200">
-                                    <?php echo $description ?>
-                              </p>
-                              <div class="mt-xl">
-                                    <div class="columns is-mobile">
-                                          <div class="column is-half">
-                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
-                                          </div>
-                                          <div class="column is-half">
-                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <div id="green-header-large" class="is-hidden-touch">
-                        <div class="container">
-                              <div class="columns">
-                                    <div class="column is-half">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                                    </div>
-                                    <div class="column is-half flex-row justify-end">
-                                          <div class="mt-xl">
-                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600"><?php echo $title ?></h1>
-                                    <p class="mt-s p200"><?php echo $description ?></p>
-                                    <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </section>
                         <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
