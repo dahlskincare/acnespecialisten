@@ -8,67 +8,53 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Vad är blandhy? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om blandhy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'blandhy, råd för blandhy, torra och oljiga partier';
-
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
-
-$title = 'Blandhy';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Blandhy', '/blandhy.php'),
 );
 
-$description = 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.';
-
 $image_small = 'bilder/hudproblem/424x324/blandhy.webp';
 $image_large = 'bilder/hudproblem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med blandhy';
 $image_alt = 'Bild som illustrerar hur en blandhy ser ut';
 
-
-$akas = [
-      new Link(
-            label: 'Kombinerad hud',
-            url: null,
-            title: 'Kombinerad hud'
-      ),
-      new Link(
-            label: 'Yttorr hy',
-            url: null,
-            title: 'Yttorr hy',
-      ),
-      new Link(
-            label: 'Oljig hy',
-            url: 'oljig-hy.php',
-            title: 'Oljig hy'
-      ),
-      new Link(
-            label: 'Fet hy',
-            url: 'fet-hy.php',
-            title: 'Fet hy'
-      ),
-];
-
-$consultation_url_label = "Boka gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin";
-$consultation_url_title = "Gratis Konsultation för Blandhy";
-
-$booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin";
-$booking_url_title = "Boka Behandling för Blandhy";
-
-$mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för Blandhy";
-
-$mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka Behandling för Blandhy";
-
-$floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för Blandhy";
-
-$floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka Behandling för Blandhy";
-
+$green_banner_content = new GreenBannerContent(
+      title: 'Blandhy',
+      description: 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.',
+      links_touch: [
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
+      ],
+      links_desktop: [
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
+      ],
+      show_consultation_card: false,
+      akas: [
+            new Link(
+                  label: 'Kombinerad hud',
+                  url: null,
+                  title: 'Kombinerad hud'
+            ),
+            new Link(
+                  label: 'Yttorr hy',
+                  url: null,
+                  title: 'Yttorr hy',
+            ),
+            new Link(
+                  label: 'Oljig hy',
+                  url: 'oljig-hy.php',
+                  title: 'Oljig hy'
+            ),
+            new Link(
+                  label: 'Fet hy',
+                  url: 'fet-hy.php',
+                  title: 'Fet hy'
+            ),
+      ]
+);
 
 $nav_buttons = array(
       'about' => 'Om Blandhy',
@@ -695,109 +681,13 @@ $brands_url_title = "Varumärken för Blandhybehandling";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-            <div class="container">
-                  <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                        <div id="overlay">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                              <div>
-                                    <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka">
-                                          <span class="p200 l10n">Även kallat</span>
-                                          <div>
-                                                <?php foreach ($akas as $aka) { ?>
-                                                      <?php if (isset($aka->url)) { ?>
-                                                            <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                                      <?php } else { ?>
-                                                            <span class="b200 aka"><?php echo $aka->label ?></span>
-                                                      <?php } ?>
-                                                <?php } ?>
-                                          </div>
-                                          <div class="mt-xl">
-                                                <div class="columns is-2 is-variable">
-                                                      <div class="column">
-                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
-                                                      </div>
-                                                      <div class="column">
-                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
       <main>
             <section id="header">
-                  <div id="green-header-small" class="is-hidden-desktop">
-                        <div class="container">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600"><?php echo $title ?></h1>
-                              <h3 class="mt-xs p100 l10n">Även känt som:</h3>
-
-                              <?php foreach ($akas as $aka) { ?>
-                                    <?php if (isset($aka->url)) { ?>
-                                          <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="mt-xs button underline b50 bright"><?php echo $aka->label ?></a>
-                                    <?php } else { ?>
-                                          <span class="mt-xs button b50 bright"><?php echo $aka->label ?></span>
-                                    <?php } ?>
-                              <?php } ?>
-                              <hr class="mt-xl" />
-                              <p class="mt-m p200">
-                                    <?php echo $description ?>
-                              </p>
-                              <div class="mt-xl">
-                                    <div class="columns is-mobile">
-                                          <div class="column is-half">
-                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
-                                          </div>
-                                          <div class="column is-half">
-                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <div id="green-header-large" class="is-hidden-touch">
-                        <div class="container">
-                              <div class="columns">
-                                    <div class="column is-half">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                                    </div>
-                                    <div class="column is-half flex-row justify-end">
-                                          <div class="mt-xl">
-                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600"><?php echo $title ?></h1>
-                                    <div class="mt-s">
-                                          <span class="h200 l10n">Även känt som:</span>
-                                          <?php foreach ($akas as $aka) { ?>
-                                                <?php if (isset($aka->url)) { ?>
-                                                      <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline aka"><?php echo $aka->label ?></a>
-                                                <?php } else { ?>
-                                                      <span class="b200 aka"><?php echo $aka->label ?></span>
-                                                <?php } ?>
-                                          <?php } ?>
-                                    </div>
-                                    <p class="mt-s p200"><?php echo $description ?></p>
-                                    <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </section>
                         <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
