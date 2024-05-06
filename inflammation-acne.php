@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Inflammerad Akne | AcneSpecialisten';
 $seo_description = 'Läs mer om acne och hur det orsakas av en inflammation i huden på ansiktet. Boka en kostnadsfri konsultation →';
-$seo_keywords = 'inflammerad akne';
+$seo_keywords = 'papler, pustler, inflammerad talgkörtel behandling, infekterad finne, papler och pustler, inflammation acne, akne pustel, acne bakterie, inflammerad acne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(

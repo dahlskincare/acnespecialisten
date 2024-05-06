@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne i Ansiktet | AcneSpecialisten';
 $seo_description = 'Har du problem med acne i ansiktet, såsom käklinje, kinderna eller under hakan? Läs mer om hur du kan behandla det. Börja med en kostnadsfri konsultation →';
-$seo_keywords = 'acne ansikte, acne på hakan, akne på hakan, akne på kinderna, acne i ansiktet, akne i pannan, acne ansiktet, acne på halsen, acne på ansiktet, acne käklinje, akne pannan';
+$seo_keywords = 'acne ansikte, acne på hakan, akne på hakan, akne på kinderna, acne i ansiktet, akne i pannan, acne ansiktet, acne på halsen, acne på ansiktet';
 $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 
 $path_segments = array(

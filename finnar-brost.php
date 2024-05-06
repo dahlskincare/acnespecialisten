@@ -67,7 +67,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Information om finnar på bröstet';
-$description_text = '<p class="p200">Finnar på bröstet kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>
+$description_text = '<p class="p200">Finnar på bröstet och bröstkorgen kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>
 <p class="p200 mt-m">På Acnespecialisten har vi expertis inom individanpassade hudvårdsprogram som svarar mot varje klients unika behov. Från noggranna rengöringsrutiner till specialutformade behandlingar som vårdar och lugnar, våra hudterapeuter har den nödvändiga kunskapen och erfarenheten för att ge den mest effektiva och skonsamma behandlingen för alla typer av hudproblem.</p>';
 
 $treatment_steps = array(

@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Kemisk Peeling mot acne | AcneSpecialisten';
 $seo_description = 'Kemiska peelings särskilt utvecklade för aknebehandling. Våra specialanpassade peelingar reducerar akne och förbättrar hudens övergripande hälsa och utseende.';
-$seo_keywords = 'kemisk peeling mot acne';
+$seo_keywords = 'kemisk peeling mot acne, peeling akne, kemisk peeling acne, peeling acne, kemisk peeling akne';
 
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
