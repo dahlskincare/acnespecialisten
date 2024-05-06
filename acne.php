@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne | AcneSpecialisten';
 $seo_description = 'Läs mer om akne & acne, varför det uppstår och vilka behandlingar du kan göra. Boka en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →';
-$seo_keywords = 'acne, akne, papler, pustler, vad är akne, varför får man akne, acne vård, plötslig akne, akne bakterie, papler akne, akne symtom, papler acne';
+$seo_keywords = 'acne, akne, papler, pustler, vad är akne, varför får man akne, acne hy, acne vård, plötslig akne, acne orsak, akne bakterie, akne tips, acne bilder, acne hud, vad beror akne på, akne symtom, vad orsakar akne, akne före och efter, akne hjälp, akne orsak, akne problem, akne sjukdom, kronisk akne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
@@ -41,7 +41,7 @@ $green_banner_content = new GreenBannerContent(
             new Link(
                   label: 'Vuxenakne',
                   url: 'vuxenacne.php',
-                  title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
+                  title: 'Utforska orsaker, symtom och behandlingar av vuxenakne'
             ),
             new Link(
                   label: 'Tonårsakne',
@@ -55,7 +55,7 @@ $nav_buttons = array(
       'about' => 'Om akne',
       'approach' => 'Metoden',
       'types' => 'Typer',
-      'symptoms' => 'Symptom',
+      'symptoms' => 'Symtom',
       'define' => 'Konsultation',
       'treatments' => 'Behandling',
       'articles' => 'Varför AS?',
@@ -72,7 +72,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är akne?',
-            content: '<p class="p200">Akne är en ärftlig och hormonell hudförändring som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
+            content: '<p class="p200">Akne består av bland annat papler och pustler, som är en ärftlig och hormonell hudsjukdom som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal. Akne är en inflammation i huden som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
             extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större bölder. Det viktiga att komma ihåg är att akne kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
               <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar din akne och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma.</p>',
             icons: array()
@@ -80,8 +80,8 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: 'får man akne?',
-            content: '<p class="p200">Akne är en hudåkomma som beror på en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
-            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne i pubertet, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell acne.</p>
+            content: '<p class="p200">Acne orsakas av en kombination av genetiska, hormonella och miljömässiga faktorer. En normal talgproduktion är nödvändig för att huden ska må bra, men när huden överproducerar talg kan detta leda till akne. Detta beror bland annat på anlag man har ärvt från sina föräldrar. Vid en överproduktion av talg klarar porerna inte av att ta hand om överflödet, och tillsammans med hudrester täpps pormynningarna till, vilket leder till att bakterier samlas. Kroppen försvarar sig då med en inflammation, och det är just detta som syns på huden i form av akne.</p>',
+            extended_content: '<p class="p200 mt-xl">Hormoner får porerna i huden att överproducera talg. Det är vanligt att drabbas av akne i pubertet, när kroppen genomgår stora förändringar, men även små barn och vuxna kan få akne. Flera faktorer kan orsaka och försämra akne, såsom stress, vissa läkemedel, varma och fuktiga miljöer samt hormonförändringar vid graviditet, menstruation och klimakteriet. Även anabola steroider och p-piller kan orsaka akne. Stress påverkar ofta huden mer än vi kanske tror, och både stora och små händelser i livet kan öka kroppens stressnivå och orsaka hudförändringar i form av hormonell acne hy.</p>
               <p class="p200 mt-xl">För att behandla akne är det viktigt att balansera kroppens talgproduktion med rätt hudvårdsprodukter och hållbara hudvårdsrutiner. Successivt kan aknen antingen bli mycket bättre eller helt försvinna. Vi som arbetar på Acnespecialisten har lång erfarenhet och stor kunskap av aknebehandlingar och kan hjälpa dig att hålla kroppens naturliga produktion av talg på en optimal nivå och på så sätt reducera dina besvär med akne.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
@@ -172,7 +172,7 @@ $type_categories = array(
       ),
       "acne_severity" => new BasedTypeCategory(
             title: 'Akne baserat på svårighetsgrad',
-            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symptomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
+            content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symtomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
                         title: 'Mild akne',
@@ -328,7 +328,7 @@ $type_categories = array(
 
 );
 
-$symptoms_title = 'Akne symptom';
+$symptoms_title = 'Akne symtom';
 
 $symptoms = array(
       "open_comedones" => new Symptom(
@@ -417,7 +417,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -585,7 +585,7 @@ $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
             content: '<p class="p200">Du som vill ha det som är bäst mot akne bör välja AcneSpecialisten eftersom vi är experter på att behandla akne och har över 30 års erfarenhet av att ha arbetat med olika typer av akne. Vi lever upp till vårt namn genom att erbjuda personlig och professionell hjälp för att hjälpa dig att uppnå en klar och frisk hud. Vi skräddarsyr behandlingar baserade på dina individuella problem och behov, vi rekommenderar de bästa akneprodukterna för att förebygga och behandla din hud och akne. </p>
-              <p class="p200 mt-m">Genom att välja Acnespecialisten får du den mest effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
+              <p class="p200 mt-m">Genom att välja Acnespecialisten får du rätt acne vård för din hy genom att vi erbjuder effektiva behandlingen för ditt specifika fall och en hudvårdspartner som stöttar dig genom hela processen.</p>',
             image_small: null,
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?!',
@@ -594,7 +594,7 @@ $articles = array(
       new Article(
             title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar och resultat. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p>
-              <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+              <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig tips och råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
@@ -602,6 +602,7 @@ $articles = array(
       ),
 );
 
+$results_title = 'Akne före och efter bilder';
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
@@ -744,6 +745,12 @@ $faq_categories = array(
             new Question(
                   title: 'Vad är det för skillnad mellan acne och finnar?',
                   text: '<p class="p200">Acne och finnar är relaterade men beskriver olika aspekter av samma hudtillstånd. Finnar är en term som ofta används för att beskriva enstaka utbrott eller plitor på huden, som kan vara ett resultat av tilltäppta porer, överproduktion av talg, eller inflammation. Acne å andra sidan, är en medicinsk term som beskriver en kronisk hudsjukdom karaktäriserad av upprepade och flera utbrott av finnar, pormaskar, och ibland cystor, som kan påverka ansiktet, nacken, bröstet och ryggen. Acne är ofta mer omfattande och kan kräva medicinsk behandling för att hantera både utbrotten och dess underliggande orsaker.</p>'
+            ),
+            new Question(
+                  title: 'Hjälp, plötslig Akne!',
+                  text: '<p class="p200">Vi förstår att det kan vara både frustrerande och oroande när acne plötsligt dyker upp, särskilt inför viktiga och stressiga händelser som ett bröllop eller en skolavslutning. Det är inte ovanligt att kroppen reagerar på stress genom att producera mer talg, vilket kan leda till plötsliga utbrott av acne.</p>
+                        <p class="p200 mt-m">Om du upplever plötslig acne, vill vi uppmana dig att besöka oss på Acnespecialisten för en kostnadsfri konsultation. Våra experter kan erbjuda skräddarsydda lösningar och behandlingsalternativ som är anpassade just för din hudtyp och dina behov. Tillsammans kan vi arbeta för att få din hud att må bättre.</p>
+                        <p class="p200 mt-m">Tveka inte att kontakta oss för att boka din kostnadsfria konsultation. Vi ser fram emot att hjälpa dig att uppnå en klarare och friskare hud.</p>'
             ),
       ),
 );
