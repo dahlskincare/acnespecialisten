@@ -209,6 +209,11 @@ $faq_categories = array(
                   title: 'Är vuxenacne vanligare hos män eller kvinnor?',
                   text: 'Vuxenacne är vanligare hos kvinnor än hos män, vilket ofta är kopplat till hormonella förändringar såsom menstruationscykel, graviditet, och användning av hormonbaserade preventivmedel. Som man kan man dock också drabbas av vuxenacne, särskilt om de har en bakgrund av akne under tonåren.'
             ),
+            new Question(
+                  title: 'Vuxen och plöttslig acne!',
+                  text: '<p class="p200">Plötslig acne hos vuxna kan bero på flera olika faktorer. En vanlig orsak är hormonella förändringar, till exempel under stress, menstruationscykeln eller graviditet. Andra faktorer som kan bidra till problemet är kost, vissa mediciner, användning av olämplig hudvård eller kosmetika, samt miljöpåverkan såsom föroreningar och klimat.</p>
+                        <p class="p200 mt-m">Vi på Acnespecialisten är experter på att behandla just vuxen acne och kan hjälpa dig att hitta en skräddarsydd lösning för just din hud. Vi rekommenderar att du bokar en tid hos oss så att vi kan göra en noggrann utvärdering och diskutera den bästa behandlingsplanen för dig.</p>'
+            ),
       ),
 );
 
