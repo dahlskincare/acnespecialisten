@@ -35,13 +35,9 @@ $green_banner_content = new GreenBannerContent(
       akas: [
             new Link(
                   label: 'Förstorade porer',
-                  url: null,
-                  title: null,
             ),
             new Link(
                   label: 'Vidgade porer',
-                  url: null,
-                  title: null,
             ),
       ]
 );

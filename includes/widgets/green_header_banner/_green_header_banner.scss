@@ -72,11 +72,11 @@
         }
 
         #ghb-akas {
-            a:not(:last-child)::after {
+            .b200:not(:last-child)::after {
                 content: ",";
             }
 
-            a:last-child::after {
+            .b200:last-child::after {
                 content: ".";
             }
         }

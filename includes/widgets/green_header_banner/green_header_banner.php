@@ -53,9 +53,13 @@
                     <h1><?php echo $green_banner_content->title ?></h1>
                     <?php if (sizeof($green_banner_content->akas) > 0) { ?>
                         <div id="ghb-akas">
-                            <span class="h200">Även känt som</span>
+                            <span class="p200">Även känt som</span>
                             <?php foreach ($green_banner_content->akas as $aka) { ?>
-                                <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline"><?php echo $aka->label ?></a>
+                                <?php if (isset($aka->url)) { ?>
+                                    <a href="<?php echo $aka->url ?>" title="<?php echo $aka->title ?>" class="b200 underline"><?php echo $aka->label ?></a>
+                                <?php } else { ?>
+                                    <span class="b200"><?php echo $aka->label ?></span>
+                                <?php } ?>
                             <?php } ?>
                         </div>
                     <?php } ?>
