@@ -10,6 +10,11 @@ $seo_description = 'Information om vita pormaskar, symptom, orsaker och effektiv
 $seo_keywords = 'vita pormaskar, hantering av vita pormaskar, vita pormaskars orsaker, förebyggande av vita pormaskar, eliminering av vita pormaskar, hudvårdsrutiner, ansiktsrengöring, djuprengöring av porer';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Vita pormaskar', '/vita-pormaskar.php'),
+);
+
 $image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
 $image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar vita pormaskar på huden';
