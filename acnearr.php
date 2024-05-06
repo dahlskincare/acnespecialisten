@@ -424,7 +424,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Räknas hål i huden efter pormask som acneärr?',
-                  text: '<p class="p200"></p>'
+                  text: '<p class="p200">Hål i huden efter pormaskar, ofta kallade ispickärr eller förstorade porer, räknas vanligtvis inte som acneärr i strikt mening men är definitivt en form av permanent hudskada som kan uppkomma efter akne. Dessa små gropar i huden är resultatet av att djupa pormaskar eller andra akneutbrott har skadat det omgivande vävnaden, vilket gör att huden inte kan återhämta sig helt och lämnar permanenta märken. Behandling av sådana skador genomförs dock med samma metoder som för acneärr vilket inkluderar laserbehandlingar och microneedling.</p>'
             ),
       ),
 
