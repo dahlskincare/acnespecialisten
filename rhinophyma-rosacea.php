@@ -8,40 +8,33 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Allt om Rhinophyma - Orsaker, Behandlingar och Förebyggande';
 $seo_description = 'Om rhinophyma, en avancerad form av rosacea, och hur det påverkar huden. Få insikter i effektiva behandlingar och metoder.';
 $seo_keywords = 'rhinophyma, rosacea, rhinophyma behandling, orsaker till rhinophyma, förebygga rhinophyma, ta bort rhinophyma, avancerad rosacea, hudsjukdomar, rosaceaärr, förtjockad hud på näsan';
-
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
-
 $seo_image = 'bilder/hudproblem/424x456/rosacea.webp';
 
-$title = 'Rhinophyma Rosacea';
+$path_segments = array(
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Rhinophyma Rosacea', '/rhinophyma-rosacea.php'),
+);
 
 $image_small = 'bilder/hudproblem/424x324/rosacea.webp';
 $image_large = 'bilder/hudproblem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rhinophyma rosacea';
 $image_alt = 'Bild som illustrerar hur rhinophyma rosacea ser ut på huden';
-$description = 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.';
+
+$green_banner_content = new GreenBannerContent(
+      title: 'Rhinophyma Rosacea',
+      description: 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.',
+      links_touch: [
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea', 'Boka denna behandling'),
+      ],
+      links_desktop: [
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea', 'Boka denna behandling'),
+      ],
+      show_consultation_card: false,
+);
 
 $floating_box = 'En översikt om rhinophyma rosacea och dess behandling';
-
-$consultation_url_label = "Boka gratis konsultation";
-$consultation_url = "https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
-$consultation_url_title = "Gratis Konsultation för rosacea";
-
-$booking_url_label = "Boka behandling";
-$booking_url = "https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea";
-$booking_url_title = "Boka rosaceabehandling";
-
-$mobile_consultation_url_label = "Gratis konsultation";
-$mobile_consultation_url_title = "Gratis Konsultation för rosacea";
-
-$mobile_booking_url_label = "Boka behandling";
-$mobile_booking_url_title = "Boka rosaceabehandling";
-
-$floating_consultation_url_label = "Boka gratis konsultation";
-$floating_consultation_url_title = "Gratis Konsultation för rosacea";
-
-$floating_booking_url_label = "Boka behandling";
-$floating_booking_url_title = "Boka rosaceabehandling";
 
 $nav_buttons = array(
       'about' => 'Om rhinophyma rosacea',
@@ -98,10 +91,10 @@ $treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva akn
 $top_articles = array(
       'areas' => new Article(
             title: 'Rhinophyma Rosacea områden',
-            image_small: '',
-            image_large: '',
-            image_alt: '',
-            image_title: '',
+            image_small: null,
+            image_large: null,
+            image_alt: null,
+            image_title: null,
             content: '<p class="p200">Rhinophyma rosacea är en särskild och avancerad form av rosacea som påverkar näsan. Det kännetecknas av en betydande förtjockning och rödhet av näshuden, och kan resultera i en knölig, ojämn yta. Denna tillstånd uppträder uteslutande på näsan och är känt för att gradvis förändra dess form och storlek. Rhinophyma utvecklas över tid och är oftare sett hos män än hos kvinnor. Även om det är en sällsyntare manifestation av rosacea, är det viktigt att korrekt identifiera och behandla rhinophyma för att förhindra ytterligare progression och förbättra patientens livskvalitet.</p>
       <p class="p200 mt-m">För att förstå ditt specifika tillstånd och utforska behandlingsalternativ, är en konsultation med en hudterapeut nödvändig. En hudterapeut kan ge en personlig bedömning och rekommendera en behandlingsplan anpassad för dina behov.</p>',
             tags: array(new ArticleTag(
@@ -537,82 +530,13 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-            <div class="container">
-                  <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                        <div id="overlay">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                              <div>
-                                    <h2 class="h600"><?php echo $title ?></h2>
-                                    <div class="mt-m aka">
-                                          <div class="mt-m"><?php echo $floating_box ?></div>
-                                          <div class="mt-xl">
-                                                <div class="columns is-2 is-variable">
-                                                      <div class="column">
-                                                            <a href="<?php echo $consultation_url ?>" title="<?php echo $floating_consultation_url_title ?>" class="button white expand l10n"><?php echo $floating_consultation_url_label ?></a>
-                                                      </div>
-                                                      <div class="column">
-                                                            <a href="<?php echo $booking_url ?>" title="<?php echo $floating_booking_url_title ?>" class="button white expand l10n"><?php echo $floating_booking_url_label ?></a>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
+      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
       <main>
             <section id="header">
-                  <div id="green-header-small" class="is-hidden-desktop">
-                        <div class="container">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                              <h1 class="h600"><?php echo $title ?></h1>
-
-                              <hr class="mt-xl" />
-                              <p class="mt-m p200">
-                                    <?php echo $description ?>
-                              </p>
-                              <div class="mt-xl">
-                                    <div class="columns is-mobile">
-                                          <div class="column is-half">
-                                                <a href="<?php echo $consultation_url ?>" title="<?php echo $mobile_consultation_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_consultation_url_label ?></a>
-                                          </div>
-                                          <div class="column is-half">
-                                                <a href="<?php echo $booking_url ?>" title="<?php echo $mobile_booking_url_title ?>" class="button b200 white expand l10n"><?php echo $mobile_booking_url_label ?></a>
-                                          </div>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-                  <div id="green-header-large" class="is-hidden-touch">
-                        <div class="container">
-                              <div class="columns">
-                                    <div class="column is-half">
-                                          <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                                    </div>
-                                    <div class="column is-half flex-row justify-end">
-                                          <div class="mt-xl">
-                                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                                          </div>
-                                    </div>
-                              </div>
-                              <div id="green-header-large-text" class="mt-xxs">
-                                    <h1 class="h600"><?php echo $title ?></h1>
-                                    <p class="mt-s p200"><?php echo $description ?></p>
-                                    <div class="mt-xl flex-row" id="book-buttons">
-                                          <a href="<?php echo $consultation_url ?>" title="<?php echo $consultation_url_title ?>" class="button b200 white l10n"><?php echo $consultation_url_label ?></a>
-                                          <a href="<?php echo $booking_url ?>" title="<?php echo $booking_url_title ?>" class="button b200 white l10n"><?php echo $booking_url_label ?></a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
             <div class="container">
                   <div id="content">
-                        <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </section>
                         <section id="image" class="is-hidden-desktop">
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
