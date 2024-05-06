@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hormonell Akne och Hormon Finnar | AcneSpecialisten';
+$seo_title = 'Hormonell Acne och Hormonfinnar | AcneSpecialisten';
 $seo_description = 'Kämpar du med hormon acne eller hormon finnar? Läs om orsaker, symptom och hur du kan hantera hormonella finnar med rätt behandlingarr och hudvårdsrutiner.';
 $seo_keywords = 'hormonell acne, hormonell akne, hormon finnar, hormonella finnar, hormonell akne behandling, hormonell akne vuxen, hormonella finnar vuxen, hormonfinnar, acne hormonell, hormonell akne haka, hormonfinnar hakan, hormonell akne produkter, hormon akne, hormonell acne kinder, hudvård hormonell acne, behandla hormonell acne, akne hormonell';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar behandlingsmetoder för hormonell acne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Hormonell Acne',
-      description: 'Hormonell akne, eller hormon finnar ofta ett problem inte bara under tonåren utan även för vuxna, är ett vanligt hudtillstånd som påverkar många. Denna typ av akne uppstår när hormonella förändringar, såsom de som sker under menstruationscykeln, graviditet, eller på grund av vissa medicinska tillstånd, stimulerar en överproduktion av olja i huden.',
+      description: 'Hormonell akne, eller hormonfinnar ofta ett problem inte bara under tonåren utan även för vuxna, är ett vanligt hudtillstånd som påverkar många. Denna typ av akne uppstår när hormonella förändringar, såsom de som sker under menstruationscykeln, graviditet, eller på grund av vissa medicinska tillstånd, stimulerar en överproduktion av olja i huden.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -67,7 +67,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Hur vet jag om min akne är hormonell?';
-$description_text = '<p class="p200">Hormonell acne, ofta känd som hormon acne eller hormon finnar, är ett tillstånd där huden blir utsatt för utbrott som är direkt kopplade till kroppens hormonella förändringar och obalanser. Denna typ av akne skiljer sig från andra former av akne genom att den är starkt kopplad till svängningar i hormonerna, vilket kan påverka hudens tillstånd. Hormonella obalanser kan leda till ökad talgproduktion i huden, vilket i sin tur kan täppa till porerna och skapa en gynnsam miljö för bakterietillväxt och inflammation. Hormonell acne är särskilt vanlig under puberteten, men det är inte ovanligt att vuxna, och i synnerhet kvinnor, upplever dessa hudutslag. Hos kvinnor kan akne hormonell vara kopplad till menstruationscykeln, graviditet, klimakteriet eller användning av preventivmedel. Hos både män och kvinnor kan stress och vissa livsstilsfaktorer också påverka hormonbalansen och därmed bidra till hormonella akneutbrott.</p>
+$description_text = '<p class="p200">Hormonell acne, ofta känd som hormon acne eller hormon finnar, är ett tillstånd där huden blir utsatt för utbrott som är direkt kopplade till kroppens hormonella förändringar och obalanser. Denna typ av akne skiljer sig från andra former av akne genom att den är starkt kopplad till svängningar i hormonerna, vilket kan påverka hudens tillstånd. Hormonella obalanser kan leda till ökad talgproduktion i huden, vilket i sin tur kan täppa till porerna och skapa en gynnsam miljö för bakterietillväxt och inflammation. Hormonell acne är särskilt vanlig under puberteten, men det är inte ovanligt att vuxna, och i synnerhet kvinnor, upplever dessa hudutslag. Hos en vuxen kvinna kan finnar uppstå både innan och vid mens, men även vara kopplat till graviditet, klimakteriet eller användning av preventivmedel. Hos både män och kvinnor kan stress och vissa livsstilsfaktorer också påverka hormonbalansen och därmed bidra till hormonella akneutbrott.</p>
 <p class="p200 mt-m">Behandlingen av acne som är hormonell utan att rubba hudens naturliga hormoner fokuserar på en helhetslösning som kombinerar rätt behandlingar med rätt hudvårdsprodukter. Denna metod kombinerar extraktioner på klinik för att tömma aknen, med en skräddarsydd hudvårdsrutin som används hemma. Med hjälp av en hudterapeut som guidar dig genom hela processen kan du kontrollera din hormonella acne effektivt.</p>';
 
 $treatment_steps = array(
@@ -87,7 +87,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av hormonell acne, erbjuder vi specialdesignade hudvårdsprodukter och rutiner.',
+            content: 'För att förebygga framtida utbrott av hormonell acne, erbjuder vi specialdesignade produkter och rutiner.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga hormonell acne'
@@ -191,7 +191,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Varför får man hormonell acne?',
-                  text: 'Hormonell acne orsakas av variationer i kroppens hormonnivåer, särskilt en ökning av androgener som stimulerar överproduktion av talg i huden. Detta leder till tilltäppta porer och inflammation som uppstår i form av akne. Kvinnor kan uppleva ökade hormonförändringar i samband med menstruationscykel, graviditet, förlossning, amning eller i övergångsåldern, vilket gör dem mer benägna att utveckla hormonell acne.'
+                  text: 'Hormonell acne orsakas av variationer i kroppens hormonnivåer, särskilt en ökning av androgener som stimulerar överproduktion av talg i huden. Detta leder till tilltäppta porer och inflammation som uppstår i form av akne. Kvinnor kan uppleva ökade hormonförändringar under mens, graviditet, förlossning, amning eller i övergångsåldern där klimakteriet orsakar hudproblem, vilket gör dem mer benägna att utveckla hormonell acne.'
             ),
       ),
 );
