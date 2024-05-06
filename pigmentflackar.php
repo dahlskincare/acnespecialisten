@@ -8,6 +8,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Vad är Pigmentfläckar? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om pigmentfläckar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'pigmentfläckar, hyperpigmentering, pigmentering, hudfläckar, hyperpigmentering, hudfläckar, pigmenteringar';
+$seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $title = 'Pigmentfläckar';
 
@@ -675,10 +676,10 @@ $brands_url_title = "Varumärken för pigmentfläckar";
       <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
       <meta property="og:title" content="<?php echo $seo_title ?>" />
       <meta property="og:description" content="<?php echo $seo_description ?>" />
-      <meta property="og:image" content="<?php echo $image_large ?>" />
+      <meta property="og:image" content="<?php echo $seo_image ?>" />
       <meta property="twitter:title" content="<?php echo $seo_title ?>" />
       <meta property="twitter:description" content="<?php echo $seo_description ?>" />
-      <meta property="twitter:image" content="<?php echo $image_large ?>" />
+      <meta property="twitter:image" content="<?php echo $seo_image ?>" />
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="hudproblem/problem.css">
