@@ -200,8 +200,6 @@ $pages = sizeof($articles_per_page);
                 title: 'Hudguide',
                 description: 'Välkommen till AcneSpecialistens Hudguide – din omfattande resurs för allt inom hudvård. I denna guide samlar vi över 30 års expertis och erfarenhet för att ge dig den mest aktuella och praktiska informationen om hudvård, behandlingar och hudhälsa.',
                 description_extended: 'Här hittar du artiklar om en mängd hudvårdsämnen, från grundläggande hudvårdstips till avancerad information om specifika hudtillstånd som acne, rosacea, och mycket mer. Vårt mål är att tillhandahålla pålitlig, vetenskapligt underbyggd information som hjälper dig att förstå din hud bättre och ta hand om den på bästa möjliga sätt.',
-                button_url: 'gratis-hudkonsultation',
-                button_label: 'Boka en gratis hudkonsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
