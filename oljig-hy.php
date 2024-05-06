@@ -10,7 +10,6 @@ $seo_description = 'Läs mer om hur vi effektivt behandlar glansig och oljig hy 
 $seo_keywords = 'oljig hy, oljig hud, oljig, oljig hy i pannan, glansig hy';
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
-
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Oljig Hy', '/oljig-hy.php'),
