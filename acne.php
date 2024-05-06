@@ -747,10 +747,9 @@ $faq_categories = array(
                   text: '<p class="p200">Acne och finnar är relaterade men beskriver olika aspekter av samma hudtillstånd. Finnar är en term som ofta används för att beskriva enstaka utbrott eller plitor på huden, som kan vara ett resultat av tilltäppta porer, överproduktion av talg, eller inflammation. Acne å andra sidan, är en medicinsk term som beskriver en kronisk hudsjukdom karaktäriserad av upprepade och flera utbrott av finnar, pormaskar, och ibland cystor, som kan påverka ansiktet, nacken, bröstet och ryggen. Acne är ofta mer omfattande och kan kräva medicinsk behandling för att hantera både utbrotten och dess underliggande orsaker.</p>'
             ),
             new Question(
-                  title: 'Hjälp, plötslig Akne!',
-                  text: '<p class="p200">Vi förstår att det kan vara både frustrerande och oroande när acne plötsligt dyker upp, särskilt inför viktiga och stressiga händelser som ett bröllop eller en skolavslutning. Det är inte ovanligt att kroppen reagerar på stress genom att producera mer talg, vilket kan leda till plötsliga utbrott av acne.</p>
-                        <p class="p200 mt-m">Om du upplever plötslig acne, vill vi uppmana dig att besöka oss på Acnespecialisten för en kostnadsfri konsultation. Våra experter kan erbjuda skräddarsydda lösningar och behandlingsalternativ som är anpassade just för din hudtyp och dina behov. Tillsammans kan vi arbeta för att få din hud att må bättre.</p>
-                        <p class="p200 mt-m">Tveka inte att kontakta oss för att boka din kostnadsfria konsultation. Vi ser fram emot att hjälpa dig att uppnå en klarare och friskare hud.</p>'
+                  title: 'Vuxen och plöttslig acne!',
+                  text: '<p class="p200">Plötslig acne hos vuxna kan bero på flera olika faktorer. En vanlig orsak är hormonella förändringar, till exempel under stress, menstruationscykeln eller graviditet. Andra faktorer som kan bidra till problemet är kost, vissa mediciner, användning av olämplig hudvård eller kosmetika, samt miljöpåverkan såsom föroreningar och klimat.</p>
+                        <p class="p200 mt-m">Vi på Acnespecialisten är experter på att behandla just vuxen acne och kan hjälpa dig att hitta en skräddarsydd lösning för just din hud. Vi rekommenderar att du bokar en tid hos oss så att vi kan göra en noggrann utvärdering och diskutera den bästa behandlingsplanen för dig.</p>'
             ),
       ),
 );

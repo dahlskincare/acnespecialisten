@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vuxenakne - Varför Får Man Finnar Som Vuxen?';
+$seo_title = 'Vuxenacne - Varför Får Man Finnar Som Vuxen?';
 $seo_description = 'Hur kan du bli av med vuxenacne och vad orsakar problemet? Behandla vuxenacne med vårt skräddarsydda upplägg. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'varför får man finnar som vuxen, vuxenacne, vuxenakne, vuxenacne behandling, vuxenacne kvinnor, vuxenakne man, vuxenakne orsaker, acne tarda, hormonell vuxenacne, kronisk vuxenakne, bli av med vuxenacne, vuxenacne hjälp, vuxenacne produkter, behandla vuxenacne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
@@ -15,14 +15,15 @@ $path_segments = array(
       new PathSegment('Vuxenacne', '/vuxenacne.php'),
 );
 
+$title = 'Vuxenacne - Acne Tarda';
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
-$image_title = 'Behandling och Skötsel av Vuxenakne';
-$image_alt = 'Bild som visar hud påverkad av vuxenakne';
+$image_title = 'Behandling och Skötsel av Vuxenacne';
+$image_alt = 'Bild som visar hud påverkad av vuxenacne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Vuxenakne - Acne Tarda',
-      description: 'Vuxenacne, även känd som vuxenakne, är ett vanligt hudtillstånd som inte bara drabbar tonåringar utan även många vuxna, inklusive män. Tillståndet kan bero på en mängd olika orsaker, från hormonella obalanser till livsstilsfaktorer. Att förstå varför man får finnar som vuxen är nyckeln till att hitta effektiva behandlingar och strategier för att hantera kvisslorna och uppnå klarare hud.',
+      description: 'Vuxenakne är ett vanligt hudtillstånd som inte bara drabbar tonåringar utan även många vuxna, inklusive män. Tillståndet kan bero på en mängd olika orsaker, från hormonella obalanser till livsstilsfaktorer. Att förstå varför man får finnar som vuxen är nyckeln till att hitta effektiva behandlingar och strategier för att hantera kvisslorna och uppnå klarare hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -46,10 +47,10 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Behandla dina vuxenakne effektivt.';
+$floating_box = 'Behandla dina vuxenacne effektivt.';
 
 $nav_buttons = array(
-      'about' => 'Om vuxenakne',
+      'about' => 'Om vuxenacne',
       'approach' => 'Metoden',
       'areas' => 'Områden',
       'articles' => 'Varför er?',
@@ -62,28 +63,28 @@ $nav_buttons = array(
 );
 
 $description_title = 'Varför får man finnar som vuxen?';
-$description_text = '<p class="p200">Vuxenakne är ett hudtillstånd som kännetecknas av uppkomsten av finnar, pormaskar, och ibland djupare cystor och noduler, hos personer över tjugo år. Till skillnad från tonårsakne, som ofta är centrerad kring hormonella förändringar under puberteten, kan vuxenakne drabba både män och kvinnor av olika åldrar och har en rad olika orsaker och utlösande faktorer. Dessa inkluderar hormonella obalanser, såsom de som kan uppkomma under menstruationscykeln, graviditet, eller på grund av användning av vissa typer av mediciner, inklusive hormonella preventivmedel. Andra vanliga orsaker till vuxenakne omfattar stress, användning av olämpliga hudvårdsprodukter som kan täppa till porerna, samt genetiska faktorer.</p>
-<p class="p200 mt-m">Vuxenacne behandling varierar beroende på dess orsak och svårighetsgrad. Mildare former kan ofta hanteras med skräddarsydda hudvårdsprodukter, medan mer allvarliga fall av akne kräver att rätt hudvårdsprodukter kombineras med rätt behandlingar för att få ett bra resyltat. För att förebygga och hantera vuxenakne är det viktigt med en lämplig hudvårdsrutin anpassad efter hudtyp och specifika behov. Detta kan inkludera rengöring, regelbunden exfoliering för att avlägsna döda hudceller, och användning av återfuktande och balanserande hudvårdsprodukter.</p>
-<p class="p200 mt-m">Sammanfattningsvis kräver hantering av vuxenakne en kombination av lämplig hudvård och behandling. Genom att använda en heltäckande behandlingsplan och följa en noggrann hudvårdsrutin kan individer med vuxenakne uppnå betydande förbättringar i sitt hudtillstånd.</p>';
+$description_text = '<p class="p200">Vuxenacne är ett hudtillstånd som kännetecknas av uppkomsten av finnar, pormaskar, och ibland djupare cystor och noduler, hos personer över tjugo år. Till skillnad från tonårsakne, som ofta är centrerad kring hormonella förändringar under puberteten, kan vuxenacne drabba både män och kvinnor av olika åldrar och har en rad olika orsaker och utlösande faktorer. Dessa inkluderar hormonella obalanser, såsom de som kan uppkomma under menstruationscykeln, graviditet, genetiska underlag som orsakar kronisk vuxenakne, eller på grund av användning av vissa typer av mediciner, inklusive hormonella preventivmedel. Andra vanliga orsaker till vuxenakne omfattar stress, användning av olämpliga hudvårdsprodukter som kan täppa till porerna, samt genetiska faktorer.</p>
+<p class="p200 mt-m">Vuxenacne behandling varierar beroende på dess orsak och svårighetsgrad. Mildare former kan ofta hanteras med skräddarsydda hudvårdsprodukter, medan mer allvarliga fall av akne kräver att rätt hudvårdsprodukter kombineras med rätt behandlingar för att få ett bra resyltat. För att förebygga och hantera vuxenacne är det viktigt med en lämplig hudvårdsrutin anpassad efter hudtyp och specifika behov. Detta kan inkludera rengöring, regelbunden exfoliering för att avlägsna döda hudceller, och användning av återfuktande och balanserande hudvårdsprodukter.</p>
+<p class="p200 mt-m">Sammanfattningsvis kräver hantering av vuxenacne en kombination av lämplig hudvård och behandling. Genom att använda en heltäckande behandlingsplan och följa en noggrann hudvårdsrutin kan individer med vuxenakne uppnå betydande förbättringar i sitt hudtillstånd.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vi analyserar din hy för att identifiera din vuxenakne och ta fram en behandlingsplan anpassad för just din huds särskilda behov.',
+            content: 'Vi analyserar din hy för att identifiera din vuxenacne och ta fram en behandlingsplan anpassad för just din huds särskilda behov.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder ett brett utbud av skräddarsydda behandlingar för vuxenakne, utformade för att effektivt bli av med hudproblemet.',
+            content: 'Vi erbjuder ett brett utbud av skräddarsydda behandlingar för vuxenacne, utformade för att effektivt bli av med hudproblemet.',
             url_label: 'Se aknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder anpassade hudvårdsprodukter och rutiner som är speciellt utformade för att förebygga vuxenakne och bevara en hälsosam hudbalans.',
+            content: 'Vi erbjuder anpassade produkter och rutiner som är speciellt utformade för att förebygga vuxenakne och bevara en hälsosam hudbalans.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
@@ -182,19 +183,24 @@ $faq_categories = array(
       'Generella frågor' => array(
             new Question(
                   title: 'Finns det några effektiva hembehandlingar för vuxenacne?',
-                  text: 'Ja, det finns flera hembehandlingar som kan hjälpa till att lindra vuxenacne och få bort både finnar och kvisslor. Genom att använda en skräddarsydd hudvårdsrutin kan du effektivt behandla och balansera huden för att bli av med vuxenakne.'
+                  text: 'Ja, det finns flera hembehandlingar som kan hjälpa till att lindra vuxenacne och få bort både finnar och kvisslor. Genom att använda en skräddarsydd hudvårdsrutin kan du effektivt behandla och balansera huden för att bli av med vuxenacne.'
             ),
             new Question(
                   title: 'Hur kan jag förebygga framtida utbrott av vuxen finnar?',
-                  text: 'För att effektivt förebygga framtida utbrott av vuxen finnar, är det viktigt att följa en regelbunden hudvårdsrutin anpassad för aknebenägen hud. Dessutom rekommenderas det att kontakta en hudterapeut direkt för att få en skräddarsydd behandlingsplan. Detta kan inte bara hjälpa till att effektivt bli av med vuxenaknen utan också motverka ärrbildning och säkerställa långsiktigt problemfri hud.'
+                  text: 'För att effektivt förebygga framtida utbrott av vuxen finnar, är det viktigt att följa en regelbunden hudvårdsrutin anpassad för aknebenägen hud. Dessutom rekommenderas det att kontakta en hudterapeut direkt för att få en skräddarsydd behandlingsplan. Detta kan inte bara hjälpa till att effektivt bli av med vuxenacnen utan också motverka ärrbildning och säkerställa långsiktigt problemfri hud.'
             ),
             new Question(
                   title: 'Är det möjligt att vuxenacne lämnar ärr och hur kan man behandla dem?',
                   text: 'Ja, precis som med annan akne kan vuxenacne lämna ärr om den inte behandlas korrekt. Ärrbehandling kan inkludera metoder som laserbehandling, microneedling och kemisk peeling beroende på ärrens typ och utseende. En hudterapeut kan rekommendera den bästa behandlingsplanen för dina ärr.'
             ),
             new Question(
-                  title: 'Är vuxenakne vanligare hos män eller kvinnor?',
-                  text: 'Vuxenakne är vanligare hos kvinnor än hos män, vilket ofta är kopplat till hormonella förändringar såsom menstruationscykel, graviditet, och användning av hormonbaserade preventivmedel. Som man kan man dock också drabbas av vuxenakne, särskilt om de har en bakgrund av akne under tonåren.'
+                  title: 'Är vuxenacne vanligare hos män eller kvinnor?',
+                  text: 'Vuxenacne är vanligare hos kvinnor än hos män, vilket ofta är kopplat till hormonella förändringar såsom menstruationscykel, graviditet, och användning av hormonbaserade preventivmedel. Som man kan man dock också drabbas av vuxenacne, särskilt om de har en bakgrund av akne under tonåren.'
+            ),
+            new Question(
+                  title: 'Vuxen och plöttslig acne!',
+                  text: '<p class="p200">Plötslig acne hos vuxna kan bero på flera olika faktorer. En vanlig orsak är hormonella förändringar, till exempel under stress, menstruationscykeln eller graviditet. Andra faktorer som kan bidra till problemet är kost, vissa mediciner, användning av olämplig hudvård eller kosmetika, samt miljöpåverkan såsom föroreningar och klimat.</p>
+                        <p class="p200 mt-m">Vi på Acnespecialisten är experter på att behandla just vuxen acne och kan hjälpa dig att hitta en skräddarsydd lösning för just din hud. Vi rekommenderar att du bokar en tid hos oss så att vi kan göra en noggrann utvärdering och diskutera den bästa behandlingsplanen för dig.</p>'
             ),
       ),
 );

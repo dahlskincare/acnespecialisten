@@ -116,6 +116,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot acne vulgaris" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot acne vulgaris</a>';
 
+$results_title = 'Acne vulgaris före och efter bilder';
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
