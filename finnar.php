@@ -322,7 +322,7 @@ $type_categories = array(
 
 );
 
-$symptoms_title = 'Finnar symptom';
+$symptoms_title = 'Finnar symptom och synonymer';
 
 $symptoms = array(
       new Symptom(

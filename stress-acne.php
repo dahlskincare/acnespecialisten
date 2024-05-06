@@ -97,7 +97,7 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'Våra behandlingsstrategier för stress acne inkluderar även metoder för att reparera hudskador orsakade av akne, som att minska ärrbildning och förbättra hudens textur för en jämnare hudton.',
             url_label: 'Se ärrbehandlingar',
-            url: 'behandla-finnar-arr.php',
+            url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 );
@@ -112,7 +112,7 @@ $top_articles = array(
             image_alt: '',
             image_title: '',
             content: '<p class="p200">Stressakne uppstår ofta som en reaktion på de fysiska och hormonella förändringar som kroppen genomgår under stress. Detta kan leda till inflammation och tilltäppta porer, vilket skapar en gynnsam miljö för utveckling av akne.</p>
-            <p class="p200 mt-m">Denna typ av akne tenderar att visa sig i ansiktet, särskilt i områden som runt munnen, käken och pannan. Det är dock inte ovanligt att stressakne även uppträder på andra delar av kroppen. Effektiv hantering av stressakne kräver både anpassade hudvårdsstrategier och tekniker för stresshantering. På AcneSpecialisten fokuserar vi på att hjälpa dig att hitta balansen i din hudvård, samtidigt som vi erbjuder vägledning för att minska stressnivåer genom positiva livsstilsförändringar.</p>',
+            <p class="p200 mt-m">Stressfinnar i ansiktet uppstår i områden som runt munnen, käken och pannan. Det är dock inte ovanligt att stressakne även uppträder på andra delar av kroppen. Effektiv hantering av stressakne kräver både anpassade hudvårdsstrategier och tekniker för stresshantering. På AcneSpecialisten fokuserar vi på att hjälpa dig att hitta balansen i din hudvård, samtidigt som vi erbjuder vägledning för att minska stressnivåer genom positiva livsstilsförändringar.</p>',
       ),
 );
 
