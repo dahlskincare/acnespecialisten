@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Postinflammatorisk Hyperpigmentering | AcneSpecialisten';
 $seo_description = 'Läs mer om postinflammatorisk hyperpigmentering, vi hjälper dig med rätt hyperpigmentering behandling! Boka tid för en gratis hudkonsultation →';
-$seo_keywords = 'postinflammatorisk hyperpigmentering, hyperpigmentering, hyperpigmenteirng behandling, fläckar efter finnar';
+$seo_keywords = 'post akne, fläckar i ansiktet efter finnar, postinflammatorisk hyperpigmentering, hyperpigmentering behandling';
 $seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
 
 $path_segments = array(
@@ -48,7 +48,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är postinflammatorisk hyperpigmentering?';
-$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) uppstår när huden producerar mer melanin, hudens naturliga pigment, som svar på vissa inflammatoriska tillstånd såsom akne. PIH visar sig som mörkare fläckar eller partier på huden och kan variera i färg från ljusbrun till nästan svart, beroende på din hudton och inflammationens intensitet.</p>
+$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH), även kallat post akne, uppstår när huden producerar mer melanin, hudens naturliga pigment, som svar på vissa inflammatoriska tillstånd såsom akne. PIH visar sig som mörkare fläckar eller partier på huden och kan variera i färg från ljusbrun till nästan svart, beroende på din hudton och inflammationens intensitet.</p>
 <p class="p200 mt-m">På Acnespecialisten fokuserar vi på att behandla och minska synligheten av postinflammatorisk hyperpigmentering genom individuellt anpassade metoder. Våra behandlingar, som ljusbehandlingar och kemiska peelingar, är utformade för att jämna ut hudtonen och främja en mer enhetlig hudfärg, med målet att ge dig en klarare och mer jämn hudton.</p>';
 
 

@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Bekämpa Finnar på Bröstet: Experttips och Behandling';
 $seo_description = 'Utforska skräddarsydda metoder för att hantera finnar på bröstet. Få insikt i orsaker och specialanpassade behandlingsalternativ för varje hudtyp.';
-$seo_keywords = 'bekämpa finnar på bröstet';
+$seo_keywords = 'finnar på bröstet, akne på bröstet, akne på bröstkorgen';
 $seo_image = 'bilder/hudproblem/424x456/finnar-brost.webp';
 
 $path_segments = array(
