@@ -53,11 +53,10 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Effektiv ansiktsbehandling som förbättrar hudens struktur.';
+$floating_box = 'Behandling för att klämma finnar säkert och effektivt.';
 
 $nav_buttons = array(
     'about' => 'Om ansiktsbehandling för att klämma finnar',
-    'types' => 'Typer',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
