@@ -5,28 +5,29 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Få bort acneärr effektivt | AcneSpecialisten';
 $seo_description = 'Behandla din acneärr hos AcneSpecialisten, 30 års erfarenhet av att ta bort acneärr med microneedling, laser eller kemisk peeling. Boka gratis konsultation →';
 $seo_keywords = 'få bort acneärr, microneedling acne, microneedling akne, akneärr, acneärr, microneedling acneärr';
-
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
-
 $seo_image = 'images/treatments/large/acne-scars.jpg';
 
-$image_large = 'images/treatments/large/acne-scars.jpg';
-$image_small = 'images/treatments/small/acne-scars.jpg';
-$image_alt = 'Bild som illustrerar acneärr';
-$image_title = 'Acneärr';
+$model = new Service(
+    title: 'Få bort acneärr',
+    duration: null,
+    price: 'Från 1595 kr',
+    content: 'Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.',
+    image_small: 'images/treatments/small/acne-scars.jpg',
+    image_large: 'images/treatments/large/acne-scars.jpg',
+    image_alt: 'Bild som illustrerar akne',
+    image_title: 'Akne',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+    consultation_url_label: 'Boka hudkonsultation',
+    consultation_url_title: 'Boka tid för hudkonsultation',
+    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
+    booking_url_label: 'Boka behandling',
+    booking_url_title: 'Boka tid för behandling',
+);
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar'),
     new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
 );
-
-$title = 'Få bort acneärr';
-$description = 'Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.';
-
-$booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars';
-$booking_link_title = 'Boka behandling';
-$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars';
-$consultation_link_title = 'Boka hudkonsultation';
 
 $nav_buttons = array(
     'about' => 'Info',
@@ -35,7 +36,6 @@ $nav_buttons = array(
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
     'specialists' => 'Hudterapeuter'
 );
 
@@ -400,89 +400,18 @@ $brands_url_title = "Varumärken för behandling av acneärr";
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-    <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
-        <div class="container">
-            <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                <div id="overlay">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                    <div>
-                        <h2 class="h500">
-                            <?php echo $title ?>
-                        </h2>
-                        <div class="mt-xl">
-                            <div class="columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button white expand l10n" title="Boka gratis konsultation">Boka gratis konsultation</a>
-                                </div>
-                                <div class="column">
-                                    <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
-                                </div>
-                            </div>
-                        </div>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/treatment_floater.php'); ?>
     <main>
         <section id="header">
-            <div id="green-header-small" class="is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="h600">
-                        <?php echo $title ?>
-                    </h1>
-                    <p class="mt-xs">
-                        <?php echo $description ?>
-                    </p>
-                    <div class="mt-xl">
-                        <div class="columns is-mobile">
-                            <div class="column is-half">
-                                <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white expand l10n" title="Gratis konsultation">Gratis konsultation</a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="green-header-large" class="is-hidden-touch">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-half">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        </div>
-                        <div class="column is-half flex-row align-end justify-end">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
-                    </div>
-                    <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600">
-                            <?php echo $title ?>
-                        </h1>
-                        <p class="mt-s p200">
-                            <?php echo $description ?>
-                        </p>
-                        <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white l10n" title="Boka gratis konsultation">Boka gratis konsultation</a>
-                            <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/treatment_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="mt-m is-hidden-desktop">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
-                <section id="image" class="mt-m is-hidden-desktop">
+                <section id="image" class="is-hidden-desktop mt-xl">
                     <picture>
-                        <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
-                        <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_small ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
+                        <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
