@@ -1,6 +1,31 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('gratis-hudkonsultation/models.php');
+include_once('includes/models/service.php');
+include_once('includes/models/path_segment.php');
+
+$path_segments = array(
+    new PathSegment('Gratis hudkonsultation', '/gratis-hudkonsultation.php'),
+);
+
+$model = new Service(
+    title: 'Gratis hudkonsultation eller hudanalys online',
+    duration: null,
+    price: null,
+    content: 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.',
+    image_small: 'bilder/behandlingar/424x456//gratis-hudkonsultation.webp',
+    image_large: 'bilder/behandlingar/424x456//gratis-hudkonsultation.webp',
+    image_alt: 'Gratis hudkonsultation',
+    image_title: 'Gratis hudkonsultation',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+    consultation_url_label: 'Boka ett klinikbesök',
+    consultation_url_title: 'Klicka här för att boka ett besök i någon av våra kliniker',
+    booking_url: 'https://acnespecialisten.se/book?flow=consultation',
+    booking_url_label: 'Boka online konsultation',
+    booking_url_title: 'Klicka här för att boka en onlinekonsultation',
+);
+
+$floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.';
 
 $nav_buttons = array(
     'about' => 'Översikt',
@@ -351,80 +376,14 @@ $categories = array(
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-    <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-        <div class="container">
-            <div id="floating-picture" style="background-image: url('bilder/behandlingar/424x456//gratis-hudkonsultation.webp')">
-                <div id="overlay">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                    <div>
-                        <h2 class="h600 l10n">Gratis hudkonsultation eller hudanalys online</h2>
-                        <h3 class="mt-m h200 l10n">Längd: 20 min</h3>
-                        <p class="mt-m p200 l10n">Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.</p>
-                        <div class="mt-xl">
-                            <div class="columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="https://acnespecialisten.se/book?flow=consultation" class="button white expand l10n" title="Book a clinict visit">Boka ett klinikbesök</a>
-                                </div>
-                                <div class="column">
-                                    <a href="https://acnespecialisten.se/book?flow=consultation" class="button white expand l10n" title="Book an online call">Boka online konsultation</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/treatment_floater.php'); ?>
     <main>
         <section id="header">
-            <div id="green-header-small" class="is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="h600 l10n">Gratis hudkonsultation eller hudanalys online</h1>
-                    <h3 class="mt-xs h200 l10n">Längd: 20 min</h3>
-                    <p class="mt-xs p200">Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.</p>
-                    <div class="mt-xl">
-                        <div class="columns is-mobile">
-                            <div class="column is-half">
-                                <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white expand l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white expand l10n" title="Book an online call">Boka online konsultation</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="green-header-large" class="is-hidden-touch">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-half">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        </div>
-                        <div class="column is-half flex-row justify-end">
-                            <div class="mt-xl">
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600 l10n">Gratis hudkonsultation eller hudanalys online</h1>
-                        <h3 class="mt-s h200 l10n">Längd: 20 min</h3>
-                        <p class="mt-s p200 l10n">Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilken problemhy du har med hjälp av vår hudanalys.</p>
-                        <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white l10n" title="Book a clinic visit">Boka ett klinikbesök</a>
-                            <a href="https://acnespecialisten.se/book?flow=consultation" class="button b200 white l10n" title="Book an online call">Boka online konsultation</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/treatment_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="is-hidden-desktop mt-s mb-s">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
-                <section id="image" class="is-hidden-desktop">
+                <section id="image" class="mt-m is-hidden-desktop">
                     <img src="bilder/behandlingar/358x274/gratis-hudkonsultation.webp" alt="Gratis Hudkonsultation" title="Gratis Hudkonsultation" width="358" height="274" />
                 </section>
                 <section id="nav-buttons">
@@ -432,11 +391,6 @@ $categories = array(
                 </section>
                 <section id="about" class="large-margin">
                     <h2 class="h500 l10n">Vad är en hudkonsultation?</h2>
-                    <!--<picture>
-                        <source media="(max-width: 799px)" srcset="https://via.placeholder.com/358x272.webp">
-                        <source media="(min-width: 800px)" srcset="https://via.placeholder.com/872x456.webp">
-                        <img src="https://via.placeholder.com/358x272.webp" alt="What is skin consultation?" title="What is skin consultation?" width="358" height="272" />
-                    </picture>-->
                     <div class="infobox">
                         <div class="ib-header" onclick="Consultation.toggleContent(this.parentElement)">
                             <div class="l10n">Vi erbjuder alltid gratis hudkonsultation! (Värde 600 kronor)</div>
