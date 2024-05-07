@@ -1,6 +1,7 @@
 .badges-widget {
     .badges-touch {
         display: flex;
+        align-items: center;
         justify-content: space-between;
 
         .badge {
@@ -19,6 +20,15 @@
                 span.icon {
                     margin-right: 6px;
                 }
+            }
+
+        }
+
+        .badge-divider {
+            @include desktop {
+                width: 1px;
+                height: $xxl * 2;
+                background-color: $white-200;
             }
 
         }

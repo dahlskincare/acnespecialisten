@@ -7,10 +7,12 @@
             </div>
             <div>Trustpilot</div>
         </div>
+        <div class="badge-divider"></div>
         <div class="badge">
             <div class="badge-title">30+ års</div>
             <div>erfarenhet</div>
         </div>
+        <div class="badge-divider"></div>
         <div class="badge">
             <div class="badge-title">200 000+</div>
             <div>problemfria</div>
