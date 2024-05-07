@@ -502,11 +502,11 @@ $faq_categories = array(
       'Generellt om rosacea' => array(
             new Question(
                   title: 'Hur skiljer sig rosacea från andra hudsjukdomar som akne?',
-                  text: '<p class="p200">Rosacea och akne är två distinkta hudtillstånd. Även om de båda kan resultera i röda, inflammerade områden på huden, finns det några viktiga skillnader. Rosacea tenderar att uppträda i mitten av ansiktet (särskilt näsan och kinderna) och kan orsaka synliga blodkärl, röda fläckar samt rodnad. Rosacea kan också orsaka av en brännande eller stickande känsla med klåda. Akne å andra sidan kan förekomma var som helst på kroppen och karakteriseras av pormaskar, finnar och ibland cystor under huden.</p>'
+                  text: '<p class="p200">Rosacea och akne är två distinkta hudtillstånd. Även om de båda kan resultera i röda, inflammerade områden på huden, finns det några viktiga skillnader. Rosacea tenderar att uppträda i mitten av ansiktet (särskilt näsan och kinderna) och kan orsaka synliga blodkärl, röda fläckar samt rodnad. Detta brukar kallas couperosa hy. Rosacea kan också orsaka av en brännande eller stickande känsla med klåda. Akne å andra sidan kan förekomma var som helst på kroppen och karakteriseras av pormaskar, finnar och ibland cystor under huden.</p>'
             ),
             new Question(
-                  title: 'Är det några särskilda triggers som kan förvärra rosacea?',
-                  text: '<p class="p200">Ja, det finns många potentiella triggers som kan förvärra rosacea. Dessa kan inkludera alkohol, kryddstark mat, stress, extremt väder (som stark vind eller sol), intensiv fysisk aktivitet, varma drycker och vissa hudvårdsprodukter.</p>
+                  title: 'Vad triggar rosacea?',
+                  text: '<p class="p200">Det finns många potentiella triggande faktorer som kan förvärra rosacea. Dessa kan inkludera alkohol, kryddstark mat, stress, extremt väder (som stark vind eller sol), intensiv fysisk aktivitet, varma drycker och vissa hudvårdsprodukter.</p>
 
                         <p class="p200 mt-m">Varje person med rosacea kan ha olika triggers, och det kan vara användbart att föra en dagbok för att identifiera vilka faktorer som förvärrar ens egna symptom.</p>'
             ),
