@@ -12,8 +12,8 @@
                             <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                         </div>
                     <?php } ?>
-                    <?php if (strlen($model->content) > 0) { ?>
-                        <div class="mt-m" id="floater-description"><?php echo $model->content ?></div>
+                    <?php if (strlen($floating_box) > 0) { ?>
+                        <div class="mt-m" id="floater-description"><?php echo $floating_box ?></div>
                     <?php } ?>
                     <?php if (isset($model->procedures)) { ?>
                         <div id="floating-procedures" class="mt-xl">
