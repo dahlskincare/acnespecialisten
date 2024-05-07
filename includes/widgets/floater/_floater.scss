@@ -50,9 +50,23 @@ div#floater {
                     }
                 }
 
-                h2.h600 {
+                h2.h500 {
+                    white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
+                }
+
+                #floater-description {
+                    max-height: 110px;
+                    overflow-y: auto;
+
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+
+                    &::-webkit-scrollbar {
+                        display: none;
+                    }
+
                 }
             }
 

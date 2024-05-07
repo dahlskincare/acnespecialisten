@@ -13,7 +13,7 @@
                         </div>
                     <?php } ?>
                     <?php if (strlen($model->content) > 0) { ?>
-                        <div class="mt-m"><?php echo $model->content ?></div>
+                        <div class="mt-m" id="floater-description"><?php echo $model->content ?></div>
                     <?php } ?>
                     <?php if (isset($model->procedures)) { ?>
                         <div id="floating-procedures" class="mt-xl">
