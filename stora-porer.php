@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är stora porer? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om stora porer och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, minimering av porer, vidgade porer, förstorade porer';
+$seo_keywords = 'stora porer, vidgade porer, förstorade porer, orsaker till stora porer, minimering av porer, vidgade porer, förstorade porer';
 $seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
 
 $path_segments = array(
@@ -63,7 +63,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: 'är stora porer?',
-            content: '<p class="p200">Stora porer, även benämnda som förstorade eller vidgade porer, refererar till de synligt större öppningarna av hårsäckar på huden. Dessa öppningar agerar som kanaler för talgkörtlar, som producerar hudens naturliga olja, kallad talg. När dessa porer blir fyllda eller tilltäppta av talg eller döda hudceller, töjs dem ut. I vissa fall kan detta leda till andra hudproblem som pormaskar eller akne. Stora porer kan förändra hudens övergripande textur, vilket kan få huden att se äldre, tröttare eller grövre ut.</p>',
+            content: '<p class="p200">Stora porer, även benämnda som förstorade eller vidgade porer, refererar till de synligt större öppningarna av hårsäckar på huden. Dessa öppningar agerar som kanaler för talgkörtlar, som producerar hudens naturliga olja, kallad talg. När dessa porer blir fyllda eller tilltäppta av talg eller döda hudceller, töjs dem ut. I vissa fall kan detta leda till andra hudproblem som stora pormaskar eller akne. Stora porer kan förändra hudens övergripande textur, vilket kan få huden att se äldre, tröttare eller grövre ut.</p>',
             extended_content: '<p class="p200 mt-xl">En annan faktor att beakta är solens inverkan. Ultraviolett strålning kan minska hudens kollagen, vilket gör att porer ser större ut. Hudens förmåga att generera kollagen försämras också med åldrande, vilket gör att porerna kan förlora sin elastiska struktur och därmed bli mer framträdande. Det är därför viktigt att förstå att stora porer inte bara är ett estetiskt problem, utan också kan vara en indikator på hudens tillstånd.</p>',
             icons: array()
       ),
