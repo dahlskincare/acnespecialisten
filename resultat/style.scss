@@ -37,20 +37,15 @@ section#banner {
     }
 
     @media screen and (min-width: $desktop) {
-        @include desktop {
-            .green-header-banner-widget {
-                padding-bottom: 102px;
-            }
-        }
+        @include desktop {}
 
         #filters-desktop {
             position: relative;
             border: 1px solid $light-200;
             border-radius: $radius-l;
             overflow: hidden;
-            margin-top: - $xl3;
+            margin-top: $xl;
             background-color: $white-500;
-            @include elevation-medium();
 
             div#filter-items {
                 position: relative;
