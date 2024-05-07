@@ -101,7 +101,7 @@ $services = array(
         title: 'IPL-behandling mot Rosacea',
         duration: '50 min',
         price: '2595 kr',
-        content: '<p class="p200">IPL-behandling för rosacea fungerar genom att använda ljuspulser för att minska rodnad och ytliga blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende och hudton.</p>',
+        content: '<p class="p200">IPL-behandling är en form av laserbehandling mot rosacea som fungerar genom att använda ljuspulser för att minska rodnad och ytliga blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende och hudton.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
@@ -478,7 +478,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                         'Behandling mot rosacea' => array(
                             new Question(
                                 title: 'Vad är rosacea behandling med laser?',
-                                text: '<p class="p200">Rosacea behandling med laser innebär användning av laserljus för att selektivt målriktat behandla de blodkärl som bidrar till rosaceans rodnad och synlighet. Denna metod hjälper till att minska rodnaden och förbättra hudens övergripande utseende genom att skonsamt och effektivt minska synligheten av blodkärlen. </p>'
+                                text: '<p class="p200">Rosacea behandling med laser innebär användning av laserljus för att selektivt målriktat behandla de blodkärl som bidrar till rosaceans rodnad och synlighet. Denna metod hjälper till att minska rodnaden och förbättra hudens övergripande utseende genom att skonsamt och effektivt minska synligheten av blodkärlen. Denna behandlingsmetod hittar du på alla våra kliniker i Stockholm.</p>'
                             ),
                             new Question(
                                 title: 'Kan man behandla rosacea under graviditet?',
@@ -498,7 +498,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                             ),
                             new Question(
                                 title: 'Vilken är den bästa rosacea behandlingen?',
-                                text: '<p class="p200">Den "bästa" behandlingen för rosacea beror helt på individens hudtillstånd och symtomens svårighetsgrad. Det finns många effektiva behandlingsalternativ, från laserbehandlingar till hudvårdsprodukter. Upptäck vilken metod som är mest effektiv för dig genom att boka en kostnadsfri konsultation hos Acnespecialisten, där vi kan erbjuda en personlig behandlingsplan.</p>'
+                                text: '<p class="p200">Den bästa behandlingen för rosacea beror helt på individens hudtillstånd och symtomens svårighetsgrad. Det finns många effektiva behandlingsalternativ, från laserbehandlingar till hudvårdsprodukter. Upptäck vilken metod som är mest effektiv för dig genom att boka en kostnadsfri konsultation hos AcneSpecialisten, där vi kan erbjuda en personlig behandlingsplan.</p>'
                             ),
                         ),
 
