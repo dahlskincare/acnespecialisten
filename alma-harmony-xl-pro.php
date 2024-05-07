@@ -43,7 +43,6 @@ $nav_buttons = array(
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
     'specialists' => 'Specialister',
     'service-brands' => 'Märken',
 );
@@ -339,12 +338,12 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-            title: 'Förberedelser inför Harmony XL Pro',
-            image_small: '/bilder/process/358x272/alma-harmony-xl-pro-forberedelser.webp',
-            image_large: '/bilder/process/872x456/alma-harmony-xl-pro-forberedelser.webp',
-            image_alt: 'Förberedelser inför Alma Harmony XL Pro',
-            image_title: 'Förberedelser inför Alma Harmony XL Pro',
-            content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
+        title: 'Förberedelser inför Harmony XL Pro',
+        image_small: '/bilder/process/358x272/alma-harmony-xl-pro-forberedelser.webp',
+        image_large: '/bilder/process/872x456/alma-harmony-xl-pro-forberedelser.webp',
+        image_alt: 'Förberedelser inför Alma Harmony XL Pro',
+        image_title: 'Förberedelser inför Alma Harmony XL Pro',
+        content: '<p class="p200">Inför din Harmony XL Pro-behandling på AcneSpecialisten är det viktigt att förbereda din hud för att optimera behandlingens effekt. Vi inleder processen med en kostnadsfri konsultation, där vi noggrant går igenom behandlingen och skapar en anpassad behandlingsplan utifrån dina unika hudbehov.</p>
             <p class="p200 mt-m">För att förbereda dig inför behandlingen rekommenderar vi att du undviker direkt solstrålning och solarium under veckorna före din session. Detta är för att minska risken för överkänslighet och för att optimera hudens tillstånd för behandlingen. Du bör också undvika att använda hudvårdsprodukter som innehåller starka aktiva ingredienser, såsom exfolierande syror, åtminstone en vecka före din behandling.</p>
             <p class="p200 mt-m">Under konsultationen kommer vi att granska din hudhistorik och eventuella tidigare behandlingar för att fullständigt anpassa Harmony XL Pro-behandlingen till dina behov. Vårt mål är att du ska känna dig trygg och informerad genom hela behandlingsprocessen. Vi ser fram emot att hjälpa dig att uppnå en förbättrad hudkvalitet och ett strålande utseende med hjälp av Harmony XL Pro.</p>',
     ),
@@ -553,21 +552,6 @@ $faq_categories = array(
 );
 $faq_view_more = 'Se alla frågor & svar';
 
-$skin_guide_title = 'Hudguiden';
-$skin_guide_articles = array(
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-);
-$skin_guide_view_more = 'Se alla artiklar';
-
 $specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
@@ -627,138 +611,13 @@ $specialists_view_more = 'Se alla hudterapeuter';
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-    <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
-        <div class="container">
-            <div id="floating-picture" style="background-image: url('<?php echo $model->image_large ?>')">
-                <div id="overlay">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                    <div>
-                        <h2 class="h500">
-                            <?php echo $model->title ?>
-                        </h2>
-                        <?php if (isset($model->duration)) { ?>
-                            <div class="mt-m">
-                                <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
-                            </div>
-                        <?php } ?>
-                        <div class="mt-m"><?php echo $floating_box ?></div>
-                        <?php if (isset($model->procedures)) { ?>
-                            <div id="floating-procedures" class="mt-xl">
-                                <?php foreach ($model->procedures as $procedure) { ?>
-                                    <div class="floating-procedure">
-                                        <div class="p200">
-                                            <?php echo $procedure->label ?>
-                                        </div>
-                                        <div class="floating-procedure-price">
-                                            <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
-                                            <span class="p200"><?php echo $procedure->savings ?></span>
-                                        </div>
-                                    </div>
-                                <?php } ?>
-                            </div>
-                        <?php } ?>
-                        <div class="mt-xl">
-                            <div class="columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button white expand" title="<?php echo $model->consultation_url_label ?>"><?php echo $model->consultation_url_label ?></a>
-                                </div>
-                                <div class="column">
-                                    <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button white expand" title="<?php echo $model->booking_url_label ?>"><?php echo $model->booking_url_label ?></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/treatment_floater.php'); ?>
     <main>
         <section id="header">
-            <div id="green-header-small" class="is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
-                        <?php echo $model->title ?>
-                    </h1>
-                    <?php if (isset($model->duration)) { ?>
-                        <h3 class="mt-xs p200 l10n">Längd: <?php echo $model->duration ?></h3>
-                    <?php } ?>
-                    <?php if (strlen($model->content) > 0) { ?>
-                        <div class="mt-xs"><?php echo $model->content ?></div>
-                    <?php } ?>
-                    <?php if (isset($model->procedures)) { ?>
-                        <div class="procedures mt-xl">
-                            <?php foreach ($model->procedures as $procedure) { ?>
-                                <div class="procedure">
-                                    <div class="p200"><?php echo $procedure->label ?></div>
-                                    <div>
-                                        <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
-                                        <span class="p200"><?php echo $procedure->savings ?></span>
-                                    </div>
-                                </div>
-                            <?php } ?>
-                        </div>
-                    <?php } ?>
-                    <div class="mt-xl">
-                        <div class="columns is-mobile">
-                            <div class="column is-half">
-                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white expand" title="<?php echo $model->consultation_url_label ?>"><?php echo $model->consultation_url_label ?></a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white expand" title="<?php echo $model->booking_url_label ?>"><?php echo $model->booking_url_label ?></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="green-header-large" class="is-hidden-touch">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-half">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        </div>
-                        <div class="column is-half flex-row align-end justify-end">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
-                    </div>
-                    <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600">
-                            <?php echo $model->title ?>
-                        </h1>
-                        <?php if (isset($model->duration)) { ?>
-                            <div class="mt-xs">
-                                <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
-                            </div>
-                        <?php } ?>
-                        <?php if (strlen($model->content) > 0) { ?>
-                            <div class="mt-s"><?php echo $model->content ?></div>
-                        <?php } ?>
-                        <?php if (isset($model->procedures)) { ?>
-                            <div class="mt-xl large-procedures flex-row">
-                                <?php foreach ($model->procedures as $procedure) { ?>
-                                    <div class="large-procedure">
-                                        <div class="p200 l10n"><?php echo $procedure->label ?></div>
-                                        <div>
-                                            <span class="h200 mr-xs"><?php echo $procedure->price ?></span>
-                                            <span class="p200"><?php echo $procedure->savings ?></span>
-                                        </div>
-                                    </div>
-                                <?php } ?>
-                            </div>
-                        <?php } ?>
-                        <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button b200 white" title="<?php echo $model->consultation_url_label ?>"><?php echo $model->consultation_url_label ?></a>
-                            <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button b200 white" title="<?php echo $model->booking_url_label ?>"><?php echo $model->booking_url_label ?></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/treatment_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="mt-m mb-s is-hidden-desktop">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
                 <section id="image" class="is-hidden-desktop">
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
@@ -870,7 +729,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
-                <!--Hudguide-->
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>

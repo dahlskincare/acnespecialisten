@@ -12,7 +12,7 @@
                             <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>
                         </div>
                     <?php } ?>
-                    <?php if (strlen($floating_box) > 0) { ?>
+                    <?php if (isset($floating_box) && strlen($floating_box) > 0) { ?>
                         <div class="mt-m" id="floater-description"><?php echo $floating_box ?></div>
                     <?php } ?>
                     <?php if (isset($model->procedures)) { ?>
