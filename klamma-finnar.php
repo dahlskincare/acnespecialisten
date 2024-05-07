@@ -66,8 +66,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Ska man klämma finnar?';
-$description_text = '<p class="p200">En ansiktsbehandling för att klämma finnar är en specialiserad hudvårdsbehandling som utförs av professionella hudterapeuter. Denna behandling fokuserar på säker borttagning av finnar genom att varsamt klämma ut innehållet i porerna. Detta görs på ett sätt som minimerar risken för hudsår och ärrbildning, vilket är en vanlig följd av att försöka klämma finnar på egen hand. Att låta en erfaren hudterapeut utföra denna behandling är avgörande för att undvika skador på huden och uppnå bästa möjliga resultat.</p>
-<p class="p200 mt-xl">Våra hudterapeuter har den expertis och erfarenhet som krävs för att utföra denna behandling effektivt och skonsamt. Genom att välja en professionell ansiktsbehandling för att klämma finnar hos AcneSpecialisten, säkerställer du att din hud får den bästa möjliga vård, samtidigt som du minskar risken för komplikationer som infektioner eller ärr som kan uppstå vid felaktig hantering av finnar.</p>';
+$description_text = '<p class="p200">Vi rekommenderar inte att man försöker ta bort sina finnar själv, utan det är viktigt att låta en hudterapeut klämma finnarna på ett säkert och effektivt sätt. Genom att låta oss hjälpa dig med behandling fokuserar vi på säker borttagning av finnar genom att varsamt klämma ut innehållet i porerna, oavsett om det är finnar eller pormaskar. Detta görs på ett sätt som minimerar risken för hudsår och ärrbildning, vilket är en vanlig följd av att försöka klämma finnar på egen hand. Detta är avgörande för att undvika skador på huden och uppnå bästa möjliga resultat.</p>
+<p class="p200 mt-xl">Många vill få bort finnar snabbt eftersom de gör ont, men det är viktigt att utföra behandlingen på rätt sätt. Om man upplever att finnarna inte försvinner beror det ofta på att man saknar en fullständig behandlignsplan som inklduerar både rätt behandlingar och produkter. Det finns nämligen ingen quickfix som får bort finnar snabbt utan det krävs att man arbetar med huden för att få bort varje enskild finne.</p>';
 
 $types_title = '';
 $types_description = '';
