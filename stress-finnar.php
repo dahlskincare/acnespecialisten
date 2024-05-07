@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Stress Finnar | AcneSpecialisten';
 $seo_description = 'Utforska allt om stressfinnar – deras orsaker, effektiva behandlingsmetoder och förebyggande strategier. AcneSpecialisten erbjuder skräddarsydda lösningar.';
-$seo_keywords = 'stressfinnar, stress finnar, finnar i hårbotten stress';
+$seo_keywords = 'stressfinnar, finnar stress, stress finnar, akne stress, stress akne, finnar i pannan stress, finnar i hårbotten stress';
 
 // här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
 
@@ -24,7 +24,7 @@ $image_small = 'bilder/hudproblem/424x324/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Visar en hud med stress finnar';
 $image_alt = 'Bild som illustrerar hud påverkad av stress finnar';
-$description = 'Läs merom stressfinnar och akne till följd av stress. Här berättar vi mer om varför stress orsakar problemet, var problemet uppstår och hur det skiljer sig från andra aknetyper.';
+$description = 'Läs mer om stressfinnar och akne till följd av stress. Här berättar vi mer om varför stress orsakar problemet, var problemet uppstår och hur det skiljer sig från andra aknetyper.';
 
 $akas = [
       new Link(
