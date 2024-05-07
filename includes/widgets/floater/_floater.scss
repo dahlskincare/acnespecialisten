@@ -51,22 +51,8 @@ div#floater {
                 }
 
                 h2.h500 {
-                    white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
-                }
-
-                #floater-description {
-                    max-height: 110px;
-                    overflow-y: auto;
-
-                    -ms-overflow-style: none;
-                    scrollbar-width: none;
-
-                    &::-webkit-scrollbar {
-                        display: none;
-                    }
-
                 }
             }
 
@@ -85,6 +71,14 @@ div#floater.detached {
                 opacity: 1;
                 height: 528px;
                 background-color: rgba(43, 43, 43, 0.5);
+                overflow-y: auto;
+
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+
+                &::-webkit-scrollbar {
+                    display: none;
+                }
             }
         }
     }
