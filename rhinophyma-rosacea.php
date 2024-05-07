@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar hur rhinophyma rosacea ser ut på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Rhinophyma Rosacea',
-      description: 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.',
+      description: 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan vilket ofta brukar kallas potatisnäsa eller portvinsnäsa. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea', 'Boka denna behandling'),
