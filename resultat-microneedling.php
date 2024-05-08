@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Microneedling Resultat för Akneärr | Hudförnyelse och Förbättring</title>
     <meta name="description" content="Före och Efter bilder på Microneedling behandlingar | AcneSpecialisten">
     <meta name="keywords" content="Microneedling akneärr resultat, AcneSpecialisten framgångar med microneedling, Hudförnyelse, Jämn hudton, Behandla akneärr, Kundcase microneedling, Effektiv akneärrbehandling, Hudhälsans förbättring, Akneärr före- och efterbilder med microneedling">
@@ -13,6 +12,10 @@
 </head>
 
 <?php
+$path_segments = [
+    new PathSegment('Resultat', '/resultat.php'),
+    new PathSegment('Microneedling', '/resultat-microneedling.php'),
+];
 
 $specialists = array(
     new Specialist(
@@ -107,8 +110,6 @@ $pages = sizeof($results_per_page);
                 title: $result_category->title,
                 description: $result_category->description_1,
                 description_extended: $result_category->description_2,
-                button_url: 'gratis-hudkonsultation.php',
-                button_label: 'Boka en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>

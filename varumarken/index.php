@@ -476,7 +476,6 @@ $path_segments = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-      <!-- TODO: Set title and meta tags -->
       <title class="l10n">Ledande Varumärken inom Hudvård hos Acnespecialisten</title>
       <meta name="title" content="Ledande Varumärken inom Hudvård hos Acnespecialisten" class="l10n">
       <meta name="description" content="Upptäck Acnespecialistens noggrant utvalda samling av ledande hudvårdsmärken och toppmodern utrustning, designade för effektiva och skräddarsydda hudvårdsbehandlingar." class="l10n">

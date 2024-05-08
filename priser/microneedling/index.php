@@ -65,7 +65,6 @@ $nav_buttons = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Acnespecialisten | Priser</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">

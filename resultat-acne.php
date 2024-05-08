@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Akne Resultat | Framgångshistorier och Transformationer</title>
     <meta name="description" content="Upptäck framgångar i behandling av akne genom våra kundcase. Våra före- och efterbilder illustrerar den effektiva bekämpningen av akne och andra hudproblem.">
     <meta name="keywords" content="akne bilder, akne före och efter, acne bilder, acne för eoch efter">

@@ -19,14 +19,10 @@ $article = new SkinGuideArticle(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Information om acnemedicinen Roaccutan | AcneSpecialisten</title>
     <meta name="title" content="Information om acnemedicinen Roaccutan | AcneSpecialisten" class="l10n">
     <meta name="description" content="Roaccutan är en acne medicin. Här hittar du mer information om roaccutan och dess biverkningar, vi erbjuder effektiv behandling utan roaccutan." class="l10n">
     <meta name="keywords" content="accutane, roaccutan, akne medicin, accutane svenska, roaccutane, roacutan, isotretinoin före efter, acne medicin, medicin mot akne, akne kräm recept, antibiotika mot akne, biverkningar roaccutan, roaccutan biverkningar, accutane sweden, akne tabletter, antibiotika mot akne resultat, roaccutan fass" class="l10n">
-
-    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
-
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/hudguide/category/subcategory/article/article.css">
@@ -78,7 +74,6 @@ $article = new SkinGuideArticle(
                     </div>
                 </section>
                 <section id="content">
-                    <!-- TODO: content here -->
                     <h2 class="nav-anchor">Översikt</h2>
                     <h3>Vad är roaccutan?</h3>
                     <p>

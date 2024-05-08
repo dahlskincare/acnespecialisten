@@ -19,13 +19,10 @@ $article = new SkinGuideArticle(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Acnespecialisten</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
-
-    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
@@ -78,7 +75,6 @@ $article = new SkinGuideArticle(
                     </div>
                 </section>
                 <section id="content">
-                    <!-- TODO: content here -->
                     <h2 class="nav-anchor">Overview</h2>
                     <h3>The Harmful Effects of Makeup</h3>
                     <p>

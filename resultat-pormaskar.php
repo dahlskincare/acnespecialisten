@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Pormaskar Resultat | Effektiva Hudförändringar</title>
     <meta name="description" content="Före- och efter bilder på våra pormaskar kunder som har använt AcneSpecialistens metod.">
     <meta name="keywords" content="Pormaskar behandling resultat, AcneSpecialisten framgångar, Effektiv pormaskbehandling, Rengörande hudvård, Bekämpa pormaskar, Kundcase pormaskar, Resultatdriven pormaskbehandling, Förbättrad hudhälsa, Pormaskar före- och efterbilder">

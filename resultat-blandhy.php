@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Blandhy Resultat | Balanserade Hudförändringar</title>
     <meta name="description" content="Före- och efter bilder på våra blandhy kunder som har använt AcneSpecialistens metod.">
     <meta name="keywords" content="Blandhy behandling resultat, AcneSpecialisten framgångar, Balanserad hudvård, Jämn hudton, Hantera blandhy, Kundcase blandhy, Effektiv behandling för blandhy, Hudhälsans förbättring, Blandhy före- och efterbilder">

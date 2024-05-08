@@ -24,7 +24,6 @@ $faq_categories = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Acne Myter Vanliga frågor och svar | AcneSpecialisten</title>
     <meta name="title" content="Acne Myter Vanliga frågor och svar | AcneSpecialisten" class="l10n">
     <meta name="description" content="Här kan du läsa mer om acne och olika varianter av problemet. På AcneSpecialisten hjälper vi dig med en behandlingsplan som passar just din typ av acne." class="l10n">

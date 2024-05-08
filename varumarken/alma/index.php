@@ -199,7 +199,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Alma Laser på AcneSpecialisten | Avancerad Hudvårdsteknologi</title>
     <meta name="description" content="Alma Lasers erbjuder banbrytande behandlingar. Upptäck våra Alma-lösningar, inklusive Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice.">
     <meta name="keywords" content="Alma, Laser, Alma Lasers">

@@ -3,12 +3,10 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>AcneSpecialistens Recensioner & Omdömen</title>
     <meta name="description" content="Verifierade recensioner från Trustpilot, Google & Bokadirekt. Läs hur vi har hjälpt tusentals med deras hudvårdsresor. Bli inspirerad att börja din!">
     <meta name="keywords" content="acnespecialisten recensioner, acnespecialisten omdöme">
 
-    <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
@@ -19,13 +17,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">

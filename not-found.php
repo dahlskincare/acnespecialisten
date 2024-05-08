@@ -3,12 +3,10 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Sidan hittas ej | AcneSpecialisten – Hudvård i Stockholm</title>
     <meta name="description" content="Läs om AcneSpecialistens Sidan hittas ej.">
     <meta name="keywords" content="Sidan hittas ej">
 
-    <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">

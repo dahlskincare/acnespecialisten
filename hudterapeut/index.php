@@ -153,7 +153,6 @@ $specialists = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Hudterapeut i Stockholm - Boka Gratis Hudkonsultation</title>
     <meta name="description" content="Hitta en kvalificerad hudterapeut i Stockholm för professionell hudvård. Få skräddarsydda behandlingsplaner från erfarna hudvårdsterapeuter.">
     <meta name="keywords" content="hudterapeut, hudterapeut stockholm, hudvårdsterapeut">

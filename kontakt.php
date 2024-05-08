@@ -51,7 +51,6 @@ $salons = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Kontakta Acnespecialisten | Hudvårdssalong mot Hudproblem</title>
     <meta name="title" content="Kontakta Acnespecialisten | Hudvårdssalong mot Hudproblem" class="l10n">
     <meta name="description" content="Här hittar du öppettider, kontaktinformation och adress till våra hudvårdssalonger i Stockholm. Vi finns på Östermalm, Södermalm och i Sundbyberg." class="l10n">

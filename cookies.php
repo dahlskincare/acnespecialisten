@@ -7,7 +7,6 @@ $nav_buttons = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-      <!-- TODO: Set title and meta tags -->
       <title class="l10n">AcneSpecialisten - Information om Cookies</title>
       <meta name="description" content="Läs hur AcneSpecialisten använder cookies för att förbättra din upplevelse. Transparent och användarvänligt. Din integritet är viktig för oss." class="l10n">
       <meta name="title" content="AcneSpecialisten - Information om Cookies" class="l10n">

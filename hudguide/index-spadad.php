@@ -180,11 +180,9 @@ $pages = sizeof($articles_per_page);
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>AcneSpecialisten Hudguide | Din Resurs för Allt inom Hudvård</title>
     <meta name="description" content="Upptäck AcneSpecialistens Hudguide – din ultimata källa för information om hudvård. Med över 30 års erfarenhet erbjuder vi djupgående artiklar, tips och råd om acnebehandling, hudvårdstrender och mycket mer. Utforska vår kunskapsbank idag och ta kontroll över din hudhälsa.">
     <meta name="keywords" content="Hudvårdsguide, Hudvårdstips, AcneSpecialisten, Hudvårdsartiklar, Hudproblem, Acnebehandling, Hudvårdstrender, Hudhälsa, Hudvårdsråd, Stockholm hudvård, Hudvårdsexpertis">
-
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Rosacea Resultat | Hudförbättring och Lindring</title>
     <meta name="description" content="Se resultatbilder från våra rosacea behandlingar. AcneSpecialisten har lång erfarenhet av att behandla hudutslag och rosacea">
     <meta name="keywords" content="Rosacea behandling resultat, AcneSpecialisten framgångar, Hudlindring rosacea, Reducera rodnad, Kundcase rosacea, Effektiv rosaceabehandling, Lugnande hudvård, Hudhälsans förbättring, Rosacea före- och efterbilder">

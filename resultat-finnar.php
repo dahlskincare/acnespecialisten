@@ -3,7 +3,6 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Finnar Resultat | Effektiva Hudförbättringar</title>
     <meta name="description" content="Utforska hur vi framgångsrikt behandlar finnar, våra före- och efterbilder visar hur vi effektivt bekämpar finnar och uppnår en klarare och friskare hud.">
     <meta name="keywords" content="Finnar behandling resultat, AcneSpecialisten framgångar, Effektiv finnarbehandling, Klar hud, Bekämpa finnar, Kundcase finnar, Resultatdriven finnarbehandling, Hudhälsans förbättring, Finnar före- och efterbilder">
