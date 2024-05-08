@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Stora Porer - Ta bort stora porer';
 $seo_description = 'Skräddarsydd stora porer-behandling i Stockholm. ✓Behandla stora porer med 3 olika metoder ✓Paketpris ✓Boka en kostnadsfri konsultation →';
-$seo_keywords = 'stora porer, behandling av stora porer, orsaker till stora porer, förebygga stora porer, minska porer, öppna porer, förstorade porer, hudtextur';
+$seo_keywords = 'behandling av stora porer, orsaker till stora porer, förebygga stora porer, minska porer, få bort stora porer i ansiktet, förstorade porer';
 
 $seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
 
@@ -13,7 +13,7 @@ $image_large = 'bilder/hudproblem/424x456/stora-porer.webp';
 $image_alt = 'Bild på behandling för stora porer';
 $image_title = 'Behandling för stora porer';
 
-$title = 'Behandlingar för Stora Porer';
+$title = 'Hudbehandlingar för Stora Porer';
 $description = 'Här har vi samlat de mest effektiva metoderna för behandling av stora porer som hjälper dig att effektivt minska porernas storlek. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">behandling för stora porer</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en jämnare och slätare hud.';
 
 $booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores';
@@ -45,7 +45,7 @@ $headline01 = "01. Identifiera dina stora porer";
 $define_image_alt = 'Hur vi behandlar och minskar stora porer?';
 $define_image_title = 'Hur vi behandlar och minskar stora porer?';
 
-$define_content = '<p class="p200">Första steget i vår process att behandla stora porer är att kartlägga din hud och porstorlek. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och berättar om orsaken till dina stora porer samt hur vi effektivt kan behandla dem. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Första steget i vår process att få bort stora porer i ansiktet och på kroppen är att kartlägga din hud och porstorlek. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och berättar om orsaken till dina stora porer samt hur vi effektivt kan behandla dem. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka Gratis Konsultation";
@@ -66,7 +66,7 @@ $services = array(
         duration: '60 minuter',
         price: 'Pris från 799 kr',
         icons: array(),
-        content: '<p class="p200">Behandlingen riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den inleder med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring av porerna för att avlägsna ansamlade döda hudceller och talg. Behandlingen avrundas med en mask som minskar porernas storlek, samt en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
+        content: '<p class="p200">Behandlingen brukar kallas porrengöring eller portömning och riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den inleder med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring av porerna för att avlägsna ansamlade döda hudceller och talg. Behandlingen avrundas med en mask som minskar porernas storlek, samt en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
         consultation_url_label: 'Boka konsultation',
@@ -90,7 +90,7 @@ $services = array(
         duration: '30-60 min',
         price: '1295 kr',
         icons: array(),
-        content: '<p class="p200">Laserbehandling syftar till att specifikt reducera storleken på stora porer. Genom att använda fokuserad ljusenergi, tränger laserstrålen ner i huden för att stimulera kollagenproduktion. Resultatet blir minskad synlighet av porer tack vare den upphöjda kollagenproduktionen som får porerna att krympa.</p>',
+        content: '<p class="p200">Laserbehandling syftar till att specifikt reducera storleken på stora porer för att få mindre porer. Genom att använda fokuserad ljusenergi, tränger laserstrålen ner i huden för att stimulera kollagenproduktion. Resultatet blir minskad synlighet av porer tack vare den upphöjda kollagenproduktionen som får porerna att krympa.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot stora porer',
