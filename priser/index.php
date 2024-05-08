@@ -3,12 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Priser hos AcneSpecialisten - Behandlingar & Paket</title>
     <meta name="description" content="Upptäck prisvänliga behandlings-, paket- och kurpriser hos AcneSpecialisten. Investera i din hudhälsa med våra skräddarsydda lösningar.">
     <meta name="keywords" content="Priser">
-
-    <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
@@ -19,13 +16,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">

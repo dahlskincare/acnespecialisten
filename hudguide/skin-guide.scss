@@ -4,13 +4,6 @@
 @import 'widgets/article_card/article_card_widget';
 @import 'widgets/paginator/paginator';
 
-section#banner {
-    @include desktop {
-        .green-header-banner-widget {
-            padding-bottom: 102px;
-        }
-    }
-}
 
 section#categories-tablet {
     margin-top: $m;

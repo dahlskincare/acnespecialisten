@@ -1,6 +1,11 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
+
+$path_segments = [
+    new PathSegment('Frågor & Svar', 'fragor-svar.php'),
+];
+
 $faq_categories = array(
     'Bokning' => array(
         new Question('Hur bokar jag en tid för behandling?', '<p class="p200">Du kan boka en tid för behandling genom att besöka vår hemsida och välja den tjänst du är intresserad av. Alternativt kan du kontakta vår kundtjänst direkt för personlig assistans.</p>'),
@@ -79,7 +84,6 @@ $faq_categories = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Frågor & Svar - AcneSpecialisten</title>
     <meta name="description" content="Hitta svar på de vanligaste frågorna om AcneSpecialistens hudvårdsbehandlingar, metoder och produkter." class="l10n">
     <meta name="title" content="Vanliga Frågor - AcneSpecialisten" class="l10n">
@@ -95,13 +99,7 @@ $faq_categories = array(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <section id="title">

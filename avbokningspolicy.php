@@ -1,14 +1,22 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/path_segment.php');
+
+$path_segments = [
+    new PathSegment('Avbokningspolicy', 'avbokningspolicy.php'),
+];
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Avbokningspolicy | AcneSpecialisten</title>
     <meta name="description" content="Vår avbokningspolicy, här kan du läsa mer om den avbokningspolicy som gäller när du bokar en behandling hos oss.">
     <meta name="keywords" content="avbokningspolicy, acnespecialisten avbokningspolicy">
-
-    <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
@@ -19,13 +27,7 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
@@ -52,7 +54,7 @@
                     ?>
                 </section>
             </div>
-            
+
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

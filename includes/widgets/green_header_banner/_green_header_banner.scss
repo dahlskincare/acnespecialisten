@@ -221,3 +221,35 @@
         }
     }
 }
+
+.tiny-green-header-banner-widget {
+    background-color: $deep-sea-400;
+    padding: $xxs 0;
+
+    .badges-widget {
+        flex: 1;
+
+        .badge {
+            color: $white-500;
+        }
+
+        .badge:first-child {
+            padding-left: 0;
+        }
+
+        .badge:last-child {
+            padding-right: 0;
+        }
+    }
+
+    @include desktop {
+        .badges-widget {
+            flex: initial;
+        }
+
+        .breadcrumbs-widget {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+    }
+}

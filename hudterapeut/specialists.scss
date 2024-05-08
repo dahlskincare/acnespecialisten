@@ -3,41 +3,6 @@
 @import '../styles/util/mixins';
 
 
-section#banner {
-    background-color: $deep-sea-400;
-    padding: $xxs 0;
-
-    .badges-widget {
-        flex: 1;
-
-        .badge {
-            @include button-text-color($white-500);
-            color: $white-500;
-            background-color: transparent;
-            border-radius: 0;
-        }
-
-        .badge:first-child {
-            padding-left: 0;
-        }
-
-        .badge:last-child {
-            padding-right: 0;
-        }
-    }
-
-    @include desktop {
-
-        .breadcrumbs-widget {
-            padding-top: 0;
-            padding-bottom: 0;
-        }
-
-        .badges-widget {
-            justify-content: flex-end;
-        }
-    }
-}
 
 section#title {
     margin-top: $xl;

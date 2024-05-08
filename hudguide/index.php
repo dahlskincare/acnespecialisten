@@ -1,35 +1,27 @@
 <?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title>Hudguiden från AcneSpecialisten - Din Hudvårdsexpert</title>
     <meta name="description" content="Utforska AcneSpecialistens omfattande hudguide. Få professionella tips och råd för att förbättra din hudhälsa med expertis från branschledare.">
     <meta name="keywords" content="Hudguide">
-
-    <!-- Default imports (metadata, fonts, google analytics etc) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/avbokningspolicy/cancellation-policy.css">
+    <link rel="stylesheet" href="/hudguide/skin-guide.css">
 </head>
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="title">
+                <section class="mt-xl3" id="title">
                     <h1 class="l10n">Hudguide</h1>
                     <p class="l10n">Snart kommer du att kunna läsa vår hudguide här.</p>
                 </section>
