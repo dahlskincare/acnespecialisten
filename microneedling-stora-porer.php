@@ -113,6 +113,7 @@ $big_types = array(
 
 );
 
+$results_title = 'Microneedling före och efter bilder';
 $results = array(
     new ResultCustomer(
         url: '',
