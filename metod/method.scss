@@ -13,10 +13,7 @@ html {
                 flex: 1;
 
                 .badge {
-                    @include button-text-color($white-500);
                     color: $white-500;
-                    background-color: transparent;
-                    border-radius: 0;
                 }
 
                 .badge:first-child {
@@ -29,14 +26,13 @@ html {
             }
 
             @include desktop {
+                .badges-widget {
+                    flex: initial;
+                }
 
                 .breadcrumbs-widget {
                     padding-top: 0;
                     padding-bottom: 0;
-                }
-
-                .badges-widget {
-                    justify-content: flex-end;
                 }
             }
         }

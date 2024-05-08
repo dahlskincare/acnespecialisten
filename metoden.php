@@ -1,6 +1,11 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('metod/models/step/step.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/path_segment.php');
+
+$path_segments = array(
+    new PathSegment('Metoden', '/metoden.php'),
+);
 
 $steps = array(
     new StepModel(
@@ -68,9 +73,12 @@ $steps = array(
         <section id="banner">
             <div class="container">
                 <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
+                    <div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
                     </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                    <div class="is-hidden-touch">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                    </div>
                 </div>
             </div>
         </section>

@@ -2,6 +2,10 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+$path_segments = array(
+    new PathSegment('Kontakt', '/kontakt.php'),
+);
+
 $salons = array(
     new Salon(
         title: 'Östermalm',
@@ -64,7 +68,14 @@ $salons = array(
     <main>
         <section id="banner">
             <div class="container">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                <div class="flex-row justify-space-between">
+                    <div>
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
+                    </div>
+                    <div class="is-hidden-touch">
+                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
+                    </div>
+                </div>
             </div>
         </section>
         <div class="container">
