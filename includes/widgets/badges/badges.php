@@ -27,7 +27,7 @@
                 <?php icon('trustpilot-green') ?>
                 <?php icon('trustpilot-green-half') ?>
             </div>
-            <strong>4.8</strong>&nbsp;<span>på</span>&nbsp;<a href="#">Trustpilot</a>
+            <strong>4.8</strong>&nbsp;<span>på</span>&nbsp;<a href="https://se.trustpilot.com/review/acnespecialisten.se" target="_blank">Trustpilot</a>
         </div>
         <div class="badge-divider"></div>
         <div class="badge">
