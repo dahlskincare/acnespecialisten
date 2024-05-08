@@ -17,19 +17,13 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Sidan hittas ej</h1>
-                    <p class="l10n">Denna sida finns tyvärr inte, vänligen kontakta vår kundtjänst och berätta om felet så att vi akn åtgärda problemet.</p>
+                    <p class="l10n">Denna sida finns tyvärr inte, vänligen kontakta vår kundtjänst och berätta om felet så att vi kan åtgärda problemet.</p>
                 </section>
             </div>
             <section id="results" class="large-margin">
