@@ -1,5 +1,9 @@
 User-agent: *
-# TODO: remove 'Disallow: /' on release
+
 Disallow: /
 Disallow: /includes/
-Disallow /node_modules/
+Disallow: /node_modules/
+
+
+Disallow: /index-sparad.php
+Disallow: /*/index-sparad.php
