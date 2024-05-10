@@ -735,7 +735,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <h2 class="h500"><?php echo $description_title ?></h2>
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
-
                 <?php foreach ($top_articles as $id => $article) { ?>
                     <section id="<?php echo $id ?>">
                         <?php

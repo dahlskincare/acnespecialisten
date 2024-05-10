@@ -6,14 +6,32 @@ include_once('../widgets/brand_model_card/brand_model.php');
 $nav_buttons = array(
     'about' => 'Om Alma',
     'models' => 'Modeller',
-    'problems' => 'Problem',
-    'results' => 'Resultats',
-    'reviews' => 'Omdömnen',
+    'results' => 'Resultat',
+    'reviews' => 'Omdömen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
     'specialists' => 'Hudterapeut',
-    'service-brands' => 'Märken',
 );
+
+
+$model = new Service(
+    title: 'Alma',
+    duration: null,
+    price: null,
+    content: 'Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice.',
+    image_small: 'bilder/varumarken/358x274/alma.web',
+    image_large: 'bilder/varumarken/424x456/alma.webp',
+    image_alt: 'Alma',
+    image_title: 'Alma',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+    consultation_url_label: 'Boka hudkonsultation',
+    consultation_url_title: 'Boka tid för hudkonsultation',
+    booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP',
+    booking_url_label: 'Boka behandling',
+    booking_url_title: 'Boka tid för behandling',
+);
+
+
+$floating_box = 'Alma erbjuder de modernaste och mest avancerade maskinerna inom skönhet och hudvård.';
 
 $models = array(
     new BrandModel(
@@ -146,22 +164,7 @@ $faq_categories = array(
 );
 $faq_view_more = 'Se alla frågor & svar';
 
-$skin_guide_title = 'Hudguiden';
-$skin_guide_articles = array(
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: '',
-        image_large: '',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-);
-$skin_guide_view_more = 'Se alla artiklar';
-
-$specialists_title = 'Våra hudterpaueter';
+$specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
@@ -214,81 +217,18 @@ $specialists_view_more = 'Se alla hudterapeuter';
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-    <div class="is-hidden-touch is-hidden-desktop-only transition" id="floater">
-        <div class="container">
-            <div id="floating-picture" style="background-image: url('bilder/varumarken/424x456/alma.webp')">
-                <div id="overlay">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                    <div>
-                        <h2 class="h600 l10n">Alma</h2>
-                        <p class="mt-m p200 l10n">Alma erbjuder de modernaste och mest avancerade maskinerna inom skönhet och hudvård.</p>
-                        <div class="mt-xl">
-                            <div class="columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem" class="button white expand l10n" title="Boka konsultation">Boka konsultation</a>
-                                </div>
-                                <div class="column">
-                                    <a href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/treatment_floater.php'); ?>
     <main>
         <section id="header">
-            <div id="green-header-small" class="is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600 l10n">Alma</h1>
-                    <div class="mt-xs l10n">
-                        Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice.
-                    </div>
-                    <div class="mt-xl">
-                        <div class="columns is-mobile">
-                            <div class="column is-half">
-                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem" class="button b200 white expand l10n" title="Boka konsultation">Boka konsultation</a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="https://acnespecialisten.se/book?flow=laserProblem" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="green-header-large" class="is-hidden-touch">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-half">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        </div>
-                        <div class="column is-half flex-row align-end justify-end">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
-                    </div>
-                    <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600 l10n">Alma</h1>
-                        <div class="mt-s l10n p200">Alma är en ledande innovatör inom estetisk laserbehandling. Vårt utbud omfattar fyra av Almas toppmoderna system: Alma Hybrid CO2, Harmony XL Pro, Rejuve Dye VL och Soprano Ice.</div>
-                        <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem" class="button b200 white l10n" title="Boka konsultation">Boka konsultation</a>
-                            <a href="https://acnespecialisten.se/book?flow=laserProblem" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/treatment_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="mt-m mb-s is-hidden-desktop">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
                 <section id="image" class="is-hidden-desktop">
                     <picture>
-                        <source media="(max-width: 449px)" srcset="bilder/varumarken/358x274/alma.webp">
-                        <source media="(min-width: 450px)" srcset="bilder/varumarken/424x456/alma.webp">
-                        <img src="bilder/varumarken/358x274/alma.webp" alt="Alma" title="Alma" width="358" height="274" />
+                        <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
@@ -327,7 +267,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
-                <!--Hudguide-->
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>

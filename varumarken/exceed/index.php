@@ -311,7 +311,7 @@ $faq_categories = array(
 );
 $faq_view_more = 'Se alla frågor & svar';
 
-$specialists_title = 'Våra hudterpaueter';
+$specialists_title = 'Våra hudterapeuter';
 $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
