@@ -10,7 +10,7 @@ $seo_image = 'images/treatments/large/acne-scars.jpg';
 $model = new Service(
     title: 'Få bort acneärr',
     duration: null,
-    price: 'Från 1595 kr',
+    price: null,
     content: 'Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.',
     image_small: 'images/treatments/small/acne-scars.jpg',
     image_large: 'images/treatments/large/acne-scars.jpg',
@@ -246,51 +246,6 @@ $faq_categories = array(
 $faq_url_label = "Läs fler frågor & svar";
 $faq_url_title = "läs flera frågor relaterat till behandling av acneärr";
 
-$skin_guide_articles = array(
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-);
-
-$skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om behandling av acneärr";
 
 $specialists = array(
     new Specialist(
@@ -458,7 +413,6 @@ $brands_url_title = "Varumärken för behandling av acneärr";
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                 </section>
-                <!--Hudguide-->
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Våra hudterapeuter</h2>

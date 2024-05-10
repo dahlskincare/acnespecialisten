@@ -5,10 +5,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Behandla Blandhy - Effektiv Behandling och Förebyggande';
 $seo_description = 'Lär dig allt om blandhy, från dess orsaker till hur man behandlar och förebygger det. Skräddarsydda lösningar och expertis från Acnespecialisten.';
 $seo_keywords = 'blandhy, behandling av blandhy, orsaker till blandhy, förebygga blandhy, ta hand om blandhy, hudvård för blandhy, torra partier, oljiga partier';
-
-
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
-
 $seo_image = '/bilder/hudproblem/424x456/blandhy.webp';
 
 $path_segments = array(
@@ -17,30 +13,33 @@ $path_segments = array(
     new PathSegment('Blandhybehandling', '/hudproblem/blandhy/blandhybehandling/'),
 );
 
-$image_small = '/bilder/hudproblem/424x324/blandhy.webp';
-$image_large = '/bilder/hudproblem/424x456/blandhy.webp';
-$image_alt = 'Bild som illustrerar blandhy';
-$image_title = 'Blandhy';
+$model = new Service(
+    title: 'Blandhybehandling',
+    duration: null,
+    price: null,
+    content: 'Upptäck vårt urval av metoder speciellt utformade för att behandla blandhy, där målet är att ge din hud den bästa balansen mellan torra och oljiga områden. Oavsett din huds unika krav kan vi guida dig till den optimala lösningen. Undrar du över vilken <a href="https://www.acnespecialisten.se">behandling för blandhy</a> som skulle vara mest gynnsam för just dig? Tveka inte att boka en kostnadsfri konsultation med Acnespecialisten. Låt oss vara din partner på vägen till en balanserad och strålande hy.',
+    image_small: '/bilder/hudproblem/424x324/blandhy.webp',
+    image_large: '/bilder/hudproblem/424x456/blandhy.webp',
+    image_alt: 'Bild som illustrerar blandhy',
+    image_title: 'Blandhy',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+    consultation_url_label: 'Boka hudkonsultation',
+    consultation_url_title: 'Boka tid för hudkonsultation',
+    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
+    booking_url_label: 'Boka behandling',
+    booking_url_title: 'Boka tid för behandling',
+);
 
-$title = 'Blandhybehandling';
-$description = 'Upptäck vårt urval av metoder speciellt utformade för att behandla blandhy, där målet är att ge din hud den bästa balansen mellan torra och oljiga områden. Oavsett din huds unika krav kan vi guida dig till den optimala lösningen. Undrar du över vilken <a href="https://www.acnespecialisten.se">behandling för blandhy</a> som skulle vara mest gynnsam för just dig? Tveka inte att boka en kostnadsfri konsultation med Acnespecialisten. Låt oss vara din partner på vägen till en balanserad och strålande hy.';
-
-$booking_link = 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin';
-$booking_link_title = 'Boka behandling';
-$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin';
-$consultation_link_title = 'Boka hudkonsultation';
-
+$floating_box = 'Blandhybehandling';
 
 $nav_buttons = array(
     'about' => 'Info',
     'define' => 'Konsultation',
     'treat' => 'Behandlingar',
     'prevent' => 'Produkter',
-    'repair' => 'Reparera',
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
     'specialists' => 'Hudterapeuter'
 );
 
@@ -80,7 +79,6 @@ $services = array(
         price: 'Pris från 799 kr',
         icons: array(),
         content: '<p class="p200">Denna ansiktsbehandling är särskilt för att hantera de utmaningarna som blandhy medför. Behandlingen börjar med en noggrann rengöring, varpå ånga används för att mjukt öppna porerna. En varsam exfoliering hjälper till att ge huden en enhetlig ton, följt av en djupgående porrengöring som avlägsnar inbäddade orenheter. Vi avslutar med en lugnande mask och en återfuktande kräm designad specifikt för blandhy, så att du lämnar vår klinik med en renare och mer balanserad hud.</p>',
-
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
         consultation_url_label: 'Boka konsultation',
@@ -270,52 +268,6 @@ $faq_categories = array(
 $faq_url_label = "Läs fler frågor & svar";
 $faq_url_title = "läs flera frågor relaterat till blandhybehandling";
 
-$skin_guide_articles = array(
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-);
-
-$skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider om blandhybehandling";
-
 $specialists = array(
     new Specialist(
         name: 'Cassandra Lindberg',
@@ -433,89 +385,18 @@ $brands_url_title = "Varumärken för Blandhybehandling";
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-    <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
-        <div class="container">
-            <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                <div id="overlay">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                    <div>
-                        <h2 class="h500">
-                            <?php echo $title ?>
-                        </h2>
-                        <div class="mt-xl">
-                            <div class="columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button white expand l10n" title="Få gratis konsultation">Få gratis konsultation</a>
-                                </div>
-                                <div class="column">
-                                    <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
-                                </div>
-                            </div>
-                        </div>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/treatment_floater.php'); ?>
     <main>
         <section id="header">
-            <div id="green-header-small" class="is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
-                        <?php echo $title ?>
-                    </h1>
-                    <p class="mt-xs">
-                        <?php echo $description ?>
-                    </p>
-                    <div class="mt-xl">
-                        <div class="columns is-mobile">
-                            <div class="column is-half">
-                                <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white expand l10n" title="Gratis konsultation">Gratis konsultation</a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="green-header-large" class="is-hidden-touch">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-half">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        </div>
-                        <div class="column is-half flex-row align-end justify-end">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
-                    </div>
-                    <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600">
-                            <?php echo $title ?>
-                        </h1>
-                        <p class="mt-s p200">
-                            <?php echo $description ?>
-                        </p>
-                        <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white l10n" title="Få gratis konsultation">Få gratis konsultation</a>
-                            <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/treatment_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="mt-m is-hidden-desktop">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
-                <section id="image" class="mt-m is-hidden-desktop">
+                <section id="image" class="is-hidden-desktop">
                     <picture>
-                        <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
-                        <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_small ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
+                        <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">
@@ -543,7 +424,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('/hudproblem/widgets/product-card/product-card.php');
+                            include($_SERVER['DOCUMENT_ROOT'] . '/hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>
@@ -569,7 +450,6 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                 </section>
-                <!--Hudguide-->
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Våra hudterapeut</h2>

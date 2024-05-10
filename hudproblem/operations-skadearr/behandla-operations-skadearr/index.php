@@ -5,9 +5,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Behandling av Operations- och Skadeärr - Effektiv Metod';
 $seo_description = 'Effektiva behandlingsmetoderna för operations- och skadeärr. Få skräddarsydda råd och tips för att behandla och minska ärr orsakade av operationer och skador.';
 $seo_keywords = 'behandling av operationsärr, skadeärrbehandling, metod för skadeärrbehandling, laserbehandling för skadeärr, microneedling, kemisk peeling för skadeärr';
-
-// här lägger du bild som du vill skall synas när du länkar i socialamerider eller sms
-
 $seo_image = '/bilder/hudproblem/424x456/arr.webp';
 
 $path_segments = array(
@@ -16,19 +13,24 @@ $path_segments = array(
     new PathSegment('Behandla Operations- och Skadeärr', '/hudproblem/operations-skadearr/behandla-operations-skadearr'),
 );
 
-$image_small = '/bilder/hudproblem/424x324/operations-skadearr.webp';
-$image_large = '/bilder/hudproblem/424x456/operations-skadearr.webp';
-$image_alt = 'Bild som illustrerar operations- och skadeärr';
-$image_title = 'Operations- och skadeärr';
+$model = new Service(
+    title: 'Behandling av Operations- och Skadeärr',
+    duration: null,
+    price: null,
+    content: 'Här har vi samlat de mest effektiva metoderna för behandling av operations- och skadeärr som hjälper dig att behandla dessa effektivt. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att minska synligheten av operations- och skadeärr? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hud med reducerade ärr.',
+    image_small: '/bilder/hudproblem/424x324/operations-skadearr.webp',
+    image_large: '/bilder/hudproblem/424x456/operations-skadearr.webp',
+    image_alt: 'Bild som illustrerar operations- och skadeärr',
+    image_title: 'Operations- och skadeärr',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+    consultation_url_label: 'Boka hudkonsultation',
+    consultation_url_title: 'Boka tid för hudkonsultation',
+    booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+    booking_url_label: 'Boka behandling',
+    booking_url_title: 'Boka tid för behandling',
+);
 
-$title = 'Behandling av Operations- och Skadeärr';
-$description = 'Här har vi samlat de mest effektiva metoderna för behandling av operations- och skadeärr som hjälper dig att behandla dessa effektivt. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att minska synligheten av operations- och skadeärr? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hud med reducerade ärr.';
-
-$booking_link = 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars';
-$booking_link_title = 'Boka ärrbehandling';
-$consultation_link = 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars';
-$consultation_link_title = 'Boka konsultation för ärr';
-
+$floating_box = 'Vi behandlar operations- och skadeärr';
 
 $nav_buttons = array(
     'about' => 'Info',
@@ -37,7 +39,6 @@ $nav_buttons = array(
     'results' => 'Resultat',
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
     'specialists' => 'Hudterapeut'
 );
 
@@ -413,89 +414,18 @@ $brands_url_title = "Varumärken för behandling av operations- och skadeärr";
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-    <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
-        <div class="container">
-            <div id="floating-picture" style="background-image: url('<?php echo $image_large ?>')">
-                <div id="overlay">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                    <div>
-                        <h2 class="h500">
-                            <?php echo $title ?>
-                        </h2>
-                        <div class="mt-xl">
-                            <div class="columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button white expand l10n" title="Få gratis konsultation">Få gratis konsultation</a>
-                                </div>
-                                <div class="column">
-                                    <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button white expand l10n" title="Boka behandling">Boka behandling</a>
-                                </div>
-                            </div>
-                        </div>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/treatment_floater.php'); ?>
     <main>
         <section id="header">
-            <div id="green-header-small" class="is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600">
-                        <?php echo $title ?>
-                    </h1>
-                    <p class="mt-xs">
-                        <?php echo $description ?>
-                    </p>
-                    <div class="mt-xl">
-                        <div class="columns is-mobile">
-                            <div class="column is-half">
-                                <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white expand l10n" title="Gratis konsultation">Gratis konsultation</a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white expand l10n" title="Boka behandling">Boka behandling</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="green-header-large" class="is-hidden-touch">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-half">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        </div>
-                        <div class="column is-half flex-row align-end justify-end">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
-                    </div>
-                    <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600">
-                            <?php echo $title ?>
-                        </h1>
-                        <p class="mt-s p200">
-                            <?php echo $description ?>
-                        </p>
-                        <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="<?php echo $consultation_link ?>" title="<?php echo $consultation_link_title ?>" class="button b200 white l10n" title="Få gratis konsultation">Få gratis konsultation</a>
-                            <a href="<?php echo $booking_link ?>" title="<?php echo $booking_link_title ?>" class="button b200 white l10n" title="Boka behandling">Boka behandling</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/treatment_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="mt-m is-hidden-desktop">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
-                <section id="image" class="mt-m is-hidden-desktop">
+                <section id="image" class="is-hidden-desktop">
                     <picture>
-                        <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
-                        <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                        <img src="<?php echo $image_small ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
+                        <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
                 </section>
                 <section id="nav-buttons">

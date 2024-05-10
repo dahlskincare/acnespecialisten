@@ -6,7 +6,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Laserbehandling ansiktet och kropp i Stockholm';
 $seo_description = 'Avancerade laserbehandlingar för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
 $seo_keywords = 'laserbehandling, ansikte, kropp';
-
 $seo_image = '/images/treatments/large/laser.webp';
 
 $path_segments = array(
@@ -17,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Laserbehandling för ansikte och kropp',
     duration: null,
-    price: 'Från 4595 kr',
+    price: null,
     content: '<p class="p200">Hos AcneSpecialisten använder vi en rad avancerade lasertekniker för att effektivt behandla en mängd hudproblem, vilket bidrar till märkbara förbättringar i hudens kvalitet och utseende.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/laser-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp',
