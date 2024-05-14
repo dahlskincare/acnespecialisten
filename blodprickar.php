@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Behandling av Blodprickar - Effektiva Metoder';
 $seo_description = 'Vi hjälper dig att ta bort hemangiom, blodprickar och smultronmärken. Boka tid för en gratis hudkonsultation hos AcneSpecialisten →';
-$seo_keywords = 'blodprickar, behandling av blodprickar, hudförändringar, klar hud, jämn hudton, avlägsna blodprickar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
+$seo_keywords = 'röda blodprickar, blodprickar i huden, hemangiom vuxen, blodprickar på huden, smultronmärke vuxen, ta bort hemangiom, blodprickar, smultronmärke vuxna, hemangiom vuxen ta bort, röd prick på huden';
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';
 
 $path_segments = array(
@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar behandling av blodprickar';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Behandling av Blodprickar',
-      description: 'Blodprickar, även kända som cherry angiomas, är små, röda hudförändringar som ofta uppkommer med åldern. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.',
+      description: 'Röda blodprickar i huden, även kända som hemangiom eller smultronmärken, är små, röda hudförändringar som ofta uppkommer i vuxen ålder. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Hudförändringar'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen', 'Boka denna behandling'),
@@ -68,7 +68,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Blodprickar?';
-$description_text = '<p class="p200">Blodprickar, även kända som cherry angiomas, är små, runda och röda hudutväxter som vanligtvis uppstår på grund av ansamlingar av små blodkärl. De är ofarliga och förekommer oftare med åldrande, men storlek och antal kan variera från person till person. Blodprickar kan förekomma var som helst på kroppen men ses vanligtvis på överkroppen, armar och axlar.</p>
+$description_text = '<p class="p200">Blodprickar i huden är små, runda och röda hudutväxter som vanligtvis uppstår på grund av ansamlingar av små blodkärl. De är ofarliga och förekommer oftare med åldrande, men storlek och antal kan variera från person till person. Blodprickar kan förekomma var som helst på kroppen men ses vanligtvis på överkroppen, armar och axlar.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandlingar för att säkert och effektivt ta bort blodprickar, vilket ger en förbättring av hudens utseende. Våra behandlingsmetoder varierar beroende på individens behov och kan inkludera laserteknik eller andra avancerade hudvårdsmetoder. Målet med behandlingen är att minska synligheten av dessa hudförändringar och återställa en jämnare hudton.</p>';
 
 $treatment_steps = array(
