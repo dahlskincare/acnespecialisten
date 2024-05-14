@@ -66,7 +66,7 @@ $nav_buttons = array(
     'reviews' => 'Omdömen',
     'faq' => 'FAQ',
     'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
+    'brands' => 'Märken',
 );
 
 $description_title = 'Laserbehandling mot acneärr';
