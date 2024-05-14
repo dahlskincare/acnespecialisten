@@ -68,8 +68,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är Blodprickar?';
-$description_text = '<p class="p200">Blodprickar i huden är små, runda och röda hudutväxter som vanligtvis uppstår på grund av ansamlingar av små blodkärl. De är ofarliga och förekommer oftare med åldrande, men storlek och antal kan variera från person till person. Blodprickar kan förekomma var som helst på kroppen men ses vanligtvis på överkroppen, armar och axlar.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandlingar för att säkert och effektivt ta bort blodprickar, vilket ger en förbättring av hudens utseende. Våra behandlingsmetoder varierar beroende på individens behov och kan inkludera laserteknik eller andra avancerade hudvårdsmetoder. Målet med behandlingen är att minska synligheten av dessa hudförändringar och återställa en jämnare hudton.</p>';
+$description_text = '<p class="p200">Blodprickar, jordgubbsmärken eller hemangiom som är den medicinska termen, syns som röda prickar på huden. De varierar lite i färg från klarröda till mörkt röda eller mer åt det lila hållet och ibland likna röda födelsemärken hos dig som är vuxen. De varierar i storlek. Det kan vara från ett par millimeter till en eller flera centimeter. De kan vara både släta och upphöjda.</p>
+<p class="p200 mt-m">Blodprickar är godartade blodkärlstumörer. De uppkommer för att en större samling blodkärl bildats under det område på huden där märket finns. Det är särskilt vanligt hos mindre barn men förekommer även hos både tonåringar och vuxna. I regel är det ofarligt och försvinner ofta av sig självt, men det kan ta flera år. Därför behandlar man dem, men i synnerhet hos vuxna och inte mindre barn. Chansen är nämligen större att de försvinner av sig självt ju yngre man är.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -94,33 +94,15 @@ $treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar"
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Områden för blodprickar',
+            title: 'Hur blir man av med smultronmärken?',
             image_small: null,
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Blodprickar, eller cherry angiomas, är små, röda hudförändringar som ofta uppstår på grund av ansamlingar av små blodkärl. De är vanliga och kan förekomma hos personer i alla åldersgrupper, men blir oftare mer frekventa och märkbara med åldrandet. Blodprickar kan dyka upp var som helst på kroppen, men är vanligast på överkroppen, inklusive bröstet, ryggen, armar och axlar.</p>
-      <p class="p200 mt-m">Orsaken till bildandet av blodprickar är inte helt klarlagd, men de anses vara relaterade till genetiska faktorer och åldrande. Även om de i de flesta fall är ofarliga och inte kräver behandling, kan vissa personer välja att ta bort dem av estetiska skäl eller om de orsakar obehag. På AcneSpecialisten erbjuder vi skonsamma och effektiva behandlingsalternativ för att säkert ta bort blodprickar och ge huden ett jämnare utseende.</p>',
-      ),
-);
-
-$articles = array(
-      new Article(
-            title: 'När ska jag söka hjälp med mina blodprickar?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'När ska jag söka hjälp med mina blodprickar?',
-            image_title: 'När ska jag söka hjälp med mina blodprickar?',
-            content: '<p class="p200">Blodprickar, även kända som cherry angiomas, är små röda hudförändringar som ofta är ofarliga. De kan dock orsaka estetisk obehag eller bekymmer. Om dina blodprickar börjar förändra sig i storlek, form eller färg, eller om du helt enkelt vill ta bort dem av kosmetiska skäl, kan det vara lämpligt att söka professionell hjälp. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård för blodprickar.</p>',
-      ),
-
-      new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            image_title: 'Varför ska jag besöka AcneSpecialisten för mina blodprickar?',
-            content: '<p class="p200">På AcneSpecialisten är vi experter på att behandla blodprickar och andra hudförändringar. Med vår erfarenhet och tillgång till avancerad teknologi erbjuder vi säkra och effektiva behandlingar. Vi förstår att varje klients behov är unika, och vi anpassar därför våra behandlingar för att passa just dina önskemål och hudtillstånd.</p>',
+            content: '<p class="p200">I regel är smultronmärken ofarliga men det kan vara bra att hålla koll på dem så att de inte växer eller förändras i färgen. Även om de inte är farliga kan man uppleva dem som estetiskt störande och därför vilja ta bort dem.</p>
+      <p class="p200 mt-m">Att ta bort blodprickar eller fläckar är inte komplicerat. Vi på Acnespecialisten har tagit fram en unik metod där vi först utför en gratis hudkonsultation för att säkerställa vilken typ av problemhy det är du vill behandla. När det kommer till blodprickar, smultronmärken, hemangiom eller angiom använder vi oss av en behandling som kallas för cryopen. Efter konsultationen är det nästa steg i processen av att ta bort din blodprick.</p>
+      <p class="p200 mt-m">Kryo betyder frysning, och är just det som behandlingen går ut på. Det är effektivt för att ta bort blodprickar och är en metod som används världen över. Man fryser helt enkelt ner det lilla området som är drabbat och reducerar blodpricken med hjälp av kyla. Det räcker oftast med 1-3 gånger.</p>
+      <p class="p200 mt-m">Observera att vi på Acnespecialisten endast har möjligheten att behandla godartade hudförändringar. Vi har tyvärr inte möjligheten att utföra provtagning och rekommenderar därför att du vänder dig till en läkare om du är osäker på huruvida din hudåkomma är ofarlig.</p>',
       ),
 );
 
@@ -157,7 +139,7 @@ $services = array(
             title: 'Behandling av blodprickar med CryoPen',
             duration: '20 min',
             price: '995 kr',
-            content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort blodprickar. Behandlingen är snabb och ger minimalt obehag, vilket gör den till ett effektivt sätt att minska synligheten av blodprickar.',
+            content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort hemangiom och blodprickar. Behandlingen är snabb och ger minimalt obehag, vilket gör den till ett effektivt sätt att minska synligheten av blodprickar.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
@@ -461,11 +443,6 @@ $brands_url_title = "Se alla varumärken";
                               </section>
                         <?php } ?>
 
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
