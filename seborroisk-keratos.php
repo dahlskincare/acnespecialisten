@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar behandling av seborroisk keratos';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Behandling av Seborroisk Keratos',
-      description: 'Seborroisk keratos är godartade hudtillväxter som kan variera i storlek och utseende. På denna sida går vi igenom vad seborroisk keratos är och de mest effektiva behandlingsmetoderna. På Acnespecialisten använder vi skonsamma och moderna tekniker för att säkert behandla seborroisk keratos, vilket kan förbättra hudens utseende och textur utan att orsaka obehag.',
+      description: 'Seborroisk keratos, även kallat åldersvårtor är godartade hudtillväxter som kan variera i storlek och utseende. På denna sida går vi igenom vad seborroisk keratos är och de mest effektiva behandlingsmetoderna. På Acnespecialisten använder vi skonsamma och moderna tekniker för att säkert behandla seborroisk keratos, vilket kan förbättra hudens utseende och textur utan att orsaka obehag.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Seborroisk Keratos'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen', 'Boka denna behandling'),
@@ -58,8 +58,8 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är seborroisk keratos?';
-$description_text = '<p class="p200">Seborroisk keratos, även känd som åldersvårtor, är godartade hudtillväxter som ofta uppstår hos äldre individer. Dessa vårtliknande hudförändringar varierar i färg från ljusbrun till mörkbrun och har en upphöjd, skrovlig yta. De är helt ofarliga men kan ibland orsaka kosmetisk oro eller irritation.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandling av seborroisk keratos. Med hjälp av moderna tekniker som CryoPen kan vi effektivt reducera eller ta bort seborroisk keratos, vilket leder till en förbättrad hudton och texturen på huden.</p>';
+$description_text = '<p class="p200">Seborroisk keratos är en vanlig, godartad hudåkomma som kännetecknas av vårtlika, bruna till svarta upphöjda fläckar på huden. Dessa fläckar kan vara skrovliga eller vaxartade i utseende och varierar i storlek från några millimeter till flera centimeter. De förekommer oftast på områden som bröstet, ryggen, ansiktet eller halsen, men kan dyka upp var som helst på kroppen utom på handflator och fotsulor.</p>
+<p class="p200 mt-m">Seborroisk keratos utvecklas vanligtvis hos äldre vuxna och är helt ofarliga, även om de kan vara kosmetiskt besvärande. I vissa fall kan fläckarna klia eller bli irriterade, särskilt om de utsätts för friktion från kläder eller smycken.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -84,13 +84,13 @@ $treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar"
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Områden för seborroisk keratos',
+            title: 'Varför får man seborroisk keratos?',
             image_small: null,
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Seborroisk keratos, även känd som åldersvårtor, är en typ av hudförändringar som ofta uppträder på områden som är utsatta för solen, såsom ansikte, bröst, rygg och armar. Dessa förändringar kännetecknas av en upphöjd, skrovlig yta och kan variera i färg från ljus till mörkbrun.</p>
-      <p class="p200 mt-m">Medan seborroisk keratos vanligen är ofarliga, är det viktigt att övervaka för eventuella förändringar i storlek eller färg som kan signalera hudproblem. AcneSpecialisten erbjuder professionell konsultation och behandling för att säkert hantera seborroisk keratos, oavsett om det är av estetiska skäl eller hälsorelaterade orsaker.</p>',
+            content: '<p class="p200">Orsaken till seborroisk keratos är inte helt klarlagd, men det finns flera faktorer som tros bidra till deras utveckling. Ålder är den mest betydande faktorn, då seborroisk keratos blir vanligare med stigande ålder och sällan ses hos unga människor. Genetiska faktorer spelar också en viktig roll, eftersom tillståndet ofta förekommer i familjer.</p>
+      <p class="p200 mt-m">UV-strålning från solen har också föreslagits som en möjlig bidragande faktor, eftersom seborroisk keratos ofta uppträder på solutsatta områden av huden. Trots dessa möjliga bidragande faktorer finns det ingen exakt utlösare för seborroisk keratos, och de kan utvecklas hos individer oavsett hudtyp eller livsstil.</p>',
       ),
 );
 
@@ -110,7 +110,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
-            content: '<p class="p200">AcneSpecialisten erbjuder avancerade behandlingar för seborroisk keratos, inklusive laserterapi och kryoterapi, för att effektivt och säkert behandla dessa hudförändringar. Vårt team av erfarna hudspecialister arbetar för att ge dig en personligt anpassad behandlingsplan som passar dina specifika behov och hudtillstånd.</p>',
+            content: '<p class="p200">AcneSpecialisten erbjuder avancerade behandlingar för att ta bort seborroisk keratos, inklusive laserterapi och kryoterapi, för att effektivt och säkert behandla dessa hudförändringar. Vårt team av erfarna hudspecialister arbetar för att ge dig en personligt anpassad behandlingsplan som passar dina specifika behov och hudtillstånd.</p>',
       ),
 );
 
