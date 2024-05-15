@@ -58,7 +58,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Vad är seborroisk keratos?';
-$description_text = '<p class="p200">Seborroisk keratos är en vanlig, godartad hudåkomma som kännetecknas av vårtlika, bruna till svarta upphöjda fläckar på huden. Dessa fläckar kan vara skrovliga eller vaxartade i utseende och varierar i storlek från några millimeter till flera centimeter. De förekommer oftast på områden som bröstet, ryggen, ansiktet eller halsen, men kan dyka upp var som helst på kroppen utom på handflator och fotsulor.</p>
+$description_text = '<p class="p200">Seborroisk keratos är en vanlig, godartad hudåkomma som kännetecknas av vårtlika, bruna till svarta upphöjda fläckar på huden. Dessa fläckar som ser ut som vårtor kan vara skrovliga eller vaxartade i utseende och varierar i storlek från några millimeter till flera centimeter. De förekommer oftast på områden som bröstet, ryggen, ansiktet eller halsen, men kan dyka upp var som helst på kroppen utom på handflator och fotsulor.</p>
 <p class="p200 mt-m">Seborroisk keratos utvecklas vanligtvis hos äldre vuxna och är helt ofarliga, även om de kan vara kosmetiskt besvärande. I vissa fall kan fläckarna klia eller bli irriterade, särskilt om de utsätts för friktion från kläder eller smycken.</p>';
 
 $treatment_steps = array(
