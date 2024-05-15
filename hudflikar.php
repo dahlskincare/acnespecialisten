@@ -57,9 +57,9 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Hudflikar?';
-$description_text = '<p class="p200">Hudflikar, även kända som skintags, är små, mjuka hudutväxter som ofta uppkommer i områden med friktion, såsom halsen, armhålorna, och under brösten. De är ofarliga men kan orsaka irritation eller obehag, särskilt om de gnids mot kläder eller smycken.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandlingar för att säkert och effektivt ta bort hudflikar. Våra metoder inkluderar Cryopen, laserbehandling eller kirurgiska metoder som skräddarsys efter varje enskild klient för att uppnå bästa möjliga resultat och minimera obehag.</p>';
+$description_title = 'Vad är hudflikar?';
+$description_text = '<p class="p200">Hudflikar, även kända som fibrom, skin tags (skinnflik på svenska), är små, mjuka hud utväxter som ofta sitter på en tunn stjälk. De är vanligtvis hudfärgade eller något mörkare och kan förekomma på olika delar av kroppen, men är vanligast i områden där huden veckar sig eller gnider mot sig själv, såsom på halsen, under armarna, i armhålorna, i ljumskarna, på ögonlocken och under brösten. </p>
+<p class="p200 mt-m">Hudflikar är i allmänhet små, vanligtvis mellan några millimeter och upp till två centimeter i storlek. De är godartade, vilket innebär att de inte är cancerogena och sällan orsakar hälsoproblem. Trots detta kan de ibland vara irriterande eller oattraktiva, vilket kan leda till att människor vill ta bort dem av kosmetiska skäl.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -72,7 +72,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder olika behandlingsalternativ för att effektivt och skonsamt ta bort hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
+            content: 'Vi erbjuder olika behandlingsalternativ för effektiv borttagning av hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar för hudflikar',
             url: 'hudproblem/hudforandringar/behandla-hudforandringar',
@@ -84,13 +84,13 @@ $treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar"
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Områden för hudflikar',
+            title: 'Varför får man hudflikar?',
             image_small: null,
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Hudflikar, även kända som skintags, är små hudutväxter som ofta bildas i områden med mycket friktion eller hud-mot-hud kontakt, såsom hals, armhålor och under brösten. Dessa ofarliga utväxter varierar i storlek och färg och är vanligen mjuka och rörliga vid beröring.</p>
-      <p class="p200 mt-m">Hudflikar är vanligen ofarliga men kan kräva uppmärksamhet om de orsakar irritation eller om de förändras. På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för hudflikar, anpassade efter dina individuella behov och önskemål.</p>',
+            content: '<p class="p200">Orsaken till hudflikar är inte helt klarlagd, men flera faktorer tros bidra till deras uppkomst. En av de vanligaste teorierna är friktion, då hudflikar ofta uppträder i områden där huden gnider mot sig själv eller kläder. Genetik kan också spela en roll, eftersom hudflikar ibland förekommer i familjer. Hormonella förändringar, såsom de som uppstår under graviditet, kan också öka risken för hudflikar. </p>
+      <p class="p200 mt-m">Diabetes är andra faktorer som har kopplats till en högre förekomst av hudflikar. Personer med metaboliskt syndrom, vilket inkluderar högt blodtryck, högt blodsocker och abnorma kolesterolnivåer, tenderar också att ha fler hudflikar. Slutligen kan ålder vara en faktor, eftersom hudflikar blir vanligare med stigande ålder.</p>',
       ),
 );
 
@@ -101,7 +101,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När är det dags att söka hjälp för hudflikar?',
             image_title: 'När är det dags att söka hjälp för hudflikar?',
-            content: '<p class="p200">Hudflikar är vanligtvis ofarliga men bör övervakas. Om du upplever irritation, obehag eller märker förändringar i storlek, form eller färg, är det lämpligt att konsultera en specialist.</p>',
+            content: '<p class="p200">Hudflikar eller hudfliker är vanligtvis ofarliga men bör övervakas. Om du upplever irritation, obehag eller märker förändringar i storlek, form eller färg, är det lämpligt att konsultera en specialist.</p>',
       ),
 
       new Article(
