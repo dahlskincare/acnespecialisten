@@ -243,22 +243,28 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                title: 'Hur ser hudflikar ut jämfört med andra vårtor eller fibrom? Finns det några specifika kännetecken?',
+                text: 'Hudflikar är små, mjuka och ofta hudfärgade, medan vårtor kan vara hårdare och ha en ojämn yta. Fibrom är vanligtvis större och hårdare än hudflikar. Hudflikar sitter ofta på en tunn stjälk, vilket skiljer dem från andra utväxter.'
             ),
+
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                title: 'Kan hudflikar vara farliga eller leda till komplikationer om de inte behandlas?',
+                text: 'Hudflikar är i allmänhet godartade och leder sällan till komplikationer. Dock kan de ibland bli irriterade, blöda eller orsaka obehag om de gnids mot kläder eller smycken. I sådana fall kan borttagning övervägas.'
             ),
-      ),
-      'Frågor om behandling' => array(
+
             new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                title: 'Vilka medicinska behandlingar finns tillgängliga för att ta bort hudflikar, och när bör man söka professionell hjälp?',
+                text: 'Medicinska behandlingar för borttagning av hudflikar inkluderar kryoterapi och laserbehandling, . Man bör söka professionell hjälp om hudfliken är stor, sitter på ett känsligt område eller om den orsakar obehag.'
             ),
+
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                title: 'Finns det några specifika åtgärder man kan vidta för att förhindra uppkomsten av hudflikar?',
+                text: 'För att minska risken för att utveckla hudflikar kan man försöka minska friktionen på huden genom att bära lösa kläder och hålla huden ren och torr. Att upprätthålla en hälsosam vikt och kontrollera blodsockernivåer kan också vara förebyggande åtgärder.'
+            ),
+
+            new Question(
+                title: 'Vilka är de mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden?',
+                text: 'De mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden inkluderar kryoterapi och laserbehandling . Det är viktigt att behandlingen utförs av en hudterapeut för att minimera risken för ärrbildning och infektion.'
             ),
       ),
 );
