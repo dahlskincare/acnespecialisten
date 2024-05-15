@@ -41,9 +41,6 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-
-
-
 $floating_box = 'Vi behandlar seborroisk keratos effektivt och skonsamt';
 
 $nav_buttons = array(
@@ -62,7 +59,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är seborroisk keratos?';
 $description_text = '<p class="p200">Seborroisk keratos, även känd som åldersvårtor, är godartade hudtillväxter som ofta uppstår hos äldre individer. Dessa vårtliknande hudförändringar varierar i färg från ljusbrun till mörkbrun och har en upphöjd, skrovlig yta. De är helt ofarliga men kan ibland orsaka kosmetisk oro eller irritation.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandling av seborroisk keratos. Med hjälp av moderna tekniker som CryoPen kan vi effektivt reducera eller ta bort dessa hudförändringar, vilket leder till en förbättrad hudton och texturen på huden.</p>';
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi behandling av seborroisk keratos. Med hjälp av moderna tekniker som CryoPen kan vi effektivt reducera eller ta bort seborroisk keratos, vilket leder till en förbättrad hudton och texturen på huden.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
