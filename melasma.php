@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Melasma – Behandling, Orsaker & Förebyggande';
 $seo_description = 'Vi hjälper dig att behandla oönskade melasma. Läs mer och boka tid för behandling eller en gratis konsultation i dag!';
-$seo_keywords = 'melasma, behandla melasma, orsaker till melasma, förebyggande av melasma, minska melasma, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, hudens hälsa';
+$seo_keywords = 'melasma behandling, behandling melasma, melasma, melasma ansikte';
 $seo_image = 'bilder/hudproblem/424x456/melasma.webp';
 
 $path_segments = array(

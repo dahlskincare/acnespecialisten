@@ -456,7 +456,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar med IPL krävs vanligtvis för att behandla pigmentfläckar?',
-            text: 'Antalet IPL behandlingar som behövs för att effektivt minska pigmentfläckar varierar beroende på individens hudtillstånd och de specifika målen med behandlingen. Oftast krävs 3-8 behandlingar, med intervaller på ungefär 4 veckor, för att uppnå önskade resultat. En personlig behandlingsplan utformas under den initiala konsultationen, anpassad efter dina unika hudbehov.'
+            text: 'Antalet IPL behandlingar som behövs för att effektivt minska pigmentfläckar varierar beroende på individens hudtillstånd och de specifika målen med behandlingen. För att du ska få den bästa IPL behandlingen kärvs oftast krävs 3-8 behandlingar på någon av våra kliniker i Stockholm, med intervaller på ungefär 4 veckor, för att uppnå önskade resultat. En personlig behandlingsplan utformas under den initiala konsultationen, anpassad efter dina unika hudbehov.'
         ),
         new Question(
             title: 'Kan pigmentfläckar återkomma efter en IPL behandling?',
