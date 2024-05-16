@@ -19,7 +19,7 @@ $model = new Service(
     title: 'IPL mot pigmentfläckar',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">IPL utgör en effektiv lösning för dig som önskar en jämnare hudton genom att effektivt reducera pigmentfläckar. Denna behandling passar utmärkt för att ljusa upp och jämna ut områden med överpigmentering. Våra IPL-behandlingar är individuellt anpassade efter dina unika hudbehov. De är utformade för att inte bara minska synligheten av pigmentfläckar, utan också för att stimulera hudens egna läkningsprocesser och därmed förbättra hudens övergripande hälsa och utseende.</p>',
+    content: '<p class="p200">IPL utgör en effektiv lösning för dig som önskar en jämnare hudton genom att effektivt ta bort pigmentfläckar. Denna behandling passar utmärkt för att ljusa upp och jämna ut områden med överpigmentering. Våra IPL behandlingar är individuellt anpassade efter dina unika hudbehov. De är utformade för att inte bara minska synligheten av pigmentfläckar, utan också för att stimulera hudens egna läkningsprocesser och därmed förbättra hudens övergripande hälsa och utseende.</p>',
     image_small: 'bilder/behandlingar/358x274/ipl.webp',
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot pigmentfläckar',
@@ -49,7 +49,7 @@ $nav_buttons = array(
 
 $description_title = 'Vad är IPL av pigmentfläckar?';
 $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en ljusbaserad behandlingsmetod som effektivt förbättrar hudens färg och textur utan behov av kirurgiska ingrepp. Denna teknik innefattar användning av ljuspulser som penetrerar huden och selektivt riktar sig mot melanin i pigmentfläckar. IPL är därmed särskilt effektivt för att reducera och ljusa upp pigmentfläckar och för att ge en jämnare hudton.</p>
-<p class="p200 mt-m">Med sin mångsidighet kan IPL-teknologin anpassas efter varje patients unika hudtillstånd, vilket gör det möjligt att behandla pigmentfläckar med precision. Behandlingen är skonsam och medför få biverkningar, vilket tillåter patienter att snabbt återgå till sina dagliga aktiviteter efter en session. IPL är en populär metod för att effektivt minska synligheten av pigmentfläckar och främja en mer harmonisk och klar hudton.</p>';
+<p class="p200 mt-m">Med sin mångsidighet kan IPL teknologin anpassas efter varje patients unika hudtillstånd, vilket gör det möjligt att få bort pigmentfläckar oavsett var de uppstår, detta gör metoden lämplig för att till exempel ta bort solfläckar i ansiktet med precision. Behandlingen är skonsam och medför få biverkningar, vilket tillåter patienter att snabbt återgå till sina dagliga aktiviteter efter en session. IPL är en populär metod för att effektivt minska synligheten av pigmentfläckar och främja en mer harmonisk och klar hudton.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
@@ -58,8 +58,8 @@ $top_articles = array(
         image_large: null,
         image_alt: 'Inför behandling med IPL mot pigmentfläckar',
         image_title: 'Inför behandling med IPL mot pigmentfläckar',
-        content: '<p class="p200">Att förbereda sig inför en IPL-behandling för att reducera pigmentfläckar innebär att följa viktiga steg för att säkerställa att din hud är optimalt förberedd för proceduren. En initial konsultation med en kvalificerad hudterapeut är avgörande. Under detta möte kommer din hud att noggrant analyseras för att skapa en skräddarsydd behandlingsplan som är inriktad på att minska dina pigmentfläckar med IPL-teknik.</p>
-        <p class="p200 mt-m">För att förbereda din hud är det viktigt att undvika direkt sol exponering och inte använda självbrunande produkter minst två veckor före behandlingen. Detta är för att minska risken för ojämn pigmentering, eftersom IPL-behandlingen är mest effektiv när huden är i sin naturligaste ton. Dessutom bör du undvika hudvårdsprodukter som innehåller retinol eller andra starka exfolierande ingredienser under veckan före din behandling. Din hudterapeut kommer att ge dig fullständiga instruktioner om ytterligare förberedelser och råd om hur du kan ta hand om din hud både före och efter din IPL-behandling för att säkerställa optimala resultat och en säker läkningsprocess.</p>',
+        content: '<p class="p200">Att förbereda sig inför en IPL behandling för att reducera pigmentfläckar innebär att följa viktiga steg för att säkerställa att din hud är optimalt förberedd för proceduren. En initial konsultation med en kvalificerad hudterapeut är avgörande. Under detta möte kommer din hud att noggrant analyseras för att skapa en skräddarsydd behandlingsplan som är inriktad på att minska dina pigmentfläckar med IPL teknik.</p>
+        <p class="p200 mt-m">För att förbereda din hud är det viktigt att undvika direkt sol exponering och inte använda självbrunande produkter minst två veckor före behandlingen. Detta är för att minska risken för ojämn pigmentering, eftersom IPL behandlingen är mest effektiv när huden är i sin naturligaste ton. Dessutom bör du undvika hudvårdsprodukter som innehåller retinol eller andra starka exfolierande ingredienser under veckan före din behandling. Din hudterapeut kommer att ge dig fullständiga instruktioner om ytterligare förberedelser och råd om hur du kan ta hand om din hud både före och efter din IPL behandling för att säkerställa optimala resultat och en säker läkningsprocess.</p>',
     ),
     'process' => new Article(
         title: 'Hur går IPL mot pigmentfläckar till?',
@@ -68,7 +68,7 @@ $top_articles = array(
         image_alt: 'Hur går IPL mot pigmentfläckar till?',
         image_title: 'Hur går IPL mot pigmentfläckar till?',
         content: '<p class="p200">IPL-behandling är en framstående metod för att effektivt minska pigmentfläckar och förbättra hudens övergripande utseende. Vid ditt besök på vår klinik börjar vi med att noggrant rengöra din hud för att ta bort alla makeuprester och orenheter. Ett speciellt ögonskydd appliceras för att skydda dina ögon från det intensiva ljuset under behandlingen.</p>
-        <p class="p200 mt-m">Vår IPL-enhet justeras noggrant för att anpassa ljuspulsernas intensitet och våglängd specifikt till dina pigmentfläckar och hudtyp. Under behandlingen avges korta, intensiva pulser av ljus som tränger djupt in i huden. Dessa ljuspulser är riktade mot pigmentfläckarna och omvandlar ljuset till värme, vilket effektivt bryter ner det oönskade pigmentet utan att skada omkringliggande hudvävnad.</p>
+        <p class="p200 mt-m">Vår IPL enhet justeras noggrant för att anpassa ljuspulsernas intensitet och våglängd specifikt till dina pigmentfläckar och hudtyp. Under behandlingen avges korta, intensiva pulser av ljus som tränger djupt in i huden. Dessa ljuspulser är riktade mot pigmentfläckarna och omvandlar ljuset till värme, vilket effektivt bryter ner det oönskade pigmentet utan att skada omkringliggande hudvävnad.</p>
         <p class="p200 mt-m">Efter behandlingen är det vanligt att känna en lätt rodnad och värme i huden, liknande känslan efter en mild solbränna, men dessa symtom är övergående och bör avta ganska snabbt. Resultaten utvecklas över tid, och du kan förvänta dig att gradvis se en minskning av pigmentfläckarna och en jämnare, klarare hudton. Din hudterapeut kommer att ge dig specifika råd om eftervård för att säkerställa de bästa möjliga resultaten och främja en effektiv läkningsprocess.</p>',
     ),
 );
@@ -93,7 +93,7 @@ $treatment_areas = array(
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Face',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av ansiktet'
+                url_title: 'Boka tid för IPL behandling av ansiktet'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/panna.webp',
@@ -104,7 +104,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Forehead',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av pannan'
+                url_title: 'Boka tid för IPL behandling av pannan'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/nasa.webp',
@@ -115,7 +115,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Nose',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av näsan'
+                url_title: 'Boka tid för IPL behandling av näsan'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/kinder.webp',
@@ -126,7 +126,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Cheeks',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna'
+                url_title: 'Boka tid för IPL behandling av kinderna'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/overlapp.webp',
@@ -137,7 +137,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_UpperLip',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av överläppen'
+                url_title: 'Boka tid för IPL behandling av överläppen'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/haka.webp',
@@ -148,7 +148,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Chin',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av hakan'
+                url_title: 'Boka tid för IPL behandling av hakan'
             ),
         )
     ),
@@ -169,7 +169,7 @@ $treatment_areas = array(
                 price: '1895 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Neck',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av halsen'
+                url_title: 'Boka tid för IPL behandling av halsen'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/dekolletage.webp',
@@ -180,7 +180,7 @@ $treatment_areas = array(
                 price: '2295 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Decolletage',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av dekolletaget'
+                url_title: 'Boka tid för IPL behandling av dekolletaget'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/hander.webp',
@@ -191,7 +191,7 @@ $treatment_areas = array(
                 price: '1895 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Hands',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av händerna'
+                url_title: 'Boka tid för IPL behandling av händerna'
             ),
         )
     ),
@@ -212,7 +212,7 @@ $treatment_areas = array(
                 price: '995 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1x_spot_pf',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av 1 pigmentfläck'
+                url_title: 'Boka tid för IPL behandling av 1 pigmentfläck'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -279,9 +279,9 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: null,
     image_alt: 'Efter IPL mot pigmentfläckar',
     image_title: 'Efter IPL mot pigmentfläckar',
-    content: '<p class="p200">Eftervården är en kritisk del för att säkerställa framgångsrika resultat och en smidig läkningsprocess efter en IPL-behandling mot pigmentfläckar. Det är inte ovanligt att känna av viss rodnad och svullnad i det behandlade området direkt efter behandlingen. För att minska risken för irritation och infektioner, bör du undvika att röra området med smutsiga händer och avstå från att använda makeup eller parfymerade produkter under de första 24 timmarna.</p>
+    content: '<p class="p200">Eftervården är en kritisk del för att säkerställa framgångsrika resultat och en smidig läkningsprocess efter en IPL behandling mot pigmentfläckar. Det är inte ovanligt att känna av viss rodnad och svullnad i det behandlade området direkt efter behandlingen. För att minska risken för irritation och infektioner, bör du undvika att röra området med smutsiga händer och avstå från att använda makeup eller parfymerade produkter under de första 24 timmarna.</p>
     <p class="p200 mt-m">Under de första dagarna post-behandling är det också viktigt att undvika intensiv fysisk aktivitet, bastubad och långa varma duschar, som kan förstärka svullnad och irritation. Användning av hög SPF-solskydd är avgörande för att skydda huden mot UV-strålning, särskilt i det behandlade området. Dessutom rekommenderas att använda milda, återfuktande hudvårdsprodukter utan starka ingredienser för att stödja läkningsprocessen och bevara hudens fuktbalans.</p>
-    <p class="p200 mt-m">Följ noga de specifika eftervårdsinstruktionerna som ges av din behandlare. Vid frågor eller bekymmer, tveka inte att kontakta din klinik. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din IPL-behandling mot pigmentfläckar.</p>',
+    <p class="p200 mt-m">Följ noga de specifika eftervårdsinstruktionerna som ges av din behandlare. Vid frågor eller bekymmer, tveka inte att kontakta din klinik. Ytterligare behandlingar kan rekommenderas baserat på din huds respons för att uppnå och bibehålla de bästa resultaten från din IPL behandling mot pigmentfläckar.</p>',
 ));
 
 $service_brands_title = 'Märken för IPL';
@@ -456,15 +456,15 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar med IPL krävs vanligtvis för att behandla pigmentfläckar?',
-            text: 'Antalet IPL-behandlingar som behövs för att effektivt minska pigmentfläckar varierar beroende på individens hudtillstånd och de specifika målen med behandlingen. Oftast krävs 3-8 behandlingar, med intervaller på ungefär 4 veckor, för att uppnå önskade resultat. En personlig behandlingsplan utformas under den initiala konsultationen, anpassad efter dina unika hudbehov.'
+            text: 'Antalet IPL behandlingar som behövs för att effektivt minska pigmentfläckar varierar beroende på individens hudtillstånd och de specifika målen med behandlingen. Oftast krävs 3-8 behandlingar, med intervaller på ungefär 4 veckor, för att uppnå önskade resultat. En personlig behandlingsplan utformas under den initiala konsultationen, anpassad efter dina unika hudbehov.'
         ),
         new Question(
-            title: 'Kan pigmentfläckar återkomma efter en IPL-behandling?',
-            text: 'Medan IPL-behandlingar är effektiva för att minska befintliga pigmentfläckar, kan nya fläckar utvecklas över tid, särskilt om huden utsätts för faktorer som solskador och åldrande. För att underhålla resultaten är det viktigt med en bra hudvårdsrutin och regelbundet solskydd. Ibland kan ytterligare behandlingar rekommenderas för att bevara effekterna över tid.'
+            title: 'Kan pigmentfläckar återkomma efter en IPL behandling?',
+            text: 'Medan IPL behandlingar är effektiva för att minska befintliga pigmentfläckar, kan nya fläckar utvecklas över tid, särskilt om huden utsätts för faktorer som solskador och åldrande. För att underhålla resultaten är det viktigt med en bra hudvårdsrutin och regelbundet solskydd. Ibland kan ytterligare behandlingar rekommenderas för att bevara effekterna över tid.'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en IPL-behandling mot pigmentfläckar?',
-            text: 'Resultaten från en IPL-behandling mot pigmentfläckar varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de fullständiga resultaten framträder oftast mer tydligt efter en serie behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas under behandlingsserien och de efterföljande veckorna.'
+            title: 'Hur snabbt kan jag se resultat efter en IPL behandling mot pigmentfläckar?',
+            text: 'Resultaten från en IPL behandling mot pigmentfläckar varierar mellan individer. Många ser en förbättring efter den första behandlingen, men de fullständiga resultaten framträder oftast mer tydligt efter en serie behandlingar. Förbättringar i hudens utseende och kvalitet fortsätter vanligtvis att utvecklas under behandlingsserien och de efterföljande veckorna.'
         ),
     )
 );
