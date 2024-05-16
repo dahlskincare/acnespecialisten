@@ -36,7 +36,7 @@ $green_banner_content = new GreenBannerContent(
             new Link(
                   url: 'komedoner.php',
                   label: 'Komedoner',
-                  title: 'Allt du behöver veta om komedoner (öppna och stängda pormaskar) och deras behandling'
+                  title: 'Allt du behöver veta om öppna och stängda komedoner och deras behandling'
             ),
             new Link(
                   url: 'stora-porer.php',
