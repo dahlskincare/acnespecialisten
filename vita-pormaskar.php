@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Vita Pormaskar - Orsaker, Behandlingar, Förebygg';
 $seo_description = 'Information om vita pormaskar, symptom, orsaker och effektiva behandlingsalternativr. Få tillgång till skräddarsydda lösningar och expertkunskaper.';
-$seo_keywords = 'vita pormaskar, hantering av vita pormaskar, vita pormaskars orsaker, förebyggande av vita pormaskar, eliminering av vita pormaskar, hudvårdsrutiner, ansiktsrengöring, djuprengöring av porer';
+$seo_keywords = 'stängda komedoner, vit pormask, vita pormaskar, ta bort vita pormaskar, komedon, inkapslade porer, vita porer i ansiktet, inkapslade pormaskar';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
 $path_segments = array(
@@ -22,7 +22,7 @@ $image_alt = 'Visuell representation av vita pormaskar på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Vita pormaskar',
-      description: 'I denna del granskar vi detaljerna kring vita pormaskar, deras uppkomst och hur Acnespecialisten kan erbjuda effektiva behandlingsmetoder. Vi tar upp processen bakom bildandet av vita pormaskar och ger råd om hur du kan minska dem och därmed förbättra din hy.',
+      description: 'I denna del granskar vi detaljerna kring vita pormaskar som även kallas stängda komedoner eller inkapslade pormaskar, deras uppkomst och hur AcneSpecialisten kan erbjuda effektiva behandlingsmetoder. Vi tar upp processen bakom bildandet av vita pormaskar och ger råd om hur du kan minska dem och därmed förbättra din hy.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
@@ -49,7 +49,7 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Vi behandlar vita pormaskar effektivt';
 
 $description_title = 'Vad är Vita Pormaskar?';
-$description_text = '<p class="p200">Vita pormaskar, även kända som stängda komedoner, uppkommer när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
+$description_text = '<p class="p200">Vita pormask, även kända som stängda komedon, uppkommer när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av vita pormaskar. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
 
 $treatment_steps = array(
