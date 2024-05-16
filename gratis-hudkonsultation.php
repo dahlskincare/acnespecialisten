@@ -1,6 +1,5 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-include_once('gratis-hudkonsultation/models.php');
 include_once('includes/models/service.php');
 include_once('includes/models/path_segment.php');
 
@@ -26,327 +25,6 @@ $model = new Service(
 );
 
 $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.';
-
-$categories = array(
-    new ConsultationCategory(
-        id: 'problem-skin-consultation',
-        name: 'Problemhy Konsultation',
-        description: 'Här hittar du våra konsultationer som är anpassade för ditt hudproblem. Vi analyserar din hy och tar fram en behandlingsplan med rätt behandlingar och produkter för just din hudtyp.',
-        types: array(
-            new ConsultationType(
-                title: 'Akne',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne'
-            ),
-            new ConsultationType(
-                title: 'Akneärr',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars'
-            ),
-            new ConsultationType(
-                title: 'Finnar',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples'
-            ),
-            new ConsultationType(
-                title: 'Blandhy',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin'
-            ),
-            new ConsultationType(
-                title: 'Pormaskar',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones'
-            ),
-            new ConsultationType(
-                title: 'Rosacea',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea'
-            ),
-            new ConsultationType(
-                title: 'Milier',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia'
-            ),
-            new ConsultationType(
-                title: 'Perioral Dermatit',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis'
-            ),
-            new ConsultationType(
-                title: 'Seborré',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea'
-            ),
-            new ConsultationType(
-                title: 'Bristningar',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks'
-            ),
-            new ConsultationType(
-                title: 'Födelsemärken',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles'
-            ),
-            new ConsultationType(
-                title: 'Pigmentfläckar',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots'
-            ),
-            new ConsultationType(
-                title: 'Mogen hy',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles'
-            ),
-            new ConsultationType(
-                title: 'Rodnad',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Redness'
-            ),
-            new ConsultationType(
-                title: 'Stora porer',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores'
-            ),
-            new ConsultationType(
-                title: 'Torr & känslig hy',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin'
-            ),
-            new ConsultationType(
-                title: 'Ytliga Blodkärl',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels'
-            ),
-            new ConsultationType(
-                title: 'Operations- och skadeärr',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars'
-            ),
-            new ConsultationType(
-                title: 'Melasma',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma'
-            ),
-            new ConsultationType(
-                title: 'Oönskat hår',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval'
-            ),
-        ),
-        button_label: 'Se alternativ',
-    ),
-    new ConsultationCategory(
-        id: 'service-consultation',
-        name: 'Behandlings konsultation',
-        description: 'Dessa konsultationer är för dig som redan vet vilken metod du är intresserad av att höra mer och komma igång med behandlingen av huden. Vi kommer att analysera huden noga och ta fram en skräddarsydd behandlingsplan för just din hy.',
-        types: array(
-            new ConsultationType(
-                title: 'Kemisk Peeling',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling'
-            ),
-            new ConsultationType(
-                title: 'Microneedling',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling'
-            ),
-            new ConsultationType(
-                title: 'Laser mot problemhy',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem'
-            ),
-            new ConsultationType(
-                title: 'Permanent hårborttagning',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval'
-            ),
-            new ConsultationType(
-                title: 'IPL',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL'
-            ),
-            new ConsultationType(
-                title: 'Microdemabrasion',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion'
-            ),
-            new ConsultationType(
-                title: 'Hydrodermabrasion',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion'
-            ),
-            new ConsultationType(
-                title: 'Dermabrasion',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion'
-            ),
-        ),
-        button_label: 'Se alternativ',
-    ),
-    new ConsultationCategory(
-        id: 'brand-consultation',
-        name: 'Varumärkes konsultation',
-        description: 'Våra varumärkes konsultationer är för dig som hört om ett specifikt märke eller maskin och är intresserad av att höra mer om hur den kan hjäpla dig att uppnå dina hudvårdsmål.',
-        types: array(
-            new ConsultationType(
-                title: 'Skin Tech',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech'
-            ),
-            new ConsultationType(
-                title: 'Powerlite Photonova',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PowerLite'
-            ),
-            new ConsultationType(
-                title: 'HydraFacial',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial'
-            ),
-            new ConsultationType(
-                title: 'Infuzion',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion'
-            ),
-            new ConsultationType(
-                title: 'Dermapen',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen'
-            ),
-            new ConsultationType(
-                title: 'PRX-T33',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33'
-            ),
-            new ConsultationType(
-                title: 'Hybrid CO2',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2'
-            ),
-            new ConsultationType(
-                title: 'Soprano Ice',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SopranoIce'
-            ),
-            new ConsultationType(
-                title: 'Harmony XL Pro',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO'
-            ),
-            new ConsultationType(
-                title: 'Rejuve Dye-VL',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve'
-            ),
-            new ConsultationType(
-                title: 'Splendor X',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SplendorX'
-            ),
-            new ConsultationType(
-                title: 'Photonova Powerlite',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova'
-            ),
-            new ConsultationType(
-                title: 'CryoPen',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen'
-            ),
-            new ConsultationType(
-                title: 'Exceed',
-                subtitle: '',
-                image: '',
-                url: '',
-                consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed'
-            ),
-        ),
-        button_label: 'Se alternativ',
-    ),
-);
 
 ?>
 <!DOCTYPE html>
@@ -400,12 +78,34 @@ $categories = array(
                     </div>
                 </section>
                 <section id="types" class="large-margin">
-                    <h2 class="h500 mb-xs l10n">Konsultations typer</h2>
-                    <hr class="is-hidden-desktop" />
-                    <?php foreach ($categories as $category) { ?>
-                        <?php include('gratis-hudkonsultation/widgets/consultation_category/consultation_category.php') ?>
-                        <hr class="is-hidden-desktop" />
-                    <?php } ?>
+                    <h2 class="h500 mb-xs l10n">Konsultation typer</h2>
+                    <div class="consultation-type">
+                        <div class="consultation-type-text">
+                            <h3 class="l10n">Problem skin consultation</h3>
+                            <p class="l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth.</p>
+                        </div>
+                        <div class="consultation-type-button">
+                            <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation" title="Book a problem consultation" class="button expand">Book a consultation</a>
+                        </div>
+                    </div>
+                    <div class="consultation-type">
+                        <div class="consultation-type-text">
+                            <h3 class="l10n">Service consultation</h3>
+                            <p class="l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth.</p>
+                        </div>
+                        <div class="consultation-type-button">
+                            <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation" title="Book a service consultation" class="button expand">Book a consultation</a>
+                        </div>
+                    </div>
+                    <div class="consultation-type">
+                        <div class="consultation-type-text">
+                            <h3 class="l10n">Brands &amp; models consultation</h3>
+                            <p class="l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth.</p>
+                        </div>
+                        <div class="consultation-type-button">
+                            <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation" title="Book a brands consultation" class="button expand">Book a consultation</a>
+                        </div>
+                    </div>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
@@ -450,7 +150,6 @@ $categories = array(
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
                 </section>
-                <!--Hudguide-->
                 <section id="specialister" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Våra specialister</h2>
@@ -484,7 +183,6 @@ $categories = array(
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="includes/scripts/floating-image.js"></script>
-    <script src="/gratis-hudkonsultation/widgets/consultation_category/consultation_category.js"></script>
     <script src="/gratis-hudkonsultation/consultation.js"></script>
 </body>
 
