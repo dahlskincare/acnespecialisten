@@ -92,7 +92,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Melasma uppstår ofta på hudområden som regelbundet utsätts för sol, såsom ansikte, händer och armar. Denna typ av hyperpigmentering uppstår på grund av en ökning i melaninproduktionen, det naturliga pigmentet som färgar huden. Ofta är detta en reaktion på långvarig exponering för solens UV-strålar. Dessutom spelar hudens åldringsprocess en roll i melasmas utveckling, eftersom hudens förmåga att återhämta sig från och reparera solskador minskar med åldern.</p>',
+            content: '<p class="p200">Melasma i ansiktet är vanligt då hudområdet ofta utsätts för regelbunden sol, och det kanäven förekomma på andra kroppsdelar såsom händer och armar. Denna typ av hyperpigmentering uppstår på grund av en ökning i melaninproduktionen, det naturliga pigmentet som färgar huden. Ofta är detta en reaktion på långvarig exponering för solens UV-strålar. Dessutom spelar hudens åldringsprocess en roll i melasmas utveckling, eftersom hudens förmåga att återhämta sig från och reparera solskador minskar med åldern.</p>',
       ),
 );
 
