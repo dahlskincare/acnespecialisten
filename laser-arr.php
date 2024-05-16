@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Laserbehandling mot Operations- och Skadeärr';
 $seo_description = 'Effektiv metod för att reducera ärr efter operationer och skador. Vi erbjuder skräddarsydd behandlingar för att förbättra utseendet på dina ärr.';
-$seo_keywords = 'laserbehandling för ärr, operationsärr behandling, skadeärr behandling, reducera ärr med laser, effektiv ärrbehandling, microneedling för ärr, kemisk peeling för ärr';
+$seo_keywords = 'laserbehandling av ärr, laser på ärr, laser ärr, laser för ärr, laserbehandling ärr, laser ärr före efter, laserbehandling ärr kostnad';
 
 $seo_image = '/images/treatments/large/laser.webp';
 
@@ -70,7 +70,7 @@ $nav_buttons = array(
 );
 
 $description_title = 'Laserbehandling mot ärr';
-$description_text = '<p class="p200">Laserbehandling är en avancerad metod för att effektivt minska synligheten av ärr orsakade av operationer och skador. Denna teknik använder koncentrerat ljus för att försiktigt ta bort ärrvävnad och stimulera hudens naturliga läkningsprocess, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
+$description_text = '<p class="p200">Laserbehandling är en avancerad metod för att effektivt minska synligheten av ärr orsakade av operationer och skador vilket inkluderar acneärr och bristningar. Denna teknik använder koncentrerat ljus för att försiktigt ta bort ärrvävnad och stimulera hudens naturliga läkningsprocess, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi laserbehandling som en del av vår omfattande ärrbehandlingsportfölj. Våra specialister anpassar behandlingen efter varje individs unika hudtyp och ärrbildning, med målet att uppnå optimala resultat. Utöver laserbehandlingar inkluderar våra behandlingsmetoder även microneedling och kemisk peeling, vilka kompletterar och förstärker effekten av laser.</p>';
 
 $types_title = '';
@@ -115,6 +115,7 @@ $big_types = array(
 
 );
 
+$results_title = 'Laser ärr före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',

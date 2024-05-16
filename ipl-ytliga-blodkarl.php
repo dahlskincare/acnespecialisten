@@ -4,8 +4,8 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'IPL-behandling mot Ytliga Blodkärl | AcneSpecialisten';
-$seo_description = 'Bli av med ytliga blodkärl, pigmentfläckar och åldersfläckar. Läs mer om vår IPL-behandling och boka en gratis konsultation hos AcneSpecialisten →';
-$seo_keywords = 'IPL-behandling ytliga blodkärl, minska synligheten av blodkärl, ljusbaserad hudvård, förbättra hudton, behandling av blodkärl, avancerad hudvårdsteknik, AcneSpecialisten hudexperter, jämnare hudbild';
+$seo_description = 'Bli av med ytliga blodkärl, pigmentfläckar och åldersfläckar. Läs mer om vår IPL behandling och boka en gratis konsultation hos AcneSpecialisten →';
+$seo_keywords = 'ipl behandling, ipl ansikte, ipl laser ansikte, ipl behandling ytliga blodkärl, laser blodkärl ansikte, ipl behandling ansikte, ipl näsa, ta bort blodkärl i ansiktet, behandling av ytliga blodkärl i ansiktet, ytliga blodkärl i ansiktet laser';
 
 $seo_image = 'images/treatments/large/ipl.webp';
 
@@ -19,7 +19,7 @@ $model = new Service(
     title: 'IPL mot ytliga blodkärl',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Med vår IPL-behandling kan du effektivt minska synligheten av ytliga blodkärl och uppnå en jämnare hudton. Denna ljusbaserade terapi är skonsam men kraftfull och riktar in sig specifikt på blodkärlen, vilket gör den särskilt lämplig för behandling av rosacea och relaterade hudtillstånd. Genom att skräddarsy varje session efter dina unika hudbehov, ser vi till att ge din hud den vård och uppmärksamhet den förtjänar för optimala resultat.</p>',
+    content: '<p class="p200">Med vår IPL behandling kan du effektivt minska synligheten av ytliga blodkärl och uppnå en jämnare hudton. Denna ljusbaserade terapi är skonsam men kraftfull och riktar in sig specifikt på blodkärlen, vilket gör den särskilt lämplig för behandling av rosacea och relaterade hudtillstånd. Genom att skräddarsy varje session efter dina unika hudbehov, ser vi till att ge din hud den vård och uppmärksamhet den förtjänar för optimala resultat.</p>',
     image_small: 'bilder/behandlingar/358x274/ipl.webp',
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot ytliga blodkärl',
@@ -47,9 +47,9 @@ $nav_buttons = array(
     'specialists' => 'Specialister',
 );
 
-$description_title = 'Vad är IPL-behandling mot Ytliga Blodkärl?';
-$description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus, är en framstående och icke-invasiv metod för att effektivt behandla ytliga blodkärl. Denna avancerade ljusbaserade teknologi avger specifika ljuspulser som målmedvetet tränger igenom huden för att minska synligheten av blodkärlen. IPL-behandling riktar sig direkt mot de blodkärl som orsakar ojämn hudton och synliga kärl på hudytan.</p>
-    <p class="p200 mt-m">Genom att specifikt behandla dessa blodkärl, bidrar IPL inte bara till en mer jämn hudton, utan förbättrar också hudens övergripande utseende och kvalitet. Varje behandling är individuellt anpassad för att uppnå bästa möjliga resultat baserat på patientens unika hudbehov. IPL-behandling för ytliga blodkärl är känd för att vara både skonsam och effektiv, med minimal risk för biverkningar. Många patienter ser märkbara förbättringar efter endast några sessioner, vilket gör detta till en uppskattad behandlingsmetod för dem som önskar reducera synligheten av ytliga blodkärl.</p>';
+$description_title = 'Vad är IPL behandling mot Ytliga Blodkärl?';
+$description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus, är en framstående och icke-invasiv metod för att effektivt behandla ytliga blodkärl. Denna avancerade ljusbaserade teknologi avger specifika ljuspulser som målmedvetet tränger igenom huden för att minska synligheten av blodkärlen. IPL behandling riktar sig direkt mot de blodkärl som orsakar ojämn hudton och synliga kärl på hudytan. IPL liknar laser behandling och kaneffektivt utföras i ansiktet för att ta bort ytliga blodkärl.</p>
+    <p class="p200 mt-m">Genom att specifikt behandla dessa blodkärl, bidrar IPL inte bara till en mer jämn hudton, utan förbättrar också hudens övergripande utseende och kvalitet. Varje behandling är individuellt anpassad för att uppnå bästa möjliga resultat baserat på patientens unika hudbehov. IPL behandling för ytliga blodkärl är känd för att vara både skonsam och effektiv, med minimal risk för biverkningar. Många patienter ser märkbara förbättringar efter endast några sessioner, vilket gör detta till en uppskattad behandlingsmetod för dem som önskar reducera synligheten av ytliga blodkärl.</p>';
 
 $treatment_steps = array(
     new TreatmentStep(
@@ -75,8 +75,8 @@ $top_articles = array(
         image_large: null,
         image_alt: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
         image_title: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
-        content: '<p class="p200">Att förbereda sig inför en IPL-behandling för ytliga blodkärl innebär att följa vissa steg för att maximera behandlingens effektivitet och säkerhet. Det börjar med en detaljerad konsultation med en erfaren hudterapeut som utvärderar din hudtyp och de områden där ytliga blodkärl är framträdande. Under denna konsultation skapas en behandlingsplan anpassad efter dina unika behov.</p>
-        <p class="p200 mt-m">Inför din IPL-behandling är det viktigt att undvika sol och självbrunande produkter minst två veckor i förväg. Detta för att minska risken för oönskad pigmentering eftersom behandlingen riktar sig mot pigment och blodkärl i huden. Du bör också undvika produkter som innehåller retinol, starka syror eller exfolierande ämnen dagarna före din behandling för att undvika överkänslighet eller irritation. Din hudterapeut kommer att ge dig noggranna instruktioner om hur du förbereder dig inför behandlingen och viktiga steg för eftervården för att främja en lyckad läkningsprocess.</p>',
+        content: '<p class="p200">Att förbereda sig inför en IPL behandling för ytliga blodkärl innebär att följa vissa steg för att maximera behandlingens effektivitet och säkerhet. Det börjar med en detaljerad konsultation med en erfaren hudterapeut som utvärderar din hudtyp och de områden där ytliga blodkärl är framträdande. Under denna konsultation skapas en behandlingsplan anpassad efter dina unika behov.</p>
+        <p class="p200 mt-m">Inför din IPL behandling är det viktigt att undvika sol och självbrunande produkter minst två veckor i förväg. Detta för att minska risken för oönskad pigmentering eftersom behandlingen riktar sig mot pigment och blodkärl i huden. Du bör också undvika produkter som innehåller retinol, starka syror eller exfolierande ämnen dagarna före din behandling för att undvika överkänslighet eller irritation. Din hudterapeut kommer att ge dig noggranna instruktioner om hur du förbereder dig inför behandlingen och viktiga steg för eftervården för att främja en lyckad läkningsprocess.</p>',
     ),
     'process' => new Article(
         title: 'Hur går en IPL mot Ytliga Blodkärl till?',
@@ -85,13 +85,13 @@ $top_articles = array(
         image_alt: 'Hur går en IPL mot Ytliga Blodkärl till?',
         image_title: 'Hur går en IPL mot Ytliga Blodkärl till',
         content: '<p class="p200">IPL-behandling mot ytliga blodkärl är en avancerad procedur som använder Intensivt Pulserande Ljus för att effektivt minska synligheten av dessa blodkärl. När du anländer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna makeup och orenheter. Dina ögon kommer också att skyddas med speciella skyddsglasögon för att säkerställa att de inte exponeras för det intensiva ljuset.</p>
-        <p class="p200 mt-m">Vi anpassar vår IPL-enhet för att justera ljuspulsens intensitet och våglängd till ditt hudtillstånd. Under behandlingen appliceras korta och intensiva ljuspulser direkt på de hudområden där ytliga blodkärl är synliga. Ljuset absorberas av blodkärlen, vilket minskar deras synlighet och förbättrar hudens utseende utan att skada omkringliggande vävnad.</p>
-        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, liknande en mild solbränna. Dessa symtom är vanligtvis temporära och avtar inom några timmar till dagar. Resultaten av IPL-behandlingen mot ytliga blodkärl blir ofta märkbara över tid, med en gradvis minskning av synligheten av blodkärlen och en förbättring av hudens allmänna skick. Din hudterapeut kommer att ge dig råd om eftervård och kan rekommendera uppföljningsbehandlingar för att bibehålla och förstärka effekterna av din IPL-behandling.</p>',
+        <p class="p200 mt-m">Vi anpassar vår IPL enhet för att justera ljuspulsens intensitet och våglängd till ditt hudtillstånd. Under behandlingen appliceras korta och intensiva ljuspulser direkt på de hudområden där ytliga blodkärl är synliga. Ljuset absorberas av blodkärlen, vilket minskar deras synlighet och förbättrar hudens utseende utan att skada omkringliggande vävnad.</p>
+        <p class="p200 mt-m">Efter behandlingen kan det behandlade området kännas varmt och se något rött ut, liknande en mild solbränna. Dessa symtom är vanligtvis temporära och avtar inom några timmar till dagar. Resultaten av IPL behandlingen mot ytliga blodkärl blir ofta märkbara över tid, med en gradvis minskning av synligheten av blodkärlen och en förbättring av hudens allmänna skick. Din hudterapeut kommer att ge dig råd om eftervård och kan rekommendera uppföljningsbehandlingar för att bibehålla och förstärka effekterna av din IPL behandling.</p>',
     ),
 );
 
 $treatment_areas_title = 'Behandlingsområden för IPL mot ytliga blodkärl';
-$treatment_areas_text = '<p class="p200">Med IPL behandlar vi ytliga blodkärl i ansiktet.</p>';
+$treatment_areas_text = '<p class="p200">Få bort ytliga blodkärl i ansiktet med IPL.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -110,7 +110,7 @@ $treatment_areas = array(
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Face',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av ansiktet'
+                url_title: 'Boka tid för IPL behandling av ansiktet'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/nasa.webp',
@@ -121,7 +121,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Nose',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av näsan'
+                url_title: 'Boka tid för IPL behandling av näsan'
             ),
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/kinder.webp',
@@ -132,7 +132,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Cheeks',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av kinderna',
+                url_title: 'Boka tid för IPL behandling av kinderna',
             ),
         )
     ),
@@ -153,7 +153,7 @@ $treatment_areas = array(
                 price: '995 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_1x_spot_yb',
                 url_label: 'Boka',
-                url_title: 'Boka tid för IPL-behandling av 1 st Ytligt blodkärl',
+                url_title: 'Boka tid för IPL behandling av 1 st Ytligt blodkärl',
             ),
         )
     ),
@@ -163,11 +163,11 @@ $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård för IPL mot ytliga blodkärl',
     image_small: null,
     image_large: null,
-    image_alt: 'Eftervård för IPL-behandling mot ytliga blodkärl',
+    image_alt: 'Eftervård för IPL behandling mot ytliga blodkärl',
     image_title: 'Eftervård för IPL mot ytliga blodkärl',
-    content: '<p class="p200">Eftervården är en central del av återhämtningsprocessen efter en IPL-behandling mot ytliga blodkärl. Efter behandlingen kan det förekomma en viss rodnad och ibland en mild svullnad i de behandlade områdena. Dessa reaktioner är vanliga och bör avta relativt snabbt. Det är viktigt för att undvika irritation och infektion att inte röra det behandlade området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
-    <p class="p200 mt-m">Under de första dagarna efter din IPL-behandling är det rekommenderat att du avstår från intensiv fysisk aktivitet, bastubad och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Det är också viktigt att skydda huden mot solen. Använd solskyddskräm med hög SPF regelbundet, särskilt på de behandlade områdena, för att förhindra ytterligare solskador och främja läkning. Använd gärna milda, återfuktande hudvårdsprodukter som inte innehåller irriterande ämnen för att lugna huden och bibehålla dess fuktbalans.</p>
-    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner du får från din hudterapeut. Om du har några frågor eller bekymmer om din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljningsbehandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL-behandling mot ytliga blodkärl.</p>',
+    content: '<p class="p200">Eftervården är en central del av återhämtningsprocessen efter en IPL behandling mot ytliga blodkärl. Efter behandlingen kan det förekomma en viss rodnad och ibland en mild svullnad i de behandlade områdena. Dessa reaktioner är vanliga och bör avta relativt snabbt. Det är viktigt för att undvika irritation och infektion att inte röra det behandlade området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
+    <p class="p200 mt-m">Under de första dagarna efter din IPL behandling är det rekommenderat att du avstår från intensiv fysisk aktivitet, bastubad och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Det är också viktigt att skydda huden mot solen. Använd solskyddskräm med hög SPF regelbundet, särskilt på de behandlade områdena, för att förhindra ytterligare solskador och främja läkning. Använd gärna milda, återfuktande hudvårdsprodukter som inte innehåller irriterande ämnen för att lugna huden och bibehålla dess fuktbalans.</p>
+    <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner du får från din hudterapeut. Om du har några frågor eller bekymmer om din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljningsbehandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL behandling mot ytliga blodkärl.</p>',
     tags: array(new ArticleTag('article-tag-steam', 'Steam'), new ArticleTag('article-tag-extraction', 'Extraction'), new ArticleTag('article-tag-mask', 'Mask'), new ArticleTag('article-tag-cleansing', 'Cleansing'))
 ));
 
@@ -201,6 +201,7 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'IPL ansikte före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -343,19 +344,19 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur behandlas ytliga blodkärl?',
-            text: '<p class="p200">Ytliga blodkärl behandlas med hjälp av intensivt pulserat ljus, eller IPL. Denna teknologi fungerar genom att sända ut en serie av ljuspulser över en rad olika våglängder som absorberas av de röda blodkärlen. Värmen från ljuset får blodkärlen att koagulera och brytas ner, vilket resulterar i att de gradvis försvinner eller blir mindre framträdande. Eftersom IPL använder en bredare våglängd jämfört med laserterapi, kan det vara mer anpassningsbart och användbart för att behandla olika typer av ytliga blodkärl. IPL betraktas som en icke-invasiv behandlingsform och har därför kortare återhämtningstid jämfört med kirurgiska alternativ.</p>'
+            text: '<p class="p200">Ytliga blodkärl behandlas med hjälp av intensivt pulserat ljus, eller IPL. Denna teknologi fungerar genom att sända ut en serie av ljuspulser över en rad olika våglängder som absorberas av de röda blodkärlen. Värmen från ljuset får blodkärlen att koagulera och brytas ner, vilket resulterar i att de gradvis försvinner eller blir mindre framträdande. Eftersom IPL använder en bredare våglängd jämfört med laser, kan det vara mer anpassningsbart och användbart för att behandla olika typer av ytliga blodkärl. IPL betraktas som en icke-invasiv behandlingsform och har därför kortare återhämtningstid jämfört med kirurgiska alternativ.</p>'
         ),
         new Question(
             title: 'Hur många behandlingar med IPL krävs för att behandla ytliga blodkärl?',
-            text: 'Antalet IPL-behandlingar som krävs för att effektivt minska ytliga blodkärl varierar beroende på individens hudtillstånd och omfattningen av blodkärlen. Vanligtvis kan det krävas mellan 3-8 behandlingar, med intervaller på cirka 4 veckor, för att uppnå märkbar förbättring. Din hudterapeut kommer att skapa en anpassad behandlingsplan baserad på en initial konsultation.'
+            text: 'Antalet IPL behandlingar som krävs för att effektivt minska ytliga blodkärl varierar beroende på individens hudtillstånd och omfattningen av blodkärlen. Vanligtvis kan det krävas mellan 3-8 behandlingar, med intervaller på cirka 4 veckor, för att uppnå märkbar förbättring. Din hudterapeut kommer att skapa en anpassad behandlingsplan baserad på en initial konsultation.'
         ),
         new Question(
-            title: 'Kan ytliga blodkärl återkomma efter en IPL-behandling?',
+            title: 'Kan ytliga blodkärl återkomma efter en IPL behandling?',
             text: 'IPL-behandling kan effektivt minska synligheten av ytliga blodkärl, men det är viktigt att komma ihåg att vissa livsstilsfaktorer, som sol exponering och genetiska förutsättningar, kan påverka deras återkomst. Regelbundna uppföljningsbehandlingar och adekvat hudvård kan behövas för att bibehålla resultaten över tid.'
         ),
         new Question(
-            title: 'När börjar jag se resultat efter IPL-behandling mot ytliga blodkärl?',
-            text: 'De första resultaten av IPL-behandling mot ytliga blodkärl kan ofta ses inom några dagar till en vecka efter behandlingen, med fortsatt förbättring efter varje session. Många patienter rapporterar en gradvis minskning av synligheten av blodkärl efter varje behandling. Fullständiga och långsiktiga resultat kan dock variera beroende på individens hudtillstånd och antal genomförda behandlingar.'
+            title: 'När börjar jag se resultat efter IPL behandling mot ytliga blodkärl?',
+            text: 'De första resultaten av IPL behandling mot ytliga blodkärl kan ofta ses inom några dagar till en vecka efter behandlingen, med fortsatt förbättring efter varje session. Många patienter rapporterar en gradvis minskning av synligheten av blodkärl efter varje behandling. Fullständiga och långsiktiga resultat kan dock variera beroende på individens hudtillstånd och antal genomförda behandlingar.'
         ),
         new Question(
             title: 'Kan jag behandla ytliga blodkärl med hemmabehandlingar?',

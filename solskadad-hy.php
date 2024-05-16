@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Solskadad Hy - Behandling, Orsak och Förebygg';
+$seo_title = 'Allt om Solskadad Hud - Behandling, Orsak och Förebygg';
 $seo_description = 'Allt om solskadad hy, orsaker, effektiva behandlingar och förebyggand. Få expertvägledning och skräddarsydda lösningar för att hantera och reparera solskadad hy';
-$seo_keywords = 'solskadad hy, behandla solskadad hy, orsaker till solskadad hy, förebygga solskador, minska solskador, solskador på huden, behandling av solskador, hudens återhämtning efter solen';
+$seo_keywords = 'solskadad hud ansikte, solskadad hud behandling, behandla solskadad hud, solskadad hud, solskadad hud kräm, solskadad hud bilder, melasma ansiktet';
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $path_segments = array(
@@ -21,7 +21,7 @@ $image_title = 'Visar en hud med solskadad hy';
 $image_alt = 'Bild som illustrerar effekterna av solskadad hy';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Solskadad hy',
+      title: 'Solskadad hud',
       description: 'Om du har märkt av tecken på solskadad hy, såsom solfläckar eller förändrad hudtextur, är du inte ensam. Vi på Acnespecialisten har djupgående kunskap om dessa utmaningar och erbjuder effektiva behandlingar. Upptäck hur vi kan skräddarsy en behandlingsplan som passar just dina behov, och boka en kostnadsfri konsultation idag för att påbörja din väg mot en återhämtad och friskare hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation för akne'),
@@ -61,8 +61,8 @@ $nav_buttons = array(
       'related-problems' => 'Relaterade problem',
 );
 
-$description_title = 'Vad är Solskadad Hy?';
-$description_text = '<p class="p200">Solskadad hy kännetecknas ofta av mörka fläckar, ojämn hudton och ibland förtjockad eller läderartad textur. Detta är resultatet av långvarig och upprepad exponering för solens skadliga UV-strålar. Solskador på huden kan drabba människor i alla åldrar, men är vanligare hos äldre individer eller de som ofta vistas i starkt solsken.</p>
+$description_title = 'Vad är Solskadad Hud?';
+$description_text = '<p class="p200">Solskadad hud kännetecknas ofta av mörka fläckar, ojämn hudton och ibland förtjockad eller läderartad textur. Detta är resultatet av långvarig och upprepad exponering för solens skadliga UV-strålar. Solskador på huden kan drabba människor i alla åldrar, men är vanligare hos äldre individer eller de som ofta vistas i starkt solsken.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi flera behandlingsalternativ för solskadad hy, inklusive ljusbaserade behandlingar, kemiska peelingar och mikrodermabrasion. Dessa metoder hjälper till att minska synliga tecken på solskador och förbättra hudens övergripande utseende och hälsa. Vi ger också råd om hur du kan skydda din hud från framtida solskador och upprätthålla en hälsosam och strålande hud.</p>';
 
 $treatment_steps = array(
