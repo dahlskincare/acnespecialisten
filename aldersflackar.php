@@ -48,19 +48,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar åldersfläckar effektivt';
 
-$nav_buttons = array(
-      'about' => 'Om åldersfläckar',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är Åldersfläckar?';
 $description_text = '<p class="p200">Åldersfläckar, ofta ett resultat av huden som åldras och långvarig exponering för solen, är små, mörka områden på huden. De är vanligast hos personer över 50 år men kan också dyka upp hos yngre individer som spenderar mycket tid i solen.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi en rad behandlingar för att hantera åldersfläckar. Våra metoder inkluderar allt från ljusbaserade behandlingar till kemiska peelingar och mikrodermabrasion. Dessa behandlingar är utformade för att minska synligheten av åldersfläckar och ge din hud en mer jämn ton. Vi erbjuder också råd om hur du kan förebygga nya åldersfläckar och hålla din hud hälsosam och strålande.</p>';
@@ -419,9 +406,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

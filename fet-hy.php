@@ -44,21 +44,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandling av fet hy.';
 
-$nav_buttons = array(
-      'about' => 'Om Blandhy',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är Fet Hy?';
 $description_text = '<p class="p200">Fet hy, även kallad flottig hud, är en av de vanligaste hudtyperna. Den kännetecknas av överproduktion av talg, vilket resulterar i en oljig yta som kan leda till tilltäppta porer och acne. Fet hy uppstår när porerna producerar för mycket talg, vilket är kroppens naturliga fett som hjälper till att återfukta huden. En naturlig reaktion är att sluta återfukta huden för att minska talgproduktionen, men detta kan istället leda till att huden blir ännu fetare.</p>
 
@@ -526,9 +511,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

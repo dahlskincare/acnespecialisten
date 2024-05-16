@@ -73,15 +73,7 @@ $services_per_category = array(
         )
     )
 );
-$nav_buttons = array(
-    'Areas' => 'Areas',
-    'Bundles' => 'Bundles',
-    'Combinations' => 'Combinations',
-    'description' => 'About',
-    'reviews' => 'Reviews',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialists',
-);
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -118,9 +110,6 @@ $nav_buttons = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                         <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="services" class="large-margin">
                     <?php foreach ($services_per_category as $category => $services) {

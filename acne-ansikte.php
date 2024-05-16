@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$nav_buttons = array(
-      'about' => 'Om akne i ansiktet',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är akne i ansiktet?';
 $description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av talg, kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
 <p class="p200 mt-m">Akne påverkar oftast områden i ansiktet där talgkörtlar är mest aktiva, inklusive käklinje, kinder, panna, näsa samt på området under haka. I vissa fall kan akne även sprida sig till halsen, vilket ytterligare kan försvåra tillståndet. Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
@@ -391,9 +378,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

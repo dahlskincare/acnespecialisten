@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar på ryggen effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om finnar på ryggen',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Hur får man bort finnar på ryggen?';
 $description_text = '<p class="p200">Finnar på ryggen är ett vanligt hudproblem som drabbar personer i alla åldrar, ofta relaterat till faktorer såsom hormonella förändringar, stress och specifika livsstilsval. Acnespecialisten är dedikerad till att noggrant rengöra och balansera huden, med behandlingsmetoder anpassade för olika åldersgrupper och hudtyper. Vi erbjuder ett brett spektrum av behandlingar som effektivt hanterar akne samtidigt som de är skonsamma mot huden.</p>
 
@@ -450,9 +437,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

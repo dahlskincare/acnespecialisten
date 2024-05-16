@@ -59,17 +59,6 @@ $model = new Service(
 
 $floating_box = 'Behandlar och reducerar akneärr.';
 
-$nav_buttons = array(
-    'about' => 'Om microneedling mot akneärr',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'brands' => 'Märken',
-);
-
-
 $description_title = 'Vad är microneedling mot akneärr?';
 $description_text = '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akneärr som använder sig av precisionsutformade mikronålar för att förbättra hudens textur och minska akneärr. Genom att skapa små, nästan omärkliga punkteringar i huden, stimulerar denna teknik hudens egen läkningsmekanism och ökar produktionen av kollagen. Detta resulterar i en synbart fastare och mer enhetlig hudstruktur.</p>
 <p class="p200 mt-m">På Acnespecialisten anpassar vi varje microneedling-behandling till dina individuella hudbehov, speciellt när det gäller akneärr. Denna metod är idealisk för att uppnå en jämnare hudton och för att reducera synligheten av ärr. Med konsekventa behandlingar kommer du att uppleva en betydande förbättring av din hud, inklusive minskade porer. Vårt främsta mål är att hjälpa dig att uppnå en mjukare och jämnare hy.</p>';
@@ -385,9 +374,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

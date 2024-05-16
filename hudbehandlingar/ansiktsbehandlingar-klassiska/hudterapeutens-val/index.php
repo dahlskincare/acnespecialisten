@@ -58,18 +58,6 @@ $model = new Service(
     ),
 );
 
-$nav_buttons = array(
-    'about' => 'Om hudterapeutens val',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeut',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är hudterapeutens val?';
 $description_text = '<p class="p200">Hudterapeutens val är en högst personlig ansiktsbehandling för skräddarsydd hudvård där varje moment för att passa just din hudtyp och dina specifika behov. Denna behandling kan inkludera allt från Lumafuse med LED-mask för att förstärka hudens lyster till djuprengöring med Peel2glow som skonsamt avlägsnar orenheter och ger huden ny energi.</p>
     <p class="p200 mt-m">Varje behandling är unikt komponerad efter en noggrann hudanalys utförd av din hudterapeut. Beroende på din huds tillstånd och dina önskemål kan behandlingen även innefatta brynstyling, applicering av närande masker och potenta serum anpassade för just din hud. Vårt mål är att inte enbart adressera aktuella hudutmaningar utan också att förbättra din huds övergripande hälsa och välmående över tid.</p>';
@@ -507,9 +495,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

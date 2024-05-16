@@ -43,20 +43,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar hudflikar effektivt och skonsamt';
 
-$nav_buttons = array(
-      'about' => 'Om hudflikar',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är hudflikar?';
 $description_text = '<p class="p200">Hudflikar, även kända som fibrom, skin tags (skinnflik på svenska), är små, mjuka hud utväxter som ofta sitter på en tunn stjälk. De är vanligtvis hudfärgade eller något mörkare och kan förekomma på olika delar av kroppen, men är vanligast i områden där huden veckar sig eller gnider mot sig själv, såsom på halsen, under armarna, i armhålorna, i ljumskarna, på ögonlocken och under brösten. </p>
 <p class="p200 mt-m">Hudflikar är i allmänhet små, vanligtvis mellan några millimeter och upp till två centimeter i storlek. De är godartade, vilket innebär att de inte är cancerogena och sällan orsakar hälsoproblem. Trots detta kan de ibland vara irriterande eller oattraktiva, vilket kan leda till att människor vill ta bort dem av kosmetiska skäl.</p>';
@@ -243,28 +229,28 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Hur ser hudflikar ut jämfört med andra vårtor eller fibrom? Finns det några specifika kännetecken?',
-                text: 'Hudflikar är små, mjuka och ofta hudfärgade, medan vårtor kan vara hårdare och ha en ojämn yta. Fibrom är vanligtvis större och hårdare än hudflikar. Hudflikar sitter ofta på en tunn stjälk, vilket skiljer dem från andra utväxter.'
+                  title: 'Hur ser hudflikar ut jämfört med andra vårtor eller fibrom? Finns det några specifika kännetecken?',
+                  text: 'Hudflikar är små, mjuka och ofta hudfärgade, medan vårtor kan vara hårdare och ha en ojämn yta. Fibrom är vanligtvis större och hårdare än hudflikar. Hudflikar sitter ofta på en tunn stjälk, vilket skiljer dem från andra utväxter.'
             ),
 
             new Question(
-                title: 'Kan hudflikar vara farliga eller leda till komplikationer om de inte behandlas?',
-                text: 'Hudflikar är i allmänhet godartade och leder sällan till komplikationer. Dock kan de ibland bli irriterade, blöda eller orsaka obehag om de gnids mot kläder eller smycken. I sådana fall kan borttagning övervägas.'
+                  title: 'Kan hudflikar vara farliga eller leda till komplikationer om de inte behandlas?',
+                  text: 'Hudflikar är i allmänhet godartade och leder sällan till komplikationer. Dock kan de ibland bli irriterade, blöda eller orsaka obehag om de gnids mot kläder eller smycken. I sådana fall kan borttagning övervägas.'
             ),
 
             new Question(
-                title: 'Vilka medicinska behandlingar finns tillgängliga för att ta bort hudflikar, och när bör man söka professionell hjälp?',
-                text: 'Medicinska behandlingar för borttagning av hudflikar inkluderar kryoterapi och laserbehandling, . Man bör söka professionell hjälp om hudfliken är stor, sitter på ett känsligt område eller om den orsakar obehag.'
+                  title: 'Vilka medicinska behandlingar finns tillgängliga för att ta bort hudflikar, och när bör man söka professionell hjälp?',
+                  text: 'Medicinska behandlingar för borttagning av hudflikar inkluderar kryoterapi och laserbehandling, . Man bör söka professionell hjälp om hudfliken är stor, sitter på ett känsligt område eller om den orsakar obehag.'
             ),
 
             new Question(
-                title: 'Finns det några specifika åtgärder man kan vidta för att förhindra uppkomsten av hudflikar?',
-                text: 'För att minska risken för att utveckla hudflikar kan man försöka minska friktionen på huden genom att bära lösa kläder och hålla huden ren och torr. Att upprätthålla en hälsosam vikt och kontrollera blodsockernivåer kan också vara förebyggande åtgärder.'
+                  title: 'Finns det några specifika åtgärder man kan vidta för att förhindra uppkomsten av hudflikar?',
+                  text: 'För att minska risken för att utveckla hudflikar kan man försöka minska friktionen på huden genom att bära lösa kläder och hålla huden ren och torr. Att upprätthålla en hälsosam vikt och kontrollera blodsockernivåer kan också vara förebyggande åtgärder.'
             ),
 
             new Question(
-                title: 'Vilka är de mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden?',
-                text: 'De mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden inkluderar kryoterapi och laserbehandling . Det är viktigt att behandlingen utförs av en hudterapeut för att minimera risken för ärrbildning och infektion.'
+                  title: 'Vilka är de mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden?',
+                  text: 'De mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden inkluderar kryoterapi och laserbehandling . Det är viktigt att behandlingen utförs av en hudterapeut för att minimera risken för ärrbildning och infektion.'
             ),
       ),
 );
@@ -419,9 +405,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

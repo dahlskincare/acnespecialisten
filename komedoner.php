@@ -48,18 +48,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar komedoner effektivt';
 
-$nav_buttons = array(
-      'about' => 'Om komedoner',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är Komedoner?';
 $description_text = '<p class="p200">Komedoner uppstår när porer täpps till av talg och döda hudceller. De kan manifestera sig som svarta eller vita prickar på huden, ofta i områden som ansiktet, näsan och pannan. Komedoner kan vara ett tecken på oren hud och kan leda till ytterligare hudproblem om de inte behandlas korrekt.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi effektiva behandlingar för att hantera komedoner, inklusive djuprengöring och specifika ansiktsbehandlingar. Våra behandlingsmetoder är utformade för att noggrant rengöra porerna och ta bort ansamlingar av talg och hudceller. Genom att kombinera professionella behandlingar med rätt hemmavårdsrutiner, strävar vi efter att ge dig en klarare och friskare hud med färre synliga komedoner.</p>';
@@ -368,9 +356,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

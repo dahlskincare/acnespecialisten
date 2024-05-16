@@ -54,19 +54,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla din stress acne effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om stress acne',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är stress acne?';
 $description_text = '<p class="p200">Stress acne, även känd som akne stress, är en hudåkomma där utbrott av akne förvärras eller utlöses av perioder av hög stress. Ironiskt nog kan själva närvaron av acne öka stressnivåerna, vilket skapar en ond cirkel av stress och hudproblem. Denna typ av akne uppstår när kroppen reagerar på stress genom att producera ökad mängd av hormonet kortisol, vilket kan stimulera hudens talgkörtlar till överproduktion av talg. Denna överflödiga talg kan leda till tilltäppta porer och därmed utbrott av akne. Att hantera denna cykel av stress och akne kan vara utmanande, särskilt när de faktorer som orsakar stress är svåra att kontrollera eller eliminera. Nyckeln till att effektivt behandla stress acne ligger i att utveckla en skräddarsydd behandlingsplan tillsammans med en hudterapeut.</p>
 <p class="p200 mt-m">En skräddarsydd hudvårdsrutin för att hantera stress acne bör fokusera på att använda effektiva hudvårdsprodukter som behandlar och balanserar huden effektivt för att reglera hudens talgproduktion och främja en hälsosam hudbarriär. Att integrera produkter med lugnande och antiinflammatoriska egenskaper kan också hjälpa till att reducera rodnad och irritation associerad med akne. Även om det kan vara svårt att direkt påverka de stressfaktorer som bidrar till utbrott, kan en effektiv hudvårdsrutin, utvecklad i samråd med en hudterapeut, erbjuda en väg för att kontrollera och minska incidensen av stress acne. Genom att ta hand om huden på rätt sätt kan man bryta den onda cirkeln av stress och akne, vilket leder till både ett bättre hudtillstånd och minskad stress relaterad till hudproblem.</p>';
@@ -450,9 +437,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

@@ -59,20 +59,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv porrengöring.';
 
-$nav_buttons = array(
-    'about' => 'Om porrengöring',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är porrengöring?';
 $description_text = '<p class="p200">Porrengöring är en ansiktsbehandling utformad för att rensa porerna från talg, smuts och döda hudceller som bidrar till bildandet av pormaskar. Denna noggranna rengöringsprocess fokuserar på att effektivt avlägsna de blockeringar som kan leda till hudproblem såsom pormaskar och akne, samtidigt som den bidrar till en mer balanserad hud. Behandlingen är särskilt fördelaktig för personer med en benägenhet för oljig hud och de som regelbundet upplever tilltäppta porer.</p>
 <p class="p200 mt-m">Under en porrengöring utförs en serie steg för att varsamt men grundligt rensa hudens yta, inklusive en exfoliering som hjälper till att lösgöra och avlägsna döda hudceller samt en djuprengöring för att direkt ta itu med och rensa ut talg och orenheter från porerna. Denna metod bidrar till att minska risken för inflammationer och stödjer en klarare, mer strålande hud. För dem som strävar efter att bibehålla en ren och frisk hud, erbjuder porrengöring en djupgående lösning som lämnar huden ren, återfuktad och med en märkbar minskning av synliga pormaskar.</p>';
@@ -522,9 +508,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>
