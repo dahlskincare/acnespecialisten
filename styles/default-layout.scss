@@ -27,7 +27,7 @@ html {
         header {
             position: sticky;
             background-color: $white-500;
-            top: 0;
+            top: - $important-notice-height;
             z-index: 99;
             border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 
