@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Åldersfläckar - Behandling, Orsak och Förebygg';
 $seo_description = 'Allt  om åldersfläckar, inklusive orsakerna bakom dem, effektiva behandlingsmetoder och hur du kan förebygga dem.';
-$seo_keywords = 'åldersfläckar, behandling av åldersfläckar, orsaker till åldersfläckar, förebygga åldersfläckar, minska åldersfläckar, hyperpigmentering, hudfläckar, behandling av hyperpigmentering, hudens åldrande';
+$seo_keywords = 'åldersfläckar ansikte, åldersfläckar, åldersfläckar i ansiktet, hyperpigmentering ansikte, hyperpigmentering, åldersfläckar på huden';
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $path_segments = array(
@@ -92,7 +92,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Åldersfläckar tenderar att bildas på de delar av kroppen som mest frekvent exponeras för solen, såsom ansiktet, händerna och armarna. Dessa fläckar är ett resultat av ökad melaninproduktion, det pigment som ger hud dess färg, vilket ofta orsakas av långvarig exponering för UV-strålar från solen. Hudens naturliga åldringsprocess bidrar också, då dess förmåga att återhämta sig från solskador minskar över tiden.</p>',
+            content: '<p class="p200">Åldersfläckar i ansiktet är vanligt på grund av dess frekventa exponering av sol, de kan uppstå på både händerna och armarna av samma anledning. Denna hyperpigmentering är ett resultat av ökad melaninproduktion, det pigment som ger hud dess färg, vilket ofta orsakas av långvarig exponering för UV-strålar från solen. Hudens naturliga åldringsprocess bidrar också, då dess förmåga att återhämta sig från solskador minskar över tiden.</p>',
       ),
 );
 
