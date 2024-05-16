@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Ta bort milier med milier behandling';
 $seo_description = 'Ansiktsbehandling för att effektivt få bort milier, skräddarsydda för att ta bort milier och ge en slät hud.';
-$seo_keywords = 'ansiktsbehandlingar för milier, milierbehandling, borttagning av milier, behandla milier, ta bort milier, förebygga milier, reducera milier';
+$seo_keywords = 'milier hudterapeut, hur få bort milier i ansiktet, milier behandling, ta bort milier själv, ta bort milier stockholm, borttagning av milier, milier ta bort, milier borttagning, ta bort milier, få bort milier, hur får man bort milier';
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
@@ -68,7 +68,7 @@ $nav_buttons = array(
     'service-brands' => 'Märken',
 );
 
-$description_title = 'Ta bort milier';
+$description_title = 'Hur får man bort milier i ansiktet?';
 $description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov för att du ska få bort dina milier. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt.</p>';
 
 $types_title = '';
