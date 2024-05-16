@@ -46,7 +46,6 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-
 $floating_box = 'Vi behandlar vita pormaskar effektivt';
 
 $description_title = 'Vad är Vita Pormaskar?';
