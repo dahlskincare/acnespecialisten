@@ -224,8 +224,8 @@ $type_categories = array(
                         image_url: '/bilder/symptom/102x102/pigmentflackar-overlapp.webp',
                         image_alt: 'Bild av pigmentfläckar på överläppen',
                         image_title: 'Pigmentförändringar på överläppen',
-                        //url: 'hudproblem/pigmentflackar/omraden/overlappen',
-                        //url_title: 'Läs mer om pigmentfläckar på överläppen'
+                        url: '/melasma.php',
+                        url_title: 'Läs mer om pigmentfläckar på överläppen'
                   ),
                   new BasedType(
                         title: 'Pigmentfläckar på Kroppen',

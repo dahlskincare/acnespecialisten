@@ -242,20 +242,38 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                title: 'Hur kan man identifiera seborroisk keratos?',
+                text: 'Seborroisk keratos kan identifieras genom dess karakteristiska vårtlika, upphöjda fläckar som är bruna till svarta i färgen. De är ofta skrovliga eller vaxartade och kan variera i storlek. Fläckarna är vanligast på bröstet, ryggen, ansiktet eller halsen.'
             ),
+
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                title: 'Är seborroisk keratos farligt?',
+                text: 'Seborroisk keratos är en godartad hudåkomma och är inte farlig. De är ofarliga och leder sällan till komplikationer, även om de kan vara kosmetiskt besvärande och ibland klia eller bli irriterade.'
             ),
+
             new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                title: 'Kan seborroisk keratos lossna av sig själv?',
+                text: 'Ibland kan seborroisk keratos lossna av sig själv, särskilt om de utsätts för friktion från kläder eller smycken. Men de flesta förblir på plats och kräver behandling om man vill ta bort dem.'
             ),
+
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                title: 'Vilka behandlingsalternativ finns för att ta bort seborroisk keratos?',
+                text: 'Behandlingsalternativ för att ta bort seborroisk keratos inkluderar kryoterapi (frysning) och  laserbehandling. Det är bäst att rådgöra med en hudläkare för att bestämma den mest lämpliga metoden.'
+            ),
+
+            new Question(
+                title: 'Kan man behandla seborroisk keratos själv hemma?',
+                text: 'Det rekommenderas inte att behandla seborroisk keratos själv hemma, eftersom det kan leda till infektion eller ärrbildning. Professionell behandling av en läkare eller hudläkare är att föredra för att säkerställa säker och effektiv borttagning.'
+            ),
+
+            new Question(
+                title: 'Hur skiljer sig seborroisk keratos från andra hudåkommor som vårtor och åldersfläckar?',
+                text: 'Seborroisk keratos skiljer sig genom att de är godartade, vårtlika och ofta upphöjda med en skrovlig eller vaxartad yta. Åldersfläckar är platta och pigmenterade, medan vårtor är orsakade av virus och ofta har en ojämn yta.'
+            ),
+
+            new Question(
+                title: 'Finns det några risker eller biverkningar med att ta bort seborroisk keratos?',
+                text: 'Borttagning av seborroisk keratos är generellt säkert och effektivt sätt, men som med alla ingrepp finns det risker för biverkningar som infektion, ärrbildning och pigmentförändringar. Det är viktigt att följa hudterapeuten råd och eftervårdsinstruktioner noggrant.'
             ),
       ),
 );
