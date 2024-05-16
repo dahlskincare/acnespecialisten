@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar mjälleksem på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Mjälleksem',
-      description: 'I den här sektionen utforskar vi vad mjälleksem innebär, varför det uppstår och hur Acnespecialisten kan hjälpa dig med behandling. Vi diskuterar orsakerna till mjälleksem, hur det skiljer sig från andra hudtillstånd och hur vi kan stödja dig genom din behandlingsprocess.',
+      description: 'Mjälleksem i ansiktet, framförallt i ögonbrynen och i hårfästet är ett vanligt hudproblem. I den här sektionen utforskar vi vad mjälleksem är, varför det uppstår och hur AcneSpecialisten kan hjälpa dig med behandling. Vi diskuterar orsakerna till mjälleksem, hur det skiljer sig från andra hudtillstånd och hur vi kan stödja dig genom din behandlingsprocess.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea', 'Boka gratis Konsultation för Mjälleksem'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea', 'Boka denna behandling'),
@@ -98,7 +98,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">När det gäller mjälleksem, är det viktigt att förstå varför och var det vanligtvis uppstår för att kunna hantera det effektivt. Mjälleksem, även känt som seborroisk dermatit, drabbar ofta områden med hög densitet av talgkörtlar som skalpen, ansiktet (särskilt näsan och ögonbrynen), öronkanalerna och bröstet. Under din konsultation hos AcneSpecialisten, utförs en noggrann hudanalys för att identifiera dessa problemområden och förstå de underliggande orsakerna till ditt mjälleksem.</p>
+            content: '<p class="p200">När det gäller mjälleksem, är det viktigt att förstå varför och var det vanligtvis uppstår för att kunna hantera det effektivt. Mjälleksem, även känt som seborroisk dermatit, drabbar ofta områden med hög densitet av talgkörtlar som skalpen, ansiktet i ögonbrynen och på vid näsan, öronkanalerna och bröstet. Under din konsultation hos AcneSpecialisten, utförs en noggrann hudanalys för att identifiera dessa problemområden och förstå de underliggande orsakerna till ditt mjälleksem.</p>
       <p class="p200 mt-m">Det är viktigt att skydda dessa känsliga områden från ytterligare irritation. Vi rekommenderar att undvika hudirriterande produkter och starka syror, särskilt i de drabbade områdena. Dessa förberedelser är avgörande för att säkerställa att eventuella behandlingar blir så effektiva och skonsamma som möjligt. Våra hudterapeuter kommer att ge dig skräddarsydda råd och vägledning för att förbereda och behandla ditt mjälleksem på bästa sätt.</p>',
       ),
 );
