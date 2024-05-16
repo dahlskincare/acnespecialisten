@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är Pigmentfläckar? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om pigmentfläckar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'pigmentfläckar, hyperpigmentering, pigmentering, hudfläckar, hyperpigmentering, hudfläckar, pigmenteringar';
+$seo_keywords = 'pigmentfläckar på överläppen, pigmentfläckar överläpp, mörk fläck på läppen, bruna fläckar på kroppen, pigmentfläckar ljusa, melasma överläpp, bruna fläckar på huden, pigmentförändringar läppar, bruna fläckar, ljusbruna fläckar på huden';
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $path_segments = array(
@@ -92,8 +92,8 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: 'får man pigmentfläckar?',
-            content: '<p class="p200">Pigmentfläckar, eller hudfläckar, uppstår ofta i ansiktet, där de vanligtvis påverkar områden som kinder och panna. Exponering för solen utan ordentligt skydd kan snabbt leda till dessa missfärgningar, särskilt i områden som är mest utsatta för solljuset.</p>',
-            extended_content: '<p class="p200 mt-xl">Förutom ansiktet kan pigmentfläckar även dyka upp på andra delar av kroppen, inklusive halsen, dekolletaget och händerna. Platser som ofta exponeras för solen är mer benägna att drabbas. Den ojämna produktionen av melanin som resulterar i fläckarna kan uppstå var som helst på huden.</p>
+            content: '<p class="p200">Pigmentfläckar, eller hudfläckar, uppstår ofta i ansiktet, där de vanligtvis påverkar områden som mörk fläck på överläpp, kinder och panna. Exponering för solen utan ordentligt skydd kan snabbt leda till dessa missfärgningar, särskilt i områden som är mest utsatta för solljuset.</p>',
+            extended_content: '<p class="p200 mt-xl">Förutom ansiktet kan pigmentfläckar även dyka upp på andra delar av med bruna fläckar på kroppen, inklusive halsen, dekolletaget och händerna. Platser som ofta exponeras för solen är mer benägna att drabbas. Den ojämna produktionen av melanin som resulterar i fläckarna kan uppstå var som helst på huden.</p>
             <p class="p200 mt-xl">Om du vill ta bort dina pigmentfläckar och vill förstå mer om din specifika situation är det viktigt med professionell hjälp. Hos oss får du möjlighet att boka en kostnadsfri konsultation med en dedikerad hudterapeut som kan identifiera typen av pigmentfläckar du har och lägga upp en individuell behandlingsplan. Denna personliga analys hjälper oss att skräddarsy den mest effektiva metoden för att behandla dina pigmentfläckar och hjälpa dig att återfå en jämn och klar hudton.</p>',
             icons: array('ansikte' => 'Ansiktet', 'kropp' => 'Kropp', 'hander' => 'Händer')
       ),
