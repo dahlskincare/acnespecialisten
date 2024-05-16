@@ -29,19 +29,6 @@ $path_segments = array(
     new PathSegment('Rosacea behandling', '/rosaceabehandling.php'),
 );
 
-$nav_buttons = array(
-    'about' => 'Info',
-    'define' => 'Konsultation',
-    'treat' => 'Behandlingar',
-    'prevent' => 'Produkter',
-    'repair' => 'Ytliga blodkärl',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister'
-);
-
 $about_title = 'Hur behandlar man rosacea?';
 
 $about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa metoderna för att effektivt behandla rosacea. Under vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapa en individuell behandlingsplan för dig.</p>
@@ -411,9 +398,6 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title; ?></h2>

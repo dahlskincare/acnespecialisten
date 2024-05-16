@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina hormonell acne effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om hormonell acne',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Hur vet jag om min akne är hormonell?';
 $description_text = '<p class="p200">Hormonell acne, ofta känd som hormon acne eller hormon finnar, är ett tillstånd där huden blir utsatt för utbrott som är direkt kopplade till kroppens hormonella förändringar och obalanser. Denna typ av akne skiljer sig från andra former av akne genom att den är starkt kopplad till svängningar i hormonerna, vilket kan påverka hudens tillstånd. Hormonella obalanser kan leda till ökad talgproduktion i huden, vilket i sin tur kan täppa till porerna och skapa en gynnsam miljö för bakterietillväxt och inflammation. Hormonell acne är särskilt vanlig under puberteten, men det är inte ovanligt att vuxna, och i synnerhet kvinnor, upplever dessa hudutslag. Hos en vuxen kvinna kan finnar uppstå både innan och vid mens, men även vara kopplat till graviditet, klimakteriet eller användning av preventivmedel. Hos både män och kvinnor kan stress och vissa livsstilsfaktorer också påverka hormonbalansen och därmed bidra till hormonella akneutbrott.</p>
 <p class="p200 mt-m">Behandlingen av acne som är hormonell utan att rubba hudens naturliga hormoner fokuserar på en helhetslösning som kombinerar rätt behandlingar med rätt hudvårdsprodukter. Denna metod kombinerar extraktioner på klinik för att tömma aknen, med en skräddarsydd hudvårdsrutin som används hemma. Med hjälp av en hudterapeut som guidar dig genom hela processen kan du kontrollera din hormonella acne effektivt.</p>';
@@ -416,9 +403,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

@@ -60,16 +60,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv laserbehandling mot acne.';
 
-$nav_buttons = array(
-    'about' => 'Om laser mot acne',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Laserbehandling mot Acne';
 $description_text = '<p class="p200">Laserbehandling är en innovativ och effektiv metod för att bekämpa acne. Genom att använda speciellt utformade laserljus, riktas behandlingen mot de bakterier som orsakar acne samt minskar inflammationen i huden. Denna teknik hjälper till att kontrollera acneutbrott och bidrar till en klarare hudton.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten anpassar vi våra laserbehandlingar för att möta de unika behoven hos varje individ med acneproblem. Vår metod inte bara behandlar befintlig acne, utan jobbar även på att förebygga framtida utbrott. Genom att kombinera laserbehandling med en personlig hudvårdsrutin och eventuellt kompletterande behandlingar, strävar vi efter att ge dig en långvarigt friskare och klarare hud.</p>';
@@ -402,9 +392,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

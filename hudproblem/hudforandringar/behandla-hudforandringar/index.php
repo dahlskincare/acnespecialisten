@@ -32,16 +32,6 @@ $model = new Service(
 
 $floating_box = 'Vi behandlar hudförändringar';
 
-$nav_buttons = array(
-    'about' => 'Info',
-    'define' => 'Konsultation',
-    'treat' => 'Behandlingar',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeut'
-);
-
 $about_title = 'Hur vi behandlar och tar bort hudförändringar';
 
 $about_content = '<p class="p200">På AcneSpecialisten förstår vi att varje hudförändring, vare sig det är ansiktsvårtor, fibrom, födelsemärken eller någon av de andra vi hanterar, kräver en individuell och noggrant övervägd strategi. Ett av de mest effektiva verktygen i vår arsenal är CryoPen, en avancerad form av frysbehandling. Med denna teknik kan vi snabbt och icke-invasivt hantera en mängd olika hudförändringar.</p>
@@ -297,9 +287,6 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title; ?></h2>

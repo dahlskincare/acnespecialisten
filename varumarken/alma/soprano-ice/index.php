@@ -33,20 +33,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv laserbehandling för permanent hårborttagning som passar alla.';
 
-$nav_buttons = array(
-    'about' => 'Om Soprano Ice',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeut',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Soprano ICE Platinum för permanent hårborttagning?';
 $description_text = '<p class="p200">Soprano ICE Platinum representerar framkanten inom teknologin för permanent hårborttagning, genom att effektivt kombinera tre kraftfulla diodlaserteknologier i en behandling. Denna innovativa diodlaserbehandling använder en unik 3 i 1 metod som integrerar våglängderna Alexandrit 755NM, Speed 810NM, och YAG 1064NM, var och en med särskilda egenskaper för att målriktat och skonsamt behandla olika hårtyper och hudtoner.</p>
 <p class="p200 mt-m">Alexandrit 755NM våglängden är särskilt effektiv för ljusa och tunna hårstrån, som traditionellt varit utmanande att behandla. Denna våglängd utmärker sig genom sin höga energiabsorption och ytliga penetration, vilket gör den idealisk för att behandla hårstrån nära hudytan i områden som ögonbryn och överläpp.</p>
@@ -687,9 +673,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

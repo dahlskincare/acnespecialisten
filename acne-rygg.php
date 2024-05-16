@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina akne på ryggen effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om akne på ryggen',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är akne på ryggen?';
 $description_text = '<p class="p200">Akne på ryggen, ofta benämnd som "bakne", är en hudåkomma där utslag som finnar, pormaskar, och i vissa fall, djupare cystor och noduler uppträder på ryggen och axlar. Precis som akne på andra delar av kroppen, är akne på ryggen resultatet av tilltäppta hårfolliklar orsakade av en överproduktion av talg och samling av döda hudceller, vilket skapar en gynnsam miljö för tillväxt av acne framkallande bakterier. Akne på ryggen kan påverka individer i alla åldrar men är särskilt vanlig under tonår och unga vuxna år. Denna typ av akne kan vara särskilt utmanande att behandla på grund av ryggens stora yta och svåråtkomliga läge. Faktorer som bidrar till utvecklingen av akne på ryggen inkluderar hormonella förändringar, svett och friktion från kläder samt vissa livsstils- och kostvanor.</p>
 <p class="p200 mt-m">Ryggbehandling för acne fokuserar på att rensa tilltäppta porer, minska produktionen av talg, bekämpa bakterietillväxt och minska inflammation. Behandlingar består av hudvårdsrutiner som regelbunden rengöring med produkter anpassade för aknebenägen hud. Det är också viktigt att kombinera med behandlingar som djuprengör huden för att avlägsna döda hudceller och förebygga tilltäppning av porer. Under en konsultation tar vi fram en skräddarsydd behandlignsplan för just din hy så att du effektivt kan få rätt ryggbehandling för din akne.</p>';
@@ -391,9 +378,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

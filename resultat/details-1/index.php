@@ -129,10 +129,6 @@
             ),
         )
     );
-
-    foreach ($result->treatment->visits as $visit) {
-        $nav_buttons['visit-' . $visit->id] = $visit->date;
-    }
     ?>
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
@@ -282,9 +278,6 @@
             </div>
         </section>
         <div class="container">
-            <section id="nav-buttons">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
-            </section>
             <section id="visits">
                 <?php foreach ($result->treatment->visits as $visit) { ?>
                     <div class="treatment-visit-card" id="visit-<?php echo $visit->id ?>">

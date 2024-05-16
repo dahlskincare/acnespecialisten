@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina inflammation akne effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om inflammation akne',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är inflammerad akne?';
 $description_text = '<p class="p200">Inflammerad akne är en hudåkomma som kännetecknas av röda, ömma utslag som kan vara smärtsamma vid beröring. Denna typ av akne uppstår när hårfolliklar blir tilltäppta med talg och döda hudceller, vilket skapar en idealisk miljö för acne bakterie (Propionibacterium acnes) att växa och orsaka inflammation. Till skillnad från icke-inflammatoriska utslag som svarta och vita pormaskar, innefattar inflammerad akne mer smärtsamma och synliga tecken, såsom papler, pustler (även kända som acne pustel), noduler och cystor. När acne bakterie infekterar den tilltäppta por, reagerar kroppens immunförsvar genom att sända vita blodkroppar till området, vilket leder till inflammation och bildandet av varfyllda pustler eller djupare hudutslag. Denna process gör akneområdet rött, svullet och inflammerat.</p>
 <p class="p200 mt-m">Behandling av inflammerad akne fokuserar på att minska inflammation, bekämpa bakteriell infektion och förebygga tilltäppning av porer. Detta kan innefatta användning hudvårdsprodukter som hjälper till att normalisera avstötningen av döda hudceller. För att hantera inflammerad akne är det också viktigt att utföra ansiktsbehandlingar där en grundlig extraktion görs för att tömma aknen som annars skadar huden. Dessutom är det kritiskt att motstå frestelsen att klämma eller pilla på akneutslag, då detta kan leda till ytterligare inflammation, infektion och potentiellt ärrbildning. Att hantera inflammerad akne kräver en skräddarsydd behandlingsplan som angriper problemet från flera olika håll Genom rätt hudvård och behandlingar kan vi hjälpa dig att bli av med din inflammerade akne.</p>';
@@ -417,9 +404,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

@@ -32,17 +32,6 @@ $model = new Service(
 
 $floating_box = 'Blandhybehandling';
 
-$nav_buttons = array(
-    'about' => 'Info',
-    'define' => 'Konsultation',
-    'treat' => 'Behandlingar',
-    'prevent' => 'Produkter',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter'
-);
-
 $about_title = 'Hur vi balanserar och behandlar blandhy';
 
 $about_content = '<p class="p200">Blandhy ställer unika krav på behandling med en kombination av de besta metoderna och vår djupgående erfarenhet för att ge dig den balans du söker. Med vår kostnadsfria konsultation utforskar vi din huds nyanser och utformar en handlingsplan som svarar mot dess unika behov.</p>
@@ -398,9 +387,6 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title; ?></h2>

@@ -59,16 +59,6 @@ $model = new Service(
 
 $floating_box = 'Behandlar och reducerar stora porer.';
 
-$nav_buttons = array(
-    'about' => 'Om dermapen mot stora porer',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Dermapen mot stora porer?';
 $description_text = '<p class="p200">Dermapen mot stora porer är en effektiv behandlingsmetod som använder mikronålar för att förfina hudens textur och minska synligheten av stora porer, denna process motverkar även pormaskar och blackheads. Genom att skapa fina punkteringar i huden, stimulerar Dermapen hudens förmåga att självläka och ökar kollagenproduktionen, vilket leder till en stramare och jämnare hudstruktur.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda Dermapen-behandlingar för att effektivt minska stora porer och förbättra hudens övergripande utseende. Denna behandling är idealisk för att ge huden en mer jämn och förfinad ton. Genom regelbundna behandlingar kan du förvänta dig en tydlig förbättring av hudens kvalitet, med mindre och mindre synliga porer. Vårt mål är att erbjuda dig den bästa lösningen för en slätare och mer enhetlig hud.</p>';
@@ -396,9 +386,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

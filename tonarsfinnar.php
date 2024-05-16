@@ -50,19 +50,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina tonårsfinnar effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om tonårsfinnar',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är tonårsfinnar?';
 $description_text = '<p class="p200">Tonårsfinnar är en vanlig hudåkomma som främst drabbar ungdomar på grund av hormonella förändringar och ökad talgproduktion. På Acnespecialisten lägger vi fokus på att skonsamt rengöra och balansera huden, med metoder specifikt anpassade för tonårens utmaningar. Vi erbjuder en rad skräddarsydda behandlingsalternativ som effektivt bekämpar akne utan att skada den känsliga ungdomshuden.</p>
 <p class="p200 mt-m">Hos Acnespecialisten förstår vi betydelsen av att anpassa hudvårdsrutiner till tonårens specifika behov. Från noggranna rengöringsrutiner till försiktigt valda behandlingar som återfuktar och lugnar, våra hudterapeuter är expertutbildade för att ge den mest effektiva och samtidigt skonsamma vård för tonårsrelaterade hudproblem.</p>';
@@ -451,9 +438,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

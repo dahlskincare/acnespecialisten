@@ -57,17 +57,6 @@ $model = new Service(
     ),
 );
 
-$nav_buttons = array(
-    'about' => 'Om ansiktsbehandling mot rosacea',
-    'preparing' => 'Förberedelser',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeut',
-    'brands' => 'Märken',
-);
-
 $description_title = 'Vad är ansiktsbehandling för rosacea?';
 $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpassade för att varsamt behandla och lindra tillståndet rosacea, och erbjuder dig en skonsam väg till en mer balanserad och lugn hud. Vi använder skräddarsydda tekniker som är speciellt utformade för att vara mjuka mot huden, vilket minimerar risken för irritation samtidigt som det bidrar till att minska rodnad och inflammation.</p>
     <p class="p200 mt-m">Anpassade för individer med rosacea, är våra behandlingar framtagen för att behandla och lugna olika hudtyper påverkade av detta tillstånd, vare sig huden är känslig, torr, eller en blandhud. Målet med varje behandling är att förbättra hudens tillstånd och dess förmåga att hantera symptomen på rosacea, återställa hudens naturliga lugn och balans. Vi strävar efter att ge din hud de näringsämnen och den omsorg den behöver för att stärka dess skyddande barriär och minska risken för framtida utbrott.</p>';
@@ -461,9 +450,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

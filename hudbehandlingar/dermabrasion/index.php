@@ -33,20 +33,6 @@ $model = new Service(
 
 $floating_box = 'Hudslipning som jämnar hudens yta.';
 
-$nav_buttons = array(
-    'about' => 'Om Dermabrasion',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Dermabrasion?';
 $description_text = '<p class="p200">Dermabrasion är en djupgående hudföryngrande behandling som effektivt förbättrar hudens yta och textur. Genom en mekanisk exfolieringsprocess avlägsnas döda hudceller, vilket stimulerar hudens förnyelse och ger en märkbar föryngring av huden.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi dermabrasion som en skräddarsydd behandling för att möta olika hudbehov. Detta inkluderar att minska acneärr, fina linjer, och pigmentfläckar samt förbättra hudens övergripande utseende. Vår dermabrasion-behandling är skonsam men effektiv, vilket gör den lämplig för olika hudtyper. Genom att stimulera kollagenproduktionen och cellförnyelsen, bidrar behandlingen till en fräschare, mjukare och mer strålande hud. Dermabrasion är en idealisk behandling för dig som söker en konkret förbättring av din hudkvalitet.</p>';
@@ -605,9 +591,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina acne vulgaris effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om acne vulgaris',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är Acne Vulgaris?';
 $description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av akne och drabbar människor i alla åldrar, men är mest framträdande under tonåren och unga vuxna år. Detta tillstånd kännetecknas av en rad olika hudutslag, inklusive komedoner (svarta och vita pormaskar), papler (små röda knölar), pustler (pus-fyllda blåsor), och ibland svårare former som noduler och cystor. Acne vulgaris påverkar de talgproducerande områdena av huden, främst ansiktet, ryggen och bröstet. Det finns många olika orsaker bakom acne vulgaris såsom genetiska faktorer, hormonella förändringar, överskott av talg, tilltäppning av hårfolliklar med olja och döda hudceller, samt närvaro av acneframkallande bakterier (Propionibacterium acnes). Dessa faktorer leder till inflammation och bildandet av akneutslag.</p>
 <p class="p200 mt-m">Behandling av acne vulgaris inriktar sig på att minska produktionen av talg, bekämpa bakteriell infektion, uppmuntra till cellomsättning för att förhindra tilltäppning av porerna, och minska inflammation. En anpassad daglig hudvårdsrutin är också viktig för att hantera acne vulgaris, med användning av rengöringsmedel och hudvårdsprodukter som banaserar huden. Regelbundna besök hos en hudterapeut kan hjälpa till med att skräddarsy en behandlingsplan baserad på individens unika hudtillstånd och behov, och övervaka framsteg över tid. Att hantera acne vulgaris effektivt kräver rätt behandlingar och produkter, men med rätt rutin kan vi effektivt behandla och exliminera problemet.</p>';
@@ -415,9 +402,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

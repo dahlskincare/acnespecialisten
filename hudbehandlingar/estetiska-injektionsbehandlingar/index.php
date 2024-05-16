@@ -33,20 +33,6 @@ $model = new Service(
 
 $floating_box = 'Moderna och säkra injektionsbehandlingar för ett brett utbud av hudproblem.';
 
-$nav_buttons = array(
-    'about' => 'Om injektionsbehandlingar',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är estetiska injektionsbehandlingar?';
 $description_text = '<p class="p200">Vår metod fokuserar på att skapa en naturlig och förfinad estetik, anpassad efter varje kunds unika ansiktsdrag och behov. Dessa behandlingar involverar användning av speciella preparat som injiceras i huden för att minska synliga linjer, rynkor och för att återställa eller förbättra hudens volym och konturer. Vi använder en rad tekniker för att behandla områden som kinder, läppar, panna och andra delar av ansiktet där tecken på åldrande eller volymförlust kan vara synliga. Varje behandling är skräddarsydd för att uppnå de mest naturliga och tillfredsställande resultaten.</p>
 <p class="p200 mt-m">Våra injektionsbehandlingar erbjuder en säker och effektiv lösning för de som önskar en omedelbar förbättring av hudens utseende utan behov av kirurgiska ingrepp. Med vårt team av erfarna sjuksköterskor och läkare, samt användning av högkvalitativa produkter, strävar vi efter att ge dig en förbättrad hudhälsa och förnyat självförtroende.</p>';
@@ -929,9 +915,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

@@ -56,21 +56,6 @@ $model = new Service(
     ),
 );
 
-$nav_buttons = array(
-    'about' => 'Om Skinbooster',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
-    'specialists' => 'Hudterapeut',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Skinbooster?';
 $description_text = '<p class="p200">Skinbooster är en innovativ behandling som fungerar som fillers utan nålar för att förbättra hudens kvalitet, utan de vanliga bieffekterna som kommer med nålbehandlingar. Denna unika behandlingsmetod använder ett specialutvecklat serum, Cytocare 532, som innehåller hyaluronsyra och en rik blandning av 52 essentiella vitaminer och mineraler. Dessa ingredienser tränger djupt in i huden för att intensivt återfukta och stimulera kollagen- och elastinproduktionen, vilket är nödvändigt för att upprätthålla hudens fyllighet, elasticitet och fräschhet.</p>
 <p class="p200 mt-m">Under en Skinbooster-behandling används en roller i kombination med galvanisk ström för att slussa ner serumet 3 mm under huden, vilket säkerställer att varje hudcell når och absorberar näringsämnena effektivt. Denna nålfria metod gör det möjligt att behandla även känsliga områden nära ögonen. Skinbooster är idealisk för att förbättra hudens utseende i ansiktet, halsen, dekolletaget och på händerna, och ger flera fördelar som minskning av mörka ringar, utjämning av fina linjer, förbättring av hudens fasthet och elasticitet samt en övergripande förbättring av hudens lyster och textur.</p>
@@ -510,9 +495,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

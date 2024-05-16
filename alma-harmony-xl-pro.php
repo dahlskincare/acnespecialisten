@@ -33,20 +33,6 @@ $model = new Service(
 
 $floating_box = 'Alma Harmony XL Pro är det senaste inom modern laserteknik.';
 
-$nav_buttons = array(
-    'about' => 'Om Alma Harmony XL Pro',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Harmony XL Pro?';
 $description_text = '<p class="p200">Alma Harmony XL Pro är en banbrytande plattform för estetiska behandlingar som integrerar en rad avancerade tekniker för att möta en mängd hudvårdsbehov. Denna plattform använder specifika teknologier för att erbjuda skräddarsydda lösningar för hudföryngring laser, korrigering av huddefekter, och förbättring av hudens övergripande kvalitet. Här följer en översikt över några av de nyckeltekniker som Alma Harmony XL Pro erbjuder:</p>
 <p class="p200 mt-m">Clear Lift - Q-switchad Nd:YAG<br />
@@ -624,9 +610,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

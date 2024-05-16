@@ -48,19 +48,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar pormaskar på ryggen effektivt';
 
-$nav_buttons = array(
-      'about' => 'Om pormaskar på ryggen',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Allt om Pormaskar på Ryggen';
 $description_text = '<p class="p200">Pormaskar på ryggen, även kända som öppna komedoner, uppstår när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar vid kontakt med luft, vilket skapar det tydliga utseendet på pormaskar. Pormaskar på ryggen är vanliga och kan bero på olika faktorer, såsom hormonella förändringar, svett och friktion från kläder, samt otillräcklig rengöring av huden på ryggen.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi specialiserade behandlingar för att effektivt hantera och minska pormaskar på ryggen. Våra behandlingar innefattar grundlig rengöring och specialanpassade metoder, utformade för att möta dina unika hudbehov. Genom dessa behandlingar, tillsammans med anpassade hudvårdsrutiner, hjälper vi dig att uppnå rena porer och förebygga nya pormaskar på ryggen, vilket bidrar till en sundare och mer välmående hud.</p>';
@@ -398,9 +385,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

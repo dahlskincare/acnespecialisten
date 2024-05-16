@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina akne på bröstet effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om akne på bröstet',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är akne på bröstet?';
 $description_text = '<p class="p200">Akne på bröstet är en hudåkomma som kan drabba individer i alla åldrar, men är särskilt vanlig under tonåren och unga vuxna år. Detta tillstånd kännetecknas av utbrott av finnar, pormaskar och i vissa fall djupare cystor och noduler, som uppkommer på huden över bröstkorgen. Precis som med annan akne, beror akne på bröstet på en kombination av överproduktion av talg, tilltäppning av hårfolliklar med döda hudceller, och förekomsten av acneframkallande bakterier. Behandlingen av akne på bröstet varierar beroende på dess svårighetsgrad och inkluderar hudvårdsprodukter och behandlingar som behandlar och balanserar huden. En viktig komponent är att undvika att pilla eller klämma på utslagen för att förebygga ärrbildning och inflammation.</p>
 <p class="p200 mt-m">Problemet kan uppstå oavsett ålder eller kön, så det spelar ingen roll om det är en tjej eller kille, kvinna eller man, alla kan drabbas. Sammanfattningsvis är akne på bröstet ett vanligt men hanterbart hudtillstånd. Med rätt hudvård och behandlingar kan individer effektivt minska utbrott och upprätthålla en klarare och friskare hud på bröstet.</p>';
@@ -424,9 +411,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

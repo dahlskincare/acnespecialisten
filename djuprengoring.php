@@ -60,16 +60,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv djuprengöring.';
 
-$nav_buttons = array(
-    'about' => 'Om djuprengöring',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är en djuprengöring?';
 $description_text = '<p class="p200">Våra djuprengöring är en specialiserad form av porrengöring som specifikt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
 <p class="p200 mt-m">Anpassad för olika hudtyper, inklusive oljig, torr och blandhud, strävar våra djuprengöringsbehandling efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
@@ -374,9 +364,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

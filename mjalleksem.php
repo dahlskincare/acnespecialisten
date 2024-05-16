@@ -48,20 +48,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Text på floating box';
 
-$nav_buttons = array(
-      'about' => 'Om mjälleksem',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är Mjälleksem?';
 $description_text = '<p class="p200">Mjälleksem, även känt som seborroisk dermatit, är en vanlig hudåkomma som kännetecknas av röda, flagnande och ofta oljiga hudpartier. Det drabbar vanligtvis skalpen, ansiktet och andra oljerika områden på kroppen. Även om det är en kronisk tillstånd, finns det flera effektiva behandlingar som kan lindra symtomen.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi specialiserade behandlingar för mjälleksem. Våra behandlingar är anpassade för att lugna huden, minska inflammation och flagnande samt att kontrollera överproduktionen av hudolja. Genom en noggrann analys av ditt hudtillstånd och livsstil, utformar vi en personlig behandlingsplan som inte bara behandlar symptomen, utan också tar itu med de bakomliggande orsakerna.</p>';
@@ -439,9 +425,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

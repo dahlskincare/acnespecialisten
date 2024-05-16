@@ -59,20 +59,6 @@ $model = new Service(
 
 $floating_box = 'Infuzion - en kombination av fillers och skinbooster.';
 
-$nav_buttons = array(
-    'about' => 'Om Infuzion',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Infuzion?';
 $description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men helt utan nålars bieffekter eller biverkningar. Detta innovativa koncept använder Cytocare 532, ett serum berikat med hyaluronsyra och 52 vitala vitaminer och mineraler, för att djupgående återfukta huden och stimulera produktionen av kollagen och elastin. Dessa ämnen är avgörande för att bibehålla hudens fyllighet och elasticitet.</p>
 <p class="p200 mt-m">Infuzion behandlingen utförs med en specialroller och galvanisk ström, som slussar serumet 3mm djupt in i huden och når varje enskild cell. Denna metod är särskilt effektiv eftersom den tillåter behandling nära ögonen och andra känsliga områden, utan nålar. Behandlingen är idealisk för ansiktet, halsen, dekolletaget och händerna, och erbjuder en rad fördelar, såsom minskning av mörka ringar, utfyllnad under ögonen, förbättrad hudfasthet och elasticitet, samt reduktion av fina linjer och torrhet. Den ger huden en fräschare lyster och en jämnare hudton och textur.</p>
@@ -588,9 +574,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

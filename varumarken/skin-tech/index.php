@@ -33,20 +33,6 @@ $model = new Service(
 
 $floating_box = 'Ett brett utbud av moderna kemiska peeling behandlingar för en lång rad hudproblem.';
 
-$nav_buttons = array(
-    'about' => 'Om Skin Tech',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Skin Tech?';
 $description_text = '<p class="p200">Skin Tech representerar en innovativ kollektion av kemiska peeling anpassade för olika hudproblem. Dessa behandlingar använder specialformulerade syror för att exfoliera och vitalisera huden på djupet. Med produkter som Easy Phytic Peel, Easy Droxy Versicolor Peel, Easy TCA Pain Control, fokuserar vi på att förbättra hudens textur, ton och allmänna hälsa.</p>
 <p class="p200 mt-m">Behandlingarna är skräddarsydda för att hantera specifika utmaningar såsom acneärr, aktiv akne, bristningar, melasma och pigmentfläckar, samt effektivt reducera synligheten av pormaskar, stora porer, rynkor och fina linjer. De är även effektiva mot solskadad hud. Varje Skin Tech-peeling anpassas individuellt, för att erbjuda personliga och effektiva lösningar som resulterar i förnyad och ungdomlig hud.</p>';
@@ -672,9 +658,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

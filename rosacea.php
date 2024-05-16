@@ -34,20 +34,6 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
 );
 
-$nav_buttons = array(
-      'about' => 'Om rosacea',
-      'approach' => 'Metoden',
-      'types' => 'Typer',
-      'symptoms' => 'Symptom',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $about_title = 'Om rosacea';
 
 $trivias = array(
@@ -716,9 +702,6 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>

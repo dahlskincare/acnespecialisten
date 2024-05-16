@@ -48,19 +48,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina tonårsakne effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om tonårsakne',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Förstå och Behandla Tonårsakne';
 $description_text = '<p class="p200">Tonårsakne är en vanlig hudåkomma som drabbar många ungdomar under pubertet, en period där kroppen genomgår betydande hormonella förändringar. Denna typ av akne kännetecknas av utbrott av pormaskar, finnar, och ibland mer allvarliga former som cystor och noduler, främst i ansiktet, på ryggen och bröstet. Orsaken till tonårsakne är en kombination av ökad produktion av talg, tilltäppning av hårfolliklar och en ökning av acneframkallande bakterier på huden.</p>
 <p class="p200 mt-m">Under puberteten ökar nivåerna av androgener, inklusive testosteron, vilket kan stimulera talgkörtlarna att producera mer sebum. När detta överskott av sebum kombineras med döda hudceller kan det täppa till porerna och skapa en idealisk miljö för bakterier som Cutibacterium acnes att växa, vilket leder till inflammation och akneutslag.</p>
@@ -415,9 +402,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

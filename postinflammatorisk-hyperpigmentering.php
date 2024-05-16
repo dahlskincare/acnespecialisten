@@ -34,19 +34,6 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
 );
 
-$nav_buttons = array(
-      'about' => 'Om postinflammatorisk hyperpigmentering',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är postinflammatorisk hyperpigmentering?';
 $description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH), även kallat post akne, uppstår när huden producerar mer melanin, hudens naturliga pigment, som svar på vissa inflammatoriska tillstånd såsom akne. PIH visar sig som mörkare fläckar eller partier på huden och kan variera i färg från ljusbrun till nästan svart, beroende på din hudton och inflammationens intensitet.</p>
 <p class="p200 mt-m">På Acnespecialisten fokuserar vi på att behandla och minska synligheten av postinflammatorisk hyperpigmentering genom individuellt anpassade metoder. Våra behandlingar, som ljusbehandlingar och kemiska peelingar, är utformade för att jämna ut hudtonen och främja en mer enhetlig hudfärg, med målet att ge dig en klarare och mer jämn hudton.</p>';
@@ -375,9 +362,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

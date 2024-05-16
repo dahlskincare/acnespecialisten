@@ -43,20 +43,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar seborroisk keratos effektivt och skonsamt';
 
-$nav_buttons = array(
-      'about' => 'Om seborroisk keratos',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är seborroisk keratos?';
 $description_text = '<p class="p200">Seborroisk keratos är en vanlig, godartad hudåkomma som kännetecknas av vårtlika, bruna till svarta upphöjda fläckar på huden. Dessa fläckar som ser ut som vårtor kan vara skrovliga eller vaxartade i utseende och varierar i storlek från några millimeter till flera centimeter. De förekommer oftast på områden som bröstet, ryggen, ansiktet eller halsen, men kan dyka upp var som helst på kroppen utom på handflator och fotsulor.</p>
 <p class="p200 mt-m">Seborroisk keratos utvecklas vanligtvis hos äldre vuxna och är helt ofarliga, även om de kan vara kosmetiskt besvärande. I vissa fall kan fläckarna klia eller bli irriterade, särskilt om de utsätts för friktion från kläder eller smycken.</p>';
@@ -242,38 +228,38 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                title: 'Hur kan man identifiera seborroisk keratos?',
-                text: 'Seborroisk keratos kan identifieras genom dess karakteristiska vårtlika, upphöjda fläckar som är bruna till svarta i färgen. De är ofta skrovliga eller vaxartade och kan variera i storlek. Fläckarna är vanligast på bröstet, ryggen, ansiktet eller halsen.'
+                  title: 'Hur kan man identifiera seborroisk keratos?',
+                  text: 'Seborroisk keratos kan identifieras genom dess karakteristiska vårtlika, upphöjda fläckar som är bruna till svarta i färgen. De är ofta skrovliga eller vaxartade och kan variera i storlek. Fläckarna är vanligast på bröstet, ryggen, ansiktet eller halsen.'
             ),
 
             new Question(
-                title: 'Är seborroisk keratos farligt?',
-                text: 'Seborroisk keratos är en godartad hudåkomma och är inte farlig. De är ofarliga och leder sällan till komplikationer, även om de kan vara kosmetiskt besvärande och ibland klia eller bli irriterade.'
+                  title: 'Är seborroisk keratos farligt?',
+                  text: 'Seborroisk keratos är en godartad hudåkomma och är inte farlig. De är ofarliga och leder sällan till komplikationer, även om de kan vara kosmetiskt besvärande och ibland klia eller bli irriterade.'
             ),
 
             new Question(
-                title: 'Kan seborroisk keratos lossna av sig själv?',
-                text: 'Ibland kan seborroisk keratos lossna av sig själv, särskilt om de utsätts för friktion från kläder eller smycken. Men de flesta förblir på plats och kräver behandling om man vill ta bort dem.'
+                  title: 'Kan seborroisk keratos lossna av sig själv?',
+                  text: 'Ibland kan seborroisk keratos lossna av sig själv, särskilt om de utsätts för friktion från kläder eller smycken. Men de flesta förblir på plats och kräver behandling om man vill ta bort dem.'
             ),
 
             new Question(
-                title: 'Vilka behandlingsalternativ finns för att ta bort seborroisk keratos?',
-                text: 'Behandlingsalternativ för att ta bort seborroisk keratos inkluderar kryoterapi (frysning) och  laserbehandling. Det är bäst att rådgöra med en hudläkare för att bestämma den mest lämpliga metoden.'
+                  title: 'Vilka behandlingsalternativ finns för att ta bort seborroisk keratos?',
+                  text: 'Behandlingsalternativ för att ta bort seborroisk keratos inkluderar kryoterapi (frysning) och  laserbehandling. Det är bäst att rådgöra med en hudläkare för att bestämma den mest lämpliga metoden.'
             ),
 
             new Question(
-                title: 'Kan man behandla seborroisk keratos själv hemma?',
-                text: 'Det rekommenderas inte att behandla seborroisk keratos själv hemma, eftersom det kan leda till infektion eller ärrbildning. Professionell behandling av en läkare eller hudläkare är att föredra för att säkerställa säker och effektiv borttagning.'
+                  title: 'Kan man behandla seborroisk keratos själv hemma?',
+                  text: 'Det rekommenderas inte att behandla seborroisk keratos själv hemma, eftersom det kan leda till infektion eller ärrbildning. Professionell behandling av en läkare eller hudläkare är att föredra för att säkerställa säker och effektiv borttagning.'
             ),
 
             new Question(
-                title: 'Hur skiljer sig seborroisk keratos från andra hudåkommor som vårtor och åldersfläckar?',
-                text: 'Seborroisk keratos skiljer sig genom att de är godartade, vårtlika och ofta upphöjda med en skrovlig eller vaxartad yta. Åldersfläckar är platta och pigmenterade, medan vårtor är orsakade av virus och ofta har en ojämn yta.'
+                  title: 'Hur skiljer sig seborroisk keratos från andra hudåkommor som vårtor och åldersfläckar?',
+                  text: 'Seborroisk keratos skiljer sig genom att de är godartade, vårtlika och ofta upphöjda med en skrovlig eller vaxartad yta. Åldersfläckar är platta och pigmenterade, medan vårtor är orsakade av virus och ofta har en ojämn yta.'
             ),
 
             new Question(
-                title: 'Finns det några risker eller biverkningar med att ta bort seborroisk keratos?',
-                text: 'Borttagning av seborroisk keratos är generellt säkert och effektivt sätt, men som med alla ingrepp finns det risker för biverkningar som infektion, ärrbildning och pigmentförändringar. Det är viktigt att följa hudterapeuten råd och eftervårdsinstruktioner noggrant.'
+                  title: 'Finns det några risker eller biverkningar med att ta bort seborroisk keratos?',
+                  text: 'Borttagning av seborroisk keratos är generellt säkert och effektivt sätt, men som med alla ingrepp finns det risker för biverkningar som infektion, ärrbildning och pigmentförändringar. Det är viktigt att följa hudterapeuten råd och eftervårdsinstruktioner noggrant.'
             ),
       ),
 );
@@ -420,9 +406,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

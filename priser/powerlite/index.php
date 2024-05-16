@@ -119,19 +119,6 @@ $categories = array(
     )
 
 );
-
-
-$nav_buttons = array(
-    'hybrid-c02' => 'Hybrid (C02)',
-    'harmony-xl' => 'Harmony XL',
-    'soprano-ice' => 'Soprano ice',
-    'results' => 'Results',
-    'reviews' => 'Reviews',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Skin guide',
-    'specialists' => 'Specialists',
-    'brands' => 'Brands',
-);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -168,9 +155,6 @@ $nav_buttons = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                         <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <?php foreach ($categories as $brand_category) { ?>
                     <section class="large-margin" id="<?php echo $brand_category->id ?>">
