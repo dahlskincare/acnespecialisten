@@ -58,20 +58,6 @@ $model = new Service(
 
 $floating_box = 'Förbättrar hudens struktur med nålbehandling.';
 
-$nav_buttons = array(
-    'about' => 'Om Dermapen',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Dermapen 4 - en innovativ microneedling behandling';
 $description_text = '<p class="p200">Dermapen är en framstående och effektiv microneedlingmetod som är lämplig för alla hudtyper, inriktad på att vitalisera och föryngra huden. Med en patenterad teknologi använder Dermapen4 avancerade mikronålar för att skapa fina, precisionsinriktade mikrokanaler i huden. Detta underlättar djupgående absorption av aktiva serum som är rika på näringsämnen och stimulerar hudens kollagenproduktion och naturliga läkningsprocess.</p>
     <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre mtekniker. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, stora porer, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
@@ -659,9 +645,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

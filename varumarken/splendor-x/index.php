@@ -33,20 +33,6 @@ $model = new Service(
 
 $floating_box = 'Den senaste och mest effektiva laserbehandlingen för permanent hårborttagning.';
 
-$nav_buttons = array(
-    'about' => 'Om Splendor X',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Splendor X laser?';
 $description_text = '<p class="p200">Splendor X är en framstående laserutrustning från Lumenis, specialiserad på permanent hårborttagning genom användning av BLEND X-teknologi. Denna teknologi kombinerar Nd:YAG- och Alexandrite laser för att skapa en skräddarsydd behandling lämplig för nästan alla hud- och hårtyper. Detta innovativa system erbjuder en nästan smärtfri upplevelse, tack vare en unik kylmetod, vilket skiljer den från traditionella laserbehandlingar.</p>
 <p class="p200 mt-m">Utrustningen är designad för att vara flexibel och kan användas på hela kroppen, inklusive ansikte och ben, oavsett årstid. Detta gör det möjligt att genomföra behandlingar året runt utan behov av återhämtningstid. Den är dock effektiv mot de flesta andra hårnyanser och fjun, vilket gör den till en idealisk lösning för dem som söker efter permanent hårborttagning.</p>';
@@ -679,9 +665,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

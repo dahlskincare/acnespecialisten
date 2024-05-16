@@ -49,19 +49,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar vita pormaskar effektivt';
 
-$nav_buttons = array(
-      'about' => 'Om vita pormaskar',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är Vita Pormaskar?';
 $description_text = '<p class="p200">Vita pormaskar, även kända som stängda komedoner, uppkommer när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av vita pormaskar. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
@@ -406,9 +393,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

@@ -61,16 +61,6 @@ $model = new Service(
 
 $floating_box = 'Behandlar och reducerar akne.';
 
-$nav_buttons = array(
-    'about' => 'Om microneedling mot akne',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'brands' => 'Märken',
-);
-
 $description_title = 'Om microneedling mot akne';
 $description_text = '<p class="p200">Microneedling som en behandling för akne hos AcneSpecialisten utnyttjar fina mikronålar för att skapa små kanaler i huden, vilket inte bara förbättrar hudens textur utan också aktivt bekämpar akne. Genom att stimulera hudens naturliga läkningsprocess och kollagenproduktion, hjälper denna behandling till att reglera talgproduktionen och minska inflammationen som ofta är associerad med akne.</p>
 <p class="p200 mt-m">Vår anpassade microneedling-behandling är specifikt inriktad mot att behandla akne och dess relaterade hudproblem. Genom regelbundna behandlingar kan du uppleva en klarare hudton, minskade utbrott av akne och en generell förbättring av hudens utseende. Denna metod är idealisk för att uppnå en hälsosammare och mer balanserad hud, med synligt minskade porer och en jämnare hudstruktur. Vårt mål är att erbjuda dig en effektiv lösning för att hantera din akne och förbättra din hudhälsa.</p>';
@@ -386,9 +376,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

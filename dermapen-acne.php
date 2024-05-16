@@ -59,16 +59,6 @@ $model = new Service(
 
 $floating_box = 'Behandlar och reducerar acne.';
 
-$nav_buttons = array(
-    'about' => 'Om dermapen mot acne',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Dermapen mot acne?';
 $description_text = '<p class="p200">Dermapen mot acne är en innovativ behandlingsmetod som använder mikronålar för att aktivt bekämpa acne och förbättra hudens övergripande hälsa. Genom att skapa mikroskopiska punkteringar i huden stimulerar Dermapen hudens naturliga läkningsprocess och hjälper till att reducera inflammation och utbrott av acne.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi Dermapen-behandlingar anpassade för att effektivt hantera både aktiv acne och förebygga framtida utbrott. Behandlingen är skonsam och kan anpassas efter din specifika hudtyp och acne-problem. Efter behandlingar med Dermapen kan du se fram emot en klarare hudton, minskade utbrott och en förbättrad hudkvalitet. Vårt mål är att ge dig en hälsosam och balanserad hud med hjälp av denna avancerade teknik.</p>';
@@ -403,9 +393,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

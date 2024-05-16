@@ -59,16 +59,6 @@ $model = new Service(
 
 $floating_box = 'Behandlar och reducerar stora porer.';
 
-$nav_buttons = array(
-    'about' => 'Om microneedling mot stora porer',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'brands' => 'Märken',
-);
-
 $description_title = 'Vad är microneedling för behandling av stora porer?';
 $description_text = '<p class="p200">Microneedling för behandling av stora porer är en framstående metod som använder fina mikronålar för att förfina hudens textur och minska synligheten av stora porer. Denna teknik innebär att skapa små mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar ökad kollagenproduktion. Resultatet är en fastare och jämnare hudstruktur.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade microneedling-behandlingar som specifikt riktar sig mot stora porer, vilket effektivt förbättrar hudens övergripande utseende. Denna behandlingsmetod är perfekt för att uppnå en mer jämn och förfinad hudton. Med regelbunden behandling kommer du att märka en betydande förbättring i hudens kvalitet, med porer som blir mindre synliga. Vårt mål är att ge dig en lösning för en slätare och mer enhetlig hud.</p>';
@@ -385,9 +375,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

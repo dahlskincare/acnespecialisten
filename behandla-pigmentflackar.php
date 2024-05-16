@@ -29,16 +29,6 @@ $path_segments = array(
     new PathSegment('Behandla Pigmentfläckar', '/behandla-pigmentflackar.php'),
 );
 
-$nav_buttons = array(
-    'about' => 'Info',
-    'define' => 'Konsultation',
-    'treat' => 'Behandlingar',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter'
-);
-
 $about_title = 'Hur vi reducerar och tar bort pigmentfläckar';
 
 $about_content = '<p class="p200">Att behandla och reducera pigmentfläckar är en process som kräver noggrannhet. På Acnespecialisten använder vi vår expertis och de mest effektiva metoderna för att framgångsrikt behandla och minska pigmentfläckar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en individuell behandlingsplan som passar just dig.</p>
@@ -398,9 +388,6 @@ $brands_url_title = "Varumärken för pigmentfläcksbehandling";
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title; ?></h2>

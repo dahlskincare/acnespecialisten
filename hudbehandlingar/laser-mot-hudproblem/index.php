@@ -32,21 +32,6 @@ $model = new Service(
 
 $floating_box = 'Vi använder de senaste laserteknikerna som är effektiva mot en lång rad hudproblem.';
 
-$nav_buttons = array(
-    'about' => 'Om laser mot problemhy',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
-    'specialists' => 'Hudterapeut',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är laserbehandling?';
 $description_text = '<p class="p200">Laser är en avancerad teknologi som använder ljusstrålar med hög intensitet för att behandla ett brett spektrum av hudproblem. Denna teknik utnyttjar olika våglängder och styrkor anpassade för specifika tillstånd och hudtyper, vilket gör den extremt mångsidig. </p>
 <p class="p200 mt-m">Exempel på lasertyper inkluderar CO2-lasern, som är effektiv för att minska acneärr, stora porer och fina linjer genom att stimulera hudens förnyelseprocess. YAG-lasern är en annan variant som ofta används för djupare penetration, idealisk för pigmentförändringar och hårborttagning. Alexandritlaser är föredragen för hårborttagning på ljusare hudtoner, medan diodlasern passar för en rad olika hudtyper och behandlingsområden.</p>
@@ -726,9 +711,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

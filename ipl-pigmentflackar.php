@@ -34,19 +34,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv ljusbehandling som reducerar rosacea.';
 
-$nav_buttons = array(
-    'about' => 'Om IPL mot pigmentfläckar',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'service-brands' => 'Märken',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-);
-
 $description_title = 'Vad är IPL av pigmentfläckar?';
 $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en ljusbaserad behandlingsmetod som effektivt förbättrar hudens färg och textur utan behov av kirurgiska ingrepp. Denna teknik innefattar användning av ljuspulser som penetrerar huden och selektivt riktar sig mot melanin i pigmentfläckar. IPL är därmed särskilt effektivt för att reducera och ljusa upp pigmentfläckar och för att ge en jämnare hudton.</p>
 <p class="p200 mt-m">Med sin mångsidighet kan IPL teknologin anpassas efter varje patients unika hudtillstånd, vilket gör det möjligt att få bort pigmentfläckar oavsett var de uppstår, detta gör metoden lämplig för att till exempel ta bort solfläckar i ansiktet med precision. Behandlingen är skonsam och medför få biverkningar, vilket tillåter patienter att snabbt återgå till sina dagliga aktiviteter efter en session. IPL är en populär metod för att effektivt minska synligheten av pigmentfläckar och främja en mer harmonisk och klar hudton.</p>';
@@ -542,9 +529,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

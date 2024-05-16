@@ -59,20 +59,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv IPL behandling som eliminerar ytliga blodkärl, jämnar ut pigmentfläckar och reducerar rosacea.';
 
-$nav_buttons = array(
-    'about' => 'Om Powerlite Photonova',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är Powerlite Photonova?';
 $description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, en avancerad Svensk IPL-maskin, framtagen för att effektivt förbättra hudens ton och textur. Photonova, som är en del av Powerlites produktlinje, använder Svensktillverkad IPL-teknik skräddarsydd för att behandla en rad hudtillstånd, såsom pigmentfläckar, ytliga blodkärl och rosacea, genom att specifikt rikta in sig på och behandla melanin och hemoglobin i huden.</p>
 <p class="p200 mt-m">Photonova-maskinen under Powerlite-varumärket skiljer sig från traditionella IPL-behandlingar genom sin avancerade teknologi som möjliggör mer preciserade och effektiva behandlingar av olika hudproblem. Med dess förmåga att finjusteras efter varje individs hudbehov, erbjuder Photonova en säker och skonsam upplevelse med minimala biverkningar. Denna behandlingsmetod möjliggör snabb återgång till vardagsaktiviteter och är idealisk för de som önskar en jämnare hudton och en förbättrad övergripande hudkvalitet.</p>';
@@ -643,9 +629,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

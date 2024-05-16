@@ -59,16 +59,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv laserbehandling som förbättrar hudens struktur.';
 
-$nav_buttons = array(
-    'about' => 'Om laser mot ärr',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'brands' => 'Märken',
-);
-
 $description_title = 'Laserbehandling mot ärr';
 $description_text = '<p class="p200">Laserbehandling är en avancerad metod för att effektivt minska synligheten av ärr orsakade av operationer och skador vilket inkluderar acneärr och bristningar. Denna teknik använder koncentrerat ljus för att försiktigt ta bort ärrvävnad och stimulera hudens naturliga läkningsprocess, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi laserbehandling som en del av vår omfattande ärrbehandlingsportfölj. Våra specialister anpassar behandlingen efter varje individs unika hudtyp och ärrbildning, med målet att uppnå optimala resultat. Utöver laserbehandlingar inkluderar våra behandlingsmetoder även microneedling och kemisk peeling, vilka kompletterar och förstärker effekten av laser.</p>';
@@ -409,9 +399,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

@@ -53,18 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina stress finnar effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om stress finnar',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är stress finnar?';
 $description_text = '<p class="p200">stress finnar är en hudåkomma som ofta uppstår till följd av höga stressnivåer, vilket kan påverka huden genom hormonella förändringar. Våra behandlingar syftar till att skonsamt rengöra, balansera och lugna huden, med särskild inriktning på stressrelaterade hudproblem. Vi erbjuder anpassade behandlingsalternativ för att effektivt hantera finnar orsakade av stress utan att irritera huden.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten förstår vi behovet av en anpassad hudvårdsrutin för att hantera stressrelaterade hudproblem. Genom att kombinera rengöringsmetoder med lugnande och återfuktande behandlingar, är våra hudterapeuter utrustade för att ge den mest effektiva och skonsamma vård för din stresspåverkade hud. Vi fokuserar även på att lära dig strategier för att hantera stress och dess inverkan på huden, för att förebygga framtida utbrott.</p>';
@@ -449,9 +437,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

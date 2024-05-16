@@ -27,11 +27,6 @@ $model = new Service(
 
 $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.';
 
-$nav_buttons = array(
-    'about' => 'Översikt',
-    'types' => 'Konsultationer',
-);
-
 $categories = array(
     new ConsultationCategory(
         id: 'problem-skin-consultation',
@@ -385,9 +380,6 @@ $categories = array(
             <div id="content">
                 <section id="image" class="mt-m is-hidden-desktop">
                     <img src="bilder/behandlingar/358x274/gratis-hudkonsultation.webp" alt="Gratis Hudkonsultation" title="Gratis Hudkonsultation" width="358" height="274" />
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about" class="large-margin">
                     <h2 class="h500 l10n">Vad är en hudkonsultation?</h2>

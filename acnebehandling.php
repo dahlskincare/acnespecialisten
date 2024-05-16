@@ -29,18 +29,6 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$nav_buttons = array(
-    'about' => 'Info',
-    'define' => 'Konsultation',
-    'treat' => 'Behandlingar',
-    'prevent' => 'Produkter',
-    'repair' => 'Akneärr',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister'
-);
-
 $about_title = 'Behandla din akne hos oss';
 
 $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
@@ -461,9 +449,6 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_small ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title; ?></h2>

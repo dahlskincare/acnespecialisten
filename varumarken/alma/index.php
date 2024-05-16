@@ -3,16 +3,6 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 include_once('../widgets/brand_model_card/brand_model.php');
 
-$nav_buttons = array(
-    'about' => 'Om Alma',
-    'models' => 'Modeller',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeut',
-);
-
-
 $model = new Service(
     title: 'Alma',
     duration: null,
@@ -230,9 +220,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about" class="large-margin">
                     <h2 class="h500 l10n">Vad är Alma?</h2>

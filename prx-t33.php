@@ -58,20 +58,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv nålbehandling som förbättrar hudens struktur.';
 
-$nav_buttons = array(
-    'about' => 'Om PRX T33',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är PRX T33?';
 $description_text = '<p class="p200">PRX T33 är en banbrytande hudföryngringsbehandling som erbjuder de revolutionerande fördelarna med en kemisk peeling utan den avflagning och återhämtningstid som ofta förknippas med sådana behandlingar. Den unika formulan kombinerar TCA (triklorättiksyra) med väteperoxid (H2O2) och kojicsyra, skapar en kraftfull blandning som djupt penetrerar huden utan att orsaka yttre skador.</p>
 <p class="p200 mt-m">Denna behandling är utformad för att stimulera hudens naturliga förnyelseprocess på djupet, vilket resulterar i en förbättrad hudstruktur, elasticitet och fasthet. PRX T33 stimulerar kollagenproduktionen och ger en omedelbar åtstramande effekt, vilket gör den idealisk för att behandla en rad hudåkommor, inklusive fina linjer och rynkor, ärr, slapp hud och en ojämn hudton.</p>
@@ -631,9 +617,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

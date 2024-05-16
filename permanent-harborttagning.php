@@ -33,21 +33,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv och skonsam borttagning av hår med hjälp av laser.';
 
-$nav_buttons = array(
-    'about' => 'Om Permanent Hårborttagning',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är permanent hårborttagning med laser?';
 $description_text = '<p class="p200">Permanent hårborttagning med laser representerar den bästa och mest avancerade metoden för att effektivt och långvarigt ta bort oönskat hår. Denna högteknologiska metod är effektiv på alla kroppsdelar, till exempel ansiktet, benen, armarna, ryggen och intim såsom underlivet och rumpa. Laserbehandlingarna fungerar genom att rikta energi direkt mot hårfolliklarna, vilket förhindrar framtida hårväxt på ett säkert och effektivt sätt.</p>
 <p class="p200 mt-m">Vår laser hårborttagning är anpassningsbar för alla hud- och hårtyper, och är ett utmärkt alternativ till traditionella metoder som rakning, vaxning eller IPL. Dess unika förmåga att arbeta på flera olika djupnivåer säkerställer en grundlig behandling och minimerar risken för missade hårstrån. Denna smärtfria och tidsbesparande metod ger dig slät och hårfri hud utan behov av återhämtningstid. Vi behandlar de flesta hårtyper, hudfärger och grova strån, men notera att gråa eller röda hårstrån inte kan behandlas med denna teknik.</p>';
@@ -851,9 +836,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

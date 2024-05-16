@@ -57,16 +57,6 @@ $model = new Service(
     ),
 );
 
-$nav_buttons = array(
-    'about' => 'Om ansiktsbehandlingar mot akne',
-    'treatment-areas' => 'Områden',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeut',
-    'brands' => 'Märken',
-);
-
 $description_title = 'Vad är ansiktsbehandling mot akne?';
 $description_text = '<p class="p200">Vår ansiktsbehandling mot akne är en omfattande lösning framtagen för att aktivt bekämpa akne och dess orsaker, samtidigt som den främjar en hälsosammare och klarare hud. Denna specialiserade behandling bekämpa de olika problem som uppstår i samband med akne genom att djuprengöra porerna, minska talgproduktionen och lugna inflammation, vilket lägger grunden för en varaktig förbättring av hudens tillstånd.</p>
     <p class="p200 mt-m">Behandlingen inleds med en skonsam men effektiv rengöring för att ta bort smuts, talg och makeuprester. Därefter följer en ångbehandling som öppnar upp porerna, vilket underlättar en noggrann och skonsam extraktion av pormaskar och andra orenheter som kan bidra till akneutbrott. Vi använder exfolierande behandlingar anpassade efter din hudtyp för att varsamt avlägsna döda hudceller och främja cellförnyelse. Efter extraktionerna appliceras en lugnande mask rik på aktiva ingredienser som är utvalda för att behandla akne, minska rodnad och inflammation samt återfukta och balansera huden.</p>
@@ -404,9 +394,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

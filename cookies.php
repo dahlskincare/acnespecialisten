@@ -1,8 +1,4 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
-$nav_buttons = array(
-      'about-cookies' => 'About cookies',
-      'privacy-policy' => 'Privacy policy',
-); ?>
+<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -41,7 +37,7 @@ $nav_buttons = array(
                               <p class="mt-xs">På AcneSpecialisten.se använder vi cookies för att kunna anpassa vår webbplats så bra som möjligt för användaren, baserat på hur du som användare beter dig när du besöker vår webbplats.</p>
                         </section>
                         <section id="nav-buttons" class="mt-xl">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
+
                         </section>
                         <section id="content">
                               <h2 id="about-cookies" class="mt-xl3">Om cookies</h2>

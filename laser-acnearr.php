@@ -59,16 +59,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv laserbehandling mot acneärr.';
 
-$nav_buttons = array(
-    'about' => 'Om laser mot acneärr',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'brands' => 'Märken',
-);
-
 $description_title = 'Laserbehandling mot acneärr';
 $description_text = '<p class="p200">Laserbehandling erbjuder en avancerad och riktad metod för att reducera acneärr, genom att använda högteknologiska laserstrålar som försiktigt exfolierar det övre hudlagret och stimulerar hudens naturliga läkningsprocess. Denna process leder till nybildning av hudvävnad och minskar synligheten av ärr, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
 <p class="p200 mt-m">På AcneSpecialisten specialiserar vi oss på att skräddarsy laserbehandlingar för att effektivt behandla acneärr utifrån varje individs specifika hudtillstånd och ärrtyper. Vår tillvägagångssätt syftar inte bara till att minska befintliga ärr, utan även att förbättra hudens övergripande textur och utseende. Genom att integrera laserbehandling med en anpassad hudvårdsrutin och eventuella kompletterande terapier, arbetar vi för att erbjuda en heltäckande lösning som främjar en sundare, klarare hud med långsiktiga resultat.</p>';
@@ -409,21 +399,10 @@ $all_brands = array(
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
                 </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
-                </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>
                     <div class="mt-xl"><?php echo $description_text ?></div>
                 </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
-                </section>
-                <section id="about">
-                    <h2 class="h500"><?php echo $description_title ?></h2>
-                    <div class="mt-xl"><?php echo $description_text ?></div>
-                </section>
-
                 <?php if (isset($types_title)) { ?>
                     <section id="types" class="large-margin">
                         <h2 class="h500"><?php echo $types_title; ?></h2>

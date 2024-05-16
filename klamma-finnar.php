@@ -60,15 +60,6 @@ $model = new Service(
 
 $floating_box = 'Behandling för att klämma finnar säkert och effektivt.';
 
-$nav_buttons = array(
-    'about' => 'Om ansiktsbehandling för att klämma finnar',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Ska man klämma finnar?';
 $description_text = '<p class="p200">Vi rekommenderar inte att man försöker ta bort sina finnar själv, utan det är viktigt att låta en hudterapeut klämma finnarna på ett säkert och effektivt sätt. Genom att låta oss hjälpa dig med behandling fokuserar vi på säker borttagning av finnar genom att varsamt klämma ut innehållet i porerna, oavsett om det är finnar eller pormaskar. Detta görs på ett sätt som minimerar risken för hudsår och ärrbildning, vilket är en vanlig följd av att försöka klämma finnar på egen hand. Detta är avgörande för att undvika skador på huden och uppnå bästa möjliga resultat.</p>
 <p class="p200 mt-xl">Många vill få bort finnar snabbt eftersom de gör ont, men det är viktigt att utföra behandlingen på rätt sätt. Om man upplever att finnarna inte försvinner beror det ofta på att man saknar en fullständig behandlignsplan som inklduerar både rätt behandlingar och produkter. Det finns nämligen ingen quickfix som får bort finnar snabbt utan det krävs att man arbetar med huden för att få bort varje enskild finne.</p>';
@@ -411,9 +402,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

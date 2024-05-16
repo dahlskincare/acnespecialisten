@@ -54,20 +54,6 @@ $model = new Service(
 
 $floating_box = 'Med Exceed kan vi behandla flera olika hudåkommor såsom ärr, rynkor & fina linjer.';
 
-$nav_buttons = array(
-    'about' => 'Om Exceed',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Hudterapeuter',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Exceed - en ledande teknik inom avancerad hudförbättring';
 $description_text = '<p class="p200">Exceed är en toppmodern behandling som passar alla hudtyper, utformad för att vitalisera och förbättra hudens kvalitet. Denna avancerade metod använder preciserade mikronålar för att skapa små, exakta mikrokanaler i huden, vilket främjar djupt upptag av näringsrika serum och stimulerar hudens naturliga kollagenproduktion och läkningsmekanismer.</p>
     <p class="p200 mt-m">Som en digitalt styrd microneedling-teknik, erbjuder Exceed en behandling med minimal obehag jämfört med traditionella metoder. Exceed är anpassningsbar och kan målinriktat förbättra en mängd hudtillstånd som rynkor, ärr, ojämn hudton och textur. Genom att aktivera hudens egna reparationsförmåga ökas dess elasticitet och lyster, vilket resulterar i en synbart yngre och mer strålande hud.</p>';
@@ -383,9 +369,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

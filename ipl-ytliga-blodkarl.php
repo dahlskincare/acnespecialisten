@@ -34,19 +34,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv ljusbehandling som eliminerar ytliga blodkärl.';
 
-$nav_buttons = array(
-    'about' => 'Om IPL mot ytliga blodkärl',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'service-brands' => 'Märken',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-);
-
 $description_title = 'Vad är IPL behandling mot Ytliga Blodkärl?';
 $description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus, är en framstående och icke-invasiv metod för att effektivt behandla ytliga blodkärl. Denna avancerade ljusbaserade teknologi avger specifika ljuspulser som målmedvetet tränger igenom huden för att minska synligheten av blodkärlen. IPL behandling riktar sig direkt mot de blodkärl som orsakar ojämn hudton och synliga kärl på hudytan. IPL liknar laser behandling och kaneffektivt utföras i ansiktet för att ta bort ytliga blodkärl.</p>
     <p class="p200 mt-m">Genom att specifikt behandla dessa blodkärl, bidrar IPL inte bara till en mer jämn hudton, utan förbättrar också hudens övergripande utseende och kvalitet. Varje behandling är individuellt anpassad för att uppnå bästa möjliga resultat baserat på patientens unika hudbehov. IPL behandling för ytliga blodkärl är känd för att vara både skonsam och effektiv, med minimal risk för biverkningar. Många patienter ser märkbara förbättringar efter endast några sessioner, vilket gör detta till en uppskattad behandlingsmetod för dem som önskar reducera synligheten av ytliga blodkärl.</p>';
@@ -453,9 +440,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

@@ -30,18 +30,6 @@ $model = new Service(
 
 $floating_box = 'Behandlingar för finnar';
 
-$nav_buttons = array(
-    'about' => 'Info',
-    'define' => 'Konsultation',
-    'treat' => 'Behandlingar',
-    'prevent' => 'Produkter',
-    'repair' => 'Ärr från finnar',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister'
-);
-
 $about_title = 'Hur vi tar bort och behandlar finnar';
 
 $about_content = '<p class="p200">Att behandla och ta bort finnar är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet bli av med finnar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
@@ -420,9 +408,6 @@ $brands_url_title = "Varumärken för behandling av finnar";
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $about_title; ?></h2>

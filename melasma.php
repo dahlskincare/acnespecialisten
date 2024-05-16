@@ -48,19 +48,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar melasma effektivt';
 
-$nav_buttons = array(
-      'about' => 'Om melasma',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Information om melasma';
 $description_text = '<p class="p200">Melasma, som ofta är kopplat till hudens åldrande och utdragen sol exponering, visar sig som små, mörka områden på huden. Det är vanligare hos personer över 50 år men kan även förekomma hos yngre som spenderar mycket tid i solen.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi olika behandlingar för att tackla melasma. Våra metoder sträcker sig från ljusbaserade terapier till kemiska peelingar och mikrodermabrasion, alla utformade för att minska synligheten av melasma och ge en jämnare hudton. Vi tillhandahåller också tips för att förebygga ny melasma och upprätthålla en frisk och lysterrik hud.</p>';
@@ -421,9 +408,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

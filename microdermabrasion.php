@@ -56,21 +56,6 @@ $model = new Service(
     ),
 );
 
-$nav_buttons = array(
-    'about' => 'Om Microdermabrasion',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är MicroDermabrasion?';
 $description_text = '<p class="p200">MicroDermabrasion på AcneSpecialisten är en effektiv behandlingsmetod för att föryngra och vitalisera huden. Denna process fokuserar på att varsamt slipa bort det yttersta lagret av döda hudceller, vilket stimulerar huden att påbörja en naturlig läkningsprocess. Genom denna slipning avlägsnas gamla hudceller och ger plats åt nya, fräscha hudceller, vilket bidrar till en starkare, friskare och mer strålande hud. Behandlingen är framtagen för att kickstarta hudens förnyelse och är särskilt effektiv för att skapa en jämnare hudton och förbättra hudens övergripande kvalitet.</p>';
 
@@ -415,9 +400,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

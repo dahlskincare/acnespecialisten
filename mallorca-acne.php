@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina Mallorca acne effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om Mallorca akne',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad orsakar mallorca acne?';
 $description_text = '<p class="p200">Mallorca acne, även känd som Acne Aestivalis, är en särskild form av akne från sol som uppkommer som en reaktion på solens strålar, ofta under eller efter en semester i soliga klimat. Denna typ av akne skiljer sig från traditionell akne genom att den främst drivs av en kombination av intensiv sol exponering och användning av oljiga solskydd som kan täppa till porerna. Till skillnad från vanliga akneutslag som pormaskar och inflammerade finnar, karaktäriseras Mallorca acne av små, täta, kliande utslag som kan dyka upp på områden av huden som utsatts för sol, såsom ansiktet, nacken, bröstet och armarna. För att förebygga Mallorca acne är det viktigt att välja solskyddsprodukter som är icke-komedogena (inte por-täppande) och anpassade för känslig eller aknebenägen hud.</p>
 <p class="p200 mt-m">Det är även klokt att applicera solskydd regelbundet, särskilt efter bad och svettning, och att söka skugga under solens mest intensiva timmar mitt på dagen. Efter en dag i solen rekommenderas en noggrann rengöring av huden för att avlägsna solskyddsmedel och minska risken för tilltäppta porer. Om du upplever ihållande eller svår Mallorca acne kan det vara lämpligt att konsultera en hudterapeut för att diskutera behandlingsalternativ och få en skräddarsydd hudvårdsrutin som är anpassad för dig.</p>';
@@ -411,9 +398,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

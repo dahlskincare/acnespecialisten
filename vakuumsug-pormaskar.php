@@ -59,14 +59,6 @@ $model = new Service(
 
 $floating_box = 'Vi suger ut pormaskarna effektivt med hjälp av vakuum, töm dina porer effektivt.';
 
-$nav_buttons = array(
-    'types' => 'Typer',
-    'service-brands' => 'Märken',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'specialists' => 'Specialister',
-);
-
 $description_title = 'Vad är vakuumsugning av pormaskar?';
 $description_text = '<p class="p200">Portömning med vakuum är en modern och effektiv metod för att djuprengöra huden och bli av med oönskade pormaskar. En av de mest populära enheterna för detta ändamål är HydraFacial-maskinen, som använder vakuumteknik kombinerat med specialutformade serum för att rensa, exfoliera och återfukta huden.</p>
 <p class="p200 mt-m">HydraFacial-behandlingen börjar med en skonsam exfoliering som avlägsnar döda hudceller och öppnar upp porerna. Detta förberedande steg gör det möjligt för vakuumtekniken att arbeta mer effektivt. Efter exfolieringen använder HydraFacial-maskinen ett speciellt munstycke som skapar ett vakuum över huden. Detta vakuum suggerar varsamt ut smuts, olja och andra orenheter från porerna, inklusive envisa pormaskar. Det är denna process som är känd som portömning med vakuum.</p>
@@ -336,9 +328,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

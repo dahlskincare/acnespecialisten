@@ -43,21 +43,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandling av oljig hy.';
 
-$nav_buttons = array(
-      'about' => 'Om Blandhy',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är oljig hy?';
 $description_text = '<p class="p200">Oljig hy kännetecknas av en ökad produktion av talg, vilket resulterar i en glansig, oljig yta. Denna hudtyp kan bidra till problem såsom tilltäppta porer, acne och en ojämn hudton. En effektiv hantering av oljig hy kräver en kombination av rätt hudvårdsprodukter och professionella behandlingar för att reglera oljeproduktionen.</p>
 <p class="p200 mt-m">Hos Acnespecialisten erbjuder vi skräddarsydda behandlingar speciellt utformade för oljig hy. Våra tjänster inkluderar grundliga, djuprengörande ansiktsbehandlingar som effektivt avlägsnar överflödigt talg och orenheter. Vi använder också speciellt utvalda hudvård som hjälper till att kontrollera oljeproduktionen, även för dem som upplever problem med extremt oljig hy. Vårt mål är att erbjuda dig en skräddarsydd hudvårdsplan som leder till en balanserad, klar och frisk hud.</p>';
@@ -524,9 +509,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

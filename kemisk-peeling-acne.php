@@ -60,16 +60,6 @@ $model = new Service(
 
 $floating_box = 'Effektiv kemisk peeling mot akne.';
 
-$nav_buttons = array(
-    'about' => 'Om kemisk peeling mot akne',
-    'types' => 'Typer',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Hur Kemisk Peeling Behandlar Akne';
 $description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten är en effektiv metod för att bekämpa akne och förbättra hudens kvalitet. Våra specialanpassade behandlingar använder effektiva syror för att varsamt exfoliera huden, rensa porer och minska överproduktionen av talg som ofta orsakar akne. Dessa peelingar stimulerar även hudens förnyelseprocess, vilket leder till en klarare och jämnare hudton.</p>
 <p class="p200 mt-m">Vi erbjuder olika typer av kemiska peelingar som är skräddarsydda för att hantera de specifika utmaningarna och behoven hos aknebenägen hud. Dessa behandlingar kan inkludera ingredienser som salicylsyra, glykolsyra och andra specialkomponenter, som effektivt riktar sig mot akne och bidrar till en friskare hud. Genom att regelbundet genomgå dessa behandlingar kan du uppleva en betydande minskning av akne, förbättrad hudtextur och en övergripande förbättring av hudens utseende.</p>';
@@ -369,9 +359,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

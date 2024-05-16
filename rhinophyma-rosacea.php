@@ -36,21 +36,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'En översikt om rhinophyma rosacea och dess behandling';
 
-$nav_buttons = array(
-      'about' => 'Om rhinophyma rosacea',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'define' => 'Konsultation',
-      'treatments' => 'Behandling',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är rhinophyma rosacea?';
 $description_text = '<p class="p200">Rhinophyma rosacea är en särskilt svår form av rosacea som huvudsakligen påverkar näsan. Det kännetecknas av en signifikant förtjockning och rödhet av huden, ofta med en ojämn, knölig yta. Tillståndet utvecklas vanligtvis över tid och är mer frekvent hos män, särskilt de som är mitt i livet eller äldre.</p>
 <p class="p200 mt-m">Orsaken till rhinophyma rosacea är genetiskto och även om tillståndet främst är estetiskt störande kan det i allvarligare fall leda till andningssvårigheter. Hos AcneSpecialisten fokuserar vi på att förstå varje individs unika situation och erbjuda skräddarsydda behandlingsplaner.</p>';
@@ -543,9 +528,6 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

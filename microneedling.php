@@ -58,21 +58,6 @@ $model = new Service(
 
 $floating_box = 'Microneedling är en innovativ och effektiv behandling för att förbättra hudens kvalitet och adressera en mängd hudproblem.';
 
-$nav_buttons = array(
-    'about' => 'Om microneedling',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Hudguide',
-    'specialists' => 'Specialister',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är microneedling?';
 $description_text = '<p class="p200">Microneedling är en effektiv och revolutionerande behandlingsmetod anpassad för alla hudtyper som syftar till att förbättra hudens struktur och utseende. Med hjälp av 16 tunna, medicinska engångsnålar skapas tusentals mikroskopiska kanaler i huden, vilket möjliggör djup penetration av uppbyggande och näringsrika serum. Denna process stimulerar hudens egen förmåga till cellförnyelse och återuppbyggnad.</p>
     <p class="p200 mt-m">Den digitala microneedling-tekniken är ett smärtfritt alternativ till traditionella metoder som laser, och erbjuder minimala risker för biverkningar. Det passar en mångfald av hudtillstånd, inklusive men inte begränsat till åldrande hud, ärrbildningar, ojämn hudton och textur. Genom att aktivera hudens egen kollagenproduktion, förbättras spänsten, lystern och hudens utseende, vilket resulterar i en fräschare och mer ungdomlig hy.</p>';
@@ -695,9 +680,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

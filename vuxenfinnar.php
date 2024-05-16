@@ -48,19 +48,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina vuxenfinnar effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om vuxenfinnar',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är vuxenfinnar?';
 $description_text = '<p class="p200">Vuxenfinnar är en hudåkomma som ofta drabbar individer även efter tonåren, vanligtvis på grund av faktorer som hormonella förändringar och stress. På Acnespecialisten fokuserar vi på att skonsamt rengöra och balansera huden med metoder specifikt anpassade för vuxna. Vi erbjuder en rad skräddarsydda behandlingsalternativ som effektivt bekämpar akne, samtidigt som de tar hänsyn till vuxen hud och dess särskilda behov.</p>
 <p class="p200 mt-m">Hos Acnespecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner för vuxna. Från noggranna rengöringsmetoder till skräddarsydda behandlingar som balanserar och lugnar huden, våra hudterapeuter är expertutbildade för att ge den mest effektiva och samtidigt skonsamma vård för hudproblem relaterade till vuxenakne.</p>';
@@ -451,9 +438,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>

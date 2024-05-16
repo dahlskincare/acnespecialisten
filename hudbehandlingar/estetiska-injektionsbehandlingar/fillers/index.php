@@ -34,19 +34,6 @@ $model = new Service(
 
 $floating_box = 'Våra fillersbehandlingar fyller effektivt ut huden.';
 
-$nav_buttons = array(
-    'about' => 'Om fillers',
-    'preparing' => 'Förberedelser',
-    'process' => 'Processen',
-    'types' => 'Typer',
-    'treatment-areas' => 'Områden',
-    'aftercare' => 'Eftervård',
-    'results' => 'Resultat',
-    'reviews' => 'Omdömen',
-    'faq' => 'FAQ',
-    'service-brands' => 'Märken',
-);
-
 $description_title = 'Vad är fillers?';
 $description_text = '<p class="p200">Fillers är en icke-invasiv teknik för att förhöja och förbättra hudens kvalitet samt dess estetiska uttryck. Våra behandlingar omfattar precisioninjektioner med högkvalitativa produkter, framtagna för att effektivt minska uppkomsten av fina linjer och rynkor, samtidigt som de återskapar eller framhäver hudens naturliga volym och form. Vår filosofi centrerar kring att åstadkomma en subtil försköning, skräddarsydd för att komplettera varje klients unika ansiktsdrag och behov.</p>
 <p class="p200 mt-m">VVi använder en rad avancerade tekniker för att varsamt adressera områden som läppar, kinder, panna, och andra delar av ansiktet där åldrande eller volymförlust kan vara särskilt framträdande. Perfekt för dig som söker lip fillers som ger läppar naturligt utseende. Varje behandlingsplan är unikt utformad med ambitionen att leverera resultat som ser och känns naturliga. Våra injektionsbehandlingar levererar omedelbara förbättringar i hudens utseende på ett tryggt och effektivt vis.</p>';
@@ -757,9 +744,6 @@ $all_brands = array(
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
                         <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>

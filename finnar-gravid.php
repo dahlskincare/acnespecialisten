@@ -53,19 +53,6 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina gravid finnar effektivt.';
 
-$nav_buttons = array(
-      'about' => 'Om gravid finnar',
-      'approach' => 'Metoden',
-      'areas' => 'Områden',
-      'articles' => 'Varför er?',
-      'results' => 'Resultat',
-      'reviews' => 'Omdömen',
-      'faq' => 'FAQ',
-      'skin-guide' => 'Hudguide',
-      'specialists' => 'Specialister',
-      'related-problems' => 'Relaterade problem',
-);
-
 $description_title = 'Vad är gravid finnar?';
 $description_text = '<p class="p200">Acne eller finnar under graviditet är en vanlig hudåkomma som orsakar drabbar kvinnor på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven under graviditeten. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
 <p class="p200 mt-m">Vid AcneSpecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner under graviditeten. Från milda rengöringsmetoder till återfuktande och lugnande behandlingar, våra hudterapeuter är utbildade att ge den mest skonsamma och effektiva vård för graviditetsrelaterade hudproblem.</p>';
@@ -454,9 +441,6 @@ $brands_url_title = "Se alla varumärken";
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
-                        </section>
-                        <section id="nav-buttons">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                         </section>
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>
