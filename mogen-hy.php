@@ -591,6 +591,10 @@ $faq_categories = array(
                   title: 'Är det möjligt att förhindra vissa tecken på åldrande, eller handlar det mest om att hantera dem när de uppstår?',
                   text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård med behandlingar och solskydd kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
             ),
+            new Question(
+                title: 'Varför får man rynkor när man blir äldre?',
+                text: '<p class="p200">Rynkor uppstår med åldern på grund av en kombination av flera faktorer. Hudens naturliga åldringsprocess leder till att produktionen av kollagen och elastin, som ger huden dess struktur och elasticitet, minskar. Exponering för UV-strålning från solen kan också bryta ner kollagen och elastin, vilket accelererar hudens åldrande. Dessutom blir huden tunnare och torrare med åldern, vilket gör den mer benägen för rynkor. Ansiktsuttryck, såsom leende och rynkande av pannan, kan över tid bidra till att permanenta linjer och veck bildas.</p>'
+            ),
       ),
 );
 
