@@ -11,6 +11,10 @@ $logo_registry = [
     'Bokadirekt' => 'images/brands/bokadirekt-small.svg',
 ];
 
+if (!isset($show_review_banners_header)) {
+    $show_review_banners_header = true;
+}
+
 class ReviewPlatform
 {
     public function __construct(
@@ -132,7 +136,15 @@ if (!isset($reviews)) {
             </div>
         <?php } ?>
     </div>
-    <h3 class="total-reviews-title"><?php echo $total_reviews ?></h3>
+    <?php if ($show_review_banners_header) { ?>
+        <div class="review-banners-header">
+            <h3 class="total-reviews-title"><?php echo $total_reviews ?></h3>
+            <a href="/reviews" title="View all reviews" class="button text l10n">
+                <span class="l10n">View all reviews</span>
+                <?php icon('navigate-next') ?>
+            </a>
+        </div>
+    <?php } ?>
     <div class="review-banners">
         <?php
         foreach ($reviews as $review) {
