@@ -366,7 +366,7 @@ html {
             flex: auto;
 
             section {
-                scroll-margin-top: $header-height + 80px;
+                scroll-margin-top: $header-height + 60px;
             }
 
             section.large-margin {
@@ -375,7 +375,7 @@ html {
 
             @include desktop {
                 section {
-                    scroll-margin-top: $header-height-large + 80px;
+                    scroll-margin-top: $header-height-large + 60px;
                 }
 
                 section.large-margin {

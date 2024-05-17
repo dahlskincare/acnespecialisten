@@ -45,9 +45,15 @@
         }
     }
 
-    .total-reviews-title {
-        @include h300;
+    .review-banners-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         margin-top: $xxl;
+
+        .total-reviews-title {
+            @include h300;
+        }
     }
 
     .review-banners {
