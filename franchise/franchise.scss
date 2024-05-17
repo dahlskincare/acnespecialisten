@@ -27,7 +27,31 @@
         }
     }
 
-    section#collaboration-types {}
+    section#collaboration-types {
+        margin-top: $xl3;
+
+        h2 {
+            @include h500;
+        }
+
+        .colab-option {
+            margin-top: $xxl;
+
+
+            h3 {
+                @include h200;
+                margin-top: $xs;
+            }
+
+            .colab-content {
+                margin-top: $xs;
+            }
+        }
+
+        a.button {
+            margin-top: $xl;
+        }
+    }
 
     section#concept {}
 
@@ -57,7 +81,20 @@
             }
         }
 
-        section#collaboration-types {}
+        section#collaboration-types {
+            #colab-options {
+                // 2x2 grid
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: $xl3;
+            }
+
+            a.button {
+                margin-top: $xl3;
+                width: initial;
+            }
+
+        }
 
         section#concept {}
 
