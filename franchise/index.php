@@ -100,7 +100,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                     <?php } ?>
                 </div>
                 <div>
-                    <a href="<?php echo $application_link->url ?>" title="<?php echo $application_link->title ?>" class="button outline expand"><?php echo $application_link->label ?></a>
+                    <a href="<?php echo $application_link->url ?>" title="<?php echo $application_link->title ?>" class="button b200 outline expand"><?php echo $application_link->label ?></a>
                 </div>
             </section>
             <section id=" concept">
