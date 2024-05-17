@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är blandhy? - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om blandhy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
-$seo_keywords = 'blandhy, råd för blandhy, torra och oljiga partier';
+$seo_keywords = 'blandhy, , kombinerad hud, kombinerad hudtyp, torr t zon, t zon';
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
 $path_segments = array(
@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar hur en blandhy ser ut';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Blandhy',
-      description: 'Blandhy kännetecknas av en kombination av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.',
+      description: 'Blandhy kännetecknas av en kombinerad hudtyp som består av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
@@ -238,7 +238,7 @@ $services = array(
             title: 'Ansiktsbehandling för blandhy',
             duration: '60 min',
             price: '995 kr',
-            content: 'Denna skräddarsydda ansiktsbehandling för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
+            content: 'Denna skräddarsydda ansiktsrengöring för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
@@ -316,7 +316,7 @@ $products = array(
             title: 'Produkter mot blandhy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter för blandhy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
+            content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter med ansiktskrämer för blandad hy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',

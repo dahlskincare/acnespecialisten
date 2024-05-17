@@ -7,7 +7,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Allt om Komedoner - Orsaker, Behandling och Förebyggande';
 $seo_description = 'Upptäck allt om komedoner, från vad de är till hur man effektivt behandlar och förebygger dem. Få anpassade lösningar och expertis från Acnespecialisten.';
-$seo_keywords = 'komedoner, behandling av komedoner, orsaker till komedoner, förebygga komedoner, eliminera komedoner, hudvård, ansiktsrengöring, porrengöring';
+$seo_keywords = 'komedoner akne';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
 $path_segments = array(
@@ -85,7 +85,7 @@ $top_articles = array(
             image_alt: '',
             image_title: '',
             content: '<p class="p200">Att förstå uppkomsten av komedoner är viktigt för att effektivt behandla och förebygga dem. En noggrann hudanalys är en avgörande del av konsultationen hos AcneSpecialisten. Under denna initiala bedömning identifierar vi områden med komedoner och analyserar orsakerna bakom dessa hudproblem. Denna förståelse är central för att utforma en individuellt anpassad behandlingsplan för dina specifika hudvårdsbehov.</p>
-      <p class="p200 mt-m">Komedoner, ofta kända som pormaskar, uppstår vanligtvis i områden med ökad talgproduktion, såsom ansiktet, näsan och pannan. De orsakas av en kombination av överproduktion av hudolja och ansamling av döda hudceller som blockerar porerna. För att undvika förvärring av komedoner är det viktigt att undvika hudirriterande produkter och att skydda huden från skadliga miljöpåverkan, såsom solskador. Våra hudterapeuter ger dig vägledning för att förbereda och vårda din hud inför och efter behandlingar som syftar till att minska komedoner, såsom Dermapen, för att säkerställa en effektiv och trygg behandlingsupplevelse.</p>',
+      <p class="p200 mt-m">Komedoner, ofta kända som pormaskar, uppstår vanligtvis i områden med ökad talgproduktion, såsom ansiktet, näsan och pannan. De orsakas av en kombination av överproduktion av hudolja och ansamling av döda hudceller som blockerar porerna. Komedoner och akne har mycket gemensamt och det är därför vanligt att båda problemen uppstår samtidigt. Våra hudterapeuter ger dig vägledning för att förbereda och vårda din hud inför och efter behandlingar som syftar till att minska komedoner, såsom Dermapen, för att säkerställa en effektiv och trygg behandlingsupplevelse.</p>',
       ),
 );
 
