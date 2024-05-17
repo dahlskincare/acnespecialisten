@@ -5,7 +5,7 @@
 <head>
     <title>Rosacea Resultat | Hudförbättring och Lindring</title>
     <meta name="description" content="Se resultatbilder från våra rosacea behandlingar. AcneSpecialisten har lång erfarenhet av att behandla hudutslag och rosacea">
-    <meta name="keywords" content="Rosacea behandling resultat, AcneSpecialisten framgångar, Hudlindring rosacea, Reducera rodnad, Kundcase rosacea, Effektiv rosaceabehandling, Lugnande hudvård, Hudhälsans förbättring, Rosacea före- och efterbilder">
+    <meta name="keywords" content="rosacea bilder, rosacea näsa bilder, bilder på hudutslag, bilder hudutslag, utslag i ansiktet bilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/category.css">

@@ -5,7 +5,7 @@
 <head>
     <title>Ärr från Finnar Resultat | Hudtransformationer</title>
     <meta name="description" content="Före och Efter bilder på Microneedling behandlingar som tar bort Acneärr samt resultat från våra Dermapen behandlingar | AcneSpecialisten">
-    <meta name="keywords" content="Behandling av ärr från finnar, AcneSpecialisten framgångar, Hudförbättring, Reducera finnärr, Kundcase finnärr, Effektiv behandling av finnärr, Hudhälsans förbättring, Finnärr före- och efterbilder">
+    <meta name="keywords" content="dermapen resultat">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/category.css">
