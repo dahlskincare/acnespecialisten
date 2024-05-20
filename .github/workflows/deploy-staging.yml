@@ -18,7 +18,7 @@ jobs:
         run: npm install -g sass
 
       - name: Compile SCSS
-        run: sass --style compressed --no-source-map --quiet --no-stop-on-error index.scss:index.css cookies:cookies metod:metod om-oss:om-oss varumarken:varumarken avbokningspolicy:avbokningspolicy kontakt:kontakt faq:faq fonts:fonts presentkort:presentkort ordlista:ordlista includes:includes hudproblem:hudproblem resultat:resultat reveiws:reviews hudbehandlingar:hudbehandlingar priser:priser hudguide:hudguide hudterapeut:hudterapeut gratis-hudkonsultation:gratis-hudkonsultation styles:styles
+        run: sass --style compressed --no-source-map --quiet --no-stop-on-error index.scss:index.css cookies:cookies metod:metod om-oss:om-oss varumarken:varumarken avbokningspolicy:avbokningspolicy kontakt:kontakt faq:faq fonts:fonts presentkort:presentkort ordlista:ordlista includes:includes hudproblem:hudproblem resultat:resultat reviews:reviews hudbehandlingar:hudbehandlingar priser:priser hudguide:hudguide hudterapeut:hudterapeut gratis-hudkonsultation:gratis-hudkonsultation styles:styles
 
       - name: Install typescript
         run: npm install typescript
