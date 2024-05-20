@@ -53,7 +53,7 @@ $result_category =
     new ResultCategory(
         id: 'akne',
         title: 'Resultat mot akne och finnar',
-        description_1: 'Utforska våra kunders akne bilder transformationsresor mot akne och problemhy. Denna sida visar en serie av före- och efterbilder som demonstrerar den effektiva påverkan av våra specialanpassade hudvårdsbehandlingar och produkter, vilka ger tydliga och märkbara förbättringar i hudens utseende och hälsa.',
+        description_1: 'Utforska våra kunders akne bilder transformationsresor mot akne, finanr, blandhy och problemhy. Denna sida visar en serie av före- och efterbilder som demonstrerar den effektiva påverkan av våra specialanpassade hudvårdsbehandlingar och produkter, vilka ger tydliga och märkbara förbättringar i hudens utseende och hälsa.',
 
         description_2: 'Är du redo att ta kontroll över din akne och uppnå en klarare hud? Boka en kostnadsfri konsultation hos oss och ta det första steget mot en synbart förbättrad och hälsosammare hy. Låt oss visa dig vägen till effektiva resultat.',
 
