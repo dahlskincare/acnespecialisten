@@ -1,4 +1,49 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php'); ?>
+<?php
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/review.php');
+
+$header_title = "Reviews";
+$header_content = "At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.";
+
+$logo_registry = [
+    'Google' => 'images/brands/google-small.svg',
+    'Trustpilot' => 'images/brands/trustpilot.svg',
+    'Bokadirekt' => 'images/brands/bokadirekt-small.svg',
+];
+
+
+$reviews = [
+    new Review(
+        brand: 'Trustpilot',
+        title: 'Supernöjd',
+        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
+        signature: 'Sofia',
+        stars: 5,
+        logo_url: $logo_registry['Trustpilot'],
+    ),
+    new Review(
+        brand: 'Google',
+        title: 'Jag är mycket nöjd..',
+        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
+        signature: 'Lovisa',
+        stars: 5,
+        logo_url: $logo_registry['Google'],
+    ),
+    new Review(
+        brand: 'Bokadirekt',
+        title: 'Rekommenderar varmt!',
+        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
+        signature: 'Emily',
+        stars: 5,
+        logo_url: $logo_registry['Bokadirekt'],
+    ),
+];
+
+
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
@@ -6,70 +51,38 @@
     <title>AcneSpecialistens Recensioner & Omdömen</title>
     <meta name="description" content="Verifierade recensioner från Trustpilot, Google & Bokadirekt. Läs hur vi har hjälpt tusentals med deras hudvårdsresor. Bli inspirerad att börja din!">
     <meta name="keywords" content="acnespecialisten recensioner, acnespecialisten omdöme">
+    <meta name="title" content="" class="l10n">
+    <meta name="keywords" content="" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
-
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/avbokningspolicy/cancellation-policy.css">
+    <link rel="stylesheet" href="/reviews/reviews.css">
 </head>
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <section id="banner">
-            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
-        </section>
-        <div class="container">
-            <div id="content">
-                <section id="title">
-                    <h1 class="l10n">Recensioner & Omdömen</h1>
-                    <p class="l10n">Snart kommer du att kunna hitta alla våra omdömen här.</p>
-                </section>
-            </div>
-            <section id="results" class="large-margin">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
+        <div class="container" id="narrow-content">
+            <section id="header">
+                <h1><?php echo $header_title ?></h1>
+                <div id="header-content"><?php echo $header_content ?></div>
             </section>
-            <section id="reviews" class="large-margin">
-                <div class="h500 l10n">Omdömen</div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
-            </section>
-            <section id="faq" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Frågor & Svar</h2>
-                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla frågor</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
+            <section id="reviews">
                 <?php
-                $faq_categories = null;
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
+                $show_review_banners_header = false;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
-            <!--Hudguide-->
-            <section id="specialists" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Våra hudterapeuter</h2>
-                    <a href="hudterapeut" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla hudterapeuter</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="hudterapeut" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
+        </div>
+        <div class="container">
+            <section id="results">
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php'; ?>
             </section>
-            <section id="brands" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Varumärken</div>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla varumärken</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
+            <section id="faq">
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'; ?>
+            </section>
+            <section id="brands">
+                <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'; ?>
             </section>
         </div>
     </main>
