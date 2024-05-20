@@ -61,12 +61,12 @@ $treatment_steps = array(
             content: 'AcneSpecialisten erbjuder en rad behandlingsalternativ för seborroisk keratos, inklusive laserterapi och andra icke-invasiva metoder. Vår målsättning är att ge dig en skonsam, säker och effektiv behandling som minimerar hudförändringarna och förbättrar hudens utseende.',
 
             url_label: 'Se behandlingar för seborroisk keratos',
-            url: 'hudproblem/hudforandringar/behandla-hudforandringar',
+            url: 'https://acnespecialisten.se/book?flow=cryopen',
             url_title: 'Läs mer om våra behandlingar för seborroisk keratos'
       ),
 );
 
-$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot seborroisk keratos" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot seborroisk keratos</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot seborroisk keratos" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot seborroisk keratos</a>';
 
 $top_articles = array(
       'areas' => new Article(

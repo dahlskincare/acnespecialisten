@@ -61,12 +61,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder olika behandlingsalternativ för effektiv borttagning av hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar för hudflikar',
-            url: 'hudproblem/hudforandringar/behandla-hudforandringar',
+            url: 'https://acnespecialisten.se/book?flow=cryopen',
             url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
 );
 
-$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot hudflikar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudflikar</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot hudflikar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudflikar</a>';
 
 $top_articles = array(
       'areas' => new Article(

@@ -71,12 +71,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
 
             url_label: 'Se behandlingar för blodprickar',
-            url: 'hudproblem/hudforandringar/behandla-hudforandringar',
+            url: 'https://acnespecialisten.se/book?flow=cryopen',
             url_title: 'Läs mer om behandlingar för blodprickar'
       ),
 );
 
-$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot blodprickar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot blodprickar</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot blodprickar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot blodprickar</a>';
 
 $top_articles = array(
       'areas' => new Article(

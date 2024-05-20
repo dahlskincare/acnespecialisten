@@ -61,12 +61,12 @@ $treatment_steps = array(
             content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
             url_label: 'Se behandlingar för födelsemärken',
-            url: 'hudproblem/hudforandringar/behandla-hudforandringar',
+            url: 'https://acnespecialisten.se/book?flow=cryopen',
             url_title: 'Läs mer om våra behandlingar för födelsemärken'
       ),
 );
 
-$treatment_link = '<a href="hudproblem/hudforandringar/behandla-hudforandringar" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
 
 $top_articles = array(
       'areas' => new Article(
