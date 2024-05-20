@@ -113,7 +113,7 @@ $types = array(
         booking_url_title: 'Boka en Ansiktsbehandling mot Akne',
 
         url_label: 'Läs mer om ansiktsbehandling mot akne',
-        url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
+        url: '/hudbehandlingar/ansiktsbehandling/akne/',
         url_title: 'Läs mer om ansiktsbehandling mot akne',
     ),
     new Service(
@@ -153,7 +153,7 @@ $types = array(
         booking_url_title: 'Boka en Ansiktsbehandling för Rosacea',
 
         url_label: 'Läs mer om ansiktsbehandling mot rosacea',
-        url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
+        url: '/hudbehandlingar/ansiktsbehandling/rosacea/',
         url_title: 'Läs mer om ansiktsbehandling mot rosacea',
     ),
 

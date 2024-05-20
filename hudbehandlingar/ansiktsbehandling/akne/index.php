@@ -11,7 +11,7 @@ $seo_image = '/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar'),
-    new PathSegment('Ansiktsbehandlingar mot akne', '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne'),
+    new PathSegment('Ansiktsbehandling mot akne', '/hudbehandlingar/ansiktsbehandling/akne'),
 );
 
 $model = new Service(

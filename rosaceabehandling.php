@@ -73,7 +73,7 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Rosacea på Acnespecialisten',
 
-        url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea/',
+        url: '/hudbehandlingar/ansiktsbehandling/rosacea/',
         url_label: 'Läs mer om ansiktsbehandling mot rosacea',
         url_title: 'Läs mer om ansiktsbehandling mot rosacea',
 
