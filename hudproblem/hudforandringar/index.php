@@ -645,8 +645,6 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
                                           echo '</div>';
                                     } ?>
                               </div>
-                              <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
                         <?php if (isset($type_categories) && sizeof($type_categories) > 0) { ?>
