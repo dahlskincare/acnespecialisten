@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/link.php');
 
-class ColabOption
+class Option
 {
     public function __construct($icon, $title, $content)
     {
@@ -49,22 +49,22 @@ $hero_image_title = 'Start own franchise';
 
 $colab_title = "Different types of collaboration";
 $colab_options = [
-    new ColabOption(
+    new Option(
         icon: "franchise-independent",
         title: "Work independently in our clinic",
         content: "Rent a place in one of our already existing clinics. In a fixed monthly cost, you get to share space and everything the clinic offers, but you are still your own.",
     ),
-    new ColabOption(
+    new Option(
         icon: "franchise-own",
         title: "Open your own clinic",
         content: "Perhaps you have worked with us before and are ready to take the next step? With the help of our business and our concept, you can open your own clinic.",
     ),
-    new ColabOption(
+    new Option(
         icon: "franchise-staffed",
         title: "Open your clinic with staff",
         content: "Have you perhaps already tried operating with us or previously ran a clinic and want to expand? Open a clinic with our concept with enough space to hire your own staff.",
     ),
-    new ColabOption(
+    new Option(
         icon: "franchise-boost",
         title: "Boost your clinic",
         content: "Develop your already existing clinic with the help of our concept at Acnespecialisten.",
@@ -112,6 +112,9 @@ $banner_image_small = "/images/handshake_touch.webp";
 $banner_image_large = "/images/handshake_desktop.webp";
 $banner_image_alt = "Handshake";
 $banner_image_title = "Risk free";
+
+$perks_title = "You focus on treatments.<br />We take care of the rest!";
+$perks = [];
 
 $application_link = new Link(label: "Send an Application", url: "#", title: "Click here to apply");
 
