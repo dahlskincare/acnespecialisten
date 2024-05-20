@@ -106,6 +106,13 @@ $clinics = [
     )
 ];
 
+$banner_title = "Risk free";
+$banner_content = "As a franchisee with us, you do not take any unnecessary risks. We work according to a pay as you grow concept, consignment. This means you get products for your business for free and don't pay for them until you've sold. That way, you don't have to spend money on products that you don't know for sure that you will get rid of.";
+$banner_image_small = "/images/handshake_touch.webp";
+$banner_image_large = "/images/handshake_desktop.webp";
+$banner_image_alt = "Handshake";
+$banner_image_title = "Risk free";
+
 $application_link = new Link(label: "Send an Application", url: "#", title: "Click here to apply");
 
 ?>
@@ -191,7 +198,24 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                     <?php } ?>
                 </div>
             </section>
-            <section id="banner"></section>
+            <section id="banner">
+                <div id="banner-image">
+                    <h2 class="is-hidden-desktop"><?php echo $banner_title ?></h2>
+                    <picture>
+                        <source media="(max-width: 449px)" srcset="<?php echo $banner_image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $banner_image_large ?>">
+                        <img src="<?php echo $banner_image_small ?>" alt="<?php echo $banner_image_alt ?>" width="358" height="272" title="<?php echo $banner_image_title ?>" />
+                    </picture>
+                </div>
+                <div id="banner-content">
+                    <h2 class="is-hidden-touch"><?php echo $banner_title ?></h2>
+                    <div id="banner-text"><?php echo $banner_content ?></div>
+                    <div id="banner-application-link">
+                        <a href="<?php echo $application_link->url ?>" class="button outline expand" title="<?php echo $application_link->title ?>"><?php echo $application_link->label ?></a>
+                    </div>
+                </div>
+
+            </section>
             <section id="perks"></section>
         </div>
     </main>

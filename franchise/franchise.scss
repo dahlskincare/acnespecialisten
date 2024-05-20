@@ -122,7 +122,32 @@
         }
     }
 
-    section#banner {}
+    section#banner {
+        margin-top: 72px;
+
+        h2 {
+            @include h500;
+        }
+
+        img {
+            margin-top: $xl;
+            width: 100%;
+            height: auto;
+            border-radius: $radius-s;
+        }
+
+        #banner-content {
+            #banner-text {
+                @include p200;
+                margin-top: $xl;
+            }
+
+            #banner-application-link {
+                margin-top: $xl;
+            }
+        }
+
+    }
 
     section#perks {}
 }
@@ -197,7 +222,32 @@
             }
         }
 
-        section#banner {}
+        section#banner {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+
+            #banner-image {
+                flex: 1;
+                margin-left: $s;
+
+                img {
+                    border-radius: $radius-l;
+                }
+            }
+
+            #banner-content {
+                flex: 1;
+                padding-right: $xl3;
+                margin-right: $s;
+
+                #banner-application-link {
+                    .button {
+                        width: initial;
+                    }
+                }
+            }
+        }
 
         section#perks {}
     }
