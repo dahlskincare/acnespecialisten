@@ -101,9 +101,9 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi utför behandlingar mot godartade hudförändringar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
-            url_label: 'Se behandlingar för hudförändringar',
-            url: '/hudproblem/hudforandringar/behandla-hudforandringar/',
-            url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
+            url_label: null,
+            url: null,
+            url_title: null,
       ),
 
 );
