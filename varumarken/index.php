@@ -61,7 +61,7 @@ $header_brands = array(
             image: 'bilder/logotyper/rejuve-dye-vl.svg',
             image_alt: 'Alma Rejuve Dye-VL logotyp',
             image_title: 'Alma Rejuve Dye-VL - IPL',
-            url: 'varumarken/alma/rejuve-dye-vl',
+            url: 'varumarken/rejuve-dye-vl',
             url_title: 'Alma Rejuve Dye-VL',
       ),
       new Brand(
@@ -85,7 +85,7 @@ $header_brands = array(
             image: 'bilder/logotyper/soprano-ice.png',
             image_alt: 'Soprano Ice logotyp',
             image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-            url: 'varumarken/alma/soprano-ice',
+            url: 'varumarken/soprano-ice',
             url_title: 'Soprano Ice',
       ),
       new Brand(
@@ -154,7 +154,7 @@ $link_brands = array(
             url_title: 'Läs mer',
             services: array(
                   "/varumarken/splendor-x" => "Splendor X",
-                  "/varumarken/alma/soprano-ice" => "Soprano Ice",
+                  "/varumarken/soprano-ice" => "Soprano Ice",
             )
       ),
       new BrandCategory(
@@ -162,7 +162,7 @@ $link_brands = array(
             url: '/hudbehandlingar/ipl/',
             url_title: 'Läs mer',
             services: array(
-                  "/varumarken/alma/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
+                  "/varumarken/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
                   "/alma-harmony-xl-pro.php" => "Harmony XL Pro",
                   "/varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
             )
@@ -314,7 +314,7 @@ $brand_cards = array(
             title: 'Rejuve Dye-VL',
             subtitle: 'IPL för hudproblem',
             description: 'Rejuve Dye-VL är en framstående behandling som använder avancerad IPL-teknologi för att effektivt rikta in sig på och behandla hudproblem såsom pigmentfläckar och ytliga blodkärl. Denna metod är perfekt för dem som söker en skonsam, men ändå kraftfull lösning för att förbättra hudens utseende och textur.',
-            url: 'varumarken/alma/rejuve-dye-vl',
+            url: 'varumarken/rejuve-dye-vl',
             url_title: 'Läs mer om Rejuve Dye-VL',
             booking_url: 'https://acnespecialisten.se/book?flow=almarejuve',
             booking_url_title: 'Boka Rejuve Dye-VL-behandling',
@@ -368,7 +368,7 @@ $brand_cards = array(
             title: 'Soprano Ice',
             subtitle: 'Laser för hårborttagning',
             description: 'Soprano Ice använder Alma Lasers unika SHR-teknik för en nästan smärtfri och effektiv laserhårborttagning. Den är säker för alla hudtyper och erbjuder en behaglig behandlingsupplevelse med långvariga resultat, vilket gör den till en favorit för permanent hårborttagning.',
-            url: 'varumarken/alma/soprano-ice',
+            url: 'varumarken/soprano-ice',
             url_title: 'Läs mer om Soprano Ice',
             booking_url: 'https://acnespecialisten.se/book?flow=sopranoice',
             booking_url_title: 'Boka Soprano Ice-behandling',
