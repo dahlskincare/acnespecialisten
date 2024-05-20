@@ -2,14 +2,6 @@
 if (!isset($brands)) {
   $brands = array(
       new Brand(
-            label: 'Alma',
-            image: 'bilder/logotyper/alma.svg',
-            image_alt: 'Alma logotyp',
-            image_title: 'Alma Lasermaskiner',
-            url: '/varumarken/alma',
-            url_title: 'Alma',
-      ),
-      new Brand(
             label: 'Alma Hybrid',
             image: 'bilder/logotyper/alma-hybrid.svg',
             image_alt: 'Alma Hybrid logotyp',
@@ -54,7 +46,7 @@ if (!isset($brands)) {
             image: 'bilder/logotyper/rejuve-dye-vl.svg',
             image_alt: 'Alma Rejuve Dye-VL logotyp',
             image_title: 'Alma Rejuve Dye-VL - IPL',
-            url: '/varumarken/alma/rejuve-dye-vl',
+            url: '/varumarken/rejuve-dye-vl',
             url_title: 'Alma Rejuve Dye-VL',
       ),
       new Brand(
@@ -78,7 +70,7 @@ if (!isset($brands)) {
             image: 'bilder/logotyper/soprano-ice.png',
             image_alt: 'Soprano Ice logotyp',
             image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-            url: '/varumarken/alma/soprano-ice',
+            url: '/varumarken/soprano-ice',
             url_title: 'Soprano Ice',
       ),
       new Brand(
