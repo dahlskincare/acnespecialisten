@@ -1,4 +1,5 @@
 @import '../styles/util/sizes';
+@import '../styles/util/colors';
 @import '../styles/util/typography';
 
 #narrow-content {
@@ -24,6 +25,8 @@
             width: 100%;
             margin-top: $xl;
             border-radius: $radius-s;
+            width: 100%;
+            height: auto;
         }
     }
 
@@ -53,7 +56,71 @@
         }
     }
 
-    section#concept {}
+    section#concept {
+        margin-top: 72px;
+
+        h2 {
+            @include h500;
+        }
+
+        img {
+            margin-top: $xl;
+            width: 100%;
+            height: auto;
+            border-radius: $radius-s;
+
+        }
+
+        #concept-content {
+            @include p200;
+            margin-top: $xl;
+        }
+
+        #clinic-flags {
+            .clinic-flag {
+                border: 1px solid $light-300;
+                border-radius: $radius-l;
+                padding: 0 $xl $xl $xl;
+                margin-top: $xl;
+
+                .clinic-header {
+                    border-bottom: 1px solid $light-200;
+                    padding: $xl3 0;
+
+                    img {
+                        width: auto;
+                        height: 50px;
+                        margin: 0 auto;
+                        display: block;
+                    }
+                }
+
+                h3 {
+                    @include h300;
+                    margin-top: $xxl;
+                }
+
+                .clinic-content {
+                    @include p200;
+                    margin-top: $xxl;
+                    padding-bottom: $xxl;
+                    border-bottom: 1px solid $light-200;
+                }
+
+                .clinic-treatments {
+                    margin-top: $m;
+
+                    .button {
+                        margin-top: $xxs;
+                    }
+                }
+
+                .clinic-application-button {
+                    margin-top: $xxl;
+                }
+            }
+        }
+    }
 
     section#banner {}
 
@@ -98,7 +165,37 @@
 
         }
 
-        section#concept {}
+        section#concept {
+            margin-top: 104px;
+
+            img {
+                margin-top: $xl3;
+                border-radius: $radius-l;
+            }
+
+            #concept-content {
+                margin-top: $xl3;
+
+            }
+
+            #clinic-flags {
+                display: flex;
+                margin-top: $xl3;
+
+                .clinic-flag {
+                    margin-top: 0;
+                }
+
+
+                .clinic-flag:first-child {
+                    margin-right: $m;
+                }
+
+                .clinci-flag:last-child {
+                    margin-left: $m;
+                }
+            }
+        }
 
         section#banner {}
 

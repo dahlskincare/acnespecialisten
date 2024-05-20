@@ -16,6 +16,29 @@ class ColabOption
     public string $content;
 }
 
+class Clinic
+{
+    public function __construct($logo_url, $logo_alt, $logo_title, $headline, $content, $treatments, $application_link)
+    {
+        $this->logo_url = $logo_url;
+        $this->logo_alt = $logo_alt;
+        $this->logo_title = $logo_title;
+        $this->headline = $headline;
+        $this->content = $content;
+        $this->treatments = $treatments;
+        $this->application_link = $application_link;
+    }
+
+
+    public string $logo_url;
+    public string $logo_alt;
+    public string $logo_title;
+    public string $headline;
+    public string $content;
+    public array $treatments;
+    public Link $application_link;
+}
+
 
 $hero_title = "Start own / Franchise";
 $hero_content = "We at AcneSpecialisten offer different types of franchise collaborations, depending on what suits you best. You can rent a place in an already existing clinic or in different ways open your own, and eventually develop it. Apply below to become part of our concept - but with yourself as the boss!";
@@ -48,6 +71,40 @@ $colab_options = [
     ),
 ];
 
+$concept_title = "Our clinic concept";
+$concept_image_small = "/images/concept_touch.webp";
+$concept_image_large = "/images/concept_desktop.webp";
+$concept_image_alt = "Concept image";
+$concept_image_title = "Our clinic concept";
+$concept_text = "One, or maybe both? You can choose to use either the concept we run at Acnespecialisten or Sweden's Beauty Center. But you can also choose both. It obviously depends on what you find most suitable for you and your plan. Below you will find information about how the activities look like:";
+
+$clinics = [
+    new Clinic(
+        logo_url: "/images/logo-green.svg",
+        logo_alt: "Acnespecialisten logo",
+        logo_title: "Acnespecialisten",
+        headline: "The Acne Specialist treat problem skin",
+        content: "At Acnespecialisten, we work according to a three-step method where the customer is the focus. Free skin consultation followed by recommended treatment. We help the customer find the right skin care routine with our products from DAHL Skincare. System where the customer can contact their personal skin therapist for any concerns.",
+        treatments: [
+            new Link(label: 'Treatment for acne', url: "acnebehandling.php", title: "Read more about acne treatment"),
+            new Link(label: 'Treatment for acne', url: "acnebehandling.php", title: "Read more about acne treatment"),
+        ],
+        application_link: new Link(label: "Send an application", url: "", title: "Click here to send an application"),
+    ),
+    new Clinic(
+        logo_url: "/images/logo-ssc.svg",
+        logo_alt: "Sveriges skönhetscenter logo",
+        logo_title: "Sveriges skönhetscenter",
+        headline: "The Acne Specialist treat problem skin",
+        content: "At Acnespecialisten, we work according to a three-step method where the customer is the focus. Free skin consultation followed by recommended treatment. We help the customer find the right skin care routine with our products from DAHL Skincare. System where the customer can contact their personal skin therapist for any concerns.",
+        treatments: [
+            new Link(label: 'Treatment for acne', url: "acnebehandling.php", title: "Read more about acne treatment"),
+            new Link(label: 'Treatment for acne', url: "acnebehandling.php", title: "Read more about acne treatment"),
+            new Link(label: 'Treatment for acne', url: "acnebehandling.php", title: "Read more about acne treatment"),
+        ],
+        application_link: new Link(label: "Send an application", url: "", title: "Click here to send an application"),
+    )
+];
 
 $application_link = new Link(label: "Send an Application", url: "#", title: "Click here to apply");
 
@@ -85,7 +142,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                 <picture>
                     <source media="(max-width: 449px)" srcset="<?php echo $hero_image_small ?>">
                     <source media="(min-width: 450px)" srcset="<?php echo $hero_image_large ?>">
-                    <img src="<?php echo $hero_image_small ?>" alt="<?php echo $hero_image_alt ?>" title="<?php echo $hero_image_title ?>" />
+                    <img src="<?php echo $hero_image_small ?>" alt="<?php echo $hero_image_alt ?>" width="358" height="272" title="<?php echo $hero_image_title ?>" />
                 </picture>
             </section>
             <section id="collaboration-types">
@@ -103,7 +160,36 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                     <a href="<?php echo $application_link->url ?>" title="<?php echo $application_link->title ?>" class="button b200 outline expand"><?php echo $application_link->label ?></a>
                 </div>
             </section>
-            <section id=" concept">
+            <section id="concept">
+                <h2><?php echo $concept_title ?></h2>
+                <picture>
+                    <source media="(max-width: 449px)" srcset="<?php echo $concept_image_small ?>">
+                    <source media="(min-width: 450px)" srcset="<?php echo $concept_image_large ?>">
+                    <img src="<?php echo $concept_image_small ?>" alt="<?php echo $concept_image_alt ?>" width="358" height="272" title="<?php echo $concept_image_title ?>" />
+                </picture>
+                <div id="concept-content"><?php echo $concept_text ?></div>
+                <div id="clinic-flags">
+                    <?php foreach ($clinics as $clinic) { ?>
+                        <div class="clinic-flag">
+                            <div class="clinic-header">
+                                <img src="<?php echo $clinic->logo_url ?>" alt="<?php echo $clinic->logo_alt ?>" title="<?php echo $clinic->logo_title ?>" />
+                            </div>
+                            <h3><?php echo $clinic->headline ?></h3>
+                            <div class="clinic-content"><?php echo $clinic->content ?></div>
+                            <h3 class="l10n">Direction</h3>
+                            <div class="clinic-treatments">
+                                <?php foreach ($clinic->treatments as $treatment) { ?>
+                                    <a href="<?php echo $treatment->url ?>" class="button grey expand">
+                                        <?php echo $treatment->label ?>
+                                    </a>
+                                <?php } ?>
+                            </div>
+                            <div class="clinic-application-button">
+                                <a href="<?php echo $application_link->url ?>" class="button outline expand" title="<?php echo $application_link->title ?>"><?php echo $application_link->label ?></a>
+                            </div>
+                        </div>
+                    <?php } ?>
+                </div>
             </section>
             <section id="banner"></section>
             <section id="perks"></section>
