@@ -21,7 +21,7 @@ $image_title = 'Behandling och Skötsel av Tonårsakne';
 $image_alt = 'Bild som visar en ung person med tonårsakne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Tonårsakne',
+      title: 'Tonårsakne & tonårsfinnar',
       description: 'Denna sektion ger en översikt över tonårsakne och dess behandling. Vi diskuterar de hormonella förändringarna som ofta bidrar till akne hos ungdomar och ger råd om optimal hudvård under dessa formande år.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
@@ -46,7 +46,7 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Behandla dina tonårsakne effektivt.';
+$floating_box = 'Behandla dina tonårsakne och tonårsfinnar.';
 
 $description_title = 'Förstå och Behandla Tonårsakne';
 $description_text = '<p class="p200">Tonårsakne är en vanlig hudåkomma som drabbar många ungdomar under pubertet, en period där kroppen genomgår betydande hormonella förändringar. Denna typ av akne kännetecknas av utbrott av pormaskar, finnar, och ibland mer allvarliga former som cystor och noduler, främst i ansiktet, på ryggen och bröstet. Orsaken till tonårsakne är en kombination av ökad produktion av talg, tilltäppning av hårfolliklar och en ökning av acneframkallande bakterier på huden.</p>
