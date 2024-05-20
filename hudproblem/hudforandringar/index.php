@@ -102,7 +102,7 @@ $treatment_steps = array(
             content: 'Vi utför behandlingar mot godartade hudförändringar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar för hudförändringar',
-            url: '/hudproblem/hudforandringar/behandla-hudforandringar/',
+            url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
 
