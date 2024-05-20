@@ -102,12 +102,10 @@ $treatment_steps = array(
             content: 'Vi erbjuder avancerade behandlingar för olika typer av operations- och skadeärr, framtagna för att effektivt minska ärrvävnadens framträdande och förbättra hudens utseende.',
 
             url_label: 'Se ärrbehandlingar',
-            url: 'hudproblem/operations-skadearr/behandla-operations-skadearr',
+            url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
             url_title: 'Utforska våra specialanpassade behandlingar för operations- och skadeärr'
       ),
 );
-
-$treatment_link = '<a href="hudproblem/operations-skadearr/behandla-operations-skadearr" title="Utforska effektiva behandlingar mot operations- och skadeärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot operations- och skadeärr</a>';
 
 /*
 $types_title = 'Olika typer av operations- och skadeärr';
@@ -638,8 +636,6 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
                                           echo '</div>';
                                     } ?>
                               </div>
-                              <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
                         <?php if (isset($type_categories) && sizeof($type_categories) > 0) { ?>

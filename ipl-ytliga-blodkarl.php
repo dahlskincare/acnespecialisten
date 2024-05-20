@@ -11,7 +11,7 @@ $seo_image = 'images/treatments/large/ipl.webp';
 
 $path_segments = array(
     new PathSegment('Hudbehandlingar', '/hudbehandlingar/'),
-    new PathSegment('IPL mot ytliga blodkärl', '/ipl-blodkarl.php'),
+    new PathSegment('IPL mot ytliga blodkärl', '/ipl-ytliga-blodkarl.php'),
 );
 
 

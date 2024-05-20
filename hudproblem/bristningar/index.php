@@ -101,12 +101,11 @@ $treatment_steps = array(
             content: 'Vi utför effektiva behandlingar anpassade för din specifika hud och bristningstyp, så att du snabbt och säkert kan minska synligheten av dina bristningar.',
 
             url_label: 'Se behandlingar',
-            url: 'hudproblem/bristningar/behandla-bristningar',
+            url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks',
             url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
 );
 
-$treatment_link = '<a href="hudproblem/bristningar/behandla-bristningar" title="Utforska effektiva behandlingar mot bristningar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot bristningar</a>';
 /*
 $types_title = 'Olika typer av bristningar';
 
@@ -858,8 +857,6 @@ $brands_url_title = "Varumärken för behandling av bristningar";
                                           echo '</div>';
                                     } ?>
                               </div>
-                              <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
                         <section id="define">
