@@ -114,7 +114,27 @@ $banner_image_alt = "Handshake";
 $banner_image_title = "Risk free";
 
 $perks_title = "You focus on treatments.<br />We take care of the rest!";
-$perks = [];
+$perks_left = [
+    'customer-service' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'training' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'opinion' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'salary-system' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'accounting' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'failed-visit' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'website' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'all-in-one' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+];
+
+$perks_right = [
+    'marketing' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'treatment-package' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'booking-system' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'customer-journal' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'business' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'gift-cards' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+    'products' => new Option(icon: "close", title: "Customer service", content: "You don't have to keep the books yourself, just make sure to get all the papers out. We make sure that everything is done correctly - from bookkeeping to taxes and fees. It's simply nothing you need to think about."),
+];
+
 
 $application_link = new Link(label: "Send an Application", url: "#", title: "Click here to apply");
 
@@ -195,7 +215,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                                 <?php } ?>
                             </div>
                             <div class="clinic-application-button">
-                                <a href="<?php echo $application_link->url ?>" class="button outline expand" title="<?php echo $application_link->title ?>"><?php echo $application_link->label ?></a>
+                                <a href="<?php echo $application_link->url ?>" class="button b200 outline expand" title="<?php echo $application_link->title ?>"><?php echo $application_link->label ?></a>
                             </div>
                         </div>
                     <?php } ?>
@@ -214,12 +234,51 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                     <h2 class="is-hidden-touch"><?php echo $banner_title ?></h2>
                     <div id="banner-text"><?php echo $banner_content ?></div>
                     <div id="banner-application-link">
-                        <a href="<?php echo $application_link->url ?>" class="button outline expand" title="<?php echo $application_link->title ?>"><?php echo $application_link->label ?></a>
+                        <a href="<?php echo $application_link->url ?>" class="button b200 outline expand" title="<?php echo $application_link->title ?>"><?php echo $application_link->label ?></a>
                     </div>
                 </div>
-
             </section>
-            <section id="perks"></section>
+            <section id="perks">
+                <h2><?php echo $perks_title ?></h2>
+                <div id="perks-flex">
+
+                    <div id="perks-left">
+                        <?php foreach ($perks_left as $perk) { ?>
+                            <div class="perk" onclick="this.classList.toggle('expanded')">
+                                <div class="perk-header">
+                                    <div class="perk-header-left">
+                                        <?php icon($perk->icon); ?>
+                                        <span class="perk-title"><?php echo $perk->title ?></span>
+                                    </div>
+                                    <div class="perk-toggle">
+                                        <?php icon('add') ?>
+                                    </div>
+                                </div>
+                                <div class="perk-content"><?php echo $perk->content ?></div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                    <div id="perks-right">
+                        <?php foreach ($perks_right as $perk) { ?>
+                            <div class="perk" onclick="this.classList.toggle('expanded')">
+                                <div class="perk-header">
+                                    <div class="perk-header-left">
+                                        <?php icon($perk->icon); ?>
+                                        <span class="perk-title"><?php echo $perk->title ?></span>
+                                    </div>
+                                    <div class="perk-toggle">
+                                        <?php icon('add') ?>
+                                    </div>
+                                </div>
+                                <div class="perk-content"><?php echo $perk->content ?></div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+                <div id="perks-application-button">
+                    <a href="<?php echo $application_link->url ?>" class="button b200 outline expand" title="<?php echo $application_link->title ?>"><?php echo $application_link->label ?></a>
+                </div>
+            </section>
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>

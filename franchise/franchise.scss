@@ -149,7 +149,76 @@
 
     }
 
-    section#perks {}
+    section#perks {
+        margin-top: 72px;
+
+        h2 {
+            @include h500;
+            margin-bottom: $xl;
+        }
+
+        .perk {
+            margin-top: $m;
+            background-color: $light-25;
+            cursor: pointer;
+            border-radius: $radius-l;
+            border: 1px solid $light-25;
+            transition: background-color 0.3s ease border-color 0.3s ease;
+
+            .perk-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: $xl;
+
+                .perk-title {
+                    @include h200;
+                    margin-left: $m;
+                }
+
+                .perk-toggle {
+                    transition: transform 0.3s ease;
+
+                    .icon>svg {
+                        path {
+                            stroke: $dark-25;
+                            fill: $dark-25;
+                        }
+
+                        width: $l;
+                        height: $l;
+                    }
+                }
+            }
+
+            .perk-content {
+                @include p200;
+                height: 0;
+                overflow: hidden;
+                padding: 0 $xl;
+            }
+        }
+
+        .perk.expanded {
+            background-color: transparent;
+            border-color: $light-200;
+
+            .perk-header {
+                .perk-toggle {
+                    transform: rotate(45deg);
+                }
+            }
+
+            .perk-content {
+                height: auto;
+                padding: 0 $xl $xl $xl;
+            }
+        }
+
+        #perks-application-button {
+            margin-top: $xl;
+        }
+    }
 }
 
 @include desktop {
@@ -216,7 +285,7 @@
                     margin-right: $m;
                 }
 
-                .clinci-flag:last-child {
+                .clinic-flag:last-child {
                     margin-left: $m;
                 }
             }
@@ -249,6 +318,33 @@
             }
         }
 
-        section#perks {}
+        section#perks {
+            margin-top: 104px;
+
+            h2 {
+                margin-bottom: $xl3;
+            }
+
+            #perks-flex {
+                display: flex;
+                align-items: flex-start;
+
+                #perks-left {
+                    margin-right: $xs;
+                }
+
+                #perks-right {
+                    margin-left: $xs;
+                }
+            }
+
+            #perks-application-button {
+                margin-top: $xl3;
+
+                .button {
+                    width: initial;
+                }
+            }
+        }
     }
 }
