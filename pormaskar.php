@@ -276,16 +276,16 @@ $symptoms = array(
       ),
 
       new Symptom(
-            name: 'Oljig hy',
+            name: 'Oljig & fet hy',
             image: 'bilder/symptom/102x102/oljig-hy-ansikte.webp',
             content: 'Områden med många pormaskar kan känna sig oljigare än resten av huden på grund av överproduktion av talg.',
             aka: 'Fet hy',
             image_alt: 'Bild av överflödig oljighet',
             image_title: 'Överflödig Oljighet',
 
-            url_label: 'Läs mer om oljig hy',
-            url: 'oljig-hy.php',
-            url_title: 'Läs mer om oljig hy',
+            url_label: 'Läs mer om oljig & fet hy',
+            url: 'fet-hy.php',
+            url_title: 'Läs mer om oljig & fet hy',
       ),
 
 );

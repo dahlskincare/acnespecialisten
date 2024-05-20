@@ -45,7 +45,7 @@ $green_banner_content = new GreenBannerContent(
             ),
             new Link(
                   label: 'Oljig hy',
-                  url: 'oljig-hy.php',
+                  url: 'fet-hy.php',
                   title: 'Oljig hy'
             ),
             new Link(
