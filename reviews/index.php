@@ -49,16 +49,10 @@ $reviews = [
 
 <head>
     <!-- TODO: Set title and meta tags -->
-    <title class="l10n">Acnespecialisten</title>
+    <title class="l10n">AcneSpecialisten</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
-    <meta property="og:title" content="Acnespecialisten" />
-    <meta property="og:description" content="" class="l10n" />
-    <meta property="og:image" content="images/about-desktop.jpg" />
-    <meta property="twitter:title" content="Acnespecialisten" />
-    <meta property="twitter:description" content="" class="l10n" />
-    <meta property="twitter:image" content="images/about-desktop.jpg" />
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
