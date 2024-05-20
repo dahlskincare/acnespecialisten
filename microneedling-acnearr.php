@@ -60,8 +60,8 @@ $model = new Service(
 $floating_box = 'Behandlar och reducerar akneärr.';
 
 $description_title = 'Vad är microneedling mot akneärr?';
-$description_text = '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akneärr som använder sig av precisionsutformade mikronålar för att förbättra hudens textur och minska akneärr. Genom att skapa små, nästan omärkliga punkteringar i huden, stimulerar denna teknik hudens egen läkningsmekanism och ökar produktionen av kollagen. Detta resulterar i en synbart fastare och mer enhetlig hudstruktur.</p>
-<p class="p200 mt-m">På Acnespecialisten anpassar vi varje microneedling-behandling till dina individuella hudbehov, speciellt när det gäller akneärr. Denna metod är idealisk för att uppnå en jämnare hudton och för att reducera synligheten av ärr. Med konsekventa behandlingar kommer du att uppleva en betydande förbättring av din hud, inklusive minskade porer. Vårt främsta mål är att hjälpa dig att uppnå en mjukare och jämnare hy.</p>';
+$description_text = '<p class="p200">Vi använder oss av Dermapen mot akneärr som är precisionsutformade mikronålar som förbättrar hudens textur och minska akneärr. Genom att skapa små, nästan omärkliga punkteringar i huden, stimulerar denna teknik hudens egen läkningsmekanism och ökar produktionen av kollagen. Detta resulterar i en synbart fastare och mer enhetlig hudstruktur.</p>
+<p class="p200 mt-m">På AcneSpecialisten anpassar vi varje microneedling-behandling till dina individuella hudbehov, speciellt när det gäller akneärr. Denna metod är idealisk för att uppnå en jämnare hudton och för att reducera synligheten av ärr. Med konsekventa behandlingar kommer du att uppleva en betydande förbättring av din hud, inklusive minskade porer. Vårt främsta mål är att hjälpa dig att uppnå en mjukare och jämnare hy.</p>';
 
 $types_title = '';
 $types_description = '';
@@ -70,7 +70,7 @@ $big_types = array(
         title: 'Microneedling mot akneärr',
         duration: '50 min',
         price: null,
-        content: '<p class="p200">En microneedling-behandling mot akneärr på Acnespecialisten inleds med att huden rengörs grundligt för att säkerställa en ren yta. Därefter genomförs själva microneedling-proceduren, där en specialiserad enhet med fina nålar varsamt punkterar hudens yta. Proceduren är precist kontrollerad för att säkerställa minimal obehag och maximal effektivitet, speciellt i områden med akneärr. Efter behandlingen tillämpas en lugnande och återfuktande kräm för att minska eventuell rodnad och påskynda återhämtningsprocessen.</p>',
+        content: '<p class="p200">En microneedling-behandling mot akneärr på AcneSpecialisten inleds med att huden rengörs grundligt för att säkerställa en ren yta. Därefter genomförs själva microneedling-proceduren med hjälp av Dermapen, där en specialiserad enhet med fina nålar varsamt punkterar hudens yta. Proceduren är precist kontrollerad för att säkerställa minimal obehag och maximal effektivitet, speciellt i områden med akneärr. Efter behandlingen tillämpas en lugnande och återfuktande kräm för att minska eventuell rodnad och påskynda återhämtningsprocessen.</p>',
         image_small: null,
         image_large: null,
         image_alt: 'microneedling mot akneärr',

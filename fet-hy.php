@@ -21,7 +21,7 @@ $image_title = 'Visar en hud med fet hy';
 $image_alt = 'Bild som illustrerar utseendet av fet hy';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Fet Hy i Ansiktet',
+      title: 'Oljig & fet Hy i Ansiktet',
       description: 'Kan också beskrivas som oljig hy i t-zon, glansig hy eller blank hy. Här förklarar vi vad som kännetecknar fet hy, varför problemet uppstår och hur vi kan hjälpa dig.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
