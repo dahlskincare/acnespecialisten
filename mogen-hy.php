@@ -97,12 +97,12 @@ $treatment_steps = array(
             content: 'Vi utför effektiva behandlingar särskilt anpassade för mogen hy. Våra metoder är framtagna för att ge din hud förnyad lyster, minska fina linjer och förbättra hudens elasticitet.',
 
             url_label: 'Se behandlingar för mogen hy',
-            url: '/hudproblem/mogen-hy/behandla-mogen-hy',
+            url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles',
             url_title: 'Utforska våra skräddarsydda behandlingar för mogen hy'
       ),
 );
 
-$treatment_link = '<a href="/hudproblem/mogen-hy/behandla-mogen-hy" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Wrinkles" title="Utforska effektiva behandlingar mot mogen hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot mogen hy</a>';
 
 /*
 $types_title = 'Olika typer av mogen hy';

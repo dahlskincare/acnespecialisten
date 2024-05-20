@@ -65,7 +65,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder hudvård för fet hy som är specifikt utformade för att hantera utmaningarna som hudproblemet orsakar, inklusive djuprengöring och reglering av talgproduktion.',
 
             url_label: 'Utforska behandlingar',
-            url: 'hudproblem/blandhy/blandhybehandling',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin',
             url_title: 'Ta reda på vilka behandlingar som passar din fet hy'
       ),
       new TreatmentStep(
@@ -78,7 +78,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="hudproblem/blandhy/blandhybehandling" title="Utforska effektiv fet hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för fet hy</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin" title="Utforska effektiv fet hy-behandling" class="mt-xl button b200 outline expand auto-width">Läs mer om vår behandling för fet hy</a>';
 
 $top_articles = array(
       'areas' => new Article(

@@ -117,7 +117,7 @@ $treatment_steps = array(
             content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden.',
 
             url_label: 'Utforska behandlingar',
-            url: 'hudproblem/blandhy/blandhybehandling',
+            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin',
             url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(
@@ -131,7 +131,7 @@ $treatment_steps = array(
 
 );
 
-$treatment_link = '<a href="hudproblem/blandhy/blandhybehandling" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
 
 
 $symptoms_title = 'Blandhy symptom';
