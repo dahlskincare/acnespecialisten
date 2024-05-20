@@ -71,7 +71,7 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Acne på Acnespecialisten',
 
-        url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
+        url: '/hudbehandlingar/ansiktsbehandling/akne/',
         url_label: 'Läs mer om ansiktsbehandling mot acne',
         url_title: 'Läs mer om ansiktsbehandling mot acne',
 

@@ -438,7 +438,7 @@ $services = array(
             image_title: 'Ansiktsbehandling mot akne',
 
             url_label: 'Läs mer om ansiktsbehandling mot akne',
-            url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne/',
+            url: '/hudbehandlingar/ansiktsbehandling/akne/',
             url_title: 'Läs mer om ansiktsbehandling mot akne',
 
             consultation_url_label: 'Boka konsultation',
