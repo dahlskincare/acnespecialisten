@@ -214,7 +214,7 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         services: array(
             new Treatment(
-                url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-akne',
+                url: '/hudbehandlingar/ansiktsbehandling/akne',
                 label: 'Aknebehandling',
                 url_title: 'Läs mer om aknebehandling',
             ),
@@ -224,7 +224,7 @@ $service_categories = array(
                 url_title: 'Läs mer om portömning',
             ),
             new Treatment(
-                url: '/hudbehandlingar/ansiktsbehandlingar-problemhy/ansiktsbehandlingar-rosacea',
+                url: '/hudbehandlingar/ansiktsbehandling/rosacea',
                 label: 'Rosaceabehandling',
                 url_title: 'Läs mer om rosaceabehandling',
             ),

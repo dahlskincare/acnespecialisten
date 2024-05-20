@@ -193,8 +193,8 @@ $type_categories = array(
                         image_alt: 'Ansikte med inflammerade finnar',
                         image_title: 'Exempel på inflammerade finnar',
 
-                        url: 'inflammation-acne.php',
-                        url_title: 'Lär dig mer om inflammation akne',
+                        url: 'inflammerad-akne.php',
+                        url_title: 'Lär dig mer om inflammerad akne',
                   ),
                   new BasedType(
                         title: 'Kosmetik finnar',
