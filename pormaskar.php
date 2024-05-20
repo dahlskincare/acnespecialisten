@@ -93,7 +93,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför effektiva portömning anpassade för dina pormaskar, så att du snabbt och säkert blir av med problemet.',
-            url: 'hudproblem/pormaskar/pormaskbehandling',
+            url: '/hudbehandlingar/pormaskar/',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
       ),
@@ -106,7 +106,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="hudproblem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om behandlingar mot pormaskar</a>';
+$treatment_link = '<a href="/hudbehandlingar/pormaskar/" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om behandlingar mot pormaskar</a>';
 /*
 $types_title = 'Olika typer av pormaskar';
 

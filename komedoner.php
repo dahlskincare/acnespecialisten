@@ -63,7 +63,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vår behandling av komedoner involverar skonsamma men effektiva metoder för portömning, anpassade efter dina specifika hudbehov. Målet är att säkert och effektivt eliminera komedoner och förbättra hudens utseende.',
-            url: 'hudproblem/pormaskar/pormaskbehandling',
+            url: '/hudbehandlingar/pormaskar/',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
       ),
@@ -75,7 +75,7 @@ $treatment_steps = array(
             url_title: 'Hitta de bästa produkterna för att förebygga komedoner'
       ),
 );
-$treatment_link = '<a href="hudproblem/pormaskar/pormaskbehandling" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår portömning</a>';
+$treatment_link = '<a href="/hudbehandlingar/pormaskar/" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om vår portömning</a>';
 
 $top_articles = array(
       'areas' => new Article(

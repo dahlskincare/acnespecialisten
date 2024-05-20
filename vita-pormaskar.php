@@ -63,7 +63,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vårt fokus ligger på att erbjuda milda men effektiva behandlingsmetoder för att ta bort vita pormaskar, anpassade till dina hudbehov. Målet är att varsamt men effektivt rensa bort vita pormaskar för att ge din hud ett fräschare och mer välmående utseende.',
-            url: 'hudproblem/pormaskar/pormaskbehandling',
+            url: '/hudbehandlingar/ansiktsbehandling/pormaskar/',
             url_label: 'Se portömning',
             url_title: 'Upptäck våra anpassade behandlingar för portömning',
       ),
@@ -75,7 +75,7 @@ $treatment_steps = array(
             url_title: 'Utforska de bästa produkterna för att förebygga vita pormaskar',
       ),
 );
-$treatment_link = '<a href="hudproblem/pormaskar/pormaskbehandling" title="Läs mer om vår specialiserade portömning" class="mt-xl button b200 outline expand auto-width">Mer information om vår portömning</a>';
+$treatment_link = '<a href="/hudbehandlingar/ansiktsbehandling/pormaskar/" title="Läs mer om vår specialiserade portömning" class="mt-xl button b200 outline expand auto-width">Mer information om vår portömning</a>';
 
 $top_articles = array(
       'areas' => new Article(
