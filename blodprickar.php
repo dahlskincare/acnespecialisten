@@ -323,14 +323,6 @@ $brands = array(
             url_title: 'Läs mer om CryoPen Kryoterapi Hudbehandlingar',
       ),
       new Brand(
-            label: 'Alma',
-            image: 'images/brands/alma.svg',
-            image_alt: 'Alma Brand Logo',
-            image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
-            url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-      ),
-      new Brand(
             label: 'PRX-T33',
             image: 'images/brands/prx-t33.svg',
             image_alt: 'PRX-T33 Brand Logo',
@@ -348,7 +340,7 @@ $brands = array(
       ),
       new Brand(
             label: 'Infuzion',
-            image: 'images/brands/ipinfusion.svg',
+            image: 'images/brands/infuzion.svg',
             image_alt: 'Infuzion Brand Logo',
             image_title: 'Infuzion - Hudföryngring och Näringsinfusion System för Hudvård',
             url: 'infuzion.php',

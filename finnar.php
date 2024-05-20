@@ -133,7 +133,7 @@ $type_categories = array(
                         image_url: 'bilder/symptom/102x102/vuxenfinnar.webp',
                         image_alt: 'Bild av finnar hos vuxna',
                         image_title: 'Finnar hos vuxna',
-                        url: '/vuxenfinnar.php',
+                        url: '/vuxenacne.php',
                         url_title: 'Utforska information om finnar hos vuxna'
                   ),
                   new BasedType(
@@ -142,7 +142,7 @@ $type_categories = array(
                         image_url: 'bilder/symptom/102x102/tonarsfinnar.webp',
                         image_alt: 'Bild av finnar hos tonåringar',
                         image_title: 'Finnar hos tonåringar',
-                        url: '/tonarsfinnar.php',
+                        url: '/tonarsacne.php',
                         url_title: 'Utforska information om finnar hos tonåringar'
                   ),
             )
