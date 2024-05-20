@@ -11,7 +11,7 @@ $seo_image = '/images/treatments/large/soprano-ice.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),
-    new PathSegment('Soprano Ice', '/varumarken/alma/soprano-ice/'),
+    new PathSegment('Soprano Ice', '/varumarken/soprano-ice/'),
 );
 
 $model = new Service(

@@ -428,7 +428,7 @@ $service_brands = array(
         image: 'bilder/logotyper/soprano-ice.png',
         image_alt: 'Soprano Ice logotyp',
         image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-        url: '/varumarken/alma/soprano-ice',
+        url: '/varumarken/soprano-ice',
         url_title: 'Soprano Ice',
     ),
 );

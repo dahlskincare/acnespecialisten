@@ -383,7 +383,7 @@ $service_brands = array(
         image: 'bilder/logotyper/rejuve-dye-vl.svg',
         image_alt: 'Alma Rejuve Dye-VL logotyp',
         image_title: 'Alma Rejuve Dye-VL - IPL',
-        url: '/varumarken/alma/rejuve-dye-vl',
+        url: '/varumarken/rejuve-dye-vl',
         url_title: 'Alma Rejuve Dye-VL',
     ),
     new Brand(

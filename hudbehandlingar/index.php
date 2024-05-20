@@ -461,7 +461,7 @@ $service_categories = array(
                 url_title: 'Läs mer om Splendor X',
             ),
             new Treatment(
-                url: '/varumarken/alma/soprano-ice',
+                url: '/varumarken/soprano-ice',
                 label: 'Soprano Ice',
                 url_title: 'Läs mer om Soprano Ice',
             ),

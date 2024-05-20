@@ -313,14 +313,6 @@ $brands = array(
         url_title: 'DAHL Skincare',
     ),
     new Brand(
-        label: 'Alma',
-        image: 'bilder/logotyper/alma.svg',
-        image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-        image_alt: 'Alma logotyp',
-        url: '/varumarken/alma',
-        url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
-    ),
-    new Brand(
         label: 'Alma Hybrid',
         image: 'bilder/logotyper/alma-hybrid.svg',
         image_title: 'Alma Hybrid - CO2 laser',
