@@ -219,6 +219,14 @@
             margin-top: $xl;
         }
     }
+
+}
+
+section#results,
+section#reviews,
+section#faq,
+section#brands {
+    margin-top: 72px;
 }
 
 @include desktop {
@@ -346,5 +354,12 @@
                 }
             }
         }
+    }
+
+    section#results,
+    section#reviews,
+    section#faq,
+    section#brands {
+        margin-top: 104px;
     }
 }

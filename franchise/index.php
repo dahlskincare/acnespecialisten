@@ -280,6 +280,29 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                 </div>
             </section>
         </div>
+        <div class="container">
+            <section id="results">
+                <?php
+                $results_title = 'Resultat';
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                ?>
+            </section>
+            <section id="reviews">
+                <h2 class="big l10n">Omdömen</h2>
+                <?php
+                $reviews_narrow = true;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
+                ?>
+            </section>
+            <section id="faq">
+                <h2 class="big l10n">Frågor & Svar</h2>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+            </section>
+            <section id="brands">
+                <h2 class="big l10n">Varumärken</h2>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
+            </section>
+        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
