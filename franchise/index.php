@@ -42,8 +42,8 @@ class Clinic
 
 $hero_title = "Start own / Franchise";
 $hero_content = "We at AcneSpecialisten offer different types of franchise collaborations, depending on what suits you best. You can rent a place in an already existing clinic or in different ways open your own, and eventually develop it. Apply below to become part of our concept - but with yourself as the boss!";
-$hero_image_small = 'https://via.placeholder.com/358x274.webp';
-$hero_image_large = 'https://via.placeholder.com/872x456.webp';
+$hero_image_small = '/images/franchise_touch.webp';
+$hero_image_large = '/images/franchise_desktop.webp';
 $hero_image_alt = 'An image showing a franchise';
 $hero_image_title = 'Start own franchise';
 
