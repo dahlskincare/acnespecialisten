@@ -173,20 +173,24 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Question?',
-                  text: 'Answers'
+                  title: 'What causes inflammatory acne?',
+                  text: 'Inflammatory acne is caused by a combination of factors including clogged hair follicles, an overproduction of sebum, and the presence of bacteria such as Cutibacterium acnes. When hair follicles become clogged with dead skin cells and excess oil, it creates an ideal environment for bacteria to thrive. The body’s immune system responds to this bacterial growth by sending white blood cells to the affected area, leading to inflammation. This immune response causes the redness, swelling, and tenderness associated with inflammatory acne. Additionally, hormonal changes, particularly during puberty, menstruation, or periods of high stress, can increase the likelihood of developing inflammatory acne.'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  title: 'Are there any home remedies for inflammatory acne?',
+                  text: 'Yes, several home remedies can help manage inflammatory acne, although their effectiveness may vary. It is important to use a personalized skin care routine that treats and balances your skin effectively. First to remove the acne and then prevent it from appearing again.'
             ),
             new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'What are the common signs of inflammatory acne?',
+                  text: 'Common signs of inflammatory acne include the appearance of red, swollen, and tender bumps on the skin. These bumps can take various forms, such as papules, which are small, raised, red lesions without pus; pustules, which are similar to papules but contain pus; nodules, which are larger, solid, and painful lumps beneath the skin’s surface; and cysts, which are deep, pus-filled lesions that can be quite painful and are more likely to cause scarring. Inflammatory acne often affects areas with a high density of sebaceous (oil) glands, such as the face, neck, chest, back, and shoulders. The affected skin may also appear oily and may be more sensitive to touch.'
             ),
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Is it safe to pop inflammatory acne pimples?',
+                  text: 'Popping inflammatory acne pimples is generally not recommended, as it can lead to several adverse effects. Squeezing pimples can force bacteria and pus deeper into the skin, causing more inflammation and potentially leading to infection. This can result in larger, more painful lesions and increase the likelihood of scarring. Additionally, popping pimples can damage the skin’s surface, leading to open wounds that take longer to heal and are more prone to infection. It can also cause hyperpigmentation, resulting in dark spots that may persist long after the acne has healed. Instead of popping pimples yourself, it is important to consult an esthetician who can help you get rid of the inflammatory acne without harming the skin.'
+            ),
+            new Question(
+                  title: 'Can inflammatory acne leave scars?',
+                  text: 'Yes, inflammatory acne can leave scars, especially if not properly treated. Scarring occurs when the skin’s healing process is disrupted, often due to the intense inflammation and tissue damage associated with severe acne. There are different types of acne scars, including atrophic scars, which appear as depressions in the skin (such as ice pick, boxcar, and rolling scars), and hypertrophic or keloid scars, which are raised above the skin’s surface. Preventing scars involves managing acne effectively with appropriate treatments, avoiding picking or squeezing pimples, and seeking early intervention for severe acne. Post-acne scar treatments may include procedures like laser, microneedling and chemical peels to improve the skin’s appearance.'
             ),
       ),
 );
