@@ -314,5 +314,3 @@ Redirect 301 behandlingsrutiner/rosacea.pdf https://www.dahlskincare.com/sv/beha
 Redirect 301 behandlingsrutiner/latt-acne.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-akne.php
 Redirect 301 behandlingsrutiner/milier.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-milier.php
 Redirect 301 behandlingsrutiner/fet-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-fet-hy.php
-
-ErrorDocument 404 /not-found.php
