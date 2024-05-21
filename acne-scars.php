@@ -5,9 +5,9 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Inflammation Acne | AcneSpecialisten';
-$seo_description = 'Read more about acne and the causes for inflamed acne in the skin on the face. Book a free consultation →';
-$seo_keywords = 'akne pustel';
+$seo_title = 'Acne Scars | AcneSpecialisten';
+$seo_description = 'Learn more about acne scar, its causes and apperance on the skinon the face, chest and back. Book a free consultation →';
+$seo_keywords = 'acne scars';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar inflammatorisk akne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Inflammation Acne',
-      description: 'Denna Engelska sida handlar om inflammerad akne som även kallas för akne pustel eller pustler. Inflamed acne, also known as pustular acne, damages the skin and can lead to scarring. This type of acne consists of a combination of dead skin cells, sebum, and bacteria. When bacteria consume the skin cells and sebum, an aggressive fatty acid is produced that corrodes the cell walls of the pores.',
+      description: 'Denna engelska sida handlar om akneärr och hur de uppstår. Acne scars can develop after severe or inflamed acne heals, leaving behind marks on the skin. These scars form as a result of the skin|\'s natural healing process, which can sometimes produce too much or too little tissue. When the body creates too much tissue, it results in raised scars, such as hypertrophic or keloid scars. Conversely, when there is a loss of tissue, depressed scars, like ice pick, boxcar, or rolling scars, can form.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
