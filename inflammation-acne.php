@@ -90,6 +90,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments for inflammatory acne" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments for inflammatory acne</a>';
 
+$results_title = 'Inflammation Acne before and after results';
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
