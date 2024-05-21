@@ -1,6 +1,6 @@
 User-agent: *
 
-Disallow: /
+#Disallow: /
 Disallow: /includes/
 Disallow: /node_modules/
 
