@@ -39,6 +39,10 @@ $glossary_items = array(
             title: 'Elevbehandlingar',
             description: '<p class="p200">Ibland har vi elevbehandlingar från hudterapeuter som är under utbildning: <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a></p>',
         ),
+        new GlossaryItem(
+            title: 'Engelska',
+            description: '<p class="p200">Du hittar några av våra Engelska sidor här: <a class="b200 underline color-deep-sea-400" href="/inflammation-acne.php">Inflammation Acne</a><a class="b200 underline color-deep-sea-400" href="/acne-scars.php">Acne scars</a></p>',
+        ),
 
     ),
     'f' => array(
