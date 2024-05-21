@@ -11,8 +11,8 @@ $seo_keywords = 'akne pustel';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
-      new PathSegment('Inflammerad Akne', '/inflammerad-akne.php'),
+      new PathSegment('Skin problem', '/hudproblem'),
+      new PathSegment('Inflammation Acne', '/inflammation-acne.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
@@ -172,8 +172,8 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Question?',
+                  text: 'Answers'
             ),
             new Question(
                   title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
