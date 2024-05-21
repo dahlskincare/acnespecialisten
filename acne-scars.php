@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar inflammatorisk akne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Inflammation Acne',
-      description: 'Denna engelska sida handlar om akneärr och hur de uppstår. Acne scars can develop after severe or inflamed acne heals, leaving behind marks on the skin. These scars form as a result of the skin|\'s natural healing process, which can sometimes produce too much or too little tissue. When the body creates too much tissue, it results in raised scars, such as hypertrophic or keloid scars. Conversely, when there is a loss of tissue, depressed scars, like ice pick, boxcar, or rolling scars, can form.',
+      description: 'Denna engelska sida handlar om akneärr och hur de uppstår. Here we explain what characterizes acne scars, why the problem occurs, and how we can help you with treatment. We also go through how we identify different types of acne scars, the causes behind them, and how we can support you in your treatment process.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -34,19 +34,14 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
-                  label: 'Akne',
-                  url: 'acne.php',
-                  title: 'Allt du behöver veta om akne och deras behandling'
+                  label: 'Acneärr Gropar (Atrofiska ärr)',
+                  url: 'atrofiska-arr.php',
+                  title: 'Allt du behöver veta om atrofiska ärr i form av gropar från akne och deras behandling'
             ),
             new Link(
-                  label: 'Vuxenakne',
-                  url: 'vuxenacne.php',
-                  title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-            ),
-            new Link(
-                  label: 'Tonårsakne',
-                  url: 'tonarsacne.php',
-                  title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+                  label: 'Acneärr Fläckar (Postinflammatorisk hyperpigmentering)',
+                  url: 'postinflammatorisk-hyperpigmentering.php',
+                  title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av fläckar från akne'
             ),
       ]
 );
@@ -90,7 +85,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments for inflammatory acne" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments for inflammatory acne</a>';
 
-$results_title = 'Inflammation Acne before and after results';
+$results_title = 'Acne Scars before and after results';
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',

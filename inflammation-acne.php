@@ -51,44 +51,45 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Treat your inflammatory acne effectively.';
+$floating_box = 'Treat your acne scars effectively.';
 
-$description_title = 'What is inflamed acne?';
-$description_text = '<p class="p200">Inflamed acne is a skin condition characterized by red, tender lesions that can be painful to touch. This type of acne occurs when hair follicles become clogged with sebum and dead skin cells, creating an ideal environment for acne bacteria (Propionibacterium acnes) to grow and cause inflammation. Unlike non-inflammatory lesions such as blackheads and whiteheads, inflamed acne involves more painful and visible signs, such as papules, pustules (also known as acne pustules), nodules, and cysts. When acne bacteria infect the clogged pore, the body\'s immune system responds by sending white blood cells to the area, leading to inflammation and the formation of pus-filled pustules or deeper skin lesions. This process makes the acne area red, swollen, and inflamed.</p>
-<p class="p200 mt-m">Treatment of inflamed acne focuses on reducing inflammation, combating bacterial infection, and preventing pore blockage. This can include the use of skincare products that help normalize the shedding of dead skin cells. To manage inflamed acne, it is also important to perform facial treatments with thorough extractions to drain the acne that would otherwise damage the skin. Additionally, it is critical to resist the temptation to squeeze or pick at acne lesions, as this can lead to further inflammation, infection, and potential scarring. Managing inflamed acne requires a tailored treatment plan that tackles the problem from multiple angles. With the right skincare and treatments, we can help you get rid of your inflamed acne.</p>';
+$description_title = 'What are acne scars?';
+$description_text = '<p class="p200">Acne scars are a result of the skin healing from severe acne, leaving behind marks or indentations. These scars form when the skin’s natural healing process produces too much or too little tissue. Raised scars, such as hypertrophic or keloid scars, occur when the body creates too much tissue. Depressed scars, like ice pick, boxcar, or rolling scars, form when there is a loss of tissue. Inflammation from acne, particularly cystic or nodular acne, can damage the skin’s underlying structure, leading to scarring.</p>
+<p class="p200 mt-m">Treatment of acne scars focuses on improving skin texture and appearance. This can include the use of skincare products that promote skin regeneration and procedures like chemical peels, microneedling, and laser therapy. It is also important to prevent further acne outbreaks by maintaining a proper skincare routine. Managing acne scars requires a tailored treatment plan that addresses the specific type of scars and individual skin needs. With the right skincare and treatments, we can help you reduce the appearance of acne scars and improve your skin\'s overall texture and tone.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identify',
-            content: 'We analyze the unique characteristics of your inflammatory acne, take before pictures of the skin, and recommend a treatment plan for your inflamed acne.',
+            content: 'We analyze the unique characteristics of your acne scars, take before pictures of the skin, and recommend a treatment plan for your acne scars.',
             url_label: 'Book a free consultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Book your free skin consultation for inflammatory acne today'
+            url_title: 'Book your free skin consultation for acne scars today'
       ),
       new TreatmentStep(
             title: 'Treat',
-            content: 'We tailor our treatments for inflammatory acne according to your skin type and unique needs. We offer a wide range of treatments designed to address the inflammation in your skin.',
+            content: 'We tailor our treatments for acne scars according to your skin type and unique needs. We offer a wide range of treatments designed to improve skin texture and reduce the appearance of scars.',
             url_label: 'See treatments',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Explore our treatments for inflammatory acne'
+            url_title: 'Explore our treatments for acne scars'
       ),
       new TreatmentStep(
             title: 'Prevent',
-            content: 'To prevent future outbreaks of inflammatory acne, we offer specially developed skincare products and routines.',
+            content: 'To prevent future acne outbreaks and minimize new scars, we offer specially developed skincare products and routines.',
             url_label: 'See products',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Find the best products to prevent inflammatory acne'
+            url_title: 'Find the best products to prevent acne and minimize scars'
       ),
       new TreatmentStep(
             title: 'Repair',
-            content: 'After treating active inflammatory acne, we focus on repairing and reducing scarring and improving skin texture, contributing to a smoother and more radiant skin tone.',
+            content: 'After treating active acne, we focus on repairing and reducing scarring and improving skin texture, contributing to a smoother and more radiant skin tone.',
             url_label: 'See scar treatments',
             url: 'behandla-acnearr.php',
-            url_title: 'Discover our effective treatments for scars caused by inflammatory acne'
+            url_title: 'Discover our effective treatments for acne scars'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments for inflammatory acne" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments for inflammatory acne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments for acne scars" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments for acne scars</a>';
+
 
 $results_title = 'Inflammation Acne before and after results';
 $results = array(
