@@ -55,8 +55,8 @@ $treat_content = '<p class="p200">När din finntyp har identifierats, inleder vi
 
 $services = array(
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Finnar på AcneSpecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot finnar utförd på AcneSpecialisten',
 
@@ -74,17 +74,17 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Finnar på AcneSpecialisten',
 
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: '/hudbehandlingar/ansiktsbehandling/akne/',
+        url_label: 'Läs mer om ansiktsbehandling mot finnar',
+        url_title: 'Läs mer om ansiktsbehandling mot finnar',
 
         // short_title: 'Ansiktsbehandling'
 
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
         image_title: 'Klient som genomgår laserbehandling mot finnar',
         image_alt: 'Bild av laserbehandling mot finnar hos AcneSpecialisten',
         title: 'Effektiv laserbehandling mot finnar',
@@ -98,17 +98,17 @@ $services = array(
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot finnar nu',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: 'laser-acne.php',
+        url_label: 'Läs mer om laserbehandling mot finnar',
+        url_title: 'Läs mer om laserbehandling mot finnar',
 
         // short_title: 'Laser'
 
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_title: 'Utförande av kemisk peelingbehandling för finnar',
         image_alt: 'Bild på kemisk peelingbehandling mot finnar hos AcneSpecialisten',
         title: 'Kemisk peeling mot finnar',
@@ -119,9 +119,9 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot finnar',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: 'kemisk-peeling-acne.php',
+        url_label: 'Läs mer om kemisk peeling mot finnar',
+        url_title: 'Läs mer om kemisk peeling mot finnar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling mot finnar nu',
@@ -129,8 +129,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/microneedling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för finnar',
         image_alt: 'Bild på microneedlingbehandling mot finnar hos AcneSpecialisten',
         title: 'Effektiv microneedling mot finnar',
@@ -141,9 +141,9 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot finnar',
-        url: '',
-        url_label: '',
-        url_title: '',
+        url: 'microneedling-acne.php',
+        url_label: 'Läs mer om microneedling mot finnar',
+        url_title: 'Läs mer om microneedling mot finnar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling mot finnar nu',
