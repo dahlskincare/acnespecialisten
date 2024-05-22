@@ -90,7 +90,7 @@ $big_types = array(
         image_alt: 'Multizuion - Infuzion + Microneedling',
         image_title: 'Multizuion - Infuzion + Microneedling',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
-        consultation_url_label: 'Boka hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=infuzion',
         booking_url_label: 'Boka behandling',
