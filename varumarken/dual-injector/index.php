@@ -12,7 +12,7 @@ $seo_image = '/images/treatments/large/exceed.webp';
 $model = new Service(
     title: 'Dual Injector Pro+',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 2595 kr',
     content: '<p class="p200">Dual Injector Pro+ är en avancerad skönhetsbehandling som kombinerar Radio Frequency (RF) lifting och nålfri mesoterapi. Utofrmad för att ge omedelbara och långvariga förbättringar av hudens utseende och hälsa.</p>',
     image_small: 'bilder/varumarken/358x274/exceed.webp',
     image_large: 'bilder/varumarken/424x456/exceed.webp',
@@ -21,7 +21,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=exceed',
+    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-1x-omrade-178347',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -75,7 +75,7 @@ $treatment_areas = array(
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
-                duration: '50 min',
+                duration: '60 min',
                 price: '2595 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-1x-omrade-178347',
                 url_label: 'Boka',
@@ -87,7 +87,7 @@ $treatment_areas = array(
                 image_title: '2x områden',
                 title: '2x områden',
                 duration: '70 min',
-                price: '3595 kr',
+                price: '3995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-2x-omraden-2194886',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 2 områden'
@@ -98,7 +98,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '4995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-3x-omraden-2194887',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 3 områden'

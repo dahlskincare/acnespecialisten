@@ -12,7 +12,7 @@ $seo_image = '/images/treatments/large/exceed.webp';
 $model = new Service(
     title: 'Exceed',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 2595 kr',
     content: '<p class="p200">Exceed är idealisk för den som siktar på att förhöja hudens kvalitet och spänst, dämpa framträdandet av ärrvävnad, rynkor och fina linjer, samt återställa hudens naturliga vitalitet och utstrålning.</p>',
     image_small: 'bilder/varumarken/358x274/exceed.webp',
     image_large: 'bilder/varumarken/424x456/exceed.webp',
