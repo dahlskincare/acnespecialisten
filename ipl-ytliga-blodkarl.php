@@ -155,7 +155,6 @@ $bottom_articles = array('aftercare' => new Article(
     content: '<p class="p200">Eftervården är en central del av återhämtningsprocessen efter en IPL behandling mot ytliga blodkärl. Efter behandlingen kan det förekomma en viss rodnad och ibland en mild svullnad i de behandlade områdena. Dessa reaktioner är vanliga och bör avta relativt snabbt. Det är viktigt för att undvika irritation och infektion att inte röra det behandlade området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
     <p class="p200 mt-m">Under de första dagarna efter din IPL behandling är det rekommenderat att du avstår från intensiv fysisk aktivitet, bastubad och långa varma duschar, eftersom dessa kan öka svullnad och irritation. Det är också viktigt att skydda huden mot solen. Använd solskyddskräm med hög SPF regelbundet, särskilt på de behandlade områdena, för att förhindra ytterligare solskador och främja läkning. Använd gärna milda, återfuktande hudvårdsprodukter som inte innehåller irriterande ämnen för att lugna huden och bibehålla dess fuktbalans.</p>
     <p class="p200 mt-m">Följ noggrant de eftervårdsinstruktioner du får från din hudterapeut. Om du har några frågor eller bekymmer om din återhämtning efter behandlingen, tveka inte att kontakta din klinik. Ytterligare uppföljningsbehandlingar kan rekommenderas för att bibehålla och förbättra resultaten av din IPL behandling mot ytliga blodkärl.</p>',
-    tags: array(new ArticleTag())
 ));
 
 $service_brands_title = 'Märken för IPL';
