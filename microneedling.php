@@ -214,8 +214,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">I strävan efter optimala resultat av din hudvård, erbjuder vår klinik en unik kombinationsbehandling som förstärker effekten av microneedling genom att integrera PRX-T33, en banbrytande biorevitaliserande behandling. Denna synergiska behandlingsstrategi är utformad för att förbättra hudens struktur, elasticitet och lyster utan lång återhämtningstid.</p>
             <p class="p200 mt-m">PRX-T33-behandlingen appliceras efter microneedling-sessionen för att boosta hudens regenerativa processer och kollagenproduktion ännu mer. Eftersom PRX-T33 inte kräver nålar eller orsakar hudskada, är det ett utmärkt komplement för att förstärka och förlänga de positiva effekterna av microneedling. Förbered dig för att se en märkbar skillnad i din hud med en förbättrad ton, textur och en omfattande minskning av fina linjer och ojämnheter.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_alt: 'Boosta din Microneedling med PRX-T33-behandling',
         image_title: 'Boosta din Microneedling med PRX-T33-behandling',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
