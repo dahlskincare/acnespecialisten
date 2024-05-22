@@ -91,7 +91,7 @@ $big_types = array(
         price: null,
         content: '',
         image_small: '/bilder/hudbehandlingar/200x200/easy-phytic-peel.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/easy-pythic-peel.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/easy-phytic-peel.webp',
         image_alt: null,
         image_title: null,
         consultation_url: null,

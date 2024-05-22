@@ -57,8 +57,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy Phytic Peel är en idealisk behandling för dig som önskar att adressera hudproblem som orenheter, tilltäpptheter och pigmentfläckar, eftersom den är lämplig för alla hudtyper. Denna skonsamma peeling erbjuder en grundlig rengöring och hjälper till att förbättra hudens allmänna utseende, utan att orsaka lång återhämtningstid. Formulan i Easy Phytic Peel arbetar försiktigt med att avlägsna det yttersta hudlagret, vilket leder till en minskning av ojämnheter och en främjande av cellförnyelse.</p>
         <p class="p200 mt-m">Behandlingen fortsätter sedan med en lugnande process där huden återfuktas och eventuell rodnad lindras. En av de främsta fördelarna med Easy Phytic Peel är att den inte behöver neutraliseras eller sköljas bort, vilket gör processen praktisk och okomplicerad. Efter behandlingen kan du förvänta dig en hud som är märkbart klarare, jämnare och mer strålande. Skin Tech Easy Phytic Peel är det perfekta valet för den som vill ha en effektiv hudbehandling som är skonsam mot känslig hud.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/easy-phytic-peel.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/easy-phytic-peel.webp',
         image_alt: 'Skin Tech Easy Phytic Peel',
         image_title: 'Skin Tech Easy Phytic Peel',
         consultation_url: null,
@@ -95,8 +95,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy Droxy Versicolor Peel är den perfekta lösningen för dig som vill revitalisera din hud och effektivt minska pigmenteringar. Denna peelingbehandling är skonsam nog för olika hudtyper och är särskilt bra på att förbättra hudens klarhet, fräschör och ungdomliga glans. Behandlingen fungerar genom att försiktigt ta bort det yttersta hudlagret, vilket bidrar till att minska ojämnheter och främja en enhetlig hudton.</p>
         <p class="p200 mt-m">Easy Droxy Versicolor Peel är utvecklad för att ge en bekväm behandlingsupplevelse och kräver inte neutralisering. Efter avslutad behandling återställs och återfuktas huden, vilket reducerar rodnad och skapar en känsla av lugn och fukt. Denna peeling är ett utmärkt alternativ för dem som söker märkbara förbättringar utan behov av lång återhämtningsperiod. Att välja Easy Droxy Versicolor Peel innebär att ta ett steg mot en ljusare och jämnare hudton, vilket gör den till ett idealiskt val för alla som vill ge sin hud en snabb och effektiv uppfräschning.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/easy-droxy-versicolor-peel.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/easy-droxy-versicolor-peel.webp',
         image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
         image_title: 'Skin Tech Easy Droxy Versicolor Peel',
         consultation_url: null,
@@ -133,8 +133,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Skin Tech Easy TCA Pain Control är en framstående kemisk peeling som levererar betydande resultat mot åldrande, ojämn hudstruktur och ton, samt mot hudens missfärgningar. Denna peeling är särskilt framtagen för att ge en omfattande hudförnyelse, vilket gör den till ett utmärkt val för de som eftersträvar tydliga förbättringar i både hudens utseende och kvalitet.</p>
         <p class="p200 mt-m">Under behandlingen appliceras Easy TCA Pain Control metodiskt för att nå hudens djupare skikt. Detta stimulerar både cellförnyelsen och kollagenproduktionen. Processen är utformad för att kraftfullt minska de synliga ålderstecknen såsom fina linjer och rynkor, och arbetar för att jämna ut hudens ton och struktur. En unik fördel med Easy TCA Pain Control är dess förmåga att minimera obehag under behandlingen, vilket säkerställer en bekväm upplevelse för dig som klient. Efter peelingen behandlas huden med vårdande produkter för optimal återhämtning och för att maximera effekten av behandlingen. Skin Tech Easy TCA Pain Control är den idealiska lösningen för dig som söker en djupgående och kraftfull behandling för att återfå hudens ungdomliga lyster.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/easy-tca-pain-control.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/easy-tca-pain-control.webp',
         image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
         image_title: 'Skin Tech Easy Droxy Versicolor Peel',
         consultation_url: null,
