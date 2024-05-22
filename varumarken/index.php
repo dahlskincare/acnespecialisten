@@ -199,7 +199,7 @@ $link_brands = array(
             url_title: 'Läs mer',
             services: array(
                   "/infuzion.php" => "Infuzion",
-                  "/varumarken/dual-injector.php" => "Dual Injector",
+                  "/varumarken/dual-injector/" => "Dual Injector",
             )
       ),
       new BrandCategory(
