@@ -61,8 +61,8 @@ $treat_url_title = 'Klicka här för att se våra ärrbehandlingar';
 $services = array(
 
     new Service(
-        image_small: '/bilder/hudbehandlingar/358x274/laser-mot-hudproblem.webp',
-        image_large: '/bilder/hudbehandlingar/872x456/laser-mot-hudproblem.webp',
+        image_small: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
         image_title: 'Kund som genomgår laserbehandling mot acneärr',
         image_alt: 'Bild av laserbehandling mot acneärr hos Acnespecialisten',
         title: 'Laser mot acneärr',
@@ -83,8 +83,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: '/bilder/hudbehandlingar/358x274/kemisk-peeling.webp',
-        image_large: '/bilder/hudbehandlingar/872x456/kemisk-peeling.webp',
+        image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_title: 'Utförande av kemisk peelingbehandling för acneärr',
         image_alt: 'Bild på kemisk peelingbehandling mot acneärr hos Acnespecialisten',
         title: 'Kemisk peeling mot acneärr',
@@ -105,8 +105,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: '/bilder/hudbehandlingar/358x274/microneedling.webp',
-        image_large: '/bilder/hudbehandlingar/872x456/microneedling.webp',
+        image_small: '/bilder/hudbehandlingar/200x200/microneedling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för acneärr',
         image_alt: 'Bild på microneedlingbehandling mot acneärr hos Acnespecialisten',
         title: 'Microneedling mot acneärr',

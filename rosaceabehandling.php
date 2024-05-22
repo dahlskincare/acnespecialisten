@@ -54,8 +54,8 @@ $treat_content = '<p class="p200">När din typ av rosacea har identifierats, på
 
 $services = array(
     new Service(
-        image_small: '/bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-        image_large: '/bilder/hudbehandlingar/872x456/ansiktsbehandlingar-mot-problemhy.webp',
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Rosacea på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot rosacea utförd på Acnespecialisten',
 
@@ -81,8 +81,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: '/bilder/hudbehandlingar/358x274/ipl.webp',
-        image_large: '/bilder/hudbehandlingar/872x456/ipl.webp',
+        image_small: '/bilder/hudbehandlingar/200x200/ipl.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ipl.webp',
         image_title: 'Klient som genomgår IPL-behandling mot rosacea',
         image_alt: 'Bild av IPL-behandling mot rosacea hos Acnespecialisten',
         title: 'IPL-behandling mot Rosacea',
