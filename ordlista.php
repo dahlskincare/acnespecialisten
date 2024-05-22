@@ -54,7 +54,13 @@ $glossary_items = array(
     ),
     'g' => array(),
     'h' => array(),
-    'i' => array(),
+    'i' => array(
+        new GlossaryItem(
+            title: 'IPL mot Acne',
+            description: '<p class="p200">Vi behandlar acne med laser: <a class="b200 underline color-deep-sea-400" href="ipl-acne.php">IPL mot acne</a></p>',
+        ),
+
+    ),
     'j' => array(),
     'k' => array(),
     'l' => array(),
@@ -66,7 +72,7 @@ $glossary_items = array(
     'r' => array(
         new GlossaryItem(
             title: 'Rhinophyma Rosacea',
-            description: '<p class="p200">Här hittar du med information om rhinophyma rosacea.
+            description: '<p class="p200">Här hittar du med information om rhinophyma rosacea:
                 <a class="b200 underline color-deep-sea-400" href="/rhinophyma-rosacea.php">Rhinophyma Rosacea</a></p>',
         ),
         new GlossaryItem(
