@@ -145,7 +145,7 @@ $link_brands = array(
             url_title: 'Läs mer',
             services: array(
                   "/alma-hybrid-co2-laser.php" => "Alma Hybrid CO2",
-                  "/alma-harmony-xl-pro.php" => "Harmony XL Pro"
+                  "/alma-harmony-xl-pro.php" => "Harmony XL Pro",
             )
       ),
       new BrandCategory(
@@ -208,7 +208,7 @@ $link_brands = array(
             url_title: 'Läs mer',
             services: array(
                   "/dermapen.php" => "Dermapen",
-                  "/varumarken/exceed" => "Exceed"
+                  "/varumarken/exceed" => "Exceed",
             )
       ),
 );
