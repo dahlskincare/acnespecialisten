@@ -85,8 +85,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200"><p class="p200">Multifuzion är en avancerad hudförbättringsmetod som kombinerar microneedling och Infuzion för att erbjuda en omfattande behandling för hudföryngring. Processen börjar med microneedling för att skapa mikroskopiska kanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens struktur.</p>
         <p class="p200 mt-m">Därefter appliceras Infuzion-behandlingen, där hudens förmåga att absorbera de näringsrika serumerna förbättras avsevärt genom de skapade kanalerna. Denna synergistiska effekt ger en intensiv hydrering och näring, vilket resulterar i en slätare, mer strålande hud med minskade tecken på åldrande.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/microneedling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_alt: 'Multizuion - Infuzion + Microneedling',
         image_title: 'Multizuion - Infuzion + Microneedling',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
