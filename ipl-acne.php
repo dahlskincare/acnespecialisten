@@ -77,48 +77,30 @@ $article = new SkinGuideArticle(
                     <h2 class="nav-anchor">Översikt</h2>
                     <h3>Vad är IPL mot acne?</h3>
                     <p>
-                        Acnemedicinen roaccutan tillhör en grupp av läkemedel som kallas för retinoider. Preparatet har flera benämningar såsom accutane och roaccutane på engelska, och det är inte ovanligt att det kallas roccutan eller roacutan på Svenska. De är besläktade med A-vitamin, ett vitamin som du bär på naturligt och är därför viktigt för både huden och kroppen i viss mängd. Läkemedlet roaccutan används främst vid mycket svår acne och är ett av de få läkemedel som faktiskt visat sig ha effekt på acnebenägen hy. Det lanserades av Hoffman-La Roche under 1980-talet.
-                    </p>
-                    <p>
-                        En behandling pågår normalt mellan 16 och 24 veckor. Medicinen är paketerad i form av röd-bruna gelatinkapslar eller tabletter som du äter dagligen. Roaccutan är inte receptfritt utan skrivs ut av legitimerade läkare under särskilda förhållanden.
+                        IPL mot acne är egentligen en laserbehandling som utförs med koldioxidlaser. Denna teknik använder högintensivt ljus för att penetrera huden och rikta sig mot problemområden som överaktiva talgkörtlar och acneframkallande bakterier. Koldioxidlasern hjälper till att minska talgproduktionen, döda bakterier och reducera inflammation, vilket leder till en renare och klarare hud. Behandlingen stimulerar även kollagenproduktionen, vilket förbättrar hudens struktur och minskar ärrbildning. Behandlingen är effektiv och ger långvariga resultat med minimal återhämtningstid, vilket gör den till ett populärt val för acnebehandling.
                     </p>
 
                     <h2 class="nav-anchor">Hur kommer jag igång?</h2>
                     <p>
-                        For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
+                        För att påbörja din IPL-behandling mot acne börjar vi med en kostnadsfri konsultation. Under konsultationen kommer en erfaren hudterapeut att utvärdera din hudtyp och dina specifika hudproblem. Detta görs för att skapa en skräddarsydd behandlingsplan som är anpassad efter dina unika behov och mål. Efter en noggrann hudanalys och diskussion om dina förväntningar, kommer terapeuten att rekommendera antalet sessioner och frekvensen mellan dem för att uppnå bästa möjliga resultat. Denna plan säkerställer att behandlingen är effektiv och ger de långvariga förbättringar du önskar.
                     </p>
 
                     <!-- Service banners (touch) -->
                     <div class="mt-xl3 is-hidden-desktop">
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="/bilder/hudbehandlingar/200x200/konsultation.webp" width="200" height="200" alt="Konsultation" title="Konsultation" />
-                                <div>
-                                    <h4>Gratis Hudkonsultation</h4>
-                                    <p>20 min<span class="dot"></span>Gratis</p>
-                                </div>
-                            </div>
-                            <p class="banner-text">
-                                This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
-                            </p>
-                            <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
-                            <hr />
-                            <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
-                        </div>
-                        <div class="service-banner-touch">
-                            <div class="banner-info">
                                 <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                                 <div>
-                                    <h4>IPL for acne</h4>
-                                    <p>30 min<span class="dot"></span>From 1295 kr</p>
+                                    <h4>IPL mot acne</h4>
+                                    <p>30 min<span class="dot"></span>Från 2595 kr</p>
                                 </div>
                             </div>
                             <p class="banner-text">
-                                This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
+                                IPL mot acne är en effektiv laserbehandling som använder koldioxidlaser för att minska talgproduktion, döda bakterier och reducera inflammation. Behandlingen förbättrar hudens struktur och minskar ärrbildning med minimal återhämtningstid, vilket ger dig långvariga resultat.
                             </p>
-                            <a class="button outline expand" href="" title="View more about service">View more about service</a>
+                            <a class="button outline expand" href="laser-acne.php" title="View more about service">View more about service</a>
                             <hr />
-                            <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Boka konsultation</a>
                             <a class="mt-s button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Book a treatment">Boka behandling</a>
                         </div>
                     </div>
@@ -127,34 +109,18 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-touch">
                         <div class="service-banner-desktop">
                             <div>
-                                <img src="/bilder/hudbehandlingar/200x200/konsultation.webp" width="200" height="200" alt="Konsultation" title="Konsultation" />
-                            </div>
-                            <div class="banner-info">
-                                <h4>Consultation</h4>
-                                <p class="banner-price">15 min<span class="dot"></span>Free</p>
-                                <div>
-                                    <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment" title="View more about consultation">View more about consultation</a>
-                                </div>
-                            </div>
-                            <div class="banner-buttons">
-                                <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
-                            </div>
-                        </div>
-                        <div class="service-banner-desktop">
-                            <div>
                                 <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                             </div>
                             <div class="banner-info">
-                                <h4>IPL for acne</h4>
-                                <p class="banner-price">30 - 60 min<span class="dot"></span>Price from 1925 kr</p>
+                                <h4>IPL mot acne</h4>
+                                <p class="banner-price">30 min<span class="dot"></span>Pris från 2595 kr</p>
                                 <div>
-                                    <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment" title="View more about service">View more about service</a>
+                                    <p class="banner-text">IPL mot acne är en effektiv laserbehandling som använder koldioxidlaser för att minska talgproduktion, döda bakterier och reducera inflammation. Behandlingen förbättrar hudens struktur och minskar ärrbildning med minimal återhämtningstid, vilket ger dig långvariga resultat.</p>
+                                    <a class="button text b200" href="laser-acne.php" title="View more about service">Läsa mer</a>
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Boka konsultation</a>
                                 <a class="button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Book a treatment">Boka behandling</a>
                             </div>
                         </div>
