@@ -3,26 +3,26 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
-    url: 'roaccutan.php',
-    url_title: 'Roaccutan',
-    title: 'Roaccutan',
-    subtitle: 'Här förklarar vi vad roaccutan är, varför det används och synliggör för- och nackdelar med medicinen.',
-    problem: 'Roaccutan',
-    description: "Här förklarar vi vad roaccutan är, varför det används och synliggör för- och nackdelar med medicinen.",
-    image_small: 'bilder/hudguide/426x324/roaccutan.jpg',
-    image_large: 'bilder/hudguide/872x456/roaccutan.jpg',
-    image_alt: 'Roaccutan',
-    image_title: 'Roaccutan',
+    url: 'ipl-acne.php',
+    url_title: 'IPL Acne',
+    title: 'IPL Acne',
+    subtitle: 'Här förklarar vi mer om IPL mot acne med hjälp av laser.',
+    problem: 'IPL Acne',
+    description: "Här förklarar vi mer om IPL mot acne med hjälp av laser.",
+    image_small: 'bilder/hudguide/426x324/ipl-acne.jpg',
+    image_large: 'bilder/hudguide/872x456/ipl-acne.jpg',
+    image_alt: 'IPL Acnen',
+    image_title: 'IPL Acne',
 );
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <title class="l10n">Information om acnemedicinen Roaccutan | AcneSpecialisten</title>
-    <meta name="title" content="Information om acnemedicinen Roaccutan | AcneSpecialisten" class="l10n">
-    <meta name="description" content="Roaccutan är en acne medicin. Här hittar du mer information om roaccutan och dess biverkningar, vi erbjuder effektiv behandling utan roaccutan." class="l10n">
-    <meta name="keywords" content="accutane, roaccutan, akne medicin, accutane svenska, roaccutane, roacutan, isotretinoin före efter, acne medicin, medicin mot akne, akne kräm recept, antibiotika mot akne, biverkningar roaccutan, roaccutan biverkningar, accutane sweden, akne tabletter, antibiotika mot akne resultat, roaccutan fass" class="l10n">
+    <title class="l10n">IPL mot Acne | AcneSpecialisten</title>
+    <meta name="title" content="IPL mot Acne | AcneSpecialisten" class="l10n">
+    <meta name="description" content="Läs mer om IPL mot acne med laser. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →" class="l10n">
+    <meta name="keywords" content="ipl acne" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/hudguide/category/subcategory/article/article.css">
@@ -75,7 +75,7 @@ $article = new SkinGuideArticle(
                 </section>
                 <section id="content">
                     <h2 class="nav-anchor">Översikt</h2>
-                    <h3>Vad är roaccutan?</h3>
+                    <h3>Vad är IPL mot acne?</h3>
                     <p>
                         Acnemedicinen roaccutan tillhör en grupp av läkemedel som kallas för retinoider. Preparatet har flera benämningar såsom accutane och roaccutane på engelska, och det är inte ovanligt att det kallas roccutan eller roacutan på Svenska. De är besläktade med A-vitamin, ett vitamin som du bär på naturligt och är därför viktigt för både huden och kroppen i viss mängd. Läkemedlet roaccutan används främst vid mycket svår acne och är ett av de få läkemedel som faktiskt visat sig ha effekt på acnebenägen hy. Det lanserades av Hoffman-La Roche under 1980-talet.
                     </p>
@@ -83,22 +83,19 @@ $article = new SkinGuideArticle(
                         En behandling pågår normalt mellan 16 och 24 veckor. Medicinen är paketerad i form av röd-bruna gelatinkapslar eller tabletter som du äter dagligen. Roaccutan är inte receptfritt utan skrivs ut av legitimerade läkare under särskilda förhållanden.
                     </p>
 
-                    <h2>Subtitle #5</h2>
+                    <h2 class="nav-anchor">Hur kommer jag igång?</h2>
                     <p>
                         For the first time ever, fans from around the world can explore the faraway lands of their favorite holiday films with an exclusive overnight stay at the original Hobbiton™ Movie Set. Russell Alexander is inviting guests to his family’s property to live like Bilbo Baggins and retreat to The Shire™ for an overnight stay at Hobbiton, as featured in the famed The Lord of the Rings and The Hobbit film trilogies.
-                    </p>
-                    <p>
-                        Nestled in the picturesque pastures of New Zealand’s Waikato region on a 2,500 acre working farm, the property’s rolling, green hills – bear a striking similarity to The Shire™ as described by J. R. R. Tolkien in The Lord of the Rings, and captivated Sir Peter Jackson’s movie scouts more than two decades ago. The team quickly realized the Hobbits had found their home – and this holiday season, it could be yours.
                     </p>
 
                     <!-- Service banners (touch) -->
                     <div class="mt-xl3 is-hidden-desktop">
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
+                                <img src="/bilder/hudbehandlingar/200x200/konsultation.webp" width="200" height="200" alt="Konsultation" title="Konsultation" />
                                 <div>
-                                    <h4>Consultation</h4>
-                                    <p>15 min<span class="dot"></span>Free</p>
+                                    <h4>Gratis Hudkonsultation</h4>
+                                    <p>20 min<span class="dot"></span>Gratis</p>
                                 </div>
                             </div>
                             <p class="banner-text">
@@ -106,11 +103,11 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
                             <hr />
-                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
+                                <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                                 <div>
                                     <h4>IPL for acne</h4>
                                     <p>30 min<span class="dot"></span>From 1295 kr</p>
@@ -121,8 +118,8 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about service">View more about service</a>
                             <hr />
-                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                            <a class="mt-s button expand" href="https://bokadirekt.se" title="Book a treatment">Book a treatment</a>
+                            <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
+                            <a class="mt-s button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Book a treatment">Boka behandling</a>
                         </div>
                     </div>
 
@@ -130,7 +127,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-touch">
                         <div class="service-banner-desktop">
                             <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
+                                <img src="/bilder/hudbehandlingar/200x200/konsultation.webp" width="200" height="200" alt="Konsultation" title="Konsultation" />
                             </div>
                             <div class="banner-info">
                                 <h4>Consultation</h4>
@@ -141,12 +138,12 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                         <div class="service-banner-desktop">
                             <div>
-                                <img src="https://via.placeholder.com/200x200.webp" width="200" height="200" alt="Consultation" title="Consultation" />
+                                <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                             </div>
                             <div class="banner-info">
                                 <h4>IPL for acne</h4>
@@ -157,8 +154,8 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                                <a class="button expand" href="gratis-hudkonsultation" title="Book a treatment">Book a treatment</a>
+                                <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Book a treatment">Boka behandling</a>
                             </div>
                         </div>
                     </div>
