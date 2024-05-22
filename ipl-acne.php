@@ -98,7 +98,7 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 IPL mot acne är en effektiv laserbehandling som använder koldioxidlaser för att minska talgproduktion, döda bakterier och reducera inflammation. Behandlingen förbättrar hudens struktur och minskar ärrbildning med minimal återhämtningstid, vilket ger dig långvariga resultat.
                             </p>
-                            <a class="button outline expand" href="laser-acne.php" title="View more about service">View more about service</a>
+                            <a class="button outline expand" href="laser-acne.php" title="View more about service">Läs mer om laserbehandling mot acne</a>
                             <hr />
                             <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Boka konsultation</a>
                             <a class="mt-s button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Book a treatment">Boka behandling</a>
@@ -116,7 +116,7 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">30 min<span class="dot"></span>Pris från 2595 kr</p>
                                 <div>
                                     <p class="banner-text">IPL mot acne är en effektiv laserbehandling som använder koldioxidlaser för att minska talgproduktion, döda bakterier och reducera inflammation. Behandlingen förbättrar hudens struktur och minskar ärrbildning med minimal återhämtningstid, vilket ger dig långvariga resultat.</p>
-                                    <a class="button text b200" href="laser-acne.php" title="View more about service">Läsa mer</a>
+                                    <a class="button text b200" href="laser-acne.php" title="View more about service">Läs mer om laserbehandling mot acne</a>
                                 </div>
                             </div>
                             <div class="banner-buttons">
