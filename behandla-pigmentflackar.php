@@ -54,11 +54,11 @@ $treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar,
 $services = array(
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/ipl.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ipl.webp',
         image_title: 'Klient som genomgår IPL-behandling mot pigmentfläckar',
         image_alt: 'Bild av IPL-behandling mot pigmentfläckar hos AcneSpecialisten',
-        title: 'Effektiv IPL-behandling mot pigmentfläckar',
+        title: 'IPL-behandling mot pigmentfläckar',
         duration: '30-60 min',
         price: '1295 kr',
         icons: array(),
@@ -76,8 +76,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_title: 'Utförande av kemisk peelingbehandling för pigmentfläckar',
         image_alt: 'Bild på kemisk peelingbehandling mot pigmentfläckar hos Acnespecialisten',
         title: 'Kemisk peeling mot pigmentfläckar',
@@ -98,8 +98,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/microneedling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för pigmentfläckar',
         image_alt: 'Bild på microneedlingbehandling mot pigmentfläckar hos Acnespecialisten',
         title: 'Effektiv microneedling mot pigmentfläckar',
@@ -120,8 +120,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/frysbehandling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/frysbehandling.webp',
         image_title: 'Effektiv behandling med CryoPen mot pigmentfläckar på Acnespecialisten',
         image_alt: 'Bild illustrerar en behandling med CryoPen mot pigmentfläckar utförd på Acnespecialisten',
 
