@@ -11,7 +11,7 @@ $model = new Service(
     title: 'Rosacea behandling',
     duration: null,
     price: null,
-    content: 'På Acnespecialisten erbjuder vi effektiva rosaceabehandlingar anpassade för att mildra dina symtom och förbättra din hudhälsa. Med en rad alternativ tillgängliga, är vi här för att hjälpa dig att hitta den metod som bäst passar din hudtyp. Boka en kostnadsfri konsultation hos oss idag, och ta det första steget mot en lugnare och jämnare hy.',
+    content: '<p class="p200">På Acnespecialisten erbjuder vi effektiva rosaceabehandlingar anpassade för att mildra dina symtom och förbättra din hudhälsa. Med en rad alternativ tillgängliga, är vi här för att hjälpa dig att hitta den metod som bäst passar din hudtyp. Boka en kostnadsfri konsultation hos oss idag, och ta det första steget mot en lugnare och jämnare hy.</p>',
     image_small: 'bilder/hudproblem/424x456/rosacea.webp',
     image_large: 'bilder/hudproblem/424x456/rosacea.webp',
     image_alt: 'Bild på rosaceabehandling',

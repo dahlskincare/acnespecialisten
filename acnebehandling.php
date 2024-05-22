@@ -16,7 +16,7 @@ $model = new Service(
     title: 'Akne behandling',
     duration: null,
     price: 'Från 1595 kr',
-    content: 'Här har vi samlat de bästa akne behandlingarna som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp? Oavsett om det är hormonell acne behandling eller annan typ av akne rekomenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten så hjälper vi dig att få bort akne.',
+    content: '<p class="p200">Här har vi samlat de bästa akne behandlingarna som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp? Oavsett om det är hormonell acne behandling eller annan typ av akne rekomenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten så hjälper vi dig att få bort akne.</p>',
     image_small: 'images/treatments/small/acne-scars.jpg',
     image_large: 'images/treatments/large/acne-scars.jpg',
     image_alt: 'Bild som illustrerar akne',

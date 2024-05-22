@@ -11,7 +11,7 @@ $model = new Service(
     title: 'Behandling av Ärr från Finnar',
     duration: null,
     price: 'Från 1595 kr',
-    content: 'Här har vi samlat de mest effektiva metoderna för behandling av ärr från finnar som hjälper dig att effektivt hantera dessa märken. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att ta hand om ärr orsakade av finnar? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från märken orsakade av finnar.',
+    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av ärr från finnar som hjälper dig att effektivt hantera dessa märken. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att ta hand om ärr orsakade av finnar? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från märken orsakade av finnar.</p>',
     image_small: 'images/treatments/small/acne-scars.jpg',
     image_large: 'images/treatments/large/acne-scars.jpg',
     image_alt: 'Bild som illustrerar ärr från finnar',
