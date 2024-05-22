@@ -83,16 +83,16 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Din ansiktsbehandling börjar med en rengöring samtidigt som hudterapeuten går igenom din huds unika behov och behandlngsmöjligheter. Beroende på din huds tillstånd och behov kan vi välja att integrera en mild exfoliering eller andra skräddarsydda metoder som syftar till att förbättra hudens struktur och lyster.</p>
         <p class="p200 mt-m">Vi fortsätter med att tillämpa specialiserade tekniker, som kan inkludera en Lumafuse-behandling med LED-mask för att främja hudens hälsa och läkning. Andra moment, såsom Peel2glow, brynstyling och applicering av noga utvalda masker och serum, väljs ut för att matcha exakt vad din hud kräver för den dagen. Genom hela sessionen är fokus på att skräddarsy varje steg för att passa dig, vilket resulterar i en personligt anpassad behandlingsupplevelse. Efter behandlingen avslutar vi med att applicera produkter som lugnar och återfuktar huden, för att säkerställa att du lämnar med en känsla av förnyelse och vitalitet.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
         image_alt: 'Hudterapeutens val',
         image_title: 'Hudterapeutens val',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
-        consultation_url_label: 'Boka tid för hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka konsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
-        booking_url_label: 'Boka Hudterapeutens val',
-        booking_url_title: 'Boka Hudterapeutens val',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
         icons: array(),
         procedures: array(
             new Procedure(
