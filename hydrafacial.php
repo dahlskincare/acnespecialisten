@@ -94,8 +94,8 @@ $big_types = array(
         duration: '40 min',
         price: null,
         content: '',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/hydrafacial-standard.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/hydrafacial-standard.webp',
         image_alt: 'HydraFacial',
         image_title: 'HydraFacial',
         consultation_url: null,
@@ -132,8 +132,8 @@ $big_types = array(
         content: '<p class="p200">Dermabuilder Serum är en exceptionell upplevelse för den mogna huden. Detta avancerade serum är särskilt framtaget för att djupt vitalisera och stärka huden. Med en kraftfull blandning av två aktiva peptider, arbetar serumet för att stimulera produktionen av hudens egna proteiner, vilket är avgörande för hudens elasticitet och fasthet.</p>
         <p class="p200 mt-m">I denna behandling tränger Dermabuilder Serum in i hudens djupare lager för att effektivt bygga upp och stärka hudstrukturen inifrån. Detta bidrar till att synbart minska rynkor och fina linjer, och ger ansiktet en fastare och mer ungdomlig profil. Behandlingen är perfekt för dig som vill återställa och bevara hudens ungdomliga utstrålning och vitalitet.</p>
         <p class="p200 mt-m">Med HydraFacial och Dermabuilder Serum får du inte bara en slätare och jämnare hud, utan också en mer motståndskraftig och välvårdad hudkvalitet. Detta serum är en idealisk lösning för att ge din mogen hud en omedelbar boost.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/hydrafacial-boost-glow.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/hydrafacial-boost-glow.webp',
         image_alt: 'HydraFacial',
         image_title: 'HydraFacial',
         consultation_url: null,
@@ -169,8 +169,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200 mt-m">Glycal Acid Peel är en kraftfull kombination av aktiva syror som tränger djupt in i hudlagren för att lösgöra och avlägsna inbyggda orenheter. Denna intensiva exfolieringsprocess renar effektivt porerna, vilket minskar synligheten av pormaskar och finnar och bidrar till en klarare och jämnare hudton.</p>
         <p class="p200 mt-m">Denna <a class="b200 underline color-deep-sea-400" href="/vakuumsug-pormaskar.php">vakuumsug för pormaskar</a> är idealisk för dig som söker en djupgående lösning på problemhy. Med vår Glycal Acid Peel får du inte bara en yttre rengöring, utan en behandling som aktivt arbetar för att rena huden på djupet. Resultatet är en ren, förnyad hud som är fri från de vanligaste orsakerna till problemhy.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/hydrafacial-pormaskar.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/hydrafacial-pormaskar.webp',
         image_alt: 'HydraFacial',
         image_title: 'HydraFacial',
         consultation_url: null,
