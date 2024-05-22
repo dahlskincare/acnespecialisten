@@ -161,7 +161,7 @@ $people_search_for = array(
     ),
     new Treatment(
         label: 'Hudterapeutens val',
-        url: '/hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
+        url: '/hudbehandlingar/ansiktsbehandling/hudterapeutens-val',
         url_title: 'Läs mer om hudterapeutens val'
     ),
     new Treatment(
@@ -374,7 +374,7 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: '/hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val',
+                url: '/hudbehandlingar/ansiktsbehandling/hudterapeutens-val',
                 label: 'Hudterapeutens val',
                 url_title: 'Läs mer om hudterapeutens val',
             ),
