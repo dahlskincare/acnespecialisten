@@ -53,8 +53,8 @@ $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi
 
 $services = array(
     new Service(
-        image_small: '/bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-        image_large: '/bilder/hudbehandlingar/872x456/ansiktsbehandlingar-mot-problemhy.webp',
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Akne på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
 
