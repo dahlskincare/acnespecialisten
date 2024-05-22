@@ -102,7 +102,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen för acneärr',
 
-        url: '/dermapen-acnearr.php',
+        url: '/microneedling-acnearr.php',
         url_label: 'Läs mer om Dermapen mot acneärr',
         url_title: 'Läs mer om Dermapen mot acneärr',
     ),
@@ -122,7 +122,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen mot stora porer',
 
-        url: '/dermapen-stora-porer.php',
+        url: '/microneedling-stora-porer.php',
         url_label: 'Läs mer om Dermapen mot stora porer',
         url_title: 'Läs mer om Dermapen mot stora porer',
     ),
@@ -202,7 +202,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Dermapen mot aktiv acne',
 
-        url: '/dermapen-acne.php',
+        url: '/microneedling-acne.php',
         url_label: 'Läs mer om Dermapen mot acne',
         url_title: 'Läs mer om Dermapen mot acne',
     ),
