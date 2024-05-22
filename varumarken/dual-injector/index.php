@@ -3,17 +3,17 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Dual Injector Stockholm - Avancerad hudförbättring';
+$seo_title = 'Dual Injector Pro+ Stockholm - Avancerad hudförbättring';
 $seo_description = 'Dual Injector Pro+ är en avancerad nålfri mesoterapi behandling som effektivt tar itu med ålderstecken och hudens textur.';
 $seo_keywords = 'Dual Injector, Dual Injector Pro+, Stockholm';
 
 $seo_image = '/images/treatments/large/exceed.webp';
 
 $model = new Service(
-    title: 'Exceed',
+    title: 'Dual Injector Pro+',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Exceed är idealisk för den som siktar på att förhöja hudens kvalitet och spänst, dämpa framträdandet av ärrvävnad, rynkor och fina linjer, samt återställa hudens naturliga vitalitet och utstrålning.</p>',
+    content: '<p class="p200">Dual Injector Pro+ är en avancerad skönhetsbehandling som kombinerar Radio Frequency (RF) lifting och nålfri mesoterapi. Utofrmad för att ge omedelbara och långvariga förbättringar av hudens utseende och hälsa.</p>',
     image_small: 'bilder/varumarken/358x274/exceed.webp',
     image_large: 'bilder/varumarken/424x456/exceed.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
@@ -52,14 +52,15 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Med Exceed kan vi behandla flera olika hudåkommor såsom ärr, rynkor & fina linjer.';
+$floating_box = 'Effektiv hudföryngring med hjälp av elektriska impulser som slussar ner näringsämnen djupt i huden.';
 
-$description_title = 'Exceed - en ledande teknik inom avancerad hudförbättring';
-$description_text = '<p class="p200">Exceed är en toppmodern behandling som passar alla hudtyper, utformad för att vitalisera och förbättra hudens kvalitet. Denna avancerade metod använder preciserade mikronålar för att skapa små, exakta mikrokanaler i huden, vilket främjar djupt upptag av näringsrika serum och stimulerar hudens naturliga kollagenproduktion och läkningsmekanismer.</p>
-    <p class="p200 mt-m">Som en digitalt styrd microneedling-teknik, erbjuder Exceed en behandling med minimal obehag jämfört med traditionella metoder. Exceed är anpassningsbar och kan målinriktat förbättra en mängd hudtillstånd som rynkor, ärr, ojämn hudton och textur. Genom att aktivera hudens egna reparationsförmåga ökas dess elasticitet och lyster, vilket resulterar i en synbart yngre och mer strålande hud.</p>';
+$description_title = 'Dual Injector Pro+ - en ledande teknik inom avancerad hudförbättring';
+$description_text = '<p class="p200">Dual Injector Pro+ är en toppmodern behandling som passar alla hudtyper, utformad för att vitalisera och förbättra hudens kvalitet. Denna avancerade metod kombinerar Radio Frequency (RF) och nålfri mesoterapi (electroporation) för att leverera näringsrika serum djupt in i huden och stimulera hudens naturliga kollagenproduktion och läkningsmekanismer.</p>
+    <p class="p200 mt-m">Som en kombination av RF-lyft och electroporation erbjuder Dual Injector Pro+ en behandling med minimal obehag jämfört med traditionella metoder. Dual Injector Pro+ är anpassningsbar och kan målinriktat förbättra en mängd hudtillstånd som rynkor, ärr, ojämn hudton och textur. Genom att aktivera hudens egna reparationsförmåga ökas dess elasticitet och lyster, vilket resulterar i en synbart yngre och mer strålande hud.</p>';
 
-$treatment_areas_title = 'Områden som förbättras med Exceed';
-$treatment_areas_text = '<p class="p200">Exceed erbjuder anpassningsbar behandling för diverse områden inklusive ansiktet, nacken, dekolletaget och andra kroppsdelar. Denna teknik är expert på att förbättra hudens textur och ge en ökad lyster genom att aktivera kollagenproduktionen och stödja naturliga läkningsprocesser, skräddarsydd för varje specifikt hudområde.</p>';
+$treatment_areas_title = 'Områden som förbättras med Dual Injector Pro+';
+$treatment_areas_text = '<p class="p200">Dual Injector Pro+ erbjuder anpassningsbar behandling för diverse områden inklusive ansiktet, nacken, dekolletaget och andra kroppsdelar. Denna teknik är expert på att förbättra hudens textur och ge en ökad lyster genom att aktivera kollagenproduktionen och stödja naturliga läkningsprocesser, skräddarsydd för varje specifikt hudområde.</p>';
+
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -76,7 +77,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_1xArea',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-1x-omrade-178347',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 1 område'
             ),
@@ -87,7 +88,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '70 min',
                 price: '3595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_2xAreas',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-2x-omraden-2194886',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 2 områden'
             ),
@@ -98,47 +99,25 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_3xAreas',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-3x-omraden-2194887',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 3 områden'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '1x zon',
-                image_title: '1x zon',
-                title: '1x zon',
-                duration: '20 min',
-                price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_1xZone',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 1 zon'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: '2x zon',
-                image_title: '2x zon',
-                title: '2x zon',
-                duration: '30 min',
-                price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_2xZones',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 2 zoner'
             ),
         )
     ),
 );
 
-$service_brands_title = 'Andra märken för microneedling';
-$service_brands_text = '<p class="p200">Utöver exceed utför vi även microneeding med Dermapen.</p>';
+$service_brands_title = 'Andra märken för mesoterapi';
+$service_brands_text = '<p class="p200">Utöver Dual Injector utför vi även Infuzion.</p>';
 $service_brands = array(
 
     new Brand(
-        label: 'Dermapen',
-        image: 'bilder/logotyper/dermapen.svg',
-        image_alt: 'Dermapen logotyp',
-        image_title: 'Dermapen - Microneedling',
-        url: '/dermapen.php',
-        url_title: 'Dermapen',
+        label: 'Infuzion',
+        image: 'bilder/logotyper/infuzion.svg',
+        image_alt: 'Infuzion logotyp',
+        image_title: 'Infuzion',
+        url: '/infuzion.php',
+        url_title: 'Infuzion',
     ),
 );
 
@@ -282,16 +261,16 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur ofta bör jag genomgå Exceed microneedling?',
-            text: '<p class="p200">Antalet Exceed microneedling sessioner som rekommenderas varierar baserat på individens hudtillstånd och de mål man vill uppnå. Generellt sett kan man förvänta sig att behöva mellan 3 och 8 behandlingar, med 4 till 6 veckors mellanrum, för att nå önskvärt resultat. En skräddarsydd behandlingsplan kommer att utarbetas under din initiala konsultation.</p>'
+            title: 'Hur ofta bör jag genomgå Dual Injector Pro+ behandling?',
+            text: '<p class="p200">Antalet Dual Injector Pro+ behandlingar som rekommenderas varierar baserat på individens hudtillstånd och de mål man vill uppnå. Generellt sett kan man förvänta sig att behöva mellan 2 och 3 behandlingar med en veckas mellanrum för att nå önskvärt resultat. För att bibehålla resultaten rekommenderas uppföljningsbehandlingar ungefär var tredje månad. En skräddarsydd behandlingsplan kommer att utarbetas under din initiala konsultation.</p>'
         ),
         new Question(
-            title: 'Finns det risk för att mina hudproblem kommer tillbaka efter Exceed-behandling?',
-            text: '<p class="p200">Medan Exceed-behandling kan ge betydande förbättringar i hudens tillstånd, kan den inte garantera att nya hudproblem inte uppstår i framtiden. Det är viktigt med en kontinuerlig hudvårdsrutin och möjligtvis ytterligare uppföljningsbehandlingar för att bibehålla och skydda resultaten på lång sikt.</p>'
+            title: 'Finns det risk för att mina hudproblem kommer tillbaka efter Dual Injector Pro+ behandling?',
+            text: '<p class="p200">Medan Dual Injector Pro+ behandling kan ge betydande förbättringar i hudens tillstånd, kan den inte garantera att nya hudproblem inte uppstår i framtiden. Det är viktigt med en kontinuerlig hudvårdsrutin och möjligtvis ytterligare uppföljningsbehandlingar för att bibehålla och skydda resultaten på lång sikt.</p>'
         ),
         new Question(
-            title: 'Hur snabbt kan jag se resultat efter en Exceed-behandling?',
-            text: '<p class="p200">Resultaten från Exceed-behandling kan variera från person till person. En del kan se förbättringar redan inom några dagar, medan andra kanske behöver vänta flera veckor för att se full effekt. Huden kan fortsätta att förbättras och kollagenproduktionen kan öka under flera månader efter behandlingen.</p>'
+            title: 'Hur snabbt kan jag se resultat efter en Dual Injector Pro+ behandling?',
+            text: '<p class="p200">Resultaten från Dual Injector Pro+ behandling kan variera från person till person. En del kan se förbättringar redan direkt efter behandlingen, medan andra kanske behöver vänta flera dagar för att se full effekt. Huden kan fortsätta att förbättras och kollagenproduktionen kan öka under flera månader efter behandlingen.</p>'
         ),
     )
 );
