@@ -52,8 +52,8 @@ $treat_content = '<p class="p200">När din hudtyp och storleken på dina porer h
 
 $services = array(
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Stora Porer på AcneSpecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot stora porer utförd på AcneSpecialisten',
 
@@ -77,8 +77,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
         image_title: 'Klient som genomgår laserbehandling mot stora porer',
         image_alt: 'Bild av laserbehandling mot stora porer hos AcneSpecialisten',
         title: 'Effektiv laserbehandling mot stora porer',
@@ -98,8 +98,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_title: 'Utförande av kemisk peelingbehandling för stora porer',
         image_alt: 'Bild på kemisk peelingbehandling mot stora porer hos AcneSpecialisten',
         title: 'Kemisk peeling mot stora porer',
@@ -120,8 +120,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/microneedling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för stora porer',
         image_alt: 'Bild på microneedlingbehandling mot stora porer hos AcneSpecialisten',
         title: 'Effektiv microneedling mot stora porer',
