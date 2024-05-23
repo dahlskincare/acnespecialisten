@@ -45,7 +45,7 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Information om atrofiska ärr';
 
 $description_title = 'Vad är atrofisk ärrbildning?';
-$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar eller acneärr gropar i huden och är ofta resultatet av akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå.</p>
+$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar eller acneärr gropar i huden och är ofta resultatet av akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå. Vanliga typer av atrofiska ärr inkluderar isgropsärr (små, djupa hål i huden), boxcar-ärr (bredare, rektangulära fördjupningar) och rolling-ärr (vågliknande fördjupningar i huden). Atrofiska ärr är särskilt vanliga efter svår acne, men kan också uppstå efter vattkoppor, kirurgiska ingrepp eller andra hudtrauman.</p>
 <p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingar för atrofiska ärr, inklusive laser, mikroneedling och kemiska peelingar. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
 
 $treatment_steps = array(
@@ -69,13 +69,13 @@ $treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva beha
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var och varför uppstår atrofiska ärr?',
+            title: 'Varför uppstår atrofiska ärr?',
             image_small: null,
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Atrofiska ärr, som ofta uppstår efter akne, är resultatet av en skada som lämnar huden med otillräcklig mängd kollagen. När huden läker kan den inte alltid återskapa dess ursprungliga jämnhet och fasthet, vilket leder till att dessa indragna ärr bildas. Att förstå din huds unika historia och nuvarande tillstånd är avgörande för att effektivt behandla atrofiska ärr.</p>
-      <p class="p200 mt-m">Under en initial konsultation kommer våra hudterapeuter att utföra en noggrann bedömning av dina ärr. Vi undersöker de specifika egenskaperna hos dina ärr, såsom deras djup och placering, för att skapa en skräddarsydd behandlingsplan. För att säkerställa bästa möjliga resultat från behandlingen, är det viktigt att din hud är i optimalt skick. Det innebär att undvika solskador och att inte använda starka eller irriterande hudvårdsprodukter innan behandlingen. Vår erfarna hudterapeut kommer att ge dig anpassade råd för att förbereda din hud inför behandling av dina atrofiska ärr, för en säker och effektiv upplevelse.</p>',
+            content: '<p class="p200">Atrofiska ärr uppstår när hudens läkningsprocess störs och inte producerar tillräckligt med kollagen för att fylla ut det skadade området. Detta kan hända av flera skäl, inklusive svår inflammation, infektion eller omfattande hudskador. När huden skadas, triggas en inflammationsprocess som syftar till att reparera vävnaden.</p>
+      <p class="p200 mt-m">Om denna process avbryts eller är ineffektiv, blir kollagenproduktionen otillräcklig, vilket resulterar i fördjupningar eller gropar i huden. Personer med svår eller långvarig acne är särskilt benägna att utveckla atrofiska ärr, eftersom den omfattande inflammationen kan leda till skador på huden och underliggande vävnad. Genetiska faktorer kan också spela en roll i hur väl huden kan läka och producera kollagen, vilket påverkar risken för att utveckla atrofiska ärr.</p>',
       ),
 );
 

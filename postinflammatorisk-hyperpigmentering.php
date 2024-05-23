@@ -35,7 +35,7 @@ $green_banner_content = new GreenBannerContent(
 );
 
 $description_title = 'Vad är postinflammatorisk hyperpigmentering?';
-$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH), även kallat post akne, uppstår när huden producerar mer melanin, hudens naturliga pigment, som svar på vissa inflammatoriska tillstånd såsom akne. PIH visar sig som mörkare fläckar eller partier på huden och kan variera i färg från ljusbrun till nästan svart, beroende på din hudton och inflammationens intensitet.</p>
+$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) är en tillfällig hudåkomma där huden blir mörkare på grund av en ökad produktion av melanin efter en inflammation eller skada. Detta kan uppstå efter acne, eksem, psoriasis eller hudskador som solbränna eller kemiska irritationer. PIH visar sig som mörka fläckar eller områden som är tydligt mörkare än den omgivande huden, och de kan vara rosa, röda, bruna eller svarta beroende på hudton och skadans allvarlighet. Även om PIH inte är farligt, kan det vara kosmetiskt störande och påverka individens självförtroende.</p>
 <p class="p200 mt-m">På Acnespecialisten fokuserar vi på att behandla och minska synligheten av postinflammatorisk hyperpigmentering genom individuellt anpassade metoder. Våra behandlingar, som ljusbehandlingar och kemiska peelingar, är utformade för att jämna ut hudtonen och främja en mer enhetlig hudfärg, med målet att ge dig en klarare och mer jämn hudton.</p>';
 
 
@@ -56,7 +56,19 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för postinflammatorisk hyperpigmentering" class="mt-xl button b200 outline expand auto-width">Läs mer</a>';
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för postinflammatorisk hyperpigmentering" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+
+$top_articles = array(
+      'areas' => new Article(
+            title: 'Varför uppstår postinflammatorisk hyperpigmentering?',
+            image_small: null,
+            image_large: null,
+            image_alt: '',
+            image_title: '',
+            content: '<p class="p200">Postinflammatorisk hyperpigmentering uppstår när huden reagerar på inflammation eller skada genom att överproducera melanin, det pigment som ger huden dess färg. När huden försöker läka sig själv efter en inflammation, kan inflammationsprocessen störa de melaninproducerande cellerna (melanocyterna), vilket leder till en ojämn pigmentfördelning. Detta är särskilt vanligt hos personer med mörkare hudtyper, eftersom deras melanocyter är mer aktiva och producerar mer melanin som svar på skador.</p>
+            <p class="p200 mt-m">Faktorer som kan bidra till utvecklingen av PIH inkluderar acne, eksem, psoriasis, skärsår, brännskador, och till och med vissa medicinska behandlingar eller kosmetiska procedurer. Det är viktigt att skydda huden mot ytterligare irritation och använda solskydd för att förhindra att hyperpigmenteringen förvärras.</p>',
+      ),
+);
 
 $results = array(
       new ResultCustomer(
@@ -373,6 +385,14 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
+
+                        <?php foreach ($top_articles as $id => $article) { ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
 
                         <section id="results">
                               <?php
