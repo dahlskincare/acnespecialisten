@@ -76,7 +76,7 @@ $top_articles = array(
 $types_title = 'Behandling';
 $types_description = 'Vi behandlar rosacea effektivt.';
 $big_types = array(
-    new Service(
+    'process' => new Service(
         title: 'Ansiktsbehandling mot rosacea',
         duration: '60 min',
         price: null,
@@ -111,26 +111,7 @@ $big_types = array(
                 price: '799 kr per besök',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_5'
             )
-    ),
-    new Service(
-        title: 'Boosta din ansiktsbehandling mot rosacea med IPL',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Förbättra ansiktsbehandling mot rosacea med IPL',
-        image_title: 'Förbättra ansiktsbehandling mot rosacea med IPL',
-        content: '<p class="p200">För att förstärka effekten kan du kombinera din ansiktsbehandlijng med den senaste IPL-tekniken (Intensivt Pulserande Ljus). En IPL-behandling kan minska kärlförändringar och eliminerar de ytliga blodkärl som ofta associeras med rosacea, vilket ger en klarare och mer jämn hudton.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/ipl.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/ipl.webp',
-        image_alt: 'Boosta din behandling med IPL.',
-        image_title: 'Boosta din behandling med IPL.',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
-        consultation_url_label: 'Boka hudkonsultation',
-        consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka tid för behandling',
-        icons: array(),
-        procedures: array()
+        )
     ),
 );
 
