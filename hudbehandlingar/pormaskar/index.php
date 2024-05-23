@@ -54,8 +54,8 @@ $treat_content = '<p class="p200">Här är målet framför allt att rensa och re
 
 $services = array(
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Pormaskar på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot pormaskar utförd på Acnespecialisten',
 
@@ -82,8 +82,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/laser.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/laser.webp',
         image_title: 'Klient som genomgår laserbehandling mot pormaskar',
         image_alt: 'Bild av laserbehandling mot pormaskar hos Acnespecialisten',
         title: 'Effektiv laserbehandling mot pormaskar',
@@ -106,8 +106,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_title: 'Utförande av kemisk peelingbehandling för pormaskar',
         image_alt: 'Bild på kemisk peelingbehandling mot pormaskar hos Acnespecialisten',
         title: 'Kemisk peeling mot pormaskar',
@@ -128,8 +128,8 @@ $services = array(
     ),
 
     new Service(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/microneedling.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_title: 'Utförande av microneedlingbehandling för pormaskar',
         image_alt: 'Bild på microneedlingbehandling mot pormaskar hos Acnespecialisten',
         title: 'Effektiv microneedling mot pormaskar',
