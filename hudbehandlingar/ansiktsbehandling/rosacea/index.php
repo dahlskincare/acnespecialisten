@@ -73,8 +73,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = null;
-$types_description = null;
+$types_title = 'Behandling';
+$types_description = 'Vi behandlar rosacea effektivt.';
 $big_types = array(
     'process' => new Service(
         title: 'Ansiktsbehandling mot rosacea',
@@ -517,17 +517,6 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="approach">
-                    <h2 class="h500 l10n">Metoden</h2>
-                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                    <div class="columns is-variable is-2">
-                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                            echo '<div class="column">';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                            echo '</div>';
-                        } ?>
-                    </div>
-                </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
