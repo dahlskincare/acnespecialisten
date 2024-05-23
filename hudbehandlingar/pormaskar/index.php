@@ -54,8 +54,8 @@ $treat_content = '<p class="p200">Här är målet framför allt att rensa och re
 
 $services = array(
     new Service(
-        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-mot-problemhy.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-mot-problemhy.webp',
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Pormaskar på Acnespecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot pormaskar utförd på Acnespecialisten',
 
