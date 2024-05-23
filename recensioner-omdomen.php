@@ -2,8 +2,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/review.php');
 
-$header_title = "Reviews";
-$header_content = "At Acnespecialisten there is an experienced and well-educated group of doctors with specialist skills and broad experience from the aesthetic and reconstructive industry.";
+$header_title = "Recensioner & Omdömen";
+$header_content = "Här hittar du omdömen från våra nöjda kunder.";
 
 $logo_registry = [
     'Google' => 'images/brands/google-small.svg',
