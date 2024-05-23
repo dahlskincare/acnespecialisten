@@ -76,7 +76,7 @@ $top_articles = array(
 $types_title = 'Behandling';
 $types_description = 'Vi behandlar rosacea effektivt.';
 $big_types = array(
-    'process' => new Service(
+    new Service(
         title: 'Ansiktsbehandling mot rosacea',
         duration: '60 min',
         price: null,
@@ -112,7 +112,7 @@ $big_types = array(
                 booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_5'
             )
     ),
-    'boost' => new Service(
+    new Service(
         title: 'Boosta din ansiktsbehandling mot rosacea med IPL',
         image_small: null,
         image_large: null,
