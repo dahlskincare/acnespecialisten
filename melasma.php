@@ -22,13 +22,13 @@ $image_alt = 'Bild som visar melasma på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Melasma',
-      description: 'Har du upplevt melasma – även känd som solfläckar eller "leverfläckar" – på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.',
+      description: 'Har du upplevt melasma, även känd som solfläckar eller leverfläckar, på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.',
       links_touch: [
-            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -104,13 +104,13 @@ $articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina hudflikar";
+$headline01 = "01. Identifiera din melasma";
 
 $service = new Service(
-      title: 'Konsultation för hudflikar',
+      title: 'Konsultation för melasma',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under vår konsultation utför vi en detaljerad utvärdering av dina hudflikar. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen, inklusive användning av Cryopen eller andra metoder, för att skapa en behandlingsplan som är anpassad efter dina behov och önskemål.',
+      content: 'Under vår konsultation utför vi en detaljerad utvärdering av din melasma. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen för att skapa en behandlingsplan som är anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -118,7 +118,7 @@ $service = new Service(
       image_title: 'Konsultation för behandling av hudflikar',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
 
       booking_url_label: null,
@@ -126,27 +126,31 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla hudflikar med CryoPen";
+$headline02 = "02. Behandla melasma";
 
 $services = array(
       new Service(
-            title: 'Behandling av hudflikar med CryoPen',
-            duration: '20 min',
-            price: '995 kr',
-            content: 'Med Cryopen-tekniken erbjuder vi en snabb och skonsam behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
+            title: 'Kemisk peeling mot melasma',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling är en effektiv metod för att behandla melasma. Genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse och jämnar ut hudtonen.',
 
-            image_small: 'images/services/200x200/cryopen.webp',
-            image_large: 'images/services/200x200/cryopen.webp',
-            image_alt: 'Bild av Cryopen behandling för hudflikar',
-            image_title: 'Cryopen behandling för hudflikar',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_alt: 'Man som får kemisk peeling mot akne',
+            image_title: 'Kemisk peeling mot akne behandling',
 
+            url_label: 'Läs mer om kemisk peeling mot akne',
+            url: 'kemisk-peeling-acne.php',
+            url_title: 'Läs mer om kemisk peeling mot akne',
+
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
-            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av hudflikar',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
 
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma&area=EMPTY',
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
-            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne',
       ),
 );
 
