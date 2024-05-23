@@ -104,6 +104,52 @@ $articles = array(
       ),
 );
 
+$headline01 = "01. Identifiera dina hudflikar";
+
+$service = new Service(
+      title: 'Konsultation för hudflikar',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Under vår konsultation utför vi en detaljerad utvärdering av dina hudflikar. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen, inklusive användning av Cryopen eller andra metoder, för att skapa en behandlingsplan som är anpassad efter dina behov och önskemål.',
+
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Bild av en konsultation för behandling av hudflikar',
+      image_title: 'Konsultation för behandling av hudflikar',
+
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
+
+      booking_url_label: null,
+      booking_url: null,
+      booking_url_title: null,
+);
+
+$headline02 = "02. Behandla hudflikar med CryoPen";
+
+$services = array(
+      new Service(
+            title: 'Behandling av hudflikar med CryoPen',
+            duration: '20 min',
+            price: '995 kr',
+            content: 'Med Cryopen-tekniken erbjuder vi en snabb och skonsam behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
+
+            image_small: 'images/services/200x200/cryopen.webp',
+            image_large: 'images/services/200x200/cryopen.webp',
+            image_alt: 'Bild av Cryopen behandling för hudflikar',
+            image_title: 'Cryopen behandling för hudflikar',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av hudflikar',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+            booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
+      ),
+);
+
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
@@ -439,6 +485,21 @@ $brands_url_title = "Se alla varumärken";
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
+
+                        <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
 
