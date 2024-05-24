@@ -83,27 +83,6 @@ $top_articles = array(
       ),
 );
 
-$articles = array(
-      new Article(
-            title: 'När bör du söka hjälp för Melasma?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'När bör du söka hjälp för Melasma?',
-            image_title: 'När bör du söka hjälp för Melasma?',
-            content: '<p class="p200">Melasma kan vara en naturlig del av hudens åldrande och orsaka estetiska bekymmer. Om du känner att din melasma påverkar ditt självförtroende eller om du är bekymrad över dess utseende, kan det vara dags att söka professionell hjälp. Även om melasma i sig inte är farligt, är det viktigt att få en korrekt diagnos för att utesluta andra hudtillstånd. En hudterapeut kan ge dig råd om effektiva behandlingar och strategier för att förebygga melasma.</p>',
-      ),
-
-      new Article(
-            title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
-            image_title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
-            content: '<p class="p200">AcneSpecialisten är välrenommerad för sin expertis inom behandling av melasma. Med vår djupa förståelse och erfarenhet, samt tillgång till de senaste behandlingsteknikerna, erbjuder vi individuellt anpassade behandlingsstrategier för varje klient. Vårt mål är inte enbart att behandla de yttre tecknen på melasma, utan även att proaktivt arbeta mot att förebygga framtida hudproblem.</p>
-            <p class="p200 mt-m">Vi använder behandlingsmetoder som baseras på en grundlig förståelse för hudens särskilda krav och tillämpar avancerade tekniker och högkvalitativa produkter. Detta för att uppnå bästa möjliga resultat för våra kunder.</p>',
-      ),
-);
-
 $headline01 = "01. Identifiera din melasma";
 
 $service = new Service(
@@ -151,6 +130,27 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma&area=EMPTY',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne',
+      ),
+);
+
+$articles = array(
+      new Article(
+            title: 'När bör du söka hjälp för Melasma?',
+            image_small: null,
+            image_large: null,
+            image_alt: 'När bör du söka hjälp för Melasma?',
+            image_title: 'När bör du söka hjälp för Melasma?',
+            content: '<p class="p200">Melasma kan vara en naturlig del av hudens åldrande och orsaka estetiska bekymmer. Om du känner att din melasma påverkar ditt självförtroende eller om du är bekymrad över dess utseende, kan det vara dags att söka professionell hjälp. Även om melasma i sig inte är farligt, är det viktigt att få en korrekt diagnos för att utesluta andra hudtillstånd. En hudterapeut kan ge dig råd om effektiva behandlingar och strategier för att förebygga melasma.</p>',
+      ),
+
+      new Article(
+            title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            image_small: null,
+            image_large: null,
+            image_alt: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            image_title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            content: '<p class="p200">AcneSpecialisten är välrenommerad för sin expertis inom behandling av melasma. Med vår djupa förståelse och erfarenhet, samt tillgång till de senaste behandlingsteknikerna, erbjuder vi individuellt anpassade behandlingsstrategier för varje klient. Vårt mål är inte enbart att behandla de yttre tecknen på melasma, utan även att proaktivt arbeta mot att förebygga framtida hudproblem.</p>
+            <p class="p200 mt-m">Vi använder behandlingsmetoder som baseras på en grundlig förståelse för hudens särskilda krav och tillämpar avancerade tekniker och högkvalitativa produkter. Detta för att uppnå bästa möjliga resultat för våra kunder.</p>',
       ),
 );
 
@@ -486,12 +486,6 @@ $brands_url_title = "Se alla varumärken";
                               </section>
                         <?php } ?>
 
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
-
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
@@ -504,6 +498,12 @@ $brands_url_title = "Se alla varumärken";
                               <?php foreach ($services as $service) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+
+                        <section id="articles">
+                              <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
 
