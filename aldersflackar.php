@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar åldersfläckar på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Åldersfläckar',
-      description: 'Har du märkt av åldersfläckar, också kända som solfläckar eller leverfläckar, på din hud? Vi förstår dessa utmaningar och har effektiva lösningar för dig. Upptäck mer om dessa fläckar, varför de uppstår, och hur våra specialister kan skräddarsy en behandling specifikt för dina behov. Boka en kostnadsfri konsultation idag och starta din resa mot en jämnare och friskare hud.',
+      description: 'Har du märkt av åldersfläckar, också kända som hyperpigmentering i form av solfläckar eller leverfläckar, på din hud? Vi förstår dessa utmaningar och har effektiva lösningar för dig. Upptäck mer om dessa fläckar, varför de uppstår, och hur våra specialister kan skräddarsy en behandling specifikt för dina behov. Boka en kostnadsfri konsultation idag och starta din resa mot en jämnare och friskare hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
