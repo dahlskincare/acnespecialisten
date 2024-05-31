@@ -139,8 +139,8 @@ if (!isset($reviews)) {
     <?php if ($show_review_banners_header) { ?>
         <div class="review-banners-header">
             <h3 class="total-reviews-title"><?php echo $total_reviews ?></h3>
-            <a href="/reviews" title="View all reviews" class="button text l10n">
-                <span class="l10n">View all reviews</span>
+            <a href="/reviews" title="Se alla omdömen" class="button text l10n">
+                <span class="l10n">Se alla omdömen</span>
                 <?php icon('navigate-next') ?>
             </a>
         </div>
