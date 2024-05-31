@@ -53,29 +53,29 @@ $review_platforms =
             logo_url: 'images/brands/google.svg',
             logo_alt: 'Google',
             logo_title: 'Google',
-            link: new Link('96 reviews', 'https://www.google.com', 'Google Reviews'),
-            rating: 4.7,
+            link: new Link('383 omdömen', 'https://www.google.com', 'Google Omdömen'),
+            rating: 4.8,
             icons: $icon_registry['Google'],
         ),
         new ReviewPlatform(
             logo_url: 'images/brands/trustpilot.svg',
             logo_alt: 'Trustpilot',
             logo_title: 'Trustpilot',
-            rating: 4.7,
-            link: new Link('56 reviews', 'https://se.trustpilot.com/review/acnespecialisten.se', 'Trustpilot Reviews'),
+            rating: 4.8,
+            link: new Link('638 omdömen', 'https://se.trustpilot.com/review/acnespecialisten.se', 'Trustpilot Omdömen'),
             icons: $icon_registry['Trustpilot'],
         ),
         new ReviewPlatform(
             logo_url: 'images/brands/bokadirekt.svg',
             logo_alt: 'Bokadirekt',
             logo_title: 'Bokadirekt',
-            link: new Link('45 reviews', 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300', 'Bokadirekt Reviews'),
-            rating: 5.0,
+            link: new Link('18 136 omdömen', 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300', 'Bokadirekt Omdömen'),
+            rating: 4.8,
             icons: $icon_registry['Bokadirekt'],
         )
     );
 
-$total_reviews = '2515 reviews total';
+$total_reviews = '19 157 omdömen totalt';
 
 if (!isset($reviews)) {
     $reviews = array(
