@@ -285,12 +285,12 @@
                         <?php
                         $reviews = array(
                               new Review(
-                                    stars: 5,
+                                    stars: 4,
                                     brand: 'Trustpilot',
                                     logo_url: 'images/brands/trustpilot.svg',
                                     title: 'Rekommenderar varmt AcneSpecialisten',
                                     text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
-                                    signature: 'Sara'
+                                    signature: 'Gabriella'
                               ),
                               new Review(
                                     stars: 5,
@@ -306,7 +306,7 @@
                                     logo_url: 'images/brands/trustpilot.svg',
                                     title: 'Underbar service och väldigt…Stort tack att ni finns',
                                     text: "Underbar service och väldigt professionell hudterapeut Julia. Acnespecialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
-                                    signature: 'Jenny'
+                                    signature: 'Maria'
                               ),
                               new Review(
                                     stars: 5,
@@ -322,7 +322,7 @@
                                     logo_url: 'images/brands/trustpilot.svg',
                                     title: 'Kunniga och bra!',
                                     text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-                                    signature: 'Izabella'
+                                    signature: 'Ditte'
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
