@@ -288,8 +288,8 @@
                                     stars: 5,
                                     brand: 'Trustpilot',
                                     logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Allt gick jätte bra!',
-                                    text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
+                                    title: 'Rekommenderar varmt AcneSpecialisten',
+                                    text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
                                     signature: 'Sara'
                               ),
                               new Review(
@@ -304,8 +304,8 @@
                                     stars: 5,
                                     brand: 'Trustpilot',
                                     logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Otroligt nöjd',
-                                    text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
+                                    title: 'Underbar service och väldigt…Stort tack att ni finns',
+                                    text: "Underbar service och väldigt professionell hudterapeut Julia. Acnespecialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
                                     signature: 'Jenny'
                               ),
                               new Review(
