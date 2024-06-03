@@ -157,7 +157,7 @@
             <div id="footer-bottom">
                 <div class="copy-n-cookies">
                     <p>&copy; <?php echo date('Y') ?> Acnespecialisten</p>
-                    <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
+                    <!--<a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>-->
                     <div id="language-selector">
                         <?php icon("intl") ?>
                         <span class="button b100 compact text l10n">
@@ -407,7 +407,7 @@
                         <?php echo date('Y') ?> AcneSpecialisten Sverige AB
                     </p>
                     <div class="flex-row">
-                        <a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>
+                        <!--<a href="cookies.php" class="button b100 compact text l10n" title="Cookie policy">Cookie policy</a>-->
                         <div id="language-selector">
                             <?php icon("intl") ?>
                             <span class="button b100 compact text l10n">English (Coming soon)</span>
