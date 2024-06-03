@@ -53,7 +53,7 @@ $review_platforms =
             logo_url: 'images/brands/google.svg',
             logo_alt: 'Google',
             logo_title: 'Google',
-            link: new Link('383 omdömen', 'https://www.google.com', 'Google Omdömen'),
+            link: new Link('383 omdömen', 'https://www.google.com/search?client=safari&sca_esv=3f074e5da93b5e88&rls=en&q=AcneSpecialisten+recension&uds=ADvngMgdL8BcAQ_9RiOWqU9OSDC-iMKgi4kjbMoNYYpGIraw7caTcpPl53DZGRwyPR6b_ddEuBu4Man3bnxSwLuDVqYkLxHk3Zho23neGtU4KO7PZOcjBPa5UYJ4vXH-i1F-bVQZY1s-wGSH5_EQ28L2fx_LFnJxkwIy6eJHuiLREhW_dPoY8M1ZKVKLQv-R_5hPnQ22v8HNLqhIXETM8ZVBv5OluEpDz4nN7Wgu-FdWuvvAkJtza0Tz6Bc3OizXEbIVgqFO5-x0JbztAY--ag_SaVTIDxwyDtjIBnmKARmJxJvydkKYjiT89MICLPRF3LqAw4vM6qoLuR5liUwXB-gVTR_d8w5Iig&sa=X&ved=2ahUKEwjq6PjKwr-GAxXvSFUIHaNsAM0QxKsJegQIFxAB&ictx=0&biw=2329&bih=1267&dpr=2', 'Google Omdömen'),
             rating: 4.8,
             icons: $icon_registry['Google'],
         ),

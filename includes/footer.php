@@ -37,7 +37,7 @@
             <div id="footer-contact">
                 <h2>AcneSpecialisten</h2>
                 <div class="p200" id="phone-dot-email">
-                    <a href="tel:+4608296101" title="+46 (0) 8-29 61 01">+46 (0) 8-29 61 01</a>
+                    <a href="tel:+4608296101" title="+46 (0) 8-29 61 01">08 29 61 01</a>
                     <div class="dot"></div>
                     <a class="l10n" href="mailto:hej@acnespecialisten.se" title="email">hej@acnespecialisten.se</a>
                 </div>
@@ -285,9 +285,9 @@
             <div id="footer-large-links">
                 <div class="columns is-gapless">
                     <div class="column">
-                        <h2>Acnespecialisten</h2>
+                        <h2>AcneSpecialisten</h2>
                         <div class="flex-row" id="phone-dot-email-large">
-                            <a href="tel:+4608296101" class="button b200 compact text" title="+46 (0) 8-29 61 01">+46 (0) 8-29 61 01</a>
+                            <a href="tel:+4608296101" class="button b200 compact text" title="+46 (0) 8-29 61 01">08 29 61 01</a>
                             <div class="dot"></div>
                             <a class="button b200 compact text l10n" href="mailto:hej@acnespecialisten.se" title="Skicka e-post">hej@acnespecialisten.se</a>
                         </div>
