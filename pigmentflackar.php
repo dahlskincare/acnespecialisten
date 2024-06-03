@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är Pigmentfläckar? - Symptom, orsak och behandling';
+$seo_title = 'Pigmentfläckar & Hyperpigmentering - Mörka & Bruna Fläckar';
 $seo_description = 'Här hittar du allt om pigmentfläckar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'pigmentfläckar på överläppen, pigmentfläckar överläpp, mörk fläck på läppen, bruna fläckar på kroppen, pigmentfläckar ljusa, melasma överläpp, bruna fläckar på huden, pigmentförändringar läppar, bruna fläckar, ljusbruna fläckar på huden';
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';

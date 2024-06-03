@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Solskadad Hud - Behandling, Orsak och Förebygg';
+$seo_title = 'Allt om Solskadad Hud, Behandling i Ansiktet & på Kroppen';
 $seo_description = 'Allt om solskadad hy, orsaker, effektiva behandlingar och förebyggand. Få expertvägledning och skräddarsydda lösningar för att hantera och reparera solskadad hy';
 $seo_keywords = 'solskadad hud ansikte, solskadad hud behandling, behandla solskadad hud, solskadad hud, solskadad hud kräm, solskadad hud bilder, melasma ansiktet';
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
