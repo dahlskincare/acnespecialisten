@@ -41,7 +41,7 @@ $specialists = array(
         rating: 4.8,
         num_treatments: 795,
         since_year: 2021,
-        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301?_gl=1*2y7n64*_ga*MTU1NDQ2MjU3MS4xNjYwNTUzMjIy*_ga_7EMC778CH1*MTcwNzIzMTUyOS4yMjAuMS4xNzA3MjMxNzExLjYwLjAuMA..',
+        booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301?_gl=1%2A2y7n64%2A_ga%2AMTU1NDQ2MjU3MS4xNjYwNTUzMjIy%2A_ga_7EMC778CH1%2AMTcwNzIzMTUyOS4yMjAuMS4xNzA3MjMxNzExLjYwLjAuMA..&sr=D39D9216_2DEA_42EE_AEFE_893CFA0E3F50',
     ),
     new Specialist(
         name: 'Sally Johansson',
