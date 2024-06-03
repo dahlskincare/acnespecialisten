@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är stora porer? - Symptom, orsak och behandling';
+$seo_title = 'Vad är Stora Porer, Vidgade Porer & Förstorade Porer?';
 $seo_description = 'Här hittar du allt om stora porer och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'stora porer, vidgade porer, förstorade porer, orsaker till stora porer, minimering av porer, vidgade porer, förstorade porer';
 $seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
