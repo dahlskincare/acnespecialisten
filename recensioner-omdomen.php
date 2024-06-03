@@ -74,17 +74,6 @@ $reviews = [
                 ?>
             </section>
         </div>
-        <div class="container">
-            <section id="results">
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php'; ?>
-            </section>
-            <section id="faq">
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'; ?>
-            </section>
-            <section id="brands">
-                <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'; ?>
-            </section>
-        </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
