@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Få bort acneärr effektivt | AcneSpecialisten';
+$seo_title = 'Få Bort Acneärr med Microneedling & Laser | AcneSpecialisten';
 $seo_description = 'Behandla din acneärr hos AcneSpecialisten, 30 års erfarenhet av att ta bort acneärr med microneedling, laser eller kemisk peeling. Boka gratis konsultation →';
 $seo_keywords = 'få bort acneärr, microneedling acne, microneedling akne, akneärr, acneärr, microneedling acneärr';
 $seo_image = 'images/treatments/large/acne-scars.jpg';
