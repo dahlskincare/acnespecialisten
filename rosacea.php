@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är rosacea? -Symptom, orsak och behandling';
+$seo_title = 'Vad Orsakar Rosacea på Kinder, Näsa och Pannan?';
 $seo_description = 'Här hittar du allt om roacea och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'rosacea, vad triggar rosacea, rosacea kinder, rosacea näsa, rosacea panna';
 $seo_image = 'bilder/hudproblem/424x456/rosacea.webp';
