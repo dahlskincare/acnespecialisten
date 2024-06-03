@@ -12,10 +12,10 @@
         </div>
         <div class="container">
             <div id="footer-brands">
-                <a href="https://www.klarna.com" target="_blank" rel="nofollow">
+                <a href="https://www.klarna.se" target="_blank" rel="nofollow">
                     <img src="images/brands/brand-icon-klarna.png" alt="Klarna" title="Klarna" width="40" height="40" />
                 </a>
-                <a href="https://www.amex.com" target="_blank" rel="nofollow">
+                <a href="https://www.americanexpress.se" target="_blank" rel="nofollow">
                     <img src="images/brands/brand-icon-amex.png" alt="Amex" title="Amex" width="40" height="40" />
                 </a>
                 <a href="https://www.qliro.com/sv-se" target="_blank" rel="nofollow">
