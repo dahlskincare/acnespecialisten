@@ -11,7 +11,7 @@ $glossary_items = array(
         new GlossaryItem(
             title: 'Acne Scars',
             description: '<p class="p200">Det engelska ordet för acneärr, här hittar du mer information:
-                <a class="b200 underline color-deep-sea-400" href="acnearr.php">Acne Scars</a></p>',
+                <a class="b200 underline color-deep-sea-400" href="acne-scars.php">Acne Scars</a></p>',
         ),
         new GlossaryItem(
             title: 'Aknebehandling',

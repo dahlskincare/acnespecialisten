@@ -21,7 +21,7 @@ $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Inflammation Acne',
+      title: 'Acne Scars',
       description: 'Denna engelska sida handlar om akneärr och hur de uppstår. Here we explain what characterizes acne scars, why the problem occurs, and how we can help you with treatment. We also go through how we identify different types of acne scars, the causes behind them, and how we can support you in your treatment process.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
