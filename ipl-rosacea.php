@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL-behandling mot Rosacea | Acnespecialisten';
+$seo_title = 'IPL Behandling mot Rosacea | AcneSpecialisten';
 $seo_description = 'Bli av med rosacea och ytliga blodkärl. Läs mer om vår IPL-behandling och boka en gratis konsultation hos AcneSpecialisten →';
 $seo_keywords = 'IPL-behandling för rosacea, reducera rodnad, behandling av rosacea, ljusbaserad hudterapi, förbättra hudton, minska symtom på rosacea, jämn hudton, avancerad hudvård, specialister på rosacea';
 
