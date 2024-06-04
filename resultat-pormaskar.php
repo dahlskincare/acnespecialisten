@@ -67,10 +67,10 @@ $results_per_page = array(
     1 => array(
         new ResultCustomer(
             url: '',
-            image_before_small: '/bilder/resultat/178x238/resultat-pormaskar-fore.jpg',
-            image_after_small: '/bilder/resultat/178x238/resultat-pormaskar-efter.jpg',
-            image_before_large: '/bilder/resultat/372x496/resultat-pormaskar-fore.jpg',
-            image_after_large: '/bilder/resultat/372x496/resultat-pormaskar-efter.jpg',
+            image_before_small: '',
+            image_before_large: '',
+            image_after_small: '/bilder/resultat/356x238/resultat-pormaskar-1.jpg',
+            image_after_large: '/bilder/resultat/744x496/resultat-pormaskar-1.jpg',
             url_title: 'Resultat mot pormaskar',
             image_before_alt: 'Före',
             image_before_title: 'Före',
