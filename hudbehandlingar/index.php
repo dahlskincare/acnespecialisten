@@ -525,7 +525,7 @@ $path_segments = array(
 <head>
     <title class="l10n">Hudbehandling i Stockholm - AcneSpecialisten</title>
     <meta name="title" content="Hudbehandling i Stockholm - AcneSpecialisten" class="l10n">
-    <meta name="description" content="Boka hudbehandling hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda lösningar för varje hudtyp. Boka gratis hudkonsultation!" class="l10n">
+    <meta name="description" content="Boka hudbehandling hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda hudbehandlingar för varje hudtyp. Boka gratis hudkonsultation!" class="l10n">
     <meta name="keywords" content="hudbehandling, hudbehandlingar, hudbehandling porer, laser hudbehandling, hudbehandling stockholm" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
