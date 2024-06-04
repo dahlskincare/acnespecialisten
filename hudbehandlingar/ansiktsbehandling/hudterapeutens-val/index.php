@@ -87,7 +87,7 @@ $big_types = array(
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
         image_alt: 'Hudterapeutens val',
         image_title: 'Hudterapeutens val',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
@@ -99,19 +99,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '5995 kr',
                 savings: 'Spara 1980 kr',
-                booking_url: 'https://www.bokadirekt.se'
+                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5'
             )
         )
     ),
