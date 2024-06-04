@@ -87,21 +87,21 @@ $big_types = array(
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
         procedures: array(
             new Procedure(
-                label: '1 behandling',
+                label: 'Ansikte',
                 price: '995 kr',
                 savings: null,
                 booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1'
             ),
             new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per besök',
+                label: 'Bröst',
+                price: '995 kr',
+                savings: null,
                 booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1'
             ),
             new Procedure(
-                label: '5 behandlingar',
-                price: '2595 kr',
-                savings: '799 kr per besök',
+                label: 'Rygg',
+                price: '995 kr',
+                savings: null,
                 booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1'
             )
         )
