@@ -24,7 +24,7 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
     image_alt: 'Hudterapeutens Val',
     image_title: 'Hudterapeutens Val',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice',
