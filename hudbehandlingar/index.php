@@ -208,7 +208,7 @@ $service_categories = array(
         image_alt: 'Kvinna som får ansiktsbehandling mot sin problemhy',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem',
         booking_url_title: 'Boka tid för ansiktsbehandling mot problemhy',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY',
         consultation_url_title: 'Boka tid för hudkonsultation mot problemhy',
         consultation_url_label: 'Boka Konsultation',
         booking_url_label: 'Boka Behandling',
