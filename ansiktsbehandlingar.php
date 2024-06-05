@@ -64,30 +64,10 @@ $big_types = array(
         consultation_url: null,
         consultation_url_label: null,
         consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
+        booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka behandling',
         icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '995 kr',
-                savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '2595 kr',
-                savings: '799 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_1_Procedure_5'
-            )
-        )
     ),
     new Service(
         title: 'Ansiktsbehandling - Antistress',
