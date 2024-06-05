@@ -304,7 +304,7 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/melasma.webp',
         image_alt: 'Kemisk Peeling för Melasma',
         image_title: 'Kemisk Peeling för Melasma',
-        consultation_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Melasma',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma&area=EMPTY',
