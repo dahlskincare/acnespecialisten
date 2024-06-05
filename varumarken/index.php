@@ -229,7 +229,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Alma Hybrid CO2',
             booking_url: 'https://acnespecialisten.se/book?flow=almarejuve',
             booking_url_title: 'Boka tid för Alma-behandling',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
