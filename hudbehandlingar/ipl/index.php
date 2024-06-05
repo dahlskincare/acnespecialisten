@@ -105,8 +105,8 @@ $types = array(
         booking_url_title: 'Boka IPL-behandling för rosacea',
 
         url: '/ipl-rosacea.php',
-        url_label: 'Läs mer om laser mot rosacea',
-        url_title: 'Läs mer om laser mot rosacea',
+        url_label: 'Läs mer om IPL mot rosacea',
+        url_title: 'Läs mer om IPL mot rosacea',
     ),
 
     new Service(
@@ -126,8 +126,8 @@ $types = array(
         booking_url_title: 'Boka IPL-behandling för ytliga blodkärl',
 
         url: '/ipl-ytliga-blodkarl.php',
-        url_label: 'Läs mer om laser mot ytliga blodkärl',
-        url_title: 'Läs mer om laser mot ytliga blodkärl',
+        url_label: 'Läs mer om IPL mot ytliga blodkärl',
+        url_title: 'Läs mer om IPL mot ytliga blodkärl',
     ),
 
     new Service(
@@ -147,8 +147,8 @@ $types = array(
         booking_url_title: 'Boka IPL-behandling för pigmentfläckar',
 
         url: '/ipl-pigmentflackar.php',
-        url_label: 'Läs mer om laser mot pigmentfläckar',
-        url_title: 'Läs mer om laser mot pigmentfläckar',
+        url_label: 'Läs mer om IPL mot pigmentfläckar',
+        url_title: 'Läs mer om IPL mot pigmentfläckar',
     ),
 
     new Service(
@@ -189,7 +189,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'IPL hudföryngring - hela ansiktet',
+                title: 'IPL hudföryngring - Hela ansiktet',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
