@@ -57,6 +57,7 @@ $model = new Service(
     ),
 );
 
+$floating_box_title = "Rejuve Dye-VL";
 $floating_box = 'Modern och effektiv IPL-maskin för en lång rad hudproblem.';
 
 $description_title = 'Vad är Alma Rejuve Dye-VL?';
