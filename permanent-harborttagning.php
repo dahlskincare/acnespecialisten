@@ -154,7 +154,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/haka.webp',
+                image: '/bilder/omraden/92x92/skagglinje.webp',
                 image_alt: 'Skägglinje',
                 image_title: 'Skägglinje',
                 title: 'Skägglinje',
