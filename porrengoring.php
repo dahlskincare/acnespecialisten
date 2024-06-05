@@ -94,7 +94,7 @@ $treatment_areas = array(
                 title: 'Porrengöring - Ansikte',
                 duration: '60 min',
                 price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för porrengöring i ansiktet'
             ),
@@ -105,7 +105,7 @@ $treatment_areas = array(
                 title: 'Porrengöring - Bröst',
                 duration: '60 min',
                 price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för porrengöring på bröstet'
             ),
@@ -116,7 +116,7 @@ $treatment_areas = array(
                 title: 'Porrengöring - Rygg',
                 duration: '60 min',
                 price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för porrengöring på ryggen'
             ),
