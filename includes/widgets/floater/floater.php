@@ -4,7 +4,15 @@
             <div id="overlay">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 <div>
-                    <h2 class="h600"><?php echo $green_banner_content->title ?></h2>
+                    <h2 class="h600">
+                        <?php
+                        if (isset($floating_box_title)) {
+                            echo $floating_box_title;
+                        } else {
+                            echo $green_banner_content->title;
+                        }
+                        ?>
+                    </h2>
                     <?php if (sizeof($green_banner_content->akas) > 0) { ?>
                         <div class="mt-m">
                             <span class="p200 l10n">Även kallat</span>

@@ -56,6 +56,7 @@ $model = new Service(
     ),
 );
 
+$floating_box_title = "Hello";
 $floating_box = 'Microneedling är en innovativ och effektiv behandling för att förbättra hudens kvalitet och adressera en mängd hudproblem.';
 
 $description_title = 'Vad är microneedling?';

@@ -5,7 +5,13 @@
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 <div>
                     <h2 class="h500">
-                        <?php echo $model->title ?>
+                        <?php
+                        if (isset($floating_box_title)) {
+                            echo $floating_box_title;
+                        } else {
+                            echo $model->title;
+                        }
+                        ?>
                     </h2>
                     <?php if (isset($model->duration)) { ?>
                         <div class="mt-m">
