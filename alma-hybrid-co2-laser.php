@@ -234,8 +234,8 @@ $types = array(
         booking_url_title: 'Boka Alma Hybrid mot hudutväxter',
 
         url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om behandling av hudförändringar',
-        url_title: 'Läs mer om behandling av hudförändringar',
+        url_label: 'Läs mer om hudförändringar',
+        url_title: 'Läs mer om hudförändringar',
     ),
     new Service(
         title: 'CO2 laser mot Bristningar',
