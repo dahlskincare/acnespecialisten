@@ -282,7 +282,7 @@ $treatment_areas = array(
                 title: '1 st',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_1',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid förCryoPen'
             ),
@@ -293,7 +293,7 @@ $treatment_areas = array(
                 title: '2 - 3 st',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_1',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_2-3',
                 url_label: 'Boka',
                 url_title: 'Boka tid förCryoPen'
             ),
@@ -304,7 +304,7 @@ $treatment_areas = array(
                 title: '4 - 6 st',
                 duration: '20 min',
                 price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_4-6',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_4-6',
                 url_label: 'Boka',
                 url_title: 'Boka tid förCryoPen'
             ),
@@ -315,7 +315,7 @@ $treatment_areas = array(
                 title: '7 - 10 st',
                 duration: '30 min',
                 price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_7-10',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_7-10',
                 url_label: 'Boka',
                 url_title: 'Boka tid förCryoPen'
             ),
@@ -326,7 +326,7 @@ $treatment_areas = array(
                 title: '20 st',
                 duration: '30 min',
                 price: '4995 kr',
-                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_20',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_20',
                 url_label: 'Boka',
                 url_title: 'Boka tid förCryoPen'
             ),
@@ -337,7 +337,7 @@ $treatment_areas = array(
                 title: '50 st',
                 duration: '70 min',
                 price: '9995 kr',
-                url: 'https://acnespecialisten.se/book?flow=cryopen&problem=SKIP&quantity=PriceClass_Skin_Imperfections_50',
+                url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_50',
                 url_label: 'Boka',
                 url_title: 'Boka tid förCryoPen'
             ),
