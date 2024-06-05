@@ -1,7 +1,7 @@
 <?php
 class Brand
 {
-    public function __construct($label, $image, $image_alt, $image_title, $photo = null, $photo_alt = null, $photo_title = null, $title = null, $subtitle = null, $description = null, $url = null, $url_label = 'Läs mer', $url_title = null, $booking_url = null, $consultation_url = null, $booking_url_label = 'Boka Behandling', $consultation_url_label = 'Gratis Konsultation', $booking_url_title = null, $consultation_url_title = null)
+    public function __construct($label, $image, $image_alt, $image_title, $photo = null, $photo_alt = null, $photo_title = null, $title = null, $subtitle = null, $description = null, $url = null, $url_label = 'Läs mer', $url_title = null, $booking_url = null, $consultation_url = null, $booking_url_label = 'Boka Behandling', $consultation_url_label = 'Boka Konsultation', $booking_url_title = null, $consultation_url_title = null)
     {
         $this->label = $label;
         $this->image = $image;
