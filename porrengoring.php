@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Porrengöring | AcneSpecialisten';
-$seo_description = 'På AcneSpecialisten erbjuder vi porrengöring för att behandla porer. Denna djupgående rengör och exfolierar porerna effektivt. Boka tid hos oss idag →';
+$seo_description = 'På AcneSpecialisten erbjuder vi porrengöring för att behandla pormaskar. Denna djupgående rengör och exfolierar porerna effektivt. Boka tid hos oss idag →';
 $seo_keywords = 'porrengöring, porrengörare, por rengöring';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
