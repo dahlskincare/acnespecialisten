@@ -93,7 +93,7 @@ $treatment_areas = array(
                 title: 'Portömning - Ansikte',
                 duration: '60 min',
                 price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_1_Procedure_1',
+                url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning i ansiktet'
             ),
@@ -104,7 +104,7 @@ $treatment_areas = array(
                 title: 'Portömning - Bröst',
                 duration: '60 min',
                 price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning på bröstet'
             ),
@@ -115,7 +115,7 @@ $treatment_areas = array(
                 title: 'Portömning - Rygg',
                 duration: '60 min',
                 price: '1295 kr',
-                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
+                url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för portömning på ryggen'
             ),
