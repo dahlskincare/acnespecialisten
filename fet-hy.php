@@ -65,7 +65,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder hudvård för fet hy som är specifikt utformade för att hantera utmaningarna som hudproblemet orsakar, inklusive djuprengöring och reglering av talgproduktion.',
 
             url_label: 'Utforska behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin',
+            url: 'https://treatment-booking.minoch.com/?flow=problem&problem=Problem_CombinationSkin',
             url_title: 'Ta reda på vilka behandlingar som passar din fet hy'
       ),
       new TreatmentStep(
