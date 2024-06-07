@@ -57,6 +57,7 @@ $model = new Service(
     ),
 );
 
+$floating_box_title = "HydraFacial";
 $floating_box = 'Rengöring, exfoliering, avlägsnande av orenheter och återfuktning med HydraFacial.';
 
 $description_title = 'Vad är HydraFacial?';
