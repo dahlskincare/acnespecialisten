@@ -306,60 +306,6 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
-        image_alt: 'Intim (Man)',
-        image_title: 'Intim (Man)',
-        title: 'Intim (Man)',
-        description: '<p class="p200">Kom ihåg att alltid börja med en kostnadsfri konsultation.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/manzilian-konsultation.webp',
-                image_alt: 'Konsultation - Manzilian',
-                image_title: 'Konsultation - Manzilian',
-                title: 'Konsultation - Manzilian',
-                duration: '20 min',
-                price: 'Gratis',
-                url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/manzilian.webp',
-                image_alt: 'Manzillian',
-                image_title: 'Manzillian',
-                title: 'Manzillian',
-                duration: '60 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SI&area_ms=UnwantedHair_Manzilian',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/manzilian-anus.webp',
-                image_alt: 'Manzillian + Runt Anus',
-                image_title: 'Manzillian + Runt Anus',
-                title: 'Manzillian + Runt Anus',
-                duration: '60 min',
-                price: '2995 kr',
-                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SI&area_ms=UnwantedHair_Manzilian_Anus',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/anus-man.webp',
-                image_alt: 'Runt Anus',
-                image_title: 'Runt Anus',
-                title: 'Runt Anus',
-                duration: '40 min',
-                price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning_SI&area_ms=UnwantedHair_Anus_Male',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-        )
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
         image_alt: 'Ben',
         image_title: 'Ben',
         title: 'Ben',
