@@ -104,7 +104,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för hårborttagning med laser',
       image_title: 'Konsultation för hårborttagning med laser',
 
-      url_label: 'Läs mer om gratis konsultation mot oönskat hår',
+      url_label: 'Läs mer om gratis konsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation mot oönskat hår',
 
