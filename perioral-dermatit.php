@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Perioral dermatit kan beskrivas som utslag och eksem runt munnen, men kan också uppstå som finnar som kliar i ansiktet. Här hittar du mer information om vad som kännetecknar perioral dermatit, varför problemet uppstår och hur vi kan hjälpa dig att behandla det.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -90,7 +90,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder noggrant anpassade och effektiv perioral dermatit behandling. Dessa behandlingsplaner är utformade för att lindra symptomen snabbt och säkert.',
 
             url_label: 'Se behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_PerioralDermatitis',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis',
             url_title: 'Utforska våra specialanpassade behandlingar för perioral dermatit'
       ),
       new TreatmentStep(
@@ -374,7 +374,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot perioral dermatit',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis&method=Method_FacialProblem&area=EMPTY',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot perioral dermatit'
       ),
 );
