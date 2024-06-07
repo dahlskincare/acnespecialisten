@@ -108,7 +108,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder milda och effektiva behandlingar specialanpassade för torr och känslig hud, som syftar till att återfukta och lugna din hud på ett säkert och effektivt sätt.',
 
             url_label: 'Se behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_DrySensetiveSkin',
+            url: 'https://treatment-booking.minoch.com/?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY',
             url_title: 'Utforska våra skräddarsydda behandlingar för torr och känslig hud'
       ),
       new TreatmentStep(
@@ -505,8 +505,8 @@ $services = array(
             image_title: 'Ansiktsbehandling för torr och känslig hy',
 
             url: '/problemhy.php',
-            url_label: 'Läs mer om ansiktsbehandling mot torr och känslig hy',
-            url_title: 'Läs mer om ansiktsbehandling mot torr och känslig hy',
+            url_label: 'Läs mer om ansiktsbehandlingar',
+            url_title: 'Läs mer om ansiktsbehandlingar',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
@@ -528,8 +528,8 @@ $services = array(
             image_title: 'Infuzion behandling för torr och känslig hy',
 
             url: '/infuzion.php',
-            url_label: 'Läs mer om Infuzion behandling mot torr och känslig hy',
-            url_title: 'Läs mer om Infuzion behandling mot torr och känslig hy',
+            url_label: 'Läs mer om Infuzion',
+            url_title: 'Läs mer om Infuzion',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
@@ -551,8 +551,8 @@ $services = array(
             image_title: 'HydraFacial behandling för torr och känslig hy',
 
             url: '/hydrafacial.php',
-            url_label: 'Läs mer om HydraFacial behandling mot torr och känslig hy',
-            url_title: 'Läs mer om HydraFacial behandling mot torr och känslig hy',
+            url_label: 'Läs mer om HydraFacial',
+            url_title: 'Läs mer om HydraFacial',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
@@ -570,7 +570,7 @@ $products = array(
       new Service(
             title: 'Produkter för torr och känslig hy',
             duration: null,
-            price: 'Pris från 1495 kr',
+            price: 'Pris från 645 kr',
             content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin med ansiktskräm för torr hud. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
 
             image_small: '/bilder/behandlingar/200x200/produkter.webp',
