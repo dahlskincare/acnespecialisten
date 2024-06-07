@@ -207,6 +207,10 @@ $types = array(
         booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Bristningar',
+
+        url: '/hudproblem/bristningar',
+        url_label: 'Läs mer om bristningar',
+        url_title: 'Läs mer om bristningar',
     ),
     new Service(
         title: 'Skin Tech mot Rynkor & Fina Linjer',

@@ -57,6 +57,7 @@ $model = new Service(
     ),
 );
 
+$floating_box_title = "Infuzion";
 $floating_box = 'Infuzion - en kombination av fillers och skinbooster.';
 
 $description_title = 'Vad är Infuzion?';
