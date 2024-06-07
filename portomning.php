@@ -56,6 +56,7 @@ $model = new Service(
     ),
 );
 
+$floating_box_title = "Portömning";
 $floating_box = 'Ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar.';
 
 $description_title = 'Vad är portömning?';
