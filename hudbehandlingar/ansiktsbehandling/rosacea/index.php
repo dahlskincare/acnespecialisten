@@ -85,7 +85,7 @@ $big_types = array(
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_alt: 'Ansiktsbehandling mot rosacea',
         image_title: 'Ansiktsbehandling mot rosacea',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY',
