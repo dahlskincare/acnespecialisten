@@ -98,7 +98,7 @@ $treatment_steps = array(
             content: 'Vi tar fram en hudvårdsrutin och produkter som är anpassade efter din hudtyp. Målet är att förebygga stora porer och bibehålla en balanserad hud.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/stora-porer',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_title: 'Hitta de bästa produkterna för att förebygga stora porer'
       ),
 
