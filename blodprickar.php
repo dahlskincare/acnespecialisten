@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Röda blodprickar i huden, även kända som hemangiom eller smultronmärken, är små, röda hudförändringar som ofta uppkommer i vuxen ålder. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Hudförändringar'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_smultronmarke', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Hudförändringar'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_smultronmarke', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -71,12 +71,10 @@ $treatment_steps = array(
             content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
 
             url_label: 'Se behandlingar för blodprickar',
-            url: 'https://acnespecialisten.se/book?flow=cryopen',
+            url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_smultronmarke',
             url_title: 'Läs mer om behandlingar för blodprickar'
       ),
 );
-
-$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot blodprickar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot blodprickar</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -141,7 +139,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av blodprickar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+            booking_url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_smultronmarke',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för blodprickar'
       ),
 );

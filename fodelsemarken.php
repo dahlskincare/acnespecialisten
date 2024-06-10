@@ -66,8 +66,6 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot födelsemärken" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot födelsemärken</a>';
-
 $top_articles = array(
       'areas' => new Article(
             title: 'Områden för födelsemärken',
