@@ -28,7 +28,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
     consultation_url_label: 'Boka konsultation',
     consultation_url_title: 'Boka konsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling',
+    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
@@ -36,7 +36,7 @@ $model = new Service(
             label: '1 behandling',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -44,7 +44,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '6995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
@@ -52,7 +52,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '9995 kr',
             savings: 'Spara 2980 kr',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         )
@@ -80,7 +80,7 @@ $big_types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
@@ -88,19 +88,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '2595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '9995 kr',
                 savings: 'Spara 2980 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_Microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
+                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
