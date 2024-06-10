@@ -26,7 +26,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
+    booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -75,7 +75,7 @@ $treatment_steps = array(
         title: 'Behandla',
         content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
         url_label: 'Se behandlingar',
-        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea',
+        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
         url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
     ),
     new TreatmentStep(
