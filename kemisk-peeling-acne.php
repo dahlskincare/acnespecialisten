@@ -87,19 +87,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_4'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_6'
+                booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
