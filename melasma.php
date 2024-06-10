@@ -116,12 +116,12 @@ $services = array(
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
-            image_alt: 'Man som får kemisk peeling mot akne',
-            image_title: 'Kemisk peeling mot akne behandling',
+            image_alt: 'Man som får kemisk peeling',
+            image_title: 'Kemisk peeling behandling',
 
-            url_label: 'Läs mer om kemisk peeling mot akne',
-            url: 'kemisk-peeling-acne.php',
-            url_title: 'Läs mer om kemisk peeling mot akne',
+            url_label: 'Läs mer om kemisk peeling',
+            url: 'kemisk-peeling.php',
+            url_title: 'Läs mer om kemisk peeling',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
