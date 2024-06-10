@@ -62,7 +62,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Vår specialiserade konsultation är anpassad för att kartlägga de unika egenskaperna hos din bröstakne och utvecklar en skräddarsydd behandlingsplan för att effektivt hantera dina hudproblem.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne_Chest',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för akne på bröstet idag'
       ),
       new TreatmentStep(
