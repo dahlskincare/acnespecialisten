@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Stora porer är ofta resultatet av genetiska faktorer, åldrande och ökad talgproduktion. Här hittar du information och orsakar som påverkar porernas storlek, utseende och hur de påverkar hudens struktur.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_LargePores', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -212,11 +212,11 @@ $services = array(
             url_title: 'Läs mer om ansiktsbehandling mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för stora porer',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Service_Facial_PoreExtraction',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för stora porer'
       ),
       new Service(
@@ -239,7 +239,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling för stora porer',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_LargePores',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_LaserProblem',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för stora porer'
       ),
       new Service(
@@ -261,7 +261,7 @@ $services = array(
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för stora porer',
 
-            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_ChemicalPeeling',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för stora porer behandling'
 
@@ -287,7 +287,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för stora porer',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_Microneedling',
             booking_url_title: 'Klicka för att boka tid för en microneedling för stora porer behandling'
       ),
 
