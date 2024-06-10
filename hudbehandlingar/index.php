@@ -101,7 +101,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Dermabrasion',
-        url: '/hudbehandlingar/dermabrasion.php',
+        url: '/hudbehandlingar/dermabrasion',
         url_title: 'Läs mer om Dermabrasion'
     ),
     new Treatment(
