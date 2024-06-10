@@ -62,7 +62,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Vår specialiserade konsultation på AcneSpecialisten är skräddarsydd för att analysera de unika egenskaperna hos din akne på ryggen. Genom vår expertanalys identifierar vi de bakomliggande faktorerna och tar fram en personlig behandlingsurint för din akne.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne_Back',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för akne på ryggen idag'
       ),
       new TreatmentStep(
