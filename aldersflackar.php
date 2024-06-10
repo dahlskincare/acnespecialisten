@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Åldersfläckar',
       description: 'Har du märkt av åldersfläckar, också kända som hyperpigmentering i form av solfläckar eller leverfläckar, på din hud? Vi förstår dessa utmaningar och har effektiva lösningar för dig. Upptäck mer om dessa fläckar, varför de uppstår, och hur våra specialister kan skräddarsy en behandling specifikt för dina behov. Boka en kostnadsfri konsultation idag och starta din resa mot en jämnare och friskare hud.',
       links_touch: [
-            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -55,14 +55,14 @@ $description_text = '<p class="p200">Åldersfläckar, ofta ett resultat av huden
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten startar din väg till en sundare hud med en grundlig konsultation. Våra kunniga hudterapeuter utför en detaljerad hudanalys för att fastställa graden och omfattningen av din solskadade hud. Denna initiala bedömning är avgörande för att kunna skapa en effektiv och personlig behandlingsplan, anpassad för just dina behov.',
+            content: 'På AcneSpecialisten startar din väg till en sundare hud med en grundlig konsultation. Våra kunniga hudterapeuter utför en detaljerad hudanalys för att fastställa graden och omfattningen av dina åldersfläckar. Denna initiala bedömning är avgörande för att kunna skapa en effektiv och personlig behandlingsplan, anpassad för just dina behov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_label: 'Boka en gratis konsultation',
             url_title: 'Boka din kostnadsfria konsultation mot åldersfläckar'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Efter att ha identifierat dina specifika behov erbjuder AcneSpecialisten skräddarsydda behandlingsalternativ för att aktivt åtgärda solskadad hy. Våra behandlingsmetoder omfattar avancerade tekniker som är speciellt utformade för att adressera och reducera tecken på solskador, såsom hyperpigmentering och ojämn hudton, och arbetar för att förbättra hudens struktur och utseende.',
+            content: 'Efter att ha identifierat dina specifika behov erbjuder AcneSpecialisten skräddarsydda behandlingsalternativ för att aktivt åtgärda åldersfläckar. Våra behandlingsmetoder omfattar avancerade tekniker som är speciellt utformade för att adressera och reducera tecken på åldersfläckar, såsom hyperpigmentering och ojämn hudton, och arbetar för att förbättra hudens struktur och utseende.',
             url: 'behandla-pigmentflackar.php',
             url_label: 'Utforska våra behandlingar mot åldersfläckar',
             url_title: 'Upptäck våra unika och effektiva behandlingar mot åldersfläckar'
