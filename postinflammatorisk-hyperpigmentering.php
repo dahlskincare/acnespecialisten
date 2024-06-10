@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Postinflammatorisk hyperpigmentering (PIH) uppstår när huden blir mörkare eller fläckig efter en inflammation, såsom finnar eller akneutbrott. Dessa mörka fläckar i ansiktet efter finnar kan vara svårt att helt eliminera, med med rätt hyerpigmentering behandling kan vi reducera och eliminera problemet. Här hittar du mer information om problemet och hur vi effektivt kan hjäpla dig.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
 );

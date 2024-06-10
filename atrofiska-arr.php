@@ -26,18 +26,18 @@ $green_banner_content = new GreenBannerContent(
       description: 'Atrofiska ärr är en form av ärrbildning som ofta lämnar efter sig gropar eller fördjupningar i huden, vilket är en vanlig följd av akne. Denna typ av ärrbildning sker när huden inte lyckas producera tillräckligt med kollagen vid läkningen av ett sår, vilket resulterar i att området sjunker inåt istället för att bilda en jämn yta.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
             new Link(
                   label: 'Fläckar',
-                  url: 'postinflammatorisk-hyperpigmentering.php',
-                  title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av fläckar från akne'
+                  url: null,
+                  title: null,
             ),
       ]
 );
