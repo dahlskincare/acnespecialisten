@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Seborroisk keratos, även kallat åldersvårtor är godartade hudtillväxter som kan variera i storlek och utseende. På denna sida går vi igenom vad seborroisk keratos är och de mest effektiva behandlingsmetoderna. På Acnespecialisten använder vi skonsamma och moderna tekniker för att säkert behandla seborroisk keratos, vilket kan förbättra hudens utseende och textur utan att orsaka obehag.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Seborroisk Keratos'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_seborroisk_keratos', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Seborroisk Keratos'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_seborroisk_keratos', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -61,12 +61,10 @@ $treatment_steps = array(
             content: 'AcneSpecialisten erbjuder en rad behandlingsalternativ för seborroisk keratos, inklusive laserterapi och andra icke-invasiva metoder. Vår målsättning är att ge dig en skonsam, säker och effektiv behandling som minimerar hudförändringarna och förbättrar hudens utseende.',
 
             url_label: 'Se behandlingar för seborroisk keratos',
-            url: 'https://acnespecialisten.se/book?flow=cryopen',
+            url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_seborroisk_keratos',
             url_title: 'Läs mer om våra behandlingar för seborroisk keratos'
       ),
 );
-
-$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot seborroisk keratos" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot seborroisk keratos</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -141,7 +139,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av seborroisk keratos',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+            booking_url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_seborroisk_keratos',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för seborroisk keratos'
       ),
 );
@@ -413,8 +411,6 @@ $brands_url_title = "Se alla varumärken";
                                           echo '</div>';
                                     } ?>
                               </div>
-                              <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
 
