@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Utforska vad som kännetecknar rhinophyma rosacea, ett tillstånd som involverar kronisk inflammation och förtjockning av huden på näsan vilket ofta brukar kallas potatisnäsa eller portvinsnäsa. Vi diskuterar varför tillståndet uppstår och hur AcneSpecialisten kan stödja dig genom behandlingsprocessen.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
 );
@@ -152,7 +152,7 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
             image_title: 'Ansiktsbehandling mot rosacea',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
-            consultation_url_label: 'Boka tid för hudkonsultation',
+            consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot rosacea',
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY',
             booking_url_label: 'Boka behandling',
@@ -175,15 +175,14 @@ $products = array(
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av rosacea',
             image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-            url_label: 'Läs mer om produkter mot rosacea',
-            url_title: 'Klicka här för att läsa mer om produkter mot rosacea'
+            
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot rosacea',
+
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            booking_url_title: 'Klicka för att köpa produktpaket mot rosacea',
       )
 );
 
@@ -199,15 +198,18 @@ $procedures = array(
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Behandla rosacea med IPL',
             image_title: 'Behandla rosacea med IPL',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
+            
             url: 'ipl-rosacea.php',
             url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
-            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl'
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för IPL-behandling mot ytliga blodkärl',
+
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_BloodVessels',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för IPL mot ytliga blodkärl',
       ),
 );
 
