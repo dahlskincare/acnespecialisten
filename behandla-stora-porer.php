@@ -63,7 +63,7 @@ $services = array(
         icons: array(),
         content: '<p class="p200">Behandlingen brukar kallas porrengöring eller portömning och riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den inleder med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring av porerna för att avlägsna ansamlade döda hudceller och talg. Behandlingen avrundas med en mask som minskar porernas storlek, samt en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
 
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Stora Porer på AcneSpecialisten',
 
