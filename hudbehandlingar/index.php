@@ -100,9 +100,9 @@ $treatments = array(
         url_title: 'Läs mer om ipl'
     ),
     new Treatment(
-        label: 'MicroDermabrasion',
-        url: '/microdermabrasion.php',
-        url_title: 'Läs mer om MicroDermabrasion'
+        label: 'Dermabrasion',
+        url: '/hudbehandlingar/dermabrasion.php',
+        url_title: 'Läs mer om Dermabrasion'
     ),
     new Treatment(
         label: 'Permanent Hårborttagning',

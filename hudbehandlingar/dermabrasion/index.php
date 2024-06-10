@@ -171,8 +171,8 @@ $big_types = array(
         price: null,
         content: '<p class="p200">Microdermabrasion är en icke-invasiv mekanisk peelingbehandling som använder mikrokristaller eller en diamantspets för att varsamt exfoliera det yttersta lagret av döda hudceller från epidermis. Genom att avlägsna döda hudceller främjar behandlingen cellförnyelse, vilket leder till en jämnare hudton, minskning av fina linjer, och en allmän förbättring av hudens textur och utseende.</p>
         <p class="p200 mt-m">Microdermabrasion är effektiv för att behandla ljusare ärrbildningar, åldersfläckar och andra yttre hudproblem. Behandlingen stimulerar även blodcirkulationen vilket kan bidra till en förbättrad hudhälsa över tid.</p>',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/200x200/microdermabrasion.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/microdermabrasion.webp',
         image_alt: 'MicroDermabrasion',
         image_title: 'MicroDermabrasion',
         consultation_url: null,
