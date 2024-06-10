@@ -26,7 +26,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea',
+    booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -34,7 +34,7 @@ $model = new Service(
             label: '1 behandling',
             price: '995 kr',
             savings: null,
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_1',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -42,7 +42,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '2595 kr',
             savings: '865 kr per behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_3',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_1_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -50,7 +50,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '3995 kr',
             savings: '799 kr per behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_5',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_1_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
@@ -74,7 +74,7 @@ $top_articles = array(
 );
 
 $types_title = 'Behandling';
-$types_description = 'Vi behandlar rosacea effektivt.';
+$types_description = 'Vi behandlar rosacea effektivt med hjälp av vår skräddarsydda ansiktsbehandling.';
 $big_types = array(
     'process' => new Service(
         title: 'Ansiktsbehandling mot rosacea',
@@ -88,7 +88,7 @@ $big_types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea',
+        booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Ansiktsbehandling mot rosacea',
         icons: array(),
@@ -97,19 +97,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1295 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_1'
+                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_1_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '2595 kr',
                 savings: '865 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_3'
+                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_1_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 savings: '2595 kr',
                 price: '799 kr per besök',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&procedures=PriceClass_1_Procedure_5'
+                booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_1_Procedure_5'
             )
         )
     ),
