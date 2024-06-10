@@ -61,12 +61,10 @@ $treatment_steps = array(
             content: 'Vi erbjuder olika behandlingsalternativ för effektiv borttagning av hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar för hudflikar',
-            url: 'https://acnespecialisten.se/book?flow=cryopen',
+            url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags',
             url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
 );
-
-$treatment_link = '<a href="https://acnespecialisten.se/book?flow=cryopen" title="Utforska effektiva behandlingar mot hudflikar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot hudflikar</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -141,7 +139,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av hudflikar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=cryopen',
+            booking_url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
       ),
 );
@@ -419,8 +417,6 @@ $brands_url_title = "Se alla varumärken";
                                           echo '</div>';
                                     } ?>
                               </div>
-                              <hr class="mt-xl3 is-hidden-mobile">
-                              <?php echo $treatment_link ?>
 
                         </section>
 
