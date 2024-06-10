@@ -146,18 +146,24 @@ $services = array(
 $headline03 = "03. Förebygg stora porer";
 
 $products = array(
-    new Product(
-        image_small: null,
-        image_large: null,
-        image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot stora porer',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot stora porer',
+      new Service(
+            title: 'Produkter för stora porer',
+            duration: null,
+            price: 'Pris från 1495 kr',
+            content: 'För att effektivt hantera och förebygga stora porer är daglig behandling med rätt produkter avgörande. Våra produkter för stora porer är speciellt utformade för att hålla din hud i balans och minska porernas synlighet.',
 
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-        url_label: 'Utforska våra hudvårdsprodukter mot stora porer',
-        url_title: 'Information om Acnespecialistens hudvårdsprodukter mot stora porer',
-        price: 'Acnespecialistens hudvårdsprodukter mot stora porer - Pris från 1295 kr',
-        content: '<p class="p200">Att förebygga och minska synligheten av stora porer är avgörande för att uppnå en jämn och klar hud. Vi erbjuder en daglig hudvårdsrutin med specifika produkter mot stora porer. Denna rutin hjälper till att hålla din hy ren, balanserad och minskar risken för tilltäppningar. Regelbunden användning av dessa produkter, tillsammans med våra behandlingar, ger bäst resultat för att hantera stora porer.</p>',
-    ),
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
+            image_alt: 'Bild av produkter designade för att minska synligheten av stora porer',
+            image_title: 'Effektiva produkter för hantering och förebyggande av stora porer',
+
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för stora porer',
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            booking_url_title: 'Klicka för att köpa produktpaket mot stora porer',
+      )
 );
 
 $results = array(
