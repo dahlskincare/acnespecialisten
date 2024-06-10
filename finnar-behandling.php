@@ -15,7 +15,7 @@ $model = new Service(
     title: 'Behandlingar för Finnar',
     duration: null,
     price: null,
-    content: 'Här har vi samlat de mest effektiva metoderna för behandling av finnar som hjälper dig att effektivt bli av med finnarna oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">behandling för finnar</a> som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.',
+    content: 'Här har vi samlat de mest effektiva metoderna för behandling av finnar som hjälper dig att effektivt bli av med finnarna oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken behandling för finnar som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.',
     image_small: 'bilder/hudproblem/424x324/finnar.webp',
     image_large: 'bilder/hudproblem/424x456/finnar.webp',
     image_alt: 'Bild på behandling av finnar',
