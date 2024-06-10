@@ -32,6 +32,13 @@ $green_banner_content = new GreenBannerContent(
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
+      akas: [
+            new Link(
+                  label: 'Fläckar',
+                  url: null,
+                  title: null,
+            ),
+      ]
 );
 
 $description_title = 'Vad är postinflammatorisk hyperpigmentering?';

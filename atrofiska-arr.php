@@ -35,7 +35,7 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
-                  label: 'Fläckar',
+                  label: 'Gropar',
                   url: null,
                   title: null,
             ),
