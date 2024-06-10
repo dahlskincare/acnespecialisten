@@ -53,7 +53,7 @@ $treatment_steps = array(
             content: 'Vid din första konsultation hos AcneSpecialisten utförs en grundlig bedömning av dina seborroisk keratos. Våra erfarna hudterapeuter kommer att analysera hudtillväxterna och rekommendera en behandlingsplan som är anpassad efter dina behov och hudtillstånd.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Fodelsemarken',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
             url_title: 'Boka din kostnadsfria konsultation för seborroisk keratos idag'
       ),
       new TreatmentStep(
