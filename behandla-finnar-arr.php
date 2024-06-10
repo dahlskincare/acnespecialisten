@@ -96,7 +96,7 @@ $services = array(
         url: '/kemisk-peeling.php',
         url_label: 'Läs mer om kemisk peeling mot ärr från finnar',
         url_title: 'Läs mer om kemisk peeling mot ärr från finnar',
-        booking_url: 'bhttps://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars&method=Method_ChemicalPeeling',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling mot ärr från finnar nu',
         short_title: 'Kemisk Peeling mot ärr från finnar'
