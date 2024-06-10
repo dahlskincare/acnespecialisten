@@ -58,18 +58,18 @@ $treatment_steps = array(
             content: 'På AcneSpecialisten startar din väg till en sundare hud med en grundlig konsultation. Våra kunniga hudterapeuter utför en detaljerad hudanalys för att fastställa graden och omfattningen av din solskadade hud. Denna initiala bedömning är avgörande för att kunna skapa en effektiv och personlig behandlingsplan, anpassad för just dina behov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_label: 'Boka en gratis konsultation',
-            url_title: 'Boka din kostnadsfria konsultation om solskadad hy idag'
+            url_title: 'Boka din kostnadsfria konsultation mot åldersfläckar'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Efter att ha identifierat dina specifika behov erbjuder AcneSpecialisten skräddarsydda behandlingsalternativ för att aktivt åtgärda solskadad hy. Våra behandlingsmetoder omfattar avancerade tekniker som är speciellt utformade för att adressera och reducera tecken på solskador, såsom hyperpigmentering och ojämn hudton, och arbetar för att förbättra hudens struktur och utseende.',
             url: 'behandla-pigmentflackar.php',
-            url_label: 'Utforska våra behandlingar för solskadad hy',
-            url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy'
+            url_label: 'Utforska våra behandlingar mot åldersfläckar',
+            url_title: 'Upptäck våra unika och effektiva behandlingar mot åldersfläckar'
       ),
 );
 
-$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot solskadad hy</a>';
+$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot åldersfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot åldersfläckar</a>';
 
 
 $top_articles = array(
