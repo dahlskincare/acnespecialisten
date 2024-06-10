@@ -89,7 +89,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot finnar på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar på ryggen</a>';
+$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar på ryggen</a>';
 
 $top_articles = array(
       'areas' => new Article(
