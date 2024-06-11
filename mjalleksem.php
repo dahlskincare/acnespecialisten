@@ -169,15 +169,18 @@ $products = array(
             image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Produkter mot mjälleksem',
             image_title: 'Produkter mot mjälleksem',
-            consultation_url: null,
-            consultation_url_label: null,
-            consultation_url_title: null,
-            booking_url: null,
-            booking_url_label: null,
-            booking_url_title: null,
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
-            url_label: 'Köp produkter mot mjälleksem',
-            url_title: 'Köp produkter mot mjälleksem',
+
+            url: '',
+            url_label: '',
+            url_title: '',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot mjälleksem',
+
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            booking_url_title: 'Klicka för att köpa produktpaket mot mjälleksem',
       )
 );
 
