@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Alma Harmony XL Pro behandling i Stockholm';
-$seo_description = 'En mångsidig och avancerad laserteknik för behandling av diverse hudåkommor såsom hudföryngring, pigmentering, aknehantering och ytliga blodkärl.';
+$seo_description = 'En mångsidig och avancerad medicinsk laser för behandling av olika hudåkommor som t.ex hudföryngring, pigmentering, aknereducering och ytliga blodkärl.';
 $seo_keywords = 'medicinsk laser, hudföryngring laser, yag laser, nd yag, Alma Harmony XL Pro';
 
 $seo_image = 'images/treatments/large/alma-harmony-xl-pro.webp';

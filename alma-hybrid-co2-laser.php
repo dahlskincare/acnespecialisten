@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'CO2 laser - Fraktionerad laser | AcneSpecialisten';
-$seo_description = 'Effektiv behandling för ärr, hudföryngring och mer hos AcneSpecialisten i Stockholm. Se före och efter bilder och boka din konsultation idag.';
+$seo_description = 'Effektiv laser behandling för ärr, hudföryngring och mer hos AcneSpecialisten i Stockholm. Se före och efter bilder och boka din kostnadsfria konsultation idag.';
 $seo_keywords = 'co2 laser, fraktionerad laser, co2 laser före efter, fraktionerad laser före efter, co2 laser stockholm, koldioxidlaser, fraktionerad laser ärr, fraktionerad co2 laser';
 $seo_image = 'images/treatments/large/alma-hybrid.webp';
 
