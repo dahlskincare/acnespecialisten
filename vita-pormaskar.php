@@ -39,9 +39,9 @@ $green_banner_content = new GreenBannerContent(
                   title: 'Allt du behöver veta om pormaskar'
             ),
             new Link(
-                  url: 'stora-porer.php',
-                  label: 'Stora porer',
-                  title: 'Utforska orsaker, symptom och behandlingar av stora porer'
+                  url: 'komedoner.php',
+                  label: 'Komedoner',
+                  title: 'Allt du behöver veta om öppna och stängda komedoner och deras behandling'
             ),
       ]
 );
