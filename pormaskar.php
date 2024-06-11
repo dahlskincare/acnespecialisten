@@ -352,7 +352,7 @@ $services = array(
             url_title: 'Läs mer om laser mot pormaskar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot pormaskar',
 
             booking_url_label: 'Boka behandling',
@@ -378,7 +378,7 @@ $services = array(
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot pormaskar',
 
-            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_LargePores',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Method_ChemicalPeeling',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot pormaskar',
 
@@ -403,7 +403,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot pormaskar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_LargePores',
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Method_Microneedling',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot pormaskar behandling',
       ),
 
