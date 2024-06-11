@@ -26,7 +26,7 @@ $model = new Service(
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+    booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka behandling',
     procedures: array(
@@ -78,7 +78,7 @@ $big_types = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka behandling',
         procedures: array(
