@@ -118,7 +118,7 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem vi behandlar med PRX T33';
+/*$types_title = 'Hudproblem vi behandlar med PRX T33';
 $types_description = '';
 
 $types = array(
@@ -262,9 +262,9 @@ $types = array(
         url_label: 'Läs mer om kemisk peeling mot acne',
         url_title: 'Läs mer om kemisk peeling mot acne',
     ),
-);
+);*/
 
-$big_types = array(
+/*$big_types = array(
     new Service(
         title: 'Boosta din PRX T33 behandling med Microneedling',
         duration: null,
@@ -284,7 +284,7 @@ $big_types = array(
         icons: array(),
         procedures: array()
     ),
-);
+);*/
 
 $treatment_areas_title = 'Behandlingsområden för PRX T33';
 $treatment_areas_text = '';
