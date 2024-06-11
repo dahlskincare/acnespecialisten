@@ -102,8 +102,8 @@ $treatment_steps = array(
             content: 'Vi erbjuder avancerade behandlingar för olika typer av operations- och skadeärr, framtagna för att effektivt minska ärrvävnadens framträdande och förbättra hudens utseende.',
 
             url_label: 'Se ärrbehandlingar',
-            url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
-            url_title: 'Utforska våra specialanpassade behandlingar för operations- och skadeärr'
+            url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
+            url_title: 'Se ärrbehandlingar',
       ),
 );
 
@@ -265,10 +265,10 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling av ärr',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling av ärr'
       ),
-      new Service(
+      /*new Service(
             title: 'Kemisk peeling för ärr',
             duration: '30 min',
             price: '1595 kr',
@@ -290,9 +290,9 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling av ärr behandling'
-      ),
+      ),*/
 
-      new Service(
+      /*new Service(
             title: 'Microneedling för ärr',
             duration: '50 min',
             price: '2595 kr',
@@ -314,7 +314,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
             booking_url_title: 'Klicka för att boka tid för en microneedling av ärr behandling'
-      ),
+      ),*/
 );
 
 $articles = array(
