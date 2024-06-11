@@ -25,7 +25,7 @@ $green_banner_content = new GreenBannerContent(
       description: 'Mjälleksem i ansiktet, framförallt i ögonbrynen och i hårfästet är ett vanligt hudproblem. I den här sektionen utforskar vi vad mjälleksem är, varför det uppstår och hur AcneSpecialisten kan hjälpa dig med behandling. Vi diskuterar orsakerna till mjälleksem, hur det skiljer sig från andra hudtillstånd och hur vi kan stödja dig genom din behandlingsprocess.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea', 'Boka gratis Konsultation för Mjälleksem'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea', 'Boka gratis Konsultation för Mjälleksem'),
