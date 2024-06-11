@@ -21,7 +21,7 @@ $image_title = 'Effektiv Behandling av acne vulgaris';
 $image_alt = 'Bild som visar acne vulgaris och dess behandlingsmetoder';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Acne Vulgaris - Tonårsakne',
+      title: 'Acne Vulgaris',
       description: 'I denna sektion får du en omfattande översikt över acne vulgaris, dess vanligaste orsaker såsom hormonella obalanser, stress och miljöfaktorer, samt Acnespecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att stödja personer med acne vulgaris i olika åldrar.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
