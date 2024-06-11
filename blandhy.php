@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Blandhy kännetecknas av en kombinerad hudtyp som består av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -117,7 +117,7 @@ $treatment_steps = array(
             content: 'Oavsett om det är oljiga fläckar, torrhet eller båda, erbjuder vi specialiserade behandlingar som tar itu med dina specifika problemområden.',
 
             url_label: 'Utforska behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin',
             url_title: 'Ta reda på vilka behandlingar som passar din blandhy'
       ),
       new TreatmentStep(
@@ -131,7 +131,7 @@ $treatment_steps = array(
 
 );
 
-$treatment_link = '<a href="https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_CombinationSkin" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
 
 
 $symptoms_title = 'Blandhy symptom';
