@@ -89,7 +89,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder en rad skonsamma och effektiva seborrébehandlingar anpassade till din specifika typ av seborré, vilket säkerställer att du snabbt och säkert kan bli av med ditt problem.',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY',
             url_label: 'Se seborrébehandlingar',
             url_title: 'Utforska alla våra effektiva seborrébehandlingar',
       ),
