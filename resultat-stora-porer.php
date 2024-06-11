@@ -81,7 +81,7 @@ $results_per_page = array(
             age: 21,
             gender: 'Kvinna',
             problem: 'Stora porer',
-            type: 'Svår',
+            type: 'Mellan',
             treatment: new ResultTreatment(
                 duration: '3 månader',
                 procedures: array(
