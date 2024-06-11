@@ -38,11 +38,6 @@ $green_banner_content = new GreenBannerContent(
                   url: 'acne.php',
                   title: 'Allt du behöver veta om acne och deras behandling'
             ),
-            new Link(
-                  label: 'Vuxenakne',
-                  url: 'vuxenacne.php',
-                  title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-            ),
       ]
 );
 

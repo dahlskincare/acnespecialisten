@@ -34,6 +34,11 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
+                  label: 'Acne Vulgaris',
+                  url: 'acne-vulgaris.php',
+                  title: 'Allt du behöver veta om acne vulgaris'
+            ),
+            new Link(
                   label: 'Finnar',
                   url: 'finnar.php',
                   title: 'Allt du behöver veta om finnar och deras behandling'
