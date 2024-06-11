@@ -39,9 +39,9 @@ $green_banner_content = new GreenBannerContent(
                   title: 'Kombinerad hud'
             ),
             new Link(
-                  label: 'Yttorr hy',
-                  url: null,
-                  title: 'Yttorr hy',
+                  label: 'Fet hy',
+                  url: 'fet-hy.php',
+                  title: 'Fet hy'
             ),
             new Link(
                   label: 'Oljig hy',
@@ -49,9 +49,9 @@ $green_banner_content = new GreenBannerContent(
                   title: 'Oljig hy'
             ),
             new Link(
-                  label: 'Fet hy',
-                  url: 'fet-hy.php',
-                  title: 'Fet hy'
+                  label: 'Yttorr hy',
+                  url: null,
+                  title: 'Yttorr hy',
             ),
       ]
 );
