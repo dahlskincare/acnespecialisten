@@ -16,7 +16,7 @@
 
 $path_segments = array(
     new PathSegment('Resultat', '/resultat.php'),
-    new PathSegment('Acne', '/resultat-acne.php'),
+    new PathSegment('Stora porer', '/resultat-stora-porer.php'),
 );
 
 $specialists = array(
