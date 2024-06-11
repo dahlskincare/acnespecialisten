@@ -336,7 +336,7 @@ $service = new Service(
       image_title: 'Konsultation för Ytliga Blodkärl',
 
       url_label: 'Läs mer om konsultation mot ytliga blodkärl',
-      url: 'ipl-ytliga-blodkarl.php',
+      url: '/gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för ytliga blodkärl',
 
       consultation_url_label: 'Boka konsultation',
