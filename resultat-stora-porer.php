@@ -3,9 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <title>Dermapen Resultat för Akneärr | Effektiva Hudförbättringar</title>
-    <meta name="description" content="Före och Efter bilder på Dermapen behandlingar | AcneSpecialisten">
-    <meta name="keywords" content="Dermapen akneärr resultat, AcneSpecialisten Dermapen, Behandling av akneärr, Hudförbättring med Dermapen, Jämn hudton, Akneärr minskning, Effektiv akneärrbehandling, Hudhälsans förbättring, Akneärr före- och efterbilder">
+    <title>Stora Porer Resultat | Framgångshistorier och Transformationer</title>
+    <meta name="description" content="Upptäck framgångar i behandling av stora porer genom våra kundcase. Våra före- och efterbilder illustrerar den effektiva bekämpningen av stora porer och andra hudproblem.">
+    <meta name="keywords" content="stora porer bilder, stora porer före och efter, acne bilder, acne för eoch efter">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/category.css">
@@ -13,10 +13,11 @@
 
 <?php
 
-$path_segments = [
+
+$path_segments = array(
     new PathSegment('Resultat', '/resultat.php'),
-    new PathSegment('Dermapen', '/resultat-dermapen.php'),
-];
+    new PathSegment('Acne', '/resultat-acne.php'),
+);
 
 $specialists = array(
     new Specialist(
@@ -50,11 +51,12 @@ $specialists = array(
 );
 $result_category =
     new ResultCategory(
-        id: 'aknearr-dermapen',
-        title: 'Dermapen Resultat för Akneärr',
-        description_1: 'Se de omfattande förändringarna som Dermapen-behandlingar åstadkommer för akneärr hos AcneSpecialistens kunder. Denna sida samlar före- och efterbilder som visar den imponerande effekten av Dermapen på akneärr. Upplev hur denna avancerade teknik minskar ärr från finnar, ger en jämnare hudton och en klarare hud.',
+        id: 'stora porer',
+        title: 'Resultat mot stora porer',
+        description_1: 'Utforska våra kunders bilder transformationsresor mot stora porer. Denna sida visar en serie av före- och efterbilder som demonstrerar den effektiva påverkan av våra specialanpassade hudvårdsbehandlingar och produkter, vilka ger tydliga och märkbara förbättringar i hudens utseende och hälsa.',
 
-        description_2: 'Är du redo att förändra din hud och adressera dina akneärr med Dermapen? Boka en kostnadsfri konsultation hos AcneSpecialisten för att påbörja din hudtransformationsresa. Vi erbjuder anpassade Dermapen-behandlingsplaner, skräddarsydda för att effektivt minska och behandla akneärr, vilket bidrar till en förnyad hud och ökat självförtroende.'
+        description_2: 'Är du redo att ta kontroll över dina stora porer och uppnå en klarare hud? Boka en kostnadsfri konsultation hos oss och ta det första steget mot en synbart förbättrad och hälsosammare hy. Låt oss visa dig vägen till effektiva resultat.',
+
     );
 
 if (isset($_GET['page']) && $_GET['page'] > 0) {
@@ -69,29 +71,33 @@ $results_per_page = array(
             url: '',
             image_before_small: '',
             image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-arr-fran-finnar-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-arr-fran-finnar-1.jpg',
-            url_title: 'Ärr från finnar resultat',
+            image_after_small: '/bilder/resultat/356x238/resultat-stora-porer-1.jpg',
+            image_after_large: '/bilder/resultat/744x496/resultat-stora-porer-1.jpg',
+            url_title: 'Stora porer resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
-            age: 22,
+            age: 21,
             gender: 'Kvinna',
-            problem: 'Ärr från finnar',
-            type: 'Mellan',
+            problem: 'Stora porer',
+            type: 'Svår',
             treatment: new ResultTreatment(
-                duration: '5 månader',
+                duration: '3 månader',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Dermapen',
+                        name: 'Pormaskbehandlingar',
                         count: '4 tillfällen',
                     ),
                 ),
+                product: new ResultProduct(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Produktpaket mot pormaskar',
+                ),
                 employee: new ResultEmployee(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Julia Eklund',
+                    name: 'Cazzandra Lindberg',
                 ),
             )
         ),

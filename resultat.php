@@ -69,6 +69,7 @@ $category_links = array(
     'resultat-finnar-arr.php' => 'Ärr från Finnar',
     'resultat-pormaskar.php' => 'Pormaskar',
     'resultat-rosacea.php' => 'Rosacea',
+    'resultat-stora-porer.php' => 'Stora Porer',
     'resultat-ytliga-blodkarl.php' => 'Ytliga Blodkärl',
 );
 
