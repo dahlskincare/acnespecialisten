@@ -476,7 +476,7 @@ $services = array(
             url_title: 'Läs mer om laser mot bristningar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling mot bristningar',
 
             booking_url_label: 'Boka behandling',
@@ -498,7 +498,7 @@ $services = array(
             url: '/kemisk-peeling.php',
             url_title: 'Läs mer om kemisk peeling mot bristningar',
 
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för kemisk peeling mot bristningar',
 
@@ -522,7 +522,7 @@ $services = array(
             url_title: 'Läs mer om microneedling mot bristningar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för microneedling mot bristningar',
 
             booking_url_label: 'Boka behandling',
