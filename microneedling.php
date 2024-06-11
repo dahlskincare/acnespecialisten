@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Microneedling behandling i Stockholm - Boka Konsultation!';
-$seo_description = 'Avancerade microneedling behandling i Stockholm för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
+$seo_description = 'Avancerad microneedling behandling i Stockholm för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
 $seo_keywords = 'microneedling, microneedling före efter, microneedling before and after, microneedling risker, microneedling stockholm, microneedling direkt efter, microneedling eftervård, microneedling resultat efter en behandling';
 $seo_image = 'images/treatments/large/microneedling.webp';
 
