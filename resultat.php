@@ -73,316 +73,33 @@ $category_links = array(
     'resultat-ytliga-blodkarl.php' => 'Ytliga Blodkärl',
 );
 
-if (isset($_GET['page']) && $_GET['page'] > 0) {
-    $page = $_GET['page'];
-} else {
-    $page = 1;
-}
-
-$results_per_page = array(
-    1 => array(
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-akne-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-akne-1.jpg',
-            url_title: 'Akne resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 21,
-            gender: 'Kvinna',
-            problem: 'Akne',
-            type: 'Svår',
-            treatment: new ResultTreatment(
-                duration: '3 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Aknebehandlingar',
-                        count: '5 tillfällen',
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Produktpaket mot svår akne',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Cazzandra Lindberg',
-                ),
-            )
-        ),
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-akne-2.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-akne-2.jpg',
-            url_title: 'Akne resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 18,
-            gender: 'Kvinna',
-            problem: 'Akne',
-            type: 'Svår',
-            treatment: new ResultTreatment(
-                duration: '2 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Aknebehandlingar',
-                        count: '3 tillfällen',
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Produktpaket mot svår akne',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Julia Eklund',
-                ),
-            )
-        ),
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-rosacea-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-rosacea-1.jpg',
-            url_title: 'Rosacea resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 33,
-            gender: 'Kvinna',
-            problem: 'Rosacea',
-            type: 'Svår',
-            treatment: new ResultTreatment(
-                duration: '4 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Rosaceabehandlingar',
-                        count: '3 tillfällen',
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Produktpaket mot svår Rosacea',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Julia Eklund',
-                ),
-            )
-        ),
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-ytliga-blodkarl-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-ytliga-blodkarl-1.jpg',
-            url_title: 'Ytliga Blodkärl resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 47,
-            gender: 'Kvinna',
-            problem: 'Ytliga Blodkärl',
-            type: 'Mellan',
-            treatment: new ResultTreatment(
-                duration: '4 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'IPL mot Ytliga Blodkärl',
-                        count: '5 tillfällen'
-                    ),
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Cazzandra Lindberg',
-                ),
-            )
-        ),
+$results = [
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/426x224.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
     ),
-    2 => array(
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-aknearr-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-aknearr-1.jpg',
-            url_title: 'Akneärr resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 24,
-            gender: 'Kvinna',
-            problem: 'Akneärr',
-            type: 'Atrofiska',
-            treatment: new ResultTreatment(
-                duration: '6 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Microneedling',
-                        count: '6 tillfällen',
-                    ),
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Amira Maqboul',
-                ),
-            )
-        ),
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-arr-fran-finnar-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-arr-fran-finnar-1.jpg',
-            url_title: 'Ärr från finnar resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 22,
-            gender: 'Kvinna',
-            problem: 'Ärr från finnar',
-            type: 'Atrofiska',
-            treatment: new ResultTreatment(
-                duration: '5 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Dermapen',
-                        count: '4 tillfällen',
-                    ),
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Julia Eklund',
-                ),
-            )
-        ),
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-pormaskar-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-pormaskar-1.jpg',
-            url_title: 'Resultat mot pormaskar',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 24,
-            gender: 'Kvinna',
-            problem: 'Pormaskar',
-            type: 'Mellan',
-            treatment: new ResultTreatment(
-                duration: '3 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Portömning',
-                        count: '3 tillfällen',
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Produktpaket mot mellan Pormaskar',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Jennifer Messner',
-                ),
-            )
-        ),
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-finnar-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-finnar-1.jpg',
-            url_title: 'Resultat mot finnar',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 18,
-            gender: 'Kvinna',
-            problem: 'Finnar',
-            type: 'Mellan',
-            treatment: new ResultTreatment(
-                duration: '3 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Ansiktsbehandling mot finnar',
-                        count: '3 tillfällen',
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Produktpaket mot mellan Finnar',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Sally Johansson',
-                ),
-            )
-        ),
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/200x100.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
     ),
-    3 => array(
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-blandhy-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-blandhy-1.jpg',
-            url_title: 'Blandhy resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 19,
-            gender: 'Kvinna',
-            problem: 'Blandhy',
-            type: 'Mellan',
-            treatment: new ResultTreatment(
-                duration: '3 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Portömning',
-                        count: '3 tillfällen',
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Startpaket mot mellan Blandhy',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Vilma Libom',
-                ),
-            )
-        ),
-    )
-);
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/50x10.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
+    ),
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/600x250.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
+    ),
+];
 
-$pages = sizeof($results_per_page);
 ?>
 
 <body>
@@ -434,12 +151,12 @@ $pages = sizeof($results_per_page);
         </section>
         <div class="container">
             <section id="cards">
-                <?php foreach ($results_per_page[$page] as $result_customer) { ?>
-                    <?php include('resultat/widgets/result_customer_card/result_customer_card.php'); ?>
-                <?php } ?>
-                <div id="paginator">
-                    <?php include('hudguide/widgets/paginator/paginator.php'); ?>
-                </div>
+                <?php foreach ($results as $result) { ?>
+                    <div class="result-card">
+                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
+                        <div class="result-card-content"><?php echo $result->content ?></div>
+                    </div>
+                <? } ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
