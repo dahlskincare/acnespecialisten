@@ -79,7 +79,7 @@ $top_articles = array(
 
 $types_title = '';
 $types_description = '';
-$big_types = array(
+/*$big_types = array(
     new Service(
         title: 'Multifuzion - Infuzion + Microneedling',
         duration: null,
@@ -99,7 +99,7 @@ $big_types = array(
         icons: array(),
         procedures: array()
     ),
-);
+);*/
 
 $treatment_areas_title = 'Behandlingsområden för Infuzion';
 $treatment_areas_text = '';

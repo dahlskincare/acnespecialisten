@@ -118,9 +118,9 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för hudflikar',
 
-        url: '/hudproblem/hudforandringar/',
-        url_label: 'Läs mer om hudförändringar',
-        url_title: 'Läs mer om hudförändringar',
+        url: '/hudflikar.php',
+        url_label: 'Läs mer om hudflikar',
+        url_title: 'Läs mer om hudflikar',
     ),
     new Service(
         title: 'CryoPen mot skintags',
@@ -158,7 +158,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för kärlförändringar',
 
-        url: '/hudproblem/hudforandringar/',
+        url: '/blodprickar.php',
         url_label: 'Läs mer om hallonmärken, jordgubbsmärken och smultronmärken',
         url_title: 'Läs mer om hallonmärken, jordgubbsmärken och smultronmärken',
     ),
@@ -178,7 +178,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka CryoPen för hemangiom',
 
-        url: '/hudproblem/hudforandringar/',
+        url: '/blodprickar.php',
         url_label: 'Läs mer om hemangiom',
         url_title: 'Läs mer om hemangiom',
     ),

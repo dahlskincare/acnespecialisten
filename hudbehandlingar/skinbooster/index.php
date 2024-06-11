@@ -85,7 +85,7 @@ $top_articles = array(
 
 $types_title = '';
 $types_description = '';
-$big_types = array(
+/*$big_types = array(
     new Service(
         title: 'Kombinera Skinbooster med Microneedling för Mutifuzion',
         duration: null,
@@ -106,8 +106,7 @@ $big_types = array(
         icons: array(),
         procedures: array()
     ),
-);
-
+);*/
 
 $treatment_areas_title = 'Behandlingsområden för Skinbooster';
 $treatment_areas_text = '<p class="p200">Skinbooster kan anvädnas på flera delar av kroppen för fina resultat.</p>';

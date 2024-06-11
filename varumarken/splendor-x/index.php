@@ -313,7 +313,7 @@ $treatment_areas = array(
                 title: 'Konsultation - Manzilian',
                 duration: '20 min',
                 price: 'Gratis',
-                url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SplendorX',
+                url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Manzillian',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),
