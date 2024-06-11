@@ -143,7 +143,7 @@ $services = array(
         url: '/microneedling.php',
         url_label: 'Läs mer om microneedling mot pormaskar',
         url_title: 'Läs mer om microneedling mot pormaskar',
-        booking_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling mot pormaskar nu',
         short_title: 'Microneedling'
