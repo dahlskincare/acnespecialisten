@@ -38,16 +38,6 @@ $green_banner_content = new GreenBannerContent(
                   url: 'finnar.php',
                   title: 'Allt du behöver veta om finnar och deras behandling'
             ),
-            new Link(
-                  label: 'Vuxenfinnar',
-                  url: 'vuxenacne.php',
-                  title: 'Utforska orsaker, symptom och behandlingar av vuxenfinnar'
-            ),
-            new Link(
-                  label: 'Tonårsfinnar',
-                  url: 'tonarsacne.php',
-                  title: 'Komplett guide om tonårsfinnar: orsaker, förebyggande och lösningar'
-            ),
       ]
 );
 

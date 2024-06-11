@@ -34,19 +34,9 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
-                  label: 'Finnar',
-                  url: 'finnar.php',
-                  title: 'Allt du behöver veta om finnar och deras behandling'
-            ),
-            new Link(
-                  label: 'Vuxenakne',
-                  url: 'vuxenacne.php',
-                  title: 'Utforska orsaker, symptom och behandlingar av vuxenakne'
-            ),
-            new Link(
-                  label: 'Tonårsakne',
-                  url: 'tonarsacne.php',
-                  title: 'Komplett guide om tonårsakne: orsaker, förebyggande och lösningar'
+                  label: 'Akne',
+                  url: 'acne.php',
+                  title: 'Allt du behöver veta om akne och deras behandling'
             ),
       ]
 );
