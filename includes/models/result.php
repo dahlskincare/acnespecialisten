@@ -176,3 +176,18 @@ class ResultImages
     public string $image_left_large;
     public string $image_right_large;
 }
+
+class LabelImage
+{
+    public function __construct($image_url, $image_alt, $image_title, $content)
+    {
+        $this->image_url = $image_url;
+        $this->image_alt = $image_alt;
+        $this->image_title = $image_title;
+        $this->content = $content;
+    }
+    public string $image_url;
+    public string $image_alt;
+    public string $image_title;
+    public string $content;
+}

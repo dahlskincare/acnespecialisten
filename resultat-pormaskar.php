@@ -8,7 +8,7 @@
     <meta name="keywords" content="portömning före efter">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/resultat/category.css">
+    <link rel="stylesheet" href="/resultat/style.css">
 </head>
 
 <?php
@@ -57,52 +57,32 @@ $result_category =
         description_2: 'Är du redo att effektivt hantera dina pormaskar och se verkliga resultat? Genom att boka en kostnadsfri konsultation hos AcneSpecialisten, tar du det första steget mot en renare och mer strålande hud. Våra anpassade behandlingsplaner är utformade för att målinriktat angripa och minska pormaskar, vilket förbättrar både hudens utseende och dess hälsa.',
     );
 
-if (isset($_GET['page']) && $_GET['page'] > 0) {
-    $page = $_GET['page'];
-} else {
-    $page = 1;
-}
-
-$results_per_page = array(
-    1 => array(
-        new ResultCustomer(
-            url: '',
-            image_before_small: '',
-            image_before_large: '',
-            image_after_small: '/bilder/resultat/356x238/resultat-pormaskar-1.jpg',
-            image_after_large: '/bilder/resultat/744x496/resultat-pormaskar-1.jpg',
-            url_title: 'Resultat mot pormaskar',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 24,
-            gender: 'Kvinna',
-            problem: 'Pormaskar',
-            type: 'Mellan',
-            treatment: new ResultTreatment(
-                duration: '3 månader',
-                procedures: array(
-                    new ResultProcedure(
-                        image: 'https://via.placeholder.com/102x102.webm',
-                        name: 'Portömning',
-                        count: '3 tillfällen',
-                    ),
-                ),
-                product: new ResultProduct(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Produktpaket mot mellan Pormaskar',
-                ),
-                employee: new ResultEmployee(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Jennifer Messner',
-                ),
-            )
-        ),
+$results = [
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/426x224.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
     ),
-);
-
-$pages = sizeof($results_per_page);
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/200x100.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
+    ),
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/50x10.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
+    ),
+    new LabelImage(
+        image_url: 'https://via.placeholder.com/600x250.webp',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
+    ),
+];
 
 ?>
 
@@ -121,12 +101,12 @@ $pages = sizeof($results_per_page);
         </section>
         <div class="container">
             <section id="cards">
-                <?php foreach ($results_per_page[$page] as $result_customer) { ?>
-                    <?php include('resultat/widgets/result_customer_card/result_customer_card.php'); ?>
-                <?php } ?>
-                <div id="paginator">
-                    <?php include('hudguide/widgets/paginator/paginator.php'); ?>
-                </div>
+                <?php foreach ($results as $result) { ?>
+                    <div class="result-card">
+                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
+                        <div class="result-card-content"><?php echo $result->content ?></div>
+                    </div>
+                <? } ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
