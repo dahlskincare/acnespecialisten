@@ -217,7 +217,7 @@ $types = array(
         url_label: 'Läs mer om laser mot ärr',
         url_title: 'Läs mer om laser mot ärr',
     ),
-    new Service(
+    /*new Service(
         title: 'CO2 laser mot Hudutväxter',
         duration: '30 minuter',
         price: '1595 kr',
@@ -236,7 +236,7 @@ $types = array(
         url: '/hudproblem/hudforandringar/',
         url_label: 'Läs mer om hudförändringar',
         url_title: 'Läs mer om hudförändringar',
-    ),
+    ),*/
     new Service(
         title: 'CO2 laser mot Bristningar',
         duration: '90 minuter',
