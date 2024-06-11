@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta Bort Leverfläckar och Födelsemärken - CryoPen Behandling';
+$seo_title = 'CryoPen behandling – Ta bort leverfläckar & Födelsemärken';
 $seo_description = 'Ta bort hudförändringar i Stockholm – Effektiv frysbehandling på att säker borttagning av leverfläckar, födelsemärken med precision. Boka gratis konsultation!';
 $seo_keywords = 'ta bort födelsemärken, ta bort leverfläckar, cryopen, cryopen före efter, cryopen behandling, cryopen biverkningar, cryopen pris, cryopen recension, cryopen stockholm, cryopen leverfläck, cryopen födelsemärke, cryopen läkning, cryopen resultat, vad är cryopen, cryopen behandling stockholm';
 
