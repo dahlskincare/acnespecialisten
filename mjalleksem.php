@@ -29,7 +29,7 @@ $green_banner_content = new GreenBannerContent(
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea', 'Boka gratis Konsultation för Mjälleksem'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -63,9 +63,9 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder en rad skonsamma men effektiva behandlingar anpassade för din specifika typ av mjälleksem, vilket säkerställer att du på ett tryggt och effektivt sätt kan hantera ditt mjälleksem.',
-            url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Seborrea',
-            url_label: 'Utforska våra mjälleksembehandlingar',
-            url_title: 'Utforska alla våra effektiva mjälleksembehandlingar',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY',
+            url_label: 'Våra mjälleksembehandlingar',
+            url_title: 'Våra effektiva mjälleksembehandlingar',
       ),
       new TreatmentStep(
             title: 'Förebygga',
