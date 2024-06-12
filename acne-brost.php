@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne och Finnar på Bröstet | AcneSpecialisten';
+$seo_title = 'Akne på Bröstet & Bröstkorgen | AcneSpecialisten';
 $seo_description = 'Läs mer om akne på bröstkorgen och andra delar av bröstet! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'akne på bröstet, akne på bröstkorgen';
 $seo_image = 'bilder/hudproblem/424x456/akne-brost.webp';
