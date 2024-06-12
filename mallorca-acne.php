@@ -21,7 +21,7 @@ $image_title = 'Effektiv Behandling av Mallorca akne';
 $image_alt = 'Bild som illustrerar behandlingsmetoder för Mallorca acne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Mallorca acne',
+      title: 'Mallorca Acne - Acne Aestivalis',
       description: 'Mallorca akne, även känd som Acne Aestivalis, är en särskild form av akne som ofta uppstår efter exponering för solen. Trots solens välbefinnande effekter kan för mycket sol leda till oväntade hudproblem, däribland Mallorca akne. Denna tillstånd kännetecknas av små, kliande utslag eller finnar som främst uppträder på områden som har utsatts för sol, såsom ansiktet, bröstet och armarna.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
