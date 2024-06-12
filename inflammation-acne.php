@@ -5,14 +5,14 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Inflammation Acne | AcneSpecialisten';
-$seo_description = 'Read more about acne and the causes for inflamed acne in the skin on the face. Book a free consultation →';
-$seo_keywords = 'akne pustel';
+$seo_title = 'Inflammerad Akne - Papler och Pustler | AcneSpecialisten';
+$seo_description = 'Läs mer om acne och hur det orsakas av en inflammation i huden på ansiktet. Boka en kostnadsfri konsultation →';
+$seo_keywords = 'papler, pustler, inflammerad talgkörtel behandling, infekterad finne, papler och pustler, inflammation acne, akne pustel, acne bakterie, inflammerad acne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Skin problem', '/hudproblem'),
-      new PathSegment('Inflammation Acne', '/inflammation-acne.php'),
+      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Inflammerad Akne', '/inflammerad-akne.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
@@ -21,8 +21,8 @@ $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Inflammation Acne',
-      description: 'Denna Engelska sida handlar om inflammerad akne som även kallas för akne pustel eller pustler. Inflamed acne, also known as pustular acne, damages the skin and can lead to scarring. This type of acne consists of a combination of dead skin cells, sebum, and bacteria. When bacteria consume the skin cells and sebum, an aggressive fatty acid is produced that corrodes the cell walls of the pores.',
+      title: 'Inflammerad Akne - Papler och Pustler',
+      description: 'Inflammerad akne, som även kallas även för acne pustel, skadar huden och kan skapa ärrbildning. Acnen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -41,47 +41,45 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Treat your inflammatory acne effectively.';
+$floating_box = 'Behandla dina inflammation akne effektivt.';
 
-$description_title = 'What is inflamed acne?';
-$description_text = '<p class="p200">Inflamed acne is a skin condition characterized by red, tender lesions that can be painful to touch. This type of acne occurs when hair follicles become clogged with sebum and dead skin cells, creating an ideal environment for acne bacteria (Propionibacterium acnes) to grow and cause inflammation. Unlike non-inflammatory lesions such as blackheads and whiteheads, inflamed acne involves more painful and visible signs, such as papules, pustules (also known as acne pustules), nodules, and cysts. When acne bacteria infect the clogged pore, the body\'s immune system responds by sending white blood cells to the area, leading to inflammation and the formation of pus-filled pustules or deeper skin lesions. This process makes the acne area red, swollen, and inflamed.</p>
-<p class="p200 mt-m">Treatment of inflamed acne focuses on reducing inflammation, combating bacterial infection, and preventing pore blockage. This can include the use of skincare products that help normalize the shedding of dead skin cells. To manage inflamed acne, it is also important to perform facial treatments with thorough extractions to drain the acne that would otherwise damage the skin. Additionally, it is critical to resist the temptation to squeeze or pick at acne lesions, as this can lead to further inflammation, infection, and potential scarring. Managing inflamed acne requires a tailored treatment plan that tackles the problem from multiple angles. With the right skincare and treatments, we can help you get rid of your inflamed acne.</p>';
+$description_title = 'Vad är inflammerad akne?';
+$description_text = '<p class="p200">Inflammerad akne är en hudåkomma som kännetecknas av röda, ömma utslag som kan vara smärtsamma vid beröring. Denna typ av akne uppstår när hårfolliklar blir tilltäppta med talg och döda hudceller, vilket skapar en idealisk miljö för acne bakterie (Propionibacterium acnes) att växa och orsaka inflammation. Till skillnad från icke-inflammatoriska utslag som svarta och vita pormaskar, innefattar inflammerad akne mer smärtsamma och synliga tecken, såsom papler och pustler (även kända som acne pustel) samt noduler och cystor. När acne bakterie infekterar den tilltäppta por, reagerar kroppens immunförsvar genom att sända vita blodkroppar till området, vilket leder till inflammation och bildandet av varfyllda pustler eller djupare hudutslag. Denna process gör akneområdet rött, svullet och inflammerat.</p>
+<p class="p200 mt-m">Behandling av inflammerad akne fokuserar på att minska inflammation, bekämpa bakteriell infektion och förebygga tilltäppning av porer. Detta kan innefatta användning hudvårdsprodukter som hjälper till att normalisera avstötningen av döda hudceller. För att hantera inflammerad akne är det också viktigt att utföra ansiktsbehandlingar där en grundlig extraktion görs för att tömma aknen som annars skadar huden. Dessutom är det kritiskt att motstå frestelsen att klämma eller pilla på akneutslag, då detta kan leda till ytterligare inflammation, infektion och potentiellt ärrbildning. Att hantera inflammerad akne kräver en skräddarsydd behandlingsplan som angriper problemet från flera olika håll Genom rätt hudvård och behandlingar kan vi hjälpa dig att bli av med din inflammerade akne.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identify',
-            content: 'We analyze the unique characteristics of your inflammatory acne, take before pictures of the skin, and recommend a treatment plan for your inflamed acne.',
-            url_label: 'Book a free consultation',
+            title: 'Identifiera',
+            content: 'Vi analyserar de unika egenskaperna hos din inflammatoriska akne, ta före bilder på huden coh rekommenderar en behandlingsplan för din inflammerade akne.',
+            url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Book your free skin consultation for inflammatory acne today'
+            url_title: 'Boka din kostnadsfria hudkonsultation för inflammatorisk akne idag'
       ),
       new TreatmentStep(
-            title: 'Treat',
-            content: 'We tailor our treatments for inflammatory acne according to your skin type and unique needs. We offer a wide range of treatments designed to address the inflammation in your skin.',
-            url_label: 'See treatments',
+            title: 'Behandla',
+            content: 'Vi anpassar våra behandlingar för inflammatorisk akne efter din hudtyp och unika behov. Vi har ett brett utbud av behandlingar utformade för att behandla inflammationen i din hud.',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Explore our treatments for inflammatory acne'
+            url_title: 'Utforska våra behandlingar för inflammatorisk akne'
       ),
       new TreatmentStep(
-            title: 'Prevent',
-            content: 'To prevent future outbreaks of inflammatory acne, we offer specially developed skincare products and routines.',
-            url_label: 'See products',
+            title: 'Förebygga',
+            content: 'För att förebygga framtida utbrott av inflammatorisk akne, erbjuder vi specialutvecklade hudvårdsprodukter och rutiner.',
+            url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Find the best products to prevent inflammatory acne'
+            url_title: 'Hitta de bästa produkterna för att förebygga inflammatorisk akne'
       ),
       new TreatmentStep(
-            title: 'Repair',
-            content: 'After treating active inflammatory acne, we focus on repairing and reducing scarring and improving skin texture, contributing to a smoother and more radiant skin tone.',
-            url_label: 'See scar treatments',
+            title: 'Reparera',
+            content: 'Efter att ha behandlat aktiv inflammatorisk akne, fokuserar vi på att reparera och minska ärrbildning och förbättra hudens textur, vilket bidrar till en jämnare och mer strålande hudton.',
+            url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Discover our effective treatments for scars caused by inflammatory acne'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av inflammatorisk akne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments for inflammatory acne" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments for inflammatory acne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot inflammatorisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot inflammatorisk akne</a>';
 
-
-$results_title = 'Inflammation Acne before and after results';
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
@@ -164,24 +162,22 @@ $review_url_title = "AcneSpecialisten Omdömen";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'What causes inflammatory acne?',
-                  text: 'Inflammatory acne is caused by a combination of factors including clogged hair follicles, an overproduction of sebum, and the presence of bacteria such as Cutibacterium acnes. When hair follicles become clogged with dead skin cells and excess oil, it creates an ideal environment for bacteria to thrive. The body’s immune system responds to this bacterial growth by sending white blood cells to the affected area, leading to inflammation. This immune response causes the redness, swelling, and tenderness associated with inflammatory acne. Additionally, hormonal changes, particularly during puberty, menstruation, or periods of high stress, can increase the likelihood of developing inflammatory acne.'
+                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
+                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
             ),
             new Question(
-                  title: 'Are there any home remedies for inflammatory acne?',
-                  text: 'Yes, several home remedies can help manage inflammatory acne, although their effectiveness may vary. It is important to use a personalized skin care routine that treats and balances your skin effectively. First to remove the acne and then prevent it from appearing again.'
+                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
+                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+            ),
+      ),
+      'Frågor om behandling' => array(
+            new Question(
+                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
+                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
             ),
             new Question(
-                  title: 'What are the common signs of inflammatory acne?',
-                  text: 'Common signs of inflammatory acne include the appearance of red, swollen, and tender bumps on the skin. These bumps can take various forms, such as papules, which are small, raised, red lesions without pus; pustules, which are similar to papules but contain pus; nodules, which are larger, solid, and painful lumps beneath the skin’s surface; and cysts, which are deep, pus-filled lesions that can be quite painful and are more likely to cause scarring. Inflammatory acne often affects areas with a high density of sebaceous (oil) glands, such as the face, neck, chest, back, and shoulders. The affected skin may also appear oily and may be more sensitive to touch.'
-            ),
-            new Question(
-                  title: 'Is it safe to pop inflammatory acne pimples?',
-                  text: 'Popping inflammatory acne pimples is generally not recommended, as it can lead to several adverse effects. Squeezing pimples can force bacteria and pus deeper into the skin, causing more inflammation and potentially leading to infection. This can result in larger, more painful lesions and increase the likelihood of scarring. Additionally, popping pimples can damage the skin’s surface, leading to open wounds that take longer to heal and are more prone to infection. It can also cause hyperpigmentation, resulting in dark spots that may persist long after the acne has healed. Instead of popping pimples yourself, it is important to consult an esthetician who can help you get rid of the inflammatory acne without harming the skin.'
-            ),
-            new Question(
-                  title: 'Can inflammatory acne leave scars?',
-                  text: 'Yes, inflammatory acne can leave scars, especially if not properly treated. Scarring occurs when the skin’s healing process is disrupted, often due to the intense inflammation and tissue damage associated with severe acne. There are different types of acne scars, including atrophic scars, which appear as depressions in the skin (such as ice pick, boxcar, and rolling scars), and hypertrophic or keloid scars, which are raised above the skin’s surface. Preventing scars involves managing acne effectively with appropriate treatments, avoiding picking or squeezing pimples, and seeking early intervention for severe acne. Post-acne scar treatments may include procedures like laser, microneedling and chemical peels to improve the skin’s appearance.'
+                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
+                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
             ),
       ),
 );

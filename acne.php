@@ -233,7 +233,7 @@ $type_categories = array(
                         image_url: 'bilder/symptom/102x102/inflammerad-akne.webp',
                         image_alt: 'Bild av inflammerad akne',
                         image_title: 'Exempel på inflammation akne',
-                        url: 'inflammerad-akne.php',
+                        url: 'inflammation-acne.php',
                         url_title: 'Lär dig mer om inflammerad akne',
                   ),
                   new BasedType(
