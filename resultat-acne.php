@@ -108,7 +108,7 @@ $results = [
                         <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
                         <div class="result-card-content"><?php echo $result->content ?></div>
                     </div>
-                <? } ?>
+                <?php } ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
