@@ -90,13 +90,13 @@ $results = [
         image_url: 'https://via.placeholder.com/50x10.webp',
         image_alt: 'Före och efter bild på kund med akne',
         image_title: 'Före och efter bild på kund med akne',
-        content: null,
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
     ),
     new LabelImage(
         image_url: 'https://via.placeholder.com/600x250.webp',
         image_alt: 'Före och efter bild på kund med akne',
         image_title: 'Före och efter bild på kund med akne',
-        content: '',
+        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
     ),
 ];
 
