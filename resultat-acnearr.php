@@ -59,7 +59,7 @@ $result_category =
 
 $results = [
     new LabelImage(
-        image_url: 'bilder/resultat/744x496/resultat-aknearr-1.jpg',
+        image_url: 'bilder/resultat/744x496/resultat-acnearr-1.jpg',
         image_alt: 'Före och efter bild på kund med akneärr',
         image_title: 'Före och efter bild på kund med akneärr',
         content: '<a href="acnearr.php">Acneärr</a> som behandlats med <a href="microneedling.php">Microneedling</a>',
