@@ -59,7 +59,7 @@ $result_category =
 
 $results = [
     new LabelImage(
-        image_url: 'bilder/resultat/744x496/ytliga-blodkarl-1.jpg',
+        image_url: 'bilder/resultat/744x496/resultat-ytliga-blodkarl-1.jpg',
         image_alt: 'Före och efter bild på kund med akne',
         image_title: 'Före och efter bild på kund med akne',
         content: '<a href="ytliga-blodkarl.php">Ytliga Blodkärl</a> som behandlats med <a href="ipl-ytliga-blodkarl.php">IPL Ytliga Blodkärl</a>',
