@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot Acne & Finnar | AcneSpecialisten';
-$seo_description = 'Microneedling-behandlingar effektivt kan behandla akne och förbättra huden, mikronålsteknik stimulerar hudens naturliga läkningsprocess och kollagenproduktion.';
+$seo_title = 'Dermapen & Microneedling mot Acne | AcneSpecialisten';
+$seo_description = 'Behandla acne och finnar effektivt med hjälp av Dermapen, det senaste inom Microneedling. Läs mer och boka en gratis hudkonsultation idag!';
 $seo_keywords = 'microneedling mot acne, dermapen acne, dermapen akne, microneedling acne, microneedling akne, microneedling mot akne';
 
 
