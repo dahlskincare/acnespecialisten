@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hormonell Acne och Hormonfinnar | AcneSpecialisten';
+$seo_title = 'Hormonell Acne och Hormon Finnar | AcneSpecialisten';
 $seo_description = 'Kämpar du med hormon acne eller hormon finnar? Läs om orsaker, symptom och hur du kan hantera hormonella finnar med rätt behandlingarr och hudvårdsrutiner.';
 $seo_keywords = 'hormonell acne, hormonell akne, hormon finnar, hormonella finnar, hormonell akne behandling, hormonell akne vuxen, hormonella finnar vuxen, hormonfinnar, acne hormonell, hormonell akne haka, hormonfinnar hakan, hormonell akne produkter, hormon akne, hormonell acne kinder, hudvård hormonell acne, behandla hormonell acne, akne hormonell';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
@@ -21,7 +21,7 @@ $image_title = 'Effektiv Behandling av hormonell acne';
 $image_alt = 'Bild som visar behandlingsmetoder för hormonell acne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Hormonell Acne',
+      title: 'Hormonell Acne & Hormon Finnar',
       description: 'Hormonell akne, eller hormonfinnar ofta ett problem inte bara under tonåren utan även för vuxna, är ett vanligt hudtillstånd som påverkar många. Denna typ av acne uppstår när hormonella förändringar, såsom de som sker under menstruationscykeln, graviditet, eller på grund av vissa medicinska tillstånd, stimulerar en överproduktion av olja i huden.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
