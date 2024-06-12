@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne i Ansiktet & Finnar på Käklinjen | AcneSpecialisten';
+$seo_title = 'Acne i Ansiktet & Finnar på Käklinjen | AcneSpecialisten';
 $seo_description = 'Har du problem med acne i ansiktet, såsom käklinje, kinderna eller under hakan? Läs mer om hur du kan behandla det. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'acne ansikte, acne på hakan, akne på hakan, akne på kinderna, acne i ansiktet, akne i pannan, acne ansiktet, acne på halsen, acne på ansiktet';
 $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
@@ -23,8 +23,8 @@ $image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
 $floating_box = 'Behandla dina akne i ansiktet effektivt.';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Akne i ansiktet',
-      description: 'Upptäck allt du behöver veta om akne i ansiktet, en vanlig hudåkomma som kan påverka alla, oavsett ålder. Från pormaskar till mer djupgående utslag längs käklinjen, kinderna och under hakan, förklarar vi orsakerna bakom dessa utbrott och erbjuder råd för effektiva behandlingsmetoder. Lär dig hur du kan hantera din hudvård för att bekämpa akne och uppnå en klarare och friskare hud',
+      title: 'Acne i ansiktet',
+      description: 'Upptäck allt du behöver veta om akne i ansiktet, en vanlig hudåkomma som kan påverka alla, oavsett ålder. Från pormaskar till mer djupgående utslag finnar längs käklinjen, kinderna och under hakan, förklarar vi orsakerna bakom dessa utbrott och erbjuder råd för effektiva behandlingsmetoder. Lär dig hur du kan hantera din hudvård för att bekämpa akne och uppnå en klarare och friskare hud',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -53,9 +53,9 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$description_title = 'Vad är akne i ansiktet?';
-$description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av talg, kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
-<p class="p200 mt-m">Akne påverkar oftast områden i ansiktet där talgkörtlar är mest aktiva, inklusive käklinje, kinder, panna, näsa samt på området under haka. I vissa fall kan akne även sprida sig till halsen, vilket ytterligare kan försvåra tillståndet. Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
+$description_title = 'Vad är acne i ansiktet?';
+$description_text = '<p class="p200">Acne i ansiktet är en hudåkomma som kännetecknas av utslag som inkluderar pormaskar, finnar, cystor och noduler. Denna form av akne är den mest förekommande och påverkar personer i alla åldrar, med en särskild prevalens bland tonåringar och unga vuxna. De bakomliggande orsakerna till ansiktsakne är mångsidiga och inkluderar hormonella förändringar som uppstår under puberteten, graviditet eller som effekt av vissa mediciner. En överproduktion av talg, kombinerat med ackumulation av döda hudceller, skapar en gynnsam miljö för tillväxt av Propionibacterium acnes, en bakterie som bidrar till inflammation och bildande av akne.</p>
+<p class="p200 mt-m">Acne påverkar oftast områden i ansiktet där talgkörtlar är mest aktiva, inklusive käklinje, kinder, panna, näsa samt på området under haka. I vissa fall kan akne även sprida sig till halsen, vilket ytterligare kan försvåra tillståndet. Miljöfaktorer som smuts och föroreningar samt stress kan förvärra tillståndet ytterligare. Behandlingsmetoden inkluderar skräddarsydda hudvårdsrutiner som kombinera rätt produkter och behandlingar anpassade för aknens svårighetsgrad och typ.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

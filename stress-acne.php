@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Stress Acne | AcneSpecialisten';
-$seo_description = 'Lär dig om stressrelaterad akne, dess orsaker och hur AcneSpecialisten kan hjälpa med skräddarsydda behandlingsmetoder och förebyggande strategier.';
+$seo_description = 'Vad är stress akne? Vi berättar mer om sambandet mellan akne och stress och hur du effektivt kan bli av med problemet. Boka en kostnadsfri konsultation!';
 $seo_keywords = 'stress acne, akne stress, stress akne, stress breakout';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
