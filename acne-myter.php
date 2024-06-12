@@ -26,7 +26,7 @@ $faq_categories = array(
 <head>
     <title class="l10n">Acne Myter Vanliga frågor och svar | AcneSpecialisten</title>
     <meta name="title" content="Acne Myter Vanliga frågor och svar | AcneSpecialisten" class="l10n">
-    <meta name="description" content="Här kan du läsa mer om acne och olika varianter av problemet. På AcneSpecialisten hjälper vi dig med en behandlingsplan som passar just din typ av acne." class="l10n">
+    <meta name="description" content="Får man finnar av choklad? Här kan du läsa mer om detta och andra vanliga myter om acne! Vi på AcneSpecialisten är specialister på allt som inom acne!" class="l10n">
     <meta name="keywords" content="får man finnar av choklad, finnar av choklad" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
