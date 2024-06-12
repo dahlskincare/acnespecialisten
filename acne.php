@@ -184,6 +184,8 @@ $type_categories = array(
                         image_url: 'bilder/symptom/102x102/svar-akne.webp',
                         image_alt: 'Bild av svår akne',
                         image_title: 'Svår akne exemplifierad',
+                        url: 'cystisk-acne.php',
+                        url_title: 'Läs mer',
                   ),
                   new BasedType(
                         title: 'Mycket svår akne',
