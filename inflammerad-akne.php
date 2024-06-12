@@ -21,7 +21,7 @@ $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Inflammerad Akne',
+      title: 'Inflammerad Akne - Papler & Pustler',
       description: 'Inflammerad akne, som även kallas även för acne pustel, skadar huden och kan skapa ärrbildning. Acnen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),

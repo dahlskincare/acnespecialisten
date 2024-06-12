@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Hormonell Acne och Hormon Finnar | AcneSpecialisten';
-$seo_description = 'Kämpar du med hormon acne eller hormon finnar? Läs om orsaker, symptom och hur du kan hantera hormonella finnar med rätt behandlingarr och hudvårdsrutiner.';
+$seo_description = 'Lider du av hormonell akne eller hormonella finnar som vuxen? Upptäck orsaker, symptom och bästa behandlingarna för hormonfinnar och få en problemfri hud';
 $seo_keywords = 'hormonell acne, hormonell akne, hormon finnar, hormonella finnar, hormonell akne behandling, hormonell akne vuxen, hormonella finnar vuxen, hormonfinnar, acne hormonell, hormonell akne haka, hormonfinnar hakan, hormonell akne produkter, hormon akne, hormonell acne kinder, hudvård hormonell acne, behandla hormonell acne, akne hormonell';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
