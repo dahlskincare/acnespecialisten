@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Vulgaris | AcneSpecialisten';
+$seo_title = 'Acne Vulgaris Behandling | AcneSpecialisten';
 $seo_description = 'Utforska behandlingsalternativ för Acne Vulgaris och hur du effektivt kan hantera huden. Skräddarsydd rådgivning för att uppnå och underhålla en problemfri hy';
 $seo_keywords = 'acne vulgaris, akne vulgaris, nodular acne vulgaris, acne vulgaris behandling, akne vulgaris behandlung, akne vulgaris bilder, acne vulgaris bilder, acne vulgaris treatment';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
