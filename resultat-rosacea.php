@@ -59,28 +59,10 @@ $result_category =
 
 $results = [
     new LabelImage(
-        image_url: 'https://via.placeholder.com/426x224.webp',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
-    ),
-    new LabelImage(
-        image_url: 'https://via.placeholder.com/200x100.webp',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
-    ),
-    new LabelImage(
-        image_url: 'https://via.placeholder.com/50x10.webp',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
-    ),
-    new LabelImage(
-        image_url: 'https://via.placeholder.com/600x250.webp',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
+        image_url: 'bilder/resultat/744x496/resultat-rosacea-1.jpg',
+        image_alt: 'Före och efter bild på kund med rosacea',
+        image_title: 'Före och efter bild på kund med rosacea',
+        content: '<a href="rosacea.php">Rosacea</a> som behandlats med <a href="https://dahlskincare.se/produktkategorier/produktpaket/rosacea">rosaceabehandling</a> och <a href="rosaceabehandling.php">produktpaket för rosacea/a>',
     ),
 ];
 ?>
