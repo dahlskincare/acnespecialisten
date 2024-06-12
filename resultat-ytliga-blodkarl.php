@@ -59,28 +59,10 @@ $result_category =
 
 $results = [
     new LabelImage(
-        image_url: 'https://via.placeholder.com/426x224.webp',
+        image_url: 'bilder/resultat/744x496/ytliga-blodkarl-1.jpg',
         image_alt: 'Före och efter bild på kund med akne',
         image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
-    ),
-    new LabelImage(
-        image_url: 'https://via.placeholder.com/200x100.webp',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
-    ),
-    new LabelImage(
-        image_url: 'https://via.placeholder.com/50x10.webp',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
-    ),
-    new LabelImage(
-        image_url: 'https://via.placeholder.com/600x250.webp',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="#">Severe Acne</a> treated with <a href="#">Acne Treatment</a> and <a href="#">Products for Acne</a>',
+        content: '<a href="ytliga-blodkarl.php">Ytliga Blodkärl</a> som behandlats med <a href="ipl-ytliga-blodkarl.php">IPL Ytliga Blodkärl</a>',
     ),
 ];
 
