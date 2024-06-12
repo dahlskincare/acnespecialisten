@@ -24,7 +24,7 @@ $faq_categories = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <title class="l10n">Acne Myter Vanliga frågor och svar | AcneSpecialisten</title>
+    <title class="l10n">Acne Myter - Vanliga frågor och svar | AcneSpecialisten</title>
     <meta name="title" content="Acne Myter Vanliga frågor och svar | AcneSpecialisten" class="l10n">
     <meta name="description" content="Får man finnar av choklad? Här kan du läsa mer om detta och andra vanliga myter om acne! Vi på AcneSpecialisten är specialister på allt som inom acne!" class="l10n">
     <meta name="keywords" content="får man finnar av choklad, finnar av choklad" class="l10n">
