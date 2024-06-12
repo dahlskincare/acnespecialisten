@@ -41,7 +41,7 @@ $glossary_items = array(
         ),
         new GlossaryItem(
             title: 'Engelska',
-            description: '<p class="p200">Du hittar några av våra Engelska sidor här: <a class="b200 underline color-deep-sea-400" href="/inflammation-acne.php">Inflammation Acne</a><a class="b200 underline color-deep-sea-400" href="/acne-scars.php">Acne scars</a></p>',
+            description: '<p class="p200">Du hittar några av våra Engelska sidor här: <a class="b200 underline color-deep-sea-400" href="/acne-scars.php">Acne scars</a></p>',
         ),
 
     ),
