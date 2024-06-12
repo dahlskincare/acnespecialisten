@@ -62,7 +62,7 @@ $results = [
         image_url: 'bilder/resultat/744x496/resultat-rosacea-1.jpg',
         image_alt: 'Före och efter bild på kund med rosacea',
         image_title: 'Före och efter bild på kund med rosacea',
-        content: '<a href="rosacea.php">Rosacea</a> som behandlats med <a href="https://dahlskincare.se/produktkategorier/produktpaket/rosacea">rosaceabehandling</a> och <a href="rosaceabehandling.php">produktpaket för rosacea/a>',
+        content: '<a href="rosacea.php">Rosacea</a> som behandlats med <a href="https://dahlskincare.se/produktkategorier/produktpaket/rosacea">rosaceabehandling</a> och <a href="rosaceabehandling.php">produktpaket för rosacea</a>',
     ),
 ];
 ?>
