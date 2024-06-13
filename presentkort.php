@@ -190,6 +190,9 @@ if (form_completed()) {
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/presentkort.php" />
+      
     <title class="l10n">Digitalt Presentkort på Hudvård & Skönhet</title>
     <meta name="title" content="Digitalt Presentkort på Hudvård & Skönhet" class="l10n">
     <meta name="description" content="Ge bort skönhet med ett digitalt presentkort. Perfekt för hudvård, ansiktsbehandlingar och mer. Skicka kärlek online med ett klick!" class="l10n">

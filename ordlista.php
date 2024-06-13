@@ -107,6 +107,9 @@ $glossary_items = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/ordlista.php" />
+      
     <title class="l10n">Hudproblem A-Ö: Ordlista från AcneSpecialisten</title>
     <meta name="title" content="Hudproblem A-Ö: Ordlista från AcneSpecialisten" class="l10n">
     <meta name="description" content="Här förklarar vi mer om olika begrepp relaterade till problemhy och hudproblem. Få mer information om huden | AcneSpecialisten" class="l10n">

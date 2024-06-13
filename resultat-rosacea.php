@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/resultat-rosacea.php" />
+      
     <title>Rosacea Resultat | Hudförbättring och Lindring</title>
     <meta name="description" content="Se resultatbilder från våra rosacea behandlingar. AcneSpecialisten har lång erfarenhet av att behandla hudutslag och rosacea">
     <meta name="keywords" content="rosacea bilder, rosacea näsa bilder, bilder på hudutslag, bilder hudutslag, utslag i ansiktet bilder">

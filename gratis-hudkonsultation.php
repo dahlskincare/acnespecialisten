@@ -31,6 +31,9 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+      <link rel="canonical" href="https://www.acnespecialisten.se/gratis-hudkonsultation.php" />
+      
     <title class="l10n">Gratis hudanalys och hudkonsultation i Stockholm och Online</title>
     <meta name="description" content="Boka en kostnadsfri hudkonsultation, våra erfarna hudterapeuter analyserar din hudtyp och skräddarsyr en behandlingsplan just för dig." class="l10n">
     <meta name="title" content="Gratis hudanalys och hudkonsultation i Stockholm eller Online" class="l10n">

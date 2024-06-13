@@ -9,6 +9,9 @@ $path_segments = [
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/om-oss.php" />
+      
     <title>Privat Hudmottagning Stockholm - Boka Tid Utan Remiss</title>
     <meta name="title" content="Privat Hudmottagning Stockholm - Boka Tid Utan Remiss" class="l10n">
     <meta name="description" content="Boka gratis hudkonsultation på våra privata hudmottagningar i Stockholm. Vi har 30 års erfarenhet. Personlig och effektiv hudvård för alla behov.">

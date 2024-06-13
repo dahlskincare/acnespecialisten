@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/resultat-stora-porer.php" />
+      
     <title>Stora Porer Resultat | Framgångshistorier och Transformationer</title>
     <meta name="description" content="Upptäck framgångar i behandling av stora porer genom våra kundcase. Våra före- och efterbilder illustrerar den effektiva bekämpningen av stora porer och andra hudproblem.">
     <meta name="keywords" content="stora porer bilder, stora porer före och efter, acne bilder, acne för eoch efter">

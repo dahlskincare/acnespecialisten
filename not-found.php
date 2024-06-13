@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/not-found.php" />
+      
     <title>Sidan hittas ej | AcneSpecialisten – Hudvård i Stockholm</title>
     <meta name="description" content="Läs om AcneSpecialistens Sidan hittas ej.">
     <meta name="keywords" content="Sidan hittas ej">

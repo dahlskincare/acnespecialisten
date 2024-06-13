@@ -6,6 +6,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/resultat.php" />
+      
     <title>Resultat Från AcneSpecialisten | Före och Efter bilder</title>
     <meta name="title" content="Resultat Från AcneSpecialisten | Före och Efter bilder" class="l10n">
     <meta name="description" content="Före  och efter bilder på våra kunders resultat som har använt AcneSpecialistens behandlingsmetoder.">

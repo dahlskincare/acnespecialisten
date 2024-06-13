@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/resultat-finnar-arr.php" />
+      
     <title>Ärr från Finnar Resultat | Hudtransformationer</title>
     <meta name="description" content="Före och Efter bilder på Microneedling behandlingar som tar bort Acneärr samt resultat från våra Dermapen behandlingar | AcneSpecialisten">
     <meta name="keywords" content="dermapen resultat">

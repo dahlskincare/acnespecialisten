@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/resultat-pormaskar.php" />
+      
     <title>Pormaskar Resultat | Effektiva Hudförändringar</title>
     <meta name="description" content="Före- och efter bilder på våra pormaskar kunder som har använt AcneSpecialistens metod.">
     <meta name="keywords" content="portömning före efter">

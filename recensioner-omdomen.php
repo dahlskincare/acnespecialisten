@@ -48,6 +48,9 @@ $reviews = [
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/recensioner-omdomen.php" />
+      
     <title>Recensioner & Omdömen | AcneSpecialisten</title>
     <meta name="description" content="Verifierade recensioner från Trustpilot, Google & Bokadirekt. Läs hur vi har hjälpt tusentals med deras hudvårdsresor. Bli inspirerad att börja din!">
     <meta name="keywords" content="acnespecialisten recensioner, acnespecialisten omdöme">

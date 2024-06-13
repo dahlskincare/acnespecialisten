@@ -353,6 +353,9 @@ $brands_url_title = "Varumärken för pigmentfläcksbehandling";
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/behandla-pigmentflackar.php" />
+      
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">

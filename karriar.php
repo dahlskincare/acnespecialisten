@@ -10,6 +10,9 @@ $path_segments = [
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/karriar.php" />
+      
     <title>Vill du jobba som hudterapeut? - Lediga jobb</title>
     <meta name="description" content="Se lediga tjänster hos oss på AcneSpecialisten. Vi söker dig som vill jobba heltid och deltid som hudterapeut hos oss.">
     <meta name="keywords" content="lediga jobb hudterapeut, hudterapeut jobb, jobba som hudterpeut">

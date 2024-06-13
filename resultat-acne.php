@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/resultat-acne.php" />
+      
     <title>Akne Resultat | Framgångshistorier och Transformationer</title>
     <meta name="description" content="Upptäck framgångar i behandling av akne genom våra kundcase. Våra före- och efterbilder illustrerar den effektiva bekämpningen av akne och andra hudproblem.">
     <meta name="keywords" content="akne bilder, akne före och efter, acne bilder, acne för eoch efter">

@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+      <link rel="canonical" href="https://www.acnespecialisten.se" />
+      
       <title class="l10n">AcneSpecialisten - Din Hudspecialist i Stockholm och Online</title>
       <meta name="title" content="AcneSpecialisten - Din Hudspecialist i Stockholm och Online" class="l10n">
       <meta name="description" content="AcneSpecialisten har över 30 års erfarenhet av alla typer av hudproblem. Boka en gratis konsultation så hjälper våra hudspecialister dig med rätt hudvård." class="l10n">

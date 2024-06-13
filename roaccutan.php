@@ -19,6 +19,9 @@ $article = new SkinGuideArticle(
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/roaccutan.php" />
+      
     <title class="l10n">Information om acnemedicinen Roaccutan | AcneSpecialisten</title>
     <meta name="title" content="Information om acnemedicinen Roaccutan | AcneSpecialisten" class="l10n">
     <meta name="description" content="Roaccutan är en acne medicin. Här hittar du mer information om roaccutan och dess biverkningar, vi erbjuder effektiv behandling utan roaccutan." class="l10n">

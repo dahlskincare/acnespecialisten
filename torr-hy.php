@@ -974,6 +974,9 @@ $brands_url_title = "Varumärken för behandling av torr och känslig hy";
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+      <link rel="canonical" href="https://www.acnespecialisten.se/torr-hy.php" />
+      
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">

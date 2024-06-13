@@ -14,6 +14,9 @@ $path_segments = [
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/avbokningspolicy.php" />
+      
     <title>Avbokningspolicy | AcneSpecialisten</title>
     <meta name="description" content="Vår avbokningspolicy, här kan du läsa mer om den avbokningspolicy som gäller när du bokar en behandling hos oss.">
     <meta name="keywords" content="avbokningspolicy, acnespecialisten avbokningspolicy">

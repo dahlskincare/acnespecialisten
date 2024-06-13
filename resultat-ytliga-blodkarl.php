@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/resultat-ytliga-blodkarl.php" />
+      
     <title>Ytliga Blodkärl Resultat | Visuella Förbättringar</title>
     <meta name="description" content="Före- och efter bilder på våra kunder som har genomgått AcneSpecialistens IPL behandling av ytliga blodkärl.">
     <meta name="keywords" content="ipl behandling resultat, ipl före och efter bilder, ipl före efter">
