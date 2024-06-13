@@ -59,6 +59,36 @@ $result_category =
 
 $results = [
     new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-i-ansiktet.jpg',
+        image_alt: 'pormaskar i ansiktet före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-svarta.jpg',
+        image_alt: 'svarta pormaskar före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-vita.jpg',
+        image_alt: 'vita pormaskar före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-pa-kinderna.jpg',
+        image_alt: 'pormaskar på kinderna',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/pormaskar-2.jpg',
+        image_alt: 'pormaskar i ansiktet',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
         image_url: 'bilder/resultat/744x496/resultat-pormaskar-1.jpg',
         image_alt: 'Före och efter bild på kund med pormaskar',
         image_title: 'Före och efter bild på kund med pormaskar',

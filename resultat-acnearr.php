@@ -59,6 +59,36 @@ $result_category =
 
 $results = [
     new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-1.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-2.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-3.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-4.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-5.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
         image_url: 'bilder/resultat/744x496/resultat-acnearr-1.jpg',
         image_alt: 'Före och efter bild på kund med akneärr',
         image_title: 'Före och efter bild på kund med akneärr',

@@ -59,6 +59,48 @@ $result_category =
 
 $results = [
     new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-rosacea-i-ansiktet.jpg',
+        image_alt: 'rosacea i ansiktet före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-rosacea-fore-och-efter-bilder.jpg',
+        image_alt: 'före och efterbilder rosacea',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-rosacea-hy.jpg',
+        image_alt: 'rosacea hy före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-rosacea-hud.jpg',
+        image_alt: 'rosacea hud före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-rosacea-hud-i-ansiktet.jpg',
+        image_alt: 'rosacea hud i ansiktet före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-rosacea-ansiktet.jpg',
+        image_alt: 'rosacea ansiktet före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/rosacea-1.jpg',
+        image_alt: 'rosacea ansiktet före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
         image_url: 'bilder/resultat/744x496/resultat-rosacea-1.jpg',
         image_alt: 'Före och efter bild på kund med rosacea',
         image_title: 'Före och efter bild på kund med rosacea',

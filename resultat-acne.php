@@ -60,6 +60,66 @@ $result_category =
     );
 $results = [
     new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-2.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-3.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-10.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-4.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-5.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-6.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-7.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-8.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-9.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-1.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
         image_url: 'bilder/resultat/744x496/resultat-akne-1.jpg',
         image_alt: 'Före och efter bild på kund med akne',
         image_title: 'Före och efter bild på kund med akne',
