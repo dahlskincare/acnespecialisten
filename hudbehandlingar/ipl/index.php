@@ -642,6 +642,9 @@ $specialists_view_more = 'Se alla hudterapeuter';
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/ipl/" />
+      
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">

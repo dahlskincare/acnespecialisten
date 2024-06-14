@@ -477,6 +477,9 @@ $path_segments = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+      <link rel="canonical" href="https://www.acnespecialisten.se/varumarken/" />
+      
       <title class="l10n">Ledande Varumärken inom Hudvård hos AcneSpecialisten</title>
       <meta name="title" content="Ledande Varumärken inom Hudvård hos AcneSpecialisten" class="l10n">
       <meta name="description" content="Upptäck Acnespecialistens noggrant utvalda samling av ledande hudvårdsmärken och toppmodern utrustning, designade för effektiva och skräddarsydda hudvårdsbehandlingar." class="l10n">

@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/priser/" />
+      
     <title>Priser hos AcneSpecialisten - Behandlingar & Paket</title>
     <meta name="description" content="Upptäck prisvänliga behandlings-, paket- och kurpriser hos AcneSpecialisten. Investera i din hudhälsa med våra skräddarsydda lösningar.">
     <meta name="keywords" content="Priser">

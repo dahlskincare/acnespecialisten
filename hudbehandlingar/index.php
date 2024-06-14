@@ -523,6 +523,9 @@ $path_segments = array(
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+    <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/" />
+      
     <title class="l10n">Hudbehandling i Stockholm - AcneSpecialisten</title>
     <meta name="title" content="Hudbehandling i Stockholm - AcneSpecialisten" class="l10n">
     <meta name="description" content="Boka hudbehandling hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda hudbehandlingar för varje hudtyp. Boka gratis hudkonsultation!" class="l10n">

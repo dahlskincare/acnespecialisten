@@ -797,6 +797,9 @@ $brands_url_title = "Varumärken för behandling av bristningar";
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+      <link rel="canonical" href="https://www.acnespecialisten.se/hudproblem/bristningar/" />
+      
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
