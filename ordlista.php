@@ -66,7 +66,13 @@ $glossary_items = array(
     'l' => array(),
     'm' => array(),
     'n' => array(),
-    'o' => array(),
+    'o' => array(
+        new GlossaryItem(
+            title: 'Online Konsultation',
+            description: '<p class="p200">Vår kostnadsfria hudkonsultation finns också tillgänglig på distans: <a class="b200 underline color-deep-sea-400" href="online-konsultation.php">Online Konsultation</a></p>',
+        ),
+
+    ),
     'p' => array(),
     'q' => array(),
     'r' => array(
