@@ -14,7 +14,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Ansiktsbehandlingar mot problemhy',
+    title: 'Ansiktsbehandlingar mot hudproblem',
     duration: '60 min',
     price: 'Från 999 kr',
     content: '',
