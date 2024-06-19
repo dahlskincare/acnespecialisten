@@ -237,7 +237,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling för blandhy',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'Denna skräddarsydda ansiktsrengöring för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',

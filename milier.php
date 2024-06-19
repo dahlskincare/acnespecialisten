@@ -296,7 +296,7 @@ $services = array(
       new Service(
             title: 'Behandling mot milier',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'Vår behandling mot milier syftar till att noggrant avlägsna dessa små cystor. Genom att använda säkra och effektiva extraktionsmetoder, hjälper vi dig att bli av med milier och därmed förbättra hudens övergripande utseende.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',

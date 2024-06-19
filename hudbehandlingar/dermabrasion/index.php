@@ -85,8 +85,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '5995 kr',
-                price: 'Spara 1980 kr',
+                price: '5995 kr',
+                savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Standard&procedures=PriceClass_4_Procedure_5'
             )
         )
@@ -122,8 +122,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '7995 kr',
-                price: 'Spara 1980 kr',
+                price: '7995 kr',
+                savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Boost_Glow&procedures=PriceClass_5_Procedure_5'
             )
         )
@@ -159,8 +159,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '7995 kr',
-                price: 'Spara 1980 kr',
+                price: '7995 kr',
+                savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Brand_HydraFacial&type=Hydrafacial_Pore_Minimizer'
             )
         )
@@ -197,8 +197,8 @@ $big_types = array(
             ),
             new Procedure(
                 label: '5 behandlingar',
-                savings: '5995 kr',
-                price: 'Spara 1980 kr',
+                price: '5995 kr',
+                savings: 'Spara 1980 kr',
                 booking_url: 'https://acnespecialisten.se/book?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_5'
             )
         )

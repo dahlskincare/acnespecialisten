@@ -320,7 +320,7 @@ $services = array(
       new Service(
             title: 'Portömning',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'Portömning är en inriktad ansiktsbehandling som fokuserar på att effektivt rensa porena från talg och orenheter. Behandlingen utförs genom en noga extrahering av pormaskar och kan leda till förebygga förstorade porer.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
