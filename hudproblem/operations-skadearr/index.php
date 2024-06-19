@@ -5,7 +5,7 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är operations- och skadeärr? - Symptom och information';
+$seo_title = 'Ta bort operationsärr och skadeärr - Symptom och information';
 $seo_description = 'Här hittar du allt om operations- och skadeärr och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'operationsärr, skadeärr, orsaker till ärr, förebygga ärr, ta bort ärr';
 $seo_image = '/bilder/hudproblem/424x456/arr.webp';

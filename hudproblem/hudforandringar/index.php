@@ -5,7 +5,7 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är hudförändringar? - Symptom, orsak och behandling';
+$seo_title = 'Ta bort hudförändringar - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om hudförändringar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'ansiktsvårta, fibrom, födelsemärke, hallonmärke, jordgubbsmärke, smultronmärke, hemangiom, hudflikar, hudutväxt, leverfläckar, mole, seborroisk keratos, skintags, skönhetsfläck, åldersvårta';
 $seo_image = '/bilder/hudproblem/424x456/hudforandringar.webp';

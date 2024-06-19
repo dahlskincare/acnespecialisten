@@ -5,7 +5,7 @@ include_once('../widgets/symptom-card/symptom.php');
 include_once('../widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är bristningar? - Symptom, orsak och behandling';
+$seo_title = 'Behandla bristningar - Symptom, orsak och behandling';
 $seo_description = 'Här hittar du allt om bristningar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'strechmarks, bristningar, bristningar gravid, behandla bristningar, bristningar hud, bristningar i huden, bristningar mage, bristningar på magen';
 $seo_image = '/bilder/hudproblem/424x456/bristningar.webp';
