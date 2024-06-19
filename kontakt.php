@@ -54,9 +54,9 @@ $salons = array(
 
     <link rel="canonical" href="https://www.acnespecialisten.se/kontakt.php" />
       
-    <title class="l10n">Kontakta Acnespecialisten | Hudvårdssalong mot Hudproblem</title>
-    <meta name="title" content="Kontakta Acnespecialisten | Hudvårdssalong mot Hudproblem" class="l10n">
-    <meta name="description" content="Här hittar du öppettider, kontaktinformation och adress till våra hudvårdssalonger i Stockholm. Vi finns på Östermalm, Södermalm och i Sundbyberg." class="l10n">
+    <title class="l10n">Kontakta AcneSpecialisten på Södermalm, Östermalm och Sundbyberg</title>
+    <meta name="title" content="Kontakta AcneSpecialisten på Södermalm, Östermalm och Sundbyberg" class="l10n">
+    <meta name="description" content="Här hittar du öppettider, kontaktinformation och adress till våra hudvårdssalonger på Södermalm, Östermalm och i Sundbyberg." class="l10n">
     <meta name="keywords" content="kontakt acnespecialisten, hudvårdssalong, hudvårdssalong stockholm" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
@@ -107,8 +107,6 @@ $salons = array(
                     $message = "
                     <html>
                     <head>
-
-    <link rel="canonical" href="https://www.acnespecialisten.se/.php" />
       
                     <title>Acnespecialisten form</title>
                     </head>

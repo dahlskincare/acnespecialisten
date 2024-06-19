@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Infuzion Behandling - Mesoterapi Stockholm';
-$seo_description = 'Infuzion ger effekterna hos fillers och skinbooster, utan att använda nålar. Boostar huden med effektivt serum. Boka en gratis konsultation i dag!';
+$seo_title = 'Infuzion behandling - Mesoterapi Stockholm';
+$seo_description = 'Infuzion ger effekterna hos fillers och skinbooster, utan att använda nålar. Stimulera huden med effektivt serum. Boka en gratis konsultation i dag!';
 $seo_keywords = 'mesoterapi, infuzion behandling, infuzion, mesoterapi stockholm';
 
 $seo_image = 'images/treatments/large/infuzion.webp';

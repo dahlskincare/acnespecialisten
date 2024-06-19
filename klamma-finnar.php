@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandling för Finnar - Säker och Effektiv Behandling';
-$seo_description = 'AcneSpecialisten erbjuder acnebehandlingar som är anpassade efter din acnetyp. Vi har 25 års erfarenhet av behandlingar mot acne. Boka en gratis hudanalys';
+$seo_title = 'Klämma finnar - Effektiv behandling | AcneSpecialisten';
+$seo_description = 'Vi erbjuder effektiva behandlingar för att klämma ut finnar på ett effektivt och säkert sätt utan att skada huden. Boka en kostnadsfri konsultation →';
 $seo_keywords = 'ansiktsbehandling för finnar, professionell finnextraktion, behandla akne, rena porer, hudklarhet, förebygga finnar, reducera orenheter, hudhälsa, förbättra hudtextur, säker finnbehandling';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';

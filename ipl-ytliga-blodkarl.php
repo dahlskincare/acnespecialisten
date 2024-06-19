@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL behandling mot Ytliga Blodkärl - Ansikte & Näsa';
-$seo_description = 'Bli av med ytliga blodkärl, pigmentfläckar och åldersfläckar. Läs mer om vår IPL behandling och boka en gratis konsultation hos AcneSpecialisten →';
+$seo_title = 'IPL behandling - Ta bort ytliga blodkärl i ansiktet';
+$seo_description = 'Bli av med ytliga blodkärl. Läs mer om vår IPL-behandling och boka en gratis konsultation hos AcneSpecialisten →';
 $seo_keywords = 'ipl behandling, ipl ansikte, ipl laser ansikte, ipl behandling ytliga blodkärl, laser blodkärl ansikte, ipl behandling ansikte, ipl näsa, ta bort blodkärl i ansiktet, behandling av ytliga blodkärl i ansiktet, ytliga blodkärl i ansiktet laser';
 
 $seo_image = 'images/treatments/large/ipl.webp';

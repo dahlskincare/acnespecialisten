@@ -22,8 +22,8 @@ $article = new SkinGuideArticle(
 
     <link rel="canonical" href="https://www.acnespecialisten.se/ipl-acne.php" />
       
-    <title class="l10n">IPL mot Acne | AcneSpecialisten</title>
-    <meta name="title" content="IPL mot Acne | AcneSpecialisten" class="l10n">
+    <title class="l10n">IPL mot acne | AcneSpecialisten</title>
+    <meta name="title" content="IPL mot acne | AcneSpecialisten" class="l10n">
     <meta name="description" content="Läs mer om IPL mot acne med laser. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →" class="l10n">
     <meta name="keywords" content="ipl acne" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL mot Pigmentfläckar & Solfläckar | AcneSpecialisten';
+$seo_title = 'IPL pigmentfläckar behandling | AcneSpecialisten';
 $seo_description = 'Ta bort pigmentfläckar och åldersfläckar med hjälp av IPL. Läs mer om vår behandling & boka in en kostnadsfri konsultation →';
 $seo_keywords = 'ipl pigmentfläckar, ipl behandling pigmentfläckar, solfläckar behandling, ipl behandling ansikte,ta bort pigmentfläckar i ansiktet, ipl behandling, ta bort pigmentfläckar, ta bort solfläckar i ansiktet, ta bort pigmentfläckar laser, ipl behandling resultat';
 
