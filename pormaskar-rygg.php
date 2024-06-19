@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Pormaskar på Ryggen - Orsaker, Behandling, Förebyggande';
+$seo_title = 'Pormaskar på ryggen | AcneSpecialisten';
 $seo_description = 'Utforska allt du behöver veta om pormaskar på ryggen, deras uppkomst, effektiva behandlingsmetoder och förebyggande åtgärder. Ta del av våra expertkunskaper.';
 $seo_keywords = 'pormaskar på ryggen, behandling av pormaskar på ryggen, orsaker till pormaskar på ryggen, förebygga pormaskar på ryggen, minska pormaskar på ryggen, hudvård, ryggvård, porrengöring';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar-rygg.webp';

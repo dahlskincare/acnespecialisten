@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Perorial Dermatit | AcneSpecialisten';
-$seo_description = 'Har du utslag och finnar runt munnen? Då kan det vara perioral dermatit. Boka en gratis hudkonsultation så skräddarsyr vi rätt behandling till dig.';
+$seo_title = 'Perorial dermatit - Behandling | AcneSpecialisten';
+$seo_description = 'Har du utslag runt munnen? Då kan det vara perioral dermatit. Boka en gratis hudkonsultation så skräddarsyr vi rätt behandling →';
 $seo_keywords = 'perioral dermatit, finnar på hakan, finnar runt munnen, perioral dermatit behandling, utslag runt munnen, perioral dermatit bilder, perioral dermatit produkter, perioral dermatit näsan, behandla perioral dermatit, utslag perioral dermatit, varför får man perioral dermatit';
 $seo_image = 'bilder/hudproblem/424x456/perioral-dermatit.webp';
 

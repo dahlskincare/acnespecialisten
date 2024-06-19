@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är Pormaskar & Stängda Komedoner? | AcneSpecialisten';
+$seo_title = 'Pormaskar – Behandling & orsaker | AcneSpecialisten';
 $seo_description = 'Här hittar du allt om pormaskar och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'pormaskar, orsaker till pormaskar, förebygga pormaskar, ta bort pormaskar, hudvård';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
