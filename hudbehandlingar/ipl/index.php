@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'IPL Behandling i Stockholm - Effektiv Hudförbättring';
+$seo_title = 'IPL behandling i Stockholm - Effektiv hudförbättring';
 $seo_description = 'Upptäck Stockholms ledande klinik för IPL-behandlingar. Våra hudterapeuter erbjuder skräddarsydda behandlingsplaner som förbättrar hudton och textur.';
 $seo_keywords = 'ipl, ipl laser, ipl behandling, ipl ansikte före efter, ipl ansikte';
 

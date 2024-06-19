@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandling mot Akne | AcneSpecialisten';
+$seo_title = 'Ansiktsbehandling mot akne | AcneSpecialisten';
 $seo_description = 'Vi på erbjuder ansiktsbehandlingar för akne. Rengör och exfoliderar huden få djupet för att bli av med inflammationerna. Boka gratis konsultation idag!';
 $seo_keywords = 'ansiktsbehandling akne';
 

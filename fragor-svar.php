@@ -87,7 +87,7 @@ $faq_categories = array(
 
       <link rel="canonical" href="https://www.acnespecialisten.se/fragor-svar.php" />
       
-    <title class="l10n">Frågor & Svar - AcneSpecialisten</title>
+    <title class="l10n">Frågor & svar - AcneSpecialisten</title>
     <meta name="title" content="Frågor & Svar - AcneSpecialisten" class="l10n">
     <meta name="description" content="Frågor & svar AcneSpecialisten, här får du svar på några av de vanligaste frågorna" class="l10n">
     <meta name="keywords" content="hudvård, acnebehandling, hudproblem, frågor och svar, AcneSpecialisten, hudterapi" class="l10n">

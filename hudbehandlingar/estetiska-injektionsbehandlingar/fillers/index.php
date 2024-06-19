@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Fillers i Stockholm - Naturligt Vackra Läppar';
+$seo_title = 'Fillers i Stockholm - Naturligt vackra läppar';
 $seo_description = 'Upptäck fillers för läppar, under ögonen och mer i Stockholm. Naturliga resultat med lip fillers och andra behandlingar av högsta kvalitet.';
 $seo_keywords = 'lip fillers, fillers läppar, fillers under ögonen, fillers stockholm, fillers läppar naturligt';
 

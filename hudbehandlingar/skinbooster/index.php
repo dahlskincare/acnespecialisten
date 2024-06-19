@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Skinbooster Behandlingar - Återfukta och föryngra din hud';
+$seo_title = 'Skinbooster behandlingar - Återfukta och föryngra din hud';
 $seo_description = 'Effektiv nålfri behandling för djup återfuktning och hudförnyelse. Återuppliva din hud med förbättrad elasticitet, lyster och textur utan biverkningar.';
 $seo_keywords = 'skinbooster, skinbooster behandling';
 $seo_image = '/images/treatments/large/skinbooster.webp';

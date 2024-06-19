@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Djuprengöring Ansikte | AcneSpecialisten';
+$seo_title = 'Djuprengöring ansikte | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi djuprengöring för att behandla pormaskar. Djupgående porrengöring för effektiv behandling. Boka tid hos oss idag →';
 $seo_keywords = 'djuprengöring, djuprengöring ansikte';
 

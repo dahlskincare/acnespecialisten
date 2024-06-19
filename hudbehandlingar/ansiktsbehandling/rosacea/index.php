@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ansiktsbehandling mot Rosacea | AcneSpecialisten';
+$seo_title = 'Ansiktsbehandling mot rosacea | AcneSpecialisten';
 $seo_description = 'Vi erbjuder specialanpassade ansiktsbehandlingar för att lugna och vårda rosacea-drabbad hud. Våra behandlingar är inriktade på att minska rodnad och irritation';
 $seo_keywords = 'ansiktsbehandlingar för rosacea, rosaceabehandling, lugnande hudvård, behandla rodnad i ansiktet, AcneSpecialisten, skonsam hudvård, milda ansiktsbehandlingar, rosacealindring, hudvård vid rosacea, minska hudrodnad, lindra rosacea';
 

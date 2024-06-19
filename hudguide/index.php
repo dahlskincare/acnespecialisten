@@ -7,7 +7,7 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/hudguide/" />
       
-    <title>Hudguiden från AcneSpecialisten - Din Hudvårdsexpert</title>
+    <title>Hudguiden från AcneSpecialisten - Din hudvårdsexpert</title>
     <meta name="description" content="Utforska AcneSpecialistens omfattande hudguide. Få professionella tips och råd för att förbättra din hudhälsa med expertis från branschledare.">
     <meta name="keywords" content="Hudguide">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

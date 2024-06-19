@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Estetiska Injektionsbehandlingar - Naturliga Resultat';
+$seo_title = 'Estetiska injektionsbehandlingar - Naturliga resultat';
 $seo_description = 'Utforska våra estetiska injektionsbehandlingar för att förbättra din naturliga skönhet. Säkra och skräddarsydda lösningar för varje individ.';
 $seo_keywords = 'estetiska injektionsbehandlingar';
 

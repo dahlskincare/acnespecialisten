@@ -8,7 +8,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
     <link rel="canonical" href="https://www.acnespecialisten.se/elevbehandlingar.php" />
       
-    <title>Elevbehandling Ansiktsbehandling Stockholm</title>
+    <title>Elevbehandling ansiktsbehandling Stockholm</title>
     <meta name="description" content="Upptäck elevbehandlingar i Stockholm: Professionella ansiktsbehandlingar utförda av våra skickliga elever. Kvalitet till ett förmånligt pris.">
     <meta name="keywords" content="elevbehandlingar, elevbehandlingar stockholm, elevbehandling ansiktsbehandling stockholm">
 

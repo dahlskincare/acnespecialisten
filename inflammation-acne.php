@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Inflammation Acne - Papler och Pustler | AcneSpecialisten';
-$seo_description = 'Läs mer om inflammerad akne och inflammerade talgkörtel behandling. Bli av med papler och pustler effektivt. Boka en kostnadsfri konsultation →';
+$seo_title = 'Inflammation acne - papler och pustler | AcneSpecialisten';
+$seo_description = 'Läs mer om inflammation acne och hur vi behandlar det effektivt för att bli av med dina pustler. Boka en kostnadsfri konsultation →';
 $seo_keywords = 'papler, pustler, inflammerad talgkörtel behandling, infekterad finne, papler och pustler, inflammation acne, akne pustel, acne bakterie, inflammerad acne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 

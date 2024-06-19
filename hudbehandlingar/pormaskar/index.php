@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Pormaskar - Effektiva behandlingsmetoder';
+$seo_title = 'Behandla pormaskar - Effektiva behandlingsmetoder';
 $seo_description = 'Behandla dina pormaskar hos AcneSpecialisten, vi har 30 års erfarenhet av få bort pormaskar, Boka gratis hudkonsultation i Stockholm eller online';
 $seo_keywords = 'pormaskar, portömning, pormaskbehandling, orsaker till pormaskar, förebygga pormaskar, ta bort pormaskar, djupa porer, rengöring av porer, svarta prickar, vita pormaskar';
 $seo_image = '/bilder/hudproblem/424x456/pormaskar.webp';
