@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot Acne | AcneSpecialisten';
+$seo_title = 'Microneedling mot acne | AcneSpecialisten';
 $seo_description = 'Behandla acne och finnar effektivt med hjälp av Microneedling. Läs mer och boka en gratis hudkonsultation idag!';
 $seo_keywords = 'microneedling mot acne, dermapen acne, dermapen akne, microneedling acne, microneedling akne, microneedling mot akne';
 
