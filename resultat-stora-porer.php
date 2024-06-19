@@ -6,8 +6,8 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-stora-porer.php" />
       
-    <title>Stora Porer Resultat | Framgångshistorier och Transformationer</title>
-    <meta name="description" content="Upptäck framgångar i behandling av stora porer genom våra kundcase. Våra före- och efterbilder illustrerar den effektiva bekämpningen av stora porer och andra hudproblem.">
+    <title>Före- och efterbilder - Stora porer | AcneSpecialisten</title>
+    <meta name="description" content="Se före och efterbilder på resultatet från våra pormaskar kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <meta name="keywords" content="stora porer bilder, stora porer före och efter, acne bilder, acne för eoch efter">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

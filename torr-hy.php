@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Torr & Fjällande Hud i Ansiktet - AcneSpecialisten';
-$seo_description = 'Torr hy är en vanlig typ av hudproblem. På AcneSpecialisten hjälper vi dig att behandla torr hy med skräddarsydda lösningar för dig. Läs mer och boka tid i dag →';
+$seo_title = 'Torr hy i ansiktet – Behandling | AcneSpecialisten';
+$seo_description = 'Torr hy är en vanlig typ av hudproblem. På AcneSpecialisten hjälper vi dig att behandla torr hy med skräddarsydda lösningar. Läs mer och boka tid i dag →';
 $seo_keywords = 'torr hud, torr hud ansikte, fjällar, torr i ansiktet, torrt ansikte, torr hy, torr hud i ansiktet flagnar, flagnar i ansiktet, varför flagnar huden, huden flagnar, torr hy finnar, torr hy med acne, torr t zon';
 $seo_image = 'bilder/hudproblem/424x456/torr-kanslig-hy.webp';
 

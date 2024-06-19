@@ -9,9 +9,9 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat.php" />
       
-    <title>Resultat Från AcneSpecialisten | Före och Efter bilder</title>
-    <meta name="title" content="Resultat Från AcneSpecialisten | Före och Efter bilder" class="l10n">
-    <meta name="description" content="Före  och efter bilder på våra kunders resultat som har använt AcneSpecialistens behandlingsmetoder.">
+    <title>AcneSpecialistens resultat | Före och efter bilder</title>
+    <meta name="title" content="AcneSpecialistens resultat | Före och efter bilder" class="l10n">
+    <meta name="description" content="Se fantastiska före och efterbilder på resultatet från våra kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <meta name="keywords" content="Acnespecialisten resultat, acnespecialisten före efter">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

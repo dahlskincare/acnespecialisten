@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Svarta Pormaskar - Orsak, Behandling och Förebygg';
+$seo_title = 'Läs mer om svarta pormaskar | AcneSpecialisten';
 $seo_description = 'Allt om svarta pormaskar, från deras uppkomst till effektiva behandlingar och förebyggande strategier. Få skräddarsydda lösningar och expertis.';
 $seo_keywords = 'svarta pormaskar, behandla svarta pormaskar, orsaker till svarta pormaskar, förebygga svarta pormaskar, eliminera svarta pormaskar, hudvård, ansiktsrengöring, djuprengöring av porer';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';

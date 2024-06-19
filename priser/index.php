@@ -6,7 +6,7 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/priser/" />
       
-    <title>Priser hos AcneSpecialisten - Behandlingar & Paket</title>
+    <title>Priser hos AcneSpecialisten - Behandlingar & paket</title>
     <meta name="description" content="Upptäck prisvänliga behandlings-, paket- och kurpriser hos AcneSpecialisten. Investera i din hudhälsa med våra skräddarsydda lösningar.">
     <meta name="keywords" content="Priser">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

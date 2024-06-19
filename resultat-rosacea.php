@@ -6,8 +6,8 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-rosacea.php" />
       
-    <title>Rosacea Resultat | Hudförbättring och Lindring</title>
-    <meta name="description" content="Se resultatbilder från våra rosacea behandlingar. AcneSpecialisten har lång erfarenhet av att behandla hudutslag och rosacea">
+    <title>Före och efter bilder rosacea - Resultat | AcneSpecialisten</title>
+    <meta name="description" content="Se före och efterbilder på resultatet från våra rosacea kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <meta name="keywords" content="rosacea bilder, rosacea näsa bilder, bilder på hudutslag, bilder hudutslag, utslag i ansiktet bilder">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

@@ -6,9 +6,8 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-pormaskar.php" />
       
-    <title>Pormaskar Resultat | Effektiva Hudförändringar</title>
-    <meta name="description" content="Före- och efter bilder på våra pormaskar kunder som har använt AcneSpecialistens metod.">
-    <meta name="keywords" content="portömning före efter">
+    <title>Före och efter bilder - Pormaskar | AcneSpecialisten</title>
+    <meta name="description" content="Se före och efterbilder på resultatet från våra pormask kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/style.css">

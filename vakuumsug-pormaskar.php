@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Portömning med vakuumsug | AcneSpecialisten';
+$seo_title = 'Vakuumsug pormaskar Stockholm | AcneSpecialisten';
 $seo_description = 'Vakuumsug är en effektiv metod för djuprengöring av huden. Genom vakuumteknik och specialserum avlägsnar behandlingen oönskade pormaskar.';
 $seo_keywords = 'portömning med vakuumsug';
 

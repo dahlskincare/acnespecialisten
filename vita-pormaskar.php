@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta bort Vita Pormaskar, Stängda Komedoner & Inkapslade porer';
+$seo_title = 'Läs mer om vita pormaskar | AcneSpecialisten';
 $seo_description = 'Information om vita pormaskar, symptom, orsaker och effektiva behandlingsalternativr. Få tillgång till skräddarsydda lösningar och expertkunskaper.';
 $seo_keywords = 'stängda komedoner, vit pormask, vita pormaskar, ta bort vita pormaskar, komedon, inkapslade porer, vita porer i ansiktet, inkapslade pormaskar';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';

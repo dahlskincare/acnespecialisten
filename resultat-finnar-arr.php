@@ -6,8 +6,8 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-finnar-arr.php" />
       
-    <title>Ärr från Finnar Resultat | Hudtransformationer</title>
-    <meta name="description" content="Före och Efter bilder på Microneedling behandlingar som tar bort Acneärr samt resultat från våra Dermapen behandlingar | AcneSpecialisten">
+    <title>Före och efter bilder på ärr från finnar - Resultat</title>
+    <meta name="description" content="Före och efterbilder på resultatet från våra kunder med ärr från finnar. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <meta name="keywords" content="dermapen resultat">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

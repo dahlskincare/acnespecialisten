@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Rosacea Behandling - Ta Bort din Rosacea | AcneSpecialisten';
+$seo_title = 'Rosacea behandling | AcneSpecialisten';
 $seo_description = 'Behandla din rosacea hos AcneSpecialisten, vi har 30 års erfarenhet av att ta bort rosacea, börja din resa med en gratis konsultation i stockholm eller online';
 $seo_keywords = 'rosaceabehandling, rosacea behandling, ta bort rosacea, få bort rosacea';
 $seo_image = 'bilder/hudproblem/424x456/rosacea.webp';

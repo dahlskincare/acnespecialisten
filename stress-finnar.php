@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Stress Finnar | AcneSpecialisten';
+$seo_title = 'Vad är stress finnar? | AcneSpecialisten';
 $seo_description = 'Utforska allt om stressfinnar – deras orsaker, effektiva behandlingsmetoder och förebyggande strategier. AcneSpecialisten erbjuder skräddarsydda lösningar.';
 $seo_keywords = 'stressfinnar, finnar stress, stress finnar, akne stress, stress akne, finnar i pannan stress, finnar i hårbotten stress';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';

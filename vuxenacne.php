@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vuxenakne & Vuxen Finnar - Acne Tarda | AcneSpecialisten';
+$seo_title = 'Vuxenacne – Behandling & orsaker | AcneSpecialisten';
 $seo_description = 'Varför får man finnar som vuxen? Läs mer om vuxenaknes orsaker, varför plötslig akne uppstår och hur du blir av med det! Boka en kostnadsfri konsultation →';
 $seo_keywords = 'varför får man finnar som vuxen, vuxenacne, vuxenakne, vuxenacne behandling, vuxenacne kvinnor, vuxenakne man, vuxenakne orsaker, acne tarda, hormonell vuxenacne, kronisk vuxenakne, bli av med vuxenacne, vuxenacne hjälp, vuxenacne produkter, behandla vuxenacne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';

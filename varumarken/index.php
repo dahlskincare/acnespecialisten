@@ -480,9 +480,9 @@ $path_segments = array(
 
       <link rel="canonical" href="https://www.acnespecialisten.se/varumarken/" />
       
-      <title class="l10n">Ledande Varumärken inom Hudvård hos AcneSpecialisten</title>
-      <meta name="title" content="Ledande Varumärken inom Hudvård hos AcneSpecialisten" class="l10n">
-      <meta name="description" content="Upptäck Acnespecialistens noggrant utvalda samling av ledande hudvårdsmärken och toppmodern utrustning, designade för effektiva och skräddarsydda hudvårdsbehandlingar." class="l10n">
+      <title class="l10n">Ledande varumärken inom hudvård hos AcneSpecialisten</title>
+      <meta name="title" content="Ledande varumärken inom hudvård hos AcneSpecialisten" class="l10n">
+      <meta name="description" content="Upptäck AcneSpecialistens noggrant utvalda samling av ledande hudvårdsmärken och toppmodern utrustning, för effektiva och skräddarsydda hudvårdsbehandlingar." class="l10n">
       <meta name="keywords" content="varumärke" class="l10n">
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">

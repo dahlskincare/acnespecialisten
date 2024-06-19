@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Portömning i Stockholm | AcneSpecialisten';
+$seo_title = 'Portömning | AcneSpecialisten';
 $seo_description = 'Portömning är en specialisterad ansiktsbehandling som fokuserar på att tömma porerna för att bli av med pormaskar och orenheter.';
 $seo_keywords = 'portömning, portömning hemma, portömning stockholm, ansiktsbehandling portömning, portömning behandling, portömning före efter, portömning ansiktsbehandling, portömning behandling, portömning ansikte, portömning näsa';
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';

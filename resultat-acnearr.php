@@ -6,8 +6,8 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-acnearr.php" />
       
-    <title>Acneärr Före och Efter Resultat | AcneSpecialisten</title>
-    <meta name="description" content="Så före och efter bilder från laser, kemisk peeling och microneedling resultat. Vi reducerar effektivt dina akneärr oavsett typ.">
+    <title>Resultat från Acneärr behandlingar med Microneedling</title>
+    <meta name="description" content="Se före och efterbilder på resultatet från våra acneärr kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <meta name="keywords" content="microneedling acneärr resultat, microneedling före efter, microneedling före och efter">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

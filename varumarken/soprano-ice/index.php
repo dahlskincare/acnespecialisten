@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Soprano ICE Platinum - Diodlaser Hårborttagning';
-$seo_description = 'Soprano ICE Platinum, diodlaser för hårborttagning. smärtfri laserbehandling för att effektivt avlägsna oönskat hår på alla hudtyper. Boka gratis konsultation!';
+$seo_title = 'Soprano ICE Platinum - Diodlaser hårborttagning';
+$seo_description = 'Soprano ICE Platinum, diodlaser för hårborttagning. Smärtfri laserbehandling för att effektivt avlägsna oönskat hår på alla hudtyper. Boka gratis konsultation!';
 $seo_keywords = 'diodlaser, soprano ice platinum, soprano ice, soprano ice laser, soprano ice stockholm, laser hårborttagning sundbyberg, diodlaser hårborttagning, vad är diodlaser?';
 
 $seo_image = '/images/treatments/large/soprano-ice.webp';

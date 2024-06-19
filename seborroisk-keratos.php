@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Läs Mer & Ta Bort Seborroisk Keratos & Åldersvårtor';
+$seo_title = 'Ta bort seborroisk keratos | AcneSpecialisten';
 $seo_description = 'Experter på behandling av seborroisk keratos. Vi erbjuder skonsamma och avancerade metoder för att effektivt hantera dessa hudtillväxter.';
 $seo_keywords = 'seborroisk keratos, behandling av seborroisk keratos, hudförändringar, jämn hudton, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';

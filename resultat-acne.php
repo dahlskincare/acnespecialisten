@@ -6,8 +6,8 @@
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-acne.php" />
       
-    <title>Akne Resultat | Framgångshistorier och Transformationer</title>
-    <meta name="description" content="Upptäck framgångar i behandling av akne genom våra kundcase. Våra före- och efterbilder illustrerar den effektiva bekämpningen av akne och andra hudproblem.">
+    <title>Resultat av acnebehandlingar | Före och efter bilder - Acne</title>
+    <meta name="description" content="Se fantastiska före och efterbilder på resultatet från våra acne kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <meta name="keywords" content="akne bilder, akne före och efter, acne bilder, acne för eoch efter">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">

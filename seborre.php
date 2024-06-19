@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är Seborré i Ansiktet, Torra Ögonbryn, Näsvingar och mer';
-$seo_description = 'Här hittar du allt om seborré och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_title = 'Seborre i ansiktet - Behandling | AcneSpecialisten';
+$seo_description = 'Har du seborré? Behandling gör du hos oss på AcneSpecialisten! Boka en gratis hudkonsultation & få en skräddarsydd behandlingsplan. Behandla seborré nu →';
 $seo_keywords = 'seborré, seborreiskt eksem, orsaker till seborré, förebygga seborré, ta bort seborré, skalp seborré, ansiktsseborré, seborroisk dermatit, fjällande hud';
 $seo_image = 'bilder/hudproblem/424x456/seborre.webp';
 
