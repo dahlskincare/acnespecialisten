@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta bort milier med milier behandling';
-$seo_description = 'Ansiktsbehandling för att effektivt få bort milier, skräddarsydda för att ta bort milier och ge en slät hud.';
+$seo_title = 'Milier behandling – Ta bort milier | AcneSpecialisten';
+$seo_description = 'Ansiktsbehandling för att effektivt få bort milier, skräddarsydda för att ta bort milier och ge en slät hud. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'milier hudterapeut, hur få bort milier i ansiktet, milier behandling, ta bort milier själv, ta bort milier stockholm, borttagning av milier, milier ta bort, milier borttagning, ta bort milier, få bort milier, hur får man bort milier';
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 

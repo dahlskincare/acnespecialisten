@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är mogen hy - Symptom, orsak och behandling';
-$seo_description = 'Här hittar du allt om mogen hy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
+$seo_title = 'Behandla åldrande och mogen hy | AcneSpecialisten';
+$seo_description = 'Vi hjälper dig att hitta rätt behandling för mogen och åldrande hud. Boka en tid för gratis konsultation och få en skräddarsydd hudvårdsrutin →';
 $seo_keywords = 'mogen hy, orsaker till mogen hy, förebygga ålderstecken, hudåldrande, rynkor, fina linjer, ålderfläckar';
 $seo_image = 'bilder/hudproblem/424x456/mogen-hy.webp';
 

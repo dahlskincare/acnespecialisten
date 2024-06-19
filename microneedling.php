@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling behandling i Stockholm - Boka Konsultation!';
-$seo_description = 'Avancerad microneedling behandling i Stockholm för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
+$seo_title = 'Microneedling behandling i Stockholm | AcneSpecialisten';
+$seo_description = 'Vår microneedle-behandling i Stockholm sätter igång hudens naturliga läkeprocess. ✓Modern teknik ✓Smärtfritt ✓Effektivt. Boka gratis konsultation här →';
 $seo_keywords = 'microneedling, microneedling före efter, microneedling before and after, microneedling risker, microneedling stockholm, microneedling direkt efter, microneedling eftervård, microneedling resultat efter en behandling';
 $seo_image = 'images/treatments/large/microneedling.webp';
 

@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Microneedling mot Stora Porer - Uppnå Bättre Hudstruktur';
-$seo_description = 'Vår microneedle-behandling i Stockholm sätter igång hudens naturliga läkeprocess. ✓Modern teknik ✓Smärtfritt ✓Effektivt. Boka gratis konsultation här →';
+$seo_title = 'Microneedling mot stora porer | AcneSpecialisten';
+$seo_description = 'Behandla och reducera stora porer effektivt med hjälp av Microneedling. Läs mer och boka en gratis hudkonsultation idag!';
 $seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare hudstruktur, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling, hudförädling, porminskning';
 
 $seo_image = 'images/treatments/large/microneedling.webp';

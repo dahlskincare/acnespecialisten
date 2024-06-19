@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är milier? - Symptom, orsak och behandling';
+$seo_title = 'Vad är milier? | AcneSpecialisten';
 $seo_description = 'Här hittar du allt om milier och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'plitor i ansiktet, knotter i ansiktet, små knottror i ansiktet, vita små prickar på huden, millier, knottror i ansiktet, pormask som inte går att klämma, hård vit kula under huden, milie, vita finnar, vita upphöjda prickar på huden, små vita prickar på huden, milier hud, milier';
 $seo_image = 'bilder/hudproblem/424x456/milier.webp';
