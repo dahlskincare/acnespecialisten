@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne på Ryggen | AcneSpecialisten';
-$seo_description = 'Information och behandling av akne på ryggen, allt du behöver veta om ryggbehandling av acne! Boka in en kostnadsfri konsultation & få en behandlingsplan →';
+$seo_title = 'Akne på ryggen | AcneSpecialisten';
+$seo_description = 'Behandla acne på rygg och axlar (även kallat backne) hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation & få en skräddarsydd behandlingsplan →';
 $seo_keywords = 'akne på rygg, akne på ryggen, akne rygg, rygg akne, acne på rygg, acne på ryggen, acne rygg, acne ryggen';
 $seo_image = 'bilder/hudproblem/424x456/akne-rygg.webp';
 

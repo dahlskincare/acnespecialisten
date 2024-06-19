@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Scars | AcneSpecialisten';
-$seo_description = 'Learn more about acne scar, its causes and apperance on the skinon the face, chest and back. Book a free consultation →';
+$seo_title = 'Acne scars - Treatment, causes, and prevention';
+$seo_description = 'Explore everything about acne scars, from their underlying causes to effective treatment methods and preventive measures. Book a free consultation!';
 $seo_keywords = 'acne scars';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 

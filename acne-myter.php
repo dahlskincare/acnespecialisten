@@ -27,9 +27,9 @@ $faq_categories = array(
 
     <link rel="canonical" href="https://www.acnespecialisten.se/acne-myter.php" />
       
-    <title class="l10n">Acne Myter - Vanliga frågor och svar | AcneSpecialisten</title>
-    <meta name="title" content="Acne Myter Vanliga frågor och svar | AcneSpecialisten" class="l10n">
-    <meta name="description" content="Får man finnar av choklad? Här kan du läsa mer om detta och andra vanliga myter om acne! Vi på AcneSpecialisten är specialister på allt som inom acne!" class="l10n">
+    <title class="l10n">Acne myter - Vanliga frågor och svar | AcneSpecialisten</title>
+    <meta name="title" content="Acne myter - Vanliga frågor och svar | AcneSpecialisten" class="l10n">
+    <meta name="description" content="Får man finnar av choklad? Här kan du läsa mer om detta och andra vanliga myter om acne! Vi på AcneSpecialisten är specialister på allt inom acne!" class="l10n">
     <meta name="keywords" content="får man finnar av choklad, finnar av choklad" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

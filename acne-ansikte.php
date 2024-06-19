@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne i Ansiktet & Finnar på Käklinjen | AcneSpecialisten';
+$seo_title = 'Akne i ansiktet | AcneSpecialisten';
 $seo_description = 'Har du problem med acne i ansiktet, käklinje, kinderna eller på hakan? Läs mer om hur du kan behandla det. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'acne ansikte, acne på hakan, akne på hakan, akne på kinderna, acne i ansiktet, akne i pannan, acne ansiktet, acne på halsen, acne på ansiktet';
 $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';

@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta Bort Aacneärr och Gropar i Huden | AcneSpecialisten';
-$seo_description = 'AcneSpecialisten har behandlat acneärr i ansiktet och på kroppen i 30 år. Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
+$seo_title = 'Ta bort acneärr och gropar i huden | AcneSpecialisten';
+$seo_description = 'AcneSpecialisten har behandlat acneärr i 30 år. Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
 $seo_keywords = 'acneärr, akne ärr, ärr i ansiktet, ärr från finnar, acneärr gropar';
 
 $path_segments = array(
