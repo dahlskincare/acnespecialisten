@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Laserbehandling mot Operations- och Skadeärr';
-$seo_description = 'Effektiv metod för att reducera ärr efter operationer och skador. Vi erbjuder skräddarsydd behandlingar för att förbättra utseendet på dina ärr.';
+$seo_title = 'Laser mot ärr | AcneSpecialisten';
+$seo_description = 'Effektiv metod för att reducera ärr efter operationer och skador. Vi erbjuder skräddarsydd behandlingar för att förbättra och eliminera dina ärr.';
 $seo_keywords = 'laserbehandling av ärr, laser på ärr, laser ärr, laser för ärr, laserbehandling ärr, laser ärr före efter, laserbehandling ärr kostnad';
 
 $seo_image = '/images/treatments/large/laser.webp';

@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Melasma – Behandling, Orsaker & Förebyggande';
+$seo_title = 'Melasma | AcneSpecialisten';
 $seo_description = 'Vi hjälper dig att behandla oönskade melasma. Läs mer och boka tid för behandling eller en gratis konsultation i dag!';
 $seo_keywords = 'melasma behandling, behandling melasma, melasma, melasma ansikte';
 $seo_image = 'bilder/hudproblem/424x456/melasma.webp';

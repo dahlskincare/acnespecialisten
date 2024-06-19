@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Acne med Laser i Stockholm | AcneSpecialisten';
+$seo_title = 'Behandla acne med laser i Stockholm | AcneSpecialisten';
 $seo_description = 'Avancerad laserbehandling mot acne. Våra skräddarsydda behandlingar använder laser mot akne för att effektivt reducera inflammation och förbättra hudens hälsa.';
 $seo_keywords = 'acne laser, laser acne, laser acne stockholm, laser mot akne, laserbehandling acne';
 

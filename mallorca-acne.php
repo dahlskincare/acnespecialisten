@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Mallorca Acne - Acne Aestivalis | AcneSpecialisten';
-$seo_description = 'Vi på AcneSpecialisten tar fram en skräddarsydd behandlingsplan för dig som drabbts av akne och sol finnar. Börja med en kostnadsfri konsultation →';
+$seo_title = 'Mallorca acne - Acne aestivalis | AcneSpecialisten';
+$seo_description = 'Vad är Mallorca-acne och hur kan du behandla det? Vi på AcneSpecialisten tar fram en skräddarsydd behandlingsplan. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'mallorca acne, acne aestivalis, finnar sol, sol finnar, finnar av solen, akne sol, små finnar av solen, tar solen bort finnar, akne av sol, sola bort akne, acne aestivalis behandling';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 

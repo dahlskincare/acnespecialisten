@@ -54,9 +54,9 @@ $steps = array(
 
     <link rel="canonical" href="https://www.acnespecialisten.se/metoden.php" />
       
-    <title class="l10n">AcneSpecialistens metod - Ditt alternativ till hudläkare</title>
-    <meta name="title" content="Alternativ till Hudläkare Stockholm - Privat & Utan Remiss" class="l10n">
-    <meta name="description" content="Vi är AcneSpecialisten, ditt alternativ till traditionella hudläkare i Stockholm. Behandling och rådgivning utan remiss. Boka din gratis konsultation nu!" class="l10n">
+    <title class="l10n">Alternativ till hudläkare Stockholm - Privat & utan remiss</title>
+    <meta name="title" content="Alternativ till hudläkare Stockholm - Privat & utan remiss" class="l10n">
+    <meta name="description" content="Vi är ett alternativ till hudläkare och på AcneSpecialisten erbjuder vi behandlingar och rådgivning utan remiss. Boka gratis konsultation så hjälper vi dig!" class="l10n">
     <meta name="keywords" content="hudläkare, hudläkare stockholm, hudläkare stockholm utan remiss, hudläkare utan remiss stockholm, hudläkare utan remiss, privat hudläkare stockholm, hudläkare stockholm privat, hudläkare privat, privat hudläkare, hudläkare online, huddoktor" class="l10n">
     <meta property="og:title" content="Acnespecialisten" />
     <meta property="og:description" content="" class="l10n" />
