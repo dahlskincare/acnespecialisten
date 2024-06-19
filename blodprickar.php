@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Blodprickar - Effektiva Metoder';
+$seo_title = 'Ta bort hemangiom och smultronmärken | AcneSpecialisten';
 $seo_description = 'Vi hjälper dig att ta bort hemangiom, blodprickar och smultronmärken. Boka tid för en gratis hudkonsultation hos AcneSpecialisten →';
 $seo_keywords = 'röda blodprickar, blodprickar i huden, hemangiom vuxen, blodprickar på huden, smultronmärke vuxen, ta bort hemangiom, blodprickar, smultronmärke vuxna, hemangiom vuxen ta bort, röd prick på huden';
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';

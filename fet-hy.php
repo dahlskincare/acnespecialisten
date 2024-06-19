@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Oljig och Fet Hy i Ansiktet | AcneSpecialisten';
+$seo_title = 'Behandla oljig hy och fet hy | AcneSpecialisten';
 $seo_description = 'Läs mer om oljig hud och fet hy i ansiktet. Hos oss hittar du hudvård för oljig hy som innehåller ansiktskräm mot fet hy, Boka konsultation idag!';
 $seo_keywords = 'oljig hy, ansiktskräm fet hy, fet hy, oljig hud, oljig, fet hud, hudvård för oljig hy, extremt oljig hy, fet hy i ansiktet, flottig, hudvård för fet hy, oljig hy i pannan, fet och torr hy, glansig hy';
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';

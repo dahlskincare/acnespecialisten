@@ -88,8 +88,8 @@ $faq_categories = array(
       <link rel="canonical" href="https://www.acnespecialisten.se/fragor-svar.php" />
       
     <title class="l10n">Frågor & Svar - AcneSpecialisten</title>
-    <meta name="description" content="Hitta svar på de vanligaste frågorna om AcneSpecialistens hudvårdsbehandlingar, metoder och produkter." class="l10n">
-    <meta name="title" content="Vanliga Frågor - AcneSpecialisten" class="l10n">
+    <meta name="title" content="Frågor & Svar - AcneSpecialisten" class="l10n">
+    <meta name="description" content="Frågor & svar AcneSpecialisten, här får du svar på några av de vanligaste frågorna" class="l10n">
     <meta name="keywords" content="hudvård, acnebehandling, hudproblem, frågor och svar, AcneSpecialisten, hudterapi" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

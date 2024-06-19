@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Allt om Åldersfläckar - Behandling, Orsak och Förebygg';
-$seo_description = 'Allt  om åldersfläckar, inklusive orsakerna bakom dem, effektiva behandlingsmetoder och hur du kan förebygga dem.';
+$seo_title = 'Behandla åldersfläckar och hyperpigmentering | AcneSpecialisten';
+$seo_description = 'Allt om åldersfläckar, inklusive orsakerna bakom dem, effektiva behandlingsmetoder och hur du kan förebygga dem.';
 $seo_keywords = 'åldersfläckar ansikte, åldersfläckar, åldersfläckar i ansiktet, hyperpigmentering ansikte, hyperpigmentering, åldersfläckar på huden';
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 

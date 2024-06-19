@@ -2,8 +2,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne behandling i Stockholm hos AcneSpecialisten';
-$seo_description = 'Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av få bort akne med våra aknebehandlingar, boka gratis hudkonsultation i Stockholm eller online';
+$seo_title = 'Akne behandling i Stockholm | AcneSpecialisten';
+$seo_description = 'Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av få bort akne med våra aknebehandlingar, Boka gratis hudkonsultation i Stockholm eller online';
 $seo_keywords = 'akne behandling, akne medicin, acne behandling, bästa akne behandling, ansikte behandling, aknebehandling, behandling acne, få bort acne, ta bort acne, hormonell akne behandling, behandla acne, behandla akne, bli av med acne, bli av med akne, få bort akne, hur blir man av med akne';
 $seo_image = 'images/treatments/large/acne-scars.jpg';
 

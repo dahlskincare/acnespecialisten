@@ -1,4 +1,4 @@
-<?php
+3<?php
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');

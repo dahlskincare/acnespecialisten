@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Laserbehandling Ansikte och Kropp i Stockholm';
-$seo_description = 'Avancerade laserbehandlingar för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen.';
+$seo_description = 'Avancerade laserbehandlingar för att effektivt hantera olika typer av hudproblem i ansiktet och på kroppen. Boka gratis konsultation idag!';
 $seo_keywords = 'laserbehandling, ansikte, kropp';
 $seo_image = '/images/treatments/large/laser.webp';
 

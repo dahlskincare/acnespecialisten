@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Hudflikar - Skonsamma och Effektiva Metoder';
+$seo_title = 'Ta bort skintags, fibrom och hudflikar | AcneSpecialisten';
 $seo_description = 'Vi behandlar och avlägsnar oönskade hudflikar och skintags. Effektiv behandling tar bort fibrom och hudflikar. Boka gratis hudkonsultation hos oss!';
 $seo_keywords = 'hudflikar, behandling av hudflikar, hudförändringar, jämna ut hudton, ta bort hudflikar, hudvård, Acnespecialisten, effektiv behandling, hudhälsa';
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';

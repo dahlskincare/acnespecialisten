@@ -2,8 +2,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Finnar - Behandling och Förebyggande';
-$seo_description = 'Lär dig allt om hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
+$seo_title = 'Behandling mot finnar | AcneSpecialisten';
+$seo_description = 'Boka vår effektiva behandling av finnar i Stockholm! Vi anpassar behandlingen efter din hudtyp. Börja med vår kostnadsfria konsultation →';
 $seo_keywords = 'finnar behandling, behandling av finnar, förebygga finnar, ta bort finnar';
 
 $path_segments = array(

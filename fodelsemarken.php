@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Födelsemärken - Skonsamma Metoder';
+$seo_title = 'Ta bort födelsemärken | AcneSpecialisten';
 $seo_description = 'Ta bort födelsemärken hos AcneSpecialisten. Vi tar bort godartade fläckar med effektiv CryoPen-behandling. Boka tid för en gratis hudkonsultation i dag →';
 $seo_keywords = 'födelsemärken, behandling av födelsemärken, ta bort födelsemärken';
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';

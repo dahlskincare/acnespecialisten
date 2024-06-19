@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Atrofiska Ärr - Acneärr - Gropar i Huden | AcneSpecialisten';
-$seo_description = 'Läs mer om atrofiska ärr och effektiva behandlingsmetoder. Vi på AcneSpecialisten har behandlat acneärr i 25 år. Boka tid för en gratis hudkonsultation →';
+$seo_title = 'Atrofiska ärr | AcneSpecialisten';
+$seo_description = 'Läs mer om atrofiska ärr och effektiva behandlingsmetoder. Vi på AcneSpecialisten har behandlat acneärr i 30 år. Boka tid för en gratis hudkonsultation →';
 $seo_keywords = 'atrofiska ärr, atrofisk ärrbildning, acneärr gropar, gropar i huden';
 $seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
 

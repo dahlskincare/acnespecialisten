@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandla Pigmentfläckar - Effektiva Metoder och Förebyggande';
+$seo_title = 'Ta bort pigmentfläckar - Effektiva metoder och behandlingar';
 $seo_description = 'Lär dig allt om pigmentfläckar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
 $seo_keywords = 'behandla pigmentfläckar';
 $seo_image = 'images/treatments/large/ipl.webp';

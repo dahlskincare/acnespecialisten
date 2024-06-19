@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta bort ärr från finnar i form av fläckar och gropar';
+$seo_title = 'Ta bort ärr från finnar huden | AcneSpecialisten';
 $seo_description = 'Lär dig allt om ärr som uppstår från finnar. Vi har behandlat ärr från finnar i 30 år. Boka tid för en gratis hudkonsultation så hjälper vi dig!';
 $seo_keywords = 'ärr från finnar, ärr från finnar Stockholm, ärr från finnar gropar, orsaker till ärr från finnar, vad är ärr från finnar, orsaker till ärr från finnar, varför får man ärr från finnar, var ärr från finnar, varför ärr från finnar';
 $seo_image = 'bilder/hudproblem/424x324/arr-fran-finnar.webp';

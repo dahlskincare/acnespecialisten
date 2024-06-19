@@ -5,8 +5,8 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Gravid Finnar & Acne | AcneSpecialisten';
-$seo_description = 'Besväras du av finnar under graviditet, som kanske kommit tidigt? Vi kan identifiera dina hormonutslag och behandla dem effektivt. Boka gratis hudkonsultation!';
+$seo_title = 'Gravid finnar – behandling och fakta | AcneSpecialisten';
+$seo_description = 'Upptäck varför finnar uppstår under graviditeten och hur du kan behandla dem effektivt. Boka tid för en gratis hudkonsultation så hjälper vi dig!';
 $seo_keywords = 'gravid finnar, finnar graviditet, finnar gravid tidigt, hormonutslag gravid, acne gravid, akne gravid, finnar på hakan gravid';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 

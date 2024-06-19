@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Hudvård mot Blandhy, Kombinerad Hudtyp och Oljig Hud';
+$seo_title = 'Blandhy – Hudvård | AcneSpecialisten';
 $seo_description = 'Här hittar du allt om blandhy och hur man blir av med det. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'blandhy, , kombinerad hud, kombinerad hudtyp, torr t zon, t zon';
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';

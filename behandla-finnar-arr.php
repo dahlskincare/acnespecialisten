@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling av Ärr från Finnar - Effektiv Behandling';
+$seo_title = 'Behandla ärr från finnar | AcneSpecialisten';
 $seo_description = 'Utforska de mest effektiva behandlingsmetoderna för ärr från finnar. Få skräddarsydda råd, tips, och expertis från oss för att behandla och minska ärr.';
 $seo_keywords = 'behandling av ärr från finnar, ärr från finnar, metod för behandling av finnärr, laserbehandling för finnärr, microneedling, kemisk peeling';
 $seo_image = 'images/treatments/large/acne-scars.jpg';
