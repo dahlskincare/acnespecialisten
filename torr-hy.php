@@ -318,7 +318,20 @@ $symptoms_title = 'Torr och känslig hy symptom';
 
 $symptoms = array(
       new Symptom(
-          name: 'Rödhet',
+          name: 'Hudflagor eller Fjällande Hud',
+          aka: 'Desquamation',
+          content: 'Det är vanligt att se små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram.',
+          
+          url_label: null,
+          url: null,
+          url_title: null,
+          
+          image: 'bilder/symptom/102x102/flagnande-hud.webp',
+          image_alt: 'Bild av hud med hudflagor eller fjällande hud',
+          image_title: 'Hudflagor eller Fjällande Hud'
+      ),
+      new Symptom(
+          name: 'Rodnad',
           aka: 'Hudrodnad',
           content: 'Huden kan visa tecken på rodnad, särskilt efter exponering för väder eller kosmetiska produkter.',
           
@@ -357,43 +370,17 @@ $symptoms = array(
           image_title: 'Brännande Känsla'
       ),
       new Symptom(
-          name: 'Hudflagor eller Fjällande Hud',
-          aka: 'Desquamation',
-          content: 'Det är vanligt att se små hudflagor, vilket är ett tecken på extrem torrhet.',
+          name: 'Ökad reaktivitet',
+          aka: 'Reaktiv hud',
+          content: 'Huden kan reagera mer än normalt på väderförändringar, som värme, kyla, eller vind.',
           
           url_label: null,
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/flagnande-hud.webp',
-          image_alt: 'Bild av hud med hudflagor eller fjällande hud',
-          image_title: 'Hudflagor eller Fjällande Hud'
-      ),
-      new Symptom(
-          name: 'Känslighet för Produkter',
-          aka: 'Produktreaktion',
-          content: 'En reaktion på kosmetika, tvål, eller andra hudvårdsprodukter är vanligt.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/kanslig-hy.webp',
-          image_alt: 'Bild av hud känslig för produkter',
-          image_title: 'Känslighet för Produkter'
-      ),
-      new Symptom(
-          name: 'Stramhet i huden',
-          aka: 'Hudstramhet',
-          content: 'Huden kan kännas stram, särskilt efter tvätt eller bad.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/stram-hy.webp',
-          image_alt: 'Bild av hud med stramhet',
-          image_title: 'Stramhet i huden'
+          image: 'bilder/symptom/102x102/rodnad-kinder.webp',
+          image_alt: 'Bild av hud med ökad reaktivitet',
+          image_title: 'Ökad reaktivitet'
       ),
       new Symptom(
           name: 'Ojämn hudton eller hyperpigmentering',
@@ -408,33 +395,6 @@ $symptoms = array(
           image_alt: 'Bild av hud med ojämn ton eller hyperpigmentering',
           image_title: 'Ojämn hudton eller hyperpigmentering'
       ),
-      new Symptom(
-          name: 'Ökad reaktivitet',
-          aka: 'Reaktiv hud',
-          content: 'Huden kan reagera mer än normalt på väderförändringar, som värme, kyla, eller vind.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/rodnad-kinder.webp',
-          image_alt: 'Bild av hud med ökad reaktivitet',
-          image_title: 'Ökad reaktivitet'
-      ),
-      new Symptom(
-          name: 'Torrhet runt ögonen, näsan eller munnen',
-          aka: 'Specifik torrhet',
-          content: 'Dessa områden är särskilt känsliga och kan visa tecken på torrhet och känslighet först.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/flagnande-hud-runt-munnen.webp',
-          image_alt: 'Bild av hud med torrhet runt ögonen, näsan eller munnen',
-          image_title: 'Torrhet runt ögonen, näsan eller munnen'
-      ),
-
 );
 
 $headline01 = "01. Identifiera din torra och känsliga hy";
