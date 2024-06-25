@@ -326,7 +326,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/rodnad.webp',
+          image: 'bilder/symptom/102x102/rodnad.webp',
           image_alt: 'Bild av hud med rodnad',
           image_title: 'Rödhet i huden'
       ),
@@ -339,7 +339,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/klada.webp',
+          image: 'bilder/symptom/102x102/klada.webp',
           image_alt: 'Bild av hud med klåda',
           image_title: 'Klåda'
       ),
@@ -352,7 +352,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/brannande-hy.webp',
+          image: 'bilder/symptom/102x102/brannande-hy.webp',
           image_alt: 'Bild av hud med brännande känsla',
           image_title: 'Brännande Känsla'
       ),
@@ -365,7 +365,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/hudflagor.webp',
+          image: 'bilder/symptom/102x102/hudflagor.webp',
           image_alt: 'Bild av hud med hudflagor eller fjällande hud',
           image_title: 'Hudflagor eller Fjällande Hud'
       ),
@@ -378,7 +378,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/sprickor.webp',
+          image: 'bilder/symptom/102x102/sprickor.webp',
           image_alt: 'Bild av hud med sprickor eller skåror',
           image_title: 'Sprickor eller Skåror'
       ),
@@ -391,7 +391,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/kanslighet-produkter.webp',
+          image: 'bilder/symptom/102x102/kanslighet-produkter.webp',
           image_alt: 'Bild av hud känslig för produkter',
           image_title: 'Känslighet för Produkter'
       ),
@@ -404,7 +404,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/stram-hy.webp',
+          image: 'bilder/symptom/102x102/stram-hy.webp',
           image_alt: 'Bild av hud med stramhet',
           image_title: 'Stramhet i huden'
       ),
@@ -417,7 +417,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/ojamn-hudtonwebp',
+          image: 'bilder/symptom/102x102/ojamn-hudtonwebp',
           image_alt: 'Bild av hud med ojämn ton eller hyperpigmentering',
           image_title: 'Ojämn hudton eller hyperpigmentering'
       ),
@@ -430,7 +430,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/knottror.webp',
+          image: 'bilder/symptom/102x102/knottror.webp',
           image_alt: 'Bild av hud med små knottror eller utslag',
           image_title: 'Små knottror eller utslag'
       ),
@@ -443,7 +443,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/reaktivitet.webp',
+          image: 'bilder/symptom/102x102/reaktivitet.webp',
           image_alt: 'Bild av hud med ökad reaktivitet',
           image_title: 'Ökad reaktivitet'
       ),
@@ -456,7 +456,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'images/symptoms/102x102/torrhet-ogon-nasa-mun.webp',
+          image: 'bilder/symptom/102x102/torrhet-ogon-nasa-mun.webp',
           image_alt: 'Bild av hud med torrhet runt ögonen, näsan eller munnen',
           image_title: 'Torrhet runt ögonen, näsan eller munnen'
       ),
