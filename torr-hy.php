@@ -318,8 +318,8 @@ $symptoms_title = 'Torr och känslig hy symptom';
 
 $symptoms = array(
       new Symptom(
-          name: 'Hudflagor eller Fjällande Hud',
-          aka: 'Desquamation',
+          name: 'Fjällande Hud',
+          aka: 'Hudflagor',
           content: 'Det är vanligt att se små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram.',
           
           url_label: null,
@@ -332,7 +332,7 @@ $symptoms = array(
       ),
       new Symptom(
           name: 'Rodnad',
-          aka: 'Hudrodnad',
+          aka: 'Rödflammig hud',
           content: 'Huden kan visa tecken på rodnad, särskilt efter exponering för väder eller kosmetiska produkter.',
           
           url_label: null,
@@ -345,7 +345,7 @@ $symptoms = array(
       ),
       new Symptom(
           name: 'Klåda',
-          aka: 'Pruritus',
+          aka: 'Irriterad hud',
           content: 'Torr och känslig hy kan vara mycket irriterande och klåda är en vanlig känsla.',
           
           url_label: null,
@@ -358,7 +358,7 @@ $symptoms = array(
       ),
       new Symptom(
           name: 'Brännande Känsla',
-          aka: 'Hudbränna',
+          aka: 'Stickande känsla',
           content: 'Det kan kännas som att huden bränner, särskilt efter applicering av hudvårdsprodukter eller exponering för vissa miljöfaktorer.',
           
           url_label: null,
@@ -383,8 +383,8 @@ $symptoms = array(
           image_title: 'Ökad reaktivitet'
       ),
       new Symptom(
-          name: 'Ojämn hudton eller hyperpigmentering',
-          aka: 'Ojämn hudfärg',
+          name: 'Ojämn hudton',
+          aka: 'Hyperpigmentering',
           content: 'I vissa fall kan torr och känslig hud leda till ojämn hudton eller mörka fläckar.',
           
           url_label: null,
