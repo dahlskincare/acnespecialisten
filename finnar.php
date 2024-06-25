@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Vad är finnar och ska man klämma dem? | AcneSpecialisten';
+$seo_title = 'Finnar | AcneSpecialisten';
 $seo_description = 'Här hittar du allt om finnar och hur man får bort dem. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan.';
 $seo_keywords = 'finnar, finnar ont, ta bort finnar, olika typer av finnar, vad innehåller en finne, få bort djupa finnar, vad är en finne';
 $seo_image = 'bilder/hudproblem/424x456/finnar.webp';
