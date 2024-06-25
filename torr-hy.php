@@ -417,22 +417,9 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/ojamn-hudtonwebp',
+          image: 'bilder/symptom/102x102/ojamn-hudton.webp',
           image_alt: 'Bild av hud med ojämn ton eller hyperpigmentering',
           image_title: 'Ojämn hudton eller hyperpigmentering'
-      ),
-      new Symptom(
-          name: 'Små knottror eller utslag',
-          aka: 'Hudknottror',
-          content: 'I vissa fall kan torr och känslig hy leda till små, icke-infekterade knottror på huden.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/knottror.webp',
-          image_alt: 'Bild av hud med små knottror eller utslag',
-          image_title: 'Små knottror eller utslag'
       ),
       new Symptom(
           name: 'Ökad reaktivitet',
