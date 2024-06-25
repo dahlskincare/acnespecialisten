@@ -320,7 +320,7 @@ $symptoms = array(
       new Symptom(
           name: 'Fjällande Hud',
           aka: 'Hudflagor',
-          content: 'Det är vanligt att se små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram. Fjällande hud uppstår när de yttre hudcellerna lossnar på grund av brist på fukt, vilket ofta resulterar i en grov och ojämn yta.',
+          content: 'Det är vanligt att få små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram. Fjällande hud uppstår när de yttre hudcellerna lossnar på grund av brist på fukt, vilket ofta resulterar i en grov och ojämn yta.',
           
           url_label: null,
           url: null,
