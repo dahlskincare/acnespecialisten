@@ -312,6 +312,7 @@ $type_categories = array(
       ),
 
 );
+*/
 
 $symptoms_title = 'Torr och känslig hy symptom';
 
@@ -461,7 +462,6 @@ $symptoms = array(
       ),
 
 );
-*/
 
 $headline01 = "01. Identifiera din torra och känsliga hy";
 
