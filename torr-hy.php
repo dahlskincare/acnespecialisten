@@ -339,7 +339,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/klada.webp',
+          image: 'bilder/symptom/102x102/klada-ansikte.webp',
           image_alt: 'Bild av hud med klåda',
           image_title: 'Klåda'
       ),
@@ -352,7 +352,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/brannande-hy.webp',
+          image: 'bilder/symptom/102x102/irriterad-hy.webp',
           image_alt: 'Bild av hud med brännande känsla',
           image_title: 'Brännande Känsla'
       ),
@@ -365,7 +365,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/hudflagor.webp',
+          image: 'bilder/symptom/102x102/flagnande-hud.webp',
           image_alt: 'Bild av hud med hudflagor eller fjällande hud',
           image_title: 'Hudflagor eller Fjällande Hud'
       ),
@@ -391,7 +391,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/kanslighet-produkter.webp',
+          image: 'bilder/symptom/102x102/kanslig-hy.webp',
           image_alt: 'Bild av hud känslig för produkter',
           image_title: 'Känslighet för Produkter'
       ),
@@ -443,7 +443,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/reaktivitet.webp',
+          image: 'bilder/symptom/102x102/rodnad-kinder.webp',
           image_alt: 'Bild av hud med ökad reaktivitet',
           image_title: 'Ökad reaktivitet'
       ),
@@ -456,7 +456,7 @@ $symptoms = array(
           url: null,
           url_title: null,
           
-          image: 'bilder/symptom/102x102/torrhet-ogon-nasa-mun.webp',
+          image: 'bilder/symptom/102x102/flagnande-hud-runt-munnen.webp',
           image_alt: 'Bild av hud med torrhet runt ögonen, näsan eller munnen',
           image_title: 'Torrhet runt ögonen, näsan eller munnen'
       ),
