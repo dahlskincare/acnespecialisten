@@ -370,19 +370,6 @@ $symptoms = array(
           image_title: 'Hudflagor eller Fjällande Hud'
       ),
       new Symptom(
-          name: 'Sprickor eller Skåror',
-          aka: 'Hudsprickor',
-          content: 'I mer allvarliga fall kan huden bli så torr att den spricker eller får små skåror, vilket kan vara mycket smärtsamt.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/sprickor.webp',
-          image_alt: 'Bild av hud med sprickor eller skåror',
-          image_title: 'Sprickor eller Skåror'
-      ),
-      new Symptom(
           name: 'Känslighet för Produkter',
           aka: 'Produktreaktion',
           content: 'En reaktion på kosmetika, tvål, eller andra hudvårdsprodukter är vanligt.',
