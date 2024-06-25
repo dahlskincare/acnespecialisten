@@ -320,7 +320,7 @@ $symptoms = array(
       new Symptom(
           name: 'Fjällande Hud',
           aka: 'Hudflagor',
-          content: 'Det är vanligt att se små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram.',
+          content: 'Det är vanligt att se små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram. Fjällande hud uppstår när de yttre hudcellerna lossnar på grund av brist på fukt, vilket ofta resulterar i en grov och ojämn yta.',
           
           url_label: null,
           url: null,
@@ -333,7 +333,7 @@ $symptoms = array(
       new Symptom(
           name: 'Rodnad',
           aka: 'Rödflammig hud',
-          content: 'Huden kan visa tecken på rodnad, särskilt efter exponering för väder eller kosmetiska produkter.',
+          content: 'Huden kan visa tecken på rodnad, särskilt efter exponering för väder eller kosmetiska produkter. Rodnad är ett tecken på inflammation eller irritation och kan vara lokaliserad i fläckar eller över större hudområden, vilket gör huden röd och känslig.',
           
           url_label: null,
           url: null,
@@ -346,7 +346,7 @@ $symptoms = array(
       new Symptom(
           name: 'Klåda',
           aka: 'Irriterad hud',
-          content: 'Torr och känslig hy kan vara mycket irriterande och klåda är en vanlig känsla.',
+          content: 'Torr och känslig hy kan vara mycket irriterande och klåda är en vanlig känsla. Klåda uppstår när huden är torr och inflammerad, vilket triggar kroppens reaktion att klia för att försöka lindra obehaget, men det kan leda till ytterligare irritation och skador.',
           
           url_label: null,
           url: null,
@@ -359,7 +359,7 @@ $symptoms = array(
       new Symptom(
           name: 'Brännande Känsla',
           aka: 'Stickande känsla',
-          content: 'Det kan kännas som att huden bränner, särskilt efter applicering av hudvårdsprodukter eller exponering för vissa miljöfaktorer.',
+          content: 'Det kan kännas som att huden bränner, särskilt efter applicering av hudvårdsprodukter eller exponering för vissa miljöfaktorer. Brännande känsla är ofta ett resultat av att hudens barriär är skadad och nervändarna blir mer känsliga, vilket leder till en obehaglig, brännande upplevelse.',
           
           url_label: null,
           url: null,
@@ -372,7 +372,7 @@ $symptoms = array(
       new Symptom(
           name: 'Ökad reaktivitet',
           aka: 'Reaktiv hud',
-          content: 'Huden kan reagera mer än normalt på väderförändringar, som värme, kyla, eller vind.',
+          content: 'Huden kan reagera mer än normalt på väderförändringar, som värme, kyla, eller vind. Ökad reaktivitet innebär att huden blir extra känslig och lätt inflammerad eller irriterad vid yttre påfrestningar, vilket kan resultera i rodnad, klåda och obehag.',
           
           url_label: null,
           url: null,
@@ -385,7 +385,7 @@ $symptoms = array(
       new Symptom(
           name: 'Ojämn hudton',
           aka: 'Hyperpigmentering',
-          content: 'I vissa fall kan torr och känslig hud leda till ojämn hudton eller mörka fläckar.',
+          content: 'I vissa fall kan torr och känslig hud leda till ojämn hudton eller mörka fläckar. Ojämn hudton uppstår när inflammatoriska processer påverkar pigmentproduktionen i huden, vilket kan orsaka hyperpigmentering eller fläckar med olika nyanser.',
           
           url_label: null,
           url: null,
