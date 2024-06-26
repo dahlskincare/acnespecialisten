@@ -38,9 +38,9 @@ $path_segments = [
                 </section>
                 <section id="image">
                     <picture>
-                        <source media="(max-width: 799px)" srcset="presentkort/small.webp">
-                        <source media="(min-width: 800px)" srcset="presentkort/large.webp">
-                        <img src="presentkort/small.webp" alt="Gift cards" title="Gift cards" width="360" height="274" />
+                        <source media="(max-width: 799px)" srcset="/bilder/studentrabatt/studentrabatt-liten.jpg">
+                        <source media="(min-width: 800px)" srcset="/bilder/studentrabatt/studentrabatt-stor.jpg">
+                        <img src="/bilder/studentrabatt/studentrabatt-liten.jpg" alt="Studentrabatt" title="Studentrabatt" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="flyers">

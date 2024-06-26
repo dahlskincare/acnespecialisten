@@ -222,7 +222,7 @@ if (form_completed()) {
                     <picture>
                         <source media="(max-width: 799px)" srcset="presentkort/small.webp">
                         <source media="(min-width: 800px)" srcset="presentkort/large.webp">
-                        <img src="presentkort/small.webp" alt="Gift cards" title="Gift cards" width="360" height="274" />
+                        <img src="presentkort/small.webp" alt="Presentkort" title="Presentkort" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="steps">
