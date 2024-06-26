@@ -147,7 +147,7 @@
                                     <a href="hudterapeut" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
                                 </li>
                                 <li>
-                                    <a href="karriar.php" target="_blank" title="Se våra lediga tjänster" rel="nofollow" class="button text grey compact l10n">Karriär</a>
+                                    <a href="karriar.php" class="button text grey compact l10n" title="Se våra lediga tjänster">Karriär</a>
                                 </li>
                             </ul>
                         </div>
@@ -392,7 +392,7 @@
                                             <a href="hudterapeut" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
                                         </li>
                                         <li>
-                                            <a href="https://skonhetsgruppen.teamtailor.com" target="_blank" title="Se våra lediga tjänster" rel="nofollow" class="button text grey compact l10n">Karriär</a>
+                                            <a href="karriar.php"class="button text grey compact l10n" title="Se våra lediga tjänster">Karriär</a>
                                         </li>
                                     </ul>
                                 </div>
