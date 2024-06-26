@@ -73,7 +73,7 @@ $path_segments = [
                                 Studentrabatten kan användas på alla våra kliniker för både enskilda behandlingar och kurer.
                             </div>
 
-                            <a href="/hudbehandlingar/" class="outline b200 expand l10n" title="Boka behandling">Se behandlingar</a>
+                            <a href="/hudbehandlingar/" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
