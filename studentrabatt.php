@@ -34,8 +34,7 @@ $path_segments = [
                 <section id="title">
                     <h1 class="l10n">Studentrabatt 20%</h1>
                     <p class="l10n">Just nu erbjuder vi 20% rabatt på alla våra behandlingar för dig som är student eller inte fyllt 18 ännu.</p>
-                    <div class="button b200 expand" onclick="document.querySelector('#steps').scrollIntoView()">Köp ett presentkort</div>
-                    <div class="button outline b200 expand" onclick="document.querySelector('#terms-modal-overlay').classList.remove('is-hidden')">Allmänna villkor</div>
+                    <a href="/hudbehandlingar/" class="button expand l10n" title="Boka behandling">Se behandlingar</a>
                 </section>
                 <section id="image">
                     <picture>
@@ -136,43 +135,6 @@ $path_segments = [
             </section>
         </div>
     </main>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="presentkort/gift-cards.js"></script>
-
-    <div id="terms-modal-overlay" class="is-hidden">
-        <div id="terms-modal">
-            <h2>Presentkortsvillkor</h2>
-            <ul class="p100">
-                <li><strong>Giltighetstid:</strong>
-                    <span>Presentkortet är giltigt i 1 år från köpdatumet.</span>
-                </li>
-                <li>
-                    <strong>Återbetalningspolicy:</strong>
-                    <span>En ångerrätt på 30 dagar efter köpdatumet tillämpas.</span>
-                </li>
-                <li>
-                    <strong>Inlösen:</strong>
-                    <span>Presentkortet kan inte bytas in mot kontanter.</span>
-                </li>
-                <li>
-                    <strong>Leveransform:</strong>
-                    <span>Presentkortet levereras digitalt och eller fysiskt via post om så önskas.</span>
-                </li>
-                <li>
-                    <strong>Moms:</strong>
-                    <span>Inget moms tillkommer på värdet av presentkortet.</span>
-                </li>
-                <li>
-                    <strong>Kontaktinformation:</strong>
-                    <span>Fullständig kontaktinformation finns på vår kontaktsida, inklusive e-post och telefonnummer.</span>
-                </li>
-            </ul>
-            <p>Presentkortet kan användas för tjänster hos någon av våra kliniker. För ytterligare information och detaljer, vänligen referera till våra presentkortsvillkor på hemsidan.</p>
-            <p>AcneSpecialisten Sverige AB</p>
-            <p>Organisationsnummer: 556530-0695</p>
-            <button class="button round-small outline" onclick="document.querySelector('#terms-modal-overlay').classList.add('is-hidden')"><?php icon('close') ?></button>
-        </div>
-    </div>
 
 </body>
 
