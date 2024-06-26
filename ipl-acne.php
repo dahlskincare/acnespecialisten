@@ -3,6 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $path_segments = array(
+    new PathSegment('Hudguide', '/hudguide/'),
     new PathSegment('IPL Acne', '/ipl-acne.php'),
 );
 
