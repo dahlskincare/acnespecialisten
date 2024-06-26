@@ -45,18 +45,18 @@ $path_segments = [
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Välj Belopp eller Behandling</div>
+                        <div class="h500 is-hidden-desktop l10n">Alla våra hudvårdsbehandlingar</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/konsultation.webp">
                             <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/konsultation.webp">
                             <img src="bilder/behandlingar/358x274/konsultation.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
+                            <div class="gcf-header is-hidden-touch l10n">Alla våra hudvårdsbehandlingar</div>
                             <div class="gcf-text l10n">
-                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål.
+                                Studentrabatten går att använda på alla våra hudvårdsbehandlingar. Detta inkluderar inte frisör, naglar, ögonbron eller injektionsbehandlingar.
                             </div>
-                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
+                            <a href="/hudbehandlingar/" class="button white expand l10n" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
@@ -70,10 +70,10 @@ $path_segments = [
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Fungerar på Alla Våra Kliniker</div>
                             <div class="gcf-text l10n">
-                                Våra presentkort är utformade för ultimat flexibilitet och kan användas på alla AcneSpecialistens kliniker. Oavsett vilken av våra lokaler mottagaren väljer att besöka, kan presentkortet lösas in hos någon av våra kvalificerade hudterapeuter. Presentkortet kan användas för alla våra expertbehandlingar vilket ger mottagaren friheten att välja den upplevelse som passar dem bäst.
+                                Studentrabatten kan användas på alla våra kliniker för både enskilda behandlingar och kurer.
                             </div>
 
-                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
+                            <a href="/hudbehandlingar/" class="button white expand l10n" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
