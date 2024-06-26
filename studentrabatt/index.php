@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/path_segment.php');
 $path_segments = [
-    new PathSegment('Om oss', 'om-oss.php'),
+    new PathSegment('Studentrabatt', '/studentrabatt/'),
 ];
 ?>
 <!DOCTYPE html>
@@ -10,12 +10,12 @@ $path_segments = [
 
 <head>
 
-    <link rel="canonical" href="https://www.acnespecialisten.se/presentkort.php" />
+    <link rel="canonical" href="https://www.acnespecialisten.se/studentrabatt/" />
       
-    <title class="l10n">Digitalt presentkort på hudvård & skönhet</title>
-    <meta name="title" content="Digitalt presentkort på hudvård & skönhet" class="l10n">
-    <meta name="description" content="Ge bort skönhet med ett digitalt presentkort. Perfekt för hudvård, ansiktsbehandlingar och mer. Skicka kärlek online med ett klick!" class="l10n">
-    <meta name="keywords" content="presentkort, presentkort hudvård, digitalt presentkort, skicka digitalt presentkort, presentkort online, skicka presentkort online" class="l10n">
+    <title class="l10n">Studentrabatt | AcneSpecialisten</title>
+    <meta name="title" content="Studentrabatt | AcneSpecialisten" class="l10n">
+    <meta name="description" content="Vi erbjuder 20% rabatt på alla våra behandlingar för dig som är student eller som inte fyllt 18 ännu." class="l10n">
+    <meta name="keywords" content="studentrabatt" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
