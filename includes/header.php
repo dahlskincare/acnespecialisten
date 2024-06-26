@@ -115,9 +115,9 @@
 <header>
     <div id="important-notice">
         <div>
-            <span class="important-notice-highlight">0 kronor</span>
-            <span>Boka en Gratis Hudkonsultation</span>
-            <a href="gratis-hudkonsultation.php" title="behandlingar">Boka här</a>
+            <span class="important-notice-highlight">20%</span>
+            <span>Studentrabatt</span>
+            <a href="studentrabatt.php" title="Studentrabatt">Läs mer</a>
         </div>
     </div>
     <div class="container">
