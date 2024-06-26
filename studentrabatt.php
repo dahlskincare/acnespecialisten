@@ -45,22 +45,6 @@ $path_segments = [
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Välj Belopp eller Behandling</div>
-                        <picture>
-                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/konsultation.webp">
-                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/konsultation.webp">
-                            <img src="bilder/behandlingar/358x274/konsultation.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
-                        </picture>
-                        <div>
-                            <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
-                            <div class="gcf-text l10n">
-                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål.
-                            </div>
-                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
-                        </div>
-
-                    </div>
-                    <div class="gift-card-flyer">
                         <div class="h500 is-hidden-desktop l10n">Fungerar på Alla Våra Kliniker</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp">
