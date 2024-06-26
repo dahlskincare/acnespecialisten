@@ -56,7 +56,7 @@ $path_segments = [
                             <div class="gcf-text l10n">
                                 Studentrabatten går att använda på alla våra hudvårdsbehandlingar. Detta inkluderar inte frisör, naglar, ögonbron eller injektionsbehandlingar.
                             </div>
-                            <a href="/hudbehandlingar/" class="outline b200 expand l10n" title="Boka behandling">Se behandlingar</a>
+                            <a href="/hudbehandlingar/" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
