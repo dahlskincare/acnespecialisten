@@ -32,8 +32,8 @@ $path_segments = [
         <div class="container">
             <div id="content">
                 <section id="title">
-                    <h1 class="l10n">Studentrabatt 20%</h1>
-                    <p class="l10n">Just nu erbjuder vi 20% rabatt på alla våra behandlingar för dig som är student eller inte fyllt 18 ännu.</p>
+                    <h1 class="l10n">Studentrabatt & ungdomsrabatt - 20%</h1>
+                    <p class="l10n">Vi erbjuder 20% rabatt på alla våra behandlingar för dig som är student eller som inte fyllt 18 ännu.</p>
                     <a href="/hudbehandlingar/" class="button expand l10n" title="Boka behandling">Se behandlingar</a>
                 </section>
                 <section id="image">
