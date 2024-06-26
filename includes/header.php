@@ -116,7 +116,7 @@
     <div id="important-notice">
         <div>
             <span class="important-notice-highlight">20%</span>
-            <span>Studentrabatt & ungdomsrabatt</span>
+            <span>Studentrabatt</span>
             <a href="/studentrabatt/" title="Studentrabatt">Läs mer</a>
         </div>
     </div>
