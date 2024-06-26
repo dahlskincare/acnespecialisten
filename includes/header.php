@@ -117,7 +117,7 @@
         <div>
             <span class="important-notice-highlight">20%</span>
             <span>Studentrabatt & ungdomsrabatt</span>
-            <a href="studentrabatt.php" title="Studentrabatt">Läs mer</a>
+            <a href="/studentrabatt/" title="Studentrabatt">Läs mer</a>
         </div>
     </div>
     <div class="container">
