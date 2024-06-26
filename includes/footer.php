@@ -42,8 +42,8 @@
                     <a class="l10n" href="mailto:hej@acnespecialisten.se" title="email">hej@acnespecialisten.se</a>
                 </div>
                 <div id="buttons">
-                    <button class="grey l10n">Ring</button>
-                    <button class="grey l10n">Melja</button>
+                    <a href="tel:+4608296101" title="+4608296101"><button class="grey l10n">Ring</button></a>
+                    <a href="mailto:hej@acnespecialisten.se" title="hej@acnespecialisten.se"><button class="grey l10n">Melja</button></a>
                 </div>
             </div>
             <div id="footer-salon-cards">
