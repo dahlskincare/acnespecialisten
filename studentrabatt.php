@@ -45,6 +45,22 @@ $path_segments = [
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
+                        <div class="h500 is-hidden-desktop l10n">Välj Belopp eller Behandling</div>
+                        <picture>
+                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/konsultation.webp">
+                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/konsultation.webp">
+                            <img src="bilder/behandlingar/358x274/konsultation.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
+                        </picture>
+                        <div>
+                            <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
+                            <div class="gcf-text l10n">
+                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål.
+                            </div>
+                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
+                        </div>
+
+                    </div>
+                    <div class="gift-card-flyer">
                         <div class="h500 is-hidden-desktop l10n">Fungerar på Alla Våra Kliniker</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp">
@@ -61,22 +77,7 @@ $path_segments = [
                         </div>
 
                     </div>
-                    <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Välj Belopp eller Behandling</div>
-                        <picture>
-                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/konsultation.webp">
-                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/konsultation.webp">
-                            <img src="bilder/behandlingar/358x274/konsultation.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
-                        </picture>
-                        <div>
-                            <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
-                            <div class="gcf-text l10n">
-                                På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål.
-                            </div>
-                            <button class="outline b200 expand l10n" onclick="document.querySelector('#steps').scrollIntoView()">Beställ ett presentkort</button>
-                        </div>
 
-                    </div>
                 </section>
             </div>
             <section id="cta" class="large-margin">
@@ -95,20 +96,6 @@ $path_segments = [
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
-            </section>
-            <section id="faq" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Frågor & svar</h2>
-                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
-                        <span class="l10n">Se alla frågor</span>
-                        <?php icon('navigate-next') ?>
-                    </a>
-                </div>
-                <?php
-                $faq_categories = null;
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php');
-                ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
             <!--Hudguide-->
             <section id="specialists" class="large-margin">
@@ -135,7 +122,7 @@ $path_segments = [
             </section>
         </div>
     </main>
-
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
 </body>
 
 </html>
