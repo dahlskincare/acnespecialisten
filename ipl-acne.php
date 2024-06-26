@@ -2,6 +2,10 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
+$path_segments = array(
+    new PathSegment('IPL Acne', '/ipl-acne.php'),
+);
+
 $article = new SkinGuideArticle(
     url: 'ipl-acne.php',
     url_title: 'IPL Acne',
@@ -21,7 +25,7 @@ $article = new SkinGuideArticle(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/ipl-acne.php" />
-      
+
     <title class="l10n">IPL mot acne | AcneSpecialisten</title>
     <meta name="title" content="IPL mot acne | AcneSpecialisten" class="l10n">
     <meta name="description" content="Läs mer om IPL mot acne med laser. Boka in en kostnadsfri konsultation där vi tar fram en personlig behandlingsplan →" class="l10n">
@@ -35,14 +39,7 @@ $article = new SkinGuideArticle(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <section id="desktop-breadcrumbs" class="is-hidden-desktop">
