@@ -93,7 +93,7 @@ $path_segments = [
                                     </div>
                                     <div>Identifiera</div>
                                 </div>
-                                <div class="treatment-step-content">På Acnespecialisten inleder vi din hudvårdsresa med en gratis hudkonsultation på klinik eller online. Under denna session identifierar våra experter din hudtyp och eventuella hudproblem. Denna noggranna analys är grunden för att skapa en effektiv och personligt anpassad behandlingsplan.</div>
+                                <div class="treatment-step-content">Din hudvårdsresa börjar med en gratis hudkonsultation på någon av våra kliniker eller online. Under besöket får du träffa en av våra hudterapeuter som analyserar din hudtyp och skapar en personlig behandlingpslan för just dig.</div>
                             </div>
                                 <a href="gratis-hudkonsultation.php" class="button grey expand is-hidden-tablet" title="Boka gratis en konsultation">Boka en gratis konsultation</a>
                                 <a href="gratis-hudkonsultation.php" class="button b200 text compact is-hidden-mobile" title="Boka en gratis konsultation">Boka en gratis konsultation</a>
@@ -107,7 +107,7 @@ $path_segments = [
                                     </div>
                                     <div>Behandla</div>
                                 </div>
-                                <div class="treatment-step-content">Efter att vi har identifierat ditt specifika hudproblem, går vi vidare till nästa steg – att inleda behandlingen med den metod som bäst passar just ditt tillstånd. Valet av behandlingsmetod baseras på problemets art och dina individuella behov.</div>
+                                <div class="treatment-step-content">När vi identifierat dina hudproblem utför vi den behandlng som passar bäst för just ditt hudtillstånd. Behandlingsmetod väljs ut baserat på dina individuella behov.</div>
                             </div>
                                 <a href="/hudbehandlingar" class="button grey expand is-hidden-tablet" title="Se våra behandlingar">Se våra behandlingar</a>
                                 <a href="/hudbehandlingar" class="button b200 text compact is-hidden-mobile" title="Se våra behandlingar">Se våra behandlingar</a>
@@ -121,7 +121,7 @@ $path_segments = [
                                     </div>
                                     <div>Förebygg</div>
                                 </div>
-                                <div class="treatment-step-content">För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.</div>
+                                <div class="treatment-step-content">Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att behandla och förebygga ditt hudproblem.</div>
                             </div>
                                 <a href="https://dahlskincare.se" class="button grey expand is-hidden-tablet" title="Se produkterna">Se produkterna</a>
                                 <a href="https://dahlskincare.se" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Se produkterna</a>
@@ -135,7 +135,7 @@ $path_segments = [
                                     </div>
                                     <div>Reparera</div>
                                 </div>
-                                <div class="treatment-step-content">I det sista steget i vår metod tar vi hand om eventuella återstående effekter av hudproblem, såsom ärr och pigmentförändringar. Vi erbjuder effektiva behandlingar för att reparera och återställa huden, och ge dig en hälsosam och strålande hy.</div>
+                                <div class="treatment-step-content">När du blivit av med ditt hudproblem är det dags att återställa de skador som orsakats på din hy såsom ärr och pigmenteringar. Vi erbjuder de senaste metoderna för att reparera och återställa din hy.</div>
                             </div>
                                 <a href="behandla-acnearr.php" class="button grey expand is-hidden-tablet" title="Läs mer om eftervård">Läs mer om eftervård</a>
                                 <a href="behandla-acnearr.php" class="button b200 text compact is-hidden-mobile" title="Läs mer om eftervård">Läs mer om eftervård</a>
