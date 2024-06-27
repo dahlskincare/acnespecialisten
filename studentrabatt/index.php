@@ -80,6 +80,78 @@ $path_segments = [
 
                 </section>
             </div>
+            <section id="approach">
+                              <h2 class="h500 l10n">Metoden</h2>
+                              <hr class="mt-xl mb-xl3 is-hidden-mobile">
+                              <div class="columns is-variable is-2">
+                                    <div class="column"><div class="treatment-step-card-widget">
+    <div>
+        <div class="treatment-step-title">
+            <div class="index-circle">
+                <span>0</span>
+                <span>
+                    1                </span>
+            </div>
+            <div>
+                Identifiera            </div>
+        </div>
+        <div class="treatment-step-content">
+            Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.        </div>
+    </div>
+    <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button grey expand is-hidden-tablet" title="Boka gratis konsultation">Boka gratis konsultation</a>
+    <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Boka gratis konsultation</a>
+</div></div><div class="column"><div class="treatment-step-card-widget">
+    <div>
+        <div class="treatment-step-title">
+            <div class="index-circle">
+                <span>0</span>
+                <span>
+                    2                </span>
+            </div>
+            <div>
+                Behandla            </div>
+        </div>
+        <div class="treatment-step-content">
+            Vi utför grundliga och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.        </div>
+    </div>
+    <a href="https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne" title="Utforska våra skräddarsydda aknebehandlingar" class="button grey expand is-hidden-tablet" title="Se aknebehandlingar">Se aknebehandlingar</a>
+    <a href="https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne" title="Utforska våra skräddarsydda aknebehandlingar" class="button b200 text compact is-hidden-mobile" title="Se aknebehandlingar">Se aknebehandlingar</a>
+</div></div><div class="column"><div class="treatment-step-card-widget">
+    <div>
+        <div class="treatment-step-title">
+            <div class="index-circle">
+                <span>0</span>
+                <span>
+                    3                </span>
+            </div>
+            <div>
+                Förebygga            </div>
+        </div>
+        <div class="treatment-step-content">
+            Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny akne och hålla din hud i balans.        </div>
+    </div>
+    <a href="https://dahlskincare.se/produktkategorier/produktpaket/akne" title="Hitta de bästa produkterna för att förebygga akne" class="button grey expand is-hidden-tablet" title="Se produkter">Se produkter</a>
+    <a href="https://dahlskincare.se/produktkategorier/produktpaket/akne" title="Hitta de bästa produkterna för att förebygga akne" class="button b200 text compact is-hidden-mobile" title="Se produkter">Se produkter</a>
+</div></div><div class="column"><div class="treatment-step-card-widget">
+    <div>
+        <div class="treatment-step-title">
+            <div class="index-circle">
+                <span>0</span>
+                <span>
+                    4                </span>
+            </div>
+            <div>
+                Reparera            </div>
+        </div>
+        <div class="treatment-step-content">
+            När aknen är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.        </div>
+    </div>
+    <a href="behandla-acnearr.php" title="Upptäck effektiva behandlingar för akneärr" class="button grey expand is-hidden-tablet" title="Se ärrbehandlingar">Se ärrbehandlingar</a>
+    <a href="behandla-acnearr.php" title="Upptäck effektiva behandlingar för akneärr" class="button b200 text compact is-hidden-mobile" title="Se ärrbehandlingar">Se ärrbehandlingar</a>
+</div></div>                              </div>
+                              <hr class="mt-xl3 is-hidden-mobile">
+                              <a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>
+            </section>
             <section id="cta" class="large-margin">
                 <div id="cta-banner-texts">
                     <div class="l10n" id="cta-banner-header">Vill du ha hjälp med din hy?</div>
