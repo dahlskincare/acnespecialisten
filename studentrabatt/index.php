@@ -68,7 +68,7 @@ $path_segments = [
                             <img src="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på Alla Våra Kliniker" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Fungerar på Alla Våra Kliniker</div>
+                            <div class="gcf-header is-hidden-touch l10n">Alla våra kliniker</div>
                             <div class="gcf-text l10n">
                                 Studentrabatten kan användas på alla våra kliniker för både enskilda behandlingar och kurer.
                             </div>
