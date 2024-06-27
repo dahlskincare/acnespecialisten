@@ -93,7 +93,7 @@ $path_segments = [
                                     </div>
                                     <div>Identifiera</div>
                                 </div>
-                                <div class="treatment-step-content">Din hudvårdsresa börjar med en gratis hudkonsultation på någon av våra kliniker eller online. Under besöket får du träffa en av våra hudterapeuter som analyserar din hudtyp och skapar en personlig behandlingpslan för just dig.</div>
+                                <div class="treatment-step-content">Din hudvårdsresa börjar med en gratis hudkonsultation på klinik eller online. Under besöket får du träffa en av våra hudterapeuter som analyserar din hudtyp och skapar en personlig behandlingpslan för just dig.</div>
                             </div>
                                 <a href="gratis-hudkonsultation.php" class="button grey expand is-hidden-tablet" title="Boka gratis en konsultation">Boka en gratis konsultation</a>
                                 <a href="gratis-hudkonsultation.php" class="button b200 text compact is-hidden-mobile" title="Boka en gratis konsultation">Boka en gratis konsultation</a>
