@@ -342,45 +342,142 @@ $articles = array(
 );
 
 $results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
-            )
-      ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            )
-      ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-1.jpg',
+        image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-1.jpg',
+        image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-1.jpg',
+        image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-1.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-2.jpg',
+        image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-2.jpg',
+        image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-2.jpg',
+        image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-2.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-3.jpg',
+        image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-3.jpg',
+        image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-3.jpg',
+        image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-3.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-4.jpg',
+        image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-4.jpg',
+        image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-4.jpg',
+        image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-4.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
 );
 
 $show_all_results_label = "Se fler resultat";
