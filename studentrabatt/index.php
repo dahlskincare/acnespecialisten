@@ -112,6 +112,20 @@ $path_segments = [
                                 <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button grey expand is-hidden-tablet" title="Boka gratis konsultation">Boka gratis konsultation</a>
                                 <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Boka gratis konsultation</a>
                         </div></div>
+                        <div class="column"><div class="treatment-step-card-widget">
+                            <div>
+                                <div class="treatment-step-title">
+                                    <div class="index-circle">
+                                        <span>0</span>
+                                        <span>1</span>
+                                    </div>
+                                    <div>Identifiera</div>
+                                </div>
+                                <div class="treatment-step-content">Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.</div>
+                            </div>
+                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button grey expand is-hidden-tablet" title="Boka gratis konsultation">Boka gratis konsultation</a>
+                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Boka gratis konsultation</a>
+                        </div></div>
                     </div>
                 </section>
             </div>
