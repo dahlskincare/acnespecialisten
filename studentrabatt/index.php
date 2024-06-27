@@ -33,7 +33,7 @@ $path_segments = [
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Studentrabatt & ungdomsrabatt - 20%</h1>
-                    <p class="l10n">Vi erbjuder 20% rabatt på alla våra behandlingar för dig som är student eller som inte fyllt 18 ännu. Allt du behöver göra är att boka valfri behandling och sedan uppvisa ditt mecenatkort via appen så drar vi av 20% under ditt besök.</p>
+                    <p class="l10n">Vi erbjuder 20% rabatt på alla våra behandlingar för dig som är student eller som inte fyllt 18 ännu. Allt du behöver göra är att boka valfri behandling och sedan uppvisa ditt mecenatkort via appen så drar vi av 20% på ditt besök.</p>
                     <a href="/hudbehandlingar/" class="button expand l10n" title="Boka behandling">Se behandlingar</a>
                 </section>
                 <section id="image">
