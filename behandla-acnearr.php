@@ -130,42 +130,173 @@ $services = array(
 $results_title = 'Behandla acneärr före och efter resultat';
 $results = array(
     new ResultCustomer(
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-        image_before_title: 'Person som har akne',
-        image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
-        image_after_title: 'Person som är aknefri',
-        image_after_alt: 'Ansiktet på en person som behandlat svår akne och blivit av med den, efterbild',
+        url: '',
+        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-1.jpg',
+        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-1.jpg',
+        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-1.jpg',
+        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-1.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
         )
     ),
     new ResultCustomer(
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-        image_before_title: 'Person som har akne',
-        image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
-        image_after_title: 'Person som är aknefri',
-        image_after_alt: 'Ansiktet på en person som behandlat akne och blivit av med den, efterbild',
+        url: '',
+        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-2.jpg',
+        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-2.jpg',
+        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-2.jpg',
+        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-2.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Akne">Akne</a>',
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
         )
     ),
     new ResultCustomer(
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-        image_before_title: 'Person som har rosacea',
-        image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
-        image_after_title: 'Person som är rosaceafri',
-        image_after_alt: 'Ansiktet på en person som behandlat rosacea och blivit av med den, efterbild',
+        url: '',
+        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-3.jpg',
+        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-3.jpg',
+        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-3.jpg',
+        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-3.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
-            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-4.jpg',
+        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-4.jpg',
+        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-4.jpg',
+        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-4.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-5.jpg',
+        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-5.jpg',
+        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-5.jpg',
+        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-5.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
         )
     ),
 );
