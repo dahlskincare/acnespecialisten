@@ -491,6 +491,108 @@ $results = array(
             ),
         )
     ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/microneedling/resultat-microneedling-fore-3.jpg',
+        image_after_small: '/bilder/resultat/microneedling/resultat-microneedling-efter-3.jpg',
+        image_before_large: '/bilder/resultat/microneedling/resultat-microneedling-fore-3.jpg',
+        image_after_large: '/bilder/resultat/microneedling/resultat-microneedling-efter-3.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/microneedling/resultat-microneedling-fore-4.jpg',
+        image_after_small: '/bilder/resultat/microneedling/resultat-microneedling-efter-4.jpg',
+        image_before_large: '/bilder/resultat/microneedling/resultat-microneedling-fore-4.jpg',
+        image_after_large: '/bilder/resultat/microneedling/resultat-microneedling-efter-4.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/microneedling/resultat-microneedling-fore-5.jpg',
+        image_after_small: '/bilder/resultat/microneedling/resultat-microneedling-efter-5.jpg',
+        image_before_large: '/bilder/resultat/microneedling/resultat-microneedling-fore-5.jpg',
+        image_after_large: '/bilder/resultat/microneedling/resultat-microneedling-efter-5.jpg',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+            duration: '',
+            procedures: array(
+                new ResultProcedure(
+                    image: '',
+                    name: '',
+                    count: ''
+                ),
+            ),
+            product: new ResultProduct(
+                image: '',
+                name: '',
+            ),
+            employee: new ResultEmployee(
+                image: '',
+                name: ''
+            ),
+        )
+    ),
 );
 
 $reviews_title = 'Omdömen';
