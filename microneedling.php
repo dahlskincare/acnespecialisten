@@ -425,10 +425,10 @@ $results_title = 'Microneedling före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-        image_after_small: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        image_before_small: '/bilder/resultat/microneedling/resultat-microneedling-fore-1.jpg',
+        image_after_small: '/bilder/resultat/microneedling/resultat-microneedling-efter-1.jpg',
+        image_before_large: '/bilder/resultat/microneedling/resultat-microneedling-fore-1.jpg',
+        image_after_large: '/bilder/resultat/microneedling/resultat-microneedling-efter-1.jpg',
         url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
@@ -454,74 +454,6 @@ $results = array(
             employee: new ResultEmployee(
                 image: '',
                 name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-        image_after_small: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-        url_title: 'Akne resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 18,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Akne">Akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-        url_title: 'Rosacea resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 33,
-        gender: 'Kvinna',
-        problem: 'Rosacea',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Rosaceabehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår rosacea',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
             ),
         )
     ),
