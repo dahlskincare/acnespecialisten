@@ -47,9 +47,9 @@ $path_segments = [
                     <div class="gift-card-flyer">
                         <div class="h500 is-hidden-desktop l10n">Alla våra hudvårdsbehandlingar</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/konsultation.webp">
-                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/konsultation.webp">
-                            <img src="bilder/behandlingar/358x274/konsultation.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/358x274/ansiktsbehandling.jpg">
+                            <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/424x456/ansiktsbehandling.jpg">
+                            <img src="/bilder/studentrabatt/358x274/ansiktsbehandling.jpg" alt="Alla våra hudvårdsbehandlingar" title="Alla våra hudvårdsbehandlingar" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Alla våra hudvårdsbehandlingar</div>
@@ -61,11 +61,11 @@ $path_segments = [
 
                     </div>
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Fungerar på Alla Våra Kliniker</div>
+                        <div class="h500 is-hidden-desktop l10n">Alla våra kliniker</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp">
-                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp">
-                            <img src="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på Alla Våra Kliniker" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/358x274/ansiktsbehandling-mask.jpg">
+                            <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/424x456/ansiktsbehandling-mask.jpg">
+                            <img src="/bilder/studentrabatt/358x274/ansiktsbehandling-mask.jpg" alt="Alla Våra Kliniker" title="Alla våra kliniker" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Alla våra kliniker</div>
