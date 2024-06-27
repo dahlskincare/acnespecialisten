@@ -15,7 +15,7 @@ $steps = array(
         image_large: 'bilder/hudbehandlingar/424x456/konsultation.webp',
         url: 'gratis-hudkonsultation.php',
         url_label: 'Boka en gratis konsultation',
-        url_title: 'Boka en gratis hudkonsultation hos Acnespecialisten',
+        url_title: 'Boka en gratis hudkonsultation hos AcneSpecialisten',
     ),
     new StepModel(
         title: '02. Behandla',
@@ -32,8 +32,8 @@ $steps = array(
         image_small: 'bilder/hudbehandlingar/358x274/produkter.webp',
         image_large: 'bilder/hudbehandlingar/424x456/produkter.webp',
         url: 'https://dahlskincare.se',
-        url_label: 'Upptäck våra produkter',
-        url_title: 'Besök vår webbshop',
+        url_label: 'Upptäck produkterna',
+        url_title: 'Se produkterna',
         url_target: '_blank',
     ),
     new StepModel(

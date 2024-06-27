@@ -93,38 +93,52 @@ $path_segments = [
                                     </div>
                                     <div>Identifiera</div>
                                 </div>
-                                <div class="treatment-step-content">Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.</div>
+                                <div class="treatment-step-content">På Acnespecialisten inleder vi din hudvårdsresa med en gratis hudkonsultation på klinik eller online. Under denna session identifierar våra experter din hudtyp och eventuella hudproblem. Denna noggranna analys är grunden för att skapa en effektiv och personligt anpassad behandlingsplan.</div>
                             </div>
-                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button grey expand is-hidden-tablet" title="Boka gratis konsultation">Boka gratis konsultation</a>
-                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Boka gratis konsultation</a>
+                                <a href="gratis-hudkonsultation.php" class="button grey expand is-hidden-tablet" title="Boka gratis en konsultation">Boka en gratis konsultation</a>
+                                <a href="gratis-hudkonsultation.php" class="button b200 text compact is-hidden-mobile" title="Boka en gratis konsultation">Boka en gratis konsultation</a>
                         </div></div>
                         <div class="column"><div class="treatment-step-card-widget">
                             <div>
                                 <div class="treatment-step-title">
                                     <div class="index-circle">
                                         <span>0</span>
-                                        <span>1</span>
+                                        <span>2</span>
                                     </div>
-                                    <div>Identifiera</div>
+                                    <div>Behandla</div>
                                 </div>
-                                <div class="treatment-step-content">Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.</div>
+                                <div class="treatment-step-content">Efter att vi har identifierat ditt specifika hudproblem, går vi vidare till nästa steg – att inleda behandlingen med den metod som bäst passar just ditt tillstånd. Valet av behandlingsmetod baseras på problemets art och dina individuella behov.</div>
                             </div>
-                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button grey expand is-hidden-tablet" title="Boka gratis konsultation">Boka gratis konsultation</a>
-                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Boka gratis konsultation</a>
+                                <a href="/hudbehandlingar" class="button grey expand is-hidden-tablet" title="Se våra behandlingar">Se våra behandlingar</a>
+                                <a href="/hudbehandlingar" class="button b200 text compact is-hidden-mobile" title="Se våra behandlingar">Se våra behandlingar</a>
                         </div></div>
                         <div class="column"><div class="treatment-step-card-widget">
                             <div>
                                 <div class="treatment-step-title">
                                     <div class="index-circle">
                                         <span>0</span>
-                                        <span>1</span>
+                                        <span>3</span>
                                     </div>
-                                    <div>Identifiera</div>
+                                    <div>Förebygg</div>
                                 </div>
-                                <div class="treatment-step-content">Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din aknetyp och skapar en individuell behandlingsplan.</div>
+                                <div class="treatment-step-content">För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.</div>
                             </div>
-                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button grey expand is-hidden-tablet" title="Boka gratis konsultation">Boka gratis konsultation</a>
-                                <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka din kostnadsfria hudkonsultation idag" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Boka gratis konsultation</a>
+                                <a href="https://dahlskincare.se" class="button grey expand is-hidden-tablet" title="Se produkterna">Se produkterna</a>
+                                <a href="https://dahlskincare.se" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Se produkterna</a>
+                        </div></div>
+                        <div class="column"><div class="treatment-step-card-widget">
+                            <div>
+                                <div class="treatment-step-title">
+                                    <div class="index-circle">
+                                        <span>0</span>
+                                        <span>4</span>
+                                    </div>
+                                    <div>Reparera</div>
+                                </div>
+                                <div class="treatment-step-content">I det sista steget i vår metod tar vi hand om eventuella återstående effekter av hudproblem, såsom ärr och pigmentförändringar. Vi erbjuder effektiva behandlingar för att reparera och återställa huden, och ge dig en hälsosam och strålande hy.</div>
+                            </div>
+                                <a href="behandla-acnearr.php" class="button grey expand is-hidden-tablet" title="Läs mer om eftervård">Läs mer om eftervård</a>
+                                <a href="behandla-acnearr.php" class="button b200 text compact is-hidden-mobile" title="Läs mer om eftervård">Läs mer om eftervård</a>
                         </div></div>
                     </div>
                 </section>
