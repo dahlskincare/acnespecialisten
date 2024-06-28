@@ -82,13 +82,13 @@ $top_articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina Pigmentfläckar";
+$headline01 = "01. Identifiera dina åldersfläckar";
 
 $service = new Service(
-      title: 'Konsultation för Pigmentfläckar och Hudfläckar',
+      title: 'Konsultation för åldersfläckar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en specialist inom pigmenteringar och hudfläckar genomförs en detaljerad analys av dina specifika pigmentfläckar. Vi fotograferar de berörda områdena och går igenom dina mål och förväntningar.',
+      content: 'Under en personlig konsultation med en specialist genomförs en detaljerad analys av dina åldersfläckar. Vi fotograferar de berörda områdena och går igenom dina mål och förväntningar.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av pigmentfläckar och hudfläckar',
@@ -104,11 +104,11 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för pigmentfläckar och hudfläckar'
 );
 
-$headline02 = "02. Behandlingar mot pigmentfläckar";
+$headline02 = "02. Behandlingar mot åldersfläckar";
 
 $services = array(
       new Service(
-            title: 'IPL-behandling för Pigmentfläckar',
+            title: 'IPL-behandling för åldersfläckar',
             duration: '60 min',
             price: '2595 kr',
             content: 'IPL-behandling använder ljuspulser för att bryta ner melanin i pigmentfläckar, vilket gör att de bleknar eller försvinner.',
