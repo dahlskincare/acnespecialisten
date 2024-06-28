@@ -71,7 +71,6 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot åldersfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot åldersfläckar</a>';
 
-
 $top_articles = array(
       'areas' => new Article(
             title: 'Var uppstår åldersfläckar och varför?',
@@ -80,6 +79,110 @@ $top_articles = array(
             image_alt: '',
             image_title: '',
             content: '<p class="p200">Åldersfläckar i ansiktet är vanligt på grund av dess frekventa exponering av sol, de kan uppstå på både händerna och armarna av samma anledning. Denna hyperpigmentering är ett resultat av ökad melaninproduktion, det pigment som ger hud dess färg, vilket ofta orsakas av långvarig exponering för UV-strålar från solen. Hudens naturliga åldringsprocess bidrar också, då dess förmåga att återhämta sig från solskador minskar över tiden.</p>',
+      ),
+);
+
+$headline01 = "01. Identifiera dina Pigmentfläckar";
+
+$service = new Service(
+      title: 'Konsultation för Pigmentfläckar och Hudfläckar',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Under en personlig konsultation med en specialist inom pigmenteringar och hudfläckar genomförs en detaljerad analys av dina specifika pigmentfläckar. Vi fotograferar de berörda områdena och går igenom dina mål och förväntningar.',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Bild av en konsultation för behandling av pigmentfläckar och hudfläckar',
+      image_title: 'Konsultation för behandling av pigmentfläckar och hudfläckar',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för pigmentfläckar och hudfläckar',
+      booking_url: null,
+      booking_url_label: null,
+      booking_url_title: null,
+      url: 'gratis-hudkonsultation.php',
+      url_label: 'Läs mer konsultation mot pigmentfläckar',
+      url_title: 'Klicka här för att läsa mer om gratis konsultation för pigmentfläckar och hudfläckar'
+);
+
+$headline02 = "02. Behandlingar mot pigmentfläckar";
+
+$services = array(
+      new Service(
+            title: 'IPL-behandling för Pigmentfläckar',
+            duration: '60 min',
+            price: '2595 kr',
+            content: 'IPL-behandling använder ljuspulser för att bryta ner melanin i pigmentfläckar, vilket gör att de bleknar eller försvinner.',
+            image_small: 'images/services/200x200/ipl.webp',
+            image_large: 'images/services/200x200/ipl.webp',
+            image_alt: 'Bild av en IPL-behandling för pigmentfläckar',
+            image_title: 'IPL-behandling för Pigmentfläckar',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för IPL-behandling av pigmentfläckar',
+            booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en IPL-behandling för pigmentfläckar',
+            url: 'ipl-pigmentflackar.php',
+            url_label: 'Läs mer om IPL-behandling mot pigmentfläckar',
+            url_title: 'Klicka här för att läsa mer om IPL-behandling för pigmentfläckar'
+      ),
+      new Service(
+            title: 'Kemisk Peeling för Pigmentfläckar',
+            duration: '30 min',
+            price: '1995 kr',
+            content: 'Kemisk peeling är en beprövad metod som förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket hjälper till att reducera synliga pigmentfläckar och förbättra hudens allmänna utseende.',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_alt: 'Bild av en kemisk peeling för pigmentfläckar',
+            image_title: 'Kemisk Peeling för Pigmentfläckar',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling av pigmentfläckar',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_PigmentationSpots',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling för pigmentfläckar',
+            url: '/kemisk-peeling.php',
+            url_label: 'Läs mer om kemisk peeling mot pigmentfläckar',
+            url_title: 'Läs mer om kemisk peeling mot pigmentfläckar'
+      ),
+      new Service(
+            title: 'Laserbehandling mot pigmentfläckar',
+            duration: '90 min',
+            price: '4595 kr',
+            content: 'Laserbehandling mot pigmentfläckar och ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av pigmentfläckar och förbättra hudens jämnhet.',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Bild av en laserbehandling mot pigmentfläckar',
+            image_title: 'Laserbehandling för pigmentfläckar',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot pigmentfläckar',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_PigmentationSpots',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
+            url_label: 'Läs mer om laser mot pigmentfläckar',
+            url_title: 'Läs mer om laser mot pigmentfläckar'
+      ),
+
+      new Service(
+            title: 'Microneedling för Pigmentfläckar',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Microneedling är en avancerad teknik som används för att behandla och förbättra hudens utseende, särskilt när det gäller pigmentfläckar och ojämn hudton.',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Bild av en microneedling-behandling för pigmentfläckar',
+            image_title: 'Microneedling för Pigmentfläckar',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling av pigmentfläckar',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_PigmentationSpots',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för pigmentfläckar',
+            url: '/microneedling.php',
+            url_label: 'Läs mer om microneedling mot pigmentfläckar',
+            url_title: 'Läs mer om microneedling mot pigmentfläckar'
       ),
 );
 
@@ -428,6 +531,22 @@ $brands_url_title = "Se alla varumärken";
                                     ?>
                               </section>
                         <?php } ?>
+
+                        <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
