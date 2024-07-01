@@ -66,7 +66,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Laser',
-        url: '/hudbehandlingar/laser-mot-hudproblem',
+        url: '/hudbehandlingar/laser-mot-hudproblem/',
         url_title: 'Läs mer om laser'
     ),
     new Treatment(
@@ -86,7 +86,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Injektioner',
-        url: '/hudbehandlingar/estetiska-injektionsbehandlingar',
+        url: '/hudbehandlingar/estetiska-injektionsbehandlingar/',
         url_title: 'Läs mer om Injektionsbehandlingar'
     ),
     new Treatment(
@@ -96,12 +96,12 @@ $treatments = array(
     ),
     new Treatment(
         label: 'IPL',
-        url: '/hudbehandlingar/ipl',
+        url: '/hudbehandlingar/ipl/',
         url_title: 'Läs mer om ipl'
     ),
     new Treatment(
         label: 'Dermabrasion',
-        url: '/hudbehandlingar/dermabrasion',
+        url: '/hudbehandlingar/dermabrasion/',
         url_title: 'Läs mer om Dermabrasion'
     ),
     new Treatment(
@@ -111,7 +111,7 @@ $treatments = array(
     ),
     new Treatment(
         label: 'Skinbooster',
-        url: '/hudbehandlingar/skinbooster',
+        url: '/hudbehandlingar/skinbooster/',
         url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
@@ -161,7 +161,7 @@ $people_search_for = array(
     ),
     new Treatment(
         label: 'Hudterapeutens val',
-        url: '/hudbehandlingar/ansiktsbehandling/hudterapeutens-val',
+        url: '/hudbehandlingar/ansiktsbehandling/hudterapeutens-val/',
         url_title: 'Läs mer om hudterapeutens val'
     ),
     new Treatment(
@@ -171,7 +171,7 @@ $people_search_for = array(
     ),
     new Treatment(
         label: 'Dermabrasion',
-        url: '/hudbehandlingar/dermabrasion',
+        url: '/hudbehandlingar/dermabrasion/',
         url_title: 'Läs mer om dermabrasion'
     ),
     new Treatment(
@@ -191,7 +191,7 @@ $people_search_for = array(
     ),
     new Treatment(
         label: 'Fillers',
-        url: '/hudbehandlingar/estetiska-injektionsbehandlingar/fillers',
+        url: '/hudbehandlingar/estetiska-injektionsbehandlingar/fillers/',
         url_title: 'Läs mer om fillers'
     ),
 );
@@ -224,7 +224,7 @@ $service_categories = array(
                 url_title: 'Läs mer om portömning',
             ),
             new Treatment(
-                url: '/hudbehandlingar/ansiktsbehandling/rosacea',
+                url: '/hudbehandlingar/ansiktsbehandling/rosacea/',
                 label: 'Rosaceabehandling',
                 url_title: 'Läs mer om rosaceabehandling',
             ),
@@ -238,7 +238,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om ansiktsbehandlingar mot problemhy'
     ),
     new ServiceCategory(
-        url: '/hudbehandlingar/laser-mot-hudproblem',
+        url: '/hudbehandlingar/laser-mot-hudproblem/',
         label: 'Laser mot hudproblem',
         content: 'Laserbehandlingar mot hudproblem som använder koncentrerade ljusstrålar för att målriktat behandla olika typer av ärr och pigmentfläckar. Dessa behandlingar kan ge dramatiska förbättringar i hudens utseende och textur.',
         image_small: 'bilder/behandlingar/200x200/laser-mot-problemhy.webp',
@@ -287,7 +287,7 @@ $service_categories = array(
                 url_title: 'Läs mer om dermapen',
             ),
             new Treatment(
-                url: '/varumarken/exceed',
+                url: '/varumarken/exceed/',
                 label: 'Exceed',
                 url_title: 'Läs mer om exceed',
             ),
@@ -345,7 +345,7 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: '/varumarken/skin-tech',
+                url: '/varumarken/skin-tech/',
                 label: 'Skin Tech',
                 url_title: 'Läs mer om Skin Tech',
             ),
@@ -374,7 +374,7 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: '/hudbehandlingar/ansiktsbehandling/hudterapeutens-val',
+                url: '/hudbehandlingar/ansiktsbehandling/hudterapeutens-val/',
                 label: 'Hudterapeutens val',
                 url_title: 'Läs mer om hudterapeutens val',
             ),
@@ -388,7 +388,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om klassisk ansiktsbehandling'
     ),
     new ServiceCategory(
-        url: '/hudbehandlingar/dermabrasion',
+        url: '/hudbehandlingar/dermabrasion/',
         label: 'Dermabrasion',
         content: 'Dermabrasion är en icke-invasiv behandling som använder vätska eller mikrokristaller för att försiktigt exfoliera hudens yttre lager. Denna process främjar hudens förnyelse, minskar fina linjer, och ger en jämnare hudton och textur.',
         image_small: 'bilder/behandlingar/200x200/dermabrasion.webp',
@@ -456,12 +456,12 @@ $service_categories = array(
         consultation_url_label: 'Boka Konsultation',
         services: array(
             new Treatment(
-                url: '/varumarken/splendor-x',
+                url: '/varumarken/splendor-x/',
                 label: 'Splendor X',
                 url_title: 'Läs mer om Splendor X',
             ),
             new Treatment(
-                url: '/varumarken/soprano-ice',
+                url: '/varumarken/soprano-ice/',
                 label: 'Soprano Ice',
                 url_title: 'Läs mer om Soprano Ice',
             ),
@@ -470,7 +470,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om permanent hårborttagning'
     ),
     new ServiceCategory(
-        url: '/hudbehandlingar/skinbooster',
+        url: '/hudbehandlingar/skinbooster/',
         label: 'Skinbooster',
         content: 'Skinboosters är injektionsbehandlingar som ger intensiv återfuktning och näring till huden. Hyaluronsyra och andra aktiva ingredienser slussas in i huden för att förbättra dess elasticitet, struktur och lyster.',
         image_small: 'bilder/behandlingar/200x200/skinbooster.webp',

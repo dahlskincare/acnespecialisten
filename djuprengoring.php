@@ -14,7 +14,6 @@ $path_segments = array(
     new PathSegment('Djuprengöring Ansikte', '/djuprengoring.php'),
 );
 
-
 $model = new Service(
     title: 'Djuprengöring Ansikte',
     duration: '60 min',
