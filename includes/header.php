@@ -8,10 +8,10 @@
             <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
         <div id="mobile-nav-links">
-            <a href="hudproblem" class="mobile-nav-link l10n" title="Hudproblem">Hudproblem</a>
-            <a href="hudbehandlingar" class="mobile-nav-link l10n" title="Hudbehandlingar">Behandlingar</a>
+            <a href="/hudproblem/" class="mobile-nav-link l10n" title="Hudproblem">Hudproblem</a>
+            <a href="/hudbehandlingar/" class="mobile-nav-link l10n" title="Hudbehandlingar">Behandlingar</a>
             <a href="resultat.php" class="mobile-nav-link l10n" title="Resultat">Resultat</a>
-            <a href="varumarken" class="mobile-nav-link l10n" title="Varumärken">Varumärken</a>
+            <a href="/varumarken/" class="mobile-nav-link l10n" title="Varumärken">Varumärken</a>
             <a href="metoden.php" class="mobile-nav-link l10n" title="Vår metod">Vår metod</a>
             <a href="kontakt.php" class="mobile-nav-link l10n" title="Kontakt">Kontakt</a>
         </div>
@@ -23,9 +23,9 @@
                 </div>
                 <div class="ep-content">
                     <a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
-                    <a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
+                    <a href="/hudguide/" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
                     <a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
-                    <a href="priser" class="l10n" title="Här hittar du vår prislista">Priser</a>
+                    <a href="/priser/" class="l10n" title="Här hittar du vår prislista">Priser</a>
                 </div>
             </div>
             <div class="expansion-panel">
@@ -49,7 +49,7 @@
                 <div class="ep-content">
                     <a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                     <a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
-                    <a href="hudterapeut" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeut</a>
+                    <a href="/hudterapeut/" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeut</a>
                     <a href="karriar.php" class="l10n" title="Se våra lediga tjänster">Karriär</a>
                 </div>
             </div>
@@ -74,9 +74,9 @@
                         <ul>
                             <li class="l10n">Information</li>
                             <li><a href="resultat.php" class="l10n" title="Se våra kunders före- och efterbilder">Resultat</a></li>
-                            <li><a href="hudguide" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a></li>
+                            <li><a href="/hudguide/" class="l10n" title="Läs mer om allt inom hudvård">Hudguide</a></li>
                             <li><a href="ordlista.php" class="l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a></li>
-                            <li><a href="priser" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
+                            <li><a href="/priser/" class="l10n" title="Här hittar du vår prislista">Priser</a></li>
 
                         </ul>
                     </div>
@@ -94,7 +94,7 @@
                             <li class="l10n">Företag</li>
                             <li><a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a></li>
                             <li><a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a></li>
-                            <li><a href="hudterapeut" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeuter</a></li>
+                            <li><a href="/hudterapeut/" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeuter</a></li>
                             <li><a href="karriar.php" class="l10n" title="Se våra lediga tjänster">Karriär</a></li>
                         </ul>
                     </div>
@@ -135,8 +135,8 @@
             </a>
             <nav>
                 <ul>
-                    <li><a href="hudproblem" class="h100 l10n" title="Hudproblem">Hudproblem</a></li>
-                    <li><a href="hudbehandlingar" class="h100 l10n" title="Hudbehandlingar">Behandlingar</a></li>
+                    <li><a href="/hudproblem/" class="h100 l10n" title="Hudproblem">Hudproblem</a></li>
+                    <li><a href="/hudbehandlingar/" class="h100 l10n" title="Hudbehandlingar">Behandlingar</a></li>
                     <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
                     <li><a href="resultat.php" class="h100 l10n" title="Resultat">Resultat</a></li>
                     <li><a href="metoden.php" class="h100 l10n" title="Vår metod">Vår metod</a></li>

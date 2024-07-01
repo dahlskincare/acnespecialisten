@@ -87,13 +87,13 @@
                                 <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
                             </li>
                             <li>
-                                <a href="hudproblem" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
+                                <a href="/hudproblem/" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
                             </li>
                             <li>
-                                <a href="hudbehandlingar" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
+                                <a href="/hudbehandlingar/" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
                             </li>
                             <li>
-                                <a href="varumarken" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
+                                <a href="/varumarken/" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
                             </li>
                         </ul>
                     </div>
@@ -104,13 +104,13 @@
                                 <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                             </li>
                             <li>
-                                <a href="hudguide" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
+                                <a href="/hudguide/" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
                             </li>
                             <li>
                                 <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                             </li>
                             <li>
-                                <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
+                                <a href="/priser/" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
                             </li>
                         </ul>
                     </div>
@@ -144,7 +144,7 @@
                                     <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                 </li>
                                 <li>
-                                    <a href="hudterapeut" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
+                                    <a href="/hudterapeut/" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
                                 </li>
                                 <li>
                                     <a href="karriar.php" class="button text grey compact l10n" title="Se våra lediga tjänster">Karriär</a>
@@ -335,13 +335,13 @@
                                             <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
                                         </li>
                                         <li>
-                                            <a href="hudproblem" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
+                                            <a href="/hudproblem/" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
                                         </li>
                                         <li>
-                                            <a href="hudbehandlingar" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
+                                            <a href="/hudbehandlingar/" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
                                         </li>
                                         <li>
-                                            <a href="varumarken" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
+                                            <a href="/varumarken/" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -352,13 +352,13 @@
                                             <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                                         </li>
                                         <li>
-                                            <a href="hudguide" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
+                                            <a href="/hudguide/" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
                                         </li>
                                         <li>
                                             <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                                         </li>
                                         <li>
-                                            <a href="priser" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
+                                            <a href="/priser/" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -389,7 +389,7 @@
                                             <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
                                         </li>
                                         <li>
-                                            <a href="hudterapeut" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
+                                            <a href="/hudterapeut/" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
                                         </li>
                                         <li>
                                             <a href="karriar.php"class="button text grey compact l10n" title="Se våra lediga tjänster">Karriär</a>
