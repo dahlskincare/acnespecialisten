@@ -65,7 +65,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för atrofiska ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för atrofiska ärr</a>';
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för atrofiska ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(

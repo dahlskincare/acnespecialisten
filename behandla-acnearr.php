@@ -35,7 +35,7 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av acneär
 
     <p class="p200 mt-xl">Vi behandlar och tar bort ärrvävnaden effektivt för att återställa hudens jämna yta. Vi hjälper dig att få bort ärr i ansiktet, på bröstet eller på ryggen Om du också har aktiva akneutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlad akne och finnar kan bidra till ytterligare ärrbildning. Våra hudterapeuter på AcneSpecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 
-$headline01 = "01. Identifiera dina acneärr";
+$headline01 = "01. Identifiera";
 
 $define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar acenärr?';
@@ -50,7 +50,7 @@ $define_consultation_link = "https://acnespecialisten.se/book?flow=consultation&
 $define_consultation_link_label = "Boka Gratis Konsultation för acneärr";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för acneärr";
 
-$headline02 = "02. Behandla acneärr";
+$headline02 = "02. Behandla";
 
 $treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina acneärr, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga reparationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och hudton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr.</p>';
 
@@ -74,7 +74,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot acneärr',
         url: '/laser-acnearr.php',
-        url_label: 'Läs mer om laser mot acneärr',
+        url_label: 'Läs mer om laser',
         url_title: 'Läs mer om laser mot acneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
@@ -96,7 +96,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot acneärr',
         url: '/kemisk-peeling.php',
-        url_label: 'Läs mer om kemisk peeling mot acneärr',
+        url_label: 'Läs mer om kemisk peeling',
         url_title: 'Läs mer om kemisk peeling mot acneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
@@ -118,7 +118,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot acneärr',
         url: '/microneedling-acnearr.php',
-        url_label: 'Läs mer om microneedling mot acneärr',
+        url_label: 'Läs mer om microneedling',
         url_title: 'Läs mer om microneedling mot acneärr',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
