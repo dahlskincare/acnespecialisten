@@ -58,7 +58,7 @@ $model = new Service(
 
 $floating_box = 'Förbättrar hudens struktur med nålbehandling.';
 
-$description_title = 'Dermapen 4 - en innovativ microneedling behandling';
+$description_title = 'Innovativ microneedling behandling';
 $description_text = '<p class="p200">Dermapen är en framstående och effektiv microneedlingmetod som är lämplig för alla hudtyper, inriktad på att vitalisera och föryngra huden. Med en patenterad teknologi använder Dermapen4 avancerade mikronålar för att skapa fina, precisionsinriktade mikrokanaler i huden. Detta underlättar djupgående absorption av aktiva serum som är rika på näringsämnen och stimulerar hudens kollagenproduktion och naturliga läkningsprocess.</p>
     <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre mtekniker. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, stora porer, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
 
@@ -78,13 +78,13 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/dermapen-process.webp',
         image_alt: 'Dermapen behandlingsprocess',
         image_title: 'Dermapen behandlingsprocess',
-        content: '<p class="p200">När du kommer till en av våra kliniker börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts. Dermapen-apparaten, utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål.</p>
+        content: '<p class="p200">När du kommer till en av våra kliniker börjar behandlingen med en grundlig rengöring av ditt ansikte för att ta bort smink och smuts. Dermapen är utrustad med små, fina, sterila nålar, glider över huden för att punktera den med mikroskopiska hål.</p>
         <p class="p200 mt-m">Dessa mikro-skador stimulerar hudens egen läkningsförmåga och leder till nyproduktion av kollagen och elastin. Under behandlingen appliceras även specialanpassade serum för att ge näring och främja en effektiv läkning. Efter behandlingen är det vanligt med en viss rodnad och svullnad, men detta är ett tecken på att återhämtningsprocessen har startat. Resultatet över tid blir en märkbart slätare, fastare och mer lysterrik hud. För att ett bra resultat krävs en microneedling kur.</p>',
     ),
 );
 
 $types_title = 'Behandlingar efter hudproblem';
-$types_description = 'Dermapen hjälper till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Dermapen här.';
+$types_description = 'Vi behandlar flera olika hudproblem.';
 $types = array(
     new Service(
         title: 'Dermapen mot Acneärr',
@@ -238,7 +238,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Dermapen behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">Behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
@@ -304,7 +304,7 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Dermapen är anpassningsbar för behandling av olika kroppsdelar.</p>',
+        description: '<p class="p200">Anpassningsbar för behandling av olika kroppsdelar.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/hals.svg',
@@ -347,7 +347,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Dermapen är effektiv för att behandla flera områden samtidigt.</p>',
+        description: '<p class="p200">Effektiv för att behandla flera områden samtidigt.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
