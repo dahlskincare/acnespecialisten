@@ -45,7 +45,7 @@ $define_content = '<p class="p200">Första steget i vår process att få bort ak
 
 $define_consultation_link = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $define_consultation_link_label = "Boka Gratis Konsultation";
-$define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot akne";
+$define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot akne";
 
 $headline02 = "02. Behandla";
 
@@ -177,7 +177,7 @@ $repair_content = '<p class="p200">När din akne har behandlats och aknen försv
 
 $repair_url = 'behandla-acnearr.php';
 $repair_url_label = 'Se behandlingar';
-$repair_url_title = 'klicka här för att se våra ärrbehandlingar';
+$repair_url_title = 'klicka här för att se våra ärrbehandlingarna';
 
 $results = array(
     new ResultCustomer(

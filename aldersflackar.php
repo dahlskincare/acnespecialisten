@@ -62,9 +62,9 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Efter att ha identifierat dina specifika behov erbjuder AcneSpecialisten skräddarsydda behandlingsalternativ för att aktivt åtgärda åldersfläckar. Våra behandlingsmetoder omfattar avancerade tekniker som är speciellt utformade för att adressera och reducera tecken på åldersfläckar, såsom hyperpigmentering och ojämn hudton, och arbetar för att förbättra hudens struktur och utseende.',
+            content: 'Efter att ha identifierat dina specifika behov erbjuder AcneSpecialisten skräddarsydda behandlingsalternativ för att aktivt åtgärda åldersfläckar. Våra behandlingsmetoder omfattar avancerade tekniker som är speciellt utformade för att adressera och reducera hyperpigmentering och ojämn hudton, och arbetar för att förbättra hudens struktur och utseende.',
             url: 'behandla-pigmentflackar.php',
-            url_label: 'Utforska våra behandlingar mot åldersfläckar',
+            url_label: 'Utforska våra behandlingarna',
             url_title: 'Upptäck våra unika och effektiva behandlingar mot åldersfläckar'
       ),
 );
