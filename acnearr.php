@@ -104,7 +104,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar mot acneärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 
 $symptoms_title = 'Olika typer av acneärr';
@@ -233,7 +233,7 @@ $services = array(
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot acneärr',
             url: '/laser-acnearr.php',
             url_label: 'Läs mer om laser',
-            url_title: 'Läs mer om laser',
+            url_title: 'Läs mer om laser mot acneärr',
       ),
       new Service(
             title: 'Kemisk peeling mot acneärr',
@@ -252,7 +252,7 @@ $services = array(
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot acneärr',
             url: '/kemisk-peeling.php',
             url_label: 'Läs mer om kemisk peeling',
-            url_title: 'Läs mer om kemisk peeling',
+            url_title: 'Läs mer om kemisk peeling mot acneärr',
       ),
       new Service(
             title: 'Microneedling mot acneärr',
@@ -271,7 +271,7 @@ $services = array(
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling mot acneärr',
             url: '/microneedling-acnearr.php',
             url_label: 'Läs mer om microneedling',
-            url_title: 'Läs mer om microneedling',
+            url_title: 'Läs mer om microneedling mot acneärr',
       ),
 );
 

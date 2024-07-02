@@ -72,7 +72,7 @@ $treatment_steps = array(
             content: 'För att förhindra framtida utbrott erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar hudproblemet.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga'
+            url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
       ),
       new TreatmentStep(
             title: 'Reparera',
@@ -83,7 +83,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva acnebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $results_title = 'Acne vulgaris före och efter bilder';
 $results = array(

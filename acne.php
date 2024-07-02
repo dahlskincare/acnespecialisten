@@ -123,7 +123,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $types_title = 'Olika typer av akne';
 
@@ -446,7 +446,7 @@ $services = array(
 
             url_label: 'Läs mer om ansiktsbehandling',
             url: '/hudbehandlingar/ansiktsbehandling/akne/',
-            url_title: 'Läs mer om ansiktsbehandling',
+            url_title: 'Läs mer om ansiktsbehandling mot akne',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
@@ -469,7 +469,7 @@ $services = array(
 
             url_label: 'Läs mer om laser',
             url: 'laser-acne.php',
-            url_title: 'Läs mer om laser',
+            url_title: 'Läs mer om laser mot akne',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -492,7 +492,7 @@ $services = array(
 
             url_label: 'Läs mer om kemisk peeling',
             url: 'kemisk-peeling-acne.php',
-            url_title: 'Läs mer om kemisk peeling',
+            url_title: 'Läs mer om kemisk peeling mot akne',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -517,7 +517,7 @@ $services = array(
 
             url_label: 'Läs mer om microneedling',
             url: 'microneedling-acne.php',
-            url_title: 'Läs mer om microneedling',
+            url_title: 'Läs mer om microneedling mot akne',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
@@ -562,7 +562,7 @@ $procedures = array(
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Kvinna som får behandling mot acneärr',
             image_title: 'Reparera acneärr',
-            url_label: 'Läs mer om behandling mot akneärr',
+            url_label: 'Läs mer om behandling',
             url: 'behandla-acnearr.php',
             url_title: 'Läs mer om behandling mot akneärr',
             consultation_url_label: 'Boka konsultation',

@@ -83,7 +83,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments for acne scars" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments</a>';
 
 
 $results_title = 'Acne Scars before and after results';
