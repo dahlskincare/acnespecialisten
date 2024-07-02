@@ -125,7 +125,7 @@ $services = array(
         image_title: 'Effektiv behandling med CryoPen mot pigmentfläckar på Acnespecialisten',
         image_alt: 'Bild illustrerar en behandling med CryoPen mot pigmentfläckar utförd på Acnespecialisten',
 
-        title: 'Behandling med CryoPen mot pigmentfläckar',
+        title: 'CryoPen mot pigmentfläckar',
         duration: '20-70 minuter',
         price: 'Pris från 995 kr',
         icons: array(),
