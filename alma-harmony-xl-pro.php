@@ -91,7 +91,7 @@ $types = array(
         url_title: 'Läs mer om laser mot akne',
     ),
     new Service(
-        title: 'Harmony XL Pro mot ärr (Skade- och operationsärr)',
+        title: 'Harmony XL Pro mot ärr (skade- och operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
         content: 'Kombinerar ClearLift och iPixel tekniker för att målinrikta och behandla ärrvävnad genom stimulering av ny hudväxt och minskning av ärrvävnadens tjocklek. Denna strategi jämnar ut hudtexturen och minimerar ärr.',
@@ -191,7 +191,7 @@ $types = array(
         url_title: 'Läs mer om mogen hy',
     ),
     new Service(
-        title: 'Harmony XL Pro för hudföryngring (Skin rejuvenation)',
+        title: 'Harmony XL Pro för hudföryngring (skin rejuvenation)',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Använder en kombination av tekniker, inklusive Dye-VL och ClearLift, för att omfattande förbättra hudtonen, textur och elasticitet. Denna flerdimensionella strategi resulterar i en märkbart yngre och mer strålande hud.',

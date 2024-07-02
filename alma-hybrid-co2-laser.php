@@ -198,7 +198,7 @@ $types = array(
         url_title: 'Läs mer om laser mot acneärr',
     ),
     new Service(
-        title: 'CO2 laser mot ärr (Skade- och Operationsärr)',
+        title: 'CO2 laser mot ärr (skade- och operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
         content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
@@ -338,7 +338,7 @@ $types = array(
         url_title: 'Läs mer om laser mot acne',
     ),
     new Service(
-        title: 'CO2 laser för hudföryngring (Skin rejuvenation)',
+        title: 'CO2 laser för hudföryngring (skin rejuvenation)',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Stimulerar hudens naturliga läkning för förnyad hud med förbättrad textur och utstrålning. Minskar tecken på åldrande för ett friskare utseende.',
