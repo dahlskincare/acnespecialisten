@@ -54,7 +54,7 @@ $green_banner_content = new GreenBannerContent(
 );
 
 $description_title = 'Vad är akne i ansiktet?';
-$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som kännetecknas av pormaskar, finnar, cystor och noduler. Denna typ av akne drabbar personer i alla åldrar, men är särskilt vanlig bland tonåringar och unga vuxna. Orsakerna till ansiktsakne är många och inkluderar hormonella förändringar under puberteten, graviditet eller som en bieffekt av vissa mediciner. En överproduktion av talg tillsammans med döda hudceller skapar en miljö som gynnar tillväxten av bakterien Propionibacterium acnes, vilket leder till inflammation och akne.</p>
+$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som kännetecknas av pormaskar, finnar, cystor och noduler. Denna typ av akne drabbar personer i alla åldrar, men är särskilt vanlig bland tonåringar och unga vuxna. Orsakerna till ansiktsakne är många och inkluderar hormonella förändringar under puberteten, graviditet eller som en bieffekt av vissa mediciner. En överproduktion av talg tillsammans med döda hudceller skapar en miljö som gynnar tillväxten av bakterien Cutibacterium acnes, vilket leder till inflammation och akne.</p>
 
 <p class="p200 mt-m">Akne uppstår oftast på områden i ansiktet där talgkörtlar är mest aktiva, såsom käklinjen, kinderna, pannan och näsan, samt under hakan. Ibland kan akne även sprida sig till halsen, vilket kan göra tillståndet ännu svårare. Faktorer som smuts, föroreningar och stress kan också förvärra akne. Behandlingen inkluderar skräddarsydda hudvårdsrutiner som kombinerar rätt produkter och behandlingar anpassade efter aknens svårighetsgrad och typ.</p>';
 
