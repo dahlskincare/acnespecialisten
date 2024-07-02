@@ -178,7 +178,7 @@ $types_title = 'Hudproblem vi behandlar';
 $types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hybrid för att effektivt behandla en rad olika hudproblem.</p>';
 $types = array(
     new Service(
-        title: 'CO2 laser mot Acneärr',
+        title: 'CO2 laser mot acneärr',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Effektiv metod för att minska acneärr. Kombinerar precisionslaser med djupvävnadsuppvärmning, stimulerar hudens läkning för jämnare hudtextur.',
@@ -198,7 +198,7 @@ $types = array(
         url_title: 'Läs mer om laser mot acneärr',
     ),
     new Service(
-        title: 'CO2 laser mot Ärr (Skade- och Operationsärr)',
+        title: 'CO2 laser mot ärr (Skade- och Operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
         content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
@@ -238,7 +238,7 @@ $types = array(
         url_title: 'Läs mer om hudförändringar',
     ),*/
     new Service(
-        title: 'CO2 laser mot Bristningar',
+        title: 'CO2 laser mot bristningar',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Laser behandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
@@ -258,7 +258,7 @@ $types = array(
         url_title: 'Läs mer om bristningar',
     ),
     new Service(
-        title: 'CO2 laser mot Stora Porer',
+        title: 'CO2 laser mot stora porer',
         duration: '60 minuter',
         price: '3595 kr',
         content: 'Minskar utseendet av stora porer genom att förbättra hudens yta och textur, bidrar till en jämnare hudton.',
@@ -278,7 +278,7 @@ $types = array(
         url_title: 'Läs mer om stora porer',
     ),
     new Service(
-        title: 'CO2 laser mot Rynkor och Fina Linjer',
+        title: 'CO2 laser mot rynkor och fina Linjer',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Kombinerar laser med värmestimulering för att släta ut rynkor och linjer. Främjar kollagenproduktion för en ungdomligare hud.',
@@ -298,7 +298,7 @@ $types = array(
         url_title: 'Läs mer om mogen hy',
     ),
     new Service(
-        title: 'CO2 laser mot Pigmentfläckar',
+        title: 'CO2 laser mot pigmentfläckar',
         duration: '950 minuter',
         price: '4595 kr',
         content: 'Ljusar upp och reducerar pigmentfläckar. Målinriktad energi bryter ner pigmentering för en jämnare hudton.',
@@ -318,7 +318,7 @@ $types = array(
         url_title: 'Läs mer om laser mot pigmentfläckar',
     ),
     new Service(
-        title: 'CO2 laser mot Aktiv Acne',
+        title: 'CO2 laser mot aktiv acne',
         duration: '60 minuter',
         price: '2595 kr',
         content: 'Reducerar aktiv acne genom att minska inflammation och döda bakterier, förhindrar framtida utbrott genom att rikta sig mot acneorsaker.',
@@ -338,7 +338,7 @@ $types = array(
         url_title: 'Läs mer om laser mot acne',
     ),
     new Service(
-        title: 'CO2 laser för Hudföryngring (Skin Rejuvenation)',
+        title: 'CO2 laser för hudföryngring (Skin rejuvenation)',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Stimulerar hudens naturliga läkning för förnyad hud med förbättrad textur och utstrålning. Minskar tecken på åldrande för ett friskare utseende.',
@@ -363,7 +363,7 @@ $treatment_areas = array(
         image_large: null,
         image_alt: 'Ansikte & Kropp',
         image_title: 'Ansikte & Kropp',
-        title: 'Ansikte & Kropp',
+        title: 'Ansikte & kropp',
         description: '<p class="p200">Vi behandlar flera områden på kroppen.</p>',
         items: array(
             new TreatmentAreaItem(

@@ -51,7 +51,7 @@ $types_title = 'Hudproblem vi behandlar';
 $types_description = '<p class="p200">';
 $types = array(
     new Service(
-        title: 'Harmony XL Pro mot Acneärr',
+        title: 'Harmony XL Pro mot acneärr',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Använder ClearSkin med Erbium Glass 1540 munstycke för att stimulera kollagen och främja hudförnyelse. Denna teknik minskar acneärrens synlighet genom djup penetration och kollageninduktion.',
@@ -71,7 +71,7 @@ $types = array(
         url_title: 'Läs mer om laser mot acneärr',
     ),
     new Service(
-        title: 'Harmony XL Pro mot Aktiv Acne',
+        title: 'Harmony XL Pro mot aktiv acne',
         duration: '60 minuter',
         price: '2995 kr',
         content: 'ClearSkin erbjuder en unik kombination av laserenergi och vakuum för att behandla aktiv acne genom att minska talgproduktionen och eliminera acne-bakterier. Denna metods djuprengörande effekt bidrar till klarare hud.',
@@ -91,7 +91,7 @@ $types = array(
         url_title: 'Läs mer om laser mot akne',
     ),
     new Service(
-        title: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
+        title: 'Harmony XL Pro mot ärr (Skade- och operationsärr)',
         duration: '30 minuter',
         price: '2995 kr',
         content: 'Kombinerar ClearLift och iPixel tekniker för att målinrikta och behandla ärrvävnad genom stimulering av ny hudväxt och minskning av ärrvävnadens tjocklek. Denna strategi jämnar ut hudtexturen och minimerar ärr.',
@@ -111,7 +111,7 @@ $types = array(
         url_title: 'Läs mer om laser mot ärr',
     ),
     new Service(
-        title: 'Harmony XL Pro mot Bristningar',
+        title: 'Harmony XL Pro mot bristningar',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'ClearLift med Q-switchad Nd:YAG teknologi använder mikrovibrationer för att stimulera djupt liggande hudlager utan att skada ytan. Denna process främjar hudens naturliga läkningsmekanismer, vilket minskar bristningars synlighet.',
@@ -131,7 +131,7 @@ $types = array(
         url_title: 'Läs mer om bristningar',
     ),
     new Service(
-        title: 'Harmony XL Pro mot Stora Porer',
+        title: 'Harmony XL Pro mot stora porer',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'ClearLift tekniken stimulerar hudens djupare lager för att förbättra hudstrukturen och minska porernas storlek. Denna icke-invasiva metod ger en slätare och mer raffinerad hudtextur.',
@@ -151,7 +151,7 @@ $types = array(
         url_title: 'Läs mer om stora porer',
     ),
     new Service(
-        title: 'Harmony XL Pro mot Pigmentfläckar',
+        title: 'Harmony XL Pro mot pigmentfläckar',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Dye-VL använder IPL-teknologi med ett specifikt munstycke för att rikta in sig på melanin, vilket ljusar upp och reducerar pigmentfläckar. Denna selektiva målinriktning bidrar till en jämnare hudton.',
@@ -171,7 +171,7 @@ $types = array(
         url_title: 'Läs mer om laser mot pigmentfläckar',
     ),
     new Service(
-        title: 'Harmony XL Pro mot Rynkor och Fina Linjer',
+        title: 'Harmony XL Pro mot rynkor och fina Linjer',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'iPixel med Erbium YAG 2940 munstycke utför mikrolaser peeling som stimulerar hudregeneration och kollagenproduktion. Detta slätar effektivt ut rynkor och fina linjer genom precisionsförnyelse av hudytan.',
@@ -191,7 +191,7 @@ $types = array(
         url_title: 'Läs mer om mogen hy',
     ),
     new Service(
-        title: 'Harmony XL Pro för Hudföryngring (Skin Rejuvenation)',
+        title: 'Harmony XL Pro för hudföryngring (Skin rejuvenation)',
         duration: '90 minuter',
         price: '4595 kr',
         content: 'Använder en kombination av tekniker, inklusive Dye-VL och ClearLift, för att omfattande förbättra hudtonen, textur och elasticitet. Denna flerdimensionella strategi resulterar i en märkbart yngre och mer strålande hud.',
@@ -216,7 +216,7 @@ $treatment_areas = array(
         image_large: null,
         image_alt: 'Ansikte & Kropp',
         image_title: 'Ansikte & Kropp',
-        title: 'Ansikte & Kropp',
+        title: 'Ansikte & kropp',
         description: '<p class="p200">Vi behandlar dessutom flera områden på kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
