@@ -320,7 +320,7 @@ $type_categories = array(
 
 );
 
-$symptoms_title = 'Akne symtom';
+$symptoms_title = 'Symtom';
 
 $symptoms = array(
       "open_comedones" => new Symptom(
@@ -416,13 +416,13 @@ $service = new Service(
       image_alt: 'Kvinna som får konsultation för aknebehandling',
       image_title: 'Konsultation för aknebehandling',
 
-      url_label: 'Läs mer om gratis hudkonsultation mot akne',
+      url_label: 'Läs mer om gratis hudkonsultation',
       url: 'gratis-hudkonsultation.php',
-      url_title: 'Läs mer om gratis hudkonsultation mot akne',
+      url_title: 'Läs mer om gratis hudkonsultation',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för akne',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation',
 
       booking_url_label: null,
       booking_url: null,
