@@ -70,7 +70,7 @@ $treatment_steps = array(
             content: 'Vi utför grundliga ansiktsbehandlingar anpassade för just din aknetyp så att du blir av med problemet effektivt.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
