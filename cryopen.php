@@ -39,7 +39,7 @@ $description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 se
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Inför CryoPen behandling',
+        title: 'Inför behandling',
         image_small: '/bilder/process/358x272/cryopen-forberedelser.webp',
         image_large: '/bilder/process/872x456/cryopen-forberedelser.webp',
         image_alt: 'Inför CryoPenbehandling',
@@ -49,7 +49,7 @@ $top_articles = array(
         <p class="p200 mt-m">Observera att vi endast har möjlighet att behandla godartade hudförändringar. Är du osäker på om din hudåkomma är farlig eller inte ska du ta kontakt med en läkare först och få den undersökt. Är den ofarlig rekommenderar vi att boka vår kostnadsfria CryoPen-konsultation där du och din personliga hudterapeut lägger upp en skräddarsydd behandlingsplan.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går CryoPen behandling till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/cryopen-process.webp',
         image_large: '/bilder/process/872x456/cryopen-process.webp',
         image_alt: 'Hur går CryoPen till?',
@@ -272,7 +272,7 @@ $treatment_areas = array(
         image_large: null,
         image_alt: 'Antal hudförändringar',
         image_title: 'Antal hudförändringar',
-        title: 'CryoPen pris',
+        title: 'Antal hudförändringar',
         description: '<p class="p200">Priset baseras på antal hudförändringar som behandlas.</p>',
         items: array(
             new TreatmentAreaItem(
@@ -358,7 +358,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter CryoPen',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/cryopen-eftervard.webp',
     image_large: '/bilder/process/872x456/cryopen-eftervard.webp',
     image_alt: 'Efter CryoPen',
