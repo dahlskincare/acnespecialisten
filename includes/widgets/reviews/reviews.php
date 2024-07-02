@@ -128,7 +128,7 @@ if (!isset($reviews)) {
                 </div>
                 <div class="rpc-info">
                     <strong><?php echo $platform->rating ?> / 5</strong>
-                    <span class="l10n">based on</span>
+                    <span class="l10n">baserat på</span>
                     <a href="<?php echo $platform->link->url ?>" title="<?php echo $platform->link->title ?>" target="_blank">
                         <?php echo $platform->link->label ?>
                     </a>
