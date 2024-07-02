@@ -35,7 +35,7 @@ $about_content = '<p class="p200">Att behandla och minska synligheten av ärr fr
 
     <p class="p200 mt-xl">Vår första prioritet är att effektivt behandla och reducera ärrvävnaden för att återställa hudens jämna yta. Efter att vi har behandlat de direkta ärrvävnaderna hjälper vi dig med en anpassad hudvårdsrutin som kan bidra till att förbättra hudens textur och elasticitet över tid. Om du också har aktiva finnutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlade finnar kan bidra till ytterligare ärrbildning. Vårt team på Acnespecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 
-$headline01 = "01. Identifiera dina ärr från finnar";
+$headline01 = "01. Identifiera";
 
 $define_image_alt = 'Hur vi behandlar och tar bort ärr från finnar?';
 $define_image_title = 'Hur vi behandlar och tar bort ärr från finnar?';
@@ -43,10 +43,10 @@ $define_image_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 $define_content = '<p class="p200">Det första steget i vår process för att behandla ärr från finnar är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
-$define_consultation_link_label = "Boka Gratis Konsultation för Ärr från Finnar";
+$define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för ärr från finnar";
 
-$headline02 = "02. Behandla ärr från finnar";
+$headline02 = "02. Behandla";
 
 $treat_image_small = 'https://via.placeholder.com/358x274.jpg';
 $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
@@ -73,7 +73,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot ärr från finnar',
         url: '/laser-arr.php',
-        url_label: 'Läs mer om laser mot ärr från finnar',
+        url_label: 'Läs mer om laser',
         url_title: 'Läs mer om laser mot ärr från finnar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars&method=Method_LaserProblem',
         booking_url_label: 'Boka behandling',
@@ -94,7 +94,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot ärr från finnar',
         url: '/kemisk-peeling.php',
-        url_label: 'Läs mer om kemisk peeling mot ärr från finnar',
+        url_label: 'Läs mer om kemisk peeling',
         url_title: 'Läs mer om kemisk peeling mot ärr från finnar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
@@ -115,7 +115,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot ärr från finnar',
         url: '/microneedling-acnearr.php',
-        url_label: 'Läs mer om microneedling mot ärr från finnar',
+        url_label: 'Läs mer om microneedling',
         url_title: 'Läs mer om microneedling mot ärr från finnar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
@@ -297,7 +297,7 @@ $results = array(
     ),
 );
 
-$show_all_results_label = "Se fler resultat mot ärr från finnar";
+$show_all_results_label = "Se fler resultat";
 $show_all_results_title = "Resultat mot ärr från finnar";
 
 $reviews = array(
