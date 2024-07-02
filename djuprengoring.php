@@ -63,7 +63,6 @@ $description_title = 'Vad är en djuprengöring?';
 $description_text = '<p class="p200">Våra djuprengöring är en specialiserad form av porrengöring som specifikt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
 <p class="p200 mt-m">Anpassad för olika hudtyper, inklusive oljig, torr och blandhud, strävar våra djuprengöringsbehandling efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
 
-
 $types_title = '';
 $types_description = '';
 $big_types = array(
