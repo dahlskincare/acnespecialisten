@@ -55,35 +55,35 @@ $description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är inriktad på att kartlägga de unika egenskaperna hos din acne vulgaris och ta fram en personlig behandlingsplan.',
+            content: 'Vår specialiserade konsultation är inriktad på att kartlägga de unika egenskaperna hos din acne vulgaris och ta fram en personlig behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för acne vulgaris idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling för acne vulgaris anpassas efter din unika hudtyp och behov, vi erbjuder skräddarsydda behandlingar för att effektivt hantera acne vulgaris.',
+            content: 'Varje behandling för acne vulgaris anpassas efter din unika hudtyp och behov, vi erbjuder skräddarsydda behandlingar för att effektivt hantera hudproblemet.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för acne vulgaris'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra framtida utbrott erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar akne.',
+            content: 'För att förhindra framtida utbrott erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar hudproblemet.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
+            url_title: 'Hitta de bästa produkterna för att förebygga'
       ),
       new TreatmentStep(
             title: 'Reparera',
             content: 'Efter behandling av aktiv acne vulgaris fokuserar vi på att reparera ärrbildning och förbättra hudens textur, vilket leder till en jämnare och fräschare hudton för långsiktiga resultat.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck våra effektiva behandlingar för ärr orsakade av acne vulgaris'
+            url_title: 'Upptäck våra effektiva behandlingar för ärr'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot acne vulgaris" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot acne vulgaris</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $results_title = 'Acne vulgaris före och efter bilder';
 $results = array(
