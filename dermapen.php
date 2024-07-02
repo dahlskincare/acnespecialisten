@@ -64,7 +64,7 @@ $description_text = '<p class="p200">Dermapen är en framstående och effektiv m
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Dermapen behandling',
+        title: 'Inför behandling',
         image_small: '/bilder/process/358x272/dermapen-forberedelser.webp',
         image_large: '/bilder/process/872x456/dermapen-forberedelser.webp',
         image_alt: 'Förberedelser inför Dermapen behandling',
@@ -73,7 +73,7 @@ $top_articles = array(
         <p class="p200 mt-m">För optimala resultat bör huden inte vara solbränd vid tidpunkten för behandlingen. Vi rekommenderar också att du avstår från att använda hudirriterande produkter som innehåller starka syror några dagar före behandlingen. Vår hudterapeut kommer att ge dig fullständig vägledning för att förbereda din hud inför behandlingen med Dermapen, för att säkerställa en effektiv och trygg upplevelse.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går Dermapen 4 behandling till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/dermapen-process.webp',
         image_large: '/bilder/process/872x456/dermapen-process.webp',
         image_alt: 'Dermapen behandlingsprocess',
@@ -83,14 +83,14 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som Dermapen kan behandla';
+$types_title = 'Behandlingar efter hudproblem';
 $types_description = 'Dermapen hjälper till att avsevärt förbättra många olika hudåkommor. Utforska vilka hudproblem som kan behandlas och lindras med Dermapen här.';
 $types = array(
     new Service(
         title: 'Dermapen mot Acneärr',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen mot acneärr använder mikronålar för att skapa små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
+        content: 'Med mikronålar skapas små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
         image_alt: 'Dermapen mot Acneärr',
@@ -110,7 +110,7 @@ $types = array(
         title: 'Dermapen mot Stora Porer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen för stora porer stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
+        content: 'Stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
         image_alt: 'Dermapen mot Stora Porer',
@@ -130,7 +130,7 @@ $types = array(
         title: 'Dermapen mot Rynkor & Fina Linjer',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen mot rynkor och fina linjer använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
+        content: 'Använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
         image_alt: 'Dermapen mot Rynkor & Fina Linjer',
@@ -150,7 +150,7 @@ $types = array(
         title: 'Dermapen mot Pigmentfläckar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen mot pigmentfläckar främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
+        content: 'Främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
         image_alt: 'Dermapen mot Pigmentfläckar',
@@ -170,7 +170,7 @@ $types = array(
         title: 'Dermapen mot Bristningar',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
+        content: 'Stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
         image_alt: 'Dermapen mot Bristningar',
@@ -190,7 +190,7 @@ $types = array(
         title: 'Dermapen mot Aktiv Acne',
         duration: '50 minuter',
         price: '2595 kr',
-        content: 'Dermapen behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
+        content: 'Behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
         image_alt: 'Dermapen mot Aktiv Acne',
@@ -210,10 +210,10 @@ $types = array(
 
 $big_types = array(
     new Service(
-        title: 'Boosta din Dermapen behandling med PRX-T33-behandling',
+        title: 'Boosta din behandling med PRX-T33-behandling',
         duration: null,
         price: null,
-        content: '<p class="p200">För att ta din Dermapen behandling till nästa nivå erbjuder vi en specialiserad booster med PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan att förlänga återhämtningstiden. Genom att kombinera PRX-T33 med Dermapen, förstärker och förlänger vi de positiva resultaten. Den kombinerade behandlingen ger en märkbar förbättring av hudens ton och struktur, samt minskar synbart fina linjer och ojämnheter. Resultatet är en jämnare och ungdomligare hud, som får dig att stråla.</p>',
+        content: '<p class="p200">Ta din behandling till nästa nivå med en specialiserad booster av PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan att förlänga återhämtningstiden. Genom att kombinera PRX-T33 med Dermapen, förstärker och förlänger vi de positiva resultaten. Den kombinerade behandlingen ger en märkbar förbättring av hudens ton och struktur, samt minskar synbart fina linjer och ojämnheter. Resultatet är en jämnare och ungdomligare hud, som får dig att stråla.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_alt: 'Boosta din Dermapen behandling med PRX-T33-behandling',
@@ -229,7 +229,7 @@ $big_types = array(
     ),
 );
 
-$treatment_areas_title = 'Dermapen baserat på område';
+$treatment_areas_title = 'Behandlingar efter område';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
@@ -387,7 +387,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Dermapen eftervård',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/dermapen-eftervard.webp',
     image_large: '/bilder/process/872x456/dermapen-eftervard.webp',
     image_alt: 'Dermapen eftervård',
