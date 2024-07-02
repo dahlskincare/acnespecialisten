@@ -70,7 +70,7 @@ $treatment_steps = array(
             content: 'Vi anpassar varje behandling för bröstakne baserat på din huds individuella behov, för att bekämpa akne på bröstet och främja en klarare hud.',
             url_label: 'Se bröstaknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
+            url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
@@ -88,11 +88,11 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot akne på bröstet</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför uppstår akne på bröstet?',
+            title: 'Varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -104,7 +104,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När bör du söka professionell hjälp för akne på bröstet?',
+            title: 'När bör du söka professionell hjälp',
             image_small: null,
             image_large: null,
             image_alt: 'När bör du söka professionell hjälp för akne på bröstet?',
@@ -733,12 +733,6 @@ $brands_url_title = "Se alla varumärken";
                                     ?>
                               </section>
                         <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
-                              <?php } ?>
-                        </section>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>

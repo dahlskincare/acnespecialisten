@@ -55,7 +55,7 @@ $description_text = '<p class="p200">Acne scars are a result of the skin healing
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identify',
-            content: 'We analyze the unique characteristics of your acne scars, take before pictures of the skin, and recommend a treatment plan for your acne scars.',
+            content: 'We analyze the unique characteristics of your scars, take before pictures of the skin, and recommend a treatment plan for your acne scars.',
             url_label: 'Book a free consultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Book your free skin consultation for acne scars today'
@@ -83,7 +83,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments for acne scars" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments for acne scars</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Explore effective treatments" class="mt-xl button b200 outline expand auto-width">Learn more about our treatments</a>';
 
 
 $results_title = 'Acne Scars before and after results';
