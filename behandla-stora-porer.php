@@ -72,7 +72,7 @@ $services = array(
         booking_url_title: 'Boka Din Ansiktsbehandling mot Stora Porer på AcneSpecialistenn',
 
         url: '/problemhy.php',
-        url_label: 'Läs mer om ansiktsbehandling mot pormaskar',
+        url_label: 'Läs mer om ansiktsbehandling',
         url_title: 'Läs mer om ansiktsbehandling mot pormaskar',
     ),
 
@@ -93,7 +93,7 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot stora porer nu',
         url: '/hudbehandlingar/laser-mot-hudproblem/',
-        url_label: 'Läs mer om laser mot stora porer',
+        url_label: 'Läs mer om laser',
         url_title: 'Läs mer om laser mot stora porer',
     ),
 
@@ -111,7 +111,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot stora porer',
         url: '/kemisk-peeling.php',
-        url_label: 'Läs mer om kemisk peeling mot stora porer',
+        url_label: 'Läs mer om kemisk peeling',
         url_title: 'Läs mer om kemisk peeling mot stora porer',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_ChemicalPeeling',
         booking_url_label: 'Boka behandling',
@@ -133,7 +133,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot stora porer',
         url: '/microneedling-stora-porer.php',
-        url_label: 'Läs mer om microneedling mot stora porer',
+        url_label: 'Läs mer om microneedling',
         url_title: 'Läs mer om microneedling mot stora porer',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
@@ -153,7 +153,7 @@ $products = array(
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot stora porer',
 
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-        url_label: 'Produkter för stora porer',
+        url_label: 'Köp produkterna',
         url_title: 'Produkter för stora porer',
         price: 'Pris från 1395 kr',
         content: '<p class="p200">Att förebygga och minska synligheten av stora porer är avgörande för att uppnå en jämn och klar hud. Vi erbjuder en daglig hudvårdsrutin med specifika produkter mot stora porer. Denna rutin hjälper till att hålla din hy ren, balanserad och minskar risken för tilltäppningar. Regelbunden användning av dessa produkter, tillsammans med våra behandlingar, ger bäst resultat för att hantera stora porer.</p>',
@@ -202,7 +202,7 @@ $results = array(
     ),
 );
 
-$show_all_results_label = "Se fler resultat mot stora porer";
+$show_all_results_label = "Se fler resultat";
 $show_all_results_title = "Resultat mot stora porer";
 
 $reviews = array(
