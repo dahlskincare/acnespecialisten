@@ -68,9 +68,9 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi utför grundliga ansiktsbehandlingar anpassade för just din aknetyp så att du blir av med problemet effektivt.',
-            url_label: 'Se aknebehandlingar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda behandlingar'
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
@@ -88,7 +88,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $results = array(
     new ResultCustomer(

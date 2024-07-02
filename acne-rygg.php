@@ -70,14 +70,14 @@ $treatment_steps = array(
             content: 'Varje behandling för akne på ryggen anpassas utifrån din huds specifika behov. Vi erbjuder ett brett spektrum av behandlingar, från mild exfoliering till djuprengörande metoder, för att effektivt bekämpa akne på ryggen och främja en klarare hud.',
             url_label: 'Se ryggaknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda behandlingar'
+            url_title: 'Utforska våra skräddarsydda behandlingar för ryggakne'
       ),
       new TreatmentStep(
             title: 'Förebygga',
             content: 'För att förhindra framtida utbrott av ryggakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa produkter är specialutformade för att balansera din hud och motverka de faktorer som bidrar till akne, vilket hjälper till att hålla din hud hälsosam och ren.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga'
+            url_title: 'Hitta de bästa produkterna för att förebygga ryggakne'
       ),
       new TreatmentStep(
             title: 'Reparera',
@@ -88,7 +88,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $results = array(
     new ResultCustomer(

@@ -70,7 +70,7 @@ $treatment_steps = array(
             content: 'Vi anpassar varje behandling för bröstakne baserat på din huds individuella behov, för att bekämpa akne på bröstet och främja en klarare hud.',
             url_label: 'Se bröstaknebehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda behandlingar'
+            url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
       ),
       new TreatmentStep(
             title: 'Förebygga',
@@ -88,7 +88,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
