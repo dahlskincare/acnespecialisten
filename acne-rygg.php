@@ -68,7 +68,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Varje behandling för akne på ryggen anpassas utifrån din huds specifika behov. Vi erbjuder ett brett spektrum av behandlingar, från mild exfoliering till djuprengörande metoder, för att effektivt bekämpa akne på ryggen och främja en klarare hud.',
-            url_label: 'Se ryggaknebehandlingar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda behandlingar för ryggakne'
       ),

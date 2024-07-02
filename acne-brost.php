@@ -68,7 +68,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi anpassar varje behandling för bröstakne baserat på din huds individuella behov, för att bekämpa akne på bröstet och främja en klarare hud.',
-            url_label: 'Se bröstaknebehandlingar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
       ),
