@@ -78,7 +78,7 @@ $treatment_steps = array(
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Hur blir man av med dem?',
+            title: 'Hur blir man av med smultronmärken?',
             image_small: null,
             image_large: null,
             image_alt: '',
