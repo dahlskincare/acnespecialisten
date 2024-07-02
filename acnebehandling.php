@@ -69,11 +69,11 @@ $services = array(
 
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_facial',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka ansiktsbehandling',
+        booking_url_title: 'Boka din ansiktsbehandling mot acne på AcneSpecialisten',
 
         url: '/hudbehandlingar/ansiktsbehandling/akne/',
         url_label: 'Läs mer om ansiktsbehandling',
-        url_title: 'Läs mer om ansiktsbehandling',
+        url_title: 'Läs mer om ansiktsbehandling mot akne',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -94,10 +94,10 @@ $services = array(
         consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka laserbehandling',
+        booking_url_title: 'Boka din laserbehandling mot akne nu',
         url: 'laser-acne.php',
         url_label: 'Läs mer om laserbehandling',
-        url_title: 'Läs mer om laserbehandling',
+        url_title: 'Läs mer om laserbehandling mot akne',
 
         // short_title: 'Laser'
 
@@ -118,10 +118,10 @@ $services = array(
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
         url: 'kemisk-peeling-acne.php',
         url_label: 'Läs mer om kemisk peeling',
-        url_title: 'Läs mer om kemisk peeling',
+        url_title: 'Läs mer om kemisk peeling mot akne',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka kemiska peeling',
+        booking_url_title: 'Boka din kemiska peeling mot akne nu',
         short_title: 'Kemisk Peeling'
 
     ),
@@ -141,10 +141,10 @@ $services = array(
         consultation_url_title: 'Boka en konsultation för microneedling mot akne',
         url: 'microneedling-acne.php',
         url_label: 'Läs mer om microneedling',
-        url_title: 'Läs mer om microneedling',
+        url_title: 'Läs mer om microneedling mot akne',
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka microneedling',
+        booking_url_title: 'Boka din microneedling mot akne nu',
         short_title: 'Microneedling'
 
     ),
@@ -176,7 +176,7 @@ $repair_image_large = '/bilder/hudbehandlingar/872x456/laser.webp';
 $repair_content = '<p class="p200">När din akne har behandlats och aknen försvunnit, tar vi itu med akneärren som den lämnat bakom sig. På AcneSpecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen läkningsprocess, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort acneärr och njuta av en problemfri hy.</p>';
 
 $repair_url = 'behandla-acnearr.php';
-$repair_url_label = 'Se ärrbehandlingar';
+$repair_url_label = 'Se behandlingar';
 $repair_url_title = 'klicka här för att se våra ärrbehandlingar';
 
 $results = array(
