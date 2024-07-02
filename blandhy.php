@@ -131,7 +131,7 @@ $treatment_steps = array(
 
 );
 
-$treatment_link = '<a href="https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om blandhybehandling</a>';
+$treatment_link = '<a href="https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin" title="Utforska effektiv blandhybehandling" class="mt-xl button b200 outline expand auto-width">Läs mer om behandling</a>';
 
 
 $symptoms_title = 'Blandhy symptom';
@@ -204,7 +204,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din blandhy";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för blandhy',
@@ -217,7 +217,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för blandhy',
       image_title: 'Konsultation för blandhy',
 
-      url_label: 'Läs mer om gratis hudkonsultation mot blandhy',
+      url_label: 'Läs mer om gratis hudkonsultation',
       url: '/gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation mot blandhy',
 
@@ -231,7 +231,7 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla blandhy";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -246,7 +246,7 @@ $services = array(
             image_title: 'Ansiktsbehandling för blandhy',
 
             url: '/problemhy.php',
-            url_label: 'Läs mer om ansiktsbehandling mot blandhy',
+            url_label: 'Läs mer om ansiktsbehandling',
             url_title: 'Läs mer om ansiktsbehandling mot blandhy',
 
             consultation_url_label: 'Boka konsultation',
@@ -270,7 +270,7 @@ $services = array(
             image_title: 'Kemisk peeling för blandhy behandling',
 
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot blandhy',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot blandhy',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -295,7 +295,7 @@ $services = array(
             image_title: 'Microneedling för blandhy behandling',
 
             url: '/microneedling.php',
-            url_label: 'Läs mer om microneedling mot blandhy',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot blandhy',
 
             consultation_url_label: 'Boka konsultation',
@@ -309,7 +309,7 @@ $services = array(
 
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny blandhy";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -340,7 +340,7 @@ $products = array(
 $articles = array(
 
       new Article(
-            title: 'När ska jag söka hjälp med min blandhy?',
+            title: 'När ska jag söka hjälp med min hy?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med min blandhy?',
@@ -350,7 +350,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
