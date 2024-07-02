@@ -8,7 +8,7 @@ $seo_keywords = 'behandling av stora porer, orsaker till stora porer, förebygga
 $seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
 
 $model = new Service(
-    title: 'Hudbehandlingar för Stora Porer',
+    title: 'Hudbehandlingar för stora porer',
     duration: null,
     price: null,
     content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av stora porer som hjälper dig att effektivt minska porernas storlek. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">behandling för stora porer</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en jämnare och slätare hud.</p>',
