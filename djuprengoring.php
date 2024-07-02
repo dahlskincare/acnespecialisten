@@ -1,4 +1,4 @@
-3<?php
+<?php
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
@@ -11,11 +11,11 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
-    new PathSegment('Djuprengöring Ansikte', '/djuprengoring.php'),
+    new PathSegment('Djuprengöring', '/djuprengoring.php'),
 );
 
 $model = new Service(
-    title: 'Djuprengöring Ansikte',
+    title: 'Djuprengöring ansikte',
     duration: '60 min',
     price: 'Från 799 kr',
     content: '<p class="p200">En djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring av huden. Denna behandling involverar en intensiv portömning som inte bara öppnar upp porerna utan även rensar dem på djupet.</p>',
