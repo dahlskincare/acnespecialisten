@@ -292,7 +292,7 @@ $articles = array(
             image_alt: 'Varför AcneSpecialisten?!',
             image_title: 'Varför AcneSpecialisten?!',
             content: '<p class="p200">När det kommer till att välja rätt behandling för dina acneärr, vet vi hur avgörande det är att finna någon som inte bara förstår ditt problem utan också erbjuder de mest innovativa och effektiva lösningarna. På Acnespecialisten har vi dedikerat över 30 år till att förstå och behandla acneärr. Vår gedigna erfarenhet gör oss till specialister som verkligen lever upp till vårt namn.</p>
-            <p class="p200 mt-m">Det som verkligen särskiljer oss är vår fokuserade expertis inom acneärrbehandling. Vi är inte bara experter på acneärr, utan även pionjärer inom ärrreducering, laser mot acneärr och effektiv aknebehandling. Genom att välja Acnespecialisten får du tillgång till en värld av expertis och omtanke, där ditt välmående står i centrum. Vi ser fram emot att hjälpa dig på din resa mot en ny början. Boka din kostnadsfria konsultation idag och ta det första steget med oss.</p>',
+            <p class="p200 mt-m">Det som verkligen särskiljer oss är vår fokuserade expertis inom acneärrbehandling. Vi är inte bara experter på acneärr, utan även pionjärer inom ärrreducering, laserbehandling och effektiv aknebehandling. Genom att välja Acnespecialisten får du tillgång till en värld av expertis och omtanke, där ditt välmående står i centrum. Vi ser fram emot att hjälpa dig på din resa mot en ny början. Boka din kostnadsfria konsultation idag och ta det första steget med oss.</p>',
             url: '/gratis-hudkonsultation.php',
             url_label: 'Läs mer',
             url_title: 'Läs mer om varför gratis hudkonsultation',
