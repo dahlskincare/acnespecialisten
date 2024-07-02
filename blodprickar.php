@@ -70,7 +70,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder effektiva och skonsamma behandlingsalternativ för blodprickar, inklusive laser och andra moderna metoder. Våra behandlingar är anpassade för att ge optimala resultat samtidigt som din hudkomfort prioriteras.',
 
-            url_label: 'Se behandlingar för blodprickar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_smultronmarke',
             url_title: 'Läs mer om behandlingar för blodprickar'
       ),
@@ -78,7 +78,7 @@ $treatment_steps = array(
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Hur blir man av med smultronmärken?',
+            title: 'Hur blir man av med dem?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -90,7 +90,7 @@ $top_articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina blodprickar";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för blodprickar',
@@ -116,7 +116,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla blodprickar med CryoPen";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
