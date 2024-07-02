@@ -24,7 +24,7 @@ $floating_box = 'Behandla dina akne i ansiktet effektivt.';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne i ansiktet',
-      description: 'Upptäck allt du behöver veta om akne i ansiktet, en vanlig hudåkomma som kan påverka alla, oavsett ålder. Från pormaskar till mer djupgående utslag finnar längs käklinjen, kinderna och under hakan, förklarar vi orsakerna bakom dessa utbrott och erbjuder råd för effektiva behandlingsmetoder. Lär dig hur du kan hantera din hudvård för att bekämpa akne och uppnå en klarare och friskare hud',
+      description: 'Upptäck allt du behöver veta om akne i ansiktet, en vanlig hudåkomma som kan påverka alla, oavsett ålder. Från pormaskar till mer djupgående utslag som finnar längs käklinjen, kinderna och under hakan, förklarar vi orsakerna bakom dessa utbrott och erbjuder råd för effektiva behandlingsmetoder. Lär dig hur du kan hantera din hudvård för att bekämpa akne och uppnå en klarare och friskare hud',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
