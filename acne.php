@@ -403,7 +403,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation',
@@ -430,7 +430,7 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -444,9 +444,9 @@ $services = array(
             image_alt: 'Kvinna som får ansiktsbehandling mot akne',
             image_title: 'Ansiktsbehandling mot akne',
 
-            url_label: 'Läs mer om ansiktsbehandling mot akne',
+            url_label: 'Läs mer om ansiktsbehandling',
             url: '/hudbehandlingar/ansiktsbehandling/akne/',
-            url_title: 'Läs mer om ansiktsbehandling mot akne',
+            url_title: 'Läs mer om ansiktsbehandling',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
@@ -467,9 +467,9 @@ $services = array(
             image_alt: 'Kvinna som får laserbehandling mot akne',
             image_title: 'Laserbehandling mot akne',
 
-            url_label: 'Läs mer om laser mot akne',
+            url_label: 'Läs mer om laser',
             url: 'laser-acne.php',
-            url_title: 'Läs mer om laser mot akne',
+            url_title: 'Läs mer om laser',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -490,9 +490,9 @@ $services = array(
             image_alt: 'Man som får kemisk peeling mot akne',
             image_title: 'Kemisk peeling mot akne behandling',
 
-            url_label: 'Läs mer om kemisk peeling mot akne',
+            url_label: 'Läs mer om kemisk peeling',
             url: 'kemisk-peeling-acne.php',
-            url_title: 'Läs mer om kemisk peeling mot akne',
+            url_title: 'Läs mer om kemisk peeling',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
@@ -515,9 +515,9 @@ $services = array(
             image_alt: 'Kvinna som får microneedling mot akne',
             image_title: 'Microneedling mot akne behandling',
 
-            url_label: 'Läs mer om microneedling mot akne',
+            url_label: 'Läs mer om microneedling',
             url: 'microneedling-acne.php',
-            url_title: 'Läs mer om microneedling mot akne',
+            url_title: 'Läs mer om microneedling',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
@@ -529,7 +529,7 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny akne";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -550,7 +550,7 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-akne (acneärr)";
+$headline04 = "04. Reparera";
 
 $procedures = array(
       new Service(
