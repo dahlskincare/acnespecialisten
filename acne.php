@@ -12,7 +12,7 @@ $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
-      new PathSegment('Acne', '/acne.php'),
+      new PathSegment('Akne', '/acne.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne.webp';
@@ -202,7 +202,7 @@ $type_categories = array(
             types: array(
                   new BasedType(
                         title: 'Stress akne',
-                        subtitle: 'Acne orsakat av stress',
+                        subtitle: 'Orsakat av stress',
                         image_url: 'bilder/symptom/102x102/stress-akne.webp',
                         image_alt: 'Bild av stress akne',
                         image_title: 'Exempel på stress akne',
@@ -211,7 +211,7 @@ $type_categories = array(
                   ),
                   new BasedType(
                         title: 'Hormonell akne',
-                        subtitle: 'Akne orsakad av hormoner',
+                        subtitle: 'Orsakad av hormoner',
                         image_url: 'bilder/symptom/102x102/hormonell-akne.webp',
                         image_alt: 'Bild av hormonell akne',
                         image_title: 'Exempel på hormonell akne',
