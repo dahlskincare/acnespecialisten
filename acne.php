@@ -102,10 +102,10 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför grundliga och effektiva aknebehandlingar anpassade för din specifika aknetyp, så att du snabbt och säkert blir av med problemet.',
-            url_label: 'Se aknebehandlingar',
+            content: 'Vi utför grundliga och effektiva behandlingar anpassade för din specifika problem, så att du snabbt och säkert blir av med problemet.',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+            url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
@@ -123,13 +123,13 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $types_title = 'Olika typer av akne';
 
 $type_categories = array(
       "acne_age" => new BasedTypeCategory(
-            title: 'Akne baserat på ålder',
+            title: 'Baserat på ålder',
             content: '<p class="p200">Akne är en hudåkomma som kan drabba både ungdomar och vuxna, även om det är vanligast under tonåren. Tonårsakne uppstår ofta på grund av hormonella förändringar under puberteten. Hos vuxna kan akne orsakas av faktorer som stress, hormonobalans och genetik. Oavsett ålder är det viktigt att förstå att akne kan påverka människor i alla livsstadier.</p>',
             types: array(
                   new BasedType(
@@ -161,7 +161,7 @@ $type_categories = array(
             )
       ),
       "acne_severity" => new BasedTypeCategory(
-            title: 'Akne baserat på svårighetsgrad',
+            title: 'Baserat på svårighetsgrad',
             content: '<p class="p200">Akne kan variera i svårighetsgrad från milda till extremt allvarliga fall. I milda fall av akne är symtomen ofta mindre uttalade och består främst av pormaskar, medan mer allvarliga fall innefattar djupare inflammationer i form av cystor och noduler. Svårighetsgraden påverkar också hur akne påverkar en persons livskvalitet och hur den ska behandlas. Det är viktigt att diagnostisera och behandla akne utifrån dess svårighetsgrad för att säkerställa bästa möjliga behandlingsresultat och förhindra potentiella ärr och bestående skador på huden.</p>',
             types: array(
                   new BasedType(
@@ -197,7 +197,7 @@ $type_categories = array(
             )
       ),
       "acne_external_factors" => new BasedTypeCategory(
-            title: 'Akne baserat på yttre faktorer',
+            title: 'Baserat på yttre faktorer',
             content: '<p class="p200">Yttre faktorer kan också påverka uppkomsten av akne. Exempel på dessa är sol, friktion, kosmetika, mediciner och miljöfaktorer. Dessa kan bidra till eller förvärra akne genom att irritera huden, täppa till porer eller påverka hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
@@ -275,7 +275,7 @@ $type_categories = array(
             )
       ),
       "acne_area" => new BasedTypeCategory(
-            title: 'Akne baserat på område',
+            title: 'Baserat på område',
             content: '<p class="p200">Akne kan uppträda på olika områden på kroppen. Ansiktet är det vanligaste området, men akne kan också förekomma på bröst, rygg, axlar och andra delar av kroppen. Placeringen av akne kan ge en indikation på dess orsak, som hormonella förändringar, irritation från kläder eller yttre faktorer som sol och friktion.</p>',
             types: array(
                   new BasedType(
