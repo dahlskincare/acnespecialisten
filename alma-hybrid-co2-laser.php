@@ -174,7 +174,7 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem vi behandlar med CO2 laser';
+$types_title = 'Hudproblem vi behandlar';
 $types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hybrid för att effektivt behandla en rad olika hudproblem.</p>';
 $types = array(
     new Service(
@@ -355,7 +355,7 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Områden vi behandlar med CO2 laser';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
@@ -471,7 +471,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Alma Hybrid',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/alma-hybrid-forberedelser.webp',
         image_large: '/bilder/process/872x456/alma-hybrid-forberedelser.webp',
         image_alt: 'Förberedelser inför Alma Hybrid',
@@ -481,7 +481,7 @@ $bottom_articles = array(
         <p class="p200 mt-m">Under konsultationen tar vi även upp din hudhistorik som kan påverka behandlingen. Detta är en viktig del av processen för att skräddarsy behandlingen efter dina behov och för att säkerställa att du får den mest effektiva och säkra behandlingen. Vi ser fram emot att arbeta tillsammans med dig och hjälpa dig att uppnå din önskade hudkvalitet med Alma Hybrid-behandling.</p>',
     ),
     'aftercare' => new Article(
-        title: 'Eftervård CO2 laser',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/alma-hybrid-eftervard.webp',
         image_large: '/bilder/process/872x456/alma-hybrid-eftervard.webp',
         image_alt: 'Eftervård CO2 laser',

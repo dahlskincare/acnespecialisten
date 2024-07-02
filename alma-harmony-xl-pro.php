@@ -47,7 +47,7 @@ Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med
 Bryter effektivt ner och tar bort tatueringspigment från huden. Denna metod riktar sig selektivt mot bläckpartiklarna, vilket tillåter kroppen att naturligt eliminera dem.</p>
 <p class="p200 mt-m">Alma Harmony XL Pro kombinerar dessa innovativa tekniker för att erbjuda en komplett lösning för de mest efterfrågade estetiska behandlingarna. Genom att anpassa behandlingen efter varje patients unika behov säkerställer Alma Harmony XL Pro optimala resultat och maximal patienttillfredsställelse.</p>';
 
-$types_title = 'Hudproblem som behandlas med Harmony XL Pro';
+$types_title = 'Hudproblem vi behandlar';
 $types_description = '<p class="p200">';
 $types = array(
     new Service(
@@ -208,7 +208,7 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Harmony XL Pro';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '<p class="p200">Den mångsidiga Harmony XL Pro-tekniken behandlar effektivt en rad olika hudområden.</p>';
 $treatment_areas = array(
     new TreatmentArea(
@@ -324,7 +324,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Harmony XL Pro',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/alma-harmony-xl-pro-forberedelser.webp',
         image_large: '/bilder/process/872x456/alma-harmony-xl-pro-forberedelser.webp',
         image_alt: 'Förberedelser inför Alma Harmony XL Pro',
@@ -334,7 +334,7 @@ $bottom_articles = array(
             <p class="p200 mt-m">Under konsultationen kommer vi att granska din hudhistorik och eventuella tidigare behandlingar för att fullständigt anpassa Harmony XL Pro-behandlingen till dina behov. Vårt mål är att du ska känna dig trygg och informerad genom hela behandlingsprocessen. Vi ser fram emot att hjälpa dig att uppnå en förbättrad hudkvalitet och ett strålande utseende med hjälp av Harmony XL Pro.</p>',
     ),
     'aftercare' => new Article(
-        title: 'Eftervård för Harmony XL Pro',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/alma-harmony-xl-pro-eftervard.webp',
         image_large: '/bilder/process/872x456/alma-harmony-xl-pro-eftervard.webp',
         image_alt: 'Eftervård för Harmony XL Pro',

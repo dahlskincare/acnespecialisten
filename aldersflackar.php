@@ -50,7 +50,7 @@ $floating_box = 'Vi behandlar åldersfläckar effektivt';
 
 $description_title = 'Vad är åldersfläckar?';
 $description_text = '<p class="p200">Åldersfläckar, ofta ett resultat av huden som åldras och långvarig exponering för solen, är små, mörka områden på huden. De är vanligast hos personer över 50 år men kan också dyka upp hos yngre individer som spenderar mycket tid i solen.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi en rad behandlingar för att hantera åldersfläckar. Våra metoder inkluderar allt från ljusbaserade behandlingar till kemiska peelingar och mikrodermabrasion. Dessa behandlingar är utformade för att minska synligheten av åldersfläckar och ge din hud en mer jämn ton. Vi erbjuder också råd om hur du kan förebygga nya åldersfläckar och hålla din hud hälsosam och strålande.</p>';
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi en rad behandlingar för att hantera åldersfläckar. Våra metoder inkluderar allt från ljusbaserade behandlingar till kemiska peelingar och mikrodermabrasion. Dessa behandlingar är utformade för att minska synligheten av åldersfläckar och ge din hud en mer jämn ton. Vi erbjuder också råd om hur du kan förebygga nyafläckar och hålla din hud hälsosam och strålande.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
