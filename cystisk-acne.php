@@ -49,7 +49,7 @@ $floating_box = 'Behandla dina cystisk akne effektivt.';
 
 $description_title = 'Vad är cystisk akne?';
 $description_text = '<p class="p200">Cystisk akne, även känd som nodulocystisk akne eller acne nodulocystica, representerar en av de mest allvarliga formerna av akne. Denna typ av hudåkomma går bortom vanliga akneutslag och karaktäriseras av djupt liggande cystor och noduler som bildas under huden. Till skillnad från mindre allvarliga former av akne, såsom pormaskar eller mindre finnar, innebär cystisk och nodulär akne stora, smärtsamma, inflammerade utslag som kan orsaka betydande obehag samt risk för långvarig ärrbildning. Cystisk akne och nodulär akne delar liknande drag i det att båda tillstånden involverar djupgående inflammation och stora, smärtsamma utslag som ofta kräver professionell behandling för att hantera effektivt. Nodulocystisk akne, specifikt, refererar till när både noduler och cystor är närvarande, vilket tyder på en ännu mer intensiv grad av akne.</p>
-<p class="p200 mt-m">Behandlingen av cystisk akne och dess varianter kräver en bred behandlingsplan som kombinerar både klinikbehandlingar och hemmavård som behandlar och balanserar problemet effektivt. På grund av den djupa inflammationen och risken för ärrbildning, är det viktigt att identifiera och inleda behandlingen tidigt för att reducera den negativa påverkan på huden. En hudterapeut kan hjäpla dig att komma igång med en skräddarsydd behandlingsplan som är anpassad för just din akne.</p>';
+<p class="p200 mt-m">Behandlingen kräver en bred behandlingsplan som kombinerar både klinikbehandlingar och hemmavård som behandlar och balanserar problemet effektivt. På grund av den djupa inflammationen och risken för ärrbildning, är det viktigt att identifiera och inleda behandlingen tidigt för att reducera den negativa påverkan på huden. En hudterapeut kan hjäpla dig att komma igång med en skräddarsydd behandlingsplan som är anpassad för just din akne.</p>';
 
 
 $treatment_steps = array(
@@ -83,7 +83,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot cystisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot cystisk akne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot cystisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $results = array(
     new ResultCustomer(
