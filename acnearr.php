@@ -45,7 +45,7 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om acneärr';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(

@@ -53,7 +53,7 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar blodprickar effektivt';
 
-$description_title = 'Vad är Blodprickar?';
+$description_title = 'Vad är blodprickar?';
 $description_text = '<p class="p200">Blodprickar, jordgubbsmärken eller hemangiom som är den medicinska termen, syns som röda prickar på huden. De varierar lite i färg från klarröda till mörkt röda eller mer åt det lila hållet och ibland likna röda födelsemärken hos dig som är vuxen. De varierar i storlek. Det kan vara från ett par millimeter till en eller flera centimeter. De kan vara både släta och upphöjda.</p>
 <p class="p200 mt-m">Blodprickar är godartade blodkärlstumörer. De uppkommer för att en större samling blodkärl bildats under det område på huden där märket finns. Det är särskilt vanligt hos mindre barn men förekommer även hos både tonåringar och vuxna. I regel är det ofarligt och försvinner ofta av sig självt, men det kan ta flera år. Därför behandlar man dem, men i synnerhet hos vuxna och inte mindre barn. Chansen är nämligen större att de försvinner av sig självt ju yngre man är.</p>';
 
