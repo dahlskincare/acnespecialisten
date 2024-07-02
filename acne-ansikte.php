@@ -12,7 +12,7 @@ $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
-      new PathSegment('Acne Ansikte', '/acne-ansikte.php'),
+      new PathSegment('Acne ansikte', '/acne-ansikte.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne-ansikte.webp';

@@ -301,7 +301,7 @@ $results = array(
     ),
 );
 
-$show_all_results_label = "Se fler resultat mot acneärr";
+$show_all_results_label = "Se fler resultat";
 $show_all_results_title = "Resultat mot acneärr";
 
 
