@@ -60,7 +60,7 @@ $description_text = '<p class="p200">Akne i ansiktet är en hudåkomma som känn
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos oss får du en personlig hudterapeut som hjäpler dig att analysera aknen på ansiktet och tar fram en skräddarsydd behandlingsplan för just din hy.',
+            content: 'Hos oss får du en personlig hudterapeut som hjäpler dig att analysera huden och tar fram en skräddarsydd behandlingsplan för just din hy.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
