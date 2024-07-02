@@ -35,7 +35,7 @@ $about_content = '<p class="p200">Att behandla stora porer kräver en genomtänk
 
     <p class="p200 mt-xl">Vi behandlar stora porer oavsett orsak och kan hjäpla dig med anpassade produkter och behandlingar för att reducera porerna och motverka att de vidgas. Om porerna har skapat ojämnheter eller andra hudproblem, har vi lösningar för att förbättra huden. Vi ser fram emot att bli din guide på resan mot att minska stora porer och återfå en jämnare och mer strålande hy.</p>';
 
-$headline01 = "01. Identifiera dina stora porer";
+$headline01 = "01. Identifiera";
 
 $define_image_alt = 'Hur vi behandlar och minskar stora porer?';
 $define_image_title = 'Hur vi behandlar och minskar stora porer?';
@@ -43,10 +43,10 @@ $define_image_title = 'Hur vi behandlar och minskar stora porer?';
 $define_content = '<p class="p200">Första steget i vår process att få bort stora porer i ansiktet och på kroppen är att kartlägga din hud och porstorlek. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och berättar om orsaken till dina stora porer samt hur vi effektivt kan behandla dem. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
-$define_consultation_link_label = "Boka Gratis Konsultation";
+$define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot stora porer";
 
-$headline02 = "02. Behandla stora porer";
+$headline02 = "02. Behandla";
 
 $treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, därefter påbörjar vi behandlingen av stora porer. Här är målet framför allt att djuprengöra och minska porernas synlighet som kan påverka hudens textur och utseende. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process rengör vi porerna, tar bort döda hudceller och överflödig talg, och balanserar talgproduktionen. Vi utför också porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
@@ -143,7 +143,7 @@ $services = array(
 
 );
 
-$headline03 = "03. Förebygg stora porer";
+$headline03 = "03. Förebygg";
 
 $products = array(
     new Product(
