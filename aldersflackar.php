@@ -69,11 +69,11 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot åldersfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot åldersfläckar</a>';
+$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot åldersfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var uppstår åldersfläckar och varför?',
+            title: 'Var uppstår hudproblemet och varför?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -82,7 +82,7 @@ $top_articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina åldersfläckar";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för åldersfläckar',
@@ -100,11 +100,11 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer konsultation mot åldersfläckar',
+      url_label: 'Läs mer konsultation',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för åldersfläckar'
 );
 
-$headline02 = "02. Behandlingar mot åldersfläckar";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -123,7 +123,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en IPL-behandling för åldersfläckar',
             url: 'ipl-pigmentflackar.php',
-            url_label: 'Läs mer om IPL-behandling mot åldersfläckar',
+            url_label: 'Läs mer om IPL behandling',
             url_title: 'Klicka här för att läsa mer om IPL-behandling för åldersfläckar'
       ),
       new Service(
@@ -142,7 +142,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för åldersfläckar',
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot åldersfläckar',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot åldersfläckar'
       ),
       new Service(
@@ -161,7 +161,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot åldersfläckar',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
-            url_label: 'Läs mer om laser mot åldersfläckar',
+            url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot åldersfläckar'
       ),
 
@@ -181,14 +181,14 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för åldersfläckar',
             url: '/microneedling.php',
-            url_label: 'Läs mer om microneedling mot åldersfläckar',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot åldersfläckar'
       ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska du överväga att få hjälp med åldersfläckar?',
+            title: 'När ska du överväga att få hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska du överväga att få hjälp med åldersfläckar?',
@@ -197,7 +197,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
+            title: 'Fördelarna med att välja AcneSpecialisten',
             image_small: null,
             image_large: null,
             image_alt: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
