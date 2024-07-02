@@ -2,9 +2,9 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Akne behandling i Stockholm | AcneSpecialisten';
+$seo_title = 'Aknebehandling i Stockholm | AcneSpecialisten';
 $seo_description = 'Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av få bort akne med våra aknebehandlingar, Boka gratis hudkonsultation i Stockholm eller online';
-$seo_keywords = 'akne behandling, akne medicin, acne behandling, bästa akne behandling, ansikte behandling, aknebehandling, behandling acne, få bort acne, ta bort acne, hormonell akne behandling, behandla acne, behandla akne, bli av med acne, bli av med akne, få bort akne, hur blir man av med akne';
+$seo_keywords = 'aknebehandling, akne medicin, acne behandling, bästa aknebehandling, ansikte behandling, aknebehandling, behandling acne, få bort acne, ta bort acne, hormonell aknebehandling, behandla acne, behandla akne, bli av med acne, bli av med akne, få bort akne, hur blir man av med akne';
 $seo_image = 'images/treatments/large/acne-scars.jpg';
 
 $path_segments = array(
@@ -13,10 +13,10 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Akne behandling',
+    title: 'Aknebehandling',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Här har vi samlat de bästa akne behandlingarna som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp? Oavsett om det är hormonell acne behandling eller annan typ av akne rekomenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten så hjälper vi dig att få bort akne.</p>',
+    content: '<p class="p200">Här har vi samlat de bästa aknebehandlingarna som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp? Oavsett om det är hormonell acne behandling eller annan typ av akne rekomenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten så hjälper vi dig att få bort akne.</p>',
     image_small: 'images/treatments/small/acne-scars.jpg',
     image_large: 'images/treatments/large/acne-scars.jpg',
     image_alt: 'Bild som illustrerar akne',
@@ -29,13 +29,13 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$about_title = 'Behandla din akne hos oss';
+$about_title = 'Om behandlingen';
 
 $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På Acnespecialisten använder vi vår expertis och de bästa verktygen för att effektivt få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Vi skapar en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
 
-$headline01 = "01. Identifiera din akne";
+$headline01 = "01. Identifiera";
 
 $define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar akne?';
@@ -47,7 +47,7 @@ $define_consultation_link = "https://acnespecialisten.se/book?flow=problem&probl
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot akne";
 
-$headline02 = "02. Behandla aktiv akne";
+$headline02 = "02. Behandla";
 
 $treat_content = '<p class="p200">När din aknetyp har identifierats, inleder vi fas två: behandling av den aktiva aknen. Här är målet framförallt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskad akne och dess förekomst.</p>';
 
@@ -69,11 +69,11 @@ $services = array(
 
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_facial',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Acne på Acnespecialisten',
+        booking_url_title: 'Boka ansiktsbehandling',
 
         url: '/hudbehandlingar/ansiktsbehandling/akne/',
-        url_label: 'Läs mer om ansiktsbehandling mot acne',
-        url_title: 'Läs mer om ansiktsbehandling mot acne',
+        url_label: 'Läs mer om ansiktsbehandling',
+        url_title: 'Läs mer om ansiktsbehandling',
 
         // short_title: 'Ansiktsbehandling'
 
@@ -94,10 +94,10 @@ $services = array(
         consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
         booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din laserbehandling mot akne nu',
+        booking_url_title: 'Boka laserbehandling',
         url: 'laser-acne.php',
-        url_label: 'Läs mer om laserbehandling mot akne',
-        url_title: 'Läs mer om laserbehandling mot akne',
+        url_label: 'Läs mer om laserbehandling',
+        url_title: 'Läs mer om laserbehandling',
 
         // short_title: 'Laser'
 
@@ -117,11 +117,11 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
         url: 'kemisk-peeling-acne.php',
-        url_label: 'Läs mer om kemisk peeling mot akne',
-        url_title: 'Läs mer om kemisk peeling mot akne',
+        url_label: 'Läs mer om kemisk peeling',
+        url_title: 'Läs mer om kemisk peeling',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din kemiska peeling mot akne nu',
+        booking_url_title: 'Boka kemiska peeling',
         short_title: 'Kemisk Peeling'
 
     ),
@@ -140,17 +140,17 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot akne',
         url: 'microneedling-acne.php',
-        url_label: 'Läs mer om microneedling mot akne',
-        url_title: 'Läs mer om microneedling mot akne',
+        url_label: 'Läs mer om microneedling',
+        url_title: 'Läs mer om microneedling',
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din microneedling mot akne nu',
+        booking_url_title: 'Boka microneedling',
         short_title: 'Microneedling'
 
     ),
 );
 
-$headline03 = "03. Förebygg akne";
+$headline03 = "03. Förebygg";
 
 $products = array(
     new Product(
@@ -160,15 +160,15 @@ $products = array(
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
 
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-        url_label: 'Utforska produkter mot akne',
+        url_label: 'Utforska produkterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
 
         price: 'Produkter mot akne - Pris från 1395 kr',
-        content: '<p class="p200">Att förebygga akne är en viktig del av processen för att hålla din hud aknefri. För att hålla din akne under kontroll rekommenderar vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper dig att bli fri från aknen samt förhindra framtida utbrott.</p>',
+        content: '<p class="p200">Att förebygga hudproblemet är en viktig del av processen för att hålla din hud aknefri. För att hålla din akne under kontroll rekommenderar vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper dig att bli fri från aknen samt förhindra framtida utbrott.</p>',
     ),
 );
 
-$headline04 = '04. Reparera post-akne (Acneärr)';
+$headline04 = '04. Reparera';
 
 $repair_image_small = '/bilder/hudbehandlingar/358x274/laser.webp';
 $repair_image_large = '/bilder/hudbehandlingar/872x456/laser.webp';
@@ -823,7 +823,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                        <p class="p200 mt-m">Det är dock viktigt att komma ihåg att regelbunden och korrekt hudvård kan hålla aknen i schack. Precis som vi borstar tänderna varje dag för att hålla karies borta, behöver vi underhålla vår hud för att hålla aknen borta. Det innebär att följa en anpassad hudvårdsrutin, hantera stress och upprätthålla en hälsosam livsstil. Så länge du tar hand om din hud regelbundet och på rätt sätt, kan du förhindra att aknen återkommer.</p>'
                             ),
                             new Question(
-                                title: 'Vilken är den bästa akne behandling ni erbjuder?',
+                                title: 'Vilken är den bästa aknebehandling ni erbjuder?',
                                 text: '<p class="p200">Vilken behandling som är bäst för akne varierar beroende på individens hudtyp, aknens svårighetsgrad och orsakerna till akne. Den bästa behandlingen är en skräddarsydd behandlingsplan som kombinerar rätt behandlingar, produkter och rutiner för att effektivt ta itu med den aktiva aknen och förhindra att nya utbrott uppstår. Genom att först behandla och bli av med den aktiva aknen kan du uppnå en klarare hud. Därefter är det viktigt att bibehålla resultaten med lämpliga produkter och rutiner för att motverka att nya finnar uppstår och hålla aknen under kontroll. Det rekommenderas att konsultera en av våra specialister för att få en personlig och effektiv behandlingsplan som passar just din hud och akne.</p>'
                             ),
                             new Question(
