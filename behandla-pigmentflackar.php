@@ -35,7 +35,7 @@ $about_content = '<p class="p200">Att behandla och reducera pigmentfläckar är 
 
     <p class="p200 mt-xl">Med vår kostnadsfria hudkonsultation bestämmer vi den bästa åtgärden för att behandla dina specifika pigmentfläckar. Oavsett om det handlar om en enstaka fläck eller ett mer omfattande område, är vårt huvudsyfte att återge din hud dess naturliga, jämnare utseende. Genom varje steg i processen, från den inledande konsultationen till att uppnå det önskade resultatet, är vårt dedikerade team på AcneSpecialisten här för att stödja dig.</p>';
 
-$headline01 = "01. Identifiera dina pigmentfläckar";
+$headline01 = "01. Identifiera";
 
 $define_image_alt = 'Behandling av Pigmentfläckar';
 $define_image_title = 'Behandling av Pigmentfläckar';
@@ -43,11 +43,11 @@ $define_image_title = 'Behandling av Pigmentfläckar';
 $define_content = '<p class="p200">För att kunna hjäpla dig med dina pigmentfläckar är det viktigt att vi förstår ditt specifika hudtillstånd och dina pigmentfläckarnas natur. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud noggrant och diskuterar dina mål samt dina tidigare erfarenheter med pigmentfläckar. Vi tar förebilder för att noga övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
-$define_consultation_link_label = "Boka Gratis Konsultation";
+$define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för behandling av pigmentfläckar";
 
 
-$headline02 = "02. Behandling av pigmentfläckar";
+$headline02 = "02. Behandla";
 
 $treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar, inleder vi behandlingen för att reducera eller eliminera pigmentfläkcarna för att återställa en jämnare hudton. Vi använder olika metoder och behandlingar som är skräddarsydda efter dina specifika behov. Detta gör att vi kan maximera resultaten och minimera eventuellt obehag. Genom denna process arbetar vi för att minska pigmentfläckarnas synlighet och förbättra hudens utseende över tid.</p>';
 
@@ -70,7 +70,7 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din IPL-behandling mot pigmentfläckar nu',
         url: '/ipl-pigmentflackar.php',
-        url_label: 'Läs mer om IPL mot pigmentfläckar',
+        url_label: 'Läs mer om IPL',
         url_title: 'Läs mer om IPL mot pigmentfläckar',
         short_title: 'IPL'
     ),
@@ -89,7 +89,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot pigmentfläckar',
         url: '/kemisk-peeling.php',
-        url_label: 'Läs mer om kemisk peeling mot pigmentfläckar',
+        url_label: 'Läs mer om kemisk peeling',
         url_title: 'Läs mer om kemisk peeling mot pigmnetfläckar',
         booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
@@ -111,7 +111,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot pigmentfläckar',
         url: '/microneedling.php',
-        url_label: 'Läs mer om microneedling mot pigmentfläckar',
+        url_label: 'Läs mer om microneedling',
         url_title: 'Läs mer om microneedling mot pigmentfläckar',
         booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
@@ -140,7 +140,7 @@ $services = array(
         booking_url_title: 'Boka Din CryoPen-behandling mot pigmentfläckar på Acnespecialisten',
 
         url: '/cryopen.php',
-        url_label: 'Läs mer om CryoPen mot pigmentfläckar',
+        url_label: 'Läs mer om CryoPen',
         url_title: 'Läs mer om CryoPen mot pigmentfläckar',
 
         short_title: 'CryoPen'
