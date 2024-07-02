@@ -26,7 +26,7 @@ $model = new Service(
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar'),
-    new PathSegment('Behandla acneärr', '/behandla-acnearr.php'),
+    new PathSegment('Behandla finnar ärr', '/behandla-finnar-arr.php'),
 );
 
 $about_title = 'Hur vi behandlar och tar bort ärr från finnar?';

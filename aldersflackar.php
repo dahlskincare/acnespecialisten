@@ -188,7 +188,7 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'När ska du överväga att få hjälp?',
+            title: 'När ska du överväga att söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska du överväga att få hjälp med åldersfläckar?',

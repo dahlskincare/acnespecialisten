@@ -26,7 +26,7 @@ $model = new Service(
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar'),
-    new PathSegment('Behandla Pigmentfläckar', '/behandla-pigmentflackar.php'),
+    new PathSegment('Behandla pigmentfläckar', '/behandla-pigmentflackar.php'),
 );
 
 $about_title = 'Hur vi reducerar och tar bort pigmentfläckar';
