@@ -55,21 +55,21 @@ $description_text = '<p class="p200">Komedoner uppstår när porer täpps till a
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten blir du matchad med en erfaren hudterapeut som hjälper dig att noggrant identifiera dina komedoner. Tillsammans utarbetar ni en skräddarsydd behandlingsplan för att specifikt adressera och hantera dina komedoner.',
+            content: 'På AcneSpecialisten blir du matchad med en erfaren hudterapeut som hjälper dig att noggrant identifiera dina hudproblem. Tillsammans utarbetar ni en skräddarsydd behandlingsplan för att behandla din hy.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             url_label: 'Boka konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vår behandling av komedoner involverar skonsamma men effektiva metoder för portömning, anpassade efter dina specifika hudbehov. Målet är att säkert och effektivt eliminera komedoner och förbättra hudens utseende.',
+            content: 'Vår behandling består av effektiva metoder för portömning, anpassade efter dina specifika hudbehov. Målet är att säkert och effektivt eliminera hudproblemet och förbättra hudens utseende.',
             url: '/hudbehandlingar/pormaskar/',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra nya komedoner, hjälper vi dig att etablera en anpassad hudvårdsrutin. Vi väljer ut produkter som är idealiska för din hudtyp för att effektivt förebygga komedoner och upprätthålla en hälsosam hudbalans.',
+            content: 'Vi hjälper vi dig att etablera en anpassad hudvårdsrutin. Vi väljer ut produkter som är idealiska för din hudtyp för att effektivt förebygga komedoner och upprätthålla en hälsosam hudbalans.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
             url_title: 'Hitta de bästa produkterna för att förebygga komedoner'
@@ -79,25 +79,25 @@ $treatment_link = '<a href="/hudbehandlingar/pormaskar/" title="Utforska effekti
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var uppstår komedoner?',
+            title: 'Var uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Att förstå uppkomsten av komedoner är viktigt för att effektivt behandla och förebygga dem. En noggrann hudanalys är en avgörande del av konsultationen hos AcneSpecialisten. Under denna initiala bedömning identifierar vi områden med komedoner och analyserar orsakerna bakom dessa hudproblem. Denna förståelse är central för att utforma en individuellt anpassad behandlingsplan för dina specifika hudvårdsbehov.</p>
-      <p class="p200 mt-m">Komedoner, ofta kända som pormaskar, uppstår vanligtvis i områden med ökad talgproduktion, såsom ansiktet, näsan och pannan. De orsakas av en kombination av överproduktion av hudolja och ansamling av döda hudceller som blockerar porerna. Komedoner och akne har mycket gemensamt och det är därför vanligt att båda problemen uppstår samtidigt. Våra hudterapeuter ger dig vägledning för att förbereda och vårda din hud inför och efter behandlingar som syftar till att minska komedoner, såsom Dermapen, för att säkerställa en effektiv och trygg behandlingsupplevelse.</p>',
+            content: '<p class="p200">Att förstå uppkomsten av komedoner är viktigt för att effektivt behandla och förebygga dem. En noggrann hudanalys är en avgörande del av konsultationen hos AcneSpecialisten. Under denna initiala bedömning identifierar vi problemområdet och analyserar orsakerna bakom dessa hudproblem. Denna förståelse är central för att utforma en individuellt anpassad behandlingsplan för dina specifika hudvårdsbehov.</p>
+      <p class="p200 mt-m">Komedoner, ofta kända som pormaskar, uppstår vanligtvis i områden med ökad talgproduktion, såsom ansiktet, näsan och pannan. De orsakas av en kombination av överproduktion av hudolja och ansamling av döda hudceller som blockerar porerna. De har mycket gemensamt med akne och det är därför vanligt att båda problemen uppstår samtidigt. Våra hudterapeuter ger dig vägledning för att förbereda och vårda din hud inför och efter behandlingar som syftar till att minska problemet, såsom Dermapen, för att säkerställa en effektiv och trygg behandlingsupplevelse.</p>',
       ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina komedoner?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina komedoner?',
             image_title: 'När ska jag söka hjälp med mina komedoner?',
-            content: '<p class="p200">komedoner är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina komedoner börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka komedoner eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
-            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina komedoner och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina komedoner har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
+            content: '<p class="p200">Komedoner är en av de mest förekommande hudåkommorna och kan drabba personer i alla åldrar. Även om de i många fall är ofarliga och mestadels en estetisk bekymmer, kan de påverka självkänslan och orsaka obehag. Om du märker att dina komedoner börjar påverka ditt välbefinnande, eller om du har provat olika produkter och hemmabehandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att alla kan söka hjälp, oavsett om du har enstaka komedoner eller ett mer utbrett problem. Det finns ingen "minsta gräns" för när det är lämpligt att söka professionell vård.</p>
+            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just ditt hudproblem. En expert kan analysera din hudtyp, diskutera möjliga orsaker till dina hudproblem och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och portömning till mer avancerade hudvårdsprodukter. Så, om du känner att dina utslag har blivit en belastning eller om du helt enkelt vill ha en problemfri hy, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot bättre hy.</p>',
       ),
 
       new Article(
