@@ -34,7 +34,7 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
 );
 
-$about_title = 'Om milier';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
@@ -79,7 +79,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina milier och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten matchas du med en personlig hudterapeut som hjälper dig att identifierar dina hudproblem och skapar en individuell behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Milia',
@@ -87,9 +87,9 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder målinriktade och effektiva behandlingar för milier, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
+            content: 'Vi erbjuder målinriktade och effektiva behandlingar, anpassade till din hud och dess unika behov. Vårt mål är att du ska kunna bli av med dina milier på ett säkert och effektivt sätt.',
 
-            url_label: 'Läs mer om milierbehandling',
+            url_label: 'Läs mer om behandling',
             url: 'milierbehandling.php',
             url_title: 'Utforska våra skräddarsydda behandlingar för milier'
       ),
@@ -264,7 +264,7 @@ $symptoms = array(
             ),
 );
 */
-$headline01 = "01. Identifiera dina milier";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för milier',
@@ -277,7 +277,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för milierbehandling',
       image_title: 'Konsultation för milierbehandling',
 
-      url_label: 'Läs mer om konsultation mot milier',
+      url_label: 'Läs mer om konsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om kostnadsfri konsultation för milier',
 
@@ -290,7 +290,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla milier";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -305,7 +305,7 @@ $services = array(
             image_title: 'Behandling mot milier',
 
             url: '/milierbehandling.php',
-            url_label: 'Läs mer om ansiktsbehandling mot milier',
+            url_label: 'Läs mer om ansiktsbehandling',
             url_title: 'Klicka här för att läsa mer om behandling mot milier',
 
             consultation_url_label: 'Boka konsultation',
@@ -320,7 +320,7 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina milier?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina milier?',
@@ -332,7 +332,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina milier?',
