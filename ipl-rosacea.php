@@ -73,14 +73,14 @@ $treatment_steps = array(
     ),
     new TreatmentStep(
         title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
+        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika hy, så att du snabbt och säkert blir av med problemet.',
         url_label: 'Se behandlingar',
         url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
         url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
     ),
     new TreatmentStep(
         title: 'Förebygga',
-        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
+        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya hudproblem och hålla din hud i balans.',
         url_label: 'Se produkter',
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
         url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
