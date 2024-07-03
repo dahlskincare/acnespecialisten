@@ -79,7 +79,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten får du träffa en erfaren hudterapeut som hjälper dig identifiera din specifika typ av perioral dermatit och utvecklar en personlig behandlingsplan just för dig.',
+            content: 'Hos AcneSpecialisten får du träffa en erfaren hudterapeut som hjälper dig identifiera din specifika hudtyp och utvecklar en personlig behandlingsplan just för dig.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PerioralDermatitis',
@@ -87,7 +87,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder noggrant anpassade och effektiv perioral dermatit behandling. Dessa behandlingsplaner är utformade för att lindra symptomen snabbt och säkert.',
+            content: 'Vi erbjuder noggrant anpassade och effektiva behandlingar. Dessa behandlingsplaner är utformade för att lindra symptomen snabbt och säkert.',
 
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PerioralDermatitis&method=Method_FacialProblem&area=EMPTY',
@@ -95,7 +95,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi hjälper dig att finna en hudvårdsrutin och rekommenderar produkter speciellt anpassade för känslig hud och perioral dermatit.',
+            content: 'Vi hjälper dig att finna en hudvårdsrutin och rekommenderar produkter speciellt anpassade för hudtypen.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
@@ -358,7 +358,7 @@ $services = array(
             title: 'Ansiktsbehandling mot Perioral Dermatit',
             duration: '60 min',
             price: '1295 kr',
-            content: 'Denna ansiktsbehandling är specialanpassad för personer med perioral dermatit. Behandlingen syftar till att lindra symtom och förbättra hudens skick genom en skonsam och noggrann rengöring av de drabbade områdena.',
+            content: 'Behandlingen syftar till att lindra symtom och förbättra hudens skick genom en skonsam och noggrann rengöring av de drabbade områdena.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
@@ -386,7 +386,7 @@ $products = array(
             title: 'Perioral Dermatit Produkter',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Daglig skötsel av huden är viktig för att hålla ditt hudproblem i schack. Vi rekommenderar produkter som perioral dermatit kräm är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
+            content: 'Daglig skötsel av huden är viktig för att hålla ditt hudproblem i schack. Vi rekommenderar produkter är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
