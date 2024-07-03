@@ -21,7 +21,7 @@ $image_title = 'Visar en hud med fet hy';
 $image_alt = 'Bild som illustrerar utseendet av fet hy';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Oljig & fet Hy i Ansiktet',
+      title: 'Oljig & fet hy i ansiktet',
       description: 'Kan också beskrivas som oljig hy i t-zon, glansig hy eller blank hy. Här förklarar vi vad som kännetecknar fet hy, varför problemet uppstår och hur vi kan hjälpa dig.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
@@ -44,7 +44,7 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandling av fet hy.';
 
-$description_title = 'Vad är Fet Hy?';
+$description_title = 'Vad är fet hy?';
 $description_text = '<p class="p200">Fet hy, även kallad flottig hud, är en av de vanligaste hudtyperna. Den kännetecknas av överproduktion av talg, vilket resulterar i en oljig yta som kan leda till tilltäppta porer och acne. Fet hy uppstår när porerna producerar för mycket talg, vilket är kroppens naturliga fett som hjälper till att återfukta huden. En naturlig reaktion är att sluta återfukta huden för att minska talgproduktionen, men detta kan istället leda till att huden blir ännu fetare.</p>
 
 <p class="p200 mt-m">Orsakerna till fet hy kan vara många, inklusive långvarig användning av uttorkande hudvårdsprodukter, vilket triggar en överproduktion av talg som kompensation. Dessutom kan fet hy vara ärftlig eller hormonellt betingad, vilket är en vanlig anledning till att problemen ofta uppstår i tonåren. Miljöpåverkan kan också spela en roll, särskilt under vinterhalvåret när huden tenderar att bli torrare. Mäns talgproduktion påverkas också i mindre utsträckning av hormonella förändringar jämfört med kvinnor, vilket kan göra kvinnors hy mer benägen att bli oljig.</p>
@@ -54,7 +54,7 @@ $description_text = '<p class="p200">Fet hy, även kallad flottig hud, är en av
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Under din första konsultation hos AcneSpecialisten analyserar en hudterapeut din hud för att identifiera tecken på fet hy. Vi skapar en anpassad behandlingsplan baserad på din huds specifika behov.',
+            content: 'Under din första konsultation hos AcneSpecialisten analyserar en hudterapeut din hud för att identifiera tecken på hudproblemet. Vi skapar en anpassad behandlingsplan baserad på din huds specifika behov.',
 
             url_label: 'Boka konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
@@ -62,7 +62,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder hudvård för fet hy som är specifikt utformade för att hantera utmaningarna som hudproblemet orsakar, inklusive djuprengöring och reglering av talgproduktion.',
+            content: 'Vi erbjuder hudvård som är specifikt utformade för att hantera utmaningarna som hudproblemet orsakar, inklusive djuprengöring och reglering av talgproduktion.',
 
             url_label: 'Utforska behandlingar',
             url: 'https://treatment-booking.minoch.com/?flow=problem&problem=Problem_CombinationSkin',
@@ -82,7 +82,7 @@ $treatment_link = '<a href="https://acnespecialisten.se/book?flow=facialProblem&
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Fet hy områden',
+            title: 'Var uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -94,7 +94,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med fet hy?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med fet hy?',
@@ -113,7 +113,7 @@ $articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera fet hy";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för fet hy',
@@ -139,7 +139,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla fet hy";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -167,7 +167,7 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny fet hy";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
