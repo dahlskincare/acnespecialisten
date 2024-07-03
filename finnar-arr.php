@@ -47,7 +47,7 @@ $green_banner_content = new GreenBannerContent(
       ],
 );
 
-$about_title = 'Om ärr från finnar';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
@@ -97,13 +97,13 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Genom att använda specialiserade metoder för behandling av ärr från finnar, erbjuder vi lösningar som är perfekt anpassade till dina specifika behov. Vår expertis ger en effektiv förbättring av hudens utseende, så att du snabbt kan se resultat och känna dig nöjd med din hud.',
-            url_label: 'Utforska våra ärrbehandlingar',
+            url_label: 'Utforska våra behandlingar',
             url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
             url_title: 'Upptäck våra unika och effektiva behandlingar för ärr från finnar'
       ),
 );
 
-$treatment_link = '<a href="behandla-finnar-arr.php" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot ärr</a>';
+$treatment_link = '<a href="behandla-finnar-arr.php" title="Utforska effektiva behandlingar mot ärr" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $symptoms_title = 'Olika typer av ärr';
 
@@ -199,7 +199,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina ärr";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för Ärr från Finnar',
@@ -217,11 +217,11 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: '/gratis-hudkonsultation.php',
-      url_label: 'Läs mer om konsultation mot ärr från finnar',
+      url_label: 'Läs mer om konsultation',
       url_title: 'Läs mer om gratis hudkonsultation mot ärr från finnar',
 );
 
-$headline02 = "02. Behandla dina ärr";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -240,7 +240,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserterapi för ärr som uppstått från finnar',
             url: '/laser-acnearr.php',
-            url_label: 'Läs mer om laser mot ärr från finnar',
+            url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot ärr från finnar',
       ),
       new Service(
@@ -259,7 +259,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för ärr som uppstått från finnar',
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot ärr från finnar',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot ärr från finnar',
       ),
       new Service(
@@ -278,7 +278,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för ärr som bildats av finnar',
             url: '/microneedling-acnearr.php',
-            url_label: 'Läs mer om microneedling mot ärr från finnar',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot ärr från finnar',
       ),
 );
@@ -286,7 +286,7 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'Hur får man bort ärr från finnar?',
+            title: 'Hur får man bort ärren?',
             image_small: null,
             image_large: null,
             image_alt: 'Hur får man bort ärr från finnar?',
