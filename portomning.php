@@ -64,7 +64,7 @@ $description_text = '<p class="p200">Portömning är en ansiktsbehandling utform
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en portömning till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/problemhy-process.webp',
         image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Hur går en portömning till?',
@@ -75,7 +75,7 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Portömning baserat på område';
+$treatment_areas_title = 'Behandling baserat på område';
 $treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
@@ -90,7 +90,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Portömning i ansiktet',
                 image_title: 'Portömning i ansiktet',
-                title: 'Portömning - Ansikte',
+                title: 'Ansikte',
                 duration: '60 min',
                 price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing',
@@ -101,7 +101,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/brost.svg',
                 image_alt: 'Portömning på bröstet',
                 image_title: 'Portömning på bröstet',
-                title: 'Portömning - Bröst',
+                title: 'Bröst',
                 duration: '60 min',
                 price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest',
@@ -112,7 +112,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/rygg.svg',
                 image_alt: 'Portömning på ryggen',
                 image_title: 'Portömning på ryggen',
-                title: 'Portömning - Rygg',
+                title: 'Rygg',
                 duration: '60 min',
                 price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back',
@@ -125,7 +125,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård för portömning',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
         image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
         image_alt: 'Eftervård för portömning',
