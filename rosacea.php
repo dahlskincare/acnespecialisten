@@ -81,14 +81,14 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din hudtyp och skapar en individuell behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför skonsamma och effektiva rosaceabehandlingar anpassade för din specifika rosacea.',
+            content: 'Vi utför skonsamma och effektiva ehandlingar anpassade för din specifika hudtyp.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea',
             url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
@@ -275,7 +275,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist på rosacea utförs en undersökning av din hud. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist utförs en undersökning av din hud. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
       image_small: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
       image_large: 'bilder/behandlingar/200x200/gratis-hudkonsultation.webp',
       image_alt: 'Bild av en konsultation för rosaceabehandling',
@@ -298,7 +298,7 @@ $services = array(
             title: 'Ansiktsbehandling mot rosacea',
             duration: '60 min',
             price: '1295 kr',
-            content: 'En effektiv ansiktsbehandling mot rosacea fokuserar på att lindra rodnad och inflammation. Genom att använda specialanpassade produkter och tekniker kan denna behandling bidra till att förbättra hudens textur och utseende.',
+            content: 'En effektiv ansiktsbehandling som fokuserar på att lindra rodnad och inflammation. Genom att använda specialanpassade produkter och tekniker kan denna behandling bidra till att förbättra hudens textur och utseende.',
             image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
@@ -317,7 +317,7 @@ $services = array(
             title: 'IPL mot rosacea',
             duration: '30-60 min',
             price: '1295 kr',
-            content: 'IPL-behandling mot rosacea använder intensivt pulserat ljus för att effektivt minska rodnad och inflammation. Denna metod behandlar effektivt rosaceasymptom och främja en jämnare hudton.',
+            content: 'IPL behandling använder intensivt pulserat ljus för att effektivt minska rodnad och inflammation. Denna metod behandlar effektivt rosaceasymptom och främja en jämnare hudton.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Bild av en ansiktsbehandling mot rosacea',
@@ -341,7 +341,7 @@ $products = array(
             title: 'Produkter mot rosacea',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'För att effektivt behandla och förebygga rosacea är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
+            content: 'För att effektivt behandla och förebygga hudproblemet är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
             image_small: 'bilder/behandlingar/200x200/produkter.webp',
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av rosacea',
@@ -391,7 +391,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?',
             image_title: 'Varför AcneSpecialisten?',
-            content: '<p class="p200">AcneSpecialisten är din expertpartner i kampen mot rosacea med över 30 års erfarenhet. Vi förstår djupt hudåkommans olika typer och erbjuder skräddarsydda behandlingsplaner baserade på dina unika behov. Vår expertis möjliggör valet av effektiva produkter som både förebygger och behandlar rosacea, anpassade till din hudtyp och livsstil.</p>
+            content: '<p class="p200">AcneSpecialisten är din expertpartner i kampen mot rosacea med över 30 års erfarenhet. Vi förstår djupt hudåkommans olika typer och erbjuder skräddarsydda behandlingsplaner baserade på dina unika behov. Vår expertis möjliggör valet av effektiva produkter som både förebygger och behandlar, anpassade till din hudtyp och livsstil.</p>
 
                   <p class="p200 mt-m">Hos oss får du mer än behandling; ett omfattande stöd genom din resa mot bättre hudhälsa, från första konsultation till uppföljning och långsiktigt underhåll. Vi förstår utmaningarna med rosacea och tillhandahåller de verktyg och den hjälp du behöver för att förbättra din livskvalitet. AcneSpecialisten erbjuder individanpassad, effektiv och stöttande vård för att hjälpa dig uppnå klar och frisk hud. Välkommen till AcneSpecialisten - din dedikerade partner i rosaceavård.</p>',
       ),
@@ -401,7 +401,7 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag besöka AcneSpecialisten?',
             image_title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Om din rosacea hindrar dig från att leva fullt ut eller om tidigare behandlingar inte har gett önskad effekt, är det dags att söka dig till AcneSpecialisten. Att tidigt ta itu med din rosacea ökar chansen att förebygga ärrbildning och permanenta hudförändringar. På AcneSpecialisten erbjuder vi expertis och skräddarsydda behandlingsplaner för alla grader av rosacea, från mild till svår. Vi välkomnar dig till en kostnadsfri konsultation för att påbörja din resa mot en klarare och friskare hud. Våra specialister har omfattande erfarenhet och ger råd om de mest effektiva produkterna och behandlingarna för just din situation, vilket kan hjälpa dig undvika behovet av kraftfulla läkemedel med potentiella biverkningar.</p>
+            content: '<p class="p200">Om din rosacea hindrar dig från att leva fullt ut eller om tidigare behandlingar inte har gett önskad effekt, är det dags att söka dig till AcneSpecialisten. Att tidigt ta itu med din rosacea ökar chansen att förebygga ärrbildning och permanenta hudförändringar. På AcneSpecialisten erbjuder vi expertis och skräddarsydda behandlingsplaner för alla grader, från mild till svår. Vi välkomnar dig till en kostnadsfri konsultation för att påbörja din resa mot en klarare och friskare hud. Våra specialister har omfattande erfarenhet och ger råd om de mest effektiva produkterna och behandlingarna för just din situation, vilket kan hjälpa dig undvika behovet av kraftfulla läkemedel med potentiella biverkningar.</p>
 
                   <p class="p200 mt-m">Som din partner i rosacea-vård, står AcneSpecialisten vid din sida genom hela behandlingsprocessen, från den första kostnadsfria konsultationen till underhållsbehandlingar och regelbundna uppföljningar. Vi är engagerade i att återställa din livskvalitet och erbjuda den friska, klara hud du strävar efter. Vårt team av experter erbjuder personligt stöd och anpassade lösningar för att möta dina unika behov och hjälpa dig att uppnå långsiktiga resultat.</p>',
       ),
