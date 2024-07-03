@@ -48,21 +48,21 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar svarta pormaskar effektivt';
 
-$description_title = 'Vad är Svarta Pormaskar?';
+$description_title = 'Vad är svarta pormaskar?';
 $description_text = '<p class="p200">Svarta pormaskar, tekniskt kända som öppna komedoner, bildas när porer blir tilltäppta med en kombination av talg och döda hudceller. Denna ansamling oxiderar och blir mörk vid kontakt med luft, vilket ger upphov till deras karaktäristiska svarta färg. De förekommer ofta på områden som ansiktet, särskilt näsan och pannan, och kan vara ett tecken på behovet av en bättre hudvårdsrutin.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi skräddarsydda behandlingar för att effektivt adressera och minska svarta pormaskar. Våra metoder inkluderar djuprengöring, speciella ansiktsbehandlingar och noggrann porrengöring. Dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, hjälper till att rensa porerna och förebygga framtida uppkomst av svarta pormaskar, vilket resulterar i en klarare och mer strålande hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten möter du en erfaren hudterapeut som hjälper dig att noggrant identifiera dina svarta pormaskar. Tillsammans utvecklar ni en skräddarsydd behandlingsplan som är inriktad specifikt på att adressera och behandla dina svarta pormaskar.',
+            content: 'På AcneSpecialisten möter du en erfaren hudterapeut som hjälper dig att noggrant identifiera dina hudproblem. Tillsammans utvecklar ni en skräddarsydd behandlingsplan som är inriktad specifikt på att adressera och behandla din hy.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             url_label: 'Boka gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder skonsamma men effektiva behandlingar för att avlägsna svarta pormaskar, anpassade efter dina unika hudbehov. Behandlingen syftar till att säkert och effektivt eliminera svarta pormaskar och ge din hud ett friskare och renare utseende.',
+            content: 'Vi erbjuder skonsamma men effektiva behandlingar anpassade efter dina unika hudbehov. Behandlingen syftar till att säkert och effektivt eliminera hudproblemet och ge din hud ett friskare och renare utseende.',
             url: '/hudbehandlingar/pormaskar/',
             url_label: 'Se portömning',
             url_title: 'Utforska våra skräddarsydda portömning'
@@ -79,7 +79,7 @@ $treatment_link = '<a href="/hudbehandlingar/pormaskar/" title="Utforska effekti
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var och varför uppstår svarta pormaskar?',
+            title: 'Var och varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -91,16 +91,16 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för mina svarta pormaskar?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för mina svarta pormaskar?',
             image_title: 'När ska jag söka hjälp för mina svarta pormaskar?',
-            content: '<p class="p200">Svarta pormaskar är vanliga hudproblem som kan påverka personer i alla åldrar. Dessa öppna komedoner uppstår när porer blockeras av talg och döda hudceller, vilket kan påverka hudens utseende och känsla. Om dina svarta pormaskar påverkar ditt välbefinnande eller om du inte har lyckats behandla dem med vanliga metoder, kan det vara läge att söka professionell hjälp. Det är viktigt att veta att oavsett omfattningen av dina svarta pormaskar, finns det ingen "minsta gräns" för att söka vård.</p>',
+            content: '<p class="p200">Svarta pormaskar är vanliga hudproblem som kan påverka personer i alla åldrar. Dessa öppna komedoner uppstår när porer blockeras av talg och döda hudceller, vilket kan påverka hudens utseende och känsla. Om dina svarta pormaskar påverkar ditt välbefinnande eller om du inte har lyckats behandla dem med vanliga metoder, kan det vara läge att söka professionell hjälp. Det är viktigt att veta att oavsett omfattningen och det finns ingen "minsta gräns" för att söka behandling.</p>',
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för mina svarta pormaskar?',
+            title: 'Varför ska jag välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten?',

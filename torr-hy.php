@@ -51,12 +51,12 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om torr och känslig hy';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är torr och känslig hy?',
+            title: ' är torr och känslig hy?',
             content: '<p class="p200">Torr och känslig hy är mer än bara ett kosmetisk besvär; det är en hudtillstånd som kan ha både fysiska och psykologiska effekter på dem som lider av det. Denna hudtyp kännetecknas av en brist på tillräcklig fukt, vilket leder till en försvagad hudbarriär. Detta gör huden mindre effektiv på att hålla kvar fukt och mer benägen att reagera på olika yttre faktorer som temperaturändringar, kosmetiska produkter och till och med kranvatten. Symptomen kan inkludera klåda, rodnad, fjällning och en obehaglig känsla av stramhet i huden.</p>',
             extended_content: '<p class="p200 mt-xl">Torr hud tenderar att åldras snabbare än oljig eller normal hud på grund av flera faktorer. När huden är torr saknar den fukt och talg (olja), vilket är avgörande för att bibehålla hudens elasticitet och smidighet. Här är en närmare förklaring av processen:</p>
             <p class="p200 mt-xl">Minskad oljeproduktion:<br />Torr hud producerar mindre talg, den naturliga oljan som hjälper till att behålla fukten i huden. När talgproduktionen minskar, kan huden inte behålla fukt lika effektivt, vilket leder till att den blir torr och stram.</p>
@@ -69,21 +69,21 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man torr och känslig hy?',
+            title: ' får man torr och känslig hy?',
             content: '<p class="p200">Det finns flera faktorer som kan bidra till utvecklingen av torr och känslig hy. Klimatförhållanden såsom kyla under vintern med låg luftfuktighet kan avsevärt minska hudens fuktighetsnivåer och plötsligt orsaka torr hud. Inomhusförhållanden, såsom centralvärme och luftkonditionering, kan också torka ut huden. Vissa hudvårdsprodukters irriterande ämnen kan störa hudens naturliga pH-balans och därmed förvärra tillståndet. Vidare kan hudsjukdomar som seborré i ansiktet, psoriasis och eksem, bidra till problemet, eller att man får torr hy med acne eller finnar. Vissa produkter och behandlingar kan också påverka hudens fuktbalans.</p>',
             extended_content: '<p class="p200 mt-xl">Livsstilsfaktorer som dålig kost och brist på vattenintag kan också spela en roll. En diet som är låg i essentiella fettsyror och vitaminer som vitamin E kan påverka hudens förmåga att behålla fukt. Stress och brist på sömn har också visat sig förvärra hudens känslighet och kan leda till ytterligare uttorkning och irritation. Det är viktigt att förstå att en kombination av dessa faktorer oftast ligger bakom problemet, och därför kan en holistisk plan till behandling och förebyggande vara mest effektiv.</p>',
             icons: array('produkter' => 'Produkter', 'stress' => 'Stress', 'klimat' => 'Klimat')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får torr och känslig hy?',
+            title: ' får torr och känslig hy?',
             content: '<p class="p200">Torr och känslig hy är inte begränsad till en specifik demografisk grupp, det kan drabba personer i alla åldrar och kön. Det är dock viktigt att förstå att vissa faktorer gör vissa människor mer benägna att utveckla denna hudtyp. Ålder är en av de mest framstående faktorerna. Med åldern minskar hudens naturliga talgproduktion och dess förmåga att behålla fukt, vilket gör äldre personer mer mottagliga för torr och känslig hud.</p>',
             extended_content: '<p class="p200 mt-xl">Individer med tillstånd som eksem, rosacea eller seborré är också särskilt utsatta, eftersom de ofta medför en kronisk torrhet och känslighet i huden. Hormonella förändringar som sker under graviditet, klimakteriet eller menstruationscykler påverkar hudens tillstånd och göra den mer känslig eller torr.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man torr och känslig hy?',
+            title: ' får man torr och känslig hy?',
             content: '<p class="p200">Känslig och torr hud i ansiktet kan särskilt påverka vissa områden mer än andra, vilket gör det viktigt att förstå hur man tar hand om varje specifikt parti. Här är en närmare titt på de mest utsatta områdena i ansiktet:</p>',
             extended_content: '<p class="p200 mt-xl">Ögonområdet:<br />Huden runt ögonen är extremt tunn och saknar talgkörtlar, vilket gör den särskilt mottaglig för torrhet och irritation. Torra linjer och rynkor kan bli mer framträdande här på grund av hudens känslighet.</p>
             <p class="p200 mt-xl">Torr T zon:<br />Om man upplever en torr panna i kombination med torr näsa så formar detta område t zonen som ofta kan bli torr med flagnande hud.</p>
@@ -314,7 +314,7 @@ $type_categories = array(
 );
 */
 
-$symptoms_title = 'Torr och känslig hy symptom';
+$symptoms_title = 'Symtom';
 
 $symptoms = array(
       new Symptom(
@@ -397,7 +397,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din torra och känsliga hy";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för Torr och Känslig Hy',
@@ -410,7 +410,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för behandling av torr och känslig hy',
       image_title: 'Konsultation för Torr och Känslig Hy',
 
-      url_label: 'Läs mer om konsultation mot torr och känslig hy',
+      url_label: 'Läs mer om konsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för torr och känslig hy',
 
@@ -424,14 +424,14 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla torr och känslig hy";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
             title: 'Ansiktsbehandling för torr och känslig hy',
             duration: '60 min',
             price: '1295 kr',
-            content: 'Denna ansiktsbehandling är utformad för att lindra torr och känslig hud. Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
+            content: 'Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
 
             image_small: '/bilder/behandlingar/200x200/ansiktsbehandling.webp',
             image_large: '/bilder/behandlingar/200x200/ansiktsbehandling.webp',
@@ -454,7 +454,7 @@ $services = array(
             title: 'Infuzion för torr och känslig hy',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Infuzion behandlingen är speciellt framtagen för att återfukta och lugna torr och känslig hud. Genom en unik process införs fuktbindande ämnen djupt in i huden utan nålar, vilket ger en omedelbar förbättring av hudens hydrering och minskar irritation.',
+            content: 'Infuzion behandlingen är speciellt framtagen för att återfukta och lugna huden. Genom en unik process införs fuktbindande ämnen djupt in i huden utan nålar, vilket ger en omedelbar förbättring av hudens hydrering och minskar irritation.',
 
             image_small: '/bilder/behandlingar/200x200/infuzion.webp',
             image_large: '/bilder/behandlingar/200x200/infuzion.webp',
@@ -477,7 +477,7 @@ $services = array(
             title: 'HydraFacial för torr och känslig hy',
             duration: '40 min',
             price: '1595 kr',
-            content: 'HydraFacial behandlingen erbjuder en skonsam men effektiv exfoliering samt djupåterfuktning för torr och känslig hud. Tekniken renar huden och tillför antioxidanter, vilket lämnar huden återfuktad, mjuk och med en fräsch lyster.',
+            content: 'HydraFacial behandlingen erbjuder en skonsam men effektiv exfoliering samt djup återfuktning. Tekniken renar huden och tillför antioxidanter, vilket lämnar huden återfuktad, mjuk och med en fräsch lyster.',
 
             image_small: '/bilder/behandlingar/200x200/hydrafacial.webp',
             image_large: '/bilder/behandlingar/200x200/hydrafacial.webp',
@@ -498,14 +498,14 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av torr och känslig hy";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
             title: 'Produkter för torr och känslig hy',
             duration: null,
             price: 'Pris från 645 kr',
-            content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin med ansiktskräm för torr hud. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
+            content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
 
             image_small: '/bilder/behandlingar/200x200/produkter.webp',
             image_large: '/bilder/behandlingar/200x200/produkter.webp',
@@ -528,7 +528,7 @@ $products = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för min torra och känsliga hy?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för min torra och känsliga hy?',
@@ -537,7 +537,7 @@ $articles = array(
             <p class="p200 mt-m">Genom att konsultera en hudspecialist kan du få en skräddarsydd lösning som matchar din huds unika behov. En expert kan bedöma din hud, diskutera orsakerna bakom torrheten och känsligheten, och rekommendera en behandlingsplan. Detta kan inkludera inriktade produkter, behandlingar eller båda. Om du känner att din torra och känsliga hud har blivit ett problem, eller om du helt enkelt vill återställa hudens lyster och komfort, bör du inte tveka att söka professionell rådgivning. Det är aldrig för tidigt eller för sent att ta steget mot en hälsosam hud.</p>',
       ),
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten för Torr & Känslig Hy?',
+            title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Om du känner att din torra och känsliga hud påverkar din livskvalitet, eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar, bör du överväga att besöka AcneSpecialisten. Ju tidigare du får professionell hjälp, desto snabbare kan du återställa huden fuktbalans. AcneSpecialisten är här för att erbjuda dig skräddarsydda lösningar, oavsett om du har milda eller mer allvarliga hudproblem. Tveka inte att boka en kostnadsfri konsultation och ta det första steget mot en mjukare och mer komfortabel hud.</p>
             <p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla torr och känslig hud och kan rekommendera vilka produkter och behandlingar som är bäst för just din hudtyp.</p>',
 

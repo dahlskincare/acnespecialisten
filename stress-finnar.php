@@ -110,7 +110,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
             image_title: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
-            content: '<p class="p200">Att hantera stress finnar kräver expertis och en förståelse för hur stress påverkar huden. Hos AcneSpecialisten är vi specialiserade på att hantera just denna typ av hudproblem. Med över 30 års erfarenhet och en djupgående förståelse för stressrelaterade hudtillstånd, erbjuder vi behandlingsmetoder som är både säkra och effektiva.</p
+            content: '<p class="p200">Att hantera stress finnar kräver expertis och en förståelse för hur hudne påverkas. Hos AcneSpecialisten är vi specialiserade på att hantera just denna typ av hudproblem. Med över 30 års erfarenhet och en djupgående förståelse för stressrelaterade hudtillstånd, erbjuder vi behandlingsmetoder som är både säkra och effektiva.</p
             <p class="p200 mt-m">Vår individuellt anpassade behandlingsplan tar hänsyn till dina unika hudbehov. Vi ser varje kund som en unik individ och strävar efter att erbjuda personligt anpassad behandling. Vår expertis och engagemang gör oss till det självklara valet för att hantera dina stress finnar och hjälpa dig att återfå en hälsosam och strålande hud.</p>',
       ),
 );
