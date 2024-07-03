@@ -43,7 +43,7 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar födelsemärken effektivt och skonsamt';
 
-$description_title = 'Vad är Födelsemärken?';
+$description_title = 'Vad är födelsemärken?';
 $description_text = '<p class="p200">Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Dessa hudmärken är ofta medfödda eller utvecklas under tidiga levnadsår. De kan vara helt ofarliga, men vissa typer av födelsemärken kan kräva uppmärksamhet, särskilt om de förändras över tid.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för att säkert hantera födelsemärken. Våra metoder kan inkludera laserbehandling eller andra avancerade tekniker för att effektivt minska eller ta bort födelsemärken, vilket bidrar till en jämnare och mer enhetlig hudton.</p>';
 
@@ -60,7 +60,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
-            url_label: 'Se behandlingar för födelsemärken',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_fodelsemarken',
             url_title: 'Läs mer om våra behandlingar för födelsemärken'
       ),
@@ -68,7 +68,7 @@ $treatment_steps = array(
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Områden för födelsemärken',
+            title: 'Var uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -80,7 +80,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för mina födelsemärken?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för mina födelsemärken?',
@@ -89,7 +89,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina födelsemärken?',
@@ -99,7 +99,7 @@ $articles = array(
 );
 
 
-$headline01 = "01. Identifiera dina födelsemärken";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för födelsemärken',
@@ -125,7 +125,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla födelsemärken med CryoPen";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(

@@ -174,7 +174,7 @@ $products = array(
             title: 'Produkter mot fet hy',
             duration: null,
             price: 'Pris från 1495 kr',
-            content: 'Att hantera fet hy kräver en noggrann urval av produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning produkter såsom ansiktsrengöring, ansiktskräm och dagkräm för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa.',
+            content: 'Noggrannt utvalda produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning produkter såsom ansiktsrengöring, ansiktskräm och dagkräm för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa.',
 
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
