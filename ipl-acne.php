@@ -10,7 +10,7 @@ $path_segments = array(
 $article = new SkinGuideArticle(
     url: 'ipl-acne.php',
     url_title: 'IPL Acne',
-    title: 'IPL Acne',
+    title: 'IPL acne',
     subtitle: 'Här förklarar vi mer om IPL mot acne med hjälp av laser.',
     problem: 'IPL Acne',
     description: "Här förklarar vi mer om IPL mot acne med hjälp av laser.",
@@ -90,7 +90,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-desktop">
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Consultation" title="Consultation" />
+                                <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Laser mot hudproblem" title="Laser mot hudproblem" />
                                 <div>
                                     <h4>IPL mot acne</h4>
                                     <p>30 min<span class="dot"></span>Från 2595 kr</p>
@@ -99,10 +99,10 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 IPL mot acne är en effektiv laserbehandling som använder koldioxidlaser för att minska talgproduktion, döda bakterier och reducera inflammation. Behandlingen förbättrar hudens struktur och minskar ärrbildning med minimal återhämtningstid, vilket ger dig långvariga resultat.
                             </p>
-                            <a class="button outline expand" href="laser-acne.php" title="View more about service">Läs mer om laserbehandling mot acne</a>
+                            <a class="button outline expand" href="laser-acne.php" title="Läs mer om laserbehandling">Läs mer om laserbehandling mot acne</a>
                             <hr />
-                            <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Boka konsultation</a>
-                            <a class="mt-s button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Book a treatment">Boka behandling</a>
+                            <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka gratis konsultation">Boka konsultation</a>
+                            <a class="mt-s button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Boka behandling">Boka behandling</a>
                         </div>
                     </div>
 
@@ -117,12 +117,12 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">30 min<span class="dot"></span>Pris från 2595 kr</p>
                                 <div>
                                     <p class="banner-text">IPL mot acne är en effektiv laserbehandling som använder koldioxidlaser för att minska talgproduktion, döda bakterier och reducera inflammation. Behandlingen förbättrar hudens struktur och minskar ärrbildning med minimal återhämtningstid, vilket ger dig långvariga resultat.</p>
-                                    <a class="button text b200" href="laser-acne.php" title="View more about service">Läs mer om laserbehandling mot acne</a>
+                                    <a class="button text b200" href="laser-acne.php" title="Läs mer om laserbehandling">Läs mer om laserbehandling</a>
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Get a free consultation">Boka konsultation</a>
-                                <a class="button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Book a treatment">Boka behandling</a>
+                                <a class="button expand" href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka gratis konsultation">Boka konsultation</a>
+                                <a class="button expand" href="https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Boka behandling">Boka behandling</a>
                             </div>
                         </div>
                     </div>
