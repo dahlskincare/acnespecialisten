@@ -270,7 +270,7 @@ $service = new Service(
       title: 'Konsultation för milier',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under ett personligt möte med en av AcneSpecialistens hudexperter utförs en undersökning av dina milier. Vi tar före-bilder på det drabbade området och rekommenderar en skräddarsydd behandlingsplan utformad efter dina specifika behov.',
+      content: 'Under ett personligt möte med en av AcneSpecialistens hudexperter utförs en undersökning av din hy. Vi tar före-bilder på det drabbade området och rekommenderar en skräddarsydd behandlingsplan utformad efter dina specifika behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -297,7 +297,7 @@ $services = array(
             title: 'Behandling mot milier',
             duration: '60 min',
             price: '1295 kr',
-            content: 'Vår behandling mot milier syftar till att noggrant avlägsna dessa små cystor. Genom att använda säkra och effektiva extraktionsmetoder, hjälper vi dig att bli av med milier och därmed förbättra hudens övergripande utseende.',
+            content: 'Vår behandling syftar till att noggrant avlägsna dessa små cystor. Genom att använda säkra och effektiva extraktionsmetoder, hjälper vi dig att bli av med milier och därmed förbättra hudens övergripande utseende.',
 
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
