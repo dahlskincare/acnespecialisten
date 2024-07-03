@@ -65,7 +65,7 @@ $description_text = '<p class="p200">Porrengöring är en ansiktsbehandling utfo
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en porrengöring till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/problemhy-process.webp',
         image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Hur går en porrengöring till?',
@@ -76,8 +76,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Porrengöring för olika områden';
-$treatment_areas_text = '<p class="p200">Vi utför porrengöring i ansiktet, på brötstet och på ryggen.</p>';
+$treatment_areas_title = 'Behandlingar efter område';
+$treatment_areas_text = '<p class="p200">Behandlingen kan utföras på ansiktet, på brötstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -126,7 +126,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård för porrengöring',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
         image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
         image_alt: 'Eftervård för porrengöring',
