@@ -39,7 +39,7 @@ $description_text = '<p class="p200">Laser är en avancerad teknologi som använ
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför laserbehandling',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/laser-forberedelser.webp',
         image_large: '/bilder/process/872x456/laser-forberedelser.webp',
         image_alt: 'Förberedelser inför laserbehandling',
@@ -49,7 +49,7 @@ $top_articles = array(
         <p class="p200 mt-m">Din säkerhet och komfort är vår högsta prioritet. Vi uppmuntrar dig att dela alla hudrelaterade tillstånd eller bekymmer under konsultationen. Detta säkerställer att vi kan skräddarsy behandlingen efter dina unika behov och ge dig den bästa möjliga upplevelsen och resultaten med vår laserbehandling.</p>',
     ),
     'process' => new Article(
-        title: 'Hur fungerar laserbehandling?',
+        title: 'Hur fungerar behandlingen?',
         image_small: '/bilder/process/358x272/laser-process.webp',
         image_large: '/bilder/process/872x456/laser-process.webp',
         image_alt: 'Hur går laserbehandlingen till?',
@@ -60,7 +60,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Laserbehandling mot olika hudproblem';
+$types_title = 'Hudproblem som behandlas';
 $types_description = '<p class="p200">Våra laserbehandlingar är effektiva för en rad olika hudproblem, tack vare dess förmåga att stimulera hudens egen läkningsprocess och kollagenproduktion. Nedan listar vi de hudproblem som vi effektivt behandlar med vår lasertekniker.</p>';
 $types = array(
     new Service(
@@ -285,7 +285,7 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Laser';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '<p class="p200">Vår laserbehandling är anpassningsbar för en rad olika områden, vilket gör den idealisk för att adressera specifika hudproblem på olika delar av kroppen. Vi behandlar områden som ansikte, hals, dekolletage, rygg och händer, samt specifika ansiktsområden som panna, näsa, kinder, överläpp och haka. Denna teknik möjliggör precisionsbehandling för att förbättra hudens kvalitet och utseende, oavsett område.</p>';
 $treatment_areas = array(
     new TreatmentArea(
@@ -399,7 +399,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för laserbehandling',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/laser-eftervard.webp',
     image_large: '/bilder/process/872x456/laser-eftervard.webp',
     image_alt: 'Eftervård för laserbehandling',

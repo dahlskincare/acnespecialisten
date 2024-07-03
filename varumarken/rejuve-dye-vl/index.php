@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'IPL för Hudföryngring - Rejuve Dye-VL',
+    title: 'IPL för hudföryngring - Rejuve Dye-VL',
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov.</p>',
@@ -66,7 +66,7 @@ $description_text = '<p class="p200">Alma Rejuve Dye-VL representerar en special
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en Rejuve Dye-VL behandling till?',
+        title: 'Hur går en behandling till?',
         image_small: '/bilder/process/358x272/rejuve-process.webp',
         image_large: '/bilder/process/872x456/rejuve-process.webp',
         image_alt: 'Hur går en Rejuve Dye-VL behandling till?',
@@ -77,7 +77,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudtillstånd som behandlas med Rejuve Dye-VL';
+$types_title = 'Hudtillstånd som behandlas';
 $types_description = '';
 $types = array(
     new Service(
@@ -166,7 +166,7 @@ $types = array(
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för Rejuve Dye-VL';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
@@ -357,7 +357,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Rejuve Dye-VL',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/rejuve-forberedelser.webp',
         image_large: '/bilder/process/872x456/rejuve-forberedelser.webp',
         image_alt: 'Förberedelser inför Rejuve Dye-VL',
@@ -366,7 +366,7 @@ $bottom_articles = array(
         <p class="p200 mt-m">För att förbereda din hud, bör du undvika solning och användning av självbrunande produkter minst två veckor innan behandlingen. Detta minskar risken för pigmentförändringar eftersom Dye-VL-behandlingen kräver att huden är i sin mest naturliga ton för effektivt riktad behandling av pigment och blodkärl. Undvik även hudvårdsprodukter som innehåller kraftiga exfolierande ingredienser veckan före din behandling. Din hudterapeut kommer att ge dig detaljerade instruktioner om ytterligare förberedelser och råd om hur du tar hand om din hud både före och efter din Rejuve Dye-VL-session, för att garantera en säker behandling och effektiv läkningsprocess.</p>',
     ),
     'aftercare' => new Article(
-        title: 'Eftervår för Rejuve Dye-VL',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/rejuve-eftervard.webp',
         image_large: '/bilder/process/872x456/rejuve-eftervard.webp',
         image_alt: 'Eftervår för Rejuve Dye-VL',

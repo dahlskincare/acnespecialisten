@@ -40,7 +40,7 @@ $description_text = '<p class="p200">Fillers är en icke-invasiv teknik för att
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går fillers behandlingar till?',
+        title: 'Hur går behandlingen till?',
         image_small: null,
         image_large: null,
         image_alt: 'Hur går fillers behandlingar till?',

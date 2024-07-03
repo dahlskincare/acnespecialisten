@@ -65,7 +65,7 @@ $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Lj
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/ipl-forberedelser.webp',
         image_large: '/bilder/process/872x456/ipl-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med IPL',
@@ -74,7 +74,7 @@ $top_articles = array(
         <p class="p200 mt-m">För att förbereda huden bör du undvika solning och inte använda självbrunande produkter (brun-utan-sol) minst två veckor före behandlingen för att minska risken för pigmentförändringar. IPL behandling kräver att huden är så naturligt i sin ton som möjligt för att ljuspulserna ska kunna rikta sig korrekt mot oönskade pigment eller blodkärl. Det är också viktigt att undvika produkter med retinol eller andra starka exfolierande ingredienser under veckan innan din behandling. Din hudterapeut kommer att informera dig om ytterligare förberedelser och ge dig råd om hur du bäst tar hand om din hud både före och efter din IPL behandling för att säkerställa en trygg behandling och effektiv läkning.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går en IPL behandling till?',
+        title: 'Hur går en behandling till?',
         image_small: '/bilder/process/358x272/ipl-process.webp',
         image_large: '/bilder/process/872x456/ipl-process.webp',
         image_alt: 'Hur går en IPL behandling till?',
@@ -85,8 +85,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Hudproblem som behandlas med IPL';
-$types_description = 'IPL (Intensivt Pulserande Ljus) är en mångsidig och effektiv behandlingsmetod som används för att adressera en rad olika hudproblem. Här kan du utforska de olika hudtillstånden som vi framgångsrikt behandlar med vår IPL-teknik.';
+$types_title = 'Hudproblem vi behandlar';
+$types_description = 'En mångsidig och effektiv behandlingsmetod som används för att adressera en rad olika hudproblem. Här kan du utforska de olika hudtillstånden som vi framgångsrikt behandlar med vår IPL-teknik.';
 $types = array(
     new Service(
         title: 'IPL-behandling mot Rosacea',
@@ -174,7 +174,7 @@ $types = array(
 
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '<p class="p200">IPL (Intensivt Pulserande Ljus) är en flexibel behandlingsmetod som passar för en rad olika områden på kroppen, inklusive ansikte, hals, händer och bröst.</p>';
 $treatment_areas = array(
     new TreatmentArea(
@@ -364,7 +364,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Att tänka på efter IPL behandling',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/ipl-eftervard.webp',
     image_large: '/bilder/process/872x456/ipl-eftervard.webp',
     image_alt: 'Att tänka på efter IPL behandling',

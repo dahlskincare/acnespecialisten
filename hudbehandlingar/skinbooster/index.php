@@ -63,7 +63,7 @@ $description_text = '<p class="p200">Skinbooster är en innovativ behandling som
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Skinbooster behandling',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/skinbooster-forberedelser.webp',
         image_large: '/bilder/process/872x456/skinbooster-forberedelser.webp',
         image_alt: 'Förberedelser inför Skinbooster',
@@ -72,7 +72,7 @@ $top_articles = array(
         <p class="p200 mt-m">Att komma osminkad till din behandling är inte ett krav, men om du väljer att göra det, underlättar det för oss att göra en noggrann hudanalys och anpassa behandlingen efter dina specifika behov. Under en kostnadsfri konsultation går vi igenom allt du behöver veta inför behandlingen. Vårt team på AcneSpecialisten ser fram emot att välkomna dig och utforma en skräddarsydd behandlingsplan för din hudtyp och dina mål. Vi är här för att stödja dig genom din hudvårdsresa och ser fram emot att bidra till din förbättrade hudhälsa.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går Skinbooster till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/skinbooster-process.webp',
         image_large: '/bilder/process/872x456/skinbooster-process.webp',
         image_alt: 'Hur går Skinbooster behandlingen till?',
@@ -108,7 +108,7 @@ $types_description = '';
     ),
 );*/
 
-$treatment_areas_title = 'Behandlingsområden för Skinbooster';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '<p class="p200">Skinbooster kan anvädnas på flera delar av kroppen för fina resultat.</p>';
 $treatment_areas = array(
     new TreatmentArea(
@@ -213,7 +213,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård för Skinbooster',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/skinbooster-eftervard.webp',
         image_large: '/bilder/process/872x456/skinbooster-eftervard.webp',
         image_alt: 'Eftervård för Skinbooster',

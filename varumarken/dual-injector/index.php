@@ -58,7 +58,7 @@ $description_title = 'Dual Injector Pro+ - en ledande teknik inom avancerad hudf
 $description_text = '<p class="p200">Dual Injector Pro+ är en toppmodern behandling som passar alla hudtyper, utformad för att vitalisera och förbättra hudens kvalitet. Denna avancerade metod kombinerar Radio Frequency (RF) och nålfri mesoterapi (electroporation) för att leverera näringsrika serum djupt in i huden och stimulera hudens naturliga kollagenproduktion och läkningsmekanismer.</p>
     <p class="p200 mt-m">Som en kombination av RF-lyft och electroporation erbjuder Dual Injector Pro+ en behandling med minimal obehag jämfört med traditionella metoder. Dual Injector Pro+ är anpassningsbar och kan målinriktat förbättra en mängd hudtillstånd som rynkor, ärr, ojämn hudton och textur. Genom att aktivera hudens egna reparationsförmåga ökas dess elasticitet och lyster, vilket resulterar i en synbart yngre och mer strålande hud.</p>';
 
-$treatment_areas_title = 'Områden som förbättras med Dual Injector Pro+';
+$treatment_areas_title = 'Områden';
 $treatment_areas_text = '<p class="p200">Dual Injector Pro+ erbjuder anpassningsbar behandling för diverse områden inklusive ansiktet, nacken, dekolletaget och andra kroppsdelar. Denna teknik är expert på att förbättra hudens textur och ge en ökad lyster genom att aktivera kollagenproduktionen och stödja naturliga läkningsprocesser, skräddarsydd för varje specifikt hudområde.</p>';
 
 $treatment_areas = array(

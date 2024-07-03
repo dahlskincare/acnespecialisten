@@ -33,13 +33,13 @@ $model = new Service(
 
 $floating_box = 'Hudslipning som jämnar hudens yta.';
 
-$description_title = 'Vad är Dermabrasion?';
+$description_title = 'Vad är dermabrasion?';
 $description_text = '<p class="p200">Dermabrasion är en djupgående hudföryngrande behandling som effektivt förbättrar hudens yta och textur. Genom en mekanisk exfolieringsprocess avlägsnas döda hudceller, vilket stimulerar hudens förnyelse och ger en märkbar föryngring av huden.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi dermabrasion som en skräddarsydd behandling för att möta olika hudbehov. Detta inkluderar att minska acneärr, fina linjer, och pigmentfläckar samt förbättra hudens övergripande utseende. Vår dermabrasion-behandling är skonsam men effektiv, vilket gör den lämplig för olika hudtyper. Genom att stimulera kollagenproduktionen och cellförnyelsen, bidrar behandlingen till en fräschare, mjukare och mer strålande hud. Dermabrasion är en idealisk behandling för dig som söker en konkret förbättring av din hudkvalitet.</p>';
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hydra-Dermabrasion VS Micro-Dermabrasion',
+        title: 'Hydra-dermabrasion VS micro-dermabrasion',
         image_small: '/bilder/process/358x272/dermabrasion-process.webp',
         image_large: '/bilder/process/872x456/dermabrasion-process.webp',
         image_alt: 'Hydra-Dermabrasion VS Micro-Dermabrasion',

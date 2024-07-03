@@ -63,7 +63,7 @@ $description_text = '<p class="p200">Våra ansiktsbehandlingar är specialanpass
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför ansitksbehandling mot rosacea',
+        title: 'Förberedelser',
         image_small: null,
         image_large: null,
         image_alt: 'Förberedelser inför ansiktsbehandling mot rosacea',
@@ -117,7 +117,7 @@ $big_types = array(
 
 $bottom_articles = array(
     'aftercare' => new Article(
-        title: 'Eftervård och underhåll efter ansiktsbehandling mot rosacea',
+        title: 'Eftervård',
         image_small: null,
         image_large: null,
         image_alt: 'Eftervård och underhåll',
@@ -152,7 +152,7 @@ $treatment_steps = array(
     new TreatmentStep(
         title: 'Reparera',
         content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-        url_label: 'Se IPL-behandlingar',
+        url_label: 'Se IPL behandlingar',
         url: 'ytliga-blodkarl.php',
         url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
     ),

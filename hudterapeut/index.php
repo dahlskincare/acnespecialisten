@@ -173,7 +173,7 @@ $specialists = array(
         </section>
         <div class="container">
             <section id="title" class="large-margin">
-                <h1 class="l10n">Våra Hudterapeuter</h1>
+                <h1 class="l10n">Våra hudterapeuter</h1>
                 <div class="p200 mt-s l10n">Letar du efter en hudterapeut i Stockholm? Hos AcneSpecialisten är vi stolta över att presentera vårt team av högt kvalificerade hudterapeuter, alla med professionell utbildning certifierad av SHR (Svenska Hudterapeuters Riksorganisation). Våra specialister besitter omfattande kunskap och specialkompetens inom medicinsk och estetisk hudvård och individanpassade lösningar för hudproblem. Med ett djupt engagemang för varje kunds unika behov, är vårt team dedikerat till att utveckla personligt anpassade och effektiva behandlingsplaner för att möta och överträffa förväntningarna hos individer med olika hudtyper. När du besöker oss blir du alltid tilldelad en personlig hudvårdsterapeut så att du får personlig rådgivning under hela behandlingen.</div>
             </section>
             <section id="cards">

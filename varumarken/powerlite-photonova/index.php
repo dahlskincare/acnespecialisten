@@ -65,7 +65,7 @@ $description_text = '<p class="p200">Powerlite är varumärket bakom Photonova, 
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en IPL laser behandling i ansiktet till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/powerlite-photonova-process.webp',
         image_large: '/bilder/process/872x456/powerlite-photonova-process.webp',
         image_alt: 'Hur går en IPL laser behandling i ansiktet till?',
@@ -165,7 +165,7 @@ $types = array(
 
 );
 
-$treatment_areas_title = 'IPL behandling efter område';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
@@ -356,7 +356,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/powerlite-photonova-forberedelser.webp',
         image_large: '/bilder/process/872x456/powerlite-photonova-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling',

@@ -62,7 +62,7 @@ $description_text = '<p class="p200">Vår ansiktsbehandling mot akne är en omfa
     <p class="p200 mt-m">Behandlingen inleds med en skonsam men effektiv rengöring för att ta bort smuts, talg och makeuprester. Därefter följer en ångbehandling som öppnar upp porerna, vilket underlättar en noggrann och skonsam extraktion av pormaskar och andra orenheter som kan bidra till akneutbrott. Vi använder exfolierande behandlingar anpassade efter din hudtyp för att varsamt avlägsna döda hudceller och främja cellförnyelse. Efter extraktionerna appliceras en lugnande mask rik på aktiva ingredienser som är utvalda för att behandla akne, minska rodnad och inflammation samt återfukta och balansera huden.</p>
     <p class="p200 mt-m">Vårt team av erfarna hudterapeuter skräddarsyr varje ansiktsbehandling mot akne efter dina unika behov och hudtillstånd för att säkerställa optimala resultat. Vi använder oss av beprövade tekniker och högkvalitativa produkter för att erbjuda en effektiv behandling som inte bara adresserar akne i det korta perspektivet utan även arbetar för att förebygga framtida utbrott och främja en långsiktig hudhälsa.</p>';
 
-$treatment_areas_title = 'Behandlingsområden för akne';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '<p class="p200">Vi behandlar akne överallt där det förekommer vilket är i ansiktet, på bröstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(

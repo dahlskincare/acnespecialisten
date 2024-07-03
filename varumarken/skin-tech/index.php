@@ -39,7 +39,7 @@ $description_text = '<p class="p200">Skin Tech representerar en innovativ kollek
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går behandlingar med Skin Tech till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/skin-tech-process.webp',
         image_large: '/bilder/process/872x456/skin-tech-process.webp',
         image_alt: 'Hur går behandlingar med Skin Tech till?',
@@ -168,7 +168,7 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem vi behandlar med Skin Tech';
+$types_title = 'Hudproblem vi behandlar';
 $types_description = '<p class="p200"> Våra specialiserade behandlingar är skräddarsydda för att möta utmaningar som acneärr, aktiv akne, bristningar, melasma, pigmentfläckar, pormaskar, stora porer, samt rynkor och fina linjer. Genom att noggrant välja den mest lämpliga kemiska peelingen för varje unikt hudproblem, strävar vi efter att inte bara förbättra hudens utseende utan också dess hälsotillstånd och vitalitet.</p>';
 $types = array(
 
@@ -334,7 +334,7 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Områden som Behandlas med Skin Tech Peeling';
+$treatment_areas_title = 'Behandlngsområden';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(

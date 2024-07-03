@@ -39,7 +39,7 @@ $description_text = '<p class="p200">Splendor X är en framstående laserutrustn
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går behandling med Splendor X till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/splendor-x-process.webp',
         image_large: '/bilder/process/872x456/splendor-x-process.webp',
         image_alt: 'Hur går behandlingen med Splendor X till?',
@@ -77,7 +77,7 @@ $combos = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Splendor X';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '<p class="p200">Splendor X behandlar effektivt hårväxt på hela kroppen, från topp till tå.</p>';
 
 $treatment_areas = array(
@@ -399,7 +399,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Splendor X',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/splendor-x-forberedelser.webp',
         image_large: '/bilder/process/872x456/splendor-x-forberedelser.webp',
         image_alt: 'Förberedelser inför Splendor X',
@@ -408,7 +408,7 @@ $bottom_articles = array(
         <p class="p200 mt-m">För att optimera säkerheten och effektiviteten av Splendor X-behandlingen bör du även undvika att vara solbränd samt användning av självbruningsprodukter inför behandlingen. Solbränd hud kan påverka hur laserljuset absorberas och öka risken för biverkningar. Genom att följa dessa riktlinjer ser du till att din hud är väl förberedd för Splendor X-behandlingen, vilket bidrar till en smidig och framgångsrik hårborttagningsprocess.</p>',
     ),
     'aftercare' => new Article(
-        title: 'Splendor X eftervård',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/splendor-x-eftervard.webp',
         image_large: '/bilder/process/872x456/splendor-x-eftervard.webp',
         image_alt: 'Splendor X eftervård',

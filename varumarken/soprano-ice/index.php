@@ -33,7 +33,7 @@ $model = new Service(
 
 $floating_box = 'Effektiv laserbehandling för permanent hårborttagning som passar alla.';
 
-$description_title = 'Vad är Soprano ICE Platinum för permanent hårborttagning?';
+$description_title = 'Vad är Soprano ICE Platinum?';
 $description_text = '<p class="p200">Soprano ICE Platinum representerar framkanten inom teknologin för permanent hårborttagning, genom att effektivt kombinera tre kraftfulla diodlaserteknologier i en behandling. Denna innovativa diodlaserbehandling använder en unik 3 i 1 metod som integrerar våglängderna Alexandrit 755NM, Speed 810NM, och YAG 1064NM, var och en med särskilda egenskaper för att målriktat och skonsamt behandla olika hårtyper och hudtoner.</p>
 <p class="p200 mt-m">Alexandrit 755NM våglängden är särskilt effektiv för ljusa och tunna hårstrån, som traditionellt varit utmanande att behandla. Denna våglängd utmärker sig genom sin höga energiabsorption och ytliga penetration, vilket gör den idealisk för att behandla hårstrån nära hudytan i områden som ögonbryn och överläpp.</p>
 <p class="p200 mt-m">Speed 810NM våglängden erbjuder djup penetration av hårsäcken, vilket möjliggör en snabb och effektiv behandling av större områden såsom armar, ben, kinder och skäggområdet. Dess förmåga att absorbera melanin i måttlig grad gör den säker för användning på mörkare hudtyper, medan dess djupverkande penetration tar sikte på hårsäckens struktur runt hårstrået.</p>
@@ -43,7 +43,7 @@ $description_text = '<p class="p200">Soprano ICE Platinum representerar framkant
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går behandling med Soprano ICE Platinum till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/soprano-ice-process.webp',
         image_large: '/bilder/process/872x456/soprano-ice-process.webp',
         image_alt: 'Hur går behandlingen med Soprano Ice till?',
@@ -82,7 +82,7 @@ $combos = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Soprano Ice';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '<p class="p200">Soprano Ice behandlar effektivt hårväxt på hela kroppen.</p>';
 
 $treatment_areas = array(
@@ -350,7 +350,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför Soprano ICE',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/soprano-ice-forberedelser.webp',
         image_large: '/bilder/process/872x456/soprano-ice-forberedelser.webp',
         image_alt: 'Förberedelser inför Soprano ICE',
@@ -359,7 +359,7 @@ $bottom_articles = array(
         <p class="p200 mt-m">För att maximera säkerheten och effektiviteten med Soprano ICE, bör du undvika solbränna och användning av självbruningsprodukter inför behandlingen. Solbränd hud kan påverka behandlingens utfall och öka risken för biverkningar. Genom att följa dessa förberedelser säkerställer du att din hud är i bästa möjliga skick inför Soprano ICE-behandlingen, vilket bidrar till en effektiv och problemfri hårborttagningsprocess.</p>',
     ),
     'aftercare' => new Article(
-        title: 'Soprano ICE eftervård',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/soprano-ice-eftervard.webp',
         image_large: '/bilder/process/872x456/soprano-ice-eftervard.webp',
         image_alt: 'Soprano ICE eftervård',
