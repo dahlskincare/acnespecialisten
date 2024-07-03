@@ -49,14 +49,14 @@ $description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Hos AcneSpecialisten får du professionell hjälp av en hudterapeut som är expert på postinflammatorisk hyperpigmentering. Vi utför en grundlig analys av din hud för att identifiera områden med hyperpigmentering och skapar en behandlingsplan som är unikt anpassad för din hudtyp och dina specifika behov.',
+            content: 'Hos AcneSpecialisten får du professionell hjälp av en hudterapeut som är expert på hudproblemet. Vi utför en grundlig analys av din hud för att identifiera områden med hyperpigmentering och skapar en behandlingsplan som är unikt anpassad för din hudtyp och dina specifika behov.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             url_title: 'Boka din kostnadsfria konsultation för postinflammatorisk hyperpigmentering'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder avancerade behandlingar för postinflammatorisk hyperpigmentering, anpassade för att effektivt minska mörka fläckar och förbättra hudens ton och utseende. Våra behandlingsmetoder inkluderar speciella ljusbehandlingar, kemiska peelingar och topiska produkter, alla utvalda för att ge bästa möjliga resultat för din hud.',
+            content: 'Vi erbjuder avancerade behandlingar som är anpassade för att effektivt minska mörka fläckar och förbättra hudens ton och utseende. Våra behandlingsmetoder inkluderar speciella ljusbehandlingar, kemiska peelingar och topiska produkter, alla utvalda för att ge bästa möjliga resultat för din hud.',
             url_label: 'Se behandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra anpassade behandlingar för postinflammatorisk hyperpigmentering'
@@ -67,7 +67,7 @@ $treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva beha
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför uppstår postinflammatorisk hyperpigmentering?',
+            title: 'Varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
