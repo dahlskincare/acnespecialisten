@@ -60,7 +60,7 @@ $treatment_steps = array(
             title: 'Behandla seborroisk keratos',
             content: 'AcneSpecialisten erbjuder en rad behandlingsalternativ för seborroisk keratos, inklusive laserterapi och andra icke-invasiva metoder. Vår målsättning är att ge dig en skonsam, säker och effektiv behandling som minimerar hudförändringarna och förbättrar hudens utseende.',
 
-            url_label: 'Se behandlingar för seborroisk keratos',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_seborroisk_keratos',
             url_title: 'Läs mer om våra behandlingar för seborroisk keratos'
       ),
@@ -68,7 +68,7 @@ $treatment_steps = array(
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför får man seborroisk keratos?',
+            title: 'Varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -80,7 +80,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för mina seborroisk keratos?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för mina seborroisk keratos?',
@@ -89,7 +89,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina seborroisk keratos?',
@@ -98,13 +98,13 @@ $articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina seborroisk keratos";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för seborroisk keratos',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid en konsultation hos AcneSpecialisten utförs en undersökning av dina seborroisk keratos. Våra hudexperter tar före-bilder och diskuterar med dig de mest lämpliga behandlingsalternativen, som kan inkludera Cryopen eller andra skonsamma metoder, för att skapa en individanpassad behandlingsplan som passar dina unika behov.',
+      content: 'Vid en konsultation hos AcneSpecialisten utförs en undersökning av din hy. Våra hudexperter tar före-bilder och diskuterar med dig de mest lämpliga behandlingsalternativen, som kan inkludera Cryopen eller andra skonsamma metoder, för att skapa en individanpassad behandlingsplan som passar dina unika behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -120,14 +120,14 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla seborroisk keratos med CryoPen";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
             title: 'Behandling av seborroisk keratos med CryoPen',
             duration: '20 min',
             price: '995 kr',
-            content: 'Cryopen är en innovativ behandling som använder kryoterapi för att målinriktat och skonsamt behandla seborroisk keratos. Denna snabba och effektiva metod minimerar obehag och är utmärkt för att reducera synligheten av seborroisk keratos, vilket ger en jämnare och förbättrad hudton.',
+            content: 'CryoPen är en innovativ behandling som använder kryoterapi för att målinriktat och effektiv behandling. Denna snabba och effektiva metod minimerar obehag och är utmärkt för att reducera synligheten av seborroisk keratos, vilket ger en jämnare och förbättrad hudton.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
