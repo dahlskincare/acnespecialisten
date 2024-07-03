@@ -34,12 +34,12 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
 );
 
-$about_title = 'Om rosacea';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är rosacea?',
+            title: ' är rosacea?',
             content: '<p class="p200">Rosacea är en kronisk inflammatorisk hudsjukdom som kännetecknas av en ihållande rodnad i ansiktet, synliga blodkärl, vätskefyllda blåsor och ibland röda utslag som liknar akne. Sjukdomen har ett kroniskt och ofta cykliskt förlopp, vilket innebär att symtomen fluktuerar över tid, med perioder av försämring följt av perioder av förbättring.</p>',
 
             extended_content: '<p class="p200 mt-xl">Det finns fyra subtyper av rosacea som varierar i symtom och svårighetsgrad. Dessa inkluderar erythematotelangiectatic rosacea (ETR), som kännetecknas av rodnad och synliga blodkärl; papulopustulös rosacea (PPR), som visar upp rodnad, svullnad och akne-liknande utbrott; phymatous rosacea, som leder till hudförtjockning och en ojämn hudstruktur; och ockulär rosacea, som påverkar ögonen.</p>
@@ -49,7 +49,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man rosacea?',
+            title: ' får man rosacea?',
             content: '<p class="p200">Den exakta orsaken till rosacea är fortfarande något som forskare och läkare försöker förstå, det är dock tydligt att genetik spelar en central roll. Om du har familjemedlemmar med rosacea, ökar sannolikheten att du också kommer att utveckla sjukdomen. Emellertid triggas ofta rosacea av flera kombinerade faktorer. De med rosacea har ofta utvidgade blodkärl, vilket leder till ökat blodflöde i huden och kan orsaka den typiska rodnaden och synliga blodkärlen associerade med tillståndet.</p>',
 
             extended_content: '<p class="p200 mt-xl">Människor med rosacea har dessutom ofta en högre koncentration av en typ av hårsäckskvalster, kallad demodex, än de utan rosacea. Dessa kvalster kan orsaka inflammatoriska reaktioner som leder till utslag och andra hudsymptom. Hudens skyddsbarriär kan också vara försämrad hos personer med rosacea, vilket resulterar i ökad känslighet och reaktivitet mot olika yttre och inre triggande faktorer.</p>
@@ -59,7 +59,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får rosacea?',
+            title: ' får rosacea?',
             content: '<p class="p200">Vanligtvis utvecklas rosacea hos individer mellan 30 och 50 års ålder, även om det också kan dyka upp tidigare eller senare. Rosacea är vanligare hos kvinnor än hos män. Även om kvinnor är mer benägna att få rosacea, utvecklar män ofta mer svåra former av sjukdomen, inklusive rhinophyma, som kännetecknas av förtjockning av huden på näsan. (Potatisnäsa)</p>',
 
             extended_content: '<p class="p200 mt-xl">Det är också viktigt att notera att personer med en familjehistoria av rosacea eller andra hudsjukdomar, som akne, har en högre risk att utveckla sjukdomen. Dessa individer bör vara särskilt medvetna om symtomen på rosacea och söka professionell hjälp om de misstänker att de har tillståndet.</p>
@@ -69,7 +69,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man rosacea?',
+            title: ' får man rosacea?',
             content: '<p class="p200">Rosacea är ett hudtillstånd som huvudsakligen påverkar ansiktet, men det kan också spridas till andra områden av huden. I huvudsak är rosacea mest framträdande i mitten av ansiktet i form av ett fjärillsmönster. Rödhet och synliga blodkärl kan först uppträda på näsan och kinderna, men kan sedan sprida sig till pannan och hakan. Rosacea kan ibland även påverka områdena runt ögonen och orsaka inflammation i ögonlocken och ögonvita, ett tillstånd som kallas okulär rosacea.</p>',
 
             extended_content: '<p class="p200 mt-xl">Näsans vävnad kan också påverkas av rosacea, särskilt hos män, vilket resulterar i en tillstånd som kallas rhinophyma. Rhinophyma är en form av rosacea där huden på näsan blir tjock och knölig. Även om rosacea primärt påverkar ansiktet, kan det i vissa fall sprida sig till hals, bröst, öron och till och med hårbotten.</p>
@@ -103,19 +103,19 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'När rosacean är borta fokuserar vi på att ta bort ytliga blodkärl med behandlingsmetoder som IPL för en jämnare hudton och problemfri hud.',
-            url_label: 'Se IPL-behandlingar',
+            url_label: 'Se behandlingar',
             url: '/ipl-rosacea.php',
             url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
 
 );
-$treatment_link = '<a href="/rosaceabehandling.php" title="Utforska effektiva rosaceabehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra rosaceabehandlingar</a>';
+$treatment_link = '<a href="/rosaceabehandling.php" title="Utforska effektiva rosaceabehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $types_title = 'Olika typer av rosacea';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Rosacea baserat på svårighetsgrad',
+            title: 'Baserat på svårighetsgrad',
             content: '<p class="p200">Rosacea är ett hudtillstånd som varierar kraftigt i svårighetsgrad mellan olika individer. Hudtillståndet, som vanligtvis manifesterar sig som rodnad och synliga blodkärl i ansiktet, kan också leda till små, röda, pusfyllda blåsor eller knölar i värre fall. Rosacea klassificeras vanligtvis i fyra olika subtyper baserat på dess symptom och svårighetsgrad.</p>',
             types: array(
                   new BasedType(
@@ -142,7 +142,7 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Yttre faktorer som förvärrar rosacea',
+            title: 'Yttre faktorer',
             content: '<p class="p200">Rosacea kan förvärras eller till och med utlösas av en rad yttre faktorer. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras rosacea-utbrott.</p>',
             types: array(
                   new BasedType(
@@ -199,7 +199,7 @@ $type_categories = array(
 
 );
 
-$symptoms_title = 'Rosacea symptom';
+$symptoms_title = 'Symtom';
 
 $symptoms = array(
       new Symptom(
@@ -269,7 +269,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din rosacea";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation',
@@ -287,11 +287,11 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer konsultation mot rosacea',
+      url_label: 'Läs mer konsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
 
-$headline02 = "02. Behandla aktiv rosacea";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -310,7 +310,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
             url: 'rosaceabehandling.php',
-            url_label: 'Läs mer om ansiktsbehandling för rosacea',
+            url_label: 'Läs mer om ansiktsbehandling',
             url_title: 'Läs mer om ansiktsbehandling för rosacea'
       ),
       new Service(
@@ -329,12 +329,12 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka din IPL-behandling mot rosacea nu',
             url: 'ipl-rosacea.php',
-            url_label: 'Läs mer om IPL-behandlingar',
+            url_label: 'Läs mer om behandlingar',
             url_title: 'Utforska mer om våra IPL-behandlingar mot rosacea',
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny rosacea";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -357,7 +357,7 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-rosacea (synliga blodkärl)";
+$headline04 = "04. Reparera";
 
 $procedures = array(
       new Service(
