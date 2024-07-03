@@ -80,15 +80,6 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'När ska jag söka hjälp för mina seborroisk keratos?',
-            image_title: 'När ska jag söka hjälp för mina seborroisk keratos?',
-            content: '<p class="p200">Även om seborroisk keratos oftast är ofarliga, är det viktigt att vara uppmärksam på förändringar i utseende. Om du märker att en seborroisk keratos förändrar färg, storlek, form, eller börjar blöda, är det viktigt att söka professionell bedömning.</p>',
-      ),
-
-      new Article(
             title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
