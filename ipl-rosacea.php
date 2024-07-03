@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'IPL mot Rosacea',
+    title: 'IPL mot rosacea',
     duration: '60 min',
     price: 'Från 2332 kr',
     content: '',
@@ -88,7 +88,7 @@ $treatment_steps = array(
     new TreatmentStep(
         title: 'Reparera',
         content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-        url_label: 'Se IPL-behandlingar',
+        url_label: 'Se IPL behandlingar',
         url: 'ipl-ytliga-blodkarl.php',
         url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
     ),
@@ -97,7 +97,7 @@ $treatment_steps = array(
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför behandling med IPL mot rosacea',
+        title: 'Inför behandlingen',
         image_small: null,
         image_large: null,
         image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
@@ -106,7 +106,7 @@ $top_articles = array(
         <p class="p200 mt-m">För att förbereda din hud för behandlingen är det viktigt att du undviker solning och användning av självbrunande produkter minst två veckor före din session. Detta är för att minska risken för ojämn pigmentering, då IPL behandlar pigment och blodkärl i huden. Du bör även undvika hudvårdsprodukter som innehåller retinol, starka syror eller andra exfolierande ämnen under veckan före behandlingen. Detta för att säkerställa att din hud inte är överkänslig eller irriterad vid behandlingstillfället. Din hudterapeut kommer att ge dig fullständiga instruktioner om hur du bäst förbereder dig inför din IPL-behandling, och vilka steg du bör ta efteråt för att främja en smidig och effektiv läkningsprocess.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går en IPL mot rosacea till?',
+        title: 'Hur går behandlingen till?',
         image_small: null,
         image_large: null,
         image_alt: 'Hur går en IPL mot rosacea till?',
@@ -117,8 +117,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot rosacea';
-$treatment_areas_text = '<p class="p200">Med IPL behandlar vi både hela och delar av ansiktet.</p>';
+$treatment_areas_title = 'Behandlingsområden';
+$treatment_areas_text = '<p class="p200">Vi kan behandla både hela och delar av ansiktet.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -166,7 +166,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för IPL-behandling mot rosacea',
+    title: 'Eftervård',
     image_small: null,
     image_large: null,
     image_alt: 'Eftervård för IPL-behandling mot rosacea',
