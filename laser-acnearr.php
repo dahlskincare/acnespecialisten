@@ -59,7 +59,7 @@ $model = new Service(
 
 $floating_box = 'Effektiv laserbehandling mot acneärr.';
 
-$description_title = 'Laserbehandling mot acneärr';
+$description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Laserbehandling erbjuder en avancerad och riktad metod för att reducera acneärr, genom att använda högteknologiska laserstrålar som försiktigt exfolierar det övre hudlagret och stimulerar hudens naturliga läkningsprocess. Denna process leder till nybildning av hudvävnad och minskar synligheten av ärr, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
 <p class="p200 mt-m">På AcneSpecialisten specialiserar vi oss på att skräddarsy laserbehandlingar för att effektivt behandla acneärr utifrån varje individs specifika hudtillstånd och ärrtyper. Vår tillvägagångssätt syftar inte bara till att minska befintliga ärr, utan även att förbättra hudens övergripande textur och utseende. Genom att integrera laserbehandling med en anpassad hudvårdsrutin och eventuella kompletterande terapier, arbetar vi för att erbjuda en heltäckande lösning som främjar en sundare, klarare hud med långsiktiga resultat.</p>';
 

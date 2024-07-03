@@ -60,7 +60,7 @@ $model = new Service(
 
 $floating_box = 'Effektiv laserbehandling mot acne.';
 
-$description_title = 'Laserbehandling mot Acne';
+$description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Laserbehandling är en innovativ och effektiv metod för att bekämpa acne. Genom att använda speciellt utformade laserljus, riktas behandlingen mot de bakterier som orsakar acne samt minskar inflammationen i huden. Denna teknik hjälper till att kontrollera acneutbrott och bidrar till en klarare hudton.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten anpassar vi våra laserbehandlingar för att möta de unika behoven hos varje individ med acneproblem. Vår metod inte bara behandlar befintlig acne, utan jobbar även på att förebygga framtida utbrott. Genom att kombinera laserbehandling med en personlig hudvårdsrutin och eventuellt kompletterande behandlingar, strävar vi efter att ge dig en långvarigt friskare och klarare hud.</p>';
 
