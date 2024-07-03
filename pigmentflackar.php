@@ -107,7 +107,7 @@ $types_title = 'Olika typer av Pigmentfläckar';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Pigmentfläckar baserat på orsak',
+            title: 'Baserat på orsak',
             content: '<p class="p200">Pigmentfläckar kan orsakas av en mängd yttre faktorer som solens UV-strålning, hormonella förändringar, åldrande, miljöfaktorer och yttre skador på huden. Långvarig exponering för solen utan skydd, till exempel, kan öka melaninproduktionen och leda till fläckar, medan hormonella förändringar som graviditet kan ge temporär pigmentering. Förståelsen för dessa faktorer är avgörande för effektiv förebyggande och behandling av pigmentfläckar.</p>',
             types: array(
                   new BasedType(
@@ -149,7 +149,7 @@ $type_categories = array(
             )
       ),
       new BasedTypeCategory(
-            title: 'Pigmentfläckar baserat på Färg',
+            title: 'Baserat på Färg',
             content: '<p class="p200">Färgen på en pigmentfläck kan avslöja mycket om dess orsak och typ. Bruna fläckar är ofta kopplade till åldersrelaterade förändringar och solskador, medan röda eller rosa kan indikera inflammation. Svarta eller mörkbruna fläckar kan vara mer allvarliga och kräver professionell bedömning. Blå eller grå fläckar är oftast medfödda och specifika för vissa hudtyper. Varje färg ger ledtrådar som kan hjälpa i diagnostisering och behandling.</p>',
             types: array(
                   new BasedType(
@@ -192,7 +192,7 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            title: 'Pigmentfläckar baserat på område',
+            title: 'Baserat på område',
             content: '<p class="p200">Pigmentfläckar kan uppstå på olika delar av kroppen, inklusive ansiktet, händerna och resten av kroppen. Platsen kan ibland ge insikt i orsaken; till exempel, fläckar på händer och ansikte är ofta kopplade till solskador eftersom dessa områden är mest utsatta för solen. Pigmentfläckar på kroppen kan vara mer relaterade till åldrande eller hormonella förändringar. Bedömning av pigmentfläckar baserat på område hjälper till att förstå underliggande faktorer och ger riktning för skräddarsydd behandling.</p>',
             types: array(
                   new BasedType(
@@ -237,7 +237,7 @@ $type_categories = array(
 
 );
 
-$headline01 = "01. Identifiera dina Pigmentfläckar";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för Pigmentfläckar och Hudfläckar',
@@ -255,11 +255,11 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer konsultation mot pigmentfläckar',
+      url_label: 'Läs mer konsultation',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för pigmentfläckar och hudfläckar'
 );
 
-$headline02 = "02. Behandlingar mot pigmentfläckar";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -278,7 +278,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en IPL-behandling för pigmentfläckar',
             url: 'ipl-pigmentflackar.php',
-            url_label: 'Läs mer om IPL-behandling mot pigmentfläckar',
+            url_label: 'Läs mer om IPL behandling',
             url_title: 'Klicka här för att läsa mer om IPL-behandling för pigmentfläckar'
       ),
       new Service(
@@ -297,7 +297,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för pigmentfläckar',
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot pigmentfläckar',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot pigmentfläckar'
       ),
       new Service(
@@ -316,7 +316,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot pigmentfläckar',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
-            url_label: 'Läs mer om laser mot pigmentfläckar',
+            url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot pigmentfläckar'
       ),
 
@@ -336,14 +336,14 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling-behandling för pigmentfläckar',
             url: '/microneedling.php',
-            url_label: 'Läs mer om microneedling mot pigmentfläckar',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot pigmentfläckar'
       ),
 );
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka vård för mina pigmentfläckar?',
+            title: 'När ska jag söka behandling?',
             image_small: null,
             image_large: null,
             image_alt: 'Kvinna som funderar över sina pigmentfläckar',
@@ -352,7 +352,7 @@ $articles = array(
             <p class="p200 mt-m">Om du har fläckar som du redan vet är godartade men som du finner störande, kan en konsultation hos AcneSpecialistem hjälpa dig att utforska de bästa behandlingsmetoderna för just din hudtyp och dina behov.Det bör noteras att på vår klinik behandlar vi endast estetiska aspekter av pigmentfläckar.</p>',
       ),
       new Article(
-            title: 'Varför ska jag behandla mina pigmentfläckar hos Acnespecialisten?',
+            title: 'Varför ska jag behandla mig hos Acnespecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Acnespecialisten klinik, expert på behandling av pigmentfläckar',
