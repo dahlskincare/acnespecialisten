@@ -59,7 +59,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder anpassade behandlingar för stress acne som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas av stress.',
-            url_label: 'Se aknebehandlingar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
@@ -73,17 +73,17 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'Våra behandlingsstrategier för stress acne inkluderar även metoder för att reparera hudskador orsakade av akne, som att minska ärrbildning och förbättra hudens textur för en jämnare hudton.',
-            url_label: 'Se ärrbehandlingar',
+            url_label: 'Se behandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var uppstår stress acne?',
+            title: 'Var uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -95,7 +95,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
+            title: 'När är det dags att söka professionell hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När är det dags att söka professionell hjälp för stressrelaterad akne?',
@@ -104,7 +104,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
+            title: 'Varför välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för din stressrelaterade akne?',
