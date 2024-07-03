@@ -76,7 +76,7 @@ $top_articles = array(
 );
 
 $treatment_areas_title = 'Behandling baserat på område';
-$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara portömning i ansiktet utan även på brötstet och på ryggen.</p>';
+$treatment_areas_text = '<p class="p200">Pormaskar kan uppstå överallt på kroppen där det finns porer. Vi utför därför inte bara behandlingen i ansiktet utan även på brötstet och på ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
