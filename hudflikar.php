@@ -60,7 +60,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder olika behandlingsalternativ för effektiv borttagning av hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
-            url_label: 'Se behandlingar för hudflikar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags',
             url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
@@ -68,7 +68,7 @@ $treatment_steps = array(
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför får man hudflikar?',
+            title: 'Varför får man hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -80,7 +80,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När är det dags att söka hjälp för hudflikar?',
+            title: 'När är det dags att söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När är det dags att söka hjälp för hudflikar?',
@@ -89,7 +89,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
+            title: 'Fördelar med att besöka AcneSpecialisten',
             image_small: null,
             image_large: null,
             image_alt: 'Fördelar med att besöka AcneSpecialisten för hudflikar',
@@ -98,7 +98,7 @@ $articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera dina hudflikar";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för hudflikar',
@@ -120,7 +120,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla hudflikar med CryoPen";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
