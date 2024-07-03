@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar hud påverkad av stressrelaterad akne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Stress acne',
-      description: 'Stress kan ha en djupgående effekt på vår hud, ofta uppstå som stress akne. Denna typ av utbrott, även känd som stress finnar, uppstår när kroppens stressrespons leder till ökad talgproduktion, vilket kan täppa till porerna och orsakar acne. Här hittar du mer information om problemet och hur vi kan hjäpla dig att behandla det effektivt.',
+      description: 'Stress kan ha en djupgående effekt på vår hud, ofta uppstå som stress acne. Denna typ av utbrott, även känd som stress finnar, uppstår när kroppens stressrespons leder till ökad talgproduktion, vilket kan täppa till porerna och orsakar acne. Här hittar du mer information om problemet och hur vi kan hjäpla dig att behandla det effektivt.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -41,12 +41,11 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-
 $floating_box = 'Behandla din stress acne effektivt.';
 
 $description_title = 'Vad är stress acne?';
-$description_text = '<p class="p200">Stress acne, även känd som akne stress, är en hudåkomma där utbrott av akne förvärras eller utlöses av perioder av hög stress. Ironiskt nog kan själva närvaron av acne öka stressnivåerna, vilket skapar en ond cirkel av stress och hudproblem. Denna typ av akne uppstår när kroppen reagerar på stress genom att producera ökad mängd av hormonet kortisol, vilket kan stimulera hudens talgkörtlar till överproduktion av talg. Denna överflödiga talg kan leda till tilltäppta porer och därmed utbrott av akne. Att hantera denna cykel av stress och akne kan vara utmanande, särskilt när de faktorer som orsakar stress är svåra att kontrollera eller eliminera. Nyckeln till att effektivt behandla stress acne ligger i att utveckla en skräddarsydd behandlingsplan tillsammans med en hudterapeut.</p>
-<p class="p200 mt-m">En skräddarsydd hudvårdsrutin för att hantera stress acne bör fokusera på att använda effektiva hudvårdsprodukter som behandlar och balanserar huden effektivt för att reglera hudens talgproduktion och främja en hälsosam hudbarriär. Att integrera produkter med lugnande och antiinflammatoriska egenskaper kan också hjälpa till att reducera rodnad och irritation associerad med akne. Även om det kan vara svårt att direkt påverka de stressfaktorer som bidrar till utbrott, kan en effektiv hudvårdsrutin, utvecklad i samråd med en hudterapeut, erbjuda en väg för att kontrollera och minska incidensen av stress acne. Genom att ta hand om huden på rätt sätt kan man bryta den onda cirkeln av stress och akne, vilket leder till både ett bättre hudtillstånd och minskad stress relaterad till hudproblem.</p>';
+$description_text = '<p class="p200">Stress acne är en hudåkomma där utbrott av akne förvärras eller utlöses av perioder av hög stress. Ironiskt nog kan själva närvaron av acne öka stressnivåerna, vilket skapar en ond cirkel av stress och hudproblem. Denna typ av akne uppstår när kroppen reagerar genom att producera ökad mängd av hormonet kortisol, vilket kan stimulera hudens talgkörtlar till överproduktion av talg. Denna överflödiga talg kan leda till tilltäppta porer och därmed utbrott av akne. Att hantera denna cykel kan vara utmanande, särskilt när de faktorer som orsakar stress är svåra att kontrollera eller eliminera. Nyckeln till att effektivt behandla hudproblemet ligger i att utveckla en skräddarsydd behandlingsplan tillsammans med en hudterapeut.</p>
+<p class="p200 mt-m">En skräddarsydd hudvårdsrutin för att hantera acnen bör fokusera på att använda effektiva hudvårdsprodukter som behandlar och balanserar huden effektivt för att reglera hudens talgproduktion och främja en hälsosam hudbarriär. Att integrera produkter med lugnande och antiinflammatoriska egenskaper kan också hjälpa till att reducera rodnad och irritation associerad med akne. Även om det kan vara svårt att direkt påverka de stressfaktorer som bidrar till utbrott, kan en effektiv hudvårdsrutin, utvecklad i samråd med en hudterapeut, erbjuda en väg för att kontrollera och minska incidensen av stress acne. Genom att ta hand om huden på rätt sätt kan man bryta den onda cirkeln och akne, vilket leder till både ett bättre hudtillstånd och minskad stress relaterad till hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
