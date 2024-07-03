@@ -53,14 +53,14 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar i ansiktet effektivt.';
 
-$description_title = 'Finnar i Ansiktet: Orsaker och Behandlingar';
+$description_title = 'Orsaker och Behandlingar';
 $description_text = '<p class="p200">Finnar i ansiktet är en hudutmaning som inte enbart drabbar tonåringar utan även individer i alla åldrar, ofta påverkat av faktorer som hormonella förändringar, stress och livsstil. På Acnespecialisten inriktar vi oss på att noggrant rengöra och balansera huden med metoder som är lämpliga för olika åldrar och hudtyper. Vi erbjuder ett brett utbud av anpassade behandlingar som aktivt bekämpar finnar och är skonsamma mot huden.</p>
 <p class="p200 mt-m">Vår expertis på Acnespecialisten innefattar skräddarsydda hudvårdsprogram som möter de unika behoven hos varje individ. Från precisa rengöringsstrategier till specialanpassade behandlingar som vårdar och lugnar, är våra hudterapeuter utrustade med kunskap och färdigheter för att erbjuda den mest effektiva och samtidigt skonsamma vård för alla typer av hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos dina finnar i ansiktet och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till finnar.',
+            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos ditt hudproblem och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till finnar.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
@@ -70,7 +70,7 @@ $treatment_steps = array(
             content: 'Våra behandlingar för finnar i ansiktet är skräddarsydda för att effektivt behandla huden. Vi erbjuder en rad olika alternativ, anpassade efter din huds specifika behov och tillstånd.',
             url_label: 'Se finnarbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
-            url_title: 'Utforska våra skräddarsydda finnarbehandlingar'
+            url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
@@ -81,18 +81,18 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar för att reparera huden efter utbrott av finnar i ansiktet, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för finnar i ansiktet skapar långsiktiga resultat.',
-            url_label: 'Se ärrbehandlingar',
+            content: 'Vi erbjuder behandlingar för att reparera huden efter utbrott, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för att skapa långsiktiga resultat.',
+            url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
       ),
 );
 
-$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva abehandlingar mot finnar i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
+$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva abehandlingar mot finnar i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlinga</a>';
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför uppstår finnar i ansiktet?',
+            title: 'Varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -104,7 +104,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för finnar i ansiktet?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för finnar i ansiktet?',
@@ -113,7 +113,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
+            title: 'Varför ska jag välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för finnar i ansiktet?',
