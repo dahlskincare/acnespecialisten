@@ -51,12 +51,12 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om hudförändringar';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är hudförändringar?',
+            title: ' är hudförändringar?',
             content: '<p class="p200">Hudförändringar kan vara både godartade och elaktartade, vi behandlar endast med godartade hudförändringar som upplevs som estetiskt störande utan att påverka individens hälsa och det är de vi kommer att prata om här. Dessa förändringar kan uppträda som fläckar, upphöjningar, eller utväxter och kommer i en mängd olika former, färger och storlekar. Även om de är ofarliga, kan en del av dem orsaka kosmetiska eller komfortrelaterade bekymmer. En av de vanligaste formerna av hudförändringar är leverfläckar, som i huvudsak är överdrivna pigmentansamlingar i huden. De kan vara medfödda eller uppkomma med tiden på grund av solens exponering, ålder eller genetik. Födelsemärken är en annan typ av vanlig hudförändring som kan uppträda var som helst på kroppen. De är oftast bruna eller svarta, men kan också vara blå, grå eller till och med röda eller rosa. Deras storlek och form kan variera mycket.</p>',
             extended_content: '<p class="p200 mt-xl">Hemangiom, ofta kallade hallonmärke, jordgubbsmärke eller smultronmärke, är ljusröda födelsemärken som uppkommer vid eller strax efter födseln. Dessa märken består av extra blodkärl och bleknar oftast över tid. <a class="b200 underline color-deep-sea-400" href="blodprickar.php">Blodprickar</a> eller Cherryspot är också en liten röd hudförändring. <a class="b200 underline color-deep-sea-400" href="seborroisk-keratos.php">Seborroisk Keratos</a> och åldersvårtor är vanliga hos äldre individer. De är oftast bruna, upphöjda fläckar som kan vara skrovliga. Medan de kan se oroande ut, är de oftast ofarliga. Skintags, eller hudflikar, är små, mjuka utväxter av hud som ofta uppträder på områden där hud gnids mot hud, som halsen, armhålorna eller ljumsken.</p>
             <p class="p200 mt-xl">Fibrom och andra hudutväxter kan vara mjuka eller fasta och variera i färg från hudfärgad till svart. Även om de flesta av dessa är ofarliga, är det alltid bra att få dem kontrollerade om någon ny hudförändring eller om en befintlig förändring börjar ändra sig. Sammanfattningsvis är hudförändringar vanligtvis ofarliga hudutväxter eller märken på huden. Medan de flesta inte kräver behandling, kan de ibland tas bort av kosmetiska skäl eller om de orsakar irritation.</p>',
@@ -64,7 +64,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man hudförändringar?',
+            title: ' får man hudförändringar?',
             content: '<p class="p200">Hudförändringars uppkomst kan vara en produkt av flera olika faktorer, både interna och externa. Genetik spelar ofta en betydande roll. Till exempel kan födelsemärken och vissa typer av leverfläckar ärvas från föräldrar till barn. Om det finns en familjehistoria av vissa hudförändringar, är chansen större att andra familjemedlemmar också kommer att utveckla dem. Miljöfaktorer är också avgörande. Solens ultravioletta strålar är en känd orsak till många hudförändringar, inklusive leverfläckar, födelsemärken och seborroiska keratoser. Långvarig och oskyddad exponering för solen kan inte bara leda till en ökning av antalet hudförändringar, utan också förändra de som redan finns. Detta understryker vikten av att använda solskydd och att ta andra försiktighetsåtgärder när man är utomhus.</p>',
             extended_content: '<p class="p200 mt-xl">Åldrande är ytterligare en bidragande faktor. Med tiden börjar huden att visa tecken på slitage. Kollagenproduktionen minskar, vilket leder till minskad elasticitet och fasthet i huden. Som ett resultat av detta kan nya hudförändringar uppträda, och befintliga kan bli mer framträdande. Åldersvårtor, till exempel, tenderar att uppträda med stigande ålder och är särskilt vanliga hos individer över 50. Hormonella förändringar, särskilt de som inträffar under graviditet, pubertet och klimakteriet, kan också leda till utveckling av nya hudförändringar eller förändringar av redan existerande märken. Hudflikar och skintags kan uppträda eller öka i storlek under dessa perioder.</p>
             <p class="p200 mt-xl">Infektioner, allergier, hudskador eller andra medicinska tillstånd kan också orsaka hudförändringar. För att sammanfatta, hudförändringar kan uppträda av en mängd olika skäl, allt från genetik och åldrande till miljöfaktorer och hormonella obalanser. Det är därför det är viktigt att ha en förståelse för dessa underliggande orsaker, så att man kan vidta lämpliga åtgärder för att förebygga, behandla eller övervaka dem.</p>',
@@ -72,7 +72,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får hudförändringar?',
+            title: ' får hudförändringar?',
             content: '<p class="p200">Nästan alla människor kommer vid något skede i livet att uppleva någon form av hudförändring, men vem som drabbas, när och varför kan variera beroende på ett flertal faktorer. För det första är genetik en av de mest avgörande faktorerna. Om dina föräldrar eller andra nära släktingar har en historia av specifika hudförändringar, såsom födelsemärken, leverfläckar eller åldersvårtor, är chansen större att du också kommer att utveckla liknande förändringar. Detta arv kan sträcka sig över flera generationer, vilket betyder att även om dina föräldrar inte har dessa hudförändringar, kan du ändå ärva benägenheten från tidigare generationer. Ålder är en annan viktig faktor. Även om människor i alla åldrar kan utveckla hudförändringar, tenderar vissa förändringar att vara mer vanliga under specifika livsfaser. Till exempel är hemangiom, även kända som jordgubbsmärken, vanligast hos nyfödda, medan åldersvårtor oftast uppträder i vuxen ålder.</p>',
             extended_content: '<p class="p200 mt-xl">Personer som spenderar mycket tid utomhus eller som inte regelbundet använder solskydd kan ha en högre risk att utveckla solrelaterade hudförändringar som leverfläckar. Detsamma gäller individer som ofta utsätter sin hud för kemikalier eller andra irriterande ämnen, vilket kan leda till reaktioner eller långvariga förändringar i huden. Hormonella förändringar, som de som upplevs under graviditet, pubertet och klimakteriet, kan också påverka hudens tillstånd och förekomsten av hudförändringar. Detta kan förklara varför vissa kvinnor plötsligt upptäcker hudförändringar under graviditeten eller varför tonåringar kan märka nya födelsemärken under puberteten.</p>
             <p class="p200 mt-xl">Hälsotillstånd och mediciner kan också påverka hudens utseende. Personer med vissa autoimmuna sjukdomar kan vara mer benägna att utveckla specifika hudförändringar. Likaså kan vissa mediciner orsaka hudreaktioner eller förändringar som en biverkning. Så även om nästan alla kommer att uppleva någon form av hudförändring under sin livstid, varierar sannolikheten, typen och svårighetsgraden av dessa förändringar beroende på genetik, ålder, livsstil, hormonella förändringar, hälsa och andra faktorer. Att förstå dessa nyanser kan hjälpa individer att vara mer medvetna och ta hand om sin hud på bästa möjliga sätt.</p>',
@@ -80,7 +80,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man hudförändringar?',
+            title: ' får man hudförändringar?',
             content: '<p class="p200">Hudförändringar kan uppstå överallt på kroppen, men vissa områden är mer benägna att utveckla specifika typer av förändringar beroende på en kombination av genetik, exponering och andra faktorer. Ansiktet och huvudet är ett av de vanligaste områdena där människor märker hudförändringar, givet dess konstanta exponering för miljöfaktorer som sol, vind och föroreningar. Här kan du hitta allt från födelsemärken och åldersvårtor till seborroisk keratos. På grund av den ökade solens exponering är leverfläckar och födelsemärken också vanliga i detta område, särskilt på kinderna, näsan och pannan. Händer och armar, som också ofta är exponerade, kan visa tecken på åldrande snabbare än mer skyddade områden. Här kan man se leverfläckar, åldersvårtor eller solskadad hud. Dessutom kan hudutväxter eller hudflikar utvecklas i områden med friktion, såsom axlar eller under bysten.</p>',
             extended_content: '<p class="p200 mt-xl">Baksidan av kroppen, särskilt ryggen, kan vara en plats där födelsemärken och leverfläckar utvecklas eftersom det ofta är svårt för individer att övervaka dessa områden regelbundet. Förändringar här bör granskas regelbundet av en hudspecialist för att säkerställa att de inte är skadliga. Benen, särskilt hos kvinnor, kan uppleva förändringar som en följd av solskador, åldrande eller hormonella förändringar. Här kan du hitta leverfläckar, fibromer och ibland utväxter som är resultatet av kronisk friktion eller irritation. Halsen och bröstområdet är också kända för att visa tecken på åldrande eller solskada. Denna känsliga hud kan utveckla seborroisk keratos, skintags eller andra mindre vanliga hudförändringar som fibrom.</p>
             <p class="p200 mt-xl">Beroende på kroppens område kan också hudens tjocklek, mängden fettvävnad och graden av solskydd påverka vilken typ av hudförändring som är mest sannolik. Sammanfattningsvis, även om hudförändringar kan förekomma var som helst på kroppen, varierar förekomsten och typen av förändringar beroende på områdets unika exponering för yttre och inre faktorer. Att känna igen dessa skillnader kan hjälpa individer att övervaka sin hud mer effektivt och söka professionell rådgivning när det behövs.</p>',
@@ -99,7 +99,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför behandlingar mot godartade hudförändringar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
+            content: 'Vi utför behandlingar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar för hudförändringar',
             url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP',
@@ -267,20 +267,20 @@ $type_categories = array(
 
 );
 
-$headline01 = "01. Identifiera din hudförändring";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för hudförändringar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en konsultation får du träffa en hudterapeut som går igenom dina godartade hudförändringar. Vi tar före-bilder på det berörda området och rekommenderar en lämplig behandlingsplan.',
+      content: 'Under en konsultation får du träffa en hudterapeut som går igenom din hud. Vi tar före-bilder på det berörda området och rekommenderar en lämplig behandlingsplan.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för hudförändringsbehandling',
       image_title: 'Konsultation för behandling av hudförändringar',
 
-      url_label: 'Läs mer om konsultation mot hudförändringar',
+      url_label: 'Läs mer om konsultation',
       url: '/gratis-hudkonsultation.php',
       url_title: 'Läs mer om konsultation mot hudförändringar',
 
@@ -293,7 +293,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla hudförändringar";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -308,7 +308,7 @@ $services = array(
             image_title: 'Behandling av hudförändringar med Cryopen',
 
             url: '/cryopen.php',
-            url_label: 'Läs mer om CryoPen mot hudförändringar',
+            url_label: 'Läs mer om CryoPen',
             url_title: 'Läs mer om CryoPen mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
@@ -330,7 +330,7 @@ $services = array(
             image_alt: 'Kvinna som får laserbehandling mot hudförändringar',
             image_title: 'Laserbehandling mot hudförändringar',
 
-            url_label: 'Läs mer om laser mot hudförändringar',
+            url_label: 'Läs mer om laser',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer om laser mot hudförändringar',
 
@@ -346,7 +346,7 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina hudförändringar?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina hudförändringar?',
@@ -355,7 +355,7 @@ $articles = array(
             extended_content: 'Att ta steget att söka behandling är viktigt för att du ska få den hjälp du behöver. En kvalificerad hudterapeut kan erbjuda en detaljerad utvärdering och rekommendera behandlingsalternativ som är skräddarsydda efter individens specifika behov och situation. Om du känner att hudförändringarna börjar påverka ditt självförtroende eller orsakar oro, är det dags att söka hjälp. Att kontakta en specialist för en konsultation är det första steget mot att återfå kontrollen över din hudhälsa och ditt välbefinnande. Observera att vi på AcneSpecialisten inte kan diagnostisera om dina hudförändringar är elakartade.'
       ),
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina hudförändringar?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina hudförändringar?',

@@ -46,19 +46,19 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om bristningar';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är bristningar?',
+            title: ' är bristningar?',
             content: '<p class="p200">Bristningar, vetenskapligt benämnda som striae, är märkbara, ojämna linjer eller band på huden som uppstår när bindväv under huden tänjs ut över sin flexibilitetsgräns. Det engelska begreppet stretchmarks används också väldigt ofta. Denna tänjning leder till en skada i huden där den har blivit tunnare och förlorat en del av sin elastiska förmåga. Denna förändring beror på skador i hudens kollagen och elastinfibrer, de proteiner som är ansvariga för hudens fasthet och elasticitet. När bristningar först uppträder kan de ofta ha en röd, blåaktig eller lila nyans på grund av de brustna blodkärlen under huden. Med tiden läker dessa blodkärl, vilket gör att bristningarna gradvis övergår till en ljusare nyans av hudtonen. Men förutom den rena färgförändringen kan ytan av bristningarna vara något räfflad eller gropig, vilket skiljer dem från den omgivande huden.</p>',
             extended_content: '<p class="p200 mt-xl">Mikroskopiskt sett kan man se att bristningar inte bara är ytliga skador. De är faktiskt små ärrbildningar i dermis, det mellersta skiktet av huden. Denna störning av kollagenproduktionen orsakar också en förtunning av epidermis, det yttersta hudlagret. Bristningars utseende och utveckling kan variera beroende på enskilda genetiska faktorer, hudtyp och även beroende på var på kroppen de uppträder. Med moderna behandlingsmetoder kan bristningar reduceras för att minska deras synlighet.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man bristningar?',
+            title: ' får man bristningar?',
             content: '<p class="p200">Bristningar, även kända som striae, uppstår när huden sträcks ut snabbare än vad den kan anpassa sig till. Detta leder till att kollagen- och elastinfibrerna i huden brister, vilket resulterar i synliga linjer eller band på huden. Det finns flera anledningar till varför man kan få bristningar, inklusive:</p>',
             extended_content: '<p class="p200 mt-xl">Snabb tillväxt under puberteten<br />Under tonåren kan snabb tillväxt leda till att bristningar uppstår, ofta på platser som höfter, bröst, lår och rumpa.</p>
             <p class="p200 mt-xl">Snabb viktuppgång eller viktnedgång<br />Stora förändringar i kroppsvikt på kort tid kan orsaka bristningar. Detta gäller både för snabb viktuppgång och för snabb viktminskning.</p>
@@ -71,7 +71,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får bristningar?',
+            title: ' får bristningar?',
             content: '<p class="p200">Bristningar skiljer inte mellan kön, ålder eller hudtyp; de kan påverka nästan vem som helst. Dock är vissa grupper mer benägna att utveckla dem än andra. Till exempel upplever många kvinnor bristningar under graviditet när buken snabbt expanderar för att rymma ett växande foster. Ungdomar genomgår en period av snabb tillväxt och kroppslig förändring under puberteten. Denna snabba tillväxt kan leda till att huden tänjs ut snabbt, vilket resulterar i bristningar.</p>',
             extended_content: '<p class="p200 mt-xl">Personer som snabbt ökar eller minskar i vikt kan också få bristningar. På liknande sätt kan snabb viktnedgång, särskilt om den är dramatisk, orsaka att huden förlorar sin elasticitet, vilket kan resultera i bristningar. Idrottare, särskilt de som utövar styrketräning eller bodybuilding, kan också uppleva bristningar. När muskler växer snabbt kan huden tänjas ut snabbare än den kan anpassa sig, vilket leder till dessa märken. Människor som använder steroider, antingen medicinskt eller för kroppsbyggande, kan också se en ökning av bristningar eftersom dessa ämnen kan minska hudens elasticitet.</p>
             <p class="p200 mt-xl">Genetik spelar också en viktig roll i utvecklingen av bristningar. Om det finns en familjehistoria av bristningar, särskilt hos nära släktingar som en mor eller syster, kan risken för att utveckla dem vara högre. Dessutom kan personer med vissa genetiska sjukdomar orsaka en högre risk på grund av förändringar i huden eller bindväven. Det är också värt att notera att även om alla kan utveckla bristningar, är de mer framträdande hos personer med mörkare hudtoner. Medan de kan blekna över tid, kan bristningar fortfarande vara en källa till självmedvetenhet för många, oavsett var eller varför de uppträder.</p>',
@@ -79,7 +79,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man bristningar?',
+            title: ' får man bristningar?',
             content: '<p class="p200">Bristningar kan dyka upp på nästan vilken del av kroppen som helst, men det finns vissa områden som är särskilt mottagliga för dessa hudförändringar. Ett av de vanligaste områdena där bristningar uppträder är på buken. Detta är särskilt vanligt hos kvinnor under graviditet, när buken expanderar snabbt för att rymma ett växande foster. Men även personer som upplever snabb viktökning kan finna att deras bukområde utvecklar dessa linjer. Brösten är ett annat område där bristningar ofta framträder. Detta kan ske under pubertet när brösten växer snabbt, under graviditet när de förändras i storlek på grund av mjölkproduktion.</p>',
             extended_content: '<p class="p200 mt-xl">Höfter och lår är även de platser där bristningar ofta uppträder, särskilt hos kvinnor. Dessa områden kan bli påverkade under perioder av snabb tillväxt under puberteten, under graviditet, eller på grund av snabba förändringar i kroppsvikt. Bristningarna kan sträcka sig från höft till knä, vilket visar var huden har dragits ut mest. Skinkorna, överarmarna och axlarna är också vanliga områden för bristningar att dyka upp. Intensiv styrketräning kan leda till bristningar på överarmarna, särskilt om muskelväxten är snabb. Skinkorna kan drabbas av samma skäl som höfterna och låren – snabb tillväxt, viktökning. Vad gäller axlarna, är det särskilt vanligt bland manliga kroppsbyggare och tonårspojkar under pubertet.</p>
             <p class="p200 mt-xl">Det bör noteras att även om bristningar oftast associeras med kvinnor, på grund av graviditet och andra hormonella förändringar, är det väldigt vanligt förekommnade hos män. Till sist, oavsett var på kroppen de uppträder, är det viktigt att förstå att bristningar är en naturlig del av hudens respons på snabb utsträckning. De kan blekna över tid, men de representerar ingen hälsorisk och är ofta bara en estetisk bekymmer för den drabbade.</p>',
@@ -98,7 +98,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi utför effektiva behandlingar anpassade för din specifika hud och bristningstyp, så att du snabbt och säkert kan minska synligheten av dina bristningar.',
+            content: 'Vi utför effektiva behandlingar anpassade för din specifika hud så att du snabbt och säkert kan minska synligheten av dina bristningar.',
 
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks',
@@ -430,7 +430,7 @@ $symptoms = array(
 
 );
 */
-$headline01 = "01. Identifiera dina bristningar";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation',
@@ -443,7 +443,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för bristningsbehandling',
       image_title: 'Konsultation för bristningsbehandling',
 
-      url_label: 'Läs mer om gratis hudkonsultation mot bristningar',
+      url_label: 'Läs mer om gratis hudkonsultation',
       url: '/gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation mot bristningar',
 
@@ -457,21 +457,21 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla bristningar";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
             title: 'Laser mot bristningar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'En avancerad laserbehandling mot bristningar erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
+            content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot bristningar',
             image_title: 'Laserbehandling mot bristningar',
 
-            url_label: 'Läs mer om laser mot bristningar',
+            url_label: 'Läs mer om laser',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer om laser mot bristningar',
 
@@ -487,14 +487,14 @@ $services = array(
             title: 'Kemisk peeling mot bristningar',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla bristningar. Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen.',
+            content: 'Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling mot bristningar',
             image_title: 'Kemisk peeling mot bristningar',
 
-            url_label: 'Läs mer om kemisk peeling mot bristningar',
+            url_label: 'Läs mer om kemisk peeling',
             url: '/kemisk-peeling.php',
             url_title: 'Läs mer om kemisk peeling mot bristningar',
 
@@ -510,14 +510,14 @@ $services = array(
             title: 'Microneedling mot bristningar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en effektiv behandlingsmetod för bristningar. Genom att skapa små mikroskopiska skador i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar.',
+            content: 'Genom att skapa små mikroskopiska skador i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot bristningar',
             image_title: 'Microneedling mot bristningar',
 
-            url_label: 'Läs mer om microneedling mot bristningar',
+            url_label: 'Läs mer om microneedling',
             url: '/microneedling.php',
             url_title: 'Läs mer om microneedling mot bristningar',
 
@@ -534,7 +534,7 @@ $services = array(
 $articles = array(
 
       new Article(
-            title: 'När ska jag söka hjälp med mina bristningar?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina bristningar?',
@@ -544,7 +544,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina bristningar?',

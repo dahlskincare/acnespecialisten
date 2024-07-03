@@ -21,7 +21,7 @@ $image_title = 'Visar en hud med operations- och skadeärr';
 $image_alt = 'Bild som illustrerar hur operations- och skadeärr ser ut på huden';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Operations- och Skadeärr',
+      title: 'Operations- och skadeärr',
       description: 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Här hittar du detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.',
       links_touch: [
             new Link('Boka ett klinikbesök', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars', 'Boka gratis konsultation för akne'),
@@ -51,12 +51,12 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om operations- och skadeärr';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är ärr?',
+            title: ' är ärr?',
             content: '<p class="p200">Ärr är permanenta förändringar i hudstrukturen som uppstår som en del av kroppens naturliga läkningsprocess efter skada på huden, speciellt när det påverkar dermis, hudens mellersta lager. När huden skadas, oavsett om det är på grund av en olycka, kirurgi, brännskada eller sjukdom, initierar kroppen en snabb respons för att börja reparationsprocessen. Denna process involverar produktionen av kollagen, ett protein som finns naturligt i vår hud. Kollagenets huvudsyfte under läkningen är att binda såret samman, och beroende på hur detta kollagen arrangeras samt mängden som produceras, kan huden som läker anta ett annat utseende än omgivande hud, vilket resulterar i ett ärr. Om huden producerar för mycket kollagen, kan man få ett upphöjt ärr (hpertrofiska ärr), medan otillräcklig kollagenproduktion kan leda till nedsjunkna ärr (atrofiska ärr).</p>',
             extended_content: '<p class="p200 mt-xl">Det finns flera typer av ärr, och deras utseende kan variera beroende på skadans omfattning, läkningstid, individens ålder, genetik och flera andra faktorer. Atrofiska ärr, till exempel, sjunker ner under hudytan och orsakas ofta av förlust av hudvävnad, vilket är vanligt efter akne eller vattkoppor. Hypertrofiska ärr är tjocka, upphöjda och röda i färg, men begränsade till skadans område. De uppstår när det finns en överproduktion av kollagen under läkningsprocessen. Keloidärr liknar hypertrofiska ärr, men dessa växer utöver skadans ursprungliga område. Keloider kan fortsätta att växa under lång tid och kan orsaka klåda eller vara smärtsamma. Kontrakturärr är ofta resultatet av brännskador och drar ihop huden, vilket kan begränsa rörelseförmågan.</p>
             <p class="p200 mt-xl">Det är också viktigt att notera att ärrbildning kan påverka inte bara det fysiska utseendet utan också en individs emotionella och psykologiska välbefinnande. Många människor söker behandlingar för att minska synligheten av sina ärr, inte bara av estetiska skäl utan också för att hjälpa till med det emotionella trauma som ärr kan medföra.</p>',
@@ -64,7 +64,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man ärr?',
+            title: ' får man ärr?',
             content: '<p class="p200">Ärrbildning är en naturlig del av kroppens läkningsprocess och uppstår när hudens dermis (det djupare, tjockare lagret av huden) skadas. Varje gång huden skadas – antingen genom skär-, stick-, bränn- eller skrapsår, genom kirurgiska ingrepp eller infektioner – aktiverar kroppen en biologisk reparationssystem för att läka skadan. När huden börjar läka över en sårskada, produceras kollagenfibrer för att reparera skadan. Kollagen är det huvudsakliga proteinet i huden, och dess produktion ökar i samband med läkningsprocessen. Denna överdrivna produktion av kollagen kan ibland leda till att huden läker med en tjockare, tätare struktur, vilket resulterar i ett ärr. Hur mycket kollagen som produceras och hur det organiserar sig avgör utseendet på ärret.</p>',
             extended_content: '<p class="p200 mt-xl">Faktorer som kan påverka ärrbildningen inkluderar djupet och storleken på skadan, dess placering på kroppen, ålder, kön, etnicitet och genetiska faktorer. Till exempel tenderar yngre hud att producera mer kollagen än äldre hud, vilket kan leda till mer framträdande ärr. Vissa kroppsområden, som bröstet eller ryggen, kan också vara mer benägna att utveckla stora, upphöjda ärr. Dessutom kan människor med mörkare hudtoner vara mer benägna att utveckla hypertrofiska ärr eller keloider. Genetiska faktorer spelar också en roll, eftersom vissa individer kan ha en familjehistoria av distinkt ärrbildning, som keloidärr.</p>
             <p class="p200 mt-xl">Utöver fysiska skador kan andra orsaker såsom inflammerad hud vid akne och vattkoppor orsaka ärr när det läker. Det är också viktigt att notera att rätt vård av ett sår kan göra stor skillnad i hur ärret blir senare.</p>',
@@ -72,7 +72,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får ärr?',
+            title: ' får ärr?',
             content: '<p class="p200">Ärrbildning är en universell biologisk funktion som kan drabba alla efter en skada eller operation på huden. Dock påverkas omfattningen och typen av ärrbildning av flera olika faktorer. Ålder spelar en viktig roll i hur vår hud läker. Barns och ungdomars hud har en tendens att läka snabbare och kan ibland bilda tjockare ärr än hos vuxna eftersom de har en högre kollagenproduktion. Äldre individer kan däremot uppleva en långsammare läkningsprocess på grund av minskad kollagenproduktion och hudelasticitet, vilket kan resultera i tunnare och plattare ärr.</p>',
             extended_content: '<p class="p200 mt-xl">Genetik påverkar också ärrbildningens omfattning och karaktär. Vissa individer har en genetisk benägenhet att utveckla specifika ärrtyper, som keloider eller hypertrofiska ärr. Sådana ärr går ofta i släkten, vilket innebär att om dina föräldrar eller syskon har utvecklat denna typ av ärr, finns det en större chans att du också kommer att göra det. Etnicitet och hudtyp kan också spela en roll. Till exempel är keloidärr mer vanliga hos personer med mörkare hudtoner.</p>
             <p class="p200 mt-xl">Platsen för skadan eller traumat på kroppen kan påverka ärrbildningen. Vissa områden, som bröstet eller ryggen, har en tendens att bilda tjockare och mer framträdande ärr, medan andra områden, som ansiktet, ofta läker med mindre synliga ärr. Till sist kan faktorer som den initiala skadans svårighetsgrad, typen av skada eller komplikationer, som till exempel infektion under läkningsprocessen kan alla påverka ärrbildningsprocessen. Det är viktigt att notera att även om vissa personer kan vara mer benägna att utveckla distinkta eller framträdande ärr än andra, har ingen individ helt immunitet mot ärrbildning, eftersom det är kroppens naturliga sätt att läka efter en skada.</p>',
@@ -80,7 +80,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man ärr?',
+            title: ' får man ärr?',
             content: '<p class="p200">Ärr kan bildas på nästan vilken del av kroppen som helst efter en skada i huden. Hur ärret kommer att se ut påverkas av hur och var ärret orsakats. När vi tänker på ärrbildning, kan vi tänka på allt från skrapor och skärsår till djupare skador. Ytliga skador som skrapsår eller mindre brännskador kan ofta ge upphov till mindre framträdande ärr som med tiden kan blekna. Ett exempel på detta är när man skär sig på fingertoppen vid matlagning; resultatet blir ofta ett litet, linjärt ärr som bleknar över tiden. För djupare sårskador, sådana som orsakas av olyckor eller kirurgiska ingrepp, kan ärrbildningen bli mer framträdande. Sådana ärr kan variera i utseende, från att vara tjocka, upphöjda eller nedsjunkna, beroende på skadans omfattning och kroppens läkningsprocess.</p>',
             extended_content: '<p class="p200 mt-xl">Brännskador ger en annan typ av ärrbildning. De kan resultera i tjocka, strama ärr, kallade kontrakturer, som kan begränsa rörligheten. Platsen för brännskadan kommer att påverka typen och utseendet på ärret. Även om bristningar tekniskt sett inte räknas som ärr, relateras de till ärrbildning eftersom de uppstår från en snabb utsträckning av huden, vilket kan ske på platser som buken, låren, höfterna eller brösten med mera.</p>
             <p class="p200 mt-xl">Platsen på kroppen spelar också en viktig roll. Till exempel kan en skada nära en rörlig led, som knäet, resultera i ett tjockare ärr på grund av den konstanta rörelsen i det området. Sjukdomar som vattkoppor eller infektioner kan också leda till ärrbildning. En vattkoppsblåsa som blir infekterad eller kliad kan lämna ett ärr, och kirurgiska sår som blir infekterade kan leda till större och mer framstående ärr. Att ta hand om sår på rätt sätt och följa medicinska rekommendationer kan bidra till att minska risken för framträdande ärrbildning.</p>',
@@ -216,20 +216,20 @@ $type_categories = array(
 
 );
 */
-$headline01 = "01. Identifiera ditt ärr";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för ärr',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en ärrspecialist utförs en undersökning av ditt ärr. Vi tar före-bilder på det drabbade området och rekommenderar en lämplig behandlingsmetod, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist utförs en undersökning av din hud. Vi tar före-bilder på det drabbade området och rekommenderar en lämplig behandlingsmetod, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för ärrbehandling',
       image_title: 'Konsultation för ärrbehandling',
 
-      url_label: 'Läs mer om gratis hudkonsultation mot ärr',
+      url_label: 'Läs mer om gratis hudkonsultation',
       url: '/gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation mot ärr',
 
@@ -242,21 +242,21 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla ditt ärr";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
             title: 'Laserbehandling för ärr',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Laserbehandling för ärr erbjuder en effektiv metod för att minska ärrbildning och förbättra hudens struktur. Lasertekniken stimulerar kollagenproduktionen och cellförnyelse, vilket leder till att ärr blir mindre framträdande och hudens textur förbättras.',
+            content: 'Laserbehandling erbjuder en effektiv metod för att minska ärrbildning och förbättra hudens struktur. Lasertekniken stimulerar kollagenproduktionen och cellförnyelse, vilket leder till att ärr blir mindre framträdande och hudens textur förbättras.',
 
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling för ärr',
             image_title: 'Laserbehandling för ärr',
 
-            url_label: 'Läs mer om laser mot ärr',
+            url_label: 'Läs mer om laser',
             url: '/laser-arr.php',
             url_title: 'Läs mer om laser mot ärr',
 
@@ -319,7 +319,7 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina operations- och skadeärr?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina operations- och skadeärr?',
@@ -329,7 +329,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina operations- och skadeärr?',
