@@ -48,7 +48,7 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar solskadad hy effektivt';
 
-$description_title = 'Vad är Solskadad Hud?';
+$description_title = 'Vad är solskadad hud?';
 $description_text = '<p class="p200">Solskadad hud kännetecknas ofta av mörka fläckar, ojämn hudton och ibland förtjockad eller läderartad textur. Detta är resultatet av långvarig och upprepad exponering för solens skadliga UV-strålar. Solskador på huden kan drabba människor i alla åldrar, men är vanligare hos äldre individer eller de som ofta vistas i starkt solsken.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi flera behandlingsalternativ för solskadad hy, inklusive ljusbaserade behandlingar, kemiska peelingar och mikrodermabrasion. Dessa metoder hjälper till att minska synliga tecken på solskador och förbättra hudens övergripande utseende och hälsa. Vi ger också råd om hur du kan skydda din hud från framtida solskador och upprätthålla en hälsosam och strålande hud.</p>';
 
@@ -64,17 +64,17 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Med en skräddarsydd behandlingsplan från AcneSpecialisten, får du tillgång till avancerade och effektiva metoder för att minska dina solskadad hy. Våra specialiserade behandlingar är utformade för att ge dig synliga resultat och återställa hudens naturliga utstrålning.',
             url: 'behandla-pigmentflackar.php',
-            url_label: 'Utforska våra behandlingar för solskadad hy',
+            url_label: 'Utforska våra behandlingar',
             url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy'
       ),
 );
 
-$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot solskadad hy</a>';
+$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot solskadad hy" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var uppstår solskadad hy och varför?',
+            title: 'Var uppstår hudproblemet och varför?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -86,7 +86,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När är det dags att söka hjälp för solskadad hy?',
+            title: 'När är det dags att söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När är det dags att söka hjälp för solskadad hy?',
@@ -95,7 +95,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
+            title: 'Varför välja AcneSpecialisten för behandling?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför välja AcneSpecialisten för behandling av solskadad hy?',
