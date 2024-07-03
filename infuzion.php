@@ -15,7 +15,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Infuzion Behandling - Mesoterapi Stockholm',
+    title: 'Infuzion behandling - Mesoterapi Stockholm',
     duration: '50 min',
     price: '2595 kr',
     content: '<p class="p200">Infuzion är en avancerad form av mesoterapi utan nålar som effektivt slussar in serum djupt i huden. Omedelbara resultat med utan återhämtningstid, vilket gör den till en populär teknik för de som söker effektiva hudförbättringar utan nålar.</p>',
@@ -58,7 +58,7 @@ $model = new Service(
 );
 
 $floating_box_title = "Infuzion";
-$floating_box = 'Infuzion - en kombination av fillers och skinbooster.';
+$floating_box = 'En effekt av fillers och skinbooster.';
 
 $description_title = 'Vad är Infuzion?';
 $description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling som kombinerar fördelarna med fillers och skinboosters, men helt utan nålars bieffekter eller biverkningar. Detta innovativa koncept använder Cytocare 532, ett serum berikat med hyaluronsyra och 52 vitala vitaminer och mineraler, för att djupgående återfukta huden och stimulera produktionen av kollagen och elastin. Dessa ämnen är avgörande för att bibehålla hudens fyllighet och elasticitet.</p>
@@ -67,7 +67,7 @@ $description_text = '<p class="p200">Infuzion är en unik skinbooster-behandling
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går behandlingen med Infuzion till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/infuzion-process.webp',
         image_large: '/bilder/process/872x456/infuzion-process.webp',
         image_alt: 'Hur går behandlingen med Infuzion till?',
@@ -101,7 +101,7 @@ $types_description = '';
     ),
 );*/
 
-$treatment_areas_title = 'Behandlingsområden för Infuzion';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
@@ -165,7 +165,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Med Infuzion kan du kombinera flera områden.</p>',
+        description: '<p class="p200">Kombinera flera områden för ett bättre resultat.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
