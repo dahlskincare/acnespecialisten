@@ -21,7 +21,7 @@ $image_title = 'Visar en hud med ärr från finnar';
 $image_alt = 'Närbild på ärr från finnar  i ansiktet';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Ärr från Finnar',
+      title: 'Ärr från finnar',
       description: 'Ärr efter finnar bildas när inflammationen skadar hudens kollagen, vilket påverkar både struktur och utseende. Här förklarar vi processen bakom ärrbildning och presenterar behandlingsmetoder för att förbättra hudens textur.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars', 'Boka gratis konsultation för är från finnar'),
