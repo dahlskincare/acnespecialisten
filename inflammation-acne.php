@@ -44,20 +44,20 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina inflammation akne effektivt.';
 
 $description_title = 'Vad är inflammerad akne?';
-$description_text = '<p class="p200">Inflammerad akne är en hudåkomma som kännetecknas av röda, ömma utslag som kan vara smärtsamma vid beröring. Denna typ av akne uppstår när hårfolliklar blir tilltäppta med talg och döda hudceller, vilket skapar en idealisk miljö för akne bakterie (Cutibacterium acnes) att växa och orsaka inflammation. Till skillnad från icke-inflammatoriska utslag som svarta och vita pormaskar, innefattar inflammerad akne mer smärtsamma och synliga tecken, såsom papler och pustler (även kända som akne pustel) samt noduler och cystor. När akne bakterie infekterar den tilltäppta por, reagerar kroppens immunförsvar genom att sända vita blodkroppar till området, vilket leder till inflammation och bildandet av varfyllda pustler eller djupare hudutslag. Denna process gör akneområdet rött, svullet och inflammerat.</p>
-<p class="p200 mt-m">Behandling av inflammerad akne fokuserar på att minska inflammation, bekämpa bakteriell infektion och förebygga tilltäppning av porer. Detta kan innefatta användning hudvårdsprodukter som hjälper till att normalisera avstötningen av döda hudceller. För att hantera inflammerad akne är det också viktigt att utföra ansiktsbehandlingar där en grundlig extraktion görs för att tömma aknen som annars skadar huden. Dessutom är det kritiskt att motstå frestelsen att klämma eller pilla på akneutslag, då detta kan leda till ytterligare inflammation, infektion och potentiellt ärrbildning. Att hantera inflammerad akne kräver en skräddarsydd behandlingsplan som angriper problemet från flera olika håll Genom rätt hudvård och behandlingar kan vi hjälpa dig att bli av med din inflammerade akne.</p>';
+$description_text = '<p class="p200">Inflammerad akne är en hudåkomma som kännetecknas av röda, ömma utslag som kan vara smärtsamma vid beröring. Denna typ av akne uppstår när hårfolliklar blir tilltäppta med talg och döda hudceller, vilket skapar en idealisk miljö för akne bakterie (Cutibacterium acnes) att växa och orsaka inflammation. Till skillnad från icke-inflammatoriska utslag som svarta och vita pormaskar, innefattar inflammerad akne mer smärtsamma och synliga tecken, såsom papler och pustler (även kända som akne pustel) samt noduler och cystor. När akne bakterie infekterar den tilltäppta por, reagerar kroppens immunförsvar genom att sända vita blodkroppar till området, vilket leder till inflammation och bildandet av varfyllda pustler eller djupare hudutslag. Denna process gör området rött, svullet och inflammerat.</p>
+<p class="p200 mt-m">Behandling av inflammerad akne fokuserar på att minska inflammation, bekämpa bakteriell infektion och förebygga tilltäppning av porer. Detta kan innefatta användning hudvårdsprodukter som hjälper till att normalisera avstötningen av döda hudceller. För att hantera inflammerad akne är det också viktigt att utföra ansiktsbehandlingar där en grundlig extraktion görs för att tömma aknen som annars skadar huden. Dessutom är det kritiskt att motstå frestelsen att klämma eller pilla på utslagen, då detta kan leda till ytterligare inflammation, infektion och potentiellt ärrbildning. Genom rätt hudvård och behandlingar kan vi hjälpa dig att bli av med ditt hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vi analyserar de unika egenskaperna hos din inflammatoriska akne, ta före bilder på huden coh rekommenderar en behandlingsplan för din inflammerade akne.',
+            content: 'Vi analyserar de unika egenskaperna hos din inflammatoriska akne, ta före bilder på huden och rekommenderar en behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för inflammatorisk akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar våra behandlingar för inflammatorisk akne efter din hudtyp och unika behov. Vi har ett brett utbud av behandlingar utformade för att behandla inflammationen i din hud.',
+            content: 'Vi anpassar våra behandlingar efter din hudtyp och unika behov. Vi har ett brett utbud av behandlingar utformade för att behandla inflammationen i din hud.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för inflammatorisk akne'
@@ -78,7 +78,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot inflammatorisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot inflammatorisk akne</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot inflammatorisk akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $results = array(
     new ResultCustomer(
