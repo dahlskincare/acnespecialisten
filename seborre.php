@@ -171,7 +171,7 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer om konsultation mot seborré',
+      url_label: 'Läs mer om konsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 
 );
@@ -195,7 +195,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka din ansiktsbehandling mot seborré',
             url: '/problemhy.php',
-            url_label: 'Läs mer om ansiktsbehanding mot seborré',
+            url_label: 'Läs mer om ansiktsbehanding',
             url_title: 'Läs mer om ansiktsbehanding mot seborré',
       ),
 );
