@@ -57,14 +57,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera ditt mjälleksem och utformar en individuell behandlingsplan speciellt för dig. Att förstå din specifika form av mjälleksem är avgörande för en effektiv behandling.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
-            url_label: 'Boka din gratis konsultation nu',
+            url_label: 'Boka din gratis konsultation',
             url_title: 'Boka en tid för gratis mjälleksem konsultation',
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder en rad skonsamma men effektiva behandlingar anpassade för din specifika typ av mjälleksem, vilket säkerställer att du på ett tryggt och effektivt sätt kan hantera ditt mjälleksem.',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY',
-            url_label: 'Våra mjälleksembehandlingar',
+            url_label: 'Våra behandlingar',
             url_title: 'Våra effektiva mjälleksembehandlingar',
       ),
       new TreatmentStep(
@@ -79,7 +79,7 @@ $treatment_steps = array(
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var uppstår mjälleksem?',
+            title: 'Var uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -91,7 +91,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för mitt mjälleksem?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för mitt mjälleksem?',
@@ -101,7 +101,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för mitt mjälleksem?',
+            title: 'Varför ska jag välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten?',
@@ -111,13 +111,13 @@ $articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera ditt mjälleksem";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Mjälleksem Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under ett personligt möte med en av våra AcneSpecialister utförs en noggrann undersökning av din hud för att identifiera och förstå ditt mjälleksem. Vi tar före-bilder på din hud och utifrån denna undersökning rekommenderar vi den mest lämpliga behandlingen för dig, och skräddarsyr en individuell behandlingsplan som bäst passar dina specifika behov och livsstil.',
+      content: 'Under ett personligt möte med en av våra AcneSpecialister utförs en noggrann undersökning av din hud för att identifiera och förstå ditt hudproblem. Vi tar före-bilder på din hud och utifrån denna undersökning rekommenderar vi den mest lämpliga behandlingen för dig, och skräddarsyr en individuell behandlingsplan som bäst passar dina specifika behov och livsstil.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Mjälleksem Konsultation',
@@ -133,7 +133,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
 
-$headline02 = "02. Behandla mjälleksem";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -157,7 +157,7 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av nytt mjälleksem";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
