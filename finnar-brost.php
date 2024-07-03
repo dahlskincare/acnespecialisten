@@ -53,7 +53,7 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar på bröstet effektivt.';
 
-$description_title = 'Information om finnar på bröstet';
+$description_title = 'Fakta';
 $description_text = '<p class="p200">Finnar på bröstet och bröstkorgen kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>
 <p class="p200 mt-m">På Acnespecialisten har vi expertis inom individanpassade hudvårdsprogram som svarar mot varje klients unika behov. Från noggranna rengöringsrutiner till specialutformade behandlingar som vårdar och lugnar, våra hudterapeuter har den nödvändiga kunskapen och erfarenheten för att ge den mest effektiva och skonsamma behandlingen för alla typer av hudproblem.</p>';
 
@@ -67,8 +67,8 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar mot finnar på bröstet är noggrant anpassade för finnar på bröstet och fokuserar på både effektivitet och skonsamhet. Vi erbjuder en mängd olika alternativ, specialutformade för din huds behov och kondition.',
-            url_label: 'Se finnarbehandlingar',
+            content: 'Våra behandlingar är noggrant anpassade för finnar på bröstet och fokuserar på både effektivitet och skonsamhet. Vi erbjuder en mängd olika alternativ, specialutformade för din huds behov.',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra anpassade finnarbehandlingar'
       ),
@@ -81,14 +81,14 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar som fokuserar på att reparera huden efter finnar på bröstet, inklusive att reducera ärr och förbättra hudens struktur. Våra metoder är särskilt anpassade för finnar på bröstet och ger långvariga resultat.',
-            url_label: 'Se ärrbehandlingar',
+            content: 'Vi erbjuder behandlingar som fokuserar på att reparera huden, inklusive att reducera ärr och förbättra hudens struktur.',
+            url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
       ),
 );
 
-$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
+$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -98,13 +98,13 @@ $top_articles = array(
             image_alt: '',
             image_title: '',
             content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>
-      <p class="p200 mt-m">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet, särskilt för finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
+      <p class="p200 mt-m">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
       ),
 );
 
 $articles = array(
       new Article(
-            title: 'Viktiga tecken på att du bör söka hjälp för finnar på bröstet',
+            title: 'Viktiga tecken på att du bör söka hjälp',
             image_small: null,
             image_large: null,
             image_alt: 'Tecken på att söka hjälp för bröstfinnar',
