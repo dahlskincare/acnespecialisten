@@ -62,7 +62,7 @@ $description_text = '<p class="p200">Dessa behandlingar skräddarsydds för en m
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför ansiktsbehandling',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/problemhy-forberedelser.webp',
         image_large: '/bilder/process/872x456/problemhy-forberedelser.webp',
         image_alt: 'Förberedelser inför ansiktsbehandlingar för problemhy',
@@ -70,7 +70,7 @@ $top_articles = array(
         content: '<p class="p200">Inför din ansiktsbehandling för problemhy hos oss behöver du inte tänka på något särskilt. Kom som du är, och vi tar hand om resten. Om du vill förbereda dig lite extra kan du tänka på följande: undvik att exfoliera huden dagen innan och undvik att sola några dagar innan behandlingen. Det kan också vara bra att komma med ett rent ansikte, utan smink, men det är inte nödvändigt. Informera gärna din hudterapeut i förväg om du tar några mediciner eller har några aktiva hudåkommor, så att behandlingen kan anpassas efter dina behov. Men det viktigaste är att du känner dig bekväm, så välj den ansiktsbehandling som känns bäst för dig.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går en ansiktsbehandlingen till?',
+        title: 'Hur går ansiktsbehandlingen till?',
         image_small: '/bilder/process/358x272/problemhy-process.webp',
         image_large: '/bilder/process/872x456/problemhy-process.webp',
         image_alt: 'Processen för ansiktsbehandling mot problemhy',
@@ -300,7 +300,7 @@ $types = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för problemhy',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/problemhy-eftervard.webp',
     image_large: '/bilder/process/872x456/problemhy-eftervard.webp',
     image_alt: 'Eftervård och omhändertagande',
