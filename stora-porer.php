@@ -172,7 +172,7 @@ $service = new Service(
       title: 'Konsultation för stora porer',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist på stora porer utförs en undersökning av din hud. Vi tar före-bilder på områdena med stora porer och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Vid ett personligt möte med en specialist utförs en undersökning av din hud. Vi tar före-bilder på områdena med stora porer och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -270,7 +270,7 @@ $services = array(
             title: 'Microneedling för stora porer',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en behandlingsmetod som reducerar synliga stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt förbättra hudens struktur och minska synligheten av stora porer.',
+            content: 'Microneedling är en behandlingsmetod som reducerar synliga stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen.',
 
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
