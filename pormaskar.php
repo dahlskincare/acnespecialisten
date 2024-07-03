@@ -46,12 +46,12 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om pormaskar';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är pormaskar?',
+            title: ' är pormaskar?',
             content: '<p class="p200">Pormaskar, även kända som komedoner, är små svarta eller vita prickar som tillhör aknefamiljen. De uppstår när öppningarna av dina porer blir tilltäppta av en blandning av talg och döda hudceller. Talg är en naturlig olja som produceras av talgkörtlarna nere i porerna, och dess primära funktion är att hålla huden och håret mjukt och återfuktat. Döda hudceller är normala biprodukter av hudens ständiga förnyelseprocess.</p>',
             extended_content: '<p class="p200 mt-xl">Det finns två typer av pormaskar: öppna och stängda. De öppna pormaskarna, kända som svarta pormaskar, ser ut som små svarta prickar på huden. Denna svarta färg orsakas inte av smuts, som många tror, utan av oxidation. När talg och döda hudceller utsätts för luft, oxideras de, vilket leder till att de mörknar. De stängda pormaskarna, å andra sidan, är vita eller hudfärgade och kallas vita pormaskar eller slutna komedoner. I dessa fall är hårsäckens öppning täckt av tunn hud, vilket förhindrar oxidation och behåller därför den ljusa färgen. Detta resulterar i pormaskar som inte går att klämma.</p>
             <p class="p200 mt-xl">Det är intressant att notera att termen "pormask" egentligen är missvisande. Det vi kallar för pormaskar är i själva verket tilltäppta hårsäckar, inte porer. Inom varje hårsäck finns en talgkörtel och ett hårstrå. Om talgkörteln producerar för mycket talg kan detta talg ha svårt att nå hudytan. Detta leder till att talg tillsammans med döda hudceller samlas och bildar det vi känner som en pormask.</p>
@@ -60,14 +60,14 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man pormaskar?',
+            title: ' får man pormaskar?',
             content: '<p class="p200">Pormaskar beror på flera olika faktorer som bidrar till deras bildning. En av de främsta orsakerna är överproduktion av talg, som är hudens naturliga olja. Talgkörtlar som blir överaktiva kan leda till en ansamling av talg på hudytan, och när denna talg kombineras med döda hudceller kan porerna lätt blockeras. Hormonella förändringar är en annan kritisk faktor i bildningen av pormaskar. Under puberteten upplever nästan alla någon form av hudproblem, inklusive pormaskar, på grund av ökade nivåer av androgener som stimulerar talgkörtlar. Detta är inte enbart en ungdomsfråga; många kvinnor upplever även hudproblem under menstruationscykler, graviditet eller klimakteriet, på grund av hormonella fluktuationer.</p>',
             extended_content: '<p class="p200 mt-xl">Miljöfaktorer, inklusive klimat och luftkvalitet, kan också spela en roll. Höga nivåer av fuktighet och värme kan stimulera talgproduktionen och skapa en gynnsam miljö för pormaskar. Fel hudvårdsprodukter kan också bidra till pormaskar då de rubbar hudens naturliga balans och får den att producera mer talg.Slutligen, stress kan vara utlösande faktorer för många människor. När man är stressad, producerar kroppen mer androgener, vilka är hormoner som stimulerar talgkörtlarna och hårsäckarna i huden, vilket kan leda till pormaskar.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'produkter' => 'Fel hudvård', 'klimat' => 'Klimat')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får pormaskar?',
+            title: ' får pormaskar?',
             content: '<p class="p200">Det är en vanlig missuppfattning att pormaskar endast drabbar tonåringar eller personer med fet hud. I verkligheten är det en hudåkomma som kan påverka personer i alla åldrar och hudtyper. Här är en djupgående titt på de olika grupperna som är mest benägna att utveckla pormaskar. För det första är ungdomar i puberteten särskilt utsatta. Hormonella förändringar under dessa år leder ofta till överaktiv talgproduktion, vilket i sin tur kan bidra till pormaskar. Även om det kan verka som att pormaskar försvinner med åldern, är det inte alltid fallet. Vuxna, särskilt de i åldrarna 30 till 50, kan också uppleva pormaskar, ofta som ett resultat av hormonella förändringar relaterade till menstruation, graviditet eller klimakteriet.</p>',
             extended_content: '<p class="p200 mt-xl">Personer med fet hud är mer benägna att utveckla pormaskar eftersom deras talgkörtlar producerar mer talg, men även de med kombinationshud eller till och med torr hud kan drabbas. Detta beror på att även torr hud kan bli blockerad av döda hudceller eller externa föroreningar. Ärftlighet spelar också en roll. Om dina föräldrar eller syskon har eller har haft pormaskar eller andra former av akne, är chansen större att du också kommer att drabbas.</p>
             <p class="p200 mt-xl">Sammanfattningsvis är pormaskar ett mycket vanligt hudproblem som kan drabba nästan vem som helst, oberoende av ålder, kön, hudtyp eller livsstil. Emellertid är vissa grupper mer benägna än andra på grund av en rad olika faktorer, inklusive hormonella förändringar, arbetsmiljö, genetik och livsstilsval.</p>',
@@ -75,7 +75,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man pormaskar?',
+            title: ' får man pormaskar?',
             content: '<p class="p200">Pormaskar uppstår oftast i ansiktet, särskilt i områden som näsan och pannan, men det är inte den enda platsen där de kan förekomma. Här är en djupgående översikt över de olika områdena på kroppen där pormaskar vanligtvis kan utvecklas. Den mest kända området för pormaskar är T-zonen i ansiktet, som inkluderar pannan, näsan och hakan. Detta område har en högre koncentration av talgkörtlar, vilket gör det till en idealisk plats för pormaskar att utvecklas. Många människor upplever också pormaskar på kinderna.</p>',
             extended_content: '<p class="p200 mt-xl">Förutom ansiktet kan pormaskar också förekomma på ryggen, bröstet och axlarna. Dessa områden är också rika på talgkörtlar och är ofta utsatta för svett, vilket kan leda till blockering av porerna. Särskilt för personer som tränar mycket eller bär tighta kläder som inte låter huden andas, kan dessa områden vara problematiska. Pormaskar kan även dyka upp på oväntade ställen som öronen, nacken eller till och med på armarna.</p>
             <p class="p200 mt-xl">Intressant nog kan även livsstilsval och vanor påverka var pormaskar uppträder. Till exempel kan personer som ofta använder huvudbonader som kepsar och bandanas märka att de får fler pormaskar på pannan eller runt hårlinjen. Likaså kan de som ofta talar i telefon eller använder hörlurar uppleva en ökning av pormaskar där huden kommer i kontakt med enheten. Ett annat område som inte bör ignoreras är nacken, särskilt om man ofta har långt hår eller bär kläder som är strama runt detta område. Håroljor och produkter kan komma i kontakt med huden och blockera porerna, vilket kan leda till utveckling av pormaskar.</p>',
@@ -106,7 +106,7 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="/hudbehandlingar/pormaskar/" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om behandlingar mot pormaskar</a>';
+$treatment_link = '<a href="/hudbehandlingar/pormaskar/" title="Utforska effektiv portömning" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 /*
 $types_title = 'Olika typer av pormaskar';
 
@@ -233,7 +233,7 @@ $type_categories = array(
 
 );
 */
-$symptoms_title = 'Pormaskar symptom';
+$symptoms_title = 'Symptom';
 
 $symptoms = array(
       new Symptom(
@@ -290,7 +290,7 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera dina pormaskar";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation',
@@ -313,7 +313,7 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla pormaskar";
+$headline02 = "02. Behandla";
 
 $services = array(
 
@@ -333,7 +333,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en portömning',
             url: 'portomning.php',
-            url_label: 'Läs mer om portömning mot pormaskar',
+            url_label: 'Läs mer om portömning',
             url_title: 'Läs mer om portömning mot pormaskar'
       ),
       new Service(
@@ -348,7 +348,7 @@ $services = array(
             image_title: 'Laserbehandling mot pormaskar',
 
             url: '/hudbehandlingar/laser-mot-hudproblem/',
-            url_label: 'Läs mer om laser mot pormaskar',
+            url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot pormaskar',
 
             consultation_url_label: 'Boka konsultation',
@@ -371,7 +371,7 @@ $services = array(
             image_title: 'Kemisk peeling mot pormaskar',
 
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot pormaskar',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot pormaskar',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -395,7 +395,7 @@ $services = array(
             image_title: 'Microneedling mot pormaskar',
 
             url: '/microneedling.php',
-            url_label: 'Läs mer om microneedling mot pormaskar',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot pormaskar',
 
             consultation_url_label: 'Boka konsultation',
@@ -409,7 +409,7 @@ $services = array(
 
 );
 
-$headline03 = "03. Förebygg uppkomsten av nya pormaskar";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -432,7 +432,7 @@ $products = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina pormaskar?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina pormaskar?',
