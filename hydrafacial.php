@@ -66,7 +66,7 @@ $description_text = '<p class="p200">HydraFacial är en innovativ maskinbehandli
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går en HydraFacial behandling till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/hydrafacial-process.webp',
         image_large: '/bilder/process/872x456/hydrafacial-process.webp',
         image_alt: 'Processen för HydraFacial',
@@ -80,7 +80,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Fördelar med HydraFacial';
+$types_title = 'Fördelar';
 $types_description = '<p class="p200">HydraFacial kan effektivt användas för att adressera och förbättra en rad hudtillstånd, inklusive:</p>
     <p class="p200 mt-m">- Minska synligheten av fina linjer och rynkor.</p>
     <p class="p200 mt-m">- Öka hudens spänst och elasticitet.</p>
@@ -205,7 +205,7 @@ $big_types = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Inför en HydraFacial behandling',
+        title: 'Inför behandlingen',
         image_small: null,
         image_large: null,
         image_alt: 'Inför en HydraFacial behandling',

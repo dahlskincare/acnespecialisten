@@ -21,7 +21,7 @@ $image_title = 'Skonsam och effektiv behandling av hudflikar';
 $image_alt = 'Bild som illustrerar behandling av hudflikar';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Behandling av Hudflikar',
+      title: 'Behandling av hudflikar',
       description: 'Hudflikar är små utväxter på huden som ofta förekommer i hudveck eller områden med friktion. På Acnespecialisten förklarar vi hur hudflikar kan behandlas effektivt. Vi använder skonsamma och avancerade tekniker för att säkert ta bort hudflikar, vilket hjälper till att förbättra hudens utseende och textur.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för hudflikar'),
@@ -73,8 +73,8 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Orsaken till hudflikar är inte helt klarlagd, men flera faktorer tros bidra till deras uppkomst. En av de vanligaste teorierna är friktion, då hudflikar ofta uppträder i områden där huden gnider mot sig själv eller kläder. Genetik kan också spela en roll, eftersom hudflikar ibland förekommer i familjer. Hormonella förändringar, såsom de som uppstår under graviditet, kan också öka risken för hudflikar. </p>
-      <p class="p200 mt-m">Diabetes är andra faktorer som har kopplats till en högre förekomst av hudflikar. Personer med metaboliskt syndrom, vilket inkluderar högt blodtryck, högt blodsocker och abnorma kolesterolnivåer, tenderar också att ha fler hudflikar. Slutligen kan ålder vara en faktor, eftersom hudflikar blir vanligare med stigande ålder.</p>',
+            content: '<p class="p200">Orsaken till hudflikar är inte helt klarlagd, men flera faktorer tros bidra till deras uppkomst. En av de vanligaste teorierna är friktion, då de ofta uppträder i områden där huden gnider mot sig själv eller kläder. Genetik kan också spela en roll, eftersom de ibland förekommer i familjer. Hormonella förändringar, såsom de som uppstår under graviditet, kan också öka risken för hudflikar. </p>
+      <p class="p200 mt-m">Diabetes är andra faktorer som har kopplats till en högre förekomst av hudflikar. Personer med metaboliskt syndrom, vilket inkluderar högt blodtryck, högt blodsocker och abnorma kolesterolnivåer kan också leda till att fler hudförändringar uppstår. Slutligen kan ålder vara en faktor och blir vanligare med stigande ålder.</p>',
       ),
 );
 
