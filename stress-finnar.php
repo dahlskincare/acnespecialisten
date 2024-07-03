@@ -44,13 +44,13 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina stress finnar effektivt.';
 
 $description_title = 'Vad är stress finnar?';
-$description_text = '<p class="p200">stress finnar är en hudåkomma som ofta uppstår till följd av höga stressnivåer, vilket kan påverka huden genom hormonella förändringar. Våra behandlingar syftar till att skonsamt rengöra, balansera och lugna huden, med särskild inriktning på stressrelaterade hudproblem. Vi erbjuder anpassade behandlingsalternativ för att effektivt hantera finnar orsakade av stress utan att irritera huden.</p>
+$description_text = '<p class="p200">stress finnar är en hudåkomma som ofta uppstår till följd av höga stressnivåer, vilket kan påverka huden genom hormonella förändringar. Våra behandlingar syftar till att skonsamt rengöra, balansera och lugna huden, med särskild inriktning på stressrelaterade hudproblem. Vi erbjuder anpassade behandlingsalternativ för att effektivt hantera finnar utan att irritera huden.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten förstår vi behovet av en anpassad hudvårdsrutin för att hantera stressrelaterade hudproblem. Genom att kombinera rengöringsmetoder med lugnande och återfuktande behandlingar, är våra hudterapeuter utrustade för att ge den mest effektiva och skonsamma vård för din stresspåverkade hud. Vi fokuserar även på att lära dig strategier för att hantera stress och dess inverkan på huden, för att förebygga framtida utbrott.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Genom en konsultation hos AcneSpecialisten kan du få hjälp att identifiera hur stress finnar påverkar just din hud och utveckla en skräddarsydd behandlingsplan.',
+            content: 'Genom en konsultation hos AcneSpecialisten kan du få hjälp att identifiera hudproblemet och hur just din hud påverkas för att utveckla en skräddarsydd behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
@@ -58,7 +58,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för stress finnar är effektiva och anpassade för att effektivt hantera de unika utmaningarna som stressrelaterade hudproblem medför.',
+            content: 'Våra behandlingar är effektiva och anpassade för att effektivt hantera de unika utmaningarna som stressrelaterade hudproblem medför.',
 
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
@@ -66,7 +66,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder skräddarsydda hudvårdsrutiner och produkter som är utformade för att förebygga uppkomsten av stress finnar och upprätthålla en hälsosam hudbalans.',
+            content: 'Vi erbjuder skräddarsydda hudvårdsrutiner och produkter som är utformade för att förebygga uppkomsten av finnar och upprätthålla en hälsosam hudbalans.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
@@ -90,7 +90,7 @@ $top_articles = array(
             image_alt: '',
             image_title: '',
             content: '<p class="p200">Stress finnar uppstår ofta somen reaktion på de fysiska och hormonella förändringar som stress kan orsaka i kroppen. När vi är stressade, producerar kroppen mer androgener (en typ av hormon), vilket kan leda till ökad talgproduktion och inflammation i huden. Detta resulterar ofta i att porerna blir tilltäppta och skapar en gynnsam miljö för akne.</p>
-            <p class="p200 mt-m">stress finnar är vanliga i ansiktet, särskilt runt munnen, käken och pannan, men kan också dyka upp på kroppen, det är inte ovanligt att få finnar i hårbotten på grund av stress. Hantering av stress akne kräver en kombination av behandlingar och skräddarsydd hudvård.</p>',
+            <p class="p200 mt-m">De uppstår vanligtvis i ansiktet, särskilt runt munnen, käken och pannan, men kan också dyka upp på kroppen, det är inte ovanligt att få finnar i hårbotten på grund av stress. Hantering av stress akne kräver en kombination av behandlingar och skräddarsydd hudvård.</p>',
       ),
 );
 
