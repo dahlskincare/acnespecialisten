@@ -46,7 +46,7 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om mogen hy';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
