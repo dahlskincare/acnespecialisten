@@ -50,21 +50,21 @@ $description_text = '<p class="p200">Stress acne är en hudåkomma där utbrott 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vi  erbjuder specialiserade konsultationer för att identifiera stressrelaterad akne. Vi utformar en personlig behandlingsplan för att effektivt hantera din situation.',
+            content: 'Vi  erbjuder specialiserade konsultationer för att identifiera hudproblemets orsak. Vi utformar en personlig behandlingsplan för att effektivt hantera din situation.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för stress acne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder anpassade behandlingar för stress acne som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas av stress.',
+            content: 'Vi erbjuder anpassade behandlingar som fokuserar på skonsamma men effektiva metoder. Våra tekniker syftar till att lugna huden och hantera de utbrott som orsakas.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att minska risken för framtida stress acne, erbjuder vi hudvårdsprodukter och rutiner som hjälper till att upprätthålla en hälsosam hudbalans och hantera stressorsaker.',
+            content: 'För att minska risken för framtida acneutbrott, erbjuder vi hudvårdsprodukter och rutiner som hjälper till att upprätthålla en hälsosam hudbalans.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga stress acne'
@@ -88,7 +88,7 @@ $top_articles = array(
             image_alt: '',
             image_title: '',
             content: '<p class="p200">Stressakne uppstår ofta som en reaktion på de fysiska och hormonella förändringar som kroppen genomgår under stress. Detta kan leda till inflammation och tilltäppta porer, vilket skapar en gynnsam miljö för utveckling av akne.</p>
-            <p class="p200 mt-m">Stressfinnar i ansiktet uppstår i områden som runt munnen, käken och pannan. Det är dock inte ovanligt att stressakne även uppträder på andra delar av kroppen. Effektiv hantering av stressakne kräver både anpassade hudvårdsstrategier och tekniker för stresshantering. På AcneSpecialisten fokuserar vi på att hjälpa dig att hitta balansen i din hudvård, samtidigt som vi erbjuder vägledning för att minska stressnivåer genom positiva livsstilsförändringar.</p>',
+            <p class="p200 mt-m">Stressfinnar i ansiktet uppstår i områden som runt munnen, käken och pannan. Det är dock inte ovanligt att stressakne även uppträder på andra delar av kroppen. Effektiv hantering kräver både anpassade hudvårdsstrategier och tekniker för stresshantering. På AcneSpecialisten fokuserar vi på att hjälpa dig att hitta balansen i din hudvård, samtidigt som vi erbjuder vägledning för att minska stressnivåer genom positiva livsstilsförändringar.</p>',
       ),
 );
 
