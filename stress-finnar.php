@@ -89,7 +89,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">stress finnar uppstår ofta somen reaktion på de fysiska och hormonella förändringar som stress kan orsaka i kroppen. När vi är stressade, producerar kroppen mer androgener (en typ av hormon), vilket kan leda till ökad talgproduktion och inflammation i huden. Detta resulterar ofta i att porerna blir tilltäppta och skapar en gynnsam miljö för akne.</p>
+            content: '<p class="p200">Stress finnar uppstår ofta somen reaktion på de fysiska och hormonella förändringar som stress kan orsaka i kroppen. När vi är stressade, producerar kroppen mer androgener (en typ av hormon), vilket kan leda till ökad talgproduktion och inflammation i huden. Detta resulterar ofta i att porerna blir tilltäppta och skapar en gynnsam miljö för akne.</p>
             <p class="p200 mt-m">stress finnar är vanliga i ansiktet, särskilt runt munnen, käken och pannan, men kan också dyka upp på kroppen, det är inte ovanligt att få finnar i hårbotten på grund av stress. Hantering av stress akne kräver en kombination av behandlingar och skräddarsydd hudvård.</p>',
       ),
 );
