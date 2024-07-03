@@ -66,7 +66,7 @@ $description_text = '<p class="p200">PRX T33 är en banbrytande hudföryngringsb
 $top_articles = array(
 
     'process' => new Article(
-        title: 'Hur går behandling med PRX T33 till?',
+        title: 'Hur går behandling till?',
         image_small: '/bilder/process/358x272/prx-t33-process.webp',
         image_large: '/bilder/process/872x456/prx-t33-process.webp',
         image_alt: 'Hur går behandling med PRX T33 till?',
@@ -286,7 +286,7 @@ $types = array(
     ),
 );*/
 
-$treatment_areas_title = 'Behandlingsområden för PRX T33';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
@@ -358,7 +358,7 @@ $treatment_areas = array(
 
 $bottom_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför PRX T33-behandling',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/prx-t33-forberedelser.webp',
         image_large: '/bilder/process/872x456/prx-t33-forberedelser.webp',
         image_alt: 'Förberedelser inför PRX T33-behandling',
@@ -367,7 +367,7 @@ $bottom_articles = array(
         <p class="p200 mt-m">Det är också viktigt att skydda din hud mot solen och undvika att använda brun-utan-sol-produkter veckan före din behandling. Denna försiktighetsåtgärd minskar risken för oönskade reaktioner och säkerställer att din hud är i bästa skick för att ta emot behandlingen. Vidare, informera din hudterapeut om eventuella mediciner du använder eller om du har några aktuella hudtillstånd, så att behandlingen kan anpassas på ett säkert och effektivt sätt. Tveka inte att kontakta oss om du har några frågor eller oro inför din PRX T33-behandling – vi är här för att se till att din upplevelse blir så bekväm och givande som möjligt.</p>',
     ),
     'aftercare' => new Article(
-        title: 'PRX T33 eftervård',
+        title: 'Eftervård',
         image_small: '/bilder/process/358x272/prx-t33-eftervard.webp',
         image_large: '/bilder/process/872x456/prx-t33-eftervard.webp',
         image_alt: 'PRX T33 eftervård',
