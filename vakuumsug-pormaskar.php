@@ -59,9 +59,9 @@ $model = new Service(
 
 $floating_box = 'Vi suger ut pormaskarna effektivt med hjälp av vakuum, töm dina porer effektivt.';
 
-$description_title = 'Vad är vakuumsugning av pormaskar?';
+$description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Portömning med vakuum är en modern och effektiv metod för att djuprengöra huden och bli av med oönskade pormaskar. En av de mest populära enheterna för detta ändamål är HydraFacial-maskinen, som använder vakuumteknik kombinerat med specialutformade serum för att rensa, exfoliera och återfukta huden.</p>
-<p class="p200 mt-m">HydraFacial-behandlingen börjar med en skonsam exfoliering som avlägsnar döda hudceller och öppnar upp porerna. Detta förberedande steg gör det möjligt för vakuumtekniken att arbeta mer effektivt. Efter exfolieringen använder HydraFacial-maskinen ett speciellt munstycke som skapar ett vakuum över huden. Detta vakuum suggerar varsamt ut smuts, olja och andra orenheter från porerna, inklusive envisa pormaskar. Det är denna process som är känd som portömning med vakuum.</p>
+<p class="p200 mt-m">HydraFacial-behandlingen börjar med en skonsam exfoliering som avlägsnar döda hudceller och öppnar upp porerna. Detta förberedande steg gör det möjligt för vakuumtekniken att arbeta mer effektivt. Efter exfolieringen använder HydraFacial-maskinen ett speciellt munstycke som skapar ett vakuum över huden som extraherar varsamt ut smuts, olja och andra orenheter från porerna, inklusive envisa pormaskar.</p>
 <p class="p200 mt-m">Ett unikt drag hos HydraFacial-behandlingen är dess förmåga att samtidigt införa närande serum i huden. Medan vakuumet rensar porerna, levererar maskinen antioxidanter, hyaluronsyra och andra hudvårdande ämnen direkt till hudens djupare lager. Detta steg inte bara rengör huden på djupet utan bidrar också till att återfukta och revitalisera den, vilket ger en fräsch och ungdomlig lyster.</p>';
 
 $types_title = '';

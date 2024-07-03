@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vuxenacne – Behandling & orsaker | AcneSpecialisten';
-$seo_description = 'Varför får man finnar som vuxen? Läs mer om vuxenaknes orsaker, varför plötslig akne uppstår och hur du blir av med det! Boka en kostnadsfri konsultation →';
+$seo_description = 'Varför får man finnar som vuxen? Läs mer om vuxenacnes orsaker, varför plötslig akne uppstår och hur du blir av med det! Boka en kostnadsfri konsultation →';
 $seo_keywords = 'varför får man finnar som vuxen, vuxenacne, vuxenakne, vuxenacne behandling, vuxenacne kvinnor, vuxenakne man, vuxenakne orsaker, acne tarda, hormonell vuxenacne, kronisk vuxenakne, bli av med vuxenacne, vuxenacne hjälp, vuxenacne produkter, behandla vuxenacne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
@@ -22,7 +22,7 @@ $image_title = 'Behandling och Skötsel av Vuxenacne';
 $image_alt = 'Bild som visar hud påverkad av vuxenacne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Vuxenakne & Vuxenfinnar - Acne Tarda',
+      title: 'Vuxenacne & vuxenfinnar - Acne tarda',
       description: 'Akne är ett vanligt hudtillstånd som inte bara drabbar tonåringar utan är vanligt bland vuxna. Tillståndet kan bero på en mängd olika orsaker, från hormonella obalanser till livsstilsfaktorer. Att förstå varför man får finnar som vuxen är nyckeln till att hitta effektiva behandlingar och strategier för att hantera kvisslorna och uppnå klarare hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
@@ -45,9 +45,9 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina vuxenacne effektivt.';
 
 $description_title = 'Varför får man finnar som vuxen?';
-$description_text = '<p class="p200">Vuxenacne och vuxenfinnar är ett hudtillstånd som kännetecknas av uppkomsten av finnar, pormaskar, och ibland djupare cystor och noduler, hos personer över tjugo år. Till skillnad från tonårsakne, som ofta är centrerad kring hormonella förändringar under puberteten, kan vuxenacne drabba både män och kvinnor av olika åldrar och har en rad olika orsaker och utlösande faktorer. Dessa inkluderar hormonella obalanser, såsom de som kan uppkomma under menstruationscykeln, graviditet, genetiska underlag som orsakar kronisk vuxenakne, eller på grund av användning av vissa typer av mediciner, inklusive hormonella preventivmedel. Andra vanliga orsaker till vuxenakne omfattar stress, användning av olämpliga hudvårdsprodukter som kan täppa till porerna, samt genetiska faktorer.</p>
+$description_text = '<p class="p200">Vuxenacne och vuxenfinnar är ett hudtillstånd som kännetecknas av uppkomsten av finnar, pormaskar, och ibland djupare cystor och noduler, hos personer över tjugo år. Till skillnad från tonårsakne, som ofta är centrerad kring hormonella förändringar under puberteten, kan vuxenacne drabba både män och kvinnor av olika åldrar och har en rad olika orsaker och utlösande faktorer. Dessa inkluderar hormonella obalanser, såsom de som kan uppkomma under menstruationscykeln, graviditet, genetiska underlag som orsakar kronisk vuxenacne, eller på grund av användning av vissa typer av mediciner, inklusive hormonella preventivmedel. Andra vanliga orsaker till vuxenacne omfattar stress, användning av olämpliga hudvårdsprodukter som kan täppa till porerna, samt genetiska faktorer.</p>
 <p class="p200 mt-m">Vuxenacne behandling varierar beroende på dess orsak och svårighetsgrad. Mildare former kan ofta hanteras med skräddarsydda hudvårdsprodukter, medan mer allvarliga fall av akne kräver att rätt hudvårdsprodukter kombineras med rätt behandlingar för att få ett bra resyltat. För att förebygga och hantera vuxenacne är det viktigt med en lämplig hudvårdsrutin anpassad efter hudtyp och specifika behov. Detta kan inkludera rengöring, regelbunden exfoliering för att avlägsna döda hudceller, och användning av återfuktande och balanserande hudvårdsprodukter.</p>
-<p class="p200 mt-m">Sammanfattningsvis kräver hantering av vuxenacne en kombination av lämplig hudvård och behandling. Genom att använda en heltäckande behandlingsplan och följa en noggrann hudvårdsrutin kan individer med vuxenakne uppnå betydande förbättringar i sitt hudtillstånd.</p>';
+<p class="p200 mt-m">Sammanfattningsvis kräver hantering av vuxenacne en kombination av lämplig hudvård och behandling. Genom att använda en heltäckande behandlingsplan och följa en noggrann hudvårdsrutin kan individer med vuxenacne uppnå betydande förbättringar i sitt hudtillstånd.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -60,13 +60,13 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder ett brett utbud av skräddarsydda behandlingar för vuxenacne, utformade för att effektivt bli av med hudproblemet.',
-            url_label: 'Se aknebehandlingar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder anpassade produkter och rutiner som är speciellt utformade för att förebygga vuxenakne och bevara en hälsosam hudbalans.',
+            content: 'Vi erbjuder anpassade produkter och rutiner som är speciellt utformade för att förebygga vuxenacne och bevara en hälsosam hudbalans.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
@@ -80,7 +80,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $results = array(
     new ResultCustomer(

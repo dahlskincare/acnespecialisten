@@ -48,9 +48,9 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar vita pormaskar effektivt';
 
-$description_title = 'Vad är Vita Pormaskar?';
+$description_title = 'Vad är vita pormaskar?';
 $description_text = '<p class="p200">Vita pormask, även kända som stängda komedon, uppkommer när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av vita pormaskar. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
+<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av pormaskar. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -62,14 +62,14 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vårt fokus ligger på att erbjuda milda men effektiva behandlingsmetoder för att ta bort vita pormaskar, anpassade till dina hudbehov. Målet är att varsamt men effektivt rensa bort vita pormaskar för att ge din hud ett fräschare och mer välmående utseende.',
+            content: 'Vårt fokus ligger på att erbjuda milda men effektiva behandlingsmetoder för att ta bort vita pormaskar, anpassade till dina hudbehov. Målet är att varsamt men effektivt rensa bort pormaskar för att ge din hud ett fräschare och mer välmående utseende.',
             url: '/hudbehandlingar/pormaskar/',
             url_label: 'Se portömning',
             url_title: 'Upptäck våra anpassade behandlingar för portömning',
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vårt team hjälper dig att skräddarsy en hudvårdsrutin för att effektivt förhindra nya vita pormaskar. Genom att noga välja ut produkter som matchar din hudtyp, arbetar vi för att bibehålla en sund hudbalans och förebygga framtida hudutmaningar.',
+            content: 'Vårt team hjälper dig att skräddarsy en hudvårdsrutin för att effektivt förhindra nya pormaskar. Genom att noga välja ut produkter som matchar din hudtyp, arbetar vi för att bibehålla en sund hudbalans och förebygga framtida hudutmaningar.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
             url_title: 'Utforska de bästa produkterna för att förebygga vita pormaskar',
@@ -79,13 +79,13 @@ $treatment_link = '<a href="/hudbehandlingar/pormaskar/" title="Läs mer om vår
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför uppstår vita pormaskar?',
+            title: 'Varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
             image_title: '',
             content: '<p class="p200">Vita pormaskar uppstår vanligtvis i områden med riklig talgproduktion, som ansiktet, framför allt på näsan och i pannregionen. Dessa bildas när porer blockeras av en blandning av talg och döda hudceller. Denna blandning genomgår en oxidationsprocess när den exponeras för luft, vilket leder till de distinkta vita prickarna som karakteriserar vita pormaskar. Faktorer som stimulerar ökad talgproduktion och blockering av porer omfattar hormonella förändringar, diet, vissa hudvårdsprodukter och externa miljöeffekter såsom luftföroreningar och UV-strålning.</p>
-      <p class="p200 mt-m">För att hantera och förebygga vita pormaskar effektivt är det essentiellt att följa en skräddarsydd hudvårdsrutin och att undvika hudvårdsprodukter som kan irritera eller förvärra hudtillståndet. På AcneSpecialisten erbjuder vi individanpassade behandlingar och professionell rådgivning för att hjälpa dig att minska och förebygga vita pormaskar, vilket leder till en klarare och mer strålande hud.</p>',
+      <p class="p200 mt-m">På AcneSpecialisten erbjuder vi individanpassade behandlingar och professionell rådgivning för att hjälpa dig att minska och förebygga vita pormaskar, vilket leder till en klarare och mer strålande hud.</p>',
       ),
 );
 
