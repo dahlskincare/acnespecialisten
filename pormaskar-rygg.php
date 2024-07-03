@@ -48,8 +48,8 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar pormaskar på ryggen effektivt';
 
-$description_title = 'Allt om Pormaskar på Ryggen';
-$description_text = '<p class="p200">Pormaskar på ryggen, även kända som öppna komedoner, uppstår när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar vid kontakt med luft, vilket skapar det tydliga utseendet på pormaskar. Pormaskar på ryggen är vanliga och kan bero på olika faktorer, såsom hormonella förändringar, svett och friktion från kläder, samt otillräcklig rengöring av huden på ryggen.</p>
+$description_title = 'Allt om pormaskar på ryggen';
+$description_text = '<p class="p200">Pormaskar på ryggen, även kända som öppna komedoner, uppstår när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar vid kontakt med luft, vilket skapar det tydliga utseendet på pormaskar. Problemen är vanliga och kan bero på olika faktorer, såsom hormonella förändringar, svett och friktion från kläder, samt otillräcklig rengöring av huden på ryggen.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi specialiserade behandlingar för att effektivt hantera och minska pormaskar på ryggen. Våra behandlingar innefattar grundlig rengöring och specialanpassade metoder, utformade för att möta dina unika hudbehov. Genom dessa behandlingar, tillsammans med anpassade hudvårdsrutiner, hjälper vi dig att uppnå rena porer och förebygga nya pormaskar på ryggen, vilket bidrar till en sundare och mer välmående hud.</p>';
 
 $treatment_steps = array(
@@ -79,7 +79,7 @@ $treatment_link = '<a href="hudbehandlingar/pormaskar/" title="Läs mer om vår 
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför Uppstår Pormaskar på Ryggen?',
+            title: 'Varför uppstår problemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
