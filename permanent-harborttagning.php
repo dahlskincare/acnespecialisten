@@ -39,7 +39,7 @@ $description_text = '<p class="p200">Permanent hårborttagning med laser represe
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför laser hårborttagning',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/permanent-harborttagning-forberedelser.webp',
         image_large: '/bilder/process/872x456/permanent-harborttagning-forberedelser.webp',
         image_alt: 'Förberedelser inför permanent hårborttagning',
@@ -48,7 +48,7 @@ $top_articles = array(
         <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under veckan innan behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
     ),
     'process' => new Article(
-        title: 'Hur fungerar laser hårborttagning?',
+        title: 'Hur fungerar behandlingen?',
         image_small: '/bilder/process/358x272/permanent-harborttagning-process.webp',
         image_large: '/bilder/process/872x456/permanent-harborttagning-process.webp',
         image_alt: 'Hur fungerar laser hårborttagning?',
@@ -418,7 +418,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter hårborttagning med laser',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/permanent-harborttagning-eftervard.webp',
     image_large: '/bilder/process/872x456/permanent-harborttagning-eftervard.webp',
     image_alt: 'Eftervård för Permanent Hårborttagning',
