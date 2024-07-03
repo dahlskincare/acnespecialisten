@@ -51,7 +51,7 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om Finnar';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
@@ -98,7 +98,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder målinriktade och effektiva behandlingar för dina finnar, anpassade efter din hudtyp och finnarnas svårighetsgrad.',
-            url_label: 'Se behandlingar mot finnar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda behandlingar mot finnar'
       ),
@@ -118,13 +118,13 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar</a>';
+$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $types_title = 'Olika typer av Finnar';
 
 $type_categories = array(
       new BasedTypeCategory(
-            title: 'Finnar baserat på ålder',
+            title: 'Baserat på ålder',
             content: '<p class="p200">Finnar är inte begränsade till en viss ålder och kan påverka både unga och vuxna. Tonårsfinnar är vanliga och orsakas ofta av hormonella förändringar under puberteten. Men även som vuxen kan man drabbas, och det kan relateras till olika faktorer såsom stress, kost och livsstil. Det är essentiellt att förstå att finnar kan påverka personer i olika skeden av livet.</p>',
             types: array(
                   new BasedType(
@@ -149,7 +149,7 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            title: 'Finnar baserat på yttre faktorer',
+            title: 'Baserat på yttre faktorer',
             content: '<p class="p200">Externa faktorer kan kraftigt påverka uppkomsten av finnar. Sådana faktorer kan vara solens strålar, friktion mot huden, användning av kosmetika, vissa läkemedel och miljöpåverkan. Dessa kan bidra till utvecklingen eller förvärringen av finnar genom att irritera huden, täppa till porerna eller rubba hudens talgproduktion.</p>',
             types: array(
                   new BasedType(
@@ -255,7 +255,7 @@ $type_categories = array(
       ),
 
       new BasedTypeCategory(
-            title: 'Finnar baserat på område',
+            title: 'Baserat på område',
             content: '<p class="p200">Finnar kan framträda på olika delar av kroppen. Ansiktet är det vanligaste området, men finnar kan också uppstå på bröstet, ryggen, axlarna och andra delar av kroppen. Finnarnas placering kan ge en indikation på underliggande orsaker, såsom hormonella förändringar, irritation från kläder eller externa faktorer som sol och friktion.</p>',
             types: array(
                   new BasedType(
@@ -308,7 +308,7 @@ $type_categories = array(
 
 );
 
-$symptoms_title = 'Finnar symptom och synonymer';
+$symptoms_title = 'Symtom';
 
 $symptoms = array(
       new Symptom(
@@ -358,7 +358,7 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera dina finnar";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation',
@@ -375,13 +375,13 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url_label: 'Läs mer om gratis hudkonsultation mot finnar',
+      url_label: 'Läs mer om gratis hudkonsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation mot finnar',
 
 );
 
-$headline02 = "02. Behandla dina finnar";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -399,7 +399,7 @@ $services = array(
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot finnar',
-            url_label: 'Läs mer om ansiktsbehandling mot finnar',
+            url_label: 'Läs mer om ansiktsbehandling',
             url: '/portomning.php',
             url_title: 'Läs mer om ansiktsbehandling mot finnar',
       ),
@@ -419,7 +419,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
-            url_label: 'Läs mer om laser mot finnar',
+            url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot finnar',
       ),
       new Service(
@@ -438,7 +438,7 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot finnar behandling',
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot finnar',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot finnar',
       ),
 
@@ -458,14 +458,14 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot finnar',
             url: '/microneedling.php',
-            url_label: 'Läs mer om microneedling mot finnar',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot finnar',
       )
 
 
 );
 
-$headline03 = "03. Förebygg uppkomsten av nya finnar";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -484,13 +484,13 @@ $products = array(
             booking_url_label: null,
             booking_url_title: null,
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
-            url_label: 'Läs mer om våra produkter mot finnar',
+            url_label: 'Läs mer om produkterna',
             url_title: 'Klicka här för att läsa mer om våra effektiva produkter mot finnar'
       )
 );
 
 
-$headline04 = "04. Reparera ärr från finnar";
+$headline04 = "04. Reparera";
 
 $procedures = array(
       new Service(
@@ -512,7 +512,7 @@ $procedures = array(
             booking_url_title: 'Klicka för att boka tid för en microneedling mot ärr från finnar',
 
             url: 'behandla-finnar-arr.php',
-            url_label: 'Läs mer om behandlingar mot ärr från finnar',
+            url_label: 'Läs mer om behandlingar',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot ärr från finnar'
       ),
 
