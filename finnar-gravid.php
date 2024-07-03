@@ -21,7 +21,7 @@ $image_title = 'Visar en hud med gravid finnar';
 $image_alt = 'Bild som illustrerar hud med gravid finnar';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Gravid Finnar',
+      title: 'Gravid finnar',
       description: 'Besväras du av finnar and och acne under graviditeten? Vi kan identifera dina finnar och var de uppstår såsom i ansiktet, på hakan eller på kroppen. Vi berättarmed om hur dem uppstår och hur vi effektivt kan behandla dem.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples', 'Boka gratis konsultation för akne'),
@@ -54,8 +54,8 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina gravid finnar effektivt.';
 
 $description_title = 'Vad är gravid finnar?';
-$description_text = '<p class="p200">Acne eller finnar under graviditet är en vanlig hudåkomma som orsakar drabbar kvinnor på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven under graviditeten. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
-<p class="p200 mt-m">Vid AcneSpecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner under graviditeten. Från milda rengöringsmetoder till återfuktande och lugnande behandlingar, våra hudterapeuter är utbildade att ge den mest skonsamma och effektiva vård för graviditetsrelaterade hudproblem.</p>';
+$description_text = '<p class="p200">Acne eller finnar under graviditet är en vanlig hudåkomma som orsakar drabbar kvinnor på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
+<p class="p200 mt-m">Vid AcneSpecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner. Från milda rengöringsmetoder till återfuktande och lugnande behandlingar, våra hudterapeuter är utbildade att ge den mest skonsamma och effektiva vård för graviditetsrelaterade hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -68,15 +68,15 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för gravid finnar är säkra och skonsamma, anpassade för att effektivt ta hand om din känsliga hud under graviditeten utan att kompromissa med säkerheten.',
+            content: 'Våra behandlingar är säkra och skonsamma, anpassade för att effektivt ta hand om din känsliga hud under graviditeten utan att kompromissa med säkerheten.',
 
-            url_label: 'Se aknebehandlingar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder specialanpassade hudvårdsprodukter och rutiner som är säkra under graviditeten för att effektivt förebygga gravid finnar och underhålla en sund hudbalans.',
+            content: 'Vi erbjuder specialanpassade hudvårdsprodukter och rutiner som är säkra under graviditeten för att effektivt förebygga finnar och underhålla en sund hudbalans.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
@@ -86,16 +86,16 @@ $treatment_steps = array(
             title: 'Reparera',
             content: 'Efter graviditeten kan vi även hjälpa till med att minska och behandla eventuella hudförändringar eller ärr som uppstått, med säkra och effektiva metoder.',
 
-            url_label: 'Se ärrbehandlingar',
+            url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 );
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var och varför uppstår gravid finnar?',
+            title: 'Var och varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -107,7 +107,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för gravid finnar?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för gravid finnar?',
@@ -117,13 +117,13 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
+            title: 'Varför ska jag välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
             image_title: 'Varför ska jag välja AcneSpecialisten för gravid finnar?',
             content: '<p class="p200">När det gäller att hantera gravid finnar, är AcneSpecialisten experten du kan lita på. Med över 30 års erfarenhet inom hudvård och en djup förståelse för de unika utmaningarna som graviditet kan medföra för huden, erbjuder vi specialiserade lösningar för att hantera din hud på ett säkert och effektivt sätt under denna speciella tid.</p>
-            <p class="p200 mt-m">Med en individuellt anpassad behandlingsplan och stöd genom hela din graviditet. Vi ser dig som en partner i din hudvårdsresa under graviditeten och är engagerade i att hjälpa dig att uppnå och bibehålla en sund och vacker hud. Med vårt engagemang och kunskap är vi det självklara valet för att ta hand om dina gravid finnar på bästa möjliga sätt.</p>',
+            <p class="p200 mt-m">Med en individuellt anpassad behandlingsplan och stöd genom hela din graviditet. Vi ser dig som en partner i din hudvårdsresa och är engagerade i att hjälpa dig att uppnå och bibehålla en sund och vacker hud. Med vårt engagemang och kunskap är vi det självklara valet för att ta hand om dina gravid finnar på bästa möjliga sätt.</p>',
       ),
 );
 
