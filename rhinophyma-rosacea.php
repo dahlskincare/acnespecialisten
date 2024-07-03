@@ -65,7 +65,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-            url_label: 'Se IPL-behandlingar',
+            url_label: 'Se IPL behandlingar',
             url: 'ipl-rosacea.php',
             url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
       ),
@@ -75,7 +75,7 @@ $treatment_link = '<a href="rosaceabehandling.php" title="Utforska effektiva akn
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Rhinophyma Rosacea områden',
+            title: 'Var uppstår problemet?',
             image_small: null,
             image_large: null,
             image_alt: null,
@@ -95,7 +95,7 @@ $top_articles = array(
 $articles = array(
 
       new Article(
-            title: 'När ska jag söka hjälp med min rhinophyma rosacea?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med min rhinophyma rosacea?',
@@ -105,7 +105,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för min rhinophyma rosacea?',
@@ -117,7 +117,7 @@ $articles = array(
 
 );
 
-$headline01 = "01. Identifiera din rosacea";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation',
@@ -135,11 +135,11 @@ $service = new Service(
       booking_url_label: null,
       booking_url_title: null,
       url: 'gratis-hudkonsultation.php',
-      url_label: 'Läs mer om vår hudkonsultation',
+      url_label: 'Läs mer om hudkonsultation',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation'
 );
 
-$headline02 = "02. Behandla aktiv rosacea";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -158,12 +158,12 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot rosacea',
             url: 'rosaceabehandling.php',
-            url_label: 'Läs mer om ansiktsbehandling för rosacea',
+            url_label: 'Läs mer om ansiktsbehandling',
             url_title: 'Läs mer om ansiktsbehandling för rosacea'
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny rosacea";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -186,7 +186,7 @@ $products = array(
       )
 );
 
-$headline04 = "04. Reparera post-rosacea";
+$headline04 = "04. Reparera";
 
 $procedures = array(
       new Service(
@@ -200,7 +200,7 @@ $procedures = array(
             image_title: 'Behandla rosacea med IPL',
             
             url: 'ipl-rosacea.php',
-            url_label: 'Läs mer om behandlingar mot ytliga blodkärl',
+            url_label: 'Läs mer om behandlingarna',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl',
 
             consultation_url_label: 'Boka konsultation',

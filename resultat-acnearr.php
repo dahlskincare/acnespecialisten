@@ -54,7 +54,7 @@ $specialists = array(
 $result_category =
     new ResultCategory(
         id: 'aknearr',
-        title: 'Akneärr Resultat',
+        title: 'Akneärr resultat',
         description_1: 'Upptäck hur vi på AcneSpecialisten effektivt behandlar acneärr med laser, kemisk peeling och microneedling för att du ska få resultat. På denna sida presenterar vi en samling före och efter bilder som visar resultaten av våra anpassade behandlingar för akneärr. Se hur vi återställer hudens jämnhet och minskar synligheten av ärr för en klarare och mer jämn hudton.',
 
         description_2: 'Är du redo att adressera dina akneärr och se en verklig förändring? Genom att boka en kostnadsfri konsultation hos AcneSpecialisten, tar du det första steget mot en hud utan akneärr. Vi är här för att vägleda dig mot en mer självsäker hud med våra effektiva och skräddarsydda behandlingsalternativ.',

@@ -54,7 +54,7 @@ $specialists = array(
 $result_category =
     new ResultCategory(
         id: 'arr-fran-finnar',
-        title: 'Resultat för Ärr från Finnar',
+        title: 'Resultat för ärr från finnar',
         description_1: 'Utforska transformationsresorna hos AcneSpecialistens kunder som har behandlat ärr från finnar. Denna sida visar en imponerande samling av före- och efterbilder som demonstrerar de framgångsrika resultaten av våra skräddarsydda behandlingar. Se hur vi effektivt reducerar ärr från finnar, vilket resulterar i en jämnare hudton och klarare hud.',
 
         description_2: 'Om du är redo att transformera din hud och tackla ärr från finnar, är en kostnadsfri konsultation hos AcneSpecialisten ditt första steg. Våra experter erbjuder skräddarsydda behandlingsplaner som är anpassade för att effektivt hantera och minska synligheten av finnärr, vilket leder till en förnyad och självsäker hud.'

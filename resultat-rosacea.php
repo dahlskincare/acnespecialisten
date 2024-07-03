@@ -54,7 +54,7 @@ $specialists = array(
 $result_category =
     new ResultCategory(
         id: 'rosacea',
-        title: 'Rosacea Resultat',
+        title: 'Rosacea resultat',
         description_1: 'Utforska hur AcneSpecialisten framgångsrikt behandlar rosacea. Denna sida samlar före- och efter bilder som visar effektiva resultat av våra specialanpassade behandlingar. Se hur vi minskar rodnad och lugnar huden, vilket bidrar till att förbättra hudens hälsa och övergripande utseende för personer med rosacea.',
 
         description_2: 'Redo att ta itu med din rosacea och uppnå en lugnare hudton? Boka en kostnadsfri konsultation hos AcneSpecialisten och börja din resa mot en mer balanserad och hälsosam hud. Våra skräddarsydda behandlingsplaner är utformade för att effektivt hantera symtomen på rosacea och ge dig en klarare och jämnare hudton.',
