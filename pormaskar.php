@@ -239,7 +239,7 @@ $symptoms = array(
       new Symptom(
             name: 'Öppna Komedoner',
             image: 'bilder/symptom/102x102/oppna-komedoner.webp',
-            content: 'Öppna komedoner, ofta kallade svarta pormaskar, är små mörka prickar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
+            content: 'Små mörka prickar som ofta förekommer i ansiktet, särskilt på näsan och pannan. De bildas när porer blockeras av talg och döda hudceller och utsätts för luft.',
             aka: 'Svarta pormaskar',
             image_alt: 'Bild av öppna komedoner',
             image_title: 'Öppna Komedoner',
@@ -252,7 +252,7 @@ $symptoms = array(
       new Symptom(
             name: 'Stängda Komedoner',
             image: 'bilder/symptom/102x102/stangda-komedoner.webp',
-            content: 'Stängda komedoner, eller vita pormaskar, är små, hudfärgade upphöjningar som bildas när talg och döda hudceller blockar en por. De är täckta av hud och oxideras inte, vilket håller dem vita eller hudfärgade.',
+            content: 'Små, hudfärgade upphöjningar som bildas när talg och döda hudceller blockar en por. De är täckta av hud och oxideras inte, vilket håller dem vita eller hudfärgade.',
             aka: 'Vita pormaskar',
             image_alt: 'Bild av stängda komedoner',
             image_title: 'Stängda Komedoner',
