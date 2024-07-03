@@ -50,7 +50,7 @@ $floating_box = 'Vi behandlar melasma effektivt';
 
 $description_title = 'Fakta';
 $description_text = '<p class="p200">Melasma, som ofta är kopplat till hudens åldrande och utdragen sol exponering, visar sig som små, mörka områden på huden. Det är vanligare hos personer över 50 år men kan även förekomma hos yngre som spenderar mycket tid i solen.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi olika behandlingar för att tackla melasma. Våra metoder sträcker sig från ljusbaserade terapier till kemiska peelingar och mikrodermabrasion, alla utformade för att minska synligheten av melasma och ge en jämnare hudton. Vi tillhandahåller också tips för att förebygga ny melasma och upprätthålla en frisk och lysterrik hud.</p>';
+<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi olika behandlingar för att tackla melasma. Våra metoder sträcker sig från ljusbaserade terapier till kemiska peelingar och mikrodermabrasion, alla utformade för att minska synligheten av melasma och ge en jämnare hudton. Vi tillhandahåller också tips för att förebygga och upprätthålla en frisk och lysterrik hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -62,7 +62,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Baserat på din individuella diagnos erbjuder AcneSpecialisten en rad anpassade behandlingsalternativ för melasma. Våra metoder inkluderar avancerade tekniker speciellt utvecklade för att hantera och minska tecken på melasma, som hyperpigmentering och ojämn hudton, och arbetar mot att förbättra både hudens struktur och dess övergripande utseende.',
+            content: 'Baserat på din individuella diagnos erbjuder AcneSpecialisten en rad anpassade behandlingsalternativ. Våra metoder inkluderar avancerade tekniker speciellt utvecklade för att hantera och minska tecken på melasma, som hyperpigmentering och ojämn hudton, och arbetar mot att förbättra både hudens struktur och dess övergripande utseende.',
             url: 'behandla-pigmentflackar.php',
             url_label: 'Upptäck våra behandlingsalternativ',
             url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy',
