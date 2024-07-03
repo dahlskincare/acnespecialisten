@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Inflammation acne - papler och pustler | AcneSpecialisten';
+$seo_title = 'Inflammation akne - papler och pustler | AcneSpecialisten';
 $seo_description = 'Läs mer om inflammation acne och hur vi behandlar det effektivt för att bli av med dina pustler. Boka en kostnadsfri konsultation →';
 $seo_keywords = 'papler, pustler, inflammerad talgkörtel behandling, infekterad finne, papler och pustler, inflammation acne, akne pustel, acne bakterie, inflammerad acne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
@@ -21,8 +21,8 @@ $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Inflammation Acne - Papler och Pustler',
-      description: 'Inflammerad akne, som även kallas även för acne pustel, skadar huden och kan skapa ärrbildning. Acnen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.',
+      title: 'Inflammation akne',
+      description: 'Inflammerad akne, som även kallas även för akne pustel, skadar huden och kan skapa ärrbildning. Aknen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -44,7 +44,7 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina inflammation akne effektivt.';
 
 $description_title = 'Vad är inflammerad akne?';
-$description_text = '<p class="p200">Inflammerad akne är en hudåkomma som kännetecknas av röda, ömma utslag som kan vara smärtsamma vid beröring. Denna typ av akne uppstår när hårfolliklar blir tilltäppta med talg och döda hudceller, vilket skapar en idealisk miljö för acne bakterie (Propionibacterium acnes) att växa och orsaka inflammation. Till skillnad från icke-inflammatoriska utslag som svarta och vita pormaskar, innefattar inflammerad akne mer smärtsamma och synliga tecken, såsom papler och pustler (även kända som acne pustel) samt noduler och cystor. När acne bakterie infekterar den tilltäppta por, reagerar kroppens immunförsvar genom att sända vita blodkroppar till området, vilket leder till inflammation och bildandet av varfyllda pustler eller djupare hudutslag. Denna process gör akneområdet rött, svullet och inflammerat.</p>
+$description_text = '<p class="p200">Inflammerad akne är en hudåkomma som kännetecknas av röda, ömma utslag som kan vara smärtsamma vid beröring. Denna typ av akne uppstår när hårfolliklar blir tilltäppta med talg och döda hudceller, vilket skapar en idealisk miljö för akne bakterie (Cutibacterium acnes) att växa och orsaka inflammation. Till skillnad från icke-inflammatoriska utslag som svarta och vita pormaskar, innefattar inflammerad akne mer smärtsamma och synliga tecken, såsom papler och pustler (även kända som akne pustel) samt noduler och cystor. När akne bakterie infekterar den tilltäppta por, reagerar kroppens immunförsvar genom att sända vita blodkroppar till området, vilket leder till inflammation och bildandet av varfyllda pustler eller djupare hudutslag. Denna process gör akneområdet rött, svullet och inflammerat.</p>
 <p class="p200 mt-m">Behandling av inflammerad akne fokuserar på att minska inflammation, bekämpa bakteriell infektion och förebygga tilltäppning av porer. Detta kan innefatta användning hudvårdsprodukter som hjälper till att normalisera avstötningen av döda hudceller. För att hantera inflammerad akne är det också viktigt att utföra ansiktsbehandlingar där en grundlig extraktion görs för att tömma aknen som annars skadar huden. Dessutom är det kritiskt att motstå frestelsen att klämma eller pilla på akneutslag, då detta kan leda till ytterligare inflammation, infektion och potentiellt ärrbildning. Att hantera inflammerad akne kräver en skräddarsydd behandlingsplan som angriper problemet från flera olika håll Genom rätt hudvård och behandlingar kan vi hjälpa dig att bli av med din inflammerade akne.</p>';
 
 $treatment_steps = array(

@@ -62,7 +62,7 @@ $floating_box = 'Rengöring, exfoliering, avlägsnande av orenheter och återfuk
 
 $description_title = 'Vad är HydraFacial?';
 $description_text = '<p class="p200">HydraFacial är en innovativ maskinbehandling som kombinerar rengöring, exfoliering, avlägsnande av orenheter och intensiv återfuktning för att förnya och vitalisera huden. Denna behandling använder en pattenterad  teknik som kallas "vortex-fusion", där ett spiralformat munstycke möjliggör djuprengöring samtidigt som den tillför antioxidanter, peptider och hyaluronsyra.</p>
-<p class="p200 mt-m">På AcneSpecialisten anpassar vi varje HydraFacial-behandling efter individuella hudbehov. Behandlingen är effektiv för att minska synliga tecken på åldrande, som fina linjer och rynkor, samt att hantera problem som acne, förstorade porer och hyperpigmentering. Dessutom förbättrar HydraFacial hudens övergripande hälsa och lyster genom att öka fuktnivåerna i en torr och känslig hy. HydraFacial är en perfekt lösning för alla som vill ha en direkt synlig förbättring av sin hudkvalitet utan någon återhämtningstid.</p>';
+<p class="p200 mt-m">På AcneSpecialisten anpassar vi varje behandling efter individuella hudbehov. Behandlingen är effektiv för att minska synliga tecken på åldrande, som fina linjer och rynkor, samt att hantera problem som acne, förstorade porer och hyperpigmentering. Dessutom förbättras hudens övergripande hälsa och lyster genom att öka fuktnivåerna i en torr och känslig hy. HydraFacial är en perfekt lösning för alla som vill ha en direkt synlig förbättring av sin hudkvalitet utan någon återhämtningstid.</p>';
 
 $top_articles = array(
     'process' => new Article(
