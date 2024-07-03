@@ -34,7 +34,7 @@ $model = new Service(
 
 $floating_box = 'Effektiv ljusbehandling som eliminerar ytliga blodkärl.';
 
-$description_title = 'Vad är IPL behandling mot Ytliga Blodkärl?';
+$description_title = 'Vad är IPL behandling mot ytliga blodkärl?';
 $description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus, är en framstående och icke-invasiv metod för att effektivt behandla ytliga blodkärl. Denna avancerade ljusbaserade teknologi avger specifika ljuspulser som målmedvetet tränger igenom huden för att minska synligheten av blodkärlen. IPL behandling riktar sig direkt mot de blodkärl som orsakar ojämn hudton och synliga kärl på hudytan. IPL liknar laser behandling och kaneffektivt utföras i ansiktet för att ta bort ytliga blodkärl.</p>
     <p class="p200 mt-m">Genom att specifikt behandla dessa blodkärl, bidrar IPL inte bara till en mer jämn hudton, utan förbättrar också hudens övergripande utseende och kvalitet. Varje behandling är individuellt anpassad för att uppnå bästa möjliga resultat baserat på patientens unika hudbehov. IPL behandling för ytliga blodkärl är känd för att vara både skonsam och effektiv, med minimal risk för biverkningar. Många patienter ser märkbara förbättringar efter endast några sessioner, vilket gör detta till en uppskattad behandlingsmetod för dem som önskar reducera synligheten av ytliga blodkärl.</p>';
 
@@ -57,7 +57,7 @@ $treatment_steps = array(
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför IPL mot Ytliga Blodkärl',
+        title: 'Förberedelser inför behandlingen',
         image_small: null,
         image_large: null,
         image_alt: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
@@ -66,7 +66,7 @@ $top_articles = array(
         <p class="p200 mt-m">Inför din IPL behandling är det viktigt att undvika sol och självbrunande produkter minst två veckor i förväg. Detta för att minska risken för oönskad pigmentering eftersom behandlingen riktar sig mot pigment och blodkärl i huden. Du bör också undvika produkter som innehåller retinol, starka syror eller exfolierande ämnen dagarna före din behandling för att undvika överkänslighet eller irritation. Din hudterapeut kommer att ge dig noggranna instruktioner om hur du förbereder dig inför behandlingen och viktiga steg för eftervården för att främja en lyckad läkningsprocess.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går en IPL mot Ytliga Blodkärl till?',
+        title: 'Hur går behandlingen till?',
         image_small: null,
         image_large: null,
         image_alt: 'Hur går en IPL mot Ytliga Blodkärl till?',
@@ -77,8 +77,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot ytliga blodkärl';
-$treatment_areas_text = '<p class="p200">Få bort ytliga blodkärl i ansiktet med IPL.</p>';
+$treatment_areas_title = 'Behandlingsområden';
+$treatment_areas_text = '<p class="p200">Behandla hela eller delar av ansiktet.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -129,7 +129,7 @@ $treatment_areas = array(
         image_alt: 'Enskilda kärl',
         image_title: 'Enskilda kärl',
         title: 'Enskilda kärl',
-        description: '<p class="p200">IPL kan även behandla enskilda kärl.</p>',
+        description: '<p class="p200">Behandla enskilda kärl.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
@@ -147,7 +147,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för IPL mot ytliga blodkärl',
+    title: 'Eftervård',
     image_small: null,
     image_large: null,
     image_alt: 'Eftervård för IPL behandling mot ytliga blodkärl',
