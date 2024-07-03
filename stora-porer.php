@@ -42,26 +42,26 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om stora porer';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är stora porer?',
+            title: ' är stora porer?',
             content: '<p class="p200">Stora porer, även benämnda som förstorade eller vidgade porer, refererar till de synligt större öppningarna av hårsäckar på huden. Dessa öppningar agerar som kanaler för talgkörtlar, som producerar hudens naturliga olja, kallad talg. När dessa porer blir fyllda eller tilltäppta av talg eller döda hudceller, töjs dem ut. I vissa fall kan detta leda till andra hudproblem som stora pormaskar eller akne. Stora porer kan förändra hudens övergripande textur, vilket kan få huden att se äldre, tröttare eller grövre ut.</p>',
             extended_content: '<p class="p200 mt-xl">En annan faktor att beakta är solens inverkan. Ultraviolett strålning kan minska hudens kollagen, vilket gör att porer ser större ut. Hudens förmåga att generera kollagen försämras också med åldrande, vilket gör att porerna kan förlora sin elastiska struktur och därmed bli mer framträdande. Det är därför viktigt att förstå att stora porer inte bara är ett estetiskt problem, utan också kan vara en indikator på hudens tillstånd.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man stora porer?',
+            title: ' får man stora porer?',
             content: '<p class="p200">Förstorade eller vidgade porer kan uppstå av en rad olika orsaker, både genetiska och miljömässiga. En av de främsta orsakerna är överproduktion av talg. När huden producerar för mycket talg kan detta leda till en uppsamling av talg och döda hudceller i porerna, vilket gör att de expanderar och blir mer synliga. Genetik spelar också en viktig roll. Om dina föräldrar eller nära släktingar har stora porer, är chansen högre att du också kan drabbas. Åldrande är en annan faktor som påverkar porernas storlek. Med tiden minskar hudens elasticitet och kollagenproduktion, vilket leder till att porerna kan tappa sin fasta form och bli större.</p>',
             extended_content: '<p class="p200 mt-xl">Exponering för solen utan lämpligt skydd kan också bidra till större porer. UV-strålning bryter ner hudens kollagen och elastin, vilka är viktiga proteiner som hjälper till att upprätthålla hudens fasthet och struktur. Upprepad exponering utan skydd kan därmed leda till en förlust av hudens spänst, vilket gör att porerna blir mer framträdande. Det är viktigt att regelbundet exfoliera huden för att undvika ansamling av döda hudceller, vilket kan leda till att porerna vidgas. Slutligen kan även faktorer som rökning, som förhindrar huden från att andas ordentligt, och hormonella förändringar, som kan öka talgproduktionen, vara bidragande orsaker till förstorade porer.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'sol' => 'Sol', 'aldrande' => 'Åldrande')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får stora porer?',
+            title: ' får stora porer?',
             content: '<p class="p200">Förstorade eller vidgade porer kan drabba människor av alla åldrar, kön och hudtyper. Ändå finns det vissa individer som kan vara mer benägna att utveckla detta hudtillstånd baserat på olika faktorer. Genetik är en av de viktigaste faktorerna. Om dina föräldrar eller andra nära släktingar har stora porer, kan du ha en ökad risk att ärva denna egenskap. Gener spelar en betydande roll i hudens struktur och hur den reagerar på olika miljöfaktorer. Hudtypen påverkar också porernas storlek. De med oljig hud är ofta mer benägna att ha förstorade porer eftersom oljig hud tenderar att producera mer talg. Detta kan leda till att porerna blir tilltäppta och expanderar.</p>',
             extended_content: '<p class="p200 mt-xl">Med stigande ålder kan huden förlora sin elasticitet på grund av en minskning av kollagenproduktionen, vilket kan orsaka att porernas struktur förändras och de blir större med tiden. Hormonella förändringar under perioder som puberteten, menstruation, graviditet eller övergångsåldern kan leda till förändringar i talgproduktionen, vilket kan förstora porerna. Dessutom tenderar män att ha större porer jämfört med kvinnor, delvis eftersom mäns hud ofta är oljigare och de har en tjockare hudstruktur.</p>
             <p class="p200 mt-xl">Miljöfaktorer spelar också en roll. De som bor i områden med hög förorening eller hög fuktighet kan uppleva att deras porer blir större. Föroreningar kan fastna på huden och leda till att porerna blir tilltäppta. Livsstilsval, som att röka, kan också påverka porernas storlek eftersom rökning minskar cirkulationen till hudens yta, vilket kan påverka porernas storlek och utseende. Sammanfattningsvis, även om alla kan utveckla förstorade porer till viss grad, är det vissa grupper av människor som kan vara mer benägna baserat på dessa faktorer. Dock kan rätt hudvård hjälpa till att minimera utseendet av stora porer, oavsett orsak.</p>',
@@ -70,7 +70,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man stora porer?',
+            title: ' får man stora porer?',
             content: '<p class="p200">Stora porer, även kallade förstorade eller vidgade porer, kan dyka upp på olika delar av kroppen, men de är mest framträdande och märkbara i ansiktet. Näsan är ett av de mest framträdande områdena där förstorade porer kan observeras. Eftersom näsan naturligt producerar en högre mängd talg än andra delar av ansiktet, kan porerna där lätt bli tilltäppta och utvidgade. Kinderna, särskilt området närmast näsan, kan också visa tecken på förstorade porer. Precis som näsan kan kinderna uppleva ökad talgproduktion, vilket leder till vidgade porer.</p>',
             extended_content: '<p class="p200 mt-xl"> Utanför ansiktet kan stora porer också dyka upp på bröstet, ryggen och andra delar av kroppen där talgkörtlar är aktiva. Att förstå var och varför stora porer bildas är avgörande för att kunna ta itu med problemet effektivt. Genom att skydda huden mot solen, hålla den ren och välhydrerad samt regelbundet exfoliera bort döda hudceller kan man hjälpa till att förhindra att porerna blir större och förbättra hudens övergripande utseende.</p>',
             icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg', 'kinder' => 'Kinder')
@@ -89,7 +89,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi utför effektiva behandlingar för stora porer, anpassade för din specifika hudtyp, så att du snabbt och säkert kan minska porernas storlek.',
 
-            url_label: 'Se behandlingar för stora porer',
+            url_label: 'Se behandlingar',
             url: 'behandla-stora-porer.php',
             url_title: 'Utforska våra skräddarsydda behandlingar för stora porer'
       ),
@@ -103,9 +103,9 @@ $treatment_steps = array(
       ),
 
 );
-$treatment_link = '<a href="behandla-stora-porer.php" title="Utforska effektiva behandlingar för stora porer" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar för stora porer</a>';
+$treatment_link = '<a href="behandla-stora-porer.php" title="Utforska effektiva behandlingar för stora porer" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
-$symptoms_title = 'Stora porer symptom';
+$symptoms_title = 'Symtom';
 
 $symptoms = array(
       new Symptom(
@@ -166,7 +166,7 @@ $symptoms = array(
 
 );
 
-$headline01 = "01. Identifiera dina stora porer";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för stora porer',
@@ -179,7 +179,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för behandling av stora porer',
       image_title: 'Konsultation för behandling av stora porer',
 
-      url_label: 'Läs mer om konsultation mot stora porer',
+      url_label: 'Läs mer om konsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 
@@ -193,7 +193,7 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla stora porer";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -207,7 +207,7 @@ $services = array(
             image_alt: 'Bild av en ansiktsbehandling för stora porer',
             image_title: 'Ansiktsbehandling för stora porer',
 
-            url_label: 'Läs mer om ansiktsbehandling mot stora porer',
+            url_label: 'Läs mer om ansiktsbehandling',
             url: '/portomning.php',
             url_title: 'Läs mer om ansiktsbehandling mot stora porer',
 
@@ -231,7 +231,7 @@ $services = array(
             image_title: 'Laserbehandling för stora porer',
 
             url: '/hudbehandlingar/laser-mot-hudproblem/',
-            url_label: 'Läs mer om laser mot stora porer',
+            url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
@@ -254,7 +254,7 @@ $services = array(
             image_title: 'Kemisk peeling för stora porer behandling',
 
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot stora porer',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot stora porer',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -266,7 +266,6 @@ $services = array(
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för stora porer behandling'
 
       ),
-
       new Service(
             title: 'Microneedling för stora porer',
             duration: '50 min',
@@ -279,7 +278,7 @@ $services = array(
             image_title: 'Microneedling för stora porer behandling',
 
             url: '/microneedling-stora-porer.php',
-            url_label: 'Läs mer om microneedling mot stora porer',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
@@ -293,7 +292,7 @@ $services = array(
 
 );
 
-$headline03 = "03. Förebygg uppkomsten av större porer";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -318,7 +317,7 @@ $products = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med mina stora porer?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med mina stora porer?',
@@ -329,7 +328,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mina stora porer?',
