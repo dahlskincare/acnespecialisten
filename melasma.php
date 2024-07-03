@@ -48,7 +48,7 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Vi behandlar melasma effektivt';
 
-$description_title = 'Information om melasma';
+$description_title = 'Fakta';
 $description_text = '<p class="p200">Melasma, som ofta är kopplat till hudens åldrande och utdragen sol exponering, visar sig som små, mörka områden på huden. Det är vanligare hos personer över 50 år men kan även förekomma hos yngre som spenderar mycket tid i solen.</p>
 <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi olika behandlingar för att tackla melasma. Våra metoder sträcker sig från ljusbaserade terapier till kemiska peelingar och mikrodermabrasion, alla utformade för att minska synligheten av melasma och ge en jämnare hudton. Vi tillhandahåller också tips för att förebygga ny melasma och upprätthålla en frisk och lysterrik hud.</p>';
 
@@ -64,17 +64,17 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Baserat på din individuella diagnos erbjuder AcneSpecialisten en rad anpassade behandlingsalternativ för melasma. Våra metoder inkluderar avancerade tekniker speciellt utvecklade för att hantera och minska tecken på melasma, som hyperpigmentering och ojämn hudton, och arbetar mot att förbättra både hudens struktur och dess övergripande utseende.',
             url: 'behandla-pigmentflackar.php',
-            url_label: 'Upptäck våra behandlingsalternativ för melasma',
+            url_label: 'Upptäck våra behandlingsalternativ',
             url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy',
       ),
 );
 
-$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot melasma" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot melasma</a>';
+$treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot melasma" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlinga</a>';
 
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var uppstår melasma och varför?',
+            title: 'Var uppstår hudproblemet och varför?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -83,13 +83,13 @@ $top_articles = array(
       ),
 );
 
-$headline01 = "01. Identifiera din melasma";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för melasma',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under vår konsultation utför vi en detaljerad utvärdering av din melasma. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen för att skapa en behandlingsplan som är anpassad efter dina behov.',
+      content: 'Under vår konsultation utför vi en detaljerad utvärdering av din hy. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen för att skapa en behandlingsplan som är anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -105,14 +105,14 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla melasma";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
             title: 'Kemisk peeling mot melasma',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling är en effektiv metod för att behandla melasma. Genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse och jämnar ut hudtonen.',
+            content: 'Kemisk peeling är en effektiv metod som genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse och jämnar ut hudtonen.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -135,7 +135,7 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'När bör du söka hjälp för Melasma?',
+            title: 'När bör du söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När bör du söka hjälp för Melasma?',
@@ -144,7 +144,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            title: 'Varför AcneSpecialisten är ditt bästa val för behandling?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
