@@ -46,33 +46,33 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om seborré';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är seborré?',
+            title: ' är seborré?',
             content: '<p class="p200">Seborré som även kallas mjälleksem är en relativt vanlig hudåkomma som kännetecknas av fläckar av röd, fjällande, ibland kliande hud som kan bli fet eller oljig. Trots sitt utseende och sina ibland obekväma symtom, är seborré helt ofarligt. Det är en kronisk åkomma, vilket innebär att den tenderar att komma och gå under en persons livstid.</p>',
             extended_content: '<p class="p200 mt-xl">På AcneSpecialisten förstår vi att även om seborré inte är farligt, kan dess symptom vara besvärliga och störande. Vi erbjuder ett brett utbud av individuellt anpassade behandlingar och produkter som kan hjälpa till att kontrollera symptomen, minska obehag och förbättra det allmänna utseendet på huden.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man seborré?',
+            title: ' får man seborré?',
             content: '<p class="p200">Seborré orsakas av flera sammanflätade faktorer. Centrala faktorer som bidrar till uppkomsten av detta hudtillstånd är överproduktion av talg och kroppens svar på den. Talg är en naturligt förekommande fet substans som produceras av hudens talgkörtlar för att hålla huden smidig och skyddad mot uttorkning och infektioner. När talgproduktionen ökar, blir huden mer oljig vilket ger en grogrund för vissa typer av hudbakterier och jästsvampar, detta kan leda till irritation, inflammation och en snabbare cellomsättning vilket resulterar i flagnande hud.</p>',
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, såsom de som sker under puberteten eller vid vissa tidpunkter i den menstruella cykeln, påverkar talgproduktionen och därmed risken för seborré. Dessutom har stress och brist på sömn en inverkan på huden och kroppens reglering av talgproduktionen vilket kan leda till seborré. På AcneSpecialisten har vi stor erfarenhet av att behandla seborré och vi kan erbjuda individuella behandlingsplaner för att hjälpa till att kontrollera och hantera ditt specifika tillstånd.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'kyla' => 'Kyla',)
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får seborré?',
+            title: ' får seborré?',
             content: '<p class="p200">Seborré kan drabba individer i alla åldrar och från alla bakgrunder, men det är särskilt vanligt i två specifika åldersgrupper. För det första är seborré vanligt hos vuxna, särskilt mellan 30 och 60 år. Män har ofta en högre frekvens av seborré än kvinnor, vilket tros vara kopplat till att män har en större mängd talgkörtlar och en högre talgproduktion. De med fet hudtyp har också större benägenhet att drabbas av seborré.</p>',
             extended_content: '<p class="p200 mt-xl">För det andra är det vanligt hos spädbarn, vanligtvis under de första tre månaderna av livet, där det ofta kallas "mjölkskorv". Hos spädbarn presenterar sig seborré oftast som en gulaktig, fjällande skorpbildning på huvudet. På AcneSpecialisten vet vi hur besvärlig seborré kan vara, och vi är här för att hjälpa. Vi erbjuder individuell rådgivning och behandlingar för att hjälpa dig att hantera ditt seborré och förbättra din hudhälsa.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man seborré?',
+            title: ' får man seborré?',
             content: '<p class="p200">Seborré uppstår ofta i ansiktet, framförallt i områden med hög koncentration av talgkörtlar, vilket resulterar i rodnad, eksem och torra ögonbryn, näsvingarna, pannan och ögonlocken. Här kan tillståndet ge röda, fjällande, oljiga fläckar som kan vara svåra att dölja och orsaka obehag.</p>',
             extended_content: '<p class="p200 mt-xl">Ett annat vanligt område är hårbotten, där överdriven talgproduktion kan leda till mjäll, vilket är orsaken till att hudproblemet ofta kallas mjälleksem. Även områden som öron, bröst och mitten av ryggen kan drabbas, där seborré kan skapa röda, flagnande fläckar. Trots att dessa områden är mest utsatta, kan seborré dyka upp var som helst på kroppen där talgproduktionen är hög. På AcneSpecialisten är vi experter på att hantera seborré. Vi erbjuder ett brett utbud av behandlingar och produkter som kan hjälpa dig att kontrollera dina symptom och förbättra din hudhälsa.</p>',
             icons: array('ansikte' => 'Ansiktet', 'ogonbryn' => 'Ögonbryn', 'harlinje' => 'Hårlinje', 'skagg' => 'Skägget')
@@ -90,7 +90,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi erbjuder en rad skonsamma och effektiva seborrébehandlingar anpassade till din specifika typ av seborré, vilket säkerställer att du snabbt och säkert kan bli av med ditt problem.',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY',
-            url_label: 'Se seborrébehandlingar',
+            url_label: 'Se behandlingar',
             url_title: 'Utforska alla våra effektiva seborrébehandlingar',
       ),
       new TreatmentStep(
@@ -102,7 +102,7 @@ $treatment_steps = array(
       ),
 );
 
-$symptoms_title = 'Seborré symptom';
+$symptoms_title = 'Symtom';
 
 $symptoms = array(
       new Symptom(
@@ -153,7 +153,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din seborré";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Seborré Konsultation',
@@ -176,7 +176,7 @@ $service = new Service(
 
 );
 
-$headline02 = "02. Behandla seborré";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -200,7 +200,7 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny seborré";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -229,7 +229,7 @@ $products = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med min seborré?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med min seborré?',
@@ -237,7 +237,7 @@ $articles = array(
             content: '<p class="p200">Om du upplever att seborré börjar påverka din dagliga livskvalitet, eller om du har provat olika behandlingar och produkter utan att märka någon bestående förbättring, kan det vara dags att söka professionell hjälp. Att agera tidigt gör att du kan förhindra att problemet utvecklas och får snabbare resultat till en sundare och mer balanserad hud. Vänta inte med att söka hjälp, det första steget kan vara att boka en gratis konsultation.</p>',
       ),
       new Article(
-            title: 'När ska jag söka hjälp med min seborré?',
+            title: 'Varför ska jag välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten?',
