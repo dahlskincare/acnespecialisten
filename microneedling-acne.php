@@ -17,7 +17,7 @@ $path_segments = array(
 
 
 $model = new Service(
-    title: 'Microneedling mot akne',
+    title: 'Microneedling mot akne och finnar',
     duration: null,
     price: 'Från 2332 kr',
     content: '',
@@ -61,7 +61,7 @@ $model = new Service(
 
 $floating_box = 'Behandlar och reducerar akne.';
 
-$description_title = 'Microneedling mot akne och finnar';
+$description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Microneedling som en behandling för akne hos AcneSpecialisten utnyttjar fina mikronålar för att skapa små kanaler i huden, vilket inte bara förbättrar hudens textur utan också aktivt bekämpar akne. Genom att stimulera hudens naturliga läkningsprocess och kollagenproduktion, hjälper denna behandling till att reglera talgproduktionen och minska inflammationen som ofta är associerad med akne.</p>
 <p class="p200 mt-m">Vår anpassade microneedling-behandling är specifikt inriktad mot att behandla akne och dess relaterade hudproblem. Genom regelbundna behandlingar kan du uppleva en klarare hudton, minskade utbrott av akne och en generell förbättring av hudens utseende. Denna metod är idealisk för att uppnå en hälsosammare och mer balanserad hud, med synligt minskade porer och en jämnare hudstruktur. Vårt mål är att erbjuda dig en effektiv lösning för att hantera din akne och förbättra din hudhälsa.</p>';
 
