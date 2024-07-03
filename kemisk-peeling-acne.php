@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Kemisk peeling mot acne | AcneSpecialisten';
+$seo_title = 'Kemisk peeling mot akne | AcneSpecialisten';
 $seo_description = 'Kemiska peelings särskilt utvecklade för behandling av akne. Våra specialanpassade syror reducerar akne och förbättrar hudens övergripande hälsa och utseende.';
 $seo_keywords = 'kemisk peeling mot acne, peeling akne, kemisk peeling acne, peeling acne, kemisk peeling akne';
 
@@ -16,7 +16,7 @@ $path_segments = array(
 
 
 $model = new Service(
-    title: 'Kemisk peeling mot acne',
+    title: 'Kemisk peeling mot akne',
     duration: null,
     price: 'Från 2995 kr',
     content: '',
@@ -60,9 +60,9 @@ $model = new Service(
 
 $floating_box = 'Effektiv kemisk peeling mot akne.';
 
-$description_title = 'Hur Kemisk Peeling Behandlar Akne';
+$description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Kemisk peeling hos AcneSpecialisten är en effektiv metod för att bekämpa akne och förbättra hudens kvalitet. Våra specialanpassade behandlingar använder effektiva syror för att varsamt exfoliera huden, rensa porer och minska överproduktionen av talg som ofta orsakar akne. Dessa peelingar stimulerar även hudens förnyelseprocess, vilket leder till en klarare och jämnare hudton.</p>
-<p class="p200 mt-m">Vi erbjuder olika typer av kemiska peelingar som är skräddarsydda för att hantera de specifika utmaningarna och behoven hos aknebenägen hud. Dessa behandlingar kan inkludera ingredienser som salicylsyra, glykolsyra och andra specialkomponenter, som effektivt riktar sig mot akne och bidrar till en friskare hud. Genom att regelbundet genomgå dessa behandlingar kan du uppleva en betydande minskning av akne, förbättrad hudtextur och en övergripande förbättring av hudens utseende.</p>';
+<p class="p200 mt-m">Vi erbjuder olika typer av kemiska peelingar som är skräddarsydda för att hantera de specifika utmaningarna och behoven hos aknebenägen hud. Dessa behandlingar kan inkludera ingredienser som salicylsyra, glykolsyra och andra specialkomponenter, som effektivt riktar sig mot akne och bidrar till en friskare hud. Genom att regelbundet genomgå dessa behandlingar kan du uppleva en betydande minskning av hudproblemet, förbättrad hudtextur och en övergripande förbättring av hudens utseende.</p>';
 
 $types_title = '';
 $types_description = '';
@@ -71,7 +71,7 @@ $big_types = array(
         title: 'Kemisk peeling mot akne',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">Kemisk peeling mot akne hos AcneSpecialisten involverar en noggrant utvald kombination av syror som appliceras på huden för att behandla akne. Efter applicering av de aktiva ingredienserna får peelingslösningen verka under en kontrollerad tid för att säkerställa optimal penetration och effektivitet. Därefter neutraliseras peelingen och tvättas bort, vilket avslutar behandlingsprocessen. Resultatet är en friskare hud med minskade akneutbrott och en förbättrad övergripande hudton och textur. Regelbunden behandling bidrar till långsiktiga förbättringar och kan vara en viktig del i en omfattande aknebehandlingsplan.</p>',
+        content: '<p class="p200">En noggrant utvald kombination av syror som appliceras på huden för att behandla akne. Efter applicering av de aktiva ingredienserna får peelingslösningen verka under en kontrollerad tid för att säkerställa optimal penetration och effektivitet. Därefter neutraliseras peelingen och tvättas bort, vilket avslutar behandlingsprocessen. Resultatet är en friskare hud med minskade utbrott och en förbättrad övergripande hudton och textur. Regelbunden behandling bidrar till långsiktiga förbättringar och kan vara en viktig del i en omfattande aknebehandlingsplan.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_alt: 'Kemisk peeling mot akne',

@@ -65,7 +65,7 @@ $description_text = '<p class="p200">Kemisk peeling för ansikte och kropp innef
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser inför kemisk peeling',
+        title: 'Förberedelser',
         image_small: '/bilder/process/358x272/kemisk-peeling-forberedelser.webp',
         image_large: '/bilder/process/872x456/kemisk-peeling-forberedelser.webp',
         image_alt: null,
@@ -74,7 +74,7 @@ $top_articles = array(
         <p class="p200 mt-m">Dessutom är det viktigt att informera din hudterapeut om eventuella mediciner du tar eller om du har aktiva hudåkommor, så att vi kan anpassa behandlingen på bästa sätt. Kom ihåg att det viktigaste är att du känner dig bekväm och trygg, så om du har några frågor eller funderingar rekommenderar vi alltid att du börjar med en kostnadsfri konsultation.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går kemisk peeling till?',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/kemisk-peeling-process.webp',
         image_large: '/bilder/process/872x456/kemisk-peeling-process.webp',
         image_alt: null,
@@ -232,7 +232,7 @@ $big_types = array(
 
 );
 
-$types_title = 'Hudproblem vi behandlar med kemisk peeling';
+$types_title = 'Hudproblem vi behandlar';
 $types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddarsydda kemiska peelings för en rad hudproblem. Våra behandlingar är specifikt utformade för att effektivt hantera allt från acneärr och aktiv akne till melasma och pigmentfläckar. Vi tar även hand om pormaskar, stora porer, samt rynkor och fina linjer. Genom att välja rätt typ av kemisk peeling för varje specifikt hudproblem, kan vi erbjuda behandlingar som inte bara förbättrar hudens utseende, utan också dess övergripande hälsa och vitalitet.</p>';
 $types = array(
     new Service(
@@ -377,8 +377,8 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för Kemisk Peeling';
-$treatment_areas_text = '<p class="p200">Kemisk peeling är en mångsidig behandlingsmetod som är lämplig för att förbättra hudens tillstånd i ansiktet, på halsen, dekolletaget och ryggen.</p>';
+$treatment_areas_title = 'Behandlingsområden';
+$treatment_areas_text = '<p class="p200">En mångsidig behandlingsmetod som är lämplig för att förbättra hudens tillstånd i ansiktet, på halsen, dekolletaget och ryggen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -386,7 +386,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte & kropp',
         image_title: 'Ansikte & kropp',
         title: 'Ansikte & kropp',
-        description: '<p class="p200">Vår kemiska peeling kan appliceras på flera olika områden, anpassad efter dina behov.</p>',
+        description: '<p class="p200">Behandlingen kan appliceras på flera olika områden, anpassad efter dina behov.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
@@ -480,7 +480,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård för kemisk peeling',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/kemisk-peeling-eftervard.webp',
     image_large: '/bilder/process/872x456/kemisk-peeling-eftervard.webp',
     image_alt: 'Eftervård för kemisk peeling',
@@ -490,7 +490,7 @@ $bottom_articles = array('aftercare' => new Article(
 ));
 
 $service_brands_title = 'Märken för kemisk peeling';
-$service_brands_text = '<p class="p200">Vi utför kemisk peeling med Skin Tech och PRX-T33.</p>';
+$service_brands_text = '<p class="p200">Vi använder Skin Tech och PRX-T33.</p>';
 $service_brands = array(
 
     new Brand(
