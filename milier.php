@@ -39,21 +39,21 @@ $about_title = 'Fakta';
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är milier?',
+            title: ' är milier?',
             content: '<p class="p200">Milier är små, vita eller ibland gula inkappslingar som framträder på hudens yta. Dessa formationer är faktiskt små cystor fyllda med keratin, ett protein som finns i hud, hår och naglar, vilket gör att de kan upplevas som hårda pormaskar eller finnar. De bildas när döda hudceller blir instängda istället för att exfolieras bort naturligt. Trots att de kan uppfattas som estetiskt störande för vissa, är milier helt ofarliga och inte smittsamma. Det är också viktigt att inte försöka klämma sina egna milier då de saknar poröppning vilket kan leda till inflammation eller ärrbildning om de klämms.</p>',
             extended_content: '<p class="p200 mt-xl">Milier kan delas in i olika kategorier baserade på deras ursprung. Primära milier uppstår utan någon uppenbar anledning och kan ses hos individer i alla åldrar, inklusive nyfödda. Sekundära milier, å andra sidan, utvecklas som en respons på skada, såsom en inflammatorisk hudsjukdom, skador från solbränna, eller som en bieffekt av vissa hudvårdsprodukter eller behandlingar som irriterar huden. Att förstå dessa typer är viktigt för att rikta in sig på lämplig hudvård och behandlingsmetoder för att förebygga eller minska förekomsten av milier.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man milier?',
+            title: ' får man milier?',
             content: '<p class="p200">Det finns många orsaker bakom bilandet av milier men grundar sig ofta i ansamlingen av döda hudceller. Dessa celler kan bli instängda under huden snarare än att avlägsnas genom den naturliga exfolieringsprocessen. Förutom denna samling kan genetiska faktorer, olämplig hudvård, och skador på huden också spela en roll i utvecklingen av milier.</p>',
             extended_content: '<p class="p200 mt-xl">Till exempel kan användning av för tjocka eller oljebaserade hudvårdsprodukter bidra till att keratinet blir instängt, vilket underlättar bildandet av milier. På samma sätt kan hud som skadas av solen eller som är utsatt för aggressiva kemikalier ha en nedsatt förmåga att exfoliera döda hudceller effektivt, vilket leder till att dessa celler ackumuleras och bildar milier. Att förstå dessa utlösande faktorer är avgörande för att vidta förebyggande åtgärder och anpassa sin hudvårdsrutin för att minimera risken för milier.</p>',
             icons: array('genetik' => 'Genetik', 'klimat' => 'Klimat', 'livsstil' => 'Livsstil')
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får milier?',
+            title: ' får milier?',
             content: '<p class="p200">Milier, de små keratinfyllda cystorna som bildas under huden, kan påverka individer oavsett ålder, kön eller hudtyp, vilket gör dem till ett vanligt hudtillstånd. Dock varierar förekomsten av milier bland olika åldersgrupper och under olika omständigheter. Eftersom det är något alla kan drabbas av har milier många olika namn som användsi dagligt tal såsom plitor, knotter, knottror eller bara prickar.</p>',
             extended_content: '<p class="p200 mt-xl">Nyfödda<br />Milier är mycket vanliga hos nyfödda och anses vara en normal del av hudens utveckling. Hos spädbarn uppträder milier ofta i ansiktet, särskilt runt näsan och på kinderna, men de kan också förekomma på andra delar av kroppen. Dessa milier försvinner vanligtvis naturligt inom några veckor eller månader efter födseln utan behandling.</p>
             <p class="p200 mt-xl">Vuxna<br />Även om milier är särskilt vanliga hos nyfödda, kan vuxna också utveckla dem. Hos vuxna kan bildandet av milier associeras med hudskador, långvarig solskada, användning av vissa kosmetiska produkter som kan blockera porerna, eller hudtillstånd som påverkar hudens förmåga att exfoliera sig själv. Vuxna med en tendens till torr hud eller de som upplever hormonella förändringar kan också vara mer benägna att utveckla milier.</p>
@@ -63,7 +63,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man milier?',
+            title: ' får man milier?',
             content: '<p class="p200">Milier kan uppträda på olika delar av kroppen men är mest vanliga i ansiktet, där huden är känslig och utsatt för både yttre och inre faktorer som kan bidra till deras bildning. De specifika platser där milier oftast observeras inkluderar:</p>',
             extended_content: '<p class="p200 mt-xl">Ögonområdet<br />Milier förekommer ofta runt ögonen, inklusive ögonlocken och under ögonen. Denna hud är särskilt tunn och känslig, vilket gör den mer mottaglig för blockeringar som kan leda till milier.</p>
             <p class="p200 mt-xl">Kinder<br />Ansiktets kinder är en annan vanlig plats för milier, särskilt hos nyfödda och små barn, men även vuxna kan drabbas här. Huden på kinderna kan lätt bli irriterad eller skadad, vilket skapar gynnsamma förhållanden för milier att utvecklas.</p>

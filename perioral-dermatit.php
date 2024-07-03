@@ -41,12 +41,12 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Om perioral dermatit';
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är perioral dermatit?',
+            title: ' är perioral dermatit?',
             content: '<p class="p200">Perioral dermatit är en inflammatorisk hudsjukdom som främst påverkar ansiktet, särskilt områdena runt munnen och näsan. Denna hudsjukdom visar sig som små röda eller rosa paplera. Utslagen kan omges av områden av rodnad och kan också åtföljas av torrhet, känslighry och flagnande hy. Tillståndet kan vara kroniskt, med perioder av förbättring följt av skov.</p>',
             extended_content: '<p class="p200 mt-xl">Perioral dermatit kan lätt förväxlas med andra hudsjukdomar som akne, rosacea eller seborré, vilket gör det viktigt att få en korrekt diagnos för effektiv behandling. Denna hudsjukdom kan vara episodisk, vilket innebär att symptomen kan försvinna för en tid och sedan återkomma. En sådan episodisk natur gör det svårt att förutsäga hudens förändring och kräver ofta långsiktig hantering. Förutom de fysiska symptomen kan perioral dermatit ha en betydande psykisk inverkan. Eftersom symptomen är mycket synliga kan det leda till självmedvetenhet och stress, vilket i sin tur kan förvärra tillståndet.</p>
             <p class="p200 mt-xl">Tillståndet kan också vara resistenta mot behandling, och felaktig behandling kan faktiskt förvärra symptomen. Därför är det av yttersta vikt att söka professionell rådgivning för att identifiera problemet och få en individuellt anpassad behandlingsplan. Ofta inkluderar detta att undvika vissa utlösande faktorer, som topiska steroider, och det kan också inkludera orala antibiotika eller andra antiinflammatoriska medel.</p>',
@@ -54,7 +54,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man perioral dermatit?',
+            title: ' får man perioral dermatit?',
             content: '<p class="p200">Orsakerna till perioral dermatit är inte fullständigt kartlagda, men det finns flera faktorer som antas bidra till dess utveckling. Problemet är i grunden hormonellt och genetiskt. Användning av topiska steroidkrämer på ansiktet har också varit förknippad med perioral dermatit och kan i vissa fall förvärra symptomen. Faktorer som stress, sol, hormonella förändringar, till exempel menstruationscykeln, graviditet, eller användning av hormonella preventivmedel. Dessa faktorer kan inte direkt orsaka perioral dermatit, men de kan förvärra befintliga symptom eller utlösa ett utbrott.</p>',
             extended_content: '<p class="p200 mt-xl">Många experter menar att en kombination av olika faktorer snarare än en enskild utlösande faktor troligtvis bidrar till utvecklingen av perioral dermatit. Detta inkluderar en benägenhetav genetik, miljöfaktorer som klimat och livsstil, samt potentiella irriterande preparat såsom kosmetika.</p>
             <p class="p200 mt-xl">Överdriven hygien kan också störa hudens naturliga barriärfunktion och bidra till irritation och inflammation. På grund av den multifaktoriella naturen av perioral dermatit, är det ofta nödvändigt med en holistisk strategi för diagnos och behandling som tar hänsyn till individens medicinska historia, livsstil och eventuella utlösande faktorer. En sådan omfattande syn på problemet kan bidra till att identifiera och behandla orsakerna effektivare.</p>',
@@ -62,7 +62,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får perioral dermatit?',
+            title: ' får perioral dermatit?',
             content: '<p class="p200">Perioral dermatit påverkar främst kvinnor, särskilt de i åldrarna 20 till 45, även om män också kan drabbas. Hormonella förändringar, som graviditet och menstruation, kan göra kvinnor mer mottagliga för perioral dermatit. Det har också föreslagits att användning av hormonella preventivmedel som p-piller kan vara en bidragande faktor till utvecklingen av detta hudproblem. Det verkar också finnas en genetisk faktor, vilket innebär att personer med familjemedlemmar som har haft perioral dermatit eller liknande hudtillstånd som rosacea kan vara mer benägna att drabbas.</p>',
             extended_content: '<p class="p200 mt-xl">Vissa yrken och miljöer kan öka risken för perioral dermatit. Arbete i miljöer med starka kemikalier eller konstant hudirritation kan göra huden mer mottaglig för tillståndet. Detta inkluderar yrken som kräver användning av personlig skyddsutrustning som täcker ansiktet, såsom masker och visir. Vidare har livsstilsfaktorer som stress och dålig sömnkvalitet också kopplats till perioral dermatit. Stress och sömnbrist kan påverka immunsystemet och därmed hudens förmåga att försvara sig mot inflammation och infektion.</p>
             <p class="p200 mt-xl"> Vissa underliggande medicinska tillstånd och behandlingar, såsom läkemedel som påverkar immunförsvaret eller långvarig antibiotikabehandling, kan också göra huden mer sårbar för perioral dermatit. Sammanfattningsvis är det en komplex kombination av genetiska, hormonella, yrkesmässiga, och livsstilsrelaterade faktorer som kan göra en person mer mottaglig för perioral dermatit. Det är viktigt att en individuell utvärdering görs för varje person för att förstå de specifika faktorer som kan bidra till deras tillstånd.</p>',
@@ -70,7 +70,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man perioral dermatit?',
+            title: ' får man perioral dermatit?',
             content: '<p class="p200">Perioral dermatit är ett hudtillstånd som oftast ger utslag runt munnen och på nedre delen av ansiktet, men det kan även spridas till områden kring näsan och ibland runt ögonen. Det är därför det kallas "perioral", vilket betyder "runt munnen". På grund av detta brukar det ofta beskrivas som finnar eller akne runt munnen. Faktorer som påverkar var på huden tillståndet uppstår inkluderar lokal irritation från kosmetiska produkter eller hudvårdsbehandlingar. Ingredienser i tandkräm, munvatten och ansiktskrämer kan ibland förvärra eller utlösa tillståndet. Därför är det viktigt att vara medveten om de produkter man använder och hur de kan påverka ens hud.</p>',
             extended_content: '<p class="p200 mt-xl">Tillståndet kan också påverkas av klimat och väderförhållanden. Till exempel, fuktiga och varma klimat har observerats att förvärra symptomen av perioral dermatit hos vissa individer. Å andra sidan kan mycket torra miljöer leda till hudirritation som kan vara en utlösande faktor. I vissa fall kan användningen av ansiktsmasker eller annan personlig skyddsutrustning leda till en förvärring av tillståndet. Den ökade fuktigheten, friktionen och värmen under masken kan förvärra perioral dermatit.</p>',
             icons: array('mun' => 'Runt Munnen', 'ansikte' => 'Ansiktet')
@@ -254,7 +254,7 @@ $type_categories = array(
 
 );
 */
-$symptoms_title = 'Perioral dermatit bilder och symptom';
+$symptoms_title = 'Symptom';
 
 $symptoms = array(
       new Symptom(
@@ -324,7 +324,7 @@ $symptoms = array(
       ),
 );
 
-$headline01 = "01. Identifiera din perioral dermatit";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för Perioral Dermatit',
@@ -337,7 +337,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för behandling av perioral dermatit',
       image_title: 'Konsultation för behandling av perioral dermatit',
 
-      url_label: 'Läs mer om konsultation mot perioral dermatit',
+      url_label: 'Läs mer om konsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om gratis hudkonsultation',
 
@@ -351,7 +351,7 @@ $service = new Service(
 );
 
 
-$headline02 = "02. Perioral Dermatit Behandling";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -366,7 +366,7 @@ $services = array(
             image_title: 'Ansiktsbehandling mot perioral dermatit',
 
             url: '/problemhy.php',
-            url_label: 'Läs mer om behanding mot perioral dermatit',
+            url_label: 'Läs mer om behanding',
             url_title: 'Läs mer om ansiktsbehanding mot perioral dermatit',
 
             consultation_url_label: 'Boka konsultation',
@@ -379,7 +379,7 @@ $services = array(
       ),
 );
 
-$headline03 = "03. Förebygg uppkomsten av ny perioral dermatit";
+$headline03 = "03. Förebygg";
 
 $products = array(
       new Service(
@@ -409,7 +409,7 @@ $products = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp för min perioral dermatit?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp för min perioral dermatit?',
@@ -419,7 +419,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten för Perioral Dermatit?',
+            title: 'När ska jag besöka AcneSpecialisten?',
             content: '<p class="p200">Om du märker att din perioral dermatit påverkar din livskvalitet, eller om du har provat olika behandlingsalternativ och produkter utan framgång, är det dags att söka professionell hjälp. Ju tidigare du agerar, desto snabbare kan vi effektivt behandla och hantera ditt tillstånd. Vi är specialister inom hudvård och kan erbjuda skräddarsydda behandlingsplaner som är anpassade till just ditt hudproblem.</p>
             <p class="p200 mt-m">Vi erbjuder en kostnadsfri konsultation där vi analyserar din hud och föreslår en individuell behandlingsplan. Våra specialister har omfattande erfarenhet av att behandla perioral dermatit och kan rekommendera de bästa produkterna och behandlingarna för din unika hudtyp. Tveka inte att boka en gratis konsultation för att ta första steget mot en friskare och mer komfortabel hud.</p>',
 
