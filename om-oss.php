@@ -110,7 +110,7 @@ $path_segments = [
                     </div>
                 </section>
                 <section class="poster large-margin" id="poster-left">
-                    <h2 class="h500 l10n is-hidden-desktop">Modern Hudvård Möter Beprövad Expertis</h2>
+                    <h2 class="h500 l10n is-hidden-desktop">Modern hudvård möter beprövad expertis</h2>
                     <div class="flex-row align-center">
                         <div>
                             <picture>
@@ -120,7 +120,7 @@ $path_segments = [
                             </picture>
                         </div>
                         <div class="is-hidden-touch">
-                            <h2 class="h500 l10n">Modern Hudvård Möter Beprövad Expertis</h2>
+                            <h2 class="h500 l10n">Modern hudvård möter beprövad expertis</h2>
                             <p class="p200 l10n">
                                 På AcneSpecialisten förenar vi årtiondens erfarenhet inom hudvård med de senaste innovationerna inom hudvårdsteknologi och metodik. Vårt team av erfarna hudterapeuter och specialister är inte bara djupt rotade i traditionell kunskap, utan är också ständigt uppdaterade med de nyaste teknikerna och maskinerna inom estetisk hudvård. Denna unika kombination säkerställer att varje behandling vi erbjuder inte bara är tidsenlig och effektiv, utan också bygger på en solid grund av beprövad kunskap och erfarenhet. På AcneSpecialisten är du i händerna på experter som förstår vikten av att kombinera det bästa från både det förflutna och framtiden för att ge dig optimala resultat för din hud.
                             </p>
@@ -131,10 +131,10 @@ $path_segments = [
                     </p>
                 </section>
                 <section class="poster large-margin" id="poster-right">
-                    <h2 class="h500 l10n is-hidden-desktop">Nära Dig i Stockholm – Tre Kliniker/h2>
+                    <h2 class="h500 l10n is-hidden-desktop">Nära dig i Stockholm – Tre kliniker</h2>
                         <div class="flex-row align-center">
                             <div class="is-hidden-touch">
-                                <h2 class="h500 l10n">Nära Dig i Stockholm – Tre Kliniker</h2>
+                                <h2 class="h500 l10n">Nära dig i Stockholm – Tre kliniker</h2>
                                 <p class="p200 l10n">
                                     På AcneSpecialisten förstår vi vikten av tillgänglighet och bekvämlighet när det kommer till hudvård. Därför har vi placerat våra tre kliniker strategiskt i Stockholmsområdet – på Strandvägen, Södermalm och i Sundbyberg. Oavsett var du befinner dig i staden, är professionell hudvård aldrig långt borta. Varje klinik erbjuder en unik och personlig upplevelse, med målet att ge dig den bästa möjliga vård för din hud. Våra team av erfarna hudterapeuter är redo att välkomna dig och skapa en behandlingsplan som är skräddarsydd efter dina specifika behov och önskemål. Besök den klinik som ligger närmast dig för att påbörja din resa mot en friskare och mer strålande hud med AcneSpecialisten.
                                 </p>
