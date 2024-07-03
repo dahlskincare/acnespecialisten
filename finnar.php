@@ -56,7 +56,7 @@ $about_title = 'Fakta';
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: 'är finnar?',
+            title: ' är finnar?',
             content: '<p class="p200">Finnar är små hudutslag som ofta ses som knottror eller bölder på huden. De bildas när hudens porer blir blockerade av talg och döda hudceller. Detta leder till en ansamling av bakterier och efterföljande inflammation. Denna process skapar de typiska utslagen vi känner igen som finnar, vilka kan variera i storlek, form och grad av rodnad eller smärta.</p>',
             extended_content: '<p class="p200 mt-xl">Denna hudåkomma är mest vanlig under tonåren på grund av de hormonella förändringarna som sker i kroppen, men den kan även påverka vuxna. Finnar presenterar sig i flera olika former, från lindriga tillstånd som svarta och vita pormaskar till mer intensiva utbrott som cystor och noduler. Oavsett graden av utbrott, är det möjligt att behandla finnar och minska risken för ärrbildning.</p>
             <p class="p200 mt-xl">På AcneSpecialisten erbjuder vi skräddarsydda behandlingslösningar för alla typer av finnar. Vår erfarna hudterapeuter använder sig av beprövade metoder för att ge dig den bästa möjliga hudvården. Genom en kostnadsfri hudkonsultation kartlägger vi dina specifika behov och utvecklar en personlig behandlingsplan. Vi tar även fram en hudvårdsrutin för hur du behandlar huden hemma, så att du kan upprätthålla en hälsosam hud och optimera dina behandlingsresultat.</p>',
@@ -64,7 +64,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: 'får man finnar?',
+            title: ' får man finnar?',
             content: '<p class="p200">Finnar är en hudåkomma som uppstår när talgkörtlar i huden överproducerar talg, ofta på grund av genetiska, hormonella, och miljömässiga faktorer. En viss mängd talg är essentiell för att huden ska förbli hälsosam, men ett överskott kan resultera i blockeringar av porerna. Dessa blockeringar, tillsammans med döda hudceller, skapar en gynnsam miljö för bakterietillväxt. Kroppens naturliga respons på denna bakterietillväxt är inflammation, vilket visar sig som finnar på huden.</p>',
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, särskilt under puberteten, kan leda till ökad talgproduktion, men även stress, vissa mediciner, och miljöfaktorer som varma, fuktiga klimat kan bidra. Livshändelser som <a class="b200 underline color-deep-sea-400" href="finnar-gravid.php">graviditet</a>, menstruation och klimakteriet, liksom användning av anabola steroider och vissa typer av preventivmedel, kan också påverka uppkomsten av finnar. Stress, både från större och mindre händelser, kan förvärra hudtillstånd genom att öka kroppens produktion av talg, vilket i sin tur kan leda till finnar.</p>
             <p class="p200 mt-xl">Att behandla finnar effektivt innebär att hantera talgproduktionen med lämpliga hudvårdsprodukter och regelbundna hudvårdsbehandlingar. Med rätt behandling kan finnar elimineras. På AcneSpecialisten har vi omfattande erfarenhet och expertis inom behandling av finnar. Vi hjälper dig att upprätthålla en balanserad talgproduktion för att minska risken för utbrott och förbättra hudens övergripande hälsa.</p>',
@@ -72,7 +72,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Vem',
-            title: 'får finnar?',
+            title: ' får finnar?',
             content: '<p class="p200">Finnar är mest förekommande hos tonåringar och unga vuxna, men personer i alla åldrar kan drabbas, oberoende av kön eller hudtyp. Under puberteten sker en ökning av könshormonerna, vilket kan orsaka en uppsjö av hudproblem, inklusive finnar. Dessa kan variera i allvarlighetsgrad från milda tillstånd med enstaka finnar till mer omfattande problem med både små och stora, smärtsamma bölder. Eftersom finnar ofta uppträder i ansiktet under en känslomässigt känslig period, kan de ha en negativ inverkan på självkänslan och psykiskt välbefinnande, vilket gör effektiv behandling avgörande för att förhindra ärr och andra hudskador.</p>',
             extended_content: '<p class="p200 mt-xl">Finnar är inte ett problem som enbart berör tonåringar. Även barn kan visa tecken på hudirritationer som liknar finnar, och vuxna kan uppleva utbrott som ofta relateras till hormonella förändringar eller stress. Hos kvinnor kan hormonella fluktuationer under graviditet, menstruationscykeln och klimakteriet bidra till vuxenacne, även känd som acne tarda. Användning av preventivmedel kan också ha en inverkan på hudens tillstånd, även om effekterna varierar från person till person.</p>
             <p class="p200 mt-xl">Att boka en kostnadsfri hudkonsultation hos AcneSpecialisten är ett första steg mot att hantera problem med finnar. Under konsultationen görs en noggrann bedömning av din hud, och du får skräddarsydda förslag på behandlingar samt en personlig hudvårdsrutin anpassad för din unika hudtyp. Detta är en viktig del i processen för att förebygga ytterligare hudproblem.</p>',
@@ -80,7 +80,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Var',
-            title: 'får man finnar?',
+            title: ' får man finnar?',
             content: '<p class="p200">Finnar kan uppträda på många delar av kroppen och drabbar individer oavsett ålder eller hudtyp. De är vanligast i ansiktet men kan också förekomma på bröstet, axlarna och ryggen. Dessa områden är mer benägna att utveckla finnar på grund av en hög koncentration av talgkörtlar som kan leda till en överproduktion av talg, vilket i sin tur resulterar i tilltäppta porer och hudinflammationer.</p>',
             extended_content: '<p class="p200 mt-xl">Ansiktsfinnar är särskilt framträdande och kan ha en stor inverkan på en persons självkänsla och mentala välbefinnande, eftersom de är svårare att dölja. Tonåringar är ofta drabbade av detta under puberteten på grund av hormonella förändringar som stimulerar talgproduktionen. Vuxna, särskilt kvinnor, kan också uppleva ansiktsfinnar relaterade till hormonella förändringar under graviditet, menstruation och klimakteriet.</p>
             <p class="p200 mt-xl">Finnar på bröstet, axlarna och ryggen är också ett vanligt besvär och kan vara lika störande som ansiktsfinnar, även om de lättare kan döljas under kläder. Orsakerna är desamma som för ansiktsfinnar, men yttre faktorer såsom friktion från kläder eller väskor kan också bidra till problemet. För att effektivt behandla och förebygga finnar, oavsett var de uppstår på kroppen, är det viktigt att upprätthålla en anpassad hudvårdsrutin. Detta inkluderar rengöring, återfuktning och specifika behandlingar anpassade för din hudtyp. Konsultera en hudspecialist hos oss för att få råd om de mest lämpliga produkterna och behandlingarna för just dina behov, och för att minimera problem med finnar över hela kroppen.</p>',
