@@ -49,7 +49,7 @@ $description_text = '<p class="p200">Seborroisk keratos är en vanlig, godartad 
 
 $treatment_steps = array(
       new TreatmentStep(
-            title: 'Identifiera seborroisk keratos',
+            title: 'Identifiera',
             content: 'Vid din första konsultation hos AcneSpecialisten utförs en grundlig bedömning av dina seborroisk keratos. Våra erfarna hudterapeuter kommer att analysera hudtillväxterna och rekommendera en behandlingsplan som är anpassad efter dina behov och hudtillstånd.',
 
             url_label: 'Boka gratis konsultation',
@@ -57,7 +57,7 @@ $treatment_steps = array(
             url_title: 'Boka din kostnadsfria konsultation för seborroisk keratos idag'
       ),
       new TreatmentStep(
-            title: 'Behandla seborroisk keratos',
+            title: 'Behandla',
             content: 'AcneSpecialisten erbjuder en rad behandlingsalternativ för seborroisk keratos, inklusive laserterapi och andra icke-invasiva metoder. Vår målsättning är att ge dig en skonsam, säker och effektiv behandling som minimerar hudförändringarna och förbättrar hudens utseende.',
 
             url_label: 'Se behandlingar',
