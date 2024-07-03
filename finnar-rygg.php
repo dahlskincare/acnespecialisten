@@ -69,7 +69,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi erbjuder målinriktade behandlingar för finnar på ryggen, skräddarsydda för att effektivt hantera ditt hudtillstånd. Vårt utbud av behandlingsalternativ är anpassat till din huds unika behov och kondition.',
-            url_label: 'Se finnarbehandlingar',
+            url_label: 'Se fbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra specialanpassade finnarbehandlingar'
       ),
@@ -83,17 +83,17 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'För att återställa huden efter finnar på ryggen och axlarna erbjuder vi behandlingar som minskar ärr och förbättrar hudtexturen.',
-            url_label: 'Se ärrbehandlingar',
+            url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar på ryggen'
       ),
 );
 
-$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar mot finnar på ryggen</a>';
+$treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Varför uppstår finnar på ryggen?',
+            title: 'Varför uppstår hudproblemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -105,7 +105,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
+            title: 'Tecken på att det är dags att söka hjälp',
             image_small: null,
             image_large: null,
             image_alt: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
