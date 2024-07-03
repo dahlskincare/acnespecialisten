@@ -40,7 +40,7 @@ $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Lj
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Inför behandling med IPL mot pigmentfläckar',
+        title: 'Inför behandlingen',
         image_small: null,
         image_large: null,
         image_alt: 'Inför behandling med IPL mot pigmentfläckar',
@@ -49,7 +49,7 @@ $top_articles = array(
         <p class="p200 mt-m">För att förbereda din hud är det viktigt att undvika direkt sol exponering och inte använda självbrunande produkter minst två veckor före behandlingen. Detta är för att minska risken för ojämn pigmentering, eftersom IPL behandlingen är mest effektiv när huden är i sin naturligaste ton. Dessutom bör du undvika hudvårdsprodukter som innehåller retinol eller andra starka exfolierande ingredienser under veckan före din behandling. Din hudterapeut kommer att ge dig fullständiga instruktioner om ytterligare förberedelser och råd om hur du kan ta hand om din hud både före och efter din IPL behandling för att säkerställa optimala resultat och en säker läkningsprocess.</p>',
     ),
     'process' => new Article(
-        title: 'Hur går IPL mot pigmentfläckar till?',
+        title: 'Hur går behandlingen till?',
         image_small: null,
         image_large: null,
         image_alt: 'Hur går IPL mot pigmentfläckar till?',
@@ -60,8 +60,8 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingsområden för IPL mot pigmentfläckar';
-$treatment_areas_text = '<p class="p200">Med IPL kan vi effektivt behandla en rad olika områden på kroppen, inklusive ansikte, hals, händer och bröst.</p>';
+$treatment_areas_title = 'Behandlingsområden';
+$treatment_areas_text = '<p class="p200">Vi kan effektivt behandla en rad olika områden på kroppen, inklusive ansikte, hals, händer och bröst.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -69,7 +69,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">IPL mot pigmentfläckar kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        description: '<p class="p200">välj hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/ansikte.webp',
@@ -145,7 +145,7 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">IPL mot pigmentfläckar kan behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">Vi kan behandla flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/hals.webp',
@@ -261,7 +261,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Efter IPL mot pigmentfläckar',
+    title: 'Eftervård',
     image_small: null,
     image_large: null,
     image_alt: 'Efter IPL mot pigmentfläckar',
