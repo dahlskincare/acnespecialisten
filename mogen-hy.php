@@ -360,7 +360,7 @@ $symptoms = array(
       ),
 );
 */
-$headline01 = "01. Identifiera ålderstecken";
+$headline01 = "01. Identifiera";
 
 $service = new Service(
       title: 'Konsultation för mogen hy',
@@ -373,7 +373,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för mogen hy',
       image_title: 'Konsultation för mogen hy',
 
-      url_label: 'Läs mer om konsultation mot mogen hy',
+      url_label: 'Läs mer om konsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Klicka här för att läsa mer om konsultation för mogen hy',
 
@@ -386,7 +386,7 @@ $service = new Service(
       booking_url_title: null,
 );
 
-$headline02 = "02. Behandla mogen hy";
+$headline02 = "02. Behandla";
 
 $services = array(
       new Service(
@@ -401,7 +401,7 @@ $services = array(
             image_title: 'Laserbehandling mot mogen hy',
 
             url: '/hudbehandlingar/laser-mot-hudproblem/',
-            url_label: 'Läs mer om laser mot mogen hy',
+            url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot mogen hy',
 
             consultation_url_label: 'Boka konsultation',
@@ -416,7 +416,7 @@ $services = array(
             title: 'Kemisk peeling för mogen hy',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Kemisk peeling för mogen hy är framtagen för att exfoliera döda hudceller, boosta cellförnyelse och förbättra hudens textur. Resultatet är en jämnare hudton, förnyad lyster och minskade tecken på åldrande.',
+            content: 'Framtagen för att exfoliera döda hudceller, boosta cellförnyelse och förbättra hudens textur. Resultatet är en jämnare hudton, förnyad lyster och minskade tecken på åldrande.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
@@ -424,7 +424,7 @@ $services = array(
             image_title: 'Kemisk peeling för mogen hy',
 
             url: '/kemisk-peeling.php',
-            url_label: 'Läs mer om kemisk peeling mot mogen hy',
+            url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot mogen hy',
 
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -448,7 +448,7 @@ $services = array(
             image_title: 'Microneedling för mogen hy',
 
             url: '/microneedling.php',
-            url_label: 'Läs mer om microneedling mot mogen hy',
+            url_label: 'Läs mer om microneedling',
             url_title: 'Läs mer om microneedling mot mogen hy',
 
             consultation_url_label: 'Boka konsultation',
@@ -463,7 +463,7 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'När ska jag söka hjälp med tecken på mogen hy?',
+            title: 'När ska jag söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska jag söka hjälp med tecken på mogen hy?',
@@ -473,7 +473,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
+            title: 'Varför ska jag besöka AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för mogen hy?',
