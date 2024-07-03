@@ -46,8 +46,6 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Text på floating box';
-
 $description_title = 'Vad är Mjälleksem?';
 $description_text = '<p class="p200">Mjälleksem, även känt som seborroisk dermatit, är en vanlig hudåkomma som kännetecknas av röda, flagnande och ofta oljiga hudpartier. Det drabbar vanligtvis skalpen, ansiktet och andra oljerika områden på kroppen. Även om det är en kronisk tillstånd, finns det flera effektiva behandlingar som kan lindra symtomen.</p>
 <p class="p200 mt-m">På AcneSpecialisten erbjuder vi specialiserade behandlingar för mjälleksem. Våra behandlingar är anpassade för att lugna huden, minska inflammation och flagnande samt att kontrollera överproduktionen av hudolja. Genom en noggrann analys av ditt hudtillstånd och livsstil, utformar vi en personlig behandlingsplan som inte bara behandlar symptomen, utan också tar itu med de bakomliggande orsakerna.</p>';
@@ -55,21 +53,21 @@ $description_text = '<p class="p200">Mjälleksem, även känt som seborroisk der
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera ditt mjälleksem och utformar en individuell behandlingsplan speciellt för dig. Att förstå din specifika form av mjälleksem är avgörande för en effektiv behandling.',
+            content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera ditt hudproblem och utformar en individuell behandlingsplan speciellt för dig. Att förstå din specifika form av mjälleksem är avgörande för en effektiv behandling.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
             url_label: 'Boka din gratis konsultation',
             url_title: 'Boka en tid för gratis mjälleksem konsultation',
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder en rad skonsamma men effektiva behandlingar anpassade för din specifika typ av mjälleksem, vilket säkerställer att du på ett tryggt och effektivt sätt kan hantera ditt mjälleksem.',
+            content: 'Vi erbjuder en rad skonsamma men effektiva behandlingar anpassade för din specifika hudtyp, vilket säkerställer att du på ett tryggt och effektivt sätt kan hantera ditt mjälleksem.',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY',
             url_label: 'Våra behandlingar',
             url_title: 'Våra effektiva mjälleksembehandlingar',
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'På AcneSpecialisten hjälper vi dig att hitta en skräddarsydd hudvårdsrutin och produkter specifikt för att förebygga mjälleksem, och att hålla din hud frisk, balanserad och fri från mjälleksem.',
+            content: 'På AcneSpecialisten hjälper vi dig att hitta en skräddarsydd hudvårdsrutin och produkter specifikt för att förebygga mjälleksem, och att hålla din hud frisk och balanserad.',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
             url_label: 'Upptäck produkterna',
             url_title: 'Se produkterna för att förebygga mjälleksem',
@@ -84,7 +82,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">När det gäller mjälleksem, är det viktigt att förstå varför och var det vanligtvis uppstår för att kunna hantera det effektivt. Mjälleksem, även känt som seborroisk dermatit, drabbar ofta områden med hög densitet av talgkörtlar som skalpen, ansiktet i ögonbrynen och på vid näsan, öronkanalerna och bröstet. Under din konsultation hos AcneSpecialisten, utförs en noggrann hudanalys för att identifiera dessa problemområden och förstå de underliggande orsakerna till ditt mjälleksem.</p>
+            content: '<p class="p200">När det gäller mjälleksem, är det viktigt att förstå varför och var det vanligtvis uppstår för att kunna hantera det effektivt. Mjälleksem, även känt som seborroisk dermatit, drabbar ofta områden med hög densitet av talgkörtlar som skalpen, ansiktet i ögonbrynen och på vid näsan, öronkanalerna och bröstet. Under din konsultation hos AcneSpecialisten, utförs en noggrann hudanalys för att identifiera dessa problemområden och förstå de underliggande orsakerna till ditt hudproblem.</p>
       <p class="p200 mt-m">Det är viktigt att skydda dessa känsliga områden från ytterligare irritation. Vi rekommenderar att undvika hudirriterande produkter och starka syror, särskilt i de drabbade områdena. Dessa förberedelser är avgörande för att säkerställa att eventuella behandlingar blir så effektiva och skonsamma som möjligt. Våra hudterapeuter kommer att ge dig skräddarsydda råd och vägledning för att förbereda och behandla ditt mjälleksem på bästa sätt.</p>',
       ),
 );
@@ -140,7 +138,7 @@ $services = array(
             title: 'Ansiktsbehandling mot mjälleksem',
             duration: '60 min',
             price: '995 kr',
-            content: 'Vår ansiktsbehandling mot mjälleksem innefattar en grundlig djuprengöring av huden för att effektivt hantera överflödigt talg och döda hudceller. Behandlingen inkluderar antiinflammatoriska och lugnande moment för att lindra inflammation och rodnad, vilket i sin tur hjälper till att lugna huden och minska symtom på mjälleksem.',
+            content: 'En grundlig djuprengöring av huden för att effektivt hantera överflödigt talg och döda hudceller. Behandlingen inkluderar antiinflammatoriska och lugnande moment för att lindra inflammation och rodnad, vilket i sin tur hjälper till att lugna huden och minska symtom på mjälleksem.',
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Ansiktsbehandling mot mjälleksem',
@@ -164,7 +162,7 @@ $products = array(
             title: 'Produkter mot mjälleksem',
             duration: null,
             price: 'Pris från 1295 kr',
-            content: 'För att effektivt bekämpa och förebygga mjälleksem krävs daglig behandling med rätt produkter. Vårt sortiment av mjälleksemsprodukter är speciellt utformat för att hjälpa till att återställa och upprätthålla balansen i din hud samt förebygga uppkomsten av nytt mjälleksem.',
+            content: 'För att effektivt bekämpa och förebygga hudproblemet krävs daglig behandling med rätt produkter. Produkterna är speciellt utformat för att hjälpa till att återställa och upprätthålla balansen i din hud samt förebygga uppkomsten av nya hudproblem.',
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
             image_alt: 'Produkter mot mjälleksem',
