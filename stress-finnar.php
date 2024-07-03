@@ -60,7 +60,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Våra behandlingar för stress finnar är effektiva och anpassade för att effektivt hantera de unika utmaningarna som stressrelaterade hudproblem medför.',
 
-            url_label: 'Se aknebehandlingar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
@@ -75,16 +75,16 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Reparera',
             content: 'Vi kan också hjälpa till med att behandla och reducera hudförändringar eller ärr som kan ha orsakats av stress finnar, med hjälp av säkra och effektiva behandlingsmetoder.',
-            url_label: 'Se ärrbehandlingar',
+            url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för akneärr'
       ),
 );
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra aknebehandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $top_articles = array(
       'areas' => new Article(
-            title: 'Var och varför uppstår stress finnar?',
+            title: 'Var och varför uppstår problemet?',
             image_small: null,
             image_large: null,
             image_alt: '',
@@ -96,7 +96,7 @@ $top_articles = array(
 
 $articles = array(
       new Article(
-            title: 'När ska man söka hjälp med sina stress finnar?',
+            title: 'När ska man söka hjälp?',
             image_small: null,
             image_large: null,
             image_alt: 'När ska man söka hjälp med sina stress finnar?',
@@ -105,7 +105,7 @@ $articles = array(
       ),
 
       new Article(
-            title: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
+            title: 'Varför ska jag välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
             image_alt: 'Varför ska jag välja AcneSpecialisten för behandling av stress finnar?',
