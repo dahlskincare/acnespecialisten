@@ -65,7 +65,7 @@ $description_text = '<p class="p200">Microneedling är en effektiv och revolutio
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Inför microneedling behandling',
+        title: 'Inför behandlingen',
         image_small: '/bilder/process/358x272/microneedling-forberedelser.webp',
         image_large: '/bilder/process/872x456/microneedling-forberedelser.webp',
         image_alt: 'Inför microneedling behandling',
@@ -74,7 +74,7 @@ $top_articles = array(
         <p class="p200 mt-m">Innan behandlingen är det viktigt att huden inte är solbränd. Dessutom bör du undvika starka hudvårdsprodukter som innehåller syror några dagar före behandlingen för att minimera risken för irritation. Din hudterapeut kommer att ge dig all information du behöver för att förbereda din hud på bästa sätt inför din microneedling session, för att du ska få en så effektiv och säker behandling som möjligt.</p>',
     ),
     'process' => new Article(
-        title: 'Hur fungerar microneedling?',
+        title: 'Hur fungerar metoden?',
         image_small: '/bilder/process/358x272/microneedling-process.webp',
         image_large: '/bilder/process/872x456/microneedling-process.webp',
         image_alt: 'Hur fungerar microneedling?',
@@ -84,8 +84,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Microneedling efter hudproblem';
-$types_description = 'Microneedling är en mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
+$types_title = 'Behandlingar efter hudproblem';
+$types_description = 'En mångsidig behandling som kan hantera en rad hudproblem. Denna teknik stimulerar hudens naturliga läkningsprocess och främjar ny kollagenproduktion, vilket är effektivt för att behandla en rad hudtillstånd.';
 $types = array(
     new Service(
         title: 'Microneedling mot Acneärr',
@@ -230,8 +230,8 @@ $big_types = array(
     ),
 );
 
-$treatment_areas_title = 'Microneedling efter område';
-$treatment_areas_text = '<p class="p200">Microneedling är en mångsidig behandling lämplig för olika delar av ansiktet och kroppen.</p>';
+$treatment_areas_title = 'Behandlingar efter område';
+$treatment_areas_text = '<p class="p200">Mångsidig behandling lämplig för olika delar av ansiktet och kroppen.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -305,7 +305,7 @@ $treatment_areas = array(
         image_alt: 'Kropp',
         image_title: 'Kropp',
         title: 'Kropp',
-        description: '<p class="p200">Med microneedling kan vi behandla flera olika delar av kroppen.</p>',
+        description: '<p class="p200">Vi kan behandla flera olika delar av kroppen.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/hals.svg',
@@ -388,7 +388,7 @@ $treatment_areas = array(
 );
 
 $bottom_articles = array('aftercare' => new Article(
-    title: 'Microneedling eftervård',
+    title: 'Eftervård',
     image_small: '/bilder/process/358x272/microneedling-eftervard.webp',
     image_large: '/bilder/process/872x456/microneedling-eftervard.webp',
     image_alt: 'Microneedling eftervård',
@@ -400,7 +400,7 @@ $bottom_articles = array('aftercare' => new Article(
 ));
 
 $service_brands_title = 'Varumärken för microneedling i Stockholm';
-$service_brands_text = '<p class="p200">Vi utför microneedling med Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
+$service_brands_text = '<p class="p200">Vi använder Dermapen och Exceed vilket är de modernaste och mest effektiva metoderna på markanden.</p>';
 $service_brands = array(
 
     new Brand(
