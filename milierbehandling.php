@@ -10,11 +10,11 @@ $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar'),
-    new PathSegment('Milier behandling', '/milierbehandling.php'),
+    new PathSegment('Milierbehandling', '/milierbehandling.php'),
 );
 
 $model = new Service(
-    title: 'Milier behandling i Stockholm',
+    title: 'Milierbehandling i Stockholm',
     duration: '60 min',
     price: 'Från 1295 kr',
     content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att du får bort milier på ett säkert och effektivt sätt.</p>',
@@ -59,7 +59,7 @@ $model = new Service(
 $floating_box = 'Bli av med milier effektivt.';
 
 $description_title = 'Hur får man bort milier i ansiktet?';
-$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort milier vilket är små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov för att du ska få bort dina milier. Vi strävar efter att inte bara behandla befintliga milier utan också att förbättra hudens hälsa på lång sikt.</p>';
+$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort de små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna milier, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov.</p>';
 
 $types_title = '';
 $types_description = '';
@@ -68,7 +68,7 @@ $big_types = array(
         title: 'Milierbehandling',
         duration: '60 min',
         price: '1295 kr',
-        content: '<p class="p200">Vår milier behandling börjar med en noggrann rengöring av huden för att förbereda för borttagning av milier. Eftersom milier saknar en naturlig poröppning och inte kan avlägsnas genom vanlig rengöring, använder vi en speciell metod för att effektivt ta hand om dem. Med hjälp av en lansett, en tunn nål, öppnar vi varsamt upp milierna. Detta gör det möjligt för oss att noggrant klämma ut den lilla keratincystan utan att skada den omgivande huden. Denna process säkerställer en säker och effektiv borttagning av milier, vilket lämnar huden ren och slät. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov. Denna terapeutiska process inte bara behandlar milier utan bidrar också till en jämn och förfinad hudton.</p>',
+        content: '<p class="p200">Behandlingen börjar med en noggrann rengöring av huden för att förbereda för borttagning av milier. Eftersom milier saknar en naturlig poröppning och inte kan avlägsnas genom vanlig rengöring, använder vi en speciell metod för att effektivt ta hand om dem. Med hjälp av en lansett, en tunn nål, öppnar vi varsamt upp milierna. Detta gör det möjligt för oss att noggrant klämma ut den lilla keratincystan utan att skada den omgivande huden. Denna process säkerställer en säker och effektiv borttagning av milier, vilket lämnar huden ren och slät. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_alt: 'Milierbehandling',
