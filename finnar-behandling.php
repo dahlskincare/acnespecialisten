@@ -30,13 +30,13 @@ $model = new Service(
 
 $floating_box = 'Behandlingar för finnar';
 
-$about_title = 'Hur vi tar bort och behandlar finnar';
+$about_title = 'Hur går behandlingen till?';
 
 $about_content = '<p class="p200">Att behandla och ta bort finnar är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet bli av med finnar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att bli av med inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva finnen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot finnar för att förebygga framtida utbrott. Om finnarna har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att bli av med finnar och återfå en klarare, friskare hy.</p>';
 
-$headline01 = "01. Identifiera dina finnar";
+$headline01 = "01. Identifiera";
 
 $define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
 $define_image_alt = 'Hur vi tar bort och behandlar finnar?';
@@ -45,11 +45,11 @@ $define_image_title = 'Hur vi tar bort och behandlar finnar?';
 $define_content = '<p class="p200">Första steget i vår process att bli av med finnar är att kartlägga din finn-typ. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
-$define_consultation_link_label = "Boka Gratis Konsultation";
+$define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot finnar";
 
 
-$headline02 = "02. Behandla aktiva finnar";
+$headline02 = "02. Behandla";
 
 $treat_content = '<p class="p200">När din finntyp har identifierats, inleder vi fas två: behandling av de aktiva finnarna. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskade finnar och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
@@ -72,10 +72,10 @@ $services = array(
 
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_FacialProblem',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Din Ansiktsbehandling mot Finnar på AcneSpecialisten',
+        booking_url_title: 'Boka din ansiktsbehandling mot finnar på AcneSpecialisten',
 
         url: '/hudbehandlingar/ansiktsbehandling/akne/',
-        url_label: 'Läs mer om ansiktsbehandling mot finnar',
+        url_label: 'Läs mer om ansiktsbehandling',
         url_title: 'Läs mer om ansiktsbehandling mot finnar',
 
         // short_title: 'Ansiktsbehandling'
@@ -99,7 +99,7 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot finnar nu',
         url: 'laser-acne.php',
-        url_label: 'Läs mer om laserbehandling mot finnar',
+        url_label: 'Läs mer om laserbehandling',
         url_title: 'Läs mer om laserbehandling mot finnar',
 
         // short_title: 'Laser'
@@ -142,7 +142,7 @@ $services = array(
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot finnar',
         url: 'microneedling-acne.php',
-        url_label: 'Läs mer om microneedling mot finnar',
+        url_label: 'Läs mer om microneedling',
         url_title: 'Läs mer om microneedling mot finnar',
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_Microneedling',
         booking_url_label: 'Boka behandling',
@@ -152,7 +152,7 @@ $services = array(
 
 );
 
-$headline03 = "03. Förebygg finnar";
+$headline03 = "03. Förebygg";
 
 $products = array(
     new Product(
@@ -162,14 +162,14 @@ $products = array(
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot finnar',
 
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
-        url_label: 'Utforska våra hudvårdsprodukter mot finnar',
+        url_label: 'Utforska våra hudvårdsprodukterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot finnar',
         price: 'Acnespecialistens hudvårdsprodukter mot finnar - Pris från 1295 kr',
         content: '<p class="p200">Att förebygga finnar är en viktig del av processen för att hålla din hud fri från finnar, lika viktig som behandlingarna. För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot finnar. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
     ),
 );
 
-$headline04 = '04. Reparera efter finnar (Ärr från finnar)';
+$headline04 = '04. Reparera';
 
 $repair_image_small = null;
 $repair_image_large = null;
@@ -177,7 +177,7 @@ $repair_image_large = null;
 $repair_content = '<p class="p200">När dina finnar har behandlats och finnarna tagits bort, kan det hända att de lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort finnar och njuta av en klarare, friskare hy.</p>';
 
 $repair_url = 'behandla-finnar-arr.php';
-$repair_url_label = 'Se ärrbehandlingar efter finnar';
+$repair_url_label = 'Se ärrbehandlingar';
 $repair_url_title = 'klicka här för att se våra ärrbehandlingar efter finnar';
 
 $results = array(
