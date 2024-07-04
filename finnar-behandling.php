@@ -15,7 +15,7 @@ $model = new Service(
     title: 'Behandling mot finnar',
     duration: null,
     price: null,
-    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna som hjälper dig att bli av med finnarna. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken behandling för finnar som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.</p>',
+    content: '<p class="p200">Vi erbjuder effektiva metoder för att behandla finnar och hjälpa dig få en klarare hy. Oavsett ditt behov har vi rätt lösning för dig. Är du osäker på vilken behandling som passar din hudtyp bäst? Boka en kostnadsfri konsultation hos oss på AcneSpecialisten så guidar vi dig mot en friskare hy.</p>',
     image_small: 'bilder/hudproblem/424x324/finnar.webp',
     image_large: 'bilder/hudproblem/424x456/finnar.webp',
     image_alt: 'Bild på behandling av finnar',
@@ -28,7 +28,7 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'Behandling mot finnar';
+$floating_box = 'Här har vi samlat alla behandlingar mot finnar.';
 
 $about_title = 'Hur får man bort finnar?';
 
