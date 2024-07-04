@@ -11,7 +11,7 @@ $seo_keywords = 'rosacea, vad triggar rosacea, rosacea kinder, rosacea näsa, ro
 $seo_image = 'bilder/hudproblem/424x456/rosacea.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Rosacea', '/rosacea.php'),
 );
 

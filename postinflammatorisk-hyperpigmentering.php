@@ -11,7 +11,7 @@ $seo_keywords = 'post akne, fläckar i ansiktet efter finnar, postinflammatorisk
 $seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Postinflammatorisk Hyperpigmentering', '/postinflammatorisk-hyperpigmentering.php'),
 );
 

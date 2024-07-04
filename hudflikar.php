@@ -11,7 +11,7 @@ $seo_keywords = 'hudflikar, behandling av hudflikar, hudförändringar, jämna u
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Hudflikar', '/hudflikar.php'),
 );
 

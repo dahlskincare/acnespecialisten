@@ -11,7 +11,7 @@ $seo_keywords = 'perioral dermatit, finnar på hakan, finnar runt munnen, perior
 $seo_image = 'bilder/hudproblem/424x456/perioral-dermatit.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Perioral Dermatit', '/perioral-dermatit.php'),
 );
 

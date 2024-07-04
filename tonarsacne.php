@@ -11,7 +11,7 @@ $seo_keywords = 'tonårsakne, tonårsacne, akne pubertet';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Tonårsacne', '/tonarsacne.php'),
 );
 

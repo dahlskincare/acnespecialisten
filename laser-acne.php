@@ -10,7 +10,7 @@ $seo_keywords = 'acne laser, laser acne, laser acne stockholm, laser mot akne, l
 $seo_image = '/images/treatments/large/laser-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Laser mot acne', '/laser-acne.php'),
 );
 

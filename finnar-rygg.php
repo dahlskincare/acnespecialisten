@@ -11,7 +11,7 @@ $seo_keywords = 'finnar på axlarna, finnar axlar, få bort finnar på ryggen, f
 $seo_image = 'bilder/hudproblem/424x456/finnar-rygg.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Finnar Rygg', '/finnar-rygg.php'),
 );
 

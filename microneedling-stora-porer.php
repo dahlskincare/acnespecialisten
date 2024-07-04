@@ -10,7 +10,7 @@ $seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare 
 $seo_image = 'images/treatments/large/microneedling.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Microneedling mot stora porer', '/microneedling-stora-porer.php'),
 );
 

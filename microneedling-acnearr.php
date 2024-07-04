@@ -10,7 +10,7 @@ $seo_keywords = 'microneedling, behandling av akneärr, förbättrad hudstruktur
 $seo_image = 'images/treatments/large/microneedling.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Microneedling mot akne', 'microneedling-acnearr.php'),
 );
 

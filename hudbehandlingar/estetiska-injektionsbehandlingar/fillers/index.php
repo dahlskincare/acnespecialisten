@@ -10,7 +10,7 @@ $seo_keywords = 'lip fillers, fillers läppar, fillers under ögonen, fillers st
 $seo_image = '/images/treatments/large/fillers.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Estetiska Injektionsbehandlingar', '/hudbehandlingar/estetiska-injektionsbehandlingar/'),
     new PathSegment('Fillers', '/hudbehandlingar/estetiska-injektionsbehandlingar/fillers/'),
 );

@@ -11,7 +11,7 @@ $seo_keywords = 'röda blodprickar, blodprickar i huden, hemangiom vuxen, blodpr
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Blodprickar', '/blodprickar.php'),
 );
 

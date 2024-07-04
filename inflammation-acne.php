@@ -11,7 +11,7 @@ $seo_keywords = 'papler, pustler, inflammerad talgkörtel behandling, infekterad
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Inflammerad Akne', '/inflammerad-akne.php'),
 );
 

@@ -11,7 +11,7 @@ $seo_keywords = 'acne ansikte, acne på hakan, akne på hakan, akne på kinderna
 $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Acne ansikte', '/acne-ansikte.php'),
 );
 

@@ -10,7 +10,7 @@ $seo_keywords = 'laserbehandling av ärr, laser på ärr, laser ärr, laser för
 $seo_image = '/images/treatments/large/laser.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Laser mot ärr', 'laser-arr.php'),
 );
 

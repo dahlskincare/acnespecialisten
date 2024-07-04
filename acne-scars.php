@@ -11,7 +11,7 @@ $seo_keywords = 'acne scars';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Skin problem', '/hudproblem'),
+      new PathSegment('Skin problem', '/hudproblem/'),
       new PathSegment('Inflammation acne', '/inflammation-acne.php'),
 );
 

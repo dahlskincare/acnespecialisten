@@ -10,7 +10,7 @@ $seo_keywords = 'ipl, ipl laser, ipl behandling, ipl ansikte före efter, ipl an
 $seo_image = '/images/treatments/large/ipl.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('IPL', '/hudbehandlingar/ipl/'),
 );
 

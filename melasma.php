@@ -11,7 +11,7 @@ $seo_keywords = 'melasma behandling, behandling melasma, melasma, melasma ansikt
 $seo_image = 'bilder/hudproblem/424x456/melasma.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Melasma', '/melasma.php'),
 );
 

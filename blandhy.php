@@ -11,7 +11,7 @@ $seo_keywords = 'blandhy, , kombinerad hud, kombinerad hudtyp, torr t zon, t zon
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Blandhy', '/blandhy.php'),
 );
 

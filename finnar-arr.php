@@ -11,7 +11,7 @@ $seo_keywords = 'ärr från finnar, ärr från finnar Stockholm, ärr från finn
 $seo_image = 'bilder/hudproblem/424x324/arr-fran-finnar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Ärr från finnar', '/finnar-arr.php'),
 );
 

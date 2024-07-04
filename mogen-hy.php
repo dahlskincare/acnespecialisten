@@ -11,7 +11,7 @@ $seo_keywords = 'mogen hy, orsaker till mogen hy, förebygga ålderstecken, hud�
 $seo_image = 'bilder/hudproblem/424x456/mogen-hy.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Mogen hy', '/mogen-hy.php'),
 );
 

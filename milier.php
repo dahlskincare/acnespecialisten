@@ -11,7 +11,7 @@ $seo_keywords = 'plitor i ansiktet, knotter i ansiktet, små knottror i ansiktet
 $seo_image = 'bilder/hudproblem/424x456/milier.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Milier', '/milier.php'),
 );
 

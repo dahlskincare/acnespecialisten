@@ -11,7 +11,7 @@ $seo_keywords = 'pormaskar på ryggen, behandling av pormaskar på ryggen, orsak
 $seo_image = 'bilder/hudproblem/424x456/pormaskar-rygg.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Pormaskar på ryggen', '/pormaskar-rygg.php'),
 );
 

@@ -11,7 +11,7 @@ $seo_keywords = 'rhinophyma, rosacea, rhinophyma behandling, orsaker till rhinop
 $seo_image = 'bilder/hudproblem/424x456/rosacea.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Rhinophyma Rosacea', '/rhinophyma-rosacea.php'),
 );
 

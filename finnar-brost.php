@@ -11,7 +11,7 @@ $seo_keywords = 'finnar på bröstet, akne på bröstet, akne på bröstkorgen';
 $seo_image = 'bilder/hudproblem/424x456/finnar-brost.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Finnar Bröst', '/finnar-rygg.php'),
 );
 

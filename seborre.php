@@ -11,7 +11,7 @@ $seo_keywords = 'seborré, seborreiskt eksem, orsaker till seborré, förebygga 
 $seo_image = 'bilder/hudproblem/424x456/seborre.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Seborré', '/seborre.php'),
 );
 

@@ -11,7 +11,7 @@ $seo_keywords = 'hormonell acne, hormonell akne, hormon finnar, hormonella finna
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Hormonell Acne', '/hormonell-acne.php'),
 );
 

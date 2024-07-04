@@ -9,7 +9,7 @@ $seo_keywords = 'microneedling, microneedling före efter, microneedling before 
 $seo_image = 'images/treatments/large/microneedling.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Microneedling', '/microneedling.php'),
 );
 

@@ -10,7 +10,7 @@ $seo_keywords = 'dermabrasion';
 $seo_image = '/images/treatments/large/dermabrasion.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Dermabrasion', '/hudbehandlingar/dermabrasion/'),
 );
 

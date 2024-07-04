@@ -10,7 +10,7 @@ $seo_keywords = 'hårborttagning, laser hårborttagning, permanent hårborttagni
 $seo_image = 'images/treatments/large/permanent-harborttagning.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Permanent Laser Hårborttagning', '/permanent-harborttagning.php'),
 );
 

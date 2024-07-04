@@ -7,7 +7,7 @@ $seo_description = 'Boka vår effektiva behandling av finnar i Stockholm! Vi anp
 $seo_keywords = 'finnar behandling, behandling av finnar, förebygga finnar, ta bort finnar';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('För finnar', '/finnar-behandling.php'),
 );
 

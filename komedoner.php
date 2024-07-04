@@ -11,7 +11,7 @@ $seo_keywords = 'komedoner akne';
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Komedoner', '/komedoner.php'),
 );
 

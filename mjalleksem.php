@@ -11,7 +11,7 @@ $seo_keywords = 'mjälleksem, behandling av mjälleksem, orsaker till mjällekse
 $seo_image = 'bilder/hudproblem/424x456/seborre.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Mjälleksem', '/mjalleksem.php'),
 );
 

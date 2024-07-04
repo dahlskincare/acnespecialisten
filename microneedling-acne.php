@@ -11,7 +11,7 @@ $seo_keywords = 'microneedling mot acne, dermapen acne, dermapen akne, microneed
 $seo_image = 'images/treatments/large/microneedling.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Microneedling mot akne', 'microneedling-acne.php'),
 );
 

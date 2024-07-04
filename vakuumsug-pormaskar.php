@@ -10,7 +10,7 @@ $seo_keywords = 'portömning med vakuumsug';
 $seo_image = 'images/treatments/large/hydrafacial.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Portömning med vakuumsug', '/vakuumsug-pormaskar.php'),
 );
 

@@ -10,7 +10,7 @@ $seo_keywords = 'laserbehandling för acneärr, behandla acneärr med laser, eff
 $seo_image = '/images/treatments/large/laser-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Laser mot acneärr', '/laser-acnearr.php'),
 );
 

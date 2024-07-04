@@ -11,8 +11,8 @@ $seo_keywords = 'strechmarks, bristningar, bristningar gravid, behandla bristnin
 $seo_image = '/bilder/hudproblem/424x456/bristningar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
-      new PathSegment('Bristningar', '/hudproblem/bristningar'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
+      new PathSegment('Bristningar', '/hudproblem/bristningar/'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/bristningar.webp';

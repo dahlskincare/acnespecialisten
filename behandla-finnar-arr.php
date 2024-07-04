@@ -25,7 +25,7 @@ $model = new Service(
 );
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Behandla finnar ärr', '/behandla-finnar-arr.php'),
 );
 

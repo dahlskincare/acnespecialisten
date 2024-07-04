@@ -9,7 +9,7 @@ $seo_keywords = 'portömning, portömning hemma, portömning stockholm, ansiktsb
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Portömning', '/portomning.php'),
 );
 

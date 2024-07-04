@@ -10,7 +10,7 @@ $seo_keywords = 'kemisk peeling mot acne, peeling akne, kemisk peeling acne, pee
 $seo_image = 'images/treatments/large/kemisk-peeling.webp';
 
 $path_segments = array(
-    new PathSegment('Hudbhandlingar', '/hudbehandlingar'),
+    new PathSegment('Hudbhandlingar', '/hudbehandlingar/'),
     new PathSegment('Kemisk peeling mot acne', '/kemisk-peeling-acne.php/'),
 );
 

@@ -11,7 +11,7 @@ $seo_keywords = 'stressfinnar, finnar stress, stress finnar, akne stress, stress
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Stress finnar', '/stress-finnar.php'),
 );
 

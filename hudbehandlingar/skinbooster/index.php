@@ -9,7 +9,7 @@ $seo_keywords = 'skinbooster, skinbooster behandling';
 $seo_image = '/images/treatments/large/skinbooster.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Skinbooster', '/hudbehandlingar/skinbooster/'),
 );
 

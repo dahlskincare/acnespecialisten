@@ -9,7 +9,7 @@ $seo_keywords = 'milier hudterapeut, hur få bort milier i ansiktet, milier beha
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Milierbehandling', '/milierbehandling.php'),
 );
 

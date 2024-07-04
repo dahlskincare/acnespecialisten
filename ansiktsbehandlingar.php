@@ -10,7 +10,7 @@ $seo_keywords = 'ansiktsbehandling, ansiktsbehandling stockholm, ansiktsbehandli
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Ansiktsbehandlingar', '/ansiktsbehandlingar.php'),
 );
 

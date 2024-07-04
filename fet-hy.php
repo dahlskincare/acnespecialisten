@@ -11,7 +11,7 @@ $seo_keywords = 'oljig hy, ansiktskräm fet hy, fet hy, oljig hud, oljig, fet hu
 $seo_image = 'bilder/hudproblem/424x456/blandhy.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Fet Hy', '/fet-hy.php'),
 );
 

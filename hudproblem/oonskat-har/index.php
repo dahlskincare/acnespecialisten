@@ -11,8 +11,8 @@ $seo_keywords = 'ta bort oönskat hår, oönskat hår i ansiktet, ta bort oönsk
 $seo_image = '/bilder/hudproblem/424x456/oonskat-har.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
-      new PathSegment('Oönskat Hår', '/hudproblem/oonskat-har'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
+      new PathSegment('Oönskat Hår', '/hudproblem/oonskat-har/'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/oonskat-har.webp';

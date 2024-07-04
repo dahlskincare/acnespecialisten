@@ -11,7 +11,7 @@ $seo_keywords = 'brustet blodkärl på läppen, brustna blodkärl kinder, så bl
 $seo_image = 'bilder/hudproblem/424x456/ytliga-blodkarl.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Ytliga Blodkärl', '/ytliga-blodkarl.php'),
 );
 

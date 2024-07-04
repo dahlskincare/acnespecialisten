@@ -11,7 +11,7 @@ $seo_keywords = 'solskadad hud ansikte, solskadad hud behandling, behandla solsk
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Solskadad Hy', '/solskadad-hy.php'),
 );
 

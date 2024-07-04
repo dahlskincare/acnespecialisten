@@ -8,7 +8,7 @@ $seo_keywords = 'aknebehandling, akne medicin, acne behandling, bästa aknebehan
 $seo_image = 'images/treatments/large/acne-scars.jpg';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Aknebehandling', '/acnebehandling.php'),
 );
 

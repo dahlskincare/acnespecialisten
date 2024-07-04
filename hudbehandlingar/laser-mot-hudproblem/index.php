@@ -9,7 +9,7 @@ $seo_keywords = 'laserbehandling, ansikte, kropp';
 $seo_image = '/images/treatments/large/laser.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Laser mot hudproblem', '/hudbehandlingar/laser-mot-hudproblem/'),
 );
 

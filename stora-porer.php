@@ -11,7 +11,7 @@ $seo_keywords = 'stora porer, vidgade porer, förstorade porer, orsaker till sto
 $seo_image = 'bilder/hudproblem/424x456/stora-porer.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Stora porer', '/stora-porer.php'),
 );
 

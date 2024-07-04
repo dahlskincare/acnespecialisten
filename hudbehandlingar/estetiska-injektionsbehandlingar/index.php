@@ -10,7 +10,7 @@ $seo_keywords = 'estetiska injektionsbehandlingar';
 $seo_image = '/images/treatments/large/injektionsbehandlingar.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Estetiska Injektionsbehandlingar', '/hudbehandlingar/estetiska-injektionsbehandlingar/'),
 );
 

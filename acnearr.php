@@ -10,7 +10,7 @@ $seo_description = 'AcneSpecialisten har behandlat acneärr i 30 år. Boka tid f
 $seo_keywords = 'acneärr, akne ärr, ärr i ansiktet, ärr från finnar, acneärr gropar';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Acneärr', '/acnearr.php'),
 );
 

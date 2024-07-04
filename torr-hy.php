@@ -11,7 +11,7 @@ $seo_keywords = 'torr hud, torr hud ansikte, fjällar, torr i ansiktet, torrt an
 $seo_image = 'bilder/hudproblem/424x456/torr-kanslig-hy.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Torr & Känslig hy', '/torr-hy.php'),
 );
 

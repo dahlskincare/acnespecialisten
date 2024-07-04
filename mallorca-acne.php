@@ -11,7 +11,7 @@ $seo_keywords = 'mallorca acne, acne aestivalis, finnar sol, sol finnar, finnar 
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Mallorca Acne', '/mallorca-acne.php'),
 );
 

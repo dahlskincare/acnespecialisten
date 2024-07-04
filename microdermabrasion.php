@@ -9,7 +9,7 @@ $seo_keywords = 'microdermabrasion, mikrodermabrasion, vad är microdermabrasion
 $seo_image = '/images/treatments/large/microdermabrasion.webp';
 
 $path_segments = array(
-    new PathSegment('Behandlingar', '/hudbehandlingar'),
+    new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Microdermabrasion', '/microdermabrasion.php'),
 );
 

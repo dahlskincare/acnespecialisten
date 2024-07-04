@@ -11,7 +11,7 @@ $seo_keywords = 'stängda komedoner, vit pormask, vita pormaskar, ta bort vita p
 $seo_image = 'bilder/hudproblem/424x456/pormaskar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Vita pormaskar', '/vita-pormaskar.php'),
 );
 

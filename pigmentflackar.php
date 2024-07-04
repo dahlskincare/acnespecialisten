@@ -11,7 +11,7 @@ $seo_keywords = 'pigmentfläckar på överläppen, pigmentfläckar överläpp, m
 $seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Pigmentfläckar', '/pigmentflackar.php'),
 );
 

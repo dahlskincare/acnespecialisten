@@ -11,7 +11,7 @@ $seo_keywords = 'födelsemärken, behandling av födelsemärken, ta bort födels
 $seo_image = 'bilder/hudproblem/424x456/hudforandringar.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Födelsemärken', '/fodelsemarken.php'),
 );
 

@@ -10,7 +10,7 @@ $seo_keywords = 'ipl pigmentfläckar, ipl behandling pigmentfläckar, solfläcka
 $seo_image = 'images/treatments/large/ipl.webp';
 
 $path_segments = array(
-    new PathSegment('Varumärken', '/varumarken'),
+    new PathSegment('Varumärken', '/varumarken/'),
     new PathSegment('IPL mot pigmentflackar', '/ipl-pigmentflackar.php'),
 );
 

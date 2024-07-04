@@ -11,7 +11,7 @@ $seo_keywords = 'varför får man finnar som vuxen, vuxenacne, vuxenakne, vuxena
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
 $path_segments = array(
-      new PathSegment('Hudproblem', '/hudproblem'),
+      new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Vuxenacne', '/vuxenacne.php'),
 );
 
