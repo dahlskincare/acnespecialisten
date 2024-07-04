@@ -113,7 +113,7 @@ $symptoms = array(
       new Symptom(
             name: 'Postinflammatorisk hyperpigmentering (PIH)',
             aka: 'Mörka/bruna fläckar',
-            content: 'Denna typ av ärrbildning innebär mörka fläckar som uppstår efter ett acneutbrott, där huden blivit mörkare på de områden som tidigare varit inflammerade. Det är resultatet av en ökad melaninproduktion som svar på hudskadan.',
+            content: 'Mörka fläckar som uppstår efter ett acneutbrott, där huden blivit mörkare på de områden som tidigare varit inflammerade. Det är resultatet av en ökad melaninproduktion som svar på hudskadan.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Läs mer om postinflammatorisk hyperpigmentering',
             url_label: 'Läs mer',
@@ -124,7 +124,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "ice-pick" ärr',
             aka: 'Gropar eller nålstick-liknande ärr',
-            content: 'Kännetecknas av smala, djupa och spetsiga gropar i huden, liknande hål efter en ispicka. Dessa ärr uppstår ofta efter djupgående acne och ger huden ett ojämnt utseende.',
+            content: 'Smala, djupa och spetsiga gropar i huden, liknande hål efter en ispicka. Uppstår ofta efter djupgående acne och ger huden ett ojämnt utseende.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "ice-pick" ärr',
             url_label: 'Läs mer',
@@ -135,7 +135,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "Boxcar" ärr',
             aka: 'Gropar eller skålliknande ärr',
-            content: 'Dessa ärr är breda med skarpa kanter och fördjupningar som liknar formen på ett boxcar. De bildas vanligtvis efter akneutbrott som lämnar runda eller ovala hål i huden.',
+            content: 'Breda med skarpa kanter och fördjupningar som liknar formen på ett boxcar. De bildas vanligtvis efter akneutbrott som lämnar runda eller ovala hål i huden.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "Boxcar" ärr',
             url_label: 'Läs mer',
@@ -158,7 +158,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
             aka: 'Gropar',
-            content: 'Dessa ärr ger huden en vågig yta med mjuka, ojämna fördjupningar. De orsakas av skador under huden som drar huden nedåt, vilket skapar ett oregelbundet utseende.',
+            content: 'Vågig yta med mjuka, ojämna fördjupningar. De orsakas av skador under huden som drar huden nedåt, vilket skapar ett oregelbundet utseende.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
@@ -169,7 +169,7 @@ $symptoms = array(
       new Symptom(
             name: 'Postinflammatorisk erytem (PIE)',
             aka: 'Rosa/lila fläckar eller missfärgning',
-            content: 'Kännetecknas av röda eller rosa fläckar på huden efter en inflammation. Detta är inte en permanent pigmentförändring utan en tillfällig rodnad som orsakas av skadade eller vidgade blodkärl under hudens yta.',
+            content: 'Röda eller rosa fläckar på huden efter en inflammation. Detta är inte en permanent pigmentförändring utan en tillfällig rodnad som orsakas av skadade eller vidgade blodkärl under hudens yta.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Läs mer om postinflammatorisk erytem',
             url_label: 'Läs mer',

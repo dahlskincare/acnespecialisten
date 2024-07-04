@@ -339,7 +339,7 @@ $symptoms = array(
       "closed_comedones" => new Symptom(
             name: 'Stängda komedoner',
             aka: 'Vita pormaskar',
-            content: 'Vita pormaskar, eller stängda komedoner, är små utbuktningar som bildas när porer blockeras under hudytan, skyddade från oxidation, vanligtvis synliga på pannan och kinderna.',
+            content: 'Vita pormaskar är små utbuktningar som bildas när porer blockeras under hudytan, skyddade från oxidation, vanligtvis synliga på pannan och kinderna.',
 
             url_label: 'Läs mer om stängda komedoner',
             url: 'vita-pormaskar.php',
@@ -391,7 +391,7 @@ $symptoms = array(
       "cysts" => new Symptom(
             name: 'Cystor',
             aka: 'Bölder',
-            content: 'Cystor är stora, varfyllda och smärtsamma blemmor från djup hårsäcksinfektion, mjuka eller fasta vid beröring, ofta större än 5 mm och vanliga på ansikte, bröst och rygg.',
+            content: 'Stora, varfyllda och smärtsamma blemmor från djup hårsäcksinfektion, mjuka eller fasta vid beröring, ofta större än 5 mm och vanliga på ansikte, bröst och rygg.',
 
             url_label: 'Läs mer om cystor',
             url: 'cystisk-acne.php',
