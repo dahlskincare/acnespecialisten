@@ -28,7 +28,7 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'Behandlingar för finnar';
+$floating_box = 'Behandling mot finnar';
 
 $about_title = 'Hur får man bort finnar?';
 
