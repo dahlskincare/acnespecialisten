@@ -15,7 +15,7 @@ $model = new Service(
     title: 'Behandlingar för finnar',
     duration: null,
     price: null,
-    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av finnar som hjälper dig att effektivt bli av med finnarna oavsett typ. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken behandling för finnar som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.</p>',
+    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna som hjälper dig att bli av med finnarna. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken behandling för finnar som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.</p>',
     image_small: 'bilder/hudproblem/424x324/finnar.webp',
     image_large: 'bilder/hudproblem/424x456/finnar.webp',
     image_alt: 'Bild på behandling av finnar',
@@ -30,7 +30,7 @@ $model = new Service(
 
 $floating_box = 'Behandlingar för finnar';
 
-$about_title = 'Hur går behandlingen till?';
+$about_title = 'Hur får man bort finnar?';
 
 $about_content = '<p class="p200">Att behandla och ta bort finnar är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet bli av med finnar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
@@ -156,8 +156,8 @@ $headline03 = "03. Förebygg";
 
 $products = array(
     new Product(
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/hudbehandlingar/358x274/produkter.webp',
+        image_large: '/bilder/hudbehandlingar/872x456/produkter.webp',
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot finnar',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot finnar',
 
@@ -171,8 +171,8 @@ $products = array(
 
 $headline04 = '04. Reparera';
 
-$repair_image_small = null;
-$repair_image_large = null;
+$repair_image_small = '/bilder/hudbehandlingar/358x274/laser.webp';
+$repair_image_large = '/bilder/hudbehandlingar/872x456/laser.webp';
 
 $repair_content = '<p class="p200">När dina finnar har behandlats och finnarna tagits bort, kan det hända att de lämnar ärr bakom sig. På Acnespecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen regenerering, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort finnar och njuta av en klarare, friskare hy.</p>';
 
