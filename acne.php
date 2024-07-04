@@ -63,6 +63,8 @@ $trivias = array(
             prefix: 'Vad',
             title: ' är akne?',
             content: '<p class="p200">Akne består av bland annat papler och pustler, som är en ärftlig och hormonell hudsjukdom som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal, som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
+            extended_content: '<p class="p200 mt-xl"></p>
+              <p class="p200 mt-xl"></p>',
             icons: array()
       ),
       new ProblemTrivia(
