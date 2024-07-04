@@ -12,7 +12,7 @@ $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
-      new PathSegment('Acne ansikte', '/acne-ansikte.php'),
+      new PathSegment('Akne ansikte', '/acne-ansikte.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne-ansikte.webp';
@@ -921,7 +921,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
-                        
+
                         <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
