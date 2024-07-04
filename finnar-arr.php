@@ -111,7 +111,7 @@ $symptoms = array(
       new Symptom(
             name: 'Hyperpigmentering efter inflammation (PIH)',
             aka: 'Mörka eller bruna märken',
-            content: 'Dessa mörkare fläckar uppstår efter hudinflammation som finnar, vilket ökar melanin och ger fläckar i olika mörka nyanser. De är platta mot huden och skiljer sig från akneärr.',
+            content: 'Mörkare fläckar som uppstår efter hudinflammation, ökar melanin och ger fläckar i olika mörka nyanser. De är platta mot huden och skiljer sig från akneärr.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Lär dig mer om hyperpigmentering efter inflammation',
             url_label: 'Läs mer',
@@ -122,7 +122,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "ice-pick" ärr',
             aka: 'Små spetsiga gropar',
-            content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter inflammerade finnar. Dessa ärr är utmanande att behandla på grund av deras djup och är vanliga på kinderna.',
+            content: 'Små, djupa ärr liknande ishacksmärken som ofta uppstår efter inflammerade finnar. Utmanande att behandla på grund av deras djup, är vanliga på kinderna.',
             url: 'atrofiska-arr.php',
             url_title: 'Lär dig mer om djupa "ice-pick" ärr',
             url_label: 'Läs mer',
