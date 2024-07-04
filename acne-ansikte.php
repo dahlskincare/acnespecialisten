@@ -6,8 +6,8 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne i ansiktet | AcneSpecialisten';
-$seo_description = 'Har du problem med acne i ansiktet, käklinje, kinderna eller på hakan? Läs mer om hur du kan behandla det. Börja med en kostnadsfri konsultation →';
-$seo_keywords = 'acne ansikte, acne på hakan, akne på hakan, akne på kinderna, acne i ansiktet, akne i pannan, acne ansiktet, acne på halsen, acne på ansiktet';
+$seo_description = 'Har du problem med akne i ansiktet, käklinje, kinderna eller på hakan? Läs mer om hur du kan behandla det. Börja med en kostnadsfri konsultation →';
+$seo_keywords = 'akne ansikte, akne på hakan, akne på hakan, akne på kinderna, akne i ansiktet, akne i pannan, akne ansiktet, akne på halsen, akne på ansiktet';
 $seo_image = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 
 $path_segments = array(
@@ -24,7 +24,7 @@ $floating_box = 'Behandla dina akne i ansiktet effektivt.';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne i ansiktet',
-      description: 'Upptäck allt du behöver veta om akne i ansiktet, en vanlig hudåkomma som kan drabba alla, oavsett ålder. Akne kan uppträda som pormaskar, finnar, cystor och noduler längs käklinjen, kinderna och under hakan. Vi förklarar orsakerna bakom dessa utbrott och erbjuder råd för effektiva behandlingsmetoder. Lär dig hur du kan hantera din hudvård för att bekämpa akne och uppnå en klarare och friskare hud.',
+      description: 'Vill du veta hur du kan hantera akne i ansiktet? Akne kan drabba alla, oavsett ålder, och visar sig som pormaskar, finnar, cystor och noduler längs käklinjen, kinderna och runt hakan. Vi förklarar de vanligaste orsakerna bakom akneutbrotten och erbjuder effektiva behandlingsmetoder. Lär dig hur du kan ta hand om din hud för att minska akne och få en klarare och friskare hy. Boka en kostnadsfri konsultation hos oss på AcneSpecialisten för personliga råd och behandlingar.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -53,8 +53,8 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$description_title = 'Vad är akne i ansiktet?';
-$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som kännetecknas av pormaskar, finnar, cystor och noduler. Denna typ av akne drabbar personer i alla åldrar, men är särskilt vanlig bland tonåringar och unga vuxna. Orsakerna till ansiktsakne är många och inkluderar hormonella förändringar under puberteten, graviditet eller som en bieffekt av vissa mediciner. En överproduktion av talg tillsammans med döda hudceller skapar en miljö som gynnar tillväxten av bakterien Cutibacterium acnes, vilket leder till inflammation och akne.</p>
+$description_title = 'Hur får man bort akne i ansiktet?';
+$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som kännetecknas av både pormaskar och finnar. Denna vanliga typ av akne drabbar personer i alla åldrar, men är särskilt vanlig bland tonåringar och unga vuxna. Orsakerna till ansiktsakne är många och inkluderar hormonella förändringar under puberteten, graviditet eller som en bieffekt av vissa mediciner. En överproduktion av talg tillsammans med döda hudceller skapar en miljö som gynnar tillväxten av bakterien Cutibacterium acnes, vilket leder till inflammation och akne.</p>
 
 <p class="p200 mt-m">Akne uppstår oftast på områden i ansiktet där talgkörtlar är mest aktiva, såsom käklinjen, kinderna, pannan och näsan, samt under hakan. Ibland kan akne även sprida sig till halsen, vilket kan göra tillståndet ännu svårare. Faktorer som smuts, föroreningar och stress kan också förvärra akne. Behandlingen inkluderar skräddarsydda hudvårdsrutiner som kombinerar rätt produkter och behandlingar anpassade efter aknens svårighetsgrad och typ.</p>';
 
@@ -581,7 +581,7 @@ $related_problems = array(
             aka: 'akne runt munnen',
             image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            image_title: 'Perioral dermatit (aKne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),

@@ -15,7 +15,7 @@ $model = new Service(
     title: 'Behandling mot finnar',
     duration: null,
     price: null,
-    content: '<p class="p200">Vi erbjuder effektiva metoder för att behandla finnar och hjälpa dig få en klarare hy. Oavsett ditt behov har vi rätt lösning för dig. Är du osäker på vilken behandling som passar din hudtyp bäst? Boka en kostnadsfri konsultation hos oss på AcneSpecialisten så guidar vi dig mot en friskare hy.</p>',
+    content: '<p class="p200">Vi erbjuder effektiva metoder för att behandla och ta bort finnar som hjälper dig få en klarare hy. Oavsett ditt behov har vi rätt lösning för dig. Är du osäker på vilken behandling som passar din hudtyp bäst? Boka en kostnadsfri konsultation hos oss på AcneSpecialisten så guidar vi dig mot en friskare hy.</p>',
     image_small: 'bilder/hudproblem/424x324/finnar.webp',
     image_large: 'bilder/hudproblem/424x456/finnar.webp',
     image_alt: 'Bild på behandling av finnar',
@@ -62,9 +62,9 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Finnar',
         duration: '60 minuter',
-        price: 'Pris från 799 kr',
+        price: '1295 kr',
         icons: array(),
-        content: '<p class="p200">Ansiktsbehandling mot finnar på AcneSpecialisten är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och finnar elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
+        content: '<p class="p200">Vår Ansiktsbehandling mot finnar är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och finnar elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
         consultation_url_label: 'Boka konsultation',
