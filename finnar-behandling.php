@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Behandling mot finnar | AcneSpecialisten';
+$seo_title = 'Hur får man bort finnar? | AcneSpecialisten';
 $seo_description = 'Boka vår effektiva behandling av finnar i Stockholm! Vi anpassar behandlingen efter din hudtyp. Börja med vår kostnadsfria konsultation →';
 $seo_keywords = 'finnar behandling, behandling av finnar, förebygga finnar, ta bort finnar';
 
@@ -32,17 +32,17 @@ $floating_box = 'Här har vi samlat alla behandlingar mot finnar.';
 
 $about_title = 'Hur får man bort finnar?';
 
-$about_content = '<p class="p200">Att behandla och ta bort finnar är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet bli av med finnar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och ta bort finnar är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt och regelbundet bli av med dina finnar. Med vår kostnadsfria hudkonsultation kan vi identifiera din hudtyp och ta fram en individuell behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att bli av med inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva finnen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med produkter mot finnar för att förebygga framtida utbrott. Om finnarna har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att bli av med finnar och återfå en klarare, friskare hy.</p>';
+    <p class="p200 mt-xl">Vår första prioritet är att bli av med inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Efter att den aktiva finnen har behandlats hjälper vi dig att skapa en anpassad hudvårdsrutin med hudvårdsprodutker för att förebygga framtida utbrott. Om finnarna har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot en finnfri hud och återfå en klarare, friskare hy.</p>';
 
 $headline01 = "01. Identifiera";
 
 $define_image = '/bilder/hudbehandlingar/872x456/gratis-hudkonsultation.webp';
-$define_image_alt = 'Hur vi tar bort och behandlar finnar?';
-$define_image_title = 'Hur vi tar bort och behandlar finnar?';
+$define_image_alt = 'Hudterapeut som identifierar en persons hudproblem.';
+$define_image_title = 'Identifiera ditt hudproblem.';
 
-$define_content = '<p class="p200">Första steget i vår process att bli av med finnar är att kartlägga din finn-typ. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Första steget i vår process att bli av med problemet är att kartlägga din finn-typ. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka gratis konsultation";
@@ -51,13 +51,13 @@ $define_consultation_link_title = "klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla";
 
-$treat_content = '<p class="p200">När din finntyp har identifierats, inleder vi fas två: behandling av de aktiva finnarna. Här är målet framför allt att få bort inflammationerna och finnarna som riskerar att skada huden och leda till ärr. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process minskar vi inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskade finnar och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_content = '<p class="p200">När din hudtyp har identifierats, inleder vi fas två: behandling av de aktiva finnarna. Här är målet framför allt att få bort inflammationer som riskerar att skada huden och leda till ärr. Vi använder olika metoder för att anpassa behandlingen efter dina behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Denna process minskar inflammation, rensar bort döda hudceller, och kontrollerar talgproduktionen, vilket över tid leder till minskade finnar och dess förekomst. Vi anpassar behandlingsplanen efter din huds respons.</p>';
 
 $services = array(
     new Service(
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
-        image_title: 'Effektiv Ansiktsbehandling mot Finnar på AcneSpecialisten',
+        image_title: 'Effektiv Ansiktsbehandling mot Finnar',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot finnar utförd på AcneSpecialisten',
 
         title: 'Ansiktsbehandling mot Finnar',
@@ -68,11 +68,11 @@ $services = array(
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka Hudkonsultation för Finnar på AcneSpecialisten',
+        consultation_url_title: 'Boka gratis hudkonsultation',
 
         booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_FacialProblem',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka din ansiktsbehandling mot finnar på AcneSpecialisten',
+        booking_url_title: 'Boka ansiktsbehandling mot finnar',
 
         url: '/hudbehandlingar/ansiktsbehandling/akne/',
         url_label: 'Läs mer om ansiktsbehandling',
