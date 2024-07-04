@@ -12,7 +12,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Behandlingar för finnar',
+    title: 'Behandling mot finnar',
     duration: null,
     price: null,
     content: '<p class="p200">Här har vi samlat de mest effektiva metoderna som hjälper dig att bli av med finnarna. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken behandling för finnar som bäst passar din hudtyp för att bli av med finnarna? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en klarare och friskare hy.</p>',
