@@ -97,25 +97,24 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en acnespecialist utförs en undersökning av din akne. Vi tar före bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
+      content: 'Under en personlig konsultation med en acnespecialist undersöks din akne noggrant. Vi tar bilder och rekommenderar en skräddarsydd behandlingsplan anpassad efter dina behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
-      image_alt: 'Kvinna som får konsultation för aknebehandling',
+      image_alt: 'Kvinna får konsultation för akne',
       image_title: 'Konsultation för aknebehandling',
 
-      url_label: 'Läs mer om gratis hudkonsultation',
+      url_label: 'Läs mer om hudkonsultation',
       url: 'gratis-hudkonsultation.php',
       url_title: 'Läs mer om gratis hudkonsultation',
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation',
+      consultation_url_title: 'Boka tid för hudkonsultation',
 
       booking_url_label: null,
       booking_url: null,
       booking_url_title: null,
-
 );
 
 $headline02 = "02. Behandla";
