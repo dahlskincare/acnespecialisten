@@ -662,57 +662,6 @@ $reviews = array(
 $review_url_label = "Läs fler omdömen";
 $review_url_title = "AcneSpecialisten Omdömen";
 
-$skin_guide_articles = array(
-      new SkinGuideArticle(
-            title: 'How hormones effect?',
-            problem: 'Acne',
-
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-      ),
-      new SkinGuideArticle(
-            title: 'How hormones effect?',
-            problem: 'Acne',
-
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-
-
-      ),
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-);
-
-$skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider";
 
 $specialists = array(
       new Specialist(
@@ -973,12 +922,6 @@ $brands_url_title = "Se alla varumärken";
                               <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
-                        </section>
-                        <section id="results">
-                              <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
-                              ?>
                         </section>
 
                         <section id="results">
