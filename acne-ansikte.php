@@ -223,17 +223,20 @@ $products = array(
             title: 'Produkter mot akne',
             duration: null,
             price: 'Pris från 1395 kr',
-            content: 'För att effektivt bekämpa och förebygga är daglig behandling med rätt produkter och rutiner avgörande. Produkterna är speciellt utformade för att hålla din hud i balans och förhindra att ny akne uppstår.',
+            content: 'Daglig behandling med rätt produkter är avgörande för att bekämpa och förebygga akne. Våra produkter är speciellt utformade för att hålla huden i balans och förhindra nya utbrott.',
+
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',
-            image_alt: 'Produkter designade för behandling av akne',
-            image_title: 'Effektiva produkter för bekämpning och förebyggande av akne',
+            image_alt: 'Produkter för behandling av akne',
+            image_title: 'Effektiva produkter för att bekämpa och förebygga akne',
+
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot akne',
+            consultation_url_title: 'Boka konsultation för hudvårdsprodukter mot akne',
+
             booking_url_label: 'Köp produkter',
             booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            booking_url_title: 'Klicka för att köpa produktpaket mot akne',
+            booking_url_title: 'Köp produktpaket mot akne',
       )
 );
 
@@ -244,22 +247,27 @@ $procedures = array(
             title: 'Reparera acneärr',
             duration: '4 behandlingsmetoder',
             price: null,
-            content: 'Acneärr uppstår i form av gropar i olika former och fläckar i olika färger på huden där inflammationerna tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
+            content: 'Acneärr visar sig som gropar och fläckar på huden. Vi erbjuder olika metoder för att behandla dessa ärr och återställa hudens utseende.',
+
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
-            image_alt: 'Kvinna som får behandling mot acneärr',
-            image_title: 'Reparera acneärr',
+            image_alt: 'Kvinna som får behandling för acneärr',
+            image_title: 'Behandling för att reparera acneärr',
+
             url_label: 'Läs mer om behandling',
             url: 'behandla-acnearr.php',
-            url_title: 'Läs mer om behandling mot akneärr',
+            url_title: 'Läs mer om behandling mot acneärr',
+
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
+            consultation_url_title: 'Boka konsultation för behandling av acneärr',
+
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
-            booking_url_title: 'Klicka för att boka tid för behandling mot akneärr',
+            booking_url_title: 'Boka behandling mot acneärr',
       ),
 );
+
 $articles = array(
       new Article(
             title: 'Varför AcneSpecialisten?!',
