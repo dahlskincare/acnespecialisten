@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Vad är akne? Vård och tips | AcneSpecialisten';
-$seo_description = 'Varför får man akne? Lär dig om papler och pustler. Få tips för akne hy och effektiv akne vård. Boka din kostnadsfria konsultation idag →';
+$seo_description = 'Varför får man akne? Lär dig om papler och pustler. Få tips för aknehy och effektiv aknevård. Boka din kostnadsfria konsultation idag →';
 $seo_keywords = 'acne, akne, papler, pustler, vad är akne, varför får man akne, acne hy, acne vård, plötslig akne, acne orsak, akne bakterie, akne tips, acne bilder, acne hud, vad beror akne på, akne symtom, vad orsakar akne, akne före och efter, akne hjälp, akne orsak, akne problem, akne sjukdom, kronisk akne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
