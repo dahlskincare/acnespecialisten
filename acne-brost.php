@@ -12,7 +12,7 @@ $seo_image = 'bilder/hudproblem/424x456/akne-brost.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
-      new PathSegment('Acne bröst', '/acne-brost.php'),
+      new PathSegment('Akne bröst', '/acne-brost.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne-brost.webp';
@@ -82,40 +82,40 @@ $trivias = array(
 );
 
 $treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Vår specialiserade konsultation är anpassad för att kartlägga de unika egenskaperna hos din bröstakne och utvecklar en skräddarsydd behandlingsplan för att effektivt hantera dina hudproblem.',
-            url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för akne på bröstet idag'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi anpassar varje behandling för bröstakne baserat på din huds individuella behov, för att bekämpa akne på bröstet och främja en klarare hud.',
-            url_label: 'Se behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
-      ),
-      new TreatmentStep(
-            title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av bröstakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner, specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne.',
-            url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne på bröstet'
-      ),
-      new TreatmentStep(
-            title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv bröstakne fokuserar vi på att reparera och förbättra hudens textur, för att minska ärrbildning och främja en jämn hudton.',
-            url_label: 'Se ärrbehandlingar',
-            url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för ärr från akne på bröstet'
-      ),
+    new TreatmentStep(
+        title: 'Identifiera',
+        content: 'Vår specialiserade konsultation kartlägger unika egenskaper hos din bröstakne och utvecklar en skräddarsydd behandlingsplan för att effektivt hantera dina hudproblem.',
+        url_label: 'Boka gratis konsultation',
+        url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+        url_title: 'Boka din kostnadsfria hudkonsultation för akne på bröstet idag'
+    ),
+    new TreatmentStep(
+        title: 'Behandla',
+        content: 'Vi anpassar varje behandling baserat på din huds behov för att bekämpa akne på bröstet och främja en klarare hud.',
+        url_label: 'Se behandlingar',
+        url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+        url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
+    ),
+    new TreatmentStep(
+        title: 'Förebygga',
+        content: 'För att förebygga framtida utbrott erbjuder vi skräddarsydda produkter och rutiner, specifikt utformade för att balansera din hud och motverka akne.',
+        url_label: 'Se produkter',
+        url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+        url_title: 'Hitta de bästa produkterna för att förebygga akne på bröstet'
+    ),
+    new TreatmentStep(
+        title: 'Reparera',
+        content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera och förbättra hudens textur, för att minska ärrbildning och främja en jämn hudton.',
+        url_label: 'Se ärrbehandlingar',
+        url: 'behandla-acnearr.php',
+        url_title: 'Upptäck effektiva behandlingar för ärr från akne på bröstet'
+    ),
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $headline01 = "01. Identifiera";
 
