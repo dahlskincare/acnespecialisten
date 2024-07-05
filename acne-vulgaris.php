@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Acne Vulgaris Behandling | AcneSpecialisten';
+$seo_title = 'Acne vulgaris behandling | AcneSpecialisten';
 $seo_description = 'Läs mer om vad acne vulgaris är och hur du kan behandla problemet. Hos oss på Acnespecialisten får du en skräddarsydd behandlingsplan →';
 $seo_keywords = 'acne vulgaris, akne vulgaris, nodular acne vulgaris, acne vulgaris behandling, akne vulgaris behandlung, akne vulgaris bilder, acne vulgaris bilder, acne vulgaris treatment';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar acne vulgaris och dess behandlingsmetoder';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Acne Vulgaris',
-      description: 'I denna sektion får du en omfattande översikt över acne vulgaris, dess vanligaste orsaker såsom hormonella obalanser, stress och miljöfaktorer, samt AcneSpecialistens anpassade behandlingsmetoder. Vi erbjuder också individuellt anpassade hudvårdsråd för att stödja personer med acne vulgaris i olika åldrar.',
+      description: 'Acne vulgaris är den medicinska termen för "vanlig" akne, den vanligaste formen av akne som främst drabbar tonåringar på grund av hormonella förändringar. Hos vuxna kallas aknen för acne tarda.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
