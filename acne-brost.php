@@ -82,34 +82,34 @@ $trivias = array(
 );
 
 $treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Vår specialiserade konsultation kartlägger unika egenskaper hos din bröstakne och utvecklar en skräddarsydd behandlingsplan för att effektivt hantera dina hudproblem.',
-        url_label: 'Boka gratis konsultation',
-        url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-        url_title: 'Boka din kostnadsfria hudkonsultation för akne på bröstet idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi anpassar varje behandling baserat på din huds behov för att bekämpa akne på bröstet och främja en klarare hud.',
-        url_label: 'Se behandlingar',
-        url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-        url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
-    ),
-    new TreatmentStep(
-        title: 'Förebygga',
-        content: 'För att förebygga framtida utbrott erbjuder vi skräddarsydda produkter och rutiner, specifikt utformade för att balansera din hud och motverka akne.',
-        url_label: 'Se produkter',
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-        url_title: 'Hitta de bästa produkterna för att förebygga akne på bröstet'
-    ),
-    new TreatmentStep(
-        title: 'Reparera',
-        content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera och förbättra hudens textur, för att minska ärrbildning och främja en jämn hudton.',
-        url_label: 'Se ärrbehandlingar',
-        url: 'behandla-acnearr.php',
-        url_title: 'Upptäck effektiva behandlingar för ärr från akne på bröstet'
-    ),
+      new TreatmentStep(
+            title: 'Identifiera',
+            content: 'Få en personlig hudterapeut som analyserar din hud och skapar en skräddarsydd behandlingsplan för just dina behov.',
+            url_label: 'Boka gratis konsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
+      ),
+      new TreatmentStep(
+            title: 'Behandla',
+            content: 'Våra grundliga ansiktsbehandlingar är anpassade för din aknetyp för att effektivt behandla och lindra dina hudproblem.',
+            url_label: 'Se behandlingar',
+            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
+      ),
+      new TreatmentStep(
+            title: 'Förebygga',
+            content: 'Genom en anpassad hudvårdsrutin och rätt produkter kan vi effektivt förebygga akneutbrott och balansera din hud.',
+            url_label: 'Se produkter',
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url_title: 'Hitta de bästa produkterna för att förebygga akne'
+      ),
+      new TreatmentStep(
+            title: 'Reparera',
+            content: 'Vi behandlar akneärr med metoder som hjälper till att reparera huden, så att du blir av med ärr och får en jämnare hudton.',
+            url_label: 'Se ärrbehandlingar',
+            url: 'behandla-acnearr.php',
+            url_title: 'Upptäck effektiva behandlingar mot akneärr'
+      ),
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
