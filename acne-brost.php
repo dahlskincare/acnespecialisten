@@ -57,22 +57,25 @@ $about_title = 'Fakta';
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: ' är akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet, även känd som akne vulgaris, är en vanlig hudåkomma som kännetecknas av inflammerade finnar, pormaskar och oljig hy. Dessa utslag kan uppträda som små gula eller röda upphöjningar som ofta ömmar. Vanligtvis förekommer akne i ansiktet, men det kan också uppstå på andra delar av kroppen som bröstet och ryggen. Akne kan visa sig i längre perioder eller som enstaka utbrott.</p>',
+            title: ' är akne på bröstet',
+            content: '<p class="p200">Akne på bröstkorgen, ofta kallad bröstakne, är ett vanligt hudproblem som kan drabba personer i alla åldrar och kön. Denna typ av akne kan visa sig som pormaskar, finnar, cystor och noduler på bröstet och kan vara både besvärande och obekväma. Vanliga orsaker till akne på bröstet inkluderar hormonella förändringar, ökad talgproduktion, tilltäppta porer samt yttre faktorer som stress, svett och kläder som inte andas.
+                </p>',
             extended_content: '',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: ' får man akne?',
-            content: '<p class="p200">Akne i ansiktet orsakas av en kombination av faktorer. Hormoner, särskilt under puberteten, stimulerar talgkörtlarna att producera mer olja, vilket kan leda till tilltäppta porer. Genetiska faktorer spelar också en roll, då benägenheten för akne kan ärvas. Andra bidragande faktorer inkluderar stress, vissa mediciner, och användning av oljebaserade hudvårdsprodukter som kan täppa till porerna.',
+            title: ' får man akne på bröstet?',
+            content: '<p class="p200">Akne på bröstet kan bero på större talgkörtlar som producerar mer talg, hormonella förändringar som pubertet, menstruation, graviditet, och klimakteriet, orenheter från svett och smuts som täpper till porerna, samt användning av hudvårdsprodukter som täpper till porerna. Täta kläder kan också fånga svett och bakterier mot huden.',
             extended_content: '',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
             prefix: 'Hur',
-            title: ' får man bort akne i ansiktet?',
-            content: '<p class="p200">För att effektivt behandla akne i ansiktet rekommenderas en kombination av hudvårdsrutiner och professionella behandlingar. Använd milda rengöringsprodukter och undvik att klämma finnar. Topikala behandlingar med exfolierande och förebyggande ingredienser kan hjälpa till att rensa tilltäppta porer och minska inflammation. Besök oss på AcneSpecialisten för en kostnadsfri konsultation där vi skräddarsyr en behandlingsplan och hudvårdsrutin för dina specifika behov.</p>',
+            title: ' får man bort akne på bröstet?',
+            content: '<p class="p200">FHos AcneSpecialisten erbjuder vi en kostnadsfri konsultation för att identifiera din hudtyp och akneproblem. Vi tar fram en skräddarsydd behandlingsplan som kan inkludera topikala aknebehandlingar med exfolierande och förebyggande ingredienser, samt professionella behandlingar som kemiska peelingar, laser, microneedling, och ljusbehandlingar. En personlig hudvårdsrutin hjälper till att hålla aknen borta på lång sikt.
+
+                Med rätt vård och behandlingar kan akne på bröstet hanteras effektivt, vilket leder till en klarare och friskare hud. Boka en konsultation hos oss för att få hjälp med att skräddarsy din behandlingsplan.</p>',
             extended_content: '',
             icons: array()
       ),
