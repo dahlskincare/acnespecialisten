@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne på ryggen | AcneSpecialisten';
-$seo_description = 'Behandla acne på rygg och axlar (även kallat backne) hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation & få en skräddarsydd behandlingsplan →';
+$seo_description = 'Behandla akne på rygg och axlar (även kallat backne) hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation & få en skräddarsydd behandlingsplan →';
 $seo_keywords = 'akne på rygg, akne på ryggen, akne rygg, rygg akne, acne på rygg, acne på ryggen, acne rygg, acne ryggen';
 $seo_image = 'bilder/hudproblem/424x456/akne-rygg.webp';
 
@@ -51,44 +51,240 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Behandla dina akne på ryggen effektivt.';
+$about_title = 'Fakta';
 
-$description_title = 'Vad är akne på ryggen?';
-$description_text = '<p class="p200">Akne på ryggen, ofta benämnd som "bakne", är en hudåkomma där utslag som finnar, pormaskar, och i vissa fall, djupare cystor och noduler uppträder på ryggen och axlar. Precis som akne på andra delar av kroppen, är akne på ryggen resultatet av tilltäppta hårfolliklar orsakade av en överproduktion av talg och samling av döda hudceller, vilket skapar en gynnsam miljö för tillväxt av acne framkallande bakterier. Akne på ryggen kan påverka individer i alla åldrar men är särskilt vanlig under tonår och unga vuxna år. Denna typ av akne kan vara särskilt utmanande att behandla på grund av ryggens stora yta och svåråtkomliga läge. Faktorer som bidrar till utvecklingen av akne på ryggen inkluderar hormonella förändringar, svett och friktion från kläder samt vissa livsstils- och kostvanor.</p>
-<p class="p200 mt-m">Ryggbehandling för acne fokuserar på att rensa tilltäppta porer, minska produktionen av talg, bekämpa bakterietillväxt och minska inflammation. Behandlingar består av hudvårdsrutiner som regelbunden rengöring med produkter anpassade för aknebenägen hud. Det är också viktigt att kombinera med behandlingar som djuprengör huden för att avlägsna döda hudceller och förebygga tilltäppning av porer. Under en konsultation tar vi fram en skräddarsydd behandlignsplan för just din hy så att du effektivt kan få rätt ryggbehandling för din akne.</p>';
+$trivias = array(
+      new ProblemTrivia(
+            prefix: 'Vad',
+            title: ' är akne i ansiktet?',
+            content: '<p class="p200">Akne i ansiktet, även känd som akne vulgaris, är en vanlig hudåkomma som kännetecknas av inflammerade finnar, pormaskar och oljig hy. Dessa utslag kan uppträda som små gula eller röda upphöjningar som ofta ömmar. Vanligtvis förekommer akne i ansiktet, men det kan också uppstå på andra delar av kroppen som bröstet och ryggen. Akne kan visa sig i längre perioder eller som enstaka utbrott.</p>',
+            extended_content: '',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Varför',
+            title: ' får man akne?',
+            content: '<p class="p200">Akne i ansiktet orsakas av en kombination av faktorer. Hormoner, särskilt under puberteten, stimulerar talgkörtlarna att producera mer olja, vilket kan leda till tilltäppta porer. Genetiska faktorer spelar också en roll, då benägenheten för akne kan ärvas. Andra bidragande faktorer inkluderar stress, vissa mediciner, och användning av oljebaserade hudvårdsprodukter som kan täppa till porerna.',
+            extended_content: '',
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
+      ),
+      new ProblemTrivia(
+            prefix: 'Hur',
+            title: ' får man bort akne i ansiktet?',
+            content: '<p class="p200">För att effektivt behandla akne i ansiktet rekommenderas en kombination av hudvårdsrutiner och professionella behandlingar. Använd milda rengöringsprodukter och undvik att klämma finnar. Topikala behandlingar med exfolierande och förebyggande ingredienser kan hjälpa till att rensa tilltäppta porer och minska inflammation. Besök oss på AcneSpecialisten för en kostnadsfri konsultation där vi skräddarsyr en behandlingsplan och hudvårdsrutin för dina specifika behov.</p>',
+            extended_content: '',
+            icons: array()
+      ),
+);
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation på AcneSpecialisten är skräddarsydd för att analysera de unika egenskaperna hos din akne på ryggen. Genom vår expertanalys identifierar vi de bakomliggande faktorerna och tar fram en personlig behandlingsrutin.',
+            content: 'Få en personlig hudterapeut som analyserar din hud och skapar en skräddarsydd behandlingsplan för just dina behov.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för akne på ryggen idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling för akne på ryggen anpassas utifrån din huds specifika behov. Vi erbjuder ett brett spektrum av behandlingar, från mild exfoliering till djuprengörande metoder, för att effektivt bekämpa akne på ryggen och främja en klarare hud.',
+            content: 'Våra grundliga ansiktsbehandlingar är anpassade för din aknetyp för att effektivt behandla och lindra dina hudproblem.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda behandlingar för ryggakne'
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra framtida utbrott av ryggakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa produkter är specialutformade för att balansera din hud och motverka de faktorer som bidrar till akne, vilket hjälper till att hålla din hud hälsosam och ren.',
+            content: 'Genom en anpassad hudvårdsrutin och rätt produkter kan vi effektivt förebygga akneutbrott och balansera din hud.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga ryggakne'
+            url_title: 'Hitta de bästa produkterna för att förebygga akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter behandling av aktiv ryggakne, inriktar vi oss på att reparera och förbättra hudens textur. Vi erbjuder behandlingsmetoder som minskar ärrbildning och förbättrar hudens tillstånd, vilket ger långsiktiga resultat för en jämn och fräsch hudton.',
+            content: 'Vi behandlar akneärr med metoder som hjälper till att reparera huden, så att du blir av med ärr och får en jämnare hudton.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för ärr från ryggakne'
+            url_title: 'Upptäck effektiva behandlingar för ärr från akne'
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på ryggen" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+
+$headline01 = "01. Identifiera";
+
+$service = new Service(
+      title: 'Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Under en personlig konsultation med en acnespecialist undersöks din akne noggrant. Vi tar bilder och rekommenderar en skräddarsydd behandlingsplan anpassad efter dina behov.',
+
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Kvinna får konsultation för akne',
+      image_title: 'Konsultation för aknebehandling',
+
+      url_label: 'Läs mer om hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
+      url_title: 'Läs mer om gratis hudkonsultation',
+
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url_title: 'Boka tid för hudkonsultation',
+
+      booking_url_label: null,
+      booking_url: null,
+      booking_url_title: null,
+);
+
+$headline02 = "02. Behandla";
+
+$services = array(
+      new Service(
+            title: 'Ansiktsbehandling mot akne',
+            duration: '60 min',
+            price: '1295 kr',
+            content: 'En effektiv behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
+            
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_alt: 'Kvinna som får en ansiktsbehandling',
+            image_title: 'Ansiktsbehandling för att behandla akne',
+
+            url_label: 'Läs mer om ansiktsbehandling',
+            url: '/hudbehandlingar/ansiktsbehandling/akne/',
+            url_title: 'Läs mer om ansiktsbehandling mot akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url_title: 'Boka en konsultation för ansiktsbehandling mot akne',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            booking_url_title: 'Boka tid för ansiktsbehandling mot akne',
+      ),
+      new Service(
+            title: 'Laser mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
+            
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Kvinna som får en laserbehandling',
+            image_title: 'Laserbehandling för att minska akne',
+
+            url_label: 'Läs mer om laser',
+            url: 'laser-acne.php',
+            url_title: 'Läs mer om laser mot akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
+            booking_url_title: 'Boka tid för laserbehandling mot akne',
+      ),
+      new Service(
+            title: 'Kemisk peeling mot akne',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling använder en speciell syra för att exfoliera huden, rensa porer och minska inflammation.',
+
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_alt: 'Man som får kemisk peeling',
+            image_title: 'Kemisk peeling för att behandla akne',
+
+            url_label: 'Läs mer om kemisk peeling',
+            url: 'kemisk-peeling-acne.php',
+            url_title: 'Läs mer om kemisk peeling mot akne',
+
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
+
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Boka tid för kemisk peeling mot akne',
+      ),
+
+      new Service(
+            title: 'Microneedling mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Microneedling skapar små kanaler i huden för att främja läkning och kollagenproduktion, behandla akneutbrott och minska akneärr.',
+            
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Kvinna som får microneedling behandling',
+            image_title: 'Microneedling för att behandla akne',
+
+            url_label: 'Läs mer om microneedling',
+            url: 'microneedling-acne.php',
+            url_title: 'Läs mer om microneedling mot akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_title: 'Boka en konsultation för microneedling mot akne',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
+            booking_url_title: 'Boka tid för microneedling mot akne',
+      ),
+);
+
+$headline03 = "03. Förebygg";
+
+$products = array(
+      new Service(
+            title: 'Produkter mot akne',
+            duration: null,
+            price: 'Pris från 1395 kr',
+            content: 'Daglig behandling med rätt produkter är avgörande för att bekämpa och förebygga akne. Våra produkter är speciellt utformade för att hålla huden i balans och förhindra nya utbrott.',
+
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
+            image_alt: 'Produkter för behandling av akne',
+            image_title: 'Effektiva produkter för att bekämpa och förebygga akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url_title: 'Boka konsultation för hudvårdsprodukter mot akne',
+
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            booking_url_title: 'Köp produktpaket mot akne',
+      )
+);
+
+$headline04 = "04. Reparera";
+
+$procedures = array(
+      new Service(
+            title: 'Reparera acneärr',
+            duration: '4 behandlingsmetoder',
+            price: null,
+            content: 'Acneärr visar sig som gropar och fläckar på huden. Vi erbjuder olika metoder för att behandla dessa ärr och återställa hudens utseende.',
+
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Kvinna som får behandling för acneärr',
+            image_title: 'Behandling för att reparera acneärr',
+
+            url_label: 'Läs mer om behandling',
+            url: 'behandla-acnearr.php',
+            url_title: 'Läs mer om behandling mot acneärr',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+            consultation_url_title: 'Boka konsultation för behandling av acneärr',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url_title: 'Boka behandling mot acneärr',
+      ),
+);
 
 $results = array(
     new ResultCustomer(
@@ -666,6 +862,8 @@ $brands_url_title = "Se alla varumärken";
             <section id="header">
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
+
+            
             <div class="container">
                   <div id="content">
                         <section id="image" class="is-hidden-desktop">
@@ -675,10 +873,18 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        <section id="about">
-                              <h2 class="h500"><?php echo $description_title ?></h2>
-                              <div class="mt-xl"><?php echo $description_text ?></div>
+
+
+                     <section id="about">
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
+                              <?php foreach ($trivias as $trivia) {
+                                    echo '<hr>';
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
+                              } ?>
+                              <hr>
                         </section>
+
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -692,6 +898,38 @@ $brands_url_title = "Se alla varumärken";
                               <hr class="mt-xl3 is-hidden-mobile">
                               <?php echo $treatment_link ?>
 
+                        </section>
+
+
+                         <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="products">
+                              <h2 class="h500"><?php echo $headline03 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($products as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="treatment-solutions">
+                              <h2 class="h500"><?php echo $headline04 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($procedures as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
                         </section>
 
                         <section id="results">
