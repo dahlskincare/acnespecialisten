@@ -866,6 +866,8 @@ $brands_url_title = "Se alla varumärken";
             <section id="header">
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
+
+            
             <div class="container">
                   <div id="content">
                         <section id="image" class="is-hidden-desktop">
@@ -876,6 +878,7 @@ $brands_url_title = "Se alla varumärken";
                               </picture>
                         </section>
 
+
                          <section id="about">
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
@@ -884,6 +887,7 @@ $brands_url_title = "Se alla varumärken";
                               } ?>
                               <hr>
                         </section>
+
 
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
@@ -899,6 +903,7 @@ $brands_url_title = "Se alla varumärken";
                               <?php echo $treatment_link ?>
 
                         </section>
+
 
                          <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
