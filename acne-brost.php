@@ -6,7 +6,7 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne på bröstet | AcneSpecialisten';
-$seo_description = 'Behandla acne på bröstet hos oss på Acnespecialisten! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
+$seo_description = 'Behandla akne på bröstet hos oss på Acnespecialisten! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'akne på bröstet, akne på bröstkorgen';
 $seo_image = 'bilder/hudproblem/424x456/akne-brost.webp';
 
@@ -788,7 +788,7 @@ $related_problems = array(
             aka: 'akne runt munnen',
             image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            image_title: 'Perioral dermatit (akne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),
