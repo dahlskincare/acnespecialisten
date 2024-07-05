@@ -56,22 +56,22 @@ $about_title = 'Fakta';
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: ' är akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet, även känd som akne vulgaris, är en vanlig hudåkomma som kännetecknas av inflammerade finnar, pormaskar och oljig hy. Dessa utslag kan uppträda som små gula eller röda upphöjningar som ofta ömmar. Vanligtvis förekommer akne i ansiktet, men det kan också uppstå på andra delar av kroppen som bröstet och ryggen. Akne kan visa sig i längre perioder eller som enstaka utbrott.</p>',
+            title: ' är akne på ryggen?',
+            content: '<p class="p200">AAkne på ryggen, ofta kallad “bakne”, är en vanlig hudåkomma som påverkar människor i alla åldrar. Detta tillstånd uppstår när hårfolliklar täpps till av överflödig talg och döda hudceller, vilket skapar en grogrund för akneframkallande bakterier. På grund av ryggens stora yta och svåråtkomliga läge kan akne på ryggen vara svår att behandla. Faktorer som hormonella förändringar, genetik, svett och friktion från kläder kan bidra till utvecklingen av akne på ryggen. För att effektivt hantera och behandla akne på ryggen krävs en kombination av daglig hudvårdsrutin och specialiserade behandlingar.</p>',
             extended_content: '',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: ' får man akne?',
-            content: '<p class="p200">Akne i ansiktet orsakas av en kombination av faktorer. Hormoner, särskilt under puberteten, stimulerar talgkörtlarna att producera mer olja, vilket kan leda till tilltäppta porer. Genetiska faktorer spelar också en roll, då benägenheten för akne kan ärvas. Andra bidragande faktorer inkluderar stress, vissa mediciner, och användning av oljebaserade hudvårdsprodukter som kan täppa till porerna.',
+            title: ' får man akne på ryggen?',
+            content: '<p class="p200">Akne på ryggen kan uppstå av flera orsaker. Hormonella förändringar, som de som sker under puberteten, graviditet eller som en bieffekt av vissa mediciner, kan öka talgproduktionen och därmed risken för akne. Genetiska faktorer spelar också en stor roll; om akne är vanligt i din familj är det mer sannolikt att du också kommer att uppleva det. Svett och friktion från kläder, särskilt tajta eller icke-andningsbara material, kan täppa till porerna och förvärra akne. Livsstilsfaktorer som kost och stressnivåer kan också påverka hudens tillstånd och bidra till utbrott på ryggen.',
             extended_content: '',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
             prefix: 'Hur',
-            title: ' får man bort akne i ansiktet?',
-            content: '<p class="p200">För att effektivt behandla akne i ansiktet rekommenderas en kombination av hudvårdsrutiner och professionella behandlingar. Använd milda rengöringsprodukter och undvik att klämma finnar. Topikala behandlingar med exfolierande och förebyggande ingredienser kan hjälpa till att rensa tilltäppta porer och minska inflammation. Besök oss på AcneSpecialisten för en kostnadsfri konsultation där vi skräddarsyr en behandlingsplan och hudvårdsrutin för dina specifika behov.</p>',
+            title: ' blir man av med akne på ryggen?',
+            content: '<p class="p200">För att bli av med akne på ryggen krävs en konsekvent och noggrann hudvårdsrutin. Använd en mild rengöring anpassad för aknebenägen hud dagligen för att avlägsna överflödig olja och döda hudceller. Exfoliera regelbundet för att förhindra tilltäppta porer och använd produkter med exfolierande och förebyggande ingredienser. Välj lösa, andningsbara kläder för att minimera friktion och svettansamling. Om hembehandlingar inte räcker kan professionella behandlingar som kemisk peeling, laserbehandling eller microneedling vara nödvändiga. Besök oss på Acnespecialisten för en kostnadsfri konsultation där vi tar fram en skräddarsydd behandlingsplan och personlig hudvårdsrutin för att hjälpa dig uppnå en klarare och friskare rygg.</p>',
             extended_content: '',
             icons: array()
       ),
@@ -863,7 +863,7 @@ $brands_url_title = "Se alla varumärken";
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
 
-            
+
             <div class="container">
                   <div id="content">
                         <section id="image" class="is-hidden-desktop">
