@@ -70,7 +70,7 @@ $problems['akne'] = new Problem(
       image: 'bilder/hudproblem/424x324x2/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne',
-      info: 'Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
+      info: '2x Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
 );
 $problems['akne'] = new Problem(
       button_label: 'Akne',
