@@ -876,11 +876,6 @@ $brands_url_title = "Se alla varumärken";
                               </picture>
                         </section>
 
-                        <section id="about">
-                              <h2 class="h500"><?php echo $description_title ?></h2>
-                              <div class="mt-xl"><?php echo $description_text ?></div>
-                        </section>
-
                          <section id="about">
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
