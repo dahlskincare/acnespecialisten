@@ -57,7 +57,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är akne på ryggen?',
-            content: '<p class="p200">AAkne på ryggen, ofta kallad “bakne”, är en vanlig hudåkomma som påverkar människor i alla åldrar. Detta tillstånd uppstår när hårfolliklar täpps till av överflödig talg och döda hudceller, vilket skapar en grogrund för akneframkallande bakterier. På grund av ryggens stora yta och svåråtkomliga läge kan akne på ryggen vara svår att behandla. Faktorer som hormonella förändringar, genetik, svett och friktion från kläder kan bidra till utvecklingen av akne på ryggen. För att effektivt hantera och behandla akne på ryggen krävs en kombination av daglig hudvårdsrutin och specialiserade behandlingar.</p>',
+            content: '<p class="p200">Akne på ryggen, ofta kallad “bakne”, är en vanlig hudåkomma som påverkar människor i alla åldrar. Detta tillstånd uppstår när hårfolliklar täpps till av överflödig talg och döda hudceller, vilket skapar en grogrund för akneframkallande bakterier. På grund av ryggens stora yta och svåråtkomliga läge kan akne på ryggen vara svår att behandla. Faktorer som hormonella förändringar, genetik, svett och friktion från kläder kan bidra till utvecklingen av akne på ryggen. För att effektivt hantera och behandla akne på ryggen krävs en kombination av daglig hudvårdsrutin och specialiserade behandlingar.</p>',
             extended_content: '',
             icons: array()
       ),
@@ -108,7 +108,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne" class="mt-xl button b200 outline expand auto-width">Läs mer om behandling av akne på ryggen</a>';
 
 $headline01 = "01. Identifiera";
 
