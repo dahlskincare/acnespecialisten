@@ -6,13 +6,13 @@ include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne på bröstet | AcneSpecialisten';
-$seo_description = 'Behandla acne på bröstet hos oss på Acnespecialisten! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
+$seo_description = 'Behandla akne på bröstet hos oss på Acnespecialisten! Vi tar fram en behandlingsplan som utgår från dina problem. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'akne på bröstet, akne på bröstkorgen';
 $seo_image = 'bilder/hudproblem/424x456/akne-brost.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
-      new PathSegment('Acne bröst', '/acne-brost.php'),
+      new PathSegment('Akne bröst', '/acne-brost.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne-brost.webp';
@@ -22,7 +22,8 @@ $image_alt = 'Bild som visar behandling och vård av akne på bröstet';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne på bröstet',
-      description: 'Finnar på bröstet kan vara både besvärande och obekväma, men det finns lösningar. Denna sida är dedikerad till att utforska akne på bröstkorgen, dess orsaker och hur du kan behandla och förebygga dessa irriterande utslag. Vi guidar dig genom de bästa metoderna för att ta hand om din hud och ge dig tips för att återställa dess naturliga balans och skönhet.',
+      description: 'Akne på bröstkorgen, ofta kallad bröstakne, är ett vanligt hudproblem som kan drabba personer i alla åldrar och kön. Denna typ av akne kan visa sig som pormaskar, finnar, cystor och noduler på bröstet och kan vara både besvärande och obekväma. Vanliga orsaker till akne på bröstet inkluderar hormonella förändringar, ökad talgproduktion, tilltäppta porer samt yttre faktorer som stress, svett och kläder som inte andas.
+',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -51,77 +52,252 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Behandla dina akne på bröstet effektivt.';
+$about_title = 'Fakta';
 
-$description_title = 'Vad är akne på bröstet?';
-$description_text = '<p class="p200">Akne på bröstet är en hudåkomma som kan drabba individer i alla åldrar, men är särskilt vanlig under tonåren och unga vuxna år. Detta tillstånd kännetecknas av utbrott av finnar, pormaskar och i vissa fall djupare cystor och noduler, som uppkommer på huden över bröstkorgen. Precis som med annan akne, beror akne på bröstet på en kombination av överproduktion av talg, tilltäppning av hårfolliklar med döda hudceller, och förekomsten av acneframkallande bakterier. Behandlingen av akne på bröstet varierar beroende på dess svårighetsgrad och inkluderar hudvårdsprodukter och behandlingar som behandlar och balanserar huden. En viktig komponent är att undvika att pilla eller klämma på utslagen för att förebygga ärrbildning och inflammation.</p>
-<p class="p200 mt-m">Problemet kan uppstå oavsett ålder eller kön, så det spelar ingen roll om det är en tjej eller kille, kvinna eller man, alla kan drabbas. Sammanfattningsvis är akne på bröstet ett vanligt men hanterbart hudtillstånd. Med rätt hudvård och behandlingar kan individer effektivt minska utbrott och upprätthålla en klarare och friskare hud på bröstet.</p>';
+$trivias = array(
+      new ProblemTrivia(
+            prefix: 'Vad',
+            title: ' är akne på bröstet',
+            content: '<p class="p200">Akne på bröstkorgen, ofta kallad bröstakne, är ett vanligt hudproblem som kan drabba personer i alla åldrar och kön. Denna typ av akne kan visa sig som pormaskar, finnar, cystor och noduler på bröstet och kan vara både besvärande och obekväma. Vanliga orsaker till akne på bröstet inkluderar hormonella förändringar, ökad talgproduktion, tilltäppta porer samt yttre faktorer som stress, svett och kläder som inte andas.
+                </p>',
+            extended_content: '',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Varför',
+            title: ' får man akne på bröstet?',
+            content: '<p class="p200">Akne på bröstet kan bero på större talgkörtlar som producerar mer talg, hormonella förändringar som pubertet, menstruation, graviditet, och klimakteriet, orenheter från svett och smuts som täpper till porerna, samt användning av hudvårdsprodukter som täpper till porerna. Täta kläder kan också fånga svett och bakterier mot huden.',
+            extended_content: '',
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
+      ),
+      new ProblemTrivia(
+            prefix: 'Hur',
+            title: ' får man bort akne på bröstet?',
+            content: '<p class="p200">FHos AcneSpecialisten erbjuder vi en kostnadsfri konsultation för att identifiera din hudtyp och akneproblem. Vi tar fram en skräddarsydd behandlingsplan som kan inkludera topikala aknebehandlingar med exfolierande och förebyggande ingredienser, samt professionella behandlingar som kemiska peelingar, laser, microneedling, och ljusbehandlingar. En personlig hudvårdsrutin hjälper till att hålla aknen borta på lång sikt.
+
+                Med rätt vård och behandlingar kan akne på bröstet hanteras effektivt, vilket leder till en klarare och friskare hud. Boka en konsultation hos oss för att få hjälp med att skräddarsy din behandlingsplan.</p>',
+            extended_content: '',
+            icons: array()
+      ),
+);
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation är anpassad för att kartlägga de unika egenskaperna hos din bröstakne och utvecklar en skräddarsydd behandlingsplan för att effektivt hantera dina hudproblem.',
+            content: 'Få en personlig hudterapeut som analyserar din hud och skapar en skräddarsydd behandlingsplan för just dina behov.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-            url_title: 'Boka din kostnadsfria hudkonsultation för akne på bröstet idag'
+            url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi anpassar varje behandling för bröstakne baserat på din huds individuella behov, för att bekämpa akne på bröstet och främja en klarare hud.',
+            content: 'Våra grundliga ansiktsbehandlingar är anpassade för din aknetyp för att effektivt behandla och lindra dina hudproblem.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-            url_title: 'Utforska våra skräddarsydda behandlingar för akne på bröstet'
+            url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott av bröstakne, erbjuder vi skräddarsydda hudvårdsprodukter och rutiner, specifikt utformade för att balansera din hud och motverka faktorer som bidrar till akne.',
+            content: 'Genom en anpassad hudvårdsrutin och rätt produkter kan vi effektivt förebygga akneutbrott och balansera din hud.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
-            url_title: 'Hitta de bästa produkterna för att förebygga akne på bröstet'
+            url_title: 'Hitta de bästa produkterna för att förebygga akne'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter att ha behandlat aktiv bröstakne fokuserar vi på att reparera och förbättra hudens textur, för att minska ärrbildning och främja en jämn hudton.',
+            content: 'Vi behandlar akneärr med metoder som hjälper till att reparera huden, så att du blir av med ärr och får en jämnare hudton.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
-            url_title: 'Upptäck effektiva behandlingar för ärr från akne på bröstet'
+            url_title: 'Upptäck effektiva behandlingar mot akneärr'
       ),
 );
 
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Varför uppstår hudproblemet?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Det finns flera orsaker till varför akne kan uppstå på bröstet, och dessa beror ofta på en samverkan av olika faktorer. En vanlig orsak är hormonella förändringar, som kan leda till ökad talgproduktion och därmed tilltäppta porer och akne. Stress är en annan faktor som kan förvärra situationen genom att påverka hormonbalansen och öka talgproduktionen i huden. Hos AcneSpecialisten tar vi en helhetsorienterad ansats för att noggrant hantera din bröstakne.</p>
-            <p class="p200 mt-m">En effektiv hantering av bröstakne kräver en väl genomtänkt hudvårdsrutin. Det är viktigt att välja hudvårdsprodukter som är både effektiva och milda för att undvika att irritera huden ytterligare. På AcneSpecialisten samarbetar vi med dig för att utveckla en personligt anpassad hudvårdsrutin som inte bara behandlar befintlig akne, utan också stärker huden och skapar balans för att förebygga framtida utbrott och upprätthålla en frisk hudmiljö.</p>',
+
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+
+$headline01 = "01. Identifiera";
+
+$service = new Service(
+      title: 'Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Under en personlig konsultation med en acnespecialist undersöks din akne noggrant. Vi tar bilder och rekommenderar en skräddarsydd behandlingsplan anpassad efter dina behov.',
+
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Kvinna får konsultation för akne',
+      image_title: 'Konsultation för aknebehandling',
+
+      url_label: 'Läs mer om hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
+      url_title: 'Läs mer om gratis hudkonsultation',
+
+      consultation_url_label: 'Boka konsultation',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url_title: 'Boka tid för hudkonsultation',
+
+      booking_url_label: null,
+      booking_url: null,
+      booking_url_title: null,
+);
+
+$headline02 = "02. Behandla";
+
+$services = array(
+      new Service(
+            title: 'Ansiktsbehandling mot akne',
+            duration: '60 min',
+            price: '1295 kr',
+            content: 'En effektiv behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
+            
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_alt: 'Kvinna som får en ansiktsbehandling',
+            image_title: 'Ansiktsbehandling för att behandla akne',
+
+            url_label: 'Läs mer om ansiktsbehandling',
+            url: '/hudbehandlingar/ansiktsbehandling/akne/',
+            url_title: 'Läs mer om ansiktsbehandling mot akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url_title: 'Boka en konsultation för ansiktsbehandling mot akne',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            booking_url_title: 'Boka tid för ansiktsbehandling mot akne',
+      ),
+      new Service(
+            title: 'Laser mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
+            
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Kvinna som får en laserbehandling',
+            image_title: 'Laserbehandling för att minska akne',
+
+            url_label: 'Läs mer om laser',
+            url: 'laser-acne.php',
+            url_title: 'Läs mer om laser mot akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
+            booking_url_title: 'Boka tid för laserbehandling mot akne',
+      ),
+      new Service(
+            title: 'Kemisk peeling mot akne',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Kemisk peeling använder en speciell syra för att exfoliera huden, rensa porer och minska inflammation.',
+
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_alt: 'Man som får kemisk peeling',
+            image_title: 'Kemisk peeling för att behandla akne',
+
+            url_label: 'Läs mer om kemisk peeling',
+            url: 'kemisk-peeling-acne.php',
+            url_title: 'Läs mer om kemisk peeling mot akne',
+
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
+
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Boka tid för kemisk peeling mot akne',
+      ),
+
+      new Service(
+            title: 'Microneedling mot akne',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Microneedling skapar små kanaler i huden för att främja läkning och kollagenproduktion, behandla akneutbrott och minska akneärr.',
+            
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Kvinna som får microneedling behandling',
+            image_title: 'Microneedling för att behandla akne',
+
+            url_label: 'Läs mer om microneedling',
+            url: 'microneedling-acne.php',
+            url_title: 'Läs mer om microneedling mot akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_title: 'Boka en konsultation för microneedling mot akne',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
+            booking_url_title: 'Boka tid för microneedling mot akne',
       ),
 );
 
-$articles = array(
-      new Article(
-            title: 'När bör du söka professionell hjälp',
-            image_small: null,
-            image_large: null,
-            image_alt: 'När bör du söka professionell hjälp för akne på bröstet?',
-            image_title: 'När bör du söka professionell hjälp för akne på bröstet?',
-            content: '<p class="p200">Bröstakne är inte bara en fysisk utmaning, utan kan också påverka ditt välbefinnande emotionellt. Om du upptäcker att din bröstakne är bestående eller förvärras, kan det vara dags att överväga professionell hjälp. Tidig intervention är avgörande för att förhindra ärrbildning och andra långvariga effekter på huden. Genom att söka professionell hjälp får du tillgång till expertis inom behandling av nuvarande utbrott och rådgivning om förebyggande hudvård samt anpassade hudvårdsrutiner för att bevara en problemfri hy.</p>',
-      ),
+$headline03 = "03. Förebygg";
 
-      new Article(
-            title: 'Varför AcneSpecialisten?',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Fördelarna med att välja AcneSpecialisten för behandling av din akne på bröstet',
-            image_title: 'Fördelarna med att välja AcneSpecialisten för behandling av din akne på bröstet',
-            content: '<p class="p200">Med mer än 30 års erfarenhet av att behandla akne på bröstet, utmärker sig AcneSpecialisten med en djupgående förståelse för hudens komplexitet och olika behov. Vår förmåga att erbjuda unika, skräddarsydda behandlingar är anpassade för varje enskild persons specifika situation.</p>
-            <p class="p200 mt-m">På AcneSpecialisten skapar vi personliga behandlingsplaner för varje klient, fokuserade på att inte bara behandla nuvarande hudproblem utan även att erbjuda kunskap om hur man bibehåller en frisk hud på lång sikt. Vårt engagemang och vår expertis gör oss till det bästa valet för dem som söker effektiva och hållbara lösningar på sin bröstakne.</p>',
+$products = array(
+      new Service(
+            title: 'Produkter mot akne',
+            duration: null,
+            price: 'Pris från 1395 kr',
+            content: 'Daglig behandling med rätt produkter är avgörande för att bekämpa och förebygga akne. Våra produkter är speciellt utformade för att hålla huden i balans och förhindra nya utbrott.',
+
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
+            image_alt: 'Produkter för behandling av akne',
+            image_title: 'Effektiva produkter för att bekämpa och förebygga akne',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url_title: 'Boka konsultation för hudvårdsprodukter mot akne',
+
+            booking_url_label: 'Köp produkter',
+            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            booking_url_title: 'Köp produktpaket mot akne',
+      )
+);
+
+$headline04 = "04. Reparera";
+
+$procedures = array(
+      new Service(
+            title: 'Reparera acneärr',
+            duration: '4 behandlingsmetoder',
+            price: null,
+            content: 'Acneärr visar sig som gropar och fläckar på huden. Vi erbjuder olika metoder för att behandla dessa ärr och återställa hudens utseende.',
+
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Kvinna som får behandling för acneärr',
+            image_title: 'Behandling för att reparera acneärr',
+
+            url_label: 'Läs mer om behandling',
+            url: 'behandla-acnearr.php',
+            url_title: 'Läs mer om behandling mot acneärr',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+            consultation_url_title: 'Boka konsultation för behandling av acneärr',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url_title: 'Boka behandling mot acneärr',
       ),
 );
+
+$description_title = 'Vad är akne på bröstet?';
+$description_text = '<p class="p200">Akne på bröstet är en hudåkomma som kan drabba individer i alla åldrar, men är särskilt vanlig under tonåren och unga vuxna år. Detta tillstånd kännetecknas av utbrott av finnar, pormaskar och i vissa fall djupare cystor och noduler, som uppkommer på huden över bröstkorgen. Precis som med annan akne, beror akne på bröstet på en kombination av överproduktion av talg, tilltäppning av hårfolliklar med döda hudceller, och förekomsten av acneframkallande bakterier. Behandlingen av akne på bröstet varierar beroende på dess svårighetsgrad och inkluderar hudvårdsprodukter och behandlingar som behandlar och balanserar huden. En viktig komponent är att undvika att pilla eller klämma på utslagen för att förebygga ärrbildning och inflammation.</p>
+<p class="p200 mt-m">Problemet kan uppstå oavsett ålder eller kön, så det spelar ingen roll om det är en tjej eller kille, kvinna eller man, alla kan drabbas. Sammanfattningsvis är akne på bröstet ett vanligt men hanterbart hudtillstånd. Med rätt hudvård och behandlingar kan individer effektivt minska utbrott och upprätthålla en klarare och friskare hud på bröstet.</p>';
+
+
 
 $results = array(
     new ResultCustomer(
@@ -612,7 +788,7 @@ $related_problems = array(
             aka: 'akne runt munnen',
             image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            image_title: 'Perioral dermatit (akne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),
@@ -698,6 +874,8 @@ $brands_url_title = "Se alla varumärken";
             <section id="header">
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
             </section>
+
+
             <div class="container">
                   <div id="content">
                         <section id="image" class="is-hidden-desktop">
@@ -707,10 +885,18 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        <section id="about">
-                              <h2 class="h500"><?php echo $description_title ?></h2>
-                              <div class="mt-xl"><?php echo $description_text ?></div>
+
+
+                           <section id="about">
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
+                              <?php foreach ($trivias as $trivia) {
+                                    echo '<hr>';
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
+                              } ?>
+                              <hr>
                         </section>
+
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -726,19 +912,40 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
-
-                        <section id="articles">
-                              <?php foreach ($articles as $article) { ?>
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                          <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
+                        <section id="products">
+                              <h2 class="h500"><?php echo $headline03 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($products as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="treatment-solutions">
+                              <h2 class="h500"><?php echo $headline04 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($procedures as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+
+
+                
+
 
                         <section id="results">
                               <?php
