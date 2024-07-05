@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar acne vulgaris och dess behandlingsmetoder';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Acne Vulgaris',
-      description: 'Acne vulgaris är den medicinska termen för "vanlig" akne, den vanligaste formen av akne som främst drabbar tonåringar på grund av hormonella förändringar. Hos vuxna kallas aknen för acne tarda.',
+      description: 'Acne vulgaris är den medicinska termen för "vanlig" akne, den vanligaste formen av akne som främst drabbar tonåringar på grund av hormonella förändringar. Hos vuxna kallas det acne tarda.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
