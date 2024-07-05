@@ -67,20 +67,6 @@ $problems['akne'] = new Problem(
       consultation_url_title: 'Boka konsultation mot akne',
       booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
       booking_url_title: 'Boka behandling mot akne',
-      image: 'bilder/hudproblem/424x324x2/akne.webp',
-      image_alt: 'Ansikte med hudproblemet akne',
-      image_title: 'Akne',
-      info: '2x Den vanligaste hudsjukdom som involverar inflammation i talgkörtlarna, vilket leder till bildandet av finnar i form av papler och pustler. Det är ett resultat av en kombination av överproduktion av talg, tilltäppning av hårfolliklar och bakterietillväxt. Olika typer av akne kan vara emotionellt påfrestande och variera i svårighetsgrad, ofta påverkad av hormonella förändringar, stress, och genetiska faktorer.',
-);
-$problems['akne'] = new Problem(
-      button_label: 'Akne',
-      content_label: 'Akne',
-      url: 'acne.php',
-      url_title: 'Läs mer information om Akne',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
-      consultation_url_title: 'Boka konsultation mot akne',
-      booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
-      booking_url_title: 'Boka behandling mot akne',
       image: 'bilder/hudproblem/424x324/akne.webp',
       image_alt: 'Ansikte med hudproblemet akne',
       image_title: 'Akne',
@@ -95,10 +81,10 @@ $problems['aknearr'] = new Problem(
       booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
       consultation_url_title: 'Boka en konsultation mot akneärr',
       booking_url_title: 'Boka behandling mot akneärr',
-      image: 'bilder/hudproblem/424x324/acnearr.webp',
+      image: 'bilder/hudproblem/424x324x2/acne.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: '2xDessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar'] = new Problem(
       button_label: 'Finnar',
