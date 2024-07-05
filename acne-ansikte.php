@@ -20,7 +20,7 @@ $image_large = 'bilder/hudproblem/424x456/akne-ansikte.webp';
 $image_title = 'Behandling av ansiktsakne';
 $image_alt = 'Bild som illustrerar ansiktsakne och dess behandling';
 
-$floating_box = 'Behandla dina akne i ansiktet effektivt.';
+$floating_box = '';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne i ansiktet',
