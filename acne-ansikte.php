@@ -58,10 +58,9 @@ $about_title = 'Fakta';
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
-            title: ' är akne?',
-            content: '<p class="p200">Akne består av bland annat papler och pustler, som är en ärftlig och hormonell hudsjukdom som uppstår när talgproduktionen i hudens porer ökar. Huden behöver en viss mängd talg för att hålla sig mjuk och smidig, men vid överproduktion har huden svårt att avlägsna hudrester, vilket leder till bakterier och små inflammationer. Dessa inflammationer orsakar akne, eller finnar som vi ofta säger i dagligt tal, som uppstår när porerna täpps till av talg, döda hudceller och bakterier.</p>',
-            extended_content: '<p class="p200 mt-xl">Både barn och vuxna kan drabbas av akne, men det är vanligast under tonåren. Vissa har besvär med akne under längre perioder, medan andra endast vid enstaka tillfällen. Akne kan se ut på många olika sätt, från små knottror på huden till variga större bölder. Det viktiga att komma ihåg är att huden kan behandlas. Ibland krävs behandling under en längre tidsperiod, men med rätt behandling kan både bestående ärrbildning och psykiskt lidande undvikas eller lindras.</p>
-              <p class="p200 mt-xl">På Acnespecialisten kan du få hjälp med din akne. Vi har kunskap och erfarenhet av olika typer av behandlingar som ger goda resultat och många nöjda kunder. Vi börjar alltid med en kostnadsfri hudkonsultation där vi identifierar din akne och planerar den mest lämpliga behandlingen för dig och din hy. Du får även en effektiv hudvårdsrutin som du enkelt kan följa hemma.</p>',
+            title: ' är akne i ansiktet?',
+            content: '<p class="p200">Akne i ansiktet, även känd som akne vulgaris, är en vanlig hudåkomma som kännetecknas av inflammerade finnar, pormaskar och oljig hy. Dessa utslag kan uppträda som små gula eller röda upphöjningar som ofta ömmar. Vanligtvis förekommer akne i ansiktet, men det kan också uppstå på andra delar av kroppen som bröstet och ryggen. Akne kan visa sig i längre perioder eller som enstaka utbrott.</p>',
+            extended_content: '',
             icons: array()
       ),
       new ProblemTrivia(
@@ -891,7 +890,7 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        
+
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>
                               <div class="mt-xl"><?php echo $description_text ?></div>
