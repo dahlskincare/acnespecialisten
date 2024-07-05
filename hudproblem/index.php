@@ -81,7 +81,7 @@ $problems['aknearr'] = new Problem(
       booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars',
       consultation_url_title: 'Boka en konsultation mot akneärr',
       booking_url_title: 'Boka behandling mot akneärr',
-      image: 'bilder/hudproblem/424x324x2/acne.webp',
+      image: 'bilder/hudproblem/424x324x2/akne.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr',
       info: '2xDessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
