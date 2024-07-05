@@ -75,7 +75,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Genom en anpassad hudvårdsrutin och rätt produkter kan vi effektivt förebygga framtida akneutbrott och hålla din hud i balans.',
+            content: 'Genom en anpassad hudvårdsrutin och rätt produkter kan vi effektivt förebygga framtida akneutbrott och balansera din hud.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
