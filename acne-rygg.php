@@ -7,12 +7,12 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Akne på ryggen | AcneSpecialisten';
 $seo_description = 'Behandla akne på rygg och axlar (även kallat backne) hos oss på AcneSpecialisten! Boka in en kostnadsfri konsultation & få en skräddarsydd behandlingsplan →';
-$seo_keywords = 'akne på rygg, akne på ryggen, akne rygg, rygg akne, acne på rygg, acne på ryggen, acne rygg, acne ryggen';
+$seo_keywords = 'akne på rygg, akne på ryggen, akne rygg, rygg akne, akne på rygg, akne på ryggen, akne rygg, akne ryggen';
 $seo_image = 'bilder/hudproblem/424x456/akne-rygg.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
-      new PathSegment('Acne rygg', '/acne-rygg.php'),
+      new PathSegment('Akne rygg', '/acne-rygg.php'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/akne-rygg.webp';
@@ -108,7 +108,7 @@ $treatment_steps = array(
       ),
 );
 
-$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne i ansiktet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behandlingar mot akne" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
 $headline01 = "01. Identifiera";
 
@@ -776,7 +776,7 @@ $related_problems = array(
             aka: 'akne runt munnen',
             image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
-            image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
+            image_title: 'Perioral dermatit (akne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',
             url_title: 'Perioral dermatit',
       ),
