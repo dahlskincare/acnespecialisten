@@ -146,7 +146,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
 
     <link rel="canonical" href="https://www.acnespecialisten.se/franchise.php" />
       
-    <title>Starta franchise: Egen klinik inom hudvård & skönhet</title>
+    <title>Starta franchise: egen klinik inom hudvård & skönhet</title>
     <meta name="description" content="Drömmer du om en egen klinik? Starta en franchise inom hudvård och skönhet. Vi stödjer dig på resan mot att bli en framgångsrik klinikägare.">
     <meta name="keywords" content="franchise, starta franchise, franchise egen klinik, franchise hudvård, franchise skönhet">
     <meta property="og:title" content="Acnespecialisten" />
