@@ -75,14 +75,9 @@ $trivias = array(
             title: ' får man bort akne i ansiktet?',
             content: '<p class="p200">För att effektivt behandla akne i ansiktet rekommenderas en kombination av hudvårdsrutiner och professionella behandlingar. Använd milda rengöringsprodukter och undvik att klämma finnar. Topikala behandlingar med exfolierande och förebyggande ingredienser kan hjälpa till att rensa tilltäppta porer och minska inflammation. Besök oss på AcneSpecialisten för en kostnadsfri konsultation där vi skräddarsyr en behandlingsplan och hudvårdsrutin för dina specifika behov.</p>',
             extended_content: '',
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
+            icons: array()
       ),
 );
-
-$description_title = 'Hur får man bort akne i ansiktet?';
-$description_text = '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som kännetecknas av både pormaskar och finnar. Denna vanliga typ av akne drabbar personer i alla åldrar, men är särskilt vanlig bland tonåringar och unga vuxna. Orsakerna till ansiktsakne är många och inkluderar hormonella förändringar under puberteten, graviditet eller som en bieffekt av vissa mediciner. En överproduktion av talg tillsammans med döda hudceller skapar en miljö som gynnar tillväxten av bakterien Cutibacterium acnes, vilket leder till inflammation och akne.</p>
-
-<p class="p200 mt-m">Akne uppstår oftast på områden i ansiktet där talgkörtlar är mest aktiva, såsom käklinjen, kinderna, pannan och näsan, samt under hakan. Ibland kan akne även sprida sig till halsen, vilket kan göra tillståndet ännu svårare. Faktorer som smuts, föroreningar och stress kan också förvärra akne. Behandlingen inkluderar skräddarsydda hudvårdsrutiner som kombinerar rätt produkter och behandlingar anpassade efter aknens svårighetsgrad och typ.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
