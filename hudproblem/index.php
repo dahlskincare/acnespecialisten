@@ -84,7 +84,7 @@ $problems['aknearr'] = new Problem(
       image: 'bilder/hudproblem/424x324/acnearr.webp',
       image_alt: 'Ansikte med hudproblemet Akneärr',
       image_title: 'Akneärr',
-      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne hy. De kan vara gropig hy eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
+      info: 'Dessa ärr är en vanlig följd av akne och består av texturförändringar i huden efter skador orsakat av olika typer av akne. Det ser ut som gropar eller fläckar och variera i storlek och djup. Ärrbildningen är ett resultat av hudens läkningsprocess och kan påverka både hudens utseende och struktur.'
 );
 $problems['finnar'] = new Problem(
       button_label: 'Finnar',
@@ -112,7 +112,7 @@ $problems['arr-fran-finnar'] = new Problem(
       image: 'bilder/hudproblem/424x324/arr-fran-finnar.webp',
       image_alt: 'Ansikte med hudproblemet Ärr från finnar',
       image_title: 'Ärr från finnar',
-      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen.'
+      info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen (finnen).'
 );
 $problems['rosacea'] = new Problem(
       button_label: 'Rosacea',
@@ -126,7 +126,7 @@ $problems['rosacea'] = new Problem(
       image: 'bilder/hudproblem/424x324/rosacea.webp',
       image_alt: 'Ansikte med hudproblemet Rosacea',
       image_title: 'Rosacea',
-      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder av rodnad och ibland små, varfyllda bölder. Det kan också involvera hettande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet på kinderna och nästan.'
+      info: 'Ett kroniskt hudtillstånd som kännetecknas av episoder (skov) av rodnad och ibland små, varfyllda bölder. Det kan också involvera hettande eller stickande känsla i huden och ökad känslighet. Tillståndet är vanligast i centrala delar av ansiktet (fjärilsmönster) på kinderna och nästan.'
 );
 $problems['ytliga-blodkarl'] = new Problem(
       button_label: 'Ytliga Blodkärl',
