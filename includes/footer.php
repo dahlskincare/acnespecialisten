@@ -6,7 +6,7 @@
                 <h2 class="big l10n">Redo att sätta igång?</h2>
                 <p class="p200 l10n">Boka tid för en kostnadsfri konsultation.</p>
                 <a href="gratis-hudkonsultation.php" class="button white expand l10n">
-                    Boka gratis hudkonsultation
+                    Boka gratis konsultation
                 </a>
             </div>
         </div>
@@ -84,7 +84,7 @@
                         <h2>Upptäck</h2>
                         <ul>
                             <li>
-                                <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
+                                <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis konsultation</a>
                             </li>
                             <li>
                                 <a href="/hudproblem/" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
@@ -202,7 +202,7 @@
                             <div class="column">
                                 <h2 class="l10n">Redo att sätta igång?</h2>
                                 <p class="l10n mt-xs">
-                                    Vi inleder med en gratis hudkonsultation, identifierar ditt hudproblem och skapar en personlig behandlingsplan för dig.
+                                    Vi inleder med en gratis konsultation, identifierar ditt hudproblem och skapar en personlig behandlingsplan för dig.
                                 </p>
                             </div>
                             <div class="column">
@@ -333,7 +333,7 @@
                                     <h2>Upptäck</h2>
                                     <ul>
                                         <li>
-                                            <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis hudkonsultation</a>
+                                            <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis konsultation</a>
                                         </li>
                                         <li>
                                             <a href="/hudproblem/" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
