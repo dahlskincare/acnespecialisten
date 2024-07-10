@@ -101,6 +101,7 @@ Redirect 301 /min-hudtyp.php /hudproblem.php
 Redirect 301 /akne.php /acne.php
 Redirect 301 /latt-rosacea.aspx /rosacea.php
 Redirect 301 /faq.aspx /fragor-svar.php
+Redirect 301 /faq.php /fragor-svar.php
 Redirect 301 /mycket-fet-hy.aspx /fet-hy.php
 Redirect 301 /Torr-kanslighy.aspx /torr-hy.php
 Redirect 301 /pigmetnflackar.php /pigmentflackar.php
@@ -114,7 +115,6 @@ Redirect 301 /fore-och-efter-bilder-acnearr.php /resultat-acnearr.php
 Redirect 301 /fore-och-efter-bilder-ovrig-problemhy.php /resultat.php
 Redirect 301 /om-acnespecialisten.php /om-oss.php
 Redirect 301 /vara-salonger.php /om-oss.php
-Redirect 301 /faq.php /fragor-svar.php
 Redirect 301 /lp-boka.php /behandlingar.php
 Redirect 301 /lp-gratis-hudkonsultation.php /gratis-hudkonsultation.php
 Redirect 301 /lp-aterbesok.php /gratis-hudkonsultation.php
@@ -128,7 +128,7 @@ Redirect 301 /lp-rosaceabehandling.php /rosaceabehandling.php
 Redirect 301 /lp-milier-40.php /milierbehandling.php
 Redirect 301 /lp-milier-60.php /milierbehandling.php
 Redirect 301 /lp-acnearr-konsultation.php /behandla-acnearr.php
-Redirect 301 /lp-microdermabrasion.php /behandla-acnearr.php
+Redirect 301 /lp-microdermabrasion.php /microdermabrasion.php
 Redirect 301 /lp-ansiktsbehandling-klassisk.php /ansiktsbehandlingar.php
 Redirect 301 /lp-ansiktsbehandling-xtra-fukt.php /ansiktsbehandlingar.php
 Redirect 301 /lp-ansiktsbehandling-vitamin-c.php /ansiktsbehandlingar.php
@@ -219,6 +219,7 @@ Redirect 301 /pormaskar-haka.php /pormaskar.php
 Redirect 301 /pormaskar-kinder.php /pormaskar.php
 Redirect 301 /pormaskar-ansikte.php /pormaskar.php
 Redirect 301 /pormaskar-brost.php /pormaskar.php
+Redirect 301 /pormaskar-rygg.php /pormaskar.php
 Redirect 301 /nodulocystisk-acne.php /cystisk-acne.php
 Redirect 301 /covid-19.php /index.php
 Redirect 301 /gratis-ipl.php /hudbehandlingar/ipl/index.php
@@ -314,3 +315,18 @@ Redirect 301 behandlingsrutiner/rosacea.pdf https://www.dahlskincare.com/sv/beha
 Redirect 301 behandlingsrutiner/latt-acne.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-akne.php
 Redirect 301 behandlingsrutiner/milier.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-milier.php
 Redirect 301 behandlingsrutiner/fet-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-fet-hy.php
+Redirect 301 oljig-hy.php /fet-hy.php
+Redirect 301 behandla-atrofiska-arr.php /atrofiska-arr.php
+Redirect 301 behandla-postinflammatorisk-hyperpigmentering.php /postinflammatorisk-hyperpigmentering.php
+Redirect 301 dermapen-acnearr.php /microneedling-acnearr.php
+Redirect 301 dermapen-finnar.php /microneedling-acne.php
+Redirect 301 microneedling-finnar.php /microneedling-acne.php
+Redirect 301 tonarsfinnar.php /tonarsacne.php
+Redirect 301 vuxenfinnar.php /vuxenacne.php
+Redirect 301 resultat-finnar.php /resultat-acne.php
+Redirect 301 pormaskar-brost.php /pormaskar.php
+Redirect 301 resultat-dermapen-acnearr.php /resultat-acnearr.php
+Redirect 301 resultat-micrneedling-acnearr.php /resultat-acnearr.php
+Redirect 301 dermapen-acne.php /microneedling-acne.php
+Redirect 301 dermapen-acnearr.php /microneedling-acnearr.php
+Redirect 301 dermapen-stora-porer.php /microneedling-stora-porer.php
