@@ -113,7 +113,6 @@ section#banner {
 section#cards {
 
     .result-card {
-        max-width: 872px;
         margin: $xl auto 0 auto;
 
         @include desktop {
