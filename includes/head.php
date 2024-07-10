@@ -18,3 +18,10 @@ function icon($name)
 <!-- Preload important resources -->
 <link rel="preload" as="image" href="images/logo-green.svg">
 <link rel="stylesheet" href="/includes/widgets/widgets.css" />
+
+<?php
+// These are only included if the corresponding variables are set ($rich_product, $rich_review, $rich_article)
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/product.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/review.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/article.php');
+?>

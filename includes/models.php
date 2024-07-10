@@ -19,3 +19,4 @@ include_once($root . '/includes/models/service.php');
 include_once($root . '/includes/models/skin_guide.php');
 include_once($root . '/includes/models/specialist.php');
 include_once($root . '/includes/models/treatment.php');
+include_once($root . '/includes/models/rich_content.php');

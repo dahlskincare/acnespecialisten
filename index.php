@@ -3,13 +3,14 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-
       <link rel="canonical" href="https://www.acnespecialisten.se" />
-      
+
       <title class="l10n">Din Hudspecialist i Stockholm och Online | AcneSpecialisten</title>
+
       <meta name="title" content="Din Hudspecialist i Stockholm och Online | AcneSpecialisten" class="l10n">
       <meta name="description" content="AcneSpecialisten har över 30 års erfarenhet av alla typer av hudproblem. Boka en gratis konsultation så hjälper våra hudspecialister dig med rätt hudvård." class="l10n">
       <meta name="keywords" content="acnespecialisten, hudspecialist, hudspecialist stockholm" class="l10n">
+
 
       <meta property="og:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
       <meta property="og:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
@@ -17,7 +18,12 @@
       <meta property="twitter:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
       <meta property="twitter:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
       <meta property="twitter:image" content="images/about-desktop.jpg" />
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
+
+      <?php
+      include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php');
+      include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/organization.php');
+      include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/local_business.php');
+      ?>
       <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
       <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
       <link rel="stylesheet" href="/styles/default-layout.css">
