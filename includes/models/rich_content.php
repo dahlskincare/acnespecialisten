@@ -49,5 +49,5 @@ class RichArticle
     public string $description;
     public string $image;
     public string $author;
-    public int $date_published;
+    public string $date_published;
 }
