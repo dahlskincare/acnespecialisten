@@ -50,7 +50,7 @@
             </div>
             <div id="ghb-main">
                 <div id="ghb-texts-col">
-                    <h1><?php echo $green_banner_content->title ?></h1>
+                    <div class="h600"><?php echo $green_banner_content->title ?></div>
                     <?php if (sizeof($green_banner_content->akas) > 0) { ?>
                         <div id="ghb-akas">
                             <span class="p200">Även känt som</span>
