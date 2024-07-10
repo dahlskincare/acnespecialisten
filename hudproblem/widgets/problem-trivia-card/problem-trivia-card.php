@@ -3,16 +3,16 @@
         <span class="trivia-prefix"><?php echo $trivia->prefix ?></span><span><?php echo $trivia->title ?></span>
     </h3>
     <?php if (sizeof($trivia->icons) > 0) { ?>
-        <div class="flex-row">
+        <ul class="flex-row">
             <?php foreach ($trivia->icons as $icon => $label) { ?>
-                <div class="trivia-icon">
+                <li class="trivia-icon">
                     <?php
                     icon($icon);
                     echo '<div>' . $label . '</div>';
                     ?>
-                </div>
+                </li>
             <?php } ?>
-        </div>
+        </ul>
     <?php } ?>
     <div class="p200 mt-m">
         <?php echo $trivia->content ?>

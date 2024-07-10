@@ -13,6 +13,8 @@ div.problem-trivia-card-widget {
     .flex-row {
         flex-wrap: wrap;
         justify-content: flex-start;
+        list-style-type: none;
+        padding: 0;
 
         .trivia-icon {
             margin-top: $xl;
