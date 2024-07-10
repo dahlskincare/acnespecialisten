@@ -2,6 +2,8 @@ FROM php:8.0-apache
 RUN docker-php-ext-install mysqli
 RUN apt-get update 
 RUN apt-get install -y nodejs npm
+RUN npm install -g n
+RUN n 14
 RUN a2enmod rewrite
 RUN service apache2 restart
 RUN apt install git -y

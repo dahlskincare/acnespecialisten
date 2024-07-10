@@ -33,4 +33,17 @@ namespace HeaderDesktop {
             overlay.classList.add('active');
         }
     }
+
+    // Start top ("important notice") slideshow
+    let slideIndex = 0;
+    const notice = document.querySelector('#important-notice');
+    const slides = notice.querySelectorAll('.important-notice-slide');
+    if (slides.length > 0) {
+        slides[0].classList.remove('is-hidden');
+        setInterval(() => {
+            slides[slideIndex].classList.add('is-hidden');
+            slideIndex = (slideIndex + 1) % slides.length;
+            slides[slideIndex].classList.remove('is-hidden');
+        }, 12000);
+    }
 }
