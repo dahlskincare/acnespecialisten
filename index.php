@@ -35,7 +35,7 @@
       <main>
             <section id="banner">
                   <div id="banner-background">
-                        <video autoplay muted loop id="banner-video">
+                        <video autoplay muted loop playsinline id="banner-video">
                         </video>
                         <div class="container">
                               <h1 class="h700 l10n">AcneSpecialisten,<br />din hudspecialist i <br />Stockholm och Online</h1>
