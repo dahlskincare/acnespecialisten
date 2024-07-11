@@ -114,17 +114,17 @@
 </div>
 <header>
     <div id="important-notice">
-        <div class="important-notice-slide is-hidden">
+        <div class="important-notice-slide offscreen">
             <span class="important-notice-highlight">20%</span>
             <span>Studentrabatt</span>
             <a href="/studentrabatt/" title="Studentrabatt">Läs mer</a>
         </div>
-        <div class="important-notice-slide is-hidden">
+        <div class="important-notice-slide offscreen">
             <span class="important-notice-highlight">99%</span>
             <span>SLIDE 2</span>
             <a href="" title="Slide 2 title">Läs mer</a>
         </div>
-        <div class="important-notice-slide is-hidden">
+        <div class="important-notice-slide offscreen">
             <span class="important-notice-highlight">1%</span>
             <span>SLIDE 3</span>
             <a href="" title="Slide 3 title">Läs mer</a>

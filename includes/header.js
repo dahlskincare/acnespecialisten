@@ -43,12 +43,12 @@ var HeaderDesktop;
     var notice = document.querySelector('#important-notice');
     var slides = notice.querySelectorAll('.important-notice-slide');
     if (slides.length > 0) {
-        slides[0].classList.remove('is-hidden');
+        slides[0].classList.remove('offscreen');
         setInterval(function () {
-            slides[slideIndex].classList.add('is-hidden');
+            slides[slideIndex].classList.add('offscreen');
             slideIndex = (slideIndex + 1) % slides.length;
-            slides[slideIndex].classList.remove('is-hidden');
-        }, 12000);
+            slides[slideIndex].classList.remove('offscreen');
+        }, 6000);
     }
 })(HeaderDesktop || (HeaderDesktop = {}));
 //# sourceMappingURL=header.js.map

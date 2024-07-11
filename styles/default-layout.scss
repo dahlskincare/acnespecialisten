@@ -40,25 +40,36 @@ html {
                 color: $black-500;
                 border-bottom: 1px solid $light-100;
 
-                span.important-notice-highlight {
-                    background-color: $deep-sea-500;
-                    color: $white-500;
-                    border-radius: 36px;
-                    padding: 2px $xxs;
-                    margin-right: 2px;
-                    font-weight: bold;
-                    font-size: 12px;
+                .important-notice-slide {
+                    span.important-notice-highlight {
+                        background-color: $deep-sea-500;
+                        color: $white-500;
+                        border-radius: 36px;
+                        padding: 2px $xxs;
+                        margin-right: 2px;
+                        font-weight: bold;
+                        font-size: 12px;
 
+                    }
+
+                    span {
+                        @include p100;
+                    }
+
+                    a {
+                        @include h100;
+                        color: $deep-sea-400;
+                    }
+
+                    transition: transform 400ms ease;
                 }
 
-                span {
-                    @include p100;
+                .important-notice-slide.offscreen {
+                    transform: translateX(100vw);
+                    opacity: 0;
+                    height: 0;
                 }
 
-                a {
-                    @include h100;
-                    color: $deep-sea-400;
-                }
 
             }
 
