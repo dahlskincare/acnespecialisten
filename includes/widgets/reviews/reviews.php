@@ -139,10 +139,6 @@ if (!isset($reviews)) {
     <?php if ($show_review_banners_header) { ?>
         <div class="review-banners-header">
             <h3 class="total-reviews-title"><?php echo $total_reviews ?></h3>
-            <a href="/recensioner-omdomen.php" title="Se alla omdömen" class="button text l10n">
-                <span class="l10n">Se alla omdömen</span>
-                <?php icon('navigate-next') ?>
-            </a>
         </div>
     <?php } ?>
     <div class="review-banners">
@@ -213,4 +209,7 @@ if (!isset($reviews)) {
             </div>
         <?php } ?>
     </div>
+    <a href="/recensioner-omdomen.php" title="Se alla omdömen" class="button b200 outline mt-xl expand is-hidden-desktop l10n">
+        Se alla omdömen
+    </a>
 </div>
