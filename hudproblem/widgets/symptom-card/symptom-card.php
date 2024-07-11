@@ -13,11 +13,13 @@
         </div>
     </div>
     <div class="mt-m p200 scw-content">
-        <?php echo $symptom->content ?>
-        <div>
+        <div class="scw-content-text">
+            <?php echo $symptom->content ?>
+        </div>
+        <div class="mt-m">
             <?php if (isset($symptom->url) && isset($symptom->url_label)) { ?>
-                <a class="mt-m button is-hidden-mobile b200 compact text l10n" href="<?php echo $symptom->url ?>" title="<?php echo $symptom->url_title ?>"><?php echo $symptom->url_label ?></a>
-                <a class="mt-m button is-hidden-tablet expand outline l10n" href="<?php echo $symptom->url ?>" title="<?php echo $symptom->url_title ?>"><?php echo $symptom->url_label ?></a>
+                <a class="button is-hidden-mobile b200 compact text l10n" href="<?php echo $symptom->url ?>" title="<?php echo $symptom->url_title ?>"><?php echo $symptom->url_label ?></a>
+                <a class="button is-hidden-tablet expand outline l10n" href="<?php echo $symptom->url ?>" title="<?php echo $symptom->url_title ?>"><?php echo $symptom->url_label ?></a>
             <?php } ?>
         </div>
     </div>

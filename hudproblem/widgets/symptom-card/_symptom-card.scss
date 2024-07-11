@@ -43,10 +43,29 @@
     @media screen and (min-width: $tablet) {
         box-shadow: none;
 
-        .scw-content {
+        div.image {
+            height: 102px;
 
-            height: 150px;
-            overflow-y: hidden;
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        .scw-content {
+            .scw-content-text {
+                height: 120px;
+                overflow-y: auto;
+                text-overflow: ellipsis;
+
+                // hide scrollbar
+                &::-webkit-scrollbar {
+                    display: none;
+                }
+
+                -ms-overflow-style: none;
+
+            }
         }
     }
 }
