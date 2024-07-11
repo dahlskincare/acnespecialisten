@@ -19,32 +19,34 @@ div#content {
 
         #letter-selector-scroller {
             overflow-x: scroll;
-            scroll-behavior: smooth;
+            //scroll-behavior: smooth;
             scrollbar-width: none;
             -ms-overflow-style: none;
+            white-space: nowrap;
 
-            #letter-selector {
-                white-space: nowrap;
+            //#letter-selector {
+            //   white-space: nowrap;
 
-                .letter {
-                    @include p200;
-                    padding: $l 0;
-                    color: $dark-200;
-                    text-transform: uppercase;
-                    border-bottom: 3px solid transparent;
-                    cursor: pointer;
-                    text-align: center;
-                    display: inline-block;
-                    width: $xxl;
-                    margin-right: $l;
-                }
-
-                .letter.active {
-                    @include h200;
-                    color: $black-500;
-                    border-bottom-color: $black-500;
-                }
+            .letter {
+                @include p200;
+                padding: $l 0;
+                color: $dark-200;
+                text-transform: uppercase;
+                border-bottom: 3px solid transparent;
+                cursor: pointer;
+                text-align: center;
+                display: inline-block;
+                width: $xxl;
+                margin-right: $l;
             }
+
+            .letter.active {
+                @include h200;
+                color: $black-500;
+                border-bottom-color: $black-500;
+            }
+
+            // }
         }
 
         #letter-selector-scroller::-webkit-scrollbar {
@@ -56,15 +58,16 @@ div#content {
             top: 72px;
 
             #letter-selector-scroller {
-                #letter-selector {
-                    display: flex;
-                    justify-content: space-between;
+                //#letter-selector {
+                display: flex;
+                justify-content: space-between;
 
-                    .letter {
-                        flex: 1;
-                        margin-right: 0;
-                    }
+                .letter {
+                    flex: 1;
+                    margin-right: 0;
                 }
+
+                // }
             }
         }
     }

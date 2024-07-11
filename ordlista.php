@@ -115,7 +115,7 @@ $glossary_items = array(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/ordlista.php" />
-      
+
     <title class="l10n">Hudproblem A-Ö: ordlista från AcneSpecialisten</title>
     <meta name="title" content="Hudproblem A-Ö: ordlista från AcneSpecialisten" class="l10n">
     <meta name="description" content="Här förklarar vi mer om olika begrepp relaterade till problemhy och hudproblem. Få mer information om huden | AcneSpecialisten" class="l10n">
@@ -140,16 +140,14 @@ $glossary_items = array(
                 </section>
                 <section id="letters">
                     <div id="letter-selector-scroller">
-                        <div id="letter-selector">
-                            <?php foreach ($glossary_items as $letter => $_items) { ?>
-                                <div class="letter" id="<?php echo $letter ?>"><?php echo $letter ?></div>
-                            <?php } ?>
-                        </div>
+                        <?php foreach ($glossary_items as $letter => $_items) { ?>
+                            <div data-letter="<?php echo $letter ?>" class="letter" id="<?php echo $letter ?>"><?php echo $letter ?></div>
+                        <?php } ?>
                     </div>
                 </section>
                 <section id="glossary-items">
                     <?php foreach ($glossary_items as $letter => $items) { ?>
-                        <div class="item-category" id="category-<?php echo $letter ?>">
+                        <div data-letter="<?php echo $letter ?>" class="item-category" id="category-<?php echo $letter ?>">
                             <?php foreach ($items as $item) { ?>
                                 <div class="item">
                                     <?php if (isset($item->image_large)) { ?>
