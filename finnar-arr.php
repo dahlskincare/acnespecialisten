@@ -307,176 +307,176 @@ $articles = array(
 );
 
 $results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-1.jpg',
-        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-1.jpg',
-        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-1.jpg',
-        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-1.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-2.jpg',
-        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-2.jpg',
-        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-2.jpg',
-        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-2.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-3.jpg',
-        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-3.jpg',
-        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-3.jpg',
-        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-3.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-4.jpg',
-        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-4.jpg',
-        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-4.jpg',
-        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-4.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-5.jpg',
-        image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-5.jpg',
-        image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-5.jpg',
-        image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-5.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-1.jpg',
+            image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-1.jpg',
+            image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-1.jpg',
+            image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-1.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-2.jpg',
+            image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-2.jpg',
+            image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-2.jpg',
+            image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-2.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-3.jpg',
+            image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-3.jpg',
+            image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-3.jpg',
+            image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-3.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-4.jpg',
+            image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-4.jpg',
+            image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-4.jpg',
+            image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-4.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acnearr/resultat-acnearr-fore-5.jpg',
+            image_after_small: '/bilder/resultat/acnearr/resultat-acnearr-efter-5.jpg',
+            image_before_large: '/bilder/resultat/acnearr/resultat-acnearr-fore-5.jpg',
+            image_after_large: '/bilder/resultat/acnearr/resultat-acnearr-efter-5.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
 );
 
 $results_url_label = "Se fler resultat";
@@ -509,10 +509,6 @@ $reviews = array(
             signature: 'Jonas'
       ),
 );
-
-
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Allt du behöver veta om ärr av finnar' => array(
@@ -717,7 +713,7 @@ $brands_url_title = "Varumärken för ärr";
 <head>
 
       <link rel="canonical" href="https://www.acnespecialisten.se/finnar-arr.php" />
-      
+
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -827,7 +823,6 @@ $brands_url_title = "Varumärken för ärr";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
 
                         <section id="faq">

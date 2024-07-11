@@ -417,9 +417,6 @@ $reviews = array(
 
 );
 
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
-
 $faq_categories = array(
       'Generellt om operations- och skadeärr' => array(
             new Question(
@@ -705,14 +702,12 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
-                        <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeut</h2>

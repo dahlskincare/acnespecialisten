@@ -235,10 +235,6 @@ $reviews = array(
 
 );
 
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
-
-
 $faq_categories = array(
     '' => array(
         new Question(
@@ -403,7 +399,7 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/behandla-stora-porer.php" />
-      
+
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -475,7 +471,6 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                 </section>
                 <section id="faq">
                     <div class="flex-row align-end justify-space-between">

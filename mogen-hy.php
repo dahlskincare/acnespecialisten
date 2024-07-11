@@ -560,9 +560,6 @@ $reviews = array(
 
 );
 
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
-
 $faq_categories = array(
       'Generellt om mogen hy' => array(
             new Question(
@@ -590,8 +587,8 @@ $faq_categories = array(
                   text: '<p class="p200">Medan vissa tecken på åldrande är oundvikliga på grund av genetik och den naturliga åldringsprocessen, kan många yttre tecken på åldrande förebyggas eller minimeras. Regelbunden hudvård med behandlingar och solskydd kan alla bidra till att minska eller fördröja tecknen på hudens åldrande. När tecknen väl dyker upp finns det behandlingar och produkter som kan hjälpa till att hantera dem.</p>'
             ),
             new Question(
-                title: 'Varför får man rynkor när man blir äldre?',
-                text: '<p class="p200">Rynkor uppstår med åldern på grund av en kombination av flera faktorer. Hudens naturliga åldringsprocess leder till att produktionen av kollagen och elastin, som ger huden dess struktur och elasticitet, minskar. Exponering för UV-strålning från solen kan också bryta ner kollagen och elastin, vilket accelererar hudens åldrande. Dessutom blir huden tunnare och torrare med åldern, vilket gör den mer benägen för rynkor. Ansiktsuttryck, såsom leende och rynkande av pannan, kan över tid bidra till att permanenta linjer och veck bildas.</p>'
+                  title: 'Varför får man rynkor när man blir äldre?',
+                  text: '<p class="p200">Rynkor uppstår med åldern på grund av en kombination av flera faktorer. Hudens naturliga åldringsprocess leder till att produktionen av kollagen och elastin, som ger huden dess struktur och elasticitet, minskar. Exponering för UV-strålning från solen kan också bryta ner kollagen och elastin, vilket accelererar hudens åldrande. Dessutom blir huden tunnare och torrare med åldern, vilket gör den mer benägen för rynkor. Ansiktsuttryck, såsom leende och rynkande av pannan, kan över tid bidra till att permanenta linjer och veck bildas.</p>'
             ),
       ),
 );
@@ -752,7 +749,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
 <head>
 
       <link rel="canonical" href="https://www.acnespecialisten.se/mogen-hy.php" />
-      
+
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -897,7 +894,6 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>

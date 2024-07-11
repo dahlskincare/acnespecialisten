@@ -242,9 +242,6 @@ $reviews = array(
 
 );
 
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
-
 $faq_categories = array(
       'Generellt om oönskat hår' => array(
             new Question(
@@ -389,7 +386,7 @@ $brands_url_title = "Varumärken för oönskat hår";
 <head>
 
       <link rel="canonical" href="https://www.acnespecialisten.se/hudproblem/oonskat-har/" />
-      
+
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -477,14 +474,12 @@ $brands_url_title = "Varumärken för oönskat hår";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
-                        <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>

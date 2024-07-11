@@ -175,7 +175,7 @@ $products = array(
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av rosacea',
             image_title: 'Effektiva produkter för behandling och förebyggande av rosacea',
-            
+
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot rosacea',
@@ -198,7 +198,7 @@ $procedures = array(
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
             image_alt: 'Behandla rosacea med IPL',
             image_title: 'Behandla rosacea med IPL',
-            
+
             url: 'ipl-rosacea.php',
             url_label: 'Läs mer om behandlingarna',
             url_title: 'Klicka här för att läsa mer om våra behandlingar mot ytliga blodkärl',
@@ -214,176 +214,176 @@ $procedures = array(
 );
 
 $results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-1.jpg',
-        image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-1.jpg',
-        image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-1.jpg',
-        image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-1.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-2.jpg',
-        image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-2.jpg',
-        image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-2.jpg',
-        image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-2.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-3.jpg',
-        image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-3.jpg',
-        image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-3.jpg',
-        image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-3.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-4.jpg',
-        image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-4.jpg',
-        image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-4.jpg',
-        image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-4.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-5.jpg',
-        image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-5.jpg',
-        image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-5.jpg',
-        image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-5.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-1.jpg',
+            image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-1.jpg',
+            image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-1.jpg',
+            image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-1.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-2.jpg',
+            image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-2.jpg',
+            image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-2.jpg',
+            image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-2.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-3.jpg',
+            image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-3.jpg',
+            image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-3.jpg',
+            image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-3.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-4.jpg',
+            image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-4.jpg',
+            image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-4.jpg',
+            image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-4.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-5.jpg',
+            image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-5.jpg',
+            image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-5.jpg',
+            image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-5.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
 );
 
 $show_all_results_label = "Se fler resultat";
@@ -419,9 +419,6 @@ $reviews = array(
       ),
 
 );
-
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om rhinophyma rosacea' => array(
@@ -622,7 +619,7 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
 <head>
 
       <link rel="canonical" href="https://www.acnespecialisten.se/rhinophyma-rosacea.php" />
-      
+
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -732,7 +729,6 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>

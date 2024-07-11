@@ -399,142 +399,142 @@ $articles = array(
 );
 
 $results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-1.jpg',
-        image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-1.jpg',
-        image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-1.jpg',
-        image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-1.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-2.jpg',
-        image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-2.jpg',
-        image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-2.jpg',
-        image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-2.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-3.jpg',
-        image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-3.jpg',
-        image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-3.jpg',
-        image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-3.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-4.jpg',
-        image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-4.jpg',
-        image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-4.jpg',
-        image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-4.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-1.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-1.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-1.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-1.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-2.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-2.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-2.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-2.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-3.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-3.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-3.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-3.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-4.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-4.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-4.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-4.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
 );
 
 $results_url_label = "Se fler resultat";
@@ -570,9 +570,6 @@ $reviews = array(
       ),
 
 );
-
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om ytliga blodkärl' => array(
@@ -735,7 +732,7 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
 <head>
 
       <link rel="canonical" href="https://www.acnespecialisten.se/ytliga-blodkarl.php" />
-      
+
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -881,14 +878,12 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
-                        <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>

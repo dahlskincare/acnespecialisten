@@ -151,7 +151,7 @@ $services = array(
             duration: '60 min',
             price: '1295 kr',
             content: 'En effektiv behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
-            
+
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Kvinna som får en ansiktsbehandling',
@@ -174,7 +174,7 @@ $services = array(
             duration: '50 min',
             price: '2595 kr',
             content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
-            
+
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Kvinna som får en laserbehandling',
@@ -221,7 +221,7 @@ $services = array(
             duration: '50 min',
             price: '2595 kr',
             content: 'Microneedling skapar små kanaler i huden för att främja läkning och kollagenproduktion, behandla akneutbrott och minska akneärr.',
-            
+
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Kvinna som får microneedling behandling',
@@ -300,346 +300,346 @@ $description_text = '<p class="p200">Akne på bröstet är en hudåkomma som kan
 
 
 $results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-1.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-1.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-1.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-1.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-2.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-2.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-2.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-2.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-3.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-3.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-3.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-3.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-4.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-4.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-4.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-4.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-5.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-5.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-5.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-5.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-6.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-6.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-6.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-6.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-7.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-7.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-7.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-7.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-8.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-8.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-8.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-8.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-9.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-9.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-9.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-9.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/acne/resultat-acne-fore-10.jpg',
-        image_after_small: '/bilder/resultat/acne/resultat-acne-efter-10.jpg',
-        image_before_large: '/bilder/resultat/acne/resultat-acne-fore-10.jpg',
-        image_after_large: '/bilder/resultat/acne/resultat-acne-efter-10.jpg',
-        url_title: 'Resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 1,
-        gender: '',
-        problem: '',
-        type: '',
-        treatment: new ResultTreatment(
-            duration: '',
-            procedures: array(
-                new ResultProcedure(
-                    image: '',
-                    name: '',
-                    count: ''
-                ),
-            ),
-            product: new ResultProduct(
-                image: '',
-                name: '',
-            ),
-            employee: new ResultEmployee(
-                image: '',
-                name: ''
-            ),
-        )
-    ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-1.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-1.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-1.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-1.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-2.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-2.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-2.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-2.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-3.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-3.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-3.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-3.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-4.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-4.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-4.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-4.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-5.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-5.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-5.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-5.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-6.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-6.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-6.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-6.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-7.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-7.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-7.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-7.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-8.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-8.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-8.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-8.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-9.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-9.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-9.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-9.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/acne/resultat-acne-fore-10.jpg',
+            image_after_small: '/bilder/resultat/acne/resultat-acne-efter-10.jpg',
+            image_before_large: '/bilder/resultat/acne/resultat-acne-fore-10.jpg',
+            image_after_large: '/bilder/resultat/acne/resultat-acne-efter-10.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
 );
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
@@ -675,8 +675,6 @@ $reviews = array(
 
 );
 
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -848,7 +846,7 @@ $brands_url_title = "Se alla varumärken";
 <head>
 
       <link rel="canonical" href="https://www.acnespecialisten.se/acne-brost.php" />
-      
+
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -887,7 +885,7 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
 
-                           <section id="about">
+                        <section id="about">
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
@@ -912,7 +910,7 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                          <section id="define">
+                        <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
@@ -944,7 +942,7 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
 
-                
+
 
 
                         <section id="results">
@@ -959,7 +957,6 @@ $brands_url_title = "Se alla varumärken";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <!--Hudguide-->
                         <section id="specialists">

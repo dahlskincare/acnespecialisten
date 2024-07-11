@@ -318,82 +318,82 @@ $symptoms_title = 'Symtom';
 
 $symptoms = array(
       new Symptom(
-          name: 'Fjällande Hud',
-          aka: 'Hudflagor',
-          content: 'Det är vanligt att få små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram. Fjällande hud uppstår när de yttre hudcellerna lossnar på grund av brist på fukt, vilket ofta resulterar i en grov och ojämn yta.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/flagnande-hud.webp',
-          image_alt: 'Bild av hud med hudflagor eller fjällande hud',
-          image_title: 'Hudflagor eller Fjällande Hud'
+            name: 'Fjällande Hud',
+            aka: 'Hudflagor',
+            content: 'Det är vanligt att få små hudflagor, vilket är ett tecken på extrem torrhet. Huden kan även kännas stram. Fjällande hud uppstår när de yttre hudcellerna lossnar på grund av brist på fukt, vilket ofta resulterar i en grov och ojämn yta.',
+
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/flagnande-hud.webp',
+            image_alt: 'Bild av hud med hudflagor eller fjällande hud',
+            image_title: 'Hudflagor eller Fjällande Hud'
       ),
       new Symptom(
-          name: 'Rodnad',
-          aka: 'Rödflammig hud',
-          content: 'Huden kan visa tecken på rodnad, särskilt efter exponering för väder eller kosmetiska produkter. Rodnad är ett tecken på inflammation eller irritation och kan vara lokaliserad i fläckar eller över större hudområden, vilket gör huden röd och känslig.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/rodnad.webp',
-          image_alt: 'Bild av hud med rodnad',
-          image_title: 'Rödhet i huden'
+            name: 'Rodnad',
+            aka: 'Rödflammig hud',
+            content: 'Huden kan visa tecken på rodnad, särskilt efter exponering för väder eller kosmetiska produkter. Rodnad är ett tecken på inflammation eller irritation och kan vara lokaliserad i fläckar eller över större hudområden, vilket gör huden röd och känslig.',
+
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/rodnad.webp',
+            image_alt: 'Bild av hud med rodnad',
+            image_title: 'Rödhet i huden'
       ),
       new Symptom(
-          name: 'Klåda',
-          aka: 'Irriterad hud',
-          content: 'Torr och känslig hy kan vara mycket irriterande och klåda är en vanlig känsla. Klåda uppstår när huden är torr och inflammerad, vilket triggar kroppens reaktion att klia för att försöka lindra obehaget, men det kan leda till ytterligare irritation och skador.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/klada-ansikte.webp',
-          image_alt: 'Bild av hud med klåda',
-          image_title: 'Klåda'
+            name: 'Klåda',
+            aka: 'Irriterad hud',
+            content: 'Torr och känslig hy kan vara mycket irriterande och klåda är en vanlig känsla. Klåda uppstår när huden är torr och inflammerad, vilket triggar kroppens reaktion att klia för att försöka lindra obehaget, men det kan leda till ytterligare irritation och skador.',
+
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/klada-ansikte.webp',
+            image_alt: 'Bild av hud med klåda',
+            image_title: 'Klåda'
       ),
       new Symptom(
-          name: 'Brännande Känsla',
-          aka: 'Stickande känsla',
-          content: 'Det kan kännas som att huden bränner, särskilt efter applicering av hudvårdsprodukter eller exponering för vissa miljöfaktorer. Brännande känsla är ofta ett resultat av att hudens barriär är skadad och nervändarna blir mer känsliga, vilket leder till en obehaglig, brännande upplevelse.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/irriterad-hy.webp',
-          image_alt: 'Bild av hud med brännande känsla',
-          image_title: 'Brännande Känsla'
+            name: 'Brännande Känsla',
+            aka: 'Stickande känsla',
+            content: 'Det kan kännas som att huden bränner, särskilt efter applicering av hudvårdsprodukter eller exponering för vissa miljöfaktorer. Brännande känsla är ofta ett resultat av att hudens barriär är skadad och nervändarna blir mer känsliga, vilket leder till en obehaglig, brännande upplevelse.',
+
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/irriterad-hy.webp',
+            image_alt: 'Bild av hud med brännande känsla',
+            image_title: 'Brännande Känsla'
       ),
       new Symptom(
-          name: 'Ökad reaktivitet',
-          aka: 'Reaktiv hud',
-          content: 'Huden kan reagera mer än normalt på väderförändringar, som värme, kyla, eller vind. Ökad reaktivitet innebär att huden blir extra känslig och lätt inflammerad eller irriterad vid yttre påfrestningar, vilket kan resultera i rodnad, klåda och obehag.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/rodnad-kinder.webp',
-          image_alt: 'Bild av hud med ökad reaktivitet',
-          image_title: 'Ökad reaktivitet'
+            name: 'Ökad reaktivitet',
+            aka: 'Reaktiv hud',
+            content: 'Huden kan reagera mer än normalt på väderförändringar, som värme, kyla, eller vind. Ökad reaktivitet innebär att huden blir extra känslig och lätt inflammerad eller irriterad vid yttre påfrestningar, vilket kan resultera i rodnad, klåda och obehag.',
+
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/rodnad-kinder.webp',
+            image_alt: 'Bild av hud med ökad reaktivitet',
+            image_title: 'Ökad reaktivitet'
       ),
       new Symptom(
-          name: 'Ojämn hudton',
-          aka: 'Hyperpigmentering',
-          content: 'I vissa fall kan torr och känslig hud leda till ojämn hudton eller mörka fläckar. Ojämn hudton uppstår när inflammatoriska processer påverkar pigmentproduktionen i huden, vilket kan orsaka hyperpigmentering eller fläckar med olika nyanser.',
-          
-          url_label: null,
-          url: null,
-          url_title: null,
-          
-          image: 'bilder/symptom/102x102/ojamn-hudton.webp',
-          image_alt: 'Bild av hud med ojämn ton eller hyperpigmentering',
-          image_title: 'Ojämn hudton eller hyperpigmentering'
+            name: 'Ojämn hudton',
+            aka: 'Hyperpigmentering',
+            content: 'I vissa fall kan torr och känslig hud leda till ojämn hudton eller mörka fläckar. Ojämn hudton uppstår när inflammatoriska processer påverkar pigmentproduktionen i huden, vilket kan orsaka hyperpigmentering eller fläckar med olika nyanser.',
+
+            url_label: null,
+            url: null,
+            url_title: null,
+
+            image: 'bilder/symptom/102x102/ojamn-hudton.webp',
+            image_alt: 'Bild av hud med ojämn ton eller hyperpigmentering',
+            image_title: 'Ojämn hudton eller hyperpigmentering'
       ),
 );
 
@@ -624,9 +624,6 @@ $reviews = array(
       ),
 
 );
-
-$review_url_label = "Läs fler omdömen";
-$review_url_title = "AcneSpecialisten Omdömen";
 
 $faq_categories = array(
       'Generellt om torr och känslig hy' => array(
@@ -910,7 +907,7 @@ $brands_url_title = "Varumärken för behandling av torr och känslig hy";
 <head>
 
       <link rel="canonical" href="https://www.acnespecialisten.se/torr-hy.php" />
-      
+
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
       <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -1064,14 +1061,12 @@ $brands_url_title = "Varumärken för behandling av torr och känslig hy";
                               $reviews_narrow = true;
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $review_url_title ?>" href="https://se.trustpilot.com/review/acnespecialisten.se"><?php echo $review_url_label ?></a>
                         </section>
                         <section id="faq">
                               <h2 class="big l10n">Frågor & Svar</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
-                        <!--Hudguide-->
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>
