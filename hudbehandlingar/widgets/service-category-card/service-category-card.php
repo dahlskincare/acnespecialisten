@@ -23,8 +23,12 @@
         <div class="is-hidden-tablet">
             <a href="<?php echo $category->url ?>" class="mt-m button outline expand" title="<?php echo $category->read_more_title ?>"><?php echo $category->read_more_label ?></a>
             <hr>
-            <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand"><?php echo $category->consultation_url_label ?></a>
-            <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="mt-s button expand"><?php echo $category->booking_url_label ?></a>
+            <?php if (isset($category->consultation_url)) { ?>
+                <a href="<?php echo $category->consultation_url ?>" title="<?php echo $category->consultation_url_title ?>" class="button expand"><?php echo $category->consultation_url_label ?></a>
+            <?php } ?>
+            <?php if (isset($category->booking_url)) { ?>
+                <a href="<?php echo $category->booking_url ?>" title="<?php echo $category->booking_url_title ?>" class="mt-s button expand"><?php echo $category->booking_url_label ?></a>
+            <?php } ?>
         </div>
         <div class="is-hidden-mobile">
             <a href="<?php echo $category->url ?>" class="mt-m button text compact" title="<?php echo $category->read_more_title ?>"><?php echo $category->read_more_label ?></a>
