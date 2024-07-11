@@ -297,7 +297,7 @@ html {
 
         div#desktop-nav-overlay {
             position: fixed;
-            top: $large-header-height + $important-notice-height;
+            top: $large-header-height;
             border-top: 1px solid $light-200;
             z-index: 100;
             width: 0;
@@ -742,6 +742,12 @@ html {
                     }
                 }
             }
+        }
+    }
+
+    body.top {
+        div#desktop-nav-overlay {
+            top: $large-header-height + $important-notice-height;
         }
     }
 }

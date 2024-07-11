@@ -450,12 +450,12 @@
 </footer>
 
 <script>
-    if (document.body.clientWidth <= 800) {
-        window.addEventListener('scroll', setSticky, {
-            passive: true
-        });
+    window.addEventListener('scroll', onScroll, {
+        passive: true
+    });
 
-        function setSticky() {
+    function onScroll() {
+        if (document.body.clientWidth <= 800) {
             var flag = window.scrollY > 700;
             var container = document.querySelector('#footer-consultation-button-container');
             if (flag == true) {
@@ -466,6 +466,18 @@
                 document.body.style.paddingBottom = null;
             }
         }
+
+        if (document.scrollingElement.scrollTop == 0) {
+            document.body.classList.add('top');
+        } else {
+            document.body.classList.remove('top');
+        }
+    }
+
+    if (document.scrollingElement.scrollTop == 0) {
+        document.body.classList.add('top');
+    } else {
+        document.body.classList.remove('top');
     }
 </script>
 
