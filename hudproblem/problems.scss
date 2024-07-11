@@ -212,11 +212,6 @@ section#cards {
             border-bottom-left-radius: $radius-l;
             border-bottom-right-radius: $radius-l;
 
-            p {
-                height: 180px;
-                overflow-y: auto;
-            }
-
             hr {
                 margin: $m 0;
                 border: 0;
@@ -240,10 +235,13 @@ section#cards {
             box-shadow: none;
 
             .problem-area-card-content {
+                p {
+                    height: 180px;
+                    overflow-y: auto;
+                }
+
                 hr {
-                    @media screen and (min-width: $tablet) {
-                        margin: $xl 0;
-                    }
+                    margin: $xl 0;
                 }
             }
         }
