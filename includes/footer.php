@@ -138,11 +138,11 @@
                             <h2>Företag</h2>
                             <ul>
                                 <li>
-                                     <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
-                                    
+                                    <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
+
                                 </li>
                                 <li>
-                                   <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
+                                    <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                                 </li>
                                 <li>
                                     <a href="/hudterapeut/" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
@@ -167,9 +167,38 @@
                     </div>
                 </div>
                 <div id="footer-consultation-button-container">
-                    <a href="gratis-hudkonsultation.php" id="consultation-button" class="button expand l10n">
-                        Boka gratis konsultation
-                    </a>
+                    <?php if (isset($model->booking_url) || isset($model->consultation_url)) { ?>
+                        <div class="fcb-buttons">
+                            <?php if (isset($model->booking_url)) { ?>
+                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button expand">
+                                    <?php echo $model->booking_url_label ?>
+                                </a>
+                            <?php } ?>
+                            <?php if (isset($model->consultation_url)) { ?>
+                                <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button expand">
+                                    <?php echo $model->consultation_url_label ?>
+                                </a>
+                            <?php } ?>
+                        </div>
+                    <?php } else if (isset($service->booking_url) || isset($service->consultation_url)) { ?>
+                        <div class="fcb-buttons">
+                            <?php if (isset($service->booking_url)) { ?>
+                                <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button expand">
+                                    <?php echo $service->booking_url_label ?>
+                                </a>
+                            <?php } ?>
+                            <?php if (isset($service->consultation_url)) { ?>
+                                <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand">
+                                    <?php echo $service->consultation_url_label ?>
+                                </a>
+                            <?php } ?>
+                        </div>
+                    <?php } else { ?>
+                        <a href="gratis-hudkonsultation.php" class="button expand l10n">
+                            Boka gratis konsultation
+                        </a>
+                    <?php } ?>
+
                     <div id="legends">
                         <div class="legend">
                             <div class="legend-title">
@@ -385,16 +414,16 @@
                                     <ul>
                                         <li>
                                             <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
-                                           
+
                                         </li>
                                         <li>
-                                             <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
+                                            <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                                         </li>
                                         <li>
                                             <a href="/hudterapeut/" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
                                         </li>
                                         <li>
-                                            <a href="karriar.php"class="button text grey compact l10n" title="Se våra lediga tjänster">Din karriär</a>
+                                            <a href="karriar.php" class="button text grey compact l10n" title="Se våra lediga tjänster">Din karriär</a>
                                         </li>
                                     </ul>
                                 </div>

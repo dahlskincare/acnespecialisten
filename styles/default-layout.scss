@@ -550,8 +550,16 @@ html {
                         background-color: $white-500;
                         box-sizing: border-box;
 
-                        #consultation-button {
-                            margin-top: $xl3;
+                        .fcb-buttons {
+                            display: flex;
+
+                            margin-left: - $xs;
+                            margin-right: - $xs;
+
+                            a {
+                                margin-left: $xs;
+                                margin-right: $xs;
+                            }
                         }
 
                         #legends {
