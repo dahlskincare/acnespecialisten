@@ -5,7 +5,7 @@
             <a href="/">
                 <img src="images/logo-green.svg" alt="Acnespecialisten logo" title="Acnespecialisten logo" width="139" height="25" />
             </a>
-            <div onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
+            <div id="mobile-nav-close" onclick="HeaderTouch.toggleMenu()"><?php icon('close') ?></div>
         </div>
         <div id="mobile-nav-links">
             <a href="/hudproblem/" class="mobile-nav-link l10n" title="Hudproblem">Hudproblem</a>

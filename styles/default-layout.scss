@@ -67,6 +67,11 @@ html {
                 align-items: center;
                 justify-content: space-between;
                 height: $xl4;
+
+                #menu-button {
+                    padding: $m;
+                    margin-right: -$m;
+                }
             }
 
 
@@ -149,11 +154,13 @@ html {
                     font-size: 0;
                     height: $xl4;
                     display: flex;
+
                     align-items: center;
                     justify-content: space-between;
 
-                    .icon {
-                        cursor: pointer;
+                    #mobile-nav-close {
+                        padding: $m;
+                        margin-right: -$m;
                     }
                 }
 
