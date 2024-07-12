@@ -1,5 +1,6 @@
 .brands-widget {
   margin-top: $m;
+  position: relative;
 
   .flex-container {
     display: flex;
@@ -36,7 +37,10 @@
     .flex-item:active {
       background-color: $light-50;
     }
+  }
 
+  .brand-mask {
+    display: none;
   }
 
   @media screen and (min-width: $tablet) {
@@ -72,5 +76,25 @@
     .flex-container::-webkit-scrollbar-thumb:hover {
       background: $light-500;
     }
+
+    .brand-mask {
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 88px;
+      height: 100%;
+
+    }
+
+    #brand-mask-left {
+      left: -1px;
+      background: linear-gradient(to right, $white-500 0%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    #brand-mask-right {
+      background: linear-gradient(to left, $white-500 0%, rgba(255, 255, 255, 0) 100%);
+      right: -1px;
+    }
   }
+
 }

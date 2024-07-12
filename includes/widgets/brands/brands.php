@@ -141,4 +141,6 @@ if (!isset($brands)) {
                   </a>
             <?php } ?>
       </div>
+      <div class="brand-mask" id="brand-mask-left"></div>
+      <div class="brand-mask" id="brand-mask-right"></div>
       <div>
