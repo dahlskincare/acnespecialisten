@@ -1,5 +1,5 @@
 <div class="service-category-card">
-    <a href="<?php echo $category->url ?>" title="<?php echo $category->read_more_label ?>">
+    <a href="<?php echo $category->url ?>" title="<?php echo $category->read_more_label ?>" class="scc-image">
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $category->image_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $category->image_large ?>">

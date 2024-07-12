@@ -10,10 +10,18 @@
     margin-top: $xl;
     @include elevation-low();
 
-    img {
-        width: 100%;
-        height: auto;
+    .scc-image {
+        overflow: hidden;
+        display: block;
+
+
+        img {
+            width: 100%;
+            height: auto;
+            transition: transform 600ms ease;
+        }
     }
+
 
     .service-category-card-content {
         padding: $xl;
@@ -75,5 +83,11 @@
 
     .service-category-card:hover {
         @include elevation-low();
+
+        .scc-image {
+            img {
+                transform: scale(1.1);
+            }
+        }
     }
 }
