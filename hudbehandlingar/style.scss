@@ -18,6 +18,7 @@ section#banner {
 
         .treatment {
             text-align: center;
+            background-color: $white-500;
             border: 1px solid $light-200;
             height: 72px;
             margin-left: -1px;
@@ -25,6 +26,10 @@ section#banner {
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        .treatment:hover {
+            background-color: $light-25;
         }
 
         .treatment:nth-child(6n) {
