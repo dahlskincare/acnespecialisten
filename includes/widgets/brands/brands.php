@@ -141,6 +141,11 @@ if (!isset($brands)) {
                   </a>
             <?php } ?>
       </div>
-      <div class="brand-mask" id="brand-mask-left"></div>
-      <div class="brand-mask" id="brand-mask-right"></div>
-      <div>
+      <div class="brand-mask is-hidden" id="brand-mask-left">
+            <div class="brand-mask-scroll-button" onclick="Brands.scroll(-1)"><?php icon('arrow-left') ?></div>
+      </div>
+      <div class="brand-mask" id="brand-mask-right">
+            <div class="brand-mask-scroll-button" onclick="Brands.scroll(1)"><?php icon('arrow-right') ?></div>
+      </div>
+</div>
+<script src="includes/widgets/brands/brands.js"></script>
