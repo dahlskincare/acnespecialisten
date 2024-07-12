@@ -75,12 +75,18 @@ section#links {
 
         .psf-treatment {
             padding: 10px $m;
-            background-color: $light-50;
+            //background-color: $light-200;
+            //color: $dark-400;
             margin-right: $xxs;
             margin-bottom: $xxs;
-            border-radius: $radius-s;
+            //border-radius: $radius-s;
             @include h200;
         }
+
+        /*
+        .psf-treatment:hover {
+            background-color: $light-50;
+        }*/
     }
 }
 

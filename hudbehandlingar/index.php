@@ -525,7 +525,7 @@ $path_segments = array(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/" />
-      
+
     <title class="l10n">Hudbehandling i Stockholm - AcneSpecialisten</title>
     <meta name="title" content="Hudbehandling i Stockholm - AcneSpecialisten" class="l10n">
     <meta name="description" content="Boka hudbehandling hos AcneSpecialisten i Stockholm. Effektiva och skräddarsydda hudbehandlingar för varje hudtyp. Boka gratis hudkonsultation!" class="l10n">
@@ -556,7 +556,7 @@ $path_segments = array(
                 <p class="p100" id="psf-title"><?php echo $people_search_for_title ?></p>
                 <div id="psf">
                     <?php foreach ($people_search_for as $treatment) { ?>
-                        <a class="psf-treatment" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
+                        <a class="button grey b200 psf-treatment" href="<?php echo $treatment->url ?>" title="<?php echo $treatment->url_title ?>"><?php echo $treatment->label ?></a>
                     <?php } ?>
                 </div>
             </div>
