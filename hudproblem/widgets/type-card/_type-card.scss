@@ -2,6 +2,9 @@
 @import '../../../styles/util/mixins';
 @import '../../../styles/util/sizes';
 
+$image_size_s: 102px;
+$image_size_l: 204px;
+
 .type-card-widget {
     position: relative;
     margin-top: $m;
@@ -12,11 +15,30 @@
 
     div.image {
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: $image_size_s;
+        height: $image_size_s;
+        flex: 0 0 $image_size_s;
 
         img {
-            width: 100%;
+            width: auto;
             height: auto;
+            max-height: $image_size_s;
+            max-width: $image_size_s;
             border-radius: $radius-s;
+        }
+
+        @include desktop {
+            width: $image_size_l;
+            height: $image_size_l;
+            flex: 0 0 $image_size_l;
+
+            img {
+                max-height: $image_size_l;
+                max-width: $image_size_l;
+            }
         }
     }
 
