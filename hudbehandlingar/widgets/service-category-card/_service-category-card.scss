@@ -28,12 +28,11 @@
                 margin-top: $xs;
                 margin-right: $xs;
                 padding: $xs $s;
-
                 white-space: nowrap;
-                color: $black-500;
-                background-color: $light-100;
-                transition: color 300ms ease, background-color 300ms ease;
+                font-weight: normal;
             }
+
+
         }
 
         hr {

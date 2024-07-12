@@ -13,7 +13,7 @@
             </h3>
             <div class="service-links">
                 <?php foreach ($category->services as $service) { ?>
-                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="service-link"><?php echo $service->label ?></a>
+                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="service-link button grey"><?php echo $service->label ?></a>
                 <?php } ?>
             </div>
         </div>
