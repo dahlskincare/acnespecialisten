@@ -9,7 +9,9 @@
             </div>
         </div>
     </div>
-    <div class="ro-info">
-        <?php echo $result->treatment->duration ?>
-    </div>
+    <?php if (isset($result->treatment->duration) && !empty($result->treatment->duration) > 0) { ?>
+        <div class="ro-info">
+            <?php echo $result->treatment->duration ?>
+        </div>
+    <?php } ?>
 </div>

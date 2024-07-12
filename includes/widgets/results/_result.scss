@@ -2,6 +2,9 @@
     margin-top: $xl;
     user-select: none;
     flex: 1 0 100%;
+    border-bottom-left-radius: $radius-l;
+    border-bottom-right-radius: $radius-l;
+    overflow: hidden;
 
     .ro-images {
         background-color: $light-200;
