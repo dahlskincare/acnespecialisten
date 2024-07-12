@@ -11,6 +11,8 @@ $large-header-height: 72px;
 $important-notice-height: 38px;
 
 html {
+    overflow-x: hidden;
+
     body {
         overflow-x: hidden;
         overflow-y: auto;
