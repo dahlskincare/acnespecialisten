@@ -21,7 +21,7 @@ var Brands;
         }
     });
     function scroll(dir) {
-        container.scrollBy({ left: 250 * dir });
+        container.scrollBy({ left: 350 * dir });
     }
     Brands.scroll = scroll;
 })(Brands || (Brands = {}));
