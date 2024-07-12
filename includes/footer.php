@@ -13,25 +13,25 @@
         <div class="container">
             <div id="footer-brands">
                 <a href="https://www.klarna.se" target="_blank" rel="nofollow">
-                    <img src="images/brands/brand-icon-klarna.png" alt="Klarna" title="Klarna" width="40" height="40" />
+                    <img src="images/brands/brand-icon-klarna.svg" alt="Klarna" title="Klarna" width="40" height="40" />
                 </a>
                 <a href="https://www.americanexpress.com/sv-se/" target="_blank" rel="nofollow">
-                    <img src="images/brands/brand-icon-amex.png" alt="Amex" title="Amex" width="40" height="40" />
+                    <img src="images/brands/brand-icon-amex.svg" alt="Amex" title="Amex" width="40" height="40" />
                 </a>
                 <a href="https://www.qliro.com/sv-se" target="_blank" rel="nofollow">
-                    <img src="images/brands/brand-icon-qliro.png" alt="Qliro" title="Qliro" width="40" height="40" />
+                    <img src="images/brands/brand-icon-qliro.svg" alt="Qliro" title="Qliro" width="40" height="40" />
                 </a>
                 <a href="https://www.swish.nu" target="_blank" rel="nofollow">
-                    <img src="images/brands/brand-icon-swish.png" alt="Swish" title="Swish" width="40" height="40" />
+                    <img src="images/brands/brand-icon-swish.svg" alt="Swish" title="Swish" width="40" height="40" />
                 </a>
                 <a href="https://www.if.se" target="_blank" rel="nofollow">
-                    <img src="images/brands/brand-icon-if.png" alt="If" title="If" width="40" height="40" />
+                    <img src="images/brands/brand-icon-if.svg" alt="If" title="If" width="40" height="40" />
                 </a>
                 <a href="https://www.shr.nu" target="_blank" rel="nofollow">
-                    <img src="images/brands/brand-icon-shr.png" alt="Shr" title="Shr" width="40" height="40" />
+                    <img src="images/brands/brand-icon-shr.svg" alt="Shr" title="Shr" width="40" height="40" />
                 </a>
                 <a href="https://www.bokadirekt.se/AcneSpecialisten/var" target="_blank" rel="nofollow">
-                    <img src="images/brands/brand-icon-bokadirekt.png" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
+                    <img src="images/brands/brand-icon-bokadirekt.svg" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                 </a>
             </div>
             <div id="footer-contact">
@@ -273,16 +273,16 @@
                         <div class="flex-row">
                             <span class="h200 l10n">Betalningsmetoder</span>
                             <a href="https://www.klarna.com" target="_blank" rel="nofollow">
-                                <img src="images/brands/brand-icon-klarna.png" alt="Klarna" title="Klarna" width="40" height="40" />
+                                <img src="images/brands/brand-icon-klarna.svg" alt="Klarna" title="Klarna" width="40" height="40" />
                             </a>
                             <a href="https://www.amex.com" target="_blank" rel="nofollow">
-                                <img src="images/brands/brand-icon-amex.png" alt="Amex" title="Amex" width="40" height="40" />
+                                <img src="images/brands/brand-icon-amex.svg" alt="Amex" title="Amex" width="40" height="40" />
                             </a>
                             <a href="https://www.qliro.com/sv-se" target="_blank" rel="nofollow">
-                                <img src="images/brands/brand-icon-qliro.png" alt="Qliro" title="Qliro" width="40" height="40" />
+                                <img src="images/brands/brand-icon-qliro.svg" alt="Qliro" title="Qliro" width="40" height="40" />
                             </a>
                             <a href="https://www.swish.nu" target="_blank" rel="nofollow">
-                                <img src="images/brands/brand-icon-swish.png" alt="Swish" title="Swish" width="40" height="40" />
+                                <img src="images/brands/brand-icon-swish.svg" alt="Swish" title="Swish" width="40" height="40" />
                             </a>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Patientskadeförsäkrings hos IF</span>
                             <a href="https://www.if.se" target="_blank" rel="nofollow">
-                                <img src="images/brands/brand-icon-if.png" alt="If" title="If" width="40" height="40" />
+                                <img src="images/brands/brand-icon-if.svg" alt="If" title="If" width="40" height="40" />
                             </a>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Sveriges Hudterapeuters Riksorganisation</span>
                             <a href="https://www.shr.nu" target="_blank" rel="nofollow">
-                                <img src="images/brands/brand-icon-shr.png" alt="Shr" title="Shr" width="40" height="40" />
+                                <img src="images/brands/brand-icon-shr.svg" alt="Shr" title="Shr" width="40" height="40" />
                             </a>
                         </div>
                     </div>
@@ -306,7 +306,7 @@
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Bokadirekt</span>
                             <a href="https://www.bokadirekt.se/AcneSpecialisten/var" target="_blank" rel="nofollow">
-                                <img src="images/brands/brand-icon-bokadirekt.png" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
+                                <img src="images/brands/brand-icon-bokadirekt.svg" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                             </a>
                         </div>
                     </div>
