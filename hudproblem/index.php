@@ -1486,7 +1486,10 @@ $specialists = array(
                   <div class="container is-hidden-desktop" id="filters-touch-container">
                         <div id="filters-touch" class="mt-m">
                               <?php foreach ($problem_areas as $problem_area) { ?>
-                                    <div class="filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
+                                    <div class="filter-item" onclick="toggleProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this); ">
+                                          <div class="close-icon">
+                                                <?php icon('close') ?>
+                                          </div>
                                           <?php icon($problem_area->icon) ?>
                                           <div class="b100 filter-item-label l10n">
                                                 <?php echo $problem_area->label ?>
@@ -1499,7 +1502,10 @@ $specialists = array(
                         <div id="filters-desktop" class="is-hidden-touch">
                               <div id="filter-items">
                                     <?php foreach ($problem_areas as $problem_area) { ?>
-                                          <div class="filter-item" onclick="showProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this);">
+                                          <div class="filter-item" onclick="toggleProblems('<?php echo join(',', $problem_area->problem_ids) ?>'); highlight(this);">
+                                                <div class="close-icon">
+                                                      <?php icon('close') ?>
+                                                </div>
                                                 <?php icon($problem_area->icon) ?>
                                                 <div class="b100 filter-item-label l10n">
                                                       <?php echo $problem_area->label ?>
@@ -1631,7 +1637,7 @@ $specialists = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
       <script src="hudproblem/problems.js"></script>
       <script>
-            showProblems('<?php echo join(',', $default_problems->problem_ids) ?>');
+            toggleProblems('<?php echo join(',', $default_problems->problem_ids) ?>');
       </script>
 </body>
 

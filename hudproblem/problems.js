@@ -7,30 +7,48 @@ var Problems;
     }
     Problems.onReadMoreClick = onReadMoreClick;
 })(Problems || (Problems = {}));
-function showProblems(problems) {
-    var problemIds = problems.split(',');
+var currentProblems = null;
+function toggleProblems(problems) {
     var columns = document.querySelector('#banner-problem-areas').children;
     var cards = document.querySelectorAll('.problem-area-card');
-    for (var i = 0; i < columns.length; i++) {
-        var column = columns[i];
-        var card = cards[i].parentElement;
-        var index = problemIds.indexOf(column.dataset.id);
-        if (index >= 0) {
+    if (problems === currentProblems) {
+        for (var i = 0; i < columns.length; i++) {
+            var column = columns[i];
+            var card = cards[i].parentElement;
             column.classList.remove('is-hidden');
             card.classList.remove('is-hidden');
         }
-        else {
-            column.classList.add('is-hidden');
-            card.classList.add('is-hidden');
+        currentProblems = null;
+    }
+    else {
+        var problemIds = problems.split(',');
+        for (var i = 0; i < columns.length; i++) {
+            var column = columns[i];
+            var card = cards[i].parentElement;
+            var index = problemIds.indexOf(column.dataset.id);
+            if (index >= 0) {
+                column.classList.remove('is-hidden');
+                card.classList.remove('is-hidden');
+            }
+            else {
+                column.classList.add('is-hidden');
+                card.classList.add('is-hidden');
+            }
         }
+        currentProblems = problems;
     }
 }
 function highlight(element) {
     var parent = element.parentElement;
-    for (var i = 0; i < parent.children.length; i++) {
-        parent.children[i].classList.remove('highlight');
+    if (element.classList.contains('highlight')) {
+        element.classList.remove('highlight');
     }
-    element.classList.add('highlight');
+    else {
+        for (var i = 0; i < parent.children.length; i++) {
+            parent.children[i].classList.remove('highlight');
+        }
+        element.classList.add('highlight');
+    }
 }
 if (document.body.clientWidth > 800) {
     var filters = document.querySelector('#filters-desktop');
