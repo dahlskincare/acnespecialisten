@@ -1,7 +1,7 @@
 <?php if (isset($type->url)) { ?>
     <a href="<?php echo $type->url ?>" title="<?php echo $type->url_title ?>" class="type-card-widget with-url">
         <div class="flex-row align-start justify-space-between">
-            <div class="image">
+            <div class="<?php echo $type->image_class() ?>">
                 <img src="<?php echo $type->image_url ?>" alt="<?php echo $type->image_alt ?>" title="<?php echo $type->image_title ?>" width="102" height="102" />
             </div>
             <?php icon('link-external') ?>
@@ -18,7 +18,7 @@
 <?php if (!isset($type->url)) { ?>
     <div class="type-card-widget">
         <div class="flex-row align-start justify-space-between">
-            <div class="image">
+            <div class="<?php echo $type->image_class() ?>">
                 <img src="<?php echo $type->image_url ?>" alt="<?php echo $type->image_alt ?>" title="<?php echo $type->image_title ?>" width="102" height="102" />
             </div>
         </div>

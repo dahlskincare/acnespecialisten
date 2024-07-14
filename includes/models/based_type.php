@@ -27,6 +27,11 @@ class BasedType
         $this->url_title = $url_title;
     }
 
+    public function image_class()
+    {
+        return strpos($this->image_url, '.svg') !== false ? 'image is-icon' : 'image';
+    }
+
     public string $image_url;
     public string $image_alt;
     public string $image_title;

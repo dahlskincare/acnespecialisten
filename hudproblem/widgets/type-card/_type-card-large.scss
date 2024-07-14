@@ -19,7 +19,7 @@
         }
     }
 
-    div.image:after {
+    div.image:not(.is-icon):after {
         box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
         content: '';
         display: block;
@@ -27,6 +27,11 @@
         position: absolute;
         top: 0;
         width: 100%;
+    }
+
+    div.image.is-icon {
+        max-width: 64px;
+        max-height: 64px;
     }
 
     .icon {

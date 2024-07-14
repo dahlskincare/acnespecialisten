@@ -11,7 +11,6 @@ $image_size_l: 204px;
     padding: $xl;
     border: 1px solid $light-200;
     border-radius: $radius-l;
-    @include elevation-low();
 
     div.image {
         position: relative;
@@ -42,7 +41,12 @@ $image_size_l: 204px;
         }
     }
 
-    div.image:after {
+    div.image.is-icon {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+    div.image:not(.is-icon):after {
         box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
         content: '';
         display: block;
@@ -61,4 +65,8 @@ $image_size_l: 204px;
         top: $s;
         right: $xxs;
     }
+}
+
+a.type-card-widget {
+    @include elevation-low();
 }
