@@ -11,7 +11,6 @@
     @include elevation-low();
     transition: box-shadow 300ms ease;
 
-
     div.image {
         position: relative;
         width: 102px;
@@ -42,6 +41,9 @@
 
     @media screen and (min-width: $tablet) {
         box-shadow: none;
+
+        height: 374px;
+        box-sizing: border-box;
 
         div.image {
             height: 102px;
