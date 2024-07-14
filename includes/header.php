@@ -47,8 +47,8 @@
                     <?php icon('arrow-down') ?>
                 </div>
                 <div class="ep-content">
-                    <a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                     <a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
+                    <a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
                     <a href="/hudterapeut/" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeut</a>
                     <a href="karriar.php" class="l10n" title="Se våra lediga tjänster">Karriär</a>
                 </div>
@@ -92,8 +92,8 @@
                     <div class="column">
                         <ul>
                             <li class="l10n">Företag</li>
-                            <li><a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a></li>
                             <li><a href="om-oss.php" class="l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a></li>
+                            <li><a href="metoden.php" class="l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a></li>
                             <li><a href="/hudterapeut/" class="l10n" title="Se alla våra specialister och hudterapeuter">Våra hudterapeuter</a></li>
                             <li><a href="karriar.php" class="l10n" title="Se våra lediga tjänster">Karriär</a></li>
                         </ul>
