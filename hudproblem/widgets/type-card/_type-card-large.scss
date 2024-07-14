@@ -44,8 +44,10 @@
     }
 }
 
-.type-card-widget.with-url:hover {
-    .h200 {
-        color: $deep-sea-400
-    }
+a.type-card-widget {
+    cursor: pointer;
+}
+
+a.type-card-widget:hover {
+    @include elevation-low();
 }
