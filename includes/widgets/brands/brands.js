@@ -4,6 +4,9 @@ var Brands;
     var container = widget.querySelector('.flex-container');
     var leftMask = widget.querySelector('#brand-mask-left');
     var rightMask = widget.querySelector('#brand-mask-right');
+    if (container.scrollWidth > container.clientWidth + 20) {
+        rightMask.classList.remove('is-hidden');
+    }
     container.addEventListener('scroll', function () {
         // conditionally hide the left mask
         if (container.scrollLeft <= 0) {

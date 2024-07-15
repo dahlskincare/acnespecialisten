@@ -1,8 +1,14 @@
 namespace Brands {
-    const widget = document.querySelector('.brands-widget');
+    const widget = document.querySelector('.brands-widget') as HTMLElement;
     const container = widget.querySelector('.flex-container') as HTMLElement;
     const leftMask = widget.querySelector('#brand-mask-left');
     const rightMask = widget.querySelector('#brand-mask-right');
+
+    if (container.scrollWidth > container.clientWidth + 20) {
+        rightMask.classList.remove('is-hidden');
+    }
+
+
 
     container.addEventListener('scroll', () => {
         // conditionally hide the left mask
