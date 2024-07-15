@@ -71,6 +71,10 @@ $image_size_l: 204px;
 
 a.type-card-widget {
     cursor: pointer;
+
+    @include touch {
+        @include elevation-low();
+    }
 }
 
 a.type-card-widget:hover {
