@@ -520,9 +520,9 @@ $path_segments = array(
                         <div id="item-container">
                               <?php for ($i = 0; $i < count($link_brands); $i++) { ?>
                                     <div class="item" id="item-<?php echo $i ?>">
-                                          <p class="p200"><a href="<?php echo $link_brands[$i]->url ?>" title="<?php echo $link_brands[$i]->url_title ?>"><?php echo $link_brands[$i]->label ?></a></p>
+                                          <a href="<?php echo $link_brands[$i]->url ?>" title="<?php echo $link_brands[$i]->url_title ?>" class="p200"><?php echo $link_brands[$i]->label ?></a>
                                           <?php foreach ($link_brands[$i]->services as $url => $label) { ?>
-                                                <p class="p200 service-label"><a href="<?php echo $url ?>" title="<?php echo $label ?>"><?php echo $label ?></a></p>
+                                                <a href="<?php echo $url ?>" title="<?php echo $label ?>" class="p200 service-label"><?php echo $label ?></a>
                                           <?php } ?>
                                     </div>
                               <?php } ?>

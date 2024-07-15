@@ -8,7 +8,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat.php" />
-      
+
     <title>AcneSpecialistens resultat | Före och efter bilder</title>
     <meta name="title" content="AcneSpecialistens resultat | Före och efter bilder" class="l10n">
     <meta name="description" content="Se fantastiska före och efterbilder på resultatet från våra kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
@@ -343,11 +343,9 @@ $results = [
             <div class="container mt-m is-hidden-desktop" id="filters-touch-container">
                 <div id="filters-touch">
                     <?php foreach ($category_links as $link_id => $link_label) { ?>
-                        <div class="filter-item">
-                            <a href="/<?php echo $link_id ?>" class="b100 filter-item-label l10n">
-                                <?php echo $link_label ?>
-                            </a>
-                        </div>
+                        <a href="/<?php echo $link_id ?>" class="b100 filter-item">
+                            <?php echo $link_label ?>
+                        </a>
                     <?php } ?>
                 </div>
             </div>
