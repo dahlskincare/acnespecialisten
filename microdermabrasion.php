@@ -137,7 +137,6 @@ $bottom_articles = array(
 $service_brands_title = 'Andra varumärken för Dermabrasion';
 $service_brands_text = '<p class="p200">Utöver Microdermabrasion jobbar vi även med HydraFacial som är en typ av HydroDermabrasion.</p>';
 $service_brands = array(
-
     new Brand(
         label: 'HydraFacial',
         image: 'bilder/logotyper/hydrafacial.svg',
@@ -146,6 +145,7 @@ $service_brands = array(
         url: '/hydrafacial.php',
         url_title: 'HydraFacial',
     ),
+
 );
 
 $results_title = 'Microdermabrasion före och efter resultat';

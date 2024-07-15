@@ -20,8 +20,13 @@
       padding: $l $s;
       margin: 1px;
 
+      flex: 0 0 150px;
 
-      flex: 1;
+      @include touch {
+        background-color: $light-25;
+      }
+
+
 
       img {
         width: auto;
@@ -56,7 +61,6 @@
       -ms-overflow-style: none;
 
       .flex-item {
-        flex: 0 0 150px;
         margin: $xxs;
         border-radius: $radius-l;
         user-select: none;
