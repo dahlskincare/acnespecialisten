@@ -1,4 +1,11 @@
 .results-widget {
+    .flex-row {
+
+        .result-step-buttons {
+            flex: 0 0 110px;
+        }
+    }
+
     .results-scroller {
         overflow-x: scroll;
         scroll-behavior: smooth;
