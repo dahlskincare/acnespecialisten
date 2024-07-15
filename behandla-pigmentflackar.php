@@ -60,7 +60,7 @@ $services = array(
         image_alt: 'Bild av IPL-behandling mot pigmentfläckar hos AcneSpecialisten',
         title: 'IPL mot pigmentfläckar',
         duration: '20-60 min',
-        price: 'Pris från 1595 kr',
+        price: 'Från 1595 kr',
         icons: array(),
         content: '<p class="p200">IPL-behandling för att reducera pigmentfläckar hos Acnespecialisten använder intensivt pulserande ljus för att noggrant behandla områden med ökad pigmentering. Ljusenergin tränger djupt in i huden och riktar sig mot de områden där pigmentfläckarna är mest synliga. Denna metod minskar produktionen av melanin i huden och hjälper till att återställa en mer jämn hudton.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
@@ -104,7 +104,7 @@ $services = array(
         image_alt: 'Bild på microneedlingbehandling mot pigmentfläckar hos Acnespecialisten',
         title: 'Microneedling mot pigmentfläckar',
         duration: '20-50 min',
-        price: 'Pris från 1595 kr',
+        price: 'Från 1595 kr',
         icons: array(),
         content: '<p class="p200">Microneedling är en effektiv behandlingsmetod för att behandla och minska pigmentfläckar. Den använder små mikronålar för att skapa mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Detta bidrar till att minska synligheten av pigmentfläckar och främjar en jämnare hudton. Microneedling möjliggör även djupare penetration av aktiva ingredienser som hjälper till att reducera pigmentfläckar.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
@@ -127,7 +127,7 @@ $services = array(
 
         title: 'CryoPen mot pigmentfläckar',
         duration: '20-70 min',
-        price: 'Pris från 995 kr',
+        price: 'Från 995 kr',
         icons: array(),
         content: '<p class="p200">CryoPen-behandling för pigmentfläckar på Acnespecialisten använder extrem kyla för att noggrant och skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar kontrollerad kyla på pigmentfläckarna, vilket resulterar i deras nedbrytning och minskad synlighet. Denna metod är effektiv och minimalt invasiv, vilket innebär minimalt obehag och ingen återhämtningstid.</p>',
 

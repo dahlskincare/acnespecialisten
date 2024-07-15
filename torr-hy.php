@@ -504,7 +504,7 @@ $products = array(
       new Service(
             title: 'Produkter för torr och känslig hy',
             duration: null,
-            price: 'Pris från 645 kr',
+            price: 'Från 645 kr',
             content: 'För att effektivt lindra symtom av torr och känslig hud är det viktigt med en daglig hudvårdsrutin. Våra produkter för torr och känslig hy är speciellt utformade för att återfukta huden, minska irritation och återställa hudens naturliga barriär.',
 
             image_small: '/bilder/behandlingar/200x200/produkter.webp',

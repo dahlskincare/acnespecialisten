@@ -315,7 +315,7 @@ $products = array(
       new Service(
             title: 'Produkter mot blandhy',
             duration: null,
-            price: 'Pris från 1495 kr',
+            price: 'Från 1495 kr',
             content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter med ansiktskrämer för blandad hy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
 
             image_small: 'images/services/200x200/produkter.webp',

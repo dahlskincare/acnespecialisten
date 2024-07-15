@@ -206,7 +206,7 @@ $products = array(
       new Service(
             title: 'Produkter mot seborré',
             duration: null,
-            price: 'Pris från 1295 kr',
+            price: 'Från 1295 kr',
             content: 'För att effektivt bekämpa och förebygga seborré krävs daglig behandling med de rätta produkterna. Vi rekommenderar produkter som är speciellt utformat för att hjälpa till att återställa och upprätthålla balansen i din hud samt förebygga uppkomsten av ny seborré.',
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',

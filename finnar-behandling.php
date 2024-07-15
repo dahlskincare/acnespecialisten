@@ -164,7 +164,7 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
         url_label: 'Utforska våra hudvårdsprodukterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot finnar',
-        price: 'Acnespecialistens hudvårdsprodukter mot finnar - Pris från 1295 kr',
+        price: 'Acnespecialistens hudvårdsprodukter mot finnar - Från 1295 kr',
         content: '<p class="p200">För detta ändamål erbjuder vi en daglig hudvårdsrutin med specifika produkter mot finnar. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper till att förhindra framtida utbrott och är lika viktig som regelbundna besök hos oss på Acnespecialisten.</p>',
     ),
 );

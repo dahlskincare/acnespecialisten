@@ -471,7 +471,7 @@ $products = array(
       new Service(
             title: 'Produkter mot finnar',
             duration: null,
-            price: 'Pris från 1395 kr',
+            price: 'Från 1395 kr',
             content: 'Att effektivt behandla huden kräver regelbunden användning av de rätta produkterna. Våra hudvårdsprodukter har specialutformats för att balansera din hud och motverka uppkomsten av nya finnar.',
             image_small: 'images/services/200x200/produkter.webp',
             image_large: 'images/services/200x200/produkter.webp',

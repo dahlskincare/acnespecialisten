@@ -114,7 +114,7 @@ $article = new SkinGuideArticle(
                             </div>
                             <div class="banner-info">
                                 <h4>IPL mot acne</h4>
-                                <p class="banner-price">30 min<span class="dot"></span>Pris från 2595 kr</p>
+                                <p class="banner-price">30 min<span class="dot"></span>Från 2595 kr</p>
                                 <div>
                                     <p class="banner-text">IPL mot acne är en effektiv laserbehandling som använder koldioxidlaser för att minska talgproduktion, döda bakterier och reducera inflammation. Behandlingen förbättrar hudens struktur och minskar ärrbildning med minimal återhämtningstid, vilket ger dig långvariga resultat.</p>
                                     <a class="button text b200" href="laser-acne.php" title="Läs mer om laserbehandling">Läs mer om laserbehandling</a>

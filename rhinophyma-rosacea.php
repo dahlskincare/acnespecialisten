@@ -169,7 +169,7 @@ $products = array(
       new Service(
             title: 'Produkter mot rosacea',
             duration: null,
-            price: 'Pris från 1495 kr',
+            price: 'Från 1495 kr',
             content: 'För att effektivt behandla och förebygga rosacea är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
             image_small: 'bilder/behandlingar/200x200/produkter.webp',
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
@@ -192,7 +192,7 @@ $procedures = array(
       new Service(
             title: 'Reparerar ytliga blodkärl',
             duration: '60 min',
-            price: 'Pris från 1595 kr',
+            price: 'Från 1595 kr',
             content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl. Klicka här för att läsa mer om hur du kan behandla din rosacea med IPL.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',

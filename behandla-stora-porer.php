@@ -59,7 +59,7 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Stora Porer',
         duration: '60 min',
-        price: 'Pris från 799 kr',
+        price: 'Från 799 kr',
         icons: array(),
         content: '<p class="p200">Behandlingen brukar kallas porrengöring eller portömning och riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den inleder med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring av porerna för att avlägsna ansamlade döda hudceller och talg. Behandlingen avrundas med en mask som minskar porernas storlek, samt en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
 
@@ -155,7 +155,7 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
         url_label: 'Köp produkterna',
         url_title: 'Produkter för stora porer',
-        price: 'Pris från 1395 kr',
+        price: 'Från 1395 kr',
         content: '<p class="p200">Att förebygga och minska synligheten av stora porer är avgörande för att uppnå en jämn och klar hud. Vi erbjuder en daglig hudvårdsrutin med specifika produkter mot stora porer. Denna rutin hjälper till att hålla din hy ren, balanserad och minskar risken för tilltäppningar. Regelbunden användning av dessa produkter, tillsammans med våra behandlingar, ger bäst resultat för att hantera stora porer.</p>',
     ),
 );

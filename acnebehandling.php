@@ -60,7 +60,7 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Acne',
         duration: '60 min',
-        price: 'Pris från 1295 kr',
+        price: 'Från 1295 kr',
         content: '<p class="p200">Ansiktsbehandling mot acne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Det är viktigt att låta en hudterapeut klämma finnar och extrahera porerna. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
@@ -86,7 +86,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot akne hos Acnespecialisten',
         title: 'Laserbehandling mot akne',
         duration: '60 min',
-        price: 'Pris från 2595 kr',
+        price: 'Från 2595 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling mot akne fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar. Denna metod reducerar talgproduktionen i huden och dödar bakterier som bidrar till akneutbrott.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -110,7 +110,7 @@ $services = array(
         image_alt: 'Bild på kemisk peelingbehandling mot akne hos Acnespecialisten',
         title: 'Kemisk peeling mot akne',
         duration: '30 min',
-        price: 'Pris från 1595 kr',
+        price: 'Från 1595 kr',
         icons: array(),
         content: '<p class="p200">Kemisk peeling är en effektiva acne behandling. Vi använder en speciell syra som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av akne och att förbättra hudens textur och utseende.</p>',
         consultation_url: 'ghttps://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
@@ -133,7 +133,7 @@ $services = array(
         image_alt: 'Bild på microneedlingbehandling mot akne hos Acnespecialisten',
         title: 'Microneedling mot akne',
         duration: '50 min',
-        price: 'Pris från 2595 kr',
+        price: 'Från 2595 kr',
         icons: array(),
         content: '<p class="p200">Microneedling är en effektiv behandlingsmetod mot akne som använder små mikronålar för att skapa mikroskopiska kanaler i huden. Detta stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Microneedling behandlar även de underliggande problemen med akne genom att tillåta aktiva ingredienser att tränga djupare in i huden.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
@@ -163,7 +163,7 @@ $products = array(
         url_label: 'Utforska produkterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
 
-        price: 'Produkter mot akne - Pris från 1395 kr',
+        price: 'Produkter mot akne - Från 1395 kr',
         content: '<p class="p200">Att förebygga hudproblemet är en viktig del av processen för att hålla din hud aknefri. För att hålla din akne under kontroll rekommenderar vi en daglig hudvårdsrutin med specifika produkter mot akne. Denna rutin hjälper till att hålla din hy ren, balanserad och fri från överflödigt talg och bakterier. Denna dagliga vård hjälper dig att bli fri från aknen samt förhindra framtida utbrott.</p>',
     ),
 );

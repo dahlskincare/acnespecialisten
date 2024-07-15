@@ -61,7 +61,7 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Pormaskar',
         duration: '60 min',
-        price: 'Pris från 799 kr',
+        price: 'Från 799 kr',
         icons: array(),
         content: '<p class="p200">En speciellt framtagen för att djuprengöra huden, avlägsna döda hudceller och bekämpa tilltäppta porer. Processen börjar med en rengöring, följt av ångning för att mjuka upp och öppna porerna. Därefter görs en noggrann porrengöring där pormaskar och andra orenheter avlägsnas. Behandlingen avrundas med en lugnande mask och en fuktgivande kräm som är anpassad för din hudtyp.</p>',
 
@@ -163,7 +163,7 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
         url_label: 'Utforska hudvårdsprodukterna',
         url_title: 'Information om AcneSpecialistens hudvårdsprodukter mot pormaskar',
-        price: 'AcneSpecialistens hudvårdsprodukter mot pormaskar - Pris från 1295 kr',
+        price: 'AcneSpecialistens hudvårdsprodukter mot pormaskar - Från 1295 kr',
         content: '<p class="p200">Bekämpning av pormaskar kräver en riktad strategi, och att använda rätt hudvårdsprodukter är kärnan i denna process. Hos AcneSpecialisten förstår vi detta behov och erbjuder en skräddarsydd daglig hudvårdsrutin designad specifikt för att hantera pormaskar. Med rätt produkter ser denna rutin till att din hud är ren, balanserad, och framför allt, fri från det som orsakar pormaskar. Med konsekvent användning kan du inte bara minska befintliga pormaskar men också effektivt förhindra nya från att uppträda. Genom att följa denna rutin kompletterar du perfekt de behandlingar du gör hos oss på AcneSpecialisten.</p>',
     ),
 );

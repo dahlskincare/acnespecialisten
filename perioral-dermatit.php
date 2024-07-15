@@ -385,7 +385,7 @@ $products = array(
       new Service(
             title: 'Perioral Dermatit Produkter',
             duration: null,
-            price: 'Pris från 1495 kr',
+            price: 'Från 1495 kr',
             content: 'Daglig skötsel av huden är viktig för att hålla ditt hudproblem i schack. Vi rekommenderar produkter är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
             image_small: 'images/services/200x200/produkter.webp',

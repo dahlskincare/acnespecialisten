@@ -340,7 +340,7 @@ $products = array(
       new Service(
             title: 'Produkter mot rosacea',
             duration: null,
-            price: 'Pris från 1495 kr',
+            price: 'Från 1495 kr',
             content: 'För att effektivt behandla och förebygga hudproblemet är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
             image_small: 'bilder/behandlingar/200x200/produkter.webp',
             image_large: 'bilder/behandlingar/200x200/produkter.webp',
@@ -363,7 +363,7 @@ $procedures = array(
       new Service(
             title: 'Reparerar ytliga blodkärl',
             duration: '60 min',
-            price: 'Pris från 1595 kr',
+            price: 'Från 1595 kr',
             content: 'IPL-behandling minskar effektivt ytliga blodkärl med intensivt pulserat ljus, erbjuder en icke-invasiv lösning för en jämnare hudton och förbättrad hudtextur.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',

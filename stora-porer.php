@@ -298,7 +298,7 @@ $products = array(
       new Service(
             title: 'Produkter för stora porer',
             duration: null,
-            price: 'Pris från 1395 kr',
+            price: 'Från 1395 kr',
             content: 'För att effektivt hantera och förebygga stora porer är daglig behandling med rätt produkter avgörande. Våra produkter för stora porer är speciellt utformade för att hålla din hud i balans och minska porernas synlighet.',
 
             image_small: 'images/services/200x200/produkter.webp',
