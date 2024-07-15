@@ -467,15 +467,21 @@ html {
                         margin-top: $s;
                         display: flex;
 
-                        button {
+                        a {
                             flex: 1;
+
+                            button {
+                                box-sizing: border-box;
+                                width: 100%;
+                            }
                         }
 
-                        button:first-child {
+
+                        a:first-child {
                             margin-right: calc($s / 2);
                         }
 
-                        button:last-child {
+                        a:last-child {
                             margin-left: calc($s /2);
                         }
                     }
