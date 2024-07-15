@@ -200,6 +200,8 @@ section#cards {
         margin-top: $xl;
         cursor: pointer;
         @include elevation-low();
+        border-top-left-radius: $radius-l;
+        border-top-right-radius: $radius-l;
 
         div.picture {
             position: relative;
