@@ -521,7 +521,7 @@ $all_brands = array(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/portomning.php" />
-      
+
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -587,7 +587,7 @@ $all_brands = array(
                                     </picture>
                                 <?php }
                                 if (isset($treatment_area->title)) { ?>
-                                    <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                                    <h3 class="h300 mt-xl4"><?php echo $treatment_area->title ?></h3>
                                 <?php }
                                 if (isset($treatment_area->description)) { ?>
                                     <div class="mb-xl"><?php echo $treatment_area->description ?></div>

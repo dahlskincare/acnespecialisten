@@ -316,7 +316,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/varumarken/dual-injector/" />
-      
+
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -404,7 +404,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                                     <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
                                 </picture>
                             <?php } ?>
-                            <h3 class="h300 mt-xl"><?php echo $treatment_area->title ?></h3>
+                            <h3 class="h300 mt-xl4"><?php echo $treatment_area->title ?></h3>
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
