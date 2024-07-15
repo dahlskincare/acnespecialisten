@@ -139,6 +139,12 @@ if (!isset($reviews)) {
     <?php if ($show_review_banners_header) { ?>
         <div class="review-banners-header">
             <h3 class="total-reviews-title"><?php echo $total_reviews ?></h3>
+            <a href="/recensioner-omdomen.php" title="Se alla omdömen" class="is-hidden-touch button compact text l10n">
+                <span>
+                    Se alla omdömen
+                </span>
+                <?php icon('navigate-next'); ?>
+            </a>
         </div>
     <?php } ?>
     <div class="review-banners">
