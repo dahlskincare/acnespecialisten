@@ -68,11 +68,13 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">4,8</span>
                                                 <div>
-                                                      <?php icon('trustpilot-green') ?>
-                                                      <?php icon('trustpilot-green') ?>
-                                                      <?php icon('trustpilot-green') ?>
-                                                      <?php icon('trustpilot-green') ?>
-                                                      <?php icon('trustpilot-green-half') ?>
+                                                      <div id="trustpilot-stars">
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green-half') ?>
+                                                      </div>
                                                       <div class="p200 l10n">På Trustpilot</div>
                                                 </div>
                                           </div>

@@ -102,6 +102,10 @@ section#banner {
             .flex-aligner {
                 display: flex;
                 align-items: center;
+
+                #trustpilot-stars {
+                    display: flex;
+                }
             }
 
             .button {
