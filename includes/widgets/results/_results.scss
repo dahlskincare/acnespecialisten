@@ -34,7 +34,8 @@
         #results-container {
             display: flex;
             overflow: hidden;
-            margin: 0 - $s;
+            margin-left: - $s;
+            margin-right: - $s;
 
             .result-overlay {
                 padding: 0 $s;
