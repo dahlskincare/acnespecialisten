@@ -61,7 +61,7 @@ $services = array(
         image_alt: 'Bild illustrerar en ansiktsbehandling mot finnar utförd på AcneSpecialisten',
 
         title: 'Ansiktsbehandling mot Finnar',
-        duration: '60 minuter',
+        duration: '60 min',
         price: '1295 kr',
         icons: array(),
         content: '<p class="p200">Vår Ansiktsbehandling mot finnar är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och finnar elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
@@ -564,7 +564,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 min.'
         ),
         new Question(
             title: 'Hur många behandlingar behövs för att se resultat?',

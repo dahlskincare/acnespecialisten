@@ -55,7 +55,7 @@ $top_articles = array(
         image_alt: 'Hur går laserbehandlingen till?',
         image_title: 'Hur går laserbehandlingen till?',
         content: '<p class="p200">Vi startar med en noggrann rengöring av ditt behandlingsområde. Detta är en viktig del i processen för att säkerställa att huden är fri från smuts och oljor, vilket gör behandlingen mer effektiv.</p>
-        <p class="p200 mt-m">För vissa av de mer avancerade laserbehandlingarna vi erbjuder, är det nödvändigt att förbereda huden med en bedövande kräm före själva behandlingsprocessen. Denna kräm bör appliceras på behandlingsområdet och får verka på huden i cirka 30 minuter. Denna förberedelse är särskilt viktig för behandlingar som använder vår avancerade fraktionerade CO2-laser, för att säkerställa en bekväm upplevelse under hela behandlingen.</p>
+        <p class="p200 mt-m">För vissa av de mer avancerade laserbehandlingarna vi erbjuder, är det nödvändigt att förbereda huden med en bedövande kräm före själva behandlingsprocessen. Denna kräm bör appliceras på behandlingsområdet och får verka på huden i cirka 30 min. Denna förberedelse är särskilt viktig för behandlingar som använder vår avancerade fraktionerade CO2-laser, för att säkerställa en bekväm upplevelse under hela behandlingen.</p>
         <p class="p200 mt-m">Under behandlingen kan du känna en värmande känsla, men vi använder kylsystem för att göra upplevelsen så bekväm som möjligt. Efter behandlingen kan det uppstå rodnad och svullnad, vilket är en normal reaktion och en del av läkningsprocessen. Vi ger dig noggranna instruktioner för eftervård för att säkerställa en snabb och smidig läkningsprocess. Resultaten från behandlingen utvecklas över tid, när huden gradvis förnyas och förbättras från insidan.</p>',
     ),
 );
@@ -65,7 +65,7 @@ $types_description = '<p class="p200">Våra laserbehandlingar är effektiva för
 $types = array(
     new Service(
         title: 'Laserbehandling mot Acneärr',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Beroende på typen av acneärr, antingen gropar eller fläckar, anpassas laserbehandlingen med specifik laserteknologi. För att utforska den mest effektiva behandlingen för dina ärr, rekommenderar vi en konsultation.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
@@ -85,7 +85,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Aktiv Acne',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Laserbehandling mot acne syftar till att eliminera bakterierna som orsakar finnar. Genom att rikta värme djupt in i finnarna bidrar lasern till att de minskar i storlek och så småningom försvinner.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
@@ -105,7 +105,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Ytliga Blodkärl',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: ' Behandling med laser mot ytliga blodkärl innebär att laserljuset riktas mot hemoglobin i de synliga kärlen, vilket effektivt bryter ner dem och minskar deras synlighet.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
@@ -125,7 +125,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Rosacea',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Laserbehandling för rosacea fokuserar på att minska inflammation i blodkärlen och huden samt att dämpa rodnad, vilket bidrar till en klarare och mer jämn hudton.',
         image_small: 'bilder/hudproblem/102x102/rosacea.webp',
@@ -145,7 +145,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Pigmentfläckar',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Vid behandling av pigmentfläckar riktas laserenergi mot melaninpigmentet för att successivt minska fläckarnas synlighet och främja en enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -165,7 +165,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Melasma',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Behandling mot melasma inriktar sig på att rikta laserenergin mot det djupare liggande melaninet, vilket är karakteristiskt för melasma, för att effektivt ljusa upp och reducera pigmenteringen.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',
@@ -185,7 +185,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Stora Porer',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Fokuserar på att minska porernas storlek genom att stimulera kollagenproduktionen under huden, vilket leder till en slätare och mer enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
@@ -205,7 +205,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Hudutväxter',
-        duration: '20 minuter',
+        duration: '20 min',
         price: 'Från 1595 kr',
         content: 'Använder en specifik våglängd av laserljus för att direkt bränna bort pigmentet i leverfläckar och födelsemärken, vilket effektivt tar bort dessa hudförändringar.',
         image_small: 'bilder/hudproblem/102x102/hudforandringar.webp',
@@ -225,7 +225,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Bristningar',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Använder laserljus för att stimulera hudens kollagenproduktion, vilket minskar synligheten av bristningar och förbättrar hudens textur.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
@@ -245,7 +245,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Ärr (Skade- och Operationsärr)',
-        duration: '30 minuter',
+        duration: '30 min',
         price: '2995 kr',
         content: 'Riktar in sig på att mjuka upp och minska ärrvävnad, vilket bidrar till att ärr blir mindre framträdande och huden jämnare.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
@@ -265,7 +265,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Rynkor och Fina Linjer',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Laserbehandling mot rynkor och fina linjer fungerar genom att försiktigt avlägsna det yttersta hudlagret samtidigt som det stimulerar produktionen av ny hud och kollagen. Detta bidrar till att minska rynkor och fina linjer, vilket resulterar i en slätare och yngre hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',

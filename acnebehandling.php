@@ -59,7 +59,7 @@ $services = array(
         image_alt: 'Bild illustrerar en ansiktsbehandling mot akne utförd på Acnespecialisten',
 
         title: 'Ansiktsbehandling mot Acne',
-        duration: '60 minuter',
+        duration: '60 min',
         price: 'Pris från 1295 kr',
         content: '<p class="p200">Ansiktsbehandling mot acne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Det är viktigt att låta en hudterapeut klämma finnar och extrahera porerna. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
@@ -564,7 +564,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur lång tid tar en behandling hos Acnespecialisten?',
-            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 minuter.'
+            text: 'En behandling hos Acnespecialisten tar vanligtvis cirka 60 - 90 min.'
         ),
         new Question(
             title: 'Hur många behandlingar behövs för att se resultat?',

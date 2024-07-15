@@ -534,7 +534,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Är det smärtsamt att behandla ärr från finnar? Hur ser eftervård ut?',
-                  text: '<p class="p200">Vi gör vårt bästa för att minimera obehag och för våra mest smärtsamma behandlingar erbjuder vi bedövningskräm som appliceras 30 minuter innan behandling så att du inte känner någonting. Eftervården är anpassad till varje individ och du får fullständiga instruktioner för hudvård efter varje behandling.</p>'
+                  text: '<p class="p200">Vi gör vårt bästa för att minimera obehag och för våra mest smärtsamma behandlingar erbjuder vi bedövningskräm som appliceras 30 min innan behandling så att du inte känner någonting. Eftervården är anpassad till varje individ och du får fullständiga instruktioner för hudvård efter varje behandling.</p>'
             ),
             new Question(
                   title: 'Hur lång tid behöver jag mellan behandlingar? När kommer jag att se förbättringar?',

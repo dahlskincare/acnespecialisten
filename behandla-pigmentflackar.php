@@ -126,7 +126,7 @@ $services = array(
         image_alt: 'Bild illustrerar en behandling med CryoPen mot pigmentfläckar utförd på Acnespecialisten',
 
         title: 'CryoPen mot pigmentfläckar',
-        duration: '20-70 minuter',
+        duration: '20-70 min',
         price: 'Pris från 995 kr',
         icons: array(),
         content: '<p class="p200">CryoPen-behandling för pigmentfläckar på Acnespecialisten använder extrem kyla för att noggrant och skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar kontrollerad kyla på pigmentfläckarna, vilket resulterar i deras nedbrytning och minskad synlighet. Denna metod är effektiv och minimalt invasiv, vilket innebär minimalt obehag och ingen återhämtningstid.</p>',
@@ -190,7 +190,7 @@ $faq_categories = array(
 
         new Question(
             title: 'Hur lång tid tar en pigmentfläcksbehandling hos Acnespecialisten?',
-            text: 'En pigmentfläcksbehandling hos Acnespecialisten tar vanligtvis cirka 30-60 minuter, beroende på den specifika behandlingsmetoden.'
+            text: 'En pigmentfläcksbehandling hos Acnespecialisten tar vanligtvis cirka 30-60 min, beroende på den specifika behandlingsmetoden.'
         ),
 
         new Question(

@@ -81,7 +81,7 @@ $types_description = '';
 $types = array(
     new Service(
         title: 'IPL laser mot Rosacea',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Denna avancerade IPL-metod är inriktad på att mildra rodnad och andra symtom associerade med rosacea, vilket resulterar i en jämnare hudton och förbättrad hudkvalitet.',
         image_small: 'bilder/hudproblem/102x102/rosacea.webp',
@@ -102,7 +102,7 @@ $types = array(
 
     new Service(
         title: 'IPL laser mot Ytliga Blodkärl',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Denna IPL-behandling är skräddarsydd för att selektivt och skonsamt behandla de berörda områdena, vilket leder till en klarare och mer enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
@@ -123,7 +123,7 @@ $types = array(
 
     new Service(
         title: 'IPL laser mot Pigmentfläckar',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Denna skonsamma, men effektiva IPL-metod är perfekt för att målriktat behandla mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare och strålande hud.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -144,7 +144,7 @@ $types = array(
 
     new Service(
         title: 'IPL laser mot Melasma',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Denna teknik är inriktad på att ljusa upp och jämna ut hudtonen genom att selektivt behandla hyperpigmenterade områden, vilket bidrar till en märkbar förbättring av hudens utseende.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',

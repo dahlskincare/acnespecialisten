@@ -31,7 +31,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Vad är den genomsnittliga tidsåtgången för en behandling?',
-            text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 minuter, beroende på behandlingens art och dina individuella hudvårdsbehov.'
+            text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 min, beroende på behandlingens art och dina individuella hudvårdsbehov.'
         ),
         new Question(
             title: 'Hur många behandlingar rekommenderas för att uppnå synliga resultat?',
@@ -85,8 +85,8 @@ $faq_categories = array(
 
 <head>
 
-      <link rel="canonical" href="https://www.acnespecialisten.se/fragor-svar.php" />
-      
+    <link rel="canonical" href="https://www.acnespecialisten.se/fragor-svar.php" />
+
     <title class="l10n">Frågor & svar - AcneSpecialisten</title>
     <meta name="title" content="Frågor & Svar - AcneSpecialisten" class="l10n">
     <meta name="description" content="Frågor & svar AcneSpecialisten, här får du svar på några av de vanligaste frågorna" class="l10n">

@@ -191,7 +191,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparerar ytliga blodkärl',
-            duration: '60 minuter',
+            duration: '60 min',
             price: 'Pris från 1595 kr',
             content: 'Rosacea är en kronisk hudåkomma som kan leda till rodnad, utslag, och i vissa fall svullnad i ansiktet. Intense Pulsed Light (IPL) kan användas för att effektivt behandla rosacea genom att minska rodnad och synliga blodkärl. Klicka här för att läsa mer om hur du kan behandla din rosacea med IPL.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',

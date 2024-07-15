@@ -89,7 +89,7 @@ $types_description = 'En mångsidig behandling som kan hantera en rad hudproblem
 $types = array(
     new Service(
         title: 'Microneedling mot Acneärr',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Vår microneedlingbehandling för acneärr stimulerar kollagenproduktion för att minska synligheten av ärr och förbättra hudens textur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
@@ -109,7 +109,7 @@ $types = array(
     ),
     new Service(
         title: 'Microneedling mot Rynkor & Fina Linjer',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Utjämna rynkor och fina linjer med vår microneedling som hjälper till att förnya och strama upp huden.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -129,7 +129,7 @@ $types = array(
     ),
     new Service(
         title: 'Microneedling mot Stora Porer',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Reducera och minska stora porer med våra resultatinriktade microneedlingbehandling som främjar en slätare hud.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
@@ -149,7 +149,7 @@ $types = array(
     ),
     new Service(
         title: 'Microneedling mot Pigmentfläckar',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Minska synligheten av pigmentfläckar och återställ en jämn hudton.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -169,7 +169,7 @@ $types = array(
     ),
     new Service(
         title: 'Microneedling mot Bristningar',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Förbättra bristningarnas utseendet genom att stimulera återuppbyggnaden av kollagen och elastin i huden.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
@@ -189,7 +189,7 @@ $types = array(
     ),
     new Service(
         title: 'Microneedling mot Aktiv Acne',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Skapar en kontrollerad skada i huden som påskyndar hudens läkningsprocess för att reducera inflammation och förbättra hudens textur.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',

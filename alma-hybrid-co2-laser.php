@@ -179,7 +179,7 @@ $types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hyb
 $types = array(
     new Service(
         title: 'CO2 laser mot acneärr',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Effektiv metod för att minska acneärr. Kombinerar precisionslaser med djupvävnadsuppvärmning, stimulerar hudens läkning för jämnare hudtextur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
@@ -199,7 +199,7 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot ärr (skade- och operationsärr)',
-        duration: '30 minuter',
+        duration: '30 min',
         price: '2995 kr',
         content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
@@ -219,7 +219,7 @@ $types = array(
     ),
     /*new Service(
         title: 'CO2 laser mot Hudutväxter',
-        duration: '30 minuter',
+        duration: '30 min',
         price: '1595 kr',
         content: 'Tar bort hudutväxter såsom vårtor och skin tags med precision, minimerar skada på omgivande vävnader för en säker och effektiv behandling.',
         image_small: 'bilder/hudproblem/102x102/hudutvaxter.webp',
@@ -239,7 +239,7 @@ $types = array(
     ),*/
     new Service(
         title: 'CO2 laser mot bristningar',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Laser behandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
@@ -259,7 +259,7 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot stora porer',
-        duration: '60 minuter',
+        duration: '60 min',
         price: '3595 kr',
         content: 'Minskar utseendet av stora porer genom att förbättra hudens yta och textur, bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
@@ -279,7 +279,7 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot rynkor och fina Linjer',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Kombinerar laser med värmestimulering för att släta ut rynkor och linjer. Främjar kollagenproduktion för en ungdomligare hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -299,7 +299,7 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot pigmentfläckar',
-        duration: '950 minuter',
+        duration: '950 min',
         price: '4595 kr',
         content: 'Ljusar upp och reducerar pigmentfläckar. Målinriktad energi bryter ner pigmentering för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -319,7 +319,7 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot aktiv acne',
-        duration: '60 minuter',
+        duration: '60 min',
         price: '2595 kr',
         content: 'Reducerar aktiv acne genom att minska inflammation och döda bakterier, förhindrar framtida utbrott genom att rikta sig mot acneorsaker.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
@@ -339,7 +339,7 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser för hudföryngring (skin rejuvenation)',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Stimulerar hudens naturliga läkning för förnyad hud med förbättrad textur och utstrålning. Minskar tecken på åldrande för ett friskare utseende.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',

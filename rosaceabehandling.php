@@ -60,7 +60,7 @@ $services = array(
         image_alt: 'Bild illustrerar en ansiktsbehandling mot rosacea utförd på Acnespecialisten',
 
         title: 'Ansiktsbehandling mot Rosacea',
-        duration: '60 minuter',
+        duration: '60 min',
         price: 'Pris från 1295 kr',
         icons: array(),
         content: '<p class="p200">Ansiktsbehandling mot rosacea lugnar huden, minskar rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',

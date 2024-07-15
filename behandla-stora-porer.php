@@ -58,7 +58,7 @@ $services = array(
         image_alt: 'Bild illustrerar en ansiktsbehandling mot stora porer utförd på AcneSpecialisten',
 
         title: 'Ansiktsbehandling mot Stora Porer',
-        duration: '60 minuter',
+        duration: '60 min',
         price: 'Pris från 799 kr',
         icons: array(),
         content: '<p class="p200">Behandlingen brukar kallas porrengöring eller portömning och riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den inleder med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring av porerna för att avlägsna ansamlade döda hudceller och talg. Behandlingen avrundas med en mask som minskar porernas storlek, samt en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
@@ -243,7 +243,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur lång tid tar en behandling för stora porer hos Acnespecialisten?',
-            text: 'En behandling för stora porer hos Acnespecialisten tar vanligtvis cirka 30 - 90 minuter.'
+            text: 'En behandling för stora porer hos Acnespecialisten tar vanligtvis cirka 30 - 90 min.'
         ),
         new Question(
             title: 'Hur många behandlingar behövs för att se resultat vid stora porer?',

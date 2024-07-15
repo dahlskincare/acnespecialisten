@@ -338,7 +338,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur lång tid tar en behandling av ärr från finnar hos Acnespecialisten?',
-            text: 'En behandling av ärr som uppstått på grund av finnar hos Acnespecialisten tar vanligtvis cirka 30 - 60 minuter.'
+            text: 'En behandling av ärr som uppstått på grund av finnar hos Acnespecialisten tar vanligtvis cirka 30 - 60 min.'
         ),
         new Question(
             title: 'Hur många behandlingar behövs för att se resultat på ärr orsakade av finnar?',

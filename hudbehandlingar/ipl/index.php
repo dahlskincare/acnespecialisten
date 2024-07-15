@@ -90,7 +90,7 @@ $types_description = 'En mångsidig och effektiv behandlingsmetod som används f
 $types = array(
     new Service(
         title: 'IPL-behandling mot Rosacea',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Effektiv behandling av rosacea med vår avancerade IPL-teknik. Genom att använda målinriktade ljuspulser kan vi mildra rodnad och andra symtom associerade med rosacea, vilket ger en jämnare hudton och en förbättrad hudkvalitet.',
         image_small: 'bilder/hudproblem/102x102/rosacea.webp',
@@ -111,7 +111,7 @@ $types = array(
 
     new Service(
         title: 'IPL-behandling mot Ytliga Blodkärl',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Effektiv IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt behandla de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
@@ -132,7 +132,7 @@ $types = array(
 
     new Service(
         title: 'IPL-behandling mot Pigmentfläckar',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Minska och ta bort pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt och målinriktat reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -153,7 +153,7 @@ $types = array(
 
     new Service(
         title: 'Laserbehandling mot Melasma',
-        duration: '50 minuter',
+        duration: '50 min',
         price: '2595 kr',
         content: 'Behandla melasma effektivt med laser. Vår behandling hjälper till att ljusa upp och jämna ut hudtonen genom att selektivt behandla de hyperpigmenterade områdena, vilket ger en märkbar förbättring i hudens utseende.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',

@@ -362,7 +362,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparerar ytliga blodkärl',
-            duration: '60 minuter',
+            duration: '60 min',
             price: 'Pris från 1595 kr',
             content: 'IPL-behandling minskar effektivt ytliga blodkärl med intensivt pulserat ljus, erbjuder en icke-invasiv lösning för en jämnare hudton och förbättrad hudtextur.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',

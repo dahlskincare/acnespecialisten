@@ -52,7 +52,7 @@ $types_description = '<p class="p200">';
 $types = array(
     new Service(
         title: 'Harmony XL Pro mot acneärr',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Använder ClearSkin med Erbium Glass 1540 munstycke för att stimulera kollagen och främja hudförnyelse. Denna teknik minskar acneärrens synlighet genom djup penetration och kollageninduktion.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
@@ -72,7 +72,7 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot aktiv acne',
-        duration: '60 minuter',
+        duration: '60 min',
         price: '2995 kr',
         content: 'ClearSkin erbjuder en unik kombination av laserenergi och vakuum för att behandla aktiv acne genom att minska talgproduktionen och eliminera acne-bakterier. Denna metods djuprengörande effekt bidrar till klarare hud.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
@@ -92,7 +92,7 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot ärr (skade- och operationsärr)',
-        duration: '30 minuter',
+        duration: '30 min',
         price: '2995 kr',
         content: 'Kombinerar ClearLift och iPixel tekniker för att målinrikta och behandla ärrvävnad genom stimulering av ny hudväxt och minskning av ärrvävnadens tjocklek. Denna strategi jämnar ut hudtexturen och minimerar ärr.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
@@ -112,7 +112,7 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot bristningar',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'ClearLift med Q-switchad Nd:YAG teknologi använder mikrovibrationer för att stimulera djupt liggande hudlager utan att skada ytan. Denna process främjar hudens naturliga läkningsmekanismer, vilket minskar bristningars synlighet.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
@@ -132,7 +132,7 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot stora porer',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'ClearLift tekniken stimulerar hudens djupare lager för att förbättra hudstrukturen och minska porernas storlek. Denna icke-invasiva metod ger en slätare och mer raffinerad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
@@ -152,7 +152,7 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot pigmentfläckar',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Dye-VL använder IPL-teknologi med ett specifikt munstycke för att rikta in sig på melanin, vilket ljusar upp och reducerar pigmentfläckar. Denna selektiva målinriktning bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -172,7 +172,7 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot rynkor och fina Linjer',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'iPixel med Erbium YAG 2940 munstycke utför mikrolaser peeling som stimulerar hudregeneration och kollagenproduktion. Detta slätar effektivt ut rynkor och fina linjer genom precisionsförnyelse av hudytan.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -192,7 +192,7 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro för hudföryngring (skin rejuvenation)',
-        duration: '90 minuter',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Använder en kombination av tekniker, inklusive Dye-VL och ClearLift, för att omfattande förbättra hudtonen, textur och elasticitet. Denna flerdimensionella strategi resulterar i en märkbart yngre och mer strålande hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -520,7 +520,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur lång tid tar en behandlingssession med Alma Harmony XL Pro?',
-            text: '<p class="p200">Längden på en behandlingssession varierar beroende på behandlingsområdets storlek och den specifika tekniken som används. Sessioner kan vara allt från några få minuter till en timme, vilket gör det möjligt för många behandlingar att utföras även under en lunchrast.</p>'
+            text: '<p class="p200">Längden på en behandlingssession varierar beroende på behandlingsområdets storlek och den specifika tekniken som används. Sessioner kan vara allt från några få min till en timme, vilket gör det möjligt för många behandlingar att utföras även under en lunchrast.</p>'
         ),
         new Question(
             title: 'Är behandlingar med Alma Harmony XL Pro smärtsamma?',

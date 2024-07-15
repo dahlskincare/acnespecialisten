@@ -60,7 +60,7 @@ $services = array(
         image_alt: 'Bild illustrerar en ansiktsbehandling mot pormaskar utförd på Acnespecialisten',
 
         title: 'Ansiktsbehandling mot Pormaskar',
-        duration: '60 minuter',
+        duration: '60 min',
         price: 'Pris från 799 kr',
         icons: array(),
         content: '<p class="p200">En speciellt framtagen för att djuprengöra huden, avlägsna döda hudceller och bekämpa tilltäppta porer. Processen börjar med en rengöring, följt av ångning för att mjuka upp och öppna porerna. Därefter görs en noggrann porrengöring där pormaskar och andra orenheter avlägsnas. Behandlingen avrundas med en lugnande mask och en fuktgivande kräm som är anpassad för din hudtyp.</p>',
