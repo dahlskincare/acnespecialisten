@@ -52,8 +52,16 @@
 
     .description {
       @include p100;
+
       // Limit to keep widget height similar
-      height: $s*12;
+      @include tablet {
+        height: $s*12;
+      }
+
+      @include desktop {
+        height: $s*12;
+      }
+
       line-height: $xl;
       margin-bottom: $xl;
       overflow-y: auto;
