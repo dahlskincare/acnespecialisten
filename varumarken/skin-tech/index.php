@@ -630,7 +630,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/varumarken/skin-tech/" />
-      
+
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -690,7 +690,9 @@ $specialists_view_more = 'Se alla hudterapeuter';
                                 <hr class="is-hidden-touch" />
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                             <?php } ?>
-                            <hr class="is-hidden-touch" />
+                            <?php if (!isset($big_types)) { ?>
+                                <hr class="is-hidden-touch" />
+                            <?php } ?>
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
                             <?php foreach ($big_types as $service) { ?>
