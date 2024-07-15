@@ -297,7 +297,7 @@ $treatment_areas = array(
         description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: null,
+                image: '/icons/1x.svg',
                 image_alt: '1x område',
                 image_title: '1x område',
                 title: '1x område',
@@ -308,7 +308,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
             new TreatmentAreaItem(
-                image: null,
+                image: '/icons/2x.svg',
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
@@ -319,7 +319,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
             new TreatmentAreaItem(
-                image: null,
+                image: '/icons/3x.svg',
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
