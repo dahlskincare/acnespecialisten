@@ -21,7 +21,7 @@
                     <?php if (isset($floating_box) && strlen($floating_box) > 0) { ?>
                         <div class="mt-m" id="floater-description"><?php echo $floating_box ?></div>
                     <?php } ?>
-                    <?php if (isset($model->procedures)) { ?>
+                    <?php if (isset($model->procedures) && !empty($model->procedures)) { ?>
                         <div id="floating-procedures" class="mt-xl">
                             <?php foreach ($model->procedures as $procedure) { ?>
                                 <div class="floating-procedure">
