@@ -70,6 +70,14 @@
         grid-template-rows: auto;
         grid-auto-flow: column;
 
+        // hide scrollbar
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
         .rbt {
             width: 302px;
             @include elevation-low;
