@@ -11,6 +11,11 @@ $large-header-height: 72px;
 $important-notice-height: 38px;
 
 html {
+    ::selection {
+        background: $deep-sea-200;
+        color: #fff;
+    }
+
     body {
         overflow-x: hidden;
         overflow-y: auto;
