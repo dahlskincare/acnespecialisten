@@ -35,12 +35,14 @@
         <?php if (isset($service->url)) { ?>
             <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="mt-m button outline expand" title="<?php echo $service->url_label ?>"><?php echo $service->url_label ?></a>
         <?php } ?>
-        <hr />
-        <?php if (isset($service->consultation_url)) { ?>
-            <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="mt-xl button expand" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
-        <?php } ?>
-        <?php if (isset($service->booking_url)) { ?>
-            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="mt-s button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
+        <?php if (isset($service->consultation_url) || isset($service->booking_url)) { ?>
+            <hr />
+            <?php if (isset($service->consultation_url)) { ?>
+                <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="mt-xl button expand" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
+            <?php } ?>
+            <?php if (isset($service->booking_url)) { ?>
+                <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="mt-s button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
+            <?php } ?>
         <?php } ?>
     </div>
     <div class="is-hidden-mobile">

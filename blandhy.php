@@ -323,10 +323,6 @@ $products = array(
             image_alt: 'Bild av produkter designade för behandling av blandhy',
             image_title: 'Effektiva produkter för balansering av blandhy',
 
-            url_label: '',
-            url: '',
-            url_title: '',
-
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot blandhy',
