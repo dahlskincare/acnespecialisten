@@ -10,6 +10,15 @@ div.consultation-banner-widget {
         .column:first-child {
             h2 {
                 max-width: 200px;
+                @include h500;
+
+                @include tablet {
+                    @include h400;
+                }
+
+                @include desktop {
+                    @include h400;
+                }
             }
 
             p {
