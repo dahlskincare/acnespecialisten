@@ -2,10 +2,6 @@
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
 
-html {
-    scroll-behavior: smooth;
-}
-
 div#content {
     margin: 0 auto;
     max-width: 872px;
@@ -15,11 +11,12 @@ div#content {
         top: 56px;
         background-color: $white-500;
         z-index: 2;
+        border-bottom: 1px solid $light-200;
 
 
         #letter-selector-scroller {
             overflow-x: scroll;
-            //scroll-behavior: smooth;
+            scroll-behavior: smooth;
             scrollbar-width: none;
             -ms-overflow-style: none;
             white-space: nowrap;
