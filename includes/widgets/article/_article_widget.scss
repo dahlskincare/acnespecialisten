@@ -10,26 +10,23 @@ div.article-widget {
 
     div.article-tags {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: flex-start;
 
         div.article-tag {
             margin-top: $xl;
+            margin-right: $xxl;
             text-align: center;
 
             .icon {
                 height: $xl4;
             }
-
         }
 
-        @include desktop {
-            justify-content: flex-start;
-
-            div.article-tag {
-                margin-right: $xxl;
-            }
-
+        div.article-tag:last-child {
+            margin-right: 0;
         }
+
     }
 
     div.article-content {

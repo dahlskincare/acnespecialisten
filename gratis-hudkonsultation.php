@@ -32,8 +32,8 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
 
 <head>
 
-      <link rel="canonical" href="https://www.acnespecialisten.se/gratis-hudkonsultation.php" />
-      
+    <link rel="canonical" href="https://www.acnespecialisten.se/gratis-hudkonsultation.php" />
+
     <title class="l10n">Gratis Hudkonsultation och Hudanalys i Stockholm och Online</title>
     <meta name="title" content="Gratis Hudkonsultation och Hudanalys i Stockholm och Online" class="l10n">
     <meta name="description" content="Boka en kostnadsfri hudkonsultation, våra erfarna hudterapeuter analyserar din hudtyp och skräddarsyr en personlig behandlingsplan just för dig." class="l10n">
@@ -67,7 +67,7 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                     <div class="infobox">
                         <div class="ib-header" onclick="Consultation.toggleContent(this.parentElement)">
                             <div class="l10n">Vi erbjuder alltid gratis hudkonsultation! (Värde 600 kronor)</div>
-                            <?php icon('add'); ?>
+                            <?php icon('arrow-down'); ?>
                         </div>
                         <div class="ib-content zero-size">
                             <p class="p200 l10n">Våra konsultationer är gratis om man kommer på det bokade besöket. Vid uteblivet besök som inte avbokas senast 24 timmar innan den bokade tiden debiterar vi 500 kronor.</p>
