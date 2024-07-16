@@ -12,6 +12,8 @@
             .service-card-header {
                 display: flex;
                 align-items: center;
+                padding-bottom: $xl;
+                border-bottom: 1px solid $light-200;
 
                 .service-card-image {
                     width: 102px;
@@ -93,7 +95,10 @@
                     .price {
                         @include h200;
                     }
+                }
 
+                .procedure:last-child {
+                    padding-bottom: 0;
                 }
             }
 
