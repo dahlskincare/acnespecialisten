@@ -27,6 +27,6 @@ namespace Brands {
     });
 
     export function scroll(dir: number): void {
-        container.scrollBy({ left: 350 * dir });
+        container.scrollBy({ left: 450 * dir });
     }
 }
