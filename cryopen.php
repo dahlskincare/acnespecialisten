@@ -345,7 +345,7 @@ $treatment_areas = array(
                 image: null,
                 image_alt: 'Återbesök',
                 image_title: 'Återbesök',
-                title: 'Återbesökt',
+                title: 'Återbesök',
                 duration: '20 min',
                 price: 'Från 250 kr',
                 url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Cryopen_aterbesok',
