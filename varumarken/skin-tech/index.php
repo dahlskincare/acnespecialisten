@@ -335,7 +335,6 @@ $types = array(
 );
 
 $treatment_areas_title = 'Behandlingsområden';
-$treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -714,7 +713,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <?php if (isset($treatment_areas)) { ?>
                     <section id="treatment-areas" class="large-margin">
                         <?php if (isset($treatment_areas_title)) { ?>
-                            <h2 class="big l10n"><?php echo $treatment_areas_title ?></h2>
+                            <h2 class="big"><?php echo $treatment_areas_title ?></h2>
                         <?php } ?>
                         <?php if (isset($treatment_areas_text)) { ?>
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>

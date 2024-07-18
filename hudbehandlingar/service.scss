@@ -89,6 +89,7 @@ html {
         }
 
         section#treatment-areas {
+
             img.treatment-area-image {
                 margin-top: $xl4;
                 border-radius: $radius-l;
@@ -142,6 +143,13 @@ html {
 
                 @include desktop {
                     border-top: 1px solid $light-200;
+                }
+            }
+
+            .big-type:last-child {
+                @include desktop {
+                    padding-bottom: $xl4;
+                    border-bottom: 1px solid $light-200;
                 }
             }
 
