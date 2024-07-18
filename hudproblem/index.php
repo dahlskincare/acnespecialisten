@@ -1360,17 +1360,17 @@ $default_problems = new ProblemArea(
 $problem_areas = array(
       new ProblemArea(
             label: 'Ansikte',
-            icon: 'ansikte',
+            icon: 'area-face',
             problem_ids: array('akne-ansikte', 'aknearr-ansikte', 'finnar-ansikte', 'arr-fran-finnar-ansikte', 'rosacea-ansikte', 'ytliga-blodkarl-ansikte', 'pormaskar-ansikte', 'stora-porer-ansikte', 'pigmentflackar-ansikte', 'perioral-dermatit-ansikte', 'seborre-ansikte', 'milier-ansikte', 'hudforandringar-ansikte',  'mogen-hy-ansikte', 'torr-kanslig-hy-ansikte', 'operations-skadearr-ansikte', 'oonskat-har-ansikte',)
       ),
       new ProblemArea(
             label: 'Rygg',
-            icon: 'rygg',
+            icon: 'area-back',
             problem_ids: array('akne-rygg', 'aknearr-rygg', 'finnar-rygg', 'arr-fran-finnar-rygg', 'pormaskar-rygg', 'pigmentflackar-rygg', 'hudforandringar-rygg', 'operations-skadearr-rygg', 'oonskat-har-rygg',)
       ),
       new ProblemArea(
             label: 'Bröst',
-            icon: 'brost',
+            icon: 'area-chest',
             problem_ids: array('akne-brost', 'aknearr-brost', 'finnar-brost', 'arr-fran-finnar-brost', 'pormaskar-brost', 'pigmentflackar-brost', 'hudforandringar-brost', 'operations-skadearr-brost', 'oonskat-har-brost',)
       ),
       new ProblemArea(
