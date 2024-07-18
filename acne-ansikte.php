@@ -24,7 +24,7 @@ $floating_box = '';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Akne i ansiktet',
-      description: 'Akne kan drabba alla, oavsett ålder och kön. Det visar sig som pormaskar, finnar, cystor och noduler längs käklinjen, kinderna och runt hakan. Vi förklarar de vanligaste orsakerna bakom akneutbrotten och erbjuder effektiva behandlingsmetoder. Lär dig hur du kan ta hand om din hud för att minska akne och få en klarare och friskare hy. Boka en kostnadsfri konsultation hos oss på AcneSpecialisten för personliga råd och behandlingar.',
+      description: 'Att ha akne i ansiktet kan vara både påfrestande och frustrerande. Det påverkar inte bara din hy utan kan även ha en påtaglig inverkan på ditt självförtroende och din självkänsla. Men du är inte ensam, och det finns många effektiva sätt att hantera och behandla akne. På denna sida kommer vi utforska vad akne är, varför det uppstår, och de bästa metoderna för att behandla det.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne i ansiktet'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -53,21 +53,22 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Fakta';
+$about_title = 'Din guide till en problemfritt ansikte.';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet, även känd som akne vulgaris, är en vanlig hudåkomma som kännetecknas av inflammerade finnar, pormaskar och oljig hy. Dessa utslag kan uppträda som små gula eller röda upphöjningar som ofta ömmar. Vanligtvis förekommer akne i ansiktet, men det kan också uppstå på andra delar av kroppen som bröstet och ryggen. Akne kan visa sig i längre perioder eller som enstaka utbrott.</p>',
+            content: '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som påverkar miljontals människor världen över, både unga och vuxna. Detta tillstånd kännetecknas av uppkomsten av pormaskar, finnar, papler, pustler och i vissa fall mer allvarliga noduler och cystor. Akne utvecklas främst i områden med högt antal talgkörtlar, såsom ansiktet, bröstet och ryggen. De fysiska symtomen på akne kan leda till både kroppsligt besvär och känslomässig press.</p>',
             extended_content: '',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man akne?',
-            content: '<p class="p200">Akne i ansiktet orsakas av en kombination av faktorer. Hormoner, särskilt under puberteten, stimulerar talgkörtlarna att producera mer olja, vilket kan leda till tilltäppta porer. Genetiska faktorer spelar också en roll, då benägenheten för akne kan ärvas. Andra bidragande faktorer inkluderar stress, vissa mediciner, och användning av oljebaserade hudvårdsprodukter som kan täppa till porerna.',
-            extended_content: '',
+            content: '<p class="p200">Det är normalt att känna sig frustrerad och nedstämd över pormaskar, utslag och finnar som påverkar ditt ansikte, särskilt när de dyker upp vid de mest olämpliga tillfällena. För att förstå hur man effektivt kan hantera och behandla akne är det viktigt att först förstå de många olika orsakerna till att den uppstår.',
+            extended_content: '<p class="p200 mt-xl">Akne i ansiktet orsakas av flera faktorer som samverkar. En av de mest framträdande orsakerna är hormonella förändringar, vilket förklarar varför många upplever akne under tonåren och vid vissa perioder i livet, som under menstruationscykeln. Hormonella förändringar leder till ökad produktion av talg (fett), en oljig substans som produceras av talgkörtlarna i huden.</p>
+            <p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta kan genetiska faktorer spela en betydande roll, om dina föräldrar har haft akne, ökar chanserna att du också utvecklar det.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
