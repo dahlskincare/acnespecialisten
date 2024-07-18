@@ -334,7 +334,7 @@ $types = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlngsområden';
+$treatment_areas_title = 'Behandlingsområden';
 $treatment_areas_text = '';
 $treatment_areas = array(
     new TreatmentArea(
