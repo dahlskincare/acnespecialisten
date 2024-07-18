@@ -12,20 +12,9 @@ div.treatment-area-item-card {
     @include elevation-low;
     margin-top: $m;
 
-    @include desktop {
-        border: none;
-        border-top: 1px solid $light-200;
-        border-bottom: 1px solid $light-200;
-        border-radius: 0;
-        box-shadow: none;
-        margin-top: -1px;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     img {
         border-radius: 4px;
-        width: 64px;
+        width: 72px;
         height: auto;
     }
 
@@ -51,6 +40,21 @@ div.treatment-area-item-card {
                 background-color: $dark-25;
                 margin: 0 $xs;
             }
+        }
+    }
+
+    @include desktop {
+        border: none;
+        border-top: 1px solid $light-200;
+        border-bottom: 1px solid $light-200;
+        border-radius: 0;
+        box-shadow: none;
+        margin-top: -1px;
+        padding-left: 0;
+        padding-right: 0;
+
+        img {
+            width: 92px;
         }
     }
 }
