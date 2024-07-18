@@ -25,6 +25,7 @@ section#banner {
             display: flex;
             align-items: center;
             justify-content: center;
+
         }
 
         .treatment:hover {
@@ -44,6 +45,10 @@ section#banner {
             grid-template-columns: repeat(6, 1fr);
             grid-template-rows: repeat(2, 1fr);
             box-shadow: none;
+
+            .treatment {
+                padding: 0 $xl;
+            }
 
         }
     }
