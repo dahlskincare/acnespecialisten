@@ -1538,9 +1538,9 @@ $specialists = array(
             </section>
             <section id="cards">
                   <div class="container">
-                        <div class="columns is-multiline is-variable is-3">
+                        <div id="card-grid">
                               <?php foreach ($problems as $id => $problem) { ?>
-                                    <div class="column is-one-third">
+                                    <div class="card-grid-item">
                                           <div class="problem-area-card" id="card-<?php echo $id ?>">
                                                 <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>">
                                                       <div class="picture">
@@ -1548,18 +1548,18 @@ $specialists = array(
                                                       </div>
                                                 </a>
                                                 <div class="problem-area-card-content">
-                                                      <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>">
+                                                      <div class="pac-info">
                                                             <h3 class="h300"><?php echo $problem->content_label ?></h3>
                                                             <p class="mt-xs"><?php echo $problem->info ?></p>
-                                                      </a>
+                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button is-hidden-tablet outline expand l10n" title="Läs mer">Läs mer</a>
+                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button text is-hidden-mobile compact l10n" title="Läs mer">Läs mer</a>
+                                                      </div>
                                                       <div class="is-hidden-tablet">
-                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button outline expand l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
                                                             <a href="<?php echo $problem->consultation_url ?>" title="<?php echo $problem->consultation_url_title ?>" class="button expand l10n" title="Boka konsultation">Boka Konsultation</a>
                                                             <a href="<?php echo $problem->booking_url ?>" title="<?php echo $problem->booking_url_title ?>" class="mt-s button expand l10n" title="Boka behandling">Boka Behandling</a>
                                                       </div>
                                                       <div class="is-hidden-mobile">
-                                                            <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>" class="mt-m button text compact l10n" title="Läs mer">Läs mer</a>
                                                             <hr>
                                                             <div class="columns is-multiline">
                                                                   <div class="column mt-xxs is-full is-half-widescreen">
