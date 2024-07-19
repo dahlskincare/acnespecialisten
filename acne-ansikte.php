@@ -115,17 +115,17 @@ $trivias = array(
             title: ' i ansitket akne uppstår och dess orsak',
             content: '<p class="p200">Akne i ansiktet kan uppträda på flera olika sätt, beroende på typ av akne och hudtyp. Vanliga områden där akne ofta förekommer är pannan, näsan, kinderna och hakan. Symtomen kan variera från små, icke-inflammatoriska pormaskar till större, smärtsamma och inflammerade cystor. Det är också bra att veta att akne ofta dyker upp i områden med högt antal talgkörtlar.</p>',
 
-            extended_content: '<p class="p200 mt-xl"><strong>Panna:</strong> Akne i pannan är ofta små finnar eller pormaskar. Dessa kan uppstå på grund av att hårsäckarna täpps igen av överflödig olja, svett eller hårprodukter.</p>
+            extended_content: '<ul><li class"mt-xl"><strong>Panna:</strong> Akne i pannan är ofta små finnar eller pormaskar. Dessa kan uppstå på grund av att hårsäckarna täpps igen av överflödig olja, svett eller hårprodukter.</li>
 
-            <p class="p200 mt-xl"><strong>Kinder:</strong> Akne på kinderna kan även bero på hormonella förändringar, särskilt hos kvinnor. Dessa finnar kan vara rödaktiga och inflammerade, och de kan dyka upp som enstaka utbrott eller som en del av ett större område med flera finnar. Hormoner som östrogen och progesteron kan påverka talgproduktionen, vilket leder till att porerna täpps igen och orsakar akne.</p>
+            <li class"mt-xl"><strong>Kinder:</strong> Akne på kinderna kan även bero på hormonella förändringar, särskilt hos kvinnor. Dessa finnar kan vara rödaktiga och inflammerade, och de kan dyka upp som enstaka utbrott eller som en del av ett större område med flera finnar. Hormoner som östrogen och progesteron kan påverka talgproduktionen, vilket leder till att porerna täpps igen och orsakar akne.</li>
 
-            <p class="p200 mt-xl"><strong>Haka:</strong> Akne på hakan är vanligtvis hormonell och ökar ofta under menstruationscykeln. Denna typ av akne kan vara envis och dyka upp samma plats varje månad.</p>
+            <li class"mt-xl"><strong>Haka:</strong> Akne på hakan är vanligtvis hormonell och ökar ofta under menstruationscykeln. Denna typ av akne kan vara envis och dyka upp samma plats varje månad.</li>
 
-            <p class="p200 mt-xl"><strong>Näsa:</strong> Porerna på näsan är större och blir lättare igentäppta, vilket kan leda till pormaskar eller små finnar. Överflödig olja och bakterier spelar också en stor roll här.</p>
+            <li class"mt-xl"><strong>Näsa:</strong> Porerna på näsan är större och blir lättare igentäppta, vilket kan leda till pormaskar eller små finnar. Överflödig olja och bakterier spelar också en stor roll här.</li>
 
-            <p class="p200 mt-xl"><strong>Käklinje:</strong> Akne längs käklinjen är ofta relaterat till hormoner och stress. Dessa finnar är ofta ömma och kan vara djupare under huden.</p>
+            <li class"mt-xl"><strong>Käklinje:</strong> Akne längs käklinjen är ofta relaterat till hormoner och stress. Dessa finnar är ofta ömma och kan vara djupare under huden.</li>
 
-            <p class="p200 mt-xl"><strong>Hals:</strong> Akne på halsen kan ofta kopplas till hormonella förändringar eller irritation från kläder och smycken. Dessa finnar kan vara smärtsamma och uppstå som resultat av friktion eller svett.</p>
+           <li class"mt-xl"><strong>Hals:</strong> Akne på halsen kan ofta kopplas till hormonella förändringar eller irritation från kläder och smycken. Dessa finnar kan vara smärtsamma och uppstå som resultat av friktion eller svett.</li></ul>
 
             <p class="p200 mt-xl">Vissa individer kan även uppleva akne över hela ansiktet. Detta kan bero på en kombination av hormonella förändringar, genetiska faktorer och livsstilsval. Det är viktigt att identifiera orsaken till din akne för att hitta den mest effektiva behandlingen.</p>
 
