@@ -72,6 +72,19 @@ $trivias = array(
             <p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta kan genetiska faktorer spela en betydande roll, om dina föräldrar har haft akne, ökar chanserna att du också utvecklar det.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
+
+            new ProblemTrivia(
+            prefix: 'Orsaker',
+            title: ' till plötslig akne i ansiktet',
+            content: '<p class="p200">Plötslig akne i ansiktet kan vara både frustrerande och bekymmersamt, särskilt om du inte vanligtvis har problem med huden. Det finns flera faktorer som kan leda till en oväntad uppblossning av akne. En av de vanligaste orsakerna är hormonella förändringar, vilket kan ske vid olika tidpunkter i livet, såsom under puberteten, menstruationscykeln, graviditet eller på grund av p-piller.',
+            extended_content: '<p class="p200 mt-xl">Hormonella förändringar kan även spela en stor roll i uppkomsten av plötslig akne. Under puberteten, menstruationscykler, graviditet och till och med klimakteriet, kan nivåerna av hormoner som testosteron öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</p>
+            <p class="p200 mt-xl">Stress är en annan viktig faktor som kan påverka din hudhälsa markant. Påfrestande perioder i livet kan resultera i att kroppen producerar mer av stresshormonet kortisol, vilket i sin tur kan trigga igång överdriven talgproduktion och skapa en obalans i huden. Detta skapar en grogrund för akneutbrott, särskilt om du redan är benägen för finnar.</p>
+            <p class="p200 mt-xl"Preventivmedel kan också spela en roll i plötsliga akneutbrott. Vissa hormonella preventivmedel kan påverka kroppens nivåer av androgener, vilket kan leda till ökad talgproduktion och därmed akne. Om du märker att din hud förändras efter att du börjat med ett nytt preventivmedel, kan det vara värt att diskutera detta med din läkare. Det finns många olika typer av preventivmedel, och det är möjligt att hitta en lösning som är bättre lämpad för din hudtyp och hormonella balans.</p>
+            <p class="p200 mt-xl"Yttre faktorer som användning av oljebaserade kosmetiska produkter, otillräcklig rengöring av huden, och exponering för föroreningar kan också bidra till plötsliga akneutbrott. Förändringar i väderförhållanden och användningen av feta solkrämer under sommarperioden kan blockera porerna och orsaka akne.</p>
+            <p class="p200 mt-xl"PSlutligen, om du nyligen har börjat använda nya hudvårdsprodukter eller mediciner, kan dessa också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne, kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
+      ),
+
       new ProblemTrivia(
             prefix: 'Hur',
             title: ' får man bort akne i ansiktet?',
