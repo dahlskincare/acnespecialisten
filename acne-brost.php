@@ -52,31 +52,42 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Fakta';
+$about_title = 'Orsaker, Symptom och Effektiva Behandlingar';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är akne på bröstet',
-            content: '<p class="p200">Akne på bröstkorgen, ofta kallad bröstakne, är ett vanligt hudproblem som kan drabba personer i alla åldrar och kön. Denna typ av akne kan visa sig som pormaskar, finnar, cystor och noduler på bröstet och kan vara både besvärande och obekväma. Vanliga orsaker till akne på bröstet inkluderar hormonella förändringar, ökad talgproduktion, tilltäppta porer samt yttre faktorer som stress, svett och kläder som inte andas.
-                </p>',
-            extended_content: '',
+            content: '<p class="p200">Akne på bröstet är en hudåkomma som drabbar många och kan vara lika påfrestande som akne i ansiktet. Det yttrar sig vanligtvis som finnar och pormaskar på bröstområdet, vilket kan vara både smärtsamt och estetiskt besvärande. Ibland kan akne på bröstet även leda till ärrbildning om det inte behandlas korrekt.</p>',
+
+            extended_content: '<p class="p200">Dessutom kan denna form av akne variera i svårighetsgrad från milda utbrott till mer inflammerade och infekterade finnar. Precis som med akne i ansiktet, kan faktorer som hormonella förändringar, genetisk anlag och externa triggers spela en roll i dess uppkomst.</p>
+
+            <p class="p200">Det är viktigt att notera att akne på bröstet inte enbart drabbar tonåringar under puberteten, utan även vuxna kan uppleva problem med detta. Oavsett ålder, kan det vara en källa till obehag och självtvivel. Men med rätt kunskap och behandlingsstrategier, är det möjligt att hantera och minska akne på bröstet effektivt.</p>',
+
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man akne på bröstet?',
-            content: '<p class="p200">Akne på bröstet kan bero på större talgkörtlar som producerar mer talg, hormonella förändringar som pubertet, menstruation, graviditet, och klimakteriet, orenheter från svett och smuts som täpper till porerna, samt användning av hudvårdsprodukter som täpper till porerna. Täta kläder kan också fånga svett och bakterier mot huden.',
-            extended_content: '',
+            content: '<p class="p200">Akne på bröstet kan drabba vem som helst och det finns flera faktorer som kan bidra till dess uppkomst. En av de vanligaste orsakerna är hormonella förändringar. Dessa förändringar kan ibland leda till en ökning av mängden talg (olja) som produceras i huden, vilket i sin tur kan täppa till porerna och skapa en miljö där bakterier trivs.',
+            
+            extended_content: '<p class="p200">Ett annat skäl kan vara genetiska faktorer. Om dina föräldrar eller nära släktingar har haft problem med akne, finns det en risk att du också kan drabbas. Dessutom kan stress och dålig kost spela en roll i utvecklingen av akne. Stress kan påverka kroppens hormonbalans negativt medan en kost rik på fett och socker kan bidra till inflammation.</p>
+
+            <p class="p200">Intensiv fysisk aktivitet kan också orsaka akne på bröstet. När du svettas mycket under träning, blandas svetten med olja och smuts på huden och kan täppa igen porerna. Täta och svettiga kläder kan också förvärra tillståndet.</p>
+
+            <p class="p200">Slutligen kan användning av vissa kosmetiska produkter och mediciner orsaka akne. Vissa kroppslotioner, krämer och mediciner kan innehålla ingredienser som täpper till porerna och leder till akneutbrott.</p>',
+
+
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
             prefix: 'Hur',
-            title: ' får man bort akne på bröstet?',
-            content: '<p class="p200">FHos AcneSpecialisten erbjuder vi en kostnadsfri konsultation för att identifiera din hudtyp och akneproblem. Vi tar fram en skräddarsydd behandlingsplan som kan inkludera topikala aknebehandlingar med exfolierande och förebyggande ingredienser, samt professionella behandlingar som kemiska peelingar, laser, microneedling, och ljusbehandlingar. En personlig hudvårdsrutin hjälper till att hålla aknen borta på lång sikt.
+            title: ' behandlar man akne på bröstkorgen?',
+            content: '<p class="p200">För att effektivt behandla akne på bröstet kan du överväga att besöka en hudterapeut. De kan på ett professionellt sätt klämma ut alla inflammationer, vilket minskar risken för ärrbildning. Utöver detta finns avancerade behandlingar såsom kemisk peeling, microneedling och laser, som kan ge snabba och synbara resultat.</p>',
 
-                Med rätt vård och behandlingar kan akne på bröstet hanteras effektivt, vilket leder till en klarare och friskare hud. Boka en konsultation hos oss för att få hjälp med att skräddarsy din behandlingsplan.</p>',
-            extended_content: '',
+            extended_content: '<p class="p200">Det är också avgörande att förebygga ny akne genom rätt hudvårdsrutiner. Regelbunden rengöring, användning av produkter anpassade för aknebenägen hud samt undvikande av irriterande ämnen kan göra en stor skillnad. Att ha en välbalanserad kost, hålla stressen nere och motionera regelbundet bidrar också till en bättre hudhälsa.</p>
+
+            <p class="p200">Hos AcneSpecialisten erbjuder vi en kostnadsfri konsultation för att identifiera din hudtyp och akneproblem. Vi tar fram en skräddarsydd behandlingsplan som kan inkludera topikala aknebehandlingar med exfolierande och förebyggande ingredienser, samt professionella behandlingar. En personlig hudvårdsrutin hjälper till att hålla aknen borta på lång sikt. Med rätt vård och behandlingar kan akne på bröstet hanteras effektivt, vilket leder till en klarare och friskare hud. Boka en konsultation hos oss för att få hjälp med att skräddarsy din behandlingsplan.</p>',
             icons: array()
       ),
 );
