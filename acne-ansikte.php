@@ -97,13 +97,13 @@ $trivias = array(
 
             content: '<p class="p200">Att leva med svår akne kan vara extremt påfrestande både fysiskt och känslomässigt. Du kanske har provat ett flertal olika behandlingar utan att se någon förbättring. Det är viktigt att veta när det är dags att söka professionell hjälp för din akne. Här är några tecken att hålla utkik efter:',
 
-            extended_content: '<p class="p200 mt-xl"><strong> Utebliven förbättring:</strong>Om du har använt hudvårdsprodukter under en längre tid utan att uppleva någon märkbar förbättring, kan det vara ett tecken på att du behöver en mer intensiv behandling.</p>
+            extended_content: '<p class="p200 mt-xl"><strong> Utebliven förbättring:</strong> Om du har använt hudvårdsprodukter under en längre tid utan att uppleva någon märkbar förbättring, kan det vara ett tecken på att du behöver en mer intensiv behandling.</p>
 
             <p class="p200 mt-xl"><strong>Ärrbildning:</strong> Om du börjar märka att din akne lämnar permanenta ärr efter sig, är det en indikation på att din nuvarande behandling inte är tillräckligt effektiv.</p>
 
             <p class="p200 mt-xl"><strong>Påverkan på självkänslan:</strong> Akne kan ha en stor inverkan på din mentala hälsa och självkänsla. Om du känner dig deprimerad eller ångestfylld över din hud, är det dags att tala med en specialist.</p>
 
-            <p class="p200 mt-xl"><strong>Fysisk smärta:</strong>Akne som är smärtsam eller inflammerad till den punkt där det påverkar din dagliga funktion är också ett tecken på att du behöver professionell hjälp.</p>',
+            <p class="p200 mt-xl"><strong>Fysisk smärta:</strong> Akne som är smärtsam eller inflammerad till den punkt där det påverkar din dagliga funktion är också ett tecken på att du behöver professionell hjälp.</p>',
 
             icons: array()
       ),
