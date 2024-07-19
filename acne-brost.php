@@ -62,7 +62,7 @@ $trivias = array(
 
             extended_content: '<p class="p200 mt-xl">Dessutom kan denna form av akne variera i svårighetsgrad från milda utbrott till mer inflammerade och infekterade finnar. Precis som med akne i ansiktet, kan faktorer som hormonella förändringar, genetisk anlag och externa triggers spela en roll i dess uppkomst.</p>
 
-            <p class="p200" mt-xl>Det är viktigt att notera att akne på bröstet inte enbart drabbar tonåringar under puberteten, utan även vuxna kan uppleva problem med detta. Oavsett ålder, kan det vara en källa till obehag och självtvivel. Men med rätt kunskap och behandlingsstrategier, är det möjligt att hantera och minska akne på bröstet effektivt.</p>',
+            <p class="p200 mt-xl">Det är viktigt att notera att akne på bröstet inte enbart drabbar tonåringar under puberteten, utan även vuxna kan uppleva problem med detta. Oavsett ålder, kan det vara en källa till obehag och självtvivel. Men med rätt kunskap och behandlingsstrategier, är det möjligt att hantera och minska akne på bröstet effektivt.</p>',
 
             icons: array()
       ),
