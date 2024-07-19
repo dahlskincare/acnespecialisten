@@ -9,6 +9,8 @@
   border-radius: $radius-l;
   @include elevation-low();
   position: relative;
+  display: flex;
+  flex-direction: column;
 
   .bc-img-background {
     width: 100%;
@@ -18,6 +20,10 @@
 
   .bc-content {
     padding: 0 $xl $xl $xl;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     .overlay {
       background-color: #fff;
@@ -61,15 +67,6 @@
 
     .description {
       @include p100;
-
-      // Limit to keep widget height similar
-      @include tablet {
-        height: $s*12;
-      }
-
-      @include desktop {
-        height: $s*12;
-      }
 
       line-height: $xl;
       margin-bottom: $xl;

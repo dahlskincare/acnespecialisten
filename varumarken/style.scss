@@ -112,6 +112,42 @@ html {
             }
         }
 
+        section#cards {
+            #card-grid {
+                .card-grid-item {
+                    margin-top: $xl3;
+                }
+            }
+
+            @include tablet {
+                #card-grid {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    column-gap: $xl;
+                    row-gap: $xl3;
+
+                    .card-grid-item {
+                        display: flex;
+                        margin-top: 0;
+                    }
+                }
+            }
+
+            @include desktop {
+                #card-grid {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    column-gap: $xl;
+                    row-gap: $xl3;
+
+                    .card-grid-item {
+                        display: flex;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+
         section#links {
             margin-top: $xl;
 

@@ -529,12 +529,10 @@ $path_segments = array(
                         </div>
                   </section>
                   <section id="cards">
-                        <div class="columns is-multiline">
+                        <div id="card-grid">
                               <?php foreach ($brand_cards as $brand) { ?>
-                                    <div class="column is-one-third">
-                                          <div class="mt-xl">
-                                                <?php include('widgets/brand_card/brand_card.php'); ?>
-                                          </div>
+                                    <div class="card-grid-item">
+                                          <?php include('widgets/brand_card/brand_card.php'); ?>
                                     </div>
                               <?php } ?>
                         </div>
