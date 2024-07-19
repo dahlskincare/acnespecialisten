@@ -84,6 +84,7 @@ $trivias = array(
             <p class="p200 mt-xl"><strong>Stress</strong> är en annan viktig faktor som kan påverka din hudhälsa markant. Påfrestande perioder i livet kan resultera i att kroppen producerar mer av stresshormonet kortisol, vilket i sin tur kan trigga igång överdriven talgproduktion och skapa en obalans i huden. Detta skapar en grogrund för akneutbrott, särskilt om du redan är benägen för finnar.</p>
 
             <p class="p200 mt-xl"><strong>Preventivmedel</strong> kan också spela en roll i plötsliga akneutbrott. Vissa hormonella preventivmedel kan påverka kroppens nivåer av androgener, vilket kan leda till ökad talgproduktion och därmed akne. Om du märker att din hud förändras efter att du börjat med ett nytt preventivmedel, kan det vara värt att diskutera detta med din läkare. Det finns många olika typer av preventivmedel, och det är möjligt att hitta en lösning som är bättre lämpad för din hudtyp och hormonella balans.</p>
+
             <p class="p200 mt-xl"><strong>Yttre faktorer</strong> som användning av oljebaserade kosmetiska produkter, otillräcklig rengöring av huden, och exponering för föroreningar kan också bidra till plötsliga akneutbrott. Förändringar i väderförhållanden och användningen av feta solkrämer under sommarperioden kan blockera porerna och orsaka akne.</p>
 
             <p class="p200 mt-xl">Slutligen, om du nyligen har börjat använda nya hudvårdsprodukter eller mediciner, kan dessa också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne, kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
@@ -118,8 +119,6 @@ $trivias = array(
             <p class="p200 mt-xl"><strong>Laserbehandling:</strong> Laserbehandling har blivit en populär metod för att hantera både aktiv akne och akneärr. Laserljuset riktas mot talgkörtlarna, vilket minskar talgproduktionen och därmed hindrar nya utbrott. Dessutom kan laserbehandling hjälpa till att minska inflammerade lesioner och förbättra hudens övergripande utseende.</p>
 
             <p class="p200 mt-xl"><strong>Egenvård och Hudvårdsprodukter:</strong> Att etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</p>
-
-            <p class="p200 mt-xl">Det är viktigt att komma ihåg att effekterna av dessa behandlingar inte är omedelbara. Det kan ta veckor eller till och med månader att se märkbara förbättringar, så tålamod och konsekvens är nyckeln. Tänk även på att alltid konsultera med en hudläkare eller annan specialist innan du påbörjar en ny behandling, så att du får en skräddarsydd plan som passar just din hudtyp och dina behov.</p>
 
             <p class="p200 mt-xl">Oavsett vilken metod du väljer, handlar hudvård om att ta hand om sig själv. Att visa omsorg och engagemang för din hud kan i slutändan leda till förbättrad självkänsla och välmående. Kom ihåg, du är inte ensam och det finns hjälp att få.</p>',
 
