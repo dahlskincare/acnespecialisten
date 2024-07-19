@@ -19,7 +19,7 @@ namespace Brands {
         }
 
         // conditionally hide the right mask
-        if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+        if (container.scrollLeft + container.offsetWidth >= container.scrollWidth - 30) {
             rightMask.classList.add('is-hidden');
         } else {
             rightMask.classList.remove('is-hidden');

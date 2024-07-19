@@ -16,7 +16,7 @@ var Brands;
             leftMask.classList.remove('is-hidden');
         }
         // conditionally hide the right mask
-        if (container.scrollLeft + container.offsetWidth >= container.scrollWidth) {
+        if (container.scrollLeft + container.offsetWidth >= container.scrollWidth - 30) {
             rightMask.classList.add('is-hidden');
         }
         else {
