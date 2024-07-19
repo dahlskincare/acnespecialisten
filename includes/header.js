@@ -43,12 +43,31 @@ var HeaderDesktop;
     var notice = document.querySelector('#important-notice');
     var slides = notice.querySelectorAll('.important-notice-slide');
     if (slides.length > 0) {
-        slides[0].classList.remove('offscreen');
-        setInterval(function () {
-            slides[slideIndex].classList.add('offscreen');
-            slideIndex = (slideIndex + 1) % slides.length;
-            slides[slideIndex].classList.remove('offscreen');
-        }, 6000);
+        setInterval(slideNext, 8000);
     }
+    function slideNext() {
+        for (var i = 0; i < slides.length; i++) {
+            if (slides[i].classList.contains('offscreen-left')) {
+                slides[i].classList.add('offscreen-right');
+                slides[i].classList.remove('offscreen-left');
+            }
+        }
+        slides[slideIndex].classList.add('offscreen-left');
+        slideIndex = (slideIndex + 1) % slides.length;
+        slides[slideIndex].classList.remove('offscreen-right');
+    }
+    HeaderDesktop.slideNext = slideNext;
+    function slidePrev() {
+        for (var i = 0; i < slides.length; i++) {
+            if (slides[i].classList.contains('offscreen-right')) {
+                slides[i].classList.add('offscreen-left');
+                slides[i].classList.remove('offscreen-right');
+            }
+        }
+        slides[slideIndex].classList.add('offscreen-right');
+        slideIndex = (slideIndex + 1) % slides.length;
+        slides[slideIndex].classList.remove('offscreen-left');
+    }
+    HeaderDesktop.slidePrev = slidePrev;
 })(HeaderDesktop || (HeaderDesktop = {}));
 //# sourceMappingURL=header.js.map
