@@ -64,6 +64,22 @@ section#links {
     }
 }
 
+section#cards {
+    @media screen and (min-width: $tablet) {
+        #category-grid {
+            margin-top: $xl3;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: $xl;
+            row-gap: $xl3;
+
+            .grid-item {
+                display: flex;
+            }
+        }
+    }
+}
+
 section#consultation-banner {
     margin-top: $xl;
 

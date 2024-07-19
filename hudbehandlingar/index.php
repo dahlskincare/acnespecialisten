@@ -563,9 +563,9 @@ $path_segments = array(
         </section>
         <section id="cards">
             <div class="container">
-                <div class="columns is-multiline is-variable is-3">
+                <div id="category-grid">
                     <?php foreach ($service_categories as $category) { ?>
-                        <div class="column is-one-third">
+                        <div class="grid-item">
                             <?php include('widgets/service-category-card/service-category-card.php') ?>
                         </div>
                     <?php } ?>
