@@ -87,7 +87,7 @@ $combos = array(
 );
 
 $treatment_areas_title = 'Områden vi behandlar';
-$treatment_areas_text = '';
+$treatment_areas_text = null;
 
 $treatment_areas = array(
     new TreatmentArea(
@@ -882,21 +882,31 @@ $all_brands = array(
                         <?php if (isset($treatment_areas_text)) { ?>
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
-                        <?php foreach ($treatment_areas as $treatment_area) { ?>
-                            <?php if (isset($treatment_area->image_small)) { ?>
-                                <picture>
-                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                    <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                                </picture>
+                        <ul id="treatment-area-selector">
+                            <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
+                                <li class="treatment-area-selector-item" data-index="<?php echo $index ?>" onclick="scrollToCategory(this)">
+                                    <?php echo $treatment_area->title ?>
+                                </li>
                             <?php } ?>
-                            <h3 class="h300 mt-xl4"><?php echo $treatment_area->title ?></h3>
-                            <div class="mb-xl"><?php echo $treatment_area->description ?></div>
-                        <?php
+                        </ul>
+
+                        <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
+                            <div class=" treatment-area" id="treatment-area-<?php echo $index ?>">
+                                <?php if (isset($treatment_area->image_small)) { ?>
+                                    <picture>
+                                        <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                        <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                        <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                    </picture>
+                                <?php } ?>
+                                <h3 class="h300 mt-xl4"><?php echo $treatment_area->title ?></h3>
+                                <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                            <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
                                 include('hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
+                            </div>
                     </section>
 
                 <?php } ?>
@@ -938,7 +948,6 @@ $all_brands = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
-                <!--Hudguide-->
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>
@@ -973,6 +982,7 @@ $all_brands = array(
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script src="/includes/scripts/floating-image.js"></script>
+    <script type="text/javascript" src="permanent-harborttagning.js"></script>
 </body>
 
 </html>

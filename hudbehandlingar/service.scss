@@ -2,7 +2,6 @@
 @import 'widgets/treatment-area-item-card/treatment-area-item-card';
 
 html {
-    scroll-behavior: smooth;
 
     .underline {
         text-decoration: underline;
@@ -89,6 +88,48 @@ html {
         }
 
         section#treatment-areas {
+
+            ul#treatment-area-selector {
+                position: sticky;
+                top: 56px;
+                padding: 0;
+                margin: $m 0;
+                border-bottom: 1px solid $light-200;
+                background-color: $white-500;
+                display: flex;
+                overflow-x: auto;
+                // hide scrollbar
+                scrollbar-width: none;
+                -ms-overflow-style: none;
+
+
+                li {
+                    list-style-type: none;
+                    @include p100;
+                    padding: $xl 0;
+                    margin-right: $xl;
+                    white-space: nowrap;
+                    border-bottom: 3px solid transparent;
+                    cursor: pointer;
+                }
+
+                li.active {
+                    border-color: $deep-sea-300;
+                }
+
+                @include desktop {
+                    top: 72px;
+                    margin: $xl4 0;
+                }
+            }
+
+            .treatment-area {
+                scroll-margin-top: 140px;
+
+                @include desktop {
+                    scroll-margin-top: 160px;
+                }
+            }
 
             img.treatment-area-image {
                 margin-top: $xl4;
