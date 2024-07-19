@@ -117,7 +117,7 @@ $trivias = array(
 
             <p class="p200 mt-xl"><strong>Laserbehandling:</strong> Laserbehandling har blivit en populär metod för att hantera både aktiv akne och akneärr. Laserljuset riktas mot talgkörtlarna, vilket minskar talgproduktionen och därmed hindrar nya utbrott. Dessutom kan laserbehandling hjälpa till att minska inflammerade lesioner och förbättra hudens övergripande utseende.</p>
 
-            <p class="p200 mt-xl"><strong>Egenvård och Hudvårdsprodukter:</strong> A<strong>tt etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</p>
+            <p class="p200 mt-xl"><strong>Egenvård och Hudvårdsprodukter:</strong> Att etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</p>
 
             <p class="p200 mt-xl">Det är viktigt att komma ihåg att effekterna av dessa behandlingar inte är omedelbara. Det kan ta veckor eller till och med månader att se märkbara förbättringar, så tålamod och konsekvens är nyckeln. Tänk även på att alltid konsultera med en hudläkare eller annan specialist innan du påbörjar en ny behandling, så att du får en skräddarsydd plan som passar just din hudtyp och dina behov.</p>
 
