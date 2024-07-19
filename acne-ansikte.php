@@ -59,9 +59,8 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som påverkar miljontals människor världen över, både unga och vuxna. Detta tillstånd kännetecknas av uppkomsten av pormaskar, finnar, papler, pustler och i vissa fall mer allvarliga noduler och cystor. Akne utvecklas främst i områden med högt antal talgkörtlar, såsom ansiktet, bröstet och ryggen.De fysiska symtomen på akne kan leda till både kroppsligt besvär och känslomässig press.</p>
-            <q>Citat här</q>',
-            extended_content: '',
+            content: '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som påverkar miljontals människor världen över, både unga och vuxna. Detta tillstånd kännetecknas av uppkomsten av pormaskar, finnar, papler, pustler och i vissa fall mer allvarliga noduler och cystor. Akne utvecklas främst i områden med högt antal talgkörtlar, såsom ansiktet, bröstet och ryggen.De fysiska symtomen på akne kan leda till både kroppsligt besvär och känslomässig press.</p>',
+            extended_content: null,
             icons: array()
       ),
 
@@ -112,7 +111,7 @@ $trivias = array(
 
      new ProblemTrivia(
             prefix: 'Vart',
-            title: ' i ansitket akne uppstår och dess orsak',
+            title: ' i ansiktet akne uppstår och dess betydelse',
             content: '<p class="p200">Akne i ansiktet kan uppträda på flera olika sätt, beroende på typ av akne och hudtyp. Vanliga områden där akne ofta förekommer är pannan, näsan, kinderna och hakan. Symtomen kan variera från små, icke-inflammatoriska pormaskar till större, smärtsamma och inflammerade cystor. Det är också bra att veta att akne ofta dyker upp i områden med högt antal talgkörtlar.</p>',
 
             extended_content: '<ul><li class="mt-xl"><strong>Panna:</strong> Akne i pannan är ofta små finnar eller pormaskar. Dessa kan uppstå på grund av att hårsäckarna täpps igen av överflödig olja, svett eller hårprodukter.</li>
