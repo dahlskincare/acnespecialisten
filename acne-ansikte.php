@@ -60,7 +60,7 @@ $trivias = array(
             prefix: 'Vad',
             title: ' är akne i ansiktet?',
             content: '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som påverkar miljontals människor världen över, både unga och vuxna. Detta tillstånd kännetecknas av uppkomsten av pormaskar, finnar, papler, pustler och i vissa fall mer allvarliga noduler och cystor. Akne utvecklas främst i områden med högt antal talgkörtlar, såsom ansiktet, bröstet och ryggen.De fysiska symtomen på akne kan leda till både kroppsligt besvär och känslomässig press.</p>
-            <quote>Citat här</quote>',
+            <q>Citat här</q>',
             extended_content: '',
             icons: array()
       ),
