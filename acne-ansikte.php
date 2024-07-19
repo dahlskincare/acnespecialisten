@@ -76,13 +76,36 @@ $trivias = array(
             new ProblemTrivia(
             prefix: 'Orsaker',
             title: ' till plötslig akne i ansiktet',
+
             content: '<p class="p200">Plötslig akne i ansiktet kan vara både frustrerande och bekymmersamt, särskilt om du inte vanligtvis har problem med huden. Det finns flera faktorer som kan leda till en oväntad uppblossning av akne. En av de vanligaste orsakerna är hormonella förändringar, vilket kan ske vid olika tidpunkter i livet, såsom under puberteten, menstruationscykeln, graviditet eller på grund av p-piller.',
+
             extended_content: '<p class="p200 mt-xl"><strong>Hormonella förändringar</strong> kan även spela en stor roll i uppkomsten av plötslig akne. Under puberteten, menstruationscykler, graviditet och till och med klimakteriet, kan nivåerna av hormoner som testosteron öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</p>
+
             <p class="p200 mt-xl"><strong>Stress</strong> är en annan viktig faktor som kan påverka din hudhälsa markant. Påfrestande perioder i livet kan resultera i att kroppen producerar mer av stresshormonet kortisol, vilket i sin tur kan trigga igång överdriven talgproduktion och skapa en obalans i huden. Detta skapar en grogrund för akneutbrott, särskilt om du redan är benägen för finnar.</p>
-            <p class="p200 mt-xl"><strong>Preventivmedel</strong> kan också spela en roll i plötsliga akneutbrott. Vissa hormonella preventivmedel kan påverka kroppens nivåer av androgener, vilket kan leda till ökad talgproduktion och därmed akne. Om du märker att din hud förändras efter att du börjat med ett nytt preventivmedel, kan det vara värt att diskutera detta med din läkare. Det finns många olika typer av preventivmedel, och det är möjligt att hitta en lösning som är bättre lämpad för din hudtyp och hormonella balans.</p>
-            <p class="p200 mt-xl"><strong>Yttre faktorer</strong> som användning av oljebaserade kosmetiska produkter, otillräcklig rengöring av huden, och exponering för föroreningar kan också bidra till plötsliga akneutbrott. Förändringar i väderförhållanden och användningen av feta solkrämer under sommarperioden kan blockera porerna och orsaka akne.</p>
+
+            <p class="p200 mt-xl"><strong>Preventivmedel</strong>kan också spela en roll i plötsliga akneutbrott. Vissa hormonella preventivmedel kan påverka kroppens nivåer av androgener, vilket kan leda till ökad talgproduktion och därmed akne. Om du märker att din hud förändras efter att du börjat med ett nytt preventivmedel, kan det vara värt att diskutera detta med din läkare. Det finns många olika typer av preventivmedel, och det är möjligt att hitta en lösning som är bättre lämpad för din hudtyp och hormonella balans.</p>
+            <p class="p200 mt-xl"><strong>Yttre faktorer</strong>som användning av oljebaserade kosmetiska produkter, otillräcklig rengöring av huden, och exponering för föroreningar kan också bidra till plötsliga akneutbrott. Förändringar i väderförhållanden och användningen av feta solkrämer under sommarperioden kan blockera porerna och orsaka akne.</p>
+
             <p class="p200 mt-xl">Slutligen, om du nyligen har börjat använda nya hudvårdsprodukter eller mediciner, kan dessa också vara utlösande faktorer. Vissa läkemedel, inklusive steroider, är kända för att orsaka akne som en biverkning. Om du upplever plötslig akne, kan det vara bra att tänka igenom om något nyligen har ändrats i din livsstil eller dina vanor.</p>',
+
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
+      ),
+
+   new ProblemTrivia(
+            prefix: 'När',
+            title: ' Ska Du Söka Hjälp För Svår Akne?',
+
+            content: '<p class="p200">Att leva med svår akne kan vara extremt påfrestande både fysiskt och känslomässigt. Du kanske har provat ett flertal olika behandlingar utan att se någon förbättring. Det är viktigt att veta när det är dags att söka professionell hjälp för din akne. Här är några tecken att hålla utkik efter:',
+
+            extended_content: '<p class="p200 mt-xl"><strong>Utebliven förbättring:</strong>Om du har använt hudvårdsprodukter under en längre tid utan att uppleva någon märkbar förbättring, kan det vara ett tecken på att du behöver en mer intensiv behandling.</p>
+
+            <p class="p200 mt-xl"><strong>Ärrbildning:</strong>Om du börjar märka att din akne lämnar permanenta ärr efter sig, är det en indikation på att din nuvarande behandling inte är tillräckligt effektiv.</p>
+
+            <p class="p200 mt-xl"><strong>Påverkan på självkänslan:</strong>Akne kan ha en stor inverkan på din mentala hälsa och självkänsla. Om du känner dig deprimerad eller ångestfylld över din hud, är det dags att tala med en specialist.</p>
+
+            <p class="p200 mt-xl"><strong>Fysisk smärta:</strong>Akne som är smärtsam eller inflammerad till den punkt där det påverkar din dagliga funktion är också ett tecken på att du behöver professionell hjälp.</p>',
+            
+            icons: array()
       ),
 
       new ProblemTrivia(
