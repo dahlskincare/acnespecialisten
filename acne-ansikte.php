@@ -112,11 +112,17 @@ $trivias = array(
             prefix: 'Hur',
             title: ' får man bort akne i ansiktet?',
             content: '<p class="p200">När det kommer till att behandla akne i ansiktet finns det en rad olika metoder som kan hjälpa dig att nå renare och friskare hud. Viktigt är att förstå att det inte finns en universallösning, och ofta kan en kombination av behandlingar vara den mest effektiva strategin.</p>',
-            extended_content: '<p class="p200 mt-xl">Behandlingar hos Hudterapeut: En licensierad hudterapeut kan erbjuda mer avancerade behandlingar som kemisk peeling och microneedling. Kemisk peeling innebär applicering av en kemisk syra som får huden att fjälla och därmed främja ny, frisk hud att växa fram. Microneedling använder små nålar för att skapa mikrokanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens textur och ton.</p>
-            <p class="p200 mt-xl">Laserbehandling: Laserbehandling har blivit en populär metod för att hantera både aktiv akne och akneärr. Laserljuset riktas mot talgkörtlarna, vilket minskar talgproduktionen och därmed hindrar nya utbrott. Dessutom kan laserbehandling hjälpa till att minska inflammerade lesioner och förbättra hudens övergripande utseende.</p>
-            <p class="p200 mt-xl">Egenvård och Hudvårdsprodukter: Att etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</p>
+
+            extended_content: '<p class="p200 mt-xl"><strong>Behandlingar hos Hudterapeut:</strong> En licensierad hudterapeut kan erbjuda mer avancerade behandlingar som kemisk peeling och microneedling. Kemisk peeling innebär applicering av en kemisk syra som får huden att fjälla och därmed främja ny, frisk hud att växa fram. Microneedling använder små nålar för att skapa mikrokanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens textur och ton.</p>
+
+            <p class="p200 mt-xl"><strong>Laserbehandling:</strong> Laserbehandling har blivit en populär metod för att hantera både aktiv akne och akneärr. Laserljuset riktas mot talgkörtlarna, vilket minskar talgproduktionen och därmed hindrar nya utbrott. Dessutom kan laserbehandling hjälpa till att minska inflammerade lesioner och förbättra hudens övergripande utseende.</p>
+
+            <p class="p200 mt-xl"><strong>Egenvård och Hudvårdsprodukter:</strong> A<strong>tt etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</p>
+
             <p class="p200 mt-xl">Det är viktigt att komma ihåg att effekterna av dessa behandlingar inte är omedelbara. Det kan ta veckor eller till och med månader att se märkbara förbättringar, så tålamod och konsekvens är nyckeln. Tänk även på att alltid konsultera med en hudläkare eller annan specialist innan du påbörjar en ny behandling, så att du får en skräddarsydd plan som passar just din hudtyp och dina behov.</p>
+
             <p class="p200 mt-xl">Oavsett vilken metod du väljer, handlar hudvård om att ta hand om sig själv. Att visa omsorg och engagemang för din hud kan i slutändan leda till förbättrad självkänsla och välmående. Kom ihåg, du är inte ensam och det finns hjälp att få.</p>',
+
             icons: array()
       ),
 );
