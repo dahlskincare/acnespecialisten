@@ -86,11 +86,11 @@ $trivias = array(
 
             <p class="p200 mt-xl">En annan vanlig orsak är follikulär hyperkeratos, en process där överflödig keratin gör att hudens yta blir förtjockad och porerna blockeras. Bakterier, särskilt Cutibacterium acnes, trivs i dessa tilltäppta porer och kan förvärra inflammationen.</p>
 
-            <p class="p200 mt-xl">Grundorsaker till akne på ryggen inkluderar:</p>
+            <p class="p200 mt-xl"><strong>Grundorsaker till akne på ryggen inkluderar:</strong></p>
 
-            <ul><li class="mt-xl">Friktion och Tryck: thighta kläder, ryggsäckar eller idrottsutrustning kan orsaka finnar.</li>
-            <li class="mt-xl">Genetik: Akne kan vara ärftligt.</li>
-            <li class="mt-xl">Hormonella förändringar: Speciellt under tonåren eller stressiga perioder.</li></ul>',
+            <ul><li class="mt-xl"><strong>Friktion och Tryck:</strong> thighta kläder, ryggsäckar eller idrottsutrustning kan orsaka finnar.</li>
+            <li class="mt-xl"><strong>Genetik:</strong> Akne kan vara ärftligt.</li>
+            <li class="mt-xl"><strong>Hormonella förändringar:</strong> Speciellt under tonåren eller stressiga perioder.</li></ul>',
 
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
