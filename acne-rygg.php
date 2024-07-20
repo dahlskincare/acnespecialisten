@@ -51,7 +51,19 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Fakta';
+$about_title = 'Hur Du Blir Fri Från Akne På Ryggen: Effektiva Behandlingar, Produkter och Tips';
+
+$articles = array(
+      new Article(
+            title: 'När ska jag besöka AcneSpecialisten?',
+            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar och resultat. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p>
+              <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig tips och råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            image_small: null,
+            image_large: null,
+            image_alt: 'När ska jag besöka AcneSpecialisten?',
+            image_title: 'När ska jag besöka AcneSpecialisten?',
+      ),
+);
 
 $trivias = array(
       new ProblemTrivia(
@@ -872,6 +884,11 @@ $brands_url_title = "Se alla varumärken";
                               </picture>
                         </section>
 
+                        <section id="articles">
+                                 <?php foreach ($articles as $article) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
+                              <?php } ?>
+                        </section>
 
                         <section id="about">
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
