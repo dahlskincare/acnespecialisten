@@ -72,15 +72,26 @@ $trivias = array(
             title: ' är akne på ryggen?',
             content: '<p class="p200">Ryggakne är en hudåkomma som påminner om ansiktsakne. Det uppstår när hårsäckarna blockeras av talg och döda hudceller, vilket skapar en miljö där bakterier kan frodas. Denna blockering leder till pormaskar, finnar och inflammerade cystor. Ryggen är särskilt utsatt på grund av sin höga koncentration av talgkörtlar och stora porer. Detta gör den mer benägen att utveckla akne.</p>
 
-            <p class="p200 mt-m">Akne på ryggen kan variera från milda utslag till grov akne på ryggen med smärtsamma cystor som kan leda till ärrbildning om de inte behandlas korrekt. Det är dock viktigt att förstå att ryggakne är ett vanligt problem och kan påverka människor i alla åldrar, särskilt tonåringar och unga vuxna som genomgår hormonella förändringar. </p>',
+            <p class="p200 mt-m">Akne på ryggen kan variera från milda utslag till grov akne på ryggen med smärtsamma cystor som kan leda till ärrbildning om de inte behandlas korrekt. Det är dock viktigt att förstå att ryggakne är ett vanligt problem och kan påverka människor i alla åldrar, särskilt tonåringar och unga vuxna som genomgår hormonella förändringar.</p>',
             extended_content: null,
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man akne på ryggen?',
-            content: '<p class="p200">Akne på ryggen kan uppstå av flera orsaker. Hormonella förändringar, som de som sker under puberteten, graviditet eller som en bieffekt av vissa mediciner, kan öka talgproduktionen och därmed risken för akne. Genetiska faktorer spelar också en stor roll; om akne är vanligt i din familj är det mer sannolikt att du också kommer att uppleva det. Svett och friktion från kläder, särskilt tajta eller icke-andningsbara material, kan täppa till porerna och förvärra akne. Livsstilsfaktorer som kost och stressnivåer kan också påverka hudens tillstånd och bidra till utbrott på ryggen.',
-            extended_content: '',
+            content: '<p class="p200">ryggakne orsakas av flera olika faktorer. En viktig faktor är överproduktion av talg, ett oljigt ämne som utsöndras av talgkörtlarna i huden. När talg blandas med döda hudceller kan det blockera porerna, vilket leder till finnar och pormaskar.</p>
+
+            <p class="p200 mt-m">Friktion från tighta kläder, tunga ryggsäckar och olika sportsutrustningar kan också leda till akne på ryggen. Dessutom kan användning av vissa hudvårdsprodukter bidra till problem genom att förorena porerna eller irritera huden. </p>',
+            extended_content: '<p class="p200 mt-xl">Hormonella förändringar, stress och överdriven rengöring är ytterligare faktorer som kan förvärra akne. Hormoner kan öka talgproduktionen, medan stress påverkar kroppens immunförsvar och inflammationsnivåer. Överdriven skrubbning kan irritera huden och leda till mer akne.</p>
+
+            <p class="p200 mt-xl">En annan vanlig orsak är follikulär hyperkeratos, en process där överflödig keratin gör att hudens yta blir förtjockad och porerna blockeras. Bakterier, särskilt Cutibacterium acnes, trivs i dessa tilltäppta porer och kan förvärra inflammationen.</p>
+
+            <p class="p200 mt-xl">Grundorsaker till akne på ryggen inkluderar:</p>
+
+            <ul><li class="mt-xl">Friktion och Tryck: thighta kläder, ryggsäckar eller idrottsutrustning kan orsaka finnar.</li>
+            <ul><li class="mt-xl">Genetik: Akne kan vara ärftligt.</li>
+            <ul><li class="mt-xl">Hormonella förändringar: Speciellt under tonåren eller stressiga perioder.</li></ul>',
+            
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
