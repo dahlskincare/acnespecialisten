@@ -51,25 +51,28 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Hur Du Blir Fri Från Akne På Ryggen: Effektiva Behandlingar, Produkter och Tips';
 
 $articles = array(
       new Article(
-            title: 'När ska jag besöka AcneSpecialisten?',
-            content: '<p class="p200">Du bör besöka Acnespecialisten när du känner att din akne påverkar din livskvalitet eller om du har provat olika behandlingar och produkter utan att se några varaktiga förbättringar och resultat. Ju tidigare du söker hjälp, desto större är chansen att undvika ärrbildning och långvariga hudproblem. Acnespecialisten är här för att erbjuda dig expertis och skräddarsydda behandlingar oavsett om du har lindrig, måttlig eller svår akne. Tveka inte att kontakta oss för att boka en kostnadsfri konsultation och ta det första steget mot en klarare och friskare hud.</p>
-              <p class="p200 mt-m">Välj Acnespecialisten innan du går till en läkare, eftersom vi erbjuder en kostnadsfri konsultation där vi analyserar din akne och föreslår en individuell behandlingsplan. Våra specialister har stor erfarenhet av att behandla akne och kan ge dig tips och råd om vilka produkter och behandlingar som är bäst för just din hudtyp. Att prova AcneSpecialisten först kan hjälpa dig att undvika att använda tunga mediciner som kan ha biverkningar och påverka hela kroppen. Genom att boka en gratis konsultation hos oss får du en chans att se hur vi kan hjälpa dig att förbättra din hudhälsa innan du tar steget att besöka en läkare.</p>',
+            title: 'Hur Du Blir Fri Från Akne På Ryggen: Effektiva Behandlingar, Produkter och Tips',
+            content: '<p class="p200">Akne på ryggen, även kallad “bacne,” kan vara både frustrerande och smärtsamt. Precis som ansiktsakne uppstår ryggakne när hårsäckarna täpps till av döda hudceller och talg. Bakterier växer i dessa tilltäppta hårsäckar, vilket leder till inflammation och finnar.</p>
+              <p class="p200 mt-m">För att effektivt hantera och behandla akne på ryggen är det viktigt att förstå dess orsaker. Hormonella förändringar, genetik, svett och friktion från kläder är vanliga bidragande faktorer. På grund av ryggens stora yta och svåråtkomliga läge kan behandlingen vara utmanande. En kombination av daglig hudvårdsrutin och specialiserade behandlingar kan hjälpa till att minska och förebygga akne på ryggen.</p>',
             image_small: null,
             image_large: null,
-            image_alt: 'När ska jag besöka AcneSpecialisten?',
-            image_title: 'När ska jag besöka AcneSpecialisten?',
+            image_alt: '',
+            image_title: '',
       ),
 );
+
+$about_title = 'Fakta';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är akne på ryggen?',
-            content: '<p class="p200">Akne på ryggen, ofta kallad “bakne”, är en vanlig hudåkomma som påverkar människor i alla åldrar. Detta tillstånd uppstår när hårfolliklar täpps till av överflödig talg och döda hudceller, vilket skapar en grogrund för akneframkallande bakterier. På grund av ryggens stora yta och svåråtkomliga läge kan akne på ryggen vara svår att behandla. Faktorer som hormonella förändringar, genetik, svett och friktion från kläder kan bidra till utvecklingen av akne på ryggen. För att effektivt hantera och behandla akne på ryggen krävs en kombination av daglig hudvårdsrutin och specialiserade behandlingar.</p>',
+            content: '<p class="p200">Ryggakne är en hudåkomma som påminner om ansiktsakne. Det uppstår när hårsäckarna blockeras av talg och döda hudceller, vilket skapar en miljö där bakterier kan frodas. Denna blockering leder till pormaskar, finnar och inflammerade cystor. Ryggen är särskilt utsatt på grund av sin höga koncentration av talgkörtlar och stora porer. Detta gör den mer benägen att utveckla akne.</p>
+
+            <p class="p200 mt-m">Akne på ryggen kan variera från milda utslag till grov akne på ryggen med smärtsamma cystor som kan leda till ärrbildning om de inte behandlas korrekt. Det är dock viktigt att förstå att ryggakne är ett vanligt problem och kan påverka människor i alla åldrar, särskilt tonåringar och unga vuxna som genomgår hormonella förändringar. </p>',
             extended_content: '',
             icons: array()
       ),
