@@ -68,7 +68,9 @@ $trivias = array(
             prefix: 'Varför',
             title: ' får man akne?',
             content: '<p class="p200">Det är normalt att känna sig frustrerad och nedstämd över pormaskar, utslag och finnar som påverkar ditt ansikte, särskilt när de dyker upp vid de mest olämpliga tillfällena. För att förstå hur man effektivt kan hantera och behandla akne är det viktigt att först förstå de många olika orsakerna till att den uppstår.',
+            
             extended_content: '<p class="p200 mt-xl">Akne i ansiktet orsakas av flera faktorer som samverkar. En av de mest framträdande orsakerna är hormonella förändringar, vilket förklarar varför många upplever akne under tonåren och vid vissa perioder i livet, som under menstruationscykeln. Hormonella förändringar leder till ökad produktion av talg (fett), en oljig substans som produceras av talgkörtlarna i huden.</p>
+
             <p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta kan genetiska faktorer spela en betydande roll, om dina föräldrar har haft akne, ökar chanserna att du också utvecklar det.</p>',
             icons: array()
       ),
