@@ -92,7 +92,7 @@ $trivias = array(
             <li class="mt-xl"><strong>Genetik:</strong> Akne kan vara ärftligt.</li>
             <li class="mt-xl"><strong>Hormonella förändringar:</strong> Speciellt under tonåren eller stressiga perioder.</li></ul>',
 
-            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat',)
       ),
       new ProblemTrivia(
             prefix: 'Hur',
