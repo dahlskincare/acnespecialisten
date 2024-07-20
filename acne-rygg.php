@@ -73,7 +73,7 @@ $trivias = array(
             content: '<p class="p200">Ryggakne är en hudåkomma som påminner om ansiktsakne. Det uppstår när hårsäckarna blockeras av talg och döda hudceller, vilket skapar en miljö där bakterier kan frodas. Denna blockering leder till pormaskar, finnar och inflammerade cystor. Ryggen är särskilt utsatt på grund av sin höga koncentration av talgkörtlar och stora porer. Detta gör den mer benägen att utveckla akne.</p>
 
             <p class="p200 mt-m">Akne på ryggen kan variera från milda utslag till grov akne på ryggen med smärtsamma cystor som kan leda till ärrbildning om de inte behandlas korrekt. Det är dock viktigt att förstå att ryggakne är ett vanligt problem och kan påverka människor i alla åldrar, särskilt tonåringar och unga vuxna som genomgår hormonella förändringar. </p>',
-            extended_content: '',
+            extended_content: null,
             icons: array()
       ),
       new ProblemTrivia(
