@@ -89,9 +89,9 @@ $trivias = array(
             <p class="p200 mt-xl">Grundorsaker till akne på ryggen inkluderar:</p>
 
             <ul><li class="mt-xl">Friktion och Tryck: thighta kläder, ryggsäckar eller idrottsutrustning kan orsaka finnar.</li>
-            <ul><li class="mt-xl">Genetik: Akne kan vara ärftligt.</li>
-            <ul><li class="mt-xl">Hormonella förändringar: Speciellt under tonåren eller stressiga perioder.</li></ul>',
-            
+            <li class="mt-xl">Genetik: Akne kan vara ärftligt.</li>
+            <li class="mt-xl">Hormonella förändringar: Speciellt under tonåren eller stressiga perioder.</li></ul>',
+
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
       new ProblemTrivia(
