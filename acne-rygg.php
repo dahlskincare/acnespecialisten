@@ -101,21 +101,21 @@ $trivias = array(
             content: '<p class="p200">Akne i nacken och på axlarna uppstår av liknande orsaker som akne på ryggen. Några av de huvudsakliga orsakerna inkluderar:</p>',
             extended_content: 
 
-            '<ul><li class="mt-xl"><strong>Överproduktion av talg:</strong>Talget kan täppa igen porerna och leda till akne.</li>
+            '<ul><li class="mt-xl"><strong>Överproduktion av talg:</strong> Talget kan täppa igen porerna och leda till akne.</li>
 
-            <li class="mt-xl"><strong>Friktion:</strong>Kläder, axelremmar och ryggsäckar kan skapa friktion och irritation som förvärrar akne.</li>
+            <li class="mt-xl"><strong>Friktion:</strong> Kläder, axelremmar och ryggsäckar kan skapa friktion och irritation som förvärrar akne.</li>
 
-            <li class="mt-xl"><strong>Follikulär hyperkeratos:</strong>Döda hudceller kan blockera hårsäckarna och orsaka inflammation.</li>
+            <li class="mt-xl"><strong>Follikulär hyperkeratos:</strong> Döda hudceller kan blockera hårsäckarna och orsaka inflammation.</li>
 
-            <li class="mt-xl"><strong>Bakterier:</strong>Bakterien cuticutem acnes kan trivas i täppta hårsäckar och utlösa akne.</li>
+            <li class="mt-xl"><strong>Bakterier:</strong> Bakterien cuticutem acnes kan trivas i täppta hårsäckar och utlösa akne.</li>
 
-            <li class="mt-xl"><strong>Hormoner:</strong>Hormonförändringar under puberteten, menstruation eller vid användning av hormonella preventivmedel kan öka risken för akne.</li>
+            <li class="mt-xl"><strong>Hormoner:</strong> Hormonförändringar under puberteten, menstruation eller vid användning av hormonella preventivmedel kan öka risken för akne.</li>
 
-            <li class="mt-xl"><strong>Stress:</strong>Psykologisk stress kan påverka hormonbalansen och försämra akne.</li>
+            <li class="mt-xl"><strong>Stress:</strong> Psykologisk stress kan påverka hormonbalansen och försämra akne.</li>
 
-            <li class="mt-xl"><strong>Tajta kläder:</strong>Kläder som sitter tätt kan öka risken för friktion och svettning, vilket förvärrar akne.</li>
+            <li class="mt-xl"><strong>Tajta kläder:</strong> Kläder som sitter tätt kan öka risken för friktion och svettning, vilket förvärrar akne.</li>
 
-            <li class="mt-xl"><strong>Felaktig hudvård:</strong>Vissa hudvårdsprodukter kan irritera huden och blockera porerna.</li></ul>
+            <li class="mt-xl"><strong>Felaktig hudvård:</strong> Vissa hudvårdsprodukter kan irritera huden och blockera porerna.</li></ul>
 
             <q><Akne i nacken och på axlarna förekommer hos ungefär 50% av dem med akne på ryggen/q>
 
@@ -132,17 +132,17 @@ $trivias = array(
             content: '<p class="p200">Att få bort akne på ryggen kan vara en utmanande process, men med rätt strategi och tålamod kan du bli av med aknen. Här kommer några konkreta tips och behandlingsmetoder som kan hjälpa dig att bli av med dessa irriterande finnar.</p>',
             extended_content: 
 
-            '<ul><li class="mt-xl"><strong>Daglig Rengöring:</strong>En av de mest effektiva stegen för behandling av akne på ryggen är att rengöra huden regelbundet. Använd en akne-rengöring som innehåller exfolierande ingredienser som är bra på att hålla huden och porerna rena.</li>
+            '<ul><li class="mt-xl"><strong>Daglig Rengöring:</strong> En av de mest effektiva stegen för behandling av akne på ryggen är att rengöra huden regelbundet. Använd en akne-rengöring som innehåller exfolierande ingredienser som är bra på att hålla huden och porerna rena.</li>
 
-            <li class="mt-xl"><strong>Undvik tighta Klädesplagg:</strong>Friktion från tätt åtsittande kläder kan förvärra akne på ryggen. Försök att bära löst sittande kläder i andningsbara material för att minimera hudirritation.</li>
+            <li class="mt-xl"><strong>Undvik tighta Klädesplagg:</strong> Friktion från tätt åtsittande kläder kan förvärra akne på ryggen. Försök att bära löst sittande kläder i andningsbara material för att minimera hudirritation.</li>
 
-            <li class="mt-xl"><strong>Behandlande produkter:</strong>Produkter som innehåller ingredienser som är antiinflammatoriska och bakteridödande kan vara effektiva för att behandla akne på ryggen. Applicera dessa produkter enligt anvisningarna och se till att hålla dig till en konsekvent rutin.</li>
+            <li class="mt-xl"><strong>Behandlande produkter:</strong> Produkter som innehåller ingredienser som är antiinflammatoriska och bakteridödande kan vara effektiva för att behandla akne på ryggen. Applicera dessa produkter enligt anvisningarna och se till att hålla dig till en konsekvent rutin.</li>
 
-            <li class="mt-xl"><strong>Håll Huden Hydrerad:</strong>Ibland kan torkar ut huden leda till ökad talgproduktion, vilket kan förvärra akne. Använd en oljefri fuktighetskräm för att hålla huden i balans.</li>
+            <li class="mt-xl"><strong>Håll Huden Hydrerad:</strong> Ibland kan torkar ut huden leda till ökad talgproduktion, vilket kan förvärra akne. Använd en oljefri fuktighetskräm för att hålla huden i balans.</li>
 
-            <li class="mt-xl"><strong>Undvik Att Peta och pilla på Finnarna:</strong>Det kan vara frestande att klämma eller peta på akne, men detta kan leda till inflammation och ärrbildning. Låt produkterna göra sitt jobb och undvik att manipulera finnarna.</li>
+            <li class="mt-xl"><strong>Undvik Att Peta och pilla på Finnarna:</strong> Det kan vara frestande att klämma eller peta på akne, men detta kan leda till inflammation och ärrbildning. Låt produkterna göra sitt jobb och undvik att manipulera finnarna.</li>
 
-            <li class="mt-xl"><strong>Konsultera med en AcneSpecialist:</strong>Om ingen av dessa metoder ger resultat, eller om du har grov akne på ryggen, är det bäst att söka professionell hjälp. Vi på AcneSpecialisten kan rekommendera behandlingar och effektiva hudvårdsprodukter.</li></ul>
+            <li class="mt-xl"><strong>Konsultera med en AcneSpecialist:</strong> Om ingen av dessa metoder ger resultat, eller om du har grov akne på ryggen, är det bäst att söka professionell hjälp. Vi på AcneSpecialisten kan rekommendera behandlingar och effektiva hudvårdsprodukter.</li></ul>
 
             
             <p class="p200 mt-xl">Genom att följa dessa riktlinjer och vara konsekvent i din hudvårdsrutin, kan du gradvis få bort akne på ryggen och förbättra din hudhälsa.</p>',
