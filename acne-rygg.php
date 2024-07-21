@@ -151,10 +151,20 @@ $trivias = array(
       ),
 
       new ProblemTrivia(
-            prefix: 'Hur',
-            title: ' blir man av med akne på ryggen?',
-            content: '<p class="p200">För att bli av med akne på ryggen krävs en konsekvent och noggrann hudvårdsrutin. Använd en mild rengöring anpassad för aknebenägen hud dagligen för att avlägsna överflödig olja och döda hudceller. Exfoliera regelbundet för att förhindra tilltäppta porer och använd produkter med exfolierande och förebyggande ingredienser. Välj lösa, andningsbara kläder för att minimera friktion och svettansamling. Om hembehandlingar inte räcker kan professionella behandlingar som kemisk peeling, laserbehandling eller microneedling vara nödvändiga. Besök oss på Acnespecialisten för en kostnadsfri konsultation där vi tar fram en skräddarsydd behandlingsplan och personlig hudvårdsrutin för att hjälpa dig uppnå en klarare och friskare rygg.</p>',
-            extended_content: '',
+            prefix: 'Profisionella',
+            title: ' Behandlingar Mot Akne På Ryggen',
+            content: '<p class="p200">FVi har över 30 års erfarenhet av att behandla akne på ryggen använder vi metoder anpassade till din specifika typ av ryggakne.</p>
+
+            <p class="p200 mt-m">Det finns flera avancerade behandlingar som kan hjälpa dig att bli av med akne på ryggen. Här är några av de mest effektiva metoderna:</p>',
+            extended_content: 
+
+            '<ul><li class="mt-xl"><strong>Grundlig portömning:</strong> En populär behandling av akne på ryggen. En hudterapeut använder verktyg för att noggrant tömma porerna på ackumulerad olja och smuts. Detta hjälper till att minska pormaskar och minskar risken för inflammation och utbrott.</li>
+
+            <li class="mt-xl"><strong>Kemisk peeling:</strong> FDenna metod involverar applicering av kemiska syror som exfolierar huden och avlägsnar döda hudceller. Behandlingen är effektiv för att minska akne på ryggen och förbättrar hudens textur. Klarare och jämnare hud är ett av resultaten.</li>
+
+            <li class="mt-xl"><strong>BMicroneedling:</strong> En teknik där små nålar punkterar huden för att stimulera kollagenproduktionen. Detta kan hjälpa till att läka akneärr och reducera förekomsten av grov akne på ryggen. Dessutom kan det förbättra hudens elasticitet och struktur.</li>
+
+            <li class="mt-xl"><strong>Laser:</strong> Användningen av laserljus penetrerar huden och riktar sig mot akne orsakad av överdriven talgproduktion. Denna behandling dödar bakterier och minskar inflammation, vilket gör det till en effektiv lösning för att få bort akne på ryggen. Resultatet är en renare och friskare hud.</li></ul>',
             icons: array()
       ),
 );
