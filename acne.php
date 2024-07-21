@@ -210,7 +210,7 @@ $type_categories = array(
                         url_title: 'Läs mer',
                   ),
                   new BasedType(
-                        title: 'Mycket svår akne',
+                        title: 'Grov akne',
                         subtitle: 'Acne conglobata',
                         image_url: 'bilder/symptom/102x102/mycket-svar-akne.webp',
                         image_alt: 'Bild av mycket svår akne',

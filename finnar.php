@@ -323,7 +323,7 @@ $symptoms = array(
             //url_label: 'Mer information om papler'
       ),
       new Symptom(
-            name: 'Gula Finnar',
+            name: 'Gula / Vita Finnar',
             aka: 'Pustuler',
             content: 'Dessa är ömma, gula utslag med ett varigt centrum, skapade av en mix av bakterier och talg, och de tenderar att vara smärtsamma, framträdande på ansikte, nacke, bröst och rygg.',
             image: 'bilder/symptom/102x102/gula-finnar.webp',
