@@ -95,7 +95,7 @@ $trivias = array(
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat',)
       ),
 
-            new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Orsaker',
             title: ' till Akne I Nacken och på Axlarna',
             content: '<p class="p200">Akne i nacken och på axlarna uppstår av liknande orsaker som akne på ryggen. Några av de huvudsakliga orsakerna inkluderar:</p>',
@@ -115,11 +115,36 @@ $trivias = array(
 
             <ul><li class="mt-xl"><strong>Tajta kläder:</strong>Kläder som sitter tätt kan öka risken för friktion och svettning, vilket förvärrar akne.</li>
 
-            <ul><li class="mt-xl"><strong>Felaktig hudvård:</strong>Vissa hudvårdsprodukter kan irritera huden och blockera porerna.</li>
+            <ul><li class="mt-xl"><strong>Felaktig hudvård:</strong>Vissa hudvårdsprodukter kan irritera huden och blockera porerna.</li></ul>
 
             <q><Akne i nacken och på axlarna förekommer hos ungefär 50% av dem med akne på ryggen/q>
 
 
+            <p class="p200 mt-xl">Att förstå orsakerna kan hjälpa dig att förebygga och behandla akne i dessa områden mer effektivt. En del enkla justeringar i din dagliga rutin kan göra stor skillnad. Till exempel, undvik att bära tajta kläder under långa perioder och se till att duscha efter träning för att avlägsna svett och smuts som kan täppa till porerna.</p>',
+
+            icons: array()
+      ),
+
+
+      new ProblemTrivia(
+            prefix: 'Hur',
+            title: ' Får Man Bort Akne På Ryggen hemma?',
+            content: '<p class="p200">Att få bort akne på ryggen kan vara en utmanande process, men med rätt strategi och tålamod kan du bli av med aknen. Här kommer några konkreta tips och behandlingsmetoder som kan hjälpa dig att bli av med dessa irriterande finnar.</p>',
+            extended_content: 
+
+            '<ul><li class="mt-xl"><strong>Daglig Rengöring:</strong>Talget kan täppa igen porerna och leda till akne.</li>
+
+            <ul><li class="mt-xl"><strong>Undvik tighta Klädesplagg:</strong>Kläder, axelremmar och ryggsäckar kan skapa friktion och irritation som förvärrar akne.</li>
+
+            <ul><li class="mt-xl"><strong>Behandlande produkter:</strong>Döda hudceller kan blockera hårsäckarna och orsaka inflammation.</li>
+
+            <ul><li class="mt-xl"><strong>Håll Huden Hydrerad:</strong>Bakterien cuticutem acnes kan trivas i täppta hårsäckar och utlösa akne.</li>
+
+            <ul><li class="mt-xl"><strong>Undvik Att Peta och pilla på Finnarna:</strong>Hormonförändringar under puberteten, menstruation eller vid användning av hormonella preventivmedel kan öka risken för akne.</li>
+
+            <ul><li class="mt-xl"><strong>Konsultera med en AcneSpecialist:</strong>Psykologisk stress kan påverka hormonbalansen och försämra akne.</li></ul>
+
+            
             <p class="p200 mt-xl">Att förstå orsakerna kan hjälpa dig att förebygga och behandla akne i dessa områden mer effektivt. En del enkla justeringar i din dagliga rutin kan göra stor skillnad. Till exempel, undvik att bära tajta kläder under långa perioder och se till att duscha efter träning för att avlägsna svett och smuts som kan täppa till porerna.</p>',
 
             icons: array()
