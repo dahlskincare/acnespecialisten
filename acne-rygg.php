@@ -171,7 +171,7 @@ $trivias = array(
             title: ' mot rygg-akne',
             content: '<p class="p200">En av nycklarna till en framgångsrik behandling av akne på ryggen är att använda rätt produkter. Produkter som hjälper till att exfoliera huden och reducera porer är mycket effektiva. En annan viktig egenskap i de bästa produkterna är antibakteriella egenskaper, vilket kan vara skonsammare för huden.</p>
 
-            <p class="p200 mt-m">DSe till att produkterna du skall behandla med har följande egenskaper:</p>
+            <p class="p200 mt-m">Se till att produkterna du skall behandla med har följande egenskaper:</p>
 
             <ul><li class="mt-xl">Förebygger framtida utbrott</li>
 
