@@ -103,19 +103,19 @@ $trivias = array(
 
             '<ul><li class="mt-xl"><strong>Överproduktion av talg:</strong>Talget kan täppa igen porerna och leda till akne.</li>
 
-            <ul><li class="mt-xl"><strong>Friktion:</strong>Kläder, axelremmar och ryggsäckar kan skapa friktion och irritation som förvärrar akne.</li>
+            <li class="mt-xl"><strong>Friktion:</strong>Kläder, axelremmar och ryggsäckar kan skapa friktion och irritation som förvärrar akne.</li>
 
-            <ul><li class="mt-xl"><strong>Follikulär hyperkeratos:</strong>Döda hudceller kan blockera hårsäckarna och orsaka inflammation.</li>
+            <li class="mt-xl"><strong>Follikulär hyperkeratos:</strong>Döda hudceller kan blockera hårsäckarna och orsaka inflammation.</li>
 
-            <ul><li class="mt-xl"><strong>Bakterier:</strong>Bakterien cuticutem acnes kan trivas i täppta hårsäckar och utlösa akne.</li>
+            <li class="mt-xl"><strong>Bakterier:</strong>Bakterien cuticutem acnes kan trivas i täppta hårsäckar och utlösa akne.</li>
 
-            <ul><li class="mt-xl"><strong>Hormoner:</strong>Hormonförändringar under puberteten, menstruation eller vid användning av hormonella preventivmedel kan öka risken för akne.</li>
+            <li class="mt-xl"><strong>Hormoner:</strong>Hormonförändringar under puberteten, menstruation eller vid användning av hormonella preventivmedel kan öka risken för akne.</li>
 
-            <ul><li class="mt-xl"><strong>Stress:</strong>Psykologisk stress kan påverka hormonbalansen och försämra akne.</li>
+            <li class="mt-xl"><strong>Stress:</strong>Psykologisk stress kan påverka hormonbalansen och försämra akne.</li>
 
-            <ul><li class="mt-xl"><strong>Tajta kläder:</strong>Kläder som sitter tätt kan öka risken för friktion och svettning, vilket förvärrar akne.</li>
+            <li class="mt-xl"><strong>Tajta kläder:</strong>Kläder som sitter tätt kan öka risken för friktion och svettning, vilket förvärrar akne.</li>
 
-            <ul><li class="mt-xl"><strong>Felaktig hudvård:</strong>Vissa hudvårdsprodukter kan irritera huden och blockera porerna.</li></ul>
+            <li class="mt-xl"><strong>Felaktig hudvård:</strong>Vissa hudvårdsprodukter kan irritera huden och blockera porerna.</li></ul>
 
             <q><Akne i nacken och på axlarna förekommer hos ungefär 50% av dem med akne på ryggen/q>
 
