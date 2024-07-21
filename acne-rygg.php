@@ -78,7 +78,7 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: ' får man akne på ryggen?',
+            title: ' får man Akne på Ryggen?',
             content: '<p class="p200">ryggakne orsakas av flera olika faktorer. En viktig faktor är överproduktion av talg, ett oljigt ämne som utsöndras av talgkörtlarna i huden. När talg blandas med döda hudceller kan det blockera porerna, vilket leder till finnar och pormaskar.</p>
 
             <p class="p200 mt-m">Friktion från tighta kläder, tunga ryggsäckar och olika sportsutrustningar kan också leda till akne på ryggen. Dessutom kan användning av vissa hudvårdsprodukter bidra till problem genom att förorena porerna eller irritera huden. </p>',
@@ -94,6 +94,37 @@ $trivias = array(
 
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat',)
       ),
+
+            new ProblemTrivia(
+            prefix: 'Orsaker',
+            title: ' till Akne I Nacken och på Axlarna',
+            content: '<p class="p200">Akne i nacken och på axlarna uppstår av liknande orsaker som akne på ryggen. Några av de huvudsakliga orsakerna inkluderar:</p>',
+            extended_content: 
+
+            '<ul><li class="mt-xl"><strong>Överproduktion av talg:</strong>Talget kan täppa igen porerna och leda till akne.</li>
+
+            <ul><li class="mt-xl"><strong>Friktion:</strong>Kläder, axelremmar och ryggsäckar kan skapa friktion och irritation som förvärrar akne.</li>
+
+            <ul><li class="mt-xl"><strong>Follikulär hyperkeratos:</strong>Döda hudceller kan blockera hårsäckarna och orsaka inflammation.</li>
+
+            <ul><li class="mt-xl"><strong>Bakterier:</strong>Bakterien cuticutem acnes kan trivas i täppta hårsäckar och utlösa akne.</li>
+
+            <ul><li class="mt-xl"><strong>Hormoner:</strong>Hormonförändringar under puberteten, menstruation eller vid användning av hormonella preventivmedel kan öka risken för akne.</li>
+
+            <ul><li class="mt-xl"><strong>Stress:</strong>Psykologisk stress kan påverka hormonbalansen och försämra akne.</li>
+
+            <ul><li class="mt-xl"><strong>Tajta kläder:</strong>Kläder som sitter tätt kan öka risken för friktion och svettning, vilket förvärrar akne.</li>
+
+            <ul><li class="mt-xl"><strong>Felaktig hudvård:</strong>Vissa hudvårdsprodukter kan irritera huden och blockera porerna.</li>
+
+            <q><Akne i nacken och på axlarna förekommer hos ungefär 50% av dem med akne på ryggen/q>
+
+
+            <p class="p200 mt-xl">Att förstå orsakerna kan hjälpa dig att förebygga och behandla akne i dessa områden mer effektivt. En del enkla justeringar i din dagliga rutin kan göra stor skillnad. Till exempel, undvik att bära tajta kläder under långa perioder och se till att duscha efter träning för att avlägsna svett och smuts som kan täppa till porerna.</p>',
+
+            icons: array()
+      ),
+
       new ProblemTrivia(
             prefix: 'Hur',
             title: ' blir man av med akne på ryggen?',
