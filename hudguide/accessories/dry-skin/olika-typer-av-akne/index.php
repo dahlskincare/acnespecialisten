@@ -4,10 +4,10 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
     url: 'https://acnespecialisten-staging.minoch.com/hudguide/accessories/dry-skin/olika-typer-av-akne/',
-    url_title: 'How hormones effect?',
-    title: 'How hormones effect?',
+    url_title: 'Olika typer av akne',
+    title: 'Olika typer av akne',
     subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
-    problem: 'Acne',
+    problem: 'Akne',
     description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
     image_small: 'https://via.placeholder.com/426x324.webp',
     image_large: 'https://via.placeholder.com/872x456.jpg',
