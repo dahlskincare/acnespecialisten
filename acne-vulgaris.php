@@ -46,11 +46,17 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$floating_box = 'Behandla dina acne vulgaris effektivt.';
+$floating_box = 'Behandla din acne vulgaris effektivt.';
 
 $description_title = 'Vad är Acne Vulgaris?';
-$description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av akne och drabbar människor i alla åldrar, men är mest framträdande under tonåren och unga vuxna år. Detta tillstånd kännetecknas av en rad olika hudutslag, inklusive komedoner (svarta och vita pormaskar), papler (små röda knölar), pustler (pus-fyllda blåsor), och ibland svårare former som noduler och cystor. Acne vulgaris påverkar de talgproducerande områdena av huden, främst ansiktet, ryggen och bröstet. Det finns många olika orsaker bakom acne vulgaris såsom genetiska faktorer, hormonella förändringar, överskott av talg, tilltäppning av hårfolliklar med olja och döda hudceller, samt närvaro av acneframkallande bakterier (Propionibacterium acnes). Dessa faktorer leder till inflammation och bildandet av akneutslag.</p>
-<p class="p200 mt-m">Behandling av acne vulgaris inriktar sig på att minska produktionen av talg, bekämpa bakteriell infektion, uppmuntra till cellomsättning för att förhindra tilltäppning av porerna, och minska inflammation. En anpassad daglig hudvårdsrutin är också viktig för att hantera acne vulgaris, med användning av rengöringsmedel och hudvårdsprodukter som banaserar huden. Regelbundna besök hos en hudterapeut kan hjälpa till med att skräddarsy en behandlingsplan baserad på individens unika hudtillstånd och behov, och övervaka framsteg över tid. Att hantera acne vulgaris effektivt kräver rätt behandlingar och produkter, men med rätt rutin kan vi effektivt behandla och exliminera problemet.</p>';
+$description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av akne och drabbar människor i alla åldrar, men är mest framträdande under tonåren och unga vuxna år. Tillståndet kännetecknas av olika hudutslag som komedoner (svarta och vita pormaskar), papler (små röda knölar), pustler (var-fyllda blåsor), samt svårare former som noduler och cystor. Acne vulgaris påverkar talgproducerande områden på huden, främst ansiktet, ryggen och bröstet.</p>
+
+<p class="p200 mt-xl">Det finns flera orsaker till acne vulgaris, inklusive genetiska faktorer, hormonella förändringar, överproduktion av talg, tilltäppta hårfolliklar och närvaro av bakterien Propionibacterium acnes. Dessa faktorer leder till inflammation och bildandet av akneutslag.</p>
+
+
+<p class="p200 mt-xl">Hur behandlar man Acne Vulagris</p>  
+
+<p class="p200 mt-xl">Behandling av acne vulgaris fokuserar på att minska talgproduktionen, bekämpa bakteriella infektioner, uppmuntra cellomsättning för att förhindra tilltäppta porer och minska inflammation. En anpassad daglig hudvårdsrutin är också viktig, inklusive rengöringsmedel och hudvårdsprodukter som balanserar huden. Regelbundna besök hos en hudterapeut kan hjälpa till att skräddarsy en behandlingsplan baserad på individens specifika hudtillstånd och behov samt övervaka framsteg över tid. Med rätt behandlingar och produkter kan acne vulgaris hanteras effektivt och elimineras.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -476,10 +482,6 @@ $faq_categories = array(
             new Question(
                   title: 'Kan Akne Vulgaris påverka vuxna?',
                   text: 'Ja, även om Akne Vulgaris är vanligast hos tonåringar, kan det definitivt påverka vuxna också, särskilt kvinnor, på grund av hormonella förändringar och andra faktorer.'
-            ),
-            new Question(
-                  title: 'När bör man söka professionell hjälp för Acne Vulgaris och kan det förebyggas?',
-                  text: 'Du behöver inte vänta med att söka professionell hjälp från en hudterapeut. Att få hjälp tidigt kan inte bara behandla de nuvarande hudproblemen effektivt utan också agera förebyggande genom att minska risken för framtida utbrott och ärrbildning. En anpassad behandlingsplan kan ge dig de verktyg och kunskaper som krävs för att hantera din hud på bästa sätt.'
             ),
       ),
 );
