@@ -135,7 +135,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "Boxcar" ärr',
             aka: 'Gropar eller skålliknande ärr',
-            content: 'Breda med skarpa kanter och fördjupningar som liknar formen på ett boxcar. De bildas vanligtvis efter akneutbrott som lämnar runda eller ovala hål i huden.',
+            content: 'Breda fyrkantiga med skarpa kanter och fördjupningar som liknar formen på ett box. De bildas vanligtvis efter akneutbrott som lämnar runda eller ovala hål i huden.',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "Boxcar" ärr',
             url_label: 'Läs mer',
@@ -158,7 +158,7 @@ $symptoms = array(
       new Symptom(
             name: 'Atrofiska "rolling" ärr',
             aka: 'Gropar',
-            content: 'Vågig yta med mjuka, ojämna fördjupningar. De orsakas av skador under huden som drar huden nedåt, vilket skapar ett oregelbundet utseende som en mån kreater',
+            content: 'Vågig yta med mjuka, ojämna fördjupningar. De orsakas av skador under huden som drar huden nedåt, vilket skapar ett oregelbundet utseende som en månkrater',
             url: 'atrofiska-arr.php',
             url_title: 'Läs mer om atrofiska "rolling" ärr',
             url_label: 'Läs mer',
@@ -169,7 +169,7 @@ $symptoms = array(
       new Symptom(
             name: 'Postinflammatorisk erytem (PIE)',
             aka: 'Rosa/lila fläckar eller missfärgning',
-            content: 'Röda eller rosa fläckar på huden efter en inflammation. Detta är inte en permanent pigmentförändring utan en tillfällig rodnad som orsakas av skadade eller vidgade blodkärl under hudens yta.',
+            content: 'Rosa, Röda till lila fläckar på huden efter en inflammation. Detta behöver inte vara en permanent pigmentförändring utan en tillfällig rodnad som orsakas av skadade eller vidgade blodkärl under hudens yta.',
             url: 'postinflammatorisk-hyperpigmentering.php',
             url_title: 'Läs mer om postinflammatorisk erytem',
             url_label: 'Läs mer',
@@ -220,7 +220,7 @@ $services = array(
             title: 'Laser mot acneärr',
             duration: '90 min',
             price: '4595 kr',
-            content: 'Laserbehandling är en effektiv metod för att ta bort ärr i ansiktet med laser som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
+            content: 'Laserbehandling är en effektiv metod för att ta bort ärr i ansiktet som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
             image_small: 'bilder/behandlingar/200x200/laser.webp',
             image_large: 'bilder/behandlingar/200x200/laser.webp',
             image_alt: 'Bild av en laserbehandling mot acneärr',
@@ -277,13 +277,13 @@ $services = array(
 
 $articles = array(
       new Article(
-            title: 'Hur får man bort hudproblemet?',
+            title: 'Hur får man bort ärren?',
             image_small: null,
             image_large: null,
             image_alt: 'Hur får man bort acneärr?Hur får man bort acneärr?',
             image_title: 'Hur får man bort acneärr?',
-            content: '<p class="p200">Vi erbjuder de senaste behandlingsmetoderna mot alla typer av acneärr. Oavsett om det gäller laserbehandling för de mest envisa ärrtyperna, microneedling som är effektiv mot atrofiska ärr, eller kemisk peeling för ärrtypen fläckar, är våra behandlingsalternativ bäst mot acneärr. Vi använder alltid de mest avancerade och skräddarsydda lösningarna för dina acneärr.</p>
-            <p class="p200 mt-m">Din resa med oss börjar med en helt kostnadsfri konsultation. Vi tar oss tiden att analysera ditt unika fall och erbjuder dig en personlig hudterapeut. Din terapeut kommer att vara din guide och stöttepelare från start till mål, och skapa en behandlingsplan som är helt anpassad efter dina behov.</p>',
+            content: '<p class="p200">Vi erbjuder de senaste behandlingsmetoderna mot alla typer av acneärr. Oavsett om det gäller laserbehandling för de mest envisa ärrtyperna, microneedling som är effektiv mot atrofiska ärr, eller kemisk peeling för ärrtypen fläckar, är våra behandlingsalternativ bäst mot acneärr.</p>
+            <p class="p200 mt-m">Din resa med oss börjar med en kostnadsfri konsultation. Vi tar oss tiden att analysera ditt unika fall och erbjuder dig en personlig hudterapeut. Din terapeut kommer att vara din guide och stöttepelare från start till mål, och skapa en behandlingsplan som är helt anpassad efter dina behov.</p>',
       ),
       new Article(
             title: 'Varför AcneSpecialisten?!',
@@ -291,8 +291,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför AcneSpecialisten?!',
             image_title: 'Varför AcneSpecialisten?!',
-            content: '<p class="p200">När det kommer till att välja rätt behandling för dina acneärr, vet vi hur avgörande det är att finna någon som inte bara förstår ditt problem utan också erbjuder de mest innovativa och effektiva lösningarna. På Acnespecialisten har vi dedikerat över 30 år till att förstå och behandla acneärr. Vår gedigna erfarenhet gör oss till specialister som verkligen lever upp till vårt namn.</p>
-            <p class="p200 mt-m">Det som verkligen särskiljer oss är vår fokuserade expertis inom acneärrbehandling. Vi är inte bara experter på acneärr, utan även pionjärer inom ärrreducering, laserbehandling och effektiv aknebehandling. Genom att välja Acnespecialisten får du tillgång till en värld av expertis och omtanke, där ditt välmående står i centrum. Vi ser fram emot att hjälpa dig på din resa mot en ny början. Boka din kostnadsfria konsultation idag och ta det första steget med oss.</p>',
+            content: '<p class="p200">När det kommer till att välja rätt behandling för ditt problem, vet vi hur avgörande det är att finna någon som inte bara förstår ditt problem utan också erbjuder de mest innovativa och effektiva lösningarna. På Acnespecialisten har vi dedikerat över 30 år till att förstå och behandla acneärr. Vår gedigna erfarenhet gör oss till specialister som verkligen lever upp till vårt namn.</p>
+            <p class="p200 mt-m">Det som verkligen särskiljer oss är vår fokuserade expertis inom acneärrbehandling. Vi är inte bara experter på acneärr, utan även pionjärer inom ärrreducering, laserbehandling och effektiv aknebehandling. Vi ser fram emot att hjälpa dig på din resa mot en ny början. Boka din kostnadsfria konsultation idag och ta det första steget med oss.</p>',
             url: '/gratis-hudkonsultation.php',
             url_label: 'Läs mer',
             url_title: 'Läs mer om varför gratis hudkonsultation',
