@@ -63,28 +63,28 @@ $description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår Hudkonsultation är inriktad på att kartlägga de unika egenskaperna hos din acne och ta fram en personlig behandlingsplan.',
+            content: 'Vår hudkonsultation identifierar de unika egenskaperna hos din akne och skapar en personlig behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för acne vulgaris idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling anpassas efter din hudtillstånd och behov, vi skräddarsyddar behandlingar för att effektivt ditt problem',
+            content: 'Varje behandling anpassas efter din huds tillstånd och behov. Vi skräddarsyr behandlingar för att effektivt få bort dina problem.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för acne vulgaris'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förebygga framtida utbrott erbjuder vi resultatinriktade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar hudproblemet.',
+            content: 'FFör att förebygga framtida utbrott erbjuder vi resultatinriktade hudvårdsprodukter och rutiner. Dessa balanserar huden och bekämpar orsakerna till hudproblem.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter behandling av den aktiv aknen fokuserar vi på att reparera eventuell ärrbildning och förbättra hudens textur, vilket leder till en jämnare och finare hudyta och ton.',
+            content: 'Efter att ha behandlat aktiv akne fokuserar vi på att reparera ärr och förbättra hudens textur för en jämnare och finare hudton.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra effektiva behandlingar för ärr'
