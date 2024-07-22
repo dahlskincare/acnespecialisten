@@ -199,7 +199,7 @@ $type_categories = array(
 
 );
 
-$symptoms_title = 'Symtom';
+$symptoms_title = 'Symptom';
 
 $symptoms = array(
       new Symptom(
