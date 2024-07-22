@@ -173,7 +173,7 @@ $headline04 = '04. Reparera';
 $repair_image_small = '/bilder/hudbehandlingar/358x274/laser.webp';
 $repair_image_large = '/bilder/hudbehandlingar/872x456/laser.webp';
 
-$repair_content = '<p class="p200">När din akne har behandlats och aknen försvunnit, tar vi itu med akneärren som den lämnat bakom sig. På AcneSpecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laserteknik och microneedling. Dessa metoder främjar hudens egen läkningsprocess, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort acneärr och njuta av en problemfri hy.</p>';
+$repair_content = '<p class="p200">När din akne har behandlats och aknen försvunnit, tar vi itu med akneärren som den lämnat bakom sig. På AcneSpecialisten kan vi hjälpa dig att reparera dessa ärr genom olika tekniker som laser, syror och microneedling. Dessa metoder främjar hudens egen läkningsprocess, hjälper till att återställa en jämn hudstruktur och minska synligheten av ärr. Med oss vid din sida kan du känna att du har stödet du behöver för att ta bort dina acneärr och njuta av en problemfri hy.</p>';
 
 $repair_url = 'behandla-acnearr.php';
 $repair_url_label = 'Se behandlingar';
