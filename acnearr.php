@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Ta bort acneärr och gropar i huden | AcneSpecialisten';
+$seo_title = 'Ta bort acneärr, gropar och fläckar i huden | AcneSpecialisten';
 $seo_description = 'AcneSpecialisten har behandlat acneärr i 30 år. Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
 $seo_keywords = 'acneärr, akne ärr, ärr i ansiktet, ärr från finnar, acneärr gropar';
 
@@ -33,12 +33,12 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
-                  label: 'Acneärr Gropar (Atrofiska ärr)',
+                  label: 'Gropar - Atrofiska ärr',
                   url: 'atrofiska-arr.php',
                   title: 'Allt du behöver veta om atrofiska ärr i form av gropar från akne och deras behandling'
             ),
             new Link(
-                  label: 'Acneärr Fläckar (Postinflammatorisk hyperpigmentering)',
+                  label: 'Fläckar - Postinflammatorisk hyperpigmentering',
                   url: 'postinflammatorisk-hyperpigmentering.php',
                   title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av fläckar från akne'
             ),
