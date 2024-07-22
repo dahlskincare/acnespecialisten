@@ -3,7 +3,6 @@
 @import '../../../styles/util/sizes';
 
 $image_size_s: 102px;
-$image_size_l: 204px;
 
 .type-card-widget {
     position: relative;
@@ -11,6 +10,10 @@ $image_size_l: 204px;
     padding: $xl;
     border: 1px solid $light-200;
     border-radius: $radius-l;
+
+    .p100 {
+        color: $dark-200;
+    }
 
     div.image {
         position: relative;
@@ -32,13 +35,13 @@ $image_size_l: 204px;
         }
 
         @include desktop {
-            width: $image_size_l;
-            height: $image_size_l;
-            flex: 0 0 $image_size_l;
+            width: 100%;
+            height: auto;
+            flex: 1;
 
             img {
-                max-height: $image_size_l;
-                max-width: $image_size_l;
+                max-width: 100%;
+                max-height: 100%;
             }
         }
     }
@@ -66,6 +69,10 @@ $image_size_l: 204px;
         position: absolute;
         top: $s;
         right: $xxs;
+    }
+
+    @include desktop {
+        height: 350px;
     }
 }
 

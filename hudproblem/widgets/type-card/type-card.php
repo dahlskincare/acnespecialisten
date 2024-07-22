@@ -7,7 +7,7 @@
             <h4 class="h200">
                 <?php echo $type->title ?>
             </h4>
-            <p class="p200">
+            <p class="p100">
                 <?php echo $type->subtitle ?>
             </p>
         </div>
@@ -22,10 +22,10 @@
             <h4 class="h200">
                 <?php echo $type->title ?>
             </h4>
-            <p class="p200">
+            <p class="p100">
                 <?php echo $type->subtitle ?>
             </p>
+            <div class="mt-xxs button text compact">Läs mer</div>
         </div>
-        <?php icon('link-external') ?>
     </a>
 <?php } ?>
