@@ -2,7 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Aknebehandling i Stockholm | AcneSpecialisten';
+$seo_title = 'Aknebehandlingar i Stockholm | AcneSpecialisten';
 $seo_description = 'Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av få bort akne med våra aknebehandlingar, Boka gratis hudkonsultation i Stockholm eller online';
 $seo_keywords = 'aknebehandling, akne medicin, acne behandling, bästa aknebehandling, ansikte behandling, aknebehandling, behandling acne, få bort acne, ta bort acne, hormonell aknebehandling, behandla acne, behandla akne, bli av med acne, bli av med akne, få bort akne, hur blir man av med akne';
 $seo_image = 'images/treatments/large/acne-scars.jpg';
@@ -13,7 +13,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Aknebehandling',
+    title: 'Aknebehandlingar',
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">Här har vi samlat de bästa aknebehandlingarna som hjälper dig att effektivt få bort akne oavsett typ. Är du osäker på vilken aknebehandling som bäst passar din hudtyp? Oavsett om det är hormonell acne behandling eller annan typ av akne rekomenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten så hjälper vi dig att få bort akne.</p>',
@@ -29,7 +29,7 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$about_title = 'Om behandlingen';
+$about_title = 'Om behandlingarna';
 
 $about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
