@@ -70,14 +70,14 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling anpassas efter din huds tillstånd och behov. Vi skräddarsyr behandlingar för att effektivt få bort dina problem.',
+            content: 'Varje behandling anpassas efter din huds tillstånd och behov. Vi skräddarsyr behandlingar för att få bort dina problem.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för acne vulgaris'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'FFör att förebygga framtida utbrott erbjuder vi resultatinriktade hudvårdsprodukter och rutiner. Dessa balanserar huden och bekämpar orsakerna till hudproblem.',
+            content: 'FFör att förebygga framtida utbrott erbjuder vi resultatinriktade hudvårdsprodukter och rutiner.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
