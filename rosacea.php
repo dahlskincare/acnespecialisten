@@ -140,64 +140,19 @@ $type_categories = array(
                         subtitle: 'Fymatös rosacea eller rhinophyma',
                   ),
             )
-      ),
-      new BasedTypeCategory(
-            title: 'Yttre faktorer',
-            content: '<p class="p200">Rosacea kan förvärras eller till och med utlösas av en rad yttre faktorer. Genom att förstå och hantera dessa faktorer kan individer potentiellt minska frekvensen och svårighetsgraden av deras rosacea-utbrott.</p>',
-            types: array(
-                  new BasedType(
-                        image_url: '/icons/sol.svg',
-                        image_alt: 'Ikon av sol och vind',
-                        image_title: 'Exempel på på sol och vind',
-                        title: 'Sol och vind',
-                        subtitle: '',
-                  ),
-                  new BasedType(
-                        image_url: '/icons/mat-dryck.svg',
-                        image_alt: 'Ikon av het mat och dryck',
-                        image_title: 'Het mat och dryck',
-                        title: 'Het mat och dryck',
-                        subtitle: '',
-                  ),
-                  new BasedType(
-                        image_url: '/icons/stress.svg',
-                        image_alt: 'Ikon av stress',
-                        image_title: 'Stress',
-                        title: 'Stress',
-                        subtitle: '',
-                  ),
-                  new BasedType(
-                        image_url: '/icons/exfolierande.svg',
-                        image_alt: 'Ikon av alkohol och koffein',
-                        image_title: 'Alkohol och Koffein',
-                        title: 'Alkohol och Koffein',
-                        subtitle: '',
-                  ),
-                  new BasedType(
-                        image_url: '/icons/produkter.svg',
-                        image_alt: 'Ikon av hudvårdsprodukter',
-                        image_title: 'Hudvårdsprodukter',
-                        title: 'Hudvårdsprodukter',
-                        subtitle: '',
-                  ),
-                  new BasedType(
-                        image_url: '/icons/varme.svg',
-                        image_alt: 'Ikon av termometer',
-                        image_title: 'Höga Temperaturer',
-                        title: 'Höga Temperaturer',
-                        subtitle: '',
-                  ),
-                  new BasedType(
-                        image_url: '/icons/traning.svg',
-                        image_alt: 'Ikon av en person som utför fysisk ansträngning',
-                        image_title: 'Fysisk Ansträngning',
-                        title: 'Fysisk Ansträngning',
-                        subtitle: '',
-                  ),
-            )
-      ),
-
+      )
 );
+
+$factors_title = 'Yttre faktorer';
+$factor_icons = [
+      'sol' => 'Sol och Vind',
+      'mat-dryck' => 'Het mat och dryck',
+      'stress' => 'Stress',
+      'exfolierande' => 'Alkohol och Koffein',
+      'produkter' => 'Hudvårdsprodukter',
+      'varme' => 'Höga Temperaturer',
+      'traning' => 'Fysisk Ansträngning',
+];
 
 $symptoms_title = 'Symptom';
 
@@ -896,6 +851,21 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                     </div>
                               </section>
                         <?php } ?>
+                        <section id="factor-icons">
+                              <h2 class="h500"><?php echo $factors_title ?></h2>
+                              <div class="columns is-multiline is-variable is-3">
+                                    <?php foreach ($factor_icons as $factor_icon => $factor_label) { ?>
+                                          <div class="column is-one-third">
+                                                <div class="factor">
+                                                      <?php icon($factor_icon) ?>
+                                                      <div class="factor-label">
+                                                            <?php echo $factor_label ?>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                    <?php } ?>
+                              </div>
+                        </section>
                         <?php if (sizeof($symptoms) > 0) { ?>
                               <section id="symptoms">
                                     <h2 class="h500"><?php echo $symptoms_title ?></h2>

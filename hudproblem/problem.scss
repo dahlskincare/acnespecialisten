@@ -122,6 +122,29 @@ html {
             }
         }
 
+        section#factor-icons {
+            h2 {
+                margin-bottom: $xl;
+            }
+
+            .factor {
+                padding: $xl;
+                display: flex;
+                align-items: center;
+                border: 1px solid $light-200;
+                border-radius: $radius-s;
+                margin-top: $m;
+
+                .icon {
+                    margin-right: $m;
+                }
+
+                .factor-label {
+                    @include h200;
+                }
+            }
+        }
+
         section#symptoms {
             #symptom-buttons {
                 display: flex;
@@ -217,6 +240,7 @@ html {
         section#define,
         section#treatments,
         section#types,
+        section#factor-icons,
         section#symptoms,
         section#articles,
         section#products,
