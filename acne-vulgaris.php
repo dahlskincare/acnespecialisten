@@ -51,6 +51,8 @@ $floating_box = 'Behandla din acne vulgaris effektivt.';
 $description_title = 'Vad är Acne Vulgaris?';
 $description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av akne och drabbar människor i alla åldrar, men är mest framträdande under tonåren och unga vuxna år. Tillståndet kännetecknas av olika hudutslag som komedoner (svarta och vita pormaskar), papler (små röda knölar), pustler (var-fyllda blåsor), samt svårare former som noduler och cystor. Acne vulgaris påverkar talgproducerande områden på huden, främst ansiktet, ryggen och bröstet.</p>
 
+<p class="p200 mt-xl">Vad orsakar Acne Vulgaris</p>  
+
 <p class="p200 mt-xl">Det finns flera orsaker till acne vulgaris, inklusive genetiska faktorer, hormonella förändringar, överproduktion av talg, tilltäppta hårfolliklar och närvaro av bakterien Propionibacterium acnes. Dessa faktorer leder till inflammation och bildandet av akneutslag.</p>
 
 
@@ -61,28 +63,28 @@ $description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vår specialiserade konsultation är inriktad på att kartlägga de unika egenskaperna hos din acne vulgaris och ta fram en personlig behandlingsplan.',
+            content: 'Vår Hudkonsultation är inriktad på att kartlägga de unika egenskaperna hos din acne och ta fram en personlig behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för acne vulgaris idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Varje behandling för acne vulgaris anpassas efter din unika hudtyp och behov, vi erbjuder skräddarsydda behandlingar för att effektivt hantera hudproblemet.',
+            content: 'Varje behandling anpassas efter din hudtillstånd och behov, vi skräddarsyddar behandlingar för att effektivt ditt problem',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för acne vulgaris'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att förhindra framtida utbrott erbjuder vi specialutformade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar hudproblemet.',
+            content: 'För att förebygga framtida utbrott erbjuder vi resultatinriktade hudvårdsprodukter och rutiner. Dessa är utvecklade för att balansera huden och bekämpa de faktorer som orsakar hudproblemet.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga acne vulgaris'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Efter behandling av aktiv acne vulgaris fokuserar vi på att reparera ärrbildning och förbättra hudens textur, vilket leder till en jämnare och fräschare hudton för långsiktiga resultat.',
+            content: 'Efter behandling av den aktiv aknen fokuserar vi på att reparera eventuell ärrbildning och förbättra hudens textur, vilket leder till en jämnare och finare hudyta och ton.',
             url_label: 'Se ärrbehandlingar',
             url: 'behandla-acnearr.php',
             url_title: 'Upptäck våra effektiva behandlingar för ärr'
