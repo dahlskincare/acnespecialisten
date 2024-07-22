@@ -343,7 +343,7 @@ $results = [
             <div class="container mt-m is-hidden-desktop" id="filters-touch-container">
                 <div id="filters-touch">
                     <?php foreach ($category_links as $link_id => $link_label) { ?>
-                        <a href="/<?php echo $link_id ?>" class="b100 filter-item">
+                        <a href="/<?php echo $link_id ?>" class="b200 filter-item">
                             <?php echo $link_label ?>
                         </a>
                     <?php } ?>

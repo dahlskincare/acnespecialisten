@@ -9,29 +9,24 @@ section#banner {
         padding-bottom: $xl;
 
         #filters-touch {
-            @include elevation-medium();
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
-            background-color: $white-500;
+            display: flex;
+            flex-wrap: wrap;
 
             .filter-item {
-                display: block;
-                padding: 17.5px 0;
-                flex: 1;
                 text-align: center;
+                flex: auto;
+                display: inline-block;
+                padding: 14px $l;
                 cursor: pointer;
-                border-bottom: 1px solid $light-200;
-            }
+                border: 1px solid $light-500;
+                border-radius: $radius-s;
+                margin-right: $xxs;
+                margin-bottom: $xxs;
 
-            .filter-item.highlight {
-                background-color: $light-25;
-            }
-
-            .filter-item:first-child {
-                border-left: 1px solid transparent;
             }
         }
     }
+
 
     @media screen and (min-width: $desktop) {
         @include desktop {}

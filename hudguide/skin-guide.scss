@@ -10,21 +10,19 @@ section#categories-tablet {
     padding-bottom: $xl;
 
     #category-links {
-        border-radius: $radius-l;
-        border: 1px solid $light-200;
-        @include elevation-medium();
+        display: flex;
+        flex-wrap: wrap;
 
         .category-link {
-            @include h100;
-            cursor: pointer;
-            display: block;
-            border-bottom: 1px solid $light-200;
             text-align: center;
-            padding: $l 0;
-        }
-
-        .category-link:last-child {
-            border-bottom: 0;
+            flex: auto;
+            display: inline-block;
+            padding: 14px $l;
+            cursor: pointer;
+            border: 1px solid $light-500;
+            border-radius: $radius-s;
+            margin-right: $xxs;
+            margin-bottom: $xxs;
         }
     }
 }
