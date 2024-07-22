@@ -5,7 +5,7 @@
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-ytliga-blodkarl.php" />
-      
+
     <title>IPL Behandling Resultat - Ytliga blodkärl | AcneSpecialisten</title>
     <meta name="description" content="Före och efterbilder på resultatet från våra kunder med ytliga blodkärl. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <meta name="keywords" content="ipl behandling resultat, ipl före och efter bilder, ipl före efter">
@@ -136,7 +136,7 @@ $results = [
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

@@ -5,7 +5,7 @@
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/priser/" />
-      
+
     <title>Priser hos AcneSpecialisten - Behandlingar & paket</title>
     <meta name="description" content="Upptäck prisvänliga behandlings-, paket- och kurpriser hos AcneSpecialisten. Investera i din hudhälsa med våra skräddarsydda lösningar.">
     <meta name="keywords" content="Priser">
@@ -34,7 +34,7 @@
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

@@ -5,7 +5,7 @@
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/resultat-pormaskar.php" />
-      
+
     <title>Före och efter bilder - Pormaskar | AcneSpecialisten</title>
     <meta name="description" content="Se före och efterbilder på resultatet från våra pormask kunder. Upptäck hur du kan få klarare hud och uppnå resultat med AcneSpecialistens behandlingar">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
@@ -134,7 +134,7 @@ $results = [
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

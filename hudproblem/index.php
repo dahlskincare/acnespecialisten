@@ -1591,7 +1591,6 @@ $specialists = array(
                   <div class="container">
                         <h2 class="big l10n">Omdömen</h2>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button outline expand is-hidden-tablet l10n" href="recensioner-omdomen.php" title="Se alla omdömen">Se alla omdömen</a>
                   </div>
             </section>
             <section id="faq">

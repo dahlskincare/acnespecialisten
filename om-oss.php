@@ -11,7 +11,7 @@ $path_segments = [
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/om-oss.php" />
-      
+
     <title>Privat hudmottagning Stockholm - Boka tid utan remiss</title>
     <meta name="title" content="Privat hHudmottagning Stockholm - Boka tid utan remiss" class="l10n">
     <meta name="description" content="Läs om våra privata hudmottagningar i Stockholm. Vi har 30 års erfarenhet. Personlig och effektiv hudvård för alla behov.">
@@ -132,24 +132,24 @@ $path_segments = [
                 </section>
                 <section class="poster large-margin" id="poster-right">
                     <h2 class="h500 l10n is-hidden-desktop">Nära dig i Stockholm – Tre kliniker</h2>
-                        <div class="flex-row align-center">
-                            <div class="is-hidden-touch">
-                                <h2 class="h500 l10n">Nära dig i Stockholm – Tre kliniker</h2>
-                                <p class="p200 l10n">
-                                    På AcneSpecialisten förstår vi vikten av tillgänglighet och bekvämlighet när det kommer till hudvård. Därför har vi placerat våra tre kliniker strategiskt i Stockholmsområdet – på Strandvägen, Södermalm och i Sundbyberg. Oavsett var du befinner dig i staden, är professionell hudvård aldrig långt borta. Varje klinik erbjuder en unik och personlig upplevelse, med målet att ge dig den bästa möjliga vård för din hud. Våra team av erfarna hudterapeuter är redo att välkomna dig och skapa en behandlingsplan som är skräddarsydd efter dina specifika behov och önskemål. Besök den klinik som ligger närmast dig för att påbörja din resa mot en friskare och mer strålande hud med AcneSpecialisten.
-                                </p>
-                            </div>
-                            <div>
-                                <picture>
-                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/beprovad-expertis.webp">
-                                    <source media="(min-width: 800px)" srcset="bilder/om-oss/beprovad-expertis.webp">
-                                    <img src="bilder/om-oss/beprovad-expertis.webp" alt="Method" title="Method" width="358" height="272" />
-                                </picture>
-                            </div>
+                    <div class="flex-row align-center">
+                        <div class="is-hidden-touch">
+                            <h2 class="h500 l10n">Nära dig i Stockholm – Tre kliniker</h2>
+                            <p class="p200 l10n">
+                                På AcneSpecialisten förstår vi vikten av tillgänglighet och bekvämlighet när det kommer till hudvård. Därför har vi placerat våra tre kliniker strategiskt i Stockholmsområdet – på Strandvägen, Södermalm och i Sundbyberg. Oavsett var du befinner dig i staden, är professionell hudvård aldrig långt borta. Varje klinik erbjuder en unik och personlig upplevelse, med målet att ge dig den bästa möjliga vård för din hud. Våra team av erfarna hudterapeuter är redo att välkomna dig och skapa en behandlingsplan som är skräddarsydd efter dina specifika behov och önskemål. Besök den klinik som ligger närmast dig för att påbörja din resa mot en friskare och mer strålande hud med AcneSpecialisten.
+                            </p>
                         </div>
-                        <p class="p200 l10n is-hidden-desktop">
-                            På AcneSpecialisten förstår vi vikten av tillgänglighet och bekvämlighet när det kommer till hudvård. Därför har vi placerat våra tre kliniker strategiskt i Stockholmsområdet – på Strandvägen, Södermalm och i Sundbyberg. Oavsett var du befinner dig i staden, är professionell hudvård aldrig långt borta. Varje klinik erbjuder en unik och personlig upplevelse, med målet att ge dig den bästa möjliga vård för din hud. Våra team av erfarna hudterapeuter är redo att välkomna dig och skapa en behandlingsplan som är skräddarsydd efter dina specifika behov och önskemål. Besök den klinik som ligger närmast dig för att påbörja din resa mot en problemfri hud med AcneSpecialisten.
-                        </p>
+                        <div>
+                            <picture>
+                                <source media="(max-width: 799px)" srcset="bilder/om-oss/beprovad-expertis.webp">
+                                <source media="(min-width: 800px)" srcset="bilder/om-oss/beprovad-expertis.webp">
+                                <img src="bilder/om-oss/beprovad-expertis.webp" alt="Method" title="Method" width="358" height="272" />
+                            </picture>
+                        </div>
+                    </div>
+                    <p class="p200 l10n is-hidden-desktop">
+                        På AcneSpecialisten förstår vi vikten av tillgänglighet och bekvämlighet när det kommer till hudvård. Därför har vi placerat våra tre kliniker strategiskt i Stockholmsområdet – på Strandvägen, Södermalm och i Sundbyberg. Oavsett var du befinner dig i staden, är professionell hudvård aldrig långt borta. Varje klinik erbjuder en unik och personlig upplevelse, med målet att ge dig den bästa möjliga vård för din hud. Våra team av erfarna hudterapeuter är redo att välkomna dig och skapa en behandlingsplan som är skräddarsydd efter dina specifika behov och önskemål. Besök den klinik som ligger närmast dig för att påbörja din resa mot en problemfri hud med AcneSpecialisten.
+                    </p>
                 </section>
             </div>
             <section id="cta" class="large-margin">
@@ -167,7 +167,7 @@ $path_segments = [
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

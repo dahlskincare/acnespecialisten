@@ -145,7 +145,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/franchise.php" />
-      
+
     <title>Starta franchise: egen klinik inom hudvård & skönhet</title>
     <meta name="description" content="Drömmer du om en egen klinik? Starta en franchise inom hudvård och skönhet. Vi stödjer dig på resan mot att bli en framgångsrik klinikägare.">
     <meta name="keywords" content="franchise, starta franchise, franchise egen klinik, franchise hudvård, franchise skönhet">
@@ -288,7 +288,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

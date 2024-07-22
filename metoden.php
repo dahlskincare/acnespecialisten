@@ -53,7 +53,7 @@ $steps = array(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/metoden.php" />
-      
+
     <title class="l10n">Alternativ till hudläkare Stockholm - Privat & utan remiss</title>
     <meta name="title" content="Alternativ till hudläkare Stockholm - Privat & utan remiss" class="l10n">
     <meta name="description" content="Vi är ett alternativ till hudläkare och på AcneSpecialisten erbjuder vi behandlingar och rådgivning utan remiss. Boka gratis konsultation så hjälper vi dig!" class="l10n">
@@ -136,7 +136,7 @@ $steps = array(
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

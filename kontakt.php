@@ -53,7 +53,7 @@ $salons = array(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/kontakt.php" />
-      
+
     <title class="l10n">Kontakta AcneSpecialisten på Södermalm, Östermalm och Sundbyberg</title>
     <meta name="title" content="Kontakta AcneSpecialisten på Södermalm, Östermalm och Sundbyberg" class="l10n">
     <meta name="description" content="Här hittar du öppettider, kontaktinformation och adress till våra hudvårdssalonger på Södermalm, Östermalm och i Sundbyberg." class="l10n">
@@ -289,7 +289,7 @@ $salons = array(
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

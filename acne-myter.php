@@ -26,7 +26,7 @@ $faq_categories = array(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/acne-myter.php" />
-      
+
     <title class="l10n">Acne myter - Vanliga frågor och svar | AcneSpecialisten</title>
     <meta name="title" content="Acne myter - Vanliga frågor och svar | AcneSpecialisten" class="l10n">
     <meta name="description" content="Får man finnar av choklad? Här kan du läsa mer om detta och andra vanliga myter om acne! Vi på AcneSpecialisten är specialister på allt inom acne!" class="l10n">
@@ -73,9 +73,7 @@ $faq_categories = array(
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">Se alla omdömen</a>
             </section>
-            <!--Hudguide-->
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Varumärken</div>

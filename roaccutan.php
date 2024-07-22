@@ -21,7 +21,7 @@ $article = new SkinGuideArticle(
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/roaccutan.php" />
-      
+
     <title class="l10n">Information om acnemedicinen Roaccutan | AcneSpecialisten</title>
     <meta name="title" content="Information om acnemedicinen Roaccutan | AcneSpecialisten" class="l10n">
     <meta name="description" content="Roaccutan är en acne medicin. Här hittar du mer information om roaccutan och dess biverkningar, vi erbjuder effektiv behandling utan roaccutan." class="l10n">
@@ -287,7 +287,7 @@ $article = new SkinGuideArticle(
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

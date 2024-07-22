@@ -11,7 +11,7 @@ $path_segments = [
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/studentrabatt/" />
-      
+
     <title class="l10n">Studentrabatt | AcneSpecialisten</title>
     <meta name="title" content="Studentrabatt | AcneSpecialisten" class="l10n">
     <meta name="description" content="Vi erbjuder 20% rabatt på alla våra behandlingar för dig som är student eller som inte fyllt 18 ännu." class="l10n">
@@ -79,67 +79,75 @@ $path_segments = [
                     </div>
 
                 </section>
-            
+
                 <section id="approach">
                     <h2 class="h500 l10n">Metoden</h2>
                     <hr class="mt-xl mb-xl3 is-hidden-mobile">
                     <div class="columns is-variable is-2">
-                        <div class="column"><div class="treatment-step-card-widget">
-                            <div>
-                                <div class="treatment-step-title">
-                                    <div class="index-circle">
-                                        <span>0</span>
-                                        <span>1</span>
+                        <div class="column">
+                            <div class="treatment-step-card-widget">
+                                <div>
+                                    <div class="treatment-step-title">
+                                        <div class="index-circle">
+                                            <span>0</span>
+                                            <span>1</span>
+                                        </div>
+                                        <div>Identifiera</div>
                                     </div>
-                                    <div>Identifiera</div>
+                                    <div class="treatment-step-content">Din hudvårdsresa börjar med en gratis hudkonsultation på klinik eller online. Under besöket får du träffa en av våra hudterapeuter som analyserar din hudtyp och skapar en personlig behandlingpslan för just dig.</div>
                                 </div>
-                                <div class="treatment-step-content">Din hudvårdsresa börjar med en gratis hudkonsultation på klinik eller online. Under besöket får du träffa en av våra hudterapeuter som analyserar din hudtyp och skapar en personlig behandlingpslan för just dig.</div>
-                            </div>
                                 <a href="gratis-hudkonsultation.php" class="button grey expand is-hidden-tablet" title="Boka gratis en konsultation">Boka en gratis konsultation</a>
                                 <a href="gratis-hudkonsultation.php" class="button b200 text compact is-hidden-mobile" title="Boka en gratis konsultation">Boka en gratis konsultation</a>
-                        </div></div>
-                        <div class="column"><div class="treatment-step-card-widget">
-                            <div>
-                                <div class="treatment-step-title">
-                                    <div class="index-circle">
-                                        <span>0</span>
-                                        <span>2</span>
-                                    </div>
-                                    <div>Behandla</div>
-                                </div>
-                                <div class="treatment-step-content">När vi identifierat dina hudproblem utför vi den behandlng som passar bäst för just ditt hudtillstånd. Behandlingsmetod väljs ut baserat på dina individuella behov.</div>
                             </div>
+                        </div>
+                        <div class="column">
+                            <div class="treatment-step-card-widget">
+                                <div>
+                                    <div class="treatment-step-title">
+                                        <div class="index-circle">
+                                            <span>0</span>
+                                            <span>2</span>
+                                        </div>
+                                        <div>Behandla</div>
+                                    </div>
+                                    <div class="treatment-step-content">När vi identifierat dina hudproblem utför vi den behandlng som passar bäst för just ditt hudtillstånd. Behandlingsmetod väljs ut baserat på dina individuella behov.</div>
+                                </div>
                                 <a href="/hudbehandlingar" class="button grey expand is-hidden-tablet" title="Se våra behandlingar">Se våra behandlingar</a>
                                 <a href="/hudbehandlingar" class="button b200 text compact is-hidden-mobile" title="Se våra behandlingar">Se våra behandlingar</a>
-                        </div></div>
-                        <div class="column"><div class="treatment-step-card-widget">
-                            <div>
-                                <div class="treatment-step-title">
-                                    <div class="index-circle">
-                                        <span>0</span>
-                                        <span>3</span>
-                                    </div>
-                                    <div>Förebygg</div>
-                                </div>
-                                <div class="treatment-step-content">Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att behandla och förebygga ditt hudproblem.</div>
                             </div>
+                        </div>
+                        <div class="column">
+                            <div class="treatment-step-card-widget">
+                                <div>
+                                    <div class="treatment-step-title">
+                                        <div class="index-circle">
+                                            <span>0</span>
+                                            <span>3</span>
+                                        </div>
+                                        <div>Förebygg</div>
+                                    </div>
+                                    <div class="treatment-step-content">Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att behandla och förebygga ditt hudproblem.</div>
+                                </div>
                                 <a href="https://dahlskincare.se" class="button grey expand is-hidden-tablet" title="Se produkterna">Se produkterna</a>
                                 <a href="https://dahlskincare.se" class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Se produkterna</a>
-                        </div></div>
-                        <div class="column"><div class="treatment-step-card-widget">
-                            <div>
-                                <div class="treatment-step-title">
-                                    <div class="index-circle">
-                                        <span>0</span>
-                                        <span>4</span>
-                                    </div>
-                                    <div>Reparera</div>
-                                </div>
-                                <div class="treatment-step-content">När du blivit av med ditt hudproblem är det dags att återställa de skador som orsakats på din hy såsom ärr och pigmenteringar. Vi erbjuder de senaste metoderna för att reparera och återställa din hy.</div>
                             </div>
+                        </div>
+                        <div class="column">
+                            <div class="treatment-step-card-widget">
+                                <div>
+                                    <div class="treatment-step-title">
+                                        <div class="index-circle">
+                                            <span>0</span>
+                                            <span>4</span>
+                                        </div>
+                                        <div>Reparera</div>
+                                    </div>
+                                    <div class="treatment-step-content">När du blivit av med ditt hudproblem är det dags att återställa de skador som orsakats på din hy såsom ärr och pigmenteringar. Vi erbjuder de senaste metoderna för att reparera och återställa din hy.</div>
+                                </div>
                                 <a href="behandla-acnearr.php" class="button grey expand is-hidden-tablet" title="Läs mer om eftervård">Läs mer om eftervård</a>
                                 <a href="behandla-acnearr.php" class="button b200 text compact is-hidden-mobile" title="Läs mer om eftervård">Läs mer om eftervård</a>
-                        </div></div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -158,7 +166,7 @@ $path_segments = [
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen">Se alla omdömen</a>
+
             </section>
             <!--Hudguide-->
             <section id="specialists" class="large-margin">
