@@ -50,12 +50,25 @@ $floating_box = 'Vi behandlar åldersfläckar effektivt';
 
 $description_title = 'Vad är åldersfläckar?';
 $description_text = '<p class="p200">Åldersfläckar, ofta ett resultat av huden som åldras och långvarig exponering för solen, är små, mörka områden på huden. De är vanligast hos personer över 50 år men kan också dyka upp hos yngre individer som spenderar mycket tid i solen.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi en rad behandlingar för att hantera åldersfläckar. Våra metoder inkluderar allt från ljusbaserade behandlingar till kemiska peelingar och mikrodermabrasion. Dessa behandlingar är utformade för att minska synligheten av åldersfläckar och ge din hud en mer jämn ton. Vi erbjuder också råd om hur du kan förebygga nyafläckar och hålla din hud hälsosam och strålande.</p>';
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi en rad behandlingar för att hantera åldersfläckar. Våra metoder inkluderar allt från Laser till kemiska peelingar och mikrodermabrasion. Dessa behandlingar är utformade för att ta bort åldersfläckar och ge din hud en mer enhetlig och jämn ton. Vi erbjuder också råd om hur du kan förebygga nya fläckar och hålla din hud hälsosam och strålande.</p>';
+
+$top_articles = array(
+      'areas' => new Article(
+            title: 'Var uppstår hudproblemet och varför?',
+            image_small: null,
+            image_large: null,
+            image_alt: '',
+            image_title: '',
+            content: '<p class="p200">Åldersfläckar i ansiktet är vanligt på grund av dess frekventa exponering av sol, de kan uppstå på både händerna och armarna av samma anledning. Denna hyperpigmentering är ett resultat av ökad melaninproduktion, det pigment som ger hud dess färg, vilket ofta orsakas av långvarig exponering för UV-strålar från solen. Hudens naturliga åldringsprocess bidrar också, då dess förmåga att återhämta sig från solskador minskar över tiden.</p>',
+      ),
+);
+
+
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten startar din väg till en sundare hud med en grundlig konsultation. Våra kunniga hudterapeuter utför en detaljerad hudanalys för att fastställa graden och omfattningen av dina åldersfläckar. Denna initiala bedömning är avgörande för att kunna skapa en effektiv och personlig behandlingsplan, anpassad för just dina behov.',
+            content: 'På AcneSpecialisten startar din resa till en enhetlig hud med en grundlig konsultation. Våra kunniga hudterapeuter utför en detaljerad hudanalys för att fastställa graden och omfattningen av dina åldersfläckar. Denna initiala bedömning är avgörande för att kunna skapa en effektiv och personlig behandlingsplan, anpassad för just dina behov.',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_label: 'Boka en gratis konsultation',
             url_title: 'Boka din kostnadsfria konsultation mot åldersfläckar'
@@ -71,16 +84,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot åldersfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Var uppstår hudproblemet och varför?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Åldersfläckar i ansiktet är vanligt på grund av dess frekventa exponering av sol, de kan uppstå på både händerna och armarna av samma anledning. Denna hyperpigmentering är ett resultat av ökad melaninproduktion, det pigment som ger hud dess färg, vilket ofta orsakas av långvarig exponering för UV-strålar från solen. Hudens naturliga åldringsprocess bidrar också, då dess förmåga att återhämta sig från solskador minskar över tiden.</p>',
-      ),
-);
+
 
 $headline01 = "01. Identifiera";
 
