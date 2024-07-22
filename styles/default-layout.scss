@@ -667,6 +667,10 @@ html {
                     border-radius: $radius-l;
                     cursor: pointer;
 
+                    .consultation-banner-text {
+                        min-height: 130px;
+                    }
+
                     .icon {
                         width: $xl3;
                         height: $xl3;

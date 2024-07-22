@@ -230,7 +230,7 @@
                         <div class="columns">
                             <div class="column">
                                 <h2 class="l10n">Redo att sätta igång?</h2>
-                                <p class="l10n mt-xs">
+                                <p class="l10n mt-xs consultation-banner-text">
                                     Vi inleder med en gratis konsultation, identifierar ditt hudproblem och skapar en personlig behandlingsplan för dig.
                                 </p>
                             </div>
@@ -251,7 +251,7 @@
                         <div class="columns">
                             <div class="column">
                                 <h2 class="l10n">Kliniken för långt bort?</h2>
-                                <p class="l10n mt-xs">
+                                <p class="l10n mt-xs consultation-banner-text">
                                     Inga problem! Vi erbjuder kostnadsfria online-konsultationer för att alla ska kunna uppnå en problemfri hy, kom igång direkt!
                                 </p>
                             </div>
