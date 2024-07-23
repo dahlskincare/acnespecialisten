@@ -430,7 +430,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Kombinera flera områden för ett jämnare resultat.</p>',
+        description: '<p class="p200">Kombinera flera områden för ett utökat och jämnare resultat.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/icons/1x.svg',
