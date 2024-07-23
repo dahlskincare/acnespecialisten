@@ -17,7 +17,7 @@ $model = new Service(
     title: 'CO2 laser - Fraktionerad laser',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">Alma Hybrid är en fraktionerad CO2 laser med ett unikt patent, som den senaste generation av CO2-laserbehandlingar. Kombinerar effekten av ablativ (bränner på hudytan) CO2-laser med mångsidigheten hos icke-ablativ laser (behandlar igenom och under hudytan). Denna innovativa behandling är utvecklad för att effektivt hantera en olika hudproblem som acneärr, rynkor, fina linjer och ojämn hudton.</p>',
+    content: '<p class="p200">Alma Hybrid är en avancerad fraktionerad CO2-laser med ett unikt patent, som representerar den senaste generationen av CO2-laserbehandlingar. Den kombinerar effekten av ablativ CO2-laser, som bränner på hudytan, med mångsidigheten hos icke-ablativ laser, som behandlar genom och under hudytan. Denna innovativa behandling är utvecklad för att effektivt hantera en rad hudproblem, inklusive akneärr, rynkor, fina linjer och ojämn hudton, vilket ger en omfattande lösning för förbättrad hudhälsa och utseende.</p>',
     image_small: 'bilder/varumarken/358x274/alma.webp',
     image_large: 'bilder/varumarken/424x456/alma.webp',
     image_alt: 'Alma Hybrid',
