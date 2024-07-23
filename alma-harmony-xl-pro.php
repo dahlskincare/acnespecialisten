@@ -283,7 +283,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Utöka effekten genom att behandla flera områden.</p>',
+        description: '<p class="p200">Förbättra och utöka resultaten genom att behandla flera områden samtidigt, som till exempel ansikte och hals.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/icons/1x.svg',
@@ -524,7 +524,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Är behandlingar med Alma Harmony XL Pro smärtsamma?',
-            text: '<p class="p200">De flesta patienter upplever minimalt till inget obehag under behandlingen, tack vare de icke-invasiva teknikerna och möjligheten till topikal bedövning vid mer avancerade behandlingar. Obehaget är ofta kortvarigt och hanterbart.</p>'
+            text: '<p class="p200">De flesta patienter upplever minimalt till måtligt smärta under behandlingen, tack vare de icke-invasiva teknikerna och möjligheten till topikal bedövning vid mer avancerade behandlingar. Obehaget är ofta kortvarigt och hanterbart.</p>'
         ),
         new Question(
             title: 'Hur många behandlingssessioner behövs för att se resultat?',
@@ -532,7 +532,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur lång är återhämtningsperioden efter en behandling med Alma Harmony XL Pro?',
-            text: '<p class="p200">Återhämtningsperioden är minimal, med de flesta patienter som återgår till sina normala aktiviteter direkt efter behandlingen. För vissa mer intensiva behandlingar kan en kort återhämtningsperiod krävas, men detta diskuteras i förväg med din behandlare.</p>'
+            text: '<p class="p200">Återhämtningsperioden är minimal till måtlig, beroende på hur starkt du behandlat din hud, vissa patienter återgår till sina jobb och normala aktiviteter dagen efter behandlingen. För vissa mer intensiva behandlingar kan en återhämtningsperiod krävas, från 2-7 dagar. men detta diskuteras i förväg med din behandlare, man börjar alltid lättare och arbetar sig uppåt.</p>'
         ),
     )
 );
