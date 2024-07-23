@@ -112,7 +112,7 @@ $headline02 = "02. Behandla";
 
 $services = array(
       new Service(
-            title: 'IPL-behandling för åldersfläckar',
+            title: 'IPL-behandling mot åldersfläckar',
             duration: '60 min',
             price: '2595 kr',
             content: 'IPL-behandling använder ljuspulser för att bryta ner melanineti fläckarna, vilket gör att de bleknar och försvinner.',
@@ -131,7 +131,7 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om IPL-behandling för åldersfläckar'
       ),
       new Service(
-            title: 'Kemisk Peeling för åldersfläckar',
+            title: 'Kemisk Peeling mot åldersfläckar',
             duration: '30 min',
             price: '1995 kr',
             content: 'Kemisk peeling förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket reducerar fläckarna och förbättrar hudens utseende.',
@@ -170,7 +170,7 @@ $services = array(
       ),
 
       new Service(
-            title: 'Microneedling för åldersfläckar',
+            title: 'Microneedling mot åldersfläckar',
             duration: '50 min',
             price: '2595 kr',
             content: 'Denna process hjälper till att bryta ner hyperpigmentering och främjar cellförnyelse, vilket resulterar i en jämnare hudton och minskad synlighet av åldersfläckar.',
