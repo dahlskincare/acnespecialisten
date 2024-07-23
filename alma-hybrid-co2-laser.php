@@ -50,8 +50,8 @@ $top_articles = array(
     ),
 );
 
-$big_types_title = 'Alma Hybrid Signaturbehandlingar';
-$big_types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+$types_title = 'Alma Hybrid Signaturbehandlingar';
+$types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
 
 $big_types = array(
     new Service(
@@ -522,6 +522,116 @@ $service_brands = array(
     ),
 );
 
+$results_title = 'Fraktionerad CO2 laser före och efter resultat';
+$results = array(
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+        url_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 21,
+        gender: 'Kvinna',
+        problem: 'Akne',
+        type: 'Svår',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Aknebehandling',
+                    count: '5 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår akne',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Cazzandra Lindberg'
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        url_title: 'Akne resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 18,
+        gender: 'Kvinna',
+        problem: 'Akne',
+        type: 'Svår',
+        treatment: new ResultTreatment(
+            duration: '<a href="acne.php" title="Akne">Akne</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Aknebehandling',
+                    count: '3 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår akne',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Julia Eklund'
+            ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        url_title: 'Rosacea resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 33,
+        gender: 'Kvinna',
+        problem: 'Rosacea',
+        type: 'Svår',
+        treatment: new ResultTreatment(
+            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+            procedures: array(
+                new ResultProcedure(
+                    image: 'https://via.placeholder.com/102x102.webm',
+                    name: 'Rosaceabehandling',
+                    count: '3 tillfällen'
+                ),
+            ),
+            product: new ResultProduct(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Produktpaket mot svår rosacea',
+            ),
+            employee: new ResultEmployee(
+                image: 'https://via.placeholder.com/102x102.webm',
+                name: 'Julia Eklund'
+            ),
+        )
+    ),
+);
+
+$reviews_title = 'Omdömen';
+
+$reviews_view_more = 'Se alla omdömen';
+
 $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
@@ -649,10 +759,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                             <?php } ?>
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
-                            <h2 class="h500 mt-xxl"><?php echo $big_types_title; ?></h2>
-                            <?php if (isset($big_types_description)) { ?>
-                                <p class="p200 mt-xs"><?php echo $big_types_description ?></p>
-                            <?php } ?>
                             <?php foreach ($big_types as $service) { ?>
                                 <div class="big-type">
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
@@ -718,9 +824,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
-                <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
-                </section>
+                <!--Reviews-->
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
