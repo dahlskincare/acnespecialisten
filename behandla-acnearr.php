@@ -11,7 +11,7 @@ $model = new Service(
     title: 'Få bort acneärr',
     duration: null,
     price: null,
-    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda acneärr eller gropar i huden, har vi rätt lösning för dig med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.</p>',
+    content: '<p class="p200">Här har vi samlat de bästa och mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda fläckar eller djupa gropar i huden, har vi rätt lösning för dig med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från acneärr.</p>',
     image_small: 'images/treatments/small/acne-scars.jpg',
     image_large: 'images/treatments/large/acne-scars.jpg',
     image_alt: 'Bild som illustrerar akne',
