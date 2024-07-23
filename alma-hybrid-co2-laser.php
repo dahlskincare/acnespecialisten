@@ -664,15 +664,15 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många Alma Hybrid-behandlingar behövs för bästa resultat?',
+            title: 'Hur många behandlingar behövs för bästa resultat?',
             text: '<p class="p200">Antalet Alma Hybrid-behandlingar varierar beroende på dina specifika hudproblem och önskade resultat. Vanligtvis rekommenderas en serie av 3-5 behandlingar med intervaller på några veckor. En skräddarsydd behandlingsplan kommer att utformas under din konsultation för att möta dina unika behov.</p>'
         ),
         new Question(
-            title: 'Hur långvariga är effekterna av Alma Hybrid-behandlingar?',
+            title: 'Hur länge håller resultatet från behandlingarna',
             text: '<p class="p200">Effekterna från Alma Hybrid-behandlingar kan vara långvariga, men det är viktigt att notera att yttre faktorer som solens strålar och hudens naturliga åldrande kan påverka resultaten över tid. Regelbundna underhållsbehandlingar och en noggrann hudvårdsrutin kan hjälpa till att bevara de positiva resultaten.</p>'
         ),
         new Question(
-            title: 'Vad är skillnaden på fraktionerad CO2 laser och vanlig CO2 laser?',
+            title: 'Vad är skillnaden på fraktionerad och vanlig CO2 laser?',
             text: '<p class="p200">Fraktionerad CO2-laser och traditionell CO2-laser är två tekniker som används inom hudföryngring och behandling av hudproblem, men de skiljer sig åt i hur de appliceras och deras effekt på huden.</p>
             <p class="p200 mt-xl">Traditionell CO2-laser:<br />Denna laser använder en kontinuerlig ljusstråle som avlägsnar hela det yttersta hudlagret (epidermis) och värmer upp det underliggande hudlagret (dermis). Detta stimulerar produktionen av nytt kollagen och främjar hudens naturliga läkningsprocess, vilket resulterar i en jämnare, fastare hud. Eftersom den traditionella CO2-lasern behandlar hela hudområdet den appliceras på, kan återhämtningstiden vara längre, och det finns en högre risk för biverkningar såsom rodnad, svullnad och i sällsynta fall ärrbildning.</p>
             <p class="p200 mt-xl">Fraktionerad CO2-laser:<br />Fraktionerad teknik bryter upp laserljuset i tusentals små strålar (mikrostrålar) som tränger djupt in i huden för att behandla en fraktion av huden i taget, lämnar omgivande vävnad opåverkad. Detta leder till snabbare läkning eftersom endast en del av huden behandlas vid en given tidpunkt, samtidigt som det stimulerar kollagenproduktionen och hudförnyelsen. Fraktionerad CO2-laser kan med större precision behandla fina linjer, rynkor, ärr och andra hudtexturproblem med mindre risk för biverkningar och kortare återhämtningstid jämfört med traditionell CO2-laser.</p>
