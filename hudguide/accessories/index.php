@@ -106,8 +106,6 @@ $pages = sizeof($articles_per_page);
                 title: $category->name,
                 description: $category->description,
                 description_extended: $category->description_extended,
-                button_url: $category->consultation_url,
-                button_label: 'Gör en gratis konsultation'
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
