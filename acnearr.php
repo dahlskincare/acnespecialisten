@@ -477,33 +477,6 @@ $results_url_label = "Se fler resultat";
 $results_url_title = "se flera behandlingsresultat från acneärr";
 
 
-$reviews = array(
-      new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Utmärkt',
-            text: "Professionellt gjort. Man känner sig trygg. Är nöjd med dagens behandling.",
-            signature: 'Vee'
-      ),
-      new Review(
-            stars: 5,
-            brand: 'Google',
-            logo_url: 'images/brands/google-small.svg',
-            title: 'Bra ställe..',
-            text: "Bra ställe och fantastiska specialister. Jag uppskattar mycket hur ren platsen är men också hur uppmärksam personalen är. Rekommenderas 10/10!",
-            signature: 'Alba'
-      ),
-      new Review(
-            stars: 5,
-            brand: 'Bokadirekt',
-            logo_url: 'images/brands/bokadirekt-small.svg',
-            title: 'Så fräsch lokal..',
-            text: "Så fräsch lokal och proffsigt och mysigt besök. Vi har nu satt upp en plan för min hy.",
-            signature: 'Matilda'
-      ),
-
-);
 
 $faq_categories = array(
       'Generellt om akne' => array(
