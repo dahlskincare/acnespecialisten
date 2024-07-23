@@ -745,6 +745,7 @@ $brands_url_title = "Varumärken för acneärr";
                               } ?>
                               <hr>
                         </section>
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -779,6 +780,7 @@ $brands_url_title = "Varumärken för acneärr";
                                     </div>
                               </section>
                         <?php } ?>
+                        
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
