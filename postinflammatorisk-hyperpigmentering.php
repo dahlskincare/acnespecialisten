@@ -5,7 +5,7 @@ include_once('hudproblem/widgets/symptom-card/symptom.php');
 include_once('hudproblem/widgets/related-problem-card/related-problem.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Postinflammatorisk hyperpigmentering | AcneSpecialisten';
+$seo_title = 'Postinflammatorisk Hyperpigmentering | AcneSpecialisten';
 $seo_description = 'Ta bort postinflammatorisk hyperpigmentering, vi hjälper dig med rätt behandling för hyperpigmentering! Boka tid för en gratis hudkonsultation →';
 $seo_keywords = 'post akne, fläckar i ansiktet efter finnar, postinflammatorisk hyperpigmentering, hyperpigmentering behandling';
 $seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
@@ -34,7 +34,7 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
-                  label: 'Fläckar',
+                  label: 'Fläckar på huden',
                   url: null,
                   title: null,
             ),
