@@ -42,28 +42,8 @@ $green_banner_content = new GreenBannerContent(
 );
 
 $description_title = 'Vad är postinflammatorisk hyperpigmentering?';
-$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) är en tillfällig hudåkomma där huden blir mörkare på grund av en ökad produktion av melanin efter en inflammation eller skada. Detta kan uppstå efter acne, eksem, psoriasis eller hudskador som solbränna eller kemiska irritationer. PIH visar sig som mörka fläckar eller områden som är tydligt mörkare än den omgivande huden, och de kan vara rosa, röda, bruna eller svarta beroende på hudton och skadans allvarlighet. Även om PIH inte är farligt, kan det vara kosmetiskt störande och påverka individens självförtroende.</p>
-<p class="p200 mt-m">På Acnespecialisten fokuserar vi på att behandla och minska synligheten av postinflammatorisk hyperpigmentering genom individuellt anpassade metoder. Våra behandlingar, som ljusbehandlingar och kemiska peelingar, är utformade för att jämna ut hudtonen och främja en mer enhetlig hudfärg, med målet att ge dig en klarare och mer jämn hudton.</p>';
-
-
-$treatment_steps = array(
-      new TreatmentStep(
-            title: 'Identifiera',
-            content: 'Hos AcneSpecialisten får du professionell hjälp av en hudterapeut som är expert på hudproblemet. Vi utför en grundlig analys av din hud för att identifiera områden med hyperpigmentering och skapar en behandlingsplan som är unikt anpassad för din hudtyp och dina specifika behov.',
-            url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
-            url_title: 'Boka din kostnadsfria konsultation för postinflammatorisk hyperpigmentering'
-      ),
-      new TreatmentStep(
-            title: 'Behandla',
-            content: 'Vi erbjuder avancerade behandlingar som är anpassade för att effektivt minska mörka fläckar och förbättra hudens ton och utseende. Våra behandlingsmetoder inkluderar speciella ljusbehandlingar, kemiska peelingar och topiska produkter, alla utvalda för att ge bästa möjliga resultat för din hud.',
-            url_label: 'Se behandlingar',
-            url: 'behandla-acnearr.php',
-            url_title: 'Upptäck våra anpassade behandlingar för postinflammatorisk hyperpigmentering'
-      ),
-);
-
-$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för postinflammatorisk hyperpigmentering" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+$description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) är en tillfällig hudåkomma där huden blir mörkare efter inflammation eller skada. Detta uppstår ofta efter akne, eksem, psoriasis eller hudskador som solbränna eller kemiska irritationer. PIH visar sig som mörka fläckar som kan vara rosa, röda, bruna, lila eller svarta beroende på hudton och skadans allvarlighet. Trots att PIH inte är farligt, kan det vara kosmetiskt störande och påverka självförtroendet.</p>
+<p class="p200 mt-m">På AcneSpecialisten behandlar vi PIH med individuellt anpassade metoder, som laser, microneedling och kemiska peelingar, för att jämna ut hudtonen och ge en klarare och fläckfri hud.</p>';
 
 $top_articles = array(
       'areas' => new Article(
@@ -72,10 +52,32 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Postinflammatorisk hyperpigmentering uppstår när huden reagerar på inflammation eller skada genom att överproducera melanin, det pigment som ger huden dess färg. När huden försöker läka sig själv efter en inflammation, kan inflammationsprocessen störa de melaninproducerande cellerna (melanocyterna), vilket leder till en ojämn pigmentfördelning. Detta är särskilt vanligt hos personer med mörkare hudtyper, eftersom deras melanocyter är mer aktiva och producerar mer melanin som svar på skador.</p>
-            <p class="p200 mt-m">Faktorer som kan bidra till utvecklingen av PIH inkluderar acne, eksem, psoriasis, skärsår, brännskador, och till och med vissa medicinska behandlingar eller kosmetiska procedurer. Det är viktigt att skydda huden mot ytterligare irritation och använda solskydd för att förhindra att hyperpigmenteringen förvärras.</p>',
+            content: '<p class="p200">Postinflammatorisk hyperpigmentering uppstår när huden reagerar på inflammation eller skada genom att överproducera melanin, det pigment som ger huden dess färg. När huden försöker läka sig själv efter en inflammation kan inflammationsprocessen störa de melaninproducerande cellerna (melanocyterna), vilket leder till ojämn pigmentfördelning.</p>
+            <p class="p200 mt-m">Faktorer som kan bidra till utvecklingen av PIH inkluderar akne, eksem, psoriasis, skärsår, brännskador, och till och med vissa medicinska behandlingar eller kosmetiska procedurer. Det är viktigt att skydda huden mot ytterligare irritation och använda solskydd för att förhindra att hyperpigmenteringen förvärras. Dessutom kan PIH uppstå om man klämmer fel eller pillar på sina finnar, vilket förvärrar inflammationen och leder till ökad melaninproduktion.</p>',
       ),
 );
+
+
+$treatment_steps = array(
+      new TreatmentStep(
+            title: 'Identifiera',
+            content: 'Hos AcneSpecialisten får du professionell hjälp av en hudterapeut som är expert på hudproblem. Vi utför en grundlig analys av din hud för att identifiera områden med hyperpigmentering och skapar en behandlingsplan som är unikt anpassad för din hudtyp och specifika behov.',
+            url_label: 'Boka gratis konsultation',
+            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+            url_title: 'Boka din kostnadsfria konsultation för postinflammatorisk hyperpigmentering'
+      ),
+      new TreatmentStep(
+            title: 'Behandla',
+            content: 'Vi erbjuder avancerade behandlingar som effektivt tar bort mörka fläckar och förbättrar hudens ton och utseende. Våra metoder inkluderar laser, kemiska peelingar och microneedling, alla utvalda för att ge bästa möjliga resultat för din hud.',
+            url_label: 'Se behandlingar',
+            url: 'behandla-acnearr.php',
+            url_title: 'Upptäck våra anpassade behandlingar för postinflammatorisk hyperpigmentering'
+      ),
+);
+
+$treatment_link = '<a href="behandla-acnearr.php" title="Utforska effektiva behandlingar för postinflammatorisk hyperpigmentering" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
+
+
 
 $results = array(
       new ResultCustomer(
@@ -352,6 +354,15 @@ $brands_url_title = "Se alla varumärken";
                               <h2 class="h500"><?php echo $description_title ?></h2>
                               <div class="mt-xl"><?php echo $description_text ?></div>
                         </section>
+
+                              <?php foreach ($top_articles as $id => $article) { ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -367,13 +378,7 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
+                  
 
                         <section id="results">
                               <?php
