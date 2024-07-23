@@ -103,10 +103,10 @@ $headline02 = "02. Behandla";
 
 $services = array(
       new Service(
-            title: 'Laser mot acneärr',
+            title: 'Laser mot PIH',
             duration: '90 min',
             price: '4595 kr',
-            content: 'Laserbehandling är en effektiv metod för att ta bort ärr i ansiktet som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
+            content: 'LLaserbehandling är en effektiv metod för att minska postinflammatorisk hyperpigmentering (PIH) genom att använda koncentrerade ljusstrålar. Denna behandling stimulerar hudens naturliga kollagenproduktion och avlägsnar skadade hudceller, vilket jämnar ut hudens ton och minskar synligheten av mörka fläckar.',
             image_small: 'bilder/behandlingar/200x200/laser.webp',
             image_large: 'bilder/behandlingar/200x200/laser.webp',
             image_alt: 'Bild av en laserbehandling mot acneärr',
@@ -122,10 +122,10 @@ $services = array(
             url_title: 'Läs mer om laser mot acneärr',
       ),
       new Service(
-            title: 'Kemisk peeling mot acneärr',
+            title: 'Kemisk peeling mot PIH',
             duration: '30 min',
             price: '1995 kr',
-            content: 'Kemisk peeling förbättrar hudens utseende och textur med häjlp av syror. Denna behandling är särskilt effektiv för ärrtypen fläckar och verkar genom att applicera en kemisk lösning som exfolierar och tar bort det yttersta hudlagret. Detta främjar hudens förnyelse och kan avsevärt minska framträdandet av ärr och fläckar.',
+            content: 'KKemisk peeling är en effektiv behandling för att förbättra hudens utseende och textur genom användning av syror. Denna metod är särskilt bra för att behandla fläckar från postinflammatorisk hyperpigmentering (PIH). En kemisk lösning appliceras på huden, vilket exfolierar och avlägsnar det yttersta hudlagret. Detta främjar hudens förnyelse och minskar synligheten av både ärr och fläckar.',
             image_small: 'bilder/behandlingar/200x200/kemisk-peeling.webp',
             image_large: 'bilder/behandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av en kemisk peeling mot acneärr',
@@ -141,10 +141,10 @@ $services = array(
             url_title: 'Läs mer om kemisk peeling mot acneärr',
       ),
       new Service(
-            title: 'Microneedling mot acneärr',
+            title: 'Microneedling mot PIH',
             duration: '60 min',
             price: '2595 kr',
-            content: 'Microneedling är en populär behandling av ärr i ansiktet som riktiar sig särskilt till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
+            content: 'Microneedling är en populär behandling för att minska fläckar och postinflammatorisk hyperpigmentering (PIH). Genom att använda små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta bidrar till att jämna ut hudtonen och reducera synligheten av mörka fläckar och pigmentförändringar. Behandlingen resulterar i en klarare och mer enhetlig hud.',
             image_small: 'bilder/behandlingar/200x200/microneedling.webp',
             image_large: 'bilder/behandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av en microneedling-behandling mot acneärr',
