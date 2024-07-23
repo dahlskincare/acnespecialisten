@@ -23,7 +23,7 @@ $image_alt = 'Bild som illustrerar atrofiska ärr på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Atrofiska ärr',
-      description: 'Atrofiska ärr är en form av ärrbildning som ofta lämnar efter sig gropar eller fördjupningar i huden, vilket är en vanlig följd av akne. Denna typ av ärrbildning sker när huden inte lyckas producera tillräckligt med kollagen vid läkningen av ett sår, vilket resulterar i att området sjunker inåt istället för att bilda en jämn yta.',
+      description: 'Atrofiska ärr är en form av ärrbildning som ser ut som gropar eller fördjupningar i huden, vilket är en vanlig följd av akne. Denna typ av ärrbildning sker när huden inte lyckas producera tillräckligt med kollagen vid läkningen från finnar, vilket resulterar i att området sjunker inåt istället för att bilda en jämn yta.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
@@ -45,13 +45,13 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Information om atrofiska ärr';
 
 $description_title = 'Vad är atrofisk ärrbildning?';
-$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar eller acneärr gropar i huden och är ofta resultatet av akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå. Vanliga typer av atrofiska ärr inkluderar isgropsärr (små, djupa hål i huden), boxcar-ärr (bredare, rektangulära fördjupningar) och rolling-ärr (vågliknande fördjupningar i huden). Atrofiska ärr är särskilt vanliga efter svår acne, men kan också uppstå efter vattkoppor, kirurgiska ingrepp eller andra hudtrauman.</p>
-<p class="p200 mt-m">På Acnespecialisten erbjuder vi olika behandlingar för atrofiska ärr, inklusive laser, mikroneedling och kemiska peelingar. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
+$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar och gropar i huden och är ofta resultatet från akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå. Vanliga typer av atrofiska ärr inkluderar isgropsärr (små, djupa stickhål i huden), boxcar-ärr (bredare, boxliknande gropar) och rolling-ärr (vågliknande skålformade fördjupningar). Atrofiska ärr är särskilt vanliga efter inflammerad akne, men kan också uppstå efter t.ex vattkoppor, kirurgiska ingrepp eller andra hudtrauman.</p>
+<p class="p200 mt-m">På Acnespecialisten erbjuder vi främst två olika behandlingsmetoder för atrofiska ärr, laser och mikroneedling. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'På AcneSpecialisten får du personlig hjälp från en erfaren hudterapeut som specialiserar sig på atrofiska ärr. Vi genomför en noggrann analys av dina ärr och tar fram en skräddarsydd behandlingsplan anpassad efter just dina behov och din ärrtyp.',
+            content: 'På AcneSpecialisten får du personlig hjälp från en erfaren hudterapeut med expertis på atrofiska ärr. Vi genomför en noggrann analys av dina ärr och tar fram en skräddarsydd behandlingsplan anpassad efter just dina behov och din ärrtyp.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             url_title: 'Boka din kostnadsfria konsultation för atrofiska ärr'
@@ -78,6 +78,73 @@ $top_articles = array(
       <p class="p200 mt-m">Om denna process avbryts eller är ineffektiv, blir kollagenproduktionen otillräcklig, vilket resulterar i fördjupningar eller gropar i huden. Personer med svår eller långvarig acne är särskilt benägna att utveckla atrofiska ärr, eftersom den omfattande inflammationen kan leda till skador på huden och underliggande vävnad. Genetiska faktorer kan också spela en roll i hur väl huden kan läka och producera kollagen, vilket påverkar risken för att utveckla atrofiska ärr.</p>',
       ),
 );
+
+$headline01 = "01. Identifiera";
+
+$service = new Service(
+      title: 'Acneärr Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Vid ett personligt möte med en specialist inom acneärr utförs en noggrann undersökning av dina ärr. Vi tar före-bilder på de drabbade områdena och diskuterar dina mål och förväntningar. En skräddarsydd behandlingsplan anpassad efter dina individuella behov och ärrets typ rekommenderas.',
+      image_small: 'bilder/behandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/behandlingar/200x200/konsultation.webp',
+      image_alt: 'Bild av en konsultation för acneärrbehandling',
+      image_title: 'Konsultation för acneärrbehandling',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+      consultation_url_label: 'Boka konsultaion',
+      consultation_url_title: 'Klicka för att boka tid för en konsultation för acneärr',
+      booking_url: null,
+      booking_url_label: null,
+      booking_url_title: null,
+      url: '/gratis-hudkonsultation.php',
+      url_label: 'Läs mer om gratis hudkonsultation',
+      url_title: 'Läs mer om gratis hudkonsultation'
+);
+
+$headline02 = "02. Behandla";
+
+$services = array(
+      new Service(
+            title: 'Laser mot atrofika ärr',
+            duration: '90 min',
+            price: '4595 kr',
+            content: 'Laserbehandling är en effektiv metod för att ta bort gropar i ansiktet som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
+            image_small: 'bilder/behandlingar/200x200/laser.webp',
+            image_large: 'bilder/behandlingar/200x200/laser.webp',
+            image_alt: 'Bild av en laserbehandling mot acneärr',
+            image_title: 'Laserbehandling mot acneärr',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laser mot acneärr',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_AcneScars',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot acneärr',
+            url: '/laser-acnearr.php',
+            url_label: 'Läs mer om laser',
+            url_title: 'Läs mer om laser mot acneärr',
+      ),
+
+      new Service(
+            title: 'Microneedling mot atrofiska ärr',
+            duration: '60 min',
+            price: '2595 kr',
+            content: 'Microneedling är en populär behandling av ärr i ansiktet som riktiar sig särskilt till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
+            image_small: 'bilder/behandlingar/200x200/microneedling.webp',
+            image_large: 'bilder/behandlingar/200x200/microneedling.webp',
+            image_alt: 'Bild av en microneedling-behandling mot acneärr',
+            image_title: 'Microneedling mot acneärr',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot acneärr',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en microneedling-behandling mot acneärr',
+            url: '/microneedling-acnearr.php',
+            url_label: 'Läs mer om microneedling',
+            url_title: 'Läs mer om microneedling mot acneärr',
+      ),
+);
+
 
 $results = array(
       new ResultCustomer(
@@ -418,6 +485,22 @@ $brands_url_title = "Se alla varumärken";
                                     ?>
                               </section>
                         <?php } ?>
+
+                          <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
 
                         <section id="results">
                               <?php
