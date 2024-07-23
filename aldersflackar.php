@@ -39,9 +39,9 @@ $green_banner_content = new GreenBannerContent(
                   title: 'Pigmentfläckar'
             ),
             new Link(
-                  label: 'Pigmenteringar',
-                  url: null,
-                  title: 'Pigmenteringar'
+                  label: 'Solfläckar',
+                  url: 'solskadad-hy.php',
+                  title: 'Solfläckar'
             ),
       ]
 );
