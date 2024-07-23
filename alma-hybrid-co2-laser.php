@@ -786,7 +786,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                             <?php } ?>
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
-                            <h2 class="h500"><?php echo $big_types_title; ?></h2>
+                            <h2 class="h500 mt-xxl"><?php echo $big_types_title; ?></h2>
                             <?php if (isset($big_types_description)) { ?>
                                 <p class="p200 mt-xs"><?php echo $big_types_description ?></p>
                             <?php } ?>
