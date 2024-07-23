@@ -53,7 +53,7 @@ $types_title = 'Våra behandlingar';
 $types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar på Östermalm, Södermalm och Sundbyberg.';
 $big_types = array(
     new Service(
-        title: 'Klassisk',
+        title: 'Klassisk Ansiktsbehandling',
         duration: '60 min',
         price: null,
         content: '<p class="p200">Vår klassiska ansiktsbehandling är idealisk för alla, oavsett hudtyp. Den rengör, vårdar och återfuktar huden för att ge den ny lyster. Behandlingsprocessen inleds med rengöring som exfolierar bort döda hudceller. Efter en varsam ångprocess som öppnar porerna, utför vi en lättare porrengöring och brynplockning. Slutligen appliceras en lugnande ansiktsmask och en återfuktande dagkräm, skräddarsydd för just din hud.</p>',
@@ -204,7 +204,7 @@ $big_types = array(
         title: 'Lyx',
         duration: '90 min',
         price: null,
-        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling. Denna omfattande behandling börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en vårdande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En lyxig exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
+        content: '<p class="p200">Unna dig vår mest exklusiva och avkopplande ansiktsbehandling. Denna omfattande behandling börjar med en grundlig djuprengöring av huden, följd av en avslappnande massage för ansikte och dekolletage med en vårdande ansiktsolja som stimulerar cellförnyelsen och förbättrar kollagensyntesen. En effektiv exfoliering med syra förfinar huden och förbättrar dess elasticitet, fasthet och ton. Ögonbrynen och fransarna får också extra omsorg med en professionell färgning och formning som passar ditt ansikte. Behandlingen avslutas med en intensivt återfuktande sheetmask och en avancerad LED-mask som stimulerar blodcirkulationen, främjar hudens naturliga reparationsprocess och verkar anti-inflammatoriskt. Det är en fulländad upplevelse som inte bara förskönar utan också ger djup avslappning.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-lyx.webp',
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-lyx.webp',
         image_alt: 'Ansiktsbehandling Lyx',
