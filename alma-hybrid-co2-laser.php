@@ -17,7 +17,7 @@ $model = new Service(
     title: 'CO2 laser - Fraktionerad laser',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">Alma Hybrid är en fraktionerad CO2 laser med en uniqt patent, som den senaste generation av CO2-laserbehandlingar. Kombinerar effektiviteten av ablativ (bränner på ytan) CO2-laser med mångsidigheten hos icke-ablativ lasrar(Behandlar igenom och under hudytan). Denna innovativa behandling är utformad för att effektivt hantera en rad hudproblem, inklusive acneärr, rynkor, fina linjer och ojämn hudton.</p>',
+    content: '<p class="p200">Alma Hybrid är en fraktionerad CO2 laser med en uniqt patent, som den senaste generation av CO2-laserbehandlingar. Kombinerar effekten av ablativ (bränner på hudytan) CO2-laser med mångsidigheten hos icke-ablativ laser (behandlar igenom och under hudytan). Denna innovativa behandling är utvecklad för att effektivt hantera en olika hudproblem som acneärr, rynkor, fina linjer och ojämn hudton.</p>',
     image_small: 'bilder/varumarken/358x274/alma.webp',
     image_large: 'bilder/varumarken/424x456/alma.webp',
     image_alt: 'Alma Hybrid',
@@ -32,7 +32,7 @@ $model = new Service(
 
 $floating_box = 'Alma Hybrid är den mest avancerade kombinationen av ablativ och icke-ablativ CO2 laser.';
 
-$description_title = 'Vad är fraktionerad CO2 laser i Stockholm?';
+$description_title = 'Vad är en fraktionerad CO2 laser?';
 $description_text = '<p class="p200">Fraktionerad laser är en ny banbrytande teknik inom laserbehandlingar, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade metod erbjuder en omfattande och mångsidig lösning för ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer med mera. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med kortare återhämtningstid.</p>
 <p class="p200 mt-m">Koldioxidlaser arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, (påminner om microneedling) vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en mycket effektiv behandling och även kortare återhämtningstid och perfekta resultat</p>
 <p class="p200 mt-m">Alma Hybrid är känd för sin förmåga att leverera snabba och synliga resultat, vilket gör den till en idealisk lösning för dem som söker en effektiv och tidsbesparande behandling. Dessutom är säkerheten alltid en prioritet, med förbättrade säkerhetsåtgärder som säkerställer en trygg och behaglig upplevelse. Våra skräddarsydda Alma Hybrid-behandlingar på AcneSpecialisten erbjuder en effektiv väg mot en finare, jämnare och mer vital hud.</p>';
