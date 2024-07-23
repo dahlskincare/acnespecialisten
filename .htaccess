@@ -330,3 +330,11 @@ Redirect 301 resultat-micrneedling-acnearr.php /resultat-acnearr.php
 Redirect 301 dermapen-acne.php /microneedling-acne.php
 Redirect 301 dermapen-acnearr.php /microneedling-acnearr.php
 Redirect 301 dermapen-stora-porer.php /microneedling-stora-porer.php
+
+# Enforce https
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Set default 404 page
+ErrorDocument 404 /not-found.php
