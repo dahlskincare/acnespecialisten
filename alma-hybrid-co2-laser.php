@@ -301,7 +301,7 @@ $types = array(
         title: 'CO2 laser mot pigmentfläckar',
         duration: '950 min',
         price: '4595 kr',
-        content: 'Ljusar upp och reducerar pigmentfläckar. Målinriktad energi bryter ner pigmentering för en jämnare hudton.',
+        content: 'Reducerar och tar bort pigmentfläckar. Målinriktad laser bryter ner pigmentering för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
         image_alt: 'Alma Hybrid  mot Pigmentfläckar',
@@ -364,7 +364,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte & Kropp',
         image_title: 'Ansikte & Kropp',
         title: 'Ansikte & kropp',
-        description: '<p class="p200">Vi behandlar flera områden på kroppen.</p>',
+        description: '',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
