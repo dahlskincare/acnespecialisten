@@ -360,7 +360,10 @@ $brands_url_title = "Se alla varumärken";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
+      <?php
+      $floater_small_text = true;
+      include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php');
+      ?>
       <main>
             <section id="header">
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
