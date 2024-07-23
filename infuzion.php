@@ -628,9 +628,7 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-                <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
-                </section>
+                
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
