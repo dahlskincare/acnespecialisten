@@ -295,21 +295,20 @@
                         <div class="h500 l10n">Omdömen</div>
                         <?php
 
-                        $rich_reviews = [new RichReview(
-                              name: 'Gabriella',
-                              body: 'Rekommenderar varmt AcneSpecialisten, Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler. ',
-                              rating: 5,
-                              service_name: 'Aknebehandling',
+                        $rich_reviews = [
+                              new RichReview(
+                                    name: 'Gabriella',
+                                    body: 'Rekommenderar varmt AcneSpecialisten, Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler. ',
+                                    rating: 5,
+                                    service_name: 'Aknebehandling',
 
-                        ),
-
-                        new RichReview(
-                              name: 'Alan',
-                              body: 'Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam, ',
-                              rating: 5,
-                              service_name: 'Treatment for Akne',
-                        ),
-
+                              ),
+                              new RichReview(
+                                    name: 'Alan',
+                                    body: 'Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam, ',
+                                    rating: 5,
+                                    service_name: 'Treatment for Akne',
+                              ),
                         ];
                         $reviews = array(
                               new Review(
@@ -319,7 +318,7 @@
                                     title: 'Rekommenderar varmt AcneSpecialisten',
                                     text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
                                     signature: 'Gabriella',
-                                    link: new Link(label:"", url:"https://se.trustpilot.com/users/667ad10d9a54c79b7fff547c", title:"Bästa i hela Stockholm"),
+                                    link: new Link(label: "", url: "https://se.trustpilot.com/users/667ad10d9a54c79b7fff547c", title: "Bästa i hela Stockholm"),
                               ),
                               new Review(
                                     stars: 5,
