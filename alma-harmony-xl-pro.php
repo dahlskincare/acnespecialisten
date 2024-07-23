@@ -94,7 +94,7 @@ $types = array(
         title: 'Harmony XL Pro mot ärr (skade- och operationsärr)',
         duration: '30 min',
         price: '2995 kr',
-        content: 'Kombinerar ClearLift och iPixel tekniker för att målinrikta och behandla ärrvävnad genom stimulering av ny hudväxt och minskning av ärrvävnadens tjocklek. Denna strategi jämnar ut hudtexturen och minimerar ärr.',
+        content: 'Kombinerar ClearLift och iPixel tekniker för att bränna och skada ärrvävnad genom trigga stimulering av reparation och ny hudväxt vilket minskar ärrvävnaden. Denna strategi minskar ärret och jämnar ut hudtexturen.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
         image_alt: 'Harmony XL Pro mot Ärr (Skade- och Operationsärr)',
