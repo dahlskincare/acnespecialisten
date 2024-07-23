@@ -1,3 +1,13 @@
+RewriteEngine On
+RewriteBase /
+
+# Enforce https
+RewriteCond %{HTTP_HOST} ^acnespecialisten.se [NC]
+RewriteRule ^(.*)$ https://www.acnespecialisten.se/$1 [L,R=301]
+
+# Redirect /book to treatment-booking.minoch.com and capture query parameters
+RewriteRule ^book$ https://treatment-booking.minoch.com [QSA,L,R=307]
+
 Redirect 301 /porig-hy-html /pormaskar.php
 Redirect 301 /produkter.php https://dahlskincare.se/
 Redirect 301 /webshop.aspx https://dahlskincare.se/
@@ -331,10 +341,15 @@ Redirect 301 dermapen-acne.php /microneedling-acne.php
 Redirect 301 dermapen-acnearr.php /microneedling-acnearr.php
 Redirect 301 dermapen-stora-porer.php /microneedling-stora-porer.php
 
-# Enforce https
-RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteCond %{HTTPS} off
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# If not caught by any rule above, rewrite to .php if filename is missing and it ends with “.html”
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*)\.html$ $1.php [R=301,L]
+
+# Enforce trailing slash - required for breadcrumbs
+RewriteEngine On
+RewriteCond %{REQUEST_URI} /+[^\.]+$
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 
 # Set default 404 page
 ErrorDocument 404 /not-found.php
