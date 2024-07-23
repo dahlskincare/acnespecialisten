@@ -51,8 +51,9 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Alma Hybrid signaturbehandlingar';
-$types_description = 'Här hittar du Alma Hybrids signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+$types_title = 'Alma Hybrid Signaturbehandlingar';
+$types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+
 $big_types = array(
     new Service(
         title: 'Hybrid oScar - Ärrbehandling',
@@ -133,7 +134,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'SoftLift - Huduppfräschning (Lunch-time behandling)',
+        title: 'SoftLift - Skin Rejuvenation (Lunch-time Treatment)',
         duration: '60 min',
         price: null,
         content: '<p class="p200">AcneSpecialisten presenterar nu SoftLift, en innovativ huduppfräschande behandling utformad för att ge synliga resultat med minimal återhämtningstid. SoftLift är perfekt för dig som önskar en snabb och effektiv förbättring av din hudton, minskning av fina linjer och rynkor, samt reparation av hudskador inklusive akneärr, allt under en lunchrast.</p>
