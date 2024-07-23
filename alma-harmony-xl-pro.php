@@ -44,7 +44,7 @@ iPixel är en fraktionerad laserbehandling som använder Erbium YAG laser på 29
 <p class="p200 mt-m">Dye-VL: IPL<br />
 Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med en unik färgämneslösning för att selektivt rikta in sig på och behandla ytliga blodkärl, rodnad, rosacea, pigmentfläckar och solskador. Denna mångsidiga behandlingsmetod är skonsam mot huden och erbjuder förbättringar i hudton och textur, vilket gör den idealisk för en omfattande hudförnyelse.</p>
 <p class="p200 mt-m">Q-switchad Nd:YAG-teknik<br />
-Bryter effektivt ner och tar bort tatueringspigment från huden. Denna metod riktar sig selektivt mot bläckpartiklarna, vilket tillåter kroppen att naturligt eliminera dem.</p>
+Bryter effektivt ner och tar bort tatueringspigment (färg) från huden. Denna metod riktar sig selektivt mot "sprängning" av endast bläckpartiklarna, vilket sedan tillåter kroppen att naturligt ta bort färgpigmentet i tatueringen.</p>
 <p class="p200 mt-m">Alma Harmony XL Pro kombinerar dessa innovativa tekniker för att erbjuda en komplett lösning för de mest efterfrågade estetiska behandlingarna. Genom att anpassa behandlingen efter varje patients unika behov säkerställer Alma Harmony XL Pro optimala resultat och maximal patienttillfredsställelse.</p>';
 
 $types_title = 'Hudproblem den behandlar';
@@ -74,7 +74,7 @@ $types = array(
         title: 'Harmony XL Pro mot aktiv acne',
         duration: '60 min',
         price: '2995 kr',
-        content: 'ClearSkin erbjuder en unik kombination av laserenergi och vakuum för att behandla aktiv acne genom att minska talgproduktionen och eliminera acne-bakterier. Denna metods djuprengörande effekt bidrar till klarare hud.',
+        content: 'ClearSkin erbjuder en unik kombination av laser och vakuumsug för att behandla aktiv acne och finnar genom att minska talgproduktionen och döda acne-bakterier. Denna metods djupgående effekt i huden bidrar till friskare aknefri hud.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
         image_alt: 'Harmony XL Pro mot Aktiv Acne',
