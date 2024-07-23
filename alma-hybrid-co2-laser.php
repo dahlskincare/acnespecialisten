@@ -33,7 +33,7 @@ $model = new Service(
 $floating_box = 'Alma Hybrid är den mest avancerade kombinationen av ablativ och icke-ablativ CO2 laser.';
 
 $description_title = 'Vad är en fraktionerad CO2 laser?';
-$description_text = '<p class="p200">Fraktionerad laser är en ny banbrytande teknik inom laserbehandlingar, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade metod erbjuder en omfattande och mångsidig lösning för ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer med mera. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med kortare återhämtningstid.</p>
+$description_text = '<p class="p200">Fraktionerad laser är en ny banbrytande teknik inom laserbehandlingar, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade teknik erbjuder behandling mot ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer med mera. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med kortare återhämtningstid.</p>
 <p class="p200 mt-m">Koldioxidlaser arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, (påminner om microneedling) vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en mycket effektiv behandling och även kortare återhämtningstid och perfekta resultat</p>
 <p class="p200 mt-m">Alma Hybrid är känd för sin förmåga att leverera snabba och synliga resultat, vilket gör den till en idealisk lösning för dem som söker en effektiv och tidsbesparande behandling. Dessutom är säkerheten alltid en prioritet, med förbättrade säkerhetsåtgärder som säkerställer en trygg och behaglig upplevelse. Våra skräddarsydda Alma Hybrid-behandlingar på AcneSpecialisten erbjuder en effektiv väg mot en finare, jämnare och mer vital hud.</p>';
 
@@ -46,7 +46,7 @@ $top_articles = array(
         image_title: 'Hur går fraktionerad CO2 laserbehandling till?',
         content: '<p class="p200">Att genomgå en CO2 laserbehandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla hudproblem. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserbehandlingen. Efter den initiala rengöringen appliceras en bedövningskräm på det område som ska behandlas för att minimera eventuell smärta och obehag under proceduren. Detta steg är viktigt för att säkerställa att du som patient känner dig så bekväm som möjligt under hela behandlingsprocessen.</p>
         <p class="p200 mt-m">När bedövningen har fått verka och området är förberett, börjar själva CO2-laserbehandlingen med Alma Hybrid. Laserstrålen skjuts i små microskopiska, kontrollerade pulser som penetrerar och bränner hål hudens yttre lager. Detta stimulerar hudens naturliga läkningsprocess och främjar nybildning av kollagen och elastin, vilket resulterar i en fastare, jämnare och mer ungdomlig hud.</p>
-        <p class="p200 mt-m">Behandlingen anpassas noggrant efter dina specifika hudbehov. önskemål och problemtyp, och den fraktionerade naturen av lasern gör det möjligt att behandla huden med stor precision utan att skada det omgivande vävnaden. Detta bidrar till en snabbare läkningsprocess och mindre nedtid jämfört med äldre generationer av CO2-lasermaskiner.</p>
+        <p class="p200 mt-m">Behandlingen anpassas noggrant efter dina specifika hudbehov, önskemål och problemtyp, och den fraktionerade naturen av lasern gör det möjligt att behandla huden med stor precision utan att skada det omgivande vävnaden. Detta bidrar till en snabbare läkningsprocess och mindre nedtid jämfört med äldre generationer av CO2-lasermaskiner.</p>
         <p class="p200 mt-m">Som ett avslutande steg i din behandling, använder vi Almas patenterade Trans Epidermal Delivery (TED) ultraljudsteknik. Denna metod använder akustiskt tryck för att möjliggöra införandet potenta serum djupt ner i huden genom de mikrokanaler som skapats av koldioxidlasern. Detta säkerställer att det anpassade serumet effektivt når hudens djupare lager, vilket optimerar återhämtningen och förstärker behandlingens effekter.</p>',
     ),
 );
@@ -55,10 +55,10 @@ $types_title = 'Alma Hybrid signaturbehandlingar';
 $types_description = 'Här hittar du Alma Hybrids signaturbehandlingar som presenterar de 3 egenskaper lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
 $big_types = array(
     new Service(
-        title: 'Hybrid oScar - Behandling av ärr',
+        title: 'Hybrid oScar - Ärrbehandling',
         duration: '90 min',
         price: null,
-        content: '<p class="p200">På AcneSpecialisten erbjuder vi OScar-behandlingen, en specialiserad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, trauma- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
+        content: '<p class="p200">På AcneSpecialisten erbjuder vi Almas Hybrids signaturbehandling OScar, en speciellt utformad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, skade- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
         <p class="p200 mt-m">Behandlingsprocessen för OScar anpassas noggrant för att passa varje unik klient och ärrtyp. Genom att justera penetrationsdjup, koagulationsbredd och densitet kan vi skräddarsy behandlingen för att uppnå bästa möjliga resultat. Denna precisa metod stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket är avgörande för att minska synligheten och djupet av ärrbildningar.</p>
         <p class="p200 mt-m">Efter laserbehandlingen kompletterar vi med Impact-serum för att ytterligare förbättra behandlingens effektivitet. Impact hjälper till att säkerställa att serumet når de djupare hudlagren, vilket bidrar till en förbättrad läkning och förnyelse av huden. OScar-behandlingen är en idealisk lösning för dig som söker en omfattande och effektiv lösning för att dramatiskt minska synligheten av ärr och förbättra hudens övergripande utseende och textur.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/hybrid-oscar.webp',
@@ -94,7 +94,7 @@ $big_types = array(
         )
     ),
     new Service(
-        title: 'HybridLift - Hudresurfacing (Over-the-weekend behandling)',
+        title: 'HybridLift - Skin Resurfacing (Over-the-weekend Treatment)',
         duration: '90 min',
         price: null,
         content: '<p class="p200">På AcneSpecialisten introducerar vi HybridLift, en banbrytande hudresurfacingbehandling som kombinerar ablativa och termiska lasermetoder med avancerad produktleverans för att skapa enastående resultat med minimal återhämtningstid. HybridLift är idealisk för dig som söker en effektiv lösning för att snabbt förbättra hudens utseende över en helg.</p>
