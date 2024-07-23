@@ -4,7 +4,9 @@
             <div id="overlay">
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
                 <div>
-                    <h2 class="h600">
+                    <h2 class="<?php if (isset($floater_small_text) && $floater_small_text == true) {
+                                    echo 'h400';
+                                } else echo 'h600' ?>">
                         <?php
                         if (isset($floating_box_title)) {
                             echo $floating_box_title;
