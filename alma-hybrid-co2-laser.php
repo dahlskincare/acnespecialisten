@@ -50,8 +50,8 @@ $top_articles = array(
     ),
 );
 
-$big_types_title = 'Alma Hybrid Signaturbehandlingar';
-$big_types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+$types_title = 'Alma Hybrid Signaturbehandlingar';
+$types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
 
 $big_types = array(
     new Service(
@@ -629,34 +629,7 @@ $results = array(
 );
 
 $reviews_title = 'Omdömen';
-$reviews = array(
-    new Review(
-        brand: 'Trustpilot',
-        title: 'Supernöjd',
-        text: "Supernöjd med min behandling och med Josefin som behandlare. Har på mindre än 2 månader blivit av med nästan all akne efter att testat nästan allt som går innan. Väldigt glad över min nya fina hy :)",
-        signature: 'Sofia',
-        stars: 5,
-        logo_url: 'images/brands/trustpilot.svg'
 
-    ),
-    new Review(
-        brand: 'Google',
-        title: 'Jag är mycket nöjd..',
-        text: "Jag är mycket nöjd med förbättringarna i min hy tack vare ansiktsbehandlingarna och produkterna. Jag ser stora framsteg och aknen är betydligt mildare",
-        signature: 'Lovisa',
-        stars: 5,
-        logo_url: 'images/brands/google-small.svg'
-
-    ),
-    new Review(
-        brand: 'Bokadirekt',
-        title: 'Rekommenderar varmt!',
-        text: "Det enda som fungerat mot min akne med synliga resultat. Jättetrevlig och kunnig behandlare!",
-        signature: 'Emily',
-        stars: 5,
-        logo_url: 'images/brands/bokadirekt-small.svg'
-    ),
-);
 $reviews_view_more = 'Se alla omdömen';
 
 $faq_title = 'Frågor & Svar';
@@ -786,10 +759,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                             <?php } ?>
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
-                            <h2 class="h500 mt-xxl"><?php echo $big_types_title; ?></h2>
-                            <?php if (isset($big_types_description)) { ?>
-                                <p class="p200 mt-xs"><?php echo $big_types_description ?></p>
-                            <?php } ?>
                             <?php foreach ($big_types as $service) { ?>
                                 <div class="big-type">
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
@@ -855,9 +824,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
-                <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
-                </section>
+                
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
