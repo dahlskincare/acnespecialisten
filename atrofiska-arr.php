@@ -463,6 +463,15 @@ $brands_url_title = "Se alla varumärken";
                               <h2 class="h500"><?php echo $description_title ?></h2>
                               <div class="mt-xl"><?php echo $description_text ?></div>
                         </section>
+
+                               <?php foreach ($top_articles as $id => $article) { ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -478,13 +487,7 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
+                      
 
                           <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
