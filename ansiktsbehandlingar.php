@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Ansiktsbehandling Stockholm | AcneSpecialisten';
-$seo_description = 'Stockholms bästa ansiktsbehandlingar: Östermalm, Södermalm & Sundbyberg. Skräddarsydda behandlingar för alla hudtyper - från återfuktning till lyxbehandlingar.';
+$seo_description = 'Stockholms bästa ansiktsbehandlingar på Östermalm, Södermalm & Sundbyberg. Skräddarsydda behandlingar för alla hudtyper - från återfuktning till lyxbehandlingar.';
 $seo_keywords = 'ansiktsbehandling, ansiktsbehandling stockholm, ansiktsbehandling östermalm, ansiktsbehandling södermalm, ansiktsbehandling sundbyberg, bästa ansiktsbehandling stockholm, bästa ansiktsbehandlning stockholm, ansiktsbehandling man';
 
 $seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.webp';
