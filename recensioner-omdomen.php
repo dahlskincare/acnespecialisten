@@ -22,7 +22,7 @@ $reviews = [
         logo_url: $logo_registry['Trustpilot'],
     ),
     new Review(
-        brand: 'G',
+        brand: 'Google',
         title: 'Super!',
         text: "Super! Proffsigt, kunnigt, snabbt, smidigt! Bra och tydlig information, kan bara varmt rekommendera 👌🏼🙌🏼🙏🏼",
         signature: 'Veronica',
