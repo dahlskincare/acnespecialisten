@@ -4,18 +4,18 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Få Bort Acneärr med Microneedling & Laser | AcneSpecialisten';
 $seo_description = 'Behandla din acneärr hos AcneSpecialisten, 30 års erfarenhet av att ta bort acneärr med microneedling, laser eller kemisk peeling. Boka gratis konsultation →';
-$seo_keywords = 'få bort acneärr, microneedling acne, microneedling akne, akneärr, acneärr, microneedling acneärr';
+$seo_keywords = 'få bort acneärr, microneedling acne, microneedling acne, acneärr, acneärr, microneedling acneärr';
 $seo_image = 'images/treatments/large/acne-scars.jpg';
 
 $model = new Service(
     title: 'Få bort acneärr',
     duration: null,
     price: null,
-    content: '<p class="p200">Här har vi samlat de bästa och mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda fläckar eller djupa gropar i huden, har vi rätt lösning för dig med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som bäst passar din ärrtyp är du välkommen att boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper skräddarsy en personlig behandlingsplan</p>',
+    content: '<p class="p200">Vi har samlat de bästa och mest effektiva metoderna för att ta bort acneärr. Oavsett om du vill få bort röda fläckar eller djupa gropar, erbjuder vi lösningar med microneedling, laser eller kemisk peeling. Är du osäker på vilken behandling som passar din ärrtyp bäst? Boka en kostnadsfri konsultation hos oss på AcneSpecialisten, så skräddarsyr vi en personlig behandlingsplan för dig.</p>',
     image_small: 'images/treatments/small/acne-scars.jpg',
     image_large: 'images/treatments/large/acne-scars.jpg',
-    image_alt: 'Bild som illustrerar akne',
-    image_title: 'Akne',
+    image_alt: 'Bild som illustrerar acne',
+    image_title: 'Acne',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
@@ -31,9 +31,9 @@ $path_segments = array(
 
 $about_title = 'Hur vi behandlar och tar bort acneärr';
 
-$about_content = '<p class="p200">Att behandla och reducera acneärr kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt eliminera acneärr. Med vår kostnadsfria hudkonsultation identifierar vi ärrets djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och reducera acneärr kräver både expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade, skräddarsydda metoder för att effektivt eliminera acneärr. Under vår kostnadsfria hudkonsultation bedömer vi ärrets djup och omfattning för att skapa en anpassad behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vi behandlar och tar bort ärrvävnaden effektivt för att återställa hudens jämna yta. Vi hjälper dig att få bort ärr i ansiktet, på bröstet eller på ryggen Om du också har aktiva akneutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlad akne och finnar kan bidra till ytterligare ärrbildning. Våra hudterapeuter på AcneSpecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
+    <p class="p200 mt-xl">Vi tar bort ärrvävnaden för att återställa hudens jämna yta och hjälper dig att bli av med ärr i ansiktet, på bröstet eller ryggen. Om du har aktiva acneutbrott, rekommenderar vi behandlingar för att förhindra ytterligare ärrbildning. Våra hudterapeuter stödjer dig genom hela processen för att nå önskat resultat.</p>';
 
 $headline01 = "01. Identifiera";
 
@@ -69,7 +69,7 @@ $services = array(
         duration: '90 min',
         price: '4595 kr',
         icons: array(),
-        content: '<p class="p200">Laserbehandling är den främsta strategin för att korrigera atrofiska ärr, vanligen kända som gropar, som är en följd av aktiv akne. Genom att fokusera på djupliggande skikt i huden, bidrar laserbehandlingen inte bara till att minska synligheten av dessa ärr genom att stimulera kollagenproduktionen, utan också genom att främja hudcellsförnyelse. Denna dubbla verkan hjälper till att "fylla ut" groparna och skapar en slätare hudtextur.</p>',
+        content: '<p class="p200">Laserbehandling är den främsta strategin för att korrigera atrofiska ärr, vanligen kända som gropar, som är en följd av aktiv acne. Genom att fokusera på djupliggande skikt i huden, bidrar laserbehandlingen inte bara till att minska synligheten av dessa ärr genom att stimulera kollagenproduktionen, utan också genom att främja hudcellsförnyelse. Denna dubbla verkan hjälper till att "fylla ut" groparna och skapar en slätare hudtextur.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot acneärr',
@@ -91,7 +91,7 @@ $services = array(
         duration: '30 min',
         price: '1295 kr',
         icons: array(),
-        content: '<p class="p200">Kemisk peeling är optimalt för att ta itu med postinflammatorisk hyperpigmentering – de mörka eller rodnade fläckar som ofta kvarstår efter akne. Denna behandling användning av en specialutvecklad syra för att exfoliera och avlägsna de skadade yttersta hudlagren. Detta uppmuntrar ny, felfri hud att växa fram, vilket avsevärt minskar synligheten av dessa missfärgade ärr och leder till en mer enhetlig hudton.</p>',
+        content: '<p class="p200">Kemisk peeling är optimalt för att ta itu med postinflammatorisk hyperpigmentering – de mörka eller rodnade fläckar som ofta kvarstår efter acne. Denna behandling användning av en specialutvecklad syra för att exfoliera och avlägsna de skadade yttersta hudlagren. Detta uppmuntrar ny, felfri hud att växa fram, vilket avsevärt minskar synligheten av dessa missfärgade ärr och leder till en mer enhetlig hudton.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot acneärr',
@@ -113,7 +113,7 @@ $services = array(
         duration: '50 min',
         price: '2595 kr',
         icons: array(),
-        content: '<p class="p200">Microneedling framstår som en mångsidig behandlingsmetod mot akneärr, effektiv för att adressera både postinflammatorisk hyperpigmentering (fläckar) och atrofiska ärr (gropar). Genom att använda fina mikronålar för att skapa små punkteringar i huden, aktiverar microneedling hos Acnespecialisten kroppens egen läkningsprocess och stimulerar en ökad kollagenproduktion. Resultatet är en märkbar minskning av både ärrbildning och hudens texturförbättringar, vilket bidrar till en jämnare och mer enhetlig hudbild.</p>',
+        content: '<p class="p200">Microneedling framstår som en mångsidig behandlingsmetod mot acneärr, effektiv för att adressera både postinflammatorisk hyperpigmentering (fläckar) och atrofiska ärr (gropar). Genom att använda fina mikronålar för att skapa små punkteringar i huden, aktiverar microneedling hos Acnespecialisten kroppens egen läkningsprocess och stimulerar en ökad kollagenproduktion. Resultatet är en märkbar minskning av både ärrbildning och hudens texturförbättringar, vilket bidrar till en jämnare och mer enhetlig hudbild.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot acneärr',
