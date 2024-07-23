@@ -50,8 +50,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Alma Hybrid Signaturbehandlingar';
-$types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
+$big_types_title = 'Alma Hybrid Signaturbehandlingar';
+$big_types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
 
 $big_types = array(
     new Service(
@@ -649,6 +649,10 @@ $specialists_view_more = 'Se alla hudterapeuter';
                             <?php } ?>
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
+                            <h2 class="h500 mt-xxl"><?php echo $big_types_title; ?></h2>
+                            <?php if (isset($big_types_description)) { ?>
+                                <p class="p200 mt-xs"><?php echo $big_types_description ?></p>
+                            <?php } ?>
                             <?php foreach ($big_types as $service) { ?>
                                 <div class="big-type">
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
