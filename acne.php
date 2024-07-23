@@ -45,7 +45,7 @@ $image_title = 'Akne';
 $image_alt = 'Närbild på ett ansikte som har akne';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Akne1',
+      title: 'Akne',
       description: 'Här förklarar vi vad som kännetecknar akne, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av akne, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
