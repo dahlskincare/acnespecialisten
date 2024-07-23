@@ -82,10 +82,10 @@ $top_articles = array(
 $headline01 = "01. Identifiera";
 
 $service = new Service(
-      title: 'Acneärr Konsultation',
+      title: 'Hudkonsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Vid ett personligt möte med en specialist inom acneärr utförs en noggrann undersökning av dina ärr. Vi tar före-bilder på de drabbade områdena och diskuterar dina mål och förväntningar. En skräddarsydd behandlingsplan anpassad efter dina individuella behov och ärrets typ rekommenderas.',
+      content: 'Vid en personlig konsultation med en specialist på atrofiska ärr utförs en noggrann undersökning av dina ärr. Vi tar före-bilder och diskuterar dina mål. En skräddarsydd behandlingsplan rekommenderas baserat på dina individuella behov och ärrtyp.',
       image_small: 'bilder/behandlingar/200x200/konsultation.webp',
       image_large: 'bilder/behandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för acneärrbehandling',
@@ -108,7 +108,7 @@ $services = array(
             title: 'Laser mot atrofika ärr',
             duration: '90 min',
             price: '4595 kr',
-            content: 'Laserbehandling är en effektiv metod för att ta bort gropar i ansiktet som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
+            content: 'Laserbehandling är en effektiv metod för att ta bort acneärr och gropar i ansiktet. Genom att använda koncentrerade ljusstrålar stimulerar behandlingen kollagenproduktionen och avlägsnar skadade hudceller. Detta jämnar ut hudens textur och minskar synligheten av ärr',
             image_small: 'bilder/behandlingar/200x200/laser.webp',
             image_large: 'bilder/behandlingar/200x200/laser.webp',
             image_alt: 'Bild av en laserbehandling mot acneärr',
@@ -128,7 +128,7 @@ $services = array(
             title: 'Microneedling mot atrofiska ärr',
             duration: '60 min',
             price: '2595 kr',
-            content: 'Microneedling är en populär behandling av ärr i ansiktet som riktiar sig särskilt till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
+            content: 'Microneedling är en effektiv behandling för atrofiska ärr i ansiktet. Genom att använda små, fina nålar skapas mikroskador i huden, vilket stimulerar kollagenproduktionen och hudens naturliga läkningsprocess. Detta resulterar i en jämnare hudtextur och minskad synlighet av atrofiska ärr.',
             image_small: 'bilder/behandlingar/200x200/microneedling.webp',
             image_large: 'bilder/behandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av en microneedling-behandling mot acneärr',
