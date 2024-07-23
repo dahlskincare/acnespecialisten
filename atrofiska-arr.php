@@ -46,6 +46,7 @@ $floating_box = 'Information om atrofiska ärr';
 
 $description_title = 'Vad är atrofisk ärrbildning?';
 $description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar och gropar i huden och är ofta resultatet från akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå. Vanliga typer av atrofiska ärr inkluderar isgropsärr (små, djupa stickhål i huden), boxcar-ärr (bredare, boxliknande gropar) och rolling-ärr (vågliknande skålformade fördjupningar). Atrofiska ärr är särskilt vanliga efter inflammerad akne, men kan också uppstå efter t.ex vattkoppor, kirurgiska ingrepp eller andra hudtrauman.</p>
+
 <p class="p200 mt-m">På Acnespecialisten erbjuder vi främst två olika behandlingsmetoder för atrofiska ärr, laser och mikroneedling. Dessa behandlingar är utformade för att stimulera hudens kollagenproduktion och därmed minska ärrvävnadens synlighet. Våra hudterapeuter skräddarsyr varje behandling efter dina specifika behov för att uppnå bästa möjliga resultat och hjälper dig att återställa en jämnare hudtextur och förbättrat utseende.</p>';
 
 $treatment_steps = array(
@@ -128,7 +129,7 @@ $services = array(
             title: 'Microneedling mot atrofiska ärr',
             duration: '60 min',
             price: '2595 kr',
-            content: 'Microneedling är en effektiv behandling för atrofiska ärr i ansiktet. Genom att använda små, fina nålar skapas mikroskador i huden, vilket stimulerar kollagenproduktionen och hudens naturliga läkningsprocess. Detta resulterar i en jämnare hudtextur och minskad synlighet av atrofiska ärr.',
+            content: 'Microneedling är en effektiv behandling för atrofiska ärr. Genom att använda små, fina nålar skapas mikroskador i huden, vilket stimulerar kollagenproduktionen och hudens naturliga läkningsprocess. Detta resulterar i en jämnare hudtextur och minskad synlighet av atrofiska ärr.',
             image_small: 'bilder/behandlingar/200x200/microneedling.webp',
             image_large: 'bilder/behandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av en microneedling-behandling mot acneärr',
