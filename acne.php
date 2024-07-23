@@ -15,6 +15,8 @@ $rich_product = new RichProduct(
       image: 'bilder/hudproblem/424x456/akne.webp',
       description: 'Service/Product description',
       sku: '123456',
+      price: '1234',
+      currency: 'SEK',
 );
 
 $rich_review = new RichReview(

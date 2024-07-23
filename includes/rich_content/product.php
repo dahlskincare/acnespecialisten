@@ -10,6 +10,12 @@
             "brand": {
                 "@type": "Brand",
                 "name": "AcneSpecialisten"
+            },
+            "offers": {
+                "@type": "Offer",
+                "price": "<?php echo $rich_product->price ?>",
+                "priceCurrency": "<?php echo $rich_product->currency ?>",
+                "availability": "https://schema.org/InStock"
             }
         }
     </script>
