@@ -32,7 +32,7 @@ $model = new Service(
 
 $floating_box = 'Alma Hybrid är den mest avancerade kombinationen av ablativ och icke-ablativ CO2 laser.';
 
-$description_title = 'Vad är en fraktionerad CO2 laser?';
+$description_title = 'Vad är fraktionerad CO2 laser?';
 $description_text = '<p class="p200">Fraktionerad laser är en ny banbrytande teknik inom laserbehandlingar, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade teknik erbjuder behandling mot ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer med mera. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med kortare återhämtningstid.</p>
 <p class="p200 mt-m">Koldioxidlaser arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, (påminner om microneedling) vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en mycket effektiv behandling och även kortare återhämtningstid och perfekta resultat</p>';
 
