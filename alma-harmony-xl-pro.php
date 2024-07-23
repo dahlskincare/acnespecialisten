@@ -47,7 +47,7 @@ Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med
 Bryter effektivt ner och tar bort tatueringspigment från huden. Denna metod riktar sig selektivt mot bläckpartiklarna, vilket tillåter kroppen att naturligt eliminera dem.</p>
 <p class="p200 mt-m">Alma Harmony XL Pro kombinerar dessa innovativa tekniker för att erbjuda en komplett lösning för de mest efterfrågade estetiska behandlingarna. Genom att anpassa behandlingen efter varje patients unika behov säkerställer Alma Harmony XL Pro optimala resultat och maximal patienttillfredsställelse.</p>';
 
-$types_title = 'Hudproblem vi behandlar';
+$types_title = 'Hudproblem den behandlar';
 $types_description = '<p class="p200">';
 $types = array(
     new Service(
