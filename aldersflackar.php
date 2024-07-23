@@ -115,7 +115,7 @@ $services = array(
             title: 'IPL-behandling för åldersfläckar',
             duration: '60 min',
             price: '2595 kr',
-            content: 'IPL-behandling använder ljuspulser för att bryta ner melanin i åldersfläckar, vilket gör att de bleknar eller försvinner.',
+            content: 'IPL-behandling använder ljuspulser för att bryta ner melanineti fläckarna, vilket gör att de bleknar och försvinner.',
             image_small: 'images/services/200x200/ipl.webp',
             image_large: 'images/services/200x200/ipl.webp',
             image_alt: 'Bild av en IPL-behandling för åldersfläckar',
@@ -134,7 +134,7 @@ $services = array(
             title: 'Kemisk Peeling för åldersfläckar',
             duration: '30 min',
             price: '1995 kr',
-            content: 'Kemisk peeling är en beprövad metod som förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket hjälper till att reducera åldersfläckar och förbättra hudens allmänna utseende.',
+            content: 'Kemisk peeling förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket reducerar fläckarna och förbättrar hudens utseende.',
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av en kemisk peeling för åldersfläckar',
@@ -153,7 +153,7 @@ $services = array(
             title: 'Laserbehandling mot åldersfläckar',
             duration: '90 min',
             price: '4595 kr',
-            content: 'Laserbehandling mot åldersfläckar och ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av åldersfläckar och förbättra hudens jämnhet.',
+            content: 'Laser mot åldersfläckar och ojämn pigmentering använder precisa ljusstrålar för att bryta ned den överdrivna pigmenteringen i huden.',
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av en laserbehandling mot åldersfläckar',
@@ -173,7 +173,7 @@ $services = array(
             title: 'Microneedling för åldersfläckar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Microneedling är en avancerad teknik som används för att behandla och förbättra hudens utseende, särskilt när det gäller åldersfläckar.',
+            content: 'Denna process hjälper till att bryta ner hyperpigmentering och främjar cellförnyelse, vilket resulterar i en jämnare hudton och minskad synlighet av åldersfläckar.',
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av en microneedling-behandling för åldersfläckar',
@@ -506,10 +506,20 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
+
                         <section id="about">
                               <h2 class="h500"><?php echo $description_title ?></h2>
                               <div class="mt-xl"><?php echo $description_text ?></div>
                         </section>
+
+                          <?php foreach ($top_articles as $id => $article) { ?>
+                              <section id="<?php echo $id ?>">
+                                    <?php
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
+                                    ?>
+                              </section>
+                        <?php } ?>
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -520,18 +530,11 @@ $brands_url_title = "Se alla varumärken";
                                           echo '</div>';
                                     } ?>
                               </div>
+
                               <hr class="mt-xl3 is-hidden-mobile">
                               <?php echo $treatment_link ?>
 
                         </section>
-
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
 
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
