@@ -206,7 +206,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
             image_title: 'Fördelarna med att välja AcneSpecialisten för åldersfläcksbehandling',
-            content: '<p class="p200">AcneSpecialisten har lång erfarenhet av åldersfläcksbehandling. Tack vare vår gedigna erfarenhet och tillgång till de senaste metoderna, erbjuder vi personligt anpassade behandlingar för varje klient. Vårt mål sträcker sig bortom att bara behandla åldrandets synliga effekter; vi siktar också på att förebygga framtida hudproblem.</p>
+            content: '<p class="p200">AcneSpecialisten har lång erfarenhet av åldersfläcksbehandling. Tack vare vår expertis och tillgång till de bästa metoderna, erbjuder vi personligt anpassade behandlingar för varje klient. Vårt mål sträcker sig längre än att bara behandla åldrandets synliga effekter; vi siktar också på att förebygga framtida hudproblem.</p>
                   <p class="p200 mt-m">Vi tillämpar behandlingar som är grundade på en omfattande förståelse för hudens unika behov och använder oss av avancerade tekniker och förstklassiga produkter. Detta säkerställer optimala resultat för dig som kund. Med individuellt anpassade behandlingsplaner och ett engagerat förhållningssätt ser vi till att våra kunder når sina önskade hudvårdsresultat.</p>',
       ),
 );
