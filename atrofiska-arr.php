@@ -47,9 +47,9 @@ $floating_box = 'Information om atrofiska ärr';
 $description_title = 'Vad är atrofisk ärrbildning?';
 $description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar och gropar i huden och är ofta resultatet från akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå. Vanliga typer av atrofiska ärr inkluderar:</p>
 
-<ul><li>"Ice Pick" ärr - små, djupa stickhål i huden</li>
-<li>Boxcar-ärr - Fyrkantiga, breda, boxliknande gropar </li>
-<li>rolling-ärr - vågliknande skålformade fördjupningar</li></ul>
+<ul><li>Ice Pick ärr - Små, smala djupa stickhål i huden</li>
+<li>Boxcar ärr - Fyrkantiga, breda, boxliknande gropar </li>
+<li>rolling ärr - vågliknande skålformade fördjupningar</li></ul>
 
 <p class="p200 mt-m">Atrofiska ärr är särskilt vanliga efter inflammerad akne, men kan också uppstå efter t.ex vattkoppor, kirurgiska ingrepp eller andra hudtrauman.</p>
 
