@@ -22,10 +22,10 @@ $reviews = [
         logo_url: $logo_registry['Trustpilot'],
     ),
     new Review(
-        brand: 'Veronica',
+        brand: 'G',
         title: 'Super!',
         text: "Super! Proffsigt, kunnigt, snabbt, smidigt! Bra och tydlig information, kan bara varmt rekommendera 👌🏼🙌🏼🙏🏼",
-        signature: 'Lovisa',
+        signature: 'Veronica',
         stars: 5,
         logo_url: $logo_registry['Google'],
     ),
@@ -38,10 +38,6 @@ $reviews = [
         logo_url: $logo_registry['Bokadirekt'],
     ),
 ];
-
-
-
-
 
 ?>
 <!DOCTYPE html>
