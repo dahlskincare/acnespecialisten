@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Alma Harmony XL Pro',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">Alma Harmony XL Pro är en avancerad multi laser plattform som kombinerar flera tekniker för att adressera en mängd hudtillstånd. Den erbjuder anpassningsbara behandlingar för ärrbildning, hudföryngring, pigmentkorrigering, acnebehandling och mer, med minimal återhämtningstid.</p>',
+    content: '<p class="p200">Alma Harmony XL Pro är en avancerad multi laser plattform som kombinerar flera tekniker för att adressera en mängd hudtillstånd. Den erbjuder anpassningsbara behandlingar för ärrbildning, hudföryngring, pigmentkorrigering, acnebehandling och mer, med minimal till måttlig återhämtningstid.</p>',
     image_small: 'bilder/varumarken/358x274/harmony-xl-pro.webp',
     image_large: 'bilder/varumarken/424x456/harmony-xl-pro.webp',
     image_alt: 'Alma Harmony XL Pro',
@@ -34,13 +34,13 @@ $model = new Service(
 $floating_box = 'Alma Harmony XL Pro är det senaste inom modern laserteknik.';
 
 $description_title = 'Vad är Harmony XL Pro?';
-$description_text = '<p class="p200">Alma Harmony XL Pro är en banbrytande plattform för estetiska behandlingar som integrerar en rad avancerade tekniker för att möta en mängd hudvårdsbehov. Denna plattform använder specifika teknologier för att erbjuda skräddarsydda lösningar för hudföryngring laser, korrigering av huddefekter, och förbättring av hudens övergripande kvalitet. Här följer en översikt över några av de nyckeltekniker som Alma Harmony XL Pro erbjuder:</p>
+$description_text = '<p class="p200">Alma Harmony XL Pro är en banbrytande plattform för estetiska behandlingar som integrerar en rad avancerade tekniker för att möta en mängd hudvårdsbehov. Denna plattform använder specifika teknologier för att erbjuda skräddarsydda lösningar för hudföryngring, hudproblem, och förbättring av hudens övergripande kvalitet. Här följer en översikt över några av de nyckeltekniker som Alma Harmony XL Pro erbjuder:</p>
 <p class="p200 mt-m">Clear Lift - Q-switchad Nd:YAG<br />
-Clear Lift använder Q-switchad Nd:YAG-laserteknik, känd för sin förmåga att behandla en rad hudtillstånd utan att skada hudens yttre lager. Denna teknik är idealisk för hudföryngring, minskning av fina linjer och rynkor, samt ljusning av pigmentfläckar. Den erbjuder en säker och effektiv behandling för alla hudtyper, inklusive mörkare hudtoner, med minimal återhämtningstid.</p>
+Clear Lift använder Q-switchad Nd:YAG-laserteknik, känd för sin förmåga att behandla en rad hudtillstånd utan att skada hudens yttre lager. Denna teknik är idealisk för hudföryngring, minskning av fina linjer och rynkor, samt borttagning av pigmentfläckar. Den erbjuder en säker och effektiv behandling för alla hudtyper, inklusive mörkare hudtoner, med minimal återhämtningstid.</p>
 <p class="p200 mt-m">Clear Skin - Erbium Glass 1540<br />
-Clear Skin-tekniken använder Erbium Glass-laser på 1540nm för att effektivt behandla acne, acneärr, och andra texturrelaterade hudproblem. Denna icke-ablativa medicinsk laser tränger djupt in i huden för att stimulera kollagenproduktion och hudförnyelse, vilket resulterar i en klarare och jämnare hudton. Behandlingen är skonsam och lämpar sig väl för känsliga hudområden.</p>
+Clear Skin-tekniken använder Erbium Glass-laser på 1540nm för att effektivt behandla Aktiv akne, acneärr, och andra texturrelaterade hudproblem. Denna icke-ablativa medicinsk laser tränger djupt in i huden för att stimulera kollagenproduktion och hudförnyelse, vilket resulterar i en friskare, klarare och jämnare hud.</p>
 <p class="p200 mt-m">iPixel - Erbium YAG: 2940<br />
-iPixel är en fraktionerad laserbehandling som använder Erbium YAG laser på 2940nm för att utföra precisionsskinnande av huden. Denna metod är effektiv för att minska ärr, förbättra hudtextur, och strama åt huden genom att stimulera intensiv hudregeneration. Den erbjuder snabba resultat med kort återhämtningstid och är lämplig för de som vill ha märkbara förbättringar med minimala ingrepp.</p>
+iPixel är en fraktionerad laserbehandling som använder Erbium YAG laser på 2940nm för hudföryngring och reparation av huden. Denna metod är effektiv för att minska ärr, reducera ålderstecken, förbättra hudtextur, och strama åt huden genom att stimulera intensiv skin rejuvenation. Den erbjuder snabba resultat med måttlig återhämtningstid och är lämplig för de som vill ha märkbara förbättringar med minimala ingrepp.</p>
 <p class="p200 mt-m">Dye-VL: IPL<br />
 Dye-VL-tekniken utnyttjar kraften i Intensivt Pulserat Ljus (IPL) kombinerat med en unik färgämneslösning för att selektivt rikta in sig på och behandla vaskulära lesioner, rodnad, pigmentfläckar och solskador. Denna mångsidiga behandlingsmetod är skonsam mot huden och erbjuder förbättringar i hudton och textur, vilket gör den idealisk för en omfattande hudförnyelse.</p>
 <p class="p200 mt-m">Q-switchad Nd:YAG-teknik<br />
