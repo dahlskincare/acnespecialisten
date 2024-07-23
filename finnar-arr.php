@@ -483,32 +483,6 @@ $results_url_label = "Se fler resultat";
 $results_url_title = "se flera behandlingsresultat från akneärr";
 
 
-$reviews = array(
-      new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'En behandling som fungerar!',
-            text: "Var osäker först, men kliniken förklarade allt tydligt och resultatet blev bättre än förväntat. Tack för ert professionella bemötande!",
-            signature: 'Erik'
-      ),
-      new Review(
-            stars: 5,
-            brand: 'Google',
-            logo_url: 'images/brands/google-small.svg',
-            title: 'Äntligen ett resultat jag kan se!',
-            text: "Har testat olika behandlingar utan framgång sen hitta jag AcneSpecialisten. Nu känner jag mig som en ny person. Mycket nöjd med resultatet och personalen!",
-            signature: 'Anna'
-      ),
-      new Review(
-            stars: 5,
-            brand: 'Bokadirekt',
-            logo_url: 'images/brands/bokadirekt-small.svg',
-            title: 'Proffsigt och effektivt!',
-            text: "Endast gjort 2 behandlingar men det har redan gett mig hopp, Jag känner mig trygg med deras kunskap och har redan sett fantastiska förbättringar. En klinik jag verkligen rekommenderar.",
-            signature: 'Jonas'
-      ),
-);
 
 $faq_categories = array(
       'Allt du behöver veta om ärr av finnar' => array(

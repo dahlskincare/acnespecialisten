@@ -885,33 +885,6 @@ $results_url_label = "Se fler resultat";
 $results_url_title = "se flera behandlingsresultat av finnar";
 
 
-$reviews = array(
-      new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Mycket nöjd',
-            text: "Nu har vår dotter 13 år gått på två behandlingar och använt produkterna i 2 1/2 mån och hon är mycket bättre i hyn och finnar och pormaskar under kontroll. Vi är jätte nöjda!",
-            signature: 'Cecilia'
-      ),
-      new Review(
-            stars: 5,
-            brand: 'Trustpilot',
-            logo_url: 'images/brands/trustpilot.svg',
-            title: 'Hade fått finnar som aldrig förr och…',
-            text: "Hade fått finnar som aldrig förr och trodde aldrig att de skulle försvinna, nu är till och med de märken som suttit kvar efter de första finnarna jag fick när jag kanske var 15 (är 20 nu) knappast synliga 😍",
-            signature: 'Adriana'
-      ),
-      new Review(
-            stars: 5,
-            brand: 'Google',
-            logo_url: 'images/brands/google-small.svg',
-            title: 'Bra resultat',
-            text: "Har sett så bra resultat! Har haft problem med huden ganska länge, men nu har huden verkligen glänst och så mycket mindre finnar!",
-            signature: 'Karin'
-      ),
-
-);
 
 $faq_categories = array(
       'Generellt om finnar' => array(
