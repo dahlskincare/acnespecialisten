@@ -1,18 +1,22 @@
 <?php
 class RichProduct
 {
-    public function __construct($name, $image, $description, $sku)
+    public function __construct($name, $image, $description, $sku, $price, $currency = 'SEK')
     {
         $this->name = $name;
         $this->image = $image;
         $this->description = $description;
         $this->sku = $sku;
+        $this->price = $price;
+        $this->currency = $currency;
     }
 
     public string $name;
     public string $image;
     public string $description;
     public string $sku;
+    public string $price;
+    public string $currency;
 }
 
 

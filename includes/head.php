@@ -20,7 +20,7 @@ function icon($name)
 <link rel="stylesheet" href="/includes/widgets/widgets.css" />
 
 <?php
-// These are only included if the corresponding variables are set ($rich_product, $rich_review, $rich_article)
+// These are only included if the corresponding variables are set ($rich_product, $rich_reviews, $rich_article)
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/product.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/review.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/article.php');
