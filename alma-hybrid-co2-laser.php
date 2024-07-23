@@ -17,7 +17,7 @@ $model = new Service(
     title: 'CO2 laser - Fraktionerad laser',
     duration: null,
     price: 'Från 4595 kr',
-    content: '<p class="p200">Alma Hybrid är en avancerad fraktionerad CO2-laser med ett unikt patent, som representerar den senaste generationen av CO2-laserbehandlingar. Den kombinerar effekten av ablativ CO2-laser, som bränner på hudytan, med mångsidigheten hos icke-ablativ laser, som behandlar genom och under hudytan. Denna innovativa behandling är utvecklad för att effektivt hantera en rad hudproblem, inklusive akneärr, rynkor, fina linjer och ojämn hudton, vilket ger en omfattande lösning för förbättrad hudhälsa och utseende.</p>',
+    content: '<p class="p200">Alma Hybrid är en avancerad fraktionerad CO2-laser med ett unikt patent. Den kombinerar ablativ CO2-laser, som bränner hudytan, med icke-ablativ laser, som behandlar under huden. Denna innovativa behandling hanterar effektivt hudproblem som akneärr, rynkor, fina linjer och ojämn hudton, och ger en omfattande lösning för förbättrad hudhälsa och utseende.</p>',
     image_small: 'bilder/varumarken/358x274/alma.webp',
     image_large: 'bilder/varumarken/424x456/alma.webp',
     image_alt: 'Alma Hybrid',
@@ -34,8 +34,7 @@ $floating_box = 'Alma Hybrid är den mest avancerade kombinationen av ablativ oc
 
 $description_title = 'Vad är en fraktionerad CO2 laser?';
 $description_text = '<p class="p200">Fraktionerad laser är en ny banbrytande teknik inom laserbehandlingar, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade teknik erbjuder behandling mot ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer med mera. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med kortare återhämtningstid.</p>
-<p class="p200 mt-m">Koldioxidlaser arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, (påminner om microneedling) vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en mycket effektiv behandling och även kortare återhämtningstid och perfekta resultat</p>
-<p class="p200 mt-m">Alma Hybrid är känd för sin förmåga att leverera snabba och synliga resultat, vilket gör den till en idealisk lösning för dem som söker en effektiv och tidsbesparande behandling. Dessutom är säkerheten alltid en prioritet, med förbättrade säkerhetsåtgärder som säkerställer en trygg och behaglig upplevelse. Våra skräddarsydda Alma Hybrid-behandlingar på AcneSpecialisten erbjuder en effektiv väg mot en finare, jämnare och mer vital hud.</p>';
+<p class="p200 mt-m">Koldioxidlaser arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, (påminner om microneedling) vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en mycket effektiv behandling och även kortare återhämtningstid och perfekta resultat</p>';
 
 $top_articles = array(
     'process' => new Article(
@@ -43,7 +42,7 @@ $top_articles = array(
         image_small: '/bilder/process/358x272/alma-hybrid-process.webp',
         image_large: '/bilder/process/872x456/alma-hybrid-process.webp',
         image_alt: 'Hur går fraktionerad CO2 laserbehandling till?',
-        image_title: 'Hur går fraktionerad CO2 laserbehandling till?',
+        image_title: 'Hur går en fraktionerad CO2 behandling till?',
         content: '<p class="p200">Att genomgå en CO2 laserbehandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla hudproblem. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserbehandlingen. Efter den initiala rengöringen appliceras en bedövningskräm på det område som ska behandlas för att minimera eventuell smärta och obehag under proceduren. Detta steg är viktigt för att säkerställa att du som patient känner dig så bekväm som möjligt under hela behandlingsprocessen.</p>
         <p class="p200 mt-m">När bedövningen har fått verka och området är förberett, börjar själva CO2-laserbehandlingen med Alma Hybrid. Laserstrålen skjuts i små microskopiska, kontrollerade pulser som penetrerar och bränner hål hudens yttre lager. Detta stimulerar hudens naturliga läkningsprocess och främjar nybildning av kollagen och elastin, vilket resulterar i en fastare, jämnare och mer ungdomlig hud.</p>
         <p class="p200 mt-m">Behandlingen anpassas noggrant efter dina specifika hudbehov, önskemål och problemtyp, och den fraktionerade naturen av lasern gör det möjligt att behandla huden med stor precision utan att skada det omgivande vävnaden. Detta bidrar till en snabbare läkningsprocess och mindre nedtid jämfört med äldre generationer av CO2-lasermaskiner.</p>
