@@ -152,13 +152,13 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
-                savings: 'spara 790 kr',
+                savings: '1331 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '5995 kr',
-                savings: 'spara 1980 kr',
+                savings: '1199 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5'
             )
         )
@@ -189,13 +189,13 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
-                savings: 'spara 790 kr',
+                savings: '1331 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '5995 kr',
-                savings: 'spara 1980 kr',
+                savings: '1199 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_5'
             )
         )
@@ -226,13 +226,13 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '4995 kr',
-                savings: 'spara 990 kr',
+                savings: '1165 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '7995 kr',
-                savings: 'spara 1980 kr',
+                savings: '1599 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_5'
             )
         )
@@ -266,13 +266,13 @@ $big_types = array(
             new Procedure(
                 label: '3 porrengöringar',
                 price: '3495 kr',
-                savings: '1165 kr per besök',
+                savings: '1165 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_3'
             ),
             new Procedure(
                 label: '5 porrengöringar',
                 price: '4995 kr',
-                savings: '999 kr per besök',
+                savings: '999 kr per behandling',
                 booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_5'
             )
         )
