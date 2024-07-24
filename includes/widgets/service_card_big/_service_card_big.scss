@@ -198,6 +198,7 @@
                     align-items: center;
                     justify-content: space-between;
                     padding: $m 0;
+                    border-top: 1px dashed $light-400;
 
                     .procedure-label {
                         @include p200;
@@ -212,7 +213,10 @@
                     .price {
                         @include h200;
                     }
+                }
 
+                .procedure:last-child {
+                    border-bottom: 1px dashed $light-400;
                 }
             }
         }
