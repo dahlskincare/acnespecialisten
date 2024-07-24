@@ -31,9 +31,9 @@ $path_segments = array(
 
 $about_title = 'Hur vi reducerar och tar bort pigmentfläckar';
 
-$about_content = '<p class="p200">Att behandla och reducera pigmentfläckar är en process som kräver noggrannhet. På Acnespecialisten använder vi vår expertis och de mest effektiva metoderna för att framgångsrikt behandla och minska pigmentfläckar. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en individuell behandlingsplan som passar just dig.</p>
+$about_content = '<p class="p200">Att behandla pigmentfläckar kräver noggrannhet och expertis. Vi använder de mest effektiva metoderna för att framgångsrikt reducera pigmentfläckar. Vid vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapar en skräddarsydd behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Med vår kostnadsfria hudkonsultation bestämmer vi den bästa åtgärden för att behandla dina specifika pigmentfläckar. Oavsett om det handlar om en enstaka fläck eller ett mer omfattande område, är vårt huvudsyfte att återge din hud dess naturliga, jämnare utseende. Genom varje steg i processen, från den inledande konsultationen till att uppnå det önskade resultatet, är vårt dedikerade team på AcneSpecialisten här för att stödja dig.</p>';
+    <p class="p200 mt-xl">Under konsultationen bestämmer vi den bästa åtgärden för att behandla dina specifika pigmentfläckar, vare sig det är en enstaka fläck eller ett större område. Vårt mål är att återge din hud dess naturliga, jämnare utseende. Genom hela processen, från konsultation till resultat, är vårt dedikerade team här för att stödja dig.</p>';
 
 $headline01 = "01. Identifiera";
 
