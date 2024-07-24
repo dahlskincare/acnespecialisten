@@ -368,6 +368,35 @@ $all_brands = array(
     <meta property="twitter:description" content="<?php echo $seo_description ?>" />
     <meta property="twitter:image" content="<?php echo $seo_image ?>" />
 
+    <script type="application/ld+json">
+{
+  "@context" : "https://schema.org",
+  "@type" : "Product",
+    "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.7",
+    "reviewCount": "27"
+  },
+  "name" : "Ansiktsbehandling mot Akne",
+  "image" : "https://acnespecialisten-staging.minoch.com/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp",
+  "description" : "Våra ansiktsbehandlingar ger dig en renare och friskare hud. Redan efter första gången kommer du att märka skillnad och vi anpassar ansiktsbehandlingen alltid efter just din hudtyp.",
+  "brand" : {
+    "@type" : "Brand",
+    "name" : "AcneSpecialisten",
+    "logo" : "https://acnespecialisten-staging.minoch.com/images/logo-green.svg"
+  },
+  "offers" : {
+    "@type" : "Offer",
+    "price" : "1295",
+        "availability" : "InStock",
+        "priceCurrency" : "SEK",
+        "priceValidUntil" : "2024-12-31",
+        "url" : "https://acnespecialisten-staging.minoch.com/hudbehandlingar/ansiktsbehandling/akne/"
+  }
+
+}
+</script>
+
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
