@@ -68,7 +68,7 @@ $services = array(
         title: 'Effektiv laserbehandling mot ärr från finnar',
         duration: '30-60 min',
         price: '1295 kr',
-        content: '<p class="p200">Hos Acnespecialisten använder vi laserbehandling för att effektivt reducera synligheten av ärr från finnar. Genom att utnyttja ljusenergi tränger laserstrålen djupt ner i huden och behandlar de lager där ärrbildningen sitter. Denna process stimulerar produktionen av kollagen och förnyelsen av hudceller, vilket bidrar till att jämna ut hudens struktur och minska ärrens framträdande. Laserbehandlingen är en precis och kraftfull metod som förbättrar hudens utseende och främjar en friskare hy.</p>',
+        content: '<p class="p200">Laserbehandling är en effektiv metod för att reducera synligheten av ärr från finnar. Laserstrålen tränger djupt ner i huden och skapar mikroskopiska kanaler, vilket stimulerar hudens naturliga kollagenproduktion och cellförnyelse. Denna process hjälper till att fylla ut gropar och jämna ut hudens textur. Dessutom minskar den missfärgningar och fläckar genom att bryta ner pigmenterade celler. Laserbehandlingen är precis och kraftfull, vilket resulterar i en jämnare hud och en friskare hy.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot ärr från finnar',
