@@ -79,7 +79,7 @@ $treatment_areas = array(
                 image_title: 'Ansiktsbehandling mot akne i ansiktet',
                 title: 'Ansikte',
                 duration: '60 min',
-                price: '995 kr',
+                price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling mot akne'
@@ -90,7 +90,7 @@ $treatment_areas = array(
                 image_title: 'Behandling mot akne på bröstet',
                 title: 'Bröst',
                 duration: '60 min',
-                price: '995 kr',
+                price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling mot akne på bröstet'
@@ -101,7 +101,7 @@ $treatment_areas = array(
                 image_title: 'Behandling mot akne på ryggen',
                 title: 'Rygg',
                 duration: '60 min',
-                price: '995 kr',
+                price: '1295 kr',
                 url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne&area=Facial_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling mot akne på ryggen'
