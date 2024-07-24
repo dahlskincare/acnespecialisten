@@ -392,7 +392,32 @@ $all_brands = array(
         "priceCurrency" : "SEK",
         "priceValidUntil" : "2024-12-31",
         "url" : "https://acnespecialisten-staging.minoch.com/hudbehandlingar/ansiktsbehandling/akne/"
-  }
+  },
+
+  "review": [{
+        "@type": "Review",
+        "datePublished": "2024-07-24",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "John Doe"
+        }
+       },
+      {
+        "@type": "Review",
+        "datePublished": "2024-07-24",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "1"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Jane Doe"
+        }
+      }],
 
 }
 </script>
