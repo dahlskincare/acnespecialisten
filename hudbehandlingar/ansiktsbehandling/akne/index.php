@@ -388,7 +388,6 @@ $all_brands = array(
   "offers" : {
     "@type" : "Offer",
     "price" : "1295",
-        "availability" : "InStock",
         "priceCurrency" : "SEK",
         "priceValidUntil" : "2024-12-31",
         "url" : "https://acnespecialisten-staging.minoch.com/hudbehandlingar/ansiktsbehandling/akne/"
@@ -417,7 +416,7 @@ $all_brands = array(
           "@type": "Person",
           "name": "Jane Doe"
         }
-      }],
+      }]
 
 }
 </script>

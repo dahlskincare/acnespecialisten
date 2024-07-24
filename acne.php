@@ -19,12 +19,6 @@ $rich_product = new RichProduct(
       currency: 'SEK',
 );
 
-$rich_review = new RichReview(
-      name: 'John Doe',
-      body: 'World class service!',
-      rating: 5,
-      service_name: 'Treatment for Akne',
-);
 
 $rich_article = new RichArticle(
       headline: 'Vad är akne?',
