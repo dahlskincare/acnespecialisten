@@ -40,7 +40,7 @@ $headline01 = "01. Identifiera";
 $define_image_alt = 'Hur vi behandlar och tar bort ärr från finnar?';
 $define_image_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 
-$define_content = '<p class="p200">DDet första steget i vår process för att behandla ärr från finnar är att kartlägga och analysera dina ärrs omfattning och djup. Vi börjar med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina mål samt eventuella tidigare behandlingar. Vi tar före-bilder för att följa din huds framsteg och justerar behandlingsplanen vid behov. En personlig hudterapeut följer dig genom hela processen, vilket säkerställer att du får konsekvent och anpassad behandling utifrån dina behov och önskemål.</p>';
+$define_content = '<p class="p200">Det första steget i vår process för att behandla ärr från finnar är att kartlägga och analysera dina ärrs omfattning och djup. Vi börjar med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina mål samt eventuella tidigare behandlingar. Vi tar före-bilder för att följa din huds framsteg och justerar behandlingsplanen vid behov. En personlig hudterapeut följer dig genom hela processen, vilket säkerställer att du får konsekvent och anpassad behandling utifrån dina behov och önskemål.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka gratis konsultation";
@@ -51,7 +51,7 @@ $headline02 = "02. Behandla";
 $treat_image_small = 'https://via.placeholder.com/358x274.jpg';
 $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina ärr, går vi vidare till behandlingsfasen. Målet här är att minska synligheten och förbättra strukturen på dessa ärr. Beroende på ärrtyp och djup, använder vi olika metoder för att säkerställa effektiv behandling. Denna process stimulerar hudens naturliga regenerering, ökar kollagenproduktionen och förbättrar hudens struktur och ton. Vi anpassar kontinuerligt behandlingsplanen baserat på hur din hud svarar, med målet att uppnå bästa möjliga resultat och få bort ärren.</p>';
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina ärr, går vi vidare till behandlingsfasen. Målet här är att minska synligheten av ärr och förbättra hudens struktur, oavsett om det rör sig om fläckar eller gropar. Beroende på ärrtyp och djup, använder vi olika metoder för att säkerställa effektiv behandling. Denna process stimulerar hudens naturliga regenerering, ökar kollagenproduktionen och förbättrar hudens struktur och ton. Vi anpassar kontinuerligt behandlingsplanen baserat på hur din hud svarar, med målet att uppnå bästa möjliga resultat och få bort ärren.</p>';
 
 $treat_url = 'gratis-hudkonsultation.php';
 $treat_url_label = 'Se behandlingar för ärr från finnar';
