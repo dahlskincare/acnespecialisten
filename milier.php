@@ -773,12 +773,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
-                        <section id="results">
-                              <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
-                              ?>
-                        </section>
+
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
                               <?php
