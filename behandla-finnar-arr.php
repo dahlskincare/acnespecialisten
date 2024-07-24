@@ -11,7 +11,7 @@ $model = new Service(
     title: 'Behandling av Ärr från Finnar',
     duration: null,
     price: 'Från 1595 kr',
-    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av ärr från finnar som hjälper dig att effektivt hantera dessa märken. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">ärrehandling</a> som bäst passar din hudtyp för att ta hand om ärr orsakade av finnar? Oroa dig inte, boka en kostnadsfri konsultation hos oss på AcneSpecialisten så hjälper vi dig vidare mot en hy fri från märken orsakade av finnar.</p>',
+    content: '<p class="p200">Vi har samlat de mest effektiva behandlingarna för att minska ärr från finnar. Oavsett dina specifika behov, har vi den rätta behandlingen för dig. Om du är osäker på vilken behandling som bäst passar din hudtyp och hjälper till att ta bort ärr från finnar, boka en kostnadsfri konsultation hos oss på AcneSpecialisten. Vi hjälper dig mot en klarare hy, fri från ärr.</p>',
     image_small: 'images/treatments/small/acne-scars.jpg',
     image_large: 'images/treatments/large/acne-scars.jpg',
     image_alt: 'Bild som illustrerar ärr från finnar',
@@ -31,16 +31,16 @@ $path_segments = array(
 
 $about_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 
-$about_content = '<p class="p200">Att behandla och minska synligheten av ärr från finnar kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt hantera dessa ärr. Med vår kostnadsfria hudkonsultation identifierar vi ärrskadans djup och omfattning, vilket möjliggör en personligt anpassad behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och minska synligheten av ärr från finnar kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt minska dessa ärr. Med vår kostnadsfria hudkonsultation identifierar vi ärrens djup och omfattning för att skapa en personligt anpassad behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vår första prioritet är att effektivt behandla och reducera ärrvävnaden för att återställa hudens jämna yta. Efter att vi har behandlat de direkta ärrvävnaderna hjälper vi dig med en anpassad hudvårdsrutin som kan bidra till att förbättra hudens textur och elasticitet över tid. Om du också har aktiva finnutbrott, kommer vi att rekommendera lösningar för att hantera dessa, eftersom obehandlade finnar kan bidra till ytterligare ärrbildning. Vårt team på Acnespecialisten är dedikerade till att stödja dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
+    <p class="p200 mt-xl">Vår första prioritet är att behandla och reducera ärrvävnaden för att återställa hudens jämna yta. Efter behandling av ärren hjälper vi dig med en anpassad hudvårdsrutin för att förbättra hudens textur och elasticitet. Om du också har aktiva finnar, rekommenderar vi lösningar för att hantera dessa, då obehandlade finnar kan leda till fler ärr. Vårt team på AcneSpecialisten stödjer dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 
 $headline01 = "01. Identifiera";
 
 $define_image_alt = 'Hur vi behandlar och tar bort ärr från finnar?';
 $define_image_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 
-$define_content = '<p class="p200">Det första steget i vår process för att behandla ärr från finnar är att kartlägga och analysera dina ärrs omfattning och djup. Vi inleder med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina hudmål samt tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får en konsekvent och anpassad omsorg baserat på dina specifika behov och önskemål.</p>';
+$define_content = '<p class="p200">DDet första steget i vår process för att behandla ärr från finnar är att kartlägga och analysera dina ärrs omfattning och djup. Vi börjar med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina mål samt eventuella tidigare behandlingar. Vi tar före-bilder för att följa din huds framsteg och justerar behandlingsplanen vid behov. En personlig hudterapeut följer dig genom hela processen, vilket säkerställer att du får konsekvent och anpassad behandling utifrån dina behov och önskemål.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka gratis konsultation";
@@ -51,7 +51,7 @@ $headline02 = "02. Behandla";
 $treat_image_small = 'https://via.placeholder.com/358x274.jpg';
 $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
-$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina ärr från finnar, går vi vidare till nästa steg: behandling av ärrbildningen. Målet i denna fas är att reducera synligheten och strukturen av dessa ärr. Beroende på ärrtyp och djup, tillämpar vi olika metoder och tekniker för att säkerställa att varje ärr behandlas effektivt. Genom denna process stimulerar vi hudens naturliga regenerationsförmåga, främjar kollagenproduktionen, och förbättrar hudens struktur och ton. Vi fortsätter att anpassa behandlingsplanen baserat på hur din hud svarar, med syftet att ge bästa möjliga resultat och minskad synlighet av ärr från finnar.</p>';
+$treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina ärr, går vi vidare till behandlingsfasen. Målet här är att minska synligheten och förbättra strukturen på dessa ärr. Beroende på ärrtyp och djup, använder vi olika metoder för att säkerställa effektiv behandling. Denna process stimulerar hudens naturliga regenerering, ökar kollagenproduktionen och förbättrar hudens struktur och ton. Vi anpassar kontinuerligt behandlingsplanen baserat på hur din hud svarar, med målet att uppnå bästa möjliga resultat och få bort ärren.</p>';
 
 $treat_url = 'gratis-hudkonsultation.php';
 $treat_url_label = 'Se behandlingar för ärr från finnar';
@@ -68,7 +68,7 @@ $services = array(
         title: 'Effektiv laserbehandling mot ärr från finnar',
         duration: '30-60 min',
         price: '1295 kr',
-        content: '<p class="p200">Laserbehandling för ärr från finnar hos Acnespecialisten fungerar genom att använda ljusenergi för att minska synligheten av ärrbildning. Laserstrålen tränger ner och behandlar de djupa lager där ärrbildningen sitter, stimulerar kollagenproduktionen och förnyelsen av hudceller.</p>',
+        content: '<p class="p200">Hos Acnespecialisten använder vi laserbehandling för att effektivt reducera synligheten av ärr från finnar. Genom att utnyttja ljusenergi tränger laserstrålen djupt ner i huden och behandlar de lager där ärrbildningen sitter. Denna process stimulerar produktionen av kollagen och förnyelsen av hudceller, vilket bidrar till att jämna ut hudens struktur och minska ärrens framträdande. Laserbehandlingen är en precis och kraftfull metod som förbättrar hudens utseende och främjar en friskare hy.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot ärr från finnar',
