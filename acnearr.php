@@ -33,12 +33,12 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
-                  label: 'Atrofiska ärr - ( Gropar )',
+                  label: 'Atrofiska ärr ( Gropar )',
                   url: 'atrofiska-arr.php',
                   title: 'Allt du behöver veta om atrofiska ärr i form av gropar från akne och deras behandling'
             ),
             new Link(
-                  label: 'Postinflammatorisk hyperpigmentering - ( Fläckar )',
+                  label: 'Postinflammatorisk hyperpigmentering ( Fläckar )',
                   url: 'postinflammatorisk-hyperpigmentering.php',
                   title: 'Utforska orsaker, symptom och behandlingar av post inflammatorisk hyperpigmentering i form av fläckar från akne'
             ),
