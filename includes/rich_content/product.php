@@ -6,16 +6,19 @@
             "name": "<?php echo $rich_product->name ?>",
             "image": "<?php echo $rich_product->image ?>",
             "description": "<?php echo $rich_product->description ?>",
-            "sku": "<?php echo $rich_product->sku ?>",
             "brand": {
                 "@type": "Brand",
-                "name": "AcneSpecialisten"
+                "name": "<?php echo $rich_product->brand ?>"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "<?php echo $rich_product->ratingValue ?>",
+                "reviewCount": "<?php echo $rich_product->ratingCount ?>"
             },
             "offers": {
                 "@type": "Offer",
                 "price": "<?php echo $rich_product->price ?>",
-                "priceCurrency": "<?php echo $rich_product->currency ?>",
-                "availability": "https://schema.org/InStock"
+                "priceCurrency": "<?php echo $rich_product->currency ?>"
             }
         }
     </script>

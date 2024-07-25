@@ -10,24 +10,6 @@ $seo_description = 'Varför får man akne? Lär dig om papler och pustler. Få t
 $seo_keywords = 'acne, akne, papler, pustler, vad är akne, varför får man akne, acne hy, acne vård, plötslig akne, acne orsak, akne bakterie, akne tips, acne bilder, acne hud, vad beror akne på, akne symtom, vad orsakar akne, akne före och efter, akne hjälp, akne orsak, akne problem, akne sjukdom, kronisk akne';
 $seo_image = 'bilder/hudproblem/424x456/akne.webp';
 
-$rich_product = new RichProduct(
-      name: 'Akne',
-      image: 'bilder/hudproblem/424x456/akne.webp',
-      description: 'Service/Product description',
-      sku: '123456',
-      price: '1234',
-      currency: 'SEK',
-);
-
-
-$rich_article = new RichArticle(
-      headline: 'Vad är akne?',
-      description: 'Varför',
-      image: 'bilder/hudproblem/424x456/akne.webp',
-      author: 'John Doe',
-      date_published: '2024-07-10',
-);
-
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem'),
       new PathSegment('Akne', '/acne.php'),

@@ -17,7 +17,11 @@ $path_segments = [
     <meta name="description" content="Läs om våra privata hudmottagningar i Stockholm. Vi har 30 års erfarenhet. Personlig och effektiv hudvård för alla behov.">
     <meta name="keywords" content="hudmottagning, hudmottagning stockholm, hudmottagning utan remiss, boka tid hudmottagning, privat hudmottagning">
 
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
+    <?php
+    include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php');
+    include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/organization.php');
+    include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/local_business.php');
+    ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/om-oss/about.css">

@@ -13,7 +13,7 @@
                 "name": "AcneSpecialisten",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://www.acnespecialisten.se/images/logo.png"
+                    "url": "https://acnespecialisten.se/images/logo-green.svg"
                 }
             },
             "datePublished": "<?php echo $rich_article->date_published ?>",

@@ -9,6 +9,32 @@ $seo_keywords = 'ansiktsbehandling akne';
 
 $seo_image = '/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
+$rich_product = new RichProduct(
+    name: 'Ansiktsbehandling mot Akne',
+    image: 'https://acnespecialisten.se/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+    description: 'Våra ansiktsbehandlingar ger dig en renare och friskare hud. Redan efter första gången kommer du att märka skillnad och vi anpassar ansiktsbehandlingen alltid efter just din hudtyp.',
+    price: 100,
+    currency: 'SEK',
+    ratingCount: 89,
+    ratingValue: 4.7,
+    brand: 'AcneSpecialisten',
+    brandLogo: 'https://acnespecialisten.se/images/logo-green.svg',
+    /*
+    review: array(
+        new RichReview(
+            name: 'John Doe',
+            rating: 5,
+            datePublished: '2024-07-24'
+        ),
+        new RichReview(
+            name: 'Jane Doe',
+            rating: 1,
+            datePublished: '2024-07-24'
+        )
+    )
+    */
+);
+
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Ansiktsbehandling mot akne', '/hudbehandlingar/ansiktsbehandling/akne'),
@@ -367,59 +393,6 @@ $all_brands = array(
     <meta property="twitter:title" content="<?php echo $seo_title ?>" />
     <meta property="twitter:description" content="<?php echo $seo_description ?>" />
     <meta property="twitter:image" content="<?php echo $seo_image ?>" />
-
-    <script type="application/ld+json">
-{
-  "@context" : "https://schema.org",
-  "@type" : "Product",
-    "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.7",
-    "reviewCount": "27"
-  },
-  "name" : "Ansiktsbehandling mot Akne",
-  "image" : "https://acnespecialisten-staging.minoch.com/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp",
-  "description" : "Våra ansiktsbehandlingar ger dig en renare och friskare hud. Redan efter första gången kommer du att märka skillnad och vi anpassar ansiktsbehandlingen alltid efter just din hudtyp.",
-  "brand" : {
-    "@type" : "Brand",
-    "name" : "AcneSpecialisten",
-    "logo" : "https://acnespecialisten-staging.minoch.com/images/logo-green.svg"
-  },
-  "offers" : {
-    "@type" : "Offer",
-    "price" : "1295",
-        "priceCurrency" : "SEK",
-        "priceValidUntil" : "2024-12-31",
-        "url" : "https://acnespecialisten-staging.minoch.com/hudbehandlingar/ansiktsbehandling/akne/"
-  },
-
-  "review": [{
-        "@type": "Review",
-        "datePublished": "2024-07-24",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "5"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "John Doe"
-        }
-       },
-      {
-        "@type": "Review",
-        "datePublished": "2024-07-24",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "1"
-        },
-        "author": {
-          "@type": "Person",
-          "name": "Jane Doe"
-        }
-      }]
-
-}
-</script>
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
