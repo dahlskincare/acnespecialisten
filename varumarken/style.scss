@@ -151,7 +151,8 @@ html {
         section#links {
             margin-top: $xl;
 
-            div#item-container {
+            .item-container {
+
                 .item {
                     margin-top: $l;
 
@@ -172,72 +173,7 @@ html {
 
 
 
-                @media screen and (min-width: $tablet) {
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    grid-template-rows: repeat(2, 1fr);
-                    gap: $xxs;
-                    justify-items: stretch;
-                    align-items: stretch;
-
-                    .item {
-                        margin-top: 0;
-                        background-color: $light-50;
-                        border-radius: $radius-s;
-                        padding: $xl;
-
-                        p {
-                            margin-top: 0;
-                            text-align: left;
-                            padding: 0;
-                        }
-
-                        .service-label {
-                            margin-top: $m;
-                            color: $dark-200;
-                        }
-                    }
-
-                    #item-0 {
-                        grid-column-start: 1;
-                        grid-row-start: 1;
-                    }
-
-                    #item-1 {
-                        grid-column-start: 1;
-                        grid-row-start: 2;
-                    }
-
-                    #item-2 {
-                        grid-column-start: 2;
-                        grid-row-start: 1;
-                    }
-
-                    #item-3 {
-                        grid-column-start: 2;
-                        grid-row-start: 2;
-                    }
-
-                    #item-4 {
-                        grid-column-start: 3;
-                        grid-row-start: 1;
-                    }
-
-                    #item-5 {
-                        grid-column-start: 3;
-                        grid-row-start: 2;
-                    }
-
-                    #item-6 {
-                        grid-column-start: 4;
-                        grid-row-start: 1;
-                    }
-
-                    #item-7 {
-                        grid-column-start: 4;
-                        grid-row-start: 2;
-                    }
-                }
+                @media screen and (min-width: $tablet) {}
             }
 
             @include desktop {
