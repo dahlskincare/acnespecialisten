@@ -517,16 +517,40 @@ $path_segments = array(
             </section>
             <div class="container">
                   <section id="links">
-                        <div id="item-container">
-                              <?php for ($i = 0; $i < count($link_brands); $i++) { ?>
-                                    <div class="item" id="item-<?php echo $i ?>">
-                                          <a href="<?php echo $link_brands[$i]->url ?>" title="<?php echo $link_brands[$i]->url_title ?>" class="p200"><?php echo $link_brands[$i]->label ?></a>
-                                          <?php foreach ($link_brands[$i]->services as $url => $label) { ?>
-                                                <a href="<?php echo $url ?>" title="<?php echo $label ?>" class="p200 service-label"><?php echo $label ?></a>
-                                          <?php } ?>
+                        <div class="columns">
+                              <?php
+                              $brand_index = 0;
+                              for ($i = 0; $i < 4; $i++) {
+                              ?>
+                                    <div class="column">
+                                          <div class="item-container">
+
+
+                                                <?php for ($j = 0; $j < 2; $j++) { ?>
+                                                      <div id="item">
+                                                            <a href="<?php echo $link_brands[$brand_index]->url ?>" title="<?php echo $link_brands[$brand_index]->url_title ?>" class="p200"><?php echo $link_brands[$i]->label ?></a>
+                                                            <?php foreach ($link_brands[$brand_index]->services as $url => $label) { ?>
+                                                                  <a href="<?php echo $url ?>" title="<?php echo $label ?>" class="p200 service-label"><?php echo $label ?></a>
+                                                            <?php } ?>
+                                                      </div>
+                                                <?php
+                                                      $brand_index++;
+                                                } ?>
+                                          </div>
                                     </div>
                               <?php } ?>
                         </div>
+
+
+                        <?php for ($i = 0; $i < count($link_brands); $i++) { ?>
+                              <div class="item">
+                                    <a href="<?php echo $link_brands[$i]->url ?>" title="<?php echo $link_brands[$i]->url_title ?>" class="p200"><?php echo $link_brands[$i]->label ?></a>
+                                    <?php foreach ($link_brands[$i]->services as $url => $label) { ?>
+                                          <a href="<?php echo $url ?>" title="<?php echo $label ?>" class="p200 service-label"><?php echo $label ?></a>
+                                    <?php } ?>
+                              </div>
+                        <?php } ?>
+
                   </section>
                   <section id="cards">
                         <div id="card-grid">
@@ -593,7 +617,7 @@ $path_segments = array(
                               <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
                         </div>
                   </section>
-                  <!--Hudguide-->
+                  
                   <section id="specialists">
                         <div class="container">
                               <div class="flex-row align-end justify-space-between">
@@ -642,7 +666,6 @@ $path_segments = array(
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-      <script src="varumarken/brands.js"></script>
 </body>
 
 </html>
