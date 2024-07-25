@@ -162,12 +162,11 @@ $link_brands = array(
             )
       ),
       new BrandCategory(
-            label: 'Dermabration',
-            url: '/hudbehandlingar/dermabrasion/',
+            label: 'Frysbehandling',
+            url: '/cryopen.php',
             url_title: 'Läs mer',
             services: array(
-                  "/hydrafacial.php" => "HydraFacial",
-                  "/microdermabrasion.php" => "Mimass",
+                  "/cryopen.php" => "CryoPen",
             )
       ),
       new BrandCategory(
@@ -180,11 +179,12 @@ $link_brands = array(
             )
       ),
       new BrandCategory(
-            label: 'Frysbehandling',
-            url: '/cryopen.php',
+            label: 'Dermabration',
+            url: '/hudbehandlingar/dermabrasion/',
             url_title: 'Läs mer',
             services: array(
-                  "/cryopen.php" => "CryoPen",
+                  "/hydrafacial.php" => "HydraFacial",
+                  "/microdermabrasion.php" => "Mimass",
             )
       ),
       new BrandCategory(
