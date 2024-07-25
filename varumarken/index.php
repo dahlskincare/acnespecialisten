@@ -134,7 +134,7 @@ $header_brands = array(
 
 $link_brands = array(
       new BrandCategory(
-            label: 'Laser mot hudproblem',
+            label: 'Laser',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer',
             services: array(
