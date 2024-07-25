@@ -11,7 +11,7 @@ $salons = array(
         title: 'Östermalm',
         image_small: 'bilder/kliniker/358x272/strandvagen.jpg',
         image_large: 'bilder/kliniker/424x526/strandvagen.jpg',
-        address: 'Strandvägen 7 <br>114 51 Stockholm</br>',
+        address: 'Strandvägen 7 <br><p>114 51 Stockholm</p></br>',
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',
         opening_hours_weekends: 'Enligt bokning',
