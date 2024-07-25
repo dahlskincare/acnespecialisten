@@ -748,7 +748,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
 
-                        <!--Hudguide-->
+
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>

@@ -205,7 +205,7 @@ $specialists = array(
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </section>
-            <!--Hudguide-->
+
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Varumärken</div>

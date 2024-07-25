@@ -470,7 +470,7 @@
                               <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Läs alla våra frågor och svar" href="fragor-svar.php">Se fler frågor & svar</a>
                         </div>
                   </section>
-                  <!--Hudguide-->
+
                   <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">

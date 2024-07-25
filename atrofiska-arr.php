@@ -442,7 +442,7 @@ $brands_url_title = "Se alla varumärken";
                               <div class="mt-xl"><?php echo $description_text ?></div>
                         </section>
 
-                               <?php foreach ($top_articles as $id => $article) { ?>
+                        <?php foreach ($top_articles as $id => $article) { ?>
                               <section id="<?php echo $id ?>">
                                     <?php
                                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
@@ -465,9 +465,9 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                      
 
-                          <section id="define">
+
+                        <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
@@ -501,7 +501,7 @@ $brands_url_title = "Se alla varumärken";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
                         </section>
-                        <!--Hudguide-->
+
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>

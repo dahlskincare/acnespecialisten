@@ -626,7 +626,7 @@ $path_segments = array(
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="Se alla frågor">Se alla frågor</a>
             </div>
         </section>
-        <!--Hudguide-->
+
         <section id="specialists">
             <div class="container">
                 <div class="flex-row align-end justify-space-between">

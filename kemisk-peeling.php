@@ -840,7 +840,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
-                
+
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
@@ -853,7 +853,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
-                <!--Hudguide-->
+
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>

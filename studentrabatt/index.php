@@ -168,7 +168,7 @@ $path_segments = [
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
 
             </section>
-            <!--Hudguide-->
+
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Våra specialister</h2>

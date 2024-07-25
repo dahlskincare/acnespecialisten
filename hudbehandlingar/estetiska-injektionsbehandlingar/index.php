@@ -1017,7 +1017,7 @@ $all_brands = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se alla frågor"><?php echo $faq_view_more ?></a>
                 </section>
-                <!--Hudguide-->
+
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">

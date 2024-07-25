@@ -70,7 +70,7 @@ $trivias = array(
             prefix: 'Varför',
             title: ' får man akne på bröstet?',
             content: '<p class="p200">Akne på bröstet kan drabba vem som helst och det finns flera faktorer som kan bidra till dess uppkomst. En av de vanligaste orsakerna är hormonella förändringar. Dessa förändringar kan ibland leda till en ökning av mängden talg (olja) som produceras i huden, vilket i sin tur kan täppa till porerna och skapa en miljö där bakterier trivs.',
-            
+
             extended_content: '<p class="p200 mt-xl">Ett annat skäl kan vara genetiska faktorer. Om dina föräldrar eller nära släktingar har haft problem med akne, finns det en risk att du också kan drabbas. Dessutom kan stress och dålig kost spela en roll i utvecklingen av akne. Stress kan påverka kroppens hormonbalans negativt medan en kost rik på fett och socker kan bidra till inflammation.</p>
 
             <p class="p200 mt-xl">Intensiv fysisk aktivitet kan också orsaka akne på bröstet. När du svettas mycket under träning, blandas svetten med olja och smuts på huden och kan täppa igen porerna. Täta och svettiga kläder kan också förvärra tillståndet.</p>
@@ -939,7 +939,7 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                         </section>
-                        <!--Hudguide-->
+
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>

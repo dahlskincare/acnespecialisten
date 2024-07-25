@@ -99,9 +99,7 @@ $trivias = array(
             prefix: 'Orsaker',
             title: ' till Akne I Nacken och på Axlarna',
             content: '<p class="p200">Akne i nacken och på axlarna uppstår av liknande orsaker som akne på ryggen. Några av de huvudsakliga orsakerna inkluderar:</p>',
-            extended_content: 
-
-            '<ul><li class="mt-xl"><strong>Överproduktion av talg:</strong> Talget kan täppa igen porerna och leda till akne.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Överproduktion av talg:</strong> Talget kan täppa igen porerna och leda till akne.</li>
 
             <li class="mt-xl"><strong>Friktion:</strong> Kläder, axelremmar och ryggsäckar kan skapa friktion och irritation som förvärrar akne.</li>
 
@@ -127,9 +125,7 @@ $trivias = array(
             prefix: 'Hur',
             title: ' Får Man Bort Akne På Ryggen hemma?',
             content: '<p class="p200">Att få bort akne på ryggen kan vara en utmanande process, men med rätt strategi och tålamod kan du bli av med aknen. Här kommer några konkreta tips och behandlingsmetoder som kan hjälpa dig att bli av med dessa irriterande finnar.</p>',
-            extended_content: 
-
-            '<ul><li class="mt-xl"><strong>Daglig Rengöring:</strong> En av de mest effektiva stegen för behandling av akne på ryggen är att rengöra huden regelbundet. Använd en akne-rengöring som innehåller exfolierande ingredienser som är bra på att hålla huden och porerna rena.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Daglig Rengöring:</strong> En av de mest effektiva stegen för behandling av akne på ryggen är att rengöra huden regelbundet. Använd en akne-rengöring som innehåller exfolierande ingredienser som är bra på att hålla huden och porerna rena.</li>
 
             <li class="mt-xl"><strong>Undvik tighta Klädesplagg:</strong> Friktion från tätt åtsittande kläder kan förvärra akne på ryggen. Försök att bära löst sittande kläder i andningsbara material för att minimera hudirritation.</li>
 
@@ -153,9 +149,7 @@ $trivias = array(
             content: '<p class="p200">Vi har över 30 års erfarenhet av att behandla akne på ryggen använder vi metoder anpassade till din specifika typ av ryggakne.</p>
 
             <p class="p200 mt-m">Det finns flera avancerade behandlingar som kan hjälpa dig att bli av med akne på ryggen. Här är några av de mest effektiva metoderna:</p>',
-            extended_content: 
-
-            '<ul><li class="mt-xl"><strong>Grundlig portömning:</strong> En populär behandling av akne på ryggen. En hudterapeut använder verktyg för att noggrant tömma porerna på ackumulerad olja och smuts. Detta hjälper till att minska pormaskar och minskar risken för inflammation och utbrott.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Grundlig portömning:</strong> En populär behandling av akne på ryggen. En hudterapeut använder verktyg för att noggrant tömma porerna på ackumulerad olja och smuts. Detta hjälper till att minska pormaskar och minskar risken för inflammation och utbrott.</li>
 
             <li class="mt-xl"><strong>Kemisk peeling:</strong> Denna metod involverar applicering av kemiska syror som exfolierar huden och avlägsnar döda hudceller. Behandlingen är effektiv för att minska akne på ryggen och förbättrar hudens textur. Klarare och jämnare hud är ett av resultaten.</li>
 
@@ -180,9 +174,7 @@ $trivias = array(
             <li class="mt-xl">Reducerar inflammation och rodnad</li>
 
             <li class="mt-xl">Reparerar huden och främjar läkning</li></ul>',
-            extended_content: 
-
-            '<p class="p200 mt-xl">För att få bort akne på ryggen bör du överväga produkter som specifikt riktar sig mot ryggakne. Dessa produkter finns ofta i form av serum, krämer eller rengöringsprodukter som kan hjälpa till att exfoliera och behandla huden djupt. Daglig användning av dessa kan bidra till att minimera och förebygga utbrott.</p>
+            extended_content: '<p class="p200 mt-xl">För att få bort akne på ryggen bör du överväga produkter som specifikt riktar sig mot ryggakne. Dessa produkter finns ofta i form av serum, krämer eller rengöringsprodukter som kan hjälpa till att exfoliera och behandla huden djupt. Daglig användning av dessa kan bidra till att minimera och förebygga utbrott.</p>
 
             <p class="p200 mt-xl">Om du har problem med akne på axlar eller i nacken kan samma typer av produkter användas på dessa områden. Att hålla huden ren och återfuktad är centralt, och produkter som är speciellt utformade för att behandla och förebygga akne kan vara en viktig del av din dagliga hudvårdsrutin.</p>',
             icons: array()
@@ -955,7 +947,7 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
                         <section id="articles">
-                                 <?php foreach ($articles as $article) { ?>
+                              <?php foreach ($articles as $article) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php'); ?>
                               <?php } ?>
                         </section>
@@ -1030,7 +1022,7 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                         </section>
-                        <!--Hudguide-->
+
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>

@@ -940,7 +940,7 @@ $brands_url_title = "Varumärken för pormaskar";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="Frågor och svar" href="fragor-svar.php">Läs fler frågor & Svar</a>
                         </section>
-                        <!--Hudguide-->
+
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>

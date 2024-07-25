@@ -128,7 +128,7 @@ $faq_categories = array(
                 <div class="h500 l10n">Omdömen</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
             </section>
-            <!--Hudguide-->
+
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Varumärken</div>

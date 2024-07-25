@@ -68,14 +68,14 @@ $trivias = array(
             prefix: 'Varför',
             title: ' får man akne?',
             content: '<p class="p200">Akne i ansiktet orsakas av flera faktorer som samverkar. En av de mest framträdande orsakerna är hormonella förändringar, vilket förklarar varför många upplever akne under tonåren och vid vissa perioder i livet, som under menstruationscykeln. Hormonella förändringar leder till ökad produktion av talg (fett), en oljig substans som produceras av talgkörtlarna i huden.',
-            
+
             extended_content: '<p class="p200 mt-xl">Den ökade talgproduktionen kan blockera porerna, vilket skapar en idealisk miljö för bakterier att växa, särskilt bakterien Cutibacterium acnes. Denna bakterie kan leda till inflammation och utveckling av inflammerade finnar och cystor. Utöver detta kan genetiska faktorer spela en betydande roll, om dina föräldrar har haft akne, ökar chanserna att du också utvecklar det.</p>
 
             <p class="p200 mt-xl">Det är normalt att känna sig frustrerad och nedstämd över pormaskar, utslag och finnar som påverkar ditt ansikte, särskilt när de dyker upp vid de mest olämpliga tillfällena. För att förstå hur man effektivt kan hantera och behandla akne är det viktigt att först förstå de många olika orsakerna till att den uppstår.</p>',
             icons: array()
       ),
 
-            new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Orsaker',
             title: ' till plötslig akne i ansiktet',
 
@@ -94,7 +94,7 @@ $trivias = array(
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat', 'graviditet' => 'Graviditet')
       ),
 
-   new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'När',
             title: ' Ska Du Söka Hjälp För Svår Akne?',
 
@@ -111,7 +111,7 @@ $trivias = array(
             icons: array()
       ),
 
-     new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Vart',
             title: ' i ansiktet akne uppstår och dess betydelse',
             content: '<p class="p200">Akne i ansiktet kan uppträda på flera olika sätt, beroende på typ av akne och hudtyp. Vanliga områden där akne ofta förekommer är pannan, näsan, kinderna och hakan. Symtomen kan variera från små, icke-inflammatoriska pormaskar till större, smärtsamma och inflammerade cystor. Det är också bra att veta att akne ofta dyker upp i områden med högt antal talgkörtlar.</p>',
@@ -995,7 +995,7 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
 
-                        <!--Hudguide-->
+
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>
