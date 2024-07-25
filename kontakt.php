@@ -23,7 +23,7 @@ $salons = array(
         title: 'Södermalm',
         image_small: 'bilder/kliniker/358x272/sodermalm.jpg',
         image_large: 'bilder/kliniker/424x526/sodermalm.jpg',
-        address: 'Hornsgatan 47, 118 49 Stockholm',
+        address: 'Hornsgatan 47,<br>118 49 Stockholm</br>',
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',
         opening_hours_weekends: 'Enligt bokning',
