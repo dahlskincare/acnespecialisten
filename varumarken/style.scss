@@ -155,19 +155,27 @@ html {
 
                 .item {
                     margin-top: $l;
+                    padding: $xl;
+                    border: 1px solid $light-200;
+                    border-radius: $radius-s;
 
                     a {
+                        @include h200;
                         display: block;
                         color: $dark-200;
-                        margin-top: $xxs;
                         text-align: center;
-                        padding: 14px;
-                        background-color: $light-50;
+                        text-decoration: underline;
+                        line-height: 21px;
+                        margin-bottom: $m;
                     }
 
                     .service-label {
-                        font-weight: bold;
+                        padding: 14px;
+                        margin-top: $xxs;
+                        margin-bottom: 0;
                         color: $black-500;
+                        background-color: $light-50;
+                        text-decoration: none;
                     }
                 }
 
