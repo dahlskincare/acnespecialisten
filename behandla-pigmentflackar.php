@@ -99,6 +99,29 @@ $services = array(
         short_title: 'Kemisk Peeling'
     ),
 
+        new Service(
+        image_small: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp',
+        image_title: 'Utförande av laserbehandling för pigmentfläckar',
+        image_alt: 'Bild på laserbehandling mot pigmentfläckar hos Acnespecialisten',
+        title: 'Laser mot pigmentfläckar',
+        duration: '20-50 min',
+        price: 'Från 2595 kr',
+        icons: array(),
+        content: '<p class="p200">Laserbehandling är en mycket effektiv metod för att reducera pigmentfläckar. På Acnespecialisten använder vi avancerad laserteknologi som riktar sig specifikt mot områden med ökad pigmentering. Lasern arbetar genom att sända ut ljuspulser som bryter ner pigmentet i fläckarna, vilket minskar deras synlighet och främjar en jämnare hudton. Denna metod är noggrant kontrollerad för att maximera resultatet samtidigt som den minimerar obehag och återhämtningstid. Laserbehandling erbjuder en snabb och precis lösning för att förbättra hudens utseende och jämnhet.</p>',
+        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Laser',
+        consultation_url_label: 'Boka konsultation',
+        consultation_url_title: 'Boka en konsultation för laser mot pigmentfläckar',
+        url: '/laser.php',
+        url_label: 'Läs mer om laser',
+        url_title: 'Läs mer om laser mot pigmentfläckar',
+        booking_url: 'https://acnespecialisten.se/book?flow=laser&skipable_problem=Problem_PigmentationSpots',
+        booking_url_label: 'Boka behandling',
+        booking_url_title: 'Boka din laserbehandling mot pigmentfläckar nu',
+        short_title: 'Laser'
+)
+    ),
+
     new Service(
         image_small: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
