@@ -103,7 +103,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="behandla-pigmentflackar.php" title="Utforska effektiva behandlingar mot pigmentfläckar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
-$types_title = 'Olika typer av Pigmentfläckar';
+$types_title = 'Olika typer av pigmentfläckar';
 
 $type_categories = array(
       new BasedTypeCategory(
@@ -240,7 +240,7 @@ $type_categories = array(
 $headline01 = "01. Identifiera";
 
 $service = new Service(
-      title: 'Konsultation för Pigmentfläckar och Hudfläckar',
+      title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Under en personlig konsultation med en specialist inom pigmenteringar och hudfläckar genomförs en detaljerad analys av dina specifika pigmentfläckar. Vi fotograferar de berörda områdena och går igenom dina mål och förväntningar.',
@@ -263,7 +263,7 @@ $headline02 = "02. Behandla";
 
 $services = array(
       new Service(
-            title: 'IPL-behandling för Pigmentfläckar',
+            title: 'IPL-behandling mot pigmentfläckar',
             duration: '60 min',
             price: '2595 kr',
             content: 'IPL behandling använder ljuspulser för att bryta ner melanin i huden, vilket gör att de bleknar eller försvinner.',
@@ -282,7 +282,7 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om IPL-behandling för pigmentfläckar'
       ),
       new Service(
-            title: 'Kemisk Peeling för Pigmentfläckar',
+            title: 'Kemisk peeling mot pigmentfläckar',
             duration: '30 min',
             price: '1995 kr',
             content: 'Kemisk peeling är en beprövad metod som förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket hjälper till att reducera synliga pigmentfläckar och förbättra hudens allmänna utseende.',
@@ -321,7 +321,7 @@ $services = array(
       ),
 
       new Service(
-            title: 'Microneedling för Pigmentfläckar',
+            title: 'Microneedling mot pigmentfläckar',
             duration: '50 min',
             price: '2595 kr',
             content: 'Microneedling är en avancerad teknik som används för att behandla och förbättra hudens utseende, särskilt när det gäller pigmentfläckar och ojämn hudton.',

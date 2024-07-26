@@ -138,7 +138,7 @@ $symptoms_title = 'Symtom';
 
 $symptoms = array(
       new Symptom(
-            name: 'Oljig & Fet hy',
+            name: 'Oljig & fet hy',
             aka: 'Yttorr hy',
             content: 'Karaktäriseras av en ökad produktion av talg, vilket ger huden en ständigt glansig eller fet yta. Denna hudtyp är särskilt märkbar i T-zonen (panna, näsa, haka) men kan påverka hela ansiktet. Överflödig talg kan leda till att huden ser oljig ut och känns fet vid beröring.',
 
@@ -207,7 +207,7 @@ $symptoms = array(
 $headline01 = "01. Identifiera";
 
 $service = new Service(
-      title: 'Konsultation för blandhy',
+      title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en hudterapeut utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
@@ -235,7 +235,7 @@ $headline02 = "02. Behandla";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling för blandhy',
+            title: 'Ansiktsbehandling mot blandhy',
             duration: '60 min',
             price: '1295 kr',
             content: 'Denna skräddarsydda ansiktsrengöring för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
@@ -259,7 +259,7 @@ $services = array(
       ),
 
       new Service(
-            title: 'Kemisk peeling för blandhy',
+            title: 'Kemisk peeling mot blandhy',
             duration: '30 min',
             price: '1595 kr',
             content: 'Kemisk peeling anpassad för blandhy använder sig av en unik syra framtagen för att exfoliera och återfukta hudens särskilda behov. Den främjar en accelererad cellförnyelse, vilket bidrar till att balansera både oljiga och torra partier av huden.',
@@ -284,7 +284,7 @@ $services = array(
       ),
 
       new Service(
-            title: 'Microneedling för blandhy',
+            title: 'Microneedling mot blandhy',
             duration: '50 min',
             price: '2595 kr',
             content: 'Microneedling för blandhy adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, förbättrar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga områden, vilket förbättrar hudens yta och återställer en naturliga balans.',

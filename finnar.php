@@ -120,7 +120,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
-$types_title = 'Olika typer av Finnar';
+$types_title = 'Olika typer av finnar';
 
 $type_categories = array(
       new BasedTypeCategory(

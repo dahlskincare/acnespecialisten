@@ -101,7 +101,7 @@ $treatment_steps = array(
             title: 'Behandla',
             content: 'Vi utför behandlingar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
-            url_label: 'Se behandlingar för hudförändringar',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
