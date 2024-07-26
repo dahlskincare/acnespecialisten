@@ -6,38 +6,29 @@ namespace Problems {
     }
 }
 
+declare var default_problems: Array<string>;
 let currentProblems = null;
 
 function toggleProblems(problems: String) {
     let columns = document.querySelector('#banner-problem-areas').children;
     let cards = document.querySelectorAll('.problem-area-card');
 
-    if (problems === currentProblems) {
-        for (var i = 0; i < columns.length; i++) {
-            let column = columns[i] as HTMLElement;
-            let card = cards[i].parentElement as HTMLElement;
+    let problemIds = problems === currentProblems ? default_problems : problems.split(',');
+    for (var i = 0; i < columns.length; i++) {
+        let column = columns[i] as HTMLElement;
+        let card = cards[i].parentElement as HTMLElement;
+        let index = problemIds.indexOf(column.dataset.id);
+        if (index >= 0) {
             column.classList.remove('is-hidden');
             card.classList.remove('is-hidden');
         }
-        currentProblems = null;
-    }
-    else {
-        let problemIds = problems.split(',');
-        for (var i = 0; i < columns.length; i++) {
-            let column = columns[i] as HTMLElement;
-            let card = cards[i].parentElement as HTMLElement;
-            let index = problemIds.indexOf(column.dataset.id);
-            if (index >= 0) {
-                column.classList.remove('is-hidden');
-                card.classList.remove('is-hidden');
-            }
-            else {
-                column.classList.add('is-hidden');
-                card.classList.add('is-hidden');
-            }
+        else {
+            column.classList.add('is-hidden');
+            card.classList.add('is-hidden');
         }
-        currentProblems = problems;
     }
+    currentProblems = problems === currentProblems ? null : problems;
+
 }
 
 function highlight(element: HTMLElement) {
