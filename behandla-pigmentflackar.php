@@ -119,7 +119,6 @@ $services = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot pigmentfläckar nu',
         short_title: 'Laser'
-
     ),
 
     new Service(
