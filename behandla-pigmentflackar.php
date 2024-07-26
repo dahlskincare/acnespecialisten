@@ -112,7 +112,7 @@ $services = array(
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Laser',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laser mot pigmentfläckar',
-        url: '/laser.php',
+        url: '/laser-mot-hudproblem.php',
         url_label: 'Läs mer om laser',
         url_title: 'Läs mer om laser mot pigmentfläckar',
         booking_url: 'https://acnespecialisten.se/book?flow=laser&skipable_problem=Problem_PigmentationSpots',
