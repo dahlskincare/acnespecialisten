@@ -11,7 +11,7 @@ $model = new Service(
     title: 'Behandlingar mot pigmentfläckar',
     duration: null,
     price: null,
-    content: '<p class="p200">Vi erbjuder de mest effektiva metoderna för att behandla och minska pigmentfläckar. Våra skräddarsydda behandlingar reducerar pigmenteringar oavsett orsak eller typ, vilket ger dig en klarare och jämnare hudton. Om du är osäker på vilken behandling som passar din hudtyp bäst, boka en kostnadsfri hudkonsultation. Våra experter kommer att vägleda dig mot en fläckfri hud.</p>',
+    content: '<p class="p200">Vi erbjuder de mest effektiva metoderna för att behandla och ta bort pigmentfläckar. Våra skräddarsydda behandlingar reducerar pigmenteringar oavsett typ eller orsak, vilket ger dig en klarare och jämnare hudton. Om du är osäker på vilken behandling som passar din hudtyp bäst, boka en kostnadsfri hudkonsultation. Våra experter kommer att vägleda dig mot en fläckfri hud.</p>',
     image_small: 'bilder/hudproblem/424x456/pigmentflackar.webp',
     image_large: 'bilder/hudproblem/424x456/pigmentflackar.webp',
     image_alt: 'Bild som illustrerar pigmentfläckar',
@@ -29,18 +29,20 @@ $path_segments = array(
     new PathSegment('Behandla pigmentfläckar', '/behandla-pigmentflackar.php'),
 );
 
-$about_title = 'Hur vi reducerar och tar bort pigmentfläckar';
+$about_title = 'Hur vi behandlar och tar bort pigmentfläckar';
 
-$about_content = '<p class="p200">Att behandla pigmentfläckar kräver noggrannhet och expertis. Vi använder de mest effektiva metoderna för att framgångsrikt reducera pigmentfläckar. Vid vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapar en skräddarsydd behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla pigmentfläckar kräver noggrannhet och expertis. Vi använder de mest effektiva och moderna metoderna för att framgångsrikt reducera pigmentfläckar. Vid vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapar en skräddarsydd behandlingsplan just för dig.</p>
 
-    <p class="p200 mt-xl">Under konsultationen bestämmer vi den bästa åtgärden för att behandla dina specifika pigmentfläckar, vare sig det är en enstaka fläck eller ett större område. Vårt mål är att återge din hud dess naturliga, jämnare utseende. Genom hela processen, från konsultation till resultat, är vårt dedikerade team här för att stödja dig.</p>';
+<p class="p200 mt-xl">Under konsultationen utvärderar vi dina specifika behov och bestämmer den bästa åtgärden för att behandla dina pigmentfläckar, oavsett om det handlar om enstaka fläckar eller större områden. Vårt mål är att återställa din hud till dess naturliga och jämna utseende.</p>
+
+    <p class="p200 mt-xl">Genom hela behandlingsprocessen, från första konsultation till slutgiltiga resultat, finns vårt dedikerade team här för att stödja och guida dig. Vi är här för att säkerställa att du får den bästa möjliga vården och att du känner dig trygg och väl omhändertagen.</p>';
 
 $headline01 = "01. Identifiera";
 
 $define_image_alt = 'Behandling av Pigmentfläckar';
 $define_image_title = 'Behandling av Pigmentfläckar';
 
-$define_content = '<p class="p200">För att kunna hjäpla dig med dina pigmentfläckar är det viktigt att vi förstår ditt specifika hudtillstånd och dina pigmentfläckarnas natur. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud noggrant och diskuterar dina mål samt dina tidigare erfarenheter med pigmentfläckar. Vi tar förebilder för att noga övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
+$define_content = '<p class="p200">För att kunna hjälpa dig med dina pigmentfläckar är det viktigt att vi förstår ditt specifika hudtillstånd och dina pigmentfläckars natur. Vi börjar med en kostnadsfri konsultation där vi noggrant analyserar din hud och diskuterar dina mål samt tidigare erfarenheter med pigmentfläckar. Vi tar före-bilder för att noggrant övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka gratis konsultation";
@@ -49,7 +51,7 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla";
 
-$treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar, inleder vi behandlingen för att reducera eller eliminera pigmentfläkcarna för att återställa en jämnare hudton. Vi använder olika metoder och behandlingar som är skräddarsydda efter dina specifika behov. Detta gör att vi kan maximera resultaten och minimera eventuellt obehag. Genom denna process arbetar vi för att minska pigmentfläckarnas synlighet och förbättra hudens utseende över tid.</p>';
+$treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar inleder vi behandlingen för att reducera eller eliminera dem och återställa en jämnare hudton. Vi använder en rad olika metoder som är skräddarsydda efter dina specifika behov, inklusive kemisk peeling, laserbehandling och microneedling. Dessa effektiva metoder gör det möjligt att snabbt och effektivt behandla pigmentfläckar och förbättra hudens utseende. Vårt mål är att uppnå bästa möjliga resultat med minimal påverkan och obehag för dig.</p>';
 
 $services = array(
 
@@ -62,7 +64,7 @@ $services = array(
         duration: '20-60 min',
         price: 'Från 1595 kr',
         icons: array(),
-        content: '<p class="p200">IPL-behandling för att reducera pigmentfläckar hos Acnespecialisten använder intensivt pulserande ljus för att noggrant behandla områden med ökad pigmentering. Ljusenergin tränger djupt in i huden och riktar sig mot de områden där pigmentfläckarna är mest synliga. Denna metod minskar produktionen av melanin i huden och hjälper till att återställa en mer jämn hudton.</p>',
+        content: '<p class="p200">På Acnespecialisten använder vi IPL-behandling (Intensivt Pulserande Ljus) för att effektivt reducera pigmentfläckar. IPL-behandlingen använder ljusenergi som tränger djupt in i huden och riktar sig mot områden med ökad pigmentering. Denna metod hjälper till att bryta ner melanin, vilket minskar synligheten av pigmentfläckar och återställer en jämnare hudton. Vår noggranna behandling säkerställer att resultatet blir både effektivt och skonsamt för din hud.</p>',
         consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för IPL-behandling mot pigmentfläckar',
