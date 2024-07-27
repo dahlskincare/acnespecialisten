@@ -22,7 +22,7 @@ $image_alt = 'Bild som illustrerar hur en blandhy ser ut';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Blandhy',
-      description: 'Blandhy kännetecknas av en kombinerad hudtyp som består av torra och oljiga områden på huden. Här hittar du mer information om blandhy som är en blandning av hudproblem såsom finnar, pormaskar, torr och fet hy.',
+      description: 'Blandhy kännetecknas av en kombinerad hudtyp med både torra och oljiga områden. Blandhy innebär ofta en blandning av olika hudproblem, såsom finnar, pormaskar, torrhet och överdriven oljeproduktion. Här hittar du mer information om hur du hanterar och behandlar blandhy för att uppnå en balanserad och hälsosam hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
