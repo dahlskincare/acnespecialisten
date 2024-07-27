@@ -86,11 +86,13 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vem',
             title: ' får blandhy?',
-            content: '<p class="p200">Blandhy är en av de mest förekommande hudtyperna och kan drabba människor i alla åldrar, oavsett kön och etnicitet. Det är inte ovanligt att ungdomar upplever blandhy när hormoner börjar fluktuera under puberteten, vilket leder till att vissa delar av ansiktet blir oljigare medan andra förblir torra. Denna kombination av torra och oljiga områden, ofta med oljig T-zon (panna, näsa och haka) och torra kinder, kan vara en källa till frustration för många.</p>',
+            content: '<p class="p200">Blandhy är en av de mest förekommande hudtyperna och kan drabba människor i alla åldrar, oavsett kön och etnicitet. Det är inte ovanligt att ungdomar upplever blandhy när hormoner börjar fluktuera under puberteten, vilket leder till att vissa delar av ansiktet blir oljigare medan andra förblir torra. Denna kombination av torra och oljiga områden, ofta med en oljig T-zon (panna, näsa och haka) och torra kinder, kan vara en källa till frustration för många.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Medan blandhy ofta förknippas med tonåringar, kan det fortsätta eller till och med börja under vuxen ålder. Hormonella förändringar som de under graviditet, menstruationscykeln eller klimakteriet kan också leda till en uppkomst av blandhy hos vuxna kvinnor. Män kan också uppleva blandhy, särskilt om de har genetiska anlag för det.</p>
+            extended_content: '<p class="p200 mt-xl">Trots att blandhy ofta förknippas med tonåringar, kan den fortsätta eller till och med börja under vuxen ålder. Hormonella förändringar som uppstår under graviditet, menstruationscykeln eller klimakteriet kan också leda till uppkomst av blandhy hos vuxna kvinnor. Män kan också uppleva blandhy, särskilt om de har genetiska anlag för det.</p>
             
-            <p class="p200 mt-xl">Externa faktorer som klimat, miljö och hudvård kan också påverka hudtypen. Personer som bor i områden med skiftande årstider kan märka att deras hud känns oljigare på sommaren och torrare på vintern. För att adressera de specifika behoven hos blandhy rekommenderar vi en individuell hudvårdsrutin som tar hänsyn till de olika zonerna i ansiktet och balanserar dem effektivt.</p>',
+            <p class="p200 mt-xl">Externa faktorer som klimat, miljö och hudvårdsrutiner kan också påverka hudtypen. Personer som bor i områden med skiftande årstider kan märka att deras hud känns oljigare på sommaren och torrare på vintern. För att adressera de specifika behoven hos blandhy rekommenderar vi en individuell hudvårdsrutin som tar hänsyn till de olika zonerna i ansiktet och balanserar dem effektivt.</p>
+
+            <p class="p200 mt-xl">Hos AcneSpecialisten erbjuder vi skräddarsydda lösningar för att hantera blandhy, så att du kan uppnå en frisk och balanserad hud. Boka en kostnadsfri konsultation med oss idag för att få en personlig hudanalys och rekommendationer som passar just din hudtyp.</p>',
             icons: array('man-kvinna' => 'Män & Kvinnor', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna')
       ),
       new ProblemTrivia(
