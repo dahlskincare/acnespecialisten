@@ -110,7 +110,7 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vid ett första besök hos AcneSpecialisten bedömer en hudterapeut din hud och identifierar tecknen på blandhy.',
+            content: 'Vid ditt första besök hos AcneSpecialisten bedömer en hudterapeut din hud noggrant och identifierar tecknen på blandhy.',
 
             url_label: 'Boka konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
@@ -126,7 +126,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Förebygg',
-            content: 'För att bibehålla resultaten av behandlingarna är det viktigt med rätt hudvård hemma. Vi rekommenderar produkter som är speciellt anpassade för blandhy.',
+            content: 'För att bibehålla resultaten av behandlingarna är det viktigt med rätt hudvård hemma. Vi rekommenderar produkter speciellt anpassade för blandhy.',
 
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
@@ -345,8 +345,8 @@ $articles = array(
             image_large: null,
             image_alt: 'När ska jag söka hjälp med min blandhy?',
             image_title: 'När ska jag söka hjälp med min blandhy?',
-            content: '<p class="p200">Blandhy, känd för sin kombination av torra och oljiga områden, utgör en unik utmaning och kan påverka individer i alla åldrar. Denna hudtyp kan leda till ökad känslighet, ojämn hudton och andra komplikationer som kan påverka din självkänsla och hudhälsa. Om du märker att din blandhy påverkar ditt dagliga välbefinnande eller om du inte lyckas behandla din hy, kan det vara dags att söka professionell hjälp. Att få en individanpassad behandlingsplan från en specialist är ett viktigt steg för att åtgärda din hy effektivt.</p>
-            <p class="p200 mt-m">En hudterapeut kan erbjuda en konsultation där din hud noggrant analyseras för att identifiera de bästa behandlingsmetoderna för just dina behov. Från balanserande hudvårdsrutiner till att tillämpa specifika behandlingar som syftar till att harmonisera hudens olika områden, erbjuds ett brett utbud av behandlingar för att adressera utmaningarna med blandhy. Om du strävar efter en mer enhetlig hudton och en hälsosam hudbalans, tveka inte att ta kontakt för professionell vägledning och behandling.</p>',
+            content: '<p class="p200">Blandhy, känd för sin kombination av torra och oljiga områden, utgör en unik utmaning och kan påverka individer i alla åldrar. Denna hudtyp kan leda till ökad känslighet, ojämn hudton och andra komplikationer som kan påverka din självkänsla och hudhälsa. Om du märker att din blandhy påverkar ditt dagliga välbefinnande eller om du inte lyckas behandla din hy själv, kan det vara dags att söka professionell hjälp. Att få en individanpassad behandlingsplan från en specialist är ett viktigt steg för att effektivt åtgärda din hud.</p>
+            <p class="p200 mt-m">En hudterapeut kan erbjuda en konsultation där din hud noggrant analyseras för att identifiera de bästa behandlingsmetoderna för just dina behov. Från balanserande hudvårdsrutiner till specifika behandlingar som harmoniserar hudens olika områden, finns ett brett utbud av behandlingar för att hantera utmaningarna med blandhy. Om du strävar efter en mer enhetlig hudton och en hälsosam hudbalans, tveka inte att kontakta oss för professionell vägledning och behandling.</p>',
       ),
 
       new Article(
@@ -355,9 +355,8 @@ $articles = array(
             image_large: null,
             image_alt: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
             image_title: 'Varför ska jag besöka AcneSpecialisten för min blandhy?',
-            content: '<p class="p200">Med vår djupgående expertis och mer än tre decenniers erfarenhet inom hudvård, särskilt med fokus på blandhy och andra hudtillstånd, har vi lång erfarenhet av att erbjuda personligt anpassade behandlingsplaner.</p>
-            <p class="p200 mt-m">Vi använder de bästa metoderna inom hudvård för att säkerställa optimala resultat för din hud. Vårt team av certifierade hudterapeuter engagerar sig för att skapa en behandlingsplan som är perfekt anpassad efter din huds unika behov, kompletterat med uppföljningar och skräddarsydda hemvårdsprogram för att säkerställa en bestående förbättring av din hud.</p>
-            <p class="p200 mt-m">Att välja oss innebär inte bara tillgång till framstående behandlingar för blandhy; vi kommer även att bli din partner och arbetar för att du ska uppnå målet av en balanserad och hälsosam hud. Vårt åtagande och expertis är vad som gör AcneSpecialisten till det optimala valet för alla som önskar hantera sin blandhy med omsorg, kunskap och effektivitet.</p>',
+            content: '<p class="p200">Med vår djupgående expertis och över tre decenniers erfarenhet inom hudvård, särskilt med fokus på blandhy och andra hudtillstånd, erbjuder vi personligt anpassade behandlingsplaner som ger resultat. Vi använder de bästa metoderna inom hudvård för att säkerställa optimala resultat för din hud. Vårt team av certifierade hudterapeuter engagerar sig för att skapa en behandlingsplan som är perfekt anpassad efter din huds unika behov. Detta kompletteras med uppföljningar och skräddarsydda hemvårdsprogram för att säkerställa en bestående förbättring av din hud.</p>
+            <p class="p200 mt-m">Att välja oss innebär inte bara tillgång till framstående behandlingar för blandhy; vi blir också din partner i resan mot en balanserad och hälsosam hud. Vårt engagemang och vår expertis gör AcneSpecialisten till det optimala valet för alla som önskar hantera sin blandhy med omsorg, kunskap och effektivitet.</p>',
       ),
 
 );
