@@ -11,7 +11,7 @@ $model = new Service(
     title: 'Hudbehandlingar för stora porer',
     duration: null,
     price: null,
-    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av stora porer som hjälper dig att effektivt minska porernas storlek. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">behandling för stora porer</a> som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en jämnare och slätare hud.</p>',
+    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av stora porer för att hjälpa dig att effektivt minska deras storlek. Oavsett dina specifika behov har vi rätt lösning för dig. Är du osäker på vilken behandling som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten. Vi hjälper dig vidare mot en jämnare och slätare hud.</p>',
     image_small: 'bilder/hudproblem/424x324/stora-porer.webp',
     image_large: 'bilder/hudproblem/424x456/stora-porer.webp',
     image_alt: 'Bild på behandling för stora porer',
@@ -31,16 +31,16 @@ $path_segments = array(
 
 $about_title = 'Hur vi behandlar och minskar stora porer';
 
-$about_content = '<p class="p200">Att behandla stora porer kräver en genomtänkt och individuell behandlingsplan. På Acnespecialisten använder vi vår erfarenhet och kunskap i kombination med de bästa behandlingarna och verktygen för att effektivt och regelbundet minska synligheten av porer. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla stora porer kräver en genomtänkt och individuell behandlingsplan. På Acnespecialisten kombinerar vi vår erfarenhet och kunskap med de bästa behandlingarna och verktygen för att effektivt minska synligheten av porer. Genom vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en skräddarsydd behandlingsplan.</p>
 
-    <p class="p200 mt-xl">Vi behandlar stora porer oavsett orsak och kan hjäpla dig med anpassade produkter och behandlingar för att reducera porerna och motverka att de vidgas. Om porerna har skapat ojämnheter eller andra hudproblem, har vi lösningar för att förbättra huden. Vi ser fram emot att bli din guide på resan mot att minska stora porer och återfå en jämnare och mer strålande hy.</p>';
+    <p class="p200 mt-xl">Vi behandlar stora porer oavsett orsak och erbjuder anpassade produkter och behandlingar för att reducera porernas storlek och förhindra att de vidgas. Om porerna har orsakat ojämnheter eller andra hudproblem har vi lösningar för att förbättra hudens utseende. Vi ser fram emot att vara din guide på resan mot att minska stora porer och återfå en jämnare och mer strålande hy.</p>';
 
 $headline01 = "01. Identifiera";
 
 $define_image_alt = 'Hur vi behandlar och minskar stora porer?';
 $define_image_title = 'Hur vi behandlar och minskar stora porer?';
 
-$define_content = '<p class="p200">Första steget i vår process att få bort stora porer i ansiktet och på kroppen är att kartlägga din hud och porstorlek. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och berättar om orsaken till dina stora porer samt hur vi effektivt kan behandla dem. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
+$define_content = '<p class="p200">Första steget i vår process att reducera stora porer i ansiktet och på kroppen är att kartlägga din hud och porstorlek. Vi börjar med en kostnadsfri konsultation där vi analyserar din hud och diskuterar orsakerna till dina stora porer samt hur vi effektivt kan behandla dem. Förebilder tas för att kunna följa din huds framsteg och anpassa behandlingsplanen över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer att du får konsekvent och noggrann hjälp anpassad efter dina specifika behov.</p>';
 
 $define_consultation_link = "gratis-hudkonsultation.php";
 $define_consultation_link_label = "Boka gratis konsultation";
@@ -48,7 +48,8 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla";
 
-$treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, därefter påbörjar vi behandlingen av stora porer. Här är målet framför allt att djuprengöra och minska porernas synlighet som kan påverka hudens textur och utseende. Vi tillämpar olika metoder för att anpassa behandlingen efter dina unika behov, vilket gör att vi kan maximera resultaten och minimera obehaget. Genom denna process rengör vi porerna, tar bort döda hudceller och överflödig talg, och balanserar talgproduktionen. Vi utför också porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Vi anpassar behandlingsplanen efter din huds respons.</p>';
+$treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, påbörjar vi behandlingen av stora porer. Målet är att djuprengöra och minska porernas synlighet, vilket kan påverka hudens textur och utseende. Vi tillämpar olika metoder anpassade efter dina unika behov, för att maximera resultaten och minimera obehaget.</p>
+<p class="p200>Under denna process rengör vi porerna, tar bort döda hudceller och överflödig talg samt balanserar talgproduktionen. Vi utför även porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Behandlingsplanen anpassas kontinuerligt efter hur din hud svarar på behandlingen, för att säkerställa bästa möjliga resultat.</p>';
 
 $services = array(
     new Service(
