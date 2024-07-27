@@ -98,11 +98,11 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Var',
             title: ' får man blandhy?',
-            content: '<p class="p200">Blandhy kan visa sig på olika platser i ansiktet, med vissa områden som känns oljigare än andra. De vanligaste zonerna för blandhy är den centrala delen av ansiktet – även känd som T-zonen, som inkluderar panna, näsa och haka. Samtidigt kan andra delar av ansiktet, som kinderna, upplevas torra eller normala.</p>',
+            content: '<p class="p200">Blandhy kan visa sig på olika platser i ansiktet, där vissa områden känns oljigare än andra. De vanligaste zonerna för blandhy är den centrala delen av ansiktet, även känd som T-zonen, som inkluderar panna, näsa och haka. Samtidigt kan andra delar av ansiktet, som kinderna, upplevas torra eller normala.</p>',
 
-            extended_content: '<p class="p200 mt-xl">När det gäller blandhy är ansiktets T-zon en av de mest talande indikatorerna. Den här zonen har en högre koncentration av talgkörtlar, vilket kan förklara varför den blir oljig snabbare. Kinderna, å andra sidan, kan kännas torra eftersom de har färre talgkörtlar. Detta kan skapa en känsla av obalans i huden, där vissa områden behöver fukt och andra behöver kontrollera överproduktion av talg.</p>
+            extended_content: '<p class="p200 mt-xl">När det gäller blandhy är ansiktets T-zon en av de mest talande indikatorerna. Den här zonen har en högre koncentration av talgkörtlar, vilket kan förklara varför den blir oljig snabbare. Kinderna, å andra sidan, kan kännas torra eftersom de har färre talgkörtlar. Detta skapar en känsla av obalans i huden, där vissa områden behöver fukt medan andra behöver kontrollera överproduktionen av talg.</p>
 
-            <p class="p200 mt-xl">Medan blandhy främst observeras i ansiktet, kan den unika kombinationen av torra och oljiga områden dyka upp var som helst. För att tillgodose de specifika behoven hos blandhy rekommenderar vi att du konsulterar med en hudterapeut för att skräddarsy en hudvårdsrutin som ger balans och välbefinnande till din hud.</p>',
+            <p class="p200 mt-xl">Även om blandhy främst observeras i ansiktet, kan den unika kombinationen av torra och oljiga områden förekomma var som helst på kroppen. För att tillgodose de specifika behoven hos blandhy rekommenderar vi att du konsulterar en hudterapeut för att skräddarsy en hudvårdsrutin som ger balans och välbefinnande till din hud.</p>',
             icons: array('ansikte' => 'Ansiktet')
       ),
 
