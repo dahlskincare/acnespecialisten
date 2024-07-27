@@ -62,22 +62,24 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är blandhy?',
-            content: '<p class="p200">Blandhy är en hudtyp som kännetecknas av att ha både torra och oljiga områden på ansiktet. Typiskt för blandhy är att T-zonen, som inkluderar panna, näsa och haka, tenderar att vara oljig medan kinderna kan vara torra eller normala. Detta medför att porerna i T-zonen ofta är förstorade medan de kan vara mindre synliga på kinderna.</p>',
+            content: '<p class="p200">Blandhy är en hudtyp som kännetecknas av att ha både torra och oljiga områden i ansiktet. Typiskt för blandhy är att T-zonen, som inkluderar panna, näsa och haka, tenderar att vara oljig medan kinderna kan vara torra eller normala. Detta medför att porerna i T-zonen ofta är förstorade, medan de kan vara mindre synliga på kinderna.</p>',
 
-            extended_content: '<p class="p200 mt-xl">En person med blandhy kan uppleva både glansighet i de oljigare områdena och en stram känsla i de torra partierna. Det kan även förekomma finnar eller pormaskar i de oljiga områdena.</p> 
+            extended_content: '<p class="p200 mt-xl">Personer med blandhy kan uppleva både glansighet i de oljigare områdena och en stram känsla i de torrare partierna. Det är också vanligt att finnar och pormaskar uppstår i de oljiga områdena.</p> 
             
-            <p class="p200 mt-xl">Trots dessa varierande egenskaper hos blandhy, är det viktigt att komma ihåg att varje individs hud är unik. Vissa kan ha tydligare oljiga områden medan andra upplever mer torrhet. Detta betyder att hudvårdsrutinen bör anpassas individuellt för att möta varje persons unika behov och för att upprätthålla en balanserad hudhälsa.</p>',
+            <p class="p200 mt-xl">Trots dessa varierande egenskaper hos blandhy är det viktigt att komma ihåg att varje individs hud är unik. Vissa kan ha mer uttalade oljiga områden, medan andra upplever mer torrhet. Därför bör hudvårdsrutinen anpassas individuellt för att möta varje persons unika behov och för att upprätthålla en balanserad hudhälsa.</p>',
 
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man blandhy?',
-            content: '<p class="p200">Blandhy beror på en kombination av genetik, hormonella svängningar och yttre miljöfaktorer. En obalans mellan torra och oljiga områden uppstår när vissa delar av huden producerar en optimal mängd talg medan andra delar underproducerar. Denna ojämnhet kan förstärkas genom genetiska anlag där familjemedlemmar också har haft liknande hudmönster.</p>',
+            content: '<p class="p200">Blandhy beror på en kombination av genetik, hormonella svängningar och yttre miljöfaktorer. Obalansen mellan torra och oljiga områden uppstår när vissa delar av huden producerar en optimal mängd talg medan andra delar underproducerar. Denna ojämnhet kan förstärkas av genetiska anlag, där familjemedlemmar också har haft liknande hudmönster.</p>',
 
-            extended_content: '<p class="p200 mt-xl">Hormonella förändringar, som de som inträffar under puberteten, graviditet eller menstruationscykeln, kan också spela en stor roll i uppkomsten av blandhy. Hormonförändringarna kan leda till att vissa delar av huden, som T-zonen, producerar mer talg än normalt. Yttre faktorer som klimat, årstidens växlingar och luftfuktighet kan också påverka hudens talgproduktion och fuktighetsnivå. Till exempel kan kalla vintermånader leda till torra kinder samtidigt som inomhusuppvärmning kan öka oljighet i T-zonen.</p>
+            extended_content: '<p class="p200 mt-xl">Hormonella förändringar, som de som inträffar under puberteten, graviditet eller menstruationscykeln, kan också spela en stor roll i uppkomsten av blandhy. Hormonförändringar kan leda till att vissa delar av huden, som T-zonen, producerar mer talg än normalt.</p>
+
+            <p class="p200">Yttre faktorer som klimat, årstidens växlingar och luftfuktighet kan också påverka hudens talgproduktion och fuktighetsnivå. Till exempel kan kalla vintermånader leda till torra kinder samtidigt som inomhusuppvärmning kan öka oljigheten i T-zonen.</p>
             
-            <p class="p200 mt-xl">Det är väsentligt att förstå de underliggande orsakerna till blandhy för att kunna anpassa en skräddarsydd hudvårdsrutin. Genom att identifiera dessa faktorer kan vi bättre adressera och balansera huden, vilket leder till en mer jämn och hälsosam hudton. Hos oss får du vägledning om vilka produkter och rutiner som passar bäst för att balansera din unika blandning av hudförhållanden.</p>',
+            <p class="p200 mt-xl">Det är väsentligt att förstå de underliggande orsakerna till blandhy för att kunna anpassa en skräddarsydd hudvårdsrutin. Genom att identifiera dessa faktorer kan vi bättre adressera och balansera huden, vilket leder till en mer jämn och hälsosam hudton. Hos oss på AcneSpecialisten får du vägledning om vilka produkter och rutiner som passar bäst för att balansera din unika blandning av hudförhållanden.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat')
       ),
 
