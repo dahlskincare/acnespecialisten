@@ -125,9 +125,9 @@ $services = array(
             image_alt: 'Bild av Cryopen behandling för blodprickar',
             image_title: 'Cryopen behandling för blodprickar',
 
-            url: '',
-            url_label: '',
-            url_title: '',
+            url: '/cryopen.php',
+            url_label: 'Läs mer om CryoPen',
+            url_title: 'Läs mer om CryoPen',
 
             consultation_url_label: 'Boka konsultation',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
@@ -149,8 +149,8 @@ $services = array(
             image_alt: 'Kvinna som får laserbehandling mot hudförändringar',
             image_title: 'Laserbehandling mot hudförändringar',
 
+            url: '/hudbehandlingar/laser-mot-hudproblem/', 
             url_label: 'Läs mer om laser',
-            url: '/hudbehandlingar/laser-mot-hudproblem/',
             url_title: 'Läs mer om laser mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
