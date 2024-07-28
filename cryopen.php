@@ -34,8 +34,9 @@ $model = new Service(
 $floating_box = '';
 
 $description_title = 'Vad är CryoPen?';
-$description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 sekunder fryser bort godartade hudförändringar. Kryo i kryobehandling betyder frysning och är en populär metod världen över. Behandlingen ger snabba resultat, är snäll mot huden och lämpar sig för borttagning av många olika typer av hudförändringar som födelsemärken, leverfläckar, hudflikar och ansiktsvårtor, samt olika typer av utåtstående märken och skönhetsfläckar. Den här behandlingen använder en preciserad kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar.</p>
-    <p class="p200 mt-m">Genom att rikta in sig på specifika områden med extrem kyla, kan CryoPen behandla hudförändringar effektivt utan att skada omgivande hud. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
+$description_text = '<p class="p200">CryoPen är ett verktyg som på under 20 sekunder effektivt fryser bort godartade hudförändringar. “Kryo” i kryobehandling betyder frysning, och denna populära metod används världen över. Behandlingen ger snabba resultat, är skonsam mot huden och är idealisk för att ta bort olika typer av hudförändringar såsom födelsemärken, leverfläckar, hudflikar, ansiktsvårtor och andra utåtstående märken och skönhetsfläckar.</p>
+
+    <p class="p200 mt-m">CryoPen använder precis kylteknologi för att selektivt frysa och förstöra oönskade hudförändringar. Genom att rikta in sig på specifika områden med extrem kyla kan CryoPen behandla hudförändringar effektivt utan att skada den omgivande huden. Den naturliga läkningsprocessen som stimuleras efter behandlingen resulterar i en jämnare och mer estetisk hudyta.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
