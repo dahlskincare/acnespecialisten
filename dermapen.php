@@ -755,26 +755,9 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
                         ?>
                     </section>
-
                 <?php } ?>
-                <?php if (isset($service_brands)) { ?>
-                    <section id="service-brands" class="large-margin">
-                        <?php if (isset($service_brands_title)) { ?>
-                            <h2 class="h500"><?php echo $service_brands_title ?></h2>
-                        <?php } ?>
-                        <?php if (isset($service_brands_text)) { ?>
-                            <div class="mt-xs"><?php echo $service_brands_text ?></div>
-                        <?php } ?>
-                        <div class="mt-xl">
-                            <?php
-                            $brands = $service_brands;
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
-                            ?>
-                        </div>
-                    </section>
 
-                    
-                <?php } ?>
+             
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
