@@ -60,7 +60,7 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Olika typer av hudförändringar vi tar bort';
+$types_title = 'Olika typer av utväxter vi tar bort';
 $types_description = '';
 $types = array(
     new Service(
@@ -266,7 +266,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Områden vi behandlar';
-$treatment_areas_text = '<p class="p200">CryoPen erbjuder en mångsidig lösning för att avlägsna hudförändringar på många olika delar av kroppen. Med dess precision kan behandlingen utföras på känsliga och svåråtkomliga områden som ansiktet, samt mer utbredda regioner som hals, axlar, och rygg. CryoPen är idealisk för att behandla enstaka eller flera hudförändringar, oavsett deras storlek och placering, och anpassas för att leverera optimala resultat för varje unikt fall.</p>';
+$treatment_areas_text = '<p class="p200">CryoPen erbjuder en mångsidig lösning för att avlägsna hudförändringar på många delar av kroppen, inklusive känsliga och svåråtkomliga områden. Behandlingen kan utföras på ansikte, hals, axlar, rygg och även intima områden. CryoPen är idealisk för att behandla enstaka eller flera hudförändringar, oavsett deras storlek och placering, och anpassas för att leverera optimala resultat för varje unikt fall.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
