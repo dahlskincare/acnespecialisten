@@ -17,7 +17,7 @@ $model = new Service(
     title: 'Dermapen 4 behandling Stockholm',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">Vi är störst i Sverige på Dermapen 4 som är den senaste microneedling tekniken. Optimal för dig som vill förbättra hudens struktur och elasticitet, minska synligheten av ärr, rynkor och linjer.</p>',
+    content: '<p class="p200">Vi är Sveriges ledande klinik på Dermapen 4, den senaste tekniken inom microneedling. Behandlingen är optimal för dig som vill förbättra hudens struktur och elasticitet samt minska synligheten av ärr, rynkor och fina linjer.</p>',
     image_small: 'bilder/varumarken/358x274/dermapen.webp',
     image_large: 'bilder/varumarken/424x456/dermapen.webp',
     image_alt: 'Dermapen',
@@ -58,8 +58,8 @@ $model = new Service(
 
 $floating_box = 'Förbättrar hudens struktur med nålbehandling.';
 
-$description_title = 'Innovativ microneedling behandling';
-$description_text = '<p class="p200">Dermapen är en framstående och effektiv microneedlingmetod som är lämplig för alla hudtyper, inriktad på att vitalisera och föryngra huden. Med en patenterad teknologi använder Dermapen4 avancerade mikronålar för att skapa fina, precisionsinriktade mikrokanaler i huden. Detta underlättar djupgående absorption av aktiva serum som är rika på näringsämnen och stimulerar hudens kollagenproduktion och naturliga läkningsprocess.</p>
+$description_title = 'Vad är dermapen?';
+$description_text = '<p class="p200">Dermapen är en framstående och effektiv microneedling-metod som passar alla hudtyper och är inriktad på att vitalisera och föryngra huden. Med sin patenterade teknologi använder Dermapen 4 avancerade mikronålar för att skapa precisa mikrokanaler i huden. Dessa kanaler underlättar djupgående absorption av näringsrika serum och stimulerar hudens kollagenproduktion samt naturliga läkningsprocess.</p>
     <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre mtekniker. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, stora porer, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
 
 $top_articles = array(
@@ -213,7 +213,7 @@ $big_types = array(
         title: 'Boosta din behandling med PRX-T33-behandling',
         duration: null,
         price: null,
-        content: '<p class="p200">Ta din behandling till nästa nivå med en specialiserad booster av PRX-T33, en nyskapande behandling som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill utöka resultatet utan att förlänga återhämtningstiden. Genom att kombinera PRX-T33 med Dermapen, förstärker och förlänger vi de positiva resultaten. Den kombinerade behandlingen ger en märkbar förbättring av hudens ton och struktur, samt minskar synbart fina linjer och ojämnheter. Resultatet är en jämnare och ungdomligare hud, som får dig att stråla.</p>',
+        content: '<p class="p200">Ta din dermapenbehandling till nästa nivå med PRX-T33, en nyskapande booster som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill maximera resultatet utan att förlänga återhämtningstiden. Genom att kombinera PRX-T33 med Dermapen, förstärker vi behandlingen och får PRX-syran att penetrera djupare in i huden genom de mikrokanaler som skapas av mikronålarna. Detta gör att syran kan verka mer effektivt än om den appliceras direkt på hudytan. Den kombinerade behandlingen ger en märkbar förbättring av hudens ton och struktur, samt minskar synbart fina linjer och ojämnheter. Resultatet är en jämnare, ungdomligare hud som får dig att stråla.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_alt: 'Boosta din Dermapen behandling med PRX-T33-behandling',
@@ -397,17 +397,7 @@ $bottom_articles = array('aftercare' => new Article(
     <p class="p200 mt-m">Följ de instruktioner för eftervård du får från din behandlare noggrant. Om du har några frågor eller bekymmer, är du alltid välkommen att kontakta din klinik. Baserat på hur din hud reagerar kan ytterligare uppföljning och behandlingar vara nödvändiga för att uppnå dina hudvårdsambitioner.</p>',
 ));
 
-$service_brands_title = 'Andra märken för microneedling';
-$service_brands_text = '<p class="p200">Utöver Dermapen utför vi även microneedling med Exceed.</p>';
-$service_brands = array(
 
-    new Brand(
-        label: 'Exceed',
-        image: 'images/brands/exceed.png',
-        image_alt: 'Exceed',
-        image_title: 'Exceed'
-    ),
-);
 
 $results_title = 'Dermapen 4 före och efter resultat';
 $results = array(
@@ -765,6 +755,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
                         ?>
                     </section>
+
                 <?php } ?>
                 <?php if (isset($service_brands)) { ?>
                     <section id="service-brands" class="large-margin">
@@ -781,10 +772,13 @@ $specialists_view_more = 'Se alla hudterapeuter';
                             ?>
                         </div>
                     </section>
+
+                    
                 <?php } ?>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
+
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
@@ -793,6 +787,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="Se alla omdömen"><?php echo $reviews_view_more ?></a>
                 </section>
+
                 <section id="faq" class="large-margin">
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
