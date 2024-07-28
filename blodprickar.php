@@ -96,7 +96,7 @@ $service = new Service(
       title: 'Konsultation för blodprickar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under en personlig konsultation med en hudspecialist utförs en grundlig undersökning av dina blodprickar. Vi tar före-bilder och diskuterar lämpliga behandlingsalternativ, inklusive möjligheten att använda Cryopen, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
+      content: 'Under en personlig konsultation med en hudspecialist utförs en grundlig undersökning av dina blodprickar. Vi tar före-bilder och diskuterar lämpliga behandlingsalternativ för att skräddarsy en behandlingsplan som passar dina specifika behov.',
 
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
@@ -120,10 +120,10 @@ $headline02 = "02. Behandla";
 
 $services = array(
       new Service(
-            title: 'Behandling av blodprickar med CryoPen',
+            title: 'CryoPen',
             duration: '20 min',
             price: '995 kr',
-            content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort hemangiom och blodprickar. Behandlingen är snabb och ger minimalt obehag, vilket gör den till ett effektivt sätt att minska synligheten av blodprickar.',
+            content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort hemangiom och blodprickar. Behandlingen är snabb och ger minimalt obehag.',
 
             image_small: 'images/services/200x200/cryopen.webp',
             image_large: 'images/services/200x200/cryopen.webp',
@@ -141,6 +141,30 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url: 'https://acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_smultronmarke',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för blodprickar'
+      ),
+
+       new Service(
+            title: 'Laser',
+            duration: '30 min',
+            price: '1995 kr',
+            content: 'Laserbehandling riktar högintensivt ljus mot hemangiom och blodprickar, vilket effektivt avlägsnar dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat',
+
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Kvinna som får laserbehandling mot hudförändringar',
+            image_title: 'Laserbehandling mot hudförändringar',
+
+            url_label: 'Läs mer om laser',
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
+            url_title: 'Läs mer om laser mot hudförändringar',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot hudförändringar',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Moles&area=EMPTY',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot hudförändringar',
       ),
 );
 
