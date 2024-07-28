@@ -18,7 +18,7 @@ $model = new Service(
     title: 'CryoPen behandling i Stockholm',
     duration: null,
     price: 'Från 2332 kr',
-    content: '<p class="p200">CryoPen är ett effektivt alternativ för dig som vill ta bort leverfläckar, födelsemärken, skintags, fibrom, fettknölar, hemangiom, pigmentfläckar och mycket mer. Vi erbjuder information om alla de olika hudförändringar vi kan behandla med CryoPen. Är du osäker på vilken typ av fläck du har och vill ta bort? Vi rekommenderar att du börjar med en kostnadsfri konsultation, där vi kan bedöma din hud och ge råd om den bästa behandlingen för dina specifika behov.</p>',
+    content: '<p class="p200">CryoPen är ett effektivt alternativ för att ta bort leverfläckar, födelsemärken, skintags, fibrom, fettknölar, hemangiom, pigmentfläckar och mycket mer. Är du osäker på vilken typ av fläck du har? Boka en kostnadsfri konsultation, där vi bedömer din hud och ger råd om den bästa behandlingen för dina behov.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
     image_alt: 'CryoPen',
