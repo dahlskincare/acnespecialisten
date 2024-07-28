@@ -34,24 +34,19 @@ $green_banner_content = new GreenBannerContent(
       show_consultation_card: false,
       akas: [
             new Link(
-                  label: 'Smultronmärken',
-                  url: null,
-                  title: 'Smultronmärken',
-            ),
-            new Link(
                   label: 'Jordgubbsmärke',
                   url: null,
                   title: 'Jordgubbsmärke',
             ),
             new Link(
-                  label: 'Hemangiom',
+                  label: 'Smultronmärken',
                   url: null,
-                  title: 'Hemangiom',
+                  title: 'Smultronmärken',
             ),
       ]
 );
 
-$floating_box = 'Vi behandlar blodprickar effektivt';
+$floating_box = '';
 
 $description_title = 'Vad är blodprickar?';
 $description_text = '<p class="p200">Blodprickar, jordgubbsmärken eller hemangiom som är den medicinska termen, syns som röda prickar på huden. De varierar lite i färg från klarröda till mörkt röda eller mer åt det lila hållet och ibland likna röda födelsemärken hos dig som är vuxen. De varierar i storlek. Det kan vara från ett par millimeter till en eller flera centimeter. De kan vara både släta och upphöjda.</p>
