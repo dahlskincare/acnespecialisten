@@ -26,7 +26,7 @@ $image_alt = 'Bild som visar behandling av cystisk akne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Cystisk akne',
-      description: 'Cystisk akne kallas också för nodulocystisk akne. I vardagligt tal går den även under benämningen "innåtfinne" då de inte täpps på ytan, utan uppstår på grund av en inflammation inne i huden. Detta är en av allvarligaste formerna av acne då risken är stor för ärrbildning. Den visar sig som knölar och bulor i huden.',
+      description: 'CCystisk akne, även känd som nodulocystisk akne, är en av de allvarligaste formerna av akne. Vanligtvis kallas det även för “inåtfinne” i vardagligt tal eftersom finnarna inte täpps på ytan, utan uppstår på grund av inflammation djupt inne i huden. Denna typ av akne visar sig som smärtsamma knölar och bulor och medför en hög risk för ärrbildning. Effektiv och snabb behandling är viktig för att minimera ärr och förbättra hudens utseende.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis Konsultation för Cystisk Acne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
@@ -48,8 +48,8 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina cystisk akne effektivt.';
 
 $description_title = 'Vad är cystisk akne?';
-$description_text = '<p class="p200">Cystisk akne, även känd som nodulocystisk akne eller acne nodulocystica, representerar en av de mest allvarliga formerna av akne. Denna typ av hudåkomma går bortom vanliga akneutslag och karaktäriseras av djupt liggande cystor och noduler som bildas under huden. Till skillnad från mindre allvarliga former av akne, såsom pormaskar eller mindre finnar, innebär cystisk och nodulär akne stora, smärtsamma, inflammerade utslag som kan orsaka betydande obehag samt risk för långvarig ärrbildning. Cystisk akne och nodulär akne delar liknande drag i det att båda tillstånden involverar djupgående inflammation och stora, smärtsamma utslag som ofta kräver professionell behandling för att hantera effektivt. Nodulocystisk akne, specifikt, refererar till när både noduler och cystor är närvarande, vilket tyder på en ännu mer intensiv grad av akne.</p>
-<p class="p200 mt-m">Behandlingen kräver en bred behandlingsplan som kombinerar både klinikbehandlingar och hemmavård som behandlar och balanserar problemet effektivt. På grund av den djupa inflammationen och risken för ärrbildning, är det viktigt att identifiera och inleda behandlingen tidigt för att reducera den negativa påverkan på huden. En hudterapeut kan hjäpla dig att komma igång med en skräddarsydd behandlingsplan som är anpassad för just din akne.</p>';
+$description_text = '<p class="p200">Cystisk akne, medicinskt känd som acne nodulocystica, är en av de mest allvarliga formerna av akne. Denna hudåkomma går bortom vanliga akneutslag och kännetecknas av djupt liggande cystor och noduler som bildas under huden. Till skillnad från mindre allvarliga former av akne, såsom pormaskar eller mindre finnar, innebär cystisk akne stora, smärtsamma och inflammerade utslag som kan orsaka betydande obehag och långvarig ärrbildning. Nodulocystisk akne innebär att både noduler och cystor är närvarande, vilket tyder på en mer intensiv grad av akne.</p>
+<p class="p200 mt-m">Behandlingen av cystisk akne kräver en omfattande behandlingsplan som kombinerar både klinikbehandlingar och hemmavård för att effektivt behandla och balansera hudproblemet. På grund av den djupa inflammationen och risken för ärrbildning är det viktigt att identifiera och inleda behandlingen tidigt för att minska den negativa påverkan på huden. En hudterapeut kan hjälpa dig att komma igång med en skräddarsydd behandlingsplan som är anpassad för just din akne.</p>';
 
 
 $treatment_steps = array(
