@@ -347,7 +347,7 @@ $treatment_areas = array(
         image_alt: 'Kombinera områden',
         image_title: 'Kombinera områden',
         title: 'Kombinera områden',
-        description: '<p class="p200">Effektiv för att behandla flera områden samtidigt.</p>',
+        description: '<p class="p200">Lägg endast till 1000 kr för att behandla ett helt extra område och få ett ännu jämnare och mer utökat resultat.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/icons/1x.svg',
@@ -365,7 +365,7 @@ $treatment_areas = array(
                 image_alt: '2x områden',
                 image_title: '2x områden',
                 title: '2x områden',
-                duration: '70 min',
+                duration: '60 min',
                 price: '3595 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_2xAreas',
                 url_label: 'Boka',
@@ -376,7 +376,7 @@ $treatment_areas = array(
                 image_alt: '3x områden',
                 image_title: '3x områden',
                 title: '3x områden',
-                duration: '90 min',
+                duration: '70 min',
                 price: '4595 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_3xAreas',
                 url_label: 'Boka',
