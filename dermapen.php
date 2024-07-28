@@ -56,7 +56,7 @@ $model = new Service(
     ),
 );
 
-$floating_box = 'Förbättrar hudens struktur med nålbehandling.';
+$floating_box = '';
 
 $description_title = 'Vad är dermapen?';
 $description_text = '<p class="p200">Dermapen är en framstående och effektiv microneedling-metod som passar alla hudtyper och är inriktad på att vitalisera och föryngra huden. Med sin patenterade teknologi använder Dermapen 4 avancerade mikronålar för att skapa precisa mikrokanaler i huden. Dessa kanaler underlättar djupgående absorption av näringsrika serum och stimulerar hudens kollagenproduktion samt naturliga läkningsprocess.</p>
