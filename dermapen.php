@@ -353,7 +353,7 @@ $treatment_areas = array(
                 image: '/icons/1x.svg',
                 image_alt: '1x område',
                 image_title: '1x område',
-                title: '1x områdes',
+                title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_1xArea',
