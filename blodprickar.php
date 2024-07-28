@@ -21,7 +21,7 @@ $image_title = 'Effektiv behandling av blodprickar';
 $image_alt = 'Bild som illustrerar behandling av blodprickar';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Behandling av blodprickar',
+      title: 'Behandling av Hemangiom (Blodprickar)',
       description: 'Röda blodprickar i huden, även kända som hemangiom eller smultronmärken, är små, röda hudförändringar som ofta uppkommer i vuxen ålder. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Hudförändringar'),
@@ -83,10 +83,10 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">I regel är smultronmärken ofarliga men det kan vara bra att hålla koll på dem så att de inte växer eller förändras i färgen. Även om de inte är farliga kan man uppleva dem som estetiskt störande och därför vilja ta bort dem.</p>
-      <p class="p200 mt-m">Att ta bort blodprickar eller fläckar är inte komplicerat. Vi på Acnespecialisten har tagit fram en unik metod där vi först utför en gratis hudkonsultation för att säkerställa vilken typ av problemhy det är du vill behandla. När det kommer till blodprickar, smultronmärken, hemangiom eller angiom använder vi oss av en behandling som kallas för cryopen. Efter konsultationen är det nästa steg i processen av att ta bort din blodprick.</p>
-      <p class="p200 mt-m">Kryo betyder frysning, och är just det som behandlingen går ut på. Det är effektivt för att ta bort blodprickar och är en metod som används världen över. Man fryser helt enkelt ner det lilla området som är drabbat och reducerar blodpricken med hjälp av kyla. Det räcker oftast med 1-3 gånger.</p>
-      <p class="p200 mt-m">Observera att vi på Acnespecialisten endast har möjligheten att behandla godartade hudförändringar. Vi har tyvärr inte möjligheten att utföra provtagning och rekommenderar därför att du vänder dig till en läkare om du är osäker på huruvida din hudåkomma är ofarlig.</p>',
+            content: '<p class="p200">I regel är smultronmärken ofarliga, men det kan vara bra att hålla koll på dem så att de inte växer eller förändras i färgen. Även om de inte är farliga kan de upplevas som estetiskt störande och därför vilja tas bort.</p>
+      <p class="p200 mt-m">Att ta bort blodprickar eller fläckar är inte komplicerat. På AcneSpecialisten börjar vi med en kostnadsfri hudkonsultation för att säkerställa vilken typ av hudproblem du vill behandla. När det gäller blodprickar, smultronmärken, hemangiom eller angiom använder vi oss av två effektiva behandlingsmetoder: CryoPen och laser.</p>
+      <p class="p200 mt-m">CryoPen-behandlingen innebär att man fryser ner det drabbade området för att effektivt reducera blodprickarna med hjälp av kyla. Det krävs oftast 1-3 behandlingar för att uppnå önskat resultat. Laserbehandling är ett annat alternativ som ofta räcker med endast ett besök för att uppnå de bästa resultaten.</p>
+      <p class="p200 mt-m">Observera att vi på AcneSpecialisten endast kan behandla godartade hudförändringar. Vi har tyvärr inte möjlighet att utföra provtagningar och rekommenderar därför att du vänder dig till en läkare om du är osäker på huruvida din hudåkomma är ofarlig.</p>',
       ),
 );
 
