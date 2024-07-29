@@ -5,9 +5,6 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^acnespecialisten.se [NC]
 RewriteRule ^(.*)$ https://www.acnespecialisten.se/$1 [L,R=301]
 
-# Redirect /book to treatment-booking.minoch.com and capture query parameters
-RewriteRule ^book$ https://treatment-booking.minoch.com [QSA,L,R=307]
-
 Redirect 301 /porig-hy-html /pormaskar.php
 Redirect 301 /produkter.php https://dahlskincare.se/
 Redirect 301 /webshop.aspx https://dahlskincare.se/
