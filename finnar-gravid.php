@@ -98,15 +98,15 @@ $trivias = array(
             title: ' av graviditetsrelaterade finnar',
             content: '<p class="p200">Att hantera finnar under graviditeten kräver försiktighet eftersom många vanliga aknebehandlingar bör undvikas. Här är några rekommendationer:</p>
 
-            <p class="p200"><strong>Rekommenderade behandlingar under graviditeten:</strong></p>
+            <p class="p200 mt-xl"><strong>Rekommenderade behandlingar under graviditeten:</strong></p>
 
              <ul><li class="mt-xl"><strong>Hudvårdsprodukter:</strong> Använd milda, icke-komedogena rengöringar och oljefria fuktkrämer för att hålla huden ren och återfuktad utan irritation.</li>
 
             <li class="mt-xl"><strong>Ansiktsbehandlingar:</strong> Professionella behandlingar som portömningar kan hjälpa till att minska finnar genom att rengöra porerna på djupet och underhålla huden.</li></ul>
 
-            <p class="p200"><strong>Behandlingar att undvika under graviditeten:</strong></p>
+            <p class="p200 mt-xl"><strong>Behandlingar att undvika under graviditeten:</strong></p>
 
-            <li class="mt-xl"><strong>Laser:</strong> Undvik laserbehandlingar då de kan vara skadliga för både dig och barnet.</li>
+            <ul><li class="mt-xl"><strong>Laser:</strong> Undvik laserbehandlingar då de kan vara skadliga för både dig och barnet.</li>
 
             <li class="mt-xl"><strong>Kemisk peeling:</strong> Starka kemiska peels kan penetrera huden och vara skadliga under graviditeten.</li>
 
@@ -776,7 +776,7 @@ $brands_url_title = "Se alla varumärken";
                               <hr>
                         </section>
 
-                        
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
