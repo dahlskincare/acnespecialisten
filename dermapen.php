@@ -83,8 +83,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Behandlingar efter hudproblem';
-$types_description = 'Vi behandlar flera olika hudproblem.';
+$types_title = 'Behandlingar efter problem';
+$types_description = null;
 $types = array(
     new Service(
         title: 'Dermapen mot Acneärr',
