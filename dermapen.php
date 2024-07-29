@@ -252,6 +252,93 @@ $treatment_areas = array(
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
             new TreatmentAreaItem(
+                image: '/bilder/omraden/ikoner/hals.svg',
+                image_alt: 'Hals',
+                image_title: 'Hals',
+                title: 'Hals',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Neck',
+                url_label: 'Boka',
+                url_title: 'Boka tid för halsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: '/bilder/omraden/ikoner/dekolletage.svg',
+                image_alt: 'Dekolletage',
+                image_title: 'Dekolletage',
+                title: 'Dekolletage',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Decolletage',
+                url_label: 'Boka',
+                url_title: 'Boka tid för dekolletagebehandling'
+            ),
+            new TreatmentAreaItem(
+                image: '/bilder/omraden/ikoner/rygg.svg',
+                image_alt: 'Rygg',
+                image_title: 'Rygg',
+                title: 'Rygg',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Back',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ryggbehandling'
+            ),
+        )
+    ),
+    
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Kombinera områden',
+        image_title: 'Kombinera områden',
+        title: 'Kombinera områden',
+        description: '<p class="p200">Lägg endast till 1000 kr för att behandla ett helt extra område och få ett ännu jämnare och mer utökat resultat.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: '/icons/1x.svg',
+                image_alt: '1x område',
+                image_title: '1x område',
+                title: '1x område',
+                duration: '50 min',
+                price: '2595 kr',
+                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_1xArea',
+                url_label: 'Boka',
+                url_title: 'Boka tid för halsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: '/icons/2x.svg',
+                image_alt: '2x områden',
+                image_title: '2x områden',
+                title: '2x områden',
+                duration: '60 min',
+                price: '3595 kr',
+                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_2xAreas',
+                url_label: 'Boka',
+                url_title: 'Boka tid för dekolletagebehandling'
+            ),
+            new TreatmentAreaItem(
+                image: '/icons/3x.svg',
+                image_alt: '3x områden',
+                image_title: '3x områden',
+                title: '3x områden',
+                duration: '70 min',
+                price: '4595 kr',
+                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_3xAreas',
+                url_label: 'Boka',
+                url_title: 'Boka tid för ryggbehandling'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Kropp',
+        image_title: 'Kropp',
+        title: 'Kropp',
+        description: '<p class="p200">Anpassningsbar för behandling av olika kroppsdelar.</p>',
+        items: array(
+        new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/nasa.svg',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
@@ -295,93 +382,7 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för hakbehandling'
             ),
-
-        )
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">Anpassningsbar för behandling av olika kroppsdelar.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/hals.svg',
-                image_alt: 'Hals',
-                image_title: 'Hals',
-                title: 'Hals',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Neck',
-                url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/dekolletage.svg',
-                image_alt: 'Dekolletage',
-                image_title: 'Dekolletage',
-                title: 'Dekolletage',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Decolletage',
-                url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/rygg.svg',
-                image_alt: 'Rygg',
-                image_title: 'Rygg',
-                title: 'Rygg',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Back',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
-            ),
-        )
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Kombinera områden',
-        image_title: 'Kombinera områden',
-        title: 'Kombinera områden',
-        description: '<p class="p200">Lägg endast till 1000 kr för att behandla ett helt extra område och få ett ännu jämnare och mer utökat resultat.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: '/icons/1x.svg',
-                image_alt: '1x område',
-                image_title: '1x område',
-                title: '1x område',
-                duration: '50 min',
-                price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_1xArea',
-                url_label: 'Boka',
-                url_title: 'Boka tid för halsbehandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/icons/2x.svg',
-                image_alt: '2x områden',
-                image_title: '2x områden',
-                title: '2x områden',
-                duration: '60 min',
-                price: '3595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_2xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för dekolletagebehandling'
-            ),
-            new TreatmentAreaItem(
-                image: '/icons/3x.svg',
-                image_alt: '3x områden',
-                image_title: '3x områden',
-                title: '3x områden',
-                duration: '70 min',
-                price: '4595 kr',
-                url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_3xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för ryggbehandling'
-            ),
+           
         )
     ),
 );
