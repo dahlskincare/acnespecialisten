@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar hudproblem med finnar i ansiktet';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Finnar i ansiktet',
-      description: 'Denna sektion ger en ingående titt på finnar i ansiktet, deras huvudsakliga orsaker som hormonella förändringar, stress och andra faktorer, samt hur AcneSpecialisten erbjuder målinriktade behandlingar för detta hudtillstånd. Vi delar även skräddarsydda hudvårdsråd som är lämpliga för personer i alla åldersgrupper.',
+      description: 'Finnar i ansiktet orsakas ofta av hormonella förändringar, stress och andra faktorer. AcneSpecialisten erbjuder målinriktade behandlingar för att effektivt hantera detta hudtillstånd. Vi delar även skräddarsydda hudvårdsråd för alla åldersgrupper, vilket hjälper dig att uppnå en klarare hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples', 'Boka denna behandling'),
@@ -54,8 +54,9 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina finnar i ansiktet effektivt.';
 
 $description_title = 'Orsaker och Behandlingar';
-$description_text = '<p class="p200">Finnar i ansiktet är en hudutmaning som inte enbart drabbar tonåringar utan även individer i alla åldrar, ofta påverkat av faktorer som hormonella förändringar, stress och livsstil. På Acnespecialisten inriktar vi oss på att noggrant rengöra och balansera huden med metoder som är lämpliga för olika åldrar och hudtyper. Vi erbjuder ett brett utbud av anpassade behandlingar som aktivt bekämpar finnar och är skonsamma mot huden.</p>
-<p class="p200 mt-m">Vår expertis på Acnespecialisten innefattar skräddarsydda hudvårdsprogram som möter de unika behoven hos varje individ. Från precisa rengöringsstrategier till specialanpassade behandlingar som vårdar och lugnar, är våra hudterapeuter utrustade med kunskap och färdigheter för att erbjuda den mest effektiva och samtidigt skonsamma vård för alla typer av hudproblem.</p>';
+$description_text = '<p class="p200">Finnar i ansiktet drabbar inte bara tonåringar utan även individer i alla åldrar, ofta påverkade av hormonella förändringar, stress och livsstil. På AcneSpecialisten fokuserar vi på att noggrant rengöra och balansera huden med metoder anpassade för olika hudtyper. Vi erbjuder ett brett utbud av behandlingar som effektivt bekämpar finnar och är skonsamma mot huden.</p>
+
+<p class="p200 mt-m">Vår expertis på AcneSpecialisten innefattar skräddarsydda hudvårdsprogram som möter de unika behoven hos varje individ. Från precisa rengöringsstrategier till specialanpassade behandlingar som vårdar och lugnar, våra hudterapeuter har den kunskap och erfarenhet som krävs för att erbjuda effektiv och skonsam vård för alla typer av hudproblem.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -868,7 +869,7 @@ $brands_url_title = "Se alla varumärken";
                               </section>
                         <?php } ?>
 
-                                                <section id="define">
+                        <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>

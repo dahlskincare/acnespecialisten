@@ -53,21 +53,41 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar på bröstet effektivt.';
 
-$description_title = 'Fakta';
-$description_text = '<p class="p200">Finnar på bröstet och bröstkorgen kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>
-<p class="p200 mt-m">På Acnespecialisten har vi expertis inom individanpassade hudvårdsprogram som svarar mot varje klients unika behov. Från noggranna rengöringsrutiner till specialutformade behandlingar som vårdar och lugnar, våra hudterapeuter har den nödvändiga kunskapen och erfarenheten för att ge den mest effektiva och skonsamma behandlingen för alla typer av hudproblem.</p>';
+$about_title = 'Fakta';
+
+$trivias = array(
+      new ProblemTrivia(
+            prefix: 'Vad',
+            title: ' är finnar?',
+            content: '<p class="p200">Finnar på bröstet och bröstkorgen kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>',
+
+            extended_content: '<p class="p200 mt-xl">På Acnespecialisten har vi expertis inom individanpassade hudvårdsprogram som svarar mot varje klients unika behov. Från noggranna rengöringsrutiner till specialutformade behandlingar som vårdar och lugnar, våra hudterapeuter har den nödvändiga kunskapen och erfarenheten för att ge den mest effektiva och skonsamma behandlingen för alla typer av hudproblem.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Varför',
+            title: ' får man finnar?',
+            content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>',
+
+            extended_content: '<p class="p200 mt-xl">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat')
+      ),
+);
+
+
+
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Genom en personlig konsultation hos AcneSpecialisten kartlägger vi de unika egenskaperna hos dina finnar på bröstet. Du får en individanpassad behandlingsplan baserad på vår expertis om finnar.',
+            content: 'Genom en personlig konsultation hos AcneSpecialisten kartlägger vi de unika egenskaperna hos dina finnar på bröstet. Du får en individanpassad behandlingsplan baserad på vår expertis.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar är noggrant anpassade för finnar på bröstet och fokuserar på både effektivitet och skonsamhet. Vi erbjuder en mängd olika alternativ, specialutformade för din huds behov.',
+            content: 'Våra behandlingar är noggrant anpassade för finnar på bröstet och fokuserar på både effektivitet och skonsamhet. Vi erbjuder olika alternativ, specialutformade för din huds behov.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra anpassade finnarbehandlingar'
@@ -81,7 +101,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar som fokuserar på att reparera huden, inklusive att reducera ärr och förbättra hudens struktur.',
+            content: 'Vi erbjuder behandlingar som reparerar huden genom att minska ärr och förbättra hudens struktur.',
             url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
@@ -90,17 +110,7 @@ $treatment_steps = array(
 
 $treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva behandlingar mot finnar på bröstet" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Varför uppstår finnar på bröstet?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>
-      <p class="p200 mt-m">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
-      ),
-);
+
 
 $headline01 = "01. Identifiera";
 
@@ -132,7 +142,7 @@ $services = array(
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
             price: '1295 kr',
-            content: 'Effektiv lösning för att klämma finnar utan att orsaka ärr, detta genom att noggrant framtagen för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
+            content: 'Klämmer finnar utan att orsaka ärr genom att extrahera orenheter och främja snabbare läkning.',
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling mot finnar',
@@ -151,7 +161,7 @@ $services = array(
             title: 'Laserbehandling mot finnar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Avancerade laserteknik! Genom att rikta sig mot bakterier som orsakar inflammation, minskar denna behandling risken för framtida utbrott och hjälper till att ge dig en jämnare och klarare hud.',
+            content: 'Minskar bakterier och inflammation för att förebygga framtida utbrott och ge jämnare hud.',
             image_small: 'images/services/200x200/laser.webp',
             image_large: 'images/services/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot finnar',
@@ -170,7 +180,7 @@ $services = array(
             title: 'Kemisk peeling mot finnar',
             duration: '30 min',
             price: '1595 kr',
-            content: 'Effektiv metod för att behandla finnar. Genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation.',
+            content: 'Exfolierar huden, rensar porer och minskar inflammation med en speciellt framtagen syra.',
             image_small: 'images/services/200x200/kemisk-peeling.webp',
             image_large: 'images/services/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling mot finnar',
@@ -190,7 +200,7 @@ $services = array(
             title: 'Microneedling mot finnar',
             duration: '50 min',
             price: '2595 kr',
-            content: 'Effektiv behandlingsmetod. Genom att skapa små mikroskopiska kanaler i huden, främjar denna behandling hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Metoden kan effektivt minska utbrott av finnar, förbättra hudens struktur och minska synligheten av ärr orsakade av finnar.',
+            content: 'Skapar små kanaler i huden, främjar läkning, stimulerar kollagen och minskar ärr.',
             image_small: 'images/services/200x200/microneedling.webp',
             image_large: 'images/services/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot finnar',
@@ -263,14 +273,6 @@ $procedures = array(
 );
 
 $articles = array(
-      new Article(
-            title: 'Viktiga tecken på att du bör söka hjälp',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Tecken på att söka hjälp för bröstfinnar',
-            image_title: 'Tecken på att söka hjälp för bröstfinnar',
-            content: '<p class="p200">Finnar på bröstet kan vara mer än bara ett estetiskt problem – de kan även vara en källa till obehag och emotionell oro. Om du upptäcker att dina finnar är återkommande eller försämras, är det dags att överväga professionell hjälp. Tidig intervention är viktig för att förhindra ärrbildning och andra långsiktiga hudproblem. Genom att söka professionell rådgivning kan du få hjälp med att behandla befintliga utbrott och lära dig förebyggande strategier och skapa en effektiv hudvårdsrutin.</p>',
-      ),
       new Article(
             title: 'Varför välja AcneSpecialisten?',
             image_small: null,
@@ -861,10 +863,16 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        <section id="about">
-                              <h2 class="h500"><?php echo $description_title ?></h2>
-                              <div class="mt-xl"><?php echo $description_text ?></div>
+
+                          <section id="about">
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
+                              <?php foreach ($trivias as $trivia) {
+                                    echo '<hr>';
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
+                              } ?>
+                              <hr>
                         </section>
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -880,13 +888,6 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
 
                           <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
