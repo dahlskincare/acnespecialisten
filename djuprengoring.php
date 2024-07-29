@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Djuprengöring ansikte',
     duration: '60 min',
     price: 'Från 799 kr',
-    content: '<p class="p200">En djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring av huden. Denna behandling involverar en intensiv portömning som inte bara öppnar upp porerna utan även rensar dem på djupet.</p>',
+    content: '<p class="p200">EEn djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring. Behandlingen inkluderar en intensiv portömning som öppnar upp porerna och rensar dem på djupet, vilket ger en klarare och mer balanserad hud.</p>',
     image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Djuprengöring',
@@ -60,8 +60,8 @@ $model = new Service(
 $floating_box = 'Effektiv djuprengöring.';
 
 $description_title = 'Vad är en djuprengöring?';
-$description_text = '<p class="p200">Våra djuprengöring är en specialiserad form av porrengöring som specifikt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
-<p class="p200 mt-m">Anpassad för olika hudtyper, inklusive oljig, torr och blandhud, strävar våra djuprengöringsbehandling efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
+$description_text = '<p class="p200">Våra djuprengöringar är specialiserade porrengöringsbehandlingar som effektivt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
+<p class="p200 mt-m">AAnpassade för olika hudtyper, inklusive oljig, torr och blandhy, strävar våra djuprengöringsbehandlingar efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
 
 $types_title = '';
 $types_description = '';
@@ -70,8 +70,8 @@ $big_types = array(
         title: 'Djuprengöring',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">Vår djuprengöringsprocess inleds med en rengöring som effektivt tar bort smuts och överflödig talg. Efter detta tillkommer en ångbehandling som mjukgör huden och förbereder den för pormaskborttagning. Genom denna metod kan våra hudterapeuter djuprengöra porerna mer effektivt.</p>
-        <p class="p200 mt-m">Efter den grundliga rengöringen appliceras en lermask som verkar lugnande på huden och hjälper till att strama åt porerna. Behandlingen avslutas med en återfuktande kräm som återställer hudens balans och efterlämnar en jämn och ren yta.</p>',
+        content: '<p class="p200">Vår djuprengöringsprocess börjar med en noggrann rengöring som effektivt avlägsnar smuts och överflödig talg. Därefter appliceras en ångbehandling som mjukgör huden och förbereder den för pormaskborttagning. Genom denna metod kan våra hudterapeuter rengöra porerna mer effektivt.</p>
+        <p class="p200 mt-m">Efter den grundliga rengöringen appliceras en lermask som lugnar huden och hjälper till att strama åt porerna. Behandlingen avslutas med en återfuktande kräm som återställer hudens balans och lämnar en jämn och ren yta.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_alt: 'djuprengöring',
