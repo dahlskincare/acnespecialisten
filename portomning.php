@@ -17,7 +17,7 @@ $model = new Service(
     title: 'Portömning i Stockholm',
     duration: null,
     price: null,
-    content: '<p class="p200">Portömning är en effektiv ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden.</p>',
+    content: '<p class="p200">Portömning är en effektiv ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden. Kan utföras i ansiktet,ryggen eller bröstet.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Portömning',
