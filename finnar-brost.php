@@ -80,14 +80,14 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Genom en personlig konsultation hos AcneSpecialisten kartlägger vi de unika egenskaperna hos dina finnar på bröstet. Du får en individanpassad behandlingsplan baserad på vår expertis om finnar.',
+            content: 'Genom en personlig konsultation hos AcneSpecialisten kartlägger vi de unika egenskaperna hos dina finnar på bröstet. Du får en individanpassad behandlingsplan baserad på vår expertis.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar är noggrant anpassade för finnar på bröstet och fokuserar på både effektivitet och skonsamhet. Vi erbjuder en mängd olika alternativ, specialutformade för din huds behov.',
+            content: 'Våra behandlingar är noggrant anpassade för finnar på bröstet och fokuserar på både effektivitet och skonsamhet. Vi erbjuder olika alternativ, specialutformade för din huds behov.',
             url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra anpassade finnarbehandlingar'
@@ -101,7 +101,7 @@ $treatment_steps = array(
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar som fokuserar på att reparera huden, inklusive att reducera ärr och förbättra hudens struktur.',
+            content: 'Vi erbjuder behandlingar som reparerar huden genom att minska ärr och förbättra hudens struktur.',
             url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
