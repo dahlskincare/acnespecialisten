@@ -102,6 +102,166 @@ $top_articles = array(
       ),
 );
 
+$headline01 = "01. Identifiera";
+
+$service = new Service(
+      title: 'Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Möt en expert för en individuell konsultation och detaljerad analys av ditt hudproblem. Vi tar bilder för att jämföra resultat och rekommenderar en anpassad behandlingsplan.',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Bild som visar en konsultation för finnar',
+      image_title: 'Konsultation för finnbehandling',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url_title: 'Klicka här för att boka en tid för en konsultation om finnar',
+      booking_url: null,
+      booking_url_label: null,
+      booking_url_title: null,
+      url_label: 'Läs mer om gratis hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
+      url_title: 'Läs mer om gratis hudkonsultation mot finnar',
+
+);
+
+$headline02 = "02. Behandla";
+
+$services = array(
+      new Service(
+            title: 'Ansiktsbehandling mot finnar',
+            duration: '60 min',
+            price: '1295 kr',
+            content: 'Effektiv lösning för att klämma finnar utan att orsaka ärr, detta genom att noggrant framtagen för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_alt: 'Bild av en ansiktsbehandling mot finnar',
+            image_title: 'Ansiktsbehandling mot finnar',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot finnar',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot finnar',
+            url_label: 'Läs mer om ansiktsbehandling',
+            url: '/portomning.php',
+            url_title: 'Läs mer om ansiktsbehandling mot finnar',
+      ),
+      new Service(
+            title: 'Laserbehandling mot finnar',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Avancerade laserteknik! Genom att rikta sig mot bakterier som orsakar inflammation, minskar denna behandling risken för framtida utbrott och hjälper till att ge dig en jämnare och klarare hud.',
+            image_small: 'images/services/200x200/laser.webp',
+            image_large: 'images/services/200x200/laser.webp',
+            image_alt: 'Bild av laserbehandling mot finnar',
+            image_title: 'Laserbehandling mot finnar för en klarare hud',
+            consultation_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples&method=Method_LaserProblem',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka här för att boka tid för en hudkonsultation för laserbehandling mot finnar',
+            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=SKIP',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
+            url_label: 'Läs mer om laser',
+            url_title: 'Läs mer om laser mot finnar',
+      ),
+      new Service(
+            title: 'Kemisk peeling mot finnar',
+            duration: '30 min',
+            price: '1595 kr',
+            content: 'Effektiv metod för att behandla finnar. Genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation.',
+            image_small: 'images/services/200x200/kemisk-peeling.webp',
+            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_alt: 'Bild av kemisk peeling mot finnar',
+            image_title: 'Kemisk peeling mot finnar behandling',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot finnar',
+            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=SKIP',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot finnar behandling',
+            url: '/kemisk-peeling.php',
+            url_label: 'Läs mer om kemisk peeling',
+            url_title: 'Läs mer om kemisk peeling mot finnar',
+      ),
+
+      new Service(
+            title: 'Microneedling mot finnar',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Effektiv behandlingsmetod. Genom att skapa små mikroskopiska kanaler i huden, främjar denna behandling hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Metoden kan effektivt minska utbrott av finnar, förbättra hudens struktur och minska synligheten av ärr orsakade av finnar.',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Bild av microneedling mot finnar',
+            image_title: 'Microneedling mot finnar',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot finnar',
+            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=SKIP',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot finnar',
+            url: '/microneedling.php',
+            url_label: 'Läs mer om microneedling',
+            url_title: 'Läs mer om microneedling mot finnar',
+      )
+
+
+);
+
+$headline03 = "03. Förebygg";
+
+$products = array(
+      new Service(
+            title: 'Produkter mot finnar',
+            duration: null,
+            price: 'Från 1395 kr',
+            content: 'Att effektivt behandla huden kräver regelbunden användning av de rätta produkterna. Våra hudvårdsprodukter har specialutformats för att balansera din hud och motverka uppkomsten av nya finnar.',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
+            image_alt: 'Bild av produkter designade för behandling av finnar',
+            image_title: 'Effektiva produkter för bekämpning och förebyggande av finnar',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
+            url_label: 'Läs mer om produkterna',
+            url_title: 'Klicka här för att läsa mer om våra effektiva produkter mot finnar'
+      )
+);
+
+
+$headline04 = "04. Reparera";
+
+$procedures = array(
+      new Service(
+            title: 'Reparera ärr efter finnar',
+            duration: '4 behandlingsmetoder',
+            price: null,
+            content: 'Ärr kan uppstå i form av gropar och fläckar på huden där finnarna tidigare varit. Dessa ärr kan vara i olika former och färger, och behandlas med olika metoder.',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Reparera ärr efter finnar',
+            image_title: 'Reparera ärr efter finnar',
+
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot ärr från finnar',
+
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot ärr från finnar',
+
+            url: 'behandla-finnar-arr.php',
+            url_label: 'Läs mer om behandlingar',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ärr från finnar'
+      ),
+
+);
+
 $articles = array(
       new Article(
             title: 'Viktiga tecken på att du bör söka hjälp',
@@ -727,6 +887,37 @@ $brands_url_title = "Se alla varumärken";
                                     ?>
                               </section>
                         <?php } ?>
+
+                          <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="products">
+                              <h2 class="h500"><?php echo $headline03 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($products as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="treatment-solutions">
+                              <h2 class="h500"><?php echo $headline04 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($procedures as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
