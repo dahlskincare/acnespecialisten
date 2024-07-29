@@ -128,28 +128,28 @@ $trivias = array(
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'I en personlig konsultation hos AcneSpecialisten kartlägger vi de unika dragen hos dina finnar på både axlarna och ryggen, samt tar fram en behandlingsplan skräddarsydd för dig.',
+            content: 'Vid en konsultation hos AcneSpecialisten kartlägger vi dina finnar på axlar och rygg och skapar en skräddarsydd behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Vi erbjuder målinriktade behandlingar för finnar på ryggen, skräddarsydda för att effektivt hantera ditt hudtillstånd. Vårt utbud av behandlingsalternativ är anpassat till din huds unika behov och kondition.',
-            url_label: 'Se fbehandlingar',
+            content: 'Vi erbjuder målinriktade behandlingar för finnar på ryggen, anpassade efter din huds unika behov.',
+            url_label: 'Se behandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra specialanpassade finnarbehandlingar'
       ),
       new TreatmentStep(
-            title: 'Förebygga',
-            content: 'Vi erbjuder skräddarsydda hudvårdsprodukter och rutiner för att effektivt förebygga framtida utbrott av finnar på ryggen. Dessa produkter är utvecklade för att bevara en sund hudbalans och förhindra nya finnar.',
+            title: 'Förebygg',
+            content: 'Vi rekommenderar skräddarsydda hudvårdsprodukter och rutiner för att förebygga framtida utbrott och bevara hudens balans.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga finnar på ryggen'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'För att återställa huden efter finnar på ryggen och axlarna erbjuder vi behandlingar som minskar ärr och förbättrar hudtexturen.',
+            content: 'Vi erbjuder behandlingar för att minska ärr och förbättra hudens textur efter finnar på ryggen och axlarna.',
             url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar på ryggen'
