@@ -161,7 +161,7 @@ $treatment_link = '<a href="finnar-behandling.php" title="Utforska effektiva beh
 $headline01 = "01. Identifiera";
 
 $service = new Service(
-      title: 'Konsultation',
+      title: 'Hudkonsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Möt en expert för en individuell konsultation och detaljerad analys av ditt hudproblem. Vi tar bilder för att jämföra resultat och rekommenderar en anpassad behandlingsplan.',
