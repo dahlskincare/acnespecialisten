@@ -135,7 +135,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Tonårsakne',
                         subtitle: 'Acne vulgaris',
-                        image_url: 'bilder/symptom/102x102/tonarsakne.webp',
+                        image_url: 'bilder/symptom/232x232/tonarsakne.webp',
                         image_alt: 'Bild av tonårsakne',
                         image_title: 'Akne hos tonåringar',
                         url: 'tonarsacne.php',
@@ -144,7 +144,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Vuxenakne',
                         subtitle: 'Acne tarda',
-                        image_url: 'bilder/symptom/102x102/vuxenakne.webp',
+                        image_url: 'bilder/symptom/232x232/vuxenakne.webp',
                         image_alt: 'Bild av vuxenakne',
                         image_title: 'Akne hos vuxna',
                         url: 'vuxenacne.php',
@@ -153,7 +153,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Barnakne',
                         subtitle: 'Acne neonatorum',
-                        image_url: 'bilder/symptom/102x102/barnakne.webp',
+                        image_url: 'bilder/symptom/232x232/barnakne.webp',
                         image_alt: 'Bild av barnakne',
                         image_title: 'Akne hos barn',
                   ),
