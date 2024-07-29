@@ -69,6 +69,24 @@ $trivias = array(
             icons: array()
       ),
       new ProblemTrivia(
+            prefix: 'Vanliga',
+            title: ' Orsaker Till Finnar På Ryggen',
+            content: '<p class="p200">Graviditetshormoner kan orsaka finnar på olika delar av kroppen:</p>
+
+            <ul><li class="mt-m"><strong>Hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
+
+            <li class="mt-m"><strong>Ryggen och bröstet:</strong> Ökad talgproduktion kan även leda till finnar på ryggen och bröstet.</li>
+
+            <li class="mt-m"><strong>Runt munnen:</strong> Detta område påverkas ofta av hormonförändringar.</li>
+
+            <li class="mt-m"><strong>Magen:</strong> Även om det är mindre vanligt, kan vissa kvinnor få finnar på magen under graviditeten.</li>
+
+            <li class="mt-m"><strong>Halsen och pannan:</strong> Dessa områden kan bli mer utsatta på grund av ökad talgproduktion.</li>
+
+            <li class="mt-m"><strong>Rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
+            icons: array()
+      ),
+      new ProblemTrivia(
             prefix: 'Tidiga',
             title: ' finnar under graviditeten',
             content: '<p class="p200">Det är inte ovanligt att kvinnor märker finnar tidigt i graviditeten. Hormonnivåerna börjar förändras snabbt efter befruktningen, vilket kan leda till att finnar uppstår redan innan andra graviditetssymtom blir uppenbara. Dessa finnar kan vara en första indikation på graviditet för vissa kvinnor.</p>',
