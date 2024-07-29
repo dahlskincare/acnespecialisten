@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar hudproblem med finnar i ansiktet';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Finnar i ansiktet',
-      description: 'Denna sektion ger en ingående titt på finnar i ansiktet, dess huvudsakliga orsaker som hormonella förändringar, stress och andra faktorer, samt hur Acnespecialisten erbjuder målinriktade behandlingar för detta hudtillstånd. Dessutom delar vi med oss av skräddarsydda hudvårdsråd lämpliga för personer i alla åldersgrupper.',
+      description: 'Denna sektion ger en ingående titt på finnar i ansiktet, deras huvudsakliga orsaker som hormonella förändringar, stress och andra faktorer, samt hur AcneSpecialisten erbjuder målinriktade behandlingar för detta hudtillstånd. Vi delar även skräddarsydda hudvårdsråd som är lämpliga för personer i alla åldersgrupper.',
       links_touch: [
             new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples', 'Boka denna behandling'),
@@ -60,28 +60,28 @@ $description_text = '<p class="p200">Finnar i ansiktet är en hudutmaning som in
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Med en specialiserad konsultation hos AcneSpecialisten kan du identifiera de specifika egenskaperna hos ditt hudproblem och få en skräddarsydd behandlingsplan. Vi är experter på att hantera de komplexa faktorer som bidrar till finnar.',
+            content: 'Vid en konsultation hos AcneSpecialisten identifierar vi ditt hudproblem och skapar en skräddarsydd behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för finnar i ansiktet är skräddarsydda för att effektivt behandla huden. Vi erbjuder en rad olika alternativ, anpassade efter din huds specifika behov och tillstånd.',
+            content: 'Våra behandlingar för finnar är anpassade efter din huds specifika behov och tillstånd.',
             url_label: 'Se finnarbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'För att effektivt förebygga finnar i ansiktet erbjuder vi skräddarsydda hudvårdsprodukter och rutiner. Dessa är speciellt utformade för att upprätthålla en hälsosam hudbalans och förhindra nya utbrott.',
+            content: 'Vi erbjuder hudvårdsprodukter och rutiner som upprätthåller hudbalansen och förhindrar nya utbrott.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga finnar'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar för att reparera huden efter utbrott, såsom att minska ärr och förbättra hudens textur. Våra metoder är effektiva för att skapa långsiktiga resultat.',
+            content: 'Vi erbjuder behandlingar för att minska ärr och förbättra hudens textur efter utbrott.',
             url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
