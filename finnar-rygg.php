@@ -688,31 +688,7 @@ $show_all_results_title = "se flera behandlingsresultat";
 
 
 
-$faq_categories = array(
-      'Generella frågor' => array(
-            new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
-            ),
-            new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
-            ),
-      ),
-);
 
-$faq_url_label = "Läs fler frågor & svar";
-$faq_url_title = "läs flera frågor";
 
 $skin_guide_articles = array(
       new SkinGuideArticle(
@@ -997,11 +973,8 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                         </section>
-                        <section id="faq">
-                              <h2 class="big l10n">Frågor & Svar</h2>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $faq_url_title ?>" href="fragor-svar.php"><?php echo $faq_url_label ?></a>
-                        </section>
+
+                     
 
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
