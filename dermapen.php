@@ -210,7 +210,7 @@ $types = array(
 
 $big_types = array(
     new Service(
-        title: 'Boosta din behandling med PRX-T33-behandling',
+        title: 'Dermapen + PRX-T33 BOOST',
         duration: null,
         price: null,
         content: '<p class="p200">Ta din dermapenbehandling till nästa nivå med PRX-T33, en nyskapande booster som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill maximera resultatet utan att förlänga återhämtningstiden. Genom att kombinera PRX-T33 med Dermapen, förstärker vi behandlingen och får PRX-syran att penetrera djupare in i huden genom de mikrokanaler som skapas av mikronålarna. Detta gör att syran kan verka mer effektivt än om den appliceras direkt på hudytan. Den kombinerade behandlingen ger en märkbar förbättring av hudens ton och struktur, samt minskar synbart fina linjer och ojämnheter. Resultatet är en jämnare, ungdomligare hud som får dig att stråla.</p>',
