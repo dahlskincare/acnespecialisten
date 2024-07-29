@@ -87,6 +87,7 @@ $trivias = array(
             icons: array('ansikte' => 'Ansiktet', 'brost' => 'Bröst', 'rygg' => 'Rygg')
       ),
 );
+
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
