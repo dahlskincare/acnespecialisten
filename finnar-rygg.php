@@ -81,8 +81,8 @@ $trivias = array(
             icons: array()
       ),
       new ProblemTrivia(
-            prefix: 'Områden',
-            title: ' av finnar under graviditeten',
+            prefix: 'Vanliga',
+            title: ' Orsaker Till Finnar På Ryggen',
             content: '<p class="p200">Graviditetshormoner kan orsaka finnar på olika delar av kroppen:</p>
 
             <ul><li class="mt-m"><strong>Hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
