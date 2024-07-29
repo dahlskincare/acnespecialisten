@@ -274,14 +274,6 @@ $procedures = array(
 
 $articles = array(
       new Article(
-            title: 'Viktiga tecken på att du bör söka hjälp',
-            image_small: null,
-            image_large: null,
-            image_alt: 'Tecken på att söka hjälp för bröstfinnar',
-            image_title: 'Tecken på att söka hjälp för bröstfinnar',
-            content: '<p class="p200"></p>',
-      ),
-      new Article(
             title: 'Varför välja AcneSpecialisten?',
             image_small: null,
             image_large: null,
