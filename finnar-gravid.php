@@ -74,17 +74,17 @@ $trivias = array(
             title: ' av finnar under graviditeten',
             content: '<p class="p200">Graviditetshormoner kan orsaka finnar på olika delar av kroppen:</p>
 
-            <ul><li class="mt-m"><strong>Finnar på hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
+            <ul><li class="mt-m"><strong>Hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
 
-            <li class="mt-m"><strong>Finnar på ryggen och bröstet:</strong> Ökad talgproduktion kan även leda till finnar på ryggen och bröstet.</li>
+            <li class="mt-m"><strong>Ryggen och bröstet:</strong> Ökad talgproduktion kan även leda till finnar på ryggen och bröstet.</li>
 
-            <li class="mt-m"><strong>Finnar runt munnen:</strong> Detta område påverkas ofta av hormonförändringar.</li>
+            <li class="mt-m"><strong>Runt munnen:</strong> Detta område påverkas ofta av hormonförändringar.</li>
 
-            <li class="mt-m"><strong>Finnar på magen:</strong> Även om det är mindre vanligt, kan vissa kvinnor få finnar på magen under graviditeten.</li>
+            <li class="mt-m"><strong>Magen:</strong> Även om det är mindre vanligt, kan vissa kvinnor få finnar på magen under graviditeten.</li>
 
-            <li class="mt-m"><strong>Finnar på halsen och pannan:</strong> Dessa områden kan bli mer utsatta på grund av ökad talgproduktion.</li>
+            <li class="mt-m"><strong>Halsen och pannan:</strong> Dessa områden kan bli mer utsatta på grund av ökad talgproduktion.</li>
 
-            <li class="mt-m"><strong>Finnar på rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
+            <li class="mt-m"><strong>Rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
             icons: array()
       ),
        new ProblemTrivia(
