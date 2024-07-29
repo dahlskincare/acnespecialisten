@@ -786,6 +786,15 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
+                        <section id="about">
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
+                              <?php foreach ($trivias as $trivia) {
+                                    echo '<hr>';
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
+                              } ?>
+                              <hr>
+                        </section>
+
                         <?php foreach ($top_articles as $id => $article) { ?>
                               <section id="<?php echo $id ?>">
                                     <?php
