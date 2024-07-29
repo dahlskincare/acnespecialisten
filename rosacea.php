@@ -119,21 +119,21 @@ $type_categories = array(
             content: '<p class="p200">Rosacea är ett hudtillstånd som varierar kraftigt i svårighetsgrad mellan olika individer. Hudtillståndet, som vanligtvis manifesterar sig som rodnad och synliga blodkärl i ansiktet, kan också leda till små, röda, pusfyllda blåsor eller knölar i värre fall. Rosacea klassificeras vanligtvis i fyra olika subtyper baserat på dess symptom och svårighetsgrad.</p>',
             types: array(
                   new BasedType(
-                        image_url: '/bilder/symptom/102x102/rodnad.webp',
+                        image_url: '/bilder/hudtyper/232x232/mild-rosacea.webp',
                         image_alt: 'Bild av mild rosacea',
                         image_title: 'Mild rosacea exemplifierad',
                         title: 'Mild rosacea',
                         subtitle: 'Vaskulär rosacea eller erythematotelangiektatisk rosacea',
                   ),
                   new BasedType(
-                        image_url: '/bilder/symptom/102x102/papular-rosacea.webp',
+                        image_url: '/bilder/hudtyper/232x232/medelsvar-rosacea.webp',
                         image_alt: 'Bild av medelsvår rosacea',
                         image_title: 'Medelsvår rosacea exemplifierad',
                         title: 'Medelsvår rosacea',
                         subtitle: 'Papulopustulös rosacea eller akne rosacea',
                   ),
                   new BasedType(
-                        image_url: '/bilder/symptom/102x102/rhinophyma-rosacea.webp',
+                        image_url: '/bilder/hudtyper/232x232/svar-rosacea.webp',
                         image_alt: 'Bild av svår rosacea',
                         image_title: 'Svår rosacea exemplifierad',
                         title: 'Svår rosacea',
