@@ -43,19 +43,80 @@ $green_banner_content = new GreenBannerContent(
                   url: 'vuxenacne.php',
                   title: 'Utforska orsaker, symptom och behandlingar av vuxenfinnar'
             ),
-            new Link(
-                  label: 'Tonårsfinnar',
-                  url: 'tonarsacne.php',
-                  title: 'Komplett guide om tonårsfinnar: orsaker, förebyggande och lösningar'
-            ),
       ]
 );
 
 $floating_box = 'Behandla dina gravid finnar effektivt.';
 
-$description_title = 'Vad är gravid finnar?';
-$description_text = '<p class="p200">Acne eller finnar under graviditet är en vanlig hudåkomma som orsakar drabbar kvinnor på grund av hormonella förändringar. Våra behandlingar fokuserar på att skonsamt rengöra och balansera huden, med särskilt hänsyn till de förändrade behoven. Vi erbjuder en rad säkra och anpassade behandlingsalternativ för att ta hand om huden utan att riskera moder eller barn.</p>
-<p class="p200 mt-m">Vid AcneSpecialisten förstår vi vikten av individuellt anpassade hudvårdsrutiner. Från milda rengöringsmetoder till återfuktande och lugnande behandlingar, våra hudterapeuter är utbildade att ge den mest skonsamma och effektiva vård för graviditetsrelaterade hudproblem.</p>';
+$about_title = 'Finnar under graviditet: Orsaker, behandlingar och förebyggande tips';
+
+$trivias = array(
+      new ProblemTrivia(
+            prefix: 'Finnar',
+            title: ' under graviditeten',
+            content: '<p class="p200">Många kvinnor upplever hudförändringar under graviditeten, inklusive finnar. Graviditeten påverkar hormonbalansen, vilket kan leda till en ökning av finnar, även för de som vanligtvis inte har hudproblem. Dessa finnar kallas ofta graviditetsfinnar.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Tidiga',
+            title: ' finnar under graviditeten',
+            content: '<p class="p200">Det är inte ovanligt att kvinnor märker finnar tidigt i graviditeten. Hormonnivåerna börjar förändras snabbt efter befruktningen, vilket kan leda till att finnar uppstår redan innan andra graviditetssymtom blir uppenbara. Dessa finnar kan vara en första indikation på graviditet för vissa kvinnor.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Finnar',
+            title: ' och kön på barnet',
+            content: '<p class="p200">En populär myt är att finnar under graviditeten kan indikera barnets kön. Det finns ingen vetenskaplig grund för detta, men det är en vanlig diskussionspunkt. Oavsett barnets kön är det viktigt att hantera finnarna med rätt hudvårdsrutin.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Områden',
+            title: ' av finnar under graviditeten',
+            content: '<p class="p200">Graviditetshormoner kan orsaka finnar på olika delar av kroppen:</p>
+
+            <ul><li class="mt-xl"><strong>Finnar på hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
+
+            <li class="mt-xl"><strong>Finnar på ryggen och bröstet:</strong> Ökad talgproduktion kan även leda till finnar på ryggen och bröstet.</li>
+
+            <li class="mt-xl"><strong>Finnar runt munnen:</strong> Detta område påverkas ofta av hormonförändringar.</li>
+
+            <li class="mt-xl"><strong>Finnar på magen:</strong> Även om det är mindre vanligt, kan vissa kvinnor få finnar på magen under graviditeten.</li>
+
+            <li class="mt-xl"><strong>Finnar på halsen och pannan:</strong> Dessa områden kan bli mer utsatta på grund av ökad talgproduktion.</li>
+
+            <li class="mt-xl"><strong>Finnar på rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
+            icons: array()
+      ),
+       new ProblemTrivia(
+            prefix: 'Finnar',
+            title: ' efter förlossning',
+            content: '<p class="p200">Finnar kan kvarstå eller till och med bli värre efter förlossningen när hormonnivåerna återgår till det normala. Finnar efter graviditet är vanligt när kroppen anpassar sig efter att ha burit ett barn. En stadig hudvårdsrutin kan hjälpa till att hantera detta.</p>',
+            icons: array()
+      ),
+       new ProblemTrivia(
+            prefix: 'Behandling',
+            title: ' av graviditetsrelaterade finnar',
+            content: '<p class="p200">Att hantera finnar under graviditeten kräver försiktighet eftersom många vanliga aknebehandlingar bör undvikas. Här är några rekommendationer:</p>
+
+            <p class="p200"><strong>Rekommenderade behandlingar under graviditeten:</strong></p>
+
+             <ul><li class="mt-xl"><strong>Hudvårdsprodukter:</strong> Använd milda, icke-komedogena rengöringar och oljefria fuktkrämer för att hålla huden ren och återfuktad utan irritation.</li>
+
+            <li class="mt-xl"><strong>Ansiktsbehandlingar:</strong> Professionella behandlingar som portömningar kan hjälpa till att minska finnar genom att rengöra porerna på djupet och underhålla huden.</li></ul>
+
+            <p class="p200"><strong>Behandlingar att undvika under graviditeten:</strong></p>
+
+            <li class="mt-xl"><strong>Laser:</strong> Undvik laserbehandlingar då de kan vara skadliga för både dig och barnet.</li>
+
+            <li class="mt-xl"><strong>Kemisk peeling:</strong> Starka kemiska peels kan penetrera huden och vara skadliga under graviditeten.</li>
+
+            <li class="mt-xl"><strong>Microneedling:</strong> Mikronålsbehandlingar bör undvikas eftersom de kan orsaka oönskade effekter på huden och kroppen.</li>/ul>',
+            icons: array()
+      ),
+);
+
+$description_title = null;
+$description_text = '<p class="p200">Finnar under graviditeten är en vanlig utmaning som många kvinnor möter. Genom att förstå orsakerna och följa lämpliga hudvårdsrutiner kan du effektivt hantera finnar och hålla din hud så klar och hälsosam som möjligt. Om du har svåra problem med akne under graviditeten, tveka inte att söka professionell hjälp för att få den bästa möjliga vården.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
