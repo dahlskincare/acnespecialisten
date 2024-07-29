@@ -106,55 +106,19 @@ $trivias = array(
             icons: array()
       ),
       new ProblemTrivia(
-            prefix: 'Finnar',
-            title: ' och kön på barnet',
-            content: '<p class="p200">En populär myt är att finnar under graviditeten kan indikera barnets kön. Det finns ingen vetenskaplig grund för detta, men det är en vanlig diskussionspunkt. Oavsett barnets kön är det viktigt att hantera finnarna med rätt hudvårdsrutin.</p>',
-            icons: array()
-      ),
-      new ProblemTrivia(
-            prefix: 'Vanliga',
-            title: ' Orsaker Till Finnar På Ryggen',
-            content: '<p class="p200">Graviditetshormoner kan orsaka finnar på olika delar av kroppen:</p>
-
-            <ul><li class="mt-m"><strong>Hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
-
-            <li class="mt-m"><strong>Ryggen och bröstet:</strong> Ökad talgproduktion kan även leda till finnar på ryggen och bröstet.</li>
-
-            <li class="mt-m"><strong>Runt munnen:</strong> Detta område påverkas ofta av hormonförändringar.</li>
-
-            <li class="mt-m"><strong>Magen:</strong> Även om det är mindre vanligt, kan vissa kvinnor få finnar på magen under graviditeten.</li>
-
-            <li class="mt-m"><strong>Halsen och pannan:</strong> Dessa områden kan bli mer utsatta på grund av ökad talgproduktion.</li>
-
-            <li class="mt-m"><strong>Rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
-            icons: array()
-      ),
-       new ProblemTrivia(
-            prefix: 'Finnar',
-            title: ' efter förlossning',
-            content: '<p class="p200">Finnar kan kvarstå eller till och med bli värre efter förlossningen när hormonnivåerna återgår till det normala. Finnar efter graviditet är vanligt när kroppen anpassar sig efter att ha burit ett barn. En stadig hudvårdsrutin kan hjälpa till att hantera detta.</p>',
-            icons: array()
-      ),
-       new ProblemTrivia(
             prefix: 'Behandling',
-            title: ' av graviditetsrelaterade finnar',
-            content: '<p class="p200">Att hantera finnar under graviditeten kräver försiktighet eftersom många vanliga aknebehandlingar bör undvikas. Här är några rekommendationer:</p>
+            title: ' av ryggfinnar',
+            content: '<p class="p200">Det finns flera metoder att behandla ryggfinnar, både med hemmabehandlingar och professionella klinikbesök. På kliniken kan du få effektiv behandling av aktiv acne, medan du hemma fokuserar på att förebygga att nya finnar uppstår.</p>
 
-            <p class="p200 mt-xl"><strong>Rekommenderade behandlingar under graviditeten:</strong></p>
+            <ul><li class="mt-m"><strong>Portömning:</strong> En klassisk metod där porerna töms manuellt (klämmer). Behandlar finnar genom att manuellt avlägsna tilltäppningar av talg och orenheter som blockerar porerna.</li>
 
-             <ul><li class="mt-xl"><strong>Hudvårdsprodukter:</strong> Använd milda, icke-komedogena rengöringar och oljefria fuktkrämer för att hålla huden ren och återfuktad utan irritation.</li>
+            <li class="mt-m"><strong>Laser:</strong> En mer avancerad metod som använder laserstrålar för att minska inflammation och döda akneorsakande bakterier. Effektiv för att behandla aktiv acne och minska risken för framtida utbrott.</li>
 
-            <li class="mt-xl"><strong>Ansiktsbehandlingar:</strong> Professionella behandlingar som portömningar kan hjälpa till att minska finnar genom att rengöra porerna på djupet och underhålla huden.</li></ul>
+            <li class="mt-m"><strong>Microneedling:</strong> Innebär att små nålar gör mikroskopiska hål i huden för att stimulera kollagenproduktion och cellförnyelse. Hjälper till att förbättra hudens struktur och reducera acneärr.</li>
 
-            <p class="p200 mt-xl"><strong>Behandlingar att undvika under graviditeten:</strong></p>
+            <li class="mt-m"><strong>Kemisk peeling:</strong> Använder syror för att exfoliera de översta lagren av huden. Behandlar finnar genom att avlägsna döda hudceller, rengöra porerna på djupet och förbättra hudens övergripande textur.</li>
 
-            <ul><li class="mt-xl"><strong>Laser:</strong> Undvik laserbehandlingar då de kan vara skadliga för både dig och barnet.</li>
-
-            <li class="mt-xl"><strong>Kemisk peeling:</strong> Starka kemiska peels kan penetrera huden och vara skadliga under graviditeten.</li>
-
-            <li class="mt-xl"><strong>Microneedling:</strong> Mikronålsbehandlingar bör undvikas eftersom de kan orsaka oönskade effekter på huden och kroppen.</li></ul>
-
-            <p class="p200 mt-xl">Finnar under graviditeten är en vanlig utmaning som många kvinnor möter. Genom att förstå orsakerna och följa lämpliga hudvårdsrutiner kan du effektivt hantera finnar och hålla din hud så klar och hälsosam som möjligt. Om du har svåra problem med akne under graviditeten, tveka inte att söka professionell hjälp genom att boka en kostnadsfri hudkonsultation hos oss på AcneSpecialisten</p>',
+            <li class="mt-m"><strong>Hudvårdsprodukter mot akne:</strong> Tänk på att hitta produkter som har dem rätta egenskaperna mot akne, produkterna skall förebygga, behandla, reducera. är du osäker på vilka produkter som passar din hudtyå bäst kan du alltid boka en kostnadsfri konsultation så får du en individuell behandlingsplan av din pesonliga terapeut.</li>',
             icons: array()
       ),
 );
