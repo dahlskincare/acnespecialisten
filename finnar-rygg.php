@@ -53,6 +53,75 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar på ryggen effektivt.';
 
+$about_title = 'Finnar under graviditet: Orsaker, behandlingar och förebyggande tips';
+
+$trivias = array(
+      new ProblemTrivia(
+            prefix: 'Finnar',
+            title: ' under graviditeten',
+            content: '<p class="p200">Många kvinnor upplever hudförändringar under graviditeten, inklusive finnar. Graviditeten påverkar hormonbalansen, vilket kan leda till en ökning av finnar, även för de som vanligtvis inte har hudproblem. Dessa finnar kallas ofta graviditetsfinnar.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Tidiga',
+            title: ' finnar under graviditeten',
+            content: '<p class="p200">Det är inte ovanligt att kvinnor märker finnar tidigt i graviditeten. Hormonnivåerna börjar förändras snabbt efter befruktningen, vilket kan leda till att finnar uppstår redan innan andra graviditetssymtom blir uppenbara. Dessa finnar kan vara en första indikation på graviditet för vissa kvinnor.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Finnar',
+            title: ' och kön på barnet',
+            content: '<p class="p200">En populär myt är att finnar under graviditeten kan indikera barnets kön. Det finns ingen vetenskaplig grund för detta, men det är en vanlig diskussionspunkt. Oavsett barnets kön är det viktigt att hantera finnarna med rätt hudvårdsrutin.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Områden',
+            title: ' av finnar under graviditeten',
+            content: '<p class="p200">Graviditetshormoner kan orsaka finnar på olika delar av kroppen:</p>
+
+            <ul><li class="mt-m"><strong>Hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
+
+            <li class="mt-m"><strong>Ryggen och bröstet:</strong> Ökad talgproduktion kan även leda till finnar på ryggen och bröstet.</li>
+
+            <li class="mt-m"><strong>Runt munnen:</strong> Detta område påverkas ofta av hormonförändringar.</li>
+
+            <li class="mt-m"><strong>Magen:</strong> Även om det är mindre vanligt, kan vissa kvinnor få finnar på magen under graviditeten.</li>
+
+            <li class="mt-m"><strong>Halsen och pannan:</strong> Dessa områden kan bli mer utsatta på grund av ökad talgproduktion.</li>
+
+            <li class="mt-m"><strong>Rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
+            icons: array()
+      ),
+       new ProblemTrivia(
+            prefix: 'Finnar',
+            title: ' efter förlossning',
+            content: '<p class="p200">Finnar kan kvarstå eller till och med bli värre efter förlossningen när hormonnivåerna återgår till det normala. Finnar efter graviditet är vanligt när kroppen anpassar sig efter att ha burit ett barn. En stadig hudvårdsrutin kan hjälpa till att hantera detta.</p>',
+            icons: array()
+      ),
+       new ProblemTrivia(
+            prefix: 'Behandling',
+            title: ' av graviditetsrelaterade finnar',
+            content: '<p class="p200">Att hantera finnar under graviditeten kräver försiktighet eftersom många vanliga aknebehandlingar bör undvikas. Här är några rekommendationer:</p>
+
+            <p class="p200 mt-xl"><strong>Rekommenderade behandlingar under graviditeten:</strong></p>
+
+             <ul><li class="mt-xl"><strong>Hudvårdsprodukter:</strong> Använd milda, icke-komedogena rengöringar och oljefria fuktkrämer för att hålla huden ren och återfuktad utan irritation.</li>
+
+            <li class="mt-xl"><strong>Ansiktsbehandlingar:</strong> Professionella behandlingar som portömningar kan hjälpa till att minska finnar genom att rengöra porerna på djupet och underhålla huden.</li></ul>
+
+            <p class="p200 mt-xl"><strong>Behandlingar att undvika under graviditeten:</strong></p>
+
+            <ul><li class="mt-xl"><strong>Laser:</strong> Undvik laserbehandlingar då de kan vara skadliga för både dig och barnet.</li>
+
+            <li class="mt-xl"><strong>Kemisk peeling:</strong> Starka kemiska peels kan penetrera huden och vara skadliga under graviditeten.</li>
+
+            <li class="mt-xl"><strong>Microneedling:</strong> Mikronålsbehandlingar bör undvikas eftersom de kan orsaka oönskade effekter på huden och kroppen.</li></ul>
+
+            <p class="p200 mt-xl">Finnar under graviditeten är en vanlig utmaning som många kvinnor möter. Genom att förstå orsakerna och följa lämpliga hudvårdsrutiner kan du effektivt hantera finnar och hålla din hud så klar och hälsosam som möjligt. Om du har svåra problem med akne under graviditeten, tveka inte att söka professionell hjälp genom att boka en kostnadsfri hudkonsultation hos oss på AcneSpecialisten</p>',
+            icons: array()
+      ),
+);
+
 $description_title = 'Hur får man bort finnar på ryggen?';
 $description_text = '<p class="p200">Finnar på ryggen är ett vanligt hudproblem som drabbar personer i alla åldrar, ofta relaterat till faktorer såsom hormonella förändringar, stress och specifika livsstilsval. Acnespecialisten är dedikerad till att noggrant rengöra och balansera huden, med behandlingsmetoder anpassade för olika åldersgrupper och hudtyper. Vi erbjuder ett brett spektrum av behandlingar som effektivt hanterar akne samtidigt som de är skonsamma mot huden.</p>
 
@@ -702,10 +771,18 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        <section id="about">
-                              <h2 class="h500"><?php echo $description_title ?></h2>
-                              <div class="mt-xl"><?php echo $description_text ?></div>
+
+
+                          <section id="about">
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
+                              <?php foreach ($trivias as $trivia) {
+                                    echo '<hr>';
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
+                              } ?>
+                              <hr>
                         </section>
+
+                        
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
