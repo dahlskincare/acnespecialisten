@@ -235,10 +235,10 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
-        image_alt: 'Ansikte',
-        image_title: 'Ansikte',
-        title: 'Ansikte',
-        description: '<p class="p200">Behandlar och förbättrar huden i ansiktet och kan utföras i hela ansiktet eller på utvalda zoner.</p>',
+        image_alt: null,
+        image_title: null,
+        title: null,
+        description: null,
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
