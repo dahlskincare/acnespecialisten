@@ -69,9 +69,7 @@ $trivias = array(
             title: ' får man finnar?',
             content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>',
 
-            extended_content: '<p class="p200 mt-xl">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>
-
-            <p class="p200 mt-xl">Att behandla finnar effektivt innebär att hantera talgproduktionen med lämpliga hudvårdsprodukter och regelbundna hudvårdsbehandlingar. Med rätt behandling kan finnar elimineras. På AcneSpecialisten har vi omfattande erfarenhet och expertis inom behandling av finnar. Vi hjälper dig att upprätthålla en balanserad talgproduktion för att minska risken för utbrott och förbättra hudens övergripande hälsa.</p>',
+            extended_content: '<p class="p200 mt-xl">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
             icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat')
       ),
 );
