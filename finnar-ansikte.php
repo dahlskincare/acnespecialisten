@@ -868,7 +868,7 @@ $brands_url_title = "Se alla varumärken";
                               </section>
                         <?php } ?>
 
-                                                <section id="define">
+                        <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
