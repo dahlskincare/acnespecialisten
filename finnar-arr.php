@@ -146,10 +146,10 @@ $symptoms = array(
             name: 'Postinflammatorisk hypopigmentering',
             aka: 'Ljusa eller vita märken',
             content: 'Ljusare fläckar där hud har förlorat pigment efter akneinflammation, vilket skapar en tydlig kontrast. Detta skapar ljusare fläckar som kan vara tydliga beroende på hudfärgen efter att finnarna har läkt.',
-            url: 'postinflammatorisk-hyperpigmentering.php',
-            url_title: 'Lär dig mer om hypopigmentering efter inflammation',
-            url_label: 'Läs mer',
             image: 'bilder/hudtyper/232x232/postinflammatorisk-hypopigmentering.webp',
+            url: null,
+            url_title: null,
+            url_label: null,
             image_alt: 'Bild som visar hypopigmentering efter inflammation',
             image_title: 'Hypopigmentering efter inflammation'
       ),
