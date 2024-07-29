@@ -185,26 +185,26 @@ $headline02 = "02. Behandla";
 
 $services = array(
       new Service(
-            title: 'Ansiktsbehandling mot finnar',
+            title: 'Portömning - Rygg',
             duration: '60 min',
             price: '1295 kr',
-            content: 'Klämmer finnar utan att orsaka ärr genom att extrahera orenheter och främja snabbare läkning.',
+            content: 'Klämmer finnarna utan att orsaka ärr genom att extrahera orenheter och främja snabbare läkning.',
             image_small: 'images/services/200x200/ansiktsbehandling.webp',
             image_large: 'images/services/200x200/ansiktsbehandling.webp',
-            image_alt: 'Bild av en ansiktsbehandling mot finnar',
-            image_title: 'Ansiktsbehandling mot finnar',
+            image_alt: 'Bild av en ansiktsbehandling',
+            image_title: 'portömning av finnar',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot finnar',
             booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
             booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot finnar',
-            url_label: 'Läs mer om ansiktsbehandling',
+            booking_url_title: 'Klicka för att boka tid för en portömning',
+            url_label: 'Läs mer om portömning',
             url: '/portomning.php',
-            url_title: 'Läs mer om ansiktsbehandling mot finnar',
+            url_title: 'Läs mer om portömning',
       ),
       new Service(
-            title: 'Laserbehandling mot finnar',
+            title: 'Laserbehandling',
             duration: '50 min',
             price: '2595 kr',
             content: 'Minskar bakterier och inflammation för att förebygga framtida utbrott och ge jämnare hud.',
@@ -223,7 +223,7 @@ $services = array(
             url_title: 'Läs mer om laser mot finnar',
       ),
       new Service(
-            title: 'Kemisk peeling mot finnar',
+            title: 'Kemisk peeling',
             duration: '30 min',
             price: '1595 kr',
             content: 'Exfolierar huden, rensar porer och minskar inflammation med en speciellt framtagen syra.',
@@ -243,7 +243,7 @@ $services = array(
       ),
 
       new Service(
-            title: 'Microneedling mot finnar',
+            title: 'Microneedling',
             duration: '50 min',
             price: '2595 kr',
             content: 'Skapar små kanaler i huden, främjar läkning, stimulerar kollagen och minskar ärr.',
