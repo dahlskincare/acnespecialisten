@@ -53,9 +53,31 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar på bröstet effektivt.';
 
-$description_title = 'Fakta';
-$description_text = '<p class="p200">Finnar på bröstet och bröstkorgen kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>
-<p class="p200 mt-m">På Acnespecialisten har vi expertis inom individanpassade hudvårdsprogram som svarar mot varje klients unika behov. Från noggranna rengöringsrutiner till specialutformade behandlingar som vårdar och lugnar, våra hudterapeuter har den nödvändiga kunskapen och erfarenheten för att ge den mest effektiva och skonsamma behandlingen för alla typer av hudproblem.</p>';
+$about_title = 'Fakta';
+
+$trivias = array(
+      new ProblemTrivia(
+            prefix: 'Vad',
+            title: ' är finnar?',
+            content: '<p class="p200">Finnar på bröstet och bröstkorgen kan påverka personer i alla åldrar, ofta som ett resultat av hormonella förändringar och stress. Hos Acnespecialisten fokuserar vi på att djuprengöra och återställa balansen i huden med metoder som passar olika åldersgrupper och hudtyper. Vårt utbud av skräddarsydda behandlingar är utformade för att aktivt motverka finnar samtidigt som de är milda mot huden.</p>',
+
+            extended_content: '<p class="p200 mt-xl">På Acnespecialisten har vi expertis inom individanpassade hudvårdsprogram som svarar mot varje klients unika behov. Från noggranna rengöringsrutiner till specialutformade behandlingar som vårdar och lugnar, våra hudterapeuter har den nödvändiga kunskapen och erfarenheten för att ge den mest effektiva och skonsamma behandlingen för alla typer av hudproblem.</p>',
+            icons: array()
+      ),
+      new ProblemTrivia(
+            prefix: 'Varför',
+            title: ' får man finnar?',
+            content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>',
+
+            extended_content: '<p class="p200 mt-xl">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>
+
+            <p class="p200 mt-xl">Att behandla finnar effektivt innebär att hantera talgproduktionen med lämpliga hudvårdsprodukter och regelbundna hudvårdsbehandlingar. Med rätt behandling kan finnar elimineras. På AcneSpecialisten har vi omfattande erfarenhet och expertis inom behandling av finnar. Vi hjälper dig att upprätthålla en balanserad talgproduktion för att minska risken för utbrott och förbättra hudens övergripande hälsa.</p>',
+            icons: array('genetik' => 'Genetik', 'hormoner' => 'Hormoner', 'stress' => 'Stress', 'klimat' => 'Klimat')
+      ),
+);
+
+
+
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -97,8 +119,8 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Finnar på bröstet beror ofta på en kombination av faktorer. Hormonella förändringar kan leda till ökad talgproduktion och därmed tilltäppta porer. Stress kan också spela en stor roll genom att förvärra hudtillståndet. Även om finnarna vanligtvis koncentreras till bröstet, är det inte ovanligt att de sprider sig till andra områden som ryggen. Hos AcneSpecialisten tar vi hänsyn till din unika hudtyp och dess behov för att erbjuda skräddarsydda behandlingar som är effektiva för finnar på bröstet.</p>
-      <p class="p200 mt-m">En skräddarsydd hudvårdsrutin är avgörande för att hantera finnar på bröstet. Att välja produkter som är både milda och effektiva är viktigt för att minska irritation och samtidigt stödja hudens naturliga balans. På AcneSpecialisten står våra kunniga hudterapeuter redo att ge personlig vägledning och rekommendationer, för att hjälpa dig utveckla en hudvårdsrutin som främjar en sund och välmående hud.</p>',
+            content: '<p class="p200"></p>
+      <p class="p200 mt-m"></p>',
       ),
 );
 
@@ -269,7 +291,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Tecken på att söka hjälp för bröstfinnar',
             image_title: 'Tecken på att söka hjälp för bröstfinnar',
-            content: '<p class="p200">Finnar på bröstet kan vara mer än bara ett estetiskt problem – de kan även vara en källa till obehag och emotionell oro. Om du upptäcker att dina finnar är återkommande eller försämras, är det dags att överväga professionell hjälp. Tidig intervention är viktig för att förhindra ärrbildning och andra långsiktiga hudproblem. Genom att söka professionell rådgivning kan du få hjälp med att behandla befintliga utbrott och lära dig förebyggande strategier och skapa en effektiv hudvårdsrutin.</p>',
+            content: '<p class="p200"></p>',
       ),
       new Article(
             title: 'Varför välja AcneSpecialisten?',
@@ -861,10 +883,16 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        <section id="about">
-                              <h2 class="h500"><?php echo $description_title ?></h2>
-                              <div class="mt-xl"><?php echo $description_text ?></div>
+
+                          <section id="about">
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
+                              <?php foreach ($trivias as $trivia) {
+                                    echo '<hr>';
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
+                              } ?>
+                              <hr>
                         </section>
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
