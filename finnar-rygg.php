@@ -97,9 +97,12 @@ $trivias = array(
             icons: array()
       ),
       new ProblemTrivia(
-            prefix: 'Tidiga',
-            title: ' finnar under graviditeten',
-            content: '<p class="p200">Det är inte ovanligt att kvinnor märker finnar tidigt i graviditeten. Hormonnivåerna börjar förändras snabbt efter befruktningen, vilket kan leda till att finnar uppstår redan innan andra graviditetssymtom blir uppenbara. Dessa finnar kan vara en första indikation på graviditet för vissa kvinnor.</p>',
+            prefix: 'Hur',
+            title: ' får jag bort finnarna på ryggen?',
+            content: '<p class="p200">Att förebygga finnar på ryggen kan ibland kännas som en utmaning, men det finns faktiskt flera effektiva strategier du kan använda. En viktig åtgärd är att duscha direkt efter träning. När du svettas blandas svetten med smuts och oljor på din hud, vilket kan täppa till porerna och leda till inflammation. Genom att snabbt skölja av dig minskar du risken för att dessa orenheter tränger in i huden.</p>',
+            extended_content: '<p class="p200 mt-xl">Undvik dessutom att använda feta krämer och oljor på din rygg. Dessa produkter kan täppa till talgkörtlarna och förvärra aknen.</p>
+
+            <p class="p200 mt-xl">Om du har långt hår, försök att hålla det borta från den bara ryggen, särskilt om du använder hårvårdsprodukter. Produkterna kan överföras till huden och bidra till tilltäppning av porerna. Ett annat tips är att sola försiktigt. Lite sol kan hjälpa till att minska inflammation, men undvik att överexponera huden och använd icke-feta solkrämer för att skydda den.</p>',
             icons: array()
       ),
       new ProblemTrivia(
