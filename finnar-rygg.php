@@ -65,25 +65,35 @@ $trivias = array(
 
             <p class="p200 mt-xl">Om du upplever mycket stress eller hormonella förändringar kan det också förvärra situationen. Stress kan öka kroppens produktion av hormoner som kortisol, vilket i sin tur kan leda till ökad talgproduktion.</p>
 
-            <p class="p200 mt-xl">Sammanfattningsvis är akne på ryggen resultatet av en kombination av hormonella, hygieniska och yttre faktorer som skapar en gynnsam miljö för finnar att bildas.</p>',
+            <p class="p200 mt-xl">Akne på ryggen är resultatet av en kombination av hormonella, hygieniska och yttre faktorer som skapar en gynnsam miljö för finnar att bildas.</p>',
             icons: array()
       ),
       new ProblemTrivia(
             prefix: 'Vanliga',
             title: ' Orsaker Till Finnar På Ryggen',
-            content: '<p class="p200">Graviditetshormoner kan orsaka finnar på olika delar av kroppen:</p>
+            content: '<p class="p200">Finnar på ryggen är ett vanligt problem som kan drabba dig som tjej eller kille. Det finns flera olika orsaker till varför ryggakne uppstår. Här är några av de vanligaste orsakerna:</p>
 
-            <ul><li class="mt-m"><strong>Hakan och käklinjen:</strong> Hormoner kan stimulera talgkörtlarna, vilket leder till finnar på dessa områden.</li>
+            <ul><li class="mt-m"><strong>Svett:</strong> Ökad svettproduktion, ofta i samband med träning eller varma kläder, kan täppa igen porerna och leda till finnar.</li>
 
-            <li class="mt-m"><strong>Ryggen och bröstet:</strong> Ökad talgproduktion kan även leda till finnar på ryggen och bröstet.</li>
+            <li class="mt-m"><strong>Hormonella faktorer:</strong> Obalanser i hormonnivåerna, såsom höga testosteronnivåer, graviditet och pubertet, kan stimulera talgproduktionen och utlösa akne.</li>
 
-            <li class="mt-m"><strong>Runt munnen:</strong> Detta område påverkas ofta av hormonförändringar.</li>
+            <li class="mt-m"><strong>Hudvårdsprodukter:</strong> Kemikalier från schampo, balsam och andra hårprodukter kan täppa till porerna på ryggen, särskilt om du har långt hår.</li>
 
-            <li class="mt-m"><strong>Magen:</strong> Även om det är mindre vanligt, kan vissa kvinnor få finnar på magen under graviditeten.</li>
+            <li class="mt-m"><strong>Träningsvanor:</strong> Användning av tunga skyddsutrustningar som hos hockeyspelare kan öka friktionen och svettproduktionen, vilket i sin tur kan leda till akne.</li>
 
-            <li class="mt-m"><strong>Halsen och pannan:</strong> Dessa områden kan bli mer utsatta på grund av ökad talgproduktion.</li>
+            <li class="mt-m"><strong>Obalans i huden:</strong> Överdriven tvätt kan störa hudens naturliga talgproduktion och orsaka finnar.</li>
 
-            <li class="mt-m"><strong>Rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
+            <li class="mt-m"><strong>Anabola steroider:</strong> Användning av steroider kan leda till ökade testosteronnivåer, vilket i sin tur kan utlösa akne.</li>
+
+            <li class="mt-m"><strong>Stress:</strong> Emotionella problem och stress kan förvärra akneutbrott.</li>
+
+            <li class="mt-m"><strong>Bakterieflora:</strong> Annan bakterieflora på ryggen och immunförsvarets respons kan också spela en roll.</li>
+
+            <li class="mt-xl"><strong>Preventivmedel:</strong> Vissa hormonella preventivmedel, som kombinerade p-piller, kan faktiskt hjälpa till att balansera hormonella obalanser som leder till akne. Men för vissa kan preventivmedel förvärra situationen. Om du misstänker att ditt preventivmedel påverkar din hud, rådgör med din läkare för att hitta en bättre lösning.</li></ul>
+
+            <p class="p200 mt-xl">Om du lider av finnar på ryggen, är det viktigt att tänka på flera olika aspekter av din livsstil och behandlingsmetoder för att effektivt hantera problemet. Många misslyckas med behandlingen av sin akne, även om endast 15% söker professionell hjälp.</p>
+
+             <p class="p200 mt-m">Att förstå de olika orsakerna kan vara ett viktigt steg mot att hitta rätt behandlingsmetoder för att eliminera dina finnar.</p>',
             icons: array()
       ),
       new ProblemTrivia(
