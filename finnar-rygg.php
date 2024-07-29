@@ -53,13 +53,19 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar på ryggen effektivt.';
 
-$about_title = 'Finnar under graviditet: Orsaker, behandlingar och förebyggande tips';
+$about_title = 'Bli Av Med Finnar På Ryggen: Effektiva tips, produkter Och Behandlingar';
 
 $trivias = array(
       new ProblemTrivia(
-            prefix: 'Finnar',
-            title: ' under graviditeten',
-            content: '<p class="p200">Många kvinnor upplever hudförändringar under graviditeten, inklusive finnar. Graviditeten påverkar hormonbalansen, vilket kan leda till en ökning av finnar, även för de som vanligtvis inte har hudproblem. Dessa finnar kallas ofta graviditetsfinnar.</p>',
+            prefix: 'Varför',
+            title: ' får man finnar på just ryggen?',
+            content: '<p class="p200">Akne kan drabba olika delar av kroppen, men ryggen är särskilt utsatt av flera skäl. För det första har ryggen en hög koncentration av talgkörtlar, vilket kan leda till överskott av olja som täpper till porerna. Dessutom är det svårt att nå och rengöra ryggen ordentligt, vilket kan leda till ansamling av döda hudceller och bakterier.</p>',
+
+            extended_content: '<p class="p200 mt-xl">Faktorer som stramande kläder, särskilt när du svettas mycket, kan också spela in. Träningskläder och andra tättsittande plagg kan gnugga mot huden, vilket irriterar den och gör att bakterier enklare kan komma in i porerna. Detta skapar en perfekt miljö för akneutbrott.</p>
+
+            <p class="p200 mt-xl">Om du upplever mycket stress eller hormonella förändringar kan det också förvärra situationen. Stress kan öka kroppens produktion av hormoner som kortisol, vilket i sin tur kan leda till ökad talgproduktion.</p>
+
+            <p class="p200 mt-xl">Sammanfattningsvis är akne på ryggen resultatet av en kombination av hormonella, hygieniska och yttre faktorer som skapar en gynnsam miljö för finnar att bildas.</p>',
             icons: array()
       ),
       new ProblemTrivia(
@@ -122,10 +128,7 @@ $trivias = array(
       ),
 );
 
-$description_title = 'Hur får man bort finnar på ryggen?';
-$description_text = '<p class="p200">Finnar på ryggen är ett vanligt hudproblem som drabbar personer i alla åldrar, ofta relaterat till faktorer såsom hormonella förändringar, stress och specifika livsstilsval. Acnespecialisten är dedikerad till att noggrant rengöra och balansera huden, med behandlingsmetoder anpassade för olika åldersgrupper och hudtyper. Vi erbjuder ett brett spektrum av behandlingar som effektivt hanterar akne samtidigt som de är skonsamma mot huden.</p>
 
-<p class="p200 mt-m">På AcneSpecialisten har vi specialiserat oss på att utforma individuella hudvårdsprogram som uppfyller varje klients specifika behov. Våra strategier sträcker sig från noggranna rengöringsmetoder till specifika behandlingar som både vårdar och lugnar. Vårt team av hudterapeuter har både kunskapen och erfarenheten för att erbjuda effektiv och samtidigt skonsam vård för alla typer av hudåkommor.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -782,7 +785,7 @@ $brands_url_title = "Se alla varumärken";
                               <hr>
                         </section>
 
-                        
+
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
