@@ -896,13 +896,6 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
 
                           <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
