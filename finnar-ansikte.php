@@ -109,7 +109,7 @@ $service = new Service(
       title: 'Konsultation',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Möt en expert på finnar för en individuell konsultation. Under detta möte kommer en detaljerad analys av ditt hudproblem att utföras. Vi tar även bilder för att tydligt kunna se och jämföra dina resultat och rekommenderar en anpassad behandlingsplan som passar just din hud.',
+      content: 'Möt en expert för en individuell konsultation och detaljerad analys av ditt hudproblem. Vi tar bilder för att jämföra resultat och rekommenderar en anpassad behandlingsplan.',
       image_small: 'images/services/200x200/konsultation.webp',
       image_large: 'images/services/200x200/konsultation.webp',
       image_alt: 'Bild som visar en konsultation för finnar',
