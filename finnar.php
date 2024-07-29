@@ -128,22 +128,22 @@ $type_categories = array(
             content: '<p class="p200">Finnar är inte begränsade till en viss ålder och kan påverka både unga och vuxna. Tonårsfinnar är vanliga och orsakas ofta av hormonella förändringar under puberteten. Men även som vuxen kan man drabbas, och det kan relateras till olika faktorer såsom stress, kost och livsstil. Det är essentiellt att förstå att finnar kan påverka personer i olika skeden av livet.</p>',
             types: array(
                   new BasedType(
-                        title: 'Vuxenfinnar',
-                        subtitle: '20-65 års ålder',
-                        image_url: 'bilder/symptom/102x102/vuxenfinnar.webp',
-                        image_alt: 'Bild av finnar hos vuxna',
-                        image_title: 'Finnar hos vuxna',
-                        url: '/vuxenacne.php',
-                        url_title: 'Utforska information om finnar hos vuxna'
-                  ),
-                  new BasedType(
                         title: 'Tonårsfinnar',
                         subtitle: '13-19 års ålder',
-                        image_url: 'bilder/symptom/102x102/tonarsfinnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/tonarsfinnar.webp',
                         image_alt: 'Bild av finnar hos tonåringar',
                         image_title: 'Finnar hos tonåringar',
                         url: '/tonarsacne.php',
                         url_title: 'Utforska information om finnar hos tonåringar'
+                  ),
+                  new BasedType(
+                        title: 'Vuxenfinnar',
+                        subtitle: '20-65 års ålder',
+                        image_url: 'bilder/hudtyper/232x232/vuxenfinnar.webp',
+                        image_alt: 'Bild av finnar hos vuxna',
+                        image_title: 'Finnar hos vuxna',
+                        url: '/vuxenacne.php',
+                        url_title: 'Utforska information om finnar hos vuxna'
                   ),
             )
       ),
@@ -156,7 +156,7 @@ $type_categories = array(
                         title: 'Stress finnar',
                         subtitle: 'Finnar orsakat av stress',
 
-                        image_url: 'bilder/symptom/102x102/stress-finnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/stress-finnar.webp',
                         image_alt: 'Ansikte med stress finnar',
                         image_title: 'Exempel på stress finnar',
 
@@ -167,7 +167,7 @@ $type_categories = array(
                         title: 'Hormonella finnar',
                         subtitle: 'Finnar orsakad av hormoner',
 
-                        image_url: 'bilder/symptom/102x102/hormonella-finnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/hormonella-finnar.webp',
                         image_alt: 'Ansikte med hormonella finnar',
                         image_title: 'Exempel på hormonella finnar',
 
@@ -178,7 +178,7 @@ $type_categories = array(
                         title: 'Solfinnar',
                         subtitle: 'Acne aestivalis',
 
-                        image_url: 'bilder/symptom/102x102/solfinnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/solfinnar.webp',
                         image_alt: 'Ansikte med solfinnar',
                         image_title: 'Exempel på solfinnar',
 
@@ -189,7 +189,7 @@ $type_categories = array(
                         title: 'Inflammerade finnar',
                         subtitle: 'Acne pustulosa',
 
-                        image_url: 'bilder/symptom/102x102/inflammerade-finnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/inflammerade-finnar.webp',
                         image_alt: 'Ansikte med inflammerade finnar',
                         image_title: 'Exempel på inflammerade finnar',
 
@@ -200,7 +200,7 @@ $type_categories = array(
                         title: 'Kosmetik finnar',
                         subtitle: 'Acne cosmetica',
 
-                        image_url: 'bilder/symptom/102x102/kosmetik-finnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/kosmetik-finnar.webp',
                         image_alt: 'Ansikte med kosmetik finnar',
                         image_title: 'Exempel på kosmetik finnar',
 
@@ -211,7 +211,7 @@ $type_categories = array(
                         title: 'Finnar från pillande',
                         subtitle: 'Acne exoriée ',
 
-                        image_url: 'bilder/symptom/102x102/pill-finnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/pill-finnar.webp',
                         image_alt: 'Ansikte med pill finnar',
                         image_title: 'Exempel på pill finnar',
 
@@ -222,7 +222,7 @@ $type_categories = array(
                         title: 'Friktions finnar',
                         subtitle: 'Acne mechanica',
 
-                        image_url: 'bilder/symptom/102x102/friktions-finnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/friktions-finnar.webp',
                         image_alt: 'Ansikte med friktions finnar',
                         image_title: 'Exempel på friktions finnar',
 
@@ -233,7 +233,7 @@ $type_categories = array(
                         title: 'Kontakt finnar',
                         subtitle: 'Acne venenata',
 
-                        image_url: 'bilder/symptom/102x102/kontakt-akne.webp',
+                        image_url: 'bilder/hudtyper/232x232/kontakt-akne.webp',
                         image_alt: 'Ansikte med kontakt finnar',
                         image_title: 'Exempel på kontakta finnar',
 
@@ -244,7 +244,7 @@ $type_categories = array(
                         title: 'Svampfinnar',
                         subtitle: 'Fungal acne',
 
-                        image_url: 'bilder/symptom/102x102/svamp-finnar.webp',
+                        image_url: 'bilder/hudtyper/232x232/svamp-finnar.webp',
                         image_alt: 'Ansikte med svampfinnar',
                         image_title: 'Exempel på svampfinnar',
 
@@ -262,7 +262,7 @@ $type_categories = array(
                         title: 'Finnar i ansiktet',
                         subtitle: 'Acne faciei',
 
-                        image_url: 'bilder/symptom/102x102/finnar-ansikte.webp',
+                        image_url: 'bilder/hudtyper/232x232/finnar-ansikte.webp',
                         image_alt: 'Finnar i ansiktet',
                         image_title: 'Exempel på finnar i ansiktet',
 
@@ -273,7 +273,7 @@ $type_categories = array(
                         title: 'Finnar på ryggen',
                         subtitle: 'Acne dorsalis',
 
-                        image_url: 'bilder/symptom/102x102/finnar-rygg.webp',
+                        image_url: 'bilder/hudtyper/232x232/finnar-rygg.webp',
                         image_alt: 'Finnar på ryggen',
                         image_title: 'Exempel på finnar på ryggen',
 
@@ -284,7 +284,7 @@ $type_categories = array(
                         title: 'Finnar på bröstet',
                         subtitle: 'Acne pectoralis',
 
-                        image_url: 'bilder/symptom/102x102/finnar-brost.webp',
+                        image_url: 'bilder/hudtyper/232x232/finnar-brost.webp',
                         image_alt: 'Finnar på bröstet',
                         image_title: 'Exempel på finnar på bröstet',
 
@@ -295,7 +295,7 @@ $type_categories = array(
                         title: 'Finnar runt munnen',
                         subtitle: 'Perioral dermatit',
 
-                        image_url: 'bilder/symptom/102x102/finnar-runt-munnen.webp',
+                        image_url: 'bilder/hudtyper/232x232/finnar-runt-munnen.webp',
                         image_alt: 'Finnar runt munnen',
                         image_title: 'Exempel på finnar runt munnen',
 
