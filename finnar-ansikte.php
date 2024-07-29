@@ -60,28 +60,28 @@ $description_text = '<p class="p200">Finnar i ansiktet är en hudutmaning som in
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Vid en konsultation hos AcneSpecialisten identifierar vi ditt hudproblem och skapar en skräddarsydd behandlingsplan.',
+            content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera dina finnar och skapar en individuell behandlingsplan.',
             url_label: 'Boka gratis konsultation',
             url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Våra behandlingar för finnar är anpassade efter din huds specifika behov och tillstånd.',
+            content: 'Vi utför grundliga och effektiva behandlingar anpassade för dina specifika problem, så att du snabbt och säkert blir av med finnarna.',
             url_label: 'Se finnarbehandlingar',
             url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Pimples',
             url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
       new TreatmentStep(
             title: 'Förebygga',
-            content: 'Vi erbjuder hudvårdsprodukter och rutiner som upprätthåller hudbalansen och förhindrar nya utbrott.',
+            content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya finnar och hålla din hud i balans.',
             url_label: 'Se produkter',
             url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga finnar'
       ),
       new TreatmentStep(
             title: 'Reparera',
-            content: 'Vi erbjuder behandlingar för att minska ärr och förbättra hudens textur efter utbrott.',
+            content: 'När finnarna är borta fokuserar vi på att reducera eventuella ärr med behandlingsmetoder som laser, microneedling och kemisk peeling för en jämn och problemfri hud.',
             url_label: 'Se behandlingar',
             url: 'behandla-finnar-arr.php',
             url_title: 'Upptäck effektiva behandlingar för ärr från finnar'
