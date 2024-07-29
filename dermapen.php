@@ -333,10 +333,10 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
-        image_alt: 'Kropp',
-        image_title: 'Kropp',
-        title: 'Kropp',
-        description: '<p class="p200">Anpassningsbar för behandling av olika kroppsdelar.</p>',
+        image_alt: 'Zoner',
+        image_title: 'Zoner',
+        title: 'Zoner',
+        description: '<p class="p200">Behandla litet område för enstaka problem</p>',
         items: array(
         new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/nasa.svg',
@@ -355,7 +355,7 @@ $treatment_areas = array(
                 image_title: 'Kinder',
                 title: 'Kinder',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för kindbehandling'
