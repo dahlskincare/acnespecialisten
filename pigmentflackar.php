@@ -113,7 +113,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Hormonella pigmentförändringar',
                         subtitle: 'Melasma',
-                        image_url: '/bilder/symptom/102x102/hormonella-pigmentforandringar.webp',
+                        image_url: '/bilder/hudtyper/232x232/hormonella-pigmentforandringar.webp',
                         image_alt: 'Bild av hormonella pigmentförändringar',
                         image_title: 'Hormonella pigmentförändringar',
                         url: '/melasma.php',
@@ -122,7 +122,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Solfläckar',
                         subtitle: 'Solar Lentigines',
-                        image_url: '/bilder/symptom/102x102/solflackar.webp',
+                        image_url: '/bilder/hudtyper/232x232/solflackar.webp',
                         image_alt: 'Bild av solfläckar',
                         image_title: 'Solfläckar',
                         url: '/solskadad-hy.php',
@@ -131,7 +131,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Åldersfläckar',
                         subtitle: 'Lentigo Senilis',
-                        image_url: '/bilder/symptom/102x102/aldersflackar.webp',
+                        image_url: '/bilder/hudtyper/232x232/aldersflackar.webp',
                         image_alt: 'Bild av åldersfläckar',
                         image_title: 'Åldersfläckar',
                         url: '/aldersflackar.php',
@@ -140,7 +140,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Fräknar',
                         subtitle: 'Ephelides',
-                        image_url: '/bilder/symptom/102x102/fraknar.webp',
+                        image_url: '/bilder/hudtyper/232x232/fraknar.webp',
                         image_alt: 'Bild av fräknar',
                         image_title: 'Fräknar',
                         //url: 'hudproblem/pigmentflackar/typer/freknar',
@@ -155,7 +155,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Mörka / Bruna Pigmentfläckar',
                         subtitle: 'Hyperpigmentering',
-                        image_url: '/bilder/symptom/102x102/bruna-pigmentflackar.webp',
+                        image_url: '/bilder/hudtyper/232x232/bruna-pigmentflackar.webp',
                         image_alt: 'Bild av mörka bruna pigmentfläckar',
                         image_title: 'Mörka bruna pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/morka-bruna',
@@ -164,7 +164,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Röda / Lila Pigmentfläckar',
                         subtitle: 'Postinflammatorisk Hyperpigmentering (PIH)',
-                        image_url: '/bilder/symptom/102x102/roda-pigmentflackar.webp',
+                        image_url: '/bilder/hudtyper/232x232/roda-pigmentflackar.webp',
                         image_alt: 'Bild av röda lila pigmentfläckar',
                         image_title: 'Röda lila pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/roda-lila',
@@ -173,7 +173,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Ljusbruna Pigmentfläckar',
                         subtitle: 'Café au lait fläckar',
-                        image_url: '/bilder/symptom/102x102/ljusbruna-pigmentflackar.webp',
+                        image_url: '/bilder/hudtyper/232x232/ljusbruna-pigmentflackar.webp',
                         image_alt: 'Bild av ljusbruna pigmentfläckar',
                         image_title: 'Ljusbruna pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/ljusbruna',
@@ -182,7 +182,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Vita Pigmentfläckar',
                         subtitle: 'Hypopigmentering',
-                        image_url: '/bilder/symptom/102x102/vita-pigmentflackar.webp',
+                        image_url: '/bilder/hudtyper/232x232/vita-pigmentflackar.webp',
                         image_alt: 'Bild av vita pigmentfläckar',
                         image_title: 'Vita pigmentförändringar',
                         //url: 'hudproblem/pigmentflackar/typer/vita',
@@ -198,7 +198,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar i ansiktet',
                         subtitle: 'Solfläckar & åldersfläckar',
-                        image_url: '/bilder/symptom/102x102/pigmentflackar-ansikte.webp',
+                        image_url: '/bilder/hudtyper/232x232/pigmentflackar-ansikte.webp',
                         image_alt: 'Bild av pigmentfläckar i ansiktet',
                         image_title: 'Pigmentförändringar i ansiktet',
                         //url: 'hudproblem/pigmentflackar/omraden/ansikte',
@@ -207,7 +207,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar på överläppen',
                         subtitle: 'Melasma & Chloasma',
-                        image_url: '/bilder/symptom/102x102/pigmentflackar-overlapp.webp',
+                        image_url: '/bilder/hudtyper/232x232/pigmentflackar-overlapp.webp',
                         image_alt: 'Bild av pigmentfläckar på överläppen',
                         image_title: 'Pigmentförändringar på överläppen',
                         url: '/melasma.php',
@@ -216,7 +216,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar på Kroppen',
                         subtitle: 'Hyperpigmentering',
-                        image_url: '/bilder/symptom/102x102/pigmentflackar-kropp.webp',
+                        image_url: '/bilder/hudtyper/232x232/pigmentflackar-kropp.webp',
                         image_alt: 'Bild av pigmentfläckar på kroppen',
                         image_title: 'Pigmentförändringar på kroppen',
                         //url: 'hudproblem/pigmentflackar/omraden/kroppen',
@@ -225,7 +225,7 @@ $type_categories = array(
                   new BasedType(
                         title: 'Pigmentfläckar på Händerna',
                         subtitle: 'Solfläckar & åldersfläckar',
-                        image_url: '/bilder/symptom/102x102/pigmentflackar-hander.webp',
+                        image_url: '/bilder/hudtyper/232x232/pigmentflackar-hander.webp',
                         image_alt: 'Bild av pigmentfläckar på händerna',
                         image_title: 'Pigmentförändringar på händerna',
                         //url: 'hudproblem/pigmentflackar/omraden/hander',
