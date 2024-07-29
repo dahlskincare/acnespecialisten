@@ -112,7 +112,7 @@ $trivias = array(
 
             <li class="mt-xl"><strong>Microneedling:</strong> Mikronålsbehandlingar bör undvikas eftersom de kan orsaka oönskade effekter på huden och kroppen.</li></ul>
 
-            <p class="p200 mt-xl">Finnar under graviditeten är en vanlig utmaning som många kvinnor möter. Genom att förstå orsakerna och följa lämpliga hudvårdsrutiner kan du effektivt hantera finnar och hålla din hud så klar och hälsosam som möjligt. Om du har svåra problem med akne under graviditeten, tveka inte att söka professionell hjälp för att få den bästa möjliga vården.</p>',
+            <p class="p200 mt-xl">Finnar under graviditeten är en vanlig utmaning som många kvinnor möter. Genom att förstå orsakerna och följa lämpliga hudvårdsrutiner kan du effektivt hantera finnar och hålla din hud så klar och hälsosam som möjligt. Om du har svåra problem med akne under graviditeten, tveka inte att söka professionell hjälp genom att boka en kostnadsfri hudkonsultation hos oss på AcneSpecialisten</p>',
             icons: array()
       ),
 );
@@ -153,17 +153,109 @@ $treatment_steps = array(
 );
 $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva aknebehandlingar" class="mt-xl button b200 outline expand auto-width">Läs mer om våra behandlingar</a>';
 
-$top_articles = array(
-      'areas' => new Article(
-            title: 'Var och varför uppstår hudproblemet?',
-            image_small: null,
-            image_large: null,
-            image_alt: '',
-            image_title: '',
-            content: '<p class="p200">Gravid finnar uppstår ofta på grund av hormonella förändringar under graviditeten, vilket kan öka hudens talgproduktion och leda till tilltäppta porer. Dessa förändringar är vanligast i ansiktet, men kan även påverka andra delar av kroppen. Vår expertis på AcneSpecialisten innebär att vi noggrant analyserar din hud och dess förändringar under graviditeten, för att identifiera de mest effektiva behandlingsmetoderna.</p>
-            <p class="p200 mt-m">För att hantera gravid finnar effektivt är det viktigt att anpassa hudvården under graviditeten. Det inkluderar att undvika vissa hudvårdsprodukter som kan vara irriterande eller skadliga under graviditeten. Våra hudterapeuter kommer att ge dig skräddarsydda råd och rekommendationer för säker och skonsam hudvård som stödjer din huds hälsa och balans under denna speciella tid.</p>',
+
+$headline01 = "01. Identifiera";
+
+$service = new Service(
+      title: 'Konsultation',
+      duration: '20 min',
+      price: 'Kostnadsfri',
+      content: 'Möt en expert för en individuell konsultation och detaljerad analys av ditt hudproblem. Vi tar bilder för att jämföra resultat och rekommenderar en anpassad behandlingsplan.',
+      image_small: 'images/services/200x200/konsultation.webp',
+      image_large: 'images/services/200x200/konsultation.webp',
+      image_alt: 'Bild som visar en konsultation för finnar',
+      image_title: 'Konsultation för finnbehandling',
+      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+      consultation_url_label: 'Boka konsultation',
+      consultation_url_title: 'Klicka här för att boka en tid för en konsultation om finnar',
+      booking_url: null,
+      booking_url_label: null,
+      booking_url_title: null,
+      url_label: 'Läs mer om gratis hudkonsultation',
+      url: 'gratis-hudkonsultation.php',
+      url_title: 'Läs mer om gratis hudkonsultation mot finnar',
+
+);
+
+$headline02 = "02. Behandla";
+
+$services = array(
+      new Service(
+            title: 'Portömning',
+            duration: '60 min',
+            price: '1295 kr',
+            content: 'Effektiv behandling för att klämma finnar utan att orsaka ärr, detta genom att noggrant framtagen för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
+            image_small: 'images/services/200x200/ansiktsbehandling.webp',
+            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_alt: 'Bild av en ansiktsbehandling mot finnar',
+            image_title: 'Ansiktsbehandling mot finnar',
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot finnar',
+            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Pimples',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling mot finnar',
+            url_label: 'Läs mer om ansiktsbehandling',
+            url: '/portomning.php',
+            url_title: 'Läs mer om ansiktsbehandling mot finnar',
       ),
 );
+
+$headline03 = "03. Förebygg";
+
+$products = array(
+      new Service(
+            title: 'Produkter mot finnar',
+            duration: null,
+            price: 'Från 1395 kr',
+            content: 'Att effektivt behandla huden kräver regelbunden användning av de rätta produkterna. Våra hudvårdsprodukter har specialutformats för att balansera din hud och motverka uppkomsten av nya finnar.',
+            image_small: 'images/services/200x200/produkter.webp',
+            image_large: 'images/services/200x200/produkter.webp',
+            image_alt: 'Bild av produkter designade för behandling av finnar',
+            image_title: 'Effektiva produkter för bekämpning och förebyggande av finnar',
+            consultation_url: null,
+            consultation_url_label: null,
+            consultation_url_title: null,
+            booking_url: null,
+            booking_url_label: null,
+            booking_url_title: null,
+            url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
+            url_label: 'Läs mer om produkterna',
+            url_title: 'Klicka här för att läsa mer om våra effektiva produkter mot finnar'
+      )
+);
+
+
+$headline04 = "04. Reparera";
+
+$procedures = array(
+      new Service(
+            title: 'Reparera ärr efter finnar',
+            duration: '4 behandlingsmetoder',
+            price: null,
+            content: 'Ärr kan uppstå i form av gropar och fläckar på huden där finnarna tidigare varit. Dessa ärr kan vara i olika former och färger, och behandlas med olika metoder.',
+            image_small: 'images/services/200x200/microneedling.webp',
+            image_large: 'images/services/200x200/microneedling.webp',
+            image_alt: 'Reparera ärr efter finnar',
+            image_title: 'Reparera ärr efter finnar',
+
+            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot ärr från finnar',
+
+            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_PimpleScars',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för en microneedling mot ärr från finnar',
+
+            url: 'behandla-finnar-arr.php',
+            url_label: 'Läs mer om behandlingar',
+            url_title: 'Klicka här för att läsa mer om våra behandlingar mot ärr från finnar'
+      ),
+
+);
+
+
+
 
 $articles = array(
       new Article(
@@ -791,15 +883,39 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
+                        <section id="define">
+                              <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
+                              <hr class="is-hidden-mobile">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <hr class="is-hidden-mobile">
+                        </section>
+                        <section id="treatments">
+                              <h2 class="h500"><?php echo $headline02 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($services as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="products">
+                              <h2 class="h500"><?php echo $headline03 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($products as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
+                        <section id="treatment-solutions">
+                              <h2 class="h500"><?php echo $headline04 ?></h2>
+                              <hr class="is-hidden-mobile mt-xl">
+                              <?php foreach ($procedures as $service) { ?>
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
+                                    <hr class="is-hidden-mobile mb-xxl">
+                              <?php } ?>
+                        </section>
 
 
-                        <?php foreach ($top_articles as $id => $article) { ?>
-                              <section id="<?php echo $id ?>">
-                                    <?php
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/article/article_widget.php');
-                                    ?>
-                              </section>
-                        <?php } ?>
+               
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
