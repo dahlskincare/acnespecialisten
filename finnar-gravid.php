@@ -767,10 +767,16 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        <section id="about">
-                              <h2 class="h500"><?php echo $description_title ?></h2>
-                              <div class="mt-xl"><?php echo $description_text ?></div>
+                       <section id="about">
+                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
+                              <?php foreach ($trivias as $trivia) {
+                                    echo '<hr>';
+                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
+                              } ?>
+                              <hr>
                         </section>
+
+                        
                         <section id="approach">
                               <h2 class="h500 l10n">Metoden</h2>
                               <hr class="mt-xl mb-xl3 is-hidden-mobile">
@@ -786,14 +792,7 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <section id="about">
-                              <h2 class="h500 l10n"><?php echo $about_title ?></h2>
-                              <?php foreach ($trivias as $trivia) {
-                                    echo '<hr>';
-                                    include('hudproblem/widgets/problem-trivia-card/problem-trivia-card.php');
-                              } ?>
-                              <hr>
-                        </section>
+
 
                         <?php foreach ($top_articles as $id => $article) { ?>
                               <section id="<?php echo $id ?>">
