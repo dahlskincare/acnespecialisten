@@ -71,23 +71,23 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vanliga',
             title: ' Orsaker Till Finnar På Ryggen',
-            content: '<p class="p200">Finnar på ryggen är ett vanligt problem som kan drabba dig som tjej eller kille. Det finns flera olika orsaker till varför ryggakne uppstår. Här är några av de vanligaste orsakerna:</p>
+            content: '<p class="p200">Finnar på ryggen är ett vanligt problem som kan drabba dig som tjej eller kille. Det finns flera olika orsaker till varför ryggakne uppstår. Här är några av de vanligaste orsakerna:</p>',
 
-            <ul><li class="mt-m"><strong>Svett:</strong> Ökad svettproduktion, ofta i samband med träning eller varma kläder, kan täppa igen porerna och leda till finnar.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Svett:</strong> Ökad svettproduktion, ofta i samband med träning eller varma kläder, kan täppa igen porerna och leda till finnar.</li>
 
-            <li class="mt-m"><strong>Hormonella faktorer:</strong> Obalanser i hormonnivåerna, såsom höga testosteronnivåer, graviditet och pubertet, kan stimulera talgproduktionen och utlösa akne.</li>
+            <li class="mt-xl"><strong>Hormonella faktorer:</strong> Obalanser i hormonnivåerna, såsom höga testosteronnivåer, graviditet och pubertet, kan stimulera talgproduktionen och utlösa akne.</li>
 
-            <li class="mt-m"><strong>Hudvårdsprodukter:</strong> Kemikalier från schampo, balsam och andra hårprodukter kan täppa till porerna på ryggen, särskilt om du har långt hår.</li>
+            <li class="mt-xl"><strong>Hudvårdsprodukter:</strong> Kemikalier från schampo, balsam och andra hårprodukter kan täppa till porerna på ryggen, särskilt om du har långt hår.</li>
 
-            <li class="mt-m"><strong>Träningsvanor:</strong> Användning av tunga skyddsutrustningar som hos hockeyspelare kan öka friktionen och svettproduktionen, vilket i sin tur kan leda till akne.</li>
+            <li class="mt-xl"><strong>Träningsvanor:</strong> Användning av tunga skyddsutrustningar som hos hockeyspelare kan öka friktionen och svettproduktionen, vilket i sin tur kan leda till akne.</li>
 
-            <li class="mt-m"><strong>Obalans i huden:</strong> Överdriven tvätt kan störa hudens naturliga talgproduktion och orsaka finnar.</li>
+            <li class="mt-xl"><strong>Obalans i huden:</strong> Överdriven tvätt kan störa hudens naturliga talgproduktion och orsaka finnar.</li>
 
-            <li class="mt-m"><strong>Anabola steroider:</strong> Användning av steroider kan leda till ökade testosteronnivåer, vilket i sin tur kan utlösa akne.</li>
+            <li class="mt-xl"><strong>Anabola steroider:</strong> Användning av steroider kan leda till ökade testosteronnivåer, vilket i sin tur kan utlösa akne.</li>
 
-            <li class="mt-m"><strong>Stress:</strong> Emotionella problem och stress kan förvärra akneutbrott.</li>
+            <li class="mt-xl"><strong>Stress:</strong> Emotionella problem och stress kan förvärra akneutbrott.</li>
 
-            <li class="mt-m"><strong>Bakterieflora:</strong> Annan bakterieflora på ryggen och immunförsvarets respons kan också spela en roll.</li>
+            <li class="mt-xl"><strong>Bakterieflora:</strong> Annan bakterieflora på ryggen och immunförsvarets respons kan också spela en roll.</li>
 
             <li class="mt-xl"><strong>Preventivmedel:</strong> Vissa hormonella preventivmedel, som kombinerade p-piller, kan faktiskt hjälpa till att balansera hormonella obalanser som leder till akne. Men för vissa kan preventivmedel förvärra situationen. Om du misstänker att ditt preventivmedel påverkar din hud, rådgör med din läkare för att hitta en bättre lösning.</li></ul>
 
