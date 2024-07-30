@@ -46,4 +46,4 @@ jobs:
           host='${{ secrets.AS_SSH_HOST_LIVE }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER_LIVE }}@${{ secrets.AS_SSH_HOST_LIVE }} 'find ~/public_html -mindepth 1 ! -name '*/.env' ! -name 'web.zip' ! -path "~/public_html/book/*" -exec rm -rf {} +; cd ~/public_html; unzip -o web.zip; rm web.zip;'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER_LIVE }}@${{ secrets.AS_SSH_HOST_LIVE }} 'find ~/public_html -mindepth 1 ! -path '~/public_html/book/*'' ! -name '*/.env' ! -name 'web.zip' -exec rm -rf {} +; cd ~/public_html; unzip -o web.zip; rm web.zip;'
