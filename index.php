@@ -296,29 +296,45 @@
                         <?php
                         $reviews = array(
                               new Review(
+                                    stars: 4,
                                     brand: 'Trustpilot',
-                                    title: 'Hade testat allt innan',
-                                    text: "Hade testat allt innan, och var skeptisk till att de kunde hjälpa mig på AcneSpecialisten. Men genom att följa deras råd blev allt så mycket bättre! Kan varmt rekommendera.",
-                                    signature: 'Josefin',
-                                    stars: 5,
-                                    logo_url: $logo_registry['Trustpilot'],
-                                    link: new Link(label: "", url: "https://www.trustpilot.com/reviews/626930310c4813f76bf61446", title: "Hade testat allt innan"),
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Rekommenderar varmt AcneSpecialisten',
+                                    text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
+                                    signature: 'Gabriella',
+                                    link: new Link(label: "", url: "https://se.trustpilot.com/users/667ad10d9a54c79b7fff547c", title: "Bästa i hela Stockholm"),
                               ),
                               new Review(
+                                    stars: 5,
                                     brand: 'Google',
-                                    title: 'Super!',
-                                    text: "Super! Proffsigt, kunnigt, snabbt, smidigt! Bra och tydlig information, kan bara varmt rekommendera 👌🏼🙌🏼🙏🏼",
-                                    signature: 'Veronica',
-                                    stars: 5,
-                                    logo_url: $logo_registry['Google'],
+                                    logo_url: 'images/brands/google-small.svg',
+                                    title: 'Man behöver inte klä av sig',
+                                    text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
+                                    signature: 'Alan'
                               ),
                               new Review(
-                                    brand: 'Bokadirekt',
-                                    title: 'Super fin personal, fint ställe',
-                                    text: "Super fin personal, fint ställe. Duktiga på att informera och svara på frågor. Jag har gått där i ca 2-3 år och det är stor skillnad på hyn. Bra produkter!",
-                                    signature: 'Felicia',
                                     stars: 5,
-                                    logo_url: $logo_registry['Bokadirekt'],
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Underbar service och väldigt…Stort tack att ni finns',
+                                    text: "Underbar service och väldigt professionell hudterapeut Julia. Acnespecialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
+                                    signature: 'Maria'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Google',
+                                    logo_url: 'images/brands/google-small.svg',
+                                    title: 'Nöjd',
+                                    text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
+                                    signature: 'Mona'
+                              ),
+                              new Review(
+                                    stars: 5,
+                                    brand: 'Trustpilot',
+                                    logo_url: 'images/brands/trustpilot.svg',
+                                    title: 'Kunniga och bra!',
+                                    text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
+                                    signature: 'Ditte'
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
