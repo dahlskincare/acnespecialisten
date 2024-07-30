@@ -53,7 +53,7 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla dina finnar på ryggen effektivt.';
 
-$about_title = 'Bli Av Med Finnar På Ryggen: Effektiva tips, produkter Och Behandlingar';
+$about_title = 'Bli av med Finnar på Ryggen: Effektiva tips, Produkter och Behandlingar';
 
 $trivias = array(
       new ProblemTrivia(
