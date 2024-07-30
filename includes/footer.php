@@ -479,65 +479,12 @@
     } else {
         document.body.classList.remove('top');
     }
-</script>
 
-<style>
-    #cookies-popup {
-        display: none;
-        position: fixed;
-        z-index: 100;
-        bottom: 16px;
-        right: 16px;
-        width: 248px;
-        border-radius: 8px;
-        background-color: #fff;
-        padding: 16px;
-        border: 1px solid #efefef;
-        box-shadow: 0px 6px 10px 0px #0000000F;
-        font-size: 14px;
-        line-height: 21px;
-
-        @media screen and (min-width: 1024px) {
-            bottom: 24px;
-            right: 24px;
-        }
-    }
-
-    #cookies-popup a {
-        text-decoration: underline;
-    }
-
-    #cookies-popup button {
-        margin-top: 20px;
-    }
-</style>
-
-<div id="cookies-popup">
-    <div class="l10n">Genom att använda vår hemsida godkänner du våra villkor <a href="cookies.php" title="Cookie policy">Cookie policy</a>.</div>
-    <button class="grey expand l10n">Accept</button>
-</div>
-
-<script>
-    var cookiesPopup = document.querySelector('#cookies-popup');
-    if (localStorage.getItem('cookies-accepted') != 'true') {
-        cookiesPopup.style.display = 'block';
-    }
-    cookiesPopup.querySelector('#cookies-popup button').addEventListener('click', function() {
-        cookiesPopup.style.display = 'none';
-        localStorage.setItem('cookies-accepted', 'true');
-    });
-</script>
-
-
-<script>
     window.intercomSettings = {
         api_base: "https://api-iam.intercom.io",
         app_id: "p785iyzu",
     };
-</script>
 
-
-<script>
     // We pre-filled your app ID in the widget URL: 'https://widget.intercom.io/widget/p785iyzu'
     (function() {
         var w = window;
