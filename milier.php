@@ -272,8 +272,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under ett personligt möte med en av AcneSpecialistens hudexperter utförs en undersökning av din hy. Vi tar före-bilder på det drabbade området och rekommenderar en skräddarsydd behandlingsplan utformad efter dina specifika behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för milierbehandling',
       image_title: 'Konsultation för milierbehandling',
 
@@ -299,8 +299,8 @@ $services = array(
             price: '1295 kr',
             content: 'Vår behandling syftar till att noggrant avlägsna dessa små cystor. Genom att använda säkra och effektiva extraktionsmetoder, hjälper vi dig att bli av med milier och därmed förbättra hudens övergripande utseende.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en behandling mot milier',
             image_title: 'Behandling mot milier',
 

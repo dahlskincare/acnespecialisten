@@ -216,8 +216,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en hudterapeut utförs en undersökning av din blandhy. Vi tar före-bilder på din hud och rekommenderar rätt behandlingsmetod för just din hy samt tar fram en skräddarsydd behandlingsplan för just dig.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för blandhy',
       image_title: 'Konsultation för blandhy',
 
@@ -244,8 +244,8 @@ $services = array(
             price: '1295 kr',
             content: 'Denna skräddarsydda ansiktsrengöring för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för blandhy',
             image_title: 'Ansiktsbehandling för blandhy',
 
@@ -268,8 +268,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling anpassad för blandhy använder sig av en unik syra framtagen för att exfoliera och återfukta hudens särskilda behov. Den främjar en accelererad cellförnyelse, vilket bidrar till att balansera både oljiga och torra partier av huden.',
 
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling för blandhy',
             image_title: 'Kemisk peeling för blandhy behandling',
 
@@ -293,8 +293,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling för blandhy adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, förbättrar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga områden, vilket förbättrar hudens yta och återställer en naturliga balans.',
 
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling för blandhy',
             image_title: 'Microneedling för blandhy behandling',
 
@@ -322,8 +322,8 @@ $products = array(
             price: 'Från 1495 kr',
             content: 'Att hantera blandhy kräver speciellt utvalda produkter som kan balansera huden och ta hand om både dess torra och oljiga delar. Med daglig användning av våra produkter med ansiktskrämer för blandad hy kan du uppnå en balanserad hud som både känns och ser bättre ut.',
 
-            image_small: 'images/services/200x200/produkter.webp',
-            image_large: 'images/services/200x200/produkter.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av blandhy',
             image_title: 'Effektiva produkter för balansering av blandhy',
 

@@ -193,8 +193,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under en personlig konsultation med en acnespecialist undersöks din akne noggrant. Vi tar bilder och rekommenderar en skräddarsydd behandlingsplan anpassad efter dina behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Kvinna får konsultation för akne',
       image_title: 'Konsultation för aknebehandling',
 
@@ -220,8 +220,8 @@ $services = array(
             price: '1295 kr',
             content: 'En effektiv behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Kvinna som får en ansiktsbehandling',
             image_title: 'Ansiktsbehandling för att behandla akne',
 
@@ -243,8 +243,8 @@ $services = array(
             price: '2595 kr',
             content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
 
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Kvinna som får en laserbehandling',
             image_title: 'Laserbehandling för att minska akne',
 
@@ -266,8 +266,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling använder en speciell syra för att exfoliera huden, rensa porer och minska inflammation.',
 
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Man som får kemisk peeling',
             image_title: 'Kemisk peeling för att behandla akne',
 
@@ -290,8 +290,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling skapar små kanaler i huden för att främja läkning och kollagenproduktion, behandla akneutbrott och minska akneärr.',
 
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Kvinna som får microneedling behandling',
             image_title: 'Microneedling för att behandla akne',
 
@@ -318,8 +318,8 @@ $products = array(
             price: 'Från 1395 kr',
             content: 'Daglig behandling med rätt produkter är avgörande för att bekämpa och förebygga akne. Våra produkter är speciellt utformade för att hålla huden i balans och förhindra nya utbrott.',
 
-            image_small: 'images/services/200x200/produkter.webp',
-            image_large: 'images/services/200x200/produkter.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_alt: 'Produkter för behandling av akne',
             image_title: 'Effektiva produkter för att bekämpa och förebygga akne',
 
@@ -342,8 +342,8 @@ $procedures = array(
             price: null,
             content: 'Acneärr visar sig som gropar och fläckar på huden. Vi erbjuder olika metoder för att behandla dessa ärr och återställa hudens utseende.',
 
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Kvinna som får behandling för acneärr',
             image_title: 'Behandling för att reparera acneärr',
 

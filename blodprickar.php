@@ -93,8 +93,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under en personlig konsultation med en hudspecialist utförs en grundlig undersökning av dina blodprickar. Vi tar före-bilder och diskuterar lämpliga behandlingsalternativ för att skräddarsy en behandlingsplan som passar dina specifika behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av blodprickar',
       image_title: 'Konsultation för behandling av blodprickar',
 
@@ -120,8 +120,8 @@ $services = array(
             price: '995 kr',
             content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort hemangiom och blodprickar. Behandlingen är snabb och ger minimalt obehag.',
 
-            image_small: 'images/services/200x200/cryopen.webp',
-            image_large: 'images/services/200x200/cryopen.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/cryopen.webp',
             image_alt: 'Bild av Cryopen behandling för blodprickar',
             image_title: 'Cryopen behandling för blodprickar',
 
@@ -144,8 +144,8 @@ $services = array(
             price: '1995 kr',
             content: 'Laserbehandling riktar högintensivt ljus mot hemangiom och blodprickar, vilket effektivt avlägsnar dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat',
 
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Kvinna som får laserbehandling mot hudförändringar',
             image_title: 'Laserbehandling mot hudförändringar',
 
