@@ -21,7 +21,7 @@ $image_title = 'Effektiv Behandling av Bröstakne';
 $image_alt = 'Bild som visar behandling och vård av akne på bröstet';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Akne på bröstet2',
+      title: 'Akne på bröstet',
       description: 'Akne på bröstkorgen, ofta kallad bröstakne, är ett vanligt hudproblem som kan drabba personer i alla åldrar och kön. Denna typ av akne kan visa sig som pormaskar, finnar, cystor och noduler på bröstet och kan vara både besvärande och obekväma. Vanliga orsaker till akne på bröstet inkluderar hormonella förändringar, ökad talgproduktion, tilltäppta porer samt yttre faktorer som stress, svett och kläder som inte andas.
 ',
       links_touch: [
