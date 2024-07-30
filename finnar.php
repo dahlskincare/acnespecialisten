@@ -194,7 +194,7 @@ $type_categories = array(
                         image_alt: 'Ansikte med inflammerade finnar',
                         image_title: 'Exempel på inflammerade finnar',
 
-                        url: 'inflammerad-akne.php',
+                        url: 'inflammation-acne.php',
                         url_title: 'Lär dig mer om inflammerad akne',
                   ),
                   new BasedType(
