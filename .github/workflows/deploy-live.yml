@@ -27,7 +27,7 @@ jobs:
         run: tsc
 
       - name: Compress files
-        run: zip web.zip * -r -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x ".env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
+        run: zip web.zip * .[^.]* -r -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x ".env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
 
       - name: Transfer zip
         uses: nogsantos/scp-deploy@master
@@ -46,4 +46,4 @@ jobs:
           host='${{ secrets.AS_SSH_HOST_LIVE }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER_LIVE }}@${{ secrets.AS_SSH_HOST_LIVE }} 'find ~/public_html -mindepth 1 ! -name '*/.env' ! -name 'web.zip' ! -path "*/.env" -exec rm -rf {} +; cd ~/public_html; unzip -o web.zip; rm web.zip;'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER_LIVE }}@${{ secrets.AS_SSH_HOST_LIVE }} 'find ~/public_html -mindepth 1 -path "*/book" -prune -o \( ! -path "*/api/*" ! -name "web.zip" ! -name ".env" -exec rm -rf {} + \); cd ~/public_html; unzip -o web.zip; rm web.zip;'
