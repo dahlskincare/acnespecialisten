@@ -18,12 +18,14 @@ html {
                     position: relative;
 
                     overflow-y: auto;
-                    scroll-behavior: smooth;
-                    scrollbar-width: none;
-                    -ms-overflow-style: none;
                     display: flex;
 
+
                     #brands-shadow {
+                        overflow-x: scroll;
+                        scroll-behavior: smooth;
+                        scrollbar-width: none;
+                        -ms-overflow-style: none;
                         @include elevation-medium();
                         display: flex;
                         border-radius: $radius-l;

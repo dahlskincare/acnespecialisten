@@ -10,7 +10,7 @@ namespace Brands {
 
 
 
-    container.addEventListener('scroll', () => {
+    scroller.addEventListener('scroll', () => {
         // conditionally hide the left mask
         if (container.scrollLeft <= 0) {
             leftMask.classList.add('is-hidden');
