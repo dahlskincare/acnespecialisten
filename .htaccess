@@ -337,6 +337,7 @@ Redirect 301 resultat-micrneedling-acnearr.php /resultat-acnearr.php
 Redirect 301 dermapen-acne.php /microneedling-acne.php
 Redirect 301 dermapen-acnearr.php /microneedling-acnearr.php
 Redirect 301 dermapen-stora-porer.php /microneedling-stora-porer.php
+Redirect 301 cookies.php /index.php
 
 # If not caught by any rule above, rewrite to .php if filename is missing and it ends with “.html”
 RewriteCond %{REQUEST_FILENAME} !-f

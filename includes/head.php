@@ -7,7 +7,7 @@ function icon($name)
 
 ?>
 <base href="/">
-<meta name="viewport" content="width=390, initial-scale=1, user-scalable=no" />
+<meta name="viewport" content="width=375, initial-scale=1, user-scalable=no" />
 <meta charset="UTF-8">
 <meta name="author" content="Acnespecialisten Sverige AB">
 <link rel="stylesheet" href="styles/normalize.css">

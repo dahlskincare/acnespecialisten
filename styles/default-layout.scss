@@ -16,6 +16,8 @@ html {
         color: #fff;
     }
 
+    overflow-x: hidden;
+
     body {
         overflow-x: hidden;
         overflow-y: auto;
@@ -69,6 +71,7 @@ html {
                     position: absolute;
                     left: 50%;
                     transform: translateX(-50%);
+                    width: 100%;
 
                     span.important-notice-highlight {
                         background-color: $deep-sea-500;
