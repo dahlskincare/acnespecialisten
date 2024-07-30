@@ -314,11 +314,11 @@
                               ),
                               new Review(
                                     stars: 5,
-                                    brand: 'Trustpilot',
-                                    logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Underbar service och väldigt…Stort tack att ni finns',
-                                    text: "Underbar service och väldigt professionell hudterapeut Julia. Acnespecialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
-                                    signature: 'Maria'
+                                    brand: 'Bokadirekt',
+                                    logo_url: 'images/brands/bokadirekt-small.svg',
+                                    title: 'Super fin personal, fint ställe',
+                                    text: "Super fin personal, fint ställe. Duktiga på att informera och svara på frågor. Jag har gått där i ca 2-3 år och det är stor skillnad på hyn. Bra produkter!",
+                                    signature: 'Felicia'
                               ),
                               new Review(
                                     stars: 5,
