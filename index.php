@@ -320,22 +320,6 @@
                                     text: "Super fin personal, fint ställe. Duktiga på att informera och svara på frågor. Jag har gått där i ca 2-3 år och det är stor skillnad på hyn. Bra produkter!",
                                     signature: 'Felicia'
                               ),
-                              new Review(
-                                    stars: 5,
-                                    brand: 'Google',
-                                    logo_url: 'images/brands/google-small.svg',
-                                    title: 'Nöjd',
-                                    text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
-                                    signature: 'Mona'
-                              ),
-                              new Review(
-                                    stars: 5,
-                                    brand: 'Trustpilot',
-                                    logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Kunniga och bra!',
-                                    text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-                                    signature: 'Ditte'
-                              ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                   </section>
