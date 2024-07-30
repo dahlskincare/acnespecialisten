@@ -1,4 +1,4 @@
-w<?php
+<?php
       include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
       include_once('hudproblem/widgets/problem-trivia-card/problem-trivia.php');
       include_once('hudproblem/widgets/symptom-card/symptom.php');

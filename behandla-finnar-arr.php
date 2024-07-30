@@ -5,15 +5,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Behandla ärr från finnar | AcneSpecialisten';
 $seo_description = 'Utforska de mest effektiva behandlingsmetoderna för ärr från finnar. Få skräddarsydda råd, tips, och expertis från oss för att behandla och minska ärr.';
 $seo_keywords = 'behandling av ärr från finnar, ärr från finnar, metod för behandling av finnärr, laserbehandling för finnärr, microneedling, kemisk peeling';
-$seo_image = 'images/treatments/large/acne-scars.jpg';
+$seo_image = 'bilder/hudproblem/424x456/acnearr.webp';
 
 $model = new Service(
     title: 'Behandling av Ärr från Finnar',
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">Vi har samlat de mest effektiva behandlingarna för att minska ärr från finnar. Oavsett dina specifika behov, har vi den rätta behandlingen för dig. Om du är osäker på vilken behandling som bäst passar din hudtyp och hjälper till att ta bort ärr från finnar, boka en kostnadsfri konsultation hos oss på AcneSpecialisten. Vi hjälper dig mot en klarare hy, fri från ärr.</p>',
-    image_small: 'images/treatments/small/acne-scars.jpg',
-    image_large: 'images/treatments/large/acne-scars.jpg',
+    image_small: 'bilder/hudproblem/424x324/acnearr.webp',
+    image_large: 'bilder/hudproblem/424x456/acnearr.webp',
     image_alt: 'Bild som illustrerar ärr från finnar',
     image_title: 'Ärr frånf innar',
     consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
