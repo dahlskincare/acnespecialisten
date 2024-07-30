@@ -29,12 +29,6 @@ jobs:
       - name: Compress files
         run: zip web.zip * .[^.]* -r -x ".git/*" -x ".github/*" -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x ".env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
 
-      - name: Start ssh-agent
-        id: ssh-agent
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.AS_SSH_KEY_LIVE }}
-
       - name: Transfer zip
         uses: nogsantos/scp-deploy@master
         with:
@@ -46,4 +40,10 @@ jobs:
           key: ${{ secrets.AS_SSH_KEY_LIVE }}
 
       - name: Uncompress on server
-        run: ssh ${{ secrets.AS_SSH_USER_LIVE }}@${{ secrets.AS_SSH_HOST_LIVE }} 'cd ~/public_html; unzip -o web.zip; rm web.zip;'
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/id_rsa
+          echo "${{ secrets.AS_SSH_KEY_LIVE }}" > ~/.ssh/id_rsa
+          host='${{ secrets.AS_SSH_HOST_LIVE }}'
+          hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
+          ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
+          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }} 'cd ~/temp.visurus.org; unzip -o web.zip'
