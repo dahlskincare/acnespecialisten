@@ -296,21 +296,21 @@
                         <?php
                         $reviews = array(
                               new Review(
-                                    stars: 4,
+                                    stars: 5,
                                     brand: 'Trustpilot',
                                     logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Rekommenderar varmt AcneSpecialisten',
-                                    text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
-                                    signature: 'Gabriella',
-                                    link: new Link(label: "", url: "https://se.trustpilot.com/users/667ad10d9a54c79b7fff547c", title: "Bästa i hela Stockholm"),
+                                    title: 'Hade testat allt innan',
+                                    text: "Hade testat allt innan, och var skeptisk till att de kunde hjälpa mig på AcneSpecialisten. Men genom att följa deras råd blev allt så mycket bättre! Kan varmt rekommendera.",
+                                    signature: 'Josefin',
+                                    link: new Link(label: "", url: "https://www.trustpilot.com/reviews/626930310c4813f76bf61446", title: "Hade testat allt innan"),
                               ),
                               new Review(
                                     stars: 5,
                                     brand: 'Google',
                                     logo_url: 'images/brands/google-small.svg',
-                                    title: 'Man behöver inte klä av sig',
-                                    text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
-                                    signature: 'Alan'
+                                    title: 'Super!',
+                                    text: "Super! Proffsigt, kunnigt, snabbt, smidigt! Bra och tydlig information, kan bara varmt rekommendera 👌🏼🙌🏼🙏🏼",
+                                    signature: 'Veronica'
                               ),
                               new Review(
                                     stars: 5,
