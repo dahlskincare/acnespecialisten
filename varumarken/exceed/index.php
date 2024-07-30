@@ -18,10 +18,10 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/exceed.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed',
+    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=exceed',
+    booking_url: 'https://www.acnespecialisten.se/book?flow=exceed',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -76,7 +76,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_1xArea',
+                url: 'https://www.acnespecialisten.se/book?flow=exceed&area=Microneedling_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 1 område'
             ),
@@ -87,7 +87,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '70 min',
                 price: '3595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_2xAreas',
+                url: 'https://www.acnespecialisten.se/book?flow=exceed&area=Microneedling_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 2 områden'
             ),
@@ -98,7 +98,7 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '90 min',
                 price: '4595 kr',
-                url: 'https://acnespecialisten.se/book?flow=exceed&area=Microneedling_3xAreas',
+                url: 'https://www.acnespecialisten.se/book?flow=exceed&area=Microneedling_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 3 områden'
             ),

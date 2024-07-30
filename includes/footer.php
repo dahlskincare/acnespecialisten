@@ -226,7 +226,7 @@
         <div class="container">
             <div class="columns is-3 is-variable">
                 <div class="column">
-                    <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_Clinic" title="Boka konsultation på kliniken" target="_blank" class="footer-large-banner">
+                    <a href="https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_Clinic" title="Boka konsultation på kliniken" target="_blank" class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
                                 <h2 class="l10n">Redo att sätta igång?</h2>
@@ -247,7 +247,7 @@
                 </div>
                 <div class="column">
                     <!-- TODO: zoom link -->
-                    <a href="https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online" title="Boka konsultation online" target="_blank" class="footer-large-banner">
+                    <a href="https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online" title="Boka konsultation online" target="_blank" class="footer-large-banner">
                         <div class="columns">
                             <div class="column">
                                 <h2 class="l10n">Kliniken för långt bort?</h2>

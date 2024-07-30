@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Akne på ryggen',
       description: 'Akne på ryggen kan vara svårare att behandla på grund av dess läge, men vi har samlat den information och de resurser du behöver för att effektivt hantera detta tillstånd. Från djupgående ryggbehandlingar till hemåtgärder, utforskar vi olika behandlingar som kan hjälpa dig att bli av med utbrott och förebygga framtida problem. Upptäck hur du kan uppnå och bibehålla en ren och klar rygg, fri från akne.',
       links_touch: [
-            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -186,14 +186,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Få en personlig hudterapeut som analyserar din hud och skapar en skräddarsydd behandlingsplan för just dina behov.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Våra grundliga ansiktsbehandlingar är anpassade för din aknetyp för att effektivt behandla och lindra dina hudproblem.',
             url_label: 'Se behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+            url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra skräddarsydda aknebehandlingar'
       ),
       new TreatmentStep(
@@ -232,7 +232,7 @@ $service = new Service(
       url_title: 'Läs mer om gratis hudkonsultation',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
       consultation_url_title: 'Boka tid för hudkonsultation',
 
       booking_url_label: null,
@@ -259,11 +259,11 @@ $services = array(
             url_title: 'Läs mer om ansiktsbehandling mot akne',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             consultation_url_title: 'Boka en konsultation för ansiktsbehandling mot akne',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=facialProblem&problem=Problem_Acne',
             booking_url_title: 'Boka tid för ansiktsbehandling mot akne',
       ),
       new Service(
@@ -282,11 +282,11 @@ $services = array(
             url_title: 'Läs mer om laser mot akne',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
             booking_url_title: 'Boka tid för laserbehandling mot akne',
       ),
       new Service(
@@ -304,11 +304,11 @@ $services = array(
             url: 'kemisk-peeling-acne.php',
             url_title: 'Läs mer om kemisk peeling mot akne',
 
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
 
-            booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka tid för kemisk peeling mot akne',
       ),
@@ -329,11 +329,11 @@ $services = array(
             url_title: 'Läs mer om microneedling mot akne',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Boka en konsultation för microneedling mot akne',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
             booking_url_title: 'Boka tid för microneedling mot akne',
       ),
 );
@@ -353,7 +353,7 @@ $products = array(
             image_title: 'Effektiva produkter för att bekämpa och förebygga akne',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             consultation_url_title: 'Boka konsultation för hudvårdsprodukter mot akne',
 
             booking_url_label: 'Köp produkter',
@@ -381,11 +381,11 @@ $procedures = array(
             url_title: 'Läs mer om behandling mot acneärr',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
             consultation_url_title: 'Boka konsultation för behandling av acneärr',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=dermapen&skipable_problem=Problem_AcneScars',
             booking_url_title: 'Boka behandling mot acneärr',
       ),
 );

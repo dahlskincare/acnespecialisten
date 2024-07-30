@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Stora Porer',
       description: 'Stora porer är ofta resultatet av genetiska faktorer, åldrande och ökad talgproduktion. Här hittar du information och orsakar som påverkar porernas storlek, utseende och hur de påverkar hudens struktur.',
       links_touch: [
-            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -82,7 +82,7 @@ $treatment_steps = array(
             content: 'Hos oss får du en personlig hudterapeut som hjälper dig identifiera problemet med dina stora porer och skapar en individuell behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
+            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -184,7 +184,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
       consultation_url_title: 'Klicka för att boka tid för en konsultation om stora porer',
 
       booking_url_label: null,
@@ -212,11 +212,11 @@ $services = array(
             url_title: 'Läs mer om ansiktsbehandling mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för stora porer',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Service_Facial_PoreExtraction',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Service_Facial_PoreExtraction',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för stora porer'
       ),
       new Service(
@@ -235,11 +235,11 @@ $services = array(
             url_title: 'Läs mer om laser mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling för stora porer',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_LaserProblem',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_LaserProblem',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för stora porer'
       ),
       new Service(
@@ -257,11 +257,11 @@ $services = array(
             url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot stora porer',
 
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för stora porer',
 
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_ChemicalPeeling',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_ChemicalPeeling',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för stora porer behandling'
 
@@ -282,11 +282,11 @@ $services = array(
             url_title: 'Läs mer om microneedling mot stora porer',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för stora porer',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_Microneedling',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_LargePores&method=Method_Microneedling',
             booking_url_title: 'Klicka för att boka tid för en microneedling för stora porer behandling'
       ),
 
@@ -306,7 +306,7 @@ $products = array(
             image_alt: 'Bild av produkter designade för att minska synligheten av stora porer',
             image_title: 'Effektiva produkter för hantering och förebyggande av stora porer',
 
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för stora porer',
             booking_url_label: 'Köp produkter',
