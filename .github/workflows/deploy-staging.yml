@@ -46,4 +46,4 @@ jobs:
           host='${{ secrets.AS_SSH_HOST }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }} 'find ~/temp-staging.visurus.org -mindepth 1 ! -name '*/.env' ! -name 'web.zip' ! -path "*/.env" -exec rm -rf {} +; cd ~/temp-staging.visurus.org; unzip -o web.zip; rm web.zip;'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }} 'find ~/temp-staging.visurus.org -mindepth 1 ! -name '*/.env' ! -name 'web.zip' ! -path "book" -exec rm -rf {} +; cd ~/temp-staging.visurus.org; unzip -o web.zip; rm web.zip;'
