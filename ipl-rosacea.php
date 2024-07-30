@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot rosacea',
     image_title: 'IPL mot rosacea',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
+    booking_url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -75,7 +75,7 @@ $treatment_steps = array(
         title: 'Behandla',
         content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika hy, så att du snabbt och säkert blir av med problemet.',
         url_label: 'Se behandlingar',
-        url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
+        url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
         url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
     ),
     new TreatmentStep(
@@ -129,35 +129,35 @@ $treatment_areas = array(
         description: '<p class="p200">IPL kan utföras i hela ansiktet eller på utvalda zoner.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/ansikte.webp',
+                image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'IPL för Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
+                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/nasa.webp',
+                image: '/bilder/omraden/ikoner/nasa.svg',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
                 title: 'IPL för Näsa',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Nose',
+                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av näsan'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/kinder.webp',
+                image: '/bilder/omraden/ikoner/kinder.svg',
                 image_alt: 'Kinder',
                 image_title: 'Kinder',
                 title: 'IPL för Kinder',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Cheeks',
+                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av kinderna',
             ),

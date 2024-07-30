@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY',
+    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=facialClassic',
+    booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -73,19 +73,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1295 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_2_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_2_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '3495 kr',
                 savings: '1165 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_2_Procedure_3'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_2_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '4995 kr',
                 savings: '999 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_2_Procedure_5'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_2_Procedure_5'
             )
         )
     ),
@@ -110,19 +110,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1295 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '3495 kr',
                 savings: '1165 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_3'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '4995 kr',
                 savings: '999 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_5'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_5'
             ),
         )
     ),
@@ -147,19 +147,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
                 savings: '1331 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '5995 kr',
                 savings: '1199 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_5'
             )
         )
     ),
@@ -184,19 +184,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
                 savings: '1331 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_3'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '5995 kr',
                 savings: '1199 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_5'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_5'
             )
         )
     ),
@@ -221,19 +221,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '4995 kr',
                 savings: '1665 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_3'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '7995 kr',
                 savings: '1599 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_5'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_Luxury&procedures=PriceClass_4_Procedure_5'
             )
         )
     ),
@@ -261,19 +261,19 @@ $big_types = array(
                 label: '1 porrengöring',
                 price: '1295 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_1'
             ),
             new Procedure(
                 label: '3 porrengöringar',
                 price: '3495 kr',
                 savings: '1165 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_3'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_3'
             ),
             new Procedure(
                 label: '5 porrengöringar',
                 price: '4995 kr',
                 savings: '999 kr per behandling',
-                booking_url: 'https://acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_5'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_5'
             )
         )
     ),

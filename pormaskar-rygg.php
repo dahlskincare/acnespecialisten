@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Pormaskar på ryggen',
       description: 'Denna sektion fokuserar på pormaskar på ryggen, deras orsaker och Acnespecialistens effektiva behandlingsalternativ. Vi diskuterar hur pormaskar på ryggen bildas och ger råd om hur du kan minska dem för en hälsosammare hud.',
       links_touch: [
-            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -56,7 +56,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'På AcneSpecialisten börjar din väg till en klarare hud med en grundlig hudanalys. Våra hudexperter utför en omfattande utvärdering för att identifiera pormaskar på ryggen och utformar en behandlingsplan anpassad just för dina hudbehov.',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
             url_label: 'Boka gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag',
       ),

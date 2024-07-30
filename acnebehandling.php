@@ -21,10 +21,10 @@ $model = new Service(
     image_large: 'images/treatments/large/acne-scars.jpg',
     image_alt: 'Bild som illustrerar akne',
     image_title: 'Akne',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+    booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -43,7 +43,7 @@ $define_image_title = 'Hur vi tar bort och behandlar akne?';
 
 $define_content = '<p class="p200">Första steget i vår process att få bort akne är att kartlägga din aknetyp, oavsett om du har problem med acne i ditt ansikte, på bröstet eller på ryggen. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg för varje återbesök. Du kommer att få en personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
-$define_consultation_link = "https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
+$define_consultation_link = "https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne";
 $define_consultation_link_label = "Boka Gratis Konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot akne";
 
@@ -63,11 +63,11 @@ $services = array(
         price: 'Från 1295 kr',
         content: '<p class="p200">Ansiktsbehandling mot acne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Det är viktigt att låta en hudterapeut klämma finnarna och extrahera porerna. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation mot Acne på Acnespecialisten',
 
-        booking_url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_facial',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne&method=acne_facial',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din ansiktsbehandling mot acne på AcneSpecialisten',
 
@@ -89,10 +89,10 @@ $services = array(
         price: 'Från 2595 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling mot akne fungerar genom att använda ljusenergi för att behandla inflammationen i huden som orsakar akne. Laserstrålen tränger ner i huden och behandlar de djupa lager där akne börjar och finns. Denna metod lugnar & reducerar talgproduktionen i huden och dödar bakterier som finns i poren</p>',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laserbehandling mot akne',
-        booking_url: 'https://acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din laserbehandling mot akne nu',
         url: 'laser-acne.php',
@@ -113,13 +113,13 @@ $services = array(
         price: 'Från 1595 kr',
         icons: array(),
         content: '<p class="p200">Kemisk peeling är en effektiv behandling mot akne som fungerar genom att applicera en specialiserad syra på huden. Syran exfolierar och avlägsnar det översta hudlagret, vilket tar bort döda hudceller och talg som täpper till porerna och orsakar akne. Detta hjälper till att minska inflammationen och främjar tillväxten av ny, frisk hud. Genom att stimulera hudens naturliga förnyelseprocess, bidrar kemisk peeling till att förbättra hudens textur, få bort finnar och ge en jämnare hudton.</p>',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot akne',
         url: 'kemisk-peeling-acne.php',
         url_label: 'Läs mer om kemisk peeling',
         url_title: 'Läs mer om kemisk peeling mot akne',
-        booking_url: 'https://acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling mot akne nu',
         short_title: 'Kemisk Peeling'
@@ -136,13 +136,13 @@ $services = array(
         price: 'Från 2595 kr',
         icons: array(),
         content: '<p class="p200">Microneedling kan döda aknebakterien (Cutibacterium acnes) genom att punktera huden med mikronålar, vilket skickar syre ner i poren och skapar en ogynnsam miljö för bakterien. Dessutom stimulerar behandlingen blodcirkulationen och immunsvaret, vilket minskar inflammation och bakterienivåer. Mikronålarna kan också hjälpa till att leverera antibakteriella och antiinflammatoriska produkter djupare in i huden, vilket ökar deras effektivitet. Kombinationen av dessa mekaniska och kemiska effekter bidrar till att minska förekomsten av aknebakterier och få bort akne.</p>',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för microneedling mot akne',
         url: 'microneedling-acne.php',
         url_label: 'Läs mer om microneedling',
         url_title: 'Läs mer om microneedling mot akne',
-        booking_url: 'https://acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din microneedling mot akne nu',
         short_title: 'Microneedling'

@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Oönskat Hår',
       description: 'Oönskat hår kan påverka olika delar av kroppen och ansiktet. Denna sida utforskar de underliggande orsakerna till oönskad hårväxt och de olika metoder som finns tillgängliga för hårborttagning.',
       links_touch: [
-            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=permanent_harborttagning', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=permanent_harborttagning', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=permanent_harborttagning', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=permanent_harborttagning', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
 );
@@ -76,7 +76,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten får du träffa en expert som hjälper dig identifiera ditt behov av laserbehandling och skapar en individuell behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
+            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
             url_title: 'Boka din kostnadsfria konsultation för laserbehandling idag'
       ),
       new TreatmentStep(
@@ -109,7 +109,7 @@ $service = new Service(
       url_title: 'Läs mer om gratis hudkonsultation mot oönskat hår',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
+      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för hårborttagning',
 
       booking_url_label: null,
@@ -136,11 +136,11 @@ $services = array(
             url_title: 'Läs mer om laser mot oönskat hår',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
+            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserHairRemoval',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling för hårborttagning',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://acnespecialisten.se/book?flow=permanent_harborttagning',
+            booking_url: 'https://www.acnespecialisten.se/book?flow=permanent_harborttagning',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för hårborttagning'
       )
 );

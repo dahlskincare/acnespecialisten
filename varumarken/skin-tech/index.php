@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/skin-tech.webp',
     image_alt: 'Skin Tech behandlingar',
     image_title: 'Skin Tech behandlingar',
-    consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://acnespecialisten.se/book?flow=skintech',
+    booking_url: 'https://www.acnespecialisten.se/book?flow=skintech',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -73,19 +73,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_4'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_6'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -111,19 +111,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_4'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_6'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -149,19 +149,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_1'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_4'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '8995 kr',
                 savings: 'Spara 2975 kr',
-                booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_6'
+                booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_6'
             ),
         )
     ),
@@ -181,10 +181,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
         image_alt: 'Skin Tech mot Pigmentfläckar',
         image_title: 'Skin Tech mot Pigmentfläckar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pigmentfläckar',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_PigmentationSpots',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Pigmentfläckar',
 
@@ -201,10 +201,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
         image_alt: 'Skin Tech mot Bristningar',
         image_title: 'Skin Tech mot Bristningar',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Bristningar',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_StrechMarks',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Bristningar',
 
@@ -221,10 +221,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
         image_alt: 'Skin Tech mot Rynkor och Fina Linjer',
         image_title: 'Skin Tech mot Rynkor och Fina Linjer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Rynkor och Fina Linjer',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Wrinkles&area=EMPTY',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Rynkor och Fina Linjer',
 
@@ -241,10 +241,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/solskadad-hy.webp',
         image_alt: 'Skin Tech mot Solskadad Hy',
         image_title: 'Skin Tech mot Solskadad Hy',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Solskadad Hy',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_SunDamage&area=EMPTY',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_SunDamage&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Solskadad Hy',
 
@@ -261,10 +261,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
         image_alt: 'Kemisk peeling mot acneärr',
         image_title: 'Kemisk peeling mot acneärr',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_AcneScars',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka kemisk peeling mot acneärr',
 
@@ -281,10 +281,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/acne.webp',
         image_alt: 'Skin Tech mot Aktiv Akne',
         image_title: 'Skin Tech mot Aktiv Akne',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Aktiv Akne',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Acne',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Acne',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Aktiv Akne',
 
@@ -301,10 +301,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
         image_alt: 'Skin Tech mot Pormaskar och Stora Porer',
         image_title: 'Skin Tech mot Pormaskar och Stora Porer',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_LargePores&area=EMPTY',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandlingar',
         booking_url_title: 'Boka Skin Tech mot Pormaskar och Stora Porer',
 
@@ -321,10 +321,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/melasma.webp',
         image_alt: 'Skin Tech för Melasma',
         image_title: 'Skin Tech för Melasma',
-        consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Melasma',
-        booking_url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Melasma&area=EMPTY',
+        booking_url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=Problem_Melasma&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech för Melasma',
 
@@ -351,7 +351,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Face',
+                url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
@@ -362,7 +362,7 @@ $treatment_areas = array(
                 title: 'Hals',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Neck',
+                url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
             ),
@@ -373,7 +373,7 @@ $treatment_areas = array(
                 title: 'Dekolletage',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Decolletage',
+                url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
@@ -384,7 +384,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Back',
+                url: 'https://www.acnespecialisten.se/book?flow=skintech&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
             ),

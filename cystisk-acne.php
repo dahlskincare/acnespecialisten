@@ -28,12 +28,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Cystisk akne',
       description: 'CCystisk akne, även känd som nodulocystisk akne, är en av de allvarligaste formerna av akne. Vanligtvis kallas det även för “inåtfinne” i vardagligt tal eftersom finnarna inte täpps på ytan, utan uppstår på grund av inflammation djupt inne i huden. Denna typ av akne visar sig som smärtsamma knölar och bulor och medför en hög risk för ärrbildning. Effektiv och snabb behandling är viktig för att minimera ärr och förbättra hudens utseende.',
       links_touch: [
-            new Link('Boka konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis Konsultation för Cystisk Acne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis Konsultation för Cystisk Acne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis Konsultation för Cystisk Acne'),
-            new Link('Boka behandling', 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis Konsultation för Cystisk Acne'),
+            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -57,14 +57,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Vi genomför en detaljerad analys för att identifiera de underliggande orsakerna och skapar en skräddarsydd behandlingsplan för att effektivt hantera ditt hudtillstånd.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för cystisk akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Behandlingen anpassas efter din hudtyp och dess specifika behov. Vi använder oss av skräddarsydda behandlingsmetoder för att hantera denna svåra form av akne.',
             url_label: 'Se behandlingar',
-            url: 'https://acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+            url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för cystisk akne'
       ),
       new TreatmentStep(
