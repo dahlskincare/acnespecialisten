@@ -575,7 +575,7 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
-            aka: 'gropar & Fläckar',
+            aka: 'gropar & fläckar',
             image: 'bilder/hudproblem/200x200/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',

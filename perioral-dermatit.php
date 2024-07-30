@@ -602,7 +602,7 @@ $specialist_url_title = "Perioral dermatit Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
-            aka: 'Finnar',
+            aka: 'finnar',
             image: 'bilder/hudproblem/102x102/akne.webp',
             image_alt: 'Ansikte med aktiv akne',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',

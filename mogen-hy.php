@@ -656,7 +656,7 @@ $specialist_url_title = "Hudterapeuter specialiserade på mogen hy";
 $related_problems = array(
       new RelatedProblem(
             name: 'Pigmentfläckar',
-            aka: 'Melasma',
+            aka: 'melasma',
             image: 'bilder/hudproblem/200x200/pigmentflackar.webp',
             image_alt: 'Ansikte med pigmentfläckar',
             image_title: 'Pigmentfläckar',
@@ -665,7 +665,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Stora porer',
-            aka: 'Förstorade porer',
+            aka: 'förstorade porer',
             image: 'bilder/hudproblem/200x200/stora-porer.webp',
             image_alt: 'Ansikte med stora porer',
             image_title: 'Stora porer',

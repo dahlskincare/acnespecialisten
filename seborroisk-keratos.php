@@ -261,7 +261,7 @@ $specialist_url_title = "Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Hudförändringar',
-            aka: 'gropar & Fläckar',
+            aka: 'gropar & fläckar',
             image: 'images/problems/200x200/hudforandringar.webp',
             image_alt: 'Bild som visar hudforändringar',
             image_title: 'Hudförändringar',

@@ -590,7 +590,7 @@ $specialist_url_title = "Blandhy Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Akne',
-            aka: 'Papler & Pustler',
+            aka: 'papler & pustler',
             image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
@@ -599,7 +599,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Pormaskar',
-            aka: 'Komedoner',
+            aka: 'komedoner',
             image: 'bilder/hudproblem/200x200/pormaskar.webp',
             image_alt: 'Bild som visar pormaskar, en vanlig hudåkomma',
             image_title: 'Pormaskar - en vanlig hudåkomma',
@@ -608,7 +608,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Stora porer',
-            aka: 'Utvidgade porer',
+            aka: 'utvidgade porer',
             image: 'bilder/hudproblem/200x200/stora-porer.webp',
             image_alt: 'Ansikte med stora porer',
             image_title: 'Stora porer',

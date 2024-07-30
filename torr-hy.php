@@ -717,7 +717,7 @@ $specialist_url_title = "Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Blandhy',
-            aka: 'Kombinationshy',
+            aka: 'kombinationshy',
             image: 'bilder/hudproblem/102x102/blandhy.webp',
             image_alt: 'Bild som visar blandhy, en typ av hudproblem där vissa områden är torra medan andra är oljiga',
             image_title: 'Blandhy - en komplex hudtyp som kräver specialiserad vård',

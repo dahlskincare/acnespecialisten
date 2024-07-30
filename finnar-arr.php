@@ -606,7 +606,7 @@ $specialist_url_title = "Specialiserade Hudterapeuter med inriktning mot ärr bi
 $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
-            aka: 'Finnar',
+            aka: 'finnar',
             image: 'bilder/hudproblem/102x102/akne.webp',
             image_alt: 'Ansikte med aktiv akne',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
@@ -615,7 +615,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Finnar',
-            aka: 'Akne',
+            aka: 'akne',
             image: 'bilder/hudproblem/102x102/finnar.webp',
             image_alt: 'Ansikte med finnar',
             image_title: 'Finnar - ett vanligt hudproblem',
@@ -624,7 +624,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Acneärr',
-            aka: 'gropar & Fläckar',
+            aka: 'gropar & fläckar',
             image: 'bilder/hudproblem/102x102/acnearr.webp',
             image_alt: 'Ansikte med ärr från acneärr',
             image_title: 'Acneärr - en vanlig följd av akne',

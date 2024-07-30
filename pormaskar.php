@@ -697,7 +697,7 @@ $specialists = array(
 $related_problems = array(
       new RelatedProblem(
             name: 'Stora porer',
-            aka: 'Förstorade porer',
+            aka: 'förstorade porer',
             image: 'bilder/hudproblem/200x200/stora-porer.webp',
             image_alt: 'Ansikte med stora porer',
             image_title: 'Stora porer',
@@ -706,7 +706,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Blandhy',
-            aka: 'Oljig och torr hy',
+            aka: 'oljig och torr hy',
             image: 'bilder/hudproblem/200x200/blandhy.webp',
             image_alt: 'Bild som skildrar oljig och torr hy, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Blandhy - ett vanligt hudproblem bland både ungdomar och vuxna',
@@ -715,7 +715,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Akne',
-            aka: 'Papler & Pustler',
+            aka: 'papler & pustler',
             image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',

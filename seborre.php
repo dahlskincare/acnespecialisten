@@ -425,7 +425,7 @@ $specialist_url_title = "Seborré Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Torr & känslig hy',
-            aka: 'Reaktiv hy',
+            aka: 'reaktiv hy',
             image: 'bilder/hudproblem/102x102/torr-kanslig-hy.webp',
             image_alt: 'Torr & känslig hy i ansiktet',
             image_title: 'Torr & känslig hy - en vanlig hudåkomma',

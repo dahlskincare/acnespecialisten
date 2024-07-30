@@ -292,7 +292,7 @@ $specialist_url_title = "mjalleksem Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Seborré',
-            aka: 'Flagnande hy',
+            aka: 'flagnande hy',
             image: 'bilder/hudproblem/200x200/seborre.webp',
             image_alt: 'Flagnande hy på ögonbrynen',
             image_title: 'Seborré',

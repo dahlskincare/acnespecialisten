@@ -597,7 +597,7 @@ $specialist_url_title = "Hudterapeuter Specialiserade på Stora porer";
 $related_problems = array(
       new RelatedProblem(
             name: 'Pormaskar',
-            aka: 'Komedoner',
+            aka: 'komedoner',
             image: 'bilder/hudproblem/200x200/pormaskar.webp',
             image_alt: 'Bild som visar pormaskar, en vanlig hudåkomma',
             image_title: 'Pormaskar - en vanlig hudåkomma',
@@ -606,7 +606,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Blandhy',
-            aka: 'Oljig och torr hy',
+            aka: 'oljig och torr hy',
             image: 'bilder/hudproblem/200x200/blandhy.webp',
             image_alt: 'Blandhy i ansiktet',
             image_title: 'Blandhy - en vanlig hudåkomma',
@@ -615,7 +615,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Akne',
-            aka: 'Finnar',
+            aka: 'finnar',
             image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som visar aktiv akne, en vanlig hudåkomma',
             image_title: 'Akne - en vanlig hudåkomma',

@@ -655,7 +655,7 @@ $specialist_url_title = "Rosacea Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Ytliga blodkärl',
-            aka: 'Spindelvener',
+            aka: 'spindelvener',
             image: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
             image_alt: 'Bild som visar ytliga blodkärl som röda linjer i huden',
             image_title: 'Ytliga blodkärl - vanligt på näsa och kinder',
@@ -664,7 +664,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Akne',
-            aka: 'Papler & Pustler',
+            aka: 'papler & pustler',
             image: 'bilder/hudproblem/200x200/akne.webp',
             image_alt: 'Bild som skildrar akne, en hudåkomma som drabbar många ungdomar och vuxna',
             image_title: 'Akne - ett vanligt hudproblem bland både ungdomar och vuxna',
@@ -673,7 +673,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Finnar',
-            aka: 'Plitor & Inkapslingar',
+            aka: 'plitor & inkapslingar',
             image: 'bilder/hudproblem/200x200/finnar.webp',
             image_alt: 'Bild som visar finnar, små inflammationer i huden',
             image_title: 'Finnar - vanliga små hudinflammationer',
