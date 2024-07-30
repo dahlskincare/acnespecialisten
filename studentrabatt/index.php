@@ -33,7 +33,7 @@ $path_segments = [
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Studentrabatt & ungdomsrabatt - 20%</h1>
-                    <p class="l10n">Vi erbjuder 20% rabatt på alla våra hudvårdsbehandlingar för dig som är student eller som inte fyllt 18 ännu. Allt du behöver göra är att boka valfri behandling hos någon av våra hudterapeuter och sedan uppvisa ditt mecenatkort via appen så drar vi av 20% på ditt besök. Om du är osäker på vilka behandlingar som inkluderas i erbjudandet är du välkommen att kontakta oss!</p>
+                    <p class="l10n">Vi erbjuder 20% rabatt på alla våra ansiktsbehandlingar för dig som är student eller som inte fyllt 18 ännu. Allt du behöver göra är att boka behandling hos någon av våra hudterapeuter och sedan uppvisa ditt mecenatkort via appen så drar vi av 20% på ditt besök.</p>
                     <a href="/hudbehandlingar/" class="button expand l10n" title="Boka behandling">Se behandlingar</a>
                 </section>
                 <section id="image">
@@ -45,16 +45,16 @@ $path_segments = [
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Alla våra hudvårdsbehandlingar</div>
+                        <div class="h500 is-hidden-desktop l10n">Alla våra ansiktsbehandlingar</div>
                         <picture>
                             <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/358x274/ansiktsbehandling.jpg">
                             <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/424x456/ansiktsbehandling.jpg">
                             <img src="/bilder/studentrabatt/358x274/ansiktsbehandling.jpg" alt="Alla våra hudvårdsbehandlingar" title="Alla våra hudvårdsbehandlingar" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Alla våra hudvårdsbehandlingar</div>
+                            <div class="gcf-header is-hidden-touch l10n">Alla våra ansiktsbehandlingar</div>
                             <div class="gcf-text l10n">
-                                Studentrabatten går att använda på alla våra hudvårdsbehandlingar. Detta inkluderar inte frisör, naglar, ögonbron eller injektionsbehandlingar.
+                                Studentrabatten går att använda på alla våra ansiktsbehandlingar.
                             </div>
                             <a href="/hudbehandlingar/" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
                         </div>
