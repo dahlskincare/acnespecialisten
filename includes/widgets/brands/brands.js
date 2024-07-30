@@ -7,7 +7,7 @@ var Brands;
     if (container.scrollWidth > container.clientWidth + 20) {
         rightMask.classList.remove('is-hidden');
     }
-    scroller.addEventListener('scroll', function () {
+    container.addEventListener('scroll', function () {
         // conditionally hide the left mask
         if (container.scrollLeft <= 0) {
             leftMask.classList.add('is-hidden');
