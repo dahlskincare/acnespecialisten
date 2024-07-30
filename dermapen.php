@@ -286,7 +286,7 @@ $treatment_areas = array(
             ),
         )
     ),
-    
+
     new TreatmentArea(
         image_small: null,
         image_large: null,
@@ -338,7 +338,7 @@ $treatment_areas = array(
         title: 'Zoner',
         description: '<p class="p200">Behandla litet område för enstaka problem</p>',
         items: array(
-        new TreatmentAreaItem(
+            new TreatmentAreaItem(
                 image: '/bilder/omraden/ikoner/nasa.svg',
                 image_alt: 'Näsa',
                 image_title: 'Näsa',
@@ -382,7 +382,7 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för hakbehandling'
             ),
-           
+
         )
     ),
 );
@@ -758,7 +758,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </section>
                 <?php } ?>
 
-             
+
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
@@ -781,10 +781,10 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

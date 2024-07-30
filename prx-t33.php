@@ -558,7 +558,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
 <head>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/prx-t33.php" />
-      
+
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
     <meta name="keywords" content="<?php echo $seo_keywords ?>">
@@ -686,7 +686,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
-                
+
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
@@ -704,10 +704,10 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

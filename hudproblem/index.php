@@ -1516,12 +1516,12 @@ $specialists = array(
                                     ?>
                               </div>
                               <div class="filter-button is-hidden" id="filter-button-previous">
-                                    <button class="round-large grey">
+                                    <button class="round-large grey" aria-label="scroll">
                                           <?php icon('arrow-left') ?>
                                     </button>
                               </div>
                               <div class="filter-button is-hidden" id="filter-button-next">
-                                    <button class="round-large grey">
+                                    <button class="round-large grey" aria-label="scroll">
                                           <?php icon('arrow-right') ?>
                                     </button>
                               </div>

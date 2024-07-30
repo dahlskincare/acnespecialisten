@@ -187,10 +187,10 @@ $categories = array(
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Skin guide</h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSkinGuide(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSkinGuide(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
@@ -202,10 +202,10 @@ $categories = array(
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Our specialists</h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

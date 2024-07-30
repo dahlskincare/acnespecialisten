@@ -715,10 +715,10 @@ $all_brands = array(
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n"><?php echo $specialists_title ?></h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

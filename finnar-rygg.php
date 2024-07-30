@@ -897,7 +897,7 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
 
-                          <section id="about">
+                        <section id="about">
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
@@ -922,7 +922,7 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-  <section id="define">
+                        <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
                               <hr class="is-hidden-mobile">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
@@ -952,7 +952,7 @@ $brands_url_title = "Se alla varumärken";
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
                         </section>
-                      
+
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
@@ -974,16 +974,16 @@ $brands_url_title = "Se alla varumärken";
                               ?>
                         </section>
 
-                     
+
 
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
-                                          <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                                          <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
                                           </button>
-                                          <button class="round-large grey" onclick="scrollSpecialists(1)">
+                                          <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>

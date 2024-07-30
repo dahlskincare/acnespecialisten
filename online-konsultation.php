@@ -32,8 +32,8 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
 
 <head>
 
-      <link rel="canonical" href="https://www.acnespecialisten.se/gratis-hudkonsultation.php" />
-      
+    <link rel="canonical" href="https://www.acnespecialisten.se/gratis-hudkonsultation.php" />
+
     <title class="l10n">Hudanalys online | AcneSpecialiste</title>
     <meta name="description" content="Gör en kostnadsfri hudanalys online! Vi ✓Identifierar din hudtyp ✓Tar fram en behandlingsplan ✓Rekommenderar hudvårdsprodukter. Boka vår hudkonsultation →" class="l10n">
     <meta name="title" content="Hudanalys online | AcneSpecialiste" class="l10n">
@@ -124,10 +124,10 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Våra specialister</h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

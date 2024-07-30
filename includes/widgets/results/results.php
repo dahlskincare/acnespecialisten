@@ -122,10 +122,10 @@ if (!isset($results)) {
         <div class="flex-row justify-space-between">
             <div class="h500"><?php echo $results_title ?></div>
             <div class="result-step-buttons">
-                <button class="round-large grey" onclick="ResultsWidget.scroll(-1)" aria-label="Scroll left">
+                <button class="round-large grey" aria-label="scroll" onclick="ResultsWidget.scroll(-1)" aria-label="Scroll left">
                     <?php icon('arrow-left') ?>
                 </button>
-                <button class="round-large grey" onclick="ResultsWidget.scroll(1)" aria-label="Scroll right">
+                <button class="round-large grey" aria-label="scroll" onclick="ResultsWidget.scroll(1)" aria-label="Scroll right">
                     <?php icon('arrow-right') ?>
                 </button>
             </div>

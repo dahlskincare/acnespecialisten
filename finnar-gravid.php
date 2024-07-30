@@ -87,13 +87,13 @@ $trivias = array(
             <li class="mt-m"><strong>Rumpan:</strong> Inte ovanligt under graviditeten, ofta på grund av svett och friktion från kläder.</li></ul>',
             icons: array()
       ),
-       new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Finnar',
             title: ' efter förlossning',
             content: '<p class="p200">Finnar kan kvarstå eller till och med bli värre efter förlossningen när hormonnivåerna återgår till det normala. Finnar efter graviditet är vanligt när kroppen anpassar sig efter att ha burit ett barn. En stadig hudvårdsrutin kan hjälpa till att hantera detta.</p>',
             icons: array()
       ),
-       new ProblemTrivia(
+      new ProblemTrivia(
             prefix: 'Behandling',
             title: ' av graviditetsrelaterade finnar',
             content: '<p class="p200">Att hantera finnar under graviditeten kräver försiktighet eftersom många vanliga aknebehandlingar bör undvikas. Här är några rekommendationer:</p>
@@ -833,8 +833,8 @@ $brands_url_title = "Se alla varumärken";
                                     <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
-                        
-                       <section id="about">
+
+                        <section id="about">
                               <h2 class="h500 l10n"><?php echo $about_title ?></h2>
                               <?php foreach ($trivias as $trivia) {
                                     echo '<hr>';
@@ -891,7 +891,7 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
 
-               
+
 
                         <section id="articles">
                               <?php foreach ($articles as $article) { ?>
@@ -912,16 +912,16 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                         </section>
-                    
+
 
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
-                                          <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                                          <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
                                           </button>
-                                          <button class="round-large grey" onclick="scrollSpecialists(1)">
+                                          <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>

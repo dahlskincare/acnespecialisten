@@ -138,7 +138,7 @@ $services = array(
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för blodprickar'
       ),
 
-       new Service(
+      new Service(
             title: 'Laser',
             duration: '30 min',
             price: '1995 kr',
@@ -149,7 +149,7 @@ $services = array(
             image_alt: 'Kvinna som får laserbehandling mot hudförändringar',
             image_title: 'Laserbehandling mot hudförändringar',
 
-            url: '/hudbehandlingar/laser-mot-hudproblem/', 
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
             url_label: 'Läs mer om laser',
             url_title: 'Läs mer om laser mot hudförändringar',
 
@@ -393,7 +393,7 @@ $brands_url_title = "Se alla varumärken";
                               <?php } ?>
                         </section>
 
-                        
+
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
                               <?php
@@ -401,15 +401,15 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                         </section>
-                     
+
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>
                                     <div class="is-hidden-touch">
-                                          <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                                          <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                                 <?php icon('arrow-left') ?>
                                           </button>
-                                          <button class="round-large grey" onclick="scrollSpecialists(1)">
+                                          <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                                 <?php icon('arrow-right') ?>
                                           </button>
                                     </div>
