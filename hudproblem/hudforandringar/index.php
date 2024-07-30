@@ -275,8 +275,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under en konsultation får du träffa en hudterapeut som går igenom din hud. Vi tar före-bilder på det berörda området och rekommenderar en lämplig behandlingsplan.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för hudförändringsbehandling',
       image_title: 'Konsultation för behandling av hudförändringar',
 
@@ -302,8 +302,8 @@ $services = array(
             price: '995 kr',
             content: 'Cryopen fryser bort hudförändringar med extrem kyla, vilket förstör den oönskade hudförändringen. Behandlingen initierar kroppens läkningsprocess, vilket leder till att förändringarna gradvis försvinner.',
 
-            image_small: 'images/services/200x200/cryopen.webp',
-            image_large: 'images/services/200x200/cryopen.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/cryopen.webp',
             image_alt: 'Bild av en Cryopen behandling',
             image_title: 'Behandling av hudförändringar med Cryopen',
 
@@ -325,8 +325,8 @@ $services = array(
             price: '1995 kr',
             content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling.',
 
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Kvinna som får laserbehandling mot hudförändringar',
             image_title: 'Laserbehandling mot hudförändringar',
 

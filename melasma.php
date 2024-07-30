@@ -91,8 +91,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under vår konsultation utför vi en detaljerad utvärdering av din hy. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen för att skapa en behandlingsplan som är anpassad efter dina behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av hudflikar',
       image_title: 'Konsultation för behandling av hudflikar',
 
@@ -114,8 +114,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling är en effektiv metod som genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse och jämnar ut hudtonen.',
 
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Man som får kemisk peeling',
             image_title: 'Kemisk peeling behandling',
 

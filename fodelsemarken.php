@@ -107,8 +107,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under en personlig konsultation med en hudspecialist genomförs en noggrann undersökning av dina födelsemärken. Vi tar före-bilder och diskuterar olika behandlingsalternativ, inklusive möjligheten att använda Cryopen eller andra metoder, för att skräddarsy en behandlingsplan som passar dina specifika behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av födelsemärken',
       image_title: 'Konsultation för behandling av födelsemärken',
 
@@ -134,8 +134,8 @@ $services = array(
             price: '995 kr',
             content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är snabb, effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
 
-            image_small: 'images/services/200x200/cryopen.webp',
-            image_large: 'images/services/200x200/cryopen.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/cryopen.webp',
             image_alt: 'Bild av Cryopen behandling för födelsemärken',
             image_title: 'Cryopen behandling för födelsemärken',
 

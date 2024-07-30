@@ -99,8 +99,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en hårborttagningsspecialist utförs en undersökning av ditt oönskade hår. Vi rekommenderar en lämplig laserbehandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för hårborttagning med laser',
       image_title: 'Konsultation för hårborttagning med laser',
 
@@ -126,8 +126,8 @@ $services = array(
             price: '2595 kr',
             content: 'Avancerad laserbehandling för hårborttagning erbjuder en effektiv lösning för att ta bort oönskat hår permanent. Lasertekniken riktar sig mot hårstråets melanin, vilket förstör hårsäcken och förhindrar framtida hårväxt.',
 
-            image_small: 'images/services/200x200/permanent-harborttagning.webp',
-            image_large: 'images/services/200x200/permanent-harborttagning.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/permanent-harborttagning.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/permanent-harborttagning.webp',
             image_alt: 'Bild av laserbehandling för hårborttagning',
             image_title: 'Laserbehandling för hårborttagning',
 
