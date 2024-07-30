@@ -14,7 +14,7 @@ $path_segments = [
 
     <title class="l10n">Studentrabatt | AcneSpecialisten</title>
     <meta name="title" content="Studentrabatt | AcneSpecialisten" class="l10n">
-    <meta name="description" content="Vi erbjuder 20% rabatt på alla våra behandlingar för dig som är student eller som inte fyllt 18 ännu." class="l10n">
+    <meta name="description" content="Vi erbjuder 20% rabatt på alla våra ansiktsbehandlingar för dig som är student eller som inte fyllt 18 ännu." class="l10n">
     <meta name="keywords" content="studentrabatt" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
