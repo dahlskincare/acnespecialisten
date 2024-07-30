@@ -562,7 +562,7 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
 
 <head>
 
-      <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/hudforandringar/" />
+      <link rel="canonical" href="https://www.acnespecialisten.se/hudproblem/hudforandringar/" />
 
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
