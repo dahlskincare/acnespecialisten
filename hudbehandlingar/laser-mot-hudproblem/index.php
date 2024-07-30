@@ -678,7 +678,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
 
 <head>
 
-    <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/laser-mot-hudproblem" />
+    <link rel="canonical" href="https://www.acnespecialisten.se/hudbehandlingar/laser-mot-hudproblem/" />
 
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
