@@ -330,8 +330,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en specialist på ytliga blodkärl utförs en undersökning av ditt tillstånd. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina kärl.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av ytliga blodkärl',
       image_title: 'Konsultation för Ytliga Blodkärl',
 
@@ -357,8 +357,8 @@ $services = array(
             price: '2595 kr',
             content: 'IPL (Intensivt Pulserande Ljus) är en effektiv metod för att behandla ytliga blodkärl. Tekniken använder ljusvågor av olika längder för att värma upp och skada blodkärlen, vilket får dem att gå sönder och transporteras bort av kroppen.',
 
-            image_small: 'images/services/200x200/ipl.webp',
-            image_large: 'images/services/200x200/ipl.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_alt: 'Bild av IPL-behandling mot ytliga blodkärl',
             image_title: 'IPL-behandling mot Ytliga Blodkärl',
 

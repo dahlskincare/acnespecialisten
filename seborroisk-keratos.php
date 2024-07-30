@@ -97,8 +97,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid en konsultation hos AcneSpecialisten utförs en undersökning av din hy. Våra hudexperter tar före-bilder och diskuterar med dig de mest lämpliga behandlingsalternativen, som kan inkludera Cryopen eller andra skonsamma metoder, för att skapa en individanpassad behandlingsplan som passar dina unika behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av seborroisk keratos',
       image_title: 'Konsultation för behandling av seborroisk keratos',
 
@@ -120,8 +120,8 @@ $services = array(
             price: '995 kr',
             content: 'CryoPen är en innovativ behandling som använder kryoterapi för att målinriktat och effektiv behandling. Denna snabba och effektiva metod minimerar obehag och är utmärkt för att reducera synligheten av seborroisk keratos, vilket ger en jämnare och förbättrad hudton.',
 
-            image_small: 'images/services/200x200/cryopen.webp',
-            image_large: 'images/services/200x200/cryopen.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/cryopen.webp',
             image_alt: 'Bild av Cryopen behandling för seborroisk keratos',
             image_title: 'Cryopen behandling för seborroisk keratos',
 

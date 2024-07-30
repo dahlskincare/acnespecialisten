@@ -332,8 +332,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en hudspecialist utförs en undersökning av ditt tillstånd av perioral dermatit. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för behandling av perioral dermatit',
       image_title: 'Konsultation för behandling av perioral dermatit',
 
@@ -360,8 +360,8 @@ $services = array(
             price: '1295 kr',
             content: 'Behandlingen syftar till att lindra symtom och förbättra hudens skick genom en skonsam och noggrann rengöring av de drabbade områdena.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling mot perioral dermatit',
             image_title: 'Ansiktsbehandling mot perioral dermatit',
 
@@ -388,8 +388,8 @@ $products = array(
             price: 'Från 1495 kr',
             content: 'Daglig skötsel av huden är viktig för att hålla ditt hudproblem i schack. Vi rekommenderar produkter är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
-            image_small: 'images/services/200x200/produkter.webp',
-            image_large: 'images/services/200x200/produkter.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av perioral dermatit',
             image_title: 'Effektiva produkter för lindring och förebyggande av perioral dermatit',
 

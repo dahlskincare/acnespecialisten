@@ -368,8 +368,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en hudterapeut utförs en djupgående analys av din hy. Vi tar före-bilder på din hud, identifierar tecken på åldrande, och rekommenderar en skräddarsydd behandlingsplan.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för mogen hy',
       image_title: 'Konsultation för mogen hy',
 
@@ -395,8 +395,8 @@ $services = array(
             price: '2595 kr',
             content: 'En avancerad laserbehandling anpassad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och slapp hy.',
 
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot mogen hy',
             image_title: 'Laserbehandling mot mogen hy',
 
@@ -418,8 +418,8 @@ $services = array(
             price: '1595 kr',
             content: 'Framtagen för att exfoliera döda hudceller, boosta cellförnyelse och förbättra hudens textur. Resultatet är en jämnare hudton, förnyad lyster och minskade tecken på åldrande.',
 
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling för mogen hy',
             image_title: 'Kemisk peeling för mogen hy',
 
@@ -442,8 +442,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling för mogen hy stimulerar hudens naturliga kollagenproduktion, vilket hjälper till att minska fina linjer, rynkor och andra tecken på åldrande.',
 
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling för mogen hy',
             image_title: 'Microneedling för mogen hy',
 

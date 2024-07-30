@@ -121,8 +121,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Under konsultationen får du träffa en av våra hudterapeuter som analyserar din feta hy, tar före-bilder, och rekommenderar den mest effektiva behandlingsmetoden för din hudtyp och utformar en anpassad behandlingsplan specifikt för dig.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för fet hy',
       image_title: 'Konsultation för fet hy',
 
@@ -148,8 +148,8 @@ $services = array(
             price: '995 kr',
             content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med fet hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig talg och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer.',
 
-            image_small: 'images/services/200x200/ansiktsbehandling.webp',
-            image_large: 'images/services/200x200/ansiktsbehandling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling för fet hy',
             image_title: 'Ansiktsbehandling för fet hy',
 
@@ -176,8 +176,8 @@ $products = array(
             price: 'Från 1495 kr',
             content: 'Noggrannt utvalda produkter som effektivt kan reglera och balansera talgproduktionen utan att överdriva huden. Genom daglig användning produkter såsom ansiktsrengöring, ansiktskräm och dagkräm för fet hy kan du uppnå en mer balanserad hudton, minskad oljighet och förbättrad hudhälsa.',
 
-            image_small: 'images/services/200x200/produkter.webp',
-            image_large: 'images/services/200x200/produkter.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av fet hy',
             image_title: 'Effektiva produkter för att hantera fet hy',
 

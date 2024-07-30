@@ -297,8 +297,8 @@ $service = new Service(
       duration: '20 min',
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en AcneSpecialist utförs en undersökning av dina pormaskar. Vi tar före-bilder på din hud och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för pormaskar',
       image_title: 'Konsultation för pormaskar',
       consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
@@ -342,8 +342,8 @@ $services = array(
             price: '4595 kr',
             content: 'Vår avancerade laserbehandling är en effektiv metod för att minska pormaskar. Denna teknik använder laser för att bränna bort det översta hudlagret för att bli av med porblockerna. Det hjälper till att rensa porerna vilket ger en klarare och renare hud.',
 
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot pormaskar',
             image_title: 'Laserbehandling mot pormaskar',
 
@@ -365,8 +365,8 @@ $services = array(
             price: '1595 kr',
             content: 'Kemisk peeling är en utmärkt behandling för att effektivt rengöra porer och minska pormaskar. Genom att använda speciella syror som exfolierar huden och luckrar upp pormaskarna porer, vilket leder till en klarare hud.',
 
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling mot pormaskar',
             image_title: 'Kemisk peeling mot pormaskar',
 
@@ -389,8 +389,8 @@ $services = array(
             price: '2595 kr',
             content: 'Microneedling är en effektiv metod för att minska synligheten av pormaskar. Genom att skapa små mikroskopiska kanaler i huden, stimulerar denna behandling hudens naturliga läkningsprocess. Detta bidrar till att rensa och förfina porerna, vilket reducerar porernas storlek och förbättrar hudens övergripande textur.',
 
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot pormaskar',
             image_title: 'Microneedling mot pormaskar',
 

@@ -438,8 +438,8 @@ $service = new Service(
       price: 'Kostnadsfri',
       content: 'Vid ett personligt möte med en specialist på bristningar utförs en undersökning av din hy. Vi tar före-bilder på de drabbade områdena och rekommenderar en lämplig behandling, samt skräddarsyr en behandlingsplan anpassad efter dina behov.',
 
-      image_small: 'images/services/200x200/konsultation.webp',
-      image_large: 'images/services/200x200/konsultation.webp',
+      image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
+      image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för bristningsbehandling',
       image_title: 'Konsultation för bristningsbehandling',
 
@@ -466,8 +466,8 @@ $services = array(
             price: '2595 kr',
             content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
 
-            image_small: 'images/services/200x200/laser.webp',
-            image_large: 'images/services/200x200/laser.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot bristningar',
             image_title: 'Laserbehandling mot bristningar',
 
@@ -489,8 +489,8 @@ $services = array(
             price: '1595 kr',
             content: 'Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen.',
 
-            image_small: 'images/services/200x200/kemisk-peeling.webp',
-            image_large: 'images/services/200x200/kemisk-peeling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling mot bristningar',
             image_title: 'Kemisk peeling mot bristningar',
 
@@ -512,8 +512,8 @@ $services = array(
             price: '2595 kr',
             content: 'Genom att skapa små mikroskopiska skador i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar.',
 
-            image_small: 'images/services/200x200/microneedling.webp',
-            image_large: 'images/services/200x200/microneedling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot bristningar',
             image_title: 'Microneedling mot bristningar',
 
