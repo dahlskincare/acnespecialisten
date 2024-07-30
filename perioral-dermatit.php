@@ -385,7 +385,7 @@ $products = array(
       new Service(
             title: 'Perioral Dermatit Produkter',
             duration: null,
-            price: 'Från 1495 kr',
+            price: 'Från 1395 kr',
             content: 'Daglig skötsel av huden är viktig för att hålla ditt hudproblem i schack. Vi rekommenderar produkter är speciellt utformade för att lindra symtom och förhindra ytterligare utbrott.',
 
             image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
@@ -602,7 +602,7 @@ $specialist_url_title = "Perioral dermatit Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
-            aka: 'Finnar',
+            aka: 'finnar',
             image: 'bilder/hudproblem/102x102/akne.webp',
             image_alt: 'Ansikte med aktiv akne',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',

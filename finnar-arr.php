@@ -229,8 +229,8 @@ $services = array(
             duration: '90 min',
             price: '4595 kr',
             content: 'Fokuserade ljusstrålar används för att behandla och reducera dessa ärr. Behandlingen främjar hudens kollagenproduktion och tar bort skadade hudceller, vilket resulterar i en jämnare hud och mindre synliga ärr.',
-            image_small: 'bilder/hudbehandlingar/200x200/laserbehandling.webp',
-            image_large: 'bilder/hudbehandlingar/200x200/laserbehandling.webp',
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Bild av en laserterapi för ärr som orsakats av finnar',
             image_title: 'Laserterapi för ärr från finnar',
             consultation_url: 'https://acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
@@ -606,7 +606,7 @@ $specialist_url_title = "Specialiserade Hudterapeuter med inriktning mot ärr bi
 $related_problems = array(
       new RelatedProblem(
             name: 'Aktiv Akne',
-            aka: 'Finnar',
+            aka: 'finnar',
             image: 'bilder/hudproblem/102x102/akne.webp',
             image_alt: 'Ansikte med aktiv akne',
             image_title: 'Aktiv Akne - en vanlig hudåkomma',
@@ -615,7 +615,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Finnar',
-            aka: 'Akne',
+            aka: 'akne',
             image: 'bilder/hudproblem/102x102/finnar.webp',
             image_alt: 'Ansikte med finnar',
             image_title: 'Finnar - ett vanligt hudproblem',
@@ -624,7 +624,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Acneärr',
-            aka: 'gropar & Fläckar',
+            aka: 'gropar & fläckar',
             image: 'bilder/hudproblem/102x102/acnearr.webp',
             image_alt: 'Ansikte med ärr från acneärr',
             image_title: 'Acneärr - en vanlig följd av akne',

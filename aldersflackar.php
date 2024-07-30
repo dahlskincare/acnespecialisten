@@ -371,7 +371,7 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Pigmentfläckar',
-            aka: 'Pigmenteringar',
+            aka: 'pigmenteringar',
             image: 'bilder/hudproblem/200x200/pigmentflackar.webp',
             image_alt: 'Pigmentfläckar i ansiktet',
             image_title: 'Läs mer om pigmentfläckar',

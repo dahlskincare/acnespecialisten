@@ -658,7 +658,7 @@ $related_problems = array(
       new RelatedProblem(
             name: 'Rosacea',
             aka: 'ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            image: 'bilder/hudproblem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea',
             image_title: 'Rosacea - en hudsjukdom som ofta associeras med ytliga blodkärl',
             url: 'rosacea.php',

@@ -524,7 +524,7 @@ $specialist_url_title = "Specialiserade Hudterapeuter med inriktning mot ärr bi
 $related_problems = array(
       new RelatedProblem(
             name: 'Melasma',
-            aka: 'Pigmenteringar',
+            aka: 'pigmenteringar',
             image: '/bilder/hudproblem/102x102/melasma.webp',
             image_title: 'Melasma - en vanlig hudåkomma',
             image_alt: 'Melasma i ansiktet',
@@ -533,7 +533,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Solskadad hy',
-            aka: 'Solfläckar',
+            aka: 'solfläckar',
             image: '/bilder/hudproblem/102x102/solskadad-hy.webp',
             image_title: 'Solskadad hy - en vanlig hudåkomma',
             image_alt: 'Solskadad hy i ansiktet',
@@ -542,7 +542,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Hudförändringar',
-            aka: 'Leverfläckar & Födelsemärken',
+            aka: 'leverfläckar & födelsemärken',
             image: '/bilder/hudproblem/102x102/hudforandringar.webp',
             image_title: 'födelsemärke i ansiktet',
             image_alt: 'svart utåtstående leverläck i ansiktet',
@@ -551,7 +551,7 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Åldersfläckar',
-            aka: 'Åldersvårtor',
+            aka: 'åldersvårtor',
             image: '/bilder/hudproblem/102x102/aldersflackar.webp',
             image_title: 'Leverfläck i huvudet',
             image_alt: 'svart upphöjdleverfläck på huvudet',

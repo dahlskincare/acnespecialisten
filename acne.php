@@ -1108,8 +1108,8 @@ $specialist_url_title = "Akne Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Acneärr',
-            aka: 'Gropar & Fläckar',
-            image: 'images/problems/102x102/acnearr.webp',
+            aka: 'gropar & fläckar',
+            image: 'bilder/hudproblem/102x102/acnearr.webp',
             image_alt: 'Bild som visar acneärr, en typ av hudproblem som ofta följer efter akne',
             image_title: 'Acneärr - en vanlig följd av akne',
             url: 'acnearr.php',
@@ -1117,8 +1117,8 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Rosacea',
-            aka: 'Ansiktsrodnad',
-            image: 'images/problems/200x200/rosacea.webp',
+            aka: 'ansiktsrodnad',
+            image: 'bilder/hudproblem/200x200/rosacea.webp',
             image_alt: 'Bild som illustrerar rosacea, ett hudtillstånd som kan förväxlas med akne',
             image_title: 'Rosacea - en hudsjukdom som ofta förväxlas med akne',
             url: 'rosacea.php',
@@ -1126,8 +1126,8 @@ $related_problems = array(
       ),
       new RelatedProblem(
             name: 'Perioral dermatit',
-            aka: 'Akne runt munnen',
-            image: 'images/problems/200x200/perioral-dermatit.webp',
+            aka: 'akne runt munnen',
+            image: 'bilder/hudproblem/200x200/perioral-dermatit.webp',
             image_alt: 'Bild som skildrar perioral dermatit, en hudåkomma som kan förväxlas med akne',
             image_title: 'Perioral dermatit (acne runt munnen) ett hudproblem liknande akne',
             url: 'perioral-dermatit.php',

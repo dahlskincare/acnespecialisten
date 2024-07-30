@@ -206,7 +206,7 @@ $products = array(
       new Service(
             title: 'Produkter mot seborré',
             duration: null,
-            price: 'Från 1295 kr',
+            price: 'Från 1395 kr',
             content: 'För att effektivt bekämpa och förebygga seborré krävs daglig behandling med de rätta produkterna. Vi rekommenderar produkter som är speciellt utformat för att hjälpa till att återställa och upprätthålla balansen i din hud samt förebygga uppkomsten av ny seborré.',
             image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',
@@ -425,7 +425,7 @@ $specialist_url_title = "Seborré Specialiserade Hudterapeuter";
 $related_problems = array(
       new RelatedProblem(
             name: 'Torr & känslig hy',
-            aka: 'Reaktiv hy',
+            aka: 'reaktiv hy',
             image: 'bilder/hudproblem/102x102/torr-kanslig-hy.webp',
             image_alt: 'Torr & känslig hy i ansiktet',
             image_title: 'Torr & känslig hy - en vanlig hudåkomma',
