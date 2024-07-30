@@ -439,7 +439,7 @@ $brands_url_title = "Se alla varumärken";
 
 <head>
 
-      <link rel="canonical" href="https://www.acnespecialisten.se/fey-hy.php" />
+      <link rel="canonical" href="https://www.acnespecialisten.se/fet-hy.php" />
 
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
