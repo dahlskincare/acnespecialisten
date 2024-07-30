@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Install bulma
         run: npm install bulma
@@ -31,10 +31,9 @@ jobs:
 
       - name: Start ssh-agent
         id: ssh-agent
-        uses: webfactory/ssh-agent@v0.5.3
+        uses: webfactory/ssh-agent@v0.9.0
         with:
           ssh-private-key: ${{ secrets.AS_SSH_KEY_LIVE }}
-          ssh-passphrase: ${{ secrets.AS_SSH_PASSPHRASE_LIVE }}
 
       - name: Transfer zip
         uses: nogsantos/scp-deploy@master
