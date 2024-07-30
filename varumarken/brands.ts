@@ -1,36 +1,35 @@
-if (document.body.clientWidth > 800) {
-    let categories = document.querySelector('#brands-container');
-    let categoryItems = categories.querySelector('#brands');
-    let buttonPrevious = categories.querySelector('#scroll-button-previous');
-    let buttonNext = categories.querySelector('#scroll-button-next');
+namespace BrandsPage {
+    const container = document.querySelector('#brands-container');
+    const brands = container.querySelector('#brands') as HTMLElement;
+    const scroller = brands.querySelector('#brands-shadow') as HTMLElement;
+    const leftMask = container.querySelector('#scroll-button-previous') as HTMLElement;
+    const rightMask = container.querySelector('#scroll-button-next') as HTMLElement;
 
-    categoryItems.addEventListener('scroll', () => {
-        let showNext = categoryItems.scrollWidth - categoryItems.scrollLeft > categoryItems.clientWidth;
-        let showPrevious = categoryItems.scrollLeft > 0;
+    if (scroller.scrollWidth > scroller.clientWidth + 20) {
+        rightMask.classList.remove('is-hidden');
+    }
 
-        if (showNext) {
-            buttonNext.classList.remove('is-hidden');
+    leftMask.onclick = () => scroll(-1);
+    rightMask.onclick = () => scroll(1);
+
+
+    scroller.addEventListener('scroll', () => {
+        // conditionally hide the left mask
+        if (scroller.scrollLeft <= 0) {
+            leftMask.classList.add('is-hidden');
         } else {
-            buttonNext.classList.add('is-hidden');
+            leftMask.classList.remove('is-hidden');
         }
 
-        if (showPrevious) {
-            buttonPrevious.classList.remove('is-hidden');
+        // conditionally hide the right mask
+        if (scroller.scrollLeft + scroller.offsetWidth >= scroller.scrollWidth - 30) {
+            rightMask.classList.add('is-hidden');
         } else {
-            buttonPrevious.classList.add('is-hidden');
+            rightMask.classList.remove('is-hidden');
         }
     });
 
-    buttonPrevious.addEventListener('click', () => {
-        categoryItems.scrollBy(-133, 0);
-    });
-
-    buttonNext.addEventListener('click', () => {
-        categoryItems.scrollBy(133, 0);
-    });
-
-
-    if (categoryItems.scrollWidth > categoryItems.clientWidth) {
-        buttonNext.classList.remove('is-hidden');
+    export function scroll(dir: number): void {
+        scroller.scrollBy({ left: 450 * dir });
     }
 }

@@ -17,13 +17,24 @@
             <?php foreach ($article->tags as $tag) { ?>
                 <div class="article-tag">
                     <?php icon($tag->icon) ?>
-                    <span class="h200"><?php echo $tag->label ?></span>
+                    <div class="h200"><?php echo $tag->label ?></div>
                 </div>
             <?php } ?>
         </div>
     <?php }
     ?>
-    <div class=" article-content p200">
+    <div class="article-content p200">
         <?php echo $article->content ?>
     </div>
+    <?php if (isset($article->extended_content)) { ?>
+        <div class="mt-m">
+            <div class="button outline l10n" onclick="this.classList.add('is-hidden'); this.parentElement.querySelector('.article-extended-content').classList.remove('zero-size')">Läs mer</div>
+            <div class="article-extended-content zero-size p200">
+                <?php echo $article->extended_content ?>
+            </div>
+        </div>
+    <?php } ?>
+    <?php if (isset($article->url) && isset($article->url_label)) { ?>
+        <a href="<?php echo $article->url ?>" title="<?php echo $article->url_title ?>" class="mt-m button"><?php echo $article->url_label ?></a>
+    <?php } ?>
 </div>

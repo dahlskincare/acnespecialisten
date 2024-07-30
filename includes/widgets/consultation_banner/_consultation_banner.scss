@@ -1,7 +1,3 @@
-@import '../../../styles/util/colors';
-@import '../../../styles/util/sizes';
-@import '../../../styles/util/mixins';
-
 div.consultation-banner-widget {
     background-color: $deep-sea-500;
     color: $white-500;
@@ -14,6 +10,15 @@ div.consultation-banner-widget {
         .column:first-child {
             h2 {
                 max-width: 200px;
+                @include h500;
+
+                @include tablet {
+                    @include h400;
+                }
+
+                @include desktop {
+                    @include h400;
+                }
             }
 
             p {

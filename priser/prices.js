@@ -1,8 +1,8 @@
 if (document.body.clientWidth > 800) {
-    var categories = document.querySelector('#brands-container');
-    var categoryItems_1 = categories.querySelector('#brands');
-    var buttonPrevious_1 = categories.querySelector('#scroll-button-previous');
-    var buttonNext_1 = categories.querySelector('#scroll-button-next');
+    var categories_1 = document.querySelector('#brands-container');
+    var categoryItems_1 = categories_1.querySelector('#brands');
+    var buttonPrevious_1 = categories_1.querySelector('#scroll-button-previous');
+    var buttonNext_1 = categories_1.querySelector('#scroll-button-next');
     categoryItems_1.addEventListener('scroll', function () {
         var showNext = categoryItems_1.scrollWidth - categoryItems_1.scrollLeft > categoryItems_1.clientWidth;
         var showPrevious = categoryItems_1.scrollLeft > 0;

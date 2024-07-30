@@ -1,0 +1,60 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/sizes';
+
+div.treatment-area-item-card {
+    display: flex;
+    align-items: center;
+
+    // Mobile
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+    padding: $xl;
+    @include elevation-low;
+    margin-top: $m;
+
+    img {
+        border-radius: 4px;
+        width: 72px;
+        height: auto;
+    }
+
+    div.tac-labels {
+        flex: auto;
+        margin-left: $m;
+        margin-right: $m;
+
+        div.name {
+            @include h200;
+        }
+
+        div.info {
+            @include p200;
+            color: $dark-200;
+            display: flex;
+            align-items: center;
+
+            .dot {
+                width: 5px;
+                height: 5px;
+                border-radius: 5px;
+                background-color: $dark-25;
+                margin: 0 $xs;
+            }
+        }
+    }
+
+    @include desktop {
+        border: none;
+        border-top: 1px solid $light-200;
+        border-bottom: 1px solid $light-200;
+        border-radius: 0;
+        box-shadow: none;
+        margin-top: -1px;
+        padding-left: 0;
+        padding-right: 0;
+
+        img {
+            width: 92px;
+        }
+    }
+}

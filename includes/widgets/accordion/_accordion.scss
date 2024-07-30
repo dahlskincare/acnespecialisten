@@ -1,8 +1,3 @@
-@import '../../../styles/util/colors';
-@import '../../../styles/util/sizes';
-@import '../../../styles/util/mixins';
-
-
 div.accordion-widget {
     div#accordion-small {
         .accordion-card {
@@ -62,6 +57,7 @@ div.accordion-widget {
 
                 .button {
                     white-space: nowrap;
+                    height: $xl;
                 }
 
                 .background-image {

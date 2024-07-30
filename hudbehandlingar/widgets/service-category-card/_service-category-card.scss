@@ -1,0 +1,89 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+
+.service-category-card {
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+    overflow: hidden;
+    margin-top: $xl;
+    @include elevation-low();
+
+    .scc-image {
+        overflow: hidden;
+        display: block;
+
+
+        img {
+            width: 100%;
+            height: auto;
+            transition: transform 600ms ease;
+        }
+    }
+
+
+    .service-category-card-content {
+        padding: $xl;
+
+        .service-links {
+            display: flex;
+            flex-wrap: wrap;
+
+            .service-link {
+                border-radius: $radius-s;
+                display: inline-block;
+                margin-top: $xs;
+                margin-right: $xs;
+                padding: $xs $s;
+                white-space: nowrap;
+                font-weight: normal;
+            }
+
+
+        }
+
+        hr {
+            margin: $m 0;
+            border: 0;
+            border-top: 1px solid $light-200;
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .service-category-card {
+        box-shadow: none;
+        margin-top: 0;
+        transition: box-shadow 300ms ease;
+        display: flex;
+        flex-direction: column;
+
+        .service-category-card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+            .service-content {
+                flex: 1;
+                overflow-y: auto;
+            }
+
+            hr {
+                margin: $xl 0;
+            }
+        }
+    }
+
+    .service-category-card:hover {
+        @include elevation-low();
+
+        .scc-image {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

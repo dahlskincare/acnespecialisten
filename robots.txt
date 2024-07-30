@@ -1,3 +1,9 @@
 User-agent: *
-Disallow: /widgets/
-Disallow /node_modules/
+
+Disallow: /
+Disallow: /includes/
+Disallow: /node_modules/
+
+
+Disallow: /index-sparad.php
+Disallow: /*/index-sparad.php

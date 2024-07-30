@@ -8,28 +8,56 @@
   border: 1px solid $light-200;
   border-radius: $radius-l;
   @include elevation-low();
+  position: relative;
+  display: flex;
+  flex-direction: column;
 
   .bc-img-background {
     width: 100%;
     height: auto;
+    cursor: pointer;
   }
 
   .bc-content {
     padding: 0 $xl $xl $xl;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-    img.overlay {
-      // add shadow
+    .overlay {
+      background-color: #fff;
+      width: 116px;
+      height: 80px;
       @include elevation-medium();
       margin-top: - $xl4;
       border: 1px solid $light-200;
       border-radius: $radius-l;
-      flex: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: $xs;
+      padding-right: $xs;
+      box-sizing: border-box;
+
+      img {
+        width: 100%;
+      }
     }
 
     .subtitle {
       @include p200;
       margin-bottom: $xxs;
       color: $dark-200;
+      max-width: 50%;
+
+      @include tablet {
+        max-width: 100%;
+      }
+
+      @include desktop {
+        max-width: 100%;
+      }
     }
 
     .title {
@@ -38,9 +66,8 @@
     }
 
     .description {
-      @include p200;
-      // Limit to keep widget height similar
-      height: $s*12;
+      @include p100;
+
       line-height: $xl;
       margin-bottom: $xl;
       overflow-y: auto;

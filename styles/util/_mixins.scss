@@ -39,6 +39,18 @@
     font-weight: $weight;
 }
 
+@mixin touch {
+    @media screen and (max-width: calc($desktop - 1px)) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media screen and (min-width: $tablet) and (max-width: calc($desktop - 1px)) {
+        @content;
+    }
+}
+
 @mixin desktop {
     @media screen and (min-width: $desktop) {
         @content;

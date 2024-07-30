@@ -1,40 +1,70 @@
-@import '../../../styles/util/colors';
-@import '../../../styles/util/sizes';
-@import '../../../styles/util/mixins';
-
 .badges-widget {
-    display: flex;
-    justify-content: space-between;
-
-    .badge {
+    .badges-touch {
+        margin: 0 $m;
         display: flex;
         align-items: center;
-        border-radius: $xl4;
-        padding: 5.5px $s;
-        margin-right: 6px;
-        line-height: 1.1em;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        /// Trustpilot
-        @include button-text-color(#00B67A);
-        color: $black-500;
+        justify-content: space-between;
 
-        span.icon {
-            margin-right: 6px;
+        .badge {
+            @include p100;
+            color: $white-500;
+            text-align: center;
+
+            .badge-title {
+                @include h200;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: $xxs;
+
+                span.icon {
+                    margin-right: 6px;
+                }
+            }
+
+        }
+
+        .badge-divider {
+            @include desktop {
+                width: 1px;
+                height: $xxl * 2;
+                background-color: $white-200;
+            }
+
+        }
+
+        .badge:last-child {
+            margin-right: 0;
         }
     }
 
-    .badge:last-child {
-        margin-right: 0;
-    }
-}
+    .badges-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        @include p100;
 
-@include desktop {
-    .badges-widget {
         .badge {
-            background-color: $deep-sea-300;
-            color: $white-500;
-            @include button-text-color($white-500);
+            display: flex;
+            align-items: center;
+
+            .badge-icons {
+                display: flex;
+                margin-right: $xs;
+            }
+
+            a {
+                @include h100;
+                text-decoration: underline;
+            }
+        }
+
+        .badge-divider {
+            margin: 0 $s;
+            width: 1px;
+            height: $m;
+            background-color: $white-400;
         }
     }
 }

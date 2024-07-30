@@ -6,41 +6,6 @@ html {
     scroll-behavior: smooth;
 }
 
-section#banner {
-    background-color: $deep-sea-400;
-    padding: $xxs 0;
-    overflow: hidden;
-
-    .badges-widget {
-        flex: 1;
-
-        .badge {
-            @include button-text-color($white-500);
-            color: $white-500;
-            background-color: transparent;
-        }
-
-        .badge:first-child {
-            padding-left: 0;
-        }
-
-        .badge:last-child {
-            padding-right: 0;
-        }
-    }
-
-    @include desktop {
-        .badges-widget {
-            flex: 0;
-        }
-
-        .breadcrumbs-widget {
-            padding-top: 0;
-            padding-bottom: 0;
-        }
-    }
-}
-
 div#content {
     margin: 0 auto;
     max-width: 872px;
@@ -330,6 +295,56 @@ section#cta {
         a.button {
             margin-top: 0;
             flex: 1;
+        }
+    }
+}
+
+
+#terms-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    #terms-modal {
+        position: relative;
+        background-color: white;
+        @include elevation-medium();
+        max-width: 600px;
+        padding: $xl;
+        margin: $m;
+
+        border-radius: $radius-l;
+
+        h2 {
+            @include h300;
+            margin-bottom: $m;
+        }
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                list-style-type: none;
+                padding: $xxs 0;
+            }
+        }
+
+        p {
+            margin: $s 0;
+        }
+
+        .button.round-small {
+            position: absolute;
+            top: $s;
+            right: $s;
         }
     }
 }

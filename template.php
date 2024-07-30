@@ -3,6 +3,9 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
+
+      <link rel="canonical" href="" />
+      
       <!-- TODO: Set title and meta tags -->
       <title class="l10n">Acnespecialisten</title>
       <meta name="description" content="" class="l10n">

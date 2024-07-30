@@ -7,7 +7,7 @@ function icon($name)
 
 ?>
 <base href="/">
-<meta name="viewport" content="width=390, initial-scale=1" />
+<meta name="viewport" content="width=375, initial-scale=1, user-scalable=no" />
 <meta charset="UTF-8">
 <meta name="author" content="Acnespecialisten Sverige AB">
 <link rel="stylesheet" href="styles/normalize.css">
@@ -18,3 +18,28 @@ function icon($name)
 <!-- Preload important resources -->
 <link rel="preload" as="image" href="images/logo-green.svg">
 <link rel="stylesheet" href="/includes/widgets/widgets.css" />
+
+<?php
+// These are only included if the corresponding variables are set ($rich_product, $rich_reviews, $rich_article)
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/product.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/article.php');
+?>
+
+<!-- Google Tag Manager -->
+<script>
+      (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                  'gtm.start': new Date().getTime(),
+                  event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                  j = d.createElement(s),
+                  dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-PFRBPG9K');
+</script>
+<!-- End Google Tag Manager -->

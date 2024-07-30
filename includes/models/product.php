@@ -7,10 +7,10 @@ class Product
         $url_title,
         $price,
         $content,
-        $image_small,
-        $image_large,
-        $image_alt,
-        $image_title,
+        $image_small = null,
+        $image_large = null,
+        $image_alt = null,
+        $image_title = null,
     ) {
         $this->url = $url;
         $this->url_label = $url_label;
@@ -28,8 +28,8 @@ class Product
     public string $url_title;
     public string $price;
     public string $content;
-    public string $image_small;
-    public string $image_large;
-    public string $image_alt;
-    public string $image_title;
+    public ?string $image_small;
+    public ?string $image_large;
+    public ?string $image_alt;
+    public ?string $image_title;
 }

@@ -1,14 +1,14 @@
 <?php
 class Link
 {
-    public function __construct($url, $label, $title)
+    public function __construct($label, $url = null, $title = null)
     {
-        $this->url = $url;
         $this->label = $label;
+        $this->url = $url;
         $this->title = $title;
     }
 
-    public ?string $url;
     public string $label;
+    public ?string $url;
     public ?string $title;
 }

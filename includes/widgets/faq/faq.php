@@ -9,7 +9,7 @@ if (!isset($faq_categories)) {
             ),
             new Question(
                 title: 'Vad är den genomsnittliga tidsåtgången för en behandling?',
-                text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 minuter, beroende på behandlingens art och dina individuella hudvårdsbehov.'
+                text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 min, beroende på behandlingens art och dina individuella hudvårdsbehov.'
             ),
             new Question(
                 title: 'Hur många behandlingar rekommenderas för att uppnå synliga resultat?',

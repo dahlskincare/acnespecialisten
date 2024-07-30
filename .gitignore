@@ -1,13 +1,13 @@
 .devcontainer
 *.css*
 
-#Dockerfile
-
 node_modules
 
 tmp/
 
 .env
-.ssh
+.ssl
 
 .DS_STORE
+
+robots.txt

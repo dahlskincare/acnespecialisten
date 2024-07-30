@@ -94,15 +94,11 @@ html {
             }
 
             @include desktop {
-                .green-header-banner-widget {
-                    padding-bottom: 102px;
-                }
 
                 #brands-container {
-                    margin-top: - $xl3;
+                    margin-top: $xl;
                     margin-left: 0;
                     margin-right: 0;
-                    @include elevation-medium();
                     border-radius: $radius-l;
 
                     #brands {

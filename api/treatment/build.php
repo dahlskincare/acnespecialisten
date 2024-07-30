@@ -29,7 +29,7 @@ if ($method != 'POST') {
 }
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT'] . '/api');
+$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
 $dotenv->load();
 
 $servername = $_ENV['DB_URL'];
@@ -56,7 +56,9 @@ foreach ($commands as $command) {
             echo mysqli_error($conn);
             echo PHP_EOL;
         }
-    } catch (Error $e) {} catch (Exception $e) {}
+    } catch (Error $e) {
+    } catch (Exception $e) {
+    }
 }
 // add a linebreak
 echo PHP_EOL;

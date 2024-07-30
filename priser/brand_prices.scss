@@ -1,4 +1,4 @@
-@import "../styles/util/floating_image";
+@import '../styles/util/colors';
 @import 'widgets/service_category_info/service_info/service_info';
 
 html {
@@ -20,7 +20,7 @@ html {
                         justify-content: space-between;
                         padding: $m 0;
                         border-bottom: 1px solid $white-200;
-        
+
                         div:last-child {
                             .p200 {
                                 font-size: 0.9em;
@@ -45,22 +45,22 @@ html {
                     .large-procedures {
                         border-radius: $radius-l;
                         overflow: hidden;
-        
+
                         .large-procedure {
                             padding: $m;
                             background-color: $deep-sea-500;
                             flex: 1;
                             margin-right: 1px;
-        
+
                             div:last-child {
                                 white-space: nowrap;
-            
+
                                 .p200 {
                                     font-size: 0.9em;
                                     color: $white-800;
                                 }
                             }
-        
+
                         }
                     }
 

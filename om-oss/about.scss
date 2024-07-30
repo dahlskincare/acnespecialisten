@@ -6,43 +6,19 @@ html {
     scroll-behavior: smooth;
 }
 
-section#banner {
-    background-color: $deep-sea-400;
-    padding: $xxs 0;
-
-    .badges-widget {
-        flex: 1;
-
-        .badge {
-            @include button-text-color($white-500);
-            color: $white-500;
-            background-color: transparent;
-        }
-
-        .badge:first-child {
-            padding-left: 0;
-        }
-
-        .badge:last-child {
-            padding-right: 0;
-        }
-    }
-
-    @include desktop {
-        .badges-widget {
-            flex: 0;
-        }
-
-        .breadcrumbs-widget {
-            padding-top: 0;
-            padding-bottom: 0;
-        }
-    }
-}
-
 div#content {
     margin: 0 auto;
     max-width: 872px;
+
+    section#video {
+        margin-top: $xl3;
+
+        iframe {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
+        }
+    }
 
     section#title {
         margin-top: $xl;
@@ -125,15 +101,13 @@ div#content {
                     justify-content: space-between;
 
                     #s-first-two-text {
-                        max-width: 400px;
-
                         p {
                             margin-top: $m;
                         }
                     }
 
                     #s-first-images {
-                        margin-top: $xl3;
+                        margin-top: $xl;
                     }
                 }
 
@@ -141,9 +115,6 @@ div#content {
 
             @include desktop {
                 #s-first-two {
-                    #s-first-two-text {
-                        max-width: 423px;
-                    }
 
                     #s-first-images {
                         picture:first-child {
@@ -188,7 +159,7 @@ div#content {
 
         p.bullet-desc {
             @include p200;
-            color: $dark-300;
+            color: $dark-400;
             margin-top: $xxs;
             padding-right: $xl;
         }

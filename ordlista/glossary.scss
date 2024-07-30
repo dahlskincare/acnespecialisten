@@ -2,53 +2,16 @@
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
 
-html {
-    scroll-behavior: smooth;
-}
-
-section#banner {
-    background-color: $deep-sea-400;
-    padding: $xxs 0;
-
-    .badges-widget {
-        flex: 1;
-
-        .badge {
-            @include button-text-color($white-500);
-            color: $white-500;
-            background-color: transparent;
-        }
-
-        .badge:first-child {
-            padding-left: 0;
-        }
-
-        .badge:last-child {
-            padding-right: 0;
-        }
-    }
-
-    @include desktop {
-        .badges-widget {
-            flex: 0;
-        }
-
-        .breadcrumbs-widget {
-            padding-top: 0;
-            padding-bottom: 0;
-        }
-    }
-}
-
 div#content {
     margin: 0 auto;
     max-width: 872px;
 
     section#letters {
         position: sticky;
-        top: $header-height;
+        top: 56px;
         background-color: $white-500;
         z-index: 2;
+        border-bottom: 1px solid $light-200;
 
 
         #letter-selector-scroller {
@@ -56,29 +19,31 @@ div#content {
             scroll-behavior: smooth;
             scrollbar-width: none;
             -ms-overflow-style: none;
+            white-space: nowrap;
 
-            #letter-selector {
-                white-space: nowrap;
+            //#letter-selector {
+            //   white-space: nowrap;
 
-                .letter {
-                    @include p200;
-                    padding: $l 0;
-                    color: $dark-200;
-                    text-transform: uppercase;
-                    border-bottom: 3px solid transparent;
-                    cursor: pointer;
-                    text-align: center;
-                    display: inline-block;
-                    width: $xxl;
-                    margin-right: $l;
-                }
-
-                .letter.active {
-                    @include h200;
-                    color: $black-500;
-                    border-bottom-color: $black-500;
-                }
+            .letter {
+                @include p200;
+                padding: $l 0;
+                color: $dark-200;
+                text-transform: uppercase;
+                border-bottom: 3px solid transparent;
+                cursor: pointer;
+                text-align: center;
+                display: inline-block;
+                width: $xxl;
+                margin-right: $l;
             }
+
+            .letter.active {
+                @include h200;
+                color: $black-500;
+                border-bottom-color: $black-500;
+            }
+
+            // }
         }
 
         #letter-selector-scroller::-webkit-scrollbar {
@@ -87,25 +52,26 @@ div#content {
         }
 
         @include desktop {
-            top: $header-height-large;
+            top: 72px;
 
             #letter-selector-scroller {
-                #letter-selector {
-                    display: flex;
-                    justify-content: space-between;
+                //#letter-selector {
+                display: flex;
+                justify-content: space-between;
 
-                    .letter {
-                        flex: 1;
-                        margin-right: 0;
-                    }
+                .letter {
+                    flex: 1;
+                    margin-right: 0;
                 }
+
+                // }
             }
         }
     }
 
     section#glossary-items {
         .item-category {
-            scroll-margin-top: $header-height + 80px;
+            scroll-margin-top: 140px;
 
             .item {
                 padding-bottom: $xl3;
@@ -134,7 +100,7 @@ div#content {
 
             @include desktop {
 
-                scroll-margin-top: $header-height-large + 80px;
+                scroll-margin-top: 150px;
 
                 .item {
                     img {

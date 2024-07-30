@@ -1,1 +1,9 @@
-<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="#000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" fill="none" color="#000"> <title>bars</title> <rect width="18" height="18" x="3" y="3"/> <path stroke-linecap="round" d="M21 21L3 3 21 21zM21 3L3 21 21 3z"/> </svg>
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.5 3.5L36.5 14.5" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="22.75" y="0.748077" width="16.5038" height="16.5038" rx="8.25192" stroke="black" stroke-width="1.5"/>
+<path d="M14.7344 19.9812L22.6864 33.7545" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M0.75 29.75H39.25" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M0.75 39.25H39.25" stroke="black" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M0.899767 6.51604C0.623624 6.03774 0.787499 5.42615 1.26579 5.15001L8.62701 0.900011C9.1053 0.623868 9.71689 0.787743 9.99303 1.26604L16.743 12.9574C17.0192 13.4357 16.8553 14.0473 16.377 14.3234L9.01579 18.5734C8.5375 18.8495 7.92591 18.6857 7.64977 18.2074L0.899767 6.51604Z" stroke="black" stroke-width="1.5"/>
+<path d="M9.89632 18.065L15.5212 14.8175L15.8931 15.4554C16.7906 17.0099 16.258 18.9976 14.7035 19.895C13.1491 20.7925 11.1614 20.2599 10.2639 18.7054L9.89632 18.065Z" stroke="black" stroke-width="1.5"/>
+</svg>

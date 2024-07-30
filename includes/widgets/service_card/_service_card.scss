@@ -1,14 +1,9 @@
-@import '../../../styles/util/colors';
-@import '../../../styles/util/sizes';
-@import '../../../styles/util/mixins';
-
 .service-card-widget {
     margin-top: $xl;
     padding: $xl;
     border-radius: $radius-l;
     border: 1px solid $light-200;
     @include elevation-low();
-    cursor: pointer;
 
     div.image {
         position: relative;
@@ -68,7 +63,7 @@
         }
 
         .middle {
-            flex: 2;
+            flex: 5;
 
             .service-content {
                 max-width: 412px;
@@ -76,7 +71,7 @@
         }
 
         .buttons {
-            flex: 1;
+            flex: 2;
 
             a.button {
                 white-space: normal;

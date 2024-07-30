@@ -21,7 +21,7 @@ $section-margin-top: $xl + $xl5;
 
 section#banner {
     #banner-background {
-        padding: 190px 0 74px 0;
+        padding: 108px 0 74px 0;
         background-image: url("images/banner-mobile.jpg");
         background-size: cover;
         background-position: center center;
@@ -29,7 +29,6 @@ section#banner {
 
         video {
             position: absolute;
-            top: 0;
             width: 100%;
             display: block;
             top: 50%;
@@ -60,13 +59,7 @@ section#banner {
             align-items: center;
             justify-content: space-between;
 
-            .icon-trustpilot {
-                svg {
-                    * {
-                        stroke: $white-500;
-                    }
-                }
-            }
+
         }
     }
 
@@ -84,9 +77,11 @@ section#banner {
 
         #banner-bar-cols {
             margin-top: $m;
+            text-align: center;
 
-            .icon-trustpilot {
-                margin-left: $s;
+            .icon-trustpilot-green {
+                margin-left: $xxs;
+                display: inline-block;
             }
         }
     }
@@ -107,6 +102,10 @@ section#banner {
             .flex-aligner {
                 display: flex;
                 align-items: center;
+
+                #trustpilot-stars {
+                    display: flex;
+                }
             }
 
             .button {

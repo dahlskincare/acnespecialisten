@@ -1,0 +1,365 @@
+@import '../styles/util/sizes';
+@import '../styles/util/colors';
+@import '../styles/util/typography';
+
+#narrow-content {
+    max-width: 872px;
+
+    section#hero {
+        margin-top: $xl;
+
+        h1 {
+            @include h600;
+        }
+
+        #hero-content {
+            @include p200;
+            margin-top: $xs;
+        }
+
+        a.button {
+            margin-top: $xl;
+        }
+
+        img {
+            width: 100%;
+            margin-top: $xl;
+            border-radius: $radius-s;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    section#collaboration-types {
+        margin-top: $xl3;
+
+        h2 {
+            @include h500;
+        }
+
+        .colab-option {
+            margin-top: $xxl;
+
+
+            h3 {
+                @include h200;
+                margin-top: $xs;
+            }
+
+            .colab-content {
+                margin-top: $xs;
+            }
+        }
+
+        a.button {
+            margin-top: $xl;
+        }
+    }
+
+    section#concept {
+        margin-top: 72px;
+
+        h2 {
+            @include h500;
+        }
+
+        img {
+            margin-top: $xl;
+            width: 100%;
+            height: auto;
+            border-radius: $radius-s;
+
+        }
+
+        #concept-content {
+            @include p200;
+            margin-top: $xl;
+        }
+
+        #clinic-flags {
+            .clinic-flag {
+                border: 1px solid $light-300;
+                border-radius: $radius-l;
+                padding: 0 $xl $xl $xl;
+                margin-top: $xl;
+
+                .clinic-header {
+                    border-bottom: 1px solid $light-200;
+                    padding: $xl3 0;
+
+                    img {
+                        width: auto;
+                        height: 50px;
+                        margin: 0 auto;
+                        display: block;
+                    }
+                }
+
+                h3 {
+                    @include h300;
+                    margin-top: $xxl;
+                }
+
+                .clinic-content {
+                    @include p200;
+                    margin-top: $xxl;
+                    padding-bottom: $xxl;
+                    border-bottom: 1px solid $light-200;
+                }
+
+                .clinic-treatments {
+                    margin-top: $m;
+
+                    .button {
+                        margin-top: $xxs;
+                    }
+                }
+
+                .clinic-application-button {
+                    margin-top: $xxl;
+                }
+            }
+        }
+    }
+
+    section#banner {
+        margin-top: 72px;
+
+        h2 {
+            @include h500;
+        }
+
+        img {
+            margin-top: $xl;
+            width: 100%;
+            height: auto;
+            border-radius: $radius-s;
+        }
+
+        #banner-content {
+            #banner-text {
+                @include p200;
+                margin-top: $xl;
+            }
+
+            #banner-application-link {
+                margin-top: $xl;
+            }
+        }
+
+    }
+
+    section#perks {
+        margin-top: 72px;
+
+        h2 {
+            @include h500;
+            margin-bottom: $xl;
+        }
+
+        .perk {
+            margin-top: $m;
+            background-color: $light-25;
+            cursor: pointer;
+            border-radius: $radius-l;
+            border: 1px solid $light-25;
+            transition: background-color 0.3s ease border-color 0.3s ease;
+
+            .perk-header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: $xl;
+
+                .perk-title {
+                    @include h200;
+                    margin-left: $m;
+                }
+
+                .perk-toggle {
+                    transition: transform 0.3s ease;
+
+                    .icon>svg {
+                        path {
+                            stroke: $dark-25;
+                            fill: $dark-25;
+                        }
+
+                        width: $l;
+                        height: $l;
+                    }
+                }
+            }
+
+            .perk-content {
+                @include p200;
+                height: 0;
+                overflow: hidden;
+                padding: 0 $xl;
+            }
+        }
+
+        .perk.expanded {
+            background-color: transparent;
+            border-color: $light-200;
+
+            .perk-header {
+                .perk-toggle {
+                    transform: rotate(45deg);
+                }
+            }
+
+            .perk-content {
+                height: auto;
+                padding: 0 $xl $xl $xl;
+            }
+        }
+
+        #perks-application-button {
+            margin-top: $xl;
+        }
+    }
+
+}
+
+section#results,
+section#reviews,
+section#faq,
+section#brands {
+    margin-top: 72px;
+}
+
+@include desktop {
+    #narrow-content {
+        section#hero {
+            margin-top: $xl4;
+
+            h1 {
+                @include h700;
+            }
+
+
+            a.button {
+                margin-top: $xl;
+                width: initial;
+            }
+
+            img {
+                margin-top: $xl3;
+                border-radius: $radius-l;
+            }
+        }
+
+        section#collaboration-types {
+            margin-top: 104px;
+
+            #colab-options {
+                // 2x2 grid
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: $xl3;
+            }
+
+            a.button {
+                margin-top: $xl3;
+                width: initial;
+            }
+
+        }
+
+        section#concept {
+            margin-top: 104px;
+
+            img {
+                margin-top: $xl3;
+                border-radius: $radius-l;
+            }
+
+            #concept-content {
+                margin-top: $xl3;
+
+            }
+
+            #clinic-flags {
+                display: flex;
+                margin-top: $xl3;
+
+                .clinic-flag {
+                    margin-top: 0;
+                }
+
+
+                .clinic-flag:first-child {
+                    margin-right: $m;
+                }
+
+                .clinic-flag:last-child {
+                    margin-left: $m;
+                }
+            }
+        }
+
+        section#banner {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+
+            #banner-image {
+                flex: 1;
+                margin-left: $s;
+
+                img {
+                    border-radius: $radius-l;
+                }
+            }
+
+            #banner-content {
+                flex: 1;
+                padding-right: $xl3;
+                margin-right: $s;
+
+                #banner-application-link {
+                    .button {
+                        width: initial;
+                    }
+                }
+            }
+        }
+
+        section#perks {
+            margin-top: 104px;
+
+            h2 {
+                margin-bottom: $xl3;
+            }
+
+            #perks-flex {
+                display: flex;
+                align-items: flex-start;
+
+                #perks-left {
+                    margin-right: $xs;
+                }
+
+                #perks-right {
+                    margin-left: $xs;
+                }
+            }
+
+            #perks-application-button {
+                margin-top: $xl3;
+
+                .button {
+                    width: initial;
+                }
+            }
+        }
+    }
+
+    section#results,
+    section#reviews,
+    section#faq,
+    section#brands {
+        margin-top: 104px;
+    }
+}

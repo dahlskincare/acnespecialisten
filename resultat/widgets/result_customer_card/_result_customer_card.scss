@@ -14,7 +14,7 @@
         font-size: 0;
 
         picture {
-            flex: 0.5;
+            flex: 1;
 
             img {
                 width: 100%;
@@ -42,7 +42,6 @@
         .customer-details {
             padding: $m 0 $xl 0;
             display: flex;
-            justify-content: space-between;
             border-bottom: 1px solid $light-200;
         }
 
@@ -102,14 +101,6 @@
                 img {
                     border-radius: $radius-l;
                 }
-            }
-
-            picture:first-child {
-                margin-right: $xs;
-            }
-
-            picture:last-child {
-                margin-left: $xs;
             }
         }
 

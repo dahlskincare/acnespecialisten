@@ -1,6 +1,28 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('../models.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/green_banner_content.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/link.php');
+
+$image_small = 'https://via.placeholder.com/358x274.webp';
+$image_large = 'https://via.placeholder.com/424x456.webp';
+$image_alt = 'IMAGE ALT HERE';
+$image_title = 'IMAGE_TITLE_HERE';
+
+$green_banner_content = new GreenBannerContent(
+    title: 'The cost of powerlite',
+    description: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we...',
+    links_touch: [
+        new Link('Boka konsultation', 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300', 'Boka gratis konsultation'),
+        new Link('Boka behandling', 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300', 'Boka denna behandling'),
+    ],
+    links_desktop: [
+        new Link('Boka gratis konsultation', 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300', 'Boka gratis konsultation'),
+        new Link('Boka behandling', 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300', 'Boka denna behandling'),
+    ],
+    show_consultation_card: false,
+);
+
 
 $categories = array(
     new BrandCategoryInfo(
@@ -97,25 +119,11 @@ $categories = array(
     )
 
 );
-
-
-$nav_buttons = array(
-    'hybrid-c02' => 'Hybrid (C02)',
-    'harmony-xl' => 'Harmony XL',
-    'soprano-ice' => 'Soprano ice',
-    'results' => 'Results',
-    'reviews' => 'Reviews',
-    'faq' => 'FAQ',
-    'skin-guide' => 'Skin guide',
-    'specialists' => 'Specialists',
-    'brands' => 'Brands',
-);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Acnespecialisten | Priser</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
@@ -134,83 +142,19 @@ $nav_buttons = array(
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-    <div class="is-hidden-touch is-hidden-desktop-only" id="floater">
-        <div class="container">
-            <div id="floating-picture" style="background-image: url('https://via.placeholder.com/424x456.webp')">
-                <div id="overlay">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                    <div>
-                        <h2 class="h600 l10n">The cost of Powerlite</h2>
-                        <div class="mt-m l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</div>
-                        <div class="mt-xl">
-                            <div class="columns is-2 is-variable">
-                                <div class="column">
-                                    <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
-                                </div>
-                                <div class="column">
-                                    <a href="https://bokadirekt.se" class="button white expand l10n" title="Book a treatment">Book a treatment</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
     <main>
         <section id="header">
-            <div id="green-header-small" class="is-hidden-desktop">
-                <div class="container">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    <h1 class="mt-xs h600 l10n">The cost of Powerlite</h1>
-                    <div class="mt-xs l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</div>
-                    <div class="mt-xl">
-                        <div class="columns is-mobile">
-                            <div class="column is-half">
-                                <a href="gratis-hudkonsultation" class="button b200 white expand l10n" title="Free consultation">Free consultation</a>
-                            </div>
-                            <div class="column is-half">
-                                <a href="https://bokadirekt.se" class="button b200 white expand l10n" title="Book a treatment">Book a treatment</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="green-header-large" class="is-hidden-touch">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-half">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                        </div>
-                        <div class="column is-half flex-row align-end justify-end">
-                            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                        </div>
-                    </div>
-                    <div id="green-header-large-text" class="mt-xxs">
-                        <h1 class="h600 l10n">The cost of Powerlite</h1>
-                        <div class="mt-s l10n">Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. Here we explain what identifies acne scars, why the problem occurs and how we.</div>
-                        <div class="mt-xl flex-row" id="book-buttons">
-                            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="Get a free consultation">Get a free consultation</a>
-                            <a href="https://bokadirekt.se" class="button b200 white l10n" title="Book a treatment">Book a treatment</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="mt-m mb-s is-hidden-desktop">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
                 <section id="image" class="is-hidden-desktop">
                     <picture>
-                        <source media="(max-width: 449px)" srcset="https://via.placeholder.com/358x274.webp">
-                        <source media="(min-width: 450px)" srcset="https://via.placeholder.com/358x274.webp">
-                        <img src="https://via.placeholder.com/358x274.webp" alt="The cost of Powerlite" title="The cost of Powerlite" width="358" height="274" />
+                        <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
+                        <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
+                        <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <?php foreach ($categories as $brand_category) { ?>
                     <section class="large-margin" id="<?php echo $brand_category->id ?>">
@@ -227,19 +171,7 @@ $nav_buttons = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n">Reviews</h2>
-                        <div class="flex-row is-hidden-mobile">
-                            <div class="step-buttons">
-                                <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                    <?php icon('arrow-left') ?>
-                                </button>
-                                <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                    <?php icon('arrow-right') ?>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    <h2 class="big l10n">Reviews</h2>
                     <?php
                     $reviews_narrow = true;
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
@@ -255,10 +187,10 @@ $nav_buttons = array(
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Skin guide</h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSkinGuide(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSkinGuide(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSkinGuide(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSkinGuide(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>
@@ -270,10 +202,10 @@ $nav_buttons = array(
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Our specialists</h2>
                         <div class="is-hidden-touch">
-                            <button class="round-large grey" onclick="scrollSpecialists(-1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
                                 <?php icon('arrow-left') ?>
                             </button>
-                            <button class="round-large grey" onclick="scrollSpecialists(1)">
+                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
                                 <?php icon('arrow-right') ?>
                             </button>
                         </div>

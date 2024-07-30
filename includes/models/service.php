@@ -10,12 +10,12 @@ class Service
         $image_large,
         $image_alt,
         $image_title,
-        $consultation_url,
-        $consultation_url_label,
-        $consultation_url_title,
-        $booking_url,
-        $booking_url_label,
-        $booking_url_title,
+        $consultation_url = null,
+        $consultation_url_label = null,
+        $consultation_url_title = null,
+        $booking_url = null,
+        $booking_url_label = null,
+        $booking_url_title = null,
         $url = null,
         $url_label = 'Läs mer om behandlingen',
         $url_title = 'Läs mer om behandlingen',
@@ -84,10 +84,10 @@ class ServiceCombo
         $this->items = $items;
     }
     public string $name;
-    public string $image_small;
-    public string $image_large;
-    public string $image_alt;
-    public string $image_title;
+    public ?string $image_small;
+    public ?string $image_large;
+    public ?string $image_alt;
+    public ?string $image_title;
     public string $duration;
     public string $price;
     public string $booking_url;

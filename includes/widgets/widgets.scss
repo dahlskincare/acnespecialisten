@@ -1,3 +1,8 @@
+@import '../../styles/util/colors';
+@import '../../styles/util/sizes';
+@import '../../styles/util/mixins';
+
+@import 'floater/floater';
 @import 'accordion/accordion';
 @import 'approach_card/approach_card';
 @import 'article/article_widget';
@@ -7,7 +12,6 @@
 @import 'consultation_banner/consultation_banner';
 @import 'faq/faq';
 @import 'green_header_banner/green_header_banner';
-@import 'nav_buttons/nav_buttons';
 @import 'results/result';
 @import 'results/results';
 @import 'results/results_narrow';
@@ -20,3 +24,4 @@
 @import 'service_card_big/service_card_big';
 @import 'service_combo/service_combo';
 @import 'treatment_step_card/treatment_step_card';
+@import 'youtube/youtube';

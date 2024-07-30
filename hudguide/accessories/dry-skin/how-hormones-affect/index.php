@@ -19,13 +19,10 @@ $article = new SkinGuideArticle(
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Acnespecialisten</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
-
-    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
@@ -36,14 +33,7 @@ $article = new SkinGuideArticle(
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
         <section id="banner">
-            <div class="container">
-                <div class="flex-row justify-space-between">
-                    <div class="is-hidden-touch">
-                        <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/breadcrumbs/breadcrumbs.php'); ?>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </div>
-            </div>
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/tiny_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <section id="desktop-breadcrumbs" class="is-hidden-desktop">
@@ -78,7 +68,6 @@ $article = new SkinGuideArticle(
                     </div>
                 </section>
                 <section id="content">
-                    <!-- TODO: content here -->
                     <h2 class="nav-anchor">Overview</h2>
                     <h3>The Harmful Effects of Makeup</h3>
                     <p>
@@ -607,23 +596,7 @@ $article = new SkinGuideArticle(
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="reviews" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Reviews</div>
-                    <div class="flex-row is-hidden-mobile">
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">View all reviews</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-                </div>
+                <div class="h500 l10n">Reviews</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>

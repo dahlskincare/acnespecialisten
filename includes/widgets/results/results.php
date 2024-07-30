@@ -19,14 +19,16 @@ if (!isset($results)) {
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
             url_title: 'Akne resultat',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_alt: 'Akne resultat',
+            image_before_title: 'Akne resultat',
+            image_after_alt: 'Akne resultat',
+            image_after_title: 'Akne resultat',
             age: 21,
             gender: 'Kvinna',
             problem: 'Akne',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: 'Efter 3 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+                duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -51,14 +53,16 @@ if (!isset($results)) {
             image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
             url_title: 'Akne resultat',
-            image_alt: 'Akne resultat',
-            image_title: 'Akne resultat',
+            image_before_alt: 'Akne resultat',
+            image_before_title: 'Akne resultat',
+            image_after_alt: 'Akne resultat',
+            image_after_title: 'Akne resultat',
             age: 18,
             gender: 'Kvinna',
             problem: 'Akne',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: 'Efter 2 månaders behandling av <a href="/problme/akne/aknebehandling" title="akne">akne</a>',
+                duration: '<a href="acne.php" title="Akne">Akne</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -83,14 +87,16 @@ if (!isset($results)) {
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
             image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
             url_title: 'Rosacea resultat',
-            image_alt: 'Rosacea resultat',
-            image_title: 'Rosacea resultat',
+            image_before_alt: 'Rosacea resultat',
+            image_before_title: 'Rosacea resultat',
+            image_after_alt: 'Rosacea resultat',
+            image_after_title: 'Rosacea resultat',
             age: 33,
             gender: 'Kvinna',
             problem: 'Rosacea',
             type: 'Svår',
             treatment: new ResultTreatment(
-                duration: 'Efter 4 månaders behandling av <a href="/problme/rosacea/rosaceabehandling" title="akne">akne</a>',
+                duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
                 procedures: array(
                     new ResultProcedure(
                         image: 'https://via.placeholder.com/102x102.webm',
@@ -116,10 +122,10 @@ if (!isset($results)) {
         <div class="flex-row justify-space-between">
             <div class="h500"><?php echo $results_title ?></div>
             <div class="result-step-buttons">
-                <button class="round-large grey" onclick="ResultsWidget.scroll(-1)">
+                <button class="round-large grey" aria-label="scroll" onclick="ResultsWidget.scroll(-1)" aria-label="Scroll left">
                     <?php icon('arrow-left') ?>
                 </button>
-                <button class="round-large grey" onclick="ResultsWidget.scroll(1)">
+                <button class="round-large grey" aria-label="scroll" onclick="ResultsWidget.scroll(1)" aria-label="Scroll right">
                     <?php icon('arrow-right') ?>
                 </button>
             </div>
@@ -132,13 +138,13 @@ if (!isset($results)) {
                 <?php } ?>
             </div>
         </div>
-        <a class="mt-xl button b200 outline expand" href="resultat" title="<?php echo $show_all_results_title ?>"><?php echo $show_all_results_label ?></a>
+        <a class="mt-xl button b200 outline expand" href="/resultat.php" title="<?php echo $show_all_results_title ?>"><?php echo $show_all_results_label ?></a>
     </div>
 
     <div class="is-hidden-touch" id="results-large">
         <div class="flex-row align-end justify-space-between">
             <div class="h500"><?php echo $results_title ?></div>
-            <a href="resultat" class="button compact text">
+            <a href="resultat.php" class="button compact text">
                 <span><?php echo $show_all_results_label ?></span>
                 <?php icon('navigate-next') ?>
             </a>

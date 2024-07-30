@@ -1,177 +1,222 @@
-@import '../../../styles/util/colors';
-@import '../../../styles/util/sizes';
-@import '../../../styles/util/mixins';
-
 .reviews-widget {
-    #reviews-scroller {
-        overflow-x: scroll;
-        scroll-behavior: smooth;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
-        padding-bottom: $m;
-        margin-left: - $m;
-        margin-right: - $m;
-        padding-left: $m;
-        padding-right: $m;
+    padding-top: $xl;
 
-        #reviews-container {
-            display: flex;
-
-            .review-box {
-                margin-top: $xl;
-                border: 1px solid $light-200;
-                border-radius: $radius-l;
-                @include elevation-low;
-                padding: $xl;
-                display: flex;
-                flex-direction: column;
-                margin-right: $m;
-
-                flex: 1 0 302px;
-                height: 326px;
-
-                .review-box-top {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-
-                    .review-box-icons {
-                        .icon {
-                            margin-right: $xxs;
-
-                            >svg {
-                                * {
-                                    stroke: $orange-400;
-                                    fill: $orange-400;
-                                }
-                            }
-                        }
-                    }
-                }
-
-                .review-box-title {
-                    margin-top: $m;
-                }
-
-                .review-box-text {
-                    margin-top: $xxs;
-                    overflow-y: auto;
-                    flex: 1;
-                }
-
-                .review-box-signature {
-                    margin-top: $m;
-                    color: $dark-100;
-                }
-            }
-
-            #padder {
-                min-width: 1px;
-            }
-
-        }
-
-        @include desktop {
-            border: 1px solid $light-200;
-            border-radius: $radius-l;
+    .rev-platform-cards {
+        .rev-platform-card {
+            background-color: $white-500;
             margin-top: $xl;
-            margin-left: 0;
-            margin-right: 0;
-            padding: 0;
-
-            #reviews-container {
-
-                .review-box {
-                    margin-top: 0;
-                    margin-right: 0;
-                    border-radius: 0;
-                    border-right: 0;
-                    border: 0;
-                    border-left: 1px solid $light-200;
-                    box-shadow: none;
-                    height: 310px;
-                    box-sizing: border-box;
-                }
-
-                .review-box-quarter {
-                    flex: 1 0 25%;
-                }
-
-                .review-box-half {
-                    flex: 1 0 50%;
-                }
-
-                .review-box:first-child {
-                    border-left: 0;
-                }
-            }
-
-        }
-    }
-
-    #reviews-scroller::-webkit-scrollbar {
-        width: 0;
-        height: 0;
-    }
-
-    .review-brands {
-        margin-top: $xs;
-        border-bottom: 1px solid $light-200;
-        display: block;
-
-        .review-brand {
-            height: 85px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            box-sizing: content-box;
-            flex: 1;
-            border-top: 1px solid $light-200;
-
-            .review-brand-right {
-                text-align: right;
-
-                .icon>svg {
-                    * {
-                        stroke: $orange-400;
-                        fill: $orange-400;
-                    }
-                }
-
-
-
-                p {
-                    color: $dark-200;
-                }
-            }
-        }
-
-        @media screen and (min-width: $desktop) {
-            display: flex;
-            margin-top: $xl;
+            text-align: center;
             padding: $xl;
             border: 1px solid $light-200;
             border-radius: $radius-l;
 
-            .review-brand {
-                height: 45px;
-                border: none;
+            .rpc-image {
+                height: 28px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: auto;
+                    height: auto;
+                    max-width: 100%;
+                    max-height: 100%;
+                }
             }
 
-            .review-brand:first-child {
-                padding-right: $xl;
+
+            .rpc-stars {
+                margin-top: $s;
             }
 
-            .review-brand:nth-child(2) {
-                padding: 0 $xl;
-                border-left: 1px solid $light-200;
-                border-right: 1px solid $light-200;
-            }
+            .rpc-info {
+                margin-top: $s;
 
-            .review-brand:last-child {
-                padding-left: $xl;
+                a {
+                    @include h200;
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
             }
+        }
+
+        .rev-platform-card:first-child {
+            margin-top: 0;
         }
     }
 
+    .review-banners-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: $xxl;
+
+        .total-reviews-title {
+            @include h300;
+        }
+    }
+
+    .review-banners {
+        margin-top: $xl;
+        overflow-x: scroll;
+        margin-left: -$m;
+        margin-right: -$m;
+        padding-left: $m;
+        padding-right: $m;
+        padding-bottom: $s;
+
+        display: grid;
+        grid-column-gap: $m;
+        grid-template-rows: auto;
+        grid-auto-flow: column;
+
+        // hide scrollbar
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .rbt {
+            width: 302px;
+            @include elevation-low;
+            padding: $xl;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+
+            .rbt-top {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                .rbt-top-left {
+                    flex: auto;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+
+                    h4 {
+                        @include h200;
+                        white-space: nowrap;
+                    }
+
+                    div {
+                        @include p100;
+                        color: $dark-100;
+                    }
+                }
+
+                .rbt-top-right {
+                    flex: 1;
+                    white-space: nowrap;
+                }
+            }
+
+            .rbt-middle {
+                margin-top: $xl;
+
+                h4 {
+                    @include h200;
+                }
+
+                p {
+                    @include p200;
+                    margin-top: $xs;
+                    height: 264px;
+                    overflow-y: auto;
+                }
+            }
+
+            .rbt-bottom {
+                margin-top: $xl;
+                height: $xl;
+
+                img {
+                    width: auto;
+                    height: auto;
+                    max-width: 100%;
+                    max-height: 100%;
+
+                }
+            }
+        }
+    }
+}
+
+@include desktop {
+    .reviews-widget {
+        .rev-platform-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: $xl;
+
+            .rev-platform-card {
+                margin-top: 0;
+            }
+        }
+
+        .review-banners {
+            overflow: hidden;
+            padding: 0;
+            margin-left: initial;
+            margin-right: initial;
+            display: block;
+            border-bottom: 1px solid $light-200;
+
+            .rbd {
+                display: flex;
+                align-items: center;
+                padding: $xxl 0;
+                border-top: 1px solid $light-200;
+
+                .rbd-left {
+                    flex: 0 0 164px;
+                    text-align: center;
+
+                    h4 {
+                        @include h200;
+                        overflow: hidden;
+                    }
+
+                    .rbd-stars {
+                        margin-top: $s;
+                    }
+
+                    .rbd-rating {
+                        @include p100;
+                        margin-top: $s;
+                        color: $dark-400;
+                    }
+                }
+
+                .rbd-middle {
+                    margin: 0 $xl;
+                    padding-left: $xl * 2;
+                    border-left: 1px solid $light-200;
+                    flex: 1;
+
+                    h4 {
+                        @include h200;
+
+                        a {
+                            @include h200;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    p {
+                        margin-top: $xs;
+                        @include p200;
+                    }
+                }
+
+                .rbd-right {
+                    flex: 0 0 124px;
+                    text-align: right;
+                }
+
+            }
+
+        }
+    }
 }

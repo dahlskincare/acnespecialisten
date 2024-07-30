@@ -8,7 +8,7 @@ $consultation_banner_button_label = 'Boka en gratis hudkonsultation';
 <div class="consultation-banner-widget">
     <div class="columns is-vcentered">
         <div class="column">
-            <h2 class="h400 l10n">
+            <h2 class="l10n">
                 <?php echo $consultation_banner_title ?>
             </h2>
             <p class="p200 l10n">
@@ -16,7 +16,7 @@ $consultation_banner_button_label = 'Boka en gratis hudkonsultation';
             </p>
         </div>
         <div class="column">
-            <a href="gratis-hudkonsultation" class="button b200 white l10n" title="<?php echo $consultation_banner_button_label ?>"><?php echo $consultation_banner_button_label ?></a>
+            <a href="gratis-hudkonsultation.php" class="button b200 white l10n" title="<?php echo $consultation_banner_button_label ?>"><?php echo $consultation_banner_button_label ?></a>
         </div>
     </div>
 </div>

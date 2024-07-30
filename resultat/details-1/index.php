@@ -3,12 +3,10 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-    <!-- TODO: Set title and meta tags -->
     <title class="l10n">Acnespecialisten | Result details</title>
     <meta name="description" content="" class="l10n">
     <meta name="title" content="" class="l10n">
     <meta name="keywords" content="" class="l10n">
-    <!-- Optional: Set canonical version of this page (https://support.google.com/webmasters/answer/10347851) -->
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
     <link rel="stylesheet" href="/styles/default-layout.css">
     <link rel="stylesheet" href="/resultat/details.css">
@@ -55,8 +53,10 @@
         image_before_large: 'https://via.placeholder.com/296x394.webm',
         image_after_large: 'https://via.placeholder.com/296x394.webm',
         url_title: 'Resultat',
-        image_alt: 'Resultat',
-        image_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
         age: 18,
         gender: 'Female',
         problem: 'Acne',
@@ -129,15 +129,11 @@
             ),
         )
     );
-
-    foreach ($result->treatment->visits as $visit) {
-        $nav_buttons['visit-' . $visit->id] = $visit->date;
-    }
     ?>
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
     <main>
-        <section id="banner" class="sticky-badges-target">
+        <section id="banner">
             <div id="banner-green">
                 <div class="container l10n">
                     <div class="is-hidden-desktop">
@@ -282,9 +278,6 @@
             </div>
         </section>
         <div class="container">
-            <section id="nav-buttons">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
-            </section>
             <section id="visits">
                 <?php foreach ($result->treatment->visits as $visit) { ?>
                     <div class="treatment-visit-card" id="visit-<?php echo $visit->id ?>">
@@ -363,24 +356,7 @@
                 </div>
             </section>
             <section id="reviews" class="large-margin">
-                <div class="flex-row align-end justify-space-between">
-                    <div class="h500 l10n">Reviews</div>
-                    <div class="flex-row is-hidden-mobile">
-                        <div class="step-buttons">
-                            <button class="round-large grey" onclick="Reviews.scroll(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" onclick="Reviews.scroll(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                        <a href="https://se.trustpilot.com/review/acnespecialisten.se" class="ml-l button compact text">
-                            <span class="l10n">View all reviews</span>
-                            <?php icon('navigate-next') ?>
-                        </a>
-                    </div>
-
-                </div>
+                <div class="h500 l10n">Reviews</div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
                 <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="https://se.trustpilot.com/review/acnespecialisten.se" title="View all reviews">View all reviews</a>
             </section>

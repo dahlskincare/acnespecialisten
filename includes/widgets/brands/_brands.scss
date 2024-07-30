@@ -1,49 +1,103 @@
-@import '../../../styles/util/sizes';
-@import '../../../styles/util/colors';
-
 .brands-widget {
   margin-top: $m;
+  position: relative;
 
   .flex-container {
-    display: flex;
-    flex-wrap: wrap;
     overflow: hidden;
     border-radius: $radius-l;
+    margin: 0 -1px;
+
+    // 2-column grid
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
     .flex-item {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: $light-25;
-      box-sizing: border-box;
-      flex: 0 0 158px;
-      text-align: center;
+      background-color: $light-100;
+
       height: $xl5;
-      padding: $l;
+      box-sizing: border-box;
+      padding: $l $s;
       margin: 1px;
 
+      @include touch {
+        background-color: $light-25;
+      }
+
       img {
-        margin: $xs;
-        flex: 1;
-        width: 100%;
+        width: auto;
         height: auto;
+        max-height: 100%;
       }
     }
 
-    .flex-item:first-child {
-      margin-left: 0;
+    .flex-item:hover {
+      background-color: $light-25;
     }
+
+    .flex-item:active {
+      background-color: $light-50;
+    }
+  }
+
+  .brand-mask {
+    display: none;
   }
 
   @media screen and (min-width: $tablet) {
     .flex-container {
+      display: flex;
+
       flex-wrap: nowrap;
+      overflow-x: scroll;
+      scroll-behavior: smooth;
+      padding-bottom: $xs;
+
+      // hide scrollbar
+      scrollbar-width: none;
+      -ms-overflow-style: none;
 
       .flex-item {
-
         margin: $xxs;
         border-radius: $radius-l;
+        user-select: none;
       }
     }
+
+
+    .brand-mask {
+      display: flex;
+      position: absolute;
+      top: 0;
+      width: 88px;
+      height: 88px;
+      align-items: center;
+
+      .brand-mask-scroll-button {
+        width: 40px;
+        height: 40px;
+        background-color: $light-200;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+
+    #brand-mask-left {
+      justify-content: flex-start;
+      left: -1px;
+      background: linear-gradient(to right, $white-500 40%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    #brand-mask-right {
+      justify-content: flex-end;
+      background: linear-gradient(to left, $white-500 40%, rgba(255, 255, 255, 0) 100%);
+      right: -1px;
+    }
   }
+
 }

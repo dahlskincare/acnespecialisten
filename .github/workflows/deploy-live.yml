@@ -18,7 +18,7 @@ jobs:
         run: npm install -g sass
 
       - name: Compile SCSS
-        run: sass --style compressed --no-source-map --quiet --no-stop-on-error index.scss:index.css metod:metod om-oss:om-oss varumarken:varumarken avbokningspolicy:avbokningspolicy kontakt:kontakt faq:faq fonts:fonts presentkort:presentkort ordlista:ordlista includes:includes problem:problem resultat:resultat behandlingar:behandlingar priser:priser hudguide:hudguide specialister:specialister gratis-hudkonsultation:gratis-hudkonsultation styles:styles
+        run: sass --style compressed --no-source-map --quiet --no-stop-on-error index.scss:index.css cookies:cookies metod:metod om-oss:om-oss varumarken:varumarken avbokningspolicy:avbokningspolicy kontakt:kontakt franchise:franchise faq:faq fonts:fonts presentkort:presentkort ordlista:ordlista includes:includes hudproblem:hudproblem resultat:resultat reviews:reviews hudbehandlingar:hudbehandlingar priser:priser hudguide:hudguide hudterapeut:hudterapeut gratis-hudkonsultation:gratis-hudkonsultation styles:styles
 
       - name: Install typescript
         run: npm install typescript
@@ -27,23 +27,23 @@ jobs:
         run: tsc
 
       - name: Compress files
-        run: zip web.zip * -r -x "*.scss" -x "*.ts" -x "*.DS_Store" -x "Dockerfile" -x ".env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
+        run: zip web.zip * .[^.]* -r -x "*.git" -x "*.github" -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x ".env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
 
       - name: Transfer zip
         uses: nogsantos/scp-deploy@master
         with:
           src: ./web.zip
-          host: ${{ secrets.AS_SSH_HOST }}
-          remote: ~/temp.visurus.org
+          host: ${{ secrets.AS_SSH_HOST_LIVE }}
+          remote: ~/public_html
           port: 22
-          user: ${{ secrets.AS_SSH_USER }}
-          key: ${{ secrets.AS_SSH_KEY }}
+          user: ${{ secrets.AS_SSH_USER_LIVE }}
+          key: ${{ secrets.AS_SSH_KEY_LIVE }}
 
       - name: Uncompress on server
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
-          echo "${{ secrets.AS_SSH_KEY }}" > ~/.ssh/id_rsa
-          host='${{ secrets.AS_SSH_HOST }}'
+          echo "${{ secrets.AS_SSH_KEY_LIVE }}" > ~/.ssh/id_rsa
+          host='${{ secrets.AS_SSH_HOST_LIVE }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }} 'cd ~/temp.visurus.org; unzip -o web.zip'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER_LIVE }}@${{ secrets.AS_SSH_HOST_LIVE }} 'cd ~/public_html; unzip -o web.zip; rm web.zip;'

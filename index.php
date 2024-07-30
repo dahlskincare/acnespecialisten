@@ -3,20 +3,29 @@
 <html lang="<?php echo $lang ?>">
 
 <head>
-      <!-- TODO: Set title and meta tags -->
-      <title>AcneSpecialisten | Erfarna Hudspecialister inom Hudvård i Stockholm</title>
-      <meta name="description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av acne och hudproblem i Stockholm. Boka en kostnadsfri konsultation idag och upplev skillnaden med personligt anpassad hudvård.">
-      <meta name="keywords" content="Hudspecialist, Hudspecialist stockholm, Hudvård Stockholm, Acnespecialisten, Hudvårdsexpert, Acnebehandling, Hudproblem, AcneSpecialisten, Personlig hudvård, Hudvårdsklinik Stockholm, Acne konsultation">
+      <link rel="canonical" href="https://www.acnespecialisten.se" />
 
-      <meta property="og:title" content="Acnespecialisten" />
-      <meta property="og:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="og:image" content="images/about-desktop.jpg" />
-      <meta property="twitter:title" content="Acnespecialisten" />
-      <meta property="twitter:description" content="Acnespecialisten is the best etc.." class="l10n" />
-      <meta property="twitter:image" content="images/about-desktop.jpg" />
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
-      <link rel="preload" as="image" href="images/banner-desktop.jpg" media="(min-width: 984px)">
-      <link rel="preload" as="image" href="images/banner-mobile.jpg" media="(max-width: 983px)">
+      <title class="l10n">Din Hudspecialist i Stockholm och Online | AcneSpecialisten</title>
+
+      <meta name="title" content="Din Hudspecialist i Stockholm och Online | AcneSpecialisten" class="l10n">
+      <meta name="description" content="AcneSpecialisten har över 30 års erfarenhet av alla typer av hudproblem. Boka en gratis konsultation så hjälper våra hudspecialister dig med rätt hudvård." class="l10n">
+      <meta name="keywords" content="acnespecialisten, hudspecialist, hudspecialist stockholm" class="l10n">
+
+
+      <meta property="og:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
+      <meta property="og:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
+      <meta property="og:image" content="images/about-desktop.webp" />
+      <meta property="twitter:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
+      <meta property="twitter:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
+      <meta property="twitter:image" content="images/about-desktop.webp" />
+
+      <?php
+      include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php');
+      include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/organization.php');
+      include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/local_business.php');
+      ?>
+      <link rel="preload" as="image" href="images/banner-desktop.webp" media="(min-width: 984px)">
+      <link rel="preload" as="image" href="images/banner-mobile.webp" media="(max-width: 983px)">
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="/index.css">
 </head>
@@ -26,13 +35,13 @@
       <main>
             <section id="banner">
                   <div id="banner-background">
-                        <video autoplay muted loop id="banner-video">
+                        <video autoplay muted loop playsinline id="banner-video">
                         </video>
                         <div class="container">
-                              <h1 class="h700 l10n">Hudspecialisterna</h1>
+                              <h1 class="h700 l10n">AcneSpecialisten,<br />din hudspecialist i <br />Stockholm och Online</h1>
                         </div>
                   </div>
-                  <a href="gratis-hudkonsultation" title="hudkonsultation">
+                  <a href="gratis-hudkonsultation.php" title="Boka Gratis Hudkonsultation">
                         <div class="container">
                               <div class="banner-bar elevation-medium is-hidden-desktop" id="banner-bar-small">
                                     <button class="white">
@@ -41,12 +50,12 @@
                                     <div id="banner-bar-cols">
                                           <div>
                                                 <span class="h500">4,8</span>
-                                                <?php icon('trustpilot') ?>
+                                                <?php icon('trustpilot-green') ?>
                                                 <div class="p200 l10n">På Trustpilot</div>
                                           </div>
                                           <div>
                                                 <span class="h500">30+</span>
-                                                <div class="p200 l10n">år</div>
+                                                <div class="p200 l10n">Års erfarenhet</div>
                                           </div>
                                           <div>
                                                 <span class="h500">200k+</span>
@@ -59,26 +68,28 @@
                                           <div class="flex-aligner">
                                                 <span class="label-large">4,8</span>
                                                 <div>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
-                                                      <?php icon('trustpilot-white') ?>
+                                                      <div id="trustpilot-stars">
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green') ?>
+                                                            <?php icon('trustpilot-green-half') ?>
+                                                      </div>
                                                       <div class="p200 l10n">På Trustpilot</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
                                                 <span class="label-large">30+</span>
                                                 <div>
-                                                      <div class="h400 l10n">år</div>
-                                                      <div class="p200 l10n">i branchen</div>
+                                                      <div class="h400 l10n">Års</div>
+                                                      <div class="p200 l10n">erfarenhet</div>
                                                 </div>
                                           </div>
                                           <div class="flex-aligner">
                                                 <span class="label-large">200k+</span>
                                                 <div>
                                                       <div class="h400 l10n">Personer</div>
-                                                      <div class="p200 l10n">som blivit problemfria</div>
+                                                      <div class="p200 l10n">fri från hudproblem</div>
                                                 </div>
                                           </div>
                                           <div class="button white l10n">
@@ -92,83 +103,83 @@
             </section>
             <div class="container">
                   <section id="problems">
-                        <div class="h500 l10n">Problem</div>
+                        <div class="h500 l10n">Hudproblem</div>
                         <?php
                         $accordion = array(
                               new AccordionItem(
                                     label: 'Akne',
-                                    image_small: 'images/problems/114x140/akne.webp',
-                                    image_large: 'images/problems/424x324/akne.webp',
-                                    image_title: 'Information om Akne - Acnespecialisten',
-                                    image_alt: 'Bild som illustrerar akne',
-                                    url: 'problem/akne',
-                                    url_title: 'Läs mer om Akne',
+                                    image_small: 'bilder/hudproblem/114x140/akne.webp',
+                                    image_large: 'bilder/hudproblem/424x324/akne.webp',
+                                    image_title: 'Ansikte med akne',
+                                    image_alt: 'Närbild på person som har akne i ansiktet.',
+                                    url: 'acne.php',
+                                    url_title: 'Läs mer information om akne',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Akneärr',
-                                    image_small: 'images/problems/114x140/acnearr.webp',
-                                    image_large: 'images/problems/424x324/acnearr.webp',
-                                    image_title: 'Akneärr',
-                                    image_alt: 'Akneärr',
-                                    url: 'problem/aknearr',
-                                    url_title: 'Akneärr',
+                                    image_small: 'bilder/hudproblem/114x140/acnearr.webp',
+                                    image_large: 'bilder/hudproblem/424x324/acnearr.webp',
+                                    image_title: 'Person med akneärr',
+                                    image_alt: 'Närbild på person som har akneärr i ansiktet.',
+                                    url: 'acnearr.php',
+                                    url_title: 'Läs mer information om akneärr',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Rosacea',
-                                    image_small: 'images/problems/114x140/rosacea.webp',
-                                    image_large: 'images/problems/424x324/rosacea.webp',
-                                    image_title: 'Rosacea',
-                                    image_alt: 'Rosacea',
-                                    url: 'problem/rosacea',
-                                    url_title: 'Rosacea',
-                                    show_on_large: true,
-                                    show_on_small: true
-                              ),
-                              new AccordionItem(
-                                    label: 'Blandhy',
-                                    image_small: 'images/problems/114x140/blandhy.webp',
-                                    image_large: 'images/problems/424x324/blandhy.webp',
-                                    image_title: 'Blandhy',
-                                    image_alt: 'Blandhy',
-                                    url: 'problem/blandhy',
-                                    url_title: 'Blandhy',
+                                    image_small: 'bilder/hudproblem/114x140/rosacea.webp',
+                                    image_large: 'bilder/hudproblem/424x324/rosacea.webp',
+                                    image_title: 'Person med rosacea',
+                                    image_alt: 'Närbild på person som har rosacea i ansiktet.',
+                                    url: 'rosacea.php',
+                                    url_title: 'Läs mer information om rosacea',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Finnar',
-                                    image_small: 'images/problems/114x140/finnar.webp',
-                                    image_large: 'images/problems/424x324/finnar.webp',
-                                    image_title: 'Finnar',
-                                    image_alt: 'Finnar',
-                                    url: 'problem/finnar',
-                                    url_title: 'Finnar',
+                                    image_small: 'bilder/hudproblem/114x140/finnar.webp',
+                                    image_large: 'bilder/hudproblem/424x324/finnar.webp',
+                                    image_title: 'Person med finnar',
+                                    image_alt: 'Närbild på person som har finnar i ansiktet.',
+                                    url: 'finnar.php',
+                                    url_title: 'Läs mer information om finnar',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Pormaskar',
-                                    image_small: 'images/problems/114x140/pormaskar.webp',
-                                    image_large: 'images/problems/424x324/pormaskar.webp',
-                                    image_title: 'Pormaskar',
-                                    image_alt: 'Pormaskar',
-                                    url: 'problem/pormaskar',
-                                    url_title: 'Pormaskar',
+                                    label: 'Pigmentfläckar',
+                                    image_small: 'bilder/hudproblem/114x140/pigmentflackar.webp',
+                                    image_large: 'bilder/hudproblem/424x324/pigmentflackar.webp',
+                                    image_title: 'Person med pigmentfläckar',
+                                    image_alt: 'Närbild på person som har pigmentfläckar i ansiktet.',
+                                    url: 'pigmentflackar.php',
+                                    url_title: 'Läs mer information om pigmentfläckar',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Ytliga blodkärl',
+                                    image_small: 'bilder/hudproblem/114x140/ytliga-blodkarl.webp',
+                                    image_large: 'bilder/hudproblem/424x324/ytliga-blodkarl.webp',
+                                    image_title: 'Person med allmänna hudproblem',
+                                    image_alt: 'Närbild på person som hara allmänna hudproblem i ansiktet.',
+                                    url: 'ytliga-blodkarl.php',
+                                    url_title: 'Läs mer information om alla typer av hudproblem',
                                     show_on_large: false,
                                     show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Se alla problem',
-                                    image_small: 'images/carousel/problems/small/other.jpg',
-                                    image_large: 'images/problems/carousel/large/other.jpg',
-                                    image_title: 'Se alla problem',
-                                    image_alt: 'Se alla problem',
-                                    url: 'problem',
-                                    url_title: 'Se alla problem',
+                                    image_small: 'bilder/hudproblem/114x140/ytliga-blodkarl.webp',
+                                    image_large: 'bilder/hudproblem/424x324/ytliga-blodkarl.webp',
+                                    image_title: 'Person med allmänna hudproblem',
+                                    image_alt: 'Närbild på person som har allmänna hudproblem i ansiktet.',
+                                    url: '/hudproblem',
+                                    url_title: 'Läs mer information om alla typer av hudproblem.',
                                     show_on_large: true,
                                     show_on_small: false
                               )
@@ -176,12 +187,12 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="problem" title="problem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla problem</a>
+                        <a href="/hudproblem" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Metod</div>
-                              <a href="metod" title="metod" class="button compact text is-hidden-mobile">
+                              <div class="h500 l10n">Metoden</div>
+                              <a href="metoden.php" title="metoded" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -191,30 +202,35 @@
                               new ApproachCard(
                                     number: '01',
                                     title: 'Identifiera',
-                                    content: 'Vi erbjuder alltid gratis konsultation, där du får en personlig hudterapeut och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
+                                    content: 'Vi erbjuder alltid gratis konsultation där du får en personlig hudspecialist och en individuell behandlingsplan baserad på din hudanalys. Förebilder tas för att jämföra resultat före och efter behandling.',
                                     button_label: 'Boka gratis hudkonsultation',
-                                    button_url: 'gratis-hudkonsultation'
+                                    button_url: 'gratis-hudkonsultation.php',
+                                    button_url_title: 'Boka en kostnadsfri hudkonsultation',
                               ),
                               new ApproachCard(
                                     number: '02',
                                     title: 'Behandla',
                                     content: 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.',
                                     button_label: 'Våra behandlingar',
-                                    button_url: 'behandlingar'
+                                    button_url: '/hudbehandlingar',
+                                    button_url_title: 'Boka en behandling',
                               ),
                               new ApproachCard(
                                     number: '03',
                                     title: 'Förebygga',
                                     content: 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.',
                                     button_label: 'Se produkter',
-                                    button_url: 'produkter'
+                                    button_url: 'https://dahlskincare.se',
+                                    button_url_title: 'Besök vår webbshop',
+                                    button_url_target: '_blank',
                               ),
                               new ApproachCard(
                                     number: '04',
                                     title: 'Reparera',
-                                    content: 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera ärr och bygga upp skyddsbarriären med hjälp av maskinbehandlingar som microneedling, laser och IPL för att förbättra hudens struktur.',
-                                    button_label: 'Se behandlingar',
-                                    button_url: 'behandlingar'
+                                    content: 'Efter att det aktiva problemet åtgärdats fokuserar vi på att reparera eventuella ärr med hjälp av maskinbehandlingar som microneedling, laser och IPL för att förbättra hudens struktur.',
+                                    button_label: 'Våra ärrbehandlingar',
+                                    button_url: 'behandla-acnearr.php',
+                                    button_url_title: 'Läs mer om ärrbehandlingar',
                               )
                         );
                         ?>
@@ -227,7 +243,7 @@
                                     </div>
                               <?php } ?>
                         </div>
-                        <a href="metod" title="Metod" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om metoden</a>
+                        <a href="metoden.php" title="Metoded" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om vår metod</a>
                   </section>
                   <section id="results">
                         <?php
@@ -237,10 +253,12 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
-                                    image_alt: 'Akne resultat',
-                                    image_title: 'Akne resultat',
+                                    image_before_title: 'Person som har akne',
+                                    image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
+                                    image_after_title: 'Person som har akne',
+                                    image_after_alt: 'Ansiktet på en person som behandlat svår akne, efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: '3 månader',
+                                          duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
                                     )
                               ),
                               new ResultCustomer(
@@ -248,10 +266,12 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
-                                    image_alt: 'Akne resultat',
-                                    image_title: 'Akne resultat',
+                                    image_before_title: 'Person som har akne',
+                                    image_before_alt: 'Ansiktet på en person som behandlat akne, föreefterbild',
+                                    image_after_title: 'Person som har akne',
+                                    image_after_alt: 'Ansiktet på en person som behandlat akne, efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: '2 månader',
+                                          duration: '<a href="acne.php" title="Akne">Akne</a>',
                                     )
                               ),
                               new ResultCustomer(
@@ -259,10 +279,12 @@
                                     image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
                                     image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
                                     image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
-                                    image_alt: 'Rosacea resultat',
-                                    image_title: 'Rosacea resultat',
+                                    image_before_title: 'Person som har rosacea',
+                                    image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
+                                    image_after_title: 'Person som har rosacea',
+                                    image_after_alt: 'Ansiktet på en person som behandlat rosacea, efterbild',
                                     treatment: new ResultTreatment(
-                                          duration: '4 månader',
+                                          duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
                                     )
                               ),
                         );
@@ -270,33 +292,22 @@
                         ?>
                   </section>
                   <section id="reviews">
-                        <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Omdömen</div>
-                              <div class="flex-row is-hidden-mobile">
-                                    <div class="step-buttons">
-                                          <button class="round-large grey" onclick="Reviews.scroll(-1)"><?php icon('arrow-left') ?></button>
-                                          <button class="round-large grey" onclick="Reviews.scroll(1)"><?php icon('arrow-right') ?></button>
-                                    </div>
-                                    <a href="https://se.trustpilot.com/review/acnespecialisten.se" title="Omdömen" class="ml-l button compact text">
-                                          <span class="l10n">Läs fler omdömen</span>
-                                          <?php icon('navigate-next') ?>
-                                    </a>
-                              </div>
-                        </div>
+                        <div class="h500 l10n">Omdömen</div>
                         <?php
                         $reviews = array(
                               new Review(
-                                    stars: 5,
+                                    stars: 4,
                                     brand: 'Trustpilot',
                                     logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Allt gick jätte bra!',
-                                    text: "Allt gick jätte bra, personal var snäll och trevlig med min dotter. Min dotter var orolig för behandling hur ska det vara därför har det varit så lång tid innan vi kommit tillbaka och börjat med behandling. Det var inte lätt för henne men hon är jätte nöjd och glad när hon såg bra resultat /ändring på hennes ansikte. Tack så jätte mycket!!",
-                                    signature: 'Sara'
+                                    title: 'Rekommenderar varmt AcneSpecialisten',
+                                    text: "Trevlig och proffsig personal. Personalen har ett trevligt bemötande och är kunniga inom sitt område. Trevliga, fräscha lokaler.",
+                                    signature: 'Gabriella',
+                                    link: new Link(label: "", url: "https://se.trustpilot.com/users/667ad10d9a54c79b7fff547c", title: "Bästa i hela Stockholm"),
                               ),
                               new Review(
                                     stars: 5,
                                     brand: 'Google',
-                                    logo_url: 'images/brands/trustpilot.svg',
+                                    logo_url: 'images/brands/google-small.svg',
                                     title: 'Man behöver inte klä av sig',
                                     text: "Man behöver inte klä av sig för behandling. Behandlaren känns inte stressad, sitter kvar utan att springa iväg för att uträtta annat! Frågar inte ut en. Försöker inte pracka på en produkter. Är trevlig och hjälpsam",
                                     signature: 'Alan'
@@ -305,14 +316,14 @@
                                     stars: 5,
                                     brand: 'Trustpilot',
                                     logo_url: 'images/brands/trustpilot.svg',
-                                    title: 'Otroligt nöjd',
-                                    text: "Efter bara tre månader hos bästa Emma har min hud blivit så mycket bättre! Efter en graviditet och en kombination av hormonell och bakteriell acne så har jag äntligen börjar komma tillbaks till min gamla hy. Är verkligen så himla nöjd. Har gjort ansiktsbehandling mot acne samt kört acnespecialistens produkter och kan bara säga gott om dem!",
-                                    signature: 'Jenny'
+                                    title: 'Underbar service och väldigt…Stort tack att ni finns',
+                                    text: "Underbar service och väldigt professionell hudterapeut Julia. Acnespecialister håller högsta standarden och alltid ta hand om sina kunder och bryr sig om kunders upplevelse efter behandlingen. Stort tack att ni finns",
+                                    signature: 'Maria'
                               ),
                               new Review(
                                     stars: 5,
                                     brand: 'Google',
-                                    logo_url: 'images/brands/trustpilot.svg',
+                                    logo_url: 'images/brands/google-small.svg',
                                     title: 'Nöjd',
                                     text: "Ett första besök som absolut kommer leda till ett till. Bra och tydlig information om vad som skulle vara bäst för min hy.",
                                     signature: 'Mona'
@@ -323,90 +334,89 @@
                                     logo_url: 'images/brands/trustpilot.svg',
                                     title: 'Kunniga och bra!',
                                     text: "Mina tonårsdöttrar har båda gått till acnespecialisten under flera år med både mindre och större problemområden. Vi har alltid fått professionell och kunnig behandling, bra produkter och bra råd, som också hjälper fint!",
-                                    signature: 'Izabella'
+                                    signature: 'Ditte'
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Omdömen" href="https://se.trustpilot.com/review/acnespecialisten.se">Läs fler omdömen</a>
                   </section>
                   <section id="services">
                         <div class="h500 l10n">Behandlingar</div>
                         <?php
                         $accordion = array(
                               new AccordionItem(
-                                    label: 'Ansiktsbehandlingar',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/facials.jpg',
-                                    image_alt: 'Facials',
-                                    image_title: 'Facials',
-                                    url: 'behandlingar/facials',
-                                    url_title: 'Facials',
-                                    show_on_large: true,
-                                    show_on_small: true
-                              ),
-                              new AccordionItem(
-                                    label: 'IPL',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/ipl.jpg',
-                                    image_title: 'IPL',
-                                    image_alt: 'IPL',
-                                    url: 'behandlingar/ipl',
-                                    url_title: 'IPL',
-                                    show_on_large: true,
-                                    show_on_small: true
-                              ),
-                              new AccordionItem(
-                                    label: 'Laser',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/laser-problem-skin.jpg',
-                                    image_title: 'Laser',
-                                    image_alt: 'Laser',
-                                    url: 'behandlingar/laser',
-                                    url_title: 'Laser',
-                                    show_on_large: true,
-                                    show_on_small: true,
-                              ),
-                              new AccordionItem(
-                                    label: 'Portömning',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/dermabration.jpg',
-                                    image_title: 'Portömning',
-                                    image_alt: 'Portömning',
-                                    url: 'behandlingar/dermabration',
-                                    url_title: 'Portömning',
+                                    label: 'Ansiktsbehandling',
+                                    image_small: 'bilder/hudbehandlingar/114x140/ansiktsbehandlingar-mot-problemhy.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/ansiktsbehandlingar-mot-problemhy.webp',
+                                    image_title: 'Ansiktsbehandling',
+                                    image_alt: 'Kvinna som får ansiktsbehandling i ansiktet.',
+                                    url: '/problemhy.php',
+                                    url_title: 'Läs mer och boka tid för ansiktsbehandling.',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Microneedling',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/microneedling.jpg',
-                                    image_title: 'Microneedling',
-                                    image_alt: 'Microneedling',
-                                    url: 'behandlingar/microneedling',
-                                    url_title: 'Microneedling',
+                                    image_small: 'bilder/hudbehandlingar/114x140/microneedling.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/microneedling.webp',
+                                    image_title: 'Ansiktsbehandling med microneedling.',
+                                    image_alt: 'Kvinna som får microneedling behandling i ansiktet.',
+                                    url: '/microneedling.php',
+                                    url_title: 'Läs mer och boka tid för microneedling.',
                                     show_on_large: true,
                                     show_on_small: true
                               ),
                               new AccordionItem(
-                                    label: 'Kemisk Peeling ',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/injections.jpg',
-                                    image_title: 'Kemisk Peeling',
-                                    image_alt: 'Kemisk Peeling',
-                                    url: 'behandlingar/injection',
-                                    url_title: 'Kemisk Peeling',
+                                    label: 'Laser',
+                                    image_small: 'bilder/hudbehandlingar/114x140/laser-mot-problemhy.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/laser-mot-problemhy.webp',
+                                    image_title: 'Laserbehandling i ansiktet',
+                                    image_alt: 'Närbild på person som får laserbehandling på kinden.',
+                                    url: '/hudbehandlingar/laser-mot-hudproblem',
+                                    url_title: 'Läs mer och boka tid för laser.',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'Kemisk Peeling',
+                                    image_small: 'bilder/hudbehandlingar/114x140/kemisk-peeling.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/kemisk-peeling.webp',
+                                    image_title: 'Ansiktsbehandling med kemisk peeling.',
+                                    image_alt: 'Man som får kemisk peeling behandling i ansiktet.',
+                                    url: '/kemisk-peeling.php',
+                                    url_title: 'Läs mer och boka tid för kemisk peeling.',
+                                    show_on_large: true,
+                                    show_on_small: true
+                              ),
+                              new AccordionItem(
+                                    label: 'IPL',
+                                    image_small: 'bilder/hudbehandlingar/114x140/ipl.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/ipl.webp',
+                                    image_title: 'IPL-behandling i ansiktet',
+                                    image_alt: 'Kvinna som får IPL-behandling i ansiktet.',
+                                    url: '/hudbehandlingar/ipl',
+                                    url_title: 'Läs mer och boka tid för IPL.',
+                                    show_on_large: true,
+                                    show_on_small: true,
+                              ),
+                              new AccordionItem(
+                                    label: 'Dermabrasion',
+                                    image_small: 'bilder/hudbehandlingar/114x140/dermabrasion.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/dermabrasion.webp',
+                                    image_title: 'Ansiktsbehandling med HydraFacial',
+                                    image_alt: 'Kvinna som får HydraFacial behandling i ansiktet.',
+                                    url: '/hudbehandlingar/dermabrasion',
+                                    url_title: 'Läs mer och boka tid för dermabrasion.',
                                     show_on_large: false,
                                     show_on_small: true
                               ),
                               new AccordionItem(
                                     label: 'Se alla behandlingar',
-                                    image_small: 'https://via.placeholder.com/114x140.jpg',
-                                    image_large: 'images/service-categories/large/luxury.jpg',
-                                    image_title: 'Se alla behandlingar',
-                                    image_alt: 'Se alla behandlingar',
-                                    url: 'behandlingar',
-                                    url_title: 'Se alla behandlingar',
+                                    image_small: 'bilder/hudbehandlingar/114x140/klassiska-ansiktsbehandlingar.webp',
+                                    image_large: 'bilder/hudbehandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
+                                    image_title: 'Ansiktsbehandling',
+                                    image_alt: 'Man som får ansiktsbehandling i ansiktet.',
+                                    url: '/hudbehandlingar',
+                                    url_title: 'Se alla våra behandlingar.',
                                     show_on_large: true,
                                     show_on_small: false
                               )
@@ -415,107 +425,82 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="behandlingar" title="Behandlingar" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
+                        <a href="/hudbehandlingar" title="Behandlingar" class="mt-xl button b200 outline is-hidden-desktop expand">Se alla behandlingar</a>
                   </section>
-                  <section id="faq">
-                        <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Frågor & Svar</div>
-                              <a href="faq" title="FAQ" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Se fler frågor & svar</span>
-                                    <?php icon('navigate-next') ?>
-                              </a>
-                        </div>
-                        <?php $faq_categories = array(
-                              'Behandlingar' => array(
-                                  new Question(
-                                      title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                                      text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-                                  ),
-                                  new Question(
-                                      title: 'Vad är den genomsnittliga tidsåtgången för en behandling?',
-                                      text: 'En typisk behandling hos AcneSpecialisten tar mellan 60 och 90 minuter, beroende på behandlingens art och dina individuella hudvårdsbehov.'
-                                  ),
-                                  new Question(
-                                      title: 'Hur många behandlingar rekommenderas för att uppnå synliga resultat?',
-                                      text: 'Antalet rekommenderade behandlingar varierar beroende på individens hudproblem och hudtyp. I genomsnitt ser kunderna betydande förbättringar efter 2-4 behandlingssessioner.'
-                                  ),
-                                  new Question(
-                                      title: 'Är behandlingarna hos AcneSpecialisten smärtsamma?',
-                                      text: 'Vi strävar efter att göra våra behandlingar så bekväma som möjligt. Viss lätt smärta kan upplevas under behandling av inflammerade områden eller vid extraktioner, men denna känsla är övergående och hanteras med största omsorg för din komfort.'
-                                  ),
-                                  new Question(
-                                      title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                                      text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
-                                  ),
-                              ),
-                              'Konsultationer' => array(
-                                  new Question(
-                                      title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                                      text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
-                                  ),
-                                  new Question(
-                                      title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                                      text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-                                  ),
-                              ),
-                              'Produkter' => array(
-                                  new Question(
-                                      title: 'Hur kan jag hitta de rätta produkterna för min hudtyp?',
-                                      text: 'För att hitta de produkter som passar just din hudtyp bäst, erbjuder vi kostnadsfria hudkonsultationer där våra experter analyserar din hud och rekommenderar produkter anpassade efter dina unika behov och hudtillstånd.'
-                                  ),
-                              ),
-                              'Skötselråd och rutiner' => array(
-                                  new Question(
-                                      title: 'Vilka eftervårdstips bör jag följa efter en behandling?',
-                                      text: 'Efter en behandling rekommenderar vi specifika eftervårdstips för att maximera behandlingens effektivitet och stödja din huds läkningsprocess. Detta kan inkludera råd om fuktgivande, solskydd och hur du undviker vissa produkter eller aktiviteter under en viss tid.'
-                                  ),
-                              ),
-                              'Priser och betalning' => array(
-                                  new Question(
-                                      title: 'Hur kan jag ta reda på priserna för era behandlingar?',
-                                      text: 'Våra behandlingspriser finns listade på vår hemsida. För varje specifik behandling hittar du detaljerad prisinformation som hjälper dig att planera ditt besök.'
-                                  ),
-                                  new Question(
-                                      title: 'Erbjuder ni några paketpriser eller rabatter för flera behandlingar?',
-                                      text: 'Ja, vi erbjuder ibland paketpriser eller rabatter vid bokning av flera behandlingar. Detta är ett utmärkt sätt att få en omfattande behandling till ett reducerat pris. För mer information om aktuella erbjudanden, besök vår hemsida eller kontakta oss direkt.'
-                                  ),
-                              ),
 
-                        );
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="FAQ" href="faq">Se fler frågor & svar</a>
+                  <section id="faq">
+                        <div id="faq-container">
+                              <div class="flex-row align-end justify-space-between">
+                                    <div class="h500 l10n">Frågor & Svar</div>
+                                    <a href="fragor-svar.php" title="FAQ" class="button compact text is-hidden-mobile">
+                                          <span class="l10n">Se fler frågor & svar</span>
+                                          <?php icon('navigate-next') ?>
+                                    </a>
+                              </div>
+                              <?php $faq_categories = array(
+                                    'Generellt' => array(
+                                          new Question(
+                                                title: 'Behandlar AcneSpecialisten enbart akne?',
+                                                text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="/hudproblem">hudproblemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
+                                          ),
+                                          new Question(
+                                                title: 'Kan jag besöka AcneSpecialisten även för mindre hudproblem?',
+                                                text: '<p class="p200">Absolut, vi välkomnar alla, oavsett hur litet eller stort ditt hudproblem är. Även en enstaka finne är värd vår uppmärksamhet. Vi erbjuder kostnadsfria hudkonsultationer, som kan genomföras antingen via videosamtal eller på någon av våra tre kliniker i Stockholm.</p>'
+                                          ),
+                                          new Question(
+                                                title: 'Varför erbjuder AcneSpecialisten gratis konsultationer?',
+                                                text: '<p class="p200">Vi erbjuder gratis konsultationer för att ge dig en djupare förståelse för din hudtyp och de mest effektiva metoderna för att behandla den. Vår prioritet är att du får omfattande information om behandlingsprocessen och hur vi kan hjälpa dig i att uppnå önskade resultat med rätt behandlingar och produkter.</p>'
+                                          ),
+                                          new Question(
+                                                title: 'Finns AcneSpecialisten endast i Stockholm?',
+                                                text: '<p class="p200">Just nu har vi enbart fysiska kliniker i Stockholm. Men oavsett var du befinner dig, kan vi erbjuda hjälp genom vår onlinekonsultation. Genom denna service får du möta en av våra erfarna hudspecialister digitalt. För många hudproblem kan effektiva lösningar implementeras hemma. Skulle det krävas ett personligt besök på kliniken, kan det vara värt resan för att få den rätta behandlingen efter en initial onlinekonsultation.</p>'
+                                          ),
+                                          new Question(
+                                                title: 'Är personalen på AcneSpecialisten hudläkare?',
+                                                text: '<p class="p200">Vi är professionella hudspecialister, inte hudläkare. Vår personal har lång erfarenhet och expertis i att behandla problemhud med de senaste metoderna och teknikerna. Vi är specialiserade på att erbjuda effektiva hudvårdsbehandlingar och rådgivning.</p>'
+                                          ),
+                                          new Question(
+                                                title: 'Vilken utbildning har hudspecialisterna hos AcneSpecialisten?',
+                                                text: '<p class="p200">Alla våra hudspecialister har genomgått utbildning vid en av Sveriges Hudterapeuters Riksorganisations (SHR) godkända skolor. Många av dem är dessutom CIDESCO-certifierade, vilket är en internationellt erkänd kvalifikation. Denna höga utbildningsstandard säkerställer att vi är väl förberedda för att effektivt hjälpa personer med olika hudproblem.</p>'
+                                          ),
+                                    ),
+
+                              );
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                              <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Läs alla våra frågor och svar" href="fragor-svar.php">Se fler frågor & svar</a>
+                        </div>
                   </section>
-                  <!--Hudguide-->
+
                   <section id="about-us">
                         <div id="about-text-wrapper">
                               <div id="about-text">
                                     <div class="h500 l10n">Kort om oss</div>
                                     <div class="h200 mt-m l10n">
-                                          AcneSpecialisten är en del av Sveriges Skönhetscenter som har valt att fokusera helt på acne och problemhy. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av acne och andra hudproblem.
+                                          AcneSpecialisten är en del av Sveriges Skönhetscenter som har valt att fokusera helt på hudproblem. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av akne och andra hudproblem.
                                     </div>
                                     <picture class="is-hidden-tablet">
-                                          <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
-                                          <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
-                                          <img src="images/about-mobile.jpg" alt="About us" title="About us" width="364" height="364" />
+                                          <source media="(max-width: 799px)" srcset="images/about-mobile.webp">
+                                          <source media="(min-width: 800px)" srcset="images/about-desktop.webp">
+                                          <img src="images/about-mobile.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="364" height="364" />
                                     </picture>
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('erfarenhet') ?>
                                                       <div class="h200 l10n">30 års erfarenhet</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Sedan 1994 har vi hjälpt över 100 000 kunder med problemhy och hudvård, ständigt utvecklande vår verksamhet.
+                                                      Sedan 1994 har vi hjälpt över 200 000 kunder med hudproblem och hudvård, och är idag det självklara valet mot hudproblem.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('unik') ?>
                                                       <div class="h200 l10n">Unik helhetslösning</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera problemhy med anpassade behandlingar.
+                                                      Vi erbjuder unika helhetslösningar för att identifiera, behandla och kontrollera hudproblem med anpassade behandlingar.
                                                 </p>
                                                 <div class="divider"></div>
                                           </div>
@@ -523,7 +508,7 @@
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('certifierad') ?>
                                                       <div class="h200 l10n">Diplomerade hudspecialister</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
@@ -533,29 +518,29 @@
                                           </div>
                                           <div class="column">
                                                 <div class="flex-row about-header">
-                                                      <?php icon('star') ?>
+                                                      <?php icon('kliniker') ?>
                                                       <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för bekväm, professionell hudvård i huvudstaden.
+                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för service, kvalité och resultat.
                                                 </p>
                                           </div>
                                     </div>
-                                    <a href="om-oss" title="Om oss" class="button b200 outline expand l10n">Läs mer om oss</a>
+                                    <a href="om-oss.php" title="Läs mer om AcneSpecialisten" class="button b200 outline expand l10n">Läs mer om oss</a>
                               </div>
                         </div>
                         <div id="about-image-desktop">
                               <picture>
-                                    <source media="(max-width: 799px)" srcset="images/about-mobile.jpg">
-                                    <source media="(min-width: 800px)" srcset="images/about-desktop.jpg">
-                                    <img src="images/about-desktop.jpg" alt="About us" title="About us" width="632" height="632" />
+                                    <source media="(max-width: 799px)" srcset="images/about-mobile.webp">
+                                    <source media="(min-width: 800px)" srcset="images/about-desktop.webp">
+                                    <img src="images/about-desktop.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="632" height="632" />
                               </picture>
                         </div>
                   </section>
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
-                              <div class="h500 l10n">Våra specialister</div>
-                              <a href="specialister" title="Specialister" class="button compact text is-hidden-mobile">
+                              <div class="h500 l10n">Våra hudspecialister</div>
+                              <a href="/hudterapeut" title="Specialister" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -564,47 +549,47 @@
                         $specialists = array(
                               new Specialist(
                                     name: 'Cazzandra Lindberg',
-                                    title: 'Hudterapeut sedan 2015',
+                                    title: 'Hudterapeut sedan 2018',
                                     image: 'images/specialists/large/hudterapeut-cazzandra.webp',
-                                    image_alt: 'Cazzandra Lindberg',
-                                    image_title: 'Cazzandra Lindberg'
+                                    image_title: 'Hudterapeut Cazzandra Lindberg',
+                                    image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
                               ),
                               new Specialist(
                                     name: 'Veronika Benedik',
                                     title: 'Hudterapeut sedan 1999',
                                     image: 'images/specialists/large/hudterapeut-veronika.webp',
-                                    image_alt: 'Veronika Benedik',
-                                    image_title: 'Veronika Benedik'
+                                    image_title: 'Hudterapeut Veronika Benedik',
+                                    image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
                               ),
                               new Specialist(
                                     name: 'Julia Eklund',
-                                    title: 'Hudterapeut sedan 2017',
+                                    title: 'Hudterapeut sedan 2021',
                                     image: 'images/specialists/large/hudterapeut-julia.webp',
-                                    image_alt: 'Julia Eklund',
-                                    image_title: 'Julia Eklund'
-                                ),
+                                    image_title: 'Hudterapeut Julia Eklund',
+                                    image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
+                              ),
                               new Specialist(
                                     name: 'Vilma Libom',
-                                    title: 'Hudterapeut sedan 2019',
+                                    title: 'Hudterapeut sedan 2022',
                                     image: 'images/specialists/large/hudterapeut-vilma.webp',
-                                    image_alt: 'Vilma Libom',
-                                    image_title: 'Vilma Libom'
+                                    image_title: 'Hudterapeut Vilma Libom',
+                                    image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
                               ),
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Specialister" href="specialists">Se alla specialister</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudspecialister" href="/hudterapeut">Se alla hudspecialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Varumärken</div>
-                              <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
+                              <a href="varumarken" title="Läs mer om de varumärken vi jobbar med" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla varumärken vi jobbar med" href="varumarken">Se alla varumärken</a>
                   </section>
             </div>
       </main>

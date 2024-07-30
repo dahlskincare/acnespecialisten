@@ -1,0 +1,57 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+.type-card-widget {
+    display: block;
+    margin-top: $xl;
+    padding: $xl;
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+
+    div.image {
+        position: relative;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: $radius-s;
+        }
+    }
+
+    div.image:not(.is-icon):after {
+        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    div.image.is-icon {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+    .icon {
+        width: $xl;
+        height: $xl;
+    }
+
+    .p200 {
+        color: $dark-200;
+    }
+}
+
+a.type-card-widget {
+    cursor: pointer;
+
+    @include touch {
+        @include elevation-low();
+    }
+}
+
+a.type-card-widget:hover {
+    @include elevation-low();
+}

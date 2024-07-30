@@ -1,0 +1,348 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+html {
+    scroll-behavior: smooth;
+}
+
+section#banner {
+
+    .filter-item {
+        position: relative;
+
+        .close-icon {
+            position: absolute;
+            top: $s;
+            right: $s;
+            display: none;
+            width: $m;
+            height: $m;
+        }
+    }
+
+    .filter-item.highlight {
+        .close-icon {
+            display: inline-block;
+        }
+    }
+
+    #filters-touch-container {
+        overflow-x: scroll;
+        padding-bottom: $m;
+
+        #filters-touch {
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            background-color: $white-500;
+            @include elevation-medium();
+
+            display: inline-flex;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+
+            #filters-touch::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+
+
+            .filter-item {
+                position: relative;
+                padding: 17.5px 0;
+                flex: 1;
+                width: 104px;
+                text-align: center;
+                cursor: pointer;
+                border-left: 1px solid $light-200;
+            }
+
+            .icon {
+                width: $xl4;
+                height: $xl4;
+            }
+
+            .filter-item-label {
+                margin-top: $xs;
+                color: $deep-sea-500;
+            }
+        }
+
+        .filter-item:not(.highlight):hover {
+            .filter-item-label {
+                color: $deep-sea-300;
+            }
+        }
+
+        .filter-item.highlight {
+            background-color: $light-25;
+
+            .filter-item-label {
+                color: $black-500;
+            }
+        }
+
+        .filter-item:first-child {
+            border-left: 1px solid transparent;
+        }
+    }
+}
+
+
+#banner-problem-areas {
+    margin-top: $xl - $m;
+    display: flex;
+    flex-wrap: wrap;
+
+    >div {
+        margin-right: $xxs;
+
+        .button {
+            margin-bottom: $xxs;
+            padding: 10px $m;
+            border-radius: $radius-s;
+            @include h200;
+        }
+    }
+}
+
+
+@media screen and (min-width: $desktop) {
+    #filters-desktop {
+        position: relative;
+        border: 1px solid $light-200;
+        border-radius: $radius-l;
+        overflow: hidden;
+        margin-top: $xl3;
+        background-color: $white-500;
+
+        div#filter-items {
+            position: relative;
+            display: flex;
+            overflow-y: auto;
+            scroll-behavior: smooth;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+        }
+
+        div#filter-items::-webkit-scrollbar {
+            width: 0;
+            height: 0;
+        }
+
+        div.filter-button {
+            background-color: $white-500;
+            position: absolute;
+            top: 0;
+            height: 100%;
+            padding: $xl;
+            box-sizing: border-box;
+        }
+
+        div.filter-button#filter-button-previous {
+            background: linear-gradient(90deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+            padding-right: $xl*2;
+        }
+
+        div.filter-button#filter-button-next {
+            background: linear-gradient(270deg, $white-500 70%, rgba(255, 255, 255, 0) 100%);
+            padding-left: $xl*2;
+            right: 0;
+        }
+
+        .filter-item {
+            padding: 17.5px 0;
+            flex: 1 0 132px;
+            text-align: center;
+            cursor: pointer;
+            border-left: 1px solid $light-200;
+
+            .icon {
+                width: $xl4;
+                height: $xl4;
+            }
+
+            .filter-item-label {
+                margin-top: $xs;
+                color: $deep-sea-500;
+            }
+        }
+
+        .filter-item:not(.highlight):hover {
+            .filter-item-label {
+                color: $deep-sea-300;
+            }
+        }
+
+        .filter-item.highlight {
+            background-color: $light-25;
+
+            .filter-item-label {
+                color: $black-500;
+            }
+        }
+
+        .filter-item:first-child {
+            border-left: 1px solid transparent;
+        }
+    }
+
+    #banner-problem-areas {
+        margin-top: $xl3;
+    }
+
+}
+
+
+section#cards {
+    .problem-area-card {
+        overflow: hidden;
+        margin-top: $xl;
+        @include elevation-low();
+        border-top-left-radius: $radius-l;
+        border-top-right-radius: $radius-l;
+
+        div.picture {
+            position: relative;
+            font-size: 0;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: auto;
+                border-top-left-radius: $radius-l;
+                border-top-right-radius: $radius-l;
+                transition: transform 300ms ease;
+            }
+        }
+
+        div.picture:after {
+            box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        .problem-area-card-content {
+            padding: $xl;
+            border: 1px solid $light-200;
+            border-top: 0;
+
+            border-bottom-left-radius: $radius-l;
+            border-bottom-right-radius: $radius-l;
+
+            hr {
+                margin: $m 0;
+                border: 0;
+                border-top: 1px solid $light-200;
+            }
+        }
+    }
+
+    .problem-area-card:hover {
+        div.picture {
+            img {
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: $xxl;
+
+        #card-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: $xl;
+            row-gap: $xl3;
+
+            .card-grid-item {
+                display: flex;
+                align-items: stretch;
+            }
+        }
+
+        .problem-area-card {
+            margin-top: 0;
+            box-shadow: none;
+            display: flex;
+            flex-direction: column;
+
+            .problem-area-card-content {
+                flex: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                hr {
+                    margin: $xl 0;
+                }
+            }
+        }
+    }
+}
+
+section#consultation-banner {
+    margin-top: $xl;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: $xl5 + $xl;
+    }
+}
+
+section#results {
+    margin-top: 72px;
+
+
+    .result-widget {
+        margin-top: $l;
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#reviews {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+
+section#faq {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#skin-guide {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#specialists {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#brands {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}

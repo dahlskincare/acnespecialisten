@@ -4,12 +4,22 @@
 @import "util/sizes";
 @import "util/colors";
 @import "util/mixins";
+@import "hamburger";
 
 $mobile-nav-width: 350px;
 $large-header-height: 72px;
 $important-notice-height: 38px;
 
 html {
+    ::selection {
+        background: $deep-sea-200;
+        color: #fff;
+    }
+
+    @include touch {
+        overflow-x: hidden;
+    }
+
     body {
         overflow-x: hidden;
         overflow-y: auto;
@@ -26,38 +36,82 @@ html {
         header {
             position: sticky;
             background-color: $white-500;
-            top: 0;
+            top: - $important-notice-height;
             z-index: 99;
             border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 
             #important-notice {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                overflow: hidden;
                 height: $important-notice-height;
                 padding: $xs 0;
                 box-sizing: border-box;
                 text-align: center;
-                background-color: $deep-sea-400;
-                color: $white-500;
+                background-color: $white-500;
+                color: $black-500;
+                border-bottom: 1px solid $light-100;
 
-                span.important-notice-highlight {
-                    background-color: $white-500;
-                    color: $deep-sea-400;
-                    border-radius: 36px;
-                    padding: 2px $xxs;
-                    margin-right: 2px;
-                    font-weight: bold;
-                    font-size: 12px;
+                .important-notice-slide-button {
+                    cursor: pointer;
 
+                    .icon {
+                        svg {
+                            path {
+                                stroke: $dark-50;
+                            }
+                        }
+                    }
                 }
 
-                span {
-                    @include p100;
+                #important-notice-prev {
+                    transform: rotate(180deg);
                 }
 
-                a {
-                    @include p100;
-                    color: $white-500;
-                    text-decoration: underline;
+                .important-notice-slide {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 100%;
+
+                    span.important-notice-highlight {
+                        background-color: $deep-sea-500;
+                        color: $white-500;
+                        border-radius: 36px;
+                        padding: 2px $xxs;
+                        margin-right: 2px;
+                        font-weight: bold;
+                        font-size: 12px;
+
+                    }
+
+                    span {
+                        @include p100;
+                    }
+
+                    a {
+                        @include h100;
+                        color: $deep-sea-400;
+                    }
+
+                    transition: transform 400ms ease,
+                    opacity 400ms ease;
                 }
+
+                .important-notice-slide.offscreen-right {
+                    transform: translateX(0);
+                    opacity: 0;
+                    pointer-events: none;
+                }
+
+                .important-notice-slide.offscreen-left {
+                    transform: translateX(-100%);
+                    opacity: 0;
+                    pointer-events: none;
+                }
+
+
             }
 
             #header-small {
@@ -65,6 +119,11 @@ html {
                 align-items: center;
                 justify-content: space-between;
                 height: $xl4;
+
+                #menu-button {
+                    padding: $m;
+                    margin-right: -$m;
+                }
             }
 
 
@@ -74,37 +133,33 @@ html {
                 height: $large-header-height;
                 display: flex;
 
-                div#left {
-                    display: flex;
-                    align-items: center;
 
-
-                    a#logo {
-                        img {
-                            padding: $s 0;
-                        }
+                a#logo {
+                    img {
+                        padding: $s 0;
                     }
+                }
 
-                    nav {
-                        margin-left: $xl;
+                nav {
+                    margin-left: $xl;
 
-                        ul {
-                            padding: 0;
-                            margin: 0;
+                    ul {
+                        padding: 0;
+                        margin: 0;
 
-                            li {
-                                cursor: pointer;
-                                display: inline-block;
-                                padding: 26px $xs;
-                                list-style-type: none;
+                        li {
+                            cursor: pointer;
+                            display: inline-block;
+                            padding: 26px $xs;
+                            list-style-type: none;
 
-                                @media screen and (min-width: $widescreen) {
-                                    padding: 26px $m;
-                                }
+                            @media screen and (min-width: $widescreen) {
+                                padding: 26px $m;
                             }
                         }
                     }
                 }
+
 
                 div#actions {
                     display: flex;
@@ -112,7 +167,7 @@ html {
 
                     .button {
                         padding: 14px $m;
-                        margin-right: $xxl;
+                        margin-right: $l;
                     }
 
                     .icon {
@@ -151,11 +206,18 @@ html {
                     font-size: 0;
                     height: $xl4;
                     display: flex;
+
                     align-items: center;
                     justify-content: space-between;
 
-                    .icon {
-                        cursor: pointer;
+                    #mobile-nav-close {
+                        padding: $m;
+                        margin-right: -$m;
+
+                        svg {
+                            width: $l;
+                            height: $l;
+                        }
                     }
                 }
 
@@ -247,7 +309,6 @@ html {
                             .icon>svg {
                                 * {
                                     stroke: $deep-sea-400;
-                                    fill: $deep-sea-400;
                                 }
                             }
                         }
@@ -276,7 +337,7 @@ html {
 
         div#desktop-nav-overlay {
             position: fixed;
-            top: $large-header-height + $important-notice-height;
+            top: $large-header-height;
             border-top: 1px solid $light-200;
             z-index: 100;
             width: 0;
@@ -287,6 +348,8 @@ html {
             nav {
                 background-color: $white-500;
                 overflow: hidden;
+                opacity: 0;
+                transition: opacity 200ms ease;
 
                 .container {
                     #desktop-nav-overlay-content {
@@ -356,13 +419,17 @@ html {
         div#desktop-nav-overlay.active {
             background-color: rgba(0, 0, 0, 0.5);
             width: 100%;
+
+            nav {
+                opacity: 1;
+            }
         }
 
         main {
             flex: auto;
 
             section {
-                scroll-margin-top: $header-height + 80px;
+                scroll-margin-top: $header-height + 60px;
             }
 
             section.large-margin {
@@ -371,7 +438,7 @@ html {
 
             @include desktop {
                 section {
-                    scroll-margin-top: $header-height-large + 80px;
+                    scroll-margin-top: $header-height-large + 60px;
                 }
 
                 section.large-margin {
@@ -439,15 +506,21 @@ html {
                         margin-top: $s;
                         display: flex;
 
-                        button {
+                        a {
                             flex: 1;
+
+                            button {
+                                box-sizing: border-box;
+                                width: 100%;
+                            }
                         }
 
-                        button:first-child {
+
+                        a:first-child {
                             margin-right: calc($s / 2);
                         }
 
-                        button:last-child {
+                        a:last-child {
                             margin-left: calc($s /2);
                         }
                     }
@@ -478,6 +551,10 @@ html {
                     margin-top: $xl3;
 
                     .columns {
+
+                        .column:nth-child(2) {
+                            margin-left: $xl3;
+                        }
 
                         ul {
                             margin: 0;
@@ -530,16 +607,39 @@ html {
                         background-color: $white-500;
                         box-sizing: border-box;
 
-                        #consultation-button {
-                            margin-top: $xl3;
+                        .fcb-buttons {
+                            display: flex;
+
+                            margin-left: - $xs;
+                            margin-right: - $xs;
+
+                            a {
+                                margin-left: $xs;
+                                margin-right: $xs;
+                            }
                         }
 
                         #legends {
-                            margin-top: $s;
+                            margin-top: $xs;
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
                             @include p100;
+
+                            .legend {
+                                text-align: center;
+
+                                .legend-title {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    font-weight: bold;
+
+                                    .icon {
+                                        margin-right: $xxs;
+                                    }
+                                }
+                            }
                         }
                     }
 
@@ -547,7 +647,7 @@ html {
                         position: fixed;
                         left: 0;
                         bottom: 0;
-                        padding: $s $m $m $m;
+                        padding: $s $m $xs $m;
                         width: 100%;
 
                         #consultation-button {
@@ -571,6 +671,10 @@ html {
                     padding: $xl3;
                     border-radius: $radius-l;
                     cursor: pointer;
+
+                    .consultation-banner-text {
+                        min-height: 130px;
+                    }
 
                     .icon {
                         width: $xl3;
@@ -686,9 +790,14 @@ html {
                             }
                         }
                     }
-
                 }
             }
+        }
+    }
+
+    body.top {
+        div#desktop-nav-overlay {
+            top: $large-header-height + $important-notice-height;
         }
     }
 }

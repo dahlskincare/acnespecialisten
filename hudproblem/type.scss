@@ -1,0 +1,167 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+
+html {
+    scroll-behavior: smooth;
+
+    .underline {
+        text-decoration: underline;
+    }
+}
+
+section#header {
+    #green-header-small {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-bottom: $xl;
+    }
+
+    #green-header-large {
+        background-color: $deep-sea-400;
+        color: $white-500;
+
+        #green-header-large-text {
+            width: 648px;
+            padding-bottom: 62px;
+
+            #book-buttons {
+                .button {
+                    margin-right: $s;
+                }
+            }
+        }
+    }
+}
+
+
+.container {
+
+    section#image {
+        font-size: 0;
+
+        img {
+            border-radius: $radius-l;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    section#areas {
+        .area-icons {
+            .area-icon {
+                margin-top: $xl;
+                display: flex;
+                align-items: center;
+
+                .icon {
+                    width: $xxl;
+                    height: $xxl;
+                    margin-right: $xs;
+                }
+            }
+        }
+
+        .areas-text {
+            margin-top: $xl + $s;
+        }
+
+    }
+
+    section#solutions {
+        div.solution-buttons {
+            display: flex;
+            flex-wrap: wrap;
+
+            .button {
+                margin-right: $xs;
+                margin-top: $xs;
+            }
+        }
+    }
+
+    section#results {
+
+        .result-widget {
+            margin-top: $l;
+        }
+
+        a.button.outline {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        @media screen and (min-width: $tablet) {
+
+            a.button.outline {
+                width: auto;
+                box-sizing: initial;
+            }
+        }
+    }
+
+    section#define,
+    section#solutions {
+        @media screen and (min-width: $tablet) {
+
+            hr {
+                border: none;
+                border-top: 1px solid $light-200;
+            }
+        }
+    }
+
+    section#about,
+    section#approach,
+    section#areas,
+    section#articles,
+    section#define,
+    section#solutions,
+    section#results,
+    section#reviews,
+    section#faq,
+    section#skin-guide,
+    section#specialists,
+    section#brands {
+        margin-top: $xl*2;
+    }
+}
+
+@media screen and (min-width: $widescreen) {
+    .container {
+        #content {
+
+            max-width: 750px;
+        }
+
+        section#brands {
+            position: relative;
+            z-index: 2;
+            background-color: $white-500;
+        }
+
+        section#about,
+        section#approach,
+        section#areas,
+        section#articles,
+        section#define,
+        section#solutions,
+        section#results,
+        section#reviews,
+        section#faq,
+        section#skin-guide,
+        section#specialists,
+        section#brands {
+            margin-top: $xl5 + $xs;
+        }
+
+    }
+}
+
+// Ensures floater is never above content
+@media screen and (min-width: 1408px) {
+    .container {
+        #content {
+            max-width: 872px;
+        }
+    }
+}

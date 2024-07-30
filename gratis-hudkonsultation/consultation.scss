@@ -1,56 +1,13 @@
-@import "../styles/util/floating_image";
-@import "widgets/consultation_category/consultation_category";
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/typography';
 
 html {
     scroll-behavior: smooth;
 
     body {
-
-        section {
-            scroll-margin-top: $header-height + 80px;
-
-            @include desktop {
-                scroll-margin-top: $header-height-large + 80px;
-            }
-        }
-
-        section#header {
-            #green-header-small {
-                background-color: $deep-sea-400;
-                color: $white-500;
-                padding-bottom: $xl;
-
-                hr {
-                    border: 0;
-                    border-top: 1px solid $white-200;
-                }
-            }
-
-            #green-header-large {
-                background-color: $deep-sea-400;
-                color: $white-500;
-
-                #green-header-large-text {
-                    width: 648px;
-                    padding-bottom: 62px;
-
-                    #book-buttons {
-                        .button {
-                            margin-right: $s;
-                        }
-                    }
-                }
-            }
-        }
-
         .container {
             #content {
-                section#nav-buttons {
-                    .nav-button {
-                        flex: 0;
-                    }
-                }
-
                 section#image {
                     font-size: 0;
 
@@ -98,7 +55,7 @@ html {
                             }
 
                             .icon.is-open {
-                                transform: rotate(45deg);
+                                transform: rotate(-180deg);
                             }
                         }
 
@@ -117,12 +74,55 @@ html {
                 }
 
                 section#types {
+                    .consultation-type {
 
-                    hr {
-                        margin: $xl 0;
-                        border: none;
-                        border-top: 1px solid $light-200;
+                        .consultation-type-text {
+                            h3 {
+                                @include h200;
+                            }
+
+                            p {
+                                @include p200;
+                                margin-top: $xxs;
+                                color: $dark-200;
+                            }
+                        }
                     }
+
+                    @include touch {
+                        .consultation-type {
+                            border-top: 1px solid $light-200;
+                            padding: $xl 0;
+
+                            .consultation-type-button {
+                                margin-top: $xl;
+                                position: relative;
+
+                            }
+                        }
+
+                        .consultation-type:last-child {
+                            border-bottom: 1px solid $light-200;
+                        }
+                    }
+
+                    @include desktop {
+                        .consultation-type {
+                            margin-top: $m;
+                            border: 1px solid $light-200;
+                            border-radius: $radius-l;
+                            padding: $xl;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            .consultation-type-text {
+                                margin-right: $xl;
+
+                            }
+                        }
+                    }
+
 
                 }
             }

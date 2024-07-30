@@ -1,0 +1,79 @@
+@import "../styles/util/sizes";
+@import "../styles/util/typography";
+
+#narrow-content {
+    max-width: 872px;
+
+    section#header {
+        margin-top: $xl;
+
+        h1 {
+            @include h600;
+        }
+
+        div#header-content {
+            @include p200;
+            margin-top: $xs;
+        }
+    }
+
+    section#reviews {
+        margin-top: $xl;
+    }
+}
+
+section#results,
+section#faq,
+section#brands {
+    margin-top: 72px;
+}
+
+@include touch {
+    #narrow-content {
+        section#reviews {
+            .reviews-widget {
+                .review-banners {
+                    display: block;
+                    margin-left: 0;
+                    margin-right: 0;
+                    padding-left: 0;
+                    padding-right: 0;
+                    overflow: visible;
+
+                    .rbt {
+                        margin-top: $m;
+                        width: 100%;
+                        box-sizing: border-box;
+
+                        .rbt-middle {
+                            p {
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@include desktop {
+    #narrow-content {
+        section#header {
+            h1 {
+                @include h600;
+            }
+
+            div#header-content {
+                margin-top: $s;
+            }
+        }
+    }
+
+    section#results,
+    section#faq,
+    section#brands {
+        margin-top: 104px;
+    }
+}

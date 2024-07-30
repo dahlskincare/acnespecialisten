@@ -1,0 +1,178 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+@import 'widgets/service-category-card/service-category-card';
+
+html {
+    scroll-behavior: smooth;
+}
+
+section#banner {
+    div#treatments {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: $m;
+
+        .treatment {
+            text-align: center;
+            flex: auto;
+            display: inline-block;
+            padding: 14px $l;
+            cursor: pointer;
+            border: 1px solid $light-500;
+            border-radius: $radius-s;
+            margin-right: $xxs;
+            margin-bottom: $xxs;
+        }
+
+        .treatment:hover {
+            background-color: $light-25;
+        }
+    }
+
+    @include desktop {
+        div#treatments {
+            margin-top: $xxl;
+            display: grid;
+            row-gap: 1px;
+            column-gap: 1px;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+
+
+            margin-top: $m;
+            background-color: $light-200;
+            border: 1px solid $light-200;
+            border-radius: $radius-l;
+            overflow: hidden;
+
+            .treatment {
+                padding: 0 $xl;
+                background-color: $white-500;
+                height: 72px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                border-radius: 0;
+                margin: 0;
+            }
+
+        }
+    }
+
+
+}
+
+section#links {
+    margin-top: $xl;
+
+    @include desktop {
+        margin-top: $xl3;
+    }
+}
+
+section#cards {
+    @media screen and (min-width: $tablet) {
+        #category-grid {
+            margin-top: $xl3;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: $xl;
+            row-gap: $xl3;
+
+            .grid-item {
+                display: flex;
+            }
+        }
+    }
+}
+
+section#consultation-banner {
+    margin-top: $xl;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: $xl5 + $xl;
+    }
+}
+
+section#links {
+    #psf-title {
+        margin-top: $xxl;
+        margin-bottom: $m;
+    }
+
+    // People search for..
+    div#psf {
+        display: flex;
+        flex-wrap: wrap;
+
+        .psf-treatment {
+            padding: 10px $m;
+            //background-color: $light-200;
+            //color: $dark-400;
+            margin-right: $xxs;
+            margin-bottom: $xxs;
+            //border-radius: $radius-s;
+            @include h200;
+        }
+
+        /*
+        .psf-treatment:hover {
+            background-color: $light-50;
+        }*/
+    }
+}
+
+section#results {
+    margin-top: 72px;
+
+    .result-widget {
+        margin-top: $l;
+    }
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#reviews {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+
+section#faq {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#skin-guide {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#specialists {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}
+
+section#brands {
+    margin-top: 72px;
+
+    @media screen and (min-width: $tablet) {
+        margin-top: 104px;
+    }
+}

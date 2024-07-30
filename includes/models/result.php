@@ -25,14 +25,16 @@ class ResultCustomer
      * @param ResultImages $before_images
      * @param ResultImages $after_images
      */
-    public function __construct($image_before_small, $image_after_small, $image_before_large, $image_after_large, $image_alt, $image_title, $treatment, $url = null, $url_title = null, $age = null, $gender = null, $problem = null, $type = null, $before_images = null, $after_images = null)
+    public function __construct($image_before_small, $image_after_small, $image_before_large, $image_after_large, $image_before_alt, $image_before_title, $image_after_alt, $image_after_title, $treatment, $url = null, $url_title = null, $age = null, $gender = null, $problem = null, $type = null, $before_images = null, $after_images = null)
     {
         $this->slider_image_before_small = $image_before_small;
         $this->slider_image_after_small = $image_after_small;
         $this->slider_image_before_large = $image_before_large;
         $this->slider_image_after_large = $image_after_large;
-        $this->slider_image_alt = $image_alt;
-        $this->slider_image_title = $image_title;
+        $this->slider_image_before_alt = $image_before_alt;
+        $this->slider_image_before_title = $image_before_title;
+        $this->slider_image_after_alt = $image_after_alt;
+        $this->slider_image_after_title = $image_after_title;
         $this->url = $url;
         $this->url_title = $url_title;
         $this->age = $age;
@@ -48,8 +50,10 @@ class ResultCustomer
     public string $slider_image_after_small;
     public string $slider_image_before_large;
     public string $slider_image_after_large;
-    public string $slider_image_alt;
-    public string $slider_image_title;
+    public string $slider_image_before_alt;
+    public string $slider_image_before_title;
+    public string $slider_image_after_alt;
+    public string $slider_image_after_title;
     public ?string $url;
     public ?string $url_title;
     public ?int $age;
@@ -171,4 +175,19 @@ class ResultImages
     public string $image_right_small;
     public string $image_left_large;
     public string $image_right_large;
+}
+
+class LabelImage
+{
+    public function __construct($image_url, $image_alt, $image_title, $content)
+    {
+        $this->image_url = $image_url;
+        $this->image_alt = $image_alt;
+        $this->image_title = $image_title;
+        $this->content = $content;
+    }
+    public string $image_url;
+    public string $image_alt;
+    public string $image_title;
+    public string $content;
 }

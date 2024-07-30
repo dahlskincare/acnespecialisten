@@ -1,0 +1,89 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+$image_size_s: 102px;
+
+.type-card-widget {
+    position: relative;
+    margin-top: $m;
+    padding: $xl;
+    border: 1px solid $light-200;
+    border-radius: $radius-l;
+
+    .p100 {
+        color: $dark-200;
+    }
+
+    div.image {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: $image_size_s;
+        height: $image_size_s;
+        flex: 0 0 $image_size_s;
+        max-width: 100%;
+        max-height: 100%;
+
+        img {
+            width: auto;
+            height: auto;
+            max-height: $image_size_s;
+            max-width: $image_size_s;
+            border-radius: $radius-s;
+        }
+
+        @include desktop {
+            width: 100%;
+            height: auto;
+            flex: 1;
+
+            img {
+                max-width: 100%;
+                max-height: 100%;
+            }
+        }
+    }
+
+    div.image.is-icon {
+        max-width: 64px;
+        max-height: 64px;
+    }
+
+    div.image:not(.is-icon):after {
+        box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .p200 {
+        color: $dark-200;
+    }
+
+    .icon {
+        position: absolute;
+        top: $s;
+        right: $xxs;
+    }
+
+    @include desktop {
+        height: 350px;
+    }
+}
+
+a.type-card-widget {
+    cursor: pointer;
+
+    @include touch {
+        @include elevation-low();
+    }
+}
+
+a.type-card-widget:hover {
+    @include elevation-low();
+}

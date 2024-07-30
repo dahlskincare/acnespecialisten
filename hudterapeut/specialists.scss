@@ -1,0 +1,26 @@
+@import '../styles/util/colors';
+@import '../styles/util/sizes';
+@import '../styles/util/mixins';
+
+
+
+section#title {
+    margin-top: $xl;
+
+    @include desktop {
+        margin-top: 72px;
+        max-width: 872px;
+    }
+}
+
+section#cards {
+    padding-bottom: $xl;
+
+    .specialist-card-widget {
+        margin-top: $xl;
+    }
+
+    @include desktop {
+        margin-top: $xl;
+    }
+}

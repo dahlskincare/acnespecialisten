@@ -1,0 +1,40 @@
+@import '../../../styles/util/colors';
+@import '../../../styles/util/mixins';
+@import '../../../styles/util/sizes';
+
+div.problem-trivia-card-widget {
+    .trivia-prefix {
+        padding: $xxs $xs;
+        background-color: $deep-sea-400;
+        color: $white-500;
+        border-radius: $radius-s;
+    }
+
+    .flex-row {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        list-style-type: none;
+        padding: 0;
+
+        .trivia-icon {
+            margin-top: $xl;
+            margin-right: $xxl;
+            @include h200;
+            text-align: center;
+            flex: 1;
+            flex-grow: 0;
+
+
+            .icon {
+                width: $xl3;
+
+                svg {
+                    width: $xl3;
+                    height: $xl3;
+                }
+            }
+
+        }
+    }
+}

@@ -1,36 +1,260 @@
 .green-header-banner-widget {
     background-color: $deep-sea-400;
     color: $white-500;
-    padding-top: $xl;
-    padding-bottom: $xl;
-    @include p100;
+    padding-bottom: 20px;
 
-    .underline {
-        cursor: pointer;
-        text-decoration: underline;
+    #ghb-touch {
+        h1 {
+            font-size: $xl3;
+            margin-top: $m;
+        }
+
+        #ghb-akas-touch {
+            padding-bottom: $xl;
+            border-bottom: 1px solid $white-200;
+
+            #gbh-akas-touch-links {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+
+
+                a {
+                    //word-break: break-all;
+                    @include p100;
+                    margin-top: $xs;
+                    margin-right: $xs;
+                    padding: 6px $s;
+                    background-color: $deep-sea-300;
+                    border-radius: $radius-s;
+                }
+            }
+        }
+
+        #ghb-touch-content {
+            @include p200;
+            margin-top: $m;
+            margin-bottom: $xl;
+
+            #banner-expanded {
+                margin-top: $m;
+            }
+        }
+
+        #ghb-touch-links {
+            display: flex;
+            align-items: center;
+            justify-content: stretch;
+
+            a {
+                flex: auto;
+            }
+
+            a:first-child {
+                margin-right: 6px;
+            }
+
+            a:last-child {
+                margin-left: 6px;
+            }
+        }
+
+        #ghb-touch-badges {
+            margin-top: 20px;
+        }
+    }
+
+    #ghb-desktop {
+        #ghb-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid $white-200;
+            height: $xl4;
+            box-sizing: border-box;
+        }
+
+        #ghb-akas {
+            .b200:not(:last-child)::after {
+                content: ",";
+            }
+
+            .b200:last-child::after {
+                content: ".";
+            }
+        }
+
+        #ghb-main {
+            margin: $xl * 2 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            #ghb-texts-col {
+                flex: 0 0 704px;
+                margin-right: 80px;
+
+                p {
+                    margin-top: $m;
+                }
+
+                #ghb-links {
+                    margin-top: $m;
+                    display: flex;
+                    align-items: center;
+
+                    a:first-child {
+                        margin-right: $s;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .ghb-consultation-card {
+        @include elevation-medium;
+        background-color: $white-500;
+        padding: $xl;
+        border-radius: $radius-l;
+        color: $black-500;
+
+        .ghb-consultation-card-content {
+            display: flex;
+
+            h3 {
+                @include h200;
+            }
+
+            p {
+                @include p200;
+                margin-top: $xs;
+            }
+
+            .icon {
+                min-width: $xl4;
+            }
+        }
+
+        .button {
+            margin-top: $m;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+}
+
+
+
+
+.treatment-green-header-widget {
+    #green-header-small {
+        background-color: $deep-sea-400;
+        color: $white-500;
+        padding-bottom: $xl;
+
+        .procedures {
+            overflow: hidden;
+
+            .procedure {
+                display: flex;
+                justify-content: space-between;
+                padding: $m 0;
+            }
+
+            .procedure {
+                border-bottom: 1px solid $white-200;
+
+                div:last-child {
+                    .p200 {
+                        font-size: 0.9em;
+                    }
+                }
+            }
+
+            .procedure:first-child {
+                border-top: 1px solid $white-200;
+            }
+        }
+    }
+
+    #green-header-large {
+        background-color: $deep-sea-400;
+        color: $white-500;
+
+        #green-header-large-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid $white-200;
+        }
+
+        #green-header-large-text {
+            width: 648px;
+            padding-top: $xxl * 2;
+            padding-bottom: $xxl * 2;
+
+            .large-procedures {
+                border-radius: $radius-l;
+                overflow: hidden;
+
+                .large-procedure {
+                    padding: $m;
+                    background-color: $deep-sea-500;
+                    flex: 1;
+                    margin-right: 1px;
+
+                    div:last-child {
+                        white-space: nowrap;
+
+                        .p200 {
+                            font-size: 0.9em;
+                            color: $white-800;
+                        }
+                    }
+
+                }
+            }
+
+            #book-buttons {
+                .button {
+                    margin-right: $s;
+                }
+            }
+        }
+    }
+}
+
+.tiny-green-header-banner-widget {
+    background-color: $deep-sea-400;
+
+    .badges-widget {
+        flex: 1;
+
+        .badge {
+            color: $white-500;
+        }
+
+        .badge:first-child {
+            padding-left: 0;
+        }
+
+        .badge:last-child {
+            padding-right: 0;
+        }
     }
 
     @include desktop {
-        padding-bottom: $xl4;
+        padding: $m 0;
 
-        div#ghb-title-col {
-            flex: 1 0 425px;
 
-            .h600 {
-                width: 1px;
-            }
+        .badges-widget {
+            flex: initial;
         }
 
-        div#ghb-texts-col {
-            margin-left: $xl;
-            display: flex;
-            align-items: flex-start;
-
-            div {
-                flex: 1;
-                @include p200;
-            }
+        .breadcrumbs-widget {
+            padding-top: 0;
+            padding-bottom: 0;
         }
     }
-
 }
