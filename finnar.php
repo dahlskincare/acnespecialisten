@@ -1206,8 +1206,10 @@ $brands_url_title = "Varumärken för Aknebehandling";
                         <?php } ?>
                         <section id="define">
                               <h2 class="h500 l10n"><?php echo $headline01 ?></h2>
-                              <hr class="is-hidden-mobile">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                              <?php
+                              $scm = $service;
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php')
+                              ?>
                               <hr class="is-hidden-mobile">
                         </section>
                         <section id="treatments">
