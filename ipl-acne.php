@@ -101,8 +101,8 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="laser-acne.php" title="Läs mer om laserbehandling">Läs mer om laserbehandling mot acne</a>
                             <hr />
-                            <a class="button expand" href="https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka gratis konsultation">Boka konsultation</a>
-                            <a class="mt-s button expand" href="https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Boka behandling">Boka behandling</a>
+                            <a class="button expand" href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka gratis konsultation">Boka konsultation</a>
+                            <a class="mt-s button expand" href="https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Acne" title="Boka behandling">Boka behandling</a>
                         </div>
                     </div>
 
@@ -121,8 +121,8 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka gratis konsultation">Boka konsultation</a>
-                                <a class="button expand" href="https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Acne" title="Boka behandling">Boka behandling</a>
+                                <a class="button expand" href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne" title="Boka gratis konsultation">Boka konsultation</a>
+                                <a class="button expand" href="https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Acne" title="Boka behandling">Boka behandling</a>
                             </div>
                         </div>
                     </div>

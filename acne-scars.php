@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Acne Scars',
       description: 'Denna engelska sida handlar om akneärr och hur de uppstår. Here we explain what characterizes acne scars, why the problem occurs, and how we can help you with treatment. We also go through how we identify different types of acne scars, the causes behind them, and how we can support you in your treatment process.',
       links_touch: [
-            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -57,14 +57,14 @@ $treatment_steps = array(
             title: 'Identify',
             content: 'We analyze the unique characteristics of your scars, take before pictures of the skin, and recommend a treatment plan for your acne scars.',
             url_label: 'Book a free consultation',
-            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Book your free skin consultation for acne scars today'
       ),
       new TreatmentStep(
             title: 'Treat',
             content: 'We tailor our treatments for acne scars according to your skin type and unique needs. We offer a wide range of treatments designed to improve skin texture and reduce the appearance of scars.',
             url_label: 'See treatments',
-            url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne',
             url_title: 'Explore our treatments for acne scars'
       ),
       new TreatmentStep(

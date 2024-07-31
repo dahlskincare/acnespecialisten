@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/infuzion.webp',
     image_alt: 'Infuzion',
     image_title: 'Infuzion',
-    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.acnespecialisten.se/book?flow=infuzion',
+    booking_url: 'https://boka.acnespecialisten.se?flow=infuzion',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -34,7 +34,7 @@ $model = new Service(
             label: '1 behandling',
             price: '2595 kr',
             savings: null,
-            booking_url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_5_Procedure_1',
+            booking_url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -42,7 +42,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '6995 kr',
             savings: 'Spara 790 kr',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_5_Procedure_3',
+            booking_url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -50,7 +50,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '9995 kr',
             savings: 'Spara 2980 kr',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_5_Procedure_5',
+            booking_url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
@@ -90,10 +90,10 @@ $types_description = '';
         image_large: '/bilder/hudbehandlingar/200x200/microneedling.webp',
         image_alt: 'Multizuion - Infuzion + Microneedling',
         image_title: 'Multizuion - Infuzion + Microneedling',
-        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://www.acnespecialisten.se/book?flow=infuzion',
+        booking_url: 'https://boka.acnespecialisten.se?flow=infuzion',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka tid för behandling',
         icons: array(),
@@ -119,7 +119,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Infuzion behandling i ansiktet'
             ),
@@ -130,7 +130,7 @@ $treatment_areas = array(
                 title: 'Hals',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Infuzion behandling för halsen'
             ),
@@ -141,7 +141,7 @@ $treatment_areas = array(
                 title: 'Dekolletage',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Infuzion behandling för dekolletaget'
             ),
@@ -152,7 +152,7 @@ $treatment_areas = array(
                 title: 'Händer',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Infuzion behandling för händerna'
             ),
@@ -174,7 +174,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
@@ -185,7 +185,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '60 min',
                 price: '3595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_2xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
@@ -196,7 +196,7 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '70 min',
                 price: '4595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=infuzion&area=Infuzion_3xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
             ),

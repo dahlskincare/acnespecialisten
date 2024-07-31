@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Operations- och skadeärr',
       description: 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Här hittar du detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.',
       links_touch: [
-            new Link('Boka ett klinikbesök', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars', 'Boka gratis konsultation för akne'),
-            new Link('Boka online konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars', 'Boka gratis konsultation för akne'),
+            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka ett klinikbesök', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars', 'Boka gratis konsultation för akne'),
-            new Link('Boka online konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars', 'Boka gratis konsultation för akne'),
+            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -102,7 +102,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder avancerade behandlingar för olika typer av operations- och skadeärr, framtagna för att effektivt minska ärrvävnadens framträdande och förbättra hudens utseende.',
 
             url_label: 'Se ärrbehandlingar',
-            url: 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
+            url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
             url_title: 'Se ärrbehandlingar',
       ),
 );
@@ -234,7 +234,7 @@ $service = new Service(
       url_title: 'Läs mer om gratis hudkonsultation mot ärr',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
       consultation_url_title: 'Klicka för att boka tid för en ärrkonsultation',
 
       booking_url_label: null,
@@ -261,11 +261,11 @@ $services = array(
             url_title: 'Läs mer om laser mot ärr',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling av ärr',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling av ärr'
       ),
       /*new Service(
@@ -283,11 +283,11 @@ $services = array(
             url: '/kemisk-peeling.php',
             url_title: 'Läs mer om kemisk peeling mot ärr',
 
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för kemisk peeling av ärr',
 
-            booking_url: 'https://www.acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
+            booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_AcneScars',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling av ärr behandling'
       ),*/
@@ -308,11 +308,11 @@ $services = array(
             url_title: 'Läs mer om microneedling mot ärr',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för microneedling av ärr',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_AcneScars',
+            booking_url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=Problem_AcneScars',
             booking_url_title: 'Klicka för att boka tid för en microneedling av ärr behandling'
       ),*/
 );

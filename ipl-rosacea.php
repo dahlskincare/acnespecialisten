@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot rosacea',
     image_title: 'IPL mot rosacea',
-    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
+    booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -59,15 +59,15 @@ $model = new Service(
 
 $floating_box = 'Effektiv ljusbehandling som reducerar rosacea.';
 
-$description_title = 'Vad är IPL-behandling mot rosacea?';
+$description_title = 'Vad är IPL behandling mot rosacea?';
 $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik som liknar laserbehandling sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
     <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför behandlingen',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-rosacea-forberedelser.webp',
+        image_large: '/bilder/process/872x456/ipl-rosacea-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
         image_title: 'Förberedelser inför behandling med IPL mot rosacea',
         content: '<p class="p200">Att förbereda sig inför en IPL-behandling mot rosacea innebär att vidta vissa försiktighetsåtgärder för att optimera behandlingens effektivitet och säkerhet. Din förberedelse börjar med en noggrann konsultation hos en erfaren hudterapeut som kommer att utvärdera din hudtyp och rosaceas tillstånd. Under denna konsultation diskuteras en skräddarsydd behandlingsplan som är anpassad för att ge bästa möjliga resultat.</p>
@@ -75,8 +75,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandlingen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-rosacea-process.webp',
+        image_large: '/bilder/process/872x456/ipl-rosacea-process.webp',
         image_alt: 'Hur går en IPL mot rosacea till?',
         image_title: 'Hur går en IPL mot rosacea till',
         content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till någon av våra kliniker i Stockholm, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
@@ -103,7 +103,7 @@ $treatment_areas = array(
                 title: 'IPL för Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
             ),
@@ -114,7 +114,7 @@ $treatment_areas = array(
                 title: 'IPL för Näsa',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Nose',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av näsan'
             ),
@@ -125,7 +125,7 @@ $treatment_areas = array(
                 title: 'IPL för Kinder',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=SKIP&area=IPL_Cheeks',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av kinderna',
             ),
@@ -135,8 +135,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/ipl-rosacea-eftervard.webp',
+    image_large: '/bilder/process/872x456/ipl-rosacea-eftervard.webp',
     image_alt: 'Eftervård för IPL-behandling mot rosacea',
     image_title: 'Eftervård för IPL-behandling mot rosacea',
     content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>

@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Mallorca acne - Acne aestivalis',
       description: 'Mallorca akne, även känd som Acne Aestivalis, är en särskild form av akne som ofta uppstår efter exponering för solen. Trots solens välbefinnande effekter kan för mycket sol leda till oväntade hudproblem, däribland Mallorca akne. Denna tillstånd kännetecknas av små, kliande utslag eller finnar som främst uppträder på områden som har utsatts för sol, såsom ansiktet, bröstet och armarna.',
       links_touch: [
-            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -52,14 +52,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Vi utför en detaljerad analys för att fastställa de specifika orsakerna till ditt hudproblem, såsom reaktioner på solen, och skapar en anpassad behandlingsplan för din hy.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för Mallorca akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vår behandling för Mallorca akne är anpassad efter din hudtyp och de specifika behoven hos din hud. Vi erbjuder ett stort utbud av behandlingsmetoder som hjälper till att återställa en klar och frisk hud.',
             url_label: 'Se behandlingar',
-            url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för Mallorca akne'
       ),
       new TreatmentStep(
