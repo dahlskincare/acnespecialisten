@@ -90,9 +90,9 @@ $salons = array(
                         <a href="tel:08-29 61 01" class="button b200 outline expand l10n" title="Ring oss">Ring oss</a>
                         <div class="p200">
                             <strong class="l10n">E-post&nbsp;</strong>
-                            <span>hej@acnespecialisten.se</span>
+                            <span>kundservice@acnespecialisten.se</span>
                         </div>
-                        <a href="mailto:hej@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
+                        <a href="mailto:kundservice@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
                     </div>
                     <div class="is-hidden-touch flex-row mt-xl">
                         <div>
@@ -101,12 +101,12 @@ $salons = array(
                         </div>
                         <div class="ml-xxl">
                             <strong class="h200 l10n">E-post&nbsp;</strong>
-                            <a class="h200 color-deep-sea-400" href="mailto:hej@acnespecialisten.se" title="hej@acnespecialisten.se">hej@acnespecialisten.se</a>
+                            <a class="h200 color-deep-sea-400" href="mailto:kundservice@acnespecialisten.se" title="kundservice@acnespecialisten.se">kundservice@acnespecialisten.se</a>
                         </div>
                     </div>
                 </section>
                 <?php if (array_key_exists('message', $_GET)) {
-                    $to = "hej@acnespecialisten.se";
+                    $to = "kundservice@acnespecialisten.se";
                     $subject = "Acnespecialisten form";
                     $message = "
                     <html>
@@ -117,23 +117,23 @@ $salons = array(
                     <body>                        
                         <table>
                             <tr>
-                                <td>Category:</td>
+                                <td style='width:100px'>Category:</td>
                                 <td>" . $_GET['category'] . "</td>
                             </tr>
                             <tr>
-                                <td>Name:</td>
+                                <td style='width:100px'>Name:</td>
                                 <td>" . $_GET['name'] . "</td>
                             </tr>
                             <tr>
-                                <td>Email:</td>
+                                <td style='width:100px'>Email:</td>
                                 <td>" . $_GET['email'] . "</td>
                             </tr>
                             <tr>
-                                <td>Phone:</td>
+                                <td style='width:100px'>Phone:</td>
                                 <td>" . $_GET['phone'] . "</td>
                             </tr>
                             <tr>
-                                <td>Message:</td>
+                                <td style='width:100px'>Message:</td>
                                 <td>" . $_GET['message'] . "</td>
                             </tr>    
                         </table>
@@ -143,7 +143,8 @@ $salons = array(
 
                     $headers = "MIME-Version: 1.0" . "\r\n";
                     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= 'From: Acnespecialisten <auto@acnespecialisten.com>' . "\r\n";
+                    $headers .= 'From: Acnespecialisten <hej@acnespecialisten.se>' . "\r\n";
+                    $headers .= 'Reply-To: ' . $_GET['email'] . "\r\n";
                     mail($to, $subject, $message, $headers);
                 ?>
                     <section id="confirmation">
