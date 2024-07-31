@@ -7,7 +7,7 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2018',
-        image: '/images/specialists/large/hudterapeut-cazzandra.webp',
+        image: '/bilder/hudterapeut/312x312/cazzandra-lindberg.webp',
         image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindbergf',
         image_title: 'Hudterapeut Cazzandra Lindberg',
         city: 'Sundbyberg',
