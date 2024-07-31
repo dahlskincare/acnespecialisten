@@ -38,23 +38,6 @@ $description_title = 'Vad är IPL behandling mot ytliga blodkärl?';
 $description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus, är en framstående och icke-invasiv metod för att effektivt behandla ytliga blodkärl. Denna avancerade ljusbaserade teknologi avger specifika ljuspulser som målmedvetet tränger igenom huden för att minska synligheten av blodkärlen. IPL behandling riktar sig direkt mot de blodkärl som orsakar ojämn hudton och synliga kärl på hudytan. IPL liknar laser behandling och kaneffektivt utföras i ansiktet för att ta bort ytliga blodkärl.</p>
     <p class="p200 mt-m">Genom att specifikt behandla dessa blodkärl, bidrar IPL inte bara till en mer jämn hudton, utan förbättrar också hudens övergripande utseende och kvalitet. Varje behandling är individuellt anpassad för att uppnå bästa möjliga resultat baserat på patientens unika hudbehov. IPL behandling är känd för att vara både skonsam och effektiv, med minimal risk för biverkningar. Många patienter ser märkbara förbättringar efter endast några sessioner, vilket gör detta till en uppskattad behandlingsmetod för dem som önskar reducera synligheten av ytliga blodkärl.</p>';
 
-$treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-        url_label: 'Boka gratis konsultation',
-        url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
-        url_label: 'Se behandlingar',
-        url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
-        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-    ),
-);
-
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandlingen',
@@ -452,18 +435,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>
                     <div class="mt-xl"><?php echo $description_text ?></div>
-                </section>
-
-                <section id="approach">
-                    <h2 class="h500 l10n">Metoden</h2>
-                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                    <div class="columns is-variable is-2">
-                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                            echo '<div class="column">';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                            echo '</div>';
-                        } ?>
-                    </div>
                 </section>
 
                 <?php foreach ($top_articles as $id => $article) { ?>

@@ -63,38 +63,6 @@ $description_title = 'Vad är IPL-behandling mot rosacea?';
 $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik som liknar laserbehandling sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
     <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
 
-$treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-        url_label: 'Boka gratis konsultation',
-        url: 'gratis-hudkonsultation.php',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika hy, så att du snabbt och säkert blir av med problemet.',
-        url_label: 'Se behandlingar',
-        url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
-        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-    ),
-    new TreatmentStep(
-        title: 'Förebygga',
-        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya hudproblem och hålla din hud i balans.',
-        url_label: 'Se produkter',
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-        url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-    ),
-    new TreatmentStep(
-        title: 'Reparera',
-        content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-        url_label: 'Se IPL behandlingar',
-        url: 'ipl-ytliga-blodkarl.php',
-        url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-    ),
-
-);
-
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför behandlingen',
@@ -481,18 +449,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>
                     <div class="mt-xl"><?php echo $description_text ?></div>
-                </section>
-
-                <section id="approach">
-                    <h2 class="h500 l10n">Metoden</h2>
-                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                    <div class="columns is-variable is-2">
-                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                            echo '<div class="column">';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                            echo '</div>';
-                        } ?>
-                    </div>
                 </section>
 
                 <?php foreach ($top_articles as $id => $article) { ?>
