@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Inflammation akne',
       description: 'Inflammerad akne, som även kallas även för akne pustel, skadar huden och kan skapa ärrbildning. Aknen består av en kombination av döda hudceller, talg och bakterier. När bakterierna konsumerar hudcellerna och talget skapas en aggressiv fettsyra som fräter på porernas cellväggar. Huden försvarar sig genom att skapa en inflammation i huden.',
       links_touch: [
-            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -52,14 +52,14 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Vi analyserar de unika egenskaperna hos din inflammatoriska akne, ta före bilder på huden och rekommenderar en behandlingsplan.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för inflammatorisk akne idag'
       ),
       new TreatmentStep(
             title: 'Behandla',
             content: 'Vi anpassar våra behandlingar efter din hudtyp och unika behov. Vi har ett brett utbud av behandlingar utformade för att behandla inflammationen i din hud.',
             url_label: 'Se behandlingar',
-            url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Acne',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne',
             url_title: 'Utforska våra behandlingar för inflammatorisk akne'
       ),
       new TreatmentStep(

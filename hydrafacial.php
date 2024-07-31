@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',
     image_alt: 'HydraFacial',
     image_title: 'HydraFacial',
-    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial',
+    booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -110,19 +110,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
                 savings: 'Spara 790 kr',
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_3'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '5995 kr',
                 savings: 'Spara 1980 kr',
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_5'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Standard&Procedures=PriceClass_4_Procedure_5'
             )
         )
     ),
@@ -148,19 +148,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '4995 kr',
                 savings: 'Spara 990 kr',
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_3'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '7995 kr',
                 savings: 'Spara 1980 kr',
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_5'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Boost_Glow&Procedures=PriceClass_5_Procedure_5'
             )
         )
     ),
@@ -185,19 +185,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '4995 kr',
                 savings: 'Spara 990 kr',
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_3'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '7995 kr',
                 savings: 'Spara 1980 kr',
-                booking_url: 'https://www.acnespecialisten.se/book?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_5'
+                booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer&Procedures=PriceClass_5_Procedure_5'
             )
         )
     ),

@@ -24,10 +24,10 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot ytliga blodkärl',
     image_title: 'IPL mot ytliga blodkärl',
-    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
+    booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -43,14 +43,14 @@ $treatment_steps = array(
         title: 'Identifiera',
         content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
         url_label: 'Boka gratis konsultation',
-        url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+        url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
         url_title: 'Boka din kostnadsfria hudkonsultation idag'
     ),
     new TreatmentStep(
         title: 'Behandla',
         content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika rosacea, så att du snabbt och säkert blir av med problemet.',
         url_label: 'Se behandlingar',
-        url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels',
+        url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels',
         url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
     ),
 );
@@ -95,7 +95,7 @@ $treatment_areas = array(
                 title: 'IPL för Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Face',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av ansiktet'
             ),
@@ -106,7 +106,7 @@ $treatment_areas = array(
                 title: 'IPL för Näsa',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Nose',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av näsan'
             ),
@@ -117,7 +117,7 @@ $treatment_areas = array(
                 title: 'IPL för Kinder',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Cheeks',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av kinderna',
             ),
@@ -138,7 +138,7 @@ $treatment_areas = array(
                 title: 'IPL för 1 st Ytligt blodkärl',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_1x_spot_yb',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_1x_spot_yb',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av 1 st Ytligt blodkärl',
             ),

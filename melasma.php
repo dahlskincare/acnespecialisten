@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Melasma',
       description: 'Har du upplevt melasma, även känd som solfläckar eller leverfläckar, på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.',
       links_touch: [
-            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -56,7 +56,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Din resa mot en friskare hud börjar hos AcneSpecialisten med en omfattande konsultation. Våra erfarna hudterapeuter genomför en noggrann hudanalys för att bedöma omfattningen av din melasma. Denna inledande utvärdering är kritisk för att kunna utveckla en skräddarsydd behandlingsplan, skräddarsydd för dina unika hudvårdsbehov.',
-            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
             url_label: 'Boka en kostnadsfri konsultation',
             url_title: 'Boka din kostnadsfria konsultation för melasma idag',
       ),
@@ -97,7 +97,7 @@ $service = new Service(
       image_title: 'Konsultation för behandling av hudflikar',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
 
       booking_url_label: null,
@@ -123,11 +123,11 @@ $services = array(
             url: 'kemisk-peeling.php',
             url_title: 'Läs mer om kemisk peeling',
 
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
 
-            booking_url: 'https://www.acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_Melasma&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_Melasma&area=EMPTY',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne',
       ),

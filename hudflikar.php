@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Behandling av hudflikar',
       description: 'Hudflikar är små utväxter på huden som ofta förekommer i hudveck eller områden med friktion. På Acnespecialisten förklarar vi hur hudflikar kan behandlas effektivt. Vi använder skonsamma och avancerade tekniker för att säkert ta bort hudflikar, vilket hjälper till att förbättra hudens utseende och textur.',
       links_touch: [
-            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för hudflikar'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för hudflikar'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för hudflikar'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för hudflikar'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -53,7 +53,7 @@ $treatment_steps = array(
             content: 'Vid din första konsultation hos AcneSpecialisten utförs en grundlig bedömning av dina hudflikar för att avgöra den mest lämpliga behandlingsmetoden. Vi diskuterar dina behov och förväntningar för att utforma en personlig behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags',
+            url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags',
             url_title: 'Boka din kostnadsfria konsultation för hudflikar idag'
       ),
       new TreatmentStep(
@@ -61,7 +61,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder olika behandlingsalternativ för effektiv borttagning av hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar',
-            url: 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags',
+            url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags',
             url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
 );
@@ -112,7 +112,7 @@ $service = new Service(
       image_title: 'Konsultation för behandling av hudflikar',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
 
       booking_url_label: null,
@@ -135,11 +135,11 @@ $services = array(
             image_title: 'Cryopen behandling för hudflikar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av hudflikar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=Problem_skintags',
+            booking_url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
       ),
 );

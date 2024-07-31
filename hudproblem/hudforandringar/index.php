@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Hudförändringar',
       description: 'Hudförändringar kan inkludera ett brett spektrum av tillstånd, från födelsermäken och leverfläckar till hudflikar. Vi ger en överblick över de vanligaste typerna av hudförändringar och vad de beror på.',
       links_touch: [
-            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -94,7 +94,7 @@ $treatment_steps = array(
             content: 'Hos oss får du träffa en hudterapeut som kan undersöka dina godartade hudförändringar och skapa en individuell behandlingsplans.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -102,7 +102,7 @@ $treatment_steps = array(
             content: 'Vi utför behandlingar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar',
-            url: 'https://www.acnespecialisten.se/book?flow=cryopen&skipable_problem=SKIP',
+            url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
 
@@ -285,7 +285,7 @@ $service = new Service(
       url_title: 'Läs mer om konsultation mot hudförändringar',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Moles',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudförändringar',
 
       booking_url_label: null,
@@ -312,11 +312,11 @@ $services = array(
             url_title: 'Läs mer om CryoPen mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=cryopen',
+            booking_url: 'https://boka.acnespecialisten.se?flow=cryopen',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen'
       ),
       new Service(
@@ -335,11 +335,11 @@ $services = array(
             url_title: 'Läs mer om laser mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot hudförändringar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_Moles&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Moles&area=EMPTY',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot hudförändringar',
       ),
 );

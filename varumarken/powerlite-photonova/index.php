@@ -23,10 +23,10 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/powerlite-photonova.webp',
     image_alt: 'IPL',
     image_title: 'IPL',
-    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.acnespecialisten.se/book?flow=powerlite',
+    booking_url: 'https://boka.acnespecialisten.se?flow=powerlite',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -88,10 +88,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/rosacea.webp',
         image_alt: 'Powerlite Photonova behandling för Rosacea',
         image_title: 'Powerlite Photonova behandling för Rosacea',
-        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av rosacea',
-        booking_url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=Problem_Rosacea&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=Problem_Rosacea&area=EMPTY',
         booking_url_label: 'Bokabehandling',
         booking_url_title: 'Boka Powerlite Photonova behandling för rosacea',
 
@@ -109,10 +109,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
         image_alt: 'Powerlite Photonova behandling för Ytliga Blodkärl',
         image_title: 'Powerlite Photonova behandling för Ytliga Blodkärl',
-        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av ytliga blodkärl',
-        booking_url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=Problem_BloodVessels',
+        booking_url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=Problem_BloodVessels',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Powerlite Photonova behandling för ytliga blodkärl',
 
@@ -130,10 +130,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
         image_alt: 'Powerlite Photonova behandling för Pigmentfläckar',
         image_title: 'Powerlite Photonova behandling för Pigmentfläckar',
-        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av pigmentfläckar',
-        booking_url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=Problem_PigmentationSpots',
+        booking_url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Powerlite Photonova behandling för pigmentfläckar',
 
@@ -151,10 +151,10 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/melasma.webp',
         image_alt: 'Powerlite Photonova behandling för Melasma',
         image_title: 'Powerlite Photonova behandling för Melasma',
-        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Powerlite Photonova behandling av melasma',
-        booking_url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=Problem_Melasma',
+        booking_url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=Problem_Melasma',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Powerlite Photonova behandling för melasma',
 
@@ -183,7 +183,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Face',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av ansiktet'
             ),
@@ -194,7 +194,7 @@ $treatment_areas = array(
                 title: 'Panna',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Forehead',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Forehead',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av pannan'
             ),
@@ -205,7 +205,7 @@ $treatment_areas = array(
                 title: 'Näsa',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Nose',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av näsan'
             ),
@@ -216,7 +216,7 @@ $treatment_areas = array(
                 title: 'Kinder',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Cheeks',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av kinderna'
             ),
@@ -227,7 +227,7 @@ $treatment_areas = array(
                 title: 'Överläpp',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_UpperLip',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av överläppen'
             ),
@@ -238,7 +238,7 @@ $treatment_areas = array(
                 title: 'Haka',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Chin',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av hakan'
             ),
@@ -259,7 +259,7 @@ $treatment_areas = array(
                 title: 'Hals',
                 duration: '50 min',
                 price: '1895 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Neck',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med Powerlite Photonova på halsen'
             ),
@@ -270,7 +270,7 @@ $treatment_areas = array(
                 title: 'Dekolletage',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Decolletage',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med Powerlite Photonova på dekolletaget'
             ),
@@ -281,7 +281,7 @@ $treatment_areas = array(
                 title: 'Händer',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_Hands',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med Powerlite Photonova på händerna'
             ),
@@ -302,7 +302,7 @@ $treatment_areas = array(
                 title: '1x zon',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_1xZone',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_1xZone',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 zon.'
             ),
@@ -313,7 +313,7 @@ $treatment_areas = array(
                 title: '2x zoner',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_2xZones',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_2xZones',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2x zoner.'
             ),
@@ -324,7 +324,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
@@ -335,7 +335,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '60 min',
                 price: '3595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_2xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
@@ -346,7 +346,7 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '70 min',
                 price: '4595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=powerlite&skipable_problem=SKIP&area=IPL_3xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
             ),

@@ -24,10 +24,10 @@ $model = new Service(
     image_large: 'bilder/behandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot pigmentfläckar',
     image_title: 'IPL mot pigmentfläckar',
-    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots',
+    booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -78,7 +78,7 @@ $treatment_areas = array(
                 title: 'IPL för Ansikte',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Face',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av ansiktet'
             ),
@@ -89,7 +89,7 @@ $treatment_areas = array(
                 title: 'IPL för Panna',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Forehead',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Forehead',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av pannan'
             ),
@@ -100,7 +100,7 @@ $treatment_areas = array(
                 title: 'IPL för Näsa',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Nose',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av näsan'
             ),
@@ -111,7 +111,7 @@ $treatment_areas = array(
                 title: 'IPL för Kinder',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Cheeks',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av kinderna'
             ),
@@ -122,7 +122,7 @@ $treatment_areas = array(
                 title: 'IPL för Överläpp',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_UpperLip',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av överläppen'
             ),
@@ -133,7 +133,7 @@ $treatment_areas = array(
                 title: 'IPL för Haka',
                 duration: '30 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Chin',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av hakan'
             ),
@@ -154,7 +154,7 @@ $treatment_areas = array(
                 title: 'IPL för Hals',
                 duration: '30 min',
                 price: '1895 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Neck',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av halsen'
             ),
@@ -165,7 +165,7 @@ $treatment_areas = array(
                 title: 'IPL för Dekolletage',
                 duration: '40 min',
                 price: '2295 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Decolletage',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av dekolletaget'
             ),
@@ -176,7 +176,7 @@ $treatment_areas = array(
                 title: 'IPL för Händer',
                 duration: '30 min',
                 price: '1895 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Hands',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av händerna'
             ),
@@ -197,7 +197,7 @@ $treatment_areas = array(
                 title: 'IPL för 1 pigmentfläck',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1x_spot_pf',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1x_spot_pf',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av 1 pigmentfläck'
             ),
@@ -208,7 +208,7 @@ $treatment_areas = array(
                 title: '1x zon',
                 duration: '20 min',
                 price: '1595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1xZone',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1xZone',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 zon.'
             ),
@@ -219,7 +219,7 @@ $treatment_areas = array(
                 title: '2x zoner',
                 duration: '30 min',
                 price: '1995 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_2xZones',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_2xZones',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2x zoner.'
             ),
@@ -230,7 +230,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '50 min',
                 price: '2595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
@@ -241,7 +241,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '60 min',
                 price: '3595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_2xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
@@ -252,7 +252,7 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '70 min',
                 price: '4595 kr',
-                url: 'https://www.acnespecialisten.se/book?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_3xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
             ),

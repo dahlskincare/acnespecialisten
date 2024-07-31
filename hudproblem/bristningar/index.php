@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Bristningar',
       description: 'Bristningar är linjer på huden som uppstår när huden tänjs ut snabbt. På den här sidan förklarar vi varför bristningar bildas och vilka faktorer som kan påverka deras utveckling.',
       links_touch: [
-            new Link('Boka konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks', 'Boka gratis konsultation för akne'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -101,7 +101,7 @@ $treatment_steps = array(
             content: 'Vi utför effektiva behandlingar anpassade för din specifika hud så att du snabbt och säkert kan minska synligheten av dina bristningar.',
 
             url_label: 'Se behandlingar',
-            url: 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks',
+            url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks',
             url_title: 'Utforska våra skräddarsydda behandlingar'
       ),
 );
@@ -448,7 +448,7 @@ $service = new Service(
       url_title: 'Läs mer om gratis hudkonsultation mot bristningar',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_StrechMarks',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för bristningar',
 
       booking_url_label: null,
@@ -476,11 +476,11 @@ $services = array(
             url_title: 'Läs mer om laser mot bristningar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling mot bristningar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=laserProblem&skipable_problem=Problem_StrechMarks',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot bristningar'
       ),
       new Service(
@@ -498,11 +498,11 @@ $services = array(
             url: '/kemisk-peeling.php',
             url_title: 'Läs mer om kemisk peeling mot bristningar',
 
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för kemisk peeling mot bristningar',
 
-            booking_url: 'https://www.acnespecialisten.se/book?flow=chemicalpeeling&skipable_problem=Problem_StrechMarks',
+            booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_StrechMarks',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot bristningar behandling'
       ),
@@ -522,11 +522,11 @@ $services = array(
             url_title: 'Läs mer om microneedling mot bristningar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för microneedling mot bristningar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://www.acnespecialisten.se/book?flow=microneedling&skipable_problem=Problem_StrechMarks',
+            booking_url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=Problem_StrechMarks',
             booking_url_title: 'Klicka för att boka tid för en microneedling mot bristningar behandling'
       ),
 );

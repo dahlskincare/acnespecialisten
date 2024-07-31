@@ -16,10 +16,10 @@ $model = new Service(
     image_large: 'bilder/hudproblem/424x456/rosacea.webp',
     image_alt: 'Bild på rosaceabehandling',
     image_title: 'Bild av effektiv rosaceabehandling',
-    consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea',
+    booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Rosacea',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -43,7 +43,7 @@ $define_image_title = 'Hur vi tar bort och behandlar rosacea?';
 
 $define_content = '<p class="p200">Första steget i vår process att behandla rosacea är att identifiera din typ av rosacea. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. Din personliga hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en effektiv behandlingsplan anpassad efter dina specifika behov.</p>';
 
-$define_consultation_link = "https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
+$define_consultation_link = "https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea";
 $define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation mot rosacea";
 
@@ -65,11 +65,11 @@ $services = array(
         icons: array(),
         content: '<p class="p200">Ansiktsbehandling mot rosacea lugnar huden, minskar rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',
 
-        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Rosacea',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Rosacea på Acnespecialisten',
 
-        booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea&method=Service_Facial_RosaceaTreatment&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Rosacea&method=Service_Facial_RosaceaTreatment&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Rosacea på Acnespecialisten',
 
@@ -89,10 +89,10 @@ $services = array(
         duration: '50 min',
         price: '2595 kr',
         content: '<p class="p200">IPL-behandling är en form av laserbehandling mot rosacea som fungerar genom att använda ljuspulser för att minska rodnad och ytliga blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende och hudton.</p>',
-        consultation_url: 'https://www.acnespecialisten.se/book?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
-        booking_url: 'https://www.acnespecialisten.se/book?flow=problem&problem=Problem_Rosacea&method=Method_IPL&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Rosacea&method=Method_IPL&area=EMPTY',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din IPL ehandling',
         url: 'ipl-rosacea.php',
