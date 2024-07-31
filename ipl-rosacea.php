@@ -66,8 +66,8 @@ $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Lj
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför behandlingen',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-rosacea-forberedelser.webp',
+        image_large: '/bilder/process/872x456/ipl-rosacea-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
         image_title: 'Förberedelser inför behandling med IPL mot rosacea',
         content: '<p class="p200">Att förbereda sig inför en IPL-behandling mot rosacea innebär att vidta vissa försiktighetsåtgärder för att optimera behandlingens effektivitet och säkerhet. Din förberedelse börjar med en noggrann konsultation hos en erfaren hudterapeut som kommer att utvärdera din hudtyp och rosaceas tillstånd. Under denna konsultation diskuteras en skräddarsydd behandlingsplan som är anpassad för att ge bästa möjliga resultat.</p>
@@ -75,8 +75,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandlingen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-rosacea-process.webp',
+        image_large: '/bilder/process/872x456/ipl-rosacea-process.webp',
         image_alt: 'Hur går en IPL mot rosacea till?',
         image_title: 'Hur går en IPL mot rosacea till',
         content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till någon av våra kliniker i Stockholm, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
@@ -135,8 +135,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/ipl-rosacea-eftervard.webp',
+    image_large: '/bilder/process/872x456/ipl-rosacea-eftervard.webp',
     image_alt: 'Eftervård för IPL-behandling mot rosacea',
     image_title: 'Eftervård för IPL-behandling mot rosacea',
     content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>

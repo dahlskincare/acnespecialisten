@@ -41,8 +41,8 @@ $description_text = '<p class="p200">IPL, som betyder Intensivt Pulserande Ljus,
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser inför behandlingen',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-ytliga-blodkarl-forberedelser.webp',
+        image_large: '/bilder/process/872x456/ipl-ytliga-blodkarl-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
         image_title: 'Förberedelser inför behandling med IPL mot Ytliga Blodkärl',
         content: '<p class="p200">Att förbereda sig inför en IPL behandling för ytliga blodkärl innebär att följa vissa steg för att maximera behandlingens effektivitet och säkerhet. Det börjar med en detaljerad konsultation med en erfaren hudterapeut som utvärderar din hudtyp och de områden där ytliga blodkärl är framträdande. Under denna konsultation skapas en behandlingsplan anpassad efter dina unika behov.</p>
@@ -50,8 +50,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandlingen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-ytliga-blodkarl-process.webp',
+        image_large: '/bilder/process/872x456/ipl-ytliga-blodkarl-process.webp',
         image_alt: 'Hur går en IPL mot Ytliga Blodkärl till?',
         image_title: 'Hur går en IPL mot Ytliga Blodkärl till',
         content: '<p class="p200">IPL-behandling mot ytliga blodkärl är en avancerad procedur som använder Intensivt Pulserande Ljus för att effektivt minska synligheten av dessa blodkärl. När du anländer till kliniken, kommer vi först att rengöra din hud noggrant för att avlägsna makeup och orenheter. Dina ögon kommer också att skyddas med speciella skyddsglasögon för att säkerställa att de inte exponeras för det intensiva ljuset.</p>
@@ -131,8 +131,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/ipl-ytliga-blodkarl-eftervard.webp',
+    image_large: '/bilder/process/872x456/ipl-ytliga-blodkarl-eftervard.webp',
     image_alt: 'Eftervård för IPL behandling mot ytliga blodkärl',
     image_title: 'Eftervård för IPL mot ytliga blodkärl',
     content: '<p class="p200">Eftervården är en central del av återhämtningsprocessen efter en IPL behandling mot ytliga blodkärl. Efter behandlingen kan det förekomma en viss rodnad och ibland en mild svullnad i de behandlade områdena. Dessa reaktioner är vanliga och bör avta relativt snabbt. Det är viktigt för att undvika irritation och infektion att inte röra det behandlade området med smutsiga händer och att undvika att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
