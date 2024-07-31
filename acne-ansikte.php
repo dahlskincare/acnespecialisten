@@ -81,7 +81,7 @@ $trivias = array(
 
             content: '<p class="p200">Plötslig akne i ansiktet kan vara både frustrerande och bekymmersamt, särskilt om du inte vanligtvis har problem med huden. Det finns flera faktorer som kan leda till en oväntad uppblossning av akne. En av de vanligaste orsakerna är hormonella förändringar, vilket kan ske vid olika tidpunkter i livet, såsom under puberteten, menstruationscykeln, graviditet eller på grund av p-piller.',
 
-            extended_content: '<ul><li class="mt-xl"><strong>Hormonella förändringar</strong> kan även spela en stor roll i uppkomsten av plötslig akne. Under puberteten, menstruationscykler, graviditet och till och med klimakteriet, kan nivåerna av hormoner som testosteron öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Hormonella förändringar</strong> kan även spela en stor roll i uppkomsten av plötslig akne. Under puberteten, menstruationscykler, graviditet och till och med klimakteriet, kan nivåerna av manliga könshormon öka. Detta leder till ökad produktion av talg i talgkörtlarna, vilket kan gå över styr och orsaka utslag.</li>
 
             <li class="mt-xl"><strong>Stress</strong> är en annan viktig faktor som kan påverka din hudhälsa markant. Påfrestande perioder i livet kan resultera i att kroppen producerar mer av stresshormonet kortisol, vilket i sin tur kan trigga igång överdriven talgproduktion och skapa en obalans i huden. Detta skapar en grogrund för akneutbrott, särskilt om du redan är benägen för finnar.</li>
 
