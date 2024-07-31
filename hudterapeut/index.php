@@ -20,7 +20,7 @@ $specialists = array(
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2022',
-        image: '/images/specialists/large/hudterapeut-vilma.webp',
+        image: '/bilder/hudterapeut/312x312/vilma-libom.webp',
         image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
         image_title: 'Hudterapeut Vilma Libom',
         city: 'Östermalm',
@@ -33,7 +33,7 @@ $specialists = array(
     new Specialist(
         name: 'Julia Eklund',
         title: 'Hudterapeut sedan 2021',
-        image: '/images/specialists/large/hudterapeut-julia.webp',
+        image: '/bilder/hudterapeut/312x312/julia-eklund.webp',
         image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
         image_title: 'Hudterapeut Julia Eklund',
         city: 'Södermalm',
@@ -46,7 +46,7 @@ $specialists = array(
     new Specialist(
         name: 'Sally Johansson',
         title: 'Hudterapeut sedan 2020',
-        image: '/images/specialists/large/hudterapeut-sally.webp',
+        image: '/bilder/hudterapeut/312x312/sally-johansson.webp',
         image_alt: 'Porträttbild på hudterapeuten Sally Johansson',
         image_title: 'Hudterapeut Sally Johansson',
         city: 'Södermalm',
@@ -59,7 +59,7 @@ $specialists = array(
     new Specialist(
         name: 'Emma Fogelkvist',
         title: 'Hudterapeut sedan 2022',
-        image: '/images/specialists/large/hudterapeut-emma.jpg',
+        image: '/bilder/hudterapeut/312x312/emma-fogelkvist.webp',
         image_alt: 'Porträttbild på hudterapeuten Emma Fogelkvist',
         image_title: 'Hudterapeut Emma Fogelkvist',
         city: 'Östermalm',
@@ -72,7 +72,7 @@ $specialists = array(
     new Specialist(
         name: 'Ulrika Bill',
         title: 'Hudterapeut sedan 2023',
-        image: '/images/specialists/large/hudterapeut-ulrika.webp',
+        image: '/bilder/hudterapeut/312x312/ulrika-bill.webp',
         image_alt: 'Porträttbild på hudterapeuten Ulrika Bill',
         image_title: 'Hudterapeut Ulrika Bill',
         city: 'Östermalm',
@@ -85,7 +85,7 @@ $specialists = array(
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1995',
-        image: '/images/specialists/large/hudterapeut-veronika.webp',
+        image: '/bilder/hudterapeut/312x312/-veronika-benedik.webp',
         image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
         image_title: 'Hudterapeut Veronika Benedik',
         city: 'Stockholm',
@@ -98,7 +98,7 @@ $specialists = array(
     new Specialist(
         name: 'Jennifer Messner',
         title: 'Hudterapeut sedan 2022',
-        image: '/images/specialists/large/hudterapeut-jennifer.webp',
+        image: '/bilder/hudterapeut/312x312/jennifer-messner.webp',
         image_alt: 'Porträttbild på hudterapeuten Jennifer Messner',
         image_title: 'Hudterapeut Jennifer Messner',
         city: 'Östermalm',
@@ -111,7 +111,7 @@ $specialists = array(
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: '/images/specialists/large/hudterapeut-amira.webp',
+        image: '/bilder/hudterapeut/312x312/amira-maqboul.webp',
         image_alt: 'Porträttbild på hudterapeuten Amira Maqboul',
         image_title: 'Hudterapeut Amira Maqboul',
         city: 'Sundbyberg',
@@ -124,7 +124,7 @@ $specialists = array(
     new Specialist(
         name: 'Fanny Eklund',
         title: 'Hudterapeut sedan 2023',
-        image: '/images/specialists/large/hudterapeut-fanny.jpg',
+        image: '/bilder/hudterapeut/312x312/fanny-eklund.webp',
         image_alt: 'Porträttbild på hudterapeuten Fanny Eklund',
         image_title: 'Hudterapeut Fanny Eklund',
         city: 'Sundbyberg',
@@ -137,7 +137,7 @@ $specialists = array(
     new Specialist(
         name: 'Georgina Youkhana',
         title: 'Hudterapeut sedan 2022',
-        image: '/images/specialists/large/hudterapeut-georgina.jpg',
+        image: '/bilder/hudterapeut/312x312/georgina-youkhana.webp',
         image_alt: 'Porträttbild på hudterapeuten Georgina Youkhana',
         image_title: 'Hudterapeut Georgina Youkhana',
         city: 'Sundbyberg',
