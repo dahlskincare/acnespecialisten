@@ -545,7 +545,7 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
 
 <head>
 
-      <link rel="canonical" href="https://www.acnespecialisten.se/hudproblem/operations-skadearr" />
+      <link rel="canonical" href="https://www.acnespecialisten.se/hudproblem/operations-skadearr/" />
 
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">

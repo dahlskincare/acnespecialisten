@@ -59,47 +59,15 @@ $model = new Service(
 
 $floating_box = 'Effektiv ljusbehandling som reducerar rosacea.';
 
-$description_title = 'Vad är IPL-behandling mot rosacea?';
+$description_title = 'Vad är IPL behandling mot rosacea?';
 $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Ljus, är en effektiv och icke-invasiv behandlingsmetod speciellt användbar för att hantera symtom på rosacea. Denna ljusbaserade teknik som liknar laserbehandling sänder ut pulser av ljus som varsamt tränger igenom huden och behandlar rosacea genom att minska rodnad och inflammation. IPL verkar genom att rikta in sig på de små blodkärlen som bidrar till rosaceas karakteristiska rodnad och synliga blodkärl.</p>
     <p class="p200 mt-m">IPL för rosacea hjälper inte bara till att minska rodnad och förbättra hudens ton, utan kan även lugna huden och minska frekvensen av rosaceautbrott. Behandlingen anpassas individuellt för att passa varje patients unika hudförhållanden och är känd för att vara skonsam med minimala risker för biverkningar. Många patienter upplever signifikanta förbättringar efter bara några behandlingssessioner, vilket gör IPL till en populär och effektiv lösning för dem som kämpar med symtom på rosacea.</p>';
-
-$treatment_steps = array(
-    new TreatmentStep(
-        title: 'Identifiera',
-        content: 'Hos AcneSpecialisten blir du kopplad till en personlig hudterapeut som hjälper dig identifiera din rosacea och skapar en individuell behandlingsplan.',
-        url_label: 'Boka gratis konsultation',
-        url: 'gratis-hudkonsultation.php',
-        url_title: 'Boka din kostnadsfria hudkonsultation idag'
-    ),
-    new TreatmentStep(
-        title: 'Behandla',
-        content: 'Vi utför skonsamma och effektiva aknebehandlingar anpassade för din specifika hy, så att du snabbt och säkert blir av med problemet.',
-        url_label: 'Se behandlingar',
-        url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
-        url_title: 'Utforska våra skräddarsydda rosaceabehandlingar'
-    ),
-    new TreatmentStep(
-        title: 'Förebygga',
-        content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya hudproblem och hålla din hud i balans.',
-        url_label: 'Se produkter',
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
-        url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
-    ),
-    new TreatmentStep(
-        title: 'Reparera',
-        content: 'När rosacean är borta fokuserar vi på att reducera eventuella ytliga blodkärl med behandlingsmetoder som IPL för en jämn och problemfri hud.',
-        url_label: 'Se IPL behandlingar',
-        url: 'ipl-ytliga-blodkarl.php',
-        url_title: 'Upptäck effektiva behandlingar för ytliga blodkärl'
-    ),
-
-);
 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför behandlingen',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-rosacea-forberedelser.webp',
+        image_large: '/bilder/process/872x456/ipl-rosacea-forberedelser.webp',
         image_alt: 'Förberedelser inför behandling med IPL mot rosacea',
         image_title: 'Förberedelser inför behandling med IPL mot rosacea',
         content: '<p class="p200">Att förbereda sig inför en IPL-behandling mot rosacea innebär att vidta vissa försiktighetsåtgärder för att optimera behandlingens effektivitet och säkerhet. Din förberedelse börjar med en noggrann konsultation hos en erfaren hudterapeut som kommer att utvärdera din hudtyp och rosaceas tillstånd. Under denna konsultation diskuteras en skräddarsydd behandlingsplan som är anpassad för att ge bästa möjliga resultat.</p>
@@ -107,8 +75,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandlingen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-rosacea-process.webp',
+        image_large: '/bilder/process/872x456/ipl-rosacea-process.webp',
         image_alt: 'Hur går en IPL mot rosacea till?',
         image_title: 'Hur går en IPL mot rosacea till',
         content: '<p class="p200">IPL-behandling mot rosacea är en speciell procedur som använder Intensivt Pulserande Ljus för att effektivt minska rodnad och andra symptom associerade med rosacea. När du kommer till någon av våra kliniker i Stockholm, kommer vi först att rengöra din hud noggrant för att avlägsna eventuell makeup och orenheter. Dina ögon skyddas också med speciella glasögon för att förhindra exponering för det intensiva ljuset.</p>
@@ -167,8 +135,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/ipl-rosacea-eftervard.webp',
+    image_large: '/bilder/process/872x456/ipl-rosacea-eftervard.webp',
     image_alt: 'Eftervård för IPL-behandling mot rosacea',
     image_title: 'Eftervård för IPL-behandling mot rosacea',
     content: '<p class="p200">Eftervården är en viktig del av din återhämtningsprocess efter en IPL-behandling mot rosacea. Omedelbart efter behandlingen kan det behandlade området uppvisa viss rodnad och i vissa fall en lätt svullnad. Dessa reaktioner är normala och bör avta inom kort. För att minimera risken för irritation och infektion är det viktigt att du inte rör området med smutsiga händer och undviker att applicera makeup eller parfymerade produkter under de första 24 timmarna efter behandlingen.</p>
@@ -481,18 +449,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>
                     <div class="mt-xl"><?php echo $description_text ?></div>
-                </section>
-
-                <section id="approach">
-                    <h2 class="h500 l10n">Metoden</h2>
-                    <hr class="mt-xl mb-xl3 is-hidden-mobile">
-                    <div class="columns is-variable is-2">
-                        <?php for ($i = 0; $i < sizeof($treatment_steps); $i++) {
-                            echo '<div class="column">';
-                            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment_step_card/treatment_step_card.php');
-                            echo '</div>';
-                        } ?>
-                    </div>
                 </section>
 
                 <?php foreach ($top_articles as $id => $article) { ?>

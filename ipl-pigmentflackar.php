@@ -41,8 +41,8 @@ $description_text = '<p class="p200">IPL, som står för Intensivt Pulserande Lj
 $top_articles = array(
     'preparing' => new Article(
         title: 'Inför behandlingen',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-pigmentflackar-forberedelser.webp',
+        image_large: '/bilder/process/872x456/ipl-pigmentflackar-forberedelser.webp',
         image_alt: 'Inför behandling med IPL mot pigmentfläckar',
         image_title: 'Inför behandling med IPL mot pigmentfläckar',
         content: '<p class="p200">Att förbereda sig inför en IPL behandling för att reducera pigmentfläckar innebär att följa viktiga steg för att säkerställa att din hud är optimalt förberedd för proceduren. En initial konsultation med en kvalificerad hudterapeut är avgörande. Under detta möte kommer din hud att noggrant analyseras för att skapa en skräddarsydd behandlingsplan som är inriktad på att minska dina pigmentfläckar med IPL teknik.</p>
@@ -50,8 +50,8 @@ $top_articles = array(
     ),
     'process' => new Article(
         title: 'Hur går behandlingen till?',
-        image_small: null,
-        image_large: null,
+        image_small: '/bilder/process/358x272/ipl-pigmentflackar-process.webp',
+        image_large: '/bilder/process/872x456/ipl-pigmentflackar-process.webp',
         image_alt: 'Hur går IPL mot pigmentfläckar till?',
         image_title: 'Hur går IPL mot pigmentfläckar till?',
         content: '<p class="p200">IPL-behandling är en framstående metod för att effektivt minska pigmentfläckar och förbättra hudens övergripande utseende. Vid ditt besök på vår klinik börjar vi med att noggrant rengöra din hud för att ta bort alla makeuprester och orenheter. Ett speciellt ögonskydd appliceras för att skydda dina ögon från det intensiva ljuset under behandlingen.</p>
@@ -262,8 +262,8 @@ $treatment_areas = array(
 
 $bottom_articles = array('aftercare' => new Article(
     title: 'Eftervård',
-    image_small: null,
-    image_large: null,
+    image_small: '/bilder/process/358x272/ipl-pigmentflackar-eftervard.webp',
+    image_large: '/bilder/process/872x456/ipl-pigmentflackar-eftervard.webp',
     image_alt: 'Efter IPL mot pigmentfläckar',
     image_title: 'Efter IPL mot pigmentfläckar',
     content: '<p class="p200">Eftervården är en kritisk del för att säkerställa framgångsrika resultat och en smidig läkningsprocess efter en IPL behandling mot pigmentfläckar. Det är inte ovanligt att känna av viss rodnad och svullnad i det behandlade området direkt efter behandlingen. För att minska risken för irritation och infektioner, bör du undvika att röra området med smutsiga händer och avstå från att använda makeup eller parfymerade produkter under de första 24 timmarna.</p>
