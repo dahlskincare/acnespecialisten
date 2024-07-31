@@ -167,7 +167,15 @@
                     </div>
                 </div>
                 <div id="footer-consultation-button-container">
-                    <?php if (isset($model->booking_url) || isset($model->consultation_url)) { ?>
+                    <?php if (isset($green_banner_content)) { ?>
+                        <div class="fcb-buttons">
+                            <?php foreach ($green_banner_content->links_touch as $gbc_link) { ?>
+                                <a href="<?php echo $gbc_link->url ?>" title="<?php echo $gbc_link->title ?>" class="button expand">
+                                    <?php echo $gbc_link->label ?>
+                                </a>
+                            <?php } ?>
+                        </div>
+                    <?php } else if (isset($model->booking_url) || isset($model->consultation_url)) { ?>
                         <div class="fcb-buttons">
                             <?php if (isset($model->consultation_url)) { ?>
                                 <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button expand">
