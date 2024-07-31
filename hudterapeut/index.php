@@ -85,7 +85,7 @@ $specialists = array(
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1995',
-        image: '/bilder/hudterapeut/312x312/-veronika-benedik.webp',
+        image: '/bilder/hudterapeut/312x312/veronika-benedik.webp',
         image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
         image_title: 'Hudterapeut Veronika Benedik',
         city: 'Stockholm',
