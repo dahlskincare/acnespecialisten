@@ -169,27 +169,27 @@
                 <div id="footer-consultation-button-container">
                     <?php if (isset($model->booking_url) || isset($model->consultation_url)) { ?>
                         <div class="fcb-buttons">
-                            <?php if (isset($model->booking_url)) { ?>
-                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button expand">
-                                    <?php echo $model->booking_url_label ?>
-                                </a>
-                            <?php } ?>
                             <?php if (isset($model->consultation_url)) { ?>
                                 <a href="<?php echo $model->consultation_url ?>" title="<?php echo $model->consultation_url_title ?>" class="button expand">
                                     <?php echo $model->consultation_url_label ?>
                                 </a>
                             <?php } ?>
+                            <?php if (isset($model->booking_url)) { ?>
+                                <a href="<?php echo $model->booking_url ?>" title="<?php echo $model->booking_url_title ?>" class="button expand">
+                                    <?php echo $model->booking_url_label ?>
+                                </a>
+                            <?php } ?>
                         </div>
                     <?php } else if (isset($service->booking_url) || isset($service->consultation_url)) { ?>
                         <div class="fcb-buttons">
-                            <?php if (isset($service->booking_url)) { ?>
-                                <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button expand">
-                                    <?php echo $service->booking_url_label ?>
-                                </a>
-                            <?php } ?>
                             <?php if (isset($service->consultation_url)) { ?>
                                 <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand">
                                     <?php echo $service->consultation_url_label ?>
+                                </a>
+                            <?php } ?>
+                            <?php if (isset($service->booking_url)) { ?>
+                                <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button expand">
+                                    <?php echo $service->booking_url_label ?>
                                 </a>
                             <?php } ?>
                         </div>

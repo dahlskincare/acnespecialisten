@@ -229,7 +229,7 @@ $service_categories = array(
         <div class="container">
             <section id="buttons">
                 <div class="columns is-multiline is-variable is-1">
-                    <?php foreach ($service_categories as $service_category) { ?>
+                    <?php foreach ($service_categories as $scm_category) { ?>
                         <div class="column is-one-fifth">
                             <a href="<?php echo $service_category->url ?>" class="button b200 grey expand" title="<?php echo $service_category->name ?>"><?php echo $service_category->name ?></a>
                         </div>
@@ -238,7 +238,7 @@ $service_categories = array(
             </section>
             <section id="service-categories">
                 <?php
-                foreach ($service_categories as $service_category) {
+                foreach ($service_categories as $scm_category) {
                     include('widgets/service_category_info/service_category_info.php');
                 } ?>
             </section>

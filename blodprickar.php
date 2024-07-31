@@ -387,7 +387,7 @@ $brands_url_title = "Se alla varumärken";
                         <section id="treatments">
                               <h2 class="h500"><?php echo $headline02 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($services as $service) { ?>
+                              <?php foreach ($services as $scm) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
