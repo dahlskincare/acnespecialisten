@@ -456,7 +456,7 @@ $brands_url_title = "Varumärken för pormaskbehandling";
                     <div class="mt-xs">
                         <?php echo $treat_content ?>
                         </p>
-                        <?php foreach ($services as $service) {
+                        <?php foreach ($services as $scm) {
                             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php');
                         } ?>
                 </section>

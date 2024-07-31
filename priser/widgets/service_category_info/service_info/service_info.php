@@ -1,7 +1,7 @@
 <div class="service-info-widget">
     <h3 id="<?php echo $category ?>"><?php echo $category ?></h3>
     <hr class="is-hidden-touch" />
-    <?php foreach ($services as $service) { ?>
+    <?php foreach ($services as $scm) { ?>
         <div class="tiw-service">
             <div class="tiw-service-flex">
                 <div class="tiw-service-left">

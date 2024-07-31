@@ -12,7 +12,7 @@
                 <?php echo $category->label ?>
             </h3>
             <div class="service-links">
-                <?php foreach ($category->services as $service) { ?>
+                <?php foreach ($category->services as $scm) { ?>
                     <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="service-link button grey"><?php echo $service->label ?></a>
                 <?php } ?>
             </div>

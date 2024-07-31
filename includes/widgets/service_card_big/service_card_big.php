@@ -2,34 +2,34 @@
     <div class="service-card-big-touch">
         <div class="service-card-header">
             <div class="service-card-image">
-                <?php if (isset($service->image_small) && isset($service->image_large)) { ?>
+                <?php if (isset($scm->image_small) && isset($scm->image_large)) { ?>
                     <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-                        <img src="<?php echo $service->image_small ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="102" height="102" />
+                        <source media="(max-width: 799px)" srcset="<?php echo $scm->image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $scm->image_large ?>">
+                        <img src="<?php echo $scm->image_small ?>" alt="<?php echo $scm->image_alt ?>" title="<?php echo $scm->image_title ?>" width="102" height="102" />
                     </picture>
                 <?php } ?>
             </div>
             <div class="service-card-meta">
-                <div class="service-card-title"><?php echo $service->title ?></div>
-                <?php if (isset($service->duration) || isset($service->price)) { ?>
+                <div class="service-card-title"><?php echo $scm->title ?></div>
+                <?php if (isset($scm->duration) || isset($scm->price)) { ?>
                     <div class="service-card-info">
                         <div class="p200">
-                            <?php echo $service->duration ?>
+                            <?php echo $scm->duration ?>
                         </div>
-                        <?php if (isset($service->duration) && isset($service->price)) { ?>
+                        <?php if (isset($scm->duration) && isset($scm->price)) { ?>
                             <div class="service-dot"></div>
                         <?php } ?>
                         <div class="p200">
-                            <?php echo $service->price ?>
+                            <?php echo $scm->price ?>
                         </div>
                     </div>
                 <?php } ?>
             </div>
         </div>
-        <?php if (isset($service->icons) && sizeof($service->icons) > 0) { ?>
+        <?php if (isset($scm->icons) && sizeof($scm->icons) > 0) { ?>
             <div class="service-card-icons">
-                <?php foreach ($service->icons as $key => $label) { ?>
+                <?php foreach ($scm->icons as $key => $label) { ?>
                     <div class="service-card-icon">
                         <?php icon($key) ?>
                         <div><?php echo $label ?></div>
@@ -39,11 +39,11 @@
         <?php } ?>
         <div class="service-card-content">
             <div class="p200">
-                <?php echo $service->content ?>
+                <?php echo $scm->content ?>
             </div>
-            <?php if (isset($service->procedures) && sizeof($service->procedures) > 0) { ?>
+            <?php if (isset($scm->procedures) && sizeof($scm->procedures) > 0) { ?>
                 <div class="service-card-procedures">
-                    <?php foreach ($service->procedures as $procedure) { ?>
+                    <?php foreach ($scm->procedures as $procedure) { ?>
                         <div class="procedure">
                             <div>
                                 <div class="procedure-label"><?php echo $procedure->label ?></div>
@@ -59,24 +59,24 @@
                     <?php } ?>
                 </div>
             <?php } ?>
-            <?php if (isset($service->url)) { ?>
+            <?php if (isset($scm->url)) { ?>
                 <div class="mt-m">
-                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="button outline expand">
-                        <?php echo $service->url_label ?>
+                    <a href="<?php echo $scm->url ?>" title="<?php echo $scm->url_title ?>" class="button outline expand">
+                        <?php echo $scm->url_label ?>
                     </a>
                 </div>
             <?php } ?>
         </div>
-        <?php if (isset($service->consultation_url) || isset($service->booking_url)) { ?>
+        <?php if (isset($scm->consultation_url) || isset($scm->booking_url)) { ?>
             <div class="service-card-buttons">
-                <?php if (isset($service->consultation_url)) { ?>
+                <?php if (isset($scm->consultation_url)) { ?>
                     <div>
-                        <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
+                        <a href="<?php echo $scm->consultation_url ?>" title="<?php echo $scm->consultation_url_title ?>" class="button expand" title="<?php echo $scm->consultation_url_label ?>"><?php echo $scm->consultation_url_label ?></a>
                     </div>
                 <?php } ?>
-                <?php if (isset($service->booking_url)) { ?>
+                <?php if (isset($scm->booking_url)) { ?>
                     <div>
-                        <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
+                        <a href="<?php echo $scm->booking_url ?>" title="<?php echo $scm->booking_url_title ?>" class="button expand" title="<?php echo $scm->booking_url_label ?>"><?php echo $scm->booking_url_label ?></a>
                     </div>
                 <?php } ?>
             </div>
@@ -85,32 +85,32 @@
     <div class="service-card-big-desktop">
         <div class="service-card-header">
             <div class="service-card-image">
-                <?php if (isset($service->image_small) && isset($service->image_large)) { ?>
+                <?php if (isset($scm->image_small) && isset($scm->image_large)) { ?>
                     <picture>
-                        <source media="(max-width: 799px)" srcset="<?php echo $service->image_small ?>">
-                        <source media="(min-width: 800px)" srcset="<?php echo $service->image_large ?>">
-                        <img src="<?php echo $service->image_small ?>" alt="<?php echo $service->image_alt ?>" title="<?php echo $service->image_title ?>" width="102" height="102" />
+                        <source media="(max-width: 799px)" srcset="<?php echo $scm->image_small ?>">
+                        <source media="(min-width: 800px)" srcset="<?php echo $scm->image_large ?>">
+                        <img src="<?php echo $scm->image_small ?>" alt="<?php echo $scm->image_alt ?>" title="<?php echo $scm->image_title ?>" width="102" height="102" />
                     </picture>
                 <?php } ?>
             </div>
             <div class="service-card-meta">
-                <div class="service-card-title"><?php echo $service->title ?></div>
-                <?php if (isset($service->duration) || isset($service->price)) { ?>
+                <div class="service-card-title"><?php echo $scm->title ?></div>
+                <?php if (isset($scm->duration) || isset($scm->price)) { ?>
                     <div class="service-card-info">
                         <div class="p200">
-                            <?php echo $service->duration ?>
+                            <?php echo $scm->duration ?>
                         </div>
-                        <?php if (isset($service->duration) && isset($service->price)) { ?>
+                        <?php if (isset($scm->duration) && isset($scm->price)) { ?>
                             <div class="service-dot"></div>
                         <?php } ?>
                         <div class="p200">
-                            <?php echo $service->price ?>
+                            <?php echo $scm->price ?>
                         </div>
                     </div>
                 <?php } ?>
-                <?php if (isset($service->icons) && sizeof($service->icons) > 0) { ?>
+                <?php if (isset($scm->icons) && sizeof($scm->icons) > 0) { ?>
                     <div class="service-card-icons">
-                        <?php foreach ($service->icons as $key => $label) { ?>
+                        <?php foreach ($scm->icons as $key => $label) { ?>
                             <div class="service-card-icon">
                                 <?php icon($key) ?>
                                 <div><?php echo $label ?></div>
@@ -119,16 +119,16 @@
                     </div>
                 <?php } ?>
             </div>
-            <?php if (isset($service->consultation_url) || isset($service->booking_url)) { ?>
+            <?php if (isset($scm->consultation_url) || isset($scm->booking_url)) { ?>
                 <div class="service-card-buttons">
-                    <?php if (isset($service->consultation_url)) { ?>
+                    <?php if (isset($scm->consultation_url)) { ?>
                         <div>
-                            <a href="<?php echo $service->consultation_url ?>" title="<?php echo $service->consultation_url_title ?>" class="button expand" title="<?php echo $service->consultation_url_label ?>"><?php echo $service->consultation_url_label ?></a>
+                            <a href="<?php echo $scm->consultation_url ?>" title="<?php echo $scm->consultation_url_title ?>" class="button expand" title="<?php echo $scm->consultation_url_label ?>"><?php echo $scm->consultation_url_label ?></a>
                         </div>
                     <?php } ?>
-                    <?php if (isset($service->booking_url)) { ?>
+                    <?php if (isset($scm->booking_url)) { ?>
                         <div>
-                            <a href="<?php echo $service->booking_url ?>" title="<?php echo $service->booking_url_title ?>" class="button expand" title="<?php echo $service->booking_url_label ?>"><?php echo $service->booking_url_label ?></a>
+                            <a href="<?php echo $scm->booking_url ?>" title="<?php echo $scm->booking_url_title ?>" class="button expand" title="<?php echo $scm->booking_url_label ?>"><?php echo $scm->booking_url_label ?></a>
                         </div>
                     <?php } ?>
                 </div>
@@ -136,11 +136,11 @@
         </div>
         <div class="service-card-content">
             <div class="p200">
-                <?php echo $service->content ?>
+                <?php echo $scm->content ?>
             </div>
-            <?php if (isset($service->procedures) && sizeof($service->procedures) > 0) { ?>
+            <?php if (isset($scm->procedures) && sizeof($scm->procedures) > 0) { ?>
                 <div class="service-card-procedures">
-                    <?php foreach ($service->procedures as $procedure) { ?>
+                    <?php foreach ($scm->procedures as $procedure) { ?>
                         <div class="procedure">
                             <div>
                                 <div class="procedure-label"><?php echo $procedure->label ?></div>
@@ -156,11 +156,11 @@
                     <?php } ?>
                 </div>
             <?php } ?>
-            <?php if (isset($service->url)) { ?>
+            <?php if (isset($scm->url)) { ?>
                 <div class="mt-m">
-                    <a href="<?php echo $service->url ?>" title="<?php echo $service->url_title ?>" class="button text compact">
+                    <a href="<?php echo $scm->url ?>" title="<?php echo $scm->url_title ?>" class="button text compact">
                         <span>
-                            <?php echo $service->url_label ?>
+                            <?php echo $scm->url_label ?>
                         </span>
                         <?php icon('navigate-next') ?>
                     </a>

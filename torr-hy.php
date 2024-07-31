@@ -1002,7 +1002,7 @@ $brands_url_title = "Varumärken för behandling av torr och känslig hy";
                         <section id="treatments">
                               <h2 class="h500"><?php echo $headline02 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($services as $service) { ?>
+                              <?php foreach ($services as $scm) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>
@@ -1010,7 +1010,7 @@ $brands_url_title = "Varumärken för behandling av torr och känslig hy";
                         <section id="products">
                               <h2 class="h500"><?php echo $headline03 ?></h2>
                               <hr class="is-hidden-mobile mt-xl">
-                              <?php foreach ($products as $service) { ?>
+                              <?php foreach ($products as $scm) { ?>
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php'); ?>
                                     <hr class="is-hidden-mobile mb-xxl">
                               <?php } ?>

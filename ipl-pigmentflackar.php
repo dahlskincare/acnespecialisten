@@ -525,14 +525,14 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         <?php } ?>
                         <div class="mt-xl"></div>
                         <?php if (isset($types)) { ?>
-                            <?php foreach ($types as $service) { ?>
+                            <?php foreach ($types as $scm) { ?>
                                 <hr class="is-hidden-touch" />
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                             <?php } ?>
                             <hr class="is-hidden-touch" />
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
-                            <?php foreach ($big_types as $service) { ?>
+                            <?php foreach ($big_types as $scm) { ?>
                                 <div class="big-type">
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
                                 </div>
