@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Mogen hy', '/mogen-hy.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/mogen-hy.webp';
+$image_small = 'bilder/hudproblem/358x274/mogen-hy.webp';
 $image_large = 'bilder/hudproblem/424x456/mogen-hy.webp';
 $image_title = 'Visar en hud med tecken på åldrande';
 $image_alt = 'Bild som illustrerar hur mogen hy ser ut';

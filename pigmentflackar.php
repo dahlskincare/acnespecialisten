@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Pigmentfläckar', '/pigmentflackar.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/pigmentflackar.webp';
+$image_small = 'bilder/hudproblem/358x274/pigmentflackar.webp';
 $image_large = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 $image_title = 'Visar en hud med pigmentfläckar';
 $image_alt = 'Bild som illustrerar hur pigmentfläckar kan se ut på huden';

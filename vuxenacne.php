@@ -8,7 +8,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Vuxenacne – Behandling & orsaker | AcneSpecialisten';
 $seo_description = 'Varför får man finnar som vuxen? Läs mer om vuxenacnes orsaker, varför plötslig akne uppstår och hur du blir av med det! Boka en kostnadsfri konsultation →';
 $seo_keywords = 'varför får man finnar som vuxen, vuxenacne, vuxenakne, vuxenacne behandling, vuxenacne kvinnor, vuxenakne man, vuxenakne orsaker, acne tarda, hormonell vuxenacne, kronisk vuxenakne, bli av med vuxenacne, vuxenacne hjälp, vuxenacne produkter, behandla vuxenacne';
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/acne.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
@@ -16,8 +16,8 @@ $path_segments = array(
 );
 
 $title = 'Vuxenacne & vuxenfinnar - Acne Tarda';
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/acne.webp';
+$image_large = 'bilder/hudproblem/424x456/acne.webp';
 $image_title = 'Behandling och Skötsel av Vuxenacne';
 $image_alt = 'Bild som visar hud påverkad av vuxenacne';
 

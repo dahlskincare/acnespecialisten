@@ -12,7 +12,7 @@ $model = new Service(
     duration: null,
     price: null,
     content: 'Hudanalys online är en smidig hudkonsultation som passar alla. På konsultationen identifierar vi din hudtyp och tar fram en personlig behandlingsplan.',
-    image_small: 'bilder/behandlingar/424x456//gratis-hudkonsultation.webp',
+    image_small: 'bilder/behandlingar/358x274//gratis-hudkonsultation.webp',
     image_large: 'bilder/behandlingar/424x456//gratis-hudkonsultation.webp',
     image_alt: 'Gratis hudkonsultation',
     image_title: 'Gratis hudkonsultation',

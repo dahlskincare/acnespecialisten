@@ -7,7 +7,7 @@ $seo_title = 'Microneedling mot acneärr | AcneSpecialisten';
 $seo_description = 'Behandla acneärr effektivt med hjälp av Microneedling. Läs mer och boka en gratis hudkonsultation idag!';
 $seo_keywords = 'microneedling, behandling av akneärr, förbättrad hudstruktur, jämn hudton, kollagenproduktion, hudföryngring, minskning av akneärr, förfinad hud, porminskning, hudförbättring';
 
-$seo_image = 'images/treatments/large/microneedling.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/microneedling.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),

@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Vad är stress finnar? | AcneSpecialisten';
 $seo_description = 'Utforska allt om stressfinnar – deras orsaker, effektiva behandlingsmetoder och förebyggande strategier. AcneSpecialisten erbjuder skräddarsydda lösningar.';
 $seo_keywords = 'stressfinnar, finnar stress, stress finnar, akne stress, stress akne, finnar i pannan stress, finnar i hårbotten stress';
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/finnar.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Stress finnar', '/stress-finnar.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/finnar.webp';
+$image_large = 'bilder/hudproblem/424x456/finnar.webp';
 $image_title = 'Visar en hud med stress finnar';
 $image_alt = 'Bild som illustrerar hud påverkad av stress finnar';
 

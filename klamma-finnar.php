@@ -7,7 +7,7 @@ $seo_title = 'Klämma finnar - Effektiv behandling | AcneSpecialisten';
 $seo_description = 'Vi erbjuder effektiva behandlingar för att klämma ut finnar på ett effektivt och säkert sätt utan att skada huden. Boka en kostnadsfri konsultation →';
 $seo_keywords = 'ansiktsbehandling för finnar, professionell finnextraktion, behandla akne, rena porer, hudklarhet, förebygga finnar, reducera orenheter, hudhälsa, förbättra hudtextur, säker finnbehandling';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Hudbehandlingar', '/hudbehandlingar/'),
@@ -20,8 +20,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2332 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'ansiktsbehandling',
     image_title: 'ansiktsbehandling',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',

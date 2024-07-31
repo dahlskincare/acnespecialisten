@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Rosacea', '/rosacea.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/rosacea.webp';
+$image_small = 'bilder/hudproblem/358x274/rosacea.webp';
 $image_large = 'bilder/hudproblem/424x456/rosacea.webp';
 $image_title = 'Visar en hud med rosacea';
 $image_alt = 'Bild som illustrerar hur rosacea ser ut på huden';

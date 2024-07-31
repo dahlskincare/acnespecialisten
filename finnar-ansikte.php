@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Finnar Ansikte', '/finnar-ansikte.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/finnar-ansikte.webp';
+$image_small = 'bilder/hudproblem/358x274/finnar-ansikte.webp';
 $image_large = 'bilder/hudproblem/424x456/finnar-ansikte.webp';
 $image_title = 'Visar en hud med finnar i ansiktet';
 $image_alt = 'Bild som visar hudproblem med finnar i ansiktet';

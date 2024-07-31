@@ -7,7 +7,7 @@ $seo_title = 'Laser mot ärr | AcneSpecialisten';
 $seo_description = 'Effektiv metod för att reducera ärr efter operationer och skador. Vi erbjuder skräddarsydd behandlingar för att förbättra och eliminera dina ärr.';
 $seo_keywords = 'laserbehandling av ärr, laser på ärr, laser ärr, laser för ärr, laserbehandling ärr, laser ärr före efter, laserbehandling ärr kostnad';
 
-$seo_image = '/images/treatments/large/laser.webp';
+$seo_image = '/bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 4595 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/laser-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Laser mot ärr',
     image_title: 'Laser mot ärr',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',

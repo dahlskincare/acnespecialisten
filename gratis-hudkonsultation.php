@@ -12,8 +12,8 @@ $model = new Service(
     duration: null,
     price: null,
     content: 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.',
-    image_small: 'bilder/behandlingar/424x456//gratis-hudkonsultation.webp',
-    image_large: 'bilder/behandlingar/424x456//gratis-hudkonsultation.webp',
+    image_small: 'bilder/hudbehandlingar/358x274//gratis-hudkonsultation.webp',
+    image_large: 'bilder/hudbehandlingar/424x456//gratis-hudkonsultation.webp',
     image_alt: 'Gratis hudkonsultation',
     image_title: 'Gratis hudkonsultation',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
@@ -60,7 +60,7 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
         <div class="container">
             <div id="content">
                 <section id="image" class="mt-m is-hidden-desktop">
-                    <img src="bilder/behandlingar/358x274/gratis-hudkonsultation.webp" alt="Gratis Hudkonsultation" title="Gratis Hudkonsultation" width="358" height="274" />
+                    <img src="bilder/hudbehandlingar/358x274/gratis-hudkonsultation.webp" alt="Gratis Hudkonsultation" title="Gratis Hudkonsultation" width="358" height="274" />
                 </section>
                 <section id="about" class="large-margin">
                     <h2 class="h500 l10n">Vad är en hudkonsultation?</h2>

@@ -7,7 +7,7 @@ $seo_title = 'Porrengöring | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi porrengöring för att behandla pormaskar. Denna djupgående rengör och exfolierar porerna effektivt. Boka tid hos oss idag →';
 $seo_keywords = 'porrengöring, porrengörare, por rengöring';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/portomning.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
@@ -19,7 +19,7 @@ $model = new Service(
     duration: '60 min',
     price: 'Från 799 kr',
     content: '<p class="p200">En ansiktsbehandling mot porer för dig som vill ta bort pormaskar eller balansera hudens talgproduktion genom att rengöra porerna. Behandlingen består av en djupgående portömning som öppnar upp och rensar porerna.</p>',
-    image_small: 'bilder/hudbehandlingar/424x324/portomning.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/portomning.webp',
     image_large: 'bilder/hudbehandlingar/424x456/portomning.webp',
     image_alt: 'Porrengöring',
     image_title: 'Porrengöring',

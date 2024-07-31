@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Ytliga Blodkärl', '/ytliga-blodkarl.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/ytliga-blodkarl.webp';
+$image_small = 'bilder/hudproblem/358x274/ytliga-blodkarl.webp';
 $image_large = 'bilder/hudproblem/424x456/ytliga-blodkarl.webp';
 $image_title = 'Visar en hud med ytliga blodkärl';
 $image_alt = 'Ytliga blodkärl i ansiktet';

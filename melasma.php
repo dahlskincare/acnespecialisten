@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Melasma', '/melasma.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/melasma.webp';
+$image_small = 'bilder/hudproblem/358x274/melasma.webp';
 $image_large = 'bilder/hudproblem/424x456/melasma.webp';
 $image_title = 'Visar en hud med melasma';
 $image_alt = 'Bild som visar melasma på huden';

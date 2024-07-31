@@ -6,7 +6,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'PRX T33 Stockholm | AcneSpecialisten';
 $seo_description = 'Boka en PRX T33 behandling som ✓Motverkar tecken på åldrande ✓Förbättrar hudens struktur ✓Återställer din naturliga hudton. Starta med gratis konsultation →';
 $seo_keywords = 'prx t33, prx behandling, prx, prx t33 behandling';
-$seo_image = 'images/treatments/large/prx-t33.webp';
+$seo_image = 'bilder/varumarken/424x456/prx-t33.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),

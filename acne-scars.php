@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Acne scars - Treatment, causes, and prevention';
 $seo_description = 'Explore everything about acne scars, from their underlying causes to effective treatment methods and preventive measures. Book a free consultation!';
 $seo_keywords = 'acne scars';
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/acnearr.webp';
 
 $path_segments = array(
       new PathSegment('Skin problem', '/hudproblem/'),
       new PathSegment('Inflammation acne', '/inflammation-acne.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/acnearr.webp';
+$image_large = 'bilder/hudproblem/424x456/acnearr.webp';
 $image_title = 'Effektiv Behandling av Inflammatorisk Akne';
 $image_alt = 'Bild som visar inflammatorisk akne';
 

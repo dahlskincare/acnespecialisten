@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Komedoner', '/komedoner.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
+$image_small = 'bilder/hudproblem/358x274/pormaskar.webp';
 $image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_alt = 'Bild som illustrerar komedoner på huden';
 $image_title = 'Effektiv behandling av komedoner';

@@ -6,7 +6,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Portömning | AcneSpecialisten';
 $seo_description = 'Portömning är en specialisterad ansiktsbehandling som fokuserar på att tömma porerna för att bli av med pormaskar och orenheter.';
 $seo_keywords = 'portömning, portömning hemma, portömning stockholm, ansiktsbehandling portömning, portömning behandling, portömning före efter, portömning ansiktsbehandling, portömning behandling, portömning ansikte, portömning näsa';
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/portomning.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
@@ -18,7 +18,7 @@ $model = new Service(
     duration: null,
     price: null,
     content: '<p class="p200">Portömning är en effektiv ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar. Denna behandling utförs av professionella hudterapeuter för att säkerställa en effektiv och grundlig djuprengöring av huden. Kan utföras i ansiktet,ryggen eller bröstet.</p>',
-    image_small: 'bilder/hudbehandlingar/424x324/portomning.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/portomning.webp',
     image_large: 'bilder/hudbehandlingar/424x456/portomning.webp',
     image_alt: 'Portömning',
     image_title: 'Portömning',

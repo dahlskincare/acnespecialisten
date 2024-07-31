@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Pormaskar på ryggen', '/pormaskar-rygg.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/pormaskar-rygg.webp';
+$image_small = 'bilder/hudproblem/358x274/pormaskar-rygg.webp';
 $image_large = 'bilder/hudproblem/424x456/pormaskar-rygg.webp';
 $image_alt = 'Bild som illustrerar pormaskar på ryggen på huden';
 $image_alt = 'Bild på pormaskar på ryggen';

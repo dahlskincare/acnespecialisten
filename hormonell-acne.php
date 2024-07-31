@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Hormonell Acne', '/hormonell-acne.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Effektiv Behandling av hormonell acne';
 $image_alt = 'Bild som visar behandlingsmetoder för hormonell acne';

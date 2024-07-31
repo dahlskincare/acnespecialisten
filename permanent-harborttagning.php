@@ -7,7 +7,7 @@ $seo_title = 'Permanent laser hårborttagning i Stockholm';
 $seo_description = 'Lasra bort hår permanent och njut av en len känsla med den senaste lasestekniken. Boka din kostnadsfria konsultation idag och upplev skillnaden.';
 $seo_keywords = 'hårborttagning, laser hårborttagning, permanent hårborttagning, hårborttagning laser stockholm, ta bort hår';
 
-$seo_image = 'images/treatments/large/permanent-harborttagning.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/permanent-harborttagning.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),

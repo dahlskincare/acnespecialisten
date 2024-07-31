@@ -7,7 +7,7 @@ $seo_title = 'IPL behandling - Ta bort ytliga blodkärl i ansiktet';
 $seo_description = 'Bli av med ytliga blodkärl. Läs mer om vår IPL-behandling och boka en gratis konsultation hos AcneSpecialisten →';
 $seo_keywords = 'ipl behandling, ipl ansikte, ipl laser ansikte, ipl behandling ytliga blodkärl, laser blodkärl ansikte, ipl behandling ansikte, ipl näsa, ta bort blodkärl i ansiktet, behandling av ytliga blodkärl i ansiktet, ytliga blodkärl i ansiktet laser';
 
-$seo_image = 'images/treatments/large/ipl.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/ipl.webp';
 
 $path_segments = array(
     new PathSegment('Hudbehandlingar', '/hudbehandlingar/'),
@@ -20,8 +20,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">Med vår IPL behandling kan du effektivt minska synligheten av ytliga blodkärl och uppnå en jämnare hudton. Denna ljusbaserade terapi är skonsam men kraftfull och riktar in sig specifikt på blodkärlen, vilket gör den särskilt lämplig för behandling av rosacea och relaterade hudtillstånd. Genom att skräddarsy varje session efter dina unika hudbehov, ser vi till att ge din hud den vård och uppmärksamhet den förtjänar för optimala resultat.</p>',
-    image_small: 'bilder/behandlingar/358x274/ipl.webp',
-    image_large: 'bilder/behandlingar/424x456/ipl.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot ytliga blodkärl',
     image_title: 'IPL mot ytliga blodkärl',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',

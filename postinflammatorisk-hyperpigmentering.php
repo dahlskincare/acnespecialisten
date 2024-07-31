@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Postinflammatorisk Hyperpigmentering', '/postinflammatorisk-hyperpigmentering.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/aknearr.webp';
+$image_small = 'bilder/hudproblem/358x274/aknearr.webp';
 $image_large = 'bilder/hudproblem/424x456/aknearr.webp';
 $image_title = 'Exempel på postinflammatorisk hyperpigmentering';
 $image_alt = 'Bild som visar effekterna av postinflammatorisk hyperpigmentering på huden';

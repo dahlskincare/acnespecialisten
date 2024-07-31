@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Torr & Känslig hy', '/torr-hy.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/torr-kanslig-hy.webp';
+$image_small = 'bilder/hudproblem/358x274/torr-kanslig-hy.webp';
 $image_large = 'bilder/hudproblem/424x456/torr-kanslig-hy.webp';
 $image_title = 'Visar en hy som är torr och känslig';
 $image_alt = 'Bild som illustrerar hur torr och känslig hy ser ut';

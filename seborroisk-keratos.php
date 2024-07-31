@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Seborroisk Keratos', '/seborroisk-keratos.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/hudforandringar.webp';
+$image_small = 'bilder/hudproblem/358x274/hudforandringar.webp';
 $image_large = 'bilder/hudproblem/424x456/hudforandringar.webp';
 $image_title = 'Skonsam och effektiv behandling av seborroisk keratos';
 $image_alt = 'Bild som illustrerar behandling av seborroisk keratos';

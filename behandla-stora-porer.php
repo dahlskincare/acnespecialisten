@@ -12,7 +12,7 @@ $model = new Service(
     duration: null,
     price: null,
     content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av stora porer för att hjälpa dig att effektivt minska deras storlek. Oavsett dina specifika behov har vi rätt lösning för dig. Är du osäker på vilken behandling som bäst passar din hudtyp? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten. Vi hjälper dig vidare mot en jämnare och slätare hud.</p>',
-    image_small: 'bilder/hudproblem/424x324/stora-porer.webp',
+    image_small: 'bilder/hudproblem/358x274/stora-porer.webp',
     image_large: 'bilder/hudproblem/424x456/stora-porer.webp',
     image_alt: 'Bild på behandling för stora porer',
     image_title: 'Behandling för stora porer',

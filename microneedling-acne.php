@@ -7,8 +7,7 @@ $seo_title = 'Microneedling mot acne | AcneSpecialisten';
 $seo_description = 'Behandla acne och finnar effektivt med hjälp av Microneedling. Läs mer och boka en gratis hudkonsultation idag!';
 $seo_keywords = 'microneedling mot acne, dermapen acne, dermapen akne, microneedling acne, microneedling akne, microneedling mot akne';
 
-
-$seo_image = 'images/treatments/large/microneedling.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/microneedling.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),

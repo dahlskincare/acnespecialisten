@@ -16,7 +16,7 @@ $model = new Service(
     duration: null,
     price: null,
     content: '<p class="p200">Vi erbjuder effektiva metoder för att behandla och ta bort finnar som hjälper dig få en klarare hy. Oavsett ditt behov har vi rätt lösning för dig. Är du osäker på vilken behandling som passar din hudtyp bäst? Boka en kostnadsfri konsultation hos oss på AcneSpecialisten så guidar vi dig mot en friskare hy.</p>',
-    image_small: 'bilder/hudproblem/424x324/finnar.webp',
+    image_small: 'bilder/hudproblem/358x274/finnar.webp',
     image_large: 'bilder/hudproblem/424x456/finnar.webp',
     image_alt: 'Bild på behandling av finnar',
     image_title: 'Behandling av finnar',

@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Seborré', '/seborre.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/seborre.webp';
+$image_small = 'bilder/hudproblem/358x274/seborre.webp';
 $image_large = 'bilder/hudproblem/424x456/seborre.webp';
 $image_title = 'Visar en hud med seborré';
 $image_alt = 'Bild som illustrerar hur seborré ser ut på huden';

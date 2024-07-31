@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Gravid finnar – behandling och fakta | AcneSpecialisten';
 $seo_description = 'Upptäck varför finnar uppstår under graviditeten och hur du kan behandla dem effektivt. Boka tid för en gratis hudkonsultation så hjälper vi dig!';
 $seo_keywords = 'gravid finnar, finnar graviditet, finnar gravid tidigt, hormonutslag gravid, acne gravid, akne gravid, finnar på hakan gravid';
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/finnar.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Finnar Gravid', '/finnar-gravid.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/finnar.webp';
+$image_large = 'bilder/hudproblem/424x456/finnar.webp';
 $image_title = 'Visar en hud med gravid finnar';
 $image_alt = 'Bild som illustrerar hud med gravid finnar';
 
