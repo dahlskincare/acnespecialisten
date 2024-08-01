@@ -40,7 +40,6 @@
 <!-- End Google Tag Manager -->
 
 <!-- Cookiebot CMP-->
-<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="77836ffa-6c7c-4c0d-836f-c1f3d3cc17c1" data-blockingmode="auto" type="text/javascript"></script>
 <!-- End Cookiebot CMP -->
 
 <!-- Google tag (gtag.js) -->
