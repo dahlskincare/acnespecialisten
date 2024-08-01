@@ -28,6 +28,7 @@
       <link rel="preload" as="image" href="bilder/start/banner-mobile.webp" media="(max-width: 983px)">
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="/index.css">
+      <script src="index.js"></script>
 </head>
 
 <body>
@@ -578,7 +579,6 @@
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-      <script src="index.js"></script>
 </body>
 
 </html>
