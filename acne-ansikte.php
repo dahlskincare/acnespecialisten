@@ -53,7 +53,7 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Din guide till en problemfritt ansikte.';
+$about_title = 'Din guide till en problemfritt ansikte';
 
 $trivias = array(
       new ProblemTrivia(
@@ -112,7 +112,7 @@ $trivias = array(
       ),
 
       new ProblemTrivia(
-            prefix: 'Vart',
+            prefix: 'Var',
             title: ' i ansiktet akne uppstår och dess betydelse',
             content: '<p class="p200">Akne i ansiktet kan uppträda på flera olika sätt, beroende på typ av akne och hudtyp. Vanliga områden där akne ofta förekommer är pannan, näsan, kinderna och hakan. Symtomen kan variera från små, icke-inflammatoriska pormaskar till större, smärtsamma och inflammerade cystor. Det är också bra att veta att akne ofta dyker upp i områden med högt antal talgkörtlar.</p>',
 

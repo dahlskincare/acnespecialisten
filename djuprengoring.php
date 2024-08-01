@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Djuprengöring ansikte',
     duration: '60 min',
     price: 'Från 799 kr',
-    content: '<p class="p200">EEn djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring. Behandlingen inkluderar en intensiv portömning som öppnar upp porerna och rensar dem på djupet, vilket ger en klarare och mer balanserad hud.</p>',
+    content: '<p class="p200">En djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring. Behandlingen inkluderar en intensiv portömning som öppnar upp porerna och rensar dem på djupet, vilket ger en klarare och mer balanserad hud.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Djuprengöring',
@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '995 kr',
+            price: '1295 kr',
             savings: null,
             booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -40,24 +40,22 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '2595 kr',
-            savings: '865 kr per behandling',
+            price: '3495 kr',
+            savings: '1165 kr per behandling',
             booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '3995 kr',
-            savings: '799 kr per behandling',
+            price: '4995 kr',
+            savings: '999 kr per behandling',
             booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
     ),
 );
-
-$floating_box = 'Effektiv djuprengöring.';
 
 $description_title = 'Vad är en djuprengöring?';
 $description_text = '<p class="p200">Våra djuprengöringar är specialiserade porrengöringsbehandlingar som effektivt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
@@ -86,20 +84,20 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '995 kr',
+                price: '1295 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '2595 kr',
-                savings: '865 per behandling',
+                price: '3595 kr',
+                savings: '1165 per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '3995 kr',
-                savings: '799kr per behandlng',
+                price: '4995 kr',
+                savings: '999kr per behandlng',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_5'
             )
         )
