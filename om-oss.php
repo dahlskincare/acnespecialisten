@@ -51,22 +51,22 @@ $path_segments = [
                             </div>
                             <div id="s-first-images">
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/desktop/slide-1-1.webp">
+                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-1-1.webp">
                                     <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-1.webp">
-                                    <img src="bilder/om-oss/desktop/slide-1-1.webp" alt="Estetisk maskinbehandling" title="Maskinbehandling" width="114" height="214" />
+                                    <img src="bilder/om-oss/mobile/slide-1-1.webp" alt="Estetisk maskinbehandling" title="Maskinbehandling" width="114" height="214" />
                                 </picture>
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/desktop/slide-1-2.webp">
+                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-1-2.webp">
                                     <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-2.webp">
-                                    <img src="bilder/om-oss/desktop/slide-1-2.webp.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
+                                    <img src="bilder/om-oss/mobile/slide-1-2.webp.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
                                 </picture>
                             </div>
                         </div>
                         <div id="s-last">
                             <picture>
-                                <source media="(max-width: 799px)" srcset="bilder/om-oss/desktop/slide-1-3.webp">
+                                <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-1-3.webp">
                                 <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-3.webp">
-                                <img src="bilder/om-oss/desktop/slide-1-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling" title="Maskinbehandling" width="114" height="272" />
+                                <img src="bilder/om-oss/mobile/slide-1-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling" title="Maskinbehandling" width="114" height="272" />
                             </picture>
                         </div>
                     </div>
