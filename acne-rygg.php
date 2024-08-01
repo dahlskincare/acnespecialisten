@@ -54,7 +54,7 @@ $green_banner_content = new GreenBannerContent(
 
 $articles = array(
       new Article(
-            title: 'Hur Du Blir Fri Från Akne På Ryggen: Effektiva Behandlingar, Produkter och Tips',
+            title: 'Hur du blir fri från akne på ryggen: effektiva behandlingar, produkter och tips',
             content: '<p class="p200">Akne på ryggen, även kallad “bacne,” kan vara både frustrerande och smärtsamt. Precis som ansiktsakne uppstår ryggakne när hårsäckarna täpps till av döda hudceller och talg. Bakterier växer i dessa tilltäppta hårsäckar, vilket leder till inflammation och finnar.</p>
               <p class="p200 mt-m">För att effektivt hantera och behandla akne på ryggen är det viktigt att förstå dess orsaker. Hormonella förändringar, genetik, svett och friktion från kläder är vanliga bidragande faktorer. På grund av ryggens stora yta och svåråtkomliga läge kan behandlingen vara utmanande. En kombination av daglig hudvårdsrutin och specialiserade behandlingar kan hjälpa till att minska och förebygga akne på ryggen.</p>',
             image_small: null,
@@ -79,7 +79,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Varför',
             title: ' får man akne på ryggen?',
-            content: '<p class="p200">ryggakne orsakas av flera olika faktorer. En viktig faktor är överproduktion av talg, ett oljigt ämne som utsöndras av talgkörtlarna i huden. När talg blandas med döda hudceller kan det blockera porerna, vilket leder till finnar och pormaskar.</p>
+            content: '<p class="p200">Ryggakne orsakas av flera olika faktorer. En viktig faktor är överproduktion av talg, ett oljigt ämne som utsöndras av talgkörtlarna i huden. När talg blandas med döda hudceller kan det blockera porerna, vilket leder till finnar och pormaskar.</p>
 
             <p class="p200 mt-m">Friktion från tighta kläder, tunga ryggsäckar och olika sportsutrustningar kan också leda till akne på ryggen. Dessutom kan användning av vissa hudvårdsprodukter bidra till problem genom att förorena porerna eller irritera huden.</p>',
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, stress och överdriven rengöring är ytterligare faktorer som kan förvärra akne. Hormoner kan öka talgproduktionen, medan stress påverkar kroppens immunförsvar och inflammationsnivåer. Överdriven skrubbning kan irritera huden och leda till mer akne.</p>
@@ -88,7 +88,7 @@ $trivias = array(
 
             <p class="p200 mt-xl"><strong>Grundorsaker till akne på ryggen inkluderar:</strong></p>
 
-            <ul><li class="mt-xl"><strong>Friktion och Tryck:</strong> thighta kläder, ryggsäckar eller idrottsutrustning kan orsaka finnar.</li>
+            <ul><li class="mt-xl"><strong>Friktion och tryck:</strong> thighta kläder, ryggsäckar eller idrottsutrustning kan orsaka finnar.</li>
             <li class="mt-xl"><strong>Genetik:</strong> Akne kan vara ärftligt.</li>
             <li class="mt-xl"><strong>Hormonella förändringar:</strong> Speciellt under tonåren eller stressiga perioder.</li></ul>',
 
@@ -125,15 +125,15 @@ $trivias = array(
             prefix: 'Hur',
             title: ' får man bort akne på ryggen hemma?',
             content: '<p class="p200">Att få bort akne på ryggen kan vara en utmanande process, men med rätt strategi och tålamod kan du bli av med aknen. Här kommer några konkreta tips och behandlingsmetoder som kan hjälpa dig att bli av med dessa irriterande finnar.</p>',
-            extended_content: '<ul><li class="mt-xl"><strong>Daglig Rengöring:</strong> En av de mest effektiva stegen för behandling av akne på ryggen är att rengöra huden regelbundet. Använd en akne-rengöring som innehåller exfolierande ingredienser som är bra på att hålla huden och porerna rena.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Daglig rengöring:</strong> En av de mest effektiva stegen för behandling av akne på ryggen är att rengöra huden regelbundet. Använd en akne-rengöring som innehåller exfolierande ingredienser som är bra på att hålla huden och porerna rena.</li>
 
-            <li class="mt-xl"><strong>Undvik tighta Klädesplagg:</strong> Friktion från tätt åtsittande kläder kan förvärra akne på ryggen. Försök att bära löst sittande kläder i andningsbara material för att minimera hudirritation.</li>
+            <li class="mt-xl"><strong>Undvik tighta klädesplagg:</strong> Friktion från tätt åtsittande kläder kan förvärra akne på ryggen. Försök att bära löst sittande kläder i andningsbara material för att minimera hudirritation.</li>
 
             <li class="mt-xl"><strong>Behandlande produkter:</strong> Produkter som innehåller ingredienser som är antiinflammatoriska och bakteridödande kan vara effektiva för att behandla akne på ryggen. Applicera dessa produkter enligt anvisningarna och se till att hålla dig till en konsekvent rutin.</li>
 
-            <li class="mt-xl"><strong>Håll Huden Hydrerad:</strong> Ibland kan torkar ut huden leda till ökad talgproduktion, vilket kan förvärra akne. Använd en oljefri fuktighetskräm för att hålla huden i balans.</li>
+            <li class="mt-xl"><strong>Håll huden hydrerad:</strong> Ibland kan torkar ut huden leda till ökad talgproduktion, vilket kan förvärra akne. Använd en oljefri fuktighetskräm för att hålla huden i balans.</li>
 
-            <li class="mt-xl"><strong>Undvik Att Peta och pilla på Finnarna:</strong> Det kan vara frestande att klämma eller peta på akne, men detta kan leda till inflammation och ärrbildning. Låt produkterna göra sitt jobb och undvik att manipulera finnarna.</li>
+            <li class="mt-xl"><strong>Undvik Att peta och pilla på finnarna:</strong> Det kan vara frestande att klämma eller peta på akne, men detta kan leda till inflammation och ärrbildning. Låt produkterna göra sitt jobb och undvik att manipulera finnarna.</li>
 
             <li class="mt-xl"><strong>Konsultera med en AcneSpecialist:</strong> Om ingen av dessa metoder ger resultat, eller om du har grov akne på ryggen, är det bäst att söka professionell hjälp. Vi på AcneSpecialisten kan rekommendera behandlingar och effektiva hudvårdsprodukter.</li></ul>
 
