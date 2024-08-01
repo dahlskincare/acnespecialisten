@@ -12,20 +12,20 @@
       <meta name="keywords" content="acnespecialisten, hudspecialist, hudspecialist stockholm" class="l10n">
 
 
-      <meta property="og:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
+      <meta property="og:title" content="AcneSpecialisten | Erfarna hudspecialister inom hudproblem i Stockholm" />
       <meta property="og:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
-      <meta property="og:image" content="images/about-desktop.webp" />
-      <meta property="twitter:title" content="AcneSpecialisten | Erfarna Hudspecialister inom hudproblem i Stockholm" />
+      <meta property="og:image" content="bilder/start/banner-desktop.webp" />
+      <meta property="twitter:title" content="AcneSpecialisten | Erfarna hudspecialister inom hudproblem i Stockholm" />
       <meta property="twitter:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
-      <meta property="twitter:image" content="images/about-desktop.webp" />
+      <meta property="twitter:image" content="bilder/start/banner-desktop.webp" />
 
       <?php
       include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php');
       include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/organization.php');
       include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/local_business.php');
       ?>
-      <link rel="preload" as="image" href="images/banner-desktop.webp" media="(min-width: 984px)">
-      <link rel="preload" as="image" href="images/banner-mobile.webp" media="(max-width: 983px)">
+      <link rel="preload" as="image" href="bilder/start/banner-desktop.webp" media="(min-width: 984px)">
+      <link rel="preload" as="image" href="bilder/start/banner-mobile.webp" media="(max-width: 983px)">
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="/index.css">
 </head>
@@ -463,9 +463,9 @@
                                           AcneSpecialisten är en del av Sveriges Skönhetscenter som har valt att fokusera helt på hudproblem. Genom att specialisera oss inom detta område kan vi erbjuda expertis, behandlingar och produkter anpassade specifikt för att hantera och förbättra hudens hälsa hos dem som lider av akne och andra hudproblem.
                                     </div>
                                     <picture class="is-hidden-tablet">
-                                          <source media="(max-width: 799px)" srcset="images/about-mobile.webp">
-                                          <source media="(min-width: 800px)" srcset="images/about-desktop.webp">
-                                          <img src="images/about-mobile.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="364" height="364" />
+                                          <source media="(max-width: 799px)" srcset="bilder/start/about-mobile.webp">
+                                          <source media="(min-width: 800px)" srcset="bilder/start/about-desktop.webp">
+                                          <img src="bilder/start/about-mobile.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="364" height="364" />
                                     </picture>
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
@@ -515,9 +515,9 @@
                         </div>
                         <div id="about-image-desktop">
                               <picture>
-                                    <source media="(max-width: 799px)" srcset="images/about-mobile.webp">
-                                    <source media="(min-width: 800px)" srcset="images/about-desktop.webp">
-                                    <img src="images/about-desktop.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="632" height="632" />
+                                    <source media="(max-width: 799px)" srcset="bilder/start/about-mobile.webp">
+                                    <source media="(min-width: 800px)" srcset="bilder/start/about-desktop.webp">
+                                    <img src="bilder/start/about-desktop.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="632" height="632" />
                               </picture>
                         </div>
                   </section>
