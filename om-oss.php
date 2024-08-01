@@ -146,7 +146,7 @@ $path_segments = [
                         <div>
                             <picture>
                                 <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-4.webp">
-                                <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-1.webp">
+                                <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-4.webp">
                                 <img src="bilder/om-oss/mobile/slide-4.webp" alt="Method" title="Method" width="358" height="272" />
                             </picture>
                         </div>
