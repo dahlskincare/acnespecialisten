@@ -49,7 +49,7 @@ $description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupnin
 
 <ul><li>Ice Pick ärr - Små, smala djupa stickhål i huden</li>
 <li>Boxcar ärr - Fyrkantiga, breda, boxliknande gropar </li>
-<li>Rolling ärr - vågliknande skålformade fördjupningar</li></ul>
+<li>Rolling ärr - Vågliknande skålformade fördjupningar</li></ul>
 
 <p class="p200 mt-m">Atrofiska ärr är särskilt vanliga efter inflammerad akne, men kan också uppstå efter t.ex vattkoppor, kirurgiska ingrepp eller andra hudtrauman.</p>
 
