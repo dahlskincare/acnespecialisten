@@ -54,7 +54,7 @@ $green_banner_content = new GreenBannerContent(
 
 $articles = array(
       new Article(
-            title: 'Hur Du Blir Fri Från Akne På Ryggen: Effektiva Behandlingar, Produkter och Tips',
+            title: 'Hur du blir fri från akne på ryggen: effektiva behandlingar, produkter och tips',
             content: '<p class="p200">Akne på ryggen, även kallad “bacne,” kan vara både frustrerande och smärtsamt. Precis som ansiktsakne uppstår ryggakne när hårsäckarna täpps till av döda hudceller och talg. Bakterier växer i dessa tilltäppta hårsäckar, vilket leder till inflammation och finnar.</p>
               <p class="p200 mt-m">För att effektivt hantera och behandla akne på ryggen är det viktigt att förstå dess orsaker. Hormonella förändringar, genetik, svett och friktion från kläder är vanliga bidragande faktorer. På grund av ryggens stora yta och svåråtkomliga läge kan behandlingen vara utmanande. En kombination av daglig hudvårdsrutin och specialiserade behandlingar kan hjälpa till att minska och förebygga akne på ryggen.</p>',
             image_small: null,
