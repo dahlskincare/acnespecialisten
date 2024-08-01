@@ -87,7 +87,7 @@ $types_title = 'Behandlingar efter problem';
 $types_description = null;
 $types = array(
     new Service(
-        title: 'Dermapen mot Acneärr',
+        title: 'Dermapen mot acneärr',
         duration: '50 min',
         price: '2595 kr',
         content: 'Med mikronålar skapas små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
@@ -107,7 +107,7 @@ $types = array(
         url_title: 'Läs mer om Dermapen mot acneärr',
     ),
     new Service(
-        title: 'Dermapen mot Stora Porer',
+        title: 'Dermapen mot stora porer',
         duration: '50 min',
         price: '2595 kr',
         content: 'Stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
@@ -127,7 +127,7 @@ $types = array(
         url_title: 'Läs mer om Dermapen mot stora porer',
     ),
     new Service(
-        title: 'Dermapen mot Rynkor & Fina Linjer',
+        title: 'Dermapen mot rynkor & fina linjer',
         duration: '50 min',
         price: '2595 kr',
         content: 'Använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
@@ -147,7 +147,7 @@ $types = array(
         url_title: 'Läs mer om mogen hy',
     ),
     new Service(
-        title: 'Dermapen mot Pigmentfläckar',
+        title: 'Dermapen mot pigmentfläckar',
         duration: '50 min',
         price: '2595 kr',
         content: 'Främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
@@ -167,7 +167,7 @@ $types = array(
         url_title: 'Läs mer om pigmentfläckar',
     ),
     new Service(
-        title: 'Dermapen mot Bristningar',
+        title: 'Dermapen mot bristningar',
         duration: '50 min',
         price: '2595 kr',
         content: 'Stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
@@ -187,7 +187,7 @@ $types = array(
         url_title: 'Läs mer om bristningar',
     ),
     new Service(
-        title: 'Dermapen mot Aktiv Acne',
+        title: 'Dermapen mot aktiv acne',
         duration: '50 min',
         price: '2595 kr',
         content: 'Behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
