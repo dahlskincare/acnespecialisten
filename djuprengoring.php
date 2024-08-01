@@ -18,7 +18,7 @@ $model = new Service(
     title: 'Djuprengöring ansikte',
     duration: '60 min',
     price: 'Från 799 kr',
-    content: '<p class="p200">EEn djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring. Behandlingen inkluderar en intensiv portömning som öppnar upp porerna och rensar dem på djupet, vilket ger en klarare och mer balanserad hud.</p>',
+    content: '<p class="p200">En djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring. Behandlingen inkluderar en intensiv portömning som öppnar upp porerna och rensar dem på djupet, vilket ger en klarare och mer balanserad hud.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Djuprengöring',
@@ -56,8 +56,6 @@ $model = new Service(
         )
     ),
 );
-
-$floating_box = 'Effektiv djuprengöring.';
 
 $description_title = 'Vad är en djuprengöring?';
 $description_text = '<p class="p200">Våra djuprengöringar är specialiserade porrengöringsbehandlingar som effektivt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
