@@ -52,7 +52,7 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Orsaker, Symptom och Effektiva Behandlingar';
+$about_title = 'Orsaker, symptom och effektiva behandlingar';
 
 $trivias = array(
       new ProblemTrivia(

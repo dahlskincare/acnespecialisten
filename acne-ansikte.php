@@ -140,11 +140,11 @@ $trivias = array(
             title: ' får man bort akne i ansiktet?',
             content: '<p class="p200">När det kommer till att behandla akne i ansiktet finns det en rad olika metoder som kan hjälpa dig att nå renare och friskare hud. Viktigt är att förstå att det inte finns en universallösning, och ofta kan en kombination av behandlingar vara den mest effektiva strategin.</p>',
 
-            extended_content: '<ul><li class="mt-xl"><strong>Behandlingar hos Hudterapeut:</strong> En licensierad hudterapeut kan erbjuda mer avancerade behandlingar som kemisk peeling och microneedling. Kemisk peeling innebär applicering av en kemisk syra som får huden att fjälla och därmed främja ny, frisk hud att växa fram. Microneedling använder små nålar för att skapa mikrokanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens textur och ton.</li>
+            extended_content: '<ul><li class="mt-xl"><strong>Behandlingar hos hudterapeut:</strong> En licensierad hudterapeut kan erbjuda mer avancerade behandlingar som kemisk peeling och microneedling. Kemisk peeling innebär applicering av en kemisk syra som får huden att fjälla och därmed främja ny, frisk hud att växa fram. Microneedling använder små nålar för att skapa mikrokanaler i huden, vilket stimulerar kollagenproduktionen och förbättrar hudens textur och ton.</li>
 
             <li class="mt-xl"><strong>Laserbehandling:</strong> Laserbehandling har blivit en populär metod för att hantera både aktiv akne och akneärr. Laserljuset riktas mot talgkörtlarna, vilket minskar talgproduktionen och därmed hindrar nya utbrott. Dessutom kan laserbehandling hjälpa till att minska inflammerade lesioner och förbättra hudens övergripande utseende.</li>
 
-            <li class="mt-xl"><strong>Egenvård och Hudvårdsprodukter:</strong> Att etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</li></ul>
+            <li class="mt-xl"><strong>Egenvård och hudvårdsprodukter:</strong> Att etablera en konsekvent hudvårdsrutin är avgörande. Genom att balansera talgproduktionen kan du minska uppkomsten av akne, eftersom överdriven talgproduktion ofta är orsaken till akne.</li></ul>
 
             <p class="p200 mt-xl">Oavsett vilken metod du väljer, handlar hudvård om att ta hand om sig själv. Att visa omsorg och engagemang för din hud kan i slutändan leda till förbättrad självkänsla och välmående. Kom ihåg, du är inte ensam och det finns hjälp att få.</p>',
 
