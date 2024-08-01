@@ -48,8 +48,7 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla";
 
-$treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, påbörjar vi behandlingen av stora porer. Målet är att djuprengöra och minska porernas synlighet, vilket kan påverka hudens textur och utseende. Vi tillämpar olika metoder anpassade efter dina unika behov, för att maximera resultaten och minimera obehaget.</p>
-<p class="p200>Under denna process rengör vi porerna, tar bort döda hudceller och överflödig talg samt balanserar talgproduktionen. Vi utför även porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Behandlingsplanen anpassas kontinuerligt efter hur din hud svarar på behandlingen, för att säkerställa bästa möjliga resultat.</p>';
+
 
 $services = array(
 
@@ -61,7 +60,6 @@ $services = array(
         title: 'Ansiktsbehandling mot stora porer',
         duration: '60 min',
         price: 'Från 1295 kr',
-        icons: array(),
         content: '<p class="p200">Behandlingen, som ofta kallas porrengöring eller portömning, riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den börjar med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring där vi manuellt klämmer ut det som samlats i porerna, såsom döda hudceller och talg, som orsakar att porerna vidgas. Behandlingen avslutas med en mask som drar ihop porernas storlek och en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
         consultation_url_label: 'Boka konsultation',
@@ -72,6 +70,8 @@ $services = array(
         url: '/problemhy.php',
         url_label: 'Läs mer om ansiktsbehandling',
         url_title: 'Läs mer om ansiktsbehandling',
+        short_title: 'Laser mot ärr från finnar'
+
     ),
 
     new Service(
@@ -82,7 +82,6 @@ $services = array(
         title: 'Effektiv laserbehandling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array(),
         content: '<p class="p200">Laserbehandling är en effektiv metod för att reducera storleken på stora porer och få dem att se mindre ut. Genom att använda fokuserad ljusenergi tränger laserstrålen djupt ner i huden och värmer upp de djupare lagren. Denna värme stimulerar kollagenproduktionen och omstrukturerar hudens stödvävnad. När kollagenproduktionen ökar, stramas huden upp, vilket får porerna att dra ihop sig och krympa. Resultatet är en jämnare hudtextur och minskad synlighet av porer, vilket ger huden ett friskare och mer ungdomligt utseende.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
         consultation_url_label: 'Boka konsultation',
@@ -93,6 +92,7 @@ $services = array(
         url: '/hudbehandlingar/laser-mot-hudproblem/',
         url_label: 'Läs mer om laser',
         url_title: 'Läs mer om laser mot stora porer',
+        short_title: 'Laser mot ärr från finnar'
     ),
 
     new Service(
@@ -103,7 +103,6 @@ $services = array(
         title: 'Kemisk peeling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array(),
         content: '<p class="p200">För dem med stora porer är kemisk peeling en framstående behandlingsmetod. Genom att använda kraftfulla syror tränger behandlingen ner i huden och porerna, där den löser upp porblockeringar som gör att porerna ser större ut. Genom att effektivt avlägsna döda hudceller och överskott av talg, hjälper kemisk peeling till att förminska porernas synlighet. Detta skapar utrymme för ny, frisk hud att komma fram, vilket leder till en jämnare hudtextur och ökad klarhet.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
@@ -125,7 +124,6 @@ $services = array(
         title: 'Effektiv microneedling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array(),
         content: '<p class="p200">Microneedling är en beprövad metod för att behandla problem med stora porer. Genom att använda tunna mikronålar skapas små kanaler i huden. Denna process aktiverar hudens naturliga läkningsmekanism och stimulerar produktionen av kollagen och elastin. När produktionen av dessa viktiga proteiner ökar, stramas huden upp och porernas synlighet minskar. Resultatet är en övergripande förbättring av hudens kvalitet och ton, med en jämnare och mer strålande hudtextur.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
