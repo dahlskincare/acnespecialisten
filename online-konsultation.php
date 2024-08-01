@@ -32,7 +32,7 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
 
 <head>
 
-    <link rel="canonical" href="https://www.acnespecialisten.se/online-konsultation.php/" />
+    <link rel="canonical" href="https://www.acnespecialisten.se/online-konsultation.php" />
 
     <title class="l10n">Hudanalys online | AcneSpecialiste</title>
     <meta name="description" content="Gör en kostnadsfri hudanalys online! Vi ✓Identifierar din hudtyp ✓Tar fram en behandlingsplan ✓Rekommenderar hudvårdsprodukter. Boka vår hudkonsultation →" class="l10n">
