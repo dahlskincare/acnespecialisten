@@ -22,7 +22,7 @@ $section-margin-top: $xl + $xl5;
 section#banner {
     #banner-background {
         padding: 108px 0 74px 0;
-        background-image: url("images/banner-mobile.webp");
+        background-image: url("bilder/start/banner-mobile.webp");
         background-size: cover;
         background-position: center center;
         position: relative;
@@ -124,7 +124,7 @@ section#banner {
             position: relative;
             height: 564px;
             box-sizing: border-box;
-            background-image: url("images/banner-desktop.webp");
+            background-image: url("bilder/start/banner-desktop.webp");
             overflow: hidden;
             padding: 0;
             display: flex;
