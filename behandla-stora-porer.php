@@ -71,6 +71,8 @@ $services = array(
         url: '/problemhy.php',
         url_label: 'Läs mer om ansiktsbehandling',
         url_title: 'Läs mer om ansiktsbehandling',
+        short_title: 'Laser mot ärr från finnar'
+
     ),
 
     new Service(
@@ -91,6 +93,7 @@ $services = array(
         url: '/hudbehandlingar/laser-mot-hudproblem/',
         url_label: 'Läs mer om laser',
         url_title: 'Läs mer om laser mot stora porer',
+        short_title: 'Laser mot ärr från finnar'
     ),
 
     new Service(
@@ -101,7 +104,6 @@ $services = array(
         title: 'Kemisk peeling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array(),
         content: '<p class="p200">För dem med stora porer är kemisk peeling en framstående behandlingsmetod. Genom att använda kraftfulla syror tränger behandlingen ner i huden och porerna, där den löser upp porblockeringar som gör att porerna ser större ut. Genom att effektivt avlägsna döda hudceller och överskott av talg, hjälper kemisk peeling till att förminska porernas synlighet. Detta skapar utrymme för ny, frisk hud att komma fram, vilket leder till en jämnare hudtextur och ökad klarhet.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
@@ -123,7 +125,6 @@ $services = array(
         title: 'Effektiv microneedling mot stora porer',
         duration: '30-60 min',
         price: '1295 kr',
-        icons: array(),
         content: '<p class="p200">Microneedling är en beprövad metod för att behandla problem med stora porer. Genom att använda tunna mikronålar skapas små kanaler i huden. Denna process aktiverar hudens naturliga läkningsmekanism och stimulerar produktionen av kollagen och elastin. När produktionen av dessa viktiga proteiner ökar, stramas huden upp och porernas synlighet minskar. Resultatet är en övergripande förbättring av hudens kvalitet och ton, med en jämnare och mer strålande hudtextur.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
