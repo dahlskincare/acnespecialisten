@@ -9,8 +9,8 @@ $path_segments = array(
 $salons = array(
     new Salon(
         title: 'Östermalm',
-        image_small: 'bilder/kliniker/358x272/strandvagen.jpg',
-        image_large: 'bilder/kliniker/424x526/strandvagen.jpg',
+        image_small: 'bilder/kontakt/mobile/ostermalm.webp',
+        image_large: 'bilder/kontakt/desktop/ostermalm.webp',
         address: 'Strandvägen 7 <br>114 51 Stockholm</br>',
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',
@@ -21,8 +21,8 @@ $salons = array(
     ),
     new Salon(
         title: 'Södermalm',
-        image_small: 'bilder/kliniker/358x272/sodermalm.jpg',
-        image_large: 'bilder/kliniker/424x526/sodermalm.jpg',
+        image_small: 'bilder/kontakt/mobile/sodermalm.webp',
+        image_large: 'bilder/kontakt/desktop/sodermalm.webp',
         address: 'Hornsgatan 47 <br>118 49 Stockholm</br>',
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',
@@ -33,8 +33,8 @@ $salons = array(
     ),
     new Salon(
         title: 'Sundbyberg',
-        image_small: 'bilder/kliniker/358x272/sundbyberg.jpg',
-        image_large: 'bilder/kliniker/424x526/sundbyberg.jpg',
+        image_small: 'bilder/kontakt/mobile/sundbyberg.webp',
+        image_large: 'bilder/kontakt/desktop/sundbyberg.webp',
         address: 'Sturegatan 32 <br>172 31 Sundbyberg</br>',
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',

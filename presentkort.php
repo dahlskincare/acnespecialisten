@@ -220,8 +220,8 @@ if (form_completed()) {
                 </section>
                 <section id="image">
                     <picture>
-                        <source media="(max-width: 799px)" srcset="presentkort/small.webp">
-                        <source media="(min-width: 800px)" srcset="presentkort/large.webp">
+                        <source media="(max-width: 799px)" srcset="/bilder/presentkort/mobile/banner.webp">
+                        <source media="(min-width: 800px)" srcset="/bilder/presentkort/desktop/banner.webp">
                         <img src="presentkort/small.webp" alt="Presentkort" title="Presentkort" width="360" height="274" />
                     </picture>
                 </section>
@@ -465,14 +465,14 @@ if (form_completed()) {
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Välj Belopp eller Behandling</div>
+                        <div class="h500 is-hidden-desktop l10n">Välj belopp eller behandling</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/konsultation.webp">
-                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/konsultation.webp">
-                            <img src="bilder/behandlingar/358x274/konsultation.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="/bilder/presentkort/mobile/slide-1.webp">
+                            <source media="(min-width: 1024px)" srcset="/bilder/presentkort/desktop/slide-1.webp">
+                            <img src="/bilder/presentkort/mobile/slide-1.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Välj Belopp eller Behandling</div>
+                            <div class="gcf-header is-hidden-touch l10n">Välj belopp eller behandling</div>
                             <div class="gcf-text l10n">
                                 På AcneSpecialisten ger vi dig flexibiliteten att skräddarsy ditt presentkort. Du kan välja att antingen ange ett specifikt belopp eller namnge en särskild behandling som du önskar ge bort. Detta gör våra presentkort till en personlig och uppskattad gåva, anpassad efter mottagarens behov och önskemål.
                             </div>
@@ -481,14 +481,14 @@ if (form_completed()) {
 
                     </div>
                     <div class="gift-card-flyer">
-                        <div class="h500 is-hidden-desktop l10n">Fungerar på Alla Våra Kliniker</div>
+                        <div class="h500 is-hidden-desktop l10n">Fungerar på alla våra kliniker</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp">
-                            <source media="(min-width: 1024px)" srcset="bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp">
-                            <img src="bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på Alla Våra Kliniker" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="/bilder/presentkort/mobile/slide-2.webp">
+                            <source media="(min-width: 1024px)" srcset="/bilder/presentkort/desktop/slide-2.webp">
+                            <img src="/bilder/presentkort/mobile/slide-2.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på alla våra kliniker" width="358" height="272" />
                         </picture>
                         <div>
-                            <div class="gcf-header is-hidden-touch l10n">Fungerar på Alla Våra Kliniker</div>
+                            <div class="gcf-header is-hidden-touch l10n">Fungerar på alla våra kliniker</div>
                             <div class="gcf-text l10n">
                                 Våra presentkort är utformade för ultimat flexibilitet och kan användas på alla AcneSpecialistens kliniker. Oavsett vilken av våra lokaler mottagaren väljer att besöka, kan presentkortet lösas in hos någon av våra kvalificerade hudterapeuter. Presentkortet kan användas för alla våra expertbehandlingar vilket ger mottagaren friheten att välja den upplevelse som passar dem bäst.
                             </div>

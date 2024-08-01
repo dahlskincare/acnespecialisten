@@ -11,8 +11,8 @@ $steps = array(
     new StepModel(
         title: '01. Identifiera',
         content: "På Acnespecialisten inleder vi din hudvårdsresa med en gratis hudkonsultation på klinik eller online. Under denna session identifierar våra experter din hudtyp och eventuella hudproblem. Denna noggranna analys är grunden för att skapa en effektiv och personligt anpassad behandlingsplan.",
-        image_small: 'bilder/hudbehandlingar/358x274/konsultation.webp',
-        image_large: 'bilder/hudbehandlingar/424x456/konsultation.webp',
+        image_small: '/bilder/metoden/mobile/metoden-identifiera.webp',
+        image_large: '/bilder/metoden/desktop/metoden-identifiera.webp',
         url: 'gratis-hudkonsultation.php',
         url_label: 'Boka en gratis konsultation',
         url_title: 'Boka en gratis hudkonsultation hos AcneSpecialisten',
@@ -20,8 +20,8 @@ $steps = array(
     new StepModel(
         title: '02. Behandla',
         content: "Efter att vi har identifierat ditt specifika hudproblem, går vi vidare till nästa steg – att inleda behandlingen med den metod som bäst passar just ditt tillstånd. Valet av behandlingsmetod baseras på problemets art och dina individuella behov.",
-        image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-        image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+        image_small: '/bilder/metoden/mobile/metoden-behandla.webp',
+        image_large: '/bilder/metoden/desktop/metoden-behandla.webp',
         url: '/hudbehandlingar',
         url_label: 'Se våra behandlingar',
         url_title: 'Se våra behandlingar',
@@ -29,8 +29,8 @@ $steps = array(
     new StepModel(
         title: '03. Förebygga',
         content: "För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.",
-        image_small: 'bilder/hudbehandlingar/358x274/produkter.webp',
-        image_large: 'bilder/hudbehandlingar/424x456/produkter.webp',
+        image_small: '/bilder/metoden/mobile/metoden-forebygga.webp',
+        image_large: '/bilder/metoden/desktop/metoden-forebygga.webp',
         url: 'https://dahlskincare.se',
         url_label: 'Upptäck produkterna',
         url_title: 'Se produkterna',
@@ -39,8 +39,8 @@ $steps = array(
     new StepModel(
         title: '04. Reparera',
         content: "I det sista steget i vår metod tar vi hand om eventuella återstående effekter av hudproblem, såsom ärr och pigmentförändringar. Vi erbjuder effektiva behandlingar för att reparera och återställa huden, och ge dig en hälsosam och strålande hy.",
-        image_small: 'bilder/hudbehandlingar/358x274/microneedling.webp',
-        image_large: 'bilder/hudbehandlingar/424x456/microneedling.webp',
+        image_small: '/bilder/metoden/mobile/metoden-reparera.webp',
+        image_large: '/bilder/metoden/desktop/metoden-reparera.webp',
         url: 'behandla-acnearr.php',
         url_label: 'Läs mer om eftervård',
         url_title: 'Läs mer om eftervård',

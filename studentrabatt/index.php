@@ -38,18 +38,18 @@ $path_segments = [
                 </section>
                 <section id="image">
                     <picture>
-                        <source media="(max-width: 799px)" srcset="/bilder/studentrabatt/studentrabatt-liten.jpg">
-                        <source media="(min-width: 800px)" srcset="/bilder/studentrabatt/studentrabatt-stor.jpg">
-                        <img src="/bilder/studentrabatt/studentrabatt-liten.jpg" alt="Studentrabatt" title="Studentrabatt" width="360" height="274" />
+                        <source media="(max-width: 799px)" srcset="/bilder/studentrabatt/mobile/banner.webp">
+                        <source media="(min-width: 800px)" srcset="/bilder/studentrabatt/desktop/banner.webp">
+                        <img src="/bilder/studentrabatt/mobile/banner.webp" alt="Studentrabatt" title="Studentrabatt" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="flyers">
                     <div class="gift-card-flyer">
                         <div class="h500 is-hidden-desktop l10n">Alla våra ansiktsbehandlingar</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/358x274/ansiktsbehandling.jpg">
-                            <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/424x456/ansiktsbehandling.jpg">
-                            <img src="/bilder/studentrabatt/358x274/ansiktsbehandling.jpg" alt="Alla våra hudvårdsbehandlingar" title="Alla våra hudvårdsbehandlingar" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/mobile/slide-1.webp">
+                            <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/desktop/slide-1.webp">
+                            <img src="/bilder/studentrabatt/mobile/slide-1.webp" alt="Alla våra hudvårdsbehandlingar" title="Alla våra hudvårdsbehandlingar" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Alla våra ansiktsbehandlingar</div>
@@ -63,9 +63,9 @@ $path_segments = [
                     <div class="gift-card-flyer">
                         <div class="h500 is-hidden-desktop l10n">Alla våra kliniker</div>
                         <picture>
-                            <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/358x274/ansiktsbehandling-mask.jpg">
-                            <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/424x456/ansiktsbehandling-mask.jpg">
-                            <img src="/bilder/studentrabatt/358x274/ansiktsbehandling-mask.jpg" alt="Alla Våra Kliniker" title="Alla våra kliniker" width="358" height="272" />
+                            <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/mobile/slide-2.webp">
+                            <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/desktop/slide-2.webp">
+                            <img src="/bilder/studentrabatt/mobile/slide-2.webp" alt="Alla Våra Kliniker" title="Alla våra kliniker" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Alla våra kliniker</div>
