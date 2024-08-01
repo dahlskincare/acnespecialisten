@@ -653,7 +653,7 @@ $path_segments = array(
             </div>
       </main>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-      <script src="/varumarken/brands.js"></script>
+      <script async src="/varumarken/brands.js"></script>
 </body>
 
 </html>
