@@ -51,22 +51,22 @@ $path_segments = [
                             </div>
                             <div id="s-first-images">
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/helhetslosning-1.webp">
-                                    <source media="(min-width: 800px)" srcset="bilder/om-oss/helhetslosning-1.webp">
-                                    <img src="bilder/om-oss/helhetslosning-1.webp" alt="Estetisk maskinbehandling" title="Maskinbehandling" width="114" height="214" />
+                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/desktop/slide-1-1.webp">
+                                    <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-1.webp">
+                                    <img src="bilder/om-oss/desktop/slide-1-1.webp" alt="Estetisk maskinbehandling" title="Maskinbehandling" width="114" height="214" />
                                 </picture>
                                 <picture>
-                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/helhetslosning-2.webp">
-                                    <source media="(min-width: 800px)" srcset="bilder/om-oss/helhetslosning-2.webp">
-                                    <img src="bilder/om-oss/helhetslosning-2.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
+                                    <source media="(max-width: 799px)" srcset="bilder/om-oss/desktop/slide-1-2.webp">
+                                    <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-2.webp">
+                                    <img src="bilder/om-oss/desktop/slide-1-2.webp.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
                                 </picture>
                             </div>
                         </div>
                         <div id="s-last">
                             <picture>
-                                <source media="(max-width: 799px)" srcset="bilder/om-oss/helhetslosning-3.webp">
-                                <source media="(min-width: 800px)" srcset="bilder/om-oss/helhetslosning-3.webp">
-                                <img src="bilder/om-oss/helhetslosning-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling" title="Maskinbehandling" width="114" height="272" />
+                                <source media="(max-width: 799px)" srcset="bilder/om-oss/desktop/slide-1-3.webp">
+                                <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-3.webp">
+                                <img src="bilder/om-oss/desktop/slide-1-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling" title="Maskinbehandling" width="114" height="272" />
                             </picture>
                         </div>
                     </div>
@@ -76,9 +76,9 @@ $path_segments = [
                     <h2 class="h500 l10n">Från start till mål – Din partner i holistisk hudvård</h2>
                     <p class="mt-m p200 l10n is-hidden-mobile">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                     <picture>
-                        <source media="(max-width: 799px)" srcset="bilder/om-oss/start-mal.webp">
-                        <source media="(min-width: 800px)" srcset="bilder/om-oss/start-mal.webp">
-                        <img src="bilder/om-oss/start-mal.webp" alt="Kvinna som får estetisk maskinbehandling" title="Från start till mål" width="358" height="274" />
+                        <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-2.webp">
+                        <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-2.webp">
+                        <img src="bilder/om-oss/mobile/slide-2.webp" alt="Kvinna som får estetisk maskinbehandling" title="Från start till mål" width="358" height="274" />
                     </picture>
                     <p class="p200 mt-xl l10n is-hidden-tablet">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling genom kostnadsfria återbesök. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                 </section>
@@ -118,9 +118,9 @@ $path_segments = [
                     <div class="flex-row align-center">
                         <div>
                             <picture>
-                                <source media="(max-width: 799px)" srcset="bilder/om-oss/beprovad-expertis.webp">
-                                <source media="(min-width: 800px)" srcset="bilder/om-oss/beprovad-expertis.webp">
-                                <img src="bilder/om-oss/beprovad-expertis.webp" alt="Hudterapeut som utför estetisk maskinbehandling i ansiktet på en man" title="Estetisk maskinbehandling" width="358" height="272" />
+                                <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-3.webp">
+                                <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-3.webp">
+                                <img src="bilder/om-oss/mobile/slide-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling i ansiktet på en man" title="Estetisk maskinbehandling" width="358" height="272" />
                             </picture>
                         </div>
                         <div class="is-hidden-touch">
@@ -145,9 +145,9 @@ $path_segments = [
                         </div>
                         <div>
                             <picture>
-                                <source media="(max-width: 799px)" srcset="bilder/om-oss/beprovad-expertis.webp">
-                                <source media="(min-width: 800px)" srcset="bilder/om-oss/beprovad-expertis.webp">
-                                <img src="bilder/om-oss/beprovad-expertis.webp" alt="Method" title="Method" width="358" height="272" />
+                                <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-4.webp">
+                                <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-1.webp">
+                                <img src="bilder/om-oss/mobile/slide-4.webp" alt="Method" title="Method" width="358" height="272" />
                             </picture>
                         </div>
                     </div>
