@@ -52,26 +52,23 @@ $treat_content = '<p class="p200">När din hudtyp och storleken på dina porer h
 <p class="p200>Under denna process rengör vi porerna, tar bort döda hudceller och överflödig talg samt balanserar talgproduktionen. Vi utför även porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Behandlingsplanen anpassas kontinuerligt efter hur din hud svarar på behandlingen, för att säkerställa bästa möjliga resultat.</p>';
 
 $services = array(
+
     new Service(
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_title: 'Effektiv Ansiktsbehandling mot Stora Porer på AcneSpecialisten',
         image_alt: 'Bild illustrerar en ansiktsbehandling mot stora porer utförd på AcneSpecialisten',
-
-        title: 'Ansiktsbehandling mot Stora Porer',
+        title: 'Ansiktsbehandling mot Stora porer',
         duration: '60 min',
-        price: 'Från 799 kr',
+        price: 'Från 1295 kr',
         icons: array(),
         content: '<p class="p200">Behandlingen, som ofta kallas porrengöring eller portömning, riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den börjar med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring där vi manuellt klämmer ut det som samlats i porerna, såsom döda hudceller och talg, som orsakar att porerna vidgas. Behandlingen avslutas med en mask som drar ihop porernas storlek och en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
-
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_LargePores',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för Stora Porer på AcneSpecialisten',
-
         booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_LargePores&method=Service_Facial_PoreExtraction',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Din Ansiktsbehandling mot Stora Porer på AcneSpecialistenn',
-
         url: '/problemhy.php',
         url_label: 'Läs mer om ansiktsbehandling',
         url_title: 'Läs mer om ansiktsbehandling mot pormaskar',
