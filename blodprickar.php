@@ -21,8 +21,8 @@ $image_title = 'Effektiv behandling av blodprickar';
 $image_alt = 'Bild som illustrerar behandling av blodprickar';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Behandling av Hemangiom (Blodprickar)',
-      description: 'Röda blodprickar i huden, även kända som hemangiom eller smultronmärken, är små, röda hudförändringar som ofta uppkommer i vuxen ålder. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På Acnespecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.',
+      title: 'Behandling av hemangiom (Blodprickar)',
+      description: 'Röda blodprickar i huden, även kända som hemangiom eller smultronmärken, är små, röda hudförändringar som ofta uppkommer i vuxen ålder. I detta avsnitt förklarar vi hur blodprickar uppstår och de mest effektiva behandlingsmetoderna för att ta bort dem. På AcneSpecialisten använder vi avancerade tekniker för att säkert och effektivt behandla blodprickar, vilket ger dig en jämnare och klarare hudton.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för Hudförändringar'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_smultronmarke', 'Boka denna behandling'),
