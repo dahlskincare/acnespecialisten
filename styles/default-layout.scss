@@ -629,6 +629,8 @@ html {
                             align-items: center;
                             justify-content: space-between;
                             @include p100;
+                            margin-left: 48px;
+                            margin-right: 48px;
 
                             .legend {
                                 text-align: center;
