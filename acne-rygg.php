@@ -78,10 +78,10 @@ $trivias = array(
       ),
       new ProblemTrivia(
             prefix: 'Varför',
-            title: ' får man Akne på Ryggen?',
+            title: ' får man akne på ryggen?',
             content: '<p class="p200">ryggakne orsakas av flera olika faktorer. En viktig faktor är överproduktion av talg, ett oljigt ämne som utsöndras av talgkörtlarna i huden. När talg blandas med döda hudceller kan det blockera porerna, vilket leder till finnar och pormaskar.</p>
 
-            <p class="p200 mt-m">Friktion från tighta kläder, tunga ryggsäckar och olika sportsutrustningar kan också leda till akne på ryggen. Dessutom kan användning av vissa hudvårdsprodukter bidra till problem genom att förorena porerna eller irritera huden. </p>',
+            <p class="p200 mt-m">Friktion från tighta kläder, tunga ryggsäckar och olika sportsutrustningar kan också leda till akne på ryggen. Dessutom kan användning av vissa hudvårdsprodukter bidra till problem genom att förorena porerna eller irritera huden.</p>',
             extended_content: '<p class="p200 mt-xl">Hormonella förändringar, stress och överdriven rengöring är ytterligare faktorer som kan förvärra akne. Hormoner kan öka talgproduktionen, medan stress påverkar kroppens immunförsvar och inflammationsnivåer. Överdriven skrubbning kan irritera huden och leda till mer akne.</p>
 
             <p class="p200 mt-xl">En annan vanlig orsak är follikulär hyperkeratos, en process där överflödig keratin gör att hudens yta blir förtjockad och porerna blockeras. Bakterier, särskilt Cutibacterium acnes, trivs i dessa tilltäppta porer och kan förvärra inflammationen.</p>
@@ -97,7 +97,7 @@ $trivias = array(
 
       new ProblemTrivia(
             prefix: 'Orsaker',
-            title: ' till Akne I Nacken och på Axlarna',
+            title: ' till akne i nacken och på axlarna',
             content: '<p class="p200">Akne i nacken och på axlarna uppstår av liknande orsaker som akne på ryggen. Några av de huvudsakliga orsakerna inkluderar:</p>',
             extended_content: '<ul><li class="mt-xl"><strong>Överproduktion av talg:</strong> Talget kan täppa igen porerna och leda till akne.</li>
 
@@ -123,7 +123,7 @@ $trivias = array(
 
       new ProblemTrivia(
             prefix: 'Hur',
-            title: ' Får Man Bort Akne På Ryggen hemma?',
+            title: ' får man bort akne på ryggen hemma?',
             content: '<p class="p200">Att få bort akne på ryggen kan vara en utmanande process, men med rätt strategi och tålamod kan du bli av med aknen. Här kommer några konkreta tips och behandlingsmetoder som kan hjälpa dig att bli av med dessa irriterande finnar.</p>',
             extended_content: '<ul><li class="mt-xl"><strong>Daglig Rengöring:</strong> En av de mest effektiva stegen för behandling av akne på ryggen är att rengöra huden regelbundet. Använd en akne-rengöring som innehåller exfolierande ingredienser som är bra på att hålla huden och porerna rena.</li>
 
@@ -144,8 +144,8 @@ $trivias = array(
       ),
 
       new ProblemTrivia(
-            prefix: 'Profisionella',
-            title: ' Behandlingar Mot Akne På Ryggen',
+            prefix: 'Profesionella',
+            title: ' behandlingar mot akne på ryggen',
             content: '<p class="p200">Vi har över 30 års erfarenhet av att behandla akne på ryggen använder vi metoder anpassade till din specifika typ av ryggakne.</p>
 
             <p class="p200 mt-m">Det finns flera avancerade behandlingar som kan hjälpa dig att bli av med akne på ryggen. Här är några av de mest effektiva metoderna:</p>',

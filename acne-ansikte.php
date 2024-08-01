@@ -96,7 +96,7 @@ $trivias = array(
 
       new ProblemTrivia(
             prefix: 'När',
-            title: ' Ska Du Söka Hjälp För Svår Akne?',
+            title: ' ska du söka hjälp för svår akne?',
 
             content: '<p class="p200">Att leva med svår akne kan vara extremt påfrestande både fysiskt och känslomässigt. Du kanske har provat ett flertal olika behandlingar utan att se någon förbättring. Det är viktigt att veta när det är dags att söka professionell hjälp för din akne. Här är några tecken att hålla utkik efter:',
 
