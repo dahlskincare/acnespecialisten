@@ -145,4 +145,4 @@ if (!isset($faq_categories)) {
     </div>
 
 </div>
-<script src="includes/widgets/faq/faq.js"></script>
+<script async src="includes/widgets/faq/faq.js"></script>
