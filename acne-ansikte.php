@@ -53,7 +53,7 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Din guide till en problemfritt ansikte';
+$about_title = 'Din guide till ett problemfritt ansikte';
 
 $trivias = array(
       new ProblemTrivia(
