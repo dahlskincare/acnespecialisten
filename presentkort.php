@@ -56,8 +56,8 @@ if (form_completed()) {
     $file_size = $file['size'];
     $file_tmp_name = $file['tmp_name'];
     $file_content = file_get_contents($file_tmp_name);
-    $from = 'Acnespecialisten <auto@acnespecialisten.com>';
-    $to = "kund@acnespecialisten.se";
+    $from = 'Acnespecialisten <hej@acnespecialisten.se>';
+    $to = "presentkort@acnespecialisten.se";
     $subject = "Acnespecialisten gift card";
     $boundary = uniqid('np');  // Boundary string for multipart message
     $headers = "From: $from\r\n";
@@ -248,7 +248,7 @@ if (form_completed()) {
                                     </div>
                                 </form>
                                 <hr />
-                                <a href="swish://paymentrequest?token=<?php echo $token ?>&callbackurl=https%3A%2F%2Facnespecialisten.com%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
+                                <a href="swish://paymentrequest?token=<?php echo $token ?>&callbackurl=https%3A%2F%2Facnespecialisten.se%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
                             <?php } ?>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
