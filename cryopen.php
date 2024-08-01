@@ -45,7 +45,7 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/cryopen-forberedelser.webp',
         image_alt: 'Inför CryoPenbehandling',
         image_title: 'Inför CryoPenbehandling',
-        content: '<p class="p200">Vi erbjuder alltid en kostnadsfri konsultation inför din CryoPen-behandling. Under konsultationen möter du en av våra erfarna hudterapeuter som noggrant undersöker de hudförändringar du vill ta bort. Detta steg är avgörande för att skapa en skräddarsydd behandlingsplan och för att avgöra om CryoPen är den bästa metoden för dig.</p>
+        content: '<p class="p200">Vi erbjuder alltid en kostnadsfri konsultation inför din CryoPen behandling. Under konsultationen möter du en av våra erfarna hudterapeuter som noggrant undersöker de hudförändringar du vill ta bort. Detta steg är avgörande för att skapa en skräddarsydd behandlingsplan och för att avgöra om CryoPen är den bästa metoden för dig.</p>
         <p class="p200 mt-m">Förbered huden inför behandlingen genom att undvika att pilla eller irritera området. Utsätt inte huden för intensiv solning eller stark kyla innan din session. Under konsultationen får du omfattande information om hur du bäst förbereder dig och vad du kan förvänta dig av behandlingen. Om förhållandena tillåter kan vi ofta påbörja behandlingen direkt efter konsultationen.</p>
         <p class="p200 mt-m">Observera att vi endast behandlar godartade hudförändringar. Om du är osäker på om din hudåkomma är ofarlig, bör du först konsultera en läkare. Om den är ofarlig, boka en kostnadsfri CryoPen-konsultation där vi utformar en individuell behandlingsplan för dig.</p>',
     ),
