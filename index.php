@@ -5,9 +5,9 @@
 <head>
       <link rel="canonical" href="https://www.acnespecialisten.se" />
 
-      <title class="l10n">Din Hudspecialist i Stockholm och Online | AcneSpecialisten</title>
+      <title class="l10n">Din hudspecialist i Stockholm och Online | AcneSpecialisten</title>
 
-      <meta name="title" content="Din Hudspecialist i Stockholm och Online | AcneSpecialisten" class="l10n">
+      <meta name="title" content="Din hudspecialist i Stockholm och Online | AcneSpecialisten" class="l10n">
       <meta name="description" content="AcneSpecialisten har över 30 års erfarenhet av alla typer av hudproblem. Boka en gratis konsultation så hjälper våra hudspecialister dig med rätt hudvård." class="l10n">
       <meta name="keywords" content="acnespecialisten, hudspecialist, hudspecialist stockholm" class="l10n">
 
