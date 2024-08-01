@@ -353,9 +353,9 @@ RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 ErrorDocument 404 /not-found.php
 
 # Set cache control header
-# 5 minutes
+# 24 hours
 <IfModule mod_headers.c>
     <FilesMatch "\.(php|pdf|webp|jpg|jpeg|png|js|css)$">
-        Header set Cache-Control "max-age=300, public"
+        Header set Cache-Control "max-age=86400, public"
     </FilesMatch>
 </IfModule>
