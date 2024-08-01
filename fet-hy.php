@@ -141,6 +141,9 @@ $service = new Service(
 
 $headline02 = "02. Behandla";
 
+$treat_content = '<p class="p200">När din hudtyp och storleken på dina porer har identifierats, påbörjar vi behandlingen av stora porer. Målet är att djuprengöra och minska porernas synlighet, vilket kan påverka hudens textur och utseende. Vi tillämpar olika metoder anpassade efter dina unika behov, för att maximera resultaten och minimera obehaget.</p>
+<p class="p200">Under denna process rengör vi porerna, tar bort döda hudceller och överflödig talg samt balanserar talgproduktionen. Vi utför även porsammandragande behandlingar som minskar porernas storlek och jämnar ut hudytan. Behandlingsplanen anpassas kontinuerligt efter hur din hud svarar på behandlingen, för att säkerställa bästa möjliga resultat.</p>';
+
 $services = array(
       new Service(
             title: 'Ansiktsbehandling för fet hy',
