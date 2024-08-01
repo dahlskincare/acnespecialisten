@@ -14,7 +14,7 @@ $path_segments = array(
       new PathSegment('Acneärr', '/acnearr.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/acnearr.webp';
+$image_small = 'bilder/hudproblem/358x274/acnearr.webp';
 $image_large = 'bilder/hudproblem/424x456/acnearr.webp';
 $image_title = 'Visar en hud med acneärr';
 $image_alt = 'Närbild på ett ansikte som har acneärr';

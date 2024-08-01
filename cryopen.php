@@ -7,7 +7,7 @@ $seo_title = 'CryoPen behandling – Ta bort leverfläckar & födelsemärken';
 $seo_description = 'En CryoPen-behandling är effektiv och fryser bort godartade hudförändringar som leverfläckar, hudflikar & fibrom. Boka gratis konsultation hos oss →';
 $seo_keywords = 'ta bort födelsemärken, ta bort leverfläckar, cryopen, cryopen före efter, cryopen behandling, cryopen biverkningar, cryopen pris, cryopen recension, cryopen stockholm, cryopen leverfläck, cryopen födelsemärke, cryopen läkning, cryopen resultat, vad är cryopen, cryopen behandling stockholm';
 
-$seo_image = 'images/treatments/large/cryopen.webp';
+$seo_image = 'bilder/varumarken/424x456/cryopen.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),

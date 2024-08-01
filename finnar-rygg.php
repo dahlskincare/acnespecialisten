@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Finnar Rygg', '/finnar-rygg.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/finnar-rygg.webp';
+$image_small = 'bilder/hudproblem/358x274/finnar-rygg.webp';
 $image_large = 'bilder/hudproblem/424x456/finnar-rygg.webp';
 $image_title = 'Visar en hud med finnar på ryggen';
 $image_alt = 'Bild som visar hudproblem med finnar på ryggen';
@@ -75,7 +75,7 @@ $trivias = array(
 
             extended_content: '<ul><li class="mt-xl"><strong>Svett:</strong> Ökad svettproduktion, ofta i samband med träning eller varma kläder, kan täppa igen porerna och leda till finnar.</li>
 
-            <li class="mt-xl"><strong>Hormonella faktorer:</strong> Obalanser i hormonnivåerna, såsom höga testosteronnivåer, graviditet och pubertet, kan stimulera talgproduktionen och utlösa akne.</li>
+            <li class="mt-xl"><strong>Hormonella faktorer:</strong> Obalanser i hormonnivåerna, såsom höga manliga könshormoner, graviditet och pubertet, kan stimulera talgproduktionen och utlösa akne.</li>
 
             <li class="mt-xl"><strong>Hudvårdsprodukter:</strong> Kemikalier från schampo, balsam och andra hårprodukter kan täppa till porerna på ryggen, särskilt om du har långt hår.</li>
 
@@ -83,7 +83,7 @@ $trivias = array(
 
             <li class="mt-xl"><strong>Obalans i huden:</strong> Överdriven tvätt kan störa hudens naturliga talgproduktion och orsaka finnar.</li>
 
-            <li class="mt-xl"><strong>Anabola steroider:</strong> Användning av steroider kan leda till ökade testosteronnivåer, vilket i sin tur kan utlösa akne.</li>
+            <li class="mt-xl"><strong>Anabola steroider:</strong> Användning av steroider kan leda till ökade hormoner, vilket i sin tur kan utlösa akne.</li>
 
             <li class="mt-xl"><strong>Stress:</strong> Emotionella problem och stress kan förvärra akneutbrott.</li>
 

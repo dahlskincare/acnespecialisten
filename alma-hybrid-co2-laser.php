@@ -6,7 +6,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'CO2 laser - Fraktionerad laser | AcneSpecialisten';
 $seo_description = 'Effektiv laserbehandling mot ärr, hudföryngring och mer hos AcneSpecialisten i Stockholm. Se resultat, före och efter bilder och boka din kostnadsfria konsultation idag.';
 $seo_keywords = 'co2 laser, fraktionerad laser, co2 laser före efter, fraktionerad laser före efter, co2 laser stockholm, koldioxidlaser, fraktionerad laser ärr, fraktionerad co2 laser';
-$seo_image = 'images/treatments/large/alma-hybrid.webp';
+$seo_image = 'bilder/varumarken/424x456/alma-hybrid-co2.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),
@@ -18,8 +18,8 @@ $model = new Service(
     duration: null,
     price: 'Från 4595 kr',
     content: '<p class="p200">Alma Hybrid är en avancerad fraktionerad CO2-laser med ett unikt patent. Den kombinerar ablativ CO2-laser, som bränner hudytan, med icke-ablativ laser, som behandlar under huden. Denna senaste generation av laserbehandling hanterar effektivt hudproblem som akneärr, rynkor, fina linjer och ojämn hudton, och ger en omfattande lösning för förbättrad hudhälsa och utseende.</p>',
-    image_small: 'bilder/varumarken/358x274/alma.webp',
-    image_large: 'bilder/varumarken/424x456/alma.webp',
+    image_small: 'bilder/varumarken/358x274/alma-hybrid-co2.webp',
+    image_large: 'bilder/varumarken/424x456/alma-hybrid-co2.webp',
     image_alt: 'Alma Hybrid',
     image_title: 'Alma Hybrid',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',

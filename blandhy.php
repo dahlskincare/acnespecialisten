@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Blandhy', '/blandhy.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/blandhy.webp';
+$image_small = 'bilder/hudproblem/358x274/blandhy.webp';
 $image_large = 'bilder/hudproblem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med blandhy';
 $image_alt = 'Bild som illustrerar hur en blandhy ser ut';

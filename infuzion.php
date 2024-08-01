@@ -7,7 +7,7 @@ $seo_title = 'Infuzion behandling - Mesoterapi Stockholm';
 $seo_description = 'Infuzion ger effekterna hos fillers och skinbooster, utan att använda nålar. Stimulera huden med effektivt serum. Boka en gratis konsultation i dag!';
 $seo_keywords = 'mesoterapi, infuzion behandling, infuzion, mesoterapi stockholm';
 
-$seo_image = 'images/treatments/large/infuzion.webp';
+$seo_image = 'bilder/varumarken/424x456/infuzion.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),

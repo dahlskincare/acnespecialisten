@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Milier', '/milier.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/milier.webp';
+$image_small = 'bilder/hudproblem/358x274/milier.webp';
 $image_large = 'bilder/hudproblem/424x456/milier.webp';
 $image_title = 'Visar en hud med milier';
 $image_alt = 'Bild som illustrerar hur milier ser ut på huden';

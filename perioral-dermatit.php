@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Perioral Dermatit', '/perioral-dermatit.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/perioral-dermatit.webp';
+$image_small = 'bilder/hudproblem/358x274/perioral-dermatit.webp';
 $image_large = 'bilder/hudproblem/424x456/perioral-dermatit.webp';
 $image_title = 'Visar en hud med perioral dermatit';
 $image_alt = 'Bild som illustrerar hur perioral dermatit ser ut på huden';

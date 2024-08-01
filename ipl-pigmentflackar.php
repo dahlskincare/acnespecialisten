@@ -7,7 +7,7 @@ $seo_title = 'IPL pigmentfläckar behandling | AcneSpecialisten';
 $seo_description = 'Ta bort pigmentfläckar och åldersfläckar med hjälp av IPL. Läs mer om vår behandling & boka in en kostnadsfri konsultation →';
 $seo_keywords = 'ipl pigmentfläckar, ipl behandling pigmentfläckar, solfläckar behandling, ipl behandling ansikte,ta bort pigmentfläckar i ansiktet, ipl behandling, ta bort pigmentfläckar, ta bort solfläckar i ansiktet, ta bort pigmentfläckar laser, ipl behandling resultat';
 
-$seo_image = 'images/treatments/large/ipl.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/ipl.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),
@@ -20,8 +20,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2332 kr',
     content: '<p class="p200">IPL utgör en effektiv lösning för dig som önskar en jämnare hudton genom att effektivt ta bort pigmentfläckar. Denna behandling passar utmärkt för att ljusa upp och jämna ut områden med överpigmentering. Våra IPL behandlingar är individuellt anpassade efter dina unika hudbehov. De är utformade för att inte bara minska synligheten av pigmentfläckar, utan också för att stimulera hudens egna läkningsprocesser och därmed förbättra hudens övergripande hälsa och utseende.</p>',
-    image_small: 'bilder/behandlingar/358x274/ipl.webp',
-    image_large: 'bilder/behandlingar/424x456/ipl.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot pigmentfläckar',
     image_title: 'IPL mot pigmentfläckar',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',

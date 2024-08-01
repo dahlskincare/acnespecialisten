@@ -7,7 +7,7 @@ $seo_title = 'Behandla acne med laser i Stockholm | AcneSpecialisten';
 $seo_description = 'Avancerad laserbehandling mot acne. Våra skräddarsydda behandlingar använder laser mot akne för att effektivt reducera inflammation och förbättra hudens hälsa.';
 $seo_keywords = 'acne laser, laser acne, laser acne stockholm, laser mot akne, laserbehandling acne';
 
-$seo_image = '/images/treatments/large/laser-mot-problemhy.webp';
+$seo_image = '/bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
@@ -20,8 +20,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2995 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/laser-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Laser mot acne',
     image_title: 'Laser mot acne',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',

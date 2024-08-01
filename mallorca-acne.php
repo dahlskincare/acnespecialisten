@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Mallorca acne - Acne aestivalis | AcneSpecialisten';
 $seo_description = 'Vad är Mallorca-acne och hur kan du behandla det? Vi på AcneSpecialisten tar fram en skräddarsydd behandlingsplan. Börja med en kostnadsfri konsultation →';
 $seo_keywords = 'mallorca acne, acne aestivalis, finnar sol, sol finnar, finnar av solen, akne sol, små finnar av solen, tar solen bort finnar, akne av sol, sola bort akne, acne aestivalis behandling';
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/acne.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Mallorca Acne', '/mallorca-acne.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/acne.webp';
+$image_large = 'bilder/hudproblem/424x456/acne.webp';
 $image_title = 'Effektiv Behandling av Mallorca akne';
 $image_alt = 'Bild som illustrerar behandlingsmetoder för Mallorca acne';
 

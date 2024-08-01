@@ -15,9 +15,9 @@ $path_segments = array(
       new PathSegment('Akne rygg', '/acne-rygg.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne-rygg.webp';
+$image_small = 'bilder/hudproblem/358x274/akne-rygg.webp';
 $image_large = 'bilder/hudproblem/424x456/akne-rygg.webp';
-$image_title = 'Effektiv Behandling av Ryggakne';
+$image_title = 'Effektiv behandling av ryggakne';
 $image_alt = 'Bild som illustrerar behandling och vård av akne på ryggen';
 
 $green_banner_content = new GreenBannerContent(

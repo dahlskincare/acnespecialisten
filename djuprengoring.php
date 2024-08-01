@@ -7,7 +7,7 @@ $seo_title = 'Djuprengöring ansikte | AcneSpecialisten';
 $seo_description = 'På AcneSpecialisten erbjuder vi djuprengöring för att behandla pormaskar. Djupgående porrengöring för effektiv behandling. Boka tid hos oss idag →';
 $seo_keywords = 'djuprengöring, djuprengöring ansikte';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-mot-problemhy.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '60 min',
     price: 'Från 799 kr',
     content: '<p class="p200">EEn djuprengörande behandling utformad för att effektivt eliminera pormaskar och balansera hudens talgproduktion genom en noggrann rengöring. Behandlingen inkluderar en intensiv portömning som öppnar upp porerna och rensar dem på djupet, vilket ger en klarare och mer balanserad hud.</p>',
-    image_small: 'bilder/behandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Djuprengöring',
     image_title: 'Djuprengöring',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',

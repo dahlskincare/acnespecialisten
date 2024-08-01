@@ -7,7 +7,7 @@ $seo_title = 'Alma Harmony XL Pro behandling i Stockholm';
 $seo_description = 'En mångsidig och avancerad medicinsk laser för behandling av olika hudåkommor som hudföryngring, pigmentering, aknereducering och ytliga blodkärl.';
 $seo_keywords = 'medicinsk laser, hudföryngring laser, yag laser, nd yag, Alma Harmony XL Pro';
 
-$seo_image = 'images/treatments/large/alma-harmony-xl-pro.webp';
+$seo_image = 'bilder/varumarken/424x456/harmony-xl-pro.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),

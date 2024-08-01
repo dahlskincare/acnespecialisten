@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Atrofiska Ärr', '/atrofiska-arr.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/aknearr.webp';
+$image_small = 'bilder/hudproblem/358x274/aknearr.webp';
 $image_large = 'bilder/hudproblem/424x456/aknearr.webp';
 $image_title = 'Visar hud med atrofiska ärr';
 $image_alt = 'Bild som illustrerar atrofiska ärr på huden';

@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Fet Hy', '/fet-hy.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/blandhy.webp';
+$image_small = 'bilder/hudproblem/358x274/blandhy.webp';
 $image_large = 'bilder/hudproblem/424x456/blandhy.webp';
 $image_title = 'Visar en hud med fet hy';
 $image_alt = 'Bild som illustrerar utseendet av fet hy';

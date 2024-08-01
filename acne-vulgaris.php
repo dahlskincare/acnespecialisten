@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Acne vulgaris behandling | AcneSpecialisten';
 $seo_description = 'Läs mer om vad acne vulgaris är och hur du kan behandla problemet. Hos oss på Acnespecialisten får du en skräddarsydd behandlingsplan →';
 $seo_keywords = 'acne vulgaris, akne vulgaris, nodular acne vulgaris, acne vulgaris behandling, akne vulgaris behandlung, akne vulgaris bilder, acne vulgaris bilder, acne vulgaris treatment';
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/acne.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Acne Vulgaris', '/acne-vulgaris.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/acne.webp';
+$image_large = 'bilder/hudproblem/424x456/acne.webp';
 $image_title = 'Effektiv Behandling av acne vulgaris';
 $image_alt = 'Bild som visar acne vulgaris och dess behandlingsmetoder';
 

@@ -7,7 +7,7 @@ $seo_title = 'Ansiktsbehandling Stockholm | AcneSpecialisten';
 $seo_description = 'Stockholms bästa ansiktsbehandlingar på Östermalm, Södermalm & Sundbyberg. Skräddarsydda behandlingar för alla hudtyper - från återfuktning till lyxbehandlingar.';
 $seo_keywords = 'ansiktsbehandling, ansiktsbehandling stockholm, ansiktsbehandling östermalm, ansiktsbehandling södermalm, ansiktsbehandling sundbyberg, bästa ansiktsbehandling stockholm, bästa ansiktsbehandlning stockholm, ansiktsbehandling man';
 
-$seo_image = 'images/treatments/large/ansiktsbehandlingar-klassiska.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),

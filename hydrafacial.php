@@ -7,7 +7,7 @@ $seo_title = 'HydraFacial Stockholm | AcneSpecialisten';
 $seo_description = 'HydraFacial behandling är en mångsidig behandling som kombinerar djup rengöring, exfoliering, avlägsnande av orenheter och återfuktning.';
 $seo_keywords = 'hydrafacial, hydrafacial stockholm, hydrafacial före efter, hydrafacial behandling, hydrafacial acne';
 
-$seo_image = 'images/treatments/large/hydrafacial.webp';
+$seo_image = 'bilder/varumarken/424x456/hydrafacial.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),

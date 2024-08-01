@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Tonårsacne', '/tonarsacne.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/akne.webp';
 $image_large = 'bilder/hudproblem/424x456/akne.webp';
 $image_title = 'Behandling och Skötsel av Tonårsakne';
 $image_alt = 'Bild som visar en ung person med tonårsakne';
@@ -45,7 +45,7 @@ $floating_box = 'Behandla dina tonårsakne och tonårsfinnar.';
 
 $description_title = 'Vad är Tonårsakne?';
 $description_text = '<p class="p200">Tonårsakne är en vanlig hudåkomma som drabbar många ungdomar under pubertet, en period där kroppen genomgår betydande hormonella förändringar. Denna typ av akne kännetecknas av utbrott av pormaskar, finnar, och ibland mer allvarliga former som cystor och noduler, främst i ansiktet, på ryggen och bröstet. Orsaken till tonårsakne är en kombination av ökad produktion av talg, tilltäppning av hårfolliklar och en ökning av acneframkallande bakterier på huden.</p>
-<p class="p200 mt-m">Under puberteten ökar nivåerna av androgener, inklusive testosteron, vilket kan stimulera talgkörtlarna att producera mer sebum. När detta överskott av sebum kombineras med döda hudceller kan det täppa till porerna och skapa en idealisk miljö för bakterier som Cutibacterium acnes att växa, vilket leder till inflammation och akneutslag.</p>
+<p class="p200 mt-m">Under puberteten ökar nivåerna av androgener, inklusive manliga könshormoner, vilket kan stimulera talgkörtlarna att producera mer sebum. När detta överskott av sebum kombineras med döda hudceller kan det täppa till porerna och skapa en idealisk miljö för bakterier som Cutibacterium acnes att växa, vilket leder till inflammation och akneutslag.</p>
 <p class="p200 mt-m">Att hantera tonårsakne effektivt kräver ofta en kombination av rätt hudvårdprodukter och behandlingar. Även om aknen kan vara en källa till frustration och självmedvetenhet för många ungdomar, finns det många effektiva behandlingar och strategier för att hantera tillståndet. På Acnespecialisten lägger vi stor vikt vid att förstå de unika utmaningarna med tonårshud och erbjuder behandlingar som är anpassade för att effektivt hantera tonårsakne.</p>';
 
 $treatment_steps = array(

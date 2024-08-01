@@ -7,7 +7,7 @@ $seo_title = 'Kemisk peeling mot akne | AcneSpecialisten';
 $seo_description = 'Kemiska peelings särskilt utvecklade för behandling av akne. Våra specialanpassade syror reducerar akne och förbättrar hudens övergripande hälsa och utseende.';
 $seo_keywords = 'kemisk peeling mot acne, peeling akne, kemisk peeling acne, peeling acne, kemisk peeling akne';
 
-$seo_image = 'images/treatments/large/kemisk-peeling.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp';
 
 $path_segments = array(
     new PathSegment('Hudbhandlingar', '/hudbehandlingar/'),
@@ -20,8 +20,8 @@ $model = new Service(
     duration: null,
     price: 'Från 2995 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/kemisk-peeling.webp',
-    image_large: 'bilder/behandlingar/424x456/kemisk-peeling.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/kemisk-peeling.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp',
     image_alt: 'Kemisk peeling behandlingar',
     image_title: 'Kemisk peeling behandlingar',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',

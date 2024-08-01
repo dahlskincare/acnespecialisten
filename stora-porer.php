@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Stora porer', '/stora-porer.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/stora-porer.webp';
+$image_small = 'bilder/hudproblem/358x274/stora-porer.webp';
 $image_large = 'bilder/hudproblem/424x456/stora-porer.webp';
 $image_title = 'Visar en hud med stora porer';
 $image_alt = 'Bild som illustrerar hur stora porer ser ut på huden';

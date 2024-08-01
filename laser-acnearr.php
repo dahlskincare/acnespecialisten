@@ -7,7 +7,7 @@ $seo_title = 'Laserbehandling mot acneärr | AcneSpecialisten';
 $seo_description = 'Upptäck AcneSpecialistens avancerade laserbehandlingar för acneärr. Våra skräddarsydda behandlingar använder laserljus för att effektivt reducera acneärr.';
 $seo_keywords = 'laserbehandling för acneärr, behandla acneärr med laser, effektiv acneärrbehandling, laser mot acneärr, acneärrbehandling, avancerad hudvård';
 
-$seo_image = '/images/treatments/large/laser-mot-problemhy.webp';
+$seo_image = '/bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
@@ -19,8 +19,8 @@ $model = new Service(
     duration: null,
     price: 'Från 4595 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/laser-mot-problemhy.webp',
-    image_large: 'bilder/behandlingar/424x456/laser-mot-problemhy.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/laser-mot-problemhy.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp',
     image_alt: 'Laser mot acneärr',
     image_title: 'Laser mot acneärr',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',

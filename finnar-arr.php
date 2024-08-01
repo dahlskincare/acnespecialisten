@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Ärr från finnar', '/finnar-arr.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/arr-fran-finnar.webp';
+$image_small = 'bilder/hudproblem/358x274/arr-fran-finnar.webp';
 $image_large = 'bilder/hudproblem/424x456/arr-fran-finnar.webp';
 $image_title = 'Visar en hud med ärr från finnar';
 $image_alt = 'Närbild på ärr från finnar  i ansiktet';

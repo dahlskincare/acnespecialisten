@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Stress acne | AcneSpecialisten';
 $seo_description = 'Vad är stress akne? Vi berättar mer om sambandet mellan akne och stress och hur du effektivt kan bli av med problemet. Boka en kostnadsfri konsultation!';
 $seo_keywords = 'stress acne, akne stress, stress akne, stress breakout';
-$seo_image = 'bilder/hudproblem/424x456/akne.webp';
+$seo_image = 'bilder/hudproblem/424x456/acne.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Stress Acne', '/stress-acne.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne.webp';
-$image_large = 'bilder/hudproblem/424x456/akne.webp';
+$image_small = 'bilder/hudproblem/358x274/acne.webp';
+$image_large = 'bilder/hudproblem/424x456/acne.webp';
 $image_title = 'Behandling och Förståelse av Stressrelaterad Akne';
 $image_alt = 'Bild som illustrerar hud påverkad av stressrelaterad akne';
 

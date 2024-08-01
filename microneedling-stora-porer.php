@@ -7,7 +7,7 @@ $seo_title = 'Microneedling mot stora porer | AcneSpecialisten';
 $seo_description = 'Behandla och reducera stora porer effektivt med hjälp av Microneedling. Läs mer och boka en gratis hudkonsultation idag!';
 $seo_keywords = 'microneedling, behandla stora porer, minska porstorlek, finare hudstruktur, jämn hudton, kollagenstimulering, hudföryngring, mikroneedling, hudförädling, porminskning';
 
-$seo_image = 'images/treatments/large/microneedling.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/microneedling.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),

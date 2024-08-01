@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Behandla solskadad hud i ansiktet | AcneSpecialisten';
 $seo_description = 'Allt om solskadad hy, orsaker, effektiva behandlingar och förebyggand. Få expertvägledning och skräddarsydda lösningar för att hantera och reparera solskadad hy';
 $seo_keywords = 'solskadad hud ansikte, solskadad hud behandling, behandla solskadad hud, solskadad hud, solskadad hud kräm, solskadad hud bilder, melasma ansiktet';
-$seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
+$seo_image = 'bilder/hudproblem/424x456/solskadad-hy.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Solskadad Hy', '/solskadad-hy.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/pigmentflackar.webp';
-$image_large = 'bilder/hudproblem/424x456/pigmentflackar.webp';
+$image_small = 'bilder/hudproblem/358x274/solskadad-hy.webp';
+$image_large = 'bilder/hudproblem/424x456/solskadad-hy.webp';
 $image_title = 'Visar en hud med solskadad hy';
 $image_alt = 'Bild som illustrerar effekterna av solskadad hy';
 

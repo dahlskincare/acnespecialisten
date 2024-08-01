@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Pormaskar', '/pormaskar.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/pormaskar.webp';
+$image_small = 'bilder/hudproblem/358x274/pormaskar.webp';
 $image_large = 'bilder/hudproblem/424x456/pormaskar.webp';
 $image_title = 'Visar en hud med pormaskar';
 $image_alt = 'Bild som illustrerar hur pormaskar ser ut på huden';

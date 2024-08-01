@@ -7,7 +7,7 @@ $seo_title = 'IPL mot rosacea | AcneSpecialisten';
 $seo_description = 'Bli av med rosacea. Läs mer om vår IPL-behandling och boka en gratis konsultation hos AcneSpecialisten →';
 $seo_keywords = 'IPL-behandling för rosacea, reducera rodnad, behandling av rosacea, ljusbaserad hudterapi, förbättra hudton, minska symtom på rosacea, jämn hudton, avancerad hudvård, specialister på rosacea';
 
-$seo_image = 'images/treatments/large/ipl.webp';
+$seo_image = 'bilder/hudbehandlingar/424x456/ipl.webp';
 
 $path_segments = array(
     new PathSegment('Hudbehandlingar', '/hudbehandlingar/'),
@@ -19,8 +19,8 @@ $model = new Service(
     duration: '60 min',
     price: 'Från 2332 kr',
     content: '',
-    image_small: 'bilder/behandlingar/358x274/ipl.webp',
-    image_large: 'bilder/behandlingar/424x456/ipl.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot rosacea',
     image_title: 'IPL mot rosacea',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',

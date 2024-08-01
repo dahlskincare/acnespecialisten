@@ -15,7 +15,7 @@ $path_segments = array(
       new PathSegment('Blodprickar', '/blodprickar.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/hudforandringar.webp';
+$image_small = 'bilder/hudproblem/358x274/hudforandringar.webp';
 $image_large = 'bilder/hudproblem/424x456/hudforandringar.webp';
 $image_title = 'Effektiv behandling av blodprickar';
 $image_alt = 'Bild som illustrerar behandling av blodprickar';

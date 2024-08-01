@@ -5,14 +5,14 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Ta bort pigmentfläckar - Effektiva metoder och behandlingar';
 $seo_description = 'Lär dig allt om pigmentfläckar, från dess orsaker till hur man behandlar och förebygger dem. Skräddarsydda lösningar och expertis från AcneSpecialisten.';
 $seo_keywords = 'behandla pigmentfläckar';
-$seo_image = 'images/treatments/large/ipl.webp';
+$seo_image = 'bilder/hudproblem/424x456/pigmentflackar.webp';
 
 $model = new Service(
     title: 'Behandlingar mot pigmentfläckar',
     duration: null,
     price: null,
     content: '<p class="p200">Vi erbjuder de mest effektiva metoderna för att behandla och ta bort pigmentfläckar. Våra skräddarsydda behandlingar reducerar pigmenteringar oavsett typ eller orsak, vilket ger dig en klarare och jämnare hudton. Om du är osäker på vilken behandling som passar din hudtyp bäst, boka en kostnadsfri hudkonsultation. Våra experter kommer att vägleda dig mot en fläckfri hud.</p>',
-    image_small: 'bilder/hudproblem/424x456/pigmentflackar.webp',
+    image_small: 'bilder/hudproblem/358x274/pigmentflackar.webp',
     image_large: 'bilder/hudproblem/424x456/pigmentflackar.webp',
     image_alt: 'Bild som illustrerar pigmentfläckar',
     image_title: 'Pigmentfläckar',

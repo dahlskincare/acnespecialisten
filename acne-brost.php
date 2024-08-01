@@ -15,9 +15,9 @@ $path_segments = array(
       new PathSegment('Akne bröst', '/acne-brost.php'),
 );
 
-$image_small = 'bilder/hudproblem/424x324/akne-brost.webp';
+$image_small = 'bilder/hudproblem/358x274/akne-brost.webp';
 $image_large = 'bilder/hudproblem/424x456/akne-brost.webp';
-$image_title = 'Effektiv Behandling av Bröstakne';
+$image_title = 'Effektiv behandling av bröstakne';
 $image_alt = 'Bild som visar behandling och vård av akne på bröstet';
 
 $green_banner_content = new GreenBannerContent(
