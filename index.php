@@ -35,10 +35,6 @@
       <main>
             <section id="banner">
                   <div id="banner-background">
-                        <video autoplay muted loop playsinline id="banner-video">
-                              <source src="videos/banner.webm" type="video/webm" media="(min-width: 800px)">
-                              <source src="videos/banner-square.webm" type="video/webm" media="(max-width: 799px)">
-                        </video>
                         <div class="container">
                               <h1 class="h700 l10n">AcneSpecialisten,<br />din hudspecialist i <br />Stockholm och Online</h1>
                         </div>
