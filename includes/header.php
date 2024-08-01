@@ -113,7 +113,7 @@
     </nav>
 </div>
 <header>
-    <div class="container">
+    <div class="container" id="important-notice-container">
         <div id="important-notice">
             <div class="important-notice-slide">
                 <span class="important-notice-highlight">20%</span>

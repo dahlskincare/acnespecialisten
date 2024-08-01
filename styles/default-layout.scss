@@ -16,13 +16,13 @@ html {
         color: #fff;
     }
 
+    overflow-y: scroll;
+
     @include touch {
         overflow-x: hidden;
     }
 
     body {
-        overflow-x: hidden;
-        overflow-y: auto;
         display: flex;
         align-items: stretch;
         flex-direction: column;
@@ -39,6 +39,10 @@ html {
             top: - $important-notice-height;
             z-index: 99;
             border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+
+            #important-notice-container {
+                overflow: hidden;
+            }
 
             #important-notice {
                 display: flex;
@@ -625,6 +629,8 @@ html {
                             align-items: center;
                             justify-content: space-between;
                             @include p100;
+                            margin-left: 48px;
+                            margin-right: 48px;
 
                             .legend {
                                 text-align: center;
