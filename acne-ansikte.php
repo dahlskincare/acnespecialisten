@@ -53,13 +53,13 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-$about_title = 'Din guide till en problemfritt ansikte';
+$about_title = 'Din guide till ett problemfritt ansikte';
 
 $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är akne i ansiktet?',
-            content: '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som påverkar miljontals människor världen över, både unga och vuxna. Detta tillstånd kännetecknas av uppkomsten av pormaskar, finnar, papler, pustler och i vissa fall mer allvarliga noduler och cystor. Akne utvecklas främst i områden med högt antal talgkörtlar, såsom ansiktet, bröstet och ryggen.De fysiska symtomen på akne kan leda till både kroppsligt besvär och känslomässig press.</p>',
+            content: '<p class="p200">Akne i ansiktet är en vanlig hudåkomma som påverkar miljontals människor världen över, både unga och vuxna. Detta tillstånd kännetecknas av uppkomsten av pormaskar, finnar, papler, pustler och i vissa fall mer allvarliga noduler och cystor. Akne utvecklas främst i områden med högt antal talgkörtlar, såsom ansiktet, bröstet och ryggen. De fysiska symtomen på akne kan leda till både kroppsligt besvär och känslomässig press.</p>',
             extended_content: null,
             icons: array()
       ),
@@ -96,7 +96,7 @@ $trivias = array(
 
       new ProblemTrivia(
             prefix: 'När',
-            title: ' Ska Du Söka Hjälp För Svår Akne?',
+            title: ' ska du söka hjälp för svår akne?',
 
             content: '<p class="p200">Att leva med svår akne kan vara extremt påfrestande både fysiskt och känslomässigt. Du kanske har provat ett flertal olika behandlingar utan att se någon förbättring. Det är viktigt att veta när det är dags att söka professionell hjälp för din akne. Här är några tecken att hålla utkik efter:',
 

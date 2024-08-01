@@ -48,15 +48,15 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandla din acne vulgaris effektivt.';
 
-$description_title = 'Vad är Acne Vulgaris?';
+$description_title = 'Vad är acne vulgaris?';
 $description_text = '<p class="p200">Acne vulgaris är den vanligaste formen av akne och drabbar människor i alla åldrar, men är mest framträdande under tonåren och unga vuxna år. Tillståndet kännetecknas av olika hudutslag som komedoner (svarta och vita pormaskar), papler (små röda knölar), pustler (var-fyllda blåsor), samt svårare former som noduler och cystor. Acne vulgaris påverkar talgproducerande områden på huden, främst ansiktet, ryggen och bröstet.</p>
 
-<h2 class="h500 mt-xl">Vad orsakar Acne Vulgaris</p>  
+<h2 class="h500 mt-xl">Vad orsakar acne vulgaris</p>  
 
 <p class="p200 mt-xl">Det finns flera orsaker till acne vulgaris, inklusive genetiska faktorer, hormonella förändringar, överproduktion av talg, tilltäppta hårfolliklar och närvaro av bakterien Propionibacterium acnes. Dessa faktorer leder till inflammation och bildandet av akneutslag.</p>
 
 
-<h2 class="h500 mt-xl">Hur behandlar man Acne Vulagris</h2>  
+<h2 class="h500 mt-xl">Hur behandlar man acne vulagris</h2>  
 
 <p class="p200 mt-xl">Behandling av acne vulgaris fokuserar på att minska talgproduktionen, bekämpa bakteriella infektioner, uppmuntra cellomsättning för att förhindra tilltäppta porer och minska inflammation. En anpassad daglig hudvårdsrutin är också viktig, inklusive rengöringsmedel och hudvårdsprodukter som balanserar huden. Regelbundna besök hos en hudterapeut kan hjälpa till att skräddarsy en behandlingsplan baserad på individens specifika hudtillstånd och behov samt övervaka framsteg över tid. Med rätt behandlingar och produkter kan acne vulgaris hanteras effektivt och elimineras.</p>';
 
