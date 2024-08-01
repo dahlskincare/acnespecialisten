@@ -123,7 +123,7 @@ if (form_completed()) {
     $uuid4 = Uuid::uuid4();
     $id = str_replace('-', '', strtoupper($uuid4));
     $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/" . $id;
-    $clientCert = $_SERVER['DOCUMENT_ROOT'] . "/../.ssl/cert.p12";
+    $clientCert = $_SERVER['DOCUMENT_ROOT'] . "/../.ssl/cert.pem";
     //$clientCert = $_ENV['SWISH_SSL_FOLDER'] . "/cert.p12";
     //$rootCert = $_ENV['SWISH_SSL_FOLDER'] . "/Swish_TLS_RootCA.pem";
     $pwd = "Mammamia123";
@@ -145,7 +145,7 @@ if (form_completed()) {
     curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
     curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
     curl_setopt($ch, CURLOPT_SSLCERT, $clientCert);
-    curl_setopt($ch, CURLOPT_SSLCERTTYPE, "P12");
+    //curl_setopt($ch, CURLOPT_SSLCERTTYPE, "P12");
     curl_setopt($ch, CURLOPT_SSLCERTPASSWD, $pwd);
     //curl_setopt($ch, CURLOPT_CAINFO, $rootCert);
 
