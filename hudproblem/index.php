@@ -1356,7 +1356,6 @@ $default_problems = new ProblemArea(
       icon: '',
       problem_ids: array('akne', 'aknearr', 'finnar', 'arr-fran-finnar', 'rosacea', 'ytliga-blodkarl', 'pormaskar', 'stora-porer', 'blandhy', 'pigmentflackar', 'perioral-dermatit', 'seborre', 'milier', 'hudforandringar', 'mogen-hy', 'torr-kanslig-hy', 'bristningar', 'operations-skadearr', 'oonskat-har',),
 );
-echo '<script>var default_problems = ' . json_encode($default_problems->problem_ids) . ';</script>';
 
 $problem_areas = array(
       new ProblemArea(
@@ -1477,6 +1476,7 @@ $specialists = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="/hudproblem/problems.css">
+      <?php echo '<script>var default_problems = ' . json_encode($default_problems->problem_ids) . ';</script>'; ?>
 </head>
 
 <body>
