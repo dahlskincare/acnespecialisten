@@ -54,13 +54,13 @@
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Våra hudterapeuter</h2>
-                    <a href="/hudterapeut" class="button compact text is-hidden-mobile">
+                    <a href="/hudterapeut/" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla hudterapeuter</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="/hudterapeut" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="/hudterapeut/" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

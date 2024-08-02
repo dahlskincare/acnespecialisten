@@ -566,7 +566,7 @@ $brands = array(
             image: 'bilder/logotyper/rejuve-dye-vl.svg',
             image_alt: 'Alma Rejuve Dye-VL logotyp',
             image_title: 'Alma Rejuve Dye-VL - IPL',
-            url: '/varumarken/rejuve-dye-vl',
+            url: '/varumarken/rejuve-dye-vl/',
             url_title: 'Alma Rejuve Dye-VL',
       ),
       new Brand(
@@ -582,7 +582,7 @@ $brands = array(
             image: 'bilder/logotyper/powerlite-photonova.svg',
             image_alt: 'Powerlite Photonova logotyp',
             image_title: 'Powerlite Photonova - IPL',
-            url: '/varumarken/powerlite-photonova',
+            url: '/varumarken/powerlite-photonova/',
             url_title: 'Powerlite Photonova',
       ),
       new Brand(
@@ -764,7 +764,7 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>

@@ -428,7 +428,7 @@ $service_brands = array(
         image: 'bilder/logotyper/soprano-ice.png',
         image_alt: 'Soprano Ice logotyp',
         image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-        url: '/varumarken/soprano-ice',
+        url: '/varumarken/soprano-ice/',
         url_title: 'Soprano Ice',
     ),
 );
@@ -753,7 +753,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
         </div>

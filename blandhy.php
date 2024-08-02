@@ -655,7 +655,7 @@ $brands = array(
             image: 'bilder/logotyper/skin-tech.svg',
             image_title: 'Skin Tech - Professionella kemiska peelingar',
             image_alt: 'Skin Tech logotyp',
-            url: '/varumarken/skin-tech',
+            url: '/varumarken/skin-tech/',
             url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
@@ -808,7 +808,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>

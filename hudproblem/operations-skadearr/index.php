@@ -12,7 +12,7 @@ $seo_image = '/bilder/hudproblem/424x456/arr.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
-      new PathSegment('Operations- och Skadeärr', '/hudproblem/operations-skadearr/'),
+      new PathSegment('Operations- och Skadeärr', '/hudproblem/operations-skadearr//'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/operations-skadearr.webp';
@@ -545,7 +545,7 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
 
 <head>
 
-      <link rel="canonical" href="https://www.acnespecialisten.se/hudproblem/operations-skadearr/" />
+      <link rel="canonical" href="https://www.acnespecialisten.se/hudproblem/operations-skadearr//" />
 
       <title><?php echo $seo_title ?></title>
       <meta name="description" content="<?php echo $seo_description ?>">
@@ -689,7 +689,7 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
                   </div>
                   <section id="brands">

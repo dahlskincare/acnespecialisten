@@ -543,7 +543,7 @@ $brands = array(
             image: 'bilder/logotyper/skin-tech.svg',
             image_alt: 'Skin Tech logotyp',
             image_title: 'Skin Tech - kemisk peeling',
-            url: '/varumarken/skin-tech',
+            url: '/varumarken/skin-tech/',
             url_title: 'Skin Tech',
       ),
       new Brand(
@@ -551,7 +551,7 @@ $brands = array(
             image: 'bilder/logotyper/rejuve-dye-vl.svg',
             image_alt: 'Alma Rejuve Dye-VL logotyp',
             image_title: 'Alma Rejuve Dye-VL - IPL',
-            url: '/varumarken/rejuve-dye-vl',
+            url: '/varumarken/rejuve-dye-vl/',
             url_title: 'Alma Rejuve Dye-VL',
       ),
       new Brand(
@@ -567,7 +567,7 @@ $brands = array(
             image: 'bilder/logotyper/splendor-x.png',
             image_alt: 'Splendor X logotyp',
             image_title: 'Splendor X - Permanent hårborttagning med laser',
-            url: '/varumarken/splendor-x',
+            url: '/varumarken/splendor-x/',
             url_title: 'Splendor X',
       ),
       new Brand(
@@ -575,7 +575,7 @@ $brands = array(
             image: 'bilder/logotyper/soprano-ice.png',
             image_alt: 'Soprano Ice logotyp',
             image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-            url: '/varumarken/soprano-ice',
+            url: '/varumarken/soprano-ice/',
             url_title: 'Soprano Ice',
       ),
       new Brand(
@@ -583,7 +583,7 @@ $brands = array(
             image: 'bilder/logotyper/powerlite-photonova.svg',
             image_alt: 'Powerlite Photonova logotyp',
             image_title: 'Powerlite Photonova - IPL',
-            url: '/varumarken/powerlite-photonova',
+            url: '/varumarken/powerlite-photonova/',
             url_title: 'Powerlite Photonova',
       ),
       new Brand(
@@ -599,7 +599,7 @@ $brands = array(
             image: 'bilder/logotyper/lumenis.svg',
             image_alt: 'Lumenis logotyp',
             image_title: 'Lumenis - Permanent hårborttagning med laser',
-            url: '/varumarken/splendor-x',
+            url: '/varumarken/splendor-x/',
             url_title: 'Lumenis',
       ),
       new Brand(
@@ -615,7 +615,7 @@ $brands = array(
             image: 'bilder/logotyper/exceed.png',
             image_alt: 'Exceed logotyp',
             image_title: 'Exceed - microneedling',
-            url: '/varumarken/exceed',
+            url: '/varumarken/exceed/',
             url_title: 'Exceedn',
       ),
       new Brand(
@@ -802,7 +802,7 @@ $brands_url_title = "Varumärken för Milierbehandling";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
                   </div>
                   <section id="brands">

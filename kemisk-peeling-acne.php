@@ -518,7 +518,7 @@ $all_brands = array(
         image: 'bilder/logotyper/skin-tech.svg',
         image_alt: 'Skin Tech logotyp',
         image_title: 'Skin Tech - kemisk peeling',
-        url: '/varumarken/skin-tech',
+        url: '/varumarken/skin-tech/',
         url_title: 'Skin Tech',
     ),
     new Brand(
@@ -678,7 +678,7 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">

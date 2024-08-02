@@ -333,7 +333,7 @@ $brands = array(
             image: 'bilder/logotyper/splendor-x.png',
             image_alt: 'Splendor X logotyp',
             image_title: 'Splendor X - Permanent hårborttagning med laser',
-            url: '/varumarken/splendor-x',
+            url: '/varumarken/splendor-x/',
             url_title: 'Splendor X',
       ),
       new Brand(
@@ -341,7 +341,7 @@ $brands = array(
             image: 'bilder/logotyper/soprano-ice.png',
             image_alt: 'Soprano Ice logotyp',
             image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-            url: '/varumarken/soprano-ice',
+            url: '/varumarken/soprano-ice/',
             url_title: 'Soprano Ice',
       ),
 );
@@ -461,7 +461,7 @@ $brands_url_title = "Varumärken för oönskat hår";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
 
                   </div>

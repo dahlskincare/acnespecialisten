@@ -296,7 +296,7 @@ $service_categories = array(
         read_more_title: 'Läs mer om microneedling'
     ),
     new ServiceCategory(
-        url: '/hudbehandlingar/ipl',
+        url: '/hudbehandlingar/ipl/',
         label: 'IPL',
         content: 'IPL-behandlingar använder intensivt pulserande ljus för att behandla en rad hudproblem, inklusive pigmentfläckar, ytliga blodkärl och rosacea. Denna teknik förbättrar även hudens textur och ton.',
         image_small: '/bilder/hudbehandlingar/200x200/ipl.webp',
@@ -514,7 +514,7 @@ $service_categories = array(
 );
 
 $path_segments = array(
-    new PathSegment('Hudbehandlingar', '/hudbehandlingar'),
+    new PathSegment('Hudbehandlingar', '/hudbehandlingar/'),
 );
 
 ?>
@@ -631,7 +631,7 @@ $path_segments = array(
             <div class="container">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Våra hudterapeuter</h2>
-                    <a href="/hudterapeut" class="button compact text is-hidden-mobile">
+                    <a href="/hudterapeut/" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla våra hudterapeuter</span>
                         <?php icon('navigate-next') ?>
                     </a>
@@ -669,7 +669,7 @@ $path_segments = array(
                 );
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                 ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="hudterapeut" title="Se alla våra hudterapeuter">Se alla våra hudterapeuter</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="hudterapeut/" title="Se alla våra hudterapeuter">Se alla våra hudterapeuter</a>
             </div>
         </section>
         <section id="brands">
