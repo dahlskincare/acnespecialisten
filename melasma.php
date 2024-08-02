@@ -355,7 +355,7 @@ $brands = array(
             image: 'images/brands/alma.svg',
             image_alt: 'Alma Brand Logo',
             image_title: 'Alma - Laser, IPL och RF (Radiofrekvens) Teknologi för Hudföryngring',
-            url: 'varumarken/alma',
+            url: 'varumarken/alma/',
             url_title: 'Läs mer om Alma Laser, IPL och RF Hudvårdsteknologi',
       ),
       new Brand(
