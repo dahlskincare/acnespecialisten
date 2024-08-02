@@ -108,7 +108,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder milda och effektiva behandlingar specialanpassade för torr och känslig hud, som syftar till att återfukta och lugna din hud på ett säkert och effektivt sätt.',
 
             url_label: 'Se behandlingar',
-            url: 'https://treatment-booking.minoch.com/?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY',
             url_title: 'Utforska våra skräddarsydda behandlingar för torr och känslig hud'
       ),
       new TreatmentStep(
