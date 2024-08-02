@@ -58,7 +58,7 @@ $path_segments = [
                                 <picture>
                                     <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-1-2.webp">
                                     <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-2.webp">
-                                    <img src="bilder/om-oss/mobile/slide-1-2.webp.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
+                                    <img src="bilder/om-oss/mobile/slide-1-2.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
                                 </picture>
                             </div>
                         </div>
