@@ -1,7 +1,7 @@
 <?php
 class RichProduct
 {
-    public function __construct($name, $image, $description, $price, $ratingCount, $ratingValue, $currency = 'SEK', $brand = 'Acnespecialisten', $brandLogo = 'https://acnespecialisten-staging.minoch.com/images/logo-green.svg', $review = null)
+    public function __construct($name, $image, $description, $price, $ratingCount, $ratingValue, $currency = 'SEK', $brand = 'Acnespecialisten', $brandLogo = 'https://acnespecialisten.se/images/logo-green.svg', $review = null)
     {
         $this->name = $name;
         $this->image = $image;

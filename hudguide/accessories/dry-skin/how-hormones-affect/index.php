@@ -3,7 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
-    url: 'https://acnespecialisten-staging.minoch.com/hudguide/accessories/dry-skin/how-hormones-affect/',
+    url: 'hudguide/accessories/dry-skin/how-hormones-affect/',
     url_title: 'How hormones effect?',
     title: 'How hormones effect?',
     subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',

@@ -3,7 +3,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $article = new SkinGuideArticle(
-    url: 'https://acnespecialisten-staging.minoch.com/hudguide/accessories/dry-skin/olika-typer-av-akne/',
+    url: 'hudguide/accessories/dry-skin/olika-typer-av-akne/',
     url_title: 'Olika typer av akne',
     title: 'Olika typer av akne',
     subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
