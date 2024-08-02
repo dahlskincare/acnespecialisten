@@ -11,7 +11,7 @@ $seo_image = '/images/treatments/large/skin-tech.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),
-    new PathSegment('Skin Tech', '/varumarken/skin-tech'),
+    new PathSegment('Skin Tech', '/varumarken/skin-tech/'),
 );
 
 $model = new Service(
@@ -208,7 +208,7 @@ $types = array(
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Skin Tech mot Bristningar',
 
-        url: '/hudproblem/bristningar',
+        url: '/hudproblem/bristningar/',
         url_label: 'Läs mer om bristningar',
         url_title: 'Läs mer om bristningar',
     ),
@@ -759,7 +759,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
         </div>

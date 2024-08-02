@@ -378,7 +378,7 @@ $service_brands = array(
         image: 'bilder/logotyper/splendor-x.png',
         image_alt: 'Splendor X logotyp',
         image_title: 'Splendor X - Permanent hårborttagning med laser',
-        url: '/varumarken/splendor-x',
+        url: '/varumarken/splendor-x/',
         url_title: 'Splendor X',
     ),
 );
@@ -707,7 +707,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
         </div>

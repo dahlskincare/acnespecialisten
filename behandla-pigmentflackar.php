@@ -112,7 +112,7 @@ $services = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Laser',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för laser mot pigmentfläckar',
-        url: '/hudbehandlingar/laser-mot-hudproblem',
+        url: '/hudbehandlingar/laser-mot-hudproblem/',
         url_label: 'Läs mer om laser',
         url_title: 'Läs mer om laser mot pigmentfläckar',
         booking_url: 'https://boka.acnespecialisten.se?flow=laser&skipable_problem=Problem_PigmentationSpots',
@@ -427,7 +427,7 @@ $brands_url_title = "Varumärken för pigmentfläcksbehandling";
                 <section id="specialists">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Våra hudterapeut</h2>
-                        <a href="/hudterapeut" title="Specialister" class="button compact text is-hidden-mobile">
+                        <a href="/hudterapeut/" title="Specialister" class="button compact text is-hidden-mobile">
                             <span class="l10n">Se alla hudterapeut</span>
                             <?php icon('navigate-next') ?>
                         </a>
@@ -435,19 +435,19 @@ $brands_url_title = "Varumärken för pigmentfläcksbehandling";
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut"><?php echo $specialist_url_label ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut/"><?php echo $specialist_url_label ?></a>
                 </section>
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Varumärken</h2>
-                    <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
+                    <a href="varumarken/" title="Varumärken" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken/">Se alla varumärken</a>
             </section>
 
         </div>

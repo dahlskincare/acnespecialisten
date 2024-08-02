@@ -655,7 +655,7 @@ $brands = array(
             image: 'bilder/logotyper/skin-tech.svg',
             image_title: 'Skin Tech - Professionella kemiska peelingar',
             image_alt: 'Skin Tech logotyp',
-            url: '/varumarken/skin-tech',
+            url: '/varumarken/skin-tech/',
             url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
@@ -808,7 +808,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut"><?php echo $specialist_url_label ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
@@ -824,13 +824,13 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Varumärken</h2>
-                              <a href="varumarken" title="<?php echo $brands_url_title ?>" class="button compact text is-hidden-mobile">
+                              <a href="varumarken/" title="<?php echo $brands_url_title ?>" class="button compact text is-hidden-mobile">
                                     <span class="l10n"><?php echo $brands_url_label ?></span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot akne" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot akne" href="varumarken/">Se alla varumärken</a>
 
                   </section>
             </div>

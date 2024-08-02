@@ -180,7 +180,7 @@
                                     image_large: 'bilder/hudproblem/424x324/ytliga-blodkarl.webp',
                                     image_title: 'Person med allmänna hudproblem',
                                     image_alt: 'Närbild på person som har allmänna hudproblem i ansiktet.',
-                                    url: '/hudproblem',
+                                    url: '/hudproblem/',
                                     url_title: 'Läs mer information om alla typer av hudproblem.',
                                     show_on_large: true,
                                     show_on_small: false
@@ -189,7 +189,7 @@
                         $more_count = 17;
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/accordion/accordion.php')
                         ?>
-                        <a href="/hudproblem" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
+                        <a href="/hudproblem/" title="Se alla hudproblem" class="mt-xl button outline is-hidden-desktop expand l10n">Se alla hudproblem</a>
                   </section>
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
@@ -214,7 +214,7 @@
                                     title: 'Behandla',
                                     content: 'Vi erbjuder skräddarsydda behandlingar som åtgärdar hudproblem och förbättrar hudens utseende. Våra hudspecialister säkerställer att behandlingarna är effektiva och säkra för din hudtyp.',
                                     button_label: 'Våra behandlingar',
-                                    button_url: '/hudbehandlingar',
+                                    button_url: '/hudbehandlingar/',
                                     button_url_title: 'Boka en behandling',
                               ),
                               new ApproachCard(
@@ -357,7 +357,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/laser-mot-problemhy.webp',
                                     image_title: 'Laserbehandling i ansiktet',
                                     image_alt: 'Närbild på person som får laserbehandling på kinden.',
-                                    url: '/hudbehandlingar/laser-mot-hudproblem',
+                                    url: '/hudbehandlingar/laser-mot-hudproblem/',
                                     url_title: 'Läs mer och boka tid för laser.',
                                     show_on_large: true,
                                     show_on_small: true
@@ -379,7 +379,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/ipl.webp',
                                     image_title: 'IPL-behandling i ansiktet',
                                     image_alt: 'Kvinna som får IPL-behandling i ansiktet.',
-                                    url: '/hudbehandlingar/ipl',
+                                    url: '/hudbehandlingar/ipl/',
                                     url_title: 'Läs mer och boka tid för IPL.',
                                     show_on_large: true,
                                     show_on_small: true,
@@ -390,7 +390,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/dermabrasion.webp',
                                     image_title: 'Ansiktsbehandling med HydraFacial',
                                     image_alt: 'Kvinna som får HydraFacial behandling i ansiktet.',
-                                    url: '/hudbehandlingar/dermabrasion',
+                                    url: '/hudbehandlingar/dermabrasion/',
                                     url_title: 'Läs mer och boka tid för dermabrasion.',
                                     show_on_large: false,
                                     show_on_small: true
@@ -401,7 +401,7 @@
                                     image_large: 'bilder/hudbehandlingar/424x324/klassiska-ansiktsbehandlingar.webp',
                                     image_title: 'Ansiktsbehandling',
                                     image_alt: 'Man som får ansiktsbehandling i ansiktet.',
-                                    url: '/hudbehandlingar',
+                                    url: '/hudbehandlingar/',
                                     url_title: 'Se alla våra behandlingar.',
                                     show_on_large: true,
                                     show_on_small: false
@@ -427,7 +427,7 @@
                                     'Generellt' => array(
                                           new Question(
                                                 title: 'Behandlar AcneSpecialisten enbart akne?',
-                                                text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="/hudproblem">hudproblemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
+                                                text: '<p class="p200">Nej, vår expertis sträcker sig bortom behandling av enbart akne. Vi hanterar en bred variation av hudproblem, inklusive akne, rosacea, pormaskar, pigmentfläckar, ytliga blodkärl och mycket mer. För en fullständig översikt över de hudproblem vi behandlar, besök vår <a class="b200 underline color-deep-sea-400" href="/hudproblem/">hudproblemsida</a> Om du är osäker på vilket hudproblem du har, erbjuder vi en kostnadsfri konsultation där våra erfarna hudspecialister kan ge dig råd och vägledning.</p>'
                                           ),
                                           new Question(
                                                 title: 'Kan jag besöka AcneSpecialisten även för mindre hudproblem?',
@@ -526,7 +526,7 @@
                   <section id="specialists">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Våra hudspecialister</div>
-                              <a href="/hudterapeut" title="Specialister" class="button compact text is-hidden-mobile">
+                              <a href="/hudterapeut/" title="Specialister" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla specialister</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -564,18 +564,18 @@
                         );
                         include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php');
                         ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudspecialister" href="/hudterapeut">Se alla hudspecialister</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla AcneSpecialistens hudspecialister" href="/hudterapeut/">Se alla hudspecialister</a>
                   </section>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Varumärken</div>
-                              <a href="varumarken" title="Läs mer om de varumärken vi jobbar med" class="button compact text is-hidden-mobile">
+                              <a href="varumarken/" title="Läs mer om de varumärken vi jobbar med" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla varumärken vi jobbar med" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla varumärken vi jobbar med" href="varumarken/">Se alla varumärken</a>
                   </section>
             </div>
       </main>

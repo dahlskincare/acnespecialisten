@@ -518,7 +518,7 @@ $all_brands = array(
         image: 'bilder/logotyper/skin-tech.svg',
         image_alt: 'Skin Tech logotyp',
         image_title: 'Skin Tech - kemisk peeling',
-        url: '/varumarken/skin-tech',
+        url: '/varumarken/skin-tech/',
         url_title: 'Skin Tech',
     ),
     new Brand(
@@ -678,13 +678,13 @@ $all_brands = array(
                         </div>
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n"><?php echo $brands_title ?></h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                    <a href="varumarken/" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
@@ -693,7 +693,7 @@ $all_brands = array(
                 $brands = $all_brands;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php');
                 ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken/" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>

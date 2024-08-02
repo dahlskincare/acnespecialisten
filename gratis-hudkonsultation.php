@@ -168,19 +168,19 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
                 </section>
             </div>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Varumärken</h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                    <a href="varumarken/" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
+                <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" href="varumarken/" title="Se alla varumärken">Se alla varumärken</a>
             </section>
         </div>
     </main>

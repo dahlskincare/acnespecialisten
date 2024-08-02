@@ -762,7 +762,7 @@ $brands = array(
             image: 'bilder/logotyper/skin-tech.svg',
             image_title: 'Skin Tech - Professionella kemiska peelingar',
             image_alt: 'Skin Tech logotyp',
-            url: '/varumarken/skin-tech',
+            url: '/varumarken/skin-tech/',
             url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
@@ -956,7 +956,7 @@ $brands_url_title = "Varumärken för pormaskar";
                                     </div>
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="hudterapeut">Se alla hudterapeuter</a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Specialister" href="hudterapeut/">Se alla hudterapeuter</a>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
@@ -972,13 +972,13 @@ $brands_url_title = "Varumärken för pormaskar";
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Varumärken</h2>
-                              <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
+                              <a href="varumarken/" title="Varumärken" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Se alla varumärken</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Varumärken" href="varumarken/">Se alla varumärken</a>
                   </section>
             </div>
       </main>
