@@ -127,7 +127,7 @@ $specialists = array(
         image: '/bilder/hudterapeut/312x312/fanny-eklund.webp',
         image_alt: 'Porträttbild på hudterapeuten Fanny Eklund',
         image_title: 'Hudterapeut Fanny Eklund',
-        city: 'Sundbyberg',
+        city: 'Södermalm',
         description: '',
         rating: 4.6,
         num_treatments: 437,
