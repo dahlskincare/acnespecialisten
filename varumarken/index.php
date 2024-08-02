@@ -47,7 +47,7 @@ $header_brands = array(
             image: 'bilder/logotyper/skin-tech.svg',
             image_alt: 'Skin Tech logotyp',
             image_title: 'Skin Tech - kemisk peeling',
-            url: 'varumarken/skin-tech',
+            url: 'varumarken/skin-tech/',
             url_title: 'Skin Tech',
       ),
       new Brand(
@@ -55,7 +55,7 @@ $header_brands = array(
             image: 'bilder/logotyper/rejuve-dye-vl.svg',
             image_alt: 'Alma Rejuve Dye-VL logotyp',
             image_title: 'Alma Rejuve Dye-VL - IPL',
-            url: 'varumarken/rejuve-dye-vl',
+            url: 'varumarken/rejuve-dye-vl/',
             url_title: 'Alma Rejuve Dye-VL',
       ),
       new Brand(
@@ -71,7 +71,7 @@ $header_brands = array(
             image: 'bilder/logotyper/splendor-x.png',
             image_alt: 'Splendor X logotyp',
             image_title: 'Splendor X - Permanent hårborttagning med laser',
-            url: 'varumarken/splendor-x',
+            url: 'varumarken/splendor-x/',
             url_title: 'Splendor X',
       ),
       new Brand(
@@ -79,7 +79,7 @@ $header_brands = array(
             image: 'bilder/logotyper/soprano-ice.png',
             image_alt: 'Soprano Ice logotyp',
             image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-            url: 'varumarken/soprano-ice',
+            url: 'varumarken/soprano-ice/',
             url_title: 'Soprano Ice',
       ),
       new Brand(
@@ -87,7 +87,7 @@ $header_brands = array(
             image: 'bilder/logotyper/powerlite-photonova.svg',
             image_alt: 'Powerlite Photonova logotyp',
             image_title: 'Powerlite Photonova - IPL',
-            url: 'varumarken/powerlite-photonova',
+            url: 'varumarken/powerlite-photonova/',
             url_title: 'Powerlite Photonova',
       ),
       new Brand(
@@ -103,7 +103,7 @@ $header_brands = array(
             image: 'bilder/logotyper/lumenis.svg',
             image_alt: 'Lumenis logotyp',
             image_title: 'Lumenis - Permanent hårborttagning med laser',
-            url: 'varumarken/splendor-x',
+            url: 'varumarken/splendor-x/',
             url_title: 'Lumenis',
       ),
       new Brand(
@@ -119,7 +119,7 @@ $header_brands = array(
             image: 'bilder/logotyper/exceed.png',
             image_alt: 'Exceed logotyp',
             image_title: 'Exceed - microneedling',
-            url: 'varumarken/exceed',
+            url: 'varumarken/exceed/',
             url_title: 'Exceedn',
       ),
       new Brand(
@@ -147,8 +147,8 @@ $link_brands = array(
             url: '/permanent-harborttagning.php',
             url_title: 'Läs mer',
             services: array(
-                  "/varumarken/splendor-x" => "Splendor X",
-                  "/varumarken/soprano-ice" => "Soprano Ice",
+                  "/varumarken/splendor-x/" => "Splendor X",
+                  "/varumarken/soprano-ice/" => "Soprano Ice",
             )
       ),
       new BrandCategory(
@@ -156,9 +156,9 @@ $link_brands = array(
             url: '/hudbehandlingar/ipl/',
             url_title: 'Läs mer',
             services: array(
-                  "/varumarken/rejuve-dye-vl" => "Alma Beauty Rejuve Dye-VL",
+                  "/varumarken/rejuve-dye-vl/" => "Alma Beauty Rejuve Dye-VL",
                   "/alma-harmony-xl-pro.php" => "Harmony XL Pro",
-                  "/varumarken/powerlite-photonova" => "Powerlight - PhotoNova PLS3",
+                  "/varumarken/powerlite-photonova/" => "Powerlight - PhotoNova PLS3",
             )
       ),
       new BrandCategory(
@@ -174,7 +174,7 @@ $link_brands = array(
             url: '/kemisk-peeling.php',
             url_title: 'Läs mer',
             services: array(
-                  "/varumarken/skin-tech" => "Skin Tech",
+                  "/varumarken/skin-tech/" => "Skin Tech",
                   "/prx-t33.php" => "PRX-T33",
             )
       ),
@@ -202,7 +202,7 @@ $link_brands = array(
             url_title: 'Läs mer',
             services: array(
                   "/dermapen.php" => "Dermapen",
-                  "/varumarken/exceed" => "Exceed",
+                  "/varumarken/exceed/" => "Exceed",
             )
       ),
 );
@@ -291,7 +291,7 @@ $brand_cards = array(
             title: 'Skin Tech',
             subtitle: 'Kemisk peeling mot hudproblem',
             description: 'En familj av kemiska peelingar anpassade för olika hudtillstånd. Dessa peelingar använder innovativa formuleringar som effektivt förbättrar hudens textur och utseende, med ett konstant fokus på resultat.',
-            url: 'varumarken/skin-tech',
+            url: 'varumarken/skin-tech/',
             url_title: 'Läs mer om Skin Tech',
             booking_url: 'https://boka.acnespecialisten.se?flow=skintech',
             booking_url_title: 'Boka Skin Tech-behandling',
@@ -309,7 +309,7 @@ $brand_cards = array(
             title: 'Rejuve Dye-VL',
             subtitle: 'IPL för hudproblem',
             description: 'Rejuve Dye-VL är en framstående behandling som använder avancerad IPL-teknologi för att effektivt rikta in sig på och behandla hudproblem såsom pigmentfläckar och ytliga blodkärl. Denna metod är perfekt för dem som söker en skonsam, men ändå kraftfull lösning för att förbättra hudens utseende och textur.',
-            url: 'varumarken/rejuve-dye-vl',
+            url: 'varumarken/rejuve-dye-vl/',
             url_title: 'Läs mer om Rejuve Dye-VL',
             booking_url: 'https://boka.acnespecialisten.se?flow=almarejuve',
             booking_url_title: 'Boka Rejuve Dye-VL-behandling',
@@ -345,7 +345,7 @@ $brand_cards = array(
             title: 'Splendor X',
             subtitle: 'Senaste inom permanent hårborttagning',
             description: 'Splendor X kombinerar laser- och BLEND X-teknologi för en kraftfull och mångsidig behandlingsupplevelse. Perfekt för hårborttagning, hudföryngring och pigmentkorrigering, erbjuder Splendor X snabba och effektiva resultat för hårborttagning.',
-            url: 'varumarken/splendor-x',
+            url: 'varumarken/splendor-x/',
             url_title: 'Läs mer om Splendor X',
             booking_url: 'https://boka.acnespecialisten.se?flow=splendorx',
             booking_url_title: 'Boka Splendor X-behandling',
@@ -363,7 +363,7 @@ $brand_cards = array(
             title: 'Soprano Ice',
             subtitle: 'Laser för hårborttagning',
             description: 'Soprano Ice använder Alma Lasers unika SHR-teknik för en nästan smärtfri och effektiv laserhårborttagning. Den är säker för alla hudtyper och erbjuder en behaglig behandlingsupplevelse med långvariga resultat, vilket gör den till en favorit för permanent hårborttagning.',
-            url: 'varumarken/soprano-ice',
+            url: 'varumarken/soprano-ice/',
             url_title: 'Läs mer om Soprano Ice',
             booking_url: 'https://boka.acnespecialisten.se?flow=sopranoice',
             booking_url_title: 'Boka Soprano Ice-behandling',
@@ -381,7 +381,7 @@ $brand_cards = array(
             title: 'Powerlite Photonova',
             subtitle: 'IPL för hudproblem',
             description: 'Powerlite Photonova är en effektiv IPL-behandling som effektivt behandlar pigmentfläckar och ytliga blodkärl. Denna mångsidiga och avancerade teknologi möjliggör precis behandling, vilket resulterar i synbara förbättringar av en rad olika hudtillstånd.',
-            url: 'varumarken/powerlite-photonova',
+            url: 'varumarken/powerlite-photonova/',
             url_title: 'Läs mer om Powerlite Photonova',
             booking_url: 'https://boka.acnespecialisten.se?flow=powerlite',
             booking_url_title: 'Boka Powerlite Photonova-behandling',
@@ -435,7 +435,7 @@ $brand_cards = array(
             title: 'Exceed',
             subtitle: 'Microneedling mot hudtillstånd',
             description: 'Perfekt för att minska rynkor, jämnar ut huden och förbättra hudtextur. Exceed-behandlingen stimulerar hudens naturliga läkningsprocess och ger en synligt förbättrad hudkvalitet.',
-            url: 'varumarken/exceed',
+            url: 'varumarken/exceed/',
             url_title: 'Läs mer om Exceed',
             booking_url: 'https://boka.acnespecialisten.se?flow=exceed',
             booking_url_title: 'Boka tid för Exceed-behandling',
