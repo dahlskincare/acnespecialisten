@@ -2,6 +2,7 @@ RewriteEngine On
 RewriteBase /
 
 # Enforce https
+RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} ^acnespecialisten.se [NC]
 RewriteRule ^(.*)$ https://www.acnespecialisten.se/$1 [L,R=301]
 
