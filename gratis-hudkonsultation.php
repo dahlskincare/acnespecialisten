@@ -17,10 +17,10 @@ $model = new Service(
     image_alt: 'Gratis hudkonsultation',
     image_title: 'Gratis hudkonsultation',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
-    consultation_url_label: 'Boka ett klinikbesök',
+    consultation_url_label: 'Boka klinikbesök',
     consultation_url_title: 'Klicka här för att boka ett besök i någon av våra kliniker',
     booking_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online',
-    booking_url_label: 'Boka online konsultation',
+    booking_url_label: 'Boka onlinebesök',
     booking_url_title: 'Klicka här för att boka en onlinekonsultation',
 );
 
