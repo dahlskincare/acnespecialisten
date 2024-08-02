@@ -509,13 +509,13 @@ $brands_url_title = "Varumärken för behandling av acneärr";
             <section id="brands">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Varumärken</h2>
-                    <a href="varumarken" title="Varumärken" class="button compact text is-hidden-mobile">
+                    <a href="varumarken/" title="Varumärken" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken">Se alla varumärken</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" title="Varumärken" href="varumarken/">Se alla varumärken</a>
             </section>
 
         </div>

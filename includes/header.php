@@ -149,7 +149,7 @@
                 <ul>
                     <li><a href="/hudproblem/" class="h100 l10n" title="Hudproblem">Hudproblem</a></li>
                     <li><a href="/hudbehandlingar/" class="h100 l10n" title="Hudbehandlingar">Behandlingar</a></li>
-                    <li><a href="varumarken" class="h100 l10n" title="Varumärken">Varumärken</a></li>
+                    <li><a href="varumarken/" class="h100 l10n" title="Varumärken">Varumärken</a></li>
                     <li><a href="resultat.php" class="h100 l10n" title="Resultat">Resultat</a></li>
                     <li><a href="metoden.php" class="h100 l10n" title="Vår metod">Vår metod</a></li>
                     <li><a href="kontakt.php" class="h100 l10n" title="Kontakt">Kontakt</a></li>

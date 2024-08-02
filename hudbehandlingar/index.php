@@ -676,13 +676,13 @@ $path_segments = array(
             <div class="container">
                 <div class="flex-row align-end justify-space-between">
                     <h2 class="big l10n">Varumärken</h2>
-                    <a href="varumarken" class="button compact text is-hidden-mobile">
+                    <a href="varumarken/" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla varumärken</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken" title="Se alla varumärken">Se alla varumärken</a>
+                <a class="mt-xl button outline expand is-hidden-tablet l10n" href="varumarken/" title="Se alla varumärken">Se alla varumärken</a>
             </div>
         </section>
     </main>
