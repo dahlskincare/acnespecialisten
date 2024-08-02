@@ -83,8 +83,8 @@ Redirect 301 /.php /index.php
 Redirect 301 /default.aspx /index.php
 Redirect 301 /pigmentflackar-solskadad-hy.aspx /solskadad-hy.php
 Redirect 301 /Pigmentflackar.aspx /pigmentflackar.php
-Redirect 301 /valj-datum.aspx?salong=6&behandling=51 /behandlingar.php
-Redirect 301 /valj-behandling.aspx?salong=19 /behandlingar.php
+Redirect 301 /valj-datum.aspx?salong=6&behandling=51 /hudbehandlingar/index.php
+Redirect 301 /valj-behandling.aspx?salong=19 /hudbehandlingar/index.php
 Redirect 301 /aldrande-hy-2.php /aldrande-hy.php
 Redirect 301 /blandhy-2.php /blandhy.php
 Redirect 301 /milier-2.php /milier.php
@@ -122,7 +122,7 @@ Redirect 301 /fore-och-efter-bilder-acnearr.php /resultat-acnearr.php
 Redirect 301 /fore-och-efter-bilder-ovrig-problemhy.php /resultat.php
 Redirect 301 /om-acnespecialisten.php /om-oss.php
 Redirect 301 /vara-salonger.php /om-oss.php
-Redirect 301 /lp-boka.php /behandlingar.php
+Redirect 301 /lp-boka.php /hudbehandlingar/index.php
 Redirect 301 /lp-gratis-hudkonsultation.php /gratis-hudkonsultation.php
 Redirect 301 /lp-aterbesok.php /gratis-hudkonsultation.php
 Redirect 301 /lp-porrengoring-ansikte.php /porrengoring.php
@@ -177,7 +177,7 @@ Redirect 301 /lp-cryopen-4-6.php /cryopen.php
 Redirect 301 /lp-cryopen-7-10.php /cryopen.php
 Redirect 301 /elos-skintightening.html /alma-hybrid-co2-laser.php
 Redirect 301 /hudforbattring.html /alma-hybrid-co2-laser.php
-Redirect 301 /specialbehandlingar.html /behandlingar.php
+Redirect 301 /specialbehandlingar.html /hudbehandlingar/index.php
 Redirect 301 /permanent-harborttagning.html /permanent-harborttagning.php
 Redirect 301 /aldrande-hy.php /mogen-hy.php
 Redirect 301 /lp-microneedling /microneedling.php
@@ -250,7 +250,7 @@ Redirect 301 /photonova-permanent-harborttagning.html /permanent-harborttagning.
 Redirect 301 /photonova.html /varumarken/powerlite-photonova/index.php
 Redirect 301 /ipl-behandlingar.aspx /hudbehandlingar/ipl/index.php
 Redirect 301 /ytliga-blodkarl.aspx /ytliga-blodkarl.php
-Redirect 301 /boka-direkt.aspx /hudbehandlingar.php
+Redirect 301 /boka-direkt.aspx /hudbehandlingar/index.php
 Redirect 301 /elos-ipl.html /hudbehandlingar/ipl/index.php
 Redirect 301 /elos-ipl-media.aspx /hudbehandlingar/ipl/index.php
 Redirect 301 /elos-pigmentflackar.html /ipl-pigmentflackar.php
@@ -290,11 +290,12 @@ Redirect 301 /kliniska/hudforbattring1.pdf /infuzion.php
 Redirect 301 /kliniska/hudforbattring2.pdf /infuzion.php
 Redirect 301 /kliniska/hudforbattring3.pdf /infuzion.php
 Redirect 301 /kliniska/hudforbattring4.pdf /infuzion.php
-Redirect 301 /fotvard.html https://www.sverigesskonhetscenter.se/fotvard.php
+Redirect 301 /vaxning.html /permanent-harborttagning.php
+Redirect 301 /behandlingsrutiner/aldrande-hy.pdf /mogen-hy.php
+Redirect 301 /fotvard.html /hudbehandlingar/index.php
 Redirect 301 /fransar-bryn.html https://www.sverigesskonhetscenter.se/fransar-bryn.php
 Redirect 301 /massage.html https://www.sverigesskonhetscenter.se/massage.php
 Redirect 301 /thermaskin.html https://www.sverigesskonhetscenter.se/therma-skin.php
-Redirect 301 /vaxning.html https://www.sverigesskonhetscenter.se/vaxning.php
 Redirect 301 /behandlingsrutiner-latt-acne.php https://www.dahlskincare.com/sv/behandlingsrutiner/br-akne.php
 Redirect 301 /kosmetisk-tatuering.php https://www.sverigesskonhetscenter.se/kosmetisk-tatuering.php
 Redirect 301 /behandlingsrutiner/kanslig-torr-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-kanslig-torr-hy.php
@@ -305,22 +306,22 @@ Redirect 301 /behandlingsrutiner/Svar-acne.pdf https://www.dahlskincare.com/sv/b
 Redirect 301 /behandlingsrutiner/latt-rosacea.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-latt-rosacea.php
 Redirect 301 /behandlingsrutiner/porig-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-pormaskar.php
 Redirect 301 /behandlingsrutiner/kanslig-rosacea.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-kanslig-rosacea.php
-Redirect 301 /vvbehandlingsrutiner/seborroiskt-eksem.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-seborroiskt-eksem.php
+Redirect 301 /behandlingsrutiner/seborroiskt-eksem.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-seborroiskt-eksem.php
 Redirect 301 /behandlingsrutiner/mycket-torr-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-mycket-torr-hy.php
 Redirect 301 /behandlingsrutiner/pigmentflackar.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-pigmentflackar.php
 Redirect 301 /behandlingsrutiner/mycket-fet-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-mycket-fet-hy.php
 Redirect 301 /behandlingsrutiner/kanslig-fet-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-kanslig-fet-hy.php
 Redirect 301 /behandlingsrutiner/svar-rosacea.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-svar-rosacea.php
-Redirect 301 /behandlingsrutiner/aldrande-hy.pdf https://www.dahlskincare.com/sv/produktpaket-aldrande-hy
 Redirect 301 /behandlingsrutiner/solskadad-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-solskadad-hy.php
 Redirect 301 /behandlingsrutiner/latt-seborre.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-latt-seborre.php
 Redirect 301 /behandlingsrutiner/latt-blandhy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-latt-blandhy.php
-Redirect 301 /vbehandlingsrutiner/blandhy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-blandhy.php
+Redirect 301 /behandlingsrutiner/blandhy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-blandhy.php
 Redirect 301 /behandlingsrutiner/torr-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-torr-hy.php
 Redirect 301 /behandlingsrutiner/rosacea.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-rosacea.php
 Redirect 301 /behandlingsrutiner/latt-acne.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-akne.php
 Redirect 301 /behandlingsrutiner/milier.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-milier.php
 Redirect 301 /behandlingsrutiner/fet-hy.pdf https://www.dahlskincare.com/sv/behandlingsrutiner/br-fet-hy.php
+Redirect 301 /behandlingar.php /hudbehandlingar/index.php
 Redirect 301 /oljig-hy.php /fet-hy.php
 Redirect 301 /behandla-atrofiska-arr.php /atrofiska-arr.php
 Redirect 301 /behandla-postinflammatorisk-hyperpigmentering.php /postinflammatorisk-hyperpigmentering.php
@@ -329,7 +330,7 @@ Redirect 301 /dermapen-finnar.php /microneedling-acne.php
 Redirect 301 /microneedling-finnar.php /microneedling-acne.php
 Redirect 301 /tonarsfinnar.php /tonarsacne.php
 Redirect 301 /vuxenfinnar.php /vuxenacne.php
-Redirect 301 /vresultat-finnar.php /resultat-acne.php
+Redirect 301 /resultat-finnar.php /resultat-acne.php
 Redirect 301 /pormaskar-brost.php /pormaskar.php
 Redirect 301 /resultat-dermapen-acnearr.php /resultat-acnearr.php
 Redirect 301 /resultat-micrneedling-acnearr.php /resultat-acnearr.php
@@ -337,6 +338,11 @@ Redirect 301 /dermapen-acne.php /microneedling-acne.php
 Redirect 301 /dermapen-acnearr.php /microneedling-acnearr.php
 Redirect 301 /dermapen-stora-porer.php /microneedling-stora-porer.php
 Redirect 301 /cookies.php /index.php
+Redirect 301 /resultat-microneedling.php /microneedling.php
+Redirect 301 resultat-dermapen.php /dermapen.php
+Redirect 301 /hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val/ /hudbehandlingar/ansiktsbehandling/hudterapeutens-val/
+Redirect 301 /inflammerad-akne.php /inflammation-acne.php
+Redirect 301 /varumarken/alma/ /alma-harmony-xl-pro.php
 
 # If not caught by any rule above, rewrite to .php if filename is missing and it ends with “.html”
 RewriteCond %{REQUEST_FILENAME} !-f
