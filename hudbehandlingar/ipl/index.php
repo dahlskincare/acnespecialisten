@@ -617,7 +617,7 @@ $faq_categories = array(
         ),
         new Question(
             title: ' Kan jag genomgå en IPL-behandling om jag tar medicin som gör mig ljuskänslig?',
-            text: '<p class="p200">Om du tar mediciner som ökar din ljuskänslighet, även kända som fotosensibiliserande mediciner, är det viktigt att du informerar din behandlare om detta innan du genomgår en IPL-behandling. Fotosensibiliserande mediciner kan inkludera vissa typer av antibiotika, antiinflammatoriska läkemedel, och mediciner för aknebehandling såsom isotretinoin. Dessa mediciner kan öka risken för biverkningar från IPL-behandlingen, såsom brännskador eller pigmentförändringar.</p>'
+            text: '<p class="p200">Om du tar mediciner som ökar din ljuskänslighet, även kända som fotosensibiliserande mediciner, är det viktigt att du informerar din behandlare om detta innan du genomgår en IPL-behandling. Fotosensibiliserande mediciner kan inkludera vissa typer av antibiotika, antiinflammatoriska läkemedel, och mediciner för aknebehandling såsom Roaccutan. Dessa mediciner kan öka risken för biverkningar från IPL-behandlingen, såsom brännskador eller pigmentförändringar.</p>'
         ),
     ),
 );
