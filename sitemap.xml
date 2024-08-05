@@ -1,382 +1,723 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://www.acnespecialisten.se/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudproblem/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/varumarken/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudguide/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/priser/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudterapeut/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/recensioner-omdomen.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/problemhy.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/microneedling.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/kemisk-peeling.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/alma-hybrid-co2-laser.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/dermapen.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/alma-harmony-xl-pro.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hydrafacial.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/cryopen.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/infuzion.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/prx-t33.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/microdermabrasion.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/gratis-hudkonsultation.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/laser-mot-hudproblem/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/estetiska-injektionsbehandlingar/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/ansiktsbehandlingar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/ipl/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/dermabrasion/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/permanent-harborttagning.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/skinbooster/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/acnebehandling.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/behandla-acnearr.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/rosaceabehandling.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/portomning.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/milierbehandling.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/ansiktsbehandling/hudterapeutens-val/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/porrengoring.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/djuprengoring.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/estetiska-injektionsbehandlingar/fillers/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/varumarken/dual-injector/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat-acne.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat-acnearr.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat-finnar-arr.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat-pormaskar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat-rosacea.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat-stora-porer.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/resultat-ytliga-blodkarl.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/ansiktsbehandling/akne/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/ansiktsbehandling/rosacea/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/torr-hy.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/microneedling-acnearr.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/mogen-hy.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/microneedling-stora-porer.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/pigmentflackar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudproblem/bristningar/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/microneedling-acne.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/acnearr.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/kemisk-peeling-acne.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/pormaskar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/melasma.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/solskadad-hy.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/laser-acnearr.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/laser-arr.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/stora-porer.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/ipl-pigmentflackar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/laser-acne.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/vakuumsug-pormaskar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/fodelsemarken.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudflikar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/blodprickar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/aldersflackar.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudproblem/hudforandringar/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/ipl-ytliga-blodkarl.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/ipl-rosacea.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/milier.php</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.acnespecialisten.se/hudbehandlingar/pormaskar/</loc>
-  <lastmod>2024-07-31T11:39:19+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.acnespecialisten.se</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acne-ansikte.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acne-brost.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acne-myter.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acne-rygg.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acne-scars.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acne-vulgaris.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acnearr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/acnebehandling.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/aldersflackar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/alma-harmony-xl-pro.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/alma-hybrid-co2-laser.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/ansiktsbehandlingar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/atrofiska-arr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/avbokningspolicy.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/behandla-acnearr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/behandla-finnar-arr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/behandla-pigmentflackar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/behandla-stora-porer.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/blandhy.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/blodprickar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/cryopen.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/cystisk-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/dermapen.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/djuprengoring.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/elevbehandlingar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/fet-hy.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/finnar-ansikte.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/finnar-arr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/finnar-behandling.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/finnar-brost.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/finnar-gravid.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/finnar-rygg.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/finnar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/fodelsemarken.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/fragor-svar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/franchise.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/gratis-hudkonsultation.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hormonell-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudflikar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hydrafacial.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/inflammation-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/infuzion.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/ipl-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/ipl-pigmentflackar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/ipl-rosacea.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/ipl-ytliga-blodkarl.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/karriar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/kemisk-peeling-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/kemisk-peeling.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/klamma-finnar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/komedoner.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/kontakt.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/laser-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/laser-acnearr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/laser-arr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/mallorca-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/melasma.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/metoden.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/microdermabrasion.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/microneedling-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/microneedling-acnearr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/microneedling-stora-porer.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/microneedling.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/milier.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/milierbehandling.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/mjalleksem.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/mogen-hy.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/om-oss.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/online-konsultation.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/ordlista.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/perioral-dermatit.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/permanent-harborttagning.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/pigmentflackar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/pormaskar-rygg.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/pormaskar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/porrengoring.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/portomning.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/postinflammatorisk-hyperpigmentering.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/presentkort.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/problemhy.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/prx-t33.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/recensioner-omdomen.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat-acnearr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat-finnar-arr.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat-pormaskar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat-rosacea.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat-stora-porer.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat-ytliga-blodkarl.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/rhinophyma-rosacea.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/roaccutan.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/rosacea.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/rosaceabehandling.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/seborre.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/seborroisk-keratos.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/solskadad-hy.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/stora-porer.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/stress-acne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/stress-finnar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/svarta-pormaskar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/template.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/tonarsacne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/torr-hy.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/vakuumsug-pormaskar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/vita-pormaskar.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/vuxenacne.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/ytliga-blodkarl.php</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/ansiktsbehandling/akne</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/ansiktsbehandling/hudterapeutens-val</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/ansiktsbehandling/rosacea</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/dermabrasion</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/estetiska-injektionsbehandlingar</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/estetiska-injektionsbehandlingar/fillers</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/ipl</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/laser-mot-hudproblem</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/pormaskar</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudbehandlingar/skinbooster</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudguide</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudguide/accessories</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudguide/accessories/dry-skin</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudguide/accessories/dry-skin/how-hormones-affect</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudguide/accessories/dry-skin/olika-typer-av-akne</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudproblem</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudproblem/bristningar</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudproblem/hudforandringar</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudproblem/oonskat-har</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudproblem/operations-skadearr</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/hudterapeut</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/priser</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/priser/microneedling</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/priser/powerlite</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/resultat/details-1</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/studentrabatt</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/varumarken/dual-injector</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/varumarken/exceed</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/varumarken/powerlite-photonova</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/varumarken/rejuve-dye-vl</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/varumarken/skin-tech</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/varumarken/soprano-ice</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.acnespecialisten.se/varumarken/splendor-x</loc>
+    <lastmod>2024-08-05T12:10:52.894Z</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
