@@ -255,7 +255,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
                             <hr />
-                            <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="gratis-hudkonsultation.php" title="Get a free consultation">Get a free consultation</a>
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
@@ -270,7 +270,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about service">View more about service</a>
                             <hr />
-                            <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="gratis-hudkonsultation.php" title="Get a free consultation">Get a free consultation</a>
                             <a class="mt-s button expand" href="https://bokadirekt.se" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>
@@ -290,7 +290,7 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="gratis-hudkonsultation.php" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                         <div class="service-banner-desktop">
@@ -306,8 +306,8 @@ $article = new SkinGuideArticle(
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
-                                <a class="button expand" href="gratis-hudkonsultation.php title=" Book a treatment">Book a treatment</a>
+                                <a class="button expand" href="gratis-hudkonsultation.php" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="gratis-hudkonsultation.php" title="Book a treatment">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -437,8 +437,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="/acne.phparr" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="/acne.phparr" class="is-hidden-touch button compact text" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                         </div>

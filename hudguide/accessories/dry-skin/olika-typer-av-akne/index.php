@@ -155,7 +155,7 @@ $article = new SkinGuideArticle(
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </div>
                             <div>
-                                <a href="gratis-hudkonsultation.php class=" button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                                <a href="gratis-hudkonsultation.php" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
                             <hr />
-                            <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="gratis-hudkonsultation.php" title="Get a free consultation">Get a free consultation</a>
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
@@ -437,8 +437,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="/acne.phparr" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="/acne.phparr" class="is-hidden-touch button compact text" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                         </div>
