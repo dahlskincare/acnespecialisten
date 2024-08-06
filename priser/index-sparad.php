@@ -289,7 +289,7 @@ $service_categories = array(
                 <div class="container">
                     <div class="flex-row align-end justify-space-between">
                         <h2 class="big l10n">Our specialists</h2>
-                        <a href="specialister" class="button compact text is-hidden-mobile">
+                        <a href="hudterapeut" class="button compact text is-hidden-mobile">
                             <span class="l10n">View all specialists</span>
                             <?php icon('navigate-next') ?>
                         </a>

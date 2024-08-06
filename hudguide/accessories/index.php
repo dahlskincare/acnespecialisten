@@ -194,7 +194,7 @@ $pages = sizeof($articles_per_page);
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="specialister" title="View all specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudterapeut" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
