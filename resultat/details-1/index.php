@@ -344,7 +344,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="/resultat/" class="button b200 outline expand l10n" title="View all cases">View all cases</a>
+                <a href="/" class="button b200 outline expand l10n" title="View all cases">View all cases</a>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
