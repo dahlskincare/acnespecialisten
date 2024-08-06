@@ -354,10 +354,6 @@ $symptoms = array(
             aka: 'Röda finnar',
             content: 'Papler är små, röda inflammerade blemmor som uppstår från bakterieinfektioner i hårsäckar, känsliga vid beröring och vanliga på ansikte, nacke, bröst och rygg.',
 
-            //url_label: 'Läs mer om papler',
-            //url: 'hudproblem/akne/typer/atrophic-boxcar-scars',
-            //url_title: 'Läs mer om papler (röda finnar)',
-
             image: 'bilder/symptom/102x102/papler.webp',
             image_alt: 'Ansikte med papler (röda finnar)',
             image_title: 'Papler (röda finnar)'
@@ -367,10 +363,6 @@ $symptoms = array(
             aka: 'Gula finnar',
             content: 'Pustler är inflammerade, gula blemmor med en varfylld mitt, resultatet av bakterier och talg, ofta smärtsamma och vanliga på ansikte, nacke, bröst och rygg.',
 
-            //url_label: 'Läs mer om pustler',
-            //url: 'hudproblem/akne/typer/atrophic-rolling-scars',
-            //url_title: 'Läs mer om pustler (gula finnar)',
-
             image: 'bilder/symptom/102x102/pustler.webp',
             image_alt: 'Ansikte med pustler (gula finnar)',
             image_title: 'Pustler (gula finnar)'
@@ -379,10 +371,6 @@ $symptoms = array(
             name: 'Noduler',
             aka: 'Innåtfinnar',
             content: 'Noduler är stora, smärtsamma blemmor från djup infektion i hårsäckar, större än 5 mm i diameter, och vanliga på ansikte, bröst och rygg.',
-
-            //url_label: 'Läs mer om noduler',
-            //url: 'hudproblem/akne/typer/hypertrophic-keloid',
-            //url_title: 'Läs mer om noduler (innåtfinnar)',
 
             image: 'bilder/symptom/102x102/noduler.webp',
             image_alt: 'Ansikte med noduler (innåtfinnar)',

@@ -386,8 +386,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -403,8 +403,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -420,8 +420,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/akne" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/akne" class="is-hidden-touch button compact text" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="/acne.php" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                             <div class="column is-half">
@@ -437,8 +437,8 @@ $article = new SkinGuideArticle(
                                         Acne, as we have seen, is a rash on the skin caused by inflamed sebaceous glands, which in turn is due to hormones and heredity, and thus has nothing to do with poor hygiene. Acne often appears on the face, but you
                                         can also get a rash on the shoulders, back and chest. The rash can look many different ways and vary in both appearance and quantity.
                                     </div>
-                                    <a href="problem/aknearr" class="is-hidden-desktop button outline expand" title="View more">View more</a>
-                                    <a href="problem/aknearr" class="is-hidden-touch button compact text" title="View more">View more</a>
+                                    <a href="/acne.phparr" class="is-hidden-desktop button outline expand" title="View more">View more</a>
+                                    <a href="/acne.phparr" class="is-hidden-touch button compact text" title="View more">View more</a>
                                 </div>
                             </div>
                         </div>
@@ -575,13 +575,13 @@ $article = new SkinGuideArticle(
             <section id="skin-guide">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 large-margin l10n">Other articles</div>
-                    <a href="skin-guide" class="button compact text is-hidden-mobile">
+                    <a href="hudguide/" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all articles</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="skin-guide" title="View all articles">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="/hudguide/" title="View all articles">View all articles</a>
             </section>
             <section class="large-margin" id="cta-banner">
                 <div id="cta-banner-texts">

@@ -204,9 +204,6 @@ $type_categories = array(
                         image_url: 'bilder/hudtyper/232x232/kosmetik-finnar.webp',
                         image_alt: 'Ansikte med kosmetik finnar',
                         image_title: 'Exempel på kosmetik finnar',
-
-                        //url: 'hudproblem/akne/typer/kosmetika-akne',
-                        //url_title: 'Lär dig mer om hur kosmetika kan ge akne',
                   ),
                   new BasedType(
                         title: 'Finnar från pillande',
@@ -215,9 +212,6 @@ $type_categories = array(
                         image_url: 'bilder/hudtyper/232x232/pill-finnar.webp',
                         image_alt: 'Ansikte med pill finnar',
                         image_title: 'Exempel på pill finnar',
-
-                        //url: 'hudproblem/akne/typer/acne-exoriee',
-                        //url_title: 'Läs mer om hur pillande kan leda till akne',
                   ),
                   new BasedType(
                         title: 'Friktions finnar',
@@ -226,9 +220,6 @@ $type_categories = array(
                         image_url: 'bilder/hudtyper/232x232/friktions-finnar.webp',
                         image_alt: 'Ansikte med friktions finnar',
                         image_title: 'Exempel på friktions finnar',
-
-                        //url: 'hudproblem/akne/typer/akne-mekanisk',
-                        //url_title: 'Utforska mer om hur friktion kan orsaka akne',
                   ),
                   new BasedType(
                         title: 'Kontakt finnar',
@@ -237,9 +228,6 @@ $type_categories = array(
                         image_url: 'bilder/hudtyper/232x232/kontakt-akne.webp',
                         image_alt: 'Ansikte med kontakt finnar',
                         image_title: 'Exempel på kontakta finnar',
-
-                        //url: 'hudproblem/akne/typer/kontakt-akne',
-                        //url_title: 'Utforska mer om hur direktkontakt kan påverka akne',
                   ),
                   new BasedType(
                         title: 'Svampfinnar',
@@ -248,9 +236,6 @@ $type_categories = array(
                         image_url: 'bilder/hudtyper/232x232/svamp-finnar.webp',
                         image_alt: 'Ansikte med svampfinnar',
                         image_title: 'Exempel på svampfinnar',
-
-                        //url: 'hudproblem/akne/typer/fungal-akne',
-                        //url_title: 'Lär dig mer om hur svamp relateras till akne',
                   ),
             )
       ),
