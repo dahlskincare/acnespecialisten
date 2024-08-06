@@ -337,7 +337,7 @@ $article = new SkinGuideArticle(
                                     </div>
                                 </div>
                                 <div class="ro-info">
-                                    After 2 months of <a href="hudbehandlingar/ansiktsbehandling/akne/akne" title="acne treatment">acne treatment</a>
+                                    After 2 months of <a href="hudbehandlingar/ansiktsbehandling/akne/" title="acne treatment">acne treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -354,7 +354,7 @@ $article = new SkinGuideArticle(
                                     </div>
                                 </div>
                                 <div class="ro-info">
-                                    After 2 months of <a href="hudbehandlingar/ansiktsbehandling/akne/akne" title="acne treatment">acne treatment</a>
+                                    After 2 months of <a href="hudbehandlingar/ansiktsbehandling/akne/" title="acne treatment">acne treatment</a>
                                 </div>
                             </div>
                         </div>
@@ -468,7 +468,7 @@ $article = new SkinGuideArticle(
                             <p class="banner-text">
                                 This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...
                             </p>
-                            <a class="button outline expand" href="behandlingar" title="View product details">View product details</a>
+                            <a class="button outline expand" href="behandlingar/" title="View product details">View product details</a>
                         </div>
                     </div>
 
@@ -485,7 +485,7 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">Price from 995 kr</p>
                                 <div>
                                     <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="hudbehandlingar/ansiktsbehandling/akne" title="View product details">View product details</a>
+                                    <a class="button text b200" href="hudbehandlingar/ansiktsbehandling/akne/" title="View product details">View product details</a>
                                 </div>
                             </div>
                         </div>
@@ -575,13 +575,13 @@ $article = new SkinGuideArticle(
             <section id="skin-guide">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 large-margin l10n">Other articles</div>
-                    <a href="/hudguide" class="button compact text is-hidden-mobile">
+                    <a href="/hudguide/" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all articles</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="/hudguide" title="View all articles">View all articles</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="/hudguide/" title="View all articles">View all articles</a>
             </section>
             <section class="large-margin" id="cta-banner">
                 <div id="cta-banner-texts">
@@ -614,13 +614,13 @@ $article = new SkinGuideArticle(
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Our specialists</div>
-                    <a href="specialists" class="button compact text is-hidden-mobile">
+                    <a href="specialists/" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all specialists</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudterapeut" title="View all specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudterapeut/" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

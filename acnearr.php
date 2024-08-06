@@ -614,7 +614,7 @@ $brands = array(
             image: 'bilder/logotyper/skin-tech.svg',
             image_title: 'Skin Tech - Professionella kemiska peelingar',
             image_alt: 'Skin Tech logotyp',
-            url: 'varumarken/skin-tech',
+            url: 'varumarken/skin-tech/',
             url_title: 'Läs mer om Skin Techs kemiska peelingar',
       ),
 );
