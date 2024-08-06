@@ -6,7 +6,7 @@ class PathSegment
         $this->name = $this->format_name($name);
         if ($url == null) {
             $parsed_url = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-            $this->url = substr($parsed_url, 0, strpos($parsed_url, $name) + strlen($name));
+            $this->url = substr($parsed_url, 0, strpos($parsed_url, $name) + strlen($name)) . '/';
         } else {
             $this->url = $url;
         }
