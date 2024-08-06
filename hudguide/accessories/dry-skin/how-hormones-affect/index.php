@@ -155,7 +155,7 @@ $article = new SkinGuideArticle(
                                 In a personal meeting with a skin specialist, your skin type is examined and identified.
                             </div>
                             <div>
-                                <a href="gratis-hudkonsultation" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
+                                <a href="gratis-hudkonsultation.php" class="button white expand l10n" title="Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about consultation">View more about consultation</a>
                             <hr />
-                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
                         </div>
                         <div class="service-banner-touch">
                             <div class="banner-info">
@@ -270,7 +270,7 @@ $article = new SkinGuideArticle(
                             </p>
                             <a class="button outline expand" href="" title="View more about service">View more about service</a>
                             <hr />
-                            <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                            <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
                             <a class="mt-s button expand" href="https://bokadirekt.se" title="Book a treatment">Book a treatment</a>
                         </div>
                     </div>
@@ -286,11 +286,11 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">15 min<span class="dot"></span>Free</p>
                                 <div>
                                     <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment" title="View more about consultation">View more about consultation</a>
+                                    <a class="button text b200" href="/acnebehandling.php" title="View more about consultation">View more about consultation</a>
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
                             </div>
                         </div>
                         <div class="service-banner-desktop">
@@ -302,12 +302,12 @@ $article = new SkinGuideArticle(
                                 <p class="banner-price">30 - 60 min<span class="dot"></span>Price from 1925 kr</p>
                                 <div>
                                     <p class="banner-text">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin...</p>
-                                    <a class="button text b200" href="services/acne-treatment" title="View more about service">View more about service</a>
+                                    <a class="button text b200" href="/acnebehandling.php" title="View more about service">View more about service</a>
                                 </div>
                             </div>
                             <div class="banner-buttons">
-                                <a class="button expand" href="gratis-hudkonsultation" title="Get a free consultation">Get a free consultation</a>
-                                <a class="button expand" href="gratis-hudkonsultation" title="Book a treatment">Book a treatment</a>
+                                <a class="button expand" href="gratis-hudkonsultation.php title=" Get a free consultation">Get a free consultation</a>
+                                <a class="button expand" href="gratis-hudkonsultation.php title=" Book a treatment">Book a treatment</a>
                             </div>
                         </div>
                     </div>
@@ -603,13 +603,13 @@ $article = new SkinGuideArticle(
             <section id="faq" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Questions & answers</div>
-                    <a href="faq" class="button compact text is-hidden-mobile">
+                    <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all questions</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="faq" title="View all questions">View all questions</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="fragor-svar.php" title="View all questions">View all questions</a>
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
