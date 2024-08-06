@@ -47,7 +47,7 @@
     );
 
     $result = new ResultCustomer(
-        url: 'resultat/details-1',
+        url: 'resultat/details-1/',
         image_before_small: 'https://via.placeholder.com/175x235.webm',
         image_after_small: 'https://via.placeholder.com/175x235.webm',
         image_before_large: 'https://via.placeholder.com/296x394.webm',
@@ -385,13 +385,13 @@
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Our specialists</div>
-                    <a href="specialists" class="button compact text is-hidden-mobile">
+                    <a href="specialists/" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all specialists</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudterapeut" title="View all specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudterapeut/" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

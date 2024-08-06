@@ -120,7 +120,7 @@ $services_per_category = array(
                     <h2 class="h500 l10n">What is Microneedling?</h2>
                     <p class="mt-xs p200 l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin.</p>
                     <p class="mt-xl p200 l10n">This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples and gives a really good start to the treatment of the skin. During the acne treatment, the skin is cleaned in depth with the help of a vapozone that steams up the skin. This is a treatment adapted for acne skin and pimples.</p>
-                    <a href="behandlingar/microneedling" class="mt-xl button b200 outline expand l10n" title="View service details">View service details</a>
+                    <a href="behandlingar/microneedling/" class="mt-xl button b200 outline expand l10n" title="View service details">View service details</a>
                 </section>
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
@@ -153,7 +153,7 @@ $services_per_category = array(
                     <?php
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut" title="View all specialists">View all specialists</a>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="View all specialists">View all specialists</a>
                 </section>
             </div>
             <section id="brands" class="large-margin">
