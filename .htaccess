@@ -344,6 +344,7 @@ Redirect 301 resultat-dermapen.php /dermapen.php
 Redirect 301 /hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val/ /hudbehandlingar/ansiktsbehandling/hudterapeutens-val/
 Redirect 301 /inflammerad-akne.php /inflammation-acne.php
 Redirect 301 /varumarken/alma/ /alma-harmony-xl-pro.php
+Redirect 301 /specialists/ /hudterapeut/
 
 # If not caught by any rule above, rewrite to .php if filename is missing and it ends with “.html”
 RewriteCond %{REQUEST_FILENAME} !-f
