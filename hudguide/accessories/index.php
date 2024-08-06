@@ -21,28 +21,18 @@ $category = new SkinGuideCategory(
 
 $subcategories = array(
     new SkinGuideSubCategory(
-        id: 'subcategory-1',
-        url: 'hudguide/accessories/subcategory-1',
-        name: 'Subcategory 1',
-    ),
-    new SkinGuideSubCategory(
-        id: 'subcategory-2',
-        url: 'hudguide/accessories/subcategory-2',
-        name: 'Subcategory 2',
-    ),
-    new SkinGuideSubCategory(
-        id: 'subcategory-3',
-        url: 'hudguide/accessories/subcategory-3',
-        name: 'Subcategory 3',
+        id: 'dry-skin',
+        url: 'hudguide/accessories/dry-skin',
+        name: 'Dry skin',
     ),
 );
 
 $articles_per_page = array(
     1 => array(
         new SkinGuideArticle(
-            url: 'hudguide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
+            url: 'hudguide/accessories/dry-skin/how-hormones-affect/',
+            url_title: 'How hormones affect?',
+            title: 'How hormones affect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
             description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
@@ -52,9 +42,21 @@ $articles_per_page = array(
             image_title: 'Hormones effect',
         ),
         new SkinGuideArticle(
-            url: 'hudguide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
+            url: 'hudguide/accessories/dry-skin/how-hormones-affect/',
+            url_title: 'How hormones affect?',
+            title: 'How hormones affect?',
+            subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
+            problem: 'Acne',
+            description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
+            image_small: 'https://via.placeholder.com/426x324.webp',
+            image_large: 'https://via.placeholder.com/872x456.jpg',
+            image_alt: 'Hormones effect',
+            image_title: 'Hormones effect',
+        ),
+        new SkinGuideArticle(
+            url: 'hudguide/accessories/dry-skin/how-hormones-affect/',
+            url_title: 'How hormones affect?',
+            title: 'How hormones affect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
             description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
@@ -66,9 +68,9 @@ $articles_per_page = array(
     ),
     2 => array(
         new SkinGuideArticle(
-            url: 'hudguide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
+            url: 'hudguide/accessories/dry-skin/how-hormones-affect/',
+            url_title: 'How hormones affect?',
+            title: 'How hormones affect?',
             subtitle: 'In a personal meeting with a skin specialist, your skin type is examined and identified.',
             problem: 'Acne',
             description: "In a personal meeting with a skin specialist, your skin type is examined and identified. We take pre-photos of your skin, recommend.",
