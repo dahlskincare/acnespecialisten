@@ -12,7 +12,7 @@ $meta_description = '';
 $meta_title = '';
 
 $category = new SkinGuideCategory(
-    url: 'hudguide/accessories',
+    url: 'hudguide/accessories/',
     name: 'Accessories',
     description: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat. He…',
     description_extended: 'Here we explain what identifies acne scars, why the problem occurs and how we can help you treat.',
@@ -22,7 +22,7 @@ $category = new SkinGuideCategory(
 $subcategories = array(
     new SkinGuideSubCategory(
         id: 'dry-skin',
-        url: 'hudguide/accessories/dry-skin',
+        url: 'hudguide/accessories/dry-skin/',
         name: 'Dry skin',
     ),
 );
@@ -188,13 +188,13 @@ $pages = sizeof($articles_per_page);
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Our specialists</div>
-                    <a href="specialists" class="button compact text is-hidden-mobile">
+                    <a href="specialists/" class="button compact text is-hidden-mobile">
                         <span class="l10n">View all specialists</span>
                         <?php icon('navigate-next') ?>
                     </a>
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
-                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudterapeut" title="View all specialists">View all specialists</a>
+                <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" href="hudterapeut/" title="View all specialists">View all specialists</a>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">

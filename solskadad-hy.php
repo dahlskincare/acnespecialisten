@@ -230,7 +230,7 @@ $brands = array(
             image: 'images/brands/powerlite.svg',
             image_alt: 'Powerlite Brand Logo',
             image_title: 'Powerlite - IPL och Laser Teknologi för Hudvård',
-            url: 'varumarken/powerlite-photonova',
+            url: 'varumarken/powerlite-photonova/',
             url_title: 'Läs mer om Powerlite IPL och Laser Hudvårdsteknologi'
       ),
       new Brand(

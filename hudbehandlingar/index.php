@@ -214,7 +214,7 @@ $service_categories = array(
         booking_url_label: 'Boka Behandling',
         services: array(
             new Treatment(
-                url: '/hudbehandlingar/ansiktsbehandling/akne',
+                url: '/hudbehandlingar/ansiktsbehandling/akne/',
                 label: 'Aknebehandling',
                 url_title: 'Läs mer om aknebehandling',
             ),

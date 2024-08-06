@@ -265,7 +265,7 @@ $related_problems = array(
             image: 'images/problems/200x200/hudforandringar.webp',
             image_alt: 'Bild som visar hudforändringar',
             image_title: 'Hudförändringar',
-            url: 'hudproblem/hudforandringar',
+            url: 'hudproblem/hudforandringar/',
             url_title: 'Hudförändringar'
       ),
 );
