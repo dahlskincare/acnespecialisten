@@ -12,7 +12,7 @@ $seo_image = '/bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Klassiska Ansiktsbehandlingar', '/ansiktsbehandlingar.php'),
-    new PathSegment('Hudterapeutens Val', '/hudbehandlingar/ansiktsbehandlingar-klassiska/hudterapeutens-val/'),
+    new PathSegment('Hudterapeutens Val', '/hudbehandlingar/ansiktsbehandling/hudterapeutens-val/'),
 );
 
 $model = new Service(

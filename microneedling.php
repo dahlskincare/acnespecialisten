@@ -612,7 +612,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur snabbt kan man se resultat efter microneedling?',
-            text: '<p class="p200">De första förbättringarna kan ofta märkas inom några veckor efter behandlingen, men de mest märkbara <a class="b200 underline color-deep-sea-400" href="resultat-microneedling.php">micronnedling resultaten</a> uppnås vanligtvis efter flera behandlingar och över tid, eftersom huden fortsätter att producera nytt kollagen. Fullständiga resultat kan ses efter 3-6 månader, beroende på behandlingsintensitet och hudens respons.</p>'
+            text: '<p class="p200">De första förbättringarna kan ofta märkas inom några veckor efter behandlingen, men de mest märkbara  micronnedling resultaten uppnås vanligtvis efter flera behandlingar och över tid, eftersom huden fortsätter att producera nytt kollagen. Fullständiga resultat kan ses efter 3-6 månader, beroende på behandlingsintensitet och hudens respons.</p>'
         ),
         new Question(
             title: 'Kan man göra microneedling hemma?',
