@@ -621,48 +621,7 @@ $faq_categories = array(
 
       ),
 );
-$skin_guide_articles = array(
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-);
+
 $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',

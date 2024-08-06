@@ -138,21 +138,6 @@ $services_per_category = array(
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="faq" title="View all questions">View all questions</a>
                 </section>
-                <section id="skin-guide" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n">Skin guide</h2>
-                        <div class="is-hidden-touch">
-                            <button class="round-large grey" aria-label="scroll" onclick="scrollSkinGuide(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" aria-label="scroll" onclick="scrollSkinGuide(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/skin_guide/skin_guide_narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="skin-guide" title="View all articles">View all articles</a>
-                </section>
                 <section id="specialists" class="large-margin">
                     <div class="flex-row justify-space-between">
                         <h2 class="big l10n">Our specialists</h2>

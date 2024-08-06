@@ -730,20 +730,7 @@ $faq_categories = array(
 
 $faq_view_more = 'Se alla frågor & svar';
 
-$skin_guide_title = 'Hudguiden';
-$skin_guide_articles = array(
-    new SkinGuideArticle(
-        url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-        url_title: 'How hormones effect?',
-        title: 'How hormones effect?',
-        problem: 'Acne',
-        image_small: 'https://via.placeholder.com/426x324.webp',
-        image_large: 'https://via.placeholder.com/872x456.jpg',
-        image_alt: 'Hormones effect',
-        image_title: 'Hormones effect',
-    ),
-);
-$skin_guide_view_more = 'Se alla artiklar';
+
 
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(

@@ -448,57 +448,7 @@ $faq_categories = array(
 $faq_url_label = "Läs fler frågor & svar";
 $faq_url_title = "läs flera frågor";
 
-$skin_guide_articles = array(
-      new SkinGuideArticle(
-            title: 'How hormones effect?',
-            problem: 'Acne',
 
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-      ),
-      new SkinGuideArticle(
-            title: 'How hormones effect?',
-            problem: 'Acne',
-
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-
-
-      ),
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-      new SkinGuideArticle(
-            url: 'skin-guide/category-here/subcategory-here/how-hormones-effect',
-            url_title: 'How hormones effect?',
-            title: 'How hormones effect?',
-            problem: 'Acne',
-            image_small: 'https://via.placeholder.com/426x324.webp',
-            image_large: 'https://via.placeholder.com/872x456.jpg',
-            image_alt: 'Hormones effect',
-            image_title: 'Hormones effect',
-      ),
-);
-
-$skinguide_url_label = "Läs fler guider";
-$skinguide_url_title = "Läs fler guider";
 
 $specialists = array(
       new Specialist(
