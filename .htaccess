@@ -346,6 +346,9 @@ Redirect 301 /inflammerad-akne.php /inflammation-acne.php
 Redirect 301 /varumarken/alma/ /alma-harmony-xl-pro.php
 Redirect 301 /specialists/ /hudterapeut/
 Redirect 301 /behandlingar/ /hudbehandlingar/
+Redirect 301 /behandlingar/ansiktsbehandlingar-problemhy/akne/ /problemhy.php
+Redirect 301 /problem/aknearr/ /acnearr.php
+Redirect 301 /behandlingar/microneedling/ /microneedling.php
 
 # If not caught by any rule above, rewrite to .php if filename is missing and it ends with “.html”
 RewriteCond %{REQUEST_FILENAME} !-f
