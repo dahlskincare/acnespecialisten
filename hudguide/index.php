@@ -13,7 +13,6 @@
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
     <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/hudguide/skin-guide.css">
 </head>
 
 <body>
