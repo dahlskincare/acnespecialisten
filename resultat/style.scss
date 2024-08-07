@@ -1,8 +1,6 @@
 @import '../styles/util/colors';
 @import '../styles/util/sizes';
 @import '../styles/util/mixins';
-@import 'widgets/result_customer_card/result_customer_card';
-@import '../hudguide/widgets/paginator/paginator';
 
 section#banner {
     #filters-touch-container {
@@ -22,11 +20,9 @@ section#banner {
                 border-radius: $radius-s;
                 margin-right: $xxs;
                 margin-bottom: $xxs;
-
             }
         }
     }
-
 
     @media screen and (min-width: $desktop) {
         @include desktop {}
