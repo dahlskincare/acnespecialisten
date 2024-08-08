@@ -12,7 +12,7 @@ $seo_image = '/bilder/hudproblem/424x456/arr.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
-      new PathSegment('Operations- och Skadeärr', '/hudproblem/operations-skadearr//'),
+      new PathSegment('Operations- och Skadeärr', '/hudproblem/operations-skadearr/'),
 );
 
 $image_small = 'bilder/hudproblem/424x324/operations-skadearr.webp';
