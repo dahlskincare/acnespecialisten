@@ -172,7 +172,7 @@ $salons = array(
                                         <option value="treatment" class="l10n">Frågor om behandling</option>
                                         <option value="collaborations" class="l10n">Samarbete</option>
                                         <option value="cancel" class="l10n">Bokning/Avbokning</option>
-                                        <option value="urgent" class="l10n">Brådskande</option>
+                                        <option value="örgent" class="l10n">Brådskande</option>
                                         <option value="other" class="l10n">Annat</option>
                                     </select>
                                 </div>
@@ -240,7 +240,7 @@ $salons = array(
                                         <div class="column is-one-third">
                                             <label class="radio">
                                                 <span class="l10n">Brådskande</span>
-                                                <input type="radio" name="category" value="urgent" />
+                                                <input type="radio" name="category" value="örgent" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
