@@ -13,7 +13,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Aknebehandlingar',
+    title: 'Akne behandling',
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">Här har vi samlat de bästa aknebehandlingarna för att effektivt ta bort akne, oavsett typ. Är du osäker på vilken behandling som bäst passar din hudtyp? Oavsett om det gäller hormonell akne eller annan typ av akne, rekommenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten. Vi hjälper dig att skräddarsy en behandlingsplan för att effektivt bekämpa och ta bort din akne.</p>',
