@@ -59,7 +59,7 @@ $model = new Service(
 $floating_box = 'Bli av med milier effektivt.';
 
 $description_title = 'Hur får man bort milier i ansiktet?';
-$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort de små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna <a class="b200 underline color-deep-sea-400" href="/milier.php">milier</a>, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov.</p>';
+$description_text = '<p class="p200">Våra milierbehandlingar är specifikt utvecklade för att effektivt ta bort de små, fasta vita knölar som ofta uppkommer när keratin samlas under huden. Med hjälp av säkra och effektiva metoder arbetar vi för att rengöra huden och avlägsna <a class="b200 underline color-deep-sea-400" href="/milier.php" title="Mer information om milier">milier</a>, vilket bidrar till en jämn hudyta. Behandlingarna är anpassade efter individens hudtyp och hudens specifika behov.</p>';
 
 $types_title = '';
 $types_description = '';

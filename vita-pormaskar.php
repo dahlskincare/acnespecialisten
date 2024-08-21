@@ -50,7 +50,7 @@ $floating_box = 'Vi behandlar vita pormaskar effektivt';
 
 $description_title = 'Vad är vita pormaskar?';
 $description_text = '<p class="p200">Vita pormask, även kända som stängda komedon, uppkommer när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av <a class="b200 underline color-deep-sea-400" href="/pormaskar.php">pormaskar</a>. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
+<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av <a class="b200 underline color-deep-sea-400" href="/pormaskar.php" title="Mer information om pormaskar">pormaskar</a>. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(

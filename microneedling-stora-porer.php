@@ -61,7 +61,7 @@ $floating_box = 'Behandlar och reducerar stora porer.';
 
 $description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Microneedling för behandling av stora porer är en framstående metod som använder fina mikronålar för att förfina hudens textur och minska synligheten av stora porer. Denna teknik innebär att skapa små mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och främjar ökad kollagenproduktion. Resultatet är en fastare och jämnare hudstruktur.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade <a class="b200 underline color-deep-sea-400" href="/microneedling.php">microneedling</a> behandlingar som specifikt riktar sig mot stora porer, vilket effektivt förbättrar hudens övergripande utseende. Denna behandlingsmetod är perfekt för att uppnå en mer jämn och förfinad hudton. Med regelbunden behandling kommer du att märka en betydande förbättring i hudens kvalitet, med porer som blir mindre synliga. Vårt mål är att ge dig en lösning för en slätare och mer enhetlig hud.</p>';
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi anpassade <a class="b200 underline color-deep-sea-400" href="/microneedling.php" title="Mer infomration om microneedling">microneedling</a> behandlingar som specifikt riktar sig mot stora porer, vilket effektivt förbättrar hudens övergripande utseende. Denna behandlingsmetod är perfekt för att uppnå en mer jämn och förfinad hudton. Med regelbunden behandling kommer du att märka en betydande förbättring i hudens kvalitet, med porer som blir mindre synliga. Vårt mål är att ge dig en lösning för en slätare och mer enhetlig hud.</p>';
 
 $types_title = '';
 $types_description = '';
