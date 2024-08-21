@@ -45,7 +45,7 @@ $floating_box = 'Vi behandlar födelsemärken effektivt och skonsamt';
 
 $description_title = 'Vad är födelsemärken?';
 $description_text = '<p class="p200">Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Dessa hudmärken är ofta medfödda eller utvecklas under tidiga levnadsår. De kan vara helt ofarliga, men vissa typer av födelsemärken kan kräva uppmärksamhet, särskilt om de förändras över tid.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för att säkert hantera födelsemärken. Våra metoder kan inkludera laserbehandling eller andra avancerade tekniker för att effektivt minska eller ta bort födelsemärken, vilket bidrar till en jämnare och mer enhetlig hudton.</p>';
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi expertbedömning och behandlingar för att säkert hantera födelsemärken. Våra metoder kan inkludera laserbehandling eller andra avancerade tekniker för att effektivt minska eller <a class="b200 underline color-deep-sea-400" href="/cryopen.php" title="Mer information om att ta bort leverfläckar">ta bort leverfläckar</a> och födelsemärken, vilket bidrar till en jämnare och mer enhetlig hudton.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
