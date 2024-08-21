@@ -51,7 +51,7 @@ $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hu
 
 $headline02 = "02. Behandla";
 
-$treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar inleder vi behandlingen för att reducera eller eliminera dem och återställa en jämnare hudton. Vi använder en rad olika metoder som är skräddarsydda efter dina specifika behov, inklusive kemisk peeling, laserbehandling och microneedling. Dessa effektiva metoder gör det möjligt att snabbt och effektivt behandla pigmentfläckar och förbättra hudens utseende. Vårt mål är att uppnå bästa möjliga resultat med minimal påverkan och obehag för dig.</p>';
+$treat_content = '<p class="p200">När vi har identifierat dina pigmentfläckar inleder vi behandlingen för att reducera eller eliminera dem och återställa en jämnare hudton. Vi använder en rad olika metoder som är skräddarsydda efter dina specifika behov, inklusive <a class="b200 underline color-deep-sea-400" href="/kemisk-peeling.php" title="Mer information om kemisk peeling i stockholm">kemisk peeling stockholm</a>, laserbehandling och microneedling. Dessa effektiva metoder gör det möjligt att snabbt och effektivt behandla pigmentfläckar och förbättra hudens utseende. Vårt mål är att uppnå bästa möjliga resultat med minimal påverkan och obehag för dig.</p>';
 
 $services = array(
 

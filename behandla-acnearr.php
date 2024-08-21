@@ -31,7 +31,7 @@ $path_segments = array(
 
 $about_title = 'Hur vi behandlar och tar bort acneärr';
 
-$about_content = '<p class="p200">Att behandla och reducera acneärr kräver både expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade, skräddarsydda metoder för att effektivt eliminera acneärr. Under vår kostnadsfria hudkonsultation bedömer vi ärrets djup och omfattning för att skapa en anpassad behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och reducera <a class="b200 underline color-deep-sea-400" href="/acnearr.php" title="Mer information om acneärr">acneärr</a> kräver både expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade, skräddarsydda metoder för att effektivt eliminera acneärr. Under vår kostnadsfria hudkonsultation bedömer vi ärrets djup och omfattning för att skapa en anpassad behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vi tar bort ärrvävnaden för att återställa hudens jämna yta och hjälper dig att bli av med ärr i ansiktet, på bröstet eller ryggen. Om du har aktiva acneutbrott, rekommenderar vi behandlingar för att förhindra ytterligare ärrbildning. Våra hudterapeuter stödjer dig genom hela processen för att nå önskat resultat.</p>';
 

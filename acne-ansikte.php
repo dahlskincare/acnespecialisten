@@ -120,7 +120,7 @@ $trivias = array(
 
             <li class="mt-xl"><strong>Kinder:</strong> Akne på kinderna kan även bero på hormonella förändringar, särskilt hos kvinnor. Dessa finnar kan vara rödaktiga och inflammerade, och de kan dyka upp som enstaka utbrott eller som en del av ett större område med flera finnar. Hormoner som östrogen och progesteron kan påverka talgproduktionen, vilket leder till att porerna täpps igen och orsakar akne.</li>
 
-            <li class="mt-xl"><strong>Haka:</strong> Akne på hakan är vanligtvis hormonell och ökar ofta under menstruationscykeln. Denna typ av akne kan vara envis och dyka upp samma plats varje månad.</li>
+            <li class="mt-xl"><strong>Haka:</strong> Akne och <a class="b200 underline color-deep-sea-400" href="/finnar-ansikte.php" title="Mer information om finnar på hakan">finnar på hakan</a> är vanligtvis hormonell och ökar ofta under menstruationscykeln. Denna typ av akne kan vara envis och dyka upp samma plats varje månad.</li>
 
             <li class="mt-xl"><strong>Näsa:</strong> Porerna på näsan är större och blir lättare igentäppta, vilket kan leda till pormaskar eller små finnar. Överflödig olja och bakterier spelar också en stor roll här.</li>
 
