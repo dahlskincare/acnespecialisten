@@ -51,7 +51,6 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
-
 $articles = array(
       new Article(
             title: 'Hur du blir fri från akne på ryggen: effektiva behandlingar, produkter och tips',
