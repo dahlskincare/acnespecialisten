@@ -31,7 +31,7 @@ $path_segments = array(
 
 $about_title = 'Hur vi behandlar och minskar stora porer';
 
-$about_content = '<p class="p200">Att behandla stora porer kräver en genomtänkt och individuell behandlingsplan. På Acnespecialisten kombinerar vi vår erfarenhet och kunskap med de bästa behandlingarna och verktygen för att effektivt minska synligheten av <a class="b200 underline color-deep-sea-400" href="/pormaskar.php" title="Mer information om porer">porer</a>. Genom vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en skräddarsydd behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla <a class="b200 underline color-deep-sea-400" href="/stora-porer.php" title="Mer information om stora porer">stora porer</a> kräver en genomtänkt och individuell behandlingsplan. På Acnespecialisten kombinerar vi vår erfarenhet och kunskap med de bästa behandlingarna och verktygen för att effektivt minska synligheten av <a class="b200 underline color-deep-sea-400" href="/pormaskar.php" title="Mer information om porer">porer</a>. Genom vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och skapa en skräddarsydd behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vi behandlar stora porer oavsett orsak och erbjuder anpassade produkter och behandlingar för att reducera porernas storlek och förhindra att de vidgas. Om porerna har orsakat ojämnheter eller andra hudproblem har vi lösningar för att förbättra hudens utseende. Vi ser fram emot att vara din guide på resan mot att minska stora porer och återfå en jämnare och mer strålande hy.</p>';
 
