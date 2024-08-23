@@ -61,7 +61,7 @@ $floating_box = 'Behandlar och reducerar akneärr.';
 
 $description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Vi använder oss av Dermapen mot akneärr som är precisionsutformade mikronålar som förbättrar hudens textur och minska akneärr. Genom att skapa små, nästan omärkliga punkteringar i huden, stimulerar denna teknik hudens egen läkningsmekanism och ökar produktionen av kollagen. Detta resulterar i en synbart fastare och mer enhetlig hudstruktur.</p>
-<p class="p200 mt-m">På AcneSpecialisten anpassar vi varje microneedling-behandling till dina individuella hudbehov, speciellt när det gäller akneärr. Denna metod är idealisk för att uppnå en jämnare hudton och för att reducera synligheten av ärr. Med konsekventa behandlingar kommer du att uppleva en betydande förbättring av din hud, inklusive minskade porer. Vårt främsta mål är att hjälpa dig att uppnå en mjukare och jämnare hy.</p>';
+<p class="p200 mt-m">På AcneSpecialisten anpassar vi varje <a class="b200 underline color-deep-sea-400" href="/microneedling.php" title="Mer information om microneedling">microneedling</a> behandling till dina individuella hudbehov, speciellt när det gäller akneärr. Denna metod är idealisk för att uppnå en jämnare hudton och för att reducera synligheten av ärr. Med konsekventa behandlingar kommer du att uppleva en betydande förbättring av din hud, inklusive minskade porer. Vårt främsta mål är att hjälpa dig att uppnå en mjukare och jämnare hy.</p>';
 
 $types_title = '';
 $types_description = '';
