@@ -54,7 +54,7 @@ $result_category =
     new ResultCategory(
         id: 'pormaskar',
         title: 'Pormaskar resultat',
-        description_1: 'Upptäck framstegen vi gör hos AcneSpecialisten i behandlingen av pormaskar. Denna sida visar en samling av före- och efterbilder som demonstrerar den märkbara effekten av våra skräddarsydda behandlingar såsom portömning. Bevittna hur vi noggrant rengör och minskar pormaskar, vilket bidrar till en klarare och jämnare hud.',
+        description_1: 'Upptäck framstegen vi gör hos AcneSpecialisten i behandlingen av pormaskar. Denna sida visar en samling av före- och efterbilder som demonstrerar den märkbara effekten av våra skräddarsydda behandlingar såsom portömning. Bevittna hur vi noggrant rengör och minskar pormaskar, vilket bidrar till en klarare och jämnare hud. Vi behandlar både vita och <a class="b200 underline" href="/pormaskar.php" title="Mer information om svarta pormaskar">svarta pormaskar</a>.',
 
         description_2: 'Är du redo att effektivt hantera dina pormaskar och se verkliga resultat? Genom att boka en kostnadsfri konsultation hos AcneSpecialisten, tar du det första steget mot en renare och mer strålande hud. Våra anpassade behandlingsplaner är utformade för att målinriktat angripa och minska pormaskar, vilket förbättrar både hudens utseende och dess hälsa.',
     );
