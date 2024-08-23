@@ -59,7 +59,7 @@ $model = new Service(
 
 $description_title = 'Vad är en djuprengöring?';
 $description_text = '<p class="p200">Våra djuprengöringar är specialiserade porrengöringsbehandlingar som effektivt riktar sig mot pormaskar och ger en omfattande lösning för en klarare och renare hud. Genom att kombinera grundliga rengöringsmetoder och ångbehandling öppnar vi effektivt upp porerna, vilket möjliggör en djupgående rengöring. Detta är särskilt effektivt för att ta bort pormaskar och andra typer av hudtilltäppningar.</p>
-<p class="p200 mt-m">AAnpassade för olika hudtyper, inklusive oljig, torr och blandhy, strävar våra djuprengöringsbehandlingar efter att inte bara rena porerna utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
+<p class="p200 mt-m">AAnpassade för olika hudtyper, inklusive oljig, torr och blandhy, strävar våra djuprengöringsbehandlingar efter att inte bara <a class="b200 underline color-deep-sea-400" href="/porrengoring.php" title="Mer information om rengöring av porer">rengöring av porer</a> utan också förbättra hudens övergripande hälsa och utseende. Genom att återställa hudens naturliga balans och tillhandahålla essentiell näring, arbetar vi för att förebygga framtida hudproblem och minimera uppkomsten av nya pormaskar.</p>';
 
 $types_title = '';
 $types_description = '';

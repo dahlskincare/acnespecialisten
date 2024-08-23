@@ -44,8 +44,8 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Behandla dina stress finnar effektivt.';
 
 $description_title = 'Vad är stress finnar?';
-$description_text = '<p class="p200">stress finnar är en hudåkomma som ofta uppstår till följd av höga stressnivåer, vilket kan påverka huden genom hormonella förändringar. Våra behandlingar syftar till att skonsamt rengöra, balansera och lugna huden, med särskild inriktning på stressrelaterade hudproblem. Vi erbjuder anpassade behandlingsalternativ för att effektivt hantera finnar utan att irritera huden.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten förstår vi behovet av en anpassad hudvårdsrutin för att hantera stressrelaterade hudproblem. Genom att kombinera rengöringsmetoder med lugnande och återfuktande behandlingar, är våra hudterapeuter utrustade för att ge den mest effektiva och skonsamma vård för din stresspåverkade hud. Vi fokuserar även på att lära dig strategier för att hantera stress och dess inverkan på huden, för att förebygga framtida utbrott.</p>';
+$description_text = '<p class="p200">Stress finnar är en hudåkomma som ofta uppstår till följd av höga stressnivåer, vilket kan påverka huden genom hormonella förändringar. Våra behandlingar syftar till att skonsamt rengöra, balansera och lugna huden, med särskild inriktning på stressrelaterade hudproblem. Vi erbjuder anpassade behandlingsalternativ för att effektivt hantera finnar utan att irritera huden.</p>
+<p class="p200 mt-m">Hos AcneSpecialisten förstår vi behovet av en anpassad hudvårdsrutin för att hantera stressrelaterade hudproblem. Genom att kombinera rengöringsmetoder med lugnande och återfuktande behandlingar, är våra hudterapeuter utrustade för att ge den mest effektiva och skonsamma vård för din stresspåverkade hud. Vi fokuserar även på att lära dig strategier för att hantera <a class="b200 underline color-deep-sea-400" href="/stress-acne.php" title="Mer information om stress akne">stress akne</a> och dess inverkan på huden, för att förebygga framtida utbrott.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
