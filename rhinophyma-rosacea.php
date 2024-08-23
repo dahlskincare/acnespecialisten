@@ -38,7 +38,7 @@ $floating_box = 'En översikt om rhinophyma rosacea och dess behandling';
 
 $description_title = 'Vad är rhinophyma rosacea?';
 $description_text = '<p class="p200">Rhinophyma rosacea är en särskilt svår form av rosacea som huvudsakligen påverkar näsan. Det kännetecknas av en signifikant förtjockning och rödhet av huden, ofta med en ojämn, knölig yta. Tillståndet utvecklas vanligtvis över tid och är mer frekvent hos män, särskilt de som är mitt i livet eller äldre.</p>
-<p class="p200 mt-m">Orsaken till rhinophyma rosacea är genetiskto och även om tillståndet främst är estetiskt störande kan det i allvarligare fall leda till andningssvårigheter. Hos AcneSpecialisten fokuserar vi på att förstå varje individs unika situation och erbjuda skräddarsydda behandlingsplaner.</p>';
+<p class="p200 mt-m">Orsaken till rhinophyma rosacea är genetiskto och även om tillståndet främst är estetiskt störande kan det i allvarligare fall leda till andningssvårigheter. Hos AcneSpecialisten fokuserar vi på att förstå varje individs unika situation och erbjuda skräddarsydda behandlingsplaner. Här hittar du våra resultat i form av <a class="b200 underline color-deep-sea-400" href="/resultat-rosacea.php" title="Mer information om rosacea bilder på näsan">rosacea bilder på näsan</a>.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
