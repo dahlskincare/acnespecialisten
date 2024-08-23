@@ -55,7 +55,7 @@ $result_category =
     new ResultCategory(
         id: 'ytligablodkarl',
         title: 'Ytliga blodkärl resultat',
-        description_1: 'Upptäck AcneSpecialistens framgångar i IPL behandlingen resultat mot ytliga blodkärl. På denna sida presenteras före- och efter bilder som visar de imponerande resultaten av våra anpassade behandlingar. Se hur vi minskar synligheten av ytliga blodkärl och förbättrar hudens övergripande ton och utseende.',
+        description_1: 'Upptäck AcneSpecialistens framgångar i IPL behandlingen resultat mot <a class="b200 underline" href="/ytliga-blodkarl.php" title="Mer information om synliga blodkärl">synliga blodkärl</a>. På denna sida presenteras före- och efter bilder som visar de imponerande resultaten av våra anpassade behandlingar. Se hur vi minskar synligheten av ytliga blodkärl och förbättrar hudens övergripande ton och utseende.',
 
         description_2: 'Är du redo att effektivt hantera ytliga blodkärl och se en betydande förbättring i din hud? Boka en kostnadsfri konsultation hos AcneSpecialisten för att börja din resa mot en jämnare hudton. Vi erbjuder skräddarsydda behandlingslösningar anpassade för att specifikt minska ytliga blodkärl och förbättra din hudhälsa.',
     );
