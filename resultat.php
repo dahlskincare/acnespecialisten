@@ -62,7 +62,7 @@ $result_category =
         title: 'Resultat',
         description_1: 'Här hittar du resultaten från några av våra kunder som har kämpat med olika typer av hudproblem. Vi har samlat före och efter bilder som tydligt visar de märkbara förändringarna som våra skräddarsydda hudvårdsbehandlingar och produkter åstadkommer.',
 
-        description_2: 'Om du är redo att förändra din hud och uppleva hur vi kan göra skillnad, boka din kostnadsfria konsultation idag. Påbörja din resa mot en problemfri hy!',
+        description_2: 'Våra Om du är redo att förändra din hud och uppleva hur vi kan göra skillnad, boka din kostnadsfria konsultation idag. Våra <a class="b200 underline color-deep-sea-400" href="/" title="Mer information hudterapeuter i Stockholm">hudterapeuter i Stockholm</a> står redo att hjälpa dig. Påbörja din resa mot en problemfri hy!',
 
     );
 
