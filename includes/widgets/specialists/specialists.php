@@ -9,11 +9,11 @@ if (!isset($specialists)) {
             image_alt: 'Porträttbild på hudterapeuten Cazzandra Lindberg',
         ),
         new Specialist(
-            name: 'Veronika Benedik',
-            title: 'Hudterapeut sedan 1999',
-            image: 'images/specialists/large/hudterapeut-veronika.webp',
-            image_title: 'Hudterapeut Veronika Benedik',
-            image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
+            name: 'Vilma Libom',
+            title: 'Hudterapeut sedan 2022',
+            image: 'images/specialists/large/hudterapeut-vilma.webp',
+            image_title: 'Hudterapeut Vilma Libom',
+            image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
         ),
         new Specialist(
             name: 'Julia Eklund',
@@ -23,11 +23,11 @@ if (!isset($specialists)) {
             image_alt: 'Porträttbild på hudterapeuten Julia Eklund',
         ),
         new Specialist(
-            name: 'Vilma Libom',
-            title: 'Hudterapeut sedan 2022',
-            image: 'images/specialists/large/hudterapeut-vilma.webp',
-            image_title: 'Hudterapeut Vilma Libom',
-            image_alt: 'Porträttbild på hudterapeuten Vilma Libom',
+            name: 'Veronika Benedik',
+            title: 'Hudterapeut sedan 1999',
+            image: 'images/specialists/large/hudterapeut-veronika.webp',
+            image_title: 'Hudterapeut Veronika Benedik',
+            image_alt: 'Porträttbild på hudterapeuten Veronika Benedik',
         ),
     );
 }
