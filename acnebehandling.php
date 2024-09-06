@@ -13,7 +13,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Aknebehandlingar',
+    title: 'Akne behandling',
     duration: null,
     price: 'Från 1595 kr',
     content: '<p class="p200">Här har vi samlat de bästa aknebehandlingarna för att effektivt ta bort akne, oavsett typ. Är du osäker på vilken behandling som bäst passar din hudtyp? Oavsett om det gäller hormonell akne eller annan typ av akne, rekommenderar vi att börja med en kostnadsfri hudkonsultation hos oss på AcneSpecialisten. Vi hjälper dig att skräddarsy en behandlingsplan för att effektivt bekämpa och ta bort din akne.</p>',
@@ -31,7 +31,7 @@ $model = new Service(
 
 $about_title = 'Om behandlingarna';
 
-$about_content = '<p class="p200">Att behandla och ta bort akne är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för att effektivt få bort akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och ta bort <a class="b200 underline color-deep-sea-400" href="/acne.php" title="Mer information om akne">akne</a> är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för <a class="b200 underline color-deep-sea-400" href="/finnar-behandling.php" title="Mer information om behandling av finnar">behandling av finnar</a> och akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Vi skapar en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
 
@@ -766,7 +766,7 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                 title: 'Hemmavård efter behandlingen?',
                                 text: '<p class="p200">Hemmavården efter en aknebehandling hos Acnespecialisten är lika viktig som själva behandlingen. När aknen är utklämd och borta är det viktigt att förebygga uppkomsten av ny akne. Om du inte följer din eftervårdsplan kommer du att få resultat, men det kommer inte vara bestående, eftersom akneproduktionen sätter igång igen kort tid efter behandlingen.</p>
 
-                                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Du behöver inte akne medicin för att behandla problemet utan kan göra det effektivt med hjälp av rätt hudvårdsprodukter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på AcneSpecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
+                                  <p class="p200 mt-m">För att hålla huden i kontroll och balans är det viktigt att följa de råd och rekommendationer vi ger dig angående hudvårdsrutin och produkter. Du behöver inte <a class="b200 underline color-deep-sea-400" href="/roaccutan.php" title="Mer information om akne medicin">akne medicin</a> för att behandla problemet utan kan göra det effektivt med hjälp av rätt hudvårdsprodukter. Kontinuerlig behandling och förebyggande åtgärder är avgörande för att uppnå och bibehålla en klar och frisk hud. Kom ihåg att vi på AcneSpecialisten alltid finns här för att hjälpa och stötta dig genom hela processen, både under och efter din behandling.</p>',
                             ),
                         ),
 

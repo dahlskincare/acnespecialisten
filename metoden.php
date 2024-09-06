@@ -110,7 +110,7 @@ $steps = array(
                                     <?php icon('star'); ?>
                                     <span class="l10n">Diplomerade hudspecialister</span>
                                 </div>
-                                <div class="bullet-content l10n">Vårt team består av diplomutbildade hudterapeuter, specialiserade inom våra behandlingsområden. Du kan lita på att vi levererar högkvalitativa och säkra hudvårdsbehandlingar, med precision och omsorg.</div>
+                                <div class="bullet-content l10n">Vårt team består av diplomutbildade <a class="b200 underline color-deep-sea-400" href="/" title="Mer information om hudterapeuter i Stockholm">hudterapeuter i Stockholm</a>, specialiserade inom våra behandlingsområden. Du kan lita på att vi levererar högkvalitativa och säkra hudvårdsbehandlingar, med precision och omsorg.</div>
                             </div>
                         </div>
                     </div>

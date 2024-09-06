@@ -31,7 +31,7 @@ $path_segments = array(
 
 $about_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 
-$about_content = '<p class="p200">Att behandla och minska synligheten av ärr från finnar kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt minska dessa ärr. Med vår kostnadsfria hudkonsultation identifierar vi ärrens djup och omfattning för att skapa en personligt anpassad behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och minska synligheten av <a class="b200 underline color-deep-sea-400" href="/acnearr.php" title="Mer information om ärr av finnar">ärr av finnar</a> kräver expertis och en genomtänkt strategi. På AcneSpecialisten använder vi avancerade metoder och behandlingar skräddarsydda för att effektivt minska dessa ärr. Med vår kostnadsfria hudkonsultation identifierar vi ärrens djup och omfattning för att skapa en personligt anpassad behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att behandla och reducera ärrvävnaden för att återställa hudens jämna yta. Efter behandling av ärren hjälper vi dig med en anpassad hudvårdsrutin för att förbättra hudens textur och elasticitet. Om du också har aktiva finnar, rekommenderar vi lösningar för att hantera dessa, då obehandlade finnar kan leda till fler ärr. Vårt team på AcneSpecialisten stödjer dig genom hela processen, från första konsultationen till att uppnå önskat resultat.</p>';
 

@@ -65,7 +65,7 @@ $trivias = array(
 
             <p class="p200 mt-xl">Om du upplever mycket stress eller hormonella förändringar kan det också förvärra situationen. Stress kan öka kroppens produktion av hormoner som kortisol, vilket i sin tur kan leda till ökad talgproduktion.</p>
 
-            <p class="p200 mt-xl">Akne på ryggen är resultatet av en kombination av hormonella, hygieniska och yttre faktorer som skapar en gynnsam miljö för finnar att bildas.</p>',
+            <p class="p200 mt-xl"><a class="b200 underline color-deep-sea-400" href="/acne-rygg.php" title="Mer information om akne på ryggen">Akne på ryggen</a> är resultatet av en kombination av hormonella, hygieniska och yttre faktorer som skapar en gynnsam miljö för finnar att bildas.</p>',
             icons: array()
       ),
       new ProblemTrivia(

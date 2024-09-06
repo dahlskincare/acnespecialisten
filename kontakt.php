@@ -79,7 +79,7 @@ $salons = array(
             <div id="content">
                 <section id="title">
                     <h1 class="l10n">Kontakt</h1>
-                    <p class="l10n">Välkommen att kontakta oss på AcneSpecialisten, här hittar du våra hudvårdssalonger i Stockholm! Vi strävar efter att svara på alla förfrågningar inom en arbetsdag. För din bekvämlighet kan du nå oss genom vårt kontaktformulär, via telefon, e-post, eller direkt via chatten som du hittar nere i högra hörnet av vår webbsida. Vi ser fram emot att höra från dig och hjälpa dig med dina hudvårdsbehov.</p>
+                    <p class="l10n">Välkommen att kontakta oss på AcneSpecialisten, här hittar du våra hudvårdssalonger i Stockholm! Vi strävar efter att svara på alla förfrågningar inom en arbetsdag. För din bekvämlighet kan du nå oss genom vårt kontaktformulär, via telefon, e-post, eller direkt via chatten som du hittar nere i högra hörnet av vår webbsida. Vi ser fram emot att höra från dig och våra <a class="b200 underline color-deep-sea-400" href="/" title="Mer information om hudterapeuter i Stockholm">hudterapeuter i Stockholm</a> är redo att hjälpa dig med dina hudvårdsbehov.</p>
                 </section>
                 <section id="contact-details">
                     <div class="is-hidden-desktop">

@@ -62,7 +62,7 @@ $trivias = array(
       new ProblemTrivia(
             prefix: 'Vad',
             title: ' är blandhy?',
-            content: '<p class="p200">Blandhy är en hudtyp som kännetecknas av att ha både torra och oljiga områden i ansiktet. Typiskt för blandhy är att T-zonen, som inkluderar panna, näsa och haka, tenderar att vara oljig medan kinderna kan vara torra eller normala. Detta medför att porerna i T-zonen ofta är förstorade, medan de kan vara mindre synliga på kinderna.</p>',
+            content: '<p class="p200">Blandhy är en hudtyp som kännetecknas av att ha både torra och oljiga områden i ansiktet. Typiskt för blandhy är en <a class="b200 underline color-deep-sea-400" href="/fet-hy.php" title="Mer information om oljig t-zon">oljig T-zon</a>, som inkluderar panna, näsa och haka, tenderar att vara oljig medan kinderna kan vara torra eller normala. Detta medför att porerna i T-zonen ofta är förstorade, medan de kan vara mindre synliga på kinderna.</p>',
 
             extended_content: '<p class="p200 mt-xl">Personer med blandhy kan uppleva både glansighet i de oljigare områdena och en stram känsla i de torrare partierna. Det är också vanligt att finnar och pormaskar uppstår i de oljiga områdena.</p> 
             

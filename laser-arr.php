@@ -61,7 +61,7 @@ $floating_box = 'Effektiv laserbehandling som förbättrar hudens struktur.';
 
 $description_title = 'Hur går behandlingen till?';
 $description_text = '<p class="p200">Laserbehandling är en avancerad metod för att effektivt minska synligheten av ärr orsakade av operationer och skador vilket inkluderar acneärr och bristningar. Denna teknik använder koncentrerat ljus för att försiktigt ta bort ärrvävnad och stimulera hudens naturliga läkningsprocess, vilket resulterar i en jämnare och mer enhetlig hudton.</p>
-<p class="p200 mt-m">På AcneSpecialisten erbjuder vi laserbehandling som en del av vår omfattande ärrbehandlingsportfölj. Våra specialister anpassar behandlingen efter varje individs unika hudtyp och ärrbildning, med målet att uppnå optimala resultat. Utöver laserbehandlingar inkluderar våra behandlingsmetoder även microneedling och kemisk peeling, vilka kompletterar och förstärker effekten av laser.</p>';
+<p class="p200 mt-m">På AcneSpecialisten erbjuder vi dessutom <a class="b200 underline color-deep-sea-400" href="/laser-acnearr.php" title="Mer information om acneärr laser">acneärr laser</a> som en del av vår omfattande ärrbehandlingsportfölj. Våra specialister anpassar behandlingen efter varje individs unika hudtyp och ärrbildning, med målet att uppnå optimala resultat. Utöver laserbehandlingar inkluderar våra behandlingsmetoder även microneedling och kemisk peeling, vilka kompletterar och förstärker effekten av laser.</p>';
 
 $types_title = '';
 $types_description = '';

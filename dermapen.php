@@ -60,7 +60,7 @@ $floating_box = '';
 
 $description_title = 'Vad är dermapen?';
 $description_text = '<p class="p200">Dermapen är en framstående och effektiv microneedling-metod som passar alla hudtyper och är inriktad på att vitalisera och föryngra huden. Med sin patenterade teknologi använder Dermapen 4 avancerade mikronålar för att skapa precisa mikrokanaler i huden. Dessa kanaler underlättar djupgående absorption av näringsrika serum och stimulerar hudens kollagenproduktion samt naturliga läkningsprocess.</p>
-    <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre mtekniker. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, stora porer, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud.</p>';
+    <p class="p200 mt-m">Denna digitala och kontrollerade microneedling-teknik erbjuder en nästan smärtfri upplevelse i jämförelse med äldre mtekniker. Dermapen är mångsidig och kan effektivt behandla en rad hudåkommor, inklusive rynkor, ärr, stora porer, ojämn hudton och struktur. Genom att stimulera hudens egna reparationsprocesser förbättras dess elasticitet, lyster och övergripande hälsa, vilket ger en märkbart yngre och mer strålande hud. Vi erbjuder <a class="b200 underline color-deep-sea-400" href="/microneedling.php" title="Mer information om microneedling i Stockholm">microneedling i Stockholm</a>.</p>';
 
 $top_articles = array(
     'preparing' => new Article(

@@ -58,7 +58,7 @@ $model = new Service(
 
 $description_title = 'Vad är behandlingar för hudproblem?';
 $description_text = '<p class="p200">Dessa behandlingar skräddarsydds för en mängd olika hudproblem. Behandlingen rengör huden på djupet, särskilt nyttigt för de som lider av akne, finnar eller pormaskar. Med hjälp av en vapozone öppnas porerna upp genom ånga, vilket möjliggör en noggrann exfoliering. Perfekt för dig som upplever att du har dålig hy i ansiktet som vuxen.</p>
-<p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Målet är att återställa en balanserad och problemfri hy.</p>';
+<p class="p200 mt-m">Oavsett om du har blandhy, oljig, kombinerad, torr eller känslig hud, eller lider av specifika tillstånd som rosacea, seborré, perioral dermatit eller stora porer, anpassar denna behandling sig efter dina unika behov. Vi behandlar även <a class="b200 underline color-deep-sea-400" href="/blodprickar.php" title="Mer information om blodprickar">blodprickar</a> och andra typer av hudförändringar. Målet är att återställa en balanserad och problemfri hy.</p>';
 
 $top_articles = array(
     'preparing' => new Article(

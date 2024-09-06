@@ -31,7 +31,7 @@ $path_segments = array(
 
 $about_title = 'Hur behandlar man rosacea?';
 
-$about_content = '<p class="p200">Att behandla och ta bort rosacea kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa metoderna för att effektivt behandla rosacea. Under vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapa en individuell behandlingsplan för dig.</p>
+$about_content = '<p class="p200">Att behandla och ta bort <a class="b200 underline color-deep-sea-400" href="/rosacea.php" title="Mer information om rosacea">rosacea</a> kräver rätt behandlingar och produkter. På Acnespecialisten använder vi vår kunskap och de bästa metoderna för att effektivt behandla rosacea. Under vår kostnadsfria hudkonsultation identifierar vi din hudtyp och skapa en individuell behandlingsplan för dig.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att lindra inflammationen och rodnaden, de mest framträdande symptomen av rosacea. Vi skapar en anpassad hudvårdsrutin med produkter mot rosacea för att förhindra framtida utbrott. Behandlingen kombineras med IPL för att effektivt ta bort rodnad och ytliga blodkärl. Vi ser fram emot att bli din guide på resan mot att behandla rosacea och uppnå en klarare, lugnare hy.</p>';
 

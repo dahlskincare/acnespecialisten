@@ -50,7 +50,7 @@ $floating_box = 'Vi behandlar vita pormaskar effektivt';
 
 $description_title = 'Vad är vita pormaskar?';
 $description_text = '<p class="p200">Vita pormask, även kända som stängda komedon, uppkommer när porer blockeras av talg och döda hudceller. Denna ackumulation leder till oxidation och mörknar när den exponeras för luft, vilket resulterar i den karakteristiska vita färgen. De är vanligast i ansiktsområden som näsa och panna, och kan signalera ett behov av att förbättra din hudvårdsrutin.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av pormaskar. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
+<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi anpassade behandlingar för att effektivt hantera och minska förekomsten av <a class="b200 underline color-deep-sea-400" href="/pormaskar.php" title="Mer information om pormaskar">pormaskar</a>. Våra behandlingsmetoder omfattar djuprengöring, specialiserade ansiktsbehandlingar och noggrann porrengöring. Genom dessa behandlingar, i kombination med rätt hudvårdsrutiner hemma, kan du uppnå rengjorda porer och förebygga framtida vita pormaskar, för en klarare och hälsosammare hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
@@ -84,7 +84,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Vita pormaskar uppstår vanligtvis i områden med riklig talgproduktion, som ansiktet, framför allt på näsan och i pannregionen. Dessa bildas när porer blockeras av en blandning av talg och döda hudceller. Denna blandning genomgår en oxidationsprocess när den exponeras för luft, vilket leder till de distinkta vita prickarna som karakteriserar vita pormaskar. Faktorer som stimulerar ökad talgproduktion och blockering av porer omfattar hormonella förändringar, diet, vissa hudvårdsprodukter och externa miljöeffekter såsom luftföroreningar och UV-strålning.</p>
+            content: '<p class="p200">Vita pormaskar uppstår vanligtvis i områden med riklig talgproduktion, som ansiktet, framför allt på näsan och i pannregionen. Dessa bildas när porer blockeras av en blandning av talg och döda hudceller, när de inte blockeras uppstår istället <a class="b200 underline color-deep-sea-400" href="/svarta-pormaskar.php" title="Mer information om svarta-pormaskar">svarta pormaskar</a>. Denna blandning genomgår en oxidationsprocess när den exponeras för luft, vilket leder till de distinkta vita prickarna som karakteriserar vita pormaskar. Faktorer som stimulerar ökad talgproduktion och blockering av porer omfattar hormonella förändringar, diet, vissa hudvårdsprodukter och externa miljöeffekter såsom luftföroreningar och UV-strålning.</p>
       <p class="p200 mt-m">På AcneSpecialisten erbjuder vi individanpassade behandlingar och professionell rådgivning för att hjälpa dig att minska och förebygga vita pormaskar, vilket leder till en klarare och mer strålande hud.</p>',
       ),
 );

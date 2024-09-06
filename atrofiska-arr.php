@@ -45,7 +45,7 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Information om atrofiska ärr';
 
 $description_title = 'Vad är atrofisk ärrbildning?';
-$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar och gropar i huden och är ofta resultatet från akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå. Vanliga typer av atrofiska ärr inkluderar:</p>
+$description_text = '<p class="p200">Atrofiska ärr kännetecknas av fördjupningar och <a class="b200 underline color-deep-sea-400" href="/acnearr.php" title="Mer information om gropar i huden">gropar i huden</a> och är ofta resultatet från akne. Dessa ärr uppstår när huden inte kan återskapa tillräckligt med kollagen under läkningsprocessen efter en akneutbrott. Detta leder till att ärrvävnad bildas under hudens normala ytnivå. Vanliga typer av atrofiska ärr inkluderar:</p>
 
 <ul><li>Ice Pick ärr - Små, smala djupa stickhål i huden</li>
 <li>Boxcar ärr - Fyrkantiga, breda, boxliknande gropar </li>
