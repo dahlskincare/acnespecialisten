@@ -130,7 +130,7 @@ if (form_completed()) {
 
     $data = [
         "payeePaymentReference" => $id,
-        "callbackUrl" => "https://www.acnespecialisten.se/presentkort?paid=1",
+        "callbackUrl" => "https://www.acnespecialisten.se/presentkort.php?paid=1",
         //"payerAlias" => "4671234768",
         "payeeAlias" => $phone_no,
         "amount" => intval($amount),
