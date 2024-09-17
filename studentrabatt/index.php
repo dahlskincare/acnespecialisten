@@ -56,7 +56,7 @@ $path_segments = [
                             <div class="gcf-text l10n">
                                 Studentrabatten går att använda på alla våra ansiktsbehandlingar för problemhy och klassiska ansiktsbehandlingar.
                             </div>
-                            <a href="/hudbehandlingar/" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
+                            <a href="/problemhy.php" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
@@ -73,7 +73,7 @@ $path_segments = [
                                 Studentrabatten kan användas på alla våra kliniker för både enskilda ansiktsbehandlingar och kurer.
                             </div>
 
-                            <a href="/hudbehandlingar/" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
+                            <a href="problemhy.php" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
