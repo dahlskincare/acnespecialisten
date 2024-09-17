@@ -34,7 +34,7 @@ $path_segments = [
                 <section id="title">
                     <h1 class="l10n">Studentrabatt & ungdomsrabatt - 20%</h1>
                     <p class="l10n">Vi erbjuder 20% rabatt på alla våra ansiktsbehandlingar för dig som är student eller som inte fyllt 18 ännu. Allt du behöver göra är att boka behandling hos någon av våra hudterapeuter och sedan uppvisa ditt mecenatkort via appen så drar vi av 20% på ditt besök.</p>
-                    <a href="/hudbehandlingar/" class="button expand l10n" title="Boka behandling">Se behandlingar</a>
+                    <a href="/problemhy.php" class="button expand l10n" title="Boka behandling">Se behandlingar</a>
                 </section>
                 <section id="image">
                     <picture>
@@ -56,7 +56,7 @@ $path_segments = [
                             <div class="gcf-text l10n">
                                 Studentrabatten går att använda på alla våra ansiktsbehandlingar för problemhy och klassiska ansiktsbehandlingar.
                             </div>
-                            <a href="/hudbehandlingar/" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
+                            <a href="/problemhy.php" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
@@ -73,7 +73,7 @@ $path_segments = [
                                 Studentrabatten kan användas på alla våra kliniker för både enskilda ansiktsbehandlingar och kurer.
                             </div>
 
-                            <a href="/hudbehandlingar/" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
+                            <a href="problemhy.php" class="mt-xl button b200 outline expand auto-width" title="Boka behandling">Se behandlingar</a>
                         </div>
 
                     </div>
