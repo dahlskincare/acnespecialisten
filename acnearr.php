@@ -21,7 +21,7 @@ $image_alt = 'Närbild på ett ansikte som har acneärr';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Acneärr',
-      description: 'Här 2förklarar vi vad som kännetecknar acneärr, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av acneärr, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.',
+      description: 'Här förklarar vi vad som kännetecknar acneärr, varför problemet uppstår och hur vi kan hjälpa dig med behandling. Vi går även igenom hur vi identifierar olika typer av acneärr, orsakerna bakom dem och hur vi kan stödja dig i din behandlingsprocess.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars', 'Boka gratis konsultation för acneärr'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_AcneScars', 'Boka denna behandling'),
