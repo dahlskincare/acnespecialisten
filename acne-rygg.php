@@ -21,7 +21,7 @@ $image_title = 'Effektiv behandling av ryggakne';
 $image_alt = 'Bild som illustrerar behandling och vård av akne på ryggen';
 
 $green_banner_content = new GreenBannerContent(
-      title: 'Akne på2 ryggen',
+      title: 'Akne på ryggen',
       description: 'Akne på ryggen kan vara svårare att behandla på grund av dess läge, men vi har samlat den information och de resurser du behöver för att effektivt hantera detta tillstånd. Från djupgående ryggbehandlingar till hemåtgärder, utforskar vi olika behandlingar som kan hjälpa dig att bli av med utbrott och förebygga framtida problem. Upptäck hur du kan uppnå och bibehålla en ren och klar rygg, fri från akne.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
