@@ -349,6 +349,8 @@ Redirect 301 /behandlingar/ /hudbehandlingar/
 Redirect 301 /behandlingar/ansiktsbehandlingar-problemhy/akne/ /problemhy.php
 Redirect 301 /problem/aknearr/ /acnearr.php
 Redirect 301 /behandlingar/microneedling/ /microneedling.php
+Redirect 301 /resultat-blandhy.php /blandhy.php
+Redirect 301 /resultat-microneedling-acnearr.php /resultat-acnearr.php
 
 # If not caught by any rule above, rewrite to .php if filename is missing and it ends with “.html”
 RewriteCond %{REQUEST_FILENAME} !-f

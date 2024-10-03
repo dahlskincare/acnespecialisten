@@ -25,7 +25,7 @@ if (!isset($_SERVER['PHP_AUTH_USER'])) {
 $method = $_SERVER['REQUEST_METHOD'];
 if ($method != 'POST') {
     http_response_code(405);
-    die('Method not allowed');
+    die('Method [' . $method . '] not allowed');
 }
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
