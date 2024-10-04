@@ -355,7 +355,7 @@ $treatment_areas = array(
                 image_title: 'Kinder',
                 title: 'Kinder',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för kindbehandling'

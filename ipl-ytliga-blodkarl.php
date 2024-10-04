@@ -99,7 +99,7 @@ $treatment_areas = array(
                 image_title: 'Kinder',
                 title: 'IPL för Kinder',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av kinderna',
