@@ -16,7 +16,7 @@ $model = new Service(
     title: 'Behandlingar mot pormaskar',
     duration: null,
     price: null,
-    content: 'Här har vi samlat de mest effektiva metoderna för behandling av pormaskar som hjälper dig att effektivt reducera synligheten av porer och få bort pormaskar. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken <a href="https://www.acnespecialisten.se">pormaskbehandling</a> som bäst passar din hudtyp för att rengöra och förminska porer? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.',
+    content: '<p class="p200">Här har vi samlat de mest effektiva metoderna för behandling av pormaskar som hjälper dig att effektivt reducera synligheten av porer och få bort pormaskar. Oavsett ditt specifika behov, har vi rätt lösning för dig. Är du osäker på vilken pormaskbehandling som bäst passar din hudtyp för att rengöra och förminska porer? Oroa dig inte, boka en kostnadsfri konsultation hos oss på Acnespecialisten så hjälper vi dig vidare mot en klarare och friskare hy.</p>',
     image_small: '/bilder/hudproblem/358x274/pormaskar.webp',
     image_large: '/bilder/hudproblem/424x456/pormaskar.webp',
     image_alt: 'Bild som illustrerar pormaskar',
