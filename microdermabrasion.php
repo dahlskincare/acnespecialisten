@@ -22,7 +22,7 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/microdermabrasion.webp',
     image_alt: 'Microdermabrasion',
     image_title: 'Microdermabrasion',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion',

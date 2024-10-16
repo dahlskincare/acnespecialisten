@@ -457,7 +457,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Microdermabrasion',
             booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion',
             booking_url_title: 'Boka tid för Microdermabrasion-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
 );

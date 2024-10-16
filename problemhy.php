@@ -286,7 +286,7 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/torr-kanslig-hy.webp',
         image_alt: 'Ansiktsbehandling för Torr & Känslig Hy',
         image_title: 'Ansiktsbehandling för Torr & Känslig Hy',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_DrySensetiveSkin&area=EMPTY',
