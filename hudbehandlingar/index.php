@@ -397,7 +397,7 @@ $service_categories = array(
         image_alt: 'Kvinna som får dermabrasion behandling i ansiktet',
         booking_url: 'https://boka.acnespecialisten.se?flow=dermabrasion',
         booking_url_title: 'Boka tid för dermabration',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_HydroDermabrasion',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
         consultation_url_title: 'Boka konsultation för dermabrasion',
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',
