@@ -160,7 +160,7 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/melasma.webp',
         image_alt: 'IPL-behandling för Melasma',
         image_title: 'IPL-behandling för Melasma',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Melasma',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_PigmentationSpots',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för IPL-behandling av melasma',
         booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Melasma&area=EMPTY',
