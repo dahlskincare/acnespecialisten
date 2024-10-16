@@ -31,7 +31,7 @@ $model = new Service(
 
 $about_title = 'Om behandlingarna';
 
-$about_content = '<p class="p200">Att behandla och ta bort <a class="b200 underline color-deep-sea-400" href="/acne.php" title="Mer information om akne">akne</a> är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för <a class="b200 underline color-deep-sea-400" href="/finnar-behandling.php" title="Mer information om behandling av finnar">behandling av finnar</a> och akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
+$about_content = '<p class="p200">Att behandla och ta bort <a class="b200 underline color-deep-sea-400" href="/acne.php" title="Mer information om akne">akne</a> är ingen quickfix. På AcneSpecialisten använder vi vår expertis och de bästa verktygen för behandling av finnar och akne. Med vår kostnadsfria hudkonsultation kan vi identifiera din unika hudtyp och ta fram en individuell behandlingsplan.</p>
 
     <p class="p200 mt-xl">Vår första prioritet är att få bort inflammationen och finnarna, de huvudsakliga orsakerna till ärrbildning. Vi skapar en anpassad hudvårdsrutin med produkter mot akne för att förebygga framtida utbrott. Om aknen har lämnat ärr bakom sig, har vi lösningar för att reparera huden. Vi ser fram emot att bli din guide på resan mot att ta bort akne och återfå en klarare, friskare hy.</p>';
 
