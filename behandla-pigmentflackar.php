@@ -155,7 +155,7 @@ $services = array(
         icons: array(),
         content: '<p class="p200">På Acnespecialisten använder vi CryoPen-behandling för att noggrant och skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar extrem kyla på pigmentfläckarna, vilket resulterar i deras nedbrytning och minskad synlighet. Denna metod är både effektiv och minimalt invasiv, vilket innebär minimalt obehag och ingen återhämtningstid. CryoPen-behandlingen erbjuder en snabb och precis lösning för att förbättra din hudton och reducera pigmentfläckar.</p>',
 
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka Hudkonsultation för CryoPen mot pigmentfläckar på Acnespecialisten',
 

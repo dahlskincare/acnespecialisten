@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Behandling av Födelsemärken',
       description: 'Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Denna sida förklarar hur födelsemärken uppstår och de mest effektiva metoderna för att hantera dem. På Acnespecialisten använder vi skonsamma och avancerade tekniker för att säkert behandla födelsemärken, vilket hjälper till att förbättra hudens övergripande utseende och textur.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för födelsemärken'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen', 'Boka gratis Konsultation för födelsemärken'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_fodelsemarken', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen', 'Boka gratis Konsultation för födelsemärken'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen', 'Boka gratis Konsultation för födelsemärken'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_fodelsemarken', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -117,7 +117,7 @@ $service = new Service(
       url_title: '',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för födelsemärken',
 
       booking_url_label: null,
@@ -144,7 +144,7 @@ $services = array(
             url_title: '',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling av födelsemärken',
 
             booking_url_label: 'Boka behandling',

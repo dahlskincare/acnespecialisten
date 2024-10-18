@@ -23,7 +23,7 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',
     image_alt: 'Vakuumsug Pormaskar',
     image_title: 'Vakuumsug Pormaskar',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hydrafacial',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial&Type=Hydrafacial_Pore_Minimizer',

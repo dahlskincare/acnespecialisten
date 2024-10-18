@@ -466,7 +466,7 @@ $services = array(
             url_title: 'Läs mer om Infuzion',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Infuzion',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för Infuzion behandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
@@ -489,7 +489,7 @@ $services = array(
             url_title: 'Läs mer om HydraFacial',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hydrafacial',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för HydraFacial behandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',

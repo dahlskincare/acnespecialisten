@@ -312,7 +312,7 @@ $services = array(
             url_title: 'Läs mer om CryoPen mot hudförändringar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för Cryopen behandling',
 
             booking_url_label: 'Boka behandling',
