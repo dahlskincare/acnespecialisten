@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Stress acne',
       description: 'Stress kan ha en djupgående effekt på vår hud, ofta uppstå som stress acne. Denna typ av utbrott, även känd som stress finnar, uppstår när kroppens stressrespons leder till ökad talgproduktion, vilket kan täppa till porerna och orsakar acne. Här hittar du mer information om problemet och hur vi kan hjäpla dig att behandla det effektivt.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -52,7 +52,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Vi  erbjuder specialiserade konsultationer för att identifiera hudproblemets orsak. Vi utformar en personlig behandlingsplan för att effektivt hantera din situation.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne',
             url_title: 'Boka din kostnadsfria hudkonsultation för stress acne idag'
       ),
       new TreatmentStep(

@@ -24,7 +24,7 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot ytliga blodkärl',
     image_title: 'IPL mot ytliga blodkärl',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels',

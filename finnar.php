@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Finnar',
       description: 'Finnar visar sig som röda eller gula inflammationer i huden. Denna sida förklarar vad finnar är, varför de uppstår, hur man kan ta bort finnar och hur de skiljer sig från andra hudutslag.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples', 'Boka gratis konsultation för finnar'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för finnar'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Pimples', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples', 'Boka gratis konsultation för finnar'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för finnar'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Pimples', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -93,7 +93,7 @@ $treatment_steps = array(
             title: 'Identifiera',
             content: 'Hos AcneSpecialisten blir du kopplad till en hudterapeut som analyserar dina finnar och skapar en unik behandlingsplan.',
             url_label: 'Boka gratis konsultation',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -355,7 +355,7 @@ $service = new Service(
       image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild som visar en konsultation för finnar',
       image_title: 'Konsultation för finnbehandling',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
       consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka här för att boka en tid för en konsultation om finnar',
       booking_url: null,
@@ -379,7 +379,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Bild av en ansiktsbehandling mot finnar',
             image_title: 'Ansiktsbehandling mot finnar',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Pimples',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling mot finnar',
             booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Pimples',
@@ -417,7 +417,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_alt: 'Bild av kemisk peeling mot finnar',
             image_title: 'Kemisk peeling mot finnar behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot finnar',
             booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP',
@@ -437,7 +437,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_alt: 'Bild av microneedling mot finnar',
             image_title: 'Microneedling mot finnar',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot finnar',
             booking_url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP',
@@ -489,7 +489,7 @@ $procedures = array(
             image_alt: 'Reparera ärr efter finnar',
             image_title: 'Reparera ärr efter finnar',
 
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_AcneScars',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot ärr från finnar',
 

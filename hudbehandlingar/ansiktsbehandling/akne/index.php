@@ -49,7 +49,7 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/portomning.webp',
     image_alt: 'Ansiktsbehandlingar mot akne',
     image_title: 'Ansiktsbehandlingar mot akne',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Acne',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Acne',
