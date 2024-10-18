@@ -19,7 +19,7 @@ $model = new Service(
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
     consultation_url_label: 'Boka klinikbesök',
     consultation_url_title: 'Klicka här för att boka ett besök i någon av våra kliniker',
-    booking_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online',
+    booking_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY&ConsultationPlace=consultation_online',
     booking_url_label: 'Boka onlinebesök',
     booking_url_title: 'Klicka här för att boka en onlinekonsultation',
 );
@@ -88,7 +88,7 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                             <p class="l10n">Här hittar du våra konsultationer som är anpassade för ditt hudproblem. Vi analyserar din hy och tar fram en behandlingsplan med rätt behandlingar och produkter för just din hudtyp.</p>
                         </div>
                         <div class="consultation-type-button">
-                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation" title="Boka problemhy konsultation" class="button expand">Boka konsultation</a>
+                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem" title="Boka problemhy konsultation" class="button expand">Boka konsultation</a>
                         </div>
                     </div>
                     <div class="consultation-type">
@@ -97,7 +97,7 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                             <p class="l10n">Dessa konsultationer är för dig som redan vet vilken metod du är intresserad av att höra mer och komma igång med behandlingen av huden. Vi kommer att analysera huden noga och ta fram en skräddarsydd behandlingsplan för just din hy.</p>
                         </div>
                         <div class="consultation-type-button">
-                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation" title="Boka behandlings konsultation" class="button expand">Boka konsultation</a>
+                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service" title="Boka behandlings konsultation" class="button expand">Boka konsultation</a>
                         </div>
                     </div>
                     <div class="consultation-type">
@@ -106,7 +106,7 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                             <p class="l10n">Våra varumärkes konsultationer är för dig som hört om ett specifikt märke eller maskin och är intresserad av att höra mer om hur den kan hjäpla dig att uppnå dina hudvårdsmål.</p>
                         </div>
                         <div class="consultation-type-button">
-                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation" title="Boka varumärkes konsultation" class="button expand">Boka konsultation</a>
+                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand" title="Boka varumärkes konsultation" class="button expand">Boka konsultation</a>
                         </div>
                     </div>
                 </section>

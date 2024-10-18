@@ -439,7 +439,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Exceed',
             booking_url: 'https://boka.acnespecialisten.se?flow=exceed',
             booking_url_title: 'Boka tid för Exceed-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Brand_Exceed',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
