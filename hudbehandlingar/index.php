@@ -305,7 +305,7 @@ $service_categories = array(
         image_alt: 'Kvinna som får IPL-behandling i ansiktet',
         booking_url: 'https://boka.acnespecialisten.se?flow=ipl',
         booking_url_title: 'Boka tid för IPL-behandling',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
         consultation_url_title: 'Boka konsultation för IPL-behandling',
         booking_url_label: 'Boka Behandling',
         consultation_url_label: 'Boka Konsultation',

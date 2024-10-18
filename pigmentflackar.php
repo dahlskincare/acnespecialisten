@@ -271,7 +271,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_alt: 'Bild av en IPL-behandling för pigmentfläckar',
             image_title: 'IPL-behandling för Pigmentfläckar',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för IPL-behandling av pigmentfläckar',
             booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots',

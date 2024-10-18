@@ -89,7 +89,7 @@ $services = array(
         duration: '50 min',
         price: '2595 kr',
         content: '<p class="p200">IPL-behandling är en form av laserbehandling mot rosacea som fungerar genom att använda ljuspulser för att minska rodnad och ytliga blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende och hudton.</p>',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka en konsultation för IPL-behandling mot rosacea',
         booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Rosacea&method=Method_IPL&area=EMPTY',
