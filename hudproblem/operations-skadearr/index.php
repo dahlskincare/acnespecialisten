@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Operations- och skadeärr',
       description: 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Här hittar du detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.',
       links_touch: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars', 'Boka gratis konsultation för akne'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för akne'),
             new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars', 'Boka gratis konsultation för akne'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för akne'),
             new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -125,7 +125,7 @@ $service = new Service(
       url_title: 'Läs mer om gratis hudkonsultation mot ärr',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars',
       consultation_url_title: 'Klicka för att boka tid för en ärrkonsultation',
 
       booking_url_label: null,
@@ -152,7 +152,7 @@ $services = array(
             url_title: 'Läs mer om laser mot ärr',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling av ärr',
 
             booking_url_label: 'Boka behandling',
@@ -174,7 +174,7 @@ $services = array(
             url: '/kemisk-peeling.php',
             url_title: 'Läs mer om kemisk peeling mot ärr',
 
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för kemisk peeling av ärr',
 
@@ -199,7 +199,7 @@ $services = array(
             url_title: 'Läs mer om microneedling mot ärr',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Scars',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars',
             consultation_url_title: 'Klicka för att boka tid för en konsultation för microneedling av ärr',
 
             booking_url_label: 'Boka behandling',

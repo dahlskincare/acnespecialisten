@@ -23,11 +23,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Svarta pormaskar',
       description: $description = 'I denna sektion utforskar vi naturen av svarta pormaskar, deras orsaker och hur Acnespecialisten kan bistå dig med effektiv behandling. Vi diskuterar hur svarta pormaskar bildas och vilka steg du kan ta för att minska dem och förbättra din hudhälsa.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -56,7 +56,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'På AcneSpecialisten möter du en erfaren hudterapeut som hjälper dig att noggrant identifiera dina hudproblem. Tillsammans utvecklar ni en skräddarsydd behandlingsplan som är inriktad specifikt på att adressera och behandla din hy.',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
             url_label: 'Boka gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),

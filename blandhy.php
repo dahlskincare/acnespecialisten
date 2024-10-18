@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Blandhy',
       description: 'Blandhy kännetecknas av en kombinerad hudtyp med både torra och oljiga områden. Blandhy innebär ofta en blandning av olika hudproblem, såsom finnar, pormaskar, torrhet och överdriven oljeproduktion. Här hittar du mer information om hur du hanterar och behandlar blandhy för att uppnå en balanserad och hälsosam hud.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Combination_Skin', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Combination_Skin', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -113,7 +113,7 @@ $treatment_steps = array(
             content: 'Vid ditt första besök hos AcneSpecialisten bedömer en hudterapeut din hud noggrant och identifierar tecknen på blandhy.',
 
             url_label: 'Boka konsultation',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Combination_Skin',
             url_title: 'Boka din gratis konsultation för blandhy idag'
       ),
       new TreatmentStep(
@@ -226,7 +226,7 @@ $service = new Service(
       url_title: 'Läs mer om gratis hudkonsultation mot blandhy',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Combination_Skin',
       consultation_url_title: 'Klicka för att boka tid för en konsultation om blandhy',
 
       booking_url_label: null,
@@ -254,7 +254,7 @@ $services = array(
             url_title: 'Läs mer om ansiktsbehandling mot blandhy',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Combination_Skin',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för blandhy',
 
             booking_url_label: 'Boka behandling',
@@ -277,7 +277,7 @@ $services = array(
             url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot blandhy',
 
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för blandhy',
 
@@ -303,7 +303,7 @@ $services = array(
             url_title: 'Läs mer om microneedling mot blandhy',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för blandhy',
 
             booking_url_label: 'Boka behandling',
@@ -328,7 +328,7 @@ $products = array(
             image_title: 'Effektiva produkter för balansering av blandhy',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_CombinationSkin',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Combination_Skin',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot blandhy',
 
             booking_url_label: 'Köp produkter',

@@ -23,7 +23,7 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/dermabrasion.webp',
     image_alt: 'Dermabrasion',
     image_title: 'Dermabrasion',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Dermabrasion',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Dermabrasion',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=dermabrasion',

@@ -22,7 +22,7 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/portomning.webp',
     image_alt: 'Portömning',
     image_title: 'Portömning',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_PoreCleansing',

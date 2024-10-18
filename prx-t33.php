@@ -275,7 +275,7 @@ $types = array(
         image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_alt: 'Boosta din PRX T33-behandling med Microneedling',
         image_title: 'Boosta din PRX T33-behandling med Microneedling',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
         consultation_url_label: 'Boka hudkonsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling+PRX-T33-Boost',

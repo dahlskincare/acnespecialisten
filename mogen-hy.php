@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Mogen Hy',
       description: 'Mogen hy visar tecken på åldrande såsom rynkor, fina linjer och slapp hy. Denna sida fokuserar på att förstå orsakerna bakom hudens åldrande och hur de påverkar hudens utseende och känsla.',
       links_touch: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles', 'Boka gratis konsultation för akne'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Wrinkles', 'Boka gratis konsultation för akne'),
             new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles', 'Boka gratis konsultation för akne'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Wrinkles', 'Boka gratis konsultation för akne'),
             new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Skin_Consultation&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -378,7 +378,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om konsultation för mogen hy',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Wrinkles',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Wrinkles',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för mogen hy',
 
       booking_url_label: null,
@@ -405,7 +405,7 @@ $services = array(
             url_title: 'Läs mer om laser mot mogen hy',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot mogen hy',
 
             booking_url_label: 'Boka behandling',
@@ -427,7 +427,7 @@ $services = array(
             url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot mogen hy',
 
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för mogen hy',
 
@@ -452,7 +452,7 @@ $services = array(
             url_title: 'Läs mer om microneedling mot mogen hy',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för mogen hy',
 
             booking_url_label: 'Boka behandling',

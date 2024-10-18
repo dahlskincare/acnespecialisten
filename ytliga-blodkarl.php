@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Ytliga Blodkärl',
       description: 'Ytliga blodkärl, som kan visa sig som spindelkärl, brustna blodkärl, sprucket blodkärl eller synliga kärl, är små, utvidgade blodkärl under hudytan. Vi förklarar hur och varför de bildas och vilka områden av kroppen som oftast påverkas.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels', 'Boka gratis konsultation för ytliga blodkärl'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Blood_Vessels', 'Boka gratis konsultation för ytliga blodkärl'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels', 'Boka gratis konsultation för ytliga blodkärl'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Blood_Vessels', 'Boka gratis konsultation för ytliga blodkärl'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -87,7 +87,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten kopplas du ihop med en personlig hudterapeut som hjälper dig identifiera de ytliga blodkärlen i ditt ansikte och skapar en individuell behandlingsplan.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Blood_Vessels',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -340,7 +340,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för ytliga blodkärl',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Blood_Vessels',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ytliga blodkärl',
 
       booking_url_label: null,
@@ -367,7 +367,7 @@ $services = array(
             url_title: 'Klicka här för att läsa mer om IPL-behandling mot ytliga blodkärl',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_BloodVessels',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Blood_Vessels',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för IPL-behandling mot ytliga blodkärl',
 
             booking_url_label: 'Boka behandling',
