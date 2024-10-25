@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Seborré',
       description: 'Seborré, eller seborroiskt eksem, är en hudåkomma som orsakar fet hy som flagnar. Här diskuterar vi de områden som oftast påverkas, vad som utlöser tillståndet och hur det behandlas effektivt.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Seborrhea', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Seborrhea', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -82,7 +82,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'På AcneSpecialisten kopplar vi dig med en erfaren hudterapeut som hjälper dig att korrekt identifiera din seborré och utformar en individuell behandlingsplan speciellt för dig.',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Seborrhea',
             url_label: 'Boka gratis konsultation',
             url_title: 'Boka en tid för gratis seborré konsultation',
       ),
@@ -164,7 +164,7 @@ $service = new Service(
       image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Seborré Konsultation',
       image_title: 'Seborré Konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Seborrhea',
       consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Boka din gratis seborré konsultation nu',
       booking_url: null,
@@ -188,7 +188,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_alt: 'Ansiktsbehandling mot seborré',
             image_title: 'Ansiktsbehandling mot seborré',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Seborrhea',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Boka gratis konsultation',
             booking_url: "https://boka.acnespecialisten.se?flow=problem&problem=Problem_Seborrea&method=Method_FacialProblem&area=EMPTY",
@@ -218,7 +218,7 @@ $products = array(
             url_title: '',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Seborrea',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Seborrhea',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot seborré',
 
             booking_url_label: 'Köp produkter',

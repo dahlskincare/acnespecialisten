@@ -23,7 +23,7 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/splendor-x.webp',
     image_alt: 'Permanent Hårborttagning',
     image_title: 'Permanent Hårborttagning',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SplendorX',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_SplendorX',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX',
@@ -313,7 +313,7 @@ $treatment_areas = array(
                 title: 'Konsultation - Manzilian',
                 duration: '20 min',
                 price: 'Gratis',
-                url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Manzillian',
+                url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Manzillian',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),

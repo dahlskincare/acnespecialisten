@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Pormaskar',
       description: 'Pormaskar bildas när porer täpps till av talg och döda hudceller. Denna sida utforskar de två huvudtyperna av pormaskar (öppna och stängda), deras orsaker och hur de påverkar hudhälsan.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Comedones', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -86,7 +86,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
             content: 'Hos får du en personlig hudterapeut som hjälper dig identifiera dina pormaskar och skapar en individuell behandlingsplan.',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
             url_label: 'Boka gratis konsultation',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
@@ -301,7 +301,7 @@ $service = new Service(
       image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_alt: 'Bild av en konsultation för pormaskar',
       image_title: 'Konsultation för pormaskar',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
       consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för pormaskar',
       booking_url: null,
@@ -326,7 +326,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_alt: 'Bild av en portömning',
             image_title: 'Portömning som behandling för pormaskar',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
             booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Comedones&method=Service_Facial_PoreExtraction',
@@ -352,7 +352,7 @@ $services = array(
             url_title: 'Läs mer om laser mot pormaskar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot pormaskar',
 
             booking_url_label: 'Boka behandling',
@@ -374,7 +374,7 @@ $services = array(
             url_label: 'Läs mer om kemisk peeling',
             url_title: 'Läs mer om kemisk peeling mot pormaskar',
 
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_ChemicalPeeling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot pormaskar',
 
@@ -399,7 +399,7 @@ $services = array(
             url_title: 'Läs mer om microneedling mot pormaskar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_Microneedling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot pormaskar',
 
             booking_url_label: 'Boka behandling',
@@ -421,7 +421,7 @@ $products = array(
             image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_alt: 'Bild av produkter designade för behandling av pormaskar',
             image_title: 'Effektiva produkter för bekämpning och förebyggande av pormaskar',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_Comedones',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för portömning',
             booking_url_label: 'Köp produkter',

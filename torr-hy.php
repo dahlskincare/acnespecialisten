@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Torr och Känslig Hy',
       description: 'Känslig och torr fjällande hud i ansiktet är något många lider av. Flagnande hud har lättare att få problem med acne och finnar och kan utöver ansiktet även påverka specifika områden som panna, t-zon, eller hakan. Här får du mer information mer information om hudproblemet samt hur denna hudtyp kan bäst behandlas.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY', 'Boka gratis konsultation för akne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -100,7 +100,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten får du träffa en hudterapeut som hjälper dig att identifiera din torra och känsliga hy, samt skapar en individuell behandlingsplan för dig.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -415,7 +415,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för torr och känslig hy',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för torr och känslig hy',
 
       booking_url_label: null,
@@ -443,7 +443,7 @@ $services = array(
             url_title: 'Läs mer om ansiktsbehandlingar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
@@ -466,7 +466,7 @@ $services = array(
             url_title: 'Läs mer om Infuzion',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Infuzion',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för Infuzion behandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
@@ -489,7 +489,7 @@ $services = array(
             url_title: 'Läs mer om HydraFacial',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hydrafacial',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för HydraFacial behandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
@@ -517,7 +517,7 @@ $products = array(
             url_title: '',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Problem_Consultation&Consultationwhat=Problem_DrySensetiveSkin',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot torr och känslig hy',
 
             booking_url_label: 'Köp produkter',

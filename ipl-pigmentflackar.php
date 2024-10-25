@@ -24,7 +24,7 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
     image_alt: 'IPL mot pigmentfläckar',
     image_title: 'IPL mot pigmentfläckar',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_IPL',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots',
@@ -110,7 +110,7 @@ $treatment_areas = array(
                 image_title: 'Kinder',
                 title: 'IPL för Kinder',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av kinderna'

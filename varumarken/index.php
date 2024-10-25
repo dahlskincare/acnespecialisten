@@ -223,7 +223,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Alma Hybrid CO2',
             booking_url: 'https://boka.acnespecialisten.se?flow=almarejuve',
             booking_url_title: 'Boka tid för Alma-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HybridCO2',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -241,7 +241,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Dermapen',
             booking_url: 'https://boka.acnespecialisten.se?flow=dermapen',
             booking_url_title: 'Boka tid för Dermapen-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Dermapen',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Dermapen',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -259,7 +259,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Harmony XL Pro',
             booking_url: 'https://boka.acnespecialisten.se?flow=almaharmony&skipable_problem=SKIP',
             booking_url_title: 'Boka tid för Alma-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HarmonyXLPRO',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Harmony',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -277,7 +277,7 @@ $brand_cards = array(
             url_title: 'Läs mer om HydraFacial',
             booking_url: 'https://boka.acnespecialisten.se?flow=hydrafacial',
             booking_url_title: 'Boka tid för HydraFacial-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_HydraFacial',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hydrafacial',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -295,7 +295,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Skin Tech',
             booking_url: 'https://boka.acnespecialisten.se?flow=skintech',
             booking_url_title: 'Boka Skin Tech-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SkinTech',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_SkinTech',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -313,7 +313,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Rejuve Dye-VL',
             booking_url: 'https://boka.acnespecialisten.se?flow=almarejuve',
             booking_url_title: 'Boka Rejuve Dye-VL-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Rejuve',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Rejuve',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -331,7 +331,7 @@ $brand_cards = array(
             url_title: 'Läs mer om CryoPen',
             booking_url: 'https://boka.acnespecialisten.se?flow=cryopen',
             booking_url_title: 'Boka tid för CryoPen-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_CryoPen',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -349,7 +349,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Splendor X',
             booking_url: 'https://boka.acnespecialisten.se?flow=splendorx',
             booking_url_title: 'Boka Splendor X-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SplendorX',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_SplendorX',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -367,7 +367,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Soprano Ice',
             booking_url: 'https://boka.acnespecialisten.se?flow=sopranoice',
             booking_url_title: 'Boka Soprano Ice-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_SopranoIce',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Soprano',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -385,7 +385,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Powerlite Photonova',
             booking_url: 'https://boka.acnespecialisten.se?flow=powerlite',
             booking_url_title: 'Boka Powerlite Photonova-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Photonova',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Photonova',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -403,7 +403,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Infuzion',
             booking_url: 'https://boka.acnespecialisten.se?flow=infuzion',
             booking_url_title: 'Boka tid för Infuzion-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Infuzion',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Infuzion',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -421,7 +421,7 @@ $brand_cards = array(
             url_title: 'Läs mer om PRX-T33',
             booking_url: 'https://boka.acnespecialisten.se?flow=prx',
             booking_url_title: 'Boka PRX-T33-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_PRXT33',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_PRXT33',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -439,7 +439,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Exceed',
             booking_url: 'https://boka.acnespecialisten.se?flow=exceed',
             booking_url_title: 'Boka tid för Exceed-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Brand_Consultation&Consultationwhat=Brand_Exceed',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Brand_Exceed',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
@@ -457,7 +457,7 @@ $brand_cards = array(
             url_title: 'Läs mer om Microdermabrasion',
             booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion',
             booking_url_title: 'Boka tid för Microdermabrasion-behandling',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Service_Consultation&Consultationwhat=Method_MicroDermabrasion',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Dermabrasion',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
 );
