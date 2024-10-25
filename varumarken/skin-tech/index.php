@@ -73,19 +73,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_4'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_6'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -111,19 +111,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_4'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_6'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -149,19 +149,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_TCA&procedures=PriceClass_B_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_4'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_TCA&procedures=PriceClass_B_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '8995 kr',
                 savings: 'Spara 2975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_6'
+                booking_url: 'https://boka.acnespecialisten.se?flow=skintech&skipable_problem=SKIP&area=Service_ChemicalPeeling_TCA&procedures=PriceClass_B_Procedure_6'
             ),
         )
     ),

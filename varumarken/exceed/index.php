@@ -80,28 +80,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för 1 område'
             ),
-            new TreatmentAreaItem(
-                image: '/icons/2x.svg',
-                image_alt: '2x områden',
-                image_title: '2x områden',
-                title: '2x områden',
-                duration: '70 min',
-                price: '3595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=exceed&area=Microneedling_2xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 2 områden'
-            ),
-            new TreatmentAreaItem(
-                image: '/icons/3x.svg',
-                image_alt: '3x områden',
-                image_title: '3x områden',
-                title: '3x områden',
-                duration: '90 min',
-                price: '4595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=exceed&area=Microneedling_3xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 3 områden'
-            ),
         )
     ),
 );

@@ -105,19 +105,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_4'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyPhytic&procedures=PriceClass_A_Procedure_6'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -141,19 +141,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1595 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '5595 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_4'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '7595 kr',
                 savings: 'Spara 1975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyDroxyVersicolor&procedures=PriceClass_A_Procedure_6'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_6'
             ),
         )
     ),
@@ -177,19 +177,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '1995 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_TCA&procedures=PriceClass_B_Procedure_1'
             ),
             new Procedure(
                 label: '4 behandlingar',
                 price: '6995 kr',
                 savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_4'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_TCA&procedures=PriceClass_B_Procedure_4'
             ),
             new Procedure(
                 label: '6 behandlingar',
                 price: '8995 kr',
                 savings: 'Spara 2975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_EasyTCA&procedures=PriceClass_B_Procedure_6'
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_TCA&procedures=PriceClass_B_Procedure_6'
             ),
         )
     ),
@@ -431,49 +431,6 @@ $treatment_areas = array(
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
-            ),
-        )
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Kombinera områden',
-        image_title: 'Kombinera områden',
-        title: 'Kombinera områden',
-        description: '<p class="p200">Behandlingen fungerar även utmärkt om du vill kombinera flera olika områden.</p>',
-        items: array(
-            new TreatmentAreaItem(
-                image: '/icons/1x.svg',
-                image_alt: '1x område',
-                image_title: '1x område',
-                title: '1x område',
-                duration: '30 min',
-                price: '1995 kr',
-                url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_1xArea',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 1 område.'
-            ),
-            new TreatmentAreaItem(
-                image: '/icons/2x.svg',
-                image_alt: '2x områden',
-                image_title: '2x områden',
-                title: '2x områden',
-                duration: '40 min',
-                price: '2995 kr',
-                url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_2xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 2 områden.'
-            ),
-            new TreatmentAreaItem(
-                image: '/icons/3x.svg',
-                image_alt: '3x områden',
-                image_title: '3x områden',
-                title: '3x områden',
-                duration: '50 min',
-                price: '3995 kr',
-                url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_3xAreas',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling av 3 områden.'
             ),
         )
     ),
