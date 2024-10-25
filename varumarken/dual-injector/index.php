@@ -81,28 +81,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för 1 område'
             ),
-            new TreatmentAreaItem(
-                image: '/icons/2x.svg',
-                image_alt: '2x områden',
-                image_title: '2x områden',
-                title: '2x områden',
-                duration: '70 min',
-                price: '3995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-2x-omraden-2194886',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 2 områden'
-            ),
-            new TreatmentAreaItem(
-                image: '/icons/3x.svg',
-                image_alt: '3x områden',
-                image_title: '3x områden',
-                title: '3x områden',
-                duration: '90 min',
-                price: '4995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/dual-injector-3x-omraden-2194887',
-                url_label: 'Boka',
-                url_title: 'Boka tid för 3 områden'
-            ),
         )
     ),
 );

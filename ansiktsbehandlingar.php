@@ -91,7 +91,7 @@ $big_types = array(
     ),
     new Service(
         title: 'Ansiktsbehandling - Antistress',
-        duration: '40 min',
+        duration: '70 min',
         price: null,
         content: '<p class="p200">Unna dig en paus från vardagens stress med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en riktligt återfuktande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-antistress.webp',
@@ -108,20 +108,20 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '1295 kr',
+                price: '1595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '3495 kr',
-                savings: '1165 kr per behandling',
+                price: '3995 kr',
+                savings: '1331 kr per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '4995 kr',
-                savings: '999 kr per behandling',
+                price: '5995 kr',
+                savings: '1199 kr per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_2_Procedure_5'
             ),
         )

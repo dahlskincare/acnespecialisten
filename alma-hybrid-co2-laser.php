@@ -229,7 +229,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Service_Laser_oScar',
+        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot hudutväxter',
 
@@ -349,7 +349,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Service_Laser_HybridLift',
+        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid för Hudföryngring (Skin Rejuvenation)',
     ),
