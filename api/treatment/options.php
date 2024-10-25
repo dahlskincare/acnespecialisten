@@ -1,6 +1,8 @@
 <?php
 /// Returns all funnels and corresponding data for a given flow
 header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Methods: GET, OPTIONS');
+header('Access-Control-Allow-Headers: Accept-Language, Content-Type, Cache-Control');
 header("Content-Type: application/json; charset=UTF-8");
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
