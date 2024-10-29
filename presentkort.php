@@ -178,8 +178,7 @@ if (form_completed()) {
                                     <a href="presentkort" class="button white outline expand mt-xl" title="Skicka igen">Skicka igen</a>
                                 </div>
                             <?php } else { ?>
-                                <div class="gc-text l10n">Fyll i din information och bifoga en skärmbild på Swish bekräftelsen.</div>
-                                <button class="mt-m outline expand l10n" id="small-form-button" onclick="openConfirmForm(this, '#small-form')">Bekräfta</button>
+                                <div class="gc-text l10n">Skicka i din information och bifoga en skärmbild på Swish bekräftelsen till info@acnespecialisten.se</div>
                                 <form action="presentkort/?sent=1" enctype="multipart/form-data" method="POST" class="is-hidden" id="small-form">
                                     <hr />
                                     <label for="firstname">
@@ -241,7 +240,7 @@ if (form_completed()) {
                                         </div>
                                     </div>
                                     <hr />
-                                    <input type="submit" class="button b200 expand" value="Send confirmation" />
+                                    <input type="submit" class="button b200 expand" value="Skicka" />
                                 </form>
                             <?php } ?>
                         </div>
@@ -268,13 +267,8 @@ if (form_completed()) {
                                 <div class="gc-number">02</div>
                                 <div class="gc-texts">
                                     <h2 class="l10n">Bekräftelse</h2>
-                                    <div class="gc-text l10n">Fyll i din information och bifoga en skärmbild på Swish bekräftelsen.</div>
+                                    <div class="gc-text l10n">Skicka i din information och bifoga en skärmbild på Swish bekräftelsen till info@acnespecialisten.se</div>
                                 </div>
-                                <?php if (!form_completed()) { ?>
-                                    <div class="gc-info">
-                                        <button class="outline b200 l10n" id="large-form-button" onclick="openConfirmForm(this, '#large-form')">Bekräfta</button>
-                                    </div>
-                                <?php } ?>
                             </div>
                             <?php if (form_completed()) { ?>
                                 <hr />
@@ -358,7 +352,7 @@ if (form_completed()) {
                                         </div>
                                     </div>
                                     <hr />
-                                    <input type="submit" class="button b200" value="Send confirmation" />
+                                    <input type="submit" class="button b200" value="Skicka" />
                                 </form>
                             <?php } ?>
                         </div>
