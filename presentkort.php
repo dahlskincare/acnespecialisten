@@ -58,8 +58,9 @@ $path_segments = [
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
                                 <div class="gc-number">02</div>
-                                <h2 class="l10n">Bekräftelse</h2>
+                                <h2 class="l10n">Skicka in</h2>
                             </div>
+                            <div class="gc-text l10n">Skicka i din information och bifoga en skärmbild på Swish bekräftelsen till info@acnespecialisten.se</div>
                         </div>
                         <div class="gift-card-step">
                             <div class="flex-row align-center">
@@ -83,7 +84,7 @@ $path_segments = [
                             <div class="flex-row align-center">
                                 <div class="gc-number">02</div>
                                 <div class="gc-texts">
-                                    <h2 class="l10n">Bekräftelse</h2>
+                                    <h2 class="l10n">Skicka in</h2>
                                     <div class="gc-text l10n">Skicka i din information och bifoga en skärmbild på Swish bekräftelsen till info@acnespecialisten.se</div>
                                 </div>
                             </div>
