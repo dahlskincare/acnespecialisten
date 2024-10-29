@@ -349,7 +349,7 @@ if (form_completed()) {
                                 <?php if (!form_completed()) { ?>
                                     <div id="qr-image">
                                         <img src="<?php echo $qr_image_desktop ?>" alt="QR" title="QR">
-                                        <div class="mt-s h200">123 233 51 98</div>
+                                        <div class="mt-s h200">123 010 64 43</div>
                                     </div>
                                 <?php } ?>
                             </div>
