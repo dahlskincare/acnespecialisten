@@ -259,14 +259,8 @@ if (form_completed()) {
                                 <div class="gc-number">01</div>
                                 <div class="gc-texts">
                                     <h2 class="l10n">Swisha önskat belopp</h2>
-                                    <div class="l10n">Skicka valfritt belopp som du vill sätta in på presentkortet.</div>
+                                    <div class="l10n">Skicka valfritt belopp till 123 010 64 43 som du vill sätta in på presentkortet.</div>
                                 </div>
-                                <?php if (!form_completed()) { ?>
-                                    <div id="qr-image">
-                                        <img src="<?php echo $qr_image_desktop ?>" alt="QR" title="QR">
-                                        <div class="mt-s h200">123 010 64 43</div>
-                                    </div>
-                                <?php } ?>
                             </div>
                         </div>
                         <div class=" gift-card-step" id="step-2-large">
