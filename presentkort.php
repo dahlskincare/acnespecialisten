@@ -10,8 +10,6 @@ use Ramsey\Uuid\Uuid;
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
-$phone_no = '1232335198';
-
 class Payee
 {
     public function __construct($value, $editable)
@@ -58,7 +56,7 @@ if (form_completed()) {
     $file_content = file_get_contents($file_tmp_name);
     $from = 'Acnespecialisten <hej@acnespecialisten.se>';
     $to = "presentkort@acnespecialisten.se";
-    $subject = "Acnespecialisten gift card";
+    $subject = "Acnespecialisten presentkort";
     $boundary = uniqid('np');  // Boundary string for multipart message
     $headers = "From: $from\r\n";
     $headers .= "Reply-To: $from\r\n";
@@ -66,7 +64,7 @@ if (form_completed()) {
     $html_content = "
                     <html>
                     <head>
-                    <title>Acnespecialisten gift card</title>
+                    <title>Acnespecialisten presentkort</title>
                     </head>
                     <body>                        
                         <table>
