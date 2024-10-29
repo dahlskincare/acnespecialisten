@@ -10,8 +10,6 @@ use Ramsey\Uuid\Uuid;
 
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 
-$phone_no = '1232335198';
-
 class Payee
 {
     public function __construct($value, $editable)
@@ -58,7 +56,7 @@ if (form_completed()) {
     $file_content = file_get_contents($file_tmp_name);
     $from = 'Acnespecialisten <hej@acnespecialisten.se>';
     $to = "presentkort@acnespecialisten.se";
-    $subject = "Acnespecialisten gift card";
+    $subject = "Acnespecialisten presentkort";
     $boundary = uniqid('np');  // Boundary string for multipart message
     $headers = "From: $from\r\n";
     $headers .= "Reply-To: $from\r\n";
@@ -66,7 +64,7 @@ if (form_completed()) {
     $html_content = "
                     <html>
                     <head>
-                    <title>Acnespecialisten gift card</title>
+                    <title>Acnespecialisten presentkort</title>
                     </head>
                     <body>                        
                         <table>
@@ -118,74 +116,7 @@ if (form_completed()) {
     $message .= chunk_split(base64_encode($file_content)) . "\r\n";
     $message .= "--$boundary--\r\n";
     mail($to, $subject, $message, $headers);
-} else {
-    $amount = array_key_exists('amount', $_GET) ? $_GET['amount'] : '1000';
-    $uuid4 = Uuid::uuid4();
-    $id = str_replace('-', '', strtoupper($uuid4));
-    $url = "https://cpc.getswish.net/swish-cpcapi/api/v2/paymentrequests/" . $id;
-    $clientCert = $_SERVER['DOCUMENT_ROOT'] . "/../.ssl/cert.pem";
-    //$clientCert = $_ENV['SWISH_SSL_FOLDER'] . "/cert.p12";
-    //$rootCert = $_ENV['SWISH_SSL_FOLDER'] . "/Swish_TLS_RootCA.pem";
-    $pwd = "Mammamia123";
-
-    $data = [
-        "payeePaymentReference" => $id,
-        "callbackUrl" => "https://www.acnespecialisten.se/presentkort.php?paid=1",
-        //"payerAlias" => "4671234768",
-        "payeeAlias" => $phone_no,
-        "amount" => intval($amount),
-        "currency" => "SEK",
-        "message" => "Presentkort Acnespecialisten"
-    ];
-
-    $ch = curl_init($url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "PUT");
-    curl_setopt($ch, CURLOPT_HEADER, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data));
-    curl_setopt($ch, CURLOPT_HTTPHEADER, ["Content-Type: application/json"]);
-    curl_setopt($ch, CURLOPT_SSLCERT, $clientCert);
-    //curl_setopt($ch, CURLOPT_SSLCERTTYPE, "P12");
-    curl_setopt($ch, CURLOPT_SSLCERTPASSWD, $pwd);
-    //curl_setopt($ch, CURLOPT_CAINFO, $rootCert);
-
-    $response = curl_exec($ch);
-    if ($response === false) {
-        throw new Exception('Curl error: ' . curl_error($ch));
-    }
-
-    $token = substr($response, strpos($response, "PaymentRequestToken: ") + strlen("PaymentRequestToken: "), 32);
-
-    curl_close($ch);
-
-    $json_data = json_encode(array(
-        "format" => "png",
-        "size" => 300,
-        "transparent" => true,
-        "payee" => new Payee($phone_no, false),
-        "amount" => new Amount(intval($amount), true),
-    ));
-    $ch = curl_init('https://mpc.getswish.net/qrg-swish/api/v1/prefilled');
-
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($ch, CURLOPT_POST, true);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $json_data);
-    curl_setopt(
-        $ch,
-        CURLOPT_HTTPHEADER,
-        array(
-            'Content-Type: application/json',
-            'Content-Length: ' . strlen($json_data)
-        )
-    );
-    $response = curl_exec($ch);
-    if ($response === false) {
-        throw new Exception('Curl error: ' . curl_error($ch));
-    }
-    $qr_image_desktop = 'data:image/png;base64,' . base64_encode($response);
-
-    curl_close($ch);
-}
+} 
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -233,23 +164,7 @@ if (form_completed()) {
                                 <div class="gc-number">01</div>
                                 <h2 class="l10n">Swisha önskat belopp</h2>
                             </div>
-                            <div class="gc-text l10n">Skicka valfritt belopp som du vill sätta in på presentkortet.</div>
-                            <?php if (!form_completed()) { ?>
-                                <form class="mt-xs">
-                                    <div class="select-wrapper">
-                                        <select name="swish-amount" id="swish-amount" onchange="onAmountChange(event)" value="<?php echo $amount ?>">
-                                            <option value="500" <?php if ($amount == "500") echo "selected" ?>>500 kr</option>
-                                            <option value="1000" <?php if ($amount == "1000") echo "selected" ?>>1000 kr</option>
-                                            <option value="1500" <?php if ($amount == "1500") echo "selected" ?>>1500 kr</option>
-                                            <option value="2000" <?php if ($amount == "2000") echo "selected" ?>>2000 kr</option>
-                                            <option value="2500" <?php if ($amount == "2500") echo "selected" ?>>2500 kr</option>
-                                            <option value="3000" <?php if ($amount == "3000") echo "selected" ?>>3000 kr</option>
-                                        </select>
-                                    </div>
-                                </form>
-                                <hr />
-                                <a href="swish://paymentrequest?token=<?php echo $token ?>&callbackurl=https%3A%2F%2Facnespecialisten.se%2Fpresentkort%3Fpaid%3D1" class="button outline expand l10n" title="Open Swish app">Öppna Swish-appen</a>
-                            <?php } ?>
+                            <div class="gc-text l10n">Skicka valfritt belopp till 123 010 64 43 som du vill sätta in på presentkortet.</div>
                         </div>
                         <div class="gift-card-step" id="step-2-small">
                             <div class="flex-row align-center">
@@ -344,14 +259,8 @@ if (form_completed()) {
                                 <div class="gc-number">01</div>
                                 <div class="gc-texts">
                                     <h2 class="l10n">Swisha önskat belopp</h2>
-                                    <div class="l10n">Skicka valfritt belopp som du vill sätta in på presentkortet.</div>
+                                    <div class="l10n">Skicka valfritt belopp till 123 010 64 43 som du vill sätta in på presentkortet.</div>
                                 </div>
-                                <?php if (!form_completed()) { ?>
-                                    <div id="qr-image">
-                                        <img src="<?php echo $qr_image_desktop ?>" alt="QR" title="QR">
-                                        <div class="mt-s h200">123 233 51 98</div>
-                                    </div>
-                                <?php } ?>
                             </div>
                         </div>
                         <div class=" gift-card-step" id="step-2-large">
