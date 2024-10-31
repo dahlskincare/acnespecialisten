@@ -1,7 +1,7 @@
 var HeaderTouch;
 (function (HeaderTouch) {
     function toggleMenu() {
-        var overlay = document.querySelector('#mobile-nav-overlay');
+        const overlay = document.querySelector('#mobile-nav-overlay');
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
             document.body.classList.remove('noscroll');
@@ -13,7 +13,7 @@ var HeaderTouch;
     }
     HeaderTouch.toggleMenu = toggleMenu;
     function toggleExpanded(e) {
-        var panel = e.parentElement;
+        const panel = e.parentElement;
         if (panel.classList.contains('active')) {
             panel.classList.remove('active');
         }
@@ -26,10 +26,10 @@ var HeaderTouch;
 var HeaderDesktop;
 (function (HeaderDesktop) {
     function toggleMenu() {
-        var button = document.querySelector('#hamburger-button');
+        const button = document.querySelector('#hamburger-button');
         button.classList.toggle('active');
         button.classList.toggle('not-active');
-        var overlay = document.querySelector('#desktop-nav-overlay');
+        const overlay = document.querySelector('#desktop-nav-overlay');
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
         }
@@ -39,14 +39,14 @@ var HeaderDesktop;
     }
     HeaderDesktop.toggleMenu = toggleMenu;
     // Start top ("important notice") slideshow
-    var slideIndex = 0;
-    var notice = document.querySelector('#important-notice');
-    var slides = notice.querySelectorAll('.important-notice-slide');
+    let slideIndex = 0;
+    const notice = document.querySelector('#important-notice');
+    const slides = notice.querySelectorAll('.important-notice-slide');
     if (slides.length > 0) {
         setInterval(slideNext, 8000);
     }
     function slideNext() {
-        for (var i = 0; i < slides.length; i++) {
+        for (let i = 0; i < slides.length; i++) {
             if (slides[i].classList.contains('offscreen-left')) {
                 slides[i].classList.add('offscreen-right');
                 slides[i].classList.remove('offscreen-left');
@@ -58,7 +58,7 @@ var HeaderDesktop;
     }
     HeaderDesktop.slideNext = slideNext;
     function slidePrev() {
-        for (var i = 0; i < slides.length; i++) {
+        for (let i = 0; i < slides.length; i++) {
             if (slides[i].classList.contains('offscreen-right')) {
                 slides[i].classList.add('offscreen-left');
                 slides[i].classList.remove('offscreen-right');

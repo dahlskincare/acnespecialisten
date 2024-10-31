@@ -1,9 +1,9 @@
 var FAQ;
 (function (FAQ) {
     function selectCategory(target, name) {
-        var parent = target.parentElement;
-        var host = parent.parentElement;
-        var targetIndex = -1;
+        let parent = target.parentElement;
+        let host = parent.parentElement;
+        let targetIndex = -1;
         for (var i = 0; i < parent.children.length; i++) {
             parent.children[i].classList.remove('selected');
             if (parent.children[i] == target) {
@@ -11,7 +11,7 @@ var FAQ;
             }
         }
         target.classList.add('selected');
-        var questionCategories = host.querySelectorAll('.faq-question-category');
+        let questionCategories = host.querySelectorAll('.faq-question-category');
         for (var i = 0; i < questionCategories.length; i++) {
             questionCategories[i].classList.add('zero-size');
         }
@@ -22,7 +22,7 @@ var FAQ;
     FAQ.selectCategory = selectCategory;
     function toggleQuestionExpanded(target) {
         target.classList.toggle('expanded');
-        var textElement = target.parentElement.children[1];
+        let textElement = target.parentElement.children[1];
         if (textElement.classList.contains('zero-size')) {
             textElement.classList.remove('zero-size');
         }

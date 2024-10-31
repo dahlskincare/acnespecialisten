@@ -1,14 +1,14 @@
 var Forms;
 (function (Forms) {
-    var selectWrappers = document.querySelectorAll('.select-wrapper');
-    document.onclick = function (_) {
-        selectWrappers.forEach(function (wrapper) {
+    const selectWrappers = document.querySelectorAll('.select-wrapper');
+    document.onclick = (_) => {
+        selectWrappers.forEach((wrapper) => {
             wrapper.classList.remove('active');
         });
     };
-    selectWrappers.forEach(function (wrapper) {
-        var select = wrapper.children[0];
-        select.onclick = function (e) {
+    selectWrappers.forEach((wrapper) => {
+        const select = wrapper.children[0];
+        select.onclick = (e) => {
             if (wrapper.classList.contains('active')) {
                 wrapper.classList.remove('active');
             }

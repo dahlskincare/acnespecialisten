@@ -1,18 +1,18 @@
 var BrandsPage;
 (function (BrandsPage) {
-    var scroller;
-    document.addEventListener('DOMContentLoaded', function () {
-        var container = document.querySelector('#brands-container');
-        var brands = container.querySelector('#brands');
+    let scroller;
+    document.addEventListener('DOMContentLoaded', () => {
+        const container = document.querySelector('#brands-container');
+        const brands = container.querySelector('#brands');
         scroller = brands.querySelector('#brands-shadow');
-        var leftMask = container.querySelector('#scroll-button-previous');
-        var rightMask = container.querySelector('#scroll-button-next');
+        const leftMask = container.querySelector('#scroll-button-previous');
+        const rightMask = container.querySelector('#scroll-button-next');
         if (scroller.scrollWidth > scroller.clientWidth + 20) {
             rightMask.classList.remove('is-hidden');
         }
-        leftMask.onclick = function () { return scroll(-1); };
-        rightMask.onclick = function () { return scroll(1); };
-        scroller.addEventListener('scroll', function () {
+        leftMask.onclick = () => scroll(-1);
+        rightMask.onclick = () => scroll(1);
+        scroller.addEventListener('scroll', () => {
             // conditionally hide the left mask
             if (scroller.scrollLeft <= 0) {
                 leftMask.classList.add('is-hidden');

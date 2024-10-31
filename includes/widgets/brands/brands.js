@@ -1,13 +1,13 @@
 var Brands;
 (function (Brands) {
-    var widget = document.querySelector('.brands-widget');
-    var container = widget.querySelector('.flex-container');
-    var leftMask = widget.querySelector('#brand-mask-left');
-    var rightMask = widget.querySelector('#brand-mask-right');
+    const widget = document.querySelector('.brands-widget');
+    const container = widget.querySelector('.flex-container');
+    const leftMask = widget.querySelector('#brand-mask-left');
+    const rightMask = widget.querySelector('#brand-mask-right');
     if (container.scrollWidth > container.clientWidth + 20) {
         rightMask.classList.remove('is-hidden');
     }
-    container.addEventListener('scroll', function () {
+    container.addEventListener('scroll', () => {
         // conditionally hide the left mask
         if (container.scrollLeft <= 0) {
             leftMask.classList.add('is-hidden');
