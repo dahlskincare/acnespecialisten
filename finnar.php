@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Finnar visar sig som röda eller gula inflammationer i huden. Denna sida förklarar vad finnar är, varför de uppstår, hur man kan ta bort finnar och hur de skiljer sig från andra hudutslag.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för finnar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Pimples', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för finnar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Pimples', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
