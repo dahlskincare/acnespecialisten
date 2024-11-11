@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Hudförändringar kan inkludera ett brett spektrum av tillstånd, från födelsermäken och leverfläckar till hudflikar. Vi ger en överblick över de vanligaste typerna av hudförändringar och vad de beror på.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för hudförändringar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för hudförändringar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -102,7 +102,7 @@ $treatment_steps = array(
             content: 'Vi utför behandlingar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar',
-            url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
 

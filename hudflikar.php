@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Hudflikar är små utväxter på huden som ofta förekommer i hudveck eller områden med friktion. På Acnespecialisten förklarar vi hur hudflikar kan behandlas effektivt. Vi använder skonsamma och avancerade tekniker för att säkert ta bort hudflikar, vilket hjälper till att förbättra hudens utseende och textur.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis Konsultation för hudflikar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis Konsultation för hudflikar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -61,7 +61,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder olika behandlingsalternativ för effektiv borttagning av hudflikar. Våra metoder är anpassade efter dina specifika behov och hudtyp, och syftar till att ge en smärtfri upplevelse med minimal återhämtningsperiod.',
 
             url_label: 'Se behandlingar',
-            url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles',
             url_title: 'Läs mer om våra behandlingar för hudflikar'
       ),
 );
