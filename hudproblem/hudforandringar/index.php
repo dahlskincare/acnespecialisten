@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Hudförändringar',
       description: 'Hudförändringar kan inkludera ett brett spektrum av tillstånd, från födelsermäken och leverfläckar till hudflikar. Vi ger en överblick över de vanligaste typerna av hudförändringar och vad de beror på.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för hudförändringar'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för hudförändringar'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
