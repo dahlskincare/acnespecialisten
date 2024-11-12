@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Hudförändringar',
       description: 'Hudförändringar kan inkludera ett brett spektrum av tillstånd, från födelsermäken och leverfläckar till hudflikar. Vi ger en överblick över de vanligaste typerna av hudförändringar och vad de beror på.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för hudförändringar'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för akne'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis konsultation för hudförändringar'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -76,7 +76,7 @@ $trivias = array(
             content: '<p class="p200">Nästan alla människor kommer vid något skede i livet att uppleva någon form av hudförändring, men vem som drabbas, när och varför kan variera beroende på ett flertal faktorer. För det första är genetik en av de mest avgörande faktorerna. Om dina föräldrar eller andra nära släktingar har en historia av specifika hudförändringar, såsom födelsemärken, leverfläckar eller åldersvårtor, är chansen större att du också kommer att utveckla liknande förändringar. Detta arv kan sträcka sig över flera generationer, vilket betyder att även om dina föräldrar inte har dessa hudförändringar, kan du ändå ärva benägenheten från tidigare generationer. Ålder är en annan viktig faktor. Även om människor i alla åldrar kan utveckla hudförändringar, tenderar vissa förändringar att vara mer vanliga under specifika livsfaser. Till exempel är hemangiom, även kända som jordgubbsmärken, vanligast hos nyfödda, medan åldersvårtor oftast uppträder i vuxen ålder.</p>',
             extended_content: '<p class="p200 mt-xl">Personer som spenderar mycket tid utomhus eller som inte regelbundet använder solskydd kan ha en högre risk att utveckla solrelaterade hudförändringar som leverfläckar. Detsamma gäller individer som ofta utsätter sin hud för kemikalier eller andra irriterande ämnen, vilket kan leda till reaktioner eller långvariga förändringar i huden. Hormonella förändringar, som de som upplevs under graviditet, pubertet och klimakteriet, kan också påverka hudens tillstånd och förekomsten av hudförändringar. Detta kan förklara varför vissa kvinnor plötsligt upptäcker hudförändringar under graviditeten eller varför tonåringar kan märka nya födelsemärken under puberteten.</p>
             <p class="p200 mt-xl">Hälsotillstånd och mediciner kan också påverka hudens utseende. Personer med vissa autoimmuna sjukdomar kan vara mer benägna att utveckla specifika hudförändringar. Likaså kan vissa mediciner orsaka hudreaktioner eller förändringar som en biverkning. Så även om nästan alla kommer att uppleva någon form av hudförändring under sin livstid, varierar sannolikheten, typen och svårighetsgraden av dessa förändringar beroende på genetik, ålder, livsstil, hormonella förändringar, hälsa och andra faktorer. Att förstå dessa nyanser kan hjälpa individer att vara mer medvetna och ta hand om sin hud på bästa möjliga sätt.</p>',
-            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna', 'aldre' => 'Aldre')
+            icons: array('man-kvinna' => 'Män & Kvinnor', 'barn' => 'Barn', 'tonaringar' => 'Tonåringar', 'vuxna' => 'Vuxna', '65+' => 'Äldre')
       ),
       new ProblemTrivia(
             prefix: 'Var',
@@ -102,7 +102,7 @@ $treatment_steps = array(
             content: 'Vi utför behandlingar med laser eller CryoPen. Vi anpassar alltid behandlingsmetoden efter dina behov.',
 
             url_label: 'Se behandlingar',
-            url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=SKIP',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles',
             url_title: 'Utforska våra skräddarsydda behandlingar för hudförändringar'
       ),
 
@@ -534,7 +534,10 @@ $brands_url_title = "Varumärken för behandling av hudförändringar";
 
 <body>
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
-      <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php'); ?>
+      <?php
+      $floater_small_text = true;
+      include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/floater.php');
+      ?>
       <main>
             <section id="header">
                   <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>

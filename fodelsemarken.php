@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Behandling av Födelsemärken',
       description: 'Födelsemärken är pigmenterade hudförändringar som kan variera i storlek, form och färg. Denna sida förklarar hur födelsemärken uppstår och de mest effektiva metoderna för att hantera dem. På Acnespecialisten använder vi skonsamma och avancerade tekniker för att säkert behandla födelsemärken, vilket hjälper till att förbättra hudens övergripande utseende och textur.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen', 'Boka gratis Konsultation för födelsemärken'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_fodelsemarken', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis Konsultation för födelsemärken'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen', 'Boka gratis Konsultation för födelsemärken'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_fodelsemarken', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles', 'Boka gratis Konsultation för födelsemärken'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -61,7 +61,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder skräddarsydda behandlingsalternativ för födelsemärken, anpassade efter dina individuella behov och hudtyp. Dessa kan innefatta laserterapi och andra moderna behandlingsmetoder, designade för att ge dig en säker och effektiv behandling.',
 
             url_label: 'Se behandlingar',
-            url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_fodelsemarken',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles',
             url_title: 'Läs mer om våra behandlingar för födelsemärken'
       ),
 );
