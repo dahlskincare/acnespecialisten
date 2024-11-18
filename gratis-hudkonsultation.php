@@ -19,7 +19,7 @@ $model = new Service(
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
     consultation_url_label: 'Boka klinikbesök',
     consultation_url_title: 'Klicka här för att boka ett besök i någon av våra kliniker',
-    booking_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY&ConsultationPlace=consultation_online',
+    booking_url: 'https://boka.acnespecialisten.se?flow=consultation',
     booking_url_label: 'Boka onlinebesök',
     booking_url_title: 'Klicka här för att boka en onlinekonsultation',
 );
