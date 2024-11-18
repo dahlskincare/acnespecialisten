@@ -22,7 +22,7 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem',
@@ -97,7 +97,7 @@ $types_title = 'Ansiktsbehandlingar mot problemhy';
 $types_description = '';
 $types = array(
     new Service(
-        title: 'Ansiktsbehandling mot Akne',
+        title: 'Ansiktsbehandling mot akne',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling mot acne hy anpassad för olika typer av akne med fokus på att klämma ut papler, pustler och komedoner. Perfekt för dig som lider av blemmor i ansiktet och vi behandlar allt från mild till grov akne.',
@@ -117,7 +117,7 @@ $types = array(
         url_title: 'Läs mer om ansiktsbehandling mot akne',
     ),
     new Service(
-        title: 'Ansiktsbehandling mot Pormaskar',
+        title: 'Ansiktsbehandling mot pormaskar',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling anpassad för pormaskar som upplevs som svarta prickar i ansiktet eller prickig hy med fokus på att rengöra porer och klämma ut pormaskar. Vi behandlar alla områden såsom pormaskar runt munnen, näsa eller på kinderna.',
@@ -137,7 +137,7 @@ $types = array(
         url_title: 'Läs mer om portömning',
     ),
     new Service(
-        title: 'Ansiktsbehandling mot Rosacea',
+        title: 'Ansiktsbehandling mot rosacea',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling för rosacea som lugnar huden, minskar rodnaden och rensar inflammerade porer samt blåsor.',
@@ -158,7 +158,7 @@ $types = array(
     ),
 
     new Service(
-        title: 'Ansiktsbehandling mot Finnar',
+        title: 'Ansiktsbehandling mot finnar',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling mot olika typer av finnar i ansiktet som djuprengör, behandlar och klämmer ut finnar, samtidigt som den balanserar hudens talgproduktion och minskar inflammation för att bli av med stora som små finnar. Utmärkt för dig som lider av röda eller vita finnar av torr hy eller fet hy.',
@@ -178,7 +178,7 @@ $types = array(
         url_title: 'Läs mer om portömning',
     ),
     new Service(
-        title: 'Ansiktsbehandling för Blandhy',
+        title: 'Ansiktsbehandling för blandhy',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling för blandhy som kan vara oljig eller torr med finnar och pormaskar. Balanserar och återfuktar huden, samtidigt som den djuprengör och tar bort pormaskar för en jämnare hudton.',
@@ -198,7 +198,7 @@ $types = array(
         url_title: 'Läs mer om portömning',
     ),
     new Service(
-        title: 'Ansiktsbehandling mot Milier',
+        title: 'Ansiktsbehandling mot milier',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling för milier som uppstår som vita prickar i ansiktet eller på näsan, inriktad på att varsamt öppna upp de små, vita cystorna som saknar poröppning, för att noggrant extrahera dem och ge en klarare hud.',
@@ -218,7 +218,7 @@ $types = array(
         url_title: 'Klicka här för att läsa mer om behandling mot milier',
     ),
     new Service(
-        title: 'Ansiktsbehandling för Perioral Dermatit',
+        title: 'Ansiktsbehandling för perioral dermatit',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling för perioral dermatit som lugnar huden, reducera irritation och rodnad runt munområdet, med fokus på att återställa hudens naturliga balans och lindra symtomen. Finnar runt munnen betyder ofta att man har perioral dermatit.',
@@ -238,7 +238,7 @@ $types = array(
         url_title: 'Läs mer om ansiktsbehandling mot perioral dermatit',
     ),
     new Service(
-        title: 'Ansiktsbehandling för Seborré',
+        title: 'Ansiktsbehandling för seborré',
         duration: null,
         price: null,
         content: 'Ansiktsbehandling som behandlar och balansera huden som drabbats av seborré. Genom att exfoliera bort flagnande hy, kontrollera överdriven talgproduktion och minska inflammation, vilket ger huden en friskare och jämnare ton.',
@@ -258,7 +258,7 @@ $types = array(
         url_title: 'Läs mer om ansiktsbehandling mot seborré',
     ),
     new Service(
-        title: 'Ansiktsbehandling för Stora Porer',
+        title: 'Ansiktsbehandling för stora porer',
         duration: null,
         price: null,
         content: 'Denna behandling är specifikt framtagen för att behandla och minska framträdande stora porer i ansiktet och på kroppen. Vi rengör och tömmer porerna på djupet så att de blir mindre framträdande vilket resulterar i en jämnare och slätare hy.',
@@ -278,7 +278,7 @@ $types = array(
         url_title: 'Läs mer om portömning',
     ),
     new Service(
-        title: 'Ansiktsbehandling för Torr & Känslig Hy',
+        title: 'Ansiktsbehandling för torr & känslig Hy',
         duration: null,
         price: null,
         content: 'Denna behandling är specifikt framtagen för att nära och lugna torr samt känslig hy. Genom att använda specialanpassade produkter återställer vi hudens fuktbalans, minska rodnad och irritation, och ge huden en mjuk och behaglig känsla för att bekämpa flagnande hud. Kan även hjälpa för dig som har torr hy och finnar.',
@@ -286,7 +286,7 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/torr-kanslig-hy.webp',
         image_alt: 'Ansiktsbehandling för Torr & Känslig Hy',
         image_title: 'Ansiktsbehandling för Torr & Känslig Hy',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
         booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_DrySensetiveSkin&area=EMPTY',

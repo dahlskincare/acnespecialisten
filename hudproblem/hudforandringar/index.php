@@ -321,8 +321,8 @@ $services = array(
       ),
       new Service(
             title: 'Laser mot hudförändringar',
-            duration: '30 min',
-            price: '1995 kr',
+            duration: '20 min',
+            price: '1595 kr',
             content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -339,7 +339,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot hudförändringar',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Moles&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot hudförändringar',
       ),
 );

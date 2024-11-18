@@ -132,7 +132,7 @@ $services = array(
             title: 'Behandling av födelsemärken med CryoPen',
             duration: '20 min',
             price: '995 kr',
-            content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är snabb, effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
+            content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
             image_large: 'bilder/hudbehandlingar/200x200/cryopen.webp',
@@ -150,6 +150,29 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_fodelsemarken',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för födelsemärken'
+      ),
+      new Service(
+            title: 'Behandling av födelsemärken med laser',
+            duration: '20 min',
+            price: '1595 kr',
+            content: 'Laser är en snabb och effektiv behandlingsmetod som använder värme via laserljus som behandlar födelsemärkenmed hög precision. Behandlingen är snabb och effektiv med omedelbara resultat.',
+
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_alt: 'Kvinna som får laserbehandling mot födelsemärken',
+            image_title: 'Laserbehandling mot födelsemärken',
+
+            url_label: 'Läs mer om laser',
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
+            url_title: 'Läs mer om laser mot födelsemärken',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot födelsemärken',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot födelsemärken',
       ),
 );
 

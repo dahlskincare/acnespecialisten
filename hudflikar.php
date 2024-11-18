@@ -127,7 +127,7 @@ $services = array(
             title: 'Behandling av hudflikar med CryoPen',
             duration: '20 min',
             price: '995 kr',
-            content: 'Med Cryopen-tekniken erbjuder vi en snabb och skonsam behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
+            content: 'Med Cryopen-tekniken erbjuder vi en effektiv behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
             image_large: 'bilder/hudbehandlingar/200x200/cryopen.webp',
@@ -141,6 +141,29 @@ $services = array(
             booking_url_label: 'Boka behandling',
             booking_url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags',
             booking_url_title: 'Klicka för att boka tid för en behandling med Cryopen för hudflikar'
+      ),
+      new Service(
+            title: 'Behandling av hudflikar med laser',
+            duration: '20 min',
+            price: '1595 kr',
+            content: 'Vi erbjuder laser-teknik för att snabbt och effektivt "bränna" bort hudflikarna. Denna avancerade metod ger omedelbara resultat.',
+
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_alt: 'Kvinna som får laserbehandling mot hudflikar',
+            image_title: 'Laserbehandling mot hudflikar',
+
+            url_label: 'Läs mer om laser',
+            url: '/hudbehandlingar/laser-mot-hudproblem/',
+            url_title: 'Läs mer om laser mot hudflikar',
+
+            consultation_url_label: 'Boka konsultation',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot hudflikar',
+
+            booking_url_label: 'Boka behandling',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections',
+            booking_url_title: 'Klicka för att boka tid för en laserbehandling mot hudflikar',
       ),
 );
 

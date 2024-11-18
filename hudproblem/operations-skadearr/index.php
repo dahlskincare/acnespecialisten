@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Operations- och skadeärr',
       description: 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Här hittar du detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.',
       links_touch: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för akne'),
-            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för ärr'),
+            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för akne'),
-            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Standard&Consultationwhat=EMPTY&ConsultationPlace=consultation_online', 'Boka denna behandling'),
+            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för ärr'),
+            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
