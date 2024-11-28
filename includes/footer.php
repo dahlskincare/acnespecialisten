@@ -438,46 +438,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column is-two-thirds">
-                        <div id="footer-links-large">
-                            <div class="columns is-gapless">
-                                <div class="column">
-                                    <h2>Upptäck</h2>
-                                    <ul>
-                                        <li>
-                                            <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis konsultation</a>
-                                        </li>
-                                        <li>
-                                            <a href="/hudproblem/" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
-                                        </li>
-                                        <li>
-                                            <a href="/hudbehandlingar/" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
-                                        </li>
-                                        <li>
-                                            <a href="/varumarken/" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="column">
-                                    <h2 class="l10n">Information</h2>
-                                    <ul>
-                                        <li>
-                                            <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
-                                        </li>
-                                        <li>
-                                            <a href="/hudguide/" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
-                                        </li>
-                                        <li>
-                                            <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
-                                        </li>
-                                        <li>
-                                            <a href="/priser/" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div id="footer-large-bottom">
