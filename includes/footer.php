@@ -435,38 +435,43 @@
                                         </li>
                                     </ul>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-two-thirds">
+                        <div id="footer-links-large">
+                            <div class="columns is-gapless">
                                 <div class="column">
-                                    <h2>Kundtjänst</h2>
+                                    <h2>Upptäck</h2>
                                     <ul>
                                         <li>
-                                            <a href="kontakt.php" class="button text grey compact l10n" title="Kontakta oss via chatt, e-post eller telefon">Kontakt</a>
+                                            <a href="gratis-hudkonsultation.php" class="button text grey compact l10n" title="Läs mer om vår gratis hudkonsultation">Gratis konsultation</a>
                                         </li>
                                         <li>
-                                            <a href="fragor-svar.php" class="button text grey compact l10n" title="Populära frågor & svar från våra kunder">Frågor & Svar</a>
+                                            <a href="/hudproblem/" class="button text grey compact l10n" title="Läs mer om olika hudproblem vi behandlar">Hudproblem</a>
                                         </li>
                                         <li>
-                                            <a href="presentkort.php" class="button text grey compact l10n" title="Köp presentkort hos oss">Presentkort</a>
+                                            <a href="/hudbehandlingar/" class="button text grey compact l10n" title="Läs mer om de behandlingar vi utför">Behandlingar</a>
                                         </li>
                                         <li>
-                                            <a href="avbokningspolicy.php" class="button text grey compact l10n" title="Läs mer om vår avbokningspolicy">Avbokning</a>
+                                            <a href="/varumarken/" class="button text grey compact l10n" title="Läs mer om de varumärken vi jobbar med">Varumärken</a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="column">
-                                    <h2>Företag</h2>
+                                    <h2 class="l10n">Information</h2>
                                     <ul>
                                         <li>
-                                            <a href="om-oss.php" class="button text grey compact l10n" title="Mer information om oss på AcneSpecialisten">Om oss</a>
-
+                                            <a href="resultat.php" class="button text grey compact l10n" title="Se våra kunders före- och efterbilder">Resultat</a>
                                         </li>
                                         <li>
-                                            <a href="metoden.php" class="button text grey compact l10n" title="Lär dig mer om hur vår metod går till">Vår metod</a>
+                                            <a href="/hudguide/" class="button text grey compact l10n" title="Läs mer om allt inom hudvård">Hudguide</a>
                                         </li>
                                         <li>
-                                            <a href="/hudterapeut/" class="button text grey compact l10n" title="Se alla våra hudterapeuter och hudterapeuter">Våra hudterapeuter</a>
+                                            <a href="ordlista.php" class="button text grey compact l10n" title="Lär dig med om hudvård från A till Ö">Ordlista</a>
                                         </li>
                                         <li>
-                                            <a href="karriar.php" class="button text grey compact l10n" title="Se våra lediga tjänster">Din karriär</a>
+                                            <a href="/priser/" class="button text grey compact l10n" title="Här hittar du vår prislista">Priser</a>
                                         </li>
                                     </ul>
                                 </div>
