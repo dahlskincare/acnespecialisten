@@ -1,25 +1,3 @@
-<!-- Google Consent Mode -->
-<script data-cookieconsent="ignore">
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-    dataLayer.push(arguments)
-  }
-  gtag("consent", "default", {
-    ad_personalization: "denied",
-    ad_storage: "denied",
-    ad_user_data: "denied",
-    analytics_storage: "denied",
-    functionality_storage: "denied",
-    personalization_storage: "denied",
-    security_storage: "granted",
-    wait_for_update: 500
-  });
-  gtag("set", "ads_data_redaction", true);
-  gtag("set", "url_passthrough", true);
-</script>
-<!-- End Google Consent Mode-->
-
 <!-- Google Tag Manager -->
 <script data-cookieconsent="ignore">
   (function(w, d, s, l, i) {
@@ -38,15 +16,6 @@
   })(window, document, 'script', 'dataLayer', 'GTM-PFRBPG9K');
 </script>
 <!-- End Google Tag Manager -->
-
-<!-- Cookiebot CMP-->
-<script
-  id="Cookiebot"
-  src="https://consent.cookiebot.com/uc.js"
-  data-cbid="77836ffa-6c7c-4c0d-836f-c1f3d3cc17c1"
-  data-blockingmode="auto"
-  type="text/javascript"></script>
-<!-- End Cookiebot CMP -->
 
 <script>
   // Copy gclid url param to all booking links
