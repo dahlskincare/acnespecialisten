@@ -1,16 +1,16 @@
 var Article;
 (function (Article) {
-    var content = document.querySelector('#content');
-    var navAnchors = content.querySelectorAll('.nav-anchor');
-    var navButtons = document.querySelector('section#nav-buttons');
-    var navButtonsContent = navButtons.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
+    const content = document.querySelector('#content');
+    const navAnchors = content.querySelectorAll('.nav-anchor');
+    const navButtons = document.querySelector('section#nav-buttons');
+    const navButtonsContent = navButtons.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
     if (navAnchors.length > 0) {
         navButtons.classList.remove('is-hidden');
-        navAnchors.forEach(function (anchor) {
-            var button = document.createElement("div");
+        navAnchors.forEach((anchor) => {
+            const button = document.createElement("div");
             button.innerText = anchor.innerText;
             button.className = 'nav-button';
-            button.onclick = function () {
+            button.onclick = () => {
                 if (window.innerWidth < 800) {
                     anchor.scrollIntoView();
                 }
@@ -22,45 +22,45 @@ var Article;
         });
     }
     if (document.body.clientWidth > 800) {
-        var scroller_1 = navButtonsContent.parentElement;
-        var prev_1 = scroller_1.parentElement.querySelector('#scroll-prev');
-        var next_1 = scroller_1.parentElement.querySelector('#scroll-next');
-        scroller_1.addEventListener('scroll', function () {
-            var showNext = scroller_1.scrollWidth - scroller_1.scrollLeft > scroller_1.clientWidth;
-            var showPrevious = scroller_1.scrollLeft > 0;
+        const scroller = navButtonsContent.parentElement;
+        const prev = scroller.parentElement.querySelector('#scroll-prev');
+        const next = scroller.parentElement.querySelector('#scroll-next');
+        scroller.addEventListener('scroll', () => {
+            let showNext = scroller.scrollWidth - scroller.scrollLeft > scroller.clientWidth;
+            let showPrevious = scroller.scrollLeft > 0;
             if (showNext) {
-                next_1.classList.remove('is-hidden');
+                next.classList.remove('is-hidden');
             }
             else {
-                next_1.classList.add('is-hidden');
+                next.classList.add('is-hidden');
             }
             if (showPrevious) {
-                prev_1.classList.remove('is-hidden');
+                prev.classList.remove('is-hidden');
             }
             else {
-                prev_1.classList.add('is-hidden');
+                prev.classList.add('is-hidden');
             }
         });
-        prev_1.addEventListener('click', function () {
-            scroller_1.scrollBy(-133, 0);
+        prev.addEventListener('click', () => {
+            scroller.scrollBy(-133, 0);
         });
-        next_1.addEventListener('click', function () {
-            scroller_1.scrollBy(133, 0);
+        next.addEventListener('click', () => {
+            scroller.scrollBy(133, 0);
         });
-        if (scroller_1.scrollWidth > scroller_1.clientWidth) {
-            next_1.classList.remove('is-hidden');
+        if (scroller.scrollWidth > scroller.clientWidth) {
+            next.classList.remove('is-hidden');
         }
     }
-    document.querySelectorAll('.faq-category').forEach(function (category) {
+    document.querySelectorAll('.faq-category').forEach((category) => {
         if (category.children.length == 2) {
-            var title = category.children[0];
-            var content_1 = category.children[1];
-            title.onclick = function (_e) {
-                if (content_1.classList.contains('zero-size')) {
-                    content_1.classList.remove('zero-size');
+            const title = category.children[0];
+            const content = category.children[1];
+            title.onclick = (_e) => {
+                if (content.classList.contains('zero-size')) {
+                    content.classList.remove('zero-size');
                 }
                 else {
-                    content_1.classList.add('zero-size');
+                    content.classList.add('zero-size');
                 }
             };
         }
