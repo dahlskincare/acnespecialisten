@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Melasma',
       description: 'Har du upplevt melasma, även känd som solfläckar eller leverfläckar, på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation för melasma'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation för melasma'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
@@ -98,7 +98,7 @@ $service = new Service(
 
       consultation_url_label: 'Boka konsultation',
       consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation',
-      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudflikar',
+      consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för melasma',
 
       booking_url_label: null,
       booking_url: null,
@@ -110,8 +110,8 @@ $headline02 = "02. Behandla";
 $services = array(
       new Service(
             title: 'Kemisk peeling mot melasma',
-            duration: '30 min',
-            price: '1595 kr',
+            duration: '40 min',
+            price: '1995 kr',
             content: 'Kemisk peeling är en effektiv metod som genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse och jämnar ut hudtonen.',
 
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
@@ -125,13 +125,35 @@ $services = array(
 
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot akne',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot melasma',
 
             booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_Melasma&area=EMPTY',
             booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot akne',
+            booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot melasma',
       ),
-);
+      new Service(
+            title: 'Laser mot melasma',
+            duration: '50 min',
+            price: '2595 kr',
+            content: 'Laserbehandling mot melasma är en effektiv metod där kontrollerade laserpulser används för att minska pigmentförändringar och jämna ut hudtonen. Genom att rikta in sig på melasmadrabbade områden stimuleras cellförnyelsen, vilket ger en klarare och jämnare hud.',
+
+            image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
+            image_alt: 'Kvinna som får laserbehandling mot melasma',
+            image_title: 'Laserbehandling mot melasma',
+
+            url_label: 'Läs mer om laser mot melasma',
+            url: 'alma-harmony-xl-pro.php',
+            url_title: 'Läs mer om laser mot melasma',
+
+            consultation_url: 'https://boka.acnespecialisten.se/?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Harmony',
+            consultation_url_label: 'Boka konsultation',
+            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot melasma',
+
+            booking_url: 'https://boka.acnespecialisten.se/?flow=laserProblem&skipable_problem=Problem_Melasma&area=EMPTY',
+            booking_url_label: 'Boka behandling',
+            booking_url_title: 'Klicka för att boka tid för laserbehandling mot melasma',
+),
 
 $articles = array(
       new Article(
