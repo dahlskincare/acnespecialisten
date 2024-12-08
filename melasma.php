@@ -22,7 +22,7 @@ $image_alt = 'Bild som visar melasma på huden';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Melasma',
-      description: 'Har du upplevt melasma, även känd som solfläckar eller leverfläckar, på din hud? Vi känner till dessa utmaningar och erbjuder effektiva behandlingsmetoder. Lär dig mer om dessa hudfläckar, varför de uppstår, och hur våra experter kan utforma en behandlingsplan som passar just dina behov. Boka en gratis konsultation idag för att påbörja din väg mot en jämnare och sundare hud.',
+      description: 'Har du märkt mörkare, ojämna hudförändringar i ansiktet som blivit mer framträdande under graviditet, klimakteriet eller efter långvarig solexponering? Melasma är en hormonellt betingad hyperpigmentering som ofta visar sig på kinder, panna, haka eller överläpp. Våra hudexperter förstår dessa utmaningar och erbjuder beprövade behandlingsmetoder för att minska synligheten av melasma och återställa en jämnare hudton. Boka en gratis konsultation idag och ta det första steget mot en klarare hud.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation för melasma'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
@@ -49,23 +49,24 @@ $green_banner_content = new GreenBannerContent(
 $floating_box = 'Vi behandlar melasma effektivt';
 
 $description_title = 'Fakta';
-$description_text = '<p class="p200">Melasma, som ofta är kopplat till hudens åldrande och utdragen sol exponering, visar sig som små, mörka områden på huden. Det är vanligare hos personer över 50 år men kan även förekomma hos yngre som spenderar mycket tid i solen.</p>
-<p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi olika behandlingar för att tackla melasma. Våra metoder sträcker sig från ljusbaserade terapier till kemiska peelingar och mikrodermabrasion, alla utformade för att minska synligheten av melasma och ge en jämnare hudton. Vi tillhandahåller också tips för att förebygga och upprätthålla en frisk och lysterrik hud.</p>';
+$description_text = '<p class="p200">Melasma, även kallat kloasma eller “graviditetsmask”, är en hormonellt betingad hyperpigmentering som ofta visar sig som mörkare, oregelbundna och symmetriska fläckar i ansiktet. Vanliga områden där melasma uppstår inkluderar kinder, panna, näsrygg, haka och överläpp. Tillståndet är mer förekommande hos kvinnor, särskilt under graviditet och klimakteriet, men kan även triggas av hormonella preventivmedel och östrogenbehandlingar. Utöver hormonella faktorer spelar UV-exponering en betydande roll – långvarig solexponering kan både utlösa och förvärra melasma.</p>
+      
+      <p class="p200 mt-m">Hos AcneSpecialisten erbjuder vi individanpassade behandlingsalternativ för att minska synligheten av melasma och jämna ut hudtonen. Vi arbetar bland annat med laser och kemiska peelingar för att stimulera cellförnyelse och reducera oönskade pigmentfläckar. Dessutom ger vi råd om hur du bäst skyddar dig mot solen, samt tips på hudvårdsrutiner och livsstilsfaktorer som kan bidra till att förebygga och underhålla en jämn, frisk och lysterrik hud.</p>';
 
 $treatment_steps = array(
       new TreatmentStep(
             title: 'Identifiera',
-            content: 'Din resa mot en friskare hud börjar hos AcneSpecialisten med en omfattande konsultation. Våra erfarna hudterapeuter genomför en noggrann hudanalys för att bedöma omfattningen av din melasma. Denna inledande utvärdering är kritisk för att kunna utveckla en skräddarsydd behandlingsplan, skräddarsydd för dina unika hudvårdsbehov.',
+            content: 'Din resa mot en jämnare hud börjar hos AcneSpecialisten med en noggrann hudanalys. Våra erfarna hudterapeuter bedömer omfattningen av din melasma och lägger grunden för en individanpassad behandlingsplan.',
             url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation',
             url_label: 'Boka en kostnadsfri konsultation',
             url_title: 'Boka din kostnadsfria konsultation för melasma idag',
       ),
       new TreatmentStep(
             title: 'Behandla',
-            content: 'Baserat på din individuella diagnos erbjuder AcneSpecialisten en rad anpassade behandlingsalternativ. Våra metoder inkluderar avancerade tekniker speciellt utvecklade för att hantera och minska tecken på melasma, som hyperpigmentering och ojämn hudton, och arbetar mot att förbättra både hudens struktur och dess övergripande utseende.',
+            content: 'Utifrån din diagnos erbjuder AcneSpecialisten avancerade, skräddarsydda metoder för att minska hyperpigmentering och ojämn hudton. Vårt mål är att ge dig en jämnare, klarare och mer välmående hud.',
             url: 'behandla-pigmentflackar.php',
             url_label: 'Upptäck våra behandlingsalternativ',
-            url_title: 'Upptäck våra unika och effektiva behandlingar för solskadad hy',
+            url_title: 'Upptäck våra unika och effektiva behandlingar för melasma',
       ),
 );
 
@@ -79,7 +80,7 @@ $top_articles = array(
             image_large: null,
             image_alt: '',
             image_title: '',
-            content: '<p class="p200">Melasma i ansiktet är vanligt då hudområdet ofta utsätts för regelbunden sol, och det kanäven förekomma på andra kroppsdelar såsom händer och armar. Denna typ av hyperpigmentering uppstår på grund av en ökning i melaninproduktionen, det naturliga pigmentet som färgar huden. Ofta är detta en reaktion på långvarig exponering för solens UV-strålar. Dessutom spelar hudens åldringsprocess en roll i melasmas utveckling, eftersom hudens förmåga att återhämta sig från och reparera solskador minskar med åldern.</p>',
+            content: '<p class="p200">Melasma uppträder oftast i ansiktet, exempelvis på kinder, panna, näsa och överläpp, eftersom dessa områden regelbundet exponeras för solen. Även om det är mindre vanligt kan melasma ibland förekomma på andra solutsatta kroppsdelar, såsom underarmar. Hyperpigmenteringen orsakas av en ökad melaninproduktion, ofta utlöst av långvarig UV-exponering. Hormoner spelar också en roll, vilket gör att graviditet, hormonella preventivmedel eller klimakteriet kan påverka uppkomsten. Med stigande ålder försämras dessutom hudens förmåga att återhämta sig från solskador, vilket ytterligare kan bidra till utvecklingen av melasma.</p>',
       ),
 );
 
@@ -163,17 +164,16 @@ $articles = array(
             image_large: null,
             image_alt: 'När bör du söka hjälp för Melasma?',
             image_title: 'När bör du söka hjälp för Melasma?',
-            content: '<p class="p200">Melasma kan vara en naturlig del av hudens åldrande och orsaka estetiska bekymmer. Om du känner att din melasma påverkar ditt självförtroende eller om du är bekymrad över dess utseende, kan det vara dags att söka professionell hjälp. Även om melasma i sig inte är farligt, är det viktigt att få en korrekt diagnos för att utesluta andra hudtillstånd. En hudterapeut kan ge dig råd om effektiva behandlingar och strategier för att förebygga melasma.</p>',
+            content: '<p class="p200">Melasma är i sig inte skadligt, men kan påverka ditt självförtroende och välbefinnande. Om du upplever att de mörka pigmenteringarna i ansiktet gör dig obekväm eller om du är osäker på om det rör sig om melasma eller ett annat hudtillstånd, är det klokt att söka professionell rådgivning. En noggrann bedömning av en hudterapeut kan hjälpa dig att hitta rätt behandlingsstrategi.</p>',
       ),
 
       new Article(
             title: 'Varför AcneSpecialisten är ditt bästa val för behandling?',
             image_small: null,
             image_large: null,
-            image_alt: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            image_alt: 'Varför välja AcneSpecialisten för din behandling?',
             image_title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
-            content: '<p class="p200">AcneSpecialisten är välrenommerad för sin expertis inom behandling av melasma. Med vår djupa förståelse och erfarenhet, samt tillgång till de senaste behandlingsteknikerna, erbjuder vi individuellt anpassade behandlingsstrategier för varje klient. Vårt mål är inte enbart att behandla de yttre tecknen på melasma, utan även att proaktivt arbeta mot att förebygga framtida hudproblem.</p>
-            <p class="p200 mt-m">Vi använder behandlingsmetoder som baseras på en grundlig förståelse för hudens särskilda krav och tillämpar avancerade tekniker och högkvalitativa produkter. Detta för att uppnå bästa möjliga resultat för våra kunder.</p>',
+            content: '<p class="p200">AcneSpecialisten har lång erfarenhet av att behandla melasma, med fokus på individuella lösningar baserade på din unika hudtyp och situation. Genom vetenskapligt förankrade metoder, avancerad teknik och högkvalitativa produkter arbetar vi för att minska synligheten av melasma och stärka din hudhälsa på lång sikt. Vårt mål är inte bara att ta itu med befintliga pigmentförändringar, utan också att förebygga framtida problem och hjälpa dig att återfå en jämnare, mer balanserad hudton.</p>',
       ),
 );
 
