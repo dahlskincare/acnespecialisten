@@ -39,9 +39,9 @@ $green_banner_content = new GreenBannerContent(
                   title: 'Pigmentfläckar'
             ),
             new Link(
-                  label: 'Pigmenteringar',
+                  label: 'Kloasma, Gravidmask',
                   url: null,
-                  title: 'Pigmenteringar'
+                  title: 'Kloasma, Gravidmask'
             ),
       ]
 );
