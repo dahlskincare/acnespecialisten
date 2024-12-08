@@ -164,17 +164,16 @@ $articles = array(
             image_large: null,
             image_alt: 'När bör du söka hjälp för Melasma?',
             image_title: 'När bör du söka hjälp för Melasma?',
-            content: '<p class="p200">Melasma kan vara en naturlig del av hudens åldrande och orsaka estetiska bekymmer. Om du känner att din melasma påverkar ditt självförtroende eller om du är bekymrad över dess utseende, kan det vara dags att söka professionell hjälp. Även om melasma i sig inte är farligt, är det viktigt att få en korrekt diagnos för att utesluta andra hudtillstånd. En hudterapeut kan ge dig råd om effektiva behandlingar och strategier för att förebygga melasma.</p>',
+            content: '<p class="p200">Melasma är i sig inte skadligt, men kan påverka ditt självförtroende och välbefinnande. Om du upplever att de mörka pigmenteringarna i ansiktet gör dig obekväm eller om du är osäker på om det rör sig om melasma eller ett annat hudtillstånd, är det klokt att söka professionell rådgivning. En noggrann bedömning av en hudterapeut kan hjälpa dig att hitta rätt behandlingsstrategi.</p>',
       ),
 
       new Article(
             title: 'Varför AcneSpecialisten är ditt bästa val för behandling?',
             image_small: null,
             image_large: null,
-            image_alt: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
+            image_alt: 'Varför välja AcneSpecialisten för din behandling?',
             image_title: 'Varför AcneSpecialisten är ditt bästa val för behandling av Melasma',
-            content: '<p class="p200">AcneSpecialisten är välrenommerad för sin expertis inom behandling av melasma. Med vår djupa förståelse och erfarenhet, samt tillgång till de senaste behandlingsteknikerna, erbjuder vi individuellt anpassade behandlingsstrategier för varje klient. Vårt mål är inte enbart att behandla de yttre tecknen på melasma, utan även att proaktivt arbeta mot att förebygga framtida hudproblem.</p>
-            <p class="p200 mt-m">Vi använder behandlingsmetoder som baseras på en grundlig förståelse för hudens särskilda krav och tillämpar avancerade tekniker och högkvalitativa produkter. Detta för att uppnå bästa möjliga resultat för våra kunder.</p>',
+            content: '<p class="p200">AcneSpecialisten har lång erfarenhet av att behandla melasma, med fokus på individuella lösningar baserade på din unika hudtyp och situation. Genom vetenskapligt förankrade metoder, avancerad teknik och högkvalitativa produkter arbetar vi för att minska synligheten av melasma och stärka din hudhälsa på lång sikt. Vårt mål är inte bara att ta itu med befintliga pigmentförändringar, utan också att förebygga framtida problem och hjälpa dig att återfå en jämnare, mer balanserad hudton.</p>',
       ),
 );
 
