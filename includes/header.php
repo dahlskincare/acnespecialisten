@@ -61,7 +61,7 @@
                 </div>
                 <div class="l10n" id="profile-text">Logga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
             </div>
-            <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline b200 expand l10n" title="Login">Till inloggning</a>
+            <a href="https://dahl-webshop.web.app/profil" target="_blank" class="button outline b200 expand l10n" title="Login">Till inloggning</a>
         </div>
     </nav>
 </div>
@@ -102,7 +102,7 @@
                         <div id="desktop-login-box">
                             <div id="dl-profile-icon"><?php icon('profile') ?></div>
                             <div class="l10n" id="dl-profile-text">Logga in för att se dina rekomendationer samt chatta med din personliga hudterapeut</div>
-                            <a href="https://dahlskincare.com/profile/start" target="_blank" class="button outline expand l10n" title="Login">Till inloggning</a>
+                            <a href="https://dahl-webshop.web.app/profil" target="_blank" class="button outline expand l10n" title="Login">Till inloggning</a>
                         </div>
 
                     </div>
