@@ -489,3 +489,63 @@
     }
 
 </script>
+
+<!-- Intercom -->
+<script>
+  window.intercomSettings = {
+    app_id: "p785iyzu"
+  };
+
+  (function() {
+    var w = window;
+    var ic = w.Intercom;
+
+    function initializeIntercom() {
+      if (typeof ic === "function") {
+        // Återanvänd Intercom om det redan är laddat
+        ic('reattach_activator');
+        ic('update', window.intercomSettings);
+      } else {
+        // Ladda Intercom-skriptet och initiera det
+        var d = document;
+        var i = function() {
+          i.c(arguments);
+        };
+        i.q = [];
+        i.c = function(args) {
+          i.q.push(args);
+        };
+        w.Intercom = i;
+
+        var s = d.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://widget.intercom.io/widget/p785iyzu";
+        var x = d.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
+
+        s.onload = function() {
+          if (typeof w.Intercom === "function") {
+            ic('boot', window.intercomSettings);
+          } else {
+            console.error("Intercom laddades, men är inte tillgängligt.");
+          }
+        };
+
+        s.onerror = function() {
+          console.error("Intercom-skriptet kunde inte laddas.");
+        };
+      }
+    }
+
+    // Kontrollera om Intercom redan har laddats
+    if (!sessionStorage.getItem('intercomLoaded')) {
+      // Lazy-load första gången
+      sessionStorage.setItem('intercomLoaded', true);
+      setTimeout(initializeIntercom, 5000); // Fördröjning på 5 sekunder
+    } else {
+      // Initiera Intercom direkt på följande sidor
+      initializeIntercom();
+    }
+  })();
+</script>
