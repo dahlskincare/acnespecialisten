@@ -467,7 +467,7 @@
                                     <picture class="is-hidden-tablet">
                                           <source media="(max-width: 799px)" srcset="bilder/start/about-mobile.webp">
                                           <source media="(min-width: 800px)" srcset="bilder/start/about-desktop.webp">
-                                          <img src="bilder/start/about-mobile.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="364" height="364" />
+                                          <img loading="lazy" src="bilder/start/about-mobile.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="364" height="364" />
                                     </picture>
                                     <div class="columns is-4 is-variable">
                                           <div class="column">
