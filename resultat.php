@@ -377,7 +377,7 @@ $results = [
             <section id="cards">
                 <?php foreach ($results as $result) { ?>
                     <div class="result-card">
-                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
+                        <img loading="lazy" src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
                         <div class="result-card-content"><?php echo $result->content ?></div>
                     </div>
                 <?php } ?>
