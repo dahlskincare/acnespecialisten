@@ -1,0 +1,15 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "sass: build",
+            "type": "shell",
+            "command": "find . -type f -not -path \"./node_modules/*\" -not -name \"_*.scss\" -name \"*.scss\" -exec sh -c 'sass --style compressed --no-source-map --quiet --no-stop-on-error \"$1\" \"${1%.scss}.css\"' _ {} \\;",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            }
+        }
+    ]
+}
