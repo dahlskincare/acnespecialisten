@@ -12,7 +12,7 @@ $green_banner_content = new GreenBannerContent(
 $header_brands = array(
       new Brand(
             label: 'Alma Hybrid',
-            image: 'bilder/logotyper/alma-hybrid.webp',
+            image: 'bilder/logotyper/alma-hybrid.svg',
             image_alt: 'Alma Hybrid logotyp',
             image_title: 'Alma Hybrid CO2',
             url: 'alma-hybrid-co2-laser.php',
@@ -210,7 +210,7 @@ $link_brands = array(
 $brand_cards = array(
       new Brand(
             label: 'Alma Hybrid CO2',
-            image: 'bilder/logotyper/alma-hybrid.webp',
+            image: 'bilder/logotyper/alma-hybrid.svg',
             image_alt: 'Alma Hybrid CO2 logotyp',
             image_title: 'Alma Hybrid CO2',
             photo: 'bilder/varumarken/424x324/alma-hybrid-co2.webp',
