@@ -1545,7 +1545,7 @@ $specialists = array(
                                           <div class="problem-area-card" id="card-<?php echo $id ?>">
                                                 <a href="<?php echo $problem->url ?>" title="<?php echo $problem->url_title ?>">
                                                       <div class="picture">
-                                                            <img src="<?php echo $problem->image ?>" alt="<?php echo $problem->image_alt ?>" title="<?php echo $problem->image_title ?>" width="424" height="324" />
+                                                            <img loading="lazy" src="<?php echo $problem->image ?>" alt="<?php echo $problem->image_alt ?>" title="<?php echo $problem->image_title ?>" width="424" height="324" />
                                                       </div>
                                                 </a>
                                                 <div class="problem-area-card-content">

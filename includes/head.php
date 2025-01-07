@@ -35,66 +35,44 @@
 </script>
 
 <script>
-  function isCrawler() {
-    const crawlers = [
-      /bot/i,
-      /crawl/i,
-      /slurp/i,
-      /spider/i,
-      /mediapartners/i,
-      /adsbot/i,
-      /googlebot/i,
-      /bingbot/i,
-      /yandexbot/i,
-      /duckduckbot/i,
-      /baiduspider/i,
-      /facebot/i,
-      /ia_archiver/i
-    ];
+  document.onreadystatechange = function() {
+    if (document.readyState === "complete") {
+      if (sessionStorage.getItem('intercomLoaded') && typeof window.Intercom === "function") {
+        window.Intercom('reattach_activator');
+        window.Intercom('update', window.intercomSettings);
+      } else {
+        window.intercomSettings = {
+          app_id: "p785iyzu"
+        };
+        var i = function() {
+          i.c(arguments);
+        };
+        i.q = [];
+        i.c = function(args) {
+          i.q.push(args);
+        };
+        window.Intercom = i;
 
-    return crawlers.some(crawler => crawler.test(navigator.userAgent));
-  }
+        var s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://widget.intercom.io/widget/p785iyzu";
+        var x = document.getElementsByTagName("script")[0];
+        x.parentNode.insertBefore(s, x);
 
-  if (!isCrawler()) {
-    document.onreadystatechange = function() {
-      if (document.readyState === "complete") {
-        if (sessionStorage.getItem('intercomLoaded') && typeof window.Intercom === "function") {
-          window.Intercom('reattach_activator');
-          window.Intercom('update', window.intercomSettings);
-        } else {
-          window.intercomSettings = {
-            app_id: "p785iyzu"
-          };
-          var i = function() {
-            i.c(arguments);
-          };
-          i.q = [];
-          i.c = function(args) {
-            i.q.push(args);
-          };
-          window.Intercom = i;
+        s.onload = function() {
+          if (typeof window.Intercom === "function") {
+            window.Intercom('boot', window.intercomSettings);
+          } else {
+            console.error("Intercom laddades, men är inte tillgängligt.");
+          }
+        };
 
-          var s = document.createElement("script");
-          s.type = "text/javascript";
-          s.async = true;
-          s.src = "https://widget.intercom.io/widget/p785iyzu";
-          var x = document.getElementsByTagName("script")[0];
-          x.parentNode.insertBefore(s, x);
+        s.onerror = function() {
+          console.error("Intercom-skriptet kunde inte laddas.");
+        };
 
-          s.onload = function() {
-            if (typeof window.Intercom === "function") {
-              window.Intercom('boot', window.intercomSettings);
-            } else {
-              console.error("Intercom laddades, men är inte tillgängligt.");
-            }
-          };
-
-          s.onerror = function() {
-            console.error("Intercom-skriptet kunde inte laddas.");
-          };
-
-          sessionStorage.setItem('intercomLoaded', true);
-        }
+        sessionStorage.setItem('intercomLoaded', true);
       }
     }
   }
