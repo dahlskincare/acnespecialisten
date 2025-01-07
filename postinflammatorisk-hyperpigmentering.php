@@ -8,15 +8,15 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 $seo_title = 'Postinflammatorisk Hyperpigmentering | AcneSpecialisten';
 $seo_description = 'Ta bort postinflammatorisk hyperpigmentering, vi hjälper dig med rätt behandling för hyperpigmentering! Boka tid för en gratis hudkonsultation →';
 $seo_keywords = 'post akne, fläckar i ansiktet efter finnar, postinflammatorisk hyperpigmentering, hyperpigmentering behandling';
-$seo_image = 'bilder/hudproblem/424x456/aknearr.webp';
+$seo_image = 'bilder/hudproblem/424x456/postinflammatorisk-hyperpigmentering.webp';
 
 $path_segments = array(
       new PathSegment('Hudproblem', '/hudproblem/'),
       new PathSegment('Postinflammatorisk Hyperpigmentering', '/postinflammatorisk-hyperpigmentering.php'),
 );
 
-$image_small = 'bilder/hudproblem/358x274/aknearr.webp';
-$image_large = 'bilder/hudproblem/424x456/aknearr.webp';
+$image_small = 'bilder/hudproblem/358x274/postinflammatorisk-hyperpigmentering.webp';
+$image_large = 'bilder/hudproblem/424x456/postinflammatorisk-hyperpigmentering.webp';
 $image_title = 'Exempel på postinflammatorisk hyperpigmentering';
 $image_alt = 'Bild som visar effekterna av postinflammatorisk hyperpigmentering på huden';
 
