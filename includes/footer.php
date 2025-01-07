@@ -13,7 +13,7 @@
         <div class="container">
             <div id="footer-brands">
                 <a href="https://www.klarna.se" target="_blank">
-                    <img loading="lazy" src="images/brands/brand-icon-klarna.svg" alt="Klarna" title="Klarna" width="40" height="40" />
+                    <img loading="lazy" src="bilder/logotyper/brand-icon-klarna.webp" alt="Klarna" title="Klarna" width="40" height="40" />
                 </a>
                 <a href="https://www.americanexpress.com/sv-se/" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-amex.svg" alt="Amex" title="Amex" width="40" height="40" />
