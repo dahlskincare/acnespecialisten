@@ -478,7 +478,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                     <picture>
                         <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
                         <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                        <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
+                        <img loading="lazy" src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
                     </picture>
                     <div class="mt-xl"><?php echo $repair_content ?></div>
                     <a href="<?php echo $repair_url ?>" title="<?php echo $repair_url_title ?>" class="mt-xl button outline b200 expand is-hidden-tablet l10n"><?php echo $repair_url_label ?></a>

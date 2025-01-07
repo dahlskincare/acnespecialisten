@@ -40,7 +40,7 @@ $path_segments = [
                     <picture>
                         <source media="(max-width: 799px)" srcset="/bilder/studentrabatt/mobile/banner.webp">
                         <source media="(min-width: 800px)" srcset="/bilder/studentrabatt/desktop/banner.webp">
-                        <img src="/bilder/studentrabatt/mobile/banner.webp" alt="Studentrabatt" title="Studentrabatt" width="360" height="274" />
+                        <img loading="lazy" src="/bilder/studentrabatt/mobile/banner.webp" alt="Studentrabatt" title="Studentrabatt" width="360" height="274" />
                     </picture>
                 </section>
                 <section id="flyers">
@@ -49,7 +49,7 @@ $path_segments = [
                         <picture>
                             <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/mobile/slide-1.webp">
                             <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/desktop/slide-1.webp">
-                            <img src="/bilder/studentrabatt/mobile/slide-1.webp" alt="Alla våra hudvårdsbehandlingar" title="Alla våra hudvårdsbehandlingar" width="358" height="272" />
+                            <img loading="lazy" src="/bilder/studentrabatt/mobile/slide-1.webp" alt="Alla våra hudvårdsbehandlingar" title="Alla våra hudvårdsbehandlingar" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Alla våra ansiktsbehandlingar</div>
@@ -65,7 +65,7 @@ $path_segments = [
                         <picture>
                             <source media="(max-width: 1023px)" srcset="/bilder/studentrabatt/mobile/slide-2.webp">
                             <source media="(min-width: 1024px)" srcset="/bilder/studentrabatt/desktop/slide-2.webp">
-                            <img src="/bilder/studentrabatt/mobile/slide-2.webp" alt="Alla Våra Kliniker" title="Alla våra kliniker" width="358" height="272" />
+                            <img loading="lazy" src="/bilder/studentrabatt/mobile/slide-2.webp" alt="Alla Våra Kliniker" title="Alla våra kliniker" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Alla våra kliniker</div>

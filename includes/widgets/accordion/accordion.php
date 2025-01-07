@@ -9,7 +9,7 @@
                     <a href="<?php echo $accordion[$i]->url; ?>" title="<?php echo $accordion[$i]->url_title ?>">
                         <div class="accordion-card">
                             <div class="image">
-                                <img src="<?php echo $accordion[$i]->image_small; ?>" width="114" height="140" alt="<?php echo $accordion[$i]->image_alt ?>" title="<?php echo $accordion[$i]->image_title ?>">
+                                <img loading="lazy" src="<?php echo $accordion[$i]->image_small; ?>" width="114" height="140" alt="<?php echo $accordion[$i]->image_alt ?>" title="<?php echo $accordion[$i]->image_title ?>">
                             </div>
                             <div class="bottom">
                                 <button class="text compact black l10n">

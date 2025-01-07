@@ -90,7 +90,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-desktop">
                         <div class="service-banner-touch">
                             <div class="banner-info">
-                                <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Laser mot hudproblem" title="Laser mot hudproblem" />
+                                <img loading="lazy" src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Laser mot hudproblem" title="Laser mot hudproblem" />
                                 <div>
                                     <h4>IPL mot acne</h4>
                                     <p>30 min<span class="dot"></span>Från 2595 kr</p>
@@ -110,7 +110,7 @@ $article = new SkinGuideArticle(
                     <div class="mt-xl3 is-hidden-touch">
                         <div class="service-banner-desktop">
                             <div>
-                                <img src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Consultation" title="Consultation" />
+                                <img loading="lazy" src="/bilder/hudbehandlingar/200x200/laser-mot-hudproblem.webp" width="200" height="200" alt="Consultation" title="Consultation" />
                             </div>
                             <div class="banner-info">
                                 <h4>IPL mot acne</h4>

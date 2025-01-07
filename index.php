@@ -519,7 +519,7 @@
                               <picture>
                                     <source media="(max-width: 799px)" srcset="bilder/start/about-mobile.webp">
                                     <source media="(min-width: 800px)" srcset="bilder/start/about-desktop.webp">
-                                    <img src="bilder/start/about-desktop.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="632" height="632" />
+                                    <img loading="lazy" src="bilder/start/about-desktop.webp" alt="Vit logotype i en grön växtvägg på kliniken." title="AcneSpecialisten och Sveriges Skönhetscenter" width="632" height="632" />
                               </picture>
                         </div>
                   </section>

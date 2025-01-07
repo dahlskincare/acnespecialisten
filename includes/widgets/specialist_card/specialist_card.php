@@ -1,5 +1,5 @@
 <div class="specialist-card-widget">
-    <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="358" height="358" />
+    <img loading="lazy" src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->name ?>" title="<?php echo $specialist->name ?>" width="358" height="358" />
     <div class="specialist-card-content">
         <div class="specialist-card-title">
             <div>

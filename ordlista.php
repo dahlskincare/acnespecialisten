@@ -154,7 +154,7 @@ $glossary_items = array(
                                         <picture>
                                             <source media="(max-width: 799px)" srcset="<?php echo $item->image_small ?>">
                                             <source media="(min-width: 800px)" srcset="<?php echo $item->image_large ?>">
-                                            <img src="<?php echo $item->image_large ?>" alt="<?php echo $item->title ?>" title="<?php echo $item->title ?>" width="102" height="102" />
+                                            <img loading="lazy" src="<?php echo $item->image_large ?>" alt="<?php echo $item->title ?>" title="<?php echo $item->title ?>" width="102" height="102" />
                                         </picture>
 
                                     <?php } ?>

@@ -542,7 +542,7 @@ $all_brands = array(
                                     <picture>
                                         <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
                                         <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                        <img class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                        <img loading="lazy" class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
                                     </picture>
                                 <?php }
                                 if (isset($treatment_area->title)) { ?>

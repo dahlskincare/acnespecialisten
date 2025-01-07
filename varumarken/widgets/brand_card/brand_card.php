@@ -1,12 +1,12 @@
 <div class="brand-card-widget">
   <a href="<?php echo $brand->url ?>" class="l10n" title="<?php echo $brand->url_title ?>">
-    <img class="bc-img-background" src="<?php echo $brand->photo ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="424" height="324">
+    <img loading="lazy" class="bc-img-background" src="<?php echo $brand->photo ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="424" height="324">
   </a>
   <div class="bc-content">
     <div>
       <div class="flex-row justify-end">
         <a class="overlay" href="<?php echo $brand->url ?>" class="l10n" title="<?php echo $brand->url_title ?>">
-          <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>">
+          <img loading="lazy" src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>">
         </a>
       </div>
       <div class="subtitle"><?php echo $brand->subtitle ?></div>

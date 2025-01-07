@@ -106,7 +106,7 @@ $path_segments = [
                         <picture>
                             <source media="(max-width: 1023px)" srcset="/bilder/presentkort/mobile/slide-1.webp">
                             <source media="(min-width: 1024px)" srcset="/bilder/presentkort/desktop/slide-1.webp">
-                            <img src="/bilder/presentkort/mobile/slide-1.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
+                            <img loading="lazy" src="/bilder/presentkort/mobile/slide-1.webp" alt="Välj Belopp eller Behandling" title="Välj Belopp eller Behandling" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Välj belopp eller behandling</div>
@@ -122,7 +122,7 @@ $path_segments = [
                         <picture>
                             <source media="(max-width: 1023px)" srcset="/bilder/presentkort/mobile/slide-2.webp">
                             <source media="(min-width: 1024px)" srcset="/bilder/presentkort/desktop/slide-2.webp">
-                            <img src="/bilder/presentkort/mobile/slide-2.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på alla våra kliniker" width="358" height="272" />
+                            <img loading="lazy" src="/bilder/presentkort/mobile/slide-2.webp" alt="Fungerar på Alla Våra Kliniker" title="Fungerar på alla våra kliniker" width="358" height="272" />
                         </picture>
                         <div>
                             <div class="gcf-header is-hidden-touch l10n">Fungerar på alla våra kliniker</div>

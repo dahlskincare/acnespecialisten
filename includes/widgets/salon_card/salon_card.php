@@ -4,7 +4,7 @@
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $salon->image_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $salon->image_large ?>">
-            <img src="<?php echo $salon->image_small ?>" alt="<?php echo $salon->title ?>" title="<?php echo $salon->title ?>" width="358" height="272" />
+            <img loading="lazy" src="<?php echo $salon->image_small ?>" alt="<?php echo $salon->title ?>" title="<?php echo $salon->title ?>" width="358" height="272" />
         </picture>
         <div class="salon-info">
             <div class="h500 is-hidden-touch"><?php echo $salon->title ?></div>

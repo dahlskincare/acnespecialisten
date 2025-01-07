@@ -196,14 +196,14 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                 <picture>
                     <source media="(max-width: 449px)" srcset="<?php echo $concept_image_small ?>">
                     <source media="(min-width: 450px)" srcset="<?php echo $concept_image_large ?>">
-                    <img src="<?php echo $concept_image_small ?>" alt="<?php echo $concept_image_alt ?>" width="358" height="272" title="<?php echo $concept_image_title ?>" />
+                    <img loading="lazy" src="<?php echo $concept_image_small ?>" alt="<?php echo $concept_image_alt ?>" width="358" height="272" title="<?php echo $concept_image_title ?>" />
                 </picture>
                 <div id="concept-content"><?php echo $concept_text ?></div>
                 <div id="clinic-flags">
                     <?php foreach ($clinics as $clinic) { ?>
                         <div class="clinic-flag">
                             <div class="clinic-header">
-                                <img src="<?php echo $clinic->logo_url ?>" alt="<?php echo $clinic->logo_alt ?>" title="<?php echo $clinic->logo_title ?>" />
+                                <img loading="lazy" src="<?php echo $clinic->logo_url ?>" alt="<?php echo $clinic->logo_alt ?>" title="<?php echo $clinic->logo_title ?>" />
                             </div>
                             <h3><?php echo $clinic->headline ?></h3>
                             <div class="clinic-content"><?php echo $clinic->content ?></div>
@@ -228,7 +228,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $banner_image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $banner_image_large ?>">
-                        <img src="<?php echo $banner_image_small ?>" alt="<?php echo $banner_image_alt ?>" width="358" height="272" title="<?php echo $banner_image_title ?>" />
+                        <img loading="lazy" src="<?php echo $banner_image_small ?>" alt="<?php echo $banner_image_alt ?>" width="358" height="272" title="<?php echo $banner_image_title ?>" />
                     </picture>
                 </div>
                 <div id="banner-content">

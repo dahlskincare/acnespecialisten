@@ -111,7 +111,7 @@ if (!isset($reviews)) {
         <?php foreach ($review_platforms as $platform) { ?>
             <div class="rev-platform-card">
                 <div class="rpc-image">
-                    <img src="<?php echo $platform->logo_url ?>" alt="<?php echo $platform->logo_url ?>" width="100" height="28" />
+                    <img loading="lazy" src="<?php echo $platform->logo_url ?>" alt="<?php echo $platform->logo_url ?>" width="100" height="28" />
                 </div>
                 <div class="rpc-stars">
                     <?php
@@ -181,7 +181,7 @@ if (!isset($reviews)) {
                     <p><?php echo $review->text ?></p>
                 </div>
                 <div class="rbt-bottom">
-                    <img src="<?php echo $review->logo_url ?>" alt="<?php echo $review->brand ?>" title="<?php echo $review->brand ?>" width="100" height="24" />
+                    <img loading="lazy" src="<?php echo $review->logo_url ?>" alt="<?php echo $review->brand ?>" title="<?php echo $review->brand ?>" width="100" height="24" />
                 </div>
             </div>
             <div class="rbd is-hidden-touch">
@@ -210,7 +210,7 @@ if (!isset($reviews)) {
                     <p><?php echo $review->text ?></p>
                 </div>
                 <div class="rbd-right">
-                    <img src="<?php echo $review->logo_url ?>" alt="<?php echo $review->brand ?>" title="<?php echo $review->brand ?>" width="100" height="24" />
+                    <img loading="lazy" src="<?php echo $review->logo_url ?>" alt="<?php echo $review->brand ?>" title="<?php echo $review->brand ?>" width="100" height="24" />
                 </div>
             </div>
         <?php } ?>

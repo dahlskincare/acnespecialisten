@@ -53,12 +53,12 @@ $path_segments = [
                                 <picture>
                                     <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-1-1.webp">
                                     <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-1.webp">
-                                    <img src="bilder/om-oss/mobile/slide-1-1.webp" alt="Estetisk maskinbehandling" title="Maskinbehandling" width="114" height="214" />
+                                    <img loading="lazy" src="bilder/om-oss/mobile/slide-1-1.webp" alt="Estetisk maskinbehandling" title="Maskinbehandling" width="114" height="214" />
                                 </picture>
                                 <picture>
                                     <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-1-2.webp">
                                     <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-2.webp">
-                                    <img src="bilder/om-oss/mobile/slide-1-2.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
+                                    <img loading="lazy" src="bilder/om-oss/mobile/slide-1-2.webp" alt="Kvinna som får estetisk maskinbehandling i ansiktet" title="Maskinbehandling" width="114" height="157" />
                                 </picture>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ $path_segments = [
                             <picture>
                                 <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-1-3.webp">
                                 <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-1-3.webp">
-                                <img src="bilder/om-oss/mobile/slide-1-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling" title="Maskinbehandling" width="114" height="272" />
+                                <img loading="lazy" src="bilder/om-oss/mobile/slide-1-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling" title="Maskinbehandling" width="114" height="272" />
                             </picture>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ $path_segments = [
                     <picture>
                         <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-2.webp">
                         <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-2.webp">
-                        <img src="bilder/om-oss/mobile/slide-2.webp" alt="Kvinna som får estetisk maskinbehandling" title="Från start till mål" width="358" height="274" />
+                        <img loading="lazy" src="bilder/om-oss/mobile/slide-2.webp" alt="Kvinna som får estetisk maskinbehandling" title="Från start till mål" width="358" height="274" />
                     </picture>
                     <p class="p200 mt-xl l10n is-hidden-tablet">På AcneSpecialisten erbjuder vi en omfattande lösning för dina hudproblem, från start till mål. Vår process inleds med en kostnadsfri konsultation, där du tilldelas en personlig hudterapeut (PT) som guidar dig genom hela din hudvårdsresa. Vi dokumenterar din framgång med förebilder och fortsätter att noggrant följa upp din utveckling genom kostnadsfria återbesök. Vid dessa tillfällen fotograferar vi din hud för att tydligt kunna jämföra framstegen, säkerställande att vi uppnår önskat slutresultat.</p>
                 </section>
@@ -120,7 +120,7 @@ $path_segments = [
                             <picture>
                                 <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-3.webp">
                                 <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-3.webp">
-                                <img src="bilder/om-oss/mobile/slide-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling i ansiktet på en man" title="Estetisk maskinbehandling" width="358" height="272" />
+                                <img loading="lazy" src="bilder/om-oss/mobile/slide-3.webp" alt="Hudterapeut som utför estetisk maskinbehandling i ansiktet på en man" title="Estetisk maskinbehandling" width="358" height="272" />
                             </picture>
                         </div>
                         <div class="is-hidden-touch">
@@ -147,7 +147,7 @@ $path_segments = [
                             <picture>
                                 <source media="(max-width: 799px)" srcset="bilder/om-oss/mobile/slide-4.webp">
                                 <source media="(min-width: 800px)" srcset="bilder/om-oss/desktop/slide-4.webp">
-                                <img src="bilder/om-oss/mobile/slide-4.webp" alt="Method" title="Method" width="358" height="272" />
+                                <img loading="lazy" src="bilder/om-oss/mobile/slide-4.webp" alt="Method" title="Method" width="358" height="272" />
                             </picture>
                         </div>
                     </div>

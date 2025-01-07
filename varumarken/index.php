@@ -497,7 +497,7 @@ $path_segments = array(
                                           <?php
                                           foreach ($header_brands as $brand) { ?>
                                                 <a href="<?php echo $brand->url ?>">
-                                                      <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->title ?>" title="<?php echo $brand->title ?>" width="94" height="34" class="brand" />
+                                                      <img loading="lazy" src="<?php echo $brand->image ?>" alt="<?php echo $brand->title ?>" title="<?php echo $brand->title ?>" width="94" height="34" class="brand" />
                                                 </a>
                                           <?php } ?>
                                     </div>

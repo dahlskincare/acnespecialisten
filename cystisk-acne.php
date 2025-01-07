@@ -618,7 +618,7 @@ $brands_url_title = "Se alla varumärken";
                               <picture>
                                     <source media="(max-width: 449px)" srcset="<?php echo $image_small ?>">
                                     <source media="(min-width: 450px)" srcset="<?php echo $image_large ?>">
-                                    <img src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
+                                    <img loading="lazy" src="<?php echo $image_large ?>" alt="<?php echo $image_alt ?>" title="<?php echo $image_title ?>" width="358" height="274" />
                               </picture>
                         </section>
                         <section id="about">

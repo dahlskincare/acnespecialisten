@@ -38,7 +38,7 @@ if (!isset($specialists)) {
     <div class="specialists-small is-hidden-tablet">
         <?php foreach ($specialists as $specialist) { ?>
             <div class="specialist">
-                <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="240" height="240" />
+                <img loading="lazy" src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="240" height="240" />
                 <h3>
                     <?php echo $specialist->name ?>
                 </h3>
@@ -52,7 +52,7 @@ if (!isset($specialists)) {
         <?php foreach ($specialists as $specialist) { ?>
             <div class="column is-one-third">
                 <div class="specialist">
-                    <img src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="312" height="312" />
+                    <img loading="lazy" src="<?php echo $specialist->image ?>" alt="<?php echo $specialist->image_alt ?>" title="<?php echo $specialist->image_title ?>" width="312" height="312" />
                     <h3>
                         <?php echo $specialist->name ?>
                     </h3>

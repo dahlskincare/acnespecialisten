@@ -8,7 +8,7 @@
             <source media="(min-width: 200px, max-width: 349px)" srcset="<?php echo $article->image_small ?>">
             <source media="(min-width: 350px, max-width: 1279px)" srcset="<?php echo $article->image_large ?>">
             <source media="(min-width: 1280px)" srcset="<?php echo $article->image_large ?>">
-            <img src="<?php echo $article->image_large ?>" alt="<?php echo $article->image_alt ?>" title="<?php echo $article->image_title ?>" width="872" height="456" />
+            <img loading="lazy" src="<?php echo $article->image_large ?>" alt="<?php echo $article->image_alt ?>" title="<?php echo $article->image_title ?>" width="872" height="456" />
         </picture>
     <?php } ?>
     <?php

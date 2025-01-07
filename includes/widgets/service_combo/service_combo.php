@@ -4,7 +4,7 @@
             <picture>
                 <source media="(max-width: 799px)" srcset="<?php echo $combo->image_small ?>">
                 <source media="(min-width: 800px)" srcset="<?php echo $combo->image_large ?>">
-                <img src="<?php echo $combo->image_large ?>" alt="Combo image" title="Combo image" width="72" height="72" />
+                <img loading="lazy" src="<?php echo $combo->image_large ?>" alt="Combo image" title="Combo image" width="72" height="72" />
             </picture>
             <div>
                 <div class="h200"><?php echo $combo->name ?></div>
@@ -28,7 +28,7 @@
         <picture>
             <source media="(max-width: 799px)" srcset="<?php echo $combo->image_small ?>">
             <source media="(min-width: 800px)" srcset="<?php echo $combo->image_large ?>">
-            <img src="<?php echo $combo->image_large ?>" alt="<?php echo $combo->image_alt ?>" title="<?php echo $combo->image_title ?>" width="92" height="92" />
+            <img loading="lazy" src="<?php echo $combo->image_large ?>" alt="<?php echo $combo->image_alt ?>" title="<?php echo $combo->image_title ?>" width="92" height="92" />
         </picture>
         <div class="service-combo-content">
             <div class="service-combo-info">

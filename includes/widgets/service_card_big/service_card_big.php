@@ -6,7 +6,7 @@
                     <picture>
                         <source media="(max-width: 799px)" srcset="<?php echo $scm->image_small ?>">
                         <source media="(min-width: 800px)" srcset="<?php echo $scm->image_large ?>">
-                        <img src="<?php echo $scm->image_small ?>" alt="<?php echo $scm->image_alt ?>" title="<?php echo $scm->image_title ?>" width="102" height="102" />
+                        <img loading="lazy" src="<?php echo $scm->image_small ?>" alt="<?php echo $scm->image_alt ?>" title="<?php echo $scm->image_title ?>" width="102" height="102" />
                     </picture>
                 <?php } ?>
             </div>
@@ -89,7 +89,7 @@
                     <picture>
                         <source media="(max-width: 799px)" srcset="<?php echo $scm->image_small ?>">
                         <source media="(min-width: 800px)" srcset="<?php echo $scm->image_large ?>">
-                        <img src="<?php echo $scm->image_small ?>" alt="<?php echo $scm->image_alt ?>" title="<?php echo $scm->image_title ?>" width="102" height="102" />
+                        <img loading="lazy" src="<?php echo $scm->image_small ?>" alt="<?php echo $scm->image_alt ?>" title="<?php echo $scm->image_title ?>" width="102" height="102" />
                     </picture>
                 <?php } ?>
             </div>

@@ -679,7 +679,7 @@ $brands_url_title = "Varumärken för behandling av finnar";
                 </section>
                 <section id="define">
                     <h2 class="h500 l10n"><?php echo $headline01; ?></h2>
-                    <img class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
+                    <img loading="lazy" class="mt-xl step-image" src="<?php echo $define_image ?>" alt="<?php echo $define_image_alt ?>" title="<?php echo $define_image_title ?>" width="872" height="456" />
                     <div class="mt-xl"><?php echo $define_content ?></div>
                     <a href="<?php echo $define_consultation_link ?>" title="<?php echo $define_consultation_link_title ?>" class="mt-xl button b200 l10n"><?php echo $define_consultation_link_label ?></a>
                 </section>
@@ -706,7 +706,7 @@ $brands_url_title = "Varumärken för behandling av finnar";
                         <picture class="mb-xl">
                             <source media="(max-width: 799px)" srcset="<?php echo $repair_image_small ?>">
                             <source media="(min-width: 800px)" srcset="<?php echo $repair_image_large ?>">
-                            <img src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
+                            <img loading="lazy" src="<?php echo $repair_image_large ?>" alt="<?php echo $repair_title ?>" title="<?php echo $repair_title ?>" class=" mt-xl" width="872" height="456" />
                         </picture>
                     <?php } ?>
                     <div><?php echo $repair_content ?></div>

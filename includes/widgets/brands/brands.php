@@ -137,7 +137,7 @@ if (!isset($brands)) {
       <div class="flex-container">
             <?php foreach ($brands as $brand) { ?>
                   <a href="<?php echo $brand->url ?>" title="<?php echo $brand->url_title ?>" class="flex-item">
-                        <img src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="116" height="30" />
+                        <img loading="lazy" src="<?php echo $brand->image ?>" alt="<?php echo $brand->image_alt ?>" title="<?php echo $brand->image_title ?>" width="116" height="30" />
                   </a>
             <?php } ?>
       </div>
