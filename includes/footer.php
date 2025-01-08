@@ -459,7 +459,7 @@
 
 <script>
     window.addEventListener('load', function() {
-        /*
+
         if (sessionStorage.getItem('intercomLoaded') && typeof window.Intercom === "function") {
             window.Intercom('reattach_activator');
             window.Intercom('update', window.intercomSettings);
@@ -492,7 +492,7 @@
                 console.error("Intercom-skriptet kunde inte laddas.");
             };
             sessionStorage.setItem('intercomLoaded', true);
-        }*/
+        }
 
         // Copy gclid url param to all booking links
         var urlParams = new URLSearchParams(window.location.search);
