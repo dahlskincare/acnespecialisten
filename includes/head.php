@@ -1,6 +1,18 @@
 <link rel="preconnect" href="https://www.google.com">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7EMC778CH1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
 
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'G-7EMC778CH1');
+  gtag('config', 'AW-1033282580');
+</script>
 
 
 
