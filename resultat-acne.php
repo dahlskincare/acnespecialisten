@@ -26,28 +26,28 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/large/hudterapeut-cazzandra.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
         image_alt: 'Cazzandra Lindberg',
         image_title: 'Cazzandra Lindberg',
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/large/hudterapeut-veronika.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik',
         image_title: 'Veronika Benedik'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/large/hudterapeut-amira.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
         image_alt: 'Amira Maqboul',
         image_title: 'Amira Maqboul'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/large/hudterapeut-vilma.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-vilma.webp',
         image_alt: 'Vilma Libom',
         image_title: 'Vilma Libom'
     )
