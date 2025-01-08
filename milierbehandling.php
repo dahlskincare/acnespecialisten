@@ -123,10 +123,10 @@ $results = array(
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
         url_title: 'Akne resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
@@ -157,10 +157,10 @@ $results = array(
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
         url_title: 'Rosacea resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
@@ -233,28 +233,28 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
         image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av milier',
         image_title: 'Cazzandra Lindberg - Expert på behandling av milier'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på milier',
         image_title: 'Veronika Benedik - Specialist inom vård av milier'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
         image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandling av milier',
         image_title: 'Amira Maqboul - Hudterapeut specialiserad på milier'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-vilma.webp',
         image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av milier',
         image_title: 'Vilma Libom - Expert inom behandling av milier'
     )
