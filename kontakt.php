@@ -58,6 +58,9 @@ $salons = array(
     <meta name="title" content="Kontakta AcneSpecialisten på Södermalm, Östermalm och Sundbyberg" class="l10n">
     <meta name="description" content="Här hittar du öppettider, kontaktinformation och adress till våra hudvårdssalonger på Södermalm, Östermalm och i Sundbyberg." class="l10n">
     <meta name="keywords" content="kontakt acnespecialisten, hudvårdssalong, hudvårdssalong stockholm" class="l10n">
+    <link rel="stylesheet" href="/styles/default-layout.css">
+    <link rel="stylesheet" href="/styles/forms.css">
+    <link rel="stylesheet" href="/kontakt/contact.css">
 
     <?php
     include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php');
