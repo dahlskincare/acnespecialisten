@@ -11,6 +11,106 @@ $path_segments = [
 <html lang="<?php echo $lang ?>">
 
 <head>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        div#content {
+            margin: 0 auto;
+            max-width: 872px;
+        }
+
+        div#content section#title {
+            margin-top: 24px;
+        }
+
+        div#content section#title h1 {
+            font-family: "DM Serif Text", serif;
+            font-size: 40px;
+            line-height: 48px;
+            letter-spacing: -0.02em;
+            font-weight: 400;
+        }
+
+        @media screen and (min-width: 1024px) {
+            div#content section#title h1 {
+                font-family: "DM Serif Text", serif;
+                font-size: 56px;
+                line-height: 64px;
+                letter-spacing: -0.02em;
+                font-weight: 400;
+            }
+        }
+
+        div#content section#title p {
+            font-family: "Inter", sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.02em;
+            font-weight: 400;
+            margin-top: 8px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            div#content section#title p {
+                font-family: "Inter", sans-serif;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+                font-weight: 400;
+            }
+        }
+
+        div#content section#title .button {
+            margin-top: 24px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            div#content section#title {
+                margin-top: 56px;
+            }
+
+            div#content section#title p {
+                margin-top: 12px;
+            }
+
+            div#content section#title .button {
+                width: auto;
+            }
+        }
+
+        div#content section#image {
+            margin-top: 24px;
+            font-size: 0;
+        }
+
+        div#content section#image img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            div#content section#image {
+                margin-top: 40px;
+            }
+        }
+    </style>
+    <link rel="preload" href="/styles/default-layout.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/styles/default-layout.css">
+    </noscript>
+
+    <link rel="preload" href="/styles/forms.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/styles/forms.css">
+    </noscript>
+
+    <link rel="preload" href="/presentkort/gift-cards.css" as="style" onload="this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/styles/gift-cards.css">
+    </noscript>
 
     <link rel="canonical" href="https://www.acnespecialisten.se/presentkort.php" />
 
@@ -20,9 +120,7 @@ $path_segments = [
     <meta name="keywords" content="presentkort, presentkort hudvård, digitalt presentkort, skicka digitalt presentkort, presentkort online, skicka presentkort online" class="l10n">
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>
 
-    <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/styles/forms.css">
-    <link rel="stylesheet" href="/presentkort/gift-cards.css">
+
 </head>
 
 <body>
