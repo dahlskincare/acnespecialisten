@@ -21,6 +21,8 @@
 
       <link rel="preload" as="image" href="/bilder/start/banner-desktop.webp" media="(min-width: 984px)">
       <link rel="preload" as="image" href="/bilder/start/banner-mobile.webp" media="(max-width: 983px)">
+      <link rel="preload" as="video" href="/videos/banner-square.webm" type="video/webm" media="(max-width: 799px)">
+      <link rel="preload" as="video" href="/videos/banner.webm" type="video/webm" media="(min-width: 800px)">
       <link rel="stylesheet" href="/styles/default-layout.css">
       <link rel="stylesheet" href="/index.css">
       <?php
