@@ -23,6 +23,13 @@ function icon($name)
 
 <!-- Preload important resources -->
 <link rel="preload" as="image" href="images/logo-green.svg">
+<link rel="preload" href="/fonts/DMSerifText-Latin.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/DMSerifText-LatinExt.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Inter-LatinExt-Normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Inter-Latin-Normal.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Inter-LatinExt-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Inter-Latin-SemiBold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
 <link rel="stylesheet" href="/includes/widgets/widgets.css" />
 
 <?php
