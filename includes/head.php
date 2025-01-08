@@ -1,7 +1,7 @@
 <link rel="preconnect" href="https://www.google.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
 
 <!-- Google Tag Manager -->
-<!--
 <script>
   (function(w, d, s, l, i) {
     w[l] = w[l] || [];
@@ -18,7 +18,7 @@
     f.parentNode.insertBefore(j, f);
   })(window, document, 'script', 'dataLayer', 'GTM-PFRBPG9K');
 </script>
--->
+
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
