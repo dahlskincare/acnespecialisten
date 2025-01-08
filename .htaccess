@@ -368,7 +368,13 @@ ErrorDocument 404 /not-found.php
 # Set cache control header
 # 24 hours
 <IfModule mod_headers.c>
-    <FilesMatch "\.(php|pdf|webp|jpg|jpeg|png|svg|js|css|mp4|webm)$">
+    <FilesMatch "\.(php)$">
         Header set Cache-Control "max-age=86400, public"
+    </FilesMatch>
+    <FilesMatch "\.(woff2|woff|ttf|otf)$">
+        Header set Cache-Control "max-age=2592000, public"
+    </FilesMatch>
+    <FilesMatch "\.(css|js|webp|jpg|jpeg|png|svg|mp4|webm|pdf)$">
+        Header set Cache-Control "max-age=2592000, public"
     </FilesMatch>
 </IfModule>
