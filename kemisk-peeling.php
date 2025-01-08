@@ -620,28 +620,28 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'bilder/specialister/hudterapeut-cazzandra.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
         image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i kemisk peeling',
         image_title: 'Cazzandra Lindberg - Expert på kemisk peeling'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'bilder/specialister/hudterapeut-veronika.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på kemisk peeling',
         image_title: 'Veronika Benedik - Specialist inom kemisk peeling'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'bilder/specialister/hudterapeut-amira.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
         image_alt: 'Amira Maqboul, hudterapeut med kunskap inom kemisk peeling',
         image_title: 'Amira Maqboul - Hudterapeut specialiserad på kemisk peeling'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'bilder/specialister/hudterapeut-vilma.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-vilma.webp',
         image_alt: 'Vilma Libom, hudterapeut med inriktning mot kemisk peeling',
         image_title: 'Vilma Libom - Expert inom kemisk peeling'
     )

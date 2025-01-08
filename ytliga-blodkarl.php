@@ -574,28 +574,28 @@ $specialists = array(
       new Specialist(
             name: 'Cazzandra Lindberg',
             title: 'Hudterapeut sedan 2015',
-            image: 'bilder/specialister/hudterapeut-cazzandra.webp',
+            image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
             image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandling av ytliga blodkärl',
             image_title: 'Cazzandra Lindberg - Expert på behandling av ytliga blodkärl'
       ),
       new Specialist(
             name: 'Veronika Benedik',
             title: 'Hudterapeut sedan 1999',
-            image: 'bilder/specialister/hudterapeut-veronika.webp',
+            image: 'bilder/hudterapeut/312x312/hudterapeut-veronika.webp',
             image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på ytliga blodkärl',
             image_title: 'Veronika Benedik - Specialist inom vård av ytliga blodkärl'
       ),
       new Specialist(
             name: 'Amira Maqboul',
             title: 'Hudterapeut sedan 2017',
-            image: 'bilder/specialister/hudterapeut-amira.webp',
+            image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
             image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandling av ytliga blodkärl',
             image_title: 'Amira Maqboul - Hudterapeut specialiserad på ytliga blodkärl'
       ),
       new Specialist(
             name: 'Vilma Libom',
             title: 'Hudterapeut sedan 2019',
-            image: 'bilder/specialister/hudterapeut-vilma.webp',
+            image: 'bilder/hudterapeut/312x312/hudterapeut-vilma.webp',
             image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandling av ytliga blodkärl',
             image_title: 'Vilma Libom - Expert inom behandling av ytliga blodkärl'
       )
