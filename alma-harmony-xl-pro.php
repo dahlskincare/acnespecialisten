@@ -516,28 +516,28 @@ $specialists = array(
     new Specialist(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
-        image: 'images/specialists/312x312/hudterapeut-cazzandra.webp',
+        image: 'bilder/specialister/hudterapeut-cazzandra.webp',
         image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i behandlingar med Harmony XL Pro',
         image_title: 'Cazzandra Lindberg - Expert på behandlingar med Harmony XL Pro'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
-        image: 'images/specialists/312x312/hudterapeut-veronika.webp',
+        image: 'bilder/specialister/hudterapeut-veronika.webp',
         image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på behandlingar med Harmony XL Pro',
         image_title: 'Veronika Benedik - Specialist inom behandlingar med Harmony XL Pro'
     ),
     new Specialist(
         name: 'Amira Maqboul',
         title: 'Hudterapeut sedan 2017',
-        image: 'images/specialists/312x312/hudterapeut-amira.webp',
+        image: 'bilder/specialister/hudterapeut-amira.webp',
         image_alt: 'Amira Maqboul, hudterapeut med kunskap inom behandlingar med Harmony XL Pro',
         image_title: 'Amira Maqboul - Hudterapeut specialiserad på behandlingar med Harmony XL Pro'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
-        image: 'images/specialists/312x312/hudterapeut-vilma.webp',
+        image: 'bilder/specialister/hudterapeut-vilma.webp',
         image_alt: 'Vilma Libom, hudterapeut med inriktning mot behandlingar med Harmony XL Pro',
         image_title: 'Vilma Libom - Expert inom behandlingar med Harmony XL Pro'
     )
