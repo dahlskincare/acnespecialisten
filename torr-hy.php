@@ -578,9 +578,9 @@ $results = array(
       ),
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
             image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
