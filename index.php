@@ -19,15 +19,16 @@
       <meta property="twitter:description" content="Med över 30 års erfarenhet, erbjuder AcneSpecialisten expertis inom behandling av hudproblem i Stockholm. Boka en kostnadsfri hudkonsultation idag och upplev skillnaden med personligt anpassad hudvård." class="l10n" />
       <meta property="twitter:image" content="bilder/start/banner-desktop.webp" />
 
+      <link rel="preload" as="image" href="/bilder/start/banner-desktop.webp" media="(min-width: 984px)">
+      <link rel="preload" as="image" href="/bilder/start/banner-mobile.webp" media="(max-width: 983px)">
+      <link rel="stylesheet" href="/styles/default-layout.css">
+      <link rel="stylesheet" href="/index.css">
       <?php
       include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php');
       include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/organization.php');
       include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/local_business.php');
       ?>
-      <link rel="preload" as="image" href="bilder/start/banner-desktop.webp" media="(min-width: 984px)">
-      <link rel="preload" as="image" href="bilder/start/banner-mobile.webp" media="(max-width: 983px)">
-      <link rel="stylesheet" href="/styles/default-layout.css">
-      <link rel="stylesheet" href="/index.css">
+
 </head>
 
 <body>
