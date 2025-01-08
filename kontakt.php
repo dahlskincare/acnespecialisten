@@ -64,9 +64,7 @@ $salons = array(
     include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/organization.php');
     include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/rich_content/local_business.php');
     ?>
-    <link rel="stylesheet" href="/styles/default-layout.css">
-    <link rel="stylesheet" href="/styles/forms.css">
-    <link rel="stylesheet" href="/kontakt/contact.css">
+
 </head>
 
 <body>
