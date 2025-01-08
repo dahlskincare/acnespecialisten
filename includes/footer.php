@@ -460,52 +460,55 @@
 <script>
     window.addEventListener('load', function() {
 
-        if (sessionStorage.getItem('intercomLoaded') && typeof window.Intercom === "function") {
-            window.Intercom('reattach_activator');
-            window.Intercom('update', window.intercomSettings);
-        } else {
-            window.intercomSettings = {
-                app_id: "p785iyzu"
-            };
-            var i = function() {
-                i.c(arguments);
-            };
-            i.q = [];
-            i.c = function(args) {
-                i.q.push(args);
-            };
-            window.Intercom = i;
-            var s = document.createElement("script");
-            s.type = "text/javascript";
-            s.async = true;
-            s.src = "https://widget.intercom.io/widget/p785iyzu";
-            var x = document.getElementsByTagName("script")[0];
-            x.parentNode.insertBefore(s, x);
-            s.onload = function() {
-                if (typeof window.Intercom === "function") {
-                    window.Intercom('boot', window.intercomSettings);
-                } else {
-                    console.error("Intercom laddades, men är inte tillgängligt.");
-                }
-            };
-            s.onerror = function() {
-                console.error("Intercom-skriptet kunde inte laddas.");
-            };
-            sessionStorage.setItem('intercomLoaded', true);
-        }
+        // add a 5 second delay
+        setTimeout(function() {
+            if (sessionStorage.getItem('intercomLoaded') && typeof window.Intercom === "function") {
+                window.Intercom('reattach_activator');
+                window.Intercom('update', window.intercomSettings);
+            } else {
+                window.intercomSettings = {
+                    app_id: "p785iyzu"
+                };
+                var i = function() {
+                    i.c(arguments);
+                };
+                i.q = [];
+                i.c = function(args) {
+                    i.q.push(args);
+                };
+                window.Intercom = i;
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://widget.intercom.io/widget/p785iyzu";
+                var x = document.getElementsByTagName("script")[0];
+                x.parentNode.insertBefore(s, x);
+                s.onload = function() {
+                    if (typeof window.Intercom === "function") {
+                        window.Intercom('boot', window.intercomSettings);
+                    } else {
+                        console.error("Intercom laddades, men är inte tillgängligt.");
+                    }
+                };
+                s.onerror = function() {
+                    console.error("Intercom-skriptet kunde inte laddas.");
+                };
+                sessionStorage.setItem('intercomLoaded', true);
+            }
 
-        // Copy gclid url param to all booking links
-        var urlParams = new URLSearchParams(window.location.search);
-        var gclid = urlParams.get('gclid');
-        if (gclid) {
-            var links = document.querySelectorAll('a');
-            for (var i = 0; i < links.length; i++) {
-                var link = links[i];
-                if (link.href.startsWith('https://boka.acnespecialisten.se')) {
-                    link.href = link.href + '&gclid=' + gclid;
+            // Copy gclid url param to all booking links
+            var urlParams = new URLSearchParams(window.location.search);
+            var gclid = urlParams.get('gclid');
+            if (gclid) {
+                var links = document.querySelectorAll('a');
+                for (var i = 0; i < links.length; i++) {
+                    var link = links[i];
+                    if (link.href.startsWith('https://boka.acnespecialisten.se')) {
+                        link.href = link.href + '&gclid=' + gclid;
+                    }
                 }
             }
-        }
+        }, 5000);
     }, {
         passive: true
     });
