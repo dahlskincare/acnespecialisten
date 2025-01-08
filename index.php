@@ -254,10 +254,10 @@
                         <?php
                         $results = array(
                               new ResultCustomer(
-                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.jpg',
-                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.jpg',
-                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.jpg',
-                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.jpg',
+                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
+                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
+                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
+                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
                                     image_before_title: 'Person som har akne',
                                     image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
                                     image_after_title: 'Person som har akne',
@@ -267,10 +267,10 @@
                                     )
                               ),
                               new ResultCustomer(
-                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
-                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
-                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
+                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
+                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
+                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
+                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
                                     image_before_title: 'Person som har akne',
                                     image_before_alt: 'Ansiktet på en person som behandlat akne, föreefterbild',
                                     image_after_title: 'Person som har akne',
@@ -280,10 +280,10 @@
                                     )
                               ),
                               new ResultCustomer(
-                                    image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.jpg',
-                                    image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.jpg',
-                                    image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.jpg',
-                                    image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.jpg',
+                                    image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
+                                    image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
+                                    image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
+                                    image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
                                     image_before_title: 'Person som har rosacea',
                                     image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
                                     image_after_title: 'Person som har rosacea',
