@@ -517,7 +517,7 @@
             sessionStorage.setItem('intercomLoaded', true);
         }*/
 
-
+        /*
         // Copy gclid url param to all booking links
         var urlParams = new URLSearchParams(window.location.search);
         var gclid = urlParams.get('gclid');
@@ -529,7 +529,7 @@
                     link.href = link.href + '&gclid=' + gclid;
                 }
             }
-        }
+        }*/
     });
 </script>
 
