@@ -48,9 +48,9 @@ if (!isset($results)) {
         ),
         new ResultCustomer(
             url: '',
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.jpg',
+            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
             image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.jpg',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.jpg',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
             image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.jpg',
             url_title: 'Akne resultat',
             image_before_alt: 'Akne resultat',
