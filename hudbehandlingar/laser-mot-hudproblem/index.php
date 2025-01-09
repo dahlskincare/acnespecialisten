@@ -105,7 +105,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Ytliga Blodkärl',
-        duration: '50 min',
+        duration: '20 - 50 min',
         price: 'Från 1595 kr',
         content: ' Behandling med laser mot ytliga blodkärl innebär att laserljuset riktas mot hemoglobin i de synliga kärlen, vilket effektivt bryter ner dem och minskar deras synlighet.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
@@ -145,7 +145,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Pigmentfläckar',
-        duration: '50 min',
+        duration: '20 - 50 min',
         price: 'Från 1595 kr',
         content: 'Vid behandling av pigmentfläckar riktas laserenergi mot melaninpigmentet för att successivt minska fläckarnas synlighet och främja en enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -205,7 +205,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Hudutväxter',
-        duration: '20 min',
+        duration: '20 - 90 min',
         price: 'Från 1595 kr',
         content: 'Använder en specifik våglängd av laserljus för att direkt bränna bort pigmentet i leverfläckar och födelsemärken, vilket effektivt tar bort dessa hudförändringar.',
         image_small: 'bilder/hudproblem/102x102/hudforandringar.webp',
