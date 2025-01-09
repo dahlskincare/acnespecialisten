@@ -33,7 +33,7 @@ $model = new Service(
             label: '1 behandling',
             price: '1295 kr',
             savings: null,
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_1_Procedure_1',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_2_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -41,7 +41,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '3495 kr',
             savings: '1165 kr per behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_1_Procedure_1',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest&procedures=PriceClass_2_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -49,7 +49,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '4995 kr',
             savings: '999 kr per behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_1_Procedure_1',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back&procedures=PriceClass_2_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
