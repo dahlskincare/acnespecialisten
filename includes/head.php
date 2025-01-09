@@ -20,6 +20,21 @@
   })(window, document, 'script', 'dataLayer', 'GTM-PFRBPG9K');
 </script>
 
+<script>
+  // Copy gclid url param to all booking links
+  var urlParams = new URLSearchParams(window.location.search);
+  var gclid = urlParams.get('gclid');
+  if (gclid) {
+    var links = document.querySelectorAll('a');
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      if (link.href.startsWith('https://boka.acnespecialisten.se')) {
+        link.href = link.href + '&gclid=' + gclid;
+      }
+    }
+  }
+</script>
+
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
