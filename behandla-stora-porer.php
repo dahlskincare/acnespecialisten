@@ -81,8 +81,8 @@ $services = array(
         image_title: 'Klient som genomgår laserbehandling mot stora porer',
         image_alt: 'Bild av laserbehandling mot stora porer hos AcneSpecialisten',
         title: 'Effektiv laserbehandling mot stora porer',
-        duration: '30-60 min',
-        price: '1295 kr',
+        duration: '90 min',
+        price: '4595 kr',
         content: '<p class="p200">Laserbehandling är en effektiv metod för att reducera storleken på stora porer och få dem att se mindre ut. Genom att använda fokuserad ljusenergi tränger laserstrålen djupt ner i huden och värmer upp de djupare lagren. Denna värme stimulerar kollagenproduktionen och omstrukturerar hudens stödvävnad. När kollagenproduktionen ökar, stramas huden upp, vilket får porerna att dra ihop sig och krympa. Resultatet är en jämnare hudtextur och minskad synlighet av porer, vilket ger huden ett friskare och mer ungdomligt utseende.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
         consultation_url_label: 'Boka konsultation',
@@ -102,8 +102,8 @@ $services = array(
         image_title: 'Utförande av kemisk peelingbehandling för stora porer',
         image_alt: 'Bild på kemisk peelingbehandling mot stora porer hos AcneSpecialisten',
         title: 'Kemisk peeling mot stora porer',
-        duration: '30-60 min',
-        price: '1295 kr',
+        duration: '30 min',
+        price: '1995 kr',
         content: '<p class="p200">För dem med stora porer är kemisk peeling en framstående behandlingsmetod. Genom att använda kraftfulla syror tränger behandlingen ner i huden och porerna, där den löser upp porblockeringar som gör att porerna ser större ut. Genom att effektivt avlägsna döda hudceller och överskott av talg, hjälper kemisk peeling till att förminska porernas synlighet. Detta skapar utrymme för ny, frisk hud att komma fram, vilket leder till en jämnare hudtextur och ökad klarhet.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
@@ -123,8 +123,8 @@ $services = array(
         image_title: 'Utförande av microneedlingbehandling för stora porer',
         image_alt: 'Bild på microneedlingbehandling mot stora porer hos AcneSpecialisten',
         title: 'Effektiv microneedling mot stora porer',
-        duration: '30-60 min',
-        price: '1295 kr',
+        duration: '50 min',
+        price: '2595 kr',
         content: '<p class="p200">Microneedling är en beprövad metod för att behandla problem med stora porer. Genom att använda tunna mikronålar skapas små kanaler i huden. Denna process aktiverar hudens naturliga läkningsmekanism och stimulerar produktionen av kollagen och elastin. När produktionen av dessa viktiga proteiner ökar, stramas huden upp och porernas synlighet minskar. Resultatet är en övergripande förbättring av hudens kvalitet och ton, med en jämnare och mer strålande hudtextur.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
         consultation_url_label: 'Boka konsultation',
@@ -138,23 +138,6 @@ $services = array(
         short_title: 'Microneedling'
     ),
 
-);
-
-$headline03 = "03. Förebygg";
-
-$products = array(
-    new Product(
-        image_small: null,
-        image_large: null,
-        image_title: 'Produkter för stora porer',
-        image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot stora porer',
-
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
-        url_label: 'Köp produkterna',
-        url_title: 'Produkter för stora porer',
-        price: 'Från 1395 kr',
-        content: '<p class="p200">Att förebygga och minska synligheten av stora porer är avgörande för att uppnå en jämn och klar hud. Vi erbjuder en daglig hudvårdsrutin med specifika produkter mot stora porer. Denna rutin hjälper till att hålla din hy ren, balanserad och minskar risken för tilltäppningar. Regelbunden användning av dessa produkter, tillsammans med våra behandlingar, ger bäst resultat för att hantera stora porer.</p>',
-    ),
 );
 
 $results = array(
@@ -377,14 +360,6 @@ $brands_url_title = "Varumärken för behandling av Stora porer";
                             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php');
                         } ?>
                 </section>
-                <?php if (isset($products) && sizeof($products) > 0) { ?>
-                    <section id="prevent">
-                        <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
-                        <?php foreach ($products as $product) {
-                            include('../../widgets/product-card/product-card.php');
-                        } ?>
-                    </section>
-                <?php } ?>
                 <section id="results">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                 </section>

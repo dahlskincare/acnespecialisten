@@ -428,27 +428,6 @@ $services = array(
             url_title: 'Läs mer om kemisk peeling mot finnar',
       ),
 
-      new Service(
-            title: 'Microneedling mot finnar',
-            duration: '50 min',
-            price: '2595 kr',
-            content: 'Effektiv behandlingsmetod. Genom att skapa små mikroskopiska kanaler i huden, främjar denna behandling hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Metoden kan effektivt minska utbrott av finnar, förbättra hudens struktur och minska synligheten av ärr orsakade av finnar.',
-            image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
-            image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
-            image_alt: 'Bild av microneedling mot finnar',
-            image_title: 'Microneedling mot finnar',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
-            consultation_url_label: 'Boka konsultation',
-            consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot finnar',
-            booking_url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP',
-            booking_url_label: 'Boka behandling',
-            booking_url_title: 'Klicka för att boka tid för en microneedling mot finnar',
-            url: '/microneedling.php',
-            url_label: 'Läs mer om microneedling',
-            url_title: 'Läs mer om microneedling mot finnar',
-      )
-
-
 );
 
 $headline03 = "03. Förebygg";
