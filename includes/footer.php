@@ -462,16 +462,16 @@
 
 <script>
     window.addEventListener('load', function() {
-        // Copy gclid url param to all booking links
+        // Copy gclid url param to all links
         var urlParams = new URLSearchParams(window.location.search);
         var gclid = urlParams.get('gclid');
         if (gclid) {
             var links = document.querySelectorAll('a');
             for (var i = 0; i < links.length; i++) {
                 var link = links[i];
-                if (link.href.startsWith('https://boka.acnespecialisten.se')) {
-                    link.href = link.href + '&gclid=' + gclid;
-                }
+                var url = new URL(link.href);
+                url.searchParams.set('gclid', gclid);
+                link.href = url.toString();
             }
         }
 
