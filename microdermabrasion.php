@@ -31,7 +31,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1995 kr',
+            price: '2595 kr',
             savings: null,
             booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -39,7 +39,7 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '4995 kr',
+            price: '6995 kr',
             savings: 'Spara 790 kr',
             booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
@@ -47,8 +47,8 @@ $model = new Service(
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '7995 kr',
-            savings: 'Spara 1980 kr',
+            price: '9995 kr',
+            savings: 'Spara 2980 kr',
             booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion&area=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
@@ -94,20 +94,20 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '1995 kr',
+                price: '2595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '4995 kr',
+                price: '6995 kr',
                 savings: 'Spara 790 kr',
                 booking_url: 'https://boka.acnespecialisten.se?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '7995 kr',
-                savings: 'Spara 1980 kr',
+                price: '9995 kr',
+                savings: 'Spara 2980 kr',
                 booking_url: 'https://boka.acnespecialisten.se?flow=dermabrasion&method=Method_MicroDermabrasion&type=Microdermabrasion_1xArea&procedures=PriceClass_5_Procedure_5'
             )
         )
