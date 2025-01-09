@@ -89,7 +89,7 @@ $services = array(
         image_alt: 'Bild på kemisk peelingbehandling mot acneärr hos Acnespecialisten',
         title: 'Kemisk peeling mot acneärr',
         duration: '30 min',
-        price: '1295 kr',
+        price: '1595 kr',
         icons: array(),
         content: '<p class="p200">Kemisk peeling är en idealisk behandling för postinflammatorisk hyperpigmentering (fläckar), vilket innebär mörka eller rodnade fläckar som kvarstår efter akne. Behandlingen använder en specialutvecklad syra för att exfoliera och avlägsna de skadade och missfärgade yttersta hudlagren. Detta uppmuntrar tillväxten av ny, frisk hud, vilket avsevärt minskar synligheten av dessa missfärgningar. Resultatet är en mer enhetlig hudton och förbättrad hudtextur. Genom att stimulera hudens naturliga förnyelseprocess hjälper kemisk peeling till att ge huden ett klarare och jämnare utseende.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',

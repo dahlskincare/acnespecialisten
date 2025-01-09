@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Milierbehandling i Stockholm',
     duration: '60 min',
-    price: 'Från 1295 kr',
+    price: '1295 kr',
     content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att du får bort milier på ett säkert och effektivt sätt.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
