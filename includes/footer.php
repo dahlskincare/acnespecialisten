@@ -462,7 +462,6 @@
 
 <script>
     window.addEventListener('load', function() {
-
         // Copy gclid url param to all booking links
         var urlParams = new URLSearchParams(window.location.search);
         var gclid = urlParams.get('gclid');
