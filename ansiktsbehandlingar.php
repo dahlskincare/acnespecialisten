@@ -115,7 +115,7 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
-                savings: '1331 kr per behandling',
+                savings: '1332 kr per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_AntiStress&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
@@ -152,7 +152,7 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
-                savings: '1331 kr per behandling',
+                savings: '1332 kr per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_TherapistsChoice&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
@@ -189,7 +189,7 @@ $big_types = array(
             new Procedure(
                 label: '3 behandlingar',
                 price: '3995 kr',
-                savings: '1331 kr per behandling',
+                savings: '1332 kr per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_PeelBoostGlow&procedures=PriceClass_3_Procedure_3'
             ),
             new Procedure(
