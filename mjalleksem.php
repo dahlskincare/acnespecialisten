@@ -137,7 +137,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot mjälleksem',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'En grundlig djuprengöring av huden för att effektivt hantera överflödigt talg och döda hudceller. Behandlingen inkluderar antiinflammatoriska och lugnande moment för att lindra inflammation och rodnad, vilket i sin tur hjälper till att lugna huden och minska symtom på mjälleksem.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

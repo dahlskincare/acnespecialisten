@@ -116,7 +116,7 @@ $products = array(
         url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
         url_label: 'Utforska hudvårdsprodukterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
-        price: 'Hudvårdsprodukter mot rosacea - Från 1395 kr',
+        price: 'Hudvårdsprodukter mot rosacea - Från 1495 kr',
         content: '<p class="p200">Att förebygga rosacea med rätt hudvårdsprodukter är avgörande för att upprätthålla en balanserad och lugn hud utan rodnad. På AcneSpecialisten rekommenderar vi en daglig hudvårdsrutin utformad specifikt för att möta behoven för rosaceabenägen hy. Genom att använda dessa produkter i din dagliga hudvårdsrutin, kan du ta bort rosacea genom att stärka hudens naturliga barriär, minska symtom på rodnad och irritation, och effektivt förhindra förvärring av tillståndet. Denna rutin är lika viktig som regelbundna klinikbesök, eftersom den hjälper till att hålla din hud i bästa möjliga skick och bidrar till en långsiktig lindring av rosacea-symtom.</p>',
     ),
 );

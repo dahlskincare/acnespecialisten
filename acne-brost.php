@@ -258,7 +258,7 @@ $products = array(
       new Service(
             title: 'Produkter mot akne',
             duration: null,
-            price: 'Från 1395 kr',
+            price: 'Från 1495 kr',
             content: 'Daglig behandling med rätt produkter är avgörande för att bekämpa och förebygga akne. Våra produkter är speciellt utformade för att hålla huden i balans och förhindra nya utbrott.',
 
             image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',

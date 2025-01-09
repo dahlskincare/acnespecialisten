@@ -415,7 +415,7 @@ $products = array(
       new Service(
             title: 'Produkter mot pormaskar',
             duration: null,
-            price: 'Från 1395 kr',
+            price: 'Från 1495 kr',
             content: 'För att effektivt bekämpa och förebygga pormaskar är daglig behandling med rätt produkter avgörande. Våra akneprodukter är speciellt utformade för att hålla din hud i balans och förhindra att nya pormaskar uppstår.',
             image_small: 'bilder/hudbehandlingar/200x200/produkter.webp',
             image_large: 'bilder/hudbehandlingar/200x200/produkter.webp',

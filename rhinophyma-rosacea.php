@@ -145,7 +145,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot rosacea',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'En effektiv ansiktsbehandling mot rosacea fokuserar på att lindra rodnad och inflammation. Genom att använda specialanpassade produkter och tekniker kan denna behandling bidra till att förbättra hudens textur och utseende.',
             image_small: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_large: 'bilder/behandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',

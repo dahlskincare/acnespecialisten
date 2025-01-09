@@ -60,7 +60,7 @@ $services = array(
         image_alt: 'Bild illustrerar en ansiktsbehandling mot stora porer utförd på AcneSpecialisten',
         title: 'Ansiktsbehandling mot stora porer',
         duration: '60 min',
-        price: 'Från 1295 kr',
+        price: '1295 kr',
         content: '<p class="p200">Behandlingen, som ofta kallas porrengöring eller portömning, riktar sig specifikt mot stora porer och syftar till att djuprengöra och minimera deras utseende. Den börjar med en noggrann rengöring, följt av ångning för att öppna upp porerna. Sedan utförs en omfattande rengöring där vi manuellt klämmer ut det som samlats i porerna, såsom döda hudceller och talg, som orsakar att porerna vidgas. Behandlingen avslutas med en mask som drar ihop porernas storlek och en fuktgivande kräm som väljs utifrån din specifika hudtyp.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Large_Pores',
         consultation_url_label: 'Boka konsultation',

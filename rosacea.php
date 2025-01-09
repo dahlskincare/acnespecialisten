@@ -295,7 +295,7 @@ $products = array(
       new Service(
             title: 'Produkter mot rosacea',
             duration: null,
-            price: 'Från 1395 kr',
+            price: 'Från 1495 kr',
             content: 'För att effektivt behandla och förebygga hudproblemet är daglig behandling med rätt produkter avgörande. Våra rosacea-produkter är speciellt utformade för att hålla din hud i balans och förhindra att nya rosacea-flare-ups uppstår.',
             image_small: 'bilder/behandlingar/200x200/produkter.webp',
             image_large: 'bilder/behandlingar/200x200/produkter.webp',

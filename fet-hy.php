@@ -148,7 +148,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling för fet hy',
             duration: '60 min',
-            price: '995 kr',
+            price: '1295 kr',
             content: 'Denna anpassade ansiktsbehandling är särskilt utvecklad för att möta de unika utmaningarna med fet hy. Vi fokuserar på att noggrant rengöra huden för att ta bort överflödig talg och föroreningar, samtidigt som vi använder specialiserade exfolieringsmetoder för att förebygga tilltäppta porer.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
