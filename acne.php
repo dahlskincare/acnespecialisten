@@ -469,7 +469,7 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling mot akne',
-            duration: '30 min',
+            duration: '40 min',
             price: '1595 kr',
             content: 'Genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation.',
 
