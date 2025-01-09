@@ -215,7 +215,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Moles&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections&area=Laser_ny_kund',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka laserbehandling',
 
