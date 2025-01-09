@@ -462,6 +462,21 @@
 
 <script>
     window.addEventListener('load', function() {
+
+        // Copy gclid url param to all booking links
+        var urlParams = new URLSearchParams(window.location.search);
+        var gclid = urlParams.get('gclid');
+        if (gclid) {
+            var links = document.querySelectorAll('a');
+            for (var i = 0; i < links.length; i++) {
+                var link = links[i];
+                if (link.href.startsWith('https://boka.acnespecialisten.se')) {
+                    link.href = link.href + '&gclid=' + gclid;
+                }
+            }
+        }
+
+
         // add a 5 second delay
         setTimeout(function() {
             if (sessionStorage.getItem('intercomLoaded') && typeof window.Intercom === "function") {
