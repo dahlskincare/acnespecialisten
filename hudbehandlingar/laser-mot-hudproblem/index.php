@@ -86,7 +86,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Aktiv Acne',
         duration: '50 min',
-        price: '2595 kr',
+        price: 'Från 2595 kr',
         content: 'Laserbehandling mot acne syftar till att eliminera bakterierna som orsakar finnar. Genom att rikta värme djupt in i finnarna bidrar lasern till att de minskar i storlek och så småningom försvinner.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
@@ -106,7 +106,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Ytliga Blodkärl',
         duration: '50 min',
-        price: '2595 kr',
+        price: 'Från 1595 kr',
         content: ' Behandling med laser mot ytliga blodkärl innebär att laserljuset riktas mot hemoglobin i de synliga kärlen, vilket effektivt bryter ner dem och minskar deras synlighet.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
@@ -146,7 +146,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Pigmentfläckar',
         duration: '50 min',
-        price: '2595 kr',
+        price: 'Från 1595 kr',
         content: 'Vid behandling av pigmentfläckar riktas laserenergi mot melaninpigmentet för att successivt minska fläckarnas synlighet och främja en enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
@@ -246,7 +246,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Ärr (Skade- och Operationsärr)',
         duration: '30 min',
-        price: '2995 kr',
+        price: '4595 kr',
         content: 'Riktar in sig på att mjuka upp och minska ärrvävnad, vilket bidrar till att ärr blir mindre framträdande och huden jämnare.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
