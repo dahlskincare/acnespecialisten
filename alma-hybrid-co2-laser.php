@@ -300,7 +300,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot pigmentfläckar',
         duration: '20 - 50 min',
-        price: 'Från 1595 kr',
+        price: 'Från 995 kr',
         content: 'Reducerar och tar bort pigmentfläckar. Målinriktad laser bryter ner pigmentering för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
