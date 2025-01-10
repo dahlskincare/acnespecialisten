@@ -111,8 +111,8 @@ $types = array(
 
     new Service(
         title: 'IPL-behandling mot Ytliga Blodkärl',
-        duration: '50 min',
-        price: '2595 kr',
+        duration: '20 - 50 min',
+        price: 'Från 995 kr',
         content: 'Effektiv IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt behandla de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
@@ -132,8 +132,8 @@ $types = array(
 
     new Service(
         title: 'IPL-behandling mot Pigmentfläckar',
-        duration: '50 min',
-        price: '2595 kr',
+        duration: '20 - 50 min',
+        price: 'Från 995 kr',
         content: 'Minska och ta bort pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt och målinriktat reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',

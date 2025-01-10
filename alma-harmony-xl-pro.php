@@ -72,8 +72,8 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot aktiv acne',
-        duration: '60 min',
-        price: '2995 kr',
+        duration: '50 min',
+        price: '2595 kr',
         content: 'ClearSkin erbjuder en unik kombination av laser och vakuumsug för att behandla aktiv acne och finnar genom att minska talgproduktionen och döda acne-bakterier. Denna metods djupgående effekt i huden bidrar till friskare aknefri hud.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
@@ -92,8 +92,8 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot ärr (skade- och operationsärr)',
-        duration: '30 min',
-        price: '2995 kr',
+        duration: '90 min',
+        price: '4595 kr',
         content: 'Kombinerar ClearLift och iPixel tekniker för att bränna och skada ärrvävnad genom trigga stimulering av reparation och ny hudväxt vilket minskar ärrvävnaden. Denna strategi minskar ärret och jämnar ut hudtexturen.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
@@ -152,8 +152,8 @@ $types = array(
     ),
     new Service(
         title: 'Harmony XL Pro mot pigmentfläckar',
-        duration: '90 min',
-        price: '4595 kr',
+        duration: '20 - 50 min',
+        price: 'Från 995 kr',
         content: 'Dye-VL använder IPL-teknologi med ett specifikt munstycke för att rikta in sig på melanin, vilket ljusar upp och reducerar pigmentfläckar. Denna selektiva målinriktning bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
