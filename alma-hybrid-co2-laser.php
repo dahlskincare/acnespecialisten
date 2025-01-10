@@ -199,8 +199,8 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot ärr (skade- och operationsärr)',
-        duration: '30 min',
-        price: '2995 kr',
+        duration: '90 min',
+        price: '4595 kr',
         content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
@@ -259,8 +259,8 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot stora porer',
-        duration: '60 min',
-        price: '3595 kr',
+        duration: '90 min',
+        price: '4595 kr',
         content: 'Minskar utseendet av stora porer genom att förbättra hudens yta och textur, bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -299,8 +299,8 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot pigmentfläckar',
-        duration: '950 min',
-        price: '4595 kr',
+        duration: '20 - 50 min',
+        price: 'Från 1595 kr',
         content: 'Reducerar och tar bort pigmentfläckar. Målinriktad laser bryter ner pigmentering för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
@@ -319,8 +319,8 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot aktiv acne',
-        duration: '60 min',
-        price: '2595 kr',
+        duration: '50 min',
+        price: 'Från 2595 kr',
         content: 'Reducerar aktiv acne genom att minska inflammation och döda bakterier, förhindrar framtida utbrott genom att rikta sig mot acneorsaker.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',

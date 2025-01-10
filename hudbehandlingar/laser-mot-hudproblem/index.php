@@ -245,7 +245,7 @@ $types = array(
     ),
     new Service(
         title: 'Laserbehandling mot Ärr (Skade- och Operationsärr)',
-        duration: '30 min',
+        duration: '90 min',
         price: '4595 kr',
         content: 'Riktar in sig på att mjuka upp och minska ärrvävnad, vilket bidrar till att ärr blir mindre framträdande och huden jämnare.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
