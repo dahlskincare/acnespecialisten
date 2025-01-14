@@ -97,20 +97,9 @@ $path_segments = [
             }
         }
     </style>
-    <link rel="preload" href="/styles/default-layout.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="/styles/default-layout.css">
-    </noscript>
-
-    <link rel="preload" href="/styles/forms.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="/styles/forms.css">
-    </noscript>
-
-    <link rel="preload" href="/presentkort/gift-cards.css" as="style" onload="this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="/styles/gift-cards.css">
-    </noscript>
+    <link rel="stylesheet" href="/styles/default-layout.css">
+    <link rel="stylesheet" href="/styles/forms.css">
+    <link rel="stylesheet" href="/presentkort/gift-cards.css">
 
     <link rel="canonical" href="https://www.acnespecialisten.se/presentkort.php" />
 
