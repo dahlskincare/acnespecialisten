@@ -463,7 +463,7 @@ $brand_cards = array(
 );
 
 $path_segments = array(
-      new PathSegment('Varumärken', 'varumarken'),
+      new PathSegment('Varumärken', 'varumarken/'),
 );
 
 ?>
