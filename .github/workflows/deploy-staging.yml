@@ -33,17 +33,17 @@ jobs:
         uses: nogsantos/scp-deploy@master
         with:
           src: ./web.zip
-          host: ${{ secrets.AS_SSH_HOST }}
-          remote: ~/temp-staging.visurus.org
+          host: ${{ secrets.DARUMA_HOST }}
+          remote: ~/acnespecialisten.se
           port: 22
-          user: ${{ secrets.AS_SSH_USER }}
-          key: ${{ secrets.AS_SSH_KEY }}
+          user: ${{ secrets.DARUMA_USER }}
+          key: ${{ secrets.DARUMA_KEY }}
 
       - name: Uncompress on server
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
-          echo "${{ secrets.AS_SSH_KEY }}" > ~/.ssh/id_rsa
-          host='${{ secrets.AS_SSH_HOST }}'
+          echo "${{ secrets.DARUMA_KEY }}" > ~/.ssh/id_rsa
+          host='${{ secrets.DARUMA_HOST }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }} 'cd ~/temp-staging.visurus.org; unzip -o web.zip; rm web.zip;'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.DARUMA_USER }}@${{ secrets.DARUMA_HOST }} 'cd ~/acnespecialisten.se; unzip -o web.zip; rm web.zip;'
