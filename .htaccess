@@ -1,10 +1,10 @@
 RewriteEngine On
 RewriteBase /
 
-# Enforce https
-#RewriteCond %{HTTPS} off
-#RewriteCond %{HTTP_HOST} ^acnespecialisten.se [NC]
-#RewriteRule ^(.*)$ https://www.acnespecialisten.se/$1 [L,R=301]
+# Enforce www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
 
 Redirect 301 /porig-hy-html https://www.acnespecialisten.se/pormaskar.php
 Redirect 301 /produkter.php https://dahlskincare.se/
@@ -356,11 +356,6 @@ Redirect 301 /resultat-microneedling-acnearr.php https://www.acnespecialisten.se
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*)\.html$ $1.php [R=301,L]
-
-# Enforce trailing slash - required for breadcrumbs
-# RewriteEngine On
-# RewriteCond %{REQUEST_URI} /+[^\.]+$
-# RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
 
 # Set default 404 page
 ErrorDocument 404 /not-found.php
