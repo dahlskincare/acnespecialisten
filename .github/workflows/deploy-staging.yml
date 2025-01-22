@@ -34,7 +34,7 @@ jobs:
         with:
           src: ./web.zip
           host: ${{ secrets.UZUME_HOST }}
-          remote: ~/acnespecialisten.se
+          remote: ~/temp-staging.visurus.org
           port: 22
           user: ${{ secrets.UZUME_USER }}
           key: ${{ secrets.UZUME_KEY }}
@@ -46,4 +46,4 @@ jobs:
           host='${{ secrets.UZUME_HOST }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.UZUME_USER }}@${{ secrets.UZUME_HOST }} 'cd ~/acnespecialisten.se; unzip -o web.zip; rm web.zip;'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.UZUME_USER }}@${{ secrets.UZUME_HOST }} 'cd ~/temp-staging.visurus.org; unzip -o web.zip; rm web.zip;'
