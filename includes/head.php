@@ -34,7 +34,7 @@ function icon($name)
 <meta name="author" content="Acnespecialisten Sverige AB">
 <link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/style.css">
-<link rel="icon" href="favicon.png" type="image/png" />
+<link rel="icon" type="image/png" href="https://www.acnespecialisten.se/favicon.png" />
 <meta property="og:type" content="website" />
 
 <!-- Preload important resources -->
