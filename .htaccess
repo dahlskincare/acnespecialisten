@@ -1,6 +1,10 @@
 RewriteEngine On
 RewriteBase /
 
+# Redirect from acnespecialisten.se.y2784.hemsida.eu to acnespecialisten.se
+RewriteCond %{HTTP_HOST} ^www\.acnespecialisten\.se\.y2784\.hemsida\.eu$ [NC]
+RewriteRule ^(.*)$ https://www.acnespecialisten.se/$1 [L,R=301]
+
 # Enforce www
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\. [NC]
