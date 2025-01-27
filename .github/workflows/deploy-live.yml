@@ -1,4 +1,4 @@
-name: Deploy Live
+name: Deploy Main
 
 on:
   push:
@@ -27,23 +27,23 @@ jobs:
         run: tsc
 
       - name: Compress files
-        run: zip web.zip * .[^.]* -r -x ".devcontainer/*" -x ".git/*" -x ".vscode" -x ".github/*" -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x ".env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
+        run: zip web.zip * .[^.]* -r -x ".htaccess" -x ".devcontainer/*" -x ".git/*" -x ".github/*" -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x "*/.env" -x "composer.*" -x "package*.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
 
       - name: Transfer zip
         uses: nogsantos/scp-deploy@master
         with:
           src: ./web.zip
-          host: ${{ secrets.AS_SSH_HOST_LIVE }}
-          remote: ~/acnespecialisten.se/public_html
+          host: ${{ secrets.DARUMA_HOST }}
+          remote: ~/acnespecialisten.se
           port: 22
-          user: ${{ secrets.AS_SSH_USER_LIVE }}
-          key: ${{ secrets.AS_SSH_KEY_LIVE }}
+          user: ${{ secrets.DARUMA_USER }}
+          key: ${{ secrets.DARUMA_KEY }}
 
       - name: Uncompress on server
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
-          echo "${{ secrets.AS_SSH_KEY_LIVE }}" > ~/.ssh/id_rsa
-          host='${{ secrets.AS_SSH_HOST_LIVE }}'
+          echo "${{ secrets.DARUMA_KEY }}" > ~/.ssh/id_rsa
+          host='${{ secrets.DARUMA_HOST }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER_LIVE }}@${{ secrets.AS_SSH_HOST_LIVE }} 'cd ~/acnespecialisten.se/public_html; unzip -o web.zip; rm web.zip;'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.DARUMA_USER }}@${{ secrets.DARUMA_HOST }} 'cd ~/acnespecialisten.se; unzip -o web.zip; rm web.zip;'

@@ -27,23 +27,23 @@ jobs:
         run: tsc
 
       - name: Compress files
-        run: zip web.zip * .[^.]* -r -x ".devcontainer/*" -x ".git/*" -x ".github/*" -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x "*/.env" -x "composer.*" -x "package.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
+        run: zip web.zip * .[^.]* -r -x ".htaccess" -x ".devcontainer/*" -x ".git/*" -x ".github/*" -x "*.scss" -x "*.ts" -x "README.md" -x "*.DS_Store" -x "Dockerfile" -x "*/.env" -x "composer.*" -x "package*.json" -x "compose.yml" -x ".gitignore" -x "template.php" -x "tsconfig.json"
 
       - name: Transfer zip
         uses: nogsantos/scp-deploy@master
         with:
           src: ./web.zip
-          host: ${{ secrets.AS_SSH_HOST }}
+          host: ${{ secrets.UZUME_HOST }}
           remote: ~/temp-staging.visurus.org
           port: 22
-          user: ${{ secrets.AS_SSH_USER }}
-          key: ${{ secrets.AS_SSH_KEY }}
+          user: ${{ secrets.UZUME_USER }}
+          key: ${{ secrets.UZUME_KEY }}
 
       - name: Uncompress on server
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
-          echo "${{ secrets.AS_SSH_KEY }}" > ~/.ssh/id_rsa
-          host='${{ secrets.AS_SSH_HOST }}'
+          echo "${{ secrets.UZUME_KEY }}" > ~/.ssh/id_rsa
+          host='${{ secrets.UZUME_HOST }}'
           hosts="$(dig +short "$host" | grep -v '\.$' | sed -z 's|\n|,|g')$host"
           ssh-keyscan -H "$hosts" > ~/.ssh/known_hosts
-          ssh -i ~/.ssh/id_rsa ${{ secrets.AS_SSH_USER }}@${{ secrets.AS_SSH_HOST }} 'cd ~/temp-staging.visurus.org; unzip -o web.zip; rm web.zip;'
+          ssh -i ~/.ssh/id_rsa ${{ secrets.UZUME_USER }}@${{ secrets.UZUME_HOST }} 'cd ~/temp-staging.visurus.org; unzip -o web.zip; rm web.zip;'

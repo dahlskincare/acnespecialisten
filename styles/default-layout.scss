@@ -575,7 +575,7 @@ html {
                         }
                     }
 
-                    #second-link-row {
+                    .link-row-with-margin {
                         margin-top: $xl3;
                     }
                 }
@@ -740,19 +740,33 @@ html {
                 #footer-large-links {
                     margin-top: 72px;
 
-                    #phone-dot-email-large {
-                        $margin-top: $xxs;
+                    #company-contact-info {
+                        display: flex;
+                        align-items: center;
+                        column-gap: $m;
 
-                        .dot {
-                            margin: 0 $s;
+                        #phone-dot-email-large {
+                            $margin-top: $xxs;
+
+                            .dot {
+                                margin: 0 $s;
+                            }
                         }
                     }
 
+
                     #footer-salon-cards-large {
-                        margin-top: $xxl;
+                        margin-top: $xl;
+                        margin-bottom: $xl3;
+                        display: flex;
+                        align-items: center;
+                        column-gap: $xl;
 
                         .salon-card {
-                            margin-top: $xl;
+                            flex: 1;
+                            border: 1px solid $light-400;
+                            border-radius: $s;
+                            padding: $xl;
 
                             img {
                                 margin-right: $s;
