@@ -169,5 +169,13 @@
             </div>
         </div>
     </div>
-    <script src="includes/header.js"></script>
 </header>
+<dialog id="cookieConsent">
+    <h4>Denna webbplats använder cookies</h4>
+    <p class="p100">Vi använder enhetsidentifierare för att anpassa innehåll och annonser till våra användare, tillhandahålla funktioner för sociala medier och analysera vår trafik. Vi vidarebefordrar även sådana identifierare och annan information från din enhet till de sociala medier och annons- och analysföretag som vi samarbetar med. Dessa kan i sin tur kombinera informationen med annan information som du har tillhandahållit eller som de har samlat in när du har använt deras tjänster.</p>
+    <div id="cookieConsentButtons">
+        <div class="button b50 text" onclick="CookieDialog.consent(false)">Avvisa</div>
+        <button class="button b200 small-text" onclick="CookieDialog.consent(true)">Tillåt cookies</button>
+    </div>
+</dialog>
+<script src="includes/header.js"></script>

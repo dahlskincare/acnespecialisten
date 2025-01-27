@@ -1,6 +1,3 @@
-<link rel="preconnect" href="https://www.google.com">
-<link rel="preconnect" href="https://www.googletagmanager.com">
-
 <!-- Google Tag Manager -->
 <script>
   (function(w, d, s, l, i) {
@@ -12,7 +9,6 @@
     var f = d.getElementsByTagName(s)[0],
       j = d.createElement(s),
       dl = l != 'dataLayer' ? '&l=' + l : '';
-    j.defer = true;
     j.async = true;
     j.src =
       'https://www.googletagmanager.com/gtm.js?id=' + i + dl;

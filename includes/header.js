@@ -1,7 +1,7 @@
 var HeaderTouch;
 (function (HeaderTouch) {
     function toggleMenu() {
-        const overlay = document.querySelector('#mobile-nav-overlay');
+        var overlay = document.querySelector('#mobile-nav-overlay');
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
             document.body.classList.remove('noscroll');
@@ -13,7 +13,7 @@ var HeaderTouch;
     }
     HeaderTouch.toggleMenu = toggleMenu;
     function toggleExpanded(e) {
-        const panel = e.parentElement;
+        var panel = e.parentElement;
         if (panel.classList.contains('active')) {
             panel.classList.remove('active');
         }
@@ -26,10 +26,10 @@ var HeaderTouch;
 var HeaderDesktop;
 (function (HeaderDesktop) {
     function toggleMenu() {
-        const button = document.querySelector('#hamburger-button');
+        var button = document.querySelector('#hamburger-button');
         button.classList.toggle('active');
         button.classList.toggle('not-active');
-        const overlay = document.querySelector('#desktop-nav-overlay');
+        var overlay = document.querySelector('#desktop-nav-overlay');
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
         }
@@ -39,14 +39,14 @@ var HeaderDesktop;
     }
     HeaderDesktop.toggleMenu = toggleMenu;
     // Start top ("important notice") slideshow
-    let slideIndex = 0;
-    const notice = document.querySelector('#important-notice');
-    const slides = notice.querySelectorAll('.important-notice-slide');
+    var slideIndex = 0;
+    var notice = document.querySelector('#important-notice');
+    var slides = notice.querySelectorAll('.important-notice-slide');
     if (slides.length > 0) {
         setInterval(slideNext, 8000);
     }
     function slideNext() {
-        for (let i = 0; i < slides.length; i++) {
+        for (var i = 0; i < slides.length; i++) {
             if (slides[i].classList.contains('offscreen-left')) {
                 slides[i].classList.add('offscreen-right');
                 slides[i].classList.remove('offscreen-left');
@@ -58,7 +58,7 @@ var HeaderDesktop;
     }
     HeaderDesktop.slideNext = slideNext;
     function slidePrev() {
-        for (let i = 0; i < slides.length; i++) {
+        for (var i = 0; i < slides.length; i++) {
             if (slides[i].classList.contains('offscreen-right')) {
                 slides[i].classList.add('offscreen-left');
                 slides[i].classList.remove('offscreen-right');
@@ -70,4 +70,42 @@ var HeaderDesktop;
     }
     HeaderDesktop.slidePrev = slidePrev;
 })(HeaderDesktop || (HeaderDesktop = {}));
-//# sourceMappingURL=header.js.map
+var CookieDialog;
+(function (CookieDialog) {
+    function initialize() {
+        if (localStorage.getItem('cookiesAccepted') == 'true') {
+            /*
+            (window as any).gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted',
+                'analytics_storage': 'granted'
+            });
+            */
+        }
+        else if (sessionStorage.getItem('consentShown') != 'true') {
+            document.querySelector('#cookieConsent').showModal();
+        }
+    }
+    CookieDialog.initialize = initialize;
+    function consent(flag) {
+        if (flag === true) {
+            /*
+            (window as any).gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted',
+                'analytics_storage': 'granted'
+            });
+            */
+            localStorage.setItem('cookiesAccepted', 'true');
+        }
+        else {
+            localStorage.setItem('cookiesAccepted', 'false');
+        }
+        sessionStorage.setItem('consentShown', 'true');
+        document.querySelector('#cookieConsent').close();
+    }
+    CookieDialog.consent = consent;
+})(CookieDialog || (CookieDialog = {}));
+CookieDialog.initialize();

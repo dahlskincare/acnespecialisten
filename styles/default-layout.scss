@@ -799,6 +799,29 @@ html {
                 }
             }
         }
+
+        dialog#cookieConsent {
+            background-color: #fff;
+            padding: $xl;
+            width: 800px;
+            max-width: 80%;
+            border-radius: $radius-l;
+            border: none;
+            @include elevation-medium;
+
+            p {
+                margin-top: $s;
+            }
+
+            #cookieConsentButtons {
+                margin-top: $m;
+                display: flex;
+                column-gap: $xl;
+                align-items: center;
+                justify-content: flex-end;
+            }
+
+        }
     }
 
     body.top {

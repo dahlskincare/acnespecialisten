@@ -66,3 +66,41 @@ namespace HeaderDesktop {
         slides[slideIndex].classList.remove('offscreen-left');
     }
 }
+
+namespace CookieDialog {
+    export function initialize() {
+        if (localStorage.getItem('cookiesAccepted') == 'true') {
+            /*
+            (window as any).gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted',
+                'analytics_storage': 'granted'
+            });
+            */
+        } else if (sessionStorage.getItem('consentShown') != 'true') {
+            (document.querySelector('#cookieConsent') as HTMLDialogElement).showModal();
+        }
+    }
+
+    export function consent(flag: boolean) {
+        if (flag === true) {
+            /*
+            (window as any).gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted',
+                'analytics_storage': 'granted'
+            });
+            */
+            localStorage.setItem('cookiesAccepted', 'true');
+        } else {
+            localStorage.setItem('cookiesAccepted', 'false');
+        }
+        sessionStorage.setItem('consentShown', 'true');
+        (document.querySelector('#cookieConsent') as HTMLDialogElement).close();
+    }
+}
+
+
+CookieDialog.initialize();
