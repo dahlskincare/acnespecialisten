@@ -2,6 +2,7 @@
 /// Returns all funnels and corresponding data for a given flow
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
+header('Access-Control-Allow-Methods: GET, OPTIONS');
 
 // validate request with basic authentication
 if (!isset($_SERVER['PHP_AUTH_USER'])) {
@@ -21,12 +22,14 @@ if (!isset($_SERVER['PHP_AUTH_USER'])) {
     }
 }
 
+/*
 // get the request method
 $method = $_SERVER['REQUEST_METHOD'];
 if ($method != 'POST') {
     http_response_code(405);
     die('Method [' . $method . '] not allowed');
 }
+*/
 
 require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
