@@ -157,36 +157,42 @@
                 <div class="link-row-with-margin">
                     <div class="columns is-mobile">
                         <div class="column">
-                            <h2>Kolumn 5</h2>
+                            <h2>Hudproblem</h2>
                             <ul>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/acne.php" class="button text grey compact l10n" title="Acne">Acne</a>
                                 </li>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/acnearr.php" class="button text grey compact l10n" title="Acneärr">Acneärr</a>
                                 </li>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/finnar.php" class="button text grey compact l10n" title="Finnar">Finnar</a>
                                 </li>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/pormaskar.php" class="button text grey compact l10n" title="Pormaskar">Pormaskar</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.acnespecialisten.se/rosacea.php" class="button text grey compact l10n" title="Rosacea">Rosacea</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="column">
-                            <h2>Kolumn 6</h2>
+                            <h2>Behandling</h2>
                             <ul>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/acnebehandling.php" class="button text grey compact l10n" title="Acnebehandling">Acnebehandling</a>
                                 </li>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/behandla-acnearr.php" class="button text grey compact l10n" title="Behandla acneärr">Behandla acneärr</a>
                                 </li>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/finnar-behandling.php" class="button text grey compact l10n" title="Behandla finnar">Behandla finnar</a>
                                 </li>
                                 <li>
-                                    <a href="xxxz.php" class="button text grey compact l10n" title="xxx">xxx</a>
+                                    <a href="https://www.acnespecialisten.se/hudbehandlingar/pormaskar/" class="button text grey compact l10n" title="Pormaskbehandling">Pormaskbehandling</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.acnespecialisten.se/rosaceabehandling.php" class="button text grey compact l10n" title="Rosaceabehandling">Rosaceabehandling</a>
                                 </li>
                             </ul>
                         </div>
