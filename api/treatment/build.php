@@ -60,7 +60,9 @@ foreach ($commands as $command) {
             echo PHP_EOL;
         }
     } catch (Error $e) {
+        echo $e->getMessage();
     } catch (Exception $e) {
+        echo $e->getMessage();
     }
 }
 // add a linebreak
