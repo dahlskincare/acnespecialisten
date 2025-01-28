@@ -101,7 +101,7 @@
                             <h2>Behandling</h2>
                             <ul>
                                 <li>
-                                    <a href="https://www.acnespecialisten.se/acnebehandling.php" class="button text grey compact l10n" title="Acnebehandling">Acnebehandling</a>
+                                    <a href="https://www.acnespecialisten.se/acnebehandling.php" class="button text grey compact l10n" title="Akne behandling">Akne behandling</a>
                                 </li>
                                 <li>
                                     <a href="https://www.acnespecialisten.se/behandla-acnearr.php" class="button text grey compact l10n" title="Behandla acneärr">Behandla acneärr</a>
@@ -421,7 +421,7 @@
                             <h2>Behandlingar</h2>
                             <ul>
                                 <li>
-                                    <a href="https://www.acnespecialisten.se/acnebehandling.php" class="button text grey compact l10n" title="Acnebehandling">Acnebehandling</a>
+                                    <a href="https://www.acnespecialisten.se/acnebehandling.php" class="button text grey compact l10n" title="Akne behandling">Akne behandling</a>
                                 </li>
                                 <li>
                                     <a href="https://www.acnespecialisten.se/behandla-acnearr.php" class="button text grey compact l10n" title="Behandla acneärr">Behandla acneärr</a>
