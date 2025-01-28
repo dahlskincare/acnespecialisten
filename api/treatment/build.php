@@ -2,7 +2,7 @@
 /// Returns all funnels and corresponding data for a given flow
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json; charset=UTF-8");
-header('Access-Control-Allow-Methods: GET, OPTIONS');
+header('Access-Control-Allow-Methods: POST, OPTIONS');
 
 // validate request with basic authentication
 if (!isset($_SERVER['PHP_AUTH_USER'])) {
