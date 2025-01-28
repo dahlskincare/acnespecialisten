@@ -74,14 +74,12 @@ var CookieDialog;
 (function (CookieDialog) {
     function initialize() {
         if (localStorage.getItem('cookiesAccepted') == 'true') {
-            /*
-            (window as any).gtag('consent', 'update', {
+            window.gtag('consent', 'update', {
                 'ad_storage': 'granted',
                 'ad_user_data': 'granted',
                 'ad_personalization': 'granted',
                 'analytics_storage': 'granted'
             });
-            */
         }
         else if (sessionStorage.getItem('consentShown') != 'true') {
             document.querySelector('#cookieConsent').showModal();
@@ -90,14 +88,12 @@ var CookieDialog;
     CookieDialog.initialize = initialize;
     function consent(flag) {
         if (flag === true) {
-            /*
-            (window as any).gtag('consent', 'update', {
+            window.gtag('consent', 'update', {
                 'ad_storage': 'granted',
                 'ad_user_data': 'granted',
                 'ad_personalization': 'granted',
                 'analytics_storage': 'granted'
             });
-            */
             localStorage.setItem('cookiesAccepted', 'true');
         }
         else {
