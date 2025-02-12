@@ -107,46 +107,54 @@ $salons = array(
                     </div>
                 </section>
                 <?php if (array_key_exists('message', $_GET)) {
-                    $to = "kundservice@acnespecialisten.se";
-                    $subject = "Acnespecialisten form";
-                    $message = "
-                    <html>
-                    <head>
-      
-                    <title>Acnespecialisten form</title>
-                    </head>
-                    <body>                        
-                        <table>
-                            <tr>
-                                <td style='width:100px'>Category:</td>
-                                <td>" . $_GET['category'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>Name:</td>
-                                <td>" . $_GET['name'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>Email:</td>
-                                <td>" . $_GET['email'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>Phone:</td>
-                                <td>" . $_GET['phone'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>Message:</td>
-                                <td>" . $_GET['message'] . "</td>
-                            </tr>    
-                        </table>
-                    </body>
-                    </html>
-                    ";
+                    $category = $_GET['category'];
+                    $name = $_GET['name'];
+                    $email = $_GET['email'];
+                    $phone = $_GET['phone'];
+                    $message = $_GET['message'];
 
-                    $headers = "MIME-Version: 1.0" . "\r\n";
-                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= 'From: Acnespecialisten <hej@acnespecialisten.se>' . "\r\n";
-                    $headers .= 'Reply-To: ' . $_GET['email'] . "\r\n";
-                    mail($to, $subject, $message, $headers);
+
+                    $curl = curl_init();
+
+                    $payload = array(
+                        "ticket_type_id" => 17,
+                        "contacts" => array(
+                            array(
+                                "email" => $email,
+                            )
+                        ),
+                        "ticket_attributes" => array(
+                            "_default_title_" => $category,
+                            "_default_description_" => $message,
+                            "Name" => $name,
+                            "Email" => $email,
+                            "Phone" => $phone,
+                        ),
+                        "custom_attributes" => array(
+                            "brand" => "AcneSpecialisten",
+                        ),
+                    );
+
+                    curl_setopt_array($curl, [
+                        CURLOPT_HTTPHEADER => [
+                            "Authorization: Bearer " . $_ENV['INTERCOM_ACCESS_TOKEN'],
+                            "Content-Type: application/json",
+                            "Intercom-Version: 2.12"
+                        ],
+                        CURLOPT_POSTFIELDS => json_encode($payload),
+                        CURLOPT_URL => "https://api.intercom.io/tickets",
+                        CURLOPT_RETURNTRANSFER => true,
+                        CURLOPT_CUSTOMREQUEST => "POST",
+                    ]);
+
+                    $response = curl_exec($curl);
+                    $error = curl_error($curl);
+
+                    curl_close($curl);
+
+                    if ($error) {
+                        die("cURL Error #:" . $error);
+                    }
                 ?>
                     <section id="confirmation">
                         <div id="confirmation-banner">
@@ -248,7 +256,7 @@ $salons = array(
                                         <div class="column is-one-third">
                                             <label class="radio">
                                                 <span class="l10n">Annat</span>
-                                                <input type="radio" name="category" value="other" />
+                                                <input type="radio" checked name="category" value="other" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
@@ -323,6 +331,12 @@ $salons = array(
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
     <script type="text/javascript" src="includes/scripts/forms.js"></script>
+    <script>
+        // remove all get parameters from url
+        if (window.location.search) {
+            window.history.replaceState({}, document.title, window.location.pathname);
+        }
+    </script>
 </body>
 
 </html>
