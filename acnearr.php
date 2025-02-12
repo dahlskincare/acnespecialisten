@@ -217,7 +217,7 @@ $headline02 = "02. Behandla";
 
 $services = array(
       new Service(
-            title: 'Laser mot acneärr',
+            title: 'Laser mot acneärr (Endast Sundbyberg)',
             duration: '90 min',
             price: '4595 kr',
             content: 'Laserbehandling är en effektiv metod för att ta bort ärr i ansiktet som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
