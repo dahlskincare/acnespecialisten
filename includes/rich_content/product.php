@@ -14,6 +14,8 @@
                 "@type": "AggregateRating",
                 "ratingValue": "<?php echo $rich_product->ratingValue ?>",
                 "reviewCount": "<?php echo $rich_product->ratingCount ?>"
+                "bestRating": "5",
+                "worstRating": "1"
             },
             "offers": {
                 "@type": "Offer",
