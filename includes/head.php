@@ -26,8 +26,6 @@
 
 
 <?php
-// Add the Strict-Transport-Security header
-header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
 {
