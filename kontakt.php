@@ -129,9 +129,9 @@ $salons = array(
                             "Name" => $name,
                             "Email" => $email,
                             "Phone" => $phone,
-                        ),
-                        "custom_attributes" => array(
-                            "brand" => "AcneSpecialisten",
+                            "custom_attributes" => array(
+                                "brand" => "AcneSpecialisten",
+                            ),
                         ),
                     );
 
