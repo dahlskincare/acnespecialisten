@@ -131,7 +131,7 @@ $salons = array(
                             "Phone" => $phone,
                         ),
                         "custom_attributes" => array(
-                            "brand" => 2521,
+                            "brand" => "AcneSpecialisten",
                         ),
                     );
 
