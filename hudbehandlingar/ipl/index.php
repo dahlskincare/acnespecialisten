@@ -612,10 +612,6 @@ $faq_categories = array(
             text: '<p class="p200">Det rekommenderas att undvika direkt solljus och solbränna minst två veckor före en IPL-behandling. Solbränd hud ökar risken för oönskade biverkningar som hyperpigmentering. Det är viktigt att skydda behandlingsområdet från solen både före och efter behandlingen för att uppnå de bästa resultaten.</p>'
         ),
         new Question(
-            title: 'Kan jag genomföra IPL-behandling om jag nyligen har solat?',
-            text: '<p class="p200">Det rekommenderas att undvika direkt solljus och solbränna minst två veckor före en IPL-behandling. Solbränd hud ökar risken för oönskade biverkningar som hyperpigmentering. Det är viktigt att skydda behandlingsområdet från solen både före och efter behandlingen för att uppnå de bästa resultaten.</p>'
-        ),
-        new Question(
             title: ' Kan jag genomgå en IPL-behandling om jag tar medicin som gör mig ljuskänslig?',
             text: '<p class="p200">Om du tar mediciner som ökar din ljuskänslighet, även kända som fotosensibiliserande mediciner, är det viktigt att du informerar din behandlare om detta innan du genomgår en IPL-behandling. Fotosensibiliserande mediciner kan inkludera vissa typer av antibiotika, antiinflammatoriska läkemedel, och mediciner för aknebehandling såsom Roaccutan. Dessa mediciner kan öka risken för biverkningar från IPL-behandlingen, såsom brännskador eller pigmentförändringar.</p>'
         ),
