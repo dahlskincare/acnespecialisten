@@ -762,10 +762,10 @@ $problems['arr-fran-finnar-brost'] = new Problem(
       image_title: 'Ärr från finnar på bröstet',
       info: 'Ärr som bildas när inflammerade finnar läker och lämnar permanenta märken eller fördjupningar i huden. Dessa ärr kan variera i storlek och form och påverka hudens släthet och jämnhet. Ärrbildningen beror på hur huden läker efter inflammationen.'
 );
-$problems['pormaskar'] = new Problem(
+$problems['pormaskar-brost'] = new Problem(
       button_label: 'Pormaskar på bröstet',
       content_label: 'Pormaskar på bröstet',
-      url: 'pormaskar.php',
+      url: 'pormaskar-brost.php',
       url_title: 'Läs mer information om Pormaskar på bröstet',
       consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
       booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Comedones',
