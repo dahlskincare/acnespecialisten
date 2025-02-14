@@ -765,7 +765,7 @@ $problems['arr-fran-finnar-brost'] = new Problem(
 $problems['pormaskar-brost'] = new Problem(
       button_label: 'Pormaskar på bröstet',
       content_label: 'Pormaskar på bröstet',
-      url: 'pormaskar-brost.php',
+      url: 'pormaskar.php',
       url_title: 'Läs mer information om Pormaskar på bröstet',
       consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
       booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Comedones',
