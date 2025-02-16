@@ -7,12 +7,17 @@
         "logo": "https://acnespecialisten.se/images/logo-green.svg",
         "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+46-8-29-6101",
+            "telephone": "+468296101",
             "contactType": "Customer Service"
         },
         "sameAs": [
             "https://www.facebook.com/acnespecialisten",
             "https://www.instagram.com/acnespecialisten"
-        ]
+        ],
+        "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "718"
+  }
     }
 </script>
