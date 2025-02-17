@@ -24,25 +24,5 @@
             }
         }
     </script>
-<?php } else { ?>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org/",
-            "@type": "Product",
-            "name": "Behandlingar för problemhy",
-            "image": "https://acnespecialisten.se/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp",
-            "description": "Våra behandlingar ger dig en renare och friskare hud. Redan efter första gången kommer du att märka skillnad och vi anpassar alltid ansiktsbehandlingen efter just din hudtyp.",
-            "brand": {
-                "@type": "Brand",
-                "name": "Acnespecialisten"
-            },
-            "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "reviewCount": "638",
-                "bestRating": "5",
-                "worstRating": "1"
-            }
-        }
-    </script>
+
 <?php } ?>
