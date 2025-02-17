@@ -30,7 +30,7 @@
 
             "sameAs": [
                 "https://www.facebook.com/acnespecialisten",
-                "https://www.instagram.com/acnespecialisten"
+                "https://www.instagram.com/acnespecialisten",
                 "https://maps.app.goo.gl/nCehKyfxoxP2N3po6",
                 "https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559"
 
