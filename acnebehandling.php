@@ -7,6 +7,19 @@ $seo_description = 'Behandla din akne hos AcneSpecialisten, vi har 30 års erfar
 $seo_keywords = 'aknebehandling, akne medicin, acne behandling, bästa aknebehandling, ansikte behandling, aknebehandling, behandling acne, få bort acne, ta bort acne, hormonell aknebehandling, behandla acne, behandla akne, bli av med acne, bli av med akne, få bort akne, hur blir man av med akne';
 $seo_image = 'bilder/hudproblem/424x456/akne.jpg';
 
+$rich_product = new RichProduct
+(
+    name: "Akne Behandling", 
+    description: "Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av få bort akne med våra aknebehandlingar, Boka gratis hudkonsultation i Stockholm eller online", 
+    price: 1295, 
+    ratingCount: 718, 
+    ratingValue: 4.9, 
+    currency: "SEK", 
+    brand: "AcneSpecialisten"
+);
+
+
+
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
     new PathSegment('Aknebehandling', '/acnebehandling.php'),
