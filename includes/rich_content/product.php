@@ -2,13 +2,12 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
-            "@type": "Service",
+            "@type": "Product",
             "name": "<?php echo $rich_product->name ?>",
-            "serviceType": "Ansiktsbehandlingar mot akne och andra hudproblem",
             "image": "<?php echo $rich_product->image ?>",
             "description": "<?php echo $rich_product->description ?>",
-            "provider": {
-                "@type": "HealthAndBeautyBusiness",
+            "brand": {
+                "@type": "Brand",
                 "name": "<?php echo $rich_product->brand ?>"
             },
             "aggregateRating": {
@@ -30,13 +29,12 @@
     <script type="application/ld+json">
         {
             "@context": "https://schema.org/",
-            "@type": "Service",
+            "@type": "Product",
             "name": "Hudvårdsbehandlingar mot hudproblem",
-            "serviceType": "Ansiktsbehandlingar",
             "image": "https://acnespecialisten.se/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp",
             "description": "Våra behandlingar ger dig en renare och friskare hud. Redan efter första gången kommer du att märka skillnad och vi anpassar alltid ansiktsbehandlingen efter just din hudtyp.",
-            "Provider": {
-                "@type": "HealthAndBeautyBusiness",
+            "brand": {
+                "@type": "Brand",
                 "name": "AcneSpecialisten"
             },
             "aggregateRating": {

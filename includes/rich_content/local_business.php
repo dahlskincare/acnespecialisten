@@ -1,7 +1,7 @@
 <script type="application/ld+json">
     [{
             "@context": "https://schema.org",
-            "@type": "HealthAndBeautyBusiness",
+            "@type": "LocalBusiness",
             "name": "AcneSpecialisten Östermalm",
             "image": "https://www.acnespecialisten.se/bilder/kontakt/mobile/ostermalm.webp",
             "address": {
@@ -50,7 +50,7 @@
 
         {
             "@context": "https://schema.org",
-            "@type": "HealthAndBeautyBusiness",
+            "@type": "LocalBusiness",
             "name": "AcneSpecialisten Sundbyberg",
             "image": "https://www.acnespecialisten.se/bilder/kontakt/mobile/sundbyberg.webp",
             "address": {
@@ -96,7 +96,7 @@
 
         {
             "@context": "https://schema.org",
-            "@type": "HealthAndBeautyBusiness",
+            "@type": "LocalBusiness",
             "name": "AcneSpecialisten Södermalm",
             "image": "https://www.acnespecialisten.se/bilder/kontakt/mobile/sodermalm.webp",
             "address": {
