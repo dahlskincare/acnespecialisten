@@ -13,7 +13,7 @@ $rich_product = new RichProduct(
     name: 'Ansiktsbehandling mot Akne',
     image: 'https://acnespecialisten.se/bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
     description: 'Våra ansiktsbehandlingar ger dig en renare och friskare hud. Redan efter första gången kommer du att märka skillnad och vi anpassar ansiktsbehandlingen alltid efter just din hudtyp.',
-    price: 100,
+    price: 1295,
     currency: 'SEK',
     ratingCount: 89,
     ratingValue: 4.7,
