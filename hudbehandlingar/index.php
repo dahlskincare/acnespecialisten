@@ -613,7 +613,7 @@ $path_segments = array(
                         ),
                         new Question(
                             title: 'Finns det åldersbegränsningar för några av behandlingarna hos AcneSpecialisten?',
-                            text: '<p class="p200">På AcneSpecialisten välkomnar vi kunder i alla åldrar. Vi är medvetna om att hudproblem kan drabba personer i olika åldersgrupper. Våra behandlingsplaner skräddarsys efter individuella behov. För vissa mer intensiva eller maskinbaserade behandlingar kan åldersbegränsningar tillämpas, är du under 18 år måste man alltid ha målsmans godkännande.</p>'
+                            text: '<p class="p200">På AcneSpecialisten välkomnar vi kunder i alla åldrar. Vi är medvetna om att hudproblem kan drabba personer i olika åldersgrupper. Våra behandlingsplaner skräddarsys efter individuella behov och ofta kan behandlingen inledas i tonåren från 13 års ålder. För vissa mer intensiva eller maskinbaserade behandlingar kan åldersbegränsningar tillämpas, är du under 18 år måste man alltid ha målsmans godkännande.</p>'
                         ),
                         new Question(
                             title: 'Hur ofta bör jag genomgå en hudvårdsbehandling?',
