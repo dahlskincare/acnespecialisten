@@ -1,0 +1,77 @@
+<?php
+/// Returns all funnels and corresponding data for a given flow
+header("Access-Control-Allow-Origin: *");
+header('Access-Control-Allow-Methods: GET, OPTIONS');
+header('Access-Control-Allow-Headers: Accept-Language, Content-Type, Cache-Control');
+header("Content-Type: application/json; charset=UTF-8");
+
+require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable($_SERVER['DOCUMENT_ROOT']);
+$dotenv->load();
+
+$language = array_key_exists('HTTP_ACCEPT_LANGUAGE', $_SERVER) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : 'en';
+$language = substr($language, 0, 2);
+
+$servername = $_ENV['DB_URL'];
+$username = $_ENV['DB_USER'];
+$password = $_ENV['DB_PASSWORD'];
+$dbname = $_ENV['DB_NAME'];
+
+$conn = mysqli_connect($servername, $username, $password);
+if (!$conn) {
+    die("DB connection failed: " . mysqli_connect_error());
+}
+mysqli_set_charset($conn, 'utf8');
+mysqli_select_db($conn, $dbname);
+// Get flow steps
+$query = "
+    SELECT flow.id, flow.name_$language AS name, flow.boosted_title_$language AS boosted_title, 
+    flow.boosted_subtitle_$language AS boosted_subtitle, flow.boosted_description_$language AS boosted_description, flow.boosted_image,
+    step1.id AS step1_id, step2.id AS step2_id, step3.id AS step3_id, step4.id AS step4_id,
+    step1.title_$language AS step1_title, step2.title_$language AS step2_title, step3.title_$language AS step3_title, step4.title_$language AS step4_title,
+    step1.consultation_banner AS step1_consultation_banner, step2.consultation_banner AS step2_consultation_banner, step3.consultation_banner AS step3_consultation_banner, step4.consultation_banner AS step4_consultation_banner,
+    step1.can_skip AS step1_can_skip, step2.can_skip AS step2_can_skip, step3.can_skip AS step3_can_skip, step4.can_skip AS step4_can_skip,
+    step1.multiselect AS step1_multiselect, step2.multiselect AS step2_multiselect, step3.multiselect AS step3_multiselect, step4.multiselect AS step4_multiselect,
+    step1.next_step_label_$language AS step1_next_step_label, step2.next_step_label_$language AS step2_next_step_label, step3.next_step_label_$language AS step3_next_step_label, step4.next_step_label_$language AS step4_next_step_label
+    FROM t_flow flow
+    LEFT JOIN t_step step1 ON step1.id = flow.step1_id
+    LEFT JOIN t_step step2 ON step2.id = flow.step2_id
+    LEFT JOIN t_step step3 ON step3.id = flow.step3_id
+    LEFT JOIN t_step step4 ON step4.id = flow.step4_id
+";
+$result = mysqli_query($conn, $query);
+if ($result == false) {
+    http_response_code(500);
+    die(mysqli_error($conn));
+}
+
+$flows = array();
+while ($rs = mysqli_fetch_assoc($result)) {
+    $steps = array();
+    for ($i = 1; $i < 5; $i++) {
+        if (isset($rs['step' . $i . '_title'])) {
+            $steps[] = array(
+                'id' => $rs['step' . $i . '_id'],
+                'title' => $rs['step' . $i . '_title'],
+                'consultation_banner' => $rs['step' . $i . '_consultation_banner'],
+                'can_skip' => $rs['step' . $i . '_can_skip'],
+                'multiselect' => $rs['step' . $i . '_multiselect'],
+                'next_step_label' => $rs['step' . $i . '_next_step_label'],
+            );
+        }
+    }
+
+    $flows[] = array(
+        'id' => $rs['id'],
+        'name' => $rs['name'],
+        'steps' => $steps,
+    );
+}
+
+if (empty($flows)) {
+    http_response_code(404);
+    die('No flows found');
+}
+
+http_response_code(200);
+echo json_encode($flows, JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
