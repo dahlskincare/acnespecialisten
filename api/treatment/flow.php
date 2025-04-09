@@ -32,7 +32,7 @@ $where = "flow.url = '" . mysqli_real_escape_string($conn, $_GET['id']) . "'";
 
 // Get flow steps
 $query = "
-    SELECT flow.id, flow.name_$language AS name, flow.boosted_title_$language AS boosted_title, 
+    SELECT flow.id, flow.url, flow.name_$language AS name, flow.boosted_title_$language AS boosted_title, 
     flow.boosted_subtitle_$language AS boosted_subtitle, flow.boosted_description_$language AS boosted_description, flow.boosted_image,
     step1.id AS step1_id, step2.id AS step2_id, step3.id AS step3_id, step4.id AS step4_id,
     step1.title_$language AS step1_title, step2.title_$language AS step2_title, step3.title_$language AS step3_title, step4.title_$language AS step4_title,
@@ -111,6 +111,7 @@ if (isset($rs['boosted_image']) && isset($rs['boosted_title']) && isset($rs['boo
 
 echo json_encode(array(
     'id' => $rs['id'],
+    'url' => $rs['url'],
     'name' => $rs['name'],
     'steps' => $steps,
     'funnels' => $funnels,
