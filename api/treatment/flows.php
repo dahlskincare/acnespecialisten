@@ -33,6 +33,7 @@ $query = "
     step1.can_skip AS step1_can_skip, step2.can_skip AS step2_can_skip, step3.can_skip AS step3_can_skip, step4.can_skip AS step4_can_skip,
     step1.multiselect AS step1_multiselect, step2.multiselect AS step2_multiselect, step3.multiselect AS step3_multiselect, step4.multiselect AS step4_multiselect,
     step1.next_step_label_$language AS step1_next_step_label, step2.next_step_label_$language AS step2_next_step_label, step3.next_step_label_$language AS step3_next_step_label, step4.next_step_label_$language AS step4_next_step_label
+    step1.card_theme AS step1_card_theme, step2.card_theme AS step2_card_theme, step3.card_theme AS step3_card_theme, step4.card_theme AS step4_card_theme
     FROM t_flow flow
     LEFT JOIN t_step step1 ON step1.id = flow.step1_id
     LEFT JOIN t_step step2 ON step2.id = flow.step2_id
@@ -57,6 +58,7 @@ while ($rs = mysqli_fetch_assoc($result)) {
                 'can_skip' => $rs['step' . $i . '_can_skip'],
                 'multiselect' => $rs['step' . $i . '_multiselect'],
                 'next_step_label' => $rs['step' . $i . '_next_step_label'],
+                'card_theme' => $rs['step' . $i . '_card_theme'],
             );
         }
     }
