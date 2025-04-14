@@ -53,6 +53,8 @@ $postdata = file_get_contents("php://input");
 $commands = explode(';', $postdata);
 
 foreach ($commands as $command) {
+    echo $command;
+    echo PHP_EOL;
     try {
         $result = mysqli_query($conn, $command);
         if ($result == false) {
@@ -61,8 +63,10 @@ foreach ($commands as $command) {
         }
     } catch (Error $e) {
         echo $e->getMessage();
+        echo PHP_EOL;
     } catch (Exception $e) {
         echo $e->getMessage();
+        echo PHP_EOL;
     }
 }
 // add a linebreak
