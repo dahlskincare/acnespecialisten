@@ -26,12 +26,7 @@ mysqli_select_db($conn, $dbname);
 
 
 $query = "
-    SELECT 
-    id, name_$language AS name, subtitle_$language AS subtitle, s, m, l, xl, url_ostermalm, url_sodermalm, url_sundbyberg
-    FROM t_combo    
-    WHERE 1
-    ORDER BY rank ASC
-    LIMIT 99999";
+    SELECT id, name_{$language} AS name, subtitle_{$language} AS subtitle, s, m, l, xl, url_ostermalm, url_sodermalm, url_sundbyberg FROM t_combo ORDER BY `rank` ASC LIMIT 99999";
 
 $result = mysqli_query($conn, $query);
 if ($result == false) {

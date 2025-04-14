@@ -23,13 +23,6 @@ if (!$conn) {
 }
 mysqli_set_charset($conn, 'utf8');
 mysqli_select_db($conn, $dbname);
-
-if (!array_key_exists('id', $_GET)) {
-    http_response_code(400);
-    die('Missing required parameter: id');
-}
-$where = "flow.url = '" . mysqli_real_escape_string($conn, $_GET['id']) . "'";
-
 // Get flow steps
 $query = "
     SELECT flow.id, flow.url, flow.name_$language AS name, flow.boosted_title_$language AS boosted_title, 
@@ -46,76 +39,42 @@ $query = "
     LEFT JOIN t_step step2 ON step2.id = flow.step2_id
     LEFT JOIN t_step step3 ON step3.id = flow.step3_id
     LEFT JOIN t_step step4 ON step4.id = flow.step4_id
-    WHERE $where
 ";
 $result = mysqli_query($conn, $query);
 if ($result == false) {
     http_response_code(500);
     die(mysqli_error($conn));
 }
-$rs = mysqli_fetch_assoc($result);
-if (!$rs) {
-    http_response_code(404);
-    die('Flow not found');
-}
 
-$steps = array();
-for ($i = 1; $i < 5; $i++) {
-
-    if (isset($rs['step' . $i . '_title'])) {
-        $steps[] = array(
-            'id' => $rs['step' . $i . '_id'],
-            'title' => $rs['step' . $i . '_title'],
-            'consultation_banner' => $rs['step' . $i . '_consultation_banner'],
-            'can_skip' => $rs['step' . $i . '_can_skip'],
-            'multiselect' => $rs['step' . $i . '_multiselect'],
-            'next_step_label' => $rs['step' . $i . '_next_step_label'],
-            'card_theme' => $rs['step' . $i . '_card_theme'],
-        );
+$flows = array();
+while ($rs = mysqli_fetch_assoc($result)) {
+    $steps = array();
+    for ($i = 1; $i < 5; $i++) {
+        if (isset($rs['step' . $i . '_title'])) {
+            $steps[] = array(
+                'id' => $rs['step' . $i . '_id'],
+                'title' => $rs['step' . $i . '_title'],
+                'consultation_banner' => $rs['step' . $i . '_consultation_banner'],
+                'can_skip' => $rs['step' . $i . '_can_skip'],
+                'multiselect' => $rs['step' . $i . '_multiselect'],
+                'next_step_label' => $rs['step' . $i . '_next_step_label'],
+                'card_theme' => $rs['step' . $i . '_card_theme'],
+            );
+        }
     }
+
+    $flows[] = array(
+        'id' => $rs['id'],
+        'url' => $rs['url'],
+        'name' => $rs['name'],
+        'steps' => $steps,
+    );
 }
 
-$query = "
-    SELECT 
-    fun.name_$language AS name, fun.option1_id, fun.option2_id, fun.option3_id, fun.option4_id, fun.duration, 
-    fun.url_sodermalm, fun.url_sundbyberg, fun.url_ostermalm, 
-    fun.boost_url_sodermalm, fun.boost_url_sundbyberg, fun.boost_url_ostermalm
-    FROM t_funnel fun    
-    WHERE fun.flow_id = '" . $rs['id'] . "'
-    ORDER BY fun.id ASC LIMIT 99999";
-
-$result = mysqli_query($conn, $query);
-if ($result == false) {
-    http_response_code(500);
-    die(mysqli_error($conn));
+if (empty($flows)) {
+    http_response_code(404);
+    die('No flows found');
 }
 
 http_response_code(200);
-$funnels = array();
-foreach ($result as $row) {
-    $funnels[] = $row;
-}
-
-
-if (isset($rs['boosted_image']) && isset($rs['boosted_title']) && isset($rs['boosted_subtitle']) && isset($rs['boosted_description'])) {
-    $boost = array(
-        'title' => $rs['boosted_title'],
-        'subtitle' => $rs['boosted_subtitle'],
-        'description' => $rs['boosted_description'],
-        'image' => $rs['boosted_image']
-    );
-} else {
-    $boost = null;
-}
-
-
-
-
-echo json_encode(array(
-    'id' => $rs['id'],
-    'url' => $rs['url'],
-    'name' => $rs['name'],
-    'steps' => $steps,
-    'funnels' => $funnels,
-    'boost' => $boost,
-), JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
+echo json_encode($flows, JSON_UNESCAPED_SLASHES | JSON_NUMERIC_CHECK | JSON_UNESCAPED_UNICODE);
