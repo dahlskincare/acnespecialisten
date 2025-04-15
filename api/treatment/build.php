@@ -49,9 +49,9 @@ mysqli_select_db($conn, $dbname);
 
 // Get the posted data.
 $postdata = file_get_contents("php://input");
+echo 'data: ' . $postdata;
 // split string on ';'
 $commands = explode(';', $postdata);
-echo 'data: ' . $postdata;
 
 foreach ($commands as $command) {
     try {
