@@ -47,6 +47,8 @@ if (!$conn) {
 mysqli_set_charset($conn, 'utf8');
 mysqli_select_db($conn, $dbname);
 
+ini_set('always_populate_raw_post_data', -1);
+
 // Get the posted data.
 $postdata = file_get_contents("php://input");
 // split string on ';'
