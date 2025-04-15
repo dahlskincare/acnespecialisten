@@ -1,7 +1,7 @@
 <?php
 /// Returns all funnels and corresponding data for a given flow
 header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json; charset=UTF-8");
+header("Content-Type: text/plain");
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 
 // validate request with basic authentication
@@ -46,8 +46,6 @@ if (!$conn) {
 }
 mysqli_set_charset($conn, 'utf8');
 mysqli_select_db($conn, $dbname);
-
-ini_set('always_populate_raw_post_data', -1);
 
 // Get the posted data.
 $postdata = file_get_contents("php://input");
