@@ -85,7 +85,7 @@ namespace CookieDialog {
         } else if (sessionStorage.getItem('consentShown') != 'true') {
             (document.querySelector('#cookieConsent') as HTMLDialogElement).showModal();
         } else {
-            gtag('consent', 'update', {
+            (window as any).gtag('consent', 'update', {
                 'ad_storage': 'denied',
                 'ad_user_data': 'denied',
                 'ad_personalization': 'denied',
@@ -107,7 +107,7 @@ namespace CookieDialog {
             // Set cookie rather than localStorage so that consent state can be read by subdomains (boka.acnespecialisten.se)            
             document.cookie = "cookieConsent=true; domain=.acnespecialisten.se; path=/; expires=" + expires.toUTCString();
         } else {
-            gtag('consent', 'update', {
+            (window as any).gtag('consent', 'update', {
                 'ad_storage': 'denied',
                 'ad_user_data': 'denied',
                 'ad_personalization': 'denied',
