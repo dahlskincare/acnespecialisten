@@ -53,8 +53,6 @@ $postdata = file_get_contents("php://input");
 $commands = explode(';', $postdata);
 
 foreach ($commands as $command) {
-    echo $command;
-    echo PHP_EOL;
     try {
         $result = mysqli_query($conn, $command);
         if ($result == false) {
