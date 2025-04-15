@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Stora Porer',
       description: 'Stora porer är ofta resultatet av genetiska faktorer, åldrande och ökad talgproduktion. Här hittar du information och orsakar som påverkar porernas storlek, utseende och hur de påverkar hudens struktur.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Large_Pores', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Large_Pores', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Large_Pores', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Large_Pores', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_LargePores', 'Boka denna behandling'),
       ],
       show_consultation_card: false,

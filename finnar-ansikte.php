@@ -24,11 +24,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Finnar i ansiktet',
       description: 'Finnar i ansiktet orsakas ofta av hormonella förändringar, stress och andra faktorer. AcneSpecialisten erbjuder målinriktade behandlingar för att effektivt hantera detta hudtillstånd. Vi delar även skräddarsydda hudvårdsråd för alla åldersgrupper, vilket hjälper dig att uppnå en klarare hud.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples', 'Boka denna behandling'),
       ],
       show_consultation_card: false,

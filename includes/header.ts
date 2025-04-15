@@ -84,10 +84,19 @@ namespace CookieDialog {
             });
         } else if (sessionStorage.getItem('consentShown') != 'true') {
             (document.querySelector('#cookieConsent') as HTMLDialogElement).showModal();
+        } else {
+            (window as any).gtag('consent', 'update', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied'
+            });
         }
     }
 
     export function consent(flag: boolean) {
+        var expires = new Date();
+        expires.setTime(expires.getTime() + (365 * 24 * 60 * 60 * 1000)); // expire in 1 year
         if (flag === true) {
             (window as any).gtag('consent', 'update', {
                 'ad_storage': 'granted',
@@ -95,10 +104,16 @@ namespace CookieDialog {
                 'ad_personalization': 'granted',
                 'analytics_storage': 'granted'
             });
-            // Set cookie rather than localStorage so that consent state can be read by subdomains (boka.acnespecialisten.se)
-            var expires = new Date();
-            expires.setTime(expires.getTime() + (365 * 24 * 60 * 60 * 1000)); // expire in 1 year
+            // Set cookie rather than localStorage so that consent state can be read by subdomains (boka.acnespecialisten.se)            
             document.cookie = "cookieConsent=true; domain=.acnespecialisten.se; path=/; expires=" + expires.toUTCString();
+        } else {
+            (window as any).gtag('consent', 'update', {
+                'ad_storage': 'denied',
+                'ad_user_data': 'denied',
+                'ad_personalization': 'denied',
+                'analytics_storage': 'denied'
+            });
+            document.cookie = "cookieConsent=false; domain=.acnespecialisten.se; path=/; expires=" + expires.toUTCString();
         }
         sessionStorage.setItem('consentShown', 'true');
         (document.querySelector('#cookieConsent') as HTMLDialogElement).close();

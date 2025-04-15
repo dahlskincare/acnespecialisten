@@ -127,7 +127,7 @@ $treatment_areas = array(
                 title: 'Kinder',
                 duration: '20 min',
                 price: '995 kr',
-                url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning&area_ms=UnwantedHair_Ears',
+                url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning&area_ms=UnwantedHair_Cheeks',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
             ),

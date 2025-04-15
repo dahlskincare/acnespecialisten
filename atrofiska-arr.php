@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       title: 'Atrofiska ärr',
       description: 'Atrofiska ärr är en form av ärrbildning som ser ut som gropar eller fördjupningar i huden, vilket är en vanlig följd av akne. Denna typ av ärrbildning sker när huden inte lyckas producera tillräckligt med kollagen vid läkningen från finnar, vilket resulterar i att området sjunker inåt istället för att bilda en jämn yta.',
       links_touch: [
-            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars', 'Boka gratis konsultation för akne'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars', 'Boka gratis konsultation för akne'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_AcneScars', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
