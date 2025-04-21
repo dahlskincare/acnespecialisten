@@ -82,37 +82,37 @@
                 <div class="columns is-mobile">
                     <div class="column">
                         <h2>Hudproblem</h2>
-                            <ul>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/acne.php" class="button text grey compact l10n" title="Acne">Acne</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/acnearr.php" class="button text grey compact l10n" title="Acneärr">Acneärr</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/finnar.php" class="button text grey compact l10n" title="Finnar">Finnar</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/rosacea.php" class="button text grey compact l10n" title="Rosacea">Rosacea</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="column">
-                            <h2>Behandling</h2>
-                            <ul>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/acnebehandling.php" class="button text grey compact l10n" title="Akne behandling">Akne behandling</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/behandla-acnearr.php" class="button text grey compact l10n" title="Behandla acneärr">Behandla acneärr</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/finnar-behandling.php" class="button text grey compact l10n" title="Behandla finnar">Behandla finnar</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.acnespecialisten.se/rosaceabehandling.php" class="button text grey compact l10n" title="Rosaceabehandling">Rosaceabehandling</a>
-                                </li>
-                            </ul>
+                        <ul>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/acne.php" class="button text grey compact l10n" title="Acne">Acne</a>
+                            </li>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/acnearr.php" class="button text grey compact l10n" title="Acneärr">Acneärr</a>
+                            </li>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/finnar.php" class="button text grey compact l10n" title="Finnar">Finnar</a>
+                            </li>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/rosacea.php" class="button text grey compact l10n" title="Rosacea">Rosacea</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h2>Behandling</h2>
+                        <ul>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/acnebehandling.php" class="button text grey compact l10n" title="Akne behandling">Akne behandling</a>
+                            </li>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/behandla-acnearr.php" class="button text grey compact l10n" title="Behandla acneärr">Behandla acneärr</a>
+                            </li>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/finnar-behandling.php" class="button text grey compact l10n" title="Behandla finnar">Behandla finnar</a>
+                            </li>
+                            <li>
+                                <a href="https://www.acnespecialisten.se/rosaceabehandling.php" class="button text grey compact l10n" title="Rosaceabehandling">Rosaceabehandling</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="link-row-with-margin">
@@ -528,20 +528,6 @@
 
 <script>
     window.addEventListener('load', function() {
-        // Copy gclid url param to all links
-        var urlParams = new URLSearchParams(window.location.search);
-        var gclid = urlParams.get('gclid');
-        if (gclid) {
-            var links = document.querySelectorAll('a');
-            for (var i = 0; i < links.length; i++) {
-                var link = links[i];
-                var url = new URL(link.href);
-                url.searchParams.set('gclid', gclid);
-                link.href = url.toString();
-            }
-        }
-
-
         // add a 5 second delay
         setTimeout(function() {
             if (sessionStorage.getItem('intercomLoaded') && typeof window.Intercom === "function") {
