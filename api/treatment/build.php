@@ -1,7 +1,7 @@
 <?php
 /// Returns all funnels and corresponding data for a given flow
 header("Access-Control-Allow-Origin: *");
-header("Content-Type: application/json; charset=UTF-8");
+header("Content-Type: text/plain");
 header('Access-Control-Allow-Methods: POST, OPTIONS');
 
 // validate request with basic authentication
@@ -49,12 +49,11 @@ mysqli_select_db($conn, $dbname);
 
 // Get the posted data.
 $postdata = file_get_contents("php://input");
+echo 'data: ' . $postdata;
 // split string on ';'
 $commands = explode(';', $postdata);
 
 foreach ($commands as $command) {
-    echo $command;
-    echo PHP_EOL;
     try {
         $result = mysqli_query($conn, $command);
         if ($result == false) {
