@@ -1,4 +1,3 @@
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7EMC778CH1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
 
@@ -12,7 +11,9 @@
     'ad_personalization': 'denied',
     'analytics_storage': 'denied'
   });
-
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7EMC778CH1"></script>
+<script>
   gtag('js', new Date());
   gtag('set', 'linker', {
     'domains': ['boka.acnespecialisten.se', 'bokadirekt.se']
