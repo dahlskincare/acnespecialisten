@@ -499,6 +499,10 @@ $faq_categories = array(
             text: '<p class="p200">Vanligtvis krävs 1-3 behandlingar för att få bort hudförändringen. Detta baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större eller djupare.</p>'
         ),
         new Question(
+            title: 'Har CryoPen åldersgräns?',
+            text: '<p class="p200">Ja, som med många andra maskinbehandlingar är det 18 års gräns på behandlingen.</p>'
+        ),
+        new Question(
             title: 'Hur vet jag om min hudförändring är godartad?',
             text: '<p class="p200">Vi på AcneSpecialisten har tyvärr inte möjlighet att undersöka hudförändringar. Vi behandlar enbart godartade. Är du osäker på om din hudförändring är godartad rekommenderar vi att du först ser till att få den bedömd av en läkare.</p>'
         ),
