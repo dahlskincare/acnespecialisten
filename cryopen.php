@@ -266,7 +266,7 @@ $types = array(
 );
 
 $treatment_areas_title = 'Områden vi behandlar';
-$treatment_areas_text = '<p class="p200">CryoPen erbjuder en mångsidig lösning för att avlägsna hudförändringar på många delar av kroppen, inklusive känsliga och svåråtkomliga områden. Behandlingen kan utföras på ansikte, hals, axlar, rygg och även intima områden. CryoPen är idealisk för att behandla enstaka eller flera hudförändringar, oavsett deras storlek och placering, och anpassas för att leverera optimala resultat för varje unikt fall.</p>';
+$treatment_areas_text = '<p class="p200">CryoPen erbjuder en mångsidig lösning för att avlägsna hudförändringar på många delar av kroppen, inklusive känsliga och svåråtkomliga områden. Behandlingen kan utföras på nästan hela kroppen. CryoPen är idealisk för att behandla enstaka eller flera hudförändringar, oavsett deras storlek och placering, och anpassas för att leverera optimala resultat för varje unikt fall.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -497,6 +497,10 @@ $faq_categories = array(
         new Question(
             title: 'Hur många behandlingar krävs?',
             text: '<p class="p200">Vanligtvis krävs 1-3 behandlingar för att få bort hudförändringen. Detta baseras på genomsnittliga fall där hudförändringarna är av mindre storlek och reagerar väl på behandlingen. Det är dock viktigt att notera att varje individs hud är unik, och i vissa fall kan det vara nödvändigt med fler behandlingar för att fullständigt avlägsna hudförändringar, särskilt om de är större eller djupare.</p>'
+        ),
+        new Question(
+            title: 'Har CryoPen åldersgräns?',
+            text: '<p class="p200">Ja, som med många andra maskinbehandlingar är det 18 års gräns på behandlingen.</p>'
         ),
         new Question(
             title: 'Hur vet jag om min hudförändring är godartad?',
