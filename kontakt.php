@@ -181,7 +181,7 @@ $salons = array(
                                         <option value="treatment" class="l10n">Frågor om behandling</option>
                                         <option value="collaborations" class="l10n">Samarbete</option>
                                         <option value="cancel" class="l10n">Bokning/Avbokning</option>
-                                        <option value="örgent" class="l10n">Brådskande</option>
+                                        <option value="urgent" class="l10n">Brådskande</option>
                                         <option value="other" class="l10n">Annat</option>
                                     </select>
                                 </div>
