@@ -86,78 +86,6 @@ $top_articles = array(
 
 $big_types = array(
     new Service(
-        title: 'Easy Phytic Peel | Glycolic + Lactic + Mandelic + Phytic acids',
-        duration: '30 min',
-        price: null,
-        content: '',
-        image_small: '/bilder/hudbehandlingar/200x200/easy-phytic-peel.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/easy-phytic-peel.webp',
-        image_alt: null,
-        image_title: null,
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_1'
-            ),
-            new Procedure(
-                label: '4 behandlingar',
-                price: '5595 kr',
-                savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_4'
-            ),
-            new Procedure(
-                label: '6 behandlingar',
-                price: '7595 kr',
-                savings: 'Spara 1975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_AHA&procedures=PriceClass_A_Procedure_6'
-            ),
-        )
-    ),
-    new Service(
-        title: 'Easy Droxy Versicolor Peel | Glycolic + Lactic + Citric + Kojic + Salicylic Acid',
-        duration: '30 min',
-        price: null,
-        content: '',
-        image_small: '/bilder/hudbehandlingar/200x200/easy-droxy-versicolor-peel.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/easy-droxy-versicolor-peel.webp',
-        image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
-        image_title: 'Skin Tech Easy Droxy Versicolor Peel',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '1595 kr',
-                savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_1'
-            ),
-            new Procedure(
-                label: '4 behandlingar',
-                price: '5595 kr',
-                savings: 'Spara 785 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_4'
-            ),
-            new Procedure(
-                label: '6 behandlingar',
-                price: '7595 kr',
-                savings: 'Spara 1975 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_BHA&procedures=PriceClass_A_Procedure_6'
-            ),
-        )
-    ),
-    new Service(
         title: 'Skin Tech Easy TCA Pain Control',
         duration: '30 min',
         price: null,
@@ -473,9 +401,9 @@ $results = array(
     new ResultCustomer(
         url: '',
         image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
+            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
+            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
+            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
         url_title: 'Akne resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
