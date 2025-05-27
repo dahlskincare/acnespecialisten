@@ -1,25 +1,26 @@
 <script>
-  window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-  function gtag() {
-    dataLayer.push(arguments);
-  }
+      function gtag() {
+            dataLayer.push(arguments);
+      }
 
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'ad_user_data': 'denied',
-    'ad_personalization': 'denied',
-    'analytics_storage': 'denied'
-  });
+      gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'wait_for_update': 500,
+      });
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7EMC778CH1"></script>
 <script>
-  gtag('js', new Date());
-  gtag('set', 'linker', {
-    'domains': ['boka.acnespecialisten.se', 'bokadirekt.se']
-  });
-  gtag('config', 'G-7EMC778CH1'); // Google Analytics
-  gtag('config', 'AW-1033282580'); // Google Ads
+      gtag('js', new Date());
+      gtag('set', 'linker', {
+            'domains': ['boka.acnespecialisten.se', 'bokadirekt.se']
+      });
+      gtag('config', 'G-7EMC778CH1'); // Google Analytics
+      gtag('config', 'AW-1033282580'); // Google Ads
 </script>
 
 
@@ -30,7 +31,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 function icon($name)
 {
-  echo '<span class="icon icon-' . $name . '">' . file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/icons/' . $name . '.svg') . '</span>';
+      echo '<span class="icon icon-' . $name . '">' . file_get_contents($_SERVER['DOCUMENT_ROOT'] . '/icons/' . $name . '.svg') . '</span>';
 }
 
 ?>
