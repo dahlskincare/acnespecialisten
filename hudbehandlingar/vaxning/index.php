@@ -23,38 +23,38 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/vaxning.webp',
     image_alt: 'Vaxning',
     image_title: 'Vaxning',
-    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
-    consultation_url_label: 'Boka hudkonsultation',
-    consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://boka.acnespecialisten.se?flow=waxing',
-    booking_url_label: 'Boka behandling',
-    booking_url_title: 'Boka tid för behandling',
+    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ben-hela--3281257',
+    consultation_url_label: 'Hela ben',
+    consultation_url_title: 'Boka tid för vaxning av hela ben',
+    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
+    booking_url_label: 'Brasiliansk',
+    booking_url_title: 'Boka tid för brasiliansk vaxning',
 );
 
-$floating_box = 'Effektiv och skonsam borttagning av hår med hjälp av laser.';
+$floating_box = 'Omedelbar hårborttagning med vaxning.';
 
-$description_title = 'Vad är permanent hårborttagning med laser?';
-$description_text = '<p class="p200">Permanent hårborttagning med laser representerar den bästa och mest avancerade metoden för att effektivt och långvarigt ta bort oönskat hår. Denna högteknologiska metod är effektiv på alla kroppsdelar, till exempel ansiktet, benen, armarna, ryggen och intim såsom underlivet och rumpa. Laserbehandlingarna fungerar genom att rikta energi direkt mot hårfolliklarna, vilket förhindrar framtida hårväxt på ett säkert och effektivt sätt.</p>
-<p class="p200 mt-m">Vår laser hårborttagning är anpassningsbar för alla hud- och hårtyper, och är ett utmärkt alternativ till traditionella metoder som rakning, vaxning eller IPL. Dess unika förmåga att arbeta på flera olika djupnivåer säkerställer en grundlig behandling och minimerar risken för missade hårstrån. Denna smärtfria och tidsbesparande metod ger dig slät och hårfri hud utan behov av återhämtningstid. Vi behandlar de flesta hårtyper, hudfärger och grova strån, men notera att gråa eller röda hårstrån inte kan behandlas med denna teknik.</p>';
+$description_title = 'Vad är vaxning?';
+$description_text = '<p class="p200">Vaxning är en beprövad och effektiv metod för omedelbar hårborttagning som ger dig slät och len hud direkt efter behandlingen. Hårstråna avlägsnas från roten, vilket ger ett resultat som varar i flera veckor. Behandlingen passar för alla kroppsdelar – från ansikte och armar till ben, rygg och intimområden.</p>
+<p class="p200 mt-m">Till skillnad från rakning som endast tar bort hårstrået vid ytan, ger vaxning ett långvarigare resultat och tunnare återväxt över tid. Metoden passar de flesta hud- och hårtyper och utförs med skonsamma tekniker som minimerar risken för irritation. Vaxning är ett utmärkt alternativ för dig som vill ha en snabb och effektiv lösning utan behov av avancerad teknik eller återhämtningstid.</p>';
 
 $top_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser',
-        image_small: '/bilder/process/358x272/permanent-harborttagning-forberedelser.webp',
-        image_large: '/bilder/process/872x456/permanent-harborttagning-forberedelser.webp',
-        image_alt: 'Förberedelser inför permanent hårborttagning',
-        image_title: 'Förberedelser inför permanent hårborttagning',
-        content: '<p class="p200">Förberedelserna inför permanent hårborttagning består av en konsultation som är en viktig del av processen för att gå igenom vilka områden på kroppen som du vill ta bort hår på. Innan din laserbehandling rekommenderar vi att du undviker att vaxa eller noppa hår i behandlingsområdet, eftersom laserenergin fokuserar på håret som leder värmen ner i hårfolliklarna. Istället ska området rakas dagen innan behandlingen.</p>
-        <p class="p200 mt-m">Det är också viktigt att skydda huden från solen och inte sola under veckan innan behandling, eftersom solbränd hud kan påverka effektiviteten av laserbehandlingen och öka risken för biverkningar. Dessa förberedelser hjälper till att säkerställa att din hud är i optimalt skick för laserbehandlingen och bidrar till en smidigare och mer effektiv hårborttagningsprocess.</p>',
+        image_small: '/bilder/process/358x272/vaxning-forberedelser.webp',
+        image_large: '/bilder/process/872x456/vaxning-forberedelser.webp',
+        image_alt: 'Förberedelser inför vaxning',
+        image_title: 'Förberedelser inför vaxning',
+        content: '<p class="p200">För att få bästa möjliga resultat av din vaxning är det viktigt att följa några enkla förberedelser. Låt håret växa ut till cirka 0,5–1 cm innan behandlingen – detta gör att vaxet får bra fäste och att håren kan dras upp effektivt. Undvik att raka området minst 2 veckor innan.</p>
+        <p class="p200 mt-m">Peela gärna huden ett par dagar innan din bokade tid, men undvik att smörja in området samma dag. Kom i rena, torra kläder och undvik att använda parfymerade produkter på området som ska behandlas. Dessa steg hjälper till att minska risken för irritation och säkerställer en skonsam och effektiv vaxningsupplevelse.</p>',
     ),
     'process' => new Article(
         title: 'Hur fungerar behandlingen?',
-        image_small: '/bilder/process/358x272/permanent-harborttagning-process.webp',
-        image_large: '/bilder/process/872x456/permanent-harborttagning-process.webp',
-        image_alt: 'Hur fungerar laser hårborttagning?',
-        image_title: 'Hur fungerar laser hårborttagning?',
-        content: '<p class="p200">Permanent hårborttagning med laser är en noggrant anpassad behandling som effektivt minskar oönskad hårväxt. Under behandlingen appliceras laserljus på de områden där hårborttagning önskas. Ljuset absorberas av pigmentet i hårfolliklarna som omvandlas till värme, vilket skadar hårfolliklarna och därmed hindrar framtida hårväxt. Denna metod är noggrann och riktar sig selektivt mot håret, vilket minimerar påverkan på den omgivande huden. Alla våra lasermaskiner för permanent hårborttagning har effektiva kylsystem som gör att behandlingarna nästan är smärtfria.</p>
-        <p class="p200 mt-m">Efter behandlingen kan du märka en viss rodnad och svullnad i de behandlade områdena, vilket är en normal reaktion och bör avta inom kort. Eftersom hår växer i olika faser behövs flera behandlingar behövas för att uppnå permanent resultat. Vår expertis inom permanent hårborttagning med laser garanterar en säker och effektiv process, vilket ger dig slät och hårfri hud.</p>',
+        image_small: '/bilder/process/358x272/vaxning-process.webp',
+        image_large: '/bilder/process/872x456/vaxning-process.webp',
+        image_alt: 'Hur fungerar vaxning?',
+        image_title: 'Hur fungerar vaxning?',
+        content: '<p class="p200">Vaxning är en snabb och effektiv metod för att ta bort oönskat hår. Under behandlingen appliceras varmt eller kallt vax på huden, som sedan avlägsnas tillsammans med hårstråna från roten. Resultatet är en slät hud som varar i flera veckor.</p>
+        <p class="p200 mt-m">Direkt efter behandlingen kan du uppleva viss rodnad eller en lätt känsla av irritation – detta är helt normalt och brukar lägga sig snabbt. Regelbunden vaxning kan leda till att hårstråna blir tunnare och färre över tid. Våra terapeuter arbetar med professionell teknik för att vaxningen ska vara så behaglig som möjligt och ge ett långvarigt resultat.</p>',
     ),
 );
 
@@ -399,142 +399,17 @@ $treatment_areas = array(
 
 );
 
-$bottom_articles = array('aftercare' => new Article(
-    title: 'Eftervård',
-    image_small: '/bilder/process/358x272/permanent-harborttagning-eftervard.webp',
-    image_large: '/bilder/process/872x456/permanent-harborttagning-eftervard.webp',
-    image_alt: 'Eftervård för Permanent Hårborttagning',
-    image_title: 'Eftervård för Permanent Hårborttagning',
-    content: '<p class="p200">Efter en laser behandling för permanent hårborttagning är en smidig återhämtning avgörande för att säkerställa de bästa resultaten. Du kan förvänta dig en viss rodnad och en lätt värmande känsla i det behandlade området, men dessa symtom är vanligtvis milda och avtar snabbt. För att underlätta återhämtningen, rekommenderar vi att du tar hand om området försiktigt och undviker direkt exponering för solen under de första dagarna efter behandlingen.</p>
-    <p class="p200 mt-m">Undvik hård skrubbning och använd inte irriterande hudvårdsprodukter. Det är också viktigt att undvika andra hårborttagningsmetoder som vaxning eller plockning under läkningsperioden. Använd ett högt SPF-solskydd om du ska vara utomhus, för att skydda huden från ytterligare skador och stödja återhämtningsprocessen.</p>
-    <p class="p200 mt-m">Om du upplever någon ovanlig irritation eller har frågor om din återhämtning, är det viktigt att du kontaktar oss. En korrekt skötsel efter din behandling för permanent hårborttagning är nyckeln till en snabb och problemfri återhämtning, och hjälper till att upprätthålla och optimera behandlingens resultat.</p>',
-));
-
-$service_brands_title = 'Våra lasermaskiner för permanent hårborttagning';
-$service_brands_text = '<p class="p200">Vi utför Permanent Hårborttagning med Splendor X och Soprano Ice som är de två bästa maskinerna på marknaden.</p>';
-$service_brands = array(
-
-    new Brand(
-        label: 'Splendor X',
-        image: 'bilder/logotyper/splendor-x.png',
-        image_alt: 'Splendor X logotyp',
-        image_title: 'Splendor X - Permanent hårborttagning med laser',
-        url: '/varumarken/splendor-x/',
-        url_title: 'Splendor X',
-    ),
-    new Brand(
-        label: 'Soprano Ice',
-        image: 'bilder/logotyper/soprano-ice.png',
-        image_alt: 'Soprano Ice logotyp',
-        image_title: 'Soprano Ice - Permanent hårborttagning med laser',
-        url: '/varumarken/soprano-ice/',
-        url_title: 'Soprano Ice',
-    ),
-);
-
-$results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
-        url_title: 'Akne resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 21,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '5 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
-        url_title: 'Akne resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 18,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Akne">Akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
-        url_title: 'Rosacea resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 33,
-        gender: 'Kvinna',
-        problem: 'Rosacea',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Rosaceabehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår rosacea',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
+$bottom_articles = array(
+    'aftercare' => new Article(
+        title: 'Eftervård',
+        image_small: '/bilder/process/358x272/vaxning-eftervard.webp',
+        image_large: '/bilder/process/872x456/vaxning-eftervard.webp',
+        image_alt: 'Eftervård för vaxning',
+        image_title: 'Eftervård för vaxning',
+        content: '<p class="p200">Efter en vaxningsbehandling är huden ofta extra känslig och behöver omtanke för att återhämta sig optimalt. Det är vanligt att uppleva en lätt rodnad eller värmekänsla i det behandlade området, men detta brukar lägga sig inom några timmar.</p>
+        <p class="p200 mt-m">Undvik att duscha varmt, träna intensivt eller använda parfymerade produkter de första 24 timmarna efter behandlingen. Vi rekommenderar att du bär löst sittande kläder och låter huden vila från sol, bastu och peeling i minst ett par dagar.</p>
+        <p class="p200 mt-m">För att minska risken för inåtväxta hårstrån, kan du börja exfoliera försiktigt några dagar efter behandlingen och återfukta huden regelbundet. Om du har frågor eller upplever ovanlig irritation – tveka inte att kontakta oss. Rätt eftervård gör din vaxning både skönare och mer hållbar.</p>',
+    )
 );
 
 $reviews_title = 'Omdömen';
@@ -544,28 +419,44 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
-            title: 'Hur många behandlingar behövs för permanent hårborttagning?',
-            text: '<p class="p200">Antalet behandlingar för permanent hårborttagning varierar beroende på individens hårtyp, hårfärg och det område som behandlas. Generellt krävs det 8-12 behandlingar för att uppnå optimala resultat. Varje behandling utförs med några veckors mellanrum för att följa hårets tillväxtcykel.</p>'
+            title: 'Hur länge håller resultatet efter vaxning?',
+            text: '<p class="p200">Resultatet efter en vaxning varar vanligtvis mellan 3 till 5 veckor, beroende på din individuella hårväxtcykel. Regelbunden vaxning kan leda till att håren växer ut tunnare och glesare över tid.</p>'
         ),
         new Question(
-            title: 'Hur länge håller laser hårborttagning?',
-            text: '<p class="p200">Målet med laser hårborttagning är att permanent eliminera oönskat hår. När behandlingen är klar och hårfollikeln slutar producera hår, upphör hårväxten helt. För att uppnå detta resultat är det viktigt att noggrant följa de rekommenderade behandlingsintervallerna. Dessa intervaller är utformade för att behandlingen ska ske under rätt fas av hårets tillväxtcykel, vilket är avgörande för effektiviteten. Om behandlingsplanens intervaller inte följs kan det resultera i att det tar längre tid att uppnå en permanent hårfri status. Att följa dessa riktlinjer noggrant säkerställer att du får ut det mesta och bästa av din behandling för långvariga resultat.</p>'
+            title: 'Gör vaxning ont?',
+            text: '<p class="p200">Vaxning kan upplevas som obehagligt, särskilt första gången eller på känsliga områden. Smärtan är dock kortvarig och de flesta vänjer sig snabbt. Våra terapeuter arbetar skonsamt och effektivt för att göra behandlingen så behaglig som möjligt.</p>'
         ),
         new Question(
-            title: 'Är laserbehandling för permanent hårborttagning smärtsamt?',
-            text: '<p class="p200">Många upplever att laserbehandling för permanent hårborttagning är mycket mindre smärtsamt jämfört med alternativa metoder, såsom vaxning och IPL. Ofta liknas känslan vid behandlingen vid ett lätt snärt mot huden. Det är dock viktigt att notera att upplevelsen av smärta kan variera från person till person, beroende på individens smärttröskel samt vilket område som behandlas. För att ytterligare minska obehaget är alla våra lasermaskiner utrustade med avancerade kylsystem. Dessa system är placerade direkt på munstycket som avger laserstrålen, vilket hjälper till att kyla ner huden omedelbart före varje pulsslag. Denna funktion bidrar till en mer bekväm behandlingsupplevelse.</p>'
+            title: 'Hur långt måste håret vara för att vaxas?',
+            text: '<p class="p200">För bästa resultat bör håret vara minst 0,5 cm långt – ungefär som ett riskorn. Om håret är för kort får inte vaxet tillräckligt fäste, vilket kan påverka resultatet.</p>'
         ),
         new Question(
-            title: 'Hur ofta utförs laser hårborttagning?',
-            text: '<p class="p200">Behandlingsintervallen för laser hårborttagning varierar beroende på vilket område av kroppen som behandlas, eftersom olika delar har olika hårväxtcykler. För ansiktet rekommenderas behandling var fjärde vecka för att effektivt rikta in sig på hårets tillväxtfas. För områden på överkroppen, inklusive intimbehandlingar, är det lämpligt med behandling var sjätte vecka. Underkroppen, såsom lår och ben, bör behandlas var åttonde vecka för bästa möjliga resultat. Dessa intervaller är optimerade för att matcha de unika växtcyklerna för varje område och maximera effektiviteten av behandlingen mot permanent hårborttagning.</p>
-
-            <p class="p200 mt-m">En individuell behandlingsplan utformas av din personliga laserterapeut för att säkerställa att du får den mest effektiva behandlingen för permanent hårborttagning. Din terapeut kommer att bedöma dina specifika behov, hudtyp och hårväxt för att fastställa de optimala behandlingsintervallerna och antalet sessioner som krävs för att uppnå bästa möjliga resultat. Detta skräddarsydda tillvägagångssätt garanterar att behandlingen är anpassad just för dig.</p>'
+            title: 'Kan jag vaxa mig om jag är gravid?',
+            text: '<p class="p200">Ja, det går bra att vaxa sig under graviditet, men huden kan vara extra känslig. Informera alltid din terapeut om att du är gravid, så anpassar vi behandlingen därefter.</p>'
         ),
         new Question(
-            title: 'Kan man göra permanent hårborttagning hemma?',
-            text: '<p class="p200">Nej, att uppnå helt permanent hårborttagning hemma är inte möjligt med maskiner för hemmabruk. Hemmabrukstekniker kan potentiellt minska hårväxten till viss del, men de kan inte erbjuda de permanenta resultaten som professionella behandlingar gör. För helt permanent hårborttagning rekommenderas professionella metoder som laserhårborttagning eller elektrolys, som är utformade för att målinrikta och permanent minska hårväxten med stor precision och säkerhet.</p>
-
-            <p class="p200 mt-m">Dessutom är säkerhetsaspekten viktig att överväga. Hemmabruk av hårborttagningsenheter innebär en risk för hudirritationer, brännskador och i värsta fall permanenta hudskador om de används felaktigt. Professionella behandlare har särskild utbildning och tillgång till avancerad utrustning för att minimera dessa risker, vilket gör att de kan erbjuda en säker och effektiv behandling för permanent hårborttagning.</p>'
+            title: 'Finns det något jag bör undvika efter vaxning?',
+            text: '<p class="p200">Ja, undvik att sola, bada bastu, träna hårt eller använda parfymerade produkter det första dygnet efter vaxning. Detta för att minska risken för irritation och inåtväxta hårstrån.</p>'
+        ),
+        new Question(
+            title: 'Hur ofta bör man vaxa sig?',
+            text: '<p class="p200">De flesta vaxar sig var 4:e till 6:e vecka beroende på hur snabbt håret växer ut. Regelbunden vaxning kan göra att håret växer långsammare och blir mjukare över tid.</p>'
+        ),
+        new Question(
+            title: 'Kan alla göra vaxning?',
+            text: '<p class="p200">Vaxning passar de allra flesta, men om du har mycket känslig hud, eksem, solbränna eller tar vissa mediciner bör du rådgöra med din terapeut innan behandling.</p>'
+        ),
+        new Question(
+            title: 'Vad är skillnaden mellan brasiliansk vaxning och bikinilinje?',
+            text: '<p class="p200">Brasiliansk vaxning innebär att allt hår i intimområdet tas bort, även mellan skinkorna. Bikinilinje innebär att endast håret utanför underklädeslinjen avlägsnas.</p>'
+        ),
+        new Question(
+            title: 'Hur förbereder jag mig inför min vaxning?',
+            text: '<p class="p200">Peela huden ett par dagar innan och undvik att smörja in området samma dag som behandlingen. Se till att håret är tillräckligt långt för att vaxas och kom i rena, torra kläder.</p>'
+        ),
+        new Question(
+            title: 'Får man röda prickar efter vaxning?',
+            text: '<p class="p200">Ja, det är vanligt att få tillfälliga röda prickar efter vaxning. De brukar försvinna inom några timmar. Återfukta huden och undvik att klia på området för att underlätta läkningen.</p>'
         ),
     )
 );
