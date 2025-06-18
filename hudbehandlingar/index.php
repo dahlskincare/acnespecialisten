@@ -110,9 +110,9 @@ $treatments = array(
         url_title: 'Läs mer om Permanent Hårobrttagning'
     ),
     new Treatment(
-        label: 'Skinbooster',
-        url: '/hudbehandlingar/skinbooster/',
-        url_title: 'Läs mer om skinbooster'
+        label: 'Vaxning',
+        url: '/hudbehandlingar/vaxning/',
+        url_title: 'Läs mer om vaxningar'
     ),
     new Treatment(
         label: 'Hudkonsultation',
@@ -125,9 +125,9 @@ $people_search_for_title = "Populära alternativ";
 
 $people_search_for = array(
     new Treatment(
-        label: 'Vaxning',
-        url: 'https://www.sverigesskonhetscenter.se/vaxning.php',
-        url_title: 'Läs mer om vaxningar'
+        label: 'Skinbooster',
+        url: '/hudbehandlingar/skinbooster/',
+        url_title: 'Läs mer om skinbooster'
     ),
     new Treatment(
         label: 'Aknebehandlingar',
