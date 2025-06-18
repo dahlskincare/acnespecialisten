@@ -125,6 +125,11 @@ $people_search_for_title = "Populära alternativ";
 
 $people_search_for = array(
     new Treatment(
+        label: 'Vaxning',
+        url: 'https://www.sverigesskonhetscenter.se/vaxning.php',
+        url_title: 'Läs mer om vaxningar'
+    ),
+    new Treatment(
         label: 'Aknebehandlingar',
         url: '/acnebehandling.php',
         url_title: 'Läs mer om aknebehandlingar'
