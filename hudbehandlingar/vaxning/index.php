@@ -729,7 +729,7 @@ $all_brands = array(
                             <?php } ?>
                         </ul>
                         
-                        <?php foreach ($treatment_areas as $treatment_area) { ?>
+                        <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
                             <div class=" treatment-area" id="treatment-area-<?php echo $index ?>">
                                 <?php if (isset($treatment_area->image_small)) { ?>
                                     <picture>
