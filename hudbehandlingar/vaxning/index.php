@@ -222,7 +222,7 @@ $treatment_areas = array(
         description: '<p class="p200">Vi erbjuder skonsam intimvaxning för kvinnor med fokus på komfort, hygien och ett lent resultat. Välj det alternativ som passar dig bäst.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/brasiliansk.webp',
+                image: '/bilder/omraden/92x92/brasiliansk-anus.webp',
                 image_alt: 'Brasiliansk',
                 image_title: 'Brasiliansk',
                 title: 'Brasiliansk',
@@ -233,7 +233,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/rumpa.webp',
+                image: '/bilder/omraden/92x92/anus.webp',
                 image_alt: 'Rumpa (Inre & Yttre)',
                 image_title: 'Rumpa (Inre & Yttre)',
                 title: 'Rumpa (Inre & Yttre)',
@@ -265,7 +265,7 @@ $treatment_areas = array(
         description: '<p class="p200">Spara tid och få ett helhetsresultat med våra utvalda vaxningspaket för kvinnor. Perfekt för dig som vill känna dig silkeslen från topp till tå.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/clean-smooth.webp',
+                image: null,
                 image_alt: 'Clean & Smooth',
                 image_title: 'Clean & Smooth',
                 title: 'Clean & Smooth',
@@ -276,7 +276,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/silky-legs.webp',
+                image: null,
                 image_alt: 'Silky Legs',
                 image_title: 'Silky Legs',
                 title: 'Silky Legs',
@@ -287,7 +287,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/full-body-basic.webp',
+                image: null,
                 image_alt: 'Full Body Basic',
                 image_title: 'Full Body Basic',
                 title: 'Full Body Basic',
@@ -298,7 +298,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/glow-face.webp',
+                image: null,
                 image_alt: 'Glow Face',
                 image_title: 'Glow Face',
                 title: 'Glow Face',
@@ -319,7 +319,7 @@ $treatment_areas = array(
         description: '<p class="p200">Vi erbjuder trygg och professionell intimvaxning för män. Välj mellan brasiliansk, bikinilinje eller vaxning av rumpa – alltid med fokus på hygien och komfort.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/brasiliansk-man.webp',
+                image: '/bilder/omraden/92x92/manzilian.webp',
                 image_alt: 'Brasiliansk (Man)',
                 image_title: 'Brasiliansk (Man)',
                 title: 'Brasiliansk (Man)',
@@ -330,7 +330,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/rumpa-man.webp',
+                image: '/bilder/omraden/92x92/anus-man.webp',
                 image_alt: 'Rumpa (Man)',
                 image_title: 'Rumpa (Man)',
                 title: 'Rumpa (Man)',
@@ -341,7 +341,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/bikinilinje-man.webp',
+                image: '/bilder/omraden/92x92/manzilian-konsultation.webp',
                 image_alt: 'Bikinilinje (Man)',
                 image_title: 'Bikinilinje (Man)',
                 title: 'Bikinilinje (Man)',
@@ -362,7 +362,7 @@ $treatment_areas = array(
         description: '<p class="p200">Våra paket för män kombinerar flera vaxningsområden för ett helhetsresultat. Perfekt för dig som vill känna dig fräsch och välvårdad på ett effektivt sätt.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/clean-chest-back.webp',
+                image: null,
                 image_alt: 'Clean Chest & Back',
                 image_title: 'Clean Chest & Back',
                 title: 'Clean Chest & Back',
@@ -373,7 +373,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/smooth-start.webp',
+                image: null,
                 image_alt: 'Smooth Start',
                 image_title: 'Smooth Start',
                 title: 'Smooth Start',
@@ -384,7 +384,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/full-body-pro.webp',
+                image: null,
                 image_alt: 'Full Body Pro',
                 image_title: 'Full Body Pro',
                 title: 'Full Body Pro',
@@ -721,6 +721,14 @@ $all_brands = array(
                         <?php if (isset($treatment_areas_text)) { ?>
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
+                        <ul id="treatment-area-selector">
+                            <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
+                                <li class="treatment-area-selector-item" data-index="<?php echo $index ?>" onclick="scrollToCategory(this)">
+                                    <?php echo $treatment_area->title ?>
+                                </li>
+                            <?php } ?>
+                        </ul>
+                        
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
                             <?php if (isset($treatment_area->image_small)) { ?>
                                 <picture>
