@@ -11,7 +11,7 @@ $seo_image = 'bilder/hudbehandlingar/424x456/vaxning.webp';
 
 $path_segments = array(
     new PathSegment('Behandlingar', '/hudbehandlingar/'),
-    new PathSegment('Permanent Laser Hårborttagning', '/hudbehandlingar/vaxning/'),
+    new PathSegment('Vaxning', '/hudbehandlingar/vaxning/'),
 );
 
 $model = new Service(
@@ -828,6 +828,7 @@ $all_brands = array(
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
+    <script src="/includes/scripts/floating-image.js"></script>
 </body>
 
 </html>
