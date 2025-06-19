@@ -750,13 +750,6 @@ $all_brands = array(
                         <?php if (isset($treatment_areas_text)) { ?>
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
-                        <ul id="treatment-area-selector">
-                            <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
-                                <li class="treatment-area-selector-item" data-index="<?php echo $index ?>" onclick="scrollToCategory(this)">
-                                    <?php echo $treatment_area->title ?>
-                                </li>
-                            <?php } ?>
-                        </ul>
                         
                         <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
                             <div class=" treatment-area" id="treatment-area-<?php echo $index ?>">
@@ -835,8 +828,6 @@ $all_brands = array(
         </div>
     </main>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'); ?>
-    <script src="/includes/scripts/floating-image.js"></script>
-    <script type="text/javascript" src="vaxning.js"></script>
 </body>
 
 </html>
