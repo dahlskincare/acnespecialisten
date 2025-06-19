@@ -205,7 +205,7 @@ $people_search_for = array(
 $service_categories = array(
     new ServiceCategory(
         url: '/hudbehandlingar/vaxning/',
-        label: 'Vaxning för silkeslen hud',
+        label: 'Vaxning',
         content: 'Professionell vaxning för dig som vill ha omedelbar slät och hårfri hud. Vi erbjuder skonsamma behandlingar för både kvinnor och män – från ben och bikinilinje till intimvaxning.',
         image_small: '/bilder/hudbehandlingar/200x200/vaxning.webp',
         image_large: '/bilder/hudbehandlingar/424x324/vaxning.webp',
@@ -218,27 +218,15 @@ $service_categories = array(
         consultation_url_title: 'Boka tid för brasiliansk vaxning',
         consultation_url_label: 'Brasiliansk',
         services: array(
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/hela-ben.webp',
-                image_alt: 'Ben (Hela)',
-                image_title: 'Ben (Hela)',
-                title: 'Ben (Hela)',
-                duration: '50 min',
-                price: '1 195 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ben-hela--3281257',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
+            new Treatment(
+                url: '/hudbehandlingar/vaxning/',
+                label: 'Hela ben',
+                url_title: 'Läs mer om vaxning för hela ben',
             ),
-            new TreatmentAreaItem(
-                image: '/bilder/omraden/92x92/bikinilinje.webp',
-                image_alt: 'Bikinilinje',
-                image_title: 'Bikinilinje',
-                title: 'Bikinilinje',
-                duration: '20 min',
-                price: '595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-bikiniljnje-3281264',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
+            new Treatment(
+                url: '/hudbehandlingar/vaxning/',
+                label: 'Bikinilinje',
+                url_title: 'Läs mer om vaxning för bikilininje',
             ),
         ),
         read_more_label: 'Läs mer',
