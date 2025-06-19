@@ -118,7 +118,7 @@
             <div class="important-notice-slide">
                 <span class="important-notice-highlight">Nyhet</span>
                 <span>Vaxning</span>
-                <a href="/vaxning.php" title="Studentrabatt">Läs mer</a>
+                <a href="/hudbehandlingar/vaxning/" title="Vaxning">Läs mer</a>
             </div>
             <div class="important-notice-slide offscreen-right">
                 <span class="important-notice-highlight">20%</span>
