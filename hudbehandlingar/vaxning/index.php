@@ -24,7 +24,7 @@ $model = new Service(
     image_alt: 'Vaxning',
     image_title: 'Vaxning',
     consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
-    consultation_url_label: 'Brasiliannsk',
+    consultation_url_label: 'Brasiliansk',
     consultation_url_title: 'Boka tid för brasiliansk vaxning',
     booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
     booking_url_label: 'Manzilian',
