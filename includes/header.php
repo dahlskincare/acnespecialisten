@@ -116,17 +116,22 @@
     <div class="container" id="important-notice-container">
         <div id="important-notice">
             <div class="important-notice-slide">
+                <span class="important-notice-highlight">Nyhet</span>
+                <span>Vaxning</span>
+                <a href="/vaxning.php" title="Studentrabatt">Läs mer</a>
+            </div>
+            <div class="important-notice-slide">
                 <span class="important-notice-highlight">20%</span>
                 <span>Studentrabatt</span>
-                <a href="studentrabatt/" title="Studentrabatt">Läs mer</a>
+                <a href="/studentrabatt/" title="Studentrabatt">Läs mer</a>
             </div>
             <div class="important-notice-slide offscreen-right">
                 <span>Gratis hudkonsultation</span>
-                <a href="gratis-hudkonsultation.php" title="Gör vår hudkonsultation">Läs mer</a>
+                <a href="/gratis-hudkonsultation.php" title="Gör vår hudkonsultation">Läs mer</a>
             </div>
             <div class="important-notice-slide offscreen-right">
                 <span>Presentkort</span>
-                <a href="presentkort.php" title="Presentkort">Läs mer</a>
+                <a href="/presentkort.php" title="Presentkort">Läs mer</a>
             </div>
             <div class="important-notice-slide-button" id="important-notice-prev" onclick="HeaderDesktop.slidePrev()"><?php icon('navigate-next') ?></div>
             <div class="important-notice-slide-button" id="important-notice-next" onclick="HeaderDesktop.slideNext()"><?php icon('navigate-next') ?></div>
