@@ -23,12 +23,12 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/vaxning.webp',
     image_alt: 'Vaxning',
     image_title: 'Vaxning',
-    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ben-hela--3281257',
-    consultation_url_label: 'Hela ben',
-    consultation_url_title: 'Boka tid för vaxning av hela ben',
-    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
-    booking_url_label: 'Brasiliansk',
-    booking_url_title: 'Boka tid för brasiliansk vaxning',
+    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
+    consultation_url_label: 'Brasiliannsk',
+    consultation_url_title: 'Boka tid för brasiliansk vaxning',
+    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
+    booking_url_label: 'Manzilian',
+    booking_url_title: 'Boka tid för manzilian',
 );
 
 $floating_box = 'Omedelbar hårborttagning med vaxning.';

@@ -204,6 +204,47 @@ $people_search_for = array(
 
 $service_categories = array(
     new ServiceCategory(
+        url: '/hudbehandlingar/vaxning/',
+        label: 'Vaxning för silkeslen hud',
+        content: 'Professionell vaxning för dig som vill ha omedelbar slät och hårfri hud. Vi erbjuder skonsamma behandlingar för både kvinnor och män – från ben och bikinilinje till intimvaxning.',
+        image_small: '/bilder/hudbehandlingar/200x200/vaxning.webp',
+        image_large: '/bilder/hudbehandlingar/424x324/vaxning.webp',
+        image_title: 'Vaxningsbehandlingar',
+        image_alt: 'Person som genomgår vaxningsbehandling på klinik',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
+        booking_url_title: 'Boka tid för manzilian',
+        booking_url_label: 'Manzilian',
+        consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
+        consultation_url_title: 'Boka tid för brasiliansk vaxning',
+        consultation_url_label: 'Brasiliansk',
+        services: array(
+            new TreatmentAreaItem(
+                image: '/bilder/omraden/92x92/hela-ben.webp',
+                image_alt: 'Ben (Hela)',
+                image_title: 'Ben (Hela)',
+                title: 'Ben (Hela)',
+                duration: '50 min',
+                price: '1 195 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ben-hela--3281257',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+            new TreatmentAreaItem(
+                image: '/bilder/omraden/92x92/bikinilinje.webp',
+                image_alt: 'Bikinilinje',
+                image_title: 'Bikinilinje',
+                title: 'Bikinilinje',
+                duration: '20 min',
+                price: '595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-bikiniljnje-3281264',
+                url_label: 'Boka',
+                url_title: 'Boka tid för behandling'
+            ),
+        ),
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om vaxningsbehandlingar'
+    ),
+    new ServiceCategory(
         url: '/problemhy.php',
         label: 'Ansiktsbehandling mot problemhy',
         content: 'Ansiktsbehandlingar mot problemhy såsom akne, rosacea och pormaskar med mera. Med noggrant utvalda produkter och tekniker rengör och återställer vi din hud, och förebygger framtida hudproblem.',
