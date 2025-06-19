@@ -120,14 +120,10 @@
                 <span>Vaxning</span>
                 <a href="/vaxning.php" title="Studentrabatt">Läs mer</a>
             </div>
-            <div class="important-notice-slide">
+            <div class="important-notice-slide offscreen-right">
                 <span class="important-notice-highlight">20%</span>
                 <span>Studentrabatt</span>
                 <a href="/studentrabatt/" title="Studentrabatt">Läs mer</a>
-            </div>
-            <div class="important-notice-slide offscreen-right">
-                <span>Gratis hudkonsultation</span>
-                <a href="/gratis-hudkonsultation.php" title="Gör vår hudkonsultation">Läs mer</a>
             </div>
             <div class="important-notice-slide offscreen-right">
                 <span>Presentkort</span>
