@@ -209,7 +209,7 @@ $salons = array(
                                 <div class="columns">
                                     <div class="column is-one-third">
                                         <label class="radio">
-                                            <span class="l10n">Ny bokning</span>
+                                            <span class="l10n">Bokningsfrågor</span>
                                             <input type="radio" name="category" value="Bokningsfrågor" />
                                             <span class="check"></span>
                                         </label>
@@ -233,7 +233,7 @@ $salons = array(
                                     <div class="columns">
                                         <div class="column is-one-third">
                                             <label class="radio">
-                                                <span class="l10n">Bokning/Avbokning</span>
+                                                <span class="l10n">Avbokning</span>
                                                 <input type="radio" name="category" value="Avbokning" />
                                                 <span class="check"></span>
                                             </label>
