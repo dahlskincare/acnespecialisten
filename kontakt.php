@@ -169,12 +169,12 @@ $salons = array(
                                 </label>
                                 <div class="select-wrapper">
                                     <select name="category">
-                                        <option value="new_booking" class="l10n">Ny bokning</option>
-                                        <option value="treatment" class="l10n">Frågor om behandling</option>
-                                        <option value="collaborations" class="l10n">Samarbete</option>
-                                        <option value="cancel" class="l10n">Bokning/Avbokning</option>
-                                        <option value="urgent" class="l10n">Brådskande</option>
-                                        <option value="other" class="l10n">Annat</option>
+                                        <option value="Bokningsfrågor" class="l10n">Bokningsfrågor</option>
+                                        <option value="Frågor om behandling" class="l10n">Frågor om behandling</option>
+                                        <option value="Samarbete" class="l10n">Samarbete</option>
+                                        <option value="Avbokning" class="l10n">Avbokning</option>
+                                        <option value="Brådskande" class="l10n">Brådskande</option>
+                                        <option value="Annat" class="l10n">Annat</option>
                                     </select>
                                 </div>
                                 <label for="name" class="mt-xl">
@@ -210,7 +210,7 @@ $salons = array(
                                     <div class="column is-one-third">
                                         <label class="radio">
                                             <span class="l10n">Ny bokning</span>
-                                            <input type="radio" name="category" value="Ny bokning" />
+                                            <input type="radio" name="category" value="Bokningsfrågor" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
@@ -234,7 +234,7 @@ $salons = array(
                                         <div class="column is-one-third">
                                             <label class="radio">
                                                 <span class="l10n">Bokning/Avbokning</span>
-                                                <input type="radio" name="category" value="Bokning/Avbokning" />
+                                                <input type="radio" name="category" value="Avbokning" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
