@@ -108,7 +108,7 @@ $salons = array(
                 </section>
                 <?php if (array_key_exists('message', $_GET)) {
                     $to = "info@acnespecialisten.se";
-                    $subject = "Acnespecialisten form";
+                    $subject = $_GET['category'];
                     $message = "
                     <html>
                     <head>
