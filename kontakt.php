@@ -91,9 +91,9 @@ $salons = array(
                         <a href="tel:08-29 61 01" class="button b200 outline expand l10n" title="Ring oss">Ring oss</a>
                         <div class="p200">
                             <strong class="l10n">E-post&nbsp;</strong>
-                            <span>kundservice@acnespecialisten.se</span>
+                            <span>info@acnespecialisten.se</span>
                         </div>
-                        <a href="mailto:kundservice@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
+                        <a href="mailto:info@acnespecialisten.se" class="button b200 outline expand l10n" title="Skicka ett mejl">Skicka ett mejl</a>
                     </div>
                     <div class="is-hidden-touch flex-row mt-xl">
                         <div>
@@ -102,12 +102,12 @@ $salons = array(
                         </div>
                         <div class="ml-xxl">
                             <strong class="h200 l10n">E-post&nbsp;</strong>
-                            <a class="h200 color-deep-sea-400" href="mailto:kundservice@acnespecialisten.se" title="kundservice@acnespecialisten.se">kundservice@acnespecialisten.se</a>
+                            <a class="h200 color-deep-sea-400" href="mailto:info@acnespecialisten.se" title="info@acnespecialisten.se">info@acnespecialisten.se</a>
                         </div>
                     </div>
                 </section>
                 <?php if (array_key_exists('message', $_GET)) {
-                    $to = "kundservice@acnespecialisten.se";
+                    $to = "info@acnespecialisten.se";
                     $subject = "Acnespecialisten form";
                     $message = "
                     <html>
