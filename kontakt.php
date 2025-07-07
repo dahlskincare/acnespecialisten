@@ -118,23 +118,23 @@ $salons = array(
                     <body>                        
                         <table>
                             <tr>
-                                <td style='width:100px'>Category:</td>
+                                <td style='width:100px'>Kategori:</td>
                                 <td>" . $_GET['category'] . "</td>
                             </tr>
                             <tr>
-                                <td style='width:100px'>Name:</td>
+                                <td style='width:100px'>Namn:</td>
                                 <td>" . $_GET['name'] . "</td>
                             </tr>
                             <tr>
-                                <td style='width:100px'>Email:</td>
+                                <td style='width:100px'>E-post:</td>
                                 <td>" . $_GET['email'] . "</td>
                             </tr>
                             <tr>
-                                <td style='width:100px'>Phone:</td>
+                                <td style='width:100px'>Nummer:</td>
                                 <td>" . $_GET['phone'] . "</td>
                             </tr>
                             <tr>
-                                <td style='width:100px'>Message:</td>
+                                <td style='width:100px'>Meddelande:</td>
                                 <td>" . $_GET['message'] . "</td>
                             </tr>    
                         </table>
