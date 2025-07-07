@@ -210,21 +210,21 @@ $salons = array(
                                     <div class="column is-one-third">
                                         <label class="radio">
                                             <span class="l10n">Ny bokning</span>
-                                            <input type="radio" name="category" value="new_booking" />
+                                            <input type="radio" name="category" value="Ny bokning" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
                                     <div class="column is-one-third">
                                         <label class="radio">
                                             <span class="l10n">Frågor om behandling</span>
-                                            <input type="radio" name="category" value="treatment" />
+                                            <input type="radio" name="category" value="Frågor om behandling" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
                                     <div class="column is-one-third">
                                         <label class="radio">
                                             <span class="l10n">Samarbete</span>
-                                            <input type="radio" name="category" value="collaborations" />
+                                            <input type="radio" name="category" value="Samarbete" />
                                             <span class="check"></span>
                                         </label>
                                     </div>
@@ -234,21 +234,21 @@ $salons = array(
                                         <div class="column is-one-third">
                                             <label class="radio">
                                                 <span class="l10n">Bokning/Avbokning</span>
-                                                <input type="radio" name="category" value="cancel" />
+                                                <input type="radio" name="category" value="Bokning/Avbokning" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
                                         <div class="column is-one-third">
                                             <label class="radio">
                                                 <span class="l10n">Brådskande</span>
-                                                <input type="radio" name="category" value="örgent" />
+                                                <input type="radio" name="category" value="Brådskande" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
                                         <div class="column is-one-third">
                                             <label class="radio">
                                                 <span class="l10n">Annat</span>
-                                                <input type="radio" name="category" value="other" />
+                                                <input type="radio" name="category" value="Annat" />
                                                 <span class="check"></span>
                                             </label>
                                         </div>
