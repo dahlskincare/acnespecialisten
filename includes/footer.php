@@ -39,11 +39,11 @@
                 <div class="p200" id="phone-dot-email">
                     <a href="tel:+4608296101" title="+46 (0) 8-29 61 01">08 29 61 01</a>
                     <div class="dot"></div>
-                    <a class="l10n" href="mailto:hej@acnespecialisten.se" title="email">hej@acnespecialisten.se</a>
+                    <a class="l10n" href="mailto:info@acnespecialisten.se" title="email">info@acnespecialisten.se</a>
                 </div>
                 <div id="buttons">
                     <a href="tel:+4608296101" title="+4608296101"><button class="grey l10n">Ring</button></a>
-                    <a href="mailto:hej@acnespecialisten.se" title="hej@acnespecialisten.se"><button class="grey l10n">Melja</button></a>
+                    <a href="mailto:info@acnespecialisten.se" title="info@acnespecialisten.se"><button class="grey l10n">Melja</button></a>
                 </div>
             </div>
             <div id="footer-salon-cards">
@@ -362,7 +362,7 @@
                     <div class="flex-row" id="phone-dot-email-large">
                         <a href="tel:+4608296101" class="button b200 compact text" title="+46 (0) 8-29 61 01">08 29 61 01</a>
                         <div class="dot"></div>
-                        <a class="button b200 compact text l10n" href="mailto:hej@acnespecialisten.se" title="Skicka e-post">hej@acnespecialisten.se</a>
+                        <a class="button b200 compact text l10n" href="mailto:info@acnespecialisten.se" title="Skicka e-post">info@acnespecialisten.se</a>
                     </div>
                 </div>
                 <div id="footer-salon-cards-large">
