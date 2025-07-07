@@ -15,7 +15,7 @@ $salons = array(
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',
         opening_hours_weekends: 'Enligt bokning',
-        email: 'ostermalm@acnespecialisten.se',
+        email: 'info@acnespecialisten.se',
         phone: '08296101',
         coordinates: '',
     ),
@@ -27,7 +27,7 @@ $salons = array(
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',
         opening_hours_weekends: 'Enligt bokning',
-        email: 'sodermalm@acnespecialisten.se',
+        email: 'info@acnespecialisten.se',
         phone: '08296101',
         coordinates: '',
     ),
@@ -39,7 +39,7 @@ $salons = array(
         description: '',
         opening_hours_weekdays: '07:00 - 21:00',
         opening_hours_weekends: 'Enligt bokning',
-        email: 'sundbyberg@acnespecialisten.se',
+        email: 'info@acnespecialisten.se',
         phone: '08296101',
         coordinates: '',
     ),
@@ -144,7 +144,7 @@ $salons = array(
 
                     $headers = "MIME-Version: 1.0" . "\r\n";
                     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= 'From: Acnespecialisten <hej@acnespecialisten.se>' . "\r\n";
+                    $headers .= 'From: Acnespecialisten <info@acnespecialisten.se>' . "\r\n";
                     $headers .= 'Reply-To: ' . $_GET['email'] . "\r\n";
                     mail($to, $subject, $message, $headers);
                 ?>
