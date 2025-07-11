@@ -150,7 +150,6 @@ $link_brands = array(
             services: array(
                   "/varumarken/rejuve-dye-vl/" => "Alma Beauty Rejuve Dye-VL",
                   "/alma-harmony-xl-pro.php" => "Harmony XL Pro",
-                  "/varumarken/powerlite-photonova/" => "Powerlight - PhotoNova PLS3",
             )
       ),
       new BrandCategory(
