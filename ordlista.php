@@ -73,7 +73,13 @@ $glossary_items = array(
         ),
 
     ),
-    'p' => array(),
+    'P' => array(
+        new GlossaryItem(
+            title: 'Powerlite',
+            description: '<p class="p200">Powerlite är en av våra tidigare IPL maskiner: <a class="b200 underline color-deep-sea-400" href="/varumarken/powerlite-photonova/">Powerlite</a></p>',
+        ),
+
+    ),
     'q' => array(),
     'r' => array(
         new GlossaryItem(
