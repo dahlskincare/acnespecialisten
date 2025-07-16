@@ -27,7 +27,7 @@ mysqli_select_db($conn, $dbname);
 
 $query = "
     SELECT
-    id, name_$language AS name, subtitle_$language AS subtitle, subtitle2_$language AS subtitle2, image, price, category_$language as category, size
+    id, name_$language AS name, subtitle_$language AS subtitle, subtitle2_$language AS subtitle2, image, image_dark, price, category_$language as category, size
     FROM t_option
     WHERE 1
     LIMIT 99999";
