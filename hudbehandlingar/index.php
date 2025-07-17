@@ -204,35 +204,6 @@ $people_search_for = array(
 
 $service_categories = array(
     new ServiceCategory(
-        url: '/hudbehandlingar/vaxning/',
-        label: 'Vaxning',
-        content: 'Professionell vaxning för dig som vill ha omedelbar slät och hårfri hud. Vi erbjuder skonsamma behandlingar för både kvinnor och män – från ben och bikinilinje till intimvaxning.',
-        image_small: '/bilder/hudbehandlingar/200x200/vaxning.webp',
-        image_large: '/bilder/hudbehandlingar/424x324/vaxning.webp',
-        image_title: 'Vaxningsbehandlingar',
-        image_alt: 'Person som genomgår vaxningsbehandling på klinik',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
-        booking_url_title: 'Boka tid för manzilian',
-        booking_url_label: 'Manzilian',
-        consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
-        consultation_url_title: 'Boka tid för brasiliansk vaxning',
-        consultation_url_label: 'Brasiliansk',
-        services: array(
-            new Treatment(
-                url: '/hudbehandlingar/vaxning/',
-                label: 'Hela ben',
-                url_title: 'Läs mer om vaxning för hela ben',
-            ),
-            new Treatment(
-                url: '/hudbehandlingar/vaxning/',
-                label: 'Bikinilinje',
-                url_title: 'Läs mer om vaxning för bikilininje',
-            ),
-        ),
-        read_more_label: 'Läs mer',
-        read_more_title: 'Läs mer om vaxningsbehandlingar'
-    ),
-    new ServiceCategory(
         url: '/problemhy.php',
         label: 'Ansiktsbehandling mot problemhy',
         content: 'Ansiktsbehandlingar mot problemhy såsom akne, rosacea och pormaskar med mera. Med noggrant utvalda produkter och tekniker rengör och återställer vi din hud, och förebygger framtida hudproblem.',
@@ -544,6 +515,35 @@ $service_categories = array(
         services: array(),
         read_more_label: 'Läs mer',
         read_more_title: 'Läs mer om gratis hudkonsultation'
+    ),
+    new ServiceCategory(
+        url: '/hudbehandlingar/vaxning/',
+        label: 'Vaxning',
+        content: 'Professionell vaxning för dig som vill ha omedelbar slät och hårfri hud. Vi erbjuder skonsamma behandlingar för både kvinnor och män – från ben och bikinilinje till intimvaxning.',
+        image_small: '/bilder/hudbehandlingar/200x200/vaxning.webp',
+        image_large: '/bilder/hudbehandlingar/424x324/vaxning.webp',
+        image_title: 'Vaxningsbehandlingar',
+        image_alt: 'Person som genomgår vaxningsbehandling på klinik',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-intim-man--3281249',
+        booking_url_title: 'Boka tid för manzilian',
+        booking_url_label: 'Manzilian',
+        consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-brasiliansk-3281247',
+        consultation_url_title: 'Boka tid för brasiliansk vaxning',
+        consultation_url_label: 'Brasiliansk',
+        services: array(
+            new Treatment(
+                url: '/hudbehandlingar/vaxning/',
+                label: 'Hela ben',
+                url_title: 'Läs mer om vaxning för hela ben',
+            ),
+            new Treatment(
+                url: '/hudbehandlingar/vaxning/',
+                label: 'Bikinilinje',
+                url_title: 'Läs mer om vaxning för bikilininje',
+            ),
+        ),
+        read_more_label: 'Läs mer',
+        read_more_title: 'Läs mer om vaxningsbehandlingar'
     ),
 );
 
