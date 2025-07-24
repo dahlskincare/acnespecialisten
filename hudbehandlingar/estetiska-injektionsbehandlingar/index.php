@@ -362,7 +362,7 @@ $treatment_areas = array(
                 title: 'Fillers 2 ml',
                 duration: '40 min',
                 price: '5595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-2-ml-2181409',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med 2 ml.'
             ),
@@ -373,7 +373,7 @@ $treatment_areas = array(
                 title: 'Fillers 3 ml',
                 duration: '60 min',
                 price: '7595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-3-ml-2181327',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med 3 ml.'
             ),
@@ -384,7 +384,7 @@ $treatment_areas = array(
                 title: 'Fillers 4 ml',
                 duration: '90 min',
                 price: '9995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-4-ml-2181186',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med 4 ml.'
             ),
@@ -395,7 +395,7 @@ $treatment_areas = array(
                 title: 'Fillers 5 ml',
                 duration: '90 min',
                 price: '12995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-5-ml-2181668',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med 5 ml.'
             ),
@@ -406,7 +406,7 @@ $treatment_areas = array(
                 title: 'Fillers - 1 ml Påfyllnig (Inom 2 månader)',
                 duration: '30 min',
                 price: '2395 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-pafyllning-1-ml-inom-2-manader--2181637',
                 url_label: 'Boka',
                 url_title: 'Boka tid för påfyllning.'
             ),
@@ -417,7 +417,7 @@ $treatment_areas = array(
                 title: 'Fillers - Hyalase (Borttagning av fillers)',
                 duration: '60 min',
                 price: '2595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalase-borttagning-av-fillers--2181537',
                 url_label: 'Boka',
                 url_title: 'Boka tid för hyalase.'
             ),
@@ -428,7 +428,7 @@ $treatment_areas = array(
                 title: 'Fillers - Hyalase (Återbesök & Kontroll)',
                 duration: '60 min',
                 price: 'Gratis',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalaste-aterbesok-efterkontroll--2181263',
                 url_label: 'Boka',
                 url_title: 'Boka tid för återbesök och kontroll.'
             ),
@@ -449,7 +449,7 @@ $treatment_areas = array(
                 title: 'Injektion 1x område + Fillers 1 ml',
                 duration: '50 min',
                 price: '5595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-fillers-1-ml-2181417',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 1x område + Fillers 1 ml.'
             ),
@@ -460,7 +460,7 @@ $treatment_areas = array(
                 title: 'Injektion 1x område + Fillers 2 ml',
                 duration: '50 min',
                 price: '8495 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-fillers-2-ml-2181697',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 1x område + Fillers 2 ml.'
             ),
@@ -471,7 +471,7 @@ $treatment_areas = array(
                 title: 'Injektion 1x område + Fillers 3 ml',
                 duration: '50 min',
                 price: '11395 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-fillers-3-ml-2181185',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 1x område + Fillers 3 ml.'
             ),
@@ -483,7 +483,7 @@ $treatment_areas = array(
                 title: 'Injektion 2x områden + Fillers 1 ml',
                 duration: '50 min',
                 price: '8495 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-fillers-1-ml-2181738',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 2x områden + Fillers 1 ml.'
             ),
@@ -494,7 +494,7 @@ $treatment_areas = array(
                 title: 'Injektion 2x områden + Fillers 2 ml',
                 duration: '50 min',
                 price: '8995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-fillers-2-ml-2181283',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 2x områden + Fillers 2 ml.'
             ),
@@ -505,7 +505,7 @@ $treatment_areas = array(
                 title: 'Injektion 2x områden + Fillers 3 ml',
                 duration: '70 min',
                 price: '11895 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-fillers-3-ml-2181404',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 2x områden + Fillers 3 ml.'
             ),
@@ -517,7 +517,7 @@ $treatment_areas = array(
                 title: 'Injektion 3x områden + Fillers 1 ml',
                 duration: '50 min',
                 price: '6595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-fillers-1-ml-2181536',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 3x områden + Fillers 1 ml.'
             ),
@@ -528,7 +528,7 @@ $treatment_areas = array(
                 title: 'Injektion 3x områden + Fillers 2 ml',
                 duration: '50 min',
                 price: '9495 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-fillers-2-ml-2181324',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 3x områden + Fillers 2 ml.'
             ),
@@ -539,7 +539,7 @@ $treatment_areas = array(
                 title: 'Injektion 3x områden + Fillers 3 ml',
                 duration: '70 min',
                 price: '12395 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-fillers-3-ml-2181817',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 3x områden + Fillers 3 ml.'
             ),
