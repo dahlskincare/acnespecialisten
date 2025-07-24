@@ -104,7 +104,7 @@ $service = new Service(
       title: 'Konsultation för hudflikar',
       duration: '20 min',
       price: 'Kostnadsfri',
-      content: 'Under vår konsultation utför vi en detaljerad utvärdering av dina hudflikar. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen, inklusive användning av Cryopen eller andra metoder, för att skapa en behandlingsplan som är anpassad efter dina behov och önskemål.',
+      content: 'Under vår konsultation utför vi en detaljerad utvärdering av dina hudflikar. Våra specialister analyserar hudtillståndet, tar före-bilder och diskuterar de mest effektiva behandlingsalternativen, inklusive användning av Cryopen eller andra metoder, för att skapa en behandlingsplan som är anpassad efter dina behov och önskemål. Priset baseras på antalet hudflikar som behandlas.',
 
       image_small: 'bilder/hudbehandlingar/200x200/konsultation.webp',
       image_large: 'bilder/hudbehandlingar/200x200/konsultation.webp',
