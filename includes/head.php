@@ -1,8 +1,3 @@
-<!-- Preconnect för snabbare laddning -->
-<link rel="preconnect" href="https://www.googletagmanager.com">
-<link rel="preconnect" href="https://www.google-analytics.com">
-<link rel="preconnect" href="https://www.googleadservices.com">
-
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7EMC778CH1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -17,11 +12,6 @@
     'ad_personalization': 'denied',
     'analytics_storage': 'denied'
   });
-
-  // Data-bevarande inställningar - förbättrar tracking även vid nekad consent
-  gtag('set', 'ads_data_redaction', true);
-  gtag('set', 'url_passthrough', true);
-  gtag('set', 'conversion_linker', true);
 
   gtag('js', new Date());
   gtag('set', 'linker', {

@@ -74,6 +74,19 @@ namespace CookieDialog {
         if (parts.length === 2) return parts.pop().split(';').shift();
     }
 
+    function copyGclidToLinks() {
+        var urlParams = new URLSearchParams(window.location.search);
+        var gclid = urlParams.get('gclid');
+        if (gclid) {
+            var links = document.querySelectorAll('a');
+            for (var i = 0; i < links.length; i++) {
+                var link = links[i];
+                var url = new URL(link.href);
+                url.searchParams.set('gclid', gclid);
+                link.href = url.toString();
+            }
+        }
+    }
 
 
     export function initialize() {
@@ -83,6 +96,10 @@ namespace CookieDialog {
                 'ad_user_data': 'granted',
                 'ad_personalization': 'granted',
                 'analytics_storage': 'granted'
+            });
+
+            window.addEventListener('load', function () {
+                copyGclidToLinks();
             });
         } else if (sessionStorage.getItem('consentShown') != 'true') {
             (document.querySelector('#cookieConsent') as HTMLDialogElement).showModal();
@@ -108,6 +125,7 @@ namespace CookieDialog {
             });
             // Set cookie rather than localStorage so that consent state can be read by subdomains (boka.acnespecialisten.se)            
             document.cookie = "cookieConsent=true; domain=.acnespecialisten.se; path=/; expires=" + expires.toUTCString();
+            copyGclidToLinks();
         } else {
             (window as any).gtag('consent', 'update', {
                 'ad_storage': 'denied',
