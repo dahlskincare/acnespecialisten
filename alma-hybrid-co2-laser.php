@@ -522,7 +522,7 @@ $service_brands = array(
     ),
 );
 
-$results_title = 'Fraktionerad CO2 laser före och efter resultat';
+$results_title = 'Alma Hybrid före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -562,7 +562,7 @@ $results = array(
         url: '',
         image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-hybridlift-fore.webp',
         image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-hybridlift-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-chybridlift-fore.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-hybridlift-fore.webp',
         image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-hybridlift-efter.webp',
         url_title: 'Alma Hybrid HybridLift resultat',
         image_before_alt: 'Före',
