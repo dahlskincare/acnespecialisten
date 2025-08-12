@@ -526,11 +526,11 @@ $results_title = 'Fraktionerad CO2 laser före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-efter.webp',
-        url_title: 'Alma Hybrid CO2 laser resultat',
+        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-oscar-fore.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-oscar-efter.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-oscar-fore.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-oscar-efter.webp',
+        url_title: 'Alma Hybrid oScar resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
@@ -540,7 +540,7 @@ $results = array(
         problem: 'Ärr',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: '<a href="/hudproblem/operations-skadearr/" title="Ärr">Ärr</a>',
+            duration: '',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -560,11 +560,11 @@ $results = array(
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-efter.webp',
-        url_title: 'Alma Hybrid CO2 laser resultat',
+        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-hybridlift-fore.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-hybridlift-efter.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-chybridlift-fore.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-hybridlift-efter.webp',
+        url_title: 'Alma Hybrid HybridLift resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
@@ -574,7 +574,7 @@ $results = array(
         problem: 'Ärr',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: '<a href="/hudproblem/operations-skadearr/" title="Ärr">Ärr</a>',
+            duration: '',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -594,10 +594,10 @@ $results = array(
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-efter.webp',
+        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-softlift-fore.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-softlift-efter.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-softlift-fore.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-softlift-efter.webp',
         url_title: 'Alma Hybrid CO2 laser resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
@@ -608,7 +608,7 @@ $results = array(
         problem: 'Ärr',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: '<a href="/hudproblem/operations-skadearr/" title="Ärr">Ärr</a>',
+            duration: '',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
