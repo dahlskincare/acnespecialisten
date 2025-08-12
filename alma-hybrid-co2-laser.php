@@ -526,21 +526,21 @@ $results_title = 'Fraktionerad CO2 laser före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
-        url_title: 'Akne resultat',
+        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-fore.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-efter.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-fore.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-efter.webp',
+        url_title: 'Alma Hybrid CO2 laser resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
         age: 21,
-        gender: 'Kvinna',
-        problem: 'Akne',
+        gender: 'Man',
+        problem: 'Ärr',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+            duration: '<a href="/hudproblem/operations-skadearr/" title="Ärr">Ärr</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
@@ -560,26 +560,26 @@ $results = array(
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
-        url_title: 'Akne resultat',
+        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-fore.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-efter.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-fore.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-efter.webp',
+        url_title: 'Alma Hybrid CO2 laser resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 18,
-        gender: 'Kvinna',
-        problem: 'Akne',
+        age: 21,
+        gender: 'Man',
+        problem: 'Ärr',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Akne">Akne</a>',
+            duration: '<a href="/hudproblem/operations-skadearr/" title="Ärr">Ärr</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
                     name: 'Aknebehandling',
-                    count: '3 tillfällen'
+                    count: '5 tillfällen'
                 ),
             ),
             product: new ResultProduct(
@@ -588,41 +588,41 @@ $results = array(
             ),
             employee: new ResultEmployee(
                 image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
+                name: 'Cazzandra Lindberg'
             ),
         )
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
-        url_title: 'Rosacea resultat',
+        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-fore.webp',
+        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-co2-laser-efter.webp',
+        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-fore.webp',
+        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-co2-laser-efter.webp',
+        url_title: 'Alma Hybrid CO2 laser resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 33,
-        gender: 'Kvinna',
-        problem: 'Rosacea',
+        age: 21,
+        gender: 'Man',
+        problem: 'Ärr',
         type: 'Svår',
         treatment: new ResultTreatment(
-            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+            duration: '<a href="/hudproblem/operations-skadearr/" title="Ärr">Ärr</a>',
             procedures: array(
                 new ResultProcedure(
                     image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Rosaceabehandling',
-                    count: '3 tillfällen'
+                    name: 'Aknebehandling',
+                    count: '5 tillfällen'
                 ),
             ),
             product: new ResultProduct(
                 image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår rosacea',
+                name: 'Produktpaket mot svår akne',
             ),
             employee: new ResultEmployee(
                 image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
+                name: 'Cazzandra Lindberg'
             ),
         )
     ),
@@ -824,7 +824,9 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
-
+                <section id="results" class="large-margin">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
