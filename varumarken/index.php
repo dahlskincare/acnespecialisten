@@ -461,7 +461,7 @@ $path_segments = array(
       <main>
             <section id="banner">
                   <?php
-                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
+                  include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/varumarken_green_header_banner.php');
                   ?>
                   <div class="container">
                         <div id="brands-container">

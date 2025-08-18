@@ -1483,7 +1483,7 @@ $specialists = array(
       <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
       <main>
             <section id="banner">
-                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php'); ?>
+                  <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/hudproblem_green_header_banner.php'); ?>
                   <div class="container is-hidden-desktop" id="filters-touch-container">
                         <div id="filters-touch" class="mt-m">
                               <?php foreach ($problem_areas as $problem_area) { ?>
