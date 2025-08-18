@@ -53,9 +53,9 @@ $treat_image_large = 'https://via.placeholder.com/872x456.jpg';
 
 $treat_content = '<p class="p200">Efter att ha identifierat och analyserat dina ärr, går vi vidare till behandlingsfasen. Målet här är att minska synligheten av ärr och förbättra hudens struktur, oavsett om det rör sig om fläckar eller gropar. Beroende på ärrtyp och djup, använder vi olika metoder för att säkerställa effektiv behandling. Denna process stimulerar hudens naturliga regenerering, ökar kollagenproduktionen och förbättrar hudens struktur och ton. Vi anpassar kontinuerligt behandlingsplanen baserat på hur din hud svarar, med målet att uppnå bästa möjliga resultat och få bort ärren.</p>';
 
-$treat_url = 'gratis-hudkonsultation.php';
+$treat_url = 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_AcneScars';
 $treat_url_label = 'Se behandlingar för ärr från finnar';
-$treat_url_title = 'klicka här för att se våra behandlingar för ärr från finnar';
+$treat_url_title = 'Klicka här för att se våra behandlingar för ärr från finnar';
 
 
 $services = array(
