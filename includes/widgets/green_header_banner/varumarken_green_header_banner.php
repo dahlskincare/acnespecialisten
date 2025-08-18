@@ -31,7 +31,7 @@
                         </div>
                         <?php icon('consultation') ?>
                     </div>
-                    <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem" class="button outline">Boka en gratis hudkonsultation</a>
+                    <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand" class="button outline">Boka en gratis hudkonsultation</a>
                 </div>
             <?php } ?>
             <div id="ghb-touch-links">
@@ -81,7 +81,7 @@
                             </div>
                             <?php icon('consultation') ?>
                         </div>
-                        <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem" class="button outline">Boka en gratis hudkonsultation</a>
+                        <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand" class="button outline">Boka en gratis hudkonsultation</a>
                     </div>
                 <?php } ?>
             </div>
