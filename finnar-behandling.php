@@ -44,7 +44,7 @@ $define_image_title = 'Identifiera ditt hudproblem.';
 
 $define_content = '<p class="p200">Första steget i vår process att bli av med problemet är att kartlägga din finn-typ. Vi inleder med en kostnadsfri konsultation där vi analyserar din hud och diskuterar dina hudmål och tidigare erfarenheter. Förebilder tas för att kunna följa din huds framsteg och anpassa din behandlingsplan över tid. En personlig hudterapeut följer med dig genom hela behandlingsresan, vilket säkerställer en konsekvent omsorg anpassad efter dina specifika behov.</p>';
 
-$define_consultation_link = "gratis-hudkonsultation.php";
+$define_consultation_link = "https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple";
 $define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "klicka här för att boka din kostnadsfria hudkonsultation mot finnar";
 
