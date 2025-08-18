@@ -44,7 +44,7 @@ $define_image_title = 'Behandling av Pigmentfläckar';
 
 $define_content = '<p class="p200">För att kunna hjälpa dig med dina pigmentfläckar är det viktigt att vi förstår ditt specifika hudtillstånd och dina pigmentfläckars natur. Vi börjar med en kostnadsfri konsultation där vi noggrant analyserar din hud och diskuterar dina mål samt tidigare erfarenheter med pigmentfläckar. Vi tar före-bilder för att noggrant övervaka dina framsteg och skapa en skräddarsydd behandlingsplan som är utformad speciellt för dig. En personlig hudterapeut kommer att vara din följeslagare genom hela din resa mot en klarare hud, vilket garanterar att du får den bästa möjliga vården.</p>';
 
-$define_consultation_link = "gratis-hudkonsultation.php";
+$define_consultation_link = "https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation";
 $define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för behandling av pigmentfläckar";
 

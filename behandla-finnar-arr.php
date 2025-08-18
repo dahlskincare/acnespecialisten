@@ -42,7 +42,7 @@ $define_image_title = 'Hur vi behandlar och tar bort ärr från finnar?';
 
 $define_content = '<p class="p200">Det första steget i vår process för att behandla ärr från finnar är att kartlägga och analysera dina ärrs omfattning och djup. Vi börjar med en kostnadsfri konsultation där vi undersöker din hud och diskuterar dina mål samt eventuella tidigare behandlingar. Vi tar före-bilder för att följa din huds framsteg och justerar behandlingsplanen vid behov. En personlig hudterapeut följer dig genom hela processen, vilket säkerställer att du får konsekvent och anpassad behandling utifrån dina behov och önskemål.</p>';
 
-$define_consultation_link = "gratis-hudkonsultation.php";
+$define_consultation_link = "https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars";
 $define_consultation_link_label = "Boka gratis konsultation";
 $define_consultation_link_title = "Klicka här för att boka din kostnadsfria hudkonsultation för ärr från finnar";
 

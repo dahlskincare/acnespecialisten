@@ -42,7 +42,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
                         <div class="p200 l10n" id="cta-banner-content">Boka en gratis hudkonsultation hos en av våra erfarna hudterapeuter.</div>
                     </div>
                     <div>
-                        <a href="gratis-hudkonsultation.php" class="button white expand l10n" title="Boka en gratis hudkonsultation">Boka en gratis hudkonsultation</a>
+                        <a href="gratis-hudkonsultation.php" class="button white expand l10n" title="Boka en gratis hudkonsultation">Läs mer om gratis hudkonsultation</a>
                     </div>
                 </section>
                 <section id="results" class="large-margin">
