@@ -116,9 +116,9 @@
     <div class="container" id="important-notice-container">
         <div id="important-notice">
             <div class="important-notice-slide">
-                <span class="important-notice-highlight">Nyhet</span>
-                <span>Vaxning</span>
-                <a href="/hudbehandlingar/vaxning/" title="Vaxning">Läs mer</a>
+                <span class="important-notice-highlight">Gratis</span>
+                <span>konsultation</span>
+                <a href="/gratis-hudkonsultation.php" title="Vaxning">Läs mer</a>
             </div>
             <div class="important-notice-slide offscreen-right">
                 <span class="important-notice-highlight">20%</span>
