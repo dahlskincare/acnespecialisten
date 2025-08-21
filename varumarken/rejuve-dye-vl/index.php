@@ -401,108 +401,142 @@ $service_brands = array(
 
 $results_title = 'IPL hudföryngring före efter';
 $results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
-        url_title: 'Akne resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 21,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '5 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
-        url_title: 'Akne resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 18,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Akne">Akne</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
-        url_title: 'Rosacea resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 33,
-        gender: 'Kvinna',
-        problem: 'Rosacea',
-        type: 'Svår',
-        treatment: new ResultTreatment(
-            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Rosaceabehandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår rosacea',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
-    ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-1.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-1.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-1.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-1.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-2.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-2.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-2.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-2.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-3.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-3.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-3.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-3.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-4.jpg',
+            image_after_small: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-4.jpg',
+            image_before_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-fore-4.jpg',
+            image_after_large: '/bilder/resultat/ytliga-blodkarl/resultat-ytliga-blodkarl-efter-4.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
 );
 
 $reviews_title = 'Omdömen';
