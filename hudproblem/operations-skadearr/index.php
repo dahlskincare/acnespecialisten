@@ -235,10 +235,10 @@ $articles = array(
 $results = array(
       new ResultCustomer(
             url: '',
-            image_before_small: '/bilder/resultat/arr/resultat-arr-fore-1.webp',
-            image_after_small: '/bilder/resultat/arr/resultat-arr-efter-1.webp',
-            image_before_large: '/bilder/resultat/arr/resultat-arr-fore-1.webp',
-            image_after_large: '/bilder/resultat/arr/resultat-arr-efter-1.webp',
+            image_before_small: '/bilder/resultat/arr/resultat-arr-fore.webp',
+            image_after_small: '/bilder/resultat/arr/resultat-arr-efter.webp',
+            image_before_large: '/bilder/resultat/arr/resultat-arr-fore.webp',
+            image_after_large: '/bilder/resultat/arr/resultat-arr-efter.webp',
             url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
