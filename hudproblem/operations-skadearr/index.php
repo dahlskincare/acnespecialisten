@@ -234,50 +234,108 @@ $articles = array(
 
 $results = array(
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/arr/resultat-arr-fore-1.webp',
+            image_after_small: '/bilder/resultat/arr/resultat-arr-efter-1.webp',
+            image_before_large: '/bilder/resultat/arr/resultat-arr-fore-1.webp',
+            image_after_large: '/bilder/resultat/arr/resultat-arr-efter-1.webp',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/arr/resultat-arr-fore-2.webp',
+            image_after_small: '/bilder/resultat/arr/resultat-arr-efter-2.webp',
+            image_before_large: '/bilder/resultat/arr/resultat-arr-fore-2.webp',
+            image_after_large: '/bilder/resultat/arr/resultat-arr-efter-2.webp',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/arr/resultat-arr-fore-3.webp',
+            image_after_small: '/bilder/resultat/arr/resultat-arr-efter-3.webp',
+            image_before_large: '/bilder/resultat/arr/resultat-arr-fore-3.webp',
+            image_after_large: '/bilder/resultat/arr/resultat-arr-efter-3.webp',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
 );
-
-$show_all_results_label = "Se fler resultat";
-$show_all_results_title = "se flera behandlingsresultat mot ärr";
-
-
 
 $faq_categories = array(
       'Generellt om operations- och skadeärr' => array(
