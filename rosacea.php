@@ -365,6 +365,40 @@ $articles = array(
 $results = array(
       new ResultCustomer(
             url: '',
+            image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-6.webp',
+            image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-6.webp',
+            image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-6.webp',
+            image_after_large: '/bilder/resultat/rosacea/resultat-rosacea-efter-6.webp',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
             image_before_small: '/bilder/resultat/rosacea/resultat-rosacea-fore-1.jpg',
             image_after_small: '/bilder/resultat/rosacea/resultat-rosacea-efter-1.jpg',
             image_before_large: '/bilder/resultat/rosacea/resultat-rosacea-fore-1.jpg',
