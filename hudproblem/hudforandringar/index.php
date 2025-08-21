@@ -370,7 +370,7 @@ $results = array(
             url: '',
             image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
             image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
-            image_before_large: '/bilder/resultat/hudforandringarresultat-hudforandringar-fore-1.webp',
+            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
             image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
             url_title: 'Resultat',
             image_before_alt: 'Före',
