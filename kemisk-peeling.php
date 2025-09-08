@@ -215,7 +215,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
-        booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_LargePores&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
 
