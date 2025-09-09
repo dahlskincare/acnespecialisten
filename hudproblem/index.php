@@ -288,7 +288,7 @@ $problems['bristningar'] = new Problem(
       url: 'hudproblem/bristningar/',
       url_title: 'Läs mer information om Bristningar',
       consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Strechmarks',
-      booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_StrechMarks',
+      booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks',
       consultation_url_title: 'Boka konsultation mot bristningar',
       booking_url_title: 'Boka behandling mot bristningar',
       image: 'bilder/hudproblem/424x324/bristningar.webp',
