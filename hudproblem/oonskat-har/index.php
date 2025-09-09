@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Oönskat hår kan påverka olika delar av kroppen och ansiktet. Denna sida utforskar de underliggande orsakerna till oönskad hårväxt och de olika metoder som finns tillgängliga för hårborttagning.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_LaserHairRemoval', 'Boka gratis konsultation'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=permanent_harborttagning', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserHair', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_LaserHairRemoval', 'Boka gratis konsultation'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=permanent_harborttagning', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserHair', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
 );
@@ -140,7 +140,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en konsultation för laserbehandling för hårborttagning',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserHair',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling för hårborttagning'
       )
 );
