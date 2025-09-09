@@ -24,12 +24,12 @@ $green_banner_content = new GreenBannerContent(
       title: 'Operations- och skadeärr',
       description: 'Ärrbildning är en naturlig del av läkningsprocessen efter skada eller operation. Här hittar du detaljerad information om hur ärr bildas och de olika typerna av ärr som kan uppstå.',
       links_touch: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för ärr'),
-            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka denna behandling'),
+            new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för ärr'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY', 'Boka denna behandling'),
       ],
       links_desktop: [
-            new Link('Boka ett klinikbesök', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för ärr'),
-            new Link('Boka online konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka denna behandling'),
+            new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars', 'Boka gratis konsultation för ärr'),
+            new Link('Boka behanding', 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
