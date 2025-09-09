@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Känslig och torr fjällande hud i ansiktet är något många lider av. Flagnande hud har lättare att få problem med acne och finnar och kan utöver ansiktet även påverka specifika områden som panna, t-zon, eller hakan. Här får du mer information mer information om hudproblemet samt hur denna hudtyp kan bäst behandlas.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Combination_Skin', 'Boka gratis konsultation'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation', 'Boka gratis konsultation'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_CombinationSkin', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
@@ -108,7 +108,7 @@ $treatment_steps = array(
             content: 'Vi erbjuder milda och effektiva behandlingar specialanpassade för torr och känslig hud, som syftar till att återfukta och lugna din hud på ett säkert och effektivt sätt.',
 
             url_label: 'Se behandlingar',
-            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY',
+            url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_CombinationSkin',
             url_title: 'Utforska våra skräddarsydda behandlingar för torr och känslig hud'
       ),
       new TreatmentStep(
@@ -447,7 +447,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för ansiktsbehandling för torr och känslig hy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_DrySensetiveSkin&method=Method_FacialProblem&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_CombinationSkin',
             booking_url_title: 'Klicka för att boka tid för en ansiktsbehandling för torr och känslig hy'
       ),
       new Service(
