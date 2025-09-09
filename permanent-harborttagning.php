@@ -26,7 +26,7 @@ $model = new Service(
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_LaserHairRemoval',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning',
+    booking_url: 'https://boka.acnespecialisten.se?flow=laserHair',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
