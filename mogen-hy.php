@@ -409,7 +409,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot mogen hy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Wrinkles&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Wrinkles&method=Method_LaserProblem&area=EMPTY',
             booking_url_title: 'Klicka för att boka tid för en laserbehandling mot mogen hy',
       ),
       new Service(
@@ -431,7 +431,7 @@ $services = array(
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling för mogen hy',
 
-            booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_Wrinkles&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Wrinkles&method=Method_ChemicalPeeling&area=EMPTY',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling för mogen hy'
       ),
@@ -456,7 +456,7 @@ $services = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling för mogen hy',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=Problem_Wrinkles&area=EMPTY',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Wrinkles&method=Method_Microneedling&area=EMPTY',
             booking_url_title: 'Klicka för att boka tid för en microneedling för mogen hy'
       ),
 );
