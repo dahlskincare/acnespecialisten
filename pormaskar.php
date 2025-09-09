@@ -638,11 +638,11 @@ $specialists = array(
             image_title: 'Veronika Benedik - Specialist inom pormaskvård'
       ),
       new Specialist(
-            name: 'Amira Maqboul',
+            name: 'Julia Eklund',
             title: 'Hudterapeut sedan 2017',
             image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom pormaskhantering',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på pormaskar'
+            image_alt: 'Julia Eklund, hudterapeut med kunskap inom pormaskhantering',
+            image_title: 'Julia Eklund - Hudterapeut specialiserad på pormaskar'
       ),
       new Specialist(
             name: 'Vilma Libom',

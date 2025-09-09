@@ -651,11 +651,11 @@ $specialists = array(
             image_title: 'Veronika Benedik - Specialist inom vård av bristningar'
       ),
       new Specialist(
-            name: 'Amira Maqboul',
+            name: 'Julia Eklund',
             title: 'Hudterapeut sedan 2017',
             image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut med kunskap inom hantering av bristningar',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på bristningar'
+            image_alt: 'Julia Eklund, hudterapeut med kunskap inom hantering av bristningar',
+            image_title: 'Julia Eklund - Hudterapeut specialiserad på bristningar'
       ),
       new Specialist(
             name: 'Vilma Libom',

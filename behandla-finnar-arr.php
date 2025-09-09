@@ -349,8 +349,8 @@ $specialists = array(
         name: 'Jennifer Eklund',
         title: 'Hudterapeut sedan 2017',
         image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-        image_title: 'Amira Maqboul, Hudterapeut på Acnespecialisten',
-        image_alt: 'Amira Maqboul, hudterapeut sedan 2017 på Acnespecialisten'
+        image_title: 'Julia Eklund, Hudterapeut på Acnespecialisten',
+        image_alt: 'Julia Eklund, hudterapeut sedan 2017 på Acnespecialisten'
 
     ),
     new Specialist(

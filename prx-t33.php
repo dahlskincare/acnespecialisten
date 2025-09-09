@@ -535,11 +535,11 @@ $specialists = array(
         image_title: 'Veronika Benedik - Specialist inom PRX T33-behandling'
     ),
     new Specialist(
-        name: 'Amira Maqboul',
+        name: 'Julia Eklund',
         title: 'Hudterapeut sedan 2017',
         image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom PRX T33-behandling',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på PRX T33'
+        image_alt: 'Julia Eklund, hudterapeut med kunskap inom PRX T33-behandling',
+        image_title: 'Julia Eklund - Hudterapeut specialiserad på PRX T33'
     ),
     new Specialist(
         name: 'Vilma Libom',

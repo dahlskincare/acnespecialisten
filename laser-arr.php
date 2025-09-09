@@ -258,11 +258,11 @@ $specialists = array(
         image_title: 'Veronika Benedik'
     ),
     new Specialist(
-        name: 'Amira Maqboul',
+        name: 'Julia Eklund',
         title: 'Hudterapeut sedan 2017',
         image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul',
-        image_title: 'Amira Maqboul'
+        image_alt: 'Julia Eklund',
+        image_title: 'Julia Eklund'
     ),
     new Specialist(
         name: 'Vilma Libom',

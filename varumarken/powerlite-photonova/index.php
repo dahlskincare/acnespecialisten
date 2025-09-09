@@ -547,11 +547,11 @@ $specialists = array(
         image_title: 'Veronika Benedik - Specialist inom Powerlite Photonova behandlingar'
     ),
     new Specialist(
-        name: 'Amira Maqboul',
+        name: 'Julia Eklund',
         title: 'Hudterapeut sedan 2017',
         image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Powerlite Photonova behandlingar',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på Powerlite Photonova'
+        image_alt: 'Julia Eklund, hudterapeut med kunskap inom Powerlite Photonova behandlingar',
+        image_title: 'Julia Eklund - Hudterapeut specialiserad på Powerlite Photonova'
     ),
     new Specialist(
         name: 'Vilma Libom',
