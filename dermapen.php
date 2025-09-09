@@ -622,11 +622,11 @@ $specialists = array(
         image_title: 'Veronika Benedik - Specialist inom Dermapen behandling'
     ),
     new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom Dermapen behandling',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på Dermapen'
+        name: 'Julia Eklund',
+        title: 'Hudterapeut sedan 2021',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-julia.webp',
+        image_alt: 'Julia Eklund, hudterapeut med kunskap inom Dermapen behandling',
+        image_title: 'Julia Eklund - Hudterapeut specialiserad på Dermapen'
     ),
     new Specialist(
         name: 'Vilma Libom',

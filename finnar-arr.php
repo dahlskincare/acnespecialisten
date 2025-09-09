@@ -538,11 +538,11 @@ $specialists = array(
             image_title: 'Veronika Benedik - Specialist inom behandling av ärr som uppstått av finnar'
       ),
       new Specialist(
-            name: 'Amira Maqboul',
-            title: 'Hudterapeut sedan 2017',
-            image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-            image_alt: 'Amira Maqboul, hudterapeut specialiserad på behandling av ärr orsakade av finnar',
-            image_title: 'Amira Maqboul - Hudterapeut specialiserad på ärr från finnar'
+            name: 'Julia Eklund',
+            title: 'Hudterapeut sedan 2021',
+            image: 'bilder/hudterapeut/312x312/hudterapeut-julia.webp',
+            image_alt: 'Julia Eklund, hudterapeut specialiserad på behandling av ärr orsakade av finnar',
+            image_title: 'Julia Eklund - Hudterapeut specialiserad på ärr från finnar'
       ),
       new Specialist(
             name: 'Vilma Libom',

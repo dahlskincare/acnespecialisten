@@ -215,7 +215,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för konsultation om Pormaskar och Stora Porer',
-        booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_LargePores&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Kemisk Peeling för Pormaskar och Stora Porer',
 
@@ -560,11 +560,11 @@ $specialists = array(
         image_title: 'Veronika Benedik - Specialist inom kemisk peeling'
     ),
     new Specialist(
-        name: 'Amira Maqboul',
-        title: 'Hudterapeut sedan 2017',
-        image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
-        image_alt: 'Amira Maqboul, hudterapeut med kunskap inom kemisk peeling',
-        image_title: 'Amira Maqboul - Hudterapeut specialiserad på kemisk peeling'
+        name: 'Julia Eklund',
+        title: 'Hudterapeut sedan 2021',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-julia.webp',
+        image_alt: 'Julia Eklund, hudterapeut med kunskap inom kemisk peeling',
+        image_title: 'Julia Eklund - Hudterapeut specialiserad på kemisk peeling'
     ),
     new Specialist(
         name: 'Vilma Libom',
