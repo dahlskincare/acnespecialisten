@@ -530,7 +530,7 @@ $specialists = array(
     new Specialist(
         name: 'Julia Eklund',
         title: 'Hudterapeut sedan 2017',
-        image: 'bilder/hudterapeut/312x312/hudterapeut-amira.webp',
+        image: 'bilder/hudterapeut/312x312/hudterapeut-julia.webp',
         image_alt: 'Julia Eklund, hudterapeut med kunskap inom behandlingar med Harmony XL Pro',
         image_title: 'Julia Eklund - Hudterapeut specialiserad på behandlingar med Harmony XL Pro'
     ),
