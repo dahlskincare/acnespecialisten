@@ -225,7 +225,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Bild av en laserbehandling mot acneärr',
             image_title: 'Laserbehandling mot acneärr',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Method_LaserProblem',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Scars',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laser mot acneärr',
             booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_AcneScars',
