@@ -151,8 +151,8 @@ $services = array(
       ),
       new Service(
             title: 'Laserbehandling mot finnar',
-            duration: '50 min',
-            price: '2595 kr',
+            duration: '60 min',
+            price: '3595 kr',
             content: 'Avancerade laserteknik! Genom att rikta sig mot bakterier som orsakar inflammation, minskar denna behandling risken för framtida utbrott och hjälper till att ge dig en jämnare och klarare hud.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
