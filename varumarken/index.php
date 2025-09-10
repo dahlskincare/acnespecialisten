@@ -248,7 +248,7 @@ $brand_cards = array(
             description: 'Harmony XL Pro är en estetisk plattform som erbjuder en bred uppsättning av behandlingar för hudföryngring och hudproblem. Denna mångsidiga och innovativa lösning är idealisk för att effektivt ta itu med en rad hudrelaterade utmaningar.',
             url: 'alma-harmony-xl-pro.php',
             url_title: 'Läs mer om Harmony XL Pro',
-            booking_url: 'https://boka.acnespecialisten.se?flow=almaharmony&skipable_problem=SKIP',
+            booking_url: 'https://boka.acnespecialisten.se?flow=almaharmony',
             booking_url_title: 'Boka tid för Alma-behandling',
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Harmony',
             consultation_url_title: 'Boka gratis hudkonsultation',
