@@ -169,7 +169,7 @@ $services = array(
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka här för att boka tid för en hudkonsultation för laserbehandling mot finnar',
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples&method=Method_LaserProblem',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
