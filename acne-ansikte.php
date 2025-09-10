@@ -239,7 +239,7 @@ $services = array(
       ),
       new Service(
             title: 'Laser mot akne',
-            duration: '40 min',
+            duration: '60 min',
             price: '3595 kr',
             content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
 

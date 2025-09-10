@@ -134,7 +134,7 @@ $services = array(
       ),
       new Service(
             title: 'Laser mot melasma',
-            duration: '50 min',
+            duration: '60 min',
             price: '3595 kr',
             content: 'Laserbehandling mot melasma är en effektiv metod där kontrollerade laserpulser används för att minska pigmentförändringar och jämna ut hudtonen. Genom att rikta in sig på melasmadrabbade områden stimuleras cellförnyelsen, vilket ger en klarare och jämnare hud.',
 
