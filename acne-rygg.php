@@ -366,7 +366,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
+            duration: '3 behandlingsmetoder',
             price: null,
             content: 'Acneärr visar sig som gropar och fläckar på huden. Vi erbjuder olika metoder för att behandla dessa ärr och återställa hudens utseende.',
 

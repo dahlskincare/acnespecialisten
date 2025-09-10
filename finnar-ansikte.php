@@ -241,7 +241,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparera ärr efter finnar',
-            duration: '4 behandlingsmetoder',
+            duration: '3 behandlingsmetoder',
             price: null,
             content: 'Ärr kan uppstå i form av gropar och fläckar på huden där finnarna tidigare varit. Dessa ärr kan vara i olika former och färger, och behandlas med olika metoder.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

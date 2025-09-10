@@ -543,7 +543,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
+            duration: '3 behandlingsmetoder',
             price: null,
             content: 'Acneärr uppstår i form av gropar i olika former och fläckar i olika färger på huden där inflammationerna tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
