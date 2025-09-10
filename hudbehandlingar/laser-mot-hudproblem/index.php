@@ -166,7 +166,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Melasma',
         duration: '50 min',
-        price: '2595 kr',
+        price: '3595 kr',
         content: 'Behandling mot melasma inriktar sig på att rikta laserenergin mot det djupare liggande melaninet, vilket är karakteristiskt för melasma, för att effektivt ljusa upp och reducera pigmenteringen.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',
         image_large: 'bilder/hudproblem/200x200/melasma.webp',
