@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Pigmentfläckar, inklusive åldersfläckar eller hyperpigmentering, beror på ökad produktion av melanin. På denna sida dyker vi djupare in i de bakomliggande faktorerna och presenterar en översikt över behandlingsmetoder för att skapa en mer enhetlig hudton.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Pigmentation', 'Boka gratis konsultation'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_PigmentationSpots', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
