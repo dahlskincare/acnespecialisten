@@ -212,7 +212,7 @@ $brand_cards = array(
             description: 'Specialiserad på hudföryngring och behandling av en rad hudtillstånd, erbjuder denna avancerade teknik precisionsbaserade laserbehandlingar för att effektivt förbättra hudens kvalitet och utseende. Upplev en ny nivå av estetiska resultat med Alma Hybrids innovation och expertis.',
             url: 'alma-hybrid-co2-laser.php',
             url_title: 'Läs mer om Alma Hybrid CO2',
-            booking_url: 'https://boka.acnespecialisten.se?flow=almarejuve',
+            booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP',
             booking_url_title: 'Boka tid för Alma-behandling',
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
             consultation_url_title: 'Boka gratis hudkonsultation',
