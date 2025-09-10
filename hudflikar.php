@@ -126,7 +126,7 @@ $services = array(
       new Service(
             title: 'Behandling av hudflikar med CryoPen',
             duration: '20 min',
-            price: '995 kr',
+            price: '1595 kr',
             content: 'Med Cryopen-tekniken erbjuder vi en effektiv behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
@@ -145,7 +145,7 @@ $services = array(
       new Service(
             title: 'Behandling av hudflikar med laser',
             duration: '20 min',
-            price: '1595 kr',
+            price: '1995 kr',
             content: 'Vi erbjuder laser-teknik för att snabbt och effektivt "bränna" bort hudflikarna. Denna avancerade metod ger omedelbara resultat.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',

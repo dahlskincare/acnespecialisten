@@ -86,7 +86,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Aktiv Acne',
         duration: '50 min',
-        price: 'Från 2595 kr',
+        price: 'Från 3595 kr',
         content: 'Laserbehandling mot acne syftar till att eliminera bakterierna som orsakar finnar. Genom att rikta värme djupt in i finnarna bidrar lasern till att de minskar i storlek och så småningom försvinner.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
@@ -166,7 +166,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Melasma',
         duration: '50 min',
-        price: '2595 kr',
+        price: '3595 kr',
         content: 'Behandling mot melasma inriktar sig på att rikta laserenergin mot det djupare liggande melaninet, vilket är karakteristiskt för melasma, för att effektivt ljusa upp och reducera pigmenteringen.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',
         image_large: 'bilder/hudproblem/200x200/melasma.webp',
