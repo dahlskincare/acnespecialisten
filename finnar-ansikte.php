@@ -161,7 +161,7 @@ $services = array(
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka här för att boka tid för en hudkonsultation för laserbehandling mot finnar',
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples&method=Method_LaserProblem',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka här för att boka tid för en laserbehandling mot finnar',
             url: '/hudbehandlingar/laser-mot-hudproblem/',
@@ -180,7 +180,7 @@ $services = array(
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot finnar',
-            booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples&method=Method_ChemicalPeeling',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot finnar behandling',
             url: '/kemisk-peeling.php',
@@ -241,7 +241,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparera ärr efter finnar',
-            duration: '4 behandlingsmetoder',
+            duration: '3 behandlingsmetoder',
             price: null,
             content: 'Ärr kan uppstå i form av gropar och fläckar på huden där finnarna tidigare varit. Dessa ärr kan vara i olika former och färger, och behandlas med olika metoder.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

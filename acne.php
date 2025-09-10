@@ -543,7 +543,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
+            duration: '3 behandlingsmetoder',
             price: null,
             content: 'Acneärr uppstår i form av gropar i olika former och fläckar i olika färger på huden där inflammationerna tidigare varit. Olika typer av ärr behandlas med olika metoder. Klicka här för att läsa mer om hur du kan reparera din hud och ta hand om post-akne.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
@@ -557,7 +557,7 @@ $procedures = array(
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_AcneScars',
             booking_url_title: 'Klicka för att boka tid för behandling mot akneärr',
       ),
 );

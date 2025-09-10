@@ -256,7 +256,7 @@ $headline04 = "04. Reparera";
 $procedures = array(
       new Service(
             title: 'Reparera acneärr',
-            duration: '4 behandlingsmetoder',
+            duration: '3 behandlingsmetoder',
             price: null,
             content: 'Acneärr visar sig som gropar och fläckar på huden. Vi erbjuder olika metoder för att behandla dessa ärr och återställa hudens utseende.',
 
@@ -274,7 +274,7 @@ $procedures = array(
             consultation_url_title: 'Boka konsultation för behandling av acneärr',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_AcneScars',
             booking_url_title: 'Boka behandling mot acneärr',
       ),
 );
