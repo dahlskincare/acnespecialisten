@@ -156,7 +156,7 @@ $services = array(
             booking_url_title: 'Boka tid för ansiktsbehandling mot akne',
       ),
       new Service(
-            title: 'Kemisk peeling mot akne',
+            title: 'Laser mot akne',
             duration: '40 min',
             price: '3595 kr',
             content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',

@@ -73,7 +73,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro mot aktiv acne',
         duration: '50 min',
-        price: '2595 kr',
+        price: '3595 kr',
         content: 'ClearSkin erbjuder en unik kombination av laser och vakuumsug för att behandla aktiv acne och finnar genom att minska talgproduktionen och döda acne-bakterier. Denna metods djupgående effekt i huden bidrar till friskare aknefri hud.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
