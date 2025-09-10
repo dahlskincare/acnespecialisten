@@ -303,7 +303,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling mot pigmentfläckar',
             duration: '90 min',
-            price: '4595 kr',
+            price: 'Från 2595 kr',
             content: 'Laserbehandling mot ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av pigmentfläckar och förbättra hudens jämnhet.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
