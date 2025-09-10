@@ -166,7 +166,7 @@ $services = array(
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_alt: 'Bild av laserbehandling mot finnar',
             image_title: 'Laserbehandling mot finnar för en klarare hud',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples&method=Method_LaserProblem',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka här för att boka tid för en hudkonsultation för laserbehandling mot finnar',
             booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP',
