@@ -557,7 +557,7 @@ $procedures = array(
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för microneedling mot akne',
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_AcneScars',
             booking_url_title: 'Klicka för att boka tid för behandling mot akneärr',
       ),
 );

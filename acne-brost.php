@@ -299,7 +299,7 @@ $procedures = array(
             consultation_url_title: 'Boka konsultation för behandling av acneärr',
 
             booking_url_label: 'Boka behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=Problem_AcneScars',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_AcneScars',
             booking_url_title: 'Boka behandling mot acneärr',
       ),
 );

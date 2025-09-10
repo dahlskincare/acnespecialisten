@@ -188,7 +188,7 @@ $services = array(
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för kemisk peeling mot finnar',
-            booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP',
+            booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples&method=Method_ChemicalPeeling',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Klicka för att boka tid för en kemisk peeling mot finnar behandling',
             url: '/kemisk-peeling.php',
