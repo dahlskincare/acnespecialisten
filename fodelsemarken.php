@@ -131,7 +131,7 @@ $services = array(
       new Service(
             title: 'Behandling av födelsemärken med CryoPen',
             duration: '20 min',
-            price: '995 kr',
+            price: '1595 kr',
             content: 'Cryopen är en avancerad och skonsam behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort födelsemärken. Denna behandling är effektiv och orsakar minimalt obehag, vilket gör den idealisk för att minska synligheten av födelsemärken.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
@@ -154,7 +154,7 @@ $services = array(
       new Service(
             title: 'Behandling av födelsemärken med laser',
             duration: '20 min',
-            price: '1595 kr',
+            price: '1995 kr',
             content: 'Laser är en snabb och effektiv behandlingsmetod som använder värme via laserljus som behandlar födelsemärkenmed hög precision. Behandlingen är snabb och effektiv med omedelbara resultat.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
