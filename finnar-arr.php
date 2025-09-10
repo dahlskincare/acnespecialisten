@@ -25,11 +25,11 @@ $green_banner_content = new GreenBannerContent(
       description: 'Ärr efter finnar bildas när inflammationen skadar hudens kollagen, vilket påverkar både struktur och utseende. Här förklarar vi processen bakom ärrbildning och presenterar behandlingsmetoder för att förbättra hudens textur.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars', 'Boka gratis konsultation för är från finnar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_AcneScars', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_PimpleScars', 'Boka denna behandling'),
       ],
       links_desktop: [
             new Link('Boka gratis konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars', 'Boka gratis konsultation för ärr från finnar'),
-            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_AcneScars', 'Boka denna behandling'),
+            new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_PimpleScars', 'Boka denna behandling'),
       ],
       show_consultation_card: false,
       akas: [
