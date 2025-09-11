@@ -81,32 +81,32 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                     </div>
                 </section>
                 <section id="types" class="large-margin">
-                    <h2 class="h500 mb-xs l10n">Konsultations typer</h2>
+                    <h2 class="h500 mb-xs l10n">Konsultations efter</h2>
                     <div class="consultation-type">
                         <div class="consultation-type-text">
-                            <h3 class="l10n">Problemhy Konsultation</h3>
+                            <h3 class="l10n">Problem</h3>
                             <p class="l10n">Här hittar du våra konsultationer som är anpassade för ditt hudproblem. Vi analyserar din hy och tar fram en behandlingsplan med rätt behandlingar och produkter för just din hudtyp.</p>
                         </div>
                         <div class="consultation-type-button">
-                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem" title="Boka problemhy konsultation" class="button expand">Boka konsultation</a>
+                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem" title="Boka problemhy konsultation" class="button expand">Välj problem</a>
                         </div>
                     </div>
                     <div class="consultation-type">
                         <div class="consultation-type-text">
-                            <h3 class="l10n">Behandlings konsultation</h3>
-                            <p class="l10n">Dessa konsultationer är för dig som redan vet vilken metod du är intresserad av att höra mer och komma igång med behandlingen av huden. Vi kommer att analysera huden noga och ta fram en skräddarsydd behandlingsplan för just din hy.</p>
+                            <h3 class="l10n">Metod</h3>
+                            <p class="l10n">Dessa konsultationer är för dig som redan vet vilken behandlingsmetod du är intresserad av att höra mer och komma igång med behandlingen av huden. Vi kommer att analysera huden noga och ta fram en skräddarsydd behandlingsplan för just din hy.</p>
                         </div>
                         <div class="consultation-type-button">
-                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service" title="Boka behandlings konsultation" class="button expand">Boka konsultation</a>
+                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service" title="Boka behandlings konsultation" class="button expand">Välj metod</a>
                         </div>
                     </div>
                     <div class="consultation-type">
                         <div class="consultation-type-text">
-                            <h3 class="l10n">Varumärkes konsultation</h3>
+                            <h3 class="l10n">Varumärke</h3>
                             <p class="l10n">Våra varumärkes konsultationer är för dig som hört om ett specifikt märke eller maskin och är intresserad av att höra mer om hur den kan hjäpla dig att uppnå dina hudvårdsmål.</p>
                         </div>
                         <div class="consultation-type-button">
-                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand" title="Boka varumärkes konsultation" class="button expand">Boka konsultation</a>
+                            <a href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand" title="Boka varumärkes konsultation" class="button expand">Välj varumärke</a>
                         </div>
                     </div>
                 </section>
