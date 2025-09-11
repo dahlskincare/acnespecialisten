@@ -87,7 +87,7 @@ $services = array(
         image_title: 'Utförande av kemisk peelingbehandling för ärr från finnar',
         image_alt: 'Bild på kemisk peelingbehandling mot ärr från finnar hos Acnespecialisten',
         title: 'Kemisk peeling mot ärr (Fläckar)',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: '<p class="p200">Kemisk peeling är en effektiv behandling för att reducera ärr från finnar. En specialformulerad syra appliceras på huden för att exfoliera det översta hudlagret där fläckar och gropar finns. Denna process stimulerar hudens naturliga förnyelse och tillväxt av ny hud. Genom att ta bort de yttre lagren av döda hudceller bidrar kemisk peeling till att minska synligheten av ärrbildning och förbättra hudens textur, vilket resulterar i en jämnare och klarare hud.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',

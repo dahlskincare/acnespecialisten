@@ -217,10 +217,10 @@ $types = array(
         url_label: 'Läs mer om laser mot ärr',
         url_title: 'Läs mer om laser mot ärr',
     ),
-    /*new Service(
+    new Service(
         title: 'CO2 laser mot Hudutväxter',
-        duration: '30 min',
-        price: '1595 kr',
+        duration: '20 min',
+        price: '1995 kr',
         content: 'Tar bort hudutväxter såsom vårtor och skin tags med precision, minimerar skada på omgivande vävnader för en säker och effektiv behandling.',
         image_small: 'bilder/hudproblem/102x102/hudutvaxter.webp',
         image_large: 'bilder/hudproblem/200x200/hudutvaxter.webp',
@@ -229,14 +229,14 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar',
+        booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections&area=Laser_ny_kund',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Alma Hybrid mot hudutväxter',
 
         url: '/hudproblem/hudforandringar/',
         url_label: 'Läs mer om hudförändringar',
         url_title: 'Läs mer om hudförändringar',
-    ),*/
+    ),
     new Service(
         title: 'CO2 laser mot bristningar',
         duration: '90 min',
