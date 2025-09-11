@@ -171,7 +171,7 @@ $services = array(
       new Service(
             title: 'Kemisk peeling mot finnar',
             duration: '30 min',
-            price: '1595 kr',
+            price: '1995 kr',
             content: 'Effektiv metod för att behandla finnar. Genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation.',
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',

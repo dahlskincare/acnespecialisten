@@ -184,7 +184,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Large_Pores',
       consultation_url_title: 'Klicka för att boka tid för en konsultation om stora porer',
 
       booking_url_label: null,

@@ -265,7 +265,7 @@ $services = array(
       new Service(
             title: 'Microneedling för Ärr från Finnar',
             duration: '60 min',
-            price: '2995 kr',
+            price: '2595 kr',
             content: 'Avancerad teknik som behandlar speciellt atrofiska ärr. Små, fina nålar skapas för att orsaka kontrollerade skador i huden, vilket igångsätter hudens läkningsprocess och kollagenproduktion. Resultatet blir en förbättrad hudtextur och mindre framträdande ärr.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
