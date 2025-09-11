@@ -178,8 +178,8 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling mot finnar',
-            duration: '30 min',
-            price: '1595 kr',
+            duration: '40 min',
+            price: '1995 kr',
             content: 'Exfolierar huden, rensar porer och minskar inflammation med en speciellt framtagen syra.',
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',

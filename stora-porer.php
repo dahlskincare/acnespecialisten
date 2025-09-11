@@ -184,7 +184,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för stora porer',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Large_Pores',
       consultation_url_title: 'Klicka för att boka tid för en konsultation om stora porer',
 
       booking_url_label: null,
@@ -244,8 +244,8 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling för stora porer',
-            duration: '30 min',
-            price: '1595 kr',
+            duration: '40 min',
+            price: '1995 kr',
             content: 'Kemisk peeling är en effektiv metod för att behandla och minska synligheten av stora porer. Genom att använda en speciellt framtagen syra för att exfoliera huden främjar kemisk peeling cellförnyelse och rensar tilltäppta porer. Resultatet är en jämnare hudton och en förbättrad hudstruktur med mindre synliga porer.',
 
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',

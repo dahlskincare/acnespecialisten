@@ -237,7 +237,7 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling mot acneärr',
-            duration: '30 min',
+            duration: '40 min',
             price: '1995 kr',
             content: 'Kemisk peeling förbättrar hudens utseende och textur med häjlp av syror. Denna behandling är särskilt effektiv för ärrtypen fläckar och verkar genom att applicera en kemisk lösning som exfolierar och tar bort det yttersta hudlagret. Detta främjar hudens förnyelse och kan avsevärt minska framträdandet av ärr och fläckar.',
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',

@@ -123,7 +123,7 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling mot PIH',
-            duration: '30 min',
+            duration: '40 min',
             price: '1995 kr',
             content: 'KKemisk peeling är en effektiv behandling för att förbättra hudens utseende och textur genom användning av syror. Denna metod är särskilt bra för att behandla fläckar från postinflammatorisk hyperpigmentering (PIH). En kemisk lösning appliceras på huden, vilket exfolierar och avlägsnar det yttersta hudlagret. Detta främjar hudens förnyelse och minskar synligheten av både ärr och fläckar.',
             image_small: 'bilder/behandlingar/200x200/kemisk-peeling.webp',

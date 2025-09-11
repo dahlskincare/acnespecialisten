@@ -462,8 +462,8 @@ $headline02 = "02. Behandla";
 $services = array(
       new Service(
             title: 'Laser mot bristningar',
-            duration: '50 min',
-            price: '2595 kr',
+            duration: '90 min',
+            price: '4595 kr',
             content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -485,8 +485,8 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling mot bristningar',
-            duration: '30 min',
-            price: '1595 kr',
+            duration: '40 min',
+            price: '1995 kr',
             content: 'Genom att exfoliera huden, främjar kemisk peeling cellförnyelse och ökar kollagenproduktionen.',
 
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',

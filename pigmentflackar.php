@@ -283,7 +283,7 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling mot pigmentfläckar',
-            duration: '30 min',
+            duration: '40 min',
             price: '1995 kr',
             content: 'Kemisk peeling är en beprövad metod som förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket hjälper till att reducera synliga pigmentfläckar och förbättra hudens allmänna utseende.',
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
@@ -302,8 +302,8 @@ $services = array(
       ),
       new Service(
             title: 'Laserbehandling mot pigmentfläckar',
-            duration: '90 min',
-            price: 'Från 2595 kr',
+            duration: '20-90 min',
+            price: 'Från 1595 kr',
             content: 'Laserbehandling mot ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av pigmentfläckar och förbättra hudens jämnhet.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',

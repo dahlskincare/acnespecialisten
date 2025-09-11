@@ -391,8 +391,8 @@ $headline02 = "02. Behandla";
 $services = array(
       new Service(
             title: 'Laser mot mogen hy',
-            duration: '50 min',
-            price: '2595 kr',
+            duration: '90 min',
+            price: '4595 kr',
             content: 'En avancerad laserbehandling anpassad för att möta de unika behoven hos mogen hud, vilket inkluderar att minska synliga tecken på åldrande såsom fina linjer, rynkor och slapp hy.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -414,8 +414,8 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk peeling för mogen hy',
-            duration: '30 min',
-            price: '1595 kr',
+            duration: '40 min',
+            price: '1995 kr',
             content: 'Framtagen för att exfoliera döda hudceller, boosta cellförnyelse och förbättra hudens textur. Resultatet är en jämnare hudton, förnyad lyster och minskade tecken på åldrande.',
 
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
