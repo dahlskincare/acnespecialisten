@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL mot rosacea',
     duration: '60 min',
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',

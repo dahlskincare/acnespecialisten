@@ -117,7 +117,7 @@ $services = array(
       new Service(
             title: 'CryoPen',
             duration: '20 min',
-            price: '995 kr',
+            price: 'Från 1595 kr',
             content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort hemangiom och blodprickar. Behandlingen är snabb och ger minimalt obehag.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
@@ -141,7 +141,7 @@ $services = array(
       new Service(
             title: 'Laser',
             duration: '40 min',
-            price: '1995 kr',
+            price: 'Från 1995 kr',
             content: 'Laserbehandling riktar högintensivt ljus mot hemangiom och blodprickar, vilket effektivt avlägsnar dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',

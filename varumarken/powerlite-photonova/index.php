@@ -258,7 +258,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '50 min',
-                price: '1895 kr',
+                price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=powerlite&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling med Powerlite Photonova på halsen'
