@@ -97,7 +97,7 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/rosacea.webp',
         image_alt: 'IPL-behandling för Rosacea',
         image_title: 'IPL-behandling för Rosacea',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Rosacea',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Blood_Vessels',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för IPL-behandling av rosacea',
         booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
