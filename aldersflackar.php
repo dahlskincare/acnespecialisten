@@ -113,8 +113,8 @@ $headline02 = "02. Behandla";
 $services = array(
       new Service(
             title: 'IPL-behandling mot åldersfläckar',
-            duration: '60 min',
-            price: '2595 kr',
+            duration: '20-50 min',
+            price: 'Från 995 kr',
             content: 'IPL-behandling använder ljuspulser för att bryta ner melanineti fläckarna, vilket gör att de bleknar och försvinner.',
             image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ipl.webp',
