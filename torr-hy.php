@@ -100,7 +100,7 @@ $treatment_steps = array(
             content: 'Hos AcneSpecialisten får du träffa en hudterapeut som hjälper dig att identifiera din torra och känsliga hy, samt skapar en individuell behandlingsplan för dig.',
 
             url_label: 'Boka gratis konsultation',
-            url: 'https://boka.acnespecialisten.se?flow=consultation',
+            url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_DrySensitiveSkin',
             url_title: 'Boka din kostnadsfria hudkonsultation idag'
       ),
       new TreatmentStep(
@@ -415,7 +415,7 @@ $service = new Service(
       url_title: 'Klicka här för att läsa mer om gratis konsultation för torr och känslig hy',
 
       consultation_url_label: 'Boka konsultation',
-      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
+      consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_DrySensitiveSkin',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för torr och känslig hy',
 
       booking_url_label: null,
