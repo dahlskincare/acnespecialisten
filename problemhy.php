@@ -289,7 +289,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka tid för hudkonsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_DrySensetiveSkin&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka en Ansiktsbehandling för Torr & Känslig Hy',
 
