@@ -259,7 +259,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '30 min',
-                price: '1895 kr',
+                price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av halsen'
@@ -281,7 +281,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'Händer',
                 duration: '30 min',
-                price: '1895 kr',
+                price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av händerna'

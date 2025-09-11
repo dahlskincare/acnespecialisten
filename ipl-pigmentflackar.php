@@ -18,7 +18,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL mot pigmentfläckar',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '<p class="p200">IPL utgör en effektiv lösning för dig som önskar en jämnare hudton genom att effektivt ta bort pigmentfläckar. Denna behandling passar utmärkt för att ljusa upp och jämna ut områden med överpigmentering. Våra IPL behandlingar är individuellt anpassade efter dina unika hudbehov. De är utformade för att inte bara minska synligheten av pigmentfläckar, utan också för att stimulera hudens egna läkningsprocesser och därmed förbättra hudens övergripande hälsa och utseende.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
@@ -153,7 +153,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'IPL för Hals',
                 duration: '30 min',
-                price: '1895 kr',
+                price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av halsen'
@@ -175,7 +175,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'IPL för Händer',
                 duration: '30 min',
-                price: '1895 kr',
+                price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av händerna'
@@ -196,7 +196,7 @@ $treatment_areas = array(
                 image_title: '1 Pigmentfläck',
                 title: 'IPL för 1 pigmentfläck',
                 duration: '20 min',
-                price: '995 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1x_spot_pf',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av 1 pigmentfläck'
