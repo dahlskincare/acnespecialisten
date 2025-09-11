@@ -25,7 +25,7 @@ $model = new Service(
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://boka.acnespecialisten.se?flow=microneedling',
+    booking_url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
     procedures: array(
@@ -208,7 +208,7 @@ $types = array(
         url_title: 'Läs mer om microneedling mot acne',
     ),
 );
-$big_types = array(
+/*$big_types = array(
     new Service(
         title: 'Boosta din Microneedling med PRX-T33-behandling',
         duration: null,
@@ -228,7 +228,7 @@ $big_types = array(
         icons: array(),
         procedures: array()
     ),
-);
+);*/
 
 $treatment_areas_title = 'Behandlingar efter område';
 $treatment_areas_text = '<p class="p200">Mångsidig behandling lämplig för olika delar av ansiktet och kroppen.</p>';
