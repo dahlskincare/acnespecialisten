@@ -97,7 +97,7 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/rosacea.webp',
         image_alt: 'IPL-behandling för Rosacea',
         image_title: 'IPL-behandling för Rosacea',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Rosacea',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Blood_Vessels',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för IPL-behandling av rosacea',
         booking_url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_Rosacea&area=EMPTY',
@@ -112,7 +112,7 @@ $types = array(
     new Service(
         title: 'IPL-behandling mot Ytliga Blodkärl',
         duration: '20 - 50 min',
-        price: 'Från 995 kr',
+        price: 'Från 1595 kr',
         content: 'Effektiv IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt behandla de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
@@ -133,7 +133,7 @@ $types = array(
     new Service(
         title: 'IPL-behandling mot Pigmentfläckar',
         duration: '20 - 50 min',
-        price: 'Från 995 kr',
+        price: 'Från 1595 kr',
         content: 'Minska och ta bort pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt och målinriktat reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',

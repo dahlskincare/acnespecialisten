@@ -144,7 +144,7 @@ $types = array(
     ),
     new Service(
         title: 'PRX T33 mot Pigmentfläckar',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -164,7 +164,7 @@ $types = array(
     ),
     new Service(
         title: 'PRX T33 mot Melasma',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',
@@ -184,7 +184,7 @@ $types = array(
     ),
     new Service(
         title: 'PRX T33 mot Rynkor & Fina Linjer',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -204,8 +204,8 @@ $types = array(
     ),
     new Service(
         title: 'PRX T33 mot Pormaskar & Stora Porer',
-        duration: '30 min',
-        price: '1595 kr',
+        duration: '40 min',
+        price: '1995 kr',
         content: 'Denna behandling är idealisk för att djuprengöra huden, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -224,7 +224,7 @@ $types = array(
     ),
     new Service(
         title: 'PRX T33 mot Bristningar',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Denna peelingbehandling hjälper till att minska synligheten av bristningar, vilket förbättrar hudens struktur och utseende.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
@@ -244,8 +244,8 @@ $types = array(
     ),
     new Service(
         title: 'PRX T33 mot Aktiv Akne',
-        duration: '30 min',
-        price: '1595 kr',
+        duration: '40 min',
+        price: '1995 kr',
         content: 'Behandlar aktiv akne och hjäpler till att rengöra porer, minska inflammation och exfolierar huden.',
         image_small: 'bilder/hudproblem/102x102/akne.webp',
         image_large: 'bilder/hudproblem/200x200/akne.webp',

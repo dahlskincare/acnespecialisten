@@ -98,7 +98,7 @@ $types = array(
 
     new Service(
         title: 'Skin Tech mot Pigmentfläckar',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Reducera och eliminera pigmentfläckar med hjälp av Skin Tech.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -118,7 +118,7 @@ $types = array(
     ),
     new Service(
         title: 'Skin Tech mot Bristningar',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Minskar synligheten av bristningar med Skin Tech',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
@@ -138,7 +138,7 @@ $types = array(
     ),
     new Service(
         title: 'Skin Tech mot Rynkor & Fina Linjer',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Jämnar ut hudytan för att bekämpa rynkor och fina linjer med Skin Tech.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -158,7 +158,7 @@ $types = array(
     ),
     new Service(
         title: 'Skin Tech mot Solskadad Hy',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Reparerar och återställer solskadad hy med hjälp av Skin Tech.',
         image_small: 'bilder/hudproblem/102x102/solskadad-hy.webp',
@@ -198,8 +198,8 @@ $types = array(
     ),
     new Service(
         title: 'Skin Tech mot Aktiv Akne',
-        duration: '30 min',
-        price: '1595 kr',
+        duration: '40 min',
+        price: '1995 kr',
         content: 'Bekämpa aktiv akne med hjälp av exolierande syror från Skin Tech.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
@@ -218,8 +218,8 @@ $types = array(
     ),
     new Service(
         title: 'Skin Tech mot Pormaskar & Stora Porer',
-        duration: '30 min',
-        price: '1595 kr',
+        duration: '40 min',
+        price: '1995 kr',
         content: 'Exfolierar och reducerar pormaskar och stora porer med hjälp av Skin Tech.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -238,7 +238,7 @@ $types = array(
     ),
     new Service(
         title: 'Skin Tech mot Melasma',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Ljusar upp och jämnar ut hudtonen med Skin Tech.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',

@@ -83,7 +83,7 @@ $services = array(
         image_title: 'Utförande av kemisk peelingbehandling för pigmentfläckar',
         image_alt: 'Bild på kemisk peelingbehandling mot pigmentfläckar hos Acnespecialisten',
         title: 'Kemisk peeling mot pigmentfläckar',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         icons: array(),
         content: '<p class="p200">Kemisk peeling behandlar effektivt pigmentfläckar genom att använda syror för att avlägsna det yttersta hudlagret. Denna process främjar cellförnyelse och bidrar till att reducera synligheten av pigmentfläckar samt förbättra hudens struktur och utseende. Genom att stimulera hudens naturliga förnyelseprocess får du en jämnare och mer strålande hudton.</p>',

@@ -102,7 +102,7 @@ $services = array(
         image_title: 'Utförande av kemisk peelingbehandling för stora porer',
         image_alt: 'Bild på kemisk peelingbehandling mot stora porer hos AcneSpecialisten',
         title: 'Kemisk peeling mot stora porer',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: '<p class="p200">För dem med stora porer är kemisk peeling en framstående behandlingsmetod. Genom att använda kraftfulla syror tränger behandlingen ner i huden och porerna, där den löser upp porblockeringar som gör att porerna ser större ut. Genom att effektivt avlägsna döda hudceller och överskott av talg, hjälper kemisk peeling till att förminska porernas synlighet. Detta skapar utrymme för ny, frisk hud att komma fram, vilket leder till en jämnare hudtextur och ökad klarhet.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',

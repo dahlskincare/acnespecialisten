@@ -165,7 +165,7 @@ $types_description = '<p class="p200">På AcneSpecialisten erbjuder vi skräddar
 $types = array(
     new Service(
         title: 'Kemisk peeling mot acneärr',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Utformad för att effektivt behandla och minska synligheten av acneärr (fläckar). Denna behandling arbetar på djupet för att jämna ut hudtonen där ärrbildning har skett.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
@@ -185,8 +185,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling mot acne',
-        duration: '30 min',
-        price: '1595 kr',
+        duration: '40 min',
+        price: '1995 kr',
         content: 'Effektiv acne peeling som hjälper till att rengöra porer, minska inflammation och förhindra framtida utbrott.',
         image_small: 'bilder/hudproblem/102x102/akne.webp',
         image_large: 'bilder/hudproblem/200x200/akne.webp',
@@ -205,8 +205,8 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling mot Pormaskar & Stora Porer',
-        duration: '30 min',
-        price: '1595 kr',
+        duration: '40 min',
+        price: '1995 kr',
         content: 'Denna behandling är idealisk för att djuprengöra och rensar ur porerna, minska synligheten av pormaskar och förminska stora porer, vilket bidrar till en jämnare hudton och textur.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -225,7 +225,7 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling mot Melasma',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Effektiv behandling för att ljusa upp och behandla melasma, vilket ger en jämnare och klarare hudton.',
         image_small: 'bilder/hudproblem/102x102/melasma.webp',
@@ -245,7 +245,7 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling mot Pigmentfläckar',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Denna behandling riktar sig mot pigmentfläckar, vilket hjälper till att jämföra hudton och reducera synliga fläckar.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
@@ -265,7 +265,7 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling mot Rynkor & Fina Linjer',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Anpassad för att behandla åldrande hud, denna peeling minskar rynkor och fina linjer, vilket ger en mer ungdomlig och slät hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
@@ -285,7 +285,7 @@ $types = array(
     ),
     new Service(
         title: 'Kemisk Peeling mot Solskadad Hy',
-        duration: '30 min',
+        duration: '40 min',
         price: '1995 kr',
         content: 'Denna peeling riktar sig specifikt mot solskadad hud och hjälper till att reparera och förbättra hudens utseende efter solens påverkan.',
         image_small: 'bilder/hudproblem/102x102/solskadad-hy.webp',
