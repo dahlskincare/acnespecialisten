@@ -172,7 +172,7 @@ $types = array(
         image_large: 'bilder/hudproblem/200x200/melasma.webp',
         image_alt: 'Laserbehandling mot Melasma',
         image_title: 'Laserbehandling mot Melasma',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Harmony',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Melasma&area=EMPTY',

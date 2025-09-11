@@ -147,7 +147,7 @@ $services = array(
             url: 'alma-harmony-xl-pro.php',
             url_title: 'Läs mer om laser mot melasma',
 
-            consultation_url: 'https://boka.acnespecialisten.se/?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Harmony',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Harmony',
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot melasma',
 
