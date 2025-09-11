@@ -26,7 +26,7 @@ $model = new Service(
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Soprano',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SI',
+    booking_url: 'https://boka.acnespecialisten.se?flow=sopranoice',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
