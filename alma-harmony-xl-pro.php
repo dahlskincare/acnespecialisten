@@ -153,7 +153,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro mot pigmentfläckar',
         duration: '20 - 50 min',
-        price: 'Från 995 kr',
+        price: 'Från 1595 kr',
         content: 'Dye-VL använder IPL-teknologi med ett specifikt munstycke för att rikta in sig på melanin, vilket ljusar upp och reducerar pigmentfläckar. Denna selektiva målinriktning bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
