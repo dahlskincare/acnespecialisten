@@ -299,7 +299,7 @@ $services = array(
       new Service(
             title: 'CryoPen mot hudförändringar',
             duration: '20 min',
-            price: '995 kr',
+            price: 'Från 1595 kr',
             content: 'Cryopen fryser bort hudförändringar med extrem kyla, vilket förstör den oönskade hudförändringen. Behandlingen initierar kroppens läkningsprocess, vilket leder till att förändringarna gradvis försvinner.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
@@ -322,7 +322,7 @@ $services = array(
       new Service(
             title: 'Laser mot hudförändringar',
             duration: '20 min',
-            price: '1595 kr',
+            price: 'Från 1995 kr',
             content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling. Behandlingen finns endast i Sundbyberg.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',

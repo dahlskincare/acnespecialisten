@@ -132,7 +132,7 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk Peeling mot åldersfläckar',
-            duration: '30 min',
+            duration: '40 min',
             price: '1995 kr',
             content: 'Kemisk peeling förnyar och förbättrar hudens yta. Behandlingen används för att exfoliera och ta bort det yttersta hudlagret, vilket reducerar fläckarna och förbättrar hudens utseende.',
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',

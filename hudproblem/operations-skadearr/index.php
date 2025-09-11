@@ -161,8 +161,8 @@ $services = array(
       ),
       /*new Service(
             title: 'Kemisk peeling för ärr',
-            duration: '30 min',
-            price: '1595 kr',
+            duration: '40 min',
+            price: '1995 kr',
             content: 'Kemisk peeling kan effektivt behandla och minska ärrbildning. Genom att exfoliera huden främjar kemisk peeling cellförnyelse, vilket leder till att ärr och ojämn hudton förbättras.',
 
             image_small: 'images/services/200x200/kemisk-peeling.webp',

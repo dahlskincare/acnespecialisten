@@ -245,7 +245,7 @@ $services = array(
       ),
       new Service(
             title: 'Kemisk Peeling för Ärr från Finnar',
-            duration: '30 min',
+            duration: '40 min',
             price: '1995 kr',
             content: 'Förnyar och förbättrar hudens yta. Behandlingen används för att målinriktat exfoliera och ta bort det yttersta hudlagret, vilket bidrar till hudens återväxt och synligt reducerar ärr och ojämnheter.',
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',

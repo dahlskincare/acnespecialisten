@@ -123,7 +123,7 @@ $services = array(
       new Service(
             title: 'Laser för hårborttagning',
             duration: '50 min',
-            price: '995 kr',
+            price: 'Från 995 kr',
             content: 'Avancerad laserbehandling för hårborttagning erbjuder en effektiv lösning för att ta bort oönskat hår permanent. Lasertekniken riktar sig mot hårstråets melanin, vilket förstör hårsäcken och förhindrar framtida hårväxt.',
 
             image_small: 'bilder/hudbehandlingar/200x200/permanent-harborttagning.webp',

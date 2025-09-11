@@ -264,7 +264,7 @@ $services = array(
 
       new Service(
             title: 'Kemisk peeling mot blandhy',
-            duration: '30 min',
+            duration: '40 min',
             price: '1995 kr',
             content: 'Kemisk peeling anpassad för blandhy använder sig av en unik syra framtagen för att exfoliera och återfukta hudens särskilda behov. Den främjar en accelererad cellförnyelse, vilket bidrar till att balansera både oljiga och torra partier av huden.',
 

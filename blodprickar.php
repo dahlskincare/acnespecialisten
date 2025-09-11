@@ -140,7 +140,7 @@ $services = array(
 
       new Service(
             title: 'Laser',
-            duration: '30 min',
+            duration: '40 min',
             price: '1995 kr',
             content: 'Laserbehandling riktar högintensivt ljus mot hemangiom och blodprickar, vilket effektivt avlägsnar dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat',
 
