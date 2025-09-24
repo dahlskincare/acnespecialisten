@@ -127,18 +127,24 @@ CookieDialog.initialize();
 var query = new URLSearchParams(window.location.search);
 var gclid = query.get('gclid');
 if (gclid) {
-    // Append GCLID parameter to all links
-    var links = document.querySelectorAll('a');
-    for (var i = 0; i < links.length; i++) {
-        var link = links[i];
-        var url = new URL(link.href);
-        url.searchParams.set('gclid', gclid);
-        link.href = url.toString();
-    }
+
+    // Append GCLID parameter to all links 
+    document.addEventListener('DOMContentLoaded', function () {
+        var links = document.querySelectorAll('a');
+        for (var i = 0; i < links.length; i++) {
+            var link = links[i];
+            var url = new URL(link.href);
+            url.searchParams.set('gclid', gclid);
+            link.href = url.toString();
+        }
+    });
+
 
     // Send GCLID and other UTM parameters to tracking endpoint, but only once per session
     if (sessionStorage.getItem('gclid_tracked') !== gclid) {
         sessionStorage.setItem('gclid_tracked', gclid);
+
+
 
         const trackingData = {
             gclid: gclid,
