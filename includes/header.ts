@@ -74,21 +74,6 @@ namespace CookieDialog {
         if (parts.length === 2) return parts.pop().split(';').shift();
     }
 
-    function copyGclidToLinks() {
-        var urlParams = new URLSearchParams(window.location.search);
-        var gclid = urlParams.get('gclid');
-        if (gclid) {
-            var links = document.querySelectorAll('a');
-            for (var i = 0; i < links.length; i++) {
-                var link = links[i];
-                var url = new URL(link.href);
-                url.searchParams.set('gclid', gclid);
-                link.href = url.toString();
-            }
-        }
-    }
-
-
     export function initialize() {
         if (getCookie('cookieConsent') === 'true') {
             (window as any).gtag('consent', 'update', {
@@ -96,10 +81,6 @@ namespace CookieDialog {
                 'ad_user_data': 'granted',
                 'ad_personalization': 'granted',
                 'analytics_storage': 'granted'
-            });
-
-            window.addEventListener('load', function () {
-                copyGclidToLinks();
             });
         } else if (sessionStorage.getItem('consentShown') != 'true') {
             (document.querySelector('#cookieConsent') as HTMLDialogElement).showModal();
@@ -125,7 +106,6 @@ namespace CookieDialog {
             });
             // Set cookie rather than localStorage so that consent state can be read by subdomains (boka.acnespecialisten.se)            
             document.cookie = "cookieConsent=true; domain=.acnespecialisten.se; path=/; expires=" + expires.toUTCString();
-            copyGclidToLinks();
         } else {
             (window as any).gtag('consent', 'update', {
                 'ad_storage': 'denied',
@@ -142,3 +122,53 @@ namespace CookieDialog {
 
 
 CookieDialog.initialize();
+
+
+var query = new URLSearchParams(window.location.search);
+var gclid = query.get('gclid');
+if (gclid) {
+    // Append GCLID parameter to all links
+    var links = document.querySelectorAll('a');
+    for (var i = 0; i < links.length; i++) {
+        var link = links[i];
+        var url = new URL(link.href);
+        url.searchParams.set('gclid', gclid);
+        link.href = url.toString();
+    }
+
+    // Send GCLID and other UTM parameters to tracking endpoint, but only once per session
+    if (sessionStorage.getItem('gclid_tracked') !== gclid) {
+        sessionStorage.setItem('gclid_tracked', gclid);
+
+        const trackingData = {
+            gclid: gclid,
+            utm_source: query.get('utm_source') || '',
+            utm_medium: query.get('utm_medium') || '',
+            utm_campaign: query.get('utm_campaign') || '',
+            utm_term: query.get('utm_term') || '',
+            utm_content: query.get('utm_content') || '',
+            utm_adgroup: query.get('utm_adgroup') || '',
+            device: query.get('device') || '',
+            network: query.get('network') || '',
+            matchtype: query.get('matchtype') || '',
+            feeditemid: query.get('feeditemid') || '',
+            extensionid: query.get('extensionid') || '',
+            loc_physical: query.get('loc_physical') || '',
+            loc_interest: query.get('loc_interest') || '',
+            page_url: window.location.href,
+            page_title: document.title,
+            user_agent: navigator.userAgent,
+            referrer: document.referrer || 'Direct',
+            timestamp: new Date().toISOString()
+        };
+
+        fetch('https://groicompany.app.n8n.cloud/webhook/17bf9e17-f865-4492-ba3a-2fc2c0eb8765', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(trackingData)
+        }).catch(error => console.log('GCLID tracking error:', error));
+    }
+}
+
