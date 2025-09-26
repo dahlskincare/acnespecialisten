@@ -438,12 +438,12 @@ $service_brands = array(
         url_title: 'Alma Rejuve Dye-VL',
     ),
     new Brand(
-        label: 'Powerlite Photonova',
-        image: 'bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova logotyp',
-        image_title: 'Powerlite Photonova - IPL',
-        url: '/varumarken/powerlite-photonova/',
-        url_title: 'Powerlite Photonova',
+        label: 'Fraction CO2',
+        image: 'bilder/logotyper/fraction-co2.svg',
+        image_alt: 'Fraction CO2 logotyp',
+        image_title: 'Fraction CO2 - Fraktionerad laser',
+        url: '/varumarken/fraction-co2/',
+        url_title: 'Fraction CO2',
     ),
 );
 
