@@ -3,179 +3,56 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'CO2 laser - Fraktionerad laser | AcneSpecialisten';
-$seo_description = 'Effektiv laserbehandling mot ärr, hudföryngring och mer hos AcneSpecialisten i Stockholm. Se resultat, före och efter bilder och boka din kostnadsfria konsultation idag.';
-$seo_keywords = 'co2 laser, fraktionerad laser, co2 laser före efter, fraktionerad laser före efter, co2 laser stockholm, koldioxidlaser, fraktionerad laser ärr, fraktionerad co2 laser';
-$seo_image = 'bilder/varumarken/424x456/alma-hybrid-co2.webp';
+$seo_title = 'Fraction CO2 laser - Nya generationens fraktionerad laser | AcneSpecialisten';
+$seo_description = 'Fraction CO2 laser med 13 spottstorlekar. Effektiv mot ärr, hudföryngring och pigmentering hos AcneSpecialisten Stockholm.';
+$seo_keywords = 'fraction co2 laser, fraktionerad laser, ärrbehandling, hudföryngring, hyperpigmentering, bristningar, laser stockholm, fraction co2 stockholm';
+$seo_image = '/bilder/varumarken/424x456/fraction-co2.webp';
 
 $path_segments = array(
     new PathSegment('Varumärken', '/varumarken/'),
-    new PathSegment('Alma Hybrid CO2 laser', '/alma-hybrid-co2-laser.php'),
+    new PathSegment('Fraction CO2 laser', '/varumarken/fraction-co2/'),
 );
 
 $model = new Service(
-    title: 'CO2 laser - Fraktionerad laser',
+    title: 'Fraction CO2 laser - Nya generationens fraktionerad laser',
     duration: null,
     price: 'Från 5595 kr',
-    content: '<p class="p200">Alma Hybrid är en avancerad fraktionerad CO2-laser med ett unikt patent. Den kombinerar ablativ CO2-laser, som bränner hudytan, med icke-ablativ laser, som behandlar under huden. Denna senaste generation av laserbehandling hanterar effektivt hudproblem som akneärr, rynkor, fina linjer och ojämn hudton, och ger en omfattande lösning för förbättrad hudhälsa och utseende.</p>',
-    image_small: 'bilder/varumarken/358x274/alma-hybrid-co2.webp',
-    image_large: 'bilder/varumarken/424x456/alma-hybrid-co2.webp',
-    image_alt: 'Alma Hybrid',
-    image_title: 'Alma Hybrid',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+    content: '<p class="p200">Fraction CO2 är nya generationens fraktionerade laser för kropp och ansikte med avancerad scanningsteknik. Med 13 olika spottstorlekar och 8 olika behandlingsmönster erbjuder denna banbrytande teknik precis och anpassningsbar behandling för ett brett spektrum av hudproblem inklusive ärrbehandling, hudföryngring, hyperpigmentering och bristningar.</p>',
+    image_small: '/bilder/varumarken/358x274/fraction-co2.webp',
+    image_large: '/bilder/varumarken/424x456/fraction-co2.webp',
+    image_alt: 'Fraction CO2',
+    image_title: 'Fraction CO2',
+    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid',
+    booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'Alma Hybrid är den mest avancerade kombinationen av ablativ och icke-ablativ CO2 laser.';
+$floating_box = 'Fraction CO2 - nya generationens fraktionerade laser med 13 spottstorlekar och 8 behandlingsmönster.';
 
-$description_title = 'Vad är fraktionerad CO2 laser?';
-$description_text = '<p class="p200">Fraktionerad laser är en ny banbrytande teknik inom laserbehandlingar, som kombinerar den fraktionerade, ablativa CO2-lasern med icke-ablativ laserteknik. Denna avancerade teknik erbjuder behandling mot ett brett spektrum av hudproblem, inklusive acneärr, rynkor, bristningar, ojämn hudton och stora porer med mera. Genom att kombinera dessa två lasertekniker uppnår vi överlägsna resultat med kortare återhämtningstid.</p>
-<p class="p200 mt-m">Koldioxidlaser arbetar genom att skapa kontrollerade mikroskopiska skador i hudens yttre lager, (påminner om microneedling) vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna process hjälper till att förbättra hudens struktur, minska ärr och rynkor, och ge en övergripande hudföryngring. Samtidigt arbetar den icke-ablativa lasertekniken med att förbättra hudens elasticitet och textur på ett djupare plan, utan att skada hudens yttre lager. Detta möjliggör en mycket effektiv behandling och även kortare återhämtningstid och perfekta resultat</p>';
+$description_title = 'Vad är Fraction CO2 laser?';
+$description_text = '<p class="p200">Fraction CO2 är nya generationens fraktionerade CO2-laser för kropp och ansikte som använder avancerad scanningsteknik. Denna innovativa laser erbjuder enastående precision med 13 olika spottstorlekar och 8 olika behandlingsmönster, vilket möjliggör skräddarsydda behandlingar för varje unik hudtyp och problemområde. Tekniken är effektiv för ärrbehandling, hudföryngring, hyperpigmentering, bristningar och vaskulära problem som rosacea.</p>
+<p class="p200 mt-m">Fraction CO2 fungerar genom att producera ljusstrålar som delas upp i små fraktionerade strålar som penetrerar huden till specifika djup. Detta skapar mikroskopiska sår som stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Den fraktionerade tekniken innebär att endast en del av hudytan behandlas åt gången, vilket resulterar i kortare återhämtningstid jämfört med traditionella lasrar samtidigt som man uppnår utmärkta resultat.</p>';
 
 $top_articles = array(
     'process' => new Article(
-        title: 'Hur går fraktionerad CO2 laserbehandling till?',
-        image_small: '/bilder/process/358x272/alma-hybrid-process.webp',
-        image_large: '/bilder/process/872x456/alma-hybrid-process.webp',
-        image_alt: 'Hur går fraktionerad CO2 laserbehandling till?',
-        image_title: 'Hur går en fraktionerad CO2 behandling till?',
-        content: '<p class="p200">Att genomgå en CO2 laserbehandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla hudproblem. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserbehandlingen. Efter den initiala rengöringen appliceras en bedövningskräm på det område som ska behandlas för att minimera eventuell smärta och obehag under proceduren. Detta steg är viktigt för att säkerställa att du som patient känner dig så bekväm som möjligt under hela behandlingsprocessen.</p>
-        <p class="p200 mt-m">När bedövningen har fått verka och området är förberett, börjar själva CO2-laserbehandlingen med Alma Hybrid. Laserstrålen skjuts i små microskopiska, kontrollerade pulser som penetrerar och bränner hål hudens yttre lager. Detta stimulerar hudens naturliga läkningsprocess och främjar nybildning av kollagen och elastin, vilket resulterar i en fastare, jämnare och mer ungdomlig hud.</p>
-        <p class="p200 mt-m">Behandlingen anpassas noggrant efter dina specifika hudbehov, önskemål och problemtyp, och den fraktionerade naturen av lasern gör det möjligt att behandla huden med stor precision utan att skada det omgivande vävnaden. Detta bidrar till en snabbare läkningsprocess och mindre nedtid jämfört med äldre generationer av CO2-lasermaskiner.</p>
-        <p class="p200 mt-m">Som ett avslutande steg i din behandling, använder vi Almas patenterade Trans Epidermal Delivery (TED) ultraljudsteknik. Denna metod använder akustiskt tryck för att möjliggöra införandet potenta serum djupt ner i huden genom de mikrokanaler som skapats av koldioxidlasern. Detta säkerställer att det anpassade serumet effektivt når hudens djupare lager, vilket optimerar återhämtningen och förstärker behandlingens effekter.</p>',
+        title: 'Hur går Fraction CO2 laserbehandling till?',
+        image_small: '/bilder/process/358x272/fraction-co2-process.webp',
+        image_large: '/bilder/process/872x456/fraction-co2-process.webp',
+        image_alt: 'Hur går Fraction CO2 laserbehandling till?',
+        image_title: 'Hur går en Fraction CO2 behandling till?',
+        content: '<p class="p200">Att genomgå en Fraction CO2 laserbehandling hos AcneSpecialisten innebär en noggrann och avancerad process för att effektivt behandla hudproblem. Behandlingen inleds med en grundlig rengöring av det område som ska behandlas för att säkerställa att huden är optimalt förberedd för laserbehandlingen. Efter den initiala rengöringen appliceras en bedövningskräm på det område som ska behandlas för att minimera eventuell smärta och obehag under proceduren. Detta steg är viktigt för att säkerställa att du känner dig så bekväm som möjligt under hela behandlingsprocessen.</p>
+        <p class="p200 mt-m">När bedövningen har fått verka och området är förberett, börjar själva Fraction CO2-laserbehandlingen. Med sina 13 olika spottstorlekar och 8 behandlingsmönster kan lasern anpassas exakt efter ditt hudproblem. Laserstrålen delas upp i små fraktionerade pulser som penetrerar huden till optimalt djup och skapar mikroskopiska behandlingszoner. Detta stimulerar hudens naturliga läkningsprocess och främjar nybildning av kollagen och elastin.</p>
+        <p class="p200 mt-m">Behandlingen anpassas noggrant efter dina specifika hudbehov, önskemål och problemtyp. Den fraktionerade tekniken innebär att endast delar av hudytan behandlas åt gången, vilket gör det möjligt att behandla huden med stor precision utan att skada det omgivande vävnaden. Detta bidrar till en snabbare läkningsprocess och kortare återhämtningstid jämfört med traditionella lasrar.</p>
+        <p class="p200 mt-m">Som ett avslutande steg i din behandling applicerar vi närande serum som penetrerar djupt genom de mikrokanaler som skapats av Fraction CO2-lasern. Detta säkerställer optimal återhämtning och förstärker behandlingens effekter genom att tillföra aktiva ingredienser som främjar läkning och hudförnyelse på djupet.</p>',
     ),
 );
 
-$types_title = 'Alma Hybrid Signaturbehandlingar';
-$types_description = 'Här hittar du hybridens Signaturbehandlingar som presenterar de 3 lasermaskinen är mest effektiv inom. Dessa är reducering av olika typer av ärr, att ge huden en effektiv hudförnyelse samt en mildare huduppfräschning med minimal återhämtningstid.';
-
-$big_types = array(
-    new Service(
-        title: 'Hybrid oScar - Ärrbehandling',
-        duration: '90 min',
-        price: null,
-        content: '<p class="p200">På AcneSpecialisten erbjuder vi Almas Hybrids signaturbehandling OScar, en speciellt utformad metod för att effektivt behandla olika typer av ärr, inklusive acneärr, skade- och kirurgiska ärr. Denna avancerade behandling utnyttjar den senaste tekniken genom att kombinera CO2 och 1570nm laservåglängder för att nå optimal penetration i hudens dermisskikt.</p>
-        <p class="p200 mt-m">Behandlingsprocessen för OScar anpassas noggrant för att passa varje unik klient och ärrtyp. Genom att justera penetrationsdjup, koagulationsbredd och densitet kan vi skräddarsy behandlingen för att uppnå bästa möjliga resultat. Denna precisa metod stimulerar hudens naturliga läkningsprocess och kollagenproduktion, vilket är avgörande för att minska synligheten och djupet av ärrbildningar.</p>
-        <p class="p200 mt-m">Efter laserbehandlingen kompletterar vi med Impact-serum för att ytterligare förbättra behandlingens effektivitet. Impact hjälper till att säkerställa att serumet når de djupare hudlagren, vilket bidrar till en förbättrad läkning och förnyelse av huden. OScar-behandlingen är en idealisk lösning för dig som söker en omfattande och effektiv lösning för att dramatiskt minska synligheten av ärr och förbättra hudens övergripande utseende och textur.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/hybrid-oscar.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/hybrid-oscar.webp',
-        image_alt: 'Hybrid oScar',
-        image_title: 'Hybrid oScar',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        icons: array(),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '5595 kr',
-                savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '12995 kr',
-                savings: 'Spara 2790 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '18995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_5'
-            )
-        )
-    ),
-    new Service(
-        title: 'HybridLift - Skin Resurfacing (Over-the-weekend Treatment)',
-        duration: '90 min',
-        price: null,
-        content: '<p class="p200">På AcneSpecialisten introducerar vi HybridLift, en banbrytande hudresurfacingbehandling som kombinerar ablativa och termiska lasermetoder med avancerad produktleverans för att skapa enastående resultat med minimal återhämtningstid. HybridLift är idealisk för dig som söker en effektiv lösning för att snabbt förbättra hudens utseende över en helg.</p>
-        <p class="p200 mt-m">Denna unika behandling utnyttjar en kombination av CO2- och 1570nm-lasrar. Det specialutformade scanningsmönstret skapar en hudsammandragande effekt som effektivt minskar fina linjer och djupare rynkor, samtidigt som det skalar bort solpigmenteringar. Denna process stimulerar hudens egen förnyelse och hjälper till att ge en mer ungdomlig och jämn hudton.</p>
-        <p class="p200 mt-m">Efter laserbehandlingen applicerar vi Impact-ultraljudsteknik för att förbättra penetrationen av hudvårdande produkter djupt in i huden. Denna metod säkerställer att aktiva ingredienser når de nivåer där de är mest effektiva, vilket ytterligare förbättrar hudens textur och lyster. HybridLift är den ultimata over-the-weekend behandlingen för dig som önskar synliga förbättringar på kort tid och med minimal återhämtning.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/hybridlift.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/hybridlift.webp',
-        image_alt: 'HybridLift',
-        image_title: 'HybridLift',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        icons: array(),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '5595 kr',
-                savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_9_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '12995 kr',
-                savings: 'Spara 2790 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_9_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '18995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_9_Procedure_5'
-            )
-        )
-    ),
-    new Service(
-        title: 'SoftLift - Skin Rejuvenation (Lunch-time Treatment)',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">AcneSpecialisten presenterar nu SoftLift, en innovativ huduppfräschande behandling utformad för att ge synliga resultat med minimal återhämtningstid. SoftLift är perfekt för dig som önskar en snabb och effektiv förbättring av din hudton, minskning av fina linjer och rynkor, samt reparation av hudskador inklusive akneärr, allt under en lunchrast.</p>
-        <p class="p200 mt-m">Denna skonsamma men kraftfulla behandling använder en icke-ablativ 1570nm-laser som skapar en betydande termisk effekt. Den främjar neokollagenes och regenererar den extracellulära matrisen som stöder hudcellerna, vilket bidrar till en mer ungdomlig och strålande hud. Samtidigt lämnas epidermis intakt, vilket minimerar återhämtningstiden.</p>
-        <p class="p200 mt-m">SoftLift är en idealisk behandling för de som vill ha snabba resultat utan att behöva ta ledigt från vardagsaktiviteter. Behandlingen är särskilt effektiv för att förbättra hudtonen och strukturen, strama upp huden och återställa dess ungdomliga utseende. Med SoftLift uppnår du en jämnare och fräschare hud snabbt och enkelt, vilket gör den till det perfekta valet för en snabb och effektiv huduppfräschning.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/softlift.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/softlift.webp',
-        image_alt: 'SoftLift',
-        image_title: 'SoftLift',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        icons: array(),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '3595 kr',
-                savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_7_Procedure_1'
-            ),
-            new Procedure(
-                label: '3 behandlingar',
-                price: '8995 kr',
-                savings: 'Spara 1790 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_7_Procedure_3'
-            ),
-            new Procedure(
-                label: '5 behandlingar',
-                price: '12995 kr',
-                savings: 'Spara 4980 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_7_Procedure_5'
-            )
-        )
-    ),
-
-);
 
 $types_title = 'Hudproblem vi behandlar';
-$types_description = '<p class="p200">På AcneSpecialisten använder vi Alma Hybrid för att effektivt behandla en rad olika hudproblem.</p>';
+$types_description = '<p class="p200">På AcneSpecialisten använder vi Fraction CO2 för att effektivt behandla en rad olika hudproblem.</p>';
 $types = array(
     new Service(
         title: 'CO2 laser mot acneärr',
@@ -184,14 +61,14 @@ $types = array(
         content: 'Effektiv metod för att minska acneärr. Kombinerar precisionslaser med djupvävnadsuppvärmning, stimulerar hudens läkning för jämnare hudtextur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
-        image_alt: 'Alma Hybrid mot Acneärr',
-        image_title: 'Alma Hybrid mot Acneärr',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 mot Acneärr',
+        image_title: 'Fraction CO2 mot Acneärr',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=Problem_AcneScars',
+        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_AcneScars',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot Acneärr',
+        booking_url_title: 'Boka Fraction CO2 mot Acneärr',
 
         url: '/laser-acnearr.php',
         url_label: 'Läs mer om laser mot acneärr',
@@ -201,17 +78,17 @@ $types = array(
         title: 'CO2 laser mot ärr (skade- och operationsärr)',
         duration: '90 min',
         price: '5595 kr',
-        content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
+        content: 'Fraktionerad laser för ärrbehandling av skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
-        image_alt: 'Alma Hybrid mot Ärr (Skade- och Operationsärr)',
-        image_title: 'Alma Hybrid mot Ärr (Skade- och Operationsärr)',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 mot Ärr (Skade- och Operationsärr)',
+        image_title: 'Fraction CO2 mot Ärr (Skade- och Operationsärr)',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=Problem_Scars&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot Ärr (Skade- och Operationsärr)',
+        booking_url_title: 'Boka Fraction CO2 mot Ärr (Skade- och Operationsärr)',
 
         url: '/laser-arr.php',
         url_label: 'Läs mer om laser mot ärr',
@@ -224,14 +101,14 @@ $types = array(
         content: 'Tar bort hudutväxter såsom vårtor och skin tags med precision, minimerar skada på omgivande vävnader för en säker och effektiv behandling.',
         image_small: 'bilder/hudproblem/102x102/hudutvaxter.webp',
         image_large: 'bilder/hudproblem/200x200/hudutvaxter.webp',
-        image_alt: 'Alma Hybrid mot Hudutväxter',
-        image_title: 'Alma Hybrid mot Hudutväxter',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 mot Hudutväxter',
+        image_title: 'Fraction CO2 mot Hudutväxter',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
         booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections&area=Laser_ny_kund',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot hudutväxter',
+        booking_url_title: 'Boka Fraction CO2 mot hudutväxter',
 
         url: '/hudproblem/hudforandringar/',
         url_label: 'Läs mer om hudförändringar',
@@ -241,17 +118,17 @@ $types = array(
         title: 'CO2 laser mot bristningar',
         duration: '90 min',
         price: '5595 kr',
-        content: 'Laser behandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
+        content: 'Laserbehandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
-        image_alt: 'Alma Hybrid mot Bristningar',
-        image_title: 'Alma Hybrid mot Bristningar',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 mot Bristningar',
+        image_title: 'Fraction CO2 mot Bristningar',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=Problem_StrechMarks',
+        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot Bristningar',
+        booking_url_title: 'Boka Fraction CO2 mot Bristningar',
 
         url: '/hudproblem/bristningar/',
         url_label: 'Läs mer om bristningar',
@@ -264,34 +141,34 @@ $types = array(
         content: 'Minskar utseendet av stora porer genom att förbättra hudens yta och textur, bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
-        image_alt: 'Alma Hybrid mot Stora Porer',
-        image_title: 'Alma Hybrid mot Stora Porer',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 mot Stora Porer',
+        image_title: 'Fraction CO2 mot Stora Porer',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=Problem_LargePores&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_LargePores&area=EMPTY',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot Stora Porer',
+        booking_url_title: 'Boka Fraction CO2 mot Stora Porer',
 
         url: '/stora-porer.php',
         url_label: 'Läs mer om stora porer',
         url_title: 'Läs mer om stora porer',
     ),
     new Service(
-        title: 'CO2 laser mot rynkor och fina Linjer',
+        title: 'CO2 laser mot rynkor och fina linjer',
         duration: '90 min',
         price: '5595 kr',
         content: 'Kombinerar laser med värmestimulering för att släta ut rynkor och linjer. Främjar kollagenproduktion för en ungdomligare hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
-        image_alt: 'Alma Hybrid mot Rynkor och Fina Linjer',
-        image_title: 'Alma Hybrid mot Rynkor och Fina Linjer',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 mot Rynkor och Fina Linjer',
+        image_title: 'Fraction CO2 mot Rynkor och Fina Linjer',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=Problem_Wrinkles&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Wrinkles&area=EMPTY',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot Rynkor och Fina Linjer',
+        booking_url_title: 'Boka Fraction CO2 mot Rynkor och Fina Linjer',
 
         url: '/mogen-hy.php',
         url_label: 'Läs mer om mogen hy',
@@ -304,38 +181,18 @@ $types = array(
         content: 'Reducerar och tar bort pigmentfläckar. Målinriktad laser bryter ner pigmentering för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
-        image_alt: 'Alma Hybrid  mot Pigmentfläckar',
-        image_title: 'Alma Hybrid mot Pigmentfläckar',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 mot Pigmentfläckar',
+        image_title: 'Fraction CO2 mot Pigmentfläckar',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=Problem_PigmentationSpots',
+        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot Pigmentfläckar',
+        booking_url_title: 'Boka Fraction CO2 mot Pigmentfläckar',
 
         url: '/ipl-pigmentflackar.php',
         url_label: 'Läs mer om laser mot pigmentfläckar',
         url_title: 'Läs mer om laser mot pigmentfläckar',
-    ),
-    new Service(
-        title: 'CO2 laser mot aktiv acne',
-        duration: '60 min',
-        price: 'Från 4595 kr',
-        content: 'Reducerar aktiv acne genom att minska inflammation och döda bakterier, förhindrar framtida utbrott genom att rikta sig mot acneorsaker.',
-        image_small: 'bilder/hudproblem/102x102/acne.webp',
-        image_large: 'bilder/hudproblem/200x200/acne.webp',
-        image_alt: 'Alma Hybrid mot Aktiv Acne',
-        image_title: 'Alma Hybrid mot Aktiv Acne',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
-        consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=Problem_Acne',
-        booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid mot Aktiv Acne',
-
-        url: '/laser-acne.php',
-        url_label: 'Läs mer om laser mot acne',
-        url_title: 'Läs mer om laser mot acne',
     ),
     new Service(
         title: 'CO2 laser för hudföryngring (skin rejuvenation)',
@@ -344,14 +201,14 @@ $types = array(
         content: 'Stimulerar hudens naturliga läkning för förnyad hud med förbättrad textur och utstrålning. Minskar tecken på åldrande för ett friskare utseende.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
-        image_alt: 'Alma Hybrid för Hudföryngring (Skin Rejuvenation)',
-        image_title: 'Alma Hybrid för Hudföryngring (Skin Rejuvenation)',
-        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+        image_alt: 'Fraction CO2 för Hudföryngring (Skin Rejuvenation)',
+        image_title: 'Fraction CO2 för Hudföryngring (Skin Rejuvenation)',
+        consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift',
+        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Service_Laser_HybridLift',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka Alma Hybrid för Hudföryngring (Skin Rejuvenation)',
+        booking_url_title: 'Boka Fraction CO2 för Hudföryngring (Skin Rejuvenation)',
     ),
 );
 
@@ -373,7 +230,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Face',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
@@ -384,7 +241,7 @@ $treatment_areas = array(
                 title: 'Hals',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Neck',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
             ),
@@ -395,7 +252,7 @@ $treatment_areas = array(
                 title: 'Dekolletage',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Decolletage',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
@@ -406,7 +263,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Back',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
             ),
@@ -417,7 +274,7 @@ $treatment_areas = array(
                 title: 'Händer',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Hands',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'
             ),
@@ -439,7 +296,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
@@ -450,7 +307,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '100 min',
                 price: '6595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_2xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
@@ -461,7 +318,7 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '110 min',
                 price: '7595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_3xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
             ),
@@ -472,28 +329,28 @@ $treatment_areas = array(
 $bottom_articles = array(
     'preparing' => new Article(
         title: 'Förberedelser',
-        image_small: '/bilder/process/358x272/alma-hybrid-forberedelser.webp',
-        image_large: '/bilder/process/872x456/alma-hybrid-forberedelser.webp',
-        image_alt: 'Förberedelser inför Alma Hybrid',
-        image_title: 'Förberedelser inför Alma Hybrid',
-        content: '<p class="p200">Inför din Alma Hybrid-behandling hos AcneSpecialisten, erbjuder vi en kostnadsfri konsultation. Under denna session kommer vi att gå igenom behandlingsprocessen i detalj och skapa en personlig behandlingsplan för att uppnå bästa möjliga resultat. Det är ett viktigt steg för att säkerställa att du är fullständigt informerad och bekväm med behandlingen.</p>
+        image_small: '/bilder/process/358x272/fraction-co2-forberedelser.webp',
+        image_large: '/bilder/process/872x456/fraction-co2-forberedelser.webp',
+        image_alt: 'Förberedelser inför Fraction CO2',
+        image_title: 'Förberedelser inför Fraction CO2',
+        content: '<p class="p200">Inför din Fraction CO2-behandling hos AcneSpecialisten, erbjuder vi en kostnadsfri konsultation. Under denna session kommer vi att gå igenom behandlingsprocessen i detalj och skapa en personlig behandlingsplan för att uppnå bästa möjliga resultat. Det är ett viktigt steg för att säkerställa att du är fullständigt informerad och bekväm med behandlingen.</p>
         <p class="p200 mt-m">Under konsultationen diskuterar vi också specifika förberedelser som är nödvändiga för just din hudtyp och ditt individuella tillstånd. Vi betonar vikten av att undvika solbränna och stark sol några veckor före behandlingen, då detta kan påverka hudens känslighet och behandlingens effektivitet. Vidare rekommenderas att du undviker hudvårdsprodukter med starka aktiva ingredienser som exfolierande syror minst en vecka före behandlingen.</p>
-        <p class="p200 mt-m">Under konsultationen tar vi även upp din hudhistorik som kan påverka behandlingen. Detta är en viktig del av processen för att skräddarsy behandlingen efter dina behov och för att säkerställa att du får den mest effektiva och säkra behandlingen. Vi ser fram emot att arbeta tillsammans med dig och hjälpa dig att uppnå din önskade hudkvalitet med Alma Hybrid-behandling.</p>',
+        <p class="p200 mt-m">Under konsultationen tar vi även upp din hudhistorik som kan påverka behandlingen. Detta är en viktig del av processen för att skräddarsy behandlingen efter dina behov och för att säkerställa att du får den mest effektiva och säkra behandlingen. Vi ser fram emot att arbeta tillsammans med dig och hjälpa dig att uppnå din önskade hudkvalitet med Fraction CO2-behandling.</p>',
     ),
     'aftercare' => new Article(
         title: 'Eftervård',
-        image_small: '/bilder/process/358x272/alma-hybrid-eftervard.webp',
-        image_large: '/bilder/process/872x456/alma-hybrid-eftervard.webp',
+        image_small: '/bilder/process/358x272/fraction-co2-eftervard.webp',
+        image_large: '/bilder/process/872x456/fraction-co2-eftervard.webp',
         image_alt: 'Eftervård CO2 laser',
         image_title: 'Eftervård CO2 laser',
-        content: '<p class="p200">Efter din Alma Hybrid-laserbehandling är det viktigt att noggrant följa våra eftervårdsinstruktioner för att främja en snabb och effektiv läkningsprocess. Du kan förvänta dig en viss rodnad och svullnad i det behandlade området, vilket är en normal reaktion på behandlingen. För att undvika irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att använda makeup under de första 24 timmarna.</p>
+        content: '<p class="p200">Efter din Fraction CO2-laserbehandling är det viktigt att noggrant följa våra eftervårdsinstruktioner för att främja en snabb och effektiv läkningsprocess. Du kan förvänta dig en viss rodnad och svullnad i det behandlade området, vilket är en normal reaktion på behandlingen. För att undvika irritation och infektioner, bör du undvika att röra området med orena händer och avstå från att använda makeup under de första 24 timmarna.</p>
         <p class="p200 mt-m">Under de första dagarna efter behandlingen är det viktigt att du undviker fysisk ansträngning, heta duschar och bastu, eftersom dessa kan förvärra svullnaden och rodnaden. Solskydd är kritiskt, applicera en hög SPF för att skydda den känsliga huden från solens strålar. Vi rekommenderar att du använder milda och återfuktande hudvårdsprodukter som är fria från irriterande ingredienser för att stödja hudens läkningsprocess och bibehålla fuktbalansen.</p>
         <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som ges av din hudterapeut. Om du har några frågor eller oro efter din behandling, tveka inte att kontakta oss för rådgivning. Regelbundna uppföljningar och ytterligare behandlingar kan rekommenderas beroende på din hudtyp och de hudvårdsresultat du önskar uppnå.</p>',
     ),
 );
 
 $service_brands_title = 'Andra märken för laser';
-$service_brands_text = '<p class="p200">Utöver Alma Hybrid har vi ett bredd utbud av moderna och effektiva lasermaskiner.</p>';
+$service_brands_text = '<p class="p200">Utöver Fraction CO2 har vi ett brett utbud av moderna och effektiva lasermaskiner.</p>';
 $service_brands = array(
 
     new Brand(
@@ -513,16 +370,16 @@ $service_brands = array(
         url_title: 'Alma Rejuve Dye-VL',
     ),
     new Brand(
-        label: 'Fraction CO2',
-        image: 'bilder/logotyper/fraction-co2.svg',
-        image_alt: 'Fraction CO2 logotyp',
-        image_title: 'Fraction CO2 - Fraktionerad laser',
-        url: '/varumarken/fraction-co2/',
-        url_title: 'Fraction CO2',
+        label: 'Alma Hybrid CO2',
+        image: 'bilder/logotyper/alma-hybrid.svg',
+        image_alt: 'Alma Hybrid CO2 logotyp',
+        image_title: 'Alma Hybrid CO2 - Fraktionerad laser',
+        url: '/alma-hybrid-co2-laser.php',
+        url_title: 'Alma Hybrid CO2',
     ),
 );
 
-$results_title = 'Alma Hybrid före och efter resultat';
+$results_title = 'Fraction CO2 före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
@@ -530,7 +387,7 @@ $results = array(
         image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-oscar-efter.webp',
         image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-oscar-fore.webp',
         image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-oscar-efter.webp',
-        url_title: 'Alma Hybrid oScar resultat',
+        url_title: 'Fraction CO2 ärrbehandling resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
@@ -564,7 +421,7 @@ $results = array(
         image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-hybridlift-efter.webp',
         image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-hybridlift-fore.webp',
         image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-hybridlift-efter.webp',
-        url_title: 'Alma Hybrid HybridLift resultat',
+        url_title: 'Fraction CO2 hudföryngring resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
@@ -598,7 +455,7 @@ $results = array(
         image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-softlift-efter.webp',
         image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-softlift-fore.webp',
         image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-softlift-efter.webp',
-        url_title: 'Alma Hybrid CO2 laser resultat',
+        url_title: 'Fraction CO2 laser resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
@@ -739,11 +596,11 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många behandlingar behövs för bästa resultat?',
-            text: '<p class="p200">Antalet Alma Hybrid-behandlingar varierar beroende på dina specifika hudproblem och önskade resultat. Vanligtvis rekommenderas en serie av 3-5 behandlingar med intervaller på några veckor. En skräddarsydd behandlingsplan kommer att utformas under din konsultation för att möta dina unika behov.</p>'
+            text: '<p class="p200">Antalet Fraction CO2-behandlingar varierar beroende på dina specifika hudproblem och önskade resultat. Vanligtvis rekommenderas en serie av 3-5 behandlingar med intervaller på några veckor. En skräddarsydd behandlingsplan kommer att utformas under din konsultation för att möta dina unika behov.</p>'
         ),
         new Question(
             title: 'Hur länge håller resultatet från behandlingarna',
-            text: '<p class="p200">Effekterna från Alma Hybrid-behandlingar kan vara långvariga, men det är viktigt att notera att yttre faktorer som solens strålar och hudens naturliga åldrande kan påverka resultaten över tid. Regelbundna underhållsbehandlingar och en noggrann hudvårdsrutin kan hjälpa till att bevara de positiva resultaten.</p>'
+            text: '<p class="p200">Effekterna från Fraction CO2-behandlingar kan vara långvariga, men det är viktigt att notera att yttre faktorer som solens strålar och hudens naturliga åldrande kan påverka resultaten över tid. Regelbundna underhållsbehandlingar och en noggrann hudvårdsrutin kan hjälpa till att bevara de positiva resultaten.</p>'
         ),
         new Question(
             title: 'Vad är skillnaden på fraktionerad och vanlig CO2 laser?',
@@ -762,29 +619,29 @@ $specialists = array(
         name: 'Cazzandra Lindberg',
         title: 'Hudterapeut sedan 2015',
         image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Alma Hybrid-behandlingar',
-        image_title: 'Cazzandra Lindberg - Expert på Alma Hybrid-behandlingar'
+        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i Fraction CO2-behandlingar',
+        image_title: 'Cazzandra Lindberg - Expert på Fraction CO2-behandlingar'
     ),
     new Specialist(
         name: 'Veronika Benedik',
         title: 'Hudterapeut sedan 1999',
         image: 'bilder/hudterapeut/312x312/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Alma Hybrid',
-        image_title: 'Veronika Benedik - Specialist inom Alma Hybrid-vård'
+        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på Fraction CO2',
+        image_title: 'Veronika Benedik - Specialist inom Fraction CO2-vård'
     ),
     new Specialist(
         name: 'Julia Eklund',
         title: 'Hudterapeut sedan 2021',
         image: 'bilder/hudterapeut/312x312/hudterapeut-julia.webp',
-        image_alt: 'Julia Eklund, hudterapeut med kunskap inom Alma Hybrid-behandlingar',
-        image_title: 'Julia Eklund - Hudterapeut specialiserad på Alma Hybrid'
+        image_alt: 'Julia Eklund, hudterapeut med kunskap inom Fraction CO2-behandlingar',
+        image_title: 'Julia Eklund - Hudterapeut specialiserad på Fraction CO2'
     ),
     new Specialist(
         name: 'Vilma Libom',
         title: 'Hudterapeut sedan 2019',
         image: 'bilder/hudterapeut/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Alma Hybrid-behandlingar',
-        image_title: 'Vilma Libom - Expert inom Alma Hybrid-behandlingar'
+        image_alt: 'Vilma Libom, hudterapeut med inriktning mot Fraction CO2-behandlingar',
+        image_title: 'Vilma Libom - Expert inom Fraction CO2-behandlingar'
     )
 );
 $specialists_view_more = 'Se alla hudterapeuter';
@@ -795,7 +652,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
 
 <head>
 
-    <link rel="canonical" href="https://www.acnespecialisten.se/alma-hybrid-co2-laser.php" />
+    <link rel="canonical" href="https://www.acnespecialisten.se/varumarken/fraction-co2/" />
 
     <title><?php echo $seo_title ?></title>
     <meta name="description" content="<?php echo $seo_description ?>">
