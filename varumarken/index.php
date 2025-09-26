@@ -239,7 +239,7 @@ $brand_cards = array(
             description: 'Fraction CO2 är den senaste generationen fraktionerad laser med 13 spottstorlekar och 8 behandlingsmönster. Perfekt för ärrbehandling, hudföryngring och pigmentbehandling med precision och minimal återhämtningstid.',
             url: 'varumarken/fraction-co2/',
             url_title: 'Läs mer om Fraction CO2',
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
+            booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
             booking_url_title: 'Boka tid för Fraction CO2-behandling',
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
             consultation_url_title: 'Boka gratis hudkonsultation',

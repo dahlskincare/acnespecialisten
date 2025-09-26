@@ -25,7 +25,7 @@ $model = new Service(
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
+    booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
@@ -66,7 +66,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_AcneScars',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 mot Acneärr',
 
@@ -86,7 +86,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 mot Ärr (Skade- och Operationsärr)',
 
@@ -106,7 +106,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections&area=Laser_ny_kund',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 mot hudutväxter',
 
@@ -126,7 +126,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_StrechMarks',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 mot Bristningar',
 
@@ -146,7 +146,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_LargePores&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 mot Stora Porer',
 
@@ -166,7 +166,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Wrinkles&area=EMPTY',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 mot Rynkor och Fina Linjer',
 
@@ -186,7 +186,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_PigmentationSpots',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 mot Pigmentfläckar',
 
@@ -206,7 +206,7 @@ $types = array(
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka gratis konsultation',
-        booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Service_Laser_HybridLift',
+        booking_url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka Fraction CO2 för Hudföryngring (Skin Rejuvenation)',
     ),
