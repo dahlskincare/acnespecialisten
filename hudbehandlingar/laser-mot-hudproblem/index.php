@@ -367,7 +367,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
@@ -378,7 +378,7 @@ $treatment_areas = array(
                 image_title: '2x områden',
                 title: '2x områden',
                 duration: '100 min',
-                price: '5595 kr',
+                price: '6595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -389,7 +389,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '110 min',
-                price: '6595 kr',
+                price: '7595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
