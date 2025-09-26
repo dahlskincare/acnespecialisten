@@ -230,7 +230,7 @@ $treatment_areas = array(
                 title: 'Ansikte',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Face',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
             ),
@@ -241,7 +241,7 @@ $treatment_areas = array(
                 title: 'Hals',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Neck',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
             ),
@@ -252,7 +252,7 @@ $treatment_areas = array(
                 title: 'Dekolletage',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Decolletage',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
             ),
@@ -263,7 +263,7 @@ $treatment_areas = array(
                 title: 'Rygg',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Back',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
             ),
@@ -274,7 +274,7 @@ $treatment_areas = array(
                 title: 'Händer',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Hands',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'
             ),
@@ -296,7 +296,7 @@ $treatment_areas = array(
                 title: '1x område',
                 duration: '90 min',
                 price: '5595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
             ),
@@ -307,7 +307,7 @@ $treatment_areas = array(
                 title: '2x områden',
                 duration: '100 min',
                 price: '6595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_2xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
             ),
@@ -318,7 +318,7 @@ $treatment_areas = array(
                 title: '3x områden',
                 duration: '110 min',
                 price: '7595 kr',
-                url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_3xAreas',
+                url: 'https://boka.acnespecialisten.se?flow=fractionco2&skipable_problem=SKIP&area=Laser_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
             ),
