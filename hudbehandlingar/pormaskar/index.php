@@ -88,7 +88,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot pormaskar hos Acnespecialisten',
         title: 'Effektiv laserbehandling mot pormaskar',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         icons: array(),
         content: '<p class="p200">Ljusenergi används för att specifikt behandla och minska pormaskarnas synlighet. Laserstrålens penetration i huden fokuserar på de områden där pormaskarna dominerar, balanserar hudens talgproduktion och minskar ansamlingen av döda hudceller, vilket ofta är orsaken till pormaskar.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',

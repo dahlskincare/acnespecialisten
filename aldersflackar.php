@@ -152,7 +152,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling mot åldersfläckar',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'Laser mot åldersfläckar och ojämn pigmentering använder precisa ljusstrålar för att bryta ned den överdrivna pigmenteringen i huden.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',

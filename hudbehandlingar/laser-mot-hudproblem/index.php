@@ -66,7 +66,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Acneärr',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Beroende på typen av acneärr, antingen gropar eller fläckar, anpassas laserbehandlingen med specifik laserteknologi. För att utforska den mest effektiva behandlingen för dina ärr, rekommenderar vi en konsultation.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
@@ -86,7 +86,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Aktiv Acne',
         duration: '50 min',
-        price: 'Från 3595 kr',
+        price: 'Från 4595 kr',
         content: 'Laserbehandling mot acne syftar till att eliminera bakterierna som orsakar finnar. Genom att rikta värme djupt in i finnarna bidrar lasern till att de minskar i storlek och så småningom försvinner.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
@@ -186,7 +186,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Stora Porer',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Fokuserar på att minska porernas storlek genom att stimulera kollagenproduktionen under huden, vilket leder till en slätare och mer enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -226,7 +226,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Bristningar',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Använder laserljus för att stimulera hudens kollagenproduktion, vilket minskar synligheten av bristningar och förbättrar hudens textur.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
@@ -246,7 +246,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Ärr (Skade- och Operationsärr)',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Riktar in sig på att mjuka upp och minska ärrvävnad, vilket bidrar till att ärr blir mindre framträdande och huden jämnare.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
@@ -266,7 +266,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Rynkor och Fina Linjer',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Laserbehandling mot rynkor och fina linjer fungerar genom att försiktigt avlägsna det yttersta hudlagret samtidigt som det stimulerar produktionen av ny hud och kollagen. Detta bidrar till att minska rynkor och fina linjer, vilket resulterar i en slätare och yngre hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
@@ -302,7 +302,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -313,7 +313,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -324,7 +324,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -335,7 +335,7 @@ $treatment_areas = array(
                 image_title: 'Rygg',
                 title: 'Rygg',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
@@ -346,7 +346,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'Händer',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'
@@ -367,7 +367,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
@@ -378,7 +378,7 @@ $treatment_areas = array(
                 image_title: '2x områden',
                 title: '2x områden',
                 duration: '100 min',
-                price: '5595 kr',
+                price: '6595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -389,7 +389,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '110 min',
-                price: '6595 kr',
+                price: '7595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'

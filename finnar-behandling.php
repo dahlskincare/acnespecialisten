@@ -113,7 +113,7 @@ $services = array(
         image_alt: 'Bild på kemisk peelingbehandling mot finnar hos AcneSpecialisten',
         title: 'Kemisk peeling mot finnar',
         duration: '40 min',
-        price: '1595 kr',
+        price: '1995 kr',
         icons: array(),
         content: '<p class="p200">På AcneSpecialisten använder vi en speciell lösning som appliceras på huden för att avlägsna det översta lagret. Detta ger plats åt ny, frisk hud att växa fram, vilket bidrar till att reducera utseendet av ärr från finnar och att förbättra hudens textur och utseende.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_ChemicalPeeling',

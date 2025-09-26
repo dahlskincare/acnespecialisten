@@ -105,7 +105,7 @@ $services = array(
       new Service(
             title: 'Laser mot PIH',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'Laserbehandling är en effektiv metod för att minska postinflammatorisk hyperpigmentering (PIH) genom att använda koncentrerade ljusstrålar. Denna behandling stimulerar hudens naturliga kollagenproduktion och avlägsnar skadade hudceller, vilket jämnar ut hudens ton och minskar synligheten av mörka fläckar.',
             image_small: 'bilder/behandlingar/200x200/laser.webp',
             image_large: 'bilder/behandlingar/200x200/laser.webp',

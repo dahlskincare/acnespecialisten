@@ -139,7 +139,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling för ärr',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'Laserbehandling erbjuder en effektiv metod för att minska ärrbildning och förbättra hudens struktur. Lasertekniken stimulerar kollagenproduktionen och cellförnyelse, vilket leder till att ärr blir mindre framträdande och hudens textur förbättras.',
 
             image_small: 'images/services/200x200/laser.webp',

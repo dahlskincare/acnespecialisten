@@ -82,7 +82,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot stora porer hos AcneSpecialisten',
         title: 'Effektiv laserbehandling mot stora porer',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: '<p class="p200">Laserbehandling är en effektiv metod för att reducera storleken på stora porer och få dem att se mindre ut. Genom att använda fokuserad ljusenergi tränger laserstrålen djupt ner i huden och värmer upp de djupare lagren. Denna värme stimulerar kollagenproduktionen och omstrukturerar hudens stödvävnad. När kollagenproduktionen ökar, stramas huden upp, vilket får porerna att dra ihop sig och krympa. Resultatet är en jämnare hudtextur och minskad synlighet av porer, vilket ger huden ett friskare och mer ungdomligt utseende.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
         consultation_url_label: 'Boka konsultation',

@@ -67,7 +67,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot ärr från finnar hos Acnespecialisten',
         title: 'Laser mot ärr (Gropar & Fläckar)',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: '<p class="p200">Laserbehandling är en effektiv metod för att reducera synligheten av ärr från finnar. Laserstrålen tränger djupt ner i huden och skapar mikroskopiska kanaler, vilket stimulerar hudens naturliga kollagenproduktion och cellförnyelse. Denna process hjälper till att fylla ut gropar och jämna ut hudens textur. Dessutom minskar den missfärgningar och fläckar genom att bryta ner pigmenterade celler. Laserbehandlingen är precis och kraftfull, vilket resulterar i en jämnare hud och en friskare hy.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
         consultation_url_label: 'Boka konsultation',
