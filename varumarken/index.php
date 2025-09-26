@@ -115,6 +115,14 @@ $header_brands = array(
             url_title: 'Exceedn',
       ),
       new Brand(
+            label: 'Fraction CO2',
+            image: 'bilder/logotyper/fraction-co2.svg',
+            image_alt: 'Fraction CO2 logotyp',
+            image_title: 'Fraction CO2 - fraktionerad laser',
+            url: 'varumarken/fraction-co2/',
+            url_title: 'Fraction CO2',
+      ),
+      new Brand(
             label: 'Microdermabrasion',
             image: 'bilder/logotyper/microdermabrasion.png',
             image_alt: 'Microdermabrasion logotyp',
@@ -131,6 +139,7 @@ $link_brands = array(
             url_title: 'Läs mer',
             services: array(
                   "/alma-hybrid-co2-laser.php" => "Alma Hybrid CO2",
+                  "/varumarken/fraction-co2/" => "Fraction CO2",
                   "/alma-harmony-xl-pro.php" => "Harmony XL Pro",
             )
       ),
@@ -215,6 +224,24 @@ $brand_cards = array(
             booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid',
             booking_url_title: 'Boka tid för Alma-behandling',
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Hybrid',
+            consultation_url_title: 'Boka gratis hudkonsultation',
+      ),
+      new Brand(
+            label: 'Fraction CO2',
+            image: 'bilder/logotyper/fraction-co2.svg',
+            image_alt: 'Fraction CO2 logotyp',
+            image_title: 'Fraction CO2 - fraktionerad laser',
+            photo: 'bilder/varumarken/424x324/fraction-co2.webp',
+            photo_alt: 'Person som får behandling med Fraction CO2 laser',
+            photo_title: 'Fraction CO2',
+            title: 'Fraction CO2',
+            subtitle: 'Nya generationens fraktionerad laser',
+            description: 'Fraction CO2 är den senaste generationen fraktionerad laser med 13 spottstorlekar och 8 behandlingsmönster. Perfekt för ärrbehandling, hudföryngring och pigmentbehandling med precision och minimal återhämtningstid.',
+            url: 'varumarken/fraction-co2/',
+            url_title: 'Läs mer om Fraction CO2',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=SKIP&area=Laser_1xArea',
+            booking_url_title: 'Boka tid för Fraction CO2-behandling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_Fraction',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
       new Brand(
