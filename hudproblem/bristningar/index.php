@@ -463,7 +463,7 @@ $services = array(
       new Service(
             title: 'Laser mot bristningar',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att behandla och minska utseendet av bristningar. Lasertekniken stimulerar kollagenproduktionen i huden, vilket hjälper till att förbättra hudens struktur och minska synligheten av bristningar.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',

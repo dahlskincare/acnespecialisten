@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'CO2 laser - Fraktionerad laser',
     duration: null,
-    price: 'Från 4595 kr',
+    price: 'Från 5595 kr',
     content: '<p class="p200">Alma Hybrid är en avancerad fraktionerad CO2-laser med ett unikt patent. Den kombinerar ablativ CO2-laser, som bränner hudytan, med icke-ablativ laser, som behandlar under huden. Denna senaste generation av laserbehandling hanterar effektivt hudproblem som akneärr, rynkor, fina linjer och ojämn hudton, och ger en omfattande lösning för förbättrad hudhälsa och utseende.</p>',
     image_small: 'bilder/varumarken/358x274/alma-hybrid-co2.webp',
     image_large: 'bilder/varumarken/424x456/alma-hybrid-co2.webp',
@@ -75,7 +75,7 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '4595 kr',
+                price: '5595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_9_Procedure_1'
             ),
@@ -114,7 +114,7 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '4595 kr',
+                price: '5595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_9_Procedure_1'
             ),
@@ -180,7 +180,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot acneärr',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Effektiv metod för att minska acneärr. Kombinerar precisionslaser med djupvävnadsuppvärmning, stimulerar hudens läkning för jämnare hudtextur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
@@ -200,7 +200,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot ärr (skade- och operationsärr)',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
@@ -240,7 +240,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot bristningar',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Laser behandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
@@ -260,7 +260,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot stora porer',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Minskar utseendet av stora porer genom att förbättra hudens yta och textur, bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -280,7 +280,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot rynkor och fina Linjer',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Kombinerar laser med värmestimulering för att släta ut rynkor och linjer. Främjar kollagenproduktion för en ungdomligare hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
@@ -299,8 +299,8 @@ $types = array(
     ),
     new Service(
         title: 'CO2 laser mot pigmentfläckar',
-        duration: '20 - 50 min',
-        price: 'Från 1595 kr',
+        duration: '50 min',
+        price: '5595 kr',
         content: 'Reducerar och tar bort pigmentfläckar. Målinriktad laser bryter ner pigmentering för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
@@ -320,7 +320,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot aktiv acne',
         duration: '60 min',
-        price: 'Från 3595 kr',
+        price: 'Från 4595 kr',
         content: 'Reducerar aktiv acne genom att minska inflammation och döda bakterier, förhindrar framtida utbrott genom att rikta sig mot acneorsaker.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
@@ -340,7 +340,7 @@ $types = array(
     new Service(
         title: 'CO2 laser för hudföryngring (skin rejuvenation)',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Stimulerar hudens naturliga läkning för förnyad hud med förbättrad textur och utstrålning. Minskar tecken på åldrande för ett friskare utseende.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
@@ -372,7 +372,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -383,7 +383,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -394,7 +394,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -405,7 +405,7 @@ $treatment_areas = array(
                 image_title: 'Rygg',
                 title: 'Rygg',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
@@ -416,7 +416,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'Händer',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Laser_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'

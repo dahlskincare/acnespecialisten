@@ -227,7 +227,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling för Ärr från Finnar',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'Fokuserade ljusstrålar används för att behandla och reducera dessa ärr. Behandlingen främjar hudens kollagenproduktion och tar bort skadade hudceller, vilket resulterar i en jämnare hud och mindre synliga ärr.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',

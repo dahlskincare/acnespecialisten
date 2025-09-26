@@ -222,7 +222,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling för stora porer',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'Med hjälp av avancerad laserteknik kan denna behandling effektivt minska synligheten av stora porer och förbättra hudens textur. Lasern stimulerar kollagenproduktionen och elastinet i huden vilket resulterar i en jämnare och slätare hudstruktur.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',

@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Alma Harmony XL Pro',
     duration: null,
-    price: 'Från 4595 kr',
+    price: 'Från 5595 kr',
     content: '<p class="p200">Alma Harmony XL Pro är en avancerad multi laser plattform som kombinerar flera tekniker för att adressera en mängd hudtillstånd. Den erbjuder anpassningsbara behandlingar för ärrbildning, hudföryngring, pigmentkorrigering, acnebehandling och mer, med minimal till måttlig återhämtningstid.</p>',
     image_small: 'bilder/varumarken/358x274/harmony-xl-pro.webp',
     image_large: 'bilder/varumarken/424x456/harmony-xl-pro.webp',
@@ -53,7 +53,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro mot acneärr',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Använder ClearSkin med Erbium Glass 1540 munstycke för att stimulera kollagen och främja hudförnyelse. Denna teknik minskar acneärrens synlighet genom djup penetration och kollageninduktion.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
@@ -93,7 +93,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro mot ärr (skade- och operationsärr)',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Kombinerar ClearLift och iPixel tekniker för att bränna och skada ärrvävnad genom trigga stimulering av reparation och ny hudväxt vilket minskar ärrvävnaden. Denna strategi minskar ärret och jämnar ut hudtexturen.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
@@ -113,7 +113,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro mot bristningar',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'ClearLift med Q-switchad Nd:YAG teknologi använder mikrovibrationer för att stimulera djupt liggande hudlager utan att skada ytan. Denna process främjar hudens naturliga läkningsmekanismer, vilket minskar bristningars synlighet.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
@@ -133,7 +133,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro mot stora porer',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'ClearLift tekniken stimulerar hudens djupare lager för att förbättra hudstrukturen och minska porernas storlek. Denna icke-invasiva metod ger en slätare och mer raffinerad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -173,7 +173,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro mot rynkor och fina Linjer',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'iPixel med Erbium YAG 2940 munstycke utför mikrolaser peeling som stimulerar hudregeneration och kollagenproduktion. Detta slätar effektivt ut rynkor och fina linjer genom precisionsförnyelse av hudytan.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
@@ -193,7 +193,7 @@ $types = array(
     new Service(
         title: 'Harmony XL Pro för hudföryngring (skin rejuvenation)',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         content: 'Använder en kombination av tekniker, inklusive Dye-VL och ClearLift, för att omfattande förbättra hudtonen, textur och elasticitet. Denna flerdimensionella strategi resulterar i en märkbart yngre och mer strålande hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
@@ -225,7 +225,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almaharmony&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -236,7 +236,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almaharmony&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -247,7 +247,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almaharmony&skipable_problem=SKIP&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -258,7 +258,7 @@ $treatment_areas = array(
                 image_title: 'Rygg',
                 title: 'Rygg',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almaharmony&skipable_problem=SKIP&area=Laser_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
@@ -269,7 +269,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'Händer',
                 duration: '90 min',
-                price: '4595 kr',
+                price: '5595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almaharmony&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'

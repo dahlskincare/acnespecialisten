@@ -114,7 +114,7 @@ $services = array(
       new Service(
             title: 'Laser mot atrofika ärr',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'Laserbehandling är en effektiv metod för att ta bort acneärr och gropar i ansiktet. Genom att använda koncentrerade ljusstrålar stimulerar behandlingen kollagenproduktionen och avlägsnar skadade hudceller. Detta jämnar ut hudens textur och minskar synligheten av ärr',
             image_small: 'bilder/behandlingar/200x200/laser.webp',
             image_large: 'bilder/behandlingar/200x200/laser.webp',

@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Laser mot ärr',
     duration: null,
-    price: 'Från 4595 kr',
+    price: 'Från 5595 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/laser-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp',
@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '4595 kr',
+            price: '5595 kr',
             savings: null,
             booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -84,7 +84,7 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '4595 kr',
+                price: '5595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_1'
             ),

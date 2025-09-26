@@ -67,7 +67,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot acneärr hos Acnespecialisten',
         title: 'Laser mot acneärr',
         duration: '90 min',
-        price: '4595 kr',
+        price: '5595 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling är en effektiv metod för att behandla atrofiska ärr (gropar), som ofta uppstår efter aktiv akne. Genom att rikta in sig på de djupare lagren av huden, bränner lasern små mikroskopiska kanaler. Hudens respons på dessa kanaler är att börja läka hålen och samtidigt fylla ut själva gropen. Denna process stimulerar kollagenproduktionen och främjar hudens förnyelse, vilket hjälper till att “fylla ut” groparna och förbättra hudens struktur. Resultatet blir en jämnare och slätare hud.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',

@@ -339,7 +339,7 @@ $services = array(
       new Service(
             title: 'Laser mot Pormaskar',
             duration: '90 min',
-            price: '4595 kr',
+            price: '5595 kr',
             content: 'Vår avancerade laserbehandling är en effektiv metod för att minska pormaskar. Denna teknik använder laser för att bränna bort det översta hudlagret för att bli av med porblockerna. Det hjälper till att rensa porerna vilket ger en klarare och renare hud.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
