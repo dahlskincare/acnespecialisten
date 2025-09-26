@@ -11,6 +11,14 @@ $green_banner_content = new GreenBannerContent(
 
 $header_brands = array(
       new Brand(
+            label: 'Fraction CO2',
+            image: 'bilder/logotyper/fraction-co2.svg',
+            image_alt: 'Fraction CO2 logotyp',
+            image_title: 'Fraction CO2 - fraktionerad laser',
+            url: 'varumarken/fraction-co2/',
+            url_title: 'Fraction CO2',
+      ),
+      new Brand(
             label: 'Alma Hybrid',
             image: 'bilder/logotyper/alma-hybrid.svg',
             image_alt: 'Alma Hybrid logotyp',
@@ -113,14 +121,6 @@ $header_brands = array(
             image_title: 'Exceed - microneedling',
             url: 'varumarken/exceed/',
             url_title: 'Exceedn',
-      ),
-      new Brand(
-            label: 'Fraction CO2',
-            image: 'bilder/logotyper/fraction-co2.svg',
-            image_alt: 'Fraction CO2 logotyp',
-            image_title: 'Fraction CO2 - fraktionerad laser',
-            url: 'varumarken/fraction-co2/',
-            url_title: 'Fraction CO2',
       ),
       new Brand(
             label: 'Microdermabrasion',
