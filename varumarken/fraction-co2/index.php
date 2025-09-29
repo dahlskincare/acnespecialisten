@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Fraction CO2 laser - Nya generationens fraktionerad laser | AcneSpecialisten';
 $seo_description = 'Fraction CO2 laser med 13 spottstorlekar. Effektiv mot ärr, hudföryngring och pigmentering hos AcneSpecialisten Stockholm.';
-$seo_keywords = 'fraction co2 laser, fraktionerad laser, ärrbehandling, hudföryngring, hyperpigmentering, bristningar, laser stockholm, fraction co2 stockholm';
+$seo_keywords = 'fraction co2, fraction co2 stockholm';
 $seo_image = '/bilder/varumarken/424x456/fraction-co2.webp';
 
 $path_segments = array(
