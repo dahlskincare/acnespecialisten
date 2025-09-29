@@ -158,7 +158,7 @@ $services = array(
             url_title: 'Läs mer om laser mot hudflikar',
 
             consultation_url_label: 'Boka konsultation',
-            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_CO2',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för laserbehandling mot hudflikar',
 
             booking_url_label: 'Boka behandling',
