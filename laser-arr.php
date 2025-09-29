@@ -34,7 +34,7 @@ $model = new Service(
             label: '1 behandling',
             price: '5595 kr',
             savings: null,
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_1',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_11_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -42,7 +42,7 @@ $model = new Service(
             label: '3 behandlingar',
             price: '12995 kr',
             savings: 'Spara 2790 kr',
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_3',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_11_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -50,7 +50,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '18995 kr',
             savings: 'Spara 6980 kr',
-            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_5',
+            booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_11_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
@@ -86,19 +86,19 @@ $big_types = array(
                 label: '1 behandling',
                 price: '5595 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_11_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
                 price: '12995 kr',
                 savings: 'Spara 2790 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_3'
+                booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_11_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
                 price: '18995 kr',
                 savings: 'Spara 6980 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_9_Procedure_5'
+                booking_url: 'https://boka.acnespecialisten.se?flow=laserProblem&skipable_problem=Problem_Scars&area=EMPTY&procedures=PriceClass_11_Procedure_5'
             )
         )
     ),

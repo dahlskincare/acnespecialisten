@@ -169,7 +169,7 @@
                                     image_small: 'bilder/hudproblem/114x140/ytliga-blodkarl.webp',
                                     image_large: 'bilder/hudproblem/424x324/ytliga-blodkarl.webp',
                                     image_title: 'Person med allmänna hudproblem',
-                                    image_alt: 'Närbild på person som hara allmänna hudproblem i ansiktet.',
+                                    image_alt: 'Närbild på person som har allmänna hudproblem i ansiktet.',
                                     url: 'ytliga-blodkarl.php',
                                     url_title: 'Läs mer information om alla typer av hudproblem',
                                     show_on_large: false,
@@ -195,7 +195,7 @@
                   <section id="our-approach">
                         <div class="flex-row align-end justify-space-between">
                               <div class="h500 l10n">Metoden</div>
-                              <a href="metoden.php" title="metoded" class="button compact text is-hidden-mobile">
+                              <a href="metoden.php" title="Metoden" class="button compact text is-hidden-mobile">
                                     <span class="l10n">Läs mer om metoden</span>
                                     <?php icon('navigate-next') ?>
                               </a>
@@ -246,7 +246,7 @@
                                     </div>
                               <?php } ?>
                         </div>
-                        <a href="metoden.php" title="Metoded" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om vår metod</a>
+                        <a href="metoden.php" title="Metoden" class="button b200 outline expand mt-xl l10n is-hidden-desktop">Läs mer om vår metod</a>
                   </section>
                   <section id="results">
                         <?php
@@ -270,7 +270,7 @@
                                     image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
                                     image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
                                     image_before_title: 'Person som har akne',
-                                    image_before_alt: 'Ansiktet på en person som behandlat akne, föreefterbild',
+                                    image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
                                     image_after_title: 'Person som har akne',
                                     image_after_alt: 'Ansiktet på en person som behandlat akne, efterbild',
                                     treatment: new ResultTreatment(

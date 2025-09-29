@@ -92,7 +92,7 @@ $steps = array(
                                     <?php icon('star'); ?>
                                     <span class="l10n">Unik helhetslösning</span>
                                 </div>
-                                <div class="bullet-content l10n">Vi erbjuder en unik helhetslösning för din hud. Vår metod går ut på att att identifiera till att långsiktigt hantera hudproblem. Vi erbjuder personlig rådgivning och skräddarsydda hudvårdsrutiner, anpassade efter just din hudtyp.</div>
+                                <div class="bullet-content l10n">Vi erbjuder en unik helhetslösning för din hud. Vår metod går ut på att identifiera till att långsiktigt hantera hudproblem. Vi erbjuder personlig rådgivning och skräddarsydda hudvårdsrutiner, anpassade efter just din hudtyp.</div>
                             </div>
                         </div>
                         <div class="column">
@@ -101,7 +101,7 @@ $steps = array(
                                     <?php icon('star'); ?>
                                     <span class="l10n">30 års erfarenhet</span>
                                 </div>
-                                <div class="bullet-content l10n">Med över 30 års erfarenhet och över 200.000 nöjda kunder, har AcneSpecialisten en djupgående kunskap inom problemhy och hudvård. Vi är ständigt i utveckling, allt för att ge dig den bästa möjliga behandlingen.</div>
+                                <div class="bullet-content l10n">Med över 30 års erfarenhet och över 200 000 nöjda kunder, har AcneSpecialisten en djupgående kunskap inom problemhy och hudvård. Vi är ständigt i utveckling, allt för att ge dig den bästa möjliga behandlingen.</div>
                             </div>
                         </div>
                         <div class="column">
