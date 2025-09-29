@@ -216,7 +216,7 @@ $service = new Service(
       booking_url: null,
       booking_url_label: null,
       booking_url_title: null,
-      url: '/gratis-hudkonsultation.php',
+      url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars',
       url_label: 'Läs mer om konsultation',
       url_title: 'Läs mer om gratis hudkonsultation mot ärr från finnar',
 );
