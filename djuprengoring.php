@@ -97,7 +97,7 @@ $big_types = array(
             new Procedure(
                 label: '5 behandlingar',
                 price: '4995 kr',
-                savings: '999kr per behandlng',
+                savings: '999kr per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_2_Procedure_5'
             )
         )

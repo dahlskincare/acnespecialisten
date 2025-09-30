@@ -306,7 +306,7 @@ $application_link = new Link(label: "Send an Application", url: "#", title: "Cli
             </section>
             <section id="specialists" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
-                    <h2 class="big l10n">Våra specialsiter</h2>
+                    <h2 class="big l10n">Våra specialister</h2>
                     <a href="hudterapeut/" class="button compact text is-hidden-mobile">
                         <span class="l10n">Se alla specialister</span>
                         <?php icon('navigate-next') ?>

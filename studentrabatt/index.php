@@ -110,7 +110,7 @@ $path_segments = [
                                         </div>
                                         <div>Behandla</div>
                                     </div>
-                                    <div class="treatment-step-content">När vi identifierat dina hudproblem utför vi den behandlng som passar bäst för just ditt hudtillstånd. Behandlingsmetod väljs ut baserat på dina individuella behov.</div>
+                                    <div class="treatment-step-content">När vi identifierat dina hudproblem utför vi den behandling som passar bäst för just ditt hudtillstånd. Behandlingsmetod väljs ut baserat på dina individuella behov.</div>
                                 </div>
                                 <a href="/hudbehandlingar/" class="button grey expand is-hidden-tablet" title="Se våra behandlingar">Se våra behandlingar</a>
                                 <a href="/hudbehandlingar/" class="button b200 text compact is-hidden-mobile" title="Se våra behandlingar">Se våra behandlingar</a>
