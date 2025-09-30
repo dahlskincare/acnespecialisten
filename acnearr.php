@@ -203,7 +203,7 @@ $service = new Service(
       image_alt: 'Bild av en konsultation för acneärrbehandling',
       image_title: 'Konsultation för acneärrbehandling',
       consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne_Scars',
-      consultation_url_label: 'Boka konsultaion',
+      consultation_url_label: 'Boka konsultation',
       consultation_url_title: 'Klicka för att boka tid för en konsultation för acneärr',
       booking_url: null,
       booking_url_label: null,
