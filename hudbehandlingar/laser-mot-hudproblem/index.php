@@ -443,103 +443,103 @@ $results_title = 'Laserbehandling laser före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-oscar-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-oscar-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-oscar-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-oscar-efter.webp',
-        url_title: 'Alma Hybrid oScar resultat',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+        url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 21,
-        gender: 'Man',
-        problem: 'Ärr',
-        type: 'Svår',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
             duration: '',
             procedures: array(
                 new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '5 tillfällen'
+                    image: '',
+                    name: '',
+                    count: ''
                 ),
             ),
             product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
+                image: '',
+                name: '',
             ),
             employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
+                image: '',
+                name: ''
             ),
         )
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-hybridlift-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-hybridlift-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-hybridlift-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-hybridlift-efter.webp',
-        url_title: 'Alma Hybrid HybridLift resultat',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+        url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 21,
-        gender: 'Man',
-        problem: 'Ärr',
-        type: 'Svår',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
             duration: '',
             procedures: array(
                 new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '5 tillfällen'
+                    image: '',
+                    name: '',
+                    count: ''
                 ),
             ),
             product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
+                image: '',
+                name: '',
             ),
             employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
+                image: '',
+                name: ''
             ),
         )
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-alma-hybrid-softlift-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-alma-hybrid-softlift-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-alma-hybrid-softlift-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-alma-hybrid-softlift-efter.webp',
-        url_title: 'Alma Hybrid CO2 laser resultat',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
+        url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 21,
-        gender: 'Man',
-        problem: 'Ärr',
-        type: 'Svår',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
             duration: '',
             procedures: array(
                 new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '5 tillfällen'
+                    image: '',
+                    name: '',
+                    count: ''
                 ),
             ),
             product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
+                image: '',
+                name: '',
             ),
             employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
+                image: '',
+                name: ''
             ),
         )
     ),
@@ -617,6 +617,108 @@ $results = array(
         image_after_small: '/bilder/resultat/arr/resultat-arr-efter-3.webp',
         image_before_large: '/bilder/resultat/arr/resultat-arr-fore-3.webp',
         image_after_large: '/bilder/resultat/arr/resultat-arr-efter-3.webp',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+              duration: '',
+              procedures: array(
+                    new ResultProcedure(
+                          image: '',
+                          name: '',
+                          count: ''
+                    ),
+              ),
+              product: new ResultProduct(
+                    image: '',
+                    name: '',
+              ),
+              employee: new ResultEmployee(
+                    image: '',
+                    name: ''
+              ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+              duration: '',
+              procedures: array(
+                    new ResultProcedure(
+                          image: '',
+                          name: '',
+                          count: ''
+                    ),
+              ),
+              product: new ResultProduct(
+                    image: '',
+                    name: '',
+              ),
+              employee: new ResultEmployee(
+                    image: '',
+                    name: ''
+              ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+        url_title: 'Resultat',
+        image_before_alt: 'Före',
+        image_before_title: 'Före',
+        image_after_alt: 'Efter',
+        image_after_title: 'Efter',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
+        treatment: new ResultTreatment(
+              duration: '',
+              procedures: array(
+                    new ResultProcedure(
+                          image: '',
+                          name: '',
+                          count: ''
+                    ),
+              ),
+              product: new ResultProduct(
+                    image: '',
+                    name: '',
+              ),
+              employee: new ResultEmployee(
+                    image: '',
+                    name: ''
+              ),
+        )
+    ),
+    new ResultCustomer(
+        url: '',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
         url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
