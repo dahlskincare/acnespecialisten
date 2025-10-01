@@ -818,7 +818,6 @@ $all_brands = array(
 
                 <section id="results" class="large-margin">
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat.php" title="se flera behandlingsresultat">Se fler resultat</a>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
