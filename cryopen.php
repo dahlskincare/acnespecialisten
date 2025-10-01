@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'CryoPen behandling i Stockholm',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '<p class="p200">CryoPen är ett effektivt alternativ för att ta bort leverfläckar, födelsemärken, skintags, fibrom, fettknölar, hemangiom, pigmentfläckar och mycket mer. Är du osäker på vilken typ av fläck du har? Boka en kostnadsfri konsultation, där vi bedömer din hud och ger råd om den bästa behandlingen för dina behov.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
@@ -43,8 +43,8 @@ $top_articles = array(
         title: 'Inför behandling',
         image_small: '/bilder/process/358x272/cryopen-forberedelser.webp',
         image_large: '/bilder/process/872x456/cryopen-forberedelser.webp',
-        image_alt: 'Inför CryoPenbehandling',
-        image_title: 'Inför CryoPenbehandling',
+        image_alt: 'Inför CryoPen behandling',
+        image_title: 'Inför CryoPen behandling',
         content: '<p class="p200">Vi erbjuder alltid en kostnadsfri konsultation inför din CryoPen behandling. Under konsultationen möter du en av våra erfarna hudterapeuter som noggrant undersöker de hudförändringar du vill ta bort. Detta steg är avgörande för att skapa en skräddarsydd behandlingsplan och för att avgöra om CryoPen är den bästa metoden för dig.</p>
         <p class="p200 mt-m">Förbered huden inför behandlingen genom att undvika att pilla eller irritera området. Utsätt inte huden för intensiv solning eller stark kyla innan din session. Under konsultationen får du omfattande information om hur du bäst förbereder dig och vad du kan förvänta dig av behandlingen. Om förhållandena tillåter kan vi ofta påbörja behandlingen direkt efter konsultationen.</p>
         <p class="p200 mt-m">Observera att vi endast behandlar godartade hudförändringar. Om du är osäker på om din hudåkomma är ofarlig, bör du först konsultera en läkare. Om den är ofarlig, boka en kostnadsfri CryoPen-konsultation där vi utformar en individuell behandlingsplan för dig.</p>',
@@ -130,18 +130,18 @@ $types = array(
         content: '',
         image_small: null,
         image_large: null,
-        image_alt: 'CryoPen av hudflikar',
-        image_title: 'CryoPen av hudflikar',
+        image_alt: 'CryoPen av skintags',
+        image_title: 'CryoPen av skintags',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Consultation_Brand_CryoPen',
         consultation_url_label: 'Boka konsultation',
-        consultation_url_title: 'Boka konsultation för hudflikar',
+        consultation_url_title: 'Boka konsultation för skintags',
         booking_url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags',
         booking_url_label: 'Boka behandling',
-        booking_url_title: 'Boka CryoPen för hudflikar',
+        booking_url_title: 'Boka CryoPen för skintags',
 
         url: '/hudflikar.php',
-        url_label: 'Läs mer om hudflikar',
-        url_title: 'Läs mer om hudflikar',
+        url_label: 'Läs mer om skintags',
+        url_title: 'Läs mer om skintags',
     ),
     new Service(
         title: 'CryoPen mot Hallonmärke - Jordgubbsmärke - Smultronmärke',
@@ -285,7 +285,7 @@ $treatment_areas = array(
                 price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_1',
                 url_label: 'Boka',
-                url_title: 'Boka tid förCryoPen'
+                url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -296,7 +296,7 @@ $treatment_areas = array(
                 price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_2-3',
                 url_label: 'Boka',
-                url_title: 'Boka tid förCryoPen'
+                url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -307,7 +307,7 @@ $treatment_areas = array(
                 price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_4-6',
                 url_label: 'Boka',
-                url_title: 'Boka tid förCryoPen'
+                url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -318,7 +318,7 @@ $treatment_areas = array(
                 price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_7-10',
                 url_label: 'Boka',
-                url_title: 'Boka tid förCryoPen'
+                url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -329,7 +329,7 @@ $treatment_areas = array(
                 price: '4995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_20',
                 url_label: 'Boka',
-                url_title: 'Boka tid förCryoPen'
+                url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -340,7 +340,7 @@ $treatment_areas = array(
                 price: '9995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_50',
                 url_label: 'Boka',
-                url_title: 'Boka tid förCryoPen'
+                url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -351,7 +351,7 @@ $treatment_areas = array(
                 price: 'Från 295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Cryopen_aterbesok',
                 url_label: 'Boka',
-                url_title: 'Boka tid förCryoPen'
+                url_title: 'Boka tid för CryoPen'
             ),
 
         )
@@ -364,8 +364,8 @@ $bottom_articles = array('aftercare' => new Article(
     image_large: '/bilder/process/872x456/cryopen-eftervard.webp',
     image_alt: 'Efter CryoPen',
     image_title: 'Efter CryoPen',
-    content: '<p class="p200">Efter en CryoPen-behandling är korrekt eftervård avgörande för att säkerställa en effektiv läkning och för att undvika komplikationer. Direkt efter behandlingen kan området vara rött och svullet, vilket är normalt. Det är viktigt att skydda det behandlade området från att smuts, undvik därför att röra det med händerna och att applicera smink inom de första 24 timmarna efter ingreppet.</p>
-    <p class="p200 mt-m">För att minska risken för irritation och svullnad, bör du avstå från att delta i ansträngande aktiviteter som intensiv träning, bastu och heta duschar/badför under de första dagarna efter behandlingen. Det är viktigt att skydda huden, speciellt på det behandlade området så det är viktigt att applicera solskydd för att skydda huden mot UV-strålning och hjälpa till i läkningsprocessen.</p>
+    content: '<p class="p200">Efter en CryoPen-behandling är korrekt eftervård avgörande för att säkerställa en effektiv läkning och för att undvika komplikationer. Direkt efter behandlingen kan området vara rött och svullet, vilket är normalt. Det är viktigt att skydda det behandlade området från smuts, undvik därför att röra det med händerna och att applicera smink inom de första 24 timmarna efter ingreppet.</p>
+    <p class="p200 mt-m">För att minska risken för irritation och svullnad, bör du avstå från att delta i ansträngande aktiviteter som intensiv träning, bastu och heta duschar/bad under de första dagarna efter behandlingen. Det är viktigt att skydda huden, speciellt på det behandlade området så det är viktigt att applicera solskydd för att skydda huden mot UV-strålning och hjälpa till i läkningsprocessen.</p>
     <p class="p200 mt-m">Det är viktigt att du följer de eftervårdsinstruktioner som din hudterapeut ger dig. Om du upplever några osäkerheter eller bekymmer angående din läkning efter behandlingen, kontakta din klinik för råd. Baserat på din huds respons på behandlingen rekommenderas en eller flera uppföljningar eller behandlingar för optimala resultat.</p>',
 ));
 
@@ -373,103 +373,103 @@ $results_title = 'CryoPen före och efter resultat';
 $results = array(
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
-        url_title: 'Akne resultat',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+        url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 21,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+            duration: '',
             procedures: array(
                 new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '5 tillfällen'
+                    image: '',
+                    name: '',
+                    count: ''
                 ),
             ),
             product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
+                image: '',
+                name: '',
             ),
             employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
+                image: '',
+                name: ''
             ),
         )
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
-        url_title: 'Akne resultat',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+        url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 18,
-        gender: 'Kvinna',
-        problem: 'Akne',
-        type: 'Svår',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
-            duration: '<a href="acne.php" title="Akne">Akne</a>',
+            duration: '',
             procedures: array(
                 new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Aknebehandling',
-                    count: '3 tillfällen'
+                    image: '',
+                    name: '',
+                    count: ''
                 ),
             ),
             product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår akne',
+                image: '',
+                name: '',
             ),
             employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
+                image: '',
+                name: ''
             ),
         )
     ),
     new ResultCustomer(
         url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
-        url_title: 'Rosacea resultat',
+        image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
+        url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
         image_after_alt: 'Efter',
         image_after_title: 'Efter',
-        age: 33,
-        gender: 'Kvinna',
-        problem: 'Rosacea',
-        type: 'Svår',
+        age: 1,
+        gender: '',
+        problem: '',
+        type: '',
         treatment: new ResultTreatment(
-            duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+            duration: '',
             procedures: array(
                 new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'Rosaceabehandling',
-                    count: '3 tillfällen'
+                    image: '',
+                    name: '',
+                    count: ''
                 ),
             ),
             product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Produktpaket mot svår rosacea',
+                image: '',
+                name: '',
             ),
             employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
+                image: '',
+                name: ''
             ),
         )
     ),
@@ -488,11 +488,11 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Finns det en risk att hudförändringar återkommer efter att ha använt CryoPen?',
-            text: '<p class="p200">CryoPen är utformad för att permanentta bort hudförändringar, de kommer inte att komma tillbaka.</p>'
+            text: '<p class="p200">CryoPen är utformad för att permanent ta bort hudförändringar, de kommer inte att komma tillbaka.</p>'
         ),
         new Question(
             title: 'Vad ska jag undvika efter behandling med CryoPen?',
-            text: '<p class="p200">Efter en CryoPe behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.</p>'
+            text: '<p class="p200">Efter en CryoPen behandling är det viktigt att inte röra det behandlade området med orena händer för att förhindra infektion. Du bör också skydda området från direkt solljus och använda solskydd för att undvika pigmentförändringar. Undvik att applicera makeup, utsättande för intensiv värme såsom bastu, och att ta långa varma duschar under de första 24 till 48 timmarna. Dessa försiktighetsåtgärder bidrar till att ge din hud de bästa förutsättningarna för att läka på ett korrekt sätt.</p>'
         ),
         new Question(
             title: 'Hur många behandlingar krävs?',
@@ -669,7 +669,7 @@ $all_brands = array(
         image_alt: 'Exceed logotyp',
         image_title: 'Exceed - microneedling',
         url: '/varumarken/exceed/',
-        url_title: 'Exceedn',
+        url_title: 'Exceed',
     ),
     new Brand(
         label: 'Microdermabrasion',
@@ -816,6 +816,11 @@ $all_brands = array(
                     </section>
                 <?php } ?>
 
+                <section id="results" class="large-margin">
+                    <h2 class="big l10n">Resultat</h2>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                    <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat.php" title="se flera behandlingsresultat">Se fler resultat</a>
+                </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php

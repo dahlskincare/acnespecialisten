@@ -213,42 +213,105 @@ $articles = array(
 
 $results = array(
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '3 månader',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
+            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '2 månader',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
+            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
+            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '4 månader',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
 );
@@ -482,6 +545,11 @@ $brands_url_title = "Se alla varumärken";
                         </section>
 
 
+                        <section id="results">
+                              <h2 class="big l10n">Resultat</h2>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat.php" title="<?php echo $show_all_results_title ?>"><?php echo $show_all_results_label ?></a>
+                        </section>
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
                               <?php
