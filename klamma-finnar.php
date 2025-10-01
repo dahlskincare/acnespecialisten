@@ -42,7 +42,7 @@ $model = new Service(
         new Procedure(
             label: '3 behandlingar',
             price: '3495 kr',
-            savings: '1165 per behandling',
+            savings: '1165 kr per behandling',
             booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Pimples&area=Facial_Face&procedures=PriceClass_2_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
