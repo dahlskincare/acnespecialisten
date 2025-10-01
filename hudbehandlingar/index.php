@@ -267,6 +267,11 @@ $service_categories = array(
                 label: 'Alma Harmony XL Pro',
                 url_title: 'Läs mer om Alma Harmony XL Pro',
             ),
+            new Treatment(
+                url: '/varumarken/fraction-co2/',
+                label: 'Fraction CO2',
+                url_title: 'Läs mer om Fraction CO2',
+            ),
         ),
         read_more_label: 'Läs mer',
         read_more_title: 'Läs mer om laserbehandling mot hudproblem'
