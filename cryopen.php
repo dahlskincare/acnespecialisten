@@ -374,9 +374,9 @@ $results = array(
     new ResultCustomer(
         url: '',
         image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
-            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
-            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
-            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+        image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
+        image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
+        image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
         url_title: 'Resultat',
         image_before_alt: 'Före',
         image_before_title: 'Före',
@@ -817,7 +817,6 @@ $all_brands = array(
                 <?php } ?>
 
                 <section id="results" class="large-margin">
-                    <h2 class="big l10n">Resultat</h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat.php" title="se flera behandlingsresultat">Se fler resultat</a>
                 </section>
