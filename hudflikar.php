@@ -509,9 +509,7 @@ $brands_url_title = "Se alla varumärken";
 
 
                         <section id="results">
-                              <h2 class="big l10n">Resultat</h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" href="resultat.php" title="<?php echo $show_all_results_title ?>"><?php echo $show_all_results_label ?></a>
                         </section>
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
