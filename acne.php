@@ -941,7 +941,7 @@ $faq_categories = array(
   
                     <p class="p200 mt-xl">2. Ansamlning av döda hudceller:<br />Hudens naturliga process för cellförnyelse kan ibland leda till att döda hudceller inte avlägsnas effektivt, vilket bidrar till blockering av porer.</p>
   
-                    <p class="p200 mt-xl">3. Bakterier:<br />orer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Cutibacteriuam acnes (C. acnes). Denna akne bakterie har tidigare kallats bakterieacnes (P. acnes). Dessa bakterier leder till inflammation och svullnad runt porerna.</p>
+                    <p class="p200 mt-xl">3. Bakterier:<br />Porer som är tilltäppta med talg och döda hudceller kan bli en grogrund för bakterier, särskilt Cutibacteriuam acnes (C. acnes). Denna akne bakterie har tidigare kallats bakterieacnes (P. acnes). Dessa bakterier leder till inflammation och svullnad runt porerna.</p>
   
                     <p class="p200 mt-xl">4. Hormonella förändringar:<br />Hormonella förändringar, särskilt under puberteten, graviditeten och menstruationscykeln, kan påverka talgproduktionen. Androgener (manliga könshormoner som finns hos både män och kvinnor) kan öka under dessa perioder, vilket stimulerar talgkörtlarna att producera mer talg.</p>
   

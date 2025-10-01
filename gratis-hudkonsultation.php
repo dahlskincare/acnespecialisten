@@ -81,7 +81,7 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                     </div>
                 </section>
                 <section id="types" class="large-margin">
-                    <h2 class="h500 mb-xs l10n">Konsultations efter</h2>
+                    <h2 class="h500 mb-xs l10n">Konsultationer efter</h2>
                     <div class="consultation-type">
                         <div class="consultation-type-text">
                             <h3 class="l10n">Problem</h3>
