@@ -19,7 +19,7 @@ $steps = array(
     ),
     new StepModel(
         title: '02. Behandla',
-        content: "Efter att vi har identifierat ditt specifika hudproblem, går vi vidare till nästa steg – att inleda behandlingen med den metod som bäst passar just ditt tillstånd. Valet av behandlingsmetod baseras på problemets art och dina individuella behov.",
+        content: "Efter att vi har identifierat ditt specifika hudproblem, går vi vidare till nästa steg: att inleda behandlingen med den metod som bäst passar just ditt tillstånd. Valet av behandlingsmetod baseras på problemets art och dina individuella behov.",
         image_small: '/bilder/metoden/mobile/metoden-behandla.webp',
         image_large: '/bilder/metoden/desktop/metoden-behandla.webp',
         url: '/hudbehandlingar/',
