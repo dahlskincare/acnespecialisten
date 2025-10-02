@@ -597,6 +597,14 @@ $brands = array(
             url: 'alma-harmony-xl-pro.php',
             url_title: 'Läs mer om Harmony XL Pro Laser & IPL',
       ),
+      new Brand(
+            label: 'Fraction CO2',
+            image: 'bilder/logotyper/fraction-co2.png',
+            image_alt: 'Fraction CO2 logotyp',
+            image_title: 'Fraction CO2',
+            url: '/varumarken/fraction-co2/',
+            url_title: 'Fraction CO2',
+      ),
 );
 
 $brands_url_label = "Se alla varumärken";
