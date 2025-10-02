@@ -509,7 +509,7 @@
                                                       <div class="h200 l10n">3 Kliniker</div>
                                                 </div>
                                                 <p class="p200 mt-xxs l10n">
-                                                      Tre kliniker i Stockholm – Östermalm, Södermalm, Sundbyberg – för service, kvalité och resultat.
+                                                      Tre kliniker i Stockholm: Östermalm, Södermalm och Sundbyberg för service, kvalité och resultat.
                                                 </p>
                                           </div>
                                     </div>
