@@ -695,14 +695,6 @@ $brands = array(
             url: '/alma-harmony-xl-pro.php',
             url_title: 'Harmony XL Pro',
       ),
-      new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Photonova logotyp',
-            image_title: 'Powerlite Photonova - IPL',
-            url: '/varumarken/powerlite-photonova/',
-            url_title: 'Powerlite Photonova',
-      ),
 );
 
 $brands_url_label = "Se alla varumärken";

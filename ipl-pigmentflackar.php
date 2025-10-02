@@ -272,7 +272,7 @@ $bottom_articles = array('aftercare' => new Article(
 ));
 
 $service_brands_title = 'Märken för IPL';
-$service_brands_text = '<p class="p200">Vi utför IPL mot pigmentfläckar med Alma Rejuve DyeVL, Alma Harmony XL, Photonova som är de bästa maskinerna på marknaden.</p>';
+$service_brands_text = '<p class="p200">Vi utför IPL mot pigmentfläckar med Alma Rejuve DyeVL och Alma Harmony XL som är de bästa maskinerna på marknaden.</p>';
 $service_brands = array(
 
     new Brand(
@@ -290,14 +290,6 @@ $service_brands = array(
         image_title: 'Alma Harmony XL Pro',
         url: '/alma-harmony-xl-pro.php',
         url_title: 'Harmony XL Pro',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova logotyp',
-        image_title: 'Powerlite Photonova - IPL',
-        url: '/varumarken/powerlite-photonova/',
-        url_title: 'Powerlite Photonova',
     ),
 );
 

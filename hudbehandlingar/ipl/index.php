@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL behandling',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '<p class="p200">Vi erbjuder den bästa IPL behandlingen för effektiv hudföryngring i Stockholm. Vår expertis och avancerade teknik garanterar resultat som förbättrar hudens utseende och kvalitet. Oavsett om du söker permanenta lösningar för pigmentfläckar, ytliga kärl eller ojämn hudton, är vår IPL-behandling anpassad för att möta dina behov.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
@@ -393,14 +393,6 @@ $service_brands = array(
         image_title: 'Alma Harmony XL Pro',
         url: '/alma-harmony-xl-pro.php',
         url_title: 'Harmony XL Pro',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova logotyp',
-        image_title: 'Powerlite Photonova - IPL',
-        url: '/varumarken/powerlite-photonova/',
-        url_title: 'Powerlite Photonova',
     ),
 );
 

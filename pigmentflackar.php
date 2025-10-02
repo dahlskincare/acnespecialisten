@@ -532,14 +532,6 @@ $brands = array(
             url_title: 'Harmony XL Pro',
       ),
       new Brand(
-            label: 'Powerlite Photonova',
-            image: 'bilder/logotyper/powerlite-photonova.svg',
-            image_alt: 'Powerlite Photonova logotyp',
-            image_title: 'Powerlite Photonova - IPL',
-            url: '/varumarken/powerlite-photonova/',
-            url_title: 'Powerlite Photonova',
-      ),
-      new Brand(
             label: 'Dermapen',
             image: 'bilder/logotyper/dermapen.svg',
             image_alt: 'Dermapen Brand Logo',

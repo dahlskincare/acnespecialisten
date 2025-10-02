@@ -400,14 +400,6 @@ $all_brands = array(
         url_title: 'Soprano Ice',
     ),
     new Brand(
-        label: 'Powerlite Photonova',
-        image: 'bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova logotyp',
-        image_title: 'Powerlite Photonova - IPL',
-        url: '/varumarken/powerlite-photonova/',
-        url_title: 'Powerlite Photonova',
-    ),
-    new Brand(
         label: 'Infuzion',
         image: 'bilder/logotyper/infuzion.svg',
         image_alt: 'Infuzion logotyp',

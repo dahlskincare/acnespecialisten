@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Microneedling mot stora porer',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/microneedling.webp',
     image_large: 'bilder/hudbehandlingar/424x456/microneedling.webp',

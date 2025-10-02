@@ -18,7 +18,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Kemisk peeling mot akne',
     duration: null,
-    price: 'Från 2995 kr',
+    price: 'Från 1995 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/kemisk-peeling.webp',
     image_large: 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp',
@@ -33,7 +33,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1595 kr',
+            price: '1995 kr',
             savings: null,
             booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne&method=Method_ChemicalPeeling&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -85,7 +85,7 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '1595 kr',
+                price: '1995 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_Acne&area=ChemicalPeeling_Face&procedures=PriceClass_A_Procedure_1'
             ),

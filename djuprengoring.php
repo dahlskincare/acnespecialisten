@@ -285,12 +285,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
-    new Brand(
         label: 'Dermapen',
         image: 'images/brands/dermapen.svg',
         image_alt: 'Dermapen',
