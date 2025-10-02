@@ -486,7 +486,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Har jag fått ärr från finnar eftersom jag har klämt på dem?',
-                  text: '<p class="p200">Inte nödvändigtvis. Även om det klart kan vara en faktor – särskilt om du har pillat eller klämt på finnar som inte varit mogna – är det inte alltid orsaken till ärrbildning. Ofta handlar det snarare om att aknen inte har behandlats på rätt sätt, vilket har tillåtit den att skada hudens lager. På AcneSpecialisten kan vi hjälpa dig att förstå dina specifika förhållanden och få bort ärr från finnar effektivt.</p>'
+                  text: '<p class="p200">Inte nödvändigtvis. Även om det klart kan vara en faktor, särskilt om du har pillat eller klämt på finnar som inte varit mogna, är det inte alltid orsaken till ärrbildning. Ofta handlar det snarare om att aknen inte har behandlats på rätt sätt, vilket har tillåtit den att skada hudens lager. På AcneSpecialisten kan vi hjälpa dig att förstå dina specifika förhållanden och få bort ärr från finnar effektivt.</p>'
             ),
             new Question(
                   title: 'Kan mina acneärr komma tillbaka efter behandling?',

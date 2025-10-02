@@ -9,6 +9,7 @@ $path_segments = [
 $faq_categories = array(
     'Bokning' => array(
         new Question('Hur bokar jag en tid för behandling?', '<p class="p200">Du kan boka en tid för behandling genom att besöka vår hemsida och välja den tjänst du är intresserad av. Alternativt kan du kontakta vår kundtjänst direkt för personlig assistans.</p>'),
+        new Question('Kan jag boka tid via telefon?', '<p class="p200">Ja, du kan boka tid via telefon genom att ringa oss på <a class="b200 underline color-deep-sea-400" href="tel:08-29 61 01" title="Ring oss">08 29 61 01</a>. Vi hjälper dig gärna att hitta en tid som passar dig och svarar på eventuella frågor om våra behandlingar.</p>'),
         new Question('Kan jag ändra eller avboka min bokning?', '<p class="p200">Ja, du kan ändra eller avboka din bokning. Vi ber dig att meddela oss så snart som möjligt om du behöver göra ändringar i din bokning då den ska genomföras minst 24 timmar innan den bokade tiden.</p>'),
     ),
     'Problemhy' => array(
@@ -45,6 +46,14 @@ $faq_categories = array(
             title: 'Anpassar ni behandlingarna för olika hudtyper?',
             text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
         ),
+        new Question(
+            title: 'Behandlar ni vårtor?',
+            text: 'Vi behandlar inte vanliga vårtor som orsakas av virus. Däremot behandlar vi åldersvårtor (seborrhoiska keratoser) som är godartade hudförändringar som ofta uppkommer med åldern. Om du är osäker på vilken typ av hudförändring du har, rekommenderar vi att du bokar en kostnadsfri konsultation så att våra hudspecialister kan bedöma ditt fall.'
+        ),
+        new Question(
+            title: 'Erbjuder ni behandlingar för fransar och bryn?',
+            text: 'Ja, vi erbjuder behandlingar för fransar och bryn genom skönhetsdelen av vår verksamhet Sveriges Skönhetscenter. Här hittar du behandlingar som brynplock, brynfärgning, fransfärgning och fransförlängning. Du kan läsa mer om vårt kompletta utbud av frans- och brynbehandlingar på <a class="b200 underline color-deep-sea-400" href="https://www.sverigesskonhetscenter.se/behandlingar/fransar-bryn/" target="_blank">sverigesskonhetscenter.se/behandlingar/fransar-bryn</a>.'
+        ),
     ),
     'Konsultationer' => array(
         new Question(
@@ -54,6 +63,10 @@ $faq_categories = array(
         new Question(
             title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
             text: 'Under konsultationen kommer en av våra hudspecialister att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+        ),
+        new Question(
+            title: 'Varför får jag ingen länk till online-mötet?',
+            text: 'Vi använder inte traditionella möteslänkar för våra online-konsultationer. För iOS-användare (iPhone/iPad) ringer vi upp dig via vanligt videosamtal på din bokade tid. För Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar så att vi kan kontakta dig.'
         ),
     ),
     'Produkter' => array(

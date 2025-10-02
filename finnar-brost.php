@@ -22,7 +22,7 @@ $image_alt = 'Bild av hudproblem med finnar på bröstet';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Finnar på bröstet',
-      description: 'I denna sektion utforskar vi djupare finnar på bröstet - deras vanligaste orsaker som hormonella faktorer och stress, och hur Acnespecialisten ger målmedvetna behandlingar för att effektivt hantera detta hudproblem. Vi delar också med oss av personligt anpassade hudvårdsråd för personer i alla åldersgrupper.',
+      description: 'I denna sektion utforskar vi djupare finnar på bröstet, deras vanligaste orsaker som hormonella faktorer och stress, och hur Acnespecialisten ger målmedvetna behandlingar för att effektivt hantera detta hudproblem. Vi delar också med oss av personligt anpassade hudvårdsråd för personer i alla åldersgrupper.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Comedones_Pimple', 'Boka gratis konsultation'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Pimples', 'Boka denna behandling'),

@@ -327,7 +327,7 @@ $articles = array(
             image_large: null,
             image_alt: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
             image_title: 'Tecken på att det är dags att söka hjälp för finnar på ryggen',
-            content: '<p class="p200">Finnar på ryggen kan vara mer än ett estetiskt bekymmer - de kan också vara en källa till både fysiskt och emotionellt obehag. Om dina finnar är ihållande eller förvärras, kan det vara dags att söka professionell hjälp. Tidig behandling är central för att förebygga ärrbildning och andra bestående effekter på huden. Genom att söka professionell rådgivning får du inte bara hjälp med att behandla nuvarande utbrott, utan även värdefulla insikter i förebyggande metoder och anpassade hudvårdsrutiner.</p>',
+            content: '<p class="p200">Finnar på ryggen kan vara mer än ett estetiskt bekymmer, de kan också vara en källa till både fysiskt och emotionellt obehag. Om dina finnar är ihållande eller förvärras, kan det vara dags att söka professionell hjälp. Tidig behandling är central för att förebygga ärrbildning och andra bestående effekter på huden. Genom att söka professionell rådgivning får du inte bara hjälp med att behandla nuvarande utbrott, utan även värdefulla insikter i förebyggande metoder och anpassade hudvårdsrutiner.</p>',
       ),
 
       new Article(
