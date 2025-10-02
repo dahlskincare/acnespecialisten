@@ -350,6 +350,14 @@ $service_brands_text = '<p class="p200">Utöver Harmony XL Pro har vi ett bredd 
 $service_brands = array(
 
     new Brand(
+        label: 'Fraction CO2',
+        image: 'bilder/logotyper/fraction-co2.png',
+        image_alt: 'Fraction CO2 logotyp',
+        image_title: 'Fraction CO2',
+        url: '/varumarken/fraction-co2/',
+        url_title: 'Fraction CO2',
+    ),
+    new Brand(
         label: 'Alma Hybrid',
         image: 'bilder/logotyper/alma-hybrid.svg',
         image_alt: 'Alma Hybrid logotyp',

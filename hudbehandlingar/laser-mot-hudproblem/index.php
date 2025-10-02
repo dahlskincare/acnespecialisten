@@ -437,6 +437,14 @@ $service_brands = array(
         url: '/varumarken/rejuve-dye-vl/',
         url_title: 'Alma Rejuve Dye-VL',
     ),
+    new Brand(
+        label: 'Fraction CO2',
+        image: 'bilder/logotyper/fraction-co2.png',
+        image_alt: 'Fraction CO2 logotyp',
+        image_title: 'Fraction CO2',
+        url: '/varumarken/fraction-co2/',
+        url_title: 'Fraction CO2',
+    ),
 );
 
 $results_title = 'Laserbehandling laser före och efter resultat';
