@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Dermapen 4 behandling Stockholm',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '<p class="p200">Vi är Sveriges ledande klinik på Dermapen 4, den senaste tekniken inom microneedling. Behandlingen är optimal för dig som vill förbättra hudens struktur och elasticitet samt minska synligheten av ärr, rynkor och fina linjer.</p>',
     image_small: 'bilder/varumarken/358x274/dermapen.webp',
     image_large: 'bilder/varumarken/424x456/dermapen.webp',

@@ -61,7 +61,7 @@ $services = array(
         image_title: 'Klient som genomgår IPL-behandling mot pigmentfläckar',
         image_alt: 'Bild av IPL-behandling mot pigmentfläckar hos AcneSpecialisten',
         title: 'IPL mot pigmentfläckar',
-        duration: '20-60 min',
+        duration: '20-70 min',
         price: 'Från 1595 kr',
         icons: array(),
         content: '<p class="p200">På Acnespecialisten använder vi IPL-behandling (Intensivt Pulserande Ljus) för att effektivt reducera pigmentfläckar. IPL-behandlingen använder ljusenergi som tränger djupt in i huden och riktar sig mot områden med ökad pigmentering. Denna metod hjälper till att bryta ner melanin, vilket minskar synligheten av pigmentfläckar och återställer en jämnare hudton. Vår noggranna behandling säkerställer att resultatet blir både effektivt och skonsamt för din hud.</p>',
@@ -92,7 +92,7 @@ $services = array(
         consultation_url_title: 'Boka en konsultation för kemisk peeling mot pigmentfläckar',
         url: '/kemisk-peeling.php',
         url_label: 'Läs mer om kemisk peeling',
-        url_title: 'Läs mer om kemisk peeling mot pigmnetfläckar',
+        url_title: 'Läs mer om kemisk peeling mot pigmentfläckar',
         booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=Problem_PigmentationSpots',
         booking_url_label: 'Boka behandling',
         booking_url_title: 'Boka din kemiska peeling mot pigmentfläckar nu',
@@ -105,8 +105,8 @@ $services = array(
         image_title: 'Utförande av laserbehandling för pigmentfläckar',
         image_alt: 'Bild på laserbehandling mot pigmentfläckar hos Acnespecialisten',
         title: 'Laser mot pigmentfläckar',
-        duration: '20-50 min',
-        price: 'Från 2595 kr',
+        duration: '20-70 min',
+        price: 'Från 1595 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling är en mycket effektiv metod för att reducera pigmentfläckar. På Acnespecialisten använder vi avancerad laserteknologi som riktar sig specifikt mot områden med ökad pigmentering. Lasern arbetar genom att sända ut ljuspulser som bryter ner pigmentet i fläckarna, vilket minskar deras synlighet och främjar en jämnare hudton. Denna metod är noggrant kontrollerad för att maximera resultatet samtidigt som den minimerar obehag och återhämtningstid. Laserbehandling erbjuder en snabb och precis lösning för att förbättra hudens utseende och jämnhet.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Method_Laser',
@@ -150,7 +150,7 @@ $services = array(
         image_alt: 'Bild illustrerar en behandling med CryoPen mot pigmentfläckar utförd på Acnespecialisten',
 
         title: 'CryoPen mot pigmentfläckar',
-        duration: '20-70 min',
+        duration: '20-90 min',
         price: 'Från 995 kr',
         icons: array(),
         content: '<p class="p200">På Acnespecialisten använder vi CryoPen-behandling för att noggrant och skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar extrem kyla på pigmentfläckarna, vilket resulterar i deras nedbrytning och minskad synlighet. Denna metod är både effektiv och minimalt invasiv, vilket innebär minimalt obehag och ingen återhämtningstid. CryoPen-behandlingen erbjuder en snabb och precis lösning för att förbättra din hudton och reducera pigmentfläckar.</p>',
@@ -246,12 +246,6 @@ $specialist_url_label = "Se alla hudterapeut";
 $specialist_url_title = "Pigmentfläcks Specialiserade Hudterapeuter";
 
 $brands = array(
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
     new Brand(
         label: 'Dermapen',
         image: 'images/brands/dermapen.svg',

@@ -41,7 +41,7 @@ $model = new Service(
         new Procedure(
             label: '4 behandlingar',
             price: '6995 kr',
-            savings: 'Spara 785 kr',
+            savings: 'Spara 985 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,

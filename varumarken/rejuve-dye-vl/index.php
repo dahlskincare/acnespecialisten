@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL för hudföryngring - Rejuve Dye-VL',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '<p class="p200">Alma Rejuve Dye-VL är den optimala lösningen för dig som önskar en jämnare hudton och vill reducera pigmenteringar, ytliga blodkärl eller lindra symtomen på rosacea. Denna avancerade IPL-teknik är skräddarsydd för att passa dina specifika hudbehov.</p>',
     image_small: 'bilder/varumarken/358x274/alma-rejuve-dye-vl.webp',
     image_large: 'bilder/varumarken/424x456/alma-rejuve-dye-vl.webp',
@@ -378,7 +378,7 @@ $bottom_articles = array(
 );
 
 $service_brands_title = 'Andra märken för IPL';
-$service_brands_text = '<p class="p200">Utöver Rejuve DyeVL använder vi även Alma Harmony XL och Photonova som är de bästa maskinerna på marknaden för IPL.</p>';
+$service_brands_text = '<p class="p200">Förutom Rejuve DyeVL arbetar vi med Alma Harmony XL för att erbjuda de bästa IPL-behandlingarna på marknaden.</p>';
 $service_brands = array(
 
     new Brand(
@@ -388,14 +388,6 @@ $service_brands = array(
         image_title: 'Alma Harmony XL Pro',
         url: '/alma-harmony-xl-pro.php',
         url_title: 'Harmony XL Pro',
-    ),
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'bilder/logotyper/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova logotyp',
-        image_title: 'Powerlite Photonova - IPL',
-        url: '/varumarken/powerlite-photonova/',
-        url_title: 'Powerlite Photonova',
     ),
 );
 

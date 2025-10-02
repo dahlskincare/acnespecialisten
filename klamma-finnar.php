@@ -18,7 +18,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Klämma finnar',
     duration: null,
-    price: 'Från 2332 kr',
+    price: 'Från 1595 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
@@ -513,12 +513,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
 
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
-    new Brand(
-        label: 'Powerlite Photonova',
-        image: 'images/brands/powerlite-photonova.svg',
-        image_alt: 'Powerlite Photonova',
-        image_title: 'Powerlite Photonova',
-    ),
     new Brand(
         label: 'CryoPen',
         image: 'images/brands/cryopen.svg',

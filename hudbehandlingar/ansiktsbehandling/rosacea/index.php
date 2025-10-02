@@ -355,12 +355,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
 $brands_title = 'Märken vi jobbar med';
 $all_brands = array(
     new Brand(
-        label: 'Powerlite',
-        image: 'images/brands/powerlite.svg',
-        image_alt: 'Powerlite',
-        image_title: 'Powerlite',
-    ),
-    new Brand(
         label: 'Dermapen4',
         image: 'images/brands/dermapen4.svg',
         image_alt: 'Dermapen4',
