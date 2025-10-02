@@ -36,6 +36,10 @@ $glossary_items = array(
     'd' => array(),
     'e' => array(
         new GlossaryItem(
+            title: 'Eksem',
+            description: '<p class="p200">Eksem är en inflammatorisk hudsjukdom som kan orsaka klåda, rodnad och torr hud. Vi på AcneSpecialisten behandlar tyvärr inte eksem.</p>',
+        ),
+        new GlossaryItem(
             title: 'Elevbehandlingar',
             description: '<p class="p200">Ibland har vi elevbehandlingar från hudterapeuter som är under utbildning: <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a></p>',
         ),

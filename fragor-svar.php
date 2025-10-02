@@ -45,6 +45,10 @@ $faq_categories = array(
             title: 'Anpassar ni behandlingarna för olika hudtyper?',
             text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
         ),
+        new Question(
+            title: 'Behandlar ni vårtor?',
+            text: 'Vi behandlar inte vanliga vårtor som orsakas av virus. Däremot behandlar vi åldersvårtor (seborrhoiska keratoser) som är godartade hudförändringar som ofta uppkommer med åldern. Om du är osäker på vilken typ av hudförändring du har, rekommenderar vi att du bokar en kostnadsfri konsultation så att våra hudspecialister kan bedöma ditt fall.'
+        ),
     ),
     'Konsultationer' => array(
         new Question(
