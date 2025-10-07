@@ -31,7 +31,7 @@ $steps = array(
         content: "För att säkerställa långsiktiga resultat fokuserar vi på att förebygga framtida hudproblem. Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att skydda och upprätthålla din huds hälsa.",
         image_small: '/bilder/metoden/mobile/metoden-forebygga.webp',
         image_large: '/bilder/metoden/desktop/metoden-forebygga.webp',
-        url: 'https://www.dahlskincare.com/sv/,
+        url: 'https://www.dahlskincare.com/sv/',
         url_label: 'Upptäck produkterna',
         url_title: 'Se produkterna',
         url_target: '_blank',
