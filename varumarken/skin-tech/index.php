@@ -34,7 +34,7 @@ $model = new Service(
 $floating_box = 'Ett brett utbud av moderna kemiska peeling behandlingar för en lång rad hudproblem.';
 
 $description_title = 'Vad är Skin Tech?';
-$description_text = '<p class="p200">Skin Tech representerar en innovativ kollektion av kemiska peeling anpassade för olika hudproblem. Dessa behandlingar använder specialformulerade syror för att exfoliera och vitalisera huden på djupet. Med produkter som Easy Phytic Peel, Easy Droxy Versicolor Peel, Easy TCA Pain Control, fokuserar vi på att förbättra hudens textur, ton och allmänna hälsa.</p>
+$description_text = '<p class="p200">Skin Tech representerar en innovativ kollektion av kemiska peeling anpassade för olika hudproblem. Dessa behandlingar använder specialformulerade syror för att exfoliera och vitalisera huden på djupet. Med fokus på Easy TCA Pain Control, arbetar vi för att förbättra hudens textur, ton och allmänna hälsa.</p>
 <p class="p200 mt-m">Behandlingarna är skräddarsydda för att hantera specifika utmaningar såsom acneärr, aktiv akne, bristningar, melasma och pigmentfläckar, samt effektivt reducera synligheten av pormaskar, stora porer, rynkor och fina linjer. De är även effektiva mot solskadad hud. Varje Skin Tech-peeling anpassas individuellt, för att erbjuda personliga och effektiva lösningar som resulterar i förnyad och ungdomlig hud.</p>';
 
 $top_articles = array(
@@ -59,8 +59,8 @@ $big_types = array(
         <p class="p200 mt-m">Under behandlingen appliceras Easy TCA Pain Control metodiskt för att nå hudens djupare skikt. Detta stimulerar både cellförnyelsen och kollagenproduktionen. Processen är utformad för att kraftfullt minska de synliga ålderstecknen såsom fina linjer och rynkor, och arbetar för att jämna ut hudens ton och struktur. En unik fördel med Easy TCA Pain Control är dess förmåga att minimera obehag under behandlingen, vilket säkerställer en bekväm upplevelse för dig som klient. Efter peelingen behandlas huden med vårdande produkter för optimal återhämtning och för att maximera effekten av behandlingen. Skin Tech Easy TCA Pain Control är den idealiska lösningen för dig som söker en djupgående och kraftfull behandling för att återfå hudens ungdomliga lyster.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/easy-tca-pain-control.webp',
         image_large: '/bilder/hudbehandlingar/200x200/easy-tca-pain-control.webp',
-        image_alt: 'Skin Tech Easy Droxy Versicolor Peel',
-        image_title: 'Skin Tech Easy Droxy Versicolor Peel',
+        image_alt: 'Skin Tech Easy TCA Pain Control',
+        image_title: 'Skin Tech Easy TCA Pain Control',
         consultation_url: null,
         consultation_url_label: null,
         consultation_url_title: null,
@@ -479,7 +479,7 @@ $faq_categories = array(
 
         new Question(
             title: 'Hur väljer jag rätt Skin Tech kemisk peeling för min hud?',
-            text: 'För att bestämma vilken Skin Tech kemisk peeling som är bäst för din hud, erbjuder vi en konsultation där våra hudterapeuter analyserar din hud och diskuterar dina mål. Baserat på detta ger vi rekommendationer om lämpliga behandlingar, från Easy Phytic Peel till Easy TCA Pain Control eller PRX-T33.'
+            text: 'För att bestämma om Skin Tech Easy TCA Pain Control är rätt behandling för din hud, erbjuder vi en konsultation där våra hudterapeuter analyserar din hud och diskuterar dina mål. Baserat på detta bedömer vi om denna kraftfulla TCA-behandling passar dina specifika behov och hudproblem.'
         ),
     )
 );
