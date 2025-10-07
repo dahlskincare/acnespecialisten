@@ -118,7 +118,7 @@ if (!isset($brands)) {
                   image: 'bilder/logotyper/dahl-skincare.webp',
                   image_alt: 'DAHL Skincare logotyp',
                   image_title: 'DAHL Skincare - hudvårdsprodukter',
-                  url: 'https://www.dahlskincare.com/sv/,
+                  url: 'https://www.dahlskincare.com/sv/',
                   url_title: 'DAHL Skincare',
             ),
       );
