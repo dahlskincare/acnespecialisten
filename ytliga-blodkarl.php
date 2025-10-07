@@ -816,13 +816,13 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
-                              <dig class="columns is-variable is-0-mobile is-3-tablet is-multiline">
+                              <div class="columns is-variable is-0-mobile is-3-tablet is-multiline">
                                     <?php foreach ($related_problems as $problem) { ?>
                                           <div class="column is-half">
                                                 <?php include('hudproblem/widgets/related-problem-card/related-problem-card.php'); ?>
                                           </div>
                                     <?php } ?>
-                              </dig>
+                              </div>
                         </section>
                   </div>
                   <section id="brands">
