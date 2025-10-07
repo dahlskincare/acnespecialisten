@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Kemisk peeling Stockholm | AcneSpecialisten';
-$seo_description = 'Vi erbjuder kemisk peeling med olika behandlingsmetoder. ✓BHA ✓AHA ✓TCA – Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
+$seo_description = 'Vi erbjuder kemisk peeling med olika behandlingsmetoder. ✓Retinol ✓BHA ✓AHA ✓TCA – Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
 $seo_keywords = 'kemisk peeling, kemisk peeling ansikte';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp';
@@ -60,7 +60,7 @@ $model = new Service(
 $floating_box = 'Exfolierar och förnyar hudytan effektivt.';
 
 $description_title = 'Vad är kemisk peeling?';
-$description_text = '<p class="p200">Kemisk peeling för ansikte och kropp innefattar en rad avancerade behandlingar som är speciellt utformade för att effektivt hantera olika hudproblem och förbättra hudens kvalitet på djupet. Genom att applicera anpassade syror som AHA, BHA, TCA och PRX-T33, arbetar vi på cellnivå för att varsamt exfoliera, förnya och vitalisera huden.</p>
+$description_text = '<p class="p200">Kemisk peeling för ansikte och kropp innefattar en rad avancerade behandlingar som är speciellt utformade för att effektivt hantera olika hudproblem och förbättra hudens kvalitet på djupet. Genom att applicera anpassade syror som Retinol, AHA, BHA, TCA och PRX-T33, arbetar vi på cellnivå för att varsamt exfoliera, förnya och vitalisera huden.</p>
 <p class="p200 mt-m">Våra behandlingar är idealiska för att ta itu med ett brett spektrum av hudproblem. Från acneärr och bekämpa aktiv akne, till att effektivt minska melasma och pigmentfläckar. Dessutom är de mycket effektiva mot pormaskar och stora porer, rynkor och fina linjer samt solskadad hy. Varje kemisk peeling vi erbjuder är skräddarsydd för att matcha individens unika hudtyp och problem, och syftar till att återställa hudens naturliga balans. Vårt mål är att ge varje klient en hud som inte bara ser jämnare och klarare ut, utan som också känns friskare och mer ungdomlig.</p>';
 
 $top_articles = array(
@@ -89,7 +89,8 @@ $big_types = array(
         title: 'Retinol Peel',
         duration: '30 min',
         price: null,
-        content: '',
+        content: '<p class="p200">Retinol Peel är en kraftfull kemisk peeling som levererar synliga resultat för att förbättra hudens kvalitet och utseende. Denna professionella behandling använder retinols potenta egenskaper för att stimulera cellförnyelse och kollagenproduktion, vilket resulterar i förbättrad hudstruktur och jämnare hudton.</p>
+        <p class="p200 mt-m">Under behandlingen arbetar den specialformulerade retinollösningen för att exfoliera hudens yttre lager och accelerera hudens naturliga förnyelseprocess. Detta ger märkbara förbättringar i hudens textur, minskar synligheten av fina linjer och skapar en jämnare hudton. Retinol Peel passar utmärkt för dig som vill se verkliga resultat och förbättringar i din hud.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/retinol-peel.webp',
         image_large: '/bilder/hudbehandlingar/200x200/retinol-peel.webp',
         image_alt: 'Retinol Peel',
@@ -125,7 +126,8 @@ $big_types = array(
         title: 'Skin Tech Easy TCA Pain Control',
         duration: '40 min',
         price: null,
-        content: '',
+        content: '<p class="p200">Skin Tech Easy TCA Pain Control är en intensiv kemisk peeling som levererar kraftfulla resultat för mer utmanande hudproblem. Denna avancerade TCA-baserade behandling är speciellt utvecklad för att åstadkomma djupgående förbättringar i hudens struktur och utseende, särskilt effektiv för att behandla acneärr, djupare rynkor och svårare pigmenteringar.</p>
+        <p class="p200 mt-m">Behandlingen arbetar på djupare nivåer än konventionella peelings och stimulerar intensiv cellförnyelse och kollagenremodellering. TCA Pain Control teknologin minimerar obehag under behandlingen samtidigt som den maximerar resultaten. Denna peeling är idealisk för dig som har provat andra behandlingar utan att uppnå önskade resultat och som är redo för en mer intensiv approach för att åstadkomma verkliga förändringar.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/easy-tca-pain-control.webp',
         image_large: '/bilder/hudbehandlingar/200x200/easy-tca-pain-control.webp',
         image_alt: 'Skin Tech Easy TCA Pain Control',
@@ -161,7 +163,8 @@ $big_types = array(
         title: 'PRX-T33',
         duration: '40 min',
         price: null,
-        content: '',
+        content: '<p class="p200">PRX-T33 kombinerar TCA:s kraftfulla effekter med innovativ teknik för att leverera imponerande resultat utan omfattande återhämtningstid. Denna unika behandling är särskilt effektiv för att åstadkomma dramatiska förbättringar i hudens fasthet, elasticitet och övergripande kvalitet.</p>
+        <p class="p200 mt-m">PRX-T33 arbetar genom att stimulera djupgående kollagenproduktion och cellereparation utan att orsaka den traditionella avskalningen som andra TCA-behandlingar medför. Detta gör det möjligt att uppnå märkbara resultat redan efter första behandlingen. Perfekt för dig som vill ha kraftfulla anti-aging effekter och förbättrad hudkvalitet utan att behöva planera för längre återhämtningsperioder.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/prx-t33.webp',
         image_large: '/bilder/hudbehandlingar/200x200/prx-t33.webp',
         image_alt: 'PRX-T33',
@@ -569,9 +572,9 @@ $faq_categories = array(
             <p class="p200 mt-m">Självklart hjälper vi dig alltid att anpassa behandlingen efter dina behov och minimera risken för biverkningar.</p>'
         ),
         new Question(
-            title: 'Vilken är den starkaste aha syran?',
-            text: '<p class="p200">Den starkaste AHA-syran vi använder på vår klinik är Easy Phytic Peel. Detta är en professionell peeling som innehåller en kraftfull kombination av AHA-syror, designad för att ge djupgående exfoliering och stimulera hudens förnyelseprocess. Det unika med Easy Phytic Peel är dess förmåga att verka effektivt utan att orsaka irritation, vilket gör den till ett utmärkt val för de som söker märkbara resultat.</p>
-            <p class="p200 mt-m">Det är viktigt att veta att AHA-syror som används på hudvårdskliniker generellt är starkare än de produkter som är avsedda för hemmabruk. Professionella behandlingar är utformade för att utföras av utbildade specialister som kan anpassa behandlingen efter individens hudtyp och behov, samtidigt som de säkerställer optimal säkerhet och effektivitet. Denna nivå av anpassning och styrka i behandlingen bidrar till mer påtagliga och långvariga resultat jämfört med hemmaprodukter.</p>'
+            title: 'Vilken är vår mest effektiva kemiska peeling?',
+            text: '<p class="p200">Vår mest effektiva kemiska peeling är Retinol Peel. Detta är en professionell behandling som kombinerar retinols kraftfulla anti-aging egenskaper med exfolierande effekter, designad för att ge djupgående förnyelse och stimulera hudens naturliga regeneration. Det unika med Retinol Peel är dess förmåga att verka både på ytan och i hudens djupare skikt, vilket gör den idealisk för att behandla flera hudproblem samtidigt.</p>
+            <p class="p200 mt-m">Retinol Peel är särskilt effektiv mot tecken på åldrande, ojämn hudton, fina linjer och texturproblem. Som vår standardbehandling för kemisk peeling erbjuder den en optimal balans mellan effektivitet och komfort. Behandlingen utförs av våra utbildade specialister som anpassar intensiteten efter din hudtyp och behov, vilket säkerställer både säkerhet och maximala resultat.</p>'
         ),
     )
 );
