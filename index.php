@@ -223,8 +223,8 @@
                                     title: 'Förebygga',
                                     content: 'För att förebygga framtida hudproblem och bibehålla resultatet av behandlingarna rekommenderar vi produkter och rutiner som är anpassade efter din hudtyp och specifika problem.',
                                     button_label: 'Se produkter',
-                                    button_url: 'https://www.dahlskincare.com/sv/,
-                                    button_url_title: 'Besök vår webbshop',
+                                    button_url: 'https://www.dahlskincare.com/sv/',
+                                    button_url_title: 'Besök DAHL Skincares webbshop',
                                     button_url_target: '_blank',
                               ),
                               new ApproachCard(
