@@ -16,7 +16,7 @@ $path_segments = array(
 
 $model = new Service(
     title: 'Kemisk Peeling',
-    duration: '40 min',
+    duration: '30 min',
     price: null,
     content: '<p class="p200">Kemisk peeling är en hudvårdsbehandling som används för att förbättra hudens utseende och textur. Genom att applicera exfolierande syror på huden avlägsnas de döda hudcellerna på ytan. Denna process stimulerar cellförnyelsen och främjar tillväxten av ny, friskare hud. </p>',
     image_small: 'bilder/hudbehandlingar/358x274/kemisk-peeling.webp',
@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1995 kr',
+            price: '1595 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -40,16 +40,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '4 behandlingar',
-            price: '6995 kr',
-            savings: 'Spara 985 kr',
+            price: '5595 kr',
+            savings: 'Spara 785 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
             label: '6 behandlingar',
-            price: '8995 kr',
-            savings: 'Spara 2975 kr',
+            price: '7595 kr',
+            savings: 'Spara 1975 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
@@ -357,8 +357,8 @@ $treatment_areas = array(
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
-                duration: '40 min',
-                price: '1995 kr',
+                duration: '30 min',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -368,8 +368,8 @@ $treatment_areas = array(
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Hals',
-                duration: '40 min',
-                price: '1995 kr',
+                duration: '30 min',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -379,8 +379,8 @@ $treatment_areas = array(
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
-                duration: '40 min',
-                price: '1995 kr',
+                duration: '30 min',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -390,8 +390,8 @@ $treatment_areas = array(
                 image_alt: 'Rygg',
                 image_title: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 title: 'Rygg',
-                duration: '40 min',
-                price: '1995 kr',
+                duration: '30 min',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
