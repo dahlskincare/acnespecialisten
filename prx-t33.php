@@ -79,7 +79,7 @@ $top_articles = array(
 $big_types = array(
     new Service(
         title: 'PRX T33',
-        duration: '30 min',
+        duration: '40 min',
         price: null,
         content: '<p class="p200">PRX T33 är en innovativ kemisk peeling som erbjuder exceptionella resultat för att bekämpa tecken på åldrande, som rynkor, fina linjer, pigmenteringar och bristningar. Denna avancerade behandling är utformad för att ge intensiv förnyelse och förbättring av hudens struktur och ton utan den avskalning som traditionella peelings kan medföra.</p>
         <p class="p200 mt-m">Under PRX T33-behandlingen appliceras en speciell lösning som verkar djupt in i huden för att stimulera kollagenproduktionen och förnya hudcellerna. Detta bidrar till att effektivt minska tecken på åldrande och förbättra hudens övergripande utseende. Unikt för PRX T33 är dess förmåga att ge dramatiska resultat utan längre återhämtningstid, vilket gör den idealisk för de som önskar snabba, märkbara förbättringar.</p>
@@ -302,7 +302,7 @@ $treatment_areas = array(
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
                 title: 'Ansikte',
-                duration: '30 min',
+                duration: '40 min',
                 price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=prx&skipable_problem=SKIP&area=ChemicalPeeling_Face',
                 url_label: 'Boka',
@@ -313,7 +313,7 @@ $treatment_areas = array(
                 image_alt: 'Hals',
                 image_title: 'Hals',
                 title: 'Hals',
-                duration: '30 min',
+                duration: '40 min',
                 price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=prx&skipable_problem=SKIP&area=ChemicalPeeling_Neck',
                 url_label: 'Boka',
@@ -324,7 +324,7 @@ $treatment_areas = array(
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
-                duration: '30 min',
+                duration: '40 min',
                 price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=prx&skipable_problem=SKIP&area=ChemicalPeeling_Decolletage',
                 url_label: 'Boka',
@@ -335,7 +335,7 @@ $treatment_areas = array(
                 image_alt: 'Rygg',
                 image_title: 'Rygg',
                 title: 'Rygg',
-                duration: '30 min',
+                duration: '40 min',
                 price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=prx&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 url_label: 'Boka',
@@ -346,7 +346,7 @@ $treatment_areas = array(
                 image_alt: 'Händer',
                 image_title: 'Händer',
                 title: 'Händer',
-                duration: '30 min',
+                duration: '40 min',
                 price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=prx&skipable_problem=SKIP&area=ChemicalPeeling_Hands',
                 url_label: 'Boka',

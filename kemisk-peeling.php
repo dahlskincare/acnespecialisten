@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1995 kr',
+            price: '1595 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -40,16 +40,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '4 behandlingar',
-            price: '6995 kr',
-            savings: 'Spara 985 kr',
+            price: '5595 kr',
+            savings: 'Spara 785 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
             label: '6 behandlingar',
-            price: '8995 kr',
-            savings: 'Spara 2975 kr',
+            price: '7595 kr',
+            savings: 'Spara 1975 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
@@ -123,7 +123,7 @@ $big_types = array(
     ),
     new Service(
         title: 'Skin Tech Easy TCA Pain Control',
-        duration: '30 min',
+        duration: '40 min',
         price: null,
         content: '',
         image_small: '/bilder/hudbehandlingar/200x200/easy-tca-pain-control.webp',
@@ -159,7 +159,7 @@ $big_types = array(
     ),
     new Service(
         title: 'PRX-T33',
-        duration: '30 min',
+        duration: '40 min',
         price: null,
         content: '',
         image_small: '/bilder/hudbehandlingar/200x200/prx-t33.webp',
@@ -358,7 +358,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '30 min',
-                price: '1995 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -369,7 +369,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '30 min',
-                price: '1995 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -380,7 +380,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '30 min',
-                price: '1995 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -391,7 +391,7 @@ $treatment_areas = array(
                 image_title: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 title: 'Rygg',
                 duration: '30 min',
-                price: '1995 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=ChemicalPeeling_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
