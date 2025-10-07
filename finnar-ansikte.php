@@ -77,7 +77,7 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga nya finnar och hålla din hud i balans.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga finnar'
       ),
       new TreatmentStep(
@@ -229,7 +229,7 @@ $products = array(
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/finnar',
             url_label: 'Läs mer om produkterna',
             url_title: 'Klicka här för att läsa mer om våra effektiva produkter mot finnar'
       )
@@ -703,7 +703,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

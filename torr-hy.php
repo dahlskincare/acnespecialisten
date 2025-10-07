@@ -116,7 +116,7 @@ $treatment_steps = array(
             content: 'Vi hjälper dig att hitta en hudvårdsrutin som är anpassade för torr och känslig hud, för att förhindra framtida hudproblem och behålla hudens fuktbalans.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/day-n-night-duo',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/day-n-night-duo',
             url_title: 'Hitta de bästa produkterna för att förebygga hudproblem för torr och känslig hud'
       )
 
@@ -521,7 +521,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot torr och känslig hy',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/day-n-night-duo',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/day-n-night-duo',
             booking_url_title: 'Klicka för att köpa produktpaket mot torr och känslig hy',
       ),
 );

@@ -70,7 +70,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vårt team hjälper dig att skräddarsy en hudvårdsrutin för att effektivt förhindra nya pormaskar. Genom att noga välja ut produkter som matchar din hudtyp, arbetar vi för att bibehålla en sund hudbalans och förebygga framtida hudutmaningar.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
             url_title: 'Utforska de bästa produkterna för att förebygga vita pormaskar',
       ),

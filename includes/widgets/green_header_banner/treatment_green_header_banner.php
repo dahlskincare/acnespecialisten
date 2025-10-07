@@ -46,9 +46,9 @@
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
             </div>
             <div id="green-header-large-text" class="mt-xxs">
-                <h1 class="h600">
+                <div class="h600">
                     <?php echo $model->title ?>
-                </h1>
+                </div>
                 <?php if (isset($model->duration)) { ?>
                     <div class="mt-xs">
                         <span class="p200 l10n">Längd: <?php echo $model->duration ?></span>

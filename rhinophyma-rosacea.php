@@ -59,7 +59,7 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rhinophyma rosacea och hålla din hud i balans.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea',
             url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
       ),
       new TreatmentStep(
@@ -181,7 +181,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot rosacea',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea',
             booking_url_title: 'Klicka för att köpa produktpaket mot rosacea',
       )
 );
@@ -492,7 +492,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

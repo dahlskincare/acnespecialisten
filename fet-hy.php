@@ -73,7 +73,7 @@ $treatment_steps = array(
             content: 'Vi ger råd om hudvårdsrutiner och produkter som är idealiska för fet hy, för att hjälpa dig att förebygga framtida hudproblem och bibehålla en hälsosam hudton.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/blandhy',
             url_title: 'Bläddra bland våra produkter för fet hy'
       ),
 );
@@ -193,7 +193,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot fet hy',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/blandhy',
             booking_url_title: 'Klicka för att köpa produktpaket mot fet hy',
       )
 );
@@ -343,7 +343,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

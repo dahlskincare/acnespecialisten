@@ -102,7 +102,7 @@ $faq_categories = array(
 
     <title class="l10n">Frågor & svar - AcneSpecialisten</title>
     <meta name="title" content="Frågor & Svar - AcneSpecialisten" class="l10n">
-    <meta name="description" content="Frågor & svar AcneSpecialisten, här får du svar på några av de vanligaste frågorna" class="l10n">
+    <meta name="description" content="Få svar på vanliga frågor om hudvård och behandlingar hos AcneSpecialisten. Läs om bokning, priser och eftervård." class="l10n">
     <meta name="keywords" content="hudvård, acnebehandling, hudproblem, frågor och svar, AcneSpecialisten, hudterapi" class="l10n">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

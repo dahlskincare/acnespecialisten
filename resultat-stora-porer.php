@@ -97,7 +97,7 @@ $results = [
         image_url: 'bilder/resultat/744x496/resultat-stora-porer-1.jpg',
         image_alt: 'Före och efter bild på kund med stora porer',
         image_title: 'Före och efter bild på kund med stora porer',
-        content: '<a href="stora-porer.php">Stora porer</a> behandlat med <a href="portomning.php">portömning</a> och <a href="https://dahlskincare.se/produktkategorier/produktpaket/pormaskar">produktpaket mot stora porer</a>.',
+        content: '<a href="stora-porer.php">Stora porer</a> behandlat med <a href="portomning.php">portömning</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar">produktpaket mot stora porer</a>.',
     ),
 ];
 

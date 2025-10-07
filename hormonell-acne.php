@@ -66,7 +66,7 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'För att förebygga framtida utbrott av hormonell acne, erbjuder vi specialdesignade produkter och rutiner.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga hormonell acne'
       ),
       new TreatmentStep(

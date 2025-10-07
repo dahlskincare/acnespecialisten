@@ -68,7 +68,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Förebygga',
             content: 'På AcneSpecialisten hjälper vi dig att hitta en skräddarsydd hudvårdsrutin och produkter specifikt för att förebygga mjälleksem, och att hålla din hud frisk och balanserad.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/seborre',
             url_label: 'Upptäck produkterna',
             url_title: 'Se produkterna för att förebygga mjälleksem',
       ),
@@ -177,7 +177,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot mjälleksem',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/seborre',
             booking_url_title: 'Klicka för att köpa produktpaket mot mjälleksem',
       )
 );
@@ -307,7 +307,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

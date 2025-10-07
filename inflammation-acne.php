@@ -66,7 +66,7 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'För att förebygga framtida utbrott av inflammatorisk akne, erbjuder vi specialutvecklade hudvårdsprodukter och rutiner.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga inflammatorisk akne'
       ),
       new TreatmentStep(
@@ -522,7 +522,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

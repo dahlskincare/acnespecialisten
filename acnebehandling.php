@@ -172,7 +172,7 @@ $products = array(
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot akne',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot akne',
 
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+        url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
         url_label: 'Utforska produkterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot akne',
 

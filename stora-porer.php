@@ -98,7 +98,7 @@ $treatment_steps = array(
             content: 'Vi tar fram en hudvårdsrutin och produkter som är anpassade efter din hudtyp. Målet är att förebygga stora porer och bibehålla en balanserad hud.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar',
             url_title: 'Hitta de bästa produkterna för att förebygga stora porer'
       ),
 
@@ -310,7 +310,7 @@ $products = array(
             consultation_url_label: 'Boka konsultation',
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för stora porer',
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar',
             booking_url_title: 'Klicka för att köpa produktpaket mot stora porer',
       )
 );
@@ -578,7 +578,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

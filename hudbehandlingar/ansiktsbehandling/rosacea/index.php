@@ -146,7 +146,7 @@ $treatment_steps = array(
         title: 'Förebygga',
         content: 'Vi hjälper dig att hitta en hudvårdsrutin och produkter som passar din hudtyp för att förebygga ny rosacea och hålla din hud i balans.',
         url_label: 'Se produkter',
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+        url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea',
         url_title: 'Hitta de bästa produkterna för att förebygga rosacea'
     ),
     new TreatmentStep(
