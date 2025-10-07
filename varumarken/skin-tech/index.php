@@ -178,8 +178,8 @@ $types = array(
     ),
     new Service(
         title: 'Skin Tech mot acneärr',
-        duration: '30 min',
-        price: null,
+        duration: '40 min',
+        price: '1995 kr',
         content: 'Jämnar ut både hudtonen och hudytan med hjälp av Skin Tech mot acneärr.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
