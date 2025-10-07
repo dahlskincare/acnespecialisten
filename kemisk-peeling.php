@@ -86,6 +86,42 @@ $top_articles = array(
 
 $big_types = array(
     new Service(
+        title: 'Retinol Peel',
+        duration: '30 min',
+        price: null,
+        content: '',
+        image_small: '/bilder/hudbehandlingar/200x200/retinol-peel.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/retinol-peel.webp',
+        image_alt: 'Retinol Peel',
+        image_title: 'Retinol Peel',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Retinol&procedures=PriceClass_A_Procedure_1'
+            ),
+            new Procedure(
+                label: '4 behandlingar',
+                price: '5595 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Retinol&procedures=PriceClass_A_Procedure_4'
+            ),
+            new Procedure(
+                label: '6 behandlingar',
+                price: '7595 kr',
+                savings: 'Spara 1975 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Retinol&procedures=PriceClass_A_Procedure_6'
+            ),
+        )
+    ),
+    new Service(
         title: 'Skin Tech Easy TCA Pain Control',
         duration: '30 min',
         price: null,
