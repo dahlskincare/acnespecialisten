@@ -71,7 +71,7 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'För att förebygga utbrott av cystisk akne erbjuder vi hudvårdsprodukter kombinerat med hudvårdsrutiner som hjälper till att balansera huden och bekämpa de faktorer som orsakar cystorna.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga cystisk akne'
       ),
       new TreatmentStep(
@@ -531,7 +531,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

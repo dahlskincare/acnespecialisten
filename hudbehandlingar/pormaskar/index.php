@@ -160,7 +160,7 @@ $products = array(
         image_title: 'AcneSpecialistens effektiva hudvårdsprodukter mot pormaskar',
         image_alt: 'Bild på AcneSpecialistens hudvårdsprodukter mot pormaskar',
 
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+        url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar',
         url_label: 'Utforska hudvårdsprodukterna',
         url_title: 'Information om AcneSpecialistens hudvårdsprodukter mot pormaskar',
         price: 'AcneSpecialistens hudvårdsprodukter mot pormaskar - Från 1495 kr',
@@ -311,7 +311,7 @@ $brands = array(
         image: 'bilder/logotyper/dahl-skincare.webp',
         image_alt: 'DAHL Skincare logotyp',
         image_title: 'DAHL Skincare - hudvårdsprodukter',
-        url: 'https://dahlskincare.se',
+        url: 'https://www.dahlskincare.com/sv/,
         url_title: 'DAHL Skincare',
     ),
     new Brand(

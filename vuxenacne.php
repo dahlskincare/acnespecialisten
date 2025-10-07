@@ -68,7 +68,7 @@ $treatment_steps = array(
             title: 'Förebygga',
             content: 'Vi erbjuder anpassade produkter och rutiner som är speciellt utformade för att förebygga vuxenacne och bevara en hälsosam hudbalans.',
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
             url_title: 'Hitta de bästa produkterna för att förebygga akne'
       ),
       new TreatmentStep(

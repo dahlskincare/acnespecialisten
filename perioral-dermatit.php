@@ -98,7 +98,7 @@ $treatment_steps = array(
             content: 'Vi hjälper dig att finna en hudvårdsrutin och rekommenderar produkter speciellt anpassade för hudtypen.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/perioral-dermatit',
             url_title: 'Hitta de bästa produkterna för att förebygga perioral dermatit',
       ),
 );
@@ -402,7 +402,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot perioral dermatit',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/perioral-dermatit',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/perioral-dermatit',
             booking_url_title: 'Klicka för att köpa produktpaket mot perioral dermatit',
       )
 );
@@ -575,7 +575,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

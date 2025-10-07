@@ -126,13 +126,13 @@ $results = [
         image_url: 'bilder/resultat/744x496/resultat-akne-1.jpg',
         image_alt: 'Före och efter bild på kund med akne',
         image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Acnebehandling</a> och <a href="https://dahlskincare.se/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
+        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Acnebehandling</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
     ),
     new LabelImage(
         image_url: 'bilder/resultat/744x496/resultat-akne-2.jpg',
         image_alt: 'Före och efter bild på kund med akne',
         image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Ansiktsbehandling mot acne</a> och <a href="https://dahlskincare.se/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
+        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Ansiktsbehandling mot acne</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
     ),
 ];
 

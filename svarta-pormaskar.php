@@ -70,7 +70,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vi hjälper dig att utveckla en anpassad hudvårdsrutin för att förebygga uppkomsten av nya svarta pormaskar. Genom att välja ut produkter som passar just din hudtyp, strävar vi efter att hjälpa dig upprätthålla en hälsosam hudbalans och förebygga framtida hudproblem.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
             url_title: 'Hitta de bästa produkterna för att förebygga svarta pormaskar'
       ),
@@ -334,7 +334,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

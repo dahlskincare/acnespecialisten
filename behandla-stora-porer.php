@@ -257,7 +257,7 @@ $brands = array(
         image: 'bilder/logotyper/dahl-skincare.webp',
         image_alt: 'DAHL Skincare logotyp',
         image_title: 'DAHL Skincare - hudvårdsprodukter',
-        url: 'https://dahlskincare.se',
+        url: 'https://www.dahlskincare.com/sv/,
         url_title: 'DAHL Skincare',
     ),
     new Brand(

@@ -139,7 +139,7 @@ $products = array(
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot finnar',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot finnar',
 
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/finnar',
+        url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/finnar',
         url_label: 'Utforska våra hudvårdsprodukterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot finnar',
         price: 'Acnespecialistens hudvårdsprodukter mot finnar - Från 1495 kr',
@@ -575,7 +575,7 @@ $brands = array(
         image: 'bilder/logotyper/dahl-skincare.webp',
         image_alt: 'DAHL Skincare logotyp',
         image_title: 'DAHL Skincare - hudvårdsprodukter',
-        url: 'https://dahlskincare.se',
+        url: 'https://www.dahlskincare.com/sv/,
         url_title: 'DAHL Skincare',
     ),
     new Brand(

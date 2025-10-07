@@ -96,7 +96,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Förebygga',
             content: 'På AcneSpecialisten hjälper vi dig att hitta en skräddarsydd hudvårdsrutin och produkter specifikt för att förebygga seborré, och att hålla din hud frisk, balanserad och problemfri.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/seborre',
             url_label: 'Se produkter',
             url_title: 'Se produkterna för att förebygga seborré',
       ),
@@ -222,7 +222,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot seborré',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/seborre',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/seborre',
             booking_url_title: 'Klicka för att köpa produktpaket mot seborré',
       )
 );
@@ -394,7 +394,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

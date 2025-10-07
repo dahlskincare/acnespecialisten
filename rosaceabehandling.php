@@ -113,7 +113,7 @@ $products = array(
         image_title: 'Acnespecialistens effektiva hudvårdsprodukter mot rosacea',
         image_alt: 'Bild på Acnespecialistens hudvårdsprodukter mot rosacea',
 
-        url: 'https://dahlskincare.se/produktkategorier/produktpaket/rosacea',
+        url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea',
         url_label: 'Utforska hudvårdsprodukterna',
         url_title: 'Information om Acnespecialistens hudvårdsprodukter mot rosacea',
         price: 'Hudvårdsprodukter mot rosacea - Från 1495 kr',
@@ -362,7 +362,7 @@ $brands = array(
         image: 'bilder/logotyper/dahl-skincare.webp',
         image_alt: 'DAHL Skincare logotyp',
         image_title: 'DAHL Skincare - hudvårdsprodukter',
-        url: 'https://dahlskincare.se',
+        url: 'https://www.dahlskincare.com/sv/,
         url_title: 'DAHL Skincare',
     ),
     new Brand(

@@ -7,7 +7,7 @@
     <link rel="canonical" href="https://www.acnespecialisten.se/not-found.php" />
 
     <title>Sidan hittas ej | AcneSpecialisten – Hudvård i Stockholm</title>
-    <meta name="description" content="Läs om AcneSpecialistens Sidan hittas ej.">
+    <meta name="description" content="Sidan hittades inte. Kontakta AcneSpecialisten för hjälp med hudvård och behandlingar i Stockholm.">
     <meta name="keywords" content="Sidan hittas ej">
 
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/head.php'); ?>

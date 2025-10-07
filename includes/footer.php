@@ -12,19 +12,19 @@
         </div>
         <div class="container">
             <div id="footer-brands">
-                <a href="https://www.klarna.se" target="_blank">
+                <a href="https://www.klarna.com/se/" target="_blank">
                     <img loading="lazy" src="bilder/logotyper/brand-icon-klarna.png" alt="Klarna" title="Klarna" width="40" height="40" />
                 </a>
                 <a href="https://www.americanexpress.com/sv-se/" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-amex.svg" alt="Amex" title="Amex" width="40" height="40" />
                 </a>
-                <a href="https://www.qliro.com/sv-se" target="_blank">
+                <a href="https://qliro.com/sv/" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-qliro.svg" alt="Qliro" title="Qliro" width="40" height="40" />
                 </a>
                 <a href="https://www.swish.nu" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-swish.svg" alt="Swish" title="Swish" width="40" height="40" />
                 </a>
-                <a href="https://www.if.se" target="_blank">
+                <a href="https://www.if.se/privat" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-if.svg" alt="If" title="If" width="40" height="40" />
                 </a>
                 <a href="https://www.shr.nu" target="_blank">
@@ -55,7 +55,7 @@
                             <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-row">
@@ -65,7 +65,7 @@
                             <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-row">
@@ -75,7 +75,7 @@
                             <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
             </div>
             <div id="footer-links">
@@ -316,13 +316,13 @@
                     <div>
                         <div class="flex-row">
                             <span class="h200 l10n">Betalningsmetoder</span>
-                            <a href="https://www.klarna.com" target="_blank">
+                            <a href="https://www.klarna.com/se/" target="_blank">
                                 <img loading="lazy" src="bilder/logotyper/brand-icon-klarna.png" alt="Klarna" title="Klarna" width="40" height="40" />
                             </a>
-                            <a href="https://www.amex.com" target="_blank">
+                            <a href="https://www.americanexpress.com/sv-se/" target="_blank">
                                 <img loading="lazy" src="images/brands/brand-icon-amex.svg" alt="Amex" title="Amex" width="40" height="40" />
                             </a>
-                            <a href="https://www.qliro.com/sv-se" target="_blank">
+                            <a href="https://qliro.com/sv/" target="_blank">
                                 <img loading="lazy" src="images/brands/brand-icon-qliro.svg" alt="Qliro" title="Qliro" width="40" height="40" />
                             </a>
                             <a href="https://www.swish.nu" target="_blank">
@@ -333,7 +333,7 @@
                     <div>
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Patientskadeförsäkrings hos IF</span>
-                            <a href="https://www.if.se" target="_blank">
+                            <a href="https://www.if.se/privat" target="_blank">
                                 <img loading="lazy" src="images/brands/brand-icon-if.svg" alt="If" title="If" width="40" height="40" />
                             </a>
                         </div>
@@ -372,7 +372,7 @@
                             <div>
                                 <h2>Östermalm</h2>
                                 <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
-                                <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-%C3%B6stermalm-43559" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                             </div>
                         </div>
                     </div>
@@ -382,7 +382,7 @@
                             <div>
                                 <h2>Södermalm</h2>
                                 <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
-                                <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-s%C3%B6dermalm-19301" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                             </div>
                         </div>
                     </div>
@@ -392,7 +392,7 @@
                             <div>
                                 <h2>Sundbyberg</h2>
                                 <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                                <a href="https://www.bokadirekt.se/places/acnespecialisten-sveriges-sk%C3%B6nhetscenter-sundbyberg-19300" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                             </div>
                         </div>
 

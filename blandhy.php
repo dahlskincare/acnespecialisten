@@ -129,7 +129,7 @@ $treatment_steps = array(
             content: 'För att bibehålla resultaten av behandlingarna är det viktigt med rätt hudvård hemma. Vi rekommenderar produkter speciellt anpassade för blandhy.',
 
             url_label: 'Se produkter',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/blandhy',
             url_title: 'Bläddra bland våra produkter för blandhy'
       ),
 
@@ -332,7 +332,7 @@ $products = array(
             consultation_url_title: 'Klicka för att boka tid för en hudkonsultation för hudvårdsprodukter mot blandhy',
 
             booking_url_label: 'Köp produkter',
-            booking_url: 'https://dahlskincare.se/produktkategorier/produktpaket/blandhy',
+            booking_url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/blandhy',
             booking_url_title: 'Klicka för att köpa produktpaket mot blandhy',
       )
 );
@@ -573,7 +573,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

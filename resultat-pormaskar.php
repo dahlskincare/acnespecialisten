@@ -94,7 +94,7 @@ $results = [
         image_url: 'bilder/resultat/744x496/resultat-pormaskar-1.jpg',
         image_alt: 'Före och efter bild på kund med pormaskar',
         image_title: 'Före och efter bild på kund med pormaskar',
-        content: '<a href="pormaskar.php">Pormaskar</a> behandlat med <a href="portomning.php">portömning</a> och <a href="https://dahlskincare.se/produktkategorier/produktpaket/pormaskar">produktpaket mot pormaskar</a>.',
+        content: '<a href="pormaskar.php">Pormaskar</a> behandlat med <a href="portomning.php">portömning</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar">produktpaket mot pormaskar</a>.',
     ),
 ];
 

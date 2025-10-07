@@ -71,7 +71,7 @@ $treatment_steps = array(
             title: 'Prevent',
             content: 'To prevent future acne outbreaks and minimize new scars, we offer specially developed skincare products and routines.',
             url_label: 'See products',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/akne',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne',
             url_title: 'Find the best products to prevent acne and minimize scars'
       ),
       new TreatmentStep(
@@ -363,7 +363,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(

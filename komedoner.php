@@ -70,7 +70,7 @@ $treatment_steps = array(
       new TreatmentStep(
             title: 'Förebygga',
             content: 'Vi hjälper vi dig att etablera en anpassad hudvårdsrutin. Vi väljer ut produkter som är idealiska för din hudtyp för att effektivt förebygga komedoner och upprätthålla en hälsosam hudbalans.',
-            url: 'https://dahlskincare.se/produktkategorier/produktpaket/pormaskar',
+            url: 'https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar',
             url_label: 'Se produkter',
             url_title: 'Hitta de bästa produkterna för att förebygga komedoner'
       ),
@@ -237,7 +237,7 @@ $brands = array(
             image: 'bilder/logotyper/dahl-skincare.webp',
             image_alt: 'DAHL Skincare logotyp',
             image_title: 'DAHL Skincare - hudvårdsprodukter',
-            url: 'https://dahlskincare.se',
+            url: 'https://www.dahlskincare.com/sv/,
             url_title: 'DAHL Skincare',
       ),
       new Brand(
