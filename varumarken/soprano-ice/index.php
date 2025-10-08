@@ -515,6 +515,12 @@ $faq_categories = array(
             title: 'Kan Soprano ICE användas på alla hudtyper?',
             text: '<p class="p200">Ja, Soprano ICE är effektiv och säker för alla hudtyper, inklusive solbränd hud. Dess teknologi är utformad för att anpassa sig och behandla olika hudfärger och hårtyper effektivt, vilket gör den till en mångsidig lösning för permanent hårborttagning.</p>'
         ),
+        new Question(
+            title: 'Kan Soprano ICE behandla vita, gråa eller mycket ljusa hår?',
+            text: '<p class="p200">Soprano ICE är mycket effektiv för de flesta hårtyper och nyanser, men vita och gråa hår kan inte behandlas effektivt med laser. Detta beror på att laserenergin behöver melanin (pigment) i håret för att fungera, och vita/gråa hår saknar detta pigment.</p>
+
+            <p class="p200 mt-m">Mycket ljusa hårstrån kan vara mer utmanande att behandla med Soprano ICE, men inte omöjliga. Resultatet beror på mängden pigment i håret. Vi rekommenderar en kostnadsfri konsultation för att bedöma dina förutsättningar och ge dig realistiska förväntningar på behandlingen.</p>'
+        ),
     )
 );
 
