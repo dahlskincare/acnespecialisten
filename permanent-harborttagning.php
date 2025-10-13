@@ -581,9 +581,19 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Kan man göra permanent hårborttagning hemma?',
-            text: '<p class="p200">Nej, att uppnå helt permanent hårborttagning hemma är inte möjligt med maskiner för hemmabruk. Hemmabrukstekniker kan potentiellt minska hårväxten till viss del, men de kan inte erbjuda de permanenta resultaten som professionella behandlingar gör. För helt permanent hårborttagning rekommenderas professionella metoder som laserhårborttagning eller elektrolys, som är utformade för att målinrikta och permanent minska hårväxten med stor precision och säkerhet.</p>
+            text: '<p class="p200">Nej, att uppnå helt permanent hårborttagning hemma är inte möjligt med maskiner för hemmabruk. Hemmabrukstekniker kan potentiellt minska hårväxten till viss del, men de kan inte erbjuda de permanenta resultaten som professionella behandlingar gör. För helt permanent hårborttagning rekommenderas professionella laserbehandlingar som är utformade för att målinrikta och permanent minska hårväxten med stor precision och säkerhet.</p>
 
             <p class="p200 mt-m">Dessutom är säkerhetsaspekten viktig att överväga. Hemmabruk av hårborttagningsenheter innebär en risk för hudirritationer, brännskador och i värsta fall permanenta hudskador om de används felaktigt. Professionella behandlare har särskild utbildning och tillgång till avancerad utrustning för att minimera dessa risker, vilket gör att de kan erbjuda en säker och effektiv behandling för permanent hårborttagning.</p>'
+        ),
+        new Question(
+            title: 'Kan laser ta bort vita eller gråa hår?',
+            text: '<p class="p200">Nej, laser kan tyvärr inte effektivt behandla vita eller gråa hår. Laserbehandling fungerar genom att rikta energi mot melanin (pigmentet) i hårstrået. Vita och gråa hår saknar melanin, vilket gör att lasern inte har något att "sikta" på. Därför absorberas inte laserenergin av dessa hår och behandlingen blir ineffektiv. Vi rekommenderar att du bokar en kostnadsfri konsultation för att diskutera dina individuella förutsättningar.</p>'
+        ),
+        new Question(
+            title: 'Kan laser behandla fjun och mycket ljusa hårstrån?',
+            text: '<p class="p200">Behandling av fjun och mycket ljusa hårstrån kan vara utmanande med laser, men det är inte omöjligt. Vår Splendor X-laser är specifikt utformad för att vara effektiv även mot finare hår och fjun, tack vare sin avancerade BLEND X-teknologi som kombinerar olika våglängder.</p>
+
+            <p class="p200 mt-m">Mycket ljusa hårstrån som innehåller lite melanin kan vara svårare att behandla effektivt med laser. Resultatet beror på hur mycket pigment som finns i håret. Ju mörkare hår, desto bättre resultat. Vi rekommenderar alltid en kostnadsfri konsultation där vi kan bedöma dina specifika förutsättningar och ge dig realistiska förväntningar på behandlingsresultatet.</p>'
         ),
     )
 );

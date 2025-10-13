@@ -561,6 +561,16 @@ $faq_categories = array(
             title: 'Är behandlingen smärtsam?',
             text: '<p class="p200">Splendor X-behandlingen är känd för att vara mindre smärtsam jämfört med traditionella laserbehandlingar för hårborttagning. Tack vare den avancerade kyltekniken och den precisa laserstrålen upplever de flesta en minimalt obehaglig känsla, som ofta beskrivs som lätt snärt mot huden. Smärtupplevelsen varierar dock från person till person.</p>'
         ),
+        new Question(
+            title: 'Kan Splendor X behandla vita eller gråa hår?',
+            text: '<p class="p200">Nej, Splendor X kan inte effektivt behandla vita eller gråa hår eftersom dessa saknar melanin (pigment) som lasern behöver för att fungera. Laserenergin absorberas av melaninet i hårstrået, och utan detta pigment blir behandlingen ineffektiv. Vi rekommenderar att du bokar en kostnadsfri konsultation för att diskutera dina specifika förutsättningar.</p>'
+        ),
+        new Question(
+            title: 'Kan Splendor X behandla fjun och mycket ljusa hårstrån?',
+            text: '<p class="p200">Ja, Splendor X är särskilt effektiv mot fjun och finare hårstrån tack vare sin avancerade BLEND X-teknologi som kombinerar både Nd:YAG och Alexandrite laser. Detta gör den till ett utmärkt val för behandling av finare hår som andra lasersystem kan ha svårt att hantera.</p>
+
+            <p class="p200 mt-m">För mycket ljusa hårstrån beror effektiviteten på mängden pigment i håret. Ju mer pigment, desto bättre resultat. Vi rekommenderar en kostnadsfri konsultation för att bedöma dina specifika förutsättningar.</p>'
+        ),
     )
 );
 

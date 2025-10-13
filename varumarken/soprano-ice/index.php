@@ -35,7 +35,7 @@ $floating_box = 'Effektiv laserbehandling för permanent hårborttagning som pas
 
 $description_title = 'Vad är Soprano ICE Platinum?';
 $description_text = '<p class="p200">Soprano ICE Platinum representerar framkanten inom teknologin för permanent hårborttagning, genom att effektivt kombinera tre kraftfulla diodlaserteknologier i en behandling. Denna innovativa diodlaserbehandling använder en unik 3 i 1 metod som integrerar våglängderna Alexandrit 755NM, Speed 810NM, och YAG 1064NM, var och en med särskilda egenskaper för att målriktat och skonsamt behandla olika hårtyper och hudtoner.</p>
-<p class="p200 mt-m">Alexandrit 755NM våglängden är särskilt effektiv för ljusa och tunna hårstrån, som traditionellt varit utmanande att behandla. Denna våglängd utmärker sig genom sin höga energiabsorption och ytliga penetration, vilket gör den idealisk för att behandla hårstrån nära hudytan i områden som ögonbryn och överläpp.</p>
+<p class="p200 mt-m">Alexandrit 755NM våglängden arbetar med hög energiabsorption och ytlig penetration, vilket gör den lämplig för att behandla hårstrån nära hudytan i områden som ögonbryn och överläpp.</p>
 <p class="p200 mt-m">Speed 810NM våglängden erbjuder djup penetration av hårsäcken, vilket möjliggör en snabb och effektiv behandling av större områden såsom armar, ben, kinder och skäggområdet. Dess förmåga att absorbera melanin i måttlig grad gör den säker för användning på mörkare hudtyper, medan dess djupverkande penetration tar sikte på hårsäckens struktur runt hårstrået.</p>
 <p class="p200 mt-m">YAG 1064NM våglängden, med sin låga melaninabsorption, är optimal för mörkare hudtyper och erbjuder den djupaste penetrationen. Denna våglängd riktar sig direkt mot hårpapillen och hårpulpan och kan behandla även djupt inbäddade hårstrån i områden som hårbotten, armhålor och intima zoner. Den genererar även en högre värme som bidrar till en mer effektiv hårborttagning över hela behandlingsområdet.</p>
 <p class="p200 mt-m">Soprano ICE Platinum skiljer sig från andra laserbehandlingar genom sin revolutionerande kylteknik som ger en nästan smärtfri behandlingsupplevelse. Denna teknologi, tillsammans med behandlingens hastighet och avsaknad av behovet av återhämtningstid, gör Soprano ICE Platinum till en idealisk lösning för permanent hårborttagning på alla kroppsområden, inklusive de mest känsliga. </p>
@@ -514,6 +514,12 @@ $faq_categories = array(
         new Question(
             title: 'Kan Soprano ICE användas på alla hudtyper?',
             text: '<p class="p200">Ja, Soprano ICE är effektiv och säker för alla hudtyper, inklusive solbränd hud. Dess teknologi är utformad för att anpassa sig och behandla olika hudfärger och hårtyper effektivt, vilket gör den till en mångsidig lösning för permanent hårborttagning.</p>'
+        ),
+        new Question(
+            title: 'Kan Soprano ICE behandla vita, gråa eller mycket ljusa hår?',
+            text: '<p class="p200">Soprano ICE är mycket effektiv för de flesta hårtyper och nyanser, men vita och gråa hår kan inte behandlas effektivt med laser. Detta beror på att laserenergin behöver melanin (pigment) i håret för att fungera, och vita/gråa hår saknar detta pigment.</p>
+
+            <p class="p200 mt-m">Mycket ljusa hårstrån kan vara mer utmanande att behandla med Soprano ICE, men inte omöjliga. Resultatet beror på mängden pigment i håret. Vi rekommenderar en kostnadsfri konsultation för att bedöma dina förutsättningar och ge dig realistiska förväntningar på behandlingen.</p>'
         ),
     )
 );
