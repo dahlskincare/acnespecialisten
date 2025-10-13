@@ -128,8 +128,8 @@ $path_segments = [
                                     </div>
                                     <div class="treatment-step-content">Vi ger dig skräddarsydd hudvårdsrutin och rekommenderar högkvalitativa hudvårdsprodukter som är anpassade för att behandla och förebygga ditt hudproblem.</div>
                                 </div>
-                                <a href="https://www.dahlskincare.com/sv/ class="button grey expand is-hidden-tablet" title="Se produkterna">Se produkterna</a>
-                                <a href="https://www.dahlskincare.com/sv/ class="button b200 text compact is-hidden-mobile" title="Boka gratis konsultation">Se produkterna</a>
+                                <a href="https://www.dahlskincare.com/sv/" class="button grey expand is-hidden-tablet" title="Se produkterna">Se produkterna</a>
+                                <a href="https://www.dahlskincare.com/sv/" class="button b200 text compact is-hidden-mobile" title="Se produkterna">Se produkterna</a>
                             </div>
                         </div>
                         <div class="column">
