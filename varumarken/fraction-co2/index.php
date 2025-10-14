@@ -3,7 +3,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'Fraction CO2 laser - Nya generationens fraktionerad laser | AcneSpecialisten';
+$seo_title = 'Fraction CO2 laser - Fraktionerad laser | AcneSpecialisten';
 $seo_description = 'Fraction CO2 laser med 13 spottstorlekar. Effektiv mot ärr, hudföryngring och pigmentering hos AcneSpecialisten Stockholm.';
 $seo_keywords = 'fraction co2, fraction co2 stockholm';
 $seo_image = '/bilder/varumarken/424x456/fraction-co2.webp';
@@ -14,7 +14,7 @@ $path_segments = array(
 );
 
 $model = new Service(
-    title: 'Fraction CO2 laser - Nya generationens fraktionerad laser',
+    title: 'Fraction CO2 laser - Fraktionerad laser',
     duration: null,
     price: 'Från 5595 kr',
     content: '<p class="p200">Fraction CO2 är nya generationens fraktionerade laser för kropp och ansikte med avancerad scanningsteknik. Med 13 olika spottstorlekar och 8 olika behandlingsmönster erbjuder denna banbrytande teknik precis och anpassningsbar behandling för ett brett spektrum av hudproblem inklusive ärrbehandling, hudföryngring, hyperpigmentering och bristningar.</p>',
