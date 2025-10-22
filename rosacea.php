@@ -367,13 +367,13 @@ $results = array(
             image_url: 'bilder/resultat/832x476/resultat-mycket-rosacea-fore-efter-ansikte.webp',
             image_alt: 'Mycket rosacea före och efter behandling',
             image_title: 'Mycket rosacea före och efter behandling',
-            content: '',
+            content: '<a href="rosacea.php">Rosacea</a> som behandlats med <a href="rosaceabehandling.php">rosaceabehandling</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea">produktpaket för rosacea</a>',
       ),
       new LabelImage(
             image_url: 'bilder/resultat/832x476/resultat-rosacea-fore-efter-hela-ansiktet.webp',
             image_alt: 'Rosacea hela ansiktet före och efter behandling',
             image_title: 'Rosacea hela ansiktet före och efter behandling',
-            content: '',
+            content: '<a href="rosacea.php">Rosacea</a> som behandlats med <a href="ipl-rosacea.php">IPL-behandling</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea">produktpaket för rosacea</a>',
       ),
 );
 
