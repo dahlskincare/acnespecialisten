@@ -687,8 +687,8 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                               <h2 class="big l10n">Resultat</h2>
                               <div class="results-images">
                                     <?php foreach ($results as $result) { ?>
-                                          <div class="result-image">
-                                                <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
+                                          <div class="result-image" style="margin-bottom: 2rem;">
+                                                <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" style="max-width: 100%; height: auto;" />
                                                 <?php if (!empty($result->content)) { ?>
                                                       <div class="result-content"><?php echo $result->content ?></div>
                                                 <?php } ?>
