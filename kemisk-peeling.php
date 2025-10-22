@@ -4,7 +4,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'Kemisk peeling Stockholm | AcneSpecialisten';
-$seo_description = 'Vi erbjuder kemisk peeling med olika behandlingsmetoder. ✓Retinol ✓BHA ✓AHA ✓TCA – Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
+$seo_description = 'Vi erbjuder kemisk peeling med olika behandlingsmetoder. ✓Lumilight (AHA) ✓Purify (BHA) ✓Retinol ✓TCA ✓PRX-T33 – Boka tid för en gratis hudkonsultation så hjälper vi dig med rätt behandling!';
 $seo_keywords = 'kemisk peeling, kemisk peeling ansikte';
 
 $seo_image = 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp';
@@ -86,11 +86,85 @@ $top_articles = array(
 
 $big_types = array(
     new Service(
+        title: 'Lumilight Peel (AHA)',
+        duration: '30 min',
+        price: null,
+        content: '<p class="p200">Lumilight Peel är en avancerad AHA-baserad kemisk peeling speciellt utvecklad för att behandla solskadad och åldrad hud samt ytlig melasma och pigmenteringar. Denna ytliga peeling kombinerar glykolsyra, fytinsyra och mandelsyra för att effektivt hämma melaninbildningen och återställa hudens naturliga lyster och fasthet.</p>
+        <p class="p200 mt-m">Behandlingen arbetar genom att varsamt exfoliera hudens yttre lager samtidigt som den aktivt motverkar överdriven pigmentproduktion. Fytinsyran bidrar med sina antioxidativa egenskaper medan mandelsyran ger en mild men effektiv exfoliering som passar även känslig hud. Lumilight Peel är det optimala valet för dig som vill återfå en jämn, strålande hudton och förbättra hudens fasthet.</p>',
+        image_small: '/bilder/hudbehandlingar/200x200/lumilight-peel.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/lumilight-peel.webp',
+        image_alt: 'Lumilight Peel',
+        image_title: 'Lumilight Peel',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Lumilight&procedures=PriceClass_A_Procedure_1'
+            ),
+            new Procedure(
+                label: '4 behandlingar',
+                price: '5595 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Lumilight&procedures=PriceClass_A_Procedure_4'
+            ),
+            new Procedure(
+                label: '6 behandlingar',
+                price: '7595 kr',
+                savings: 'Spara 1975 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Lumilight&procedures=PriceClass_A_Procedure_6'
+            ),
+        )
+    ),
+    new Service(
+        title: 'Purify Peel (BHA)',
+        duration: '30 min',
+        price: null,
+        content: '<p class="p200">Purify Peel är en kraftfull BHA-baserad kemisk peeling speciellt formulerad för att behandla akne, seborroisk hud och postinflammatorisk hyperpigmentering. Denna ytliga peeling kombinerar glykolsyra med salicylsyra för att ge en intensiv men kontrollerad exfoliering som effektivt rensar porerna och normaliserar talgproduktionen.</p>
+        <p class="p200 mt-m">Salicylsyrans unika förmåga att tränga igenom talg gör denna behandling särskilt effektiv mot tilltäppta porer och akne. Den arbetar djupt i porerna för att lösa upp talgpluggar och döda hudceller medan glykolsyran förnyar hudens yttre lager. Purify Peel är det perfekta valet för dig som kämpar med akne och fet hud och vill uppnå en klarare, mer balanserad hudton.</p>',
+        image_small: '/bilder/hudbehandlingar/200x200/purify-peel.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/purify-peel.webp',
+        image_alt: 'Purify Peel',
+        image_title: 'Purify Peel',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '1595 kr',
+                savings: null,
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Purify&procedures=PriceClass_A_Procedure_1'
+            ),
+            new Procedure(
+                label: '4 behandlingar',
+                price: '5595 kr',
+                savings: 'Spara 785 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Purify&procedures=PriceClass_A_Procedure_4'
+            ),
+            new Procedure(
+                label: '6 behandlingar',
+                price: '7595 kr',
+                savings: 'Spara 1975 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=chemicalpeeling&skipable_problem=SKIP&area=Service_ChemicalPeeling_Purify&procedures=PriceClass_A_Procedure_6'
+            ),
+        )
+    ),
+    new Service(
         title: 'Retinol Peel',
         duration: '30 min',
         price: null,
-        content: '<p class="p200">Retinol Peel är en kraftfull kemisk peeling som levererar synliga resultat för att förbättra hudens kvalitet och utseende. Denna professionella behandling använder retinols potenta egenskaper för att stimulera cellförnyelse och kollagenproduktion, vilket resulterar i förbättrad hudstruktur och jämnare hudton.</p>
-        <p class="p200 mt-m">Under behandlingen arbetar den specialformulerade retinollösningen för att exfoliera hudens yttre lager och accelerera hudens naturliga förnyelseprocess. Detta ger märkbara förbättringar i hudens textur, minskar synligheten av fina linjer och skapar en jämnare hudton. Retinol Peel passar utmärkt för dig som vill se verkliga resultat och förbättringar i din hud.</p>',
+        content: '<p class="p200">Retinol Peel är en kraftfull kemisk peeling speciellt utvecklad för att behandla aktiniska keratoser och aktiniska lentiginer (solskador). Denna ytliga peeling kombinerar glykolsyra, retinol och ferulinsyra för att leverera kraftig hudföryngring och dramatiska förbättringar i hudens lyster, fasthet, elasticitet och struktur.</p>
+        <p class="p200 mt-m">Behandlingen arbetar genom att retinol stimulerar cellförnyelse och kollagenproduktion på djupet, medan glykolsyran effektivt exfolierar hudens yttre lager. Ferulinsyran bidrar med sina antioxidativa egenskaper och skyddar huden mot fria radikaler. Denna unika kombination ger synliga resultat redan efter första behandlingen och fortsätter att förbättra huden över tid. Retinol Peel är det optimala valet för dig som vill uppnå verklig hudföryngring och behandla solskadad hud.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/retinol-peel.webp',
         image_large: '/bilder/hudbehandlingar/200x200/retinol-peel.webp',
         image_alt: 'Retinol Peel',
