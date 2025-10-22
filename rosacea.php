@@ -363,17 +363,39 @@ $articles = array(
 );
 
 $results = array(
-      new LabelImage(
-            image_url: 'bilder/resultat/832x476/resultat-mycket-rosacea-fore-efter-ansikte.webp',
-            image_alt: 'Mycket rosacea före och efter behandling',
-            image_title: 'Mycket rosacea före och efter behandling',
-            content: '',
-      ),
-      new LabelImage(
-            image_url: 'bilder/resultat/832x476/resultat-rosacea-fore-efter-hela-ansiktet.webp',
-            image_alt: 'Rosacea hela ansiktet före och efter behandling',
-            image_title: 'Rosacea hela ansiktet före och efter behandling',
-            content: '',
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
+            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
+            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
+            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
+            url_title: 'Rosacea resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 33,
+            gender: 'Kvinna',
+            problem: 'Rosacea',
+            type: 'Svår',
+            treatment: new ResultTreatment(
+                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: 'https://via.placeholder.com/102x102.webm',
+                              name: 'Rosaceabehandling',
+                              count: '3 tillfällen'
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Produktpaket mot svår rosacea',
+                  ),
+                  employee: new ResultEmployee(
+                        image: 'https://via.placeholder.com/102x102.webm',
+                        name: 'Julia Eklund'
+                  ),
+            )
       ),
 );
 
@@ -684,18 +706,10 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                               <?php } ?>
                         </section>
                         <section id="results">
-                              <h2 class="big l10n">Resultat</h2>
-                              <div class="results-images" style="margin-top: 1.5rem;">
-                                    <?php foreach ($results as $result) { ?>
-                                          <div class="result-image" style="margin-bottom: 1.5rem;">
-                                                <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" style="max-width: 100%; height: auto;" />
-                                                <?php if (!empty($result->content)) { ?>
-                                                      <div class="result-content"><?php echo $result->content ?></div>
-                                                <?php } ?>
-                                          </div>
-                                    <?php } ?>
-                              </div>
-                              <a class="mt-m button b200 outline expand auto-width" title="<?php echo $results_url_title ?>" href="resultat-rosacea.php"><?php echo $results_url_label ?></a>
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
