@@ -685,8 +685,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                         </section>
                         <section id="results">
                               <h2 class="big l10n">Resultat</h2>
-                              <hr class="is-hidden-mobile mt-xl">
-                              <div class="results-images">
+                              <div class="results-images" style="margin-top: 1.5rem;">
                                     <?php foreach ($results as $result) { ?>
                                           <div class="result-image" style="margin-bottom: 1.5rem;">
                                                 <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" style="max-width: 100%; height: auto;" />
@@ -696,7 +695,7 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                                           </div>
                                     <?php } ?>
                               </div>
-                              <a class="mt-xl button b200 outline expand auto-width" title="<?php echo $results_url_title ?>" href="resultat-rosacea.php"><?php echo $results_url_label ?></a>
+                              <a class="mt-m button b200 outline expand auto-width" title="<?php echo $results_url_title ?>" href="resultat-rosacea.php"><?php echo $results_url_label ?></a>
                         </section>
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
