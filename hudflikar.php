@@ -314,6 +314,18 @@ $show_all_results_title = "se flera behandlingsresultat";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
+                  title: 'Hur många hudflikar ingår i behandlingen för 1595 kr? Vad kostar det för flera hudflikar?',
+                  text: '<p class="p200">Priset på 1595 kr gäller för behandling av 1 hudförändring. För flera hudflikar har vi följande priser baserat på antal:</p>
+                  <p class="p200 mt-m">1 hudförändring: 1595 kr (20 min)<br />
+                  2-3 hudförändringar: 1995 kr - 20 min<br />
+                  4-6 hudförändringar: 2595 kr - 20 min<br />
+                  7-10 hudförändringar: 2995 kr - 30 min<br />
+                  20 hudförändringar: 4995 kr - 30 min<br />
+                  50 hudförändringar: 9995 kr - 70 min</p>
+                  <p class="p200 mt-m">Om du till exempel har 7-8 hudflikar på halsen kommer priset att vara 2995 kr för en 30 minuters behandling, eftersom detta faller under kategorin 7-10 hudförändringar. Vi rekommenderar alltid att boka en kostnadsfri konsultation där våra specialister kan bedöma dina hudflikar och bekräfta det exakta priset för din behandling.</p>'
+            ),
+
+            new Question(
                   title: 'Hur ser hudflikar ut jämfört med andra vårtor eller fibrom? Finns det några specifika kännetecken?',
                   text: 'Hudflikar är små, mjuka och ofta hudfärgade, medan vårtor kan vara hårdare och ha en ojämn yta. Fibrom är vanligtvis större och hårdare än hudflikar. Hudflikar sitter ofta på en tunn stjälk, vilket skiljer dem från andra utväxter.'
             ),

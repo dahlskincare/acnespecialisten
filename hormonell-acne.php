@@ -83,40 +83,6 @@ $treatment_link = '<a href="acnebehandling.php" title="Utforska effektiva behand
 $results = array(
       new ResultCustomer(
             url: '',
-            image_before_small: '/bilder/resultat/424x424/resultat-akne-fore-3.webp',
-            image_after_small: '/bilder/resultat/424x424/resultat-akne-efter-3.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-3.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-3.webp',
-            url_title: 'Resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 1,
-            gender: '',
-            problem: '',
-            type: '',
-            treatment: new ResultTreatment(
-                  duration: '',
-                  procedures: array(
-                        new ResultProcedure(
-                              image: '',
-                              name: '',
-                              count: ''
-                        ),
-                  ),
-                  product: new ResultProduct(
-                        image: '',
-                        name: '',
-                  ),
-                  employee: new ResultEmployee(
-                        image: '',
-                        name: ''
-                  ),
-            )
-      ),
-      new ResultCustomer(
-            url: '',
             image_before_small: '/bilder/resultat/acne/resultat-acne-fore-1.jpg',
             image_after_small: '/bilder/resultat/acne/resultat-acne-efter-1.jpg',
             image_before_large: '/bilder/resultat/acne/resultat-acne-fore-1.jpg',
