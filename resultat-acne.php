@@ -61,78 +61,66 @@ $result_category =
         description_2: 'Är du redo att ta kontroll över din akne och uppnå en klarare hud? Boka en kostnadsfri konsultation hos oss och ta det första steget mot en synbart förbättrad och hälsosammare hy. Låt oss visa dig vägen till effektiva resultat.',
 
     );
-$results = [
+$results_images = [
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-2.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Akne och finnar i ansiktet före och efter behandling',
+        image_title: 'Akne resultat - ansikte',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-3.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
+        image_alt: 'Akne och finnar på kinden före och efter behandling',
+        image_title: 'Akne resultat - kind',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-10.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+        image_alt: 'Akne på kinder och panna före och efter behandling',
+        image_title: 'Akne resultat - kinder och panna',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-4.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+        image_alt: 'Inflammerad akne före och efter behandling',
+        image_title: 'Akne resultat - inflammerad hy',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-5.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mycket.webp',
+        image_alt: 'Mycket akne före och efter behandling',
+        image_title: 'Akne resultat - svår akne',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-6.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-hals.webp',
+        image_alt: 'Akne på halsen före och efter behandling',
+        image_title: 'Akne resultat - hals',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-7.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kaklinje.webp',
+        image_alt: 'Akne längs käklinjen före och efter behandling',
+        image_title: 'Akne resultat - käklinje',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-8.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-panna.webp',
+        image_alt: 'Akne på pannan före och efter behandling',
+        image_title: 'Akne resultat - panna',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-9.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-hela-ryggen.webp',
+        image_alt: 'Akne på ryggen före och efter behandling',
+        image_title: 'Akne resultat - rygg',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-1.jpg',
-        image_alt: '',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mild.webp',
+        image_alt: 'Mild akne före och efter behandling',
+        image_title: 'Akne resultat - mild akne',
         content: '',
-    ),
-    new LabelImage(
-        image_url: 'bilder/resultat/744x496/resultat-akne-1.jpg',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Acnebehandling</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
-    ),
-    new LabelImage(
-        image_url: 'bilder/resultat/744x496/resultat-akne-2.jpg',
-        image_alt: 'Före och efter bild på kund med akne',
-        image_title: 'Före och efter bild på kund med akne',
-        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Ansiktsbehandling mot acne</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
     ),
 ];
 
@@ -153,13 +141,13 @@ $results = [
             ?>
         </section>
         <div class="container">
-            <section id="cards">
-                <?php foreach ($results as $result) { ?>
-                    <div class="result-card">
-                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
-                        <div class="result-card-content"><?php echo $result->content ?></div>
-                    </div>
-                <?php } ?>
+            <section id="results">
+                <?php
+                $results_title = '';
+                $initial_count = 999;
+                $show_view_all_button = false;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
