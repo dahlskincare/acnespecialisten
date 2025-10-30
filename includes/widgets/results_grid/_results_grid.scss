@@ -10,11 +10,6 @@
         gap: $xl;
         margin-top: $xl;
 
-        // If no title, remove top margin
-        &:first-child {
-            margin-top: 0;
-        }
-
         .result-grid-item {
             width: 100%;
             transition: opacity 0.3s ease, max-height 0.3s ease;
