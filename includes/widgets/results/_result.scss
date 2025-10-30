@@ -80,16 +80,19 @@
 
 
     .ro-info {
-        border: 1px solid $light-200;
-        border-top: 0;
         border-bottom-left-radius: $radius-l;
         border-bottom-right-radius: $radius-l;
-        padding: $m;
         @include p200;
 
         a {
             @include h200;
             text-decoration: underline;
         }
+    }
+
+    .ro-info:not(:empty) {
+        border: 1px solid $light-200;
+        border-top: 0;
+        padding: $m;
     }
 }

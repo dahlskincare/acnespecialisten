@@ -114,17 +114,20 @@ section#cards {
         }
 
         .result-card-content {
-            border: 1px solid $light-200;
-            border-top: none;
             border-bottom-left-radius: $radius-l;
             border-bottom-right-radius: $radius-l;
-            padding: $m $xl;
             @include p200;
 
             a {
                 font-weight: 600;
                 text-decoration: underline;
             }
+        }
+
+        .result-card-content:not(:empty) {
+            border: 1px solid $light-200;
+            border-top: none;
+            padding: $m $xl;
         }
     }
 }
