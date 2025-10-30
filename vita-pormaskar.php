@@ -231,7 +231,70 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
-
+// Results Grid Implementation
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
+            image_alt: 'Vita pormaskar före och efter bild',
+            image_title: 'Vita pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad-ansikte.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+            image_alt: 'Pormaskar före och efter bild',
+            image_title: 'Pormaskar resultat',
+            content: '',
+      ),
+);
+$results_url = '/resultat-pormaskar.php';
 
 $faq_categories = array(
       'Generella frågor' => array(
@@ -425,8 +488,8 @@ $brands_url_title = "Se alla varumärken";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Vita pormaskar före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
