@@ -60,54 +60,66 @@ $result_category =
         description_2: 'Redo att ta itu med din rosacea och uppnå en lugnare hudton? Boka en kostnadsfri konsultation hos AcneSpecialisten och börja din resa mot en mer balanserad och hälsosam hud. Våra skräddarsydda behandlingsplaner är utformade för att effektivt hantera symtomen på rosacea och ge dig en klarare och jämnare hudton.',
     );
 
-$results = [
+$results_images = [
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-rosacea-i-ansiktet.jpg',
-        image_alt: 'rosacea i ansiktet före och efter bilder',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Rosacea i ansiktet före och efter behandling',
+        image_title: 'Rosacea resultat - ansikte',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-rosacea-fore-och-efter-bilder.jpg',
-        image_alt: 'före och efterbilder rosacea',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder.webp',
+        image_alt: 'Rosacea på kinderna före och efter behandling',
+        image_title: 'Rosacea resultat - kinder',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-rosacea-hy.jpg',
-        image_alt: 'rosacea hy före och efter bilder',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasa-kinder.webp',
+        image_alt: 'Rosacea på näsan och kinderna före och efter behandling',
+        image_title: 'Rosacea resultat - näsa och kinder',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-rosacea-hud.jpg',
-        image_alt: 'rosacea hud före och efter bilder',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp',
+        image_alt: 'Rodnad från rosacea före och efter behandling',
+        image_title: 'Rosacea resultat - rodnad',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-rosacea-hud-i-ansiktet.jpg',
-        image_alt: 'rosacea hud i ansiktet före och efter bilder',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-hela-ansiktet.webp',
+        image_alt: 'Rosacea i hela ansiktet före och efter behandling',
+        image_title: 'Rosacea resultat - hela ansiktet',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-rosacea-ansiktet.jpg',
-        image_alt: 'rosacea ansiktet före och efter bilder',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Rosacea från vänster sida före och efter behandling',
+        image_title: 'Rosacea resultat - vänster sida',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/rosacea-1.jpg',
-        image_alt: 'rosacea ansiktet före och efter bilder',
-        image_title: '',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-hoger.webp',
+        image_alt: 'Rosacea från höger sida före och efter behandling',
+        image_title: 'Rosacea resultat - höger sida',
         content: '',
     ),
     new LabelImage(
-        image_url: 'bilder/resultat/744x496/resultat-rosacea-1.jpg',
-        image_alt: 'Före och efter bild på kund med rosacea',
-        image_title: 'Före och efter bild på kund med rosacea',
-        content: '<a href="rosacea.php">Rosacea</a> som behandlats med <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/rosacea">rosaceabehandling</a> och <a href="rosaceabehandling.php">produktpaket för rosacea</a>',
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-panna-kinder.webp',
+        image_alt: 'Rosacea på panna och kinder före och efter behandling',
+        image_title: 'Rosacea resultat - panna och kinder',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-mycket-ansikte.webp',
+        image_alt: 'Svår rosacea i ansiktet före och efter behandling',
+        image_title: 'Rosacea resultat - svår rosacea',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinderna.webp',
+        image_alt: 'Rosacea på kinderna före och efter behandling',
+        image_title: 'Rosacea resultat - kinderna',
+        content: '',
     ),
 ];
 ?>
@@ -126,13 +138,13 @@ $results = [
             ?>
         </section>
         <div class="container">
-            <section id="cards">
-                <?php foreach ($results as $result) { ?>
-                    <div class="result-card">
-                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
-                        <div class="result-card-content"><?php echo $result->content ?></div>
-                    </div>
-                <?php } ?>
+            <section id="results">
+                <?php
+                $results_title = 'Rosacea resultat';
+                $view_all_url = '/resultat.php';
+                $view_all_url_title = 'Se alla resultat';
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">

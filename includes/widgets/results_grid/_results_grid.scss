@@ -28,6 +28,18 @@
                 display: block;
             }
 
+            // Add bottom rounded corners when content is empty
+            .result-grid-content:empty + img,
+            img:has(+ .result-grid-content:empty) {
+                border-bottom-left-radius: $radius-l;
+                border-bottom-right-radius: $radius-l;
+            }
+
+            // Alternative approach using sibling selector
+            &:has(.result-grid-content:empty) img {
+                border-radius: $radius-l;
+            }
+
             .result-grid-content {
                 border-bottom-left-radius: $radius-l;
                 border-bottom-right-radius: $radius-l;
@@ -52,7 +64,8 @@
         }
     }
 
-    #show-more-results {
+    #show-more-results,
+    #show-less-results {
         &.is-hidden {
             display: none;
         }

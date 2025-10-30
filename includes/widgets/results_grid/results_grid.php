@@ -10,6 +10,7 @@
  * @var string $results_title - Title for the results section (default: 'Resultat')
  * @var int $initial_count - Number of images to show initially (default: 4)
  * @var string $show_more_label - Label for show more button (default: 'Visa fler resultat')
+ * @var string $show_less_label - Label for show less button (default: 'Visa färre resultat')
  * @var string $view_all_label - Label for view all button (default: 'Se fler resultat')
  * @var string $view_all_url - URL for view all button (default: '/resultat.php')
  * @var string $view_all_url_title - Title attribute for view all button (default: 'Se fler resultat')
@@ -29,6 +30,10 @@ if (!isset($initial_count)) {
 
 if (!isset($show_more_label)) {
     $show_more_label = 'Visa fler resultat';
+}
+
+if (!isset($show_less_label)) {
+    $show_less_label = 'Visa färre resultat';
 }
 
 if (!isset($view_all_label)) {
@@ -69,6 +74,9 @@ $has_more = $total_count > $initial_count;
     <?php if ($has_more) { ?>
         <button id="show-more-results" class="button b200 outline expand auto-width mt-xl" onclick="ResultsGrid.showMore()">
             <?php echo $show_more_label ?>
+        </button>
+        <button id="show-less-results" class="button b200 outline expand auto-width mt-xl is-hidden" onclick="ResultsGrid.showLess()">
+            <?php echo $show_less_label ?>
         </button>
     <?php } ?>
 
