@@ -140,7 +140,7 @@ $results_images = [
         <div class="container">
             <section id="results">
                 <?php
-                $results_title = 'Rosacea resultat';
+                $results_title = ''; // No title on result pages
                 $initial_count = 999; // Show all results on result pages
                 $show_view_all_button = false; // Don't show "view all" button on result pages
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');

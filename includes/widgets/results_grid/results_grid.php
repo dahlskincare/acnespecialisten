@@ -58,7 +58,9 @@ $has_more = $total_count > $initial_count;
 ?>
 
 <div class="results-grid-widget">
-    <h2 class="h500"><?php echo $results_title ?></h2>
+    <?php if (!empty($results_title)) { ?>
+        <h2 class="h500"><?php echo $results_title ?></h2>
+    <?php } ?>
 
     <div class="results-grid-container">
         <?php for ($i = 0; $i < $total_count; $i++) {
