@@ -323,7 +323,66 @@ $results = [
         image_title: '',
         content: '',
     ),
-
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-2.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-3.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-10.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-4.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-5.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-6.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-7.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-8.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-9.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-1.jpg',
+        image_alt: 'Acne före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
 ];
 
 ?>

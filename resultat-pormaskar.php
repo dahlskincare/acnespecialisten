@@ -59,43 +59,22 @@ $result_category =
         description_2: 'Är du redo att effektivt hantera dina pormaskar och se verkliga resultat? Genom att boka en kostnadsfri konsultation hos AcneSpecialisten, tar du det första steget mot en renare och mer strålande hud. Våra anpassade behandlingsplaner är utformade för att målinriktat angripa och minska pormaskar, vilket förbättrar både hudens utseende och dess hälsa.',
     );
 
-$results = [
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-pormaskar-i-ansiktet.jpg',
-        image_alt: 'pormaskar i ansiktet före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-pormaskar-svarta.jpg',
-        image_alt: 'svarta pormaskar före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-pormaskar-vita.jpg',
-        image_alt: 'vita pormaskar före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-pormaskar-pa-kinderna.jpg',
-        image_alt: 'pormaskar på kinderna',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/pormaskar-2.jpg',
-        image_alt: 'pormaskar i ansiktet',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'bilder/resultat/744x496/resultat-pormaskar-1.jpg',
-        image_alt: 'Före och efter bild på kund med pormaskar',
-        image_title: 'Före och efter bild på kund med pormaskar',
-        content: '<a href="pormaskar.php">Pormaskar</a> behandlat med <a href="portomning.php">portömning</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar">produktpaket mot pormaskar</a>.',
-    ),
+$results_images = [
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp', image_alt: 'Inflammerade pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp', image_alt: 'Vita pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp', image_alt: 'Pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp', image_alt: 'Pormaskar på hakan före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp', image_alt: 'Pormaskar på kind och haka före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp', image_alt: 'Svarta pormaskar på kinden före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp', image_alt: 'Pormaskar på kinden före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp', image_alt: 'Många pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp', image_alt: 'Mycket pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp', image_alt: 'Porig hy före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp', image_alt: 'Röda pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad-ansikte.webp', image_alt: 'Pormaskar med rodnad före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp', image_alt: 'Blandhy i ansiktet före och efter behandling', image_title: 'Blandhy resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp', image_alt: 'Blandhy från vänster sida före och efter behandling', image_title: 'Blandhy resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp', image_alt: 'Blandhy med ojämn hudton före och efter behandling', image_title: 'Blandhy resultat', content: ''),
 ];
 
 ?>
@@ -114,13 +93,13 @@ $results = [
             ?>
         </section>
         <div class="container">
-            <section id="cards">
-                <?php foreach ($results as $result) { ?>
-                    <div class="result-card">
-                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
-                        <div class="result-card-content"><?php echo $result->content ?></div>
-                    </div>
-                <?php } ?>
+            <section id="results">
+                <?php
+                $results_title = '';
+                $initial_count = 999;
+                $show_view_all_button = false;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">

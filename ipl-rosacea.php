@@ -339,6 +339,71 @@ $results = array(
     ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte.webp',
+            image_alt: 'IPL behandling mot ytliga blodkärl från rosacea före och efter',
+            image_title: 'IPL rosacea resultat - ytliga blodkärl',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp',
+            image_alt: 'IPL behandling mot rodnad från rosacea före och efter',
+            image_title: 'IPL rosacea resultat - rodnad',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-omfattande-rodnad-ansikte.webp',
+            image_alt: 'IPL mot omfattande rodnad från rosacea före och efter',
+            image_title: 'IPL rosacea resultat - omfattande rodnad',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder-nasa-rodnad.webp',
+            image_alt: 'IPL behandling av rodnad på kinder och näsa före och efter',
+            image_title: 'IPL rosacea resultat - kinder och näsa',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder.webp',
+            image_alt: 'IPL mot rosacea på kinder före och efter behandling',
+            image_title: 'IPL rosacea resultat - kinder',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rott-ansikte.webp',
+            image_alt: 'IPL behandling av rött ansikte från rosacea före och efter',
+            image_title: 'IPL rosacea resultat - rött ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+            image_alt: 'IPL mot rosacea i ansiktet före och efter behandling',
+            image_title: 'IPL rosacea resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinderna.webp',
+            image_alt: 'IPL behandling av rosacea på kinderna före och efter',
+            image_title: 'IPL rosacea resultat - kinderna',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-panna-kinder.webp',
+            image_alt: 'IPL mot rosacea på panna och kinder före och efter',
+            image_title: 'IPL rosacea resultat - panna och kinder',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-hela-ansiktet.webp',
+            image_alt: 'IPL behandling av rosacea i hela ansiktet före och efter',
+            image_title: 'IPL rosacea resultat - hela ansiktet',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat-rosacea.php';
+
 $reviews_title = 'Omdömen';
 
 $reviews_view_more = 'Se alla omdömen';
@@ -532,7 +597,10 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <?php } ?>
 
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat IPL mot Rosacea';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>

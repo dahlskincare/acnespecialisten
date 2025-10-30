@@ -386,6 +386,70 @@ $results = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasan.webp',
+            image_alt: 'Rhinophyma rosacea på näsan före och efter behandling',
+            image_title: 'Rhinophyma resultat - näsan',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasvingar.webp',
+            image_alt: 'Rhinophyma rosacea på näsvingarna före och efter behandling',
+            image_title: 'Rhinophyma resultat - näsvingar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasa-kinder.webp',
+            image_alt: 'Rhinophyma rosacea på näsa och kinder före och efter behandling',
+            image_title: 'Rhinophyma resultat - näsa och kinder',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-svar-ansikte.webp',
+            image_alt: 'Svår rhinophyma rosacea i ansiktet före och efter behandling',
+            image_title: 'Rhinophyma resultat - svår rosacea',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-mycket-ansikte.webp',
+            image_alt: 'Mycket rhinophyma rosacea i ansiktet före och efter behandling',
+            image_title: 'Rhinophyma resultat - mycket rosacea',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Rhinophyma rosacea i ansiktet före och efter behandling',
+            image_title: 'Rhinophyma resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-omfattande-rodnad-ansikte.webp',
+            image_alt: 'Omfattande rodnad från rhinophyma före och efter behandling',
+            image_title: 'Rhinophyma resultat - omfattande rodnad',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder-nasa-rodnad.webp',
+            image_alt: 'Rodnad på kinder och näsa från rhinophyma före och efter behandling',
+            image_title: 'Rhinophyma resultat - kinder och näsa',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp',
+            image_alt: 'Rodnad från rhinophyma rosacea före och efter behandling',
+            image_title: 'Rhinophyma resultat - rodnad',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-hela-ansiktet.webp',
+            image_alt: 'Rhinophyma rosacea i hela ansiktet före och efter behandling',
+            image_title: 'Rhinophyma resultat - hela ansiktet',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat-rosacea.php';
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
@@ -642,8 +706,8 @@ $brands_url_title = "Varumärken för rhinophyma rosaceabehandling";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Rhinophyma före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
