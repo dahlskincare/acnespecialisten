@@ -951,7 +951,7 @@ $brands_url_title = "Varumärken för pormaskar";
                         </section>
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
+                              $results_title = 'Pormaskar före och efter bilder';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>

@@ -807,7 +807,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                         </section>
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
+                              $results_title = 'Stora porer före och efter bilder';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>

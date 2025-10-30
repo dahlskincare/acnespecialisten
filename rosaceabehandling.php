@@ -305,6 +305,70 @@ $results = array(
     ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Rosaceabehandling i ansiktet före och efter',
+            image_title: 'Rosaceabehandling resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder.webp',
+            image_alt: 'Rosaceabehandling på kinder före och efter',
+            image_title: 'Rosaceabehandling resultat - kinder',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-latt-ansikte.webp',
+            image_alt: 'Behandling av lätt rosacea i ansiktet före och efter',
+            image_title: 'Rosaceabehandling resultat - lätt rosacea',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-mycket-ansikte.webp',
+            image_alt: 'Behandling av mycket rosacea i ansiktet före och efter',
+            image_title: 'Rosaceabehandling resultat - mycket rosacea',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-svar-ansikte.webp',
+            image_alt: 'Behandling av svår rosacea före och efter',
+            image_title: 'Rosaceabehandling resultat - svår rosacea',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-prickar.webp',
+            image_alt: 'Rosaceabehandling av prickar före och efter',
+            image_title: 'Rosaceabehandling resultat - prickar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-utslag.webp',
+            image_alt: 'Rosaceabehandling av utslag före och efter',
+            image_title: 'Rosaceabehandling resultat - utslag',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kind.webp',
+            image_alt: 'Rosaceabehandling på kind före och efter',
+            image_title: 'Rosaceabehandling resultat - kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-hoger.webp',
+            image_alt: 'Rosaceabehandling höger sida av ansiktet före och efter',
+            image_title: 'Rosaceabehandling resultat - höger sida',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-latt-haka.webp',
+            image_alt: 'Rosaceabehandling av lätt rosacea på haka före och efter',
+            image_title: 'Rosaceabehandling resultat - haka',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat-rosacea.php';
 $show_all_results_label = "Se fler resultat mot rosacea";
 $show_all_results_title = "Se resultat";
 
@@ -488,7 +552,10 @@ $brands_url_title = "Varumärken för Rosaceabehandling";
                     </a>
                 </section>
                 <section id="results">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                    <?php
+                    $results_title = 'Rosaceabehandling före och efter bilder';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews">
                     <h2 class="big l10n">Omdömen</h2>

@@ -469,6 +469,71 @@ $results = array(
 $results_url_label = "Se fler resultat";
 $results_url_title = "se flera behandlingsresultat";
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Blandhy i ansiktet före och efter behandling',
+            image_title: 'Blandhy resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp',
+            image_alt: 'Blandhy med ojämn hudton före och efter behandling',
+            image_title: 'Blandhy resultat - jämnare hudton',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp',
+            image_alt: 'Blandhy från vänster sida före och efter behandling',
+            image_title: 'Blandhy resultat - vänster sida',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+            image_alt: 'Porig blandhy före och efter behandling',
+            image_title: 'Blandhy resultat - porig hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Blandhy med pormaskar i ansiktet före och efter behandling',
+            image_title: 'Blandhy resultat - pormaskar i ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp',
+            image_alt: 'Röd blandhy före och efter behandling',
+            image_title: 'Blandhy resultat - röd hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+            image_alt: 'Blandhy på kinden före och efter behandling',
+            image_title: 'Blandhy resultat - kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad-ansikte.webp',
+            image_alt: 'Blandhy med rodnad före och efter behandling',
+            image_title: 'Blandhy resultat - rodnad',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+            image_alt: 'Blandhy på hakan före och efter behandling',
+            image_title: 'Blandhy resultat - haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+            image_alt: 'Blandhy på kind och haka före och efter behandling',
+            image_title: 'Blandhy resultat - kind och haka',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat.php';
+
 
 
 $faq_categories = array(
@@ -728,8 +793,8 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                         </section>
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Blandhy före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
