@@ -41,8 +41,18 @@ if (!isset($view_all_label)) {
     $view_all_label = 'Se fler resultat';
 }
 
+// Backwards compatibility: support old variable names
+if (!isset($view_all_url) && isset($results_url)) {
+    $view_all_url = $results_url;
+}
+
 if (!isset($view_all_url)) {
     $view_all_url = '/resultat.php';
+}
+
+// Backwards compatibility: support old variable names
+if (!isset($view_all_url_title) && isset($results_url_title)) {
+    $view_all_url_title = $results_url_title;
 }
 
 if (!isset($view_all_url_title)) {

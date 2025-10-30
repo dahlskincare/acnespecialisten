@@ -482,6 +482,72 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera abehandlingsresultat mot stora porer";
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+            image_alt: 'Porig hy med stora porer före och efter behandling',
+            image_title: 'Stora porer resultat - porig hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+            image_alt: 'Stora porer på hakan före och efter behandling',
+            image_title: 'Stora porer resultat - haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+            image_alt: 'Stora porer på kind och haka före och efter behandling',
+            image_title: 'Stora porer resultat - kind och haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Stora porer i ansiktet före och efter behandling',
+            image_title: 'Stora porer resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+            image_alt: 'Stora porer på kinden före och efter behandling',
+            image_title: 'Stora porer resultat - kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp',
+            image_alt: 'Mycket stora porer i ansiktet före och efter behandling',
+            image_title: 'Stora porer resultat - mycket stora porer',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
+            image_alt: 'Många stora porer i ansiktet före och efter behandling',
+            image_title: 'Stora porer resultat - många stora porer',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp',
+            image_alt: 'Röd hy med stora porer före och efter behandling',
+            image_title: 'Stora porer resultat - röd hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
+            image_alt: 'Stora porer på kind före och efter behandling',
+            image_title: 'Stora porer resultat - stora porer på kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
+            image_alt: 'Vita pormaskar och stora porer före och efter behandling',
+            image_title: 'Stora porer resultat - stora porer',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat-stora-porer.php';
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera behandlingsresultat mot stora porer";
 
 
 $faq_categories = array(
@@ -742,7 +808,7 @@ $brands_url_title = "Varumärken för behandling av stora porer";
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">

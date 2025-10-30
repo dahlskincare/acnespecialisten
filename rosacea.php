@@ -632,6 +632,7 @@ $results_images = array(
       ),
 );
 
+$results_url = '/resultat-rosacea.php';
 $results_url_label = "Se fler resultat";
 $results_url_title = "se flera rosaceabehandlingsresultat";
 

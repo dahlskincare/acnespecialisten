@@ -592,6 +592,73 @@ $results = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Pormaskar i ansiktet före och efter behandling',
+            image_title: 'Pormaskar resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+            image_alt: 'Pormaskar på kinden före och efter behandling',
+            image_title: 'Pormaskar resultat - kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
+            image_alt: 'Svarta pormaskar på kind före och efter behandling',
+            image_title: 'Pormaskar resultat - svarta pormaskar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+            image_alt: 'Pormaskar på hakan före och efter behandling',
+            image_title: 'Pormaskar resultat - haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+            image_alt: 'Pormaskar på kind och haka före och efter behandling',
+            image_title: 'Pormaskar resultat - kind och haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+            image_alt: 'Porig hy med pormaskar före och efter behandling',
+            image_title: 'Pormaskar resultat - porig hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
+            image_alt: 'Många pormaskar i ansiktet före och efter behandling',
+            image_title: 'Pormaskar resultat - många pormaskar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp',
+            image_alt: 'Mycket pormaskar i ansiktet före och efter behandling',
+            image_title: 'Pormaskar resultat - mycket pormaskar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp',
+            image_alt: 'Inflammerade pormaskar före och efter behandling',
+            image_title: 'Pormaskar resultat - inflammerade pormaskar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
+            image_alt: 'Vita pormaskar i ansiktet före och efter behandling',
+            image_title: 'Pormaskar resultat - vita pormaskar',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat-pormaskar.php';
+$results_url_label = "Se fler resultat";
+$results_url_title = "se flera pormaskarbehandlingsresultat";
+
 
 $faq_categories = array(
       'Generellt om pormaskar' => array(
@@ -885,7 +952,7 @@ $brands_url_title = "Varumärken för pormaskar";
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
