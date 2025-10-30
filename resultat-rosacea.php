@@ -61,66 +61,28 @@ $result_category =
     );
 
 $results_images = [
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Rosacea i ansiktet före och efter behandling',
-        image_title: 'Rosacea resultat - ansikte',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder.webp',
-        image_alt: 'Rosacea på kinderna före och efter behandling',
-        image_title: 'Rosacea resultat - kinder',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasa-kinder.webp',
-        image_alt: 'Rosacea på näsan och kinderna före och efter behandling',
-        image_title: 'Rosacea resultat - näsa och kinder',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp',
-        image_alt: 'Rodnad från rosacea före och efter behandling',
-        image_title: 'Rosacea resultat - rodnad',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-hela-ansiktet.webp',
-        image_alt: 'Rosacea i hela ansiktet före och efter behandling',
-        image_title: 'Rosacea resultat - hela ansiktet',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-vanster.webp',
-        image_alt: 'Rosacea från vänster sida före och efter behandling',
-        image_title: 'Rosacea resultat - vänster sida',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-hoger.webp',
-        image_alt: 'Rosacea från höger sida före och efter behandling',
-        image_title: 'Rosacea resultat - höger sida',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-panna-kinder.webp',
-        image_alt: 'Rosacea på panna och kinder före och efter behandling',
-        image_title: 'Rosacea resultat - panna och kinder',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-mycket-ansikte.webp',
-        image_alt: 'Svår rosacea i ansiktet före och efter behandling',
-        image_title: 'Rosacea resultat - svår rosacea',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinderna.webp',
-        image_alt: 'Rosacea på kinderna före och efter behandling',
-        image_title: 'Rosacea resultat - kinderna',
-        content: '',
-    ),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-hoger.webp', image_alt: 'Rosacea från höger sida före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-utslag.webp', image_alt: 'Rosacea med utslag före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte-vanster.webp', image_alt: 'Rosacea från vänster sida före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp', image_alt: 'Rosacea i ansiktet före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-hela-ansiktet.webp', image_alt: 'Rosacea i hela ansiktet före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kind.webp', image_alt: 'Rosacea på kinden före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder-nasa-rodnad.webp', image_alt: 'Rosacea på kinder och näsa med rodnad före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder.webp', image_alt: 'Rosacea på kinderna före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinderna.webp', image_alt: 'Rosacea på kinderna före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-latt-ansikte.webp', image_alt: 'Lätt rosacea i ansiktet före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-latt-haka.webp', image_alt: 'Lätt rosacea på hakan före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-mycket-ansikte.webp', image_alt: 'Mycket rosacea i ansiktet före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasa-kinder.webp', image_alt: 'Rosacea på näsa och kinder före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasan.webp', image_alt: 'Rosacea på näsan före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-nasvingar.webp', image_alt: 'Rosacea på näsvingarna före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-omfattande-rodnad-ansikte.webp', image_alt: 'Omfattande rodnad från rosacea före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-panna-kinder.webp', image_alt: 'Rosacea på panna och kinder före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-prickar.webp', image_alt: 'Rosacea med prickar före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp', image_alt: 'Rodnad från rosacea före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rott-ansikte.webp', image_alt: 'Rött ansikte från rosacea före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-svar-ansikte.webp', image_alt: 'Svår rosacea i ansiktet före och efter behandling', image_title: 'Rosacea resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-utslag.webp', image_alt: 'Rosacea med utslag före och efter behandling', image_title: 'Rosacea resultat', content: ''),
 ];
 ?>
 

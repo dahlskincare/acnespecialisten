@@ -60,66 +60,21 @@ $result_category =
     );
 
 $results_images = [
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Pormaskar i ansiktet före och efter behandling',
-        image_title: 'Pormaskar resultat - ansikte',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
-        image_alt: 'Pormaskar på kinden före och efter behandling',
-        image_title: 'Pormaskar resultat - kind',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
-        image_alt: 'Pormaskar på hakan före och efter behandling',
-        image_title: 'Pormaskar resultat - haka',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
-        image_alt: 'Svarta pormaskar på kinden före och efter behandling',
-        image_title: 'Pormaskar resultat - svarta pormaskar',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
-        image_alt: 'Vita pormaskar i ansiktet före och efter behandling',
-        image_title: 'Pormaskar resultat - vita pormaskar',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
-        image_alt: 'Många pormaskar i ansiktet före och efter behandling',
-        image_title: 'Pormaskar resultat - många pormaskar',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
-        image_alt: 'Porig hy före och efter behandling',
-        image_title: 'Pormaskar resultat - porig hy',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Blandhy i ansiktet före och efter behandling',
-        image_title: 'Blandhy resultat - ansikte',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp',
-        image_alt: 'Blandhy från vänster sida före och efter behandling',
-        image_title: 'Blandhy resultat - vänster sida',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp',
-        image_alt: 'Blandhy med ojämn hudton före och efter behandling',
-        image_title: 'Blandhy resultat - jämnare hudton',
-        content: '',
-    ),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp', image_alt: 'Inflammerade pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp', image_alt: 'Vita pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp', image_alt: 'Pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp', image_alt: 'Pormaskar på hakan före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp', image_alt: 'Pormaskar på kind och haka före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp', image_alt: 'Svarta pormaskar på kinden före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp', image_alt: 'Pormaskar på kinden före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp', image_alt: 'Många pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp', image_alt: 'Mycket pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp', image_alt: 'Porig hy före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp', image_alt: 'Röda pormaskar i ansiktet före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad-ansikte.webp', image_alt: 'Pormaskar med rodnad före och efter behandling', image_title: 'Pormaskar resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp', image_alt: 'Blandhy i ansiktet före och efter behandling', image_title: 'Blandhy resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp', image_alt: 'Blandhy från vänster sida före och efter behandling', image_title: 'Blandhy resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp', image_alt: 'Blandhy med ojämn hudton före och efter behandling', image_title: 'Blandhy resultat', content: ''),
 ];
 
 ?>

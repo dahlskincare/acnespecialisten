@@ -63,66 +63,21 @@ $result_category =
     );
 
 $results_images = [
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
-        image_alt: 'Stora porer och porig hy före och efter behandling',
-        image_title: 'Stora porer resultat - porig hy',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Stora porer i ansiktet före och efter behandling',
-        image_title: 'Stora porer resultat - ansikte',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
-        image_alt: 'Stora porer på kinden före och efter behandling',
-        image_title: 'Stora porer resultat - kind',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
-        image_alt: 'Stora porer på kind och haka före och efter behandling',
-        image_title: 'Stora porer resultat - kind och haka',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp',
-        image_alt: 'Stora porer och rodnad i ansiktet före och efter behandling',
-        image_title: 'Stora porer resultat - rodnad',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
-        image_alt: 'Många synliga porer i ansiktet före och efter behandling',
-        image_title: 'Stora porer resultat - många porer',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp',
-        image_alt: 'Stora porer och inflammerad hy före och efter behandling',
-        image_title: 'Stora porer resultat - inflammerad hy',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Blandhy med stora porer före och efter behandling',
-        image_title: 'Blandhy resultat - ansikte',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp',
-        image_alt: 'Blandhy med stora porer från vänster sida före och efter behandling',
-        image_title: 'Blandhy resultat - vänster sida',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp',
-        image_alt: 'Blandhy med stora porer och ojämn hudton före och efter behandling',
-        image_title: 'Blandhy resultat - jämnare hudton',
-        content: '',
-    ),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp', image_alt: 'Stora porer och porig hy före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp', image_alt: 'Stora porer och inflammerad hy före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp', image_alt: 'Stora porer med vita pormaskar före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp', image_alt: 'Stora porer i ansiktet före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp', image_alt: 'Stora porer på hakan före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp', image_alt: 'Stora porer på kind och haka före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp', image_alt: 'Stora porer med svarta pormaskar på kinden före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp', image_alt: 'Stora porer på kinden före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp', image_alt: 'Många synliga stora porer i ansiktet före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp', image_alt: 'Mycket stora porer i ansiktet före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp', image_alt: 'Stora porer och rodnad i ansiktet före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad-ansikte.webp', image_alt: 'Stora porer med rodnad före och efter behandling', image_title: 'Stora porer resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp', image_alt: 'Blandhy med stora porer före och efter behandling', image_title: 'Blandhy resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp', image_alt: 'Blandhy med stora porer från vänster sida före och efter behandling', image_title: 'Blandhy resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp', image_alt: 'Blandhy med stora porer och ojämn hudton före och efter behandling', image_title: 'Blandhy resultat', content: ''),
 ];
 
 
