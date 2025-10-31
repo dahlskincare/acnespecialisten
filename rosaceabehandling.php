@@ -369,7 +369,7 @@ $results_images = array(
 );
 
 $results_url = '/resultat-rosacea.php';
-$show_all_results_label = "Se fler resultat mot rosacea";
+$show_all_results_label = "Se alla resultat mot rosacea";
 $show_all_results_title = "Se resultat";
 
 

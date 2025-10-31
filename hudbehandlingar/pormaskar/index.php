@@ -210,7 +210,7 @@ $results = array(
     ),
 );
 
-$show_all_results_label = "Se fler resultat mot pormaskar";
+$show_all_results_label = "Se alla resultat mot pormaskar";
 $show_all_results_title = "Resultat mot pormaskar";
 
 $reviews = array(
