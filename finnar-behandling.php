@@ -504,7 +504,70 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "Resultat mot finnar";
 
-
+// Results Grid Implementation
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Finnar i ansiktet före och efter behandling',
+            image_title: 'Finnar resultat - ansiktet',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-haka.webp',
+            image_alt: 'Finnar på kinder och haka före och efter behandling',
+            image_title: 'Finnar resultat - kinder och haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-panna.webp',
+            image_alt: 'Finnar på pannan före och efter behandling',
+            image_title: 'Finnar resultat - panna',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kaklinje.webp',
+            image_alt: 'Finnar längs käklinjen före och efter behandling',
+            image_title: 'Finnar resultat - käklinje',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
+            image_alt: 'Finnar på kinden före och efter behandling',
+            image_title: 'Finnar resultat - kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-pustler-tinning.webp',
+            image_alt: 'Pustulös finnar på tinningen före och efter behandling',
+            image_title: 'Finnar resultat - pustler på tinning',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+            image_alt: 'Inflammerade finnar i ansiktet före och efter behandling',
+            image_title: 'Finnar resultat - inflammerad hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-rodnad.webp',
+            image_alt: 'Rodnad finnar före och efter behandling',
+            image_title: 'Finnar resultat - rodnad',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar-hela-ansiktet.webp',
+            image_alt: 'Svår finnar i hela ansiktet före och efter behandling',
+            image_title: 'Finnar resultat - svår akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-aktiv.webp',
+            image_alt: 'Aktiva finnar före och efter behandling',
+            image_title: 'Finnar resultat - aktiva finnar',
+            content: '',
+      ),
+);
+$results_url = '/resultat-acne.php';
 
 $faq_categories = array(
     '' => array(
@@ -695,7 +758,10 @@ $brands_url_title = "Varumärken för behandling av finnar";
                     </a>
                 </section>
                 <section id="results">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                    <?php
+                    $results_title = 'Före och efter resultat finnar';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews">
                     <h2 class="big l10n">Omdömen</h2>
