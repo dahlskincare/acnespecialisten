@@ -488,7 +488,7 @@ $brands_url_title = "Se alla varumärken";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat för pormaskar på ryggen';
+                              $results_title = 'Före och efter bilder på pormaskar';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>

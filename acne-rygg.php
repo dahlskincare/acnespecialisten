@@ -1024,7 +1024,7 @@ $brands_url_title = "Se alla varumärken";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat för akne på ryggen';
+                              $results_title = 'Före och efter bilder på akne';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
