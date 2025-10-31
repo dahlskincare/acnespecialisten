@@ -735,6 +735,71 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
+// Results Grid Implementation
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-hela-ryggen.webp',
+            image_alt: 'Akne på hela ryggen före och efter behandling',
+            image_title: 'Akne rygg resultat - hela ryggen',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-rygg.webp',
+            image_alt: 'Akne på ryggen före och efter behandling',
+            image_title: 'Akne rygg resultat - mittparti',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-hals.webp',
+            image_alt: 'Akne på hals och övre rygg före och efter behandling',
+            image_title: 'Akne rygg resultat - hals och rygg',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind-hals.webp',
+            image_alt: 'Akne över axel och hals före och efter behandling',
+            image_title: 'Akne rygg resultat - axel och hals',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-sida.webp',
+            image_alt: 'Akne på ryggen från sidan före och efter behandling',
+            image_title: 'Akne rygg resultat - skulderparti',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-aktiv.webp',
+            image_alt: 'Aktiv kroppsakne före och efter behandling',
+            image_title: 'Akne rygg resultat - aktiv utbredning',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-en-stor.webp',
+            image_alt: 'Stor inflammerad kroppsfinne före och efter behandling',
+            image_title: 'Akne rygg resultat - inflammerad finne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-flackar.webp',
+            image_alt: 'Pigmentfläckar efter kroppsakne före och efter behandling',
+            image_title: 'Akne rygg resultat - märken efter akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-prickar.webp',
+            image_alt: 'Punktformig kroppsakne före och efter behandling',
+            image_title: 'Akne rygg resultat - prickig akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-utslag.webp',
+            image_alt: 'Akneutslag på kroppen före och efter behandling',
+            image_title: 'Akne rygg resultat - akneutslag',
+            content: '',
+      ),
+);
+$results_url = '/resultat-acne.php';
+
 
 $specialists = array(
       new Specialist(
@@ -959,8 +1024,8 @@ $brands_url_title = "Se alla varumärken";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Resultat för akne på ryggen';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
