@@ -538,6 +538,71 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "Se fler resultat";
 
+// Results Grid Implementation
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Akne i ansiktet före och efter behandling',
+            image_title: 'Akne resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte-hoger-latt.webp',
+            image_alt: 'Mild akne på höger ansiktshalva före och efter behandling',
+            image_title: 'Akne resultat - mild akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-haka.webp',
+            image_alt: 'Akne på kinder och haka före och efter behandling',
+            image_title: 'Akne resultat - kinder och haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+            image_alt: 'Akne på kinder och panna före och efter behandling',
+            image_title: 'Akne resultat - kinder och panna',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-mun.webp',
+            image_alt: 'Akne runt kinder och mun före och efter behandling',
+            image_title: 'Akne resultat - kinder och mun',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Akne på kind och tinning före och efter behandling',
+            image_title: 'Akne resultat - kind och tinning',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-pustler-panna.webp',
+            image_alt: 'Pustulös akne på pannan före och efter behandling',
+            image_title: 'Akne resultat - pustler på panna',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-rodnad.webp',
+            image_alt: 'Rodnad akne i ansiktet före och efter behandling',
+            image_title: 'Akne resultat - rodnad',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar-hela-ansiktet.webp',
+            image_alt: 'Svår akne i hela ansiktet före och efter behandling',
+            image_title: 'Akne resultat - svår akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mycket.webp',
+            image_alt: 'Utbredd akne i ansiktet före och efter behandling',
+            image_title: 'Akne resultat - utbredd akne',
+            content: '',
+      ),
+);
+$results_url = '/resultat-acne.php';
+
 
 
 $faq_categories = array(
@@ -724,7 +789,10 @@ $brands_url_title = "Varumärken för Aknebehandling";
                     </a>
                 </section>
                 <section id="results">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                    <?php
+                    $results_title = 'Resultat för aknebehandling';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews">
                     <h2 class="big l10n">Omdömen</h2>
