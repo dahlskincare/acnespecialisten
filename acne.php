@@ -1393,6 +1393,12 @@ $brands_url_title = "Varumärken för Aknebehandling";
                                     <?php } ?>
                               </div>
                         </section>
+                        <section id="results-narrow">
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
+                        </section>
                   </div>
                   <section id="brands">
                         <div class="flex-row align-end justify-space-between">
