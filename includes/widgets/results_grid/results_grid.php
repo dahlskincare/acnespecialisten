@@ -11,9 +11,9 @@
  * @var int $initial_count - Number of images to show initially (default: 4)
  * @var string $show_more_label - Label for show more button (default: 'Visa fler resultat')
  * @var string $show_less_label - Label for show less button (default: 'Visa färre resultat')
- * @var string $view_all_label - Label for view all button (default: 'Se fler resultat')
+ * @var string $results_url_label - Label for view all button (default: 'Se alla resultat')
  * @var string $view_all_url - URL for view all button (default: '/resultat.php')
- * @var string $view_all_url_title - Title attribute for view all button (default: 'Se fler resultat')
+ * @var string $view_all_url_title - Title attribute for view all button (default: 'Se alla resultat')
  * @var bool $show_view_all_button - Show the view all button (default: true)
  */
 
@@ -37,8 +37,8 @@ if (!isset($show_less_label)) {
     $show_less_label = 'Visa färre resultat';
 }
 
-if (!isset($view_all_label)) {
-    $view_all_label = 'Se fler resultat';
+if (!isset($results_url_label)) {
+    $results_url_label = 'Se alla resultat';
 }
 
 // Backwards compatibility: support old variable names
@@ -56,7 +56,7 @@ if (!isset($view_all_url_title) && isset($results_url_title)) {
 }
 
 if (!isset($view_all_url_title)) {
-    $view_all_url_title = 'Se fler resultat';
+    $view_all_url_title = 'Se alla resultat';
 }
 
 if (!isset($show_view_all_button)) {
@@ -101,7 +101,7 @@ $has_more = $total_count > $initial_count;
         <a href="<?php echo $view_all_url ?>"
            class="button b200 outline expand auto-width <?php echo $has_more ? 'mt-m' : 'mt-xl' ?>"
            title="<?php echo $view_all_url_title ?>">
-            <?php echo $view_all_label ?>
+            <?php echo $results_url_label ?>
         </a>
     <?php } ?>
 

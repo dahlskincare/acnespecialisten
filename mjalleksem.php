@@ -224,7 +224,7 @@ $results = array(
       ),
 );
 
-$show_all_results_label = "Se fler resultat";
+$show_all_results_label = "Se alla resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
 

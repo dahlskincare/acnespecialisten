@@ -5,7 +5,7 @@ if (!isset($results_title)) {
     $results_title = 'Resultat';
 }
 if (!isset($show_all_results_label)) {
-    $show_all_results_label = 'Visa fler resultat';
+    $show_all_results_label = 'Se alla resultat';
 }
 if (!isset($show_all_results_title)) {
     $show_all_results_title = 'Klicka här för att se fler resultat';
