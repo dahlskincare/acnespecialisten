@@ -426,6 +426,71 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
+// Results Grid Implementation
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte-hoger-latt.webp',
+            image_alt: 'Mild akne på höger ansiktshalva före och efter behandling',
+            image_title: 'Mallorca akne resultat - mild höger sida',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mild.webp',
+            image_alt: 'Mild akne i ansiktet före och efter behandling',
+            image_title: 'Mallorca akne resultat - mild akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind-hals.webp',
+            image_alt: 'Akne från kind till hals före och efter behandling',
+            image_title: 'Mallorca akne resultat - kind och hals',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-hals.webp',
+            image_alt: 'Akne på halsen före och efter behandling',
+            image_title: 'Mallorca akne resultat - hals',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-flackar.webp',
+            image_alt: 'Pigmentfläckar efter akne före och efter behandling',
+            image_title: 'Mallorca akne resultat - pigmentfläckar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-roda-marken.webp',
+            image_alt: 'Röda märken efter akne före och efter behandling',
+            image_title: 'Mallorca akne resultat - röda märken',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-prickar.webp',
+            image_alt: 'Akne med punktutslag före och efter behandling',
+            image_title: 'Mallorca akne resultat - punktutslag',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-utslag.webp',
+            image_alt: 'Akneutslag i ansiktet före och efter behandling',
+            image_title: 'Mallorca akne resultat - utslag',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+            image_alt: 'Akne på kinder och panna före och efter behandling',
+            image_title: 'Mallorca akne resultat - kinder och panna',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
+            image_alt: 'Akne på kinden före och efter behandling',
+            image_title: 'Mallorca akne resultat - kind',
+            content: '',
+      ),
+);
+$results_url = '/resultat-acne.php';
+
 
 
 $faq_categories = array(
@@ -624,8 +689,8 @@ $brands_url_title = "Se alla varumärken";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Resultat för Mallorca akne';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">

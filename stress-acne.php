@@ -458,6 +458,71 @@ $results = array(
 $show_all_results_label = "Se fler resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
+// Results Grid Implementation
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-aktiv.webp',
+            image_alt: 'Aktiv akne i ansiktet före och efter behandling',
+            image_title: 'Stressakne resultat - aktiv akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mycket.webp',
+            image_alt: 'Utbredd akne i ansiktet före och efter behandling',
+            image_title: 'Stressakne resultat - utbredd akne',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-pustler-panna.webp',
+            image_alt: 'Pustler på pannan före och efter behandling',
+            image_title: 'Stressakne resultat - pustler på panna',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-pustler-tinning.webp',
+            image_alt: 'Pustler på tinningen före och efter behandling',
+            image_title: 'Stressakne resultat - pustler på tinning',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-tinning-kinder-panna.webp',
+            image_alt: 'Akne på tinning, kinder och panna före och efter behandling',
+            image_title: 'Stressakne resultat - tinning kinder panna',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-roda-marken.webp',
+            image_alt: 'Röda märken efter akne före och efter behandling',
+            image_title: 'Stressakne resultat - röda märken',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+            image_alt: 'Inflammerad akne i ansiktet före och efter behandling',
+            image_title: 'Stressakne resultat - inflammerad hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-prickar.webp',
+            image_alt: 'Akne med punktutslag före och efter behandling',
+            image_title: 'Stressakne resultat - punktutslag',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-utslag.webp',
+            image_alt: 'Akneutslag i ansiktet före och efter behandling',
+            image_title: 'Stressakne resultat - utslag',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Akne i ansiktet före och efter behandling',
+            image_title: 'Stressakne resultat - hela ansiktet',
+            content: '',
+      ),
+);
+$results_url = '/resultat-acne.php';
+
 
 
 $faq_categories = array(
@@ -676,8 +741,8 @@ $brands_url_title = "Se alla varumärken";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Resultat för stressrelaterad akne';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
