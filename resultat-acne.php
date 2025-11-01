@@ -97,6 +97,80 @@ $results_images = [
     new LabelImage(image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-utslag.webp', image_alt: 'Akne och utslag före och efter behandling', image_title: 'Akne resultat', content: ''),
 ];
 
+$results = [
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-2.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-3.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-10.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-4.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-5.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-6.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-7.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-8.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-9.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/resultat-acne-fore-och-efter-bilder-1.jpg',
+        image_alt: '',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'bilder/resultat/744x496/resultat-akne-1.jpg',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Acnebehandling</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
+    ),
+    new LabelImage(
+        image_url: 'bilder/resultat/744x496/resultat-akne-2.jpg',
+        image_alt: 'Före och efter bild på kund med akne',
+        image_title: 'Före och efter bild på kund med akne',
+        content: '<a href="acne.php">Acne</a> behandlat med <a href="acnebehandling.php">Ansiktsbehandling mot acne</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/akne">produktpaket mot akne</a>.',
+    ),
+];
 
 ?>
 
@@ -121,6 +195,14 @@ $results_images = [
                 $show_view_all_button = false;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                 ?>
+            </section>
+            <section id="cards">
+                <?php foreach ($results as $result) { ?>
+                    <div class="result-card">
+                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
+                        <div class="result-card-content"><?php echo $result->content ?></div>
+                    </div>
+                <?php } ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">

@@ -80,6 +80,44 @@ $results_images = [
     new LabelImage(image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp', image_alt: 'Blandhy med stora porer och ojämn hudton före och efter behandling', image_title: 'Blandhy resultat', content: ''),
 ];
 
+$results = [
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-i-ansiktet.jpg',
+        image_alt: 'pormaskar i ansiktet före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-svarta.jpg',
+        image_alt: 'svarta pormaskar före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-vita.jpg',
+        image_alt: 'vita pormaskar före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-pormaskar-pa-kinderna.jpg',
+        image_alt: 'pormaskar på kinderna',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/pormaskar-2.jpg',
+        image_alt: 'pormaskar i ansiktet',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'bilder/resultat/744x496/resultat-stora-porer-1.jpg',
+        image_alt: 'Före och efter bild på kund med stora porer',
+        image_title: 'Före och efter bild på kund med stora porer',
+        content: '<a href="stora-porer.php">Stora porer</a> behandlat med <a href="portomning.php">portömning</a> och <a href="https://www.dahlskincare.com/sv/produktkategorier/produktpaket/pormaskar">produktpaket mot stora porer</a>.',
+    ),
+];
 
 ?>
 
@@ -104,6 +142,14 @@ $results_images = [
                 $show_view_all_button = false;
                 include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                 ?>
+            </section>
+            <section id="cards">
+                <?php foreach ($results as $result) { ?>
+                    <div class="result-card">
+                        <img src="<?php echo $result->image_url ?>" alt="<?php echo $result->image_alt ?>" title="<?php echo $result->image_title ?>" />
+                        <div class="result-card-content"><?php echo $result->content ?></div>
+                    </div>
+                <?php } ?>
             </section>
             <section id="cta-banner" class="large-margin">
                 <div id="cta-banner-texts">
