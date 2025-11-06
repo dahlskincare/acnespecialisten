@@ -849,7 +849,7 @@ $results = array(
 $results_url_label = "Se alla resultat";
 $results_url_title = "se flera behandlingsresultat av finnar";
 
-$results_url = '/resultat';
+$results_url = '/resultat-acne.php';
 
 $results_images = array(
       new LabelImage(

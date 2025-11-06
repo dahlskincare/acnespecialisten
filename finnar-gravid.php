@@ -646,9 +646,9 @@ $results_images = array(
             content: '',
       ),
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-haka.webp',
-            image_alt: 'Finnar på hakan före och efter behandling',
-            image_title: 'Finnar resultat - haka',
+            image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-haka.webp',
+            image_alt: 'Finnar på kinder och haka före och efter behandling',
+            image_title: 'Finnar resultat - kinder och haka',
             content: '',
       ),
       new LabelImage(
