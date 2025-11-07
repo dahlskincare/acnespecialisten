@@ -211,6 +211,10 @@ $faq_categories = array(
             text: '<p class="p200">Ja, milierbehandling kan vara fördelaktigt även om du bara har några få milier. Det är inte antalet milier som är avgörande utan önskan om att förbättra hudens utseende. En behandling kan anpassas för att rikta sig specifikt mot de milier du har, oavsett antal.</p>'
         ),
         new Question(
+            title: 'Kan jag boka tid för att ta bort endast en milier?',
+            text: '<p class="p200">Ja, för att ta bort en enskild milier ska du boka en konsultation hos oss. Under konsultationen bedömer vår hudterapeut din hud och om milier går att ta bort tar vi 295 kr per styck. Detta ger dig möjlighet att få professionell hjälp även för enstaka milier på ett säkert och effektivt sätt.</p>'
+        ),
+        new Question(
             title: 'Kan man ta bort milier själv hemma?',
             text: '<p class="p200">Att försöka ta bort milier själv hemma rekommenderas inte, eftersom det kan leda till hudirritation, infektion eller ärrbildning. Milier i ansiktet kräver professionell behandling för säker och effektiv borttagning. Vår milier behandling utförs av kvalificerade hudterapeuter som använder sterila instrument för att försiktigt öppna och ta bort milier, vilket minimerar risken för komplikationer. För bästa resultat och för att undvika potentiella risker, är det viktigt att söka professionell hjälp för borttagning av milier.</p>'
         ),

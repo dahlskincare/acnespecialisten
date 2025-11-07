@@ -114,6 +114,10 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                                 title: 'Vad är skillnaden mellan en konsultation på klinik och en online?',
                                 text: '<p class="p200">Det finns ingen skillnad i kvaliteten på service mellan en konsultation på klinik och en online. Vi har infört onlinekonsultationer för att kunna erbjuda vår expertis till kunder över hela Sverige. Oavsett vilket alternativ du väljer, garanterar vi en personlig och professionell service. För att genomföra eventuella behandlingar, välkomnar vi dig sedan till en av våra kliniker i Stockholm.</p>'
                             ),
+                            new Question(
+                                title: 'Kan ni hjälpa mig med mina hudproblem om jag bor långt från er klinik?',
+                                text: '<p class="p200">Ja, absolut! Vi kan hjälpa dig även om du bor långt från våra kliniker i Stockholm. Genom vår kostnadsfria online-konsultation kan du träffa en av våra erfarna hudterapeuter via videosamtal, oavsett var i Sverige du befinner dig. Under konsultationen analyserar vi din hud, identifierar dina hudproblem och tar fram en personlig behandlingsplan. Vi rekommenderar även lämpliga hudvårdsprodukter som du kan använda hemma. Om du senare vill genomföra behandlingar på klinik är du alltid välkommen att besöka oss i Stockholm, men du kan komma långt med rätt hemvårdsrutin och våra professionella råd på distans.</p>'
+                            ),
                         ),
 
                     );
