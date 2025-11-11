@@ -107,9 +107,9 @@ $articles = array(
 
 $results_images = array(
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
-            image_alt: 'Solskadad hy före och efter behandling visar minskade mörka fläckar',
-            image_title: 'Resultat: Förbättrad hudton efter behandling av solskador',
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Synlig förbättring av ojämn hudton orsakad av solskador',
+            image_title: 'Resultat: Reducerade pigmentförändringar från solexponering',
             content: '',
       ),
       new LabelImage(
@@ -119,9 +119,9 @@ $results_images = array(
             content: '',
       ),
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
-            image_alt: 'Synlig förbättring av ojämn hudton orsakad av solskador',
-            image_title: 'Resultat: Reducerade pigmentförändringar från solexponering',
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Solskadad hy före och efter behandling visar minskade mörka fläckar',
+            image_title: 'Resultat: Förbättrad hudton efter behandling av solskador',
             content: '',
       ),
 );

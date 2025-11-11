@@ -192,15 +192,15 @@ $services = array(
 
 $results_images = array(
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
-            image_alt: 'Effektiv behandling reducerar mörka fläckar och ger jämnare hudton',
-            image_title: 'Resultat: Förbättrad hudton med färre synliga fläckar',
-            content: '',
-      ),
-      new LabelImage(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
             image_alt: 'Behandlingsresultat visar minskad pigmentering i ansiktet',
             image_title: 'Resultat: Ljusare och mer enhetlig hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Effektiv behandling reducerar mörka fläckar och ger jämnare hudton',
+            image_title: 'Resultat: Förbättrad hudton med färre synliga fläckar',
             content: '',
       ),
       new LabelImage(

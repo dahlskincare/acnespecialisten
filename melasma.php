@@ -179,12 +179,6 @@ $articles = array(
 
 $results_images = array(
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
-            image_alt: 'Resultat av behandling mot hyperpigmentering på kind och tinning',
-            image_title: 'Resultat: Reducerad pigmentering på kind och tinning',
-            content: '',
-      ),
-      new LabelImage(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
             image_alt: 'Synlig förbättring av ojämn hudton på kind efter behandling',
             image_title: 'Resultat: Jämnare hudton på kind',
@@ -194,6 +188,12 @@ $results_images = array(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
             image_alt: 'Behandlingsresultat för mörkare fläckar i ansiktet',
             image_title: 'Resultat: Minskade mörkare fläckar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Resultat av behandling mot hyperpigmentering på kind och tinning',
+            image_title: 'Resultat: Reducerad pigmentering på kind och tinning',
             content: '',
       ),
 );
