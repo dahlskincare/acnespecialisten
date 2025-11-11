@@ -190,6 +190,29 @@ $services = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Åldersfläckar och pigmentfläckar före och efter behandling',
+            image_title: 'Åldersfläckar resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Åldersfläckar på kind och tinning före och efter behandling',
+            image_title: 'Åldersfläckar resultat - kind och tinning',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Åldersfläckar på kind före och efter behandling',
+            image_title: 'Åldersfläckar resultat - kind',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat.php';
+
 $articles = array(
       new Article(
             title: 'När ska du överväga att söka hjälp?',
@@ -570,10 +593,13 @@ $brands_url_title = "Se alla varumärken";
                               <?php } ?>
                         </section>
 
-
                         <section id="results">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                              <?php
+                              $results_title = 'Åldersfläckar före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                              ?>
                         </section>
+
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
                               <?php
@@ -611,6 +637,12 @@ $brands_url_title = "Se alla varumärken";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow">
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">

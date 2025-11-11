@@ -293,6 +293,29 @@ $service_brands = array(
     ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Pigmentfläckar och fräknar före och efter behandling',
+            image_title: 'Pigmentfläckar resultat - fräknar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Pigmentfläckar på kind och tinning före och efter behandling',
+            image_title: 'Pigmentfläckar resultat - kind och tinning',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Pigmentfläckar på kind före och efter behandling',
+            image_title: 'Pigmentfläckar resultat - kind',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat.php';
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -589,6 +612,13 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
+
+                <section id="results" class="large-margin">
+                    <?php
+                    $results_title = 'Pigmentfläckar före och efter bilder';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
+                </section>
 
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>

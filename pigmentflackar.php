@@ -362,6 +362,31 @@ $articles = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Pigmentfläckar och fräknar före och efter behandling',
+            image_title: 'Pigmentfläckar resultat - fräknar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Pigmentfläckar på kind och tinning före och efter behandling',
+            image_title: 'Pigmentfläckar resultat - kind och tinning',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Pigmentfläckar på kind före och efter behandling',
+            image_title: 'Pigmentfläckar resultat - kind',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat.php';
+$results_url_label = "Se alla resultat";
+$results_url_title = "se flera behandlingsresultat av pigmentfläckar";
+
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
@@ -403,9 +428,6 @@ $results = array(
             )
       ),
 );
-
-$results_url_label = "Se alla resultat";
-$results_url_title = "se flera behandlingsresultat av pigmentfläckar";
 
 
 
@@ -681,6 +703,12 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                               <?php } ?>
                         </section>
 
+                        <section id="results">
+                              <?php
+                              $results_title = 'Pigmentfläckar före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                              ?>
+                        </section>
 
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
@@ -721,6 +749,12 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow">
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">
