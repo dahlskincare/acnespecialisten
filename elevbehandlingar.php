@@ -190,31 +190,19 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
 
 <body>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/floater/treatment_floater.php'); ?>
     <main>
-        <section id="banner">
-            <?php
-            $green_banner_content = new GreenBannerContent(
-                title: $model->title,
-                description: $model->content,
-                description_extended: $model->content
-            );
-            include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
-            ?>
+        <section id="header">
+            <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/treatment_green_header_banner.php'); ?>
         </section>
         <div class="container">
             <div id="content">
-                <section id="badges" class="mt-m is-hidden-desktop">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/badges/badges.php'); ?>
-                </section>
-                <section id="image" class="mt-m is-hidden-desktop">
+                <section id="image" class="is-hidden-desktop">
                     <picture>
                         <source media="(max-width: 449px)" srcset="<?php echo $model->image_small ?>">
                         <source media="(min-width: 450px)" srcset="<?php echo $model->image_large ?>">
-                        <img src="<?php echo $model->image_small ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
+                        <img src="<?php echo $model->image_large ?>" alt="<?php echo $model->image_alt ?>" title="<?php echo $model->image_title ?>" width="358" height="274" />
                     </picture>
-                </section>
-                <section id="nav-buttons">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/nav_buttons/nav_buttons.php'); ?>
                 </section>
                 <section id="about">
                     <h2 class="h500"><?php echo $description_title ?></h2>
@@ -230,28 +218,22 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
                 <?php }
                 } ?>
 
-                <section id="treatment-types">
-                    <div class="flex-row align-end justify-space-between">
-                        <h2 class="big l10n"><?php echo $types_title ?></h2>
-                    </div>
-                    <?php if (isset($types_description)) { ?>
-                        <p class="p200 mt-xs"><?php echo $types_description ?></p>
-                    <?php } ?>
-                    <div class="mt-xl">
+                <?php if (isset($types_title)) { ?>
+                    <section id="types" class="large-margin">
+                        <h2 class="h500"><?php echo $types_title; ?></h2>
+                        <?php if (isset($types_description)) { ?>
+                            <p class="p200 mt-xs"><?php echo $types_description ?></p>
+                        <?php } ?>
+                        <div class="mt-xl"></div>
                         <?php if (isset($big_types)) { ?>
                             <?php foreach ($big_types as $scm) { ?>
-                                <hr class="is-hidden-touch" />
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
-                        <?php }
-                        } ?>
-                        <hr class="is-hidden-touch" />
-                    </div>
-                    <?php if (isset($types_url)) { ?>
-                        <div class="mt-xl is-hidden-tablet">
-                            <a class="button outline expand l10n" href="<?php echo $types_url ?>" title="<?php echo $types_url_title ?>"><?php echo $types_url_label ?></a>
-                        </div>
-                    <?php } ?>
-                </section>
+                                <div class="big-type">
+                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
+                                </div>
+                            <?php } ?>
+                        <?php } ?>
+                    </section>
+                <?php } ?>
 
                 <?php if (isset($service_brands)) { ?>
                     <section id="service-brands" class="large-margin">
