@@ -242,7 +242,7 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include('hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
