@@ -235,9 +235,6 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
                     </section>
                 <?php } ?>
 
-                <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
-                </section>
                 <section id="reviews" class="large-margin">
                     <div class="h500 l10n">Omdömen</div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php'); ?>
