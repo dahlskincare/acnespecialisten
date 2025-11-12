@@ -22,30 +22,12 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandling-rosacea.webp',
     image_alt: 'Elevbehandlingar på AcneSpecialisten',
     image_title: 'Elevbehandlingar på AcneSpecialisten',
-    consultation_url: null,
-    consultation_url_label: null,
-    consultation_url_title: null,
-    booking_url: null,
-    booking_url_label: null,
-    booking_url_title: null,
-    procedures: array(
-        new Procedure(
-            label: 'Ansiktsbehandling Lyx',
-            price: '995 kr',
-            savings: null,
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-lyx-elev-3359125',
-            booking_url_label: 'Boka',
-            booking_url_title: 'Boka Ansiktsbehandling Lyx'
-        ),
-        new Procedure(
-            label: 'Massage',
-            price: '595 kr',
-            savings: null,
-            booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/massage-elev-3359088',
-            booking_url_label: 'Boka',
-            booking_url_title: 'Boka Massage'
-        )
-    ),
+    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-lyx-elev-3359125',
+    consultation_url_label: 'Ansiktsbehandling Lyx',
+    consultation_url_title: 'Boka Ansiktsbehandling Lyx - 995 kr',
+    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/massage-elev-3359088',
+    booking_url_label: 'Massage',
+    booking_url_title: 'Boka Massage - 595 kr',
 );
 
 $floating_box = 'Förmånliga priser på Östermalm.';
