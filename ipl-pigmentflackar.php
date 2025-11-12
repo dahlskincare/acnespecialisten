@@ -293,6 +293,29 @@ $service_brands = array(
     ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Behandling av hyperpigmentering ger jämnare hudton',
+            image_title: 'Resultat: Klarare hy med reducerad pigmentering',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Resultat som visar ljusare hudton efter behandling',
+            image_title: 'Resultat: Minskade pigmentförändringar på kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Synlig förbättring av ojämn hudton efter behandling av pigmentfläckar',
+            image_title: 'Resultat: Minskad synlighet av mörka fläckar',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat.php';
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -589,6 +612,13 @@ $specialists_view_more = 'Se alla hudterapeuter';
                         </div>
                     </section>
                 <?php } ?>
+
+                <section id="results" class="large-margin">
+                    <?php
+                    $results_title = 'Pigmentfläckar före och efter bilder';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
+                </section>
 
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>

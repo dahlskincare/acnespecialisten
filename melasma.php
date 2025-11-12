@@ -177,6 +177,31 @@ $articles = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Synlig förbättring av ojämn hudton på kind efter behandling',
+            image_title: 'Resultat: Jämnare hudton på kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Behandlingsresultat för mörkare fläckar i ansiktet',
+            image_title: 'Resultat: Minskade mörkare fläckar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Resultat av behandling mot hyperpigmentering på kind och tinning',
+            image_title: 'Resultat: Reducerad pigmentering på kind och tinning',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat.php';
+$show_all_results_label = "Se alla resultat";
+$show_all_results_title = "se flera behandlingsresultat";
+
 $results = array(
       new ResultCustomer(
             image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
@@ -218,9 +243,6 @@ $results = array(
             )
       ),
 );
-
-$show_all_results_label = "Se alla resultat";
-$show_all_results_title = "se flera behandlingsresultat";
 
 
 
@@ -445,6 +467,12 @@ $brands_url_title = "Se alla varumärken";
                               <?php } ?>
                         </section>
 
+                        <section id="results">
+                              <?php
+                              $results_title = 'Melasma före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                              ?>
+                        </section>
 
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
@@ -483,6 +511,12 @@ $brands_url_title = "Se alla varumärken";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow">
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">

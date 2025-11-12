@@ -105,48 +105,28 @@ $articles = array(
       ),
 );
 
-$results = array(
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-            )
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Synlig förbättring av ojämn hudton orsakad av solskador',
+            image_title: 'Resultat: Reducerade pigmentförändringar från solexponering',
+            content: '',
       ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
-            )
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Behandlingsresultat för solskador med jämnare hudton',
+            image_title: 'Resultat: Ljusare hy med minskad synlighet av solfläckar',
+            content: '',
       ),
-      new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-            )
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Solskadad hy före och efter behandling visar minskade mörka fläckar',
+            image_title: 'Resultat: Förbättrad hudton efter behandling av solskador',
+            content: '',
       ),
 );
 
+$results_url = '/resultat.php';
 $show_all_results_label = "Se alla resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
@@ -354,6 +334,12 @@ $brands_url_title = "Se alla varumärken";
                               <?php } ?>
                         </section>
 
+                        <section id="results">
+                              <?php
+                              $results_title = 'Solskadad hy före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                              ?>
+                        </section>
 
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>

@@ -190,6 +190,29 @@ $services = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+            image_alt: 'Behandlingsresultat visar minskad pigmentering i ansiktet',
+            image_title: 'Resultat: Ljusare och mer enhetlig hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+            image_alt: 'Effektiv behandling reducerar mörka fläckar och ger jämnare hudton',
+            image_title: 'Resultat: Förbättrad hudton med färre synliga fläckar',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+            image_alt: 'Synlig minskning av pigmentförändringar på kinden',
+            image_title: 'Resultat: Jämnare hudton efter behandling',
+            content: '',
+      ),
+);
+
+$results_url = '/resultat.php';
+
 $articles = array(
       new Article(
             title: 'När ska du överväga att söka hjälp?',
@@ -210,148 +233,6 @@ $articles = array(
                   <p class="p200 mt-m">Vi tillämpar behandlingar som är grundade på en omfattande förståelse för hudens unika behov och använder oss av avancerade tekniker och förstklassiga produkter. Detta säkerställer optimala resultat för dig som kund. Med individuellt anpassade behandlingsplaner och ett engagerat förhållningssätt ser vi till att våra kunder når sina önskade hudvårdsresultat.</p>',
       ),
 );
-
-$results = array(
-      new ResultCustomer(
-            url: '',
-            image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
-            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
-            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-1.webp',
-            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-1.webp',
-            url_title: 'Resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 1,
-            gender: '',
-            problem: '',
-            type: '',
-            treatment: new ResultTreatment(
-                  duration: '',
-                  procedures: array(
-                        new ResultProcedure(
-                              image: '',
-                              name: '',
-                              count: ''
-                        ),
-                  ),
-                  product: new ResultProduct(
-                        image: '',
-                        name: '',
-                  ),
-                  employee: new ResultEmployee(
-                        image: '',
-                        name: ''
-                  ),
-            )
-      ),
-      new ResultCustomer(
-            url: '',
-            image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
-            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
-            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-2.webp',
-            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-2.webp',
-            url_title: 'Resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 1,
-            gender: '',
-            problem: '',
-            type: '',
-            treatment: new ResultTreatment(
-                  duration: '',
-                  procedures: array(
-                        new ResultProcedure(
-                              image: '',
-                              name: '',
-                              count: ''
-                        ),
-                  ),
-                  product: new ResultProduct(
-                        image: '',
-                        name: '',
-                  ),
-                  employee: new ResultEmployee(
-                        image: '',
-                        name: ''
-                  ),
-            )
-      ),
-      new ResultCustomer(
-            url: '',
-            image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
-            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
-            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-3.webp',
-            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-3.webp',
-            url_title: 'Resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 1,
-            gender: '',
-            problem: '',
-            type: '',
-            treatment: new ResultTreatment(
-                  duration: '',
-                  procedures: array(
-                        new ResultProcedure(
-                              image: '',
-                              name: '',
-                              count: ''
-                        ),
-                  ),
-                  product: new ResultProduct(
-                        image: '',
-                        name: '',
-                  ),
-                  employee: new ResultEmployee(
-                        image: '',
-                        name: ''
-                  ),
-            )
-      ),
-      new ResultCustomer(
-            url: '',
-            image_before_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-5.webp',
-            image_after_small: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-5.webp',
-            image_before_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-fore-5.webp',
-            image_after_large: '/bilder/resultat/hudforandringar/resultat-hudforandringar-efter-5.webp',
-            url_title: 'Resultat',
-            image_before_alt: 'Före',
-            image_before_title: 'Före',
-            image_after_alt: 'Efter',
-            image_after_title: 'Efter',
-            age: 1,
-            gender: '',
-            problem: '',
-            type: '',
-            treatment: new ResultTreatment(
-                  duration: '',
-                  procedures: array(
-                        new ResultProcedure(
-                              image: '',
-                              name: '',
-                              count: ''
-                        ),
-                  ),
-                  product: new ResultProduct(
-                        image: '',
-                        name: '',
-                  ),
-                  employee: new ResultEmployee(
-                        image: '',
-                        name: ''
-                  ),
-            )
-      ),
-);
-
-$show_all_results_label = "Se alla resultat";
-$show_all_results_title = "se flera behandlingsresultat";
 
 
 
@@ -570,10 +451,13 @@ $brands_url_title = "Se alla varumärken";
                               <?php } ?>
                         </section>
 
-
                         <section id="results">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                              <?php
+                              $results_title = 'Åldersfläckar före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                              ?>
                         </section>
+
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
                               <?php

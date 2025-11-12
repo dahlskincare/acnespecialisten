@@ -41,7 +41,7 @@ $glossary_items = array(
         ),
         new GlossaryItem(
             title: 'Elevbehandlingar',
-            description: '<p class="p200">Ibland har vi elevbehandlingar från hudterapeuter som är under utbildning: <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a></p>',
+            description: '<p class="p200">Under en begränsad tid erbjuder vi elevbehandlingar på Östermalm, utförda av våra elever under utbildning: <a class="b200 underline color-deep-sea-400" href="elevbehandlingar.php">Elevbehandlingar</a></p>',
         ),
         new GlossaryItem(
             title: 'Engelska',
