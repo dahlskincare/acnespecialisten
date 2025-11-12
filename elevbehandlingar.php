@@ -51,19 +51,11 @@ $model = new Service(
 $floating_box = 'Förmånliga priser på Östermalm.';
 
 $description_title = 'Vad är elevbehandlingar?';
-$description_text = '<p class="p200">Elevbehandlingar är professionella hudvårdsbehandlingar som utförs av våra elever under utbildning, med stöd och vägledning från våra erfarna hudterapeuter. Du får kvalitativa behandlingar till förmånliga priser.</p>
-<p class="p200 mt-m"><strong>OBS!</strong> Begränsad period - endast på Östermalm.</p>';
+$description_text = '<p class="p200">Under en begränsad tid erbjuder vi elevbehandlingar på vår salong på Östermalm. Våra elever utför behandlingarna med vägledning från våra erfarna hudterapeuter. Du får samma höga kvalitet som våra ordinarie behandlingar till förmånliga priser.</p>
+<p class="p200 mt-m">Vi erbjuder ansiktsbehandlingar, brynbehandlingar och massage. Boka våra populära elevbehandlingar och få professionell hudvård till ett reducerat pris.</p>
+<p class="p200 mt-m"><strong>OBS!</strong> Endast tillgängligt på Östermalm under begränsad period.</p>';
 
-$top_articles = array(
-    'process' => new Article(
-        title: 'Hur går behandlingarna till?',
-        image_small: '/bilder/process/358x272/ansiktsbehandlingar-process.webp',
-        image_large: '/bilder/process/872x456/ansiktsbehandlingar-process.webp',
-        image_alt: 'Processen för elevbehandlingar',
-        image_title: 'Processen för elevbehandlingar',
-        content: '<p class="p200">Behandlingen utförs av en elev under utbildning, med stöd från våra erfarna hudterapeuter. Du får samma höga standard som våra ordinarie behandlingar till ett förmånligt pris.</p>',
-    ),
-);
+$top_articles = array();
 
 $treatment_areas = array(
     new TreatmentArea(
@@ -228,8 +220,6 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
 
                 <?php if (isset($treatment_areas)) { ?>
                     <section id="treatment-areas" class="large-margin">
-                        <h2 class="h500">Våra elevbehandlingar</h2>
-                        <p class="p200 mt-xs">Alla elevbehandlingar finns endast tillgängliga på vår salong på Östermalm.</p>
                         <?php foreach ($treatment_areas as $treatment_area) { ?>
                             <?php if (isset($treatment_area->image_small)) { ?>
                                 <picture>
