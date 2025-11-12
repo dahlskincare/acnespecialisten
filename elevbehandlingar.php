@@ -22,15 +22,33 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandling-rosacea.webp',
     image_alt: 'Elevbehandlingar på AcneSpecialisten',
     image_title: 'Elevbehandlingar på AcneSpecialisten',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem',
-    consultation_url_label: 'Boka gratis konsultation',
-    consultation_url_title: 'Boka tid för gratis konsultation',
-    booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559',
-    booking_url_label: 'Se alla elevbehandlingar',
-    booking_url_title: 'Se alla elevbehandlingar',
+    consultation_url: null,
+    consultation_url_label: null,
+    consultation_url_title: null,
+    booking_url: null,
+    booking_url_label: null,
+    booking_url_title: null,
+    procedures: array(
+        new Procedure(
+            label: 'Ansiktsbehandling Lyx',
+            price: '995 kr',
+            savings: null,
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-lyx-elev-3359125',
+            booking_url_label: 'Boka',
+            booking_url_title: 'Boka Ansiktsbehandling Lyx'
+        ),
+        new Procedure(
+            label: 'Massage',
+            price: '595 kr',
+            savings: null,
+            booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/massage-elev-3359088',
+            booking_url_label: 'Boka',
+            booking_url_title: 'Boka Massage'
+        )
+    ),
 );
 
-$floating_box = 'Kvalitetsbehandlingar till förmånliga priser.';
+$floating_box = 'Förmånliga priser på Östermalm.';
 
 $description_title = 'Vad är elevbehandlingar?';
 $description_text = '<p class="p200">Elevbehandlingar är professionella hudvårdsbehandlingar som utförs av våra elever under utbildning, med stöd och vägledning från våra erfarna hudterapeuter. Du får kvalitativa behandlingar till förmånliga priser.</p>
@@ -224,7 +242,7 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include('widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>
