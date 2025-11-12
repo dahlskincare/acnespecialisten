@@ -18,8 +18,8 @@ $model = new Service(
     duration: null,
     price: 'Från 195 kr',
     content: '<p class="p200">Under en begränsad tid erbjuder vi elevbehandlingar på vår salong på Östermalm. Våra elever är under utbildning och utför behandlingarna med vägledning från våra erfarna hudterapeuter. Detta ger dig möjlighet att få professionella behandlingar till ett förmånligt pris samtidigt som våra elever får värdefull praktisk erfarenhet.</p>',
-    image_small: 'bilder/hudbehandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
-    image_large: 'bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
+    image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandling-rosacea.webp',
+    image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandling-rosacea.webp',
     image_alt: 'Elevbehandlingar på AcneSpecialisten',
     image_title: 'Elevbehandlingar på AcneSpecialisten',
     consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem',
@@ -47,123 +47,113 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Våra elevbehandlingar';
-$types_description = 'Alla elevbehandlingar finns endast tillgängliga på vår salong på Östermalm.';
-$big_types = array(
-    new Service(
-        title: 'Ansiktsbehandling - Klassisk - Elev',
-        duration: '60 min',
-        price: '595 kr',
-        content: '<p class="p200">Vår klassiska ansiktsbehandling utförd av elev. Behandlingen inkluderar rengöring, ånga, extraktion av pormaskar, ansiktsmask och återfuktning. Perfekt för dig som vill ha en grundlig ansiktsbehandling till ett förmånligt pris.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-klassisk.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-klassisk.webp',
-        image_alt: 'Klassisk Ansiktsbehandling - Elev',
-        image_title: 'Klassisk Ansiktsbehandling - Elev',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-klassisk-elev-3359049',
-        booking_url_label: 'Boka',
-        booking_url_title: 'Boka Klassisk Ansiktsbehandling - Elev',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+$treatment_areas = array(
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: null,
+        image_title: null,
+        title: 'Ansiktsbehandlingar',
+        description: '<p class="p200">Våra elever utför professionella ansiktsbehandlingar med vägledning från erfarna hudterapeuter.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: null,
+                image_title: null,
+                title: 'Klassisk',
+                duration: '60 min',
+                price: '595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-klassisk-elev-3359049',
+                url_label: 'Boka',
+                url_title: 'Boka Klassisk Ansiktsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: null,
+                image_title: null,
+                title: 'Relax',
+                duration: '70 min',
+                price: '795 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-relax-elev-3359086',
+                url_label: 'Boka',
+                url_title: 'Boka Relax Ansiktsbehandling'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: null,
+                image_title: null,
+                title: 'Lyx',
+                duration: '90 min',
+                price: '995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-lyx-elev-3359125',
+                url_label: 'Boka',
+                url_title: 'Boka Lyx Ansiktsbehandling'
+            ),
+        )
     ),
-    new Service(
-        title: 'Ansiktsbehandling - Lyx - Elev',
-        duration: '90 min',
-        price: '995 kr',
-        content: '<p class="p200">Vår mest omfattande ansiktsbehandling utförd av elev. Behandlingen inkluderar djuprengöring, ansiktsmassage, exfoliering, extraktion, bryn- och fransfärgning, sheetmask och LED-behandling. En lyxig upplevelse som ger din hud den ultimata omsorgen.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-lyx.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-lyx.webp',
-        image_alt: 'Lyx Ansiktsbehandling - Elev',
-        image_title: 'Lyx Ansiktsbehandling - Elev',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-lyx-elev-3359125',
-        booking_url_label: 'Boka',
-        booking_url_title: 'Boka Lyx Ansiktsbehandling - Elev',
-        icons: array('rengoring' => 'Rengöring', 'anga' => 'Ånga', 'extraktion' => 'Extraktion', 'mask' => 'Mask'),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: null,
+        image_title: null,
+        title: 'Brynbehandlingar',
+        description: '<p class="p200">Professionell brynformning och färgning utförd av våra elever.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: null,
+                image_title: null,
+                title: 'Brynformning',
+                duration: '20 min',
+                price: '195 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-elev-3359091',
+                url_label: 'Boka',
+                url_title: 'Boka Brynformning'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: null,
+                image_title: null,
+                title: 'Brynformning + Brynfärg',
+                duration: '30 min',
+                price: '295 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-brynfarg-elev-3359099',
+                url_label: 'Boka',
+                url_title: 'Boka Brynformning + Brynfärg'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: null,
+                image_title: null,
+                title: 'Brynformning + Brynfärg + Fransfärg',
+                duration: '40 min',
+                price: '395 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-brynfarg-fransfarg-elev-3359105',
+                url_label: 'Boka',
+                url_title: 'Boka Brynformning + Brynfärg + Fransfärg'
+            ),
+        )
     ),
-    new Service(
-        title: 'Ansiktsbehandling - Relax - Elev',
-        duration: '70 min',
-        price: '795 kr',
-        content: '<p class="p200">En avslappnande ansiktsbehandling utförd av elev med fokus på återhämtning och lugn. Behandlingen inkluderar lätt rengöring, ansiktsmassage med näringsrik olja, ansiktsmask och LED-terapi. Perfekt för dig som vill varva ner och ge din hud en väl behövlig paus.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-antistress.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-antistress.webp',
-        image_alt: 'Relax Ansiktsbehandling - Elev',
-        image_title: 'Relax Ansiktsbehandling - Elev',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-relax-elev-3359086',
-        booking_url_label: 'Boka',
-        booking_url_title: 'Boka Relax Ansiktsbehandling - Elev',
-        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'led' => 'LED'),
-    ),
-    new Service(
-        title: 'Brynformning - Elev',
-        duration: '20 min',
-        price: '195 kr',
-        content: '<p class="p200">Professionell brynformning utförd av elev. Vi formar dina ögonbryn för att framhäva dina ansiktsdrag och ge dig en fräsch look. Behandlingen utförs noggrant för att ge dig ett naturligt och vackert resultat.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/fransar-bryn.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/fransar-bryn.webp',
-        image_alt: 'Brynformning - Elev',
-        image_title: 'Brynformning - Elev',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-elev-3359091',
-        booking_url_label: 'Boka',
-        booking_url_title: 'Boka Brynformning - Elev',
-    ),
-    new Service(
-        title: 'Brynformning + Brynfärg - Elev',
-        duration: '30 min',
-        price: '295 kr',
-        content: '<p class="p200">Komplett brynbehandling med formning och färgning utförd av elev. Vi formar och färgar dina bryn för att ge dem mer volym och definition. Resultatet är väldefinierade bryn som framhäver din naturliga skönhet.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/fransar-bryn.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/fransar-bryn.webp',
-        image_alt: 'Brynformning + Brynfärg - Elev',
-        image_title: 'Brynformning + Brynfärg - Elev',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-brynfarg-elev-3359099',
-        booking_url_label: 'Boka',
-        booking_url_title: 'Boka Brynformning + Brynfärg - Elev',
-    ),
-    new Service(
-        title: 'Brynformning + Brynfärg + Fransfärg - Elev',
-        duration: '40 min',
-        price: '395 kr',
-        content: '<p class="p200">Komplett bryn- och fransbehandling utförd av elev. Vi formar och färgar både bryn och fransar för ett uttrycksfullt och öppet blick. Perfekt för dig som vill ha en komplett look utan att behöva använda mascara dagligen.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/fransar-bryn.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/fransar-bryn.webp',
-        image_alt: 'Brynformning + Brynfärg + Fransfärg - Elev',
-        image_title: 'Brynformning + Brynfärg + Fransfärg - Elev',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-brynfarg-fransfarg-elev-3359105',
-        booking_url_label: 'Boka',
-        booking_url_title: 'Boka Brynformning + Brynfärg + Fransfärg - Elev',
-    ),
-    new Service(
-        title: 'Massage - Elev',
-        duration: '60 min',
-        price: '595 kr',
-        content: '<p class="p200">Avslappnande och återställande massage utförd av elev. Behandlingen hjälper till att lindra spänningar, förbättra cirkulationen och ge dig en välbehövlig stund av avkoppling. Massagen anpassas efter dina önskemål och behov.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-antistress.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-antistress.webp',
-        image_alt: 'Massage - Elev',
-        image_title: 'Massage - Elev',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/massage-elev-3359088',
-        booking_url_label: 'Boka',
-        booking_url_title: 'Boka Massage - Elev',
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: null,
+        image_title: null,
+        title: 'Massage',
+        description: '<p class="p200">Avslappnande massage utförd av elev för att lindra spänningar och förbättra cirkulationen.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: null,
+                image_title: null,
+                title: 'Massage - Elev',
+                duration: '60 min',
+                price: '595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/massage-elev-3359088',
+                url_label: 'Boka',
+                url_title: 'Boka Massage'
+            ),
+        )
     ),
 );
 
@@ -218,20 +208,25 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
                 <?php }
                 } ?>
 
-                <?php if (isset($types_title)) { ?>
-                    <section id="types" class="large-margin">
-                        <h2 class="h500"><?php echo $types_title; ?></h2>
-                        <?php if (isset($types_description)) { ?>
-                            <p class="p200 mt-xs"><?php echo $types_description ?></p>
-                        <?php } ?>
-                        <div class="mt-xl"></div>
-                        <?php if (isset($big_types)) { ?>
-                            <?php foreach ($big_types as $scm) { ?>
-                                <div class="big-type">
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
-                                </div>
+                <?php if (isset($treatment_areas)) { ?>
+                    <section id="treatment-areas" class="large-margin">
+                        <h2 class="h500">Våra elevbehandlingar</h2>
+                        <p class="p200 mt-xs">Alla elevbehandlingar finns endast tillgängliga på vår salong på Östermalm.</p>
+                        <?php foreach ($treatment_areas as $treatment_area) { ?>
+                            <?php if (isset($treatment_area->image_small)) { ?>
+                                <picture>
+                                    <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
+                                    <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
+                                    <img loading="lazy" class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
+                                </picture>
                             <?php } ?>
-                        <?php } ?>
+                            <h3 class="h300 mt-xl4"><?php echo $treatment_area->title ?></h3>
+                            <div class="mb-xl"><?php echo $treatment_area->description ?></div>
+                        <?php
+                            foreach ($treatment_area->items as $treatment_area_item) {
+                                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                            }
+                        } ?>
                     </section>
                 <?php } ?>
 
