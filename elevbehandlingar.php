@@ -196,11 +196,7 @@ $service_brands_text = '<p class="p200">Våra elever använder samma högkvalita
             $green_banner_content = new GreenBannerContent(
                 title: $model->title,
                 description: $model->content,
-                description_extended: $model->content,
-                button_label: $model->booking_url_label,
-                button_url: $model->booking_url,
-                button_url_title: $model->booking_url_title,
-                floating_box: $floating_box
+                description_extended: $model->content
             );
             include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/green_header_banner/green_header_banner.php');
             ?>
