@@ -114,49 +114,209 @@ $articles = array(
 
 $results = array(
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-1.jpg',
+            image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-1.jpg',
+            image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-1.jpg',
+            image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-1.jpg',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-2.jpg',
+            image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-2.jpg',
+            image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-2.jpg',
+            image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-2.jpg',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '<a href="acne.php" title="Akne">Akne</a>',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
       new ResultCustomer(
-            image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
+            url: '',
+            image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-3.jpg',
+            image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-3.jpg',
+            image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-3.jpg',
+            image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-3.jpg',
+            url_title: 'Resultat',
             image_before_alt: 'Före',
             image_before_title: 'Före',
             image_after_alt: 'Efter',
             image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
             treatment: new ResultTreatment(
-                  duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
+            )
+      ),
+      new ResultCustomer(
+            url: '',
+            image_before_small: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-4.jpg',
+            image_after_small: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-4.jpg',
+            image_before_large: '/bilder/resultat/pormaskar/resultat-pormaskar-fore-4.jpg',
+            image_after_large: '/bilder/resultat/pormaskar/resultat-pormaskar-efter-4.jpg',
+            url_title: 'Resultat',
+            image_before_alt: 'Före',
+            image_before_title: 'Före',
+            image_after_alt: 'Efter',
+            image_after_title: 'Efter',
+            age: 1,
+            gender: '',
+            problem: '',
+            type: '',
+            treatment: new ResultTreatment(
+                  duration: '',
+                  procedures: array(
+                        new ResultProcedure(
+                              image: '',
+                              name: '',
+                              count: ''
+                        ),
+                  ),
+                  product: new ResultProduct(
+                        image: '',
+                        name: '',
+                  ),
+                  employee: new ResultEmployee(
+                        image: '',
+                        name: ''
+                  ),
             )
       ),
 );
 
-$show_all_results_label = "Se alla resultat";
-$show_all_results_title = "se flera behandlingsresultat";
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Komedoner i ansiktet före och efter behandling',
+            image_title: 'Komedoner resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+            image_alt: 'Komedoner på kinden före och efter behandling',
+            image_title: 'Komedoner resultat - kind',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+            image_alt: 'Komedoner på hakan före och efter behandling',
+            image_title: 'Komedoner resultat - haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+            image_alt: 'Komedoner på kind och haka före och efter behandling',
+            image_title: 'Komedoner resultat - kind och haka',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
+            image_alt: 'Svarta komedoner på kind före och efter behandling',
+            image_title: 'Komedoner resultat - svarta komedoner',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
+            image_alt: 'Vita komedoner i ansiktet före och efter behandling',
+            image_title: 'Komedoner resultat - vita komedoner',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
+            image_alt: 'Många komedoner i ansiktet före och efter behandling',
+            image_title: 'Komedoner resultat - många komedoner',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+            image_alt: 'Porig hy med komedoner före och efter behandling',
+            image_title: 'Komedoner resultat - porig hy',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp',
+            image_alt: 'Inflammerade komedoner före och efter behandling',
+            image_title: 'Komedoner resultat - inflammerade komedoner',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp',
+            image_alt: 'Mycket komedoner i ansiktet före och efter behandling',
+            image_title: 'Komedoner resultat - mycket komedoner',
+            content: '',
+      ),
+);
 
+$results_url = '/resultat-pormaskar.php';
+$results_url_label = "Se alla resultat";
+$results_url_title = "se flera komedoner behandlingsresultat";
 
 
 $faq_categories = array(
@@ -355,8 +515,8 @@ $brands_url_title = "Se alla varumärken";
 
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Komedoner före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
