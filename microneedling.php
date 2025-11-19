@@ -474,6 +474,9 @@ $results_images = array(
     ),
 );
 
+// Shuffle the results for random order
+shuffle($results_images);
+
 $results = array(
     new ResultCustomer(
         url: '',
