@@ -163,6 +163,64 @@ $service_brands = array(
 );
 
 $results_title = 'IPL ansikte före och efter resultat';
+
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Ytliga blodkärl i ansiktet före och efter behandling',
+        image_title: 'Ytliga blodkärl resultat - ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-hoger.webp',
+        image_alt: 'Ytliga blodkärl från höger sida före och efter behandling',
+        image_title: 'Ytliga blodkärl resultat - höger sida',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ytliga blodkärl från vänster sida före och efter behandling',
+        image_title: 'Ytliga blodkärl resultat - vänster sida',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-i-ansiktet.jpg',
+        image_alt: 'ytliga blodkärl i ansiktet kund före och efter bilder',
+        image_title: 'Ytliga blodkärl resultat',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-fore-och-efterbilder.jpg',
+        image_alt: 'ytliga blodkärl före och efter bilder resultat',
+        image_title: 'Ytliga blodkärl resultat',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-pa-huden.jpg',
+        image_alt: 'ytliga blodkärl på huden före och efter bilder',
+        image_title: 'Ytliga blodkärl resultat',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-nasvingarna.jpg',
+        image_alt: 'ytliga blodkärl på näsvingarna före och efter bilder',
+        image_title: 'Ytliga blodkärl resultat',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/resultat/ytliga-blodkarl-4.jpg',
+        image_alt: 'ytliga blodkärl i ansiktet före och efter bilder',
+        image_title: 'Ytliga blodkärl resultat',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/744x496/resultat-ytliga-blodkarl-1.jpg',
+        image_alt: 'Före och efter bild på kund med ytliga blodkärl',
+        image_title: 'Ytliga blodkärl resultat',
+        content: '',
+    ),
+);
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -503,7 +561,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <?php } ?>
 
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -533,6 +591,12 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
         </div>
