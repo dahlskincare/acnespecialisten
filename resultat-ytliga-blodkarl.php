@@ -60,39 +60,45 @@ $result_category =
         description_2: 'Är du redo att effektivt hantera ytliga blodkärl och se en betydande förbättring i din hud? Boka en kostnadsfri konsultation hos AcneSpecialisten för att börja din resa mot en jämnare hudton. Vi erbjuder skräddarsydda behandlingslösningar anpassade för att specifikt minska ytliga blodkärl och förbättra din hudhälsa.',
     );
 
+$results_images = [
+    new LabelImage(image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte.webp', image_alt: 'Ytliga blodkärl i ansiktet före och efter behandling', image_title: 'Ytliga blodkärl resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-hoger.webp', image_alt: 'Ytliga blodkärl från höger sida före och efter behandling', image_title: 'Ytliga blodkärl resultat', content: ''),
+    new LabelImage(image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-vanster.webp', image_alt: 'Ytliga blodkärl från vänster sida före och efter behandling', image_title: 'Ytliga blodkärl resultat', content: ''),
+];
+
 $results = [
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-ytliga-blodkarl-i-ansiktet.jpg',
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-i-ansiktet.jpg',
         image_alt: 'ytliga blodkärl i ansiktet kund före och efter bilder',
         image_title: '',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-ytliga-blodkarl-fore-och-efterbilder.jpg',
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-fore-och-efterbilder.jpg',
         image_alt: 'ytliga blodkärl före och efter bilder resultat',
         image_title: '',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-ytliga-blodkarl-pa-huden.jpg',
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-pa-huden.jpg',
         image_alt: 'ytliga blodkärl på huden före och efter bilder',
         image_title: '',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-ytliga-blodkarl-nasvingarna.jpg',
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-nasvingarna.jpg',
         image_alt: 'ytliga blodkärl på näsvingarna före och efter bilder',
         image_title: '',
         content: '',
     ),
     new LabelImage(
-        image_url: 'resultat/ytliga-blodkarl-4.jpg',
+        image_url: '/resultat/ytliga-blodkarl-4.jpg',
         image_alt: 'ytliga blodkärl i ansiktet före och efter bilder',
         image_title: '',
         content: '',
     ),
     new LabelImage(
-        image_url: 'bilder/resultat/744x496/resultat-ytliga-blodkarl-1.jpg',
+        image_url: '/bilder/resultat/744x496/resultat-ytliga-blodkarl-1.jpg',
         image_alt: 'Före och efter bild på kund med ytliga blodkärl',
         image_title: 'Före och efter bild på kund med ytliga blodkärl',
         content: '<a href="ytliga-blodkarl.php">Ytliga Blodkärl</a> som behandlats med <a href="ipl-ytliga-blodkarl.php">IPL Ytliga Blodkärl</a>',
@@ -116,6 +122,14 @@ $results = [
             ?>
         </section>
         <div class="container">
+            <section id="results">
+                <?php
+                $results_title = '';
+                $initial_count = 999;
+                $show_view_all_button = false;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                ?>
+            </section>
             <section id="cards">
                 <?php foreach ($results as $result) { ?>
                     <div class="result-card">
