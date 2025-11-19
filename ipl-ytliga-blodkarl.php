@@ -594,7 +594,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 </section>
                 <section id="results-narrow" class="large-margin">
                     <?php
-                    $results_title = 'Resultat';
+                    $results_title = 'Jämför resultaten';
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                     ?>
                 </section>

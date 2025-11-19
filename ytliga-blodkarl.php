@@ -883,7 +883,7 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                         </section>
                         <section id="results-narrow">
                               <?php
-                              $results_title = 'Resultat';
+                              $results_title = 'Jämför resultaten';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                               ?>
                         </section>
