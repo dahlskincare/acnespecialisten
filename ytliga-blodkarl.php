@@ -417,6 +417,42 @@ $results_images = array(
             image_title: 'Ytliga blodkärl resultat - vänster sida',
             content: '',
       ),
+      new LabelImage(
+            image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-i-ansiktet.jpg',
+            image_alt: 'ytliga blodkärl i ansiktet kund före och efter bilder',
+            image_title: 'Ytliga blodkärl resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-fore-och-efterbilder.jpg',
+            image_alt: 'ytliga blodkärl före och efter bilder resultat',
+            image_title: 'Ytliga blodkärl resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-pa-huden.jpg',
+            image_alt: 'ytliga blodkärl på huden före och efter bilder',
+            image_title: 'Ytliga blodkärl resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-nasvingarna.jpg',
+            image_alt: 'ytliga blodkärl på näsvingarna före och efter bilder',
+            image_title: 'Ytliga blodkärl resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/resultat/ytliga-blodkarl-4.jpg',
+            image_alt: 'ytliga blodkärl i ansiktet före och efter bilder',
+            image_title: 'Ytliga blodkärl resultat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/744x496/resultat-ytliga-blodkarl-1.jpg',
+            image_alt: 'Före och efter bild på kund med ytliga blodkärl',
+            image_title: 'Ytliga blodkärl resultat',
+            content: '',
+      ),
 );
 
 $results = array(
