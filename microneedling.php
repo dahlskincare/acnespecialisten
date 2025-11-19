@@ -422,6 +422,58 @@ $service_brands = array(
 );
 
 $results_title = 'Microneedling före och efter resultat';
+
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ärr i ansiktet från vänster sida före och efter behandling',
+        image_title: 'Microneedling resultat - ärr i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Ärr på kinden före och efter behandling',
+        image_title: 'Microneedling resultat - ärr på kinden',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning.webp',
+        image_alt: 'Ärr på tinningen före och efter behandling',
+        image_title: 'Microneedling resultat - ärr på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Gropar och ärr före och efter behandling',
+        image_title: 'Microneedling resultat - gropar och ärr',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-flackar.webp',
+        image_alt: 'Ärr och fläckar före och efter behandling',
+        image_title: 'Microneedling resultat - ärr och fläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning-man.webp',
+        image_alt: 'Ärr på tinningen hos man före och efter behandling',
+        image_title: 'Microneedling resultat - ärr på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ryggen.webp',
+        image_alt: 'Ärr på ryggen före och efter behandling',
+        image_title: 'Microneedling resultat - ärr på ryggen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-brostet.webp',
+        image_alt: 'Ärr på bröstet före och efter behandling',
+        image_title: 'Microneedling resultat - ärr på bröstet',
+        content: '',
+    ),
+);
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -805,7 +857,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -835,6 +887,12 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
         </div>
