@@ -398,6 +398,27 @@ $articles = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Ytliga blodkärl i ansiktet före och efter behandling',
+            image_title: 'Ytliga blodkärl resultat - ansikte',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-hoger.webp',
+            image_alt: 'Ytliga blodkärl från höger sida före och efter behandling',
+            image_title: 'Ytliga blodkärl resultat - höger sida',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-vanster.webp',
+            image_alt: 'Ytliga blodkärl från vänster sida före och efter behandling',
+            image_title: 'Ytliga blodkärl resultat - vänster sida',
+            content: '',
+      ),
+);
+
 $results = array(
       new ResultCustomer(
             url: '',
@@ -783,8 +804,8 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                         </section>
                         <section id="results">
                               <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              $results_title = 'Ytliga blodkärl före och efter bilder';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
@@ -823,6 +844,12 @@ $brands_url_title = "Varumärken för behandling av ytliga blodkärl";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow">
+                              <?php
+                              $results_title = 'Resultat';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">
