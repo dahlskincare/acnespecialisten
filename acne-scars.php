@@ -263,6 +263,56 @@ $results = array(
 $show_all_results_label = "Se alla resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning.webp',
+        image_alt: 'Scars on temple before and after treatment',
+        image_title: 'Results - scars on temple',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Pitted scars before and after treatment',
+        image_title: 'Results - pitted scars',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Scars on cheek before and after treatment',
+        image_title: 'Results - scars on cheek',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-brostet.webp',
+        image_alt: 'Scars on chest before and after treatment',
+        image_title: 'Results - scars on chest',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-flackar.webp',
+        image_alt: 'Scars and marks before and after treatment',
+        image_title: 'Results - scars and marks',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning-man.webp',
+        image_alt: 'Scars on temple in man before and after treatment',
+        image_title: 'Results - scars on temple',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Facial scars from left side before and after treatment',
+        image_title: 'Results - facial scars',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ryggen.webp',
+        image_alt: 'Scars on back before and after treatment',
+        image_title: 'Results - scars on back',
+        content: '',
+    ),
+);
 
 
 $faq_categories = array(
@@ -473,11 +523,8 @@ $brands_url_title = "Se alla varumärken";
 
                         </section>
 
-                        <section id="results">
-                              <?php
-                              $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
-                              ?>
+                        <section id="results" class="large-margin">
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
                         </section>
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
@@ -506,6 +553,12 @@ $brands_url_title = "Se alla varumärken";
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut/"><?php echo $specialist_url_label ?></a>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
