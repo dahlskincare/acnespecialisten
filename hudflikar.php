@@ -586,7 +586,7 @@ $brands_url_title = "Se alla varumärken";
 
 
                         <section id="results">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_grid.php'); ?>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php'); ?>
                         </section>
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
@@ -616,19 +616,10 @@ $brands_url_title = "Se alla varumärken";
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
                         <section id="results-narrow">
-                              <div class="flex-row justify-space-between">
-                                    <h2 class="big l10n">Jämför resultaten</h2>
-                                    <div class="is-hidden-touch">
-                                          <button class="round-large grey" aria-label="scroll" onclick="scrollResults(-1)">
-                                                <?php icon('arrow-left') ?>
-                                          </button>
-                                          <button class="round-large grey" aria-label="scroll" onclick="scrollResults(1)">
-                                                <?php icon('arrow-right') ?>
-                                          </button>
-                                    </div>
-                              </div>
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $show_all_results_title ?>" href="resultat.php"><?php echo $show_all_results_label ?></a>
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
