@@ -61,12 +61,30 @@ $result_category =
     );
 
 $results_images = [
+    new LabelImage(image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-hoger.webp', image_alt: 'Ytliga blodkärl från höger sida före och efter behandling', image_title: 'Ytliga blodkärl resultat', content: ''),
     new LabelImage(image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-vanster.webp', image_alt: 'Ytliga blodkärl från vänster sida före och efter behandling', image_title: 'Ytliga blodkärl resultat', content: ''),
     new LabelImage(image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte.webp', image_alt: 'Ytliga blodkärl i ansiktet före och efter behandling', image_title: 'Ytliga blodkärl resultat', content: ''),
-    new LabelImage(image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-hoger.webp', image_alt: 'Ytliga blodkärl från höger sida före och efter behandling', image_title: 'Ytliga blodkärl resultat', content: ''),
 ];
 
 $results = [
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-hoger.webp',
+        image_alt: 'Ytliga blodkärl från höger sida före och efter behandling',
+        image_title: 'Resultat - ytliga blodkärl',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ytliga blodkärl från vänster sida före och efter behandling',
+        image_title: 'Resultat - ytliga blodkärl',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Ytliga blodkärl i ansiktet före och efter behandling',
+        image_title: 'Resultat - ytliga blodkärl',
+        content: '',
+    ),
     new LabelImage(
         image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-i-ansiktet.jpg',
         image_alt: 'ytliga blodkärl i ansiktet kund före och efter bilder',
@@ -76,12 +94,6 @@ $results = [
     new LabelImage(
         image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-fore-och-efterbilder.jpg',
         image_alt: 'ytliga blodkärl före och efter bilder resultat',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-pa-huden.jpg',
-        image_alt: 'ytliga blodkärl på huden före och efter bilder',
         image_title: '',
         content: '',
     ),
@@ -102,6 +114,12 @@ $results = [
         image_alt: 'Före och efter bild på kund med ytliga blodkärl',
         image_title: 'Före och efter bild på kund med ytliga blodkärl',
         content: '<a href="ytliga-blodkarl.php">Ytliga Blodkärl</a> som behandlats med <a href="ipl-ytliga-blodkarl.php">IPL Ytliga Blodkärl</a>',
+    ),
+    new LabelImage(
+        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-pa-huden.jpg',
+        image_alt: 'ytliga blodkärl på huden före och efter bilder',
+        image_title: '',
+        content: '',
     ),
 ];
 

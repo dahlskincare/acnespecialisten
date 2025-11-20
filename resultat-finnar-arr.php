@@ -62,42 +62,6 @@ $result_category =
 
 $results = [
     new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-acnearr-1.jpg',
-        image_alt: 'Acnearr före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-acnearr-2.jpg',
-        image_alt: 'Acnearr före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-acnearr-3.jpg',
-        image_alt: 'Acnearr före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-acnearr-4.jpg',
-        image_alt: 'Acnearr före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'resultat/fore-och-efter-bilder-acnearr-5.jpg',
-        image_alt: 'Acnearr före och efter bilder',
-        image_title: '',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: 'bilder/resultat/744x496/resultat-arr-fran-finnar-1.jpg',
-        image_alt: 'Före och efter bild på kund med ärr från finnar',
-        image_title: 'Före och efter bild på kund med ärr från finnar',
-        content: '<a href="finnar-arr.php">Ärr från finnar</a> som behandlats med <a href="microneedling.php">Microneedling</a>',
-    ),
-    new LabelImage(
         image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-brostet.webp',
         image_alt: 'Ärr på bröstet före och efter behandling',
         image_title: 'Resultat - ärr på bröstet',
@@ -144,6 +108,42 @@ $results = [
         image_alt: 'Ärr på kinden före och efter behandling',
         image_title: 'Resultat - ärr på kinden',
         content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-1.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-2.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-3.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-4.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'resultat/fore-och-efter-bilder-acnearr-5.jpg',
+        image_alt: 'Acnearr före och efter bilder',
+        image_title: '',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: 'bilder/resultat/744x496/resultat-arr-fran-finnar-1.jpg',
+        image_alt: 'Före och efter bild på kund med ärr från finnar',
+        image_title: 'Före och efter bild på kund med ärr från finnar',
+        content: '<a href="finnar-arr.php">Ärr från finnar</a> som behandlats med <a href="microneedling.php">Microneedling</a>',
     ),
 ];
 
