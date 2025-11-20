@@ -318,21 +318,27 @@ $results = array(
 
 $results_images = array(
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-haka.webp',
-            image_alt: 'Hudförändring på hakan före och efter behandling',
-            image_title: 'Resultat - hudförändring på hakan',
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-lapp.webp',
+            image_alt: 'Hudförändring på läppen före och efter behandling',
+            image_title: 'Resultat - hudförändring på läppen',
             content: '',
       ),
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-panna.webp',
-            image_alt: 'Hudförändring på pannan före och efter behandling',
-            image_title: 'Resultat - hudförändring på pannan',
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nyckelben.webp',
+            image_alt: 'Hudförändring på nyckelbenet före och efter behandling',
+            image_title: 'Resultat - hudförändring på nyckelbenet',
             content: '',
       ),
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-ogonlock.webp',
-            image_alt: 'Hudförändring på ögonlocket före och efter behandling',
-            image_title: 'Resultat - hudförändring på ögonlocket',
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-axel.webp',
+            image_alt: 'Hudförändring på axeln före och efter behandling',
+            image_title: 'Resultat - hudförändring på axeln',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nasa.webp',
+            image_alt: 'Hudförändring på näsan före och efter behandling',
+            image_title: 'Resultat - hudförändring på näsan',
             content: '',
       ),
       new LabelImage(
@@ -342,9 +348,9 @@ $results_images = array(
             content: '',
       ),
       new LabelImage(
-            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-kind.webp',
-            image_alt: 'Hudförändring på kinden före och efter behandling',
-            image_title: 'Resultat - hudförändring på kinden',
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-vid-orat.webp',
+            image_alt: 'Hudförändring vid örat före och efter behandling',
+            image_title: 'Resultat - hudförändring vid örat',
             content: '',
       ),
       new LabelImage(

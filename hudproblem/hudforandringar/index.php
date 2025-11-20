@@ -533,6 +533,12 @@ $results_images = array(
         content: '',
     ),
     new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-lapp.webp',
+        image_alt: 'Hudförändring på läppen före och efter behandling',
+        image_title: 'Resultat - hudförändring på läppen',
+        content: '',
+    ),
+    new LabelImage(
         image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-tinning.webp',
         image_alt: 'Hudförändring på tinningen före och efter behandling',
         image_title: 'Resultat - hudförändring på tinningen',
