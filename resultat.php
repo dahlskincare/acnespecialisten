@@ -680,6 +680,12 @@ $results = [
         image_title: 'Resultat - pigmentfläckar',
         content: '',
     ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pigmentfläckar på kinden före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar på kind',
+        content: '',
+    ),
 
     // Nya ytliga blodkärl resultat (3 bilder)
     new LabelImage(
