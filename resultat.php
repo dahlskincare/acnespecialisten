@@ -661,7 +661,13 @@ $results = [
         content: '',
     ),
 
-    // Nya pigmentfläckar resultat (3 bilder)
+    // Nya pigmentfläckar resultat (4 bilder)
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar i ansiktet',
+        content: '',
+    ),
     new LabelImage(
         image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
         image_alt: 'Fräknar och pigmentfläckar före och efter behandling',
@@ -672,12 +678,6 @@ $results = [
         image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
         image_alt: 'Pigmentfläckar på kind och tinning före och efter behandling',
         image_title: 'Resultat - pigmentfläckar',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
-        image_alt: 'Pigmentfläckar på kinden före och efter behandling',
-        image_title: 'Resultat - pigmentfläckar på kind',
         content: '',
     ),
 

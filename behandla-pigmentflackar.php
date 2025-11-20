@@ -174,6 +174,12 @@ $services = array(
 
 $results_images = array(
       new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+            image_title: 'Resultat: Jämnare hudton i ansiktet',
+            content: '',
+      ),
+      new LabelImage(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
             image_alt: 'Behandlingsresultat med minskade pigmentförändringar på kinden',
             image_title: 'Resultat: Ljusare hy med jämn ton',

@@ -400,6 +400,12 @@ $results_title = 'IPL ansikte före och efter resultat';
 
 $results_images = array(
     new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+        image_title: 'Pigmentfläckar resultat - ansikte',
+        content: '',
+    ),
+    new LabelImage(
         image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-hoger.webp',
         image_alt: 'Ytliga blodkärl från höger sida före och efter behandling',
         image_title: 'Ytliga blodkärl resultat - höger sida',
@@ -451,12 +457,6 @@ $results_images = array(
         image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
         image_alt: 'Pigmentfläckar på kinden före och efter behandling',
         image_title: 'Pigmentfläckar resultat',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/resultat/fore-och-efter-bilder-ytliga-blodkarl-pa-huden.jpg',
-        image_alt: 'ytliga blodkärl på huden före och efter bilder',
-        image_title: 'Ytliga blodkärl resultat',
         content: '',
     ),
 );
