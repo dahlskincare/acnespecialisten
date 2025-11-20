@@ -318,6 +318,12 @@ $results = array(
 
 $results_images = array(
       new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-rygg.webp',
+            image_alt: 'Hudförändring på ryggen före och efter behandling',
+            image_title: 'Resultat - hudförändring på ryggen',
+            content: '',
+      ),
+      new LabelImage(
             image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-lapp.webp',
             image_alt: 'Hudförändring på läppen före och efter behandling',
             image_title: 'Resultat - hudförändring på läppen',
@@ -339,12 +345,6 @@ $results_images = array(
             image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nasa.webp',
             image_alt: 'Hudförändring på näsan före och efter behandling',
             image_title: 'Resultat - hudförändring på näsan',
-            content: '',
-      ),
-      new LabelImage(
-            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-rygg.webp',
-            image_alt: 'Hudförändring på ryggen före och efter behandling',
-            image_title: 'Resultat - hudförändring på ryggen',
             content: '',
       ),
       new LabelImage(

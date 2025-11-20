@@ -276,6 +276,18 @@ $results = array(
 
 $results_images = array(
       new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-tinning.webp',
+            image_alt: 'Hudförändring på tinningen före och efter behandling',
+            image_title: 'Resultat - hudförändring på tinningen',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-vid-orat.webp',
+            image_alt: 'Hudförändring vid örat före och efter behandling',
+            image_title: 'Resultat - hudförändring vid örat',
+            content: '',
+      ),
+      new LabelImage(
             image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-axel.webp',
             image_alt: 'Hudförändring på axeln före och efter behandling',
             image_title: 'Resultat - hudförändring på axeln',
@@ -303,18 +315,6 @@ $results_images = array(
             image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nasa.webp',
             image_alt: 'Hudförändring på näsan före och efter behandling',
             image_title: 'Resultat - hudförändring på näsan',
-            content: '',
-      ),
-      new LabelImage(
-            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-tinning.webp',
-            image_alt: 'Hudförändring på tinningen före och efter behandling',
-            image_title: 'Resultat - hudförändring på tinningen',
-            content: '',
-      ),
-      new LabelImage(
-            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-vid-orat.webp',
-            image_alt: 'Hudförändring vid örat före och efter behandling',
-            image_title: 'Resultat - hudförändring vid örat',
             content: '',
       ),
 );
