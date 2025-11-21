@@ -50,21 +50,21 @@ $steps = array(
 
 $results_images = array(
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/akne/akne-resultat-fore-efter-kind.webp',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
         image_alt: 'Akne på kinden före och efter behandling',
         image_title: 'Resultat - akne på kinden',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/akne/akne-resultat-fore-efter-panna.webp',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-panna.webp',
         image_alt: 'Akne på pannan före och efter behandling',
         image_title: 'Resultat - akne på pannan',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/akne/akne-resultat-fore-efter-haka.webp',
-        image_alt: 'Akne på hakan före och efter behandling',
-        image_title: 'Resultat - akne på hakan',
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-haka.webp',
+        image_alt: 'Akne på kinder och haka före och efter behandling',
+        image_title: 'Resultat - akne på kinder och haka',
         content: '',
     ),
     new LabelImage(
@@ -80,9 +80,9 @@ $results_images = array(
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-nasa.webp',
-        image_alt: 'Pormaskar på näsan före och efter behandling',
-        image_title: 'Resultat - pormaskar på näsan',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pormaskar på kinden före och efter behandling',
+        image_title: 'Resultat - pormaskar på kinden',
         content: '',
     ),
     new LabelImage(
