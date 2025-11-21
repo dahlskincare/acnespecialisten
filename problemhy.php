@@ -816,12 +816,6 @@ $all_brands = array(
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                     ?>
                 </section>
-                <section id="results-old" class="large-margin">
-                    <?php
-                    $results_title = 'Fler resultat';
-                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
-                    ?>
-                </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
@@ -850,6 +844,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow">
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">
