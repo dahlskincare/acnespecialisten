@@ -254,6 +254,9 @@ $results_images = array(
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="/hudterapeut/" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
             </section>
+            <section id="results-bottom" class="large-margin">
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
+            </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
                     <div class="h500 l10n">Varumärken</div>
