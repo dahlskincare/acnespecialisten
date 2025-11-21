@@ -979,9 +979,9 @@ $brands_url_title = "Se alla varumärken";
                                     <?php } ?>
                               </div>
                         </section>
-                        <section id="results-narrow">
+                        <section id="results-narrow" class="large-margin">
                               <?php
-                              $results_title = 'Resultat';
+                              $results_title = 'Jämför resultaten';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                               ?>
                         </section>
