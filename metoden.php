@@ -2,7 +2,6 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('metod/models/step/step.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/path_segment.php');
-include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $path_segments = array(
     new PathSegment('Metoden', '/metoden.php'),
@@ -45,69 +44,6 @@ $steps = array(
         url: 'behandla-acnearr.php',
         url_label: 'Läs mer om eftervård',
         url_title: 'Läs mer om eftervård',
-    ),
-);
-
-$results_images = array(
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
-        image_alt: 'Akne på kinden före och efter behandling',
-        image_title: 'Resultat - akne på kinden',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-panna.webp',
-        image_alt: 'Akne på pannan före och efter behandling',
-        image_title: 'Resultat - akne på pannan',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-haka.webp',
-        image_alt: 'Akne på kinder och haka före och efter behandling',
-        image_title: 'Resultat - akne på kinder och haka',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Rosacea i ansiktet före och efter behandling',
-        image_title: 'Resultat - rosacea i ansiktet',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder.webp',
-        image_alt: 'Rosacea på kinderna före och efter behandling',
-        image_title: 'Resultat - rosacea på kinderna',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
-        image_alt: 'Pormaskar på kinden före och efter behandling',
-        image_title: 'Resultat - pormaskar på kinden',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Pormaskar i ansiktet före och efter behandling',
-        image_title: 'Resultat - pormaskar i ansiktet',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
-        image_alt: 'Gropar från ärr före och efter behandling',
-        image_title: 'Resultat - gropar från ärr',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
-        image_alt: 'Ärr på kinden före och efter behandling',
-        image_title: 'Resultat - ärr på kinden',
-        content: '',
-    ),
-    new LabelImage(
-        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
-        image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
-        image_title: 'Resultat - pigmentfläckar i ansiktet',
-        content: '',
     ),
 );
 ?>
@@ -195,11 +131,7 @@ $results_images = array(
                 </div>
             </section>
             <section id="results" class="large-margin">
-                <?php
-                $results_title = 'Resultat';
-                $initial_count = 4;
-                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
-                ?>
+                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
@@ -253,9 +185,6 @@ $results_images = array(
                 </div>
                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists.php'); ?>
                 <a class="mt-xl button outline expand is-hidden-tablet l10n" href="/hudterapeut/" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
-            </section>
-            <section id="results-bottom" class="large-margin">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
             </section>
             <section id="brands" class="large-margin">
                 <div class="flex-row align-end justify-space-between">
