@@ -2,6 +2,7 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once('metod/models/step/step.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models/path_segment.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $path_segments = array(
     new PathSegment('Metoden', '/metoden.php'),
