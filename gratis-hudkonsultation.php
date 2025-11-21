@@ -26,6 +26,69 @@ $model = new Service(
 
 $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsultation i Stockholm eller online. Vi identifierar din hudtyp och vilket hudproblem du har med hjälp av vår hudanalys.';
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Akne i ansiktet före och efter behandling',
+        image_title: 'Resultat - akne i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+        image_alt: 'Akne på kinder och panna före och efter behandling',
+        image_title: 'Resultat - akne på kinder och panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar-kind.webp',
+        image_alt: 'Svår akne på kind före och efter behandling',
+        image_title: 'Resultat - svår akne på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Rosacea i ansiktet före och efter behandling',
+        image_title: 'Resultat - rosacea',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp',
+        image_alt: 'Rodnad från rosacea före och efter behandling',
+        image_title: 'Resultat - rosacea rodnad',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pigmentfläckar på kind före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - pormaskar på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy',
+        content: '',
+    ),
+);
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -111,7 +174,10 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                     </div>
                 </section>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n">Omdömen</h2>
@@ -173,6 +239,12 @@ $floating_box = 'Vår kostnadsfria hudanalys passar alla, boka gratis hudkonsult
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
+                </section>
+                <section id="results-narrow">
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands" class="large-margin">

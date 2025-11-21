@@ -33,6 +33,69 @@ $model = new Service(
 
 $floating_box = 'Alma Harmony XL Pro är det senaste inom modern laserteknik.';
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Gropar från ärr före och efter behandling',
+        image_title: 'Resultat - gropar och ärr',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ärr i ansiktet före och efter behandling',
+        image_title: 'Resultat - ärr i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Ärr på kind före och efter behandling',
+        image_title: 'Resultat - ärr på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning.webp',
+        image_alt: 'Ärr på tinning före och efter behandling',
+        image_title: 'Resultat - ärr på tinning',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pigmentfläckar på kind före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+        image_alt: 'Pigmentfläckar på kind och tinning före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar på kind och tinning',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Ytliga blodkärl i ansiktet före och efter behandling',
+        image_title: 'Resultat - ytliga blodkärl',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/ytliga-blodkarl/ytliga-blodkarl-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ytliga blodkärl i ansiktet före och efter behandling',
+        image_title: 'Resultat - ytliga blodkärl i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-tinning.webp',
+        image_alt: 'Hudförändringar på tinning före och efter behandling',
+        image_title: 'Resultat - hudförändringar',
+        content: '',
+    ),
+);
+
 $description_title = 'Vad är Harmony XL Pro?';
 $description_text = '<p class="p200">Alma Harmony XL Pro är en banbrytande plattform för estetiska behandlingar som integrerar en rad avancerade tekniker för att möta en mängd hudvårdsbehov. Denna plattform använder specifika teknologier för att erbjuda skräddarsydda lösningar för hudföryngring, hudproblem, och förbättring av hudens övergripande kvalitet. Här följer en översikt över några av de nyckeltekniker som Alma Harmony XL Pro erbjuder:</p>
 <p class="p200 mt-m">Clear Lift - Q-switchad Nd:YAG<br />
@@ -675,7 +738,10 @@ $specialists_view_more = 'Se alla hudterapeuter';
                 <?php } ?>
 
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -704,6 +770,12 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow">
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
         </div>
