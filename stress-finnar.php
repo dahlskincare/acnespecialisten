@@ -41,6 +41,69 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Akne och finnar i ansiktet före och efter behandling',
+        image_title: 'Resultat - akne i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+        image_alt: 'Inflammerad hy med finnar före och efter behandling',
+        image_title: 'Resultat - inflammerad hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+        image_alt: 'Finnar på kinder och panna före och efter behandling',
+        image_title: 'Resultat - kinder och panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-aktiv.webp',
+        image_alt: 'Aktiva finnar före och efter behandling',
+        image_title: 'Resultat - aktiva finnar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-rodnad.webp',
+        image_alt: 'Rödnad från finnar före och efter behandling',
+        image_title: 'Resultat - rödnad',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-en-stor.webp',
+        image_alt: 'En stor finne före och efter behandling',
+        image_title: 'Resultat - stor finne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-prickar.webp',
+        image_alt: 'Prickar och finnar före och efter behandling',
+        image_title: 'Resultat - prickar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp',
+        image_alt: 'Röda pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - röda pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy',
+        content: '',
+    ),
+);
+
 $floating_box = 'Behandla dina stress finnar effektivt.';
 
 $description_title = 'Vad är stress finnar?';
@@ -678,7 +741,7 @@ $brands_url_title = "Se alla varumärken";
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
@@ -718,6 +781,12 @@ $brands_url_title = "Se alla varumärken";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">
