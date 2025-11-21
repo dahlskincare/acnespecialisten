@@ -1,5 +1,6 @@
 <?php
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
+include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 include_once('includes/models/service.php');
 include_once('includes/models/path_segment.php');
 
