@@ -46,6 +46,69 @@ $steps = array(
         url_title: 'Läs mer om eftervård',
     ),
 );
+
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-resultat-fore-efter-kind.webp',
+        image_alt: 'Akne på kinden före och efter behandling',
+        image_title: 'Resultat - akne på kinden',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-resultat-fore-efter-panna.webp',
+        image_alt: 'Akne på pannan före och efter behandling',
+        image_title: 'Resultat - akne på pannan',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-resultat-fore-efter-haka.webp',
+        image_alt: 'Akne på hakan före och efter behandling',
+        image_title: 'Resultat - akne på hakan',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Rosacea i ansiktet före och efter behandling',
+        image_title: 'Resultat - rosacea i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-kinder.webp',
+        image_alt: 'Rosacea på kinderna före och efter behandling',
+        image_title: 'Resultat - rosacea på kinderna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-nasa.webp',
+        image_alt: 'Pormaskar på näsan före och efter behandling',
+        image_title: 'Resultat - pormaskar på näsan',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Gropar från ärr före och efter behandling',
+        image_title: 'Resultat - gropar från ärr',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Ärr på kinden före och efter behandling',
+        image_title: 'Resultat - ärr på kinden',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar i ansiktet',
+        content: '',
+    ),
+);
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $lang ?>">
@@ -131,7 +194,11 @@ $steps = array(
                 </div>
             </section>
             <section id="results" class="large-margin">
-                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php') ?>
+                <?php
+                $results_title = 'Resultat';
+                $initial_count = 4;
+                include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                ?>
             </section>
             <section id="reviews" class="large-margin">
                 <div class="h500 l10n">Omdömen</div>
