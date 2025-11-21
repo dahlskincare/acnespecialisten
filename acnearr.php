@@ -791,7 +791,7 @@ $brands_url_title = "Varumärken för acneärr";
                               <?php } ?>
                         </section>
 
-                        <section id="results" class="large-margin">
+                        <section id="results">
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
                         </section>
 
@@ -825,12 +825,6 @@ $brands_url_title = "Varumärken för acneärr";
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="hudterapeut/"><?php echo $specialist_url_label ?></a>
                         </section>
-                        <section id="results-narrow" class="large-margin">
-                              <?php
-                              $results_title = 'Jämför resultaten';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
-                              ?>
-                        </section>
                         <section id="related-problems">
                               <h2 class="big l10n">Relaterade hudproblem</h2>
                               <div class="columns is-variable is-0-mobile is-3-tablet is-multiline">
@@ -840,6 +834,12 @@ $brands_url_title = "Varumärken för acneärr";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">
