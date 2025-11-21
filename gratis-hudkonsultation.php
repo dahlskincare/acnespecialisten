@@ -176,7 +176,7 @@ $results_images = array(
                 </section>
                 <section id="results" class="large-margin">
                     <?php
-                    $results_title = 'Resultat';
+                    $results_title = 'Se våra kunders resultat';
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                     ?>
                 </section>
@@ -241,9 +241,9 @@ $results_images = array(
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter">Se alla hudterapeuter</a>
                 </section>
-                <section id="results-narrow">
+                <section id="results-narrow" class="large-margin">
                     <?php
-                    $results_title = 'Resultat';
+                    $results_title = 'Jämför resultaten';
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                     ?>
                 </section>
