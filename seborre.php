@@ -46,6 +46,69 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp',
+        image_alt: 'Inflammerad hy med pormaskar före och efter behandling',
+        image_title: 'Resultat - inflammerad hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy ansikte vänster',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp',
+        image_alt: 'Röda pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - röda pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad-ansikte.webp',
+        image_alt: 'Rodnad med pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - rodnad',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp',
+        image_alt: 'Blandhy med jämnare hudton före och efter behandling',
+        image_title: 'Resultat - jämnare hudton',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
+        image_alt: 'Vita pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - vita pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
+        image_alt: 'Svarta pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - svarta pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - pormaskar på kind',
+        content: '',
+    ),
+);
+
 $about_title = 'Fakta';
 
 $trivias = array(
@@ -628,7 +691,7 @@ $brands_url_title = "Varumärken för behandling av seoborré";
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
@@ -668,6 +731,12 @@ $brands_url_title = "Varumärken för behandling av seoborré";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
             </div>
