@@ -279,6 +279,69 @@ $results = array(
     ),
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-stora.webp',
+        image_alt: 'Stora akne och finnar före och efter behandling',
+        image_title: 'Resultat - stora akne och finnar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
+        image_alt: 'Akne på kind före och efter behandling',
+        image_title: 'Resultat - akne på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-panna.webp',
+        image_alt: 'Akne på pannan före och efter behandling',
+        image_title: 'Resultat - akne på panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+        image_alt: 'Inflammerad hy med akne före och efter behandling',
+        image_title: 'Resultat - inflammerad hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-pustler-panna.webp',
+        image_alt: 'Pustler på pannan före och efter behandling',
+        image_title: 'Resultat - pustler på panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-aktiv.webp',
+        image_alt: 'Aktiv akne före och efter behandling',
+        image_title: 'Resultat - aktiv akne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-rodnad.webp',
+        image_alt: 'Akne med rodnad före och efter behandling',
+        image_title: 'Resultat - akne rodnad',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-haka.webp',
+        image_alt: 'Akne på kinder och haka före och efter behandling',
+        image_title: 'Resultat - akne kinder och haka',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Akne i ansiktet före och efter behandling',
+        image_title: 'Resultat - akne i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar-kind.webp',
+        image_alt: 'Svår akne på kind före och efter behandling',
+        image_title: 'Resultat - svår akne kind',
+        content: '',
+    ),
+);
+
 $reviews_title = 'Omdömen';
 
 $reviews_view_more = 'Se alla omdömen';
@@ -485,7 +548,10 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -515,6 +581,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">
