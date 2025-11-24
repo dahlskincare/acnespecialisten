@@ -281,8 +281,7 @@ $big_types = array(
         title: 'Friskvårdsbehandling - Massage | Ansikte',
         duration: '60 min',
         price: null,
-        content: '<p class="p200">Välkommen till en stund av fullständig avkoppling med vår Friskvårdsbehandling - Massage | Ansikte. Detta är en mjuk och ompysslande ansiktsbehandling som skapar ro i både kropp och sinne, perfekt för dig som vill komma bort från vardagens tempo och bara få njuta.</p>
-<p class="p200 mt-m">Behandlingen inleds med en skonsam rengöring och exfoliering som förbereder huden. Därefter följer behandlingens höjdpunkt: en djupavslappnande massage av ansikte, hals och dekolletage. Med lugna, omslutande rörelser hjälper vi musklerna att slappna av och spänningar att smälta bort. Vi avslutar med en mjukgörande och lugnande mask som får verka medan du fortsätter njuta av stunden. När behandlingen är klar känns huden behaglig och vårdad, och du själv känner dig lättare, lugnare och mer balanserad.</p>',
+        content: '<p class="p200">En avkopplande ansiktsbehandling som kombinerar hudvård med mjuk massage. Behandlingen inleds med rengöring och exfoliering, följt av massage av ansikte, hals och dekolletage som lindrar spänningar och främjar återhämtning. Vi avslutar med en lugnande mask anpassad för din hudtyp. Idealisk för dig som söker en vårdande behandling med fokus på avslappning och välmående.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_alt: 'Friskvårdsbehandling - Massage | Ansikte',
