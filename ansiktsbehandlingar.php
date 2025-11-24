@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Ansiktsbehandling Stockholm',
     duration: null,
-    price: 'Från 799 kr',
+    price: 'Från 995 kr',
     content: '<p class="p200">Vi erbjuder ett brett utbud av klassiska ansiktsbehandlingar i Stockholm anpassade för varje individs unika behov. Vare sig du är ute efter att ge din mogna hy lite extra omsorg, vill återfukta huden eller bara vill unna dig själv en stunds lyx – vi har något för alla.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/klassiska-ansiktsbehandlingar.webp',
     image_large: 'bilder/hudbehandlingar/424x456/klassiska-ansiktsbehandlingar.webp',
@@ -277,6 +277,32 @@ $big_types = array(
             )
         )
     ),
+    new Service(
+        title: 'Friskvårdsbehandling - Massage | Ansikte',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">Välkommen till en stund av fullständig avkoppling med vår Friskvårdsbehandling - Massage | Ansikte. Detta är en mjuk och ompysslande ansiktsbehandling som skapar ro i både kropp och sinne, perfekt för dig som vill komma bort från vardagens tempo och bara få njuta.</p>
+<p class="p200 mt-m">Behandlingen inleds med en skonsam rengöring och exfoliering som förbereder huden. Därefter följer behandlingens höjdpunkt: en djupavslappnande massage av ansikte, hals och dekolletage. Med lugna, omslutande rörelser hjälper vi musklerna att slappna av och spänningar att smälta bort. Vi avslutar med en mjukgörande och lugnande mask som får verka medan du fortsätter njuta av stunden. När behandlingen är klar känns huden behaglig och vårdad, och du själv känner dig lättare, lugnare och mer balanserad.</p>',
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_alt: 'Friskvårdsbehandling - Massage | Ansikte',
+        image_title: 'Friskvårdsbehandling - Massage | Ansikte',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '995 kr',
+                savings: null,
+                booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_Wellness&procedures=PriceClass_1_Procedure_1'
+            )
+        )
+    ),
 
 );
 
@@ -413,7 +439,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Vad kostar en ansiktsbehandling?',
-            text: '<p class="p200">Priset för en ansiktsbehandling hos oss varierar beroende på vilken typ av behandling du väljer. Vi erbjuder ett brett utbud av ansiktsbehandlingar, utformade för att möta olika hudvårdsbehov och önskemål. Våra priser börjar från 995 kr för grundläggande behandlingar och kan gå upp till 1995 kr för mer avancerade alternativ. För att se de specifika priserna för varje behandling, vänligen referera till prislistan i texten ovanför. Vi strävar efter att erbjuda behandlingar av högsta kvalitet, anpassade efter dina individuella behov, för att säkerställa att du får bästa möjliga resultat och valuta för pengarna.</p>'
+            text: '<p class="p200">Priset för en ansiktsbehandling hos oss varierar beroende på vilken typ av behandling du väljer. Vi erbjuder ett brett utbud av ansiktsbehandlingar, utformade för att möta olika hudvårdsbehov och önskemål. Våra priser börjar från 995 kr för friskvårdsbehandlingar och kan gå upp till 1995 kr för mer avancerade alternativ. För att se de specifika priserna för varje behandling, vänligen referera till prislistan i texten ovanför. Vi strävar efter att erbjuda behandlingar av högsta kvalitet, anpassade efter dina individuella behov, för att säkerställa att du får bästa möjliga resultat och valuta för pengarna.</p>'
         ),
         new Question(
             title: 'Vilken ansiktsbehandling är bäst?',
