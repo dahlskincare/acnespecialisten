@@ -53,6 +53,31 @@ $types_title = 'Våra behandlingar';
 $types_description = 'Här hittar du vårt utbud av klassiska ansiktsbehandlingar på Östermalm, Södermalm och Sundbyberg.';
 $big_types = array(
     new Service(
+        title: 'Friskvårdsbehandling - Massage | Ansikte',
+        duration: '60 min',
+        price: null,
+        content: '<p class="p200">En avkopplande ansiktsbehandling som kombinerar hudvård med mjuk massage. Behandlingen inleds med rengöring och exfoliering, följt av massage av ansikte, hals och dekolletage som lindrar spänningar och främjar återhämtning. Vi avslutar med en lugnande mask anpassad för din hudtyp. Idealisk för dig som söker en vårdande behandling med fokus på avslappning och välmående.</p>',
+        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
+        image_alt: 'Friskvårdsbehandling - Massage | Ansikte',
+        image_title: 'Friskvårdsbehandling - Massage | Ansikte',
+        consultation_url: null,
+        consultation_url_label: null,
+        consultation_url_title: null,
+        booking_url: null,
+        booking_url_label: null,
+        booking_url_title: null,
+        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'mask' => 'Mask'),
+        procedures: array(
+            new Procedure(
+                label: '1 behandling',
+                price: '995 kr',
+                savings: null,
+                booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_Wellness&procedures=PriceClass_1_Procedure_1'
+            )
+        )
+    ),
+    new Service(
         title: 'Klassisk Ansiktsbehandling',
         duration: '60 min',
         price: null,
@@ -274,31 +299,6 @@ $big_types = array(
                 price: '4995 kr',
                 savings: '999 kr per behandling',
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_5'
-            )
-        )
-    ),
-    new Service(
-        title: 'Friskvårdsbehandling - Massage | Ansikte',
-        duration: '60 min',
-        price: null,
-        content: '<p class="p200">En avkopplande ansiktsbehandling som kombinerar hudvård med mjuk massage. Behandlingen inleds med rengöring och exfoliering, följt av massage av ansikte, hals och dekolletage som lindrar spänningar och främjar återhämtning. Vi avslutar med en lugnande mask anpassad för din hudtyp. Idealisk för dig som söker en vårdande behandling med fokus på avslappning och välmående.</p>',
-        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
-        image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
-        image_alt: 'Friskvårdsbehandling - Massage | Ansikte',
-        image_title: 'Friskvårdsbehandling - Massage | Ansikte',
-        consultation_url: null,
-        consultation_url_label: null,
-        consultation_url_title: null,
-        booking_url: null,
-        booking_url_label: null,
-        booking_url_title: null,
-        icons: array('rengoring' => 'Lätt rengöring', 'mild' => 'Ansiktsmassage', 'mask' => 'Mask'),
-        procedures: array(
-            new Procedure(
-                label: '1 behandling',
-                price: '995 kr',
-                savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_Wellness&procedures=PriceClass_1_Procedure_1'
             )
         )
     ),
