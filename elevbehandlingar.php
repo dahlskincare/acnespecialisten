@@ -16,26 +16,26 @@ $path_segments = array(
 $model = new Service(
     title: 'Elevbehandlingar på Östermalm',
     duration: null,
-    price: 'Från 195 kr',
-    content: '<p class="p200">Under en begränsad tid erbjuder vi elevbehandlingar på vår salong på Östermalm. Våra elever är under utbildning och utför behandlingarna med vägledning från våra erfarna hudterapeuter. Detta ger dig möjlighet att få professionella behandlingar till ett förmånligt pris samtidigt som våra elever får värdefull praktisk erfarenhet.</p>',
+    price: null,
+    content: '<p class="p200">Vi har för närvarande inga elever under utbildning. Våra elevbehandlingar erbjuds när vi har elever som genomgår praktisk utbildning på vår salong på Östermalm. Under dessa perioder utför eleverna behandlingar med vägledning från våra erfarna hudterapeuter till förmånliga priser.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandling-rosacea.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandling-rosacea.webp',
     image_alt: 'Elevbehandlingar på AcneSpecialisten',
     image_title: 'Elevbehandlingar på AcneSpecialisten',
-    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-lyx-elev-3359125',
-    consultation_url_label: 'Ansiktsbehandling Lyx',
-    consultation_url_title: 'Boka Ansiktsbehandling Lyx - 995 kr',
-    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-elev-3359091',
-    booking_url_label: 'Brynformning',
-    booking_url_title: 'Boka Brynformning - 195 kr',
+    consultation_url: '/elevbehandlingar.php',
+    consultation_url_label: 'Ej tillgänglig',
+    consultation_url_title: 'Behandlingen är för närvarande inte tillgänglig',
+    booking_url: '/elevbehandlingar.php',
+    booking_url_label: 'Ej tillgänglig',
+    booking_url_title: 'Behandlingen är för närvarande inte tillgänglig',
 );
 
-$floating_box = 'Förmånliga priser på Östermalm.';
+$floating_box = 'Tillfälligt pausat';
 
 $description_title = 'Vad är elevbehandlingar?';
-$description_text = '<p class="p200">Under en begränsad tid erbjuder vi elevbehandlingar på vår salong på Östermalm. Våra elever utför behandlingarna med vägledning från våra erfarna hudterapeuter. Du får samma höga kvalitet som våra ordinarie behandlingar till förmånliga priser.</p>
-<p class="p200 mt-m">Vi erbjuder ansiktsbehandlingar och brynbehandlingar. Boka våra populära elevbehandlingar och få professionell hudvård till ett reducerat pris.</p>
-<p class="p200 mt-m"><strong>OBS!</strong> Endast tillgängligt på Östermalm under begränsad period.</p>';
+$description_text = '<p class="p200">Vi har för närvarande inga elever under utbildning. Elevbehandlingar erbjuds periodvis när vi har elever som genomgår praktisk utbildning på vår salong på Östermalm.</p>
+<p class="p200 mt-m">När vi har elever utför de behandlingarna med vägledning från våra erfarna hudterapeuter. Du får då samma höga kvalitet som våra ordinarie behandlingar till förmånliga priser.</p>
+<p class="p200 mt-m">Under dessa perioder erbjuder vi ansiktsbehandlingar och brynbehandlingar utförda av våra elever.</p>';
 
 $top_articles = array();
 
@@ -46,7 +46,7 @@ $treatment_areas = array(
         image_alt: null,
         image_title: null,
         title: 'Ansiktsbehandlingar',
-        description: '<p class="p200">Våra elever utför professionella ansiktsbehandlingar med vägledning från erfarna hudterapeuter.</p>',
+        description: '<p class="p200">När vi har elever tillgängliga utför de professionella ansiktsbehandlingar med vägledning från erfarna hudterapeuter.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
@@ -55,9 +55,9 @@ $treatment_areas = array(
                 title: 'Klassisk',
                 duration: '60 min',
                 price: '595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-klassisk-elev-3359049',
-                url_label: 'Boka',
-                url_title: 'Boka Klassisk Ansiktsbehandling'
+                url: '/elevbehandlingar.php',
+                url_label: 'Ej tillgänglig',
+                url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -66,9 +66,9 @@ $treatment_areas = array(
                 title: 'Relax',
                 duration: '70 min',
                 price: '795 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-relax-elev-3359086',
-                url_label: 'Boka',
-                url_title: 'Boka Relax Ansiktsbehandling'
+                url: '/elevbehandlingar.php',
+                url_label: 'Ej tillgänglig',
+                url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -77,9 +77,9 @@ $treatment_areas = array(
                 title: 'Lyx',
                 duration: '90 min',
                 price: '995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/ansiktsbehandling-lyx-elev-3359125',
-                url_label: 'Boka',
-                url_title: 'Boka Lyx Ansiktsbehandling'
+                url: '/elevbehandlingar.php',
+                url_label: 'Ej tillgänglig',
+                url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
         )
     ),
@@ -89,7 +89,7 @@ $treatment_areas = array(
         image_alt: null,
         image_title: null,
         title: 'Brynbehandlingar',
-        description: '<p class="p200">Professionell brynformning och färgning utförd av våra elever.</p>',
+        description: '<p class="p200">När vi har elever tillgängliga erbjuder vi professionell brynformning och färgning.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
@@ -98,9 +98,9 @@ $treatment_areas = array(
                 title: 'Brynformning',
                 duration: '20 min',
                 price: '195 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-elev-3359091',
-                url_label: 'Boka',
-                url_title: 'Boka Brynformning'
+                url: '/elevbehandlingar.php',
+                url_label: 'Ej tillgänglig',
+                url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -109,9 +109,9 @@ $treatment_areas = array(
                 title: 'Brynformning + Brynfärg',
                 duration: '30 min',
                 price: '295 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-brynfarg-elev-3359099',
-                url_label: 'Boka',
-                url_title: 'Boka Brynformning + Brynfärg'
+                url: '/elevbehandlingar.php',
+                url_label: 'Ej tillgänglig',
+                url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -120,16 +120,16 @@ $treatment_areas = array(
                 title: 'Brynformning + Brynfärg + Fransfärg',
                 duration: '40 min',
                 price: '395 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/brynformning-brynfarg-fransfarg-elev-3359105',
-                url_label: 'Boka',
-                url_title: 'Boka Brynformning + Brynfärg + Fransfärg'
+                url: '/elevbehandlingar.php',
+                url_label: 'Ej tillgänglig',
+                url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
         )
     ),
 );
 
 $service_brands_title = 'Varumärken för elevbehandlingar';
-$service_brands_text = '<p class="p200">Våra elever använder samma högkvalitativa produkter och varumärken som vi använder i våra ordinarie behandlingar.</p>';
+$service_brands_text = '<p class="p200">När elevbehandlingar erbjuds använder våra elever samma högkvalitativa produkter och varumärken som vi använder i våra ordinarie behandlingar.</p>';
 
 ?>
 <!DOCTYPE html>
