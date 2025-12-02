@@ -55,9 +55,9 @@ $treatment_areas = array(
                 title: 'Klassisk',
                 duration: '60 min',
                 price: '595 kr',
-                url: null,
-                url_label: null,
-                url_title: null
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -66,9 +66,9 @@ $treatment_areas = array(
                 title: 'Relax',
                 duration: '70 min',
                 price: '795 kr',
-                url: null,
-                url_label: null,
-                url_title: null
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -77,9 +77,9 @@ $treatment_areas = array(
                 title: 'Lyx',
                 duration: '90 min',
                 price: '995 kr',
-                url: null,
-                url_label: null,
-                url_title: null
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
         )
     ),
@@ -98,9 +98,9 @@ $treatment_areas = array(
                 title: 'Brynformning',
                 duration: '20 min',
                 price: '195 kr',
-                url: null,
-                url_label: null,
-                url_title: null
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -109,9 +109,9 @@ $treatment_areas = array(
                 title: 'Brynformning + Brynfärg',
                 duration: '30 min',
                 price: '295 kr',
-                url: null,
-                url_label: null,
-                url_title: null
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -120,9 +120,9 @@ $treatment_areas = array(
                 title: 'Brynformning + Brynfärg + Fransfärg',
                 duration: '40 min',
                 price: '395 kr',
-                url: null,
-                url_label: null,
-                url_title: null
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
         )
     ),
