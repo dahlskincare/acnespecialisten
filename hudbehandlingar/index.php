@@ -125,11 +125,6 @@ $people_search_for_title = "Populära alternativ";
 
 $people_search_for = array(
     new Treatment(
-        label: 'Elevbehandlingar',
-        url: '/elevbehandlingar.php',
-        url_title: 'Läs mer om elevbehandlingar'
-    ),
-    new Treatment(
         label: 'Skinbooster',
         url: '/hudbehandlingar/skinbooster/',
         url_title: 'Läs mer om skinbooster'
@@ -554,35 +549,6 @@ $service_categories = array(
         ),
         read_more_label: 'Läs mer',
         read_more_title: 'Läs mer om vaxningsbehandlingar'
-    ),
-    new ServiceCategory(
-        url: '/elevbehandlingar.php',
-        label: 'Elevbehandlingar',
-        content: 'Under en begränsad tid erbjuder vi elevbehandlingar på Östermalm. Våra elever utför behandlingarna med vägledning från erfarna hudterapeuter. Kvalitetsbehandlingar till förmånliga priser.',
-        image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-rosacea.webp',
-        image_large: '/bilder/hudbehandlingar/424x324/ansiktsbehandling-rosacea.webp',
-        image_title: 'Elevbehandlingar',
-        image_alt: 'Elevbehandlingar på Östermalm',
-        booking_url: '/elevbehandlingar.php',
-        booking_url_title: 'Se elevbehandlingar',
-        consultation_url: null,
-        consultation_url_title: null,
-        consultation_url_label: null,
-        booking_url_label: 'Boka behandling',
-        services: array(
-            new Treatment(
-                url: '/elevbehandlingar.php',
-                label: 'Ansiktsbehandlingar',
-                url_title: 'Läs mer om ansiktsbehandlingar',
-            ),
-            new Treatment(
-                url: '/elevbehandlingar.php',
-                label: 'Brynbehandlingar',
-                url_title: 'Läs mer om brynbehandlingar',
-            ),
-        ),
-        read_more_label: 'Läs mer',
-        read_more_title: 'Läs mer om elevbehandlingar'
     ),
 );
 
