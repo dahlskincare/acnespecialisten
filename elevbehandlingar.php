@@ -22,12 +22,12 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandling-rosacea.webp',
     image_alt: 'Elevbehandlingar på AcneSpecialisten',
     image_title: 'Elevbehandlingar på AcneSpecialisten',
-    consultation_url: null,
-    consultation_url_label: null,
-    consultation_url_title: null,
-    booking_url: null,
-    booking_url_label: null,
-    booking_url_title: null,
+    consultation_url: '/elevbehandlingar.php',
+    consultation_url_label: 'Ej tillgänglig',
+    consultation_url_title: 'Behandlingen är för närvarande inte tillgänglig',
+    booking_url: '/elevbehandlingar.php',
+    booking_url_label: 'Ej tillgänglig',
+    booking_url_title: 'Behandlingen är för närvarande inte tillgänglig',
 );
 
 $floating_box = 'Tillfälligt pausat';
@@ -55,7 +55,7 @@ $treatment_areas = array(
                 title: 'Klassisk',
                 duration: '60 min',
                 price: '595 kr',
-                url: '#',
+                url: '/elevbehandlingar.php',
                 url_label: 'Ej tillgänglig',
                 url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
@@ -66,7 +66,7 @@ $treatment_areas = array(
                 title: 'Relax',
                 duration: '70 min',
                 price: '795 kr',
-                url: '#',
+                url: '/elevbehandlingar.php',
                 url_label: 'Ej tillgänglig',
                 url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
@@ -77,7 +77,7 @@ $treatment_areas = array(
                 title: 'Lyx',
                 duration: '90 min',
                 price: '995 kr',
-                url: '#',
+                url: '/elevbehandlingar.php',
                 url_label: 'Ej tillgänglig',
                 url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
@@ -98,7 +98,7 @@ $treatment_areas = array(
                 title: 'Brynformning',
                 duration: '20 min',
                 price: '195 kr',
-                url: '#',
+                url: '/elevbehandlingar.php',
                 url_label: 'Ej tillgänglig',
                 url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
@@ -109,7 +109,7 @@ $treatment_areas = array(
                 title: 'Brynformning + Brynfärg',
                 duration: '30 min',
                 price: '295 kr',
-                url: '#',
+                url: '/elevbehandlingar.php',
                 url_label: 'Ej tillgänglig',
                 url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
@@ -120,7 +120,7 @@ $treatment_areas = array(
                 title: 'Brynformning + Brynfärg + Fransfärg',
                 duration: '40 min',
                 price: '395 kr',
-                url: '#',
+                url: '/elevbehandlingar.php',
                 url_label: 'Ej tillgänglig',
                 url_title: 'Behandlingen är för närvarande inte tillgänglig'
             ),
