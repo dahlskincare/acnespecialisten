@@ -523,6 +523,70 @@ $service_brands = array(
 );
 
 $results_title = 'Alma Hybrid före och efter resultat';
+
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/co2-laser/co2-laser-resultat-fore-efter-nasa.webp',
+        image_alt: 'CO2-laser behandling av näsan före och efter',
+        image_title: 'Alma Hybrid resultat - näsa',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-flackar.webp',
+        image_alt: 'Ärr och fläckar före och efter CO2-laser',
+        image_title: 'Alma Hybrid resultat - ärr och fläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/co2-laser/co2-laser-resultat-fore-efter-ogonvra.webp',
+        image_alt: 'CO2-laser behandling av ögonvrå före och efter',
+        image_title: 'Alma Hybrid resultat - ögonvrå',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nyckelben.webp',
+        image_alt: 'Hudförändringar på nyckelben före och efter CO2-laser',
+        image_title: 'Alma Hybrid resultat - hudförändringar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/co2-laser/co2-laser-resultat-fore-efter-porig-hy.webp',
+        image_alt: 'Porig hy före och efter CO2-laser behandling',
+        image_title: 'Alma Hybrid resultat - porig hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/co2-laser/co2-laser-resultat-fore-efter-hudforyngring.webp',
+        image_alt: 'Hudföryngring med CO2-laser före och efter',
+        image_title: 'Alma Hybrid resultat - hudföryngring',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning.webp',
+        image_alt: 'Ärr på tinningen före och efter CO2-laser',
+        image_title: 'Alma Hybrid resultat - ärr på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/co2-laser/co2-laser-resultat-fore-efter-fina-linjer.webp',
+        image_alt: 'Fina linjer före och efter CO2-laser behandling',
+        image_title: 'Alma Hybrid resultat - fina linjer',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/co2-laser/co2-laser-resultat-fore-efter-kaklinje.webp',
+        image_alt: 'Käklinje och hudtextur före och efter CO2-laser',
+        image_title: 'Alma Hybrid resultat - käklinje',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/co2-laser/co2-laser-resultat-fore-efter-hudtextur.webp',
+        image_alt: 'Hudtextur före och efter CO2-laser behandling',
+        image_title: 'Alma Hybrid resultat - hudtextur',
+        content: '',
+    ),
+);
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -1063,7 +1127,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -1092,6 +1156,12 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
         </div>

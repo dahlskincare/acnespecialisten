@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/models/path_segment.php';
 
 $path_segments = [

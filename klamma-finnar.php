@@ -60,6 +60,69 @@ $model = new Service(
 
 $floating_box = 'Behandling för att klämma finnar säkert och effektivt.';
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-stora.webp',
+        image_alt: 'Stora finnar före och efter behandling',
+        image_title: 'Resultat - stora finnar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-en-stor.webp',
+        image_alt: 'En stor finne före och efter behandling',
+        image_title: 'Resultat - stor finne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-pustler-panna.webp',
+        image_alt: 'Pustler på pannan före och efter behandling',
+        image_title: 'Resultat - pustler',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-aktiv.webp',
+        image_alt: 'Aktiv akne med finnar före och efter behandling',
+        image_title: 'Resultat - aktiv akne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-rodnad.webp',
+        image_alt: 'Rödnad från finnar före och efter behandling',
+        image_title: 'Resultat - rödnad',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-prickar.webp',
+        image_alt: 'Prickar och finnar före och efter behandling',
+        image_title: 'Resultat - prickar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Finnar i ansiktet före och efter behandling',
+        image_title: 'Resultat - finnar i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
+        image_alt: 'Finnar på kind före och efter behandling',
+        image_title: 'Resultat - finnar på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+        image_alt: 'Inflammerad hy med finnar före och efter behandling',
+        image_title: 'Resultat - inflammerad hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar-kind.webp',
+        image_alt: 'Svår akne med finnar på kind före och efter behandling',
+        image_title: 'Resultat - svår akne',
+        content: '',
+    ),
+);
+
 $description_title = 'Ska man klämma finnar?';
 $description_text = '<p class="p200">Vi rekommenderar inte att man försöker ta bort sina <a class="b200 underline color-deep-sea-400" href="/finnar.php" title="Mer information om finnar">finnar</a> själv, utan det är viktigt att låta en hudterapeut klämma finnarna på ett säkert och effektivt sätt. Genom att låta oss hjälpa dig med <a class="b200 underline color-deep-sea-400" href="/acnebehandling.php" title="Mer information om acnebehandling">acnebehandling</a> fokuserar vi på säker borttagning av finnar genom att varsamt klämma ut innehållet i porerna, oavsett om det är finnar eller pormaskar. Detta görs på ett sätt som minimerar risken för hudsår och ärrbildning, vilket är en vanlig följd av att försöka klämma finnar på egen hand. Detta är avgörande för att undvika skador på huden och uppnå bästa möjliga resultat.</p>
 <p class="p200 mt-xl">Många vill <a class="b200 underline color-deep-sea-400" href="/finnar-behandling.php" title="Mer information om att få bort finnar snabbt">få bort finnar snabbt</a> eftersom de gör ont, men det är viktigt att utföra behandlingen på rätt sätt. Om man upplever att finnarna inte försvinner beror det ofta på att man saknar en fullständig behandlignsplan som inklduerar både rätt behandlingar och produkter. Det finns nämligen ingen quickfix som får bort finnar snabbt utan det krävs att man arbetar med huden för att få bort varje enskild finne.</p>';
@@ -674,7 +737,10 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -704,6 +770,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">

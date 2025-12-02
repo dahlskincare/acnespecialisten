@@ -44,6 +44,69 @@ $green_banner_content = new GreenBannerContent(
 
 $floating_box = 'Behandling av fet hy.';
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy ansikte vänster',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+        image_alt: 'Porig hy med pormaskar före och efter behandling',
+        image_title: 'Resultat - porig hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - pormaskar på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-jamnare-hudton.webp',
+        image_alt: 'Blandhy med jämnare hudton före och efter behandling',
+        image_title: 'Resultat - jämnare hudton',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
+        image_alt: 'Många pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - många pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+        image_alt: 'Pormaskar på kind och haka före och efter behandling',
+        image_title: 'Resultat - pormaskar kind och haka',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp',
+        image_alt: 'Mycket pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - mycket pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+        image_alt: 'Pormaskar på haka före och efter behandling',
+        image_title: 'Resultat - pormaskar på haka',
+        content: '',
+    ),
+);
+
 $description_title = 'Vad är fet hy?';
 $description_text = '<p class="p200">Fet hy, även kallad flottig hud, är en av de vanligaste hudtyperna. Den kännetecknas av överproduktion av talg, vilket resulterar i en oljig yta som kan leda till tilltäppta porer och acne. Fet hy uppstår när porerna producerar för mycket talg, vilket är kroppens naturliga fett som hjälper till att återfukta huden. En naturlig reaktion är att sluta återfukta huden för att minska talgproduktionen, men detta kan istället leda till att huden blir ännu fetare.</p>
 
@@ -485,7 +548,7 @@ $brands_url_title = "Se alla varumärken";
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
@@ -525,6 +588,12 @@ $brands_url_title = "Se alla varumärken";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">

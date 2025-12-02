@@ -210,6 +210,57 @@ $results = array(
     ),
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pormaskar på kinden före och efter behandling',
+        image_title: 'Resultat - pormaskar på kinden',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
+        image_alt: 'Svarta pormaskar på kinden före och efter behandling',
+        image_title: 'Resultat - svarta pormaskar på kinden',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+        image_alt: 'Pormaskar på hakan före och efter behandling',
+        image_title: 'Resultat - pormaskar på hakan',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+        image_alt: 'Pormaskar på kind och haka före och efter behandling',
+        image_title: 'Resultat - pormaskar på kind och haka',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+        image_alt: 'Porig hy före och efter behandling',
+        image_title: 'Resultat - porig hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
+        image_alt: 'Många pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - många pormaskar i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
+        image_alt: 'Vita pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - vita pormaskar i ansiktet',
+        content: '',
+    ),
+);
+
 $show_all_results_label = "Se alla resultat mot pormaskar";
 $show_all_results_title = "Resultat mot pormaskar";
 
@@ -423,7 +474,11 @@ $brands_url_title = "Varumärken för pormaskbehandling";
                     </section>
                 <?php } ?>
                 <section id="results">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    $initial_count = 4;
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews">
                     <h2 class="big l10n">Omdömen</h2>
@@ -455,6 +510,12 @@ $brands_url_title = "Varumärken för pormaskbehandling";
                     include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php');
                     ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut/"><?php echo $specialist_url_label ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">

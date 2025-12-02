@@ -337,6 +337,57 @@ $results = array(
       ),
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Gropar från ärr före och efter behandling',
+        image_title: 'Resultat - gropar från ärr',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Ärr på kinden före och efter behandling',
+        image_title: 'Resultat - ärr på kinden',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ärr i ansiktet före och efter behandling',
+        image_title: 'Resultat - ärr i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning.webp',
+        image_alt: 'Ärr på tinningen före och efter behandling',
+        image_title: 'Resultat - ärr på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-flackar.webp',
+        image_alt: 'Ärrfläckar före och efter behandling',
+        image_title: 'Resultat - ärrfläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ryggen.webp',
+        image_alt: 'Ärr på ryggen före och efter behandling',
+        image_title: 'Resultat - ärr på ryggen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-brostet.webp',
+        image_alt: 'Ärr på bröstet före och efter behandling',
+        image_title: 'Resultat - ärr på bröstet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning-man.webp',
+        image_alt: 'Ärr på tinning hos man före och efter behandling',
+        image_title: 'Resultat - ärr på tinning hos man',
+        content: '',
+    ),
+);
+
 $faq_categories = array(
       'Generellt om operations- och skadeärr' => array(
             new Question(
@@ -571,6 +622,14 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
                               <?php } ?>
                         </section>
 
+                        <section id="results">
+                              <?php
+                              $results_title = 'Resultat';
+                              $initial_count = 4;
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                              ?>
+                        </section>
+
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
                               <?php
@@ -597,6 +656,12 @@ $brands_url_title = "Varumärken för operations- och skadeärr behandling";
                               </div>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                               <a class="mt-xl button b200 outline expand auto-width l10n" title="<?php echo $specialist_url_title ?>" href="/hudterapeut/"><?php echo $specialist_url_label ?></a>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">

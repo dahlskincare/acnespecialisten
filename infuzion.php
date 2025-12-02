@@ -205,6 +205,16 @@ $treatment_areas = array(
 );
 
 $results_title = 'Infuzion före och efter resultat';
+
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/infuzion/infuzion-resultat-fore-efter-ogon.webp',
+        image_alt: 'Infuzion behandling av ögonområdet före och efter',
+        image_title: 'Infuzion resultat - ögonområdet',
+        content: '',
+    ),
+);
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -620,7 +630,9 @@ $all_brands = array(
                         </div>
                     </section>
                 <?php } ?>
-
+                <section id="results" class="large-margin">
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
+                </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
                     <?php
@@ -648,6 +660,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">

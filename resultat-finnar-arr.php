@@ -62,6 +62,54 @@ $result_category =
 
 $results = [
     new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-brostet.webp',
+        image_alt: 'Ärr på bröstet före och efter behandling',
+        image_title: 'Resultat - ärr på bröstet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning.webp',
+        image_alt: 'Ärr på tinningen före och efter behandling',
+        image_title: 'Resultat - ärr på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Gropar och ärr före och efter behandling',
+        image_title: 'Resultat - gropar och ärr',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ryggen.webp',
+        image_alt: 'Ärr på ryggen före och efter behandling',
+        image_title: 'Resultat - ärr på ryggen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ärr i ansiktet från vänster sida före och efter behandling',
+        image_title: 'Resultat - ärr i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-flackar.webp',
+        image_alt: 'Ärr och fläckar före och efter behandling',
+        image_title: 'Resultat - ärr och fläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning-man.webp',
+        image_alt: 'Ärr på tinningen hos man före och efter behandling',
+        image_title: 'Resultat - ärr på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Ärr på kinden före och efter behandling',
+        image_title: 'Resultat - ärr på kinden',
+        content: '',
+    ),
+    new LabelImage(
         image_url: 'resultat/fore-och-efter-bilder-acnearr-1.jpg',
         image_alt: 'Acnearr före och efter bilder',
         image_title: '',

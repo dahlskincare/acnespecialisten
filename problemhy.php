@@ -414,6 +414,77 @@ $results = array(
     ),
 );
 
+$show_all_results_label = "Se alla resultat";
+$show_all_results_title = "se fler resultat för problemhy";
+
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Akne i ansiktet före och efter behandling',
+        image_title: 'Problemhy resultat - akne i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+        image_alt: 'Akne på kinder och panna före och efter behandling',
+        image_title: 'Problemhy resultat - akne på kinder och panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar-kind.webp',
+        image_alt: 'Svår akne på kind före och efter behandling',
+        image_title: 'Problemhy resultat - svår akne på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+        image_alt: 'Inflammerad hy med akne före och efter behandling',
+        image_title: 'Problemhy resultat - inflammerad hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mycket.webp',
+        image_alt: 'Mycket akne före och efter behandling',
+        image_title: 'Problemhy resultat - mycket akne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Rosacea i ansiktet före och efter behandling',
+        image_title: 'Problemhy resultat - rosacea',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp',
+        image_alt: 'Rodnad från rosacea före och efter behandling',
+        image_title: 'Problemhy resultat - rosacea rodnad',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Problemhy resultat - pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-stora.webp',
+        image_alt: 'Stora finnar före och efter behandling',
+        image_title: 'Problemhy resultat - stora finnar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Problemhy resultat - blandhy',
+        content: '',
+    ),
+);
+
+$results_url = '';
+$results_url_label = "Se alla resultat";
+$results_url_title = "se fler resultat för problemhy";
+
+
 $reviews_title = 'Omdömen';
 
 $reviews_view_more = 'Se alla omdömen';
@@ -740,7 +811,10 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -770,6 +844,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">

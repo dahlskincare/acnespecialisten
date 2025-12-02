@@ -364,6 +364,12 @@ $articles = array(
 
 $results_images = array(
       new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+            image_title: 'Resultat: Jämnare hudton i ansiktet',
+            content: '',
+      ),
+      new LabelImage(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
             image_alt: 'Behandlingsresultat som visar förbättrad hudton och minskade pigmentfläckar',
             image_title: 'Resultat: Jämnare hudton med minskad pigmentering',
@@ -750,9 +756,9 @@ $brands_url_title = "Varumärken för pigmentfläckar";
                                     <?php } ?>
                               </div>
                         </section>
-                        <section id="results-narrow">
+                        <section id="results-narrow" class="large-margin">
                               <?php
-                              $results_title = 'Resultat';
+                              $results_title = 'Jämför resultaten';
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
                               ?>
                         </section>

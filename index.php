@@ -250,48 +250,71 @@
                   </section>
                   <section id="results">
                         <?php
-                        $results = array(
-                              new ResultCustomer(
-                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
-                                    image_before_title: 'Person som har akne',
-                                    image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
-                                    image_after_title: 'Person som har akne',
-                                    image_after_alt: 'Ansiktet på en person som behandlat svår akne, efterbild',
-                                    treatment: new ResultTreatment(
-                                          duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
-                                    )
+                        $results_title = 'Resultat';
+                        $results_images = array(
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+                                    image_alt: 'Akne i ansiktet före och efter behandling',
+                                    image_title: 'Resultat - akne i ansiktet',
+                                    content: '',
                               ),
-                              new ResultCustomer(
-                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
-                                    image_before_title: 'Person som har akne',
-                                    image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
-                                    image_after_title: 'Person som har akne',
-                                    image_after_alt: 'Ansiktet på en person som behandlat akne, efterbild',
-                                    treatment: new ResultTreatment(
-                                          duration: '<a href="acne.php" title="Akne">Akne</a>',
-                                    )
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+                                    image_alt: 'Akne på kinder och panna före och efter behandling',
+                                    image_title: 'Resultat - akne på kinder och panna',
+                                    content: '',
                               ),
-                              new ResultCustomer(
-                                    image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
-                                    image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
-                                    image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
-                                    image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
-                                    image_before_title: 'Person som har rosacea',
-                                    image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
-                                    image_after_title: 'Person som har rosacea',
-                                    image_after_alt: 'Ansiktet på en person som behandlat rosacea, efterbild',
-                                    treatment: new ResultTreatment(
-                                          duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
-                                    )
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+                                    image_alt: 'Inflammerad hy med akne före och efter behandling',
+                                    image_title: 'Resultat - inflammerad hy',
+                                    content: '',
+                              ),
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mild.webp',
+                                    image_alt: 'Mild akne före och efter behandling',
+                                    image_title: 'Resultat - mild akne',
+                                    content: '',
+                              ),
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-ansikte.webp',
+                                    image_alt: 'Rosacea i ansiktet före och efter behandling',
+                                    image_title: 'Resultat - rosacea',
+                                    content: '',
+                              ),
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/rosacea/rosacea-resultat-fore-efter-rodnad.webp',
+                                    image_alt: 'Rosacea rodnad före och efter behandling',
+                                    image_title: 'Resultat - rosacea rodnad',
+                                    content: '',
+                              ),
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+                                    image_alt: 'Pormaskar i ansiktet före och efter behandling',
+                                    image_title: 'Resultat - pormaskar',
+                                    content: '',
+                              ),
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+                                    image_alt: 'Porig hy före och efter behandling',
+                                    image_title: 'Resultat - porig hy',
+                                    content: '',
+                              ),
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+                                    image_alt: 'Ärr på kinden före och efter behandling',
+                                    image_title: 'Resultat - ärr på kinden',
+                                    content: '',
+                              ),
+                              new LabelImage(
+                                    image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+                                    image_alt: 'Gropar från ärr före och efter behandling',
+                                    image_title: 'Resultat - gropar från ärr',
+                                    content: '',
                               ),
                         );
-                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php')
+                        $initial_count = 4;
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                         ?>
                   </section>
                   <section id="reviews">
@@ -577,6 +600,52 @@
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
                         <a class="mt-xl button b200 outline expand is-hidden-tablet l10n" title="Se alla varumärken vi jobbar med" href="varumarken/">Se alla varumärken</a>
+                  </section>
+                  <section id="results-bottom" class="large-margin">
+                        <?php
+                        $results = array(
+                              new ResultCustomer(
+                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
+                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
+                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
+                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
+                                    image_before_title: 'Person som har akne',
+                                    image_before_alt: 'Ansiktet på en person som behandlat svår akne, förebild',
+                                    image_after_title: 'Person som har akne',
+                                    image_after_alt: 'Ansiktet på en person som behandlat svår akne, efterbild',
+                                    treatment: new ResultTreatment(
+                                          duration: '<a href="acne.php" title="Svår akne">Svår akne</a>',
+                                    )
+                              ),
+                              new ResultCustomer(
+                                    image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
+                                    image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
+                                    image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
+                                    image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
+                                    image_before_title: 'Person som har akne',
+                                    image_before_alt: 'Ansiktet på en person som behandlat akne, förebild',
+                                    image_after_title: 'Person som har akne',
+                                    image_after_alt: 'Ansiktet på en person som behandlat akne, efterbild',
+                                    treatment: new ResultTreatment(
+                                          duration: '<a href="acne.php" title="Akne">Akne</a>',
+                                    )
+                              ),
+                              new ResultCustomer(
+                                    image_before_small: '/bilder/resultat/358x358/resultat-rosacea-fore.webp',
+                                    image_after_small: '/bilder/resultat/358x358/resultat-rosacea-efter.webp',
+                                    image_before_large: '/bilder/resultat/424x424/resultat-rosacea-fore.webp',
+                                    image_after_large: '/bilder/resultat/424x424/resultat-rosacea-efter.webp',
+                                    image_before_title: 'Person som har rosacea',
+                                    image_before_alt: 'Ansiktet på en person som behandlat rosacea, förebild',
+                                    image_after_title: 'Person som har rosacea',
+                                    image_after_alt: 'Ansiktet på en person som behandlat rosacea, efterbild',
+                                    treatment: new ResultTreatment(
+                                          duration: '<a href="rosacea.php" title="Rosacea">Rosacea</a>',
+                                    )
+                              ),
+                        );
+                        include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results.php')
+                        ?>
                   </section>
             </div>
       </main>

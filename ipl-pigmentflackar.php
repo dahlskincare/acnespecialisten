@@ -295,6 +295,12 @@ $service_brands = array(
 
 $results_images = array(
       new LabelImage(
+            image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+            image_alt: 'Pigmentfläckar i ansiktet före och efter IPL behandling',
+            image_title: 'Resultat: Jämnare hudton i ansiktet',
+            content: '',
+      ),
+      new LabelImage(
             image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
             image_alt: 'Behandling av hyperpigmentering ger jämnare hudton',
             image_title: 'Resultat: Klarare hy med reducerad pigmentering',

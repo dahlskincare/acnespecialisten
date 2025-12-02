@@ -448,6 +448,70 @@ $service_brands = array(
 );
 
 $results_title = 'Laserbehandling laser före och efter resultat';
+
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nasa.webp',
+        image_alt: 'Hudförändringar på näsan före och efter laserbehandling',
+        image_title: 'Laser resultat - hudförändringar på näsan',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Gropar och ärr före och efter laserbehandling',
+        image_title: 'Laser resultat - gropar och ärr',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pigmentfläckar på kinden före och efter laserbehandling',
+        image_title: 'Laser resultat - pigmentfläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-axel.webp',
+        image_alt: 'Hudförändringar på axeln före och efter laserbehandling',
+        image_title: 'Laser resultat - hudförändringar på axeln',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Ärr på kinden före och efter laserbehandling',
+        image_title: 'Laser resultat - ärr på kinden',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-fraknar.webp',
+        image_alt: 'Fräknar och pigmentfläckar före och efter laserbehandling',
+        image_title: 'Laser resultat - fräknar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-tinning.webp',
+        image_alt: 'Hudförändringar på tinningen före och efter laserbehandling',
+        image_title: 'Laser resultat - hudförändringar på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ärr i ansiktet från vänster sida före och efter laserbehandling',
+        image_title: 'Laser resultat - ärr i ansiktet',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-vid-orat.webp',
+        image_alt: 'Hudförändringar vid örat före och efter laserbehandling',
+        image_title: 'Laser resultat - hudförändringar vid örat',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind-tinning.webp',
+        image_alt: 'Pigmentfläckar på kind och tinning före och efter laserbehandling',
+        image_title: 'Laser resultat - pigmentfläckar',
+        content: '',
+    ),
+);
+
 $results = array(
     new ResultCustomer(
         url: '',
@@ -1032,7 +1096,7 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -1062,6 +1126,12 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
         </div>

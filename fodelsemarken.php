@@ -316,6 +316,51 @@ $results = array(
       ),
 );
 
+$results_images = array(
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-rygg.webp',
+            image_alt: 'Hudförändring på ryggen före och efter behandling',
+            image_title: 'Resultat - hudförändring på ryggen',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-lapp.webp',
+            image_alt: 'Hudförändring på läppen före och efter behandling',
+            image_title: 'Resultat - hudförändring på läppen',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nyckelben.webp',
+            image_alt: 'Hudförändring på nyckelbenet före och efter behandling',
+            image_title: 'Resultat - hudförändring på nyckelbenet',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-axel.webp',
+            image_alt: 'Hudförändring på axeln före och efter behandling',
+            image_title: 'Resultat - hudförändring på axeln',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nasa.webp',
+            image_alt: 'Hudförändring på näsan före och efter behandling',
+            image_title: 'Resultat - hudförändring på näsan',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-vid-orat.webp',
+            image_alt: 'Hudförändring vid örat före och efter behandling',
+            image_title: 'Resultat - hudförändring vid örat',
+            content: '',
+      ),
+      new LabelImage(
+            image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-tinning.webp',
+            image_alt: 'Hudförändring på tinningen före och efter behandling',
+            image_title: 'Resultat - hudförändring på tinningen',
+            content: '',
+      ),
+);
+
 $show_all_results_label = "Se alla resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
@@ -531,7 +576,7 @@ $brands_url_title = "Se alla varumärken";
 
 
                         <section id="results">
-                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php'); ?>
                         </section>
                         <section id="reviews">
                               <h2 class="big l10n">Omdömen</h2>
@@ -569,6 +614,12 @@ $brands_url_title = "Se alla varumärken";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">

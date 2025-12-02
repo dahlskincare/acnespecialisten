@@ -279,6 +279,69 @@ $results = array(
     ),
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-vita-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Vita pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - vita pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda.webp',
+        image_alt: 'Röda pormaskar före och efter behandling',
+        image_title: 'Resultat - röda pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad.webp',
+        image_alt: 'Pormaskar med rodnad före och efter behandling',
+        image_title: 'Resultat - pormaskar rodnad',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-inflammerad.webp',
+        image_alt: 'Inflammerad hy med pormaskar före och efter behandling',
+        image_title: 'Resultat - inflammerad pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mycket.webp',
+        image_alt: 'Mycket pormaskar före och efter behandling',
+        image_title: 'Resultat - mycket pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - pormaskar kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-panna.webp',
+        image_alt: 'Pormaskar på pannan före och efter behandling',
+        image_title: 'Resultat - pormaskar panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-nasa.webp',
+        image_alt: 'Pormaskar på näsan före och efter behandling',
+        image_title: 'Resultat - pormaskar näsa',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kinder.webp',
+        image_alt: 'Pormaskar på kinder före och efter behandling',
+        image_title: 'Resultat - pormaskar kinder',
+        content: '',
+    ),
+);
+
 $reviews_title = 'Omdömen';
 
 $reviews_view_more = 'Se alla omdömen';
@@ -485,7 +548,10 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -515,6 +581,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">

@@ -509,6 +509,51 @@ $results = array(
     ),
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-tinning.webp',
+        image_alt: 'Hudförändring på tinningen före och efter behandling',
+        image_title: 'Resultat - hudförändring på tinningen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-axel.webp',
+        image_alt: 'Hudförändring på axeln före och efter behandling',
+        image_title: 'Resultat - hudförändring på axeln',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-lapp.webp',
+        image_alt: 'Hudförändring på läppen före och efter behandling',
+        image_title: 'Resultat - hudförändring på läppen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-vid-orat.webp',
+        image_alt: 'Hudförändring vid örat före och efter behandling',
+        image_title: 'Resultat - hudförändring vid örat',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nasa.webp',
+        image_alt: 'Hudförändring på näsan före och efter behandling',
+        image_title: 'Resultat - hudförändring på näsan',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-rygg.webp',
+        image_alt: 'Hudförändring på ryggen före och efter behandling',
+        image_title: 'Resultat - hudförändring på ryggen',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/hudforandringar/hudforandringar-resultat-fore-efter-nyckelben.webp',
+        image_alt: 'Hudförändring på nyckelbenet före och efter behandling',
+        image_title: 'Resultat - hudförändring på nyckelbenet',
+        content: '',
+    ),
+);
+
 $reviews_title = 'Omdömen';
 
 $reviews_view_more = 'Se alla omdömen';
@@ -843,7 +888,7 @@ $all_brands = array(
                 <?php } ?>
 
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php'); ?>
+                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php') ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -873,6 +918,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">

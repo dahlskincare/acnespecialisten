@@ -130,8 +130,8 @@
                 <a href="/presentkort.php" title="Presentkort">Läs mer</a>
             </div>
             <div class="important-notice-slide offscreen-right">
-                <span>Elevbehandlingar</span>
-                <a href="/elevbehandlingar.php" title="Elevbehandlingar">Läs mer</a>
+                <span>Friskvårdsbehandlingar</span>
+                <a href="/ansiktsbehandlingar.php" title="Friskvårdsbehandlingar">Läs mer</a>
             </div>
             <div class="important-notice-slide-button" id="important-notice-prev" onclick="HeaderDesktop.slidePrev()"><?php icon('navigate-next') ?></div>
             <div class="important-notice-slide-button" id="important-notice-next" onclick="HeaderDesktop.slideNext()"><?php icon('navigate-next') ?></div>

@@ -41,6 +41,69 @@ $green_banner_content = new GreenBannerContent(
       ]
 );
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-flackar.webp',
+        image_alt: 'Fläckar från ärr före och efter behandling',
+        image_title: 'Resultat - fläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-kind.webp',
+        image_alt: 'Ärr på kind före och efter behandling',
+        image_title: 'Resultat - ärr på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pigmentfläckar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Ärr i ansiktet före och efter behandling',
+        image_title: 'Resultat - ärr i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pigmentflackar/pigmentflackar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pigmentfläckar på kind före och efter behandling',
+        image_title: 'Resultat - pigmentfläckar på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning.webp',
+        image_alt: 'Ärr på tinning före och efter behandling',
+        image_title: 'Resultat - ärr på tinning',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-tinning-man.webp',
+        image_alt: 'Ärr på tinning före och efter behandling',
+        image_title: 'Resultat - ärr tinning man',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-gropar.webp',
+        image_alt: 'Gropar från ärr före och efter behandling',
+        image_title: 'Resultat - gropar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-brostet.webp',
+        image_alt: 'Ärr på bröstet före och efter behandling',
+        image_title: 'Resultat - ärr på bröst',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/arr/arr-resultat-fore-efter-ryggen.webp',
+        image_alt: 'Ärr på ryggen före och efter behandling',
+        image_title: 'Resultat - ärr på rygg',
+        content: '',
+    ),
+);
+
 $description_title = 'Vad är postinflammatorisk hyperpigmentering?';
 $description_text = '<p class="p200">Postinflammatorisk hyperpigmentering (PIH) är en tillfällig hudåkomma där huden blir mörkare efter inflammation eller skada. Detta uppstår ofta efter akne, eksem, psoriasis eller hudskador som solbränna eller kemiska irritationer. PIH visar sig som mörka fläckar som kan vara rosa, röda, bruna, lila eller svarta beroende på hudton och skadans allvarlighet. Trots att PIH inte är farligt, kan det vara kosmetiskt störande och påverka självförtroendet.</p>
 <p class="p200 mt-m">På AcneSpecialisten behandlar vi PIH med individuellt anpassade metoder, som laser, microneedling och kemiska peelingar, för att jämna ut hudtonen och ge en klarare och fläckfri hud.</p>';
@@ -436,7 +499,7 @@ $brands_url_title = "Se alla varumärken";
                         <section id="results">
                               <?php
                               $results_title = 'Resultat';
-                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
                               ?>
                         </section>
                         <section id="reviews">
@@ -476,6 +539,12 @@ $brands_url_title = "Se alla varumärken";
                                           </div>
                                     <?php } ?>
                               </div>
+                        </section>
+                        <section id="results-narrow" class="large-margin">
+                              <?php
+                              $results_title = 'Jämför resultaten';
+                              include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                              ?>
                         </section>
                   </div>
                   <section id="brands">

@@ -59,6 +59,69 @@ $model = new Service(
 
 $floating_box = 'Effektiv porrengöring.';
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Akne i ansiktet före och efter behandling',
+        image_title: 'Resultat - akne i ansikte',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-panna.webp',
+        image_alt: 'Akne på kinder och panna före och efter behandling',
+        image_title: 'Resultat - akne på kinder och panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-inflammerad-hy.webp',
+        image_alt: 'Inflammerad hy med akne före och efter behandling',
+        image_title: 'Resultat - inflammerad hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar-kind.webp',
+        image_alt: 'Svår akne på kind före och efter behandling',
+        image_title: 'Resultat - svår akne på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mycket.webp',
+        image_alt: 'Mycket akne före och efter behandling',
+        image_title: 'Resultat - mycket akne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-mild.webp',
+        image_alt: 'Mild akne före och efter behandling',
+        image_title: 'Resultat - mild akne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+        image_alt: 'Porig hy med pormaskar före och efter behandling',
+        image_title: 'Resultat - porig hy',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind.webp',
+        image_alt: 'Pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - pormaskar på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy',
+        content: '',
+    ),
+);
+
 $description_title = 'Vad är porrengöring?';
 $description_text = '<p class="p200">Porrengöring är en ansiktsbehandling utformad för att rensa porerna från talg, smuts och döda hudceller för att <a class="b200 underline color-deep-sea-400" href="/pormaskar.php" title="Mer information om pormaskar">få bort pormaskar</a>. Denna noggranna rengöringsprocess fokuserar på att effektivt avlägsna de blockeringar som kan leda till hudproblem såsom pormaskar och akne, samtidigt som den bidrar till en mer balanserad hud. Behandlingen är särskilt fördelaktig för personer med en benägenhet för oljig hud och de som regelbundet upplever tilltäppta porer.</p>
 <p class="p200 mt-m">Under en <a class="b200 underline color-deep-sea-400" href="/portomning.php" title="Mer information om portömning">portömning</a> utförs en serie steg för att varsamt men grundligt rensa hudens yta, inklusive en exfoliering som hjälper till att lösgöra och avlägsna döda hudceller samt en djuprengöring för att direkt ta itu med och rensa ut talg och orenheter från porerna. Denna metod bidrar till att minska risken för inflammationer och stödjer en klarare, mer strålande hud. För dem som strävar efter att bibehålla en ren och frisk hud, erbjuder porrengöring en djupgående lösning som lämnar huden ren, återfuktad och med en märkbar minskning av synliga pormaskar.</p>';
@@ -599,7 +662,10 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -628,6 +694,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">

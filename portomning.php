@@ -59,6 +59,69 @@ $model = new Service(
 $floating_box_title = "Portömning";
 $floating_box = 'Ansiktsbehandling som tömmer porerna på talg och döda hudceller, för att bli av med pormaskar och finnar.';
 
+$results_images = array(
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-pustler-panna.webp',
+        image_alt: 'Pustler på pannan före och efter behandling',
+        image_title: 'Resultat - pustler på panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kind.webp',
+        image_alt: 'Akne på kind före och efter behandling',
+        image_title: 'Resultat - akne på kind',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-kinder-haka.webp',
+        image_alt: 'Akne på kinder och haka före och efter behandling',
+        image_title: 'Resultat - akne på kinder och haka',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-svar.webp',
+        image_alt: 'Svår akne före och efter behandling',
+        image_title: 'Resultat - svår akne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-aktiv.webp',
+        image_alt: 'Aktiv akne före och efter behandling',
+        image_title: 'Resultat - aktiv akne',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/akne/akne-finnar-resultat-fore-efter-panna.webp',
+        image_alt: 'Akne på pannan före och efter behandling',
+        image_title: 'Resultat - akne på panna',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-haka.webp',
+        image_alt: 'Pormaskar på kind och haka före och efter behandling',
+        image_title: 'Resultat - pormaskar på kind och haka',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-manga-ansikte.webp',
+        image_alt: 'Många pormaskar i ansiktet före och efter behandling',
+        image_title: 'Resultat - många pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
+        image_alt: 'Svarta pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - svarta pormaskar',
+        content: '',
+    ),
+    new LabelImage(
+        image_url: '/bilder/resultat/832x476/blandhy/blandhy-resultat-fore-efter-ansikte-vanster.webp',
+        image_alt: 'Blandhy i ansiktet före och efter behandling',
+        image_title: 'Resultat - blandhy',
+        content: '',
+    ),
+);
+
 $description_title = 'Vad är portömning?';
 $description_text = '<p class="p200">Portömning är en ansiktsbehandling utformad för att djuprengöra porerna genom att noggrant extrahera komedoner (svarta och vita pormaskar) orsakade av talg och döda hudceller. Denna behandling minskar risken för finnar och förbättrar hudens utseende genom att avlägsna orenheter som kan leda till hudproblem. Utförd av professionella hudterapeuter, erbjuder portömning en skonsam och effektiv lösning för att uppnå en klarare, mjukare hud. Den är idealisk för de som kämpar med tilltäppta porer och söker en omfattande rengöring.</p>';
 
@@ -605,7 +668,10 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <section id="results" class="large-margin">
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php') ?>
+                    <?php
+                    $results_title = 'Resultat';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results_grid/results_grid.php');
+                    ?>
                 </section>
                 <section id="reviews" class="large-margin">
                     <h2 class="big l10n"><?php echo $reviews_title ?></h2>
@@ -635,6 +701,12 @@ $all_brands = array(
                     </div>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
+                </section>
+                <section id="results-narrow" class="large-margin">
+                    <?php
+                    $results_title = 'Jämför resultaten';
+                    include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/results/results_narrow.php');
+                    ?>
                 </section>
             </div>
             <section id="brands">
