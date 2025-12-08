@@ -453,12 +453,15 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Kan alla hudtyper få pigmentfläckar?',
-                  text: '<p class="p200"> Ja, pigmentfläckar kan påverka människor med alla hudtyper. Dock kan risknivån och typerna av pigmentfläckar variera beroende på hudens pigmentering och genetiska faktorer. Personer med ljusare hud kan märka en större kontrast med hyperpigmentering, medan de med mörkare hudtoner kan vara mer benägna att utveckla vissa typer av fläckar som postinflammatorisk hyperpigmentering.</p>'
+                  text: '<p class="p200">Ja, pigmentfläckar kan påverka människor med alla hudtyper. Dock kan risknivån och typerna av pigmentfläckar variera beroende på hudens pigmentering och genetiska faktorer. Personer med ljusare hud kan märka en större kontrast med hyperpigmentering, medan de med mörkare hudtoner kan vara mer benägna att utveckla vissa typer av fläckar som postinflammatorisk hyperpigmentering.</p>'
             ),
             new Question(
                   title: 'Hur kan jag identifiera en pigmentfläck jämfört med andra hudförändringar?',
-                  text: '<p class="p200">   Pigmentfläckar är vanligtvis platta, mörkare områden som varierar i storlek och form och är tydligare än den omgivande huden. De kan förekomma var som helst på kroppen men är vanligast i ansiktet, på händerna och andra områden som utsätts för solen. Om du är osäker på dina pigmentfläckar, är det alltid bäst att boka en konsultation hos en av våra hudterapeuter för en korrekt diagnos och råd.</p>'
-
+                  text: '<p class="p200">Pigmentfläckar är vanligtvis platta, mörkare områden som varierar i storlek och form och är tydligare än den omgivande huden. De kan förekomma var som helst på kroppen men är vanligast i ansiktet, på händerna och andra områden som utsätts för solen. Om du är osäker på dina pigmentfläckar, är det alltid bäst att boka en konsultation hos en av våra hudterapeuter för en korrekt diagnos och råd.</p>'
+            ),
+            new Question(
+                  title: 'Hur behandlar man fräknar?',
+                  text: '<p class="p200">Fräknar är pigmentfläckar som orsakas av solexponering och genetiska faktorer. De behandlas med metoder som riktar sig mot melaninproduktion i huden, såsom IPL, laser, kemisk peeling eller microneedling. Dessa behandlingar hjälper till att minska synligheten av fräknar och skapa en jämnare hudton.</p>'
             )
       ),
 
