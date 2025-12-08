@@ -386,6 +386,10 @@ $faq_categories = array(
                   title: 'Anpassar ni behandlingarna för olika hudtyper?',
                   text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
             ),
+            new Question(
+                  title: 'Vilka områden kan behandlas?',
+                  text: '<p class="p200">Vi behandlar födelsemärken på de flesta områden av kroppen, inklusive ansikte, hals, kropp, armar och ben. Intima områden behandlas inte.</p>'
+            ),
       ),
 );
 
