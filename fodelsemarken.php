@@ -390,6 +390,10 @@ $faq_categories = array(
                   title: 'Vilka områden kan behandlas?',
                   text: '<p class="p200">Vi behandlar födelsemärken på de flesta områden av kroppen, inklusive ansikte, hals, kropp, armar och ben. Intima områden behandlas inte.</p>'
             ),
+            new Question(
+                  title: 'Finns det någon åldersgräns för behandling av födelsemärken?',
+                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av födelsemärken.</p>'
+            ),
       ),
 );
 

@@ -926,6 +926,10 @@ $faq_categories = array(
             title: 'Vilka områden kan behandlas med laser?',
             text: '<p class="p200">Vi behandlar de flesta områden av kroppen med laser, inklusive ansikte, hals, kropp, armar och ben. Intima områden behandlas inte med laser för hudförändringar.</p>'
         ),
+        new Question(
+            title: 'Finns det någon åldersgräns för laserbehandling?',
+            text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå laserbehandlingar. Detta är en säkerhetsåtgärd som gäller för alla våra maskinbaserade behandlingar.</p>'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
