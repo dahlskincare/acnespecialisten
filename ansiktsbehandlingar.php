@@ -116,7 +116,7 @@ $big_types = array(
     ),
     new Service(
         title: 'Ansiktsbehandling - Antistress',
-        duration: '70 min',
+        duration: '50 min',
         price: null,
         content: '<p class="p200">Unna dig en paus från vardagens stress med vår Ansiktsbehandling Antistress. Den börjar med en lätt rengöring för att varsamt fräscha upp huden. Den vitaliserande oljemassagen ger en känsla av avkoppling och balans. Behandlingen avslutas med vår skräddarsydda LED-ljusterapi och en riktligt återfuktande kräm, allt för att säkerställa en total känsla av välbefinnande.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-antistress.webp',
@@ -153,7 +153,7 @@ $big_types = array(
     ),
     new Service(
         title: 'Hudterapeutens val',
-        duration: '60 min',
+        duration: '70 min',
         price: null,
         content: '<p class="p200">En ansiktsbehandling som skräddarsys helt efter dina behov och vår hudterapeuts rekommendationer. Behandlingen inkluderar en sheetmask i kombination med LED-mask och kompletteras med olika moment som bäst passar din hudtyp. Exempelvis kan detta inkludera exfoliering, vapozon, tömning av porer, brynformning och serum som är särskilt utvalda för dig.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-hudterapeutens-val.webp',
@@ -190,7 +190,7 @@ $big_types = array(
     ),
     new Service(
         title: 'Peel, Boost & Glow',
-        duration: '60 min',
+        duration: '70 min',
         price: null,
         content: '<p class="p200">För en uppfriskande och lystergivande hudupplevelse, prova vår Peel, Boost & Glow behandling. Den här behandling är idealisk för dig som söker en intensiv fuktboost kombinerat med en omedelbar lyster. Vi använder oss av avancerade syrabaserade produkter för att noggrant rena huden och minimera porerna. Brynplock ingår också i behandlingen för att fullända din look. Avslutningsvis applicerar vi en djupt återfuktande sheetmask och använder LED-ljusteknik för att främja anti-age effekter och förbättra mikrocirkulationen i huden.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandling-peel-boost-glow.webp',
