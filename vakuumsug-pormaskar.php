@@ -97,7 +97,7 @@ $results_images = array(
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mykcet-ansikte.webp',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mycket-ansikte.webp',
         image_alt: 'Mycket pormaskar före och efter vakuumbehandling',
         image_title: 'Resultat - mycket pormaskar',
         content: '',
