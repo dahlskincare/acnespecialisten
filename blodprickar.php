@@ -350,7 +350,36 @@ $results_images = array(
 $show_all_results_label = "Se alla resultat";
 $show_all_results_title = "se flera behandlingsresultat";
 
-
+$faq_title = 'Frågor & Svar';
+$faq_categories = array(
+      'Generella frågor' => array(
+            new Question(
+                  title: 'Hur skiljer sig blodprickar från andra röda märken på huden?',
+                  text: '<p class="p200">Blodprickar (hemangiom) är tydligt avgränsade röda till lila prickar som orsakas av en ansamling av blodkärl under huden. De skiljer sig från ytliga blodkärl (couperose) som syns som tunna röda linjer, och från födelsemärken som ofta har en brunare ton. Blodprickar kan vara både platta och upphöjda, och varierar i storlek från några millimeter till flera centimeter.</p>'
+            ),
+            new Question(
+                  title: 'Är blodprickar farliga eller kan de leda till komplikationer?',
+                  text: '<p class="p200">Blodprickar är godartade och i regel helt ofarliga. De kan dock ibland blöda om de skadas eller utsätts för friktion. Om en blodprick förändras i storlek, färg eller form, eller om du är osäker på vad det är, rekommenderar vi att du konsulterar en läkare för bedömning innan behandling.</p>'
+            ),
+            new Question(
+                  title: 'Varför uppstår blodprickar och kan man förebygga dem?',
+                  text: '<p class="p200">Blodprickar uppstår när blodkärl samlas och bildar en liten knuta under huden. Den exakta orsaken är okänd, men de blir vanligare med åldern och kan ha genetiska faktorer. Det finns tyvärr inga kända sätt att förebygga blodprickar, men de är ofarliga och kan enkelt behandlas om de upplevs som störande.</p>'
+            ),
+            new Question(
+                  title: 'Vad är skillnaden mellan CryoPen och laser för behandling av blodprickar?',
+                  text: '<p class="p200">CryoPen använder extrem kyla för att frysa bort blodpricken och kräver oftast 1-3 behandlingar med återbesök. Laserbehandling använder högintensivt ljus som omvandlas till värme för att behandla blodpricken, och ger ofta resultat redan efter en behandling. Båda metoderna är effektiva, och vid din kostnadsfria konsultation rekommenderar vi den metod som passar bäst för just din situation.</p>'
+            ),
+            new Question(
+                  title: 'Vilka områden kan behandlas?',
+                  text: '<p class="p200">Vi behandlar blodprickar på de flesta områden av kroppen, inklusive ansikte, hals, kropp, armar och ben. Intima områden behandlas inte.</p>'
+            ),
+            new Question(
+                  title: 'Finns det någon åldersgräns för behandling av blodprickar?',
+                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av blodprickar med CryoPen eller laser. Hos barn försvinner blodprickar ofta av sig själva, varför vi rekommenderar att avvakta tills vuxen ålder om behandling övervägs.</p>'
+            ),
+      ),
+);
+$faq_view_more = 'Se alla frågor & svar';
 
 $specialists = array(
       new Specialist(
@@ -540,7 +569,11 @@ $brands_url_title = "Se alla varumärken";
                               include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/reviews/reviews.php');
                               ?>
                         </section>
-
+                        <section id="faq">
+                              <h2 class="big l10n"><?php echo $faq_title ?></h2>
+                              <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Se alla frågor" href="fragor-svar.php"><?php echo $faq_view_more ?></a>
+                        </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">
                                     <h2 class="big l10n">Våra hudterapeuter</h2>
