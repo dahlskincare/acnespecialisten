@@ -922,6 +922,14 @@ $faq_categories = array(
             title: 'Kan alla hudtyper behandlas säkert med laser?',
             text: '<p class="p200">De flesta hudtyper kan behandlas med laser, men det finns vissa begränsningar. Personer med mycket mörk hud kan ha en ökad risk för pigmentförändringar som ett resultat av vissa lasertyper. Under den initiala konsultationen bedömer vi din hudtyp och eventuella risker för att säkerställa att behandlingen är säker och effektiv för dig.</p>'
         ),
+        new Question(
+            title: 'Vilka områden kan behandlas med laser?',
+            text: '<p class="p200">Vi behandlar de flesta områden av kroppen med laser, inklusive ansikte, hals, kropp, armar och ben. Intima områden behandlas inte med laser för hudförändringar.</p>'
+        ),
+        new Question(
+            title: 'Finns det någon åldersgräns för laserbehandling?',
+            text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå laserbehandlingar. Detta är en säkerhetsåtgärd som gäller för alla våra maskinbaserade behandlingar.</p>'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';

@@ -598,6 +598,10 @@ $faq_categories = array(
             <p class="p200 mt-xl">Pigmentförändringar, såsom hypopigmentering (blekare hud) eller hyperpigmentering (mörkare hud), kan förekomma, särskilt hos personer med mörkare hudtoner. Dessa förändringar är oftast tillfälliga men kan vara permanenta i vissa fall.</p>
             <p class="p200 mt-xl">Det är viktigt att följa alla eftervårdsinstruktioner från din behandlare för att minimera risken för biverkningar och säkerställa en säker läkningsprocess. Om du upplever några oväntade symtom efter behandling med CryoPen, bör du omedelbart kontakta din vårdgivare.</p>'
         ),
+        new Question(
+            title: 'Vilka områden kan behandlas?',
+            text: '<p class="p200">Vi behandlar hudförändringar på de flesta områden av kroppen, inklusive ansikte, hals, kropp, armar och ben. Intima områden behandlas inte med CryoPen.</p>'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';

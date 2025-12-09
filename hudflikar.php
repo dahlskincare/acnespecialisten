@@ -394,6 +394,14 @@ $faq_categories = array(
                   title: 'Vilka är de mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden?',
                   text: 'De mest effektiva metoderna för att ta bort hudflikar på halsen och andra synliga områden inkluderar kryoterapi och laserbehandling . Det är viktigt att behandlingen utförs av en hudterapeut för att minimera risken för ärrbildning och infektion.'
             ),
+            new Question(
+                  title: 'Vilka områden kan behandlas?',
+                  text: '<p class="p200">Vi behandlar hudflikar på de flesta områden av kroppen, inklusive ansikte, hals, kropp, armar och ben. Intima områden behandlas inte med CryoPen.</p>'
+            ),
+            new Question(
+                  title: 'Finns det någon åldersgräns för behandling av hudflikar?',
+                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av hudflikar med CryoPen.</p>'
+            ),
       ),
 );
 
