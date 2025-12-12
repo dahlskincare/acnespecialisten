@@ -281,31 +281,31 @@ $results = array(
 
 $results_images = array(
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-vita-resultat-fore-efter-ansikte.webp',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-vita.webp',
         image_alt: 'Vita pormaskar i ansiktet före och efter behandling',
         image_title: 'Resultat - vita pormaskar',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda.webp',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-roda-ansikte.webp',
         image_alt: 'Röda pormaskar före och efter behandling',
         image_title: 'Resultat - röda pormaskar',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad.webp',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-rodnad-ansikte.webp',
         image_alt: 'Pormaskar med rodnad före och efter behandling',
         image_title: 'Resultat - pormaskar rodnad',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-inflammerad.webp',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-ansikte-inflammerad.webp',
         image_alt: 'Inflammerad hy med pormaskar före och efter behandling',
         image_title: 'Resultat - inflammerad pormaskar',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mycket.webp',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-mycket-ansikte.webp',
         image_alt: 'Mycket pormaskar före och efter behandling',
         image_title: 'Resultat - mycket pormaskar',
         content: '',
@@ -323,21 +323,21 @@ $results_images = array(
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-panna.webp',
-        image_alt: 'Pormaskar på pannan före och efter behandling',
-        image_title: 'Resultat - pormaskar panna',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-haka.webp',
+        image_alt: 'Pormaskar på hakan före och efter behandling',
+        image_title: 'Resultat - pormaskar haka',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-nasa.webp',
-        image_alt: 'Pormaskar på näsan före och efter behandling',
-        image_title: 'Resultat - pormaskar näsa',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-porig-hy.webp',
+        image_alt: 'Porig hy med pormaskar före och efter behandling',
+        image_title: 'Resultat - porig hy',
         content: '',
     ),
     new LabelImage(
-        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kinder.webp',
-        image_alt: 'Pormaskar på kinder före och efter behandling',
-        image_title: 'Resultat - pormaskar kinder',
+        image_url: '/bilder/resultat/832x476/pormaskar/pormaskar-resultat-fore-efter-kind-svarta.webp',
+        image_alt: 'Svarta pormaskar på kind före och efter behandling',
+        image_title: 'Resultat - svarta pormaskar kind',
         content: '',
     ),
 );
