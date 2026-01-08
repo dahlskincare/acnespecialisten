@@ -554,7 +554,7 @@ $results_images = array(
 
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generella frågor' => array(
             new Question(
                   title: 'Vad är en hudförändring och varför uppstår den?',
                   text: '<p class="p200">En hudförändring refererar till alla förändringar eller oregelbundenheter som uppträder på huden, vilka kan vara tillfälliga eller permanenta. De kan uppstå av en mängd olika skäl, inklusive genetik, exponering för sol, ålder, hormonella förändringar, skador eller infektioner.</p>'

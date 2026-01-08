@@ -376,8 +376,6 @@ $faq_categories = array(
                   title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
                   text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
             ),
-      ),
-      'Frågor om behandling' => array(
             new Question(
                   title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
                   text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
