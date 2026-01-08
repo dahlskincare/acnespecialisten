@@ -369,20 +369,16 @@ $show_all_results_title = "se flera behandlingsresultat";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Hur skiljer sig födelsemärken från leverfläckar och andra hudförändringar?',
+                  text: '<p class="p200">Födelsemärken är pigmenterade hudförändringar som ofta är medfödda eller utvecklas tidigt i livet. De kan vara bruna, svarta eller hudfärgade och varierar i storlek och form. Leverfläckar är liknande men utvecklas oftast senare i livet på grund av solexponering. Både födelsemärken och leverfläckar är godartade hudförändringar som kan behandlas estetiskt om de upplevs som störande.</p>'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
+                  title: 'Är födelsemärken farliga eller kan de leda till komplikationer?',
+                  text: '<p class="p200">De flesta födelsemärken är godartade och helt ofarliga. Det är dock viktigt att hålla koll på eventuella förändringar i storlek, form eller färg. Om ett födelsemärke förändras, kliar, blöder eller ser annorlunda ut, bör du konsultera en läkare för bedömning. Vi på AcneSpecialisten behandlar endast godartade hudförändringar och rekommenderar att du först får dina födelsemärken bedömda av en läkare om du är osäker.</p>'
             ),
             new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
-            ),
-            new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Vad är skillnaden mellan CryoPen och laser för behandling av födelsemärken?',
+                  text: '<p class="p200">CryoPen använder extrem kyla för att frysa bort födelsemärket och kräver oftast 1-3 behandlingar med återbesök som bör utföras enligt det rekommenderade intervallet för bästa resultat. Laserbehandling använder högintensivt ljus som omvandlas till värme för att bränna bort födelsemärket, och ger ofta resultat redan efter en behandling. Båda metoderna är effektiva, och vid din kostnadsfria konsultation rekommenderar vi den metod som passar bäst för just ditt födelsemärke.</p>'
             ),
             new Question(
                   title: 'Vilka områden kan behandlas?',
@@ -390,7 +386,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Finns det någon åldersgräns för behandling av födelsemärken?',
-                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av födelsemärken.</p>'
+                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av födelsemärken hos AcneSpecialisten.</p>'
             ),
       ),
 );
