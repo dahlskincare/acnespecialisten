@@ -3,6 +3,7 @@
 @import '../styles/util/mixins';
 @import '../includes/widgets/results_grid/results_grid';
 
+// Force recompilation
 section#banner {
     #filters-touch-container {
         padding-bottom: $xl;
