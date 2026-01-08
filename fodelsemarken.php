@@ -386,7 +386,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Finns det någon åldersgräns för behandling av födelsemärken?',
-                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av födelsemärken hos AcneSpecialisten.</p>'
+                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av födelsemärken.</p>'
             ),
       ),
 );

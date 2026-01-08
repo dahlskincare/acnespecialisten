@@ -530,7 +530,7 @@ $results_images = array(
 
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generellt om akneärr' => array(
             new Question(
                   title: 'Är det möjligt att helt bli av med mina acneärr?',
                   text: '<p class="p200">Ja, det är absolut möjligt att bli av med dina acneärr! Under vår kostnadsfria hudkonsultation kommer vi att noggrant undersöka och identifiera graden av ditt problem för att hjälpa dig att behandla det på bästa möjliga sätt. Genom att följa våra individuella råd och den skräddarsydda behandlingsplan vi rekommenderar, kan dina acneärr försvinna. Det är dock viktigt att förstå att tidsramen kan variera beroende på hur grova eller djupa ärr du har. Vi kommer att arbeta tillsammans med dig för att uppnå det bästa resultatet.</p>'
