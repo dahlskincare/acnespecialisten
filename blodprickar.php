@@ -367,7 +367,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vad är skillnaden mellan CryoPen och laser för behandling av blodprickar?',
-                  text: '<p class="p200">CryoPen använder extrem kyla för att frysa bort blodpricken och kräver oftast 1-3 behandlingar med återbesök. Laserbehandling använder högintensivt ljus som omvandlas till värme för att behandla blodpricken, och ger ofta resultat redan efter en behandling. Båda metoderna är effektiva, och vid din kostnadsfria konsultation rekommenderar vi den metod som passar bäst för just din situation.</p>'
+                  text: '<p class="p200">CryoPen använder extrem kyla för att frysa bort blodpricken och kräver oftast 1-3 behandlingar med återbesök som bör utföras enligt det rekommenderade intervallet för bästa resultat. Laserbehandling använder högintensivt ljus som omvandlas till värme för att behandla blodpricken, och ger ofta resultat redan efter en behandling. Båda metoderna är effektiva, och vid din kostnadsfria konsultation rekommenderar vi den metod som passar bäst för just din situation.</p>'
             ),
             new Question(
                   title: 'Vilka områden kan behandlas?',

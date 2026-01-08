@@ -323,7 +323,7 @@ $services = array(
             title: 'Laser mot hudförändringar',
             duration: '20 min',
             price: 'Från 1995 kr',
-            content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling.',
+            content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling. Eventuella återbesök ingår kostnadsfritt och ska utföras enligt det rekommenderade intervallet för bästa resultat.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
