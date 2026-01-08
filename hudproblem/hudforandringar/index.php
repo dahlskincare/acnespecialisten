@@ -323,7 +323,7 @@ $services = array(
             title: 'Laser mot hudförändringar',
             duration: '20 min',
             price: 'Från 1995 kr',
-            content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling.',
+            content: 'Laserbehandling riktar högintensivt ljus mot hudförändringar, vilket "bränner" bort dem genom att omvandla ljuset till värme. Denna metod ger ofta omedelbara resultat, med hudförändringar som försvinner direkt efter behandling. Eventuella återbesök ingår kostnadsfritt och ska utföras enligt det rekommenderade intervallet för bästa resultat.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -554,7 +554,7 @@ $results_images = array(
 
 
 $faq_categories = array(
-      'Generellt om akne' => array(
+      'Generella frågor' => array(
             new Question(
                   title: 'Vad är en hudförändring och varför uppstår den?',
                   text: '<p class="p200">En hudförändring refererar till alla förändringar eller oregelbundenheter som uppträder på huden, vilka kan vara tillfälliga eller permanenta. De kan uppstå av en mängd olika skäl, inklusive genetik, exponering för sol, ålder, hormonella förändringar, skador eller infektioner.</p>'
@@ -577,7 +577,7 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Vad kostar det att ta bort en åldersvårta?',
-                  text: '<p class="p200">Att ta bort en åldersvårta (seborroisk keratos) kostar från 1595 kr beroende på behandlingsmetod. Med <a class="b200 underline color-deep-sea-400" href="https://boka.acnespecialisten.se?flow=cryopen" title="Boka CryoPen behandling">CryoPen</a>, som fryser bort åldersvårtan, kostar första behandlingen 1595 kr och återbesök 295 kr per åldersvårta. CryoPen kräver vanligtvis 1-3 behandlingar för att helt avlägsna åldersvårtan. Med <a class="b200 underline color-deep-sea-400" href="https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections" title="Boka laserbehandling">laser</a>, som bränner bort åldersvårtan direkt, kostar behandlingen från 1995 kr och kräver oftast ingen uppföljning. Om återbesök skulle behövas vid laserbehandling är det kostnadsfritt. Vi erbjuder alltid en <a class="b200 underline color-deep-sea-400" href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles" title="Boka gratis konsultation">kostnadsfri konsultation</a> där vår hudterapeut undersöker din åldersvårta och rekommenderar den mest lämpliga metoden för just ditt fall.</p>'
+                  text: '<p class="p200">Att ta bort en åldersvårta (seborroisk keratos) kostar från 1595 kr beroende på behandlingsmetod. Med <a class="b200 underline color-deep-sea-400" href="https://boka.acnespecialisten.se?flow=cryopen" title="Boka CryoPen behandling">CryoPen</a>, som fryser bort åldersvårtan, kostar första behandlingen 1595 kr och återbesök 295 kr per åldersvårta. CryoPen kräver vanligtvis 1-3 behandlingar som bör utföras enligt det rekommenderade intervallet för att helt avlägsna åldersvårtan. Med <a class="b200 underline color-deep-sea-400" href="https://boka.acnespecialisten.se?flow=problem&problem=Problem_Moles&method=Method_laser_skin_imperfections" title="Boka laserbehandling">laser</a>, som bränner bort åldersvårtan direkt, kostar behandlingen från 1995 kr och kräver oftast ingen uppföljning. Eventuella återbesök vid laserbehandling ingår kostnadsfritt och ska utföras enligt det rekommenderade intervallet. Vi erbjuder alltid en <a class="b200 underline color-deep-sea-400" href="https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Moles" title="Boka gratis konsultation">kostnadsfri konsultation</a> där vår hudterapeut undersöker din åldersvårta och rekommenderar den mest lämpliga metoden för just ditt fall.</p>'
             ),
             new Question(
                   title: 'Vilka områden kan behandlas?',
