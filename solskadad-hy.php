@@ -133,24 +133,26 @@ $show_all_results_title = "se flera behandlingsresultat";
 
 
 $faq_categories = array(
-      'Generella frågor' => array(
+      'Om solskadad hud' => array(
             new Question(
-                  title: 'Är alla konsultationer kostnadsfria på AcneSpecialisten?',
-                  text: 'Ja, vi erbjuder alltid kostnadsfria konsultationer för våra kunder, förutsatt att de närvarar vid den bokade tiden.'
+                  title: 'Vad är solskadad hud och hur uppstår den?',
+                  text: '<p class="p200">Solskadad hud uppstår när huden exponeras för solens UV-strålning över tid. UV-ljuset får huden att producera mer melanin som skydd, vilket skapar ojämn pigmentering i form av solfläckar och mörka fläckar. Solskador kan även visa sig som förändringar i hudens textur där den blir förtjockad eller läderaktig, eftersom UV-strålningen bryter ner kollagen och elastin i huden.</p>'
             ),
             new Question(
-                  title: 'Vad kan jag förvänta mig under en konsultation hos AcneSpecialisten?',
-                  text: 'Under konsultationen kommer en av våra hudterapeuter att noggrant analysera din hudtyp och diskutera dina hudproblem. Vi kommer även att gå igenom din nuvarande hudvårdsrutin och ge personliga rekommendationer för behandlingar och produkter som bäst passar dina behov.'
-            ),
-      ),
-      'Frågor om behandling' => array(
-            new Question(
-                  title: 'Vilka behandlingar erbjuder AcneSpecialisten för olika hudproblem?',
-                  text: 'På AcneSpecialisten erbjuder vi ett brett utbud av behandlingar anpassade för specifika hudproblem, inklusive avancerad acnebehandling, skonsam rosaceabehandling och noggrann portömning, samt andra specialbehandlingar för olika hudtillstånd.'
+                  title: 'Hur bokar jag en konsultation för solskadad hud?',
+                  text: '<p class="p200">Du bokar enkelt en kostnadsfri konsultation via vår bokningssida. Under konsultationen gör en av våra erfarna hudterapeuter en noggrann analys av din hud och dina solskador. Vi fotograferar de berörda områdena, diskuterar dina mål och skapar en skräddarsydd behandlingsplan som passar just din hudtyp och dina behov.</p>'
             ),
             new Question(
-                  title: 'Anpassar ni behandlingarna för olika hudtyper?',
-                  text: 'Absolut, på AcneSpecialisten anpassar vi våra behandlingar för att passa en mängd olika hudtyper, från mycket känslig till oljig hy, för att säkerställa den mest effektiva och skonsamma behandlingen.'
+                  title: 'Vilka behandlingar är mest effektiva mot solskadad hud?',
+                  text: '<p class="p200">De mest effektiva behandlingarna är ljusbaserade metoder som IPL och laser, vilka bryter ned överskjutande melanin i huden. IPL är särskilt effektiv för solfläckar och pigmentförändringar, medan laser är mer precis för djupare solskador. Kemisk peeling exfolierar hudens yttre lager och jämnar ut hudtonen, medan microneedling förbättrar hudens textur. Vilken behandling som passar dig bäst avgörs under en kostnadsfri konsultation.</p>'
+            ),
+            new Question(
+                  title: 'Hur lång tid tar det att behandla solskadad hud?',
+                  text: '<p class="p200">Ytliga solfläckar kan visa förbättring efter 2-3 behandlingar, medan djupare solskador kan kräva 6-8 behandlingar eller mer. Behandlingarna utförs vanligtvis med 3-4 veckors mellanrum för att ge huden tid att läka mellan sessionerna. Solskador som byggts upp under många år tar tid att behandla, men med rätt metod kan mycket goda resultat uppnås.</p>'
+            ),
+            new Question(
+                  title: 'Kan alla hudtyper behandlas för solskador?',
+                  text: '<p class="p200">Ja, alla hudtyper kan behandlas, men metoden anpassas efter din specifika hudtyp. Ljusare hudtyper svarar ofta bra på IPL och laser, medan mörkare hudtyper kräver andra inställningar för att undvika ytterligare pigmentförändringar. Känslig hud kan behöva en mjukare approach. Vi börjar alltid med en kostnadsfri konsultation där vi analyserar din hudtyp och skapar en behandlingsplan som är säker och effektiv för dig.</p>'
             ),
       ),
 );
