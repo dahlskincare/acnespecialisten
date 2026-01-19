@@ -218,6 +218,10 @@ $results_images = array(
                                 title: 'Hur fungerar tekniken för online-konsultationen?',
                                 text: '<p class="p200">För online-konsultationer använder vi olika metoder beroende på din enhet. Om du har iOS (iPhone/iPad) ringer vi upp dig via vanligt videosamtal på din bokade tid. För Android-användare skickar vi en länk via SMS i samband med den bokade tiden. Se till att ange ditt telefonnummer korrekt när du bokar så att vi kan kontakta dig på rätt sätt.</p>'
                             ),
+                            new Question(
+                                title: 'Kan jag kontakta er för att ställa frågor innan jag bokar?',
+                                text: '<p class="p200">Absolut! Du är varmt välkommen att kontakta oss innan du bokar din konsultation. Ring oss på 08 29 61 01 så svarar våra hudterapeuter på dina frågor, eller skicka ett mejl till info@acnespecialisten.se. Du kan också använda chatten på vår webbplats för snabba svar. Vi hjälper dig gärna att välja rätt typ av konsultation för dina behov.</p>'
+                            ),
                         ),
 
                     );

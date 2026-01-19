@@ -473,6 +473,10 @@
                                                 title: 'Vilken utbildning har hudspecialisterna hos AcneSpecialisten?',
                                                 text: '<p class="p200">Alla våra hudspecialister har genomgått utbildning vid en av Sveriges Hudterapeuters Riksorganisations (SHR) godkända skolor. Många av dem är dessutom CIDESCO-certifierade, vilket är en internationellt erkänd kvalifikation. Denna höga utbildningsstandard säkerställer att vi är väl förberedda för att effektivt hjälpa personer med olika hudproblem.</p>'
                                           ),
+                                          new Question(
+                                                title: 'Hur kontaktar jag AcneSpecialisten?',
+                                                text: '<p class="p200">Det finns flera sätt att komma i kontakt med oss. Du kan ringa oss direkt på 08 29 61 01 under vardagar, skicka e-post till info@acnespecialisten.se, eller använda chatten på vår webbplats för direktkontakt. Du kan också boka en kostnadsfri konsultation direkt via vår bokningssida där våra hudspecialister kan svara på alla dina frågor.</p>'
+                                          ),
                                     ),
 
                               );
