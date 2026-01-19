@@ -220,7 +220,7 @@ $results_images = array(
                             ),
                             new Question(
                                 title: 'Kan jag kontakta er för att ställa frågor innan jag bokar?',
-                                text: '<p class="p200">Absolut! Du är varmt välkommen att kontakta oss innan du bokar din konsultation. Ring oss på 08 29 61 01 så svarar våra hudterapeuter på dina frågor, eller skicka ett mejl till info@acnespecialisten.se. Du kan också använda chatten på vår webbplats för snabba svar. Vi hjälper dig gärna att välja rätt typ av konsultation för dina behov.</p>'
+                                text: '<p class="p200">Absolut! Du är varmt välkommen att kontakta oss innan du bokar din konsultation. Ring oss på 08 29 61 01 så svarar vi på dina frågor eller skicka ett mejl till info@acnespecialisten.se. Du kan också använda chatten på vår webbplats för snabba svar. Vi hjälper dig gärna att välja rätt typ av konsultation för dina behov.</p>'
                             ),
                         ),
 
