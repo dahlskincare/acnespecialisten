@@ -5,7 +5,7 @@ include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
 $seo_title = 'IPL behandling i Stockholm - Effektiv hudförbättring';
 $seo_description = 'Upptäck Stockholms ledande klinik för IPL-behandlingar. Våra hudterapeuter erbjuder skräddarsydda behandlingsplaner som förbättrar hudton och textur.';
-$seo_keywords = 'ipl, ipl laser, ipl behandling, ipl ansikte före efter, ipl ansikte';
+$seo_keywords = 'ipl, ipl laser, ipl behandling, ipl hudföryngring, ipl ansikte före efter, ipl ansikte';
 
 $seo_image = '/images/treatments/large/ipl.webp';
 
@@ -189,7 +189,7 @@ $treatment_areas = array(
                 image: '/bilder/omraden/ikoner/ansikte.svg',
                 image_alt: 'Ansikte',
                 image_title: 'Ansikte',
-                title: 'IPL hudföryngring - Hela ansiktet',
+                title: 'IPL - Hela ansiktet',
                 duration: '50 min',
                 price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
