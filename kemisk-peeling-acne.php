@@ -11,7 +11,7 @@ $seo_image = 'bilder/hudbehandlingar/424x456/kemisk-peeling.webp';
 
 $path_segments = array(
     new PathSegment('Hudbhandlingar', '/hudbehandlingar/'),
-    new PathSegment('Kemisk peeling mot acne', '/kemisk-peeling-acne.php/'),
+    new PathSegment('Kemisk peeling mot acne', '/kemisk-peeling-acne.php'),
 );
 
 
