@@ -369,7 +369,7 @@ $all_brands = array(
         image_alt: 'Exceed logotyp',
         image_title: 'Exceed - microneedling',
         url: '/varumarken/exceed/',
-        url_title: 'Exceedn',
+        url_title: 'Exceed',
     ),
     new Brand(
         label: 'Microdermabrasion',
@@ -448,7 +448,7 @@ $all_brands = array(
                             <div class="mb-xl"><?php echo $treatment_area->description ?></div>
                         <?php
                             foreach ($treatment_area->items as $treatment_area_item) {
-                                include('../../widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                include('hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
                             }
                         } ?>
                     </section>

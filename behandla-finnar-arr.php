@@ -528,7 +528,7 @@ $brands_url_title = "Varumärken för behandling av ärr från finnar";
                     <section id="prevent">
                         <h2 class="h500 l10n"><?php echo $headline03 ?></h2>
                         <?php foreach ($products as $product) {
-                            include('../../widgets/product-card/product-card.php');
+                            include('hudproblem/widgets/product-card/product-card.php');
                         } ?>
                     </section>
                 <?php } ?>
