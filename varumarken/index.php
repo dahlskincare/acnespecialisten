@@ -120,7 +120,7 @@ $header_brands = array(
             image_alt: 'Exceed logotyp',
             image_title: 'Exceed - microneedling',
             url: 'varumarken/exceed/',
-            url_title: 'Exceedn',
+            url_title: 'Exceed',
       ),
       new Brand(
             label: 'Microdermabrasion',
@@ -179,7 +179,7 @@ $link_brands = array(
             )
       ),
       new BrandCategory(
-            label: 'Dermabration',
+            label: 'Dermabrasion',
             url: '/hudbehandlingar/dermabrasion/',
             url_title: 'Läs mer',
             services: array(
@@ -595,7 +595,7 @@ $path_segments = array(
                                           ),
                                           new Question(
                                                 title: 'Hur ofta uppdaterar Acnespecialisten sin teknologi och utrustning inom hudvård?',
-                                                text: '<p class="p200">Vi ser alltid till att ligga i framkant när det kommer till den senaste tekonolign, vi strävar efter att alltid ha den senaste och bästa, släpps nya tekonoliger på marknaden ser vi till att byta ut till det bästa som marknaden har att erbjuda.</p>'
+                                                text: '<p class="p200">Vi ser alltid till att ligga i framkant när det kommer till den senaste tekniken, vi strävar efter att alltid ha den senaste och bästa, släpps nya tekniker på marknaden ser vi till att byta ut till det bästa som marknaden har att erbjuda.</p>'
                                           ),
                                     ),
 

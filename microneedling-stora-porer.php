@@ -423,7 +423,7 @@ $all_brands = array(
         image_alt: 'Exceed logotyp',
         image_title: 'Exceed - microneedling',
         url: '/varumarken/exceed/',
-        url_title: 'Exceedn',
+        url_title: 'Exceed',
     ),
 );
 ?>
