@@ -56,6 +56,14 @@ $faq_categories = array(
             title: 'Erbjuder ni behandlingar för fransar och bryn?',
             text: 'Ja, vi erbjuder behandlingar för fransar och bryn genom skönhetsdelen av vår verksamhet Sveriges Skönhetscenter. Här hittar du behandlingar som brynplock, brynfärgning, fransfärgning och fransförlängning. Du kan läsa mer om vårt kompletta utbud av frans- och brynbehandlingar på <a class="b200 underline color-deep-sea-400" href="https://www.sverigesskonhetscenter.se/behandlingar/fransar-bryn/" target="_blank">sverigesskonhetscenter.se/behandlingar/fransar-bryn</a>.'
         ),
+        new Question(
+            title: 'Behandlar ni eksem?',
+            text: '<p class="p200">Nej, vi behandlar inte eksem i allmänhet. Vi är specialiserade på hudproblem relaterade till talg- och talgkörtelproduktion. Däremot behandlar vi seborroiskt eksem (även kallat mjälleksem eller seborré), som är en specifik typ av hudtillstånd som drabbar områden med hög talgproduktion som hårbotten, ögonbryn och ansiktet. Om du har andra typer av eksem som atopiskt eksem eller kontakteksem rekommenderar vi att du kontaktar en hudläkare för rätt behandling.</p>'
+        ),
+        new Question(
+            title: 'Behandlar ni xanthelasma?',
+            text: '<p class="p200">Nej, vi behandlar inte xanthelasma. Xanthelasma är gula fettansamlingar som uppstår runt ögonen och kräver medicinsk bedömning och behandling av läkare. Vi rekommenderar att du kontaktar en hudläkare eller plastikkirurg för behandling av xanthelasma.</p>'
+        ),
     ),
     'Konsultationer' => array(
         new Question(

@@ -707,6 +707,10 @@ $faq_categories = array(
             <p class="p200 mt-xl">Fraktionerad CO2-laser:<br />Fraktionerad teknik bryter upp laserljuset i tusentals små strålar (mikrostrålar) som tränger djupt in i huden för att behandla en fraktion av huden i taget, lämnar omgivande vävnad opåverkad. Detta leder till snabbare läkning eftersom endast en del av huden behandlas vid en given tidpunkt, samtidigt som det stimulerar kollagenproduktionen och hudförnyelsen. Fraktionerad CO2-laser kan med större precision behandla fina linjer, rynkor, ärr och andra hudtexturproblem med mindre risk för biverkningar och kortare återhämtningstid jämfört med traditionell CO2-laser.</p>
             <p class="p200 mt-xl">Sammanfattningsvis erbjuder fraktionerad CO2-laser fördelarna med CO2-laserbehandling men med förbättrad säkerhet, mindre återhämtningstid och lägre risk för komplikationer, vilket gör det till ett populärt val för dem som söker effektiva hudföryngringsbehandlingar.</p>'
         ),
+        new Question(
+            title: 'Går det bra att träna på gym dagen efter CO2 laser?',
+            text: '<p class="p200">Nej, vi rekommenderar starkt att du undviker träning och fysisk ansträngning de första 2-3 dagarna efter CO2-laserbehandling. Fysisk aktivitet som träning på gym ökar blodflödet och kroppstemperaturen, vilket kan förvärra svullnad och rodnad i det behandlade området samt försena läkningsprocessen. Du bör vänta minst 48-72 timmar innan du återupptar träning, och då börja försiktigt med lägre intensitet. Undvik även heta duschar, bastu och alla aktiviteter som gör att du svettas mycket under de första dagarna.</p>'
+        ),
     )
 );
 $faq_view_more = 'Se alla frågor & svar';
