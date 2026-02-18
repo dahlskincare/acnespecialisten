@@ -387,6 +387,10 @@ $faq_categories = array(
             title: 'Kan jag behandla ytliga blodkärl med hemmabehandlingar?',
             text: '<p class="p200">Tyvärr saknas en effektiv hemmabehandling för att behandla ytliga blodkärl. Orsaken är att kärlen ligger under hudytan dit hemmavårdsprodukter inte når utan att potentiellt skada huden. Det är alltid bäst att konsultera en hudterapeut för att diskutera dina behandlingsalternativ och för att säkerställa att du får en behandling som är både effektiv och säker för din hudtyp.</p>'
         ),
+        new Question(
+            title: 'Vilken IPL-maskin använder ni för att behandla ytliga blodkärl?',
+            text: '<p class="p200">Vi använder två avancerade IPL-maskiner från Alma för att behandla ytliga blodkärl: Alma Rejuve Dye-VL och Alma Harmony XL Pro. Båda maskinerna använder den specialiserade Dye-VL-teknologin som är särskilt utvecklad för att behandla blodkärl och vaskulära hudproblem. Dye-VL-tekniken riktar sig selektivt mot hemoglobinet i blodkärlen, vilket gör behandlingen både effektiv och skonsam mot omkringliggande hudvävnad.</p>'
+        ),
     )
 );
 $faq_view_more = 'Se fler frågor & svar';
