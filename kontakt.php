@@ -106,47 +106,58 @@ $salons = array(
                         </div>
                     </div>
                 </section>
-                <?php if (array_key_exists('message', $_GET)) {
+                <?php if (array_key_exists('message', $_POST)) {
                     $to = "info@acnespecialisten.se";
-                    $subject = $_GET['category'];
-                    $message = "
-                    <html>
-                    <head>
-      
-                    <title>Acnespecialisten form</title>
-                    </head>
-                    <body>                        
-                        <table>
-                            <tr>
-                                <td style='width:100px'>Kategori:</td>
-                                <td>" . $_GET['category'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>Namn:</td>
-                                <td>" . $_GET['name'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>E-post:</td>
-                                <td>" . $_GET['email'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>Nummer:</td>
-                                <td>" . $_GET['phone'] . "</td>
-                            </tr>
-                            <tr>
-                                <td style='width:100px'>Meddelande:</td>
-                                <td>" . $_GET['message'] . "</td>
-                            </tr>    
-                        </table>
-                    </body>
-                    </html>
-                    ";
+                    
+                    // Sanitize inputs to prevent HTML/Script injection
+                    $category = htmlspecialchars(strip_tags($_POST['category'] ?? ''), ENT_QUOTES, 'UTF-8');
+                    $name = htmlspecialchars(strip_tags($_POST['name'] ?? ''), ENT_QUOTES, 'UTF-8');
+                    $email = filter_var($_POST['email'] ?? '', FILTER_SANITIZE_EMAIL);
+                    $phone = htmlspecialchars(strip_tags($_POST['phone'] ?? ''), ENT_QUOTES, 'UTF-8');
+                    $user_message = htmlspecialchars(strip_tags($_POST['message'] ?? ''), ENT_QUOTES, 'UTF-8');
 
-                    $headers = "MIME-Version: 1.0" . "\r\n";
-                    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-                    $headers .= 'From: Acnespecialisten <info@acnespecialisten.se>' . "\r\n";
-                    $headers .= 'Reply-To: ' . $_GET['email'] . "\r\n";
-                    mail($to, $subject, $message, $headers);
+                    // Validate email to prevent Email Header Injection
+                    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                        $subject = $category;
+                        $message = "
+                        <html>
+                        <head>
+          
+                        <title>Acnespecialisten form</title>
+                        </head>
+                        <body>                        
+                            <table>
+                                <tr>
+                                    <td style='width:100px'>Kategori:</td>
+                                    <td>" . $category . "</td>
+                                </tr>
+                                <tr>
+                                    <td style='width:100px'>Namn:</td>
+                                    <td>" . $name . "</td>
+                                </tr>
+                                <tr>
+                                    <td style='width:100px'>E-post:</td>
+                                    <td>" . $email . "</td>
+                                </tr>
+                                <tr>
+                                    <td style='width:100px'>Nummer:</td>
+                                    <td>" . $phone . "</td>
+                                </tr>
+                                <tr>
+                                    <td style='width:100px'>Meddelande:</td>
+                                    <td>" . nl2br($user_message) . "</td>
+                                </tr>    
+                            </table>
+                        </body>
+                        </html>
+                        ";
+
+                        $headers = "MIME-Version: 1.0" . "\r\n";
+                        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+                        $headers .= 'From: Acnespecialisten <info@acnespecialisten.se>' . "\r\n";
+                        $headers .= 'Reply-To: ' . $email . "\r\n";
+                        mail($to, $subject, $message, $headers);
+                    }
                 ?>
                     <section id="confirmation">
                         <div id="confirmation-banner">
@@ -162,7 +173,7 @@ $salons = array(
                     <section id="form">
                         <!-- TOUCH -->
                         <div class="is-hidden-desktop">
-                            <form action="">
+                            <form action="" method="POST">
                                 <label for="category">
                                     <span class="l10n">Vad vill du ha hjälp med?</span>
                                     <span class="color-deep-sea-400">*</span>
@@ -201,7 +212,7 @@ $salons = array(
                         </div>
                         <!-- DESKTOP -->
                         <div class="is-hidden-touch">
-                            <form action="">
+                            <form action="" method="POST">
                                 <label for="category">
                                     <span class="l10n">Vad vill du ha hjälp med?</span>
                                     <span class="color-deep-sea-400">*</span>
