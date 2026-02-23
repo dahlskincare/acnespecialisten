@@ -379,7 +379,7 @@ $faq_categories = array(
             ),
       ),
 );
-$faq_view_more = 'Se alla frågor & svar';
+$faq_view_more = 'Se fler frågor & svar';
 
 $specialists = array(
       new Specialist(
@@ -572,7 +572,7 @@ $brands_url_title = "Se alla varumärken";
                         <section id="faq">
                               <h2 class="big l10n"><?php echo $faq_title ?></h2>
                               <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
-                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Se alla frågor" href="fragor-svar.php"><?php echo $faq_view_more ?></a>
+                              <a class="mt-xl button b200 outline expand auto-width l10n" title="Se fler frågor" href="fragor-svar.php"><?php echo $faq_view_more ?></a>
                         </section>
                         <section id="specialists">
                               <div class="flex-row justify-space-between">

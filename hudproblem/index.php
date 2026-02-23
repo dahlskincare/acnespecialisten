@@ -1599,7 +1599,7 @@ $specialists = array(
                         <div class="flex-row align-end justify-space-between">
                               <h2 class="big l10n">Frågor & svar</h2>
                               <a href="fragor-svar.php" class="button compact text is-hidden-mobile">
-                                    <span class="l10n">Se alla frågor</span>
+                                    <span class="l10n">Se fler frågor</span>
                                     <?php icon('navigate-next') ?>
                               </a>
                         </div>
