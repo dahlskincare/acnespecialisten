@@ -567,7 +567,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Kan Splendor X behandla fjun och mycket ljusa hårstrån?',
-            text: '<p class="p200">Ja, Splendor X är särskilt effektiv mot fjun och finare hårstrån tack vare sin avancerade BLEND X-teknologi som kombinerar både Nd:YAG och Alexandrite laser. Detta gör den till ett utmärkt val för behandling av finare hår som andra lasersystem kan ha svårt att hantera.</p>
+            text: '<p class="p200">Ja, Splendor X kan fungera mot fjun och finare hårstrån tack vare sin avancerade BLEND X-teknologi som kombinerar både Nd:YAG och Alexandrite laser. Detta gör den till ett utmärkt val för behandling av finare hår som andra lasersystem kan ha svårt att hantera.</p>
 
             <p class="p200 mt-m">För mycket ljusa hårstrån beror effektiviteten på mängden pigment i håret. Ju mer pigment, desto bättre resultat. Vi rekommenderar en kostnadsfri konsultation för att bedöma dina specifika förutsättningar.</p>'
         ),
