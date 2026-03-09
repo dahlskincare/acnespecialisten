@@ -442,9 +442,11 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Vilken ansiktsbehandling är bäst?',
-            text: '<p class="p200">Det finns ingen "bästa" ansiktsbehandling som passar alla eftersom varje persons hud är unik, med olika behov och problem. Populära behandlingar inkluderar hydrerande ansiktsbehandlingar, anti-aging behandlingar, och djuprengörande behandlingar för aknebenägen hud. För att hitta den bästa behandlingen för just dig, rekommenderas det att du konsulterar med en professionell hudterapeut som kan analysera din hudtyp, diskutera dina hudvårdsbehov, och rekommendera en skräddarsydd behandlingsplan.</p>
-
-            <p class="p200 mt-xl">Dessa svar är designade för att vara både informativa och engagerande, och bör anpassas ytterligare för att passa den specifika tonen och stilen på din webbsida. Det är också viktigt att uppdatera informationen regelbundet för att återspegla eventuella förändringar i behandlingar, priser, och hudvårdstrender.</p>'
+            text: '<p class="p200">Det finns ingen "bästa" ansiktsbehandling som passar alla eftersom varje persons hud är unik, med olika behov och problem. Populära behandlingar inkluderar hydrerande ansiktsbehandlingar, anti-aging behandlingar, och djuprengörande behandlingar för aknebenägen hud. För att hitta den bästa behandlingen för just dig, rekommenderas det att du konsulterar med en professionell hudterapeut som kan analysera din hudtyp, diskutera dina hudvårdsbehov, och rekommendera en skräddarsydd behandlingsplan.</p>'
+        ),
+        new Question(
+            title: 'Finns det någon åldersgräns för ansiktsbehandlingar?',
+            text: '<p class="p200">Nej, våra ansiktsbehandlingar har ingen åldersgräns och vi välkomnar kunder i alla åldrar. Vi behandlar många ungdomar med hudproblem som akne och pormaskar. Boka gärna en kostnadsfri konsultation så hjälper vi dig att hitta rätt behandling för din hudtyp.</p>'
         ),
     )
 );

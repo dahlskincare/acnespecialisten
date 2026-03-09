@@ -117,7 +117,7 @@ $services = array(
       new Service(
             title: 'Behandling av seborroisk keratos med CryoPen',
             duration: '20 min',
-            price: '995 kr',
+            price: '1595 kr',
             content: 'CryoPen är en innovativ behandling som använder kryoterapi för att målinriktat och effektiv behandling. Denna snabba och effektiva metod minimerar obehag och är utmärkt för att reducera synligheten av seborroisk keratos, vilket ger en jämnare och förbättrad hudton.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
