@@ -585,7 +585,11 @@ $faq_categories = array(
             ),
             new Question(
                   title: 'Finns det någon åldersgräns för behandling av hudförändringar?',
-                  text: '<p class="p200">Ja, du måste vara minst 18 år för att genomgå behandling av hudförändringar. Detta gäller för alla behandlingsmetoder inklusive CryoPen och laser.</p>'
+                  text: '<p class="p200">Du måste vara minst 18 år för att behandla hudförändringar hos oss. Detta gäller för alla behandlingsmetoder inklusive CryoPen och laser.</p>'
+            ),
+            new Question(
+                  title: 'Kan ni bedöma om en leverfläck är farlig?',
+                  text: '<p class="p200">Nej, vi gör inte medicinska bedömningar av leverfläckar och kan därför inte avgöra om de är farliga eller inte. Om du är orolig för en leverfläck rekommenderar vi att du kontaktar din vårdcentral för en bedömning, vi behandlar endast godartade hudförändringar.</p>'
             ),
       ),
 );
