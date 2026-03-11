@@ -30,7 +30,7 @@
                 <a href="https://www.shr.nu" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-shr.svg" alt="Shr" title="Shr" width="40" height="40" />
                 </a>
-                <a href="https://www.bokadirekt.se/AcneSpecialisten/var" target="_blank">
+                <a href="https://www.bokadirekt.se/sok?q=acnespecialisten" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-bokadirekt.svg" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                 </a>
             </div>
@@ -349,7 +349,7 @@
                     <div>
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Bokadirekt</span>
-                            <a href="https://www.bokadirekt.se/AcneSpecialisten/var" target="_blank">
+                            <a href="https://www.bokadirekt.se/sok?q=acnespecialisten" target="_blank">
                                 <img loading="lazy" src="images/brands/brand-icon-bokadirekt.svg" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                             </a>
                         </div>
