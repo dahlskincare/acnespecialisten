@@ -559,7 +559,7 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur länge håller fillers?',
-            text: 'Längden på effekten av fillers kan variera beroende på flera faktorer, inklusive typen av filler som används, behandlingsområdet och individens hudtyp. Generellt sett kan fillers i läpparna hålla mellan 6 till 12 månader, medan fillers i nasolabialvecken ofta har en varaktighet på 9 till 18 månader. Självklart kand in specialist alltid ge en mer exakt uppskattning baserat på din unika situation.'
+            text: 'Längden på effekten av fillers kan variera beroende på flera faktorer, inklusive typen av filler som används, behandlingsområdet och individens hudtyp. Generellt sett kan fillers i läpparna hålla mellan 6 till 12 månader, medan fillers i nasolabialvecken ofta har en varaktighet på 9 till 18 månader. Självklart kan din specialist alltid ge en mer exakt uppskattning baserat på din unika situation.'
         ),
         new Question(
             title: 'Hur länge är man svullen efter fillers i läpparna?',
