@@ -108,7 +108,11 @@ $salons = array(
                 </section>
                 <?php if (array_key_exists('message', $_POST)) {
                     $to = "info@acnespecialisten.se";
-                    
+
+                    // Honeypot: bots fill this in, humans don't see it
+                    $honeypot = $_POST['website'] ?? '';
+                    $is_bot = !empty($honeypot);
+
                     // Sanitize inputs to prevent HTML/Script injection
                     $category = htmlspecialchars(strip_tags($_POST['category'] ?? ''), ENT_QUOTES, 'UTF-8');
                     $name = htmlspecialchars(strip_tags($_POST['name'] ?? ''), ENT_QUOTES, 'UTF-8');
@@ -116,8 +120,8 @@ $salons = array(
                     $phone = htmlspecialchars(strip_tags($_POST['phone'] ?? ''), ENT_QUOTES, 'UTF-8');
                     $user_message = htmlspecialchars(strip_tags($_POST['message'] ?? ''), ENT_QUOTES, 'UTF-8');
 
-                    // Validate email to prevent Email Header Injection
-                    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                    // Validate email to prevent Email Header Injection, skip if bot
+                    if (!$is_bot && filter_var($email, FILTER_VALIDATE_EMAIL)) {
                         $subject = $category;
                         $message = "
                         <html>
@@ -207,6 +211,7 @@ $salons = array(
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
                                 <textarea class="l10n" name="message" rows="8" placeholder="Ditt meddelande" required></textarea>
+                                <input type="text" name="website" value="" style="display:none !important; position:absolute; left:-9999px;" tabindex="-1" autocomplete="off" aria-hidden="true" />
                                 <input type="submit" class="button b200 expand" value="Skicka meddelande" />
                             </form>
                         </div>
@@ -290,6 +295,7 @@ $salons = array(
                                     <span class="color-deep-sea-400">*</span>
                                 </label>
                                 <textarea class="l10n" name="message" rows="8" placeholder="Ditt meddelande" required></textarea>
+                                <input type="text" name="website" value="" style="display:none !important; position:absolute; left:-9999px;" tabindex="-1" autocomplete="off" aria-hidden="true" />
                                 <input type="submit" class="button b200" value="Skicka meddelande" />
                             </form>
                         </div>
