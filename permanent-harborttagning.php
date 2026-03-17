@@ -562,6 +562,14 @@ $faq_title = 'Frågor & Svar';
 $faq_categories = array(
     '' => array(
         new Question(
+            title: 'Vad kostar permanent hårborttagning för olika områden?',
+            text: '<p class="p200">Priset för permanent hårborttagning varierar beroende på vilket område du vill behandla och storleken på ytan. Armhålor kostar 1595 kr per behandling medan större områden som hela ben kostar 2595 kr per behandling. Intimbehandlingar som brasiliansk + runt anus kostar också 2595 kr per behandling. Du hittar alla priser för olika behandlingsområden högre upp på denna sida där du kan välja det område du är intresserad av. För att få en komplett behandlingsplan med totalkostnad baserat på dina önskemål rekommenderar vi att du bokar en kostnadsfri konsultation där vi går igenom vilka områden du vill behandla och hur många behandlingar som behövs för optimalt resultat.</p>'
+        ),
+        new Question(
+            title: 'Erbjuder ni paketpriser för permanent hårborttagning?',
+            text: '<p class="p200">Ja, vi erbjuder förmånliga paketpriser när du väljer att behandla flera områden samtidigt. Många av våra kunder kombinerar exempelvis hela ben med armhålor och intimbehandling för att få en helhetslösning till ett bättre pris än om områdena behandlas separat. Det exakta priset för ditt paket beror på vilka områden du väljer att kombinera och hur stor yta som ska behandlas. Vi rekommenderar att du bokar en kostnadsfri konsultation där vi tar fram ett skräddarsytt paket med priser som är anpassat efter just dina önskemål och behov.</p>'
+        ),
+        new Question(
             title: 'Hur många behandlingar behövs för permanent hårborttagning?',
             text: '<p class="p200">Antalet behandlingar för permanent hårborttagning varierar beroende på individens hårtyp, hårfärg och det område som behandlas. Generellt krävs det 8-12 behandlingar för att uppnå optimala resultat. Varje behandling utförs med några veckors mellanrum för att följa hårets tillväxtcykel.</p>'
         ),

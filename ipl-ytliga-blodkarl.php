@@ -392,8 +392,8 @@ $faq_categories = array(
             text: '<p class="p200">Vi använder två avancerade IPL-maskiner från Alma för att behandla ytliga blodkärl: Alma Rejuve Dye-VL och Alma Harmony XL Pro. Båda maskinerna använder den specialiserade Dye-VL-teknologin som är särskilt utvecklad för att behandla blodkärl och vaskulära hudproblem. Dye-VL-tekniken riktar sig selektivt mot hemoglobinet i blodkärlen, vilket gör behandlingen både effektiv och skonsam mot omkringliggande hudvävnad.</p>'
         ),
         new Question(
-            title: 'Behandlar ni åderbråck?',
-            text: '<p class="p200">Nej, vi behandlar inte åderbråck. Vi behandlar ytliga blodkärl i ansiktet med IPL.</p>'
+            title: 'Kan jag behandla kärl på benen eller åderbråck med IPL?',
+            text: '<p class="p200">Nej, kärl på benen och åderbråck behandlas inte med IPL. IPL är en effektiv metod för att behandla ytliga blodkärl i ansiktet och på andra områden som hals, händer och bröst där kärlen ligger nära hudytan. Kärl på benen och åderbråck ligger djupare och kräver andra behandlingsmetoder.</p>'
         ),
     )
 );

@@ -400,6 +400,10 @@ $faq_categories = array(
                   title: 'Kan milier försvinna av sig själva?',
                   text: '<p class="p200">Milier tenderar sällan att försvinna av sig själva, särskilt om de har funnits under en längre tid. I vissa fall kan milier hos nyfödda försvinna spontant, men hos vuxna är det mindre troligt. Professionell behandling rekommenderas för att effektivt och säkert ta bort dem.</p>'
             ),
+            new Question(
+                  title: 'Vad kostar det att ta bort milier?',
+                  text: '<p class="p200">Vi tar bort enstaka milier för 295 kr per styck. Har du flera milier kan en hel milierbehandling för 1295 kr vara ett bättre alternativ, där vi tar bort alla dina milier under samma behandling.</p>'
+            ),
 
             new Question(
                   title: 'Vad skiljer milier från finnar?',

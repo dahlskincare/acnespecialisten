@@ -274,6 +274,10 @@ $faq_categories = array(
             text: 'Antalet behandlingar kan variera beroende på individens hudtyp och hudens tillstånd. Generellt rekommenderas en serie av behandlingar för bästa möjliga resultat och sedan underhållsbehandlingar för långsiktig effekt.'
         ),
         new Question(
+            title: 'Finns det någon åldersgräns för laserbehandling av ärr?',
+            text: 'Ja, laserbehandling och andra maskinbehandlingar för ärr har en åldersgräns på 18 år.'
+        ),
+        new Question(
             title: 'Hur ofta ska jag boka en klassisk ansiktsbehandling?',
             text: 'För att upprätthålla resultat och hudens hälsa, rekommenderar vi en klassisk ansiktsbehandling var fjärde till sjätte vecka. Det kan justeras beroende på personliga behov och hudens tillstånd.'
         ),
