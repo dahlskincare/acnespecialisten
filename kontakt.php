@@ -120,6 +120,9 @@ $salons = array(
                     $phone = htmlspecialchars(strip_tags($_POST['phone'] ?? ''), ENT_QUOTES, 'UTF-8');
                     $user_message = htmlspecialchars(strip_tags($_POST['message'] ?? ''), ENT_QUOTES, 'UTF-8');
 
+                    // URLs in name or phone fields are a strong signal of spam
+                    $is_bot = $is_bot || (bool)preg_match('/https?:\/\//i', $name . $phone);
+
                     // Validate email to prevent Email Header Injection, skip if bot
                     if (!$is_bot && filter_var($email, FILTER_VALIDATE_EMAIL)) {
                         $subject = $category;
