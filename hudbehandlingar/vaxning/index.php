@@ -374,17 +374,6 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Smooth Start',
-                image_title: 'Smooth Start',
-                title: 'Smooth Start',
-                duration: '60 min',
-                price: '1 895 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-smooth-start-brasiliansk-armhalor--3281265',
-                url_label: 'Boka',
-                url_title: 'Boka tid för behandling'
-            ),
-            new TreatmentAreaItem(
-                image: null,
                 image_alt: 'Full Body Pro',
                 image_title: 'Full Body Pro',
                 title: 'Full Body Pro',
