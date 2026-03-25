@@ -34,7 +34,7 @@ $model = new Service(
 $floating_box = 'Omedelbar hårborttagning med vaxning.';
 
 $description_title = 'Vad är vaxning?';
-$description_text = '<p class="p200">Vaxning är en beprövad och effektiv metod för omedelbar hårborttagning som ger dig slät och len hud direkt efter behandlingen. Hårstråna avlägsnas från roten, vilket ger ett resultat som varar i flera veckor. Behandlingen passar för alla kroppsdelar – från ansikte och armar till ben, rygg och intimområden.</p>
+$description_text = '<p class="p200">Vaxning är en beprövad och effektiv metod för omedelbar hårborttagning som ger dig slät och len hud direkt efter behandlingen. Hårstråna avlägsnas från roten, vilket ger ett resultat som varar i flera veckor. Behandlingen passar för alla kroppsdelar, från ansikte och armar till ben, rygg och intimområden.</p>
 <p class="p200 mt-m">Till skillnad från rakning som endast tar bort hårstrået vid ytan, ger vaxning ett långvarigare resultat och tunnare återväxt över tid. Metoden passar de flesta hud- och hårtyper och utförs med skonsamma tekniker som minimerar risken för irritation. Vaxning är ett utmärkt alternativ för dig som vill ha en snabb och effektiv lösning utan behov av avancerad teknik eller återhämtningstid.</p>';
 
 $top_articles = array(
@@ -44,7 +44,7 @@ $top_articles = array(
         image_large: '/bilder/process/872x456/vaxning-forberedelser.webp',
         image_alt: 'Förberedelser inför vaxning',
         image_title: 'Förberedelser inför vaxning',
-        content: '<p class="p200">För att få bästa möjliga resultat av din vaxning är det viktigt att följa några enkla förberedelser. Låt håret växa ut till cirka 0,5–1 cm innan behandlingen – detta gör att vaxet får bra fäste och att håren kan dras upp effektivt. Undvik att raka området minst 2 veckor innan.</p>
+        content: '<p class="p200">För att få bästa möjliga resultat av din vaxning är det viktigt att följa några enkla förberedelser. Låt håret växa ut till cirka 0,5–1 cm innan behandlingen, detta gör att vaxet får bra fäste och att håren kan dras upp effektivt. Undvik att raka området minst 2 veckor innan.</p>
         <p class="p200 mt-m">Peela gärna huden ett par dagar innan din bokade tid, men undvik att smörja in området samma dag. Kom i rena, torra kläder och undvik att använda parfymerade produkter på området som ska behandlas. Dessa steg hjälper till att minska risken för irritation och säkerställer en skonsam och effektiv vaxningsupplevelse.</p>',
     ),
     'process' => new Article(
@@ -54,7 +54,7 @@ $top_articles = array(
         image_alt: 'Hur fungerar vaxning?',
         image_title: 'Hur fungerar vaxning?',
         content: '<p class="p200">Vaxning är en snabb och effektiv metod för att ta bort oönskat hår. Under behandlingen appliceras varmt eller kallt vax på huden, som sedan avlägsnas tillsammans med hårstråna från roten. Resultatet är en slät hud som varar i flera veckor.</p>
-        <p class="p200 mt-m">Direkt efter behandlingen kan du uppleva viss rodnad eller en lätt känsla av irritation – detta är helt normalt och brukar lägga sig snabbt. Regelbunden vaxning kan leda till att hårstråna blir tunnare och färre över tid. Våra terapeuter arbetar med professionell teknik för att vaxningen ska vara så behaglig som möjligt och ge ett långvarigt resultat.</p>',
+        <p class="p200 mt-m">Direkt efter behandlingen kan du uppleva viss rodnad eller en lätt känsla av irritation, detta är helt normalt och brukar lägga sig snabbt. Regelbunden vaxning kan leda till att hårstråna blir tunnare och färre över tid. Våra terapeuter arbetar med professionell teknik för att vaxningen ska vara så behaglig som möjligt och ge ett långvarigt resultat.</p>',
     ),
 );
 
@@ -68,7 +68,7 @@ $treatment_areas = array(
         image_alt: 'Ansikte',
         image_title: 'Ansikte',
         title: 'Ansikte',
-        description: '<p class="p200">Hos oss kan du vaxa bort oönskad ansiktsbehåring snabbt och skonsamt – perfekt inför semestern eller vardagen. Välj mellan enskilda områden eller hela ansiktet.</p>',
+        description: '<p class="p200">Hos oss kan du vaxa bort oönskad ansiktsbehåring snabbt och skonsamt, perfekt inför semestern eller vardagen. Välj mellan enskilda områden eller hela ansiktet.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/ansikte.webp',
@@ -111,7 +111,7 @@ $treatment_areas = array(
         image_alt: 'Överkropp',
         image_title: 'Överkropp',
         title: 'Överkropp',
-        description: '<p class="p200">Få en slät och fräsch känsla med professionell vaxning av överkroppen. Välj mellan bröst, mage, armar, rygg eller armhålor – alltid snabbt och effektivt.</p>',
+        description: '<p class="p200">Få en slät och fräsch känsla med professionell vaxning av överkroppen. Välj mellan bröst, mage, armar, rygg eller armhålor, alltid snabbt och effektivt.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/armhalor.webp',
@@ -316,7 +316,7 @@ $treatment_areas = array(
         image_alt: 'Intim (Man)',
         image_title: 'Intim (Man)',
         title: 'Intim (Man)',
-        description: '<p class="p200">Vi erbjuder trygg och professionell intimvaxning för män. Välj mellan brasiliansk, bikinilinje eller vaxning av rumpa – alltid med fokus på hygien och komfort.</p>',
+        description: '<p class="p200">Vi erbjuder trygg och professionell intimvaxning för män. Välj mellan brasiliansk, bikinilinje eller vaxning av rumpa, alltid med fokus på hygien och komfort.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: '/bilder/omraden/92x92/manzilian.webp',
@@ -397,7 +397,7 @@ $bottom_articles = array(
         image_title: 'Eftervård för vaxning',
         content: '<p class="p200">Efter en vaxningsbehandling är huden ofta extra känslig och behöver omtanke för att återhämta sig optimalt. Det är vanligt att uppleva en lätt rodnad eller värmekänsla i det behandlade området, men detta brukar lägga sig inom några timmar.</p>
         <p class="p200 mt-m">Undvik att duscha varmt, träna intensivt eller använda parfymerade produkter de första 24 timmarna efter behandlingen. Vi rekommenderar att du bär löst sittande kläder och låter huden vila från sol, bastu och peeling i minst ett par dagar.</p>
-        <p class="p200 mt-m">För att minska risken för inåtväxta hårstrån, kan du börja exfoliera försiktigt några dagar efter behandlingen och återfukta huden regelbundet. Om du har frågor eller upplever ovanlig irritation – tveka inte att kontakta oss. Rätt eftervård gör din vaxning både skönare och mer hållbar.</p>',
+        <p class="p200 mt-m">För att minska risken för inåtväxta hårstrån, kan du börja exfoliera försiktigt några dagar efter behandlingen och återfukta huden regelbundet. Om du har frågor eller upplever ovanlig irritation, tveka inte att kontakta oss. Rätt eftervård gör din vaxning både skönare och mer hållbar.</p>',
     )
 );
 
@@ -446,7 +446,7 @@ $faq_categories = array(
         ),
         new Question(
             title: 'Hur långt måste håret vara för att vaxas?',
-            text: '<p class="p200">För bästa resultat bör håret vara minst 0,5 cm långt – ungefär som ett riskorn. Om håret är för kort får inte vaxet tillräckligt fäste, vilket kan påverka resultatet.</p>'
+            text: '<p class="p200">För bästa resultat bör håret vara minst 0,5 cm långt, ungefär som ett riskorn. Om håret är för kort får inte vaxet tillräckligt fäste, vilket kan påverka resultatet.</p>'
         ),
         new Question(
             title: 'Kan jag vaxa mig om jag är gravid?',
