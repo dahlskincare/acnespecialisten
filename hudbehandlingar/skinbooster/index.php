@@ -382,26 +382,26 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur många Skinbooster behandlingar rekommenderas?',
-            text: 'För optimalt resultat rekommenderas en uppbyggnadsfas av 3 behandlingar med en veckas mellanrum och därefter underhållsbehandlingar var 4-6e månad.'
+            text: '<p class="p200">För optimalt resultat rekommenderas en uppbyggnadsfas av 3 behandlingar med en veckas mellanrum och därefter underhållsbehandlingar var 4-6e månad.</p>'
         ),
 
         new Question(
             title: 'Är effekterna från Infuzion eller Multifuzion varaktiga?',
-            text: 'Resultaten från Infuzion och Multifuzion kan vara långvariga, särskilt om de stöds av en kontinuerlig och lämplig hudvårdsrutin. Åldrande och miljöfaktorer kan dock påverka hur länge resultaten varar. För att bibehålla och förstärka effekterna kan periodiska underhållsbehandlingar vara nödvändiga.'
+            text: '<p class="p200">Resultaten från Infuzion och Multifuzion kan vara långvariga, särskilt om de stöds av en kontinuerlig och lämplig hudvårdsrutin. Åldrande och miljöfaktorer kan dock påverka hur länge resultaten varar. För att bibehålla och förstärka effekterna kan periodiska underhållsbehandlingar vara nödvändiga.</p>'
         ),
 
         new Question(
             title: 'Vad ska jag tänka på inför min Infuzion eller Multifuzion behandling?',
-            text: 'Innan du genomgår en Infuzion eller Multifuzion behandling är det bäst att undvika produkter som kan irritera huden, såsom starka exfolierande syror. Håll huden återfuktad och skyddad mot solen. Vid din konsultation kommer vi att ge dig anpassade råd för att förbereda din hud optimalt för behandlingen.'
+            text: '<p class="p200">Innan du genomgår en Infuzion eller Multifuzion behandling är det bäst att undvika produkter som kan irritera huden, såsom starka exfolierande syror. Håll huden återfuktad och skyddad mot solen. Vid din konsultation kommer vi att ge dig anpassade råd för att förbereda din hud optimalt för behandlingen.</p>'
         ),
 
         new Question(
             title: 'Vad är skillnaden mellan Infuzion, Multifuzion och traditionella skinboosters och fillers?',
-            text: 'Infuzion och Multifuzion skiljer sig från traditionella skinboosters och fillers genom deras unika applikationsmetod och ingredienser. De erbjuder intensiv hydrering och hudförbättring utan användning av nålar, vilket gör dem till ett skonsamt alternativ. Dessa behandlingar är särskilt bra för att förbättra hudens textur, elasticitet och lyster genom att effektivt tillföra näringsämnen till hudens djupare lager.'
+            text: '<p class="p200">Infuzion och Multifuzion skiljer sig från traditionella skinboosters och fillers genom deras unika applikationsmetod och ingredienser. De erbjuder intensiv hydrering och hudförbättring utan användning av nålar, vilket gör dem till ett skonsamt alternativ. Dessa behandlingar är särskilt bra för att förbättra hudens textur, elasticitet och lyster genom att effektivt tillföra näringsämnen till hudens djupare lager.</p>'
         ),
         new Question(
             title: 'Skinbooster biverkningar?',
-            text: 'Eftersom vi utför skinbooster-behandlingar utan nålar, är risken för biverkningar minimal. Denna nålfria metod eliminerar de vanligaste biverkningarna som är associerade med injektioner, såsom svullnad, rodnad, och blåmärken. Våra kunder upplever en skonsam och effektiv behandling med fokus på att förbättra hudens kvalitet utan obehag eller nedtid.'
+            text: '<p class="p200">Eftersom vi utför skinbooster-behandlingar utan nålar, är risken för biverkningar minimal. Denna nålfria metod eliminerar de vanligaste biverkningarna som är associerade med injektioner, såsom svullnad, rodnad, och blåmärken. Våra kunder upplever en skonsam och effektiv behandling med fokus på att förbättra hudens kvalitet utan obehag eller nedtid.</p>'
         ),
     )
 );
