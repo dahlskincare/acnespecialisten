@@ -44,7 +44,7 @@ $treatment_areas = array(
         description: '<p class="p200">HIFU ultraljud kan behandla flera områden i ansiktet och på halsen för optimal hudåtstramning och lyft.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/ansikte.svg',
+                image: null,
                 image_alt: 'Hela ansiktet & hals',
                 image_title: 'Hela ansiktet & hals',
                 title: 'Hela ansiktet & hals',
@@ -55,7 +55,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU hela ansiktet & hals'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/kinder.svg',
+                image: null,
                 image_alt: 'Kinder, nasolabiala linjer & käklinje',
                 image_title: 'Kinder, nasolabiala linjer & käklinje',
                 title: 'Kinder, nasolabiala linjer & käklinje',
@@ -66,7 +66,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU kinder & käklinje'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/ogon.svg',
+                image: null,
                 image_alt: 'Ögonområde, ögonbrynslyft & panna',
                 image_title: 'Ögonområde, ögonbrynslyft & panna',
                 title: 'Ögonområde, ögonbrynslyft & panna',
@@ -77,7 +77,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU ögon & panna'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/hals.svg',
+                image: null,
                 image_alt: 'Hals & dubbelhaka',
                 image_title: 'Hals & dubbelhaka',
                 title: 'Hals & dubbelhaka',
@@ -98,7 +98,7 @@ $treatment_areas = array(
         description: '<p class="p200">HIFU är effektivt för hudåtstramning på olika delar av kroppen. Perfekt för att behandla områden med slapp hud eller för kroppskonturering.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/mage.svg',
+                image: null,
                 image_alt: 'Mage',
                 image_title: 'Mage',
                 title: 'Mage',
@@ -109,7 +109,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU mage'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Kärlekshandtag',
                 image_title: 'Kärlekshandtag',
                 title: 'Kärlekshandtag',
@@ -120,7 +120,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU kärlekshandtag'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Insida lår',
                 image_title: 'Insida lår',
                 title: 'Insida lår',
@@ -131,7 +131,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU insida lår'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Baksida lår',
                 image_title: 'Baksida lår',
                 title: 'Baksida lår',
@@ -142,7 +142,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU baksida lår'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Bak',
                 image_title: 'Bak',
                 title: 'Bak',
@@ -153,7 +153,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU bak'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/armar.svg',
+                image: null,
                 image_alt: 'Armar',
                 image_title: 'Armar',
                 title: 'Armar',
@@ -164,7 +164,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU armar'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Under bh-band',
                 image_title: 'Under bh-band',
                 title: 'Under bh-band',
@@ -175,7 +175,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU under bh-band'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Bröst',
                 image_title: 'Bröst',
                 title: 'Bröst',
@@ -186,7 +186,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU bröst'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Över knän',
                 image_title: 'Över knän',
                 title: 'Över knän',
@@ -197,7 +197,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU över knän'
             ),
             new TreatmentAreaItem(
-                image: '/bilder/omraden/ikoner/dekolletage.svg',
+                image: null,
                 image_alt: 'Dekolletage',
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
@@ -218,7 +218,7 @@ $treatment_areas = array(
         description: '<p class="p200">Kombinera flera behandlingsområden med våra paketlösningar för bästa resultat och pris.</p>',
         items: array(
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Mage + kärlekshandtag',
                 image_title: 'Mage + kärlekshandtag',
                 title: 'Mage + kärlekshandtag',
@@ -229,7 +229,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU mage + kärlekshandtag'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Lår + insida lår',
                 image_title: 'Lår + insida lår',
                 title: 'Lår + insida lår',
@@ -240,7 +240,7 @@ $treatment_areas = array(
                 url_title: 'Boka tid för HIFU lår + insida lår'
             ),
             new TreatmentAreaItem(
-                image: '/icons/1x.svg',
+                image: null,
                 image_alt: 'Upper body (armar + under bh-band + bröst)',
                 image_title: 'Upper body (armar + under bh-band + bröst)',
                 title: 'Upper body (armar + under bh-band + bröst)',
@@ -272,77 +272,6 @@ $top_articles = array(
         image_title: 'HIFU behandlingsprocess',
         content: '<p class="p200">Under HIFU-behandlingen appliceras fokuserad ultraljudsenergi som tränger djupt ner i huden och når SMAS-lagret. Energin skapar små termiska zoner som aktiverar kroppens naturliga kollagenproduktion och hudens läkningsprocess.</p>
         <p class="p200 mt-m">Behandlingen tar mellan 60-90 minuter beroende på område. Du kan känna en viss värme och pickkänsla under behandlingen, men de flesta upplever det som helt hanterbart. Direkt efter behandlingen kan huden vara något röd och svullen, men detta försvinner normalt inom några timmar.</p>',
-    ),
-);
-
-$results = array(
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-1.webp',
-            image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-1.webp',
-            image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-1.webp',
-            image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-1.webp',
-        url_title: 'HIFU resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 45,
-        gender: 'Kvinna',
-        problem: 'Slapp hud',
-        type: 'Ansiktslyft',
-        treatment: new ResultTreatment(
-            duration: '<a href="/varumarken/hifu/" title="HIFU">HIFU</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'HIFU-behandling',
-                    count: '2 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Hudvårdspaket',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Cazzandra Lindberg'
-            ),
-        )
-    ),
-    new ResultCustomer(
-        url: '',
-        image_before_small: '/bilder/resultat/358x358/resultat-akne-fore-2.webp',
-        image_after_small: '/bilder/resultat/358x358/resultat-akne-efter-2.webp',
-        image_before_large: '/bilder/resultat/424x424/resultat-akne-fore-2.webp',
-        image_after_large: '/bilder/resultat/424x424/resultat-akne-efter-2.webp',
-        url_title: 'HIFU resultat',
-        image_before_alt: 'Före',
-        image_before_title: 'Före',
-        image_after_alt: 'Efter',
-        image_after_title: 'Efter',
-        age: 52,
-        gender: 'Kvinna',
-        problem: 'Rynkor & fina linjer',
-        type: 'Hudåtstramning',
-        treatment: new ResultTreatment(
-            duration: '<a href="/varumarken/hifu/" title="HIFU">HIFU</a>',
-            procedures: array(
-                new ResultProcedure(
-                    image: 'https://via.placeholder.com/102x102.webm',
-                    name: 'HIFU-behandling',
-                    count: '3 tillfällen'
-                ),
-            ),
-            product: new ResultProduct(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Hudvårdspaket',
-            ),
-            employee: new ResultEmployee(
-                image: 'https://via.placeholder.com/102x102.webm',
-                name: 'Julia Eklund'
-            ),
-        )
     ),
 );
 
