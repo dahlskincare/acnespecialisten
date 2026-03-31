@@ -130,6 +130,14 @@ $header_brands = array(
             url: 'microdermabrasion.php',
             url_title: 'Microdermabrasion',
       ),
+      new Brand(
+            label: 'HIFU',
+            image: 'bilder/logotyper/hifu.svg',
+            image_alt: 'HIFU logotyp',
+            image_title: 'HIFU - ultraljud',
+            url: 'varumarken/hifu/',
+            url_title: 'HIFU',
+      ),
 );
 
 $link_brands = array(
@@ -458,6 +466,24 @@ $brand_cards = array(
             booking_url: 'https://boka.acnespecialisten.se?flow=microdermabrasion',
             booking_url_title: 'Boka tid för Microdermabrasion-behandling',
             consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Dermabrasion',
+            consultation_url_title: 'Boka gratis hudkonsultation',
+      ),
+      new Brand(
+            label: 'HIFU',
+            image: 'bilder/logotyper/hifu.svg',
+            image_alt: 'HIFU logotyp',
+            image_title: 'HIFU - ultraljud',
+            photo: 'bilder/varumarken/424x324/microdermabrasion.webp',
+            photo_alt: 'HIFU ultraljudsbehandling',
+            photo_title: 'HIFU - ultraljud',
+            title: 'HIFU',
+            subtitle: 'Hudåtstramning med ultraljud',
+            description: 'HIFU (High-Intensity Focused Ultrasound) är en avancerad icke-kirurgisk behandling som använder fokuserad ultraljudsenergi för att strama åt huden. Behandlingen når djupt ner till SMAS-lagret och stimulerar kollagenproduktionen för synliga resultat utan kniv eller återhämtningstid.',
+            url: 'varumarken/hifu/',
+            url_title: 'Läs mer om HIFU',
+            booking_url: 'https://boka.acnespecialisten.se?flow=hifu',
+            booking_url_title: 'Boka tid för HIFU-behandling',
+            consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Brand_HIFU',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
 );
