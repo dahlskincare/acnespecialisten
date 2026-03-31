@@ -1,13 +1,13 @@
 namespace Problems {
     export function onReadMoreClick() {
         let collapsed = document.querySelector('#problems-banner-collapsed');
-        collapsed.remove();
-        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
+        collapsed?.remove();
+        document.querySelector('#problems-banner-expanded')?.classList.remove('is-hidden');
     }
 }
 
 declare var default_problems: Array<string>;
-let currentProblems = null;
+let currentProblems: string | null = null;
 
 function toggleProblems(problems: String) {
     let columns = document.querySelector('#banner-problem-areas').children;
@@ -32,7 +32,7 @@ function toggleProblems(problems: String) {
 }
 
 function highlight(element: HTMLElement) {
-    let parent = element.parentElement;
+    let parent = element.parentElement as HTMLElement;
     if (element.classList.contains('highlight')) {
         element.classList.remove('highlight');
     }
@@ -45,10 +45,10 @@ function highlight(element: HTMLElement) {
 }
 
 if (document.body.clientWidth > 800) {
-    let filters = document.querySelector('#filters-desktop');
-    let filterItems = filters.querySelector('#filter-items');
-    let buttonPrevious = filters.querySelector('#filter-button-previous');
-    let buttonNext = filters.querySelector('#filter-button-next');
+    let filters = document.querySelector('#filters-desktop') as HTMLElement;
+    let filterItems = filters.querySelector('#filter-items') as HTMLElement;
+    let buttonPrevious = filters.querySelector('#filter-button-previous') as HTMLElement;
+    let buttonNext = filters.querySelector('#filter-button-next') as HTMLElement;
 
 
     filterItems.addEventListener('scroll', () => {

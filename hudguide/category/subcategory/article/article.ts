@@ -1,8 +1,8 @@
 namespace Article {
-    const content: HTMLElement = document.querySelector('#content');
+    const content = document.querySelector('#content') as HTMLElement;
     const navAnchors = content.querySelectorAll('.nav-anchor');
-    const navButtons = document.querySelector('section#nav-buttons');
-    const navButtonsContent: HTMLElement = navButtons.querySelector('#nav-buttons-scroller').querySelector('.flex-row');
+    const navButtons = document.querySelector('section#nav-buttons') as HTMLElement;
+    const navButtonsContent = navButtons.querySelector('#nav-buttons-scroller')!.querySelector('.flex-row') as HTMLElement;
 
     if (navAnchors.length > 0) {
         navButtons.classList.remove('is-hidden');
@@ -23,9 +23,9 @@ namespace Article {
 
 
     if (document.body.clientWidth > 800) {
-        const scroller = navButtonsContent.parentElement;
-        const prev = scroller.parentElement.querySelector('#scroll-prev');
-        const next = scroller.parentElement.querySelector('#scroll-next');
+        const scroller = navButtonsContent.parentElement as HTMLElement;
+        const prev = scroller.parentElement!.querySelector('#scroll-prev') as HTMLElement;
+        const next = scroller.parentElement!.querySelector('#scroll-next') as HTMLElement;
 
         scroller.addEventListener('scroll', () => {
             let showNext = scroller.scrollWidth - scroller.scrollLeft > scroller.clientWidth;

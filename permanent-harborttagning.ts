@@ -5,7 +5,7 @@ let currentIndex = 0;
 selectors[0].classList.add('active');
 
 function scrollToCategory(target: HTMLElement) {
-    document.querySelector(`#treatment-area-${target.dataset.index}`).scrollIntoView();
+    document.querySelector(`#treatment-area-${target.dataset.index}`)?.scrollIntoView();
     selectors.forEach((s) => {
         s.classList.remove('active');
     });
@@ -33,7 +33,7 @@ document.addEventListener('scroll', () => {
             s.classList.remove('active');
         });
         selectors[closestCategoryIndex].classList.add('active');
-        selectors[closestCategoryIndex].parentElement.scrollLeft = (selectors[closestCategoryIndex] as HTMLElement).offsetLeft;
+        selectors[closestCategoryIndex].parentElement!.scrollLeft = (selectors[closestCategoryIndex] as HTMLElement).offsetLeft;
         currentIndex = closestCategoryIndex;
     }
 }, { passive: true });

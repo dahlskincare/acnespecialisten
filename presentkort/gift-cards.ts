@@ -15,7 +15,7 @@ function onFileDrop(e: DragEvent) {
             input.value = "";
         } else {
             (document.querySelector('#upload-input') as HTMLInputElement).files = e.dataTransfer.files;
-            document.querySelector('#upload-button').innerHTML = `${file.name} (${Math.round(file.size / 1024)}kb)`;
+            document.querySelector('#upload-button')!.innerHTML = `${file.name} (${Math.round(file.size / 1024)}kb)`;
         }
     }
 }
@@ -23,7 +23,7 @@ function onFileDrop(e: DragEvent) {
 let physical = false;
 
 function onPhysicalChange(e: HTMLElement) {
-    let input = e.parentElement.querySelector('input');
+    let input = e.parentElement!.querySelector('input') as HTMLInputElement;
     physical = !physical;
     input.value = physical ? 'on' : 'off';
     console.log(input.value);
@@ -50,7 +50,7 @@ function onFileChange(e: Event) {
             alert("File is too big! (max 4mb)");
             input.value = "";
         }
-        document.querySelector('#upload-button').innerHTML = `${file.name} (${Math.round(file.size / 1024)}kb)`;
+        document.querySelector('#upload-button')!.innerHTML = `${file.name} (${Math.round(file.size / 1024)}kb)`;
     }
 }
 
@@ -58,18 +58,18 @@ function onFileChange(e: Event) {
 // if window location search text contains 'amount' then scroll to step 1
 if (window.location.search.includes('amount')) {
     if (window.innerWidth >= 1024) {
-        document.querySelector('#step-1-large').scrollIntoView();
+        document.querySelector('#step-1-large')?.scrollIntoView();
     } else {
-        document.querySelector('#step-1-small').scrollIntoView();
+        document.querySelector('#step-1-small')?.scrollIntoView();
     }
 }
 
 // if window location search text contains 'paid' then scroll to step 2
 if (window.location.search.includes('paid')) {
     if (window.innerWidth >= 1024) {
-        document.querySelector('#step-2-large').scrollIntoView();
+        document.querySelector('#step-2-large')?.scrollIntoView();
     } else {
-        document.querySelector('#step-2-small').scrollIntoView();
+        document.querySelector('#step-2-small')?.scrollIntoView();
     }
 
 
@@ -77,11 +77,11 @@ if (window.location.search.includes('paid')) {
 
 if (window.location.search.includes('sent')) {
     if (window.innerWidth >= 1024) {
-        document.querySelector('#step-2-large').scrollIntoView();
-        openConfirmForm(document.querySelector('#large-form-button'), '#large-form');
+        document.querySelector('#step-2-large')?.scrollIntoView();
+        openConfirmForm(document.querySelector('#large-form-button') as HTMLButtonElement, '#large-form');
     } else {
-        document.querySelector('#step-2-small').scrollIntoView();
-        openConfirmForm(document.querySelector('#small-form-button'), '#small-form');
+        document.querySelector('#step-2-small')?.scrollIntoView();
+        openConfirmForm(document.querySelector('#small-form-button') as HTMLButtonElement, '#small-form');
     }
 
 }
