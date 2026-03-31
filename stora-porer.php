@@ -222,7 +222,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling för stora porer',
             duration: '90 min',
-            price: '5595 kr',
+            price: '6995 kr',
             content: 'Med hjälp av avancerad laserteknik kan denna behandling effektivt minska synligheten av stora porer och förbättra hudens textur. Lasern stimulerar kollagenproduktionen och elastinet i huden vilket resulterar i en jämnare och slätare hudstruktur.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -269,7 +269,7 @@ $services = array(
       new Service(
             title: 'Microneedling för stora porer',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en behandlingsmetod som reducerar synliga stora porer. Genom att skapa små mikroskopiska kanaler i huden främjar detta hudens naturliga läkningsprocess och stimulerar kollagenproduktionen.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

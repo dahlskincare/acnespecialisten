@@ -18,7 +18,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL mot pigmentfläckar',
     duration: null,
-    price: 'Från 1295 kr',
+    price: 'Från 1995 kr',
     content: '<p class="p200">IPL utgör en effektiv lösning för dig som önskar en jämnare hudton genom att effektivt ta bort pigmentfläckar. Denna behandling passar utmärkt för att ljusa upp och jämna ut områden med överpigmentering. Våra IPL behandlingar är individuellt anpassade efter dina unika hudbehov. De är utformade för att inte bara minska synligheten av pigmentfläckar, utan också för att stimulera hudens egna läkningsprocesser och därmed förbättra hudens övergripande hälsa och utseende.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
