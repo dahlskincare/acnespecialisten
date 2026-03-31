@@ -290,7 +290,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot blandhy',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling för blandhy adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, förbättrar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga områden, vilket förbättrar hudens yta och återställer en naturliga balans.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

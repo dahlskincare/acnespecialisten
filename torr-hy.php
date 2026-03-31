@@ -453,7 +453,7 @@ $services = array(
       new Service(
             title: 'Infuzion för torr och känslig hy',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Infuzion behandlingen är speciellt framtagen för att återfukta och lugna huden. Genom en unik process införs fuktbindande ämnen djupt in i huden utan nålar, vilket ger en omedelbar förbättring av hudens hydrering och minskar irritation.',
 
             image_small: '/bilder/behandlingar/200x200/infuzion.webp',
