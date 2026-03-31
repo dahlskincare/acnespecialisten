@@ -439,7 +439,7 @@ $services = array(
       new Service(
             title: 'Microneedling för mogen hy',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling för mogen hy stimulerar hudens naturliga kollagenproduktion, vilket hjälper till att minska fina linjer, rynkor och andra tecken på åldrande.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
