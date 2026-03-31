@@ -31,7 +31,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '2595 kr',
+            price: '2995 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -39,16 +39,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
+            price: '7995 kr',
+            savings: 'Spara 990 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
+            price: '10995 kr',
+            savings: 'Spara 3980 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
@@ -247,7 +247,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -313,7 +313,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -324,7 +324,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -335,7 +335,7 @@ $treatment_areas = array(
                 image_title: 'Rygg',
                 title: 'Rygg',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
@@ -356,7 +356,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
