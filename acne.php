@@ -447,7 +447,7 @@ $services = array(
       new Service(
             title: 'Laser mot akne',
             duration: '60 min',
-            price: '3595 kr',
+            price: '4595 kr',
             content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att bekämpa aktiv akne. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida akne utbrott.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -495,7 +495,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot akne',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt behandla utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

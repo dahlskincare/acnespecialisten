@@ -271,7 +271,7 @@ $services = array(
       new Service(
             title: 'IPL mot rosacea',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'IPL behandling använder intensivt pulserat ljus för att effektivt minska rodnad och inflammation. Denna metod behandlar effektivt rosaceasymptom och främja en jämnare hudton.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
@@ -318,7 +318,7 @@ $procedures = array(
       new Service(
             title: 'Reparerar ytliga blodkärl',
             duration: '20-50 min',
-            price: 'Från 1595 kr',
+            price: 'Från 1995 kr',
             content: 'IPL-behandling minskar effektivt ytliga blodkärl med intensivt pulserat ljus, erbjuder en icke-invasiv lösning för en jämnare hudton och förbättrad hudtextur.',
             image_small: 'bilder/behandlingar/200x200/ipl.webp',
             image_large: 'bilder/behandlingar/200x200/ipl.webp',
