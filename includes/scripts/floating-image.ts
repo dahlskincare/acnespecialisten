@@ -23,7 +23,7 @@ namespace FloatingImage {
                 _floater.style.top = `${document.body.offsetHeight - offset - _picture.offsetHeight}px`;
             }
             else {
-                _floater.style.top = null;
+                _floater.style.top = '';
                 _floater.classList.remove('attached-bottom');
             }
 

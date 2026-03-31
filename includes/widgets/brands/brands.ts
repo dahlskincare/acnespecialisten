@@ -5,7 +5,7 @@ namespace Brands {
     const rightMask = widget.querySelector('#brand-mask-right');
 
     if (container.scrollWidth > container.clientWidth + 20) {
-        rightMask.classList.remove('is-hidden');
+        rightMask!.classList.remove('is-hidden');
     }
 
 
@@ -13,16 +13,16 @@ namespace Brands {
     container.addEventListener('scroll', () => {
         // conditionally hide the left mask
         if (container.scrollLeft <= 0) {
-            leftMask.classList.add('is-hidden');
+            leftMask!.classList.add('is-hidden');
         } else {
-            leftMask.classList.remove('is-hidden');
+            leftMask!.classList.remove('is-hidden');
         }
 
         // conditionally hide the right mask
         if (container.scrollLeft + container.offsetWidth >= container.scrollWidth - 30) {
-            rightMask.classList.add('is-hidden');
+            rightMask!.classList.add('is-hidden');
         } else {
-            rightMask.classList.remove('is-hidden');
+            rightMask!.classList.remove('is-hidden');
         }
     });
 

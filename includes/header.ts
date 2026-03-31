@@ -1,6 +1,6 @@
 namespace HeaderTouch {
     export function toggleMenu() {
-        const overlay = document.querySelector('#mobile-nav-overlay');
+        const overlay = document.querySelector('#mobile-nav-overlay')!;
 
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
@@ -12,7 +12,7 @@ namespace HeaderTouch {
     }
 
     export function toggleExpanded(e: HTMLElement) {
-        const panel = e.parentElement;
+        const panel = e.parentElement!;
         if (panel.classList.contains('active')) {
             panel.classList.remove('active');
         } else {
@@ -23,10 +23,10 @@ namespace HeaderTouch {
 
 namespace HeaderDesktop {
     export function toggleMenu() {
-        const button = document.querySelector('#hamburger-button');
+        const button = document.querySelector('#hamburger-button')!;
         button.classList.toggle('active');
         button.classList.toggle('not-active');
-        const overlay = document.querySelector('#desktop-nav-overlay');
+        const overlay = document.querySelector('#desktop-nav-overlay')!;
         if (overlay.classList.contains('active')) {
             overlay.classList.remove('active');
         } else {
@@ -36,7 +36,7 @@ namespace HeaderDesktop {
 
     // Start top ("important notice") slideshow
     let slideIndex = 0;
-    const notice = document.querySelector('#important-notice');
+    const notice = document.querySelector('#important-notice')!;
     const slides = notice.querySelectorAll('.important-notice-slide');
     if (slides.length > 0) {
         setInterval(slideNext, 8000);
@@ -71,7 +71,7 @@ namespace CookieDialog {
     function getCookie(name: string) {
         const value = `; ${document.cookie}`;
         const parts = value.split(`; ${name}=`);
-        if (parts.length === 2) return parts.pop().split(';').shift();
+        if (parts.length === 2) return parts.pop()!.split(';').shift();
     }
 
     export function initialize() {
@@ -128,13 +128,13 @@ var query = new URLSearchParams(window.location.search);
 var gclid = query.get('gclid');
 if (gclid) {
 
-    // Append GCLID parameter to all links 
+    // Append GCLID parameter to all links
     document.addEventListener('DOMContentLoaded', function () {
         var links = document.querySelectorAll('a');
         for (var i = 0; i < links.length; i++) {
             var link = links[i];
             var url = new URL(link.href);
-            url.searchParams.set('gclid', gclid);
+            url.searchParams.set('gclid', gclid!);
             link.href = url.toString();
         }
     });

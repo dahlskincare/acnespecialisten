@@ -56,10 +56,11 @@ namespace Article {
             next.classList.remove('is-hidden');
         }
     }
-    document.querySelectorAll('.faq-category').forEach((category: HTMLElement) => {
-        if (category.children.length == 2) {
-            const title = category.children[0] as HTMLElement;
-            const content = category.children[1] as HTMLElement;
+    document.querySelectorAll('.faq-category').forEach((category) => {
+        const categoryElement = category as HTMLElement;
+        if (categoryElement.children.length == 2) {
+            const title = categoryElement.children[0] as HTMLElement;
+            const content = categoryElement.children[1] as HTMLElement;
             title.onclick = (_e) => {
                 if (content.classList.contains('zero-size')) {
                     content.classList.remove('zero-size');

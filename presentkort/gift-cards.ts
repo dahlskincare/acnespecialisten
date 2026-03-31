@@ -8,13 +8,13 @@ function onFileDrop(e: DragEvent) {
     e.preventDefault();
     const input = (document.querySelector('#upload-input') as HTMLInputElement);
     //
-    if (e.dataTransfer.files.length == 1) {
-        const file = e.dataTransfer.files[0];
+    if (e.dataTransfer!.files.length == 1) {
+        const file = e.dataTransfer!.files[0];
         if (file.size > 4194304) {
             alert("File is too big! (max 4mb)");
             input.value = "";
         } else {
-            (document.querySelector('#upload-input') as HTMLInputElement).files = e.dataTransfer.files;
+            (document.querySelector('#upload-input') as HTMLInputElement).files = e.dataTransfer!.files;
             document.querySelector('#upload-button')!.innerHTML = `${file.name} (${Math.round(file.size / 1024)}kb)`;
         }
     }
@@ -44,8 +44,8 @@ function onAmountChange(event: Event) {
 
 function onFileChange(e: Event) {
     const input = (e.target as HTMLInputElement);
-    if (input.files.length > 0) {
-        const file = input.files[0];
+    if (input.files!.length > 0) {
+        const file = input.files![0];
         if (file.size > 4194304) {
             alert("File is too big! (max 4mb)");
             input.value = "";
