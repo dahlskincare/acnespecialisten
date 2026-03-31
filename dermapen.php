@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Dermapen 4 behandling Stockholm',
     duration: null,
-    price: 'Från 1595 kr',
+    price: 'Från 1995 kr',
     content: '<p class="p200">Vi är Sveriges ledande klinik på Dermapen 4, den senaste tekniken inom microneedling. Behandlingen är optimal för dig som vill förbättra hudens struktur och elasticitet samt minska synligheten av ärr, rynkor och fina linjer.</p>',
     image_small: 'bilder/varumarken/358x274/dermapen.webp',
     image_large: 'bilder/varumarken/424x456/dermapen.webp',
@@ -31,7 +31,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '2595 kr',
+            price: '2995 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -39,7 +39,7 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '6995 kr',
+            price: '7995 kr',
             savings: 'Spara 790 kr',
             booking_url: null,
             booking_url_label: null,
@@ -47,7 +47,7 @@ $model = new Service(
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '9995 kr',
+            price: '10995 kr',
             savings: 'Spara 2980 kr',
             booking_url: null,
             booking_url_label: null,
@@ -89,7 +89,7 @@ $types = array(
     new Service(
         title: 'Dermapen mot acneärr',
         duration: '50 min',
-        price: '2595 kr',
+        price: '2995 kr',
         content: 'Med mikronålar skapas små skador i huden, vilket kickstartar kroppens naturliga läkning och kollagenbildning, vilket jämnar ut ärr och förbättrar hudens struktur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
@@ -109,7 +109,7 @@ $types = array(
     new Service(
         title: 'Dermapen mot stora porer',
         duration: '50 min',
-        price: '2595 kr',
+        price: '2995 kr',
         content: 'Stimulerar huden på djupet för att öka kollagenproduktionen, vilket kan bidra till att dra åt och minska utseendet av förstorade porer, och ger en jämnare hudstruktur.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -129,7 +129,7 @@ $types = array(
     new Service(
         title: 'Dermapen mot rynkor & fina linjer',
         duration: '50 min',
-        price: '2595 kr',
+        price: '2995 kr',
         content: 'Använder mikronålning för att stimulera hudens föryngringsprocess, vilket resulterar i ökad kollagenproduktion och en slätare, mer ungdomlig hudtextur.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
@@ -149,7 +149,7 @@ $types = array(
     new Service(
         title: 'Dermapen mot pigmentfläckar',
         duration: '50 min',
-        price: '2595 kr',
+        price: '2995 kr',
         content: 'Främjar hudens förnyelseprocess och hjälper till att bryta ned pigmentansamlingar, vilket leder till en mer enhetlig hudton och minskade pigmenteringar.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
@@ -169,7 +169,7 @@ $types = array(
     new Service(
         title: 'Dermapen mot bristningar',
         duration: '50 min',
-        price: '2595 kr',
+        price: '2995 kr',
         content: 'Stimulerar hudens förmåga att läka och producera nytt kollagen och elastin, vilket kan minska utseendet av bristningar genom att förbättra hudens struktur och elasticitet.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
@@ -189,7 +189,7 @@ $types = array(
     new Service(
         title: 'Dermapen mot aktiv acne',
         duration: '50 min',
-        price: '2595 kr',
+        price: '2995 kr',
         content: 'Behandlar aktiv acne genom att använda mikronålar för att stimulera hudens egen läkningsförmåga, vilket reducerar inflammation och hjälper till att förebygga framtida utbrott.',
         image_small: 'bilder/hudproblem/102x102/acne.webp',
         image_large: 'bilder/hudproblem/200x200/acne.webp',
@@ -212,7 +212,7 @@ $big_types = array(
     new Service(
         title: 'Dermapen + PRX-T33 BOOST',
         duration: '60 min',
-        price: '3595 kr',
+        price: '3995 kr',
         content: '<p class="p200">Ta din dermapenbehandling till nästa nivå med PRX-T33, en nyskapande booster som intensifierar hudföryngringseffekten. Denna kombination är idealisk för dig som vill maximera resultatet utan att förlänga återhämtningstiden. Genom att kombinera PRX-T33 med Dermapen, förstärker vi behandlingen och får PRX-syran att penetrera djupare in i huden genom de mikrokanaler som skapas av mikronålarna. Detta gör att syran kan verka mer effektivt än om den appliceras direkt på hudytan. Den kombinerade behandlingen ger en märkbar förbättring av hudens ton och struktur, samt minskar synbart fina linjer och ojämnheter. Resultatet är en jämnare, ungdomligare hud som får dig att stråla.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
         image_large: '/bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
@@ -246,7 +246,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -257,7 +257,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -268,7 +268,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -279,7 +279,7 @@ $treatment_areas = array(
                 image_title: 'Rygg',
                 title: 'Rygg',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
@@ -301,7 +301,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -312,7 +312,7 @@ $treatment_areas = array(
                 image_title: '2x områden',
                 title: '2x områden',
                 duration: '60 min',
-                price: '3595 kr',
+                price: '3995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -323,7 +323,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '70 min',
-                price: '4595 kr',
+                price: '4995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
@@ -344,7 +344,7 @@ $treatment_areas = array(
                 image_title: 'Näsa',
                 title: 'Näsa',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för näsbehandling'
@@ -366,7 +366,7 @@ $treatment_areas = array(
                 image_title: 'Överläpp',
                 title: 'Överläpp',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för överläppsbehandling'
@@ -377,7 +377,7 @@ $treatment_areas = array(
                 image_title: 'Haka',
                 title: 'Haka',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=dermapen&skipable_problem=SKIP&area=Microneedling_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för hakbehandling'

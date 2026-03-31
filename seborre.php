@@ -245,7 +245,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot seborré',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Vår specifika ansiktsbehandling mot seborré innebär en grundlig djuprengöring av huden för att effektivt avlägsna överflödigt talg och döda hudceller. Detta bidrar till att återställa balansen i din hud.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

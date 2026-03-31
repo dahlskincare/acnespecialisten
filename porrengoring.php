@@ -32,17 +32,17 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1295 kr',
+            price: '1595 kr',
             savings: null,
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_2_Procedure_1',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_3_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '3495 kr',
-            savings: '1165 kr per behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_2_Procedure_3',
+            price: '3995 kr',
+            savings: '1332 kr per behandling',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_3_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -50,7 +50,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '4995 kr',
             savings: '999 kr per behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_2_Procedure_5',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face&procedures=PriceClass_3_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
@@ -156,7 +156,7 @@ $treatment_areas = array(
                 image_title: 'Porrengöring i ansiktet',
                 title: 'Ansikte',
                 duration: '60 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för porrengöring i ansiktet'
@@ -167,7 +167,7 @@ $treatment_areas = array(
                 image_title: 'Porrengöring på bröstet',
                 title: 'Bröst',
                 duration: '60 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för porrengöring på bröstet'
@@ -178,7 +178,7 @@ $treatment_areas = array(
                 image_title: 'Porrengöring på ryggen',
                 title: 'Rygg',
                 duration: '60 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Comedones&area=Facial_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för porrengöring på ryggen'

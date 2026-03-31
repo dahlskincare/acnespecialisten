@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Milierbehandling i Stockholm',
     duration: '60 min',
-    price: '1295 kr',
+    price: '1595 kr',
     content: '<p class="p200">Milierbehandling är en ansiktsbehandling som fokuserar på borttagning av milier. Denna process säkerställer att du får bort milier på ett säkert och effektivt sätt.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
@@ -31,17 +31,17 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1295 kr',
+            price: '1595 kr',
             savings: null,
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Milia&area=EMPTY&procedures=PriceClass_2_Procedure_1',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Milia&area=EMPTY&procedures=PriceClass_3_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '3495 kr',
-            savings: '1165 kr per behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Milia&area=EMPTY&procedures=PriceClass_2_Procedure_3',
+            price: '3995 kr',
+            savings: '1332 kr per behandling',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Milia&area=EMPTY&procedures=PriceClass_3_Procedure_3',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -49,7 +49,7 @@ $model = new Service(
             label: '5 behandlingar',
             price: '4995 kr',
             savings: '999 kr per behandling',
-            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Milia&area=EMPTY&procedures=PriceClass_2_Procedure_5',
+            booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Milia&area=EMPTY&procedures=PriceClass_3_Procedure_5',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
@@ -67,7 +67,7 @@ $big_types = array(
     new Service(
         title: 'Milierbehandling',
         duration: '60 min',
-        price: '1295 kr',
+        price: '1595 kr',
         content: '<p class="p200">Behandlingen börjar med en noggrann rengöring av huden för att förbereda för borttagning av milier. Eftersom milier saknar en naturlig poröppning och inte kan avlägsnas genom vanlig rengöring, använder vi en speciell metod för att effektivt ta hand om dem. Med hjälp av en lansett, en tunn nål, öppnar vi varsamt upp milierna. Detta gör det möjligt för oss att noggrant klämma ut den lilla keratincystan utan att skada den omgivande huden. Denna process säkerställer en säker och effektiv borttagning av milier, vilket lämnar huden ren och slät. Efter behandlingen använder vi en lugnande mask för att minimera rodnad och lugna huden, följt av en återfuktande kräm som är anpassad efter din huds individuella behov.</p>',
         image_small: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
         image_large: '/bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',

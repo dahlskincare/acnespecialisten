@@ -65,7 +65,7 @@ $combos = array(
         items: array(
             new ServiceComboItem(
                 title: 'Bikinilinje',
-                price: '1595 kr',
+                price: '1295 kr',
                 savings: null,
             ),
             new ServiceComboItem(
@@ -160,7 +160,7 @@ $treatment_areas = array(
                 image_title: 'Axlar',
                 title: 'Axlar',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Shoulders',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -171,7 +171,7 @@ $treatment_areas = array(
                 image_title: 'Armhålor',
                 title: 'Armhålor',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Armpits',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -182,7 +182,7 @@ $treatment_areas = array(
                 image_title: 'Bröst',
                 title: 'Bröst',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -193,7 +193,7 @@ $treatment_areas = array(
                 image_title: 'Mage',
                 title: 'Mage',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Stomach',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -215,7 +215,7 @@ $treatment_areas = array(
                 image_title: 'Svank',
                 title: 'Svank',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_LowerBack',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -237,7 +237,7 @@ $treatment_areas = array(
                 image_title: 'Händer & Fingrar',
                 title: 'Händer & Fingrar',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -258,7 +258,7 @@ $treatment_areas = array(
                 image_title: 'Bikinilinje',
                 title: 'Bikinilinje',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_BikiniLine',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -269,7 +269,7 @@ $treatment_areas = array(
                 image_title: 'String',
                 title: 'String',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_ThongLine',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -291,7 +291,7 @@ $treatment_areas = array(
                 image_title: 'Runt Anus',
                 title: 'Runt Anus',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1295 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning_SX&area_ms=UnwantedHair_Anus',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'

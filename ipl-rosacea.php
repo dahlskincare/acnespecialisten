@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL mot rosacea',
     duration: '60 min',
-    price: 'Från 1595 kr',
+    price: 'Från 1995 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 procedure',
-            price: '2595 kr',
+            price: '2995 kr',
             savings: null,
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
@@ -40,16 +40,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 procedures',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
+            price: '7995 kr',
+            savings: 'Spara 990 kr',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
         new Procedure(
             label: '5 procedures',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
+            price: '10995 kr',
+            savings: 'Spara 3980 kr',
             booking_url: 'https://bokadirekt.se',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
@@ -102,7 +102,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'IPL för Ansikte',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
@@ -113,7 +113,7 @@ $treatment_areas = array(
                 image_title: 'Näsa',
                 title: 'IPL för Näsa',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av näsan'

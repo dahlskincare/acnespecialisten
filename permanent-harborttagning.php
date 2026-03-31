@@ -408,7 +408,7 @@ $treatment_areas = array(
                 image_title: 'Fötter & Tår',
                 title: 'Fötter & Tår',
                 duration: '30 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=permanent_harborttagning&area_ms=UnwantedHair_Feet',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'

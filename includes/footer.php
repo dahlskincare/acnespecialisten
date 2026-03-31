@@ -52,7 +52,7 @@
                         <img loading="lazy" src="images/salons/profile-ostermalm.jpg" alt="Fasaden på AcneSpecialistens klinik på Östermalm" title="AcneSpecialisten Östermalm" width="102" height="102" />
                         <div>
                             <h2>Östermalm</h2>
-                            <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
+                            <p class="p200">Strandvägen 7, 114 56 Stockholm</p>
                         </div>
                     </div>
                     <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
@@ -371,7 +371,7 @@
                             <img loading="lazy" src="images/salons/profile-ostermalm.jpg" alt="Fasaden på AcneSpecialistens klinik på Östermalm" title="AcneSpecialisten Östermalm" width=" 72" height="72">
                             <div>
                                 <h2>Östermalm</h2>
-                                <p class="p200">Strandvägen 7, 114 51 Stockholm</p>
+                                <p class="p200">Strandvägen 7, 114 56 Stockholm</p>
                                 <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                             </div>
                         </div>

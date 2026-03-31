@@ -187,7 +187,7 @@ $services = array(
       new Service(
             title: 'Portömning - Rygg',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Klämmer finnarna utan att orsaka ärr genom att extrahera orenheter och främja snabbare läkning.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

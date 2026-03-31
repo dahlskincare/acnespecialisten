@@ -430,7 +430,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling för torr och känslig hy',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Behandlingen innehåller djup rengöring, fuktgivande masker och serum som hjälper till att återställa hudens naturliga fuktbalans och minska irritation.',
 
             image_small: '/bilder/behandlingar/200x200/ansiktsbehandling.webp',

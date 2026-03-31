@@ -96,7 +96,7 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '1295 kr',
+                price: '1595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_Classic&procedures=PriceClass_2_Procedure_1'
             ),
@@ -284,7 +284,7 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 porrengöring',
-                price: '1295 kr',
+                price: '1595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialClassic&FacialType=Service_Facial_PoreCleansing&procedures=PriceClass_2_Procedure_1'
             ),

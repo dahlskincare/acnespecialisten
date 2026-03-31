@@ -373,7 +373,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Effektiv lösning för att klämma finnar utan att orsaka ärr, detta genom att noggrant framtagen för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

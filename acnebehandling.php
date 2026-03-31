@@ -11,7 +11,7 @@ $rich_product = new RichProduct(
     name: "Akne Behandling",
     image: 'https://www.acnespecialisten.se/bilder/hudbehandlingar/424x456/laser-mot-problemhy.webp',
     description: "Behandla din akne hos AcneSpecialisten, vi har 30 års erfarenhet av få bort akne med våra aknebehandlingar, Boka gratis hudkonsultation i Stockholm eller online",
-    price: 1295,
+    price: 1595,
     ratingCount: 718,
     ratingValue: 4.9,
     currency: "SEK",
@@ -73,7 +73,7 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Acne',
         duration: '60 min',
-        price: '1295 kr',
+        price: '1595 kr',
         content: '<p class="p200">Ansiktsbehandling mot acne är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. När du besöker kliniken inleds behandlingen med en rengöring, följt av ångning för att öppna upp porerna. Det är viktigt att låta en hudterapeut klämma finnarna och extrahera porerna. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne',

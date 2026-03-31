@@ -424,7 +424,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'En effektiv ansiktsbehandling fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

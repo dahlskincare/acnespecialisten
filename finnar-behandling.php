@@ -62,7 +62,7 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Finnar',
         duration: '60 min',
-        price: '1295 kr',
+        price: '1595 kr',
         icons: array(),
         content: '<p class="p200">Vår Ansiktsbehandling mot finnar är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och finnar elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 

@@ -77,7 +77,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'IPL för Ansikte',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av ansiktet'
@@ -88,7 +88,7 @@ $treatment_areas = array(
                 image_title: 'Panna',
                 title: 'IPL för Panna',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Forehead',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av pannan'
@@ -99,7 +99,7 @@ $treatment_areas = array(
                 image_title: 'Näsa',
                 title: 'IPL för Näsa',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av näsan'
@@ -121,7 +121,7 @@ $treatment_areas = array(
                 image_title: 'Överläpp',
                 title: 'IPL för Överläpp',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av överläppen'
@@ -132,7 +132,7 @@ $treatment_areas = array(
                 image_title: 'Haka',
                 title: 'IPL för Haka',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av hakan'
@@ -153,7 +153,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'IPL för Hals',
                 duration: '30 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av halsen'
@@ -175,7 +175,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'IPL för Händer',
                 duration: '30 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av händerna'
@@ -207,7 +207,7 @@ $treatment_areas = array(
                 image_title: '1x zon',
                 title: '1x zon',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1xZone',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 zon.'
@@ -229,7 +229,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_PigmentationSpots&area=IPL_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'

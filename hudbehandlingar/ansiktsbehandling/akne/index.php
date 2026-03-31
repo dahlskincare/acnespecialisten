@@ -58,7 +58,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1295 kr',
+            price: '1595 kr',
             savings: null,
             booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Acne&area=Facial_Face&procedures=PriceClass_2_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -105,7 +105,7 @@ $treatment_areas = array(
                 image_title: 'Ansiktsbehandling mot akne i ansiktet',
                 title: 'Ansikte',
                 duration: '60 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Acne&area=Facial_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling mot akne'
@@ -116,7 +116,7 @@ $treatment_areas = array(
                 image_title: 'Behandling mot akne på bröstet',
                 title: 'Bröst',
                 duration: '60 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Acne&area=Facial_Chest',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling mot akne på bröstet'
@@ -127,7 +127,7 @@ $treatment_areas = array(
                 image_title: 'Behandling mot akne på ryggen',
                 title: 'Rygg',
                 duration: '60 min',
-                price: '1295 kr',
+                price: '1595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Acne&area=Facial_Back',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling mot akne på ryggen'

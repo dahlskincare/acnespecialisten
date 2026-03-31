@@ -348,7 +348,7 @@ $treatment_areas = array(
                 image_title: 'Återbesök',
                 title: 'Återbesök',
                 duration: '20 min',
-                price: 'Från 295 kr',
+                price: 'Från 495 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Cryopen_aterbesok',
                 url_label: 'Boka',
                 url_title: 'Boka tid för CryoPen'

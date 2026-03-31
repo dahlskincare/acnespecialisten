@@ -199,7 +199,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling för stora porer',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Denna behandling är utformad för att minska synligheten av stora porer och förbättra hudens textur. Genom djup rengöring, exfoliering och hydrering kan huden se mer jämn och fräsch ut.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

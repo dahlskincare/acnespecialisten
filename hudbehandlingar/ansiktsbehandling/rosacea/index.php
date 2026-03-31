@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1295 kr',
+            price: '1595 kr',
             savings: null,
             booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_2_Procedure_1',
             booking_url_label: 'Boka tid för behandling',
@@ -95,7 +95,7 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '1295 kr',
+                price: '1595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=facialProblem&problem=Problem_Rosacea&area=EMPTY&procedures=PriceClass_2_Procedure_1'
             ),

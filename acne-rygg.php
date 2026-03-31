@@ -245,7 +245,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'En effektiv behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

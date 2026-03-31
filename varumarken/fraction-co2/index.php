@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Fraction CO2 laser - Fraktionerad laser',
     duration: null,
-    price: 'Från 5595 kr',
+    price: 'Från 6995 kr',
     content: '<p class="p200">Fraction CO2 är nya generationens fraktionerade laser för kropp och ansikte med avancerad scanningsteknik. Med 13 olika spottstorlekar och 8 olika behandlingsmönster erbjuder denna banbrytande teknik precis och anpassningsbar behandling för ett brett spektrum av hudproblem inklusive ärrbehandling, hudföryngring, hyperpigmentering och bristningar.</p>',
     image_small: '/bilder/varumarken/358x274/fraction-co2.webp',
     image_large: '/bilder/varumarken/424x456/fraction-co2.webp',
@@ -57,7 +57,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot acneärr',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Effektiv metod för att minska acneärr. Kombinerar precisionslaser med djupvävnadsuppvärmning, stimulerar hudens läkning för jämnare hudtextur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
@@ -77,7 +77,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot ärr (skade- och operationsärr)',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Fraktionerad laser för ärrbehandling av skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
@@ -117,7 +117,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot bristningar',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Laserbehandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',
@@ -137,7 +137,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot stora porer',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Minskar utseendet av stora porer genom att förbättra hudens yta och textur, bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
@@ -157,7 +157,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot rynkor och fina linjer',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Kombinerar laser med värmestimulering för att släta ut rynkor och linjer. Främjar kollagenproduktion för en ungdomligare hud.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',
@@ -177,7 +177,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot pigmentfläckar',
         duration: '50 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Reducerar och tar bort pigmentfläckar. Målinriktad laser bryter ner pigmentering för en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
@@ -197,7 +197,7 @@ $types = array(
     new Service(
         title: 'CO2 laser för hudföryngring (skin rejuvenation)',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Stimulerar hudens naturliga läkning för förnyad hud med förbättrad textur och utstrålning. Minskar tecken på åldrande för ett friskare utseende.',
         image_small: 'bilder/hudproblem/102x102/mogen-hy.webp',
         image_large: 'bilder/hudproblem/200x200/mogen-hy.webp',

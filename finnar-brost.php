@@ -141,7 +141,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Klämmer finnar utan att orsaka ärr genom att extrahera orenheter och främja snabbare läkning.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
