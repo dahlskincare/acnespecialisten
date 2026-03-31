@@ -265,7 +265,7 @@ $services = array(
       new Service(
             title: 'IPL-behandling mot pigmentfläckar',
             duration: '20-50 min',
-            price: 'Från 1595 kr',
+            price: 'Från 1995 kr',
             content: 'IPL behandling använder ljuspulser för att bryta ner melanin i huden, vilket gör att de bleknar eller försvinner.',
             image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ipl.webp',
@@ -303,7 +303,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling mot pigmentfläckar',
             duration: '20-90 min',
-            price: 'Från 1595 kr',
+            price: 'Från 2595 kr',
             content: 'Laserbehandling mot ojämn pigmentering använder precisa ljusstrålar för att bryta ned överdriven pigmentering i huden. Denna behandling hjälper till att minska synligheten av pigmentfläckar och förbättra hudens jämnhet.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -323,7 +323,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot pigmentfläckar',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en avancerad teknik som används för att behandla och förbättra hudens utseende, särskilt när det gäller pigmentfläckar och ojämn hudton.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',

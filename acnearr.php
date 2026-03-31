@@ -257,7 +257,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot acneärr',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en populär behandling av ärr i ansiktet som riktiar sig särskilt till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',
