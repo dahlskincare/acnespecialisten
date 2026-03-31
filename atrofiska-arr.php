@@ -134,7 +134,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot atrofiska ärr',
             duration: '60 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en effektiv behandling för atrofiska ärr. Genom att använda små, fina nålar skapas mikroskador i huden, vilket stimulerar kollagenproduktionen och hudens naturliga läkningsprocess. Detta resulterar i en jämnare hudtextur och minskad synlighet av atrofiska ärr.',
             image_small: 'bilder/behandlingar/200x200/microneedling.webp',
             image_large: 'bilder/behandlingar/200x200/microneedling.webp',

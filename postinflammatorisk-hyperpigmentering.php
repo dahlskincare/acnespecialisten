@@ -206,7 +206,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot PIH',
             duration: '60 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en populär behandling för att minska fläckar och postinflammatorisk hyperpigmentering (PIH). Genom att använda små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta bidrar till att jämna ut hudtonen och reducera synligheten av mörka fläckar och pigmentförändringar. Behandlingen resulterar i en klarare och mer enhetlig hud.',
             image_small: 'bilder/behandlingar/200x200/microneedling.webp',
             image_large: 'bilder/behandlingar/200x200/microneedling.webp',

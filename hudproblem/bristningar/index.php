@@ -509,7 +509,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot bristningar',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Genom att skapa små mikroskopiska skador i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen ökar.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
