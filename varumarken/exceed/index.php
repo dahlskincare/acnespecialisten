@@ -12,7 +12,7 @@ $seo_image = '/images/treatments/large/exceed.webp';
 $model = new Service(
     title: 'Exceed',
     duration: null,
-    price: 'Från 2595 kr',
+    price: 'Från 2995 kr',
     content: '<p class="p200">Exceed är idealisk för den som siktar på att förhöja hudens kvalitet och spänst, dämpa framträdandet av ärrvävnad, rynkor och fina linjer, samt återställa hudens naturliga vitalitet och utstrålning.</p>',
     image_small: 'bilder/varumarken/358x274/exceed.webp',
     image_large: 'bilder/varumarken/424x456/exceed.webp',
@@ -27,7 +27,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '2595 kr',
+            price: '2995 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -35,16 +35,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
+            price: '7995 kr',
+            savings: 'Spara 990 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
+            price: '10995 kr',
+            savings: 'Spara 3980 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
@@ -75,7 +75,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=exceed&area=Microneedling_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för 1 område'
