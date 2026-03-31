@@ -473,7 +473,7 @@ $brand_cards = array(
             image: 'bilder/logotyper/hifu.svg',
             image_alt: 'HIFU logotyp',
             image_title: 'HIFU - ultraljud',
-            photo: 'bilder/varumarken/424x324/microdermabrasion.webp',
+            photo: 'bilder/varumarken/424x324/hifu.webp',
             photo_alt: 'HIFU ultraljudsbehandling',
             photo_title: 'HIFU - ultraljud',
             title: 'HIFU',
