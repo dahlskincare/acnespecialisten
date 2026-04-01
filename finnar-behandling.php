@@ -89,7 +89,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot finnar hos AcneSpecialisten',
         title: 'Laserbehandling mot finnar',
         duration: '50 min',
-        price: '2595 kr',
+        price: '4595 kr',
         icons: array(),
         content: '<p class="p200">Genom att använda ljusenergi för att behandla inflammationen i huden som orsakar finnar. Laserstrålen tränger ner i huden och behandlar de djupa lager där finnar börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till finnarutbrott.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',
