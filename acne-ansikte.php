@@ -217,7 +217,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'En effektiv behandling som noggrant extraherar orenheter, förebygger ärrbildning och främjar snabb läkning.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
@@ -240,7 +240,7 @@ $services = array(
       new Service(
             title: 'Laser mot akne',
             duration: '60 min',
-            price: '3595 kr',
+            price: '4595 kr',
             content: 'Avancerad laserbehandling som effektivt bekämpar aktiv akne genom att rikta sig mot akneorsakande bakterier och minska talgproduktionen.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -287,7 +287,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot akne',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling skapar små kanaler i huden för att främja läkning och kollagenproduktion, behandla akneutbrott och minska akneärr.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

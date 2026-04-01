@@ -187,7 +187,7 @@ $services = array(
       new Service(
             title: 'Portömning - Rygg',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Klämmer finnarna utan att orsaka ärr genom att extrahera orenheter och främja snabbare läkning.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
@@ -206,7 +206,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling',
             duration: '50 min',
-            price: '2595 kr',
+            price: '4595 kr',
             content: 'Minskar bakterier och inflammation för att förebygga framtida utbrott och ge jämnare hud.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -245,7 +245,7 @@ $services = array(
       new Service(
             title: 'Microneedling',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Skapar små kanaler i huden, främjar läkning, stimulerar kollagen och minskar ärr.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',

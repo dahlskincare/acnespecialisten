@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL behandling',
     duration: null,
-    price: 'Från 1595 kr',
+    price: 'Från 1995 kr',
     content: '<p class="p200">Vi erbjuder den bästa IPL behandlingen för effektiv hudföryngring i Stockholm. Vår expertis och avancerade teknik garanterar resultat som förbättrar hudens utseende och kvalitet. Oavsett om du söker permanenta lösningar för pigmentfläckar, ytliga kärl eller ojämn hudton, är vår IPL-behandling anpassad för att möta dina behov.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '2595 kr',
+            price: '2995 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -40,7 +40,7 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '6995 kr',
+            price: '7995 kr',
             savings: 'Spara 790 kr',
             booking_url: null,
             booking_url_label: null,
@@ -48,7 +48,7 @@ $model = new Service(
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '9995 kr',
+            price: '10995 kr',
             savings: 'Spara 2980 kr',
             booking_url: null,
             booking_url_label: null,
@@ -112,7 +112,7 @@ $types = array(
     new Service(
         title: 'IPL-behandling mot Ytliga Blodkärl',
         duration: '20 - 50 min',
-        price: 'Från 1595 kr',
+        price: 'Från 1995 kr',
         content: 'Effektiv IPL-behandling för att minska synligheten av ytliga blodkärl. Denna behandling används för att selektivt behandla de drabbade blodkärlen, vilket resulterar i en klarare och mer enhetlig hudton.',
         image_small: 'bilder/hudproblem/102x102/ytliga-blodkarl.webp',
         image_large: 'bilder/hudproblem/200x200/ytliga-blodkarl.webp',
@@ -133,7 +133,7 @@ $types = array(
     new Service(
         title: 'IPL-behandling mot Pigmentfläckar',
         duration: '20 - 50 min',
-        price: 'Från 1595 kr',
+        price: 'Från 1995 kr',
         content: 'Minska och ta bort pigmentfläckar med vår IPL-behandling. Denna metod är idealisk för att effektivt och målinriktat reducera mörka fläckar och ojämnheter i hudtonen, vilket ger en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/pigmentflackar.webp',
         image_large: 'bilder/hudproblem/200x200/pigmentflackar.webp',
@@ -191,7 +191,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'IPL - Hela ansiktet',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av ansiktet'
@@ -202,7 +202,7 @@ $treatment_areas = array(
                 image_title: 'Panna',
                 title: 'IPL - Panna',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Forehead',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av pannan'
@@ -213,7 +213,7 @@ $treatment_areas = array(
                 image_title: 'Näsa',
                 title: 'IPL - Näsa',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av näsan'
@@ -235,7 +235,7 @@ $treatment_areas = array(
                 image_title: 'Överläpp',
                 title: 'IPL - Överläpp',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av överläppen'
@@ -246,7 +246,7 @@ $treatment_areas = array(
                 image_title: 'Haka',
                 title: 'IPL - Haka',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av hakan'
@@ -267,7 +267,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'IPL - Hals',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av halsen'
@@ -278,7 +278,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'IPL - Dekolletage',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av dekolletaget'
@@ -289,7 +289,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'IPL - Händer',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL-behandling av händerna'
@@ -310,7 +310,7 @@ $treatment_areas = array(
                 image_title: '1x zon',
                 title: '1x zon',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_1xZone',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 zon.'
@@ -332,7 +332,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
@@ -343,7 +343,7 @@ $treatment_areas = array(
                 image_title: '2x områden',
                 title: '2x områden',
                 duration: '60 min',
-                price: '3595 kr',
+                price: '3995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -354,7 +354,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '70 min',
-                price: '4595 kr',
+                price: '4995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'

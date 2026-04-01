@@ -18,7 +18,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Microneedling mot akne och finnar',
     duration: null,
-    price: 'Från 1595 kr',
+    price: 'Från 2995 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/microneedling.webp',
     image_large: 'bilder/hudbehandlingar/424x456/microneedling.webp',
@@ -33,7 +33,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '2595 kr',
+            price: '2995 kr',
             savings: null,
             booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1',
             booking_url_label: 'Boka behandling',
@@ -41,16 +41,16 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '6995 kr',
-            savings: 'Spara 790 kr',
+            price: '7995 kr',
+            savings: 'Spara 990 kr',
             booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '9995 kr',
-            savings: 'Spara 2980 kr',
+            price: '10995 kr',
+            savings: 'Spara 3980 kr',
             booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5',
             booking_url_label: 'Boka behandling',
             booking_url_title: 'Boka behandling'
@@ -85,20 +85,20 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '2595 kr',
+                price: '2995 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '6995 kr',
-                savings: 'Spara 790 kr',
+                price: '7995 kr',
+                savings: 'Spara 990 kr',
                 booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '9995 kr',
-                savings: 'Spara 2980 kr',
+                price: '10995 kr',
+                savings: 'Spara 3980 kr',
                 booking_url: 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne&method=acne_microneedling&area=Microneedling_Face&procedures=PriceClass_5_Procedure_5'
             )
         )

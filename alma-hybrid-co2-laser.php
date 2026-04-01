@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'CO2 laser - Fraktionerad laser',
     duration: null,
-    price: 'Från 5595 kr',
+    price: 'Från 6995 kr',
     content: '<p class="p200">Alma Hybrid är en avancerad fraktionerad CO2-laser med ett unikt patent. Den kombinerar ablativ CO2-laser, som bränner hudytan, med icke-ablativ laser, som behandlar under huden. Denna senaste generation av laserbehandling hanterar effektivt hudproblem som akneärr, rynkor, fina linjer och ojämn hudton, och ger en omfattande lösning för förbättrad hudhälsa och utseende.</p>',
     image_small: 'bilder/varumarken/358x274/alma-hybrid-co2.webp',
     image_large: 'bilder/varumarken/424x456/alma-hybrid-co2.webp',
@@ -75,21 +75,21 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '5595 kr',
+                price: '6995 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_11_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_14_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '12995 kr',
-                savings: 'Spara 2790 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_11_Procedure_3'
+                price: '16995 kr',
+                savings: 'Spara 3990 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_14_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '18995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_11_Procedure_5'
+                price: '26995 kr',
+                savings: 'Spara 7980 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_oScar&procedures=PriceClass_14_Procedure_5'
             )
         )
     ),
@@ -114,21 +114,21 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '5595 kr',
+                price: '6995 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_11_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_14_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '12995 kr',
-                savings: 'Spara 2790 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_11_Procedure_3'
+                price: '16995 kr',
+                savings: 'Spara 3990 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_14_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '18995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_11_Procedure_5'
+                price: '26995 kr',
+                savings: 'Spara 7980 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_HybridLift&procedures=PriceClass_14_Procedure_5'
             )
         )
     ),
@@ -153,21 +153,21 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '4595 kr',
+                price: '5595 kr',
                 savings: null,
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_9_Procedure_1'
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_11_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '10995 kr',
+                price: '13995 kr',
                 savings: 'Spara 2790 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_9_Procedure_3'
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_11_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '15995 kr',
-                savings: 'Spara 6980 kr',
-                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_9_Procedure_5'
+                price: '21995 kr',
+                savings: 'Spara 5980 kr',
+                booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_11_Procedure_5'
             )
         )
     ),
@@ -180,7 +180,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot acneärr',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Effektiv metod för att minska acneärr. Kombinerar precisionslaser med djupvävnadsuppvärmning, stimulerar hudens läkning för jämnare hudtextur.',
         image_small: 'bilder/hudproblem/102x102/acnearr.webp',
         image_large: 'bilder/hudproblem/200x200/acnearr.webp',
@@ -200,7 +200,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot ärr (skade- och operationsärr)',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Fraktionerad laser för ärr behandlar skade- och operationsärr genom att stimulera hudregenerering, minskar ärrsynlighet med förbättrad hudtextur.',
         image_small: 'bilder/hudproblem/102x102/operations-skadearr.webp',
         image_large: 'bilder/hudproblem/200x200/operations-skadearr.webp',
@@ -240,7 +240,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot bristningar',
         duration: '90 min',
-        price: '5595 kr',
+        price: '6995 kr',
         content: 'Laser behandling mot bristningar stimulerar kollagenproduktion och hudförnyelse för att förbättra hudens elasticitet och textur, reducerar bristningars utseende.',
         image_small: 'bilder/hudproblem/102x102/bristningar.webp',
         image_large: 'bilder/hudproblem/200x200/bristningar.webp',

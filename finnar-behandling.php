@@ -62,7 +62,7 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Finnar',
         duration: '60 min',
-        price: '1295 kr',
+        price: '1595 kr',
         icons: array(),
         content: '<p class="p200">Vår Ansiktsbehandling mot finnar är en djuprengöring av huden som tar bort döda hudceller och frigör tilltäppta porer. Behandlingen inleds med en rengöring, följt av ångning för att öppna upp porerna. Därefter följer en djup porrengöring där orenheter och finnar elimineras. Behandlingen avslutas med en lugnande mask och fuktgivande kräm anpassad för din hudtyp.</p>',
 
@@ -89,7 +89,7 @@ $services = array(
         image_alt: 'Bild av laserbehandling mot finnar hos AcneSpecialisten',
         title: 'Laserbehandling mot finnar',
         duration: '50 min',
-        price: '2595 kr',
+        price: '4595 kr',
         icons: array(),
         content: '<p class="p200">Genom att använda ljusenergi för att behandla inflammationen i huden som orsakar finnar. Laserstrålen tränger ner i huden och behandlar de djupa lager där finnar börjar. Denna metod reducerar oljeproduktionen i huden och dödar bakterier som bidrar till finnarutbrott.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Laser',

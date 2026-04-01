@@ -1,7 +1,7 @@
 namespace FAQ {
     export function selectCategory(target: Element, name: String): void {
-        let parent = target.parentElement;
-        let host = parent.parentElement;
+        let parent = target.parentElement!;
+        let host = parent.parentElement!;
         let targetIndex = -1;
         for (var i = 0; i < parent.children.length; i++) {
             parent.children[i].classList.remove('selected');
@@ -20,7 +20,7 @@ namespace FAQ {
     }
     export function toggleQuestionExpanded(target: Element): void {
         target.classList.toggle('expanded');
-        let textElement = target.parentElement.children[1];
+        let textElement = target.parentElement!.children[1];
         if (textElement.classList.contains('zero-size')) {
             textElement.classList.remove('zero-size');
         } else {

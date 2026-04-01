@@ -320,7 +320,7 @@ $services = array(
       new Service(
             title: 'Portömning',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Portömning är en inriktad ansiktsbehandling som fokuserar på att effektivt rensa porena från talg och orenheter. Behandlingen utförs genom en noga extrahering av pormaskar och kan leda till förebygga förstorade porer.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandlingar-mot-problemhy.webp',
@@ -339,7 +339,7 @@ $services = array(
       new Service(
             title: 'Laser mot Pormaskar',
             duration: '90 min',
-            price: '5595 kr',
+            price: '6995 kr',
             content: 'Vår avancerade laserbehandling är en effektiv metod för att minska pormaskar. Denna teknik använder laser för att bränna bort det översta hudlagret för att bli av med porblockerna. Det hjälper till att rensa porerna vilket ger en klarare och renare hud.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -386,7 +386,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot Pormaskar',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en effektiv metod för att minska synligheten av pormaskar. Genom att skapa små mikroskopiska kanaler i huden, stimulerar denna behandling hudens naturliga läkningsprocess. Detta bidrar till att rensa och förfina porerna, vilket reducerar porernas storlek och förbättrar hudens övergripande textur.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

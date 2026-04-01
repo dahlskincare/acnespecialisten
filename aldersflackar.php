@@ -114,7 +114,7 @@ $services = array(
       new Service(
             title: 'IPL-behandling mot åldersfläckar',
             duration: '20-50 min',
-            price: 'Från 1595 kr',
+            price: 'Från 1995 kr',
             content: 'IPL-behandling använder ljuspulser för att bryta ner melanineti fläckarna, vilket gör att de bleknar och försvinner.',
             image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ipl.webp',
@@ -152,7 +152,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling mot åldersfläckar',
             duration: '90 min',
-            price: '5595 kr',
+            price: '6995 kr',
             content: 'Laser mot åldersfläckar och ojämn pigmentering använder precisa ljusstrålar för att bryta ned den överdrivna pigmenteringen i huden.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -172,7 +172,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot åldersfläckar',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Denna process hjälper till att bryta ner hyperpigmentering och främjar cellförnyelse, vilket resulterar i en jämnare hudton och minskad synlighet av åldersfläckar.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',

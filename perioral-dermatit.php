@@ -357,7 +357,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot Perioral Dermatit',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Behandlingen syftar till att lindra symtom och förbättra hudens skick genom en skonsam och noggrann rengöring av de drabbade områdena.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',

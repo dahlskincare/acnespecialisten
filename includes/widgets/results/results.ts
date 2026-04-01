@@ -2,21 +2,21 @@ namespace ResultsWidget {
     class ResultElement {
         constructor(button: HTMLElement) {
             this.button = button;
-            this.slider = button.parentElement;
-            this.after = this.slider.parentElement.children[1] as HTMLImageElement;
-            this.bounds = this.slider.parentElement.getBoundingClientRect();
+            this.slider = button.parentElement!;
+            this.after = this.slider.parentElement!.children[1] as HTMLImageElement;
+            this.bounds = this.slider.parentElement!.getBoundingClientRect();
         }
 
-        button: HTMLElement = null
-        slider: HTMLElement = null
-        after: HTMLImageElement = null
-        bounds: DOMRect = null
+        button: HTMLElement
+        slider: HTMLElement
+        after: HTMLImageElement
+        bounds: DOMRect
     }
 
-    var activeResult: ResultElement = null;
+    var activeResult: ResultElement | null = null;
 
     export function scroll(step: number) {
-        const scroller = document.querySelector('.results-scroller');
+        const scroller = document.querySelector('.results-scroller')!;
 
         // 24 is the margin between results
         scroller.scrollBy(step * (scroller.getBoundingClientRect().width) + step * 24, 0);

@@ -219,7 +219,7 @@ $services = array(
       new Service(
             title: 'Laser mot acneärr',
             duration: '90 min',
-            price: '5595 kr',
+            price: '6995 kr',
             content: 'Laserbehandling är en effektiv metod för att ta bort ärr i ansiktet som använder koncentrerade ljusstrålar för att behandla och minska ärr som orsakats av akne. Genom att stimulera hudens naturliga kollagenproduktion och ta bort skadade hudceller, kan denna behandling jämna ut hudens textur och minska framträdandet av ärr.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -257,7 +257,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot acneärr',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en populär behandling av ärr i ansiktet som riktiar sig särskilt till atrofiska ärr. Med hjälp av små, fina nålar skapas kontrollerade mikroskador i huden, vilket stimulerar hudens naturliga läkningsprocess och kollagenproduktion. Detta leder till en jämnare hudtextur och minskat framträdande av atrofiska ärr.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',

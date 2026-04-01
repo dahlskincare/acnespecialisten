@@ -4,7 +4,7 @@ namespace BrandsPage {
 
 
     document.addEventListener('DOMContentLoaded', () => {
-        const container = document.querySelector('#brands-container');
+        const container = document.querySelector('#brands-container') as HTMLElement;
         const brands = container.querySelector('#brands') as HTMLElement;
         scroller = brands.querySelector('#brands-shadow') as HTMLElement;
         const leftMask = container.querySelector('#scroll-button-previous') as HTMLElement;

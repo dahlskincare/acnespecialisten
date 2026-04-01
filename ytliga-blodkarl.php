@@ -354,7 +354,7 @@ $services = array(
       new Service(
             title: 'IPL mot ytliga blodkärl',
             duration: '20-50 min',
-            price: 'Från 1595 kr',
+            price: 'Från 1995 kr',
             content: 'IPL (Intensivt Pulserande Ljus) är en effektiv metod för att behandla ytliga blodkärl. Tekniken använder ljusvågor av olika längder för att värma upp och skada blodkärlen, vilket får dem att gå sönder och transporteras bort av kroppen.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',

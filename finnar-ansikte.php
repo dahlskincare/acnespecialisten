@@ -133,7 +133,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot finnar',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Effektiv lösning för att klämma finnar utan att orsaka ärr, detta genom att noggrant framtagen för att extrahera orenheter som orsakar inflammation och skador på huden. Genom att varsamt ta bort finnar kan behandlingen hjälpa till att förebygga ärrbildning och främja snabbare läkning.',
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
@@ -152,7 +152,7 @@ $services = array(
       new Service(
             title: 'Laserbehandling mot finnar',
             duration: '60 min',
-            price: '3595 kr',
+            price: '4595 kr',
             content: 'Avancerade laserteknik! Genom att rikta sig mot bakterier som orsakar inflammation, minskar denna behandling risken för framtida utbrott och hjälper till att ge dig en jämnare och klarare hud.',
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
             image_large: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -191,7 +191,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot finnar',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Effektiv behandlingsmetod. Genom att skapa små mikroskopiska kanaler i huden, främjar denna behandling hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Metoden kan effektivt minska utbrott av finnar, förbättra hudens struktur och minska synligheten av ärr orsakade av finnar.',
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',
             image_large: 'bilder/hudbehandlingar/200x200/microneedling.webp',

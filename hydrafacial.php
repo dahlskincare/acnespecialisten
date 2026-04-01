@@ -32,7 +32,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1995 kr',
+            price: '1595 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -40,15 +40,15 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '4995 kr',
-            savings: 'Spara 990 kr',
+            price: '3995 kr',
+            savings: 'Spara 790 kr',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,
         ),
         new Procedure(
             label: '5 behandlingar',
-            price: '7995 kr',
+            price: '5995 kr',
             savings: 'Spara 1980 kr',
             booking_url: null,
             booking_url_label: null,

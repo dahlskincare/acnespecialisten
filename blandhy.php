@@ -241,7 +241,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot blandhy',
             duration: '60 min',
-            price: '1295 kr',
+            price: '1595 kr',
             content: 'Denna skräddarsydda ansiktsrengöring för blandhy tar sikte på hudens specifika behov, särskilt de torra och oljiga partierna. Genom djup rengöring, rätt exfoliering och intensiv återfuktning ger behandlingen huden en harmoniserad känsla, förbättrad textur och en naturlig lyster.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
@@ -290,7 +290,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot blandhy',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling för blandhy adresserar hudens komplexa behov. Genom att skapa fina kanaler i huden, förbättrar behandlingen hudens förmåga att läka samt stimulerar kollagenproduktion. Denna process hjälper till att jämna ut både torra och oljiga områden, vilket förbättrar hudens yta och återställer en naturliga balans.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

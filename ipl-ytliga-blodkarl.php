@@ -18,7 +18,7 @@ $path_segments = array(
 $model = new Service(
     title: 'IPL mot ytliga blodkärl',
     duration: null,
-    price: 'Från 1295 kr',
+    price: 'Från 1995 kr',
     content: '<p class="p200">Med vår IPL behandling kan du effektivt minska synligheten av ytliga blodkärl och uppnå en jämnare hudton. Denna ljusbaserade terapi är skonsam men kraftfull och riktar in sig specifikt på blodkärlen, vilket gör den särskilt lämplig för behandling av rosacea och relaterade hudtillstånd. Genom att skräddarsy varje session efter dina unika hudbehov, ser vi till att ge din hud den vård och uppmärksamhet den förtjänar för optimala resultat.</p>',
     image_small: 'bilder/hudbehandlingar/358x274/ipl.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ipl.webp',
@@ -77,7 +77,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'IPL för Ansikte',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av ansiktet'
@@ -88,7 +88,7 @@ $treatment_areas = array(
                 image_title: 'Näsa',
                 title: 'IPL för Näsa',
                 duration: '30 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=Problem_BloodVessels&area=IPL_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för IPL behandling av näsan'

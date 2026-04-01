@@ -1,8 +1,8 @@
 if (document.body.clientWidth > 800) {
-    let filters = document.querySelector('#filters-desktop');
-    let filterItems = filters.querySelector('#filter-items');
-    let buttonPrevious = filters.querySelector('#filter-button-previous');
-    let buttonNext = filters.querySelector('#filter-button-next');
+    let filters = document.querySelector('#filters-desktop') as HTMLElement;
+    let filterItems = filters.querySelector('#filter-items') as HTMLElement;
+    let buttonPrevious = filters.querySelector('#filter-button-previous') as HTMLElement;
+    let buttonNext = filters.querySelector('#filter-button-next') as HTMLElement;
 
     filterItems.addEventListener('scroll', () => {
         let showNext = filterItems.scrollWidth - filterItems.scrollLeft > filterItems.clientWidth;

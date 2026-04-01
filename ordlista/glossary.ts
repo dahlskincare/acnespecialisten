@@ -1,10 +1,10 @@
 namespace Glossary {
     export function onShowMoreClick(button: HTMLElement) {
         button.classList.add('is-hidden');
-        button.parentElement.querySelector('.extended').classList.remove('zero-size');
+        button.parentElement!.querySelector('.extended')!.classList.remove('zero-size');
     }
 
-    const letterSelector = document.querySelector('#letter-selector-scroller');
+    const letterSelector = document.querySelector('#letter-selector-scroller') as HTMLElement;
     const letters = letterSelector.querySelectorAll('.letter');
     const categories = document.querySelectorAll('.item-category');
 
@@ -16,7 +16,7 @@ namespace Glossary {
                 l.classList.remove('active');
             });
             letter.classList.add('active');
-            document.querySelector(`#category-${letter.id}`).scrollIntoView();
+            document.querySelector(`#category-${letter.id}`)?.scrollIntoView();
         }
     });
 
@@ -43,7 +43,7 @@ namespace Glossary {
                 l.classList.remove('active');
             });
             letters[closestCategoryIndex].classList.add('active');
-            letters[closestCategoryIndex].parentElement.scrollLeft = (letters[closestCategoryIndex] as HTMLElement).offsetLeft;
+            letters[closestCategoryIndex].parentElement!.scrollLeft = (letters[closestCategoryIndex] as HTMLElement).offsetLeft;
             currentIndex = closestCategoryIndex;
         }
     }, { passive: true });

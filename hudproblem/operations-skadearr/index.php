@@ -186,7 +186,7 @@ $services = array(
       /*new Service(
             title: 'Microneedling för ärr',
             duration: '50 min',
-            price: '2595 kr',
+            price: '2995 kr',
             content: 'Microneedling är en effektiv behandlingsmetod för ärr. Genom att skapa små mikroskopiska kanaler i huden stimuleras hudens naturliga läkningsprocess och kollagenproduktionen.',
 
             image_small: 'images/services/200x200/microneedling.webp',

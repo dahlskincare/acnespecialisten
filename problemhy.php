@@ -16,7 +16,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Ansiktsbehandlingar mot hudproblem',
     duration: '60 min',
-    price: 'Från 1295 kr',
+    price: 'Från 1595 kr',
     content: '',
     image_small: 'bilder/hudbehandlingar/358x274/ansiktsbehandlingar-mot-problemhy.webp',
     image_large: 'bilder/hudbehandlingar/424x456/ansiktsbehandlingar-mot-problemhy.webp',
@@ -31,7 +31,7 @@ $model = new Service(
     procedures: array(
         new Procedure(
             label: '1 behandling',
-            price: '1295 kr',
+            price: '1595 kr',
             savings: null,
             booking_url: null,
             booking_url_label: null,
@@ -39,8 +39,8 @@ $model = new Service(
         ),
         new Procedure(
             label: '3 behandlingar',
-            price: '3495 kr',
-            savings: '1165 kr per behandling',
+            price: '3995 kr',
+            savings: '1332 kr per behandling',
             booking_url: null,
             booking_url_label: null,
             booking_url_title: null,

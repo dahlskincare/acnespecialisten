@@ -1,23 +1,23 @@
 namespace Problems {
     export function onReadMoreClick() {
         let collapsed = document.querySelector('#problems-banner-collapsed');
-        collapsed.remove();
-        document.querySelector('#problems-banner-expanded').classList.remove('is-hidden');
+        collapsed?.remove();
+        document.querySelector('#problems-banner-expanded')?.classList.remove('is-hidden');
     }
 }
 
 declare var default_problems: Array<string>;
-let currentProblems = null;
+let currentProblems: string | null = null;
 
-function toggleProblems(problems: String) {
-    let columns = document.querySelector('#banner-problem-areas').children;
+function toggleProblems(problems: string) {
+    let columns = document.querySelector('#banner-problem-areas')!.children;
     let cards = document.querySelectorAll('.problem-area-card');
 
     let problemIds = problems === currentProblems ? default_problems : problems.split(',');
     for (var i = 0; i < columns.length; i++) {
         let column = columns[i] as HTMLElement;
         let card = cards[i].parentElement as HTMLElement;
-        let index = problemIds.indexOf(column.dataset.id);
+        let index = problemIds.indexOf(column.dataset.id!);
         if (index >= 0) {
             column.classList.remove('is-hidden');
             card.classList.remove('is-hidden');
@@ -27,12 +27,12 @@ function toggleProblems(problems: String) {
             card.classList.add('is-hidden');
         }
     }
-    currentProblems = problems === currentProblems ? null : problems;
+    currentProblems = problems === currentProblems ? null : problems as string;
 
 }
 
 function highlight(element: HTMLElement) {
-    let parent = element.parentElement;
+    let parent = element.parentElement as HTMLElement;
     if (element.classList.contains('highlight')) {
         element.classList.remove('highlight');
     }
@@ -45,10 +45,10 @@ function highlight(element: HTMLElement) {
 }
 
 if (document.body.clientWidth > 800) {
-    let filters = document.querySelector('#filters-desktop');
-    let filterItems = filters.querySelector('#filter-items');
-    let buttonPrevious = filters.querySelector('#filter-button-previous');
-    let buttonNext = filters.querySelector('#filter-button-next');
+    let filters = document.querySelector('#filters-desktop') as HTMLElement;
+    let filterItems = filters.querySelector('#filter-items') as HTMLElement;
+    let buttonPrevious = filters.querySelector('#filter-button-previous') as HTMLElement;
+    let buttonNext = filters.querySelector('#filter-button-next') as HTMLElement;
 
 
     filterItems.addEventListener('scroll', () => {

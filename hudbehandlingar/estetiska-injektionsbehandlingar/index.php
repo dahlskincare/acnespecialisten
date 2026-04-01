@@ -116,15 +116,18 @@ $treatment_areas = array(
                 url_title: 'Boka tid för behandling av 5 områden.'
             ),
         ),
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Problem',
-        image_title: 'Problem',
-        title: 'Problem',
-        description: '<p class="p200">Här hittar du alla våra behandlingar för specifika problem.</p>',
-        items: array(
+            // Problem
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Problem',
+                image_title: 'Problem',
+                title: 'Problem',
+                duration: null,
+                price: null,
+                url: null,
+                url_label: null,
+                url_title: null
+            ),
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Gabella (Arga rynkan)',
@@ -334,16 +337,18 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för tandköttsvisning'
             ),
-        ),
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Fillers',
-        image_title: 'Fillers',
-        title: 'Fillers',
-        description: '<p class="p200">Vi utför även fillers, lägg till 2000 kronor per mililiter.</p>',
-        items: array(
+            // Fillers
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Fillers',
+                image_title: 'Fillers',
+                title: 'Fillers',
+                duration: null,
+                price: null,
+                url: null,
+                url_label: null,
+                url_title: null
+            ),
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Fillers 1 ml',
@@ -432,16 +437,18 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för återbesök och kontroll.'
             ),
-        ),
-    ),
-    new TreatmentArea(
-        image_small: null,
-        image_large: null,
-        image_alt: 'Kombinera metoder',
-        image_title: 'Kombinera metoder',
-        title: 'Kombinera metoder',
-        description: '<p class="p200">Kombinera injektionsbehandling med fillers.</p>',
-        items: array(
+            // Kombinera metoder
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Kombinera metoder',
+                image_title: 'Kombinera metoder',
+                title: 'Kombinera metoder',
+                duration: null,
+                price: null,
+                url: null,
+                url_label: null,
+                url_title: null
+            ),
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Injektion 1x område + Fillers 1 ml',

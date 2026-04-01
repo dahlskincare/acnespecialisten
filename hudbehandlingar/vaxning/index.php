@@ -76,7 +76,7 @@ $treatment_areas = array(
                 image_title: 'Hela ansiktet',
                 title: 'Hela ansiktet',
                 duration: '30 min',
-                price: '495 kr',
+                price: '595 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-ansikte-fullface--3281261',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
@@ -367,7 +367,7 @@ $treatment_areas = array(
                 image_title: 'Clean Chest & Back',
                 title: 'Clean Chest & Back',
                 duration: '80 min',
-                price: '1 895 kr',
+                price: '1 995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559/vaxning-clean-chest-back-brost-mage-rygg--3281246',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling'
