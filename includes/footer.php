@@ -510,7 +510,7 @@
             <div id="footer-large-bottom">
                 <div class="flex-row justify-space-between">
                     <p>&copy;
-                        <?php echo date('Y') ?> AcneSpecialisten Sverige AB
+                        <?php echo date('Y') ?> Skinstory AB
                     </p>
                     <div class="flex-row">
                         <div id="language-selector">
