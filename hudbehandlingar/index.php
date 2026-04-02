@@ -114,6 +114,11 @@ $treatments = array(
         url: '/hudbehandlingar/skinbooster/',
         url_title: 'Läs mer om skinbooster'
     ),
+    new Treatment(
+        label: 'Gratis Konsultation',
+        url: '/gratis-hudkonsultation.php',
+        url_title: 'Läs mer om gratis hudkonsultation'
+    ),
     // PAUSAD: Vaxning
     // new Treatment(
     //     label: 'Vaxning',
