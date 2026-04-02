@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'CryoPen behandling i Stockholm',
     duration: null,
-    price: 'Från 1595 kr',
+    price: 'Från 1995 kr',
     content: '<p class="p200">CryoPen är ett effektivt alternativ för att ta bort leverfläckar, födelsemärken, skintags, fibrom, fettknölar, hemangiom, pigmentfläckar och mycket mer. Är du osäker på vilken typ av fläck du har? Boka en kostnadsfri konsultation, där vi bedömer din hud och ger råd om den bästa behandlingen för dina behov.</p>',
     image_small: 'bilder/varumarken/358x274/cryopen.webp',
     image_large: 'bilder/varumarken/424x456/cryopen.webp',
@@ -66,7 +66,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot födelsemärken',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -86,7 +86,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot leverfläckar',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -106,7 +106,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot hudflikar',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -126,7 +126,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot skintags',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -146,7 +146,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot Hallonmärke - Jordgubbsmärke - Smultronmärke',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -166,7 +166,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot hemangiom',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -186,7 +186,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot åldersfläckar',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -206,7 +206,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot fibrom',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -226,7 +226,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot seborroisk keratos',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -246,7 +246,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot ansiktsvårtor',
         duration: '20 min',
-        price: '1595 kr',
+        price: '1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -282,7 +282,7 @@ $treatment_areas = array(
                 image_title: '1 st',
                 title: '1 st',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_1',
                 url_label: 'Boka',
                 url_title: 'Boka tid för CryoPen'
@@ -293,7 +293,7 @@ $treatment_areas = array(
                 image_title: '2 - 3 st',
                 title: '2 - 3 st',
                 duration: '20 min',
-                price: '1995 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_2-3',
                 url_label: 'Boka',
                 url_title: 'Boka tid för CryoPen'
@@ -304,7 +304,7 @@ $treatment_areas = array(
                 image_title: '4 - 6 st',
                 title: '4 - 6 st',
                 duration: '20 min',
-                price: '2595 kr',
+                price: '3995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_4-6',
                 url_label: 'Boka',
                 url_title: 'Boka tid för CryoPen'
@@ -315,41 +315,30 @@ $treatment_areas = array(
                 image_title: '7 - 10 st',
                 title: '7 - 10 st',
                 duration: '30 min',
-                price: '2995 kr',
+                price: '4995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_7-10',
                 url_label: 'Boka',
                 url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: '20 st',
-                image_title: '20 st',
-                title: '20 st',
-                duration: '30 min',
-                price: '4995 kr',
+                image_alt: '11 - 20 st',
+                image_title: '11 - 20 st',
+                title: '11 - 20 st',
+                duration: '50 min',
+                price: '7995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_20',
                 url_label: 'Boka',
                 url_title: 'Boka tid för CryoPen'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: '50 st',
-                image_title: '50 st',
-                title: '50 st',
-                duration: '70 min',
-                price: '9995 kr',
+                image_alt: '21 - 50 st',
+                image_title: '21 - 50 st',
+                title: '21 - 50 st',
+                duration: '90 min',
+                price: '15995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Problem_skintags&quantity=PriceClass_Skin_Imperfections_50',
-                url_label: 'Boka',
-                url_title: 'Boka tid för CryoPen'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Återbesök',
-                image_title: 'Återbesök',
-                title: 'Återbesök',
-                duration: '20 min',
-                price: 'Från 495 kr',
-                url: 'https://boka.acnespecialisten.se?flow=cryopen&skipable_problem=Cryopen_aterbesok',
                 url_label: 'Boka',
                 url_title: 'Boka tid för CryoPen'
             ),

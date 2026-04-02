@@ -310,7 +310,7 @@ $path_segments = [
                 </li>
             </ul>
             <p>Presentkortet kan användas för tjänster hos någon av våra kliniker. För ytterligare information och detaljer, vänligen referera till våra presentkortsvillkor på hemsidan.</p>
-            <p>AcneSpecialisten Sverige AB</p>
+            <p>Skinstory AB</p>
             <p>Organisationsnummer: 556530-0695</p>
             <button class="button round-small outline" onclick="document.querySelector('#terms-modal-overlay').classList.add('is-hidden')"><?php icon('close') ?></button>
         </div>
