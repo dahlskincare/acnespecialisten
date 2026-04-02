@@ -126,7 +126,7 @@ $services = array(
       new Service(
             title: 'Behandling av hudflikar med CryoPen',
             duration: '20 min',
-            price: '1595 kr',
+            price: '1995 kr',
             content: 'Med Cryopen-tekniken erbjuder vi en effektiv behandling för att effektivt reducera och ta bort hudflikar. Cryopen använder extrem kyla för att noggrant och säkert behandla det drabbade området, vilket ger en snabb återhämtning och minimalt obehag.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
@@ -359,15 +359,15 @@ $show_all_results_title = "se flera behandlingsresultat";
 $faq_categories = array(
       'Generella frågor' => array(
             new Question(
-                  title: 'Hur många hudflikar ingår i behandlingen för 1595 kr? Vad kostar det för flera hudflikar?',
-                  text: '<p class="p200">Priset på 1595 kr gäller för behandling av 1 hudförändring. För flera hudflikar har vi följande priser baserat på antal:</p>
-                  <p class="p200 mt-m">1 hudförändring: 1595 kr (20 min)<br />
-                  2-3 hudförändringar: 1995 kr - 20 min<br />
-                  4-6 hudförändringar: 2595 kr - 20 min<br />
-                  7-10 hudförändringar: 2995 kr - 30 min<br />
-                  20 hudförändringar: 4995 kr - 30 min<br />
-                  50 hudförändringar: 9995 kr - 70 min</p>
-                  <p class="p200 mt-m">Om du till exempel har 7-8 hudflikar på halsen kommer priset att vara 2995 kr för en 30 minuters behandling, eftersom detta faller under kategorin 7-10 hudförändringar. Vi rekommenderar alltid att boka en kostnadsfri konsultation där våra specialister kan bedöma dina hudflikar och bekräfta det exakta priset för din behandling.</p>'
+                  title: 'Hur många hudflikar ingår i behandlingen för 1995 kr? Vad kostar det för flera hudflikar?',
+                  text: '<p class="p200">Priset på 1995 kr gäller för behandling av 1 hudförändring. För flera hudflikar har vi följande priser baserat på antal:</p>
+                  <p class="p200 mt-m">1 hudförändring: 1995 kr (20 min)<br />
+                  2-3 hudförändringar: 2995 kr - 20 min<br />
+                  4-6 hudförändringar: 3995 kr - 20 min<br />
+                  7-10 hudförändringar: 4995 kr - 30 min<br />
+                  11-20 hudförändringar: 7995 kr - 50 min<br />
+                  21-50 hudförändringar: 15995 kr - 90 min</p>
+                  <p class="p200 mt-m">Om du till exempel har 7-8 hudflikar på halsen kommer priset att vara 4995 kr för en 30 minuters behandling, eftersom detta faller under kategorin 7-10 hudförändringar. Vi rekommenderar alltid att boka en kostnadsfri konsultation där våra specialister kan bedöma dina hudflikar och bekräfta det exakta priset för din behandling.</p>'
             ),
 
             new Question(

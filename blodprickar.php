@@ -117,7 +117,7 @@ $services = array(
       new Service(
             title: 'CryoPen',
             duration: '20 min',
-            price: 'Från 1595 kr',
+            price: 'Från 1995 kr',
             content: 'Cryopen är en effektiv behandlingsmetod som använder extrem kyla för att målinriktat behandla och ta bort hemangiom och blodprickar. Behandlingen är snabb och ger minimalt obehag.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
