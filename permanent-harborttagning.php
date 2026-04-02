@@ -68,7 +68,7 @@ $combos = array(
         image_title: 'Bikinilinje + Hela ben',
         duration: '80 min',
         price: '4190 kr',
-        booking_url: 'https://bokadirekt.se',
+        booking_url: 'https://www.bokadirekt.se/portal/sveriges-skonhetscenter-sundbyberg/31155',
         booking_url_label: 'Boka tid för behandling',
         booking_url_title: 'Boka tid för behandling',
         items: array(

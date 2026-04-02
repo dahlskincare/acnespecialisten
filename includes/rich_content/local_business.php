@@ -32,7 +32,7 @@
                 "https://www.facebook.com/acnespecialisten",
                 "https://www.instagram.com/acnespecialisten",
                 "https://maps.app.goo.gl/nCehKyfxoxP2N3po6",
-                "https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559"
+                "https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539"
 
 
             ],
@@ -82,7 +82,7 @@
                 "https://www.instagram.com/acnespecialisten",
                 "https://se.trustpilot.com/review/acnespecialisten.se",
                 "https://maps.app.goo.gl/8RGWbXiDbQTa9LUb9",
-                "https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300"
+                "https://www.bokadirekt.se/places/sveriges-skonhetscenter-sundbyberg-135394"
             ],
 
             "aggregateRating": {
@@ -128,7 +128,7 @@
                 "https://www.instagram.com/acnespecialisten",
                 "https://se.trustpilot.com/review/acnespecialisten.se",
                 "https://maps.app.goo.gl/FXp6WYFytSQYFWXb6",
-                "https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301"
+                "https://www.bokadirekt.se/places/sveriges-skonhetscenter-sodermalm-135540"
             ],
 
             "aggregateRating": {
