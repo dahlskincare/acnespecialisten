@@ -30,7 +30,7 @@
                 <a href="https://www.shr.nu" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-shr.svg" alt="Shr" title="Shr" width="40" height="40" />
                 </a>
-                <a href="https://www.bokadirekt.se/sok?q=acnespecialisten" target="_blank">
+                <a href="https://www.bokadirekt.se/portal/sveriges-skonhetscenter-sundbyberg/31155" target="_blank">
                     <img loading="lazy" src="images/brands/brand-icon-bokadirekt.svg" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                 </a>
             </div>
@@ -55,7 +55,7 @@
                             <p class="p200">Strandvägen 7, 114 56 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-row">
@@ -65,7 +65,7 @@
                             <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-sodermalm-135540" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
                 <div class="salon-card">
                     <div class="flex-row">
@@ -75,7 +75,7 @@
                             <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
                         </div>
                     </div>
-                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
+                    <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-sundbyberg-135394" target="_blank" class="button grey expand l10n" title="Book a visit">Boka ett besök</a>
                 </div>
             </div>
             <div id="footer-links">
@@ -349,7 +349,7 @@
                     <div>
                         <div class="flex-row justify-end">
                             <span class="h200 l10n">Bokadirekt</span>
-                            <a href="https://www.bokadirekt.se/sok?q=acnespecialisten" target="_blank">
+                            <a href="https://www.bokadirekt.se/portal/sveriges-skonhetscenter-sundbyberg/31155" target="_blank">
                                 <img loading="lazy" src="images/brands/brand-icon-bokadirekt.svg" alt="Bokadirekt" title="Bokadirekt" width="40" height="40" />
                             </a>
                         </div>
@@ -372,7 +372,7 @@
                             <div>
                                 <h2>Östermalm</h2>
                                 <p class="p200">Strandvägen 7, 114 56 Stockholm</p>
-                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-ostermalm-43559" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                             </div>
                         </div>
                     </div>
@@ -382,7 +382,7 @@
                             <div>
                                 <h2>Södermalm</h2>
                                 <p class="p200">Hornsgatan 47, 118 49 Stockholm</p>
-                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sodermalm-19301" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-sodermalm-135540" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                             </div>
                         </div>
                     </div>
@@ -392,7 +392,7 @@
                             <div>
                                 <h2>Sundbyberg</h2>
                                 <p class="p200">Sturegatan 32, 172 31 Sundbyberg</p>
-                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
+                                <a href="https://www.bokadirekt.se/places/sveriges-skonhetscenter-sundbyberg-135394" target="_blank" class="button b200 compact text l10n" title="Boka tid">Boka tid</a>
                             </div>
                         </div>
 

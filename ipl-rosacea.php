@@ -34,7 +34,7 @@ $model = new Service(
             label: '1 procedure',
             price: '2995 kr',
             savings: null,
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://www.bokadirekt.se/portal/sveriges-skonhetscenter-sundbyberg/31155',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -42,7 +42,7 @@ $model = new Service(
             label: '3 procedures',
             price: '7995 kr',
             savings: 'Spara 990 kr',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://www.bokadirekt.se/portal/sveriges-skonhetscenter-sundbyberg/31155',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         ),
@@ -50,7 +50,7 @@ $model = new Service(
             label: '5 procedures',
             price: '10995 kr',
             savings: 'Spara 3980 kr',
-            booking_url: 'https://bokadirekt.se',
+            booking_url: 'https://www.bokadirekt.se/portal/sveriges-skonhetscenter-sundbyberg/31155',
             booking_url_label: 'Boka tid för behandling',
             booking_url_title: 'Boka tid för behandling'
         )
