@@ -62,7 +62,7 @@ $services = array(
         image_alt: 'Bild av IPL-behandling mot pigmentfläckar hos AcneSpecialisten',
         title: 'IPL mot pigmentfläckar',
         duration: '20-70 min',
-        price: 'Från 1595 kr',
+        price: 'Från 1995 kr',
         icons: array(),
         content: '<p class="p200">På Acnespecialisten använder vi IPL-behandling (Intensivt Pulserande Ljus) för att effektivt reducera pigmentfläckar. IPL-behandlingen använder ljusenergi som tränger djupt in i huden och riktar sig mot områden med ökad pigmentering. Denna metod hjälper till att bryta ner melanin, vilket minskar synligheten av pigmentfläckar och återställer en jämnare hudton. Vår noggranna behandling säkerställer att resultatet blir både effektivt och skonsamt för din hud.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
