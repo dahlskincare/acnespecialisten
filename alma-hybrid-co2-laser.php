@@ -153,19 +153,19 @@ $big_types = array(
         procedures: array(
             new Procedure(
                 label: '1 behandling',
-                price: '5595 kr',
+                price: '4595 kr',
                 savings: null,
                 booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_11_Procedure_1'
             ),
             new Procedure(
                 label: '3 behandlingar',
-                price: '13995 kr',
-                savings: 'Spara 2790 kr',
+                price: '11995 kr',
+                savings: 'Spara 1790 kr',
                 booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_11_Procedure_3'
             ),
             new Procedure(
                 label: '5 behandlingar',
-                price: '21995 kr',
+                price: '16995 kr',
                 savings: 'Spara 5980 kr',
                 booking_url: 'https://boka.acnespecialisten.se?flow=almahybrid&skipable_problem=SKIP&area=Service_Laser_SoftLift&procedures=PriceClass_11_Procedure_5'
             )

@@ -106,7 +106,7 @@ $services = array(
         image_alt: 'Bild på laserbehandling mot pigmentfläckar hos Acnespecialisten',
         title: 'Laser mot pigmentfläckar',
         duration: '20-70 min',
-        price: 'Från 1595 kr',
+        price: 'Från 1995 kr',
         icons: array(),
         content: '<p class="p200">Laserbehandling är en mycket effektiv metod för att reducera pigmentfläckar. På Acnespecialisten använder vi avancerad laserteknologi som riktar sig specifikt mot områden med ökad pigmentering. Lasern arbetar genom att sända ut ljuspulser som bryter ner pigmentet i fläckarna, vilket minskar deras synlighet och främjar en jämnare hudton. Denna metod är noggrant kontrollerad för att maximera resultatet samtidigt som den minimerar obehag och återhämtningstid. Laserbehandling erbjuder en snabb och precis lösning för att förbättra hudens utseende och jämnhet.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Method_Laser',
@@ -127,8 +127,8 @@ $services = array(
         image_title: 'Utförande av microneedlingbehandling för pigmentfläckar',
         image_alt: 'Bild på microneedlingbehandling mot pigmentfläckar hos Acnespecialisten',
         title: 'Microneedling mot pigmentfläckar',
-        duration: '20-50 min',
-        price: 'Från 1595 kr',
+        duration: '20-70 min',
+        price: 'Från 1995 kr',
         icons: array(),
         content: '<p class="p200">Microneedling är en effektiv metod för att behandla och få bort pigmentfläckar. Genom att använda små mikronålar skapas mikroskopiska kanaler i huden, vilket stimulerar hudens naturliga läkningsprocess och ökar produktionen av kollagen och elastin. Detta bidrar till att reducera synligheten av pigmentfläckar och främjar en jämnare hudton. Dessutom möjliggör microneedling djupare penetration av aktiva ingredienser, vilket ytterligare hjälper till att reducera pigmentfläckar och förbättra hudens utseende.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_Microneedling',
@@ -151,7 +151,7 @@ $services = array(
 
         title: 'CryoPen mot pigmentfläckar',
         duration: '20-90 min',
-        price: 'Från 995 kr',
+        price: 'Från 1995 kr',
         icons: array(),
         content: '<p class="p200">På Acnespecialisten använder vi CryoPen-behandling för att noggrant och skonsamt behandla pigmentfläckar. CryoPen-enheten applicerar extrem kyla på pigmentfläckarna, vilket resulterar i deras nedbrytning och minskad synlighet. Denna metod är både effektiv och minimalt invasiv, vilket innebär minimalt obehag och ingen återhämtningstid. CryoPen-behandlingen erbjuder en snabb och precis lösning för att förbättra din hudton och reducera pigmentfläckar.</p>',
 
