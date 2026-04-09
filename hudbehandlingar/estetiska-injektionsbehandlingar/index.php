@@ -121,11 +121,11 @@ $treatment_areas = array(
                 image_alt: 'Problem',
                 image_title: 'Problem',
                 title: 'Problem',
-                duration: null,
-                price: null,
-                url: null,
-                url_label: null,
-                url_title: null
+                duration: '',
+                price: '',
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -342,11 +342,11 @@ $treatment_areas = array(
                 image_alt: 'Fillers',
                 image_title: 'Fillers',
                 title: 'Fillers',
-                duration: null,
-                price: null,
-                url: null,
-                url_label: null,
-                url_title: null
+                duration: '',
+                price: '',
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -442,11 +442,11 @@ $treatment_areas = array(
                 image_alt: 'Kombinera metoder',
                 image_title: 'Kombinera metoder',
                 title: 'Kombinera metoder',
-                duration: null,
-                price: null,
-                url: null,
-                url_label: null,
-                url_title: null
+                duration: '',
+                price: '',
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
