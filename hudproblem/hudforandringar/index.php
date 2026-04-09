@@ -299,7 +299,7 @@ $services = array(
       new Service(
             title: 'CryoPen mot hudförändringar',
             duration: '20 min',
-            price: 'Från 1595 kr',
+            price: 'Från 1995 kr',
             content: 'Cryopen fryser bort hudförändringar med extrem kyla, vilket förstör den oönskade hudförändringen. Behandlingen initierar kroppens läkningsprocess, vilket leder till att förändringarna gradvis försvinner.',
 
             image_small: 'bilder/hudbehandlingar/200x200/cryopen.webp',
