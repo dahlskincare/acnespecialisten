@@ -61,7 +61,7 @@ $services = array(
 
         title: 'Ansiktsbehandling mot Rosacea',
         duration: '60 min',
-        price: '1595 kr',
+        price: 'Från 1595 kr',
         icons: array(),
         content: '<p class="p200">Ansiktsbehandling mot rosacea lugnar huden, minskar rodnad och inflammation. Behandlingen inleds med en skonsam rengöring av huden följt av tömning av inflammerade pustler. Behandlingen avslutas med en lugnande mask och fuktgivande kräm speciellt anpassad för känslig rosacea hud.</p>',
 
@@ -87,7 +87,7 @@ $services = array(
         image_alt: 'Bild av IPL-behandling mot rosacea hos Acnespecialisten',
         title: 'IPL-behandling mot Rosacea',
         duration: '50 min',
-        price: '2995 kr',
+        price: 'Från 2995 kr',
         content: '<p class="p200">IPL-behandling är en form av laserbehandling mot rosacea som fungerar genom att använda ljuspulser för att minska rodnad och ytliga blodkärl som ofta förknippas med rosacea. Ljuspulserna riktar sig specifikt mot de röda områdena, vilket minskar inflammationen och förbättrar hudens utseende och hudton.</p>',
         consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Service&Consultationwhat=Consultation_Method_IPL',
         consultation_url_label: 'Boka konsultation',

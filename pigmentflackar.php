@@ -264,7 +264,7 @@ $headline02 = "02. Behandla";
 $services = array(
       new Service(
             title: 'IPL-behandling mot pigmentfläckar',
-            duration: '20-50 min',
+            duration: '20-70 min',
             price: 'Från 1995 kr',
             content: 'IPL behandling använder ljuspulser för att bryta ner melanin i huden, vilket gör att de bleknar eller försvinner.',
             image_small: 'bilder/hudbehandlingar/200x200/ipl.webp',
