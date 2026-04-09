@@ -115,18 +115,17 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 5 områden.'
             ),
-        ),
             // Problem
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Problem',
                 image_title: 'Problem',
                 title: 'Problem',
-                duration: null,
-                price: null,
-                url: null,
-                url_label: null,
-                url_title: null
+                duration: '',
+                price: '',
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -343,11 +342,11 @@ $treatment_areas = array(
                 image_alt: 'Fillers',
                 image_title: 'Fillers',
                 title: 'Fillers',
-                duration: null,
-                price: null,
-                url: null,
-                url_label: null,
-                url_title: null
+                duration: '',
+                price: '',
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -443,11 +442,11 @@ $treatment_areas = array(
                 image_alt: 'Kombinera metoder',
                 image_title: 'Kombinera metoder',
                 title: 'Kombinera metoder',
-                duration: null,
-                price: null,
-                url: null,
-                url_label: null,
-                url_title: null
+                duration: '',
+                price: '',
+                url: '',
+                url_label: '',
+                url_title: ''
             ),
             new TreatmentAreaItem(
                 image: null,
@@ -549,9 +548,9 @@ $treatment_areas = array(
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-fillers-3-ml-2181817',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 3x områden + Fillers 3 ml.'
-            ),
-        ),
-    ),
+            )
+        )
+    )
 );
 
 $bottom_articles = array(
