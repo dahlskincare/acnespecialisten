@@ -115,7 +115,6 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 5 områden.'
             ),
-        ),
             // Problem
             new TreatmentAreaItem(
                 image: null,
