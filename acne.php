@@ -424,7 +424,7 @@ $services = array(
       new Service(
             title: 'Ansiktsbehandling mot akne',
             duration: '60 min',
-            price: '1595 kr',
+            price: 'Från 1595 kr',
             content: 'En effektiv ansiktsbehandling fokuserar på att noggrant extrahera orenheter som orsakar inflammation och skador i huden. Genom att försiktigt klämma ut akne och pormaskar kan behandlingen bidra till att förebygga ärrbildning och främja en snabbare läkning.',
 
             image_small: 'bilder/hudbehandlingar/200x200/ansiktsbehandling.webp',
@@ -447,7 +447,7 @@ $services = array(
       new Service(
             title: 'Laser mot akne',
             duration: '60 min',
-            price: '4595 kr',
+            price: 'Från 4595 kr',
             content: 'En avancerad laserbehandling erbjuder en effektiv lösning för att bekämpa aktiv akne. Lasertekniken riktar sig mot de bakterier som orsakar inflammation och hjälper till att minska produktionen av talg, vilket minskar risken för framtida akne utbrott.',
 
             image_small: 'bilder/hudbehandlingar/200x200/laser.webp',
@@ -470,7 +470,7 @@ $services = array(
       new Service(
             title: 'Kemisk peeling mot akne',
             duration: '40 min',
-            price: '1995 kr',
+            price: 'Från 1995 kr',
             content: 'Genom att använda en speciellt framtagen syra för att exfoliera huden, främjar kemisk peeling cellförnyelse, rensar tilltäppta porer och minskar inflammation.',
 
             image_small: 'bilder/hudbehandlingar/200x200/kemisk-peeling.webp',
@@ -495,7 +495,7 @@ $services = array(
       new Service(
             title: 'Microneedling mot akne',
             duration: '50 min',
-            price: '2995 kr',
+            price: 'Från 2995 kr',
             content: 'Microneedling utförs genom att skapa små mikroskopiska kanaler i huden vilket främjar hudens naturliga läkningsprocess och stimulerar kollagenproduktionen. Denna behandling kan effektivt behandla utbrott av akne, förbättra hudens struktur och minska synligheten av akneärr.',
 
             image_small: 'bilder/hudbehandlingar/200x200/microneedling.webp',

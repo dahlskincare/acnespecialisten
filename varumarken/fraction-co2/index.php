@@ -229,7 +229,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '90 min',
-                price: '5595 kr',
+                price: '6995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=co2laser&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ansiktsbehandling'
@@ -240,7 +240,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '90 min',
-                price: '5595 kr',
+                price: '6995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=co2laser&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för halsbehandling'
@@ -251,7 +251,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '90 min',
-                price: '5595 kr',
+                price: '6995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=co2laser&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för dekolletagebehandling'
@@ -262,7 +262,7 @@ $treatment_areas = array(
                 image_title: 'Rygg',
                 title: 'Rygg',
                 duration: '90 min',
-                price: '5595 kr',
+                price: '6995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=co2laser&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för ryggbehandling'
@@ -273,7 +273,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'Händer',
                 duration: '90 min',
-                price: '5595 kr',
+                price: '6995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=co2laser&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för handbehandling'
@@ -295,7 +295,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '90 min',
-                price: '5595 kr',
+                price: '6995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=co2laser&skipable_problem=SKIP&area=Laser_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
