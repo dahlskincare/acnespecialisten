@@ -115,18 +115,16 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 5 områden.'
             ),
-            // Problem
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Problem',
-                image_title: 'Problem',
-                title: 'Problem',
-                duration: '',
-                price: '',
-                url: '',
-                url_label: '',
-                url_title: ''
-            ),
+        ),
+    ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Problem',
+        image_title: 'Problem',
+        title: 'Problem',
+        description: '<p class="p200">Här hittar du alla våra behandlingar för specifika problem.</p>',
+        items: array(
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Gabella (Arga rynkan)',
@@ -336,18 +334,16 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för tandköttsvisning'
             ),
-            // Fillers
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Fillers',
-                image_title: 'Fillers',
-                title: 'Fillers',
-                duration: '',
-                price: '',
-                url: '',
-                url_label: '',
-                url_title: ''
-            ),
+        ),
+    ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Fillers',
+        image_title: 'Fillers',
+        title: 'Fillers',
+        description: '<p class="p200">Vi utför även fillers, lägg till 2000 kronor per mililiter.</p>',
+        items: array(
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Fillers 1 ml',
@@ -436,18 +432,16 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för återbesök och kontroll.'
             ),
-            // Kombinera metoder
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Kombinera metoder',
-                image_title: 'Kombinera metoder',
-                title: 'Kombinera metoder',
-                duration: '',
-                price: '',
-                url: '',
-                url_label: '',
-                url_title: ''
-            ),
+        ),
+    ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Kombinera metoder',
+        image_title: 'Kombinera metoder',
+        title: 'Kombinera metoder',
+        description: '<p class="p200">Kombinera injektionsbehandling med fillers.</p>',
+        items: array(
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Injektion 1x område + Fillers 1 ml',
@@ -548,9 +542,9 @@ $treatment_areas = array(
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-fillers-3-ml-2181817',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 3x områden + Fillers 3 ml.'
-            )
-        )
-    )
+            ),
+        ),
+    ),
 );
 
 $bottom_articles = array(
