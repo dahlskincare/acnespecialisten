@@ -549,9 +549,9 @@ $treatment_areas = array(
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-fillers-3-ml-2181817',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Injektion 3x områden + Fillers 3 ml.'
-            ),
-        ),
-    ),
+            )
+        )
+    )
 );
 
 $bottom_articles = array(
