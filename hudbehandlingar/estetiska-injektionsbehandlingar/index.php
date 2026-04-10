@@ -231,7 +231,7 @@ $treatment_areas = array(
                 title: 'Fillers 1x område',
                 duration: '40 min',
                 price: '3 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-1x-omrade-3437282',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-1x-omrade-3437278',
                 url_label: 'Boka',
                 url_title: 'Boka Fillers 1x område på Östermalm'
             ),
@@ -242,7 +242,7 @@ $treatment_areas = array(
                 title: 'Fillers 2x områden',
                 duration: '40 min',
                 price: '5 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437283',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437282',
                 url_label: 'Boka',
                 url_title: 'Boka Fillers 2x områden på Östermalm'
             ),
@@ -264,7 +264,7 @@ $treatment_areas = array(
                 title: 'Toxin + Filler',
                 duration: '40 min',
                 price: '5 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-filler-3437245',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437245',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin + Filler på Östermalm'
             ),
@@ -318,7 +318,7 @@ $treatment_areas = array(
                 title: 'Bruxism/Tandgnissling',
                 duration: '30 min',
                 price: '4 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-bruxism-tandgnissling-3442788',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-bruxism-tandgnissling-3442782',
                 url_label: 'Boka',
                 url_title: 'Boka Bruxism-behandling på Östermalm'
             ),
@@ -329,7 +329,7 @@ $treatment_areas = array(
                 title: 'Masseter',
                 duration: '30 min',
                 price: '4 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-masseter-3442789',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-masseter-3442786',
                 url_label: 'Boka',
                 url_title: 'Boka Masseter-behandling på Östermalm'
             ),
@@ -340,7 +340,7 @@ $treatment_areas = array(
                 title: 'Migrän',
                 duration: '30 min',
                 price: '4 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-migran-3442790',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-migran-3442787',
                 url_label: 'Boka',
                 url_title: 'Boka Migrän-behandling på Östermalm'
             ),
@@ -581,7 +581,7 @@ $types_fillers = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-2x-omraden-3437283',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Fillers 2x områden på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437283',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437282',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Fillers 2x områden på Östermalm'
     ),
