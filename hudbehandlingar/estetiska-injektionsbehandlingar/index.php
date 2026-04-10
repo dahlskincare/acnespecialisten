@@ -49,56 +49,56 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Toxin - Botox-behandlingar';
+$types_title = 'Toxin-behandlingar';
 $types_description = 'Botulinumtoxin för rynkreducering och medicinska indikationer. Välj antal områden eller typ av behandling.';
 $types = array(
     new Service(
-        title: 'Botox 1x område',
+        title: 'Toxin 1x område',
         duration: '30 min',
         price: '2 595 kr',
         content: '',
         image_small: null,
         image_large: null,
-        image_alt: 'Botox 1x område',
-        image_title: 'Botox 1x område',
+        image_alt: 'Toxin 1x område',
+        image_title: 'Toxin 1x område',
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493',
         consultation_url_label: 'Boka Sundbyberg',
-        consultation_url_title: 'Boka Botox 1x område på Sundbyberg',
+        consultation_url_title: 'Boka Toxin 1x område på Sundbyberg',
         booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-1x-omrade-3437248',
         booking_url_label: 'Boka Östermalm',
-        booking_url_title: 'Boka Botox 1x område på Östermalm'
+        booking_url_title: 'Boka Toxin 1x område på Östermalm'
     ),
     new Service(
-        title: 'Botox 2x områden',
+        title: 'Toxin 2x områden',
         duration: '40 min',
         price: '2 995 kr',
         content: '',
         image_small: null,
         image_large: null,
-        image_alt: 'Botox 2x områden',
-        image_title: 'Botox 2x områden',
+        image_alt: 'Toxin 2x områden',
+        image_title: 'Toxin 2x områden',
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-2181712',
         consultation_url_label: 'Boka Sundbyberg',
-        consultation_url_title: 'Boka Botox 2x områden på Sundbyberg',
+        consultation_url_title: 'Boka Toxin 2x områden på Sundbyberg',
         booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-2x-omraden-3437249',
         booking_url_label: 'Boka Östermalm',
-        booking_url_title: 'Boka Botox 2x områden på Östermalm'
+        booking_url_title: 'Boka Toxin 2x områden på Östermalm'
     ),
     new Service(
-        title: 'Botox 3x områden',
+        title: 'Toxin 3x områden',
         duration: '40 min',
         price: '3 595 kr',
         content: '',
         image_small: null,
         image_large: null,
-        image_alt: 'Botox 3x områden',
-        image_title: 'Botox 3x områden',
+        image_alt: 'Toxin 3x områden',
+        image_title: 'Toxin 3x områden',
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-2181669',
         consultation_url_label: 'Boka Sundbyberg',
-        consultation_url_title: 'Boka Botox 3x områden på Sundbyberg',
+        consultation_url_title: 'Boka Toxin 3x områden på Sundbyberg',
         booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-3x-omraden-3437247',
         booking_url_label: 'Boka Östermalm',
-        booking_url_title: 'Boka Botox 3x områden på Östermalm'
+        booking_url_title: 'Boka Toxin 3x områden på Östermalm'
     ),
     new Service(
         title: 'Hyperhidros - Armhålor',
@@ -230,8 +230,8 @@ $types = array(
     ),
 );
 
-$types_fillers_title = 'Fillers - Dermal Fillers';
-$types_fillers_description = 'Hyaluronsyra för volym och konturering. Välj antal områden för din behandling.';
+$types_fillers_title = 'Fillers & Kombinationsbehandlingar';
+$types_fillers_description = 'Hyaluronsyra för volym och konturering, samt kombinationsbehandlingar med toxin och fillers.';
 $types_fillers = array(
     new Service(
         title: 'Fillers 1x område',
@@ -283,24 +283,22 @@ $types_fillers = array(
     ),
 );
 
-$types_combo_title = 'Kombinationsbehandlingar';
-$types_combo_description = 'Kombinera toxin och fillers för ett komplett resultat.';
 $types_combo = array(
     new Service(
-        title: 'Botox + Filler',
+        title: 'Toxin + Filler',
         duration: '40 min',
         price: '5 595 kr',
         content: '',
         image_small: null,
         image_large: null,
-        image_alt: 'Botox + Filler',
-        image_title: 'Botox + Filler',
+        image_alt: 'Toxin + Filler',
+        image_title: 'Toxin + Filler',
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Botox + Filler',
         booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437245',
         booking_url_label: 'Boka Östermalm',
-        booking_url_title: 'Boka Botox + Filler på Östermalm'
+        booking_url_title: 'Boka Toxin + Filler på Östermalm'
     ),
 );
 
@@ -692,10 +690,8 @@ $all_brands = array(
                         <div class="mt-xl"></div>
                         <?php if (isset($types)) { ?>
                             <?php foreach ($types as $scm) { ?>
-                                <hr class="is-hidden-touch" />
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                             <?php } ?>
-                            <hr class="is-hidden-touch" />
                         <?php } ?>
                         <?php if (isset($big_types)) { ?>
                             <?php foreach ($big_types as $scm) { ?>
@@ -715,26 +711,13 @@ $all_brands = array(
                         <div class="mt-xl"></div>
                         <?php if (isset($types_fillers)) { ?>
                             <?php foreach ($types_fillers as $scm) { ?>
-                                <hr class="is-hidden-touch" />
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                             <?php } ?>
-                            <hr class="is-hidden-touch" />
                         <?php } ?>
-                    </section>
-                <?php } ?>
-                <?php if (isset($types_combo_title)) { ?>
-                    <section id="types-combo" class="large-margin">
-                        <h2 class="h500"><?php echo $types_combo_title; ?></h2>
-                        <?php if (isset($types_combo_description)) { ?>
-                            <p class="p200 mt-xs"><?php echo $types_combo_description ?></p>
-                        <?php } ?>
-                        <div class="mt-xl"></div>
                         <?php if (isset($types_combo)) { ?>
                             <?php foreach ($types_combo as $scm) { ?>
-                                <hr class="is-hidden-touch" />
                                 <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
                             <?php } ?>
-                            <hr class="is-hidden-touch" />
                         <?php } ?>
                     </section>
                 <?php } ?>
