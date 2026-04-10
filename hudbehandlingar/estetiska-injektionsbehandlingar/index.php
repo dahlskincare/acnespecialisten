@@ -49,8 +49,231 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Toxin-behandlingar';
-$types_description = 'Botulinumtoxin för rynkreducering och medicinska indikationer. Välj antal områden eller typ av behandling.';
+$treatment_areas_title = 'Behandlingar per klinik';
+$treatment_areas_text = '<p class="p200">Vi erbjuder injektionsbehandlingar på båda våra kliniker. Välj din föredragna klinik nedan för att se tillgängliga behandlingar och boka tid.</p>';
+
+$treatment_areas = array(
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Sundbyberg',
+        image_title: 'Sundbyberg',
+        title: 'Sundbyberg',
+        description: '<p class="p200">På vår klinik i Sundbyberg erbjuder vi toxinbehandlingar för rynkreducering.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 1x område',
+                image_title: 'Toxin 1x område',
+                title: 'Toxin 1x område',
+                duration: '30 min',
+                price: '2 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493',
+                url_label: 'Boka',
+                url_title: 'Boka Toxin 1x område på Sundbyberg'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 2x områden',
+                image_title: 'Toxin 2x områden',
+                title: 'Toxin 2x områden',
+                duration: '40 min',
+                price: '2 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-2181712',
+                url_label: 'Boka',
+                url_title: 'Boka Toxin 2x områden på Sundbyberg'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 3x områden',
+                image_title: 'Toxin 3x områden',
+                title: 'Toxin 3x områden',
+                duration: '40 min',
+                price: '3 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-2181669',
+                url_label: 'Boka',
+                url_title: 'Boka Toxin 3x områden på Sundbyberg'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Östermalm',
+        image_title: 'Östermalm',
+        title: 'Östermalm',
+        description: '<p class="p200">På vår klinik på Östermalm erbjuder vi ett komplett utbud av injektionsbehandlingar inklusive toxin, fillers, hyperhidros och medicinska behandlingar.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 1x område',
+                image_title: 'Toxin 1x område',
+                title: 'Toxin 1x område',
+                duration: '30 min',
+                price: '2 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-1x-omrade-3437248',
+                url_label: 'Boka',
+                url_title: 'Boka Toxin 1x område på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 2x områden',
+                image_title: 'Toxin 2x områden',
+                title: 'Toxin 2x områden',
+                duration: '40 min',
+                price: '2 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-2x-omraden-3437249',
+                url_label: 'Boka',
+                url_title: 'Boka Toxin 2x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 3x områden',
+                image_title: 'Toxin 3x områden',
+                title: 'Toxin 3x områden',
+                duration: '40 min',
+                price: '3 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-3x-omraden-3437247',
+                url_label: 'Boka',
+                url_title: 'Boka Toxin 3x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Fillers 1x område',
+                image_title: 'Fillers 1x område',
+                title: 'Fillers 1x område',
+                duration: '40 min',
+                price: '3 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-1x-omrade-3437282',
+                url_label: 'Boka',
+                url_title: 'Boka Fillers 1x område på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Fillers 2x områden',
+                image_title: 'Fillers 2x områden',
+                title: 'Fillers 2x områden',
+                duration: '40 min',
+                price: '5 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437283',
+                url_label: 'Boka',
+                url_title: 'Boka Fillers 2x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Fillers 3x områden',
+                image_title: 'Fillers 3x områden',
+                title: 'Fillers 3x områden',
+                duration: '40 min',
+                price: '7 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-3x-omraden-3437284',
+                url_label: 'Boka',
+                url_title: 'Boka Fillers 3x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin + Filler',
+                image_title: 'Toxin + Filler',
+                title: 'Toxin + Filler',
+                duration: '40 min',
+                price: '5 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437250',
+                url_label: 'Boka',
+                url_title: 'Boka Toxin + Filler på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Hyperhidros - Armhålor',
+                image_title: 'Hyperhidros - Armhålor',
+                title: 'Hyperhidros - Armhålor',
+                duration: '60 min',
+                price: '3 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-hyperhidros-armhalor-3442783',
+                url_label: 'Boka',
+                url_title: 'Boka Hyperhidros Armhålor på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Hyperhidros - Händer',
+                image_title: 'Hyperhidros - Händer',
+                title: 'Hyperhidros - Händer',
+                duration: '60 min',
+                price: '4 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-hyperhidros-hander-3442785',
+                url_label: 'Boka',
+                url_title: 'Boka Hyperhidros Händer på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Hyperhidros - Fötter',
+                image_title: 'Hyperhidros - Fötter',
+                title: 'Hyperhidros - Fötter',
+                duration: '60 min',
+                price: '4 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-hyperhidros-fotter-3442784',
+                url_label: 'Boka',
+                url_title: 'Boka Hyperhidros Fötter på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Medicinskt Toxin - Bruxism/Tandgnissling',
+                image_title: 'Medicinskt Toxin - Bruxism/Tandgnissling',
+                title: 'Medicinskt Toxin - Bruxism/Tandgnissling',
+                duration: '30 min',
+                price: '4 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-bruxism-tandgnissling-3442788',
+                url_label: 'Boka',
+                url_title: 'Boka Bruxism-behandling på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Medicinskt Toxin - Masseter',
+                image_title: 'Medicinskt Toxin - Masseter',
+                title: 'Medicinskt Toxin - Masseter',
+                duration: '30 min',
+                price: '4 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-masseter-3442789',
+                url_label: 'Boka',
+                url_title: 'Boka Masseter-behandling på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Medicinskt Toxin - Migrän',
+                image_title: 'Medicinskt Toxin - Migrän',
+                title: 'Medicinskt Toxin - Migrän',
+                duration: '30 min',
+                price: '4 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-migran-3442790',
+                url_label: 'Boka',
+                url_title: 'Boka Migrän-behandling på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Medicinskt Toxin - Spänningshuvudvärk',
+                image_title: 'Medicinskt Toxin - Spänningshuvudvärk',
+                title: 'Medicinskt Toxin - Spänningshuvudvärk',
+                duration: '30 min',
+                price: '4 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-spanningshuvudvark-3442791',
+                url_label: 'Boka',
+                url_title: 'Boka Spänningshuvudvärk-behandling på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Medicinskt Toxin - Nackspänningar',
+                image_title: 'Medicinskt Toxin - Nackspänningar',
+                title: 'Medicinskt Toxin - Nackspänningar',
+                duration: '30 min',
+                price: '4 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-nackspanningar-3442792',
+                url_label: 'Boka',
+                url_title: 'Boka Nackspänningar-behandling på Östermalm'
+            ),
+        )
+    ),
+);
+
+// Legacy arrays - keeping for backwards compatibility but not used in rendering
 $types = array(
     new Service(
         title: 'Toxin 1x område',
@@ -681,43 +904,16 @@ $all_brands = array(
                         ?>
                     </section>
                 <?php } ?>
-                <?php if (isset($types_title)) { ?>
-                    <section id="types" class="large-margin">
-                        <h2 class="h500"><?php echo $types_title; ?></h2>
-                        <?php if (isset($types_description)) { ?>
-                            <p class="p200 mt-xs"><?php echo $types_description ?></p>
+                <?php if (isset($treatment_areas)) { ?>
+                    <section id="treatment-areas" class="large-margin">
+                        <h2 class="h500"><?php echo $treatment_areas_title ?></h2>
+                        <?php if (isset($treatment_areas_text)) { ?>
+                            <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
-                        <div class="mt-xl"></div>
-                        <?php if (isset($types)) { ?>
-                            <?php foreach ($types as $scm) { ?>
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                            <?php } ?>
-                        <?php } ?>
-                        <?php if (isset($big_types)) { ?>
-                            <?php foreach ($big_types as $scm) { ?>
-                                <div class="big-type">
-                                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
-                                </div>
-                            <?php } ?>
-                        <?php } ?>
-                    </section>
-                <?php } ?>
-                <?php if (isset($types_fillers_title)) { ?>
-                    <section id="types-fillers" class="large-margin">
-                        <h2 class="h500"><?php echo $types_fillers_title; ?></h2>
-                        <?php if (isset($types_fillers_description)) { ?>
-                            <p class="p200 mt-xs"><?php echo $types_fillers_description ?></p>
-                        <?php } ?>
-                        <div class="mt-xl"></div>
-                        <?php if (isset($types_fillers)) { ?>
-                            <?php foreach ($types_fillers as $scm) { ?>
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                            <?php } ?>
-                        <?php } ?>
-                        <?php if (isset($types_combo)) { ?>
-                            <?php foreach ($types_combo as $scm) { ?>
-                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
-                            <?php } ?>
+                        <?php foreach ($treatment_areas as $treatment_area) { ?>
+                            <div class="treatment-area-large mt-xl">
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/hudbehandlingar/widgets/treatment-area-large/treatment-area-large.php'); ?>
+                            </div>
                         <?php } ?>
                     </section>
                 <?php } ?>
