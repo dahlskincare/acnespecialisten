@@ -905,40 +905,21 @@ $all_brands = array(
                     </section>
                 <?php } ?>
                 <?php if (isset($treatment_areas)) { ?>
-                    <section id="treatment-areas" class="large-margin">
-                        <?php if (isset($treatment_areas_title)) { ?>
-                            <h2 class="big l10n"><?php echo $treatment_areas_title ?></h2>
-                        <?php } ?>
-                        <?php if (isset($treatment_areas_text)) { ?>
-                            <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
-                        <?php } ?>
-                        <ul id="treatment-area-selector">
-                            <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
-                                <li class="treatment-area-selector-item" data-index="<?php echo $index ?>" onclick="scrollToCategory(this)">
-                                    <?php echo $treatment_area->title ?>
-                                </li>
+                    <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
+                        <section id="treatment-area-<?php echo $index ?>" class="large-margin">
+                            <h2 class="h500"><?php echo $treatment_area->title ?></h2>
+                            <?php if (isset($treatment_area->description)) { ?>
+                                <div class="mt-xs"><?php echo $treatment_area->description ?></div>
                             <?php } ?>
-                        </ul>
-
-                        <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
-                            <div class="treatment-area" id="treatment-area-<?php echo $index ?>">
-                                <?php if (isset($treatment_area->image_small)) { ?>
-                                    <picture>
-                                        <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
-                                        <source media="(min-width: 800px)" srcset="<?php echo $treatment_area->image_large ?>">
-                                        <img loading="lazy" class="treatment-area-image" src="<?php echo $treatment_area->image_small ?>" alt="<?php echo $treatment_area->image_alt ?>" title="<?php echo $treatment_area->image_title ?>" width="364" height="364" />
-                                    </picture>
-                                <?php } ?>
-                                <h3 class="h300 mt-xl4"><?php echo $treatment_area->title ?></h3>
-                                <div class="mb-xl"><?php echo $treatment_area->description ?></div>
-                            <?php
-                            foreach ($treatment_area->items as $treatment_area_item) {
-                                include($_SERVER['DOCUMENT_ROOT'] . '/hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
-                            }
-                        } ?>
+                            <div class="mt-xl">
+                                <?php
+                                foreach ($treatment_area->items as $treatment_area_item) {
+                                    include($_SERVER['DOCUMENT_ROOT'] . '/hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                                }
+                                ?>
                             </div>
-                    </section>
-
+                        </section>
+                    <?php } ?>
                 <?php } ?>
                 <?php if (isset($areas_title) && isset($areas_list)) { ?>
                     <section id="treatment-areas-info" class="large-margin">
