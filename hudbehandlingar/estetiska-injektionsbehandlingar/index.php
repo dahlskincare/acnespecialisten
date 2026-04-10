@@ -49,8 +49,8 @@ $top_articles = array(
     ),
 );
 
-$types_title = 'Behandlingsområden för Injektionsbehandlingar';
-$types_description = 'Vi behandlar både specifika problem och områden effektivt på våra kliniker.';
+$types_title = 'Toxin - Botox-behandlingar';
+$types_description = 'Botulinumtoxin för rynkreducering och medicinska indikationer. Välj antal områden eller typ av behandling.';
 $types = array(
     new Service(
         title: 'Botox 1x område',
@@ -228,6 +228,11 @@ $types = array(
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Nackspänningar-behandling på Östermalm'
     ),
+);
+
+$types_fillers_title = 'Fillers - Dermal Fillers';
+$types_fillers_description = 'Hyaluronsyra för volym och konturering. Välj antal områden för din behandling.';
+$types_fillers = array(
     new Service(
         title: 'Fillers 1x område',
         duration: '40 min',
@@ -276,6 +281,11 @@ $types = array(
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Fillers 3x områden på Östermalm'
     ),
+);
+
+$types_combo_title = 'Kombinationsbehandlingar';
+$types_combo_description = 'Kombinera toxin och fillers för ett komplett resultat.';
+$types_combo = array(
     new Service(
         title: 'Botox + Filler',
         duration: '40 min',
@@ -693,6 +703,38 @@ $all_brands = array(
                                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card_big/service_card_big.php') ?>
                                 </div>
                             <?php } ?>
+                        <?php } ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($types_fillers_title)) { ?>
+                    <section id="types-fillers" class="large-margin">
+                        <h2 class="h500"><?php echo $types_fillers_title; ?></h2>
+                        <?php if (isset($types_fillers_description)) { ?>
+                            <p class="p200 mt-xs"><?php echo $types_fillers_description ?></p>
+                        <?php } ?>
+                        <div class="mt-xl"></div>
+                        <?php if (isset($types_fillers)) { ?>
+                            <?php foreach ($types_fillers as $scm) { ?>
+                                <hr class="is-hidden-touch" />
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                            <?php } ?>
+                            <hr class="is-hidden-touch" />
+                        <?php } ?>
+                    </section>
+                <?php } ?>
+                <?php if (isset($types_combo_title)) { ?>
+                    <section id="types-combo" class="large-margin">
+                        <h2 class="h500"><?php echo $types_combo_title; ?></h2>
+                        <?php if (isset($types_combo_description)) { ?>
+                            <p class="p200 mt-xs"><?php echo $types_combo_description ?></p>
+                        <?php } ?>
+                        <div class="mt-xl"></div>
+                        <?php if (isset($types_combo)) { ?>
+                            <?php foreach ($types_combo as $scm) { ?>
+                                <hr class="is-hidden-touch" />
+                                <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/service_card/service_card.php') ?>
+                            <?php } ?>
+                            <hr class="is-hidden-touch" />
                         <?php } ?>
                     </section>
                 <?php } ?>
