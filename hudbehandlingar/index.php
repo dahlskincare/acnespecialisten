@@ -176,6 +176,11 @@ $people_search_for = array(
         url_title: 'Läs mer om PRX-T33'
     ),
     new Treatment(
+        label: 'HIFU',
+        url: '/varumarken/hifu/',
+        url_title: 'Läs mer om HIFU'
+    ),
+    new Treatment(
         label: 'Dermabrasion',
         url: '/hudbehandlingar/dermabrasion/',
         url_title: 'Läs mer om dermabrasion'
