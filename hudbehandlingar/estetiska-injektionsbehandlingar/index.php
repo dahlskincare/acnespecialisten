@@ -23,12 +23,12 @@ $model = new Service(
     image_large: 'bilder/hudbehandlingar/424x456/injektionsbehandlingar.webp',
     image_alt: 'Ansiktsbehandlingar för problemhy',
     image_title: 'Ansiktsbehandlingar för problemhy',
-    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
-    consultation_url_label: 'Boka hudkonsultation',
-    consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
-    booking_url_label: 'Boka behandling',
-    booking_url_title: 'Boka tid för behandling',
+    consultation_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300',
+    consultation_url_label: 'Boka Sundbyberg',
+    consultation_url_title: 'Boka injektionsbehandling på Sundbyberg',
+    booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
+    booking_url_label: 'Boka Östermalm',
+    booking_url_title: 'Boka injektionsbehandling på Östermalm',
 );
 
 $floating_box = 'Moderna och säkra injektionsbehandlingar för ett brett utbud av hudproblem.';
