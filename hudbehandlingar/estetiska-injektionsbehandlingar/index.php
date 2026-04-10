@@ -49,100 +49,198 @@ $top_articles = array(
     ),
 );
 
-$treatment_areas_title = 'Behandlingar per klinik';
-$treatment_areas_text = '<p class="p200">Vi erbjuder injektionsbehandlingar på båda våra kliniker. Välj din föredragna klinik nedan för att se tillgängliga behandlingar och boka tid.</p>';
+$treatment_areas_title = 'Välj behandlingstyp';
+$treatment_areas_text = '<p class="p200">Vi erbjuder estetiska injektionsbehandlingar på båda våra kliniker i Stockholm. Välj behandlingstyp nedan och sedan vilken klinik som passar dig bäst.</p>';
 
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
-        image_alt: 'Sundbyberg',
-        image_title: 'Sundbyberg',
-        title: 'Sundbyberg',
-        description: '<p class="p200">På vår klinik i Sundbyberg erbjuder vi toxinbehandlingar och fillers baserat på ml. Vi anpassar alltid mängden efter dina behov. Fler behandlingar och kombinationer finns att diskutera vid konsultation.</p>',
+        image_alt: 'Toxin & Fillers',
+        image_title: 'Toxin & Fillers',
+        title: 'Toxin & Fillers',
+        description: '<p class="p200">Vi erbjuder toxinbehandlingar och fillers på båda våra kliniker. På Sundbyberg arbetar vi ml-baserat, på Östermalm arbetar vi områdesbaserat. Alla behandlingar kräver en kostnadsfri konsultation enligt lag.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Toxin 1x område',
-                image_title: 'Toxin 1x område',
+                image_alt: 'Toxin 1x område - Sundbyberg',
+                image_title: 'Toxin 1x område - Sundbyberg',
                 title: 'Toxin 1x område',
                 duration: '30 min',
                 price: '2 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493',
-                url_label: 'Boka',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-1x-omrade-2181493',
+                url_label: 'Boka Sundbyberg',
                 url_title: 'Boka Toxin 1x område på Sundbyberg'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Toxin 2x områden',
-                image_title: 'Toxin 2x områden',
+                image_alt: 'Toxin 1x område - Östermalm',
+                image_title: 'Toxin 1x område - Östermalm',
+                title: 'Toxin 1x område',
+                duration: '30 min',
+                price: '2 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-1x-omrade-3437248',
+                url_label: 'Boka Östermalm',
+                url_title: 'Boka Toxin 1x område på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 2x områden - Sundbyberg',
+                image_title: 'Toxin 2x områden - Sundbyberg',
                 title: 'Toxin 2x områden',
                 duration: '30 min',
                 price: '2 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-2181712',
-                url_label: 'Boka',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-2x-omraden-2181712',
+                url_label: 'Boka Sundbyberg',
                 url_title: 'Boka Toxin 2x områden på Sundbyberg'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Toxin 3x områden',
-                image_title: 'Toxin 3x områden',
+                image_alt: 'Toxin 2x områden - Östermalm',
+                image_title: 'Toxin 2x områden - Östermalm',
+                title: 'Toxin 2x områden',
+                duration: '30 min',
+                price: '2 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-2x-omraden-3437249',
+                url_label: 'Boka Östermalm',
+                url_title: 'Boka Toxin 2x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin 3x områden - Sundbyberg',
+                image_title: 'Toxin 3x områden - Sundbyberg',
                 title: 'Toxin 3x områden',
                 duration: '30 min',
                 price: '3 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-2181669',
-                url_label: 'Boka',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-3x-omraden-2181669',
+                url_label: 'Boka Sundbyberg',
                 url_title: 'Boka Toxin 3x områden på Sundbyberg'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Fillers 1 ml',
-                image_title: 'Fillers 1 ml',
+                image_alt: 'Toxin 3x områden - Östermalm',
+                image_title: 'Toxin 3x områden - Östermalm',
+                title: 'Toxin 3x områden',
+                duration: '30 min',
+                price: '3 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-3x-omraden-3437247',
+                url_label: 'Boka Östermalm',
+                url_title: 'Boka Toxin 3x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Fillers 1 ml - Sundbyberg',
+                image_title: 'Fillers 1 ml - Sundbyberg',
                 title: 'Fillers 1 ml',
                 duration: '40 min',
                 price: '3 595 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-2181434',
-                url_label: 'Boka',
+                url_label: 'Boka Sundbyberg',
                 url_title: 'Boka Fillers 1 ml på Sundbyberg'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Fillers 2 ml',
-                image_title: 'Fillers 2 ml',
+                image_alt: 'Fillers 1x område - Östermalm',
+                image_title: 'Fillers 1x område - Östermalm',
+                title: 'Fillers 1x område',
+                duration: '40 min',
+                price: '3 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-1x-omrade-3437282',
+                url_label: 'Boka Östermalm',
+                url_title: 'Boka Fillers 1x område på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Fillers 2 ml - Sundbyberg',
+                image_title: 'Fillers 2 ml - Sundbyberg',
                 title: 'Fillers 2 ml',
                 duration: '40 min',
                 price: '5 595 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-2-ml-2181435',
-                url_label: 'Boka',
+                url_label: 'Boka Sundbyberg',
                 url_title: 'Boka Fillers 2 ml på Sundbyberg'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Fillers 3 ml',
-                image_title: 'Fillers 3 ml',
+                image_alt: 'Fillers 2x områden - Östermalm',
+                image_title: 'Fillers 2x områden - Östermalm',
+                title: 'Fillers 2x områden',
+                duration: '40 min',
+                price: '5 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437283',
+                url_label: 'Boka Östermalm',
+                url_title: 'Boka Fillers 2x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Fillers 3 ml - Sundbyberg',
+                image_title: 'Fillers 3 ml - Sundbyberg',
                 title: 'Fillers 3 ml',
                 duration: '60 min',
                 price: '7 595 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-3-ml-2181436',
-                url_label: 'Boka',
+                url_label: 'Boka Sundbyberg',
                 url_title: 'Boka Fillers 3 ml på Sundbyberg'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Fillers - 1 ml Påfyllning (inom 2 månader)',
-                image_title: 'Fillers - 1 ml Påfyllning (inom 2 månader)',
-                title: 'Fillers - 1 ml Påfyllning (inom 2 mån)',
+                image_alt: 'Fillers 3x områden - Östermalm',
+                image_title: 'Fillers 3x områden - Östermalm',
+                title: 'Fillers 3x områden',
+                duration: '40 min',
+                price: '7 995 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-3x-omraden-3437284',
+                url_label: 'Boka Östermalm',
+                url_title: 'Boka Fillers 3x områden på Östermalm'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin + Filler - Sundbyberg',
+                image_title: 'Toxin + Filler - Sundbyberg',
+                title: 'Toxin + Filler',
+                duration: '60 min',
+                price: 'Från 5 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-filler-2181666',
+                url_label: 'Boka Sundbyberg',
+                url_title: 'Boka Toxin + Filler på Sundbyberg'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Toxin + Filler - Östermalm',
+                image_title: 'Toxin + Filler - Östermalm',
+                title: 'Toxin + Filler',
+                duration: '40 min',
+                price: '5 595 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-filler-3437245',
+                url_label: 'Boka Östermalm',
+                url_title: 'Boka Toxin + Filler på Östermalm'
+            ),
+        )
+    ),
+    new TreatmentArea(
+        image_small: null,
+        image_large: null,
+        image_alt: 'Hyalase',
+        image_title: 'Hyalase',
+        title: 'Hyalase',
+        description: '<p class="p200">Hyalase används för att lösa upp oönskad filler. Behandlingen finns på vår klinik i Sundbyberg.</p>',
+        items: array(
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Påfyllning (inom 2 månader)',
+                image_title: 'Påfyllning (inom 2 månader)',
+                title: 'Påfyllning (inom 2 mån)',
                 duration: '30 min',
                 price: '2 395 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-pafyllning-inom-2-manader-2181439',
                 url_label: 'Boka',
-                url_title: 'Boka Fillers påfyllning på Sundbyberg'
+                url_title: 'Boka Påfyllning på Sundbyberg'
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Fillers - Hyalase (Borttagning av fillers)',
-                image_title: 'Fillers - Hyalase (Borttagning av fillers)',
-                title: 'Fillers - Hyalase (Borttagning)',
+                image_alt: 'Hyalase (Borttagning av fillers)',
+                image_title: 'Hyalase (Borttagning av fillers)',
+                title: 'Hyalase (Borttagning)',
                 duration: '60 min',
                 price: '2 595 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalase-borttagning-av-fillers-2181440',
@@ -151,9 +249,9 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Fillers - Hyalase (Återbesök & Kontroll)',
-                image_title: 'Fillers - Hyalase (Återbesök & Kontroll)',
-                title: 'Fillers - Hyalase (Återbesök)',
+                image_alt: 'Hyalase (Återbesök & Kontroll)',
+                image_title: 'Hyalase (Återbesök & Kontroll)',
+                title: 'Hyalase (Återbesök)',
                 duration: '60 min',
                 price: 'Gratis',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalase-aterbesok-kontroll-2181441',
@@ -165,88 +263,11 @@ $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
         image_large: null,
-        image_alt: 'Östermalm',
-        image_title: 'Östermalm',
-        title: 'Östermalm',
-        description: '<p class="p200">På vår klinik på Östermalm erbjuder vi toxinbehandlingar och fillers baserat på antal områden. Vi anpassar alltid behandlingen efter dina behov. Fler kombinationer samt specialbehandlingar som hyperhidros och medicinska behandlingar finns att diskutera vid konsultation.</p>',
+        image_alt: 'Medicinsk Toxin',
+        image_title: 'Medicinsk Toxin',
+        title: 'Medicinsk Toxin',
+        description: '<p class="p200">Vi erbjuder medicinsk toxinbehandling för hyperhidros (överdriven svettning) samt behandling av tandgnissling, käkspänningar, migrän och spänningshuvudvärk. Finns på vår klinik på Östermalm.</p>',
         items: array(
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Toxin 1x område',
-                image_title: 'Toxin 1x område',
-                title: 'Toxin 1x område',
-                duration: '30 min',
-                price: '2 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-1x-omrade-3437248',
-                url_label: 'Boka',
-                url_title: 'Boka Toxin 1x område på Östermalm'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Toxin 2x områden',
-                image_title: 'Toxin 2x områden',
-                title: 'Toxin 2x områden',
-                duration: '30 min',
-                price: '2 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-2x-omraden-3437249',
-                url_label: 'Boka',
-                url_title: 'Boka Toxin 2x områden på Östermalm'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Toxin 3x områden',
-                image_title: 'Toxin 3x områden',
-                title: 'Toxin 3x områden',
-                duration: '30 min',
-                price: '3 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-3x-omraden-3437247',
-                url_label: 'Boka',
-                url_title: 'Boka Toxin 3x områden på Östermalm'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Fillers 1x område',
-                image_title: 'Fillers 1x område',
-                title: 'Fillers 1x område',
-                duration: '40 min',
-                price: '3 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-1x-omrade-3437282',
-                url_label: 'Boka',
-                url_title: 'Boka Fillers 1x område på Östermalm'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Fillers 2x områden',
-                image_title: 'Fillers 2x områden',
-                title: 'Fillers 2x områden',
-                duration: '40 min',
-                price: '5 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437283',
-                url_label: 'Boka',
-                url_title: 'Boka Fillers 2x områden på Östermalm'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Fillers 3x områden',
-                image_title: 'Fillers 3x områden',
-                title: 'Fillers 3x områden',
-                duration: '40 min',
-                price: '7 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-3x-omraden-3437284',
-                url_label: 'Boka',
-                url_title: 'Boka Fillers 3x områden på Östermalm'
-            ),
-            new TreatmentAreaItem(
-                image: null,
-                image_alt: 'Toxin 1x område + Filler',
-                image_title: 'Toxin 1x område + Filler',
-                title: 'Toxin 1x område + Filler',
-                duration: '40 min',
-                price: '5 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437245',
-                url_label: 'Boka',
-                url_title: 'Boka Toxin + Filler på Östermalm'
-            ),
             new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Hyperhidros - Armhålor',
@@ -282,9 +303,9 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Medicinskt Toxin - Bruxism/Tandgnissling',
-                image_title: 'Medicinskt Toxin - Bruxism/Tandgnissling',
-                title: 'Medicinskt Toxin - Bruxism/Tandgnissling',
+                image_alt: 'Bruxism/Tandgnissling',
+                image_title: 'Bruxism/Tandgnissling',
+                title: 'Bruxism/Tandgnissling',
                 duration: '30 min',
                 price: '4 995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-bruxism-tandgnissling-3442788',
@@ -293,9 +314,9 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Medicinskt Toxin - Masseter',
-                image_title: 'Medicinskt Toxin - Masseter',
-                title: 'Medicinskt Toxin - Masseter',
+                image_alt: 'Masseter',
+                image_title: 'Masseter',
+                title: 'Masseter',
                 duration: '30 min',
                 price: '4 995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-masseter-3442789',
@@ -304,9 +325,9 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Medicinskt Toxin - Migrän',
-                image_title: 'Medicinskt Toxin - Migrän',
-                title: 'Medicinskt Toxin - Migrän',
+                image_alt: 'Migrän',
+                image_title: 'Migrän',
+                title: 'Migrän',
                 duration: '30 min',
                 price: '4 995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-migran-3442790',
@@ -315,9 +336,9 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Medicinskt Toxin - Spänningshuvudvärk',
-                image_title: 'Medicinskt Toxin - Spänningshuvudvärk',
-                title: 'Medicinskt Toxin - Spänningshuvudvärk',
+                image_alt: 'Spänningshuvudvärk',
+                image_title: 'Spänningshuvudvärk',
+                title: 'Spänningshuvudvärk',
                 duration: '30 min',
                 price: '4 995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-spanningshuvudvark-3442791',
@@ -326,67 +347,15 @@ $treatment_areas = array(
             ),
             new TreatmentAreaItem(
                 image: null,
-                image_alt: 'Medicinskt Toxin - Nackspänningar',
-                image_title: 'Medicinskt Toxin - Nackspänningar',
-                title: 'Medicinskt Toxin - Nackspänningar',
+                image_alt: 'Nackspänningar',
+                image_title: 'Nackspänningar',
+                title: 'Nackspänningar',
                 duration: '30 min',
                 price: '4 995 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-nackspanningar-3442792',
                 url_label: 'Boka',
                 url_title: 'Boka Nackspänningar-behandling på Östermalm'
             ),
-        )
-    ),
-);
-
-$combos_title = 'Kombinationsbehandlingar';
-$combos = array(
-    new ServiceCombo(
-        name: 'Toxin + Filler - Sundbyberg',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Toxin + Filler kombinationsbehandling',
-        image_title: 'Toxin + Filler kombinationsbehandling',
-        duration: '60 min',
-        price: 'Från 5 595 kr',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-filler-2181666',
-        booking_url_label: 'Boka på Sundbyberg',
-        booking_url_title: 'Boka Toxin + Filler på Sundbyberg',
-        items: array(
-            new ServiceComboItem(
-                title: 'Toxin (1 ml)',
-                price: '2 595 kr',
-                savings: '',
-            ),
-            new ServiceComboItem(
-                title: 'Filler (1 ml)',
-                price: '3 595 kr',
-                savings: 'Spara 595 kr',
-            )
-        )
-    ),
-    new ServiceCombo(
-        name: 'Toxin + Filler - Östermalm',
-        image_small: null,
-        image_large: null,
-        image_alt: 'Toxin + Filler kombinationsbehandling',
-        image_title: 'Toxin + Filler kombinationsbehandling',
-        duration: '40 min',
-        price: '5 595 kr',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437245',
-        booking_url_label: 'Boka på Östermalm',
-        booking_url_title: 'Boka Toxin + Filler på Östermalm',
-        items: array(
-            new ServiceComboItem(
-                title: 'Toxin (1x område)',
-                price: '2 595 kr',
-                savings: '',
-            ),
-            new ServiceComboItem(
-                title: 'Filler (1x område)',
-                price: '3 595 kr',
-                savings: 'Spara 595 kr',
-            )
         )
     ),
 );
