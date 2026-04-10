@@ -18,7 +18,7 @@ $model = new Service(
     image_large: 'bilder/varumarken/424x456/hifu.webp',
     image_alt: 'HIFU ultraljudsbehandling',
     image_title: 'HIFU ultraljudsbehandling',
-    consultation_url: 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Brand&Consultationwhat=Brand_HIFU',
+    consultation_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/konsultation-hifu-3442720',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
     booking_url: 'https://boka.acnespecialisten.se?flow=hifu',
@@ -50,7 +50,7 @@ $treatment_areas = array(
                 title: 'Hifu - Ansikte + Hals',
                 duration: '60 min',
                 price: '7 750 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Face_Neck',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-ansikte-hals-3442698',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU ansikte + hals'
             ),
@@ -61,7 +61,7 @@ $treatment_areas = array(
                 title: 'Hifu - Kinder + Nasolabiala linjer + Käklinje',
                 duration: '30 min',
                 price: '6 200 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Cheeks_Jawline',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-kinder-nasolabiala-linjer-kaklinje-3442710',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU kinder + nasolabiala linjer + käklinje'
             ),
@@ -71,10 +71,21 @@ $treatment_areas = array(
                 image_title: 'Hifu - Ögonbrynslyft + Panna',
                 title: 'Hifu - Ögonbrynslyft + Panna',
                 duration: '30 min',
-                price: '4 500 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Eyes_Forehead',
+                price: '4 900 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-ogonbrynslyft-panna-3442695',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU ögonbrynslyft + panna'
+            ),
+            new TreatmentAreaItem(
+                image: null,
+                image_alt: 'Hifu - Hals + Dubbelhaka',
+                image_title: 'Hifu - Hals + Dubbelhaka',
+                title: 'Hifu - Hals + Dubbelhaka',
+                duration: '30 min',
+                price: '4 500 kr',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-hals-dubbelhaka-3442716',
+                url_label: 'Boka',
+                url_title: 'Boka tid för HIFU hals + dubbelhaka'
             ),
         )
     ),
@@ -93,7 +104,7 @@ $treatment_areas = array(
                 title: 'Hifu - Mage',
                 duration: '60 min',
                 price: '5 200 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Stomach',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-mage-3442712',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU mage'
             ),
@@ -104,7 +115,7 @@ $treatment_areas = array(
                 title: 'Hifu - Kärlekshandtag',
                 duration: '30 min',
                 price: '3 900 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_LoveHandles',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-karlekshandtag-3442703',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU kärlekshandtag'
             ),
@@ -115,7 +126,7 @@ $treatment_areas = array(
                 title: 'Hifu - Insida lår',
                 duration: '30 min',
                 price: '4 500 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_InnerThigh',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-insida-lar-3442705',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU insida lår'
             ),
@@ -126,7 +137,7 @@ $treatment_areas = array(
                 title: 'Hifu - Baksida lår',
                 duration: '30 min',
                 price: '4 500 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_BackThigh',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-baksida-lar-3442719',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU baksida lår'
             ),
@@ -137,7 +148,7 @@ $treatment_areas = array(
                 title: 'Hifu - Rygg',
                 duration: '50 min',
                 price: '4 500 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Back',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-rygg-3442697',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU rygg'
             ),
@@ -148,7 +159,7 @@ $treatment_areas = array(
                 title: 'Hifu - Armar',
                 duration: '30 min',
                 price: '3 800 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Arms',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-armar-3442723',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU armar'
             ),
@@ -159,7 +170,7 @@ $treatment_areas = array(
                 title: 'Hifu - Under bh-band',
                 duration: '30 min',
                 price: '3 800 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_UnderBra',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-under-bh-band-3442704',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU under bh-band'
             ),
@@ -170,7 +181,7 @@ $treatment_areas = array(
                 title: 'Hifu - Bröst',
                 duration: '30 min',
                 price: '3 200 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Chest',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-brost-3442724',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU bröst'
             ),
@@ -181,7 +192,7 @@ $treatment_areas = array(
                 title: 'Hifu - Över knän',
                 duration: '30 min',
                 price: '2 700 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Knees',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-over-knan-3442713',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU över knän'
             ),
@@ -192,7 +203,7 @@ $treatment_areas = array(
                 title: 'Hifu - Dekolletage',
                 duration: '30 min',
                 price: '2 700 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Decolletage',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-dekolletage-3442706',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU dekolletage'
             ),
@@ -213,7 +224,7 @@ $treatment_areas = array(
                 title: 'Hifu - Paket - Mage + Kärlekshandtag',
                 duration: '90 min',
                 price: '8 500 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_StomachLoveHandles',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-paket-mage-karlekshandtag-3442717',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU mage + kärlekshandtag'
             ),
@@ -224,7 +235,7 @@ $treatment_areas = array(
                 title: 'Hifu - Paket - Lår + Insida lår',
                 duration: '60 min',
                 price: '8 200 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_Thighs',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-paket-lar-insida-lar-3442722',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU lår + insida lår'
             ),
@@ -235,7 +246,7 @@ $treatment_areas = array(
                 title: 'Hifu - Paket - Överkropp (Armar + Under bh-band + Bröst)',
                 duration: '60 min',
                 price: '7 200 kr',
-                url: 'https://boka.acnespecialisten.se?flow=hifu&area=HIFU_UpperBody',
+                url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/hifu-paket-overkropp-armar-under-bh-band-brost--3442694',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU överkropp'
             ),
