@@ -68,7 +68,7 @@ $treatment_areas = array(
                 title: 'Toxin 1x område',
                 duration: '30 min',
                 price: '2 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-1x-omrade-2181493',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin 1x område på Sundbyberg'
             ),
@@ -79,7 +79,7 @@ $treatment_areas = array(
                 title: 'Toxin 2x områden',
                 duration: '30 min',
                 price: '2 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-2x-omraden-2181712',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-2181712',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin 2x områden på Sundbyberg'
             ),
@@ -90,7 +90,7 @@ $treatment_areas = array(
                 title: 'Toxin 3x områden',
                 duration: '30 min',
                 price: '3 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-3x-omraden-2181669',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-2181669',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin 3x områden på Sundbyberg'
             ),
@@ -112,7 +112,7 @@ $treatment_areas = array(
                 title: 'Fillers 2 ml',
                 duration: '40 min',
                 price: '5 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-2-ml-2181435',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-2-ml-2181409',
                 url_label: 'Boka',
                 url_title: 'Boka Fillers 2 ml på Sundbyberg'
             ),
@@ -123,7 +123,7 @@ $treatment_areas = array(
                 title: 'Fillers 3 ml',
                 duration: '60 min',
                 price: '7 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-3-ml-2181436',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-3-ml-2181327',
                 url_label: 'Boka',
                 url_title: 'Boka Fillers 3 ml på Sundbyberg'
             ),
@@ -134,7 +134,7 @@ $treatment_areas = array(
                 title: 'Toxin + Filler',
                 duration: '60 min',
                 price: 'Från 5 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/toxin-filler-2181666',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-fillers-1-ml-2181417',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin + Filler på Sundbyberg'
             ),
