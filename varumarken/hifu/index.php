@@ -239,17 +239,18 @@ $treatment_areas = array(
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU lår + insida lår'
             ),
-            new TreatmentAreaItem(
+            // Pausad - väntar på ny BokaDirekt-länk
+            /*new TreatmentAreaItem(
                 image: null,
                 image_alt: 'Hifu - Paket - Överkropp (Armar + Under bh-band + Bröst)',
                 image_title: 'Hifu - Paket - Överkropp (Armar + Under bh-band + Bröst)',
                 title: 'Hifu - Paket - Överkropp (Armar + Under bh-band + Bröst)',
                 duration: '60 min',
                 price: '7 200 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/hifu-paket-overkropp-armar-under-bh-band-brost--3442694',
+                url: '',
                 url_label: 'Boka',
                 url_title: 'Boka tid för HIFU överkropp'
-            ),
+            ),*/
         )
     ),
 );
