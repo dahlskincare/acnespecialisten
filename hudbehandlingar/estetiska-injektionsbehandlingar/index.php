@@ -351,7 +351,7 @@ $treatment_areas = array(
                 title: 'Spänningshuvudvärk',
                 duration: '30 min',
                 price: '4 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-spanningshuvudvark-3442791',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-spanningshuvudvark-3442789',
                 url_label: 'Boka',
                 url_title: 'Boka Spänningshuvudvärk-behandling på Östermalm'
             ),
@@ -362,7 +362,7 @@ $treatment_areas = array(
                 title: 'Nackspänningar',
                 duration: '30 min',
                 price: '4 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-nackspanningar-3442792',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-nackspanningar-3442788',
                 url_label: 'Boka',
                 url_title: 'Boka Nackspänningar-behandling på Östermalm'
             ),
@@ -581,7 +581,7 @@ $types_fillers = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-2x-omraden-3437283',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Fillers 2x områden på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437282',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437283',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Fillers 2x områden på Östermalm'
     ),
