@@ -481,9 +481,9 @@ $brand_cards = array(
             description: 'HIFU (High-Intensity Focused Ultrasound) är en avancerad icke-kirurgisk behandling som använder fokuserad ultraljudsenergi för att strama åt huden. Behandlingen når djupt ner till SMAS-lagret och stimulerar kollagenproduktionen för synliga resultat utan kniv eller återhämtningstid.',
             url: 'varumarken/hifu/',
             url_title: 'Läs mer om HIFU',
-            booking_url: 'https://www.bokadirekt.se/places/strandvagen-7-estetik-135883',
+            booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539?sr=47EAD38D_275D_472B_96E6_68A5C5965983',
             booking_url_title: 'Boka tid för HIFU-behandling',
-            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/konsultation-hifu-3442720',
+            consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-hifu-3442781',
             consultation_url_title: 'Boka gratis hudkonsultation',
       ),
 );

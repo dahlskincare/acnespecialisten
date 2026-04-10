@@ -21,7 +21,7 @@ $model = new Service(
     consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-hifu-3442781',
     consultation_url_label: 'Boka hudkonsultation',
     consultation_url_title: 'Boka tid för hudkonsultation',
-    booking_url: 'https://boka.acnespecialisten.se?flow=hifu',
+    booking_url: 'https://www.bokadirekt.se/places/sveriges-skonhetscenter-ostermalm-135539?sr=47EAD38D_275D_472B_96E6_68A5C5965983',
     booking_url_label: 'Boka behandling',
     booking_url_title: 'Boka tid för behandling',
 );
