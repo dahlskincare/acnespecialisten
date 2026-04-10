@@ -991,23 +991,6 @@ $all_brands = array(
                         ?>
                     </section>
                 <?php } ?>
-                <?php if (isset($treatment_areas)) { ?>
-                    <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
-                        <section id="treatment-area-<?php echo $index ?>" class="large-margin">
-                            <h2 class="h500"><?php echo $treatment_area->title ?></h2>
-                            <?php if (isset($treatment_area->description)) { ?>
-                                <div class="mt-xs"><?php echo $treatment_area->description ?></div>
-                            <?php } ?>
-                            <div class="mt-xl">
-                                <?php
-                                foreach ($treatment_area->items as $treatment_area_item) {
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
-                                }
-                                ?>
-                            </div>
-                        </section>
-                    <?php } ?>
-                <?php } ?>
                 <?php if (isset($areas_title) && isset($areas_list)) { ?>
                     <section id="treatment-areas-info" class="large-margin">
                         <h2 class="h500"><?php echo $areas_title; ?></h2>
