@@ -198,7 +198,7 @@ $treatment_areas = array(
                 title: 'Toxin 1x område',
                 duration: '30 min',
                 price: '2 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-1x-omrade-3437248',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-1x-omrade-3437248',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin 1x område på Östermalm'
             ),
@@ -209,7 +209,7 @@ $treatment_areas = array(
                 title: 'Toxin 2x områden',
                 duration: '30 min',
                 price: '2 995 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-2x-omraden-3437249',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-2x-omraden-3437249',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin 2x områden på Östermalm'
             ),
@@ -220,7 +220,7 @@ $treatment_areas = array(
                 title: 'Toxin 3x områden',
                 duration: '30 min',
                 price: '3 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/toxin-3x-omraden-3437247',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-3x-omraden-3437247',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin 3x områden på Östermalm'
             ),
