@@ -51,7 +51,8 @@ $top_articles = array(
 );
 
 $treatment_areas_title = 'Välj klinik och behandlingstyp';
-$treatment_areas_text = '<p class="p200">Vi erbjuder fillers på båda våra kliniker med olika prissättningsmodeller. På Sundbyberg arbetar vi ml-baserat där du betalar per ml hyaluronsyra. På Östermalm arbetar vi områdesbaserat där du betalar per antal områden som ska behandlas. Båda metoderna ger utmärkta resultat - skillnaden ligger i hur vi prissätter behandlingen. Kontakta oss för en kostnadsfri konsultation så hjälper vi dig välja rätt alternativ för dina behov.</p>';
+$treatment_areas_text = '<p class="p200">Vi erbjuder fillers på båda våra kliniker med olika prissättningsmodeller. På Sundbyberg arbetar vi ml-baserat där du betalar per ml hyaluronsyra. På Östermalm arbetar vi områdesbaserat där du betalar per antal områden som ska behandlas. Båda metoderna ger utmärkta resultat, skillnaden ligger i hur vi prissätter behandlingen. Kontakta oss för en kostnadsfri konsultation så hjälper vi dig välja rätt alternativ för dina behov.</p>
+<p class="p200 mt-m">Populära områden att behandla med fillers: läppar, kinder, haka, nasolabialveck, kindben, käklinje, under ögonen och panna. Vi anpassar alltid behandlingen efter dina önskemål.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
