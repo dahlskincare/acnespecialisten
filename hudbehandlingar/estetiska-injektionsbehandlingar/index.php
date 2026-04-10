@@ -64,7 +64,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-1x-omrade-2181493',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Botox 1x område på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-1x-omrade-3442718',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-1x-omrade-3437248',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Botox 1x område på Östermalm'
     ),
@@ -80,7 +80,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-2x-omraden-2181712',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Botox 2x områden på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-2x-omraden-3442721',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-2x-omraden-3437249',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Botox 2x områden på Östermalm'
     ),
@@ -96,7 +96,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/botox-3x-omraden-2181669',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Botox 3x områden på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-3x-omraden-3442701',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-3x-omraden-3437247',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Botox 3x områden på Östermalm'
     ),
@@ -112,7 +112,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Hyperhidros',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-hyperhidros-armhalor-3442702',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-hyperhidros-armhalor-3442783',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Hyperhidros Armhålor på Östermalm'
     ),
@@ -128,7 +128,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Hyperhidros',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-hyperhidros-hander-3442707',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-hyperhidros-hander-3442785',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Hyperhidros Händer på Östermalm'
     ),
@@ -144,7 +144,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Hyperhidros',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-hyperhidros-fotter-3442699',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-hyperhidros-fotter-3442784',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Hyperhidros Fötter på Östermalm'
     ),
@@ -160,7 +160,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Bruxism-behandling',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-bruxism-tandpressning-tandgnissling-3442709',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-bruxism-tandpressning-tandgnissling-3442782',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Bruxism-behandling på Östermalm'
     ),
@@ -176,7 +176,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Masseter-behandling',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-masseter-kakspanningar-3442711',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-masseter-kakspanningar-3442786',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Masseter-behandling på Östermalm'
     ),
@@ -192,7 +192,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Migrän-behandling',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-migran-3442715',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-migran-3442787',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Migrän-behandling på Östermalm'
     ),
@@ -208,7 +208,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Spänningshuvudvärk-behandling',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-spanningshuvudvark-3442714',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-spanningshuvudvark-3442789',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Spänningshuvudvärk-behandling på Östermalm'
     ),
@@ -224,7 +224,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Nackspänningar-behandling',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-nackspanningar-3442700',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-nackspanningar-3442788',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Nackspänningar-behandling på Östermalm'
     ),
@@ -240,7 +240,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-1x-omrade-3437279',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Fillers 1x område på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/fillers-1x-omrade-3442748',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-1x-omrade-3437278',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Fillers 1x område på Östermalm'
     ),
@@ -256,7 +256,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-2x-omraden-3437283',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Fillers 2x områden på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/fillers-2x-omraden-3442747',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-2x-omraden-3437282',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Fillers 2x områden på Östermalm'
     ),
@@ -272,7 +272,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-3x-omraden-3437284',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Fillers 3x områden på Sundbyberg',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/fillers-3x-omraden-3442746',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-3x-omraden-3437284',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Fillers 3x områden på Östermalm'
     ),
@@ -288,7 +288,7 @@ $types = array(
         consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/konsultation-botox-fillers-klinik-3431308',
         consultation_url_label: 'Boka konsultation',
         consultation_url_title: 'Boka konsultation för Botox + Filler',
-        booking_url: 'https://www.bokadirekt.se/boka-tjanst/strandvagen-7-estetik-135883/botox-filler-3442708',
+        booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437245',
         booking_url_label: 'Boka Östermalm',
         booking_url_title: 'Boka Botox + Filler på Östermalm'
     ),
