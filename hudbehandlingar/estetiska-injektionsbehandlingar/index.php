@@ -906,12 +906,22 @@ $all_brands = array(
                 <?php } ?>
                 <?php if (isset($treatment_areas)) { ?>
                     <section id="treatment-areas" class="large-margin">
-                        <h2 class="h500"><?php echo $treatment_areas_title ?></h2>
+                        <?php if (isset($treatment_areas_title)) { ?>
+                            <h2 class="big l10n"><?php echo $treatment_areas_title ?></h2>
+                        <?php } ?>
                         <?php if (isset($treatment_areas_text)) { ?>
                             <div class="mt-xs"><?php echo $treatment_areas_text ?></div>
                         <?php } ?>
+                        <ul id="treatment-area-selector">
+                            <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
+                                <li class="treatment-area-selector-item" data-index="<?php echo $index ?>" onclick="scrollToCategory(this)">
+                                    <?php echo $treatment_area->title ?>
+                                </li>
+                            <?php } ?>
+                        </ul>
+
                         <?php foreach ($treatment_areas as $index => $treatment_area) { ?>
-                            <div class="treatment-area mt-xl4" id="treatment-area-<?php echo $index ?>">
+                            <div class="treatment-area" id="treatment-area-<?php echo $index ?>">
                                 <?php if (isset($treatment_area->image_small)) { ?>
                                     <picture>
                                         <source media="(max-width: 799px)" srcset="<?php echo $treatment_area->image_small ?>">
@@ -921,14 +931,14 @@ $all_brands = array(
                                 <?php } ?>
                                 <h3 class="h300 mt-xl4"><?php echo $treatment_area->title ?></h3>
                                 <div class="mb-xl"><?php echo $treatment_area->description ?></div>
-                                <?php
-                                foreach ($treatment_area->items as $treatment_area_item) {
-                                    include($_SERVER['DOCUMENT_ROOT'] . '/hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
-                                }
-                                ?>
+                            <?php
+                            foreach ($treatment_area->items as $treatment_area_item) {
+                                include($_SERVER['DOCUMENT_ROOT'] . '/hudbehandlingar/widgets/treatment-area-item-card/treatment-area-item-card.php');
+                            }
+                        } ?>
                             </div>
-                        <?php } ?>
                     </section>
+
                 <?php } ?>
                 <?php if (isset($areas_title) && isset($areas_list)) { ?>
                     <section id="treatment-areas-info" class="large-margin">
