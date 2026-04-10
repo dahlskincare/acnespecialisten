@@ -285,9 +285,9 @@ $treatment_areas = array(
                 image_alt: 'Toxin 1x område + Filler',
                 image_title: 'Toxin 1x område + Filler',
                 title: 'Toxin 1x område + Filler',
-                duration: '50 min',
+                duration: '40 min',
                 price: '5 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437250',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/botox-filler-3437245',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin + Filler på Östermalm'
             ),
