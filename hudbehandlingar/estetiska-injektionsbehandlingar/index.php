@@ -155,7 +155,7 @@ $treatment_areas = array(
                 title: 'Påfyllning (inom 2 mån)',
                 duration: '30 min',
                 price: '2 395 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-1-ml-pafyllning-inom-2-manader-2181439',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-pafyllning-1-ml-inom-2-manader--2181637',
                 url_label: 'Boka',
                 url_title: 'Boka Påfyllning på Sundbyberg'
             ),
@@ -166,7 +166,7 @@ $treatment_areas = array(
                 title: 'Hyalase (Borttagning)',
                 duration: '60 min',
                 price: '2 595 kr',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalase-borttagning-av-fillers-2181440',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalase-borttagning-av-fillers--2181537',
                 url_label: 'Boka',
                 url_title: 'Boka Hyalase-behandling på Sundbyberg'
             ),
@@ -177,7 +177,7 @@ $treatment_areas = array(
                 title: 'Hyalase (Återbesök)',
                 duration: '60 min',
                 price: 'Gratis',
-                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalase-aterbesok-kontroll-2181441',
+                url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-acnespecialisten-sundbyberg-19300/fillers-hyalaste-aterbesok-efterkontroll--2181263',
                 url_label: 'Boka',
                 url_title: 'Boka Hyalase återbesök på Sundbyberg'
             ),
