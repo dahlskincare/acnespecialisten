@@ -485,7 +485,7 @@ $faq_categories = array(
       'Behandling mot rosacea' => array(
             new Question(
                   title: 'Vilka är de mest effektiva behandlingarna för rhinophyma?',
-                  text: '<p class="p200">De mest effektiva behandlingarna för rhinophyma innefattar en kombination av rätt hudvårdsprodukter och behandlignar som behandlar och balanserar huden. Dessa behandlingar syftar till att jämna ut hudens yta och förbättra näsans utseende.</p>'
+                  text: '<p class="p200">De mest effektiva behandlingarna för rhinophyma innefattar en kombination av rätt hudvårdsprodukter och behandlingar som behandlar och balanserar huden. Dessa behandlingar syftar till att jämna ut hudens yta och förbättra näsans utseende.</p>'
             ),
 
             new Question(

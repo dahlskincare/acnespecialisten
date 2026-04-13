@@ -851,7 +851,7 @@ $brands_url_title = "Varumärken för Blandhybehandling";
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot akne" href="varumarken/">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot blandhy" href="varumarken/">Se alla varumärken</a>
 
                   </section>
             </div>
