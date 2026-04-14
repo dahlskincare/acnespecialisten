@@ -469,7 +469,7 @@ $articles = array(
             image_alt: 'När ska jag söka hjälp med tecken på mogen hy?',
             image_title: 'När ska jag söka hjälp med tecken på mogen hy?',
             content: '<p class="p200">Mogen hy med tecken på åldrande, som fina linjer, rynkor och förlust av elasticitet, är en naturlig del av åldrandeprocessen. Men för vissa kan dessa tecken på åldrande påverka självkänslan och orsaka obehag. Om du märker att din åldrande börjar påverka ditt välbefinnande, eller om du har provat olika produkter och behandlingar utan framgång, kan det vara dags att söka professionell hjälp. Det är viktigt att komma ihåg att det inte finns någon "minsta gräns" för när det är lämpligt att söka professionell hudvård.</p>
-            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just dina behov. En hudterapeut kan analysera din hudtyp, diskutera möjliga orsaker till dina hudproblem och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och återfuktning till mer avancerade behandlingar som laser och hudföryngring. Så, om du känner att tecknen på åldrnadet påverkar ditt självförtroende eller om du bara vill förbättra hudens utseende, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en förbättrad hy.</p>',
+            <p class="p200 mt-m">Hos en hudspecialist kan du få en personlig konsultation och behandlingsplan som är skräddarsydd för just dina behov. En hudterapeut kan analysera din hudtyp, diskutera möjliga orsaker till dina hudproblem och rekommendera den mest effektiva behandlingsmetoden för dig. Detta kan inkludera allt från djuprengöring och återfuktning till mer avancerade behandlingar som laser och hudföryngring. Så, om du känner att tecknen på åldrandet påverkar ditt självförtroende eller om du bara vill förbättra hudens utseende, tveka inte att söka professionell hjälp. Det är aldrig för tidigt eller för sent att ta steget mot en förbättrad hy.</p>',
       ),
 
       new Article(
@@ -861,7 +861,7 @@ $brands_url_title = "Varumärken för behandling av mogen hy";
                               </a>
                         </div>
                         <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/brands/brands.php'); ?>
-                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot akne" href="varumarken/">Se alla varumärken</a>
+                        <a class="mt-xl button b200 outline expand auto-width is-hidden-desktop l10n" title="Se våra varumärken mot mogen hy" href="varumarken/">Se alla varumärken</a>
 
                   </section>
             </div>
