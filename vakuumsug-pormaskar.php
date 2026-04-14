@@ -17,7 +17,7 @@ $path_segments = array(
 $model = new Service(
     title: 'Portömning med vakuumsug',
     duration: null,
-    price: 'Från 1595 kr',
+    price: 'Från 1995 kr',
     content: '<p class="p200">Vi suger ut pormaskarna effektivt med hjälp av vakuum. Med hjälp av avancerad vakuumteknik och skräddarsydda serum rensar behandlingen porerna på djupet, avlägsnar döda hudceller och återfuktar huden.</p>',
     image_small: 'bilder/varumarken/358x274/hydrafacial.webp',
     image_large: 'bilder/varumarken/424x456/hydrafacial.webp',

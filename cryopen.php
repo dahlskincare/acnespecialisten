@@ -66,7 +66,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot födelsemärken',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -86,7 +86,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot leverfläckar',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -106,7 +106,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot hudflikar',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -126,7 +126,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot skintags',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -146,7 +146,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot Hallonmärke - Jordgubbsmärke - Smultronmärke',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -166,7 +166,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot hemangiom',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -186,7 +186,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot åldersfläckar',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -206,7 +206,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot fibrom',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -226,7 +226,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot seborroisk keratos',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,
@@ -246,7 +246,7 @@ $types = array(
     new Service(
         title: 'CryoPen mot ansiktsvårtor',
         duration: '20 min',
-        price: '1995 kr',
+        price: 'Från 1995 kr',
         content: '',
         image_small: null,
         image_large: null,

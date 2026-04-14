@@ -321,7 +321,7 @@ $treatment_areas = array(
                 image_title: '2x zoner',
                 title: '2x zoner',
                 duration: '30 min',
-                price: '1995 kr',
+                price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=ipl&skipable_problem=SKIP&area=IPL_2xZones',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2x zoner.'

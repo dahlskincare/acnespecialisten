@@ -10,7 +10,7 @@ $seo_image = 'bilder/hudproblem/424x456/arr-fran-finnar.webp';
 $model = new Service(
     title: 'Behandling av Ärr från Finnar',
     duration: null,
-    price: 'Från 1595 kr',
+    price: 'Från 1995 kr',
     content: '<p class="p200">Vi har samlat de mest effektiva behandlingarna för att minska ärr från finnar. Oavsett dina specifika behov, har vi den rätta behandlingen för dig. Om du är osäker på vilken behandling som bäst passar din hudtyp och hjälper till att ta bort ärr från finnar, boka en kostnadsfri konsultation hos oss på AcneSpecialisten. Vi hjälper dig mot en klarare hy, fri från ärr.</p>',
     image_small: 'bilder/hudproblem/358x274/arr-fran-finnar.webp',
     image_large: 'bilder/hudproblem/424x456/arr-fran-finnar.webp',

@@ -258,7 +258,7 @@ $treatment_areas = array(
                 image_title: 'Näsa',
                 title: 'Näsa',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Nose',
                 url_label: 'Boka',
                 url_title: 'Boka tid för näsbehandling'
@@ -280,7 +280,7 @@ $treatment_areas = array(
                 image_title: 'Överläpp',
                 title: 'Överläpp',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_UpperLip',
                 url_label: 'Boka',
                 url_title: 'Boka tid för överläppsbehandling'
@@ -291,7 +291,7 @@ $treatment_areas = array(
                 image_title: 'Haka',
                 title: 'Haka',
                 duration: '20 min',
-                price: '1595 kr',
+                price: '1995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=microneedling&skipable_problem=SKIP&area=Microneedling_Chin',
                 url_label: 'Boka',
                 url_title: 'Boka tid för hakbehandling'
