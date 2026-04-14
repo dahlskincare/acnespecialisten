@@ -184,7 +184,7 @@ $treatment_areas = array(
                 image_title: '2x områden',
                 title: '2x områden',
                 duration: '60 min',
-                price: '3595 kr',
+                price: '3995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -195,7 +195,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '70 min',
-                price: '4595 kr',
+                price: '4995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=infuzion&area=Infuzion_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'

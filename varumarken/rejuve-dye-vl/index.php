@@ -183,7 +183,7 @@ $treatment_areas = array(
                 image_title: 'Ansikte',
                 title: 'Ansikte',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_Face',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av ansiktet'
@@ -259,7 +259,7 @@ $treatment_areas = array(
                 image_title: 'Hals',
                 title: 'Hals',
                 duration: '30 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_Neck',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av halsen'
@@ -281,7 +281,7 @@ $treatment_areas = array(
                 image_title: 'Händer',
                 title: 'Händer',
                 duration: '30 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_Hands',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av händerna'
@@ -302,7 +302,7 @@ $treatment_areas = array(
                 image_title: '1x område',
                 title: '1x område',
                 duration: '50 min',
-                price: '2595 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_1xArea',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 1 område.'
@@ -313,7 +313,7 @@ $treatment_areas = array(
                 image_title: '2x områden',
                 title: '2x områden',
                 duration: '60 min',
-                price: '3595 kr',
+                price: '3995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_2xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2 områden.'
@@ -324,7 +324,7 @@ $treatment_areas = array(
                 image_title: '3x områden',
                 title: '3x områden',
                 duration: '70 min',
-                price: '4595 kr',
+                price: '4995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_3xAreas',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 3 områden.'
