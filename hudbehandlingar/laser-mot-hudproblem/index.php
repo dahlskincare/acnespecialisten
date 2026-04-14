@@ -206,7 +206,7 @@ $types = array(
     new Service(
         title: 'Laserbehandling mot Hudutväxter',
         duration: '20 - 90 min',
-        price: 'Från 1595 kr',
+        price: 'Från 1995 kr',
         content: 'Använder en specifik våglängd av laserljus för att direkt bränna bort pigmentet i leverfläckar och födelsemärken, vilket effektivt tar bort dessa hudförändringar.',
         image_small: 'bilder/hudproblem/102x102/hudforandringar.webp',
         image_large: 'bilder/hudproblem/200x200/hudforandringar.webp',

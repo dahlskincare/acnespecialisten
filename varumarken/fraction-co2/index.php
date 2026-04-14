@@ -137,7 +137,7 @@ $types = array(
     new Service(
         title: 'CO2 laser mot stora porer',
         duration: '90 min',
-        price: '6995 kr',
+        price: 'Från 6995 kr',
         content: 'Minskar utseendet av stora porer genom att förbättra hudens yta och textur, bidrar till en jämnare hudton.',
         image_small: 'bilder/hudproblem/102x102/stora-porer.webp',
         image_large: 'bilder/hudproblem/200x200/stora-porer.webp',
