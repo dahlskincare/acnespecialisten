@@ -270,7 +270,7 @@ $treatment_areas = array(
                 image_title: 'Dekolletage',
                 title: 'Dekolletage',
                 duration: '40 min',
-                price: '2295 kr',
+                price: '2995 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_Decolletage',
                 url_label: 'Boka',
                 url_title: 'Boka tid för Rejuve Dye-VL-behandling av dekolletaget'
@@ -346,7 +346,7 @@ $treatment_areas = array(
                 image_title: '2x zoner',
                 title: '2x zoner',
                 duration: '30 min',
-                price: '1995 kr',
+                price: '2595 kr',
                 url: 'https://boka.acnespecialisten.se?flow=almarejuve&skipable_problem=SKIP&area=IPL_2xZones',
                 url_label: 'Boka',
                 url_title: 'Boka tid för behandling av 2x zoner.'
