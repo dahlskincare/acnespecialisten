@@ -26,7 +26,7 @@ $image_alt = 'Bild som visar behandling av cystisk akne';
 
 $green_banner_content = new GreenBannerContent(
       title: 'Cystisk akne',
-      description: 'CCystisk akne, även känd som nodulocystisk akne, är en av de allvarligaste formerna av akne. Vanligtvis kallas det även för “inåtfinne” i vardagligt tal eftersom finnarna inte täpps på ytan, utan uppstår på grund av inflammation djupt inne i huden. Denna typ av akne visar sig som smärtsamma knölar och bulor och medför en hög risk för ärrbildning. Effektiv och snabb behandling är viktig för att minimera ärr och förbättra hudens utseende.',
+      description: 'Cystisk akne, även känd som nodulocystisk akne, är en av de allvarligaste formerna av akne. Vanligtvis kallas det även för “inåtfinne” i vardagligt tal eftersom finnarna inte täpps på ytan, utan uppstår på grund av inflammation djupt inne i huden. Denna typ av akne visar sig som smärtsamma knölar och bulor och medför en hög risk för ärrbildning. Effektiv och snabb behandling är viktig för att minimera ärr och förbättra hudens utseende.',
       links_touch: [
             new Link('Boka konsultation', 'https://boka.acnespecialisten.se?flow=consultation&ConsultationType=Consultation_Problem&Consultationwhat=Consultation_Problem_Acne', 'Boka gratis Konsultation för Cystisk Acne'),
             new Link('Boka behandling', 'https://boka.acnespecialisten.se?flow=problem&problem=Problem_Acne', 'Boka denna behandling'),
