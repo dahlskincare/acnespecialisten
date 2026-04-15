@@ -3,8 +3,8 @@
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/includes/models.php');
 
-$seo_title = 'HIFU Ultraljud Stockholm - Avancerad hudåtstramning';
-$seo_description = 'HIFU ultraljud är en icke-kirurgisk behandling som stramar åt huden genom fokuserat ultraljud. Stimulerar kollagenproduktionen djupt i SMAS-lagret för synliga resultat.';
+$seo_title = 'HIFU Ultraljud Stockholm - Hudåtstramning utan operation';
+$seo_description = 'HIFU ultraljud stramar upp huden utan kirurgi genom fokuserad ultraljudsenergi. Behandlingen når ner till SMAS-lagret och sätter igång kollagenproduktionen för naturligt lyft.';
 $seo_keywords = 'HIFU, ultraljud, hudåtstramning, Stockholm';
 
 $seo_image = '/images/treatments/large/hifu.webp';
@@ -13,7 +13,7 @@ $model = new Service(
     title: 'HIFU Ultraljud',
     duration: null,
     price: 'Från 4500 kr',
-    content: '<p class="p200">HIFU (High-Intensity Focused Ultrasound) är en avancerad icke-kirurgisk behandling för hudåtstramning. Genom att använda fokuserad ultraljudsenergi stimuleras kollagenproduktionen djupt i huden, inklusive SMAS-lagret, för att ge synliga resultat utan kniv.</p>',
+    content: '<p class="p200">HIFU (High-Intensity Focused Ultrasound) använder fokuserad ultraljudsenergi för att strama upp huden utan operation. Behandlingen når ner till SMAS-lagret och aktiverar hudens egen kollagenproduktion för ett naturligt lyft.</p>',
     image_small: 'bilder/varumarken/358x274/hifu.webp',
     image_large: 'bilder/varumarken/424x456/hifu.webp',
     image_alt: 'HIFU ultraljudsbehandling',
@@ -26,14 +26,14 @@ $model = new Service(
     booking_url_title: 'Boka tid för behandling',
 );
 
-$floating_box = 'HIFU ultraljud för hudåtstramning utan kniv.';
+$floating_box = 'Hudåtstramning med fokuserad ultraljud.';
 
-$description_title = 'HIFU Ultraljud - icke-kirurgisk hudåtstramning';
-$description_text = '<p class="p200">HIFU (High-Intensity Focused Ultrasound) är en banbrytande behandling som använder fokuserad ultraljudsenergi för att strama åt huden på ett icke-kirurgiskt sätt. Tekniken når djupt ner till SMAS-lagret (det lager som kirurger når vid ett kirurgiskt ansiktslyft) och stimulerar kroppens naturliga kollagenproduktion.</p>
-    <p class="p200 mt-m">HIFU är idealisk för dig som vill förbättra hudens fasthet och elasticitet, lyfta kinder och käklinje, minska hängande hud under hakan samt reducera fina linjer och rynkor. Resultaten varar upp till 12-18 månader och behandlingen kräver ingen återhämtningstid - du kan återgå till dina dagliga aktiviteter direkt efter besöket.</p>';
+$description_title = 'Vad är HIFU?';
+$description_text = '<p class="p200">HIFU (High-Intensity Focused Ultrasound) är en behandling som använder fokuserad ultraljudsenergi för att strama upp huden utan kirurgi. Tekniken når ner till SMAS-lagret, samma djup som vid ett kirurgiskt ansiktslyft, och sätter igång hudens kollagenproduktion.</p>
+    <p class="p200 mt-m">Behandlingen passar dig som vill strama upp huden i ansiktet eller på kroppen, lyfta kinder och käklinje, eller minska hängande hud under hakan. Du kan även behandla fina linjer och rynkor. Effekten håller i 12-18 månader beroende på din hudtyp och livsstil. Det finns ingen återhämtningstid efter behandlingen.</p>';
 
 $treatment_areas_title = 'Behandlingsområden';
-$treatment_areas_text = '<p class="p200">HIFU kan användas på flera områden för att effektivt strama åt och lyfta huden. Behandlingen är skräddarsydd för varje specifikt område och ger synliga resultat utan kirurgi.</p>';
+$treatment_areas_text = '<p class="p200">HIFU används på ansiktet, halsen och kroppen för att strama upp och lyfta huden. Varje behandling anpassas efter det område du vill förbättra.</p>';
 $treatment_areas = array(
     new TreatmentArea(
         image_small: null,
@@ -41,7 +41,7 @@ $treatment_areas = array(
         image_alt: 'HIFU ansiktsbehandlingar',
         image_title: 'HIFU ansiktsbehandlingar',
         title: 'HIFU Ultraljud Ansiktet',
-        description: '<p class="p200">HIFU ultraljud kan behandla flera områden i ansiktet och på halsen för optimal hudåtstramning och lyft.</p>',
+        description: '<p class="p200">HIFU behandlar ansiktet och halsen för att strama upp huden och ge ett naturligt lyft.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
@@ -95,7 +95,7 @@ $treatment_areas = array(
         image_alt: 'HIFU kroppsbehandlingar',
         image_title: 'HIFU kroppsbehandlingar',
         title: 'HIFU Ultraljud Kroppen',
-        description: '<p class="p200">HIFU är effektivt för hudåtstramning på olika delar av kroppen. Perfekt för att behandla områden med slapp hud eller för kroppskonturering.</p>',
+        description: '<p class="p200">HIFU stramar upp huden på kroppen och hjälper till med områden där huden blivit slapp.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
@@ -215,7 +215,7 @@ $treatment_areas = array(
         image_alt: 'HIFU paketbehandlingar',
         image_title: 'HIFU paketbehandlingar',
         title: 'HIFU Paket',
-        description: '<p class="p200">Kombinera flera behandlingsområden med våra paketlösningar för bästa resultat och pris.</p>',
+        description: '<p class="p200">Kombinera flera behandlingsområden i ett paket för bättre pris.</p>',
         items: array(
             new TreatmentAreaItem(
                 image: null,
@@ -256,22 +256,22 @@ $treatment_areas = array(
 
 $top_articles = array(
     'preparing' => new Article(
-        title: 'Förberedelser',
+        title: 'Inför behandling',
         image_small: '/bilder/process/358x272/hifu-forberedelser.webp',
         image_large: '/bilder/process/872x456/hifu-forberedelser.webp',
         image_alt: 'Förberedelser inför HIFU-behandling',
         image_title: 'Förberedelser inför HIFU-behandling',
-        content: '<p class="p200">För att få bästa möjliga resultat av din HIFU-behandling är det viktigt att förbereda din hud rätt. Undvik solexponering en vecka före behandlingen och kom med ren hud utan smink eller hudvårdsprodukter.</p>
-        <p class="p200 mt-m">Om du tar blodförtunnande mediciner, informera din hudterapeut i förväg. Det är också bra att dricka mycket vatten dagarna före behandlingen för att hålla huden väl hydrerad.</p>',
+        content: '<p class="p200">Vi börjar alltid med en kostnadsfri konsultation där vår specialist undersöker huden och går igenom dina förväntningar. Under konsultationen får du veta om HIFU passar för just dina behov och vilket behandlingsområde som ger bäst resultat.</p>
+        <p class="p200 mt-m">Undvik sol en vecka före behandlingen och kom med ren hud utan smink. Om du tar blodförtunnande medicin, meddela din specialist vid bokningen. Drick gärna extra mycket vatten dagarna innan för att hålla huden hydrerad.</p>',
     ),
     'process' => new Article(
-        title: 'Behandlingsprocessen',
+        title: 'Hur går behandlingen till?',
         image_small: '/bilder/process/358x272/hifu-process.webp',
         image_large: '/bilder/process/872x456/hifu-process.webp',
         image_alt: 'HIFU behandlingsprocess',
         image_title: 'HIFU behandlingsprocess',
-        content: '<p class="p200">Under HIFU-behandlingen appliceras fokuserad ultraljudsenergi som tränger djupt ner i huden och når SMAS-lagret. Energin skapar små termiska zoner som aktiverar kroppens naturliga kollagenproduktion och hudens läkningsprocess.</p>
-        <p class="p200 mt-m">Behandlingen tar mellan 60-90 minuter beroende på område. Du kan känna en viss värme och pickkänsla under behandlingen, men de flesta upplever det som helt hanterbart. Direkt efter behandlingen kan huden vara något röd och svullen, men detta försvinner normalt inom några timmar.</p>',
+        content: '<p class="p200">Behandlingen börjar med att specialisten rengör området och applicerar gel. HIFU-enheten levererar sedan fokuserad ultraljudsenergi som når ner till SMAS-lagret. Energin värmer upp vävnaden i precisa punkter vilket startar kollagenproduktionen.</p>
+        <p class="p200 mt-m">Tiden varierar mellan 30-90 minuter beroende på vilket område du behandlar. Under behandlingen känner du värme och ibland en stickande känsla när energin når de djupare lagren. Efter behandlingen kan huden vara röd och något svullen, men detta går över inom några timmar. Vissa märker resultat direkt, men den fulla effekten syns efter 2-3 månader när kollagenet byggts upp.</p>',
     ),
 );
 
@@ -284,60 +284,27 @@ $faq_categories = array(
     '' => array(
         new Question(
             title: 'Hur fungerar HIFU-behandling?',
-            text: '<p class="p200">HIFU använder fokuserad ultraljudsenergi som tränger djupt ner i huden och når SMAS-lagret. Energin skapar kontrollerade termiska zoner som stimulerar kroppens naturliga kollagenproduktion och läkningsprocess. Detta leder till strammning och lyft av huden utan kirurgiskt ingrepp.</p>'
+            text: '<p class="p200">HIFU skickar fokuserad ultraljudsenergi ner till SMAS-lagret i huden. Värmen som bildas i dessa punkter sätter igång kollagenproduktionen, vilket stramar upp huden inifrån.</p>'
         ),
         new Question(
             title: 'Hur länge håller resultaten från HIFU?',
-            text: '<p class="p200">Resultaten från HIFU-behandling kan vara synliga direkt, men den fulla effekten utvecklas under 2-3 månader när kollagenproduktionen aktiveras. Resultaten varar vanligtvis 12-18 månader, beroende på din ålder, hudkvalitet och livsstilsfaktorer. Uppföljningsbehandlingar kan förlänga effekten.</p>'
+            text: '<p class="p200">Vissa ser resultat direkt, men den fulla effekten kommer efter 2-3 månader när kollagenet har hunnit byggas upp. Resultatet håller i 12-18 månader beroende på din ålder, hudtyp och livsstil.</p>'
         ),
         new Question(
             title: 'Gör HIFU-behandlingen ont?',
-            text: '<p class="p200">De flesta upplever en viss värme och pickkänsla under HIFU-behandlingen när ultraljudsenergin penetrerar huden. Obehaget är dock hanterbart och kortvarigt. Din hudterapeut kan justera behandlingsintensiteten för att säkerställa din komfort under hela sessionen.</p>'
+            text: '<p class="p200">Du känner värme och ibland en stickande känsla när energin når de djupare hudlagren. De flesta tycker att det är hanterbart. Specialisten kan justera intensiteten om det behövs.</p>'
         ),
         new Question(
             title: 'Finns det någon återhämtningstid efter HIFU?',
-            text: '<p class="p200">HIFU kräver ingen återhämtningstid. Du kan uppleva en viss rodnad och svullnad direkt efter behandlingen, men detta försvinner vanligtvis inom några timmar. Du kan återgå till dina dagliga aktiviteter omedelbart, men det rekommenderas att undvika intensiv träning och bastu i 24 timmar.</p>'
+            text: '<p class="p200">Nej, du kan gå tillbaka till vardagen direkt efter behandlingen. Huden kan vara röd och lite svullen i några timmar. Undvik intensiv träning och bastu i 24 timmar.</p>'
         ),
         new Question(
-            title: 'Vem är en bra kandidat för HIFU?',
-            text: '<p class="p200">HIFU passar bäst för personer som har mild till måttlig hudslapphet och vill förbättra hudens fasthet utan kirurgi. Det är idealiskt för dem i åldern 30-65 år som vill förebygga eller minska tecken på åldrande. En kostnadsfri konsultation hjälper till att avgöra om HIFU är rätt behandling för dig.</p>'
+            title: 'Vem passar HIFU för?',
+            text: '<p class="p200">HIFU fungerar bäst om du har mild till måttlig hudslapphet och vill strama upp huden utan kirurgi. Behandlingen passar oftast personer mellan 30-65 år. Boka en kostnadsfri konsultation så bedömer vi om HIFU passar dig.</p>'
         ),
     )
 );
 $faq_view_more = 'Se fler frågor & svar';
-
-$specialists_title = 'Våra hudterapeuter';
-$specialists = array(
-    new Specialist(
-        name: 'Cazzandra Lindberg',
-        title: 'Hudterapeut sedan 2015',
-        image: 'bilder/hudterapeut/312x312/hudterapeut-cazzandra.webp',
-        image_alt: 'Cazzandra Lindberg, hudterapeut med specialisering i HIFU-behandlingar',
-        image_title: 'Cazzandra Lindberg - Expert på HIFU-behandlingar'
-    ),
-    new Specialist(
-        name: 'Veronika Benedik',
-        title: 'Hudterapeut sedan 1999',
-        image: 'bilder/hudterapeut/312x312/hudterapeut-veronika.webp',
-        image_alt: 'Veronika Benedik, erfaren hudterapeut med fokus på HIFU',
-        image_title: 'Veronika Benedik - Specialist inom HIFU-vård'
-    ),
-    new Specialist(
-        name: 'Julia Eklund',
-        title: 'Hudterapeut sedan 2021',
-        image: 'bilder/hudterapeut/312x312/hudterapeut-julia.webp',
-        image_alt: 'Julia Eklund, hudterapeut med kunskap inom HIFU-behandlingar',
-        image_title: 'Julia Eklund - Hudterapeut specialiserad på HIFU'
-    ),
-    new Specialist(
-        name: 'Vilma Libom',
-        title: 'Hudterapeut sedan 2019',
-        image: 'bilder/hudterapeut/312x312/hudterapeut-vilma.webp',
-        image_alt: 'Vilma Libom, hudterapeut med inriktning mot HIFU-behandlingar',
-        image_title: 'Vilma Libom - Expert inom HIFU-behandlingar'
-    )
-);
-$specialists_view_more = 'Se alla hudterapeuter';
 
 ?>
 <!DOCTYPE html>
@@ -483,21 +450,6 @@ $specialists_view_more = 'Se alla hudterapeuter';
                     <h2 class="big l10n"><?php echo $faq_title ?></h2>
                     <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/faq/faq.php'); ?>
                     <a class="mt-xl button b200 outline expand auto-width l10n" href="fragor-svar.php" title="Se fler frågor"><?php echo $faq_view_more ?></a>
-                </section>
-                <section id="specialists" class="large-margin">
-                    <div class="flex-row justify-space-between">
-                        <h2 class="big l10n"><?php echo $specialists_title ?></h2>
-                        <div class="is-hidden-touch">
-                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(-1)">
-                                <?php icon('arrow-left') ?>
-                            </button>
-                            <button class="round-large grey" aria-label="scroll" onclick="scrollSpecialists(1)">
-                                <?php icon('arrow-right') ?>
-                            </button>
-                        </div>
-                    </div>
-                    <?php include($_SERVER['DOCUMENT_ROOT'] . '/includes/widgets/specialists/specialists-narrow.php'); ?>
-                    <a class="mt-xl button b200 outline expand auto-width l10n" href="/hudterapeut/" title="Se alla hudterapeuter"><?php echo $specialists_view_more ?></a>
                 </section>
             </div>
         </div>
