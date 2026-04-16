@@ -100,7 +100,7 @@ $treatment_areas = array(
                 image_title: 'Toxin Återbesök/Touch-up',
                 title: 'Toxin Återbesök/Touch-up',
                 duration: '30 min',
-                price: '1 595 kr',
+                price: 'Gratis',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/botox-aterbesok-touch-up--3446621',
                 url_label: 'Boka',
                 url_title: 'Boka Toxin Återbesök på Sundbyberg'
@@ -198,7 +198,7 @@ $treatment_areas = array(
                 image_title: 'Fillers Återbesök/Touch-up',
                 title: 'Fillers Återbesök/Touch-up',
                 duration: '30 min',
-                price: '1 595 kr',
+                price: 'Gratis',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-aterbesok-touch-up--3446614',
                 url_label: 'Boka',
                 url_title: 'Boka Fillers Återbesök på Sundbyberg'
