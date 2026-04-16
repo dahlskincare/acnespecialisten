@@ -610,7 +610,7 @@ $types_fillers = array(
     new Service(
         title: 'Fillers 3x områden',
         duration: '40 min',
-        price: '7 995 kr',
+        price: '7 595 kr',
         content: '',
         image_small: null,
         image_large: null,
