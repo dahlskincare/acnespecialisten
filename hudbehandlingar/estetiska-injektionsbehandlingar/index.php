@@ -252,7 +252,7 @@ $treatment_areas = array(
                 image_title: 'Fillers 3x områden',
                 title: 'Fillers 3x områden',
                 duration: '40 min',
-                price: '7 995 kr',
+                price: '7 595 kr',
                 url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-3x-omraden-3437284',
                 url_label: 'Boka',
                 url_title: 'Boka Fillers 3x områden på Östermalm'
