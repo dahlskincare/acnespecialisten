@@ -616,7 +616,7 @@ $types_fillers = array(
         image_large: null,
         image_alt: 'Fillers 3x områden',
         image_title: 'Fillers 3x områden',
-        consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-3x-omraden-3437284',
+        consultation_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-sundbyberg-135394/fillers-3x-omraden-3437285',
         consultation_url_label: 'Boka Sundbyberg',
         consultation_url_title: 'Boka Fillers 3x områden på Sundbyberg',
         booking_url: 'https://www.bokadirekt.se/boka-tjanst/sveriges-skonhetscenter-ostermalm-135539/fillers-3x-omraden-3437284',
